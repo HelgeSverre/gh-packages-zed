@@ -1,0 +1,44 @@
+authors        = ["biomejs <biomejs.dev>"]
+description    = "Biome support for Zed"
+id             = "biome"
+name           = "Biome"
+repository     = "https://github.com/biomejs/biome-zed"
+schema_version = 1
+version        = "0.3.0"
+
+[language_servers.biome]
+code_action_kinds = ["quickfix"]
+language = "JavaScript"
+languages = [
+  "JavaScript",
+  "JSX",
+  "TypeScript",
+  "TSX",
+  "Vue.js",
+  "Astro",
+  "Svelte",
+  "JSON",
+  "JSONC",
+  "CSS",
+  "GraphQL",
+  "HTML",
+]
+name = "Biome Language Server"
+
+[language_servers.biome.language_ids]
+"Astro"      = "astro"
+"CSS"        = "css"
+"GraphQL"    = "graphql"
+"HTML"       = "html"
+"JSON"       = "json"
+"JSONC"      = "jsonc"
+"JSX"        = "javascriptreact"
+"JavaScript" = "javascript"
+"Svelte"     = "svelte"
+"TSX"        = "typescriptreact"
+"TypeScript" = "typescript"
+"Vue.js"     = "vuejs"
+
+[grammars.gritql]
+repository = "https://github.com/honeycombio/tree-sitter-gritql"
+rev        = "3a48815250680e85a44b3ab2fd74031ef3c66b7d"

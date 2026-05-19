@@ -1,0 +1,17 @@
+id = "mermaid-preview"
+name = "Mermaid Preview"
+description = "Render Mermaid diagrams inline in Markdown files"
+version = "0.1.0"
+schema_version = 1
+authors = ["Mermaid Preview Contributors"]
+
+[compatibility]
+zed = "0.210.0"
+
+[language_servers.mermaid]
+name = "Mermaid LSP"
+languages = ["Markdown", "Mermaid"]
+
+[language_servers.mermaid.language_ids]
+"Markdown" = "markdown"
+"Mermaid" = "mermaid"

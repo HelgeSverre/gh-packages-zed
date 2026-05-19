@@ -1,0 +1,31 @@
+id = "oso"
+name = "Oso"
+version = "0.2.0"
+schema_version = 1
+authors = ["Oso Security, Inc."]
+description = "Support for Oso policies written in Polar."
+repository = "https://github.com/osohq/oso-zed"
+
+[grammars.polar]
+repository = "https://github.com/osohq/tree-sitter-polar"
+rev = "30ad5d860fdca230661f3112aa4dbd159b39a1ea"
+
+[language_servers.polar]
+name = "Polar"
+languages = ["Polar"]
+
+[[capabilities]]
+kind = "process:exec"
+command = "oso-cloud"
+args = ["**"]
+
+[[capabilities]]
+kind = "process:exec"
+command = "oso-cloud-local"
+args = ["**"]
+
+[[capabilities]]
+kind = "download_file"
+# This is the host for the Oso Cloud binary installer (see https://cloud.osohq.com/install.sh)
+host = "d3i4cc4dqewpo9.cloudfront.net"
+path = ["**"]

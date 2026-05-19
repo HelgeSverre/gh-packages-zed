@@ -1,0 +1,9 @@
+id = "clingo_extension"
+name = "Clingo Tree-Sitter Extension"
+version = "0.0.1"
+schema_version = 1
+authors = ["Hannes Weichelt <mail@hweichelt.de>"]
+
+[grammars.clingo]
+repository = "https://github.com/potassco/tree-sitter-clingo"
+rev = "main"

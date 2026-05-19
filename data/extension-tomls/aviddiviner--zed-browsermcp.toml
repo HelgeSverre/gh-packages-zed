@@ -1,0 +1,10 @@
+id = "mcp-server-browsermcp"
+name = "BrowserMCP Server"
+description = "Browser automation via the BrowserMCP Model Context Protocol server"
+version = "0.0.1"
+schema_version = 1
+authors = ["David Irvine <aviddiviner@gmail.com>"]
+repository = "https://github.com/aviddiviner/zed-browsermcp"
+
+[context_servers.mcp-server-browsermcp]
+name = "BrowserMCP Server"

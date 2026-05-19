@@ -1,0 +1,11 @@
+id = "statix"
+name = "Statix"
+description = "Lints and suggestions for the Nix programming language"
+version = "0.1.0"
+schema_version = 1
+authors = ["nemeott"]
+repository = "https://github.com/nemeott/statix-zed"
+
+[language_servers.statix]
+name = "Statix Linter"
+language = "Nix"

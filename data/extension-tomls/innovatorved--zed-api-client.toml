@@ -1,0 +1,35 @@
+id = "api-client"
+name = "API Client"
+version = "0.2.0"
+schema_version = 1
+authors = ["Ved Gupta"]
+description = "Send HTTP requests from the Assistant, run .http/.rest files, variables, and history — with syntax highlighting for REST Client-style files."
+repository = "https://github.com/innovatorved/zed-api-client"
+languages = ["languages/http"]
+
+[slash_commands.http]
+description = "Send an HTTP request: /http <METHOD> <URL> [--header \"K: V\"] [--body '...'] [--bearer TOKEN]"
+requires_argument = true
+
+[slash_commands.http-file]
+description = "Run a .http or .rest file from the worktree"
+requires_argument = true
+
+[slash_commands.http-env]
+description = "Manage environment variables: set KEY=VALUE | list | clear"
+requires_argument = true
+
+[slash_commands.http-history]
+description = "View or manage request history: [N|clear]"
+requires_argument = false
+
+[[capabilities]]
+kind = "process:exec"
+command = "zed-api-runner"
+args = ["**"]
+
+[grammars.http]
+repository = "https://github.com/innovatorved/zed-api-client.git"
+rev = "c9f45d1ab8b71175bcccb6abcea457f72d168308"
+path = "vendor/tree-sitter-http"
+

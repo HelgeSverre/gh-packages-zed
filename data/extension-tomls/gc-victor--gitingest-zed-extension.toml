@@ -1,0 +1,11 @@
+id = "gitingest"
+name = "Git Ingest"
+description = "Turn any GitHub repository into a simple text ingest of its codebase for feeding into LLMs."
+version = "0.1.0"
+schema_version = 1
+authors = ["Víctor García"]
+repository = "https://github.com/gc-victor/gitingest"
+
+[slash_commands.gitingest]
+description = "Turn any GitHub repo into code text for LLMs"
+requires_argument = true

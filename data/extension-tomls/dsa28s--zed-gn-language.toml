@@ -1,0 +1,38 @@
+# Copyright 2026 Dora Lee
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+id = "gn"
+name = "GN"
+description = "GN language support with syntax highlighting and gn-language-server integration."
+version = "1.4.0"
+schema_version = 1
+authors = ["Dora Lee"]
+repository = "https://github.com/dsa28s/zed-gn-language.git"
+
+[language_servers.gn-language-server]
+name = "GN Language Server"
+language = "GN"
+languages = ["GN"]
+
+[language_servers.gn-language-server.language_ids]
+"GN" = "gn"
+
+[grammars.gn]
+repository = "https://github.com/tree-sitter-grammars/tree-sitter-gn"
+commit = "bc06955bc1e3c9ff8e9b2b2a55b38b94da923c05"
+
+[[capabilities]]
+kind = "download_file"
+host = "github.com"
+path = ["google", "gn-language-server", "releases", "download", "**"]

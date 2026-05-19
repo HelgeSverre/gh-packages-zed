@@ -1,0 +1,16 @@
+id = "quint"
+name = "Quint"
+description = "Quint language support for Zed."
+version = "0.1.0"
+schema_version = 1
+authors = ["Sergei Shulepov <s.pepyakin@gmail.com>"]
+repository = "https://github.com/pepyakin/quint-zed"
+
+[language_servers.quint_language_server]
+name = "quint-language-server"
+language = "Quint"
+
+[grammars.quint]
+repository = "https://github.com/pepyakin/quint-zed"
+commit = "2e210ffd4d2171787b2e443b09d0f88fbc34c75e"
+path = "vendor/tree-sitter-quint"

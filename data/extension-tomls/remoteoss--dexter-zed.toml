@@ -1,0 +1,11 @@
+id = "dexter"
+name = "Dexter"
+version = "0.1.1"
+schema_version = 1
+authors = ["Nick C <flowerett@users.noreply.github.com>"]
+description = "Fast go-to-definition for Elixir via the Dexter LSP server (for Zed Editor)"
+repository = "https://github.com/remoteoss/dexter-zed"
+
+[language_servers.dexter]
+name = "Dexter"
+languages = ["Elixir", "HEEx"]

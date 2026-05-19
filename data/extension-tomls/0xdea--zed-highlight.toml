@@ -1,0 +1,52 @@
+id = "highlight"
+name = "Highlight"
+version = "0.1.1-alpha"
+authors = ["Marco Ivaldi <raptor@0xdeadbeef.info>"]
+description = "Highlight all occurrences of selected words with multiple colors to quickly identify them in code."
+repository = "https://github.com/0xdea/zed-highlight"
+schema_version = 1
+
+[language_servers.zed-highlight-lsp]
+name = "Highlight LSP"
+languages = [
+    "Bash",
+    "C",
+    "C++",
+    "CSharp",
+    "CSS",
+    "Diff",
+    "Dockerfile",
+    "Docker Compose",
+    "Elixir",
+    "Elm",
+    "Erlang",
+    "Go",
+    "Groovy",
+    "HTML",
+    "Haskell",
+    "Java",
+    "JavaScript",
+    "JSON",
+    "JSONC",
+    "Kotlin",
+    "Lua",
+    "Makefile",
+    "Markdown",
+    "OCaml",
+    "PHP",
+    "Plain Text",
+    "Python",
+    "Ruby",
+    "Rust",
+    "SQL",
+    "Scala",
+    "Shell Script",
+    "Swift",
+    "TOML",
+    "TSX",
+    "TypeScript",
+    "XML",
+    "YAML",
+    "Yara",
+    "Zig",
+]

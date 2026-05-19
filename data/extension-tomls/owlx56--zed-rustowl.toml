@@ -1,0 +1,11 @@
+id = "rustowl"
+name = "Rust Owl"
+version = "0.0.1"
+schema_version = 1
+authors = ["Blackbird <sirius.su128@gmail.com>"]
+description = "RustOwl integration in zed."
+repository = "https://github.com/blackbird314/zed-rustowl"
+
+[language_servers.rustowl]
+name = "RustOwl"
+language = "Rust"

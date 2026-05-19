@@ -1,0 +1,11 @@
+id = "afterpiece"
+name = "Afterpiece"
+version = "0.0.1"
+schema_version = 1
+authors = ["Olimi-org"]
+description = "Afterpiece framework support — diagnostics via ap lsp"
+repository = "https://github.com/Olimi-org/Afterpiece"
+
+[language_servers.ap-lsp]
+name = "Afterpiece LSP"
+languages = ["Go"]

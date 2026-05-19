@@ -1,0 +1,17 @@
+name = "Markdoc"
+id = "markdoc"
+version = "1.0.0"
+schema_version = 1
+description = "Markdoc language support: syntax highlighting, file associations, and editor integration using tree-sitter-markdoc."
+repository = "https://github.com/louiss0/zed-markdoc-extension"
+license = "MIT"
+authors = ["Shelton Louis"]
+categories = ["Language"]
+
+[grammars.markdoc]
+repository = "https://github.com/louiss0/tree-sitter-markdoc"
+rev = "6b39b1502e7da044a86ad0a7411c6f1c324eda45"
+
+[language_servers.markdoc-language-server]
+name = "Markdoc Language LSP"
+languages = ["Markdoc"]

@@ -1,0 +1,12 @@
+authors = ["Navid M"]
+description = "Syntax highlighting and LSP support for Axe"
+id = "axe"
+name = "Axe"
+schema_version = 1
+version = "0.0.1"
+
+languages = ["languages/Axe"]
+
+[grammars.axe]
+commit = "dce5a726f414b5985bde79acbef6fe52416690dc"
+repository = "https://github.com/axelang/axe-tree-sitter"

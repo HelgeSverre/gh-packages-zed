@@ -1,0 +1,10 @@
+id = "mcp-server-qdrant"
+name = "Qdrant MCP Server"
+description = "Qdrant MCP Server for Zed"
+version = "0.1.1"
+schema_version = 1
+authors = ["Hans Doebel <hansdev@mailbox.org>"]
+repository = "https://github.com/hansdoebel/zed-mcp-qdrant"
+
+[context_servers.mcp-server-qdrant]
+name = "Qdrant MCP Server"

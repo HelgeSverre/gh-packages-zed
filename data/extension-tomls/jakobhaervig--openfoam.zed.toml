@@ -1,0 +1,11 @@
+id = "openfoam-syntax"
+name = "OpenFOAM"
+version = "0.1.0"
+schema_version = 1
+authors = ["Jakob Hærvig <hello@jakobhaervig.com"]
+description = "OpenFOAM dictionary file syntax highlighting"
+repository = "https://github.com/jakobhaervig/openfoam.zed"
+
+[grammars.foam]
+repository = "https://github.com/FoamScience/tree-sitter-foam.git"
+rev = "472c24f11a547820327fb1be565bcfff98ea96a4"

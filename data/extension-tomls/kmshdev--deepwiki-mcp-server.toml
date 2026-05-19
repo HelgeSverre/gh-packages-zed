@@ -1,0 +1,11 @@
+id = "deepwiki-mcp-server"
+name = "DeepWiki MCP"
+version = "0.1.0"
+schema_version = 1
+authors = ["Keshav Mishra <me@kmsh.dev>"]
+description = "DeepWiki - Repository Documentation and AI Q&A"
+repository = "https://github.com/keshav1998/deepwiki-mcp-server"
+
+
+[context_servers.deepwiki-mcp-server]
+name = "DeepWiki MCP Server"

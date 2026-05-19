@@ -1,0 +1,20 @@
+id = "supercollider-lang"
+name = "SuperCollider"
+version = "0.1.0"
+schema_version = 1
+authors = ["flowerornament"]
+description = "SuperCollider language support: grammar, queries, LSP bootstrap, evaluation, and snippets."
+repository = "https://github.com/flowerornament/zed-supercollider"
+languages = ["languages/SuperCollider"]
+
+[grammars.supercollider]
+repository = "https://github.com/flowerornament/tree-sitter-supercollider"
+rev = "158aa7599636467416918475d31c9ce72b16facb"
+
+[language_servers.supercollider]
+language = "SuperCollider"
+
+[language_servers.supercollider.initialization_options]
+
+[language_servers.supercollider.language_ids]
+SuperCollider = "supercollider"

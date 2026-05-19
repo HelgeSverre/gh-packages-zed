@@ -1,0 +1,16 @@
+id = "relview"
+name = "RelView"
+version = "0.0.1"
+schema_version = 1
+authors = ["Benjamin Davies <bentendavies@gmail.com>"]
+description = "RelView language support."
+repository = "https://github.com/Benjamin-Davies/zed-relview"
+
+[grammars.relview]
+repository = "https://github.com/Benjamin-Davies/tree-sitter-relview"
+rev = "c6e39673bde6cc13db93c4bbb7ea0dbc383f96f8"
+
+[grammars.relview_relation]
+repository = "https://github.com/Benjamin-Davies/tree-sitter-relview"
+rev = "c6e39673bde6cc13db93c4bbb7ea0dbc383f96f8"
+path = "relation"

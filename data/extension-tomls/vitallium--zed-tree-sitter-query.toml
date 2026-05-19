@@ -1,0 +1,15 @@
+id = "tree-sitter-query"
+name = "Tree Sitter query"
+description = "Support for tree-sitter query files (*.scm)"
+version = "0.1.1"
+schema_version = 1
+authors = ["Vitaly Slobodin <vitaliy.slobodin@gmail.com>"]
+repository = "https://github.com/vitallium/zed-tree-sitter-query"
+
+[grammars.query]
+repository = "https://github.com/tree-sitter-grammars/tree-sitter-query"
+commit = "a225e21d81201be77da58de614e2b7851735677a"
+
+[language_servers.ts-query-ls]
+name = "Tree-sitter Query"
+languages = ["Tree-sitter Query"]

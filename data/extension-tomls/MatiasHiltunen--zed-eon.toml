@@ -1,0 +1,16 @@
+id = "eon"
+name = "Eon"
+description = "Eon language support for Zed."
+version = "0.0.1"
+schema_version = 1
+authors = ["Emil Ernerfeldt <emil.ernerfeldt@gmail.com>"]
+repository = "https://github.com/emilk/eon"
+
+[grammars.eon]
+# Local-development grammar source. Replace with your public tree-sitter repo when publishing.
+repository = "https://github.com/MatiasHiltunen/tree-sitter-eon"
+rev = "f255836aa0d34185701773b2cd624ae199059e98"
+
+[language_servers.eon-lsp]
+name = "Eon Language Server"
+languages = ["Eon"]

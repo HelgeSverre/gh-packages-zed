@@ -1,0 +1,85 @@
+id = "elixir"
+name = "Elixir"
+description = "Elixir support."
+version = "0.6.2"
+schema_version = 1
+authors = [
+    "Marshall Bowers <elliott.codes@gmail.com>",
+    "Alonso Rocha Tapia <altcode@vivaldi.net>",
+]
+repository = "https://github.com/zed-extensions/elixir"
+
+[language_servers.expert]
+name = "Expert"
+languages = [
+    "Elixir",
+    "EEx",
+    "HEEx",
+]
+
+[language_servers.expert.language_ids]
+"Elixir" = "elixir"
+"EEx" = "eex"
+"HEEx" = "heex"
+
+[language_servers.elixir-ls]
+name = "ElixirLS"
+languages = [
+    "Elixir",
+    "EEx",
+    "HEEx",
+]
+
+[language_servers.elixir-ls.language_ids]
+"Elixir" = "elixir"
+"EEx" = "eex"
+"HEEx" = "heex"
+
+[language_servers.dexter]
+name = "Dexter"
+languages = [
+    "Elixir",
+    "EEx",
+    "HEEx",
+]
+
+[language_servers.dexter.language_ids]
+"Elixir" = "elixir"
+"EEx" = "eex"
+"HEEx" = "heex"
+
+[language_servers.next-ls]
+name = "Next LS"
+languages = [
+    "Elixir",
+    "EEx",
+    "HEEx",
+]
+
+[language_servers.next-ls.language_ids]
+"Elixir" = "elixir"
+"EEx" = "eex"
+"HEEx" = "heex"
+
+[language_servers.lexical]
+name = "Lexical"
+languages = [
+    "Elixir",
+    "EEx",
+    "HEEx",
+]
+
+[language_servers.lexical.language_ids]
+"Elixir" = "elixir"
+"EEx" = "eex"
+"HEEx" = "heex"
+
+[debug_adapters.ElixirLS]
+
+[grammars.elixir]
+repository = "https://github.com/elixir-lang/tree-sitter-elixir"
+commit = "450a8194f5a66561135962cfc8d7545a27b61c4c"
+
+[grammars.heex]
+repository = "https://github.com/phoenixframework/tree-sitter-heex"
+commit = "5842537f734d7c12685bf27d6005313e3e5a47a0"

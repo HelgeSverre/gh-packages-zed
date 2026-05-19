@@ -1,0 +1,18 @@
+id = "angular"
+name = "Angular"
+description = "Angular Language support"
+version = "0.0.5"
+schema_version = 1
+authors = ["nathansbradshaw"]
+repository = "https://github.com/nathansbradshaw/zed-angular"
+path_suffixes = ["html", "ng.html"]
+
+[language_servers.angular]
+name = "Angular Language Server"
+languages = ["TypeScript", "HTML", "Angular"]
+language_ids = { "Angular" = "angular", "HTML" = "html", "TypeScript" = "typescript" }
+command = { extension = true }
+
+[grammars.angular]
+repository = "https://github.com/dlvandenberg/tree-sitter-angular"
+commit = "f0d0685701b70883fa2dfe94ee7dc27965cab841"

@@ -1,0 +1,229 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>n8n as code — Zed Extension Safari</title><meta name="description" content="Native Zed extension for n8n-as-code workflows, slash commands, and MCP bridge."><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="n8n as code — Zed Extension Safari"><meta property="og:description" content="Native Zed extension for n8n-as-code workflows, slash commands, and MCP bridge."><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="n8n as code — Zed Extension Safari"><meta name="twitter:description" content="Native Zed extension for n8n-as-code workflows, slash commands, and MCP bridge."><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.DJSXA_CW.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);">  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-4"> <a href="/gh-packages-zed" class="transition" style="color:var(--zed-text-muted);">← All extensions</a> </nav> <div class="flex flex-wrap items-start justify-between gap-4"> <div class="min-w-0"> <div class="font-mono text-xs mb-2" style="color:var(--zed-muted);"> khmuhtadin/zed-n8n-as-code </div> <h1 class="text-2xl sm:text-3xl font-bold break-words leading-tight" style="color:var(--zed-blue-pale);"> n8n as code </h1> <p class="mt-2 text-pretty" style="color:var(--zed-text-muted);"> Native Zed extension for n8n-as-code workflows, slash commands, and MCP bridge. </p> </div> <a href="https://github.com/khmuhtadin/zed-n8n-as-code" target="_blank" rel="noopener" class="zed-btn-primary shrink-0 inline-flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View on GitHub
+</a> </div> <div class="mt-4 flex flex-wrap items-center gap-2"> <span class="version-pill">v0.1.0</span> <span class="cat-badge" data-cat="slash-command">Slash Command</span><span class="cat-badge" data-cat="context-server">Context Server</span> </div> <div class="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm" style="color:var(--zed-text-muted);"> <span class="inline-flex items-center gap-1"> <svg class="w-4 h-4" style="color:var(--zed-lime);" fill="currentColor" viewBox="0 0 20 20"> <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path> </svg> 0 stars
+</span> <span>Rust</span> <span>MIT</span> <span>Updated 3/15/2026</span> <span>schema v1</span> </div> <div class="mt-2 text-sm" style="color:var(--zed-text-muted);">
+by Khairul </div>  </div> </header> <main class="flex-1 max-w-4xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <article class="prose readme-prose max-w-none"><h1 id="user-content-zed-n8n-as-code"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#zed-n8n-as-code"><span class="heading-anchor-icon">#</span></a>zed-n8n-as-code</h1>
+<p>Native Zed extension scaffold for <code>n8n-as-code</code>.</p>
+<h2 id="user-content-what-it-does-today"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#what-it-does-today"><span class="heading-anchor-icon">#</span></a>What it does today</h2>
+<h3 id="user-content-cli-backed-commands-stable"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#cli-backed-commands-stable"><span class="heading-anchor-icon">#</span></a>CLI-Backed Commands (stable)</h3>
+<ul>
+<li><code>/n8n-list</code> - List all workflows via n8nac CLI</li>
+<li><code>/n8n-pull &#x3C;workflowId></code> - Pull remote workflow by ID</li>
+<li><code>/n8n-push &#x3C;filename.workflow.ts></code> - Push local workflow to n8n</li>
+<li><code>/n8n-verify &#x3C;workflowId></code> - Verify workflow by ID</li>
+<li><code>/n8n-validate &#x3C;filename.workflow.ts></code> - Validate local workflow file</li>
+</ul>
+<h3 id="user-content-new-native-commands-phase-2"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#new-native-commands-phase-2"><span class="heading-anchor-icon">#</span></a>NEW: Native Commands (Phase 2)</h3>
+<ul>
+<li><code>/n8n-browse</code> - Rich workflow browser with native HTTP client</li>
+<li><code>/n8n-status</code> - Local/remote workflow diff status (hybrid CLI + native)</li>
+<li><code>/n8n-config</code> - Show extension configuration and settings</li>
+</ul>
+<h3 id="user-content-core-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#core-features"><span class="heading-anchor-icon">#</span></a>Core Features</h3>
+<ul>
+<li>MCP server integration (<code>n8nac</code> context server)</li>
+<li>Native Rust HTTP client to n8n API (health checks + workflow metadata)</li>
+<li>Environment-based configuration system</li>
+<li>Automatic fallback from native to CLI if API key not configured</li>
+<li>Workflow ID and filename completions from parsed CLI output</li>
+<li>Modular codebase (service, commands, completions, settings)</li>
+</ul>
+<h2 id="user-content-architecture"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#architecture"><span class="heading-anchor-icon">#</span></a>Architecture</h2>
+<h3 id="user-content-three-layer-design"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#three-layer-design"><span class="heading-anchor-icon">#</span></a>Three-Layer Design</h3>
+<ol>
+<li><strong>Zed extension layer</strong>: Rust + WebAssembly (wasm32-wasip1), registered via <code>extension.toml</code></li>
+<li><strong>Native service layer</strong>: Direct HTTP client using Zed's http_client API
+<ul>
+<li>Health checks (<code>/healthz</code>)</li>
+<li>Workflow listing (<code>/api/v1/workflows</code>)</li>
+<li>Lightweight metadata queries</li>
+</ul>
+</li>
+<li><strong>CLI delegation layer</strong>: Subprocess execution of <code>n8nac</code> for complex operations
+<ul>
+<li>Push/pull workflows (file I/O + validation)</li>
+<li>Local validation and verification</li>
+<li>Completions via table parsing</li>
+</ul>
+</li>
+</ol>
+<h3 id="user-content-hybrid-approach"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#hybrid-approach"><span class="heading-anchor-icon">#</span></a>Hybrid Approach</h3>
+<p>Commands use <strong>native HTTP</strong> where appropriate (<code>/n8n-browse</code>, <code>/n8n-status</code>) and <strong>CLI delegation</strong> for file operations and complex workflows. This keeps existing stable commands working while introducing native capabilities incrementally.</p>
+<h2 id="user-content-current-limitations"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#current-limitations"><span class="heading-anchor-icon">#</span></a>Current limitations</h2>
+<h3 id="user-content-what-is-not-native-yet"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#what-is-not-native-yet"><span class="heading-anchor-icon">#</span></a>What is NOT native yet</h3>
+<ul>
+<li>Push/pull operations still use CLI (file I/O is complex)</li>
+<li>Validation logic delegated to CLI (full TypeScript AST parsing)</li>
+<li>Completions still parse CLI text output (no caching)</li>
+</ul>
+<h3 id="user-content-zed-extension-api-constraints"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#zed-extension-api-constraints"><span class="heading-anchor-icon">#</span></a>Zed Extension API constraints</h3>
+<ul>
+<li>No custom UI panels - Zed extensions cannot render custom visual components beyond text</li>
+<li>No settings.json schema - Extensions cannot define custom settings (using env vars instead)</li>
+<li>HttpResponse lacks status codes - Must rely on fetch() error handling</li>
+<li>Stateless Extension trait - run_slash_command() receives &#x26;self, limiting init logic</li>
+</ul>
+<h3 id="user-content-what-works-around-these-limits"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#what-works-around-these-limits"><span class="heading-anchor-icon">#</span></a>What works around these limits</h3>
+<ul>
+<li>Rich markdown output with sections (emojis, headers, structured text)</li>
+<li>Environment variable configuration (documented in <code>/n8n-config</code>)</li>
+<li>HTTP errors surfaced as Result::Err, successful responses assumed 2xx</li>
+<li>Settings loaded from env on every command (stateless but functional)</li>
+</ul>
+<h2 id="user-content-install-in-zed-dev-extension"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#install-in-zed-dev-extension"><span class="heading-anchor-icon">#</span></a>Install in Zed (dev extension)</h2>
+<ol>
+<li>Clone this repo locally</li>
+<li>Make sure <code>n8nac</code> works in your shell
+<ul>
+<li><code>n8nac list</code></li>
+</ul>
+</li>
+<li>Optional but recommended: export workspace override
+<ul>
+<li><code>export N8NAC_WORKSPACE=/home/motului/.openclaw/n8nac</code></li>
+</ul>
+</li>
+<li>Open Zed</li>
+<li>Run command palette: <strong>zed: install dev extension</strong></li>
+<li>Pick this repository folder</li>
+<li>Open Zed logs with <code>zed: open log</code> if needed</li>
+<li>For verbose extension logging, start Zed with <code>zed --foreground</code></li>
+</ol>
+<h2 id="user-content-quick-test-plan-in-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#quick-test-plan-in-zed"><span class="heading-anchor-icon">#</span></a>Quick test plan in Zed</h2>
+<p>After the dev extension is installed, open the Assistant / slash-command surface in Zed and test these in order:</p>
+<ol>
+<li><code>/n8n-list</code>
+<ul>
+<li>Expected: workflow list output from <code>n8nac list</code></li>
+</ul>
+</li>
+<li><code>/n8n-verify &#x3C;workflow-id></code>
+<ul>
+<li>Expected: verify output for a real workflow id</li>
+</ul>
+</li>
+<li><code>/n8n-pull &#x3C;workflow-id></code>
+<ul>
+<li>Expected: remote workflow is pulled into the local n8nac workspace</li>
+</ul>
+</li>
+<li><code>/n8n-validate &#x3C;filename.workflow.ts></code>
+<ul>
+<li>Expected: validation output for a local workflow file</li>
+</ul>
+</li>
+<li><code>/n8n-push &#x3C;filename.workflow.ts></code>
+<ul>
+<li>Expected: workflow is pushed back to n8n</li>
+</ul>
+</li>
+</ol>
+<h2 id="user-content-minimal-smoke-test"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#minimal-smoke-test"><span class="heading-anchor-icon">#</span></a>Minimal smoke test</h2>
+<p>Use one real remote workflow id and run:</p>
+<ul>
+<li><code>/n8n-list</code></li>
+<li><code>/n8n-pull &#x3C;id></code></li>
+<li><code>/n8n-verify &#x3C;id></code></li>
+</ul>
+<p>Then use the local filename created by pull and run:</p>
+<ul>
+<li><code>/n8n-validate &#x3C;filename.workflow.ts></code></li>
+</ul>
+<p>Only test <code>/n8n-push</code> after you intentionally change or confirm the local file you want to upload.</p>
+<h2 id="user-content-troubleshooting"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#troubleshooting"><span class="heading-anchor-icon">#</span></a>Troubleshooting</h2>
+<ul>
+<li>If commands fail immediately, verify <code>n8nac</code> is on PATH in the environment Zed inherits.</li>
+<li>If completions are empty, run <code>n8nac list --remote</code> and <code>n8nac list --local</code> in a shell first.</li>
+<li>If Zed loads the extension but commands fail, inspect <code>zed: open log</code>.</li>
+<li>If MCP does not appear, restart Zed after installing the dev extension.</li>
+</ul>
+<h2 id="user-content-configuration-environment-variables"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#configuration-environment-variables"><span class="heading-anchor-icon">#</span></a>Configuration (Environment Variables)</h2>
+<p>Since Zed extensions cannot define custom settings.json schemas yet, configure via environment:</p>
+<h3 id="user-content-cli-configuration"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#cli-configuration"><span class="heading-anchor-icon">#</span></a>CLI Configuration</h3>
+<ul>
+<li><code>N8NAC_BIN</code> - Path to n8nac executable (default: <code>n8nac</code>)</li>
+<li><code>N8NAC_WORKSPACE</code> - Override workspace directory for CLI operations</li>
+</ul>
+<h3 id="user-content-native-service-configuration"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#native-service-configuration"><span class="heading-anchor-icon">#</span></a>Native Service Configuration</h3>
+<ul>
+<li><code>N8N_URL</code> or <code>N8N_HOST</code> - n8n instance URL (default: <code>http://localhost:5678</code>)</li>
+<li><code>N8N_API_KEY</code> - n8n API key for authentication (required for native commands)</li>
+<li><code>N8NAC_NATIVE</code> - Enable/disable native service (default: <code>true</code>)</li>
+</ul>
+<h3 id="user-content-how-to-set-in-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#how-to-set-in-zed"><span class="heading-anchor-icon">#</span></a>How to set in Zed</h3>
+<p>Add to your <code>~/.zshrc</code> or <code>~/.bashrc</code>:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#F97583;--shiki-dark:#F97583">export</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> N8N_URL</span><span style="color:#F97583;--shiki-dark:#F97583">=</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"https://your-n8n.example.com"</span></span>
+<span class="line"><span style="color:#F97583;--shiki-dark:#F97583">export</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> N8N_API_KEY</span><span style="color:#F97583;--shiki-dark:#F97583">=</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"your-api-key-here"</span></span>
+<span class="line"><span style="color:#F97583;--shiki-dark:#F97583">export</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> N8NAC_WORKSPACE</span><span style="color:#F97583;--shiki-dark:#F97583">=</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"/path/to/your/workflows"</span></span></code></pre>
+<p>Or set in Zed's terminal settings (check <code>/n8n-config</code> output for current values).</p>
+<h2 id="user-content-roadmap"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#roadmap"><span class="heading-anchor-icon">#</span></a>Roadmap</h2>
+<h3 id="user-content-phase-1--complete"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#phase-1--complete"><span class="heading-anchor-icon">#</span></a>Phase 1 ✅ COMPLETE</h3>
+<ul>
+<li>Stable slash commands via CLI delegation</li>
+<li>MCP bridge (<code>n8nac</code> context server)</li>
+<li>Workflow ID and filename completions</li>
+</ul>
+<h3 id="user-content-phase-2--complete-this-release"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#phase-2--complete-this-release"><span class="heading-anchor-icon">#</span></a>Phase 2 ✅ COMPLETE (this release)</h3>
+<ul>
+<li>✅ Native HTTP client using Zed's http_client API</li>
+<li>✅ Environment-based configuration system</li>
+<li>✅ <code>/n8n-browse</code> - native rich workflow browser</li>
+<li>✅ <code>/n8n-status</code> - local/remote diff UX (hybrid)</li>
+<li>✅ <code>/n8n-config</code> - show settings and environment</li>
+<li>✅ Modular codebase (service, commands, completions, settings)</li>
+<li>✅ Bootstrap/init with health checks</li>
+<li>⚠️  Native settings UI - NOT POSSIBLE (Zed API limitation, using env vars)</li>
+<li>⚠️  Custom visual panels - NOT POSSIBLE (Zed API limitation, using rich markdown)</li>
+</ul>
+<h3 id="user-content-phase-3-future"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#phase-3-future"><span class="heading-anchor-icon">#</span></a>Phase 3 (Future)</h3>
+<ul>
+<li>Workflow metadata caching (KeyValueStore)</li>
+<li>Streaming workflow updates</li>
+<li>Rich diff output with side-by-side comparison</li>
+<li>Native push/pull if Zed adds filesystem API</li>
+</ul>
+<h3 id="user-content-phase-4-blocked-on-zed-api"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#phase-4-blocked-on-zed-api"><span class="heading-anchor-icon">#</span></a>Phase 4 (Blocked on Zed API)</h3>
+<ul>
+<li>Custom UI panels (waiting for Zed extension API)</li>
+<li>Settings schema in settings.json (waiting for Zed extension API)</li>
+<li>Workflow canvas rendering (waiting for Zed extension API)</li>
+<li>LSP-style diagnostics for workflow validation</li>
+</ul>
+<h2 id="user-content-file-layout"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#file-layout"><span class="heading-anchor-icon">#</span></a>File layout</h2>
+<ul>
+<li><code>extension.toml</code> - Zed manifest (8 slash commands + context server)</li>
+<li><code>Cargo.toml</code> - Rust crate config (cdylib for WASM)</li>
+<li><code>src/lib.rs</code> - Extension trait implementation + command routing</li>
+<li><code>src/service.rs</code> - Native n8n HTTP client (health, list, get)</li>
+<li><code>src/settings.rs</code> - Environment-based configuration</li>
+<li><code>src/commands.rs</code> - Slash command handlers (CLI + native)</li>
+<li><code>src/completions.rs</code> - Argument completion logic</li>
+<li><code>LICENSE</code> - MIT</li>
+<li><code>README.md</code> - This file</li>
+<li><code>TESTING.md</code> - Install and testing guide</li>
+</ul>
+<h2 id="user-content-implementation-notes"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#implementation-notes"><span class="heading-anchor-icon">#</span></a>Implementation Notes</h2>
+<h3 id="user-content-what-is-truly-native-now"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#what-is-truly-native-now"><span class="heading-anchor-icon">#</span></a>What is truly native now</h3>
+<ul>
+<li>HTTP client using <code>zed_extension_api::http_client</code></li>
+<li>Direct API calls to n8n REST endpoints</li>
+<li>Health checks on bootstrap</li>
+<li>Workflow metadata listing without subprocess</li>
+<li>Settings from environment (no external config files)</li>
+</ul>
+<h3 id="user-content-what-remains-cli-backed-and-why"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#what-remains-cli-backed-and-why"><span class="heading-anchor-icon">#</span></a>What remains CLI-backed (and why)</h3>
+<ul>
+<li>Push/pull - require filesystem access beyond extension sandbox</li>
+<li>Validation - complex TypeScript parsing better left to mature CLI</li>
+<li>Completions - already fast enough via table parsing</li>
+</ul>
+<h3 id="user-content-api-discoveries"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#api-discoveries"><span class="heading-anchor-icon">#</span></a>API Discoveries</h3>
+<ul>
+<li><code>HttpResponse</code> has no status field - rely on <code>fetch()</code> returning <code>Err</code> for non-2xx</li>
+<li><code>Extension::run_slash_command</code> takes <code>&#x26;self</code> - cannot store mutable state</li>
+<li>Settings must be environment-based - no extension settings schema yet</li>
+<li>Text output only - no custom panels or visual components</li>
+</ul>
+<p>This implementation honestly documents what Zed's extension API can and cannot do as of zed_extension_api 0.7.</p></article> </main> <footer class="mt-auto" style="background:var(--zed-bg);border-top:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:var(--zed-text-muted);">
+← Back to extension list
+</a> </div> </footer> </body></html>

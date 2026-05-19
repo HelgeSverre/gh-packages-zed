@@ -1,0 +1,27 @@
+id = "dockerfile"
+name = "Dockerfile"
+description = "Dockerfile support."
+version = "0.2.0"
+schema_version = 1
+authors = ["d1y <chenhonzho@gmail.com>", "joshmeads <github@joshmeads.com>"]
+repository = "https://github.com/zed-extensions/dockerfile"
+
+[language_servers.dockerfile-language-server]
+name = "Dockerfile Language Server"
+language = "Dockerfile"
+
+[language_servers.docker-language-server]
+name = "Docker Language Server"
+language = "Dockerfile"
+languages = ["Dockerfile", "Docker Compose"]
+
+[language_servers.docker-language-server.language_ids]
+"Dockerfile" = "dockerfile"
+"Docker Compose" = "docker-compose"
+
+[grammars.dockerfile]
+repository = "https://github.com/camdencheek/tree-sitter-dockerfile"
+commit = "868e44ce378deb68aac902a9db68ff82d2299dd0"
+
+[debug_adapters.buildx-dockerfile]
+schema_path = "./debug_adapter_schemas/buildx-dockerfile.json"

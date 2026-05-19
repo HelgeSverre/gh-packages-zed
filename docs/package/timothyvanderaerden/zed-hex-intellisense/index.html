@@ -1,0 +1,125 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Hex.pm IntelliSense — Zed Extension Safari</title><meta name="description" content="A Zed extension that provides IntelliSense for hex.pm dependencies in Elixir `mix.exs` files."><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Hex.pm IntelliSense — Zed Extension Safari"><meta property="og:description" content="A Zed extension that provides IntelliSense for hex.pm dependencies in Elixir `mix.exs` files."><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Hex.pm IntelliSense — Zed Extension Safari"><meta name="twitter:description" content="A Zed extension that provides IntelliSense for hex.pm dependencies in Elixir `mix.exs` files."><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.DJSXA_CW.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);">  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-4"> <a href="/gh-packages-zed" class="transition" style="color:var(--zed-text-muted);">← All extensions</a> </nav> <div class="flex flex-wrap items-start justify-between gap-4"> <div class="min-w-0"> <div class="font-mono text-xs mb-2" style="color:var(--zed-muted);"> timothyvanderaerden/zed-hex-intellisense </div> <h1 class="text-2xl sm:text-3xl font-bold break-words leading-tight" style="color:var(--zed-blue-pale);"> Hex.pm IntelliSense </h1> <p class="mt-2 text-pretty" style="color:var(--zed-text-muted);"> IntelliSense for hex.pm dependencies in Elixir mix.exs files. Provides package name and version autocompletion powered by the hex.pm API. </p> </div> <a href="https://github.com/timothyvanderaerden/zed-hex-intellisense" target="_blank" rel="noopener" class="zed-btn-primary shrink-0 inline-flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View on GitHub
+</a> </div> <div class="mt-4 flex flex-wrap items-center gap-2"> <span class="version-pill">v0.5.0</span> <span class="cat-badge" data-cat="language-server">Language Server</span> </div> <div class="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm" style="color:var(--zed-text-muted);"> <span class="inline-flex items-center gap-1"> <svg class="w-4 h-4" style="color:var(--zed-lime);" fill="currentColor" viewBox="0 0 20 20"> <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path> </svg> 0 stars
+</span> <span>Rust</span> <span>MIT</span> <span>Updated 5/6/2026</span> <span>schema v1</span> </div> <div class="mt-2 text-sm" style="color:var(--zed-text-muted);">
+by Timothy Vanderaerden </div>  </div> </header> <main class="flex-1 max-w-4xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <article class="prose readme-prose max-w-none"><h1 id="user-content-hexpm-intellisense--zed-extension"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#hexpm-intellisense--zed-extension"><span class="heading-anchor-icon">#</span></a>Hex.pm IntelliSense — Zed Extension</h1>
+<p>A <a href="https://zed.dev">Zed</a> extension that provides IntelliSense for <a href="https://hex.pm">hex.pm</a> dependencies in Elixir <code>mix.exs</code> files, inspired by the <a href="https://github.com/mrmckeb/vscode-hex-pm-intellisense">vscode-hex-pm-intellisense</a> extension for VSCode.</p>
+<h2 id="user-content-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features"><span class="heading-anchor-icon">#</span></a>Features</h2>
+<ul>
+<li><strong>Package name completions</strong> — start typing a package name after <code>{:</code> and get live suggestions from the hex.pm registry ranked by download popularity.</li>
+<li><strong>Version completions</strong> — once you've named a package, open the version string and get all available release versions in three convenient formats:
+<ul>
+<li><code>~> X.Y</code> — semver-compatible constraint (one per minor series, pointing at the latest patch)</li>
+<li><code>>= X.Y.Z</code> — minimum-version constraint</li>
+<li><code>X.Y.Z</code> — exact pin</li>
+</ul>
+</li>
+<li><strong>Caching</strong> — API results are cached for 5 minutes so repeated completions are instant and don't hammer the network.</li>
+<li><strong>Zero noise in non-<code>mix.exs</code> files</strong> — the language server silently ignores every Elixir file that isn't <code>mix.exs</code>.</li>
+</ul>
+<h2 id="user-content-demo"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#demo"><span class="heading-anchor-icon">#</span></a>Demo</h2>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#F97583;--shiki-dark:#F97583">defp</span><span style="color:#B392F0;--shiki-dark:#B392F0"> deps</span><span style="color:#F97583;--shiki-dark:#F97583"> do</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  [</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">    # Type `{:ph` and trigger completions → phoenix, phoenix_html, …</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    {</span><span style="color:#79B8FF;--shiki-dark:#79B8FF">:phoenix</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">, </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"~> 1.7"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">},</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">    # Type `{:phoenix, "` and trigger completions → ~> 1.8, ~> 1.7, >= 1.8.5, …</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    {</span><span style="color:#79B8FF;--shiki-dark:#79B8FF">:ecto_sql</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">, </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"~> 3.12"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">},</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  ]</span></span>
+<span class="line"><span style="color:#F97583;--shiki-dark:#F97583">end</span></span></code></pre>
+<h2 id="user-content-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation"><span class="heading-anchor-icon">#</span></a>Installation</h2>
+<h3 id="user-content-1-install-the-zed-extension"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#1-install-the-zed-extension"><span class="heading-anchor-icon">#</span></a>1. Install the Zed extension</h3>
+<p>Install <strong>Hex.pm IntelliSense</strong> from the Zed Extensions panel (<code>zed: extensions</code>).</p>
+<p>For local development, open the Extensions panel, click <strong>Install Dev Extension</strong>,
+and point it at the root of this repository.</p>
+<blockquote>
+<p><strong>No Rust toolchain required for end users.</strong>  The extension automatically
+downloads the correct prebuilt <code>hex-ls</code> binary for your platform from the
+<a href="https://github.com/timothyvanderaerden/zed-hex-intellisense/releases">GitHub Releases</a>
+page on first use and caches it in Zed's extension working directory.
+Subsequent launches reuse the cached binary; a new download only happens
+when a newer release is available.</p>
+</blockquote>
+<h4 id="user-content-using-a-self-built-binary-instead"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#using-a-self-built-binary-instead"><span class="heading-anchor-icon">#</span></a>Using a self-built binary instead</h4>
+<p>If you prefer to run your own build of <code>hex-ls</code> — or if you develop the
+language server locally — place the binary anywhere on your <code>PATH</code> and the
+extension will use it automatically (PATH lookup always takes priority over the
+downloaded binary):</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> install</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --path</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> hex-ls</span></span></code></pre>
+<h3 id="user-content-2-enable-hex-ls-for-elixir-in-zed-settings"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#2-enable-hex-ls-for-elixir-in-zed-settings"><span class="heading-anchor-icon">#</span></a>2. Enable <code>hex-ls</code> for Elixir in Zed settings</h3>
+<p>Zed only starts the language servers explicitly listed for a language. Add
+<code>hex-ls</code> to the Elixir entry in <code>~/.config/zed/settings.json</code>:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"languages"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "Elixir"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "language_servers"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: [</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"expert"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">, </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"hex-ls"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>If you already have a custom <code>language_servers</code> list for Elixir (e.g. with
+disabled servers prefixed by <code>!</code>), simply append <code>"hex-ls"</code> to it.</p>
+<h3 id="user-content-4-trigger-completions"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#4-trigger-completions"><span class="heading-anchor-icon">#</span></a>4. Trigger completions</h3>
+<p>Open a <code>mix.exs</code> file and press <code>Ctrl+Space</code> (or your configured completion
+shortcut) with the cursor:</p>
+<ul>
+<li>after <code>{:</code> to get package name suggestions</li>
+<li>inside the version string (e.g. <code>"~> "</code>) to get version suggestions</li>
+</ul>
+<h2 id="user-content-project-structure"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#project-structure"><span class="heading-anchor-icon">#</span></a>Project structure</h2>
+<pre><code>hex-intellisense/
+├── extension.toml      ← Zed extension manifest
+├── Cargo.toml          ← Workspace + extension WASM crate
+├── Cargo.lock          ← Committed for reproducible hex-ls installs
+├── src/
+│   └── lib.rs          ← Extension WASM entry point
+└── hex-ls/
+    ├── Cargo.toml
+    └── src/
+        └── main.rs     ← LSP server binary
+</code></pre>
+<h3 id="user-content-component-overview"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#component-overview"><span class="heading-anchor-icon">#</span></a>Component overview</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Component</th><th>Role</th></tr></thead><tbody><tr><td><code>src/lib.rs</code></td><td>Extension WASM — tells Zed where to find <code>hex-ls</code></td></tr><tr><td><code>hex-ls/src/main.rs</code></td><td>Standalone LSP server — handles completions, queries hex.pm API</td></tr></tbody></table>
+<h2 id="user-content-development"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#development"><span class="heading-anchor-icon">#</span></a>Development</h2>
+<p>Run the unit tests for the language server and the WASM extension:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> test</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -p</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> hex-ls</span><span style="color:#6A737D;--shiki-dark:#6A737D">          # language server logic</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> test</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -p</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> hex-intellisense</span><span style="color:#6A737D;--shiki-dark:#6A737D"> # asset-path construction tests</span></span></code></pre>
+<p>During local development of <code>hex-ls</code>, build and install the binary to avoid
+waiting for a GitHub Release download:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> install</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --path</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> hex-ls</span></span></code></pre>
+<p>The extension detects the <code>hex-ls</code> binary on <code>PATH</code> and skips the download
+entirely — the same fast-path used by regular users who install from a release.</p>
+<p>After modifying <code>src/lib.rs</code>, Zed will recompile the WASM extension
+automatically when you reinstall the dev extension.</p>
+<h3 id="user-content-cutting-a-release"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#cutting-a-release"><span class="heading-anchor-icon">#</span></a>Cutting a release</h3>
+<ol>
+<li>Bump the version in <code>Cargo.toml</code> (root), <code>hex-ls/Cargo.toml</code>, <code>extension.toml</code>,
+and the <code>USER_AGENT</code> constant in <code>hex-ls/src/main.rs</code>.</li>
+<li>Update <code>CHANGELOG.md</code>.</li>
+<li>Commit and push to <code>main</code>.</li>
+<li>Push a tag: <code>git tag v0.5.0 &#x26;&#x26; git push --tags</code>.</li>
+<li>The <a href="https://github.com/timothyvanderaerden/zed-hex-intellisense/blob/HEAD/.github/workflows/release.yml" target="_blank" rel="noopener">Release workflow</a> will automatically:
+<ul>
+<li>Build <code>hex-ls</code> for all five platforms and attach archives to a GitHub Release.</li>
+<li>Rebuild <code>extension.wasm</code> from the tagged source and attach it to the same release.</li>
+</ul>
+</li>
+</ol>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>MIT</p></article> </main> <footer class="mt-auto" style="background:var(--zed-bg);border-top:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:var(--zed-text-muted);">
+← Back to extension list
+</a> </div> </footer> </body></html>

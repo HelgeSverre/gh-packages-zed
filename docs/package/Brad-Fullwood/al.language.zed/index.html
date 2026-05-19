@@ -1,0 +1,691 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>AL Language (Business Central) — Zed Extension Safari</title><meta name="description" content="Unofficial AL Language Extension for Zed"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="AL Language (Business Central) — Zed Extension Safari"><meta property="og:description" content="Unofficial AL Language Extension for Zed"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="AL Language (Business Central) — Zed Extension Safari"><meta name="twitter:description" content="Unofficial AL Language Extension for Zed"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.DJSXA_CW.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);">  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-4"> <a href="/gh-packages-zed" class="transition" style="color:var(--zed-text-muted);">← All extensions</a> </nav> <div class="flex flex-wrap items-start justify-between gap-4"> <div class="min-w-0"> <div class="font-mono text-xs mb-2" style="color:var(--zed-muted);"> Brad-Fullwood/al.language.zed </div> <h1 class="text-2xl sm:text-3xl font-bold break-words leading-tight" style="color:var(--zed-blue-pale);"> AL Language (Business Central) </h1> <p class="mt-2 text-pretty" style="color:var(--zed-text-muted);"> AL language support for Microsoft Dynamics 365 Business Central </p> </div> <a href="https://github.com/Brad-Fullwood/al.language.zed" target="_blank" rel="noopener" class="zed-btn-primary shrink-0 inline-flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View on GitHub
+</a> </div> <div class="mt-4 flex flex-wrap items-center gap-2"> <span class="version-pill">v0.1.0</span> <span class="cat-badge" data-cat="grammar">Grammar</span><span class="cat-badge" data-cat="language-server">Language Server</span><span class="cat-badge" data-cat="debug-adapter">Debug Adapter</span><span class="cat-badge" data-cat="snippets">Snippets</span> </div> <div class="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm" style="color:var(--zed-text-muted);"> <span class="inline-flex items-center gap-1"> <svg class="w-4 h-4" style="color:var(--zed-lime);" fill="currentColor" viewBox="0 0 20 20"> <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path> </svg> 0 stars
+</span> <span>Rust</span> <span>MIT</span> <span>Updated 2d ago</span> <span>schema v1</span> </div> <div class="mt-2 text-sm" style="color:var(--zed-text-muted);">
+by Brad Fullwood </div>  </div> </header> <main class="flex-1 max-w-4xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <article class="prose readme-prose max-w-none"><h1 id="user-content-zed-al-extension"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#zed-al-extension"><span class="heading-anchor-icon">#</span></a>Zed AL Extension</h1>
+<blockquote>
+<p><strong>Work in progress.</strong> Not yet published to the Zed extension marketplace.
+APIs, binaries, and on-disk formats may change between commits.</p>
+</blockquote>
+<p>AL (Microsoft Dynamics 365 Business Central) language support for <a href="https://zed.dev">Zed</a>,
+powered by a custom language server written in Rust. The WASM extension is a thin
+adapter; all heavy lifting (parsing, symbol index, diagnostics, formatting, debugging,
+code generation) happens in <code>al-lsp</code> outside the Zed sandbox.</p>
+<hr>
+<h2 id="user-content-contents"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#contents"><span class="heading-anchor-icon">#</span></a>Contents</h2>
+<ul>
+<li><a href="#status">Status</a></li>
+<li><a href="#features">Features</a></li>
+<li><a href="#architecture">Architecture</a></li>
+<li><a href="#prerequisites">Prerequisites</a></li>
+<li><a href="#build--install">Build &#x26; install</a></li>
+<li><a href="#configuration-in-zed">Configuration in Zed</a></li>
+<li><a href="#the-al-explorer-cli">The <code>al-explorer</code> CLI</a></li>
+<li><a href="#al-explorer-tui"><code>al-explorer</code> TUI</a></li>
+<li><a href="#symbol--package-cache">Symbol &#x26; package cache</a></li>
+<li><a href="#debugging">Debugging</a></li>
+<li><a href="#tree-sitter-grammar">Tree-sitter grammar</a></li>
+<li><a href="#development">Development</a></li>
+<li><a href="#testing">Testing</a></li>
+<li><a href="#continuous-integration">Continuous integration</a></li>
+<li><a href="#repository-layout">Repository layout</a></li>
+<li><a href="#license">License</a></li>
+</ul>
+<hr>
+<h2 id="user-content-status"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#status"><span class="heading-anchor-icon">#</span></a>Status</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Area</th><th>State</th></tr></thead><tbody><tr><td>Syntax highlighting, folding, navigation</td><td>Working across the full AL surface</td></tr><tr><td>Completion, hover, signature help, rename</td><td>Working; driven by workspace AST + <code>.app</code> symbol index</td></tr><tr><td>Formatting</td><td>Working (text-based formatter — no AST round-trip)</td></tr><tr><td>Diagnostics — tree-sitter parse errors</td><td>Always on</td></tr><tr><td>Diagnostics — .NET CodeAnalysis analyzers</td><td>Requires .NET SDK + ALTool</td></tr><tr><td>Diagnostics — native lint rules</td><td>Framework in place, rule catalogue still empty</td></tr><tr><td>Compilation</td><td>Requires ALTool; falls back to <code>alc</code> subprocess</td></tr><tr><td>Debugging (native REST + SignalR)</td><td>Working against live BC services</td></tr><tr><td>Debugging (EditorServices proxy)</td><td>Working when Microsoft's adapter is available</td></tr><tr><td>Zed extension API</td><td>Tracks <code>zed_extension_api</code> on <code>main</code>; API version <code>0.8.0</code></td></tr></tbody></table>
+<hr>
+<h2 id="user-content-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features"><span class="heading-anchor-icon">#</span></a>Features</h2>
+<h3 id="user-content-editor-experience"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#editor-experience"><span class="heading-anchor-icon">#</span></a>Editor experience</h3>
+<ul>
+<li>Custom tree-sitter grammar — see <a href="https://github.com/Brad-Fullwood/al.language.zed/blob/HEAD/tree-sitter-al/" target="_blank" rel="noopener"><code>tree-sitter-al/</code></a> — with highlights, folds, indents, textobjects, outline, bracket-matching queries</li>
+<li>Business Central theme (<code>themes/bc-themes.json</code>)</li>
+<li>Hover, go-to-definition, find references, find implementations</li>
+<li>Context-aware completion with <code>.</code> and <code>:</code> trigger characters, signature help on <code>(</code> / <code>,</code></li>
+<li>Document symbols and breadcrumbs</li>
+<li>Inlay hints (parameter names, return types, profiler hotspots)</li>
+<li>Code lens (reference counts on procedures, methods, events)</li>
+<li>Semantic tokens (full-document, AL-aware token types: directives, object keywords, built-in types, <code>Self</code>)</li>
+<li>Code actions (quick fixes, refactors, source-level commands)</li>
+<li>Rename with <code>prepareRename</code> validation</li>
+<li>Folding: object bodies, <code>begin</code>/<code>end</code>, section bodies, consecutive comment blocks, <code>var</code>, <code>repeat…until</code>, <code>case…end</code></li>
+<li>Snippet sets for AL (<code>snippets/al.json</code>) and <code>launch.json</code> (<code>snippets/json.json</code>)</li>
+</ul>
+<h3 id="user-content-analysis"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#analysis"><span class="heading-anchor-icon">#</span></a>Analysis</h3>
+<ul>
+<li>Pull and push diagnostics (LSP 3.17) from four sources: tree-sitter (<code>al</code>), .NET analyzers (<code>al-analyzer</code>), compiler (<code>al-compiler</code>), test runner (<code>al-test-runner</code>)</li>
+<li>Architecture lint rules from <code>.alarch.json</code> (<code>al-explorer arch-lint</code>)</li>
+<li>SQL anti-pattern detection — <code>FindFirst</code> in loops, unfiltered <code>FindSet</code>, missing <code>CalcFields</code>, etc.</li>
+<li>Duplicate-code detection with normalized AST hashing and a similarity threshold</li>
+<li>Dead-code analysis — unused procedures, unreferenced table fields, orphaned event subscribers</li>
+<li>Breaking-change detection between two <code>.app</code> versions</li>
+<li>Cyclomatic and cognitive (Sonar-style) complexity metrics</li>
+<li>Obsolescence timeline and caller counts for deprecated symbols</li>
+<li>Dependency impact analysis and event propagation tracing</li>
+<li><code>DataClassification</code> and permission-set audits</li>
+<li>Static test discovery and BC REST test runner</li>
+<li>Static test coverage (call-graph from tests to production code)</li>
+<li>Upgrade-impact report between two <code>.app</code> versions</li>
+</ul>
+<h3 id="user-content-debugging"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#debugging"><span class="heading-anchor-icon">#</span></a>Debugging</h3>
+<ul>
+<li>Debug Adapter Protocol integration through Zed's debugger</li>
+<li>Native Business Central debugging over REST + SignalR (no <code>EditorServices.Host</code> required)</li>
+<li>Proxy mode for Microsoft's <code>EditorServices.Host</code> when it is available</li>
+<li>Snapshot debugging (<code>.alvsc</code> download) and CPU profiling (<code>.alcpuprofile</code> capture + hotspot analysis) against live BC servers</li>
+<li>Tolerates BC's non-standard DAP messages: injects missing <code>seq</code> fields; accepts string-or-bool launch arguments (<code>breakOnError</code>, <code>breakOnRecordWrite</code>)</li>
+</ul>
+<h3 id="user-content-tooling"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#tooling"><span class="heading-anchor-icon">#</span></a>Tooling</h3>
+<ul>
+<li><code>al-explorer</code> — unified TUI + CLI client. The CLI is a JSON-RPC client for
+every LSP feature from the terminal, plus batch analysis, code generation,
+builds, and translations. With no arguments, it launches the ratatui-based
+TUI symbol browser.</li>
+<li>XLIFF workflow: generate <code>.g.xlf</code>, refresh language files, list untranslated strings, suggest translations from base-app symbols</li>
+<li>Project scaffolding: <code>default</code>, <code>pte</code>, <code>appsource</code>, <code>library</code>, <code>test</code>, <code>copilot</code>, <code>agent</code>, <code>api</code> templates</li>
+<li>Bulk fixes: add <code>ApplicationArea</code>, add <code>Tooltips</code> from base app, add <code>DataClassification</code>, sort members in canonical order, rename files to <code>&#x3C;Type>&#x3C;Id>.&#x3C;Name>.al</code></li>
+<li>OAuth 2.0 Authorization Code + PKCE flow to authenticate with Business Central (device-code fallback)</li>
+</ul>
+<hr>
+<h2 id="user-content-architecture"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#architecture"><span class="heading-anchor-icon">#</span></a>Architecture</h2>
+<pre><code>┌─ Entry points ──────────────────────────────┐     ┌─ Business logic ─────────┐
+│                                             │     │                          │
+│ Zed editor   ──► zed-al (wasm32-wasip1)     │     │  al-core                 │
+│                    │                        │     │   ├─ syntax  (module)    │
+│                    │ spawns &#x26; speaks LSP    │     │   ├─ symbols (module)    │
+│                    ▼                        │     │   ├─ semantic (module)   │
+│                  al-lsp --stdio  ──────────►├────►│   ├─ server  (module)    │
+│                                             │     │   ├─ dap     (module)    │
+│ al-explorer  ──► al-lsp daemon  ───────────►│     │   ├─ queries (32 files)  │
+│                                             │     │   └─ bin/al-lsp.rs       │
+│ Zed debugger ──► al-lsp --dap   ───────────►│     │                          │
+│                                             │     │                          │
+└─────────────────────────────────────────────┘     └──────────────────────────┘
+</code></pre>
+<h3 id="user-content-the-one-rule"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#the-one-rule"><span class="heading-anchor-icon">#</span></a>The one rule</h3>
+<p>All business logic lives in <code>al-core</code>. Each file under <code>crates/al-core/src/queries/</code>
+takes a <code>&#x26;Workspace</code> plus a position/argument struct and returns <strong>transport-agnostic
+types</strong>. Converting to LSP or JSON-RPC wire shapes happens in <code>al_core::server</code> (the
+transport boundary). The <code>[[bin]] al-lsp</code> entry point lives inside al-core as well.</p>
+<h3 id="user-content-crates"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#crates"><span class="heading-anchor-icon">#</span></a>Crates</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Crate</th><th>Role</th><th>Key types</th></tr></thead><tbody><tr><td><strong>al-core</strong></td><td>All business logic + the <code>al-lsp</code> binary. Workspace state, parsing, symbols, .NET bridge, queries, LSP/daemon/DAP transports</td><td><code>Workspace</code>, <code>DocumentStore</code>, <code>SymbolIndex</code>, <code>InsightGraph</code>, <code>CallGraph</code>, <code>AlConfig</code>, <code>AlToolchain</code>, <code>AlParser</code>, <code>TypeResolver</code>, <code>LanguageData</code>, <code>AppReader</code>, <code>NuGetClient</code>, <code>SemanticBridge</code>, <code>AlServer</code></td></tr><tr><td><strong>al-protocol</strong></td><td>Daemon IPC types (shared by <code>al-core</code>'s daemon and <code>al-explorer</code>)</td><td><code>DaemonClient</code>, request/response enums, JSON-RPC envelope</td></tr><tr><td><strong>al-explorer</strong></td><td>Unified TUI + CLI client (the binary is named <code>al-explorer</code> to avoid conflict with Microsoft's <code>al</code>)</td><td>ratatui app + clap command tree</td></tr><tr><td><strong>al-test-harness</strong></td><td>Spawns the real <code>al-lsp</code> binary over stdio for E2E tests</td><td><code>LspClient</code></td></tr><tr><td><strong>al-zed-test</strong></td><td>Drives a live Zed IDE on Wayland/Hyprland for full-stack tests</td><td>helpers around <code>hyprctl</code>, <code>wtype</code>, <code>grim</code></td></tr><tr><td><strong>zed-al</strong></td><td>WASM extension for Zed — binary resolution, DAP wiring, settings</td><td><code>AlExtension</code></td></tr></tbody></table>
+<h3 id="user-content-server-modes-the-al-lsp-binary"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#server-modes-the-al-lsp-binary"><span class="heading-anchor-icon">#</span></a>Server modes (the <code>al-lsp</code> binary)</h3>
+<p><code>al-lsp</code> ships inside <code>al-core</code> and switches mode based on its first argument.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Mode</th><th>Launch</th><th>Transport</th><th>Client</th></tr></thead><tbody><tr><td>LSP</td><td><code>al-lsp --stdio</code> (default)</td><td><code>tower-lsp</code> over stdin/stdout</td><td>Zed editor</td></tr><tr><td>Daemon</td><td><code>al-lsp daemon --project &#x3C;path></code></td><td>line-delimited JSON-RPC over Unix socket</td><td><code>al-explorer</code></td></tr><tr><td>DAP</td><td><code>al-lsp --dap</code></td><td>Debug Adapter Protocol over stdio</td><td>Zed debugger</td></tr></tbody></table>
+<p>Daemon socket: <code>$XDG_RUNTIME_DIR/al-lsp/&#x3C;fnv1a-hash-of-project-path>.sock</code>.
+Auto-shutdown after 30 minutes of idle.</p>
+<p>The LSP surface is the <em>interactive subset</em>: hover, completion, definition, references,
+rename (+ <code>prepareRename</code>), formatting (full + range), folding, document &#x26; workspace
+symbols, semantic tokens (full), signature help, code actions, code lens, inlay hints,
+pull diagnostics. Analytical and batch operations (lint-all, metrics, SQL scan,
+arch-lint, duplicates, dead-code, breaking, obsolete, audits, deps graph, insight
+queries, code generation, XLIFF, tests, debug, compile) are <strong>daemon-only</strong> RPCs.</p>
+<h3 id="user-content-dependency-rules-enforced"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#dependency-rules-enforced"><span class="heading-anchor-icon">#</span></a>Dependency rules (enforced)</h3>
+<pre><code>al-explorer ──► al-protocol
+al-core     ──► al-protocol
+zed-al      (isolated, WASM — no compile-time native deps)
+</code></pre>
+<ul>
+<li><code>al-explorer</code> depends only on <code>al-protocol</code>. Never on <code>al-core</code> (which would
+drag in tree-sitter, the .NET CLR, and tower-lsp into the TUI binary).</li>
+<li><code>al-core</code> may depend on <code>al-protocol</code>. The reverse is forbidden — <code>al-protocol</code>
+must remain a tiny types-only crate.</li>
+<li><code>zed-al</code> has no compile-time dependency on any native crate — it ships as pure
+WASM and shells out to <code>al-lsp</code>.</li>
+<li>Module-level discipline within <code>al-core</code> (<code>syntax</code> / <code>symbols</code> / <code>semantic</code> not
+importing each other) is enforced by code review, not the compiler.</li>
+</ul>
+<h3 id="user-content-diagnostics-pipeline"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#diagnostics-pipeline"><span class="heading-anchor-icon">#</span></a>Diagnostics pipeline</h3>
+<p>Two phases per open/change/save cycle:</p>
+<ol>
+<li><strong>Instant</strong> — tree-sitter parse errors (<code>source: "al"</code>, <code>code: "syntax"</code>) and
+native lint framework output (<code>source: "al-lint"</code>). Published immediately.</li>
+<li><strong>Async</strong> — <code>.NET</code> CodeAnalysis results (<code>source: "al-analyzer"</code>,
+codes like <code>AL0001</code>) via <code>SemanticBridge::analyze</code>. Gated by
+<code>enable_code_analysis</code> + <code>background_code_analysis</code>. Debounced to 400 ms on
+<code>did_change</code>; always runs on <code>did_save</code>. Pull diagnostics
+(<code>textDocument/diagnostic</code>) run both phases inline.</li>
+</ol>
+<p>Test results (<code>al-test-runner</code> / <code>AL-TEST</code>) and compiler output
+(<code>al-compiler</code> from <code>alc</code>) are separate diagnostic sources published per-file on
+demand.</p>
+<hr>
+<h2 id="user-content-prerequisites"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#prerequisites"><span class="heading-anchor-icon">#</span></a>Prerequisites</h2>
+<p><strong>Required</strong></p>
+<ul>
+<li>Rust stable (<code>rustup default stable</code>)</li>
+<li><code>wasm32-wasip1</code> target (<code>rustup target add wasm32-wasip1</code>)</li>
+</ul>
+<p><strong>Optional (enables additional features)</strong></p>
+<ul>
+<li>.NET SDK 8 or newer — builds the <code>al-core/bridge</code> .NET bridge and enables CodeAnalysis diagnostics</li>
+<li>Microsoft ALTool — enables compilation, semantic diagnostics, and the EditorServices proxy debug path. <code>al-explorer setup</code> reports whether it is installed and prints the install command if it is not.</li>
+</ul>
+<p>Without .NET / ALTool the extension still provides syntax highlighting, folding,
+navigation, formatting, and symbol-index completion from <code>.app</code> packages.
+The native BC debugger (REST + SignalR) works with ALTool absent provided <code>alc</code>
+is on <code>PATH</code>.</p>
+<hr>
+<h2 id="user-content-build--install"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#build--install"><span class="heading-anchor-icon">#</span></a>Build &#x26; install</h2>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">make</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> build</span><span style="color:#6A737D;--shiki-dark:#6A737D">      # Rust crates + WASM extension + .NET bridge</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">make</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> install</span><span style="color:#6A737D;--shiki-dark:#6A737D">    # build, symlink al-lsp/al/al-explorer into ~/.local/bin,</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">                # and symlink this repo into ~/.local/share/zed/extensions/installed/al</span></span></code></pre>
+<p>Individual targets:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">make</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> rust</span><span style="color:#6A737D;--shiki-dark:#6A737D">       # native crates only (cargo build --workspace --exclude zed-al)</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">make</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> wasm</span><span style="color:#6A737D;--shiki-dark:#6A737D">       # zed-al for wasm32-wasip1 (release)</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">make</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> bridges</span><span style="color:#6A737D;--shiki-dark:#6A737D">    # dotnet build crates/al-core/bridge/AlBridge.csproj (skipped if .NET missing)</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">make</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> clean</span></span></code></pre>
+<p>Then in Zed: open the command palette → <strong>zed: install dev extension</strong> → point at
+this repository root.</p>
+<p>The WASM extension resolves <code>al-lsp</code> in this order:</p>
+<ol>
+<li><code>lsp.al-lsp.binary.path</code> in Zed settings, if set</li>
+<li>Previously downloaded binary in the extension work directory</li>
+<li><code>al-lsp</code> on <code>$PATH</code></li>
+<li>Download from the latest GitHub release of <code>Brad-Fullwood/zed-al</code>
+(<code>al-&#x3C;os>-&#x3C;arch>.tar.gz</code>)</li>
+</ol>
+<hr>
+<h2 id="user-content-configuration-in-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#configuration-in-zed"><span class="heading-anchor-icon">#</span></a>Configuration in Zed</h2>
+<p>Minimal <code>settings.json</code>:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "al-lsp"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "al"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">          "enableCodeAnalysis"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#79B8FF;--shiki-dark:#79B8FF">true</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">          "backgroundCodeAnalysis"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#79B8FF;--shiki-dark:#79B8FF">true</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">          "codeAnalyzers"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: [</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"CodeCop"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">, </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"AppSourceCop"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">, </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"UICop"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">, </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"PerTenantCop"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">        }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>Run <code>al.applyRecommendedSettings</code> from the command palette to write these defaults
+into your Zed config. <code>al-explorer doctor</code> will flag common misconfigurations.</p>
+<hr>
+<h2 id="user-content-the-al-explorer-cli"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#the-al-explorer-cli"><span class="heading-anchor-icon">#</span></a>The <code>al-explorer</code> CLI</h2>
+<p><code>al-explorer</code> is the repository-owned CLI. It is a thin JSON-RPC client that
+talks to an <code>al-lsp daemon</code>. If no daemon is running for the current project,
+<code>al-explorer</code> spawns one automatically (running <code>al-lsp daemon --project &#x3C;cwd></code>
+and waiting up to 5 seconds for the socket to come up).</p>
+<blockquote>
+<p>Note: the unqualified <code>al</code> command name is owned by Microsoft's
+<code>Microsoft.Dynamics.BusinessCentral.Development.Tools</code> dotnet tool, which is
+a different program. Use <code>al-explorer</code> for everything documented below.</p>
+</blockquote>
+<p>Every command accepts the global <code>--json</code> flag for machine-readable output.</p>
+<h3 id="user-content-symbol-lookup--navigation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#symbol-lookup--navigation"><span class="heading-anchor-icon">#</span></a>Symbol lookup &#x26; navigation</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> search</span><span style="color:#F97583;--shiki-dark:#F97583"> &#x3C;</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">quer</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">y</span><span style="color:#F97583;--shiki-dark:#F97583">></span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> [--limit </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">N]</span><span style="color:#6A737D;--shiki-dark:#6A737D">             # fuzzy symbol search</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> object</span><span style="color:#F97583;--shiki-dark:#F97583"> &#x3C;</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">TYP</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">E</span><span style="color:#F97583;--shiki-dark:#F97583">></span><span style="color:#F97583;--shiki-dark:#F97583"> &#x3C;</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">nam</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">e</span><span style="color:#F97583;--shiki-dark:#F97583">></span><span style="color:#6A737D;--shiki-dark:#6A737D">                   # look up an object</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> by-id</span><span style="color:#F97583;--shiki-dark:#F97583"> &#x3C;</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">TYP</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">E</span><span style="color:#F97583;--shiki-dark:#F97583">></span><span style="color:#F97583;--shiki-dark:#F97583"> &#x3C;</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">i</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">d</span><span style="color:#F97583;--shiki-dark:#F97583">></span><span style="color:#6A737D;--shiki-dark:#6A737D">                      # look up by numeric ID</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> events</span><span style="color:#F97583;--shiki-dark:#F97583"> &#x3C;</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">nam</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">e</span><span style="color:#F97583;--shiki-dark:#F97583">></span><span style="color:#6A737D;--shiki-dark:#6A737D">                          # find event publishers</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> subscribers</span><span style="color:#F97583;--shiki-dark:#F97583"> &#x3C;</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">even</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">t</span><span style="color:#F97583;--shiki-dark:#F97583">></span><span style="color:#6A737D;--shiki-dark:#6A737D">                    # find event subscribers</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> composed</span><span style="color:#F97583;--shiki-dark:#F97583"> &#x3C;</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">TYP</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">E</span><span style="color:#F97583;--shiki-dark:#F97583">></span><span style="color:#F97583;--shiki-dark:#F97583"> &#x3C;</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">nam</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">e</span><span style="color:#F97583;--shiki-dark:#F97583">></span><span style="color:#6A737D;--shiki-dark:#6A737D">                 # base + merged extensions</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> packages</span><span style="color:#6A737D;--shiki-dark:#6A737D">                               # loaded packages with stats</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> deps</span><span style="color:#6A737D;--shiki-dark:#6A737D">                                   # direct dependencies</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> deps-graph</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> [--format </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">json</span><span style="color:#F97583;--shiki-dark:#F97583">|</span><span style="color:#B392F0;--shiki-dark:#B392F0">dot]</span><span style="color:#6A737D;--shiki-dark:#6A737D">         # transitive dependency graph</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> hover</span><span style="color:#F97583;--shiki-dark:#F97583">      &#x3C;</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">fil</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">e</span><span style="color:#F97583;--shiki-dark:#F97583">></span><span style="color:#F97583;--shiki-dark:#F97583"> &#x3C;</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">lin</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">e</span><span style="color:#F97583;--shiki-dark:#F97583">></span><span style="color:#F97583;--shiki-dark:#F97583"> &#x3C;</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">co</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">l</span><span style="color:#F97583;--shiki-dark:#F97583">></span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> definition</span><span style="color:#F97583;--shiki-dark:#F97583"> &#x3C;</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">fil</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">e</span><span style="color:#F97583;--shiki-dark:#F97583">></span><span style="color:#F97583;--shiki-dark:#F97583"> &#x3C;</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">lin</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">e</span><span style="color:#F97583;--shiki-dark:#F97583">></span><span style="color:#F97583;--shiki-dark:#F97583"> &#x3C;</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">co</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">l</span><span style="color:#F97583;--shiki-dark:#F97583">></span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> references</span><span style="color:#F97583;--shiki-dark:#F97583"> &#x3C;</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">fil</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">e</span><span style="color:#F97583;--shiki-dark:#F97583">></span><span style="color:#F97583;--shiki-dark:#F97583"> &#x3C;</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">lin</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">e</span><span style="color:#F97583;--shiki-dark:#F97583">></span><span style="color:#F97583;--shiki-dark:#F97583"> &#x3C;</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">co</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">l</span><span style="color:#F97583;--shiki-dark:#F97583">></span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> completions</span><span style="color:#F97583;--shiki-dark:#F97583"> &#x3C;</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">fil</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">e</span><span style="color:#F97583;--shiki-dark:#F97583">></span><span style="color:#F97583;--shiki-dark:#F97583"> &#x3C;</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">lin</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">e</span><span style="color:#F97583;--shiki-dark:#F97583">></span><span style="color:#F97583;--shiki-dark:#F97583"> &#x3C;</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">co</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">l</span><span style="color:#F97583;--shiki-dark:#F97583">></span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> signature</span><span style="color:#F97583;--shiki-dark:#F97583">  &#x3C;</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">fil</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">e</span><span style="color:#F97583;--shiki-dark:#F97583">></span><span style="color:#F97583;--shiki-dark:#F97583"> &#x3C;</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">lin</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">e</span><span style="color:#F97583;--shiki-dark:#F97583">></span><span style="color:#F97583;--shiki-dark:#F97583"> &#x3C;</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">co</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">l</span><span style="color:#F97583;--shiki-dark:#F97583">></span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> rename</span><span style="color:#F97583;--shiki-dark:#F97583">     &#x3C;</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">fil</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">e</span><span style="color:#F97583;--shiki-dark:#F97583">></span><span style="color:#F97583;--shiki-dark:#F97583"> &#x3C;</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">lin</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">e</span><span style="color:#F97583;--shiki-dark:#F97583">></span><span style="color:#F97583;--shiki-dark:#F97583"> &#x3C;</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">co</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">l</span><span style="color:#F97583;--shiki-dark:#F97583">></span><span style="color:#F97583;--shiki-dark:#F97583"> &#x3C;</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">new-nam</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">e</span><span style="color:#F97583;--shiki-dark:#F97583">></span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> [--dry-run]</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> symbols</span><span style="color:#F97583;--shiki-dark:#F97583">    &#x3C;</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">fil</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">e</span><span style="color:#F97583;--shiki-dark:#F97583">></span><span style="color:#6A737D;--shiki-dark:#6A737D">                      # outline</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> hints</span><span style="color:#F97583;--shiki-dark:#F97583">      &#x3C;</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">fil</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">e</span><span style="color:#F97583;--shiki-dark:#F97583">></span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> [--start-line </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">N]</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> [--end-line </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">N]</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> folding</span><span style="color:#F97583;--shiki-dark:#F97583">    &#x3C;</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">fil</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">e</span><span style="color:#F97583;--shiki-dark:#F97583">></span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> tokens</span><span style="color:#F97583;--shiki-dark:#F97583">     &#x3C;</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">fil</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">e</span><span style="color:#F97583;--shiki-dark:#F97583">></span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> parse</span><span style="color:#F97583;--shiki-dark:#F97583">      &#x3C;</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">fil</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">e</span><span style="color:#F97583;--shiki-dark:#F97583">></span><span style="color:#6A737D;--shiki-dark:#6A737D">                      # show parse tree</span></span></code></pre>
+<h3 id="user-content-analysis--quality"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#analysis--quality"><span class="heading-anchor-icon">#</span></a>Analysis &#x26; quality</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> lint</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> [files...] [--all] [--analyzers CodeCop,AppSourceCop,UICop,PerTenantCop]</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> format</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> [file] [--check] [--stdin] [--all]</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> fix</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    [file] [--dry-run] [--rule CODE]</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> metrics</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> [file] [--all] [--threshold-cyclomatic N] [--threshold-cognitive N]</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> sql-scan</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> arch-lint</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> duplicates</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> [--min-tokens </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">N]</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> [--min-similarity </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">F]</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> dead-code</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> breaking</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> obsolete</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> audit-data</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> permission-audit</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> upgrade</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> rules</span><span style="color:#6A737D;--shiki-dark:#6A737D">                                   # list lint rules</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> error-codes</span><span style="color:#6A737D;--shiki-dark:#6A737D">                             # list compiler error codes</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> builtins</span><span style="color:#6A737D;--shiki-dark:#6A737D">                                # list built-in types and methods</span></span></code></pre>
+<h3 id="user-content-build--test"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#build--test"><span class="heading-anchor-icon">#</span></a>Build &#x26; test</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> compile</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> [--project </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">DIR]</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> package</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> download-symbols</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> [--project </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">DIR]</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> [--source </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">server</span><span style="color:#F97583;--shiki-dark:#F97583">|</span><span style="color:#B392F0;--shiki-dark:#B392F0">nuget]</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> tests</span><span style="color:#6A737D;--shiki-dark:#6A737D">                                   # discover [Test] codeunits</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> test-run</span><span style="color:#F97583;--shiki-dark:#F97583"> &#x3C;</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">codeunit-i</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">d</span><span style="color:#F97583;--shiki-dark:#F97583">></span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> [--name </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">N]</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> [--method </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">M]</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> [--config </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">C]</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> test-coverage</span></span></code></pre>
+<h3 id="user-content-code-generation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#code-generation"><span class="heading-anchor-icon">#</span></a>Code generation</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> new</span><span style="color:#F97583;--shiki-dark:#F97583"> &#x3C;</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">di</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">r</span><span style="color:#F97583;--shiki-dark:#F97583">></span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> [--template </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">default</span><span style="color:#F97583;--shiki-dark:#F97583">|</span><span style="color:#B392F0;--shiki-dark:#B392F0">pte</span><span style="color:#F97583;--shiki-dark:#F97583">|</span><span style="color:#B392F0;--shiki-dark:#B392F0">appsource</span><span style="color:#F97583;--shiki-dark:#F97583">|</span><span style="color:#B392F0;--shiki-dark:#B392F0">library</span><span style="color:#F97583;--shiki-dark:#F97583">|</span><span style="color:#79B8FF;--shiki-dark:#79B8FF">test</span><span style="color:#F97583;--shiki-dark:#F97583">|</span><span style="color:#B392F0;--shiki-dark:#B392F0">copilot</span><span style="color:#F97583;--shiki-dark:#F97583">|</span><span style="color:#B392F0;--shiki-dark:#B392F0">agent</span><span style="color:#F97583;--shiki-dark:#F97583">|</span><span style="color:#B392F0;--shiki-dark:#B392F0">api]</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> generate</span><span style="color:#F97583;--shiki-dark:#F97583"> &#x3C;</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">page</span><span style="color:#F97583;--shiki-dark:#F97583">|</span><span style="color:#B392F0;--shiki-dark:#B392F0">report</span><span style="color:#F97583;--shiki-dark:#F97583">|</span><span style="color:#79B8FF;--shiki-dark:#79B8FF">test</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">> [--id] [--name] [--table] [--page-type] [--subject]</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> permissions</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> [--format </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">al</span><span style="color:#F97583;--shiki-dark:#F97583">|</span><span style="color:#B392F0;--shiki-dark:#B392F0">xml]</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> add-application-area</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    [--value </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">All]</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">            [--dry-run]</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> add-tooltips</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">            [--from-table </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">NAME]</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      [--dry-run]</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> add-data-classification</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> [--value </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">CustomerContent][--dry-run]</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> sort-members</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">   [file] [--all] [--dry-run]</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> organize-files</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">        [--dry-run]</span></span></code></pre>
+<h3 id="user-content-insight-graph"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#insight-graph"><span class="heading-anchor-icon">#</span></a>Insight graph</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> trace</span><span style="color:#F97583;--shiki-dark:#F97583"> &#x3C;</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">even</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">t</span><span style="color:#F97583;--shiki-dark:#F97583">></span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> [--depth </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">N]</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> entrypoints</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> graph</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> [--format </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">json</span><span style="color:#F97583;--shiki-dark:#F97583">|</span><span style="color:#B392F0;--shiki-dark:#B392F0">dot]</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> insight-stats</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> impact</span><span style="color:#F97583;--shiki-dark:#F97583"> &#x3C;</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">symbo</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">l</span><span style="color:#F97583;--shiki-dark:#F97583">></span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> suggest-event</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> [--object] [--procedure] [--table] [--field] [--event]</span></span></code></pre>
+<h3 id="user-content-debugging-snapshots-profiling"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#debugging-snapshots-profiling"><span class="heading-anchor-icon">#</span></a>Debugging, snapshots, profiling</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> debug</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> start</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> [--config </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">NAME]</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> debug</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> breakpoint</span><span style="color:#F97583;--shiki-dark:#F97583"> &#x3C;</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">fil</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">e</span><span style="color:#F97583;--shiki-dark:#F97583">></span><span style="color:#F97583;--shiki-dark:#F97583"> &#x3C;</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">lin</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">e</span><span style="color:#F97583;--shiki-dark:#F97583">></span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> [--condition </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">EXPR]</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> debug</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> state</span><span style="color:#F97583;--shiki-dark:#F97583"> |</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> eval</span><span style="color:#F97583;--shiki-dark:#F97583"> &#x3C;</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">exp</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">r</span><span style="color:#F97583;--shiki-dark:#F97583">></span><span style="color:#F97583;--shiki-dark:#F97583"> |</span><span style="color:#F97583;--shiki-dark:#F97583"> continue</span><span style="color:#F97583;--shiki-dark:#F97583"> |</span><span style="color:#B392F0;--shiki-dark:#B392F0"> step</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> [over</span><span style="color:#F97583;--shiki-dark:#F97583">|</span><span style="color:#B392F0;--shiki-dark:#B392F0">into</span><span style="color:#F97583;--shiki-dark:#F97583">|</span><span style="color:#B392F0;--shiki-dark:#B392F0">out]</span><span style="color:#F97583;--shiki-dark:#F97583"> |</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> history</span><span style="color:#F97583;--shiki-dark:#F97583"> |</span><span style="color:#B392F0;--shiki-dark:#B392F0"> stop</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> snapshot</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> start</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  [--server] [--company] [--description] [--output-dir] ...</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> snapshot</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> list</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">   [--server] [--company] ...</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> snapshot</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> download</span><span style="color:#F97583;--shiki-dark:#F97583"> &#x3C;</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">snapshot-i</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">d</span><span style="color:#F97583;--shiki-dark:#F97583">></span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> [--output-dir] ...</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> profile</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> start</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> [--server] [--company] [--output-dir] ...</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> profile</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> stop</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  [--session-id] ...</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> profile</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> analyze</span><span style="color:#F97583;--shiki-dark:#F97583"> &#x3C;</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">pat</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">h</span><span style="color:#F97583;--shiki-dark:#F97583">></span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> [--top </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">N]</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> profiler-hints</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> [hotspot...]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> init-debug</span><span style="color:#6A737D;--shiki-dark:#6A737D">                               # write .zed/debug.json</span></span></code></pre>
+<h3 id="user-content-translations"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#translations"><span class="heading-anchor-icon">#</span></a>Translations</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> xlf</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> generate</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      [--project </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">DIR]</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> xlf</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> refresh</span><span style="color:#F97583;--shiki-dark:#F97583">       &#x3C;</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">xl</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">f</span><span style="color:#F97583;--shiki-dark:#F97583">></span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> [--generated </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">PATH]</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> xlf</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> untranslated</span><span style="color:#F97583;--shiki-dark:#F97583">  &#x3C;</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">xl</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">f</span><span style="color:#F97583;--shiki-dark:#F97583">></span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> xlf</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> suggest</span><span style="color:#F97583;--shiki-dark:#F97583">       &#x3C;</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">xl</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">f</span><span style="color:#F97583;--shiki-dark:#F97583">></span></span></code></pre>
+<h3 id="user-content-utility"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#utility"><span class="heading-anchor-icon">#</span></a>Utility</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> setup</span><span style="color:#6A737D;--shiki-dark:#6A737D">                                   # report ALTool / .NET SDK status</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> doctor</span><span style="color:#6A737D;--shiki-dark:#6A737D">                                  # green/red project checklist</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> authenticate</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> [login</span><span style="color:#F97583;--shiki-dark:#F97583">|</span><span style="color:#B392F0;--shiki-dark:#B392F0">status</span><span style="color:#F97583;--shiki-dark:#F97583">|</span><span style="color:#B392F0;--shiki-dark:#B392F0">clear]</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> [--tenant </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">ID]</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> diag</span><span style="color:#6A737D;--shiki-dark:#6A737D">                                    # daemon memory stats, object counts</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> clear-cache</span><span style="color:#6A737D;--shiki-dark:#6A737D">                             # remove ~/.cache/al-lsp/packages/ and flush the daemon's in-memory cache</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> version</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> generate-completions</span><span style="color:#F97583;--shiki-dark:#F97583"> &#x3C;</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">bash</span><span style="color:#F97583;--shiki-dark:#F97583">|</span><span style="color:#B392F0;--shiki-dark:#B392F0">zsh</span><span style="color:#F97583;--shiki-dark:#F97583">|</span><span style="color:#B392F0;--shiki-dark:#B392F0">fish</span><span style="color:#F97583;--shiki-dark:#F97583">|</span><span style="color:#B392F0;--shiki-dark:#B392F0">elvish</span><span style="color:#F97583;--shiki-dark:#F97583">|</span><span style="color:#B392F0;--shiki-dark:#B392F0">powershell</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">></span></span></code></pre>
+<hr>
+<h2 id="user-content-al-explorer-tui"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#al-explorer-tui"><span class="heading-anchor-icon">#</span></a><code>al-explorer</code> TUI</h2>
+<p><code>al-explorer</code> is a ratatui-based browser over the daemon's symbol index.
+Run it from the project root — it uses <code>cwd</code> as the project and takes no
+command-line arguments:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">cd</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> path/to/my-al-project</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">al-explorer</span></span></code></pre>
+<p>Use it to explore loaded packages, navigate to objects, and inspect composed
+(base + extensions) views. It talks to the same daemon as the <code>al-explorer</code> CLI
+subcommands; no extra setup is required.</p>
+<hr>
+<h2 id="user-content-symbol--package-cache"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#symbol--package-cache"><span class="heading-anchor-icon">#</span></a>Symbol &#x26; package cache</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Location</th><th>Contents</th></tr></thead><tbody><tr><td><code>&#x3C;project>/.alpackages/</code></td><td><code>.app</code> packages downloaded from NuGet or a BC server</td></tr><tr><td><code>~/.cache/al-lsp/index/</code></td><td>Parsed-symbol disk cache (rebuilt from <code>.app</code> files)</td></tr><tr><td><code>~/.cache/al-lsp/packages/</code></td><td>Legacy package cache location; not populated by current code but still cleared by <code>al-explorer clear-cache</code></td></tr></tbody></table>
+<p>On first open, <code>al-lsp</code> resolves <code>app.json</code> dependencies against the configured
+NuGet feeds:</p>
+<ul>
+<li><code>https://dynamicssmb2.pkgs.visualstudio.com/DynamicsBCPublicFeeds/_packaging/MSSymbols/nuget/v3/index.json</code></li>
+<li><code>…/_packaging/AppSourceSymbols/…</code></li>
+<li><code>…/_packaging/BCPublic/…</code></li>
+</ul>
+<p>Five Microsoft package IDs (Application, Base Application, Business Foundation,
+System Application, System) are recognised as implicit BC dependencies and
+resolved even when omitted from <code>app.json</code>.</p>
+<p><code>.app</code> files are NAVX-headed ZIP archives. The reader scans for the <code>PK\x03\x04</code>
+ZIP signature to tolerate non-standard header sizes, strips the UTF-8 BOM from
+<code>SymbolReference.json</code>, and tolerates <code>NUL</code> / DOS-EOF padding after the JSON
+payload. <code>EnumTypes</code> and integer-valued <code>Kind</code> fields from newer BC versions are
+handled transparently.</p>
+<hr>
+<h2 id="user-content-debugging-1"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#debugging-1"><span class="heading-anchor-icon">#</span></a>Debugging</h2>
+<p>The DAP server in <code>al-lsp</code> can operate in two modes:</p>
+<p><strong>Native</strong> — <code>al-dap-client</code> talks directly to Business Central via REST and a
+SignalR WebSocket hub (<code>DebuggerHub</code>). The hub methods (<code>Attach</code>, <code>AddBreakpoint</code>,
+<code>GetStackTrace</code>, <code>GetVariables</code>, <code>ExpandNode</code>, <code>GetSource</code>, <code>StopDebugging</code>,
+<code>TerminateSession</code>, etc.) are reverse-engineered from
+<code>EditorServices.Protocol.dll</code>. No Microsoft binary is required at runtime.</p>
+<p><strong>Proxy</strong> — <code>DapClient</code> spawns Microsoft's <code>EditorServices.Host</code> as a subprocess
+and routes DAP messages through its stdio. The wrapper injects <code>seq</code> fields
+omitted by the upstream adapter and normalises string-valued launch arguments
+(<code>breakOnError</code>, <code>breakOnRecordWrite</code>) to booleans.</p>
+<p>Snapshot debugging (<code>.alvsc</code>) and CPU profiling (<code>.alcpuprofile</code>) are <strong>separate</strong>
+from the interactive debugger: they drive BC server-side data collection via
+REST and then analyse the downloaded artefact offline. Hotspot results can be
+surfaced as inlay hints in the editor (<code>profiler-hints</code> query).</p>
+<p>The <code>init-debug</code> command writes a <code>.zed/debug.json</code> containing four placeholder
+launch configurations (Publish and Attach, each against an on-prem server and
+a cloud sandbox). It does not read <code>app.json</code> or an existing <code>launch.json</code> —
+edit the generated file to fill in your BC server URL, tenant, and credentials.
+If <code>.zed/debug.json</code> already exists it is left alone.</p>
+<hr>
+<h2 id="user-content-tree-sitter-grammar"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#tree-sitter-grammar"><span class="heading-anchor-icon">#</span></a>Tree-sitter grammar</h2>
+<p><code>tree-sitter-al/</code> is a git submodule with its own generation pipeline. The short
+version: <strong>never hardcode AL keywords, built-ins, or object types in Rust</strong>.
+Everything lives in JSON under <code>tree-sitter-al/data/</code> and is loaded at runtime
+by <code>al_syntax::LanguageData</code>.</p>
+<h3 id="user-content-layout"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#layout"><span class="heading-anchor-icon">#</span></a>Layout</h3>
+<pre><code>tree-sitter-al/
+├── grammar.js                     # hand-authored; keyword terminals come from data/
+├── queries/
+│   ├── highlights.scm
+│   ├── locals.scm
+│   ├── indents.scm
+│   ├── folds.scm
+│   ├── outline.scm
+│   ├── textobjects.scm
+│   └── brackets.scm
+├── data/                          # embedded into al-core::syntax via include_str!
+│   ├── keywords.json              # control, object, type, operator, metadata, property
+│   ├── builtin_functions.json     # 81 global built-ins with signatures
+│   ├── object_types.json          # table, page, codeunit, report, ...
+│   ├── implicit_variables.json    # Rec, xRec, CurrPage, etc.
+│   ├── runtime_enums.json
+│   ├── page_controls.json
+│   ├── single_stmt_openers.json
+│   └── token_classification.json
+├── src/                           # GENERATED — parser.c, scanner.c, keywords.c
+├── bindings/                      # GENERATED
+├── generator/
+│   └── tools/
+│       ├── al-gen/                # Rust: generates grammar.js keywords + queries
+│       └── al-extract/            # C#: extracts signatures from Microsoft DLLs
+└── tests/fixtures/{valid,invalid}/
+</code></pre>
+<h3 id="user-content-regeneration-pipeline"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#regeneration-pipeline"><span class="heading-anchor-icon">#</span></a>Regeneration pipeline</h3>
+<ol>
+<li><code>al-extract</code> (C#) reflects Microsoft's <code>Microsoft.Dynamics.Nav.CodeAnalysis.dll</code>
+to produce <code>builtin_functions.json</code>, <code>runtime_enums.json</code>, and
+<code>implicit_variables.json</code>.</li>
+<li><code>al-gen</code> (Rust) reads <code>alsyntax.tmlanguage</code> from the same AL extension, emits
+<code>src/keywords.c</code>, the keyword terminals in <code>grammar.js</code>, and the captures in
+<code>queries/highlights.scm</code>.</li>
+<li><code>tree-sitter generate</code> compiles <code>grammar.js</code> into <code>src/parser.c</code>.</li>
+</ol>
+<p>The submodule's <code>.gitignore</code> excludes generated artefacts (<code>src/parser.c</code>,
+<code>src/grammar.json</code>, <code>src/node-types.json</code>, …), so a fresh checkout cannot run
+<code>tree-sitter build</code> directly. Run <code>make grammar</code> from the parent repo first
+(steps 2 + 3 above; step 1 needs the Microsoft VS Code AL extension assets and
+is normally run by the original maintainer rather than every contributor):</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">make</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> grammar</span><span style="color:#6A737D;--shiki-dark:#6A737D">                               # regenerate src/ inside tree-sitter-al</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">cd</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> tree-sitter-al</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">tree-sitter</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> build</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --output</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> target/tree-sitter-al.so</span></span></code></pre>
+<h3 id="user-content-submodule-workflow"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#submodule-workflow"><span class="heading-anchor-icon">#</span></a>Submodule workflow</h3>
+<p>When you change anything in <code>tree-sitter-al/</code>:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">cd</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> tree-sitter-al</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">git</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> add</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -A</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> &#x26;&#x26; </span><span style="color:#B392F0;--shiki-dark:#B392F0">git</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> commit</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -m</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> "..."</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> &#x26;&#x26; </span><span style="color:#B392F0;--shiki-dark:#B392F0">git</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> push</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">cd</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> ..</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">git</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> add</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> tree-sitter-al</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">git</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> commit</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -m</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> "chore: bump tree-sitter-al submodule"</span></span></code></pre>
+<p>Do not edit <code>src/</code> or <code>bindings/</code> directly — they are regenerated and your
+changes will be lost on the next run.</p>
+<h3 id="user-content-known-limitation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#known-limitation"><span class="heading-anchor-icon">#</span></a>Known limitation</h3>
+<p>The grammar's <code>braced_block</code> does not include <code>trigger_declaration</code>, so triggers
+inside <code>key(...)</code> and a few action-tree positions are not visible via the clean
+AST. <code>TypeResolver::collect_action_trigger_vars</code> in <code>al-core::syntax</code> does a
+text-based backward scan to recover trigger-local variables. Fixing this
+properly requires a grammar change; do not paper over it elsewhere.</p>
+<hr>
+<h2 id="user-content-development"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#development"><span class="heading-anchor-icon">#</span></a>Development</h2>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> check</span><span style="color:#79B8FF;--shiki-dark:#79B8FF">   --workspace</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --exclude</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> zed-al</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> build</span><span style="color:#79B8FF;--shiki-dark:#79B8FF">   --workspace</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --exclude</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> zed-al</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> test</span><span style="color:#79B8FF;--shiki-dark:#79B8FF">    --workspace</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --exclude</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> zed-al</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> clippy</span><span style="color:#79B8FF;--shiki-dark:#79B8FF">  --workspace</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --exclude</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> zed-al</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -D</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> warnings</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> fmt</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --all</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> test</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -p</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> al-core</span><span style="color:#6A737D;--shiki-dark:#6A737D">                           # single crate</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> test</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -p</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> al-test-harness</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --test</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> e2e</span><span style="color:#6A737D;--shiki-dark:#6A737D">        # single test file</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> test</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -p</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> al-test-harness</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --test</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> e2e</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">  name</span><span style="color:#6A737D;--shiki-dark:#6A737D">  # single test</span></span></code></pre>
+<p>Always exclude <code>zed-al</code> from workspace commands — it only builds for
+<code>wasm32-wasip1</code>. <code>cargo build -p zed-al --target wasm32-wasip1 --release</code>
+produces the WASM extension (<code>target/wasm32-wasip1/release/zed_al.wasm</code>).</p>
+<p>Runtime logs:</p>
+<ul>
+<li>stderr, gated by <code>RUST_LOG</code> (<code>RUST_LOG=al_core=debug,al_lsp=debug</code>)</li>
+<li><code>~/.local/share/al-lsp/logs/al-lsp.log</code> at INFO level, always on</li>
+</ul>
+<p><code>al-lsp</code> monitors its parent process and exits when the parent dies, so stale
+servers do not accumulate when Zed is force-killed.</p>
+<hr>
+<h2 id="user-content-testing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#testing"><span class="heading-anchor-icon">#</span></a>Testing</h2>
+<p>Four layers of tests:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Layer</th><th>Location</th><th>What it covers</th></tr></thead><tbody><tr><td>Unit</td><td>inside each crate</td><td>pure functions, parsers, formatters</td></tr><tr><td>Integration</td><td><code>crates/al-core/tests/*.rs</code></td><td>al-core's <code>syntax</code> + <code>symbols</code> modules + handler logic, no transport</td></tr><tr><td>E2E (stdio)</td><td><code>crates/al-test-harness/tests/*.rs</code></td><td>spawns the real <code>al-lsp</code> binary, drives LSP over stdio</td></tr><tr><td>E2E (Zed IDE)</td><td><code>crates/al-zed-test/</code></td><td>drives a live Zed window on Wayland/Hyprland</td></tr></tbody></table>
+<p>The <code>al-test-harness</code> picks up the <code>al-lsp</code> binary in this order:
+<code>target/debug/al-lsp</code> → <code>target/release/al-lsp</code> → <code>$PATH</code>. The default fixture
+is <code>crates/al-test-harness/data/test_al_project/</code>. Override the init timeout
+with <code>AL_TEST_INIT_TIMEOUT</code> (seconds, default 60); point at a different project
+with <code>AL_TEST_PROJECT_PATH</code>.</p>
+<p>Harness test files:</p>
+<pre><code>e2e.rs                core LSP feature coverage
+regression.rs         known-bug regressions
+real_world.rs         large real AL files
+zed_fidelity.rs       parity with Zed's editor behaviour
+zed_simulation.rs     end-to-end Zed workflows (skipped without AL_TEST_PROJECT_PATH)
+completeness.rs       feature-matrix coverage
+data_driven.rs        table-driven cases
+edit_lifecycle.rs     open / change / close
+integration_full.rs   multi-feature integration scenarios
+performance.rs        latency budgets
+transport.rs          JSON-RPC framing
+</code></pre>
+<p><code>al-zed-test</code> is a Linux-only crate that drives a real Zed window via
+<code>hyprctl</code>, <code>wtype</code>, <code>grim</code>, <code>wl-copy</code>/<code>wl-paste</code>, <code>zeditor</code>, and optionally
+<code>tesseract</code> for OCR. It verifies the full stack — WASM extension, language
+server, Zed renderer — for features the stdio harness cannot reach.</p>
+<p>There are roughly 1,300 test annotations across the workspace. <code>AL_TEST_INIT_TIMEOUT</code>
+and <code>RUST_LOG</code> are the most-used test environment knobs.</p>
+<hr>
+<h2 id="user-content-continuous-integration"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#continuous-integration"><span class="heading-anchor-icon">#</span></a>Continuous integration</h2>
+<p><code>.github/workflows/</code> has two workflows:</p>
+<ul>
+<li><strong>ci.yml</strong> — triggers on push and PRs targeting <code>main</code> / <code>dev</code>. Two jobs:
+<code>ci</code> (matrix: Ubuntu, macOS, Windows) runs <code>cargo check</code>, the full test
+suite with <code>AL_TEST_PROJECT_PATH=""</code> so the Zed-simulation suite is skipped,
+<code>cargo clippy -D warnings</code>, and <code>cargo fmt --check</code>. <code>wasm</code> builds the
+<code>zed-al</code> extension for <code>wasm32-wasip1</code> on Ubuntu.</li>
+<li><strong>release.yml</strong> — triggers on <code>v*</code> tags. Builds release binaries
+(Linux x86_64, Linux aarch64 via <code>cross</code>, macOS x86_64, macOS aarch64,
+Windows x86_64), the WASM extension, and creates a GitHub release with
+generated notes. Tags containing <code>-</code> are marked as pre-releases.</li>
+</ul>
+<hr>
+<h2 id="user-content-repository-layout"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#repository-layout"><span class="heading-anchor-icon">#</span></a>Repository layout</h2>
+<pre><code>.
+├── Cargo.toml            # workspace manifest; root crate is zed-al (cdylib)
+├── Makefile              # build / install / wasm / bridges / clean
+├── extension.toml        # Zed extension metadata (id: al, API version 0.8.0)
+├── CLAUDE.md             # rules for AI agents contributing to this repo
+├── crates/
+│   ├── al-core/          # all logic + the al-lsp binary
+│   │                     #   ├─ syntax/   (parser, formatter, type resolver)
+│   │                     #   ├─ symbols/  (.app reader, NuGet, OAuth)
+│   │                     #   ├─ semantic/ (.NET CLR bridge — bridge/ holds AlBridge.csproj + Bridge.cs)
+│   │                     #   ├─ server/   (LSP/daemon transport)
+│   │                     #   ├─ dap/      (Debug Adapter Protocol)
+│   │                     #   ├─ queries/  (transport-agnostic LSP feature impls)
+│   │                     #   └─ bin/al-lsp.rs
+│   ├── al-protocol/      # daemon IPC types (shared by al-core daemon and al-explorer)
+│   ├── al-explorer/      # unified TUI + CLI client (al-explorer binary)
+│   ├── al-test-harness/  # stdio E2E test infrastructure
+│   └── al-zed-test/      # live-Zed E2E tests
+├── src/                  # zed-al WASM extension source (lib.rs, dap.rs, ...)
+├── tree-sitter-al/       # submodule: grammar + generators + data
+├── languages/al/         # Zed language config
+├── grammars/             # built grammar artefacts
+├── snippets/             # AL and launch.json snippets
+├── themes/               # Business Central theme
+├── schemas/              # JSON schemas (app.json, settings, etc.)
+├── scripts/              # bump-version.sh, DAP/SignalR capture helpers
+└── .github/workflows/    # ci.yml, release.yml
+</code></pre>
+<hr>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>MIT — see <a href="https://github.com/Brad-Fullwood/al.language.zed/blob/HEAD/LICENSE" target="_blank" rel="noopener"><code>LICENSE</code></a>. The extension is not yet published to the Zed
+marketplace; installation is dev-extension only until then.</p></article> </main> <footer class="mt-auto" style="background:var(--zed-bg);border-top:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:var(--zed-text-muted);">
+← Back to extension list
+</a> </div> </footer> </body></html>

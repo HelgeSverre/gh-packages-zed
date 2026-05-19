@@ -1,0 +1,15 @@
+id = "dts"
+name = "DTS"
+version = "0.1.0"
+schema_version = 1
+authors = ["abueno <67512202+Altair-Bueno@users.noreply.github.com>"]
+description = "Device Tree Source (DTS/DTSI/overlay) support for Zed"
+repository = "https://github.com/Altair-Bueno/zed-dts"
+
+[grammars.devicetree]
+repository = "https://github.com/joelspadin/tree-sitter-devicetree"
+commit = "e78bf56f206cb47bee28a217423acb651e076848"
+
+[language_servers.dts-language-server]
+name = "DTS Language Server"
+languages = ["DTS"]

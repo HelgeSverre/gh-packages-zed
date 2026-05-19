@@ -1,0 +1,212 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>PlainTasks — Zed Extension Safari</title><meta name="description" content="Manage todo lists with ease. Syntax highlighting for todo files with support for projects, tags, and task states."><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="PlainTasks — Zed Extension Safari"><meta property="og:description" content="Manage todo lists with ease. Syntax highlighting for todo files with support for projects, tags, and task states."><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="PlainTasks — Zed Extension Safari"><meta name="twitter:description" content="Manage todo lists with ease. Syntax highlighting for todo files with support for projects, tags, and task states."><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.DJSXA_CW.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);">  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-4"> <a href="/gh-packages-zed" class="transition" style="color:var(--zed-text-muted);">← All extensions</a> </nav> <div class="flex flex-wrap items-start justify-between gap-4"> <div class="min-w-0"> <div class="font-mono text-xs mb-2" style="color:var(--zed-muted);"> cseelus/plaintasks-zed </div> <h1 class="text-2xl sm:text-3xl font-bold break-words leading-tight" style="color:var(--zed-blue-pale);"> PlainTasks </h1> <p class="mt-2 text-pretty" style="color:var(--zed-text-muted);"> Todo list management with syntax highlighting, interactive code actions to toggle task states, automatic timestamps, and tag completion. </p> </div> <a href="https://github.com/cseelus/plaintasks-zed" target="_blank" rel="noopener" class="zed-btn-primary shrink-0 inline-flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View on GitHub
+</a> </div> <div class="mt-4 flex flex-wrap items-center gap-2"> <span class="version-pill">v0.1.0</span> <span class="cat-badge" data-cat="grammar">Grammar</span><span class="cat-badge" data-cat="language-server">Language Server</span> </div> <div class="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm" style="color:var(--zed-text-muted);"> <span class="inline-flex items-center gap-1"> <svg class="w-4 h-4" style="color:var(--zed-lime);" fill="currentColor" viewBox="0 0 20 20"> <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path> </svg> 6 stars
+</span> <span>Rust</span> <span>MIT</span> <span>Updated 2/20/2026</span> <span>schema v1</span> </div> <div class="mt-2 text-sm" style="color:var(--zed-text-muted);">
+by Chris Seelus </div>  </div> </header> <main class="flex-1 max-w-4xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <article class="prose readme-prose max-w-none"><h1 id="user-content-plaintasks-for-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#plaintasks-for-zed"><span class="heading-anchor-icon">#</span></a>PlainTasks for Zed</h1>
+<p>A Zed extension for managing todo lists with syntax highlighting and interactive task management. Inspired by <a href="https://github.com/fabiospampinato/vscode-todo-plus">Todo+</a> for VSCode and <a href="https://github.com/aziz/PlainTasks">PlainTasks</a> for Sublime Text.</p>
+<h2 id="user-content-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features"><span class="heading-anchor-icon">#</span></a>Features</h2>
+<ul>
+<li>✅ <strong>Syntax highlighting</strong> for <code>.todo</code>, <code>.tasks</code>, and <code>.taskpaper</code> files</li>
+<li>✅ <strong>Interactive task management</strong> via Language Server Protocol</li>
+<li>✅ <strong>Code actions</strong> to toggle task states (Done/Cancelled/Pending)</li>
+<li>✅ <strong>Automatic timestamps</strong> when marking tasks complete</li>
+<li>✅ <strong>Tag completion</strong> - type <code>@</code> to see suggestions</li>
+<li>✅ <strong>Project outline</strong> - navigate between projects via symbol picker</li>
+<li>✅ <strong>Priority tags</strong> with special colors (<code>@critical</code>, <code>@high</code>, <code>@today</code>, <code>@low</code>)</li>
+</ul>
+<h2 id="user-content-quick-start"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#quick-start"><span class="heading-anchor-icon">#</span></a>Quick Start</h2>
+<h3 id="user-content-1-install-the-extension"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#1-install-the-extension"><span class="heading-anchor-icon">#</span></a>1. Install the Extension</h3>
+<p>Search for "PlainTasks" in the Zed extensions panel (<code>Cmd+Shift+X</code>).</p>
+<h3 id="user-content-2-set-up-keybindings-required"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#2-set-up-keybindings-required"><span class="heading-anchor-icon">#</span></a>2. Set Up Keybindings (Required!)</h3>
+<p><strong>Zed extensions cannot automatically add keybindings</strong> - you need to configure them manually.</p>
+<p>Open your keymap (<code>Cmd+K, Cmd+S</code> or <em>Zed → Settings → Open Keymap</em>) and add:</p>
+<h4 id="user-content-standard-keybindings"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#standard-keybindings"><span class="heading-anchor-icon">#</span></a>Standard Keybindings</h4>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">[</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "context"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"Editor &#x26;&#x26; language == Todo"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "bindings"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "alt-d"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"editor::ToggleCodeActions"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "alt-c"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"editor::ToggleCodeActions"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">]</span></span></code></pre>
+<ul>
+<li><strong>Alt+D</strong>: Toggle task (Done/Pending)</li>
+<li><strong>Alt+C</strong>: Toggle task or Mark as Cancelled</li>
+</ul>
+<h4 id="user-content-vim-mode-keybindings"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#vim-mode-keybindings"><span class="heading-anchor-icon">#</span></a>Vim Mode Keybindings</h4>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">[</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "context"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"Editor &#x26;&#x26; language == Todo &#x26;&#x26; VimControl &#x26;&#x26; !VimWaiting &#x26;&#x26; !menu"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "bindings"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "+"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: [</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"workspace::SendKeystrokes"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">, </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"o ☐ escape"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">],</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "="</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"editor::ToggleCodeActions"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "ctrl-m"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"editor::ToggleCodeActions"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">]</span></span></code></pre>
+<ul>
+<li><strong><code>+</code></strong> (normal mode): Create new task</li>
+<li><strong><code>=</code></strong> (normal mode): Toggle Done/Pending</li>
+<li><strong><code>Ctrl+M</code></strong> (normal mode): Mark as Cancelled</li>
+</ul>
+<blockquote>
+<p>💡 <strong>Tip</strong>: The LSP automatically applies the most relevant action based on context, so pressing <code>=</code> directly toggles tasks without showing a menu!</p>
+</blockquote>
+<p>For more keybinding options, see <a href="https://github.com/cseelus/plaintasks-zed/blob/HEAD/KEYBINDINGS.md" target="_blank" rel="noopener">KEYBINDINGS.md</a>.</p>
+<h2 id="user-content-usage"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#usage"><span class="heading-anchor-icon">#</span></a>Usage</h2>
+<h3 id="user-content-task-management"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#task-management"><span class="heading-anchor-icon">#</span></a>Task Management</h3>
+<p>Put your cursor on a task and use code actions (or your configured keybindings):</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Current State</th><th>Action</th><th>Result</th></tr></thead><tbody><tr><td><code>☐ Task</code></td><td>Mark as Done</td><td><code>✔ Task @done(25-12-31 00:30)</code></td></tr><tr><td><code>☐ Task</code></td><td>Mark as Cancelled</td><td><code>✘ Task @cancelled(25-12-31 00:30)</code></td></tr><tr><td><code>✔ Task @done(...)</code></td><td>Revert to Pending</td><td><code>☐ Task</code></td></tr><tr><td><code>✘ Task @cancelled(...)</code></td><td>Revert to Pending</td><td><code>☐ Task</code></td></tr></tbody></table>
+<h3 id="user-content-tag-completion"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#tag-completion"><span class="heading-anchor-icon">#</span></a>Tag Completion</h3>
+<p>Type <code>@</code> and you'll see suggestions for:</p>
+<ul>
+<li>Common tags: <code>@today</code>, <code>@high</code>, <code>@medium</code>, <code>@low</code>, <code>@critical</code></li>
+<li>Time tags: <code>@done</code>, <code>@cancelled</code>, <code>@started</code>, <code>@est</code>, <code>@lasted</code></li>
+<li>Any tags you've already used in the document</li>
+</ul>
+<h3 id="user-content-file-format"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#file-format"><span class="heading-anchor-icon">#</span></a>File Format</h3>
+<pre><code>Project Name:
+  ☐ Pending task @today
+  ✔ Completed task @done(25-01-18 14:30)
+  ✘ Cancelled task @cancelled(25-01-18 15:00)
+  
+  Notes and comments without a symbol
+  
+  Sub Project:
+    ☐ Nested task @high @est(2h)
+
+Archive:
+  ✔ Old completed task @done(25-01-17 09:00)
+</code></pre>
+<h2 id="user-content-screenshot"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#screenshot"><span class="heading-anchor-icon">#</span></a>Screenshot</h2>
+<p><img src="https://github.com/cseelus/plaintasks-zed/blob/main/screenshot.png" alt="PlainTasks screenshot"></p>
+<h2 id="user-content-supported-file-extensions"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#supported-file-extensions"><span class="heading-anchor-icon">#</span></a>Supported File Extensions</h2>
+<ul>
+<li><code>.todo</code>, <code>.todos</code></li>
+<li><code>.task</code>, <code>.tasks</code></li>
+<li><code>.taskpaper</code></li>
+</ul>
+<h2 id="user-content-how-it-works"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#how-it-works"><span class="heading-anchor-icon">#</span></a>How It Works</h2>
+<p>PlainTasks uses two components:</p>
+<ol>
+<li><strong>Tree-sitter Grammar</strong>: Provides syntax highlighting and project outline</li>
+<li><strong>Language Server (LSP)</strong>: Provides interactive features like code actions and tag completion</li>
+</ol>
+<p>The LSP server (<code>plaintasks-lsp</code>) runs automatically when you open a <code>.todo</code> file.</p>
+<h2 id="user-content-development"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#development"><span class="heading-anchor-icon">#</span></a>Development</h2>
+<h3 id="user-content-prerequisites"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#prerequisites"><span class="heading-anchor-icon">#</span></a>Prerequisites</h3>
+<ul>
+<li>Rust installed via <a href="https://rustup.rs/">rustup</a> (required by Zed for extension development)</li>
+<li>The <code>wasm32-wasip1</code> target for building the extension</li>
+</ul>
+<h3 id="user-content-quick-start-1"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#quick-start-1"><span class="heading-anchor-icon">#</span></a>Quick Start</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># 1. Setup (one-time)</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">make</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> setup</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># 2. Build and install LSP server</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">make</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> install-lsp</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># 3. Build extension for development</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">make</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> dev-extension</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># 4. Install in Zed</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Open Zed → Extensions (Cmd+Shift+X) → Install Dev Extension → Select this directory</span></span></code></pre>
+<h3 id="user-content-build-commands"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#build-commands"><span class="heading-anchor-icon">#</span></a>Build Commands</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">make</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> help</span><span style="color:#6A737D;--shiki-dark:#6A737D">              # Show all available commands</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">make</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> setup</span><span style="color:#6A737D;--shiki-dark:#6A737D">             # Install Rust targets and check dependencies</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">make</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> build</span><span style="color:#6A737D;--shiki-dark:#6A737D">             # Build extension (debug) + LSP server</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">make</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> build-release</span><span style="color:#6A737D;--shiki-dark:#6A737D">     # Build extension (release) + LSP server</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">make</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> install-lsp</span><span style="color:#6A737D;--shiki-dark:#6A737D">       # Build and install LSP to ~/.cargo/bin/</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">make</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> dev-extension</span><span style="color:#6A737D;--shiki-dark:#6A737D">     # Build everything for dev extension use</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">make</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> clean</span><span style="color:#6A737D;--shiki-dark:#6A737D">             # Remove all build artifacts</span></span></code></pre>
+<h3 id="user-content-manual-building"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#manual-building"><span class="heading-anchor-icon">#</span></a>Manual Building</h3>
+<p>If you prefer not to use the Makefile:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Install the wasm32-wasip1 target</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">rustup</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> target</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> add</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> wasm32-wasip1</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Build the extension</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> build</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --release</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --target</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> wasm32-wasip1</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">ln</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -sf</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> target/wasm32-wasip1/release/plaintasks.wasm</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> extension.wasm</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Build and install the LSP server</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">cd</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> lsp</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> build</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --release</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cp</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> target/release/plaintasks-lsp</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> ~/.cargo/bin/</span></span></code></pre>
+<h3 id="user-content-project-structure"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#project-structure"><span class="heading-anchor-icon">#</span></a>Project Structure</h3>
+<ul>
+<li><code>src/extension.rs</code> - Zed extension (WASM component)</li>
+<li><code>lsp/</code> - Language Server Protocol implementation (native binary)</li>
+<li><code>grammars/todo/</code> - Tree-sitter grammar (separate repo: <a href="https://github.com/cseelus/tree-sitter-todo">tree-sitter-todo</a>)</li>
+<li><code>languages/todo/</code> - Language configuration</li>
+</ul>
+<h2 id="user-content-troubleshooting"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#troubleshooting"><span class="heading-anchor-icon">#</span></a>Troubleshooting</h2>
+<p><strong>Code actions not working?</strong></p>
+<ul>
+<li>Make sure you've added keybindings to your <code>keymap.json</code></li>
+<li>Check that the file has a <code>.todo</code> extension</li>
+<li>Try restarting Zed (<code>Cmd+Q</code> and reopen)</li>
+</ul>
+<p><strong>Tag completion not showing?</strong></p>
+<ul>
+<li>Type <code>@</code> and wait a moment</li>
+<li>Check if Copilot or other completion providers are overriding it</li>
+<li>Try pressing <code>Ctrl+Space</code> to manually trigger completion</li>
+</ul>
+<p><strong>LSP not starting?</strong></p>
+<ul>
+<li>Check Zed's logs: <code>tail -f ~/Library/Logs/Zed/Zed.log | grep plaintasks</code></li>
+<li>Reinstall the extension</li>
+</ul>
+<h2 id="user-content-contributing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#contributing"><span class="heading-anchor-icon">#</span></a>Contributing</h2>
+<p>Contributions are welcome! Please feel free to submit issues or pull requests.</p>
+<h2 id="user-content-roadmap"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#roadmap"><span class="heading-anchor-icon">#</span></a>Roadmap</h2>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" checked disabled> Tree-sitter grammar with syntax highlighting</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> Language Server Protocol implementation</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> Code actions for task state management</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> Tag completion</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> Project outline support</li>
+<li class="task-list-item"><input type="checkbox" disabled> Archive functionality (move completed tasks)</li>
+<li class="task-list-item"><input type="checkbox" disabled> Create new task command</li>
+<li class="task-list-item"><input type="checkbox" disabled> Statistics view (task counts, time tracking)</li>
+</ul>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>MIT</p>
+<h2 id="user-content-acknowledgments"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#acknowledgments"><span class="heading-anchor-icon">#</span></a>Acknowledgments</h2>
+<ul>
+<li>Inspired by <a href="https://github.com/aziz/PlainTasks">PlainTasks</a> for Sublime Text</li>
+<li>Based on <a href="https://github.com/fabiospampinato/vscode-todo-plus">Todo+</a> for VSCode</li>
+</ul></article> </main> <footer class="mt-auto" style="background:var(--zed-bg);border-top:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:var(--zed-text-muted);">
+← Back to extension list
+</a> </div> </footer> </body></html>

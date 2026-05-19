@@ -1,0 +1,15 @@
+id = "moss"
+name = "Moss"
+version = "0.0.1"
+schema_version = 1
+authors = ["whiting <1712428442@qq.com>"]
+description = ""
+repository = "https://github.com/windwhiterain/moss-lang-zed-extension"
+
+[grammars.moss]
+repository = "https://github.com/windwhiterain/tree-sitter-moss"
+rev = "12786e63f53b775c8d8a89da4f42c72edfbf523d"
+
+[language_servers.moss-language-server]
+name = "Moss Language Server"
+languages = ["Moss"]

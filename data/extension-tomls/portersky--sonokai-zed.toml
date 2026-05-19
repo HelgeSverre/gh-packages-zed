@@ -1,0 +1,9 @@
+id = "sonokai-zed"
+name = "Sonokai Zed"
+description = "A port of the Sonokai Neovim theme to Zed. Includes 7 variants: Default, Default Darker, Shusia, Andromeda, Atlantis, Maia, and Espresso."
+version = "1.0.0"
+schema_version = 1
+authors = ["sainnhe <i@sainnhe.dev>"]
+repository = "https://github.com/sainnhe/sonokai"
+
+themes = ["themes/sonokai.json"]

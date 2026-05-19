@@ -1,0 +1,1 @@
+# VeriPy - Zed Extension

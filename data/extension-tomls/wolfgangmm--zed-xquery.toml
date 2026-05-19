@@ -1,0 +1,15 @@
+id = "xquery"
+name = "XQuery"
+version = "0.0.1"
+schema_version = 1
+authors = ["Wolfgang Meier <wolfang@jinntec.de>"]
+description = "XQuery extension with eXist-db linting"
+repository = "https://github.com/wolfgangmm/zed-xquery"
+
+[language_servers.xquery-lsp]
+name = "XQuery Language Server"
+languages = ["XQuery"]
+
+[grammars.xquery]
+repository = "https://github.com/wolfgangmm/tree-sitter-xquery"
+rev = "4ad4d4aad28375624e87378152d20947017f7f8c"

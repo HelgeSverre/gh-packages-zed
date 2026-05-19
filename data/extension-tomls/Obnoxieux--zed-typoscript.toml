@@ -1,0 +1,11 @@
+id = "typoscript"
+name = "TypoScript"
+version = "0.0.2"
+schema_version = 2
+authors = ["David Battefeld <post@davidbattefeld.de>"]
+description = "TypoScript configuration language support (TYPO3 CMS)"
+repository = "https://github.com/Obnoxieux/zed-typoscript"
+
+[grammars.typoscript]
+repository = "https://github.com/Teddytrombone/tree-sitter-typoscript"
+rev = "5d8fde870b0ded1f429ba5bb249a9d9f8589ff5f"

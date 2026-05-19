@@ -1,0 +1,23 @@
+id = "opentofu"
+name = "OpenTofu"
+description = "OpenTofu support."
+version = "0.2.0"
+schema_version = 1
+authors = [
+    "Caius Durling <dev@caius.name>",
+    "Daniel Banck <dbanck@users.noreply.github.com>",
+    "Artem Zhurikhin <github.code@ash.pw>",
+]
+repository = "https://github.com/ashpool37/zed-extension-opentofu"
+
+[language_servers.tofu-ls]
+name = "OpenTofu Language Server"
+languages = ["OpenTofu", "OpenTofu Vars"]
+language_ids = { OpenTofu = "opentofu", "OpenTofu Vars" = "opentofu-vars" }
+# TODO: file issue for server supported code actions
+# TODO: reenable default actions / delete override
+code_action_kinds = []
+
+[grammars.hcl]
+repository = "https://github.com/MichaHoffmann/tree-sitter-hcl"
+commit = "e936d3fef8bac884661472dce71ad82284761eb1"

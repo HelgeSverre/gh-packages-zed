@@ -1,0 +1,15 @@
+id = "isabelle-language"
+name = "Isabelle"
+version = "0.0.1"
+schema_version = 1
+authors = ["Andreas Kurz off.andreaskurz@gmail.com>"]
+description = "Extension for Isabelle HOL"
+repository = "https://github.com/theandikurz/zed-isabelle"
+
+[grammars.isabelle]
+repository = "https://github.com/theandikurz/tree-sitter-isabelle"
+commit = "8576c89b9c913a77dcae6d2dc24a8831694bb690"
+
+[language_servers.isabelle-lsp]
+name = "Isabelle LSP"
+languages = ["Isabelle"]

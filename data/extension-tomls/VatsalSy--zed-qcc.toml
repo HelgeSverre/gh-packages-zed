@@ -1,0 +1,32 @@
+id = "basilisk-qcc"
+name = "basilisk-qcc"
+version = "0.3.0"
+schema_version = 1
+authors = ["Zed Basilisk Contributors"]
+description = "Basilisk C language support powered by qcc-lsp"
+repository = "https://github.com/VatsalSy/zed-qcc"
+languages = ["languages/basilisk"]
+
+[grammars.c]
+repository = "https://github.com/tree-sitter/tree-sitter-c"
+commit = "ae19b676b13bdcc13b7665397e6d9b14975473dd"
+
+[language_servers.qcc-lsp]
+name = "qcc-lsp"
+languages = ["Basilisk C", "C"]
+
+[language_servers.qcc-lsp.language_ids]
+"Basilisk C" = "basilisk"
+"C" = "basilisk"
+
+[[capabilities]]
+kind = "npm:install"
+package = "vscode-languageserver"
+
+[[capabilities]]
+kind = "npm:install"
+package = "vscode-languageserver-textdocument"
+
+[[capabilities]]
+kind = "npm:install"
+package = "vscode-uri"

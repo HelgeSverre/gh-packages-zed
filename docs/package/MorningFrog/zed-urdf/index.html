@@ -1,0 +1,273 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>URDF — Zed Extension Safari</title><meta name="description" content="URDF language support for Zed with syntax highlighting, outline, and completions."><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="URDF — Zed Extension Safari"><meta property="og:description" content="URDF language support for Zed with syntax highlighting, outline, and completions."><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="URDF — Zed Extension Safari"><meta name="twitter:description" content="URDF language support for Zed with syntax highlighting, outline, and completions."><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.DJSXA_CW.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);">  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-4"> <a href="/gh-packages-zed" class="transition" style="color:var(--zed-text-muted);">← All extensions</a> </nav> <div class="flex flex-wrap items-start justify-between gap-4"> <div class="min-w-0"> <div class="font-mono text-xs mb-2" style="color:var(--zed-muted);"> MorningFrog/zed-urdf </div> <h1 class="text-2xl sm:text-3xl font-bold break-words leading-tight" style="color:var(--zed-blue-pale);"> URDF </h1> <p class="mt-2 text-pretty" style="color:var(--zed-text-muted);"> URDF language support for Zed with syntax highlighting, outline, and completions. </p> </div> <a href="https://github.com/MorningFrog/zed-urdf" target="_blank" rel="noopener" class="zed-btn-primary shrink-0 inline-flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View on GitHub
+</a> </div> <div class="mt-4 flex flex-wrap items-center gap-2"> <span class="version-pill">v0.1.0</span> <span class="cat-badge" data-cat="grammar">Grammar</span><span class="cat-badge" data-cat="language-server">Language Server</span> </div> <div class="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm" style="color:var(--zed-text-muted);"> <span class="inline-flex items-center gap-1"> <svg class="w-4 h-4" style="color:var(--zed-lime);" fill="currentColor" viewBox="0 0 20 20"> <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path> </svg> 0 stars
+</span> <span>Rust</span> <span>Apache-2.0</span> <span>Updated 3/26/2026</span> <span>schema v1</span> </div> <div class="mt-2 text-sm" style="color:var(--zed-text-muted);">
+by MorningFrog </div> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> language </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> language-server-protocol </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> lsp-server </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> robotics </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> urdf </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed-extension </span> </div> </div> </header> <main class="flex-1 max-w-4xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <article class="prose readme-prose max-w-none"><h1 id="user-content-urdf-for-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#urdf-for-zed"><span class="heading-anchor-icon">#</span></a>URDF for Zed</h1>
+<p>URDF language support for <a href="https://zed.dev">Zed</a> with:</p>
+<ul>
+<li>Syntax highlighting</li>
+<li>Outline / structure view</li>
+<li>Auto indentation</li>
+<li>Context-aware completions for common URDF tags, attributes, and values</li>
+</ul>
+<p>This extension targets <code>.urdf</code> files and builds on top of the XML Tree-sitter grammar plus an external URDF language server.</p>
+<h2 id="user-content-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features"><span class="heading-anchor-icon">#</span></a>Features</h2>
+<ul>
+<li>Recognizes <code>.urdf</code> files as the <code>URDF</code> language</li>
+<li>Reuses the XML Tree-sitter grammar for parsing</li>
+<li>Provides syntax highlighting through Tree-sitter queries</li>
+<li>Provides outline support for URDF/XML elements</li>
+<li>Shows <code>name</code> context in outline entries for <code>robot</code>, <code>link</code>, and <code>joint</code></li>
+<li>Provides completions for common URDF tags such as:
+<ul>
+<li><code>robot</code></li>
+<li><code>link</code></li>
+<li><code>joint</code></li>
+<li><code>visual</code></li>
+<li><code>collision</code></li>
+<li><code>inertial</code></li>
+<li><code>geometry</code></li>
+<li><code>origin</code></li>
+<li><code>parent</code></li>
+<li><code>child</code></li>
+<li><code>axis</code></li>
+<li><code>limit</code></li>
+<li><code>material</code></li>
+<li><code>mesh</code></li>
+</ul>
+</li>
+<li>Provides completions for common URDF attributes and values</li>
+<li>Supports both block-style and self-closing completions for tags like <code>link</code> and <code>material</code></li>
+</ul>
+<h2 id="user-content-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation"><span class="heading-anchor-icon">#</span></a>Installation</h2>
+<p>For normal users:</p>
+<ol>
+<li>Install the extension in Zed</li>
+<li>Open a <code>.urdf</code> file</li>
+<li>The extension will look for a language server binary whose version exactly matches the extension version</li>
+<li>If that exact-version binary is not already cached, the extension downloads the matching GitHub Release asset for the same version</li>
+</ol>
+<p>This extension intentionally uses a <strong>strict version lock</strong> between the extension and the language server.</p>
+<p>That means:</p>
+<ul>
+<li>extension version <code>0.1.0</code> only accepts language server release tag <code>v0.1.0</code></li>
+<li>extension version <code>0.1.1</code> only accepts language server release tag <code>v0.1.1</code></li>
+<li>the extension does <strong>not</strong> use the latest release automatically</li>
+<li>the extension does <strong>not</strong> silently fall back to a different installed server version</li>
+</ul>
+<h2 id="user-content-version-lock-policy"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#version-lock-policy"><span class="heading-anchor-icon">#</span></a>Version Lock Policy</h2>
+<p>The repository follows these rules:</p>
+<ul>
+<li><code>Cargo.toml</code> version</li>
+<li><code>extension.toml</code> version</li>
+<li><code>urdf-language-server/Cargo.toml</code> version</li>
+<li>Git tag name without the leading <code>v</code></li>
+</ul>
+<p>must all be identical.</p>
+<p>Examples:</p>
+<ul>
+<li>extension version: <code>0.1.0</code></li>
+<li>language server crate version: <code>0.1.0</code></li>
+<li>Git tag: <code>v0.1.0</code></li>
+</ul>
+<p>At runtime, the extension downloads only the release with tag <code>v0.1.0</code> when the extension version is <code>0.1.0</code>.</p>
+<h2 id="user-content-release-assets"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#release-assets"><span class="heading-anchor-icon">#</span></a>Release Assets</h2>
+<p>Expected release asset names:</p>
+<ul>
+<li><code>urdf-language-server-vX.Y.Z-x86_64-unknown-linux-musl.tar.gz</code></li>
+<li><code>urdf-language-server-vX.Y.Z-x86_64-apple-darwin.tar.gz</code></li>
+<li><code>urdf-language-server-vX.Y.Z-aarch64-apple-darwin.tar.gz</code></li>
+<li><code>urdf-language-server-vX.Y.Z-x86_64-pc-windows-msvc.zip</code></li>
+</ul>
+<p>Each archive must contain the executable at the archive root:</p>
+<ul>
+<li><code>urdf-language-server</code></li>
+<li><code>urdf-language-server.exe</code> on Windows</li>
+</ul>
+<h2 id="user-content-development"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#development"><span class="heading-anchor-icon">#</span></a>Development</h2>
+<h3 id="user-content-prerequisites"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#prerequisites"><span class="heading-anchor-icon">#</span></a>Prerequisites</h3>
+<p>Install Rust with <code>rustup</code>.</p>
+<h3 id="user-content-install-as-a-dev-extension-in-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#install-as-a-dev-extension-in-zed"><span class="heading-anchor-icon">#</span></a>Install as a Dev Extension in Zed</h3>
+<ol>
+<li>Open Zed</li>
+<li>Open the command palette</li>
+<li>Run <code>zed: install dev extension</code></li>
+<li>Select this repository folder</li>
+</ol>
+<p>After changing the extension, open the Extensions page and click <code>Rebuild</code> for the dev extension.</p>
+<h2 id="user-content-local-testing-without-github-release"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#local-testing-without-github-release"><span class="heading-anchor-icon">#</span></a>Local Testing Without GitHub Release</h2>
+<p>You do <strong>not</strong> need to publish a GitHub Release every time you modify the language server during development.</p>
+<p>With the strict version-locked setup used by this extension, the runtime behavior is:</p>
+<ol>
+<li>The extension first checks whether a language server binary for the <strong>exact same version</strong> already exists in the local versioned cache directory</li>
+<li>Only if that exact-version binary is missing does it try to download the matching GitHub Release asset for the same version tag</li>
+</ol>
+<p>That means local development can use a manually built binary, as long as:</p>
+<ul>
+<li>the extension version and language server version are the same</li>
+<li>the binary is placed at the expected versioned cache path</li>
+</ul>
+<h3 id="user-content-keep-versions-in-sync"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#keep-versions-in-sync"><span class="heading-anchor-icon">#</span></a>Keep versions in sync</h3>
+<p>Before local testing, make sure these versions are identical:</p>
+<ul>
+<li><code>Cargo.toml</code></li>
+<li><code>extension.toml</code></li>
+<li><code>urdf-language-server/Cargo.toml</code></li>
+</ul>
+<p>For example, if the version is <code>0.1.0</code>, then all three files should use <code>0.1.0</code>.</p>
+<h3 id="user-content-build-the-language-server-locally"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#build-the-language-server-locally"><span class="heading-anchor-icon">#</span></a>Build the language server locally</h3>
+<p>From the repository root:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> build</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --manifest-path</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> ./urdf-language-server/Cargo.toml</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --release</span></span></code></pre>
+<h3 id="user-content-put-the-binary-into-the-expected-local-cache-directory"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#put-the-binary-into-the-expected-local-cache-directory"><span class="heading-anchor-icon">#</span></a>Put the binary into the expected local cache directory</h3>
+<p>Create the versioned cache directory expected by the extension:</p>
+<p>Linux:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span>~/.local/share/zed/extensions/work/.zed-urdf/&#x3C;version>/</span></span></code></pre>
+<p>macOS:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span>~/Library/Application Support/zed/extensions/work/.zed-urdf/&#x3C;version>/</span></span></code></pre>
+<p>Windows:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span>%LOCALAPPDATA%\Zed\extensions\work\.zed-urdf\&#x3C;version>\</span></span></code></pre>
+<p>Then copy the locally built binary into that directory.</p>
+<h4 id="user-content-linux"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#linux"><span class="heading-anchor-icon">#</span></a>Linux</h4>
+<p>If you build for the default host target:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">ZED_EXT_DIR</span><span style="color:#F97583;--shiki-dark:#F97583">=</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">$HOME</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">/.local/share/zed/extensions/work/urdf/.zed-urdf/0.1.0"</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">mkdir</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -p</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> "</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">$ZED_EXT_DIR</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cp</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> urdf-language-server/target/release/urdf-language-server</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> "</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">$ZED_EXT_DIR</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">/urdf-language-server"</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">chmod</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> +x</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> "</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">$ZED_EXT_DIR</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">/urdf-language-server"</span></span></code></pre>
+<p>If you explicitly build a target triple, your output path may instead look like this:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">ZED_EXT_DIR</span><span style="color:#F97583;--shiki-dark:#F97583">=</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">$HOME</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">/.local/share/zed/extensions/work/urdf/.zed-urdf/0.1.0"</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">mkdir</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -p</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> "</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">$ZED_EXT_DIR</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cp</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> urdf-language-server/target/x86_64-unknown-linux-gnu/release/urdf-language-server</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> "</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">$ZED_EXT_DIR</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">/urdf-language-server"</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">chmod</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> +x</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> "</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">$ZED_EXT_DIR</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">/urdf-language-server"</span></span></code></pre>
+<h4 id="user-content-macos"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#macos"><span class="heading-anchor-icon">#</span></a>macOS</h4>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">ZED_EXT_DIR</span><span style="color:#F97583;--shiki-dark:#F97583">=</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">$HOME</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">/Library/Application Support/zed/extensions/work/urdf/.zed-urdf/0.1.0"</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">mkdir</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -p</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> "</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">$ZED_EXT_DIR</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cp</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> urdf-language-server/target/release/urdf-language-server</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> "</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">$ZED_EXT_DIR</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">/urdf-language-server"</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">chmod</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> +x</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> "</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">$ZED_EXT_DIR</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">/urdf-language-server"</span></span></code></pre>
+<h4 id="user-content-windows-powershell"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#windows-powershell"><span class="heading-anchor-icon">#</span></a>Windows (PowerShell)</h4>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">$ZedExtDir </span><span style="color:#F97583;--shiki-dark:#F97583">=</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> "</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">$</span><span style="color:#79B8FF;--shiki-dark:#79B8FF">env:</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">LOCALAPPDATA</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">\Zed\extensions\work\.zed-urdf\0.1.0"</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">New-Item</span><span style="color:#F97583;--shiki-dark:#F97583"> -</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">ItemType Directory </span><span style="color:#F97583;--shiki-dark:#F97583">-</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">Force </span><span style="color:#F97583;--shiki-dark:#F97583">-</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">Path $ZedExtDir </span><span style="color:#F97583;--shiki-dark:#F97583">|</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> Out-Null</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">Copy-Item</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> "urdf-language-server\target\release\urdf-language-server.exe"</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> "</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">$ZedExtDir</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">\urdf-language-server.exe"</span></span></code></pre>
+<p>Replace <code>0.1.0</code> with your actual current extension version.</p>
+<h3 id="user-content-recommended-local-test-workflow-after-changing-the-language-server"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#recommended-local-test-workflow-after-changing-the-language-server"><span class="heading-anchor-icon">#</span></a>Recommended local test workflow after changing the language server</h3>
+<p>When you modify <code>urdf-language-server/src/main.rs</code>:</p>
+<ol>
+<li>Keep all versions unchanged if you are just testing local behavior</li>
+<li>Run the local release build</li>
+<li>Copy the new binary into <code>.zed-urdf/&#x3C;version>/</code></li>
+<li>Rebuild the dev extension in Zed</li>
+<li>Reopen a <code>.urdf</code> file and verify completions</li>
+</ol>
+<h3 id="user-content-testing-a-version-bump-locally"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#testing-a-version-bump-locally"><span class="heading-anchor-icon">#</span></a>Testing a version bump locally</h3>
+<p>If you want to test a new version locally, such as moving from <code>0.1.0</code> to <code>0.1.1</code>:</p>
+<ol>
+<li>
+<p>Update these files to <code>0.1.1</code>:</p>
+<ul>
+<li><code>Cargo.toml</code></li>
+<li><code>extension.toml</code></li>
+<li><code>urdf-language-server/Cargo.toml</code></li>
+</ul>
+</li>
+<li>
+<p>Build the language server again</p>
+</li>
+<li>
+<p>Copy the binary into <code>.zed-urdf/0.1.1/</code></p>
+</li>
+<li>
+<p>Rebuild the dev extension in Zed</p>
+</li>
+</ol>
+<p>The extension will then use only the <code>0.1.1</code> binary and will not reuse the old <code>0.1.0</code> cache.</p>
+<h3 id="user-content-when-is-github-release-actually-needed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#when-is-github-release-actually-needed"><span class="heading-anchor-icon">#</span></a>When is GitHub Release actually needed?</h3>
+<p>A GitHub Release is only needed when you want to test the <strong>real published download path</strong>:</p>
+<ul>
+<li>remove the local cached binary for the current version</li>
+<li>keep the same version</li>
+<li>create the matching Git tag such as <code>v0.1.0</code></li>
+<li>publish the release assets</li>
+<li>let the extension download that exact-version asset automatically</li>
+</ul>
+<h2 id="user-content-publishing-notes"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#publishing-notes"><span class="heading-anchor-icon">#</span></a>Publishing Notes</h2>
+<p>This repository keeps the language server source code, but the published Zed extension does not ship the server binary inside the extension package.</p>
+<p>Instead:</p>
+<ul>
+<li>GitHub Actions builds versioned language server binaries</li>
+<li>those binaries are uploaded as GitHub Release assets</li>
+<li>the extension downloads only the asset whose tag exactly matches the extension version</li>
+</ul>
+<h2 id="user-content-troubleshooting"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#troubleshooting"><span class="heading-anchor-icon">#</span></a>Troubleshooting</h2>
+<p>If the extension does not seem to work:</p>
+<ul>
+<li>open <code>Zed.log</code> using <code>zed: open log</code></li>
+<li>or launch Zed from the command line with:</li>
+</ul>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">zed</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --foreground</span></span></code></pre>
+<p>This usually shows more detailed extension and language server logs during development.</p>
+<p>You may also want to check:</p>
+<ul>
+<li>whether the three version fields are exactly the same</li>
+<li>whether the local binary exists under <code>.zed-urdf/&#x3C;version>/</code></li>
+<li>whether the binary name is correct for your platform</li>
+<li>whether the binary is executable on Unix-like systems</li>
+</ul>
+<h2 id="user-content-project-structure"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#project-structure"><span class="heading-anchor-icon">#</span></a>Project Structure</h2>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span>.</span></span>
+<span class="line"><span>├── .github/</span></span>
+<span class="line"><span>│   └── workflows/</span></span>
+<span class="line"><span>│       ├── check-version-sync.yml</span></span>
+<span class="line"><span>│       └── release-language-server.yml</span></span>
+<span class="line"><span>├── README.md</span></span>
+<span class="line"><span>├── extension.toml</span></span>
+<span class="line"><span>├── Cargo.toml</span></span>
+<span class="line"><span>├── src/</span></span>
+<span class="line"><span>│   └── lib.rs</span></span>
+<span class="line"><span>├── languages/</span></span>
+<span class="line"><span>│   └── urdf/</span></span>
+<span class="line"><span>│       ├── config.toml</span></span>
+<span class="line"><span>│       ├── highlights.scm</span></span>
+<span class="line"><span>│       ├── indents.scm</span></span>
+<span class="line"><span>│       └── outline.scm</span></span>
+<span class="line"><span>└── urdf-language-server/</span></span>
+<span class="line"><span>    ├── Cargo.toml</span></span>
+<span class="line"><span>    └── src/</span></span>
+<span class="line"><span>        └── main.rs</span></span></code></pre>
+<h2 id="user-content-example"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#example"><span class="heading-anchor-icon">#</span></a>Example</h2>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">&#x3C;?</span><span style="color:#85E89D;--shiki-dark:#85E89D">xml</span><span style="color:#B392F0;--shiki-dark:#B392F0"> version</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">=</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"1.0"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">?></span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">&#x3C;</span><span style="color:#85E89D;--shiki-dark:#85E89D">robot</span><span style="color:#B392F0;--shiki-dark:#B392F0"> name</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">=</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"demo_robot"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">></span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  &#x3C;</span><span style="color:#85E89D;--shiki-dark:#85E89D">link</span><span style="color:#B392F0;--shiki-dark:#B392F0"> name</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">=</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"base_link"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> /></span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  &#x3C;</span><span style="color:#85E89D;--shiki-dark:#85E89D">link</span><span style="color:#B392F0;--shiki-dark:#B392F0"> name</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">=</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"arm_link"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">></span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    &#x3C;</span><span style="color:#85E89D;--shiki-dark:#85E89D">visual</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">></span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      &#x3C;</span><span style="color:#85E89D;--shiki-dark:#85E89D">geometry</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">></span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">        &#x3C;</span><span style="color:#85E89D;--shiki-dark:#85E89D">box</span><span style="color:#B392F0;--shiki-dark:#B392F0"> size</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">=</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"1 1 1"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> /></span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      &#x3C;/</span><span style="color:#85E89D;--shiki-dark:#85E89D">geometry</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">></span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    &#x3C;/</span><span style="color:#85E89D;--shiki-dark:#85E89D">visual</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">></span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  &#x3C;/</span><span style="color:#85E89D;--shiki-dark:#85E89D">link</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">></span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  &#x3C;</span><span style="color:#85E89D;--shiki-dark:#85E89D">joint</span><span style="color:#B392F0;--shiki-dark:#B392F0"> name</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">=</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"base_to_arm"</span><span style="color:#B392F0;--shiki-dark:#B392F0"> type</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">=</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"revolute"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">></span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    &#x3C;</span><span style="color:#85E89D;--shiki-dark:#85E89D">parent</span><span style="color:#B392F0;--shiki-dark:#B392F0"> link</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">=</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"base_link"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> /></span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    &#x3C;</span><span style="color:#85E89D;--shiki-dark:#85E89D">child</span><span style="color:#B392F0;--shiki-dark:#B392F0"> link</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">=</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"arm_link"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> /></span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    &#x3C;</span><span style="color:#85E89D;--shiki-dark:#85E89D">origin</span><span style="color:#B392F0;--shiki-dark:#B392F0"> xyz</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">=</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"0 0 0.1"</span><span style="color:#B392F0;--shiki-dark:#B392F0"> rpy</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">=</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"0 0 0"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> /></span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    &#x3C;</span><span style="color:#85E89D;--shiki-dark:#85E89D">axis</span><span style="color:#B392F0;--shiki-dark:#B392F0"> xyz</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">=</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"0 0 1"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> /></span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    &#x3C;</span><span style="color:#85E89D;--shiki-dark:#85E89D">limit</span><span style="color:#B392F0;--shiki-dark:#B392F0"> lower</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">=</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"-1.57"</span><span style="color:#B392F0;--shiki-dark:#B392F0"> upper</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">=</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"1.57"</span><span style="color:#B392F0;--shiki-dark:#B392F0"> effort</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">=</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"100"</span><span style="color:#B392F0;--shiki-dark:#B392F0"> velocity</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">=</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"1.0"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> /></span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  &#x3C;/</span><span style="color:#85E89D;--shiki-dark:#85E89D">joint</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">></span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">&#x3C;/</span><span style="color:#85E89D;--shiki-dark:#85E89D">robot</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">></span></span></code></pre>
+<h2 id="user-content-notes"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#notes"><span class="heading-anchor-icon">#</span></a>Notes</h2>
+<ul>
+<li>This extension currently uses the XML grammar for parsing URDF documents</li>
+<li>Completions are provided by the external custom URDF language server</li>
+<li>The completion engine is designed specifically for common URDF authoring workflows, rather than full XML Schema/XSD validation</li>
+</ul>
+<h2 id="user-content-acknowledgements"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#acknowledgements"><span class="heading-anchor-icon">#</span></a>Acknowledgements</h2>
+<p>This project builds on and draws inspiration from:</p>
+<ul>
+<li><a href="https://github.com/tree-sitter-grammars/tree-sitter-xml">tree-sitter-xml</a></li>
+<li><a href="https://github.com/sweetppro/zed-xml">sweetppro/zed-xml</a></li>
+</ul>
+<p>Many thanks to the maintainers and contributors of those projects.</p>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>This project is licensed under the Apache License 2.0.</p>
+<pre><code></code></pre></article> </main> <footer class="mt-auto" style="background:var(--zed-bg);border-top:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:var(--zed-text-muted);">
+← Back to extension list
+</a> </div> </footer> </body></html>

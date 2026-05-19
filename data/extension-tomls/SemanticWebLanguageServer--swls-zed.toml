@@ -1,0 +1,17 @@
+id = "swls"
+name = "SWLS"
+description = "Semantic Web Language Server for Turtle, TriG, SPARQL and JSON-LD — autocompletion, diagnostics, formatting and more."
+version = "0.0.1"
+schema_version = 1
+authors = ["Arthur Vercruysse"]
+repository = "https://github.com/SemanticWebLanguageServer/swls-zed"
+
+[language_servers.swls]
+name = "SWLS"
+languages = ["Turtle", "TriG", "JSON-LD", "SPARQL"]
+
+[language_servers.swls.language_ids]
+"Turtle" = "turtle"
+"TriG" = "trig"
+"JSON-LD" = "jsonld"
+"SPARQL" = "sparql"

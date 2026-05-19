@@ -1,0 +1,451 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+:root {
+  --zed-bg: hsla(0, 0%, 9%, 1);
+  --zed-surface: hsla(220, 18%, 14%, 1);
+  --zed-border: hsla(220, 18%, 22%, 1);
+  --zed-blue: hsla(224, 87%, 47%, 1);
+  --zed-blue-deep: hsla(220, 90%, 31%, 1);
+  --zed-blue-pale: hsla(220, 60%, 78%, 1);
+  --zed-lime: hsla(77, 100%, 39%, 1);
+  --zed-muted: hsla(0, 0%, 41%, 1);
+  --zed-text-muted: hsla(210, 8%, 60%, 1);
+  --zed-text: hsla(240, 6%, 74%, 1);
+  --zed-ring: hsla(224, 87%, 60%, 1);
+  --zed-ring-offset: 2px;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Unified focus system — keyboard-only ring in Zed blue, consistent shape    */
+/* -------------------------------------------------------------------------- */
+
+/* Suppress mouse-click focus rings; only :focus-visible gets the ring */
+*:focus { outline: none; }
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+summary:focus-visible,
+[role="button"]:focus-visible,
+[tabindex="0"]:focus-visible {
+  outline: 2px solid var(--zed-ring);
+  outline-offset: var(--zed-ring-offset);
+}
+
+/* Heading anchor links inside README — they use tabindex=-1, no ring */
+.readme-prose a.heading-anchor:focus-visible { outline: none; }
+
+/* -------------------------------------------------------------------------- */
+/* Button & control utilities — consistent hover/active feedback              */
+/* -------------------------------------------------------------------------- */
+.zed-btn-primary {
+  background: var(--zed-blue);
+  color: white;
+  transition: background 140ms, transform 100ms;
+}
+.zed-btn-primary:hover { background: hsla(224, 87%, 53%, 1); }
+.zed-btn-primary:active { transform: translateY(1px); }
+
+.zed-btn-ghost {
+  background: transparent;
+  border: 1px solid var(--zed-border);
+  color: var(--zed-text);
+  transition: background 140ms, border-color 140ms, color 140ms;
+}
+.zed-btn-ghost:hover {
+  background: var(--zed-surface);
+  border-color: hsla(220, 18%, 32%, 1);
+  color: hsla(220, 30%, 92%, 1);
+}
+.zed-btn-ghost:active { transform: translateY(1px); }
+
+.zed-select {
+  background: var(--zed-surface);
+  border: 1px solid var(--zed-border);
+  color: var(--zed-text);
+  cursor: pointer;
+  transition: border-color 140ms, background 140ms;
+}
+.zed-select:hover {
+  border-color: hsla(220, 18%, 32%, 1);
+  background: hsla(220, 18%, 16%, 1);
+}
+
+/* Subtle grid texture, à la zed.dev landing */
+.zed-grid {
+  background-color: var(--zed-bg);
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.025) 1px, transparent 1px);
+  background-size: 56px 56px;
+  background-position: -1px -1px;
+}
+
+.cmd-input {
+  background: transparent;
+  border: none;
+  outline: none;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  color: var(--zed-text);
+  min-width: 20px;
+}
+
+/* Mouse focus on the terminal input keeps the subtle background tint without a ring */
+.cmd-input:focus {
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 2px;
+}
+.cmd-input:focus-visible {
+  background: rgba(255, 255, 255, 0.06);
+  outline: 2px solid var(--zed-ring);
+  outline-offset: 1px;
+  border-radius: 2px;
+}
+
+.cmd-input::placeholder {
+  color: var(--zed-muted);
+}
+
+.cmd-select {
+  background: transparent;
+  border: none;
+  outline: none;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  color: var(--zed-lime);
+  cursor: pointer;
+  appearance: none;
+  padding-right: 0;
+}
+
+.cmd-select:focus {
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 2px;
+}
+.cmd-select:focus-visible {
+  background: rgba(255, 255, 255, 0.06);
+  outline: 2px solid var(--zed-ring);
+  outline-offset: 1px;
+  border-radius: 2px;
+}
+
+.cmd-select option {
+  background: var(--zed-bg);
+  color: var(--zed-lime);
+}
+
+/* -------------------------------------------------------------------------- */
+/* README prose — Tailwind Typography tuned for the Zed dark palette          */
+/* -------------------------------------------------------------------------- */
+.readme-prose {
+  --tw-prose-links: var(--zed-blue-pale);
+  --tw-prose-headings: hsla(220, 30%, 92%, 1);
+  --tw-prose-body: var(--zed-text);
+  --tw-prose-bold: hsla(220, 30%, 92%, 1);
+  --tw-prose-code: hsla(220, 30%, 92%, 1);
+  --tw-prose-pre-bg: hsla(0, 0%, 6%, 1);
+  --tw-prose-pre-code: var(--zed-text);
+  --tw-prose-quotes: var(--zed-text-muted);
+  --tw-prose-quote-borders: var(--zed-blue);
+  --tw-prose-bullets: var(--zed-muted);
+  --tw-prose-counters: var(--zed-muted);
+  --tw-prose-hr: var(--zed-border);
+  --tw-prose-th-borders: var(--zed-border);
+  --tw-prose-td-borders: var(--zed-border);
+}
+
+.readme-prose a:hover { color: var(--zed-blue); }
+
+.readme-prose pre {
+  border: 1px solid var(--zed-border);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  overflow-x: auto;
+  font-size: 0.85em;
+  line-height: 1.55;
+}
+
+.readme-prose :not(pre) > code {
+  background: hsla(220, 18%, 20%, 1);
+  color: var(--zed-blue-pale);
+  padding: 0.1em 0.35em;
+  border-radius: 0.25rem;
+  font-size: 0.88em;
+  font-weight: 500;
+}
+.readme-prose :not(pre) > code::before,
+.readme-prose :not(pre) > code::after { content: ""; }
+
+.readme-prose table { border-collapse: collapse; font-size: 0.9em; }
+.readme-prose th, .readme-prose td {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--zed-border);
+}
+.readme-prose th {
+  background: hsla(220, 18%, 18%, 1);
+  font-weight: 600;
+}
+
+.readme-prose blockquote {
+  font-style: normal;
+  padding-left: 1rem;
+  border-left-width: 3px;
+}
+
+.readme-prose img {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.25rem;
+  margin: 0;
+}
+.readme-prose a:has(> img) { text-decoration: none; }
+.readme-prose p:has(> img:only-child),
+.readme-prose p:has(> a:only-child > img:only-child) { text-align: center; }
+.readme-prose p > img:only-child,
+.readme-prose p > a:only-child > img:only-child {
+  border-radius: 0.5rem;
+  margin: 0.5em auto;
+}
+
+.readme-prose .shiki { background: hsla(0, 0%, 6%, 1) !important; }
+
+.readme-prose ul.contains-task-list { list-style: none; padding-left: 0; }
+.readme-prose .task-list-item { padding-left: 0; }
+.readme-prose input[type="checkbox"] { margin-right: 0.5rem; }
+
+/* GitHub-style alerts */
+.readme-prose .markdown-alert {
+  padding: 0.75rem 1rem;
+  margin: 1em 0;
+  border-left: 4px solid;
+  border-radius: 0.375rem;
+  background: hsla(220, 18%, 12%, 1);
+}
+.readme-prose .markdown-alert > :first-child { margin-top: 0; }
+.readme-prose .markdown-alert > :last-child { margin-bottom: 0; }
+.readme-prose .markdown-alert-title {
+  display: flex; align-items: center; gap: 0.375rem;
+  font-weight: 600; text-transform: capitalize;
+  margin-bottom: 0.5rem; line-height: 1;
+}
+.readme-prose .markdown-alert-title svg { width: 1rem; height: 1rem; flex-shrink: 0; }
+.readme-prose .markdown-alert-note { border-color: hsla(207, 91%, 60%, 1); }
+.readme-prose .markdown-alert-note .markdown-alert-title { color: hsla(207, 91%, 70%, 1); }
+.readme-prose .markdown-alert-tip { border-color: var(--zed-lime); }
+.readme-prose .markdown-alert-tip .markdown-alert-title { color: var(--zed-lime); }
+.readme-prose .markdown-alert-important { border-color: hsla(270, 70%, 65%, 1); }
+.readme-prose .markdown-alert-important .markdown-alert-title { color: hsla(270, 70%, 75%, 1); }
+.readme-prose .markdown-alert-warning { border-color: hsla(38, 90%, 55%, 1); }
+.readme-prose .markdown-alert-warning .markdown-alert-title { color: hsla(38, 90%, 65%, 1); }
+.readme-prose .markdown-alert-caution { border-color: hsla(0, 78%, 60%, 1); }
+.readme-prose .markdown-alert-caution .markdown-alert-title { color: hsla(0, 78%, 70%, 1); }
+
+/* Heading anchor links */
+.readme-prose a.heading-anchor {
+  margin-right: 0.4em;
+  opacity: 0;
+  color: var(--zed-muted);
+  text-decoration: none;
+  font-weight: 400;
+  transition: opacity 150ms ease, color 150ms ease;
+}
+.readme-prose h1:hover > a.heading-anchor,
+.readme-prose h2:hover > a.heading-anchor,
+.readme-prose h3:hover > a.heading-anchor,
+.readme-prose h4:hover > a.heading-anchor,
+.readme-prose h5:hover > a.heading-anchor,
+.readme-prose h6:hover > a.heading-anchor { opacity: 1; }
+.readme-prose a.heading-anchor:hover {
+  color: var(--zed-blue-pale);
+  text-decoration: none;
+}
+.readme-prose .heading-anchor-icon {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Slideout panel                                                             */
+/* -------------------------------------------------------------------------- */
+.slideout-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  pointer-events: none;
+  transition:
+    background 320ms cubic-bezier(0.32, 0.72, 0, 1),
+    backdrop-filter 320ms cubic-bezier(0.32, 0.72, 0, 1);
+  z-index: 40;
+}
+.slideout-backdrop.open {
+  background: rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  pointer-events: auto;
+}
+
+.slideout {
+  position: fixed;
+  top: 0; right: 0; bottom: 0;
+  width: min(960px, 100vw);
+  background: var(--zed-bg);
+  border-left: 1px solid var(--zed-border);
+  box-shadow: -24px 0 64px -16px rgba(0, 0, 0, 0.55);
+  transform: translateX(102%);
+  transition: transform 360ms cubic-bezier(0.22, 1, 0.36, 1);
+  z-index: 50;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  will-change: transform;
+}
+.slideout.open { transform: translateX(0); }
+
+@media (prefers-reduced-motion: reduce) {
+  .slideout, .slideout-backdrop { transition-duration: 1ms; }
+}
+
+.slideout-header {
+  position: sticky; top: 0;
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 1rem;
+  padding: 0.875rem 1.25rem;
+  background: var(--zed-surface);
+  border-bottom: 1px solid var(--zed-border);
+  z-index: 1;
+}
+
+.slideout-body {
+  flex: 1;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scroll-behavior: smooth;
+  padding: 1.5rem 1.5rem 4rem;
+  color: var(--zed-text);
+}
+
+.slideout-close {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 2rem; height: 2rem;
+  border-radius: 9999px;
+  color: var(--zed-text-muted);
+  background: transparent;
+  transition: background 160ms, color 160ms, transform 160ms;
+}
+.slideout-close:hover {
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--zed-text);
+}
+.slideout-close:active { transform: scale(0.92); }
+.slideout-close:focus-visible {
+  outline: 2px solid var(--zed-ring);
+  outline-offset: var(--zed-ring-offset);
+}
+
+.slideout-skeleton {
+  display: flex; flex-direction: column; gap: 0.75rem;
+}
+.slideout-skeleton-line {
+  height: 0.875rem;
+  border-radius: 0.25rem;
+  background: linear-gradient(90deg,
+    var(--zed-surface) 0%,
+    hsla(220, 18%, 20%, 1) 50%,
+    var(--zed-surface) 100%);
+  background-size: 200% 100%;
+  animation: shimmer 1.4s ease-in-out infinite;
+}
+.slideout-skeleton-line.short { width: 30%; }
+.slideout-skeleton-line.medium { width: 60%; }
+.slideout-skeleton-line.long { width: 90%; }
+.slideout-skeleton-line.block { height: 8rem; margin-top: 0.5rem; }
+
+@keyframes shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+body.no-scroll { overflow: hidden; }
+
+/* Category badges (Theme, LSP, Grammar, …) */
+.cat-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.125rem 0.5rem;
+  font-size: 0.7rem;
+  font-weight: 500;
+  border-radius: 9999px;
+  background: hsla(220, 18%, 18%, 1);
+  border: 1px solid var(--zed-border);
+  color: var(--zed-text);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+.cat-badge[data-cat="theme"]            { color: var(--zed-blue-pale); }
+.cat-badge[data-cat="icon-theme"]       { color: hsla(280, 60%, 78%, 1); }
+.cat-badge[data-cat="grammar"]          { color: var(--zed-lime); }
+.cat-badge[data-cat="language-server"]  { color: hsla(38, 80%, 65%, 1); }
+.cat-badge[data-cat="slash-command"]    { color: hsla(200, 80%, 70%, 1); }
+.cat-badge[data-cat="context-server"]   { color: hsla(170, 60%, 60%, 1); }
+.cat-badge[data-cat="debug-adapter"]    { color: hsla(0, 60%, 70%, 1); }
+.cat-badge[data-cat="docs-provider"]    { color: hsla(220, 60%, 78%, 1); }
+.cat-badge[data-cat="snippets"]         { color: hsla(50, 80%, 65%, 1); }
+
+.cat-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.25rem 0.7rem;
+  font-size: 0.78rem;
+  font-weight: 500;
+  border-radius: 9999px;
+  background: var(--zed-surface);
+  border: 1px solid var(--zed-border);
+  color: var(--zed-text-muted);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  cursor: pointer;
+  transition: background 140ms, color 140ms, border-color 140ms;
+}
+.cat-toggle:hover {
+  color: var(--zed-text);
+  border-color: hsla(220, 18%, 32%, 1);
+}
+.cat-toggle.active {
+  background: hsla(224, 87%, 47%, 0.18);
+  color: var(--zed-blue-pale);
+  border-color: hsla(224, 87%, 47%, 0.55);
+}
+.cat-toggle-count {
+  font-size: 0.7rem;
+  color: var(--zed-muted);
+  background: hsla(0, 0%, 0%, 0.25);
+  padding: 0.05rem 0.35rem;
+  border-radius: 9999px;
+  font-weight: 400;
+}
+.cat-toggle.active .cat-toggle-count {
+  color: var(--zed-blue-pale);
+  background: hsla(224, 87%, 47%, 0.22);
+}
+.cat-toggle:focus-visible {
+  outline: 2px solid var(--zed-ring);
+  outline-offset: 2px;
+}
+
+.version-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.125rem 0.5rem;
+  border-radius: 0.25rem;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.75rem;
+  background: hsla(224, 87%, 47%, 0.12);
+  color: var(--zed-blue-pale);
+  border: 1px solid hsla(224, 87%, 47%, 0.4);
+}

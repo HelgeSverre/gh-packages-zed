@@ -1,0 +1,19 @@
+id = "laravel"
+name = "Laravel"
+version = "0.1.0"
+schema_version = 1
+authors = ["Edgar Souza <edgarsouza@gmail.com>"]
+description = "Laravel framework support for Zed with Blade templating, Artisan integration, and Laravel-specific features"
+repository = "https://github.com/edgarsouza/zed-extension-laravel"
+
+[grammars.blade]
+repository = "https://github.com/EmranMR/tree-sitter-blade"
+commit = "20e63e1df48133b1f768e658a97d127c47c0c3b5"
+
+[language_servers.intelephense]
+name = "Intelephense"
+language = "PHP"
+
+[language_servers.phpactor]
+name = "Phpactor"
+language = "PHP"

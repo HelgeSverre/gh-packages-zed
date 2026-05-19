@@ -1,0 +1,13 @@
+id = "vhdl"
+name = "VHDL"
+version = "0.0.3"
+schema_version = 1
+authors = ["Matthias Cabillot <matthias.cabillot@telecomnancy.net>"]
+description = "Add VHDL support to Zed"
+repository = "https://github.com/MrFish1604/Zed-VHDL"
+
+[grammars.vhdl]
+# repository = "https://github.com/jpt13653903/tree-sitter-vhdl" # More recent but not working
+# commit = "3f13cd14952b39ccf6817f58880834b84565ca54"
+repository = "https://github.com/alemuller/tree-sitter-vhdl"
+commit = "a3b2d84990527c7f8f4ae219c332c00c33d2d8e5"

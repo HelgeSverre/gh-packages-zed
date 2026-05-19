@@ -1,0 +1,28 @@
+id = "pony"
+name = "Pony"
+description = "Pony language support with syntax highlighting and LSP integration"
+version = "0.6.1"
+schema_version = 1
+authors = ["Orien Madgwick <497874+orien@users.noreply.github.com>"]
+repository = "https://github.com/orien/pony-zed"
+
+[grammars.pony]
+repository = "https://github.com/tree-sitter-grammars/tree-sitter-pony"
+commit = "73ff874ae4c9e9b45462673cbc0a1e350e2522a7"
+
+[language_servers.pony-lsp]
+name = "Pony Language Server"
+languages = ["Pony"]
+
+[settings.defines]
+type = "array"
+description = "List of compile-time definitions to pass to the Pony language server. Corresponds to the `-D` flag of `ponyc`."
+
+[settings.executable]
+type = "string"
+default = "pony-lsp"
+description = "File location of the Pony language server executable. If not set, will search for `pony-lsp` on the system PATH."
+
+[settings.ponypath]
+type = "array"
+description = "List of additional directories to search for Pony packages. Corresponds to the `PONYPATH` environment variable"

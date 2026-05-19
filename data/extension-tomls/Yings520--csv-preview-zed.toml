@@ -1,0 +1,17 @@
+id = "csv-preview"
+name = "CSV Preview"
+description = "CSV language support with column-aware semantic highlighting."
+version = "0.1.0"
+schema_version = 1
+authors = ["Shicong Ying"]
+repository = "https://github.com/Yings520/csv-preview-zed"
+
+languages = ["languages/csv"]
+
+[grammars.csv]
+repository = "https://github.com/arnau/tree-sitter-csv"
+rev = "4b25b5d745f9462e54b781e3d7798b8e0a4db703"
+
+[language_servers.csv-preview-lsp]
+name = "csv-preview-lsp"
+languages = ["CSV Preview"]

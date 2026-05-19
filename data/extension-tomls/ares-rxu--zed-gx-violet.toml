@@ -1,0 +1,23 @@
+id = "gx-violet"
+name = "GX Violet Theme"
+version = "2025.10.27"
+schema_version = 1
+description = "A neon-violet dark theme balancing magenta and blue-gray"
+repository = "https://github.com/vladisrael/zed-gx-violet"
+authors = ["Vladisrael"]
+themes = ["themes/gx-violet.json"]
+icon_themes = []
+languages = []
+capabilities = []
+
+[lib]
+
+[grammars]
+
+[language_servers]
+
+[context_servers]
+
+[slash_commands]
+
+[indexed_docs_providers]

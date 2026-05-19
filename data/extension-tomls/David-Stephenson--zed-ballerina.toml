@@ -1,0 +1,20 @@
+id = "ballerina"
+name = "Ballerina Swan Lake"
+description = "🩰 Language server extension for Ballerina Swan Lake. 🦢"
+version = "0.0.1"
+schema_version = 1
+authors = ["David Stephenson"]
+repository = "https://github.com/wso2/vscode-extensions"
+
+[grammars.ballerina]
+repository = "https://github.com/David-Stephenson/tree-sitter-ballerina"
+commit = "9c60d52f553f91b16929a1ce4b6a595925d95718"
+
+[language_servers.ballerina]
+name = "Ballerina Swan Lake"
+languages = ["Ballerina"]
+
+# Zed language name is "Ballerina"; LSP expects the VS Code language id "ballerina"
+# or the server may not attach / publish diagnostics and features correctly.
+[language_servers.ballerina.language_ids]
+"Ballerina" = "ballerina"

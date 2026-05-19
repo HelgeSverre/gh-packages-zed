@@ -1,0 +1,15 @@
+id = "forgescript"
+name = "ForgeScript"
+version = "2.0.0"
+schema_version = 1
+authors = ["EdexLabs"]
+description = "Language support for ForgeScript via ForgeLSP"
+repository = "https://github.com/EdexLabs/ForgeLSP"
+
+[language_servers.forgelsp]
+name = "ForgeLSP"
+languages = ["ForgeScript", "JavaScript", "TypeScript", "TSX", "JSX"]
+
+[grammars.forge]
+repository = "https://github.com/EdexLabs/tree-sitter-forge"
+rev = "c07f05e8943f115108c395b4449cc532db8a8997"

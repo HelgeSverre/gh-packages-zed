@@ -1,0 +1,15 @@
+id = "v"
+name = "V (Vlang)"
+description = "V language support."
+version = "0.5.0"
+schema_version = 1
+authors = ["lv37 <132778382+lv37@users.noreply.github.com>"]
+repository = "https://github.com/lv37/zed-v"
+
+[grammars.v]
+repository = "https://github.com/lv37/v-tree-sitter"
+commit = "fe01bbcc60195108736255ebbaf75c99c7e74f4c"
+
+[language_servers.v]
+languages = ["V"]
+name = "LanguageServer.v"

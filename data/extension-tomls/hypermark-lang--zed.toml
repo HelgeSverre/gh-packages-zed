@@ -1,0 +1,18 @@
+id = "zed-hml"
+name = "HML"
+version = "0.0.1"
+schema_version = 1
+authors = ["Eduardo Flores <edfloreshz@gmail.com>"]
+description = "Extension for HML"
+repository = "https://github.com/hypermark-lang/zed"
+
+[grammars.hml]
+repository = "https://github.com/hypermark-lang/tree-sitter-hml"
+rev = "23c80ebd743bbc044222cba18bcddbf2c9744e2b"
+
+# repository = "file:///Users/Eduardo/Developer/github.com/hypermark-lang/tree-sitter-hml"
+# rev = "HEAD"
+
+[language_servers.hml-lsp]
+name = "HML LSP"
+languages = ["HML"]

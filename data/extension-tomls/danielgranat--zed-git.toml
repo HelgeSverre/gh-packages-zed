@@ -1,0 +1,15 @@
+id = "zed-branch-diff"
+name = "Branch Diff"
+version = "0.0.1"
+schema_version = 1
+authors = ["Daniel Granatshtein"]
+description = "Compare branches and review changes locally, like a local PR review."
+repository = "https://github.com/danielgranat/zed-git"
+
+[slash_commands.branch-diff]
+requires_argument = true
+description = "Compare current branch with another branch"
+
+[slash_commands.branch-review]
+requires_argument = true
+description = "Review changes between branches with inline notes"

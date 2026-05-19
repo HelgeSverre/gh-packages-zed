@@ -1,0 +1,76 @@
+id = "color-preview"
+name = "Color Preview"
+description = "Inline color preview for hex, rgb(), hsl() and CSS named colors."
+version = "0.1.0"
+schema_version = 1
+authors = ["Color Preview Contributors"]
+repository = "https://github.com/example/zed-color-preview"
+
+[language_servers.color-preview-lsp]
+name = "Color Preview LSP"
+languages = [
+    "HTML",
+    "CSS",
+    "SCSS",
+    "Less",
+    "JavaScript",
+    "TypeScript",
+    "TSX",
+    "JSX",
+    "JSON",
+    "JSONC",
+    "Markdown",
+    "Python",
+    "Rust",
+    "Go",
+    "TOML",
+    "YAML",
+    "Vue.js",
+    "Svelte",
+    "Astro",
+    "PHP",
+    "Ruby",
+    "C",
+    "C++",
+    "C#",
+    "Java",
+    "Kotlin",
+    "Swift",
+    "Dart",
+    "Elixir",
+    "Lua",
+    "Zig",
+]
+
+[language_servers.color-preview-lsp.language_ids]
+"HTML" = "html"
+"CSS" = "css"
+"SCSS" = "scss"
+"Less" = "less"
+"JavaScript" = "javascript"
+"TypeScript" = "typescript"
+"TSX" = "typescriptreact"
+"JSX" = "javascriptreact"
+"JSON" = "json"
+"JSONC" = "jsonc"
+"Markdown" = "markdown"
+"Python" = "python"
+"Rust" = "rust"
+"Go" = "go"
+"TOML" = "toml"
+"YAML" = "yaml"
+"Vue.js" = "vue"
+"Svelte" = "svelte"
+"Astro" = "astro"
+"PHP" = "php"
+"Ruby" = "ruby"
+"C" = "c"
+"C++" = "cpp"
+"C#" = "csharp"
+"Java" = "java"
+"Kotlin" = "kotlin"
+"Swift" = "swift"
+"Dart" = "dart"
+"Elixir" = "elixir"
+"Lua" = "lua"
+"Zig" = "zig"

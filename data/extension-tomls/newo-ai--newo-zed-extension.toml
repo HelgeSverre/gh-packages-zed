@@ -1,0 +1,25 @@
+id = "newo-dsl"
+name = "Newo DSL"
+version = "1.0.0"
+schema_version = 1
+authors = ["Newo AI <engineering@newo.ai>"]
+description = "Language support for Newo DSL templates (.jinja, .guidance, .nsl, .nslg) with LSP-backed diagnostics, completions, hover, and go-to-definition."
+repository = "https://github.com/newo-ai/newo-zed-extension"
+
+# Tree-sitter grammars for syntax highlighting will land in a subsequent
+# release. For now the extension ships LSP-only: diagnostics, completions,
+# hover, and go-to-definition work out of the box. File-type detection,
+# bracket matching, and snippets continue to work without a grammar.
+
+[language_servers.newo-dsl]
+name = "Newo DSL Language Server"
+languages = ["Newo Jinja", "Newo Guidance", "Newo NSL", "Newo NSLG"]
+
+# Map Zed language names to the textDocument.languageId the LSP expects.
+# Keeps parity with the VS Code extension so server-side document filters work
+# identically across editors.
+[language_servers.newo-dsl.language_ids]
+"Newo Jinja" = "newo-jinja"
+"Newo Guidance" = "newo-guidance"
+"Newo NSL" = "newo-nsl"
+"Newo NSLG" = "newo-nslg"

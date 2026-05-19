@@ -1,0 +1,10 @@
+id = "mcp-server-nextjs"
+name = "NextJS DevTools MCP"
+version = "0.1.0"
+schema_version = 1
+authors = ["uprizing <uprizingfaze@gmail.com>"]
+description = "Next.js development tools and utilities MCP server"
+repository = "https://github.com/MrUprizing/zed-mcp-server-nextjs"
+
+[context_servers.mcp-server-nextjs]
+name = "Next.js DevTools MCP"

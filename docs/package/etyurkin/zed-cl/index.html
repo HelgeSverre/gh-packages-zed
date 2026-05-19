@@ -1,0 +1,331 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Common Lisp — Zed Extension Safari</title><meta name="description" content="Common Lisp extension for Zed editor"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Common Lisp — Zed Extension Safari"><meta property="og:description" content="Common Lisp extension for Zed editor"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Common Lisp — Zed Extension Safari"><meta name="twitter:description" content="Common Lisp extension for Zed editor"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.DJSXA_CW.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);">  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-4"> <a href="/gh-packages-zed" class="transition" style="color:var(--zed-text-muted);">← All extensions</a> </nav> <div class="flex flex-wrap items-start justify-between gap-4"> <div class="min-w-0"> <div class="font-mono text-xs mb-2" style="color:var(--zed-muted);"> etyurkin/zed-cl </div> <h1 class="text-2xl sm:text-3xl font-bold break-words leading-tight" style="color:var(--zed-blue-pale);"> Common Lisp </h1> <p class="mt-2 text-pretty" style="color:var(--zed-text-muted);"> Common Lisp support for Zed </p> </div> <a href="https://github.com/etyurkin/zed-cl" target="_blank" rel="noopener" class="zed-btn-primary shrink-0 inline-flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View on GitHub
+</a> </div> <div class="mt-4 flex flex-wrap items-center gap-2"> <span class="version-pill">v0.0.1</span> <span class="cat-badge" data-cat="grammar">Grammar</span><span class="cat-badge" data-cat="language-server">Language Server</span> </div> <div class="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm" style="color:var(--zed-text-muted);"> <span class="inline-flex items-center gap-1"> <svg class="w-4 h-4" style="color:var(--zed-lime);" fill="currentColor" viewBox="0 0 20 20"> <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path> </svg> 10 stars
+</span> <span>Rust</span> <span>MIT</span> <span>Updated 6d ago</span> <span>schema v1</span> </div> <div class="mt-2 text-sm" style="color:var(--zed-text-muted);">
+by Evgeniy Tyurkin </div>  </div> </header> <main class="flex-1 max-w-4xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <article class="prose readme-prose max-w-none"><h1 id="user-content-common-lisp-extension-for-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#common-lisp-extension-for-zed"><span class="heading-anchor-icon">#</span></a>Common Lisp Extension for Zed</h1>
+<p>Common Lisp language support for the Zed editor with integrated LSP server and Jupyter kernel support.</p>
+<h2 id="user-content-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features"><span class="heading-anchor-icon">#</span></a>Features</h2>
+<ul>
+<li><strong>LSP Features</strong>: Syntax highlighting, autocomplete, hover documentation, goto-definition</li>
+<li><strong>Smart Completion</strong>: Type-aware parameter snippets, package-qualified completions</li>
+<li><strong>Multi-Package Support</strong>: Package labels, user symbols prioritized</li>
+<li><strong>Interactive REPL</strong>: Built-in REPL with <code>Ctrl+Shift+Enter</code>, shared state across files</li>
+<li><strong>Rich Output</strong>: Display markdown, tables, images, and JSON inline</li>
+<li><strong>Jupyter Compatible</strong>: Optional Jupyter Lab/Notebook support</li>
+<li><strong>Cross-Platform</strong>: Works on macOS and Linux (not tested)</li>
+</ul>
+<h2 id="user-content-prerequisites"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#prerequisites"><span class="heading-anchor-icon">#</span></a>Prerequisites</h2>
+<p><strong>Required for all features:</strong></p>
+<ol>
+<li>
+<p><strong>Common Lisp Implementation</strong> (one of):</p>
+<ul>
+<li>
+<p><strong>SBCL</strong> (recommended - full feature support):</p>
+<ul>
+<li>macOS: <code>brew install sbcl</code></li>
+<li>Linux: <code>apt install sbcl</code> / <code>dnf install sbcl</code> / <code>pacman -S sbcl</code></li>
+</ul>
+</li>
+<li>
+<p><strong>ECL</strong> (alternative - ~90% feature parity):</p>
+<ul>
+<li>macOS: <code>brew install ecl</code></li>
+<li>Linux: <code>apt install ecl</code> / <code>dnf install ecl</code> / <code>pacman -S ecl</code></li>
+</ul>
+</li>
+</ul>
+<p>Configure your preferred implementation via <code>~/.zed-cl/config.json</code> (see Configuration section below).</p>
+</li>
+</ol>
+<p><strong>Note:</strong> Quicklisp and required dependencies will be installed automatically during the build process (<code>make build</code> or <code>make setup-quicklisp</code>).</p>
+<h2 id="user-content-development-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#development-installation"><span class="heading-anchor-icon">#</span></a>Development Installation</h2>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">git</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> clone</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> https://github.com/etyurkin/zed-cl</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">cd</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> zed-cl</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">make</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> build</span></span></code></pre>
+<p>In Zed:</p>
+<ol>
+<li>Open command palette (<code>Cmd+Shift+P</code>)</li>
+<li>Run "zed: install dev extension"</li>
+<li>Select the cloned directory</li>
+</ol>
+<h2 id="user-content-configuration"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#configuration"><span class="heading-anchor-icon">#</span></a>Configuration</h2>
+<p>All configuration is stored in <code>~/.zed-cl/config.json</code> using profiles:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "active_profile"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"sbcl"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "profiles"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "sbcl"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "lisp_impl"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"sbcl"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "system_index"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"system-index.db"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "completion_package_whitelist"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: [</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">        "CORE-KEYWORDS"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">        "COMMON-LISP"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">        "COMMON-LISP-USER"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      ]</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h3 id="user-content-profile-settings"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#profile-settings"><span class="heading-anchor-icon">#</span></a>Profile Settings</h3>
+<p>Each profile can configure:</p>
+<ul>
+<li><code>lisp_impl</code> - Common Lisp implementation (<code>"sbcl"</code> or <code>"ecl"</code>)</li>
+<li><code>system_index</code> - System index database filename (in <code>~/.zed-cl/</code>)</li>
+<li><code>completion_package_whitelist</code> - Packages to show in completions</li>
+</ul>
+<h3 id="user-content-multiple-profiles"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#multiple-profiles"><span class="heading-anchor-icon">#</span></a>Multiple Profiles</h3>
+<p>Create different profiles for different workflows:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "active_profile"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"sbcl-full"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "profiles"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "sbcl-full"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "lisp_impl"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"sbcl"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "system_index"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"sbcl-complete.db"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "completion_package_whitelist"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: [</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"CORE-KEYWORDS"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">, </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"COMMON-LISP"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">, </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"COMMON-LISP-USER"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    },</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "ecl-dev"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "lisp_impl"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"ecl"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "system_index"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"ecl-packages.db"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "completion_package_whitelist"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: [</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"COMMON-LISP"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">, </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"COMMON-LISP-USER"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    },</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "minimal"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "lisp_impl"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"sbcl"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "system_index"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"system-index.db"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "completion_package_whitelist"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: [</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"COMMON-LISP"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>Switch profiles by changing <code>active_profile</code> and restarting Zed.</p>
+<h3 id="user-content-completion-package-whitelist"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#completion-package-whitelist"><span class="heading-anchor-icon">#</span></a>Completion Package Whitelist</h3>
+<p>Control which packages appear in completions. By default (when not set), shows all user-defined packages plus COMMON-LISP and KEYWORD.</p>
+<p>Special values:</p>
+<ul>
+<li><code>"CORE-KEYWORDS"</code> - Only core keywords (excludes system keywords)</li>
+<li><code>"ALL-KEYWORDS"</code> - All keywords including system ones</li>
+</ul>
+<h2 id="user-content-using-the-extension"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#using-the-extension"><span class="heading-anchor-icon">#</span></a>Using the Extension</h2>
+<h3 id="user-content-lsp-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#lsp-features"><span class="heading-anchor-icon">#</span></a>LSP Features</h3>
+<p>Open any <code>.lisp</code> file and get:</p>
+<ul>
+<li>Autocomplete for Common Lisp built-ins and your code</li>
+<li>Hover documentation</li>
+<li>Goto-definition</li>
+<li>Package-aware completions</li>
+</ul>
+<h3 id="user-content-interactive-repl"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#interactive-repl"><span class="heading-anchor-icon">#</span></a>Interactive REPL</h3>
+<p><strong>Inline evaluation:</strong></p>
+<ol>
+<li>Open a <code>.lisp</code> file</li>
+<li>Select code or position cursor in a form</li>
+<li>Press <code>Ctrl+Shift+Enter</code> to evaluate</li>
+<li>See results inline</li>
+</ol>
+<p><strong>Terminal REPL (for development):</strong></p>
+<ol>
+<li>Open command palette (<code>Cmd+Shift+P</code>)</li>
+<li>Type "Tasks: Spawn"</li>
+<li>Select "Common Lisp REPL"</li>
+<li>Get an interactive REPL in a terminal tab</li>
+</ol>
+<p>All evaluations share a single REPL environment - definitions are automatically available in autocomplete.</p>
+<p><strong>Direct Terminal Connection (Advanced):</strong></p>
+<p>For debugging or advanced use, connect directly to the master REPL socket:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">./scripts/connect-repl.sh</span></span></code></pre>
+<p>This connects via Unix domain socket to the shared REPL using the configured Lisp implementation.</p>
+<h2 id="user-content-building-a-system-index-optional"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#building-a-system-index-optional"><span class="heading-anchor-icon">#</span></a>Building a System Index (Optional)</h2>
+<p>Goto-definition works out-of-the-box for your workspace code. To enable goto-definition for external libraries (Quicklisp packages, SBCL built-ins, etc.), build a system index.</p>
+<h3 id="user-content-quick-start"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#quick-start"><span class="heading-anchor-icon">#</span></a>Quick Start</h3>
+<p>The extension bundles an indexer tool at <code>~/.zed/extensions/installed/zed-cl/&#x3C;version>/bin/zed-cl-index</code>.</p>
+<p><strong>For SBCL users - index SBCL sources:</strong></p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Using Makefile (indexes SBCL built-ins)</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">make</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> build-system-index</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Or manually</span></span>
+<span class="line"><span style="color:#F97583;--shiki-dark:#F97583">~</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">/.zed/extensions/installed/zed-cl/</span><span style="color:#F97583;--shiki-dark:#F97583">&#x3C;</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">version</span><span style="color:#F97583;--shiki-dark:#F97583">></span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">/bin/zed-cl-index </span><span style="color:#79B8FF;--shiki-dark:#79B8FF">\</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">  --source-dir</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> /path/to/sbcl/src/code</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  --output</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> ~/.zed-cl/system-index.db</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  --default-package</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> COMMON-LISP</span></span></code></pre>
+<p><strong>For all users - index Quicklisp packages:</strong></p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Example: Index Alexandria</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">zed-cl-index</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  --source-dir</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> ~/quicklisp/dists/quicklisp/software/alexandria-</span><span style="color:#F97583;--shiki-dark:#F97583">&#x3C;</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">versio</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">n</span><span style="color:#F97583;--shiki-dark:#F97583">></span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  --output</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> ~/.zed-cl/system-index.db</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  --default-package</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> ALEXANDRIA</span></span></code></pre>
+<h3 id="user-content-finding-sbcl-source"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#finding-sbcl-source"><span class="heading-anchor-icon">#</span></a>Finding SBCL Source</h3>
+<p><strong>macOS (Homebrew):</strong></p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">$(</span><span style="color:#B392F0;--shiki-dark:#B392F0">brew</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --prefix</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> sbcl</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">)/share/sbcl/src</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Usually: /opt/homebrew/share/sbcl/src or /usr/local/share/sbcl/src</span></span></code></pre>
+<p><strong>Linux:</strong></p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">/usr/share/sbcl/src</span><span style="color:#6A737D;--shiki-dark:#6A737D">           # Debian/Ubuntu</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">/usr/share/sbcl-source/src</span><span style="color:#6A737D;--shiki-dark:#6A737D">    # Some distributions</span></span></code></pre>
+<h3 id="user-content-indexer-commands"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#indexer-commands"><span class="heading-anchor-icon">#</span></a>Indexer Commands</h3>
+<p><strong>Build an index:</strong></p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">zed-cl-index</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  --source-dir</span><span style="color:#F97583;--shiki-dark:#F97583"> &#x3C;</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">PAT</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">H</span><span style="color:#F97583;--shiki-dark:#F97583">></span><span style="color:#6A737D;--shiki-dark:#6A737D">           # Directory containing .lisp files (searches recursively)</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">  --output</span><span style="color:#F97583;--shiki-dark:#F97583"> &#x3C;</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">DB_FIL</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">E</span><span style="color:#F97583;--shiki-dark:#F97583">></span><span style="color:#6A737D;--shiki-dark:#6A737D">            # Output database file (appends if exists)</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">  --default-package</span><span style="color:#F97583;--shiki-dark:#F97583"> &#x3C;</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">PACKAG</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">E</span><span style="color:#F97583;--shiki-dark:#F97583">></span><span style="color:#6A737D;--shiki-dark:#6A737D">   # Default package for symbols without (in-package ...)</span></span></code></pre>
+<p><strong>Query an index:</strong></p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">zed-cl-index</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  --query</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  --database</span><span style="color:#F97583;--shiki-dark:#F97583"> &#x3C;</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">DB_FIL</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">E</span><span style="color:#F97583;--shiki-dark:#F97583">></span><span style="color:#6A737D;--shiki-dark:#6A737D">          # Database to query</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">  --symbol</span><span style="color:#F97583;--shiki-dark:#F97583"> &#x3C;</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">SYMBO</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">L</span><span style="color:#F97583;--shiki-dark:#F97583">></span><span style="color:#6A737D;--shiki-dark:#6A737D">             # Symbol name (e.g., MAPCAR, FORMAT) [required]</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">  --package</span><span style="color:#F97583;--shiki-dark:#F97583"> &#x3C;</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">PACKAG</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">E</span><span style="color:#F97583;--shiki-dark:#F97583">></span><span style="color:#6A737D;--shiki-dark:#6A737D">           # Package name (e.g., SB-IMPL) [optional - searches all packages if omitted]</span></span></code></pre>
+<h3 id="user-content-examples"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#examples"><span class="heading-anchor-icon">#</span></a>Examples</h3>
+<p><strong>Index SBCL standard library:</strong></p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Core runtime (list functions, sequences, etc.)</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">zed-cl-index</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  --source-dir</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> /opt/homebrew/share/sbcl/src/code</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  --output</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> ~/.zed-cl/system-index.db</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  --default-package</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> COMMON-LISP</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># CLOS/MOP (classes, methods, generic functions)</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">zed-cl-index</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  --source-dir</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> /opt/homebrew/share/sbcl/src/pcl</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  --output</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> ~/.zed-cl/system-index.db</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  --default-package</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> COMMON-LISP</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Interpreter</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">zed-cl-index</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  --source-dir</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> /opt/homebrew/share/sbcl/src/interpreter</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  --output</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> ~/.zed-cl/system-index.db</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  --default-package</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> COMMON-LISP</span></span></code></pre>
+<p><strong>Index Quicklisp libraries:</strong></p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Alexandria</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">zed-cl-index</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  --source-dir</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> ~/quicklisp/dists/quicklisp/software/alexandria-20241012-git</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  --output</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> ~/.zed-cl/system-index.db</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  --default-package</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> ALEXANDRIA</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Iterate</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">zed-cl-index</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  --source-dir</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> ~/quicklisp/dists/quicklisp/software/iterate-1.5.3</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  --output</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> ~/.zed-cl/system-index.db</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  --default-package</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> ITERATE</span></span></code></pre>
+<p><strong>Query the index:</strong></p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Find MAPCAR in a specific package</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">zed-cl-index</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --query</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  --database</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> ~/.zed-cl/system-index.db</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  --package</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> SB-IMPL</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  --symbol</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> MAPCAR</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Output:</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Looking up: SB-IMPL::MAPCAR</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">#</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Found 1 definition(s):</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">#</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">#   [1] function in SB-IMPL</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">#       File: /opt/homebrew/share/sbcl/src/code/list.lisp</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">#       Position: line 1388, char 19</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Find MAPCAR in all packages (omit --package)</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">zed-cl-index</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --query</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  --database</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> ~/.zed-cl/system-index.db</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  --symbol</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> MAPCAR</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Output:</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Looking up: MAPCAR (in all packages)</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">#</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Found 1 definition(s) across packages:</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">#</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">#   [1] function in SB-IMPL</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">#       File: /opt/homebrew/share/sbcl/src/code/list.lisp</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">#       Position: line 1388, char 19</span></span></code></pre>
+<h3 id="user-content-multiple-system-indexes-advanced"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#multiple-system-indexes-advanced"><span class="heading-anchor-icon">#</span></a>Multiple System Indexes (Advanced)</h3>
+<p>Create different indexes for different projects:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Minimal: Just SBCL core</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">zed-cl-index</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  --source-dir</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> /path/to/sbcl/src/code</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  --output</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> ~/.zed-cl/system-sbcl-only.db</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  --default-package</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> COMMON-LISP</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Full: SBCL + all your Quicklisp libraries</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">zed-cl-index</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  --source-dir</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> /path/to/sbcl/src/code</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  --output</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> ~/.zed-cl/system-full.db</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  --default-package</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> COMMON-LISP</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># ... add more libraries</span></span></code></pre>
+<p><strong>Switch between indexes</strong> by changing the <code>system_index</code> field in your active profile in <code>~/.zed-cl/config.json</code> and restarting the extension.</p>
+<h3 id="user-content-how-it-works"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#how-it-works"><span class="heading-anchor-icon">#</span></a>How It Works</h3>
+<ul>
+<li><strong>User code</strong>: Automatically indexed when you open/save <code>.lisp</code> files → <code>~/.zed-cl/user-index.db</code></li>
+<li><strong>System libraries</strong>: Manually indexed using <code>zed-cl-index</code> → <code>~/.zed-cl/system-index.db</code> (or custom name)</li>
+<li><strong>Goto-definition search order</strong>:
+<ol>
+<li>User index (your workspace code)</li>
+<li>System index (SBCL + libraries you indexed)</li>
+</ol>
+</li>
+</ul>
+<h2 id="user-content-development-commands"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#development-commands"><span class="heading-anchor-icon">#</span></a>Development Commands</h2>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Build</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">make</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> build</span><span style="color:#6A737D;--shiki-dark:#6A737D">          # Build Rust binaries and extension</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">make</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> dev</span><span style="color:#6A737D;--shiki-dark:#6A737D">            # Development mode</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">make</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> check</span><span style="color:#6A737D;--shiki-dark:#6A737D">          # Type check only</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">make</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> test</span><span style="color:#6A737D;--shiki-dark:#6A737D">           # Run tests</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Jupyter</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">make</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> install-jupyter</span><span style="color:#6A737D;--shiki-dark:#6A737D">  # Register kernel for Jupyter</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">make</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> verify</span><span style="color:#6A737D;--shiki-dark:#6A737D">          # Verify SBCL installation</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Maintenance</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">make</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> clean</span><span style="color:#6A737D;--shiki-dark:#6A737D">          # Clean build artifacts</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">make</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> help</span><span style="color:#6A737D;--shiki-dark:#6A737D">           # Show all commands</span></span></code></pre>
+<h3 id="user-content-process-management"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#process-management"><span class="heading-anchor-icon">#</span></a>Process Management</h3>
+<p><strong>List running processes:</strong></p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Count each process type</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">ps</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> aux</span><span style="color:#F97583;--shiki-dark:#F97583"> |</span><span style="color:#B392F0;--shiki-dark:#B392F0"> grep</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -c</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> '[z]ed-cl-kernel'</span><span style="color:#6A737D;--shiki-dark:#6A737D">      # Count kernels</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">ps</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> aux</span><span style="color:#F97583;--shiki-dark:#F97583"> |</span><span style="color:#B392F0;--shiki-dark:#B392F0"> grep</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -c</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> '[z]ed-cl-lsp'</span><span style="color:#6A737D;--shiki-dark:#6A737D">        # Count LSP servers</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">ps</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> aux</span><span style="color:#F97583;--shiki-dark:#F97583"> |</span><span style="color:#B392F0;--shiki-dark:#B392F0"> grep</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -c</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> 'master-repl'</span><span style="color:#6A737D;--shiki-dark:#6A737D">         # Count master REPLs</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Show detailed process list</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">ps</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> aux</span><span style="color:#F97583;--shiki-dark:#F97583"> |</span><span style="color:#B392F0;--shiki-dark:#B392F0"> grep</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -E</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> 'zed-cl-kernel|zed-cl-lsp|master-repl'</span><span style="color:#F97583;--shiki-dark:#F97583"> |</span><span style="color:#B392F0;--shiki-dark:#B392F0"> grep</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -v</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> grep</span></span></code></pre>
+<p><strong>Kill processes:</strong></p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Kill all zed-cl processes</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">pkill</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -f</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> 'zed-cl-kernel'</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> &#x26;&#x26; </span><span style="color:#B392F0;--shiki-dark:#B392F0">pkill</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -f</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> 'zed-cl-lsp'</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> &#x26;&#x26; </span><span style="color:#B392F0;--shiki-dark:#B392F0">pkill</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -f</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> 'master-repl'</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Kill individual components</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">pkill</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -f</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> 'zed-cl-kernel'</span><span style="color:#6A737D;--shiki-dark:#6A737D">        # Kill only kernels</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">pkill</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -f</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> 'zed-cl-lsp'</span><span style="color:#6A737D;--shiki-dark:#6A737D">          # Kill only LSP</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">pkill</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -f</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> 'master-repl'</span><span style="color:#6A737D;--shiki-dark:#6A737D">         # Kill only master REPL</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Force kill if needed</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">pkill</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -9</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -f</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> 'zed-cl-kernel'</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> &#x26;&#x26; </span><span style="color:#B392F0;--shiki-dark:#B392F0">pkill</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -9</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -f</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> 'zed-cl-lsp'</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> &#x26;&#x26; </span><span style="color:#B392F0;--shiki-dark:#B392F0">pkill</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -9</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -f</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> 'master-repl'</span></span></code></pre>
+<h2 id="user-content-log-locations"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#log-locations"><span class="heading-anchor-icon">#</span></a>Log Locations</h2>
+<p><strong>LSP Server:</strong></p>
+<ul>
+<li><code>/tmp/cl-zed-lsp.log</code> - LSP debug logs</li>
+<li><code>/tmp/master-repl.log</code> - Master REPL logs</li>
+</ul>
+<p><strong>Zed Application:</strong></p>
+<ul>
+<li><code>~/Library/Logs/Zed/Zed.log</code> (macOS)</li>
+<li><code>~/.local/share/zed/logs/Zed.log</code> (Linux)</li>
+</ul>
+<p><strong>Database Indexes:</strong></p>
+<ul>
+<li><code>~/.zed-cl/system-index.db</code> - System libraries (SBCL + manually indexed packages)</li>
+<li><code>~/.zed-cl/user-index.db</code> - User workspace code (auto-indexed)</li>
+</ul>
+<h2 id="user-content-architecture"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#architecture"><span class="heading-anchor-icon">#</span></a>Architecture</h2>
+<pre><code>      ┌───────────────────────┐
+      │  Master REPL Process  │
+      │ (Unix domain sockets) │
+      └──────────┬────────────┘
+                 │
+       ┌─────────┼──────────┐
+       │         │          │
+   ┌───▼───┐  ┌──▼───┐  ┌───▼───┐
+   │Console│  │ Zed  │  │ Zed   │
+   │ REPL  │  │ REPL │  │ LSP   │
+   └───────┘  └──────┘  └───────┘
+</code></pre>
+<p>All components connect to a single master REPL via Unix domain sockets for true state sharing. Code evaluated in any component is immediately available in all others.</p>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>MIT</p>
+<h2 id="user-content-links"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#links"><span class="heading-anchor-icon">#</span></a>Links</h2>
+<ul>
+<li><a href="https://zed.dev/">Zed Editor</a></li>
+<li><a href="http://www.lispworks.com/documentation/HyperSpec/Front/index.htm">Common Lisp HyperSpec</a></li>
+<li><a href="http://www.sbcl.org/">SBCL</a></li>
+</ul></article> </main> <footer class="mt-auto" style="background:var(--zed-bg);border-top:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:var(--zed-text-muted);">
+← Back to extension list
+</a> </div> </footer> </body></html>

@@ -1,0 +1,20 @@
+id = "knip"
+name = "Knip"
+description = "Knip extension for Zed. Find unused files, dependencies, and exports in your JavaScript/TypeScript projects."
+version = "0.0.1"
+schema_version = 1
+authors = ["Phillip Bronzel <hello@phib.ro>"]
+repository = "https://github.com/phibr0/zed-knip"
+
+[language_servers.knip]
+name = "Knip Language Server"
+language = "JavaScript"
+languages = ["JavaScript", "JSX", "TypeScript", "TSX", "JSON"]
+code_actions_kind = ["quickfix"]
+
+[language_servers.knip.language_ids]
+"JSON" = "json"
+"JSX" = "javascriptreact"
+"JavaScript" = "javascript"
+"TSX" = "typescriptreact"
+"TypeScript" = "typescript"

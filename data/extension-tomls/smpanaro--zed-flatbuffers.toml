@@ -1,0 +1,16 @@
+id = "flatbuffers"
+name = "FlatBuffers"
+version = "0.0.3"
+schema_version = 1
+authors = ["Stephen Panaro"]
+description = "FlatBuffers support."
+repository = "https://github.com/smpanaro/zed-flatbuffers"
+languages = ["languages/flatbuffers"]
+
+[grammars.flatbuffers]
+repository = "https://github.com/smpanaro/tree-sitter-flatbuffers"
+commit = "44d8ef84f4d85a94890fa87382c066e8464866c3"
+
+[language_servers.flatbuffers-language-server]
+name = "FlatBuffers LSP"
+language = "FlatBuffers"

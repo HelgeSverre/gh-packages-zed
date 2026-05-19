@@ -1,0 +1,348 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Laravel Support — Zed Extension Safari</title><meta name="description" content="Enhance your Zed IDE experience with full Laravel support. This extension adds syntax highlighting, autocompletion, Blade template parsing, and handy Laravel-specific tools to streamline your development workflow."><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Laravel Support — Zed Extension Safari"><meta property="og:description" content="Enhance your Zed IDE experience with full Laravel support. This extension adds syntax highlighting, autocompletion, Blade template parsing, and handy Laravel-specific tools to streamline your development workflow."><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Laravel Support — Zed Extension Safari"><meta name="twitter:description" content="Enhance your Zed IDE experience with full Laravel support. This extension adds syntax highlighting, autocompletion, Blade template parsing, and handy Laravel-specific tools to streamline your development workflow."><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.DJSXA_CW.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);">  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-4"> <a href="/gh-packages-zed" class="transition" style="color:var(--zed-text-muted);">← All extensions</a> </nav> <div class="flex flex-wrap items-start justify-between gap-4"> <div class="min-w-0"> <div class="font-mono text-xs mb-2" style="color:var(--zed-muted);"> akilama471/zed-laravel-extension </div> <h1 class="text-2xl sm:text-3xl font-bold break-words leading-tight" style="color:var(--zed-blue-pale);"> Laravel Support </h1> <p class="mt-2 text-pretty" style="color:var(--zed-text-muted);"> Laravel tools: Blade syntax highlighting, Artisan task runner, route &amp; model autocomplete, and PHP language server integration. </p> </div> <a href="https://github.com/akilama471/zed-laravel-extension" target="_blank" rel="noopener" class="zed-btn-primary shrink-0 inline-flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View on GitHub
+</a> </div> <div class="mt-4 flex flex-wrap items-center gap-2"> <span class="version-pill">v0.1.1</span> <span class="cat-badge" data-cat="language-server">Language Server</span> </div> <div class="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm" style="color:var(--zed-text-muted);"> <span class="inline-flex items-center gap-1"> <svg class="w-4 h-4" style="color:var(--zed-lime);" fill="currentColor" viewBox="0 0 20 20"> <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path> </svg> 0 stars
+</span> <span>Rust</span> <span>MIT</span> <span>Updated 3/14/2026</span> <span>schema v1</span> </div> <div class="mt-2 text-sm" style="color:var(--zed-text-muted);">
+by Akila Madhushanka </div> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> artisan </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> blade </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> code-editor-extension </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> developer-tools </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> ide-extension </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> laravel </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> laravel-development </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> laravel-extension </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> laravel-routes </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> laravel-tools </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> php </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> php-development </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed-editor </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed-extension </span> </div> </div> </header> <main class="flex-1 max-w-4xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <article class="prose readme-prose max-w-none"><p><img src="https://img.shields.io/github/license/akilama471/zed-laravel-extension" alt="License">
+<img src="https://img.shields.io/badge/Zed-Extension-blue" alt="Zed Extension">
+<img src="https://img.shields.io/badge/version-0.1.0-green" alt="Version"></p>
+<h1 id="user-content-laravel-support-for-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#laravel-support-for-zed"><span class="heading-anchor-icon">#</span></a>Laravel Support for Zed</h1>
+<p>A <a href="https://zed.dev">Zed</a> extension that brings first-class Laravel development tools directly into your editor — including Blade &#x26; PHP syntax support with rich snippets, smart Laravel-aware completions, a custom Laravel LSP server, Artisan task integration, and route/model/component indexing.</p>
+<hr>
+<h2 id="user-content-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features"><span class="heading-anchor-icon">#</span></a>Features</h2>
+<h3 id="user-content--blade-template-language-support"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-blade-template-language-support"><span class="heading-anchor-icon">#</span></a>🎨 Blade Template Language Support</h3>
+<p>Full language support for Laravel's Blade templating engine (<code>.blade.php</code> files):</p>
+<ul>
+<li>
+<p><strong>Syntax Highlighting</strong> — Blade directives highlighted within HTML/PHP context using the <code>text.html.php.blade</code> scope.</p>
+</li>
+<li>
+<p><strong>File Association</strong> — Automatically activates for all <code>.blade.php</code> files.</p>
+</li>
+<li>
+<p><strong>Block Comments</strong> — Native <code>{{-- --}}</code> comment toggling.</p>
+</li>
+<li>
+<p><strong>TailwindCSS</strong> — Opt-in support for <code>tailwindcss-language-server</code> in Blade files and strings.</p>
+</li>
+<li>
+<p><strong>Prettier</strong> — Integration with <a href="https://github.com/shufo/prettier-plugin-blade"><code>@shufo/prettier-plugin-blade</code></a> for formatting.</p>
+</li>
+<li>
+<p><strong>60+ Built-in Snippets</strong> — Organised by category:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Category</th><th>Prefixes</th></tr></thead><tbody><tr><td><strong>Control Flow</strong></td><td><code>@if</code>, <code>@ifelse</code>, <code>@elseif</code>, <code>@unless</code>, <code>@isset</code>, <code>@empty</code></td></tr><tr><td><strong>Loops</strong></td><td><code>@foreach</code>, <code>@forelse</code>, <code>@for</code>, <code>@while</code>, <code>@continue</code>, <code>@break</code></td></tr><tr><td><strong>Switch</strong></td><td><code>@switch</code>, <code>@case</code></td></tr><tr><td><strong>Layout</strong></td><td><code>@extends</code>, <code>@section</code>, <code>@yield</code>, <code>@show</code>, <code>@parent</code></td></tr><tr><td><strong>Includes</strong></td><td><code>@include</code>, <code>@includeIf</code>, <code>@includeWhen</code>, <code>@includeUnless</code>, <code>@includeFirst</code>, <code>@each</code></td></tr><tr><td><strong>Stacks</strong></td><td><code>@stack</code>, <code>@push</code>, <code>@pushonce</code>, <code>@prepend</code></td></tr><tr><td><strong>Components</strong></td><td><code>@component</code>, <code>@slot</code>, <code>x-component</code>, <code>x-self-closing</code></td></tr><tr><td><strong>Auth / Gates</strong></td><td><code>@auth</code>, <code>@guest</code>, <code>@can</code>, <code>@cannot</code>, <code>@canany</code></td></tr><tr><td><strong>Environment</strong></td><td><code>@env</code>, <code>@production</code></td></tr><tr><td><strong>Forms</strong></td><td><code>@csrf</code>, <code>@method</code>, <code>@error</code></td></tr><tr><td><strong>Livewire</strong></td><td><code>@livewire</code>, <code>@livewireStyles</code>, <code>@livewireScripts</code></td></tr><tr><td><strong>Translations</strong></td><td><code>@lang</code></td></tr><tr><td><strong>Raw PHP</strong></td><td><code>@verbatim</code>, <code>@php</code></td></tr><tr><td><strong>Vite</strong></td><td><code>@vite</code>, <code>@viteReactRefresh</code></td></tr></tbody></table>
+</li>
+</ul>
+<hr>
+<h3 id="user-content--php-language-support"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-php-language-support"><span class="heading-anchor-icon">#</span></a>🐘 PHP Language Support</h3>
+<p>Full PHP language support with a rich Laravel-focused snippet library for <code>.php</code> files:</p>
+<ul>
+<li>
+<p><strong>Syntax Highlighting</strong> — Using the built-in <code>php</code> grammar.</p>
+</li>
+<li>
+<p><strong>100+ Built-in Snippets</strong> — Covering every layer of a Laravel application:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Category</th><th>Prefixes</th></tr></thead><tbody><tr><td><strong>Migration Columns</strong></td><td><code>colstring</code>, <code>coltext</code>, <code>collongtext</code>, <code>colint</code>, <code>colbigint</code>, <code>colunsigned</code>, <code>colfloat</code>, <code>coldecimal</code>, <code>colbool</code>, <code>coldate</code>, <code>coldatetime</code>, <code>coltimestamp</code>, <code>coltimestamps</code>, <code>colsoftdeletes</code>, <code>coljson</code>, <code>coljsonb</code>, <code>colenum</code>, <code>colforeign</code>, <code>colnullable</code>, <code>coldefault</code>, <code>colunique</code>, <code>colindex</code>, <code>colid</code>, <code>coluuid</code>, <code>colip</code>, <code>colmac</code>, <code>colmorph</code></td></tr><tr><td><strong>Migration Structure</strong></td><td><code>migration</code>, <code>migalter</code></td></tr><tr><td><strong>Eloquent Model</strong></td><td><code>model</code>, <code>fillable</code>, <code>hidden</code>, <code>casts</code>, <code>scope</code>, <code>hasone</code>, <code>hasmany</code>, <code>belongsto</code>, <code>belongstomany</code>, <code>morphto</code>, <code>morphmany</code></td></tr><tr><td><strong>Controller</strong></td><td><code>controller</code>, <code>resourcecontroller</code></td></tr><tr><td><strong>Request / Validation</strong></td><td><code>formrequest</code>, <code>validate</code>, <code>rulereq</code>, <code>rulenull</code></td></tr><tr><td><strong>Routes</strong></td><td><code>routeget</code>, <code>routepost</code>, <code>routeput</code>, <code>routedelete</code>, <code>routeresource</code>, <code>routeapiresource</code>, <code>routegroup</code>, <code>routemiddleware</code></td></tr><tr><td><strong>Service / Repository</strong></td><td><code>service</code>, <code>interface</code></td></tr><tr><td><strong>Events / Listeners / Jobs</strong></td><td><code>event</code>, <code>listener</code>, <code>job</code></td></tr><tr><td><strong>Helpers &#x26; Facades</strong></td><td><code>env</code>, <code>config</code>, <code>cache</code>, <code>cacheforget</code>, <code>session</code>, <code>sessionput</code>, <code>redirect</code>, <code>redirectback</code>, <code>view</code>, <code>response</code>, <code>abort</code>, <code>dispatch</code>, <code>log</code>, <code>dd</code>, <code>dump</code></td></tr></tbody></table>
+</li>
+</ul>
+<hr>
+<h3 id="user-content--smart-laravel-completions"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-smart-laravel-completions"><span class="heading-anchor-icon">#</span></a>🧠 Smart Laravel Completions</h3>
+<p>The extension enriches the editor's completion menu with Laravel-specific knowledge:</p>
+<ul>
+<li><strong>75+ Laravel Helper Functions</strong> — <code>route()</code>, <code>view()</code>, <code>auth()</code>, <code>config()</code>, <code>session()</code>, <code>abort()</code>, <code>dispatch()</code>, and more — all surfaced with typed <code>fn</code> labels.</li>
+<li><strong>33 Laravel Facades</strong> — <code>Auth</code>, <code>Cache</code>, <code>DB</code>, <code>Event</code>, <code>Gate</code>, <code>Log</code>, <code>Mail</code>, <code>Queue</code>, <code>Route</code>, <code>Schema</code>, <code>Storage</code>, and more — surfaced with <code>class</code> labels.</li>
+<li><strong>Blade Directives</strong> — <code>@csrf</code>, <code>@if</code>, <code>@foreach</code>, <code>@yield</code>, <code>@auth</code>, and more — surfaced with <code>string.special</code> labels.</li>
+<li><strong>Typed Code Labels</strong> — Completions are styled by kind: functions show as <code>fn name()</code>, classes as <code>class Name</code>, variables as <code>$name</code>, constants as <code>const NAME</code>, and so on.</li>
+</ul>
+<hr>
+<h3 id="user-content--project-aware-indexing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-project-aware-indexing"><span class="heading-anchor-icon">#</span></a>🔍 Project-Aware Indexing</h3>
+<p>The extension scans your open Laravel project and provides context-aware completions for:</p>
+<ul>
+<li><strong>Blade Components</strong> — All components under <code>resources/views/components/</code> are discovered (including nested sub-directories) and surfaced as <code>&#x3C;x-component-name /></code> completions.</li>
+<li><strong>Named Routes</strong> — All <code>->name('...')</code> calls across every file in your <code>routes/</code> directory are indexed and available as completions.</li>
+<li><strong>Model <code>$fillable</code> Properties</strong> — All entries in <code>$fillable</code> (and <code>$guarded</code>) arrays across <code>app/Models/</code> and <code>app/</code> are indexed for completion.</li>
+<li><strong>Controllers</strong> — All controller class names under <code>app/Http/Controllers/</code> (including sub-directories) are indexed.</li>
+</ul>
+<hr>
+<h3 id="user-content-️-language-server-integration"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#️-language-server-integration"><span class="heading-anchor-icon">#</span></a>🖥️ Language Server Integration</h3>
+<p>The extension registers a language server (<code>laravel-lsp</code>) for both PHP and Blade files. It uses a two-tier strategy:</p>
+<ol>
+<li>
+<p><strong>Custom <code>laravel-lsp</code> binary</strong> <em>(if installed)</em> — A standalone <a href="https://github.com/ebkalderon/tower-lsp">Tower-LSP</a> server (<code>laravel-lsp/</code>) that provides Laravel-aware completions for helpers, facades, blade directives, named routes, model properties, and blade components, all sourced from your live project.</p>
+</li>
+<li>
+<p><strong>Intelephense</strong> <em>(automatic fallback)</em> — If the <code>laravel-lsp</code> binary is not found, the extension automatically installs and launches the latest version of <a href="https://intelephense.com/">PHP Intelephense</a> via npm, providing:</p>
+<ul>
+<li>Code completion</li>
+<li>Go-to-definition</li>
+<li>Hover documentation</li>
+<li>Diagnostics</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h3 id="user-content-️-artisan-task-runner"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#️-artisan-task-runner"><span class="heading-anchor-icon">#</span></a>⚙️ Artisan Task Runner</h3>
+<p>Run common Artisan commands directly from Zed's task panel.</p>
+<blockquote>
+<p><strong>Note:</strong> Zed does not currently support extensions injecting tasks automatically. You must copy the task definitions into your project manually. See <a href="#running-artisan-tasks">Usage → Running Artisan Tasks</a> below.</p>
+</blockquote>
+<p>The task definitions are provided in <a href="https://github.com/akilama471/zed-laravel-extension/blob/HEAD/tasks/artisan.json" target="_blank" rel="noopener"><code>tasks/artisan.json</code></a> and cover:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Category</th><th>Tasks</th></tr></thead><tbody><tr><td><strong>Server</strong></td><td><code>artisan: serve</code></td></tr><tr><td><strong>Database</strong></td><td><code>artisan: migrate</code>, <code>artisan: migrate:fresh</code>, <code>artisan: migrate:fresh --seed</code>, <code>artisan: migrate:rollback</code>, <code>artisan: migrate:status</code>, <code>artisan: db:seed</code></td></tr><tr><td><strong>Testing</strong></td><td><code>artisan: test</code>, <code>artisan: test --filter $ZED_SYMBOL</code>, <code>artisan: test --parallel</code></td></tr><tr><td><strong>Queue</strong></td><td><code>artisan: queue:work</code>, <code>artisan: queue:listen</code>, <code>artisan: schedule:work</code>, <code>artisan: schedule:run</code></td></tr><tr><td><strong>Routing</strong></td><td><code>artisan: route:list</code>, <code>artisan: route:cache</code>, <code>artisan: route:clear</code></td></tr><tr><td><strong>Cache</strong></td><td><code>artisan: cache:clear</code>, <code>artisan: config:cache</code>, <code>artisan: config:clear</code>, <code>artisan: view:cache</code>, <code>artisan: view:clear</code>, <code>artisan: optimize</code>, <code>artisan: optimize:clear</code></td></tr><tr><td><strong>Maintenance</strong></td><td><code>artisan: tinker</code>, <code>artisan: key:generate</code>, <code>artisan: storage:link</code>, <code>artisan: vendor:publish</code>, <code>artisan: down</code>, <code>artisan: up</code>, <code>artisan: about</code>, <code>artisan: list</code></td></tr></tbody></table>
+<blockquote>
+<p><strong>Tip:</strong> The <code>artisan: test --filter $ZED_SYMBOL</code> task uses Zed's <code>$ZED_SYMBOL</code> variable to run only the test under your cursor.</p>
+</blockquote>
+<hr>
+<h3 id="user-content-️-route-list-utility"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#️-route-list-utility"><span class="heading-anchor-icon">#</span></a>🗺️ Route List Utility</h3>
+<p>A PHP helper script (<code>commands/route_list.php</code>) reads your application's <code>routes/web.php</code> and outputs the registered routes as JSON — useful for tooling and external integrations.</p>
+<hr>
+<h2 id="user-content-requirements"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#requirements"><span class="heading-anchor-icon">#</span></a>Requirements</h2>
+<ul>
+<li><a href="https://zed.dev">Zed Editor</a> (latest stable recommended)</li>
+<li><a href="https://nodejs.org">Node.js &#x26; npm</a> — required for the automatic Intelephense installation</li>
+<li>PHP installed and available in your <code>PATH</code></li>
+<li>A Laravel project (for project-aware indexing features)</li>
+</ul>
+<hr>
+<h2 id="user-content-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation"><span class="heading-anchor-icon">#</span></a>Installation</h2>
+<ol>
+<li>Open Zed and go to the <strong>Extensions</strong> panel (<code>Ctrl+Shift+X</code> / <code>Cmd+Shift+X</code>).</li>
+<li>Search for <strong>Laravel Support</strong>.</li>
+<li>Click <strong>Install</strong>.</li>
+</ol>
+<p>Intelephense will be automatically downloaded and installed the first time the extension activates in a PHP or Blade file.</p>
+<hr>
+<h2 id="user-content-usage"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#usage"><span class="heading-anchor-icon">#</span></a>Usage</h2>
+<h3 id="user-content-running-artisan-tasks"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#running-artisan-tasks"><span class="heading-anchor-icon">#</span></a>Running Artisan Tasks</h3>
+<p>Zed's extension API does not yet support extensions injecting tasks automatically. To use the Artisan tasks you must copy the provided task definitions into your project (or your global Zed config) manually.</p>
+<h4 id="user-content-per-project-setup-recommended"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#per-project-setup-recommended"><span class="heading-anchor-icon">#</span></a>Per-project setup (recommended)</h4>
+<ol>
+<li>
+<p>In your Laravel project root, create the <code>.zed/</code> directory if it doesn't already exist.</p>
+</li>
+<li>
+<p>Copy <code>tasks/artisan.json</code> from this extension into your project as <code>.zed/tasks.json</code>:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">mkdir</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -p</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> .zed</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cp</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> /path/to/zed-laravel-extension/tasks/artisan.json</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> .zed/tasks.json</span></span></code></pre>
+<p>Or copy the contents of <a href="https://github.com/akilama471/zed-laravel-extension/blob/HEAD/tasks/artisan.json" target="_blank" rel="noopener"><code>tasks/artisan.json</code></a> into your existing <code>.zed/tasks.json</code>.</p>
+</li>
+<li>
+<p>Open the Zed task panel via the Command Palette → <code>task: spawn</code> (or <code>Alt+Shift+T</code>).</p>
+</li>
+<li>
+<p>All <strong>artisan:</strong> tasks will now appear in the list.</p>
+</li>
+</ol>
+<h4 id="user-content-global-setup-all-projects"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#global-setup-all-projects"><span class="heading-anchor-icon">#</span></a>Global setup (all projects)</h4>
+<p>To have the Artisan tasks available in every project, add the contents of <code>tasks/artisan.json</code> to your global Zed tasks file:</p>
+<ul>
+<li><strong>macOS/Linux:</strong> <code>~/.config/zed/tasks.json</code></li>
+<li><strong>Windows:</strong> <code>%APPDATA%\Zed\tasks.json</code></li>
+</ul>
+<hr>
+<h3 id="user-content-blade-snippets"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#blade-snippets"><span class="heading-anchor-icon">#</span></a>Blade Snippets</h3>
+<p>Open any <code>.blade.php</code> file and type a snippet prefix (e.g. <code>@foreach</code>, <code>@csrf</code>, <code>x-component</code>) — Zed's completion menu will suggest the full snippet expansion.</p>
+<h3 id="user-content-php-snippets"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#php-snippets"><span class="heading-anchor-icon">#</span></a>PHP Snippets</h3>
+<p>Open any <code>.php</code> file and type a snippet prefix (e.g. <code>migration</code>, <code>model</code>, <code>resourcecontroller</code>, <code>routeget</code>) — Zed's completion menu will suggest the full expansion with tab stops.</p>
+<hr>
+<h2 id="user-content-project-structure"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#project-structure"><span class="heading-anchor-icon">#</span></a>Project Structure</h2>
+<pre><code>zed-laravel-extension/
+├── commands/
+│   ├── artisan.rs              # Artisan command label helpers (Rust)
+│   └── route_list.php          # Route listing helper script (JSON output)
+├── languages/
+│   ├── blade/
+│   │   ├── config.toml         # Blade language config, brackets, Prettier &#x26; Tailwind opts
+│   │   └── snippets.toml       # 60+ Blade directive snippets
+│   └── php/
+│       ├── config.toml         # PHP language config &#x26; brackets
+│       └── snippets.toml       # 100+ PHP/Laravel snippets
+├── laravel-lsp/
+│   ├── indexer.rs              # Project indexer (components, routes, models, controllers)
+│   ├── scanner.rs              # Low-level file scanner utilities
+│   ├── server.rs               # Tower-LSP server entry point &#x26; completion handler
+│   └── Cargo.toml              # laravel-lsp standalone binary crate
+├── src/
+│   ├── completion.rs           # Built-in helpers, facades, blade directives + label builder
+│   ├── laravel_indexer.rs      # Project indexer used inside the WASM extension
+│   ├── laravel_scanner.rs      # File scanner used inside the WASM extension
+│   └── lib.rs                  # Extension entry point &#x26; Intelephense bootstrap
+├── tasks/
+│   └── artisan.json            # Artisan task definitions (copy to .zed/tasks.json)
+├── extension.toml              # Extension manifest
+└── Cargo.toml                  # Rust crate configuration
+</code></pre>
+<hr>
+<h2 id="user-content-changelog"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#changelog"><span class="heading-anchor-icon">#</span></a>Changelog</h2>
+<h3 id="user-content-010--initial-release"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#010--initial-release"><span class="heading-anchor-icon">#</span></a>[0.1.0] — Initial Release</h3>
+<h4 id="user-content-added"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#added"><span class="heading-anchor-icon">#</span></a>Added</h4>
+<ul>
+<li><strong>Blade language support</strong> — syntax scope, file extension association (<code>.blade.php</code>), <code>{{-- --}}</code> block comments, TailwindCSS LSP opt-in, Prettier plugin integration, and 60+ <code>@directive</code> / <code>x-component</code> snippets across 14 categories.</li>
+<li><strong>PHP language support</strong> — syntax scope, file extension association (<code>.php</code>), and 100+ PHP/Laravel snippets covering migrations, models, controllers, requests, routes, services, events, jobs, and helper/facade patterns.</li>
+<li><strong>Smart Laravel completions</strong> — typed code labels for 75+ helper functions, 33 facades, and core Blade directives, with completion kind–aware display (<code>fn</code>, <code>class</code>, <code>const</code>, <code>$variable</code>, <code>keyword</code>).</li>
+<li><strong>Project-aware indexing</strong> — scans Blade components, named routes, model <code>$fillable</code> properties, and controller class names from the open workspace.</li>
+<li><strong>Custom Laravel LSP</strong> — standalone <code>laravel-lsp</code> Tower-LSP binary providing Laravel-specific hover, completion, and go-to-definition support.</li>
+<li><strong>Intelephense integration</strong> — automatic npm installation and launch of PHP Intelephense as a fallback language server.</li>
+<li><strong>Artisan task integration</strong> — 32 predefined tasks for <code>serve</code>, <code>migrate</code>, <code>test</code>, <code>queue</code>, <code>schedule</code>, <code>cache</code>, <code>optimize</code>, <code>route</code>, <code>tinker</code>, and more.</li>
+<li><strong>Route list utility</strong> — PHP helper script to extract and expose registered web routes as JSON.</li>
+</ul>
+<hr>
+<h2 id="user-content-contributing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#contributing"><span class="heading-anchor-icon">#</span></a>Contributing</h2>
+<p>Contributions are welcome! Feel free to open an issue or pull request on <a href="https://github.com/akilama471/zed-laravel-extension">GitHub</a>.</p>
+<ol>
+<li>Fork the repository.</li>
+<li>Create a feature branch: <code>git checkout -b feature/my-feature</code>.</li>
+<li>Commit your changes: <code>git commit -m 'Add my feature'</code>.</li>
+<li>Push to the branch: <code>git push origin feature/my-feature</code>.</li>
+<li>Open a Pull Request.</li>
+</ol>
+<hr>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>MIT License — see <a href="https://github.com/akilama471/zed-laravel-extension/blob/HEAD/LICENSE" target="_blank" rel="noopener">LICENSE</a> for details.</p></article> </main> <footer class="mt-auto" style="background:var(--zed-bg);border-top:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:var(--zed-text-muted);">
+← Back to extension list
+</a> </div> </footer> </body></html>

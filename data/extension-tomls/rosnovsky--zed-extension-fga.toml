@@ -1,0 +1,11 @@
+schema_version = 1
+id = "openfga"
+name = "Syntax Highlighting for OpenFGA files"
+version = "0.2.0"
+authors = ["Art Rosnovsky <job@rosnovsky.us>"]
+description = "Syntax highlighting for OpenFGA authorization model files"
+repository = "https://github.com/rosnovsky/zed-extension-fga"
+
+[grammars.fga]
+repository = "https://github.com/matoous/tree-sitter-fga"
+commit = "ee713b95766f8488206330ba8e5e810daadacf86"

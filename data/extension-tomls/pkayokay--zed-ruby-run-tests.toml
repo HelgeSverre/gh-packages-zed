@@ -1,0 +1,10 @@
+id = "ruby-run-tests"
+name = "Ruby Run Tests"
+description = "Toggle between Ruby source and test files, and run RSpec/Minitest tests"
+version = "0.1.0"
+schema_version = 1
+authors = ["Paul Kim"]
+repository = "https://github.com/paulkim/zed-ruby-run-tests"
+
+[lib]
+kind = "cdylib"

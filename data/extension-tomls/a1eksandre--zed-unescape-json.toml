@@ -1,0 +1,11 @@
+id = "unescape-json"
+name = "Unescape JSON"
+description = "Unescape and pretty-print JSON strings via code action."
+version = "0.1.0"
+schema_version = 1
+authors = ["a1eksandre <alex@aleksandre.net>"]
+repository = "https://github.com/a1eksandre/zed-unescape-json"
+
+[language_servers.unescape-json-lsp]
+name = "Unescape JSON"
+languages = ["JSON", "JSONC", "Markdown", "Plain Text", "YAML", "TOML", "Go", "Rust", "Python", "TypeScript", "JavaScript", "Java", "Kotlin", "C#"]

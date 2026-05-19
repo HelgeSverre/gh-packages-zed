@@ -1,0 +1,15 @@
+id = "HL7v2"
+name = "HL7v2"
+version = "0.0.1"
+schema_version = 1
+authors = ["Jesse Kruse <jesse.kruse@outlook.com>"]
+description = "Support for HL7 v2 messages"
+repository = "https://github.com/Yes25/zed-hl7v2-extension"
+
+[grammars.hl7v2]
+repository = "https://github.com/Yes25/tree-sitter-hl7v2"
+rev = "5f57c064a75b505a17d68e58aeafc65a307f47f3"
+
+[language_servers.hl7_v2_lsp]
+name = "hl7_v2"
+languages = ["hl7_v2"]

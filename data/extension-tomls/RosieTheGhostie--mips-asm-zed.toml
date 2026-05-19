@@ -1,0 +1,11 @@
+id = "mips-asm"
+name = "MIPS Assembly"
+description = "Language support for MIPS assembly in Zed"
+version = "0.0.1"
+schema_version = 1
+authors = ["RosieTheGhostie <rosetheghost.dev@gmail.com>"]
+repository = "https://github.com/RosieTheGhostie/mips-asm-zed"
+
+[grammars.mips_asm]
+repository = "https://github.com/RosieTheGhostie/tree-sitter-mips_asm"
+rev = "4d163bf11a3792291133fd2207de46b615c2cc4c"

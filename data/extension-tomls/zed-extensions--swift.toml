@@ -1,0 +1,21 @@
+id = "swift"
+name = "Swift"
+description = "Swift support."
+version = "0.4.8"
+schema_version = 1
+authors = [
+    "ejjonny <https://github.com/ejjonny>",
+    "Samuser107 L.Longheval <samuser107@gmail.com>",
+]
+repository = "https://github.com/zed-extensions/swift"
+
+[language_servers.sourcekit-lsp]
+name = "sourcekit-lsp"
+language = "Swift"
+
+[grammars.swift]
+repository = "https://github.com/alex-pinkus/tree-sitter-swift"
+commit = "33e56e4e2a6455f3fd4e04cfe5c7a314d498612d"
+
+[debug_adapters.Swift]
+schema_path = "debug_adapter_schemas/Swift.json"

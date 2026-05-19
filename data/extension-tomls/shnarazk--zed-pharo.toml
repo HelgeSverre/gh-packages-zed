@@ -1,0 +1,11 @@
+id = "pharo"
+name = "Pharo"
+description = "Pharo/Tonel language support for Zed"
+version = "0.1.0"
+schema_version = 1
+authors = ["Narazaki, Shuji <shujinarazaki@protonmail.com>"]
+repository = "https://github.com/shnarazk/zed-pharo"
+
+[grammars.tonel]
+repository = "https://github.com/shnarazk/tree-sitter-tonel"
+commit = "e68e7eaa368cb03cee77156d9583f8830ec12971"

@@ -1,0 +1,21 @@
+id = "stylelint"
+name = "Stylelint"
+version = "3.0.0"
+schema_version = 1
+authors = ["Florian Sanders <sanders.florian+zed@gmail.com>"]
+description = "Stylelint support via the official vscode-stylelint language server"
+repository = "https://github.com/florian-sanders/zed-stylelint"
+
+[language_servers.stylelint-lsp]
+name = "Stylelint Language Server"
+language = "CSS"
+languages = [
+  # Stylesheets
+  "CSS", "SCSS", "LESS", "Sass", "PostCSS",
+  # JavaScript/TypeScript
+  "JavaScript", "TypeScript", "JSX", "TSX",
+  # Frameworks
+  "Vue.js", "Svelte", "Astro",
+  # Markup
+  "HTML", "Markdown"
+]

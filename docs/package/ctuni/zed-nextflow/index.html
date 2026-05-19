@@ -1,0 +1,155 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Nextflow — Zed Extension Safari</title><meta name="description" content="Nextflow language support"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Nextflow — Zed Extension Safari"><meta property="og:description" content="Nextflow language support"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Nextflow — Zed Extension Safari"><meta name="twitter:description" content="Nextflow language support"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.DJSXA_CW.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);">  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-4"> <a href="/gh-packages-zed" class="transition" style="color:var(--zed-text-muted);">← All extensions</a> </nav> <div class="flex flex-wrap items-start justify-between gap-4"> <div class="min-w-0"> <div class="font-mono text-xs mb-2" style="color:var(--zed-muted);"> ctuni/zed-nextflow </div> <h1 class="text-2xl sm:text-3xl font-bold break-words leading-tight" style="color:var(--zed-blue-pale);"> Nextflow </h1> <p class="mt-2 text-pretty" style="color:var(--zed-text-muted);"> Nextflow language support </p> </div> <a href="https://github.com/ctuni/zed-nextflow" target="_blank" rel="noopener" class="zed-btn-primary shrink-0 inline-flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View on GitHub
+</a> </div> <div class="mt-4 flex flex-wrap items-center gap-2"> <span class="version-pill">v0.0.1</span> <span class="cat-badge" data-cat="grammar">Grammar</span><span class="cat-badge" data-cat="language-server">Language Server</span> </div> <div class="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm" style="color:var(--zed-text-muted);"> <span class="inline-flex items-center gap-1"> <svg class="w-4 h-4" style="color:var(--zed-lime);" fill="currentColor" viewBox="0 0 20 20"> <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path> </svg> 6 stars
+</span> <span>Rust</span> <span>MIT</span> <span>Updated 5/8/2026</span> <span>schema v1</span> </div> <div class="mt-2 text-sm" style="color:var(--zed-text-muted);">
+by Cris Tuñí-Domínguez </div>  </div> </header> <main class="flex-1 max-w-4xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <article class="prose readme-prose max-w-none"><h1 id="user-content-zed-nextflow"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#zed-nextflow"><span class="heading-anchor-icon">#</span></a>zed-nextflow</h1>
+<p><a href="https://zed.dev/"><img src="https://img.shields.io/badge/Zed-extension-7C3AED" alt="Zed Extension"></a>
+<a href="https://www.nextflow.io/"><img src="https://img.shields.io/badge/Nextflow-language%20support-22B573" alt="Nextflow"></a>
+<a href="https://github.com/ctuni/zed-nextflow/blob/HEAD/extension.toml" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/version-0.0.1-blue" alt="Version"></a>
+<a href="https://www.rust-lang.org/"><img src="https://img.shields.io/badge/Rust-2021-DEA584" alt="Rust"></a>
+<a href="https://github.com/ctuni/zed-nextflow/blob/HEAD/LICENSE" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a></p>
+<p>Nextflow language support for <a href="https://zed.dev/">Zed</a>, powered by:</p>
+<ul>
+<li>The Nextflow language server (<code>nextflow-io/language-server</code>)</li>
+<li>Tree-sitter syntax parsing (<code>nextflow-io/tree-sitter-nextflow</code>)</li>
+</ul>
+<p>This extension provides Nextflow file recognition, syntax highlighting/folding, bracket auto-closing, and LSP-backed editor features.</p>
+<h2 id="user-content-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features"><span class="heading-anchor-icon">#</span></a>Features</h2>
+<ul>
+<li><strong>Language registration</strong> for <code>*.nf</code> files and Nextflow shebang scripts</li>
+<li><strong>Syntax highlighting</strong> via Tree-sitter queries in <code>languages/nextflow/highlights.scm</code></li>
+<li><strong>Code folding</strong> via Tree-sitter queries in <code>languages/nextflow/folds.scm</code></li>
+<li><strong>Language server integration</strong> for completions and language intelligence</li>
+<li><strong>Automatic language server download</strong> on first use:
+<ul>
+<li>Fetches the latest release from <code>nextflow-io/language-server</code></li>
+<li>Downloads <code>language-server-all.jar</code></li>
+<li>Starts it with <code>java -jar ...</code></li>
+</ul>
+</li>
+</ul>
+<h2 id="user-content-requirements"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#requirements"><span class="heading-anchor-icon">#</span></a>Requirements</h2>
+<ul>
+<li><a href="https://zed.dev/">Zed</a></li>
+<li><code>java</code> available in your <code>PATH</code> (required to run the Nextflow language server JAR)</li>
+<li>Rust toolchain (only needed if you want to build the extension locally)</li>
+</ul>
+<h2 id="user-content-install--run"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#install--run"><span class="heading-anchor-icon">#</span></a>Install / Run</h2>
+<h3 id="user-content-as-a-local-dev-extension"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#as-a-local-dev-extension"><span class="heading-anchor-icon">#</span></a>As a local dev extension</h3>
+<ol>
+<li>Clone this repository.</li>
+<li>Build the extension WebAssembly artifact:</li>
+</ol>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> build</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --release</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --target</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> wasm32-wasip2</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cp</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> target/wasm32-wasip2/release/my_zed_nextflow.wasm</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> extension.wasm</span></span></code></pre>
+<ol start="3">
+<li>In Zed, load this folder as a dev extension (Extensions UI).</li>
+<li>Open a <code>.nf</code> file.</li>
+</ol>
+<p>On first activation, the extension downloads <code>language-server-all.jar</code> and then launches it with Java.</p>
+<h2 id="user-content-compatibility-matrix"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#compatibility-matrix"><span class="heading-anchor-icon">#</span></a>Compatibility matrix</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Component</th><th>Requirement</th><th>Notes</th></tr></thead><tbody><tr><td>Zed</td><td>Recent stable release</td><td>Extension API dependency is <code>zed_extension_api = 0.7.0</code></td></tr><tr><td>Java</td><td><code>java</code> in <code>PATH</code></td><td>Required to run <code>language-server-all.jar</code></td></tr><tr><td>Rust (dev only)</td><td>Stable toolchain</td><td>Needed to build <code>extension.wasm</code> locally</td></tr><tr><td>Nextflow language server</td><td>Latest GitHub release</td><td>Downloaded automatically at first run</td></tr><tr><td>OS</td><td>Linux / macOS expected, Windows untested</td><td>Runtime command currently uses <code>/bin/sh -c</code></td></tr></tbody></table>
+<h2 id="user-content-development"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#development"><span class="heading-anchor-icon">#</span></a>Development</h2>
+<h3 id="user-content-useful-commands"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#useful-commands"><span class="heading-anchor-icon">#</span></a>Useful commands</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Fast compile check for the extension crate</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> check</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Build production wasm artifact used by Zed</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> build</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --release</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --target</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> wasm32-wasip2</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Copy build artifact to the extension root</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cp</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> target/wasm32-wasip2/release/my_zed_nextflow.wasm</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> extension.wasm</span></span></code></pre>
+<h3 id="user-content-optional-native-helper-binaries"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#optional-native-helper-binaries"><span class="heading-anchor-icon">#</span></a>Optional native helper binaries</h3>
+<p>The repository includes helper binaries under <code>src/bin</code> that are gated behind the <code>native-helpers</code> feature:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> run</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --features</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> native-helpers</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --bin</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> debug</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> run</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --features</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> native-helpers</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --bin</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> real_donwloader</span></span></code></pre>
+<p>These binaries are for local debugging/downloading experiments and are not part of the wasm extension runtime.</p>
+<h2 id="user-content-project-layout"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#project-layout"><span class="heading-anchor-icon">#</span></a>Project layout</h2>
+<ul>
+<li><code>extension.toml</code> - Zed extension metadata and grammar/LSP wiring</li>
+<li><code>src/lib.rs</code> - Main extension implementation (download + launch language server)</li>
+<li><code>languages/nextflow/config.toml</code> - Language config (suffixes, brackets, comments)</li>
+<li><code>languages/nextflow/highlights.scm</code> - Highlight query rules</li>
+<li><code>languages/nextflow/folds.scm</code> - Folding query rules</li>
+<li><code>grammars/nextflow/</code> - Tree-sitter grammar source checkout</li>
+</ul>
+<h2 id="user-content-notes"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#notes"><span class="heading-anchor-icon">#</span></a>Notes</h2>
+<ul>
+<li>The grammar revision is pinned in <code>extension.toml</code>.</li>
+<li>The language server JAR is downloaded from the latest GitHub release and stored in the extension's writable runtime directory.</li>
+</ul>
+<h2 id="user-content-troubleshooting"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#troubleshooting"><span class="heading-anchor-icon">#</span></a>Troubleshooting</h2>
+<h3 id="user-content-java-command-not-found"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#java-command-not-found"><span class="heading-anchor-icon">#</span></a><code>java: command not found</code></h3>
+<ul>
+<li>Install a JRE/JDK and ensure <code>java</code> is available in your shell <code>PATH</code>.</li>
+<li>Verify with:</li>
+</ul>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">java</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -version</span></span></code></pre>
+<h3 id="user-content-language-server-does-not-start"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#language-server-does-not-start"><span class="heading-anchor-icon">#</span></a>Language server does not start</h3>
+<ul>
+<li>Confirm network access to GitHub releases (<code>nextflow-io/language-server</code>) on first run.</li>
+<li>Rebuild and refresh the wasm artifact:</li>
+</ul>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> build</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --release</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --target</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> wasm32-wasip2</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cp</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> target/wasm32-wasip2/release/my_zed_nextflow.wasm</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> extension.wasm</span></span></code></pre>
+<ul>
+<li>Reload the extension in Zed and reopen a <code>.nf</code> file.</li>
+</ul>
+<h3 id="user-content-syntax-highlighting-looks-incomplete"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#syntax-highlighting-looks-incomplete"><span class="heading-anchor-icon">#</span></a>Syntax highlighting looks incomplete</h3>
+<ul>
+<li>Confirm the grammar and query files are present:
+<ul>
+<li><code>languages/nextflow/config.toml</code></li>
+<li><code>languages/nextflow/highlights.scm</code></li>
+<li><code>languages/nextflow/folds.scm</code></li>
+</ul>
+</li>
+<li>Rebuild <code>extension.wasm</code>, reload the extension, and reopen the file.</li>
+</ul>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>This project is licensed under the MIT License.</p>
+<p>See <code>LICENSE</code> for details.</p>
+<h2 id="user-content-publishing-checklist"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#publishing-checklist"><span class="heading-anchor-icon">#</span></a>Publishing checklist</h2>
+<ul>
+<li>Ensure <code>extension.wasm</code> is rebuilt from current sources.</li>
+<li>Validate extension metadata in <code>extension.toml</code> (<code>id</code>, <code>version</code>, <code>repository</code>, <code>description</code>).</li>
+<li>Smoke-test by opening a <code>.nf</code> file in a clean Zed profile and confirming LSP startup/completions.</li>
+<li>Add CI workflow(s) in <code>.github/workflows/</code>, then wire status badges in this README.</li>
+</ul></article> </main> <footer class="mt-auto" style="background:var(--zed-bg);border-top:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:var(--zed-text-muted);">
+← Back to extension list
+</a> </div> </footer> </body></html>

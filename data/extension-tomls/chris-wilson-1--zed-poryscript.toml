@@ -1,0 +1,17 @@
+id = "poryscript"
+name = "Poryscript"
+version = "0.2.0"
+schema_version = 1
+authors = ["Chris Wilson <chris.wilson@astut.co.uk>"]
+description = "Poryscript language support (syntax + LSP) for pokeemerald / pokeruby / pokefirered decomp projects."
+repository = "https://github.com/chris-wilson-1/zed-poryscript"
+
+languages = ["languages/poryscript"]
+
+[language_servers.poryscript-language-server]
+name = "Poryscript Language Server"
+languages = ["Poryscript"]
+
+[grammars.poryscript]
+repository = "https://github.com/chris-wilson-1/tree-sitter-poryscript"
+commit = "f4099a9dc813a85dd4b8f808926c52b6b7b54d7a"

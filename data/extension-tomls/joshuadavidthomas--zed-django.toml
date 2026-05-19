@@ -1,0 +1,19 @@
+id = "django"
+name = "Django"
+description = "Django support"
+version = "0.2.2"
+schema_version = 1
+authors = ["Josh Thomas <josh@joshthomas.dev>"]
+repository = "https://github.com/joshuadavidthomas/zed-django"
+
+[language_servers.django-language-server]
+name = "Django Language Server"
+languages = ["Django"]
+
+[language_servers.django-template-lsp]
+name = "Django Template LSP"
+languages = ["Django"]
+
+[grammars.htmldjango]
+repository = "https://github.com/joshuadavidthomas/tree-sitter-htmldjango"
+commit = "2fb8a6515e75f19854bf2c4f1620d96dbc7a1e9a"

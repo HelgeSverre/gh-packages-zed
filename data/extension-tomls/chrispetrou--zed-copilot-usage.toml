@@ -1,0 +1,11 @@
+id = "copilot-usage"
+name = "Copilot Usage"
+description = "Show GitHub Copilot usage stats (inline suggestions, chat, premium requests) via a /copilot-usage slash command."
+version = "0.0.1"
+schema_version = 1
+authors = ["chrispetrou"]
+repository = "https://github.com/chrispetrou/zed-copilot-usage"
+
+[slash_commands.copilot-usage]
+description = "Show your GitHub Copilot usage stats"
+requires_argument = false

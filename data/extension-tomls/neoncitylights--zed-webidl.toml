@@ -1,0 +1,11 @@
+id = "webidl"
+name = "WebIDL"
+version = "0.0.1"
+schema_version = 1
+authors = ["Samantha Nguyen <contact@samanthanguyen.me>"]
+description = "WebIDL syntax highlighting support for Zed."
+repository = "https://github.com/neoncitylights/zed-webidl"
+
+[grammars.webidl]
+repository = "https://github.com/neoncitylights/tree-sitter-webidl"
+rev = "7f5a46d456461784e6ad4777d29a8ec8da4c6761"

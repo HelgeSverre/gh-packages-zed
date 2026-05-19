@@ -1,0 +1,349 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Laravel — Zed Extension Safari</title><meta name="description" content="Laravel framework support for Zed with Blade templating, Artisan integration, and Laravel-specific features"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Laravel — Zed Extension Safari"><meta property="og:description" content="Laravel framework support for Zed with Blade templating, Artisan integration, and Laravel-specific features"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Laravel — Zed Extension Safari"><meta name="twitter:description" content="Laravel framework support for Zed with Blade templating, Artisan integration, and Laravel-specific features"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.DJSXA_CW.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);">  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-4"> <a href="/gh-packages-zed" class="transition" style="color:var(--zed-text-muted);">← All extensions</a> </nav> <div class="flex flex-wrap items-start justify-between gap-4"> <div class="min-w-0"> <div class="font-mono text-xs mb-2" style="color:var(--zed-muted);"> edgarsouza/zed-extension-laravel </div> <h1 class="text-2xl sm:text-3xl font-bold break-words leading-tight" style="color:var(--zed-blue-pale);"> Laravel </h1> <p class="mt-2 text-pretty" style="color:var(--zed-text-muted);"> Laravel framework support for Zed with Blade templating, Artisan integration, and Laravel-specific features </p> </div> <a href="https://github.com/edgarsouza/zed-extension-laravel" target="_blank" rel="noopener" class="zed-btn-primary shrink-0 inline-flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View on GitHub
+</a> </div> <div class="mt-4 flex flex-wrap items-center gap-2"> <span class="version-pill">v0.1.0</span> <span class="cat-badge" data-cat="grammar">Grammar</span><span class="cat-badge" data-cat="language-server">Language Server</span> </div> <div class="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm" style="color:var(--zed-text-muted);"> <span class="inline-flex items-center gap-1"> <svg class="w-4 h-4" style="color:var(--zed-lime);" fill="currentColor" viewBox="0 0 20 20"> <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path> </svg> 0 stars
+</span> <span>Rust</span> <span>MIT</span> <span>Updated 2/6/2026</span> <span>schema v1</span> </div> <div class="mt-2 text-sm" style="color:var(--zed-text-muted);">
+by Edgar Souza </div>  </div> </header> <main class="flex-1 max-w-4xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <article class="prose readme-prose max-w-none"><h1 id="user-content-laravel-extension-for-zed-editor"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#laravel-extension-for-zed-editor"><span class="heading-anchor-icon">#</span></a>Laravel Extension for Zed Editor</h1>
+<p>A comprehensive Zed editor extension providing Laravel-specific IDE features including Blade templating support, Artisan integration, and Laravel-aware PHP development tools.</p>
+<h2 id="user-content-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features"><span class="heading-anchor-icon">#</span></a>Features</h2>
+<h3 id="user-content--phase-1-2-foundation-completed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-phase-1-2-foundation-completed"><span class="heading-anchor-icon">#</span></a>✅ Phase 1-2: Foundation (Completed)</h3>
+<ul>
+<li>
+<p>✅ <strong>Blade Template Support</strong></p>
+<ul>
+<li>Syntax highlighting for <code>.blade.php</code> files</li>
+<li>PHP, HTML, JavaScript, and CSS injection</li>
+<li>Blade directive recognition (@if, @foreach, @section, etc.)</li>
+<li>Comment support ({{-- --}})</li>
+</ul>
+</li>
+<li>
+<p>✅ <strong>PHP Language Server Integration</strong></p>
+<ul>
+<li>Intelephense support (recommended)</li>
+<li>Phpactor support (alternative)</li>
+<li>Laravel-specific configuration</li>
+<li>Auto-detection of Laravel projects</li>
+</ul>
+</li>
+<li>
+<p>✅ <strong>Artisan Integration</strong></p>
+<ul>
+<li>30+ Artisan commands via Command Palette</li>
+<li>Server, migration, cache, make commands</li>
+<li>Task system integration</li>
+</ul>
+</li>
+</ul>
+<h3 id="user-content--phase-3-intelligent-navigation-completed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-phase-3-intelligent-navigation-completed"><span class="heading-anchor-icon">#</span></a>✅ Phase 3: Intelligent Navigation (Completed)</h3>
+<ul>
+<li>
+<p>✅ <strong>Route Navigation</strong></p>
+<ul>
+<li>Ctrl+Click on <code>route('dashboard')</code> → jump to route definition</li>
+<li>Navigate to routes/web.php with exact line number</li>
+<li>Support for all HTTP methods (GET, POST, PUT, etc.)</li>
+</ul>
+</li>
+<li>
+<p>✅ <strong>View Navigation</strong></p>
+<ul>
+<li>Navigate from <code>view('auth.login')</code> → blade file</li>
+<li>Support for nested views (dot notation)</li>
+<li>Opens resources/views/auth/login.blade.php</li>
+</ul>
+</li>
+<li>
+<p>✅ <strong>Config Navigation</strong></p>
+<ul>
+<li>Jump to config keys from <code>config('app.name')</code></li>
+<li>Opens config file at specific key line</li>
+<li>Works with Laravel 9-12 including streamlined Laravel 11+</li>
+</ul>
+</li>
+<li>
+<p>✅ <strong>Translation Navigation</strong></p>
+<ul>
+<li>Navigate from <code>__('auth.failed')</code> → translation file</li>
+<li>Support for PHP and JSON formats</li>
+<li>Multi-locale support (en, es, pt, pt-BR, etc.)</li>
+</ul>
+</li>
+<li>
+<p>✅ <strong>Autocomplete</strong></p>
+<ul>
+<li>Smart suggestions for config keys</li>
+<li>Translation key autocomplete</li>
+<li>Context-aware completions</li>
+</ul>
+</li>
+</ul>
+<h3 id="user-content--phase-4-advanced-features-completed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-phase-4-advanced-features-completed"><span class="heading-anchor-icon">#</span></a>✅ Phase 4: Advanced Features (Completed)</h3>
+<ul>
+<li>
+<p>✅ <strong>Eloquent Support</strong></p>
+<ul>
+<li>Parse models and detect relationships (HasMany, BelongsTo, etc.)</li>
+<li>80+ Eloquent query builder methods</li>
+<li>Fillable and casts detection</li>
+</ul>
+</li>
+<li>
+<p>✅ <strong>Migration Autocomplete</strong></p>
+<ul>
+<li>40+ Schema column types (string, integer, json, uuid, etc.)</li>
+<li>20+ column modifiers (nullable, unique, default, etc.)</li>
+<li>Smart snippets with placeholders</li>
+</ul>
+</li>
+<li>
+<p>✅ <strong>Test Integration</strong></p>
+<ul>
+<li>Automatic Pest/PHPUnit detection</li>
+<li>Run tests from Command Palette</li>
+<li>Parallel execution support</li>
+<li>Coverage reports</li>
+</ul>
+</li>
+<li>
+<p>✅ <strong>Laravel 11+ Support</strong></p>
+<ul>
+<li>Streamlined structure compatibility</li>
+<li>bootstrap/app.php configuration support</li>
+<li>Adjusted paths for new structure</li>
+</ul>
+</li>
+</ul>
+<h2 id="user-content-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation"><span class="heading-anchor-icon">#</span></a>Installation</h2>
+<h3 id="user-content-prerequisites"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#prerequisites"><span class="heading-anchor-icon">#</span></a>Prerequisites</h3>
+<ol>
+<li>
+<p><strong>Rust via rustup</strong> (required for building):</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">curl</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --proto</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> '=https'</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --tlsv1.2</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -sSf</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> https://sh.rustup.rs</span><span style="color:#F97583;--shiki-dark:#F97583"> |</span><span style="color:#B392F0;--shiki-dark:#B392F0"> sh</span></span></code></pre>
+</li>
+<li>
+<p><strong>PHP Language Server</strong> (choose one):</p>
+<p><strong>Intelephense (Recommended):</strong></p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">npm</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> install</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -g</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> intelephense</span></span></code></pre>
+<p><strong>Phpactor (Alternative):</strong></p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">composer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> global</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> require</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> phpactor/phpactor</span></span></code></pre>
+</li>
+</ol>
+<h3 id="user-content-installing-the-extension"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installing-the-extension"><span class="heading-anchor-icon">#</span></a>Installing the Extension</h3>
+<h4 id="user-content-method-1-install-from-zed-extensions-coming-soon"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#method-1-install-from-zed-extensions-coming-soon"><span class="heading-anchor-icon">#</span></a>Method 1: Install from Zed Extensions (Coming Soon)</h4>
+<p>Once published, you'll be able to install directly from Zed's extension registry.</p>
+<h4 id="user-content-method-2-install-as-development-extension"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#method-2-install-as-development-extension"><span class="heading-anchor-icon">#</span></a>Method 2: Install as Development Extension</h4>
+<ol>
+<li>
+<p>Clone this repository:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">git</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> clone</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> https://github.com/edgarsouza/zed-extension-laravel</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">cd</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> zed-extension-laravel</span></span></code></pre>
+</li>
+<li>
+<p>Open Zed and navigate to: <code>Zed > Extensions > Install Dev Extension</code></p>
+</li>
+<li>
+<p>Select the <code>zed-extension-laravel</code> directory</p>
+</li>
+<li>
+<p>Zed will automatically compile the extension and activate it</p>
+</li>
+</ol>
+<h2 id="user-content-usage"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#usage"><span class="heading-anchor-icon">#</span></a>Usage</h2>
+<h3 id="user-content-automatic-activation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#automatic-activation"><span class="heading-anchor-icon">#</span></a>Automatic Activation</h3>
+<p>The extension automatically activates when you open a Laravel project (detected via <code>composer.json</code> containing <code>laravel/framework</code>).</p>
+<h3 id="user-content-navigation-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#navigation-features"><span class="heading-anchor-icon">#</span></a>Navigation Features</h3>
+<p><strong>Route Navigation:</strong></p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">// In controller - Ctrl+Click on route name</span></span>
+<span class="line"><span style="color:#F97583;--shiki-dark:#F97583">return</span><span style="color:#B392F0;--shiki-dark:#B392F0"> redirect</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">()</span><span style="color:#F97583;--shiki-dark:#F97583">-></span><span style="color:#B392F0;--shiki-dark:#B392F0">route</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">(</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">'dashboard'</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">);</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">// → Jumps to routes/web.php at route definition</span></span></code></pre>
+<p><strong>View Navigation:</strong></p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">// In controller - Ctrl+Click on view name</span></span>
+<span class="line"><span style="color:#F97583;--shiki-dark:#F97583">return</span><span style="color:#B392F0;--shiki-dark:#B392F0"> view</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">(</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">'auth.login'</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">);</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">// → Opens resources/views/auth/login.blade.php</span></span></code></pre>
+<p><strong>Config Navigation:</strong></p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">// In code - Ctrl+Click on config key</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">$name </span><span style="color:#F97583;--shiki-dark:#F97583">=</span><span style="color:#B392F0;--shiki-dark:#B392F0"> config</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">(</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">'app.name'</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">);</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">// → Opens config/app.php at 'name' key line</span></span></code></pre>
+<p><strong>Translation Navigation:</strong></p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">// In view - Ctrl+Click on translation key</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{{ </span><span style="color:#B392F0;--shiki-dark:#B392F0">__</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">(</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">'auth.failed'</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">) }}</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">// → Opens lang/en/auth.php at 'failed' key</span></span></code></pre>
+<h3 id="user-content-autocomplete"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#autocomplete"><span class="heading-anchor-icon">#</span></a>Autocomplete</h3>
+<p><strong>Config Keys:</strong></p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">config</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">(</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">'app.'</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">); </span><span style="color:#6A737D;--shiki-dark:#6A737D">// Press Ctrl+Space</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">// → Shows: name, env, debug, url, timezone, ...</span></span></code></pre>
+<p><strong>Translation Keys:</strong></p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">__</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">(</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">'auth.'</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">); </span><span style="color:#6A737D;--shiki-dark:#6A737D">// Press Ctrl+Space</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">// → Shows: failed, throttle, password, ...</span></span></code></pre>
+<p><strong>Eloquent Methods:</strong></p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">User</span><span style="color:#F97583;--shiki-dark:#F97583">::</span><span style="color:#B392F0;--shiki-dark:#B392F0">query</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">()</span><span style="color:#F97583;--shiki-dark:#F97583">-></span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">; </span><span style="color:#6A737D;--shiki-dark:#6A737D">// Press Ctrl+Space</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">// → Shows: where, orderBy, with, has, first, get, paginate, ...</span></span></code></pre>
+<p><strong>Schema Builder:</strong></p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">Schema</span><span style="color:#F97583;--shiki-dark:#F97583">::</span><span style="color:#B392F0;--shiki-dark:#B392F0">create</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">(</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">'users'</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">, </span><span style="color:#F97583;--shiki-dark:#F97583">function</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> (</span><span style="color:#79B8FF;--shiki-dark:#79B8FF">Blueprint</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> $table) {</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    $table</span><span style="color:#F97583;--shiki-dark:#F97583">-></span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">; </span><span style="color:#6A737D;--shiki-dark:#6A737D">// Press Ctrl+Space</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">    // → Shows: string, integer, text, boolean, timestamp, ...</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">});</span></span></code></pre>
+<h3 id="user-content-artisan-commands"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#artisan-commands"><span class="heading-anchor-icon">#</span></a>Artisan Commands</h3>
+<p>Open Command Palette (Ctrl+Shift+P) and search:</p>
+<p><strong>Development:</strong></p>
+<ul>
+<li><code>Laravel: Artisan Serve</code> - Start dev server</li>
+<li><code>Laravel: Artisan Tinker</code> - REPL console</li>
+</ul>
+<p><strong>Database:</strong></p>
+<ul>
+<li><code>Laravel: Artisan Migrate</code></li>
+<li><code>Laravel: Artisan Migrate Fresh</code></li>
+<li><code>Laravel: Artisan DB Seed</code></li>
+</ul>
+<p><strong>Testing:</strong></p>
+<ul>
+<li><code>Laravel: Run All Tests</code></li>
+<li><code>Laravel: Run Tests (Parallel)</code></li>
+<li><code>Pest: Run All Tests</code></li>
+<li><code>PHPUnit: Run All Tests</code></li>
+</ul>
+<p><strong>Cache:</strong></p>
+<ul>
+<li><code>Laravel: Artisan Cache Clear</code></li>
+<li><code>Laravel: Artisan Config Clear</code></li>
+<li><code>Laravel: Artisan Route Clear</code></li>
+</ul>
+<p><strong>Make Commands:</strong></p>
+<ul>
+<li><code>Laravel: Artisan Make Controller</code></li>
+<li><code>Laravel: Artisan Make Model</code></li>
+<li><code>Laravel: Artisan Make Migration</code></li>
+<li>And 20+ more...</li>
+</ul>
+<h3 id="user-content-blade-templates"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#blade-templates"><span class="heading-anchor-icon">#</span></a>Blade Templates</h3>
+<p>Open any <code>.blade.php</code> file to get:</p>
+<ul>
+<li>Syntax highlighting</li>
+<li>PHP autocomplete within Blade directives</li>
+<li>HTML/CSS/JS support</li>
+<li>Proper indentation</li>
+</ul>
+<h3 id="user-content-language-server-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#language-server-features"><span class="heading-anchor-icon">#</span></a>Language Server Features</h3>
+<p>With Intelephense or Phpactor installed, you get:</p>
+<ul>
+<li>Autocomplete for Laravel facades (Route::, DB::, etc.)</li>
+<li>Go-to-definition</li>
+<li>Type hints</li>
+<li>Error diagnostics</li>
+<li>Code formatting</li>
+</ul>
+<h2 id="user-content-configuration"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#configuration"><span class="heading-anchor-icon">#</span></a>Configuration</h2>
+<p>The extension comes pre-configured for Laravel development. To customize language server settings:</p>
+<ol>
+<li>Open Zed settings: <code>Zed > Settings</code></li>
+<li>Add your preferences under the <code>lsp</code> section</li>
+</ol>
+<p>Example custom Intelephense settings:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "intelephense"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "initialization_options"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "licenceKey"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"YOUR_LICENSE_KEY"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h2 id="user-content-supported-laravel-versions"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#supported-laravel-versions"><span class="heading-anchor-icon">#</span></a>Supported Laravel Versions</h2>
+<ul>
+<li>Laravel 9.x</li>
+<li>Laravel 10.x</li>
+<li>Laravel 11.x</li>
+<li>Laravel 12.x</li>
+</ul>
+<h2 id="user-content-development"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#development"><span class="heading-anchor-icon">#</span></a>Development</h2>
+<h3 id="user-content-building-locally"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#building-locally"><span class="heading-anchor-icon">#</span></a>Building Locally</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Ensure Rust is installed via rustup</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> build</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --target</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> wasm32-wasip1</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --release</span></span></code></pre>
+<h3 id="user-content-testing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#testing"><span class="heading-anchor-icon">#</span></a>Testing</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> test</span></span></code></pre>
+<h3 id="user-content-debug-mode"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#debug-mode"><span class="heading-anchor-icon">#</span></a>Debug Mode</h3>
+<p>Launch Zed from terminal to see debug output:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">zed</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --foreground</span></span></code></pre>
+<h2 id="user-content-troubleshooting"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#troubleshooting"><span class="heading-anchor-icon">#</span></a>Troubleshooting</h2>
+<h3 id="user-content-extension-not-activating"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#extension-not-activating"><span class="heading-anchor-icon">#</span></a>Extension Not Activating</h3>
+<ul>
+<li>Ensure you're in a Laravel project (check for <code>composer.json</code> with <code>laravel/framework</code>)</li>
+<li>Verify Rust is installed via rustup (not Homebrew)</li>
+<li>Check Zed's extension logs for errors</li>
+</ul>
+<h3 id="user-content-language-server-not-working"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#language-server-not-working"><span class="heading-anchor-icon">#</span></a>Language Server Not Working</h3>
+<ul>
+<li>Verify Intelephense or Phpactor is installed:
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">which</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> intelephense</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># or</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">which</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> phpactor</span></span></code></pre>
+</li>
+<li>Check language server logs in Zed</li>
+<li>Ensure your Laravel project has a valid <code>composer.json</code></li>
+</ul>
+<h3 id="user-content-blade-syntax-highlighting-issues"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#blade-syntax-highlighting-issues"><span class="heading-anchor-icon">#</span></a>Blade Syntax Highlighting Issues</h3>
+<ul>
+<li>Ensure the file has <code>.blade.php</code> extension</li>
+<li>Try reloading the file or restarting Zed</li>
+<li>Check that tree-sitter-blade grammar is properly loaded</li>
+</ul>
+<h2 id="user-content-contributing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#contributing"><span class="heading-anchor-icon">#</span></a>Contributing</h2>
+<p>Contributions are welcome! Please:</p>
+<ol>
+<li>Fork the repository</li>
+<li>Create a feature branch</li>
+<li>Make your changes</li>
+<li>Add tests if applicable</li>
+<li>Submit a pull request</li>
+</ol>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>MIT License - see <a href="https://github.com/edgarsouza/zed-extension-laravel/blob/HEAD/LICENSE" target="_blank" rel="noopener">LICENSE</a> for details</p>
+<h2 id="user-content-credits"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#credits"><span class="heading-anchor-icon">#</span></a>Credits</h2>
+<ul>
+<li>Built for <a href="https://zed.dev">Zed Editor</a></li>
+<li>Uses <a href="https://github.com/EmranMR/tree-sitter-blade">tree-sitter-blade</a> by EmranMR</li>
+<li>Integrates with <a href="https://intelephense.com/">Intelephense</a> and <a href="https://phpactor.github.io">Phpactor</a></li>
+</ul>
+<h2 id="user-content-performance"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#performance"><span class="heading-anchor-icon">#</span></a>Performance</h2>
+<p><strong>Benchmarks:</strong></p>
+<ul>
+<li>Extension activation: &#x3C; 500ms</li>
+<li>Route indexing (50 routes): &#x3C; 500ms</li>
+<li>Model indexing (50 models): &#x3C; 1s</li>
+<li>Navigation response: &#x3C; 100ms</li>
+<li>Memory usage: &#x3C; 50MB</li>
+</ul>
+<h2 id="user-content-documentation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#documentation"><span class="heading-anchor-icon">#</span></a>Documentation</h2>
+<ul>
+<li><a href="https://github.com/edgarsouza/zed-extension-laravel/blob/HEAD/TESTING.md" target="_blank" rel="noopener">TESTING.md</a> - Complete testing guide</li>
+<li><a href="https://github.com/edgarsouza/zed-extension-laravel/blob/HEAD/IMPLEMENTATION.md" target="_blank" rel="noopener">IMPLEMENTATION.md</a> - Technical implementation details</li>
+<li><a href="https://github.com/edgarsouza/zed-extension-laravel/blob/HEAD/plano-extensao-laravel-zed.md" target="_blank" rel="noopener">plano-extensao-laravel-zed.md</a> - Original roadmap</li>
+</ul>
+<h2 id="user-content-roadmap"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#roadmap"><span class="heading-anchor-icon">#</span></a>Roadmap</h2>
+<h3 id="user-content--completed-phases-1-4"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-completed-phases-1-4"><span class="heading-anchor-icon">#</span></a>✅ Completed (Phases 1-4)</h3>
+<ul>
+<li>✅ Blade syntax highlighting</li>
+<li>✅ Language server integration</li>
+<li>✅ Artisan commands</li>
+<li>✅ Intelligent navigation</li>
+<li>✅ Eloquent support</li>
+<li>✅ Test integration</li>
+</ul>
+<h3 id="user-content--planned-phase-5"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-planned-phase-5"><span class="heading-anchor-icon">#</span></a>🚧 Planned (Phase 5+)</h3>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled> File watchers for auto-cache invalidation</li>
+<li class="task-list-item"><input type="checkbox" disabled> Full model discovery (parse composer autoload)</li>
+<li class="task-list-item"><input type="checkbox" disabled> Livewire component navigation</li>
+<li class="task-list-item"><input type="checkbox" disabled> Inertia.js integration</li>
+<li class="task-list-item"><input type="checkbox" disabled> Event/Listener navigation</li>
+<li class="task-list-item"><input type="checkbox" disabled> Custom Laravel LSP server</li>
+<li class="task-list-item"><input type="checkbox" disabled> Code actions (generate factory, migration, etc.)</li>
+</ul>
+<h2 id="user-content-support"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#support"><span class="heading-anchor-icon">#</span></a>Support</h2>
+<ul>
+<li>Report issues: <a href="https://github.com/edgarsouza/zed-extension-laravel/issues">GitHub Issues</a></li>
+<li>Discussions: <a href="https://github.com/edgarsouza/zed-extension-laravel/discussions">GitHub Discussions</a></li>
+</ul></article> </main> <footer class="mt-auto" style="background:var(--zed-bg);border-top:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:var(--zed-text-muted);">
+← Back to extension list
+</a> </div> </footer> </body></html>

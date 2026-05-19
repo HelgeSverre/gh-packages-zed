@@ -1,0 +1,15 @@
+id = "wat"
+name = "WebAssembly Text Format"
+version = "0.2.3"
+schema_version = 1
+authors = ["Pig Fang <g-plane@hotmail.com>"]
+description = "Language support of WebAssembly Text Format"
+repository = "https://github.com/g-plane/zed-wasm"
+
+[grammars.wat]
+repository = "https://github.com/g-plane/tree-sitter-wat"
+commit = "e3769473b2d90643d8af500b5cfc2f25a674888a"
+
+[language_servers.wasm-language-tools]
+name = "WebAssembly Language Tools"
+language = "WebAssembly Text Format"

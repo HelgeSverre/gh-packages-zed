@@ -1,0 +1,111 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>rest client — Zed Extension Safari</title><meta name="description" content="HTTP/REST client for Zed — send requests directly from .http files"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="rest client — Zed Extension Safari"><meta property="og:description" content="HTTP/REST client for Zed — send requests directly from .http files"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="rest client — Zed Extension Safari"><meta name="twitter:description" content="HTTP/REST client for Zed — send requests directly from .http files"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.DJSXA_CW.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);">  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-4"> <a href="/gh-packages-zed" class="transition" style="color:var(--zed-text-muted);">← All extensions</a> </nav> <div class="flex flex-wrap items-start justify-between gap-4"> <div class="min-w-0"> <div class="font-mono text-xs mb-2" style="color:var(--zed-muted);"> TSC-Home/rest-client-zed </div> <h1 class="text-2xl sm:text-3xl font-bold break-words leading-tight" style="color:var(--zed-blue-pale);"> rest client </h1> <p class="mt-2 text-pretty" style="color:var(--zed-text-muted);"> HTTP/REST client for Zed — send requests directly from .http files </p> </div> <a href="https://github.com/TSC-Home/rest-client-zed" target="_blank" rel="noopener" class="zed-btn-primary shrink-0 inline-flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View on GitHub
+</a> </div> <div class="mt-4 flex flex-wrap items-center gap-2"> <span class="version-pill">v0.1.0</span> <span class="cat-badge" data-cat="grammar">Grammar</span><span class="cat-badge" data-cat="language-server">Language Server</span> </div> <div class="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm" style="color:var(--zed-text-muted);"> <span class="inline-flex items-center gap-1"> <svg class="w-4 h-4" style="color:var(--zed-lime);" fill="currentColor" viewBox="0 0 20 20"> <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path> </svg> 3 stars
+</span> <span>Rust</span> <span>MIT</span> <span>Updated 4/24/2026</span> <span>schema v1</span> </div> <div class="mt-2 text-sm" style="color:var(--zed-text-muted);">
+by thevoidvalue </div>  </div> </header> <main class="flex-1 max-w-4xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <article class="prose readme-prose max-w-none"><h1 id="user-content-rest-client-for-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#rest-client-for-zed"><span class="heading-anchor-icon">#</span></a>REST Client for Zed</h1>
+<p>A lightweight HTTP/REST client extension for <a href="https://zed.dev">Zed</a> that lets you send requests directly from <code>.http</code> and <code>.rest</code> files.</p>
+<p><img src="https://img.shields.io/badge/Zed-Extension-blue" alt="Zed REST Client">
+<img src="https://img.shields.io/badge/license-MIT-green" alt="License"></p>
+<h2 id="user-content-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features"><span class="heading-anchor-icon">#</span></a>Features</h2>
+<ul>
+<li><strong>Send HTTP requests</strong> from <code>.http</code> / <code>.rest</code> files with a single click</li>
+<li><strong>Environment variables</strong> via <code>{{VARIABLE}}</code> syntax with <code>.env</code> file support</li>
+<li><strong>Syntax highlighting</strong> for HTTP methods, headers, URLs, and JSON bodies</li>
+<li><strong>Hover inspection</strong> — hover over <code>{{VAR}}</code> to see its resolved value</li>
+<li><strong>Diagnostics</strong> — warnings for unresolved variables and invalid URLs</li>
+<li><strong>Document symbols</strong> — jump to named requests via <code># @name</code></li>
+<li><strong>Workspace search</strong> — find requests across all <code>.http</code> files in your project</li>
+<li><strong>Interactive picker</strong> — select and run named requests from the terminal</li>
+<li><strong>Pretty-printed responses</strong> — formatted JSON, status codes, timing, and size</li>
+</ul>
+<h2 id="user-content-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation"><span class="heading-anchor-icon">#</span></a>Installation</h2>
+<p>Search for <strong>"REST Client"</strong> in the Zed extensions panel (<code>zed: extensions</code> in the command palette) and click <strong>Install</strong>.</p>
+<h3 id="user-content-manual-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#manual-installation"><span class="heading-anchor-icon">#</span></a>Manual Installation</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">git</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> clone</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> https://github.com/tsc-home/zed-rest</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">cd</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> zed-rest</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> install</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --path</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> lsp</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">bash</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> scripts/build.sh</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">bash</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> scripts/install-dev.sh</span></span></code></pre>
+<h2 id="user-content-usage"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#usage"><span class="heading-anchor-icon">#</span></a>Usage</h2>
+<h3 id="user-content-writing-requests"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#writing-requests"><span class="heading-anchor-icon">#</span></a>Writing Requests</h3>
+<p>Create a <code>.http</code> or <code>.rest</code> file:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># </span><span style="color:#B392F0;--shiki-dark:#B392F0">@name</span><span style="color:#B392F0;--shiki-dark:#B392F0"> get-users</span></span>
+<span class="line"><span style="color:#F97583;--shiki-dark:#F97583">GET</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> https://api.example.com/users</span></span>
+<span class="line"><span style="color:#85E89D;--shiki-dark:#85E89D">Accept</span><span style="color:#F97583;--shiki-dark:#F97583">:</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> application/json</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">###</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># </span><span style="color:#B392F0;--shiki-dark:#B392F0">@name</span><span style="color:#B392F0;--shiki-dark:#B392F0"> create-user</span></span>
+<span class="line"><span style="color:#F97583;--shiki-dark:#F97583">POST</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> https://api.example.com/users</span></span>
+<span class="line"><span style="color:#85E89D;--shiki-dark:#85E89D">Content-Type</span><span style="color:#F97583;--shiki-dark:#F97583">:</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> application/json</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "name"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"Jane Doe"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "email"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"jane@example.com"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<ul>
+<li>Separate multiple requests with <code>###</code></li>
+<li>Name requests with <code># @name my-request</code> for easy navigation</li>
+</ul>
+<h3 id="user-content-running-requests"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#running-requests"><span class="heading-anchor-icon">#</span></a>Running Requests</h3>
+<p>Click the <strong>Run</strong> button that appears above each request method, or use the <strong>"HTTP: Run Named Request"</strong> task from the command palette to pick from all named requests.</p>
+<h3 id="user-content-keybindings"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#keybindings"><span class="heading-anchor-icon">#</span></a>Keybindings</h3>
+<p>You can bind the tasks to keyboard shortcuts for faster access. Add this to your Zed <code>keymap.json</code>:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">[</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "context"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"Workspace"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "bindings"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "ctrl-shift-r"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: [</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"task::Spawn"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">, { </span><span style="color:#79B8FF;--shiki-dark:#79B8FF">"task_name"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"Send HTTP Request"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> }],</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "ctrl-shift-p"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: [</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"task::Spawn"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">, { </span><span style="color:#79B8FF;--shiki-dark:#79B8FF">"task_name"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"HTTP: Run Named Request"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> }]</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">]</span></span></code></pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Shortcut</th><th>Action</th></tr></thead><tbody><tr><td><code>ctrl-shift-r</code></td><td>Send the request under the cursor</td></tr><tr><td><code>ctrl-shift-p</code></td><td>Open the interactive request picker</td></tr></tbody></table>
+<blockquote>
+<p>Customize these shortcuts to your preference in <strong>Zed > Settings > Key Bindings</strong> or by editing <code>~/.config/zed/keymap.json</code>.</p>
+</blockquote>
+<h3 id="user-content-environment-variables"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#environment-variables"><span class="heading-anchor-icon">#</span></a>Environment Variables</h3>
+<p>Create a <code>.env</code> file in your project root or next to your <code>.http</code> file:</p>
+<pre><code class="language-env">HOST=api.example.com
+TOKEN=my-secret-token
+</code></pre>
+<p>Reference variables in your requests:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#F97583;--shiki-dark:#F97583">GET</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> https://{{HOST}}/users</span></span>
+<span class="line"><span style="color:#85E89D;--shiki-dark:#85E89D">Authorization</span><span style="color:#F97583;--shiki-dark:#F97583">:</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> Bearer {{TOKEN}}</span></span></code></pre>
+<p>The extension loads <code>.env</code>, <code>.env.local</code>, and <code>.env.development</code> files. When both exist, variables defined next to the <code>.http</code> file take precedence over those in the project root.</p>
+<h3 id="user-content-cli-usage"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#cli-usage"><span class="heading-anchor-icon">#</span></a>CLI Usage</h3>
+<p>The binary can also be used standalone from the terminal:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Execute a specific request by file and line number</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">rest-cli</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --execute</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> path/to/api.http</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> 5</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Interactive picker for named requests</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">rest-cli</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --pick</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> .</span></span></code></pre>
+<h2 id="user-content-supported-methods"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#supported-methods"><span class="heading-anchor-icon">#</span></a>Supported Methods</h2>
+<p><code>GET</code> · <code>POST</code> · <code>PUT</code> · <code>DELETE</code> · <code>PATCH</code> · <code>HEAD</code> · <code>OPTIONS</code> · <code>TRACE</code> · <code>CONNECT</code></p>
+<h2 id="user-content-how-it-works"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#how-it-works"><span class="heading-anchor-icon">#</span></a>How It Works</h2>
+<p>The extension consists of two components:</p>
+<ol>
+<li><strong>WASM Extension</strong> — integrates with Zed's extension API to register the language and launch the LSP</li>
+<li><strong>Native LSP Server</strong> — provides hover, diagnostics, symbols, and request execution via <a href="https://github.com/ebkalderon/tower-lsp">tower-lsp</a> and <a href="https://github.com/seanmonstar/reqwest">reqwest</a></li>
+</ol>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p><a href="https://github.com/TSC-Home/rest-client-zed/blob/HEAD/LICENSE" target="_blank" rel="noopener">MIT</a></p></article> </main> <footer class="mt-auto" style="background:var(--zed-bg);border-top:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:var(--zed-text-muted);">
+← Back to extension list
+</a> </div> </footer> </body></html>

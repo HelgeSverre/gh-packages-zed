@@ -1,0 +1,27 @@
+id = "nuxt"
+name = "Nuxt"
+version = "0.1.0"
+schema_version = 1
+authors = ["Viktor"]
+description = "Nuxt 3/4 support for Zed with auto-imports, path aliases, and Vue SFC support"
+repository = "https://github.com/vityapro/zed-nuxt"
+
+[lib]
+kind = "Rust"
+version = "0.7.0"
+
+[language_servers.vue-language-server]
+name = "Vue Language Server"
+languages = ["Vue"]
+
+[language_servers.vue-language-server.language_ids]
+Vue = "vue"
+
+[language_servers.vue-language-server.code_actions]
+kinds = ["", "quickfix", "refactor.rewrite"]
+
+[grammars.vue]
+repository = "https://github.com/tree-sitter-grammars/tree-sitter-vue"
+commit = "7e48557b903a9db9c38cea3b7839ef7e1f36c693"
+
+snippets = "snippets/nuxt.json"

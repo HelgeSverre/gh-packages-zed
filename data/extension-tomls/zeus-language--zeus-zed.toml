@@ -1,0 +1,15 @@
+id = "zed-zeus"
+name = "Zeus"
+version = "0.1.0"
+authors = ["hisoka999 <hisoka999@gmail.com>"]
+description = "Zeus language support for Zed."
+repository = "https://github.com/zeus-language/zeus-zed"
+schema_version = 1
+
+[grammars.zeus]
+repository = "https://github.com/zeus-language/tree-sitter-zeus"
+commit = "dd943e18aba37723c5df8690f6ce73cafd0a3ebb"
+
+[language_servers.zeus]
+name = "Zeus Language Server"
+language = "zeus"

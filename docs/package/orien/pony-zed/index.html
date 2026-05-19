@@ -1,0 +1,166 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Pony — Zed Extension Safari</title><meta name="description" content="🐴 Pony language support for the Zed editor."><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Pony — Zed Extension Safari"><meta property="og:description" content="🐴 Pony language support for the Zed editor."><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Pony — Zed Extension Safari"><meta name="twitter:description" content="🐴 Pony language support for the Zed editor."><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.DJSXA_CW.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);">  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-4"> <a href="/gh-packages-zed" class="transition" style="color:var(--zed-text-muted);">← All extensions</a> </nav> <div class="flex flex-wrap items-start justify-between gap-4"> <div class="min-w-0"> <div class="font-mono text-xs mb-2" style="color:var(--zed-muted);"> orien/pony-zed </div> <h1 class="text-2xl sm:text-3xl font-bold break-words leading-tight" style="color:var(--zed-blue-pale);"> Pony </h1> <p class="mt-2 text-pretty" style="color:var(--zed-text-muted);"> Pony language support with syntax highlighting and LSP integration </p> </div> <a href="https://github.com/orien/pony-zed" target="_blank" rel="noopener" class="zed-btn-primary shrink-0 inline-flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View on GitHub
+</a> </div> <div class="mt-4 flex flex-wrap items-center gap-2"> <span class="version-pill">v0.6.1</span> <span class="cat-badge" data-cat="grammar">Grammar</span><span class="cat-badge" data-cat="language-server">Language Server</span> </div> <div class="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm" style="color:var(--zed-text-muted);"> <span class="inline-flex items-center gap-1"> <svg class="w-4 h-4" style="color:var(--zed-lime);" fill="currentColor" viewBox="0 0 20 20"> <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path> </svg> 1 stars
+</span> <span>Tree-sitter Query</span> <span>BSD-2-Clause</span> <span>Updated 3/3/2026</span> <span>schema v1</span> </div> <div class="mt-2 text-sm" style="color:var(--zed-text-muted);">
+by Orien Madgwick </div> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> pony-language </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> ponylang </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed-extension </span> </div> </div> </header> <main class="flex-1 max-w-4xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <article class="prose readme-prose max-w-none"><h1 id="user-content-pony-zed-extension"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#pony-zed-extension"><span class="heading-anchor-icon">#</span></a>Pony Zed Extension</h1>
+<p>Pony language support for the <a href="https://zed.dev">Zed editor</a>.</p>
+<h2 id="user-content-about-pony"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#about-pony"><span class="heading-anchor-icon">#</span></a>About Pony</h2>
+<p><a href="https://www.ponylang.io/">Pony</a> is an open-source, object-oriented, actor-model, capabilities-secure, high-performance programming language. It features:</p>
+<ul>
+<li><strong>Memory safety</strong> without garbage collection using reference capabilities</li>
+<li><strong>Data-race freedom</strong> guaranteed at compile time</li>
+<li><strong>Actor-based concurrency</strong> for high performance</li>
+<li><strong>Type safety</strong> with static typing</li>
+<li><strong>Pattern matching</strong> and modern functional programming features</li>
+</ul>
+<h2 id="user-content-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features"><span class="heading-anchor-icon">#</span></a>Features</h2>
+<p>This extension provides Pony language support for Zed, including:</p>
+<ul>
+<li><strong>Syntax highlighting</strong> - Full syntax highlighting for Pony language constructs</li>
+<li><strong>Auto-indentation</strong> - Smart indentation based on code structure</li>
+<li><strong>Code navigation</strong> - Outline panel and breadcrumbs for quick navigation</li>
+<li><strong>Bracket matching</strong> - Syntax-aware bracket pairing and rainbow brackets</li>
+<li><strong>Vim text objects</strong> - Text objects for functions, classes, and comments (vim mode)</li>
+<li><strong>Corral tasks</strong> - Built-in tasks for fetching dependencies and building projects</li>
+<li><strong>Language Server Protocol (LSP)</strong> integration with the <code>pony-lsp</code> language server</li>
+</ul>
+<div class="markdown-alert markdown-alert-note" dir="auto">
+<p class="markdown-alert-title" dir="auto"><svg class="octicon" viewBox="0 0 16 16" width="16" height="16"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>NOTE</p>
+<p>The Pony language server is still in early development. Some features are not yet implemented in the server itself.</p>
+</div>
+<h2 id="user-content-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation"><span class="heading-anchor-icon">#</span></a>Installation</h2>
+<h3 id="user-content-prerequisites"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#prerequisites"><span class="heading-anchor-icon">#</span></a>Prerequisites</h3>
+<p>To enable LSP features, install <code>pony-lsp</code>. On macOS and Linux one option is via Homebrew:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">brew</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> install</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> ponyc</span></span></code></pre>
+<p>Alternitively, use <a href="https://github.com/ponylang/ponyup"><code>ponyup</code></a>, or build from source via the <a href="https://github.com/ponylang/ponyc">ponyc</a> Git repository.</p>
+<h3 id="user-content-from-zed-extensions"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#from-zed-extensions"><span class="heading-anchor-icon">#</span></a>From Zed Extensions</h3>
+<p>Install the release directly from the Zed extensions panel:</p>
+<ol>
+<li>Open Zed</li>
+<li>Press <code>cmd-shift-x</code> (macOS) or <code>ctrl-shift-x</code> (Linux/Windows)</li>
+<li>Search for "Pony"</li>
+<li>Click Install</li>
+</ol>
+<h3 id="user-content-development-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#development-installation"><span class="heading-anchor-icon">#</span></a>Development Installation</h3>
+<p>To test this extension during development:</p>
+<ol>
+<li>Open Zed</li>
+<li>Navigate to the Extensions panel</li>
+<li>Click "Install Dev Extension"</li>
+<li>Select this repository directory</li>
+</ol>
+<h2 id="user-content-configuration"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#configuration"><span class="heading-anchor-icon">#</span></a>Configuration</h2>
+<p>The extension exposes the following settings under <code>lsp.pony-lsp.settings</code> in your Zed <code>settings.json</code>:</p>
+<ul>
+<li><strong><code>defines</code></strong> (optional) - A list of compile-time definitions.</li>
+<li><strong><code>executable</code></strong> (optional) - Path to the <code>pony-lsp</code> binary. If not set, Zed will search for <code>pony-lsp</code> on your system PATH.</li>
+<li><strong><code>ponypath</code></strong> (optional) - A list of additional directories to search for Pony packages.</li>
+</ul>
+<h3 id="user-content-configuring-the-lsp-server"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#configuring-the-lsp-server"><span class="heading-anchor-icon">#</span></a>Configuring the LSP Server</h3>
+<ol>
+<li>Open Zed settings: <code>cmd-,</code> (macOS) or <code>ctrl-,</code> (Linux/Windows)</li>
+<li>Add the following configuration:</li>
+</ol>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "pony-lsp"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "executable"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"/path/to/pony-lsp"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "ponypath"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: [</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">          "/path/to/project-a/packages"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">          "/path/to/project-b/packages"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">        ],</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "defines"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: [</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">          "MY_DEFINE_ONE"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">          "MY_DEFINE_TWO"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">        ]</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<div class="markdown-alert markdown-alert-note" dir="auto">
+<p class="markdown-alert-title" dir="auto"><svg class="octicon" viewBox="0 0 16 16" width="16" height="16"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>NOTE</p>
+<p>All options are optional! For example, if <code>pony-lsp</code> is already on your PATH, you can omit the <code>executable</code> setting.</p>
+</div>
+<h2 id="user-content-usage"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#usage"><span class="heading-anchor-icon">#</span></a>Usage</h2>
+<h3 id="user-content-corral-tasks"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#corral-tasks"><span class="heading-anchor-icon">#</span></a>Corral Tasks</h3>
+<p>The extension provides built-in tasks for Corral (Pony's package manager):</p>
+<ul>
+<li><strong>corral fetch</strong> - Download dependencies defined in <code>corral.json</code></li>
+<li><strong>corral run -- ponyc</strong> - Build your project using Corral's package paths</li>
+</ul>
+<p>To run a task:</p>
+<ol>
+<li>Open the command palette: <code>cmd-shift-P</code> (macOS) or <code>ctrl-shift-P</code> (Linux/Windows)</li>
+<li>Type "task" and select "task: spawn"</li>
+<li>Choose a corral task from the list</li>
+</ol>
+<h2 id="user-content-development"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#development"><span class="heading-anchor-icon">#</span></a>Development</h2>
+<h3 id="user-content-prerequisites-1"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#prerequisites-1"><span class="heading-anchor-icon">#</span></a>Prerequisites</h3>
+<ul>
+<li><a href="https://zed.dev">Zed editor</a></li>
+<li><a href="https://rustup.rs/">Rust</a> (required for building the extension)</li>
+<li><a href="https://github.com/ponylang/ponyc">pony-lsp</a> (optional, enables LSP features)</li>
+</ul>
+<h3 id="user-content-building"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#building"><span class="heading-anchor-icon">#</span></a>Building</h3>
+<p>The extension includes Rust code for LSP integration and must be compiled:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> build</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --release</span></span></code></pre>
+<p>The tree-sitter-pony grammar is automatically fetched and compiled by Zed when you install the extension.</p>
+<h3 id="user-content-project-structure"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#project-structure"><span class="heading-anchor-icon">#</span></a>Project Structure</h3>
+<pre><code>pony-zed-extension/
+├── Cargo.toml          # Rust project manifest
+├── extension.toml      # Extension metadata and LSP registration
+├── src/
+│   └── pony.rs         # LSP integration code
+├── languages/          # Language definitions
+│   └── pony/
+│       ├── config.toml      # Language configuration
+│       ├── highlights.scm   # Syntax highlighting rules
+│       ├── indents.scm      # Auto-indentation rules
+│       ├── outline.scm      # Code navigation and outline
+│       ├── brackets.scm     # Bracket matching rules
+│       ├── textobjects.scm  # Vim text object definitions
+│       └── tasks.json       # Corral build tasks
+├── LICENSE
+└── README.md
+</code></pre>
+<h3 id="user-content-contributing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#contributing"><span class="heading-anchor-icon">#</span></a>Contributing</h3>
+<p>Contributions are welcome! Please feel free to submit issues or pull requests.</p>
+<h2 id="user-content-troubleshooting"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#troubleshooting"><span class="heading-anchor-icon">#</span></a>Troubleshooting</h2>
+<h3 id="user-content-pony-lsp-not-found-on-path"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#pony-lsp-not-found-on-path"><span class="heading-anchor-icon">#</span></a>"pony-lsp not found on PATH"</h3>
+<p>If you see this error when opening a <code>.pony</code> file:</p>
+<ol>
+<li>Verify installation: <code>which pony-lsp</code></li>
+<li>Ensure the binary is in your PATH</li>
+<li>Restart Zed after modifying PATH</li>
+<li>Check Zed log for details: <code>cmd-shift-P</code> → "zed: open log"</li>
+</ol>
+<h3 id="user-content-lsp-compilation-errors-or-go-to-definition-not-working"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#lsp-compilation-errors-or-go-to-definition-not-working"><span class="heading-anchor-icon">#</span></a>LSP compilation errors or "go to definition" not working</h3>
+<p>If the LSP server is running but features don't work:</p>
+<ol>
+<li>Check the LSP logs: <code>cmd-shift-P</code> → "zed: open log"</li>
+<li>Ensure your project has a <code>corral.json</code> file listing local packages</li>
+</ol>
+<h3 id="user-content-lsp-server-not-starting"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#lsp-server-not-starting"><span class="heading-anchor-icon">#</span></a>LSP server not starting</h3>
+<ol>
+<li>Verify pony-lsp is installed and on PATH</li>
+<li>Check Zed log for pony-lsp errors</li>
+<li>Ensure you're using pony-lsp v0.61.0 or later</li>
+</ol>
+<h3 id="user-content-extension-not-loading"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#extension-not-loading"><span class="heading-anchor-icon">#</span></a>Extension not loading</h3>
+<ol>
+<li>Check that Rust code compiles: <code>cargo build --release</code></li>
+<li>Reload extensions in Zed: <code>cmd-shift-P</code> → "zed: reload extensions"</li>
+<li>Check Zed log for extension errors</li>
+</ol>
+<h2 id="user-content-resources"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#resources"><span class="heading-anchor-icon">#</span></a>Resources</h2>
+<ul>
+<li><a href="https://zed.dev/docs/extensions/developing-extensions">Zed Extension Documentation</a></li>
+<li><a href="https://github.com/ponylang/ponyc/tree/main/tools/pony-lsp">Pony Language Server</a></li>
+<li><a href="https://tutorial.ponylang.io/">Pony Language Tutorial</a></li>
+<li><a href="https://www.ponylang.io/">Pony Language Website</a></li>
+</ul>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>This project is licensed under the 2-Clause BSD License. See the <a href="https://github.com/orien/pony-zed/blob/HEAD/LICENSE" target="_blank" rel="noopener">LICENSE</a> file for details.</p></article> </main> <footer class="mt-auto" style="background:var(--zed-bg);border-top:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:var(--zed-text-muted);">
+← Back to extension list
+</a> </div> </footer> </body></html>

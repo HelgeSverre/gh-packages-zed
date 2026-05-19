@@ -1,0 +1,11 @@
+id = "fortitude"
+name = "fortitude"
+version = "0.0.1"
+schema_version = 1
+authors = ["Jonathan Helgert <git@helgert.ch>"]
+description = "Support for the fortitude linter for Fortran in Zed"
+repository = "https://github.com/jhelgert/zed-fortitude"
+
+[language_servers.fortitude]
+name = "fortitude"
+languages = ["Fortran"]

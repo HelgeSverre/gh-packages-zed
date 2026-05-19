@@ -1,0 +1,105 @@
+id = "zed-salesforce"
+name = "Zed Salesforce Extension"
+version = "0.0.1"
+schema_version = 1
+authors = ["Shaz Ravenswood <shaz.ravenswood@gmail.com>"]
+description = "Apex and SOQL support for Salesforce development with the Apex Language Server (apex-jorje-lsp)"
+repository = "https://github.com/shaz/zed-salesforce"
+
+[language_servers.apex-lsp]
+name = "Apex Language Server"
+languages = ["Apex"]
+
+[language_servers.apex-lsp.language_ids]
+"Apex" = "apex"
+
+[grammars.apex]
+repository = "https://github.com/aheber/tree-sitter-sfapex"
+rev = "3597575a429766dd7ecce9f5bb97f6fec4419d5d"
+path = "apex"
+
+[grammars.soql]
+repository = "https://github.com/aheber/tree-sitter-sfapex"
+rev = "3597575a429766dd7ecce9f5bb97f6fec4419d5d"
+path = "soql"
+
+[grammars.sosl]
+repository = "https://github.com/aheber/tree-sitter-sfapex"
+rev = "3597575a429766dd7ecce9f5bb97f6fec4419d5d"
+path = "sosl"
+
+[slash_commands.sf-generate-sobjects]
+description = "Generate SObject type stubs for the Apex Language Server"
+requires_argument = true
+
+[slash_commands.sf-deploy]
+description = "Deploy source files to a Salesforce org"
+requires_argument = true
+
+[slash_commands.sf-retrieve]
+description = "Retrieve source files from a Salesforce org"
+requires_argument = true
+
+[slash_commands.sf-run-tests]
+description = "Run Apex tests (all, by class name, or by class.method)"
+requires_argument = true
+
+[[capabilities]]
+kind = "process:exec"
+command = "sf"
+args = ["org", "display", "--target-org", "*", "--json"]
+
+[[capabilities]]
+kind = "process:exec"
+command = "sf"
+args = ["org", "list", "--json"]
+
+[[capabilities]]
+kind = "process:exec"
+command = "sf"
+args = ["project", "deploy", "start", "--target-org", "*", "--json"]
+
+[[capabilities]]
+kind = "process:exec"
+command = "sf"
+args = ["project", "deploy", "start", "--target-org", "*", "--json", "--source-dir", "*"]
+
+[[capabilities]]
+kind = "process:exec"
+command = "sf"
+args = ["project", "retrieve", "start", "--target-org", "*", "--json"]
+
+[[capabilities]]
+kind = "process:exec"
+command = "sf"
+args = ["project", "retrieve", "start", "--target-org", "*", "--json", "--source-dir", "*"]
+
+[[capabilities]]
+kind = "process:exec"
+command = "sf"
+args = ["apex", "run", "test", "--target-org", "*", "--json", "--result-format", "json", "--wait", "*", "--code-coverage", "--test-level", "*"]
+
+[[capabilities]]
+kind = "process:exec"
+command = "sf"
+args = ["apex", "run", "test", "--target-org", "*", "--json", "--result-format", "json", "--wait", "*", "--code-coverage", "--class-names", "*"]
+
+[[capabilities]]
+kind = "process:exec"
+command = "sf"
+args = ["apex", "run", "test", "--target-org", "*", "--json", "--result-format", "json", "--wait", "*", "--code-coverage", "--tests", "*"]
+
+[[capabilities]]
+kind = "process:exec"
+command = "mkdir"
+args = ["-p", "*"]
+
+[[capabilities]]
+kind = "process:exec"
+command = "sh"
+args = ["-c", "*"]
+
+[grammars.sflog]
+repository = "https://github.com/aheber/tree-sitter-sfapex"
+rev = "3597575a429766dd7ecce9f5bb97f6fec4419d5d"
+path = "sflog"

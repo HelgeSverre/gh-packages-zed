@@ -1,0 +1,15 @@
+id = "nuxt"
+name = "Nuxt"
+description = "Nuxt companion support for Vue single-file components in Zed."
+version = "0.1.0"
+schema_version = 1
+authors = ["Pratik"]
+repository = "https://github.com/pratik7368patil/nuxt-zed-extension"
+
+[language_servers.nuxt]
+name = "Nuxt Vue Language Server"
+language = "Vue.js"
+language_ids = { "Vue.js" = "vue" }
+# Keep the same narrowed code-action set used by Zed's Vue support because
+# vue-language-server can return refactor actions without commands or edits.
+code_action_kinds = ["", "quickfix", "refactor.rewrite"]

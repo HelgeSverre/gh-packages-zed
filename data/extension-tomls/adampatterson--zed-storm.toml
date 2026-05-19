@@ -1,0 +1,12 @@
+id = "zed-storm"
+name = "Zed Storm"
+version = "0.0.1"
+schema_version = 1
+authors = ["adampatterson <https://github.com/adampatterson>"]
+description = "PhpStorm Style Laravel Snippets"
+repository = "https://github.com/adampatterson/zed-storm"
+
+snippets = [
+    "./snippets/php.json",
+    "./snippets/blade.json",
+]

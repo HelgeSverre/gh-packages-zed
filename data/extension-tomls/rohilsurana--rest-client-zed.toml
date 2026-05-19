@@ -1,0 +1,26 @@
+id = "rest-client"
+name = "REST Client"
+version = "0.1.0"
+schema_version = 1
+authors = ["Rohil Surana <https://github.com/rohilsurana>"]
+description = "REST Client for Zed — send HTTP requests from .http/.rest files"
+repository = "https://github.com/rohilsurana/rest-client-zed"
+
+[grammars.http]
+repository = "https://github.com/rohilsurana/tree-sitter-http-rest"
+rev = "a05ca3746690b61b1b02782156c186ab3cf2ebe4"
+path = "."
+
+[slash_commands.http-send]
+description = "Send an HTTP request"
+tooltip_text = "Send Request"
+requires_argument = true
+
+[slash_commands.http-to-curl]
+description = "Convert an HTTP request to cURL"
+tooltip_text = "Convert to cURL"
+requires_argument = true
+
+[language_servers.rest-client-lsp]
+name = "REST Client LSP"
+languages = ["HTTP"]

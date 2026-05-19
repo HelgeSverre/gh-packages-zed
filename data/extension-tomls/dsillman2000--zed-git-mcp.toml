@@ -1,0 +1,10 @@
+id = "zed-git-mcp"
+name = "Git MCP Server"
+version = "0.0.1"
+schema_version = 1
+authors = ["David Sillman <dsillman2000@gmail.com>"]
+description = "A secure and scalable Git MCP server giving AI agents powerful version control for local environments."
+repository = "https://github.com/dsillman2000/zed-git-mcp"
+
+[context_servers.mcp-server-git]
+name = "Git MCP server"

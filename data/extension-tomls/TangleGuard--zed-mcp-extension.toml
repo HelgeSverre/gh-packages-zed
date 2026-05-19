@@ -1,0 +1,13 @@
+id = "tangleguard-mcp"
+name = "TangleGuard MCP Server"
+version = "0.1.0"
+schema_version = 1
+authors = ["Jan <kontakt@jaads.de>"]
+description = "Allows your AI Agents to use TangleGuard MCP for a fast, deterministic and accurate code architecture analysis."
+repository = "https://github.com/TangleGuard/zed-mcp-server"
+
+capabilities = [
+    { kind = "download_file", host = "*", path = ["**"] }
+]
+
+[context_servers.tangleguard-mcp]

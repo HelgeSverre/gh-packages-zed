@@ -1,0 +1,10 @@
+id = "zed-Bootstrap5-Autocomplete"
+name = "Zed Snippets for Bootstrap 5"
+description = "Provides autocomplete for Bootstrap 5 utility classes."
+version = "0.0.1"
+schema_version = 1
+authors = ["Michael Fabing"]
+description = "A collection of Zed code editor snippets Zed containing all Bootstrap 5 utility and component classes."
+repository = "https://github.com/mfabing/zed-Bootstrap5-Autocomplete"
+snippets = "./snippets/bootstrap5.js.json"
+categories = ["autocomplete", "html", "css", "bootstrap"]

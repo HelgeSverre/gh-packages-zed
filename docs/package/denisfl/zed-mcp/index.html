@@ -1,0 +1,170 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>MCP Proxy — Zed Extension Safari</title><meta name="description" content="Expose your Zed workspace as an MCP server for external AI clients (Claude Desktop, local LLMs, etc.)"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="MCP Proxy — Zed Extension Safari"><meta property="og:description" content="Expose your Zed workspace as an MCP server for external AI clients (Claude Desktop, local LLMs, etc.)"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="MCP Proxy — Zed Extension Safari"><meta name="twitter:description" content="Expose your Zed workspace as an MCP server for external AI clients (Claude Desktop, local LLMs, etc.)"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.DJSXA_CW.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);">  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-4"> <a href="/gh-packages-zed" class="transition" style="color:var(--zed-text-muted);">← All extensions</a> </nav> <div class="flex flex-wrap items-start justify-between gap-4"> <div class="min-w-0"> <div class="font-mono text-xs mb-2" style="color:var(--zed-muted);"> denisfl/zed-mcp </div> <h1 class="text-2xl sm:text-3xl font-bold break-words leading-tight" style="color:var(--zed-blue-pale);"> MCP Proxy </h1> <p class="mt-2 text-pretty" style="color:var(--zed-text-muted);"> Expose your Zed workspace as an MCP server for external AI clients (Claude Desktop, local LLMs, etc.) </p> </div> <a href="https://github.com/denisfl/zed-mcp" target="_blank" rel="noopener" class="zed-btn-primary shrink-0 inline-flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View on GitHub
+</a> </div> <div class="mt-4 flex flex-wrap items-center gap-2"> <span class="version-pill">v0.1.0</span> <span class="cat-badge" data-cat="context-server">Context Server</span> </div> <div class="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm" style="color:var(--zed-text-muted);"> <span class="inline-flex items-center gap-1"> <svg class="w-4 h-4" style="color:var(--zed-lime);" fill="currentColor" viewBox="0 0 20 20"> <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path> </svg> 0 stars
+</span> <span>Rust</span> <span>MIT</span> <span>Updated 4/30/2026</span> <span>schema v1</span> </div> <div class="mt-2 text-sm" style="color:var(--zed-text-muted);">
+by Denis Fedosov-Ledovskikh </div>  </div> </header> <main class="flex-1 max-w-4xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <article class="prose readme-prose max-w-none"><h1 id="user-content-zed-mcp-proxy"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#zed-mcp-proxy"><span class="heading-anchor-icon">#</span></a>zed-mcp-proxy</h1>
+<p>zed-mcp-proxy turns Zed into an MCP server. Any AI client that speaks the Model Context Protocol — Claude Desktop, local LLMs, or Cursor — can connect to it and work directly with your project files without leaving the editor open or switching contexts manually.</p>
+<p>Most AI coding tools require you to paste code into a chat window or use a proprietary sync mechanism. zed-mcp-proxy instead exposes your workspace through a standard protocol, so any MCP-compatible client gains direct, sandboxed access to your actual project tree.</p>
+<h2 id="user-content-why-this-exists"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#why-this-exists"><span class="heading-anchor-icon">#</span></a>Why this exists</h2>
+<p>Zed added an AI agent panel that consumes MCP servers. What was missing is the inverse: a way for external AI agents to reach into Zed's workspace. This project fills that gap. The server binary is self-contained, ~1.5 MB, has no runtime dependencies, and works with any client that implements MCP — not just Anthropic's tools.</p>
+<h2 id="user-content-architecture"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#architecture"><span class="heading-anchor-icon">#</span></a>Architecture</h2>
+<pre><code>AI client (Claude Desktop, local LLM, Cursor, ...)
+        |  MCP / JSON-RPC 2.0 over stdio or HTTP
+        v
+  mcp-proxy-server          native Rust binary
+        |
+        +-- reads and writes files in workspace
+        +-- launches Zed via system command
+        +-- queries git for branch information
+        |
+  Zed Editor                 (optional, for open_file)
+
+  mcp-proxy-extension        WASM extension inside Zed
+        |
+        +-- downloads mcp-proxy-server on first use
+        +-- registers it as a Zed context server
+</code></pre>
+<p>The server supports two transports:</p>
+<ul>
+<li><strong>stdio</strong> (default) — JSON-RPC 2.0 over stdin/stdout. Used by Claude Desktop and any client that spawns the process directly.</li>
+<li><strong>http</strong> — MCP Streamable HTTP transport over a local TCP port. Used when you need a persistent server that multiple clients can reach over the network.</li>
+</ul>
+<p>The server binary and the Zed extension are independent. You can use the binary standalone from Claude Desktop without installing the Zed extension at all. The extension is only needed if you want mcp-proxy-server to appear in Zed's own agent panel.</p>
+<h2 id="user-content-tools"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#tools"><span class="heading-anchor-icon">#</span></a>Tools</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Tool</th><th>Arguments</th><th>Returns</th></tr></thead><tbody><tr><td><code>read_file</code></td><td><code>path: string</code></td><td>File contents as text</td></tr><tr><td><code>write_file</code></td><td><code>path: string</code>, <code>content: string</code></td><td><code>{ "success": true }</code></td></tr><tr><td><code>list_files</code></td><td><code>directory?: string</code></td><td>Array of relative file paths</td></tr><tr><td><code>open_file</code></td><td><code>path: string</code></td><td><code>{ "success": true }</code></td></tr><tr><td><code>get_workspace_info</code></td><td>—</td><td><code>{ name, root, git_branch }</code></td></tr></tbody></table>
+<p>All paths are relative to the workspace root passed at startup. Absolute paths and <code>../</code> traversal are rejected before any filesystem operation is attempted.</p>
+<h2 id="user-content-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation"><span class="heading-anchor-icon">#</span></a>Installation</h2>
+<h3 id="user-content-standalone-binary"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#standalone-binary"><span class="heading-anchor-icon">#</span></a>Standalone binary</h3>
+<p>Download the binary for your platform from the <a href="https://github.com/denisfl/zed-mcp/releases/latest">Releases page</a> and extract it:</p>
+<pre><code>macOS arm64   mcp-proxy-server-aarch64-apple-darwin.tar.gz
+macOS x86_64  mcp-proxy-server-x86_64-apple-darwin.tar.gz
+Linux x86_64  mcp-proxy-server-x86_64-unknown-linux-gnu.tar.gz
+Windows       mcp-proxy-server-x86_64-pc-windows-msvc.zip
+</code></pre>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">tar</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> xzf</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> mcp-proxy-server-aarch64-apple-darwin.tar.gz</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">chmod</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> +x</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> mcp-proxy-server</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">sudo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> mv</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> mcp-proxy-server</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> /usr/local/bin/</span></span></code></pre>
+<h3 id="user-content-build-from-source"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#build-from-source"><span class="heading-anchor-icon">#</span></a>Build from source</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">git</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> clone</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> https://github.com/denisfl/zed-mcp</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">cd</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> zed-mcp</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> build</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --release</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --package</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> mcp-proxy-server</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># binary is at target/release/mcp-proxy-server</span></span></code></pre>
+<h3 id="user-content-zed-extension"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#zed-extension"><span class="heading-anchor-icon">#</span></a>Zed extension</h3>
+<p>Install "MCP Proxy" from the Zed extension marketplace. The binary is downloaded automatically on first use and registered as a context server in Zed's agent panel. No manual configuration required.</p>
+<h2 id="user-content-usage"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#usage"><span class="heading-anchor-icon">#</span></a>Usage</h2>
+<h3 id="user-content-starting-the-server-stdio"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#starting-the-server-stdio"><span class="heading-anchor-icon">#</span></a>Starting the server (stdio)</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">mcp-proxy-server</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --workspace</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> /path/to/your/project</span></span></code></pre>
+<p>The server reads JSON-RPC 2.0 messages from stdin and writes responses to stdout. It runs until stdin is closed. Standard MCP clients handle this automatically.</p>
+<h3 id="user-content-starting-the-server-http"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#starting-the-server-http"><span class="heading-anchor-icon">#</span></a>Starting the server (HTTP)</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">mcp-proxy-server</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  --transport</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> http</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  --host</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> 127.0.0.1</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  --port</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> 3100</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  --workspace</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> /path/to/your/project</span></span></code></pre>
+<p>The server listens for MCP Streamable HTTP requests at <code>http://127.0.0.1:3100/mcp</code>. Use <code>--host 0.0.0.0</code> to accept connections from other machines or containers on the network.</p>
+<h3 id="user-content-claude-desktop"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#claude-desktop"><span class="heading-anchor-icon">#</span></a>Claude Desktop</h3>
+<p>Edit <code>~/Library/Application Support/Claude/claude_desktop_config.json</code>:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "mcpServers"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "zed-proxy"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "command"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"/usr/local/bin/mcp-proxy-server"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "args"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: [</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"--workspace"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">, </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"/Users/you/projects/myapp"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>Restart Claude Desktop. The hammer icon in the toolbar confirms the server is connected.</p>
+<p>Once connected, you can ask Claude natural language questions and it will call the tools automatically:</p>
+<pre><code>What files are in the src/ directory?
+</code></pre>
+<pre><code>Read src/main.rs and explain what this program does.
+</code></pre>
+<pre><code>Add a CHANGELOG.md entry for today's changes.
+</code></pre>
+<pre><code>What git branch am I on?
+</code></pre>
+<pre><code>Open the file with the most recent modification in Zed.
+</code></pre>
+<h3 id="user-content-multiple-workspaces"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#multiple-workspaces"><span class="heading-anchor-icon">#</span></a>Multiple workspaces</h3>
+<p>Run one server instance per project, each on its own stdio channel:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "mcpServers"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "frontend"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "command"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"/usr/local/bin/mcp-proxy-server"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "args"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: [</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"--workspace"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">, </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"/Users/you/projects/frontend"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    },</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "backend"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "command"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"/usr/local/bin/mcp-proxy-server"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "args"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: [</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"--workspace"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">, </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"/Users/you/projects/backend"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>The AI client sees two separate tool namespaces and can address each workspace independently.</p>
+<h3 id="user-content-direct-json-rpc-usage"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#direct-json-rpc-usage"><span class="heading-anchor-icon">#</span></a>Direct JSON-RPC usage</h3>
+<p>You can drive the server directly from a shell for scripting or debugging:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Discover available tools</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">echo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> '{"jsonrpc":"2.0","id":1,"method":"tools/list","params":{}}'</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#F97583;--shiki-dark:#F97583">  |</span><span style="color:#B392F0;--shiki-dark:#B392F0"> mcp-proxy-server</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --workspace</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> .</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Read a file</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">echo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> '{"jsonrpc":"2.0","id":2,"method":"tools/call","params":{"name":"read_file","arguments":{"path":"README.md"}}}'</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#F97583;--shiki-dark:#F97583">  |</span><span style="color:#B392F0;--shiki-dark:#B392F0"> mcp-proxy-server</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --workspace</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> .</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Write a file</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">echo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> '{"jsonrpc":"2.0","id":3,"method":"tools/call","params":{"name":"write_file","arguments":{"path":"notes/scratch.md","content":"# Scratch\n"}}}'</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#F97583;--shiki-dark:#F97583">  |</span><span style="color:#B392F0;--shiki-dark:#B392F0"> mcp-proxy-server</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --workspace</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> .</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Get workspace metadata</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">echo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> '{"jsonrpc":"2.0","id":4,"method":"tools/call","params":{"name":"get_workspace_info","arguments":{}}}'</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#F97583;--shiki-dark:#F97583">  |</span><span style="color:#B392F0;--shiki-dark:#B392F0"> mcp-proxy-server</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --workspace</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> .</span></span></code></pre>
+<h2 id="user-content-security"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#security"><span class="heading-anchor-icon">#</span></a>Security</h2>
+<ul>
+<li>File operations are confined to the directory passed via <code>--workspace</code></li>
+<li>Absolute paths are rejected</li>
+<li>Path components that traverse upward (<code>../</code>) are normalized and the resulting path is verified to remain inside the workspace before any read or write occurs</li>
+<li>The stdio server has no network access of its own; it communicates only over stdin and stdout</li>
+<li>The HTTP server binds to <code>127.0.0.1</code> by default; binding to <code>0.0.0.0</code> must be explicitly requested via <code>--host</code></li>
+<li>No credentials, tokens, or environment variables are read or forwarded</li>
+</ul>
+<h2 id="user-content-building-the-wasm-extension"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#building-the-wasm-extension"><span class="heading-anchor-icon">#</span></a>Building the WASM extension</h2>
+<p>The Zed extension requires the <code>wasm32-wasip1</code> target:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">rustup</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> target</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> add</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> wasm32-wasip1</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> build</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --release</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --package</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> mcp-proxy-extension</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --target</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> wasm32-wasip1</span></span></code></pre>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>MIT — see <a href="https://github.com/denisfl/zed-mcp/blob/HEAD/LICENSE" target="_blank" rel="noopener">LICENSE</a></p></article> </main> <footer class="mt-auto" style="background:var(--zed-bg);border-top:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:var(--zed-text-muted);">
+← Back to extension list
+</a> </div> </footer> </body></html>

@@ -1,0 +1,11 @@
+id = "uptick"
+name = "Uptick"
+version = "0.4.0"
+schema_version = 1
+description = "Shows the latest version of each package inline in package.json, Cargo.toml, pubspec.yaml, and composer.json."
+authors = ["Steven Barash"]
+repository = "https://github.com/stevenbarash/uptick-zed"
+
+[language_servers.uptick]
+name = "Uptick"
+languages = ["JSON", "JSONC", "TOML", "YAML"]

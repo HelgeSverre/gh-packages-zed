@@ -1,0 +1,11 @@
+id = "teralang"
+name = "TeraLang"
+version = "0.1.0"
+schema_version = 1
+authors = ["noClaps <contact@zerolimits.dev>"]
+description = "TeraLang extension for Zed"
+repository = "https://github.com/tera-language/teralang-zed"
+
+[grammars.teralang]
+repository = "https://github.com/tera-language/tree-sitter-teralang"
+rev = "0f6153132636cc09d5d8845a0608c37b0dfa485a"

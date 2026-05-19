@@ -1,0 +1,33 @@
+id = "al"
+name = "AL Language (Business Central)"
+version = "0.1.0"
+schema_version = 1
+authors = ["Brad Fullwood"]
+description = "AL language support for Microsoft Dynamics 365 Business Central"
+repository = "https://github.com/Brad-Fullwood/zed-al"
+languages = ["languages/al"]
+snippets = ["snippets/al.json", "snippets/json.json"]
+themes = ["themes/bc-themes.json"]
+
+[lib]
+kind = "Rust"
+version = "0.8.0"
+
+[language_servers.al-lsp]
+name = "AL Language Server"
+languages = ["AL"]
+
+[debug_adapters.al]
+
+[debug_locators.al]
+
+# Keep this revision in sync with the `tree-sitter-al/` submodule HEAD —
+# Zed's syntax highlighting uses this rev, while native parsing in
+# `al-core` uses the bundled submodule. Divergence (F-031) shows up as
+# parse-tree differences for the same .al file across the two surfaces.
+# Bump both together in a release-prep step. Verify with:
+#   diff <(echo "extension"; grep '^rev' extension.toml | cut -d'"' -f2) \
+#        <(echo "extension"; cd tree-sitter-al && git rev-parse HEAD)
+[grammars.al]
+repository = "https://github.com/Brad-Fullwood/AL-Tree-Sitter"
+rev = "aba00579205e38c50243151f79cfe11bcb48c191"

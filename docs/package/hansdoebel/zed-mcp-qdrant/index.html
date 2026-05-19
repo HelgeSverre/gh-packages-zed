@@ -1,0 +1,411 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Qdrant MCP Server — Zed Extension Safari</title><meta name="description" content="A Zed extension to access Qdrant vector database"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Qdrant MCP Server — Zed Extension Safari"><meta property="og:description" content="A Zed extension to access Qdrant vector database"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Qdrant MCP Server — Zed Extension Safari"><meta name="twitter:description" content="A Zed extension to access Qdrant vector database"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.DJSXA_CW.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);">  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-4"> <a href="/gh-packages-zed" class="transition" style="color:var(--zed-text-muted);">← All extensions</a> </nav> <div class="flex flex-wrap items-start justify-between gap-4"> <div class="min-w-0"> <div class="font-mono text-xs mb-2" style="color:var(--zed-muted);"> hansdoebel/zed-mcp-qdrant </div> <h1 class="text-2xl sm:text-3xl font-bold break-words leading-tight" style="color:var(--zed-blue-pale);"> Qdrant MCP Server </h1> <p class="mt-2 text-pretty" style="color:var(--zed-text-muted);"> Qdrant MCP Server for Zed </p> </div> <a href="https://github.com/hansdoebel/zed-mcp-qdrant" target="_blank" rel="noopener" class="zed-btn-primary shrink-0 inline-flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View on GitHub
+</a> </div> <div class="mt-4 flex flex-wrap items-center gap-2"> <span class="version-pill">v0.1.1</span> <span class="cat-badge" data-cat="context-server">Context Server</span> </div> <div class="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm" style="color:var(--zed-text-muted);"> <span class="inline-flex items-center gap-1"> <svg class="w-4 h-4" style="color:var(--zed-lime);" fill="currentColor" viewBox="0 0 20 20"> <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path> </svg> 0 stars
+</span> <span>JavaScript</span> <span>MIT</span> <span>Updated 3/7/2026</span> <span>schema v1</span> </div> <div class="mt-2 text-sm" style="color:var(--zed-text-muted);">
+by Hans Doebel </div> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> llamacpp </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> ollama </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> qdrant </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> vector-database </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed-extension </span> </div> </div> </header> <main class="flex-1 max-w-4xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <article class="prose readme-prose max-w-none"><h1 id="user-content-qdrant-mcp-for-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#qdrant-mcp-for-zed"><span class="heading-anchor-icon">#</span></a>Qdrant MCP for Zed</h1>
+<p>A Zed extension to access Qdrant vector database directly in Zed using the Model Context Protocol (MCP). Works with any OpenAI-compatible embedding server (llama.cpp, Ollama, vLLM, LM Studio, and more).</p>
+<h2 id="user-content-table-of-contents"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#table-of-contents"><span class="heading-anchor-icon">#</span></a>Table of Contents</h2>
+<ul>
+<li><a href="#prerequisites">Prerequisites</a></li>
+<li><a href="#quick-start">Quick Start</a></li>
+<li><a href="#configuration">Configuration</a></li>
+<li><a href="#compatible-embedding-servers">Compatible Embedding Servers</a></li>
+<li><a href="#recommended-embedding-models">Recommended Embedding Models</a></li>
+<li><a href="#available-tools">Available Tools</a></li>
+<li><a href="#installing-extensions">Installing Extensions</a></li>
+<li><a href="#installation-location">Installation Location</a></li>
+<li><a href="https://github.com/hansdoebel/zed-mcp-qdrant/blob/HEAD/docs/DEVELOPMENT.md" target="_blank" rel="noopener">Development</a></li>
+<li><a href="#resources">Resources</a></li>
+</ul>
+<h2 id="user-content-prerequisites"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#prerequisites"><span class="heading-anchor-icon">#</span></a>Prerequisites</h2>
+<h3 id="user-content-qdrant"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#qdrant"><span class="heading-anchor-icon">#</span></a>Qdrant</h3>
+<p>You need a running Qdrant instance. Options:</p>
+<p><strong>Qdrant Cloud (recommended for production)</strong></p>
+<ol>
+<li>Sign up at <a href="https://cloud.qdrant.io">https://cloud.qdrant.io</a></li>
+<li>Create a cluster</li>
+<li>Copy URL and API key to settings (default port is added automatically: <code>:6334</code> for gRPC, <code>:6333</code> for REST)</li>
+</ol>
+<p><strong>Local Qdrant with Docker</strong></p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Quick start (data lost when container stops)</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">docker</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> run</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -p</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> 6333:6333</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -p</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> 6334:6334</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> qdrant/qdrant</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># With persistent storage (recommended)</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">docker</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> run</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -d</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --name</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> qdrant</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  -p</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> 6333:6333</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -p</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> 6334:6334</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  -v</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> qdrant_storage:/qdrant/storage</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  --restart</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> unless-stopped</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">  qdrant/qdrant</span></span></code></pre>
+<p>Manage the container:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">docker</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> stop</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> qdrant</span><span style="color:#6A737D;--shiki-dark:#6A737D">    # stop</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">docker</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> start</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> qdrant</span><span style="color:#6A737D;--shiki-dark:#6A737D">   # start again (data persists)</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">docker</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> logs</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> qdrant</span><span style="color:#6A737D;--shiki-dark:#6A737D">    # view logs</span></span></code></pre>
+<p><strong>Local Qdrant binary on macOS (no Docker)</strong></p>
+<p>Download the latest binary from <a href="https://github.com/qdrant/qdrant/releases/latest">Qdrant releases</a>:</p>
+<ul>
+<li>Apple Silicon (M1/M2/M3/M4): <code>qdrant-aarch64-apple-darwin.tar.gz</code></li>
+<li>Intel: <code>qdrant-x86_64-apple-darwin.tar.gz</code></li>
+</ul>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Extract and run</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">tar</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -xzf</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> qdrant-</span><span style="color:#79B8FF;--shiki-dark:#79B8FF">*</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">.tar.gz</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">./qdrant</span></span></code></pre>
+<p>Qdrant will start on the default ports (<code>6333</code> HTTP, <code>6334</code> gRPC).</p>
+<h3 id="user-content-embedding-server"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#embedding-server"><span class="heading-anchor-icon">#</span></a>Embedding Server</h3>
+<p>You need any server that exposes an OpenAI-compatible <code>/v1/embeddings</code> endpoint. See <a href="#compatible-embedding-servers">Compatible Embedding Servers</a> for options.</p>
+<h2 id="user-content-quick-start"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#quick-start"><span class="heading-anchor-icon">#</span></a>Quick Start</h2>
+<ol>
+<li>Start Qdrant (cloud or local)</li>
+<li>Start an embedding server (see <a href="#compatible-embedding-servers">Compatible Embedding Servers</a>)</li>
+<li>Install this extension in Zed (see <a href="#installing-extensions">Installing Extensions</a>)</li>
+<li>Add settings to <code>~/.config/zed/settings.json</code>:
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "context_servers"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "mcp-server-qdrant"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "embedding_server_url"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"http://localhost:8080"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "embedding_model"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"snowflake-arctic-embed2"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+</li>
+<li>Use <code>qdrant-store</code> to save text and <code>qdrant-find</code> to search semantically</li>
+</ol>
+<h2 id="user-content-configuration"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#configuration"><span class="heading-anchor-icon">#</span></a>Configuration</h2>
+<p>Configure in <code>~/.config/zed/settings.json</code>:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "context_servers"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "mcp-server-qdrant"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "qdrant_url"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"https://xxx.cloud.qdrant.io"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "qdrant_api_key"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"your-api-key"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "collection_name"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"zed_collection"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "embedding_server_url"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"http://localhost:8080"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "embedding_api_key"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">""</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "embedding_model"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"snowflake-arctic-embed2"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "transport_protocol"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"grpc"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "enabled_tool_groups"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"core"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Setting</th><th>Default</th><th>Description</th></tr></thead><tbody><tr><td><code>qdrant_url</code></td><td>—</td><td>Qdrant server URL</td></tr><tr><td><code>qdrant_api_key</code></td><td>—</td><td>API key for Qdrant Cloud</td></tr><tr><td><code>collection_name</code></td><td>—</td><td>Vector collection name (created automatically)</td></tr><tr><td><code>embedding_server_url</code></td><td>—</td><td>URL of any OpenAI-compatible embedding server</td></tr><tr><td><code>embedding_api_key</code></td><td>—</td><td>Optional API key for the embedding server</td></tr><tr><td><code>embedding_model</code></td><td>—</td><td>Model name passed to the embedding server</td></tr><tr><td><code>transport_protocol</code></td><td><code>grpc</code></td><td>Transport protocol: <code>"grpc"</code> (port 6334) or <code>"rest"</code> (port 6333)</td></tr><tr><td><code>enabled_tool_groups</code></td><td><code>core</code></td><td>Comma-separated list of tool groups to enable (see <a href="#tool-groups">Tool Groups</a>)</td></tr></tbody></table>
+<h3 id="user-content-transport-protocol"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#transport-protocol"><span class="heading-anchor-icon">#</span></a>Transport Protocol</h3>
+<p>The extension supports both gRPC and REST for communicating with Qdrant:</p>
+<ul>
+<li><strong>gRPC</strong> (default) — Binary protocol, better performance for large data. Uses port <code>6334</code>.</li>
+<li><strong>REST</strong> — JSON-based, easier to debug. Uses port <code>6333</code>.</li>
+</ul>
+<p>When running Qdrant locally with Docker, expose both ports to allow switching:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">docker</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> run</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -p</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> 6333:6333</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -p</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> 6334:6334</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> qdrant/qdrant</span></span></code></pre>
+<p>Set <code>"transport_protocol": "rest"</code> in your settings to use REST. The correct default port is applied automatically when <code>qdrant_url</code> doesn't specify one.</p>
+<h2 id="user-content-compatible-embedding-servers"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#compatible-embedding-servers"><span class="heading-anchor-icon">#</span></a>Compatible Embedding Servers</h2>
+<p>Any server that exposes an OpenAI-compatible <code>/v1/embeddings</code> endpoint will work. Configure <code>embedding_server_url</code> and <code>embedding_model</code> accordingly.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Server</th><th>Default URL</th><th>Example <code>embedding_model</code></th><th>Start Command</th></tr></thead><tbody><tr><td><a href="https://github.com/ggml-org/llama.cpp">llama.cpp</a></td><td><code>http://localhost:8080</code></td><td><code>snowflake-arctic-embed2</code></td><td><code>llama-server -m model.gguf --embeddings --port 8080</code></td></tr><tr><td><a href="https://ollama.com">Ollama</a></td><td><code>http://localhost:11434</code></td><td><code>nomic-embed-text</code></td><td><code>ollama serve</code> (then <code>ollama pull nomic-embed-text</code>)</td></tr><tr><td><a href="https://github.com/vllm-project/vllm">vLLM</a></td><td><code>http://localhost:8000</code></td><td><code>BAAI/bge-m3</code></td><td><code>vllm serve BAAI/bge-m3</code></td></tr><tr><td><a href="https://lmstudio.ai">LM Studio</a></td><td><code>http://localhost:1234</code></td><td><code>nomic-embed-text</code></td><td>Start server from LM Studio UI</td></tr><tr><td><a href="https://localai.io">LocalAI</a></td><td><code>http://localhost:8080</code></td><td><code>bert-cpp-minilm-v6</code></td><td><code>local-ai run bert-cpp-minilm-v6</code></td></tr></tbody></table>
+<h2 id="user-content-recommended-embedding-models"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#recommended-embedding-models"><span class="heading-anchor-icon">#</span></a>Recommended Embedding Models</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Model</th><th>Dimensions</th><th>Max Tokens</th><th>Best For</th></tr></thead><tbody><tr><td><a href="https://huggingface.co/Snowflake/snowflake-arctic-embed-m-v2.0">snowflake-arctic-embed2</a></td><td>768</td><td>8192</td><td>General-purpose, multilingual retrieval</td></tr><tr><td><a href="https://huggingface.co/nomic-ai/nomic-embed-text-v2-moe">nomic-embed-text v2</a></td><td>768</td><td>8192</td><td>Multilingual, MoE architecture</td></tr><tr><td><a href="https://huggingface.co/nomic-ai/nomic-embed-text-v1.5-GGUF">nomic-embed-text v1.5</a></td><td>768</td><td>8192</td><td>Lightweight, GGUF-ready</td></tr><tr><td><a href="https://huggingface.co/BAAI/bge-m3">BAAI/bge-m3</a></td><td>1024</td><td>8192</td><td>Multilingual, dense + sparse retrieval</td></tr><tr><td><a href="https://huggingface.co/mixedbread-ai/mxbai-embed-large-v1">mxbai-embed-large</a></td><td>1024</td><td>512</td><td>High accuracy, English-focused</td></tr><tr><td><a href="https://huggingface.co/jinaai/jina-embeddings-v4">jina-embeddings-v4</a></td><td>2048</td><td>8192</td><td>Multimodal (text + images)</td></tr></tbody></table>
+<h2 id="user-content-tool-groups"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#tool-groups"><span class="heading-anchor-icon">#</span></a>Tool Groups</h2>
+<p>Tools are organized into groups to reduce context window usage. By default, only the <strong>core</strong> group is enabled (~450 tokens). Enabling all 27 tools consumes ~5,500 tokens of context.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Group</th><th>Tools</th><th>Description</th></tr></thead><tbody><tr><td><code>core</code></td><td>3</td><td>Semantic store, find, and list collections (default)</td></tr><tr><td><code>collections</code></td><td>5</td><td>Create, delete, info, exists, update collections</td></tr><tr><td><code>points</code></td><td>5</td><td>Upsert, get, delete, count, scroll points</td></tr><tr><td><code>search</code></td><td>6</td><td>Vector search, recommend, query, batch, groups, discover</td></tr><tr><td><code>payload</code></td><td>4</td><td>Set/delete payload, create/delete indexes</td></tr><tr><td><code>admin</code></td><td>4</td><td>Aliases and snapshots</td></tr></tbody></table>
+<p>Enable groups in your settings with a comma-separated list:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "context_servers"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "mcp-server-qdrant"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "enabled_tool_groups"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"core,collections,search"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>Use <code>"all"</code> to enable every group:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"enabled_tool_groups"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"all"</span></span></code></pre>
+<h2 id="user-content-available-tools"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#available-tools"><span class="heading-anchor-icon">#</span></a>Available Tools</h2>
+<h3 id="user-content-semantic-operations"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#semantic-operations"><span class="heading-anchor-icon">#</span></a>Semantic Operations</h3>
+<ul>
+<li><code>qdrant-store</code> - Store text with automatically generated embeddings</li>
+<li><code>qdrant-find</code> - Search for semantically similar texts</li>
+</ul>
+<details>
+<summary><strong>Collection Management</strong> (6 tools)</summary>
+<ul>
+<li><code>qdrant-list-collections</code> - List all collections</li>
+<li><code>qdrant-create-collection</code> - Create a new vector collection</li>
+<li><code>qdrant-delete-collection</code> - Delete a collection</li>
+<li><code>qdrant-get-collection-info</code> - Get collection details</li>
+<li><code>qdrant-update-collection</code> - Update collection parameters (HNSW, optimizer, etc.)</li>
+<li><code>qdrant-collection-exists</code> - Check if a collection exists</li>
+</ul>
+</details>
+<details>
+<summary><strong>Point Operations</strong> (5 tools)</summary>
+<ul>
+<li><code>qdrant-upsert-points</code> - Insert or update points with vectors and payloads</li>
+<li><code>qdrant-get-points</code> - Retrieve points by ID</li>
+<li><code>qdrant-delete-points</code> - Delete points by ID or filter</li>
+<li><code>qdrant-count-points</code> - Count points in a collection</li>
+<li><code>qdrant-scroll-points</code> - Paginate through points</li>
+</ul>
+</details>
+<details>
+<summary><strong>Search &#x26; Query</strong> (6 tools)</summary>
+<ul>
+<li><code>qdrant-search</code> - Raw vector similarity search</li>
+<li><code>qdrant-recommend</code> - Find similar points by example IDs (no vector needed)</li>
+<li><code>qdrant-query</code> - Universal query endpoint (fusion, re-ranking, nested prefetch)</li>
+<li><code>qdrant-search-batch</code> - Execute multiple searches in one request</li>
+<li><code>qdrant-search-groups</code> - Search with results grouped by a payload field</li>
+<li><code>qdrant-discover</code> - Context-based exploration with positive/negative pairs</li>
+</ul>
+</details>
+<details>
+<summary><strong>Payload &#x26; Index Management</strong> (4 tools)</summary>
+<ul>
+<li><code>qdrant-set-payload</code> - Set or update payload fields on existing points</li>
+<li><code>qdrant-delete-payload</code> - Delete specific payload keys from points</li>
+<li><code>qdrant-create-index</code> - Create a payload field index for faster filtered searches</li>
+<li><code>qdrant-delete-index</code> - Delete a payload field index</li>
+</ul>
+</details>
+<details>
+<summary><strong>Aliases</strong> (2 tools)</summary>
+<ul>
+<li><code>qdrant-list-aliases</code> - List all aliases or aliases for a specific collection</li>
+<li><code>qdrant-update-aliases</code> - Create, rename, or delete collection aliases</li>
+</ul>
+</details>
+<details>
+<summary><strong>Snapshots</strong> (2 tools)</summary>
+<ul>
+<li><code>qdrant-list-snapshots</code> - List snapshots for a collection</li>
+<li><code>qdrant-create-snapshot</code> - Create a snapshot for backup</li>
+</ul>
+</details>
+<h2 id="user-content-installing-extensions"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installing-extensions"><span class="heading-anchor-icon">#</span></a>Installing Extensions</h2>
+<p>You can search for extensions by launching the Zed Extension Gallery by pressing cmd-shift-x, opening the command palette and selecting zed: extensions, or by selecting "Zed > Extensions" from the menu bar.</p>
+<p>Here you can view the extensions that you currently have installed or search and install new ones.</p>
+<h2 id="user-content-installation-location"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation-location"><span class="heading-anchor-icon">#</span></a>Installation Location</h2>
+<ul>
+<li>On macOS, extensions are installed in ~/Library/Application Support/Zed/extensions.</li>
+<li>On Linux, they are installed in either $XDG_DATA_HOME/zed/extensions or ~/.local/share/zed/extensions.</li>
+<li>On Windows, the directory is %LOCALAPPDATA%\Zed\extensions.</li>
+</ul>
+<p>This directory contains two subdirectories:</p>
+<ul>
+<li>installed, which contains the source code for each extension.</li>
+<li>work, which contains files created by the extension itself, such as downloaded language servers.</li>
+</ul>
+<h2 id="user-content-development"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#development"><span class="heading-anchor-icon">#</span></a>Development</h2>
+<p>See <a href="https://github.com/hansdoebel/zed-mcp-qdrant/blob/HEAD/docs/DEVELOPMENT.md" target="_blank" rel="noopener">docs/DEVELOPMENT.md</a> for build instructions, test setup, and dependency management.</p>
+<h2 id="user-content-resources"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#resources"><span class="heading-anchor-icon">#</span></a>Resources</h2>
+<h3 id="user-content-repository"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#repository"><span class="heading-anchor-icon">#</span></a>Repository</h3>
+<ul>
+<li><a href="https://github.com/hansdoebel/zed-mcp-qdrant">Qdrant MCP Server Extension for Zed Repository on GitHub</a></li>
+</ul>
+<h3 id="user-content-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#zed"><span class="heading-anchor-icon">#</span></a>Zed</h3>
+<ul>
+<li><a href="https://zed.dev/docs/extensions/installing-extensions">Zed Docs – Installing Extensions</a></li>
+<li><a href="https://zed.dev/docs/extensions/developing-extensions">Zed Docs – Developing Extensions</a></li>
+<li><a href="https://zed.dev/docs/extensions/mcp-extensions">Zed Docs – MCP Server Extensions</a></li>
+<li><a href="https://zed.dev/docs/ai/mcp">Zed Docs – Model Context Protocol (MCP)</a></li>
+<li><a href="https://github.com/zed-industries/extensions">Zed Industries/Extensions GitHub Repository</a></li>
+</ul>
+<h3 id="user-content-qdrant-1"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#qdrant-1"><span class="heading-anchor-icon">#</span></a>Qdrant</h3>
+<ul>
+<li><a href="https://api.qdrant.tech/api-reference">Qdrant API Reference</a></li>
+<li><a href="https://qdrant.tech/documentation/interfaces/">Qdrant API &#x26; SDK documentation</a></li>
+<li><a href="https://github.com/qdrant/rust-client">Qdrant Rust client on GitHub</a></li>
+<li><a href="https://github.com/qdrant/qdrant/blob/master/docs/redoc/master/openapi.json">Qdrant Open API definition on GitHub</a></li>
+<li><a href="https://github.com/qdrant/qdrant/tree/master/lib/api/src/grpc/proto">Qdrant protobuf definition on GitHub</a></li>
+<li><a href="https://github.com/qdrant/mcp-server-qdrant">Official Qdrant Model Context Protocol (MCP) server implementation</a></li>
+<li><a href="https://www.npmjs.com/~qdrant-tech">qdrant-tech profile on npmjs</a></li>
+<li><a href="https://www.npmjs.com/package/@qdrant/qdrant-js">Qdrant JavaScript SDK (REST + gRPC)</a></li>
+</ul>
+<h3 id="user-content-embedding-servers"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#embedding-servers"><span class="heading-anchor-icon">#</span></a>Embedding Servers</h3>
+<ul>
+<li><a href="https://github.com/ggml-org/llama.cpp">llama.cpp on GitHub</a></li>
+<li><a href="https://github.com/ggml-org/llama.cpp/blob/master/tools/server/README.md">llama.cpp server documentation</a></li>
+<li><a href="https://ollama.com">Ollama</a></li>
+<li><a href="https://github.com/vllm-project/vllm">vLLM</a></li>
+<li><a href="https://lmstudio.ai">LM Studio</a></li>
+<li><a href="https://localai.io">LocalAI</a></li>
+</ul></article> </main> <footer class="mt-auto" style="background:var(--zed-bg);border-top:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:var(--zed-text-muted);">
+← Back to extension list
+</a> </div> </footer> </body></html>

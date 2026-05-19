@@ -1,0 +1,15 @@
+id = "org-lsp"
+name = "org-lsp"
+version = "0.0.1"
+schema_version = 1
+authors = ["Alexis Purslane <alexispurslane@pm.me>"]
+description = "Org Mode support for Zed with LSP"
+repository = "https://github.com/alexispurslane/org-lsp-zed"
+
+[grammars.org]
+repository = "https://github.com/alexispurslane/tree-sitter-org"
+commit = "51db14ecba4354b36e09b6070d75ce6afecd9206"
+
+[language_servers.org-lsp]
+name = "Org LSP"
+languages = ["Org"]

@@ -1,0 +1,11 @@
+id = "ccls"
+name = "CCLS Language Server"
+version = "0.0.1"
+schema_version = 1
+authors = ["Derock X. <derock@derock.dev>"]
+description = "Adds support for the CCLS Language Server"
+repository = "https://github.com/itzderock/ccls-zed"
+
+[language_servers.ccls]
+name = "CCLS Language Server"
+languages = ["C", "C++", "H", "H++"]

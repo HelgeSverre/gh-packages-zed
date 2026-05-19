@@ -1,0 +1,259 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Parinfer — Zed Extension Safari</title><meta name="description" content="Zed extension that adds parinfer-rust support for structural editing of Lisp-like languages (Clojure, Common Lisp, Scheme, Racket, Fennel, Janet, Hy)"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Parinfer — Zed Extension Safari"><meta property="og:description" content="Zed extension that adds parinfer-rust support for structural editing of Lisp-like languages (Clojure, Common Lisp, Scheme, Racket, Fennel, Janet, Hy)"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Parinfer — Zed Extension Safari"><meta name="twitter:description" content="Zed extension that adds parinfer-rust support for structural editing of Lisp-like languages (Clojure, Common Lisp, Scheme, Racket, Fennel, Janet, Hy)"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.DJSXA_CW.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);">  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-4"> <a href="/gh-packages-zed" class="transition" style="color:var(--zed-text-muted);">← All extensions</a> </nav> <div class="flex flex-wrap items-start justify-between gap-4"> <div class="min-w-0"> <div class="font-mono text-xs mb-2" style="color:var(--zed-muted);"> evanlouie/zed-parinfer-rust </div> <h1 class="text-2xl sm:text-3xl font-bold break-words leading-tight" style="color:var(--zed-blue-pale);"> Parinfer </h1> <p class="mt-2 text-pretty" style="color:var(--zed-text-muted);"> Structural editing for Lisp languages using parinfer-rust. Automatically infers and balances parentheses based on indentation. </p> </div> <a href="https://github.com/evanlouie/zed-parinfer-rust" target="_blank" rel="noopener" class="zed-btn-primary shrink-0 inline-flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View on GitHub
+</a> </div> <div class="mt-4 flex flex-wrap items-center gap-2"> <span class="version-pill">v0.1.0</span> <span class="cat-badge" data-cat="language-server">Language Server</span> </div> <div class="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm" style="color:var(--zed-text-muted);"> <span class="inline-flex items-center gap-1"> <svg class="w-4 h-4" style="color:var(--zed-lime);" fill="currentColor" viewBox="0 0 20 20"> <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path> </svg> 0 stars
+</span> <span>Rust</span> <span>MIT</span> <span>Updated 3/18/2026</span> <span>schema v1</span> </div> <div class="mt-2 text-sm" style="color:var(--zed-text-muted);">
+by Zed Parinfer Contributors </div>  </div> </header> <main class="flex-1 max-w-4xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <article class="prose readme-prose max-w-none"><h1 id="user-content-parinfer-for-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#parinfer-for-zed"><span class="heading-anchor-icon">#</span></a>Parinfer for Zed</h1>
+<p>A <a href="https://zed.dev">Zed</a> extension that brings <a href="https://shaunlebron.github.io/parinfer/">parinfer</a> support to Lisp-like languages through a dedicated Language Server Protocol (LSP) server wrapping <a href="https://github.com/eraserhd/parinfer-rust">parinfer-rust</a>.</p>
+<p>Parinfer automatically infers and balances parentheses based on indentation, enabling structural editing for languages like Clojure, Common Lisp, Scheme, Racket, Fennel, Janet, and Hy.</p>
+<h2 id="user-content-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features"><span class="heading-anchor-icon">#</span></a>Features</h2>
+<ul>
+<li><strong>Smart Mode</strong> (default): Automatically decides between indent and paren mode based on context and cursor position. Best for everyday editing.</li>
+<li><strong>Indent Mode</strong>: Adjusts closing parentheses based on indentation. Edit code by changing indentation and let parinfer fix the parens.</li>
+<li><strong>Paren Mode</strong>: Adjusts indentation based on parenthesis structure. Useful when pasting code or making manual paren edits.</li>
+<li><strong>On-Type Formatting</strong>: Runs parinfer after each keystroke for a seamless structural editing experience.</li>
+<li><strong>Format on Save</strong>: Run parinfer as a standard formatter via Zed's format-on-save feature.</li>
+<li><strong>Diagnostics</strong>: Surfaces parinfer errors (unmatched parens, unclosed quotes, etc.) as editor diagnostics.</li>
+<li><strong>Multi-Language Support</strong>: Configured for Clojure, Common Lisp, Scheme, Racket, Fennel, Janet, Hy, and other Lisp dialects with language-specific parsing options.</li>
+</ul>
+<h2 id="user-content-architecture"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#architecture"><span class="heading-anchor-icon">#</span></a>Architecture</h2>
+<p>The extension consists of two components:</p>
+<ol>
+<li>
+<p><strong>Zed Extension (WASM)</strong> — The <code>zed-parinfer</code> crate compiles to WebAssembly and runs inside Zed's extension sandbox. It manages downloading and launching the LSP server binary.</p>
+</li>
+<li>
+<p><strong>Parinfer LSP Server</strong> — The <code>parinfer-lsp</code> crate is a standalone Rust binary that implements the Language Server Protocol. It wraps the parinfer-rust algorithm and communicates with Zed over stdio.</p>
+</li>
+</ol>
+<pre><code>zed-parinfer-rust/
+├── Cargo.toml              # WASM extension crate (cdylib)
+├── extension.toml          # Zed extension manifest
+├── src/
+│   └── lib.rs              # Extension: binary management + LSP config
+└── parinfer-lsp/
+    ├── Cargo.toml           # LSP server binary crate
+    └── src/
+        └── main.rs          # LSP server: parinfer + formatting + diagnostics
+</code></pre>
+<h2 id="user-content-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation"><span class="heading-anchor-icon">#</span></a>Installation</h2>
+<h3 id="user-content-from-zed-extensions-once-published"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#from-zed-extensions-once-published"><span class="heading-anchor-icon">#</span></a>From Zed Extensions (once published)</h3>
+<ol>
+<li>Open Zed</li>
+<li>Open the Extensions panel (<code>Cmd+Shift+X</code> on macOS)</li>
+<li>Search for "Parinfer"</li>
+<li>Click <strong>Install</strong></li>
+</ol>
+<p>The extension will automatically download the appropriate <code>parinfer-lsp</code> binary for your platform from <a href="https://github.com/evanlouie/zed-parinfer-rust/releases">GitHub Releases</a>.</p>
+<h3 id="user-content-manual-binary-install-optional"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#manual-binary-install-optional"><span class="heading-anchor-icon">#</span></a>Manual Binary Install (optional)</h3>
+<p>If you prefer to manage the binary yourself, you can install it with Cargo. The extension will find it on your PATH and use it instead of downloading a release binary.</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> install</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --git</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> https://github.com/evanlouie/zed-parinfer-rust.git</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> parinfer-lsp</span></span></code></pre>
+<h3 id="user-content-as-a-dev-extension-for-development"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#as-a-dev-extension-for-development"><span class="heading-anchor-icon">#</span></a>As a Dev Extension (for development)</h3>
+<ol>
+<li>
+<p>Clone this repository:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">git</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> clone</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> https://github.com/evanlouie/zed-parinfer-rust.git</span></span></code></pre>
+</li>
+<li>
+<p>Build the LSP server binary:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">cd</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> zed-parinfer-rust</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> install</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --path</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> parinfer-lsp</span></span></code></pre>
+</li>
+<li>
+<p>In Zed, run the command <strong>"zed: install dev extension"</strong> and select the <code>zed-parinfer-rust</code> directory.</p>
+</li>
+</ol>
+<h2 id="user-content-configuration"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#configuration"><span class="heading-anchor-icon">#</span></a>Configuration</h2>
+<p>Configure parinfer through Zed's <code>settings.json</code>:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "parinfer"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "initialization_options"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "mode"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"smart"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "formatOnType"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#79B8FF;--shiki-dark:#79B8FF">true</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h3 id="user-content-language-server-priority"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#language-server-priority"><span class="heading-anchor-icon">#</span></a>Language Server Priority</h3>
+<p>If you're using another language server (e.g. <code>clojure-lsp</code>), you must list <code>parinfer</code> <strong>before</strong> it in the <code>language_servers</code> array. Otherwise, the other LSP will take precedence for formatting and on-type actions.</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "languages"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "Clojure"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "language_servers"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: [</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"parinfer"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">, </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"clojure-lsp"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">, </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"..."</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h3 id="user-content-options"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#options"><span class="heading-anchor-icon">#</span></a>Options</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Option</th><th>Type</th><th>Default</th><th>Description</th></tr></thead><tbody><tr><td><code>mode</code></td><td>string</td><td><code>"smart"</code></td><td>Parinfer mode: <code>"smart"</code>, <code>"indent"</code>, or <code>"paren"</code>.</td></tr><tr><td><code>formatOnType</code></td><td>boolean</td><td><code>true</code></td><td>Enable on-type formatting (runs parinfer after each keystroke).</td></tr></tbody></table>
+<h3 id="user-content-parinfer-modes"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#parinfer-modes"><span class="heading-anchor-icon">#</span></a>Parinfer Modes</h3>
+<ul>
+<li>
+<p><strong><code>smart</code></strong> — The recommended mode. Uses indent mode with smart change tracking. Automatically handles cursor-holding behavior and adapts between indent and paren logic based on context.</p>
+</li>
+<li>
+<p><strong><code>indent</code></strong> — Pure indent mode. Adjusts closing delimiters to match indentation. Best when you want to control structure purely through indentation changes.</p>
+</li>
+<li>
+<p><strong><code>paren</code></strong> — Pure paren mode. Adjusts indentation to match parenthesis structure. Useful after pasting code or when manually editing delimiters.</p>
+</li>
+</ul>
+<h3 id="user-content-format-on-save"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#format-on-save"><span class="heading-anchor-icon">#</span></a>Format on Save</h3>
+<p>To run parinfer automatically when saving, enable format-on-save for Clojure files in your <code>settings.json</code>:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "languages"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "Clojure"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "format_on_save"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"on"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h2 id="user-content-supported-languages"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#supported-languages"><span class="heading-anchor-icon">#</span></a>Supported Languages</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Language</th><th>Language ID</th><th>Special Features</th></tr></thead><tbody><tr><td>Clojure</td><td><code>clojure</code></td><td>Standard Lisp parsing</td></tr><tr><td>ClojureScript</td><td><code>clojurescript</code></td><td>Standard Lisp parsing</td></tr><tr><td>Common Lisp</td><td><code>commonlisp</code></td><td><code>|</code> symbols, <code>#|...|#</code> block comments</td></tr><tr><td>Scheme</td><td><code>scheme</code></td><td><code>|</code> symbols, block comments, <code>#;</code> sexp comments</td></tr><tr><td>Racket</td><td><code>racket</code></td><td>Same as Scheme</td></tr><tr><td>Fennel</td><td><code>fennel</code></td><td>Standard Lisp parsing</td></tr><tr><td>Janet</td><td><code>janet</code></td><td><code>#</code> comments, backtick long strings</td></tr><tr><td>Hy</td><td><code>hy</code></td><td><code>#[tag[...]]</code> bracket strings</td></tr></tbody></table>
+<h2 id="user-content-development"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#development"><span class="heading-anchor-icon">#</span></a>Development</h2>
+<h3 id="user-content-prerequisites"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#prerequisites"><span class="heading-anchor-icon">#</span></a>Prerequisites</h3>
+<ul>
+<li><a href="https://www.rust-lang.org/tools/install">Rust</a> (via rustup)</li>
+<li><a href="https://zed.dev">Zed</a> editor</li>
+</ul>
+<h3 id="user-content-building-the-lsp-server"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#building-the-lsp-server"><span class="heading-anchor-icon">#</span></a>Building the LSP Server</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">cd</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> parinfer-lsp</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> build</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --release</span></span></code></pre>
+<p>The binary will be at <code>target/release/parinfer-lsp</code>.</p>
+<h3 id="user-content-running-tests"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#running-tests"><span class="heading-anchor-icon">#</span></a>Running Tests</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">cd</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> parinfer-lsp</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> test</span></span></code></pre>
+<h3 id="user-content-testing-the-lsp-server-manually"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#testing-the-lsp-server-manually"><span class="heading-anchor-icon">#</span></a>Testing the LSP Server Manually</h3>
+<p>You can test the server directly using JSON-RPC over stdio:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">echo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> '{"jsonrpc":"2.0","id":1,"method":"initialize","params":{"capabilities":{}}}'</span><span style="color:#F97583;--shiki-dark:#F97583"> |</span><span style="color:#B392F0;--shiki-dark:#B392F0"> ./target/release/parinfer-lsp</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --stdio</span></span></code></pre>
+<h3 id="user-content-building-the-zed-extension"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#building-the-zed-extension"><span class="heading-anchor-icon">#</span></a>Building the Zed Extension</h3>
+<p>The WASM extension is built automatically by Zed when you install it as a dev extension. To build it manually:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> build</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --release</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --target</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> wasm32-wasip1</span></span></code></pre>
+<h3 id="user-content-debugging"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#debugging"><span class="heading-anchor-icon">#</span></a>Debugging</h3>
+<p>Run Zed from the terminal to see extension logs:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">zed</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --foreground</span></span></code></pre>
+<p>Set <code>RUST_LOG=debug</code> for verbose LSP server output:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "parinfer"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "initialization_options"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "mode"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"smart"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>The LSP server writes logs to stderr, which Zed captures and displays in its log output.</p>
+<h2 id="user-content-releasing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#releasing"><span class="heading-anchor-icon">#</span></a>Releasing</h2>
+<h3 id="user-content-building-release-binaries"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#building-release-binaries"><span class="heading-anchor-icon">#</span></a>Building Release Binaries</h3>
+<p>Build binaries for each target platform:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># macOS (Apple Silicon)</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> build</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --release</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --target</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> aarch64-apple-darwin</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># macOS (Intel)</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> build</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --release</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --target</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> x86_64-apple-darwin</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Linux (x86_64)</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> build</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --release</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --target</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> x86_64-unknown-linux-gnu</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Linux (ARM64)</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> build</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --release</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --target</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> aarch64-unknown-linux-gnu</span></span></code></pre>
+<h3 id="user-content-release-asset-naming"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#release-asset-naming"><span class="heading-anchor-icon">#</span></a>Release Asset Naming</h3>
+<p>The extension expects release assets named:</p>
+<pre><code>parinfer-lsp-darwin-aarch64
+parinfer-lsp-darwin-x86_64
+parinfer-lsp-linux-aarch64
+parinfer-lsp-linux-x86_64
+parinfer-lsp-windows-x86_64.exe
+</code></pre>
+<p>Create a GitHub release with these binaries attached. The extension will automatically download the appropriate binary for the user's platform.</p>
+<h2 id="user-content-how-it-works"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#how-it-works"><span class="heading-anchor-icon">#</span></a>How It Works</h2>
+<ol>
+<li>When you open a supported file in Zed, the extension launches the <code>parinfer-lsp</code> binary.</li>
+<li>The LSP server tracks the full text of each open document.</li>
+<li>On formatting requests (manual or on-save), it runs the parinfer algorithm on the document text.</li>
+<li>On each keystroke (if <code>formatOnType</code> is enabled), it runs parinfer with cursor position tracking for optimal results.</li>
+<li>The server computes minimal line-level text edits and returns them to Zed.</li>
+<li>If parinfer detects structural errors (unmatched parens, unclosed quotes), they appear as diagnostics in the editor.</li>
+</ol>
+<h2 id="user-content-credits"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#credits"><span class="heading-anchor-icon">#</span></a>Credits</h2>
+<ul>
+<li><a href="https://shaunlebron.github.io/parinfer/">parinfer</a> by Shaun Lebron — the original algorithm</li>
+<li><a href="https://github.com/eraserhd/parinfer-rust">parinfer-rust</a> by Jason Felice — the Rust implementation</li>
+<li><a href="https://zed.dev">Zed</a> — the editor</li>
+<li><a href="https://github.com/ebkalderon/tower-lsp">tower-lsp</a> — the LSP framework</li>
+</ul>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>MIT</p></article> </main> <footer class="mt-auto" style="background:var(--zed-bg);border-top:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:var(--zed-text-muted);">
+← Back to extension list
+</a> </div> </footer> </body></html>

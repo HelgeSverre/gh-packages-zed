@@ -1,0 +1,9 @@
+id = "mcp-drawio"
+name = "Draw.io MCP Server"
+version = "0.1.0"
+schema_version = 1
+authors = ["Hans Doebel <hansdev@mailbox.org>"]
+description = "Draw.io MCP Server for Zed"
+repository = "https://github.com/hansdoebel/zed-mcp-drawio"
+
+[context_servers.mcp-drawio]

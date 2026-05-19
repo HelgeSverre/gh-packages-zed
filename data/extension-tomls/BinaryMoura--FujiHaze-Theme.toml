@@ -1,0 +1,9 @@
+id = "fujihaze-theme"
+name = "FujiHaze Theme"
+version = "1.0.0"
+schema_version = 1
+authors = ["BinaryMoura <leomourait@fastmail.com>"]
+description = "A serene Zed IDE theme inspired by the quiet beauty of Mount Fuji and traditional Japanese countryside. Includes: FujiHaze Dark, FujiHaze Countryside (light), and FujiHaze Morning Mist (light)."
+repository = "https://github.com/BinaryMoura/FujiHaze-Theme"
+
+themes = ["themes/fujihaze.json"]

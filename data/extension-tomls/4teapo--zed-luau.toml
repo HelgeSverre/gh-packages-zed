@@ -1,0 +1,15 @@
+id = "luau"
+name = "Luau"
+version = "0.3.7"
+schema_version = 1
+authors = ["teapo <4teapo@gmail.com>"]
+description = "Luau support."
+repository = "https://github.com/4teapo/zed-luau"
+
+[language_servers.luau-lsp]
+name = "Luau LSP"
+language = "Luau"
+
+[grammars.luau]
+repository = "https://github.com/4teapo/tree-sitter-luau"
+commit = "1d25ccb7b2afb85fc0523c4bca3331ad52c55106"

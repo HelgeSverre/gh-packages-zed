@@ -1,0 +1,37 @@
+# zed-wakatime
+[![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.zed.dev%2Fextensions%2Fwakatime&query=%24.data%5B0%5D.download_count&label=download&cacheSeconds=60)](https://zed.dev/extensions?query=wakatime)
+
+A [WakaTime](https://wakatime.com/) extension for [Zed](https://zed.dev/).
+
+Uses the [wakatime-ls](https://github.com/wakatime/zed-wakatime/tree/master/wakatime-ls) to receive edit events from Zed and send heartbeats to WakaTime by [wakatime-cli](https://github.com/wakatime/wakatime-cli).
+
+## Install
+Search for "wakatime" in the "Extensions" page and click "Install".
+![type install](./images/install.png)
+
+## Configuration
+In order to authenticate with the wakatime-cli, the language server needs to know your API token.
+Here are two ways to set the lsp.
+
+### WakaTime configuration file
+Create a file named `.wakatime.cfg` in your $HOME directory.
+```toml
+[settings]
+api_key = your-api-key
+```
+Go through up [wakatime-cli](https://github.com/wakatime/wakatime-cli/blob/develop/USAGE.md)'s documentation for more options.
+
+### Zed settings file
+Open Zed's settings file, then add your api key.
+```json
+"lsp": {
+  "wakatime": {
+    "initialization_options": {
+      "api-key": "Your api key"
+    }
+  }
+}
+```
+
+## Note
+This plugin has been thoroughly tested only on macOS. If you encounter any issues on other systems, please submit an issue or a pull request.

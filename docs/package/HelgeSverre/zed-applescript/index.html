@@ -1,0 +1,420 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>AppleScript — Zed Extension Safari</title><meta name="description" content="(WIP) AppleScript language support for Zed editor"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="AppleScript — Zed Extension Safari"><meta property="og:description" content="(WIP) AppleScript language support for Zed editor"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="AppleScript — Zed Extension Safari"><meta name="twitter:description" content="(WIP) AppleScript language support for Zed editor"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.DJSXA_CW.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);">  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-4"> <a href="/gh-packages-zed" class="transition" style="color:var(--zed-text-muted);">← All extensions</a> </nav> <div class="flex flex-wrap items-start justify-between gap-4"> <div class="min-w-0"> <div class="font-mono text-xs mb-2" style="color:var(--zed-muted);"> HelgeSverre/zed-applescript </div> <h1 class="text-2xl sm:text-3xl font-bold break-words leading-tight" style="color:var(--zed-blue-pale);"> AppleScript </h1> <p class="mt-2 text-pretty" style="color:var(--zed-text-muted);"> AppleScript language support for Zed </p> </div> <a href="https://github.com/HelgeSverre/zed-applescript" target="_blank" rel="noopener" class="zed-btn-primary shrink-0 inline-flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View on GitHub
+</a> </div> <div class="mt-4 flex flex-wrap items-center gap-2"> <span class="version-pill">v1.1.2</span> <span class="cat-badge" data-cat="grammar">Grammar</span> </div> <div class="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm" style="color:var(--zed-text-muted);"> <span class="inline-flex items-center gap-1"> <svg class="w-4 h-4" style="color:var(--zed-lime);" fill="currentColor" viewBox="0 0 20 20"> <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path> </svg> 1 stars
+</span> <span>Tree-sitter Query</span> <span>MIT</span> <span>Updated 27m ago</span> <span>schema v1</span> </div> <div class="mt-2 text-sm" style="color:var(--zed-text-muted);">
+by Helge Sverre </div> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> applescript </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> macos </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> syntax-highlighting </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> tree-sitter </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed-extension </span> </div> </div> </header> <main class="flex-1 max-w-4xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <article class="prose readme-prose max-w-none"><h1 id="user-content-applescript-for-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#applescript-for-zed"><span class="heading-anchor-icon">#</span></a>AppleScript for Zed</h1>
+<p>AppleScript language support for the <a href="https://zed.dev">Zed</a> editor.</p>
+<h2 id="user-content-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features"><span class="heading-anchor-icon">#</span></a>Features</h2>
+<ul>
+<li>Syntax highlighting for AppleScript</li>
+<li>Support for <code>.applescript</code> and <code>.scpt</code> file extensions</li>
+<li>Line comments (<code>--</code>) and block comments (<code>(* *)</code>)</li>
+<li>Auto-indentation for block structures</li>
+<li>Code outline showing handlers, properties, and tell blocks</li>
+<li>Bracket matching</li>
+<li>Vim-style text objects</li>
+<li>Run scripts directly from the editor via <code>osascript</code></li>
+</ul>
+<h2 id="user-content-support-matrix"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#support-matrix"><span class="heading-anchor-icon">#</span></a>Support matrix</h2>
+<h3 id="user-content-editor--structural-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#editor--structural-features"><span class="heading-anchor-icon">#</span></a>Editor / structural features</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Feature</th><th>Status</th><th>Notes</th></tr></thead><tbody><tr><td>Syntax highlighting</td><td>✅</td><td><code>languages/applescript/highlights.scm</code> — comments, strings, numbers, booleans, operators, type specifiers, command names, parameter names, handler/script names, control-flow keywords</td></tr><tr><td>Comments — line (<code>--</code>, <code>#</code>)</td><td>✅</td><td><code>config.toml</code></td></tr><tr><td>Comments — block (<code>(* *)</code>)</td><td>✅</td><td><code>config.toml</code></td></tr><tr><td>Auto-indentation</td><td>✅</td><td>Increases inside handlers, <code>tell</code>, <code>if</code>, <code>repeat</code>, <code>try</code>, <code>considering</code>, <code>ignoring</code>, <code>with timeout</code>, <code>using terms from</code>, <code>script</code> blocks; outdents on <code>end</code></td></tr><tr><td>Bracket matching</td><td>✅</td><td><code>()</code>, <code>{}</code> for parameter lists, parenthesized expressions, lists, records</td></tr><tr><td>Code outline</td><td>✅</td><td>Handlers (with parameters), <code>script</code> objects, properties, <code>tell</code> block targets</td></tr><tr><td>Vim text objects</td><td>✅</td><td><code>@function</code> (handlers, <code>tell</code>, <code>if</code>, <code>repeat</code>, <code>try</code>, etc.), <code>@class</code> (script objects), <code>@comment</code></td></tr><tr><td>Run script (whole file)</td><td>✅</td><td>Gutter run button → <code>osascript $ZED_FILE</code></td></tr><tr><td>Run individual handler</td><td>⚠️</td><td>Gutter run button per handler — invokes the handler by appending <code>&#x3C;handler>()</code> to a temp copy of the file. <strong>Zero-arg handlers only.</strong> The top-level script body still runs before the appended call.</td></tr><tr><td>Auto-closing brackets / quotes</td><td>✅</td><td><code>()</code>, <code>{}</code>, <code>(* *)</code>, <code>""</code> auto-close via <code>config.toml</code> brackets array</td></tr><tr><td>Shebang detection (<code>#!/usr/bin/osascript</code>)</td><td>✅</td><td><code>first_line_pattern</code> in <code>config.toml</code></td></tr><tr><td>Language injections</td><td>✅</td><td>Bash highlighting inside <code>do shell script "…"</code>; recursive AppleScript inside <code>run script "…"</code></td></tr><tr><td>Snippets</td><td>❌</td><td>None shipped</td></tr></tbody></table>
+<h3 id="user-content-grammar-coverage"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#grammar-coverage"><span class="heading-anchor-icon">#</span></a>Grammar coverage</h3>
+<p>Provided by the <a href="https://github.com/HelgeSverre/tree-sitter-applescript">tree-sitter-applescript</a> grammar pinned in <code>extension.toml</code>.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Construct</th><th>Status</th></tr></thead><tbody><tr><td>Handlers — <code>on</code> / <code>to</code>, positional params, labeled (<code>given …:</code>) params</td><td>✅</td></tr><tr><td>Tell blocks — block form (<code>tell … end tell</code>) and one-line form</td><td>✅</td></tr><tr><td>Conditionals — <code>if</code>/<code>then</code>/<code>else if</code>/<code>else</code> block and one-line <code>if … then …</code></td><td>✅</td></tr><tr><td>Loops — all <code>repeat</code> forms</td><td>✅</td></tr><tr><td>Error handling — <code>try</code> / <code>on error</code> with error parameter clauses</td><td>✅</td></tr><tr><td>Scoping blocks — <code>considering</code>, <code>ignoring</code>, <code>with timeout</code>, <code>using terms from</code></td><td>✅</td></tr><tr><td>Declarations — <code>property</code>, <code>global</code>, <code>local</code>, <code>set</code>, <code>copy</code></td><td>✅</td></tr><tr><td>Script objects — <code>script</code> … <code>end script</code> with <code>parent</code> clause</td><td>✅</td></tr><tr><td><code>use</code> statements — application / framework / scripting additions / version</td><td>✅</td></tr><tr><td>Commands — <code>command_name</code>, named parameters, <code>given</code> clause</td><td>✅</td></tr><tr><td>Object specifiers — <code>element_type</code>, <code>specifier_prefix</code>, references, indexing, ranges</td><td>✅</td></tr><tr><td>Object specifier filter — <code>whose</code> / <code>where</code> clauses</td><td>✅</td></tr><tr><td>Literals — string + escape sequences, number, boolean, list, record, <code>missing value</code>, <code>null</code>, date literal</td><td>✅</td></tr><tr><td>Special references — <code>me</code>, <code>it</code>, <code>result</code>, <code>current application</code></td><td>✅</td></tr><tr><td>Possessive <code>'s</code> — <code>current application's NSString</code>, chained <code>x's y's z</code></td><td>✅</td></tr><tr><td><code>a reference to &#x3C;expr></code> — common ASObjC idiom</td><td>✅</td></tr><tr><td>ObjC bridge — <code>receiver's selector:arg [label:arg …]</code> method-call syntax</td><td>✅</td></tr><tr><td><code>make new &#x3C;element_type> …</code> argument form</td><td>✅</td></tr><tr><td>Line continuation <code>¬</code> — consumed as whitespace, parses join transparently</td><td>✅</td></tr><tr><td>Coercion — <code>value as type</code></td><td>✅</td></tr><tr><td>Operators — comparison (<code>begins/ends/starts with</code>, <code>contains</code>, <code>is in</code>, …), logical, arithmetic, unary, range, concatenation</td><td>✅</td></tr><tr><td>Text attributes — <code>case</code>, <code>diacriticals</code>, etc. (inside <code>considering</code> / <code>ignoring</code>)</td><td>✅</td></tr><tr><td><code>log</code>, <code>return</code>, <code>error</code>, <code>exit</code>, <code>continue</code> statements</td><td>✅</td></tr><tr><td>Decorative <code>the</code> (<code>set the x to the name of the file</code>)</td><td>✅</td></tr><tr><td><code>current date</code> / <code>current application</code> builtins</td><td>✅</td></tr><tr><td>Implicit <code>on run</code> script (top-level <code>end run</code> matches)</td><td>✅</td></tr><tr><td><code>my &#x3C;handler>(…)</code> self-reference and handler calls</td><td>✅</td></tr><tr><td>Multi-word application-dictionary identifiers (<code>current view</code>, <code>name extension</code>, <code>text item delimiters</code>, <code>application file</code>, <code>static text</code>, …)</td><td>✅ Handled via <code>compound_name</code> (1–3 word names) and a small built-in vocabulary of multi-word <code>element_type</code>s. Tree-sitter has no <code>.sdef</code> access, so an unknown 4+ word app constant may still split into separate identifiers in highlighting.</td></tr><tr><td>ObjC-style handler definitions (<code>on selector:arg [label:arg …] … end selector:label:</code>)</td><td>✅</td></tr><tr><td>Folder Action handler shapes (<code>on adding folder items to fld after receiving items</code>, <code>on opening folder</code>, etc.)</td><td>✅</td></tr><tr><td>AppleScript raw-data literals (<code>«class fold»</code>, <code>«data utxt201C»</code>)</td><td>✅</td></tr></tbody></table>
+<h3 id="user-content-code-intelligence-lsp-backed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#code-intelligence-lsp-backed"><span class="heading-anchor-icon">#</span></a>Code intelligence (LSP-backed)</h3>
+<p>There is no maintained AppleScript language server, so none of these features are available and there are no concrete plans to add them. Listed for completeness.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Feature</th><th>Status</th></tr></thead><tbody><tr><td>Completion / IntelliSense</td><td>❌</td></tr><tr><td>Hover documentation</td><td>❌</td></tr><tr><td>Go to definition / find references</td><td>❌</td></tr><tr><td>Rename symbol</td><td>❌</td></tr><tr><td>Diagnostics / linting</td><td>❌</td></tr><tr><td>Code actions / quick fixes</td><td>❌</td></tr><tr><td>Formatter</td><td>❌ (no AppleScript formatter exists)</td></tr><tr><td>Debugger (DAP)</td><td>❌</td></tr></tbody></table>
+<h3 id="user-content-file-handling"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#file-handling"><span class="heading-anchor-icon">#</span></a>File handling</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Feature</th><th>Status</th><th>Notes</th></tr></thead><tbody><tr><td><code>.applescript</code> files</td><td>✅</td><td></td></tr><tr><td><code>.scpt</code> files</td><td>✅</td><td>Listed as a suffix; note these are usually compiled binaries and won't render as readable text</td></tr><tr><td><code>.scptd</code> script bundles</td><td>❌</td><td><code>.scptd</code> is a package directory, not a file — Zed opens these as folders, not editable scripts</td></tr></tbody></table>
+<h3 id="user-content-real-world-coverage"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#real-world-coverage"><span class="heading-anchor-icon">#</span></a>Real-world coverage</h3>
+<p>The grammar is exercised against a corpus of real AppleScript files under <a href="https://github.com/HelgeSverre/tree-sitter-applescript/tree/main/test/corpus/realworld"><code>grammars/tree-sitter-applescript/test/corpus/realworld/</code></a> — 36 scripts drawn from Apple's <code>/Library/Scripts/</code>, decompiled <code>.scpt</code> Folder Actions and Printing Scripts, plus hand-crafted ASObjC and edge-case samples. A categorized gap analysis lives in <a href="https://github.com/HelgeSverre/tree-sitter-applescript/blob/main/test/corpus/realworld/ERRORS.md"><code>ERRORS.md</code></a> for anyone extending the grammar.</p>
+<p><strong>Current state:</strong> <strong>32 of 32 active corpus files parse with zero <code>ERROR</code> and zero <code>MISSING</code> nodes.</strong> Total reduction from baseline: <strong>732 → 0 ERRORs across the active corpus</strong>.</p>
+<p>Four files exhibit known parser limitations and are quarantined under <a href="https://github.com/HelgeSverre/tree-sitter-applescript/tree/main/test/corpus/realworld/known-limits"><code>test/corpus/realworld/known-limits/</code></a> with a per-file explanation in <a href="https://github.com/HelgeSverre/tree-sitter-applescript/blob/main/test/corpus/realworld/known-limits/README.md"><code>known-limits/README.md</code></a>. They stay in the repo as regression targets for the future scanner-architecture work that would un-block them — they are not deleted, just excluded from the green-build measurement until the underlying grammar can handle their specific edge cases.</p>
+<h3 id="user-content-external-scanner"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#external-scanner"><span class="heading-anchor-icon">#</span></a>External scanner</h3>
+<p><a href="https://github.com/HelgeSverre/tree-sitter-applescript/blob/main/src/scanner.c"><code>src/scanner.c</code></a> is a hand-written C scanner that implements two context-sensitive tokens tree-sitter's pure-grammar lexer can't represent:</p>
+<ul>
+<li><strong><code>block_comment</code></strong> — <code>(* ... *)</code> that respects strings and nests. The regex-based comment closed at the first <code>*)</code> even when it was inside a <code>"..."</code> string; the scanner tracks quote state and depth.</li>
+<li><strong><code>alias_prefix</code></strong> — emits <code>alias</code> only when the next non-whitespace input isn't <code>of</code>. This separates <code>alias &#x3C;expr></code> (a value-creating prefix, used by <code>copy alias "X" to y</code>) from <code>alias of theItem</code> (still a plain property reference).</li>
+</ul>
+<h3 id="user-content-why-the-four-files-are-quarantined"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#why-the-four-files-are-quarantined"><span class="heading-anchor-icon">#</span></a>Why the four files are quarantined</h3>
+<p>Each documents a distinct precedence or context-sensitivity limit. Summarised in <code>known-limits/README.md</code>:</p>
+<ul>
+<li><strong>Outer <code>if_block</code> terminator</strong> (<code>attach_folder_action</code>, <code>remove_folder_actions</code>) — <code>end if</code> where the <code>if</code> could be the optional handler-name or a fresh <code>keyword_if</code>; tree-sitter's GLR picks the wrong one.</li>
+<li><strong><code>to &#x3C;ident></code> ambiguity</strong> (<code>colorsync_extract</code>, <code>remove_folder_actions</code>) — <code>move X to trash</code> inside <code>tell</code>/<code>try</code> is GLR-ambiguous with <code>to handlerName()</code> (handler-def start).</li>
+<li><strong>Block-comment cascade tail</strong> (<code>comment_tags</code>) — the scanner fixes the original <code> "*)"</code> problem, but a follow-on cascade in a different part of the file remains.</li>
+</ul>
+<p>These need a column-/position-aware external scanner — a multi-day design project documented in <a href="https://github.com/HelgeSverre/zed-applescript/blob/HEAD/docs/references/external-scanner/02-lessons-learned.md" target="_blank" rel="noopener"><code>docs/references/external-scanner/02-lessons-learned.md</code></a>, not a single grammar tweak. Three approaches were tried this session (<code>compound_word</code> external token with various filters, <code>compound_name</code> size reduction, parameter-name vocabulary expansion); all regressed the parser. The lessons file lays out why each approach failed.</p>
+<h2 id="user-content-known-limitations"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#known-limitations"><span class="heading-anchor-icon">#</span></a>Known limitations</h2>
+<p>After a complete audit against Apple's <a href="https://developer.apple.com/library/archive/documentation/AppleScript/Conceptual/AppleScriptLangGuide/introduction/ASLR_intro.html">AppleScript Language Guide</a>, the following constructs are documented language features the grammar does <strong>not</strong> yet model.</p>
+<h3 id="user-content-tractable-purely-additive-no-scanner-work-needed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#tractable-purely-additive-no-scanner-work-needed"><span class="heading-anchor-icon">#</span></a>Tractable (purely additive, no scanner work needed)</h3>
+<ul>
+<li><strong><code>idle</code> handler return-interval semantics</strong> (<code>on idle … return N … end idle</code>) — parses as a regular handler; the contract that the return value is the next-wake interval isn't surfaced structurally.</li>
+<li><strong><code>continuing &#x3C;command></code> flow</strong> — <code>continue &#x3C;command_call></code> parses as a <code>continue_statement</code> but the command body that follows isn't bound into it.</li>
+<li><strong>Deprecated keywords</strong> <code>returning</code> (alt for <code>to</code> in handler defs) and <code>put</code> / <code>put into</code> (alt for <code>copy</code>). Skipped because they're rare and would risk grammar churn for no real-world benefit.</li>
+</ul>
+<h3 id="user-content-needs-an-external-c-scanner-substantial"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#needs-an-external-c-scanner-substantial"><span class="heading-anchor-icon">#</span></a>Needs an external C scanner (substantial)</h3>
+<ul>
+<li><strong>Pipe-delimited identifiers</strong> (<code>|My Identifier|</code>) — AppleScript's escape syntax for identifiers with spaces or reserved-word collisions. Currently the <code>|</code> characters break the parse.</li>
+<li><strong>Multi-line <code>compound_name</code> cascade</strong> — <code>command_parameter</code>'s <code>compound_name</code> value greedily spans newlines into the next statement (the cause of the 10 remaining corpus errors). Documented above under "Real-world coverage".</li>
+<li><strong><code>to &#x3C;ident></code> ambiguity</strong> inside expression bodies — <code>move X to trash</code> vs <code>to handlerName()</code>. GLR keeps both alive and picks handler-def in cascade cases. Would need a column-aware scanner.</li>
+</ul>
+<h3 id="user-content-intentionally-not-modeled"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#intentionally-not-modeled"><span class="heading-anchor-icon">#</span></a>Intentionally not modeled</h3>
+<ul>
+<li><strong>AppleScript Studio</strong> (deprecated since 2011, removed from Xcode) — <code>on clicked theObject</code>, <code>tell window "Main"</code>, <code>call method ... of class ...</code>. Some legacy scripts still use it; we don't.</li>
+<li><strong>Smart curly quotes inside source</strong> (<code>"…"</code> vs <code>"…"</code>) — <code>osadecompile</code> always emits straight quotes; documented as accept-on-demand.</li>
+<li><strong><code>.scptd</code> script bundles</strong> — these are macOS packages, not files; Zed opens them as folders.</li>
+<li><strong>Multi-word application-dictionary constants we haven't whitelisted</strong> — e.g. <code>Eight channel</code>, <code>RGB</code>, <code>CMYK</code> inside <code>using terms from</code>. These parse as separate identifiers (visually correct enough for highlighting); the only way to make tree-sitter resolve them to single constants is to embed every app's <code>.sdef</code> dictionary into the grammar, which isn't practical.</li>
+</ul>
+<h2 id="user-content-roadmap"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#roadmap"><span class="heading-anchor-icon">#</span></a>Roadmap</h2>
+<p><strong>Status: maintenance mode as of v1.1.2.</strong> All editor surfaces are wired, the active 32-file real-world corpus parses with 0 ERROR + 0 MISSING, and the remaining items below are either small on-demand polish or hit known parser limitations that need focused human work on the external scanner. AppleScript itself is in long-term decline (Apple archived the Language Guide; AS Studio was deprecated in 2011), so new investment here is demand-driven, not roadmap-driven.</p>
+<h3 id="user-content-done"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#done"><span class="heading-anchor-icon">#</span></a>Done</h3>
+<ul>
+<li><strong>Quick wins</strong>: <code>with transaction</code>, <code>numeric strings</code> / <code>expansion</code> attributes, <code>but considering</code> / <code>but ignoring</code>, AppleScript constants (<code>pi</code>, <code>space</code>, <code>tab</code>, <code>linefeed</code>, <code>quote</code>), weekday/month constants, time-unit constants.</li>
+<li><strong>Operator polish</strong>: full comparison synonym table; short forms <code>prop</code>, <code>ref</code>.</li>
+<li><strong>Idiomatic AppleScript</strong>: <code>its</code> reference, ordinal-suffix numbers (<code>1st</code>, <code>2nd</code>, <code>23rd</code>).</li>
+<li><strong>Reference forms</strong>: <code>before</code>, <code>after</code>, <code>behind</code>, <code>in front of</code>, <code>in back of</code>.</li>
+<li><strong><code>use</code> statement extensions</strong>: aliased binding, <code>version</code> clause, <code>with importing</code> / <code>without importing</code>, <code>use script "X"</code>.</li>
+<li><strong>External scanner</strong> (<code>src/scanner.c</code>): quote-aware block comments; context-sensitive <code>alias</code> keyword.</li>
+</ul>
+<h3 id="user-content-candidates-for-v12-small-low-risk-ship-if-a-user-asks"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#candidates-for-v12-small-low-risk-ship-if-a-user-asks"><span class="heading-anchor-icon">#</span></a>Candidates for v1.2 (small, low-risk, ship if a user asks)</h3>
+<ul>
+<li><strong><code>idle</code> handler</strong> with explicit return-interval semantics.</li>
+<li><strong><code>continuing &#x3C;command></code></strong> flow keyword as a structured statement.</li>
+<li><strong>JXA detection in <code>run script "…"</code> injections</strong> (when the literal looks like JS, inject <code>javascript</code> instead of <code>applescript</code>).</li>
+</ul>
+<h3 id="user-content-deferred--needs-external-scanner-work-not-llm-driven"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#deferred--needs-external-scanner-work-not-llm-driven"><span class="heading-anchor-icon">#</span></a>Deferred — needs external-scanner work, not LLM-driven</h3>
+<ul>
+<li><strong>Pipe-delimited identifiers</strong> (<code>|name with spaces|</code>) — bounded external-scanner token. Doable as a focused session; the only roadmap item with real language-completeness value.</li>
+<li><strong>Multi-line <code>compound_name</code> cascade</strong> — needs column-aware lexing. Multiple LLM-driven attempts reverted; deferred until a human-driven session.</li>
+<li><strong>Context-sensitive <code>to</code> ambiguity</strong> — same column-aware-lexing primitive as above.</li>
+</ul>
+<p>All three of these share the column-aware-scanner primitive; landing it would also unlock the four files in <code>test/corpus/realworld/known-limits/</code> and (if anyone still cares) AppleScript Studio support.</p>
+<h3 id="user-content-out-of-scope"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#out-of-scope"><span class="heading-anchor-icon">#</span></a>Out of scope</h3>
+<ul>
+<li><strong>Language-server features</strong> (completion, hover, go-to-def, diagnostics, rename, formatting) — no maintained AppleScript LSP exists.</li>
+<li><strong>Debugger (DAP)</strong> — no AppleScript debugger exists outside Script Editor / Script Debugger.</li>
+<li><strong>AppleScript Studio</strong> — deprecated by Apple in 2011, removed from Xcode; no realistic user base.</li>
+<li><strong><code>.scptd</code> script bundles</strong> — macOS packages, not files; Zed opens them as folders.</li>
+<li><strong>JavaScript for Automation (JXA) as its own language</strong> — would need a separate grammar.</li>
+<li><strong><code>if cond then &#x3C;command_call></code> one-liner</strong> — known parser gap; supported one-line tails are <code>return</code>, <code>exit</code>, <code>continue</code>, <code>error</code>, <code>log</code>. Use the block form (<code>if cond then\n  command\nend if</code>) for command calls.</li>
+</ul>
+<p><a href="https://github.com/HelgeSverre/zed-applescript/blob/HEAD/docs/references/" target="_blank" rel="noopener"><code>docs/references/</code></a> caches all the authoritative source material (Apple Language Guide, tree-sitter authoring docs, Zed extension docs, external-scanner reference, <a href="https://github.com/HelgeSverre/zed-applescript/blob/HEAD/docs/references/external-scanner/01-scanner-c.md" target="_blank" rel="noopener"><code>docs/references/external-scanner/01-scanner-c.md</code></a> for the C-side TSLexer interface) so any future contributor can extend the grammar without round-tripping through the web.</p>
+<h2 id="user-content-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation"><span class="heading-anchor-icon">#</span></a>Installation</h2>
+<ol>
+<li>Open Zed</li>
+<li>Open the command palette (<code>Cmd+Shift+P</code>)</li>
+<li>Search for "zed: extensions"</li>
+<li>Search for "AppleScript" and click Install</li>
+</ol>
+<h2 id="user-content-supported-syntax"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#supported-syntax"><span class="heading-anchor-icon">#</span></a>Supported Syntax</h2>
+<ul>
+<li><strong>Handlers</strong>: <code>on</code>/<code>to</code> ... <code>end</code></li>
+<li><strong>Tell blocks</strong>: <code>tell application</code> ... <code>end tell</code></li>
+<li><strong>Control flow</strong>: <code>if</code>/<code>then</code>/<code>else</code>, <code>repeat</code>, <code>try</code>/<code>on error</code></li>
+<li><strong>Blocks</strong>: <code>considering</code>, <code>ignoring</code>, <code>with timeout</code>, <code>with transaction</code>, <code>using terms from</code></li>
+<li><strong>Declarations</strong>: <code>property</code>, <code>set</code>, <code>local</code>, <code>global</code></li>
+<li><strong>Use statements</strong>: <code>use application</code>, <code>use framework</code>, <code>use scripting additions</code></li>
+</ul>
+<h2 id="user-content-example"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#example"><span class="heading-anchor-icon">#</span></a>Example</h2>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">use </span><span style="color:#79B8FF;--shiki-dark:#79B8FF">AppleScript</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> version</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> "2.4"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">use scripting additions</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#F97583;--shiki-dark:#F97583">property</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> greeting : </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"Hello"</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#F97583;--shiki-dark:#F97583">on</span><span style="color:#B392F0;--shiki-dark:#B392F0"> sayHello</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">(</span><span style="color:#FFAB70;--shiki-dark:#FFAB70">name</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">)</span></span>
+<span class="line"><span style="color:#F97583;--shiki-dark:#F97583">    tell</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> application</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> "System Events"</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        display dialog</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> greeting </span><span style="color:#F97583;--shiki-dark:#F97583">&#x26;</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> ", "</span><span style="color:#F97583;--shiki-dark:#F97583"> &#x26;</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> name</span><span style="color:#F97583;--shiki-dark:#F97583"> &#x26;</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> "!"</span></span>
+<span class="line"><span style="color:#F97583;--shiki-dark:#F97583">    end tell</span></span>
+<span class="line"><span style="color:#F97583;--shiki-dark:#F97583">end</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> sayHello</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">sayHello(</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"World"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">)</span></span></code></pre>
+<h2 id="user-content-development"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#development"><span class="heading-anchor-icon">#</span></a>Development</h2>
+<p>To test locally:</p>
+<ol>
+<li>Clone this repository</li>
+<li>Open Zed</li>
+<li>Run "zed: install dev extension" from the command palette</li>
+<li>Select the cloned directory</li>
+</ol>
+<div class="markdown-alert markdown-alert-tip" dir="auto">
+<p class="markdown-alert-title" dir="auto"><svg class="octicon" viewBox="0 0 16 16" width="16" height="16"><path d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 0 1-1.484.211c-.04-.282-.163-.547-.37-.847a8.456 8.456 0 0 0-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.751.751 0 0 1-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75ZM5.75 12h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5ZM6 15.25a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 0 1.5h-2.5a.75.75 0 0 1-.75-.75Z"></path></svg>TIP</p>
+<p>In the Finder dialog, press <code>Cmd+Shift+G</code> to open "Go to Folder" and paste a path directly.</p>
+</div>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>This project is licensed under the MIT License. See the <a href="https://github.com/HelgeSverre/zed-applescript/blob/HEAD/LICENSE.md" target="_blank" rel="noopener">LICENSE</a> file for details.</p></article> </main> <footer class="mt-auto" style="background:var(--zed-bg);border-top:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:var(--zed-text-muted);">
+← Back to extension list
+</a> </div> </footer> </body></html>

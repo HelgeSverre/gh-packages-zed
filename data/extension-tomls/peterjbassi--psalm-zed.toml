@@ -1,0 +1,14 @@
+id = "psalm"
+name = "Psalm"
+version = "0.0.1"
+schema_version = 1
+authors = ["Peter"]
+description = "Psalm PHP static analysis integration for Zed"
+repository = "https://github.com/peter/psalm-zed"
+
+[language_servers.psalm]
+name = "Psalm"
+languages = ["PHP"]
+
+[language_servers.psalm.language_ids]
+PHP = "php"

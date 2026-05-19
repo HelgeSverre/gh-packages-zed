@@ -1,0 +1,10 @@
+id = "markdown-fold"
+name = "Markdown Fold"
+version = "0.3.0"
+schema_version = 1
+description = "Markdown heading section folding, code block folding, and blockquote folding"
+authors = ["Rahul Somani"]
+repository = "https://github.com/rsomani95/zed-markdown-fold"
+
+[language_servers.md-fold-server]
+language = "Markdown"

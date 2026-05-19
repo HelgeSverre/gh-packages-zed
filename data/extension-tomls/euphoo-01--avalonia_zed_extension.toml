@@ -1,0 +1,25 @@
+id = "avalonia-zed"
+name = "Avalonia"
+version = "0.0.1"
+schema_version = 1
+authors = ["euphoo-01"]
+description = "Avalonia support for Zed"
+repository = "https://github.com/euphoo-01/avalonia_zed_extension"
+languages = ["languages/avalonia"]
+capabilities = []
+
+[lib]
+kind = "Rust"
+version = "0.7.0"
+
+[grammars.xml]
+repository = "https://github.com/tree-sitter-grammars/tree-sitter-xml"
+rev = "863dbc381f44f6c136a399e684383b977bb2beaa"
+path = "xml"
+
+[language_servers.avalonia-ls]
+language = "Avalonia"
+languages = []
+
+[language_servers.avalonia-ls.language_ids]
+Avalonia = "xml"

@@ -1,0 +1,144 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Stylelint — Zed Extension Safari</title><meta name="description" content="A Zed extension to provide LSP features for Stylelint (based on the official VSCode extension)"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Stylelint — Zed Extension Safari"><meta property="og:description" content="A Zed extension to provide LSP features for Stylelint (based on the official VSCode extension)"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Stylelint — Zed Extension Safari"><meta name="twitter:description" content="A Zed extension to provide LSP features for Stylelint (based on the official VSCode extension)"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.DJSXA_CW.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);">  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-4"> <a href="/gh-packages-zed" class="transition" style="color:var(--zed-text-muted);">← All extensions</a> </nav> <div class="flex flex-wrap items-start justify-between gap-4"> <div class="min-w-0"> <div class="font-mono text-xs mb-2" style="color:var(--zed-muted);"> florian-sanders/zed-stylelint </div> <h1 class="text-2xl sm:text-3xl font-bold break-words leading-tight" style="color:var(--zed-blue-pale);"> Stylelint </h1> <p class="mt-2 text-pretty" style="color:var(--zed-text-muted);"> Stylelint support via the official vscode-stylelint language server </p> </div> <a href="https://github.com/florian-sanders/zed-stylelint" target="_blank" rel="noopener" class="zed-btn-primary shrink-0 inline-flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View on GitHub
+</a> </div> <div class="mt-4 flex flex-wrap items-center gap-2"> <span class="version-pill">v3.0.0</span> <span class="cat-badge" data-cat="language-server">Language Server</span> </div> <div class="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm" style="color:var(--zed-text-muted);"> <span class="inline-flex items-center gap-1"> <svg class="w-4 h-4" style="color:var(--zed-lime);" fill="currentColor" viewBox="0 0 20 20"> <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path> </svg> 17 stars
+</span> <span>Rust</span> <span>MIT</span> <span>Updated 5/2/2026</span> <span>schema v1</span> </div> <div class="mt-2 text-sm" style="color:var(--zed-text-muted);">
+by Florian Sanders </div>  </div> </header> <main class="flex-1 max-w-4xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <article class="prose readme-prose max-w-none"><h1 id="user-content-zed-stylelint-extension"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#zed-stylelint-extension"><span class="heading-anchor-icon">#</span></a>Zed Stylelint Extension</h1>
+<p>This extension provides Stylelint support for Zed by wrapping the official <a href="https://github.com/stylelint/vscode-stylelint">vscode-stylelint</a> language server. <strong>We do not own the language server source code</strong> - this is a Zed wrapper that automatically synchronizes with official vscode-stylelint releases.</p>
+<h2 id="user-content-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation"><span class="heading-anchor-icon">#</span></a>Installation</h2>
+<p>Install from Zed's extension marketplace. The extension automatically downloads the language server from the official <a href="https://npmx.dev/package/@stylelint/language-server"><code>@stylelint/language-server</code></a> npm package published by the <a href="https://github.com/stylelint/vscode-stylelint">vscode-stylelint</a> team. By default the latest published version is used and kept up to date.</p>
+<h2 id="user-content-how-to-configure"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#how-to-configure"><span class="heading-anchor-icon">#</span></a>How to configure?</h2>
+<h3 id="user-content-language-server-version"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#language-server-version"><span class="heading-anchor-icon">#</span></a>Language server version</h3>
+<p>By default the extension installs the <strong>latest published</strong> version of <code>@stylelint/language-server</code>. If you need to lock it to a specific release, set the <code>version</code> field inside <code>lsp.stylelint-lsp.settings</code>:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">// settings.json</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "stylelint-lsp"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "version"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"1.6.0"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>The value must be a valid semver string matching a published version of the package. To browse available versions, search the <a href="https://github.com/stylelint/vscode-stylelint/releases?q=%40stylelint%2Flanguage-server&#x26;expanded=true">vscode-stylelint releases</a> page (look for tags named <code>@stylelint/language-server@&#x3C;version></code>).</p>
+<blockquote>
+<p><strong>Note:</strong> not every language server version is compatible with every version of this extension. If you set <code>version</code> to a value that is too old, the extension will refuse to start and display an error message telling you the minimum version it accepts. If you genuinely need an older language server version, install an earlier release of the zed-stylelint extension from the <a href="https://github.com/florian-sanders/zed-stylelint/releases">Releases page</a> — older releases have a lower minimum.</p>
+</blockquote>
+<h3 id="user-content-general-lsp-settings"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#general-lsp-settings"><span class="heading-anchor-icon">#</span></a>General LSP settings</h3>
+<p>Settings and configuration tweaks are explained in details in the <a href="https://github.com/stylelint/vscode-stylelint/blob/main/README.md">stylelint/vscode-stylelint README</a>.</p>
+<p>In your global or local settings, enable the language server by adding a <code>stylelint-lsp</code> section in <code>lsp</code> section.</p>
+<p>Settings can be passed to the LSP server by adding a <code>settings</code> section inside <code>stylelint-lsp</code>.</p>
+<p>For instance:</p>
+<pre><code class="language-JSON">// settings.json
+{
+  "lsp": {
+    "stylelint-lsp": {
+      "settings": {
+        "stylelint": {
+          // these are the default settings, you shouldn't need to set most of them, only add them as needed
+          "config": null,
+          "configFile": "",
+          "configBasedir": "",
+          "customSyntax": "",
+          "ignoreDisables": false,
+          "packageManager": "npm",
+          "reportDescriptionlessDisables": false,
+          "reportInvalidScopeDisables": false,
+          "reportNeedlessDisables": false,
+          "snippet": ["css", "postcss"],
+          "stylelintPath": "",
+          // if you are using a plugin to process other syntaxes (for instance scss, or css-in-js)
+          // you also need to set the syntax in your stylelint config or in the `customSyntax` setting above
+          // then specify the language identifier related to your custom syntax (for instance `javascript` for `css-in-js`)
+          // for more info refer to: https://github.com/stylelint/vscode-stylelint?tab=readme-ov-file#%EF%B8%8F-only-css-and-postcss-are-validated-by-default
+          "validate": ["css", "postcss"]
+        }
+      }
+    }
+  }
+}
+</code></pre>
+<h3 id="user-content-fix-on-save"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#fix-on-save"><span class="heading-anchor-icon">#</span></a>Fix on save</h3>
+<p>To fix all Stylelint issues on format, enable the related code action from your global or local Zed settings as follows:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">  // Zed / project settings.json</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">  "languages"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">    // language identifier for these settings, see https://zed.dev/docs/configuring-languages#language-specific-settings for more info</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "CSS"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "formatter"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: [</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">        // you may add any other formatter / command before or after in the array</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">        {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">          "external"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">            "command"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"prettier"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">            "arguments"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: [</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"--stdin-filepath"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">, </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"{buffer_path}"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">],</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">          },</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">        },</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">        // this is what enables auto fix on save</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">        { </span><span style="color:#79B8FF;--shiki-dark:#79B8FF">"code_action"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"source.fixAll.stylelint"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> },</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      ],</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    },</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  },</span></span></code></pre>
+<p>More info: <a href="https://zed.dev/docs/reference/all-settings#formatter">Formatters - Zed docs</a></p>
+<h3 id="user-content-vuejs-compatibility"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#vuejs-compatibility"><span class="heading-anchor-icon">#</span></a>Vue.js compatibility</h3>
+<p>To use this extension with Vue.js files in Zed:</p>
+<ol>
+<li>
+<p>Install the <a href="https://github.com/zed-extensions/vue">Vue.js extension for Zed</a> which is required for Vue file support.</p>
+</li>
+<li>
+<p>Configure the Stylelint LSP settings to validate Vue files by adding <code>"vue.js"</code> to the validate array (note the <code>.js</code> suffix - this is the language identifier used by the Vue extension):</p>
+</li>
+</ol>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"lsp"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "stylelint-lsp"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "settings"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "stylelint"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">        ...</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "validate"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: [</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"css"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">, </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"postcss"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">, </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"vue.js"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">        ...</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<ol start="3">
+<li>Set up (postcss-html)[<a href="https://github.com/ota-meshi/postcss-html">https://github.com/ota-meshi/postcss-html</a>] custom syntax for Vue files in your project. You can do this in one of two ways:</li>
+</ol>
+<ul>
+<li>Add the <code>customSyntax</code> setting in your project's Stylelint config file,</li>
+<li>Configure it in your Zed settings via the LSP settings (<code>lsp.stylelint-lsp.settings.stylelint.customSyntax</code>).</li>
+</ul>
+<p>If you're using <a href="https://github.com/ota-meshi/stylelint-config-recommended-vue">stylelint-config-recommended-vue</a>, the custom syntax is already bundled and configured for you.</p>
+<p>Note that unlike in VSCode, you need to explicitly set the custom syntax in Zed, but the dependency requirements are the same for both editors.</p>
+<h3 id="user-content-disabling-unrequested-autocomplete-snippets"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#disabling-unrequested-autocomplete-snippets"><span class="heading-anchor-icon">#</span></a>Disabling unrequested autocomplete (snippets)</h3>
+<p>The source language server provides snippets via autocomplete to generate disable stylelint comments.</p>
+<p>If you experience autocomplete popping up constantly in CSS context, you may disable this feature by setting this:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">// zed or project settings.json</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"lsp"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "stylelint-lsp"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "settings"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "stylelint"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "snippet"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: [],</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      },</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    },</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  },</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">},</span></span></code></pre>
+<p>Note that generating disable comments is still available through code actions.</p>
+<p>More info:</p>
+<ul>
+<li><a href="https://github.com/florian-sanders/zed-stylelint/issues/60">Issue #60</a></li>
+<li><a href="https://github.com/stylelint/vscode-stylelint#stylelintsnippet">Source language server docs</a></li>
+</ul>
+<h2 id="user-content-what-this-extension-does"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#what-this-extension-does"><span class="heading-anchor-icon">#</span></a>What This Extension Does</h2>
+<p>This extension acts as a bridge between Zed and the official vscode-stylelint language server. It:</p>
+<ul>
+<li>Automatically downloads the language server from the official <a href="https://npmx.dev/package/@stylelint/language-server"><code>@stylelint/language-server</code></a> npm package</li>
+<li>Always uses the latest published version by default, keeping you up to date with official vscode-stylelint releases</li>
+<li>Allows pinning the language server to a specific version via <code>lsp.stylelint-lsp.settings.version</code> (see <a href="#language-server-version">Language server version</a> above)</li>
+<li>Provides Zed-specific integration and configuration</li>
+</ul>
+<h2 id="user-content-acknowledgment"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#acknowledgment"><span class="heading-anchor-icon">#</span></a>Acknowledgment</h2>
+<p>This extension code is heavily inspired by the <a href="https://github.com/zed-industries/zed/tree/main/extensions/html"><code>html</code> extension in zed</a>.</p>
+<p>As said above, the whole language server code comes from <a href="https://github.com/stylelint/vscode-stylelint">stylelint/vscode-stylelint</a> so credit goes to them really!</p>
+<h2 id="user-content-version-information"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#version-information"><span class="heading-anchor-icon">#</span></a>Version Information</h2>
+<p>The language server is the official <a href="https://npmx.dev/package/@stylelint/language-server"><code>@stylelint/language-server</code></a> npm package, maintained by the <a href="https://github.com/stylelint/vscode-stylelint">vscode-stylelint</a> team. Each version of this extension declares a minimum supported language server version — attempting to use an older server version will result in a descriptive error.</p>
+<p>Check the <a href="https://github.com/stylelint/vscode-stylelint/releases?q=%40stylelint%2Flanguage-server&#x26;expanded=true">vscode-stylelint releases</a> page to browse available language server versions.</p></article> </main> <footer class="mt-auto" style="background:var(--zed-bg);border-top:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:var(--zed-text-muted);">
+← Back to extension list
+</a> </div> </footer> </body></html>

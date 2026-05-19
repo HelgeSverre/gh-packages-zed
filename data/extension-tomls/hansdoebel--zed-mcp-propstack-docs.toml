@@ -1,0 +1,10 @@
+id = "propstack-docs-mcp"
+name = "Propstack Docs MCP Server"
+version = "0.2.0"
+schema_version = 1
+authors = ["Hans Doebel <hansdev@mailbox.org>"]
+description = "Propstack Docs MCP Server for Zed (https://docs.propstack.de/~gitbook/mcp)"
+repository = "https://github.com/hansdoebel/zed-mcp-propstack-docs"
+
+[context_servers.propstack-docs-mcp]
+name = "Propstack Docs MCP Server"

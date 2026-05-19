@@ -1,0 +1,11 @@
+id = "wolfram-lsp"
+name = "Wolfram Language LSP"
+version = "0.0.1"
+schema_version = 1
+authors = ["Riccardo Di Virgilio <riccardodivirgilio@gmail.com>"]
+description = "Wolfram Language Server Protocol support for Zed (requires WolframKernel)"
+repository = "https://github.com/riccardodivirgilio/zed-wolfram-lsp"
+
+[language_servers.wolfram-lsp]
+name = "Wolfram LSP"
+languages = ["Wolfram"]

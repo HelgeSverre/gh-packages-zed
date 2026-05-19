@@ -1,0 +1,173 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Blue CSV — Zed Extension Safari</title><meta name="description" content="Spreadsheet-like CSV editing in Zed Editor"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Blue CSV — Zed Extension Safari"><meta property="og:description" content="Spreadsheet-like CSV editing in Zed Editor"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Blue CSV — Zed Extension Safari"><meta name="twitter:description" content="Spreadsheet-like CSV editing in Zed Editor"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.DJSXA_CW.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);">  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-4"> <a href="/gh-packages-zed" class="transition" style="color:var(--zed-text-muted);">← All extensions</a> </nav> <div class="flex flex-wrap items-start justify-between gap-4"> <div class="min-w-0"> <div class="font-mono text-xs mb-2" style="color:var(--zed-muted);"> anistark/bluecsv </div> <h1 class="text-2xl sm:text-3xl font-bold break-words leading-tight" style="color:var(--zed-blue-pale);"> Blue CSV </h1> <p class="mt-2 text-pretty" style="color:var(--zed-text-muted);"> Spreadsheet-like CSV editing in Zed. </p> </div> <a href="https://github.com/anistark/bluecsv" target="_blank" rel="noopener" class="zed-btn-primary shrink-0 inline-flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View on GitHub
+</a> </div> <div class="mt-4 flex flex-wrap items-center gap-2"> <span class="version-pill">v0.6.3</span> <span class="cat-badge" data-cat="grammar">Grammar</span><span class="cat-badge" data-cat="language-server">Language Server</span> </div> <div class="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm" style="color:var(--zed-text-muted);"> <span class="inline-flex items-center gap-1"> <svg class="w-4 h-4" style="color:var(--zed-lime);" fill="currentColor" viewBox="0 0 20 20"> <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path> </svg> 0 stars
+</span> <span>Rust</span> <span>MIT</span> <span>Updated 4/23/2026</span> <span>schema v1</span> </div> <div class="mt-2 text-sm" style="color:var(--zed-text-muted);">
+by Kumar Anirudha </div> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> csv </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> spreadsheet </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> wasm </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed-extension </span> </div> </div> </header> <main class="flex-1 max-w-4xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <article class="prose readme-prose max-w-none"><h1 id="user-content-blue-csv"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#blue-csv"><span class="heading-anchor-icon">#</span></a>Blue CSV</h1>
+<p><a href="https://github.com/anistark/bluecsv/actions/workflows/ci.yml"><img src="https://github.com/anistark/bluecsv/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+<a href="https://crates.io/crates/bluecsv"><img src="https://img.shields.io/crates/v/bluecsv?label=bluecsv" alt="crates.io: bluecsv"></a>
+<a href="https://crates.io/crates/bluecsv-ls"><img src="https://img.shields.io/crates/v/bluecsv-ls?label=bluecsv-ls" alt="crates.io: bluecsv-ls"></a>
+<a href="https://zed.dev/extensions?query=bluecsv"><img src="https://img.shields.io/badge/Zed-extension-084ccf" alt="Zed Extension"></a>
+<a href="https://github.com/anistark/bluecsv/blob/HEAD/LICENSE" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/license-MIT-yellow.svg" alt="License: MIT"></a></p>
+<p>A <a href="https://zed.dev">Zed</a> editor extension that makes CSV files feel like a spreadsheet — without leaving the text buffer.</p>
+<blockquote>
+<p><strong>Status:</strong> pre-alpha. v0.6.0 adds markdown-table round-trip: <code>bluecsv.toMarkdownTable</code> renders the buffer as a GitHub-flavored pipe table, <code>bluecsv.fromMarkdownTable</code> parses one back. If a <code>plan/</code> directory is present in your checkout, it holds design docs and roadmap notes.</p>
+</blockquote>
+<h2 id="user-content-what-it-does"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#what-it-does"><span class="heading-anchor-icon">#</span></a>What it does</h2>
+<p>Zed's extension API doesn't currently support custom file-renderers, so Blue CSV works with the text buffer you already have and makes it behave more like a grid:</p>
+<ul>
+<li><strong>Rainbow columns</strong> — each column gets its own color, so rows and columns are scannable at a glance. Powered by <a href="https://github.com/anistark/tree-sitter-csv"><code>tree-sitter-csv</code></a>.</li>
+<li><strong>Column alignment</strong> — pad fields so columns line up in a monospace view. Toggleable.</li>
+<li><strong>Markdown-table round-trip</strong> — convert <code>a,b,c</code> ↔ <code>| a | b | c |</code> and back.</li>
+<li><strong>Cell navigation</strong> — Tab / Shift-Tab hop between fields; commands for add-column, delete-column, duplicate-row, header-aware sort.</li>
+<li><strong>Column-aware LSP</strong> — diagnostics for row-width mismatches and unterminated quotes; completions drawn from values already seen in that column; hover shows <code>column name + row index</code>.</li>
+<li><strong>Type inference</strong> — columns are classified as int, float, date, or string. Hover on a data cell shows the inferred type; hover on a header cell shows a summary (count, distinct, min, max, sum, mean). Outlier cells in typed columns surface as diagnostics.</li>
+</ul>
+<p>Supports <code>.csv</code> and custom delimiters.</p>
+<h2 id="user-content-install"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#install"><span class="heading-anchor-icon">#</span></a>Install</h2>
+<p>Not yet published to Zed's extensions registry. Until then, install it as a dev extension:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">git</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> clone</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> https://github.com/anistark/bluecsv.git</span></span></code></pre>
+<p>In Zed, open the command palette and run <strong>zed: install dev extension</strong>, then point it at the cloned directory (the one containing <code>extension.toml</code>). The extension will auto-download a matching <code>bluecsv-ls</code> release on first use.</p>
+<p>See <a href="https://github.com/anistark/bluecsv/blob/HEAD/CONTRIBUTING.md" target="_blank" rel="noopener">CONTRIBUTING.md</a> for the full local-dev setup.</p>
+<h2 id="user-content-lsp-commands"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#lsp-commands"><span class="heading-anchor-icon">#</span></a>LSP commands</h2>
+<p>Every transform is also surfaced as a <strong>code action</strong>: put your cursor in the file, open <code>editor: toggle code actions</code> (<code>cmd-.</code> by default), and pick one. Cell-scoped actions (delete column, duplicate row, sort by column) read the column / row from the cursor position.</p>
+<p>The language server also exposes these raw <code>workspace/executeCommand</code> names, usable from keybindings or other clients:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Command</th><th>Arguments</th><th>Effect</th></tr></thead><tbody><tr><td><code>bluecsv.align</code></td><td><code>[uri]</code></td><td>Pad every field with trailing spaces so columns line up.</td></tr><tr><td><code>bluecsv.unalign</code></td><td><code>[uri]</code></td><td>Strip alignment padding.</td></tr><tr><td><code>bluecsv.addColumn</code></td><td><code>[{uri}]</code></td><td>Append an empty column (with generated header if <code>hasHeader</code>).</td></tr><tr><td><code>bluecsv.deleteColumn</code></td><td><code>[{uri, col}]</code></td><td>Remove column at index <code>col</code>.</td></tr><tr><td><code>bluecsv.duplicateRow</code></td><td><code>[{uri, row}]</code></td><td>Duplicate row at index <code>row</code>.</td></tr><tr><td><code>bluecsv.sortByColumn</code></td><td><code>[{uri, col, ascending?}]</code></td><td>Sort rows by <code>col</code>; header row kept in place when <code>hasHeader</code>.</td></tr><tr><td><code>bluecsv.nextCell</code></td><td><code>[{uri, position}]</code></td><td>Request the editor move the cursor to the next cell.</td></tr><tr><td><code>bluecsv.prevCell</code></td><td><code>[{uri, position}]</code></td><td>Request the editor move the cursor to the previous cell.</td></tr><tr><td><code>bluecsv.toMarkdownTable</code></td><td><code>[uri]</code></td><td>Rewrite the buffer as a GitHub-flavored pipe table.</td></tr><tr><td><code>bluecsv.fromMarkdownTable</code></td><td><code>[uri]</code></td><td>Parse a pipe table back into CSV.</td></tr><tr><td><code>bluecsv.columnSummary</code></td><td><code>[{uri, col}]</code></td><td>Return <code>{type, confidence, count, distinct, min, max, sum, mean, mismatchRows}</code> as JSON.</td></tr></tbody></table>
+<p>Zed extensions can't contribute keybindings directly — Tab / Shift-Tab cell navigation will land once the extension API grows a keymap hook, or you can wire the commands above manually in your Zed <code>keymap.json</code>.</p>
+<h2 id="user-content-alignment-vs-markdown-table"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#alignment-vs-markdown-table"><span class="heading-anchor-icon">#</span></a>Alignment vs. markdown-table</h2>
+<p>Both commands make a CSV easier to read in a monospace buffer, but they serve different purposes:</p>
+<ul>
+<li><strong>Align</strong> (<code>bluecsv.align</code>) pads fields with trailing spaces. The buffer is still a valid CSV — every downstream tool keeps working — and <code>bluecsv.unalign</code> restores the canonical form exactly.</li>
+<li><strong>Markdown table</strong> (<code>bluecsv.toMarkdownTable</code>) rewrites the buffer as <code>| a | b |</code> rows with a <code>| --- |</code> separator. The output is no longer CSV; it's intended for previewing in Zed's markdown preview, pasting into docs, or diffing as prose. <code>bluecsv.fromMarkdownTable</code> reverses it.</li>
+</ul>
+<p>Round-trip CSV → markdown → CSV is lossy for these cases:</p>
+<ul>
+<li>Leading / trailing whitespace inside a field is trimmed (markdown cells are whitespace-stripped).</li>
+<li>Fields that needed CSV quoting only for non-RFC reasons (e.g. a <code>|</code>) may come back unquoted — semantically equivalent, textually different.</li>
+<li><code>\r</code> / <code>\n</code> inside a field are encoded as <code>&#x3C;br></code> in markdown and restored on the way back.</li>
+</ul>
+<p>Simple canonical CSV (no padding inside fields) round-trips exactly.</p>
+<h2 id="user-content-type-inference"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#type-inference"><span class="heading-anchor-icon">#</span></a>Type inference</h2>
+<p>Columns are classified by scanning all non-empty cells. A column is assigned a type (int, float, date, string) when at least <strong>90%</strong> of its non-empty cells match that type and at least <strong>3</strong> non-empty cells exist; otherwise it falls back to <code>string</code>. Numeric promotion: int cells satisfy a float column.</p>
+<p>Recognized dates are ISO-ish: <code>YYYY-MM-DD</code>, <code>YYYY/MM/DD</code>, and <code>YYYY-MM-DDTHH:MM:SS</code> with optional <code>Z</code> or <code>±HH:MM</code> suffix. Ambiguous shapes like <code>MM/DD/YYYY</code> are left as strings.</p>
+<h2 id="user-content-settings"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#settings"><span class="heading-anchor-icon">#</span></a>Settings</h2>
+<p>All settings live under the <code>bluecsv.*</code> namespace in Zed's <code>settings.json</code> (or <code>lsp.bluecsv.initialization_options</code>).</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Key</th><th>Type</th><th>Default</th><th>Effect</th></tr></thead><tbody><tr><td><code>hasHeader</code></td><td><code>bool</code></td><td><code>true</code></td><td>Treat row 0 as a header. Affects sorting, completions, inference, and hover.</td></tr><tr><td><code>alignOnSave</code></td><td><code>bool</code></td><td><code>false</code></td><td>Run <code>bluecsv.align</code> automatically on save.</td></tr><tr><td><code>inferTypes</code></td><td><code>bool</code></td><td><code>true</code></td><td>Enable hover type labels, header summaries, and type-mismatch diagnostics.</td></tr><tr><td><code>typeMismatchSeverity</code></td><td><code>"warning"</code> | <code>"hint"</code> | <code>"off"</code></td><td><code>"warning"</code></td><td>Diagnostic level for cells that don't match their column's inferred type.</td></tr><tr><td><code>maxBufferBytes</code></td><td><code>integer</code></td><td><code>10485760</code> (10 MB)</td><td>Size cap (in bytes) above which <code>inferTypes</code> and <code>alignOnSave</code> are skipped. Basic diagnostics (row-width, unterminated quotes) and completions still run. Set to <code>0</code> to disable the cap.</td></tr></tbody></table>
+<h2 id="user-content-cli"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#cli"><span class="heading-anchor-icon">#</span></a>CLI</h2>
+<p>The <code>bluecsv</code> CLI exposes the library for use outside the editor.</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">bluecsv</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> align</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> data.csv</span><span style="color:#6A737D;--shiki-dark:#6A737D">              # pad columns to width</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">bluecsv</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> unalign</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> data.csv</span><span style="color:#6A737D;--shiki-dark:#6A737D">            # strip padding</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">bluecsv</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> infer</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> data.csv</span><span style="color:#6A737D;--shiki-dark:#6A737D">              # per-column: type, confidence, empty, mismatches</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">bluecsv</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> stats</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> data.csv</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> 2</span><span style="color:#6A737D;--shiki-dark:#6A737D">            # min/max/sum/mean/count/distinct for column index 2</span></span></code></pre>
+<p><code>align</code> and <code>unalign</code> stream the file through a two-pass algorithm when it exceeds 10 MB, keeping peak memory bounded. Override with <code>--stream</code> / <code>--no-stream</code>, or change the auto-detection threshold via the <code>BLUECSV_STREAM_THRESHOLD</code> environment variable (bytes). Stdin always buffers, because pipes can't be rewound for the second pass.</p>
+<h2 id="user-content-contributing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#contributing"><span class="heading-anchor-icon">#</span></a>Contributing</h2>
+<p>See <a href="https://github.com/anistark/bluecsv/blob/HEAD/CONTRIBUTING.md" target="_blank" rel="noopener">CONTRIBUTING.md</a>.</p>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p><a href="https://github.com/anistark/bluecsv/blob/HEAD/LICENSE" target="_blank" rel="noopener">MIT</a> © Kumar Anirudha.</p></article> </main> <footer class="mt-auto" style="background:var(--zed-bg);border-top:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:var(--zed-text-muted);">
+← Back to extension list
+</a> </div> </footer> </body></html>

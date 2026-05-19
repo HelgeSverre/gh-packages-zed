@@ -1,0 +1,351 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Ultralytics Snippets — Zed Extension Safari</title><meta name="description" content="Ultralytics snippets for Zed IDE"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Ultralytics Snippets — Zed Extension Safari"><meta property="og:description" content="Ultralytics snippets for Zed IDE"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Ultralytics Snippets — Zed Extension Safari"><meta name="twitter:description" content="Ultralytics snippets for Zed IDE"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.DJSXA_CW.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);">  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-4"> <a href="/gh-packages-zed" class="transition" style="color:var(--zed-text-muted);">← All extensions</a> </nav> <div class="flex flex-wrap items-start justify-between gap-4"> <div class="min-w-0"> <div class="font-mono text-xs mb-2" style="color:var(--zed-muted);"> ayberkgezer/ultralytics-zed-snippets </div> <h1 class="text-2xl sm:text-3xl font-bold break-words leading-tight" style="color:var(--zed-blue-pale);"> Ultralytics Snippets </h1> <p class="mt-2 text-pretty" style="color:var(--zed-text-muted);"> Ultralytics snippets for Zed IDE. </p> </div> <a href="https://github.com/ayberkgezer/ultralytics-zed-snippets" target="_blank" rel="noopener" class="zed-btn-primary shrink-0 inline-flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View on GitHub
+</a> </div> <div class="mt-4 flex flex-wrap items-center gap-2"> <span class="version-pill">v0.0.2</span> <span class="cat-badge" data-cat="snippets">Snippets</span> </div> <div class="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm" style="color:var(--zed-text-muted);"> <span class="inline-flex items-center gap-1"> <svg class="w-4 h-4" style="color:var(--zed-lime);" fill="currentColor" viewBox="0 0 20 20"> <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path> </svg> 1 stars
+</span>  <span>AGPL-3.0</span> <span>Updated 3/28/2025</span> <span>schema v1</span> </div> <div class="mt-2 text-sm" style="color:var(--zed-text-muted);">
+by Ayberk Gezer </div> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> python </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> snippets </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> snippets-plugin </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> ultralytics </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed-extension </span> </div> </div> </header> <main class="flex-1 max-w-4xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <article class="prose readme-prose max-w-none"><h1 id="user-content-ultralytics-zed-snippets"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#ultralytics-zed-snippets"><span class="heading-anchor-icon">#</span></a>Ultralytics Zed Snippets</h1>
+<p>Ultralytics snippets for Zed IDE.</p>
+<ul>
+<li>This project is an adaptation of the VSCode plugin called <a href="https://github.com/Burhan-Q/ultralytics-snippets">ultralytics-snippets</a> created by <a href="https://github.com/Burhan-Q">Burhan-Q</a>.</li>
+</ul>
+<h2 id="user-content-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation"><span class="heading-anchor-icon">#</span></a>Installation</h2>
+<h3 id="user-content-method-1"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#method-1"><span class="heading-anchor-icon">#</span></a>Method 1</h3>
+<ol>
+<li>Go to Extensions menu in Zed IDE</li>
+<li>Search for "ultralytics-zed-snippets"</li>
+<li>Click "Install"</li>
+</ol>
+<h3 id="user-content-method-2"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#method-2"><span class="heading-anchor-icon">#</span></a>Method 2</h3>
+<ol>
+<li>Clone this repo:</li>
+</ol>
+<pre><code>git clone https://github.com/ayberkgezer/ultralytics-zed-snippets.git
+</code></pre>
+<ol start="2">
+<li>Go to Extensions menu in Zed IDE</li>
+<li>Click "Install Dev Extension"</li>
+<li>Select the folder you cloned</li>
+</ol>
+<h2 id="user-content-usage"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#usage"><span class="heading-anchor-icon">#</span></a>Usage</h2>
+<p>Start typing <code>ultra.</code> in a Python file to see the available snippets. Snippets are organized into categories:</p>
+<ul>
+<li><code>ultra.yolo-*</code>: YOLO model operations</li>
+<li><code>ultra.sam-*</code>: SAM model operations</li>
+<li><code>ultra.util-*</code>: Utility functions</li>
+<li><code>ultra.result-*</code>: Working with results</li>
+<li><code>ultra.kwargs-*</code>: Method arguments</li>
+<li><code>ultra.example-*</code>: Complete examples</li>
+<li><code>ultra.import-*</code>: Import statements</li>
+</ul>
+<h2 id="user-content-import"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#import"><span class="heading-anchor-icon">#</span></a>Import</h2>
+<p>Import snippets are for common objects that would be imported from the Ultralytics library.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Alias</th><th>Description</th></tr></thead><tbody><tr><td><code>ultra.import-model</code></td><td>Add line to import Ultralytics YOLO</td></tr><tr><td><code>ultra.import-assets</code></td><td>Import Ultralytics ASSETS directory constant.</td></tr><tr><td><code>ultra.import-results</code></td><td>Import Ultralytics Results class (usually for type hinting).</td></tr><tr><td><code>ultra.import-annotator</code></td><td>Import Ultralytics auto_annotate function.</td></tr><tr><td><code>ultra.import-coco2yolo</code></td><td>Import Ultralytics function to convert annotations from COCO to YOLO format.</td></tr><tr><td><code>ultra.import-bbox2seg</code></td><td>Import Ultralytics function to convert horizontal bounding boxes to segmentation contours.</td></tr><tr><td><code>ultra.import-seg2bbox</code></td><td>Import Ultralytics function to convert segmentation contours into horizontal bounding boxes.</td></tr><tr><td><code>ultra.import-box-convert</code></td><td>Import Ultralytics function for converting bounding box coordinates.</td></tr><tr><td><code>ultra.import-formats</code></td><td>Import Ultralytics supported file formats constant.</td></tr><tr><td><code>ultra.import-task-result</code></td><td>Import task-based results class (generally helpful for type hinting).</td></tr></tbody></table>
+<h2 id="user-content-results"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#results"><span class="heading-anchor-icon">#</span></a>Results</h2>
+<p>These snippets will provide shortcuts for working with <code>ultralytics.engine.results.Results</code> objects returned from model inference. See the [Working with Results][pred results] of the documentation and the [Results class] reference page for more information.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Alias</th><th>Description</th></tr></thead><tbody><tr><td><code>ultra.result-class-str</code></td><td>Convert class indices to class string names for a single image result.</td></tr><tr><td><code>ultra.result-data</code></td><td>Get result data array of detections from a single image result.</td></tr><tr><td><code>ultra.result-loop</code></td><td>Iterate prediction results from an Ultralytics model.</td></tr><tr><td><code>ultra.result-box-xyxy</code></td><td>Get pixel-value <code>(x1, y1, x2, y2)</code> bounding box coordinates from a single image result.</td></tr><tr><td><code>ultra.result-box-xywh</code></td><td>Get pixel-value <code>(x-center, y-center, w, h)</code> bounding box coordinates from a single image result.</td></tr><tr><td><code>ultra.result-mask-binary</code></td><td>Get binary segmentation masks from a single image result. NOTE: <code>[N, H, W]</code> shape, with inference H, W dimensions.</td></tr><tr><td><code>ultra.result-mask-contours</code></td><td>Get segmentation contours with pixel value <code>xy</code> or normalized <code>xyn</code> coordinates.</td></tr><tr><td><code>ultra.result-obb-xywhr</code></td><td>Get OBB rotated bounding boxes in pixel value <code>[x, y, w, h, r]</code> coordinates as torch.Tensor array.</td></tr><tr><td><code>ultra.result-orig-image</code></td><td>Get original image from a single image result.</td></tr><tr><td><code>ultra.result-filter-class</code></td><td>Filter prediction results by class ID. Using <code>classes</code> keyword argument for prediction should be preferred.</td></tr></tbody></table>
+<h2 id="user-content-models"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#models"><span class="heading-anchor-icon">#</span></a>Models</h2>
+<p>Shortcuts for initializing pretrained [Ultralytics models][models], like [YOLOv8].</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Alias</th><th>Description</th><th>Reference</th></tr></thead><tbody><tr><td><code>ultra.yolo-model</code></td><td>Shortcut to initialize YOLO model.</td><td>[YOLOv5], [YOLOv8], [YOLOv9], [YOLOv10], [YOLO-World]</td></tr><tr><td><code>ultra.yolo-export</code></td><td>Shortcut to export YOLO model weights.</td><td>[Model Export]</td></tr><tr><td><code>ultra.sam-model</code></td><td>Shortcut to initialize SAM.</td><td>[SAM]</td></tr><tr><td><code>ultra.mobileam-model</code></td><td>Shortcut to initialize MobileSAM.</td><td>[Mobile SAM]</td></tr><tr><td><code>ultra.fastam-model</code></td><td>Shortcut to initialize FastSAM.</td><td>[FastSAM]</td></tr><tr><td><code>ultra.nas-model</code></td><td>Shortcut to initialize YOLO-NAS model.</td><td>[YOLO-NAS]</td></tr><tr><td><code>ultra.rtdetr-model</code></td><td>Shortcut to initialize RTDETR model.</td><td>[RTDETR]</td></tr><tr><td><code>ultra.yolo-world-model</code></td><td>Shortcut to initialize YOLO-world model, with class prompts.</td><td>[YOLO-World]</td></tr><tr><td><code>ultra.sam2-bboxes</code></td><td>Shortcut to initialize YOLO-World model with text prompts.</td><td>[SAM2]</td></tr><tr><td><code>ultra.sam2-points</code></td><td>Shortcut to initialize YOLO-World model with text prompts.</td><td>[SAM2]</td></tr></tbody></table>
+<h2 id="user-content-utilities"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#utilities"><span class="heading-anchor-icon">#</span></a>Utilities</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Alias</th><th>Description</th><th>Reference</th></tr></thead><tbody><tr><td><code>ultra.util-auto-annotate</code></td><td>Use Ultralytics auto_annotate function to generate annotations.</td><td>[<code>auto_annotator</code> fucntion][auto ann]</td></tr><tr><td><code>ultra.util-annotator</code></td><td>Use Ultralytics Annotator class to draw box annotations</td><td>[<code>Annotator</code> class][ann]</td></tr><tr><td><code>ultra.util-make-divisible</code></td><td>Use Ultralytics make_divisible function to make a number divisible by another.</td><td>[<code>make_divisible</code> function][divisible]</td></tr><tr><td><code>ultra.util-callback</code></td><td>Shortcut for adding custom model callback for a defined function.</td><td>[<code>callbacks</code>][callbacks]</td></tr></tbody></table>
+<h2 id="user-content-examples"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#examples"><span class="heading-anchor-icon">#</span></a>Examples</h2>
+<p>The Example snippets are more "complete" blocks of code that can be used for boilerplate demonstrations.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Prefix</th><th>Description</th></tr></thead><tbody><tr><td><code>ultra.example-predict-filter-class</code></td><td>Ultralytics basic YOLO object detection predict with filtered classes example.</td></tr><tr><td><code>ultra.example-result-filter-class</code></td><td>Filter prediction results by class ID. Using "classes" keyword argument for prediction should be preferred.</td></tr><tr><td><code>ultra.example-yolo-predict</code></td><td>Setup Ultralytics YOLO to perform predict (simple).</td></tr><tr><td><code>ultra.example-yolo-val</code></td><td>Setup Ultralytics YOLO to perform validation (simple).</td></tr><tr><td><code>ultra.example-yolo-train</code></td><td>Setup Ultralytics YOLO to perform training (simple).</td></tr><tr><td><code>ultra.example-yolo-predict-kwords</code></td><td>Setup Ultralytics YOLO to perform inference, show <strong>all</strong> inference keyword arguments and their default values.</td></tr><tr><td><code>ultra.example-yolo-train-kwords</code></td><td>Setup Ultralytics YOLO for training, with <strong>all</strong> keyword arguments and their default values.</td></tr><tr><td><code>ultra.example-sam-predict</code></td><td>Setup Ultralytics SAM to perform inference (simple).</td></tr><tr><td><code>ultra.example-sam2</code></td><td>Example showing use of SAM2 with bounding box and point prompts.</td></tr><tr><td><code>ultra.example-mobile-sam-predict</code></td><td>Setup Ultralytics MobileSAM to perform inference (simple).</td></tr><tr><td><code>ultra.example-fast-sam-predict</code></td><td>Setup Ultralytics FastSAM to perform inference (simple).</td></tr><tr><td><code>ultra.example-nas-predict</code></td><td>Setup Ultralytics NAS to perform inference (simple).</td></tr><tr><td><code>ultra.example-rtdetr-predict</code></td><td>Setup Ultralytics RT-DETR to perform inference (simple).</td></tr><tr><td><code>ultra.example-callback</code></td><td>Example showing how to add a custom callback function.</td></tr><tr><td><code>ultra.example-track-loop-persist</code></td><td>Example of how to open video, loop frames, and maintain tracked object IDs.</td></tr><tr><td><code>ultra.example-track-kwords</code></td><td>Example showing all keyword arguments available for track mode.</td></tr></tbody></table>
+<h2 id="user-content-kwargs"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#kwargs"><span class="heading-anchor-icon">#</span></a>KWARGS</h2>
+<p>Use these to insert the various model methods defined in [modes] with all keyword arguments, default values, and commented descriptions quickly into your code. Includes <code>model</code> as default variable, but is an editable field accessible using tab stops.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Prefix</th><th>Description</th><th>Reference</th></tr></thead><tbody><tr><td><code>ultra.kwargs-predict</code></td><td>Snippet using model <code>predict</code> method, including all keyword arguments and defaults.</td><td>[predict]</td></tr><tr><td><code>ultra.kwargs-train</code></td><td>Snippet using model <code>train</code> method, including all keyword arguments and defaults.</td><td>[train]</td></tr><tr><td><code>ultra.kwargs-track</code></td><td>Snippet using model <code>track</code> method, including all keyword arguments and defaults.</td><td>[track]</td></tr><tr><td><code>ultra.kwargs-val</code></td><td>Snippet using model <code>val</code> method, including all keyword arguments and defaults.</td><td>[val]</td></tr></tbody></table>
+<h2 id="user-content-credits-and-attribution"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#credits-and-attribution"><span class="heading-anchor-icon">#</span></a>Credits and Attribution</h2>
+<p>This project is an adaptation of the VSCode plugin called <a href="https://github.com/Burhan-Q/ultralytics-snippets">ultralytics-snippets</a> created by <a href="https://github.com/Burhan-Q">Burhan-Q</a>. The original project is licensed under AGPL-3.0. All content structure, descriptions, and snippet design have been adapted for Zed IDE from the original VSCode extension. Full credit for the original concept, structure, and content goes to the original author.</p>
+<p>Original source: <a href="https://github.com/Burhan-Q/ultralytics-snippets">Github - ultralytics-snippets</a></p></article> </main> <footer class="mt-auto" style="background:var(--zed-bg);border-top:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:var(--zed-text-muted);">
+← Back to extension list
+</a> </div> </footer> </body></html>

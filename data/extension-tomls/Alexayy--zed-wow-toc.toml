@@ -1,0 +1,11 @@
+id = "wow-toc"
+name = "World of Warcraft TOC"
+version = "0.0.1"
+schema_version = 1
+authors = ["Alexayy <aleksa.cakic@gmail.com>"]
+description = "Syntax for .toc WoW addon manifests"
+repository = "https://github.com/Alexayy/zed-wow-toc"
+
+[grammars.wow_toc]
+repository = "https://github.com/Alexayy/tree-sitter-wow_toc"
+rev = "64bb8008cb206452735236da04af293a84d0f9b2"

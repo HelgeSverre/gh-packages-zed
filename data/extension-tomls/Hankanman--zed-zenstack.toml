@@ -1,0 +1,19 @@
+id = "zenstack"
+name = "ZenStack"
+description = "ZenStack ZModel language support: syntax highlighting, outline, and language server integration."
+version = "0.0.1"
+schema_version = 1
+authors = ["Hankanman"]
+repository = "https://github.com/Hankanman/zed-zenstack"
+
+# The `zmodel-language-server` npm package isn't published yet. For local
+# testing without publishing, set a `binary.path` override in your Zed
+# settings.json — see README.md "Testing the LSP locally" for the snippet.
+# Without an override, Zed will try to npm-install the package and fail.
+[language_servers.zmodel-language-server]
+name = "ZModel Language Server"
+language = "ZModel"
+
+[grammars.zmodel]
+repository = "https://github.com/Hankanman/tree-sitter-zmodel"
+commit = "29176c5a87dc7d80aabb09e20fbc0c3de8e51837"

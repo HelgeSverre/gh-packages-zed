@@ -1,0 +1,11 @@
+id = "pascal"
+name = "Pascal"
+version = "0.1.0"
+schema_version = 1
+authors = ["Guilherme Caldas <gcaldas@chemis.tech>"]
+description = "Pascal language support."
+repository = "https://github.com/ChemisTechlabs/zed-pascal"
+
+[grammars.pascal]
+repository = "https://github.com/ChemisTechlabs/tree-sitter-pascal"
+rev = "489e273895a452a79dc74749ed99793d20ee85c1"

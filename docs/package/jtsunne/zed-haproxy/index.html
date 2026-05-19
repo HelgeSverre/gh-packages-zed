@@ -1,0 +1,247 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>haproxy — Zed Extension Safari</title><meta name="description" content="HAproxy support"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="haproxy — Zed Extension Safari"><meta property="og:description" content="HAproxy support"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="haproxy — Zed Extension Safari"><meta name="twitter:description" content="HAproxy support"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.DJSXA_CW.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);">  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-4"> <a href="/gh-packages-zed" class="transition" style="color:var(--zed-text-muted);">← All extensions</a> </nav> <div class="flex flex-wrap items-start justify-between gap-4"> <div class="min-w-0"> <div class="font-mono text-xs mb-2" style="color:var(--zed-muted);"> jtsunne/zed-haproxy </div> <h1 class="text-2xl sm:text-3xl font-bold break-words leading-tight" style="color:var(--zed-blue-pale);"> haproxy </h1> <p class="mt-2 text-pretty" style="color:var(--zed-text-muted);"> HAproxy support </p> </div> <a href="https://github.com/jtsunne/zed-haproxy" target="_blank" rel="noopener" class="zed-btn-primary shrink-0 inline-flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View on GitHub
+</a> </div> <div class="mt-4 flex flex-wrap items-center gap-2"> <span class="version-pill">v0.4.0</span> <span class="cat-badge" data-cat="grammar">Grammar</span><span class="cat-badge" data-cat="language-server">Language Server</span> </div> <div class="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm" style="color:var(--zed-text-muted);"> <span class="inline-flex items-center gap-1"> <svg class="w-4 h-4" style="color:var(--zed-lime);" fill="currentColor" viewBox="0 0 20 20"> <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path> </svg> 2 stars
+</span> <span>Rust</span>  <span>Updated 4/20/2026</span> <span>schema v1</span> </div> <div class="mt-2 text-sm" style="color:var(--zed-text-muted);">
+by Denys Miasnychenko </div>  </div> </header> <main class="flex-1 max-w-4xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <article class="prose readme-prose max-w-none"><h1 id="user-content-haproxy-zed-extension-with-go-to-definition"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#haproxy-zed-extension-with-go-to-definition"><span class="heading-anchor-icon">#</span></a>HAProxy Zed Extension with Go to Definition</h1>
+<p>A Zed editor extension that provides syntax highlighting and <strong>"Go to Definition"</strong> functionality for HAProxy configuration files.</p>
+<h2 id="user-content-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features"><span class="heading-anchor-icon">#</span></a>Features</h2>
+<ul>
+<li><strong>Semantic Syntax Highlighting</strong>: Directives are colored by category — section headers (<code>frontend</code>, <code>backend</code>, <code>listen</code>, <code>resolvers</code>, etc.) vs. identifier names, declaration directives (<code>bind</code>, <code>server</code>, <code>acl</code>, <code>peer</code>, <code>stick-table</code>) vs. action directives (<code>use_backend</code>, <code>default_backend</code>, <code>http-request</code>, <code>http-response</code>, <code>tcp-request</code>, <code>redirect</code>), settings directives (<code>timeout</code>, <code>maxconn</code>, <code>balance</code>, <code>stats</code>, <code>log</code>, etc.), option properties (<code>option httplog</code> → <code>httplog</code> as a property), enumerated types (<code>mode http</code>, <code>balance roundrobin</code>, <code>log-level info</code>), control keywords (<code>if</code>, <code>unless</code>, <code>!</code>, <code>||</code>, <code>&#x26;&#x26;</code>, and the TCP phase selectors <code>connection</code>/<code>content</code>/<code>session</code>), and value kinds (addresses, strings, numbers, time values). The coarse <code>@keyword</code>/<code>@function</code> coloring from older versions is gone.</li>
+<li><strong>Code Folding</strong>: Top-level sections collapse to one line (<code>global</code>, <code>defaults</code>, <code>frontend X</code>, <code>backend X</code>, <code>listen X</code>, <code>resolvers X</code>, <code>userlist</code>, <code>peers</code>, <code>mailers</code>, <code>cache</code>, <code>program</code>, <code>ring</code>). Multi-line comment banners (2+ consecutive <code>#</code>-prefixed lines) fold as comment regions. Paired <code># BEGIN &#x3C;name></code> / <code># END &#x3C;name></code> markers fold as explicit regions — a useful convention for grouping related directives inside a long section. Use <code>editor: fold all</code> / <code>Cmd+K Cmd+0</code> to collapse, <code>editor: unfold all</code> / <code>Cmd+K Cmd+J</code> to expand.</li>
+<li><strong>Document Outline &#x26; Breadcrumbs</strong>: The outline panel and breadcrumbs show a two-level tree — each section with its key children (ACLs under frontends/listens, servers under backends/listens, nameservers under resolvers). Section detail strings summarize relevant settings (e.g. a backend shows <code>&#x3C;balance> · &#x3C;mode> · N servers</code>, a resolvers block shows <code>N nameservers</code>, a frontend shows its <code>bind</code> addresses). <code>Cmd+Shift+O</code> jumps to any symbol by name; the selection range covers the identifier only, not the whole line.</li>
+<li><strong>Go to Definition</strong>: Cursor-aware — F12 on an ACL name inside <code>use_backend X if Y</code> jumps to the ACL, not to backend X. Works for backend, frontend, listen, ACL, server, and stick-table references within the current file.</li>
+<li><strong>Find References</strong>: <code>editor: find all references</code> (Shift+F12) lists every call-site of the symbol under the cursor — backends used by <code>use_backend</code>/<code>default_backend</code>, ACLs in <code>if</code>/<code>unless</code> conditions, stick-tables referenced by <code>sc0_*(...)</code> / <code>stick match</code> / <code>stick on ... table</code>. Works from both the definition and any reference line; toggle <code>includeDeclaration</code> to include the definition in results.</li>
+<li><strong>Rename Symbol</strong>: <code>editor: rename</code> (F2) renames a backend, ACL, server, frontend, or listen and updates every call-site in the file atomically. <code>prepareProvider</code> pre-fills the rename box with the current identifier; invalid names (empty, whitespace, or any character outside <code>[a-zA-Z0-9_.-]</code>) are rejected with a JSON-RPC error. Stick-tables are renamed by renaming their enclosing section (HAProxy binds one table per section).</li>
+<li><strong>Hover</strong>: Cursor on a backend name shows the definition line, <code>mode</code>, <code>balance</code>, and the first 5 server lines (<code>"…N more"</code> truncation). Cursor on an ACL shows the definition line. Cursor on a stick-table shows the type and store clauses. Cursor on a known directive (<code>bind</code>, <code>server</code>, <code>acl</code>, <code>http-request</code>, <code>stick-table</code>, …) shows a curated markdown snippet from <code>src/docs.rs</code>.</li>
+<li><strong>Completion</strong>: Context-aware. After <code>use_backend </code>/<code>default_backend </code> → backend names. After <code>if </code>/<code>unless </code>/<code>! </code> → ACL names. After <code>use_server </code> → server names from the enclosing backend only. Inside <code>sc0_*(</code>, <code>sc1_*(</code>, <code>stick match </code>, <code>stick store-request </code> → stick-table names. Start-of-line inside a section → the per-section directive allowlist. Items carry <code>detail</code> (e.g. backend mode + balance), <code>documentation</code> from <code>src/docs.rs</code>, and rank by in-file usage frequency (popular symbols float to the top) with alphabetical tie-break.</li>
+<li><strong>Diagnostics</strong>: Static analysis runs on every <code>didOpen</code>/<code>didChange</code> and publishes <code>textDocument/publishDiagnostics</code>. Catches typos and dead code before <code>haproxy -c</code>. See the <a href="#diagnostics-rules">Diagnostics rules</a> table below.</li>
+<li><strong>Cross-file Resolution</strong>: Follows <code>.include</code>, <code>.if</code>/<code>.elif</code>/<code>.else</code>/<code>.endif</code>, and <code>-f &#x3C;path></code> / <code>crt &#x3C;path></code> references to build a project-wide symbol index. Definition, declaration, references, rename, and diagnostics all resolve across files. F12 on the literal path in <code>.include &#x3C;path></code> navigates to the included file. Opt-in via <code>.zed/haproxy.toml</code> (see <a href="#project-configuration">Project configuration</a> below).</li>
+<li><strong>Workspace Symbols</strong>: <code>Cmd+T</code> fuzzy-searches every backend, frontend, listen, ACL, server, and stick-table across every indexed file in the project. Case-insensitive substring match; empty query streams up to 1000 symbols.</li>
+<li><strong>Language Server Protocol</strong>: <code>foldingRangeProvider</code>, <code>documentSymbolProvider</code>, <code>definitionProvider</code>, <code>declarationProvider</code>, <code>referencesProvider</code>, <code>renameProvider</code> (with <code>prepareProvider</code>), <code>hoverProvider</code>, <code>completionProvider</code>, <code>workspaceSymbolProvider</code>. Cross-file scope for navigation, diagnostics, and rename when a project root is discovered; falls back to single-file scope otherwise.</li>
+</ul>
+<h3 id="user-content-diagnostics-rules"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#diagnostics-rules"><span class="heading-anchor-icon">#</span></a>Diagnostics rules</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Rule</th><th>Severity</th><th>Code</th><th>Example</th></tr></thead><tbody><tr><td>Undefined backend reference</td><td>Error</td><td><code>undefined-backend</code></td><td><code>use_backend nope</code> when no <code>backend nope</code> exists</td></tr><tr><td>Undefined ACL reference</td><td>Error</td><td><code>undefined-acl</code></td><td><code>use_backend foo if undefined_acl</code></td></tr><tr><td>Undefined server in <code>use_server</code></td><td>Error</td><td><code>undefined-server</code></td><td><code>use_server nope if …</code></td></tr><tr><td>Unused backend</td><td>Warning</td><td><code>unused-backend</code></td><td><code>backend orphan</code> never referenced</td></tr><tr><td>Unused ACL</td><td>Warning</td><td><code>unused-acl</code></td><td><code>acl orphan src 1.2.3.4</code> never referenced</td></tr><tr><td>Duplicate section name</td><td>Error</td><td><code>duplicate-section</code></td><td>two <code>backend foo</code> sections</td></tr><tr><td>Duplicate ACL in same section</td><td>Error</td><td><code>duplicate-acl</code></td><td>two <code>acl foo …</code> in one frontend/listen</td></tr><tr><td>Missing <code>default_backend</code></td><td>Warning</td><td><code>missing-default-backend</code></td><td>frontend/listen with <code>bind</code> but no <code>default_backend</code>/<code>use_backend</code></td></tr></tbody></table>
+<p>All diagnostics include <code>source: "haproxy-lsp"</code> and a precise range on the offending identifier. Cross-file references are not flagged — if a backend is defined in <code>backends.cfg</code> and referenced from <code>main.cfg</code>, both files need to be in the same project index (see next section).</p>
+<h3 id="user-content-project-configuration"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#project-configuration"><span class="heading-anchor-icon">#</span></a>Project configuration</h3>
+<p>For configs split across multiple files, drop a <code>.zed/haproxy.toml</code> at the project root:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">[</span><span style="color:#B392F0;--shiki-dark:#B392F0">haproxy</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">project_root = </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"."</span><span style="color:#6A737D;--shiki-dark:#6A737D">              # relative to the .zed/ parent, or absolute</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">follow_includes = </span><span style="color:#79B8FF;--shiki-dark:#79B8FF">true</span><span style="color:#6A737D;--shiki-dark:#6A737D">          # follow .include, .if/.elif/.else/.endif, -f, crt</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">extra_files = [</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"conf.d/*.cfg"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">]  </span><span style="color:#6A737D;--shiki-dark:#6A737D"># literal paths or simple glob patterns</span></span></code></pre>
+<p>Discovery walks up from the opened file's directory looking for <code>.zed/haproxy.toml</code>. If none is found, the LSP defaults to <code>{ project_root: &#x3C;dir of first opened file>, follow_includes: true, extra_files: [] }</code> — so most single-directory setups work without any config file. Only three keys are recognized; other TOML content is ignored.</p>
+<h3 id="user-content-supported-navigation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#supported-navigation"><span class="heading-anchor-icon">#</span></a>Supported Navigation</h3>
+<ul>
+<li><strong>Backend References</strong>: <code>use_backend web_servers</code> → jumps to <code>backend web_servers</code></li>
+<li><strong>Default Backend</strong>: <code>default_backend api</code> → jumps to <code>backend api</code></li>
+<li><strong>ACL References</strong>: <code>if is_mobile</code> → jumps to <code>acl is_mobile</code></li>
+<li><strong>Stick-table References</strong>: <code>sc0_http_req_rate(tbl)</code> → jumps to the backend defining <code>stick-table type ... size ... store ...</code></li>
+</ul>
+<h2 id="user-content-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation"><span class="heading-anchor-icon">#</span></a>Installation</h2>
+<h3 id="user-content-prerequisites"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#prerequisites"><span class="heading-anchor-icon">#</span></a>Prerequisites</h3>
+<ul>
+<li>Rust installed via <a href="https://rustup.rs/">rustup</a></li>
+<li>Zed editor</li>
+</ul>
+<h3 id="user-content-development-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#development-installation"><span class="heading-anchor-icon">#</span></a>Development Installation</h3>
+<ol>
+<li>
+<p><strong>Clone and build the LSP server</strong>:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">git</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> clone</span><span style="color:#F97583;--shiki-dark:#F97583"> &#x3C;</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">repositor</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">y</span><span style="color:#F97583;--shiki-dark:#F97583">></span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">cd</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> zed-haproxy</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">./build.sh</span></span></code></pre>
+<p>This produces <code>bin/haproxy-lsp</code>. It does <strong>not</strong> build <code>extension.wasm</code> —
+Zed compiles that itself (see step 2).</p>
+</li>
+<li>
+<p><strong>Register the extension with Zed</strong> (one-time):
+<code>Cmd+Shift+P</code> → <strong><code>zed: install dev extension</code></strong> → select this directory.
+Zed will compile the extension from source (including the correct
+wasm-component encoding) and keep a symlink to this directory under
+<code>~/Library/Application Support/Zed/extensions/installed/haproxy</code>.</p>
+</li>
+<li>
+<p><strong>Restart Zed</strong></p>
+</li>
+</ol>
+<p>After code changes, re-run <code>./build.sh</code> for the LSP and use
+<code>zed: rebuild dev extension</code> (or reinstall) to refresh the wasm side. Never
+copy a hand-built <code>extension.wasm</code> into Zed's extensions directory — <code>cargo build --target wasm32-unknown-unknown</code> produces a plain wasm module, and
+Zed requires a wasm <em>component</em>. Let Zed's builder handle it.</p>
+<h2 id="user-content-usage"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#usage"><span class="heading-anchor-icon">#</span></a>Usage</h2>
+<ol>
+<li>Open HAProxy configuration files (<code>.cfg</code>, <code>.conf</code>, <code>.haproxy</code>)</li>
+<li>Available actions on symbols (backends, frontends, listens, ACLs, servers, stick-tables):
+<ul>
+<li><strong>F12</strong> / Go to Definition — backend names in <code>use_backend</code>/<code>default_backend</code>, ACL names in <code>if</code>/<code>unless</code> conditions, stick-table names in <code>sc0_*(...)</code>/<code>stick match</code>/<code>stick on ... table</code></li>
+<li><strong>Shift+F12</strong> / Find All References — every call-site of the symbol under the cursor</li>
+<li><strong>F2</strong> / Rename Symbol — backends, ACLs, servers, frontends, listens (stick-tables rename via their enclosing section)</li>
+<li><strong>Hover</strong> — summaries for symbols and curated markdown docs for known directives</li>
+<li><strong>Completion</strong> — context-aware suggestions after <code> </code> (space) or <code>(</code>, scoped by surrounding keyword</li>
+</ul>
+</li>
+</ol>
+<h3 id="user-content-example"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#example"><span class="heading-anchor-icon">#</span></a>Example</h3>
+<pre><code class="language-haproxy">backend web_servers          # ← DEFINITION
+  server web1 192.168.1.10:80
+
+frontend main
+  bind *:80
+  use_backend web_servers    # ← F12 here jumps to line 1
+  acl is_api path_beg /api   # ← DEFINITION
+  use_backend api if is_api  # ← F12 on "is_api" jumps to ACL
+</code></pre>
+<h3 id="user-content-tier-2-capabilities-in-action"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#tier-2-capabilities-in-action"><span class="heading-anchor-icon">#</span></a>Tier 2 capabilities in action</h3>
+<p>Completion — typing <code>use_backend </code> shows every defined backend in the file, ranked by usage frequency:</p>
+<pre><code class="language-haproxy">frontend main
+  use_backend web_servers     # start typing after the space
+  #             ^ completion lists: web_servers, api, static, …
+</code></pre>
+<p>Hover — F1 / cursor rest on a backend name shows a summary:</p>
+<pre><code class="language-haproxy">use_backend api
+#            ^ hover shows:
+#              backend api
+#              mode http
+#              balance roundrobin
+#              server api1 10.0.0.1:8080 check
+#              server api2 10.0.0.2:8080 check
+</code></pre>
+<p>References — Shift+F12 on a backend name lists every <code>use_backend</code> / <code>default_backend</code> referencing it. Toggle <code>includeDeclaration</code> to also show the <code>backend &#x3C;name></code> line itself.</p>
+<p>Rename — F2 on <code>api</code> renames the backend and every call-site atomically in one edit. Invalid names (<code>foo bar</code>, <code>bad@name</code>, empty) surface as a JSON-RPC error.</p>
+<h2 id="user-content-architecture"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#architecture"><span class="heading-anchor-icon">#</span></a>Architecture</h2>
+<ul>
+<li><strong>Extension Entry</strong>: <code>src/lib.rs</code> - Zed extension integration</li>
+<li><strong>LSP Server</strong>: <code>src/lsp_server.rs</code> - Language server with navigation logic</li>
+<li><strong>Grammar</strong>: Tree-sitter grammar for syntax highlighting</li>
+<li><strong>Language Config</strong>: <code>languages/haproxy/</code> - File associations and highlighting rules</li>
+</ul>
+<h2 id="user-content-development"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#development"><span class="heading-anchor-icon">#</span></a>Development</h2>
+<h3 id="user-content-building"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#building"><span class="heading-anchor-icon">#</span></a>Building</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Build LSP server (what ./build.sh does)</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> build</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --bin</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> haproxy-lsp</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --features</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> lsp-server</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --release</span></span></code></pre>
+<p>The extension's wasm artifact is built by Zed when you run
+<code>zed: install dev extension</code> / <code>zed: rebuild dev extension</code>. Do not build
+it yourself with <code>cargo build --target wasm32-unknown-unknown</code> — the
+resulting plain wasm module won't load (Zed needs a wasm component).</p>
+<h3 id="user-content-testing-lsp-server"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#testing-lsp-server"><span class="heading-anchor-icon">#</span></a>Testing LSP Server</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Test LSP server directly</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">echo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> '{"jsonrpc":"2.0","id":1,"method":"initialize","params":{"capabilities":{}}}'</span><span style="color:#F97583;--shiki-dark:#F97583"> |</span><span style="color:#B392F0;--shiki-dark:#B392F0"> ./bin/haproxy-lsp</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Regression check — drives the LSP over stdio and asserts</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># definition, declaration, folding, documentSymbol, references,</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># rename, hover, and completion responses against fixtures.</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">python3</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> test/lsp_probes.py</span></span></code></pre>
+<h3 id="user-content-project-structure"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#project-structure"><span class="heading-anchor-icon">#</span></a>Project Structure</h3>
+<pre><code>haproxy-zed/
+├── src/
+│   ├── lib.rs           # Extension entry point
+│   ├── lsp_server.rs    # LSP server implementation
+│   └── docs.rs          # Curated directive docs (used by hover + completion)
+├── languages/haproxy/   # Language configuration
+├── grammars/           # Tree-sitter grammar
+├── extension.toml      # Extension metadata
+└── build.sh           # Build script
+</code></pre>
+<h2 id="user-content-known-limitations"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#known-limitations"><span class="heading-anchor-icon">#</span></a>Known Limitations</h2>
+<ul>
+<li><strong>Folding and outline are single-file</strong>: Cross-file resolution covers definition, references, rename, diagnostics, and workspace symbols, but folding and outline are computed per-open-document.</li>
+<li><strong>Regex-based LSP parsing</strong>: The LSP analyzes configs line-by-line with regex rather than a full tree-sitter AST. Works well for the directive set it supports, but complex quoted-string edge cases may be missed. Tree-sitter migration is planned.</li>
+</ul>
+<h2 id="user-content-future-enhancements"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#future-enhancements"><span class="heading-anchor-icon">#</span></a>Future Enhancements</h2>
+<ul>
+<li><code>haproxy -c</code> integration for real syntax errors</li>
+<li>Code actions (quick-fixes for diagnostics)</li>
+<li>Config formatter</li>
+<li>Full tree-sitter integration in the LSP</li>
+</ul>
+<h2 id="user-content-troubleshooting"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#troubleshooting"><span class="heading-anchor-icon">#</span></a>Troubleshooting</h2>
+<h3 id="user-content-language-server-not-found-error"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#language-server-not-found-error"><span class="heading-anchor-icon">#</span></a>"Language server not found" error</h3>
+<p>The error means the LSP server binary isn't accessible. Try:</p>
+<ol>
+<li><strong>Rebuild</strong>: <code>./build.sh</code></li>
+<li><strong>Rebuild the extension in Zed</strong>: <code>Cmd+Shift+P</code> → <code>zed: rebuild dev extension</code></li>
+<li><strong>Check binary</strong>: <code>ls -la bin/haproxy-lsp</code></li>
+</ol>
+<h3 id="user-content-extension-not-appearing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#extension-not-appearing"><span class="heading-anchor-icon">#</span></a>Extension not appearing</h3>
+<ol>
+<li>Restart Zed completely</li>
+<li>Check extensions directory: <code>ls "$HOME/Library/Application Support/Zed/extensions/work/haproxy"</code></li>
+<li>Verify file associations in Zed settings</li>
+</ol>
+<h3 id="user-content-navigation-not-working"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#navigation-not-working"><span class="heading-anchor-icon">#</span></a>Navigation not working</h3>
+<ol>
+<li>Ensure file is recognized as HAProxy config</li>
+<li>Check the status bar shows "haproxy" language</li>
+<li>Look for LSP server errors in Zed's developer console</li>
+</ol>
+<h2 id="user-content-contributing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#contributing"><span class="heading-anchor-icon">#</span></a>Contributing</h2>
+<ol>
+<li>Fork the repository</li>
+<li>Make changes to <code>src/</code> files</li>
+<li>Test with <code>./build.sh</code> then <code>zed: rebuild dev extension</code></li>
+<li>Submit pull request</li>
+</ol>
+<h2 id="user-content-credits"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#credits"><span class="heading-anchor-icon">#</span></a>Credits</h2>
+<p>Tree-sitter parser from <a href="https://github.com/Ziehnert/tree-sitter-haproxy">https://github.com/Ziehnert/tree-sitter-haproxy</a></p>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>MIT License - see LICENSE file for details.</p></article> </main> <footer class="mt-auto" style="background:var(--zed-bg);border-top:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:var(--zed-text-muted);">
+← Back to extension list
+</a> </div> </footer> </body></html>

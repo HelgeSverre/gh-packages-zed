@@ -1,0 +1,10 @@
+id = "mcp-server-kubernetes"
+name = "Kubernetes MCP Server"
+description = "Model Context Protocol Server for Kubernetes"
+version = "0.1.0"
+schema_version = 1
+authors = ["Ferra Technology GmbH <hello@ferra.io>"]
+repository = "https://github.com/ferra-io/zed-mcp-server-kubernetes"
+
+[context_servers.mcp-server-kubernetes]
+name = "Kubernetes MCP Server"

@@ -1,0 +1,15 @@
+id = "nagios"
+name = "Nagios"
+version = "0.1.0"
+schema_version = 1
+description = "Nagios configuration file syntax highlighting"
+repository = "https://github.com/utking/zed-nagios-tree-sitter"
+authors = ["Gennady Utkin"]
+languages = ["languages/nagios"]
+themes = []
+icon_themes = []
+capabilities = []
+
+[grammars.nagios]
+repository = "https://github.com/utking/zed-nagios-tree-sitter"
+rev = "28a67a5dccd88f4fa9bcebd14355ad1e11e8d2f5"

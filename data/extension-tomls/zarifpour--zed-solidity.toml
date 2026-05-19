@@ -1,0 +1,22 @@
+id = "solidity"
+name = "Solidity"
+version = "0.2.2"
+schema_version = 1
+authors = ["Daniel Zarifpour <z@rifpour.xyz>", "Jacob Czepluch <zed-solidity.gulp938@passmail.net>"]
+description = "💠 Solidity language support for Zed. ✰ and report issues ➩"
+repository = "https://github.com/zarifpour/zed-solidity"
+
+[language_servers.solidity]
+name = "Solidity Language Server"
+languages = ["Solidity"]
+
+[language_servers.solidity.language_ids]
+"Solidity" = "solidity"
+
+[grammars.solidity]
+repository = "https://github.com/JoranHonig/tree-sitter-solidity"
+rev = "4e938a46c7030dd001bc99e1ac0f0c750ac98254"
+
+[grammars.yul]
+repository = "https://github.com/czepluch/tree-sitter-yul"
+rev = "bc7a44058521b8689375416f9e23f842df8abb55"

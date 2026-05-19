@@ -1,0 +1,467 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>SearXNG Search MCP Server — Zed Extension Safari</title><meta name="description" content="Privacy-focused web search via SearXNG instances for Zed AI assistant"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="SearXNG Search MCP Server — Zed Extension Safari"><meta property="og:description" content="Privacy-focused web search via SearXNG instances for Zed AI assistant"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="SearXNG Search MCP Server — Zed Extension Safari"><meta name="twitter:description" content="Privacy-focused web search via SearXNG instances for Zed AI assistant"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.DJSXA_CW.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);">  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-4"> <a href="/gh-packages-zed" class="transition" style="color:var(--zed-text-muted);">← All extensions</a> </nav> <div class="flex flex-wrap items-start justify-between gap-4"> <div class="min-w-0"> <div class="font-mono text-xs mb-2" style="color:var(--zed-muted);"> swannysec/mcp-server-searxng </div> <h1 class="text-2xl sm:text-3xl font-bold break-words leading-tight" style="color:var(--zed-blue-pale);"> SearXNG Search MCP Server </h1> <p class="mt-2 text-pretty" style="color:var(--zed-text-muted);"> Privacy-focused web search via SearXNG instances for Zed AI assistant </p> </div> <a href="https://github.com/swannysec/mcp-server-searxng" target="_blank" rel="noopener" class="zed-btn-primary shrink-0 inline-flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View on GitHub
+</a> </div> <div class="mt-4 flex flex-wrap items-center gap-2"> <span class="version-pill">v0.1.0</span> <span class="cat-badge" data-cat="context-server">Context Server</span> </div> <div class="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm" style="color:var(--zed-text-muted);"> <span class="inline-flex items-center gap-1"> <svg class="w-4 h-4" style="color:var(--zed-lime);" fill="currentColor" viewBox="0 0 20 20"> <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path> </svg> 1 stars
+</span> <span>Rust</span> <span>MIT</span> <span>Updated 11/24/2025</span> <span>schema v1</span> </div> <div class="mt-2 text-sm" style="color:var(--zed-text-muted);">
+by John D. Swanson </div> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> mcp-server </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> search </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> searxng </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed-extension </span> </div> </div> </header> <main class="flex-1 max-w-4xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <article class="prose readme-prose max-w-none"><h1 id="user-content-searxng-search-mcp-server"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#searxng-search-mcp-server"><span class="heading-anchor-icon">#</span></a>SearXNG Search MCP Server</h1>
+<p>Privacy-focused web search for Zed AI assistant via SearXNG instances. Search the web and read URLs without compromising your privacy.</p>
+<h2 id="user-content-overview"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#overview"><span class="heading-anchor-icon">#</span></a>Overview</h2>
+<p>This Zed extension provides <a href="https://modelcontextprotocol.io/">Model Context Protocol (MCP)</a> server integration with <a href="https://docs.searxng.org/">SearXNG</a>, enabling your AI assistant to search the web and fetch webpage content while respecting your privacy.</p>
+<p><strong>Key Features:</strong></p>
+<ul>
+<li>🔍 <strong>Web Search</strong>: Search across multiple search engines via your SearXNG instance</li>
+<li>📄 <strong>URL Reading</strong>: Fetch and convert web pages to markdown for AI analysis</li>
+<li>🔒 <strong>Privacy-First</strong>: All searches go through YOUR configured SearXNG instance</li>
+<li>⚡ <strong>Fast &#x26; Lightweight</strong>: 133KB WASM binary, minimal overhead</li>
+<li>🛠️ <strong>Flexible Configuration</strong>: Support for authentication, proxies, and custom headers</li>
+</ul>
+<h2 id="user-content-️-security--privacy"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#️-security--privacy"><span class="heading-anchor-icon">#</span></a>⚠️ Security &#x26; Privacy</h2>
+<p><strong>Important Security Considerations:</strong></p>
+<h3 id="user-content-credential-storage"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#credential-storage"><span class="heading-anchor-icon">#</span></a>Credential Storage</h3>
+<ul>
+<li><strong>Plaintext Storage</strong>: Authentication credentials (<code>auth_username</code>, <code>auth_password</code>) are stored <strong>unencrypted</strong> in your Zed <code>settings.json</code> file</li>
+<li><strong>Process Visibility</strong>: Credentials are passed as environment variables and may be visible in process lists (via <code>ps</code>, Task Manager, or similar tools)</li>
+<li><strong>Recommendation</strong>: Use self-hosted SearXNG instances <strong>without authentication</strong> when possible, or use a reverse proxy with authentication instead of HTTP Basic Auth</li>
+</ul>
+<h3 id="user-content-privacy-considerations"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#privacy-considerations"><span class="heading-anchor-icon">#</span></a>Privacy Considerations</h3>
+<ul>
+<li><strong>Public Instances</strong>: Public SearXNG instances (like <code>searx.be</code>) may log your search queries. Check the instance's privacy policy before use</li>
+<li><strong>Self-Hosted</strong>: For maximum privacy, <a href="https://docs.searxng.org/admin/installation.html">self-host your own SearXNG instance</a></li>
+<li><strong>Instance Selection</strong>: Visit <a href="https://searx.space/">searx.space</a> to find instances with clear privacy policies and no-logging commitments</li>
+</ul>
+<h3 id="user-content-ssrf-protection-configurable"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#ssrf-protection-configurable"><span class="heading-anchor-icon">#</span></a>SSRF Protection (Configurable)</h3>
+<ul>
+<li><strong>Default Behavior</strong>: Allows localhost and private IP addresses (<code>allow_private_instances: true</code>) to support self-hosted SearXNG instances</li>
+<li><strong>Strict Mode</strong>: Set <code>allow_private_instances: false</code> to block localhost/RFC1918 private IPs and enforce SSRF protection</li>
+<li><strong>When to Use Strict Mode</strong>: Only needed in shared/untrusted environments where malicious users might attempt SSRF attacks</li>
+<li><strong>Self-Hosted Users</strong>: Keep the default <code>true</code> setting to access your local SearXNG instance</li>
+</ul>
+<h3 id="user-content-supply-chain-security"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#supply-chain-security"><span class="heading-anchor-icon">#</span></a>Supply Chain Security</h3>
+<ul>
+<li>This extension uses <strong>pinned version 0.8.0</strong> of the <code>mcp-searxng</code> npm package for security</li>
+<li>Updates require manual version changes and security review</li>
+<li>The extension validates all configuration inputs to prevent injection attacks</li>
+</ul>
+<h2 id="user-content-requirements"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#requirements"><span class="heading-anchor-icon">#</span></a>Requirements</h2>
+<ul>
+<li><strong>Zed Editor</strong>: Version 0.205.x or higher</li>
+<li><strong>Node.js</strong>: Version 20 or higher (for npx)</li>
+<li><strong>SearXNG Instance</strong>: Self-hosted or public instance access</li>
+</ul>
+<h2 id="user-content-disclosure"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#disclosure"><span class="heading-anchor-icon">#</span></a>Disclosure</h2>
+<p>This extension was coded primarily by AI agents as a learning exercise with care and intentionality including semi-automated code review for quality and security.  Use at your own risk.</p>
+<h2 id="user-content-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation"><span class="heading-anchor-icon">#</span></a>Installation</h2>
+<h3 id="user-content-1-install-the-extension"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#1-install-the-extension"><span class="heading-anchor-icon">#</span></a>1. Install the Extension</h3>
+<p><strong>Option A: From Zed Extensions (Recommended)</strong></p>
+<ol>
+<li>Open Zed</li>
+<li>Press <code>Cmd+Shift+P</code> (macOS) or <code>Ctrl+Shift+P</code> (Linux/Windows)</li>
+<li>Search for "zed: extensions"</li>
+<li>Search for "MCP Server: SearXNG"</li>
+<li>Click "Install"</li>
+</ol>
+<p><strong>Option B: As Dev Extension (For Development)</strong></p>
+<ol>
+<li>Clone this repository</li>
+<li>Open Zed</li>
+<li>Press <code>Cmd+Shift+P</code> and search for "zed: install dev extension"</li>
+<li>Select the extension directory</li>
+</ol>
+<h3 id="user-content-2-find-a-searxng-instance"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#2-find-a-searxng-instance"><span class="heading-anchor-icon">#</span></a>2. Find a SearXNG Instance</h3>
+<p><strong>Public Instances:</strong>
+Visit <a href="https://searx.space/">searx.space</a> to find public SearXNG instances. Choose one with:</p>
+<ul>
+<li>✅ JSON format enabled</li>
+<li>✅ Good uptime</li>
+<li>✅ Reasonable response time</li>
+</ul>
+<p><strong>Self-Hosted:</strong>
+Follow the <a href="https://docs.searxng.org/admin/installation.html">SearXNG installation guide</a> to host your own instance.</p>
+<h3 id="user-content-3-configure-in-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#3-configure-in-zed"><span class="heading-anchor-icon">#</span></a>3. Configure in Zed</h3>
+<p>Open your Zed settings (<code>Cmd+,</code> or <code>Settings > Open Settings</code>):</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "context_servers"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "mcp-server-searxng"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "searxng_url"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"https://searx.be"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h3 id="user-content-4-verify-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#4-verify-installation"><span class="heading-anchor-icon">#</span></a>4. Verify Installation</h3>
+<ol>
+<li>Open the AI Assistant panel in Zed</li>
+<li>Start a new conversation</li>
+<li>The assistant should now have access to <code>searxng_web_search</code> and <code>web_url_read</code> tools</li>
+</ol>
+<blockquote>
+<p><strong>Note:</strong> Zed automatically converts settings from <code>settings.json</code> into environment variables that are passed to the MCP server. The extension validates these settings and provides helpful error messages if something is misconfigured.</p>
+</blockquote>
+<h2 id="user-content-configuration-examples"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#configuration-examples"><span class="heading-anchor-icon">#</span></a>Configuration Examples</h2>
+<h3 id="user-content-minimal-configuration-public-instance"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#minimal-configuration-public-instance"><span class="heading-anchor-icon">#</span></a>Minimal Configuration (Public Instance)</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "context_servers"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "mcp-server-searxng"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "searxng_url"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"https://searx.be"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h3 id="user-content-self-hosted-configuration-localhost"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#self-hosted-configuration-localhost"><span class="heading-anchor-icon">#</span></a>Self-Hosted Configuration (Localhost)</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "context_servers"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "mcp-server-searxng"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "searxng_url"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"http://localhost:8080"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "allow_private_instances"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#79B8FF;--shiki-dark:#79B8FF">true</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p><strong>Note:</strong> <code>allow_private_instances</code> defaults to <code>true</code>, so you can omit it for localhost instances.</p>
+<h3 id="user-content-authenticated-searxng-instance"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#authenticated-searxng-instance"><span class="heading-anchor-icon">#</span></a>Authenticated SearXNG Instance</h3>
+<p>⚠️ <strong>Security Warning</strong>: Credentials are stored in plaintext in <code>settings.json</code> and visible in process environment. Only use this with trusted, self-hosted instances.</p>
+<p>For password-protected instances:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "context_servers"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "mcp-server-searxng"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "searxng_url"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"https://your-private-instance.com"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "auth_username"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"your-username"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "auth_password"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"your-password"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h3 id="user-content-strict-ssrf-protection-shared-environments"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#strict-ssrf-protection-shared-environments"><span class="heading-anchor-icon">#</span></a>Strict SSRF Protection (Shared Environments)</h3>
+<p>If running in an untrusted environment where you need strict SSRF protection:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "context_servers"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "mcp-server-searxng"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "searxng_url"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"https://public-searxng-instance.com"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "allow_private_instances"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#79B8FF;--shiki-dark:#79B8FF">false</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p><strong>Note:</strong> This blocks localhost and private IP addresses. Most users should <strong>not</strong> use this setting.</p>
+<p>⚠️ <strong>Security Note</strong>: Credentials are stored in your local Zed settings file. Use environment-specific credentials, not personal passwords.</p>
+<h3 id="user-content-corporate-proxy-configuration"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#corporate-proxy-configuration"><span class="heading-anchor-icon">#</span></a>Corporate Proxy Configuration</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "context_servers"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "mcp-server-searxng"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "searxng_url"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"https://searx.be"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "http_proxy"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"http://proxy.company.com:8080"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "https_proxy"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"http://proxy.company.com:8080"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "no_proxy"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"localhost,127.0.0.1,.company.com"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h3 id="user-content-custom-user-agent"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#custom-user-agent"><span class="heading-anchor-icon">#</span></a>Custom User-Agent</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "context_servers"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "mcp-server-searxng"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "searxng_url"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"https://searx.be"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "user_agent"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"MyCustomBot/1.0"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h2 id="user-content-available-settings"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#available-settings"><span class="heading-anchor-icon">#</span></a>Available Settings</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Setting</th><th>Type</th><th>Required</th><th>Description</th></tr></thead><tbody><tr><td><code>searxng_url</code></td><td>string</td><td>✅ Yes</td><td>URL of your SearXNG instance</td></tr><tr><td><code>auth_username</code></td><td>string</td><td>No</td><td>HTTP Basic Auth username</td></tr><tr><td><code>auth_password</code></td><td>string</td><td>No</td><td>HTTP Basic Auth password</td></tr><tr><td><code>user_agent</code></td><td>string</td><td>No</td><td>Custom User-Agent header</td></tr><tr><td><code>http_proxy</code></td><td>string</td><td>No</td><td>HTTP proxy URL</td></tr><tr><td><code>https_proxy</code></td><td>string</td><td>No</td><td>HTTPS proxy URL</td></tr><tr><td><code>no_proxy</code></td><td>string</td><td>No</td><td>Comma-separated hosts to bypass proxy</td></tr></tbody></table>
+<h2 id="user-content-usage-examples"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#usage-examples"><span class="heading-anchor-icon">#</span></a>Usage Examples</h2>
+<p>Once configured, your AI assistant can use the search tools automatically:</p>
+<p><strong>Example Queries:</strong></p>
+<ul>
+<li>"Search for Rust async best practices"</li>
+<li>"What are the latest features in Zed editor?"</li>
+<li>"Find documentation for zed_extension_api"</li>
+<li>"Read this URL and summarize: <a href="https://docs.searxng.org/">https://docs.searxng.org/</a>"</li>
+</ul>
+<p>The assistant will automatically invoke the appropriate tools and incorporate search results into its responses.</p>
+<h2 id="user-content-security-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#security-features"><span class="heading-anchor-icon">#</span></a>Security Features</h2>
+<p>This extension implements multiple security controls:</p>
+<ul>
+<li>✅ <strong>URL Validation</strong>: Comprehensive validation prevents URL injection, SSRF, and path traversal attacks</li>
+<li>✅ <strong>Input Sanitization</strong>: All user inputs (User-Agent, proxy URLs, etc.) are validated with strict character whitelists</li>
+<li>✅ <strong>Version Pinning</strong>: npm package version is pinned (0.8.0) to prevent supply chain attacks</li>
+<li>✅ <strong>Schema Constraints</strong>: Maximum length limits on all string fields to prevent DoS</li>
+<li>✅ <strong>Configurable SSRF Protection</strong>: Optional blocking of localhost/RFC1918 private IPs (disabled by default for self-hosted use)</li>
+<li>✅ <strong>No Unsafe Code</strong>: Extension uses memory-safe Rust with zero unsafe blocks</li>
+</ul>
+<h2 id="user-content-troubleshooting"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#troubleshooting"><span class="heading-anchor-icon">#</span></a>Troubleshooting</h2>
+<h3 id="user-content-error-searxng_url-environment-variable-not-set"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#error-searxng_url-environment-variable-not-set"><span class="heading-anchor-icon">#</span></a>Error: "SEARXNG_URL environment variable not set"</h3>
+<p><strong>Cause</strong>: Missing or incorrect configuration in Zed settings.</p>
+<p><strong>Solution</strong>:</p>
+<ol>
+<li>Check your <code>settings.json</code> has the <code>context_servers.mcp-server-searxng.settings.searxng_url</code> key</li>
+<li>Verify the URL format: <code>https://domain.com</code> (no trailing slash)</li>
+<li>Restart Zed after making changes</li>
+</ol>
+<h3 id="user-content-error-command-npx-not-found"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#error-command-npx-not-found"><span class="heading-anchor-icon">#</span></a>Error: "Command 'npx' not found"</h3>
+<p><strong>Cause</strong>: Node.js or npx is not installed or not in PATH.</p>
+<p><strong>Solution</strong>:</p>
+<ol>
+<li>Install Node.js 20+: <a href="https://nodejs.org/">https://nodejs.org/</a></li>
+<li>Verify installation: <code>node --version</code> and <code>npx --version</code></li>
+<li>Restart Zed after installing Node.js</li>
+</ol>
+<h3 id="user-content-error-failed-to-connect-to-searxng-instance"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#error-failed-to-connect-to-searxng-instance"><span class="heading-anchor-icon">#</span></a>Error: "Failed to connect to SearXNG instance"</h3>
+<p><strong>Cause</strong>: SearXNG instance is down, URL is incorrect, or network issues.</p>
+<p><strong>Solution</strong>:</p>
+<ol>
+<li>Test the URL in your browser: <code>https://your-instance.com</code></li>
+<li>Verify JSON format is enabled (visit <code>/search?q=test&#x26;format=json</code>)</li>
+<li>Check firewall/proxy settings</li>
+<li>Try a different public instance from <a href="https://searx.space/">searx.space</a></li>
+</ol>
+<h3 id="user-content-error-request-timeout"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#error-request-timeout"><span class="heading-anchor-icon">#</span></a>Error: "Request timeout"</h3>
+<p><strong>Cause</strong>: SearXNG instance is slow or unresponsive.</p>
+<p><strong>Solution</strong>:</p>
+<ol>
+<li>Try a different SearXNG instance with better uptime</li>
+<li>Self-host for better reliability and performance</li>
+<li>Check your network connection</li>
+</ol>
+<h3 id="user-content-error-401-unauthorized"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#error-401-unauthorized"><span class="heading-anchor-icon">#</span></a>Error: "401 Unauthorized"</h3>
+<p><strong>Cause</strong>: Incorrect authentication credentials.</p>
+<p><strong>Solution</strong>:</p>
+<ol>
+<li>Verify <code>auth_username</code> and <code>auth_password</code> are correct</li>
+<li>Ensure your SearXNG instance requires Basic Auth (not all do)</li>
+<li>Test credentials with curl:
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">curl</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -u</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> username:password</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> https://your-instance.com/search?q=test</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">&#x26;format</span><span style="color:#F97583;--shiki-dark:#F97583">=</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">json</span></span></code></pre>
+</li>
+</ol>
+<h3 id="user-content-search-results-are-empty-or-irrelevant"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#search-results-are-empty-or-irrelevant"><span class="heading-anchor-icon">#</span></a>Search results are empty or irrelevant</h3>
+<p><strong>Cause</strong>: SearXNG instance configuration or selected search engines.</p>
+<p><strong>Solution</strong>:</p>
+<ol>
+<li>Verify your SearXNG instance has search engines enabled</li>
+<li>Visit your instance's settings and configure preferred engines</li>
+<li>Self-host to have full control over search configuration</li>
+</ol>
+<h3 id="user-content-extension-doesnt-appear-in-ai-assistant"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#extension-doesnt-appear-in-ai-assistant"><span class="heading-anchor-icon">#</span></a>Extension doesn't appear in AI assistant</h3>
+<p><strong>Cause</strong>: Extension not loaded or Zed version incompatible.</p>
+<p><strong>Solution</strong>:</p>
+<ol>
+<li>Check Zed version: Must be 0.205.x or higher</li>
+<li>Restart Zed completely</li>
+<li>Check Zed logs: <code>zed: open log</code> in command palette</li>
+<li>Reinstall the extension</li>
+</ol>
+<h2 id="user-content-privacy--security"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#privacy--security"><span class="heading-anchor-icon">#</span></a>Privacy &#x26; Security</h2>
+<h3 id="user-content-data-flow"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#data-flow"><span class="heading-anchor-icon">#</span></a>Data Flow</h3>
+<pre><code>You → Zed → This Extension → mcp-searxng (npm) → Your SearXNG Instance → Search Engines
+</code></pre>
+<p><strong>What this extension does:</strong></p>
+<ul>
+<li>✅ Wraps the <code>mcp-searxng</code> npm package</li>
+<li>✅ Passes your settings as environment variables</li>
+<li>✅ All data flows through YOUR configured SearXNG instance</li>
+</ul>
+<p><strong>What this extension does NOT do:</strong></p>
+<ul>
+<li>❌ Send data to any third-party servers (except your SearXNG instance)</li>
+<li>❌ Log or store your search queries</li>
+<li>❌ Include telemetry or analytics</li>
+</ul>
+<p><strong>Your Responsibility:</strong></p>
+<ul>
+<li>Choose a trusted SearXNG instance or self-host</li>
+<li>Review the privacy policy of any public instance you use</li>
+<li>Keep your SearXNG instance credentials secure</li>
+</ul>
+<h2 id="user-content-development"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#development"><span class="heading-anchor-icon">#</span></a>Development</h2>
+<h3 id="user-content-building-from-source"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#building-from-source"><span class="heading-anchor-icon">#</span></a>Building from Source</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Install Rust and add WASM target</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">rustup</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> target</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> add</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> wasm32-wasip2</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Build</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> build</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --target</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> wasm32-wasip2</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --release</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Check for issues</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> clippy</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --target</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> wasm32-wasip2</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -D</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> warnings</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Format code</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> fmt</span></span></code></pre>
+<h3 id="user-content-testing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#testing"><span class="heading-anchor-icon">#</span></a>Testing</h3>
+<p>See <a href="https://github.com/swannysec/mcp-server-searxng/blob/HEAD/TESTING.md" target="_blank" rel="noopener">TESTING.md</a> for comprehensive testing procedures including:</p>
+<ul>
+<li>Manual testing guide with 17 test cases</li>
+<li>Validation tests for URL formats and configuration</li>
+<li>Integration tests for auth and proxy scenarios</li>
+<li>Performance and regression testing procedures</li>
+<li>Test report templates</li>
+</ul>
+<h3 id="user-content-testing-locally"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#testing-locally"><span class="heading-anchor-icon">#</span></a>Testing Locally</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Install as dev extension in Zed</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># zed: install dev extension (Cmd+Shift+P)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># View logs</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># zed: open log (Cmd+Shift+P)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Run validation tests</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># See TESTING.md for detailed test cases</span></span></code></pre>
+<h2 id="user-content-architecture"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#architecture"><span class="heading-anchor-icon">#</span></a>Architecture</h2>
+<p>This extension follows the <strong>Zed MCP Extension Wrapper Pattern</strong>:</p>
+<ol>
+<li><strong>Minimal Rust/WASM wrapper</strong> - Implements Zed extension API</li>
+<li><strong>Delegates to npm package</strong> - Uses proven <code>mcp-searxng</code> implementation</li>
+<li><strong>Configuration bridge</strong> - Maps Zed settings to environment variables</li>
+</ol>
+<p>This approach:</p>
+<ul>
+<li>✅ Leverages battle-tested MCP server code</li>
+<li>✅ Minimizes maintenance burden</li>
+<li>✅ Keeps WASM binary small (147KB)</li>
+<li>✅ Follows official Zed patterns</li>
+</ul>
+<h2 id="user-content-contributing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#contributing"><span class="heading-anchor-icon">#</span></a>Contributing</h2>
+<p>Contributions welcome! Please:</p>
+<ol>
+<li>Read the code of conduct</li>
+<li>Fork the repository</li>
+<li>Create a feature branch</li>
+<li>Make your changes with tests</li>
+<li>Run <code>cargo clippy</code> and <code>cargo fmt</code></li>
+<li>Submit a pull request</li>
+</ol>
+<h2 id="user-content-contributing-new-search-functionality"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#contributing-new-search-functionality"><span class="heading-anchor-icon">#</span></a>Contributing New Search Functionality</h2>
+<p>This extension is designed to be modular and extensible. If you'd like to add support for additional search engines, here's how to maintain consistency with the existing architecture:</p>
+<h3 id="user-content-architecture-overview"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#architecture-overview"><span class="heading-anchor-icon">#</span></a>Architecture Overview</h3>
+<p>The extension follows a <strong>wrapper pattern</strong>:</p>
+<ol>
+<li><strong>Rust WASM Extension</strong> (<code>src/mcp_server_searxng.rs</code>) - Handles settings, validation, and npm package management</li>
+<li><strong>npm MCP Server</strong> (<code>mcp-searxng</code> package) - Implements the actual search logic and MCP protocol</li>
+<li><strong>Settings Schema</strong> - JSON schema for Zed's configuration UI</li>
+</ol>
+<h3 id="user-content-adding-new-search-engines"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#adding-new-search-engines"><span class="heading-anchor-icon">#</span></a>Adding New Search Engines</h3>
+<p>To add a new search engine while maintaining architectural consistency:</p>
+<ol>
+<li><strong>Fork the npm package</strong> (<a href="https://github.com/ihor-sokoliuk/mcp-searxng">ihor-sokoliuk/mcp-searxng</a>)</li>
+<li><strong>Implement the search provider</strong> in TypeScript following the existing pattern:
+<ul>
+<li>Create a new provider module (e.g., <code>src/providers/duckduckgo.ts</code>)</li>
+<li>Implement the same interface as existing providers (search query → JSON results)</li>
+<li>Add configuration options to the MCP server settings</li>
+</ul>
+</li>
+<li><strong>Update the Rust wrapper</strong>:
+<ul>
+<li>Add new settings fields to <code>SearxngContextServerSettings</code> struct</li>
+<li>Add validation for new provider-specific settings</li>
+<li>Update JSON schema with <code>#[schemars]</code> attributes</li>
+</ul>
+</li>
+<li><strong>Update documentation</strong>:
+<ul>
+<li>Add configuration examples to README</li>
+<li>Document new settings in <code>default_settings.jsonc</code></li>
+<li>Update <code>installation_instructions.md</code></li>
+</ul>
+</li>
+</ol>
+<h3 id="user-content-design-principles"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#design-principles"><span class="heading-anchor-icon">#</span></a>Design Principles</h3>
+<ul>
+<li><strong>Privacy-first</strong>: All search providers should respect user privacy</li>
+<li><strong>Validation</strong>: All user inputs must be validated in the Rust wrapper</li>
+<li><strong>Schema-driven</strong>: Use JSON schema for type-safe configuration</li>
+<li><strong>Error handling</strong>: Provide clear, actionable error messages</li>
+<li><strong>Testing</strong>: Include examples and test cases</li>
+</ul>
+<h3 id="user-content-pull-request-guidelines"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#pull-request-guidelines"><span class="heading-anchor-icon">#</span></a>Pull Request Guidelines</h3>
+<p>Contributions are welcome! Please:</p>
+<ul>
+<li>Follow the existing code style and patterns</li>
+<li>Include tests for new functionality</li>
+<li>Update documentation</li>
+<li>Ensure <code>cargo clippy</code> passes with no warnings</li>
+<li>Test with a real Zed installation before submitting</li>
+</ul>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>This extension is licensed under the <a href="https://github.com/swannysec/mcp-server-searxng/blob/HEAD/LICENSE" target="_blank" rel="noopener">MIT License</a>.</p>
+<h2 id="user-content-links"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#links"><span class="heading-anchor-icon">#</span></a>Links</h2>
+<ul>
+<li><strong>Extension Repository</strong>: <a href="https://github.com/swannysec/mcp-server-searxng">https://github.com/swannysec/mcp-server-searxng</a></li>
+<li><strong>Zed Editor</strong>: <a href="https://zed.dev/">https://zed.dev/</a></li>
+<li><strong>SearXNG Documentation</strong>: <a href="https://docs.searxng.org/">https://docs.searxng.org/</a></li>
+<li><strong>MCP Specification</strong>: <a href="https://modelcontextprotocol.io/">https://modelcontextprotocol.io/</a></li>
+<li><strong>npm mcp-searxng Package</strong>: <a href="https://www.npmjs.com/package/mcp-searxng">https://www.npmjs.com/package/mcp-searxng</a></li>
+<li><strong>Public SearXNG Instances</strong>: <a href="https://searx.space/">https://searx.space/</a></li>
+</ul>
+<h2 id="user-content-support"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#support"><span class="heading-anchor-icon">#</span></a>Support</h2>
+<ul>
+<li><strong>Issues</strong>: <a href="https://github.com/swannysec/mcp-server-searxng/issues">GitHub Issues</a></li>
+<li><strong>Discussions</strong>: <a href="https://github.com/swannysec/mcp-server-searxng/discussions">GitHub Discussions</a></li>
+<li><strong>Zed Community</strong>: <a href="https://discord.gg/zed">Zed Discord</a></li>
+</ul>
+<h2 id="user-content-acknowledgments"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#acknowledgments"><span class="heading-anchor-icon">#</span></a>Acknowledgments</h2>
+<ul>
+<li><a href="https://github.com/searxng/searxng">SearXNG Project</a> - Privacy-respecting metasearch engine</li>
+<li><a href="https://github.com/ihor-sokoliuk/mcp-searxng">mcp-searxng</a> - MCP server implementation by Ihor Sokoliuk</li>
+<li><a href="https://github.com/zed-extensions/mcp-server-brave-search">mcp-server-brave-search</a> - Reference implementation for Zed MCP extensions</li>
+<li><a href="https://zed.dev/">Zed Industries</a> - High-performance code editor</li>
+<li><a href="https://www.anthropic.com/">Anthropic</a> - Model Context Protocol specification</li>
+</ul>
+<hr>
+<p><strong>Made with ❤️ for privacy-conscious developers</strong></p></article> </main> <footer class="mt-auto" style="background:var(--zed-bg);border-top:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:var(--zed-text-muted);">
+← Back to extension list
+</a> </div> </footer> </body></html>

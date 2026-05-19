@@ -1,0 +1,15 @@
+id = "hyprlang"
+name = "Hyprlang"
+version = "0.0.5"
+schema_version = 1
+authors = ["WhySoBad <git@wysbd.dev>"]
+description = "Hyprlang language server and syntax highlighting"
+repository = "https://github.com/WhySoBad/zed-hyprlang-extension"
+
+[language_servers.hyprland]
+name = "hyprls"
+language = "Hyprland Config"
+
+[grammars.hyprlang]
+repository = "https://github.com/tree-sitter-grammars/tree-sitter-hyprlang"
+commit = "cecd6b748107d9da1f7b4ca03ef95f1f71d93b8f"

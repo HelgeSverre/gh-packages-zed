@@ -1,0 +1,11 @@
+id = "golens"
+name = "golens"
+description = "Golens enables Golang CodeLens"
+version = "1.0.0"
+schema_version = 1
+authors = ["Krid Heprakhone <riflowth@gmail.com>"]
+repository = "https://github.com/riflowth/zed-golens"
+
+[language_servers.golens]
+name = "golens lsp"
+languages = ["Go"]

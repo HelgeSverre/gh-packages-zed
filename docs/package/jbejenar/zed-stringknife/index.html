@@ -1,0 +1,176 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>StringKnife — Zed Extension Safari</title><meta name="description" content="64 string/text manipulation commands — encode, decode, hash, case-convert, and more — available as code actions in any file."><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="StringKnife — Zed Extension Safari"><meta property="og:description" content="64 string/text manipulation commands — encode, decode, hash, case-convert, and more — available as code actions in any file."><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="StringKnife — Zed Extension Safari"><meta name="twitter:description" content="64 string/text manipulation commands — encode, decode, hash, case-convert, and more — available as code actions in any file."><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.DJSXA_CW.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);">  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-4"> <a href="/gh-packages-zed" class="transition" style="color:var(--zed-text-muted);">← All extensions</a> </nav> <div class="flex flex-wrap items-start justify-between gap-4"> <div class="min-w-0"> <div class="font-mono text-xs mb-2" style="color:var(--zed-muted);"> jbejenar/zed-stringknife </div> <h1 class="text-2xl sm:text-3xl font-bold break-words leading-tight" style="color:var(--zed-blue-pale);"> StringKnife </h1> <p class="mt-2 text-pretty" style="color:var(--zed-text-muted);"> 64 string/text manipulation commands — encode, decode, hash, case-convert, and more — available as code actions in any file. </p> </div> <a href="https://github.com/jbejenar/zed-stringknife" target="_blank" rel="noopener" class="zed-btn-primary shrink-0 inline-flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View on GitHub
+</a> </div> <div class="mt-4 flex flex-wrap items-center gap-2"> <span class="version-pill">v0.5.0</span> <span class="cat-badge" data-cat="language-server">Language Server</span> </div> <div class="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm" style="color:var(--zed-text-muted);"> <span class="inline-flex items-center gap-1"> <svg class="w-4 h-4" style="color:var(--zed-lime);" fill="currentColor" viewBox="0 0 20 20"> <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path> </svg> 0 stars
+</span> <span>Rust</span> <span>MIT</span> <span>Updated 6d ago</span> <span>schema v1</span> </div> <div class="mt-2 text-sm" style="color:var(--zed-text-muted);">
+by John Bejenariu </div>  </div> </header> <main class="flex-1 max-w-4xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <article class="prose readme-prose max-w-none"><h1 id="user-content-stringknife"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#stringknife"><span class="heading-anchor-icon">#</span></a>StringKnife</h1>
+<p><a href="https://github.com/jbejenar/zed-stringknife/actions/workflows/ci.yml"><img src="https://github.com/jbejenar/zed-stringknife/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+<a href="https://github.com/jbejenar/zed-stringknife/blob/HEAD/LICENSE" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a></p>
+<p>A surgical string transformation toolkit for the <a href="https://zed.dev">Zed editor</a>, delivered as an LSP-based extension with code-action transforms.</p>
+<h2 id="user-content-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features"><span class="heading-anchor-icon">#</span></a>Features</h2>
+<p>Select text in any file, then trigger code actions to transform it in place:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Category</th><th>Operations</th></tr></thead><tbody><tr><td>Encoding</td><td>Base64, Base64URL, URL, HTML, Hex encode/decode, Unicode escape/unescape, JWT decode (header/payload/full)</td></tr><tr><td>Hashing</td><td>MD5, SHA-1, SHA-256, SHA-512, CRC32</td></tr><tr><td>Case</td><td>UPPER, lower, Title, Sentence, camelCase, PascalCase, snake_case, SCREAMING_SNAKE, kebab-case, dot.case, path/case, CONSTANT_CASE, Toggle</td></tr><tr><td>JSON</td><td>Pretty print, minify, escape, unescape</td></tr><tr><td>XML</td><td>Pretty print, minify</td></tr><tr><td>CSV</td><td>CSV to JSON</td></tr><tr><td>Whitespace</td><td>Trim, collapse, remove blanks/dupes, sort/reverse/shuffle/number lines</td></tr><tr><td>Escape</td><td>Backslash, regex, SQL, shell, CSV</td></tr><tr><td>Inspect</td><td>Character count, byte length, encoding detection</td></tr><tr><td>Misc</td><td>Reverse string</td></tr></tbody></table>
+<blockquote>
+<p><strong>64 code actions</strong> across 10 categories. See <a href="https://github.com/jbejenar/zed-stringknife/blob/HEAD/CHANGELOG.md" target="_blank" rel="noopener">CHANGELOG</a> for the full feature list and <a href="https://github.com/jbejenar/zed-stringknife/blob/HEAD/roadmap/roadmap.md" target="_blank" rel="noopener">roadmap</a> for the plan.</p>
+</blockquote>
+<h2 id="user-content-usage"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#usage"><span class="heading-anchor-icon">#</span></a>Usage</h2>
+<ol>
+<li><strong>Select text</strong> in any file</li>
+<li>Press <strong><code>Cmd+.</code></strong> (macOS) or <strong><code>Ctrl+.</code></strong> (Linux) to open the code actions menu — or right-click the selection</li>
+<li>Pick a <strong>StringKnife</strong> transform — the selected text is replaced in place</li>
+</ol>
+<p>Only transforms that produce a different result are shown. For example, "Base64 Decode" won't appear if the selection isn't valid Base64.</p>
+<h2 id="user-content-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation"><span class="heading-anchor-icon">#</span></a>Installation</h2>
+<h3 id="user-content-from-zed-extensions"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#from-zed-extensions"><span class="heading-anchor-icon">#</span></a>From Zed Extensions</h3>
+<ol>
+<li>Open Zed</li>
+<li><code>Cmd+Shift+P</code> → "zed: extensions"</li>
+<li>Search for <strong>StringKnife</strong> and install</li>
+</ol>
+<h2 id="user-content-configuration"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#configuration"><span class="heading-anchor-icon">#</span></a>Configuration</h2>
+<p>Configure StringKnife through Zed's <code>settings.json</code>. All settings are optional — the defaults work out of the box.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr></thead><tbody><tr><td><code>stringknife.enabledCategories</code></td><td><code>string[]</code></td><td>All categories</td><td>Which transform categories to show. Valid: <code>encoding</code>, <code>hashing</code>, <code>case</code>, <code>json</code>, <code>xml</code>, <code>csv</code>, <code>whitespace</code>, <code>escape</code>, <code>inspect</code>, <code>misc</code></td></tr><tr><td><code>stringknife.maxCodeActions</code></td><td><code>number</code></td><td><code>50</code></td><td>Maximum number of code actions shown in the context menu</td></tr><tr><td><code>stringknife.smartDetection</code></td><td><code>boolean</code></td><td><code>true</code></td><td>When true, decode actions only appear if the selection looks like that encoding. When false, all decode actions are shown unconditionally</td></tr><tr><td><code>stringknife.hashOutputFormat</code></td><td><code>string</code></td><td><code>"lowercase"</code></td><td>Hash digest format: <code>"lowercase"</code> or <code>"uppercase"</code></td></tr><tr><td><code>stringknife.jsonIndent</code></td><td><code>number</code></td><td><code>2</code></td><td>Spaces per indent level for JSON Pretty Print</td></tr><tr><td><code>stringknife.base64LineBreaks</code></td><td><code>boolean</code></td><td><code>false</code></td><td>Wrap Base64 output at 76 characters per line (MIME style)</td></tr></tbody></table>
+<h3 id="user-content-example-settingsjson"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#example-settingsjson"><span class="heading-anchor-icon">#</span></a>Example <code>settings.json</code></h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "stringknife-lsp"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "initialization_options"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "enabledCategories"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: [</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"encoding"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">, </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"hashing"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">, </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"case"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">, </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"json"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">],</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "maxCodeActions"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#79B8FF;--shiki-dark:#79B8FF">20</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "smartDetection"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#79B8FF;--shiki-dark:#79B8FF">true</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "hashOutputFormat"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"uppercase"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "jsonIndent"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#79B8FF;--shiki-dark:#79B8FF">4</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "base64LineBreaks"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#79B8FF;--shiki-dark:#79B8FF">false</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h2 id="user-content-supported-languages"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#supported-languages"><span class="heading-anchor-icon">#</span></a>Supported Languages</h2>
+<p>StringKnife works in any file type. The LSP activates for: Rust, TypeScript, JavaScript, Python, Go, Ruby, HTML, CSS, JSON, TOML, YAML, Markdown, Plain Text, C, C++, Java, Kotlin, Swift, Shell Script, SQL, Elixir, and PHP.</p>
+<h2 id="user-content-contributing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#contributing"><span class="heading-anchor-icon">#</span></a>Contributing</h2>
+<p>See <a href="https://github.com/jbejenar/zed-stringknife/blob/HEAD/HINTS.md" target="_blank" rel="noopener">HINTS.md</a> for style conventions and the <a href="https://github.com/jbejenar/zed-stringknife/blob/HEAD/.vault/patterns/Adding%20a%20New%20Transform.md" target="_blank" rel="noopener">Adding a New Transform</a> guide.</p>
+<h2 id="user-content-architecture"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#architecture"><span class="heading-anchor-icon">#</span></a>Architecture</h2>
+<p>StringKnife is a three-layer stack — arrows point downward only:</p>
+<pre><code>WASM Extension (src/lib.rs)          → Zed API surface, starts the LSP binary
+LSP Server     (stringknife-lsp/)    → JSON-RPC dispatch, code action routing
+Transform Core (stringknife-core/)   → Pure functions: fn(&#x26;str) -> Result&#x3C;String>
+</code></pre>
+<p>The transform layer has zero LSP dependencies, no I/O, and no side effects.</p>
+<h2 id="user-content-built-with-ariscan"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#built-with-ariscan"><span class="heading-anchor-icon">#</span></a>Built with ariscan</h2>
+<p>This repository uses <a href="https://github.com/jbejenar/prontiq-ariscan">ariscan</a> to measure AI-agent readiness at every phase gate. The ARI (Agent Readiness Index) tracks how well the codebase supports autonomous agent contributions across 8 pillars.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Checkpoint</th><th>Phase</th><th>Score</th></tr></thead><tbody><tr><td>ARI-BASELINE</td><td>0</td><td>59/100</td></tr></tbody></table>
+<p><a href="https://github.com/jbejenar/zed-stringknife/blob/HEAD/.vault/Home.md" target="_blank" rel="noopener">Browse the Knowledge Vault</a> for architecture decisions, session history, and transform registry.</p>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p><a href="https://github.com/jbejenar/zed-stringknife/blob/HEAD/LICENSE" target="_blank" rel="noopener">MIT</a></p></article> </main> <footer class="mt-auto" style="background:var(--zed-bg);border-top:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:var(--zed-text-muted);">
+← Back to extension list
+</a> </div> </footer> </body></html>

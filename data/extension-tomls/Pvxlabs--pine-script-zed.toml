@@ -1,0 +1,14 @@
+id = "pinescript"
+name = "Pine Script"
+description = "Pine Script language support for Zed (v6-first, with v5 compatibility), including syntax highlighting and basic editor intelligence"
+version = "0.1.0"
+schema_version = 1
+authors = ["tinzleung <tinzlive@gmail.com>"]
+repository = "https://github.com/Pvxlabs/pine-script-zed.git"
+
+# Runtime grammar source of truth: the vendored baseline in `vendor/tree-sitter-pine`.
+# Keep `rev` pinned to a committed ancestor that contains that vendored grammar.
+[grammars.pine]
+repository = "https://github.com/Pvxlabs/pine-script-zed.git"
+path = "vendor/tree-sitter-pine"
+rev = "2c6822499f3d525e167bfa7bcb0bb3db0f28c45d"

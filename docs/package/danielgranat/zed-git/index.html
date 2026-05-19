@@ -1,0 +1,156 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Branch Diff — Zed Extension Safari</title><meta name="description" content="Features I miss in Zed edotir"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Branch Diff — Zed Extension Safari"><meta property="og:description" content="Features I miss in Zed edotir"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Branch Diff — Zed Extension Safari"><meta name="twitter:description" content="Features I miss in Zed edotir"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.DJSXA_CW.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);">  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-4"> <a href="/gh-packages-zed" class="transition" style="color:var(--zed-text-muted);">← All extensions</a> </nav> <div class="flex flex-wrap items-start justify-between gap-4"> <div class="min-w-0"> <div class="font-mono text-xs mb-2" style="color:var(--zed-muted);"> danielgranat/zed-git </div> <h1 class="text-2xl sm:text-3xl font-bold break-words leading-tight" style="color:var(--zed-blue-pale);"> Branch Diff </h1> <p class="mt-2 text-pretty" style="color:var(--zed-text-muted);"> Compare branches and review changes locally, like a local PR review. </p> </div> <a href="https://github.com/danielgranat/zed-git" target="_blank" rel="noopener" class="zed-btn-primary shrink-0 inline-flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View on GitHub
+</a> </div> <div class="mt-4 flex flex-wrap items-center gap-2"> <span class="version-pill">v0.0.1</span> <span class="cat-badge" data-cat="slash-command">Slash Command</span> </div> <div class="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm" style="color:var(--zed-text-muted);"> <span class="inline-flex items-center gap-1"> <svg class="w-4 h-4" style="color:var(--zed-lime);" fill="currentColor" viewBox="0 0 20 20"> <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path> </svg> 1 stars
+</span> <span>Rust</span> <span>MIT</span> <span>Updated 2/27/2026</span> <span>schema v1</span> </div> <div class="mt-2 text-sm" style="color:var(--zed-text-muted);">
+by Daniel Granatshtein </div>  </div> </header> <main class="flex-1 max-w-4xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <article class="prose readme-prose max-w-none"><h1 id="user-content-zed-branch-diff"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#zed-branch-diff"><span class="heading-anchor-icon">#</span></a>zed-branch-diff</h1>
+<p>A Zed editor extension for comparing branches locally — like reviewing a PR, but without leaving your editor.</p>
+<h2 id="user-content-why"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#why"><span class="heading-anchor-icon">#</span></a>Why</h2>
+<p>Zed's built-in git UI is minimal. When you're working on a feature branch and want to review your changes before opening a PR — see what files changed, read diffs file-by-file, and jot down notes — you're forced to leave Zed and use GitHub's PR interface or a separate diff tool.</p>
+<p>This extension brings that workflow into Zed through slash commands in the assistant panel. You can compare your current branch against any base branch, browse diffs, see summary stats, and save review notes — all without context-switching.</p>
+<h2 id="user-content-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features"><span class="heading-anchor-icon">#</span></a>Features</h2>
+<h3 id="user-content-branch-diff--compare-branches"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#branch-diff--compare-branches"><span class="heading-anchor-icon">#</span></a><code>/branch-diff</code> — Compare branches</h3>
+<pre><code>/branch-diff main                  # Summary: stats + changed files list
+/branch-diff main --file src/lib.rs  # Diff for a single file
+/branch-diff main --all             # Full unified diff of all changes
+</code></pre>
+<p><strong>Summary view</strong> shows:</p>
+<ul>
+<li>Files changed, insertions, deletions</li>
+<li>Commit log between the branches</li>
+<li>Changed files table with status indicators (A/M/D/R/C)</li>
+</ul>
+<p><strong>File diff</strong> and <strong>all diff</strong> views render syntax-highlighted unified diffs with automatic truncation at 50,000 characters for large diffs.</p>
+<h3 id="user-content-branch-review--review-notes"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#branch-review--review-notes"><span class="heading-anchor-icon">#</span></a><code>/branch-review</code> — Review notes</h3>
+<pre><code>/branch-review main                          # Full review view (stats + diff + notes prompt)
+/branch-review main note src/lib.rs:42 Fix this  # Save a note at file:line
+/branch-review main list                     # List all notes for this base branch
+/branch-review main clear                    # Clear notes for this base branch
+</code></pre>
+<p>Notes are persisted to <code>.zed-review/notes.json</code> in your project root, grouped by file and filtered by base branch.</p>
+<h2 id="user-content-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation"><span class="heading-anchor-icon">#</span></a>Installation</h2>
+<h3 id="user-content-prerequisites"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#prerequisites"><span class="heading-anchor-icon">#</span></a>Prerequisites</h3>
+<ul>
+<li><a href="https://zed.dev">Zed editor</a> (latest)</li>
+<li>Rust toolchain via <a href="https://rustup.rs">rustup</a></li>
+<li>The <code>wasm32-wasip1</code> target: <code>rustup target add wasm32-wasip1</code></li>
+</ul>
+<h3 id="user-content-install-as-dev-extension"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#install-as-dev-extension"><span class="heading-anchor-icon">#</span></a>Install as dev extension</h3>
+<ol>
+<li>Open Zed</li>
+<li>Open Extensions panel: <strong>Cmd+Shift+X</strong></li>
+<li>Click <strong>Install Dev Extension</strong></li>
+<li>Select this project directory</li>
+</ol>
+<p>Zed builds and loads the extension automatically. The slash commands become available immediately in the assistant panel.</p>
+<h3 id="user-content-build-manually"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#build-manually"><span class="heading-anchor-icon">#</span></a>Build manually</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> build</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --target</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> wasm32-wasip1</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --release</span></span></code></pre>
+<h3 id="user-content-run-tests"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#run-tests"><span class="heading-anchor-icon">#</span></a>Run tests</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> test</span></span></code></pre>
+<p>Unit tests cover NUL-delimited parsing, trait-backed backend behavior, truncation safety, notes serialization, and command argument handling.</p>
+<h2 id="user-content-project-structure"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#project-structure"><span class="heading-anchor-icon">#</span></a>Project structure</h2>
+<pre><code>├── extension.toml       # Zed extension manifest
+├── Cargo.toml           # Rust crate config (cdylib for WASM)
+├── src/
+│   ├── lib.rs           # Extension entry point, command dispatch, tab completion
+│   ├── git.rs           # Git interaction layer (spawns git processes)
+│   ├── commands.rs      # Slash command handlers + MarkdownBuilder
+│   └── notes.rs         # Review notes storage (JSON file-backed)
+└── .gitignore
+</code></pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Module</th><th>Responsibility</th></tr></thead><tbody><tr><td><code>lib.rs</code></td><td>Registers the extension, routes slash commands, provides static branch completion</td></tr><tr><td><code>git.rs</code></td><td><code>GitRepo</code> trait, <code>CliGitRepo</code> backend, <code>CommandRunner</code> for centralized git execution, NUL-delimited parser</td></tr><tr><td><code>commands.rs</code></td><td>Builds markdown output for each command mode via <code>&#x26;dyn GitRepo</code>, handles argument parsing and validation</td></tr><tr><td><code>notes.rs</code></td><td><code>NotesStore</code> with save/list/clear/format, persisted to <code>.zed-review/notes.json</code></td></tr></tbody></table>
+<h2 id="user-content-design-decisions"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#design-decisions"><span class="heading-anchor-icon">#</span></a>Design decisions</h2>
+<h3 id="user-content-slash-commands-not-panels"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#slash-commands-not-panels"><span class="heading-anchor-icon">#</span></a>Slash commands, not panels</h3>
+<p>Zed's extension API (v0.7.0) does not support custom UI panels, webviews, or custom rendering. The only way an extension can present rich output is through <strong>slash commands</strong> that return markdown into the assistant panel. This is a platform constraint, not a choice — when Zed adds a panel API, this extension is architected to support it (git logic and formatting are cleanly separated).</p>
+<h3 id="user-content-trait-based-git-backend"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#trait-based-git-backend"><span class="heading-anchor-icon">#</span></a>Trait-based git backend</h3>
+<p>Git operations are defined by a <code>GitRepo</code> trait with methods like <code>current_branch()</code>, <code>diff_stats()</code>, <code>changed_files()</code>, etc. The production implementation (<code>CliGitRepo</code>) delegates to a centralized <code>CommandRunner</code> that owns the git binary path, environment, and working directory — standardizing command construction and error formatting in one place. This boundary makes the git layer testable via mock implementations without spawning subprocesses.</p>
+<h3 id="user-content-shelling-out-to-git"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#shelling-out-to-git"><span class="heading-anchor-icon">#</span></a>Shelling out to git</h3>
+<p>The extension spawns <code>git</code> processes via <code>std::process::Command</code> through WASI. This works because Zed extensions compile to <code>wasm32-wasip2</code> which supports process spawning. The alternative — embedding a git library in WASM — would massively increase binary size for no practical benefit.</p>
+<h3 id="user-content-nul-safe-parsing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#nul-safe-parsing"><span class="heading-anchor-icon">#</span></a>NUL-safe parsing</h3>
+<p>Changed-file detection uses <code>git diff --name-status -z</code>, which outputs NUL-delimited records instead of newline-delimited text. This avoids fragile line/tab splitting and correctly handles unusual file names (spaces, tabs, newlines, unicode). The <code>parse_name_status_nul</code> parser handles normal entries (A/M/D), rename/copy triplets (R/C with old and new paths), and tolerates malformed records defensively.</p>
+<h3 id="user-content-markdownbuilder"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#markdownbuilder"><span class="heading-anchor-icon">#</span></a>MarkdownBuilder</h3>
+<p>Rather than ad-hoc string concatenation, a <code>MarkdownBuilder</code> struct provides methods like <code>push_header</code>, <code>push_stats</code>, <code>push_commits</code>, <code>push_changed_files</code>, and <code>push_diff_block</code>. This ensures consistent formatting across all command outputs and makes it easy to compose views.</p>
+<h3 id="user-content-utf-8-safe-truncation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#utf-8-safe-truncation"><span class="heading-anchor-icon">#</span></a>UTF-8 safe truncation</h3>
+<p>Large diffs are truncated at 50,000 characters. The <code>safe_truncate</code> function walks backward from the cut point to find a valid UTF-8 character boundary, preventing panics on multi-byte characters.</p>
+<h3 id="user-content-notes-stored-as-json"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#notes-stored-as-json"><span class="heading-anchor-icon">#</span></a>Notes stored as JSON</h3>
+<p>Review notes go to <code>.zed-review/notes.json</code> — a simple, human-readable format. Notes are filtered by base branch so switching between reviews doesn't mix comments. Add <code>.zed-review/</code> to your <code>.gitignore</code>.</p>
+<h3 id="user-content-static-tab-completion"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#static-tab-completion"><span class="heading-anchor-icon">#</span></a>Static tab completion</h3>
+<p><code>complete_slash_command_argument</code> doesn't receive a <code>Worktree</code> reference in the current API, so we can't query actual git branches for completion. The extension returns static suggestions (main, master, develop, staging). This is documented as a known limitation to revisit when the API evolves.</p>
+<h2 id="user-content-known-limitations"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#known-limitations"><span class="heading-anchor-icon">#</span></a>Known limitations</h2>
+<ul>
+<li><strong>Tab completion is static</strong> — can't query real branches (API limitation)</li>
+<li><strong>No custom UI</strong> — output goes to the assistant panel as markdown (API limitation)</li>
+<li><strong>No file locking on notes</strong> — concurrent saves could corrupt the JSON file (unlikely in practice)</li>
+<li><strong>Branch validation is basic</strong> — checks for empty, spaces, and <code>..</code> but not all git refspec edge cases</li>
+</ul>
+<h2 id="user-content-possible-next-steps"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#possible-next-steps"><span class="heading-anchor-icon">#</span></a>Possible next steps</h2>
+<ul>
+<li><strong>Dynamic branch completion</strong> — when Zed's API passes <code>Worktree</code> to completion, query <code>git branch</code> for real branch names</li>
+<li><strong>Custom panel UI</strong> — when Zed adds panel/webview support, build a dedicated diff viewer with side-by-side view, syntax highlighting, and inline commenting</li>
+<li><strong>Diff navigation</strong> — jump-to-file from the changed files list</li>
+<li><strong>Hunk-level review</strong> — split diffs into reviewable hunks with individual accept/reject</li>
+<li><strong>Export notes</strong> — generate PR description or review comments from saved notes</li>
+<li><strong>Integration with GitHub/GitLab</strong> — push notes as PR comments</li>
+</ul>
+<h2 id="user-content-how-this-was-built"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#how-this-was-built"><span class="heading-anchor-icon">#</span></a>How this was built</h2>
+<p>This extension was built using <strong><a href="https://claude.ai/code">Claude Code</a></strong> (Anthropic's CLI for Claude) with the <strong><a href="https://github.com/a5c-ai/babysitter">Babysitter</a></strong> orchestration plugin.</p>
+<h3 id="user-content-the-process"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#the-process"><span class="heading-anchor-icon">#</span></a>The process</h3>
+<ol>
+<li><strong>Interview phase</strong> — Claude Code researched the Zed extension API, identified constraints (no panel API, WASM target, slash commands only), and discussed approach options with the developer</li>
+<li><strong>Process creation</strong> — Babysitter created a 6-phase orchestration process:
+<ul>
+<li>Phase 1: Project scaffolding (Cargo.toml, extension.toml, module structure)</li>
+<li>Phase 2: Core git logic (GitContext, diff parsing, command execution)</li>
+<li>Phase 3: Slash command handlers (argument parsing, markdown output)</li>
+<li>Phase 4: Review notes system (persistence, filtering, formatting)</li>
+<li>Phase 5: Quality convergence loop (iterative assessment and refinement)</li>
+<li>Phase 6: Final build verification and review</li>
+</ul>
+</li>
+<li><strong>Quality convergence</strong> — An automated quality loop ran 5 iterations, with an AI reviewer scoring the code and identifying issues at each step:
+<ul>
+<li>Iteration 1: <strong>72/100</strong> — Fixed empty validation, rename parsing, added truncation</li>
+<li>Iteration 2: <strong>80/100</strong> — Fixed UTF-8 safety, added flag validation, wrote 28 tests</li>
+<li>Iteration 3: <strong>84/100</strong> — Deduplicated parsing, extracted MarkdownBuilder, added Unknown status</li>
+<li>Iteration 4: <strong>86/100</strong> — Shared diff stat parser, branch validation, encapsulation fixes</li>
+<li>Iteration 5: <strong>88/100</strong> — Minor consistency and validation improvements</li>
+</ul>
+</li>
+<li><strong>Final review</strong> — Comprehensive code review confirmed all features working, tests passing, clean WASM build</li>
+<li><strong>Architecture refactor</strong> — A follow-up refactor aligned the git layer with Zed's engineering philosophy: introduced <code>GitRepo</code> trait boundary, centralized <code>CommandRunner</code>, NUL-safe <code>-z</code> parsing, and expanded test coverage to 59 tests</li>
+</ol>
+<h3 id="user-content-tools"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#tools"><span class="heading-anchor-icon">#</span></a>Tools</h3>
+<ul>
+<li><strong>Claude Code</strong> — AI-powered coding assistant that wrote and iteratively refined all source code</li>
+<li><strong>Babysitter SDK</strong> — Event-sourced process orchestration that managed the multi-phase development workflow with quality gates</li>
+<li><strong>Rust + wasm32-wasip2</strong> — Extension compiled to WebAssembly for the Zed runtime</li>
+<li><strong>zed_extension_api 0.7.0</strong> — Zed's official extension SDK</li>
+</ul>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>MIT</p></article> </main> <footer class="mt-auto" style="background:var(--zed-bg);border-top:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:var(--zed-text-muted);">
+← Back to extension list
+</a> </div> </footer> </body></html>

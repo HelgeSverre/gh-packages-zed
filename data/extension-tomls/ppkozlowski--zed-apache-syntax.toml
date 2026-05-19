@@ -1,0 +1,12 @@
+id = "apache-syntax"
+name = "Apache HTTP Config"
+version = "0.0.1"
+schema_version = 1
+authors = ["Piotr Kozlowski"]
+description = "Syntax highlighting for Apache HTTP Server 2.4 configuration files"
+repository = "https://github.com/ppkozlowski/zed-apache-syntax"
+
+[grammars.apache]
+repository = "https://github.com/ppkozlowski/zed-apache-syntax"
+rev = "cdf383dbce54b9bfb34b1db0ef610721d409fed0"
+path = "grammar"

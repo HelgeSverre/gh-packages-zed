@@ -1,0 +1,11 @@
+id = "jupyter-notebook"
+name = "Jupyter Notebook"
+description = "Language support for Jupyter Notebook (.ipynb) files with syntax highlighting, cell navigation, and code injection"
+version = "0.1.0"
+schema_version = 1
+authors = ["Barru"]
+repository = "https://github.com/barruadi/zed-jupyter-viewer"
+
+[grammars.json]
+repository = "https://github.com/tree-sitter/tree-sitter-json"
+commit = "001c28d7a29832b06b0e831ec77845553c89b56d"

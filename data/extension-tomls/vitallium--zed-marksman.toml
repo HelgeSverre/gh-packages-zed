@@ -1,0 +1,11 @@
+id = "marksman"
+name = "Marksman"
+description = "Marksman support for Markdown files."
+version = "1.0.0"
+schema_version = 1
+authors = ["Vitaly Slobodin <vitaliy.slobodin@gmail.com>"]
+repository = "https://github.com/vitallium/zed-marksman"
+
+[language_servers.marksman]
+name = "Marksman"
+languages = ["Markdown", "Markdown-Inline"]

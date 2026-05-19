@@ -1,0 +1,10 @@
+id = "mcbopomofo-data"
+name = "McBopomofo Data"
+version = "0.1.0"
+schema_version = 1
+authors = ["Weizhong Yang <zonble@gmail.com>"]
+description = "Syntax highlighting for McBopomofo data files."
+
+[grammars.mcbopomofo_data]
+repository = "https://github.com/openvanilla/mcbopomofo-zed-extension"
+rev = "d896c40cf7689e805933e349f8ea9dc01cf1512e"

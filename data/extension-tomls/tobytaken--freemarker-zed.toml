@@ -1,0 +1,21 @@
+id = "freemarker-magnolia"
+name = "Freemarker Magnolia"
+description = "Square-bracket-first FreeMarker + Magnolia language support for Zed"
+version = "0.1.1"
+schema_version = 1
+authors = ["T. Steinhaeusler"]
+repository = "https://github.com/tobytaken/freemarker-zed"
+languages = ["languages/freemarker"]
+
+[lib]
+kind = "Rust"
+version = "0.7.0"
+
+[language_servers.freemarker_magnolia]
+name = "FreeMarker Magnolia LSP"
+language = "FreeMarker"
+languages = ["FreeMarker"]
+
+[grammars.freemarker]
+repository = "https://github.com/debba/tree-sitter-freemarker"
+rev = "36bb2937c43abea5f8fb1ddc89cf2730da5fec0e"

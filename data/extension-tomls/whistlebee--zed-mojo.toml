@@ -1,0 +1,18 @@
+id = "mojo-language"
+name = "Mojo"
+version = "0.1.0"
+schema_version = 1
+authors = ["Hyunjin Kim"]
+description = "Mojo language support for Zed powered by tree-sitter-mojo."
+repository = "https://github.com/whistlebee/zed-mojo"
+
+[grammars.mojo]
+repository = "https://github.com/whistlebee/mojo-tree-sitter"
+rev = "8f9811978b1bab86d8171043912ff0bc154d3f60"
+
+[language_servers.mojo-lsp-server]
+name = "Mojo Language Server"
+languages = ["Mojo"]
+command = { extension = true }
+
+[debug_adapters.mojo-lldb]

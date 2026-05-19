@@ -1,0 +1,238 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>DeepWiki MCP — Zed Extension Safari</title><meta name="description" content="Zed mcp context server extension for deepwiki"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="DeepWiki MCP — Zed Extension Safari"><meta property="og:description" content="Zed mcp context server extension for deepwiki"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="DeepWiki MCP — Zed Extension Safari"><meta name="twitter:description" content="Zed mcp context server extension for deepwiki"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.DJSXA_CW.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);">  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-4"> <a href="/gh-packages-zed" class="transition" style="color:var(--zed-text-muted);">← All extensions</a> </nav> <div class="flex flex-wrap items-start justify-between gap-4"> <div class="min-w-0"> <div class="font-mono text-xs mb-2" style="color:var(--zed-muted);"> kmshdev/deepwiki-mcp-server </div> <h1 class="text-2xl sm:text-3xl font-bold break-words leading-tight" style="color:var(--zed-blue-pale);"> DeepWiki MCP </h1> <p class="mt-2 text-pretty" style="color:var(--zed-text-muted);"> DeepWiki - Repository Documentation and AI Q&amp;A </p> </div> <a href="https://github.com/kmshdev/deepwiki-mcp-server" target="_blank" rel="noopener" class="zed-btn-primary shrink-0 inline-flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View on GitHub
+</a> </div> <div class="mt-4 flex flex-wrap items-center gap-2"> <span class="version-pill">v0.1.0</span> <span class="cat-badge" data-cat="context-server">Context Server</span> </div> <div class="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm" style="color:var(--zed-text-muted);"> <span class="inline-flex items-center gap-1"> <svg class="w-4 h-4" style="color:var(--zed-lime);" fill="currentColor" viewBox="0 0 20 20"> <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path> </svg> 0 stars
+</span> <span>Rust</span> <span>NOASSERTION</span> <span>Updated 5/8/2026</span> <span>schema v1</span> </div> <div class="mt-2 text-sm" style="color:var(--zed-text-muted);">
+by Keshav Mishra </div> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> agentic-ai </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> llm </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> mcp </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed </span> </div> </div> </header> <main class="flex-1 max-w-4xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <article class="prose readme-prose max-w-none"><h1 id="user-content-deepwiki-mcp-server-extension-for-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#deepwiki-mcp-server-extension-for-zed"><span class="heading-anchor-icon">#</span></a>DeepWiki MCP Server Extension for Zed</h1>
+<p>A <strong>Model Context Protocol (MCP) server extension</strong> for the Zed IDE that provides seamless integration with DeepWiki and Devin AI documentation services.</p>
+<h2 id="user-content-️-architecture"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#️-architecture"><span class="heading-anchor-icon">#</span></a>🏗️ Architecture</h2>
+<p>This extension uses a <strong>two-part architecture</strong> with automatic binary download:</p>
+<pre><code>Zed ↔ Extension (WASM) → Auto-Downloaded Bridge (Native) ↔ HTTP MCP Server
+</code></pre>
+<h3 id="user-content-components"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#components"><span class="heading-anchor-icon">#</span></a>Components</h3>
+<ol>
+<li>
+<p><strong>Extension (WASM)</strong> - <code>crates/extension/</code></p>
+<ul>
+<li>Lightweight Zed extension compiled to WebAssembly</li>
+<li>Automatically downloads platform-specific bridge binary</li>
+<li>Provides configuration UI and command setup</li>
+<li>No async/HTTP dependencies (WASM-compatible)</li>
+</ul>
+</li>
+<li>
+<p><strong>Bridge Binary (Native)</strong> - <code>crates/bridge/</code></p>
+<ul>
+<li>Auto-downloaded from GitHub releases per platform</li>
+<li>Full HTTP/async capabilities with tokio and reqwest</li>
+<li>Translates between STDIO (Zed) and HTTP (DeepWiki/Devin)</li>
+<li>Handles MCP protocol communication</li>
+</ul>
+</li>
+</ol>
+<h2 id="user-content--features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-features"><span class="heading-anchor-icon">#</span></a>🚀 Features</h2>
+<ul>
+<li><strong>Free DeepWiki Access</strong>: Query public repository documentation</li>
+<li><strong>Devin AI Integration</strong>: Enhanced AI-powered documentation with API key</li>
+<li><strong>Automatic Setup</strong>: Bridge binary downloaded automatically per platform</li>
+<li><strong>Type-Safe Configuration</strong>: JSON schema validation for settings</li>
+<li><strong>Secure Authentication</strong>: Environment variable-based API key handling</li>
+<li><strong>Protocol Compliance</strong>: Full MCP (Model Context Protocol) support</li>
+<li><strong>Cross-Platform</strong>: Supports Linux (x86_64, ARM64), macOS (Intel, Apple Silicon), Windows</li>
+</ul>
+<h2 id="user-content-️-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#️-installation"><span class="heading-anchor-icon">#</span></a>🛠️ Installation</h2>
+<h3 id="user-content-prerequisites"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#prerequisites"><span class="heading-anchor-icon">#</span></a>Prerequisites</h3>
+<ul>
+<li>Rust toolchain (latest stable)</li>
+<li>Zed IDE</li>
+<li>WASM target: <code>rustup target add wasm32-wasip1</code></li>
+</ul>
+<h3 id="user-content-install-from-zed-extensions-registry-recommended"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#install-from-zed-extensions-registry-recommended"><span class="heading-anchor-icon">#</span></a>Install from Zed Extensions Registry (Recommended)</h3>
+<ol>
+<li><strong>Open Zed</strong></li>
+<li><strong>Open Command Palette</strong> (<code>Cmd/Ctrl+Shift+P</code>)</li>
+<li><strong>Type</strong>: "zed: extensions"</li>
+<li><strong>Search for</strong>: "DeepWiki MCP"</li>
+<li><strong>Click Install</strong></li>
+</ol>
+<p>The extension will automatically download the appropriate bridge binary for your platform when first used.</p>
+<h3 id="user-content-build-from-source-advanced"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#build-from-source-advanced"><span class="heading-anchor-icon">#</span></a>Build from Source (Advanced)</h3>
+<p>If you want to build from source:</p>
+<ol>
+<li>
+<p><strong>Clone the repository</strong>:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">git</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> clone</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> https://github.com/keshav1998/deepwiki-mcp-server</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">cd</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> deepwiki-mcp-server</span></span></code></pre>
+</li>
+<li>
+<p><strong>Build everything</strong>:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">./build.sh</span></span></code></pre>
+</li>
+<li>
+<p><strong>Install manually in Zed</strong>:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Copy to Zed extensions directory</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cp</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -r</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> dist/</span><span style="color:#79B8FF;--shiki-dark:#79B8FF">*</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> ~/.config/zed/extensions/deepwiki-mcp-server/</span></span></code></pre>
+</li>
+</ol>
+<h2 id="user-content-️-configuration"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#️-configuration"><span class="heading-anchor-icon">#</span></a>⚙️ Configuration</h2>
+<h3 id="user-content-basic-setup-free-deepwiki"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#basic-setup-free-deepwiki"><span class="heading-anchor-icon">#</span></a>Basic Setup (Free DeepWiki)</h3>
+<p>Add to your Zed <code>settings.json</code>:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "context_servers"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "deepwiki-mcp-server"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "endpoint"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"https://mcp.deepwiki.com"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "protocol"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"mcp"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h3 id="user-content-advanced-setup-devin-ai-with-authentication"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#advanced-setup-devin-ai-with-authentication"><span class="heading-anchor-icon">#</span></a>Advanced Setup (Devin AI with Authentication)</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "context_servers"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "deepwiki-mcp-server"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "endpoint"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"https://mcp.devin.ai"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "protocol"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"mcp"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "devin_api_key"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"your-api-key-here"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h3 id="user-content-environment-variables"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#environment-variables"><span class="heading-anchor-icon">#</span></a>Environment Variables</h3>
+<p>For secure API key management:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#F97583;--shiki-dark:#F97583">export</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> DEVIN_API_KEY</span><span style="color:#F97583;--shiki-dark:#F97583">=</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"your-api-key-here"</span></span></code></pre>
+<h2 id="user-content--development"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-development"><span class="heading-anchor-icon">#</span></a>🔧 Development</h2>
+<h3 id="user-content-project-structure"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#project-structure"><span class="heading-anchor-icon">#</span></a>Project Structure</h3>
+<pre><code>deepwiki-mcp-server/
+├── crates/
+│   ├── extension/          # Zed WASM extension
+│   │   ├── src/
+│   │   │   ├── lib.rs     # Extension implementation
+│   │   │   └── tests.rs   # Extension tests
+│   │   └── configuration/ # UI configuration files
+│   └── bridge/            # Native bridge binary
+│       └── src/
+│           ├── main.rs    # Bridge entry point
+│           └── mcp_bridge/ # MCP protocol implementation
+├── extension.toml         # Zed extension manifest
+├── build.sh              # Build script
+└── scripts/              # Legacy shell scripts (deprecated)
+</code></pre>
+<h3 id="user-content-building-individual-components"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#building-individual-components"><span class="heading-anchor-icon">#</span></a>Building Individual Components</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Build extension (WASM)</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> build</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --manifest-path</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> crates/extension/Cargo.toml</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --target</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> wasm32-wasip1</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Build bridge (native)</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> build</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --manifest-path</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> crates/bridge/Cargo.toml</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --release</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Run tests</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> test</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --workspace</span></span></code></pre>
+<h3 id="user-content-code-quality"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#code-quality"><span class="heading-anchor-icon">#</span></a>Code Quality</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Format code</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> fmt</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --all</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Run clippy</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> clippy</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --workspace</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --tests</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -D</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> warnings</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Fix clippy issues automatically</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> clippy</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --fix</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --allow-dirty</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --allow-staged</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --workspace</span></span></code></pre>
+<h2 id="user-content-️-usage"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#️-usage"><span class="heading-anchor-icon">#</span></a>🏃‍♂️ Usage</h2>
+<p>Once installed and configured:</p>
+<ol>
+<li><strong>Open a project in Zed</strong></li>
+<li><strong>Access the assistant panel</strong></li>
+<li><strong>Use context-aware queries</strong> like:
+<ul>
+<li>"How do I implement authentication in this codebase?"</li>
+<li>"Show me examples of error handling patterns"</li>
+<li>"What are the available API endpoints?"</li>
+</ul>
+</li>
+</ol>
+<p>The extension will automatically query relevant documentation and provide contextual answers.</p>
+<h2 id="user-content--mcp-protocol-support"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-mcp-protocol-support"><span class="heading-anchor-icon">#</span></a>🔍 MCP Protocol Support</h2>
+<p>This extension implements the full <strong>Model Context Protocol v2024-11-05</strong> specification:</p>
+<ul>
+<li>✅ <strong>Tools</strong>: Interactive documentation queries</li>
+<li>✅ <strong>Resources</strong>: Repository file access</li>
+<li>✅ <strong>Prompts</strong>: Predefined query templates</li>
+<li>✅ <strong>Initialization</strong>: Capability negotiation</li>
+<li>✅ <strong>Error Handling</strong>: Robust error reporting</li>
+</ul>
+<h2 id="user-content-️-security"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#️-security"><span class="heading-anchor-icon">#</span></a>🛡️ Security</h2>
+<ul>
+<li><strong>WASM Sandboxing</strong>: Extension runs in WebAssembly sandbox</li>
+<li><strong>Process Isolation</strong>: Bridge runs as separate process</li>
+<li><strong>Environment Variables</strong>: Sensitive data via env vars only</li>
+<li><strong>No Hardcoded Secrets</strong>: All credentials externally managed</li>
+<li><strong>Capability-Based</strong>: Fine-grained permission system</li>
+</ul>
+<h2 id="user-content--troubleshooting"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-troubleshooting"><span class="heading-anchor-icon">#</span></a>🐛 Troubleshooting</h2>
+<h3 id="user-content-common-issues"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#common-issues"><span class="heading-anchor-icon">#</span></a>Common Issues</h3>
+<ol>
+<li>
+<p><strong>Automatic download failed</strong>:</p>
+<ul>
+<li>Check internet connectivity and GitHub access</li>
+<li>Restart Zed to retry the download</li>
+<li>Check Zed's extension logs for details</li>
+</ul>
+</li>
+<li>
+<p><strong>Bridge binary not working</strong>:</p>
+<ul>
+<li>The extension automatically handles binary installation</li>
+<li>If issues persist, try reinstalling the extension</li>
+<li>Check platform compatibility (Linux, macOS, Windows supported)</li>
+</ul>
+</li>
+<li>
+<p><strong>Authentication errors</strong>:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Check API key in settings</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Verify endpoint configuration</span></span></code></pre>
+</li>
+<li>
+<p><strong>Manual installation needed</strong>:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Download from: https://github.com/keshav1998/deepwiki-mcp-server/releases</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Extract to extension's bin/ directory</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Extension handles the rest automatically</span></span></code></pre>
+</li>
+</ol>
+<h3 id="user-content-debug-mode"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#debug-mode"><span class="heading-anchor-icon">#</span></a>Debug Mode</h3>
+<p>Enable debug logging:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#F97583;--shiki-dark:#F97583">export</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> DEBUG</span><span style="color:#F97583;--shiki-dark:#F97583">=</span><span style="color:#79B8FF;--shiki-dark:#79B8FF">1</span></span>
+<span class="line"><span style="color:#F97583;--shiki-dark:#F97583">export</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> RUST_LOG</span><span style="color:#F97583;--shiki-dark:#F97583">=</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">debug</span></span></code></pre>
+<p>Then check Zed's extension logs for detailed information.</p>
+<h2 id="user-content--contributing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-contributing"><span class="heading-anchor-icon">#</span></a>🤝 Contributing</h2>
+<p>We welcome contributions! Please see our development guidelines:</p>
+<h3 id="user-content-code-standards"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#code-standards"><span class="heading-anchor-icon">#</span></a>Code Standards</h3>
+<ul>
+<li><strong>Rust Best Practices</strong>: Follow Rust API guidelines</li>
+<li><strong>Security First</strong>: No hardcoded secrets, validate inputs</li>
+<li><strong>WASM Compatibility</strong>: Keep extension dependencies minimal</li>
+<li><strong>Type Safety</strong>: Use strong typing throughout</li>
+<li><strong>Error Handling</strong>: Comprehensive error handling with context</li>
+</ul>
+<h3 id="user-content-development-workflow"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#development-workflow"><span class="heading-anchor-icon">#</span></a>Development Workflow</h3>
+<ol>
+<li><strong>Fork the repository</strong></li>
+<li><strong>Create a feature branch</strong>: <code>git checkout -b feature/amazing-feature</code></li>
+<li><strong>Make changes following our coding standards</strong></li>
+<li><strong>Add tests for new functionality</strong></li>
+<li><strong>Run the full test suite</strong>: <code>cargo test --workspace</code></li>
+<li><strong>Submit a pull request</strong></li>
+</ol>
+<h2 id="user-content--license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-license"><span class="heading-anchor-icon">#</span></a>📄 License</h2>
+<p>This project is licensed under the MIT License - see the <a href="https://github.com/kmshdev/deepwiki-mcp-server/blob/HEAD/LICENSE" target="_blank" rel="noopener">LICENSE</a> file for details.</p>
+<h2 id="user-content--acknowledgments"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-acknowledgments"><span class="heading-anchor-icon">#</span></a>🙏 Acknowledgments</h2>
+<ul>
+<li><strong>Zed Team</strong>: For the excellent extension API and WebAssembly architecture</li>
+<li><strong>MCP Specification</strong>: For providing a robust protocol for AI tool integration</li>
+<li><strong>DeepWiki &#x26; Devin</strong>: For providing the documentation and AI services</li>
+</ul>
+<h2 id="user-content--support"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-support"><span class="heading-anchor-icon">#</span></a>📞 Support</h2>
+<ul>
+<li><strong>Issues</strong>: <a href="https://github.com/keshav1998/deepwiki-mcp-server/issues">GitHub Issues</a></li>
+<li><strong>Discussions</strong>: <a href="https://github.com/keshav1998/deepwiki-mcp-server/discussions">GitHub Discussions</a></li>
+<li><strong>Email</strong>: <a href="mailto:me@kmsh.dev">me@kmsh.dev</a></li>
+</ul>
+<hr>
+<p><strong>Built with ❤️ for the Zed community</strong></p></article> </main> <footer class="mt-auto" style="background:var(--zed-bg);border-top:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:var(--zed-text-muted);">
+← Back to extension list
+</a> </div> </footer> </body></html>

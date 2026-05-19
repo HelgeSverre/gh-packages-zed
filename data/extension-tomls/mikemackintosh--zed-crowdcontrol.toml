@@ -1,0 +1,15 @@
+id = "crowdcontrol"
+name = "CrowdControl"
+description = "Support for the CrowdControl policy language — diagnostics, hover, completion, and tree-sitter syntax highlighting via the cc-lsp language server."
+version = "0.1.0"
+schema_version = 1
+authors = ["Mike Mackintosh"]
+repository = "https://github.com/mikemackintosh/zed-crowdcontrol"
+
+[language_servers.cc-lsp]
+name = "cc-lsp"
+language = "CrowdControl"
+
+[grammars.crowdcontrol]
+repository = "https://github.com/mikemackintosh/tree-sitter-crowdcontrol"
+commit = "9ece83fc10d371f76de4d2d1e06b45deedd10385"

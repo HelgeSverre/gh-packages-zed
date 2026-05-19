@@ -1,0 +1,8 @@
+id = "laravel-blade-snippets"
+name = "Laravel Blade Snippets"
+version = "0.0.1"
+schema_version = 1
+authors = ["Tejas Shinde"]
+description = "A collection of Laravel blade snippets for Zed IDE."
+repository = "https://github.com/tejasashinde/zed-laravel-blade-snippets"
+snippets = ["./snippets/php.json"]

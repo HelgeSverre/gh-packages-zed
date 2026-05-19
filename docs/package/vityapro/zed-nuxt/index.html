@@ -1,0 +1,190 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Nuxt — Zed Extension Safari</title><meta name="description" content=" Nuxt 3/4 support for Zed editor"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Nuxt — Zed Extension Safari"><meta property="og:description" content=" Nuxt 3/4 support for Zed editor"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Nuxt — Zed Extension Safari"><meta name="twitter:description" content=" Nuxt 3/4 support for Zed editor"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.DJSXA_CW.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);">  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-4"> <a href="/gh-packages-zed" class="transition" style="color:var(--zed-text-muted);">← All extensions</a> </nav> <div class="flex flex-wrap items-start justify-between gap-4"> <div class="min-w-0"> <div class="font-mono text-xs mb-2" style="color:var(--zed-muted);"> vityapro/zed-nuxt </div> <h1 class="text-2xl sm:text-3xl font-bold break-words leading-tight" style="color:var(--zed-blue-pale);"> Nuxt </h1> <p class="mt-2 text-pretty" style="color:var(--zed-text-muted);"> Nuxt 3/4 support for Zed with auto-imports, path aliases, and Vue SFC support </p> </div> <a href="https://github.com/vityapro/zed-nuxt" target="_blank" rel="noopener" class="zed-btn-primary shrink-0 inline-flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View on GitHub
+</a> </div> <div class="mt-4 flex flex-wrap items-center gap-2"> <span class="version-pill">v0.1.0</span> <span class="cat-badge" data-cat="grammar">Grammar</span><span class="cat-badge" data-cat="language-server">Language Server</span> </div> <div class="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm" style="color:var(--zed-text-muted);"> <span class="inline-flex items-center gap-1"> <svg class="w-4 h-4" style="color:var(--zed-lime);" fill="currentColor" viewBox="0 0 20 20"> <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path> </svg> 0 stars
+</span> <span>Rust</span> <span>MIT</span> <span>Updated 2/1/2026</span> <span>schema v1</span> </div> <div class="mt-2 text-sm" style="color:var(--zed-text-muted);">
+by Viktor </div>  </div> </header> <main class="flex-1 max-w-4xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <article class="prose readme-prose max-w-none"><h1 id="user-content-nuxt-extension-for-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#nuxt-extension-for-zed"><span class="heading-anchor-icon">#</span></a>Nuxt Extension for Zed</h1>
+<p>Full <strong>Nuxt 3/4</strong> support for <a href="https://zed.dev">Zed</a> editor with auto-imports, path aliases, and Vue SFC support.</p>
+<h2 id="user-content-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features"><span class="heading-anchor-icon">#</span></a>Features</h2>
+<ul>
+<li><strong>Auto-imports</strong> — <code>useFetch</code>, <code>useAsyncData</code>, <code>useState</code>, <code>ref</code>, <code>computed</code> and more</li>
+<li><strong>Path aliases</strong> — support for <code>~/</code>, <code>@/</code>, <code>#imports</code>, <code>#app</code></li>
+<li><strong>Go-to-definition</strong> — navigate to components and composables</li>
+<li><strong>TypeScript</strong> — full type support</li>
+<li><strong>Nuxt Detection</strong> — automatic Nuxt 3 vs 4 detection</li>
+<li><strong>Optimized LSP</strong> — reduced completion noise</li>
+<li><strong>Snippets</strong> — 15 Nuxt-specific code snippets</li>
+</ul>
+<h2 id="user-content-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation"><span class="heading-anchor-icon">#</span></a>Installation</h2>
+<h3 id="user-content-requirements"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#requirements"><span class="heading-anchor-icon">#</span></a>Requirements</h3>
+<ul>
+<li><a href="https://zed.dev">Zed</a> editor</li>
+<li><a href="https://nodejs.org">Node.js</a> v18+</li>
+<li>Vue Language Server: <code>npm install -g @vue/language-server</code></li>
+</ul>
+<h3 id="user-content-install-extension"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#install-extension"><span class="heading-anchor-icon">#</span></a>Install Extension</h3>
+<p><strong>From Zed Extensions:</strong></p>
+<ol>
+<li>Open Zed</li>
+<li><code>Cmd+Shift+P</code> → "zed: extensions"</li>
+<li>Search for "Nuxt" and install</li>
+</ol>
+<p><strong>Development Install:</strong></p>
+<ol>
+<li>Clone this repository</li>
+<li>In Zed: <code>Cmd+Shift+P</code> → "zed: install dev extension"</li>
+<li>Select the extension directory</li>
+</ol>
+<h2 id="user-content-setup"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#setup"><span class="heading-anchor-icon">#</span></a>Setup</h2>
+<h3 id="user-content-1-generate-nuxt-types"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#1-generate-nuxt-types"><span class="heading-anchor-icon">#</span></a>1. Generate Nuxt Types</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">npx</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> nuxi</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> prepare</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># or</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">npm</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> run</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> dev</span></span></code></pre>
+<h3 id="user-content-2-recommended-project-configuration"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#2-recommended-project-configuration"><span class="heading-anchor-icon">#</span></a>2. Recommended Project Configuration</h3>
+<p>Create <code>.zed/settings.json</code> in your project root:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "languages"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "Vue"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "language_servers"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: [</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"vue-language-server"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h2 id="user-content-snippets"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#snippets"><span class="heading-anchor-icon">#</span></a>Snippets</h2>
+<p>Type the prefix and press <code>Tab</code> to expand:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Prefix</th><th>Description</th></tr></thead><tbody><tr><td><code>npage</code></td><td>Nuxt page with <code>definePageMeta</code></td></tr><tr><td><code>nlayout</code></td><td>Layout component</td></tr><tr><td><code>napi</code></td><td>Server API route (Nitro)</td></tr><tr><td><code>nmiddleware</code></td><td>Route middleware</td></tr><tr><td><code>ncomposable</code></td><td>Composable function</td></tr><tr><td><code>nplugin</code></td><td>Nuxt plugin</td></tr><tr><td><code>nfetch</code></td><td><code>useFetch</code></td></tr><tr><td><code>nasync</code></td><td><code>useAsyncData</code></td></tr><tr><td><code>nstate</code></td><td><code>useState</code></td></tr><tr><td><code>npagemeta</code></td><td><code>definePageMeta</code></td></tr><tr><td><code>nerror</code></td><td>Error page</td></tr><tr><td><code>nlink</code></td><td><code>&#x3C;NuxtLink></code></td></tr><tr><td><code>nscript</code></td><td>Script setup TS</td></tr><tr><td><code>ntemplate</code></td><td>Full Vue SFC</td></tr><tr><td><code>nnuxtconfig</code></td><td><code>nuxt.config.ts</code></td></tr></tbody></table>
+<h2 id="user-content-troubleshooting"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#troubleshooting"><span class="heading-anchor-icon">#</span></a>Troubleshooting</h2>
+<h3 id="user-content-auto-imports-not-working"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#auto-imports-not-working"><span class="heading-anchor-icon">#</span></a>Auto-imports not working</h3>
+<ol>
+<li>Make sure <code>.nuxt/</code> directory exists</li>
+<li>Run <code>npx nuxi prepare</code></li>
+<li>Reload Zed (<code>Cmd+Shift+P</code> → "zed: reload")</li>
+</ol>
+<h3 id="user-content-path-aliases-not-resolving"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#path-aliases-not-resolving"><span class="heading-anchor-icon">#</span></a>Path aliases not resolving</h3>
+<ol>
+<li>Check <code>tsconfig.json</code> — should extend <code>.nuxt/tsconfig.json</code></li>
+<li>Generate types: <code>npx nuxi prepare</code></li>
+</ol>
+<h3 id="user-content-lsp-not-starting"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#lsp-not-starting"><span class="heading-anchor-icon">#</span></a>LSP not starting</h3>
+<ol>
+<li>Install Vue Language Server:
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">npm</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> install</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -g</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> @vue/language-server</span></span></code></pre>
+</li>
+<li>Verify it's in PATH:
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">which</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> vue-language-server</span></span></code></pre>
+</li>
+</ol>
+<h2 id="user-content-project-structure-support"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#project-structure-support"><span class="heading-anchor-icon">#</span></a>Project Structure Support</h2>
+<h3 id="user-content-nuxt-3"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#nuxt-3"><span class="heading-anchor-icon">#</span></a>Nuxt 3</h3>
+<pre><code>project/
+├── components/
+├── composables/
+├── pages/
+├── server/
+├── nuxt.config.ts
+└── tsconfig.json
+</code></pre>
+<h3 id="user-content-nuxt-4"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#nuxt-4"><span class="heading-anchor-icon">#</span></a>Nuxt 4</h3>
+<pre><code>project/
+├── app/
+│   ├── components/
+│   ├── composables/
+│   ├── pages/
+│   └── app.vue
+├── server/
+├── nuxt.config.ts
+└── tsconfig.json
+</code></pre>
+<h2 id="user-content-development"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#development"><span class="heading-anchor-icon">#</span></a>Development</h2>
+<h3 id="user-content-build"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#build"><span class="heading-anchor-icon">#</span></a>Build</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Install Rust</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">curl</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --proto</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> '=https'</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --tlsv1.2</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -sSf</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> https://sh.rustup.rs</span><span style="color:#F97583;--shiki-dark:#F97583"> |</span><span style="color:#B392F0;--shiki-dark:#B392F0"> sh</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Add WASM target</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">rustup</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> target</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> add</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> wasm32-wasip1</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Build</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> build</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --release</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --target</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> wasm32-wasip1</span></span></code></pre>
+<h3 id="user-content-test"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#test"><span class="heading-anchor-icon">#</span></a>Test</h3>
+<ol>
+<li>Build the extension</li>
+<li>In Zed: <code>Cmd+Shift+P</code> → "zed: install dev extension"</li>
+<li>Open a Nuxt project</li>
+</ol>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>MIT License</p>
+<h2 id="user-content-acknowledgments"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#acknowledgments"><span class="heading-anchor-icon">#</span></a>Acknowledgments</h2>
+<ul>
+<li><a href="https://zed.dev">Zed</a> — fast code editor</li>
+<li><a href="https://github.com/vuejs/language-tools">Volar</a> — Vue language tools</li>
+<li><a href="https://nuxt.com">Nuxt</a> — Vue framework</li>
+</ul></article> </main> <footer class="mt-auto" style="background:var(--zed-bg);border-top:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:var(--zed-text-muted);">
+← Back to extension list
+</a> </div> </footer> </body></html>

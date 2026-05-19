@@ -1,0 +1,32 @@
+id = "php-tools"
+name = "PHP Tools"
+version = "0.1.0"
+schema_version = 1
+authors = ["Siarhei Bautrukevich <s.boltrukevich@gmail.com>"]
+description = "Create PHP files (class, interface, enum, trait, abstract class) with auto-resolved PSR-4 namespaces from composer.json."
+repository = "https://github.com/your-username/zed-php-plugin"
+
+[slash_commands.php-class]
+description = "Create a PHP class. Usage: /php-class App\\Services\\MyService"
+requires_argument = true
+
+[slash_commands.php-interface]
+description = "Create a PHP interface. Usage: /php-interface App\\Contracts\\MyInterface"
+requires_argument = true
+
+[slash_commands.php-enum]
+description = "Create a PHP enum (pure, no backing type). Usage: /php-enum App\\Enums\\Status"
+requires_argument = true
+
+[slash_commands.php-trait]
+description = "Create a PHP trait. Usage: /php-trait App\\Concerns\\HasTimestamps"
+requires_argument = true
+
+[slash_commands.php-abstract]
+description = "Create a PHP abstract class. Usage: /php-abstract App\\Models\\BaseModel"
+requires_argument = true
+
+[[capabilities]]
+kind = "process:exec"
+command = "sh"
+args = ["-c", "**"]

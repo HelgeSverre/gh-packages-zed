@@ -1,0 +1,175 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Sieve — Zed Extension Safari</title><meta name="description" content="Zed LSP Extension for Sieve"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Sieve — Zed Extension Safari"><meta property="og:description" content="Zed LSP Extension for Sieve"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Sieve — Zed Extension Safari"><meta name="twitter:description" content="Zed LSP Extension for Sieve"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.DJSXA_CW.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);">  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-4"> <a href="/gh-packages-zed" class="transition" style="color:var(--zed-text-muted);">← All extensions</a> </nav> <div class="flex flex-wrap items-start justify-between gap-4"> <div class="min-w-0"> <div class="font-mono text-xs mb-2" style="color:var(--zed-muted);"> aRustyDev/zed-sieve </div> <h1 class="text-2xl sm:text-3xl font-bold break-words leading-tight" style="color:var(--zed-blue-pale);"> Sieve </h1> <p class="mt-2 text-pretty" style="color:var(--zed-text-muted);"> Language support for Sieve email filtering language (RFC 5228) with Proton advanced features </p> </div> <a href="https://github.com/aRustyDev/zed-sieve" target="_blank" rel="noopener" class="zed-btn-primary shrink-0 inline-flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View on GitHub
+</a> </div> <div class="mt-4 flex flex-wrap items-center gap-2"> <span class="version-pill">v0.1.7</span> <span class="cat-badge" data-cat="grammar">Grammar</span><span class="cat-badge" data-cat="language-server">Language Server</span> </div> <div class="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm" style="color:var(--zed-text-muted);"> <span class="inline-flex items-center gap-1"> <svg class="w-4 h-4" style="color:var(--zed-lime);" fill="currentColor" viewBox="0 0 20 20"> <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path> </svg> 4 stars
+</span> <span>Rust</span> <span>AGPL-3.0</span> <span>Updated 5/12/2026</span> <span>schema v1</span> </div> <div class="mt-2 text-sm" style="color:var(--zed-text-muted);">
+by Adam Smith </div>  </div> </header> <main class="flex-1 max-w-4xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <article class="prose readme-prose max-w-none"><h1 id="user-content-zed-sieve-extension"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#zed-sieve-extension"><span class="heading-anchor-icon">#</span></a>Zed Sieve Extension</h1>
+<p>A comprehensive Language Server Protocol extension for <a href="https://zed.dev">Zed</a> that provides intelligent editing support for the Sieve email filtering language (RFC 5228) with enhanced support for Proton Mail's advanced features.</p>
+<h2 id="user-content-repo-structure"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#repo-structure"><span class="heading-anchor-icon">#</span></a>Repo structure</h2>
+<pre><code>zed-sieve/
+├── extension.toml             # Zed extension configuration
+├── src/                       # Extension source code
+│   └── extension.rs           # Main extension implementation
+├── grammars/                 # Tree-sitter grammars for Sieve language (Auto-Generated by Zed during install)
+├── languages/                 # Language configuration
+│   └── sieve/
+│       ├── highlights.scm     # Syntax highlighting queries
+│       └── config.toml        # Language-specific settings
+├── docs/                      # Documentation
+│   ├── installation.md
+│   ├── configuration.md
+│   └── features.md
+├── examples/                  # Example configurations
+│   └── settings.json
+├── Cargo.toml                 # Rust extension config
+├── README.md                 # Installation and usage instructions
+├── LICENSE
+└── .gitignore
+</code></pre>
+<h2 id="user-content-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features"><span class="heading-anchor-icon">#</span></a>Features</h2>
+<h3 id="user-content--language-support"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-language-support"><span class="heading-anchor-icon">#</span></a>✨ Language Support</h3>
+<ul>
+<li><strong>Complete RFC 5228 compliance</strong> - Full support for the Sieve base specification</li>
+<li><strong>Proton Mail extensions</strong> - Advanced features like <code>expire</code>, <code>currentdate</code>, and more</li>
+<li><strong>Tree-sitter grammar</strong> - Precise syntax highlighting and code structure</li>
+<li><strong>Language Server Protocol</strong> - Rich editing experience with diagnostics, completion, and hover info</li>
+</ul>
+<h3 id="user-content--editor-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-editor-features"><span class="heading-anchor-icon">#</span></a>🎯 Editor Features</h3>
+<ul>
+<li><strong>Syntax Highlighting</strong> - Beautiful, accurate highlighting for all Sieve constructs</li>
+<li><strong>Code Completion</strong> - Smart completions for tests, actions, tags, and extensions
+<ul>
+<li>Type any Sieve command to see available completions</li>
+<li>Trigger with <code>:</code> for tag completions</li>
+<li>Context-aware suggestions based on cursor position</li>
+</ul>
+</li>
+<li><strong>Error Diagnostics</strong> - Real-time syntax error detection and reporting
+<ul>
+<li>Real-time syntax validation</li>
+<li>Missing semicolon detection</li>
+<li>Invalid command highlighting</li>
+<li>Extension requirement checking</li>
+</ul>
+</li>
+<li><strong>Hover Documentation</strong> - Inline help for Sieve commands and extensions
+<ul>
+<li>Command description</li>
+<li>Parameter information</li>
+<li>Usage examples</li>
+<li>Extension requirements</li>
+</ul>
+</li>
+<li><strong>Auto-formatting</strong> - Consistent code style and indentation</li>
+<li><strong>Comment Support</strong> - Both line (<code>#</code>) and block (<code>/* */</code>) comments</li>
+</ul>
+<h3 id="user-content--sieve-language-coverage"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-sieve-language-coverage"><span class="heading-anchor-icon">#</span></a>🚀 Sieve Language Coverage</h3>
+<ul>
+<li><strong>Core Tests</strong>: <code>address</code>, <code>allof</code>, <code>anyof</code>, <code>envelope</code>, <code>exists</code>, <code>header</code>, <code>not</code>, <code>size</code>, <code>true</code>, <code>false</code></li>
+<li><strong>Core Actions</strong>: <code>discard</code>, <code>fileinto</code>, <code>keep</code>, <code>redirect</code>, <code>reject</code>, <code>stop</code></li>
+<li><strong>Extensions</strong>: <code>body</code>, <code>copy</code>, <code>date</code>, <code>regex</code>, <code>vacation</code>, <code>variables</code>, <code>relational</code>, and more</li>
+<li><strong>Proton Features</strong>: <code>expire</code>, <code>currentdate</code>, advanced date operations, custom filters</li>
+</ul>
+<h2 id="user-content-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation"><span class="heading-anchor-icon">#</span></a>Installation</h2>
+<h3 id="user-content-prerequisites"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#prerequisites"><span class="heading-anchor-icon">#</span></a>Prerequisites</h3>
+<ul>
+<li><a href="https://zed.dev">Zed editor</a> (latest version)</li>
+<li><a href="https://rustup.rs/">Rust</a> (for extension compilation)</li>
+</ul>
+<h3 id="user-content-install-via-zed-extensions"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#install-via-zed-extensions"><span class="heading-anchor-icon">#</span></a>Install via Zed Extensions</h3>
+<ol>
+<li>Open Zed</li>
+<li>Press <code>Cmd+Shift+P</code> (macOS) or <code>Ctrl+Shift+P</code> (Linux/Windows)</li>
+<li>Type "Extensions" and select "Extensions: Install Extension"</li>
+<li>Search for "Sieve" and install</li>
+</ol>
+<h3 id="user-content-manual-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#manual-installation"><span class="heading-anchor-icon">#</span></a>Manual Installation</h3>
+<ol>
+<li>Clone this repository:
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">git</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> clone</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> https://github.com/yourusername/zed-sieve</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">cd</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> zed-sieve</span></span></code></pre>
+</li>
+<li>Open Zed</li>
+<li>Press <code>Cmd+Shift+X</code> (macOS) or <code>Ctrl+Shift+X</code> (Linux/Windows)</li>
+<li>Click the <code>Install Dev Extension</code> button and select the repo directory</li>
+<li>Configure Zed for Sieve extension:
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Merge Zed configs for Sieve extension (To project only)</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">jq</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -s</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> '.[0] * .[1]'</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> .zed/settings.json</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> ~/.config/zed/settings.json</span><span style="color:#F97583;--shiki-dark:#F97583"> ></span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> .zed/settings.json</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># OR Merge Zed configs for Sieve extension (To global)</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">jq</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -s</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> '.[0] * .[1]'</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> .zed/settings.json</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> ~/.config/zed/settings.json</span><span style="color:#F97583;--shiki-dark:#F97583"> ></span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> .config/zed/settings.json</span></span></code></pre>
+</li>
+<li>Restart Zed (optional)</li>
+</ol>
+<h2 id="user-content-usage"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#usage"><span class="heading-anchor-icon">#</span></a>Usage</h2>
+<h3 id="user-content-file-types"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#file-types"><span class="heading-anchor-icon">#</span></a>File Types</h3>
+<p>The extension automatically activates for files with these extensions:</p>
+<ul>
+<li><code>.sieve</code> - Standard Sieve scripts</li>
+<li><code>.sv</code> - Alternative Sieve extension</li>
+</ul>
+<h2 id="user-content-configuration"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#configuration"><span class="heading-anchor-icon">#</span></a>Configuration</h2>
+<h3 id="user-content-extension-options"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#extension-options"><span class="heading-anchor-icon">#</span></a>Extension Options</h3>
+<ul>
+<li><code>protonExtensions</code>: Enable Proton Mail specific features (default: true)</li>
+<li><code>strictMode</code>: Enforce RFC 5228 compliance only (default: false)</li>
+</ul>
+<h2 id="user-content-development"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#development"><span class="heading-anchor-icon">#</span></a>Development</h2>
+<h3 id="user-content-building-from-source"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#building-from-source"><span class="heading-anchor-icon">#</span></a>Building from Source</h3>
+<ol>
+<li>
+<p>Clone this repository:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">git</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> clone</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> https://github.com/yourusername/zed-sieve</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">cd</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> zed-sieve</span></span></code></pre>
+</li>
+<li>
+<p>Run tests:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Extension server tests</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> check</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> test</span></span></code></pre>
+</li>
+<li>
+<p>Build Extension:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> build</span></span></code></pre>
+</li>
+</ol>
+<h3 id="user-content-contributing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#contributing"><span class="heading-anchor-icon">#</span></a>Contributing</h3>
+<ol>
+<li>Fork the repository</li>
+<li>Create a feature branch</li>
+<li>Make your changes</li>
+<li>Add tests</li>
+<li>Submit a pull request</li>
+</ol>
+<h2 id="user-content-rfc-5228-compliance"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#rfc-5228-compliance"><span class="heading-anchor-icon">#</span></a>RFC 5228 Compliance</h2>
+<p>This extension implements the complete Sieve specification:</p>
+<ul>
+<li>✅ Base language (RFC 5228)</li>
+<li>✅ Body extension (RFC 5173)</li>
+<li>✅ Copy extension (RFC 3894)</li>
+<li>✅ Date extension (RFC 5260)</li>
+<li>✅ Environment extension (RFC 5183)</li>
+<li>✅ Regex extension (draft-ietf-sieve-regex)</li>
+<li>✅ Variables extension (RFC 5229)</li>
+<li>✅ Vacation extension (RFC 5230)</li>
+<li>✅ Relational extension (RFC 5231)</li>
+</ul>
+<h3 id="user-content-proton-mail-extensions"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#proton-mail-extensions"><span class="heading-anchor-icon">#</span></a>Proton Mail Extensions</h3>
+<p>Additional support for Proton's advanced features:</p>
+<ul>
+<li><code>expire</code> action for message expiration</li>
+<li><code>currentdate</code> test for time-based filtering</li>
+<li>Enhanced date/time operations</li>
+<li>Custom flag management</li>
+</ul>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>MIT License - see <a href="https://github.com/aRustyDev/zed-sieve/blob/HEAD/LICENSE" target="_blank" rel="noopener">LICENSE</a> for details.</p>
+<h2 id="user-content-support"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#support"><span class="heading-anchor-icon">#</span></a>Support</h2>
+<ul>
+<li><strong>Issues</strong>: <a href="https://github.com/yourusername/zed-sieve/issues">GitHub Issues</a></li>
+<li><strong>Documentation</strong>: <a href="https://datatracker.ietf.org/doc/html/rfc5228">Sieve RFC 5228</a></li>
+<li><strong>Proton Help</strong>: <a href="https://proton.me/support/sieve-advanced-custom-filters">Proton Sieve Documentation</a></li>
+</ul>
+<hr>
+<p>Built with ❤️ for the Zed editor community</p></article> </main> <footer class="mt-auto" style="background:var(--zed-bg);border-top:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:var(--zed-text-muted);">
+← Back to extension list
+</a> </div> </footer> </body></html>

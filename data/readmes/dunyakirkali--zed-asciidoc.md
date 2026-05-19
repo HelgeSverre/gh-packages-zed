@@ -1,0 +1,77 @@
+= Zed AsciiDoc
+
+This extension adds support for the link:https://asciidoc.org/[AsciiDoc] language for Zed.
+
+It is based on link:https://github.com/cathaysia/tree-sitter-asciidoc/[tree-sitter-asciidoc].
+
+== Development
+
+=== Project Structure
+
+----
+zed-asciidoc/
+├── languages/
+│   ├── asciidoc/
+│   │   ├── highlights.scm      # Block-level syntax highlighting
+│   │   ├── injections.scm      # Grammar injections
+│   │   └── config.toml
+│   └── asciidoc_inline/
+│       ├── highlights.scm      # Inline syntax highlighting
+│       ├── injections.scm      # Inline grammar injections
+│       └── config.toml
+├── snippets/
+│   └── asciidoc.json           # Snippets
+└── extension.toml              # Extension configuration
+----
+
+=== Contributing
+
+When contributing changes to highlight queries:
+
+1. Make changes to the appropriate `.scm` files in `languages/asciidoc/` or `languages/asciidoc_inline/`
+2. Verify highlighting manually in Zed
+3. Submit a pull request
+
+=== Snippets
+
+Some snippets were adapted from link:https://github.com/asciidoctor/asciidoctor-vscode[asciidoc vscode extension], thanks!
+
+.Adapted Snippets
+|===
+| Prefix | Description
+
+| checklist | Insert checklist
+| example | Insert example block
+| footnote | Insert footnote
+| footnote-label | Insert footnote with label
+| image | Insert image block
+| image-block | Insert image inline
+| include | Insert include statement
+| link | Insert link
+| link-simple | Insert simple link
+| literal | Insert literal block
+| mailto | Insert mailto link
+| ordered list | Insert ordered list
+| quote | Insert quote block
+| sidebar | Insert sidebar block
+| source | Insert source block
+| table | Insert table
+| tag | Insert tagged block
+| unordered list | Insert unordered list
+| video | Insert video block
+|===
+
+But new snippets are necessary...
+
+.New Snippets
+|===
+| Prefix | Description
+
+| line-through | Insert a line-through text
+| overline | Insert an overline text
+| underline | Insert an underline text
+|===
+
+== License
+
+See link:LICENSE[LICENSE] file for details.

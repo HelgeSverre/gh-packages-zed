@@ -1,0 +1,15 @@
+id = "laravel-lsp"
+name = "Laravel LSP"
+description = "Laravel language support with Blade templating and embedded PHP"
+version = "0.0.1"
+schema_version = 1
+authors = ["local"]
+repository = "https://example.invalid/zed-laravel-lsp"
+
+[language_servers.laravel-lsp]
+name = "Laravel LSP"
+languages = ["Blade", "PHP"]
+
+[grammars.blade]
+repository = "https://github.com/EmranMR/tree-sitter-blade"
+commit = "b9436b7b936907aff730de0dac1b99d7c632cc86"

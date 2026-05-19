@@ -1,0 +1,8 @@
+id = "nextjs-react-ts-js-snippets"
+name = "Next.js React TypeScript Snippets"
+version = "0.0.1"
+schema_version = 1
+authors = ["Vadym Dubykhvist"]
+description = "Next.js, React, TypeScript, TSX, and JSX snippets."
+repository = "https://github.com/vadym-dubykhvist/zed-nextjs-react-ts-js-snippets"
+snippets = ["snippets/javascript.json", "snippets/tsx.json", "snippets/typescript.json"]

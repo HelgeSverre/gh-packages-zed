@@ -1,0 +1,7 @@
+id = "netcoredbg-zed"
+name = "netcoredbg debug adapter"
+version = "0.0.1"
+schema_version = 1
+authors = ["Sam Win-Mason <sam@albedosoftware.com>"]
+description = "Provides debug adapter support for netcoredbg"
+repository = "https://github.com/Or4c/netcoredbg-zed"

@@ -1,0 +1,668 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Mobile Device MCP Server — Zed Extension Safari</title><meta name="description" content="A Zed extension that provides a Mobile MCP Server."><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Mobile Device MCP Server — Zed Extension Safari"><meta property="og:description" content="A Zed extension that provides a Mobile MCP Server."><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Mobile Device MCP Server — Zed Extension Safari"><meta name="twitter:description" content="A Zed extension that provides a Mobile MCP Server."><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.DJSXA_CW.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);">  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-4"> <a href="/gh-packages-zed" class="transition" style="color:var(--zed-text-muted);">← All extensions</a> </nav> <div class="flex flex-wrap items-start justify-between gap-4"> <div class="min-w-0"> <div class="font-mono text-xs mb-2" style="color:var(--zed-muted);"> sorinirimies/mobiledevice-mcp-zed-extension </div> <h1 class="text-2xl sm:text-3xl font-bold break-words leading-tight" style="color:var(--zed-blue-pale);"> Mobile Device MCP Server </h1> <p class="mt-2 text-pretty" style="color:var(--zed-text-muted);"> A Zed extension for mobile device automation and testing via MCP. Supports iOS, Android, simulators, emulators, and real devices. </p> </div> <a href="https://github.com/sorinirimies/mobiledevice-mcp-zed-extension" target="_blank" rel="noopener" class="zed-btn-primary shrink-0 inline-flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View on GitHub
+</a> </div> <div class="mt-4 flex flex-wrap items-center gap-2"> <span class="version-pill">v0.1.0</span> <span class="cat-badge" data-cat="context-server">Context Server</span> </div> <div class="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm" style="color:var(--zed-text-muted);"> <span class="inline-flex items-center gap-1"> <svg class="w-4 h-4" style="color:var(--zed-lime);" fill="currentColor" viewBox="0 0 20 20"> <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path> </svg> 0 stars
+</span> <span>Rust</span> <span>NOASSERTION</span> <span>Updated 2/2/2026</span> <span>schema v1</span> </div> <div class="mt-2 text-sm" style="color:var(--zed-text-muted);">
+by Sorin Albu-Irimies </div>  </div> </header> <main class="flex-1 max-w-4xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <article class="prose readme-prose max-w-none"><h1 id="user-content-mobile-device-mcp-server"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#mobile-device-mcp-server"><span class="heading-anchor-icon">#</span></a>Mobile Device MCP Server</h1>
+<p><a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
+<a href="https://github.com/sorinirimies/mobiledevice-mcp-zed-extension/actions/workflows/ci.yml"><img src="https://github.com/sorinirimies/mobiledevice-mcp-zed-extension/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+<a href="https://www.rust-lang.org/"><img src="https://img.shields.io/badge/rust-1.70%2B-orange.svg" alt="Rust"></a>
+<a href="https://developer.android.com/tools/adb"><img src="https://img.shields.io/badge/Android-ADB-green.svg" alt="Android"></a>
+<a href="https://developer.apple.com/documentation/xcode"><img src="https://img.shields.io/badge/iOS-simctl-blue.svg" alt="iOS"></a></p>
+<p>A comprehensive Model Context Protocol (MCP) server for mobile device automation. Control Android and iOS devices programmatically through a standardized interface, perfect for testing, automation, and AI-assisted mobile app development.</p>
+<h2 id="user-content--features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-features"><span class="heading-anchor-icon">#</span></a>🚀 Features</h2>
+<ul>
+<li><strong>19 Mobile Automation Tools</strong> - Complete device control through MCP</li>
+<li><strong>Full Android Support</strong> - 100% coverage for physical devices and emulators (19/19 tools)</li>
+<li><strong>Comprehensive iOS Support</strong> - 95% coverage for simulators, 42% for physical devices (18/19 tools)</li>
+<li><strong>Screenshot Capture</strong> - Visual device state with base64 PNG output (all platforms)</li>
+<li><strong>UI Element Inspection</strong> - XML-based hierarchy parsing for Android</li>
+<li><strong>App Lifecycle Management</strong> - Install, launch, terminate, and uninstall apps</li>
+<li><strong>Touch &#x26; Gesture Automation</strong> - Tap, swipe, long press, and type</li>
+<li><strong>Cross-Platform Build</strong> - Works on macOS, Linux, and Windows</li>
+<li><strong>Native Binary + WASM</strong> - Standalone server and Zed extension support</li>
+<li><strong>Clean Architecture</strong> - Modular, well-documented Rust codebase</li>
+</ul>
+<h2 id="user-content--available-tools"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-available-tools"><span class="heading-anchor-icon">#</span></a>📋 Available Tools</h2>
+<p>All tools use the <code>mobile_device_mcp_*</code> prefix for namespacing.</p>
+<h3 id="user-content-device-information-5-tools"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#device-information-5-tools"><span class="heading-anchor-icon">#</span></a>Device Information (5 tools)</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Tool</th><th>Description</th><th>Android</th><th>iOS</th></tr></thead><tbody><tr><td><code>mobile_device_mcp_list_available_devices</code></td><td>Discover connected devices and emulators</td><td>✅</td><td>✅</td></tr><tr><td><code>mobile_device_mcp_get_screen_size</code></td><td>Get device screen dimensions in pixels</td><td>✅</td><td>✅</td></tr><tr><td><code>mobile_device_mcp_get_orientation</code></td><td>Query portrait/landscape orientation</td><td>✅</td><td>✅</td></tr><tr><td><code>mobile_device_mcp_list_apps</code></td><td>List installed applications</td><td>✅</td><td>✅*</td></tr><tr><td><code>mobile_device_mcp_list_elements_on_screen</code></td><td>UI element hierarchy with coordinates</td><td>✅</td><td>⚠️**</td></tr></tbody></table>
+<h3 id="user-content-screen-interaction-6-tools"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#screen-interaction-6-tools"><span class="heading-anchor-icon">#</span></a>Screen Interaction (6 tools)</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Tool</th><th>Description</th><th>Android</th><th>iOS</th></tr></thead><tbody><tr><td><code>mobile_device_mcp_take_screenshot</code></td><td>Capture screen as base64 PNG</td><td>✅</td><td>✅</td></tr><tr><td><code>mobile_device_mcp_save_screenshot</code></td><td>Save screenshot to file</td><td>✅</td><td>✅</td></tr><tr><td><code>mobile_device_mcp_click_on_screen_at_coordinates</code></td><td>Tap at specific coordinates</td><td>✅</td><td>✅*</td></tr><tr><td><code>mobile_device_mcp_double_tap_on_screen</code></td><td>Double-tap gesture</td><td>✅</td><td>✅*</td></tr><tr><td><code>mobile_device_mcp_long_press_on_screen_at_coordinates</code></td><td>Long press/hold gesture</td><td>✅</td><td>✅*</td></tr><tr><td><code>mobile_device_mcp_swipe_on_screen</code></td><td>Swipe with start/end coordinates</td><td>✅</td><td>✅*</td></tr></tbody></table>
+<h3 id="user-content-input-2-tools"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#input-2-tools"><span class="heading-anchor-icon">#</span></a>Input (2 tools)</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Tool</th><th>Description</th><th>Android</th><th>iOS</th></tr></thead><tbody><tr><td><code>mobile_device_mcp_type_keys</code></td><td>Type text into focused field</td><td>✅</td><td>✅*</td></tr><tr><td><code>mobile_device_mcp_press_button</code></td><td>Press hardware buttons (home, back, etc.)</td><td>✅</td><td>✅*</td></tr></tbody></table>
+<h3 id="user-content-app-management-4-tools"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#app-management-4-tools"><span class="heading-anchor-icon">#</span></a>App Management (4 tools)</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Tool</th><th>Description</th><th>Android</th><th>iOS</th></tr></thead><tbody><tr><td><code>mobile_device_mcp_launch_app</code></td><td>Open an application</td><td>✅</td><td>✅*</td></tr><tr><td><code>mobile_device_mcp_terminate_app</code></td><td>Force-stop an app</td><td>✅</td><td>✅*</td></tr><tr><td><code>mobile_device_mcp_install_app</code></td><td>Install from APK/IPA file</td><td>✅</td><td>✅*</td></tr><tr><td><code>mobile_device_mcp_uninstall_app</code></td><td>Remove an application</td><td>✅</td><td>✅*</td></tr></tbody></table>
+<h3 id="user-content-navigation-2-tools"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#navigation-2-tools"><span class="heading-anchor-icon">#</span></a>Navigation (2 tools)</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Tool</th><th>Description</th><th>Android</th><th>iOS</th></tr></thead><tbody><tr><td><code>mobile_device_mcp_open_url</code></td><td>Open URL in default browser</td><td>✅</td><td>✅*</td></tr><tr><td><code>mobile_device_mcp_set_orientation</code></td><td>Change portrait/landscape mode</td><td>✅</td><td>✅*</td></tr></tbody></table>
+<p><strong>Platform Summary:</strong></p>
+<ul>
+<li><strong>Android:</strong> 19/19 tools (100% coverage - all devices)</li>
+<li><strong>iOS Simulator:</strong> 18/19 tools (95% coverage - macOS only)</li>
+<li><strong>iOS Physical Device:</strong> 8/19 tools (42% coverage - basic automation)</li>
+</ul>
+<p><strong>Legend:</strong></p>
+<ul>
+<li>✅ Full support</li>
+<li>✅* Simulator support (iOS) or partial support</li>
+<li>⚠️** Limited support (requires additional tools like WebDriverAgent)</li>
+</ul>
+<h2 id="user-content-️-architecture"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#️-architecture"><span class="heading-anchor-icon">#</span></a>🏗️ Architecture</h2>
+<pre><code>mobile-mcp-zed-extension/
+├── src/
+│   ├── main.rs              # Native MCP server (JSON-RPC 2.0)
+│   ├── lib.rs               # Zed WASM extension
+│   ├── types.rs             # Shared type definitions
+│   ├── devices/
+│   │   ├── android.rs       # Android automation (adb_client)
+│   │   └── ios.rs           # iOS automation (xcrun simctl)
+│   ├── mcp/
+│   │   └── protocol.rs      # MCP protocol implementation
+│   └── tools/
+│       ├── definitions.rs   # Tool schemas (19 tools)
+│       └── handlers.rs      # Tool implementations
+├── extension.toml           # Zed extension manifest
+└── Cargo.toml              # Dependencies
+
+Tech Stack:
+- Protocol: JSON-RPC 2.0 via MCP
+- Android: adb_client crate + shell commands
+- iOS: xcrun simctl + libimobiledevice (macOS only)
+- Cross-Platform: Runs on macOS, Linux, and Windows
+- XML Parsing: quick-xml for UI hierarchy
+- Build: Native binary + WASM extension
+</code></pre>
+<h2 id="user-content--installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-installation"><span class="heading-anchor-icon">#</span></a>📦 Installation</h2>
+<h3 id="user-content-prerequisites"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#prerequisites"><span class="heading-anchor-icon">#</span></a>Prerequisites</h3>
+<p><strong>Android Support (All Platforms):</strong>
+No additional tools required! The server uses a pure Rust ADB implementation (<code>adb_client</code> crate).</p>
+<ul>
+<li>Just enable USB debugging on your Android device</li>
+<li>The server handles all ADB communication natively</li>
+<li>No need to install <code>android-platform-tools</code> or <code>adb</code> separately</li>
+</ul>
+<p><strong>iOS Simulator Support (macOS only):</strong></p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Install Xcode Command Line Tools (REQUIRED for simctl)</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">xcode-select</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --install</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Verify</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">xcrun</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> simctl</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> list</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> devices</span></span></code></pre>
+<p><strong>iOS Real Device Support (macOS only):</strong></p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Install libimobiledevice (REQUIRED for physical devices)</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">brew</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> install</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> libimobiledevice</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Verify</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">idevice_id</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -l</span><span style="color:#6A737D;--shiki-dark:#6A737D">  # Lists connected physical devices</span></span></code></pre>
+<h3 id="user-content-build-from-source"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#build-from-source"><span class="heading-anchor-icon">#</span></a>Build from Source</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Clone repository</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">git</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> clone</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> https://github.com/sorinirimies/mobiledevice-mcp-zed-extension</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">cd</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> mobile-device-mcp</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Build native binary</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># macOS (with iOS support)</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> build</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --release</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --features</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> "native-binary,ios-support"</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Linux/Windows (Android only)</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> build</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --release</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --features</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> native-binary</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Binary location</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">./target/release/mobile-device-mcp-server</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Or build Zed extension (WASM)</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">rustup</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> target</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> add</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> wasm32-wasip1</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> build</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --release</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --target</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> wasm32-wasip1</span></span></code></pre>
+<h3 id="user-content-install-as-zed-extension"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#install-as-zed-extension"><span class="heading-anchor-icon">#</span></a>Install as Zed Extension</h3>
+<ol>
+<li>Open Zed editor</li>
+<li>Go to Extensions (Cmd+Shift+X)</li>
+<li>Search for "Mobile Device MCP"</li>
+<li>Click Install</li>
+</ol>
+<p>Or manually:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Copy to Zed extensions directory</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">mkdir</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -p</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> ~/.config/zed/extensions</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cp</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -r</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> .</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> ~/.config/zed/extensions/mobile-device-mcp</span></span></code></pre>
+<h2 id="user-content--quick-start"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-quick-start"><span class="heading-anchor-icon">#</span></a>🚦 Quick Start</h2>
+<h3 id="user-content-using-just-recommended"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#using-just-recommended"><span class="heading-anchor-icon">#</span></a>Using Just (Recommended)</h3>
+<p><a href="https://github.com/casey/just">Just</a> is a command runner that simplifies common tasks:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Install just</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> install</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> just</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Show all available commands</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">just</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Quick development setup</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">just</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> dev-setup</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Build and run</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">just</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> build</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">just</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> run</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Run tests</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">just</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> test</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Install Zed extension</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">just</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> install-zed</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Format, lint, and test</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">just</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> pre-commit</span></span></code></pre>
+<p>See the <a href="https://github.com/sorinirimies/mobiledevice-mcp-zed-extension/blob/HEAD/justfile" target="_blank" rel="noopener">justfile</a> for all available commands.</p>
+<h3 id="user-content-start-mcp-server-standalone"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#start-mcp-server-standalone"><span class="heading-anchor-icon">#</span></a>Start MCP Server (Standalone)</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Run the server</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">./target/release/mobile-device-mcp-server</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Set debug mode (optional)</span></span>
+<span class="line"><span style="color:#F97583;--shiki-dark:#F97583">export</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> MOBILE_DEVICE_MCP_DEBUG</span><span style="color:#F97583;--shiki-dark:#F97583">=</span><span style="color:#79B8FF;--shiki-dark:#79B8FF">1</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">./target/release/mobile-device-mcp-server</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Or using just</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">just</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> run</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">just</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> run-debug</span></span></code></pre>
+<h3 id="user-content-example-mcp-requests"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#example-mcp-requests"><span class="heading-anchor-icon">#</span></a>Example MCP Requests</h3>
+<p><strong>List Devices:</strong></p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "jsonrpc"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"2.0"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "id"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#79B8FF;--shiki-dark:#79B8FF">1</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "method"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"tools/call"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "params"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "name"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"mobile_device_mcp_list_available_devices"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "arguments"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {}</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p><strong>Take Screenshot:</strong></p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "jsonrpc"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"2.0"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "id"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#79B8FF;--shiki-dark:#79B8FF">2</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "method"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"tools/call"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "params"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "name"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"mobile_device_mcp_take_screenshot"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "arguments"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "device_id"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"emulator-5554"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "platform"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"android"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p><strong>List UI Elements:</strong></p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "jsonrpc"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"2.0"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "id"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#79B8FF;--shiki-dark:#79B8FF">3</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "method"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"tools/call"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "params"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "name"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"mobile_device_mcp_list_elements_on_screen"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "arguments"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "device_id"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"emulator-5554"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "platform"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"android"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "filter"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"Sign in"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h2 id="user-content--testing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-testing"><span class="heading-anchor-icon">#</span></a>🧪 Testing</h2>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Run unit tests</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">just</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> test</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Run tests with coverage</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">just</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> test-coverage</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Run integration tests (requires connected device/emulator)</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">just</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> test-integration</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Quick smoke test</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">just</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> test-smoke</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Or manually</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">./scripts/test-all-tools.sh</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">./scripts/test-tools.sh</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Expected output:</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Total Tests:  18</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Passed:       18 ✅</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Failed:       0 ❌</span></span></code></pre>
+<h2 id="user-content--device-setup"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-device-setup"><span class="heading-anchor-icon">#</span></a>📱 Device Setup</h2>
+<h3 id="user-content-android-emulator"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#android-emulator"><span class="heading-anchor-icon">#</span></a>Android Emulator</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Start emulator</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">emulator</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -avd</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> Pixel_6_API_34</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Verify connection</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">adb</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> devices</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Output: emulator-5554   device</span></span></code></pre>
+<h3 id="user-content-android-physical-device"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#android-physical-device"><span class="heading-anchor-icon">#</span></a>Android Physical Device</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Enable USB debugging on device</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Settings > Developer Options > USB Debugging</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Connect via USB and verify</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">adb</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> devices</span></span></code></pre>
+<h3 id="user-content-ios-simulator-macos"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#ios-simulator-macos"><span class="heading-anchor-icon">#</span></a>iOS Simulator (macOS)</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># List available simulators</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">xcrun</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> simctl</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> list</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> devices</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Boot a simulator</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">xcrun</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> simctl</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> boot</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> "iPhone 15 Pro"</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Verify</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">xcrun</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> simctl</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> list</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> devices</span><span style="color:#F97583;--shiki-dark:#F97583"> |</span><span style="color:#B392F0;--shiki-dark:#B392F0"> grep</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> Booted</span></span></code></pre>
+<h2 id="user-content--configuration"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-configuration"><span class="heading-anchor-icon">#</span></a>🔧 Configuration</h2>
+<h3 id="user-content-environment-variables"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#environment-variables"><span class="heading-anchor-icon">#</span></a>Environment Variables</h3>
+<ul>
+<li><code>MOBILE_DEVICE_MCP_DEBUG=1</code> - Enable debug logging</li>
+<li><code>MOBILE_PLATFORM=android|ios|auto</code> - Default platform (auto = both)</li>
+</ul>
+<h3 id="user-content-cargo-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#cargo-features"><span class="heading-anchor-icon">#</span></a>Cargo Features</h3>
+<ul>
+<li><code>native-binary</code> - Build standalone MCP server (required for native builds)</li>
+<li><code>default</code> - Build as Zed WASM extension</li>
+</ul>
+<h2 id="user-content--documentation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-documentation"><span class="heading-anchor-icon">#</span></a>📚 Documentation</h2>
+<h3 id="user-content-comprehensive-guides"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#comprehensive-guides"><span class="heading-anchor-icon">#</span></a>Comprehensive Guides</h3>
+<ul>
+<li><strong><a href="https://github.com/sorinirimies/mobiledevice-mcp-zed-extension/blob/HEAD/docs/IOS_IMPLEMENTATION.md" target="_blank" rel="noopener">iOS Implementation Guide</a></strong> - Complete iOS automation documentation</li>
+<li><strong><a href="https://github.com/sorinirimies/mobiledevice-mcp-zed-extension/blob/HEAD/docs/ANDROID_IMPLEMENTATION.md" target="_blank" rel="noopener">Android Implementation Guide</a></strong> - Complete Android automation documentation</li>
+<li><strong><a href="https://github.com/sorinirimies/mobiledevice-mcp-zed-extension/blob/HEAD/docs/WINDOWS_SUPPORT.md" target="_blank" rel="noopener">Windows Support Guide</a></strong> - Windows-specific setup and usage</li>
+<li><strong><a href="https://github.com/sorinirimies/mobiledevice-mcp-zed-extension/blob/HEAD/docs/CROSS_PLATFORM.md" target="_blank" rel="noopener">Cross-Platform Guide</a></strong> - Multi-OS deployment and testing</li>
+<li><strong><a href="https://github.com/sorinirimies/mobiledevice-mcp-zed-extension/blob/HEAD/docs/FEATURE_PARITY.md" target="_blank" rel="noopener">Feature Parity</a></strong> - Detailed iOS vs Android comparison</li>
+</ul>
+<h2 id="user-content--api-documentation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-api-documentation"><span class="heading-anchor-icon">#</span></a>📖 API Documentation</h2>
+<h3 id="user-content-tool-response-format"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#tool-response-format"><span class="heading-anchor-icon">#</span></a>Tool Response Format</h3>
+<p>All tools return MCP-compliant responses:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "jsonrpc"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"2.0"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "id"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#79B8FF;--shiki-dark:#79B8FF">1</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "result"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "content"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: [</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "type"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"text"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "text"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"Tool output here"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    ]</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>Screenshot responses use image type:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "result"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "content"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: [</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "type"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"image"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "data"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"&#x3C;base64-png-data>"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "mimeType"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"image/png"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    ]</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h3 id="user-content-error-handling"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#error-handling"><span class="heading-anchor-icon">#</span></a>Error Handling</h3>
+<p>Errors follow MCP error format:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "jsonrpc"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"2.0"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "id"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#79B8FF;--shiki-dark:#79B8FF">1</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "error"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "code"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#79B8FF;--shiki-dark:#79B8FF">-1</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "message"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"Device not found: emulator-5554"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h2 id="user-content-️-development"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#️-development"><span class="heading-anchor-icon">#</span></a>🛠️ Development</h2>
+<h3 id="user-content-quick-start-with-just"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#quick-start-with-just"><span class="heading-anchor-icon">#</span></a>Quick Start with Just</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Complete development setup</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">just</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> dev-setup</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Daily development workflow</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">just</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> build</span><span style="color:#6A737D;--shiki-dark:#6A737D">        # Build debug binary</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">just</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> test</span><span style="color:#6A737D;--shiki-dark:#6A737D">         # Run tests</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">just</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> lint</span><span style="color:#6A737D;--shiki-dark:#6A737D">         # Run clippy</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">just</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> fmt</span><span style="color:#6A737D;--shiki-dark:#6A737D">          # Format code</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">just</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> pre-commit</span><span style="color:#6A737D;--shiki-dark:#6A737D">   # Run all checks before committing</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Watch for changes</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">just</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> watch</span><span style="color:#6A737D;--shiki-dark:#6A737D">        # Auto-run tests on file changes</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">just</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> watch-run</span><span style="color:#6A737D;--shiki-dark:#6A737D">    # Auto-restart server on file changes</span></span></code></pre>
+<h3 id="user-content-project-structure"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#project-structure"><span class="heading-anchor-icon">#</span></a>Project Structure</h3>
+<ul>
+<li>
+<p><strong>src/devices/</strong> - Platform-specific device managers</p>
+<ul>
+<li><code>android.rs</code> - ADB client, UI automation, app management</li>
+<li><code>ios.rs</code> - simctl wrapper, screenshot, basic input</li>
+</ul>
+</li>
+<li>
+<p><strong>src/tools/</strong> - MCP tool definitions</p>
+<ul>
+<li><code>definitions.rs</code> - JSON schemas for all 19 tools</li>
+<li><code>handlers.rs</code> - Implementation logic for each tool</li>
+</ul>
+</li>
+<li>
+<p><strong>src/mcp/</strong> - Protocol layer</p>
+<ul>
+<li><code>protocol.rs</code> - JSON-RPC 2.0 structures</li>
+</ul>
+</li>
+</ul>
+<h3 id="user-content-adding-new-tools"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#adding-new-tools"><span class="heading-anchor-icon">#</span></a>Adding New Tools</h3>
+<ol>
+<li>Define tool schema in <code>src/tools/definitions.rs</code></li>
+<li>Implement handler in <code>src/tools/handlers.rs</code></li>
+<li>Add dispatch case in <code>src/main.rs</code></li>
+<li>Update tests in <code>scripts/test-all-tools.sh</code></li>
+<li>Run <code>just test</code> to verify</li>
+</ol>
+<h3 id="user-content-running-tests"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#running-tests"><span class="heading-anchor-icon">#</span></a>Running Tests</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Using just (recommended)</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">just</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> test</span><span style="color:#6A737D;--shiki-dark:#6A737D">                    # All tests</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">just</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> test-integration</span><span style="color:#6A737D;--shiki-dark:#6A737D">        # Integration tests</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">just</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> test-coverage</span><span style="color:#6A737D;--shiki-dark:#6A737D">          # With coverage report</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Or manually</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> build</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --release</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --features</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> native-binary</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">./scripts/test-all-tools.sh</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Run specific test</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">echo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> '{"jsonrpc":"2.0","id":1,"method":"tools/call","params":{"name":"mobile_device_mcp_take_screenshot","arguments":{"device_id":"emulator-5554","platform":"android"}}}'</span><span style="color:#F97583;--shiki-dark:#F97583"> |</span><span style="color:#B392F0;--shiki-dark:#B392F0"> ./target/release/mobile-device-mcp-server</span></span></code></pre>
+<h2 id="user-content--troubleshooting"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-troubleshooting"><span class="heading-anchor-icon">#</span></a>🐛 Troubleshooting</h2>
+<h3 id="user-content-android-issues"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#android-issues"><span class="heading-anchor-icon">#</span></a>Android Issues</h3>
+<p><strong>No devices detected:</strong></p>
+<ul>
+<li>Enable USB debugging on your device (Settings → Developer Options → USB Debugging)</li>
+<li>The server's built-in ADB client will automatically detect connected devices</li>
+<li>For emulators, ensure they're running: <code>emulator -list-avds</code></li>
+<li>The Rust <code>adb_client</code> handles all communication natively - no external ADB tools needed</li>
+</ul>
+<p><strong>Device unauthorized:</strong></p>
+<ul>
+<li>Check your Android device screen for an authorization prompt</li>
+<li>Accept the "Allow USB debugging" dialog</li>
+<li>The server will automatically reconnect once authorized</li>
+</ul>
+<h3 id="user-content-ios-issues"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#ios-issues"><span class="heading-anchor-icon">#</span></a>iOS Issues</h3>
+<p><strong>simctl not found:</strong></p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Install Xcode Command Line Tools</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">xcode-select</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --install</span></span></code></pre>
+<p><strong>Simulator not booting:</strong></p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Kill all simulators</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">killall</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> Simulator</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Boot specific device</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">xcrun</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> simctl</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> boot</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> "iPhone 15"</span></span></code></pre>
+<h2 id="user-content--cross-platform-support"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-cross-platform-support"><span class="heading-anchor-icon">#</span></a>🌐 Cross-Platform Support</h2>
+<h3 id="user-content-supported-platforms"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#supported-platforms"><span class="heading-anchor-icon">#</span></a>Supported Platforms</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Platform</th><th>Android</th><th>iOS</th><th>Status</th></tr></thead><tbody><tr><td><strong>macOS</strong></td><td>✅ Full</td><td>✅ Full</td><td>Production Ready</td></tr><tr><td><strong>Linux</strong></td><td>✅ Full</td><td>❌ N/A</td><td>Production Ready</td></tr><tr><td><strong>Windows</strong></td><td>✅ Full</td><td>❌ N/A</td><td>Production Ready</td></tr></tbody></table>
+<p><strong>Quick Setup:</strong></p>
+<ul>
+<li><strong>macOS:</strong> <code>xcode-select --install</code> (for iOS simulators), <code>brew install libimobiledevice</code> (for iOS devices)</li>
+<li><strong>Linux:</strong> No additional tools needed (Android only)</li>
+<li><strong>Windows:</strong> No additional tools needed (Android only)</li>
+</ul>
+<p><strong>Note:</strong> Android support uses a pure Rust ADB implementation - no platform tools required!</p>
+<p>See <a href="https://github.com/sorinirimies/mobiledevice-mcp-zed-extension/blob/HEAD/docs/CROSS_PLATFORM.md" target="_blank" rel="noopener">Cross-Platform Guide</a> for detailed instructions.</p>
+<h2 id="user-content--cicd"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-cicd"><span class="heading-anchor-icon">#</span></a>🔄 CI/CD</h2>
+<p>This project uses lightweight GitHub Actions workflows for essential checks:</p>
+<h3 id="user-content-workflows"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#workflows"><span class="heading-anchor-icon">#</span></a>Workflows</h3>
+<ul>
+<li>
+<p><strong>CI</strong> (<code>.github/workflows/ci.yml</code>) - Runs on every push and PR</p>
+<ul>
+<li>✅ Tests (Ubuntu only)</li>
+<li>✅ Code formatting (<code>cargo fmt</code>)</li>
+<li>✅ Linting with Clippy</li>
+</ul>
+</li>
+<li>
+<p><strong>Release</strong> (<code>.github/workflows/release.yml</code>) - Triggered on version tags</p>
+<ul>
+<li>📦 Builds binaries for Linux, macOS (ARM), and Windows</li>
+<li>📦 Creates GitHub releases</li>
+<li>📦 Uploads release artifacts</li>
+</ul>
+</li>
+</ul>
+<h3 id="user-content-local-checks"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#local-checks"><span class="heading-anchor-icon">#</span></a>Local Checks</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Run formatting and linting</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">just</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> fmt</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">just</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> lint</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">just</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> test</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Or all at once</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">just</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> pre-commit</span></span></code></pre>
+<h3 id="user-content-creating-a-release"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#creating-a-release"><span class="heading-anchor-icon">#</span></a>Creating a Release</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Tag and push</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">git</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> tag</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -a</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> "v0.2.0"</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -m</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> "Release v0.2.0"</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">git</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> push</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> origin</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> main</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --tags</span></span></code></pre>
+<p>The release workflow will automatically build and upload binaries for supported platforms.</p>
+<h2 id="user-content-️-changelog"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#️-changelog"><span class="heading-anchor-icon">#</span></a>🗂️ Changelog</h2>
+<p>See <a href="https://github.com/sorinirimies/mobiledevice-mcp-zed-extension/blob/HEAD/CHANGELOG.md" target="_blank" rel="noopener">CHANGELOG.md</a> for release history.</p>
+<p>Generated using <a href="https://git-cliff.org/">git-cliff</a>.</p>
+<h2 id="user-content--contributing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-contributing"><span class="heading-anchor-icon">#</span></a>🤝 Contributing</h2>
+<p>Contributions welcome! Areas of interest:</p>
+<ol>
+<li><strong>iOS Feature Parity</strong> - Implement missing iOS tools (see feature parity doc)</li>
+<li><strong>Real Device Support</strong> - iOS real device automation</li>
+<li><strong>UI Testing</strong> - Visual element matching, assertions</li>
+<li><strong>Performance</strong> - Optimize XML parsing, caching</li>
+<li><strong>Platform Support</strong> - Windows/Linux improvements</li>
+</ol>
+<h3 id="user-content-development-workflow"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#development-workflow"><span class="heading-anchor-icon">#</span></a>Development Workflow</h3>
+<ol>
+<li>Fork and clone the repository</li>
+<li>Run <code>just dev-setup</code> to configure your environment</li>
+<li>Create a feature branch</li>
+<li>Make your changes and add tests</li>
+<li>Run <code>just pre-commit</code> to verify all checks pass</li>
+<li>Submit a pull request</li>
+</ol>
+<p>All PRs must pass CI checks before merging.</p>
+<h2 id="user-content--license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-license"><span class="heading-anchor-icon">#</span></a>📄 License</h2>
+<p>MIT License - see <a href="https://github.com/sorinirimies/mobiledevice-mcp-zed-extension/blob/HEAD/LICENSE" target="_blank" rel="noopener">LICENSE</a> file for details.</p>
+<h2 id="user-content--acknowledgments"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-acknowledgments"><span class="heading-anchor-icon">#</span></a>🙏 Acknowledgments</h2>
+<ul>
+<li><strong>adb_client</strong> - Rust ADB client library</li>
+<li><strong>quick-xml</strong> - Fast XML parsing</li>
+<li><strong>MCP Protocol</strong> - Model Context Protocol specification</li>
+<li><strong>Zed Editor</strong> - Extension platform</li>
+<li><strong>just</strong> - Command runner for development tasks</li>
+<li><strong>git-cliff</strong> - Changelog generator</li>
+</ul>
+<h2 id="user-content--support"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-support"><span class="heading-anchor-icon">#</span></a>📞 Support</h2>
+<ul>
+<li><strong>Issues:</strong> <a href="https://github.com/sorinirimies/mobiledevice-mcp-zed-extension/issues">GitHub Issues</a></li>
+<li><strong>Discussions:</strong> <a href="https://github.com/sorinirimies/mobiledevice-mcp-zed-extension/discussions">GitHub Discussions</a></li>
+</ul>
+<hr>
+<p><strong>Version:</strong> 0.1.0<br>
+<strong>Status:</strong> Production Ready (Android Full, iOS Simulator), Beta (iOS Physical Devices)<br>
+<strong>Last Updated:</strong> November 1, 2024<br>
+<strong>Platform Coverage:</strong> macOS (Full), Linux (Android), Windows (Android)</p></article> </main> <footer class="mt-auto" style="background:var(--zed-bg);border-top:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:var(--zed-text-muted);">
+← Back to extension list
+</a> </div> </footer> </body></html>

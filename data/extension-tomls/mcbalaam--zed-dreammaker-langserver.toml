@@ -1,0 +1,14 @@
+id = "zed-dreammaker-langserver"
+name = "DreamMaker Language Server"
+version = "0.1.3"
+schema_version = 1
+authors = ["mcbalaam"]
+description = "DreamMaker language support for BYOND now in Zed!"
+
+[grammars.dreammaker]
+repository = "https://github.com/mcbalaam/dm-tree-sitter"
+commit = "818c9645f8f33e079b4f5e0279fe44b02fe8074c"
+
+[language_servers.dm-langserver]
+name = "DreamMaker Language Server"
+languages = ["DreamMaker"]

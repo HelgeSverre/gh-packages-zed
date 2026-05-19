@@ -1,0 +1,24 @@
+id = "haxe"
+name = "Haxe"
+version = "0.4.0"
+schema_version = 1
+authors = ["Frixuu <kontakt@lukasz.xyz>"]
+description = "Language server and syntax highlighting support for the Haxe programming language."
+repository = "https://github.com/Frixuu/Zed-Haxe"
+
+[grammars.haxe]
+repository = "https://github.com/tong/tree-sitter-haxe"
+commit = "cd22e75fd9e80cc1752854be1a3aac22b08f82c7"
+
+[grammars.hxml]
+repository = "https://github.com/Frixuu/tree-sitter-hxml"
+commit = "6199e87f50afedab695de1c835430da424ed4ca9"
+
+[language_servers.haxe-language-server]
+name = "Haxe Language Server"
+languages = ["Haxe", "HXML"]
+
+[[capabilities]]
+kind = "process:exec"
+command = "*"
+args = ["-e", "*", "--", "**"]

@@ -1,0 +1,9 @@
+id = "zed-htmx-snippets"
+name = "Zed Snippets for HTMX"
+description = "A curated collection of Zed editor snippets Zed to speed up development with HTMX."
+version = "0.0.1"
+schema_version = 1
+authors = ["Michael Fabing"]
+repository = "https://github.com/mfabing/zed-htmx-snippets"
+snippets = "./snippets/htmx.json"
+categories = ["snippets","htmx","zed-editor"]

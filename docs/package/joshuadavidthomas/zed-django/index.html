@@ -1,0 +1,183 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Django — Zed Extension Safari</title><meta name="description" content="A Django extension for Zed"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Django — Zed Extension Safari"><meta property="og:description" content="A Django extension for Zed"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Django — Zed Extension Safari"><meta name="twitter:description" content="A Django extension for Zed"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.DJSXA_CW.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);">  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-4"> <a href="/gh-packages-zed" class="transition" style="color:var(--zed-text-muted);">← All extensions</a> </nav> <div class="flex flex-wrap items-start justify-between gap-4"> <div class="min-w-0"> <div class="font-mono text-xs mb-2" style="color:var(--zed-muted);"> joshuadavidthomas/zed-django </div> <h1 class="text-2xl sm:text-3xl font-bold break-words leading-tight" style="color:var(--zed-blue-pale);"> Django </h1> <p class="mt-2 text-pretty" style="color:var(--zed-text-muted);"> Django support </p> </div> <a href="https://github.com/joshuadavidthomas/zed-django" target="_blank" rel="noopener" class="zed-btn-primary shrink-0 inline-flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View on GitHub
+</a> </div> <div class="mt-4 flex flex-wrap items-center gap-2"> <span class="version-pill">v0.2.2</span> <span class="cat-badge" data-cat="grammar">Grammar</span><span class="cat-badge" data-cat="language-server">Language Server</span> </div> <div class="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm" style="color:var(--zed-text-muted);"> <span class="inline-flex items-center gap-1"> <svg class="w-4 h-4" style="color:var(--zed-lime);" fill="currentColor" viewBox="0 0 20 20"> <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path> </svg> 35 stars
+</span> <span>Rust</span> <span>Apache-2.0</span> <span>Updated 16h ago</span> <span>schema v1</span> </div> <div class="mt-2 text-sm" style="color:var(--zed-text-muted);">
+by Josh Thomas </div>  </div> </header> <main class="flex-1 max-w-4xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <article class="prose readme-prose max-w-none"><h1 id="user-content-zed-django"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#zed-django"><span class="heading-anchor-icon">#</span></a>zed-django</h1>
+<p>A <a href="https://djangoproject.com">Django</a> extension for <a href="https://zed.dev">Zed</a>.</p>
+<ul>
+<li>Tree-sitter: <a href="https://github.com/joshuadavidthomas/tree-sitter-htmldjango">tree-sitter-htmldjango</a></li>
+<li>Language Servers:
+<ul>
+<li><a href="https://github.com/joshuadavidthomas/django-language-server">Django Language Server</a></li>
+<li><a href="https://github.com/fourdigits/django-template-lsp">Django Template LSP</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="user-content-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation"><span class="heading-anchor-icon">#</span></a>Installation</h2>
+<p>Install the extension from the Zed extensions directory:</p>
+<ol>
+<li>Open the Extensions panel (<code>zed: extensions</code> in the command palette or <code>ctrl-shift-x</code>/<code>cmd-shift-x</code>)</li>
+<li>Search for "Django"</li>
+<li>Click "Install"</li>
+</ol>
+<h2 id="user-content-django-template-language-syntax"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#django-template-language-syntax"><span class="heading-anchor-icon">#</span></a>Django Template Language Syntax</h2>
+<p>By default, this extension automatically detects and enables syntax support for the Django Template Language via Tree-sitter in:</p>
+<ul>
+<li>Files with <code>.dj.html</code>, <code>.dj.md</code>, or <code>.dj.txt</code> extensions</li>
+<li>Files starting with <code>{% extends</code> or <code>{% load</code></li>
+</ul>
+<h3 id="user-content-using-django-syntax-in-html-files"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#using-django-syntax-in-html-files"><span class="heading-anchor-icon">#</span></a>Using Django syntax in <code>.html</code> files</h3>
+<p>Since <code>.html</code> files conflict with the built-in HTML extension, you'll need to manually configure file associations for your Django templates.</p>
+<h4 id="user-content-per-file"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#per-file"><span class="heading-anchor-icon">#</span></a>Per-file</h4>
+<p>Right-click on an <code>.html</code> file in Zed and select <code>Select Language</code> → <code>Django</code>, or click the language indicator in the status bar at the bottom right of the editor.</p>
+<div class="markdown-alert markdown-alert-note" dir="auto">
+<p class="markdown-alert-title" dir="auto"><svg class="octicon" viewBox="0 0 16 16" width="16" height="16"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>NOTE</p>
+<p>This only applies to the current session. The file will revert to HTML next time you open it.</p>
+</div>
+<h4 id="user-content-django-templates-directory-recommended"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#django-templates-directory-recommended"><span class="heading-anchor-icon">#</span></a>Django templates directory (Recommended)</h4>
+<p>Add to your <code>.zed/settings.json</code> in your Django project:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "file_types"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "Django"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: [</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"**/templates/**/*.html"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>This matches all <code>.html</code> files in any <code>templates</code> directory, following Django's standard project structure.</p>
+<h4 id="user-content-all-html-files"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#all-html-files"><span class="heading-anchor-icon">#</span></a>All HTML files</h4>
+<p>To treat all <code>.html</code> files as Django templates:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "file_types"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "Django"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: [</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"html"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<div class="markdown-alert markdown-alert-note" dir="auto">
+<p class="markdown-alert-title" dir="auto"><svg class="octicon" viewBox="0 0 16 16" width="16" height="16"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>NOTE</p>
+<p>This will override the built-in HTML language for all <code>.html</code> files and may affect non-Django HTML files.</p>
+</div>
+<h4 id="user-content-global-settings"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#global-settings"><span class="heading-anchor-icon">#</span></a>Global settings</h4>
+<p>Add to your global Zed settings (<code>zed: open settings</code>):</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "file_types"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "Django"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: [</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"**/templates/**/*.html"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>Global settings affect all projects. Project-specific settings are recommended for now.</p>
+<h3 id="user-content-using-django-syntax-in-other-file-types"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#using-django-syntax-in-other-file-types"><span class="heading-anchor-icon">#</span></a>Using Django syntax in other file types</h3>
+<p>Of course, Django templates aren't limited to HTML. You can use glob patterns to match templates of any file type.</p>
+<h4 id="user-content-directory-based-matching"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#directory-based-matching"><span class="heading-anchor-icon">#</span></a>Directory-based matching</h4>
+<p>Match multiple file types within your templates directory:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "file_types"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "Django"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: [</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">      "**/templates/**/*.html"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">      "**/templates/**/*.md"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">      "**/templates/**/*.txt"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    ]</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h4 id="user-content-extension-based-matching"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#extension-based-matching"><span class="heading-anchor-icon">#</span></a>Extension-based matching</h4>
+<p>Use a <code>.dj.*</code> naming convention to mark Django templates:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "file_types"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "Django"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: [</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"*.dj.*"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>This matches any file with <code>.dj.</code> in the name (e.g., <code>.dj.html</code>, <code>.dj.xml</code>, <code>.dj.md</code>), allowing you to use Django templates with any file extension anywhere in your project.</p>
+<h2 id="user-content-language-servers"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#language-servers"><span class="heading-anchor-icon">#</span></a>Language Servers</h2>
+<p>There are two language servers available for Django templates:</p>
+<ul>
+<li><a href="https://github.com/joshuadavidthomas/django-language-server">Django Language Server</a></li>
+<li><a href="https://github.com/fourdigits/django-template-lsp">Django Template LSP</a></li>
+</ul>
+<h3 id="user-content-feature-comparison"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#feature-comparison"><span class="heading-anchor-icon">#</span></a>Feature Comparison</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Feature</th><th>Django Language Server</th><th>Django Template LSP</th></tr></thead><tbody><tr><td>Diagnostics</td><td>✅</td><td>❌</td></tr><tr><td>Completions</td><td>✅ (template tags)</td><td>✅ (tags, filters, templates, load, static, URLs)</td></tr><tr><td>Go to definition</td><td>✅ (extend/include tags)</td><td>✅ (templates, URLs, tags/filters, context)</td></tr><tr><td>Find references</td><td>✅ (extend/include tags)</td><td>❌</td></tr><tr><td>Hover documentation</td><td>❌</td><td>✅ (tags, filters, URLs)</td></tr></tbody></table>
+<h3 id="user-content-installation-and-activation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation-and-activation"><span class="heading-anchor-icon">#</span></a>Installation and Activation</h3>
+<p>The Django extension provides two language servers for Django templates. <strong>Both language servers will start by default and run simultaneously.</strong> You can choose to use only one by configuring which to disable in your settings (see the <a href="#using-a-language-server">Using a Language Server</a> section below).</p>
+<p>Both language servers follow the same installation and activation sequence:</p>
+<ol>
+<li>The Django extension checks if the language server binary (<code>djls</code> or <code>djlsp</code>) is available on your PATH.</li>
+<li>If not found on PATH:
+<ul>
+<li><strong>Django Language Server</strong> automatically downloads and installs from GitHub releases</li>
+<li><strong>Django Template LSP</strong> runs via <code>uvx --from django-template-lsp djlsp</code> if <code>uv</code> is available</li>
+</ul>
+</li>
+</ol>
+<p>For manual installation of Django Template LSP, see the <a href="https://github.com/fourdigits/django-template-lsp">fourdigits/django-template-lsp</a> repository.</p>
+<h3 id="user-content-using-a-language-server"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#using-a-language-server"><span class="heading-anchor-icon">#</span></a>Using a Language Server</h3>
+<h4 id="user-content-using-django-language-server"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#using-django-language-server"><span class="heading-anchor-icon">#</span></a>Using Django Language Server</h4>
+<p><a href="https://github.com/joshuadavidthomas/django-language-server">Django Language Server</a> provides diagnostics, autocompletion for template tags, and navigation features for template inheritance.</p>
+<p>To use only Django Language Server (disabling Django Template LSP), add the following to your <code>settings.json</code>:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "languages"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "Django"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "language_servers"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: [</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"django-language-server"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">, </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"!django-template-lsp"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">, </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"..."</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>For detailed documentation and advanced configuration options, see the <a href="https://github.com/joshuadavidthomas/django-language-server">joshuadavidthomas/django-language-server</a> repository.</p>
+<h4 id="user-content-using-django-template-lsp"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#using-django-template-lsp"><span class="heading-anchor-icon">#</span></a>Using Django Template LSP</h4>
+<p><a href="https://github.com/fourdigits/django-template-lsp">Django Template LSP</a> provides comprehensive autocompletion for tags, filters, templates, URLs, and more, along with hover documentation.</p>
+<p>To use only Django Template LSP (disabling Django Language Server), add the following to your <code>settings.json</code>:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "languages"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "Django"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "language_servers"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: [</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"django-template-lsp"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">, </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"!django-language-server"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">, </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"..."</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>For project-specific configuration, create <code>.zed/settings.json</code> in your Django project root.</p>
+<p>For detailed documentation and advanced configuration options, see the <a href="https://github.com/fourdigits/django-template-lsp">fourdigits/django-template-lsp</a> repository.</p>
+<h4 id="user-content-disabling-language-servers"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#disabling-language-servers"><span class="heading-anchor-icon">#</span></a>Disabling Language Servers</h4>
+<p>If you prefer to use only the tree-sitter syntax highlighting without any language server features, you can disable both language servers:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "languages"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "Django"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "language_servers"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: [</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"!django-language-server"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">, </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"!django-template-lsp"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">, </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"..."</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>This gives you Django template syntax support, highlighting, and indentation through tree-sitter-htmldjango, without the additional language server features like diagnostics, autocompletion, or navigation.</p>
+<h2 id="user-content-development"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#development"><span class="heading-anchor-icon">#</span></a>Development</h2>
+<p>To develop this extension, see the <a href="https://zed.dev/docs/extensions/developing-extensions">Developing Extensions</a> section of the Zed docs.</p>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>zed-django is licensed under the Apache License, Version 2.0. See the <a href="https://github.com/joshuadavidthomas/zed-django/blob/HEAD/LICENSE" target="_blank" rel="noopener"><code>LICENSE</code></a> file for more information.</p>
+<hr>
+<p>zed-django is not associated with the Django Software Foundation.</p>
+<p>Django is a registered trademark of the Django Software Foundation.</p></article> </main> <footer class="mt-auto" style="background:var(--zed-bg);border-top:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:var(--zed-text-muted);">
+← Back to extension list
+</a> </div> </footer> </body></html>

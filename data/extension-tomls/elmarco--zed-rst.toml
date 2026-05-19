@@ -1,0 +1,63 @@
+id = "rst"
+name = "reST"
+description = "reST syntax support."
+version = "0.0.3"
+schema_version = 1
+authors = ["elmarco", "stsewd"]
+repository = "https://github.com/elmarco/zed-rst"
+
+[grammars.rst]
+repository = "https://github.com/stsewd/tree-sitter-rst.git"
+commit = "5120f6e59284cb8b85b450bd2db0bd352635ba9f"
+
+[language_servers.esbonio]
+name = "Esbonio"
+language = "reST"
+
+# esbonio --version (version detection)
+[[capabilities]]
+kind = "process:exec"
+command = "*"
+args = ["--version"]
+
+# pipx install/reinstall/upgrade esbonio
+[[capabilities]]
+kind = "process:exec"
+command = "pipx"
+args = ["install", "esbonio"]
+
+[[capabilities]]
+kind = "process:exec"
+command = "pipx"
+args = ["reinstall", "esbonio"]
+
+[[capabilities]]
+kind = "process:exec"
+command = "pipx"
+args = ["upgrade", "esbonio"]
+
+[[capabilities]]
+kind = "process:exec"
+command = "pipx"
+args = ["environment", "--value", "PIPX_BIN_DIR"]
+
+# uv tool install/upgrade esbonio
+[[capabilities]]
+kind = "process:exec"
+command = "uv"
+args = ["tool", "install", "esbonio"]
+
+[[capabilities]]
+kind = "process:exec"
+command = "uv"
+args = ["tool", "install", "--force", "esbonio"]
+
+[[capabilities]]
+kind = "process:exec"
+command = "uv"
+args = ["tool", "upgrade", "esbonio"]
+
+[[capabilities]]
+kind = "process:exec"
+command = "uv"
+args = ["tool", "dir", "--bin"]

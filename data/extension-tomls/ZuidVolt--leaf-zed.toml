@@ -1,0 +1,12 @@
+id = "leaf"
+name = "Leaf"
+version = "0.0.1"
+schema_version = 1
+authors = ["ZuidVolt"]
+description = "Syntax highlighting for the Leaf templating language (Vapor/Swift)"
+repository = "https://github.com/ZuidVolt/leaf-zed"
+languages = ["languages/leaf"]
+
+[grammars.leaf]
+repository = "https://github.com/visualbam/tree-sitter-leaf"
+rev = "7ca9aca731a3cd1b8b38743e88d828465fc6d480"

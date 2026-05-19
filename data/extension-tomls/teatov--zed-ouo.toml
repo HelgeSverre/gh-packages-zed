@@ -1,0 +1,11 @@
+id = "ouo"
+name = "ouo"
+version = "0.0.1"
+schema_version = 1
+authors = ["Anatoly Titov <teatov@proton.me>"]
+description = "ouo support."
+repository = "https://github.com/teatov/zed-ouo"
+
+[language_servers.ouols]
+name = "ouols"
+languages = ["ouo"]

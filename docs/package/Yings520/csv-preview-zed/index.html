@@ -1,0 +1,95 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>CSV Preview — Zed Extension Safari</title><meta name="description" content="CSV preview extension for Zed with column-aware coloring and type highlighting"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="CSV Preview — Zed Extension Safari"><meta property="og:description" content="CSV preview extension for Zed with column-aware coloring and type highlighting"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="CSV Preview — Zed Extension Safari"><meta name="twitter:description" content="CSV preview extension for Zed with column-aware coloring and type highlighting"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.DJSXA_CW.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);">  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-4"> <a href="/gh-packages-zed" class="transition" style="color:var(--zed-text-muted);">← All extensions</a> </nav> <div class="flex flex-wrap items-start justify-between gap-4"> <div class="min-w-0"> <div class="font-mono text-xs mb-2" style="color:var(--zed-muted);"> Yings520/csv-preview-zed </div> <h1 class="text-2xl sm:text-3xl font-bold break-words leading-tight" style="color:var(--zed-blue-pale);"> CSV Preview </h1> <p class="mt-2 text-pretty" style="color:var(--zed-text-muted);"> CSV language support with column-aware semantic highlighting. </p> </div> <a href="https://github.com/Yings520/csv-preview-zed" target="_blank" rel="noopener" class="zed-btn-primary shrink-0 inline-flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View on GitHub
+</a> </div> <div class="mt-4 flex flex-wrap items-center gap-2"> <span class="version-pill">v0.1.0</span> <span class="cat-badge" data-cat="grammar">Grammar</span><span class="cat-badge" data-cat="language-server">Language Server</span> </div> <div class="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm" style="color:var(--zed-text-muted);"> <span class="inline-flex items-center gap-1"> <svg class="w-4 h-4" style="color:var(--zed-lime);" fill="currentColor" viewBox="0 0 20 20"> <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path> </svg> 0 stars
+</span> <span>Rust</span> <span>MIT</span> <span>Updated 4/21/2026</span> <span>schema v1</span> </div> <div class="mt-2 text-sm" style="color:var(--zed-text-muted);">
+by Shicong Ying </div>  </div> </header> <main class="flex-1 max-w-4xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <article class="prose readme-prose max-w-none"><h1 id="user-content-csv-preview-for-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#csv-preview-for-zed"><span class="heading-anchor-icon">#</span></a>CSV Preview for Zed</h1>
+<p><code>CSV Preview</code> is a Zed extension for making delimited text files like <code>.csv</code>, <code>.tsv</code>, and <code>.psv</code> easier to read inside the editor.</p>
+<p>Because Zed's current public extension API is focused on languages, themes, debuggers, snippets, MCP servers, and assistant integrations, this project implements an editor-native approximation of a preview pane:</p>
+<ul>
+<li>tree-sitter based CSV language support</li>
+<li>TSV / pipe-separated file recognition through the same language entry</li>
+<li>alternating column tinting through semantic tokens</li>
+<li>cell type highlighting for numbers, booleans, dates, datetimes, null-like values, and quoted values</li>
+<li>row-width diagnostics for malformed CSV files</li>
+</ul>
+<h2 id="user-content-what-it-looks-like"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#what-it-looks-like"><span class="heading-anchor-icon">#</span></a>What it looks like</h2>
+<p>Instead of rendering a custom webview panel, the extension turns the CSV buffer itself into a more readable table-like surface by combining:</p>
+<ul>
+<li>base Tree-sitter highlighting</li>
+<li>column-aware LSP semantic tokens</li>
+<li>type-aware semantic token modifiers</li>
+</ul>
+<p>This stays inside the capabilities documented by Zed's official extension system while still improving scanability a lot for wide CSV files.</p>
+<h2 id="user-content-project-layout"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#project-layout"><span class="heading-anchor-icon">#</span></a>Project layout</h2>
+<ul>
+<li><code>extension.toml</code>: Zed extension manifest</li>
+<li><code>src/lib.rs</code>: Wasm extension entrypoint that launches the CSV LSP</li>
+<li><code>languages/csv/</code>: language metadata, Tree-sitter highlights, semantic token defaults</li>
+<li><code>crates/csv-preview-lsp/</code>: standalone Rust LSP server</li>
+<li><code>examples/</code>: sample CSV / TSV / PSV files for local verification</li>
+</ul>
+<h2 id="user-content-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation"><span class="heading-anchor-icon">#</span></a>Installation</h2>
+<p>Published installs can use the extension directly from Zed's extension gallery. The bundled extension will automatically:</p>
+<ul>
+<li>use a user-specified <code>csv-preview-lsp</code> binary if configured</li>
+<li>otherwise use <code>csv-preview-lsp</code> from your <code>PATH</code></li>
+<li>otherwise download a matching release asset from this repository</li>
+</ul>
+<p>At the moment, automatic downloads are provided for:</p>
+<ul>
+<li>macOS Apple Silicon</li>
+<li>macOS Intel</li>
+<li>Linux x86_64</li>
+<li>Windows x86_64</li>
+</ul>
+<h2 id="user-content-local-development"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#local-development"><span class="heading-anchor-icon">#</span></a>Local development</h2>
+<p>Prerequisites:</p>
+<ul>
+<li>Rust installed via <code>rustup</code></li>
+<li><code>wasm32-wasip2</code> target installed for Zed extension builds:</li>
+</ul>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">rustup</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> target</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> add</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> wasm32-wasip2</span></span></code></pre>
+<ol>
+<li>Build the language server:</li>
+</ol>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> build</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -p</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> csv-preview-lsp</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --release</span></span></code></pre>
+<ol start="2">
+<li>
+<p>In Zed, run <code>zed: install dev extension</code> and choose this repository root.</p>
+</li>
+<li>
+<p>Optionally point Zed to the built language server binary in your <code>settings.json</code>:</p>
+</li>
+</ol>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "semantic_tokens"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"combined"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "csv-preview-lsp"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "binary"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "path"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"/absolute/path/to/zed_csv/target/release/csv-preview-lsp"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "arguments"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: [</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"--stdio"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<ol start="4">
+<li>Open a <code>.csv</code> file and verify the semantic colors appear.</li>
+</ol>
+<p>You can also open:</p>
+<ul>
+<li><code>examples/showcase.csv</code></li>
+<li><code>examples/showcase.tsv</code></li>
+<li><code>examples/showcase.psv</code></li>
+</ul>
+<p>The LSP detects the active delimiter from content, so semantic coloring and row diagnostics work across those formats.</p>
+<h2 id="user-content-releases"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#releases"><span class="heading-anchor-icon">#</span></a>Releases</h2>
+<p>Tagged releases publish prebuilt <code>csv-preview-lsp</code> binaries through GitHub Actions. The Zed extension uses those assets when no local override is configured.</p>
+<h2 id="user-content-notes"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#notes"><span class="heading-anchor-icon">#</span></a>Notes</h2>
+<ul>
+<li>Column colors are intentionally subtle and implemented as low-alpha cell backgrounds, so data type colors can remain the main signal.</li>
+<li>Header detection is heuristic-based. The first row is treated as a header when it looks like labels and later rows look more data-like.</li>
+<li>The bundled grammar is still CSV-first. For <code>.tsv</code> and <code>.psv</code>, the strongest readability improvements come from the LSP semantic tokens and diagnostics rather than perfect Tree-sitter structure.</li>
+<li>True visual column-width alignment is still limited by Zed's current public extension surface. This project improves readability inside the buffer, but it does not yet render a custom grid widget.</li>
+</ul></article> </main> <footer class="mt-auto" style="background:var(--zed-bg);border-top:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:var(--zed-text-muted);">
+← Back to extension list
+</a> </div> </footer> </body></html>

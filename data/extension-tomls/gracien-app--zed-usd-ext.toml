@@ -1,0 +1,11 @@
+id = "usd-ext"
+name = "Universal Scene Description"
+version = "0.0.1"
+schema_version = 1
+authors = ["Gracien <gracien.app@icloud.com>"]
+description = "Syntax highlighting for Pixar's Universal Scene Description (USD)."
+repository = "https://github.com/gracien-app/zed-usd-ext"
+
+[grammars.usd]
+repository = "https://github.com/ColinKennedy/tree-sitter-usd"
+commit = "4e0875f724d94d0c2ff36f9b8cb0b12f8b20d216"

@@ -1,0 +1,191 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Highlight — Zed Extension Safari</title><meta name="description" content="A Zed extension that allows to highlight all occurrences of selected words."><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Highlight — Zed Extension Safari"><meta property="og:description" content="A Zed extension that allows to highlight all occurrences of selected words."><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Highlight — Zed Extension Safari"><meta name="twitter:description" content="A Zed extension that allows to highlight all occurrences of selected words."><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.DJSXA_CW.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);">  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-4"> <a href="/gh-packages-zed" class="transition" style="color:var(--zed-text-muted);">← All extensions</a> </nav> <div class="flex flex-wrap items-start justify-between gap-4"> <div class="min-w-0"> <div class="font-mono text-xs mb-2" style="color:var(--zed-muted);"> 0xdea/zed-highlight </div> <h1 class="text-2xl sm:text-3xl font-bold break-words leading-tight" style="color:var(--zed-blue-pale);"> Highlight </h1> <p class="mt-2 text-pretty" style="color:var(--zed-text-muted);"> Highlight all occurrences of selected words with multiple colors to quickly identify them in code. </p> </div> <a href="https://github.com/0xdea/zed-highlight" target="_blank" rel="noopener" class="zed-btn-primary shrink-0 inline-flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View on GitHub
+</a> </div> <div class="mt-4 flex flex-wrap items-center gap-2"> <span class="version-pill">v0.1.1-alpha</span> <span class="cat-badge" data-cat="language-server">Language Server</span> </div> <div class="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm" style="color:var(--zed-text-muted);"> <span class="inline-flex items-center gap-1"> <svg class="w-4 h-4" style="color:var(--zed-lime);" fill="currentColor" viewBox="0 0 20 20"> <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path> </svg> 3 stars
+</span> <span>Rust</span> <span>MIT</span> <span>Updated 5h ago</span> <span>schema v1</span> </div> <div class="mt-2 text-sm" style="color:var(--zed-text-muted);">
+by Marco Ivaldi </div> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> code-review </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> lsp-server </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> vulnerability-research </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed-extension </span> </div> </div> </header> <main class="flex-1 max-w-4xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <article class="prose readme-prose max-w-none"><h1 id="user-content-zed-highlight"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#zed-highlight"><span class="heading-anchor-icon">#</span></a>zed-highlight</h1>
+<p><a href="https://github.com/0xdea/zed-highlight"><img src="https://img.shields.io/github/stars/0xdea/zed-highlight.svg?style=flat&#x26;color=yellow" alt=""></a>
+<a href="https://crates.io/crates/zed-highlight-lsp"><img src="https://img.shields.io/crates/v/zed-highlight-lsp?style=flat&#x26;color=green" alt=""></a>
+<a href="https://crates.io/crates/zed-highlight-lsp"><img src="https://img.shields.io/crates/d/zed-highlight-lsp?style=flat&#x26;color=red" alt=""></a>
+<a href="https://zed.dev/extensions/html/highlight"><img src="https://img.shields.io/badge/zed-1.2.6-violet" alt=""></a>
+<a href="https://twitter.com/0xdea"><img src="https://img.shields.io/badge/twitter-%400xdea-blue.svg" alt=""></a>
+<a href="https://infosec.exchange/@raptor"><img src="https://img.shields.io/badge/mastodon-%40raptor-purple.svg" alt=""></a>
+<a href="https://github.com/0xdea/zed-highlight/actions/workflows/check.yml"><img src="https://github.com/0xdea/zed-highlight/actions/workflows/check.yml/badge.svg" alt="check"></a>
+<a href="https://github.com/0xdea/zed-highlight/actions/workflows/release.yml"><img src="https://github.com/0xdea/zed-highlight/actions/workflows/release.yml/badge.svg" alt="release"></a>
+<a href="https://github.com/0xdea/zed-highlight/actions/workflows/extension.yml"><img src="https://github.com/0xdea/zed-highlight/actions/workflows/extension.yml/badge.svg" alt="extension"></a></p>
+<blockquote>
+<p>"Free as in use-after."</p>
+<p>-- <a href="https://infosec.exchange/@catsalad">@catsalad@infosec.exchange</a></p>
+</blockquote>
+<p><a href="https://zed.dev/extensions/html/highlight">Highlight</a> is a language extension for the <a href="https://zed.dev/">Zed editor</a>, designed to provide word highlighting. It's useful for quickly identifying all occurrences of selected words in code, enhancing readability and navigation when tracing the execution flow from input sources to potential vulnerability sinks.</p>
+<p><img src="https://raw.githubusercontent.com/0xdea/zed-highlight/master/.img/screen01.png" alt=""></p>
+<h2 id="user-content-how-it-works"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#how-it-works"><span class="heading-anchor-icon">#</span></a>How it works</h2>
+<p>The extension runs a small <a href="https://github.com/0xdea/zed-highlight/tree/master/lsp">LSP server</a> in the background. When you toggle a word, the server scans every supported open document for occurrences and returns them as semantic tokens. Zed colors those tokens using the rules you add to <code>settings.json</code>.</p>
+<p>Words are matched whole-word and case-sensitively by default. Up to 8 words can be highlighted simultaneously, each getting a distinct color. Adding a 9th word reuses the first color, and so on.</p>
+<h2 id="user-content-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features"><span class="heading-anchor-icon">#</span></a>Features</h2>
+<p>The following features are currently supported by the extension and the bundled LSP server:</p>
+<ul>
+<li>Easy access to the following code actions via the <code>editor: toggle code actions</code> menu (<code>⌘.</code> shortcut or lightning bolt icon in the gutter):
+<ul>
+<li><code>Highlight</code> or <code>Remove highlight</code> - Toggle highlighting on and off for the current selection.</li>
+<li><code>Clear all highlights</code> - Remove all active highlights with a single command.</li>
+</ul>
+</li>
+<li>Configurable highlight colors (via <code>settings.json</code>).</li>
+</ul>
+<h2 id="user-content-see-also"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#see-also"><span class="heading-anchor-icon">#</span></a>See also</h2>
+<ul>
+<li><a href="https://zed.dev/extensions">https://zed.dev/extensions</a></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=debugpig.highlight">https://marketplace.visualstudio.com/items?itemName=debugpig.highlight</a></li>
+<li><a href="https://github.com/debugpig/vscode-extension-highlight">https://github.com/debugpig/vscode-extension-highlight</a></li>
+<li><a href="https://github.com/huacnlee/color-lsp">https://github.com/huacnlee/color-lsp</a></li>
+</ul>
+<h2 id="user-content-installing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installing"><span class="heading-anchor-icon">#</span></a>Installing</h2>
+<p>The easiest way to install the Highlight extension is via Zed's <a href="https://zed.dev/extensions/html/highlight">extension marketplace</a>. It will take care of installing the latest release of the bundled <a href="https://github.com/0xdea/zed-highlight/tree/master/lsp">LSP server</a> automatically on first use and will check for updates upon startup.</p>
+<p>Alternatively, you can clone the repository and install both the extension and the LSP server manually. First, build the LSP server from source and install it:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">git</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> clone</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> https://github.com/0xdea/zed-highlight</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">cd</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> zed-highlight</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> install</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --path</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> lsp</span></span></code></pre>
+<p>Then, in Zed, run <code>zed: install dev extension</code> from the command palette and select the <code>zed-highlight</code> directory in which you have previously cloned the repository.</p>
+<div class="markdown-alert markdown-alert-note" dir="auto">
+<p class="markdown-alert-title" dir="auto"><svg class="octicon" viewBox="0 0 16 16" width="16" height="16"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>NOTE</p>
+<p>Highlight LSP is also available on <a href="https://crates.io/crates/zed-highlight-lsp">crates.io</a>.
+You can install it directly via <code>cargo install zed-highlight-lsp</code> if you don't want to build from source.</p>
+</div>
+<h2 id="user-content-configuration"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#configuration"><span class="heading-anchor-icon">#</span></a>Configuration</h2>
+<p>Make sure <a href="https://zed.dev/docs/extensions/languages#syntax-highlighting-with-semantic-tokens">syntax highlighting with semantic tokens</a> is enabled in <code>settings.json</code>, with e.g.:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">  // enable combined semantic tokens (recommended)</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "semantic_tokens"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"combined"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>or:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">  // enable full semantic tokens</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "semantic_tokens"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"full"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>Then, configure the foreground and background colors for each of the 8 semantic token types emitted by the extension (i.e., <code>zed-highlight-0</code> to <code>zed-highlight-7</code>) in <code>settings.json</code>. For dark themes, you can use the following color scheme:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">  // zed-highlight extension colors (dark themes)</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "global_lsp_settings"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "semantic_token_rules"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: [</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "token_type"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"zed-highlight-0"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "foreground_color"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"#F5B041"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "background_color"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"#F5B04150"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      },</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "token_type"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"zed-highlight-1"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "foreground_color"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"#85C1E9"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "background_color"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"#85C1E950"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      },</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "token_type"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"zed-highlight-2"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "foreground_color"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"#CD6155"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "background_color"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"#CD615550"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      },</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "token_type"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"zed-highlight-3"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "foreground_color"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"#AF7AC5"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "background_color"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"#AF7AC550"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      },</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "token_type"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"zed-highlight-4"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "foreground_color"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"#48C9B0"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "background_color"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"#48C9B050"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      },</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "token_type"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"zed-highlight-5"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "foreground_color"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"#F4D03F"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "background_color"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"#F4D03F50"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      },</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "token_type"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"zed-highlight-6"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "foreground_color"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"#52BE80"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "background_color"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"#52BE8050"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      },</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "token_type"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"zed-highlight-7"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "foreground_color"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"#FF9933"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "background_color"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"#FF993350"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    ]</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>An alternative color scheme that should be more suitable for light themes is provided below:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">  // zed-highlight extension colors (light themes)</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "global_lsp_settings"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "semantic_token_rules"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: [</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "token_type"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"zed-highlight-0"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "foreground_color"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"#B3D9FF"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "background_color"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"#B3D9FF50"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      },</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "token_type"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"zed-highlight-1"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "foreground_color"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"#B3B3FF"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "background_color"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"#B3B3FF50"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      },</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "token_type"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"zed-highlight-2"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "foreground_color"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"#FFD9B3"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "background_color"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"#FFD9B350"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      },</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "token_type"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"zed-highlight-3"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "foreground_color"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"#FFB3FF"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "background_color"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"#FFB3FF50"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      },</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "token_type"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"zed-highlight-4"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "foreground_color"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"#B3FFB3"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "background_color"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"#B3FFB350"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      },</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "token_type"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"zed-highlight-5"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "foreground_color"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"#D1E0E0"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "background_color"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"#D1E0E050"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      },</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "token_type"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"zed-highlight-6"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "foreground_color"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"#FFFF80"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "background_color"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"#FFFF8050"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      },</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "token_type"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"zed-highlight-7"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "foreground_color"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"#E6FFB3"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "background_color"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"#E6FFB350"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    ]</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>The <code>50</code> suffix on background colors is an alpha value in hex (roughly 31% opacity). You can adjust the colors and opacity to your taste.</p>
+<h2 id="user-content-usage"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#usage"><span class="heading-anchor-icon">#</span></a>Usage</h2>
+<p>Place the cursor on a word (or select a range of text) and open the code actions menu via <code>editor: toggle code actions</code> in the command palette or by pressing the default shortcut <code>⌘.</code> (or the lightning bolt icon in the gutter). The following actions are available depending on context:</p>
+<ul>
+<li><code>Highlight</code> or <code>Remove highlight</code> - Toggle highlighting on and off for the current selection.</li>
+<li><code>Clear all highlights</code> - Remove all active highlights with a single command.</li>
+</ul>
+<h2 id="user-content-compatibility"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#compatibility"><span class="heading-anchor-icon">#</span></a>Compatibility</h2>
+<p>The latest release was tested with Zed 1.2.6 on:</p>
+<ul>
+<li>Apple macOS Tahoe 26.4.1</li>
+</ul>
+<h2 id="user-content-credits"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#credits"><span class="heading-anchor-icon">#</span></a>Credits</h2>
+<ul>
+<li><a href="https://github.com/debugpig">@debugpig</a> for their <a href="https://github.com/debugpig/vscode-extension-highlight">vscode-extension-highlight</a>, which served as a major inspiration for this project.</li>
+</ul>
+<h2 id="user-content-changelog"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#changelog"><span class="heading-anchor-icon">#</span></a>Changelog</h2>
+<ul>
+<li><a href="https://github.com/0xdea/zed-highlight/blob/master/CHANGELOG.md">CHANGELOG.md</a></li>
+</ul>
+<h2 id="user-content-todo"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#todo"><span class="heading-anchor-icon">#</span></a>TODO</h2>
+<ul>
+<li>Release to the Zed marketplace and <a href="https://crates.io/">crates.io</a>.</li>
+<li>Add a minimal command-line interface for manual use of the LSP server outside of Zed.</li>
+<li>Add customizable settings (e.g., <code>whole_word</code> and <code>ignore_case</code> flags that are already suppported by the LSP).</li>
+<li>Investigate whether it's possible to ship a default <code>semantic_token_rules.json</code> file with the extension.</li>
+<li>Add highlighting based on regular expressions.</li>
+<li>Add a sidebar for navigation between currently highlighted words.</li>
+</ul></article> </main> <footer class="mt-auto" style="background:var(--zed-bg);border-top:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:var(--zed-text-muted);">
+← Back to extension list
+</a> </div> </footer> </body></html>

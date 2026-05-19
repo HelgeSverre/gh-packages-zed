@@ -1,0 +1,15 @@
+id = "lume"
+name = "Lume"
+version = "0.1.2"
+schema_version = 1
+authors = ["Max T. Kristiansen <me@maxtrier.dk>"]
+description = "Lume support."
+repository = "https://github.com/lume-lang/extension-zed"
+
+[grammars.lume]
+repository = "https://github.com/lume-lang/tree-sitter-lume"
+rev = "f7d60a167fdc67b6e86df81c7b094f4ad2bcae40"
+
+[language_servers.lume-language-server]
+name = "Lume LSP"
+languages = ["Lume"]

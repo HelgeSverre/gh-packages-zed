@@ -1,0 +1,15 @@
+id = "ungrammar"
+name = "Ungrammar"
+version = "0.0.1"
+schema_version = 1
+authors = ["zed-ungrammar contributors"]
+description = "Language support for Ungrammar (.ungram) files"
+repository = "https://github.com/b4d8/zed-ungrammar"
+
+[grammars.ungrammar]
+repository = "https://github.com/tree-sitter-grammars/tree-sitter-ungrammar"
+rev = "debd26fed283d80456ebafa33a06957b0c52e451"
+
+[language_servers.ungrammar-language-server]
+name = "Ungrammar Language Server"
+languages = ["Ungrammar"]

@@ -1,0 +1,20 @@
+id = "alpine-syntax"
+name = "Alpine.js Syntax"
+version = "0.1.0"
+schema_version = 1
+authors = ["Freddy González <fredoist@pm.me>"]
+description = "Syntax highlighting, directive completions, and full JS intellisense for Alpine.js x-* attributes."
+repository = "https://github.com/fredoist/alpine-syntax"
+languages = ["languages/html-alpine"]
+
+[lib]
+kind = "Rust"
+version = "0.7.0"
+
+[language_servers.alpine-ls]
+name = "Alpine.js Language Server"
+language = "HTML (Alpine)"
+languages = []
+
+[language_servers.alpine-ls.language_ids]
+"HTML (Alpine)" = "html"

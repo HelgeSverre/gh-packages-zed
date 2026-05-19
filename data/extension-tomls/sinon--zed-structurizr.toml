@@ -1,0 +1,16 @@
+id = "structurizr"
+name = "Structurizr DSL for C4 Modelling"
+description = "Support for Structurizr used to describe C4 architecture models."
+version = "0.0.1"
+schema_version = 1
+authors = ["Rob Hand <146272+sinon@users.noreply.github.com>"]
+repository = "https://github.com/sinon/zed-structurizr"
+
+[grammars.structurizr]
+repository = "https://github.com/sinon/tree-sitter-structurizr"
+rev = "66a63203dfb2f15593b8a0410fdf43a7f9a8e065"
+path = "crates/strz-grammar"
+
+[language_servers.strz-lsp]
+name = "strz LSP for structurizr dsl"
+languages = ["Structurizr DSL"]

@@ -1,0 +1,10 @@
+id = "http-requesting-extension"
+name = "HTTP requesting extension"
+version = "0.0.1"
+schema_version = 1
+authors = ["https://github.com/wasm-outbound-http-examples"]
+description = "Makes a HTTP request. Just press `Configure` button at right."
+repository = "https://github.com/wasm-outbound-http-examples/zed-extension"
+
+[context_servers.http-requesting-extension]
+name = "Using MCP Server configuration dialog to make HTTP request"

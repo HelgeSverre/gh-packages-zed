@@ -1,0 +1,11 @@
+id = "panache"
+name = "panache"
+version = "0.0.1"
+schema_version = 1
+authors = ["Jonathan Helgert <git@helgert.ch>"]
+description = "Support for the panache linter and language server in Zed"
+repository = "https://github.com/jhelgert/zed-panache"
+
+[language_servers.panache]
+name = "panache"
+languages = ["Markdown"]

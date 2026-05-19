@@ -1,0 +1,18 @@
+id = "spring-tools"
+name = "Spring Tools"
+version = "0.1.0"
+schema_version = 1
+authors = [
+    "Keiaa <keiaa.07.05.00@gmail.com>"
+]
+description = "Spring Tools Suite support for Zed."
+repository = "https://github.com/keiaa/zed-spring-tools"
+
+[language_servers.spring-tools]
+name = "Spring Tools"
+language = "Java"
+
+[[capabilities]]
+kind = "process:exec"
+command = "java"
+args = ["-jar"]

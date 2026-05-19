@@ -1,0 +1,288 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>REST Client — Zed Extension Safari</title><meta name="description" content="Rest client to make HTTP call easier"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="REST Client — Zed Extension Safari"><meta property="og:description" content="Rest client to make HTTP call easier"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="REST Client — Zed Extension Safari"><meta name="twitter:description" content="Rest client to make HTTP call easier"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.DJSXA_CW.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);">  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-4"> <a href="/gh-packages-zed" class="transition" style="color:var(--zed-text-muted);">← All extensions</a> </nav> <div class="flex flex-wrap items-start justify-between gap-4"> <div class="min-w-0"> <div class="font-mono text-xs mb-2" style="color:var(--zed-muted);"> zed-ext/restclient </div> <h1 class="text-2xl sm:text-3xl font-bold break-words leading-tight" style="color:var(--zed-blue-pale);"> REST Client </h1> <p class="mt-2 text-pretty" style="color:var(--zed-text-muted);"> HTTP client for testing REST APIs with .http files </p> </div> <a href="https://github.com/zed-ext/restclient" target="_blank" rel="noopener" class="zed-btn-primary shrink-0 inline-flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View on GitHub
+</a> </div> <div class="mt-4 flex flex-wrap items-center gap-2"> <span class="version-pill">v0.2.1</span> <span class="cat-badge" data-cat="grammar">Grammar</span><span class="cat-badge" data-cat="language-server">Language Server</span> </div> <div class="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm" style="color:var(--zed-text-muted);"> <span class="inline-flex items-center gap-1"> <svg class="w-4 h-4" style="color:var(--zed-lime);" fill="currentColor" viewBox="0 0 20 20"> <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path> </svg> 1 stars
+</span> <span>Rust</span> <span>MIT</span> <span>Updated 3/16/2026</span> <span>schema v1</span> </div> <div class="mt-2 text-sm" style="color:var(--zed-text-muted);">
+by Tong Zhou </div>  </div> </header> <main class="flex-1 max-w-4xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <article class="prose readme-prose max-w-none"><div align="center">
+  <img src="https://raw.githubusercontent.com/zed-ext/restclient/HEAD/docs/logo.svg" width="200" height="200" alt="REST Client">
+</div>
+<h1 align="center" id="user-content-rest-client-extension-for-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#rest-client-extension-for-zed"><span class="heading-anchor-icon">#</span></a>REST Client Extension for Zed</h1>
+<p align="center">
+  <a href="https://github.com/zed-ext/restclient/actions/workflows/ci.yml"><img src="https://github.com/zed-ext/restclient/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+  <a href="https://github.com/zed-ext/restclient/releases/tag/v0.1.0"><img src="https://img.shields.io/github/v/release/zed-ext/restclient?color=blue" alt="Release"></a>
+  <a href="https://github.com/zed-ext/restclient/blob/main/LICENSE"><img src="https://img.shields.io/github/license/zed-ext/restclient" alt="License: MIT"></a>
+  <img src="https://img.shields.io/badge/language-Rust-orange" alt="Rust">
+  <img src="https://img.shields.io/badge/platform-wasm32--wasip1-blueviolet" alt="WASM">
+  <a href="https://github.com/zed-ext/restclient/stargazers"><img src="https://img.shields.io/github/stars/zed-ext/restclient?style=social" alt="Stars"></a>
+</p>
+<p align="center">
+  A REST client extension for <a href="https://zed.dev">Zed</a> that lets you write and execute HTTP requests directly from <code>.http</code> and <code>.rest</code> files.
+</p>
+<h2 id="user-content-demo"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#demo"><span class="heading-anchor-icon">#</span></a>Demo</h2>
+<p><img src="https://raw.githubusercontent.com/zed-ext/restclient/HEAD/docs/video/demo.gif" alt="Demo"></p>
+<hr>
+<h2 id="user-content-quick-start"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#quick-start"><span class="heading-anchor-icon">#</span></a>Quick Start</h2>
+<h3 id="user-content-1-install-the-extension"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#1-install-the-extension"><span class="heading-anchor-icon">#</span></a>1. Install the Extension</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">./install_to_zed.sh</span></span></code></pre>
+<h3 id="user-content-2-restart-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#2-restart-zed"><span class="heading-anchor-icon">#</span></a>2. Restart Zed</h3>
+<p>Completely quit Zed (<code>Cmd+Q</code> on macOS) and reopen it.</p>
+<h3 id="user-content-3-try-the-examples"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#3-try-the-examples"><span class="heading-anchor-icon">#</span></a>3. Try the Examples</h3>
+<p>Open any file from the <code>examples/</code> directory:</p>
+<ul>
+<li><code>examples/basic.http</code> — GET, POST, PUT, PATCH, DELETE</li>
+<li><code>examples/variables.http</code> — File-level variables, nested resolution</li>
+<li><code>examples/response-capture.http</code> — Save values from responses</li>
+<li><code>examples/edge-cases.http</code> — Error codes, slow requests, response formats</li>
+<li><code>examples/environments.rest</code> — Environment variables (JetBrains-compatible)</li>
+</ul>
+<p>Or create your own <code>.http</code> file:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">### Test request</span></span>
+<span class="line"><span style="color:#F97583;--shiki-dark:#F97583">GET</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> https://httpbin.org/get</span></span></code></pre>
+<h3 id="user-content-4-execute-the-request"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#4-execute-the-request"><span class="heading-anchor-icon">#</span></a>4. Execute the Request</h3>
+<p><strong>Option A: Click the ▶ Send Button</strong></p>
+<p>Look above each HTTP request — you'll see a clickable <strong>▶ Send</strong> button.
+Click it to execute the request and see the response in the terminal panel.</p>
+<p><strong>Option B: Send in New Tab</strong></p>
+<p>Click the <strong>⊕ Send in New Tab</strong> button to open the response in a dedicated terminal tab (labeled with the request URL).</p>
+<p><strong>Option C: Generate cURL</strong></p>
+<p>Click the <strong>📋 Generate cURL</strong> button to copy the request as a cURL command to your clipboard.</p>
+<p><strong>Option D: Using Command Palette</strong></p>
+<ol>
+<li>Click anywhere in the request</li>
+<li>Press <code>Cmd+Shift+P</code> (macOS) or <code>Ctrl+Shift+P</code> (Linux)</li>
+<li>Type "task spawn"</li>
+<li>Select "▶ Send Request", "⊕ Send in New Tab", or "📋 Generate cURL"</li>
+</ol>
+<hr>
+<h2 id="user-content-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features"><span class="heading-anchor-icon">#</span></a>Features</h2>
+<ul>
+<li><strong>▶ Send Request</strong> — Execute HTTP requests with a single click, reusing the same terminal</li>
+<li><strong>⊕ Send in New Tab</strong> — Execute in a new terminal tab, titled with the request URL</li>
+<li><strong>📋 Generate cURL</strong> — Copy any request as a cURL command to clipboard</li>
+<li><strong>Syntax Highlighting</strong> — Full highlighting for <code>.http</code> and <code>.rest</code> files</li>
+<li><strong>Autocompletion</strong> — HTTP methods, headers, header values, and variable references</li>
+<li><strong>Document Symbols</strong> — Navigate requests via the symbol outline</li>
+<li><strong>Variable Support</strong> — <code>@variable = value</code> declarations with <code>{{variable}}</code> substitution</li>
+<li><strong>Response Variable Capture</strong> — Save values from responses with <code>client.global.set()</code> (JetBrains-compatible)</li>
+<li><strong>Environment Variables</strong> — JetBrains-compatible <code>http-client.env.json</code> + <code>http-client.private.env.json</code> with parent directory search</li>
+<li><strong>Multiple Requests</strong> — Use <code>###</code> separators for multiple requests per file</li>
+</ul>
+<hr>
+<h2 id="user-content-writing-http-requests"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#writing-http-requests"><span class="heading-anchor-icon">#</span></a>Writing HTTP Requests</h2>
+<h3 id="user-content-basic-request"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#basic-request"><span class="heading-anchor-icon">#</span></a>Basic Request</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">### Simple GET request</span></span>
+<span class="line"><span style="color:#F97583;--shiki-dark:#F97583">GET</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> https://httpbin.org/get</span></span></code></pre>
+<h3 id="user-content-post-with-json-body"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#post-with-json-body"><span class="heading-anchor-icon">#</span></a>POST with JSON Body</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">### Create a user</span></span>
+<span class="line"><span style="color:#F97583;--shiki-dark:#F97583">POST</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> https://api.example.com/users</span></span>
+<span class="line"><span style="color:#85E89D;--shiki-dark:#85E89D">Content-Type</span><span style="color:#F97583;--shiki-dark:#F97583">:</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> application/json</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "name"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"John Doe"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "email"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"john@example.com"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h3 id="user-content-request-with-headers"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#request-with-headers"><span class="heading-anchor-icon">#</span></a>Request with Headers</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">### Authenticated request</span></span>
+<span class="line"><span style="color:#F97583;--shiki-dark:#F97583">GET</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> https://api.example.com/data</span></span>
+<span class="line"><span style="color:#85E89D;--shiki-dark:#85E89D">Authorization</span><span style="color:#F97583;--shiki-dark:#F97583">:</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> Bearer your-token-here</span></span>
+<span class="line"><span style="color:#85E89D;--shiki-dark:#85E89D">Accept</span><span style="color:#F97583;--shiki-dark:#F97583">:</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> application/json</span></span></code></pre>
+<h3 id="user-content-variables"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#variables"><span class="heading-anchor-icon">#</span></a>Variables</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#F97583;--shiki-dark:#F97583">@</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">baseUrl = </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">https://api.example.com</span></span>
+<span class="line"><span style="color:#F97583;--shiki-dark:#F97583">@</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">userId = </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">123</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">### Use variables with {{name}}</span></span>
+<span class="line"><span style="color:#F97583;--shiki-dark:#F97583">GET</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> {{baseUrl}}/users/{{userId}}</span></span></code></pre>
+<p>Variables work in URLs, header values, and request bodies. Nested resolution is supported:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#F97583;--shiki-dark:#F97583">@</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">protocol = </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">https</span></span>
+<span class="line"><span style="color:#F97583;--shiki-dark:#F97583">@</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">host = </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">api.example.com</span></span>
+<span class="line"><span style="color:#F97583;--shiki-dark:#F97583">@</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">baseUrl = </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">{{protocol}}://{{host}}</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#F97583;--shiki-dark:#F97583">GET</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> {{baseUrl}}/api/users</span></span></code></pre>
+<h3 id="user-content-response-variable-capture"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#response-variable-capture"><span class="heading-anchor-icon">#</span></a>Response Variable Capture</h3>
+<p>Save values from HTTP responses and reuse them in later requests (JetBrains HTTP Client syntax):</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">### Login and capture the token</span></span>
+<span class="line"><span style="color:#F97583;--shiki-dark:#F97583">POST</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> https://api.example.com/login</span></span>
+<span class="line"><span style="color:#85E89D;--shiki-dark:#85E89D">Content-Type</span><span style="color:#F97583;--shiki-dark:#F97583">:</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> application/json</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "username"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"demo"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "password"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"secret"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">> {</span><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">%</span></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">  client.global.set(</span><span style="color:#79B8FF;--shiki-dark:#79B8FF">"token"</span><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">,</span><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic"> response.body.access_token);</span></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">  client.global.set(</span><span style="color:#79B8FF;--shiki-dark:#79B8FF">"user_id"</span><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">,</span><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic"> response.body.user.id);</span></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">%</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">###</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">### Use the captured token</span></span>
+<span class="line"><span style="color:#F97583;--shiki-dark:#F97583">GET</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> https://api.example.com/users/{{user_id}}</span></span>
+<span class="line"><span style="color:#85E89D;--shiki-dark:#85E89D">Authorization</span><span style="color:#F97583;--shiki-dark:#F97583">:</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> Bearer {{token}}</span></span></code></pre>
+<p><strong>Supported expressions:</strong></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Expression</th><th>Description</th></tr></thead><tbody><tr><td><code>response.body.field</code></td><td>JSON field access (dot notation)</td></tr><tr><td><code>response.body.data[0].id</code></td><td>Array index access</td></tr><tr><td><code>response.body.user.profile.name</code></td><td>Nested field access</td></tr><tr><td><code>response.headers.valueOf("X-Request-Id")</code></td><td>Response header value</td></tr><tr><td><code>response.status</code></td><td>HTTP status code</td></tr><tr><td><code>"string literal"</code></td><td>Static string value</td></tr></tbody></table>
+<p>Captured variables are persisted to <code>.http-client/.global-variables.json</code> and available across requests.</p>
+<hr>
+<h2 id="user-content-file-format"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#file-format"><span class="heading-anchor-icon">#</span></a>File Format</h2>
+<p>The extension supports the <a href="https://www.jetbrains.com/help/idea/http-client-in-product-code-editor.html">JetBrains HTTP Client file format</a>:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">### Comment describing the request</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">METHOD URL</span></span>
+<span class="line"><span style="color:#85E89D;--shiki-dark:#85E89D">Header-Name</span><span style="color:#F97583;--shiki-dark:#F97583">:</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> Header-Value</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">Request Body</span></span></code></pre>
+<p>Use <code>###</code> to separate multiple requests. Lines starting with <code>#</code> or <code>//</code> are comments.</p>
+<blockquote>
+<p><strong>Tip:</strong> Use <code>### Section Title</code> for section dividers between requests. Standalone <code># comment</code> lines
+placed after a blank line following a request may not be highlighted correctly, because the
+tree-sitter HTTP grammar can interpret them as request body content. Using <code>###</code> ensures
+consistent syntax highlighting throughout the file.</p>
+</blockquote>
+<hr>
+<h2 id="user-content-environment-variables"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#environment-variables"><span class="heading-anchor-icon">#</span></a>Environment Variables</h2>
+<p>Environment variables follow the <a href="https://www.jetbrains.com/help/idea/http-client-in-product-code-editor.html">JetBrains HTTP Client convention</a>. Place environment files alongside your <code>.http</code>/<code>.rest</code> files:</p>
+<pre><code>your-project/
+├── http-client.env.json           # Public environment variables (commit to git)
+├── http-client.private.env.json   # Private overrides (gitignored — secrets go here)
+├── .http-client/
+│   └── .global-variables.json     # Persisted response capture variables
+├── api.http
+└── api.rest
+</code></pre>
+<p><strong><code>http-client.env.json</code></strong> (public — safe to commit):</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "activeEnv"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"development"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "development"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "base_url"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"https://httpbin.org"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "api_url"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"https://httpbin.org"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "timeout"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"5000"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  },</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "staging"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "base_url"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"https://staging.example.com"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "api_url"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"https://staging.example.com/api"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  },</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "production"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "base_url"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"https://api.example.com"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "api_url"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"https://api.example.com/api"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p><strong><code>http-client.private.env.json</code></strong> (private — add to <code>.gitignore</code>):</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "development"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "api_key"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"dev-key-12345"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "auth_token"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"dev-token-abcdef"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  },</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "staging"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "api_key"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"staging-key-67890"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "auth_token"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"staging-token-ghijkl"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>Private variables override public ones with the same name. The extension searches the directory containing your <code>.http</code> file first, then walks up parent directories.</p>
+<p>The <code>"activeEnv"</code> key in <code>http-client.env.json</code> specifies which environment is active. Change it to switch environments:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"activeEnv"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"staging"</span></span></code></pre>
+<p>Then reference environment variables in your requests:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">### Uses base_url from the active environment</span></span>
+<span class="line"><span style="color:#F97583;--shiki-dark:#F97583">GET</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> {{base_url}}/api/users</span></span>
+<span class="line"><span style="color:#85E89D;--shiki-dark:#85E89D">Authorization</span><span style="color:#F97583;--shiki-dark:#F97583">:</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> Bearer {{auth_token}}</span></span></code></pre>
+<p><strong>Variable resolution order</strong> (highest priority first):</p>
+<ol>
+<li>File-level variables (<code>@variable = value</code>)</li>
+<li>Global variables (captured from response handlers)</li>
+<li>Active environment variables</li>
+<li>System environment variables</li>
+</ol>
+<p>See <code>examples/environments.rest</code> for a full working example.</p>
+<hr>
+<h2 id="user-content-development"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#development"><span class="heading-anchor-icon">#</span></a>Development</h2>
+<h3 id="user-content-building"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#building"><span class="heading-anchor-icon">#</span></a>Building</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Build the WASM extension</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> build</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --release</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --target</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> wasm32-wasip1</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Build the LSP server and CLI</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">cd</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> lsp</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> &#x26;&#x26; </span><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> build</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --release</span></span></code></pre>
+<h3 id="user-content-installing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installing"><span class="heading-anchor-icon">#</span></a>Installing</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">./install_to_zed.sh</span></span></code></pre>
+<h3 id="user-content-project-structure"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#project-structure"><span class="heading-anchor-icon">#</span></a>Project Structure</h3>
+<pre><code>restclient/
+├── src/
+│   └── lib.rs              # WASM extension entry point
+├── lsp/
+│   ├── src/
+│   │   ├── main.rs         # LSP server (completions, symbols, diagnostics)
+│   │   ├── parser.rs       # HTTP file parser
+│   │   ├── variables.rs    # Variable resolution
+│   │   ├── response_handler.rs  # Response variable capture
+│   │   └── bin/
+│   │       └── http-client.rs  # CLI binary for executing requests
+│   └── Cargo.toml
+├── languages/http/
+│   ├── config.toml         # Language configuration
+│   ├── highlights.scm      # Syntax highlighting
+│   ├── runnables.scm       # Tree-sitter runnable captures
+│   └── tasks.json          # Task definitions (▶ Send / ⊕ New Tab / 📋 cURL)
+├── examples/
+│   ├── http-client.env.json       # Public environment config
+│   ├── http-client.private.env.json # Private environment config
+│   ├── .http-client/
+│   │   └── .global-variables.json # Response capture storage
+│   ├── basic.http          # GET, POST, PUT, PATCH, DELETE examples
+│   ├── variables.http      # Variable substitution examples
+│   ├── response-capture.http  # Response variable capture examples
+│   ├── edge-cases.http     # Error codes, slow requests, formats
+│   └── environments.rest   # Environment variables example
+├── grammars/               # Tree-sitter grammar
+├── extension.toml          # Extension manifest
+└── Cargo.toml              # WASM crate config
+</code></pre>
+<hr>
+<h2 id="user-content-troubleshooting"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#troubleshooting"><span class="heading-anchor-icon">#</span></a>Troubleshooting</h2>
+<h3 id="user-content--send-buttons-dont-appear"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-send-buttons-dont-appear"><span class="heading-anchor-icon">#</span></a>▶ Send buttons don't appear</h3>
+<ol>
+<li>Restart Zed completely (<code>Cmd+Q</code> and reopen)</li>
+<li>Check LSP is running: View → Server Logs → HTTP LSP</li>
+<li>Reinstall: <code>./install_to_zed.sh</code></li>
+</ol>
+<h3 id="user-content-syntax-highlighting-not-working"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#syntax-highlighting-not-working"><span class="heading-anchor-icon">#</span></a>Syntax highlighting not working</h3>
+<ol>
+<li>Check file extension is <code>.http</code> or <code>.rest</code></li>
+<li>Restart Zed completely</li>
+<li>Reinstall: <code>./install_to_zed.sh</code></li>
+</ol>
+<hr>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>MIT</p>
+<h2 id="user-content-contributing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#contributing"><span class="heading-anchor-icon">#</span></a>Contributing</h2>
+<p>Contributions welcome! Please open an issue or PR. See <a href="https://github.com/zed-ext/restclient/blob/HEAD/docs/CONTRIBUTING.md" target="_blank" rel="noopener">docs/CONTRIBUTING.md</a> for details.</p></article> </main> <footer class="mt-auto" style="background:var(--zed-bg);border-top:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:var(--zed-text-muted);">
+← Back to extension list
+</a> </div> </footer> </body></html>

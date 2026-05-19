@@ -1,0 +1,12 @@
+id = "ellsp"
+name = "Ellsp"
+version = "0.1.0"
+schema_version = 1
+authors = ["Jen-Chieh Shen <jcs090218@gmail.com>"]
+description = "Emacs Lisp languages support for Zed."
+repository = "https://github.com/elisp-lsp/zed-ellsp"
+
+[language_servers.ellsp]
+name = "Ellsp"
+language = "Elisp"
+languages = ["Elisp"]

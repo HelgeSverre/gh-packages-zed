@@ -1,0 +1,10 @@
+id = "mcp-server-kubernetes"
+name = "Kubernetes MCP Server"
+version = "0.1.0"
+schema_version = 1
+authors = ["GGORG <GGORG0@protonmail.com>"]
+description = "Model Context Protocol server for Kubernetes and OpenShift"
+repository = "https://github.com/GGORG0/zed-mcp-server-kubernetes"
+
+[context_servers.mcp-server-kubernetes]
+name = "Kubernetes MCP Server"

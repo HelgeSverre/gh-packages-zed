@@ -1,0 +1,15 @@
+id = "plaintasks"
+name = "PlainTasks"
+version = "0.1.0"
+schema_version = 1
+authors = ["Chris Seelus <chris@imeos.com>"]
+description = "Todo list management with syntax highlighting, interactive code actions to toggle task states, automatic timestamps, and tag completion."
+repository = "https://github.com/cseelus/plaintasks-zed"
+
+[grammars.todo]
+repository = "https://github.com/cseelus/tree-sitter-todo"
+rev = "b4c615b8a8db36b4ff87bf84b09c054914380dea"
+
+[language_servers.plaintasks-lsp]
+name = "PlainTasks LSP"
+languages = ["Todo"]

@@ -1,0 +1,15 @@
+id = "bsl"
+name = "Bsl (1C)"
+version = "0.0.2"
+schema_version = 1
+authors = ["Dmitrii Liubanevich <dlyubanevich@gmail.com>"]
+description = "Bsl (1C) support"
+repository = "https://github.com/dlyubanevich/zed-bsl-extension"
+
+[grammars.bsl]
+repository = "https://github.com/alkoleft/tree-sitter-bsl"
+rev = "71c1fce00c412bd80c840a0355a87c0ab1534c8f"
+
+[language_servers.bsl]
+name = "bsl-analyzer"
+language = "Bsl"

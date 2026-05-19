@@ -1,0 +1,240 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Agent Hive — Zed Extension Safari</title><meta name="description" content="Zed extension for Agent Hive - plan-first AI development workflow via MCP"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Agent Hive — Zed Extension Safari"><meta property="og:description" content="Zed extension for Agent Hive - plan-first AI development workflow via MCP"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Agent Hive — Zed Extension Safari"><meta name="twitter:description" content="Zed extension for Agent Hive - plan-first AI development workflow via MCP"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.DJSXA_CW.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);">  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-4"> <a href="/gh-packages-zed" class="transition" style="color:var(--zed-text-muted);">← All extensions</a> </nav> <div class="flex flex-wrap items-start justify-between gap-4"> <div class="min-w-0"> <div class="font-mono text-xs mb-2" style="color:var(--zed-muted);"> c10l/zed-agent-hive </div> <h1 class="text-2xl sm:text-3xl font-bold break-words leading-tight" style="color:var(--zed-blue-pale);"> Agent Hive </h1> <p class="mt-2 text-pretty" style="color:var(--zed-text-muted);"> Plan-first AI development workflow - create features, write plans, execute tasks in isolated worktrees </p> </div> <a href="https://github.com/c10l/zed-agent-hive" target="_blank" rel="noopener" class="zed-btn-primary shrink-0 inline-flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View on GitHub
+</a> </div> <div class="mt-4 flex flex-wrap items-center gap-2"> <span class="version-pill">v0.1.0</span> <span class="cat-badge" data-cat="slash-command">Slash Command</span><span class="cat-badge" data-cat="context-server">Context Server</span> </div> <div class="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm" style="color:var(--zed-text-muted);"> <span class="inline-flex items-center gap-1"> <svg class="w-4 h-4" style="color:var(--zed-lime);" fill="currentColor" viewBox="0 0 20 20"> <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path> </svg> 0 stars
+</span> <span>Rust</span> <span>NOASSERTION</span> <span>Updated 3/25/2026</span> <span>schema v1</span> </div> <div class="mt-2 text-sm" style="color:var(--zed-text-muted);">
+by Agent Hive Contributors </div>  </div> </header> <main class="flex-1 max-w-4xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <article class="prose readme-prose max-w-none"><h1 id="user-content-agent-hive---zed-extension"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#agent-hive---zed-extension"><span class="heading-anchor-icon">#</span></a>Agent Hive - Zed Extension</h1>
+<p><a href="https://www.gnu.org/licenses/agpl-3.0"><img src="https://img.shields.io/badge/License-AGPL%20v3-blue.svg" alt="License: AGPL v3"></a></p>
+<p><strong>From Vibe Coding to Hive Coding</strong> — Plan-first AI development workflow for Zed.</p>
+<h2 id="user-content-overview"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#overview"><span class="heading-anchor-icon">#</span></a>Overview</h2>
+<p>This Zed extension integrates <a href="https://github.com/c10l/hive-mcp">Agent Hive</a> into Zed's AI Assistant Panel via MCP (Model Context Protocol). It enables:</p>
+<ul>
+<li><strong>Plan-first development</strong> — AI writes plans, you review, then it executes</li>
+<li><strong>Task isolation</strong> — Each task runs in its own git worktree</li>
+<li><strong>Context persistence</strong> — Research and decisions saved across sessions</li>
+<li><strong>18 MCP tools</strong> — Features, plans, tasks, worktrees, merges, skills</li>
+</ul>
+<h2 id="user-content-components"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#components"><span class="heading-anchor-icon">#</span></a>Components</h2>
+<p>This repository contains the <strong>Zed extension</strong> (compiled to WebAssembly). The MCP server is a separate project:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Component</th><th>Repository</th><th>Purpose</th></tr></thead><tbody><tr><td><strong>Zed Extension</strong></td><td><code>c10l/zed-agent-hive</code> (this repo)</td><td>WASM shim: context server registration + slash commands</td></tr><tr><td><strong>MCP Server</strong></td><td><a href="https://github.com/c10l/hive-mcp"><code>c10l/hive-mcp</code></a></td><td>Native binary: 18 tools, filesystem I/O, git operations</td></tr></tbody></table>
+<h2 id="user-content-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation"><span class="heading-anchor-icon">#</span></a>Installation</h2>
+<h3 id="user-content-prerequisites"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#prerequisites"><span class="heading-anchor-icon">#</span></a>Prerequisites</h3>
+<ol>
+<li>Build and install the <a href="https://github.com/c10l/hive-mcp">hive-mcp</a> server binary</li>
+<li>Ensure <code>hive-mcp</code> is on your <code>PATH</code></li>
+</ol>
+<h3 id="user-content-from-zed-extensions-when-published"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#from-zed-extensions-when-published"><span class="heading-anchor-icon">#</span></a>From Zed Extensions (when published)</h3>
+<ol>
+<li>Open Zed</li>
+<li>Run <code>zed: extensions</code> command</li>
+<li>Search for "Agent Hive"</li>
+<li>Click Install</li>
+</ol>
+<h3 id="user-content-dev-extension-development"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#dev-extension-development"><span class="heading-anchor-icon">#</span></a>Dev Extension (development)</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Clone and build</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">git</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> clone</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> https://github.com/c10l/zed-agent-hive.git</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">cd</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> zed-agent-hive</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Build WASM extension (requires wasm32-wasip2 target)</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">rustup</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> target</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> add</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> wasm32-wasip2</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> build</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --release</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --target</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> wasm32-wasip2</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Install as dev extension in Zed</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># In Zed: zed: install dev extension → select this directory</span></span></code></pre>
+<h2 id="user-content-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features"><span class="heading-anchor-icon">#</span></a>Features</h2>
+<h3 id="user-content-slash-commands"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#slash-commands"><span class="heading-anchor-icon">#</span></a>Slash Commands</h3>
+<p>Quick actions in Zed's Assistant Panel:</p>
+<pre><code>/hive-status                Show all features and progress
+/hive-feature &#x3C;name>        Create a new feature
+/hive-plan &#x3C;read|approve>   Read or approve current plan
+/hive-task &#x3C;list|sync>      Manage tasks
+</code></pre>
+<h3 id="user-content-mcp-tools-via-hive-mcp-server"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#mcp-tools-via-hive-mcp-server"><span class="heading-anchor-icon">#</span></a>MCP Tools (via hive-mcp server)</h3>
+<p>The extension launches <a href="https://github.com/c10l/hive-mcp">hive-mcp</a> as a context server, providing 18 tools to the AI assistant:</p>
+<h4 id="user-content-feature-management"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#feature-management"><span class="heading-anchor-icon">#</span></a>Feature Management</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Tool</th><th>Description</th></tr></thead><tbody><tr><td><code>hive_feature_create</code></td><td>Create a new feature workspace</td></tr><tr><td><code>hive_feature_complete</code></td><td>Mark feature as completed</td></tr></tbody></table>
+<h4 id="user-content-plan-management"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#plan-management"><span class="heading-anchor-icon">#</span></a>Plan Management</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Tool</th><th>Description</th></tr></thead><tbody><tr><td><code>hive_plan_write</code></td><td>Write/update plan.md</td></tr><tr><td><code>hive_plan_read</code></td><td>Read plan and comments</td></tr><tr><td><code>hive_plan_approve</code></td><td>Approve plan for execution</td></tr></tbody></table>
+<h4 id="user-content-task-management"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#task-management"><span class="heading-anchor-icon">#</span></a>Task Management</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Tool</th><th>Description</th></tr></thead><tbody><tr><td><code>hive_tasks_sync</code></td><td>Generate tasks from plan</td></tr><tr><td><code>hive_task_create</code></td><td>Create manual task</td></tr><tr><td><code>hive_task_update</code></td><td>Update task status</td></tr></tbody></table>
+<h4 id="user-content-worktree-operations"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#worktree-operations"><span class="heading-anchor-icon">#</span></a>Worktree Operations</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Tool</th><th>Description</th></tr></thead><tbody><tr><td><code>hive_worktree_start</code></td><td>Create isolated worktree</td></tr><tr><td><code>hive_worktree_create</code></td><td>Resume blocked task</td></tr><tr><td><code>hive_worktree_commit</code></td><td>Commit changes</td></tr><tr><td><code>hive_worktree_discard</code></td><td>Discard worktree</td></tr></tbody></table>
+<h4 id="user-content-integration"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#integration"><span class="heading-anchor-icon">#</span></a>Integration</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Tool</th><th>Description</th></tr></thead><tbody><tr><td><code>hive_merge</code></td><td>Merge task branch</td></tr><tr><td><code>hive_context_write</code></td><td>Write context file</td></tr><tr><td><code>hive_status</code></td><td>Get feature status</td></tr><tr><td><code>hive_skill</code></td><td>Load skill instructions</td></tr><tr><td><code>hive_agents_md</code></td><td>Manage AGENTS.md</td></tr></tbody></table>
+<h2 id="user-content-usage"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#usage"><span class="heading-anchor-icon">#</span></a>Usage</h2>
+<h3 id="user-content-quick-start"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#quick-start"><span class="heading-anchor-icon">#</span></a>Quick Start</h3>
+<ol>
+<li><strong>Create a feature</strong>: <code>/hive-feature my-feature</code></li>
+<li><strong>Write a plan</strong>: AI uses <code>hive_plan_write</code> tool</li>
+<li><strong>Review</strong>: Open <code>.hive/features/my-feature/plan.md</code></li>
+<li><strong>Approve</strong>: <code>/hive-plan approve</code></li>
+<li><strong>Execute</strong>: AI uses worktree tools for task isolation</li>
+</ol>
+<h2 id="user-content-project-structure"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#project-structure"><span class="heading-anchor-icon">#</span></a>Project Structure</h2>
+<pre><code>zed-agent-hive/
+├── extension.toml      # Zed extension manifest
+├── Cargo.toml          # Rust dependencies (zed_extension_api only)
+├── extension/
+│   └── src/
+│       └── lib.rs      # WASM extension: context_server_command + slash commands
+├── icon.svg            # Honeycomb icon
+├── LICENSE             # AGPL-3.0
+└── README.md
+</code></pre>
+<h2 id="user-content-requirements"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#requirements"><span class="heading-anchor-icon">#</span></a>Requirements</h2>
+<ul>
+<li><strong>Zed</strong> v0.160.0 or later</li>
+<li><strong>Rust</strong> with <code>wasm32-wasip2</code> target (for building)</li>
+<li><strong>hive-mcp</strong> binary on PATH (runtime dependency)</li>
+<li><strong>Git</strong> (for worktree operations)</li>
+</ul>
+<h2 id="user-content-publishing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#publishing"><span class="heading-anchor-icon">#</span></a>Publishing</h2>
+<p>To publish to the Zed extension registry:</p>
+<ol>
+<li>Fork <a href="https://github.com/zed-industries/extensions">zed-industries/extensions</a></li>
+<li>Add as submodule: <code>git submodule add https://github.com/c10l/zed-agent-hive.git extensions/agent-hive</code></li>
+<li>Update <code>extensions.toml</code></li>
+<li>Open a pull request</li>
+</ol>
+<h2 id="user-content-related-projects"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#related-projects"><span class="heading-anchor-icon">#</span></a>Related Projects</h2>
+<ul>
+<li><a href="https://github.com/c10l/hive-mcp">hive-mcp</a> — MCP server with 18 tools</li>
+<li><a href="https://github.com/tctinh/agent-hive">Agent Hive</a> — Main project with VS Code extension</li>
+<li><a href="https://zed.dev">Zed</a> — High-performance code editor</li>
+</ul>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>AGPL-3.0 — See <a href="https://github.com/c10l/zed-agent-hive/blob/HEAD/LICENSE" target="_blank" rel="noopener">LICENSE</a> for details.</p></article> </main> <footer class="mt-auto" style="background:var(--zed-bg);border-top:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:var(--zed-text-muted);">
+← Back to extension list
+</a> </div> </footer> </body></html>

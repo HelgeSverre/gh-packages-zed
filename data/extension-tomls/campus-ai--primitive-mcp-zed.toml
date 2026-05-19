@@ -1,0 +1,10 @@
+id = "primitive-mcp"
+name = "Primitive MCP"
+description = "Connect to Primitive's MCP server via OAuth"
+version = "0.1.0"
+schema_version = 1
+authors = ["Primitive <team@getprimitive.ai>"]
+repository = "https://github.com/primitive/primitive-mcp-zed"
+
+[context_servers.primitive]
+name = "Primitive"

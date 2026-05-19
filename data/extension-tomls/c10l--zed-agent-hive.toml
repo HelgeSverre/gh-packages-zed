@@ -1,0 +1,27 @@
+id = "agent-hive"
+name = "Agent Hive"
+version = "0.1.0"
+schema_version = 1
+authors = ["Agent Hive Contributors"]
+description = "Plan-first AI development workflow - create features, write plans, execute tasks in isolated worktrees"
+repository = "https://github.com/tctinh/agent-hive"
+icon = "icon.svg"
+
+[context_servers.hive-mcp]
+name = "Hive MCP"
+
+[slash_commands.hive-status]
+description = "Show current Hive feature and task status"
+requires_argument = false
+
+[slash_commands.hive-feature]
+description = "Create a new Hive feature"
+requires_argument = true
+
+[slash_commands.hive-plan]
+description = "Read or approve the current plan (actions: read, approve)"
+requires_argument = true
+
+[slash_commands.hive-task]
+description = "Manage tasks (actions: list, sync)"
+requires_argument = true

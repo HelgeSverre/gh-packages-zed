@@ -1,0 +1,10 @@
+id = "inference-sh"
+name = "inference.sh"
+description = "Run 250+ AI apps — image, video, audio, LLMs, 3D and more"
+version = "0.0.1"
+schema_version = 1
+authors = ["inference.sh <hello@inference.sh>"]
+repository = "https://github.com/inference-sh/zed-inference-mcp"
+
+[context_servers.inference-sh]
+name = "inference.sh"

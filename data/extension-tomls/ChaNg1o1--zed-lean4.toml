@@ -1,0 +1,21 @@
+id = "lean4"
+name = "Lean 4"
+description = "Lean 4 core language support for Zed."
+version = "0.0.229"
+schema_version = 1
+authors = ["Lean Prover Community"]
+repository = "https://github.com/ChaNg1o1/zed-lean4"
+snippets = "snippets/lean4.json"
+
+[language_servers.lean4-lsp]
+name = "Lean 4 Language Server"
+languages = ["Lean 4"]
+
+[grammars.lean]
+repository = "https://github.com/Julian/tree-sitter-lean"
+rev = "efe6b87145608d12f5996bd7f0cf6095a0e82261"
+
+[[capabilities]]
+kind = "process:exec"
+command = "*"
+args = ["**"]

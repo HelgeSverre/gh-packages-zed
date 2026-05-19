@@ -1,0 +1,10 @@
+id = "mcp-server-puppeteer"
+name = "Puppeteer MCP Server"
+description = "Model Context Protocol Server for Puppeteer"
+version = "0.0.1"
+schema_version = 1
+authors = ["Zed Industries <support@zed.dev>"]
+repository = "https://github.com/zed-extensions/mcp-server-puppeteer"
+
+[context_servers.mcp-server-puppeteer]
+name = "Puppeteer MCP Server"

@@ -1,0 +1,13 @@
+id = "zed-emmylua"
+name = "zed-EmmyLua"
+description = "Support for the EmmyLua Language server"
+version = "0.0.1"
+schema_version = 1
+authors = ["Brendan Corrigan <https://github.com/brendan-corrigan>"]
+repository = "https://github.com/brendan-corrigan/zed-EmmyLua"
+
+[language_servers.emmylua]
+name = "EmmyLua Language Server"
+language = "Lua"
+
+# [debug_adapters.emmylua]

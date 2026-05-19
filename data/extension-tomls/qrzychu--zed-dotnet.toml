@@ -1,0 +1,41 @@
+id = "dotnet"
+name = ".NET"
+description = ".NET language support for C# and F# (OmniSharp, Roslyn, FsAutoComplete)"
+version = "0.1.0"
+schema_version = 1
+authors = []
+repository = ""
+
+[settings]
+auto_update_lsp = { type = "boolean", default = false, description = "Automatically update language servers when a newer version is available" }
+fsac_custom_path = { type = "string", optional = true, description = "Custom path to fsautocomplete binary (path to the executable, not a DLL)" }
+fsac_custom_arguments = { type = "array", items = "string", default = [], description = "Additional arguments for fsautocomplete" }
+
+[language_servers.omnisharp]
+name = "OmniSharp"
+language = "CSharp"
+
+[language_servers.roslyn]
+name = "Roslyn"
+language = "CSharp"
+
+[language_servers.fsautocomplete]
+name = "fsautocomplete"
+language = "FSharp"
+
+[grammars.c_sharp]
+repository = "https://github.com/tree-sitter/tree-sitter-c-sharp"
+commit = "485f0bae0274ac9114797fc10db6f7034e4086e3"
+
+[grammars.razor]
+repository = "https://github.com/tris203/tree-sitter-razor"
+commit = "fe46ce5ea7d844e53d59bc96f2175d33691c61c5"
+
+[grammars.fsharp]
+repository = "https://github.com/ionide/tree-sitter-fsharp"
+commit = "c4347939b4fb439771dc2561a6923fba6a78251b"
+
+[[capabilities]]
+kind = "process:exec"
+command = "*"
+args = ["**"]

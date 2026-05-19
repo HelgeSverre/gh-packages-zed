@@ -1,0 +1,10 @@
+id = "sentry-mcp"
+name = "Sentry MCP"
+version = "0.1.0"
+schema_version = 1
+authors = ["figsoda <figsoda@pm.me>"]
+description = "Sentry MCP"
+repository = "https://github.com/figsoda/zed-sentry-mcp"
+
+[context_servers.sentry-mcp]
+name = "Sentry MCP"

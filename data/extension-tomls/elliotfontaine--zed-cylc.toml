@@ -1,0 +1,11 @@
+id = "cylc"
+name = "Cylc"
+description = "Cylc configuration files support."
+version = "0.2.0"
+schema_version = 1
+authors = ["Elliot Fontaine <elliot.fontaine@gmail.com>"]
+repository = "https://github.com/elliotfontaine/zed-cylc"
+
+[grammars.cylc]
+repository = "https://github.com/elliotfontaine/tree-sitter-cylc"
+commit = "30dd40d9bf23912e4aefa93eeb4c7090bda3d0f6"

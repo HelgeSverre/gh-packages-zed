@@ -1,0 +1,14 @@
+id = "icalendar"
+name = "iCalendar"
+version = "0.1.0"
+schema_version = 1
+description = "Syntax highlighting, folding and validation for iCalendar (.ics) files"
+authors = ["Geoffroy Belhenniche"]
+repository = "https://github.com/gbelhenniche/zed-icalendar"
+
+[grammars.ics]
+repository = "https://github.com/gbelhenniche/tree-sitter-ics"
+commit = "9bf88a918ab200186c6177d886e2fd23d714e268"
+
+[language_servers.ics-lsp]
+language = "ICS"

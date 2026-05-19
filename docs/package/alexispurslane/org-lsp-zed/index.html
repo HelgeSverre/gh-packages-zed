@@ -1,0 +1,148 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>org-lsp — Zed Extension Safari</title><meta name="description" content="Org Mode support for Zed with LSP"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="org-lsp — Zed Extension Safari"><meta property="og:description" content="Org Mode support for Zed with LSP"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="org-lsp — Zed Extension Safari"><meta name="twitter:description" content="Org Mode support for Zed with LSP"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.DJSXA_CW.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);">  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-4"> <a href="/gh-packages-zed" class="transition" style="color:var(--zed-text-muted);">← All extensions</a> </nav> <div class="flex flex-wrap items-start justify-between gap-4"> <div class="min-w-0"> <div class="font-mono text-xs mb-2" style="color:var(--zed-muted);"> alexispurslane/org-lsp-zed </div> <h1 class="text-2xl sm:text-3xl font-bold break-words leading-tight" style="color:var(--zed-blue-pale);"> org-lsp </h1> <p class="mt-2 text-pretty" style="color:var(--zed-text-muted);"> Org Mode support for Zed with LSP </p> </div> <a href="https://github.com/alexispurslane/org-lsp-zed" target="_blank" rel="noopener" class="zed-btn-primary shrink-0 inline-flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View on GitHub
+</a> </div> <div class="mt-4 flex flex-wrap items-center gap-2"> <span class="version-pill">v0.0.1</span> <span class="cat-badge" data-cat="grammar">Grammar</span><span class="cat-badge" data-cat="language-server">Language Server</span> </div> <div class="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm" style="color:var(--zed-text-muted);"> <span class="inline-flex items-center gap-1"> <svg class="w-4 h-4" style="color:var(--zed-lime);" fill="currentColor" viewBox="0 0 20 20"> <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path> </svg> 0 stars
+</span> <span>Rust</span> <span>Unlicense</span> <span>Updated 3/31/2026</span> <span>schema v1</span> </div> <div class="mt-2 text-sm" style="color:var(--zed-text-muted);">
+by Alexis Purslane </div>  </div> </header> <main class="flex-1 max-w-4xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <article class="prose readme-prose max-w-none"><ul>
+<li>org-lsp for Zed
+:PROPERTIES:
+:CUSTOM_ID: org-lsp-for-zed
+:ID: f8146f41-b33c-422e-a998-f0671d2fd235
+:END:</li>
+</ul>
+<p>A Zed extension that provides Language Server Protocol (LSP) support for
+Org mode files.</p>
+<p>** Overview
+:PROPERTIES:
+:CUSTOM_ID: overview
+:ID: a4e5a37f-4399-48c4-b3e6-90769142a40b
+:END:</p>
+<p>This extension provides an LSP client for the [[<a href="https://github.com/alexispurslane/org-lsp%5D%5Borg-lsp">https://github.com/alexispurslane/org-lsp][org-lsp</a>]] language server,
+adding advanced IDE features to Org mode files in Zed:</p>
+<ul>
+<li><em>Navigation</em>: Go-to-definition for =file:= and =id:= links, document
+symbols, workspace symbols</li>
+<li><em>Completion</em>: Auto-completion for tags, file links, ID links, block
+types, export formats</li>
+<li><em>Hover</em>: Preview link destinations without leaving your current file</li>
+<li><em>Formatting</em>: Document formatting with proper spacing and alignment</li>
+<li><em>Folding</em>: Code folding for headings and sections</li>
+<li><em>Code Actions</em>: convert text into a link, add deadlines, clock in or out, add properties, add custom ids, transform heading trees into nested lists and vice versa, and more!</li>
+<li><em>Syntax Highlighting</em>: a vendored and updated version of <a href="https://github.com/emiasims/tree-sitter-org">https://github.com/emiasims/tree-sitter-org</a></li>
+</ul>
+<p>** Prerequisites
+:PROPERTIES:
+:CUSTOM_ID: prerequisites
+:ID: de65f775-2e7b-4200-9206-507ba3b120b6
+:END:</p>
+<p>*** 1. Install the Org Language Extension
+:PROPERTIES:
+:CUSTOM_ID: install-the-org-language-extension
+:ID: 8a91dbdc-0c92-487d-9fb7-883e383610b1
+:END:</p>
+<p>This extension provides LSP support only. You must also install the [[<a href="https://github.com/hron/zed-org%5D%5Borg">https://github.com/hron/zed-org][org</a>]]
+extension for syntax highlighting and Tree-sitter support:
+#+BEGIN_EXAMPLE
+zed: install extension org
+#+END_EXAMPLE</p>
+<p>Or search for "org" in the Zed extension gallery (by hron).</p>
+<p>*** 2. Install the org-lsp Binary
+:PROPERTIES:
+:CUSTOM_ID: install-the-org-lsp-binary
+:ID: 75161fa8-c4f9-4a75-894f-8c5f4c552054
+:END:</p>
+<p>This extension requires the [[<a href="https://github.com/alexispurslane/org-lsp%5D%5Borg-lsp">https://github.com/alexispurslane/org-lsp][org-lsp</a>]] binary to be installed and
+available in your PATH.</p>
+<p><em>From source:</em>
+#+BEGIN_EXAMPLE
+git clone <a href="https://github.com/alexispurslane/org-lsp.git">https://github.com/alexispurslane/org-lsp.git</a>
+cd org-lsp
+just install  # Installs to ~/.local/bin/org-lsp
+#+END_EXAMPLE</p>
+<p>Ensure=~/.local/bin= is in your PATH.</p>
+<p><em>Requirements:</em></p>
+<ul>
+<li>Go 1.25.6 or later</li>
+<li>=just= task runner (=cargo install just=)</li>
+</ul>
+<p>** Installation
+:PROPERTIES:
+:CUSTOM_ID: installation
+:ID: b3f0a6db-9688-42d2-bb18-2775dc26827c
+:END:</p>
+<p>This extension is not yet published in the Zed extension gallery. Install
+it as a dev extension:</p>
+<ol>
+<li>Clone this repository</li>
+<li>Build the extension: =cargo build --target wasm32-wasi=</li>
+<li>In Zed, run =zed: install dev extension=</li>
+<li>Select the =org-lsp-zed= directory</li>
+</ol>
+<p>** Configuration
+:PROPERTIES:
+:CUSTOM_ID: configuration
+:ID: 1711d76c-ccf4-4e2c-9e4c-914bf8f95ae5
+:END:</p>
+<p>You can configure the LSP settings in your Zed=settings.json=:
+#+BEGIN_SRC json
+{
+"lsp": {
+"org-lsp": {
+"settings": {}
+}
+}
+}
+#+END_SRC</p>
+<p>** How It Works
+:PROPERTIES:
+:CUSTOM_ID: how-it-works
+:ID: 68350c49-a181-4d5e-bca1-dbb47152d210
+:END:</p>
+<p>This extension is designed to complement the existing [[<a href="https://github.com/hron/zed-org%5D%5Borg">https://github.com/hron/zed-org][org</a>]] extension
+(which provides syntax highlighting and grammar support). It:</p>
+<ol>
+<li>Detects when you open an =.org= file</li>
+<li>Checks if =org-lsp= is available in your PATH</li>
+<li>Starts the language server with stdio communication</li>
+<li>Provides all LSP features (go-to-def, completion, hover, etc.)</li>
+</ol>
+<p>** Troubleshooting
+:PROPERTIES:
+:CUSTOM_ID: troubleshooting
+:ID: a3dd27c8-b427-4531-9184-c646dd313181
+:END:</p>
+<p><em>"org-lsp not found in PATH"</em></p>
+<p>Make sure [[<a href="https://github.com/alexispurslane/org-lsp%5D%5Borg-lsp">https://github.com/alexispurslane/org-lsp][org-lsp</a>]] is installed and in your PATH. You can verify by
+running:
+#+BEGIN_EXAMPLE
+which org-lsp
+org-lsp --version
+#+END_EXAMPLE</p>
+<p><em>No LSP features working</em></p>
+<ul>
+<li>Check Zed LSP logs: =zed: open log=</li>
+<li>Ensure you have both the [[<a href="https://github.com/hron/zed-org%5D%5Borg">https://github.com/hron/zed-org][org</a>]] extension (for language support) and
+=org-lsp= extension installed</li>
+</ul>
+<p>** Development
+:PROPERTIES:
+:CUSTOM_ID: development
+:ID: 86b294f0-3605-42a0-818a-e17332e80835
+:END:</p>
+<p>#+BEGIN_EXAMPLE</p>
+<h1 id="user-content-clone-the-repository"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#clone-the-repository"><span class="heading-anchor-icon">#</span></a>Clone the repository</h1>
+<p>git clone <a href="https://github.com/alexispurslane/org-lsp-zed.git">https://github.com/alexispurslane/org-lsp-zed.git</a>
+cd org-lsp-zed</p>
+<h1 id="user-content-build-the-extension"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#build-the-extension"><span class="heading-anchor-icon">#</span></a>Build the extension</h1>
+<p>cargo build --target wasm32-wasi</p>
+<h1 id="user-content-install-as-dev-extension-in-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#install-as-dev-extension-in-zed"><span class="heading-anchor-icon">#</span></a>Install as dev extension in Zed</h1>
+<h1 id="user-content-run-zed-install-dev-extension-and-select-this-directory"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#run-zed-install-dev-extension-and-select-this-directory"><span class="heading-anchor-icon">#</span></a>Run: zed: install dev extension and select this directory</h1>
+<p>#+END_EXAMPLE</p>
+<p>** License
+:PROPERTIES:
+:CUSTOM_ID: license
+:ID: f471bd6f-7245-4336-a78c-adf9d4ba285e
+:END:</p>
+<p>This is free and unencumbered software released into the public domain.
+See [[./UNLICENSE][UNLICENSE]] for details.</p></article> </main> <footer class="mt-auto" style="background:var(--zed-bg);border-top:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:var(--zed-text-muted);">
+← Back to extension list
+</a> </div> </footer> </body></html>

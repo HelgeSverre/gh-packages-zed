@@ -1,0 +1,11 @@
+id = "mcp-proxy"
+name = "MCP Proxy"
+description = "Expose your Zed workspace as an MCP server for external AI clients (Claude Desktop, local LLMs, etc.)"
+version = "0.1.0"
+schema_version = 1
+authors = ["Denis Fedosov-Ledovskikh"]
+repository = "https://github.com/denisfl/zed-mcp"
+
+[[context_servers]]
+id = "mcp-proxy"
+name = "MCP Proxy Server"

@@ -1,0 +1,24 @@
+id = "atmos"
+name = "Atmos"
+version = "0.3.0"
+schema_version = 1
+authors = ["James Gibbard <jgibbard@gmail.com>"]
+description = "Atmos stack configuration support with import resolution, inheritance navigation, and best-practice hints"
+repository = "https://github.com/jgibbarduk/zed-atmos-extension"
+
+[[capabilities]]
+kind = "process:exec"
+command = "atmos-lsp-bridge"
+args = []
+
+[grammars.yaml]
+repository = "https://github.com/tree-sitter-grammars/tree-sitter-yaml"
+rev = "b733d3f5f5005890f324333dd57e1f0badec5c87"
+
+[grammars.gotmpl]
+repository = "https://github.com/ngalaiko/tree-sitter-go-template"
+rev = "aa71f63de226c5592dfbfc1f29949522d7c95fac"
+
+[language_servers.atmos-lsp-bridge]
+name = "Atmos LSP Bridge"
+languages = ["Atmos"]

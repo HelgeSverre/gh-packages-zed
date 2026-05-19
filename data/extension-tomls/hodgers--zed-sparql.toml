@@ -1,0 +1,15 @@
+id = "sparql"
+name = "SPARQL"
+version = "0.0.1"
+schema_version = 1
+authors = ["Tom Hodgkinson <hodgers@gmail.com>"]
+description = "RDF query language"
+repository = "https://github.com/hodgers/zed-sparql"
+
+[grammars.sparql]
+repository = "https://github.com/GordianDziwis/tree-sitter-sparql"
+commit = "1ef52d35a73a2a5f2e433ecfd1c751c1360a923b"
+
+[language_servers.sparql]
+name = "SPARQL Langserver"
+language = "SPARQL"

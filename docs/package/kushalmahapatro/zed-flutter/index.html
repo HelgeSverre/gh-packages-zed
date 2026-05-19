@@ -1,0 +1,222 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Flutter — Zed Extension Safari</title><meta name="description" content="Flutter plugin for zed"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Flutter — Zed Extension Safari"><meta property="og:description" content="Flutter plugin for zed"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Flutter — Zed Extension Safari"><meta name="twitter:description" content="Flutter plugin for zed"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.DJSXA_CW.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);">  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-4"> <a href="/gh-packages-zed" class="transition" style="color:var(--zed-text-muted);">← All extensions</a> </nav> <div class="flex flex-wrap items-start justify-between gap-4"> <div class="min-w-0"> <div class="font-mono text-xs mb-2" style="color:var(--zed-muted);"> kushalmahapatro/zed-flutter </div> <h1 class="text-2xl sm:text-3xl font-bold break-words leading-tight" style="color:var(--zed-blue-pale);"> Flutter </h1> <p class="mt-2 text-pretty" style="color:var(--zed-text-muted);"> Flutter run/debug integration. Install the Dart extension for the Dart/Flutter language server and debug adapter. This extension adds a flutter debug locator (device resolution from flutter devices and .zed/flutter_device_id) plus example tasks/debug presets in the repo. Wire other flutter/dart subcommands with .zed/tasks.json. </p> </div> <a href="https://github.com/kushalmahapatro/zed-flutter" target="_blank" rel="noopener" class="zed-btn-primary shrink-0 inline-flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View on GitHub
+</a> </div> <div class="mt-4 flex flex-wrap items-center gap-2"> <span class="version-pill">v0.3.3</span> <span class="cat-badge" data-cat="theme">Theme</span> </div> <div class="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm" style="color:var(--zed-text-muted);"> <span class="inline-flex items-center gap-1"> <svg class="w-4 h-4" style="color:var(--zed-lime);" fill="currentColor" viewBox="0 0 20 20"> <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path> </svg> 0 stars
+</span> <span>Rust</span> <span>MIT</span> <span>Updated 4/25/2026</span> <span>schema v1</span> </div> <div class="mt-2 text-sm" style="color:var(--zed-text-muted);">
+by Kushal </div>  </div> </header> <main class="flex-1 max-w-4xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <article class="prose readme-prose max-w-none"><h1 id="user-content-flutter-zed-extension"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#flutter-zed-extension"><span class="heading-anchor-icon">#</span></a>Flutter (Zed extension)</h1>
+<p>Companion extension for <a href="https://flutter.dev/">Flutter</a> in <a href="https://zed.dev/">Zed</a>. It does <strong>not</strong> replace the official <a href="https://github.com/zed-extensions/dart">Dart</a> extension: install <strong>Dart</strong> first for the Dart analyzer/LSP on <code>.dart</code> files and for the <strong>Dart</strong> debug adapter (<code>flutter debug_adapter</code> / <code>dart debug_adapter</code>). That adapter is what implements breakpoints, stepping, variables, and isolate/thread presentation in Zed's debugger UI.</p>
+<p>This <strong>Flutter</strong> extension adds:</p>
+<ul>
+<li><strong><code>flutter</code> debug locator</strong> — When you start a debug session from a <strong>task</strong> such as <code>flutter run</code>, <code>fvm flutter run</code>, <code>flutter test …</code>, or <code>fvm flutter test …</code>, Zed can offer a matching scenario that targets the <strong>Dart</strong> adapter with <code>"type": "flutter"</code>. Device flags on the task (<code>-d</code> / <code>--device-id</code>) and entrypoint (<code>-t</code> / <code>--target</code>) are carried into the launch config when present. If the task omits <code>-d</code>, the locator picks a device from <code>flutter devices --machine</code> (run in the task <code>cwd</code> so FVM resolves the right SDK), preferring the id stored in <strong><code>.zed/flutter_device_id</code></strong> (first line) when that id is still available; otherwise it uses the first supported device in the machine list.</li>
+<li><strong>Example launch presets</strong> — See <a href="https://github.com/kushalmahapatro/zed-flutter/blob/HEAD/examples/zed-debug.example.json" target="_blank" rel="noopener"><code>examples/zed-debug.example.json</code></a>. Copy entries into your project's <a href="https://zed.dev/docs/debugger.html#getting-started"><code>.zed/debug.json</code></a> (or use the global <code>debug.json</code> from the command palette: <strong>zed: open debug tasks</strong>).</li>
+<li><strong>Device selection</strong> — Debug.json presets for common targets, plus automatic device resolution from <code>.zed/flutter_device_id</code> and <code>flutter devices --machine</code> when tasks omit <code>-d</code>.</li>
+<li><strong>Hot reload</strong> — Example keybindings and tasks (see examples); prefer the Dart debug adapter’s hot reload while a session is active where available.</li>
+<li><strong>DevTools</strong> — Example tasks to open DevTools in the browser or as a local server, plus device listing tasks.</li>
+<li><strong>Common Flutter tasks</strong> — Examples for <code>flutter pub get</code>, <code>flutter clean</code>, <code>flutter doctor</code>, etc.</li>
+<li><strong>Keymap examples</strong> — Starter bindings in <a href="https://github.com/kushalmahapatro/zed-flutter/blob/HEAD/examples/zed-keymap.example.json" target="_blank" rel="noopener"><code>examples/zed-keymap.example.json</code></a>.</li>
+</ul>
+<p>Zed does not yet support declaring another extension as a hard package dependency in <code>extension.toml</code>. Treat <strong>Dart + Flutter</strong> as the supported pair: without Dart, there is no analyzer and no <code>Dart</code> DAP for this locator to drive.</p>
+<h2 id="user-content-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation"><span class="heading-anchor-icon">#</span></a>Installation</h2>
+<h3 id="user-content-install-locally-dev-extension"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#install-locally-dev-extension"><span class="heading-anchor-icon">#</span></a>Install locally (dev extension)</h3>
+<ol>
+<li>Install <a href="https://rustup.rs/">Rust via rustup</a> and the Wasm target: <code>rustup target add wasm32-wasip1</code>.</li>
+<li>From this repo: <code>cargo build --release --target wasm32-wasip1</code>.</li>
+<li>In Zed: <strong>Extensions → Install Dev Extension</strong> (or command <strong>zed: install dev extension</strong>) and choose this directory.</li>
+</ol>
+<h3 id="user-content-publish-to-the-zed-registry"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#publish-to-the-zed-registry"><span class="heading-anchor-icon">#</span></a>Publish to the Zed registry</h3>
+<p>Follow <a href="https://zed.dev/docs/extensions/developing-extensions.html#publishing-your-extension">Developing Extensions → Publishing</a>: open a PR on <a href="https://github.com/zed-industries/extensions">zed-industries/extensions</a> adding this repo as a submodule and an entry in the top-level <code>extensions.toml</code>.</p>
+<h2 id="user-content-setup"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#setup"><span class="heading-anchor-icon">#</span></a>Setup</h2>
+<h3 id="user-content-1-install-the-dart-extension-first"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#1-install-the-dart-extension-first"><span class="heading-anchor-icon">#</span></a>1. Install the Dart extension first</h3>
+<p>Before using this extension, make sure you have the <strong><a href="https://github.com/zed-extensions/dart">Dart extension</a></strong> installed in Zed.</p>
+<h3 id="user-content-2-copy-example-configurations"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#2-copy-example-configurations"><span class="heading-anchor-icon">#</span></a>2. Copy example configurations</h3>
+<p>Copy the example files from this repo to your Flutter project's <code>.zed/</code> directory:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cp</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> examples/zed-debug.example.json</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> .zed/debug.json</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cp</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> examples/zed-tasks.example.json</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> .zed/tasks.json</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cp</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> examples/zed-keymap.example.json</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> .zed/keymap.json</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># optional richer device policy:</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cp</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> examples/zed-flutter-devices.example.json</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> .zed/flutter_devices.json</span></span></code></pre>
+<h3 id="user-content-2b-recommended-generate-flavor-aware-zed-files"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#2b-recommended-generate-flavor-aware-zed-files"><span class="heading-anchor-icon">#</span></a>2b. (Recommended) Generate flavor-aware Zed files</h3>
+<p>Use the bootstrap script to generate <code>.zed/tasks.json</code> and <code>.zed/debug.json</code> for your flavors:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">bash</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> scripts/zed-flutter-bootstrap.sh</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --flavors</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> dev,staging,prod</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --targets</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> dev:lib/main_dev.dart,staging:lib/main_staging.dart,prod:lib/main_prod.dart</span></span></code></pre>
+<p>The script auto-detects FVM when <code>.fvm/</code> exists (or force with <code>--fvm on</code> / <code>--fvm off</code>).</p>
+<p>For monorepos, you can target a package and optional melos scope:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">bash</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> scripts/zed-flutter-bootstrap.sh</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --melos</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --package-path</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> apps/mobile</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --package-name</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> mobile</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --flavors</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> dev,prod</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --targets</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> dev:lib/main_dev.dart,prod:lib/main_prod.dart</span></span></code></pre>
+<ul>
+<li><code>--package-path</code> sets task/debug <code>cwd</code> under <code>$ZED_WORKTREE_ROOT</code>.</li>
+<li><code>--melos</code> adds melos tasks and emits package-scoped commands.</li>
+<li><code>--package-name</code> scopes melos exec commands (when omitted, commands run directly in package <code>cwd</code>).</li>
+</ul>
+<h3 id="user-content-3-start-a-debug-session"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#3-start-a-debug-session"><span class="heading-anchor-icon">#</span></a>3. Start a debug session</h3>
+<p>Run <strong>debugger: start</strong> (or the debug panel <strong>+</strong>). Pick the <strong>Dart</strong> adapter, then a Flutter task or a configuration from <code>.zed/debug.json</code>. The Dart extension launches Google's Dart/Flutter DAP; Zed's debugger then supports the usual DAP features supported by that adapter (including breakpoints and isolate-related views where the client exposes them).</p>
+<h3 id="user-content-flutter-cli-in-zed-tasks-not-a-second-command-bus"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#flutter-cli-in-zed-tasks-not-a-second-command-bus"><span class="heading-anchor-icon">#</span></a>Flutter CLI in Zed: tasks, not a second command bus</h3>
+<p>Zed’s Wasm extension API does not let this extension register an open-ended list of <strong>command palette</strong> actions for every <code>flutter</code> / <code>dart</code> subcommand. The supported way to wire <strong>all</strong> of Flutter’s CLIs into the editor is <strong>tasks</strong>: define them in your project <a href="https://zed.dev/docs/tasks"><code>.zed/tasks.json</code></a> (or copy <a href="https://github.com/kushalmahapatro/zed-flutter/blob/HEAD/examples/zed-tasks.example.json" target="_blank" rel="noopener"><code>examples/zed-tasks.example.json</code></a> and adjust). You then run them via <strong>command palette</strong> → <strong>task: spawn</strong> / <strong>run task</strong> (or bind keys) and they execute in the integrated terminal with full shell behavior.</p>
+<p>What this <strong>Flutter</strong> extension <em>does</em> in Rust/Wasm: the <strong><code>flutter</code> debug locator</strong> and any subprocess it needs to resolve a device (for example <code>flutter devices --machine</code>, <code>fvm flutter …</code>, plus small shell helpers) — those are declared in <a href="https://github.com/kushalmahapatro/zed-flutter/blob/HEAD/extension.toml" target="_blank" rel="noopener"><code>extension.toml</code></a> under <code>[[capabilities]]</code> with <code>kind = "process:exec"</code> so Zed can allow them. Everything else you want (<code>flutter create</code>, <code>build</code>, <code>pub</code>, <code>analyze</code>, DevTools, and so on) is ordinary <strong>task</strong> definitions pointing at the same <code>flutter</code> / <code>dart</code> / <code>fvm</code> binaries you already have on your <code>PATH</code>.</p>
+<h2 id="user-content-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features"><span class="heading-anchor-icon">#</span></a>Features</h2>
+<h3 id="user-content-device-selection"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#device-selection"><span class="heading-anchor-icon">#</span></a>Device selection</h3>
+<p><strong>Automatic default (task has no <code>-d</code>):</strong></p>
+<ul>
+<li>Preferred config file: <code>.zed/flutter_devices.json</code></li>
+<li>Legacy fallback (still supported): <code>.zed/flutter_device_id</code> (first line only)</li>
+</ul>
+<p>The locator validates candidates against <code>flutter devices --machine</code> and picks the first available in this order:</p>
+<ol>
+<li><code>default_device_id</code> from <code>.zed/flutter_devices.json</code></li>
+<li><code>fallback_device_ids.&#x3C;os></code> list (where <code>&#x3C;os></code> is <code>linux</code>, <code>mac</code>, or <code>windows</code>)</li>
+<li><code>fallback_device_ids.all</code> list</li>
+<li><code>.zed/flutter_device_id</code> legacy value</li>
+<li>first supported device from <code>flutter devices --machine</code></li>
+</ol>
+<p>After resolving, it updates <code>.zed/flutter_devices.json</code> with the selected <code>default_device_id</code> and <code>last_seen</code> metadata from the machine device output.</p>
+<p><strong>Interactive picker:</strong> Copy <a href="https://github.com/kushalmahapatro/zed-flutter/blob/HEAD/scripts/zed-flutter-pick-device.sh" target="_blank" rel="noopener"><code>scripts/zed-flutter-pick-device.sh</code></a> into your repo (for example under <code>scripts/</code>) and run the example task <strong>Flutter: set default device for Zed debug</strong> (requires <code>python3</code> for parsing JSON). It writes both <code>.zed/flutter_device_id</code> and <code>.zed/flutter_devices.json</code>.</p>
+<p>Add <code>.zed/flutter_device_id</code> and <code>.zed/flutter_devices.json</code> to <code>.gitignore</code> if you do not want to commit local defaults.</p>
+<p><strong>Explicit device:</strong> Use <code>-d</code> / <code>--device-id</code> on the task, or keep using named presets in <code>.zed/debug.json</code>:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Preset</th><th>Device</th><th>Description</th></tr></thead><tbody><tr><td>Flutter: run on iPhone</td><td><code>iphone</code></td><td>Launch on iPhone simulator</td></tr><tr><td>Flutter: run on Android</td><td><code>android</code></td><td>Launch on Android emulator/device</td></tr><tr><td>Flutter: run on Linux</td><td><code>linux</code></td><td>Launch on Linux desktop</td></tr><tr><td>Flutter: run on Windows</td><td><code>windows</code></td><td>Launch on Windows desktop</td></tr><tr><td>Flutter: run on macOS</td><td><code>macos</code></td><td>Launch on macOS desktop</td></tr><tr><td>Flutter: run on Chrome</td><td><code>chrome</code></td><td>Launch on Chrome web</td></tr><tr><td>Flutter: run on Edge (web)</td><td><code>edge</code></td><td>Launch on Edge web</td></tr><tr><td>Flutter: run in release mode</td><td>N/A</td><td>Launch in release profile</td></tr><tr><td>Flutter: run in profile mode</td><td>N/A</td><td>Launch in profile (performance) mode</td></tr></tbody></table>
+<h3 id="user-content-hot-reload"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#hot-reload"><span class="heading-anchor-icon">#</span></a>Hot Reload</h3>
+<p>There are two ways to trigger hot reload:</p>
+<p><strong>Option 1: Keymap (recommended)</strong></p>
+<p>Press <code>Ctrl+S</code> (Linux/Windows) or <code>Cmd+S</code> (macOS) while editing Flutter files during a debug session. This is configured in <code>.zed/keymap.json</code>.</p>
+<p><strong>Option 2: Task</strong></p>
+<p>Run the <strong>Flutter: Hot Reload</strong> task from the command palette: <strong>zed: run task</strong> → <strong>Flutter: Hot Reload</strong>.</p>
+<h3 id="user-content-devtools-and-widget-tree"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#devtools-and-widget-tree"><span class="heading-anchor-icon">#</span></a>DevTools and widget tree</h3>
+<p>Zed extensions cannot host a native widget tree panel yet; use <strong>Flutter DevTools</strong> in the browser for the widget inspector, performance, logging, and network tools.</p>
+<p>Example tasks (see <a href="https://github.com/kushalmahapatro/zed-flutter/blob/HEAD/examples/zed-tasks.example.json" target="_blank" rel="noopener"><code>examples/zed-tasks.example.json</code></a>):</p>
+<ul>
+<li><strong>Flutter: Open DevTools in browser</strong> — runs <code>dart devtools</code> (opens a browser UI; connect to the VM service URL from your running app or from the debug session when prompted).</li>
+<li><strong>Flutter: Open DevTools (local server)</strong> — runs the DevTools server on port 9100.</li>
+<li><strong>Flutter: list devices</strong> / <strong>machine JSON</strong> — quick views of <code>flutter devices</code> output.</li>
+</ul>
+<p>You can bind a key in <code>.zed/keymap.json</code> to run a task or paste a terminal command (see <a href="https://github.com/kushalmahapatro/zed-flutter/blob/HEAD/examples/zed-keymap.example.json" target="_blank" rel="noopener"><code>examples/zed-keymap.example.json</code></a>).</p>
+<h3 id="user-content-common-flutter-tasks-examples"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#common-flutter-tasks-examples"><span class="heading-anchor-icon">#</span></a>Common Flutter tasks (examples)</h3>
+<p>The reference list lives in <a href="https://github.com/kushalmahapatro/zed-flutter/blob/HEAD/examples/zed-tasks.example.json" target="_blank" rel="noopener"><code>examples/zed-tasks.example.json</code></a>. It includes entries for <code>flutter pub</code>, <code>create</code>, <code>analyze</code>, <code>test</code>, <code>build</code> (APK, app bundle, iOS, web, Linux), <code>dart format</code> / <code>dart fix</code>, DevTools, <code>gen-l10n</code>, and a few <strong>FVM</strong> examples. All use <code>"cwd": "$ZED_WORKTREE_ROOT"</code> so they run in the project root. Add or duplicate tasks for anything else (for example <code>flutter drive</code>, custom flavors, or a <code>create my_app</code> run in a parent directory).</p>
+<p>Use the example task <strong>Flutter: bootstrap .zed tasks/debug</strong> to generate project-specific flavored configs quickly.</p>
+<h2 id="user-content-roadmap"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#roadmap"><span class="heading-anchor-icon">#</span></a>Roadmap</h2>
+<p>See <a href="https://github.com/kushalmahapatro/zed-flutter/blob/HEAD/ROADMAP.md" target="_blank" rel="noopener"><code>ROADMAP.md</code></a> for the v0.3 roadmap (milestones 1–4). See also <a href="https://github.com/kushalmahapatro/zed-flutter/blob/HEAD/RELEASING.md" target="_blank" rel="noopener"><code>RELEASING.md</code></a>.</p>
+<p><strong>CI locally:</strong> from the repo root run <code>./scripts/ci-check.sh</code> (Rust tests, wasm build, JSON checks, bootstrap smoke tests).</p>
+<h2 id="user-content-debugging-behavior"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#debugging-behavior"><span class="heading-anchor-icon">#</span></a>Debugging behavior</h2>
+<p>When you start a debug session, the Dart extension launches Google's Dart/Flutter DAP. Zed's debugger then supports the usual DAP features supported by that adapter, including breakpoints, stepping, variables, and isolate/thread presentation.</p>
+<h3 id="user-content-troubleshooting"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#troubleshooting"><span class="heading-anchor-icon">#</span></a>Troubleshooting</h3>
+<p><strong>Breakpoints not working?</strong></p>
+<ol>
+<li>Make sure the <strong>Dart extension</strong> is installed.</li>
+<li>Make sure your breakpoints are <strong>red</strong> (bound), not gray (unbound).</li>
+<li>Make sure the app has compiled before setting breakpoints.</li>
+<li>Check the <strong>Debug Console</strong> tab for any errors.</li>
+</ol>
+<p><strong>Can't see debug configurations?</strong></p>
+<ol>
+<li>Make sure you copied <code>zed-debug.example.json</code> to <code>.zed/debug.json</code>.</li>
+<li>Make sure the <code>"adapter"</code> is <code>"Dart"</code> (capital D), not <code>"dart"</code>.</li>
+</ol>
+<h2 id="user-content-directory-structure-of-a-zed-extension"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#directory-structure-of-a-zed-extension"><span class="heading-anchor-icon">#</span></a>Directory Structure of a Zed Extension</h2>
+<p>A Zed extension is a Git repository that contains an <code>extension.toml</code>. This file must contain some basic information about the extension:</p>
+<pre><code>my-extension/
+  extension.toml
+  Cargo.toml
+  src/
+    lib.rs
+  examples/
+    zed-debug.example.json
+    zed-tasks.example.json
+    zed-keymap.example.json
+</code></pre>
+<h2 id="user-content-webassembly"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#webassembly"><span class="heading-anchor-icon">#</span></a>WebAssembly</h2>
+<p>Procedural parts of extensions are written in Rust and compiled to WebAssembly. To develop an extension that includes custom code, include a <code>Cargo.toml</code> like this:</p>
+<pre><code>[package]
+name = "my-extension"
+version = "0.0.1"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+zed_extension_api = "0.1.0"
+</code></pre>
+<p>Use the latest version of the <code>zed_extension_api</code> available on crates.io. Make sure it's still compatible with Zed versions you want to support.</p>
+<p>In the <code>src/lib.rs</code> file in your Rust crate you will need to define a struct for your extension and implement the <code>Extension</code> trait, as well as use the <code>register_extension!</code> macro to register your extension:</p>
+<pre><code>use zed_extension_api as zed;
+
+struct MyExtension {
+    // ... state
+}
+
+impl zed::Extension for MyExtension {
+    // ...
+}
+
+zed::register_extension!(MyExtension);
+</code></pre>
+<p><code>stdout</code>/ <code>stderr</code> is forwarded directly to the Zed process. In order to see <code>println!</code>/ <code>dbg!</code> output from your extension, you can start Zed in your terminal with a <code>--foreground</code> flag.</p>
+<h2 id="user-content-extension-license-requirements"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#extension-license-requirements"><span class="heading-anchor-icon">#</span></a>Extension License Requirements</h2>
+<p>As of October 1st, 2025, extension repositories must include a license. The following licenses are accepted:</p>
+<ul>
+<li>Apache 2.0</li>
+<li>BSD 2-Clause</li>
+<li>BSD 3-Clause</li>
+<li>CC BY 4.0</li>
+<li>GNU GPLv3</li>
+<li>GNU LGPLv3</li>
+<li>MIT</li>
+<li>Unlicense</li>
+<li>zlib</li>
+</ul>
+<p>This allows us to distribute the resulting binary produced from your extension to our users. Without a valid license, the pull request to add or update your extension in the following steps will fail CI.</p>
+<p>Your license file should be at the root of your extension repository. Any filename that has <code>LICENCE</code> or <code>LICENSE</code> as a prefix (case insensitive) will be inspected to ensure it matches one of the accepted licenses.</p>
+<h2 id="user-content-notes-on-widget-tree-and-panels"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#notes-on-widget-tree-and-panels"><span class="heading-anchor-icon">#</span></a>Notes on widget tree and panels</h2>
+<p>The Zed extension API does not yet expose a first-class <strong>widget tree</strong> side panel for Flutter. Until it does, use <strong>DevTools → Widget Inspector</strong> while your app is running (or attached) for the full tree and property editing, and the <strong>Debug</strong> variables / console in Zed for breakpoint-time inspection.</p></article> </main> <footer class="mt-auto" style="background:var(--zed-bg);border-top:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:var(--zed-text-muted);">
+← Back to extension list
+</a> </div> </footer> </body></html>

@@ -1,0 +1,15 @@
+id = "fff-mcp"
+name = "FFF MCP"
+description = "Use fff file and grep search tools from Zed Agent Panel."
+version = "0.0.1"
+schema_version = 1
+authors = ["Dalton Alexandre"]
+repository = "https://github.com/dl-alexandre/zed-fff"
+
+[context_servers.fff]
+name = "FFF"
+
+[[capabilities]]
+kind = "process:exec"
+command = "*"
+args = ["--version"]

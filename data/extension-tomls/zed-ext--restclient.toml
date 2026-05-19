@@ -1,0 +1,25 @@
+id = "restclient"
+name = "REST Client"
+description = "HTTP client for testing REST APIs with .http files"
+version = "0.2.1"
+schema_version = 1
+authors = ["Tong Zhou"]
+repository = "https://github.com/zed-ext/restclient"
+languages = ["languages/http"]
+capabilities = []
+
+[lib]
+kind = "Rust"
+version = "0.7.0"
+
+[grammars.http]
+repository = "https://github.com/rest-nvim/tree-sitter-http"
+rev = "db8b4398de90b6d0b6c780aba96aaa2cd8e9202c"
+
+[language_servers.http-lsp]
+name = "HTTP LSP"
+language = "HTTP"
+
+[language_servers.http-lsp.language_ids]
+HTTP = "http"
+

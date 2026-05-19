@@ -1,0 +1,28 @@
+id = "plantuml-lsp"
+name = "PlantUML"
+version = "0.1.0"
+schema_version = 1
+description = "PlantUML support with tree-sitter highlighting and plantuml-lsp integration."
+repository = "https://github.com/nicoladen05/zed-plantuml"
+authors = ["Nico"]
+themes = []
+icon_themes = []
+languages = ["languages/plantuml"]
+capabilities = []
+
+[language_servers.plantuml-lsp]
+language = "PlantUML"
+languages = []
+
+[language_servers.plantuml-lsp.language_ids]
+PlantUML = "plantuml"
+
+[grammars.plantuml]
+repository = "https://github.com/lyndsysimon/tree-sitter-plantuml"
+rev = "fe25cf8592ea12ad6de00379a444d376ba32c7b5"
+
+[context_servers]
+
+[agent_servers]
+
+[slash_commands]

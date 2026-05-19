@@ -1,0 +1,252 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Xcode MCP Bundle — Zed Extension Safari</title><meta name="description" content="Zed extension that bundles Xcode 26.3+ mcpbridge tools and XcodeBuildMCP, exposing both as MCP context servers for agentic iOS/macOS development."><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Xcode MCP Bundle — Zed Extension Safari"><meta property="og:description" content="Zed extension that bundles Xcode 26.3+ mcpbridge tools and XcodeBuildMCP, exposing both as MCP context servers for agentic iOS/macOS development."><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Xcode MCP Bundle — Zed Extension Safari"><meta name="twitter:description" content="Zed extension that bundles Xcode 26.3+ mcpbridge tools and XcodeBuildMCP, exposing both as MCP context servers for agentic iOS/macOS development."><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.DJSXA_CW.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);">  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-4"> <a href="/gh-packages-zed" class="transition" style="color:var(--zed-text-muted);">← All extensions</a> </nav> <div class="flex flex-wrap items-start justify-between gap-4"> <div class="min-w-0"> <div class="font-mono text-xs mb-2" style="color:var(--zed-muted);"> tommyming/zed-xcode-mcp-bundle </div> <h1 class="text-2xl sm:text-3xl font-bold break-words leading-tight" style="color:var(--zed-blue-pale);"> Xcode MCP Bundle </h1> <p class="mt-2 text-pretty" style="color:var(--zed-text-muted);"> Bundle Xcode 26.3+ mcpbridge and XcodeBuildMCP into one Zed extension. </p> </div> <a href="https://github.com/tommyming/zed-xcode-mcp-bundle" target="_blank" rel="noopener" class="zed-btn-primary shrink-0 inline-flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View on GitHub
+</a> </div> <div class="mt-4 flex flex-wrap items-center gap-2"> <span class="version-pill">v0.1.2</span> <span class="cat-badge" data-cat="context-server">Context Server</span> </div> <div class="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm" style="color:var(--zed-text-muted);"> <span class="inline-flex items-center gap-1"> <svg class="w-4 h-4" style="color:var(--zed-lime);" fill="currentColor" viewBox="0 0 20 20"> <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path> </svg> 1 stars
+</span> <span>Rust</span> <span>Apache-2.0</span> <span>Updated 3/3/2026</span> <span>schema v1</span> </div> <div class="mt-2 text-sm" style="color:var(--zed-text-muted);">
+by Tommy Han </div>  </div> </header> <main class="flex-1 max-w-4xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <article class="prose readme-prose max-w-none"><h1 id="user-content-xcode-mcp-bundle"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#xcode-mcp-bundle"><span class="heading-anchor-icon">#</span></a>Xcode MCP Bundle</h1>
+<p>A Zed extension that bundles two MCP (Model Context Protocol) servers for Xcode development:</p>
+<div class="markdown-alert markdown-alert-note" dir="auto">
+<p class="markdown-alert-title" dir="auto"><svg class="octicon" viewBox="0 0 16 16" width="16" height="16"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>NOTE</p>
+<p>Xcode MCP Sever is only available from macOS 26.
+Xcode 26.3 is now released. Install Xcode 26.3+ and ensure it’s selected via <code>xcode-select</code> before enabling the MCP servers.
+Make sure Xcode is opened and MCP Server is available before using through this extension.</p>
+</div>
+<ul>
+<li><strong>xcode-mcp</strong>: Xcode 26.3+ MCP tools via <code>xcrun mcpbridge</code></li>
+<li><strong>xcodebuildmcp</strong>: XcodeBuildMCP via <code>npx -y xcodebuildmcp@latest mcp</code></li>
+</ul>
+<p>This extension performs <strong>automated preflight checks</strong> to ensure all prerequisites are met before starting each context server, providing clear error messages if dependencies are missing.</p>
+<h2 id="user-content-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation"><span class="heading-anchor-icon">#</span></a>Installation</h2>
+<p>Install this extension from the Zed marketplace or by adding it to your Zed configuration.</p>
+<h2 id="user-content-what-you-get"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#what-you-get"><span class="heading-anchor-icon">#</span></a>What You Get</h2>
+<h3 id="user-content-xcode-mcp"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#xcode-mcp"><span class="heading-anchor-icon">#</span></a>xcode-mcp</h3>
+<p>Exposes Xcode's built-in MCP tools when using Xcode 26.3 or later. This server provides deep integration with Xcode's development environment.</p>
+<h3 id="user-content-xcodebuildmcp"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#xcodebuildmcp"><span class="heading-anchor-icon">#</span></a>xcodebuildmcp</h3>
+<p>Provides XcodeBuildMCP functionality through npm, offering build and test capabilities for Xcode projects.</p>
+<h2 id="user-content-setup"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#setup"><span class="heading-anchor-icon">#</span></a>Setup</h2>
+<h3 id="user-content-xcode-mcp-setup"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#xcode-mcp-setup"><span class="heading-anchor-icon">#</span></a>xcode-mcp Setup</h3>
+<p>To use the <code>xcode-mcp</code> server:</p>
+<ol>
+<li>Install Xcode 26.3 or later</li>
+<li>Ensure the correct Xcode is selected via <code>xcode-select</code>:
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">xcode-select</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -p</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Should point to /Applications/Xcode.app or your chosen Xcode installation</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># If needed, set it with: sudo xcode-select -s /Applications/Xcode.app</span></span></code></pre>
+</li>
+<li>Open Xcode with your workspace or project</li>
+<li>In Xcode, go to <strong>Settings → Intelligence → Model Context Protocol</strong></li>
+<li>Enable "Xcode Tools"</li>
+<li>In Zed, open the Agent Panel → Context Servers</li>
+<li>Enable the <code>xcode-mcp</code> server</li>
+</ol>
+<h3 id="user-content-xcodebuildmcp-setup"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#xcodebuildmcp-setup"><span class="heading-anchor-icon">#</span></a>xcodebuildmcp Setup</h3>
+<p>To use the <code>xcodebuildmcp</code> server:</p>
+<ol>
+<li>Install Node.js from <a href="https://nodejs.org/">nodejs.org</a></li>
+<li>Verify <code>npx</code> is available:
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">npx</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --version</span></span></code></pre>
+</li>
+<li>In Zed, open the Agent Panel → Context Servers</li>
+<li>Enable the <code>xcodebuildmcp</code> server</li>
+</ol>
+<h2 id="user-content-error-messages-and-troubleshooting"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#error-messages-and-troubleshooting"><span class="heading-anchor-icon">#</span></a>Error Messages and Troubleshooting</h2>
+<p>This extension performs automated preflight checks before starting each context server. If a prerequisite is missing, you'll receive an immediate, clear error message. Here's how to resolve common issues:</p>
+<h3 id="user-content-xcode-mcp-errors"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#xcode-mcp-errors"><span class="heading-anchor-icon">#</span></a>xcode-mcp Errors</h3>
+<h4 id="user-content-error-xcode-263-is-required-mcpbridge-was-not-found"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#error-xcode-263-is-required-mcpbridge-was-not-found"><span class="heading-anchor-icon">#</span></a>Error: "Xcode 26.3+ is required: <code>mcpbridge</code> was not found"</h4>
+<p><strong>Cause</strong>: This error occurs during the extension's automated preflight check. You're using an older version of Xcode, or Xcode is not properly installed, or the wrong Xcode installation is selected.</p>
+<p><strong>Solution</strong>:</p>
+<ol>
+<li>
+<p>Verify Xcode 26.3+ is installed:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">xcrun</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --version</span></span></code></pre>
+<p>This should show version 26.3 or higher.</p>
+</li>
+<li>
+<p>Verify <code>mcpbridge</code> is available:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">xcrun</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --find</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> mcpbridge</span></span></code></pre>
+<p>This should return a path (e.g., <code>/Applications/Xcode.app/Contents/Developer/usr/bin/mcpbridge</code>).</p>
+</li>
+<li>
+<p>Check which Xcode is selected:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">xcode-select</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -p</span></span></code></pre>
+</li>
+<li>
+<p>If the wrong Xcode is selected, fix it:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">sudo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> xcode-select</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -s</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> /Applications/Xcode.app</span></span></code></pre>
+</li>
+<li>
+<p>Ensure Xcode is running with your project/workspace open before enabling the server.</p>
+</li>
+<li>
+<p>Verify Xcode Tools MCP is enabled in Xcode settings:</p>
+<ul>
+<li>Open Xcode → Settings → Intelligence → Model Context Protocol</li>
+<li>Make sure "Xcode Tools" is checked</li>
+</ul>
+</li>
+</ol>
+<h4 id="user-content-error-failed-to-start-xcode-mcp-server"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#error-failed-to-start-xcode-mcp-server"><span class="heading-anchor-icon">#</span></a>Error: "Failed to start xcode-mcp server"</h4>
+<p><strong>Possible causes</strong>:</p>
+<ul>
+<li>Xcode is not running</li>
+<li>Xcode Tools MCP is not enabled in Xcode settings</li>
+<li>Network or IPC issues between Zed and Xcode</li>
+</ul>
+<p><strong>Solutions</strong>:</p>
+<ol>
+<li>Make sure Xcode is open and has a project/workspace loaded</li>
+<li>Check that Xcode Tools MCP is enabled in Xcode settings</li>
+<li>Try restarting Xcode and then re-enabling the server in Zed</li>
+<li>Check Zed's logs for more detailed error messages</li>
+</ol>
+<h3 id="user-content-xcodebuildmcp-errors"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#xcodebuildmcp-errors"><span class="heading-anchor-icon">#</span></a>xcodebuildmcp Errors</h3>
+<h4 id="user-content-error-nodejs-npx-is-required-to-run-xcodebuildmcp-install-nodejs-and-ensure-npx-is-in-path"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#error-nodejs-npx-is-required-to-run-xcodebuildmcp-install-nodejs-and-ensure-npx-is-in-path"><span class="heading-anchor-icon">#</span></a>Error: "Node.js (npx) is required to run XcodeBuildMCP. Install Node.js and ensure <code>npx</code> is in PATH"</h4>
+<p><strong>Cause</strong>: This error occurs during the extension's automated preflight check. Node.js is not installed, or <code>npx</code> is not available in your PATH.</p>
+<p><strong>Solution</strong>:</p>
+<ol>
+<li>
+<p>Install Node.js from <a href="https://nodejs.org/">nodejs.org</a> (LTS version recommended)</p>
+</li>
+<li>
+<p>Verify Node.js installation:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">node</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --version</span></span></code></pre>
+</li>
+<li>
+<p>Verify <code>npx</code> is available:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">npx</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --version</span></span></code></pre>
+<p>This should print a version number.</p>
+</li>
+<li>
+<p>If <code>npx</code> is not found, you may need to restart your terminal or shell, or check your PATH:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">echo</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> $PATH</span></span></code></pre>
+<p>Ensure the Node.js bin directory (e.g., <code>/usr/local/bin</code> or <code>/opt/homebrew/bin</code>) is in your PATH.</p>
+</li>
+<li>
+<p>After fixing PATH, restart Zed and try enabling the server again.</p>
+</li>
+</ol>
+<h4 id="user-content-error-failed-to-start-xcodebuildmcp-server"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#error-failed-to-start-xcodebuildmcp-server"><span class="heading-anchor-icon">#</span></a>Error: "Failed to start xcodebuildmcp server"</h4>
+<p><strong>Possible causes</strong>:</p>
+<ul>
+<li>Network connectivity issues (npx needs to download the package)</li>
+<li>npm registry issues</li>
+<li>Temporary download failure</li>
+</ul>
+<p><strong>Solutions</strong>:</p>
+<ol>
+<li>
+<p>Test <code>npx</code> manually to see the actual error:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">npx</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -y</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> xcodebuildmcp@latest</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> mcp</span></span></code></pre>
+</li>
+<li>
+<p>Check your internet connection</p>
+</li>
+<li>
+<p>If you see npm registry errors, try clearing npm cache:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">npm</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> cache</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> clean</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --force</span></span></code></pre>
+</li>
+<li>
+<p>If you're behind a corporate firewall or proxy, you may need to configure npm to use your proxy:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">npm</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> config</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> set</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> proxy</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> http://proxy.company.com:port</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">npm</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> config</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> set</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> https-proxy</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> http://proxy.company.com:port</span></span></code></pre>
+</li>
+<li>
+<p>Check Zed's logs for more detailed error messages</p>
+</li>
+</ol>
+<h3 id="user-content-general-issues"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#general-issues"><span class="heading-anchor-icon">#</span></a>General Issues</h3>
+<h4 id="user-content-server-fails-to-start-with-no-clear-error-message"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#server-fails-to-start-with-no-clear-error-message"><span class="heading-anchor-icon">#</span></a>Server fails to start with no clear error message</h4>
+<p><strong>Solution</strong>:</p>
+<ol>
+<li>
+<p>Open Zed's logs to see detailed error messages:</p>
+<ul>
+<li>Press <code>Cmd+Shift+P</code> (macOS) or <code>Ctrl+Shift+P</code> (Linux/Windows)</li>
+<li>Type "zed: open log"</li>
+<li>Look for errors related to the context server</li>
+</ul>
+</li>
+<li>
+<p>Try manually running the command in a terminal to see what error occurs:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># For xcode-mcp</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">xcrun</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> mcpbridge</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># For xcodebuildmcp</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">npx</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -y</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> xcodebuildmcp@latest</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> mcp</span></span></code></pre>
+</li>
+<li>
+<p>If you find a bug or have an issue that's not covered here, please report it on GitHub:
+<a href="https://github.com/tommyming/zed-xcode-mcp-bundle/issues">https://github.com/tommyming/zed-xcode-mcp-bundle/issues</a></p>
+</li>
+</ol>
+<h2 id="user-content-tool-overlap-behavior"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#tool-overlap-behavior"><span class="heading-anchor-icon">#</span></a>Tool Overlap Behavior</h2>
+<p>Both servers may expose similar build and test capabilities. For best results, you can:</p>
+<ul>
+<li>Enable only the server you need for your current task</li>
+<li>Use different Zed Agent profiles for different workflows</li>
+</ul>
+<h3 id="user-content-suggested-agent-profiles"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#suggested-agent-profiles"><span class="heading-anchor-icon">#</span></a>Suggested Agent Profiles</h3>
+<p>You can create agent profiles in Zed's settings to quickly switch between server configurations:</p>
+<p><strong>Profile A: "Xcode MCP"</strong> (enable <code>xcode-mcp</code> only)</p>
+<ul>
+<li>Best for deep Xcode integration when working directly in Xcode</li>
+<li>Provides access to Xcode's internal tools and analysis</li>
+</ul>
+<p><strong>Profile B: "XcodeBuildMCP"</strong> (enable <code>xcodebuildmcp</code> only)</p>
+<ul>
+<li>Best for command-line build and test workflows</li>
+<li>Useful for CI/CD scripts and automation</li>
+</ul>
+<p><strong>Profile C: "iOS Full Stack"</strong> (enable both)</p>
+<ul>
+<li>Best when you want maximum tooling coverage</li>
+<li>Combines Xcode's deep integration with flexible build tools</li>
+</ul>
+<h2 id="user-content-requirements"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#requirements"><span class="heading-anchor-icon">#</span></a>Requirements</h2>
+<h3 id="user-content-for-xcode-mcp"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#for-xcode-mcp"><span class="heading-anchor-icon">#</span></a>For xcode-mcp</h3>
+<ul>
+<li>macOS</li>
+<li>Xcode 26.3 or later installed</li>
+<li>Xcode selected via <code>xcode-select</code></li>
+<li>Xcode running with a workspace or project open</li>
+<li>Xcode Tools MCP enabled in Xcode settings</li>
+</ul>
+<h3 id="user-content-for-xcodebuildmcp"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#for-xcodebuildmcp"><span class="heading-anchor-icon">#</span></a>For xcodebuildmcp</h3>
+<ul>
+<li>Node.js installed</li>
+<li><code>npx</code> available in PATH</li>
+<li>Internet connection (for downloading via npx)</li>
+</ul>
+<h2 id="user-content-development"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#development"><span class="heading-anchor-icon">#</span></a>Development</h2>
+<h3 id="user-content-preflight-checks"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#preflight-checks"><span class="heading-anchor-icon">#</span></a>Preflight Checks</h3>
+<p>The extension implements automated preflight checks that run before starting each context server:</p>
+<ul>
+<li><strong>xcode-mcp</strong>: Runs <code>xcrun --find mcpbridge</code> to verify Xcode 26.3+ is installed and accessible</li>
+<li><strong>xcodebuildmcp</strong>: Runs <code>npx --version</code> to verify Node.js and npx are available</li>
+</ul>
+<p>These checks provide immediate feedback if prerequisites are missing, saving you from debugging runtime errors.</p>
+<h3 id="user-content-building-the-extension"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#building-the-extension"><span class="heading-anchor-icon">#</span></a>Building the Extension</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> build</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --release</span></span></code></pre>
+<p>This will create a WebAssembly file that Zed can load.</p>
+<h3 id="user-content-local-testing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#local-testing"><span class="heading-anchor-icon">#</span></a>Local Testing</h3>
+<ol>
+<li>In Zed, press <code>Cmd+Shift+P</code> (macOS) or <code>Ctrl+Shift+P</code> (Linux/Windows)</li>
+<li>Type "zed: install dev extension"</li>
+<li>Navigate to this repository's directory</li>
+<li>Select the <code>extension.toml</code> file</li>
+</ol>
+<p>The extension will be loaded and you can test the context servers.</p>
+<h3 id="user-content-viewing-logs"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#viewing-logs"><span class="heading-anchor-icon">#</span></a>Viewing Logs</h3>
+<p>To view detailed logs for debugging:</p>
+<ol>
+<li>Press <code>Cmd+Shift+P</code> (macOS) or <code>Ctrl+Shift+P</code> (Linux/Windows)</li>
+<li>Type "zed: open log"</li>
+</ol>
+<p>Look for messages prefixed with <code>xcode-mcp-bundle</code> to see extension-specific logs.</p>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>Apache-2.0</p>
+<h2 id="user-content-repository"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#repository"><span class="heading-anchor-icon">#</span></a>Repository</h2>
+<p><a href="https://github.com/tommyming/zed-xcode-mcp-bundle">https://github.com/tommyming/zed-xcode-mcp-bundle</a></p>
+<h2 id="user-content-contributing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#contributing"><span class="heading-anchor-icon">#</span></a>Contributing</h2>
+<p>Contributions are welcome! Please feel free to submit pull requests or open issues for bugs and feature requests.</p></article> </main> <footer class="mt-auto" style="background:var(--zed-bg);border-top:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:var(--zed-text-muted);">
+← Back to extension list
+</a> </div> </footer> </body></html>

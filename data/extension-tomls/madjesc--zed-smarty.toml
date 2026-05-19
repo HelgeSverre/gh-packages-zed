@@ -1,0 +1,15 @@
+id = "smarty"
+name = "Smarty"
+version = "0.0.1"
+schema_version = 1
+authors = ["Madjesc <mauricio.291202@gmail.com>"]
+description = "Syntax highlighting and Intellisense for Smarty in Zed"
+repository = "https://github.com/Majdesc/zed-smarty"
+
+[grammars.smarty]
+repository = "https://github.com/Kibadda/tree-sitter-smarty"
+commit = "10d7ec727362b2978d686b544cee96568e297aae"
+
+[language_servers.vscode-smarty]
+name = "Smarty Language Server"
+language = "Smarty"

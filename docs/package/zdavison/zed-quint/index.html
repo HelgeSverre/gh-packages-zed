@@ -1,0 +1,71 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Quint — Zed Extension Safari</title><meta name="description" content="Quint syntax highlighting for the Zed editor"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Quint — Zed Extension Safari"><meta property="og:description" content="Quint syntax highlighting for the Zed editor"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Quint — Zed Extension Safari"><meta name="twitter:description" content="Quint syntax highlighting for the Zed editor"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.DJSXA_CW.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);">  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-4"> <a href="/gh-packages-zed" class="transition" style="color:var(--zed-text-muted);">← All extensions</a> </nav> <div class="flex flex-wrap items-start justify-between gap-4"> <div class="min-w-0"> <div class="font-mono text-xs mb-2" style="color:var(--zed-muted);"> zdavison/zed-quint </div> <h1 class="text-2xl sm:text-3xl font-bold break-words leading-tight" style="color:var(--zed-blue-pale);"> Quint </h1> <p class="mt-2 text-pretty" style="color:var(--zed-text-muted);"> Syntax highlighting and language server support for the Quint specification language. </p> </div> <a href="https://github.com/zdavison/zed-quint" target="_blank" rel="noopener" class="zed-btn-primary shrink-0 inline-flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View on GitHub
+</a> </div> <div class="mt-4 flex flex-wrap items-center gap-2"> <span class="version-pill">v0.2.0</span> <span class="cat-badge" data-cat="grammar">Grammar</span><span class="cat-badge" data-cat="language-server">Language Server</span> </div> <div class="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm" style="color:var(--zed-text-muted);"> <span class="inline-flex items-center gap-1"> <svg class="w-4 h-4" style="color:var(--zed-lime);" fill="currentColor" viewBox="0 0 20 20"> <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path> </svg> 1 stars
+</span> <span>Rust</span> <span>MIT</span> <span>Updated 5/5/2026</span> <span>schema v1</span> </div> <div class="mt-2 text-sm" style="color:var(--zed-text-muted);">
+by Zachary Davison </div>  </div> </header> <main class="flex-1 max-w-4xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <article class="prose readme-prose max-w-none"><h1 id="user-content-zed-quint"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#zed-quint"><span class="heading-anchor-icon">#</span></a>zed-quint</h1>
+<p>A <a href="https://zed.dev">Zed</a> extension for the <a href="https://quint-lang.org">Quint</a>
+specification language. Port of the official
+<a href="https://marketplace.visualstudio.com/items?itemName=informal.quint-vscode">VS Code Quint extension</a>.</p>
+<p>Activates on <code>.qnt</code> files and inside <code>```quint</code> fenced code blocks
+in markdown.</p>
+<h2 id="user-content-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features"><span class="heading-anchor-icon">#</span></a>Features</h2>
+<ul>
+<li><strong>Syntax highlighting</strong> — keywords, storage modifiers, builtin types,
+constants, operators, strings, numbers, comments. Plus capitalized
+identifiers (<code>OCR</code>, <code>IdentSuccess</code>, <code>Camera</code>) highlighted as types /
+sum constructors, prime-suffixed identifiers (<code>x'</code>), the <code>match</code>
+keyword, the <code>Map</code> type, and the <code>-></code> operator (all missing from the
+upstream TextMate grammar).</li>
+<li><strong>Diagnostics, hover, go-to-definition, completions, rename</strong> — via
+<a href="https://www.npmjs.com/package/@informalsystems/quint-language-server"><code>@informalsystems/quint-language-server</code></a>,
+the same LSP server the VS Code extension uses. If
+<code>quint-language-server</code> is on your <code>PATH</code> (e.g. via
+<code>npm install -g @informalsystems/quint-language-server</code>), that copy
+is used. Otherwise the extension installs the latest version into its
+own working directory on first open and launches it via Node.</li>
+<li><strong>Markdown injection</strong> — highlighting inside <code>```quint</code> fenced
+code blocks, including literate specs using
+<a href="https://github.com/driusan/lmt"><code>lmt</code></a>-style info strings like
+<code>```quint digger.qnt +=</code> (Zed matches the first word).</li>
+</ul>
+<p>The Tree-sitter grammar driving the highlighter is intentionally
+<a href="https://github.com/zdavison/tree-sitter-quint">shallow</a> (token-level only);
+deeper editor features (folding, outline) come from the LSP.</p>
+<h2 id="user-content-install"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#install"><span class="heading-anchor-icon">#</span></a>Install</h2>
+<p>Once published to the Zed extension registry: <code>cmd-shift-p</code> →
+<code>zed: extensions</code> → search for "Quint" → install.</p>
+<h2 id="user-content-install-dev"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#install-dev"><span class="heading-anchor-icon">#</span></a>Install (dev)</h2>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">git</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> clone</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> https://github.com/zdavison/zed-quint.git</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">cd</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> zed-quint</span></span></code></pre>
+<p>Then in Zed: <code>cmd-shift-p</code> → <code>zed: install dev extension</code> → pick the
+<code>zed-quint</code> directory. Zed will:</p>
+<ul>
+<li>clone the <a href="https://github.com/zdavison/tree-sitter-quint">grammar</a> at
+the <code>rev</code> pinned in <code>extension.toml</code> and compile it to wasm,</li>
+<li>compile the Rust extension shim (<code>src/quint.rs</code>) to wasm, and</li>
+<li>on first open of a <code>.qnt</code> file, install
+<code>@informalsystems/quint-language-server</code> via npm (skipped if the
+binary is already on your <code>PATH</code>).</li>
+</ul>
+<h2 id="user-content-layout"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#layout"><span class="heading-anchor-icon">#</span></a>Layout</h2>
+<pre><code>extension.toml                       # extension manifest, grammar pin, language server registration
+Cargo.toml                           # Rust extension crate (cdylib targeting wasm32-wasip1)
+src/quint.rs                         # launches quint-language-server (PATH first, npm fallback)
+languages/quint/config.toml          # path_suffixes, comment markers, brackets, autoclose
+languages/quint/highlights.scm       # tree-sitter highlight queries
+</code></pre>
+<h2 id="user-content-iterating-locally"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#iterating-locally"><span class="heading-anchor-icon">#</span></a>Iterating locally</h2>
+<ul>
+<li>Edits to <code>languages/quint/*.scm</code> or <code>config.toml</code> →
+<code>cmd-shift-p</code> → <code>zed: reload extensions</code>.</li>
+<li>Edits to <code>src/quint.rs</code> or <code>Cargo.toml</code> → reload extensions (Zed
+rebuilds the wasm).</li>
+<li>Edits to the grammar → push a new commit to <code>tree-sitter-quint</code>, bump
+the <code>rev</code> in <code>extension.toml</code>, then reload. If you change the grammar
+repository URL, delete <code>grammars/</code> first — Zed refuses to repoint an
+existing clone.</li>
+</ul>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>MIT. See <a href="https://github.com/zdavison/zed-quint/blob/HEAD/LICENSE" target="_blank" rel="noopener">LICENSE</a>.</p></article> </main> <footer class="mt-auto" style="background:var(--zed-bg);border-top:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:var(--zed-text-muted);">
+← Back to extension list
+</a> </div> </footer> </body></html>

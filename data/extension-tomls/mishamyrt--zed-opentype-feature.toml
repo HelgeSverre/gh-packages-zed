@@ -1,0 +1,11 @@
+name = "OpenType™ Feature"
+id = "opentype-feature-lang"
+schema_version = 1
+version = "0.1.0"
+description = "Syntax highlighting for OpenType Feature files (.fea)"
+authors = ["Mikhael Khrustik <misha@myrt.co>"]
+repository = "https://github.com/mishamyrt/zed-opentype-feature"
+
+[grammars.fea]
+repository = "https://github.com/mishamyrt/tree-sitter-opentype-fea"
+rev = "876a2106273b5d3957b51da5d314f99d8f172ce2"

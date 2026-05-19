@@ -1,0 +1,15 @@
+id = "fish-lsp"
+name = "Fish"
+description = "Fish shell language support with fish-lsp integration"
+version = "0.2.1"
+schema_version = 1
+authors = ["Alysson Souza <alysson@ll9.com.br>"]
+repository = "https://github.com/alysson-souza/zed-fish-lsp"
+
+[language_servers.fish-lsp]
+name = "fish-lsp"
+languages = ["Fish"]
+
+[grammars.fish]
+repository = "https://github.com/ram02z/tree-sitter-fish"
+commit = "fa2143f5d66a9eb6c007ba9173525ea7aaafe788"

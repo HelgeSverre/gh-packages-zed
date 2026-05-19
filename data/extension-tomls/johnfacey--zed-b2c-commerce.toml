@@ -1,0 +1,76 @@
+[extension]
+name = "B2C Commerce Cloud"
+description = "Salesforce Agentforce Commerce (B2C Commerce Cloud) development tools for Zed, including B2C CLI integration, SFRA/ISML support, and deployment management"
+version = "0.1.0"
+schema_version = 1
+authors = ["Salesforce Commerce Cloud Community"]
+repository = "https://github.com/salesforcecommercecloud/zed-b2c-commerce"
+
+[[grammars]]
+name = "ISML"
+language_ids = ["isml"]
+path = "grammars/isml.so"
+
+[[languages]]
+name = "ISML"
+grammar = "ISML"
+path_suffixes = ["isml"]
+auto_indent = "  "
+indent_query = """
+  [
+    (block_statement)
+    (pipe)
+    (object_shorthand)
+  ] @indent
+"""
+
+[[languages]]
+name = "SFRA JavaScript"
+grammar = "JavaScript"
+path_suffixes = ["js"]
+language_server = "node"
+
+[[snippets]]
+path = "snippets/b2c.json"
+
+[[tasks]]
+label = "B2C: Deploy Code"
+command = "b2c"
+args = ["code", "deploy"]
+use_new_terminal = true
+
+[[tasks]]
+label = "B2C: Activate Code Version"
+command = "b2c"
+args = ["code", "activate"]
+use_new_terminal = true
+
+[[tasks]]
+label = "B2C: Push MRT Bundle"
+command = "b2c"
+args = ["mrt", "bundle", "push"]
+use_new_terminal = true
+
+[[tasks]]
+label = "B2C: Deploy MRT Bundle"
+command = "b2c"
+args = ["mrt", "bundle", "deploy"]
+use_new_terminal = true
+
+[[tasks]]
+label = "B2C: Run Job"
+command = "b2c"
+args = ["job", "run"]
+use_new_terminal = true
+
+[[tasks]]
+label = "B2C: Import Site Archive"
+command = "b2c"
+args = ["job", "import"]
+use_new_terminal = true
+
+[[tasks]]
+label = "B2C: Export Site Data"
+command = "b2c"
+args = ["job", "export"]
+use_new_terminal = true

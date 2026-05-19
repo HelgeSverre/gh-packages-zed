@@ -1,0 +1,10 @@
+id = "mcp-server-playwright"
+name = "Playwright MCP Server"
+description = "Model Context Protocol Server for Playwright"
+version = "0.0.1"
+schema_version = 1
+authors = ["Karlo Medallo <karlo.medallo@outlook.com>"]
+repository = "https://github.com/karlomedallo/zed-playwright-mcp"
+
+[context_servers.mcp-server-playwright]
+name = "Playwright MCP Server"

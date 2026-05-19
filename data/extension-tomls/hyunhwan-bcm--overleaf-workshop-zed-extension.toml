@@ -1,0 +1,70 @@
+id = "overleaf-workshop-zed"
+name = "Overleaf Workshop (Zed)"
+version = "0.1.0"
+schema_version = 1
+authors = ["Overleaf Workshop Contributors", "Ported by Codex"]
+description = "Zed port of Overleaf Workshop, starting with Overleaf project access via slash commands."
+repository = "https://github.com/overleaf-workshop/Overleaf-Workshop"
+
+[lib]
+kind = "Rust"
+
+[slash_commands.overleaf-projects]
+description = "List Overleaf projects from a server URL + cookie header."
+requires_argument = false
+
+[slash_commands.overleaf-compile]
+description = "Compile an Overleaf project by project id using server URL + cookie header."
+requires_argument = false
+
+[slash_commands.overleaf-errors]
+description = "Compile an Overleaf project and summarize errors/warnings from output.log."
+requires_argument = false
+
+[slash_commands.overleaf-project-create]
+description = "Create a new Overleaf project (uses saved base URL/session context)."
+requires_argument = true
+
+[slash_commands.overleaf-project-rename]
+description = "Rename an Overleaf project by id or current context project id."
+requires_argument = true
+
+[slash_commands.overleaf-project-archive]
+description = "Archive an Overleaf project by id or current context project id."
+requires_argument = false
+
+[slash_commands.overleaf-project-unarchive]
+description = "Unarchive an Overleaf project by id or current context project id."
+requires_argument = false
+
+[slash_commands.overleaf-project-trash]
+description = "Move an Overleaf project to trash by id or current context project id."
+requires_argument = false
+
+[slash_commands.overleaf-project-untrash]
+description = "Restore an Overleaf project from trash by id or current context project id."
+requires_argument = false
+
+[slash_commands.overleaf-project-delete]
+description = "Disabled for safety. Use overleaf-project-trash instead."
+requires_argument = true
+
+[slash_commands.overleaf-set-context]
+description = "Set default server/project/session context for Overleaf commands."
+requires_argument = true
+
+[slash_commands.overleaf-set-base-url]
+description = "Set default Overleaf base URL."
+requires_argument = true
+
+[slash_commands.overleaf-set-project-id]
+description = "Set default Overleaf project id."
+requires_argument = true
+
+[slash_commands.overleaf-set-session]
+description = "Set default Overleaf session value or cookie header."
+requires_argument = true
+
+[slash_commands.overleaf-show-context]
+description = "Show current Overleaf base URL, project id, and masked session."
+requires_argument = false

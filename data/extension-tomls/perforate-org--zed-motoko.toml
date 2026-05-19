@@ -1,0 +1,19 @@
+id = "motoko"
+name = "Motoko"
+description = "Motoko and Candid support. Visit the repository for more information."
+version = "0.1.1"
+schema_version = 1
+authors = ["Yota Inomoto <yota@perforate.org>"]
+repository = "https://github.com/perforate-org/zed-motoko"
+
+[grammars.motoko]
+repository = "https://github.com/christoph-dfinity/tree-sitter-motoko"
+rev = "61330bf575122b4a6298fc653f0c019c7bd8103a"
+
+[grammars.candid]
+repository = "https://github.com/perforate-org/tree-sitter-candid"
+rev = "dfbc37c442614279b3ef90bd449fd90ed9e87ec9"
+
+[language_servers.motoko-language-server]
+name = "Motoko Language Server"
+languages = ["Motoko"]

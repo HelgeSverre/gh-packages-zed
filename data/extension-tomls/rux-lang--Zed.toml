@@ -1,0 +1,12 @@
+id = "rux"
+name = "Rux"
+version = "0.1.0"
+schema_version = 1
+authors = ["Ivan Muzyka"]
+description = "Rux language support"
+repository = "https://github.com/rux-lang/Zed"
+
+
+[grammars.rux]
+repository = "https://github.com/rux-lang/Zed"
+rev = "75b233c08fbbee21ddcf537dce5a75acb50df330"

@@ -1,0 +1,10 @@
+id = "mcp-server-jina"
+name = "Jina AI MCP Server"
+description = "Jina AI MCP Server for Zed - web search, URL reading, academic paper search, reranking, and more"
+version = "0.1.0"
+schema_version = 1
+authors = ["Hans Doebel <hansdev@mailbox.org>"]
+repository = "https://github.com/hansdoebel/zed-mcp-jina-ai"
+
+[context_servers.mcp-server-jina]
+name = "Jina AI MCP Server"

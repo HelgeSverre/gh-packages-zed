@@ -1,0 +1,419 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Auto File Header — Zed Extension Safari</title><meta name="description" content="A Zed extension that inserts a customizable file header (Filename, Author, Date, Copyright) automatically when you create a new, empty file."><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Auto File Header — Zed Extension Safari"><meta property="og:description" content="A Zed extension that inserts a customizable file header (Filename, Author, Date, Copyright) automatically when you create a new, empty file."><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Auto File Header — Zed Extension Safari"><meta name="twitter:description" content="A Zed extension that inserts a customizable file header (Filename, Author, Date, Copyright) automatically when you create a new, empty file."><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.DJSXA_CW.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);">  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-4"> <a href="/gh-packages-zed" class="transition" style="color:var(--zed-text-muted);">← All extensions</a> </nav> <div class="flex flex-wrap items-start justify-between gap-4"> <div class="min-w-0"> <div class="font-mono text-xs mb-2" style="color:var(--zed-muted);"> MrAMS/zed-auto-file-header </div> <h1 class="text-2xl sm:text-3xl font-bold break-words leading-tight" style="color:var(--zed-blue-pale);"> Auto File Header </h1> <p class="mt-2 text-pretty" style="color:var(--zed-text-muted);"> Automatically inserts file headers when creating new files. Zero dependencies - downloads pre-built binaries automatically. Needs .auto-header.toml config. </p> </div> <a href="https://github.com/MrAMS/zed-auto-file-header" target="_blank" rel="noopener" class="zed-btn-primary shrink-0 inline-flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View on GitHub
+</a> </div> <div class="mt-4 flex flex-wrap items-center gap-2"> <span class="version-pill">v0.3.0</span> <span class="cat-badge" data-cat="language-server">Language Server</span> </div> <div class="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm" style="color:var(--zed-text-muted);"> <span class="inline-flex items-center gap-1"> <svg class="w-4 h-4" style="color:var(--zed-lime);" fill="currentColor" viewBox="0 0 20 20"> <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path> </svg> 8 stars
+</span> <span>Rust</span> <span>MIT</span> <span>Updated 4/11/2026</span> <span>schema v1</span> </div> <div class="mt-2 text-sm" style="color:var(--zed-text-muted);">
+by MrAMS </div> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> file-header </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed-extension </span> </div> </div> </header> <main class="flex-1 max-w-4xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <article class="prose readme-prose max-w-none"><h1 id="user-content-auto-file-header-extension"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#auto-file-header-extension"><span class="heading-anchor-icon">#</span></a>Auto File Header Extension</h1>
+<p><a href="https://zed.dev/extensions/auto-file-header"><img src="https://img.shields.io/badge/Zed-Auto%20File%20Header-blue" alt="Zed extensions"></a> <a href="https://github.com/MrAMS/zed-auto-file-header/actions/workflows/ci.yml"><img src="https://github.com/MrAMS/zed-auto-file-header/actions/workflows/ci.yml/badge.svg?branch=master" alt="CI"></a></p>
+<p>A zero-dependency Zed extension that automatically inserts customizable file headers when you create new, empty files.</p>
+<p><strong>Repository:</strong> <a href="https://github.com/MrAMS/zed-auto-file-header">https://github.com/MrAMS/zed-auto-file-header</a></p>
+<p><a href="https://github.com/MrAMS/zed-auto-file-header/blob/HEAD/README_CN.md" target="_blank" rel="noopener">中文README</a></p>
+<h2 id="user-content-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation"><span class="heading-anchor-icon">#</span></a>Installation</h2>
+<ol>
+<li>Open Zed → Extensions panel (<code>Ctrl+Shift+P</code> → "zed: extensions")</li>
+<li>Search for "Auto File Header"</li>
+<li>Click Install</li>
+<li><strong>Create configuration file</strong> (required - see <a href="#-configuration">Configuration</a> section below)</li>
+<li>Restart Zed</li>
+</ol>
+<p>On first use, the extension automatically downloads the appropriate pre-built binary for your platform. You'll see "auto-header: Downloading..." in the status bar - this only happens once.</p>
+<h2 id="user-content-supported-languages"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#supported-languages"><span class="heading-anchor-icon">#</span></a>Supported Languages</h2>
+<p>The extension automatically recognizes and applies appropriate comment styles for <strong>50+ languages</strong>:</p>
+<ul>
+<li><strong>C-Style</strong>: C, C++, C#, Java, JavaScript, TypeScript, Rust, Go, Swift, Kotlin, Scala, Dart, Zig, D</li>
+<li><strong>Scripts</strong>: Python, PHP, Bash, Zsh, Fish, Ruby, Perl, R, Julia, Tcl, Nim, Crystal</li>
+<li><strong>Hardware</strong>: Verilog, SystemVerilog</li>
+<li><strong>Markup</strong>: HTML, XML, SVG</li>
+<li><strong>Styles</strong>: CSS, SCSS, SASS, LESS</li>
+<li><strong>Database</strong>: SQL</li>
+<li><strong>Config</strong>: YAML, TOML, INI</li>
+<li><strong>Functional</strong>: Lua, Haskell, Lisp, Scheme, Clojure, Erlang, Elixir, OCaml, F#, Racket, Gleam</li>
+<li><strong>Document</strong>: Typst, LaTeX, TeX, BibTeX</li>
+<li><strong>Systems</strong>: Odin</li>
+<li><strong>Editor</strong>: Vim script</li>
+</ul>
+<p><strong>See <a href="https://github.com/MrAMS/zed-auto-file-header/blob/HEAD/LANGUAGES.md" target="_blank" rel="noopener">LANGUAGES.md</a> for complete details and examples.</strong></p>
+<h2 id="user-content-configuration"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#configuration"><span class="heading-anchor-icon">#</span></a>Configuration</h2>
+<h3 id="user-content-configuration-file-auto-headertoml"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#configuration-file-auto-headertoml"><span class="heading-anchor-icon">#</span></a>Configuration File: <code>.auto-header.toml</code></h3>
+<p><strong>The extension only activates when a <code>.auto-header.toml</code> file exists.</strong> This file defines your author information, project details, and header templates.</p>
+<h3 id="user-content-configuration-priority-high-to-low"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#configuration-priority-high-to-low"><span class="heading-anchor-icon">#</span></a>Configuration Priority (High to Low)</h3>
+<p>The extension searches for <code>.auto-header.toml</code> in the following order and merges matching keys by priority, with earlier entries overriding later ones:</p>
+<ol>
+<li>
+<p><strong>Project Root</strong> (highest priority)</p>
+<ul>
+<li>Path: <code>./.auto-header.toml</code> (in your project's root directory)</li>
+<li>Use case: Project-specific headers with custom copyright, team info, etc.</li>
+</ul>
+</li>
+<li>
+<p><strong>Home Directory</strong></p>
+<ul>
+<li>Path: <code>~/.auto-header.toml</code></li>
+<li>Use case: User-wide default settings for all projects</li>
+</ul>
+</li>
+<li>
+<p><strong>Zed Config Directory</strong> (lowest priority)</p>
+<ul>
+<li>macOS: <code>~/.config/zed/auto-header.toml</code></li>
+<li>Windows: <code>%APPDATA%\Zed\auto-header.toml</code></li>
+<li>Linux/FreeBSD: <code>$XDG_CONFIG_HOME/zed/auto-header.toml</code></li>
+<li>Use case: Fallback location, traditional dotfile approach</li>
+</ul>
+</li>
+</ol>
+<p><strong>Recommendation</strong>:</p>
+<ul>
+<li>Use <strong>project root</strong> for team projects with specific copyright/license requirements</li>
+<li>Use <strong>Home Directory</strong>/<strong>Zed config directory</strong> for personal default settings across all projects</li>
+</ul>
+<h3 id="user-content-basic-configuration-example"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#basic-configuration-example"><span class="heading-anchor-icon">#</span></a>Basic Configuration Example</h3>
+<p>Create one of the above files with your information:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">[</span><span style="color:#B392F0;--shiki-dark:#B392F0">author</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">name = </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"Your Name"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">email = </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"your.email@example.com"</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">[</span><span style="color:#B392F0;--shiki-dark:#B392F0">project</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">name = </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"My Project"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">copyright_holder = </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"Your Company"</span><span style="color:#6A737D;--shiki-dark:#6A737D">  # Optional, defaults to author name</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">[</span><span style="color:#B392F0;--shiki-dark:#B392F0">header</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># The [header] section is OPTIONAL - if omitted, a default template will be used</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Write your template content WITHOUT comment markers!</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># The extension automatically wraps it with the correct format for each language.</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">template = </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"""</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">File: {filename}</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">Project: {project}</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">Author: {author} &#x3C;{email}></span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">Created: {date} {time}</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">Copyright (c) {year} {copyright_holder}</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">All rights reserved.</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"""</span></span></code></pre>
+<p><strong>Automatic Comment Wrapping</strong>: Simply write your template content <strong>once</strong> without any comment syntax. The extension intelligently wraps it with the correct format for each language:</p>
+<ul>
+<li><strong>C/Rust/Java/JavaScript</strong>: <code>/* ... */</code></li>
+<li><strong>PHP</strong>: <code>&#x3C;?php</code> + <code>/* ... */</code></li>
+<li><strong>Python</strong>: <code>""" ... """</code> (with UTF-8 encoding header)</li>
+<li><strong>Shell scripts</strong>: <code>#</code> (with automatic shebang like <code>#!/usr/bin/env bash</code>)</li>
+<li><strong>HTML</strong>: <code>&#x3C;!-- ... --></code></li>
+<li><strong>SQL</strong>: <code>--</code></li>
+<li><strong>Lua</strong>: <code>--[[ ... ]]</code></li>
+<li><strong>Verilog/SystemVerilog</strong>: <code>//</code></li>
+<li><strong>Tcl</strong>: <code>#</code></li>
+<li>And many more languages!</li>
+</ul>
+<p><strong>This makes your config portable and clean</strong> - write once, works everywhere!</p>
+<h3 id="user-content-template-variables"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#template-variables"><span class="heading-anchor-icon">#</span></a>Template Variables</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Variable</th><th>Description</th><th>Example</th></tr></thead><tbody><tr><td><code>{filename}</code></td><td>File name only</td><td><code>example.rs</code></td></tr><tr><td><code>{filepath}</code></td><td>Full file path</td><td><code>/home/user/project/example.rs</code></td></tr><tr><td><code>{date}</code></td><td>Current date</td><td><code>2025-11-24</code></td></tr><tr><td><code>{time}</code></td><td>Current time</td><td><code>19:30:00</code></td></tr><tr><td><code>{year}</code></td><td>Current year</td><td><code>2025</code></td></tr><tr><td><code>{author}</code></td><td>Author name from config</td><td><code>Your Name</code></td></tr><tr><td><code>{email}</code></td><td>Author email from config</td><td><code>your.email@example.com</code></td></tr><tr><td><code>{project}</code></td><td>Project name from config</td><td><code>My Project</code></td></tr><tr><td><code>{copyright_holder}</code></td><td>Copyright holder (defaults to author)</td><td><code>Your Company</code></td></tr><tr><td><code>{interpreter}</code></td><td>Script interpreter (for shebang)</td><td><code>python3</code>, <code>bash</code>, etc.</td></tr></tbody></table>
+<h3 id="user-content-open-source-license-support"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#open-source-license-support"><span class="heading-anchor-icon">#</span></a>Open Source License Support</h3>
+<p>You can easily customize the template to include open source licenses:</p>
+<p><strong>MIT License Example</strong>:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">[</span><span style="color:#B392F0;--shiki-dark:#B392F0">header</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">template = </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"""</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">File: {filename}</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">Author: {author} &#x3C;{email}></span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">Date: {date}</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">Copyright (c) {year} {copyright_holder}</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">Permission is hereby granted, free of charge, to any person obtaining a copy</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">of this software and associated documentation files (the "Software"), to deal</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">in the Software without restriction, including without limitation the rights</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">to use, copy, modify, merge, publish, distribute, sublicense, and/or sell</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">copies of the Software, and to permit persons to whom the Software is</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">furnished to do so, subject to the following conditions:</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">The above copyright notice and this permission notice shall be included in all</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">copies or substantial portions of the Software.</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"""</span></span></code></pre>
+<p><strong>Mozilla Public License (MPL-2.0) Example</strong>:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">[</span><span style="color:#B392F0;--shiki-dark:#B392F0">header</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">template = </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"""</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">File: {filename}</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">Author: {author}</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">This Source Code Form is subject to the terms of the Mozilla Public</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">License, v. 2.0. If a copy of the MPL was not distributed with this</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">file, You can obtain one at https://mozilla.org/MPL/2.0/.</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"""</span></span></code></pre>
+<p><strong>Apache License 2.0 Example</strong>:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">[</span><span style="color:#B392F0;--shiki-dark:#B392F0">header</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">template = </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"""</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">File: {filename}</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">Copyright {year} {copyright_holder}</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">Licensed under the Apache License, Version 2.0 (the "License");</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">you may not use this file except in compliance with the License.</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">You may obtain a copy of the License at</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">    http://www.apache.org/licenses/LICENSE-2.0</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">Unless required by applicable law or agreed to in writing, software</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">distributed under the License is distributed on an "AS IS" BASIS,</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"""</span></span></code></pre>
+<h3 id="user-content-per-language-template-override"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#per-language-template-override"><span class="heading-anchor-icon">#</span></a>Per-Language Template Override</h3>
+<p>You can override the default template for specific file extensions:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">[</span><span style="color:#B392F0;--shiki-dark:#B392F0">header</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">.</span><span style="color:#B392F0;--shiki-dark:#B392F0">by_extension</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">.</span><span style="color:#B392F0;--shiki-dark:#B392F0">py</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">template = </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"""</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">File: {filename}</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">Project: {project}</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">Author: {author} &#x3C;{email}></span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">Created: {date} {time}</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">Copyright (c) {year} {copyright_holder}</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"""</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">[</span><span style="color:#B392F0;--shiki-dark:#B392F0">header</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">.</span><span style="color:#B392F0;--shiki-dark:#B392F0">by_extension</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">.</span><span style="color:#B392F0;--shiki-dark:#B392F0">sh</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">template = </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"""</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">File: {filename}</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">Author: {author}</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">Date: {date}</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"""</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">[</span><span style="color:#B392F0;--shiki-dark:#B392F0">header</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">.</span><span style="color:#B392F0;--shiki-dark:#B392F0">by_extension</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">.</span><span style="color:#B392F0;--shiki-dark:#B392F0">html</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">template = </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"""</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">File: {filename}</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">Date: {date}</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"""</span></span></code></pre>
+<h3 id="user-content-complete-configuration-example"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#complete-configuration-example"><span class="heading-anchor-icon">#</span></a>Complete Configuration Example</h3>
+<p>See the included <a href="https://github.com/MrAMS/zed-auto-file-header/blob/HEAD/.auto-header.toml" target="_blank" rel="noopener"><code>.auto-header.toml</code></a> file in this repository for a complete example with multiple language overrides.</p>
+<h2 id="user-content-usage"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#usage"><span class="heading-anchor-icon">#</span></a>Usage</h2>
+<ol>
+<li><strong>Create a <code>.auto-header.toml</code> file</strong> in one of the locations mentioned above</li>
+<li><strong>Restart Zed</strong> (only needed after creating config for the first time)</li>
+<li><strong>Create a new file</strong> in Zed</li>
+<li><strong>Header is automatically inserted</strong> when you open an empty file</li>
+</ol>
+<p><strong>Note</strong>: Headers are only inserted into completely empty files. If a file already has content, no header will be added.</p>
+<h2 id="user-content-header-example"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#header-example"><span class="heading-anchor-icon">#</span></a>Header Example</h2>
+<p>With the basic configuration above, creating a new <code>example.rs</code> file will automatically insert:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">/*</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"> * File: example.rs</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"> * Project: My Project</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"> * Author: Your Name &#x3C;your.email@example.com></span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"> * Created: 2025-11-24 19:30:00</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"> *</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"> * Copyright (c) 2025 Your Company</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"> * All rights reserved.</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"> */</span></span></code></pre>
+<h2 id="user-content-troubleshooting"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#troubleshooting"><span class="heading-anchor-icon">#</span></a>Troubleshooting</h2>
+<h3 id="user-content-extension-not-working"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#extension-not-working"><span class="heading-anchor-icon">#</span></a>Extension not working</h3>
+<p><strong>Problem</strong>: Creating new files doesn't insert headers</p>
+<p><strong>Solutions</strong>:</p>
+<ol>
+<li>
+<p><strong>Check config file exists</strong>:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Check project root</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">ls</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -la</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> .auto-header.toml</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Check Zed config directory (Linux/macOS)</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">ls</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -la</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> ~/.config/zed/auto-header.toml</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Check home directory</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">ls</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -la</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> ~/.auto-header.toml</span></span></code></pre>
+</li>
+<li>
+<p><strong>Restart Zed</strong> after creating the config file for the first time</p>
+</li>
+<li>
+<p><strong>Ensure file is empty</strong>: Headers are only inserted into new, completely empty files</p>
+</li>
+<li>
+<p><strong>Check Zed logs</strong>:</p>
+<ul>
+<li><code>Ctrl+Shift+P</code> → "zed: open log"</li>
+<li>Look for "Auto File Header" messages</li>
+</ul>
+</li>
+</ol>
+<h3 id="user-content-download-failures"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#download-failures"><span class="heading-anchor-icon">#</span></a>Download failures</h3>
+<p><strong>Problem</strong>: Extension shows errors like "Failed to fetch release from GitHub"</p>
+<p><strong>Solutions</strong>:</p>
+<ol>
+<li>
+<p><strong>Check internet connection</strong>: Ensure you can access github.com</p>
+</li>
+<li>
+<p><strong>Wait and retry</strong>: GitHub API may have rate limits</p>
+</li>
+<li>
+<p><strong>Manual download</strong> (as fallback):</p>
+<ul>
+<li>Download binary from <a href="https://github.com/MrAMS/zed-auto-file-header/releases">Releases</a></li>
+<li>Place in your project directory with name:
+<ul>
+<li>Linux/macOS: <code>auto-header-server</code></li>
+<li>Windows: <code>auto-header-server.exe</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h3 id="user-content-first-time-download-status"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#first-time-download-status"><span class="heading-anchor-icon">#</span></a>First-time download status</h3>
+<p><strong>Expected behavior</strong>: On first use, you'll see "auto-header: Downloading..." in Zed's status bar for a few seconds. This only happens once as the binary (~2-3 MB) is downloaded and cached.</p>
+<h3 id="user-content-platform-not-supported"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#platform-not-supported"><span class="heading-anchor-icon">#</span></a>Platform not supported</h3>
+<p><strong>Problem</strong>: Error message "Unsupported platform"</p>
+<p><strong>Supported platforms</strong>:</p>
+<ul>
+<li>Linux: x86_64, ARM64 (aarch64)</li>
+<li>macOS: x86_64 (Intel), ARM64 (Apple Silicon)</li>
+<li>Windows: x86_64</li>
+</ul>
+<p>If your platform isn't supported, please <a href="https://github.com/MrAMS/zed-auto-file-header/issues">open an issue</a>.</p>
+<h3 id="user-content-headers-not-inserting-for-specific-languages"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#headers-not-inserting-for-specific-languages"><span class="heading-anchor-icon">#</span></a>Headers not inserting for specific languages</h3>
+<p><strong>Problem</strong>: Headers work for some files but not others</p>
+<p><strong>Solutions</strong>:</p>
+<ol>
+<li>
+<p><strong>Check file extension</strong>: Ensure your file extension is in the <a href="#-supported-languages">supported languages</a> list</p>
+</li>
+<li>
+<p><strong>Check built-in templates</strong>: Not all extensions have built-in templates, but you can add custom ones in <code>.auto-header.toml</code>:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">[</span><span style="color:#B392F0;--shiki-dark:#B392F0">header</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">.</span><span style="color:#B392F0;--shiki-dark:#B392F0">by_extension</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">.</span><span style="color:#B392F0;--shiki-dark:#B392F0">xyz</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">template = </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"""</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"># Your custom template for .xyz files</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"""</span></span></code></pre>
+</li>
+</ol>
+<h2 id="user-content-development"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#development"><span class="heading-anchor-icon">#</span></a>Development</h2>
+<h3 id="user-content-development-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#development-installation"><span class="heading-anchor-icon">#</span></a>Development Installation</h3>
+<p>For extension developers who want to modify or test the extension:</p>
+<ol>
+<li>
+<p>Clone the repository:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">git</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> clone</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> https://github.com/MrAMS/zed-auto-file-header.git</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">cd</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> zed-auto-file-header</span></span></code></pre>
+</li>
+<li>
+<p>Install as a dev extension in Zed:</p>
+<ul>
+<li>Open Zed</li>
+<li><code>Ctrl+Shift+P</code> → <code>zed: install dev extension</code></li>
+<li>Select the <code>extension</code> directory</li>
+</ul>
+</li>
+<li>
+<p>Create a config file:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cp</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> .auto-header.toml</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> ~/.auto-header.toml</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">nano</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> ~/.auto-header.toml</span><span style="color:#6A737D;--shiki-dark:#6A737D">   # Edit with your details</span></span></code></pre>
+</li>
+<li>
+<p>Restart Zed and test</p>
+</li>
+</ol>
+<p>Configuration changes take effect immediately (no rebuild needed).</p>
+<h3 id="user-content-project-structure"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#project-structure"><span class="heading-anchor-icon">#</span></a>Project Structure</h3>
+<pre><code>├── Cargo.toml              # Extension Rust code config
+├── .github/workflows/
+│   └── release.yml         # Automated cross-platform builds
+├── extension.toml          # Extension manifest
+├── src/lib.rs              # Binary download &#x26; LSP launcher
+└── server/                 # Language server (native)
+    ├── Cargo.toml
+    └── src/main.rs         # LSP server logic
+</code></pre>
+<h3 id="user-content-building-locally"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#building-locally"><span class="heading-anchor-icon">#</span></a>Building Locally</h3>
+<p><strong>Server binary:</strong></p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> build</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --release</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --package</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> auto-header-server</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Output: target/release/auto-header-server</span></span></code></pre>
+<p><strong>Extension Wasm:</strong></p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">rustup</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> target</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> add</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> wasm32-wasip1</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> build</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --release</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --package</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> auto-header-extension</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --target</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> wasm32-wasip1</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Output: target/wasm32-wasip1/release/auto_header_extension.wasm</span></span></code></pre>
+<h3 id="user-content-release-process"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#release-process"><span class="heading-anchor-icon">#</span></a>Release Process</h3>
+<p>Tags matching <code>v*</code> automatically trigger GitHub Actions to build binaries for all platforms and publish a release. See <a href="https://github.com/MrAMS/zed-auto-file-header/blob/HEAD/PUBLISHING.md" target="_blank" rel="noopener">PUBLISHING.md</a> for details.</p>
+<h2 id="user-content-architecture"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#architecture"><span class="heading-anchor-icon">#</span></a>Architecture</h2>
+<p>This extension uses an <strong>LSP Wrapper</strong> design:</p>
+<ol>
+<li>
+<p><strong>Zed Extension (Wasm)</strong>:</p>
+<ul>
+<li>Checks for cached/local <code>auto-header-server</code> binary</li>
+<li>Downloads from GitHub Releases if not found (with status indicator)</li>
+<li>Launches the LSP server</li>
+</ul>
+</li>
+<li>
+<p><strong>LSP Server (Native)</strong>:</p>
+<ul>
+<li>Listens for <code>didOpen</code> events</li>
+<li>Checks if file is empty and config exists</li>
+<li>Injects appropriate header template based on language</li>
+</ul>
+</li>
+</ol>
+<p>This architecture enables zero-dependency installation while maintaining full LSP capabilities.</p>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>MIT License © 2025 MrAMS</p>
+<h2 id="user-content-contributing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#contributing"><span class="heading-anchor-icon">#</span></a>Contributing</h2>
+<p>Issues and pull requests are welcome!</p>
+<p><strong>Repository:</strong> <a href="https://github.com/MrAMS/zed-auto-file-header">https://github.com/MrAMS/zed-auto-file-header</a></p></article> </main> <footer class="mt-auto" style="background:var(--zed-bg);border-top:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:var(--zed-text-muted);">
+← Back to extension list
+</a> </div> </footer> </body></html>

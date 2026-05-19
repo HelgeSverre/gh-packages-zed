@@ -1,0 +1,101 @@
+id = "codeowners-lsp"
+name = "CODEOWNERS LSP"
+description = "LSP-powered linting, formatting, ownership info, and syntax highlighting for GitHub CODEOWNERS files"
+version = "0.1.0"
+schema_version = 1
+authors = [
+  "Lukas Malkmus <mail@lukasmalkmus.com>",
+  "James Cleveland <jc@blit.cc>"
+]
+repository = "https://github.com/radiosilence/codeowners-zed"
+
+[lib]
+kind = "Rust"
+version = "0.7.0"
+
+[grammars.codeowners]
+repository = "https://github.com/lukasmalkmus/tree-sitter-codeowners"
+commit = "5fc25f72a44d2fe5b9218c712062dcec79dac87e"
+
+[language_servers.codeowners-lsp]
+name = "CODEOWNERS LSP"
+code_action_kinds = ["quickfix", "source.fixAll"]
+language_ids = { "CODEOWNERS" = "codeowners" }
+languages = [
+  # General Purpose
+  "Python",
+  "Go",
+  "C",
+  "Cpp",
+  "Java",
+  "Rust",
+  "Zig",
+  "Dart",
+  "Elixir",
+  "Erlang",
+  "Gleam",
+  "Groovy",
+  "Haskell",
+  "Julia",
+  "Kotlin",
+  "Nim",
+  "OCaml",
+  "PHP",
+  "PureScript",
+  "R",
+  "Racket",
+  "Roc",
+  "Ruby",
+  "Scala",
+  "Scheme",
+  "Uiua",
+  # Scripting
+  "Lua",
+  "Luau",
+  "Bash",
+  "Deno",
+  "Fish",
+  "GDScript",
+  "Rego",
+  # Web
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "TypeScript",
+  "TSX",
+  "Svelte",
+  "Astro",
+  "Vue",
+  "Elm",
+  # Markup
+  "Markdown",
+  "AsciiDoc",
+  "ReStructuredText",
+  "XML",
+  "Typst",
+  "LaTeX",
+  # Data serialization
+  "TOML",
+  "JSON",
+  "Jsonnet",
+  "YAML",
+  # Compiled
+  "Swift",
+  "CSharp",
+  # Configuration / Automation
+  "Ansible",
+  "Dockerfile",
+  "Makefile",
+  "Terraform",
+  # Other
+  "Clojure",
+  "GLSL",
+  "Prisma",
+  "Proto",
+  "Solidity",
+  # CODEOWNERS itself
+  "CODEOWNERS",
+  # Catch-all for unrecognized files
+  "Plain Text",
+  "Unknown"
+]

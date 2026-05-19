@@ -1,0 +1,14 @@
+id = "elixir-hex-lens"
+name = "Elixir Hex Lens"
+description = "Hover information and autocompletion for Hex packages in mix.exs files."
+version = "0.1.0"
+schema_version = 1
+authors = ["João Otávio Biondo <joao.otb@gmail.com>"]
+repository = "https://github.com/jotaviobiondo/elixir-hex-lens-zed"
+
+[language_servers.elixir-hex-lens]
+name = "Elixir Hex Lens"
+languages = ["Elixir"]
+
+[language_servers.elixir-hex-lens.language_ids]
+"Elixir" = "elixir"

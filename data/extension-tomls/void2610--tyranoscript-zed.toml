@@ -1,0 +1,15 @@
+id = "tyranoscript"
+name = "TyranoScript"
+description = "TyranoScript (.ks) language support for Zed"
+version = "0.1.1"
+schema_version = 1
+authors = ["void2610 <void2610@users.noreply.github.com>"]
+repository = "https://github.com/void2610/tyranoscript-zed"
+
+[language_servers.tyranoscript-lsp]
+name = "TyranoScript Language Server"
+languages = ["TyranoScript"]
+
+[grammars.tyranoscript]
+repository = "https://github.com/void2610/tree-sitter-tyranoscript"
+commit = "d2a61bb83d2d70d1713b8d11d803c6dc342e2198"

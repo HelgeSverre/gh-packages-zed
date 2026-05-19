@@ -1,0 +1,11 @@
+id = "guile"
+name = "Guile"
+version = "0.1.0"
+schema_version = 1
+authors = ["Chris G. <hey@imchris.me>"]
+description = "Guile support for Zed"
+repository = "https://github.com/csgui/zed-guile"
+
+[language_servers.guile-lsp-server]
+name = "Guile LSP Server"
+languages = ["Scheme"]

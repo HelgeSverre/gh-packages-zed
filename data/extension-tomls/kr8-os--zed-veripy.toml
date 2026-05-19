@@ -1,0 +1,12 @@
+id = "veripy"
+name = "VeriPy"
+version = "0.1.0"
+schema_version = 1
+authors = ["kr8tos <myths64metric@icloud.com>"]
+description = "Example extension" # FIXME(V): Add a description.
+repository = "https://github.com/kr8-os/zed-veripy.git"
+
+[language_servers.veripy]
+name = "VeriPy"
+language = "TOML"
+languages = ["TOML", "Python"]

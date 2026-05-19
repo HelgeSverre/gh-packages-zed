@@ -1,0 +1,11 @@
+id = "rasi"
+name = "RASI"
+version = "0.1.1"
+schema_version = 1
+description = "Syntax highlighting for RASI files"
+repository = "https://github.com/mikaeladev/zed-rasi"
+authors = ["mikaeladev <mikaeladev@icloud.com>"]
+
+[grammars.rasi]
+repository = "https://github.com/Fymyte/tree-sitter-rasi"
+rev = "e735c6881d8b475aaa4ef8f0a2bdfd825b438143"
