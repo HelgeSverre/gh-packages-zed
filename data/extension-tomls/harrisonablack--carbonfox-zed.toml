@@ -1,0 +1,11 @@
+id = "carbonfox"
+name = "Carbonfox"
+version = "1.0.0"
+schema_version = 1
+authors = ["Harrison Black <dev@harrison.black>"]
+description = "Zed implementation of EdenEasts carbonfox Theme"
+repository = "https://github.com/harrisonablack/carbonfox"
+
+[carbonfox]
+submodule = "extensions/carbonfox"
+version = "1.0.0"

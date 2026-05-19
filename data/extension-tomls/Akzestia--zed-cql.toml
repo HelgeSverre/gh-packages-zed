@@ -1,0 +1,16 @@
+id = "cql"
+name = "CQL"
+description = "CQL support."
+version = "3.0.0"
+schema_version = 1
+authors = ["Akzestia <akzestia@gmail.com>"]
+repository = "https://github.com/Akzestia/zed-cql"
+snippets = "snippets.json"
+
+[language_servers.cql]
+name = "cqlls"
+languages = ["CQL"]
+
+[grammars.cql]
+repository = "https://github.com/Akzestia/tree-sitter-cql"
+rev = "0e9cae37be89500a9b343bc52864c76c2186e34c"

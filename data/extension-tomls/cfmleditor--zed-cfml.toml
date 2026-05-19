@@ -1,0 +1,26 @@
+id = "cfml"
+name = "CFML"
+description = "CFML support."
+version = "0.2.19"
+schema_version = 1
+authors = ["Gareth Edwards <ghedwards@gmail.com>"]
+repository = "https://github.com/cfmleditor/zed-cfml"
+
+[language_servers.cfmleditor-lsp]
+name = "cfmleditor-lsp"
+languages = ["CFML (Tag)", "CFML (Script)", "CFML (Query)"]
+
+[grammars.cfml]
+repository = "https://github.com/cfmleditor/tree-sitter-cfml"
+rev = "6b4a43943c191950ee2c77f7b94cec5e903318a4"
+path = "./cfml"
+
+[grammars.cfscript]
+repository = "https://github.com/cfmleditor/tree-sitter-cfml"
+rev = "6b4a43943c191950ee2c77f7b94cec5e903318a4"
+path = "./cfscript"
+
+[grammars.cfquery]
+repository = "https://github.com/cfmleditor/tree-sitter-cfml"
+rev = "6b4a43943c191950ee2c77f7b94cec5e903318a4"
+path = "./cfquery"

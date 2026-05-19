@@ -1,0 +1,13 @@
+id = "coi"
+name = "Coi"
+version = "0.2.0"
+schema_version = 1
+authors = ["James Turner <james@calminferno.net>"]
+description = "Language support for Coi - a component-based language for high-performance web applications"
+repository = "https://github.com/jturner/zed-coi"
+
+languages = ["languages/coi"]
+
+[grammars.coi]
+repository = "https://github.com/jturner/tree-sitter-coi"
+rev = "3b8b4250473ba9ff1921f3bb6824016760e75a78"

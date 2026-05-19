@@ -1,0 +1,15 @@
+id = "c3"
+name = "C3"
+version = "0.0.3"
+schema_version = 1
+authors = ["Aiden Olsen <olsenaiden33@gmail.com>"]
+description = "This extension bring basic c3 language support to zed. NOTE: This extension is still a WIP!"
+repository = "https://github.com/AineeJames/c3-zed"
+
+[language_servers.c3]
+name = "c3"
+language = "C3"
+
+[grammars.c3]
+repository = "https://github.com/c3lang/tree-sitter-c3"
+rev = "0e4f7a008af55f3254e50b6b9e2e8936f55f7036"

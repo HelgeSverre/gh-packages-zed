@@ -1,0 +1,27 @@
+authors = ["Margret Riegert <margret@eowyn.net>"]
+description = "Syntax highlighting and LSP support for Crystal & ECR"
+id = "crystal"
+name = "Crystal"
+repository = "https://github.com/crystal-lang-tools/zed-crystal"
+schema_version = 1
+version = "0.0.5"
+
+[grammars.crystal]
+commit = "2af0dc12e65b98ea4c9737f645776277ef8d8f55"
+repository = "https://github.com/crystal-lang-tools/tree-sitter-crystal"
+
+[grammars.ecr]
+commit = "7cbfc5d1ced8572e8702174c86b20dd29a675da5"
+repository = "https://github.com/crystal-lang-tools/tree-sitter-ecr"
+
+[language_servers.crystalline]
+language = "Crystal"
+name = "crystalline"
+
+[language_servers.ameba-ls]
+language = "Crystal"
+name = "ameba-ls"
+
+[language_servers.liger]
+language = "Crystal"
+name = "liger"

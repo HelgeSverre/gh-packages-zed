@@ -74,54 +74,52 @@ async function fetchPage(query, page) {
 // Walk the official zed-industries/extensions registry. Each entry is a git
 // submodule pointing to the extension's source repo — pages of the contents
 // API give us the html_url for each submodule, from which we extract owner/repo.
-async function fetchRegistryPage(page, attempt = 1) {
-  const url = `https://api.github.com/repos/${OFFICIAL_REGISTRY_REPO}/contents/extensions?per_page=100&page=${page}`;
-  const response = await fetch(url, {
-    headers: {
-      Accept: "application/vnd.github+json",
-      "User-Agent": "zed-package-discovery",
-      ...(process.env.GITHUB_TOKEN && {
-        Authorization: `token ${process.env.GITHUB_TOKEN}`,
-      }),
-    },
-  });
-  if (!response.ok) {
-    throw new Error(`Registry contents fetch failed (page ${page}): ${response.status}`);
-  }
-  // Read as text first, then parse — bypasses native fetch's silent
-  // body truncation behavior when response is large.
-  const text = await response.text();
+async function fetchWithTimeout(url, options = {}, timeoutMs = 30000) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), timeoutMs);
   try {
-    return JSON.parse(text);
-  } catch (e) {
-    if (attempt < 3) {
-      await new Promise((r) => setTimeout(r, 500 * attempt));
-      return fetchRegistryPage(page, attempt + 1);
-    }
-    throw new Error(`Page ${page} JSON parse failed after ${attempt} attempts: ${e.message}`);
+    return await fetch(url, { ...options, signal: controller.signal });
+  } finally {
+    clearTimeout(timer);
   }
 }
 
+// Parse the .gitmodules file from the official registry repo. This is the
+// authoritative list of every Zed extension submodule, with their source URLs.
+// (The contents API caps at 1000 entries and won't paginate this endpoint.)
 async function fetchOfficialRegistry() {
-  const repoUrls = [];
-  const seen = new Set();
-  let page = 1;
-  while (true) {
-    const items = await fetchRegistryPage(page);
-    if (!Array.isArray(items) || items.length === 0) break;
-    for (const item of items) {
-      if (!item.html_url) continue;
-      const m = item.html_url.match(/github\.com\/([^\/]+)\/([^\/]+)/i);
-      if (!m) continue;
-      const key = `${m[1]}/${m[2]}`.toLowerCase();
-      if (seen.has(key)) continue;
-      seen.add(key);
-      repoUrls.push({ owner: m[1], repo: m[2], submoduleName: item.name });
-    }
-    if (items.length < 100) break;
-    page++;
+  const url = `https://raw.githubusercontent.com/${OFFICIAL_REGISTRY_REPO}/main/.gitmodules`;
+  const response = await fetchWithTimeout(
+    url,
+    { headers: { "User-Agent": "zed-package-discovery" } },
+    30000,
+  );
+  if (!response.ok) {
+    throw new Error(`.gitmodules fetch failed: ${response.status}`);
   }
-  return repoUrls;
+  const text = await response.text();
+  const entries = [];
+  const seen = new Set();
+  let currentName = null;
+  for (const rawLine of text.split(/\r?\n/)) {
+    const line = rawLine.trim();
+    const sectionMatch = line.match(/^\[submodule\s+"([^"]+)"\]$/);
+    if (sectionMatch) {
+      currentName = sectionMatch[1];
+      continue;
+    }
+    if (!currentName) continue;
+    const urlMatch = line.match(/^url\s*=\s*(.+)$/);
+    if (!urlMatch) continue;
+    const remote = urlMatch[1].trim().replace(/\.git$/, "");
+    const ownerRepo = remote.match(/github\.com[\/:]([^\/]+)\/([^\/\s]+)/i);
+    if (!ownerRepo) continue;
+    const key = `${ownerRepo[1]}/${ownerRepo[2]}`.toLowerCase();
+    if (seen.has(key)) continue;
+    seen.add(key);
+    entries.push({ owner: ownerRepo[1], repo: ownerRepo[2], submoduleName: currentName });
+  }
+  return entries;
 }
 
 // Hydrate registry entries we don't already have metadata for. Capped per run
@@ -143,15 +141,19 @@ async function fetchRegistryRepoMetadata(entries, existingByKey, maxPerRun = 200
     const settled = await Promise.allSettled(
       chunk.map(async ({ owner, repo }) => {
         const url = `https://api.github.com/repos/${owner}/${repo}`;
-        const response = await fetch(url, {
-          headers: {
-            Accept: "application/vnd.github+json",
-            "User-Agent": "zed-package-discovery",
-            ...(process.env.GITHUB_TOKEN && {
-              Authorization: `token ${process.env.GITHUB_TOKEN}`,
-            }),
+        const response = await fetchWithTimeout(
+          url,
+          {
+            headers: {
+              Accept: "application/vnd.github+json",
+              "User-Agent": "zed-package-discovery",
+              ...(process.env.GITHUB_TOKEN && {
+                Authorization: `token ${process.env.GITHUB_TOKEN}`,
+              }),
+            },
           },
-        });
+          15000,
+        );
         if (response.status === 404) return null;
         if (response.status === 403) {
           stoppedEarly = true;

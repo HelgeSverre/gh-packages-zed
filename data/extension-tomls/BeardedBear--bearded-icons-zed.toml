@@ -1,0 +1,12 @@
+schema_version = 1
+id = "bearded-icons"
+name = "Bearded Icons"
+version = "1.0.0"
+description = "The icons with a long beard"
+authors = ["BeardedBear <beardedbearbear@gmail.com>"]
+repository = "https://github.com/BeardedBear/bearded-icons"
+
+[theme]
+name = "Bearded Icons"
+path = "icon_themes/bearded-icons.json"
+appearance = "dark"

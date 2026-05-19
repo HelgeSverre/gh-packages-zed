@@ -1,0 +1,20 @@
+id = "aptos-move"
+name = "Aptos Move"
+description = "Aptos Move language support for Zed, including syntax highlighting and LSP integration."
+version = "0.0.2"
+schema_version = 1
+authors = ["0xbe1 <0xbetrue@gmail.com>"]
+repository = "https://github.com/0xbe1/aptos-move-zed-extension"
+license = "MIT"
+
+[language_servers.aptos-move-lsp]
+name = "Aptos Move Language Server"
+languages = ["Move", "Move.toml"]
+
+[grammars.move_on_aptos]
+repository = "https://github.com/aptos-labs/tree-sitter-move-on-aptos"
+rev = "12906b341de7cef81cf03d7d91dae51d8a9299e7"
+
+[grammars.toml]
+repository = "https://github.com/tree-sitter-grammars/tree-sitter-toml"
+rev = "64b56832c2cffe41758f28e05c756a3a98d16f41"

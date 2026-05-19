@@ -1,0 +1,2 @@
+# ashen.zed
+This is a port of [ashen](https://codeberg.org/ficd/ashen) (a kakoune theme by [ficd](https://ficd.sh) that has been ported to many things) to Zed (a cool new editor written in Rust). The official mirror on Codeberg for all ashen themes are linked above. I (adhi) serve as the maintainer for just the Zed theme; this repo serves as a simple way to provide a Git submodule into the official [zed-extensions](https://github.com/zed-industries/extensions) repo.

@@ -1,0 +1,19 @@
+id = "adaltas-theme"
+name = "Adaltas Theme"
+version = "0.0.2"
+schema_version = 1
+description = "Elegantly designed dark theme with sharp contrast colors."
+repository = "https://github.com/adaltas/zed-adaltas-theme"
+authors = ["David Worms <david@adaltas.com>"]
+themes = ["themes/adaltas-theme.json"]
+languages = []
+
+[lib]
+
+[grammars]
+
+[language_servers]
+
+[slash_commands]
+
+[indexed_docs_providers]

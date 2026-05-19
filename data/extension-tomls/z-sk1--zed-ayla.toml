@@ -1,0 +1,18 @@
+id = "ayla"
+name = "Ayla"
+description = "Ayla language support."
+version = "0.0.2"
+schema_version = 1
+authors = ["Ziad Skafi"]
+repository = "https://github.com/z-sk1/zed-ayla"
+
+[language_servers.elen]
+name = "elen"
+languages = ["Ayla"]
+
+[language_servers.elen.language_ids]
+"Ayla" = "ayla"
+
+[grammars.ayla]
+repository = "https://github.com/z-sk1/tree-sitter-ayla"
+rev = "main"

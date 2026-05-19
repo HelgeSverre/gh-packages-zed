@@ -1,0 +1,11 @@
+id = "ask-starknet-mcp"
+name = "Ask Starknet MCP"
+description = "Exposes the ask-starknet MCP server to Zed as a context server."
+version = "0.0.1"
+schema_version = 1
+authors = ["0xpantera 0xpantera@proton.me"]
+repository = "https://github.com/YOUR_GH/ask-starknet-zed"
+license = "MIT"
+
+[context_servers.ask-starknet-mcp]
+name = "Ask Starknet"

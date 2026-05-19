@@ -1,0 +1,11 @@
+id = "bison"
+name = "Bison&Yacc Language Support"
+version = "0.1.0"
+schema_version = 1
+authors = ["fanwenlin"]
+description = "Bison/Yacc Language support"
+repository = "https://github.com/fanwenlin/bison-zed"
+
+[grammars.bison]
+repository = "https://github.com/fanwenlin/tree-sitter-bison"
+commit = "ec9b9bda4314d5d60f00502dd1357031141744b8"

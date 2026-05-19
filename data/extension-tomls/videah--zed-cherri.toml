@@ -1,0 +1,11 @@
+id = "cherri"
+name = "Cherri"
+description = "A Zed extension that adds basic support for the Apple Shortcut programming language Cherri."
+version = "0.1.0"
+schema_version = 1
+authors = ["videah <me@videah.net>"]
+repository = "https://github.com/videah/zed-cherri"
+
+[grammars.cherri]
+repository = "https://github.com/videah/tree-sitter-cherri"
+rev = "c76ca6be39a1bb2b6e12091e3922be5a82b46229"

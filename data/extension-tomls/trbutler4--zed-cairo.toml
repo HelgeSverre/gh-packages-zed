@@ -1,0 +1,24 @@
+id = "cairo"
+name = "Cairo"
+version = "0.1.1"
+schema_version = 1
+authors = [
+    "Thomas Robert Butler IV trbiv@proton.me",
+    "Okhai Omotuebe okhaio@protonmail.com",
+    "Franco 0xpantera@proton.me",
+]
+description = "Cairo language support for Zed"
+repository = "https://github.com/trbutler4/zed-cairo"
+
+[grammars.cairo]
+repository = "https://github.com/starkware-libs/tree-sitter-cairo"
+rev = "4c6a25680546761b80a710ead1dd34e76c203125"
+
+[language_servers.cairo]
+name = "Cairo Language Server"
+languages = ["Cairo"]
+
+[[capabilities]]
+kind = "process:exec"
+command = "scarb"
+args = ["cache", "path"]

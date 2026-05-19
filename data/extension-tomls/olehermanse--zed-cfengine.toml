@@ -1,0 +1,12 @@
+id = "cfengine"
+name = "CFEngine"
+version = "1.0.5"
+schema_version = 1
+authors = ["Ole Herman S. Elgesem <ole@cfengine.com>"]
+description = "Syntax highlighting support for CFEngine policy language"
+repository = "https://github.com/olehermanse/zed-cfengine"
+languages = ["languages/cfengine"]
+
+[grammars.cfengine]
+repository = "https://github.com/olehermanse/tree-sitter-cfengine"
+commit = "04607817eea5b0f05b35de517a2453e8e23c971b"

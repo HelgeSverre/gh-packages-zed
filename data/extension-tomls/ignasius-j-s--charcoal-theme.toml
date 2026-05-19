@@ -1,0 +1,23 @@
+id = "charcoal-theme"
+name = "Charcoal Theme"
+version = "0.1.1"
+schema_version = 1
+description = "A sleek, dark theme for those who always keep their screen brightness very low"
+repository = "https://github.com/ignasius-j-s/charcoal-theme"
+authors = ["Ignasius"]
+themes = ["themes/charcoal.json"]
+icon_themes = []
+languages = []
+capabilities = []
+
+[lib]
+
+[grammars]
+
+[language_servers]
+
+[context_servers]
+
+[slash_commands]
+
+[indexed_docs_providers]

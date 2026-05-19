@@ -1,0 +1,11 @@
+id = "apache-avro"
+name = "Apache Avro"
+version = "0.1.0"
+schema_version = 1
+authors = ["Victor Quiroz <git@victorhqc.com>"]
+description = "Apache Avro support for the IDL Language"
+repository = "https://github.com/victorhqc/zed-apache-avro"
+
+[grammars.apache_avro]
+repository = "https://github.com/victorhqc/tree-sitter-apache-avro"
+commit = "ca58349187a30c3d33cf44315e33cf1cf7b886a6"

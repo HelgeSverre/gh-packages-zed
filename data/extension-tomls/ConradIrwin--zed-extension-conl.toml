@@ -1,0 +1,15 @@
+id = "conl"
+name = "CONL"
+version = "2.0.1"
+schema_version = 1
+authors = ["Conrad Irwin <conrad.irwin@gmail.com>"]
+description = "Syntax highlighting and LSP for CONL"
+repository = "https://github.com/ConradIrwin/zed-extension-conl"
+
+[grammars.conl]
+repository = "https://github.com/ConradIrwin/tree-sitter-conl"
+commit = "8ee41b7b58184bcb4420b463d656ce269da25380"
+
+[language_servers.conl-lsp]
+name = "conl-lsp"
+languages = ["CONL"]

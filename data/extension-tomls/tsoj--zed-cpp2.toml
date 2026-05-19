@@ -1,0 +1,12 @@
+id = "cpp2"
+name = "Cpp2"
+version = "0.1.0"
+schema_version = 1
+authors = ["Jost Triller <tsoj.tsoj@gmx.de>"]
+description = "Cpp2 support for Zed Editor"
+repository = "https://github.com/tsoj/zed-cpp2"
+
+
+[grammars.cpp2]
+repository = "https://github.com/tsoj/tree-sitter-cpp2"
+commit = "01324f00ec299318b21d94077ab1f4d54ce3db47"
