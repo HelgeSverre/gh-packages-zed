@@ -1,0 +1,11 @@
+id = "immigrant"
+name = "Immigrant"
+version = "0.1.2"
+schema_version = 1
+authors = ["Yaroslav Bolyukin <iam@lach.pw>"]
+description = "Immigrant schema definition language support"
+repository = "https://github.com/deltarocks/zed-immigrant"
+
+[grammars.immigrant]
+repository = "https://github.com/deltarocks/tree-sitter-immigrant.git"
+rev = "81eb0a5accacfdf5846080cac59f56ee5ec41cdf"

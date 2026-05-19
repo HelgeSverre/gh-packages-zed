@@ -10,22 +10,22 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **815** |
-| In official registry | 410 |
-| Discovered via topics | 405 |
-| Last updated | 2026-05-19 21:41 UTC |
+| Total tracked | **966** |
+| In official registry | 552 |
+| Discovered via topics | 414 |
+| Last updated | 2026-05-19 21:43 UTC |
 
 ### By capability
 | Type | Count |
 |------|-------|
-| Language Servers | 369 |
-| Grammars | 309 |
-| Themes | 248 |
-| Context Servers | 88 |
-| Slash Commands | 42 |
-| Debug Adapters | 29 |
-| Snippets | 25 |
-| Docs Providers | 9 |
+| Language Servers | 392 |
+| Grammars | 361 |
+| Themes | 331 |
+| Context Servers | 89 |
+| Slash Commands | 45 |
+| Snippets | 37 |
+| Debug Adapters | 30 |
+| Docs Providers | 11 |
 
 ## How it works
 
@@ -58,26 +58,26 @@ cd website && npm install && npm run dev
 
 | Package | ⭐ | Description |
 |---------|-----|-------------|
-| [szymkab/a-touch-of-lilac-theme](https://github.com/szymkab/a-touch-of-lilac-theme) | 0 |  |
-| [sachk/aw-watcher-zed](https://github.com/sachk/aw-watcher-zed) | 23 | Zed extension for time tracking with activitywatch |
-| [ugi-dev/ad-astra-zed](https://github.com/ugi-dev/ad-astra-zed) | 1 | About 🌌 Ad Astra: Zed dark & light Theme |
-| [wisn/zed-ada-language](https://github.com/wisn/zed-ada-language) | 11 | Ada language support for Zed |
-| [adaltas/zed-adaltas-theme](https://github.com/adaltas/zed-adaltas-theme) | 1 | The Adaltas Zed theme is a Dark theme with decent contrast for the Zed editor. |
-| [lodev09/adaptify-zed](https://github.com/lodev09/adaptify-zed) | 2 | A beautiful, adaptive theme for your Zed editor 🎨 |
-| [AdventureX-RGE/zed-adventurex-theme](https://github.com/AdventureX-RGE/zed-adventurex-theme) | 0 |  |
-| [Benjamin-Davies/zed-theme-adwaita](https://github.com/Benjamin-Davies/zed-theme-adwaita) | 17 | Adwaita (GNOME) theme for Zed with bold syntax highlighting borrowed from Catppu... |
-| [mnojz/Aesthetic-zed-theme](https://github.com/mnojz/Aesthetic-zed-theme) | 6 |  |
-| [haohanyang/agda-zed](https://github.com/haohanyang/agda-zed) | 6 | Agda language support for Zed editor |
-| [aiken-lang/zed-aiken](https://github.com/aiken-lang/zed-aiken) | 4 | Aiken support for Zed |
-| [talison-cardoso/aira-zed](https://github.com/talison-cardoso/aira-zed) | 3 |  |
-| [vivy-company/zed-aizen-theme](https://github.com/vivy-company/zed-aizen-theme) | 0 |  |
-| [aramb-dev/akhdar-by-aramb-dev-theme](https://github.com/aramb-dev/akhdar-by-aramb-dev-theme) | 1 | A green-accented dark and light theme for Zed, built around the aramb-dev brand ... |
-| [tsimoshka/zed-theme-alabaster](https://github.com/tsimoshka/zed-theme-alabaster) | 39 |  |
-| [ascarter/zed-alpental-theme](https://github.com/ascarter/zed-alpental-theme) | 1 |  |
-| [A909M/zed-alpinejs-snippets](https://github.com/A909M/zed-alpinejs-snippets) | 4 | Alpine.js Snippets for Zed editor |
-| [davccavalcante/amber-monochrome-monitor-crt-phosphor-theme-for-zed](https://github.com/davccavalcante/amber-monochrome-monitor-crt-phosphor-theme-for-zed) | 10 | Designed to replicate the classic CRT monitors, this theme features a black back... |
-| [ChocolateNao/andromeda-zed](https://github.com/ChocolateNao/andromeda-zed) | 5 | 🌒 A popular VScode theme brought to Zed |
-| [boycsuk/anthracite-theme](https://github.com/boycsuk/anthracite-theme) | 4 | Anthracite theme for Zed Editor. |
+| [mikaeladev/zed-desktop-entry](https://github.com/mikaeladev/zed-desktop-entry) | 1 | Syntax highlighting for .desktop and .directory files in Zed |
+| [susanta96/dev-magic](https://github.com/susanta96/dev-magic) | 3 | A magical dark theme for Zed Code Editor |
+| [anikinmd/zed_devicetree](https://github.com/anikinmd/zed_devicetree) | 3 | DeviceTree support for zed |
+| [bencres/zed-django-snippets](https://github.com/bencres/zed-django-snippets) | 4 | Django snippets for Zed. |
+| [eth0net/zed-docker-compose](https://github.com/eth0net/zed-docker-compose) | 20 | Docker Compose file support for Zed |
+| [DogukanUrker/DogiZed](https://github.com/DogukanUrker/DogiZed) | 4 | A minimalist flat theme with pure black and white backgrounds, vibrant syntax co... |
+| [dogxii/Dogxi-Theme-Zed](https://github.com/dogxii/Dogxi-Theme-Zed) | 0 | Zed theme for personal use |
+| [ozacod/zed-doxygen](https://github.com/ozacod/zed-doxygen) | 2 | Doxygen documentation comment support for Zed editor |
+| [dracula/zed](https://github.com/dracula/zed) | 67 | 🧛🏻‍♂️ Dark theme for Zed |
+| [clamjohnston/dram](https://github.com/clamjohnston/dram) | 2 |  |
+| [arturonegrete-dev/Dream-zed](https://github.com/arturonegrete-dev/Dream-zed) | 3 | A soft theme featuring warm beiges and browns. |
+| [Lalolog/duckyscript-zed-extension](https://github.com/Lalolog/duckyscript-zed-extension) | 0 | Extension for Zed to support DuckyScript |
+| [shenlong21/zed-dwp-theme](https://github.com/shenlong21/zed-dwp-theme) | 0 | A theme for zed editor. |
+| [earomc/earo-theme-zed](https://github.com/earomc/earo-theme-zed) | 0 | Earo Theme for the Zed code editor |
+| [glehmann/earthfile.zed](https://github.com/glehmann/earthfile.zed) | 1 | Earthfile support for Zed editor |
+| [hsjoberg/zedsong](https://github.com/hsjoberg/zedsong) | 1 |  |
+| [KarmanyaIyer/zed-easy-opaque-theme](https://github.com/KarmanyaIyer/zed-easy-opaque-theme) | 0 | Zed light theme. Easy to read, no gray-on-white fonts (as in enough contrast so ... |
+| [Hexacker/zed-edge](https://github.com/Hexacker/zed-edge) | 10 |  |
+| [notpeter/editorconfig-zed](https://github.com/notpeter/editorconfig-zed) | 6 | Editorconfig support for Zed |
+| [demiurg/zed-theme-eiffel](https://github.com/demiurg/zed-theme-eiffel) | 3 |  |
 
 ## 🌟 Top Starred (Under 500)
 
@@ -102,16 +102,18 @@ cd website && npm install && npm run dev
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 136 | A port of the Neovim theme to Zed editor |
 | [zed-extensions/swift](https://github.com/zed-extensions/swift) | 136 | Extension for Zed to support Swift |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 125 | The Ruby language support for Zed editor |
-| [Gurvirr/zed-ultraViolet](https://github.com/Gurvirr/zed-ultraViolet) | 113 | A dark, violet-toned theme designed for quality & visual comfort ◡̈ |
+| [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 120 |  |
 
 ## 🔥 Recently Active
 
 | Package | ⭐ | Last Push | Description |
 |---------|-----|-----------|-------------|
+| [maxleiko/zed-greycat-extension](https://github.com/maxleiko/zed-greycat-extension) | 0 | 2026-05-19 | GreyCat support for Zed |
 | [vitallium/zed-modus-themes](https://github.com/vitallium/zed-modus-themes) | 47 | 2026-05-19 | Port of Modus Themes (https://protesilaos.com/emacs/modus-th... |
 | [HelgeSverre/zed-applescript](https://github.com/HelgeSverre/zed-applescript) | 1 | 2026-05-19 | (WIP) AppleScript language support for Zed editor |
 | [clementGilardy/zed-aws-toolkit](https://github.com/clementGilardy/zed-aws-toolkit) | 0 | 2026-05-19 | AWS Toolkit extension for Zed editor — S3, Lambda, CloudWatc... |
 | [oxc-project/oxc-zed](https://github.com/oxc-project/oxc-zed) | 256 | 2026-05-19 | Oxc extension for Zed |
+| [himattm/zed-islands-theme](https://github.com/himattm/zed-islands-theme) | 4 | 2026-05-19 | A Zed theme inspired by JetBrains' Islands design system, wi... |
 | [spences10/zed-neon](https://github.com/spences10/zed-neon) | 0 | 2026-05-19 | Vivid neon themes for Zed. |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-05-19 | A Zed extension that allows to highlight all occurrences of ... |
 | [zcuric/zed-wordpress](https://github.com/zcuric/zed-wordpress) | 0 | 2026-05-19 | Zed extension: WordPress and WooCommerce support for PHP — p... |
@@ -126,8 +128,6 @@ cd website && npm install && npm run dev
 | [harmony-contrib/oxk-zed](https://github.com/harmony-contrib/oxk-zed) | 0 | 2026-05-19 | ArkTS language support for Zed with tree-sitter highlighting... |
 | [AineeJames/c3-zed](https://github.com/AineeJames/c3-zed) | 19 | 2026-05-18 | A Zed extension for the C3 programming language with LSP and... |
 | [zed-extensions/pyrefly](https://github.com/zed-extensions/pyrefly) | 52 | 2026-05-18 | Support for the Pyrefly Python LSP in Zed |
-| [zed-extensions/emmet](https://github.com/zed-extensions/emmet) | 27 | 2026-05-18 | Emmet support |
-| [zed-extensions/perplexity](https://github.com/zed-extensions/perplexity) | 10 | 2026-05-18 |  |
 
 ---
 
@@ -135,6 +135,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |-----|-----|---------|-------|
+| 2026-05-19T21:43 | 159 | 396 | 1206 |
 | 2026-05-19T21:41 | 177 | 388 | 1047 |
 | 2026-05-19T20:55 | 0 | 388 | 870 |
 | 2026-05-19T20:52 | 20 | 368 | 870 |
@@ -144,7 +145,6 @@ cd website && npm install && npm run dev
 | 2026-05-19T20:14 | 0 | 0 | 860 |
 | 2026-05-19T20:14 | 0 | 0 | 870 |
 | 2026-05-19T20:14 | 0 | 880 | 880 |
-| 2026-05-19T20:11 | 426 | 454 | 880 |
 
 ---
 

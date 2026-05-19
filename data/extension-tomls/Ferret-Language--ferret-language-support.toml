@@ -1,0 +1,32 @@
+id = "ferret"
+name = "Ferret language support"
+description = "Ferret language support for Zed"
+version = "0.0.12"
+schema_version = 1
+authors = ["itsfuad"]
+repository = "https://github.com/Ferret-Language/ferret-language-support"
+
+languages = ["languages/ferret", "languages/ferret-manifest", "languages/ferret-lockfile"]
+capabilities = []
+
+[lib]
+kind = "Rust"
+version = "0.2.0"
+
+[grammars.ferret]
+repository = "https://github.com/Ferret-Language/tree-sitter-ferret"
+rev = "main"
+
+[grammars.ferret_manifest]
+repository = "https://github.com/Ferret-Language/tree-sitter-ferret-manifest"
+rev = "main"
+
+[grammars.ferret_lockfile]
+repository = "https://github.com/Ferret-Language/tree-sitter-ferret-lockfile"
+rev = "main"
+
+[language_servers.ferretls]
+languages = ["Ferret"]
+
+[language_servers.ferretls.language_ids]
+Ferret = "ferret"

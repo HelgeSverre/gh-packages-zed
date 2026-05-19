@@ -1,0 +1,93 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Basic Memory MCP Server — Zed Extension Safari</title><meta name="description" content="Basic Memory MCP server integration, for Zed Editor's Assistant."><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Basic Memory MCP Server — Zed Extension Safari"><meta property="og:description" content="Basic Memory MCP server integration, for Zed Editor's Assistant."><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Basic Memory MCP Server — Zed Extension Safari"><meta name="twitter:description" content="Basic Memory MCP server integration, for Zed Editor's Assistant."><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.DJSXA_CW.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);">  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-4"> <a href="/gh-packages-zed" class="transition" style="color:var(--zed-text-muted);">← All extensions</a> </nav> <div class="flex flex-wrap items-start justify-between gap-4"> <div class="min-w-0"> <div class="font-mono text-xs mb-2" style="color:var(--zed-muted);"> ossfellow/zed-mcp-server-basic-memory </div> <h1 class="text-2xl sm:text-3xl font-bold break-words leading-tight" style="color:var(--zed-blue-pale);"> Basic Memory MCP Server </h1> <p class="mt-2 text-pretty" style="color:var(--zed-text-muted);"> Model Context Protocol Server for building persistent knowledge with Basic Memory </p> </div> <a href="https://github.com/ossfellow/zed-mcp-server-basic-memory" target="_blank" rel="noopener" class="zed-btn-primary shrink-0 inline-flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View on GitHub
+</a> </div> <div class="mt-4 flex flex-wrap items-center gap-2"> <span class="version-pill">v0.0.1</span> <span class="cat-badge" data-cat="context-server">Context Server</span> </div> <div class="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm" style="color:var(--zed-text-muted);"> <span class="inline-flex items-center gap-1"> <svg class="w-4 h-4" style="color:var(--zed-lime);" fill="currentColor" viewBox="0 0 20 20"> <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path> </svg> 2 stars
+</span> <span>Rust</span>  <span>Updated 4/26/2025</span> <span>schema v1</span> </div> <div class="mt-2 text-sm" style="color:var(--zed-text-muted);">
+by Ossfellow </div> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> basic-memory </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> context-server </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> llm </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> mcp </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> rust </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed-editor </span> </div> </div> </header> <main class="flex-1 max-w-4xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <article class="prose readme-prose max-w-none"><h1 id="user-content-basic-memory-mcp-server-extension-for-zed-editor"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#basic-memory-mcp-server-extension-for-zed-editor"><span class="heading-anchor-icon">#</span></a>Basic Memory MCP Server Extension for Zed Editor</h1>
+<p>This extension integrates <a href="https://github.com/basicmachines-co/basic-memory">Basic Memory</a> as a context server for <a href="https://zed.dev">Zed Editor's</a> <a href="https://zed.dev/docs/assistant/assistant">Assistant</a>.</p>
+<p>Basic Memory lets you build persistent knowledge through natural conversations with Large Language Models, while keeping everything in simple Markdown files on your computer.</p>
+<h2 id="user-content-prerequisites"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#prerequisites"><span class="heading-anchor-icon">#</span></a>Prerequisites</h2>
+<ul>
+<li>Python 3.12+</li>
+<li><a href="https://github.com/astral-sh/uv">uv</a> installed</li>
+</ul>
+<blockquote>
+<p><strong>⚠️ Important Note</strong>: This extension currently requires Zed to support MCP tools, which is still in development. While you can install the extension now, its functionality will become available once Zed adds MCP tools support in a future update. Follow <a href="https://github.com/zed-industries/zed/releases">Zed's releases</a> for updates.</p>
+</blockquote>
+<h2 id="user-content-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation"><span class="heading-anchor-icon">#</span></a>Installation</h2>
+<h3 id="user-content-1-install-uv-and-basic-memory"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#1-install-uv-and-basic-memory"><span class="heading-anchor-icon">#</span></a>1. Install uv and Basic Memory</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">pip</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> install</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> uv</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">uv</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> tool</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> install</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> basic-memory</span></span></code></pre>
+<h3 id="user-content-2-install-the-extension"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#2-install-the-extension"><span class="heading-anchor-icon">#</span></a>2. Install the extension</h3>
+<p>Navigate to: <strong>Zed</strong> > <strong>Extensions</strong>. Or use the command palette to search for "extensions".</p>
+<h3 id="user-content-3-configure-the-extension"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#3-configure-the-extension"><span class="heading-anchor-icon">#</span></a>3. Configure the extension</h3>
+<p>Add the following to your Zed settings:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "context_servers"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "mcp-server-basic-memory"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "project"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"optional-project-name"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>The <code>project</code> setting is optional:</p>
+<ul>
+<li>If specified, Basic Memory will use the named project for storing and accessing notes</li>
+<li>If omitted, Basic Memory will use its default project (typically stored in <code>~/basic-memory/config.json</code>, or set in the <code>BASIC_MEMORY_PROJECT</code> environment variable)</li>
+</ul>
+<p>You can configure these settings either:</p>
+<ul>
+<li>Globally in your Zed settings.json</li>
+<li>Per-project in your project settings</li>
+<li>Or omit them to use Basic Memory's default project</li>
+</ul>
+<h2 id="user-content-usage"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#usage"><span class="heading-anchor-icon">#</span></a>Usage</h2>
+<p>Once configured, Basic Memory will be available in the Zed Assistant. You can use prompts like:</p>
+<ul>
+<li>"Create a note about software architecture patterns"</li>
+<li>"What do I know about functional programming?"</li>
+<li>"Search my notes for information about React hooks"</li>
+</ul>
+<h2 id="user-content-multiple-projects"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#multiple-projects"><span class="heading-anchor-icon">#</span></a>Multiple Projects</h2>
+<p>Basic Memory supports multiple projects to separate different kinds of notes. If you work on different codebases or subjects, you might want to maintain separate knowledge bases for each.</p>
+<h2 id="user-content-building-the-extension"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#building-the-extension"><span class="heading-anchor-icon">#</span></a>Building the Extension</h2>
+<p>This extension needs to be compiled to WebAssembly (WASM):</p>
+<ol>
+<li>
+<p><strong>Add the WASM target to your Rust toolchain:</strong></p>
+<pre><code>rustup target add wasm32-wasip1
+</code></pre>
+</li>
+<li>
+<p><strong>Build the extension:</strong></p>
+<pre><code>cargo build --target wasm32-wasip1 --release
+</code></pre>
+</li>
+</ol>
+<h3 id="user-content-local-testing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#local-testing"><span class="heading-anchor-icon">#</span></a>Local Testing</h3>
+<p>For testing locally:</p>
+<ol>
+<li>Build the extension as described above</li>
+<li>In Zed, open Extensions (⌘ + Shift + E)</li>
+<li>Click "Install Dev Extension" and select the extension directory</li>
+<li>Your dev extension will override any published version with the same name</li>
+</ol>
+<blockquote>
+<p>Note: When installing as a dev extension, Zed will automatically use the build artifacts from your target directory.</p>
+</blockquote>
+<h2 id="user-content-basic-memory-resources"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#basic-memory-resources"><span class="heading-anchor-icon">#</span></a>Basic Memory Resources</h2>
+<p>For more detailed information about Basic Memory, visit:</p>
+<ul>
+<li><a href="https://memory.basicmachines.co/">Basic Memory Documentation</a></li>
+<li><a href="https://github.com/basicmachines-co/basic-memory">GitHub Repository</a></li>
+</ul>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>This project is licensed under the Apache License, Version 2.0 (the "License"). You may obtain a copy of the License at:</p>
+<pre><code>http://www.apache.org/licenses/LICENSE-2.0
+</code></pre>
+<p>This extension interfaces with the <code>basic-memory</code> MCP server, which is a separate product developed by <a href="https://github.com/basicmachines-co">Basic Machines</a> and is licensed under the GNU Affero General Public License, Version 3.0 (AGPL-3.0). The <code>basic-memory</code> MCP server's license can be found at:</p>
+<pre><code>https://www.gnu.org/licenses/agpl-3.0.html
+</code></pre>
+<p>Please note that while this extension is distributed under the Apache 2.0 License, if you use the <code>basic-memory</code> MCP server through this extension, you must comply with its AGPL-3.0 license terms. This extension itself does not incorporate any code from the <code>basic-memory</code> MCP server; it only provides an interface to communicate with it as an external service.</p></article> </main> <footer class="mt-auto" style="background:var(--zed-bg);border-top:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:var(--zed-text-muted);">
+← Back to extension list
+</a> </div> </footer> </body></html>

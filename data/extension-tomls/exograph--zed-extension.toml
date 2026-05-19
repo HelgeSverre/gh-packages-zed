@@ -1,0 +1,11 @@
+id = "exograph"
+name = "Exograph"
+version = "0.0.2"
+schema_version = 1
+authors = ["Affan Shahid <affan.shahid.94@gmail.com>"]
+description = "Exograph syntax highlighting."
+repository = "https://github.com/exograph/zed-extension"
+
+[grammars.exograph]
+repository = "https://github.com/exograph/tree-sitter-exograph"
+commit = "b6c30a8e5b7a899f7023c97971eaef2ec55b2f05"

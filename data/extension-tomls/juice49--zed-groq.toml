@@ -1,0 +1,11 @@
+id = "groq"
+name = "GROQ"
+version = "0.0.1"
+schema_version = 1
+authors = ["Ash <ashley@juice49.com>"]
+description = "GROQ support."
+repository = "https://github.com/juice49/zed-groq"
+
+[grammars.groq]
+repository = "https://github.com/juice49/tree-sitter-groq"
+commit = "5144de4a3ad133e19db6ab9600c94bce039e72f1"

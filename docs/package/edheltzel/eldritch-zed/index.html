@@ -1,0 +1,192 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Eldritch — Zed Extension Safari</title><meta name="description" content="A port of eldritch for Zed editor - See Zed's Extensions"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Eldritch — Zed Extension Safari"><meta property="og:description" content="A port of eldritch for Zed editor - See Zed's Extensions"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Eldritch — Zed Extension Safari"><meta name="twitter:description" content="A port of eldritch for Zed editor - See Zed's Extensions"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.DJSXA_CW.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);">  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-4"> <a href="/gh-packages-zed" class="transition" style="color:var(--zed-text-muted);">← All extensions</a> </nav> <div class="flex flex-wrap items-start justify-between gap-4"> <div class="min-w-0"> <div class="font-mono text-xs mb-2" style="color:var(--zed-muted);"> edheltzel/eldritch-zed </div> <h1 class="text-2xl sm:text-3xl font-bold break-words leading-tight" style="color:var(--zed-blue-pale);"> Eldritch </h1> <p class="mt-2 text-pretty" style="color:var(--zed-text-muted);"> A community-driven dark theme inspired by Lovecraftian horror. Ported from eldritch.nvim with three variants: Eldritch, Eldritch Dark, and Eldritch Deeper. </p> </div> <a href="https://github.com/edheltzel/eldritch-zed" target="_blank" rel="noopener" class="zed-btn-primary shrink-0 inline-flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View on GitHub
+</a> </div> <div class="mt-4 flex flex-wrap items-center gap-2"> <span class="version-pill">v0.1.0</span> <span class="cat-badge" data-cat="theme">Theme</span> </div> <div class="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm" style="color:var(--zed-text-muted);"> <span class="inline-flex items-center gap-1"> <svg class="w-4 h-4" style="color:var(--zed-lime);" fill="currentColor" viewBox="0 0 20 20"> <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path> </svg> 1 stars
+</span>  <span>MIT</span> <span>Updated 2/17/2026</span> <span>schema v1</span> </div> <div class="mt-2 text-sm" style="color:var(--zed-text-muted);">
+by Ed Heltzel </div>  </div> </header> <main class="flex-1 max-w-4xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <article class="prose readme-prose max-w-none"><p align="center">
+  <img src="https://raw.github.com/eldritch-theme/eldritch/master/assets/logo/logo.png" width="150">
+</p>
+<h1 id="user-content-eldritch-for-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#eldritch-for-zed"><span class="heading-anchor-icon">#</span></a>Eldritch for <a href="https://zed.dev">Zed</a></h1>
+<blockquote>
+<p>A community-driven dark theme inspired by Lovecraftian horror.</p>
+</blockquote>
+<p>Ported from <a href="https://github.com/eldritch-theme/eldritch.nvim">eldritch.nvim</a> with Neovim-matched syntax highlighting across 200+ languages.</p>
+<p>For more information, see the main <a href="https://github.com/eldritch-theme/eldritch">Eldritch</a> theme repository.</p>
+<h2 id="user-content-variants"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#variants"><span class="heading-anchor-icon">#</span></a>Variants</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Variant</th><th>Description</th></tr></thead><tbody><tr><td><strong>Eldritch</strong></td><td>Default palette -- vibrant accents on dark backgrounds</td></tr><tr><td><strong>Eldritch Dark</strong></td><td>Official darker palette from <code>eldritch.nvim</code> -- deeper backgrounds with desaturated accents</td></tr><tr><td><strong>Eldritch Deeper</strong></td><td>Deeper backgrounds with the original vibrant accent colors</td></tr></tbody></table>
+<h2 id="user-content-showcase"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#showcase"><span class="heading-anchor-icon">#</span></a>Showcase</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th align="center"></th><th align="center"></th></tr></thead><tbody><tr><td align="center"><img src="https://raw.githubusercontent.com/edheltzel/eldritch-zed/HEAD/images/html-dark-mode-script.png" alt="HTML with inline JS and CSS dark mode script"></td><td align="center"><img src="https://raw.githubusercontent.com/edheltzel/eldritch-zed/HEAD/images/json-package.png" alt="JSON package.json for a SvelteKit project"></td></tr><tr><td align="center">HTML — Dark mode script</td><td align="center">JSON — package.json</td></tr><tr><td align="center"><img src="https://raw.githubusercontent.com/edheltzel/eldritch-zed/HEAD/images/typescript-supabase-hooks.png" alt="TypeScript Supabase SSR server hooks"></td><td align="center"><img src="https://raw.githubusercontent.com/edheltzel/eldritch-zed/HEAD/images/css-nested-rules.png" alt="CSS with nested rules and custom properties"></td></tr><tr><td align="center">TypeScript — Supabase SSR hooks</td><td align="center">CSS — Nested rules and custom properties</td></tr><tr><td align="center"><img src="https://raw.githubusercontent.com/edheltzel/eldritch-zed/HEAD/images/typescript-vite-config.png" alt="TypeScript Vite configuration"></td><td align="center"><img src="https://raw.githubusercontent.com/edheltzel/eldritch-zed/HEAD/images/tsx-react-component.png" alt="TSX React component with Tailwind classes"></td></tr><tr><td align="center">TypeScript — Vite config</td><td align="center">TSX — React component with Tailwind</td></tr><tr><td align="center"><img src="https://raw.githubusercontent.com/edheltzel/eldritch-zed/HEAD/images/tsx-react-component-dark.png" alt="TSX React component in Eldritch Dark variant"></td><td align="center"><img src="https://raw.githubusercontent.com/edheltzel/eldritch-zed/HEAD/images/cpp-split-pane.png" alt="C++ split pane with mouse events and parser macros"></td></tr><tr><td align="center">TSX — React component (Dark variant)</td><td align="center">C++ — Split pane with parser macros</td></tr><tr><td align="center"><img src="https://raw.githubusercontent.com/edheltzel/eldritch-zed/HEAD/images/cpp-json-terminal.png" alt="C++ JSON config and fish terminal in multi-pane layout"></td><td align="center"></td></tr><tr><td align="center">C++ / JSON / Terminal — Multi-pane layout</td><td align="center"></td></tr></tbody></table>
+<h2 id="user-content-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation"><span class="heading-anchor-icon">#</span></a>Installation</h2>
+<h3 id="user-content-from-zed-extensions-recommended"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#from-zed-extensions-recommended"><span class="heading-anchor-icon">#</span></a>From Zed Extensions (Recommended)</h3>
+<ol>
+<li>Open Zed</li>
+<li>Open the Extensions panel (<code>cmd+shift+x</code>)</li>
+<li>Search for "Eldritch"</li>
+<li>Click <strong>Install</strong></li>
+<li>Open Settings (<code>cmd+,</code>) and set your theme:</li>
+</ol>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "theme"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "mode"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"dark"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "dark"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"Eldritch"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h3 id="user-content-manual-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#manual-installation"><span class="heading-anchor-icon">#</span></a>Manual Installation</h3>
+<ol>
+<li>Clone this repository</li>
+<li>Copy <code>themes/eldritch.json</code> to <code>~/.config/zed/themes/</code></li>
+<li>Restart Zed and select the theme from Settings</li>
+</ol>
+<h2 id="user-content-color-palette"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#color-palette"><span class="heading-anchor-icon">#</span></a>Color Palette</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Color</th><th>Default</th><th>Dark</th><th>Hex (Default)</th></tr></thead><tbody><tr><td>Background</td><td><img src="https://placehold.co/16x16/212337/212337" alt="#212337"></td><td><img src="https://placehold.co/16x16/171928/171928" alt="#171928"></td><td><code>#212337</code> / <code>#171928</code></td></tr><tr><td>Foreground</td><td><img src="https://placehold.co/16x16/ebfafa/ebfafa" alt="#ebfafa"></td><td><img src="https://placehold.co/16x16/d8e6e6/d8e6e6" alt="#d8e6e6"></td><td><code>#ebfafa</code> / <code>#d8e6e6</code></td></tr><tr><td>Cyan</td><td><img src="https://placehold.co/16x16/04d1f9/04d1f9" alt="#04d1f9"></td><td><img src="https://placehold.co/16x16/0396b3/0396b3" alt="#0396b3"></td><td><code>#04d1f9</code> / <code>#0396b3</code></td></tr><tr><td>Green</td><td><img src="https://placehold.co/16x16/37f499/37f499" alt="#37f499"></td><td><img src="https://placehold.co/16x16/2dcc82/2dcc82" alt="#2dcc82"></td><td><code>#37f499</code> / <code>#2dcc82</code></td></tr><tr><td>Purple</td><td><img src="https://placehold.co/16x16/a48cf2/a48cf2" alt="#a48cf2"></td><td><img src="https://placehold.co/16x16/8b75d9/8b75d9" alt="#8b75d9"></td><td><code>#a48cf2</code> / <code>#8b75d9</code></td></tr><tr><td>Pink</td><td><img src="https://placehold.co/16x16/f265b5/f265b5" alt="#f265b5"></td><td><img src="https://placehold.co/16x16/d154a1/d154a1" alt="#d154a1"></td><td><code>#f265b5</code> / <code>#d154a1</code></td></tr><tr><td>Red</td><td><img src="https://placehold.co/16x16/f16c75/f16c75" alt="#f16c75"></td><td><img src="https://placehold.co/16x16/cc5860/cc5860" alt="#cc5860"></td><td><code>#f16c75</code> / <code>#cc5860</code></td></tr><tr><td>Yellow</td><td><img src="https://placehold.co/16x16/f1fc79/f1fc79" alt="#f1fc79"></td><td><img src="https://placehold.co/16x16/ccd663/ccd663" alt="#ccd663"></td><td><code>#f1fc79</code> / <code>#ccd663</code></td></tr><tr><td>Orange</td><td><img src="https://placehold.co/16x16/f7c67f/f7c67f" alt="#f7c67f"></td><td><img src="https://placehold.co/16x16/d4a666/d4a666" alt="#d4a666"></td><td><code>#f7c67f</code> / <code>#d4a666</code></td></tr></tbody></table>
+<blockquote>
+<p><strong>Eldritch Deeper</strong> uses the darker backgrounds with the default (vibrant) accent colors.</p>
+</blockquote>
+<h2 id="user-content-disabling-italics"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#disabling-italics"><span class="heading-anchor-icon">#</span></a>Disabling Italics</h2>
+<p>Zed supports per-token style overrides via <code>experimental.theme_overrides</code> in your settings. To disable italics without switching themes:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "experimental.theme_overrides"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "syntax"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "comment"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: { </span><span style="color:#79B8FF;--shiki-dark:#79B8FF">"font_style"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"normal"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> },</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "comment.doc"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: { </span><span style="color:#79B8FF;--shiki-dark:#79B8FF">"font_style"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"normal"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p><a href="https://github.com/edheltzel/eldritch-zed/blob/HEAD/LICENSE" target="_blank" rel="noopener">MIT</a></p></article> </main> <footer class="mt-auto" style="background:var(--zed-bg);border-top:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:var(--zed-text-muted);">
+← Back to extension list
+</a> </div> </footer> </body></html>

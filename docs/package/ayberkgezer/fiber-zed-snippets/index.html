@@ -1,0 +1,167 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>fiber Snippets — Zed Extension Safari</title><meta name="description" content="Fiber v2 snippets for Zed IDE."><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="fiber Snippets — Zed Extension Safari"><meta property="og:description" content="Fiber v2 snippets for Zed IDE."><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="fiber Snippets — Zed Extension Safari"><meta name="twitter:description" content="Fiber v2 snippets for Zed IDE."><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.DJSXA_CW.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);">  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-4"> <a href="/gh-packages-zed" class="transition" style="color:var(--zed-text-muted);">← All extensions</a> </nav> <div class="flex flex-wrap items-start justify-between gap-4"> <div class="min-w-0"> <div class="font-mono text-xs mb-2" style="color:var(--zed-muted);"> ayberkgezer/fiber-zed-snippets </div> <h1 class="text-2xl sm:text-3xl font-bold break-words leading-tight" style="color:var(--zed-blue-pale);"> fiber Snippets </h1> <p class="mt-2 text-pretty" style="color:var(--zed-text-muted);"> Fiber v2 snippets for Zed IDE. </p> </div> <a href="https://github.com/ayberkgezer/fiber-zed-snippets" target="_blank" rel="noopener" class="zed-btn-primary shrink-0 inline-flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View on GitHub
+</a> </div> <div class="mt-4 flex flex-wrap items-center gap-2"> <span class="version-pill">v0.1.0</span> <span class="cat-badge" data-cat="snippets">Snippets</span> </div> <div class="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm" style="color:var(--zed-text-muted);"> <span class="inline-flex items-center gap-1"> <svg class="w-4 h-4" style="color:var(--zed-lime);" fill="currentColor" viewBox="0 0 20 20"> <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path> </svg> 1 stars
+</span>  <span>GPL-3.0</span> <span>Updated 4/17/2025</span> <span>schema v1</span> </div> <div class="mt-2 text-sm" style="color:var(--zed-text-muted);">
+by Ayberk Gezer </div>  </div> </header> <main class="flex-1 max-w-4xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <article class="prose readme-prose max-w-none"><h1 id="user-content-fiber-zed-snippets"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#fiber-zed-snippets"><span class="heading-anchor-icon">#</span></a>Fiber Zed Snippets</h1>
+<p><strong>Fiber Zed Snippets</strong> is a collection of productivity-boosting code snippets for <a href="https://github.com/gofiber/fiber">Fiber v2</a> tailored for the <a href="https://zed.dev">Zed IDE</a>. With this extension, you can quickly scaffold common Fiber patterns, routes, middleware, and more, making your Go web development faster and less error-prone.</p>
+<h2 id="user-content-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features"><span class="heading-anchor-icon">#</span></a>Features</h2>
+<ul>
+<li><strong>Up-to-date Fiber v2 snippets:</strong> Includes setup, routing, middleware, error handling, static files, JWT, CORS, rate limiting, CRUD, MVC structure, REST API skeleton, and more.</li>
+<li><strong>Easy access:</strong> Instantly insert snippets using Zed IDE’s snippet interface.</li>
+<li><strong>Parameterizable:</strong> Most snippets include tab stops for quick variable and name customization.</li>
+<li><strong>Best practices:</strong> Snippets reflect modern, idiomatic Fiber usage.</li>
+</ul>
+<h2 id="user-content-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation"><span class="heading-anchor-icon">#</span></a>Installation</h2>
+<h3 id="user-content-method-1"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#method-1"><span class="heading-anchor-icon">#</span></a>Method 1</h3>
+<ol>
+<li>Go to Extensions menu in Zed IDE</li>
+<li>Search for "fiber-snippets"</li>
+<li>Click "Install"</li>
+</ol>
+<h3 id="user-content-method-2"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#method-2"><span class="heading-anchor-icon">#</span></a>Method 2</h3>
+<ol>
+<li>Clone this repo:</li>
+</ol>
+<pre><code>git clone https://github.com/ayberkgezer/fiber-zed-snippets.git
+</code></pre>
+<ol start="2">
+<li>Go to Extensions menu in Zed IDE</li>
+<li>Click "Install Dev Extension"</li>
+<li>Select the folder you cloned</li>
+</ol>
+<h2 id="user-content-usage"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#usage"><span class="heading-anchor-icon">#</span></a>Usage</h2>
+<ol>
+<li>In a Go file, type a snippet prefix (e.g. <code>fiber2-setup</code>, <code>fiber2-route</code>, <code>fiber2-json</code>, etc.) and press <code>Tab</code>.</li>
+<li>The corresponding Fiber code block will be inserted, with placeholders for you to fill in.</li>
+</ol>
+<h2 id="user-content-snippet-list"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#snippet-list"><span class="heading-anchor-icon">#</span></a>Snippet List</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Prefix</th><th>Description</th></tr></thead><tbody><tr><td><code>fiber2-setup</code></td><td>Basic Fiber app setup</td></tr><tr><td><code>fiber2-route</code></td><td>Route handler</td></tr><tr><td><code>fiber2-group</code></td><td>Route group</td></tr><tr><td><code>fiber2-middleware</code></td><td>Custom middleware function</td></tr><tr><td><code>fiber2-use</code></td><td>Global middleware</td></tr><tr><td><code>fiber2-static</code></td><td>Serve static files</td></tr><tr><td><code>fiber2-json</code></td><td>JSON response</td></tr><tr><td><code>fiber2-error</code></td><td>Error handling</td></tr><tr><td><code>fiber2-params</code></td><td>Read URL parameters</td></tr><tr><td><code>fiber2-query</code></td><td>Query parameters</td></tr><tr><td><code>fiber2-body</code></td><td>Parse request body</td></tr><tr><td><code>fiber2-templates</code></td><td>Template engine setup</td></tr><tr><td><code>fiber2-download</code></td><td>File download</td></tr><tr><td><code>fiber2-upload</code></td><td>File upload</td></tr><tr><td><code>fiber2-cors</code></td><td>CORS middleware</td></tr><tr><td><code>fiber2-limiter</code></td><td>Rate limiter middleware</td></tr><tr><td><code>fiber2-jwt</code></td><td>JWT authentication</td></tr><tr><td><code>fiber2-swagger</code></td><td>Swagger documentation</td></tr><tr><td><code>fiber2-logger</code></td><td>Request logger middleware</td></tr><tr><td><code>fiber2-cookies</code></td><td>Cookie handling</td></tr><tr><td><code>fiber2-websocket</code></td><td>WebSocket endpoint</td></tr><tr><td><code>fiber2-database</code></td><td>GORM database connection</td></tr><tr><td><code>fiber2-model</code></td><td>GORM model definition</td></tr><tr><td><code>fiber2-crud</code></td><td>CRUD operations</td></tr><tr><td><code>fiber2-mvc</code></td><td>MVC structure skeleton</td></tr><tr><td><code>fiber2-rest-api</code></td><td>REST API skeleton</td></tr></tbody></table>
+<h2 id="user-content-contributing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#contributing"><span class="heading-anchor-icon">#</span></a>Contributing</h2>
+<p>Contributions are welcome!</p>
+<ol>
+<li>Fork the repository and create a new branch.</li>
+<li>Add or improve snippets.</li>
+<li>Open a pull request.</li>
+</ol>
+<p>Suggestions, improvements, and new snippets are highly appreciated!</p>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p><a href="https://github.com/ayberkgezer/fiber-zed-snippets/blob/HEAD/LICENSE" target="_blank" rel="noopener">GNU GPL v3</a></p>
+<hr>
+<p><strong>Author:</strong>
+Ayberk Gezer
+<a href="mailto:ayberkgezer@outlook.com">ayberkgezer@outlook.com</a></p></article> </main> <footer class="mt-auto" style="background:var(--zed-bg);border-top:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:var(--zed-text-muted);">
+← Back to extension list
+</a> </div> </footer> </body></html>

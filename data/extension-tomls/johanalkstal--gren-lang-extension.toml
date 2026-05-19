@@ -1,0 +1,11 @@
+id = "gren"
+name = "Gren"
+version = "0.2.0"
+schema_version = 1
+authors = ["Johan Alkstål <code@johanalkstal.se>"]
+description = "Syntax highlighting for Gren"
+repository = "https://github.com/johanalkstal/gren-lang-extension"
+
+[grammars.gren]
+repository = "https://github.com/MaeBrooks/tree-sitter-gren"
+commit = "c36aac51a915fdfcaf178128ba1e9c2205b25930"

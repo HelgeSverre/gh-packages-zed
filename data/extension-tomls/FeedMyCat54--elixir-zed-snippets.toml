@@ -1,0 +1,8 @@
+id = "elixir-snippets"
+name = "Elixir Snippets"
+version = "0.1.0"
+schema_version = 1
+authors = ["FeedMyCat54 <kangelou@proton.me>"]
+description = "Write Elixir faster with code snippets."
+repository = "https://github.com/FeedMyCat54/elixir-zed-snippets.git"
+snippets = "./snippets/elixir.json"

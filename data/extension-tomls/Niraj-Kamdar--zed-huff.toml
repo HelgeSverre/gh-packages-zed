@@ -1,0 +1,11 @@
+id = "huff"
+name = "Huff"
+version = "0.0.1"
+schema_version = 1
+authors = ["Niraj"]
+description = "Huff language support for Zed - a low-level EVM assembly language"
+repository = "https://github.com/Niraj-Kamdar/zed-huff"
+
+[grammars.huff]
+repository = "https://github.com/Niraj-Kamdar/tree-sitter-huff"
+rev = "main"

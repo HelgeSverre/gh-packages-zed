@@ -1,0 +1,11 @@
+id = "ical"
+name = "iCal"
+version = "0.1.0"
+schema_version = 1
+authors = ["Titouan Real <titouan.real@gmail.com>"]
+description = "iCal support."
+repository = "https://github.com/TitouanReal/zed-ical"
+
+[grammars.ical]
+repository = "https://github.com/TitouanReal/tree-sitter-ical"
+rev = "49cf7c426bf30e1d3dcb118519d0ab64498219d3"

@@ -1,0 +1,268 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Freemarker — Zed Extension Safari</title><meta name="description" content="Freemarker Template Language support for Zed editor with tree-sitter-based syntax highlighting"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Freemarker — Zed Extension Safari"><meta property="og:description" content="Freemarker Template Language support for Zed editor with tree-sitter-based syntax highlighting"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Freemarker — Zed Extension Safari"><meta name="twitter:description" content="Freemarker Template Language support for Zed editor with tree-sitter-based syntax highlighting"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.DJSXA_CW.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);">  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-4"> <a href="/gh-packages-zed" class="transition" style="color:var(--zed-text-muted);">← All extensions</a> </nav> <div class="flex flex-wrap items-start justify-between gap-4"> <div class="min-w-0"> <div class="font-mono text-xs mb-2" style="color:var(--zed-muted);"> debba/zed-freemarker </div> <h1 class="text-2xl sm:text-3xl font-bold break-words leading-tight" style="color:var(--zed-blue-pale);"> Freemarker </h1> <p class="mt-2 text-pretty" style="color:var(--zed-text-muted);"> Full-featured Freemarker Template Language support for Zed editor with tree-sitter-based syntax highlighting </p> </div> <a href="https://github.com/debba/zed-freemarker" target="_blank" rel="noopener" class="zed-btn-primary shrink-0 inline-flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View on GitHub
+</a> </div> <div class="mt-4 flex flex-wrap items-center gap-2"> <span class="version-pill">v0.1.0</span> <span class="cat-badge" data-cat="grammar">Grammar</span> </div> <div class="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm" style="color:var(--zed-text-muted);"> <span class="inline-flex items-center gap-1"> <svg class="w-4 h-4" style="color:var(--zed-lime);" fill="currentColor" viewBox="0 0 20 20"> <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path> </svg> 3 stars
+</span> <span>FreeMarker</span> <span>MIT</span> <span>Updated 2/11/2026</span> <span>schema v1</span> </div> <div class="mt-2 text-sm" style="color:var(--zed-text-muted);">
+by debba </div>  </div> </header> <main class="flex-1 max-w-4xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <article class="prose readme-prose max-w-none"><h1 id="user-content-freemarker-extension-for-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#freemarker-extension-for-zed"><span class="heading-anchor-icon">#</span></a>Freemarker Extension for Zed</h1>
+<p><a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
+<a href="https://github.com/debba/zed-freemarker"><img src="https://img.shields.io/badge/version-0.1.0-green.svg" alt="Version"></a>
+<a href="https://discord.gg/YrZPHAwMSG"><img src="https://img.shields.io/discord/1470772941296894128?color=5865F2&#x26;logo=discord&#x26;logoColor=white" alt="Discord"></a></p>
+<p>Full-featured syntax highlighting and language support for Apache Freemarker Template Language (FTL) files in Zed editor, powered by a custom tree-sitter grammar.</p>
+<h2 id="user-content-table-of-contents"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#table-of-contents"><span class="heading-anchor-icon">#</span></a>Table of Contents</h2>
+<ul>
+<li><a href="#features">Features</a></li>
+<li><a href="#installation">Installation</a></li>
+<li><a href="#usage">Usage</a></li>
+<li><a href="#syntax-examples">Syntax Examples</a></li>
+<li><a href="#development">Development</a></li>
+<li><a href="#roadmap">Roadmap</a></li>
+<li><a href="#contributing">Contributing</a></li>
+<li><a href="#credits">Credits</a></li>
+<li><a href="#license">License</a></li>
+</ul>
+<p><strong>Discord</strong> - <a href="https://discord.gg/YrZPHAwMSG">Join our discord server</a> and chat with the maintainers.</p>
+<h2 id="user-content-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features"><span class="heading-anchor-icon">#</span></a>Features</h2>
+<ul>
+<li><strong>Full Syntax Highlighting</strong>: Complete tree-sitter-based parser for accurate FTL syntax highlighting</li>
+<li><strong>Comment Support</strong>: Both angle bracket (<code>&#x3C;#-- --></code>) and square bracket (<code>[#-- --]</code>) comment styles</li>
+<li><strong>Smart Bracket Matching</strong>: Automatic closing and matching for all bracket types</li>
+<li><strong>HTML Integration</strong>: Seamless HTML syntax highlighting within templates</li>
+<li><strong>Freemarker Directives</strong>: Full support for:
+<ul>
+<li>Control structures (<code>if</code>, <code>else</code>, <code>elseif</code>, <code>switch</code>)</li>
+<li>Loops (<code>list</code>, <code>foreach</code>)</li>
+<li>Variable assignment and interpolation</li>
+<li>Macros and functions</li>
+<li>Built-in functions</li>
+<li>Include and import statements</li>
+</ul>
+</li>
+<li><strong>Lightweight</strong>: Minimal overhead, fast parsing</li>
+<li><strong>Standards Compliant</strong>: Follows Apache Freemarker 2.3+ syntax specification</li>
+</ul>
+<h2 id="user-content-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation"><span class="heading-anchor-icon">#</span></a>Installation</h2>
+<h3 id="user-content-from-zed-extensions-gallery-recommended"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#from-zed-extensions-gallery-recommended"><span class="heading-anchor-icon">#</span></a>From Zed Extensions Gallery (Recommended)</h3>
+<ol>
+<li>Open Zed editor</li>
+<li>Press <code>Cmd+Shift+X</code> (macOS) or <code>Ctrl+Shift+X</code> (Linux/Windows) to open Extensions</li>
+<li>Search for "Freemarker"</li>
+<li>Click <strong>Install</strong></li>
+</ol>
+<h3 id="user-content-manual-installation-development"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#manual-installation-development"><span class="heading-anchor-icon">#</span></a>Manual Installation (Development)</h3>
+<p>For local development or testing unreleased versions:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Clone the repository into your Zed extensions directory</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">git</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> clone</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> https://github.com/debba/zed-freemarker</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> ~/.config/zed/extensions/freemarker</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Restart Zed or reload extensions</span></span></code></pre>
+<h3 id="user-content-verify-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#verify-installation"><span class="heading-anchor-icon">#</span></a>Verify Installation</h3>
+<ol>
+<li>Open a <code>.ftl</code> file in Zed</li>
+<li>Check the language indicator in the bottom-right corner</li>
+<li>You should see "Freemarker" as the active language</li>
+</ol>
+<h2 id="user-content-usage"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#usage"><span class="heading-anchor-icon">#</span></a>Usage</h2>
+<p>Once installed, the extension automatically activates for files with the <code>.ftl</code> extension. The editor will provide:</p>
+<ul>
+<li>Syntax highlighting for Freemarker directives and expressions</li>
+<li>Comment toggling with <code>Cmd+/</code> (macOS) or <code>Ctrl+/</code> (Linux/Windows)</li>
+<li>Automatic bracket pairing and closing</li>
+<li>HTML syntax within templates</li>
+</ul>
+<h2 id="user-content-syntax-examples"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#syntax-examples"><span class="heading-anchor-icon">#</span></a>Syntax Examples</h2>
+<h3 id="user-content-basic-variable-interpolation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#basic-variable-interpolation"><span class="heading-anchor-icon">#</span></a>Basic Variable Interpolation</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">&#x3C;#-- Variable assignment --></span></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">&#x3C;#assign userName = "John Doe"></span></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">&#x3C;#assign userAge = 25></span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">&#x3C;h1>Welcome ${userName}!&#x3C;/h1></span></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">&#x3C;p>Age: ${userAge}&#x3C;/p></span></span></code></pre>
+<h3 id="user-content-conditional-statements"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#conditional-statements"><span class="heading-anchor-icon">#</span></a>Conditional Statements</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">&#x3C;#if userAge >= 18></span></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">    &#x3C;p>You are an adult.&#x3C;/p></span></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">&#x3C;#elseif userAge >= 13></span></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">    &#x3C;p>You are a teenager.&#x3C;/p></span></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">&#x3C;#else></span></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">    &#x3C;p>You are a child.&#x3C;/p></span></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">&#x3C;/#if></span></span></code></pre>
+<h3 id="user-content-list-iteration"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#list-iteration"><span class="heading-anchor-icon">#</span></a>List Iteration</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">&#x3C;#assign fruits = ["Apple", "Banana", "Cherry", "Date"]></span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">&#x3C;h2>Fruit List:&#x3C;/h2></span></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">&#x3C;ul></span></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">    &#x3C;#list fruits as fruit></span></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">        &#x3C;li>${fruit}&#x3C;/li></span></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">    &#x3C;/#list></span></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">&#x3C;/ul></span></span></code></pre>
+<h3 id="user-content-hashmap-operations"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#hashmap-operations"><span class="heading-anchor-icon">#</span></a>Hash/Map Operations</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">&#x3C;#assign user = {</span></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">    "name": "Jane Smith",</span></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">    "email": "jane@example.com",</span></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">    "role": "Administrator"</span></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">}></span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">&#x3C;h2>User Information:&#x3C;/h2></span></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">&#x3C;dl></span></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">    &#x3C;dt>Name:&#x3C;/dt></span></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">    &#x3C;dd>${user.name}&#x3C;/dd></span></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">    &#x3C;dt>Email:&#x3C;/dt></span></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">    &#x3C;dd>${user.email}&#x3C;/dd></span></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">&#x3C;/dl></span></span></code></pre>
+<h3 id="user-content-built-in-functions"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#built-in-functions"><span class="heading-anchor-icon">#</span></a>Built-in Functions</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">&#x3C;p>Name in uppercase: ${user.name?upper_case}&#x3C;/p></span></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">&#x3C;p>Name length: ${user.name?length}&#x3C;/p></span></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">&#x3C;p>First fruit: ${fruits?first}&#x3C;/p></span></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">&#x3C;p>Capitalized: ${userName?cap_first}&#x3C;/p></span></span></code></pre>
+<h3 id="user-content-null-handling"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#null-handling"><span class="heading-anchor-icon">#</span></a>Null Handling</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">&#x3C;#-- Check if variable exists --></span></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">&#x3C;#if optionalValue??></span></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">    &#x3C;p>Value: ${optionalValue}&#x3C;/p></span></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">&#x3C;#else></span></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">    &#x3C;p>Value is not set&#x3C;/p></span></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">&#x3C;/#if></span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">&#x3C;#-- Default value --></span></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">&#x3C;p>${pageTitle!"Default Title"}&#x3C;/p></span></span></code></pre>
+<h3 id="user-content-macros"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#macros"><span class="heading-anchor-icon">#</span></a>Macros</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">&#x3C;#-- Macro definition --></span></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">&#x3C;#macro greet person></span></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">    &#x3C;p>Hello, ${person}! Nice to meet you.&#x3C;/p></span></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">&#x3C;/#macro></span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">&#x3C;#-- Macro usage --></span></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">&#x3C;@greet person="Alice" /></span></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">&#x3C;@greet person="Bob" /></span></span></code></pre>
+<h3 id="user-content-alternative-square-bracket-syntax"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#alternative-square-bracket-syntax"><span class="heading-anchor-icon">#</span></a>Alternative Square Bracket Syntax</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">[#assign name = "John Doe"]</span></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">&#x3C;h1>Hello ${name}!&#x3C;/h1></span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">[#if user??]</span></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">    &#x3C;p>Welcome, ${user.name}!&#x3C;/p></span></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">[#else]</span></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">    &#x3C;p>Please log in.&#x3C;/p></span></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">[/#if]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">[#list products as product]</span></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">    &#x3C;li>${product.name} - ${product.price}&#x3C;/li></span></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">[/#list]</span></span></code></pre>
+<h3 id="user-content-include-and-import"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#include-and-import"><span class="heading-anchor-icon">#</span></a>Include and Import</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">&#x3C;#-- Include another template --></span></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">&#x3C;#include "header.ftl"></span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">&#x3C;#-- Import macros from another file --></span></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">&#x3C;#import "lib/utils.ftl" as utils></span></span>
+<span class="line"><span style="color:#FDAEB7;--shiki-light-font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">&#x3C;@utils.formatDate date=.now /></span></span></code></pre>
+<h2 id="user-content-development"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#development"><span class="heading-anchor-icon">#</span></a>Development</h2>
+<h3 id="user-content-prerequisites"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#prerequisites"><span class="heading-anchor-icon">#</span></a>Prerequisites</h3>
+<ul>
+<li><a href="https://rustup.rs/">Rust</a> (for building tree-sitter grammar)</li>
+<li><a href="https://nodejs.org/">Node.js</a> (for tree-sitter CLI)</li>
+<li><a href="https://tree-sitter.github.io/tree-sitter/creating-parsers#installation">Tree-sitter CLI</a></li>
+</ul>
+<h3 id="user-content-building-from-source"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#building-from-source"><span class="heading-anchor-icon">#</span></a>Building from Source</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Clone the repository</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">git</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> clone</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> https://github.com/debba/zed-freemarker.git</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">cd</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> zed-freemarker</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Build the tree-sitter grammar</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">cd</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> grammars/freemarker</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">npm</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> install</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">npm</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> run</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> build</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Return to root and install in Zed</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">cd</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> ../..</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cp</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -r</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> .</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> ~/.config/zed/extensions/freemarker</span></span></code></pre>
+<h3 id="user-content-testing-the-grammar"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#testing-the-grammar"><span class="heading-anchor-icon">#</span></a>Testing the Grammar</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">cd</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> grammars/freemarker</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Run tree-sitter tests</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">tree-sitter</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> test</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Open the playground for interactive testing</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">tree-sitter</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> playground</span></span></code></pre>
+<h3 id="user-content-project-structure"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#project-structure"><span class="heading-anchor-icon">#</span></a>Project Structure</h3>
+<pre><code>zed-freemarker/
+├── extension.toml              # Extension metadata
+├── languages/
+│   └── freemarker/
+│       └── config.toml         # Language configuration
+├── grammars/
+│   └── freemarker/             # Tree-sitter grammar
+│       ├── src/
+│       │   ├── grammar.json
+│       │   └── node-types.json
+│       ├── bindings/
+│       ├── Cargo.toml
+│       └── package.json
+├── example.ftl                 # Example template file
+└── README.md
+</code></pre>
+<h2 id="user-content-roadmap"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#roadmap"><span class="heading-anchor-icon">#</span></a>Roadmap</h2>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled> Language Server Protocol (LSP) support for:
+<ul>
+<li>Code completion</li>
+<li>Go to definition</li>
+<li>Find references</li>
+<li>Hover documentation</li>
+</ul>
+</li>
+<li class="task-list-item"><input type="checkbox" disabled> Snippet library for common Freemarker patterns</li>
+<li class="task-list-item"><input type="checkbox" disabled> Auto-formatting support</li>
+<li class="task-list-item"><input type="checkbox" disabled> Template validation and error checking</li>
+<li class="task-list-item"><input type="checkbox" disabled> Integration with Freemarker documentation</li>
+<li class="task-list-item"><input type="checkbox" disabled> Support for custom directives</li>
+<li class="task-list-item"><input type="checkbox" disabled> Theme customization for better highlighting</li>
+</ul>
+<h2 id="user-content-contributing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#contributing"><span class="heading-anchor-icon">#</span></a>Contributing</h2>
+<p>Contributions are welcome and appreciated! Here's how you can help:</p>
+<h3 id="user-content-reporting-issues"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#reporting-issues"><span class="heading-anchor-icon">#</span></a>Reporting Issues</h3>
+<p>If you find a bug or have a feature request:</p>
+<ol>
+<li>Check if the issue already exists in <a href="https://github.com/debba/zed-freemarker/issues">GitHub Issues</a></li>
+<li>If not, create a new issue with:
+<ul>
+<li>Clear description of the problem or feature</li>
+<li>Steps to reproduce (for bugs)</li>
+<li>Example code that demonstrates the issue</li>
+<li>Your Zed version and operating system</li>
+</ul>
+</li>
+</ol>
+<h3 id="user-content-pull-requests"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#pull-requests"><span class="heading-anchor-icon">#</span></a>Pull Requests</h3>
+<ol>
+<li>Fork the repository</li>
+<li>Create a feature branch (<code>git checkout -b feature/amazing-feature</code>)</li>
+<li>Make your changes</li>
+<li>Test thoroughly with various <code>.ftl</code> files</li>
+<li>Commit your changes (<code>git commit -m 'Add amazing feature'</code>)</li>
+<li>Push to the branch (<code>git push origin feature/amazing-feature</code>)</li>
+<li>Open a Pull Request with a clear description of your changes</li>
+</ol>
+<h3 id="user-content-development-guidelines"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#development-guidelines"><span class="heading-anchor-icon">#</span></a>Development Guidelines</h3>
+<ul>
+<li>Follow existing code style and conventions</li>
+<li>Add tests for new features when applicable</li>
+<li>Update documentation for user-facing changes</li>
+<li>Keep commits focused and atomic</li>
+<li>Write clear commit messages</li>
+</ul>
+<h2 id="user-content-credits"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#credits"><span class="heading-anchor-icon">#</span></a>Credits</h2>
+<ul>
+<li>Inspired by the VS Code <a href="https://github.com/dcortes92/vs-freemarker">vs-freemarker</a> extension</li>
+<li>Built with <a href="https://tree-sitter.github.io/">Tree-sitter</a></li>
+<li>Developed for <a href="https://zed.dev/">Zed</a> editor</li>
+<li><a href="https://freemarker.apache.org/">Apache Freemarker</a> project</li>
+</ul>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>This project is licensed under the MIT License - see the <a href="https://github.com/debba/zed-freemarker/blob/HEAD/LICENSE" target="_blank" rel="noopener">LICENSE</a> file for details.</p>
+<p>Copyright (c) 2026 Andrea Debernardi</p>
+<h2 id="user-content-support"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#support"><span class="heading-anchor-icon">#</span></a>Support</h2>
+<ul>
+<li><strong>Issues</strong>: <a href="https://github.com/debba/zed-freemarker/issues">GitHub Issues</a></li>
+<li><strong>Repository</strong>: <a href="https://github.com/debba/zed-freemarker">GitHub</a></li>
+<li><strong>Tree-sitter Grammar</strong>: <a href="https://github.com/debba/tree-sitter-freemarker">tree-sitter-freemarker</a></li>
+<li><strong>Freemarker Documentation</strong>: <a href="https://freemarker.apache.org/docs/">Official Docs</a></li>
+</ul>
+<hr>
+<p>Made with care for the Zed community</p></article> </main> <footer class="mt-auto" style="background:var(--zed-bg);border-top:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:var(--zed-text-muted);">
+← Back to extension list
+</a> </div> </footer> </body></html>

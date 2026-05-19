@@ -1,0 +1,243 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Fastapi Snippets — Zed Extension Safari</title><meta name="description" content="Snippet For Fastapi"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Fastapi Snippets — Zed Extension Safari"><meta property="og:description" content="Snippet For Fastapi"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Fastapi Snippets — Zed Extension Safari"><meta name="twitter:description" content="Snippet For Fastapi"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.DJSXA_CW.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);">  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-4"> <a href="/gh-packages-zed" class="transition" style="color:var(--zed-text-muted);">← All extensions</a> </nav> <div class="flex flex-wrap items-start justify-between gap-4"> <div class="min-w-0"> <div class="font-mono text-xs mb-2" style="color:var(--zed-muted);"> NarmadaWeb/fastapi-snippets-zed </div> <h1 class="text-2xl sm:text-3xl font-bold break-words leading-tight" style="color:var(--zed-blue-pale);"> Fastapi Snippets </h1> <p class="mt-2 text-pretty" style="color:var(--zed-text-muted);"> A comprehensive collection of production-ready FastAPI snippets for the Zed code editor. Boost your development speed with templates for endpoints, security, database models, and more. </p> </div> <a href="https://github.com/NarmadaWeb/fastapi-snippets-zed" target="_blank" rel="noopener" class="zed-btn-primary shrink-0 inline-flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View on GitHub
+</a> </div> <div class="mt-4 flex flex-wrap items-center gap-2"> <span class="version-pill">v0.2.0</span> <span class="cat-badge" data-cat="snippets">Snippets</span> </div> <div class="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm" style="color:var(--zed-text-muted);"> <span class="inline-flex items-center gap-1"> <svg class="w-4 h-4" style="color:var(--zed-lime);" fill="currentColor" viewBox="0 0 20 20"> <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path> </svg> 16 stars
+</span>  <span>MIT</span> <span>Updated 9/16/2025</span> <span>schema v1</span> </div> <div class="mt-2 text-sm" style="color:var(--zed-text-muted);">
+by RajaSunrise </div>  </div> </header> <main class="flex-1 max-w-4xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <article class="prose readme-prose max-w-none"><h1 id="user-content--ultimate-fastapi-snippets-for-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-ultimate-fastapi-snippets-for-zed"><span class="heading-anchor-icon">#</span></a>🚀 Ultimate FastAPI Snippets for Zed</h1>
+<div align="center">
+  <img src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png" alt="FastAPI Logo" width="200">
+  <br>
+  <p>
+    <a href="https://marketplace.zed.dev/extensions/fastapi-snippets">
+      <img alt="Zed Marketplace" src="https://img.shields.io/badge/Zed-Marketplace-8A2BE2?logo=zed&#x26;logoColor=white">
+    </a>
+    <img alt="Language" src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&#x26;logoColor=white">
+    <img alt="Framework" src="https://img.shields.io/badge/FastAPI-0.100%2B-009688?logo=fastapi&#x26;logoColor=white">
+  </p>
+</div>
+<p>Supercharge your FastAPI development in the <a href="https://zed.dev/">Zed code editor</a> with this collection of production-ready code snippets. From bootstrapping your app to deploying advanced features, these snippets are designed to follow modern best practices and save you time.</p>
+<h2 id="user-content--features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-features"><span class="heading-anchor-icon">#</span></a>✨ Features</h2>
+<ul>
+<li><strong>Modern Syntax</strong>: Uses modern Python features like <code>Annotated</code> for clear, type-safe code.</li>
+<li><strong>Comprehensive</strong>: Covers everything from basic app setup to advanced topics like WebSockets, caching, and background tasks.</li>
+<li><strong>Pydantic v2 Ready</strong>: Snippets are designed to work with the latest Pydantic features.</li>
+<li><strong>Asynchronous by Default</strong>: Prioritizes <code>async</code> patterns for high-performance applications.</li>
+<li><strong>Well-Documented</strong>: Each snippet comes with a clear description of what it does and how to use it.</li>
+</ul>
+<h2 id="user-content-️-new-in-this-version"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#️-new-in-this-version"><span class="heading-anchor-icon">#</span></a>⚡️ New in this Version</h2>
+<p>This version introduces powerful new snippets and modernizes existing ones for a better development experience.</p>
+<ul>
+<li><strong><code>fastsettings</code></strong>: Manage your application's configuration effortlessly using Pydantic's <code>BaseSettings</code>.</li>
+<li><strong><code>fastcrud</code></strong>: A generic, reusable router for basic Create, Read, Update, Delete operations with SQLAlchemy.</li>
+<li><strong><code>faststream</code></strong>: Implement streaming responses for large data or video feeds.</li>
+<li><strong>Modernized Snippets</strong>: All existing snippets have been updated to use the latest FastAPI and Pydantic best practices, including <code>Annotated</code> type hints and Pydantic v2 <code>model_config</code>.</li>
+</ul>
+<h3 id="user-content-example-fastsettings"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#example-fastsettings"><span class="heading-anchor-icon">#</span></a>Example: <code>fastsettings</code></h3>
+<p>Quickly define and load configuration from environment variables:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#F97583;--shiki-dark:#F97583">from</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> pydantic_settings </span><span style="color:#F97583;--shiki-dark:#F97583">import</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> BaseSettings, SettingsConfigDict</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#F97583;--shiki-dark:#F97583">class</span><span style="color:#B392F0;--shiki-dark:#B392F0"> Settings</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">(</span><span style="color:#B392F0;--shiki-dark:#B392F0">BaseSettings</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">):</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    app_name: </span><span style="color:#79B8FF;--shiki-dark:#79B8FF">str</span><span style="color:#F97583;--shiki-dark:#F97583"> =</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> "Awesome API"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    database_url: </span><span style="color:#79B8FF;--shiki-dark:#79B8FF">str</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    secret_key: </span><span style="color:#79B8FF;--shiki-dark:#79B8FF">str</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    model_config </span><span style="color:#F97583;--shiki-dark:#F97583">=</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> SettingsConfigDict(</span><span style="color:#FFAB70;--shiki-dark:#FFAB70">env_file</span><span style="color:#F97583;--shiki-dark:#F97583">=</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">".env"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">settings </span><span style="color:#F97583;--shiki-dark:#F97583">=</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> Settings()</span></span></code></pre>
+<h3 id="user-content-example-fastcrud"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#example-fastcrud"><span class="heading-anchor-icon">#</span></a>Example: <code>fastcrud</code></h3>
+<p>Generate a full set of CRUD endpoints for a SQLAlchemy model with a single function:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># In your router file</span></span>
+<span class="line"><span style="color:#F97583;--shiki-dark:#F97583">from</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> . </span><span style="color:#F97583;--shiki-dark:#F97583">import</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> models, schemas</span></span>
+<span class="line"><span style="color:#F97583;--shiki-dark:#F97583">from</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> .database </span><span style="color:#F97583;--shiki-dark:#F97583">import</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> get_db</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Create the router</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">crud_router </span><span style="color:#F97583;--shiki-dark:#F97583">=</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> create_crud_router(</span></span>
+<span class="line"><span style="color:#FFAB70;--shiki-dark:#FFAB70">    prefix</span><span style="color:#F97583;--shiki-dark:#F97583">=</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"/users"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#FFAB70;--shiki-dark:#FFAB70">    tags</span><span style="color:#F97583;--shiki-dark:#F97583">=</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">[</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"Users"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">],</span></span>
+<span class="line"><span style="color:#FFAB70;--shiki-dark:#FFAB70">    db_session</span><span style="color:#F97583;--shiki-dark:#F97583">=</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">get_db,</span></span>
+<span class="line"><span style="color:#FFAB70;--shiki-dark:#FFAB70">    db_model</span><span style="color:#F97583;--shiki-dark:#F97583">=</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">models.User,</span></span>
+<span class="line"><span style="color:#FFAB70;--shiki-dark:#FFAB70">    schema_read</span><span style="color:#F97583;--shiki-dark:#F97583">=</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">schemas.UserRead,</span></span>
+<span class="line"><span style="color:#FFAB70;--shiki-dark:#FFAB70">    schema_create</span><span style="color:#F97583;--shiki-dark:#F97583">=</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">schemas.UserCreate,</span></span>
+<span class="line"><span style="color:#FFAB70;--shiki-dark:#FFAB70">    schema_update</span><span style="color:#F97583;--shiki-dark:#F97583">=</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">schemas.UserUpdate,</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">app.include_router(crud_router)</span></span></code></pre>
+<h2 id="user-content--full-snippet-reference"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-full-snippet-reference"><span class="heading-anchor-icon">#</span></a>📚 Full Snippet Reference</h2>
+<p>Here is a complete list of all available snippets.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Prefix</th><th>Name</th><th>Description</th></tr></thead><tbody><tr><td><code>fastapp</code></td><td>FastAPI App Instance</td><td>Creates a new FastAPI application instance with rich metadata.</td></tr><tr><td><code>fastrouter</code></td><td>APIRouter Instance</td><td>Creates a new APIRouter for modular endpoint organization.</td></tr><tr><td><code>fastmodel</code></td><td>Pydantic Model (v2)</td><td>Defines a Pydantic model with modern validation and schema examples (Pydantic v2).</td></tr><tr><td><code>fastget</code></td><td>GET Endpoint</td><td>Defines a GET endpoint with path variables, dependencies, and response model.</td></tr><tr><td><code>fastpost</code></td><td>POST Endpoint</td><td>Defines a POST endpoint with a request body, background tasks, and a 201 status code.</td></tr><tr><td><code>fastcrud</code></td><td>Generic CRUD Router</td><td>Creates a generic CRUD router for a SQLAlchemy model.</td></tr><tr><td><code>faststream</code></td><td>Streaming Response</td><td>Defines an endpoint that streams data, e.g., for large files or live data.</td></tr><tr><td><code>fastsettings</code></td><td>Pydantic Settings</td><td>Manages application configuration using Pydantic's BaseSettings for env variables.</td></tr><tr><td><code>fastsecurity</code></td><td>JWT Security Setup</td><td>Sets up JWT authentication with token creation and user dependency.</td></tr><tr><td><code>fastdep</code></td><td>Database Dependency</td><td>Creates a dependency for yielding a database session per request.</td></tr><tr><td><code>fastcors</code></td><td>CORS Middleware</td><td>Configures Cross-Origin Resource Sharing (CORS) middleware.</td></tr><tr><td><code>fastupload</code></td><td>File Upload Endpoint</td><td>Defines an endpoint for handling file uploads.</td></tr><tr><td><code>fastws</code></td><td>WebSocket Endpoint</td><td>Defines a basic WebSocket endpoint for real-time communication.</td></tr><tr><td><code>fastmiddle</code></td><td>Custom Middleware</td><td>Adds custom middleware, e.g., to calculate and add process time to headers.</td></tr><tr><td><code>fasttest</code></td><td>Pytest Test Client</td><td>Sets up a TestClient for use with Pytest to test API endpoints.</td></tr><tr><td><code>faststatic</code></td><td>Static Files Mounting</td><td>Mounts a directory to serve static files like CSS, JS, and images.</td></tr><tr><td><code>fasttemplates</code></td><td>Jinja2 Templates</td><td>Configures Jinja2 for rendering HTML templates.</td></tr><tr><td><code>fastdb</code></td><td>SQLAlchemy Sync Setup</td><td>Sets up a synchronous SQLAlchemy engine and session maker.</td></tr><tr><td><code>fastlimit</code></td><td>Rate Limiting</td><td>Implements API rate limiting using the slowapi library.</td></tr><tr><td><code>fastresponse</code></td><td>ORJSON Response</td><td>Uses ORJSONResponse for faster JSON serialization in an endpoint.</td></tr><tr><td><code>fasthealth</code></td><td>Health Check Endpoint</td><td>Creates a simple health check endpoint, often excluded from public docs.</td></tr><tr><td><code>fastpage</code></td><td>Pagination Helper</td><td>Provides a generic, reusable pagination function and response model.</td></tr><tr><td><code>fastbroadcast</code></td><td>WebSocket Broadcast Manager</td><td>Creates a manager to handle multiple WebSocket connections for broadcasting.</td></tr><tr><td><code>fastsqla</code></td><td>SQLAlchemy ORM Model</td><td>Defines a SQLAlchemy ORM model class for database table mapping.</td></tr><tr><td><code>fastroles</code></td><td>Role-Based Access Control</td><td>Implements a flexible dependency for role-based access control (RBAC).</td></tr><tr><td><code>fastasyncdb</code></td><td>Async Database Connection</td><td>Handles the lifecycle of an asynchronous database connection.</td></tr><tr><td><code>fastexcept</code></td><td>Custom Exception Handler</td><td>Defines a custom exception and its corresponding handler.</td></tr><tr><td><code>fastemail</code></td><td>Background Email Sending</td><td>Adds an email sending function to run in the background.</td></tr><tr><td><code>fastcache</code></td><td>Redis Caching</td><td>Integrates Redis for caching endpoint responses.</td></tr><tr><td><code>fastlog</code></td><td>Structured Logging</td><td>Configures structured logging using Python's dictConfig.</td></tr></tbody></table>
+<h2 id="user-content--contributing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-contributing"><span class="heading-anchor-icon">#</span></a>🤝 Contributing</h2>
+<p>Contributions are welcome! If you have a snippet that you think would be a great addition, please feel free to open a pull request.</p>
+<ol>
+<li>Fork the repository.</li>
+<li>Create a new branch (<code>git checkout -b feature/my-new-snippet</code>).</li>
+<li>Add your snippet to <code>snippets/python.json</code>.</li>
+<li>Update this README file to include your new snippet.</li>
+<li>Open a pull request with a clear description of your changes.</li>
+</ol>
+<h2 id="user-content--license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-license"><span class="heading-anchor-icon">#</span></a>📜 License</h2>
+<p>This project is licensed under the MIT License. See the <a href="https://github.com/NarmadaWeb/fastapi-snippets-zed/blob/HEAD/LICENSE" target="_blank" rel="noopener">LICENSE</a> file for details.</p>
+<hr>
+<div align="center">
+  <strong>Happy Coding! 🐍</strong>
+</div></article> </main> <footer class="mt-auto" style="background:var(--zed-bg);border-top:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:var(--zed-text-muted);">
+← Back to extension list
+</a> </div> </footer> </body></html>

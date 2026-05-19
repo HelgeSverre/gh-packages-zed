@@ -1,0 +1,11 @@
+id = "genexpr"
+name = "Genexpr"
+version = "0.1.0"
+schema_version = 1
+authors = ["Isabel Kaspriskie <mail@isabelgk.com>"]
+description = "Genexpr support"
+repository = "https://github.com/isabelgk/genexpr-zed"
+
+[grammars.genexpr]
+repository = "https://github.com/isabelgk/tree-sitter-genexpr"
+rev = "17703728be0e51cce993a5e440bd7a3fa3d6e374"

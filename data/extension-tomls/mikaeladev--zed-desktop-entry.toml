@@ -1,0 +1,11 @@
+id = "desktop"
+name = "Desktop Entry"
+description = "Syntax highlighting for .desktop and .directory files"
+version = "0.1.0"
+authors = ["mikaeladev"]
+repository = "https://github.com/mikaeladev/zed-desktop-entry"
+schema_version = 1
+
+[grammars.desktop]
+repository = "https://github.com/ValdezFOmar/tree-sitter-desktop"
+rev = "4a0a5eec8644a7f3357f852d7a16d2550bb2cbc2" # v1.0.1

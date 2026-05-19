@@ -1,0 +1,11 @@
+id = "hql"
+name = "HQL"
+version = "0.0.1"
+schema_version = 1
+authors = ["Diego Reis <el-yawd@proton.me>"]
+repository = "https://github.com/el-yawd/hql-zed"
+description = "HQL syntax highlighter"
+
+[grammars.hql]
+repository = "https://github.com/el-yawd/tree-sitter-hql"
+rev = "8004a59420796ae311bfa4cc30a2e3be611ce046"

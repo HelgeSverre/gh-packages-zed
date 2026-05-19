@@ -1,0 +1,251 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Defold — Zed Extension Safari</title><meta name="description" content="Defold game engine support with bundled API docs, Lua language server, and code snippets"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Defold — Zed Extension Safari"><meta property="og:description" content="Defold game engine support with bundled API docs, Lua language server, and code snippets"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Defold — Zed Extension Safari"><meta name="twitter:description" content="Defold game engine support with bundled API docs, Lua language server, and code snippets"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.DJSXA_CW.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);">  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-4"> <a href="/gh-packages-zed" class="transition" style="color:var(--zed-text-muted);">← All extensions</a> </nav> <div class="flex flex-wrap items-start justify-between gap-4"> <div class="min-w-0"> <div class="font-mono text-xs mb-2" style="color:var(--zed-muted);"> whiterabbit1983/zed-defold </div> <h1 class="text-2xl sm:text-3xl font-bold break-words leading-tight" style="color:var(--zed-blue-pale);"> Defold </h1> <p class="mt-2 text-pretty" style="color:var(--zed-text-muted);"> Defold game engine support with bundled API docs, Lua language server, and code snippets </p> </div> <a href="https://github.com/whiterabbit1983/zed-defold" target="_blank" rel="noopener" class="zed-btn-primary shrink-0 inline-flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View on GitHub
+</a> </div> <div class="mt-4 flex flex-wrap items-center gap-2"> <span class="version-pill">v0.1.4</span> <span class="cat-badge" data-cat="grammar">Grammar</span><span class="cat-badge" data-cat="language-server">Language Server</span> </div> <div class="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm" style="color:var(--zed-text-muted);"> <span class="inline-flex items-center gap-1"> <svg class="w-4 h-4" style="color:var(--zed-lime);" fill="currentColor" viewBox="0 0 20 20"> <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path> </svg> 11 stars
+</span> <span>Rust</span> <span>Apache-2.0</span> <span>Updated 12/2/2025</span> <span>schema v1</span> </div> <div class="mt-2 text-sm" style="color:var(--zed-text-muted);">
+by Dmitry Paramonov </div>  </div> </header> <main class="flex-1 max-w-4xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <article class="prose readme-prose max-w-none"><h1 id="user-content-zed-defold-extension"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#zed-defold-extension"><span class="heading-anchor-icon">#</span></a>Zed Defold Extension</h1>
+<p>A Defold game engine extension for the Zed editor that provides Lua language support for Defold script files.</p>
+<h2 id="user-content--installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-installation"><span class="heading-anchor-icon">#</span></a>🚀 Installation</h2>
+<h3 id="user-content-using-zeds-built-in-extension-installer-recommended"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#using-zeds-built-in-extension-installer-recommended"><span class="heading-anchor-icon">#</span></a>Using Zed's Built-in Extension Installer (Recommended)</h3>
+<p>The easiest way to install this extension is to use Zed's "Install Dev Extension" feature, which handles compilation automatically:</p>
+<ol>
+<li><strong>Clone this repository</strong>:</li>
+</ol>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">git</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> clone</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> https://github.com/whiterabbit1983/zed-defold.git</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">cd</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> zed-defold</span></span></code></pre>
+<ol start="2">
+<li>
+<p><strong>Open Zed and install the dev extension</strong>:</p>
+<ul>
+<li>Press <code>Ctrl+Shift+P</code> (Windows/Linux) or <code>Cmd+Shift+P</code> (macOS)</li>
+<li>Type <code>zed: install dev extension</code></li>
+<li>Select the command and navigate to this extension's directory</li>
+<li>Zed will automatically compile and install the extension</li>
+</ul>
+</li>
+<li>
+<p><strong>Done!</strong> The extension will appear in your installed extensions list.</p>
+</li>
+</ol>
+<blockquote>
+<p><strong>Note</strong>: Zed will automatically install the required <code>wasm32-wasip1</code> Rust target and compile the extension if needed. You can skip the manual steps below.</p>
+</blockquote>
+<h3 id="user-content-manual-build-and-installation-advanced"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#manual-build-and-installation-advanced"><span class="heading-anchor-icon">#</span></a>Manual Build and Installation (Advanced)</h3>
+<p>If you prefer to build manually or Zed's auto-compilation doesn't work:</p>
+<ol>
+<li><strong>Install the WebAssembly target</strong> (if not already installed):</li>
+</ol>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">rustup</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> target</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> add</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> wasm32-wasip1</span></span></code></pre>
+<ol start="2">
+<li><strong>Build the extension</strong>:</li>
+</ol>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> build</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --release</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --target</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> wasm32-wasip1</span></span></code></pre>
+<p>This creates <code>target/wasm32-wasip1/release/zed_defold.wasm</code></p>
+<ol start="3">
+<li><strong>Install using Zed</strong>:
+<ul>
+<li>Press <code>Ctrl+Shift+P</code> (Windows/Linux) or <code>Cmd+Shift+P</code> (macOS)</li>
+<li>Type <code>zed: install dev extension</code></li>
+<li>Navigate to this extension's directory</li>
+<li>Zed will register the pre-built extension</li>
+</ul>
+</li>
+</ol>
+<h3 id="user-content-prerequisites"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#prerequisites"><span class="heading-anchor-icon">#</span></a>Prerequisites</h3>
+<ul>
+<li><a href="https://rustup.rs/">Rust</a> (latest stable version) - for manual builds</li>
+<li>Zed editor installed</li>
+</ul>
+<h2 id="user-content-setup-for-build-tasks"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#setup-for-build-tasks"><span class="heading-anchor-icon">#</span></a>Setup for Build Tasks</h2>
+<h3 id="user-content-prerequisites-1"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#prerequisites-1"><span class="heading-anchor-icon">#</span></a>Prerequisites</h3>
+<ol>
+<li><strong>Install Defold</strong>: Download from <a href="https://defold.com/download/">https://defold.com/download/</a></li>
+<li><strong>Install bob.jar</strong>: Defold's command-line build tool
+<ul>
+<li>Download from: <a href="https://github.com/defold/defold/releases">https://github.com/defold/defold/releases</a></li>
+<li>Or use the one from your Defold installation</li>
+</ul>
+</li>
+</ol>
+<h3 id="user-content-environment-variables"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#environment-variables"><span class="heading-anchor-icon">#</span></a>Environment Variables</h3>
+<p>To use build tasks, add these to your shell profile (<code>~/.bashrc</code>, <code>~/.zshrc</code>, or Windows Environment Variables):</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Path to bob.jar (required for build tasks)</span></span>
+<span class="line"><span style="color:#F97583;--shiki-dark:#F97583">export</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> BOB_JAR</span><span style="color:#F97583;--shiki-dark:#F97583">=</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"/path/to/bob.jar"</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Defold credentials (optional, needed for cloud builds)</span></span>
+<span class="line"><span style="color:#F97583;--shiki-dark:#F97583">export</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> DEFOLD_EMAIL</span><span style="color:#F97583;--shiki-dark:#F97583">=</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"your.email@example.com"</span></span>
+<span class="line"><span style="color:#F97583;--shiki-dark:#F97583">export</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> DEFOLD_AUTH</span><span style="color:#F97583;--shiki-dark:#F97583">=</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"your_auth_token"</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Android signing (optional, for Android bundles)</span></span>
+<span class="line"><span style="color:#F97583;--shiki-dark:#F97583">export</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> ANDROID_KEYSTORE</span><span style="color:#F97583;--shiki-dark:#F97583">=</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"/path/to/keystore.keystore"</span></span>
+<span class="line"><span style="color:#F97583;--shiki-dark:#F97583">export</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> ANDROID_KEYSTORE_PASS</span><span style="color:#F97583;--shiki-dark:#F97583">=</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"your_password"</span></span>
+<span class="line"><span style="color:#F97583;--shiki-dark:#F97583">export</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> ANDROID_KEYSTORE_ALIAS</span><span style="color:#F97583;--shiki-dark:#F97583">=</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"your_alias"</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># iOS signing (optional, for iOS bundles)</span></span>
+<span class="line"><span style="color:#F97583;--shiki-dark:#F97583">export</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> IOS_IDENTITY</span><span style="color:#F97583;--shiki-dark:#F97583">=</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"iPhone Developer: Your Name"</span></span>
+<span class="line"><span style="color:#F97583;--shiki-dark:#F97583">export</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> IOS_PROVISIONING</span><span style="color:#F97583;--shiki-dark:#F97583">=</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"/path/to/profile.mobileprovision"</span></span></code></pre>
+<h3 id="user-content-getting-your-auth-token"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#getting-your-auth-token"><span class="heading-anchor-icon">#</span></a>Getting Your Auth Token</h3>
+<ol>
+<li>Open Defold Editor</li>
+<li>Go to <strong>File</strong> → <strong>Preferences</strong></li>
+<li>Copy your authentication token from the <strong>General</strong> tab</li>
+</ol>
+<h3 id="user-content-alternative-shell-scripts"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#alternative-shell-scripts"><span class="heading-anchor-icon">#</span></a>Alternative: Shell Scripts</h3>
+<p>If you prefer shell scripts over Zed tasks, create these in your project:</p>
+<p><strong><code>build.sh</code> (macOS/Linux):</strong></p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">#!/bin/bash</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">java</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -jar</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> "</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">$BOB_JAR</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  --email</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> "</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">$DEFOLD_EMAIL</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  --auth</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> "</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">$DEFOLD_AUTH</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">  build</span></span></code></pre>
+<p><strong><code>bundle.sh</code> (macOS/Linux):</strong></p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">#!/bin/bash</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">PLATFORM</span><span style="color:#F97583;--shiki-dark:#F97583">=</span><span style="color:#FFAB70;--shiki-dark:#FFAB70">${1</span><span style="color:#F97583;--shiki-dark:#F97583">:-</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">js-web</span><span style="color:#FFAB70;--shiki-dark:#FFAB70">}</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">java</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -jar</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> "</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">$BOB_JAR</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  --email</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> "</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">$DEFOLD_EMAIL</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  --auth</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> "</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">$DEFOLD_AUTH</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  --platform</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> "</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">$PLATFORM</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  --bundle-output</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> build/bundle</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  --variant</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> debug</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">  resolve</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> build</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> bundle</span></span></code></pre>
+<p>Make them executable:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">chmod</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> +x</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> build.sh</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> bundle.sh</span></span></code></pre>
+<p>Then run from Zed's terminal:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">./build.sh</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">./bundle.sh</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> x86_64-win32</span></span></code></pre>
+<h3 id="user-content-available-platforms"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#available-platforms"><span class="heading-anchor-icon">#</span></a>Available Platforms</h3>
+<ul>
+<li><code>js-web</code> - HTML5</li>
+<li><code>x86_64-win32</code> - Windows 64-bit</li>
+<li><code>x86_64-macos</code> / <code>arm64-macos</code> - macOS Intel/Apple Silicon</li>
+<li><code>x86_64-linux</code> - Linux 64-bit</li>
+<li><code>arm64-android</code> / <code>armv7-android</code> - Android</li>
+<li><code>arm64-ios</code> / <code>x86_64-ios</code> - iOS</li>
+</ul>
+<h2 id="user-content-build-tasks"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#build-tasks"><span class="heading-anchor-icon">#</span></a>Build Tasks</h2>
+<p>While Zed extensions don't support custom commands (yet), you can use <strong>Zed's task system</strong> to run Defold build commands:</p>
+<h3 id="user-content-quick-install"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#quick-install"><span class="heading-anchor-icon">#</span></a>Quick Install</h3>
+<p>Use the installer script from the <code>scripts/</code> folder of this repository.</p>
+<p>Run from your Defold project root:</p>
+<p><strong>Windows:</strong></p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># From your Defold project root</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">path\to\zed-defold\scripts\install-tasks.ps1</span></span></code></pre>
+<p><strong>Linux/macOS:</strong></p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># From your Defold project root</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">/path/to/zed-defold/scripts/install-tasks.sh</span></span></code></pre>
+<h3 id="user-content-manual-setup-all-platforms"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#manual-setup-all-platforms"><span class="heading-anchor-icon">#</span></a>Manual Setup (All platforms)</h3>
+<ol>
+<li>Copy <code>defold-tasks.json</code> from this repository to <code>.zed/tasks.json</code> in your Defold project</li>
+<li>Set up environment variables (see <a href="#environment-variables">Environment Variables</a> section above)</li>
+<li>Run tasks via <code>Ctrl+Shift+P</code> → "task: spawn"</li>
+</ol>
+<h3 id="user-content-available-tasks"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#available-tasks"><span class="heading-anchor-icon">#</span></a>Available tasks:</h3>
+<ul>
+<li><strong>Resolve Dependencies</strong> - Download project dependencies</li>
+<li><strong>Clean Build</strong> - Clean the build folder</li>
+<li><strong>Build</strong> - Build the project</li>
+<li><strong>Bundle</strong> - Bundle for HTML5, Windows, macOS, Linux, Android, iOS</li>
+</ul>
+<h3 id="user-content-build-tasks-troubleshooting"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#build-tasks-troubleshooting"><span class="heading-anchor-icon">#</span></a>Build Tasks Troubleshooting</h3>
+<p><strong>"Could not find or load main class"</strong></p>
+<ul>
+<li>Check that <code>BOB_JAR</code> environment variable points to a valid bob.jar file</li>
+<li>Download bob.jar from <a href="https://github.com/defold/defold/releases">https://github.com/defold/defold/releases</a></li>
+</ul>
+<p><strong>"Authentication required"</strong></p>
+<ul>
+<li>Set <code>DEFOLD_EMAIL</code> and <code>DEFOLD_AUTH</code> environment variables</li>
+<li>Or remove <code>--email</code> and <code>--auth</code> from task arguments for local builds</li>
+</ul>
+<p><strong>"Keystore not found"</strong></p>
+<ul>
+<li>Check that keystore paths in environment variables are correct</li>
+<li>Or remove keystore arguments from Android bundle tasks</li>
+</ul>
+<h2 id="user-content-code-snippets"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#code-snippets"><span class="heading-anchor-icon">#</span></a>Code Snippets</h2>
+<p><strong>Note:</strong> Zed extensions do NOT support bundled snippets. Install them separately using the provided script.</p>
+<h3 id="user-content-quick-install-snippets"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#quick-install-snippets"><span class="heading-anchor-icon">#</span></a>Quick Install Snippets</h3>
+<p>Use the installer script from the <code>scripts/</code> folder of this repository:</p>
+<p><strong>Windows:</strong></p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">path\to\zed-defold\scripts\install-snippets.ps1</span></span></code></pre>
+<p><strong>Linux/macOS:</strong></p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">/path/to/zed-defold/scripts/install-snippets.sh</span></span></code></pre>
+<h3 id="user-content-manual-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#manual-installation"><span class="heading-anchor-icon">#</span></a>Manual Installation</h3>
+<p>If you prefer to install snippets manually:</p>
+<p><strong>Windows:</strong></p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Create snippets directory</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">New-Item</span><span style="color:#F97583;--shiki-dark:#F97583"> -</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">ItemType Directory </span><span style="color:#F97583;--shiki-dark:#F97583">-</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">Force </span><span style="color:#F97583;--shiki-dark:#F97583">-</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">Path </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">$</span><span style="color:#79B8FF;--shiki-dark:#79B8FF">env:</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">APPDATA</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">\Zed\snippets"</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Copy the snippets file</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">Copy-Item</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> defold</span><span style="color:#F97583;--shiki-dark:#F97583">-</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">snippets.json </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">$</span><span style="color:#79B8FF;--shiki-dark:#79B8FF">env:</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">APPDATA</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">\Zed\snippets\defold.json"</span></span></code></pre>
+<p><strong>macOS:</strong></p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Create snippets directory</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">mkdir</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -p</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> "</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">$HOME</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">/Library/Application Support/Zed/snippets"</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Copy the snippets file</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cp</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> defold-snippets.json</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> "</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">$HOME</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">/Library/Application Support/Zed/snippets/defold.json"</span></span></code></pre>
+<p><strong>Linux:</strong></p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Create snippets directory</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">mkdir</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -p</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> ~/.config/zed/snippets</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Copy the snippets file</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cp</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> defold-snippets.json</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> ~/.config/zed/snippets/defold.json</span></span></code></pre>
+<p>After installation, restart Zed or run <code>zed: reload extensions</code>.</p>
+<h3 id="user-content-available-snippets"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#available-snippets"><span class="heading-anchor-icon">#</span></a>Available Snippets</h3>
+<p>The extension provides 26 code snippets for common Defold patterns:</p>
+<h3 id="user-content-lifecycle-functions"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#lifecycle-functions"><span class="heading-anchor-icon">#</span></a>Lifecycle Functions</h3>
+<ul>
+<li><code>init</code> - Initialize script</li>
+<li><code>final</code> - Finalization logic</li>
+<li><code>update</code> - Frame update</li>
+<li><code>fixed_update</code> - Fixed timestep update</li>
+<li><code>on_message</code> - Message handling</li>
+<li><code>on_input</code> - Input handling</li>
+<li><code>on_reload</code> - Hot-reload handling</li>
+</ul>
+<h3 id="user-content-gui-functions"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#gui-functions"><span class="heading-anchor-icon">#</span></a>GUI Functions</h3>
+<ul>
+<li><code>gui_init</code> - GUI initialization</li>
+<li><code>gui_on_message</code> - GUI message handling</li>
+<li><code>gui_on_input</code> - GUI input handling</li>
+</ul>
+<h3 id="user-content-common-patterns"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#common-patterns"><span class="heading-anchor-icon">#</span></a>Common Patterns</h3>
+<ul>
+<li><code>factory_create</code> - Create object from factory</li>
+<li><code>go_animate</code> - Animate game object</li>
+<li><code>msg_post</code> - Post message</li>
+<li><code>go_property</code> - Define script property</li>
+<li><code>timer_delay</code> - Create timer</li>
+<li><code>http_request</code> - HTTP request</li>
+<li><code>acquire_input</code> - Acquire input focus</li>
+<li><code>collision_response</code> - Handle collision</li>
+<li><code>contact_point_response</code> - Handle contact point</li>
+<li><code>module</code> - Lua module template</li>
+</ul>
+<h3 id="user-content-gui-functions-1"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#gui-functions-1"><span class="heading-anchor-icon">#</span></a>GUI Functions</h3>
+<ul>
+<li><code>gui_init</code> - GUI initialization</li>
+<li><code>gui_on_message</code> - GUI message handling</li>
+<li><code>gui_on_input</code> - GUI input handling</li>
+<li><code>gui_animate</code> - Animate GUI node</li>
+</ul>
+<h3 id="user-content-property-annotations"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#property-annotations"><span class="heading-anchor-icon">#</span></a>Property Annotations</h3>
+<ul>
+<li><code>property</code> - Define script property</li>
+<li><code>class</code> - Annotate script class</li>
+<li><code>field</code> - Add field annotation</li>
+<li><code>selftype</code> - Annotate self parameter</li>
+<li><code>script_template</code> - Complete script with properties</li>
+</ul>
+<h3 id="user-content-usage-example"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#usage-example"><span class="heading-anchor-icon">#</span></a>Usage Example</h3>
+<p>Type <code>init</code> and press Tab (or Enter) to insert:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#F97583;--shiki-dark:#F97583">function</span><span style="color:#B392F0;--shiki-dark:#B392F0"> init</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">(self)</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">    -- Initialization logic</span></span>
+<span class="line"><span style="color:#F97583;--shiki-dark:#F97583">end</span></span></code></pre>
+<p><strong>No external dependencies needed!</strong> Everything is bundled in the project.</p>
+<h2 id="user-content-troubleshooting"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#troubleshooting"><span class="heading-anchor-icon">#</span></a>Troubleshooting</h2>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>Apache-2.0</p>
+<h2 id="user-content-contributing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#contributing"><span class="heading-anchor-icon">#</span></a>Contributing</h2>
+<p>Contributions are welcome! Please feel free to submit issues and pull requests.</p></article> </main> <footer class="mt-auto" style="background:var(--zed-bg);border-top:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:var(--zed-text-muted);">
+← Back to extension list
+</a> </div> </footer> </body></html>

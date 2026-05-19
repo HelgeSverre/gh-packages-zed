@@ -1,0 +1,230 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Autohand CLI — Zed Extension Safari</title><meta name="description" content="Use Autohand code cli from any ACP client such as Zed Editor"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Autohand CLI — Zed Extension Safari"><meta property="og:description" content="Use Autohand code cli from any ACP client such as Zed Editor"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Autohand CLI — Zed Extension Safari"><meta name="twitter:description" content="Use Autohand code cli from any ACP client such as Zed Editor"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.DJSXA_CW.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);">  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-4"> <a href="/gh-packages-zed" class="transition" style="color:var(--zed-text-muted);">← All extensions</a> </nav> <div class="flex flex-wrap items-start justify-between gap-4"> <div class="min-w-0"> <div class="font-mono text-xs mb-2" style="color:var(--zed-muted);"> autohandai/autohand-acp </div> <h1 class="text-2xl sm:text-3xl font-bold break-words leading-tight" style="color:var(--zed-blue-pale);"> Autohand CLI </h1> <p class="mt-2 text-pretty" style="color:var(--zed-text-muted);"> AI coding agent powered by Autohand CLI via Agent Client Protocol (ACP). Features include file editing, code search, terminal commands, and intelligent code assistance. </p> </div> <a href="https://github.com/autohandai/autohand-acp" target="_blank" rel="noopener" class="zed-btn-primary shrink-0 inline-flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View on GitHub
+</a> </div> <div class="mt-4 flex flex-wrap items-center gap-2"> <span class="version-pill">v0.2.1</span> <span class="cat-badge" data-cat="theme">Theme</span> </div> <div class="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm" style="color:var(--zed-text-muted);"> <span class="inline-flex items-center gap-1"> <svg class="w-4 h-4" style="color:var(--zed-lime);" fill="currentColor" viewBox="0 0 20 20"> <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path> </svg> 11 stars
+</span> <span>TypeScript</span> <span>Apache-2.0</span> <span>Updated 1/17/2026</span> <span>schema v1</span> </div> <div class="mt-2 text-sm" style="color:var(--zed-text-muted);">
+by Autohand AI </div>  </div> </header> <main class="flex-1 max-w-4xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <article class="prose readme-prose max-w-none"><h1 id="user-content-autohand-cli-for-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#autohand-cli-for-zed"><span class="heading-anchor-icon">#</span></a>Autohand CLI for Zed</h1>
+<p>Use <a href="https://github.com/autohandai/code-cli">Autohand CLI</a> from <a href="https://zed.dev">Zed</a> and other <a href="https://agentclientprotocol.com">ACP-compatible</a> editors!</p>
+<h2 id="user-content-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features"><span class="heading-anchor-icon">#</span></a>Features</h2>
+<ul>
+<li><strong>File Operations</strong>: Read, write, search, and modify files</li>
+<li><strong>Terminal Commands</strong>: Execute shell commands with output streaming</li>
+<li><strong>Session Management</strong>: Resume previous sessions, fork conversations</li>
+<li><strong>Permission Controls</strong>: External (Zed UI), auto-approve, or restricted modes</li>
+<li><strong>Dynamic Titles</strong>: Auto-generated session names from your first message</li>
+<li><strong>Image Support</strong>: Paste screenshots for visual context</li>
+<li><strong>Slash Commands</strong>: <code>/help</code>, <code>/new</code>, <code>/model</code>, <code>/mode</code>, <code>/resume</code>, <code>/threads</code>, <code>/status</code>, and more</li>
+<li><strong>TODO/Planning</strong>: Visual task tracking in Zed's UI</li>
+<li><strong>MCP Integration</strong>: Connect to HTTP/SSE MCP servers</li>
+</ul>
+<p>Learn more about the <a href="https://agentclientprotocol.com/">Agent Client Protocol</a>.</p>
+<h2 id="user-content-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation"><span class="heading-anchor-icon">#</span></a>Installation</h2>
+<h3 id="user-content-option-1-zed-extension-recommended"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#option-1-zed-extension-recommended"><span class="heading-anchor-icon">#</span></a>Option 1: Zed Extension (Recommended)</h3>
+<p>Once published to the Zed Extension Registry:</p>
+<ol>
+<li>Open Zed</li>
+<li>Go to <strong>Extensions</strong> (<code>Cmd+Shift+X</code>)</li>
+<li>Search for "Autohand CLI"</li>
+<li>Click <strong>Install</strong></li>
+<li>Open Agent Panel and select "Autohand CLI" from the <code>+</code> menu</li>
+</ol>
+<h3 id="user-content-option-2-manual-settings"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#option-2-manual-settings"><span class="heading-anchor-icon">#</span></a>Option 2: Manual Settings</h3>
+<p>Add to your Zed settings (<code>~/.config/zed/settings.json</code>):</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "agent_servers"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "Autohand CLI"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "command"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"npx"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "args"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: [</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"@autohandai/autohand-acp"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">],</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "env"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "AUTOHAND_PERMISSION_MODE"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"external"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h3 id="user-content-option-3-npm-global-install"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#option-3-npm-global-install"><span class="heading-anchor-icon">#</span></a>Option 3: npm Global Install</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">npm</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> install</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -g</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> @autohandai/autohand-acp</span></span></code></pre>
+<p>Then add to Zed settings:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "agent_servers"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "Autohand CLI"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "command"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"autohand-acp"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "env"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "AUTOHAND_PERMISSION_MODE"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"external"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h3 id="user-content-other-acp-clients"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#other-acp-clients"><span class="heading-anchor-icon">#</span></a>Other ACP Clients</h3>
+<p>This adapter works with any ACP-compatible client. <a href="https://github.com/autohandai/autohand-acp/pulls">Submit a PR</a> to add documentation for your editor!</p>
+<h2 id="user-content-requirements"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#requirements"><span class="heading-anchor-icon">#</span></a>Requirements</h2>
+<ul>
+<li>Node.js >= 18.17</li>
+<li><code>autohand</code> CLI installed and configured (<code>~/.autohand/config.json</code>)</li>
+</ul>
+<h2 id="user-content-configuration"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#configuration"><span class="heading-anchor-icon">#</span></a>Configuration</h2>
+<p>Environment variables control how the adapter launches Autohand:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Variable</th><th>Description</th><th>Default</th></tr></thead><tbody><tr><td><code>AUTOHAND_CMD</code></td><td>Path or command name for Autohand</td><td><code>autohand</code></td></tr><tr><td><code>AUTOHAND_CONFIG</code></td><td>Path to config file</td><td><code>~/.autohand/config.json</code></td></tr><tr><td><code>AUTOHAND_MODEL</code></td><td>Override the model</td><td>-</td></tr><tr><td><code>AUTOHAND_PERMISSION_MODE</code></td><td><code>auto</code>, <code>external</code>, <code>restricted</code>, <code>unrestricted</code>, <code>ask</code></td><td><code>auto</code></td></tr><tr><td><code>AUTOHAND_DRY_RUN</code></td><td>Set to <code>1</code> for dry-run mode</td><td>-</td></tr><tr><td><code>AUTOHAND_AUTO_COMMIT</code></td><td>Set to <code>1</code> to auto-commit changes</td><td>-</td></tr><tr><td><code>AUTOHAND_AVAILABLE_MODELS</code></td><td>Comma-separated model IDs</td><td>-</td></tr><tr><td><code>AUTOHAND_INCLUDE_HISTORY</code></td><td>Set to <code>1</code> to include prior turns</td><td>-</td></tr></tbody></table>
+<h3 id="user-content-permission-modes"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#permission-modes"><span class="heading-anchor-icon">#</span></a>Permission Modes</h3>
+<ul>
+<li><strong>auto</strong>: Auto-confirm risky actions (<code>--yes</code>)</li>
+<li><strong>external</strong>: Forward permission requests to Zed via ACP (recommended for interactive use)</li>
+<li><strong>restricted</strong>: Deny all dangerous operations automatically</li>
+<li><strong>unrestricted</strong>: Run without any approval prompts (use with caution)</li>
+<li><strong>ask</strong>: Run without flags (may hang if prompts appear)</li>
+</ul>
+<h2 id="user-content-file-mentions"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#file-mentions"><span class="heading-anchor-icon">#</span></a>File Mentions</h2>
+<p>File mentions work automatically in Zed. When you reference a file using <code>@filename</code>:</p>
+<ol>
+<li>The adapter reads the file content</li>
+<li>Embeds it in the prompt sent to Autohand CLI</li>
+<li>Autohand can then analyze or modify the file</li>
+</ol>
+<p>This enables context-aware assistance without manually copying file contents.</p>
+<h2 id="user-content-external-permission-mode"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#external-permission-mode"><span class="heading-anchor-icon">#</span></a>External Permission Mode</h2>
+<p>When <code>AUTOHAND_PERMISSION_MODE=external</code>, the adapter starts a local HTTP server that Autohand CLI calls to request permissions:</p>
+<ol>
+<li>Adapter starts permission server on localhost</li>
+<li>Passes <code>AUTOHAND_PERMISSION_CALLBACK_URL</code> to Autohand CLI</li>
+<li>Autohand CLI calls the URL when it needs permission</li>
+<li>Adapter forwards to Zed via ACP <code>requestPermission</code></li>
+<li>User sees Allow/Reject buttons in Zed</li>
+<li>Decision is returned to Autohand CLI</li>
+</ol>
+<p>This requires Autohand CLI v0.6+ with external callback support.</p>
+<h2 id="user-content-slash-commands"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#slash-commands"><span class="heading-anchor-icon">#</span></a>Slash Commands</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Command</th><th>Description</th></tr></thead><tbody><tr><td><code>/help</code></td><td>Show available commands</td></tr><tr><td><code>/new</code></td><td>Start a new conversation</td></tr><tr><td><code>/model [name]</code></td><td>Select or change model</td></tr><tr><td><code>/mode [name]</code></td><td>Select mode (default/ask/code)</td></tr><tr><td><code>/resume [id]</code></td><td>Resume a previous session</td></tr><tr><td><code>/threads</code></td><td>List and switch between sessions</td></tr><tr><td><code>/sessions</code></td><td>List recent sessions</td></tr><tr><td><code>/session</code></td><td>Show current session info</td></tr><tr><td><code>/status</code></td><td>Show Autohand status</td></tr><tr><td><code>/init</code></td><td>Create AGENTS.md file</td></tr><tr><td><code>/undo</code></td><td>Undo last file change</td></tr></tbody></table>
+<h2 id="user-content-development"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#development"><span class="heading-anchor-icon">#</span></a>Development</h2>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">npm</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> install</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">npm</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> run</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> build</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">npm</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> run</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> test</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">npm</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> run</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> lint</span></span></code></pre>
+<h3 id="user-content-local-testing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#local-testing"><span class="heading-anchor-icon">#</span></a>Local Testing</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Build local distribution</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">./scripts/build-local.sh</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Start local server (in separate terminal)</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">cd</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> dist-local</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> &#x26;&#x26; </span><span style="color:#B392F0;--shiki-dark:#B392F0">python3</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -m</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> http.server</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> 8765</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Copy dev config and install in Zed</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cp</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> extension.dev.toml</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> extension.toml</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Then in Zed: "zed: install dev extension" -> select this folder</span></span></code></pre>
+<h2 id="user-content-publishing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#publishing"><span class="heading-anchor-icon">#</span></a>Publishing</h2>
+<h3 id="user-content-one-command-release"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#one-command-release"><span class="heading-anchor-icon">#</span></a>One-Command Release</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">./scripts/release.sh</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> patch</span><span style="color:#6A737D;--shiki-dark:#6A737D">   # 0.1.1 -> 0.1.2</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">./scripts/release.sh</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> minor</span><span style="color:#6A737D;--shiki-dark:#6A737D">   # 0.1.1 -> 0.2.0</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">./scripts/release.sh</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> major</span><span style="color:#6A737D;--shiki-dark:#6A737D">   # 0.1.1 -> 1.0.0</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">./scripts/release.sh</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> 0.2.5</span><span style="color:#6A737D;--shiki-dark:#6A737D">   # Set specific version</span></span></code></pre>
+<p>This script will:</p>
+<ol>
+<li>✅ Bump version in <code>package.json</code> and <code>extension.toml</code></li>
+<li>✅ Run tests</li>
+<li>✅ Commit and tag</li>
+<li>✅ Push to GitHub (triggers CI build)</li>
+<li>✅ Guide you through Zed registry submission</li>
+</ol>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>Apache-2.0</p></article> </main> <footer class="mt-auto" style="background:var(--zed-bg);border-top:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:var(--zed-text-muted);">
+← Back to extension list
+</a> </div> </footer> </body></html>

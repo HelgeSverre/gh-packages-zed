@@ -1,0 +1,11 @@
+id = "duckyscript"
+name = "DuckyScript"
+version = "0.0.1"
+schema_version = 1
+authors = ["Lalolog <Lalologleck@gmail.com"]
+description = "DuckyScript support"
+repository = "https://github.com/Lalolog/duckyscript-zed-extension"
+
+[grammars.duckyscript]
+repository = "https://github.com/traumweh/tree-sitter-duckyscript"
+commit = "790d09b0679d70930a5c7d73546a11bb371b69a8"

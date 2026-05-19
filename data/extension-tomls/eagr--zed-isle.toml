@@ -1,0 +1,11 @@
+id = "isle"
+name = "ISLE"
+version = "0.0.1"
+schema_version = 1
+authors = ["eagr <eagr@tutanota.com>"]
+description = "ISLE language support."
+repository = "https://github.com/eagr/isle-zed"
+
+[grammars.isle]
+repository = "https://github.com/eagr/tree-sitter-isle"
+commit = "e69ef9a7da3419013e418775b8ac8a84a4f9adfb"

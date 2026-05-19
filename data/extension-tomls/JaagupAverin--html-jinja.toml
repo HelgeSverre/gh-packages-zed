@@ -1,0 +1,16 @@
+id = "html-jinja"
+name = "HTML-Jinja Template Support"
+version = "0.1.0"
+schema_version = 1
+description = "Highlighting for HTML-Jinja templates."
+authors = ["Jaagup Averin"]
+repository = "https://github.com/JaagupAverin/html-jinja"
+
+[grammars.jinja]
+repository = "https://github.com/cathaysia/tree-sitter-jinja"
+path = "tree-sitter-jinja"
+commit = "07a62adf99c0f41e0cab7ab523541309a8d73dc4"
+
+[grammars.html]
+repository = "https://github.com/JaagupAverin/tree-sitter-html"
+commit = "5f47d6608069f4ef35d836dc0083c90733c72810"

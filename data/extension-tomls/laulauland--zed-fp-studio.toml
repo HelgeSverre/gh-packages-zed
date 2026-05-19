@@ -1,0 +1,11 @@
+id = "fiberplane-studio"
+name = "Fiberplane Studio"
+description = "Query runtime information captured by the Fiberplane Studio in your Zed Assistant panel"
+version = "0.1.1"
+schema_version = 1
+authors = ["Fiberplane <info@fiberplane.com>"]
+repository = "https://github.com/fiberplane/fpx"
+
+[slash_commands.trace]
+description = "Add a trace from the Fiberplane Studio"
+requires_argument = true

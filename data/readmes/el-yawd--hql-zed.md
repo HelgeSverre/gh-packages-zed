@@ -1,0 +1,1 @@
+# HQL Syntax Highlightning

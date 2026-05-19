@@ -1,0 +1,11 @@
+id = "hubl"
+name = "HubL"
+description = "HubL syntax highlighting for HubSpot templates"
+version = "1.0.0"
+schema_version = 1
+authors = ["Blue Amber"]
+repository = "https://github.com/blueambr/zed-hubl"
+
+[grammars.hubl]
+repository = "https://github.com/blueambr/tree-sitter-hubl"
+rev = "f5af1bf3564c837d52fa6d16157a3991edd4815d"

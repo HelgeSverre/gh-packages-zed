@@ -1,0 +1,15 @@
+id = "jai"
+name = "Jai"
+version = "0.1.4"
+schema_version = 1
+authors = ["Aman Tuladhar", "Chip Collier"]
+description = "Jai language support. For LSP support see repository docs."
+repository = "https://github.com/seg4lt/zed-jai"
+
+[language_servers.jails]
+name = "jails"
+language = "Jai"
+
+[grammars.jai]
+repository = "https://github.com/constantitus/tree-sitter-jai"
+commit = "082bcdb9e33c2c466e2979cabd4b9c0d79e59ea6"
