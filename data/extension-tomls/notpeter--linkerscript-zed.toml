@@ -1,0 +1,12 @@
+# See: https://crates.io/crates/zed_extension_api
+id = "linkerscript"
+name = "Linker Script"
+schema_version = 1
+version = "0.1.0"
+authors = ["Peter Tripp <petertripp@gmail.com>"]
+description = "Linker Script syntax highlighting"
+repository = "https://github.com/notpeter/linkerscript-zed"
+
+[grammars.linkerscript]
+repository = "https://github.com/tree-sitter-grammars/tree-sitter-linkerscript"
+commit = "f99011a3554213b654985a4b0a65b3b032ec4621"

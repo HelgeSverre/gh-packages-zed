@@ -1,0 +1,11 @@
+id = "llvm-ir"
+name = "LLVM IR"
+version = "0.1.1"
+schema_version = 1
+authors = ["Kian Kasad <kian@kasad.com>"]
+description = "LLVM IR language support for Zed"
+repository = "https://github.com/kdkasad/zed-llvm-ir-extension"
+
+[grammars.llvm]
+repository = "https://github.com/benwilliamgraham/tree-sitter-llvm"
+rev = "2914786ae6774d4c4e25a230f4afe16aa68fe1c1"

@@ -1,0 +1,15 @@
+id = "move-aptos"
+name = "move-aptos"
+version = "0.0.2"
+schema_version = 1
+authors = ["simons <reggiesimons2cy@gmail.com>"]
+description = "Move on Aptos language support for Zed"
+repository = "https://github.com/caoyang2002/zed-move-aptos"
+
+[language_servers.move-language-server]
+name = "move"
+language = "Move"
+
+[grammars.move]
+repository = "https://github.com/caoyang2002/tree-sitter-move-aptos"
+commit = "bb6fdaaef901fc331731340cc7e4f167311fe5d6"

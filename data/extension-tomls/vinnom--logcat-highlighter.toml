@@ -1,0 +1,11 @@
+id = "logcat"
+name = "Logcat Highlighter"
+version = "0.0.1"
+schema_version = 1
+authors = ["vinnom vinnom.2d@gmail.com"]
+description = "Syntax highlighting for Android logcat files."
+repository = "https://github.com/vinnom/logcat-highlighter"
+
+[grammars.tree_sitter_logcat]
+repository = "https://github.com/vinnom/tree-sitter-logcat"
+commit = "b339f8402fe66f46bdc0a58ccde9f29162528865"

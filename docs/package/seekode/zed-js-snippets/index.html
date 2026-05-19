@@ -1,0 +1,331 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>JavaScript Snippets — Zed Extension Safari</title><meta name="description" content="A comprehensive collection of JavaScript snippets for Zed editor, designed to accelerate JavaScript development with intelligent autocomplete and placeholder support. "><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="JavaScript Snippets — Zed Extension Safari"><meta property="og:description" content="A comprehensive collection of JavaScript snippets for Zed editor, designed to accelerate JavaScript development with intelligent autocomplete and placeholder support. "><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="JavaScript Snippets — Zed Extension Safari"><meta name="twitter:description" content="A comprehensive collection of JavaScript snippets for Zed editor, designed to accelerate JavaScript development with intelligent autocomplete and placeholder support. "><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.DJSXA_CW.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);">  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-4"> <a href="/gh-packages-zed" class="transition" style="color:var(--zed-text-muted);">← All extensions</a> </nav> <div class="flex flex-wrap items-start justify-between gap-4"> <div class="min-w-0"> <div class="font-mono text-xs mb-2" style="color:var(--zed-muted);"> seekode/zed-js-snippets </div> <h1 class="text-2xl sm:text-3xl font-bold break-words leading-tight" style="color:var(--zed-blue-pale);"> JavaScript Snippets </h1> <p class="mt-2 text-pretty" style="color:var(--zed-text-muted);"> Essential JavaScript snippets for faster development </p> </div> <a href="https://github.com/seekode/zed-js-snippets" target="_blank" rel="noopener" class="zed-btn-primary shrink-0 inline-flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View on GitHub
+</a> </div> <div class="mt-4 flex flex-wrap items-center gap-2"> <span class="version-pill">v0.1.0</span> <span class="cat-badge" data-cat="snippets">Snippets</span> </div> <div class="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm" style="color:var(--zed-text-muted);"> <span class="inline-flex items-center gap-1"> <svg class="w-4 h-4" style="color:var(--zed-lime);" fill="currentColor" viewBox="0 0 20 20"> <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path> </svg> 9 stars
+</span>  <span>MIT</span> <span>Updated 10/1/2025</span> <span>schema v1</span> </div> <div class="mt-2 text-sm" style="color:var(--zed-text-muted);">
+by seekode </div> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> javascript </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> snippets </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed </span> </div> </div> </header> <main class="flex-1 max-w-4xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <article class="prose readme-prose max-w-none"><h1 id="user-content-zed-javascript-snippets"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#zed-javascript-snippets"><span class="heading-anchor-icon">#</span></a>Zed JavaScript Snippets</h1>
+<p>A comprehensive collection of JavaScript snippets for <a href="https://zed.dev/">Zed editor</a>, designed to accelerate JavaScript development with intelligent autocomplete and placeholder support.</p>
+<h2 id="user-content--features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-features"><span class="heading-anchor-icon">#</span></a>✨ Features</h2>
+<ul>
+<li><strong>Complete ES6+ Coverage</strong>: 150+ snippets covering modern JavaScript features</li>
+<li><strong>Smart Placeholders</strong>: Tab-navigable placeholders for efficient coding</li>
+<li><strong>Async/Await Support</strong>: Modern asynchronous programming patterns</li>
+<li><strong>Array Methods</strong>: Complete coverage of map, filter, reduce, and more</li>
+<li><strong>Class Syntax</strong>: ES6 classes with methods, getters, and setters</li>
+<li><strong>Module System</strong>: Import/export statements for modern JavaScript</li>
+</ul>
+<h2 id="user-content--installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-installation"><span class="heading-anchor-icon">#</span></a>📦 Installation</h2>
+<h3 id="user-content-via-zed-extensions-recommended"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#via-zed-extensions-recommended"><span class="heading-anchor-icon">#</span></a>Via Zed Extensions (Recommended)</h3>
+<ol>
+<li>Open Zed editor</li>
+<li>Press <code>Cmd/Ctrl + Shift + P</code> to open the command palette</li>
+<li>Type "extensions" and select "zed: extensions"</li>
+<li>Search for "JavaScript Snippets"</li>
+<li>Click "Install"</li>
+</ol>
+<h3 id="user-content-manual-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#manual-installation"><span class="heading-anchor-icon">#</span></a>Manual Installation</h3>
+<ol>
+<li>
+<p>Clone this repository:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">git</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> clone</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> https://github.com/seekode/zed-js-snippets</span></span></code></pre>
+</li>
+<li>
+<p>Copy the extension to your Zed extensions directory:</p>
+<ul>
+<li><strong>macOS</strong>: <code>~/.config/zed/extensions/</code></li>
+<li><strong>Linux</strong>: <code>~/.config/zed/extensions/</code></li>
+<li><strong>Windows</strong>: <code>%APPDATA%\Zed\extensions\</code></li>
+</ul>
+</li>
+<li>
+<p>Restart Zed</p>
+</li>
+</ol>
+<h2 id="user-content--usage"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-usage"><span class="heading-anchor-icon">#</span></a>🚀 Usage</h2>
+<p>Simply start typing any JavaScript keyword or use the prefix shortcuts. The snippets will appear in the autocomplete menu.</p>
+<h3 id="user-content-quick-start-examples"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#quick-start-examples"><span class="heading-anchor-icon">#</span></a>Quick Start Examples</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Prefix</th><th>Output</th><th>Description</th></tr></thead><tbody><tr><td><code>log</code></td><td><code>console.log($0)</code></td><td>Console log statement</td></tr><tr><td><code>af</code></td><td><code>const name = (params) => {}</code></td><td>Arrow function</td></tr><tr><td><code>asf</code></td><td><code>async function name() {}</code></td><td>Async function</td></tr><tr><td><code>for</code></td><td><code>for (let i = 0; i &#x3C; array.length; i++)</code></td><td>For loop</td></tr><tr><td><code>fetch</code></td><td><code>fetch(url).then().catch()</code></td><td>Fetch API call</td></tr></tbody></table>
+<h2 id="user-content--available-snippets"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-available-snippets"><span class="heading-anchor-icon">#</span></a>📋 Available Snippets</h2>
+<h3 id="user-content-console-methods"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#console-methods"><span class="heading-anchor-icon">#</span></a>Console Methods</h3>
+<ul>
+<li><code>log</code> - Console log</li>
+<li><code>warn</code> - Console warn</li>
+<li><code>error</code> - Console error</li>
+<li><code>table</code> - Console table</li>
+<li><code>time</code> - Console time/timeEnd</li>
+</ul>
+<h3 id="user-content-functions"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#functions"><span class="heading-anchor-icon">#</span></a>Functions</h3>
+<ul>
+<li><code>function</code> - Function declaration</li>
+<li><code>af</code> - Arrow function</li>
+<li><code>afi</code> - Arrow function (implicit return)</li>
+<li><code>asf</code> - Async function</li>
+<li><code>aaf</code> - Async arrow function</li>
+<li><code>fn</code> - Anonymous function</li>
+<li><code>iife</code> - Immediately Invoked Function Expression</li>
+<li><code>iiafe</code> - Async IIFE</li>
+</ul>
+<h3 id="user-content-loops--iteration"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#loops--iteration"><span class="heading-anchor-icon">#</span></a>Loops &#x26; Iteration</h3>
+<ul>
+<li><code>for</code> - For loop</li>
+<li><code>forof</code> - For...of loop</li>
+<li><code>forin</code> - For...in loop</li>
+<li><code>while</code> - While loop</li>
+<li><code>dowhile</code> - Do...while loop</li>
+<li><code>fre</code> - Array forEach</li>
+<li><code>map</code> - Array map</li>
+<li><code>filter</code> - Array filter</li>
+<li><code>reduce</code> - Array reduce</li>
+<li><code>find</code> - Array find</li>
+<li><code>findi</code> - Array findIndex</li>
+<li><code>some</code> - Array some</li>
+<li><code>every</code> - Array every</li>
+</ul>
+<h3 id="user-content-conditionals"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#conditionals"><span class="heading-anchor-icon">#</span></a>Conditionals</h3>
+<ul>
+<li><code>if</code> - If statement</li>
+<li><code>ife</code> - If...else statement</li>
+<li><code>ei</code> - Else if statement</li>
+<li><code>ter</code> - Ternary operator</li>
+<li><code>switch</code> - Switch statement</li>
+</ul>
+<h3 id="user-content-error-handling"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#error-handling"><span class="heading-anchor-icon">#</span></a>Error Handling</h3>
+<ul>
+<li><code>tc</code> - Try...catch block</li>
+<li><code>tcf</code> - Try...catch...finally</li>
+<li><code>ther</code> - Throw error</li>
+<li><code>cerr</code> - Custom error class</li>
+</ul>
+<h3 id="user-content-promises--async"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#promises--async"><span class="heading-anchor-icon">#</span></a>Promises &#x26; Async</h3>
+<ul>
+<li><code>promise</code> - New Promise</li>
+<li><code>thenc</code> - Promise then/catch</li>
+<li><code>await</code> - Await expression</li>
+<li><code>awaitc</code> - Await with try/catch</li>
+</ul>
+<h3 id="user-content-classes"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#classes"><span class="heading-anchor-icon">#</span></a>Classes</h3>
+<ul>
+<li><code>class</code> - Class declaration</li>
+<li><code>clm</code> - Class with method</li>
+<li><code>clx</code> - Class extends</li>
+<li><code>get</code> - Getter method</li>
+<li><code>set</code> - Setter method</li>
+<li><code>sm</code> - Static method</li>
+</ul>
+<h3 id="user-content-modules"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#modules"><span class="heading-anchor-icon">#</span></a>Modules</h3>
+<ul>
+<li><code>imp</code> - Import default</li>
+<li><code>imn</code> - Import named</li>
+<li><code>ima</code> - Import all (as)</li>
+<li><code>imd</code> - Dynamic import</li>
+<li><code>exp</code> - Export default</li>
+<li><code>exn</code> - Export named</li>
+<li><code>exa</code> - Export all</li>
+<li><code>exf</code> - Export function</li>
+<li><code>exc</code> - Export const</li>
+</ul>
+<h3 id="user-content-variables--destructuring"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#variables--destructuring"><span class="heading-anchor-icon">#</span></a>Variables &#x26; Destructuring</h3>
+<ul>
+<li><code>const</code> - Const declaration</li>
+<li><code>let</code> - Let declaration</li>
+<li><code>var</code> - Var declaration</li>
+<li><code>dsta</code> - Array destructuring</li>
+<li><code>dsto</code> - Object destructuring</li>
+<li><code>spa</code> - Spread array</li>
+<li><code>spo</code> - Spread object</li>
+<li><code>rp</code> - Rest parameters</li>
+</ul>
+<h3 id="user-content-objects"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#objects"><span class="heading-anchor-icon">#</span></a>Objects</h3>
+<ul>
+<li><code>obj</code> - Object literal</li>
+<li><code>om</code> - Object with method</li>
+<li><code>os</code> - Object shorthand</li>
+<li><code>oc</code> - Object computed property</li>
+<li><code>ok</code> - Object.keys()</li>
+<li><code>ov</code> - Object.values()</li>
+<li><code>oe</code> - Object.entries()</li>
+<li><code>oa</code> - Object.assign()</li>
+<li><code>ofr</code> - Object.freeze()</li>
+<li><code>oseal</code> - Object.seal()</li>
+<li><code>ocr</code> - Object.create()</li>
+</ul>
+<h3 id="user-content-arrays--collections"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#arrays--collections"><span class="heading-anchor-icon">#</span></a>Arrays &#x26; Collections</h3>
+<ul>
+<li><code>array</code> - Array literal</li>
+<li><code>afrom</code> - Array.from()</li>
+<li><code>aof</code> - Array.of()</li>
+<li><code>nset</code> - New Set</li>
+<li><code>nmap</code> - New Map</li>
+<li><code>nws</code> - New WeakSet</li>
+<li><code>nwm</code> - New WeakMap</li>
+</ul>
+<h3 id="user-content-strings"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#strings"><span class="heading-anchor-icon">#</span></a>Strings</h3>
+<ul>
+<li><code>tl</code> - Template literal</li>
+<li><code>tt</code> - Tagged template</li>
+<li><code>match</code> - String match</li>
+<li><code>replace</code> - String replace</li>
+<li><code>split</code> - String split</li>
+<li><code>trim</code> - String trim</li>
+<li><code>includes</code> - String includes</li>
+<li><code>startswith</code> - String startsWith</li>
+<li><code>endswith</code> - String endsWith</li>
+<li><code>padstart</code> - String padStart</li>
+<li><code>padend</code> - String padEnd</li>
+<li><code>repeat</code> - String repeat</li>
+</ul>
+<h3 id="user-content-timers"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#timers"><span class="heading-anchor-icon">#</span></a>Timers</h3>
+<ul>
+<li><code>sto</code> - setTimeout</li>
+<li><code>si</code> - setInterval</li>
+<li><code>cto</code> - clearTimeout</li>
+<li><code>ci</code> - clearInterval</li>
+</ul>
+<h3 id="user-content-fetch--json"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#fetch--json"><span class="heading-anchor-icon">#</span></a>Fetch &#x26; JSON</h3>
+<ul>
+<li><code>fetch</code> - Fetch API</li>
+<li><code>feta</code> - Fetch async/await</li>
+<li><code>fetp</code> - Fetch POST request</li>
+<li><code>jsp</code> - JSON.parse()</li>
+<li><code>jss</code> - JSON.stringify()</li>
+<li><code>jssp</code> - JSON.stringify() (pretty)</li>
+</ul>
+<h3 id="user-content-dom-manipulation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#dom-manipulation"><span class="heading-anchor-icon">#</span></a>DOM Manipulation</h3>
+<ul>
+<li><code>qs</code> - querySelector</li>
+<li><code>qsa</code> - querySelectorAll</li>
+<li><code>gid</code> - getElementById</li>
+<li><code>gcl</code> - getElementsByClassName</li>
+<li><code>gt</code> - getElementsByTagName</li>
+<li><code>cel</code> - createElement</li>
+<li><code>ael</code> - addEventListener</li>
+<li><code>rel</code> - removeEventListener</li>
+<li><code>domr</code> - DOMContentLoaded</li>
+<li><code>wl</code> - Window load event</li>
+<li><code>raf</code> - requestAnimationFrame</li>
+</ul>
+<h3 id="user-content-storage"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#storage"><span class="heading-anchor-icon">#</span></a>Storage</h3>
+<ul>
+<li><code>lss</code> - localStorage.setItem()</li>
+<li><code>lsg</code> - localStorage.getItem()</li>
+<li><code>lsr</code> - localStorage.removeItem()</li>
+<li><code>lsc</code> - localStorage.clear()</li>
+<li><code>sss</code> - sessionStorage.setItem()</li>
+<li><code>ssg</code> - sessionStorage.getItem()</li>
+</ul>
+<h3 id="user-content-advanced-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#advanced-features"><span class="heading-anchor-icon">#</span></a>Advanced Features</h3>
+<ul>
+<li><code>gen</code> - Generator function</li>
+<li><code>agen</code> - Async generator</li>
+<li><code>proxy</code> - Proxy object</li>
+<li><code>rget</code> - Reflect.get()</li>
+<li><code>sym</code> - Symbol</li>
+<li><code>symf</code> - Symbol.for()</li>
+</ul>
+<h3 id="user-content-regular-expressions"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#regular-expressions"><span class="heading-anchor-icon">#</span></a>Regular Expressions</h3>
+<ul>
+<li><code>re</code> - RegExp pattern</li>
+<li><code>ret</code> - RegExp test</li>
+<li><code>match</code> - String match</li>
+</ul>
+<h3 id="user-content-math--date"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#math--date"><span class="heading-anchor-icon">#</span></a>Math &#x26; Date</h3>
+<ul>
+<li><code>mra</code> - Math.random()</li>
+<li><code>mfl</code> - Math.floor()</li>
+<li><code>mce</code> - Math.ceil()</li>
+<li><code>mro</code> - Math.round()</li>
+<li><code>mmax</code> - Math.max()</li>
+<li><code>mmin</code> - Math.min()</li>
+<li><code>dnow</code> - Date.now()</li>
+<li><code>ndate</code> - New Date()</li>
+<li><code>diso</code> - ISO date string</li>
+</ul>
+<h3 id="user-content-operators"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#operators"><span class="heading-anchor-icon">#</span></a>Operators</h3>
+<ul>
+<li><code>tof</code> - typeof check</li>
+<li><code>iof</code> - instanceof check</li>
+<li><code>nc</code> - Nullish coalescing (??)</li>
+<li><code>oc</code> - Optional chaining (?.)</li>
+</ul>
+<h3 id="user-content-documentation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#documentation"><span class="heading-anchor-icon">#</span></a>Documentation</h3>
+<ul>
+<li><code>cmt</code> - Comment block</li>
+<li><code>jsdoc</code> - JSDoc function</li>
+<li><code>us</code> - Use strict</li>
+</ul>
+<h2 id="user-content--smart-placeholders"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-smart-placeholders"><span class="heading-anchor-icon">#</span></a>🎯 Smart Placeholders</h2>
+<p>Snippets use numbered placeholders (<code>$1</code>, <code>$2</code>, etc.) that you can tab through:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">// Typing 'af' + Tab</span></span>
+<span class="line"><span style="color:#F97583;--shiki-dark:#F97583">const</span><span style="color:#B392F0;--shiki-dark:#B392F0"> functionName</span><span style="color:#F97583;--shiki-dark:#F97583"> =</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> (</span><span style="color:#FFAB70;--shiki-dark:#FFAB70">params</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">) </span><span style="color:#F97583;--shiki-dark:#F97583">=></span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> {};</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">// Tab to functionName, type name, Tab to params, type parameters</span></span></code></pre>
+<p>The <code>$0</code> placeholder indicates the final cursor position.</p>
+<h2 id="user-content-️-customization"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#️-customization"><span class="heading-anchor-icon">#</span></a>🛠️ Customization</h2>
+<p>You can modify snippets by editing the <code>snippets/javascript.json</code> file. Each snippet follows this structure:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "Snippet Name"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "prefix"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"trigger-text"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "body"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: [</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"const ${1:name} = (${2:params}) => {"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">, </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"</span><span style="color:#79B8FF;--shiki-dark:#79B8FF">\t</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">$0"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">, </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"}"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h2 id="user-content--contributing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-contributing"><span class="heading-anchor-icon">#</span></a>🤝 Contributing</h2>
+<p>Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.</p>
+<h3 id="user-content-development-setup"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#development-setup"><span class="heading-anchor-icon">#</span></a>Development Setup</h3>
+<ol>
+<li>Fork the repository</li>
+<li>Clone your fork</li>
+<li>Make your changes</li>
+<li>Test in Zed</li>
+<li>Submit a pull request</li>
+</ol>
+<h2 id="user-content--license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-license"><span class="heading-anchor-icon">#</span></a>📄 License</h2>
+<p>This project is licensed under the MIT License - see the <a href="https://github.com/seekode/zed-js-snippets/blob/HEAD/LICENSE" target="_blank" rel="noopener">LICENSE</a> file for details.</p>
+<h2 id="user-content--acknowledgments"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-acknowledgments"><span class="heading-anchor-icon">#</span></a>🙏 Acknowledgments</h2>
+<ul>
+<li><a href="https://zed.dev/">Zed Team</a> for creating an amazing editor</li>
+<li>JavaScript community and ECMAScript contributors</li>
+<li>Community feedback and contributions</li>
+</ul>
+<h2 id="user-content--support"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-support"><span class="heading-anchor-icon">#</span></a>📞 Support</h2>
+<ul>
+<li><strong>Issues</strong>: <a href="https://github.com/seekode/zed-js-snippets/issues">GitHub Issues</a></li>
+<li><strong>Zed Community</strong>: <a href="https://discord.gg/zed">Zed Discord</a></li>
+<li><strong>Documentation</strong>: <a href="https://zed.dev/docs">Zed Documentation</a></li>
+</ul>
+<hr>
+<p><strong>Happy coding with Zed! 🚀</strong></p></article> </main> <footer class="mt-auto" style="background:var(--zed-bg);border-top:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:var(--zed-text-muted);">
+← Back to extension list
+</a> </div> </footer> </body></html>

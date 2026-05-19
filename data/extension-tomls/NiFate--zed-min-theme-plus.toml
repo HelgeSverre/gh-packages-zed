@@ -1,0 +1,23 @@
+id = "min-theme-plus"
+name = "Min Theme Plus"
+version = "1.0.0"
+schema_version = 1
+description = "The ported VSCode theme is based on Min Theme and One Dark Pro for Zed."
+repository = "https://github.com/NiFate/zed-min-theme-plus"
+authors = ["NiFate <artik.shamin@gmail.com>"]
+themes = ["themes/min-theme-plus.json"]
+icon_themes = []
+languages = []
+capabilities = []
+
+[lib]
+
+[grammars]
+
+[language_servers]
+
+[context_servers]
+
+[slash_commands]
+
+[indexed_docs_providers]

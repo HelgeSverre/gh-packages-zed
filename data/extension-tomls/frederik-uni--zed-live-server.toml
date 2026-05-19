@@ -1,0 +1,33 @@
+id = "live-server"
+name = "LiveServer"
+version = "0.3.1"
+schema_version = 1
+authors = ["frederik <termite_pilgrim04@icloud.com>"]
+description = "Launch a development local Server with live reload feature"
+repository = "https://github.com/frederik-uni/zed-live-server"
+
+[language_servers.live-server]
+name = "live-server"
+language = "HTML"
+languages = ["HTML", "JavaScript", "CSS"]
+
+[language_servers.live-server.language_ids]
+"HTML" = "html"
+"JavaScript" = "javascript"
+"CSS" = "css"
+
+[slash_commands.live-server-start]
+description = "Start service for the current project"
+requires_argument = false
+
+[slash_commands.live-server-stop]
+description = "Stop service for the current project"
+requires_argument = false
+
+[slash_commands.live-server-status]
+description = "Get the status of the service for the current project"
+requires_argument = false
+
+[slash_commands.live-server-open]
+description = "Open the current project in the browser"
+requires_argument = false

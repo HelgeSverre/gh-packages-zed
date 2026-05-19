@@ -1,0 +1,11 @@
+id = "jira-slash-command"
+name = "JIRA slash command"
+version = "0.0.1"
+schema_version = 1
+authors = ["Ryan Broyles <me@trbroyles.com>"]
+description = "Adds a 'jira' slash command to fetch a JIRA issue by key and include it in context as a JSON object."
+repository = "https://github.com/trbroyles1/jira-slash-command"
+
+[slash_commands.jira]
+description = "insert JIRA issue as JSON"
+requires_argument = true

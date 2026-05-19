@@ -1,0 +1,11 @@
+id = "jdl"
+name = "Jhipster Domain Language Support"
+version = "0.0.1"
+schema_version = 1
+authors = ["Alessandro Bruno <alessandro.brunoh@gmail.com>"]
+description = "Syntax highlighting support for Jhipster Domain Language"
+repository = "https://github.com/alessandrobrunoh/zed-grammar-jdl"
+
+[grammars.jdl]
+repository = "https://github.com/alessandrobrunoh/tree-sitter-jdl"
+rev = "39cab5b7b32e5e726c2d2e2a9ce03c9d1bcd3017"

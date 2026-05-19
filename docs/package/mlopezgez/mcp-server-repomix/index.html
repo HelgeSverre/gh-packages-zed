@@ -1,0 +1,176 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Repomix MCP Server — Zed Extension Safari</title><meta name="description" content="Model Context Protocol Server for Repomix - Pack and analyze codebases for AI consumption"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Repomix MCP Server — Zed Extension Safari"><meta property="og:description" content="Model Context Protocol Server for Repomix - Pack and analyze codebases for AI consumption"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Repomix MCP Server — Zed Extension Safari"><meta name="twitter:description" content="Model Context Protocol Server for Repomix - Pack and analyze codebases for AI consumption"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.DJSXA_CW.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);">  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-4"> <a href="/gh-packages-zed" class="transition" style="color:var(--zed-text-muted);">← All extensions</a> </nav> <div class="flex flex-wrap items-start justify-between gap-4"> <div class="min-w-0"> <div class="font-mono text-xs mb-2" style="color:var(--zed-muted);"> mlopezgez/mcp-server-repomix </div> <h1 class="text-2xl sm:text-3xl font-bold break-words leading-tight" style="color:var(--zed-blue-pale);"> Repomix MCP Server </h1> <p class="mt-2 text-pretty" style="color:var(--zed-text-muted);"> Model Context Protocol Server for Repomix - Pack and analyze codebases for AI consumption </p> </div> <a href="https://github.com/mlopezgez/mcp-server-repomix" target="_blank" rel="noopener" class="zed-btn-primary shrink-0 inline-flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View on GitHub
+</a> </div> <div class="mt-4 flex flex-wrap items-center gap-2"> <span class="version-pill">v0.1.0</span> <span class="cat-badge" data-cat="context-server">Context Server</span> </div> <div class="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm" style="color:var(--zed-text-muted);"> <span class="inline-flex items-center gap-1"> <svg class="w-4 h-4" style="color:var(--zed-lime);" fill="currentColor" viewBox="0 0 20 20"> <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path> </svg> 3 stars
+</span> <span>Rust</span> <span>MIT</span> <span>Updated 12/2/2025</span> <span>schema v1</span> </div> <div class="mt-2 text-sm" style="color:var(--zed-text-muted);">
+by Matías López </div>  </div> </header> <main class="flex-1 max-w-4xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <article class="prose readme-prose max-w-none"><h1 id="user-content-repomix-mcp-server-for-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#repomix-mcp-server-for-zed"><span class="heading-anchor-icon">#</span></a>Repomix MCP Server for Zed</h1>
+<p>A <a href="https://zed.dev">Zed</a> extension that integrates <a href="https://repomix.com">Repomix</a> as a Model Context Protocol (MCP) server, enabling AI assistants to pack and analyze entire codebases.</p>
+<h2 id="user-content-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features"><span class="heading-anchor-icon">#</span></a>Features</h2>
+<ul>
+<li><strong>Repository Packing</strong>: Pack local or remote repositories into a single AI-friendly file</li>
+<li><strong>MCP Integration</strong>: Seamlessly integrates with Zed's Assistant through the Model Context Protocol</li>
+<li><strong>Flexible Configuration</strong>: Support for custom Repomix paths and settings</li>
+<li><strong>AI-Optimized Output</strong>: Generates comprehensive codebase context for AI analysis</li>
+</ul>
+<h2 id="user-content-what-is-repomix"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#what-is-repomix"><span class="heading-anchor-icon">#</span></a>What is Repomix?</h2>
+<p><a href="https://repomix.com">Repomix</a> is a powerful tool that packs your entire repository into a single file optimized for AI consumption. It's particularly useful for:</p>
+<ul>
+<li>Providing comprehensive codebase context to AI assistants</li>
+<li>Analyzing repository structure and dependencies</li>
+<li>Creating shareable codebase snapshots for AI analysis</li>
+<li>Supporting multiple output formats (XML, Markdown, Plain text)</li>
+</ul>
+<h2 id="user-content-prerequisites"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#prerequisites"><span class="heading-anchor-icon">#</span></a>Prerequisites</h2>
+<p>Before using this extension, you need to have:</p>
+<ol>
+<li><strong>Zed Editor</strong>: Version with MCP support</li>
+<li><strong>Node.js</strong>: Required for running Repomix</li>
+<li><strong>Repomix</strong>: Install globally with:
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">npm</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> install</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -g</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> repomix</span></span></code></pre>
+</li>
+</ol>
+<h2 id="user-content-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation"><span class="heading-anchor-icon">#</span></a>Installation</h2>
+<h3 id="user-content-from-zed-extension-marketplace"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#from-zed-extension-marketplace"><span class="heading-anchor-icon">#</span></a>From Zed Extension Marketplace</h3>
+<ol>
+<li>Open Zed</li>
+<li>Press <code>Cmd+Shift+P</code> (macOS) or <code>Ctrl+Shift+P</code> (Linux/Windows)</li>
+<li>Type "zed: extensions" and select it</li>
+<li>Search for "Repomix MCP Server"</li>
+<li>Click "Install"</li>
+</ol>
+<h3 id="user-content-from-source"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#from-source"><span class="heading-anchor-icon">#</span></a>From Source</h3>
+<ol>
+<li>
+<p>Clone this repository:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">git</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> clone</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> https://github.com/mlopezgez/zed-mcp-server-repomix.git</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">cd</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> zed-mcp-server-repomix</span></span></code></pre>
+</li>
+<li>
+<p>Build the extension:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> build</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --release</span></span></code></pre>
+</li>
+<li>
+<p>Install in Zed:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Copy to Zed extensions directory</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">mkdir</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -p</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> ~/.config/zed/extensions</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cp</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -r</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> .</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> ~/.config/zed/extensions/mcp-server-repomix</span></span></code></pre>
+</li>
+</ol>
+<h2 id="user-content-configuration"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#configuration"><span class="heading-anchor-icon">#</span></a>Configuration</h2>
+<h3 id="user-content-basic-setup"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#basic-setup"><span class="heading-anchor-icon">#</span></a>Basic Setup</h3>
+<p>Add the following to your Zed settings (<code>~/.config/zed/settings.json</code>):</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "context_servers"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "mcp-server-repomix"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {}</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h3 id="user-content-custom-repomix-path-optional"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#custom-repomix-path-optional"><span class="heading-anchor-icon">#</span></a>Custom Repomix Path (Optional)</h3>
+<p>If you have Repomix installed in a custom location:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "context_servers"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "mcp-server-repomix"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "repomix_path"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"/custom/path/to/repomix"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h2 id="user-content-remote-repositories"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#remote-repositories"><span class="heading-anchor-icon">#</span></a>Remote Repositories</h2>
+<p>Repomix can pack remote repositories by providing a repository URL. Simply pass the repository URL using either HTTPS (e.g., <code>https://github.com/user/repo</code>) or SSH (e.g., <code>git@github.com:user/repo.git</code>) to the pack repository tool.</p>
+<h2 id="user-content-usage"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#usage"><span class="heading-anchor-icon">#</span></a>Usage</h2>
+<p>Once installed and configured, the Repomix MCP server will be available in your Zed Assistant. The assistant can use Repomix tools to:</p>
+<ol>
+<li><strong>Pack repositories</strong>: Convert entire codebases into AI-friendly format</li>
+<li><strong>Analyze code structure</strong>: Understand repository organization and dependencies</li>
+<li><strong>Search packed output</strong>: Find specific patterns and code elements</li>
+<li><strong>Read packed content</strong>: Extract specific files or sections from packed repositories</li>
+</ol>
+<h3 id="user-content-example-prompts"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#example-prompts"><span class="heading-anchor-icon">#</span></a>Example Prompts</h3>
+<p>Try these prompts with your Zed Assistant:</p>
+<ul>
+<li>"Pack the current repository and show me an overview"</li>
+<li>"Analyze the structure of repository <a href="https://github.com/yamadashy/repomix">https://github.com/yamadashy/repomix</a>"</li>
+<li>"Pack only the TypeScript files in the src directory"</li>
+<li>"Find all authentication-related code in this repository"</li>
+</ul>
+<h2 id="user-content-available-mcp-tools"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#available-mcp-tools"><span class="heading-anchor-icon">#</span></a>Available MCP Tools</h2>
+<p>The extension provides the following MCP tools to the Zed Assistant:</p>
+<ul>
+<li><code>pack_repository</code>: Pack a local or remote repository</li>
+<li><code>read_packed_output</code>: Read and analyze packed repository output</li>
+<li><code>search_packed_output</code>: Search for specific patterns in packed output</li>
+</ul>
+<h2 id="user-content-development"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#development"><span class="heading-anchor-icon">#</span></a>Development</h2>
+<h3 id="user-content-building-from-source"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#building-from-source"><span class="heading-anchor-icon">#</span></a>Building from Source</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Install Rust if you haven't already</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">curl</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --proto</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> '=https'</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --tlsv1.2</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> -sSf</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> https://sh.rustup.rs</span><span style="color:#F97583;--shiki-dark:#F97583"> |</span><span style="color:#B392F0;--shiki-dark:#B392F0"> sh</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Clone and build</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">git</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> clone</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> https://github.com/mlopezgez/zed-mcp-server-repomix.git</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">cd</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> zed-mcp-server-repomix</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> build</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --release</span></span></code></pre>
+<h3 id="user-content-project-structure"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#project-structure"><span class="heading-anchor-icon">#</span></a>Project Structure</h3>
+<pre><code>zed-mcp-server-repomix/
+├── src/
+│   └── mcp_server_repomix.rs    # Main extension implementation
+├── configuration/
+│   ├── installation_instructions.md
+│   └── default_settings.jsonc
+├── Cargo.toml                    # Rust dependencies
+├── extension.toml                # Zed extension metadata
+└── README.md
+</code></pre>
+<h2 id="user-content-troubleshooting"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#troubleshooting"><span class="heading-anchor-icon">#</span></a>Troubleshooting</h2>
+<h3 id="user-content-server-not-starting"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#server-not-starting"><span class="heading-anchor-icon">#</span></a>Server Not Starting</h3>
+<p>If the MCP server fails to start:</p>
+<ol>
+<li>Verify Repomix is installed: <code>repomix --version</code></li>
+<li>Check Node.js is installed: <code>node --version</code></li>
+<li>Ensure the extension is enabled in Zed settings</li>
+<li>Restart Zed after configuration changes</li>
+</ol>
+<h3 id="user-content-permission-issues"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#permission-issues"><span class="heading-anchor-icon">#</span></a>Permission Issues</h3>
+<p>If you encounter permission errors:</p>
+<ol>
+<li>Ensure you have write permissions in the project directory</li>
+<li>Verify Repomix can execute: <code>which repomix</code></li>
+<li>Check Node.js permissions</li>
+</ol>
+<h3 id="user-content-debug-mode"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#debug-mode"><span class="heading-anchor-icon">#</span></a>Debug Mode</h3>
+<p>Enable debug logging in Zed to see detailed MCP server output:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "assistant"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "debug"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#79B8FF;--shiki-dark:#79B8FF">true</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h2 id="user-content-related-projects"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#related-projects"><span class="heading-anchor-icon">#</span></a>Related Projects</h2>
+<ul>
+<li><a href="https://github.com/yamadashy/repomix">Repomix</a> - The core repository packing tool</li>
+<li><a href="https://github.com/zed-industries/zed">Zed</a> - The editor this extension runs in</li>
+<li><a href="https://modelcontextprotocol.io">Model Context Protocol</a> - The protocol specification</li>
+</ul>
+<h2 id="user-content-contributing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#contributing"><span class="heading-anchor-icon">#</span></a>Contributing</h2>
+<p>Contributions are welcome! Please feel free to submit issues or pull requests.</p>
+<ol>
+<li>Fork the repository</li>
+<li>Create your feature branch (<code>git checkout -b feature/amazing-feature</code>)</li>
+<li>Commit your changes (<code>git commit -m 'Add some amazing feature'</code>)</li>
+<li>Push to the branch (<code>git push origin feature/amazing-feature</code>)</li>
+<li>Open a Pull Request</li>
+</ol>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>This project is licensed under the MIT License - see the <a href="https://github.com/mlopezgez/mcp-server-repomix/blob/HEAD/LICENSE" target="_blank" rel="noopener">LICENSE</a> file for details.</p>
+<h2 id="user-content-acknowledgments"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#acknowledgments"><span class="heading-anchor-icon">#</span></a>Acknowledgments</h2>
+<ul>
+<li><a href="https://repomix.com">Repomix</a> by <a href="https://github.com/yamadashy">@yamadashy</a> for the excellent repository packing tool</li>
+<li><a href="https://zed.dev">Zed</a> team for the extensible editor and MCP support</li>
+<li><a href="https://github.com/akbxr/zed-mcp-server-context7">Context7 MCP Server</a> for reference implementation</li>
+</ul>
+<h2 id="user-content-links"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#links"><span class="heading-anchor-icon">#</span></a>Links</h2>
+<ul>
+<li><a href="https://github.com/mlopezgez/zed-mcp-server-repomix">Documentation</a></li>
+<li><a href="https://repomix.com">Repomix Website</a></li>
+<li><a href="https://zed.dev/docs/extensions">Zed Extensions Guide</a></li>
+<li><a href="https://github.com/mlopezgez/zed-mcp-server-repomix/issues">Report Issues</a></li>
+</ul></article> </main> <footer class="mt-auto" style="background:var(--zed-bg);border-top:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:var(--zed-text-muted);">
+← Back to extension list
+</a> </div> </footer> </body></html>

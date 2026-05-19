@@ -1,0 +1,11 @@
+id = "mcp-server-powerdrill"
+name = "Powerdrill MCP Server"
+description = "Model Context Protocol Server for Powerdrill"
+version = "0.0.1"
+schema_version = 1
+authors = ["Julian Zhou <julian.zhou@me.com>"]
+repository = "https://github.com/javainthinking/zed-powerdrill-mcp-server"
+
+[context_servers.mcp-server-powerdrill]
+name = "Powerdrill MCP Server"
+

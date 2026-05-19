@@ -1,0 +1,12 @@
+id = "liquidsoap"
+name = "Liquidsoap"
+version = "0.1.0"
+schema_version = 1
+authors = ["LooFifteen <luis@lu15.dev"]
+description = "Zed language support for Liquidsoap."
+repository = "https://github.com/LooFifteen/liquidsoap-zed.git"
+snippets = "./languages/liquidsoap/snippets.json"
+
+[grammars.liquidsoap]
+repository = "https://github.com/savonet/tree-sitter-liquidsoap"
+rev = "d092c65598e940564e12214ff7c2097528cfa159"

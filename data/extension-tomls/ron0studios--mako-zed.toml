@@ -1,0 +1,11 @@
+id = "mako"
+name = "Mako"
+version = "0.0.3"
+schema_version = 1
+authors = ["Rudrrayan Manna"]
+description = "Mako template language support."
+repository = "https://github.com/ron0studios/mako-zed"
+
+[grammars.mako]
+repository = "https://github.com/sbaldasty/tree-sitter-mako"
+rev = "cff49671cc8c1d72030b82d7859ae0994925a090"

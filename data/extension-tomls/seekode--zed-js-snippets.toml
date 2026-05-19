@@ -1,0 +1,8 @@
+id = "javascript-snippets"
+name = "JavaScript Snippets"
+description = "Essential JavaScript snippets for faster development"
+version = "0.1.0"
+schema_version = 1
+authors = ["seekode <nicolas@seekode.dev>"]
+repository = "https://github.com/seekode/zed-js-snippets"
+snippets = "./snippets/javascript.json"

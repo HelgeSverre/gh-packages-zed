@@ -1,0 +1,20 @@
+id = "latte"
+name = "Latte"
+version = "0.1.0"
+schema_version = 1
+authors = ["Jasper Smet <zed-latte.auction571@simplelogin.com>"]
+description = "Latte templating language support for Zed"
+repository = "https://github.com/josbeir/zed-latte"
+
+[grammars.latte]
+repository = "https://github.com/josbeir/tree-sitter-latte"
+commit = "95728e2a238562764fc7daf5ef5c919d403a891f"
+
+[grammars.php_only]
+repository = "https://github.com/tree-sitter/tree-sitter-php"
+commit = "b2278dbac9d58b02653fe6a8530ccebc492e4ed4"
+path = "php_only"
+
+[language_servers.emmet]
+name = "Emmet Language Server"
+language = "Latte"

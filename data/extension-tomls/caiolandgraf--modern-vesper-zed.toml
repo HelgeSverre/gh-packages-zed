@@ -1,0 +1,23 @@
+id = "modern-vesper"
+name = "Modern Vesper"
+version = "1.0.4"
+schema_version = 1
+description = "Modified peppermint and orange flavored dark theme."
+repository = "https://github.com/caiolandgraf/modern-vesper-zed"
+authors = ["Caio Landgraf <eu.caiolandgraf@gmail.com>"]
+themes = ["themes/modern-vesper.json"]
+icon_themes = []
+languages = []
+capabilities = []
+
+[lib]
+
+[grammars]
+
+[language_servers]
+
+[context_servers]
+
+[slash_commands]
+
+[indexed_docs_providers]

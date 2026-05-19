@@ -1,0 +1,367 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Julia — Zed Extension Safari</title><meta name="description" content="Julia support for Zed."><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Julia — Zed Extension Safari"><meta property="og:description" content="Julia support for Zed."><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Julia — Zed Extension Safari"><meta name="twitter:description" content="Julia support for Zed."><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.DJSXA_CW.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);">  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-4"> <a href="/gh-packages-zed" class="transition" style="color:var(--zed-text-muted);">← All extensions</a> </nav> <div class="flex flex-wrap items-start justify-between gap-4"> <div class="min-w-0"> <div class="font-mono text-xs mb-2" style="color:var(--zed-muted);"> JuliaEditorSupport/zed-julia </div> <h1 class="text-2xl sm:text-3xl font-bold break-words leading-tight" style="color:var(--zed-blue-pale);"> Julia </h1> <p class="mt-2 text-pretty" style="color:var(--zed-text-muted);"> Julia support. </p> </div> <a href="https://github.com/JuliaEditorSupport/zed-julia" target="_blank" rel="noopener" class="zed-btn-primary shrink-0 inline-flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View on GitHub
+</a> </div> <div class="mt-4 flex flex-wrap items-center gap-2"> <span class="version-pill">v0.1.10</span> <span class="cat-badge" data-cat="grammar">Grammar</span><span class="cat-badge" data-cat="language-server">Language Server</span> </div> <div class="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm" style="color:var(--zed-text-muted);"> <span class="inline-flex items-center gap-1"> <svg class="w-4 h-4" style="color:var(--zed-lime);" fill="currentColor" viewBox="0 0 20 20"> <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path> </svg> 112 stars
+</span> <span>Tree-sitter Query</span> <span>MIT</span> <span>Updated 5/10/2026</span> <span>schema v1</span> </div> <div class="mt-2 text-sm" style="color:var(--zed-text-muted);">
+by Paul Berg </div>  </div> </header> <main class="flex-1 max-w-4xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <article class="prose readme-prose max-w-none"><h1 id="user-content-zed-julia"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#zed-julia"><span class="heading-anchor-icon">#</span></a>Zed Julia</h1>
+<p>This extension adds support for the <a href="https://julialang.org/">Julia</a> language in
+the <a href="https://zed.dev">zed</a> editor.</p>
+<h3 id="user-content-quick-links"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#quick-links"><span class="heading-anchor-icon">#</span></a>Quick links</h3>
+<ul>
+<li><a href="https://github.com/JuliaEditorSupport/zed-julia/blob/HEAD/CONTRIBUTING.md" target="_blank" rel="noopener">Contributing</a></li>
+<li><a href="#installing-julia--zed--zed-julia-extension">Installing Julia / Zed / Zed Julia extension</a></li>
+<li><a href="#configuring-the-julia-executable-for-tasks">Configuring the Julia executable for tasks</a></li>
+<li><a href="#running-code-in-the-repl">Running code in the REPL</a></li>
+<li><a href="#using-zed-in-the-repl">Using Zed in the REPL</a></li>
+<li><a href="#changing-settings-of-the-languageserver">Changing settings of the LanguageServer</a></li>
+<li><a href="#customizing-syntax-highlighting">Customizing syntax highlighting</a></li>
+</ul>
+<h3 id="user-content-installing-julia--zed--zed-julia-extension"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installing-julia--zed--zed-julia-extension"><span class="heading-anchor-icon">#</span></a>Installing Julia / Zed / Zed Julia extension</h3>
+<ol>
+<li>Install Julia for your platform: <a href="https://julialang.org/downloads/">https://julialang.org/downloads/</a></li>
+<li>Install Zed for your platform: <a href="https://zed.dev/download">https://zed.dev/download</a></li>
+<li>Start Zed.</li>
+<li>Inside Zed, go to the extensions view by
+executing the <code>zed: extensions</code> command (click Zed->Extensions).</li>
+<li>In the extensions view, simply search for the term <code>julia</code> in the search box, then select the extension named <code>Julia</code> and click the install button. You might have to restart Zed after this step.</li>
+</ol>
+<p>The Julia Zed extension looks for your Julia binary in the standard locations.
+Make sure that the Julia binary is on your <code>PATH</code>.</p>
+<h3 id="user-content-configuring-the-julia-executable-for-tasks"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#configuring-the-julia-executable-for-tasks"><span class="heading-anchor-icon">#</span></a>Configuring the Julia executable for tasks</h3>
+<p>By default, Zed tasks (like running tests) use the <code>julia</code> command from your PATH.
+You can customize which Julia executable is used by setting the <code>julia</code> environment variable:</p>
+<ol>
+<li>
+<p><strong>In your shell configuration</strong> (<code>.bashrc</code>, <code>.zshrc</code>, etc.):</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#F97583;--shiki-dark:#F97583">export</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> julia</span><span style="color:#F97583;--shiki-dark:#F97583">=</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"/path/to/custom/julia"</span></span></code></pre>
+</li>
+<li>
+<p><strong>When launching Zed from the terminal</strong>:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">julia</span><span style="color:#F97583;--shiki-dark:#F97583">=</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"/path/to/custom/julia"</span><span style="color:#B392F0;--shiki-dark:#B392F0"> zed</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> .</span></span></code></pre>
+</li>
+<li>
+<p><strong>Using direnv</strong> (automatically supported by Zed):</p>
+<ul>
+<li>Create a <code>.envrc</code> file in your project root with:
+<blockquote>
+<p>.envrc</p>
+</blockquote>
+<pre><code>JULIA_HOME="path/to/julia/directory"
+PATH_add "$JULIA_HOME/bin"
+export julia="$JULIA_HOME/bin/julia"
+</code></pre>
+</li>
+<li>Run <code>direnv allow</code> to approve the file</li>
+</ul>
+</li>
+</ol>
+<p>This allows you to use different Julia versions for different projects or to
+specify a Julia installation that's not on your PATH.</p>
+<h3 id="user-content-running-code-in-the-repl"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#running-code-in-the-repl"><span class="heading-anchor-icon">#</span></a>Running code in the REPL</h3>
+<p>This section describes how to select Julia code in the editor and run it in Zed's integrated
+terminal. This is more of a workaround than a full integration. Currently, there is no
+<em>inline code execution</em> as in VSCode. On the other hand, the Language Server is not required
+to make this work.</p>
+<ol>
+<li>
+<p>Open a .jl file in the editor.</p>
+</li>
+<li>
+<p>From the Command Palette, run <code>open in terminal</code>. This opens a new terminal in the
+worktree root (where the Project.toml lives). You can also right-click in the editor and
+use the context menu or press <code>ctrl-shift-` </code> as defined in the json example below.</p>
+</li>
+<li>
+<p>In the terminal, start the REPL with <code>julia --project</code>.</p>
+</li>
+<li>
+<p>Now it's time to select some code in the editor, copy it to the clipboard, paste it into
+the terminal, execute it, and go back to the editor. To make that less tedious, add one
+or more of the following key bindings. Change the <code>ctrl-shift-f10/11/12</code> combinations
+to your liking.</p>
+<p>Note: interacting with the terminal requires to send keystrokes. In the examples,
+<code>cmd-v</code> is used to paste code. Please adjust this binding for your operating system.</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">// Zed key map file, usually ~/.config/zed/keymap.json</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">[</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  {</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">    // Set the focus back to the editor without hiding the terminal.</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">    // This is an auxiliary binding used by other bindings.</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "context"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"Terminal"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "bindings"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: { </span><span style="color:#79B8FF;--shiki-dark:#79B8FF">"ctrl-shift-`"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"terminal_panel::ToggleFocus"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  },</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "context"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"Editor &#x26;&#x26; mode == full"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "bindings"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">      // Open a new terminal and change to the worktree root directory.</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "ctrl-shift-`"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"workspace::OpenInTerminal"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">      // Execute the whole line the cursor is on and move the cursor to the next line.</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">      // Invoke this binding repeately to run line by line.</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "ctrl-shift-f10"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: [</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">        "action::Sequence"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">        [</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">          "editor::SelectLine"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">          "editor::Copy"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">          "editor::MoveRight"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">          [</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"workspace::SendKeystrokes"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">, </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"ctrl-` cmd-v ctrl-shift-`"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">        ]</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      ],</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">      // Execute the enclosing top level block e.g., a function definition.</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">      // Note the additional keystroke "enter" to actually execute the code.</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "ctrl-shift-f11"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: [</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">        "action::Sequence"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">        [</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">          "editor::SelectEnclosingSymbol"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">          "editor::CopyAndTrim"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">          [</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"workspace::SendKeystrokes"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">, </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"ctrl-` cmd-v enter ctrl-shift-`"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">        ]</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      ],</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">      // Execute the paragraph (a block surrounded by blank lines).</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "ctrl-shift-f12"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: [</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">        "action::Sequence"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">        [</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">          "editor::MoveToStartOfParagraph"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">          "editor::SelectToEndOfParagraph"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">          "editor::Copy"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">          [</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"workspace::SendKeystrokes"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">, </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"ctrl-` cmd-v ctrl-shift-`"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">        ]</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      ]</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">]</span></span></code></pre>
+</li>
+</ol>
+<h3 id="user-content-using-zed-in-the-repl"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#using-zed-in-the-repl"><span class="heading-anchor-icon">#</span></a>Using Zed in the REPL</h3>
+<p>Zed is currently not on the list of Julia's predefined editors. You can add it to your <code>~/.julia/config/startup.jl</code>:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">atreplinit</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">() </span><span style="color:#F97583;--shiki-dark:#F97583">do</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> repl</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    InteractiveUtils</span><span style="color:#F97583;--shiki-dark:#F97583">.</span><span style="color:#79B8FF;--shiki-dark:#79B8FF">define_editor</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">(</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"zed"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">) </span><span style="color:#F97583;--shiki-dark:#F97583">do</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> cmd, path, line, column</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">        `</span><span style="color:#79B8FF;--shiki-dark:#79B8FF">$cmd</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> $path</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">:</span><span style="color:#79B8FF;--shiki-dark:#79B8FF">$line</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">:</span><span style="color:#79B8FF;--shiki-dark:#79B8FF">$column</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">`</span></span>
+<span class="line"><span style="color:#F97583;--shiki-dark:#F97583">    end</span></span>
+<span class="line"><span style="color:#F97583;--shiki-dark:#F97583">end</span></span></code></pre>
+<p>Set the environment variable EDITOR (or VISUAL or JULIA_EDITOR, whatever you use) to <code>zed --wait</code>. Then, using <code>InteractiveUtils.edit</code> etc. will open the document in Zed.</p>
+<h3 id="user-content-changing-settings-of-the-languageserver"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#changing-settings-of-the-languageserver"><span class="heading-anchor-icon">#</span></a>Changing settings of the LanguageServer</h3>
+<p>The Julia LS can be customized by adding a section to your <code>~/.config/zed/settings.json</code>. Example: don't show diagnostic messages of type "missing references" with:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "julia"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "julia.lint.missingrefs"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"none"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>We will add autocompletions for the available settings later (there is some groundwork missing in Zed). For now, have a look at the <code>lint</code> keys in
+<a href="https://github.com/julia-vscode/julia-vscode/blob/8f8d879dc62dee1658115c40dc4e156e9c0cffe4/package.json#L874">julia-vscode</a>.</p>
+<h3 id="user-content-customizing-syntax-highlighting"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#customizing-syntax-highlighting"><span class="heading-anchor-icon">#</span></a>Customizing syntax highlighting</h3>
+<p>You can change the foreground color and text attributes of syntax tokens in your <code>~/.config/zed/settings.json</code>, for instance:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "theme_overrides"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "One Dark"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "syntax"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "comment.doc"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">          "font_style"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"italic"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">        },</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "function.definition"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">          "color"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"#0000AA"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">          "font_weight"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#79B8FF;--shiki-dark:#79B8FF">700</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">        },</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      },</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    },</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  },</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>See <a href="https://zed.dev/docs/configuring-languages#syntax-highlighting-and-themes">Syntax Highlighting and Themes</a> and <a href="https://zed.dev/docs/extensions/languages#tree-sitter-queries">Tree-sitter Queries</a> for further details.</p>
+<p>Syntax tokens are called <em>captures</em> in tree-sitter jargon. The following table lists all captures provided by zed-julia. Some captures have default values (defined in <a href="https://github.com/zed-industries/zed/blob/main/assets/themes/">Zed's color themes</a>) and the other captures fall back to one of the defaults. Depending on your color theme, some captures may be set to the editor's foreground color or to a very similar one. In this case, try to assign a different color to improve the contrast.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Capture</th><th>Is there a default value?</th><th>Note/Example</th></tr></thead><tbody><tr><td>boolean</td><td>yes</td><td></td></tr><tr><td>comment</td><td>yes</td><td>line or block comment</td></tr><tr><td>comment.doc</td><td>yes</td><td>docstring</td></tr><tr><td>constant</td><td>yes</td><td></td></tr><tr><td>constant.builtin</td><td>no, falls back to constant</td><td>core julia built-in</td></tr><tr><td>function.builtin</td><td>no, falls back to function</td><td>core julia built-in</td></tr><tr><td>function.call</td><td>no, falls back to function</td><td>name of the called function</td></tr><tr><td>function.definition</td><td>no, falls back to function</td><td>name of the defined function</td></tr><tr><td>function.macro</td><td>no, falls back to function</td><td>name of the macro</td></tr><tr><td>keyword</td><td>yes</td><td></td></tr><tr><td>keyword.conditional</td><td>no, falls back to keyword</td><td><code>if</code>, <code>else</code></td></tr><tr><td>keyword.conditional.ternary</td><td>no, falls back to keyword</td><td><code>? :</code></td></tr><tr><td>keyword.exception</td><td>no, falls back to keyword</td><td><code>try</code>, <code>catch</code></td></tr><tr><td>keyword.function</td><td>no, falls back to keyword</td><td><code>function</code>, <code>do</code>, short function definition: <code>=</code></td></tr><tr><td>keyword.import</td><td>no, falls back to keyword</td><td><code>im/export</code>, <code>using</code>, module definition</td></tr><tr><td>keyword.operator</td><td>no, falls back to keyword</td><td><code>in</code>, <code>isa</code>, <code>where</code></td></tr><tr><td>keyword.repeat</td><td>no, falls back to keyword</td><td><code>for</code>, <code>while</code></td></tr><tr><td>keyword.return</td><td>no, falls back to keyword</td><td><code>return</code></td></tr><tr><td>keyword.type</td><td>no, falls back to keyword</td><td>struct or type definition</td></tr><tr><td>label</td><td>yes</td><td>label name for <code>@label</code>, <code>@goto</code></td></tr><tr><td>number</td><td>yes</td><td></td></tr><tr><td>number.float</td><td>no, falls back to number</td><td></td></tr><tr><td>operator</td><td>yes</td><td></td></tr><tr><td>punctuation.bracket</td><td>yes</td><td><code>()</code>, <code>[]</code>, <code>{}</code></td></tr><tr><td>punctuation.delimiter</td><td>yes</td><td><code>,</code>, <code>;</code>, <code>::</code></td></tr><tr><td>punctuation.special</td><td>yes</td><td><code>.</code>, <code>...</code>, string interpolation <code>$</code></td></tr><tr><td>string</td><td>yes</td><td></td></tr><tr><td>string.escape</td><td>yes</td><td>escape sequence</td></tr><tr><td>string.special</td><td>yes</td><td>command literal</td></tr><tr><td>string.special.symbol</td><td>yes</td><td>quote expression</td></tr><tr><td>type</td><td>yes</td><td></td></tr><tr><td>type.builtin</td><td>no, falls back to type</td><td>core julia built-in</td></tr><tr><td>type.definition</td><td>no, falls back to type</td><td></td></tr><tr><td>variable</td><td>yes</td><td></td></tr><tr><td>variable.builtin</td><td>no, falls back to variable</td><td>core julia built-in: <code>begin</code> and <code>end</code> in indices</td></tr><tr><td>variable.member</td><td>no, falls back to variable</td><td>example: in <code>foo.bar</code>, the member is <code>bar</code></td></tr></tbody></table></article> </main> <footer class="mt-auto" style="background:var(--zed-bg);border-top:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:var(--zed-text-muted);">
+← Back to extension list
+</a> </div> </footer> </body></html>
