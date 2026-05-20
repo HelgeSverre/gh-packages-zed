@@ -388,7 +388,7 @@ html[data-theme="dark"] .readme-prose .markdown-alert-caution .markdown-alert-ti
 /* Heading anchor links */
 .readme-prose a.heading-anchor {
   margin-right: 0.4em;
-  opacity: 0;
+  opacity: 0.25;
   color: var(--zed-muted);
   text-decoration: none;
   font-weight: 400;
@@ -405,7 +405,7 @@ html[data-theme="dark"] .readme-prose .markdown-alert-caution .markdown-alert-ti
   opacity: 1;
 }
 .readme-prose a.heading-anchor:hover {
-  color: var(--zed-blue-pale);
+  color: var(--zed-blue-deep);
   text-decoration: none;
 }
 .readme-prose .heading-anchor-icon {

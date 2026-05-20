@@ -42,6 +42,30 @@ const displayName = pkg.extension.name || pkg.name.split('/')[1];
 const authors = (pkg.extension.authors || []).map((author) => author.replace(/\s*<[^>]+>$/, ''));
 const zedExtensionUrl = pkg.extension.id ? `https://zed.dev/extensions/${pkg.extension.id}` : 'https://zed.dev/extensions';
 
+const structuredData: Record<string, unknown> = {
+    '@context': 'https://schema.org',
+    '@type': 'SoftwareApplication',
+    name: displayName,
+    description,
+    applicationCategory: 'DeveloperApplication',
+    operatingSystem: 'macOS, Linux, Windows',
+    url: zedExtensionUrl,
+    codeRepository: pkg.url,
+    ...(authors.length > 0 && {
+        author: authors.map((name) => ({'@type': 'Person', name})),
+    }),
+    ...(pkg.extension.version && {softwareVersion: pkg.extension.version}),
+    ...(pkg.license && {license: pkg.license}),
+    ...(pkg.extension.categories?.length && {
+        keywords: pkg.extension.categories.join(', '),
+    }),
+    offers: {
+        '@type': 'Offer',
+        price: '0',
+        priceCurrency: 'USD',
+    },
+};
+
 const detailRows = [
     pkg.extension.version && ['Version', `v${pkg.extension.version}`],
     pkg.extension.id && ['Extension ID', pkg.extension.id],
@@ -53,7 +77,7 @@ const detailRows = [
 ].filter(Boolean) as [string, string][];
 ---
 
-<Layout title={title} description={description}>
+<Layout title={title} description={description} structuredData={structuredData}>
     <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);">
         <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8">
             <nav class="text-sm font-mono mb-10">

@@ -9,6 +9,7 @@
     "format": "npx prettier --write ."
   },
   "dependencies": {
+    "@astrojs/sitemap": "^3.7.2",
     "@astrojs/svelte": "^8.1.1",
     "@shikijs/rehype": "^4.1.0",
     "@tailwindcss/typography": "^0.5.19",
