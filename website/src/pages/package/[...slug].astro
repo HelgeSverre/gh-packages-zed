@@ -75,9 +75,24 @@ const detailRows = [
     ['Updated', timeAgo(pkg.pushed_at)],
     pkg.extension.schema_version && ['Schema', `v${pkg.extension.schema_version}`],
 ].filter(Boolean) as [string, string][];
+
+// Fields the slideout on the index page needs but doesn't ship inline (slim
+// props). PackageFilter parses this <script> tag out of the fetched detail
+// HTML when a slideout opens.
+const pkgExtras = {
+    url: pkg.url,
+    language: pkg.language || null,
+    license: pkg.license || null,
+    topics: pkg.topics || [],
+    extension: {
+        authors,
+        schema_version: pkg.extension.schema_version || null,
+    },
+};
 ---
 
 <Layout title={title} description={description} structuredData={structuredData}>
+    <script type="application/json" id="pkg-extras" set:html={JSON.stringify(pkgExtras).replace(/</g, '\\u003c')} />
     <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);">
         <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8">
             <nav class="text-sm font-mono mb-10">

@@ -1,31 +1,35 @@
 <script lang="ts">
     import MiniSearch from 'minisearch';
 
-    interface ExtensionMeta {
+    // Slim shape — what index.astro ships inline for every card.
+    interface ExtensionMetaSlim {
         id: string | null;
         name: string | null;
         description: string | null;
         version: string | null;
-        schema_version: number | null;
-        authors: string[];
-        repository: string | null;
-        snippets: string | null;
-        sections: string[];
         categories: string[];
     }
 
     interface Package {
         name: string;
-        url: string;
         description: string;
         stars: number;
-        forks?: number;
-        language?: string | null;
-        license?: string | null;
-        topics: string[];
         pushed_at: string;
         discovered_at: string;
-        extension: ExtensionMeta;
+        extension: ExtensionMetaSlim | null;
+    }
+
+    // Extras only needed when a slideout opens — embedded in each detail page
+    // as a <script id="pkg-extras"> and parsed lazily by loadDetail().
+    interface PackageExtras {
+        url: string;
+        language: string | null;
+        license: string | null;
+        topics: string[];
+        extension: {
+            authors: string[];
+            schema_version: number | null;
+        };
     }
 
     interface Props {
@@ -45,9 +49,11 @@
     let readmeHtml: string | null = $state(null);
     let readmeLoading = $state(false);
     let readmeError: string | null = $state(null);
+    let activeExtras: PackageExtras | null = $state(null);
 
     const BASE = import.meta.env.BASE_URL.replace(/\/$/, '');
     const readmeCache = new Map<string, string | null>();
+    const extrasCache = new Map<string, PackageExtras | null>();
 
     const CATEGORY_LABEL: Record<string, string> = {
         'theme': 'Theme',
@@ -160,12 +166,15 @@
             : 'https://zed.dev/extensions';
     }
 
-    async function loadReadme(slug: string): Promise<string | null> {
-        if (readmeCache.has(slug)) return readmeCache.get(slug) ?? null;
+    async function loadDetail(slug: string): Promise<{html: string | null; extras: PackageExtras | null}> {
+        if (readmeCache.has(slug) && extrasCache.has(slug)) {
+            return {html: readmeCache.get(slug) ?? null, extras: extrasCache.get(slug) ?? null};
+        }
         const res = await fetch(packageHref(slug));
         if (!res.ok) {
             readmeCache.set(slug, null);
-            return null;
+            extrasCache.set(slug, null);
+            return {html: null, extras: null};
         }
         const html = await res.text();
         const parser = new DOMParser();
@@ -173,15 +182,23 @@
         const article = doc.querySelector('.readme-prose');
         const inner = article ? article.innerHTML : null;
         readmeCache.set(slug, inner);
-        return inner;
+        let extras: PackageExtras | null = null;
+        const extrasScript = doc.querySelector('#pkg-extras');
+        if (extrasScript?.textContent) {
+            try { extras = JSON.parse(extrasScript.textContent); } catch {}
+        }
+        extrasCache.set(slug, extras);
+        return {html: inner, extras};
     }
 
     async function openSlideout(slug: string, pushState = true) {
         activeSlug = slug;
         readmeError = null;
-        const cached = readmeCache.get(slug);
-        readmeHtml = cached ?? null;
-        readmeLoading = cached === undefined;
+        const cachedHtml = readmeCache.get(slug);
+        const cachedExtras = extrasCache.get(slug);
+        readmeHtml = cachedHtml ?? null;
+        activeExtras = cachedExtras ?? null;
+        readmeLoading = cachedHtml === undefined;
 
         if (pushState) history.pushState({slug}, '', packageHref(slug));
 
@@ -190,11 +207,12 @@
             if (body) body.scrollTop = 0;
         }
 
-        if (cached === undefined) {
+        if (cachedHtml === undefined) {
             try {
-                const html = await loadReadme(slug);
+                const {html, extras} = await loadDetail(slug);
                 if (activeSlug !== slug) return;
                 readmeHtml = html;
+                activeExtras = extras;
             } catch (e) {
                 if (activeSlug !== slug) return;
                 readmeError = (e as Error).message;
@@ -209,6 +227,7 @@
         readmeHtml = null;
         readmeLoading = false;
         readmeError = null;
+        activeExtras = null;
         if (pushState) history.pushState(null, '', BASE || '/');
     }
 
@@ -460,6 +479,8 @@
         role="dialog"
         aria-modal="true"
         aria-label="Extension details"
+        aria-hidden={!activeSlug}
+        inert={!activeSlug}
 >
     <header class="slideout-header">
         <div class="min-w-0 flex-1">
@@ -484,7 +505,7 @@
                     zed.dev
                 </a>
                 <a
-                        href={activePackage.url}
+                        href={activeExtras?.url ?? `https://github.com/${activePackage.name}`}
                         target="_blank"
                         rel="noopener"
                         class="zed-btn-ghost inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md text-xs font-medium"
@@ -528,21 +549,21 @@
                     </svg>
                     {activePackage.stars.toLocaleString()}
                 </span>
-                {#if activePackage.language}<span>{activePackage.language}</span>{/if}
-                {#if activePackage.license}<span>{activePackage.license}</span>{/if}
+                {#if activeExtras?.language}<span>{activeExtras.language}</span>{/if}
+                {#if activeExtras?.license}<span>{activeExtras.license}</span>{/if}
                 <span>Updated {timeAgo(activePackage.pushed_at)}</span>
-                {#if activePackage.extension?.schema_version}
-                    <span>schema v{activePackage.extension.schema_version}</span>
+                {#if activeExtras?.extension?.schema_version}
+                    <span>schema v{activeExtras.extension.schema_version}</span>
                 {/if}
             </div>
-            {#if activePackage.extension?.authors && activePackage.extension.authors.length > 0}
+            {#if activeExtras?.extension?.authors && activeExtras.extension.authors.length > 0}
                 <div class="text-sm mb-4" style="color:var(--zed-text-muted);">
-                    by {activePackage.extension.authors.map((a) => a.replace(/\s*<[^>]+>$/, '')).join(', ')}
+                    by {activeExtras.extension.authors.join(', ')}
                 </div>
             {/if}
-            {#if activePackage.topics && activePackage.topics.length > 0}
+            {#if activeExtras?.topics && activeExtras.topics.length > 0}
                 <div class="flex flex-wrap gap-1.5 mb-6">
-                    {#each activePackage.topics as topic}
+                    {#each activeExtras.topics as topic}
                         <span class="px-2 py-0.5 text-xs rounded-full"
                               style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);">
                             {topic}

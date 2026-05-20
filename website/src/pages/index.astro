@@ -4,8 +4,26 @@ import PackageFilter from '../components/PackageFilter.svelte';
 import extensionsData from '../../../data/extensions.json';
 import statsData from '../../../data/stats.json';
 
-const packages = Object.values(extensionsData);
+const fullPackages = Object.values(extensionsData) as any[];
 const stats = statsData as { last_run?: string };
+
+// Slim shape — only the fields the card grid + search + sort actually render.
+// Everything else (url, language, license, topics, authors, schema_version)
+// is loaded on slideout open from each detail page's <script id="pkg-extras">.
+const packages = fullPackages.map((p) => ({
+    name: p.name,
+    description: p.description,
+    stars: p.stars,
+    pushed_at: p.pushed_at,
+    discovered_at: p.discovered_at,
+    extension: p.extension ? {
+        id: p.extension.id,
+        name: p.extension.name,
+        description: p.extension.description,
+        version: p.extension.version,
+        categories: p.extension.categories,
+    } : null,
+}));
 
 function timeAgo(dateString: string | undefined): string {
     if (!dateString) return 'recently';
@@ -98,7 +116,7 @@ function timeAgo(dateString: string | undefined): string {
              style="background:linear-gradient(to bottom, transparent, var(--zed-bg));"></div>
     </header>
 
-    <PackageFilter packages={packages} client:load />
+    <PackageFilter packages={packages} client:idle />
 
     <footer class="mt-auto zed-blue-band">
         <div
