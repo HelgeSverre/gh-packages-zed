@@ -16,8 +16,8 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2025-12-31T19:00:50Z",
-    "updated_at": "2026-05-19T20:28:52Z",
-    "pushed_at": "2026-05-19T20:28:41Z",
+    "updated_at": "2026-05-20T00:28:20Z",
+    "pushed_at": "2026-05-20T00:28:19Z",
     "discovered_at": "2026-05-19T19:19:12.408Z",
     "official": false,
     "extension": {
@@ -5058,7 +5058,7 @@
     "license": "MIT",
     "created_at": "2025-08-29T18:11:57Z",
     "updated_at": "2026-01-27T21:53:45Z",
-    "pushed_at": "2026-01-27T21:53:41Z",
+    "pushed_at": "2026-05-19T21:58:23Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false,
     "extension": {
@@ -38081,6 +38081,4038 @@
       ],
       "categories": [
         "grammar"
+      ]
+    }
+  },
+  "napalmpapalam/napalm-theme-zed": {
+    "name": "napalmpapalam/napalm-theme-zed",
+    "url": "https://github.com/napalmpapalam/napalm-theme-zed",
+    "description": "A minimalistic dark theme, mix of GitHub Dark UI theme and VSCode Dark+ theme syntax highlighting.",
+    "stars": 8,
+    "forks": 1,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2024-02-06T16:02:41Z",
+    "updated_at": "2025-09-22T08:57:03Z",
+    "pushed_at": "2025-09-22T08:57:00Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "napalm-theme",
+      "name": "Napalm Theme",
+      "description": "A minimalistic dark theme, mix of GitHub Dark UI theme and VSCode Dark+ theme syntax highlighting.",
+      "version": "0.0.3",
+      "schema_version": 1,
+      "authors": [
+        "Semen Loktionov <loktionov.kh@gmail.com>"
+      ],
+      "repository": "https://github.com/napalmpapalam/napalm-theme-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "darzaccaro/naysayer-theme-zed": {
+    "name": "darzaccaro/naysayer-theme-zed",
+    "url": "https://github.com/darzaccaro/naysayer-theme-zed",
+    "description": "A greenish color theme for Zed based on Jonathan Blow's emacs theme",
+    "stars": 1,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2025-10-11T19:45:05Z",
+    "updated_at": "2025-10-26T14:49:23Z",
+    "pushed_at": "2025-10-26T14:49:19Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "naysayer-theme",
+      "name": "Naysayer",
+      "description": "A color theme for Zed inspired by Jonathan Blow's compiler livestreams.",
+      "version": "1.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Dar Zaccaro <darzaccaro@gmail.com>"
+      ],
+      "repository": "https://github.com/darzaccaro/naysayer-theme",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "foxoman/nebula-pulse-zed-theme": {
+    "name": "foxoman/nebula-pulse-zed-theme",
+    "url": "https://github.com/foxoman/nebula-pulse-zed-theme",
+    "description": "Nebula Pulse Theme for Zed Editor",
+    "stars": 3,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2024-07-22T15:42:23Z",
+    "updated_at": "2026-05-03T16:07:41Z",
+    "pushed_at": "2025-03-29T09:16:37Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "nebula-pulse",
+      "name": "Nebula Pulse",
+      "description": "Nebula Themes for Zed",
+      "version": "0.0.6",
+      "schema_version": 1,
+      "authors": [
+        "Foxoman <sultan@foxoman.net>"
+      ],
+      "repository": "https://github.com/foxoman/nebula-pulse-zed-theme",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "vishnuroshan/zed-neo-brutalism": {
+    "name": "vishnuroshan/zed-neo-brutalism",
+    "url": "https://github.com/vishnuroshan/zed-neo-brutalism",
+    "description": "A raw, high-contrast neo-brutalist theme for the Zed editor",
+    "stars": 1,
+    "forks": 0,
+    "topics": [
+      "json",
+      "theme",
+      "zed"
+    ],
+    "language": null,
+    "license": "GPL-3.0",
+    "created_at": "2025-04-23T12:25:36Z",
+    "updated_at": "2026-04-23T04:17:51Z",
+    "pushed_at": "2025-04-26T12:56:51Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "neo-brutalism",
+      "name": "Neo Brutalism",
+      "description": "A raw, high-contrast neo-brutalist theme for the Zed editor.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Vishnu Roshan"
+      ],
+      "repository": "https://github.com/vishnuroshan/zed-neo-brutalism",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "k0tran/zed_neocmake": {
+    "name": "k0tran/zed_neocmake",
+    "url": "https://github.com/k0tran/zed_neocmake",
+    "description": "CMake grammar and neocmakelsp for Zed editor",
+    "stars": 50,
+    "forks": 16,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2024-05-17T10:29:30Z",
+    "updated_at": "2026-05-06T11:15:18Z",
+    "pushed_at": "2026-03-23T11:35:05Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "neocmake",
+      "name": "NeoCMake",
+      "description": "CMake grammar and lsp with neocmakelsp",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "authors": [
+        "Sorochan Ilya <sorochanilyav@gmail.com>"
+      ],
+      "repository": "https://github.com/k0tran/zed_neocmake",
+      "snippets": null,
+      "sections": [
+        "language_servers",
+        "grammars"
+      ],
+      "categories": [
+        "grammar",
+        "language-server"
+      ]
+    }
+  },
+  "guustavocl/zed-neon-comfy-soft-themes": {
+    "name": "guustavocl/zed-neon-comfy-soft-themes",
+    "url": "https://github.com/guustavocl/zed-neon-comfy-soft-themes",
+    "description": "",
+    "stars": 6,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "GPL-3.0",
+    "created_at": "2025-11-26T22:58:47Z",
+    "updated_at": "2026-05-09T16:35:58Z",
+    "pushed_at": "2025-11-28T19:58:41Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "neon-comfy-soft-themes",
+      "name": "Neon Comfy & Soft Themes (opaque/blured/transparent)",
+      "description": "A Comfy & Soft Dark theme with neon Violet, Pink and Vaporwave syntax colors.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Gustavo <gus@gus.sh>"
+      ],
+      "repository": "https://github.com/guustavocl/zed-neon-comfy-soft-themes",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "carlocaione/neosolarized.zed": {
+    "name": "carlocaione/NeoSolarized.zed",
+    "url": "https://github.com/carlocaione/NeoSolarized.zed",
+    "description": "",
+    "stars": 5,
+    "forks": 6,
+    "topics": [],
+    "language": null,
+    "license": null,
+    "created_at": "2024-02-09T19:01:05Z",
+    "updated_at": "2026-05-09T12:39:06Z",
+    "pushed_at": "2024-09-16T19:28:39Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "neosolarized",
+      "name": "NeoSolarized Theme",
+      "description": "NeoSolarized Zed theme.",
+      "version": "0.0.2",
+      "schema_version": 1,
+      "authors": [
+        "Carlo Caione <carlo.caione@gmail.com>"
+      ],
+      "repository": "https://github.com/carlocaione/NeoSolarized.zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "kimnorgaard/zed-neovim-default": {
+    "name": "KimNorgaard/zed-neovim-default",
+    "url": "https://github.com/KimNorgaard/zed-neovim-default",
+    "description": "Neovim default themes for the Zed editor",
+    "stars": 9,
+    "forks": 1,
+    "topics": [],
+    "language": "Vim Script",
+    "license": "MIT",
+    "created_at": "2024-11-30T22:05:35Z",
+    "updated_at": "2026-03-18T18:24:23Z",
+    "pushed_at": "2025-02-24T18:33:55Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "neovim-default",
+      "name": "Neovim default themes",
+      "description": "A port of the default Neovim themes",
+      "version": "0.3.0",
+      "schema_version": 1,
+      "authors": [
+        "Kim Nørgaard"
+      ],
+      "repository": "https://github.com/KimNorgaard/zed-neovim-default.git",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "dustinbturner/neutral-theme": {
+    "name": "dustinbturner/neutral-theme",
+    "url": "https://github.com/dustinbturner/neutral-theme",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2025-05-22T15:59:19Z",
+    "updated_at": "2025-05-22T16:12:00Z",
+    "pushed_at": "2025-05-22T16:11:56Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "neutral-theme",
+      "name": "Neutral Theme",
+      "description": "Clean, minimal, neutral color palette.",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Dustin Turner <dustin@dustinbturner.com>"
+      ],
+      "repository": "https://github.com/dustinbturner/neutral-theme",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "e-simpson/new-darcula-z": {
+    "name": "e-simpson/new-darcula-z",
+    "url": "https://github.com/e-simpson/new-darcula-z",
+    "description": "Modern take on the Darcula theme, now for Zed.",
+    "stars": 31,
+    "forks": 2,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2024-02-24T01:23:58Z",
+    "updated_at": "2026-05-04T13:27:30Z",
+    "pushed_at": "2026-01-07T22:07:28Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "new-darcula",
+      "name": "New Darcula Theme",
+      "description": "🔮 Clean and minimal take on the JetBrains Darcula theme. INCLUDES dark, darker, and light variants.",
+      "version": "1.0.9",
+      "schema_version": 1,
+      "authors": [
+        "Evan Simpson <evan@evan.news>"
+      ],
+      "repository": "https://github.com/e-simpson/new-darcula-z",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "konstantinos-ps/zed-nextjs-react-snippets": {
+    "name": "Konstantinos-Ps/zed-nextjs-react-snippets",
+    "url": "https://github.com/Konstantinos-Ps/zed-nextjs-react-snippets",
+    "description": "",
+    "stars": 6,
+    "forks": 2,
+    "topics": [],
+    "language": null,
+    "license": "GPL-3.0",
+    "created_at": "2025-06-08T20:53:42Z",
+    "updated_at": "2026-04-24T17:02:49Z",
+    "pushed_at": "2025-08-19T11:10:23Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "nextjs-react-snippets",
+      "name": "NEXTJS React JavaScript Snippets",
+      "description": "A collection of useful NEXTJS + React + JavaScript snippets to speed up your development.",
+      "version": "0.1.1",
+      "schema_version": 1,
+      "authors": [
+        "Konstantinos Psychogios"
+      ],
+      "repository": "https://github.com/Konstantinos-Ps/zed-nextjs-react-snippets",
+      "snippets": [
+        "./snippets/jsx.json",
+        "./snippets/tsx.json"
+      ],
+      "sections": [],
+      "categories": [
+        "snippets"
+      ]
+    }
+  },
+  "zed-extensions/nginx": {
+    "name": "zed-extensions/nginx",
+    "url": "https://github.com/zed-extensions/nginx",
+    "description": "",
+    "stars": 10,
+    "forks": 4,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "Apache-2.0",
+    "created_at": "2024-05-12T11:54:32Z",
+    "updated_at": "2026-05-18T22:08:01Z",
+    "pushed_at": "2026-05-18T22:07:58Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": false,
+    "extension": {
+      "id": "nginx",
+      "name": "Nginx",
+      "description": "Nginx support",
+      "version": "0.0.2",
+      "schema_version": 1,
+      "authors": [
+        "d1y <chenhonzhou@gmail.com>"
+      ],
+      "repository": "https://github.com/d1y/nginx-zed",
+      "snippets": null,
+      "sections": [
+        "grammars",
+        "language_servers"
+      ],
+      "categories": [
+        "grammar",
+        "language-server"
+      ]
+    }
+  },
+  "norpadon/zed-nickel-extension": {
+    "name": "norpadon/zed-nickel-extension",
+    "url": "https://github.com/norpadon/zed-nickel-extension",
+    "description": "An extension for the Zed text editor that provides a support for the Nickel configuration language.",
+    "stars": 0,
+    "forks": 1,
+    "topics": [],
+    "language": "Scheme",
+    "license": "MIT",
+    "created_at": "2024-09-02T15:22:24Z",
+    "updated_at": "2024-09-03T10:17:26Z",
+    "pushed_at": "2024-09-03T10:17:23Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "nickel",
+      "name": "Nickel",
+      "description": "Support for the Nickel configuration language.",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Artur Chakhvadze <norpadon@gmail.com>"
+      ],
+      "repository": "https://github.com/norpadon/zed-nickel-extension",
+      "snippets": null,
+      "sections": [
+        "grammars",
+        "language_servers"
+      ],
+      "categories": [
+        "grammar",
+        "language-server"
+      ]
+    }
+  },
+  "elgusto/night-owlz": {
+    "name": "elGusto/night-owlz",
+    "url": "https://github.com/elGusto/night-owlz",
+    "description": "Night Owl theme for Zed",
+    "stars": 11,
+    "forks": 6,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2024-02-25T18:45:06Z",
+    "updated_at": "2026-04-18T16:36:51Z",
+    "pushed_at": "2026-04-18T16:36:47Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "night-owlz",
+      "name": "Night Owl Theme",
+      "description": "A port to Zed of the famous Night Owl theme for VSCode by Sarah Drasner",
+      "version": "0.0.5",
+      "schema_version": 1,
+      "authors": [
+        "Auguste Bercovici <gusberco@proton.me>"
+      ],
+      "repository": "https://github.com/elGusto/night-owlz",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "ssaunderss/zed-nightfox": {
+    "name": "ssaunderss/zed-nightfox",
+    "url": "https://github.com/ssaunderss/zed-nightfox",
+    "description": "Nightfox Themes for the Zed IDE",
+    "stars": 14,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2024-02-14T14:49:43Z",
+    "updated_at": "2026-03-19T06:34:24Z",
+    "pushed_at": "2025-02-26T00:34:13Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "nightfox",
+      "name": "Nightfox Themes",
+      "description": "Nightfox themes for Zed",
+      "version": "0.1.1",
+      "schema_version": 1,
+      "authors": [
+        "ssaunderss <austinsaunders@me.com>"
+      ],
+      "repository": "https://github.com/ssaunderss/zed-nightfox",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "mpopadic/nightfox_m-zed": {
+    "name": "mpopadic/nightfox_m-zed",
+    "url": "https://github.com/mpopadic/nightfox_m-zed",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "Apache-2.0",
+    "created_at": "2025-04-28T09:59:22Z",
+    "updated_at": "2026-05-09T09:09:29Z",
+    "pushed_at": "2026-05-09T09:09:26Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "nightfox-m",
+      "name": "Night-M",
+      "description": "Mladen's custom themes",
+      "version": "0.3.0",
+      "schema_version": 1,
+      "authors": [
+        "Mladen Popadić <mladen.popadic.4@gmail.com>"
+      ],
+      "repository": "https://github.com/mpopadic/nightfox_m-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "xeind/nightingale-zed": {
+    "name": "xeind/nightingale-zed",
+    "url": "https://github.com/xeind/nightingale-zed",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2025-11-05T09:44:45Z",
+    "updated_at": "2026-04-15T10:34:51Z",
+    "pushed_at": "2026-04-15T10:34:46Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "nightingale",
+      "name": "Nightingale",
+      "description": "Night theme with comfortable warm contrast",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "authors": [
+        "xeind"
+      ],
+      "repository": "https://github.com/xeind/nightingale-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "gavr123456789/zed-niva": {
+    "name": "gavr123456789/zed-niva",
+    "url": "https://github.com/gavr123456789/zed-niva",
+    "description": "Extension with LSP for niva new programming language",
+    "stars": 1,
+    "forks": 0,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2024-12-30T16:52:55Z",
+    "updated_at": "2026-03-15T21:14:01Z",
+    "pushed_at": "2026-03-15T21:13:58Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "niva",
+      "name": "Niva",
+      "description": "Niva Language Support - Smalltalk inspired language with static types and functional leanings",
+      "version": "0.0.2",
+      "schema_version": 1,
+      "authors": [
+        "gavr"
+      ],
+      "repository": "https://github.com/gavr123456789/zed-niva",
+      "snippets": null,
+      "sections": [
+        "language_servers",
+        "grammars"
+      ],
+      "categories": [
+        "grammar",
+        "language-server"
+      ]
+    }
+  },
+  "zed-extensions/nix": {
+    "name": "zed-extensions/nix",
+    "url": "https://github.com/zed-extensions/nix",
+    "description": "Nix language support in Zed",
+    "stars": 112,
+    "forks": 23,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2024-03-01T05:13:38Z",
+    "updated_at": "2026-05-18T22:07:57Z",
+    "pushed_at": "2026-05-18T22:07:40Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": false,
+    "extension": {
+      "id": "nix",
+      "name": "Nix",
+      "description": "Nix support.",
+      "version": "0.1.4",
+      "schema_version": 1,
+      "authors": [
+        "Hasit Mistry <hasitnm@gmail.com>"
+      ],
+      "repository": "https://github.com/zed-extensions/nix",
+      "snippets": null,
+      "sections": [
+        "grammars",
+        "language_servers"
+      ],
+      "categories": [
+        "grammar",
+        "language-server"
+      ]
+    }
+  },
+  "nobinkhan/zed-themes": {
+    "name": "NobinKhan/zed-themes",
+    "url": "https://github.com/NobinKhan/zed-themes",
+    "description": "Theme for zed IDE",
+    "stars": 2,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2024-07-12T06:45:15Z",
+    "updated_at": "2026-02-08T20:02:47Z",
+    "pushed_at": "2024-07-12T06:46:51Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "nobin-theme",
+      "name": "Nobin Theme",
+      "description": "Personal Theme (Twisted version of Dracula)",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Nobin Khan <nazrulkhan.dk@gmail.com>"
+      ],
+      "repository": "https://github.com/nobinkhan/zed-themes",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "sidwachche/noctis-port": {
+    "name": "sidwachche/noctis-port",
+    "url": "https://github.com/sidwachche/noctis-port",
+    "description": "",
+    "stars": 4,
+    "forks": 1,
+    "topics": [],
+    "language": null,
+    "license": null,
+    "created_at": "2025-07-26T10:39:31Z",
+    "updated_at": "2026-01-21T18:04:02Z",
+    "pushed_at": "2025-08-02T18:48:05Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "noctis-port",
+      "name": "Noctis",
+      "description": "A Noctis theme for Zed",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Siddha Wachche"
+      ],
+      "repository": "https://github.com/sidwachche/noctis-port",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "chaseweaver/noir-and-blanc": {
+    "name": "chaseweaver/noir-and-blanc",
+    "url": "https://github.com/chaseweaver/noir-and-blanc",
+    "description": "",
+    "stars": 3,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": null,
+    "created_at": "2025-05-07T22:30:33Z",
+    "updated_at": "2026-04-17T08:31:26Z",
+    "pushed_at": "2025-05-22T21:47:57Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "noir-and-blanc-theme",
+      "name": "Noir & Blanc",
+      "description": "Minimal black and white themes for Zed",
+      "version": "0.1.1",
+      "schema_version": 1,
+      "authors": [
+        "Chase Weaver <chase.weaver34@gmail.com>"
+      ],
+      "repository": "https://github.com/chaseweaver/noir-and-blanc",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "loczek/zed-nomad-extension": {
+    "name": "loczek/zed-nomad-extension",
+    "url": "https://github.com/loczek/zed-nomad-extension",
+    "description": "Zed Nomad Extension",
+    "stars": 2,
+    "forks": 1,
+    "topics": [
+      "hashicorp-nomad",
+      "hcl",
+      "hcl2",
+      "nomad"
+    ],
+    "language": "Tree-sitter Query",
+    "license": "Apache-2.0",
+    "created_at": "2025-12-03T00:07:18Z",
+    "updated_at": "2026-05-17T21:33:32Z",
+    "pushed_at": "2026-05-04T01:28:04Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "nomad",
+      "name": "Nomad",
+      "description": "Nomad Language Server",
+      "version": "0.0.3",
+      "schema_version": 1,
+      "authors": [
+        "loczek"
+      ],
+      "repository": "https://github.com/loczek/zed-nomad-extension",
+      "snippets": null,
+      "sections": [
+        "language_servers",
+        "grammars"
+      ],
+      "categories": [
+        "grammar",
+        "language-server"
+      ]
+    }
+  },
+  "mikasius/zed-nord-theme": {
+    "name": "mikasius/zed-nord-theme",
+    "url": "https://github.com/mikasius/zed-nord-theme",
+    "description": "Nord theme for zed",
+    "stars": 36,
+    "forks": 17,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2024-02-12T10:23:49Z",
+    "updated_at": "2026-05-04T05:14:11Z",
+    "pushed_at": "2026-04-17T04:32:42Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "nord",
+      "name": "Nord Themes",
+      "description": "Nord color schemes for Zed. Includes light and dark variants.",
+      "version": "0.1.5",
+      "schema_version": 1,
+      "authors": [
+        "Sergei Metlenkin <s.metlenkin@gmail.com>"
+      ],
+      "repository": "https://github.com/mikasius/zed-nord-theme",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "kislikjeka/zed-theme-nordic": {
+    "name": "kislikjeka/zed-theme-nordic",
+    "url": "https://github.com/kislikjeka/zed-theme-nordic",
+    "description": "Zed theme inspired by nordic.nvim",
+    "stars": 6,
+    "forks": 2,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2024-11-02T12:06:24Z",
+    "updated_at": "2026-04-24T12:44:19Z",
+    "pushed_at": "2025-03-06T07:03:37Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "nordic-nvim-theme",
+      "name": "Nordic.nvim Theme",
+      "description": "Port of AlexvZyl/nordic.nvim theme to zed",
+      "version": "0.0.3",
+      "schema_version": 1,
+      "authors": [
+        "Evgenii Kislichenko (evgenii.kislichenko@gmail.com)"
+      ],
+      "repository": "https://github.com/kislikjeka/zed-theme-nordic",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "biaqat/nordic-theme-zed": {
+    "name": "bIaqat/nordic-theme-zed",
+    "url": "https://github.com/bIaqat/nordic-theme-zed",
+    "description": "",
+    "stars": 3,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2024-10-18T16:38:59Z",
+    "updated_at": "2026-01-12T20:50:51Z",
+    "pushed_at": "2025-09-30T15:55:57Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "nordic-theme",
+      "name": "Nordic Theme",
+      "description": "Nordic theme for Zed",
+      "version": "0.5.2",
+      "schema_version": 1,
+      "authors": [
+        "blaqat <blaqat.ag@gmail.com>"
+      ],
+      "repository": "https://github.com/biaqat/nordic-theme-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "tscritch/nostromo-ui-theme": {
+    "name": "tscritch/nostromo-ui-theme",
+    "url": "https://github.com/tscritch/nostromo-ui-theme",
+    "description": "Zed theme based on the Nostromo computer UI from the movie Alien",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-03-10T21:23:54Z",
+    "updated_at": "2026-03-10T21:24:00Z",
+    "pushed_at": "2026-03-10T21:23:56Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "nostromo-ui-theme",
+      "name": "Nostromo UI",
+      "description": "Theme based on the Nostromo computer UI from the movie Alien",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Tad Scritchfield"
+      ],
+      "repository": "https://github.com/tscritch/nostromo-ui-theme",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "iamawatermelo/zed-hct-theme-maker": {
+    "name": "iamawatermelo/zed-hct-theme-maker",
+    "url": "https://github.com/iamawatermelo/zed-hct-theme-maker",
+    "description": "Make colourful Zed themes with zed-hct-theme-maker",
+    "stars": 4,
+    "forks": 0,
+    "topics": [
+      "themes",
+      "zed"
+    ],
+    "language": "Python",
+    "license": null,
+    "created_at": "2025-02-05T19:29:05Z",
+    "updated_at": "2026-05-19T14:00:22Z",
+    "pushed_at": "2025-10-12T16:45:13Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "not-material-theme",
+      "name": "Not Material Theme",
+      "description": "Pastel material themes in various colours",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "github.com/iamawatermelo"
+      ],
+      "repository": "https://github.com/iamawatermelo/zed-hct-theme-maker",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "staleo/zed-nottooshabby-theme": {
+    "name": "staleo/zed-nottooshabby-theme",
+    "url": "https://github.com/staleo/zed-nottooshabby-theme",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-01-16T23:49:57Z",
+    "updated_at": "2026-01-17T00:15:09Z",
+    "pushed_at": "2026-01-17T00:15:06Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "not-too-shabby",
+      "name": "NotTooShabby",
+      "description": "Pretty much fine dark theme for Zed",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Stas Syritsyn <staleo@hey.com>"
+      ],
+      "repository": "https://github.com/staleo/zed-nottooshabby-theme",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "sergeevalera/noted-theme": {
+    "name": "sergeevalera/noted-theme",
+    "url": "https://github.com/sergeevalera/noted-theme",
+    "description": "Zed theme using with Noted extension ",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "TypeScript",
+    "license": "MIT",
+    "created_at": "2026-04-06T18:09:40Z",
+    "updated_at": "2026-04-12T21:02:00Z",
+    "pushed_at": "2026-04-12T21:01:57Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "noted-theme",
+      "name": "Noted Theme",
+      "description": "Verdant Garden — a prose-optimized dark/light theme for Markdown editing in Zed. Companion theme for the Noted extension.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Valery Sergeeva <valeriia.sergeeva@gmail.com>"
+      ],
+      "repository": "https://github.com/sergeevalera/noted-theme",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "overstarry/zed-nova": {
+    "name": "overstarry/zed-nova",
+    "url": "https://github.com/overstarry/zed-nova",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-01-28T09:09:03Z",
+    "updated_at": "2026-02-05T13:01:46Z",
+    "pushed_at": "2026-02-05T13:01:41Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "nova-theme",
+      "name": "Nova",
+      "description": "Nova color scheme for Zed, ported from VSCode",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Peng Lyu <penn.lv@gmail.com>",
+        "Ming Jiang <jm1179356055@gmail.com>"
+      ],
+      "repository": "https://github.com/overstarry/zed-nova",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "nstlgy/zed-nstlgy-dark": {
+    "name": "nstlgy/zed-nstlgy-dark",
+    "url": "https://github.com/nstlgy/zed-nstlgy-dark",
+    "description": "Elegant dark theme for Zed Code Editor ",
+    "stars": 26,
+    "forks": 1,
+    "topics": [
+      "theme",
+      "zed"
+    ],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2024-07-14T18:30:38Z",
+    "updated_at": "2026-05-07T18:06:48Z",
+    "pushed_at": "2026-05-07T18:05:53Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "nstlgy-dark",
+      "name": "Nstlgy Dark Theme",
+      "description": "Elegant dark theme with vibrant syntax highlighting inspired by the code playground theme made by Josh W Comeau at joshwcomeau.com",
+      "version": "0.0.2",
+      "schema_version": 1,
+      "authors": [
+        "nstlgy <yvsh7.btw@gmail.com>"
+      ],
+      "repository": "https://github.com/nstlgy/zed-nstlgy-dark",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "zed-extensions/nu": {
+    "name": "zed-extensions/nu",
+    "url": "https://github.com/zed-extensions/nu",
+    "description": "Zed support for the Nu language (https://www.nushell.sh)",
+    "stars": 29,
+    "forks": 9,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "Apache-2.0",
+    "created_at": "2024-02-13T21:16:02Z",
+    "updated_at": "2026-05-18T22:07:58Z",
+    "pushed_at": "2026-05-18T22:07:45Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "nu",
+      "name": "Nu",
+      "description": "Nushell language support for Zed",
+      "version": "0.0.10",
+      "schema_version": 1,
+      "authors": [
+        "Mikayla Maki <mikayla@zed.dev>",
+        "Joseph Lyons <joseph@zed.dev>",
+        "Darren Schroeder"
+      ],
+      "repository": "https://github.com/zed-extensions/nu",
+      "snippets": null,
+      "sections": [
+        "grammars",
+        "language_servers"
+      ],
+      "categories": [
+        "grammar",
+        "language-server"
+      ]
+    }
+  },
+  "xtrasmal/zed-theme-nuisance": {
+    "name": "xtrasmal/zed-theme-nuisance",
+    "url": "https://github.com/xtrasmal/zed-theme-nuisance",
+    "description": "Nuisance - Zed theme",
+    "stars": 2,
+    "forks": 1,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2024-10-27T18:44:29Z",
+    "updated_at": "2025-09-08T20:24:13Z",
+    "pushed_at": "2025-03-14T22:07:54Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "nuisance",
+      "name": "Nuisance Theme",
+      "description": "Less nuisance - Zed theme",
+      "version": "0.0.8",
+      "schema_version": 1,
+      "authors": [
+        "Xander <1174877+xtrasmal@users.noreply.github.com>"
+      ],
+      "repository": "https://github.com/xtrasmal/zed-theme-nuisance",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "bamorim/zed-numscript": {
+    "name": "bamorim/zed-numscript",
+    "url": "https://github.com/bamorim/zed-numscript",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2025-11-08T14:47:09Z",
+    "updated_at": "2026-03-28T22:57:57Z",
+    "pushed_at": "2025-11-17T18:03:39Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "numscript",
+      "name": "Numscript",
+      "description": "Support for Numscript",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Bernardo Amorim <contato@bamorim.com>"
+      ],
+      "repository": "https://github.com/bamorim/zed-numscript",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
+      ]
+    }
+  },
+  "stormwarning/zed-nunjucks": {
+    "name": "stormwarning/zed-nunjucks",
+    "url": "https://github.com/stormwarning/zed-nunjucks",
+    "description": "Nunjucks support in Zed",
+    "stars": 6,
+    "forks": 3,
+    "topics": [],
+    "language": "Nunjucks",
+    "license": null,
+    "created_at": "2025-07-28T18:31:21Z",
+    "updated_at": "2026-05-03T10:25:28Z",
+    "pushed_at": "2026-02-16T05:03:14Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "nunjucks",
+      "name": "Nunjucks",
+      "description": "Nunjucks support",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Jeff Nelson (https://tidaltheory.io)"
+      ],
+      "repository": "https://github.com/stormwarning/zed-nunjucks",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
+      ]
+    }
+  },
+  "nyxvamp-theme/zed": {
+    "name": "nyxvamp-theme/zed",
+    "url": "https://github.com/nyxvamp-theme/zed",
+    "description": "theme inspired by transfem emo aesthetics - special for cat girls 💜😺",
+    "stars": 7,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2024-11-20T21:41:13Z",
+    "updated_at": "2025-11-13T19:40:05Z",
+    "pushed_at": "2025-11-13T19:40:08Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "nyxvamp-theme",
+      "name": "nyxvamp",
+      "description": "theme inspired by transfem emo aesthetics - special for cat girls 💜😺",
+      "version": "0.3.0",
+      "schema_version": 1,
+      "authors": [
+        "zoedsoupe <zoey.spessanha@zeetech.io>"
+      ],
+      "repository": "https://github.com/nyxvamp-theme/zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "aerendem/oasis-zed-theme": {
+    "name": "aerendem/oasis-zed-theme",
+    "url": "https://github.com/aerendem/oasis-zed-theme",
+    "description": "",
+    "stars": 3,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2024-10-04T09:13:18Z",
+    "updated_at": "2025-09-03T01:20:43Z",
+    "pushed_at": "2025-02-26T11:22:05Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "oasis",
+      "name": "Oasis Theme",
+      "description": "A minimal, soothing theme for your high-frequency coding experience",
+      "version": "0.0.2",
+      "schema_version": 2,
+      "authors": [
+        "Ali <alieren.demireller@gmail.com>"
+      ],
+      "repository": "https://github.com/aerendem/oasis-zed-theme",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "knyazlv/zed-oberon": {
+    "name": "KnyazLV/zed-oberon",
+    "url": "https://github.com/KnyazLV/zed-oberon",
+    "description": "Extension for IDE Zed adding syntax highlighting for the Oberon-07 language",
+    "stars": 1,
+    "forks": 0,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2026-02-02T17:03:29Z",
+    "updated_at": "2026-03-03T09:00:27Z",
+    "pushed_at": "2026-03-03T09:00:11Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "oberon",
+      "name": "Oberon",
+      "description": "Oberon-07 language support",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "KnyazLV"
+      ],
+      "repository": "https://github.com/KnyazLV/zed-oberon",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
+      ]
+    }
+  },
+  "akzestia/objcpp": {
+    "name": "Akzestia/objcpp",
+    "url": "https://github.com/Akzestia/objcpp",
+    "description": "Another Extension for AI slop Editor ^_^ ",
+    "stars": 4,
+    "forks": 2,
+    "topics": [
+      "objective-c",
+      "objective-cpp",
+      "zed"
+    ],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2026-01-30T13:55:05Z",
+    "updated_at": "2026-05-05T16:07:16Z",
+    "pushed_at": "2026-03-11T22:23:02Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "objective-c",
+      "name": "Objective-C",
+      "description": "Support for Objective-C",
+      "version": "1.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Akzestia <akzestia@gmail.com>"
+      ],
+      "repository": "https://github.com/Akzestia/objcpp",
+      "snippets": null,
+      "sections": [
+        "language_servers",
+        "grammars"
+      ],
+      "categories": [
+        "grammar",
+        "language-server"
+      ]
+    }
+  },
+  "intersystems/zed-objectscript": {
+    "name": "intersystems/zed-objectscript",
+    "url": "https://github.com/intersystems/zed-objectscript",
+    "description": "An ObjectScript extension for Zed",
+    "stars": 5,
+    "forks": 3,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2025-07-01T14:30:02Z",
+    "updated_at": "2026-05-19T19:13:09Z",
+    "pushed_at": "2026-04-01T00:41:51Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "objectscript",
+      "name": "InterSystems ObjectScript",
+      "description": "InterSystems IRIS ObjectScript Extension",
+      "version": "1.3.0",
+      "schema_version": 1,
+      "authors": [
+        "Dave McCaldon <davem@intersystems.com>",
+        "Hannah Kimura <hannah.kimura@intersystems.com>"
+      ],
+      "repository": "https://github.com/intersystems/zed-objectscript",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
+      ]
+    }
+  },
+  "lczerniawski/obsidiansunset-zed": {
+    "name": "lczerniawski/ObsidianSunset-Zed",
+    "url": "https://github.com/lczerniawski/ObsidianSunset-Zed",
+    "description": "Obsidian Sunset is a dark and colorful theme for Zed, VSCode and IntelliJ that enhances the readability and aesthetics of your code.",
+    "stars": 1,
+    "forks": 0,
+    "topics": [],
+    "language": "C#",
+    "license": null,
+    "created_at": "2025-01-22T16:05:17Z",
+    "updated_at": "2025-11-30T04:15:05Z",
+    "pushed_at": "2025-01-25T09:22:36Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "obsidian-sunset",
+      "name": "Obsidian Sunset Theme",
+      "description": "Obsidian Sunset is a dark and colorful theme for Zed, VSCode and IntelliJ that enhances the readability and aesthetics of your code.",
+      "version": "1.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Łukasz Czerniawski <l.czerniawski@icloud.com>"
+      ],
+      "repository": "https://github.com/lczerniawski/ObsidianSunset-Zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "zed-extensions/ocaml": {
+    "name": "zed-extensions/ocaml",
+    "url": "https://github.com/zed-extensions/ocaml",
+    "description": "OCaml support",
+    "stars": 35,
+    "forks": 13,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "Apache-2.0",
+    "created_at": "2024-11-18T16:15:47Z",
+    "updated_at": "2026-05-18T22:08:17Z",
+    "pushed_at": "2026-05-18T22:08:13Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "ocaml",
+      "name": "OCaml",
+      "description": "OCaml support.",
+      "version": "0.3.1",
+      "schema_version": 1,
+      "authors": [
+        "Rashid Almheiri <69181766+huwaireb@users.noreply.github.com>"
+      ],
+      "repository": "https://github.com/zed-extensions/ocaml",
+      "snippets": null,
+      "sections": [
+        "language_servers",
+        "capabilities",
+        "grammars"
+      ],
+      "categories": [
+        "grammar",
+        "language-server"
+      ]
+    }
+  },
+  "tracepanic/zed-ocean-green": {
+    "name": "tracepanic/zed-ocean-green",
+    "url": "https://github.com/tracepanic/zed-ocean-green",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-02-22T20:07:58Z",
+    "updated_at": "2026-02-22T20:14:21Z",
+    "pushed_at": "2026-02-22T20:14:18Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "ocean-green",
+      "name": "Ocean Green",
+      "description": "And now I have been become green",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Trace Panic <tracepanic.com>"
+      ],
+      "repository": "https://github.com/tracepanic/zed-ocean-green",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "rkunev/oceanic-next": {
+    "name": "rkunev/oceanic-next",
+    "url": "https://github.com/rkunev/oceanic-next",
+    "description": "A port of the popular Oceanic Next theme for the Zed editor.",
+    "stars": 4,
+    "forks": 2,
+    "topics": [],
+    "language": "JavaScript",
+    "license": "MIT",
+    "created_at": "2024-03-29T11:34:46Z",
+    "updated_at": "2026-05-08T07:12:25Z",
+    "pushed_at": "2026-05-08T07:12:19Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "oceanic-next",
+      "name": "Oceanic Next Theme",
+      "description": "Minimalist theme, a port of the popular Oceanic Next with slight changes.",
+      "version": "1.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Rosen Kanev <rkunev@gmail.com"
+      ],
+      "repository": "https://github.com/rkunev/oceanic-next",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "jdonlucas/zed-oceans-of-andromeda": {
+    "name": "jdonlucas/zed-oceans-of-andromeda",
+    "url": "https://github.com/jdonlucas/zed-oceans-of-andromeda",
+    "description": "A beautiful dark theme inspired by the waters of Andromeda. Ported from VS Code.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-04-03T16:22:49Z",
+    "updated_at": "2026-04-22T06:58:33Z",
+    "pushed_at": "2026-04-22T06:58:30Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "oceans-of-andromeda-theme",
+      "name": "Oceans of Andromeda",
+      "description": "A beautiful dark theme inspired by the waters of Andromeda. Ported from VS Code.",
+      "version": "1.0.1",
+      "schema_version": 1,
+      "authors": [
+        "samlovescoding",
+        "jdonlucas"
+      ],
+      "repository": "https://github.com/jdonlucas/zed-oceans-of-andromeda",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "abdurrehman0206/oh-lucy": {
+    "name": "abdurrehman0206/Oh-Lucy",
+    "url": "https://github.com/abdurrehman0206/Oh-Lucy",
+    "description": "Oh Lucy Theme For Zed",
+    "stars": 1,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": null,
+    "created_at": "2024-09-13T09:41:20Z",
+    "updated_at": "2026-01-06T02:05:52Z",
+    "pushed_at": "2025-03-07T22:43:05Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "oh-lucy",
+      "name": "oh-lucy",
+      "description": "Oh Lucy Theme for Zed. Based on the Oh Lucy theme for VS Code.",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Abdur Rehman <abdurrehmansaleem5@gmail.com>"
+      ],
+      "repository": "https://github.com/abdurrehman0206/Oh-Lucy",
+      "snippets": null,
+      "sections": [
+        "lib",
+        "grammars",
+        "language_servers",
+        "slash_commands"
+      ],
+      "categories": [
+        "grammar",
+        "language-server",
+        "slash-command"
+      ]
+    }
+  },
+  "omnetpp/omnetpp-zed": {
+    "name": "omnetpp/omnetpp-zed",
+    "url": "https://github.com/omnetpp/omnetpp-zed",
+    "description": "OMNeT++ MSG and NED language extensions for the Zed editor",
+    "stars": 1,
+    "forks": 0,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2024-08-29T09:55:43Z",
+    "updated_at": "2026-02-05T14:13:39Z",
+    "pushed_at": "2025-11-07T11:28:17Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "omnetpp",
+      "name": "OMNeT++ MSG and NED extension",
+      "description": "Highlight MSG and NED files",
+      "version": "0.0.5",
+      "schema_version": 1,
+      "authors": [
+        "Gyorgy Szaszko <adam.szaszko@gmail.com>"
+      ],
+      "repository": "https://github.com/omnetpp/omnetpp-zed",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
+      ]
+    }
+  },
+  "serhiiboreiko/one-black-theme-zed": {
+    "name": "serhiiboreiko/one-black-theme-zed",
+    "url": "https://github.com/serhiiboreiko/one-black-theme-zed",
+    "description": "One Dark got even dar..kier ",
+    "stars": 16,
+    "forks": 1,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2024-10-30T20:13:55Z",
+    "updated_at": "2026-01-28T17:54:55Z",
+    "pushed_at": "2025-05-08T19:51:52Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "one-black-theme",
+      "name": "One Black Theme",
+      "description": "One Dark got even dar..kier",
+      "version": "0.0.4",
+      "schema_version": 1,
+      "authors": [
+        "Serhii Boreiko <jestersunborn@gmail.com>"
+      ],
+      "repository": "https://github.com/serhiiboreiko/one-black-theme-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "pavles6/one-dark-darkened": {
+    "name": "pavles6/one-dark-darkened",
+    "url": "https://github.com/pavles6/one-dark-darkened",
+    "description": "A darkened variant with enhanced contrast of One Dark theme for Zed.",
+    "stars": 9,
+    "forks": 3,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2024-09-01T13:18:49Z",
+    "updated_at": "2026-05-02T11:22:23Z",
+    "pushed_at": "2026-03-16T19:43:39Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "one-dark-darkened",
+      "name": "One Dark - Darkened",
+      "description": "A darkened variant with enhanced contrast of One Dark theme for Zed.",
+      "version": "1.0.2",
+      "schema_version": 1,
+      "authors": [
+        "Pavle Sokic <pavles6@protonmail.com>"
+      ],
+      "repository": "https://github.com/pavles6/one-dark-darkened",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "uonick/zed-one-dark-extended": {
+    "name": "uonick/zed-one-dark-extended",
+    "url": "https://github.com/uonick/zed-one-dark-extended",
+    "description": "One Dark Extended Zed theme",
+    "stars": 3,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": null,
+    "created_at": "2024-07-06T07:56:56Z",
+    "updated_at": "2025-03-30T06:56:34Z",
+    "pushed_at": "2024-07-11T10:15:19Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "one-dark-extended",
+      "name": "One Dark Extended Theme",
+      "description": "One Dark Extended theme for Zed",
+      "version": "0.0.2",
+      "schema_version": 1,
+      "authors": [
+        "uonick"
+      ],
+      "repository": "https://github.com/uonick/zed-one-dark-extended",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "0pandadev/zed-one-dark-flat": {
+    "name": "0PandaDEV/zed-one-dark-flat",
+    "url": "https://github.com/0PandaDEV/zed-one-dark-flat",
+    "description": "",
+    "stars": 2,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "GPL-3.0",
+    "created_at": "2024-11-21T08:14:42Z",
+    "updated_at": "2026-05-03T16:08:28Z",
+    "pushed_at": "2026-01-08T21:33:47Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "one-dark-flat",
+      "name": "One Dark Flat",
+      "description": "A port of VSCode One Dark Flat",
+      "version": "1.0.1",
+      "schema_version": 1,
+      "authors": [
+        "PandaDEV"
+      ],
+      "repository": "https://github.com/0pandadev/zed-one-dark-flat",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "george-aidonidis/zed-one-dark-ocean": {
+    "name": "george-aidonidis/zed-one-dark-ocean",
+    "url": "https://github.com/george-aidonidis/zed-one-dark-ocean",
+    "description": "A zed theme based on one dark with vivid colors",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2025-11-06T14:33:11Z",
+    "updated_at": "2025-11-06T14:40:21Z",
+    "pushed_at": "2025-11-06T14:40:18Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "one-dark-ocean",
+      "name": "One Dark Ocean",
+      "description": "A dark theme with vivid colors based on One Dark",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "George Aidonidis <george.aidonidis@gmail.com>"
+      ],
+      "repository": "https://github.com/george-aidonidis/zed-one-dark-ocean",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "mordfustang21/zed-one-dark-pro": {
+    "name": "MordFustang21/zed-one-dark-pro",
+    "url": "https://github.com/MordFustang21/zed-one-dark-pro",
+    "description": "Zed One Dark Pro Port",
+    "stars": 54,
+    "forks": 15,
+    "topics": [],
+    "language": null,
+    "license": "GPL-3.0",
+    "created_at": "2024-02-14T19:56:53Z",
+    "updated_at": "2026-05-06T22:14:08Z",
+    "pushed_at": "2026-04-26T02:50:08Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "one-dark-pro",
+      "name": "One Dark Pro",
+      "description": "A port of VSCode One Dark Pro with some tweaks",
+      "version": "0.0.11",
+      "schema_version": 1,
+      "authors": [
+        "MordFustang21"
+      ],
+      "repository": "https://github.com/mordfustang21/zed-one-dark-pro",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "bukitoka/one-dark-pro-max": {
+    "name": "bukitoka/one-dark-pro-max",
+    "url": "https://github.com/bukitoka/one-dark-pro-max",
+    "description": "Zed Theme: One Dark Pro Max :)",
+    "stars": 10,
+    "forks": 3,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2025-02-18T08:55:26Z",
+    "updated_at": "2026-05-01T07:32:14Z",
+    "pushed_at": "2026-01-02T04:49:37Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": false,
+    "extension": {
+      "id": "one-dark-pro-max",
+      "name": "One Dark Pro Max",
+      "description": "One Dark Pro Max/Glass theme for Zed :)",
+      "version": "0.0.2",
+      "schema_version": 1,
+      "authors": [
+        "Kusuma",
+        "BoyeDarat"
+      ],
+      "repository": "https://github.com/kussumma/one-dark-pro-max",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "salihdev0/zed-one-dark-pro-monokai-darker": {
+    "name": "salihdev0/zed-one-dark-pro-monokai-darker",
+    "url": "https://github.com/salihdev0/zed-one-dark-pro-monokai-darker",
+    "description": "A Darker One Dark Pro variation with Monokai scheme for Zed",
+    "stars": 16,
+    "forks": 1,
+    "topics": [],
+    "language": null,
+    "license": "Apache-2.0",
+    "created_at": "2024-07-11T17:54:01Z",
+    "updated_at": "2026-05-06T17:08:38Z",
+    "pushed_at": "2024-07-20T18:56:35Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": false,
+    "extension": {
+      "id": "one-dark-pro-monokai-darker",
+      "name": "One Dark Pro Monokai Darker Theme",
+      "description": "A Darker One Dark Pro variation with Monokai scheme",
+      "version": "0.1.1",
+      "schema_version": 1,
+      "authors": [
+        "Eser Ozvataf <eser@ozvataf.com> (http://eser.ozvataf.com)",
+        "Sami Salih Ibrahimbas <contact@9ssi7.dev> (https://9ssi7.dev)"
+      ],
+      "repository": "https://github.com/9ssi7/zed-one-dark-pro-monokai-darker",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "navinpeiris/zed-one-dark-pro-vivid": {
+    "name": "navinpeiris/zed-one-dark-pro-vivid",
+    "url": "https://github.com/navinpeiris/zed-one-dark-pro-vivid",
+    "description": "Zed One Dark theme with vivid colors and improved contrast",
+    "stars": 2,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-02-20T01:59:38Z",
+    "updated_at": "2026-05-06T13:11:22Z",
+    "pushed_at": "2026-05-06T04:32:02Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "one-dark-pro-vivid-theme",
+      "name": "One Dark Pro Vivid",
+      "description": "One Dark Pro theme with vivid colors and improved contrast",
+      "version": "0.3.0",
+      "schema_version": 1,
+      "authors": [
+        "Navin Peiris <navinpeiris@gmail.com>"
+      ],
+      "repository": "https://github.com/navinpeiris/zed-one-dark-pro-vivid",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "brunoocrv/onurb-zed": {
+    "name": "brunoocrv/onurb-zed",
+    "url": "https://github.com/brunoocrv/onurb-zed",
+    "description": "",
+    "stars": 1,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2025-01-15T04:05:37Z",
+    "updated_at": "2025-03-19T10:33:16Z",
+    "pushed_at": "2025-01-20T17:29:52Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "onurb",
+      "name": "onurb theme",
+      "description": "A dark theme for Zed",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "brunoocrv <brn.carvalho@icloud.com>"
+      ],
+      "repository": "https://github.com/brunoocrv/onurb-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "jmg-duarte/oolong-zed": {
+    "name": "jmg-duarte/oolong-zed",
+    "url": "https://github.com/jmg-duarte/oolong-zed",
+    "description": "",
+    "stars": 1,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": null,
+    "created_at": "2024-05-01T13:25:38Z",
+    "updated_at": "2025-06-16T08:31:51Z",
+    "pushed_at": "2025-06-16T08:31:47Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "oolong",
+      "name": "Oolong",
+      "description": "Deep green theme for Zed",
+      "version": "0.1.1",
+      "schema_version": 1,
+      "authors": [
+        "José Duarte <duarte.gmj@gmail.com>"
+      ],
+      "repository": "https://github.com/jmg-duarte/oolong-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "igoralexey/opaline-zed": {
+    "name": "IgorAlexey/opaline-zed",
+    "url": "https://github.com/IgorAlexey/opaline-zed",
+    "description": "The best VSCode theme but on Zed",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-02-22T23:08:54Z",
+    "updated_at": "2026-02-23T17:26:42Z",
+    "pushed_at": "2026-02-23T17:26:38Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "opaline-theme",
+      "name": "Opaline Extended",
+      "description": "Ported from https://marketplace.visualstudio.com/items?itemName=sysoev.opaline-theme",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Igor Alexey igor-alexey@hotmail.com"
+      ],
+      "repository": "https://github.com/IgorAlexey/opaline-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "dotcypress/zed-openscad": {
+    "name": "dotcypress/zed-openscad",
+    "url": "https://github.com/dotcypress/zed-openscad",
+    "description": "OpenSCAD language support for Zed",
+    "stars": 5,
+    "forks": 4,
+    "topics": [],
+    "language": "Scheme",
+    "license": "Apache-2.0",
+    "created_at": "2025-01-08T10:22:41Z",
+    "updated_at": "2026-04-19T19:01:40Z",
+    "pushed_at": "2025-01-08T10:23:50Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "openscad",
+      "name": "OpenSCAD",
+      "description": "OpenSCAD language support",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Vitaly Domnikov <oss@vitaly.codes>"
+      ],
+      "repository": "https://github.com/dotcypress/zed-openscad",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
+      ]
+    }
+  },
+  "tzabbi/zed-opentofu": {
+    "name": "tzabbi/zed-opentofu",
+    "url": "https://github.com/tzabbi/zed-opentofu",
+    "description": "OpenTofu support for Zed",
+    "stars": 4,
+    "forks": 0,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "Apache-2.0",
+    "created_at": "2025-11-11T06:48:41Z",
+    "updated_at": "2026-05-14T19:48:54Z",
+    "pushed_at": "2026-05-13T17:18:50Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "opentofu",
+      "name": "OpenTofu",
+      "description": "OpenTofu support.",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "authors": [
+        "Caius Durling <dev@caius.name>",
+        "Daniel Banck <dbanck@users.noreply.github.com>",
+        "Artem Zhurikhin <github.code@ash.pw>",
+        "Tom Zaspel <tom@zaspel.it>"
+      ],
+      "repository": "https://github.com/tzabbi/zed-opentofu",
+      "snippets": null,
+      "sections": [
+        "language_servers",
+        "grammars"
+      ],
+      "categories": [
+        "grammar",
+        "language-server"
+      ]
+    }
+  },
+  "iftekhar-ifat/optima-theme": {
+    "name": "iftekhar-ifat/optima-theme",
+    "url": "https://github.com/iftekhar-ifat/optima-theme",
+    "description": "Optima Theme for Zed",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2025-12-09T19:30:15Z",
+    "updated_at": "2025-12-31T17:08:19Z",
+    "pushed_at": "2025-12-31T17:08:16Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "optima",
+      "name": "Optima",
+      "description": "A beautiful dark minimal theme for Zed editor",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Iftekhar"
+      ],
+      "repository": "https://github.com/iftekhar-ifat/optima-theme",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "hron/zed-org": {
+    "name": "hron/zed-org",
+    "url": "https://github.com/hron/zed-org",
+    "description": "",
+    "stars": 38,
+    "forks": 4,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": null,
+    "created_at": "2024-10-28T11:56:20Z",
+    "updated_at": "2026-05-06T06:41:05Z",
+    "pushed_at": "2025-10-24T12:53:34Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "org",
+      "name": "Org Mode",
+      "description": "Org Mode support for Zed",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Aleksei Gusev <aleksei.gusev@gmail.com>"
+      ],
+      "repository": "https://github.com/hron/zed-org",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
+      ]
+    }
+  },
+  "elithrar/orng-zed": {
+    "name": "elithrar/orng-zed",
+    "url": "https://github.com/elithrar/orng-zed",
+    "description": "A Cloudflare-themed, well, theme... for the Zed editor.",
+    "stars": 6,
+    "forks": 1,
+    "topics": [
+      "cloudflare",
+      "theme",
+      "workers",
+      "zed"
+    ],
+    "language": null,
+    "license": "Apache-2.0",
+    "created_at": "2025-12-10T15:44:23Z",
+    "updated_at": "2025-12-15T02:01:21Z",
+    "pushed_at": "2025-12-11T12:57:03Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "orng",
+      "name": "orng",
+      "description": "A set of Cloudflare themes for Zed, with just the right amount of orange. Includes both dark & light mode themes and is designed for readability first.",
+      "version": "0.0.2",
+      "schema_version": 1,
+      "authors": [
+        "Matt Silverlock <orng-zed@questionable.services>"
+      ],
+      "repository": "https://github.com/elithrar/orng-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "ruslan-kurchenko/osaka-jade-zed-theme": {
+    "name": "ruslan-kurchenko/osaka-jade-zed-theme",
+    "url": "https://github.com/ruslan-kurchenko/osaka-jade-zed-theme",
+    "description": "Jade-inspired dark theme with Dark, Soft, Muted, and Light variants",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-05-01T12:48:33Z",
+    "updated_at": "2026-05-01T12:57:47Z",
+    "pushed_at": "2026-05-01T12:57:43Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "osaka-jade-theme",
+      "name": "Osaka Jade",
+      "description": "A jade-inspired dark theme with Dark, Soft, Muted, and Light variants. Ported from the Osaka Jade theme by Justin Lowry (Omarchy / basecamp).",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Ruslan Kurchenko <ruslan.kurchenko@gmail.com>"
+      ],
+      "repository": "https://github.com/ruslan-kurchenko/osaka-jade-zed-theme",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "webhooked/oscura-zed": {
+    "name": "webhooked/oscura-zed",
+    "url": "https://github.com/webhooked/oscura-zed",
+    "description": "An unapologetically dark and minimal colorscheme for Zed.",
+    "stars": 11,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2025-03-28T22:19:01Z",
+    "updated_at": "2026-04-30T18:10:30Z",
+    "pushed_at": "2025-04-16T19:37:17Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "oscura",
+      "name": "Oscura Theme",
+      "description": "An unapologetically dark and minimal colorscheme for Zed. Inspired by the Oscura Theme by Fey.",
+      "version": "0.2.0",
+      "schema_version": 1,
+      "authors": [
+        "Webhooked <hello@webhooked.dev>"
+      ],
+      "repository": "https://github.com/webhooked/oscura-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "acepie/outrunzedtheme": {
+    "name": "Acepie/OutrunZedTheme",
+    "url": "https://github.com/Acepie/OutrunZedTheme",
+    "description": "A theme I made for [Zed](https://zed.dev/)",
+    "stars": 5,
+    "forks": 1,
+    "topics": [],
+    "language": null,
+    "license": null,
+    "created_at": "2024-05-28T23:26:21Z",
+    "updated_at": "2026-04-28T05:29:02Z",
+    "pushed_at": "2025-03-20T13:41:01Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "outrun",
+      "name": "Outrun",
+      "description": "A cute cyberpunk/retro outrun inspired theme",
+      "version": "0.0.3",
+      "schema_version": 1,
+      "authors": [
+        "Ameen Radwan <therespie@gmail.com>"
+      ],
+      "repository": "https://github.com/Acepie/OutrunZedTheme",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "gaetschwartz/zed-p4": {
+    "name": "gaetschwartz/zed-p4",
+    "url": "https://github.com/gaetschwartz/zed-p4",
+    "description": "",
+    "stars": 1,
+    "forks": 0,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2026-02-04T13:59:23Z",
+    "updated_at": "2026-04-19T03:02:13Z",
+    "pushed_at": "2026-02-06T22:41:03Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "p4",
+      "name": "P4 Language Support",
+      "description": "Adds support for the P4 programming language.",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Gaëtan Schwartz"
+      ],
+      "repository": "https://github.com/gaetschwartz/zed-p4",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
+      ]
+    }
+  },
+  "vmachihin/pace-theme-pro": {
+    "name": "VMachihin/pace-theme-pro",
+    "url": "https://github.com/VMachihin/pace-theme-pro",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-02-18T21:18:20Z",
+    "updated_at": "2026-02-21T07:41:54Z",
+    "pushed_at": "2026-02-21T07:41:51Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "pace-pro-theme",
+      "name": "Pace Pro",
+      "description": "Pace Dark, Pace Dark Pro OLED and Pace Light Pro themes",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "VitMach Converted from VS Code Pace Dark by Fabian Hilleh"
+      ],
+      "repository": "https://github.com/VMachihin/pace-theme-pro",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "kattouf/package-swift-lsp-zed": {
+    "name": "kattouf/package-swift-lsp-zed",
+    "url": "https://github.com/kattouf/package-swift-lsp-zed",
+    "description": "Zed extension for Package.swift LSP",
+    "stars": 15,
+    "forks": 0,
+    "topics": [],
+    "language": "Rust",
+    "license": null,
+    "created_at": "2025-05-09T05:45:56Z",
+    "updated_at": "2026-04-25T07:26:31Z",
+    "pushed_at": "2025-08-07T17:26:00Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "package-swift-lsp",
+      "name": "Package.swift LSP",
+      "description": "Language Server Protocol (LSP) implementation for Swift Package Manager's Package.swift manifest files.",
+      "version": "1.1.0",
+      "schema_version": 1,
+      "authors": [
+        "kattouf <vasiliy.kattouf@gmail.com>"
+      ],
+      "repository": "https://github.com/kattouf/package-swift-lsp-zed",
+      "snippets": null,
+      "sections": [
+        "language_servers"
+      ],
+      "categories": [
+        "language-server"
+      ]
+    }
+  },
+  "salamaashoush/pact-zed": {
+    "name": "salamaashoush/pact-zed",
+    "url": "https://github.com/salamaashoush/pact-zed",
+    "description": "Pact lang zed extension",
+    "stars": 2,
+    "forks": 0,
+    "topics": [],
+    "language": "Scheme",
+    "license": "MIT",
+    "created_at": "2024-02-25T23:23:48Z",
+    "updated_at": "2025-11-18T09:27:22Z",
+    "pushed_at": "2025-01-15T22:34:49Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": false,
+    "extension": {
+      "id": "pact",
+      "name": "PactLang",
+      "description": "Pact Programming Language extension for Zed",
+      "version": "0.0.3",
+      "schema_version": 1,
+      "authors": [
+        "Salama Ashoush <salamaashoush@gmail.com>"
+      ],
+      "repository": "https://github.com/kadena-community/pact-zed",
+      "snippets": null,
+      "sections": [
+        "grammars",
+        "language_servers"
+      ],
+      "categories": [
+        "grammar",
+        "language-server"
+      ]
+    }
+  },
+  "alanmontgomery/palenight-zed": {
+    "name": "alanmontgomery/palenight-zed",
+    "url": "https://github.com/alanmontgomery/palenight-zed",
+    "description": "The Palenight theme for Zed IDE. Converted from VSCode's Palenight to the closest I could.",
+    "stars": 3,
+    "forks": 1,
+    "topics": [],
+    "language": null,
+    "license": null,
+    "created_at": "2024-05-22T00:40:24Z",
+    "updated_at": "2025-01-08T19:17:50Z",
+    "pushed_at": "2024-05-22T01:13:45Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "palenight",
+      "name": "Palenight Theme",
+      "description": "The popular Palenight theme now in Zed!",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Alan Montgomery <alanmontgomerycoding@gmail.com>"
+      ],
+      "repository": "https://github.com/alanmontgomery/palenight-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "biaqat/panda-theme-zed": {
+    "name": "bIaqat/panda-theme-zed",
+    "url": "https://github.com/bIaqat/panda-theme-zed",
+    "description": "",
+    "stars": 14,
+    "forks": 2,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2024-07-19T08:39:49Z",
+    "updated_at": "2026-05-03T16:10:19Z",
+    "pushed_at": "2026-01-17T21:15:48Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "panda-theme",
+      "name": "Panda Theme",
+      "description": "Panda Syntax theme for Zed",
+      "version": "0.9.0",
+      "schema_version": 1,
+      "authors": [
+        "blaqat <blaqat.ag@gmail.com>"
+      ],
+      "repository": "https://github.com/biaqat/panda-theme-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "edneyosf/pandora-zed": {
+    "name": "edneyosf/pandora-zed",
+    "url": "https://github.com/edneyosf/pandora-zed",
+    "description": "A simple and pleasant dark theme for Zed",
+    "stars": 2,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2025-12-02T20:35:08Z",
+    "updated_at": "2026-03-14T00:29:31Z",
+    "pushed_at": "2026-03-11T19:20:36Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "pandora",
+      "name": "Pandora",
+      "description": "Pandora theme for Zed",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "authors": [
+        "Edney Osf <edney.osf@gmail.com>"
+      ],
+      "repository": "https://github.com/edneyosf/pandora-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "treffynnon/zed-paraiso": {
+    "name": "treffynnon/zed-Paraiso",
+    "url": "https://github.com/treffynnon/zed-Paraiso",
+    "description": "Paraíso theme adapted for Zed from the TextMate theme of the same name originally created by Jan T. Sott",
+    "stars": 1,
+    "forks": 1,
+    "topics": [],
+    "language": "TypeScript",
+    "license": null,
+    "created_at": "2024-03-25T01:16:38Z",
+    "updated_at": "2026-05-08T14:13:43Z",
+    "pushed_at": "2025-06-19T01:01:23Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "paraiso",
+      "name": "Paraíso theme",
+      "description": "Paraíso theme adapted from the TextMate theme of the same name originally created by Jan T. Sott",
+      "version": "1.0.2",
+      "schema_version": 1,
+      "authors": [
+        "Simon Holywell",
+        "Jan T. Sott"
+      ],
+      "repository": "https://github.com/treffynnon/zed-Paraiso",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "egibs/poe.zed": {
+    "name": "egibs/poe.zed",
+    "url": "https://github.com/egibs/poe.zed",
+    "description": "Path of Exile .filter file extension for Zed.",
+    "stars": 2,
+    "forks": 0,
+    "topics": [],
+    "language": "Scheme",
+    "license": "Apache-2.0",
+    "created_at": "2024-12-25T02:40:08Z",
+    "updated_at": "2025-10-03T20:57:09Z",
+    "pushed_at": "2024-12-25T03:52:31Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "path-of-exile",
+      "name": "Path of Exile Filter",
+      "description": "Path of Exile .filter file syntax highlighting for Zed.",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "egibs <evan@egibs.xyz>"
+      ],
+      "repository": "https://github.com/egibs/poe.zed",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
+      ]
+    }
+  },
+  "gokulp01/pathy": {
+    "name": "gokulp01/pathy",
+    "url": "https://github.com/gokulp01/pathy",
+    "description": "Filesystem path completions inside Python string literals for Zed.",
+    "stars": 1,
+    "forks": 0,
+    "topics": [],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2026-01-02T19:35:06Z",
+    "updated_at": "2026-01-04T21:24:52Z",
+    "pushed_at": "2026-01-03T06:37:46Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "pathy",
+      "name": "Pathy",
+      "description": "Sidecar LSP server for Python path completions.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Your Name <you@example.com>"
+      ],
+      "repository": "https://github.com/gokulp01/pathy",
+      "snippets": null,
+      "sections": [
+        "lib",
+        "language_servers"
+      ],
+      "categories": [
+        "language-server"
+      ]
+    }
+  },
+  "zwaldowski/zed-pbxproj": {
+    "name": "zwaldowski/zed-pbxproj",
+    "url": "https://github.com/zwaldowski/zed-pbxproj",
+    "description": "",
+    "stars": 2,
+    "forks": 0,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2025-10-19T02:24:59Z",
+    "updated_at": "2025-12-09T07:41:12Z",
+    "pushed_at": "2025-11-18T03:01:14Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "pbxproj",
+      "name": "Xcode Project",
+      "description": "Xcode project and strings syntax highlighting",
+      "version": "0.2.0",
+      "schema_version": 1,
+      "authors": [
+        "Zachary Waldowski <zach@waldowski.me>"
+      ],
+      "repository": "https://github.com/zwaldowski/zed-pbxproj",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
+      ]
+    }
+  },
+  "dvhthomas/pearish-theme": {
+    "name": "dvhthomas/pearish-theme",
+    "url": "https://github.com/dvhthomas/pearish-theme",
+    "description": "A warm, earthy theme for Zed with light and dark variants",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-03-02T20:29:36Z",
+    "updated_at": "2026-04-02T17:17:07Z",
+    "pushed_at": "2026-04-02T17:17:01Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "pearish-theme",
+      "name": "Pearish",
+      "description": "A warm, earthy theme for Zed with light and dark variants",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "BitsByD <dvhthomas@users.noreply.github.com>"
+      ],
+      "repository": "https://github.com/dvhthomas/pearish-theme",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "simonepelosi/pelpsi-night": {
+    "name": "simonepelosi/pelpsi-night",
+    "url": "https://github.com/simonepelosi/pelpsi-night",
+    "description": "Pelpsi Night Zed Theme",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "NOASSERTION",
+    "created_at": "2026-02-12T15:52:16Z",
+    "updated_at": "2026-03-30T13:03:37Z",
+    "pushed_at": "2026-03-30T13:03:33Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "pelpsi-night-theme",
+      "name": "Pelpsi Night",
+      "description": "Pelpsi Night.",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "pelpsi"
+      ],
+      "repository": "https://github.com/simonepelosi/pelpsi-night",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "jbisits/penumbra-zed": {
+    "name": "jbisits/penumbra-zed",
+    "url": "https://github.com/jbisits/penumbra-zed",
+    "description": "Penumbra colour theme for zed",
+    "stars": 1,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2024-03-17T06:21:31Z",
+    "updated_at": "2025-03-31T22:32:45Z",
+    "pushed_at": "2025-03-31T22:32:42Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "penumbra",
+      "name": "Penumbra",
+      "description": "Penumbra light and dark colour themes",
+      "version": "0.1.1",
+      "schema_version": 1,
+      "authors": [
+        "Josef Bisits <jbisits@gmail.com>"
+      ],
+      "repository": "https://github.com/jbisits/penumbra-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "everdrone/zed-penumbra-plus": {
+    "name": "everdrone/zed-penumbra-plus",
+    "url": "https://github.com/everdrone/zed-penumbra-plus",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2025-05-07T18:12:38Z",
+    "updated_at": "2025-11-05T10:32:51Z",
+    "pushed_at": "2025-11-05T10:32:48Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "penumbra-plus",
+      "name": "Penumbra+",
+      "description": "Zed port of Helix penumbra+",
+      "version": "0.0.6",
+      "schema_version": 1,
+      "authors": [
+        "everdrone"
+      ],
+      "repository": "https://github.com/everdrone/zed-penumbra-plus",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "sttefaano/peppermint-zed": {
+    "name": "sttefaano/peppermint-zed",
+    "url": "https://github.com/sttefaano/peppermint-zed",
+    "description": "A dark theme for Zed with colorful syntax highlighting, inspired by the Peppermint theme for Ghostty",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-03-30T15:04:39Z",
+    "updated_at": "2026-03-30T15:04:55Z",
+    "pushed_at": "2026-03-30T15:04:41Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "peppermint-theme",
+      "name": "Peppermint",
+      "description": "A dark theme with colorful syntax highlighting, inspired by the Peppermint theme for Ghostty",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Stefano <gazzottistefano@gmail.com>"
+      ],
+      "repository": "https://github.com/sttefaano/peppermint-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "bikossor/perfect-dusk-zed": {
+    "name": "Bikossor/Perfect-Dusk-Zed",
+    "url": "https://github.com/Bikossor/Perfect-Dusk-Zed",
+    "description": "Beautiful and accessible dark theme for your favorite code editor",
+    "stars": 3,
+    "forks": 0,
+    "topics": [
+      "perfect-dusk"
+    ],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2025-02-25T20:03:22Z",
+    "updated_at": "2025-04-01T17:39:54Z",
+    "pushed_at": "2025-03-08T10:14:54Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "perfect-dusk",
+      "name": "Perfect Dusk",
+      "description": "Beautiful and accessible dark theme for your favorite code editor",
+      "version": "1.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Bikossor <perfect-dusk@almost.mozmail.com>"
+      ],
+      "repository": "https://github.com/Bikossor/Perfect-Dusk-Zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "tree-sitter-perl/zed-perl": {
+    "name": "tree-sitter-perl/zed-perl",
+    "url": "https://github.com/tree-sitter-perl/zed-perl",
+    "description": "A perl extension for zed",
+    "stars": 15,
+    "forks": 1,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2024-09-08T20:20:16Z",
+    "updated_at": "2026-03-21T20:25:38Z",
+    "pushed_at": "2026-03-21T20:25:35Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "perl",
+      "name": "Perl",
+      "description": "Perl support",
+      "version": "0.2.0",
+      "schema_version": 1,
+      "authors": [
+        "Veesh <rabbiveesh@gmail.com>"
+      ],
+      "repository": "https://github.com/tree-sitter-perl/zed-perl",
+      "snippets": null,
+      "sections": [
+        "grammars",
+        "language_servers"
+      ],
+      "categories": [
+        "grammar",
+        "language-server"
+      ]
+    }
+  },
+  "theoriginalstove/perm": {
+    "name": "theoriginalstove/perm",
+    "url": "https://github.com/theoriginalstove/perm",
+    "description": "Zed extension to provide syntax highlighting for perm files for Permify's DSL to define authz schemas.",
+    "stars": 8,
+    "forks": 0,
+    "topics": [],
+    "language": "Scheme",
+    "license": "MIT",
+    "created_at": "2024-07-27T21:36:21Z",
+    "updated_at": "2025-12-15T01:56:25Z",
+    "pushed_at": "2024-09-17T21:14:24Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "perm",
+      "name": "Perm",
+      "description": "Perm schema support for Permify schemas.",
+      "version": "0.0.4",
+      "schema_version": 1,
+      "authors": [
+        "Steven Turturo <steven@dryheatlabs.com>"
+      ],
+      "repository": "https://github.com/theoriginalstove/perm",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
+      ]
+    }
+  },
+  "phisch/phine-zed": {
+    "name": "phisch/phine-zed",
+    "url": "https://github.com/phisch/phine-zed",
+    "description": "",
+    "stars": 2,
+    "forks": 1,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2024-04-24T13:18:30Z",
+    "updated_at": "2025-08-25T00:50:12Z",
+    "pushed_at": "2025-08-25T00:50:09Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "phine-theme",
+      "name": "Phine Theme",
+      "description": "A phine zed theme.",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Philipp Schaffrath <philipp.schaffrath@gmail.com>"
+      ],
+      "repository": "https://github.com/phisch/phine-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "theoluciano/phosphor-icons-theme": {
+    "name": "theoluciano/phosphor-icons-theme",
+    "url": "https://github.com/theoluciano/phosphor-icons-theme",
+    "description": "",
+    "stars": 2,
+    "forks": 1,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2025-03-17T15:01:31Z",
+    "updated_at": "2025-06-17T15:36:06Z",
+    "pushed_at": "2025-03-25T13:16:06Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "phosphor-icons-theme",
+      "name": "Phosphor Icons Theme",
+      "description": "Use Phosphor Icons within the Zed code editor.",
+      "version": "0.0.2",
+      "schema_version": 1,
+      "authors": [
+        "Theo Luciano <theojluciano@gmail.com>"
+      ],
+      "repository": "https://github.com/theoluciano/phosphor-icons-theme",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "seekode/zed-php-snippets": {
+    "name": "seekode/zed-php-snippets",
+    "url": "https://github.com/seekode/zed-php-snippets",
+    "description": "A comprehensive collection of PHP snippets for Zed editor, designed to accelerate PHP development with intelligent autocomplete and placeholder support. ",
+    "stars": 5,
+    "forks": 0,
+    "topics": [
+      "php",
+      "snippets",
+      "zed"
+    ],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2025-10-01T11:37:42Z",
+    "updated_at": "2026-03-23T18:07:52Z",
+    "pushed_at": "2025-10-01T11:40:55Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "php-snippets",
+      "name": "PHP Snippets",
+      "description": "Essential PHP snippets for faster development",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "seekode <nicolas@seekode.dev>"
+      ],
+      "repository": "https://github.com/seekode/zed-php-snippets",
+      "snippets": "./snippets/php.json",
+      "sections": [],
+      "categories": [
+        "snippets"
+      ]
+    }
+  },
+  "genealabs/zed-phpmd-lsp": {
+    "name": "GeneaLabs/zed-phpmd-lsp",
+    "url": "https://github.com/GeneaLabs/zed-phpmd-lsp",
+    "description": "PHPMD linter for Zed editor.",
+    "stars": 3,
+    "forks": 0,
+    "topics": [],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2025-09-01T14:25:47Z",
+    "updated_at": "2026-04-27T16:01:47Z",
+    "pushed_at": "2025-12-08T22:25:19Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "phpmd",
+      "name": "PHPMD",
+      "description": "PHP Mess Detector Language Server for linting PHP code. We are looking for feedback, especially for Windows and Linux platforms.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Mike Bronner <mike@genealabs.com>"
+      ],
+      "repository": "https://github.com/GeneaLabs/zed-phpmd-lsp",
+      "snippets": null,
+      "sections": [
+        "lib",
+        "language_servers"
+      ],
+      "categories": [
+        "language-server"
+      ]
+    }
+  },
+  "syelan34/zed-pica200": {
+    "name": "syelan34/zed-pica200",
+    "url": "https://github.com/syelan34/zed-pica200",
+    "description": "Syntax highlighting for PICA200 assembly in Zed",
+    "stars": 1,
+    "forks": 0,
+    "topics": [],
+    "language": "Scheme",
+    "license": "MIT",
+    "created_at": "2024-04-12T18:55:58Z",
+    "updated_at": "2025-11-26T17:28:59Z",
+    "pushed_at": "2024-11-15T17:42:06Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": false,
+    "extension": {
+      "id": "PICA200",
+      "name": "pica200",
+      "description": "Syntax highlighting for PICA200 GPU assembly.",
+      "version": "0.0.2",
+      "schema_version": 1,
+      "authors": [
+        "Finn Dooley"
+      ],
+      "repository": "https://github.com/Squareheron942/zed-pica200",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
+      ]
+    }
+  },
+  "kreek/pigs-in-space-zed": {
+    "name": "kreek/pigs-in-space-zed",
+    "url": "https://github.com/kreek/pigs-in-space-zed",
+    "description": "A dark color theme for Zed designed to be easy on the eyes. Inspired by Solarized with a pastel twist.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2025-12-12T15:23:33Z",
+    "updated_at": "2025-12-12T19:08:30Z",
+    "pushed_at": "2025-12-12T19:08:26Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "pigs-in-space",
+      "name": "Pigs in Space",
+      "description": "A dark color theme designed to be easy on the eyes. Inspired by Solarized with a pastel twist.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "kreek"
+      ],
+      "repository": "https://github.com/kreek/pigs-in-space-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "stevedylandev/pinata-theme-zed": {
+    "name": "stevedylandev/pinata-theme-zed",
+    "url": "https://github.com/stevedylandev/pinata-theme-zed",
+    "description": "A color Zed theme that follows the Pinata design system",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2024-11-25T16:55:22Z",
+    "updated_at": "2024-11-25T17:05:24Z",
+    "pushed_at": "2024-11-25T17:05:20Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "pinata-theme",
+      "name": "Pinata Theme",
+      "description": "A theme modeled after the Pinata design system",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Steve Simkins <steve@pinata.cloud>"
+      ],
+      "repository": "https://github.com/stevedylandev/pinata-theme-zed",
+      "snippets": null,
+      "sections": [
+        "lib",
+        "grammars",
+        "language_servers",
+        "slash_commands",
+        "indexed_docs_providers"
+      ],
+      "categories": [
+        "grammar",
+        "language-server",
+        "slash-command",
+        "docs-provider"
+      ]
+    }
+  },
+  "paulovictor237/pink-candy-theme": {
+    "name": "paulovictor237/pink-candy-theme",
+    "url": "https://github.com/paulovictor237/pink-candy-theme",
+    "description": "Pink Candy dark theme for Zed — port of the VS Code Pink Candy theme by KubaP",
+    "stars": 1,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "NOASSERTION",
+    "created_at": "2026-03-14T19:04:56Z",
+    "updated_at": "2026-04-22T00:43:36Z",
+    "pushed_at": "2026-04-22T00:43:32Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "pink-candy-theme",
+      "name": "Pink Candy",
+      "description": "A vivid pink accent dark theme, ported from the VS Code Pink Candy theme by KubaP. Features a striking #FF1277 pink accent with a carefully balanced dark palette.",
+      "version": "0.2.0",
+      "schema_version": 1,
+      "authors": [
+        "Adapted from KubaP/vscode-pink-candy"
+      ],
+      "repository": "https://github.com/paulovictor237/pink-candy-theme",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "moshyfawn/pkl-zed": {
+    "name": "Moshyfawn/pkl-zed",
+    "url": "https://github.com/Moshyfawn/pkl-zed",
+    "description": "Pkl extension for Zed",
+    "stars": 9,
+    "forks": 1,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2024-02-15T01:48:07Z",
+    "updated_at": "2026-03-02T01:32:46Z",
+    "pushed_at": "2026-01-02T20:37:36Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "pkl",
+      "name": "Pkl",
+      "description": "Pkl language support for Zed",
+      "version": "0.3.0",
+      "schema_version": 1,
+      "authors": [
+        "moshyfawn <email@moshyfawn.dev>"
+      ],
+      "repository": "https://github.com/Moshyfawn/pkl-zed",
+      "snippets": null,
+      "sections": [
+        "grammars",
+        "language_servers"
+      ],
+      "categories": [
+        "grammar",
+        "language-server"
+      ]
+    }
+  },
+  "gabeins/zed-plantuml": {
+    "name": "gabeins/zed-plantuml",
+    "url": "https://github.com/gabeins/zed-plantuml",
+    "description": "PlantUML support for Zed",
+    "stars": 15,
+    "forks": 2,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2024-10-16T15:51:04Z",
+    "updated_at": "2026-05-19T09:08:18Z",
+    "pushed_at": "2026-02-23T13:14:51Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": false,
+    "extension": {
+      "id": "plantuml",
+      "name": "PlantUML",
+      "description": "PlantUML support.",
+      "version": "0.1.1",
+      "schema_version": 1,
+      "authors": [
+        "Gabriel Silva <gabe@gabe.id>"
+      ],
+      "repository": "https://github.com/gabeidx/zed-plantuml",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
+      ]
+    }
+  },
+  "ibnuh/zed-plastic-theme": {
+    "name": "ibnuh/zed-plastic-theme",
+    "url": "https://github.com/ibnuh/zed-plastic-theme",
+    "description": "A port of Will Stone's Plastic theme for Zed editor",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-02-28T03:35:28Z",
+    "updated_at": "2026-02-28T04:04:03Z",
+    "pushed_at": "2026-02-28T04:04:00Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "plastic-theme",
+      "name": "Plastic Theme",
+      "description": "A port of Will Stone's Plastic theme for Zed. A simple syntax and UI theme with a dark variant.",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "authors": [
+        "Muhammad Ibnuh <ibnuhdev@gmail.com>"
+      ],
+      "repository": "https://github.com/ibnuh/zed-plastic-theme",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "weirdo-adam/zed-platformio": {
+    "name": "weirdo-adam/zed-platformio",
+    "url": "https://github.com/weirdo-adam/zed-platformio",
+    "description": "Syntax highlighting for PlatformIO configuration files in Zed",
+    "stars": 1,
+    "forks": 0,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2025-08-19T09:44:37Z",
+    "updated_at": "2025-08-26T02:00:49Z",
+    "pushed_at": "2025-08-26T02:00:46Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "platformio",
+      "name": "PlatformIO",
+      "description": "PlatformIO syntax highlighting for platformio.ini configuration files",
+      "version": "v0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "weirdo-adam <adam.ngc2237@gmail.com>"
+      ],
+      "repository": "https://github.com/weirdo-adam/zed-platformio.git",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
+      ]
+    }
+  },
+  "notpeter/playdate-zed-extension": {
+    "name": "notpeter/playdate-zed-extension",
+    "url": "https://github.com/notpeter/playdate-zed-extension",
+    "description": "Zed Extension for Playdate Development",
+    "stars": 3,
+    "forks": 1,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2024-07-20T05:29:46Z",
+    "updated_at": "2025-12-09T17:24:19Z",
+    "pushed_at": "2026-01-16T16:31:58Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "playdate",
+      "name": "Playdate",
+      "description": "Playdate support for Zed.",
+      "version": "0.1.2",
+      "schema_version": 1,
+      "authors": [
+        "Peter Tripp <petertripp@gmail.com>"
+      ],
+      "repository": "https://github.com/notpeter/playdate-zed-extension",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
+      ]
+    }
+  },
+  "mshaugh/poimandres.zed": {
+    "name": "mshaugh/poimandres.zed",
+    "url": "https://github.com/mshaugh/poimandres.zed",
+    "description": "⚫️ poimandres zed theme",
+    "stars": 9,
+    "forks": 7,
+    "topics": [],
+    "language": null,
+    "license": null,
+    "created_at": "2024-02-22T10:39:10Z",
+    "updated_at": "2025-10-01T21:21:43Z",
+    "pushed_at": "2024-07-25T22:06:03Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "poimandres",
+      "name": "poimandres",
+      "description": "poimandres themes",
+      "version": "0.0.4",
+      "schema_version": 1,
+      "authors": [
+        "mshaugh <max@mshaugh.com>",
+        "luk4h <luizmarcondes@lgvm.dev>"
+      ],
+      "repository": "https://github.com/mshaugh/poimandres.zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "nezdemkovski/pointer-theme-for-zed": {
+    "name": "nezdemkovski/pointer-theme-for-zed",
+    "url": "https://github.com/nezdemkovski/pointer-theme-for-zed",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-03-12T11:09:44Z",
+    "updated_at": "2026-04-12T23:04:27Z",
+    "pushed_at": "2026-04-13T10:21:08Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "pointer-theme",
+      "name": "Pointer Theme",
+      "description": "A theme inspired by the Cursor IDE aesthetic, bringing its familiar dark and light styling to Zed",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "authors": [
+        "Yuri Nezdemkovski"
+      ],
+      "repository": "https://github.com/nezdemkovski/pointer-theme-for-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "polarsource/zed-polar-context-server": {
+    "name": "polarsource/zed-polar-context-server",
+    "url": "https://github.com/polarsource/zed-polar-context-server",
+    "description": "A Zed extension providing a Model Context Server extension for Polar",
+    "stars": 8,
+    "forks": 0,
+    "topics": [],
+    "language": "Rust",
+    "license": null,
+    "created_at": "2025-02-26T11:29:39Z",
+    "updated_at": "2026-01-27T13:37:49Z",
+    "pushed_at": "2025-05-16T12:45:14Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "polar-context-server",
+      "name": "Polar Context Server",
+      "description": "Model Context Server for Polar",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "François Voron <francois@polar.sh>"
+      ],
+      "repository": "https://github.com/polarsource/zed-polar-context-server",
+      "snippets": null,
+      "sections": [
+        "context_servers"
+      ],
+      "categories": [
+        "context-server"
+      ]
+    }
+  },
+  "biaqat/polar-theme-zed": {
+    "name": "bIaqat/polar-theme-zed",
+    "url": "https://github.com/bIaqat/polar-theme-zed",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2024-07-23T06:16:15Z",
+    "updated_at": "2025-02-26T02:46:30Z",
+    "pushed_at": "2025-02-26T02:46:27Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "polar-theme",
+      "name": "Polar Theme",
+      "description": "A port of polar, a pure white light theme based from nord colors.",
+      "version": "0.8.1",
+      "schema_version": 1,
+      "authors": [
+        "blaqat <blaqat.ag@gmail.com>"
+      ],
+      "repository": "https://github.com/biaqat/polar-theme-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "francostino/pollinations-mcp": {
+    "name": "FrancoStino/pollinations-mcp",
+    "url": "https://github.com/FrancoStino/pollinations-mcp",
+    "description": "Pollinations MCP is an extension for integrating Pollinations AI into Zed.",
+    "stars": 5,
+    "forks": 1,
+    "topics": [],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2025-07-01T10:06:39Z",
+    "updated_at": "2026-04-12T07:57:21Z",
+    "pushed_at": "2026-04-12T07:59:28Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "pollinations-mcp",
+      "name": "Pollinations MCP",
+      "description": "Pollinations MCP is an extension for integrating Pollinations AI into Zed.",
+      "version": "1.0.12",
+      "schema_version": 1,
+      "authors": [
+        "Davide Ladisa <info@davideladisa.it>"
+      ],
+      "repository": "https://github.com/FrancoStino/pollinations-mcp",
+      "snippets": null,
+      "sections": [
+        "context_servers"
+      ],
+      "categories": [
+        "context-server"
+      ]
+    }
+  },
+  "randoneering/popping-and-locking-zed-theme": {
+    "name": "randoneering/popping-and-locking-zed-theme",
+    "url": "https://github.com/randoneering/popping-and-locking-zed-theme",
+    "description": "This is my attempt at porting the 'popping and locking' theme used in iTerm2, ghostty, atom, vscode, and other tools.",
+    "stars": 9,
+    "forks": 2,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2025-10-25T03:30:19Z",
+    "updated_at": "2026-04-12T22:02:28Z",
+    "pushed_at": "2026-01-27T22:52:31Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "popping-and-locking",
+      "name": "Popping and Locking Theme",
+      "description": "An attempted port of the Popping and Locking Theme from iTerm,atom, and vscode",
+      "version": "1.0.3",
+      "schema_version": 1,
+      "authors": [
+        "randoneering <justin@randoneering.tech>"
+      ],
+      "repository": "https://github.com/randoneering/popping-and-locking-zed-theme",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "priyanshux-git/prime-dark": {
+    "name": "priyanshux-git/prime-dark",
+    "url": "https://github.com/priyanshux-git/prime-dark",
+    "description": "High contrast Theme for Zed Editor",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-02-23T04:34:15Z",
+    "updated_at": "2026-02-24T03:37:25Z",
+    "pushed_at": "2026-02-24T03:37:21Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": false,
+    "extension": {
+      "id": "prime-dark-theme",
+      "name": "Prime-dark",
+      "description": "A Highly Contrasted dark Theme for Zed",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Priyanshu"
+      ],
+      "repository": "https://github.com/priyanshu00001/prime-dark",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "aqrln/prisma-mcp-zed": {
+    "name": "aqrln/prisma-mcp-zed",
+    "url": "https://github.com/aqrln/prisma-mcp-zed",
+    "description": "Zed extension for Prisma MCP server",
+    "stars": 6,
+    "forks": 1,
+    "topics": [],
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "created_at": "2025-04-01T16:31:52Z",
+    "updated_at": "2026-04-04T17:35:03Z",
+    "pushed_at": "2025-10-02T08:45:58Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "prisma-mcp",
+      "name": "Prisma Context Server",
+      "description": "Model Context Server for Prisma",
+      "version": "0.2.0",
+      "schema_version": 1,
+      "authors": [
+        "Alexey Orlenko <alex@aqrln.net>"
+      ],
+      "repository": "https://github.com/aqrln/prisma-mcp-zed",
+      "snippets": null,
+      "sections": [
+        "context_servers"
+      ],
+      "categories": [
+        "context-server"
+      ]
+    }
+  },
+  "probe-rs/zed-extension": {
+    "name": "probe-rs/zed-extension",
+    "url": "https://github.com/probe-rs/zed-extension",
+    "description": "Zed debugger extension for probe-rs",
+    "stars": 33,
+    "forks": 2,
+    "topics": [],
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "created_at": "2025-06-21T16:53:33Z",
+    "updated_at": "2026-04-30T14:56:46Z",
+    "pushed_at": "2025-10-12T19:24:07Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "probe-rs",
+      "name": "probe-rs",
+      "description": "Debugger for embedded systems using probe-rs",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Dominik Böhi <dboehi@fastmail.com>"
+      ],
+      "repository": "https://github.com/probe-rs/zed-extension",
+      "snippets": null,
+      "sections": [
+        "debug_adapters"
+      ],
+      "categories": [
+        "debug-adapter"
+      ]
+    }
+  },
+  "sebcode/psalm-zed": {
+    "name": "sebcode/psalm-zed",
+    "url": "https://github.com/sebcode/psalm-zed",
+    "description": "Psalm extension for Zed",
+    "stars": 2,
+    "forks": 2,
+    "topics": [],
+    "language": "Rust",
+    "license": null,
+    "created_at": "2024-12-19T18:41:12Z",
+    "updated_at": "2025-12-01T19:23:15Z",
+    "pushed_at": "2025-07-13T10:54:30Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "psalm",
+      "name": "Psalm",
+      "description": "Zed extension for Psalm, a static analysis tool for PHP",
+      "version": "0.0.2",
+      "schema_version": 1,
+      "authors": [
+        "sebcode"
+      ],
+      "repository": "https://github.com/sebcode/psalm-zed",
+      "snippets": null,
+      "sections": [
+        "language_servers"
+      ],
+      "categories": [
+        "language-server"
+      ]
+    }
+  },
+  "baw-appie/zed-pug": {
+    "name": "Baw-Appie/zed-pug",
+    "url": "https://github.com/Baw-Appie/zed-pug",
+    "description": "Pug syntax support for Zed",
+    "stars": 4,
+    "forks": 3,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2024-08-30T00:14:22Z",
+    "updated_at": "2026-05-07T09:27:44Z",
+    "pushed_at": "2026-05-07T09:27:39Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "pug",
+      "name": "Pug",
+      "description": "Pug syntax support for Zed",
+      "version": "0.0.3",
+      "schema_version": 1,
+      "authors": [
+        "BawAppie <pp121324@gmail.com>"
+      ],
+      "repository": "https://github.com/Baw-Appie/zed-pug",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
+      ]
+    }
+  },
+  "alexandary/zed-puppet": {
+    "name": "AlexandarY/zed-puppet",
+    "url": "https://github.com/AlexandarY/zed-puppet",
+    "description": "Puppet language support for Zed editor",
+    "stars": 2,
+    "forks": 3,
+    "topics": [],
+    "language": "Rust",
+    "license": "GPL-3.0",
+    "created_at": "2025-03-13T11:19:13Z",
+    "updated_at": "2025-08-18T13:48:51Z",
+    "pushed_at": "2025-08-18T13:48:48Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "puppet",
+      "name": "Puppet",
+      "description": "Extension for Puppet language support",
+      "version": "0.2.0",
+      "schema_version": 1,
+      "authors": [
+        "Alexandar Yovchev <alexyov@protonmail.com>"
+      ],
+      "repository": "https://github.com/AlexandarY/zed-puppet",
+      "snippets": null,
+      "sections": [
+        "grammars",
+        "language_servers"
+      ],
+      "categories": [
+        "grammar",
+        "language-server"
+      ]
+    }
+  },
+  "lillianrubyrose/puppydog-theme-zed": {
+    "name": "lillianrubyrose/puppydog-theme-zed",
+    "url": "https://github.com/lillianrubyrose/puppydog-theme-zed",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "BSD-3-Clause",
+    "created_at": "2026-02-23T09:28:34Z",
+    "updated_at": "2026-02-25T06:39:52Z",
+    "pushed_at": "2026-02-25T06:39:48Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "puppydog-theme",
+      "name": "Puppydog Theme",
+      "description": "A soft purple theme for pups!",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Lillian Rose <me@lillianro.se>"
+      ],
+      "repository": "https://github.com/lillianrubyrose/puppydog-theme-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "ugi-dev/px-to-rem": {
+    "name": "ugi-dev/px-to-rem",
+    "url": "https://github.com/ugi-dev/px-to-rem",
+    "description": "Converts CSS px values to rem and vice versa directly in the editor.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2026-03-31T14:45:33Z",
+    "updated_at": "2026-04-01T11:51:34Z",
+    "pushed_at": "2026-04-01T11:51:31Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "px-to-rem",
+      "name": "Px to Rem",
+      "description": "Converts CSS px values to rem and vice versa via LSP code actions.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "ugi-dev <hello@ugi.dev>"
+      ],
+      "repository": "https://github.com/ugi-dev/px-to-rem",
+      "snippets": null,
+      "sections": [
+        "language_servers"
+      ],
+      "categories": [
+        "language-server"
+      ]
+    }
+  },
+  "rgbkrk/python-lsp-zed-extension": {
+    "name": "rgbkrk/python-lsp-zed-extension",
+    "url": "https://github.com/rgbkrk/python-lsp-zed-extension",
+    "description": "Python LSP Server Zed Extension",
+    "stars": 57,
+    "forks": 2,
+    "topics": [],
+    "language": "Rust",
+    "license": null,
+    "created_at": "2024-08-12T17:42:55Z",
+    "updated_at": "2026-05-09T13:30:18Z",
+    "pushed_at": "2024-08-12T17:50:06Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "pylsp",
+      "name": "Python LSP",
+      "description": "python-lsp extension for Zed",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Kyle Kelley <rgbkrk@gmail.com>"
+      ],
+      "repository": "https://github.com/rgbkrk/python-lsp-zed-extension",
+      "snippets": null,
+      "sections": [
+        "language_servers"
+      ],
+      "categories": [
+        "language-server"
+      ]
+    }
+  },
+  "rowillia/zed-python-refactoring": {
+    "name": "rowillia/zed-python-refactoring",
+    "url": "https://github.com/rowillia/zed-python-refactoring",
+    "description": "Adds refactoring support for Python in Zed",
+    "stars": 22,
+    "forks": 1,
+    "topics": [],
+    "language": "Rust",
+    "license": null,
+    "created_at": "2024-08-07T20:38:27Z",
+    "updated_at": "2026-04-12T15:30:07Z",
+    "pushed_at": "2024-08-08T23:05:15Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "python-refactoring",
+      "name": "PythonRefactoring",
+      "description": "Refactoring support for Python.",
+      "version": "0.0.3",
+      "schema_version": 1,
+      "authors": [
+        "Roy Williams <roy.williams.iii@gmail.com>"
+      ],
+      "repository": "https://github.com/rowillia/zed-python-refactoring",
+      "snippets": null,
+      "sections": [
+        "language_servers"
+      ],
+      "categories": [
+        "language-server"
+      ]
+    }
+  },
+  "dargor/zed-python-requirements": {
+    "name": "dargor/zed-python-requirements",
+    "url": "https://github.com/dargor/zed-python-requirements",
+    "description": "Python requirements and constraints syntax highlighting for Zed",
+    "stars": 5,
+    "forks": 0,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2025-02-27T18:57:01Z",
+    "updated_at": "2026-05-01T13:40:19Z",
+    "pushed_at": "2026-05-01T13:31:42Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "python-requirements",
+      "name": "Python requirements and constraints",
+      "description": "Syntax highlighting for requirements.txt and constraints.txt files",
+      "version": "0.0.5",
+      "schema_version": 1,
+      "authors": [
+        "Gabriel Linder <linder.gabriel@gmail.com>"
+      ],
+      "repository": "https://github.com/dargor/zed-python-requirements",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
+      ]
+    }
+  },
+  "jctosta/python-zed-snippets": {
+    "name": "jctosta/python-zed-snippets",
+    "url": "https://github.com/jctosta/python-zed-snippets",
+    "description": "A collection of Python snippets for the Zed IDE to improve your development speed and productivity.",
+    "stars": 29,
+    "forks": 4,
+    "topics": [],
+    "language": null,
+    "license": "GPL-3.0",
+    "created_at": "2025-05-01T17:46:21Z",
+    "updated_at": "2026-05-13T08:59:18Z",
+    "pushed_at": "2026-04-17T17:50:47Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "python-snippets",
+      "name": "Python Snippets",
+      "description": "Python snippets for Zed IDE. A collection of python snippets to improve your development speed.",
+      "version": "0.1.3",
+      "schema_version": 1,
+      "authors": [
+        "Carlos Tosta <jctosta86@gmail.com>"
+      ],
+      "repository": "https://github.com/jctosta/python-zed-snippets",
+      "snippets": [
+        "./snippets/python.json"
+      ],
+      "sections": [],
+      "categories": [
+        "snippets"
+      ]
+    }
+  },
+  "bintocher/zed-qlik-editor": {
+    "name": "bintocher/zed-qlik-editor",
+    "url": "https://github.com/bintocher/zed-qlik-editor",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2026-02-11T12:19:15Z",
+    "updated_at": "2026-02-11T15:59:16Z",
+    "pushed_at": "2026-02-11T15:59:12Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "qlik",
+      "name": "Qlik",
+      "description": "Syntax highlighting for Qlik Sense / QlikView script files (.qvs)",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Stanislav Chernov <bintocher@yandex.com>"
+      ],
+      "repository": "https://github.com/bintocher/zed-qlik-editor",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
+      ]
+    }
+  },
+  "lkroll/zed-qml": {
+    "name": "lkroll/zed-qml",
+    "url": "https://github.com/lkroll/zed-qml",
+    "description": "QML language support for Zed",
+    "stars": 20,
+    "forks": 4,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2024-06-23T17:46:04Z",
+    "updated_at": "2026-05-13T16:47:24Z",
+    "pushed_at": "2026-03-14T21:27:47Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "qml",
+      "name": "QML",
+      "description": "QML support.",
+      "version": "0.0.4",
+      "schema_version": 1,
+      "authors": [
+        "Lennart Kroll <24440161+lkroll@users.noreply.github.com>"
+      ],
+      "repository": "https://github.com/lkroll/zed-qml",
+      "snippets": null,
+      "sections": [
+        "language_servers",
+        "grammars"
+      ],
+      "categories": [
+        "grammar",
+        "language-server"
+      ]
+    }
+  },
+  "schraf/zed-quakec": {
+    "name": "schraf/zed-quakec",
+    "url": "https://github.com/schraf/zed-quakec",
+    "description": "Zed language extension for QuakeC",
+    "stars": 2,
+    "forks": 0,
+    "topics": [],
+    "language": "Scheme",
+    "license": "CC0-1.0",
+    "created_at": "2024-12-28T17:49:47Z",
+    "updated_at": "2026-02-09T12:00:59Z",
+    "pushed_at": "2024-12-28T19:59:42Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "quakec",
+      "name": "QuakeC",
+      "description": "Zed language support for the QuakeC language",
+      "version": "0.0.2",
+      "schema_version": 1,
+      "authors": [
+        "Marc Schraffenberger <marc@schraffenberger.com>"
+      ],
+      "repository": "https://github.com/schraf/zed-quakec",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
+      ]
+    }
+  },
+  "prefrontal-systems/zed-quarto-plugin": {
+    "name": "prefrontal-systems/zed-quarto-plugin",
+    "url": "https://github.com/prefrontal-systems/zed-quarto-plugin",
+    "description": "Quarto grammar support for the Zed editor - syntax highlighting, code block injections, and snippets for .qmd files",
+    "stars": 15,
+    "forks": 2,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2025-11-21T02:48:13Z",
+    "updated_at": "2026-05-12T08:41:16Z",
+    "pushed_at": "2025-11-21T02:53:10Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "quarto",
+      "name": "Quarto",
+      "description": "Quarto support for Zed",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Prefrontal Systems"
+      ],
+      "repository": "https://github.com/prefrontal-systems/zed-quarto-plugin",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
+      ]
+    }
+  },
+  "codeadict/zed_quasi_monochrome": {
+    "name": "codeadict/zed_quasi_monochrome",
+    "url": "https://github.com/codeadict/zed_quasi_monochrome",
+    "description": "A monochromatic/high contrast theme for Zed inspired by the quasi-monochrome theme from Emacs.",
+    "stars": 3,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2025-09-19T16:53:57Z",
+    "updated_at": "2026-04-22T21:19:12Z",
+    "pushed_at": "2026-04-22T21:19:49Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": true,
+    "extension": {
+      "id": "quasi-monochrome",
+      "name": "Quasi Monochrome",
+      "description": "A monochromatic/high contrast theme for Zed inspired by the quasi-monochrome theme from Emacs",
+      "version": "0.0.2",
+      "schema_version": 1,
+      "authors": [
+        "Dairon Medina Caro <me@dairon.org>"
+      ],
+      "repository": "https://github.com/codeadict/zed_quasi_monochrome",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "qnbhd/qubik-theme-zed": {
+    "name": "qnbhd/qubik-theme-zed",
+    "url": "https://github.com/qnbhd/qubik-theme-zed",
+    "description": "Minimalistic Zed theme",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2025-11-29T09:52:28Z",
+    "updated_at": "2026-01-06T15:21:13Z",
+    "pushed_at": "2025-11-29T09:58:31Z",
+    "discovered_at": "2026-05-20T00:39:45.722Z",
+    "official": false,
+    "extension": {
+      "id": "qubik-theme",
+      "name": "Qubik",
+      "description": "Qubik theme for Zed",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "qnbhd <1qnbhd@gmail.com>"
+      ],
+      "repository": "https://github.com/qnbhd/qubik-theme-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
       ]
     }
   }

@@ -1,0 +1,11 @@
+id = "openscad"
+name = "OpenSCAD"
+version = "0.0.1"
+schema_version = 1
+authors = ["Vitaly Domnikov <oss@vitaly.codes>"]
+description = "OpenSCAD language support"
+repository = "https://github.com/dotcypress/zed-openscad"
+
+[grammars.openscad]
+repository = "https://github.com/bollian/tree-sitter-openscad"
+commit = "bb1e12023e59489c0892af0c0c9a5b323af69df6"

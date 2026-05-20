@@ -1,0 +1,36 @@
+id = "nomad"
+name = "Nomad"
+version = "0.0.3"
+schema_version = 1
+authors = ["loczek"]
+description = "Nomad Language Server"
+repository = "https://github.com/loczek/zed-nomad-extension"
+
+[language_servers.nomad-ls]
+name = "Nomad Language Server"
+languages = [
+    "Nomad ACL",
+    "Nomad Agent",
+    "Nomad CSI Volume",
+    "Nomad Dynamic Host Volume",
+    "Nomad Job",
+    "Nomad Namespace",
+    "Nomad Node Pool",
+    "Nomad Resource Quota",
+    "Nomad Variable",
+]
+
+[language_servers.nomad-ls.language_ids]
+"Nomad ACL" = "nomad-acl"
+"Nomad Agent" = "nomad-agent"
+"Nomad CSI Volume" = "nomad-volume-csi"
+"Nomad Dynamic Host Volume" = "nomad-volume-dynamic-host"
+"Nomad Job" = "nomad-job"
+"Nomad Namespace" = "nomad-namespace"
+"Nomad Node Pool" = "nomad-node-pool"
+"Nomad Resource Quota" = "nomad-resource-quota"
+"Nomad Variable" = "nomad-variable"
+
+[grammars.hcl]
+repository = "https://github.com/MichaHoffmann/tree-sitter-hcl"
+rev = "64ad62785d442eb4d45df3a1764962dafd5bc98b"

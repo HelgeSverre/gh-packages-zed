@@ -1,0 +1,12 @@
+id = "p4"
+name = "P4 Language Support"
+version = "0.0.1"
+schema_version = 1
+authors = ["Gaëtan Schwartz"]
+description = "Adds support for the P4 programming language."
+license = "MIT"
+repository = "https://github.com/gaetschwartz/zed-p4"
+
+[grammars.p4]
+repository = "https://github.com/oxidecomputer/tree-sitter-p4"
+rev = "ec27f5123d4f80ced59302820bec3e212794132f"

@@ -1,0 +1,10 @@
+id = "polar-context-server"
+name = "Polar Context Server"
+description = "Model Context Server for Polar"
+version = "0.0.1"
+schema_version = 1
+authors = ["François Voron <francois@polar.sh>"]
+repository = "https://github.com/polarsource/zed-polar-context-server"
+
+[context_servers.polar-context-server]
+name = "Polar Context Server"

@@ -10,22 +10,22 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1104** |
-| In official registry | 687 |
-| Discovered via topics | 417 |
-| Last updated | 2026-05-19 21:56 UTC |
+| Total tracked | **1228** |
+| In official registry | 802 |
+| Discovered via topics | 426 |
+| Last updated | 2026-05-20 00:40 UTC |
 
 ### By capability
 | Type | Count |
 |------|-------|
-| Language Servers | 414 |
-| Grammars | 403 |
-| Themes | 393 |
-| Context Servers | 116 |
-| Slash Commands | 50 |
-| Snippets | 45 |
-| Debug Adapters | 30 |
-| Docs Providers | 13 |
+| Themes | 466 |
+| Grammars | 440 |
+| Language Servers | 438 |
+| Context Servers | 119 |
+| Slash Commands | 52 |
+| Snippets | 48 |
+| Debug Adapters | 31 |
+| Docs Providers | 14 |
 
 ## How it works
 
@@ -58,26 +58,26 @@ cd website && npm install && npm run dev
 
 | Package | ⭐ | Description |
 |---------|-----|-------------|
-| [seekode/zed-js-snippets](https://github.com/seekode/zed-js-snippets) | 9 | A comprehensive collection of JavaScript snippets for Zed editor, designed to ac... |
-| [alessandrobrunoh/zed-grammar-jdl](https://github.com/alessandrobrunoh/zed-grammar-jdl) | 0 | Extension Support for jdl files for Zed IDE |
-| [sdawn29/jellybeans-theme](https://github.com/sdawn29/jellybeans-theme) | 0 | A colorful dark theme for Zed editor inspired by Jellybeans color scheme. |
-| [rajerthat1/jellybeans.zed](https://github.com/rajerthat1/jellybeans.zed) | 5 | Zed port of nanotech's jellybeans.vim theme |
-| [jeffscottbrown/jerry-zed](https://github.com/jeffscottbrown/jerry-zed) | 0 | Jerry language support for Zed — syntax highlighting, bracket matching, indentat... |
-| [Bronya0/Jetbrains-Darcula-Zed-Theme](https://github.com/Bronya0/Jetbrains-Darcula-Zed-Theme) | 4 | Jetbrains-Darcula-Zed-Theme |
-| [ziishaned/zed-jetbrains-icons](https://github.com/ziishaned/zed-jetbrains-icons) | 12 | JetBrains Icons for Zed |
-| [NarmadaWeb/jetbrains-rider-zed](https://github.com/NarmadaWeb/jetbrains-rider-zed) | 3 | Jetbrains Rider Dark Theme |
-| [artemevsevev/zed-theme-jetbrains](https://github.com/artemevsevev/zed-theme-jetbrains) | 30 | JetBrains Themes for Zed Editor |
-| [ArcherHume/jinja2-support](https://github.com/ArcherHume/jinja2-support) | 19 | Highlighting and indentation for Jinja2 templates |
-| [trbroyles1/jira-slash-command](https://github.com/trbroyles1/jira-slash-command) | 2 | Adds a 'jira' slash command to Zed Text Editor |
-| [nilskch/zed-jj-lsp](https://github.com/nilskch/zed-jj-lsp) | 16 | Zed extension for the jj-lsp to resolve conflicts. |
-| [dangh/zed-jq](https://github.com/dangh/zed-jq) | 2 | jq language for Zed |
-| [ChunzhengLab/json5-zed-extension](https://github.com/ChunzhengLab/json5-zed-extension) | 4 | JSON5 syntax highlighting support to Zed using Joakker's Tree-sitter. |
-| [vim-zz/jsonl-syntax-zed](https://github.com/vim-zz/jsonl-syntax-zed) | 3 | A Zed editor extension that provides syntax highlighting for JSON Lines (JSONL) ... |
-| [narqo/zed-jsonnet](https://github.com/narqo/zed-jsonnet) | 14 | Jsonnet language support for Zed |
-| [tartarughina/zed-jsp](https://github.com/tartarughina/zed-jsp) | 0 | JSP extension for Zed |
-| [JuliaEditorSupport/zed-julia](https://github.com/JuliaEditorSupport/zed-julia) | 112 | Julia support for Zed. |
-| [jackTabsCode/zed-just](https://github.com/jackTabsCode/zed-just) | 56 | Zed extension for Justfiles |
-| [MartelleV/kaimandres-zed](https://github.com/MartelleV/kaimandres-zed) | 3 | The official Zed port for Kaimandres.nvim. |
+| [napalmpapalam/napalm-theme-zed](https://github.com/napalmpapalam/napalm-theme-zed) | 8 | A minimalistic dark theme, mix of GitHub Dark UI theme and VSCode Dark+ theme sy... |
+| [darzaccaro/naysayer-theme-zed](https://github.com/darzaccaro/naysayer-theme-zed) | 1 | A greenish color theme for Zed based on Jonathan Blow's emacs theme |
+| [foxoman/nebula-pulse-zed-theme](https://github.com/foxoman/nebula-pulse-zed-theme) | 3 | Nebula Pulse Theme for Zed Editor |
+| [vishnuroshan/zed-neo-brutalism](https://github.com/vishnuroshan/zed-neo-brutalism) | 1 | A raw, high-contrast neo-brutalist theme for the Zed editor |
+| [k0tran/zed_neocmake](https://github.com/k0tran/zed_neocmake) | 50 | CMake grammar and neocmakelsp for Zed editor |
+| [guustavocl/zed-neon-comfy-soft-themes](https://github.com/guustavocl/zed-neon-comfy-soft-themes) | 6 |  |
+| [carlocaione/NeoSolarized.zed](https://github.com/carlocaione/NeoSolarized.zed) | 5 |  |
+| [KimNorgaard/zed-neovim-default](https://github.com/KimNorgaard/zed-neovim-default) | 9 | Neovim default themes for the Zed editor |
+| [dustinbturner/neutral-theme](https://github.com/dustinbturner/neutral-theme) | 0 |  |
+| [e-simpson/new-darcula-z](https://github.com/e-simpson/new-darcula-z) | 31 | Modern take on the Darcula theme, now for Zed. |
+| [Konstantinos-Ps/zed-nextjs-react-snippets](https://github.com/Konstantinos-Ps/zed-nextjs-react-snippets) | 6 |  |
+| [zed-extensions/nginx](https://github.com/zed-extensions/nginx) | 10 |  |
+| [norpadon/zed-nickel-extension](https://github.com/norpadon/zed-nickel-extension) | 0 | An extension for the Zed text editor that provides a support for the Nickel conf... |
+| [elGusto/night-owlz](https://github.com/elGusto/night-owlz) | 11 | Night Owl theme for Zed |
+| [ssaunderss/zed-nightfox](https://github.com/ssaunderss/zed-nightfox) | 14 | Nightfox Themes for the Zed IDE |
+| [mpopadic/nightfox_m-zed](https://github.com/mpopadic/nightfox_m-zed) | 0 |  |
+| [xeind/nightingale-zed](https://github.com/xeind/nightingale-zed) | 0 |  |
+| [gavr123456789/zed-niva](https://github.com/gavr123456789/zed-niva) | 1 | Extension with LSP for niva new programming language |
+| [zed-extensions/nix](https://github.com/zed-extensions/nix) | 112 | Nix language support in Zed |
+| [NobinKhan/zed-themes](https://github.com/NobinKhan/zed-themes) | 2 | Theme for zed IDE |
 
 ## 🌟 Top Starred (Under 500)
 
@@ -108,9 +108,10 @@ cd website && npm install && npm run dev
 
 | Package | ⭐ | Last Push | Description |
 |---------|-----|-----------|-------------|
+| [HelgeSverre/zed-applescript](https://github.com/HelgeSverre/zed-applescript) | 1 | 2026-05-20 | (WIP) AppleScript language support for Zed editor |
+| [emirror-de/clearsight-zed](https://github.com/emirror-de/clearsight-zed) | 0 | 2026-05-19 | A scientifically-backed, accessibility-focused theme optimiz... |
 | [maxleiko/zed-greycat-extension](https://github.com/maxleiko/zed-greycat-extension) | 0 | 2026-05-19 | GreyCat support for Zed |
 | [vitallium/zed-modus-themes](https://github.com/vitallium/zed-modus-themes) | 47 | 2026-05-19 | Port of Modus Themes (https://protesilaos.com/emacs/modus-th... |
-| [HelgeSverre/zed-applescript](https://github.com/HelgeSverre/zed-applescript) | 1 | 2026-05-19 | (WIP) AppleScript language support for Zed editor |
 | [clementGilardy/zed-aws-toolkit](https://github.com/clementGilardy/zed-aws-toolkit) | 0 | 2026-05-19 | AWS Toolkit extension for Zed editor — S3, Lambda, CloudWatc... |
 | [oxc-project/oxc-zed](https://github.com/oxc-project/oxc-zed) | 256 | 2026-05-19 | Oxc extension for Zed |
 | [himattm/zed-islands-theme](https://github.com/himattm/zed-islands-theme) | 4 | 2026-05-19 | A Zed theme inspired by JetBrains' Islands design system, wi... |
@@ -127,7 +128,6 @@ cd website && npm install && npm run dev
 | [openvanilla/mcbopomofo-zed-extension](https://github.com/openvanilla/mcbopomofo-zed-extension) | 0 | 2026-05-19 | McBopomofo Data Extension for Zed |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 182 | 2026-05-19 | Zed plugin for automatic time tracking and metrics generated... |
 | [harmony-contrib/oxk-zed](https://github.com/harmony-contrib/oxk-zed) | 0 | 2026-05-19 | ArkTS language support for Zed with tree-sitter highlighting... |
-| [AineeJames/c3-zed](https://github.com/AineeJames/c3-zed) | 19 | 2026-05-18 | A Zed extension for the C3 programming language with LSP and... |
 
 ---
 
@@ -135,6 +135,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |-----|-----|---------|-------|
+| 2026-05-20T00:40 | 132 | 410 | 1480 |
 | 2026-05-19T21:56 | 142 | 407 | 1348 |
 | 2026-05-19T21:43 | 159 | 396 | 1206 |
 | 2026-05-19T21:41 | 177 | 388 | 1047 |
@@ -144,7 +145,6 @@ cd website && npm install && npm run dev
 | 2026-05-19T20:16 | 20 | 368 | 870 |
 | 2026-05-19T20:16 | 0 | 0 | 860 |
 | 2026-05-19T20:14 | 0 | 0 | 860 |
-| 2026-05-19T20:14 | 0 | 0 | 870 |
 
 ---
 

@@ -1,0 +1,41 @@
+# Python Requirements and Constraints Syntax Highlighting for Zed
+
+## Overview
+
+This extension provides syntax highlighting for `requirements.txt` and `constraints.txt` files in [Zed](https://zed.dev/).
+
+It leverages the [tree-sitter-requirements](https://github.com/tree-sitter-grammars/tree-sitter-requirements) grammar to ensure accurate and visually appealing syntax highlighting.
+
+It also support `TODO` highlighting using the [Comment](https://github.com/thedadams/zed-comment) extension.
+
+Works best when paired with the [Dependi](https://github.com/mpiton/zed-dependi) extension to provide inlay hints and diagnostics :
+
+![with dependi](static/with-dependi.png)
+
+## Configuration
+
+Zed does not (yet ?) support registering globs from extensions.
+
+You will need to put these lines in your `settings.json` :
+
+```json
+{
+  "file_types": {
+    "Python constraints": ["*constraints*.txt"],
+    "Python requirements": [
+      "**/requirements/*.{in,txt}",
+      "*requirements*.{in,txt}"
+    ]
+  }
+}
+```
+
+This should cover the most common cases.
+
+## Contributing
+
+If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
+
+## License
+
+This extension is licensed under the [MIT License](LICENSE).

@@ -1,0 +1,157 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Pathy — Zed Extension Safari</title><meta name="description" content="Filesystem path completions inside Python string literals for Zed."><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Pathy — Zed Extension Safari"><meta property="og:description" content="Filesystem path completions inside Python string literals for Zed."><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Pathy — Zed Extension Safari"><meta name="twitter:description" content="Filesystem path completions inside Python string literals for Zed."><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.DJSXA_CW.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);">  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-4"> <a href="/gh-packages-zed" class="transition" style="color:var(--zed-text-muted);">← All extensions</a> </nav> <div class="flex flex-wrap items-start justify-between gap-4"> <div class="min-w-0"> <div class="font-mono text-xs mb-2" style="color:var(--zed-muted);"> gokulp01/pathy </div> <h1 class="text-2xl sm:text-3xl font-bold break-words leading-tight" style="color:var(--zed-blue-pale);"> Pathy </h1> <p class="mt-2 text-pretty" style="color:var(--zed-text-muted);"> Sidecar LSP server for Python path completions. </p> </div> <a href="https://github.com/gokulp01/pathy" target="_blank" rel="noopener" class="zed-btn-primary shrink-0 inline-flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View on GitHub
+</a> </div> <div class="mt-4 flex flex-wrap items-center gap-2"> <span class="version-pill">v0.1.0</span> <span class="cat-badge" data-cat="language-server">Language Server</span> </div> <div class="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm" style="color:var(--zed-text-muted);"> <span class="inline-flex items-center gap-1"> <svg class="w-4 h-4" style="color:var(--zed-lime);" fill="currentColor" viewBox="0 0 20 20"> <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path> </svg> 1 stars
+</span> <span>Rust</span> <span>MIT</span> <span>Updated 1/3/2026</span> <span>schema v1</span> </div> <div class="mt-2 text-sm" style="color:var(--zed-text-muted);">
+by Your Name </div>  </div> </header> <main class="flex-1 max-w-4xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <article class="prose readme-prose max-w-none"><h1 id="user-content-pathy"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#pathy"><span class="heading-anchor-icon">#</span></a>Pathy</h1>
+<p>Pathy is a Zed extension (Rust -> WASM) that launches a sidecar LSP server to
+provide filesystem path completions inside Python string literals. It runs as a
+secondary language server and only advertises completion capability.</p>
+<p><a href="https://github.com/user-attachments/assets/5e1ed726-3804-419f-bdb1-93b7ccbbb6f3">https://github.com/user-attachments/assets/5e1ed726-3804-419f-bdb1-93b7ccbbb6f3</a></p>
+<h2 id="user-content-install-dev"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#install-dev"><span class="heading-anchor-icon">#</span></a>Install (dev)</h2>
+<ol>
+<li>Build the extension (Zed builds WASM automatically) or open the repo in Zed.</li>
+<li>In Zed, open the command palette and select "Extensions: Install Dev Extension".</li>
+<li>Choose this repo root (the directory containing <code>extension.toml</code>).</li>
+<li>Grant required capabilities if prompted (see below).</li>
+</ol>
+<h2 id="user-content-required-capabilities"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#required-capabilities"><span class="heading-anchor-icon">#</span></a>Required capabilities</h2>
+<p>The extension needs:</p>
+<ul>
+<li><code>process:exec</code> to launch the sidecar server</li>
+<li><code>download_file</code> to fetch release binaries</li>
+</ul>
+<p>These are already declared in <code>extension.toml</code>. If Zed prompts for approval,
+accept them.</p>
+<h2 id="user-content-configuration"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#configuration"><span class="heading-anchor-icon">#</span></a>Configuration</h2>
+<p>Settings live under <code>lsp.pathy.settings</code> in your Zed settings. This single block
+contains both extension-level settings (download behavior) and server settings
+(completion behavior).</p>
+<h3 id="user-content-language-server-ordering-python"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#language-server-ordering-python"><span class="heading-anchor-icon">#</span></a>Language server ordering (Python)</h3>
+<p>Ensure your primary Python LSP comes first, then Pathy, then the fallback:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "languages"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "Python"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "language_servers"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: [</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"pyright"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">, </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"pathy"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">, </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"..."</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h3 id="user-content-extension-settings-downloadruntime"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#extension-settings-downloadruntime"><span class="heading-anchor-icon">#</span></a>Extension settings (download/runtime)</h3>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "pathy"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "auto_download"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#79B8FF;--shiki-dark:#79B8FF">true</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "server_path"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#79B8FF;--shiki-dark:#79B8FF">null</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "release_channel"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"stable"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "base_url"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#79B8FF;--shiki-dark:#79B8FF">null</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "verify_checksum"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#79B8FF;--shiki-dark:#79B8FF">true</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "cache_dir"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#79B8FF;--shiki-dark:#79B8FF">null</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>Notes:</p>
+<ul>
+<li><code>server_path</code> takes precedence. If set and exists, no download is attempted.</li>
+<li><code>auto_download</code> must be <code>true</code> to fetch release assets.</li>
+<li><code>release_channel</code> only supports <code>stable</code>.</li>
+<li><code>base_url</code> is advanced; default points at <code>https://github.com/gokulp01/pathy</code>.</li>
+<li><code>cache_dir</code> must be a relative path (relative to the extension working dir).</li>
+</ul>
+<h3 id="user-content-server-settings-completion-behavior"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#server-settings-completion-behavior"><span class="heading-anchor-icon">#</span></a>Server settings (completion behavior)</h3>
+<p>Defaults shown in parentheses:</p>
+<ul>
+<li><code>enable</code> (true)</li>
+<li><code>path_prefix_fallback</code> (true)</li>
+<li><code>context_gating</code> ("smart"): "off" | "smart" | "strict"</li>
+<li><code>base_dir</code> ("file_dir"): "file_dir" | "workspace_root" | "both"</li>
+<li><code>workspace_root_strategy</code> ("lsp_root_uri"): "lsp_root_uri" | "disabled"</li>
+<li><code>max_results</code> (80)</li>
+<li><code>show_hidden</code> (false)</li>
+<li><code>include_files</code> (true)</li>
+<li><code>include_directories</code> (true)</li>
+<li><code>directory_trailing_slash</code> (true)</li>
+<li><code>ignore_globs</code> (["<strong>/.git/</strong>", "<strong>/.venv/</strong>", "<strong>/venv/</strong>", "<strong>/<strong>pycache</strong>/</strong>",
+"<strong>/.pytest_cache/</strong>", "<strong>/.mypy_cache/</strong>", "<strong>/.ruff_cache/</strong>", "<strong>/node_modules/</strong>"])</li>
+<li><code>prefer_forward_slashes</code> (true)</li>
+<li><code>expand_tilde</code> (true)</li>
+<li><code>windows_enable_drive_prefix</code> (true)</li>
+<li><code>windows_enable_unc</code> (true)</li>
+<li><code>cache_ttl_ms</code> (500)</li>
+<li><code>cache_max_dirs</code> (64)</li>
+<li><code>stat_strategy</code> ("lazy"): "none" | "lazy" | "eager"</li>
+</ul>
+<p>Example override:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "pathy"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "max_results"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#79B8FF;--shiki-dark:#79B8FF">40</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "show_hidden"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#79B8FF;--shiki-dark:#79B8FF">true</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        "context_gating"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"strict"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h2 id="user-content-local-testing-phase-4"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#local-testing-phase-4"><span class="heading-anchor-icon">#</span></a>Local testing (Phase 4)</h2>
+<ol>
+<li>Delete the cache directory to force a fresh download:
+<ul>
+<li>Default cache root: <code>cache/pathy/&#x3C;version>/&#x3C;os>/&#x3C;arch>/</code></li>
+</ul>
+</li>
+<li>Install as a dev extension (see above).</li>
+<li>Open a Python file and try:
+<ul>
+<li><code>open("./")</code></li>
+<li><code>open("../")</code></li>
+<li><code>open("~/")</code> (if <code>expand_tilde</code> is true)</li>
+</ul>
+</li>
+</ol>
+<p>To use a local build of the server:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">cd</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> server</span></span>
+<span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">cargo</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> build</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> --release</span></span></code></pre>
+<p>Then set <code>server_path</code> to the built binary:</p>
+<ul>
+<li>macOS/Linux: <code>server/target/release/pathy-server</code></li>
+<li>Windows: <code>server/target/release/pathy-server.exe</code></li>
+</ul>
+<h2 id="user-content-troubleshooting"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#troubleshooting"><span class="heading-anchor-icon">#</span></a>Troubleshooting</h2>
+<ul>
+<li>Download failed / 404: Confirm the GitHub Release for your version contains:
+<ul>
+<li><code>checksums-&#x3C;version>.txt</code></li>
+<li><code>pathy-server_&#x3C;version>_&#x3C;os>_&#x3C;arch>[.exe]</code></li>
+</ul>
+</li>
+<li>Checksum failed: Delete the cache directory and retry.</li>
+<li>Unsupported platform: Only macOS (x86_64/aarch64), Linux (x86_64), Windows (x86_64).</li>
+<li>No completions: Confirm Pathy is in <code>languages.Python.language_servers</code> and the
+cursor is inside a Python string.</li>
+</ul>
+<p>Logs:</p>
+<ul>
+<li>Zed: open the log window.</li>
+<li>CLI: run <code>zed --foreground</code> to see extension logs.</li>
+</ul>
+<h2 id="user-content-release-assets"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#release-assets"><span class="heading-anchor-icon">#</span></a>Release assets</h2>
+<p>Assets are raw binaries (no archives):</p>
+<ul>
+<li><code>pathy-server_&#x3C;VERSION>_macos_x86_64</code></li>
+<li><code>pathy-server_&#x3C;VERSION>_macos_aarch64</code></li>
+<li><code>pathy-server_&#x3C;VERSION>_linux_x86_64</code></li>
+<li><code>pathy-server_&#x3C;VERSION>_windows_x86_64.exe</code></li>
+<li><code>checksums-&#x3C;VERSION>.txt</code></li>
+</ul>
+<h2 id="user-content-release-process-maintainers"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#release-process-maintainers"><span class="heading-anchor-icon">#</span></a>Release process (maintainers)</h2>
+<ol>
+<li>Bump <code>version</code> in <code>extension.toml</code> and <code>Cargo.toml</code>.</li>
+<li>Update <code>CHANGELOG.md</code>.</li>
+<li>Tag: <code>git tag vX.Y.Z &#x26;&#x26; git push origin vX.Y.Z</code>.</li>
+<li>Verify release assets and checksums on GitHub.</li>
+</ol>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>MIT. See <code>LICENSE</code>.</p></article> </main> <footer class="mt-auto" style="background:var(--zed-bg);border-top:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:var(--zed-text-muted);">
+← Back to extension list
+</a> </div> </footer> </body></html>

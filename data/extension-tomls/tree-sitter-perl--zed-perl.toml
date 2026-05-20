@@ -1,0 +1,16 @@
+id = 'perl'
+name = 'Perl'
+description = "Perl support"
+version = '0.2.0'
+schema_version = 1
+authors = ["Veesh <rabbiveesh@gmail.com>"]
+repository = "https://github.com/tree-sitter-perl/zed-perl"
+
+[grammars.perl]
+repository = "https://github.com/tree-sitter-perl/tree-sitter-perl"
+commit = "465983954cae2d2f984eae82de5ed5f11ca291dc"
+
+[language_servers.perlnavigator-server]
+name = "Perl Navigator"
+language = "Perl"
+

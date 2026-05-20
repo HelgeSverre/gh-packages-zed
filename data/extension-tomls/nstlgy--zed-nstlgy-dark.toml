@@ -1,0 +1,9 @@
+id = "nstlgy-dark"
+name = "Nstlgy Dark Theme"
+version = "0.0.2"
+schema_version = 1
+authors = ["nstlgy <yvsh7.btw@gmail.com>"]
+description = "Elegant dark theme with vibrant syntax highlighting inspired by the code playground theme made by Josh W Comeau at joshwcomeau.com"
+repository = "https://github.com/nstlgy/zed-nstlgy-dark"
+themes = ["themes/nstlgy-dark.json"]
+

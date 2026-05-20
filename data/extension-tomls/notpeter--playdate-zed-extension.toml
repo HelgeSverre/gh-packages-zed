@@ -1,0 +1,17 @@
+# extension.toml
+# See: https://crates.io/crates/zed_extension_api
+id = "playdate"
+name = "Playdate"
+schema_version = 1
+version = "0.1.2"
+authors = ["Peter Tripp <petertripp@gmail.com>"]
+description = "Playdate support for Zed."
+repository = "https://github.com/notpeter/playdate-zed-extension"
+
+[grammars.pdxinfo]
+repository = "https://github.com/notpeter/tree-sitter-pdxinfo"
+commit = "d5f40313cae3ead5f9a9e7420a29afd80d62a1c8"
+
+[grammars.animationtxt]
+repository = "https://github.com/notpeter/tree-sitter-animationtxt"
+commit = "004ecde4b57c68b7d337a06655d2e15228f34396"

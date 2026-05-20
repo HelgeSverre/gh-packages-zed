@@ -1,0 +1,15 @@
+id = "omnetpp"
+name = "OMNeT++ MSG and NED extension"
+version = "0.0.5"
+schema_version = 1
+authors = ["Gyorgy Szaszko <adam.szaszko@gmail.com>"]
+description = "Highlight MSG and NED files"
+repository = "https://github.com/omnetpp/omnetpp-zed"
+
+[grammars.msg]
+repository = "https://github.com/omnetpp/tree-sitter-msg"
+commit = "49f037483a07b72edea169c7d9a0961225a633f2"
+
+[grammars.ned]
+repository = "https://github.com/omnetpp/tree-sitter-ned"
+commit = "17f3e0bf95bc5dff79a7181bd8c489ec747766fb"

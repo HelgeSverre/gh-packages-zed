@@ -1,0 +1,11 @@
+id = "oberon"
+name = "Oberon"
+version = "0.0.1"
+schema_version = 1
+authors = ["KnyazLV"]
+description = "Oberon-07 language support"
+repository = "https://github.com/KnyazLV/zed-oberon"
+
+[grammars.oberon07]
+repository = "https://github.com/KnyazLV/tree-sitter-oberon-07"
+rev = "00dc0a4ad462907e743eeed4bf4a27046e968e8e"

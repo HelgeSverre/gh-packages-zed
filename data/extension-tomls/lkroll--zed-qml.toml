@@ -1,0 +1,15 @@
+id = "qml"
+name = "QML"
+version = "0.0.4"
+schema_version = 1
+authors = ["Lennart Kroll <24440161+lkroll@users.noreply.github.com>"]
+description = "QML support."
+repository = "https://github.com/lkroll/zed-qml"
+
+[language_servers.qmljs]
+name = "QML LSP"
+language = "QML"
+
+[grammars.qmljs]
+repository = "https://github.com/yuja/tree-sitter-qmljs"
+commit = "febf48a5b6928600cd8fb2a01254743af550780d"

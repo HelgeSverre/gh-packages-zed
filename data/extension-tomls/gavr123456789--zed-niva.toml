@@ -1,0 +1,15 @@
+id = "niva"
+name = "Niva"
+description = "Niva Language Support - Smalltalk inspired language with static types and functional leanings"
+version = "0.0.2"
+schema_version = 1
+authors = ["gavr"]
+repository = "https://github.com/gavr123456789/zed-niva"
+
+[language_servers.niva]
+name = "Niva Language Server"
+languages = ["niva"]
+
+[grammars.niva]
+repository = "https://github.com/gavr123456789/tree-sitter-niva.git"
+rev = "9af636a5cdfa547709251cf1f0e4d42d08109af8"

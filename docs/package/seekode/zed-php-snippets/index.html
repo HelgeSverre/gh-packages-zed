@@ -1,0 +1,319 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>PHP Snippets — Zed Extension Safari</title><meta name="description" content="A comprehensive collection of PHP snippets for Zed editor, designed to accelerate PHP development with intelligent autocomplete and placeholder support. "><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="PHP Snippets — Zed Extension Safari"><meta property="og:description" content="A comprehensive collection of PHP snippets for Zed editor, designed to accelerate PHP development with intelligent autocomplete and placeholder support. "><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="PHP Snippets — Zed Extension Safari"><meta name="twitter:description" content="A comprehensive collection of PHP snippets for Zed editor, designed to accelerate PHP development with intelligent autocomplete and placeholder support. "><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.DJSXA_CW.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);">  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-4"> <a href="/gh-packages-zed" class="transition" style="color:var(--zed-text-muted);">← All extensions</a> </nav> <div class="flex flex-wrap items-start justify-between gap-4"> <div class="min-w-0"> <div class="font-mono text-xs mb-2" style="color:var(--zed-muted);"> seekode/zed-php-snippets </div> <h1 class="text-2xl sm:text-3xl font-bold break-words leading-tight" style="color:var(--zed-blue-pale);"> PHP Snippets </h1> <p class="mt-2 text-pretty" style="color:var(--zed-text-muted);"> Essential PHP snippets for faster development </p> </div> <a href="https://github.com/seekode/zed-php-snippets" target="_blank" rel="noopener" class="zed-btn-primary shrink-0 inline-flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View on GitHub
+</a> </div> <div class="mt-4 flex flex-wrap items-center gap-2"> <span class="version-pill">v0.1.0</span> <span class="cat-badge" data-cat="snippets">Snippets</span> </div> <div class="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm" style="color:var(--zed-text-muted);"> <span class="inline-flex items-center gap-1"> <svg class="w-4 h-4" style="color:var(--zed-lime);" fill="currentColor" viewBox="0 0 20 20"> <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path> </svg> 5 stars
+</span>  <span>MIT</span> <span>Updated 10/1/2025</span> <span>schema v1</span> </div> <div class="mt-2 text-sm" style="color:var(--zed-text-muted);">
+by seekode </div> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> php </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> snippets </span><span class="px-2 py-0.5 text-xs rounded-full" style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed </span> </div> </div> </header> <main class="flex-1 max-w-4xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <article class="prose readme-prose max-w-none"><h1 id="user-content-zed-php-snippets"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#zed-php-snippets"><span class="heading-anchor-icon">#</span></a>Zed PHP Snippets</h1>
+<p>A comprehensive collection of PHP snippets for <a href="https://zed.dev/">Zed editor</a>, designed to accelerate PHP development with intelligent autocomplete and placeholder support.</p>
+<h2 id="user-content--features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-features"><span class="heading-anchor-icon">#</span></a>✨ Features</h2>
+<ul>
+<li><strong>Complete PHP Coverage</strong>: 100+ snippets covering all essential PHP patterns</li>
+<li><strong>Smart Placeholders</strong>: Tab-navigable placeholders for efficient coding</li>
+<li><strong>Modern PHP Support</strong>: Includes PHP 8.x features (enums, match expressions, readonly properties, etc.)</li>
+<li><strong>OOP Ready</strong>: Complete class, interface, trait, and abstract class snippets</li>
+<li><strong>Database Integration</strong>: PDO snippets for secure database operations</li>
+<li><strong>Control Structures</strong>: All loops, conditionals, and modern syntax patterns</li>
+<li><strong>Best Practices</strong>: Type hints, strict types, and modern PHP conventions</li>
+</ul>
+<h2 id="user-content--installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-installation"><span class="heading-anchor-icon">#</span></a>📦 Installation</h2>
+<h3 id="user-content-via-zed-extensions-recommended"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#via-zed-extensions-recommended"><span class="heading-anchor-icon">#</span></a>Via Zed Extensions (Recommended)</h3>
+<ol>
+<li>Open Zed editor</li>
+<li>Press <code>Cmd/Ctrl + Shift + P</code> to open the command palette</li>
+<li>Type "extensions" and select "zed: extensions"</li>
+<li>Search for "PHP Snippets"</li>
+<li>Click "Install"</li>
+</ol>
+<h3 id="user-content-manual-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#manual-installation"><span class="heading-anchor-icon">#</span></a>Manual Installation</h3>
+<ol>
+<li>
+<p>Clone this repository:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B392F0;--shiki-dark:#B392F0">git</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> clone</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> https://github.com/seekode/zed-php-snippets</span></span></code></pre>
+</li>
+<li>
+<p>Copy the extension to your Zed extensions directory:</p>
+<ul>
+<li><strong>macOS</strong>: <code>~/.config/zed/extensions/</code></li>
+<li><strong>Linux</strong>: <code>~/.config/zed/extensions/</code></li>
+<li><strong>Windows</strong>: <code>%APPDATA%\\Zed\\extensions\\</code></li>
+</ul>
+</li>
+<li>
+<p>Restart Zed</p>
+</li>
+</ol>
+<h2 id="user-content--usage"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-usage"><span class="heading-anchor-icon">#</span></a>🚀 Usage</h2>
+<p>Simply start typing any PHP keyword or use the prefix shortcuts. The snippets will appear in the autocomplete menu.</p>
+<h3 id="user-content-quick-start-examples"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#quick-start-examples"><span class="heading-anchor-icon">#</span></a>Quick Start Examples</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Prefix</th><th>Output</th><th>Description</th></tr></thead><tbody><tr><td><code>php</code></td><td><code>&#x3C;?php $0</code></td><td>PHP opening tag</td></tr><tr><td><code>class</code></td><td>Class structure</td><td>Complete class definition</td></tr><tr><td><code>func</code></td><td>Function structure</td><td>Function definition</td></tr><tr><td><code>if</code></td><td><code>if ($condition) { }</code></td><td>If statement</td></tr><tr><td><code>foreach</code></td><td><code>foreach ($array as $value) { }</code></td><td>Foreach loop</td></tr><tr><td><code>try</code></td><td>Try-catch block</td><td>Exception handling</td></tr></tbody></table>
+<h2 id="user-content--available-snippets"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-available-snippets"><span class="heading-anchor-icon">#</span></a>📋 Available Snippets</h2>
+<h3 id="user-content-basics"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#basics"><span class="heading-anchor-icon">#</span></a>Basics</h3>
+<ul>
+<li><code>php</code> - PHP opening tag <code>&#x3C;?php</code></li>
+<li><code>phpc</code> - PHP opening and closing tag <code>&#x3C;?php ?></code></li>
+<li><code>php=</code> - Echo short tag <code>&#x3C;?= ?></code></li>
+<li><code>echo</code> - Echo statement</li>
+<li><code>print</code> - Print statement</li>
+<li><code>var</code> - Variable assignment</li>
+<li><code>def</code> - Define constant</li>
+<li><code>const</code> - Const declaration</li>
+</ul>
+<h3 id="user-content-control-structures"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#control-structures"><span class="heading-anchor-icon">#</span></a>Control Structures</h3>
+<ul>
+<li><code>if</code> - If statement</li>
+<li><code>ife</code> - If-else statement</li>
+<li><code>ifel</code> - If-elseif-else statement</li>
+<li><code>ter</code> - Ternary operator</li>
+<li><code>nc</code> - Null coalescing operator</li>
+<li><code>switch</code> - Switch case</li>
+<li><code>match</code> - Match expression (PHP 8+)</li>
+</ul>
+<h3 id="user-content-loops"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#loops"><span class="heading-anchor-icon">#</span></a>Loops</h3>
+<ul>
+<li><code>for</code> - For loop</li>
+<li><code>foreach</code> - Foreach loop (value only)</li>
+<li><code>foreachk</code> - Foreach loop (key-value)</li>
+<li><code>while</code> - While loop</li>
+<li><code>do</code> - Do-while loop</li>
+</ul>
+<h3 id="user-content-functions"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#functions"><span class="heading-anchor-icon">#</span></a>Functions</h3>
+<ul>
+<li><code>func</code> - Function declaration</li>
+<li><code>funcr</code> - Function with return type</li>
+<li><code>fn</code> - Anonymous function</li>
+<li><code>arrow</code> - Arrow function (PHP 7.4+)</li>
+</ul>
+<h3 id="user-content-classes--oop"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#classes--oop"><span class="heading-anchor-icon">#</span></a>Classes &#x26; OOP</h3>
+<ul>
+<li><code>class</code> - Class declaration</li>
+<li><code>construct</code> - Constructor with property promotion (PHP 8+)</li>
+<li><code>pubm</code> - Public method</li>
+<li><code>prim</code> - Private method</li>
+<li><code>prom</code> - Protected method</li>
+<li><code>sm</code> - Static method</li>
+<li><code>get</code> - Getter method</li>
+<li><code>set</code> - Setter method</li>
+<li><code>interface</code> - Interface declaration</li>
+<li><code>trait</code> - Trait declaration</li>
+<li><code>abstract</code> - Abstract class</li>
+<li><code>extends</code> - Class extension</li>
+<li><code>implements</code> - Interface implementation</li>
+<li><code>use</code> - Use trait</li>
+<li><code>enum</code> - Enum declaration (PHP 8.1+)</li>
+<li><code>readonly</code> - Readonly property (PHP 8.1+)</li>
+</ul>
+<h3 id="user-content-arrays"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#arrays"><span class="heading-anchor-icon">#</span></a>Arrays</h3>
+<ul>
+<li><code>arr</code> - Array declaration</li>
+<li><code>arra</code> - Associative array</li>
+<li><code>arrp</code> - Array push</li>
+<li><code>array_map</code> - Array map function</li>
+<li><code>array_filter</code> - Array filter function</li>
+<li><code>array_reduce</code> - Array reduce function</li>
+<li><code>in_array</code> - In array check</li>
+<li><code>array_key_exists</code> - Array key exists check</li>
+<li><code>count</code> - Count array elements</li>
+</ul>
+<h3 id="user-content-exception-handling"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#exception-handling"><span class="heading-anchor-icon">#</span></a>Exception Handling</h3>
+<ul>
+<li><code>try</code> - Try-catch block</li>
+<li><code>tryf</code> - Try-catch-finally block</li>
+<li><code>throw</code> - Throw exception</li>
+</ul>
+<h3 id="user-content-namespaces--imports"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#namespaces--imports"><span class="heading-anchor-icon">#</span></a>Namespaces &#x26; Imports</h3>
+<ul>
+<li><code>namespace</code> - Namespace declaration</li>
+<li><code>uses</code> - Use statement</li>
+<li><code>useas</code> - Use statement with alias</li>
+</ul>
+<h3 id="user-content-file-inclusion"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#file-inclusion"><span class="heading-anchor-icon">#</span></a>File Inclusion</h3>
+<ul>
+<li><code>req</code> - Require</li>
+<li><code>reqo</code> - Require once</li>
+<li><code>inc</code> - Include</li>
+<li><code>inco</code> - Include once</li>
+</ul>
+<h3 id="user-content-utility-functions"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#utility-functions"><span class="heading-anchor-icon">#</span></a>Utility Functions</h3>
+<ul>
+<li><code>isset</code> - Isset check</li>
+<li><code>empty</code> - Empty check</li>
+<li><code>die</code> - Die statement</li>
+<li><code>exit</code> - Exit statement</li>
+<li><code>vd</code> - Var dump</li>
+<li><code>pr</code> - Print r</li>
+<li><code>ve</code> - Var export</li>
+</ul>
+<h3 id="user-content-superglobals"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#superglobals"><span class="heading-anchor-icon">#</span></a>Superglobals</h3>
+<ul>
+<li><code>$get</code> - $_GET</li>
+<li><code>$post</code> - $_POST</li>
+<li><code>$req</code> - $_REQUEST</li>
+<li><code>$sess</code> - $_SESSION</li>
+<li><code>$cook</code> - $_COOKIE</li>
+<li><code>$serv</code> - $_SERVER</li>
+<li><code>$file</code> - $_FILES</li>
+</ul>
+<h3 id="user-content-variables"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#variables"><span class="heading-anchor-icon">#</span></a>Variables</h3>
+<ul>
+<li><code>global</code> - Global variable</li>
+<li><code>static</code> - Static variable</li>
+<li><code>session</code> - Session start</li>
+</ul>
+<h3 id="user-content-json"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#json"><span class="heading-anchor-icon">#</span></a>JSON</h3>
+<ul>
+<li><code>json_encode</code> - JSON encode</li>
+<li><code>json_decode</code> - JSON decode</li>
+</ul>
+<h3 id="user-content-database-pdo"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#database-pdo"><span class="heading-anchor-icon">#</span></a>Database (PDO)</h3>
+<ul>
+<li><code>pdo</code> - PDO connection</li>
+<li><code>pdoq</code> - PDO query</li>
+<li><code>pdop</code> - PDO prepared statement</li>
+<li><code>pdoi</code> - PDO insert</li>
+<li><code>pdou</code> - PDO update</li>
+<li><code>pdod</code> - PDO delete</li>
+</ul>
+<h3 id="user-content-file-operations"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#file-operations"><span class="heading-anchor-icon">#</span></a>File Operations</h3>
+<ul>
+<li><code>fgc</code> - File get contents</li>
+<li><code>fpc</code> - File put contents</li>
+<li><code>fexists</code> - File exists</li>
+<li><code>isdir</code> - Is directory</li>
+</ul>
+<h3 id="user-content-strings"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#strings"><span class="heading-anchor-icon">#</span></a>Strings</h3>
+<ul>
+<li><code>heredoc</code> - Heredoc syntax</li>
+<li><code>nowdoc</code> - Nowdoc syntax</li>
+<li><code>concat</code> - String concatenation</li>
+<li><code>interp</code> - String interpolation</li>
+<li><code>explode</code> - Explode string to array</li>
+<li><code>implode</code> - Implode array to string</li>
+<li><code>sprintf</code> - Sprintf formatting</li>
+<li><code>preg_match</code> - Regex match</li>
+<li><code>preg_replace</code> - Regex replace</li>
+<li><code>str_replace</code> - String replace</li>
+<li><code>trim</code> - Trim string</li>
+<li><code>strtolower</code> - String to lowercase</li>
+<li><code>strtoupper</code> - String to uppercase</li>
+<li><code>ucfirst</code> - Uppercase first character</li>
+<li><code>strlen</code> - String length</li>
+<li><code>substr</code> - Substring</li>
+</ul>
+<h3 id="user-content-documentation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#documentation"><span class="heading-anchor-icon">#</span></a>Documentation</h3>
+<ul>
+<li><code>/**</code> - PHPDoc comment block</li>
+<li><code>prop</code> - PHPDoc property</li>
+<li><code>strict</code> - Strict types declaration</li>
+</ul>
+<h2 id="user-content--smart-placeholders"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-smart-placeholders"><span class="heading-anchor-icon">#</span></a>🎯 Smart Placeholders</h2>
+<p>Snippets use numbered placeholders (<code>$1</code>, <code>$2</code>, etc.) that you can tab through:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">// Typing 'func' + Tab</span></span>
+<span class="line"><span style="color:#F97583;--shiki-dark:#F97583">function</span><span style="color:#B392F0;--shiki-dark:#B392F0"> functionName</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">(params)</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">    // Tab to function name, type it, Tab to params, type them, Tab to body</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>The <code>$0</code> placeholder indicates the final cursor position.</p>
+<h2 id="user-content-️-customization"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#️-customization"><span class="heading-anchor-icon">#</span></a>🛠️ Customization</h2>
+<p>You can modify snippets by editing the <code>snippets/php.json</code> file. Each snippet follows this structure:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">  "Snippet Name"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "prefix"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: </span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">"trigger-text"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">    "body"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">: [</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">      "line1"</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">      "line2"</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    ]</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h2 id="user-content--examples"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-examples"><span class="heading-anchor-icon">#</span></a>💡 Examples</h2>
+<h3 id="user-content-creating-a-class"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#creating-a-class"><span class="heading-anchor-icon">#</span></a>Creating a Class</h3>
+<p>Type <code>classp</code> + Tab:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#F97583;--shiki-dark:#F97583">class</span><span style="color:#B392F0;--shiki-dark:#B392F0"> ClassName</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#F97583;--shiki-dark:#F97583">    private</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> type</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> $property;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#F97583;--shiki-dark:#F97583">    public</span><span style="color:#F97583;--shiki-dark:#F97583"> function</span><span style="color:#79B8FF;--shiki-dark:#79B8FF"> __construct</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">(</span><span style="color:#79B8FF;--shiki-dark:#79B8FF">type</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> $property)</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    {</span></span>
+<span class="line"><span style="color:#79B8FF;--shiki-dark:#79B8FF">        $this</span><span style="color:#F97583;--shiki-dark:#F97583">-></span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">property </span><span style="color:#F97583;--shiki-dark:#F97583">=</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> $property;</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">    // cursor ends here</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h3 id="user-content-database-query"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#database-query"><span class="heading-anchor-icon">#</span></a>Database Query</h3>
+<p>Type <code>pdop</code> + Tab:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">$stmt </span><span style="color:#F97583;--shiki-dark:#F97583">=</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> $pdo</span><span style="color:#F97583;--shiki-dark:#F97583">-></span><span style="color:#B392F0;--shiki-dark:#B392F0">prepare</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">(</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">'</span><span style="color:#F97583;--shiki-dark:#F97583">SELECT</span><span style="color:#F97583;--shiki-dark:#F97583"> *</span><span style="color:#F97583;--shiki-dark:#F97583"> FROM</span><span style="color:#F97583;--shiki-dark:#F97583"> table</span><span style="color:#F97583;--shiki-dark:#F97583"> WHERE</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> id </span><span style="color:#F97583;--shiki-dark:#F97583">=</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF"> :id'</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">);</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">$stmt</span><span style="color:#F97583;--shiki-dark:#F97583">-></span><span style="color:#B392F0;--shiki-dark:#B392F0">execute</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">([</span><span style="color:#9ECBFF;--shiki-dark:#9ECBFF">'id'</span><span style="color:#F97583;--shiki-dark:#F97583"> =></span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> $id]);</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">$result </span><span style="color:#F97583;--shiki-dark:#F97583">=</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> $stmt</span><span style="color:#F97583;--shiki-dark:#F97583">-></span><span style="color:#B392F0;--shiki-dark:#B392F0">fetch</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">(</span><span style="color:#79B8FF;--shiki-dark:#79B8FF">PDO</span><span style="color:#F97583;--shiki-dark:#F97583">::</span><span style="color:#79B8FF;--shiki-dark:#79B8FF">FETCH_ASSOC</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">);</span></span></code></pre>
+<h3 id="user-content-try-catch-block"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#try-catch-block"><span class="heading-anchor-icon">#</span></a>Try-Catch Block</h3>
+<p>Type <code>try</code> + Tab:</p>
+<pre class="shiki shiki-themes github-dark github-dark" style="background-color:#24292e;--shiki-dark-bg:#24292e;color:#e1e4e8;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#F97583;--shiki-dark:#F97583">try</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> {</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">    // code</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">} </span><span style="color:#F97583;--shiki-dark:#F97583">catch</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> (</span><span style="color:#79B8FF;--shiki-dark:#79B8FF">Exception</span><span style="color:#E1E4E8;--shiki-dark:#E1E4E8"> $e) {</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">    // handle exception</span></span>
+<span class="line"><span style="color:#E1E4E8;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h2 id="user-content--contributing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-contributing"><span class="heading-anchor-icon">#</span></a>🤝 Contributing</h2>
+<p>Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.</p>
+<h3 id="user-content-development-setup"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#development-setup"><span class="heading-anchor-icon">#</span></a>Development Setup</h3>
+<ol>
+<li>Fork the repository</li>
+<li>Clone your fork</li>
+<li>Make your changes</li>
+<li>Test in Zed</li>
+<li>Submit a pull request</li>
+</ol>
+<h2 id="user-content--license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-license"><span class="heading-anchor-icon">#</span></a>📄 License</h2>
+<p>This project is licensed under the MIT License - see the <a href="https://github.com/seekode/zed-php-snippets/blob/HEAD/LICENSE" target="_blank" rel="noopener">LICENSE</a> file for details.</p>
+<h2 id="user-content--acknowledgments"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-acknowledgments"><span class="heading-anchor-icon">#</span></a>🙏 Acknowledgments</h2>
+<ul>
+<li><a href="https://zed.dev/">Zed Team</a> for creating an amazing editor</li>
+<li>PHP community for best practices and standards</li>
+<li>Community feedback and contributions</li>
+</ul>
+<h2 id="user-content--support"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-support"><span class="heading-anchor-icon">#</span></a>📞 Support</h2>
+<ul>
+<li><strong>Issues</strong>: <a href="https://github.com/seekode/zed-php-snippets/issues">GitHub Issues</a></li>
+<li><strong>Zed Community</strong>: <a href="https://discord.gg/zed">Zed Discord</a></li>
+<li><strong>Documentation</strong>: <a href="https://zed.dev/docs">Zed Documentation</a></li>
+</ul>
+<hr>
+<p><strong>Happy coding with Zed! 🚀</strong></p></article> </main> <footer class="mt-auto" style="background:var(--zed-bg);border-top:1px solid var(--zed-border);"> <div class="max-w-4xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:var(--zed-text-muted);">
+← Back to extension list
+</a> </div> </footer> </body></html>
