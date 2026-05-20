@@ -4,5 +4,8 @@ node_modules/
 website/node_modules/
 website/.astro/
 
+# We use npm; this lockfile is bun's
+website/bun.lock
+
 .idea/
 test-results/
