@@ -1,0 +1,14 @@
+{
+  "name": "gh-packages-zed",
+  "private": true,
+  "description": "Tooling and tests for the Zed Extension Safari data pipeline (scripts/fetch-packages.js).",
+  "repository": "https://github.com/HelgeSverre/gh-packages-zed",
+  "license": "MIT",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "vitest": "^4.0.0"
+  }
+}

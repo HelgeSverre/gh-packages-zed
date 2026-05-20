@@ -6,6 +6,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 [![extensions](https://img.shields.io/badge/extensions-1462-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
+[![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
 
 [**Live site →**](https://helgesverre.github.io/gh-packages-zed/)
 

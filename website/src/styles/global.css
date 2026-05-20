@@ -59,6 +59,31 @@ html[data-theme="dark"] {
 }
 
 /* -------------------------------------------------------------------------- */
+/* Skip-to-content — visually hidden until keyboard-focused                   */
+/* -------------------------------------------------------------------------- */
+.skip-to-content {
+  position: fixed;
+  top: 0.5rem;
+  left: 0.5rem;
+  z-index: 70;
+  padding: 0.5rem 0.875rem;
+  background: var(--zed-accent-bg);
+  color: var(--zed-accent-fg);
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-decoration: none;
+  transform: translateY(-150%);
+  transition: transform 160ms ease;
+}
+.skip-to-content:focus,
+.skip-to-content:focus-visible {
+  transform: translateY(0);
+  outline: 2px solid var(--zed-ring);
+  outline-offset: 2px;
+}
+
+/* -------------------------------------------------------------------------- */
 /* Unified focus system — keyboard-only ring in Zed blue, consistent shape    */
 /* -------------------------------------------------------------------------- */
 

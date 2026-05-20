@@ -904,6 +904,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 [![extensions](https://img.shields.io/badge/extensions-${pkgList.length}-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
+[![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
 
 [**Live site →**](https://helgesverre.github.io/gh-packages-zed/)
 
@@ -1009,7 +1010,18 @@ Made by [Helge Sverre](https://helgesver.re). Not affiliated with [Zed Industrie
   console.log("📝 README.md generated");
 }
 
-main().catch((e) => {
-  console.error("Fatal error:", e);
-  process.exit(1);
-});
+// Expose pure helpers for unit testing. The script also runs as a CLI, but only
+// when invoked directly — not when imported by tests.
+module.exports = {
+  parseExtensionToml,
+  transformRepo,
+  scrubSecrets,
+  repoKeyToFilename,
+};
+
+if (require.main === module) {
+  main().catch((e) => {
+    console.error("Fatal error:", e);
+    process.exit(1);
+  });
+}

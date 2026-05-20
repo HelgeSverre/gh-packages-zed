@@ -1,0 +1,30 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const title = 'Not found — Zed Extension Safari';
+const description = 'The page you requested does not exist.';
+const baseUrl = import.meta.env.BASE_URL || '/';
+---
+
+<Layout title={title} description={description}>
+    <main id="main" class="flex-1 max-w-2xl mx-auto w-full px-4 py-20 sm:px-6 lg:px-8 text-center">
+        <div class="font-mono text-sm mb-6" style="color:var(--zed-muted);">404</div>
+        <h1 class="text-4xl sm:text-5xl font-semibold tracking-tight"
+            style="color:var(--zed-blue-deep);">
+            Nothing here.
+        </h1>
+        <p class="mt-5 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);">
+            That extension was archived, renamed, or never indexed. Try searching from the directory.
+        </p>
+        <div class="mt-8 flex flex-wrap items-center justify-center gap-3">
+            <a href={baseUrl} class="zed-btn-primary inline-flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+                Browse extensions
+                <span aria-hidden="true">→</span>
+            </a>
+            <a href="https://github.com/HelgeSverre/gh-packages-zed/issues" target="_blank" rel="noopener"
+               class="zed-btn-ghost inline-flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+                Report a missing extension
+            </a>
+        </div>
+    </main>
+</Layout>

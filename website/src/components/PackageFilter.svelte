@@ -38,6 +38,7 @@
     let search = $state('');
     let debouncedSearch = $state('');
     let selectedCategories = $state<Set<string>>(new Set());
+    let searchInput: HTMLInputElement | undefined = $state();
 
     // Slideout state
     let activeSlug: string | null = $state(null);
@@ -220,6 +221,15 @@
     $effect(() => {
         function onKey(e: KeyboardEvent) {
             if (e.key === 'Escape' && activeSlug) closeSlideout();
+            if (e.key === '/' && !e.metaKey && !e.ctrlKey && !e.altKey) {
+                const t = e.target as HTMLElement | null;
+                const tag = t?.tagName;
+                if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT' || t?.isContentEditable) return;
+                if (!searchInput) return;
+                e.preventDefault();
+                searchInput.focus();
+                searchInput.select();
+            }
         }
         function onPop(e: PopStateEvent) {
             const state = e.state as {slug?: string} | null;
@@ -327,9 +337,10 @@
                         <input
                                 type="text"
                                 bind:value={search}
-                                placeholder="Search by name, repo, or description"
+                                bind:this={searchInput}
+                                placeholder="Search by name, repo, or description  ( / )"
                                 class="cmd-input flex-1 min-w-0 text-sm"
-                                aria-label="Search extensions by name or description"
+                                aria-label="Search extensions by name or description (press / to focus)"
                         />
                     </span>
                 </label>
@@ -376,7 +387,7 @@
     </div>
 </section>
 
-<main class="flex-1 max-w-7xl mx-auto w-full px-4 pb-8 sm:px-6 lg:px-8">
+<main id="main" class="flex-1 max-w-7xl mx-auto w-full px-4 pb-8 sm:px-6 lg:px-8">
     <div class="mb-4 flex items-center justify-between gap-3 text-sm font-mono"
          style="color:var(--zed-muted);">
         <span>{filtered.length} extensions</span>
