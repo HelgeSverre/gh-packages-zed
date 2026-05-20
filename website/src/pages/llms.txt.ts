@@ -21,9 +21,7 @@ export const GET: APIRoute = ({ site }) => {
 
   const packages = (Object.values(extensionsData) as ExtensionLite[])
     .slice()
-    .sort((a, b) =>
-      a.name.toLowerCase().localeCompare(b.name.toLowerCase()),
-    );
+    .sort((a, b) => a.name.toLowerCase().localeCompare(b.name.toLowerCase()));
 
   const lines: string[] = [];
   lines.push("# Zed Extension Safari");
@@ -46,9 +44,7 @@ export const GET: APIRoute = ({ site }) => {
   lines.push("");
   for (const pkg of packages) {
     const label = sanitize(pkg.extension?.name || pkg.name);
-    const desc = sanitize(
-      pkg.description || pkg.extension?.description || "",
-    );
+    const desc = sanitize(pkg.description || pkg.extension?.description || "");
     const url = `${origin}${base}/package/${pkg.name}/`;
     lines.push(`- [${label}](${url})${desc ? `: ${desc}` : ""}`);
   }

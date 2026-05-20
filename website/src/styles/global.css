@@ -36,7 +36,7 @@ html[data-theme="dark"] {
   --zed-paper: #131820;
   --zed-surface: #1a1f29;
   --zed-surface-soft: #232a36;
-  --zed-border: rgba(255, 255, 255, 0.10);
+  --zed-border: rgba(255, 255, 255, 0.1);
   --zed-border-strong: rgba(120, 170, 255, 0.38);
   --zed-blue: #79b8ff;
   --zed-blue-deep: #9ecbff;
@@ -394,19 +394,34 @@ html[data-theme="dark"] .readme-prose .shiki span {
   color: hsla(0, 78%, 42%, 1);
 }
 
-html[data-theme="dark"] .readme-prose .markdown-alert-note .markdown-alert-title {
+html[data-theme="dark"]
+  .readme-prose
+  .markdown-alert-note
+  .markdown-alert-title {
   color: hsla(207, 91%, 72%, 1);
 }
-html[data-theme="dark"] .readme-prose .markdown-alert-tip .markdown-alert-title {
+html[data-theme="dark"]
+  .readme-prose
+  .markdown-alert-tip
+  .markdown-alert-title {
   color: hsla(154, 65%, 55%, 1);
 }
-html[data-theme="dark"] .readme-prose .markdown-alert-important .markdown-alert-title {
+html[data-theme="dark"]
+  .readme-prose
+  .markdown-alert-important
+  .markdown-alert-title {
   color: hsla(270, 70%, 78%, 1);
 }
-html[data-theme="dark"] .readme-prose .markdown-alert-warning .markdown-alert-title {
+html[data-theme="dark"]
+  .readme-prose
+  .markdown-alert-warning
+  .markdown-alert-title {
   color: hsla(38, 90%, 65%, 1);
 }
-html[data-theme="dark"] .readme-prose .markdown-alert-caution .markdown-alert-title {
+html[data-theme="dark"]
+  .readme-prose
+  .markdown-alert-caution
+  .markdown-alert-title {
   color: hsla(0, 78%, 72%, 1);
 }
 
