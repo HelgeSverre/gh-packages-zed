@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1462-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1464-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,16 +14,16 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1462** |
-| In official registry | 1027 |
-| Discovered via topics | 435 |
-| Last updated | 2026-05-20 07:27 UTC |
+| Total tracked | **1464** |
+| In official registry | 1030 |
+| Discovered via topics | 434 |
+| Last updated | 2026-05-20 12:52 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
-| Themes | 584 |
+| Themes | 586 |
 | Grammars | 526 |
 | Language Servers | 491 |
 | Context Servers | 123 |
@@ -70,6 +70,8 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [huangkairan/chalice-theme-zed](https://github.com/huangkairan/chalice-theme-zed) | 0 | Chalice theme for Zed |
+| [sergios-tech/sergio-tech-code-black-zed-theme](https://github.com/sergios-tech/sergio-tech-code-black-zed-theme) | 0 | Sergio's Tech Code in Black (Zed OLED Theme) |
 | [sweetppro/zed-xml](https://github.com/sweetppro/zed-xml) | 28 | XML syntax highlighting for Zed |
 | [edgarkanyes/yaka](https://github.com/edgarkanyes/yaka) | 0 | A light theme for the Zed editor |
 | [Yxmura/yamura-zed-theme](https://github.com/Yxmura/yamura-zed-theme) | 0 | A zed theme made by Yamura, and named after him. Consists of a Light & Dark them... |
@@ -88,8 +90,6 @@ cd website && npm install && npm run dev
 | [KevInCompile/ZenAbyssal](https://github.com/KevInCompile/ZenAbyssal) | 11 |  |
 | [lvignoli/zed-ziggy](https://github.com/lvignoli/zed-ziggy) | 5 | Ziggy support for Zed |
 | [srivtx/zk-zed](https://github.com/srivtx/zk-zed) | 0 |  |
-| [nikitapashinsky/zoegi-theme](https://github.com/nikitapashinsky/zoegi-theme) | 6 | A port of Moegi theme for Zed |
-| [threonyl/zed-zokrates](https://github.com/threonyl/zed-zokrates) | 0 | Zed support for ZoKrates language. |
 
 ## Top starred (under 500)
 
@@ -120,6 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [BenjaminHalko/flow-icons-zed](https://github.com/BenjaminHalko/flow-icons-zed) | 18 | 2026-05-20 | Flow Icons for Zed |
 | [HelgeSverre/zed-applescript](https://github.com/HelgeSverre/zed-applescript) | 1 | 2026-05-20 | AppleScript for Zed — syntax highlighting, outline, runnable... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 82 | 2026-05-20 | True Dark Theme for Zed IDE |
 | [MiguelMachado-dev/ReactTypeKit](https://github.com/MiguelMachado-dev/ReactTypeKit) | 1 | 2026-05-20 | A comprehensive Zed snippet pack providing fast, type-safe t... |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [aliaksei-loi/zed-loi-paper-theme](https://github.com/aliaksei-loi/zed-loi-paper-theme) | 0 | 2026-05-19 | A Zed theme inspired by Claude.ai and Claude Code — warm cre... |
 | [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 165 | 2026-05-19 | Zed support for the Godot game engine and the GDScript langu... |
 | [joshuadavidthomas/zed-django](https://github.com/joshuadavidthomas/zed-django) | 35 | 2026-05-19 | A Django extension for Zed |
-| [openvanilla/mcbopomofo-zed-extension](https://github.com/openvanilla/mcbopomofo-zed-extension) | 0 | 2026-05-19 | McBopomofo Data Extension for Zed |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-05-20T12:52 | 3 | 431 | 1733 |
 | 2026-05-20T07:27 | 0 | 431 | 1730 |
 | 2026-05-20T07:13 | 0 | 431 | 1730 |
 | 2026-05-20T05:54 | 0 | 431 | 1730 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-05-20T00:40 | 132 | 410 | 1480 |
 | 2026-05-19T21:56 | 142 | 407 | 1348 |
 | 2026-05-19T21:43 | 159 | 396 | 1206 |
-| 2026-05-19T21:41 | 177 | 388 | 1047 |
 
 ---
 
