@@ -54,7 +54,8 @@
         'grammar': 'Grammar',
         'language-server': 'LSP',
         'slash-command': 'Slash Cmd',
-        'context-server': 'Context Srv',
+        'context-server': 'MCP Server',
+        'agent-server': 'Agent Server',
         'debug-adapter': 'Debug',
         'docs-provider': 'Docs',
         'snippets': 'Snippets',
@@ -117,6 +118,7 @@
         'snippets',
         'slash-command',
         'context-server',
+        'agent-server',
         'debug-adapter',
         'docs-provider',
     ];
@@ -149,6 +151,12 @@
 
     function packageHref(name: string): string {
         return `${BASE}/package/${name}/`;
+    }
+
+    function zedExtensionHref(pkg: Package): string {
+        return pkg.extension?.id
+            ? `https://zed.dev/extensions/${pkg.extension.id}`
+            : 'https://zed.dev/extensions';
     }
 
     async function loadReadme(slug: string): Promise<string | null> {
@@ -299,59 +307,49 @@
     }
 </script>
 
-<nav class="z-10 -mt-16 mb-6 relative">
-    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pb-4">
+<section class="relative -mt-12 mb-6">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div
-                class="rounded-xl shadow-2xl overflow-hidden font-mono text-sm"
-                style="background:var(--zed-surface);border:1px solid var(--zed-border);"
+                class="rounded-lg p-4 sm:p-5"
+                style="background:var(--zed-surface);border:1px solid var(--zed-border);box-shadow:0 18px 48px -38px rgba(27,30,35,0.45);"
         >
-            <div
-                    class="flex items-center gap-2 px-5 py-3"
-                    style="background:rgba(0,0,0,0.25);border-bottom:1px solid var(--zed-border);"
-            >
-                <span class="w-3 h-3 rounded-full" style="background:#ff5f57"></span>
-                <span class="w-3 h-3 rounded-full" style="background:#febc2e"></span>
-                <span class="w-3 h-3 rounded-full" style="background:#28c840"></span>
-                <span class="ml-2 text-xs" style="color:var(--zed-text-muted);">zed-extension-finder</span>
-                <a
-                        aria-label="GitHub Repository"
-                        href="https://github.com/HelgeSverre/gh-packages-zed"
-                        target="_blank"
-                        class="ml-auto transition"
-                        style="color:var(--zed-muted);"
-                >
-                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
-                        <path
-                                d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+            <div class="grid gap-3 lg:grid-cols-[1fr_auto] lg:items-end">
+                <label class="block">
+                    <span class="text-xs uppercase font-mono" style="color:var(--zed-muted);">Search extensions</span>
+                    <span class="mt-2 flex items-center gap-3 rounded-md px-3 py-2.5"
+                          style="background:var(--zed-paper);border:1px solid var(--zed-border);">
+                        <svg class="w-4 h-4 shrink-0" fill="none" stroke="currentColor" stroke-width="1.8"
+                             stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"
+                             style="color:var(--zed-blue-deep);">
+                            <circle cx="11" cy="11" r="7"></circle>
+                            <path d="m20 20-3.5-3.5"></path>
+                        </svg>
+                        <input
+                                type="text"
+                                bind:value={search}
+                                placeholder="Search by name, repo, or description"
+                                class="cmd-input flex-1 min-w-0 text-sm"
+                                aria-label="Search extensions by name or description"
                         />
-                    </svg>
-                </a>
-            </div>
-            <div
-                    class="px-5 py-6 flex flex-wrap items-center gap-x-1.5 gap-y-2 leading-tight"
-                    style="color:var(--zed-text);"
-            >
-                <span style="color:var(--zed-lime);">$</span>
-                <span style="color:var(--zed-blue-pale);">find</span>
-                <span style="color:var(--zed-text-muted);">extensions</span>
-                <span style="color:var(--zed-blue);">--search</span><span style="color:var(--zed-muted);"
-            >=</span
-            ><span style="color:var(--zed-lime);">"</span><input
-                    type="text"
-                    bind:value={search}
-                    placeholder="name or description..."
-                    class="cmd-input flex-1 min-w-32"
-                    aria-label="Search extensions by name or description"
-            /><span style="color:var(--zed-lime);">"</span>
-            </div>
-        </div>
-    </div>
-</nav>
+                    </span>
+                </label>
 
-<div class="max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 mb-4">
-    <div class="flex flex-wrap items-center gap-2">
-        <span class="text-xs uppercase tracking-wider mr-2 font-mono"
-              style="color:var(--zed-muted);">Type:</span>
+                <label class="block min-w-48">
+                    <span class="text-xs uppercase font-mono" style="color:var(--zed-muted);">Sort by</span>
+                    <select bind:value={sort}
+                            class="zed-select mt-2 w-full rounded-md px-3 py-2.5 text-sm"
+                            aria-label="Sort order">
+                        <option value="discovered">recently added</option>
+                        <option value="updated">recently updated</option>
+                        <option value="stars">stars</option>
+                        <option value="name">name</option>
+                    </select>
+                </label>
+            </div>
+
+            <div class="mt-4 flex flex-wrap items-center gap-2">
+                <span class="text-xs uppercase font-mono mr-1"
+                      style="color:var(--zed-muted);">Type</span>
         <button type="button"
                 onclick={clearCategories}
                 class="cat-toggle"
@@ -373,31 +371,23 @@
                 </button>
             {/if}
         {/each}
+            </div>
+        </div>
     </div>
-</div>
+</section>
 
 <main class="flex-1 max-w-7xl mx-auto w-full px-4 pb-8 sm:px-6 lg:px-8">
     <div class="mb-4 flex items-center justify-between gap-3 text-sm font-mono"
          style="color:var(--zed-muted);">
-        <span># Found {filtered.length} extensions</span>
-        <label class="flex items-center gap-2">
-            <span>Sort by:</span>
-            <select bind:value={sort}
-                    class="zed-select rounded-md px-2 py-1 text-sm font-mono"
-                    aria-label="Sort order">
-                <option value="discovered">recently added</option>
-                <option value="updated">recently updated</option>
-                <option value="stars">stars</option>
-                <option value="name">name</option>
-            </select>
-        </label>
+        <span>{filtered.length} extensions</span>
+        <span>{selectedCategories.size ? `${selectedCategories.size} filter${selectedCategories.size === 1 ? '' : 's'} active` : 'All types'}</span>
     </div>
-    <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+    <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
         {#each filtered as pkg (pkg.name)}
             <a
                     href={packageHref(pkg.name)}
                     onclick={(e) => handleCardClick(e, pkg.name)}
-                    class="zed-card group flex flex-col p-5 rounded-xl shadow-sm hover:shadow-md transition-all overflow-hidden"
+                    class="zed-card group flex min-h-52 flex-col p-4 rounded-lg transition-all overflow-hidden"
                     style="background:var(--zed-surface);border:1px solid var(--zed-border);"
             >
                 <div class="flex items-start justify-between gap-2">
@@ -411,7 +401,7 @@
                             class="flex items-center gap-1 text-sm whitespace-nowrap"
                             style="color:var(--zed-text-muted);"
                     >
-                        <svg class="w-4 h-4" style="color:var(--zed-lime);" fill="currentColor" viewBox="0 0 20 20">
+                        <svg class="w-4 h-4" style="color:var(--zed-blue);" fill="currentColor" viewBox="0 0 20 20">
                             <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
                         </svg>
                         {pkg.stars}
@@ -467,7 +457,7 @@
                     {activePackage.name}
                 </div>
                 <h2 class="font-bold truncate text-base sm:text-lg"
-                    style="color:var(--zed-blue-pale);">
+                    style="color:var(--zed-blue-deep);">
                     {activePackage.extension?.name || activePackage.name.split('/')[1]}
                 </h2>
             {/if}
@@ -475,10 +465,18 @@
         <div class="flex items-center gap-2 shrink-0">
             {#if activePackage}
                 <a
-                        href={activePackage.url}
+                        href={zedExtensionHref(activePackage)}
                         target="_blank"
                         rel="noopener"
                         class="zed-btn-primary inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md text-xs font-medium"
+                >
+                    zed.dev
+                </a>
+                <a
+                        href={activePackage.url}
+                        target="_blank"
+                        rel="noopener"
+                        class="zed-btn-ghost inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md text-xs font-medium"
                 >
                     <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24">
                         <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
@@ -514,7 +512,7 @@
             <div class="flex flex-wrap gap-x-4 gap-y-1.5 text-sm mb-2"
                  style="color:var(--zed-text-muted);">
                 <span class="inline-flex items-center gap-1">
-                    <svg class="w-4 h-4" style="color:var(--zed-lime);" fill="currentColor" viewBox="0 0 20 20">
+                    <svg class="w-4 h-4" style="color:var(--zed-blue);" fill="currentColor" viewBox="0 0 20 20">
                         <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
                     </svg>
                     {activePackage.stars.toLocaleString()}
@@ -535,7 +533,7 @@
                 <div class="flex flex-wrap gap-1.5 mb-6">
                     {#each activePackage.topics as topic}
                         <span class="px-2 py-0.5 text-xs rounded-full"
-                              style="background:rgba(255,255,255,0.04);color:var(--zed-text-muted);border:1px solid var(--zed-border);">
+                              style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);">
                             {topic}
                         </span>
                     {/each}
@@ -570,10 +568,11 @@
 
 <style>
     :global(.zed-card:hover) {
-        border-color: hsla(224, 87%, 47%, 0.5) !important;
-        background: hsla(220, 18%, 18%, 1) !important;
+        border-color: var(--zed-border-strong) !important;
+        background: var(--zed-paper) !important;
+        transform: translateY(-1px);
     }
     :global(.zed-card:hover .zed-card-title) {
-        color: hsla(220, 60%, 78%, 1) !important;
+        color: var(--zed-blue-deep) !important;
     }
 </style>

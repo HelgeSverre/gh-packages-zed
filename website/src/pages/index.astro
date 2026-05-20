@@ -25,30 +25,32 @@ function timeAgo(dateString: string | undefined): string {
         description="Discover fresh Zed editor extensions, themes and language packs that are actively maintained but haven't gone viral yet. Updated every 6 hours."
 >
     <header class="zed-grid relative">
-        <div class="max-w-5xl mx-auto px-4 pt-16 pb-24 sm:px-6 lg:px-8 text-center">
+        <div class="max-w-7xl mx-auto px-4 pt-14 pb-28 sm:px-6 lg:px-8">
             <a
                     href="https://github.com/HelgeSverre/gh-packages-zed"
                     target="_blank"
-                    class="inline-flex items-center gap-2 px-3 py-1 text-xs rounded-full font-mono transition"
-                    style="background:rgba(255,255,255,0.04);border:1px solid var(--zed-border);color:var(--zed-text-muted);"
+                    class="inline-flex items-center gap-2 px-3 py-1 text-xs rounded-md font-mono transition"
+                    style="background:var(--zed-surface);border:1px solid var(--zed-border);color:var(--zed-text-muted);"
             >
-                <span style="color:var(--zed-blue-pale);">Introducing:</span>
+                <span style="color:var(--zed-blue-deep);">Indexed from GitHub</span>
                 <span>{packages.length.toLocaleString()} packages indexed</span>
-                <span style="color:var(--zed-text-muted);">→</span>
+                <span style="color:var(--zed-blue);">↗</span>
             </a>
 
+            <div class="mt-10 grid gap-10 lg:grid-cols-[minmax(0,0.9fr)_minmax(320px,0.45fr)] lg:items-end">
+                <div>
             <h1
-                    class="mt-8 text-4xl sm:text-5xl font-semibold tracking-tight text-pretty leading-tight"
-                    style="color:var(--zed-blue-pale);"
+                    class="text-4xl sm:text-5xl font-semibold tracking-tight text-pretty leading-tight"
+                    style="color:var(--zed-blue-deep);"
             >
                 Zed Extension Safari
             </h1>
-            <p class="mt-5 text-base sm:text-lg max-w-xl mx-auto text-pretty"
+            <p class="mt-5 text-base sm:text-lg max-w-2xl text-pretty"
                style="color:var(--zed-text-muted);">
-                A field guide to small, active Zed editor extensions, themes and language packs hiding in plain sight. Refreshed every 6 hours from GitHub.
+                A searchable field guide for Zed extensions, themes, languages, MCP servers and agent servers. Refreshed every 6 hours from GitHub and the official Zed registry.
             </p>
 
-            <div class="mt-8 flex items-center justify-center gap-3 flex-wrap">
+            <div class="mt-8 flex items-center gap-3 flex-wrap">
                 <a
                         href="https://zed.dev/extensions"
                         target="_blank"
@@ -69,6 +71,26 @@ function timeAgo(dateString: string | undefined): string {
                     View source
                 </a>
             </div>
+                </div>
+
+                <dl class="grid grid-cols-2 gap-px overflow-hidden rounded-lg"
+                    style="border:1px solid var(--zed-border);background:var(--zed-border);">
+                    <div class="p-4" style="background:var(--zed-surface);">
+                        <dt class="text-xs uppercase font-mono" style="color:var(--zed-muted);">Indexed</dt>
+                        <dd class="mt-2 text-2xl font-semibold" style="color:var(--zed-text);">{packages.length.toLocaleString()}</dd>
+                    </div>
+                    <div class="p-4" style="background:var(--zed-surface);">
+                        <dt class="text-xs uppercase font-mono" style="color:var(--zed-muted);">Updated</dt>
+                        <dd class="mt-2 text-2xl font-semibold" style="color:var(--zed-text);">{timeAgo(stats.last_run)}</dd>
+                    </div>
+                    <div class="col-span-2 p-4" style="background:var(--zed-blue-deep);color:white;">
+                        <dt class="text-xs uppercase font-mono" style="color:var(--zed-blue-pale);">Coverage</dt>
+                        <dd class="mt-2 text-sm">
+                            Extension manifests, README previews, categories, versions, authors and repository metadata.
+                        </dd>
+                    </div>
+                </dl>
+            </div>
         </div>
 
         <!-- Soft bottom fade into the body -->
@@ -78,17 +100,17 @@ function timeAgo(dateString: string | undefined): string {
 
     <PackageFilter packages={packages} client:load />
 
-    <footer class="mt-auto" style="background:var(--zed-bg);border-top:1px solid var(--zed-border);">
+    <footer class="mt-auto zed-blue-band">
         <div
                 class="max-w-7xl mx-auto px-4 py-6 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm"
-                style="color:var(--zed-muted);"
+                style="color:var(--zed-blue-pale);"
         >
             <p>Updated {timeAgo(stats.last_run)} · Pulls from GitHub every 6 hours</p>
             <p>
                 Made by <a
                     href="https://helgesver.re"
                     class="transition font-medium"
-                    style="color:var(--zed-text);"
+                    style="color:white;"
             >Helge Sverre</a
             >
             </p>
