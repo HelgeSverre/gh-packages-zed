@@ -1,0 +1,66 @@
+id = "zabby"
+name = "Zabby -  Tabby Integration for Zed "
+version = "0.0.3"
+schema_version = 1
+authors = ["Arne Fuchs <arnefuchs@pm.me>"]
+description = "Tabby Integration for Zed. Go to the GitHub repo for documentation and setup."
+repository = "https://github.com/arne-fuchs/zabby"
+
+[language_servers.zabby]
+name = "Zabby"
+
+# See full list here:
+# https://microsoft.github.io/language-server-protocol/specifications/lsp/3.17/specification/#textDocumentItem
+languages = [
+"JSON",
+"Markdown",
+"Plain Text",
+"HTML",
+"CSS",
+"TypeScript",
+"JavaScript",
+"Vue.js",
+"Go",
+"Go Mod",
+"Go Work",
+"Shell Script",
+"Scheme",
+"Lua",
+"Dart",
+"Zig",
+"C",
+"C++",
+"Ruby",
+"Rust",
+"TOML",
+"YAML",
+"Git Commit",
+"Git Ignore"
+]
+
+[language-servers.zabby.language_ids]
+"Shell Script" = "shell"
+TypeScript = "typescript"
+"TSX" = "typescriptreact"
+HTML = "html"
+CSS = "css"
+JSON = "json"
+Markdown = "markdown"
+Dart = "dart"
+Go = "go"
+"Go Mod" = "gomod"
+"Go Work" = "gowork"
+JavaScript = "javascript"
+Lua = "lua"
+Scheme = "scm"
+"Vue.js" = "vuejs"
+Zig = "zig"
+C = "c"
+"C++" = "cpp"
+Python = "python"
+Ruby = "ruby"
+Rust = "rust"
+YAML = "yaml"
+TOML = "toml"
+"Git Commit" = "git_commit"
+"Git Ignore" = "git_ignore"

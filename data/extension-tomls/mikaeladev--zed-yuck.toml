@@ -1,0 +1,11 @@
+id = "yuck"
+name = "Yuck"
+version = "0.1.0"
+schema_version = 1
+description = "Syntax highlighting for yuck (eww) files"
+repository = "https://github.com/mikaeladev/zed-yuck"
+authors = ["mikaeladev <mikaeladev@icloud.com>"]
+
+[grammars.yuck]
+repository = "https://github.com/tree-sitter-grammars/tree-sitter-yuck"
+rev = "e877f6ade4b77d5ef8787075141053631ba12318"

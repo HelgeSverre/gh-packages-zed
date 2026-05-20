@@ -48784,5 +48784,1005 @@
         "language-server"
       ]
     }
+  },
+  "lgug2z/zed-whkd": {
+    "name": "LGUG2Z/zed-whkd",
+    "url": "https://github.com/LGUG2Z/zed-whkd",
+    "description": "whkd plugin for Zed",
+    "stars": 1,
+    "forks": 1,
+    "topics": [],
+    "language": "Scheme",
+    "license": null,
+    "created_at": "2025-01-04T22:49:38Z",
+    "updated_at": "2025-02-05T01:19:40Z",
+    "pushed_at": "2025-01-05T02:33:40Z",
+    "discovered_at": "2026-05-20T03:59:54.397Z",
+    "official": true,
+    "extension": {
+      "id": "whkd",
+      "name": "whkd",
+      "description": "Tree-sitter syntax highlighting for whkd",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "LGUG2Z <lgug2z@fastmail.com>"
+      ],
+      "repository": "https://github.com/LGUG2Z/zed-whkd",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
+      ]
+    }
+  },
+  "benjamin-davies/zed-wikitext": {
+    "name": "Benjamin-Davies/zed-wikitext",
+    "url": "https://github.com/Benjamin-Davies/zed-wikitext",
+    "description": "Zed support for Wikitext, a markup language used by MediaWiki",
+    "stars": 1,
+    "forks": 1,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2025-11-24T04:24:17Z",
+    "updated_at": "2026-05-11T17:48:45Z",
+    "pushed_at": "2025-11-24T04:56:48Z",
+    "discovered_at": "2026-05-20T03:59:54.397Z",
+    "official": true,
+    "extension": {
+      "id": "wikitext",
+      "name": "Wikitext",
+      "description": "Wikitext language support.",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Benjamin Davies <bentendavies@gmail.com>"
+      ],
+      "repository": "https://github.com/Benjamin-Davies/zed-wikitext",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
+      ]
+    }
+  },
+  "shoenot/witchesbrew.zed": {
+    "name": "shoenot/witchesbrew.zed",
+    "url": "https://github.com/shoenot/witchesbrew.zed",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-02-17T04:16:58Z",
+    "updated_at": "2026-02-17T04:20:43Z",
+    "pushed_at": "2026-02-17T04:20:40Z",
+    "discovered_at": "2026-05-20T03:59:54.397Z",
+    "official": true,
+    "extension": {
+      "id": "witchesbrew-theme",
+      "name": "witches brew",
+      "description": "A witchy, wine-y colorscheme for zed. Based on the witchesbrew.nvim theme.",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "authors": [
+        "shoenot"
+      ],
+      "repository": "https://github.com/shoenot/witchesbrew.zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "renzojohnson/woocommerce-snippets": {
+    "name": "renzojohnson/woocommerce-snippets",
+    "url": "https://github.com/renzojohnson/woocommerce-snippets",
+    "description": "WooCommerce snippets for Zed editor — 180 curated patterns with smart completions",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-03-18T21:20:27Z",
+    "updated_at": "2026-05-13T07:03:19Z",
+    "pushed_at": "2026-03-18T21:32:50Z",
+    "discovered_at": "2026-05-20T03:59:54.397Z",
+    "official": true,
+    "extension": {
+      "id": "woocommerce-snippets",
+      "name": "WooCommerce Snippets",
+      "description": "180 curated WooCommerce snippets — hooks, CRUD, HPOS, Block Checkout, REST API, and more",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Renzo Johnson <4695400+renzojohnson@users.noreply.github.com>"
+      ],
+      "repository": "https://github.com/renzojohnson/woocommerce-snippets",
+      "snippets": "./snippets/php.json",
+      "sections": [],
+      "categories": [
+        "snippets"
+      ]
+    }
+  },
+  "hgmich/zed-wren": {
+    "name": "hgmich/zed-wren",
+    "url": "https://github.com/hgmich/zed-wren",
+    "description": "Zed extension for Wren language support",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "Apache-2.0",
+    "created_at": "2025-08-25T02:10:28Z",
+    "updated_at": "2025-08-25T02:34:20Z",
+    "pushed_at": "2025-08-25T02:34:17Z",
+    "discovered_at": "2026-05-20T03:59:54.397Z",
+    "official": true,
+    "extension": {
+      "id": "wren",
+      "name": "Wren Language support.",
+      "description": "Syntax higlighting support for Wren",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Michael Gaver-Holmes <hgmich+noreply@users.github.com>"
+      ],
+      "repository": "https://github.com/hgmich/zed-wren",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
+      ]
+    }
+  },
+  "blocklune/zed-wxml": {
+    "name": "BlockLune/zed-wxml",
+    "url": "https://github.com/BlockLune/zed-wxml",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Scheme",
+    "license": null,
+    "created_at": "2025-08-04T11:39:24Z",
+    "updated_at": "2025-08-20T12:09:24Z",
+    "pushed_at": "2025-08-20T12:09:21Z",
+    "discovered_at": "2026-05-20T03:59:54.397Z",
+    "official": true,
+    "extension": {
+      "id": "wxml",
+      "name": "WXML",
+      "description": "WXML (WeiXin Markup Language) support for Zed.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "BlockLune <39331194+BlockLune@users.noreply.github.com>"
+      ],
+      "repository": "https://github.com/BlockLune/zed-wxml",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
+      ]
+    }
+  },
+  "algebnaly/xdr.zed": {
+    "name": "algebnaly/xdr.zed",
+    "url": "https://github.com/algebnaly/xdr.zed",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": null,
+    "created_at": "2025-03-23T06:06:46Z",
+    "updated_at": "2025-03-27T06:14:04Z",
+    "pushed_at": "2025-03-27T06:14:01Z",
+    "discovered_at": "2026-05-20T03:59:54.397Z",
+    "official": true,
+    "extension": {
+      "id": "xdr-naive",
+      "name": "XDR Syntax Highlight",
+      "description": "Syntax Highlight for XDR",
+      "version": "0.0.2",
+      "schema_version": 1,
+      "authors": [
+        "algebnaly <mail@algebnaly.com>"
+      ],
+      "repository": "https://github.com/algebnaly/xdr.zed.git",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
+      ]
+    }
+  },
+  "xmake-io/xmake-zed": {
+    "name": "xmake-io/xmake-zed",
+    "url": "https://github.com/xmake-io/xmake-zed",
+    "description": "A XMake integration in Zed Editor",
+    "stars": 14,
+    "forks": 2,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "Apache-2.0",
+    "created_at": "2026-01-21T13:39:52Z",
+    "updated_at": "2026-04-25T07:04:50Z",
+    "pushed_at": "2026-03-18T09:13:53Z",
+    "discovered_at": "2026-05-20T03:59:54.397Z",
+    "official": true,
+    "extension": {
+      "id": "xmake",
+      "name": "XMake",
+      "description": "Full-featured XMake build system support with xmake_ls language server integration, syntax highlighting, and build tasks",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Burak Aksoy ornatus_albifrons@proton.me"
+      ],
+      "repository": "https://github.com/xmake-io/xmake-zed",
+      "snippets": null,
+      "sections": [
+        "language_servers",
+        "configuration",
+        "grammars"
+      ],
+      "categories": [
+        "grammar",
+        "language-server"
+      ]
+    }
+  },
+  "sweetppro/zed-xml": {
+    "name": "sweetppro/zed-xml",
+    "url": "https://github.com/sweetppro/zed-xml",
+    "description": "XML syntax highlighting for Zed",
+    "stars": 28,
+    "forks": 12,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2024-04-19T18:28:31Z",
+    "updated_at": "2026-05-11T15:45:24Z",
+    "pushed_at": "2025-12-28T20:40:28Z",
+    "discovered_at": "2026-05-20T03:59:54.398Z",
+    "official": true,
+    "extension": {
+      "id": "xml",
+      "name": "XML",
+      "description": "XML syntax support.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "sweetppro"
+      ],
+      "repository": "https://github.com/sweetppro/zed-xml",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
+      ]
+    }
+  },
+  "edgarkanyes/yaka": {
+    "name": "edgarkanyes/yaka",
+    "url": "https://github.com/edgarkanyes/yaka",
+    "description": "A light theme for the Zed editor",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": null,
+    "created_at": "2025-01-13T13:05:25Z",
+    "updated_at": "2025-07-25T16:05:12Z",
+    "pushed_at": "2025-07-25T16:05:09Z",
+    "discovered_at": "2026-05-20T03:59:54.398Z",
+    "official": true,
+    "extension": {
+      "id": "yaka",
+      "name": "Yaka Theme",
+      "description": "A light theme for the Zed Editor",
+      "version": "0.0.4",
+      "schema_version": 1,
+      "authors": [
+        "Kanyesigye"
+      ],
+      "repository": "https://github.com/edgarkanyes/yaka",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "yxmura/yamura-zed-theme": {
+    "name": "Yxmura/yamura-zed-theme",
+    "url": "https://github.com/Yxmura/yamura-zed-theme",
+    "description": "A zed theme made by Yamura, and named after him. Consists of a Light & Dark theme made for the Zed code editor.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2025-09-20T16:36:42Z",
+    "updated_at": "2025-11-10T19:21:22Z",
+    "pushed_at": "2025-11-10T19:21:17Z",
+    "discovered_at": "2026-05-20T03:59:54.398Z",
+    "official": true,
+    "extension": {
+      "id": "yamura",
+      "name": "Yamura",
+      "description": "Beautiful theme for Zed with great eye-soothing colors",
+      "version": "0.0.2",
+      "schema_version": 1,
+      "authors": [
+        "Yamura <yxmura@proton.me>"
+      ],
+      "repository": "https://github.com/yxmura/yamura-zed-theme",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "egibs/yara.zed": {
+    "name": "egibs/yara.zed",
+    "url": "https://github.com/egibs/yara.zed",
+    "description": "Yara language extension for Zed.",
+    "stars": 1,
+    "forks": 1,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "Apache-2.0",
+    "created_at": "2024-12-11T19:23:55Z",
+    "updated_at": "2025-04-11T14:09:44Z",
+    "pushed_at": "2025-04-11T14:09:39Z",
+    "discovered_at": "2026-05-20T03:59:54.398Z",
+    "official": true,
+    "extension": {
+      "id": "yara",
+      "name": "Yara",
+      "description": "Yara syntax highlighting for Zed.",
+      "version": "0.0.4",
+      "schema_version": 1,
+      "authors": [
+        "egibs <evan@egibs.xyz>",
+        "Joakim Kennedy <joakim@intezer.com>"
+      ],
+      "repository": "https://github.com/egibs/yara.zed",
+      "snippets": null,
+      "sections": [
+        "grammars",
+        "language_servers"
+      ],
+      "categories": [
+        "grammar",
+        "language-server"
+      ]
+    }
+  },
+  "gael-lopes-da-silva/yellowedzed": {
+    "name": "Gael-Lopes-Da-Silva/YellowedZed",
+    "url": "https://github.com/Gael-Lopes-Da-Silva/YellowedZed",
+    "description": "A yellow material theme for Zed",
+    "stars": 1,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "BSD-3-Clause",
+    "created_at": "2024-11-18T13:50:13Z",
+    "updated_at": "2026-02-09T11:08:58Z",
+    "pushed_at": "2025-01-12T12:17:39Z",
+    "discovered_at": "2026-05-20T03:59:54.398Z",
+    "official": true,
+    "extension": {
+      "id": "yellowed",
+      "name": "Yellowed",
+      "description": "A yellow material theme for Zed",
+      "version": "0.0.3",
+      "schema_version": 1,
+      "authors": [
+        "Gael Lopes Da Silva <gael.lopes-da-silva@outlook.fr>"
+      ],
+      "repository": "https://github.com/gael-lopes-da-silva/YellowedZed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "theahummaitra/your-name-zed-theme": {
+    "name": "TheAhumMaitra/Your-Name-Zed-theme",
+    "url": "https://github.com/TheAhumMaitra/Your-Name-Zed-theme",
+    "description": "Your Name. theme for Zed",
+    "stars": 2,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "GPL-3.0",
+    "created_at": "2025-11-22T09:00:23Z",
+    "updated_at": "2025-11-28T18:14:03Z",
+    "pushed_at": "2025-11-28T15:29:03Z",
+    "discovered_at": "2026-05-20T03:59:54.398Z",
+    "official": true,
+    "extension": {
+      "id": "your-name-theme",
+      "name": "Your Name. Theme",
+      "description": "This theme is inspired to Your Name. anime film. Thanks!",
+      "version": "1.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Ahum Maitra <theahummaitra@gmail.com>"
+      ],
+      "repository": "https://github.com/TheAhumMaitra/Your-Name-Zed-theme",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "mikaeladev/zed-yuck": {
+    "name": "mikaeladev/zed-yuck",
+    "url": "https://github.com/mikaeladev/zed-yuck",
+    "description": "Syntax highlighting for Yuck files in Zed",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "GPL-3.0",
+    "created_at": "2026-03-08T12:15:41Z",
+    "updated_at": "2026-03-08T13:47:10Z",
+    "pushed_at": "2026-03-08T13:47:07Z",
+    "discovered_at": "2026-05-20T03:59:54.398Z",
+    "official": true,
+    "extension": {
+      "id": "yuck",
+      "name": "Yuck",
+      "description": "Syntax highlighting for yuck (eww) files",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "mikaeladev <mikaeladev@icloud.com>"
+      ],
+      "repository": "https://github.com/mikaeladev/zed-yuck",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
+      ]
+    }
+  },
+  "biaqat/yue-theme-zed": {
+    "name": "bIaqat/yue-theme-zed",
+    "url": "https://github.com/bIaqat/yue-theme-zed",
+    "description": "",
+    "stars": 5,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2024-07-19T08:40:15Z",
+    "updated_at": "2025-11-04T15:26:10Z",
+    "pushed_at": "2025-02-26T02:46:40Z",
+    "discovered_at": "2026-05-20T03:59:54.398Z",
+    "official": true,
+    "extension": {
+      "id": "yue-theme",
+      "name": "Yue Theme",
+      "description": "Theme based off the moonscript.org code examples",
+      "version": "1.2.1",
+      "schema_version": 1,
+      "authors": [
+        "blaqat <blaqat.ag@gmail.com>"
+      ],
+      "repository": "https://github.com/biaqat/yue-theme-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "frank-vdm/yugen": {
+    "name": "Frank-vdm/Yugen",
+    "url": "https://github.com/Frank-vdm/Yugen",
+    "description": "",
+    "stars": 4,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2024-09-30T14:38:16Z",
+    "updated_at": "2026-04-30T18:11:34Z",
+    "pushed_at": "2025-05-21T17:39:13Z",
+    "discovered_at": "2026-05-20T03:59:54.398Z",
+    "official": true,
+    "extension": {
+      "id": "yugen",
+      "name": "Yugen Theme",
+      "description": "Yūgen (幽玄) – A profound awareness of the universe that triggers feelings too deep and mysterious for words.",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "フランソワ <https://github.com/frank-vdm>"
+      ],
+      "repository": "https://github.com/frank-vdm/yugen",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "arne-fuchs/zabby": {
+    "name": "arne-fuchs/zabby",
+    "url": "https://github.com/arne-fuchs/zabby",
+    "description": "Tabby Integration for Zed",
+    "stars": 5,
+    "forks": 0,
+    "topics": [],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2025-10-21T13:02:36Z",
+    "updated_at": "2026-05-06T00:19:09Z",
+    "pushed_at": "2026-01-28T11:09:12Z",
+    "discovered_at": "2026-05-20T03:59:54.398Z",
+    "official": true,
+    "extension": {
+      "id": "zabby",
+      "name": "Zabby -  Tabby Integration for Zed ",
+      "description": "Tabby Integration for Zed. Go to the GitHub repo for documentation and setup.",
+      "version": "0.0.3",
+      "schema_version": 1,
+      "authors": [
+        "Arne Fuchs <arnefuchs@pm.me>"
+      ],
+      "repository": "https://github.com/arne-fuchs/zabby",
+      "snippets": null,
+      "sections": [
+        "language_servers",
+        "language-servers"
+      ],
+      "categories": [
+        "language-server"
+      ]
+    }
+  },
+  "zed-extensions/legacy-themes": {
+    "name": "zed-extensions/legacy-themes",
+    "url": "https://github.com/zed-extensions/legacy-themes",
+    "description": "Zed Legacy Themes",
+    "stars": 16,
+    "forks": 3,
+    "topics": [],
+    "language": null,
+    "license": "Apache-2.0",
+    "created_at": "2025-02-03T23:51:40Z",
+    "updated_at": "2026-05-18T22:08:18Z",
+    "pushed_at": "2026-05-18T22:08:14Z",
+    "discovered_at": "2026-05-20T03:59:54.398Z",
+    "official": true,
+    "extension": {
+      "id": "zed-legacy-themes",
+      "name": "Zed Legacy Themes",
+      "description": "Some of the legacy themes Zed shipped with initially: Andromeda, Atelier, Rosé Pine, Sandcastle, Solarized, Summercamp",
+      "version": "0.0.3",
+      "schema_version": 1,
+      "authors": [
+        "Nate Butler <iamnbutler@gmail.com>"
+      ],
+      "repository": "https://github.com/zed-extensions/legacy-themes",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "slymax/zedokai": {
+    "name": "slymax/zedokai",
+    "url": "https://github.com/slymax/zedokai",
+    "description": "a theme for Zed based on the Monokai Pro color scheme",
+    "stars": 145,
+    "forks": 12,
+    "topics": [],
+    "language": null,
+    "license": null,
+    "created_at": "2024-02-01T09:51:41Z",
+    "updated_at": "2026-05-18T16:41:40Z",
+    "pushed_at": "2026-02-01T10:14:31Z",
+    "discovered_at": "2026-05-20T03:59:54.398Z",
+    "official": true,
+    "extension": {
+      "id": "zedokai",
+      "name": "Zedokai",
+      "description": "a theme for Zed based on the Monokai Pro color scheme",
+      "version": "1.2.2",
+      "schema_version": 1,
+      "authors": [
+        "slymax <contact@slymax.com>"
+      ],
+      "repository": "https://github.com/slymax/zedokai",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "tuzemec/zedokai-darkest-machine": {
+    "name": "tuzemec/zedokai-darkest-machine",
+    "url": "https://github.com/tuzemec/zedokai-darkest-machine",
+    "description": "Zed theme based on Zedokai",
+    "stars": 7,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2025-03-14T18:37:13Z",
+    "updated_at": "2026-05-11T06:29:27Z",
+    "pushed_at": "2025-11-22T13:09:59Z",
+    "discovered_at": "2026-05-20T03:59:54.398Z",
+    "official": true,
+    "extension": {
+      "id": "zedokai-darkest-machine",
+      "name": "Zedokai Darkest Machine",
+      "description": "A theme for Zed, based on Zedokai Filter Machine",
+      "version": "0.2.0",
+      "schema_version": 1,
+      "authors": [
+        "Stamen Georgiev <tuzemec@gmail.com>"
+      ],
+      "repository": "https://github.com/tuzemec/zedokai-darkest-machine",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "someone13574/zed-adwaita-theme": {
+    "name": "someone13574/zed-adwaita-theme",
+    "url": "https://github.com/someone13574/zed-adwaita-theme",
+    "description": "Light and dark Adwaita theme for Zed",
+    "stars": 11,
+    "forks": 2,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2024-04-16T20:50:53Z",
+    "updated_at": "2026-01-23T14:09:48Z",
+    "pushed_at": "2025-08-20T12:47:03Z",
+    "discovered_at": "2026-05-20T03:59:54.398Z",
+    "official": true,
+    "extension": {
+      "id": "zedwaita",
+      "name": "Zedwaita",
+      "description": "Light and dark Adwaita theme for Zed.",
+      "version": "0.0.7",
+      "schema_version": 1,
+      "authors": [
+        "someone13574 <owenlaw222@gmail.com>"
+      ],
+      "repository": "https://github.com/someone13574/zed-adwaita-theme",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "0xorb/zeek-zed": {
+    "name": "0xORB/zeek-zed",
+    "url": "https://github.com/0xORB/zeek-zed",
+    "description": "Syntax support for Zeek for Zed",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2026-02-10T23:24:58Z",
+    "updated_at": "2026-02-11T00:40:39Z",
+    "pushed_at": "2026-02-11T00:40:35Z",
+    "discovered_at": "2026-05-20T03:59:54.398Z",
+    "official": true,
+    "extension": {
+      "id": "zeek",
+      "name": "Zeek",
+      "description": "Provides Zeek Syntax Highlighting",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Jamie Carambat"
+      ],
+      "repository": "https://github.com/0xORB/zeek-zed",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
+      ]
+    }
+  },
+  "kevincompile/zenabyssal": {
+    "name": "KevInCompile/ZenAbyssal",
+    "url": "https://github.com/KevInCompile/ZenAbyssal",
+    "description": "",
+    "stars": 11,
+    "forks": 1,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2024-09-23T17:57:40Z",
+    "updated_at": "2026-02-26T03:00:18Z",
+    "pushed_at": "2026-02-25T18:19:30Z",
+    "discovered_at": "2026-05-20T03:59:54.398Z",
+    "official": true,
+    "extension": {
+      "id": "zen-abyssal",
+      "name": "Zen Abyssal",
+      "description": "A theme you'll probably like for zed.",
+      "version": "1.4.3",
+      "schema_version": 1,
+      "authors": [
+        "KevInCompile <kevcoc10@gmail.com>"
+      ],
+      "repository": "https://github.com/KevInCompile/ZenAbyssal",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "lvignoli/zed-ziggy": {
+    "name": "lvignoli/zed-ziggy",
+    "url": "https://github.com/lvignoli/zed-ziggy",
+    "description": "Ziggy support for Zed",
+    "stars": 5,
+    "forks": 1,
+    "topics": [],
+    "language": "Rust",
+    "license": null,
+    "created_at": "2024-12-01T12:42:01Z",
+    "updated_at": "2026-04-25T11:43:25Z",
+    "pushed_at": "2025-11-16T21:18:21Z",
+    "discovered_at": "2026-05-20T03:59:54.398Z",
+    "official": true,
+    "extension": {
+      "id": "ziggy",
+      "name": "Ziggy",
+      "description": "Ziggy and ziggy schema support for Zed",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Louis Vignoli <louis.vignoli@gmail.com>"
+      ],
+      "repository": "https://github.com/lvignoli/zed-ziggy",
+      "snippets": null,
+      "sections": [
+        "grammars",
+        "language_servers"
+      ],
+      "categories": [
+        "grammar",
+        "language-server"
+      ]
+    }
+  },
+  "srivtx/zk-zed": {
+    "name": "srivtx/zk-zed",
+    "url": "https://github.com/srivtx/zk-zed",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2026-01-20T19:17:31Z",
+    "updated_at": "2026-01-20T19:34:59Z",
+    "pushed_at": "2026-01-20T19:34:54Z",
+    "discovered_at": "2026-05-20T03:59:54.398Z",
+    "official": true,
+    "extension": {
+      "id": "zk",
+      "name": "zk",
+      "description": "Zettelkasten note-taking assistant with language server support for Markdown",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "srivtx <srivtx@users.noreply.github.com>"
+      ],
+      "repository": "https://github.com/srivtx/zk-zed",
+      "snippets": null,
+      "sections": [
+        "language_servers"
+      ],
+      "categories": [
+        "language-server"
+      ]
+    }
+  },
+  "nikitapashinsky/zoegi-theme": {
+    "name": "nikitapashinsky/zoegi-theme",
+    "url": "https://github.com/nikitapashinsky/zoegi-theme",
+    "description": "A port of Moegi theme for Zed",
+    "stars": 6,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2025-08-21T09:55:37Z",
+    "updated_at": "2026-02-04T10:32:39Z",
+    "pushed_at": "2025-09-06T19:34:49Z",
+    "discovered_at": "2026-05-20T03:59:54.398Z",
+    "official": true,
+    "extension": {
+      "id": "zoegi-theme",
+      "name": "Zoegi Theme",
+      "description": "A port of Moegi theme for Zed. Light and dark variants.",
+      "version": "0.4.3",
+      "schema_version": 1,
+      "authors": [
+        "Nikita Pashinsky <n@nkta.me>"
+      ],
+      "repository": "https://github.com/nikitapashinsky/zoegi-theme",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "threonyl/zed-zokrates": {
+    "name": "threonyl/zed-zokrates",
+    "url": "https://github.com/threonyl/zed-zokrates",
+    "description": "Zed support for ZoKrates language.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2025-11-27T13:00:04Z",
+    "updated_at": "2025-11-27T13:48:59Z",
+    "pushed_at": "2025-11-27T13:47:09Z",
+    "discovered_at": "2026-05-20T03:59:54.398Z",
+    "official": true,
+    "extension": {
+      "id": "zokrates",
+      "name": "ZoKrates",
+      "description": "ZoKrates language support for Zed",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "threonyl <83128427+threonyl@users.noreply.github.com>"
+      ],
+      "repository": "https://github.com/threonyl/zokrates-zed",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
+      ]
+    }
+  },
+  "alinayreez/zomorrod-theme": {
+    "name": "alinayreez/zomorrod-theme",
+    "url": "https://github.com/alinayreez/zomorrod-theme",
+    "description": "A (cool af) zed IDE theme",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2025-12-26T17:31:06Z",
+    "updated_at": "2025-12-28T17:45:56Z",
+    "pushed_at": "2025-12-28T17:45:52Z",
+    "discovered_at": "2026-05-20T03:59:54.398Z",
+    "official": true,
+    "extension": {
+      "id": "zomorrod-theme",
+      "name": "Zomorrod",
+      "description": "A visually appealing cool theme",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Ali Nayreez alinayreez@gmail.com"
+      ],
+      "repository": "https://github.com/AliNayreez/zomorrod-theme",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "diogopereiradev/zord-theme": {
+    "name": "diogopereiradev/zord-theme",
+    "url": "https://github.com/diogopereiradev/zord-theme",
+    "description": "A modern and minimalistic dark theme for the Zed editor, focused on visual comfort, balanced contrast, and a color palette inspired by Dracula, with its own strong identity.",
+    "stars": 3,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-01-27T15:40:13Z",
+    "updated_at": "2026-02-26T21:10:06Z",
+    "pushed_at": "2026-02-24T17:37:56Z",
+    "discovered_at": "2026-05-20T03:59:54.398Z",
+    "official": true,
+    "extension": {
+      "id": "zord-theme",
+      "name": "Zord Theme",
+      "description": "A modern and minimalistic dark theme for the Zed editor, focused on visual comfort, balanced contrast, and a color palette inspired by Dracula, with its own strong identity.",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "authors": [
+        "Diogo Pereira <contact@diogopereira.dev>"
+      ],
+      "repository": "https://github.com/diogopereiradev/zord-theme",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "cmll/zed_zuban": {
+    "name": "CMLL/zed_zuban",
+    "url": "https://github.com/CMLL/zed_zuban",
+    "description": "Zed extension for Zuban language server",
+    "stars": 4,
+    "forks": 0,
+    "topics": [],
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "created_at": "2025-09-05T02:57:56Z",
+    "updated_at": "2026-05-16T22:26:33Z",
+    "pushed_at": "2025-09-05T03:01:43Z",
+    "discovered_at": "2026-05-20T03:59:54.398Z",
+    "official": true,
+    "extension": {
+      "id": "zuban",
+      "name": "Zuban",
+      "description": "Language Server for ZubanLS",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Carlos Llamacho <llamacholancho@gmail.com>"
+      ],
+      "repository": "https://github.com/CMLL/zed_zuban",
+      "snippets": null,
+      "sections": [
+        "language_servers"
+      ],
+      "categories": [
+        "language-server"
+      ]
+    }
   }
 }

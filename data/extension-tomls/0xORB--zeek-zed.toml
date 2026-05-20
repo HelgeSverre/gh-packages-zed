@@ -1,0 +1,11 @@
+id = "zeek"
+name = "Zeek"
+version = "0.0.1"
+schema_version = 1
+authors = ["Jamie Carambat"]
+description = "Provides Zeek Syntax Highlighting"
+repository = "https://github.com/0xORB/zeek-zed"
+
+[grammars.zeek]
+repository = "https://github.com/zeek/tree-sitter-zeek"
+commit = "a51c076339c822356fb66e863daff48e7f0e9ca0"

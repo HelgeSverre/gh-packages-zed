@@ -1,0 +1,9 @@
+id = "woocommerce-snippets"
+name = "WooCommerce Snippets"
+version = "0.1.0"
+schema_version = 1
+authors = ["Renzo Johnson <4695400+renzojohnson@users.noreply.github.com>"]
+description = "180 curated WooCommerce snippets — hooks, CRUD, HPOS, Block Checkout, REST API, and more"
+repository = "https://github.com/renzojohnson/woocommerce-snippets"
+
+snippets = "./snippets/php.json"

@@ -1,0 +1,11 @@
+id = "wren"
+name = "Wren Language support."
+version = "0.0.1"
+schema_version = 1
+authors = ["Michael Gaver-Holmes <hgmich+noreply@users.github.com>"]
+description = "Syntax higlighting support for Wren"
+repository = "https://github.com/hgmich/zed-wren"
+
+[grammars.wren]
+repository = "https://github.com/hgmich/wren-tree-sitter"
+rev = "2652be33ae75e77ebfd1f37af46070c7f5313f72"

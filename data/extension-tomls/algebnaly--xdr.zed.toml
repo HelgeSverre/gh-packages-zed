@@ -1,0 +1,11 @@
+id = "xdr-naive"
+name = "XDR Syntax Highlight"
+version = "0.0.2"
+schema_version = 1
+authors = ["algebnaly <mail@algebnaly.com>"]
+description = "Syntax Highlight for XDR"
+repository = "https://github.com/algebnaly/xdr.zed.git"
+
+[grammars.naive_xdr]
+repository = "https://github.com/algebnaly/tree_sitter_naive_xdr.git"
+rev = "7308244bdad8bf4c42e431e9198f36aa392f4adc"

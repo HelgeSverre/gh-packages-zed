@@ -1,0 +1,488 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>XMake - Zed Extension Safari</title><meta name="description" content="A XMake integration in Zed Editor"><link rel="canonical" href="https://helgesverre.github.io/gh-packages-zed/package/xmake-io/xmake-zed/"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="XMake - Zed Extension Safari"><meta property="og:description" content="A XMake integration in Zed Editor"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed/package/xmake-io/xmake-zed/"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="XMake - Zed Extension Safari"><meta name="twitter:description" content="A XMake integration in Zed Editor"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/gh-packages-zed/_astro/ClientRouter.astro_astro_type_script_index_0_lang.ClVLs1kt.js"></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"XMake","description":"A XMake integration in Zed Editor","applicationCategory":"DeveloperApplication","operatingSystem":"macOS, Linux, Windows","url":"https://zed.dev/extensions/xmake","codeRepository":"https://github.com/xmake-io/xmake-zed","author":[{"@type":"Person","name":"Burak Aksoy ornatus_albifrons@proton.me"}],"softwareVersion":"0.1.0","license":"Apache-2.0","keywords":"grammar, language-server","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.De4IDLU_.css"><script type="module" src="/gh-packages-zed/_astro/page.B8i1Zz-u.js"></script></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" data-astro-transition-persist="astro-mnal4lm5-1"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> xmake-io/xmake-zed </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> XMake </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> Full-featured XMake build system support with xmake_ls language server integration, syntax highlighting, and build tasks </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="grammar">Grammar</span><span class="cat-badge" data-cat="language-server">Language Server</span> </div> </div> </div> </header> <main class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/xmake" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/xmake-io/xmake-zed" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.1.0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">xmake</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">Tree-sitter Query</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">Apache-2.0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">14</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">3/18/2026</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">Burak Aksoy ornatus_albifrons@proton.me</dd> </div> </dl>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><div align="center">
+  <a href="https://xmake.io">
+    <img width="200" src="https://github.com/xmake-io/xmake-idea/raw/master/res/logo256.png">
+  </a>
+  <h1 id="user-content-xmake-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#xmake-zed"><span class="heading-anchor-icon">#</span></a>xmake-zed</h1>
+  <div>
+    <a href="https://github.com/xmake-io/xmake-zed/blob/main/LICENSE.md">
+      <img src="https://img.shields.io/github/license/xmake-io/xmake-zed.svg?colorB=f48041&#x26;style=flat-square" alt="license">
+    </a>
+    <a href="https://www.reddit.com/r/xmake/">
+      <img src="https://img.shields.io/badge/chat-on%20reddit-ff3f34.svg?style=flat-square" alt="Reddit">
+    </a>
+    <a href="https://t.me/tbooxorg">
+      <img src="https://img.shields.io/badge/chat-on%20telegram-blue.svg?style=flat-square" alt="Telegram">
+    </a>
+    <a href="https://jq.qq.com/?_wv=1027&#x26;k=5hpwWFv">
+      <img src="https://img.shields.io/badge/chat-on%20QQ-ff69b4.svg?style=flat-square" alt="QQ">
+    </a>
+    <a href="https://discord.gg/xmake">
+      <img src="https://img.shields.io/badge/chat-on%20discord-7289da.svg?style=flat-square" alt="Discord">
+    </a>
+    <a href="https://xmake.io/about/sponsor">
+      <img src="https://img.shields.io/badge/donate-us-orange.svg?style=flat-square" alt="Donate">
+    </a>
+  </div>
+  <p>XMake integration for Zed editor</p>
+</div>
+<h2 id="user-content-introduction"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#introduction"><span class="heading-anchor-icon">#</span></a>Introduction</h2>
+<p>A XMake integration for Zed editor with automatic LSP installation, comprehensive syntax highlighting, and build tasks.</p>
+<p>It is deeply integrated with <a href="https://github.com/xmake-io/xmake">xmake</a> and Zed editor to provide a convenient and fast cross-platform c/c++ development and building.</p>
+<p>You need install <a href="https://github.com/xmake-io/xmake">xmake</a> first and a project with <code>xmake.lua</code>.</p>
+<p>Please see <a href="https://github.com/xmake-io/xmake">xmake-github</a> and <a href="https://xmake.io">website</a> if you want to known more about xmake.</p>
+<h2 id="user-content-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features"><span class="heading-anchor-icon">#</span></a>Features</h2>
+<ul>
+<li>
+<p>Language Server (xmake_ls)</p>
+</li>
+<li>
+<p>Syntax Highlighting (300+ functions)</p>
+</li>
+<li>
+<p>Code Intelligence</p>
+</li>
+<li>
+<p>Symbol Navigation</p>
+</li>
+<li>
+<p>Project Templates</p>
+</li>
+<li>
+<p><strong>Full LSP Integration</strong>: Complete language server support via <a href="https://github.com/CppCXY/xmake_ls">xmake_ls</a></p>
+</li>
+<li>
+<p><strong>Auto-completion</strong>: Intelligent code completion for XMake APIs</p>
+</li>
+<li>
+<p><strong>Diagnostics</strong>: Real-time error detection and warnings</p>
+</li>
+<li>
+<p><strong>Hover Information</strong>: Documentation on hover</p>
+</li>
+<li>
+<p><strong>Code Actions</strong>: Quick fixes and refactoring support</p>
+</li>
+<li>
+<p><strong>Go to Definition</strong>: Navigate to symbol definitions</p>
+</li>
+<li>
+<p><strong>Find References</strong>: Locate all usages of symbols</p>
+</li>
+<li>
+<p><strong>Document Symbols</strong>: Outline of targets, options, rules, tasks</p>
+</li>
+<li>
+<p><strong>Workspace Symbols</strong>: Search across all xmake.lua files</p>
+</li>
+<li>
+<p><strong>Formatting</strong>: Document and range formatting support</p>
+</li>
+</ul>
+<h2 id="user-content-syntax-highlighting-300-functions"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#syntax-highlighting-300-functions"><span class="heading-anchor-icon">#</span></a>Syntax Highlighting (300+ functions)</h2>
+<ul>
+<li><strong>Target APIs</strong>: target, set_kind, set_version, set_description, set_default</li>
+<li><strong>File APIs</strong>: add_files, add_headerfiles, add_installfiles, remove_files</li>
+<li><strong>Include APIs</strong>: add_includedirs, add_sysincludedirs, add_defines, add_undefines</li>
+<li><strong>Linking APIs</strong>: add_links, add_linkdirs, add_syslinks, add_frameworks, add_deps</li>
+<li><strong>Compiler APIs</strong>: add_cflags, add_cxxflags, add_ldflags, set_warnings, set_optimize</li>
+<li><strong>Rule APIs</strong>: add_rules, rule, on_load, on_build, before_build, after_build</li>
+<li><strong>Option APIs</strong>: option, add_options, set_default, set_showmenu</li>
+<li><strong>Package APIs</strong>: add_requires, add_packages, add_repositories, add_requireconfs</li>
+<li><strong>Task APIs</strong>: task, on_run, set_menu</li>
+<li><strong>Utility APIs</strong>: is_plat, is_arch, is_mode, is_host, has_config, get_config</li>
+<li><strong>Global Modules</strong>: os, path, string, table, math, io, debug, coroutine, hash, utils</li>
+</ul>
+<h2 id="user-content-platform-support"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#platform-support"><span class="heading-anchor-icon">#</span></a>Platform Support</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Platform</th><th>Architecture</th><th>Auto-Install</th></tr></thead><tbody><tr><td>macOS</td><td>ARM64 (Apple Silicon)</td><td>✅</td></tr><tr><td>macOS</td><td>x64 (Intel)</td><td>✅</td></tr><tr><td>Linux</td><td>x64</td><td>✅</td></tr><tr><td>Linux</td><td>ARM64</td><td>✅</td></tr><tr><td>Linux</td><td>RISC-V</td><td>✅ (musl)</td></tr><tr><td>Windows</td><td>x64</td><td>✅</td></tr><tr><td>Windows</td><td>ARM64</td><td>✅</td></tr><tr><td>Windows</td><td>x86 (32-bit)</td><td>✅</td></tr></tbody></table>
+<h2 id="user-content-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation"><span class="heading-anchor-icon">#</span></a>Installation</h2>
+<ol>
+<li>
+<p><strong>Install Lua Extension</strong> (required for syntax highlighting)</p>
+<ul>
+<li>Press <code>Cmd+Shift+X</code> → Search "Lua" → Install</li>
+<li>xmake.lua files use Lua syntax, so this grammar is needed</li>
+</ul>
+</li>
+<li>
+<p><strong>Install XMake Extension</strong></p>
+<ul>
+<li>Press <code>Cmd+Shift+X</code> (macOS) or <code>Ctrl+Shift+X</code> (Linux/Windows)</li>
+<li>Search for "XMake"</li>
+<li>Click Install</li>
+</ul>
+</li>
+</ol>
+<p>The XMake extension will automatically download and install the xmake_ls language server when you open an <code>xmake.lua</code> file.</p>
+<h2 id="user-content-quick-start-creating-projects"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#quick-start-creating-projects"><span class="heading-anchor-icon">#</span></a>Quick Start: Creating Projects</h2>
+<p>Create new xmake projects using the built-in tasks:</p>
+<ol>
+<li>Open Command Palette (<code>Cmd+Shift+P</code> / <code>Ctrl+Shift+P</code>)</li>
+<li>Type "Tasks: Run Task"</li>
+<li>Select "xmake: Create project help" to see available options</li>
+</ol>
+<p>Example:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># C++ console project</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">xmake</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> create</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -l</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> c++</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -t</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> console</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> myproject</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Rust static library</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">xmake</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> create</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -l</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> rust</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -t</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> static</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> mylib</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Zig shared library</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">xmake</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> create</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -l</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> zig</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -t</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> shared</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> mylib</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Qt widget application</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">xmake</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> create</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -l</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> c++</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -t</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> qt.widgetapp</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> myapp</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># iOS app</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">xmake</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> create</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -l</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> objc</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -t</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> xcode.iosapp</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> myapp</span></span></code></pre>
+<h2 id="user-content-supported-languages-15"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#supported-languages-15"><span class="heading-anchor-icon">#</span></a>Supported Languages (15)</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Language</th><th>Console</th><th>Static</th><th>Shared</th><th>Module</th></tr></thead><tbody><tr><td>C</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr><tr><td>C++</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr><tr><td>Rust</td><td>✅</td><td>✅</td><td>❌</td><td>❌</td></tr><tr><td>Zig</td><td>✅</td><td>✅</td><td>✅</td><td>❌</td></tr><tr><td>Go</td><td>✅</td><td>✅</td><td>❌</td><td>❌</td></tr><tr><td>D Language</td><td>✅</td><td>✅</td><td>✅</td><td>❌</td></tr><tr><td>CUDA</td><td>✅</td><td>✅</td><td>✅</td><td>❌</td></tr><tr><td>Swift</td><td>✅</td><td>❌</td><td>❌</td><td>❌</td></tr><tr><td>Fortran</td><td>✅</td><td>✅</td><td>✅</td><td>❌</td></tr><tr><td>Objective-C</td><td>✅</td><td>❌</td><td>❌</td><td>❌</td></tr><tr><td>Objective-C++</td><td>✅</td><td>❌</td><td>❌</td><td>❌</td></tr><tr><td>Nim</td><td>✅</td><td>✅</td><td>✅</td><td>❌</td></tr><tr><td>Kotlin</td><td>✅</td><td>✅</td><td>✅</td><td>❌</td></tr><tr><td>Vala</td><td>✅</td><td>✅</td><td>✅</td><td>❌</td></tr><tr><td>Pascal</td><td>✅</td><td>✅</td><td>✅</td><td>❌</td></tr></tbody></table>
+<h2 id="user-content-project-templates-25"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#project-templates-25"><span class="heading-anchor-icon">#</span></a>Project Templates (25+)</h2>
+<ul>
+<li><strong>Console</strong>: Basic executable projects</li>
+<li><strong>Static Library</strong>: .a / .lib files</li>
+<li><strong>Shared Library</strong>: .so / .dylib / .dll files</li>
+<li><strong>Module</strong>: C/C++ module binaries</li>
+<li><strong>Qt</strong>: Console, Quick App, Widget App (static/shared variants)</li>
+<li><strong>TBOX</strong>: Console, Static, Shared library projects</li>
+<li><strong>wxWidgets</strong>: Desktop GUI applications</li>
+<li><strong>Xcode</strong>: Bundle, Framework, macOS App, iOS App</li>
+<li><strong>XMake CLI</strong>: Command-line tool projects</li>
+</ul>
+<h2 id="user-content-configuration"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#configuration"><span class="heading-anchor-icon">#</span></a>Configuration</h2>
+<h3 id="user-content-using-system-installed-xmake_ls"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#using-system-installed-xmake_ls"><span class="heading-anchor-icon">#</span></a>Using System-Installed xmake_ls</h3>
+<p>If you already have <code>xmake_ls</code> installed via your package manager or built from source, the extension will automatically detect and use it from your PATH.</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Example: Install from source</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> install</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --git</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> https://github.com/CppCXY/xmake_ls</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> xmake_ls</span></span></code></pre>
+<h3 id="user-content-custom-binary-path"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#custom-binary-path"><span class="heading-anchor-icon">#</span></a>Custom Binary Path</h3>
+<p>Override the binary location in your Zed settings (<code>~/.config/zed/settings.json</code>):</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "xmake-ls"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "binary"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "path"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"/custom/path/to/xmake_ls"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h3 id="user-content-linux-variant-selection"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#linux-variant-selection"><span class="heading-anchor-icon">#</span></a>Linux Variant Selection</h3>
+<p>Linux users can choose their preferred binary variant. Add to your Zed settings:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "xmake-ls"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "linux_variant"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"musl"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h4 id="user-content-available-linux-variants"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#available-linux-variants"><span class="heading-anchor-icon">#</span></a>Available Linux Variants</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Variant</th><th>Description</th><th>Best For</th></tr></thead><tbody><tr><td><code>x64-glibc.2.17</code></td><td>Default for x86_64</td><td>Ubuntu 16.04+, Debian 8+, RHEL/CentOS 7+</td></tr><tr><td><code>x64</code></td><td>Newer glibc</td><td>Recent distros (Ubuntu 20.04+, Fedora 30+)</td></tr><tr><td><code>aarch64-glibc.2.17</code></td><td>Default for ARM64</td><td>ARM-based servers, Raspberry Pi 3+</td></tr><tr><td><code>musl</code></td><td>Alpine Linux libc</td><td>Alpine Linux, embedded systems, containers</td></tr><tr><td><code>riscv64</code></td><td>RISC-V architecture</td><td>RISC-V hardware</td></tr></tbody></table>
+<p><strong>Variant Selection Guide:</strong></p>
+<ul>
+<li><strong>Don't know?</strong> Use default (auto-selected based on architecture)</li>
+<li><strong>Alpine Linux, containers:</strong> Use <code>musl</code></li>
+<li><strong>Older distros:</strong> Use <code>*-glibc.2.17</code> variants</li>
+<li><strong>Latest distros:</strong> Use <code>x64</code> or <code>aarch64</code></li>
+</ul>
+<h2 id="user-content-binary-detection-priority"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#binary-detection-priority"><span class="heading-anchor-icon">#</span></a>Binary Detection Priority</h2>
+<p>The extension checks for xmake_ls in the following order:</p>
+<ol>
+<li><strong>Custom path</strong> from Zed settings (highest priority)</li>
+<li><strong>System installation</strong> via PATH (<code>which xmake_ls</code>)</li>
+<li><strong>Cached download</strong> from previous extension installation</li>
+<li><strong>Auto-download</strong> from GitHub releases (with platform/variant detection)</li>
+</ol>
+<h2 id="user-content-troubleshooting"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#troubleshooting"><span class="heading-anchor-icon">#</span></a>Troubleshooting</h2>
+<h3 id="user-content-view-extension-logs"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#view-extension-logs"><span class="heading-anchor-icon">#</span></a>View Extension Logs</h3>
+<p>Run Zed from the terminal to see detailed logs:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">zed</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --foreground</span></span></code></pre>
+<h3 id="user-content-force-re-download"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#force-re-download"><span class="heading-anchor-icon">#</span></a>Force Re-download</h3>
+<p>Remove the cached binary to trigger a fresh download:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># macOS/Linux</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">rm</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -rf</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> ~/.local/share/zed/extensions/xmake/</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Windows</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">Remove-Item</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -Recurse</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -Force</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> "</span><span style="color:#24292E;--shiki-dark:#E1E4E8">$env</span><span style="color:#032F62;--shiki-dark:#9ECBFF">:LOCALAPPDATA\Zed\extensions\xmake"</span></span></code></pre>
+<h3 id="user-content-language-server-not-starting"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#language-server-not-starting"><span class="heading-anchor-icon">#</span></a>Language Server Not Starting</h3>
+<ol>
+<li>
+<p>Verify xmake_ls is executable:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">xmake_ls</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --version</span></span></code></pre>
+</li>
+<li>
+<p>Check Zed's language server status:</p>
+<ul>
+<li>Open Command Palette (<code>Cmd+Shift+P</code> / <code>Ctrl+Shift+P</code>)</li>
+<li>Type "Zed: Open Log"</li>
+<li>Look for xmake_ls errors</li>
+</ul>
+</li>
+<li>
+<p>Try manual installation:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Download for your platform from:</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># https://github.com/CppCXY/xmake_ls/releases/latest</span></span></code></pre>
+</li>
+</ol>
+<h3 id="user-content-linux-wrong-binary-variant"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#linux-wrong-binary-variant"><span class="heading-anchor-icon">#</span></a>Linux: Wrong Binary Variant</h3>
+<p>If you're getting glibc version errors, explicitly set your variant:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "xmake-ls"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "linux_variant"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"musl"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h2 id="user-content-how-to-contribute"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#how-to-contribute"><span class="heading-anchor-icon">#</span></a>How to contribute?</h2>
+<p>Please see <a href="https://github.com/xmake-io/xmake-zed/blob/HEAD/CONTRIBUTING.md" target="_blank" rel="noopener">CONTRIBUTING</a> for details.</p>
+<h2 id="user-content-resources"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#resources"><span class="heading-anchor-icon">#</span></a>Resources</h2>
+<ul>
+<li><a href="https://xmake.io">XMake Documentation</a></li>
+<li><a href="https://github.com/CppCXY/xmake_ls">xmake_ls Language Server</a></li>
+<li><a href="https://zed.dev/docs/extensions">Zed Extension API</a></li>
+<li><a href="https://xmake.io/guide/basic-commands/create-project.html">XMake Create Command</a></li>
+</ul>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>Apache License 2.0 - See <a href="https://github.com/xmake-io/xmake-zed/blob/HEAD/LICENSE.md" target="_blank" rel="noopener">LICENSE</a> for details.</p>
+<h2 id="user-content-acknowledgments"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#acknowledgments"><span class="heading-anchor-icon">#</span></a>Acknowledgments</h2>
+<ul>
+<li><a href="https://xmake.io">XMake</a> build system by Ruki Wang</li>
+<li><a href="https://github.com/CppCXY/xmake_ls">xmake_ls</a> language server by CppCXY</li>
+<li><a href="https://zed.dev">Zed</a> editor team</li>
+</ul></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>
