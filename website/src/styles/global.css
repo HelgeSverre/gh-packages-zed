@@ -11,7 +11,7 @@
   --zed-blue: #4482f8;
   --zed-blue-deep: #084ccf;
   --zed-blue-pale: #dae4f8;
-  --zed-muted: #6b7280;
+  --zed-muted: #5f6772;
   --zed-text-muted: #4f5b6b;
   --zed-text: #1b1e23;
   --zed-ring: #4482f8;
@@ -22,6 +22,12 @@
   --zed-shiki-bg: #ffffff;
   --zed-card-shadow: 0 18px 48px -38px rgba(27, 30, 35, 0.45);
   --zed-slideout-shadow: -24px 0 64px -16px rgba(27, 30, 35, 0.26);
+  /* Accent surfaces: filled buttons, brand band. Dark in both modes for
+     white text to retain WCAG AA contrast. */
+  --zed-accent-bg: #084ccf;
+  --zed-accent-bg-hover: #4482f8;
+  --zed-accent-fg: #ffffff;
+  --zed-on-accent-muted: #dae4f8;
   color-scheme: light;
 }
 
@@ -35,7 +41,7 @@ html[data-theme="dark"] {
   --zed-blue: #79b8ff;
   --zed-blue-deep: #9ecbff;
   --zed-blue-pale: rgba(120, 170, 255, 0.16);
-  --zed-muted: #7a8290;
+  --zed-muted: #9099a8;
   --zed-text-muted: #b3bccb;
   --zed-text: #e6ebf2;
   --zed-ring: #79b8ff;
@@ -45,6 +51,10 @@ html[data-theme="dark"] {
   --zed-shiki-bg: #0d1117;
   --zed-card-shadow: 0 18px 48px -32px rgba(0, 0, 0, 0.7);
   --zed-slideout-shadow: -24px 0 64px -16px rgba(0, 0, 0, 0.55);
+  --zed-accent-bg: #1f5cd9;
+  --zed-accent-bg-hover: #4482f8;
+  --zed-accent-fg: #ffffff;
+  --zed-on-accent-muted: #e0e9ff;
   color-scheme: dark;
 }
 
@@ -78,8 +88,8 @@ summary:focus-visible,
 /* Button & control utilities — consistent hover/active feedback              */
 /* -------------------------------------------------------------------------- */
 .zed-btn-primary {
-  background: var(--zed-blue-deep);
-  color: white;
+  background: var(--zed-accent-bg);
+  color: var(--zed-accent-fg);
   border: 1px solid rgba(255, 255, 255, 0.2);
   transition:
     background 140ms,
@@ -87,7 +97,7 @@ summary:focus-visible,
     box-shadow 140ms;
 }
 .zed-btn-primary:hover {
-  background: var(--zed-blue);
+  background: var(--zed-accent-bg-hover);
   box-shadow: 0 8px 24px -18px rgba(8, 76, 207, 0.8);
 }
 .zed-btn-primary:active {
@@ -137,8 +147,8 @@ summary:focus-visible,
 }
 
 .zed-blue-band {
-  background: var(--zed-blue-deep);
-  color: white;
+  background: var(--zed-accent-bg);
+  color: var(--zed-accent-fg);
 }
 
 .cmd-input {
@@ -665,9 +675,9 @@ html[data-theme="dark"] .cat-badge[data-cat="snippets"] {
   border-color: var(--zed-border-strong);
 }
 .cat-toggle.active {
-  background: var(--zed-blue-deep);
-  color: white;
-  border-color: var(--zed-blue-deep);
+  background: var(--zed-accent-bg);
+  color: var(--zed-accent-fg);
+  border-color: var(--zed-accent-bg);
 }
 .cat-toggle-count {
   font-size: 0.7rem;
@@ -678,8 +688,8 @@ html[data-theme="dark"] .cat-badge[data-cat="snippets"] {
   font-weight: 400;
 }
 .cat-toggle.active .cat-toggle-count {
-  color: white;
-  background: rgba(255, 255, 255, 0.18);
+  color: var(--zed-accent-bg);
+  background: rgba(255, 255, 255, 0.95);
 }
 .cat-toggle:focus-visible {
   outline: 2px solid var(--zed-ring);

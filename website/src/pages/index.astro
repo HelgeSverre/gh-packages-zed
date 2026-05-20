@@ -83,8 +83,8 @@ function timeAgo(dateString: string | undefined): string {
                         <dt class="text-xs uppercase font-mono" style="color:var(--zed-muted);">Updated</dt>
                         <dd class="mt-2 text-2xl font-semibold" style="color:var(--zed-text);">{timeAgo(stats.last_run)}</dd>
                     </div>
-                    <div class="col-span-2 p-4" style="background:var(--zed-blue-deep);color:white;">
-                        <dt class="text-xs uppercase font-mono" style="color:var(--zed-blue-pale);">Coverage</dt>
+                    <div class="col-span-2 p-4" style="background:var(--zed-accent-bg);color:var(--zed-accent-fg);">
+                        <dt class="text-xs uppercase font-mono" style="color:var(--zed-on-accent-muted);">Coverage</dt>
                         <dd class="mt-2 text-sm">
                             Extension manifests, README previews, categories, versions, authors and repository metadata.
                         </dd>
@@ -103,7 +103,7 @@ function timeAgo(dateString: string | undefined): string {
     <footer class="mt-auto zed-blue-band">
         <div
                 class="max-w-7xl mx-auto px-4 py-6 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm"
-                style="color:var(--zed-blue-pale);"
+                style="color:var(--zed-on-accent-muted);"
         >
             <p>Updated {timeAgo(stats.last_run)} · Pulls from GitHub every 6 hours</p>
             <p>

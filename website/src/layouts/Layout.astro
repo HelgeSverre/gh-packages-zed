@@ -36,9 +36,13 @@ const {title, description} = Astro.props;
     <script is:inline>
         (function () {
             try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
                 var stored = localStorage.getItem('zed-theme');
                 var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-                var theme = stored || (prefersDark ? 'dark' : 'light');
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
                 document.documentElement.setAttribute('data-theme', theme);
             } catch (e) {
                 document.documentElement.setAttribute('data-theme', 'light');
