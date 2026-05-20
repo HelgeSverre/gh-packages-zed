@@ -2,22 +2,25 @@
   "helgesverre/zed-applescript": {
     "name": "HelgeSverre/zed-applescript",
     "url": "https://github.com/HelgeSverre/zed-applescript",
-    "description": "(WIP) AppleScript language support for Zed editor",
+    "description": "AppleScript for Zed — syntax highlighting, outline, runnables, language injection. Powered by a custom tree-sitter grammar.",
     "stars": 1,
     "forks": 0,
     "topics": [
       "applescript",
+      "automation",
       "macos",
+      "osascript",
       "syntax-highlighting",
       "tree-sitter",
       "zed",
+      "zed-editor",
       "zed-extension"
     ],
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2025-12-31T19:00:50Z",
-    "updated_at": "2026-05-20T03:30:04Z",
-    "pushed_at": "2026-05-20T03:30:04Z",
+    "updated_at": "2026-05-20T05:50:52Z",
+    "pushed_at": "2026-05-20T05:50:48Z",
     "discovered_at": "2026-05-19T19:19:12.408Z",
     "official": false
   },
@@ -49,8 +52,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-04-17T01:34:39Z",
-    "updated_at": "2026-05-20T01:48:10Z",
-    "pushed_at": "2026-05-20T01:48:07Z",
+    "updated_at": "2026-05-20T05:35:03Z",
+    "pushed_at": "2026-05-20T05:35:00Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -3046,7 +3049,7 @@
     "name": "huacnlee/color-lsp",
     "url": "https://github.com/huacnlee/color-lsp",
     "description": "A document color language server.",
-    "stars": 48,
+    "stars": 49,
     "forks": 13,
     "topics": [
       "color",
@@ -3058,7 +3061,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2025-06-26T06:38:01Z",
-    "updated_at": "2026-05-18T16:41:12Z",
+    "updated_at": "2026-05-20T05:00:42Z",
     "pushed_at": "2026-02-10T03:40:52Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -3735,7 +3738,7 @@
     "name": "huacnlee/zed-autocorrect",
     "url": "https://github.com/huacnlee/zed-autocorrect",
     "description": "AutoCorrect for Zed",
-    "stars": 7,
+    "stars": 8,
     "forks": 2,
     "topics": [
       "autocorrect",
@@ -3748,7 +3751,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2024-05-22T11:40:51Z",
-    "updated_at": "2026-05-13T12:20:27Z",
+    "updated_at": "2026-05-20T05:00:32Z",
     "pushed_at": "2025-12-10T14:34:45Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -5377,7 +5380,7 @@
     "name": "x6nux/zed-globalization",
     "url": "https://github.com/x6nux/zed-globalization",
     "description": "Zed 编辑器汉化版 / 中文版 / 多语言版 — AI 驱动全自动翻译构建，支持简繁中文/日语/韩语 | Zed Editor Localized with AI-powered translation pipeline",
-    "stars": 428,
+    "stars": 431,
     "forks": 11,
     "topics": [
       "ai-translation",
@@ -5404,8 +5407,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-02-09T17:57:21Z",
-    "updated_at": "2026-05-20T02:04:20Z",
-    "pushed_at": "2026-05-19T07:38:33Z",
+    "updated_at": "2026-05-20T05:50:38Z",
+    "pushed_at": "2026-05-20T05:27:54Z",
     "discovered_at": "2026-05-19T19:54:12.053Z",
     "official": false
   },
@@ -5460,7 +5463,7 @@
     "name": "sonercirit/zed-windows-stable",
     "url": "https://github.com/sonercirit/zed-windows-stable",
     "description": "automated windows builds for Zed code editor, built from source, stable channel",
-    "stars": 232,
+    "stars": 231,
     "forks": 9,
     "topics": [
       "code-editor",
@@ -5473,7 +5476,7 @@
     "language": "PowerShell",
     "license": null,
     "created_at": "2024-08-14T22:46:54Z",
-    "updated_at": "2026-05-20T01:18:13Z",
+    "updated_at": "2026-05-20T05:13:49Z",
     "pushed_at": "2026-05-20T01:18:10Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
@@ -6391,8 +6394,8 @@
     "language": "Lua",
     "license": "GPL-3.0",
     "created_at": "2021-07-29T01:24:02Z",
-    "updated_at": "2026-05-20T00:55:17Z",
-    "pushed_at": "2026-05-20T00:55:13Z",
+    "updated_at": "2026-05-20T04:38:42Z",
+    "pushed_at": "2026-05-20T04:38:39Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
   },
@@ -6748,7 +6751,7 @@
     "name": "wnkz/monoglow.nvim",
     "url": "https://github.com/wnkz/monoglow.nvim",
     "description": "🎆 A dark, mostly monochrome colorscheme with a touch of glowing.",
-    "stars": 160,
+    "stars": 161,
     "forks": 8,
     "topics": [
       "ghostty-theme",
@@ -6762,7 +6765,7 @@
     "language": "Lua",
     "license": "Apache-2.0",
     "created_at": "2024-10-05T14:40:58Z",
-    "updated_at": "2026-05-19T07:23:36Z",
+    "updated_at": "2026-05-20T04:03:24Z",
     "pushed_at": "2026-04-18T14:33:26Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
@@ -18254,23 +18257,16 @@
     "stars": 0,
     "forks": 0,
     "topics": [
-      "astro",
+      "awesome-list",
       "extension-directory",
-      "extensions",
-      "github-actions",
-      "registry",
-      "svelte",
       "zed",
-      "zed-editor",
-      "zed-extension",
-      "zed-extensions",
-      "zed-theme"
+      "zed-extensions"
     ],
     "language": "JavaScript",
-    "license": null,
+    "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-05-20T03:59:16Z",
-    "pushed_at": "2026-05-20T03:59:12Z",
+    "updated_at": "2026-05-20T05:53:19Z",
+    "pushed_at": "2026-05-20T05:53:16Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },

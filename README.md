@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1462** |
 | In official registry | 1027 |
 | Discovered via topics | 435 |
-| Last updated | 2026-05-20 04:00 UTC |
+| Last updated | 2026-05-20 05:54 UTC |
 
 ### By capability
 
@@ -92,7 +92,7 @@ cd website && npm install && npm run dev
 | [xhyrom/zed-discord-presence](https://github.com/xhyrom/zed-discord-presence) | 415 | extension for zed that adds support for discord rich presence using lsp |
 | [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 319 | Catppuccin Theme but as blurred variants + custom ones |
 | [oxc-project/oxc-zed](https://github.com/oxc-project/oxc-zed) | 256 | Oxc extension for Zed |
-| [catppuccin/zed-icons](https://github.com/catppuccin/zed-icons) | 240 | Soothing pastel icons for Zed |
+| [catppuccin/zed-icons](https://github.com/catppuccin/zed-icons) | 240 | 🦊 Soothing pastel icons for Zed |
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
@@ -113,7 +113,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [HelgeSverre/zed-applescript](https://github.com/HelgeSverre/zed-applescript) | 1 | 2026-05-20 | (WIP) AppleScript language support for Zed editor |
+| [HelgeSverre/zed-applescript](https://github.com/HelgeSverre/zed-applescript) | 1 | 2026-05-20 | AppleScript for Zed — syntax highlighting, outline, runnable... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 82 | 2026-05-20 | True Dark Theme for Zed IDE |
 | [MiguelMachado-dev/ReactTypeKit](https://github.com/MiguelMachado-dev/ReactTypeKit) | 1 | 2026-05-20 | A comprehensive Zed snippet pack providing fast, type-safe t... |
 | [vishnuroshan/zed-react-ts-snippets](https://github.com/vishnuroshan/zed-react-ts-snippets) | 35 | 2026-05-20 | Speed up your Typescript/React workflow in Zed with ready-to... |
@@ -126,7 +126,7 @@ cd website && npm install && npm run dev
 | [spences10/zed-neon](https://github.com/spences10/zed-neon) | 0 | 2026-05-19 | Vivid neon themes for Zed. |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-05-19 | A Zed extension that allows to highlight all occurrences of ... |
 | [zcuric/zed-wordpress](https://github.com/zcuric/zed-wordpress) | 0 | 2026-05-19 | Zed extension: WordPress and WooCommerce support for PHP — p... |
-| [arrrrny/zuraffa-zed](https://github.com/arrrrny/zuraffa-zed) | 0 | 2026-05-19 | ZED Extension for Zuraffa |
+| [arrrrny/zuraffa-zed](https://github.com/arrrrny/zuraffa-zed) | 0 | 2026-05-19 | ZED Extension for Zuraffa 🦒 |
 | [acakp/moondusttheme-zed](https://github.com/acakp/moondusttheme-zed) | 0 | 2026-05-19 | Handcrafted theme for those who have not found syntax highli... |
 | [cfmleditor/zed-cfml](https://github.com/cfmleditor/zed-cfml) | 5 | 2026-05-19 |  |
 | [aliaksei-loi/zed-loi-paper-theme](https://github.com/aliaksei-loi/zed-loi-paper-theme) | 0 | 2026-05-19 | A Zed theme inspired by Claude.ai and Claude Code — warm cre... |
@@ -138,6 +138,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-05-20T05:54 | 0 | 431 | 1730 |
 | 2026-05-20T04:00 | 33 | 431 | 1730 |
 | 2026-05-20T03:50 | 104 | 427 | 1697 |
 | 2026-05-20T02:57 | 113 | 421 | 1593 |
@@ -147,7 +148,6 @@ cd website && npm install && npm run dev
 | 2026-05-19T21:41 | 177 | 388 | 1047 |
 | 2026-05-19T20:55 | 0 | 388 | 870 |
 | 2026-05-19T20:52 | 20 | 368 | 870 |
-| 2026-05-19T20:16 | 20 | 266 | 870 |
 
 ---
 
