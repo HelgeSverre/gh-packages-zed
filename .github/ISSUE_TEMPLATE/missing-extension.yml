@@ -1,0 +1,50 @@
+name: Missing extension
+description: Report a Zed extension that should appear in the directory but doesn't.
+title: "[missing] <owner/repo>"
+labels: ["missing-extension"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for flagging a missing extension. Before opening, check that:
+        - The repo has an `extension.toml` at its root (without one, it isn't a Zed extension and won't be indexed).
+        - The repo isn't archived or private.
+        - It's been more than 6 hours since the next scheduled discover run.
+
+  - type: input
+    id: repo-url
+    attributes:
+      label: Repository URL
+      description: GitHub URL of the missing extension.
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+
+  - type: input
+    id: extension-name
+    attributes:
+      label: Extension name
+      description: Optional — the human-readable name from `extension.toml` if you know it.
+      placeholder: Awesome Theme
+
+  - type: dropdown
+    id: why-missing
+    attributes:
+      label: Best guess at why it's missing
+      options:
+        - Not sure
+        - Recently published — may just need the next discover run
+        - Not in the official zed-industries/extensions registry
+        - No matching topic (zed-extension, zed-theme, etc.) on the repo
+        - Has an unusual extension.toml location or shape
+        - Other (explain below)
+      default: 0
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else
+      description: Context, screenshots, or links that might help.
+      placeholder: Optional
