@@ -1,0 +1,11 @@
+id = "simula"
+name = "Simula"
+description = "Extension for Simula"
+version = "0.0.1"
+schema_version = 1
+authors = ["Eirik Sletteberg <eiriksletteberg@gmail.com>"]
+repository = "https://github.com/eirslett/simula-zed-extension"
+
+[grammars.simula]
+repository = "https://github.com/eirslett/tree-sitter-simula"
+commit = "9d91a20228d1bc6490f6723028cab97d03964fa6"

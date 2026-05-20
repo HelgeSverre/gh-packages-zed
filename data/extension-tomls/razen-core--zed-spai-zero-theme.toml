@@ -1,0 +1,27 @@
+id = "spai-zero-theme"
+name = "Spai Zero Theme"
+version = "0.2.1"
+schema_version = 1
+description = "3 premium dark themes with vibrant accents: Space Gray, Midnight Blue & Deep Green variants"
+repository = "https://github.com/BasaiCorp/zed-spai-zero-theme"
+authors = ["Prathmesh </> (Prathmesh Barot) <prathmeshbarot2009@gmail.com>"]
+themes = [
+    "themes/spai-zero-dark-gray.json",
+    "themes/spai-zero-midnight-blue.json",
+    "themes/spai-zero-deep-green.json",
+]
+icon_themes = []
+languages = []
+capabilities = []
+
+[lib]
+
+[grammars]
+
+[language_servers]
+
+[context_servers]
+
+[slash_commands]
+
+[indexed_docs_providers]

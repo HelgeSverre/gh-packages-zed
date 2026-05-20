@@ -1,0 +1,127 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Rosewood - Zed Extension Safari</title><meta name="description" content="A warm transparent theme."><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Rosewood - Zed Extension Safari"><meta property="og:description" content="A warm transparent theme."><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Rosewood - Zed Extension Safari"><meta name="twitter:description" content="A warm transparent theme."><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><script>
+        (function () {
+            try {
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = stored || (prefersDark ? 'dark' : 'light');
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.vt09FFQM.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> ayush-porwal/zed-rosewood-theme </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> Rosewood </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> A warm transparent theme. </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="theme">Theme</span> </div> </div> </div> </header> <main class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/rosewood-theme" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/ayush-porwal/zed-rosewood-theme" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.0.1</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">rosewood-theme</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">Apache-2.0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">4/12/2026</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">Ayush Porwal</dd> </div> </dl>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-rosewood-for-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#rosewood-for-zed"><span class="heading-anchor-icon">#</span></a>Rosewood for Zed</h1>
+<p>Rosewood is a dark theme family for <a href="https://zed.dev">Zed</a> with two distinct moods: the original warm <code>Dusk</code> pair and a colder, more experimental <code>Fathom</code> pair. It is designed to feel atmospheric without sacrificing readability, so long coding sessions stay calm instead of flat, gray, or harsh.</p>
+<p><img src="https://raw.githubusercontent.com/ayush-porwal/zed-rosewood-theme/HEAD/assets/rosewood-theme-dusk-1.png" alt="Rosewood Dusk with editor and assistant panel"></p>
+<p><em>Rosewood Dusk</em></p>
+<p><img src="https://raw.githubusercontent.com/ayush-porwal/zed-rosewood-theme/HEAD/assets/rosewood-theme-dusk-transparent-1.png" alt="Rosewood Dusk Transparent with editor and assistant panel"></p>
+<p><em>Rosewood Dusk Transparent</em></p>
+<h2 id="user-content-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features"><span class="heading-anchor-icon">#</span></a>Features</h2>
+<p>Rosewood is made for people who want a dark theme with character.</p>
+<ul>
+<li>
+<p><strong>Two different dark moods instead of one safe default</strong></p>
+<ul>
+<li><code>Rosewood Dusk</code> keeps the family warm: layered browns, muted rose borders, olive-tinted neutrals, and soft ivory text.</li>
+<li><code>Rosewood Fathom</code> goes colder and stranger: mineral slate chrome, deep ink editor surfaces, brass accents, sea-glass highlights, and cooler diagnostics.</li>
+</ul>
+</li>
+<li>
+<p><strong>Readable pastel syntax</strong></p>
+<ul>
+<li>Dusk leans into rose, sage, powder blue, and lavender.</li>
+<li>Fathom swaps in coral keywords, seafoam strings, brass constants, sky-blue types, and violet hints.</li>
+<li>Comments stay muted and italic in both branches, visible without stealing focus.</li>
+</ul>
+</li>
+<li>
+<p><strong>Transparent variants that still feel usable</strong></p>
+<ul>
+<li><code>Rosewood Dusk Transparent</code> keeps the same palette, but strips the chrome back so your wallpaper can become part of the experience.</li>
+<li><code>Rosewood Fathom Transparent</code> does the same for the cooler branch, keeping enough density in the editor while letting the outer chrome breathe.</li>
+</ul>
+</li>
+<li>
+<p><strong>UI, terminal, and diagnostics all match</strong></p>
+<ul>
+<li>Each branch has its own matching terminal ANSI palette instead of feeling bolted on.</li>
+<li>Git states, success colors, warnings, errors, hints, and collaboration cursors are tuned to fit each branch's visual language.</li>
+</ul>
+</li>
+</ul>
+<h2 id="user-content-included-themes"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#included-themes"><span class="heading-anchor-icon">#</span></a>Included Themes</h2>
+<ul>
+<li><code>Rosewood Dusk</code> for a warm, blurred dark workspace.</li>
+<li><code>Rosewood Dusk Transparent</code> for a glassy setup with wallpaper showing through the editor chrome.</li>
+<li><code>Rosewood Fathom</code> for a colder mineral-dark workspace with brass, sea-glass, and violet accents.</li>
+<li><code>Rosewood Fathom Transparent</code> for the same palette with translucent chrome.</li>
+</ul>
+<h2 id="user-content-vs-code"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#vs-code"><span class="heading-anchor-icon">#</span></a>VS Code</h2>
+<p>The repo now includes first-pass VS Code exports for all non-transparent variants under <code>vscode/themes/</code>.</p>
+<p>It is generated from the Zed source theme with:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">npm</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> run</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> build:vscode</span></span></code></pre>
+<p>The VS Code ports keep each source palette, syntax, diagnostics, and terminal colors aligned as closely as possible, but adapt Zed-only blur/transparency behavior into standard VS Code workbench colors.</p>
+<h3 id="user-content-test-locally-in-vs-code"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#test-locally-in-vs-code"><span class="heading-anchor-icon">#</span></a>Test locally in VS Code</h3>
+<ol>
+<li>Open this repo in VS Code.</li>
+<li>Press <code>F5</code> and choose <strong>Run Rosewood Theme Extension</strong>.</li>
+<li>In the Extension Development Host window, open the theme picker and select any <code>Rosewood ...</code> theme.</li>
+</ol>
+<h3 id="user-content-package-a-local-vsix"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#package-a-local-vsix"><span class="heading-anchor-icon">#</span></a>Package a local VSIX</h3>
+<p>If you want to install it like a normal VS Code extension:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">npm</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> install</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">npm</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> run</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> package:vscode</span></span></code></pre>
+<p>Then install the generated <code>.vsix</code> file from VS Code with <strong>Extensions: Install from VSIX...</strong>.</p>
+<h2 id="user-content-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation"><span class="heading-anchor-icon">#</span></a>Installation</h2>
+<h3 id="user-content-install-locally-in-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#install-locally-in-zed"><span class="heading-anchor-icon">#</span></a>Install locally in Zed</h3>
+<ol>
+<li>
+<p>Clone the repository:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">git</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> clone</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> https://github.com/ayush-porwal/zed-rosewood-theme.git</span></span></code></pre>
+</li>
+<li>
+<p>Open Zed.</p>
+</li>
+<li>
+<p>Open the Extensions page with <code>Cmd+Shift+X</code> on macOS or <code>Ctrl+Shift+X</code> on Linux/Windows.</p>
+</li>
+<li>
+<p>Click <strong>Install Dev Extension</strong>.</p>
+</li>
+<li>
+<p>Select the cloned <code>zed-rosewood-theme</code> directory.</p>
+</li>
+</ol>
+<h3 id="user-content-install-from-the-extension-registry"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#install-from-the-extension-registry"><span class="heading-anchor-icon">#</span></a>Install from the extension registry</h3>
+<p>If Rosewood is published to the Zed extension registry, open the Extensions page and search for <strong>Rosewood</strong>.</p>
+<h2 id="user-content-activation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#activation"><span class="heading-anchor-icon">#</span></a>Activation</h2>
+<p>Once installed:</p>
+<ol>
+<li>Open the theme selector with <code>Cmd+K Cmd+T</code> on macOS or <code>Ctrl+K Ctrl+T</code> on Linux/Windows.</li>
+<li>Choose <strong>Rosewood Dusk</strong>, <strong>Rosewood Dusk Transparent</strong>, <strong>Rosewood Fathom</strong>, or <strong>Rosewood Fathom Transparent</strong>.</li>
+</ol>
+<p>You can also switch themes from <strong>Settings</strong> → <strong>Theme</strong>.</p>
+<h2 id="user-content-why-rosewood"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#why-rosewood"><span class="heading-anchor-icon">#</span></a>Why Rosewood</h2>
+<p>Rosewood is for people who like dark themes, but are tired of sterile monochrome palettes. It gives you two directions on purpose: one warm and tactile, one cooler and more cinematic, both with clear syntax separation and transparent variants that look intentional instead of gimmicky.</p>
+<p>If you want Zed to feel a little more tactile, a little less sterile, and a lot more personal, Rosewood is the point.</p>
+<h2 id="user-content-feedback"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#feedback"><span class="heading-anchor-icon">#</span></a>Feedback</h2>
+<p>The theme is still evolving, and colors are subject to change based on iteration and community feedback.</p>
+<p>Issues, ideas, collaborations, and pull requests are welcome.</p>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>See the <a href="https://github.com/ayush-porwal/zed-rosewood-theme/blob/HEAD/LICENSE" target="_blank" rel="noopener">LICENSE</a> file for details.</p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-blue-pale);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>

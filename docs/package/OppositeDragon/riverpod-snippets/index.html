@@ -1,0 +1,416 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Riverpod Snippets - Zed Extension Safari</title><meta name="description" content="A collection of Riverpod snippets for Flutter development in the Zed editor."><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Riverpod Snippets - Zed Extension Safari"><meta property="og:description" content="A collection of Riverpod snippets for Flutter development in the Zed editor."><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Riverpod Snippets - Zed Extension Safari"><meta name="twitter:description" content="A collection of Riverpod snippets for Flutter development in the Zed editor."><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><script>
+        (function () {
+            try {
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = stored || (prefersDark ? 'dark' : 'light');
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.vt09FFQM.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> OppositeDragon/riverpod-snippets </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> Riverpod Snippets </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> Collection of Riverpod snippets for Flutter/Dart development on the Zed editor. </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="snippets">Snippets</span> </div> </div> </div> </header> <main class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/riverpod-dart-flutter-snippets" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/OppositeDragon/riverpod-snippets" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.0.1</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">riverpod-dart-flutter-snippets</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">Apache-2.0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">2/23/2026</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">Steeven Lopez</dd> </div> </dl>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-riverpod-snippets-for-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#riverpod-snippets-for-zed"><span class="heading-anchor-icon">#</span></a>Riverpod Snippets for Zed</h1>
+<p>A comprehensive collection of Riverpod snippets for Flutter development in the Zed editor. These snippets are designed to accelerate your Riverpod workflow and are only available in <code>.dart</code> files.</p>
+<h2 id="user-content-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation"><span class="heading-anchor-icon">#</span></a>Installation</h2>
+<h3 id="user-content-from-zed-extensions-recommended"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#from-zed-extensions-recommended"><span class="heading-anchor-icon">#</span></a>From Zed Extensions (Recommended)</h3>
+<ol>
+<li>Open Zed</li>
+<li>Go to <strong>Extensions</strong> (<code>Ctrl+Shift+X</code> or <code>Cmd+Shift+X</code>)</li>
+<li>Search for "Riverpod Snippets"</li>
+<li>Click <strong>Install</strong></li>
+</ol>
+<h2 id="user-content-available-snippets"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#available-snippets"><span class="heading-anchor-icon">#</span></a>Available Snippets</h2>
+<h3 id="user-content-code-generation-riverpod_generator"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#code-generation-riverpod_generator"><span class="heading-anchor-icon">#</span></a>Code Generation (riverpod_generator)</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Prefix</th><th>Description</th></tr></thead><tbody><tr><td><code>riverpodPart</code></td><td>Part statement for Riverpod code generation</td></tr><tr><td><code>riverpod</code></td><td>Basic Provider with @riverpod annotation</td></tr><tr><td><code>riverpodKeepAlive</code></td><td>Non-autodispose Provider with @Riverpod(keepAlive: true)</td></tr><tr><td><code>riverpodFuture</code></td><td>FutureProvider with @riverpod</td></tr><tr><td><code>riverpodFutureKeepAlive</code></td><td>Non-autodispose FutureProvider with @riverpod</td></tr><tr><td><code>riverpodStream</code></td><td>StreamProvider with @riverpod</td></tr><tr><td><code>riverpodStreamKeepAlive</code></td><td>Non-autodispose StreamProvider with @riverpod</td></tr><tr><td><code>riverpodClass</code></td><td>Notifier/NotifierProvider with @riverpod</td></tr><tr><td><code>riverpodClassKeepAlive</code></td><td>Non-autodispose Notifier/NotifierProvider with @riverpod</td></tr><tr><td><code>riverpodAsyncClass</code></td><td>AsyncNotifier/AsyncNotifierProvider with @riverpod</td></tr><tr><td><code>riverpodAsyncClassKeepAlive</code></td><td>Non-autodispose AsyncNotifier/AsyncNotifierProvider with @riverpod</td></tr><tr><td><code>riverpodStreamClass</code></td><td>StreamNotifier/StreamNotifierProvider with @riverpod</td></tr><tr><td><code>riverpodStreamClassKeepAlive</code></td><td>Non-autodispose StreamNotifier/StreamNotifierProvider with @riverpod</td></tr></tbody></table>
+<h3 id="user-content-provider"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#provider"><span class="heading-anchor-icon">#</span></a>Provider</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Prefix</th><th>Description</th></tr></thead><tbody><tr><td><code>provider</code></td><td>Autodispose Provider</td></tr><tr><td><code>providerKeepAlive</code></td><td>Non-autodispose Provider</td></tr><tr><td><code>providerFamily</code></td><td>Autodispose family Provider</td></tr></tbody></table>
+<h3 id="user-content-futureprovider"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#futureprovider"><span class="heading-anchor-icon">#</span></a>FutureProvider</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Prefix</th><th>Description</th></tr></thead><tbody><tr><td><code>futureProvider</code></td><td>Autodispose FutureProvider</td></tr><tr><td><code>futureProviderKeepAlive</code></td><td>Non-autodispose FutureProvider</td></tr><tr><td><code>futureProviderFamily</code></td><td>Autodispose family FutureProvider</td></tr></tbody></table>
+<h3 id="user-content-streamprovider"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#streamprovider"><span class="heading-anchor-icon">#</span></a>StreamProvider</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Prefix</th><th>Description</th></tr></thead><tbody><tr><td><code>streamProvider</code></td><td>Autodispose StreamProvider</td></tr><tr><td><code>streamProviderKeepAlive</code></td><td>Non-autodispose StreamProvider</td></tr><tr><td><code>streamProviderFamily</code></td><td>Autodispose family StreamProvider</td></tr></tbody></table>
+<h3 id="user-content-notifier-classes"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#notifier-classes"><span class="heading-anchor-icon">#</span></a>Notifier Classes</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Prefix</th><th>Description</th></tr></thead><tbody><tr><td><code>notifier</code></td><td>Notifier class</td></tr><tr><td><code>notifierFamily</code></td><td>Parametrized Notifier class</td></tr><tr><td><code>asyncNotifier</code></td><td>AsyncNotifier class</td></tr><tr><td><code>asyncNotifierFamily</code></td><td>Parametrized AsyncNotifier class</td></tr><tr><td><code>streamNotifier</code></td><td>StreamNotifier class</td></tr><tr><td><code>streamNotifierFamily</code></td><td>Parametrized StreamNotifier class</td></tr></tbody></table>
+<h3 id="user-content-notifierprovider"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#notifierprovider"><span class="heading-anchor-icon">#</span></a>NotifierProvider</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Prefix</th><th>Description</th></tr></thead><tbody><tr><td><code>notifierProvider</code></td><td>Autodispose NotifierProvider</td></tr><tr><td><code>notifierProviderKeepAlive</code></td><td>Non-autodispose NotifierProvider</td></tr><tr><td><code>notifierProviderFamily</code></td><td>Autodispose family NotifierProvider</td></tr></tbody></table>
+<h3 id="user-content-asyncnotifierprovider"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#asyncnotifierprovider"><span class="heading-anchor-icon">#</span></a>AsyncNotifierProvider</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Prefix</th><th>Description</th></tr></thead><tbody><tr><td><code>asyncNotifierProvider</code></td><td>Autodispose AsyncNotifierProvider</td></tr><tr><td><code>asyncNotifierProviderKeepAlive</code></td><td>Non-autodispose AsyncNotifierProvider</td></tr><tr><td><code>asyncNotifierProviderFamily</code></td><td>Autodispose family AsyncNotifierProvider</td></tr></tbody></table>
+<h3 id="user-content-streamnotifierprovider"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#streamnotifierprovider"><span class="heading-anchor-icon">#</span></a>StreamNotifierProvider</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Prefix</th><th>Description</th></tr></thead><tbody><tr><td><code>streamNotifierProvider</code></td><td>Autodispose StreamNotifierProvider</td></tr><tr><td><code>streamNotifierProviderKeepAlive</code></td><td>Non-autodispose StreamNotifierProvider</td></tr><tr><td><code>streamNotifierProviderFamily</code></td><td>Autodispose family StreamNotifierProvider</td></tr></tbody></table>
+<h3 id="user-content-consumer-widgets"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#consumer-widgets"><span class="heading-anchor-icon">#</span></a>Consumer Widgets</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Prefix</th><th>Description</th></tr></thead><tbody><tr><td><code>consumer</code></td><td>Consumer builder widget</td></tr><tr><td><code>statelessConsumerWidget</code></td><td>ConsumerWidget</td></tr><tr><td><code>statefulConsumerWidget</code></td><td>ConsumerStatefulWidget with State</td></tr><tr><td><code>statelessHookConsumerWidget</code></td><td>HookConsumerWidget (with Flutter Hooks)</td></tr><tr><td><code>statefulHookConsumerWidget</code></td><td>StatefulHookConsumerWidget (with Flutter Hooks)</td></tr></tbody></table>
+<h3 id="user-content-ref-methods"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#ref-methods"><span class="heading-anchor-icon">#</span></a>Ref Methods</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Prefix</th><th>Description</th></tr></thead><tbody><tr><td><code>listen</code> / <code>reflisten</code></td><td>ref.listen()</td></tr></tbody></table>
+<h3 id="user-content-legacy-statenotifier--stateprovider"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#legacy-statenotifier--stateprovider"><span class="heading-anchor-icon">#</span></a>Legacy (StateNotifier &#x26; StateProvider)</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Prefix</th><th>Description</th></tr></thead><tbody><tr><td><code>stateNotifier</code></td><td>StateNotifier class</td></tr><tr><td><code>stateNotifierFamily</code></td><td>Parametrized StateNotifier class</td></tr><tr><td><code>stateNotifierProvider</code></td><td>Autodispose StateNotifierProvider</td></tr><tr><td><code>stateNotifierProviderKeepAlive</code></td><td>Non-autodispose StateNotifierProvider</td></tr><tr><td><code>stateNotifierProviderFamily</code></td><td>Autodispose family StateNotifierProvider</td></tr><tr><td><code>stateProvider</code></td><td>Autodispose StateProvider</td></tr><tr><td><code>stateProviderKeepAlive</code></td><td>Non-autodispose StateProvider</td></tr><tr><td><code>stateProviderFamily</code></td><td>Autodispose family StateProvider</td></tr></tbody></table>
+<h2 id="user-content-usage"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#usage"><span class="heading-anchor-icon">#</span></a>Usage</h2>
+<ol>
+<li>Open a <code>.dart</code> file in Zed</li>
+<li>Type the snippet prefix (e.g., <code>riverpod</code>)</li>
+<li>Press <code>Tab</code> to expand the snippet</li>
+<li>Use <code>Tab</code> to navigate between placeholders</li>
+<li>Fill in the values and press <code>Tab</code> to move to the next placeholder</li>
+</ol>
+<h2 id="user-content-examples"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#examples"><span class="heading-anchor-icon">#</span></a>Examples</h2>
+<h3 id="user-content-creating-a-provider-with-code-generation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#creating-a-provider-with-code-generation"><span class="heading-anchor-icon">#</span></a>Creating a Provider with Code Generation</h3>
+<p>Type <code>riverpod</code> and press <code>Tab</code>:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">@riverpod</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">String</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> myProvider</span><span style="color:#24292E;--shiki-dark:#E1E4E8">(</span><span style="color:#005CC5;--shiki-dark:#79B8FF">Ref</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> ref) {</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">  return</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> 'Hello World'</span><span style="color:#24292E;--shiki-dark:#E1E4E8">;</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h3 id="user-content-creating-a-notifier-with-code-generation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#creating-a-notifier-with-code-generation"><span class="heading-anchor-icon">#</span></a>Creating a Notifier with Code Generation</h3>
+<p>Type <code>riverpodClass</code> and press <code>Tab</code>:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">@riverpod</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">class</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> Counter</span><span style="color:#D73A49;--shiki-dark:#F97583"> extends</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> _$Counter</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> {</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">  @override</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  int</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> build</span><span style="color:#24292E;--shiki-dark:#E1E4E8">() {</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">    return</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> 0</span><span style="color:#24292E;--shiki-dark:#E1E4E8">;</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h3 id="user-content-creating-a-provider-without-code-generation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#creating-a-provider-without-code-generation"><span class="heading-anchor-icon">#</span></a>Creating a Provider (without code generation)</h3>
+<p>Type <code>provider</code> and press <code>Tab</code>:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">final</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> myProvider </span><span style="color:#D73A49;--shiki-dark:#F97583">=</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> Provider</span><span style="color:#24292E;--shiki-dark:#E1E4E8">.</span><span style="color:#6F42C1;--shiki-dark:#B392F0">autoDispose</span><span style="color:#24292E;--shiki-dark:#E1E4E8">&#x3C;</span><span style="color:#005CC5;--shiki-dark:#79B8FF">String</span><span style="color:#24292E;--shiki-dark:#E1E4E8">>((ref) {</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">  return</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> 'Hello World'</span><span style="color:#24292E;--shiki-dark:#E1E4E8">;</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">});</span></span></code></pre>
+<h3 id="user-content-creating-a-consumerwidget"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#creating-a-consumerwidget"><span class="heading-anchor-icon">#</span></a>Creating a ConsumerWidget</h3>
+<p>Type <code>statelessConsumerWidget</code> and press <code>Tab</code>:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">class</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> MyWidget</span><span style="color:#D73A49;--shiki-dark:#F97583"> extends</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> ConsumerWidget</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> {</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">  const</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> MyWidget</span><span style="color:#24292E;--shiki-dark:#E1E4E8">({</span><span style="color:#005CC5;--shiki-dark:#79B8FF">super</span><span style="color:#24292E;--shiki-dark:#E1E4E8">.key});</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">  @override</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  Widget</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> build</span><span style="color:#24292E;--shiki-dark:#E1E4E8">(</span><span style="color:#005CC5;--shiki-dark:#79B8FF">BuildContext</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> context, </span><span style="color:#005CC5;--shiki-dark:#79B8FF">WidgetRef</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> ref) {</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">    return</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> Container</span><span style="color:#24292E;--shiki-dark:#E1E4E8">();</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h2 id="user-content-contributing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#contributing"><span class="heading-anchor-icon">#</span></a>Contributing</h2>
+<p>Contributions are welcome! Please feel free to submit a Pull Request.</p>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>Apache License 2.0 - see <a href="https://github.com/OppositeDragon/riverpod-snippets/blob/HEAD/LICENSE" target="_blank" rel="noopener">LICENSE</a> for details.</p>
+<h2 id="user-content-related"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#related"><span class="heading-anchor-icon">#</span></a>Related</h2>
+<ul>
+<li><a href="https://riverpod.dev/">Riverpod Documentation</a></li>
+<li><a href="https://pub.dev/packages/flutter_riverpod">Flutter Riverpod Package</a></li>
+<li><a href="https://zed.dev/">Zed Editor</a></li>
+<li><a href="https://zed.dev/docs/extensions">Zed Extensions Documentation</a></li>
+</ul>
+<h2 id="user-content-acknowledgments"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#acknowledgments"><span class="heading-anchor-icon">#</span></a>Acknowledgments</h2>
+<p>This extension was inspired by <a href="https://github.com/RobertBrunhage/flutter-riverpod-snippets/tree/master">Robert Brunhage's Flutter Riverpod Snippets</a>.</p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-blue-pale);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>

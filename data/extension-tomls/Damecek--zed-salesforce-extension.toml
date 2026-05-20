@@ -1,0 +1,46 @@
+id = "salesforce"
+name = "Salesforce"
+version = "0.0.4"
+schema_version = 1
+authors = ["zed-salesforce-extension contributors"]
+description = "Salesforce DX language support for Zed (Apex LSP via aer; jorje opt-in)."
+repository = "https://github.com/Damecek/zed-salesforce-extension"
+
+snippets = [
+    "snippets/apex.json",
+    "snippets/soql.json",
+    "snippets/sosl.json",
+]
+
+[language_servers.apex-lsp]
+name = "Apex Language Server"
+# SOQL is wired to apex-lsp because aer (the default backend) ships SOQL
+# diagnostics, hover, and field validation against the local schema
+# (see aer release notes v0.0.101 / v0.0.113). The jorje backend ignores
+# SOQL buffers — that is intentional; users on jorje see only highlights.
+languages = ["Apex", "SOQL"]
+
+[language_servers.apex-lsp.language_ids]
+"Apex" = "apex"
+"SOQL" = "soql"
+
+[grammars.apex]
+repository = "https://github.com/aheber/tree-sitter-sfapex"
+rev = "3597575a429766dd7ecce9f5bb97f6fec4419d5d"
+# tree-sitter-sfapex is a multi-grammar repo; Apex grammar lives in the `apex/` subdir.
+path = "apex"
+
+[grammars.soql]
+repository = "https://github.com/aheber/tree-sitter-sfapex"
+rev = "3597575a429766dd7ecce9f5bb97f6fec4419d5d"
+path = "soql"
+
+[grammars.sosl]
+repository = "https://github.com/aheber/tree-sitter-sfapex"
+rev = "3597575a429766dd7ecce9f5bb97f6fec4419d5d"
+path = "sosl"
+
+[grammars.sflog]
+repository = "https://github.com/aheber/tree-sitter-sfapex"
+rev = "3597575a429766dd7ecce9f5bb97f6fec4419d5d"
+path = "sflog"

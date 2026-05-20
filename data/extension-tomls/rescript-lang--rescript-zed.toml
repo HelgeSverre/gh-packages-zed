@@ -1,0 +1,15 @@
+id = "rescript"
+name = "ReScript"
+description = "ReScript support."
+version = "0.4.4"
+schema_version = 1
+authors = ["Karolis Narkevicius <hey@kn8.lt>"]
+repository = "https://github.com/rescript-lang/rescript-zed"
+
+[language_servers.rescript-language-server]
+name = "rescript-language-server"
+language = "ReScript"
+
+[grammars.rescript]
+repository = "https://github.com/rescript-lang/tree-sitter-rescript"
+commit = "5b90cd4e4138b1231a67977303bda47eb608480a"

@@ -1,0 +1,353 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>sqlc Snippets - Zed Extension Safari</title><meta name="description" content="snippets for sqlc and postgres for zed editor"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="sqlc Snippets - Zed Extension Safari"><meta property="og:description" content="snippets for sqlc and postgres for zed editor"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="sqlc Snippets - Zed Extension Safari"><meta name="twitter:description" content="snippets for sqlc and postgres for zed editor"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><script>
+        (function () {
+            try {
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = stored || (prefersDark ? 'dark' : 'light');
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.vt09FFQM.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> NarmadaWeb/sqlc-snippets-zed </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> sqlc Snippets </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> Sqlc and PostgreSQL snippets for Zed IDE. </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="snippets">Snippets</span> </div> </div> </div> </header> <main class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/sqlc-snippets" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/NarmadaWeb/sqlc-snippets-zed" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.2.0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">sqlc-snippets</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">MIT</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">7</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">7/20/2025</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">RajaSunrise</dd> </div> </dl>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-sqlc-and-postgres-snippets-for-zed-ide"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#sqlc-and-postgres-snippets-for-zed-ide"><span class="heading-anchor-icon">#</span></a>Sqlc and Postgres Snippets for Zed IDE.</h1>
+<p>Boost your database development productivity with this comprehensive collection of 50+ powerful snippets for PostgreSQL and SQLC. Designed to reduce boilerplate, enforce best practices, and speed up your workflow when working with modern SQL databases and the SQLC code generator.</p>
+<h2 id="user-content-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features"><span class="heading-anchor-icon">#</span></a>Features</h2>
+<ul>
+<li><strong>Comprehensive SQLC Coverage</strong>: Snippets for all core SQLC operations (<code>:one</code>, <code>:many</code>, <code>:exec</code>, <code>:batchexec</code>), including common patterns like returning inserted IDs, pagination, and batch inserts.</li>
+<li><strong>Advanced SQLC Patterns</strong>: Tackle complex scenarios with snippets for JOINs with aggregation, JSONB queries, array operations, full-text search, and transaction blocks.</li>
+<li><strong>PostgreSQL DDL Mastery</strong>: Quickly scaffold tables (with audit columns), indexes, enums, functions, and triggers (like auto-updating <code>updated_at</code>).</li>
+<li><strong>Modern PostgreSQL Types</strong>: Easy-to-use snippets for <code>UUID</code>, <code>JSONB</code> (with defaults), <code>TEXT[]</code> arrays, and full-text search setup (<code>TSVECTOR</code>).</li>
+<li><strong>SQLC Configuration</strong>: A ready-to-use <code>sqlc.yaml</code> template for both Go (pgx/v5) and Kotlin, including common type overrides.</li>
+<li><strong>SQLC v2 Ready</strong>: Includes snippets leveraging SQLC v2 features like named parameters (<code>@param</code>) and batch operations with returning values.</li>
+<li><strong>Performance &#x26; Optimization</strong>: Snippets for <code>EXPLAIN ANALYZE</code>, partial indexes, expression indexes, and Row Level Security (RLS) setup.</li>
+<li><strong>Migration &#x26; Utility</strong>: Helpers for creating extensions, adding/dropping columns, and common SQL expressions.</li>
+<li><strong>Clear Descriptions</strong>: Each snippet comes with a concise description of its purpose.</li>
+<li><strong>Placeholder Guidance</strong>: Smart placeholders (<code>${1:name}</code>, <code>${2|option1,option2|}</code>) guide you through snippet completion.</li>
+</ul>
+<h2 id="user-content-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation"><span class="heading-anchor-icon">#</span></a>Installation</h2>
+<ol>
+<li>Open <strong>Zed Editor</strong>.</li>
+<li>Go to the <strong>Extensions</strong> view (Ctrl+Shift+X or Cmd+Shift+X).</li>
+<li>Search for <code>[Your Extension Name Here - e.g., Sqlc Snippets]</code>.</li>
+<li>Click <strong>Install</strong>.</li>
+<li>wait for minute.</li>
+</ol>
+<h2 id="user-content-usage"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#usage"><span class="heading-anchor-icon">#</span></a>Usage</h2>
+<p>Simply start typing the snippet <code>prefix</code> in a <code>.sql</code> file (or any filetype you configure snippets for, like <code>.yaml</code>, <code>.query.sql</code>), and Zed Extensions will suggest the available snippets. Press <code>Tab</code> or <code>Enter</code> to insert the snippet. Use <code>Tab</code> to navigate through the placeholders.</p>
+<p><strong>Example:</strong></p>
+<ol>
+<li>Type <code>sqlcone</code> in a <code>.sql</code> file.</li>
+<li>Press <code>Tab</code>.</li>
+<li>The following snippet will be inserted:
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">-- name: GetUser :one</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">SELECT</span><span style="color:#D73A49;--shiki-dark:#F97583"> *</span><span style="color:#D73A49;--shiki-dark:#F97583"> FROM</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> users</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">WHERE</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> id </span><span style="color:#D73A49;--shiki-dark:#F97583">=</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> $</span><span style="color:#005CC5;--shiki-dark:#79B8FF">1</span><span style="color:#24292E;--shiki-dark:#E1E4E8">;</span></span></code></pre>
+</li>
+<li><code>GetUser</code> will be selected. Type your desired query name, then press <code>Tab</code> to move to <code>users</code>, and so on.</li>
+</ol>
+<h2 id="user-content-available-snippets"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#available-snippets"><span class="heading-anchor-icon">#</span></a>Available Snippets</h2>
+<p>Here's a categorized list of the main snippets included:</p>
+<h3 id="user-content-sqlc-core-templates"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#sqlc-core-templates"><span class="heading-anchor-icon">#</span></a>SQLC Core Templates</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th align="left">Prefix</th><th align="left">Description</th></tr></thead><tbody><tr><td align="left"><code>sqlcone</code></td><td align="left">Get single row by ID</td></tr><tr><td align="left"><code>sqlcmany</code></td><td align="left">Get paginated results</td></tr><tr><td align="left"><code>sqlcinsert</code></td><td align="left">Insert with returning columns</td></tr><tr><td align="left"><code>sqlcupdate</code></td><td align="left">Update record</td></tr><tr><td align="left"><code>sqlcdelete</code></td><td align="left">Delete record</td></tr><tr><td align="left"><code>sqlcbatch</code></td><td align="left">Batch insert operation</td></tr></tbody></table>
+<h3 id="user-content-sqlc-advanced-patterns"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#sqlc-advanced-patterns"><span class="heading-anchor-icon">#</span></a>SQLC Advanced Patterns</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th align="left">Prefix</th><th align="left">Description</th></tr></thead><tbody><tr><td align="left"><code>sqlcjoin</code></td><td align="left">Join with aggregation</td></tr><tr><td align="left"><code>sqlcjson</code></td><td align="left">Query JSONB field</td></tr><tr><td align="left"><code>sqlcarray</code></td><td align="left">Query array column</td></tr><tr><td align="left"><code>sqlcfts</code></td><td align="left">Full-text search query</td></tr><tr><td align="left"><code>sqlctx</code></td><td align="left">Transaction block</td></tr></tbody></table>
+<h3 id="user-content-sqlc-v2-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#sqlc-v2-features"><span class="heading-anchor-icon">#</span></a>SQLC v2 Features</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th align="left">Prefix</th><th align="left">Description</th></tr></thead><tbody><tr><td align="left"><code>sqlcv2</code></td><td align="left">sqlc v2 named parameters</td></tr><tr><td align="left"><code>sqlcv2batch</code></td><td align="left">sqlc v2 batch with returning</td></tr><tr><td align="left"><code>sqlcv2type</code></td><td align="left">sqlc v2 with custom types</td></tr></tbody></table>
+<h3 id="user-content-postgresql-ddl-data-definition-language"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#postgresql-ddl-data-definition-language"><span class="heading-anchor-icon">#</span></a>PostgreSQL DDL (Data Definition Language)</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th align="left">Prefix</th><th align="left">Description</th></tr></thead><tbody><tr><td align="left"><code>pgtbl</code></td><td align="left">Create table with audit columns</td></tr><tr><td align="left"><code>pgidx</code></td><td align="left">Create index</td></tr><tr><td align="left"><code>pgenum</code></td><td align="left">Create enum type</td></tr><tr><td align="left"><code>pgfunc</code></td><td align="left">Create PL/pgSQL function</td></tr><tr><td align="left"><code>pgtrigger</code></td><td align="left">Auto-update timestamp trigger</td></tr></tbody></table>
+<h3 id="user-content-postgresql-advanced-dml--queries"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#postgresql-advanced-dml--queries"><span class="heading-anchor-icon">#</span></a>PostgreSQL Advanced DML &#x26; Queries</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th align="left">Prefix</th><th align="left">Description</th></tr></thead><tbody><tr><td align="left"><code>pgcte</code></td><td align="left">Common Table Expression</td></tr><tr><td align="left"><code>pgjsonb</code></td><td align="left">JSONB column with default</td></tr><tr><td align="left"><code>pgarray</code></td><td align="left">Text array column</td></tr><tr><td align="left"><code>pgfts</code></td><td align="left">Full-text search setup</td></tr><tr><td align="left"><code>pguuid</code></td><td align="left">Generate UUID v4 (<code>gen_random_uuid()</code>)</td></tr></tbody></table>
+<h3 id="user-content-sqlc-configuration--comments"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#sqlc-configuration--comments"><span class="heading-anchor-icon">#</span></a>SQLC Configuration &#x26; Comments</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th align="left">Prefix</th><th align="left">Description</th></tr></thead><tbody><tr><td align="left"><code>sqlcconfig</code></td><td align="left">sqlc configuration template (<code>sqlc.yaml</code>)</td></tr><tr><td align="left"><code>sqlcmodel</code></td><td align="left">Add comments for sqlc model</td></tr></tbody></table>
+<h3 id="user-content-migration-utilities"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#migration-utilities"><span class="heading-anchor-icon">#</span></a>Migration Utilities</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th align="left">Prefix</th><th align="left">Description</th></tr></thead><tbody><tr><td align="left"><code>pgext</code></td><td align="left">Create PostgreSQL extension</td></tr><tr><td align="left"><code>pgaddcol</code></td><td align="left">Add column to table</td></tr><tr><td align="left"><code>pgdropcol</code></td><td align="left">Drop column from table</td></tr></tbody></table>
+<h3 id="user-content-security"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#security"><span class="heading-anchor-icon">#</span></a>Security</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th align="left">Prefix</th><th align="left">Description</th></tr></thead><tbody><tr><td align="left"><code>pgrls</code></td><td align="left">Row Level Security policy</td></tr><tr><td align="left"><code>pggrant</code></td><td align="left">Grant table permissions</td></tr></tbody></table>
+<h3 id="user-content-performance--indexing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#performance--indexing"><span class="heading-anchor-icon">#</span></a>Performance &#x26; Indexing</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th align="left">Prefix</th><th align="left">Description</th></tr></thead><tbody><tr><td align="left"><code>pgexpridx</code></td><td align="left">Create index on expression</td></tr><tr><td align="left"><code>pgpartialidx</code></td><td align="left">Create partial index</td></tr></tbody></table>
+<h3 id="user-content-utility--testing-snippets"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#utility--testing-snippets"><span class="heading-anchor-icon">#</span></a>Utility &#x26; Testing Snippets</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th align="left">Prefix</th><th align="left">Description</th></tr></thead><tbody><tr><td align="left"><code>pgexplain</code></td><td align="left">Detailed query analysis (<code>EXPLAIN ANALYZE BUFFERS VERBOSE</code>)</td></tr><tr><td align="left"><code>pgnow</code></td><td align="left">Current timestamp (<code>NOW()</code>)</td></tr><tr><td align="left"><code>pginterval</code></td><td align="left">Time interval</td></tr><tr><td align="left"><code>pgjsonbuild</code></td><td align="left">Build JSONB object</td></tr><tr><td align="left"><code>pgarrayagg</code></td><td align="left">Aggregate to array</td></tr><tr><td align="left"><code>pgbegin</code></td><td align="left">Test transaction block (BEGIN/ROLLBACK)</td></tr></tbody></table>
+<p><em>(Note: The <code>pgexplain</code> prefix from the <code>TESTING</code> section is listed above due to its comprehensiveness. The original JSON has two <code>pgexplain</code> entries; this one includes <code>VERBOSE</code>.)</em></p>
+<h2 id="user-content-why-these-snippets"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#why-these-snippets"><span class="heading-anchor-icon">#</span></a>Why These Snippets?</h2>
+<ul>
+<li><strong>Reduce Syntax Errors</strong>: Pre-defined structures minimize typos and syntax mistakes.</li>
+<li><strong>Enforce Best Practices</strong>: Snippets incorporate common patterns like audit columns, proper indexing, and SQLC naming conventions.</li>
+<li><strong>Accelerate Development</strong>: Spend less time writing boilerplate and more time on business logic.</li>
+<li><strong>Full SQLC Compatibility</strong>: Designed to work seamlessly with SQLC's query parsing and code generation.</li>
+</ul>
+<h2 id="user-content-contributing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#contributing"><span class="heading-anchor-icon">#</span></a>Contributing</h2>
+<p>Contributions are welcome! If you have a snippet that you think would be a great addition, or if you have improvements for existing ones:</p>
+<ol>
+<li>Fork the repository.</li>
+<li>Create a new branch (<code>git checkout -b feature/your-feature-name</code>).</li>
+<li>Add or modify snippets in the <code>snippets/yaml.json</code> or <code>snippets/sql.json</code>file (or wherever the source JSON is kept).</li>
+<li>Commit your changes (<code>git commit -am 'Add some feature'</code>).</li>
+<li>Push to the branch (<code>git push origin feature/your-feature-name</code>).</li>
+<li>Create a new Pull Request.</li>
+</ol>
+<p>Please ensure your snippets are well-formatted, include a clear <code>prefix</code> and <code>description</code>, and use placeholders effectively.</p>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>MIT License.</p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-blue-pale);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>

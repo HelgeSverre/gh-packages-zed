@@ -1,0 +1,11 @@
+id = "spicy"
+name = "Spicy"
+version = "0.0.1"
+schema_version = 1
+authors = [ "Jamie Carambat" ]
+description = "Provides Spicy Syntax Highlighting"
+repository = "https://github.com/0xORB/spicy-zed"
+
+[grammars.spicy]
+repository = "https://github.com/bbannier/tree-sitter-spicy"
+commit = "85150dfaf0eb247d912f3beaa2b0fa1cca063dab"

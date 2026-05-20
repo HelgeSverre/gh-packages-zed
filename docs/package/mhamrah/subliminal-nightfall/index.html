@@ -1,0 +1,454 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Subliminal Nightfall - Zed Extension Safari</title><meta name="description" content="Dark Subliminal-based theme with Rosé Pine-inspired accents for Rust, TypeScript, Go, Swift, and Python."><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Subliminal Nightfall - Zed Extension Safari"><meta property="og:description" content="Dark Subliminal-based theme with Rosé Pine-inspired accents for Rust, TypeScript, Go, Swift, and Python."><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Subliminal Nightfall - Zed Extension Safari"><meta name="twitter:description" content="Dark Subliminal-based theme with Rosé Pine-inspired accents for Rust, TypeScript, Go, Swift, and Python."><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><script>
+        (function () {
+            try {
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = stored || (prefersDark ? 'dark' : 'light');
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.vt09FFQM.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> mhamrah/subliminal-nightfall </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> Subliminal Nightfall </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> Dark Subliminal-based theme with Rosé Pine-inspired accents for Rust, TypeScript, Go, Swift, and Python. </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="theme">Theme</span> </div> </div> </div> </header> <main class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/subliminal-nightfall" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/mhamrah/subliminal-nightfall" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.1.15</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">subliminal-nightfall</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">Astro</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">MIT</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">3</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">3/24/2026</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">Mike Hamrah</dd> </div> </dl>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-subliminal-nightfall"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#subliminal-nightfall"><span class="heading-anchor-icon">#</span></a>Subliminal Nightfall</h1>
+<p>A dark color scheme featuring deep purple-black backgrounds with carefully calibrated accent colors for optimal contrast and readability.</p>
+<p><strong><a href="https://subliminal-nightfall.hamrah.com">View Interactive Showcase →</a></strong></p>
+<h2 id="user-content-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation"><span class="heading-anchor-icon">#</span></a>Installation</h2>
+<h3 id="user-content-vs-code--cursor"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#vs-code--cursor"><span class="heading-anchor-icon">#</span></a>VS Code / Cursor</h3>
+<p>Install from the marketplace:</p>
+<ol>
+<li>Open Extensions (⌘+Shift+X / Ctrl+Shift+X)</li>
+<li>Search for "Subliminal Nightfall"</li>
+<li>Click Install</li>
+<li>Select theme: Preferences → Color Theme → Subliminal Nightfall</li>
+</ol>
+<p>Or install via command line:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">code</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --install-extension</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> hamrahm.subliminal-nightfall</span></span></code></pre>
+<h3 id="user-content-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#zed"><span class="heading-anchor-icon">#</span></a>Zed</h3>
+<ol>
+<li>Open Zed</li>
+<li>Run command: <code>zed: extensions</code></li>
+<li>Search for "Subliminal Nightfall"</li>
+<li>Click Install</li>
+<li>Select theme: <code>theme selector: toggle</code> → Subliminal Nightfall</li>
+</ol>
+<p><strong>Theme Variants:</strong></p>
+<ul>
+<li><strong>Subliminal Nightfall</strong> - Standard opaque theme (100% opacity)</li>
+<li><strong>Subliminal Nightfall Hazy</strong> - Transparent blurred variant (75% opacity) with window blur effect</li>
+<li><strong>Subliminal Nightfall Cloudy</strong> - Semi-transparent blurred variant (90% opacity) for subtle blur</li>
+</ul>
+<p>Or install as dev extension:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Clone this repository</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">git</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> clone</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> https://github.com/mhamrah/subliminal-nightfall.git</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># In Zed, run: "zed: install dev extension"</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Select the cloned repository directory</span></span></code></pre>
+<h3 id="user-content-neovim"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#neovim"><span class="heading-anchor-icon">#</span></a>Neovim</h3>
+<h4 id="user-content-using-lazynvim"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#using-lazynvim"><span class="heading-anchor-icon">#</span></a>Using lazy.nvim</h4>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#032F62;--shiki-dark:#9ECBFF">  "mhamrah/subliminal-nightfall"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  lazy </span><span style="color:#D73A49;--shiki-dark:#F97583">=</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> false</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  priority </span><span style="color:#D73A49;--shiki-dark:#F97583">=</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> 1000</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">  config</span><span style="color:#D73A49;--shiki-dark:#F97583"> =</span><span style="color:#D73A49;--shiki-dark:#F97583"> function</span><span style="color:#24292E;--shiki-dark:#E1E4E8">()</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    vim.</span><span style="color:#6F42C1;--shiki-dark:#B392F0">opt</span><span style="color:#24292E;--shiki-dark:#E1E4E8">.</span><span style="color:#6F42C1;--shiki-dark:#B392F0">runtimepath</span><span style="color:#24292E;--shiki-dark:#E1E4E8">:</span><span style="color:#005CC5;--shiki-dark:#79B8FF">append</span><span style="color:#24292E;--shiki-dark:#E1E4E8">(vim.</span><span style="color:#6F42C1;--shiki-dark:#B392F0">fn</span><span style="color:#24292E;--shiki-dark:#E1E4E8">.</span><span style="color:#005CC5;--shiki-dark:#79B8FF">stdpath</span><span style="color:#24292E;--shiki-dark:#E1E4E8">(</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"data"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">) </span><span style="color:#D73A49;--shiki-dark:#F97583">..</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> "/lazy/subliminal-nightfall/neovim"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">)</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    vim.</span><span style="color:#005CC5;--shiki-dark:#79B8FF">cmd</span><span style="color:#24292E;--shiki-dark:#E1E4E8">(</span><span style="color:#032F62;--shiki-dark:#9ECBFF">[[colorscheme subliminal-nightfall]]</span><span style="color:#24292E;--shiki-dark:#E1E4E8">)</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">  end</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h4 id="user-content-using-packernvim"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#using-packernvim"><span class="heading-anchor-icon">#</span></a>Using packer.nvim</h4>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">use</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> {</span></span>
+<span class="line"><span style="color:#032F62;--shiki-dark:#9ECBFF">  'mhamrah/subliminal-nightfall'</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">  config</span><span style="color:#D73A49;--shiki-dark:#F97583"> =</span><span style="color:#D73A49;--shiki-dark:#F97583"> function</span><span style="color:#24292E;--shiki-dark:#E1E4E8">()</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    vim.</span><span style="color:#6F42C1;--shiki-dark:#B392F0">opt</span><span style="color:#24292E;--shiki-dark:#E1E4E8">.</span><span style="color:#6F42C1;--shiki-dark:#B392F0">runtimepath</span><span style="color:#24292E;--shiki-dark:#E1E4E8">:</span><span style="color:#005CC5;--shiki-dark:#79B8FF">append</span><span style="color:#24292E;--shiki-dark:#E1E4E8">(vim.</span><span style="color:#6F42C1;--shiki-dark:#B392F0">fn</span><span style="color:#24292E;--shiki-dark:#E1E4E8">.</span><span style="color:#005CC5;--shiki-dark:#79B8FF">stdpath</span><span style="color:#24292E;--shiki-dark:#E1E4E8">(</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"data"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">) </span><span style="color:#D73A49;--shiki-dark:#F97583">..</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> "/site/pack/packer/start/subliminal-nightfall/neovim"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">)</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    vim.</span><span style="color:#005CC5;--shiki-dark:#79B8FF">cmd</span><span style="color:#24292E;--shiki-dark:#E1E4E8">(</span><span style="color:#032F62;--shiki-dark:#9ECBFF">[[colorscheme subliminal-nightfall]]</span><span style="color:#24292E;--shiki-dark:#E1E4E8">)</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">  end</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h4 id="user-content-manual-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#manual-installation"><span class="heading-anchor-icon">#</span></a>Manual installation</h4>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">git</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> clone</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> https://github.com/mhamrah/subliminal-nightfall.git</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">ln</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -s</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> "$(</span><span style="color:#005CC5;--shiki-dark:#79B8FF">pwd</span><span style="color:#032F62;--shiki-dark:#9ECBFF">)/subliminal-nightfall/neovim"</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> ~/.config/nvim/colors/subliminal-nightfall</span></span></code></pre>
+<p>Add to your <code>init.lua</code> or <code>init.vim</code>:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">vim.</span><span style="color:#6F42C1;--shiki-dark:#B392F0">opt</span><span style="color:#24292E;--shiki-dark:#E1E4E8">.</span><span style="color:#6F42C1;--shiki-dark:#B392F0">runtimepath</span><span style="color:#24292E;--shiki-dark:#E1E4E8">:</span><span style="color:#005CC5;--shiki-dark:#79B8FF">append</span><span style="color:#24292E;--shiki-dark:#E1E4E8">(vim.</span><span style="color:#6F42C1;--shiki-dark:#B392F0">fn</span><span style="color:#24292E;--shiki-dark:#E1E4E8">.</span><span style="color:#005CC5;--shiki-dark:#79B8FF">expand</span><span style="color:#24292E;--shiki-dark:#E1E4E8">(</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"~/.config/nvim/colors/subliminal-nightfall"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">))</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">vim.</span><span style="color:#005CC5;--shiki-dark:#79B8FF">cmd</span><span style="color:#24292E;--shiki-dark:#E1E4E8">(</span><span style="color:#032F62;--shiki-dark:#9ECBFF">[[colorscheme subliminal-nightfall]]</span><span style="color:#24292E;--shiki-dark:#E1E4E8">)</span></span></code></pre>
+<h3 id="user-content-ghostty"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#ghostty"><span class="heading-anchor-icon">#</span></a>Ghostty</h3>
+<p>Add to <code>~/.config/ghostty/config</code>:</p>
+<pre><code>theme = subliminal-nightfall
+</code></pre>
+<p>Or manually configure colors in your Ghostty config:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Copy the theme file</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cp</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> ghostty/subliminal-nightfall</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> ~/.config/ghostty/themes/</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Add to config</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">theme</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> =</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> subliminal-nightfall</span></span></code></pre>
+<h2 id="user-content-terminal-base-palette"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#terminal-base-palette"><span class="heading-anchor-icon">#</span></a>Terminal Base Palette</h2>
+<h3 id="user-content-expanded-editor-syntax-palette"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#expanded-editor-syntax-palette"><span class="heading-anchor-icon">#</span></a>Expanded Editor Syntax Palette</h3>
+<ul>
+<li><img src="https://img.shields.io/badge/Teal-9ccfd8?style=for-the-badge&#x26;color=9ccfd8" alt="#9ccfd8"> <code>#9ccfd8</code> - Functions, methods, strings</li>
+<li><img src="https://img.shields.io/badge/Blue--Green-6699cc?style=for-the-badge&#x26;color=6699cc" alt="#6699cc"> <code>#6699cc</code> - Keywords, types, constructors</li>
+<li><img src="https://img.shields.io/badge/Lavender-c4a7e7?style=for-the-badge&#x26;color=c4a7e7" alt="#c4a7e7"> <code>#c4a7e7</code> - Numbers, constants, enums</li>
+<li><img src="https://img.shields.io/badge/Gray-7f7f7f?style=for-the-badge&#x26;color=7f7f7f" alt="#7f7f7f"> <code>#7f7f7f</code> - Comments</li>
+</ul>
+<h3 id="user-content-base-ansi-colors"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#base-ansi-colors"><span class="heading-anchor-icon">#</span></a>Base ANSI Colors</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Color</th><th>Base</th><th>Bright</th><th>Dim</th></tr></thead><tbody><tr><td><strong>Red</strong></td><td><img src="https://img.shields.io/badge/Base-bf616a?style=flat-square&#x26;color=bf616a" alt="#bf616a"> <code>#bf616a</code></td><td><img src="https://img.shields.io/badge/Bright-e2848d?style=flat-square&#x26;color=e2848d" alt="#e2848d"> <code>#e2848d</code></td><td><img src="https://img.shields.io/badge/Dim-85434a?style=flat-square&#x26;color=85434a" alt="#85434a"> <code>#85434a</code></td></tr><tr><td><strong>Green</strong></td><td><img src="https://img.shields.io/badge/Base-a9cfa4?style=flat-square&#x26;color=a9cfa4" alt="#a9cfa4"> <code>#a9cfa4</code></td><td><img src="https://img.shields.io/badge/Bright-ccf2c7?style=flat-square&#x26;color=ccf2c7" alt="#ccf2c7"> <code>#ccf2c7</code></td><td><img src="https://img.shields.io/badge/Dim-769072?style=flat-square&#x26;color=769072" alt="#769072"> <code>#769072</code></td></tr><tr><td><strong>Yellow</strong></td><td><img src="https://img.shields.io/badge/Base-ffe2a9?style=flat-square&#x26;color=ffe2a9" alt="#ffe2a9"> <code>#ffe2a9</code></td><td><img src="https://img.shields.io/badge/Bright-ffffcc?style=flat-square&#x26;color=ffffcc" alt="#ffffcc"> <code>#ffffcc</code></td><td><img src="https://img.shields.io/badge/Dim-b29e76?style=flat-square&#x26;color=b29e76" alt="#b29e76"> <code>#b29e76</code></td></tr><tr><td><strong>Blue</strong></td><td><img src="https://img.shields.io/badge/Base-6699cc?style=flat-square&#x26;color=6699cc" alt="#6699cc"> <code>#6699cc</code></td><td><img src="https://img.shields.io/badge/Bright-89bcef?style=flat-square&#x26;color=89bcef" alt="#89bcef"> <code>#89bcef</code></td><td><img src="https://img.shields.io/badge/Dim-476b8e?style=flat-square&#x26;color=476b8e" alt="#476b8e"> <code>#476b8e</code></td></tr><tr><td><strong>Magenta</strong></td><td><img src="https://img.shields.io/badge/Base-f1a5ab?style=flat-square&#x26;color=f1a5ab" alt="#f1a5ab"> <code>#f1a5ab</code></td><td><img src="https://img.shields.io/badge/Bright-ffc8ce?style=flat-square&#x26;color=ffc8ce" alt="#ffc8ce"> <code>#ffc8ce</code></td><td><img src="https://img.shields.io/badge/Dim-a87377?style=flat-square&#x26;color=a87377" alt="#a87377"> <code>#a87377</code></td></tr><tr><td><strong>Cyan</strong></td><td><img src="https://img.shields.io/badge/Base-5fb3b3?style=flat-square&#x26;color=5fb3b3" alt="#5fb3b3"> <code>#5fb3b3</code></td><td><img src="https://img.shields.io/badge/Bright-82d6d6?style=flat-square&#x26;color=82d6d6" alt="#82d6d6"> <code>#82d6d6</code></td><td><img src="https://img.shields.io/badge/Dim-427d7d?style=flat-square&#x26;color=427d7d" alt="#427d7d"> <code>#427d7d</code></td></tr></tbody></table>
+<h3 id="user-content-ui-colors"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#ui-colors"><span class="heading-anchor-icon">#</span></a>UI Colors</h3>
+<ul>
+<li><img src="https://img.shields.io/badge/Background-191724?style=for-the-badge&#x26;color=191724" alt="#191724"> <code>#191724</code> - Deep purple-black</li>
+<li><img src="https://img.shields.io/badge/Background_Alt-1f1d2e?style=for-the-badge&#x26;color=1f1d2e" alt="#1f1d2e"> <code>#1f1d2e</code> - Sidebars, panels</li>
+<li><img src="https://img.shields.io/badge/Foreground-e0def4?style=for-the-badge&#x26;color=e0def4&#x26;labelColor=191724" alt="#e0def4"> <code>#e0def4</code> - Primary text</li>
+<li><img src="https://img.shields.io/badge/Selection-484e5b?style=for-the-badge&#x26;color=484e5b" alt="#484e5b"> <code>#484e5b</code> - Text selection</li>
+<li><img src="https://img.shields.io/badge/Cursor-5fb3b3?style=for-the-badge&#x26;color=5fb3b3" alt="#5fb3b3"> <code>#5fb3b3</code> - Cursor color</li>
+</ul>
+<h2 id="user-content-philosophy"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#philosophy"><span class="heading-anchor-icon">#</span></a>Philosophy</h2>
+<p>Subliminal Nightfall is designed for extended coding sessions with:</p>
+<ul>
+<li>Deep purple-black backgrounds that reduce eye strain</li>
+<li>Three-level ANSI color system (base/bright/dim) for terminal flexibility</li>
+<li>Carefully calibrated contrast ratios for readability</li>
+<li>Distinct colors for different syntax elements</li>
+<li>Muted accent colors that don't fatigue</li>
+</ul>
+<h3 id="user-content-theme-variants"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#theme-variants"><span class="heading-anchor-icon">#</span></a>Theme Variants</h3>
+<p><strong>Subliminal Nightfall Hazy</strong> and <strong>Cloudy</strong> (Zed only) offer transparent, blurred experiences:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Variant</th><th>Opacity</th><th>Best For</th></tr></thead><tbody><tr><td><strong>Hazy</strong></td><td>75%</td><td>Maximum blur effect, desktop integration</td></tr><tr><td><strong>Cloudy</strong></td><td>90%</td><td>Subtle transparency, enhanced readability</td></tr></tbody></table>
+<p>Both variants feature:</p>
+<ul>
+<li>Background blur effects that integrate with your desktop (<code>background.appearance: "blurred"</code>)</li>
+<li>Fully transparent editor backgrounds to show blur through</li>
+<li>Semi-transparent panels, sidebars, and status bars with subtle variance</li>
+<li>Full syntax color readability despite transparency</li>
+<li>Perfect for those who prefer a less visually heavy workspace</li>
+</ul>
+<h2 id="user-content-repository-overview"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#repository-overview"><span class="heading-anchor-icon">#</span></a>Repository Overview</h2>
+<p>This is a monorepo containing themes for multiple platforms:</p>
+<pre><code>subliminal-nightfall/
+├── tools/colorloom/    # Rust theme generator CLI
+├── packages/
+│   ├── core/           # Color definitions (TypeScript)
+│   └── website/        # Showcase site (Astro)
+├── zed/themes/         # Zed theme JSON
+├── cursor/             # VS Code/Cursor extension
+├── neovim/             # Neovim colorscheme
+├── ghostty/            # Ghostty terminal theme
+├── theme.toml          # Single source of truth for colors
+└── themes/             # Symlink to zed/themes/ (for Zed extension)
+</code></pre>
+<p><strong>Note</strong>: The <code>themes/</code> directory is a symlink to <code>zed/themes/</code> to satisfy Zed's extension requirements while keeping the repository organized.</p>
+<h2 id="user-content-colorloom-theme-generator"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#colorloom-theme-generator"><span class="heading-anchor-icon">#</span></a>ColorLoom Theme Generator</h2>
+<p><a href="https://github.com/mhamrah/subliminal-nightfall/blob/HEAD/tools/colorloom" target="_blank" rel="noopener">ColorLoom</a> is a powerful Rust CLI tool that generates all theme files from a single <code>theme.toml</code> configuration.</p>
+<h3 id="user-content-quick-start"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#quick-start"><span class="heading-anchor-icon">#</span></a>Quick Start</h3>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Install (from source)</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">cd</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> tools/colorloom</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> &#x26;&#x26; </span><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> install</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --path</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> .</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Generate all themes</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">colorloom</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> generate</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Validate configuration</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">colorloom</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> validate</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># List targets and variants</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">colorloom</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> list</span></span></code></pre>
+<h3 id="user-content-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features"><span class="heading-anchor-icon">#</span></a>Features</h3>
+<ul>
+<li><strong>Single Source of Truth</strong>: Define colors once in <code>theme.toml</code>, generate for all platforms</li>
+<li><strong>Variant Support</strong>: Automatically generates base, hazy (75%), and cloudy (90%) variants</li>
+<li><strong>Blur Effects</strong>: Full support for Zed's <code>background.appearance: "blurred"</code></li>
+<li><strong>Comprehensive Coverage</strong>: 100+ color settings per target for complete UI theming</li>
+</ul>
+<h3 id="user-content-supported-targets"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#supported-targets"><span class="heading-anchor-icon">#</span></a>Supported Targets</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Target</th><th>Output</th><th>Variants</th></tr></thead><tbody><tr><td><strong>Zed</strong></td><td>Single JSON with all variants</td><td>base, hazy, cloudy</td></tr><tr><td><strong>VS Code/Cursor</strong></td><td>Separate JSON per variant</td><td>base, hazy, cloudy</td></tr><tr><td><strong>Neovim</strong></td><td>Lua colorscheme files</td><td>base, hazy, cloudy</td></tr><tr><td><strong>Ghostty</strong></td><td>Terminal palette files</td><td>base, hazy, cloudy</td></tr><tr><td><strong>Website</strong></td><td>JSON for web showcase</td><td>palette data</td></tr></tbody></table>
+<h3 id="user-content-transparency-levels"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#transparency-levels"><span class="heading-anchor-icon">#</span></a>Transparency Levels</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Variant</th><th>Alpha</th><th>Editor BG</th><th>Appearance</th></tr></thead><tbody><tr><td>Base</td><td>100%</td><td>Opaque</td><td><code>opaque</code></td></tr><tr><td>Hazy</td><td>75%</td><td>Transparent</td><td><code>blurred</code></td></tr><tr><td>Cloudy</td><td>90%</td><td>Transparent</td><td><code>blurred</code></td></tr></tbody></table>
+<p>For detailed documentation, see the <a href="https://github.com/mhamrah/subliminal-nightfall/blob/HEAD/tools/colorloom/README.md" target="_blank" rel="noopener">ColorLoom README</a>.</p>
+<h2 id="user-content-contributing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#contributing"><span class="heading-anchor-icon">#</span></a>Contributing</h2>
+<h3 id="user-content-setup"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#setup"><span class="heading-anchor-icon">#</span></a>Setup</h3>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Install mise (recommended for tool version management)</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">curl</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> https://mise.run</span><span style="color:#D73A49;--shiki-dark:#F97583"> |</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> sh</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">mise</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> install</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Or ensure you have Node.js, pnpm and Rust managed via mise</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">mise</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> install</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Install dependencies</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">mise</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> run</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> install</span></span></code></pre>
+<h3 id="user-content-development"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#development"><span class="heading-anchor-icon">#</span></a>Development</h3>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Install tool versions &#x26; deps</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">mise</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> install</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> &#x26;&#x26; </span><span style="color:#6F42C1;--shiki-dark:#B392F0">mise</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> run</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> install</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Generate themes</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">mise</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> run</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> gen</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Start website</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">mise</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> run</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> dev</span><span style="color:#6A737D;--shiki-dark:#6A737D">  # Visit http://localhost:4321</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Build everything</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">mise</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> run</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> build</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Preview website</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">mise</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> run</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> preview</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Verify symlink setup</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">mise</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> run</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> verify</span></span></code></pre>
+<h3 id="user-content-deploying-the-website"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#deploying-the-website"><span class="heading-anchor-icon">#</span></a>Deploying the Website</h3>
+<p>The showcase website is deployed to Cloudflare Pages at <code>subliminal-nightfall.hamrah.com</code>.</p>
+<p><strong>Automatic Deployment:</strong></p>
+<p>Cloudflare Pages automatically deploys when you push to <code>main</code>:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">git</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> push</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> origin</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> main</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Cloudflare detects changes and deploys automatically</span></span></code></pre>
+<p>The deployment uses these settings:</p>
+<ul>
+<li>Build command: <code>pnpm run build:cloudflare</code></li>
+<li>Output directory: <code>website/dist</code></li>
+<li>Node version: 22</li>
+<li>pnpm version: 10.11.1</li>
+</ul>
+<p><strong>Manual Deployment via Wrangler CLI:</strong></p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">pnpm</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> run</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> build:cloudflare</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">cd</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> website</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">npx</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> wrangler</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> pages</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> deploy</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> dist</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --project-name=subliminal-nightfall</span></span></code></pre>
+<h3 id="user-content-publishing-to-vs-code-marketplace"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#publishing-to-vs-code-marketplace"><span class="heading-anchor-icon">#</span></a>Publishing to VS Code Marketplace</h3>
+<p>The VS Code/Cursor extension automatically publishes to both marketplaces when theme changes are pushed:</p>
+<p><strong>Automatic (via GitHub Actions):</strong></p>
+<ul>
+<li>Triggers on changes to <code>theme.toml</code>, <code>packages/core/**</code>, platform directories, or <code>website/**</code></li>
+<li>Generates themes via Rust CLI and rebuilds website</li>
+<li>Auto-bumps patch versions (Cursor, core if colors changed)</li>
+<li>Computes and tags Zed release versions on Cursor, Zed, or Theme changes</li>
+<li>Publishes VS Code/Cursor extension to Marketplace &#x26; Open VSX</li>
+<li>Packages Zed extension (<code>extension.toml</code> + <code>extension/icon.png</code> + <code>zed/themes/</code>) and attaches to release</li>
+<li>Push of tag <code>v&#x3C;version></code> triggers Zed release workflow via <code>huacnlee/zed-extension-action</code></li>
+<li>Commits version bumps back to repository</li>
+</ul>
+<p><strong>Manual (VS Code / Cursor):</strong></p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">mise</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> install</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">mise</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> run</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> gen</span><span style="color:#6A737D;--shiki-dark:#6A737D">   # generate themes</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">cd</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> cursor</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">pnpm</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> dlx</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> @vscode/vsce</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> publish</span><span style="color:#6A737D;--shiki-dark:#6A737D">   # requires VSCE_PAT</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">pnpm</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> dlx</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> ovsx</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> publish</span><span style="color:#6A737D;--shiki-dark:#6A737D">           # requires OVSX_PAT</span></span></code></pre>
+<p>pnpm dlx downloads and runs a package binary temporarily without a global install, keeping CI and local environments clean and avoiding global bin issues.</p>
+<p><strong>Manual (Website deploy):</strong></p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">mise</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> run</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> build:website</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Deploy manually if needed:</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">cd</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> website</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">wrangler</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> pages</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> deploy</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> dist</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --project-name=subliminal-nightfall</span></span></code></pre>
+<p><strong>Manual (Zed extension tag + PR):</strong></p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Tag matching cursor version</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">VERSION</span><span style="color:#D73A49;--shiki-dark:#F97583">=</span><span style="color:#24292E;--shiki-dark:#E1E4E8">$(</span><span style="color:#6F42C1;--shiki-dark:#B392F0">node</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -e</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> "process.stdout.write(require('./cursor/package.json').version)"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">)</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">git</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> tag</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> "v</span><span style="color:#24292E;--shiki-dark:#E1E4E8">$VERSION</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> &#x26;&#x26; </span><span style="color:#6F42C1;--shiki-dark:#B392F0">git</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> push</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> origin</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> "v</span><span style="color:#24292E;--shiki-dark:#E1E4E8">$VERSION</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># GitHub Action will open release PR via zed-extension-action</span></span></code></pre>
+<h3 id="user-content-zed-extension-release-workflow"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#zed-extension-release-workflow"><span class="heading-anchor-icon">#</span></a>Zed Extension Release Workflow</h3>
+<p>This repo uses <code>huacnlee/zed-extension-action</code> to open a PR against the upstream Zed Extensions repo on new tags:</p>
+<ul>
+<li>Workflow file: <code>.github/workflows/zed-release.yml</code></li>
+<li>Trigger: push of tags <code>v*</code></li>
+<li>Inputs:
+<ul>
+<li><code>extension-name</code>: <code>subliminal-nightfall</code></li>
+<li><code>push-to</code>: set via repo variable <code>ZED_EXTENSIONS_FORK</code> (e.g., <code>yourname/extensions</code> fork)</li>
+</ul>
+</li>
+<li>Secrets:
+<ul>
+<li><code>COMMITTER_TOKEN</code>: Personal Access Token with <code>repo</code> + <code>workflow</code> scopes</li>
+</ul>
+</li>
+</ul>
+<p>On tag push, the action creates/updates the PR to release the extension in Zed.</p>
+<p>Setup locations in GitHub UI:</p>
+<ul>
+<li>Set repo variable: Settings → Secrets and variables → Actions → Variables → New variable → Name: <code>ZED_EXTENSIONS_FORK</code>, Value: <code>mhamrah/extensions</code> (or your fork)</li>
+<li>Set secret: Settings → Secrets and variables → Actions → New repository secret → Name: <code>COMMITTER_TOKEN</code>, Value: your PAT with <code>repo</code> and <code>workflow</code> scopes</li>
+</ul>
+<h3 id="user-content-making-theme-changes"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#making-theme-changes"><span class="heading-anchor-icon">#</span></a>Making Theme Changes</h3>
+<p>Primary source of truth: <code>theme.toml</code>.
+Rust generator: <code>tools/colorloom</code>.</p>
+<p>Workflow:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">mise</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> install</span><span style="color:#6A737D;--shiki-dark:#6A737D">             # install toolchain versions</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">mise</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> run</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> install</span><span style="color:#6A737D;--shiki-dark:#6A737D">         # install Node deps</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">mise</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> run</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> gen</span><span style="color:#6A737D;--shiki-dark:#6A737D">             # generate all theme artifacts</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">mise</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> run</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> dev</span><span style="color:#6A737D;--shiki-dark:#6A737D">             # start website with generated palette</span></span></code></pre>
+<p>Edit colors / variants (base, hazy, cloudy) in <code>theme.toml</code>, then re-run <code>mise run gen</code>.</p>
+<p>Legacy TS palette (<code>packages/core/src/colors.ts</code>) will be aligned to consume <code>theme.toml</code>; prefer editing the TOML.</p>
+<p>Color values (2025-11-14):</p>
+<ul>
+<li>Background: <code>#191724</code></li>
+<li>Background Alt: <code>#1f1d2e</code></li>
+<li>Background Elevated: <code>#26233a</code></li>
+<li>Foreground: <code>#e0def4</code></li>
+<li>Foreground Muted: <code>#a0a0a0</code></li>
+<li>Foreground Dim: <code>#7f7f7f</code></li>
+<li>Selection: <code>#484e5b</code></li>
+<li>Cursor: <code>#5fb3b3</code></li>
+<li>Line Highlight: <code>#2e3239bf</code></li>
+</ul>
+<p>ANSI Base:</p>
+<ul>
+<li>Red: <code>#bf616a</code> / Bright <code>#e2848d</code> / Dim <code>#85434a</code></li>
+<li>Green: <code>#a9cfa4</code> / Bright <code>#ccf2c7</code> / Dim <code>#769072</code></li>
+<li>Yellow: <code>#ffe2a9</code> / Bright <code>#ffffcc</code> / Dim <code>#b29e76</code></li>
+<li>Blue: <code>#6699cc</code> / Bright <code>#89bcef</code> / Dim <code>#476b8e</code></li>
+<li>Magenta: <code>#f1a5ab</code> / Bright <code>#ffc8ce</code> / Dim <code>#a87377</code></li>
+<li>Cyan: <code>#5fb3b3</code> / Bright <code>#82d6d6</code> / Dim <code>#427d7d</code></li>
+</ul>
+<p>Syntax:</p>
+<ul>
+<li>Teal: <code>#9ccfd8</code></li>
+<li>Blue Green: <code>#6699cc</code></li>
+<li>Lavender: <code>#c4a7e7</code></li>
+<li>Gray: <code>#7f7f7f</code></li>
+</ul>
+<p>Release tagging: Zed uses <code>v&#x3C;cursor-version></code>; keep versions in cursor/package.json authoritative.</p>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>MIT License - see <a href="https://github.com/mhamrah/subliminal-nightfall/blob/HEAD/LICENSE" target="_blank" rel="noopener">LICENSE</a> file for details.</p>
+<h2 id="user-content-links"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#links"><span class="heading-anchor-icon">#</span></a>Links</h2>
+<ul>
+<li><strong>Website</strong>: <a href="https://subliminal-nightfall.hamrah.com">subliminal-nightfall.hamrah.com</a></li>
+<li><strong>Repository</strong>: <a href="https://github.com/mhamrah/subliminal-nightfall">github.com/mhamrah/subliminal-nightfall</a></li>
+<li><strong>Issues</strong>: <a href="https://github.com/mhamrah/subliminal-nightfall/issues">github.com/mhamrah/subliminal-nightfall/issues</a></li>
+<li><strong>VS Code Marketplace</strong>: Search "Subliminal Nightfall"</li>
+</ul></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-blue-pale);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>

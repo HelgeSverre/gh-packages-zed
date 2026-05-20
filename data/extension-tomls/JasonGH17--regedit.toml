@@ -1,0 +1,11 @@
+id = "regedit"
+name = "Regedit"
+version = "0.0.1"
+schema_version = 1
+authors = ["Jason Ghantous <jason.ghantous@outlook.com>"]
+description = "Windows Registry language support"
+repository = "https://github.com/JasonGH17/regedit"
+
+[grammars.regedit]
+repository = "https://github.com/JasonGH17/tree-sitter-regedit"
+rev = "a3dd844fc0569769404bb235e6d85b97abcdfd65"

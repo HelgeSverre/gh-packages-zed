@@ -1,0 +1,267 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>React Snippets - Zed Extension Safari</title><meta name="description" content="React snippets for zed code editor"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="React Snippets - Zed Extension Safari"><meta property="og:description" content="React snippets for zed code editor"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="React Snippets - Zed Extension Safari"><meta name="twitter:description" content="React snippets for zed code editor"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><script>
+        (function () {
+            try {
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = stored || (prefersDark ? 'dark' : 'light');
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.vt09FFQM.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> tamimhasandev/react-snippets </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> React Snippets </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> React snippets for zed code editor </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="snippets">Snippets</span> </div> </div> </div> </header> <main class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/react-snippets" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/tamimhasandev/react-snippets" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1.0.6</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">react-snippets</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">MIT</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">11</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">10/28/2025</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">Tamim Hasan</dd> </div> </dl>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><p>A collection of essential React snippets for Zed code editor that boosts your development workflow with smart shortcuts for common React patterns and hooks.</p>
+<h2 id="user-content-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features"><span class="heading-anchor-icon">#</span></a>Features</h2>
+<ul>
+<li>🚀 30+ essential React snippets</li>
+<li>⚡️ Lightning-fast component scaffolding</li>
+<li>🎣 All major React hooks support</li>
+<li>🧩 Common patterns like context providers, prop types, and event handlers</li>
+<li>📝 JSX and TypeScript friendly</li>
+</ul>
+<h2 id="user-content-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation"><span class="heading-anchor-icon">#</span></a>Installation</h2>
+<ol>
+<li>Open Zed editor</li>
+<li>Go to `Extensions` in the command palette (`Cmd+K`)</li>
+<li>Search for "React Snippets"</li>
+<li>Click `Install`</li>
+</ol>
+<h2 id="user-content-snippet-usage"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#snippet-usage"><span class="heading-anchor-icon">#</span></a>Snippet Usage</h2>
+<p>Type the prefix and press `Tab` to expand the snippet. Use `Tab` and `Shift+Tab` to navigate between placeholders.</p>
+<h2 id="user-content-snippet-reference"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#snippet-reference"><span class="heading-anchor-icon">#</span></a>Snippet Reference</h2>
+<h3 id="user-content-component-scaffolding"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#component-scaffolding"><span class="heading-anchor-icon">#</span></a>Component Scaffolding</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Prefix</th><th>Description</th><th>Snippet Preview</th></tr></thead><tbody><tr><td>`rfc`</td><td>Function component</td><td>`function Component() { ... }`</td></tr><tr><td>`rfce`</td><td>Default Export Function component</td><td>`default export function Component() { ... }`</td></tr><tr><td>`rfcp`</td><td>Component with props</td><td>`function Component({ prop }) { ... }`</td></tr><tr><td>`rfce`</td><td>Component with export</td><td>`export default function Component() {...}`</td></tr><tr><td>`memo`</td><td>Memoized component</td><td>`React.memo(Component)`</td></tr><tr><td>`frag`</td><td>React Fragment</td><td>`&#x3C;>&#x3C;/>`</td></tr><tr><td>`rsc`</td><td>React Stateless Component</td><td>`function Component() { ... }`</td></tr></tbody></table>
+<h3 id="user-content-react-hooks"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#react-hooks"><span class="heading-anchor-icon">#</span></a>React Hooks</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Prefix</th><th>Description</th><th>Snippet Preview</th></tr></thead><tbody><tr><td>`rsta`</td><td>State hook</td><td>`const [state, setState] = useState()`</td></tr><tr><td>`reff`</td><td>Effect hook</td><td>`useEffect(() => {...}, [])`</td></tr><tr><td>`rcon`</td><td>Context hook</td><td>`const ctx = useContext(Context)`</td></tr><tr><td>`rref`</td><td>Ref hook</td><td>`const ref = useRef()`</td></tr><tr><td>`rmem`</td><td>Memoization hook</td><td>`const value = useMemo(() => ...)`</td></tr><tr><td>`rcal`</td><td>Callback hook</td><td>`const cb = useCallback(() => ...)`</td></tr></tbody></table>
+<h3 id="user-content-event-handlers"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#event-handlers"><span class="heading-anchor-icon">#</span></a>Event Handlers</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Prefix</th><th>Description</th><th>Snippet Preview</th></tr></thead><tbody><tr><td>`handler`</td><td>Generic event handler</td><td>`const handleEvent = (e) => {...}`</td></tr><tr><td>`onClick`</td><td>Click handler</td><td>`onClick={handleClick}`</td></tr><tr><td>`onChange`</td><td>Change handler</td><td>`onChange={handleChange}`</td></tr><tr><td>`onSubmit`</td><td>Form submit handler</td><td>`onSubmit={handleSubmit}`</td></tr></tbody></table>
+<h3 id="user-content-utilities"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#utilities"><span class="heading-anchor-icon">#</span></a>Utilities</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Prefix</th><th>Description</th><th>Snippet Preview</th></tr></thead><tbody><tr><td>`cond`</td><td>Conditional rendering</td><td>`{condition ? a : b}`</td></tr><tr><td>`map`</td><td>Array mapping</td><td>`{array.map(item => ...)}`</td></tr><tr><td>`context`</td><td>Context provider</td><td>`const Context = createContext()`</td></tr><tr><td>`styled`</td><td>Styled component</td><td>`const Styled = styled.div`...</td></tr><tr><td>`ptypes`</td><td>PropTypes definition</td><td>`Component.propTypes = {...}`</td></tr></tbody></table>
+<h3 id="user-content-imports"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#imports"><span class="heading-anchor-icon">#</span></a>Imports</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Prefix</th><th>Description</th><th>Snippet Preview</th></tr></thead><tbody><tr><td>`imr`</td><td>Import React</td><td>`import React from 'react'`</td></tr><tr><td>`imrh`</td><td>Import React with hooks</td><td>`import React, { useState } from 'react'`</td></tr><tr><td>`impt`</td><td>Import PropTypes</td><td>`import PropTypes from 'prop-types'`</td></tr></tbody></table>
+<h2 id="user-content-example-workflow"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#example-workflow"><span class="heading-anchor-icon">#</span></a>Example Workflow</h2>
+<ol>
+<li>Create a new component file</li>
+<li>Type `rfce` + `Tab` to scaffold a component</li>
+<li>Add state with `useState` + `Tab`</li>
+<li>Add effect with `useEffect` + `Tab`</li>
+<li>Add click handler with `onClick` + `Tab`</li>
+</ol>
+<p>```jsx
+function Counter() {
+const [count, setCount] = useState(0); // ← useState snippet</p>
+<p>useEffect(() => { // ← useEffect snippet
+document.title = `Count: ${count}`;
+}, [count]);</p>
+<p>const handleClick = () => { // ← handler snippet
+setCount(c => c + 1);
+};</p>
+<p>return (
+ // ← onClick snippet
+Count: {count}
+
+);
+}</p>
+<p>export default Counter;
+```</p>
+<h2 id="user-content-contributing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#contributing"><span class="heading-anchor-icon">#</span></a>Contributing</h2>
+<p>Contributions are welcome! To add new snippets:</p>
+<ol>
+<li>Fork the repository</li>
+<li>Add your snippets to `snippets.json`</li>
+<li>Submit a pull request</li>
+</ol>
+<hr>
+<p><strong>Happy Coding!</strong> 🚀
+Boost your React development with these essential Zed snippets.`;</p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-blue-pale);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>

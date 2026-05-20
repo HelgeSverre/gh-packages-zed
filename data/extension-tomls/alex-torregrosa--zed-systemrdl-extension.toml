@@ -1,0 +1,12 @@
+id = "systemrdl"
+name = "SystemRDL"
+version = "0.0.2"
+schema_version = 1
+authors = ["Àlex Torregrosa <alex@torregrosa.cc>"]
+description = "Support for the SystemRDL language"
+repository = "https://github.com/alex-torregrosa/zed-systemrdl-extension"
+
+# Using my own fork until changes are merged upstream
+[grammars.systemrdl]
+repository = "https://github.com/alex-torregrosa/tree-sitter-systemrdl"
+rev = "c13d48cc9b2da3269486f3921e3a7722be4114b2"

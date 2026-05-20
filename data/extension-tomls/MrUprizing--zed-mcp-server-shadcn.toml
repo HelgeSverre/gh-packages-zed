@@ -1,0 +1,10 @@
+id = "shadcn-mcp"
+name = "shadcn/ui MCP"
+version = "0.1.0"
+schema_version = 1
+authors = ["uprizing <uprizingfaze@gmail.com>"]
+description = "Use the shadcn MCP server to browse, search, and install components from registries."
+repository = "https://github.com/MrUprizing/zed-mcp-server-shadcn"
+
+[context_servers.shadcn-mcp-server]
+name = "shadcn/ui MCP Server"

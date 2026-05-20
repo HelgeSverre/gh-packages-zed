@@ -1,0 +1,103 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Rego - Zed Extension Safari</title><meta name="description" content="Zed extension for the Rego policy language"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Rego - Zed Extension Safari"><meta property="og:description" content="Zed extension for the Rego policy language"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Rego - Zed Extension Safari"><meta name="twitter:description" content="Zed extension for the Rego policy language"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><script>
+        (function () {
+            try {
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = stored || (prefersDark ? 'dark' : 'light');
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.vt09FFQM.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> SiennaTransfer4/zed-rego </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> Rego </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> Zed extension for the Rego policy language </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="grammar">Grammar</span><span class="cat-badge" data-cat="language-server">Language Server</span> </div> </div> </div> </header> <main class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/rego" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/SiennaTransfer4/zed-rego" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.0.2</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">rego</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">Rust</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">Apache-2.0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">1</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">11/20/2025</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">Styra Community</dd> </div> </dl>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-zed-rego-extension"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#zed-rego-extension"><span class="heading-anchor-icon">#</span></a>Zed Rego Extension</h1>
+<p><a href="https://github.com/styrainc/zed-rego/actions"><img src="https://github.com/styrainc/zed-rego/workflows/Build/badge.svg" alt="Build Status"></a></p>
+<p>Zed extension for the Rego policy language from <a href="https://github.com/open-policy-agent/opa/">Open Policy Agent</a> (OPA).</p>
+<p><img src="https://raw.githubusercontent.com/SiennaTransfer4/zed-rego/HEAD/docs/usage.gif" alt="usage of the extension"></p>
+<p>See the blog
+<a href="https://www.styra.com/blog/introducing-the-rego-extension-for-the-zed-editor/">introducing the zed-rego extension</a>
+if you want to learn more about the background and motivation for this extension, as well as a detailed overview of its
+features.</p>
+<h2 id="user-content-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features"><span class="heading-anchor-icon">#</span></a>Features</h2>
+<h3 id="user-content-rego-syntax-support"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#rego-syntax-support"><span class="heading-anchor-icon">#</span></a>Rego Syntax Support</h3>
+<p>Basic features like syntax highlighting and indentation works out of the box. More advanced features are provided
+by <a href="https://github.com/styrainc/regal">Regal</a>.</p>
+<h3 id="user-content-regal-language-server-support"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#regal-language-server-support"><span class="heading-anchor-icon">#</span></a>Regal Language Server Support</h3>
+<p>This extension uses the Regal language server for Rego to provide most of its
+functionality. The following features of the language server are currently supported:</p>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" checked disabled> Diagnostics (linting)</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> Hover (inline docs on built-in functions)</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> Go to definition (cmd + click on a reference to go to definition)</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> Folding ranges (expand/collapse blocks, imports, comments)</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> Document and workspace symbols (cmd+t to navigate to rules, functions, packages)</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> Inlay hints (but may need to be enabled in settings "Toggle inlay hints")</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> Formatting</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> Code actions</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> Code completion</li>
+<li class="task-list-item"><input type="checkbox" disabled> Code lenses (click to evaluate package or rule) - not yet supported by Zed</li>
+</ul>
+<p>To learn more about each language server feature provided, see the
+Regal <a href="https://docs.styra.com/regal/language-server">language server</a> documentation.</p>
+<h2 id="user-content-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation"><span class="heading-anchor-icon">#</span></a>Installation</h2>
+<p>This extension is available in the Zed extension marketplace, and you'll find it by searching for "rego" in the
+extensions view.</p>
+<p>Since the extension makes use of <a href="https://github.com/styrainc/regal">Regal</a> for language server features, the extension
+will automatically try to download the latest version of Regal to use, unless the <code>regal</code> binary is found on <code>$PATH</code>.</p>
+<p>If you want to have updates of Regal managed automatically, you can use Homebrew to install the <code>regal</code> binary instead
+(MacOS &#x26; Linux):</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">brew</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> install</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> styrainc/packages/regal</span></span></code></pre>
+<h2 id="user-content-tasks"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#tasks"><span class="heading-anchor-icon">#</span></a>Tasks</h2>
+<p>This extension additionally provides two <a href="https://zed.dev/docs/tasks">tasks</a> for running tests. Note that both of the
+tasks assume that the workspace can be read as a bundle (similarly to what the
+<a href="https://marketplace.visualstudio.com/items?itemName=tsandall.opa">OPA extension for VS Code</a> expects).</p>
+<h3 id="user-content-opa-test-workspace"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#opa-test-workspace"><span class="heading-anchor-icon">#</span></a>opa test (workspace)</h3>
+<p>Runs all tests found in the workspace. This is a normal task made available in the command palette (<code>task: spawn</code>).</p>
+<h3 id="user-content-opa-test-single-test"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#opa-test-single-test"><span class="heading-anchor-icon">#</span></a>opa test (single test)</h3>
+<p>This is a special task (called a <em>runnable</em>) which is made available inside of test packages, and
+where a "play" button will appear next to any test rule. Pressing this button will run only that test.</p>
+<h3 id="user-content-opa-eval-"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#opa-eval-"><span class="heading-anchor-icon">#</span></a>opa eval ?</h3>
+<p>The <code>opa eval</code> command requires a query containing the full path to what should be evaluated. This is commonly the
+package path + the name of the rule to be evaluated. While we can use a tree-sitter query to extract the rule name —
+like we do for running single tests — we have yet to understand if it's possible / how to extract both the package
+path and the rule name and concatenate them to build a query.</p>
+<p>You can however easily create a <a href="#custom-tasks">custom task</a> for <code>opa eval</code> where you provide the query yourself, and
+use that in your project. Such a task may look something like the example below:</p>
+<p><strong>.zed/tasks.json</strong></p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">[</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "label"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"opa eval (data.policy.main)"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "command"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"opa"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "args"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"eval"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"--bundle"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"$ZED_WORKTREE_ROOT"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"--input"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"$ZED_WORKTREE_ROOT/input.json"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"data.policy.main"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">],</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span></code></pre>
+<h2 id="user-content-custom-tasks"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#custom-tasks"><span class="heading-anchor-icon">#</span></a>Custom Tasks</h2>
+<p>See the Zed documentation <a href="https://zed.dev/docs/tasks">tasks</a> for information about how to easily add your own custom
+tasks, either globally or to a specific project. These docs also details which environment variables are available in
+the task execution context.</p>
+<h2 id="user-content-development"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#development"><span class="heading-anchor-icon">#</span></a>Development</h2>
+<p>See the docs on <a href="https://github.com/SiennaTransfer4/zed-rego/blob/HEAD/docs/CONTRIBUTING.md" target="_blank" rel="noopener">contributing</a> if you're interested in hacking on this extension.</p>
+<h2 id="user-content-credits"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#credits"><span class="heading-anchor-icon">#</span></a>Credits</h2>
+<ul>
+<li>Tree-sitter grammar provided by the <a href="https://github.com/FallenAngel97/tree-sitter-rego">tree-sitter-rego</a> project</li>
+<li>Language server for Rego provided by <a href="https://github.com/StyraInc/regal">Regal</a></li>
+</ul>
+<h2 id="user-content-community"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#community"><span class="heading-anchor-icon">#</span></a>Community</h2>
+<p>For questions, discussions and announcements related to Styra products, services and open source projects, please join
+the Styra community on <a href="https://inviter.co/styra">Slack</a>!</p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-blue-pale);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>

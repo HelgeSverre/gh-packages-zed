@@ -1,0 +1,46 @@
+id = "semgrep"
+name = "Semgrep"
+version = "0.0.3"
+schema_version = 1
+description = "Semgrep language server integration for Zed"
+authors = ["Zeel Sheladiya"]
+repository = "https://github.com/zeelsheladiya/zed-semgrep"
+
+[language_servers.semgrep]
+name = "Semgrep"
+languages = [
+  "JavaScript",
+  "TypeScript",
+  "TSX",
+  "Python",
+  "Go",
+  "Java",
+  "Ruby",
+  "Rust",
+  "C",
+  "C++",
+  "C#",
+  "PHP",
+  "Dockerfile",
+  "JSON",
+  "YAML",
+  "Terraform",
+]
+
+[language_servers.semgrep.language_ids]
+JavaScript = "javascript"
+TypeScript = "typescript"
+TSX = "typescriptreact"
+Python = "python"
+Go = "go"
+Java = "java"
+Ruby = "ruby"
+Rust = "rust"
+C = "c"
+"C++" = "cpp"
+"C#" = "csharp"
+PHP = "php"
+Dockerfile = "dockerfile"
+JSON = "json"
+YAML = "yaml"
+Terraform = "terraform"

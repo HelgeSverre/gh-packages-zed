@@ -1,0 +1,244 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>shhhed - Zed Extension Safari</title><meta name="description" content="🤫 Theme that dims the scaffolding and colors what matters."><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="shhhed - Zed Extension Safari"><meta property="og:description" content="🤫 Theme that dims the scaffolding and colors what matters."><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="shhhed - Zed Extension Safari"><meta name="twitter:description" content="🤫 Theme that dims the scaffolding and colors what matters."><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><script>
+        (function () {
+            try {
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = stored || (prefersDark ? 'dark' : 'light');
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.vt09FFQM.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> mkhamat/shhhed </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> shhhed </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> 🤫 Theme that dims the scaffolding and colors what matters. Dark and light. </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="theme">Theme</span> </div> </div> </div> </header> <main class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/shhhed-theme" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/mkhamat/shhhed" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1.52.0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">shhhed-theme</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">MIT</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">17</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">3/13/2026</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">mkhamat</dd> </div> </dl>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><p><img src="https://raw.githubusercontent.com/mkhamat/shhhed/HEAD/dark.png" alt="shhhed dark"></p>
+<blockquote>
+<p>Font: Iosevka SS14 (JetBrains Mono) 548 · Terminal: Iosevka Term SS10 · Icons: <a href="https://zed.dev/extensions/fantasticons-icons-theme">FantastIcons</a> · Tip: <code>"colorize_brackets": false</code></p>
+</blockquote>
+<h1 id="user-content-shhhed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#shhhed"><span class="heading-anchor-icon">#</span></a>shhhed</h1>
+<p>A quiet theme for <a href="https://zed.dev">Zed</a>. Scaffolding recedes, meaning emerges.</p>
+<h2 id="user-content-design"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#design"><span class="heading-anchor-icon">#</span></a>Design</h2>
+<p>Five brightness tiers, assigned by how much each token matters when scanning code:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Tier</th><th>OKLCH L</th><th>Examples</th><th>Role</th></tr></thead><tbody><tr><td>Canvas</td><td>—</td><td>Editor <img src="https://placehold.co/10x10/1e1e22/1e1e22" alt="#1e1e22"> <code>#1e1e22</code>, chrome <img src="https://placehold.co/10x10/1a1a1e/1a1a1e" alt="#1a1a1e"> <code>#1a1a1e</code></td><td>Background</td></tr><tr><td>Recede</td><td>0.56–0.60</td><td>Comments <img src="https://placehold.co/10x10/797981/797981" alt="#797981"> <code>#797981</code>, Punctuation <img src="https://placehold.co/10x10/74747a/74747a" alt="#74747a"> <code>#74747a</code></td><td>Present but not competing</td></tr><tr><td>Structural</td><td>0.62–0.67</td><td>Operators <img src="https://placehold.co/10x10/929296/929296" alt="#929296"> <code>#929296</code>, Keywords <img src="https://placehold.co/10x10/918699/918699" alt="#918699"> <code>#918699</code>, Attributes / properties / parameters / member vars <img src="https://placehold.co/10x10/909094/909094" alt="#909094"> <code>#909094</code></td><td>Scaffolding</td></tr><tr><td>Semantic</td><td>0.68–0.71</td><td>Types <img src="https://placehold.co/10x10/60b1b1/60b1b1" alt="#60b1b1"> <code>#60b1b1</code>, Functions <img src="https://placehold.co/10x10/729bcf/729bcf" alt="#729bcf"> <code>#729bcf</code>, Strings <img src="https://placehold.co/10x10/c48d2f/c48d2f" alt="#c48d2f"> <code>#c48d2f</code>, Numbers <img src="https://placehold.co/10x10/ca8489/ca8489" alt="#ca8489"> <code>#ca8489</code></td><td>Meaning</td></tr><tr><td>Reading</td><td>0.76–0.79</td><td>Variables <img src="https://placehold.co/10x10/b8b8bc/b8b8bc" alt="#b8b8bc"> <code>#b8b8bc</code>, Constructors <img src="https://placehold.co/10x10/c6a6be/c6a6be" alt="#c6a6be"> <code>#c6a6be</code>, Variants <img src="https://placehold.co/10x10/c6a6be/c6a6be" alt="#c6a6be"> <code>#c6a6be</code></td><td>What you're reading</td></tr></tbody></table>
+<ul>
+<li>Near-neutral canvas with blue undertone. Compatible with Night Shift / f.lux.</li>
+<li>Palette computed in <a href="https://oklch.com">OKLCH</a>. Same-tier tokens differ by hue, not brightness.</li>
+<li>Saturation under 50% HSL (most under 40%) to reduce strain on dark backgrounds.</li>
+<li>Structural tokens clear 4.5:1 against the canvas (WCAG AA). Recede tokens sit at 3.5–4.1:1 — legible but not competing.</li>
+</ul>
+<h2 id="user-content-palette"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#palette"><span class="heading-anchor-icon">#</span></a>Palette</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Token</th><th>Color</th><th>Hex</th></tr></thead><tbody><tr><td>Types</td><td><img src="https://placehold.co/16x16/60b1b1/60b1b1" alt="#60b1b1"></td><td><code>#60b1b1</code></td></tr><tr><td>Functions</td><td><img src="https://placehold.co/16x16/729bcf/729bcf" alt="#729bcf"></td><td><code>#729bcf</code></td></tr><tr><td>Strings</td><td><img src="https://placehold.co/16x16/c48d2f/c48d2f" alt="#c48d2f"></td><td><code>#c48d2f</code></td></tr><tr><td>Numbers</td><td><img src="https://placehold.co/16x16/ca8489/ca8489" alt="#ca8489"></td><td><code>#ca8489</code></td></tr><tr><td>Keywords</td><td><img src="https://placehold.co/16x16/918699/918699" alt="#918699"></td><td><code>#918699</code></td></tr><tr><td>Background</td><td><img src="https://placehold.co/16x16/1e1e22/1e1e22" alt="#1e1e22"></td><td><code>#1e1e22</code></td></tr></tbody></table>
+<p><img src="https://raw.githubusercontent.com/mkhamat/shhhed/HEAD/dark2.png" alt="shhhed dark ui"></p>
+<h2 id="user-content-light"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#light"><span class="heading-anchor-icon">#</span></a>Light</h2>
+<p>Same five tiers, inverted. Cool canvas, gray scaffolding, vivid meaning.</p>
+<p>On a dark background, brighter and more colorful both mean "more visible." The eye gets two signals, so small lightness gaps are enough to tell tiers apart.</p>
+<p>On a light background, darker and more colorful pull apart: a token can be dark or vivid, but not both. Structural tokens stay dark and neutral; semantic tokens trade some darkness for high chroma so they stand out through color intensity instead.</p>
+<p><img src="https://raw.githubusercontent.com/mkhamat/shhhed/HEAD/light.png" alt="shhhed light"></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Tier</th><th>OKLCH L</th><th>C</th><th>Examples</th><th>Role</th></tr></thead><tbody><tr><td>Canvas</td><td>0.97</td><td>~0</td><td>Background <img src="https://placehold.co/10x10/f1f6fb/f1f6fb" alt="#f1f6fb"> <code>#f1f6fb</code></td><td>Background</td></tr><tr><td>Recede</td><td>0.58–0.60</td><td>0.01–0.02</td><td>Comments <img src="https://placehold.co/10x10/877f73/877f73" alt="#877f73"> <code>#877f73</code>, Punctuation <img src="https://placehold.co/10x10/7f7970/7f7970" alt="#7f7970"> <code>#7f7970</code></td><td>Present but not competing</td></tr><tr><td>Structural</td><td>0.53–0.55</td><td>0.02–0.07</td><td>Keywords <img src="https://placehold.co/10x10/79658d/79658d" alt="#79658d"> <code>#79658d</code>, Operators <img src="https://placehold.co/10x10/726b5f/726b5f" alt="#726b5f"> <code>#726b5f</code>, Properties <img src="https://placehold.co/10x10/756d62/756d62" alt="#756d62"> <code>#756d62</code></td><td>Scaffolding</td></tr><tr><td>Semantic</td><td>0.49–0.60</td><td>0.12–0.22</td><td>Types <img src="https://placehold.co/10x10/008cb4/008cb4" alt="#008cb4"> <code>#008cb4</code>, Functions <img src="https://placehold.co/10x10/0050d8/0050d8" alt="#0050d8"> <code>#0050d8</code>, Strings <img src="https://placehold.co/10x10/a85b01/a85b01" alt="#a85b01"> <code>#a85b01</code>, Numbers <img src="https://placehold.co/10x10/c82868/c82868" alt="#c82868"> <code>#c82868</code></td><td>Meaning</td></tr><tr><td>Reading</td><td>0.28–0.41</td><td>0.01–0.20</td><td>Variables <img src="https://placehold.co/10x10/2d2821/2d2821" alt="#2d2821"> <code>#2d2821</code>, Constructors <img src="https://placehold.co/10x10/6a1098/6a1098" alt="#6a1098"> <code>#6a1098</code></td><td>What you're reading</td></tr></tbody></table>
+<ul>
+<li>Cool-white canvas (L=0.97) with blue undertone, matching the dark variant.</li>
+<li>Chroma carries the tier signal — semantic tokens pop through color intensity (C=0.12–0.22) against near-neutral structural tokens (C≈0.02–0.07).</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Token</th><th>Color</th><th>Hex</th><th>OKLCH</th></tr></thead><tbody><tr><td>Types</td><td><img src="https://placehold.co/16x16/008cb4/008cb4" alt="#008cb4"></td><td><code>#008cb4</code></td><td>L=0.60 C=0.12 H=227</td></tr><tr><td>Functions</td><td><img src="https://placehold.co/16x16/0050d8/0050d8" alt="#0050d8"></td><td><code>#0050d8</code></td><td>L=0.49 C=0.22 H=262</td></tr><tr><td>Strings</td><td><img src="https://placehold.co/16x16/a85b01/a85b01" alt="#a85b01"></td><td><code>#a85b01</code></td><td>L=0.55 C=0.13 H=59</td></tr><tr><td>Numbers</td><td><img src="https://placehold.co/16x16/c82868/c82868" alt="#c82868"></td><td><code>#c82868</code></td><td>L=0.56 C=0.20 H=3</td></tr><tr><td>Keywords</td><td><img src="https://placehold.co/16x16/79658d/79658d" alt="#79658d"></td><td><code>#79658d</code></td><td>L=0.54 C=0.07 H=307</td></tr><tr><td>Background</td><td><img src="https://placehold.co/16x16/f1f6fb/f1f6fb" alt="#f1f6fb"></td><td><code>#f1f6fb</code></td><td>L=0.97 C=0.01 H=248</td></tr></tbody></table>
+<p><img src="https://raw.githubusercontent.com/mkhamat/shhhed/HEAD/light2.png" alt="shhhed light ui"></p>
+<h2 id="user-content-install"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#install"><span class="heading-anchor-icon">#</span></a>Install</h2>
+<p><a href="https://zed.dev/extensions/shhhed-theme">shhhed</a> in Zed extensions.</p>
+<h2 id="user-content-further-reading"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#further-reading"><span class="heading-anchor-icon">#</span></a>Further reading</h2>
+<ul>
+<li><a href="https://git.apcacontrast.com/documentation/APCA_in_a_Nutshell.html">APCA Contrast Algorithm</a></li>
+<li><a href="https://oklch.com">OKLCH Color Space</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Helmholtz%E2%80%93Kohlrausch_effect">Helmholtz–Kohlrausch effect</a></li>
+<li><a href="https://tonsky.me/blog/syntax-highlighting/">Syntax Highlighting Done Right</a> — Tonsky</li>
+</ul>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>MIT</p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-blue-pale);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>

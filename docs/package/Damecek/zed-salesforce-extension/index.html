@@ -1,0 +1,526 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Salesforce - Zed Extension Safari</title><meta name="description" content="Salesforce Apex language support for Zed"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Salesforce - Zed Extension Safari"><meta property="og:description" content="Salesforce Apex language support for Zed"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Salesforce - Zed Extension Safari"><meta name="twitter:description" content="Salesforce Apex language support for Zed"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><script>
+        (function () {
+            try {
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = stored || (prefersDark ? 'dark' : 'light');
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.vt09FFQM.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> Damecek/zed-salesforce-extension </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> Salesforce </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> Salesforce DX language support for Zed (Apex LSP via aer; jorje opt-in). </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="grammar">Grammar</span><span class="cat-badge" data-cat="language-server">Language Server</span><span class="cat-badge" data-cat="snippets">Snippets</span> </div> </div> </div> </header> <main class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/salesforce" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/Damecek/zed-salesforce-extension" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.0.4</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">salesforce</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">Shell</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">MIT</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">8</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">4d ago</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">zed-salesforce-extension contributors</dd> </div> </dl>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-zed-salesforce-extension"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#zed-salesforce-extension"><span class="heading-anchor-icon">#</span></a>zed-salesforce-extension</h1>
+<p>Salesforce DX language support for the Zed editor. Apex is backed by <a href="https://github.com/octoberswimmer/aer-dist/"><code>aer</code></a> (default) or Salesforce's Java-based Apex Language Server (<code>apex-jorje-lsp.jar</code>, opt-in). The extension scope covers additional Salesforce languages (SOQL/SOSL/logs today, LWC/Aura/Visualforce next).</p>
+<h2 id="user-content-project-goal"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#project-goal"><span class="heading-anchor-icon">#</span></a>Project Goal</h2>
+<p>Build a <strong>Zed extension</strong> that enables Salesforce DX development with a practical MVP:</p>
+<ul>
+<li>Salesforce source files are recognized in Zed (current: Apex + SOQL/SOSL/logs).</li>
+<li>Basic syntax highlighting works (comments vs code, keywords, strings, etc.).</li>
+<li>Apex Language Server (LSP) starts successfully for Apex files.</li>
+<li>Core LSP features are available where the active backend supports them (at minimum diagnostics and completion).</li>
+</ul>
+<p>This repository is in <strong>MVP bootstrap implementation</strong>: core language support and Apex LSP startup wiring are in place, with validation/operational hardening still in progress.</p>
+<h2 id="user-content-source-documentation-and-inputs"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#source-documentation-and-inputs"><span class="heading-anchor-icon">#</span></a>Source Documentation and Inputs</h2>
+<p>Primary references for this architecture:</p>
+<ul>
+<li>Zed extension docs (development model):
+<a href="https://zed.dev/docs/extensions/developing-extensions">https://zed.dev/docs/extensions/developing-extensions</a></li>
+<li>Zed language extensions docs (grammar, <code>config.toml</code>, language servers):
+<a href="https://zed.dev/docs/extensions/languages">https://zed.dev/docs/extensions/languages</a></li>
+<li>Salesforce VS Code extension source (upstream):
+<a href="https://github.com/forcedotcom/salesforcedx-vscode.git">https://github.com/forcedotcom/salesforcedx-vscode.git</a></li>
+<li>Key Apex LSP bootstrap file (upstream path):
+<code>packages/salesforcedx-vscode-apex/src/languageServer.ts</code></li>
+<li>Official Salesforce Apex Language Server docs:
+<a href="https://developer.salesforce.com/docs/platform/sfvscode-extensions/guide/apex-language-server.html">https://developer.salesforce.com/docs/platform/sfvscode-extensions/guide/apex-language-server.html</a></li>
+<li>Official Salesforce Java setup docs for Apex runtime:
+<a href="https://developer.salesforce.com/docs/platform/sfvscode-extensions/guide/java-setup.html">https://developer.salesforce.com/docs/platform/sfvscode-extensions/guide/java-setup.html</a></li>
+<li>Language Server Protocol (LSP) specification:
+<a href="https://github.com/microsoft/language-server-protocol">https://github.com/microsoft/language-server-protocol</a></li>
+</ul>
+<h2 id="user-content-apex-lsp-backends"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#apex-lsp-backends"><span class="heading-anchor-icon">#</span></a>Apex LSP backends</h2>
+<p>The extension supports two Apex language server backends, selectable via <code>lsp.apex-lsp.settings.backend</code>:</p>
+<ul>
+<li><code>aer</code> (default) — <a href="https://github.com/octoberswimmer/aer-dist/"><code>aer</code></a> is a fast, modern, native Apex language server distributed as a single binary. No JVM required. Source paths are auto-discovered from <code>sfdx-project.json</code> <code>packageDirectories</code>.</li>
+<li><code>jorje</code> — Salesforce's official Java-based <code>apex-jorje-lsp.jar</code> (downloaded and cached on first launch). Requires a Java 11+ runtime on the system.</li>
+</ul>
+<p>To opt into jorje, set:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "apex-lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"backend"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"jorje"</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h2 id="user-content-apex-formatting-with-prettier"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#apex-formatting-with-prettier"><span class="heading-anchor-icon">#</span></a>Apex formatting with Prettier</h2>
+<p>The Apex language declaration sets <code>prettier_parser_name = "apex"</code>, so Zed's
+built-in Prettier picks up the right parser. Users still need to enable
+Prettier and provide <a href="https://github.com/dangmai/prettier-plugin-apex"><code>prettier-plugin-apex</code></a>.</p>
+<p>Recommended <code>.zed/settings.json</code> for an SFDX project:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "languages"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "Apex"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "format_on_save"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"on"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "formatter"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"prettier"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "prettier"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "allowed"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">true</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "parser"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"apex"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "plugins"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"prettier-plugin-apex"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>If the project has its own <code>package.json</code> / <code>.prettierrc</code>, Zed will use the
+project-local Prettier and config (so the <code>plugins</code> and <code>options</code> keys above
+are ignored, but <code>allowed</code> and <code>parser</code> still apply). Anonymous Apex blocks
+should use <code>"parser": "apex-anonymous"</code>.</p>
+<p>Alternative — invoke Prettier as an external formatter (no bundled Prettier
+needed, calls <code>npx</code>):</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "languages"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "Apex"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "format_on_save"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"on"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "formatter"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "external"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">          "command"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"npx"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">          "arguments"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span></span>
+<span class="line"><span style="color:#032F62;--shiki-dark:#9ECBFF">            "prettier"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#032F62;--shiki-dark:#9ECBFF">            "--plugin=prettier-plugin-apex"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#032F62;--shiki-dark:#9ECBFF">            "--parser"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"apex"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#032F62;--shiki-dark:#9ECBFF">            "--stdin-filepath"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"{buffer_path}"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">          ]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">        }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h2 id="user-content-what-we-learn-from-existing-salesforce-implementation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#what-we-learn-from-existing-salesforce-implementation"><span class="heading-anchor-icon">#</span></a>What We Learn from Existing Salesforce Implementation</h2>
+<p>The legacy reference for the jorje backend comes from Salesforce's VS Code extension. From <code>languageServer.ts</code>, Salesforce VS Code extension starts the language server as:</p>
+<ul>
+<li>Java command from discovered JDK/JRE home (<code>&#x3C;java_home>/bin/java</code>).</li>
+<li>Classpath set to <code>apex-jorje-lsp.jar</code>.</li>
+<li>Main class: <code>apex.jorje.lsp.ApexLanguageServerLauncher</code>.</li>
+<li>Additional JVM flags for diagnostics/telemetry/debug features.</li>
+</ul>
+<p>That means when the jorje backend is selected, this project treats <strong><code>apex-jorje-lsp.jar</code> as the authoritative LSP server binary payload</strong>, launched as a Java process.</p>
+<p>From <code>requirements.ts</code> + Salesforce Java setup docs:</p>
+<ul>
+<li>Java path resolution strategy should support explicit config + env vars (<code>JAVA_HOME</code> / <code>JDK_HOME</code>).</li>
+<li>Java runtime check should verify executable presence and supported version.</li>
+<li>The Apex LSP backend requires Java 11+; Salesforce recommends Java 21.</li>
+</ul>
+<h2 id="user-content-target-zed-extension-architecture"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#target-zed-extension-architecture"><span class="heading-anchor-icon">#</span></a>Target Zed Extension Architecture</h2>
+<h2 id="user-content-1-extension-package-layout"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#1-extension-package-layout"><span class="heading-anchor-icon">#</span></a>1) Extension package layout</h2>
+<p>Planned structure (high-level):</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span>.</span></span>
+<span class="line"><span>├─ extension.toml</span></span>
+<span class="line"><span>├─ Cargo.toml</span></span>
+<span class="line"><span>├─ src/</span></span>
+<span class="line"><span>│  └─ lib.rs</span></span>
+<span class="line"><span>├─ languages/</span></span>
+<span class="line"><span>│  └─ apex/</span></span>
+<span class="line"><span>│     ├─ config.toml</span></span>
+<span class="line"><span>│     ├─ highlights.scm</span></span>
+<span class="line"><span>│     ├─ brackets.scm            (optional early)</span></span>
+<span class="line"><span>│     ├─ textobjects.scm         (optional, later)</span></span>
+<span class="line"><span>│     └─ injections.scm          (optional, later)</span></span>
+<span class="line"><span>└─ (no `grammars/` dir required; Tree-sitter grammars are fetched from Git repos declared in `extension.toml`)</span></span></code></pre>
+<h2 id="user-content-2-language-registration-in-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#2-language-registration-in-zed"><span class="heading-anchor-icon">#</span></a>2) Language registration in Zed</h2>
+<p>Implement <code>languages/apex/config.toml</code> with:</p>
+<ul>
+<li><code>name = "Apex"</code></li>
+<li><code>grammar = "apex"</code> (Tree-sitter grammar name registered in <code>extension.toml</code>, see below)</li>
+<li><code>path_suffixes = ["cls", "trigger", "apex"]</code></li>
+<li><code>line_comments = ["// "]</code></li>
+</ul>
+<p>This gives Apex file association + comment behavior and is required before deeper LSP integration.</p>
+<h3 id="user-content-tree-sitter-grammar-chosen-implementation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#tree-sitter-grammar-chosen-implementation"><span class="heading-anchor-icon">#</span></a>Tree-sitter grammar (chosen implementation)</h3>
+<p>This extension uses the <code>tree-sitter-sfapex</code> grammar repository, pinned to a specific Git revision for deterministic builds:</p>
+<ul>
+<li>Repository: <code>https://github.com/aheber/tree-sitter-sfapex</code></li>
+<li>Pinned commit (rev): <code>3597575a429766dd7ecce9f5bb97f6fec4419d5d</code></li>
+</ul>
+<p>Zed loads Tree-sitter grammars that are registered in <code>extension.toml</code>. Apex is one registered language in a broader Salesforce DX extension.</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># extension.toml</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">[</span><span style="color:#6F42C1;--shiki-dark:#B392F0">grammars</span><span style="color:#24292E;--shiki-dark:#E1E4E8">.</span><span style="color:#6F42C1;--shiki-dark:#B392F0">apex</span><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">repository = </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"https://github.com/aheber/tree-sitter-sfapex"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">rev = </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"3597575a429766dd7ecce9f5bb97f6fec4419d5d"</span></span></code></pre>
+<p><code>tree-sitter-sfapex</code> is a multi-grammar repository (it includes <code>apex</code>, <code>soql</code>, <code>sosl</code>, and <code>sflog</code> via <code>tree-sitter.json</code>).
+If we decide to support these file types in Zed later, register them explicitly too:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># extension.toml</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">[</span><span style="color:#6F42C1;--shiki-dark:#B392F0">grammars</span><span style="color:#24292E;--shiki-dark:#E1E4E8">.</span><span style="color:#6F42C1;--shiki-dark:#B392F0">soql</span><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">repository = </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"https://github.com/aheber/tree-sitter-sfapex"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">rev = </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"3597575a429766dd7ecce9f5bb97f6fec4419d5d"</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">[</span><span style="color:#6F42C1;--shiki-dark:#B392F0">grammars</span><span style="color:#24292E;--shiki-dark:#E1E4E8">.</span><span style="color:#6F42C1;--shiki-dark:#B392F0">sosl</span><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">repository = </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"https://github.com/aheber/tree-sitter-sfapex"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">rev = </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"3597575a429766dd7ecce9f5bb97f6fec4419d5d"</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">[</span><span style="color:#6F42C1;--shiki-dark:#B392F0">grammars</span><span style="color:#24292E;--shiki-dark:#E1E4E8">.</span><span style="color:#6F42C1;--shiki-dark:#B392F0">sflog</span><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">repository = </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"https://github.com/aheber/tree-sitter-sfapex"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">rev = </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"3597575a429766dd7ecce9f5bb97f6fec4419d5d"</span></span></code></pre>
+<p>Upstream file type mapping (from <code>tree-sitter.json</code>) is:</p>
+<ul>
+<li><code>apex</code>: <code>.cls</code>, <code>.trigger</code></li>
+<li><code>soql</code>: <code>.soql</code></li>
+<li><code>sosl</code>: <code>.sosl</code></li>
+<li><code>sflog</code>: <code>.sflog</code></li>
+</ul>
+<p>For the Zed MVP we also associate <code>.apex</code> (Anonymous Apex) with the <code>apex</code> grammar via <code>path_suffixes</code>, even though it is not listed upstream.</p>
+<p>For local grammar development (iterating on queries/grammar), Zed also supports <code>file://</code> repositories in <code>extension.toml</code>.</p>
+<h2 id="user-content-3-syntax-highlighting-strategy"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#3-syntax-highlighting-strategy"><span class="heading-anchor-icon">#</span></a>3) Syntax highlighting strategy</h2>
+<p>MVP highlighting should come from <strong>Tree-sitter queries</strong> (<code>highlights.scm</code>) for deterministic baseline:</p>
+<ul>
+<li><code>@comment</code>, <code>@comment.doc</code></li>
+<li><code>@keyword</code></li>
+<li><code>@string</code></li>
+<li><code>@number</code></li>
+<li><code>@function</code>, <code>@type</code>, etc. where grammar supports it</li>
+</ul>
+<p>Why Tree-sitter first:</p>
+<ul>
+<li>Semantic tokens in Zed are optional and can be off by default.</li>
+<li>We need a guaranteed baseline highlighting even before advanced LSP semantic token mapping.</li>
+</ul>
+<p>Then optionally enable/validate semantic tokens in your Zed settings to augment highlighting.</p>
+<h3 id="user-content-semantic-tokens-compatibility-notes-off--combined--full"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#semantic-tokens-compatibility-notes-off--combined--full"><span class="heading-anchor-icon">#</span></a>Semantic tokens compatibility notes (<code>off</code> / <code>combined</code> / <code>full</code>)</h3>
+<ul>
+<li><code>off</code>: only Tree-sitter query highlighting is used. This is the most deterministic mode and the safest troubleshooting baseline.</li>
+<li><code>combined</code>: Tree-sitter baseline + semantic token overlays when available. This is usually the best mode for Apex.</li>
+<li><code>full</code>: semantic token rendering is prioritized. This can look better when server token coverage is strong, but may reduce fallback consistency if token classes are incomplete.</li>
+</ul>
+<p>Note: semantic token mode is an editor/user setting. The extension cannot force this value globally for users.</p>
+<p>Optional toggle in <code>.zed/settings.json</code> while evaluating Apex color behavior:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "languages"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "Apex"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "semantic_tokens"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"combined"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h3 id="user-content-using-upstream-tree-sitter-highlight-queries"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#using-upstream-tree-sitter-highlight-queries"><span class="heading-anchor-icon">#</span></a>Using upstream Tree-sitter highlight queries</h3>
+<p>We prefer to reuse as much as possible from <code>tree-sitter-sfapex</code> (grammar + queries), and only patch where Zed-specific needs require it.</p>
+<p><code>tree-sitter-sfapex</code> ships Tree-sitter query files that we can treat as the baseline source-of-truth (and they are easy to diff/update because we pin the commit):</p>
+<ul>
+<li><code>apex/queries/highlights.scm</code></li>
+<li><code>soql/queries/highlights.scm</code></li>
+<li><code>sosl/queries/highlights.scm</code></li>
+</ul>
+<p>In Zed, queries live under <code>languages/&#x3C;language>/</code> (e.g. <code>languages/apex/highlights.scm</code>). For the MVP, the intended workflow is:</p>
+<ul>
+<li>Copy the upstream <code>apex/queries/highlights.scm</code> into <code>languages/apex/highlights.scm</code> (verbatim first).</li>
+<li>Only then adjust captures/patterns when Zed rendering shows gaps or conflicts.</li>
+</ul>
+<p>When we add <code>soql</code>/<code>sosl</code>/<code>sflog</code> as Zed languages, we should follow the same approach:</p>
+<ul>
+<li>Copy upstream queries into <code>languages/soql/highlights.scm</code>, <code>languages/sosl/highlights.scm</code>, etc.</li>
+</ul>
+<p>If the pinned <code>rev</code> changes, re-sync the query files from upstream in the same PR so highlighting stays consistent with the grammar version.</p>
+<h2 id="user-content-4-lsp-wiring-in-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#4-lsp-wiring-in-zed"><span class="heading-anchor-icon">#</span></a>4) LSP wiring in Zed</h2>
+<p>In <code>extension.toml</code>:</p>
+<ul>
+<li>Define language server entry for Apex (e.g. <code>[language_servers.apex-lsp]</code>).</li>
+<li>Map it to language <code>Apex</code>.</li>
+</ul>
+<p>In Rust extension code (<code>src/lib.rs</code>):</p>
+<ul>
+<li>Implement <code>language_server_command(...) -> zed::Command</code>.</li>
+<li>Branch on the configured backend (<code>aer</code> default, <code>jorje</code> opt-in).</li>
+<li>For <code>aer</code>: resolve the binary via <code>lsp.apex-lsp.binary.path</code> → <code>lsp.apex-lsp.settings.aer_path</code> → <code>worktree.which("aer")</code>, then launch with <code>aer lsp [--path &#x3C;pkg-dir>]...</code>.</li>
+<li>For <code>jorje</code>: launch a Java process similarly to Salesforce VS Code:
+<ul>
+<li><code>command</code>: resolved Java executable path</li>
+<li><code>args</code>: <code>-cp &#x3C;path-to-jar> apex.jorje.lsp.ApexLanguageServerLauncher</code></li>
+<li>plus safe JVM args (<code>-Xmx</code> optional for memory control)</li>
+</ul>
+</li>
+<li>Set environment variables if needed.</li>
+</ul>
+<h2 id="user-content-5-apex-jar-sourcing-jorje-backend-only"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#5-apex-jar-sourcing-jorje-backend-only"><span class="heading-anchor-icon">#</span></a>5) Apex jar sourcing (jorje backend only)</h2>
+<p>When the jorje backend is selected, the extension runtime <strong>downloads and caches the jar on first use</strong> inside the extension work directory.</p>
+<ul>
+<li>Canonical runtime source: the pinned upstream jar URL from <code>forcedotcom/salesforcedx-vscode</code></li>
+<li>Cached runtime jar path: <code>&#x3C;extension-workdir>/lsp/apex-lsp/apex-jorje-lsp.jar</code></li>
+<li>The local smoke test (<code>scripts/test-lsp-launch.sh</code>) downloads the same jar into <code>.cache/apex-lsp/</code> (gitignored) and verifies its SHA-256 before each run</li>
+</ul>
+<h2 id="user-content-6-java-runtime-acquisition-strategy-jorje-backend-only"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#6-java-runtime-acquisition-strategy-jorje-backend-only"><span class="heading-anchor-icon">#</span></a>6) Java runtime acquisition strategy (jorje backend only)</h2>
+<p>Only relevant when <code>backend</code> is set to <code>jorje</code>. Required capability in extension logic:</p>
+<ul>
+<li>Prefer explicit Zed LSP setting for this server (e.g. <code>lsp.apex-lsp.binary.path</code> pointing to a <code>java</code> executable).</li>
+<li>Support explicit Java home via <code>lsp.apex-lsp.settings.java_home</code> (resolved as <code>&#x3C;java_home>/bin/java</code>).</li>
+<li>Fallback to <code>JDK_HOME</code>, then <code>JAVA_HOME</code>.</li>
+<li>Auto-install the Apex jar on first launch and reuse the cached copy on subsequent launches.</li>
+<li>Validate:
+<ul>
+<li>directory exists</li>
+<li><code>bin/java</code> present</li>
+<li><code>java -version</code> reports supported major (>=11)</li>
+</ul>
+</li>
+<li>Provide clear error message in Zed logs/status when invalid.</li>
+</ul>
+<p>Heap behavior:</p>
+<ul>
+<li>default is preset by the extension to <code>-Xmx2048m</code> (no user config needed)</li>
+<li>optional override: <code>lsp.apex-lsp.settings.java_max_heap_mb</code></li>
+<li>advanced override: <code>lsp.apex-lsp.binary.arguments</code> with explicit <code>-Xmx...</code> (takes precedence)</li>
+</ul>
+<p>Default Apex LSP JVM properties:</p>
+<ul>
+<li><code>-Ddebug.internal.errors=true</code></li>
+<li><code>-Ddebug.completion.statistics=false</code></li>
+<li><code>-Dlwc.typegeneration.disabled=true</code></li>
+<li>advanced override: <code>lsp.apex-lsp.binary.arguments</code> with explicit <code>-D...</code> for the same property name (takes precedence)</li>
+</ul>
+<p>Example <code>.zed/settings.json</code> (jorje backend):</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "apex-lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "backend"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"jorje"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "java_home"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"/Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "java_max_heap_mb"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">2048</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>Recommended docs for users on the jorje backend should include Java 21 guidance (consistent with Salesforce recommendations).</p>
+<p>Example <code>.zed/settings.json</code> (aer backend, default — only needed if <code>aer</code> is not on <code>PATH</code>):</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "apex-lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "aer_path"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"/usr/local/bin/aer"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h2 id="user-content-7-workspace-assumptions-and-limitations"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#7-workspace-assumptions-and-limitations"><span class="heading-anchor-icon">#</span></a>7) Workspace assumptions and limitations</h2>
+<p>Salesforce DX language tooling behavior depends on project shape (<code>sfdx-project.json</code>, <code>packageDirectories</code>, and Salesforce DX metadata layout). For MVP, we need to be explicit about what we do (and do not) support so startup is deterministic.</p>
+<h3 id="user-content-zed-worktree-model-important"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#zed-worktree-model-important"><span class="heading-anchor-icon">#</span></a>Zed worktree model (important)</h3>
+<p>Zed starts language servers per <em>worktree</em> (a directory project or a single-file worktree). Practically, this means:</p>
+<ul>
+<li>Best supported: open the <strong>project directory</strong> as a Zed worktree (not just a standalone <code>.cls</code> file).</li>
+<li>If you open a <strong>single file</strong> outside a directory worktree, there is typically no <code>sfdx-project.json</code> at the worktree root.
+For MVP, syntax highlighting still works; Apex LSP behavior depends on the workspace root supplied by Zed.</li>
+</ul>
+<p>Zed also has a Restricted/Trusted worktree model:</p>
+<ul>
+<li>In Restricted mode, <code>.zed/settings.json</code> in the project is not applied, and language servers configured <em>by that project settings file</em> are not spawned.</li>
+<li>This extension is expected to provide its own language server command via <code>language_server_command</code> (installed extension code). Project settings may still matter for per-project configuration, but only after the worktree is trusted.</li>
+</ul>
+<h3 id="user-content-supported-workspace-profile-mvp"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#supported-workspace-profile-mvp"><span class="heading-anchor-icon">#</span></a>Supported workspace profile (MVP)</h3>
+<ul>
+<li>Primary target: an <strong>SFDX project root</strong> opened as the worktree root, containing <code>sfdx-project.json</code> at the top level.</li>
+<li>Also observed to work: a monorepo-style worktree where an SFDX project is nested in a subdirectory. This is based on the current Apex LSP behavior with the workspace root supplied by Zed; the extension does not implement explicit nested-root discovery or rewrite <code>rootPath</code>.</li>
+<li>Apex and related Salesforce DX source files are located according to Salesforce DX conventions, e.g. within one of the <code>packageDirectories</code> roots (commonly <code>force-app/main/default/...</code>).</li>
+</ul>
+<p>Concrete examples of layouts we expect to work best:</p>
+<ul>
+<li><code>sfdx-project.json</code></li>
+<li><code>force-app/main/default/classes/*.cls</code></li>
+<li><code>force-app/main/default/triggers/*.trigger</code></li>
+</ul>
+<p>Concrete examples that are <em>not</em> a primary MVP target (may partially work, but not guaranteed):</p>
+<ul>
+<li>“MDAPI-style” folders like <code>src/classes</code> without <code>sfdx-project.json</code></li>
+<li>Standalone <code>.apex</code> scripts outside an SFDX project (highlighting should work; LSP start behavior depends on Apex server tolerance when no SFDX layout is present)</li>
+</ul>
+<p>If unsupported workspace is opened, extension should degrade gracefully:</p>
+<ul>
+<li>language mode + syntax highlighting still work</li>
+<li>LSP issues are surfaced with actionable diagnostics</li>
+</ul>
+<h3 id="user-content-explicit-limitations-mvp"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#explicit-limitations-mvp"><span class="heading-anchor-icon">#</span></a>Explicit limitations (MVP)</h3>
+<ul>
+<li>Multi-root setups: Zed can have multiple worktrees open. The MVP assumes language servers are started independently per worktree and does not attempt cross-worktree indexing.</li>
+<li>Missing SFDX marker: the extension should not throw a fatal startup error solely because <code>sfdx-project.json</code> is absent at worktree root.</li>
+<li>No explicit nested-root rewrite: the extension does not scan for nested <code>sfdx-project.json</code> files and does not override the workspace root that Zed passes to the language server.</li>
+<li>Org-dependent features (auth files, namespace from org, etc.) are out of scope. The VS Code implementation uses the Salesforce Core extension to derive org namespace and other context; we will not replicate that during MVP.</li>
+<li>Restricted worktrees: the MVP should not start any external process (including Java) until the worktree is trusted, aligning with Zed’s supply-chain safety posture.</li>
+</ul>
+<h3 id="user-content-sfdx-projectjson-parsing-future-work"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#sfdx-projectjson-parsing-future-work"><span class="heading-anchor-icon">#</span></a><code>sfdx-project.json</code> parsing (future work)</h3>
+<p>The current MVP does not parse <code>sfdx-project.json</code> in extension runtime code yet.</p>
+<p>When this is implemented, the intended minimal surface is:</p>
+<ul>
+<li><code>packageDirectories</code>: determine which folder roots constitute Salesforce DX source packages. This is used for:
+<ul>
+<li>validation and error messages (e.g. warn when a <code>.cls</code> is outside any package directory)</li>
+<li>future: limit file watching/index scope if needed</li>
+</ul>
+</li>
+<li><code>namespace</code>: used only for user-facing messaging and (future) LSP UX parity behaviors; we do not assume org namespace access in MVP.</li>
+<li><code>sourceApiVersion</code>: used for compatibility decisions that depend on API version (future). For MVP it is optional and can be logged for diagnostics.</li>
+</ul>
+<p>If this parsing is added later and parsing fails (invalid JSON), the extension should not start LSP and should log an actionable parse error.</p>
+<h2 id="user-content-mvp-progress-update"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#mvp-progress-update"><span class="heading-anchor-icon">#</span></a>MVP Progress Update</h2>
+<p>What changed:</p>
+<ul>
+<li>Added a minimal Zed extension scaffold (<code>extension.toml</code>, <code>Cargo.toml</code>, <code>src/lib.rs</code>).</li>
+<li>Registered the Apex Tree-sitter grammar in <code>extension.toml</code> pinned to <code>tree-sitter-sfapex</code> commit <code>3597575a429766dd7ecce9f5bb97f6fec4419d5d</code>.</li>
+<li>Added Apex language configuration in <code>languages/apex/config.toml</code> with file suffixes <code>.cls</code>, <code>.trigger</code>, and <code>.apex</code>.</li>
+<li>Added baseline syntax highlighting query in <code>languages/apex/highlights.scm</code> sourced from upstream pinned grammar revision.</li>
+<li>Registered SOQL/SOSL/Salesforce Log grammars and added language configs + highlights for <code>.soql</code>, <code>.sosl</code>, and <code>.sflog</code> (and <code>.log</code>) as part of broader Salesforce DX language support.</li>
+<li>Implemented Apex LSP launch command wiring in <code>src/lib.rs</code> (Java resolution + managed jar download/cache).</li>
+<li>Removed the temporary Python stdio proxy; Apex LSP is now launched directly through Java.</li>
+<li>Added deterministic smoke test automation:
+<ul>
+<li><code>scripts/test-lsp-launch.sh</code></li>
+<li><code>scripts/lsp_smoke.py</code></li>
+<li>fixture workspace at <code>scripts/fixtures/sfdx-minimal/</code></li>
+</ul>
+</li>
+</ul>
+<p>Why:</p>
+<ul>
+<li>This establishes a deterministic MVP baseline: file/language recognition, baseline highlighting, and automated Apex LSP startup handshake verification.</li>
+<li>This removes an obsolete runtime dependency on Python while keeping automated startup and completion verification.</li>
+</ul>
+<p>How to verify:</p>
+<ol>
+<li>Run <code>cargo check</code> to validate Rust extension scaffold builds.</li>
+<li>Run <code>./scripts/test-lsp-launch.sh</code> to verify Java resolution, download/cache the pinned Apex LSP jar (with SHA-256 check), and exercise Apex LSP completion against both a fixture SFDX workspace root and a nested SFDX workspace inside a monorepo-style root.</li>
+<li>Install as a dev extension in Zed and open <code>.cls</code> / <code>.trigger</code> / <code>.apex</code> files.</li>
+<li>Confirm Apex mode is selected, comments/keywords/strings are highlighted, and Apex LSP starts when opening an SFDX project root. On first launch the extension should download the jar into its work directory, then reuse the cached copy on later launches. Optionally also verify the currently tested nested monorepo scenario.</li>
+</ol>
+<h2 id="user-content-mvp-scope-phase-1"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#mvp-scope-phase-1"><span class="heading-anchor-icon">#</span></a>MVP Scope (Phase 1)</h2>
+<h2 id="user-content-must-have"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#must-have"><span class="heading-anchor-icon">#</span></a>Must have</h2>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" checked disabled> Zed extension skeleton (<code>extension.toml</code>, Rust entrypoint).</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> Apex language registration (<code>languages/apex/config.toml</code>) as part of Salesforce DX language coverage.</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> Tree-sitter grammar registration for Salesforce DX languages (Apex/SOQL/SOSL/SF log).</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> Basic <code>highlights.scm</code> with comments/code distinction and common token classes.</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> LSP process launch path for Apex jar + Java.</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> Startup validation and meaningful failure logs.</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> Basic manual test instructions.</li>
+</ul>
+<h2 id="user-content-nice-to-have-still-close-to-mvp"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#nice-to-have-still-close-to-mvp"><span class="heading-anchor-icon">#</span></a>Nice to have (still close to MVP)</h2>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" checked disabled> Configurable Java home and heap size.</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> Semantic tokens compatibility notes (<code>off</code> / <code>combined</code> / <code>full</code>).</li>
+</ul>
+<h2 id="user-content-out-of-mvp-next-phases"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#out-of-mvp-next-phases"><span class="heading-anchor-icon">#</span></a>Out of MVP (next phases)</h2>
+<ul>
+<li>Advanced code lenses, language-specific commands (Apex/LWC/Aura/VF), log tooling.</li>
+<li>Org-specific indexing and search.</li>
+<li>Embedded SOQL enhancements.</li>
+<li>Deep index lifecycle controls (restart/reset UX parity).</li>
+</ul>
+<h2 id="user-content-suggested-implementation-milestones"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#suggested-implementation-milestones"><span class="heading-anchor-icon">#</span></a>Suggested Implementation Milestones</h2>
+<ol>
+<li><strong>Scaffold extension</strong> and install as dev extension in Zed.</li>
+<li><strong>Language + grammar integration</strong> and verify highlighting.</li>
+<li><strong>Java + jar launcher</strong> in <code>language_server_command</code>.</li>
+<li><strong>Open sample Salesforce DX project</strong> and validate LSP handshake/startup.</li>
+<li><strong>Stabilize diagnostics + completion</strong> on representative files.</li>
+<li><strong>Document known constraints</strong> and troubleshooting.</li>
+</ol>
+<h2 id="user-content-testing-strategy-including-ai-agent-friendly-automation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#testing-strategy-including-ai-agent-friendly-automation"><span class="heading-anchor-icon">#</span></a>Testing Strategy (including AI-agent-friendly automation)</h2>
+<h2 id="user-content-a-fast-static-checks"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#a-fast-static-checks"><span class="heading-anchor-icon">#</span></a>A) Fast static checks</h2>
+<ul>
+<li>Validate TOML files parse (<code>extension.toml</code>, <code>languages/apex/config.toml</code>).</li>
+<li>Validate query files syntax (<code>highlights.scm</code> etc.) where tooling is available.</li>
+<li>Lint Rust extension code (<code>cargo check</code>, <code>cargo clippy</code> if configured).</li>
+</ul>
+<h2 id="user-content-b-deterministic-process-level-tests"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#b-deterministic-process-level-tests"><span class="heading-anchor-icon">#</span></a>B) Deterministic process-level tests</h2>
+<p><code>scripts/test-lsp-launch.sh</code> provides deterministic process-level validation:</p>
+<ol>
+<li>Resolves Java path (setting/env simulation).</li>
+<li>Downloads the pinned Apex LSP jar into <code>.cache/apex-lsp/</code> if missing and validates its SHA-256 checksum.</li>
+<li>Runs short-lived Apex LSP launch smoke tests (jorje backend):
+<ul>
+<li>start the process</li>
+<li>perform a minimal LSP handshake over stdio</li>
+<li>open a fixture trigger file and request completion at <code>System.</code></li>
+<li>assert completion returns one or more items</li>
+<li>terminate/cleanup</li>
+</ul>
+</li>
+</ol>
+<p>Run:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">./scripts/test-lsp-launch.sh</span></span></code></pre>
+<p>This can be run by both humans and AI agents in CI/local.</p>
+<h2 id="user-content-c-integration-smoke-test-in-headless-style"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#c-integration-smoke-test-in-headless-style"><span class="heading-anchor-icon">#</span></a>C) Integration smoke test in headless style</h2>
+<p>Use fixture workspace with minimal SFDX structure:</p>
+<ul>
+<li><code>sfdx-project.json</code></li>
+<li>one <code>.cls</code> file</li>
+<li>one <code>.trigger</code> file</li>
+</ul>
+<p>Planned automated check:</p>
+<ul>
+<li>Start Zed with extension enabled in foreground/logging mode.</li>
+<li>Open fixture file.</li>
+<li>Assert logs show language server command startup and no fatal errors.</li>
+</ul>
+<p>Even if full GUI assertion is hard, log-based validation is practical for agents.</p>
+<h2 id="user-content-d-manual-acceptance-checklist"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#d-manual-acceptance-checklist"><span class="heading-anchor-icon">#</span></a>D) Manual acceptance checklist</h2>
+<ul>
+<li>Open Apex file: syntax colors clearly distinguish comments, keywords, strings.</li>
+<li>Open <code>.soql</code> / <code>.sosl</code> / <code>.sflog</code> files: basic highlighting works.</li>
+<li>LSP starts without configuration surprises on Java 21.</li>
+<li>Completion works in a direct SFDX project root. The current smoke test also covers one monorepo-style parent worktree scenario with a nested SFDX project.</li>
+<li>Failure mode with invalid Java path yields clear instruction.</li>
+</ul>
+<h2 id="user-content-relevant-external-implementations-to-study-further"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#relevant-external-implementations-to-study-further"><span class="heading-anchor-icon">#</span></a>Relevant External Implementations to Study Further</h2>
+<ul>
+<li>Salesforce Apex VS Code extension startup and settings handling:
+<ul>
+<li>upstream repo: <code>forcedotcom/salesforcedx-vscode</code></li>
+<li><code>packages/salesforcedx-vscode-apex/src/languageServer.ts</code></li>
+<li><code>packages/salesforcedx-vscode-apex/src/requirements.ts</code></li>
+<li><code>packages/salesforcedx-vscode-apex/src/languageUtils/apexLanguageConfiguration.ts</code></li>
+</ul>
+</li>
+<li>Zed extension language/LSP model docs:
+<ul>
+<li><a href="https://zed.dev/docs/extensions/languages">https://zed.dev/docs/extensions/languages</a></li>
+</ul>
+</li>
+<li>LSP protocol reference (for capability alignment):
+<ul>
+<li><a href="https://microsoft.github.io/language-server-protocol/">https://microsoft.github.io/language-server-protocol/</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="user-content-architecture-decisions-current"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#architecture-decisions-current"><span class="heading-anchor-icon">#</span></a>Architecture Decisions (Current)</h2>
+<ul>
+<li>Default Apex LSP engine: <a href="https://github.com/octoberswimmer/aer-dist/"><code>aer</code></a> (native binary, no JVM).</li>
+<li>Opt-in alternative: Salesforce <code>apex-jorje-lsp.jar</code> (selected via <code>backend = "jorje"</code>); requires Java 11+ (Java 21 recommended).</li>
+<li>Editor integration: Zed extension with Rust <code>language_server_command</code> launcher; jorje backend additionally manages jar download/cache.</li>
+<li>Highlighting baseline: Tree-sitter (<code>highlights.scm</code>), semantic tokens optional enhancement.</li>
+<li>MVP goal: reliable startup + baseline coding ergonomics across Salesforce DX languages before advanced features.</li>
+</ul>
+<h2 id="user-content-sfdx-cli-task-templates"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#sfdx-cli-task-templates"><span class="heading-anchor-icon">#</span></a>SFDX CLI Task Templates</h2>
+<p>This repository includes a <code>tasks.json</code> file with pre-configured Salesforce CLI (<code>sf</code>) task templates for common operations (deploy, retrieve, org management, etc.).</p>
+<p>Zed extensions currently have no mechanism to register commands or bundle task templates (unlike VS Code's <code>contributes.commands</code>). As a workaround, you can manually copy the file into your project's Zed configuration directory:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cp</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> tasks.json</span><span style="color:#D73A49;--shiki-dark:#F97583"> &#x3C;</span><span style="color:#032F62;--shiki-dark:#9ECBFF">your-sfdx-projec</span><span style="color:#24292E;--shiki-dark:#E1E4E8">t</span><span style="color:#D73A49;--shiki-dark:#F97583">></span><span style="color:#032F62;--shiki-dark:#9ECBFF">/.zed/tasks.json</span></span></code></pre>
+<p>The tasks will then appear in Zed's task picker (cmd/ctrl+shift+t). All tasks use <code>$ZED_WORKTREE_ROOT</code> as the working directory, so they work from any file within the project.</p>
+<h2 id="user-content-notes-for-next-contributors"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#notes-for-next-contributors"><span class="heading-anchor-icon">#</span></a>Notes for Next Contributors</h2>
+<ul>
+<li>Keep MVP tightly scoped to reliability first.</li>
+<li>Avoid overfitting to VS Code-specific UX patterns not available in Zed.</li>
+<li>Preserve a clear separation between:
+<ul>
+<li>language metadata/highlighting (works offline, no org required)</li>
+<li>language server runtime (depends on Java + project assumptions)</li>
+</ul>
+</li>
+</ul></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-blue-pale);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>

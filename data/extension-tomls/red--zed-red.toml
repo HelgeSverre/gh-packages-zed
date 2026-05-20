@@ -1,0 +1,17 @@
+id = "red"
+name = "Red"
+description = "Red support."
+version = "0.2.0"
+schema_version = 1
+authors = [
+    "Xie Qingtian <xqtxyz@gmail.com>",
+]
+repository = "https://github.com/red/zed-red"
+
+[language_servers.red-lsp]
+name = "Red LSP"
+language = "Red"
+
+[grammars.red]
+repository = "https://github.com/qtxie/tree-sitter-red"
+commit = "0625c39db2780453856fc513b1ef0c6009fd6f6c"

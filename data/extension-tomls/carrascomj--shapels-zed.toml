@@ -1,0 +1,11 @@
+id = "shapels"
+name = "shapels"
+version = "0.0.1"
+schema_version = 1
+authors = ["carrascomj <carrascomurielj@gmail.com>"]
+description = "shape inference for torch inside zed"
+repository = "https://github.com/carrascomj/shapels-zed"
+
+[language_servers.shapels]
+name = "shapels"
+languages = ["Python"]

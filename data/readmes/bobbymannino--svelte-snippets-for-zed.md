@@ -1,0 +1,58 @@
+# Svelte Snippets for Zed
+
+## Installation
+
+You can install this directly on the [Zed extensions
+page](https://zed.dev/extensions/svelte-snippets) or by following these steps:
+
+1. Clone this repo:
+
+   ```sh
+   git clone https://github.com/bobbymannino/svelte-snippets-for-zed
+   ```
+
+2. Go to Extensions menu in Zed IDE
+3. Click "Install Dev Extension"
+4. Select the folder you cloned
+
+## Available Snippets
+
+### Svelte
+
+- `sv-loop`: An un-keyed loop
+- `sv-each`: A svelte each loop
+- `sv-each-else`: A svelte each loop with an else clause
+- `sv-if`: A svelte if statement
+- `sv-if-else`: A svelte else statement
+- `sv-props`: A script (ts) tag with an empty props
+- `sv-ts`: An empty script (ts) tag
+- `sv-page-props`: A script (ts) tag, with props, for a svelte page
+- `sv-layout-props`: A script (ts) tag, with props, for a svelte layout
+- `sv-style`: A style tag
+- `sv-global-style`: A global style tag
+- `sv-html`: A @html tag
+- `sv-await`: An await tag
+- `sv-then`: An await then tag with no loading content
+- `sv-await-then`: An await then tag with loading content
+- `sv-await-catch`: An await catch tag with loading content
+- `sv-await-then-catch`: An await then catch tag with loading content
+- `sv-window`: A `<svelte:window />` tag
+- `sv-head`: A `<svelte:head>` tag
+- `sv-on-mount`: A blank `onMount` function
+- `sv-snippet`: An empty snippet
+- `sv-debug`: A `@debug` tag
+- `sv-key`: A svelte {#key} block
+
+### TypeScript
+
+- `sv-derived`: A Svelte `$derived()` function
+- `sv-await-derived`: A Svelte `$derived(await)` function
+- `sv-state`: A Svelte `$state()` function
+- `sv-effect`: A Svelte `$effect()` function
+- `sv-inspect`: A Svelte `$inspect()` function
+- `sv-handle`: The boilerplate for an empty handle in the hooks.server.ts file
+- `sv-server-layout-load`: The boilerplate for a load function in a +layout.server.ts file
+- `sv-client-layout-load`: The boilerplate for a load function in a +layout.ts file
+- `sv-server-page-load`: The boilerplate for a load function in a +page.server.ts file
+- `sv-client-page-load`: The boilerplate for a load function in a +page.ts file
+- `sv-actions`: The boilerplate for actions in a +page.server.ts file

@@ -1,0 +1,12 @@
+id = "structured-text"
+name = "Structured Text"
+version = "0.0.1"
+schema_version = 1
+authors = ["Blake Haydon <blake.a.haydon@gmail.com>"]
+description = "Structured Text Zed extension"
+repository = "https://github.com/Blake-Haydon/zed-structured-text"
+languages = ["languages/structured-text"]
+
+[grammars.structured_text]
+repository = "https://github.com/Blake-Haydon/tree-sitter-structured-text"
+rev = "cabf32604d3e25b15d1052a18af258ff003319ac"

@@ -1,0 +1,18 @@
+id = "sway"
+name = "Sway"
+description = "Sway smart contract language support with LSP integration"
+version = "0.1.0"
+schema_version = 1
+authors = ["Fuel Labs <contact@fuel.sh>"]
+repository = "https://github.com/FuelLabs/sway-zed-extension"
+
+[grammars.sway]
+repository = "https://github.com/FuelLabs/tree-sitter-sway"
+rev = "master"
+
+[language_servers.sway-lsp]
+name = "Sway Language Server"
+languages = ["Sway"]
+
+[language_servers.sway-lsp.language_ids]
+"Sway" = "sway"

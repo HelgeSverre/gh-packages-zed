@@ -1,0 +1,301 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>React Typescript Snippets - Zed Extension Safari</title><meta name="description" content="Speed up your Typescript/React workflow in Zed with ready-to-use snippets for components, hooks, and common patterns."><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="React Typescript Snippets - Zed Extension Safari"><meta property="og:description" content="Speed up your Typescript/React workflow in Zed with ready-to-use snippets for components, hooks, and common patterns."><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="React Typescript Snippets - Zed Extension Safari"><meta name="twitter:description" content="Speed up your Typescript/React workflow in Zed with ready-to-use snippets for components, hooks, and common patterns."><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><script>
+        (function () {
+            try {
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = stored || (prefersDark ? 'dark' : 'light');
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.vt09FFQM.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> vishnuroshan/zed-react-ts-snippets </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> React Typescript Snippets </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> A collection of useful React + TypeScript snippets to speed up your development. </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="snippets">Snippets</span> </div> </div> </div> </header> <main class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/react-typescript-snippets" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/vishnuroshan/zed-react-ts-snippets" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.1.4</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">react-typescript-snippets</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">MIT</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">35</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">2h ago</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">Vishnu Roshan</dd> </div> </dl>  <h2 class="mt-5 text-xs uppercase font-mono" style="color:var(--zed-muted);">Topics</h2> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> react </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> snippets </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> snippets-collection </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> typescript </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zedide </span> </div>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-react-typescript-snippets-for-zed-ide"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#react-typescript-snippets-for-zed-ide"><span class="heading-anchor-icon">#</span></a>React TypeScript Snippets for <a href="https://zed.dev/">Zed IDE</a></h1>
+<p><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub.com%2Fvishnuroshan%2Fzed-react-ts-snippets%2Fraw%2Fmain%2Fdownloads.json&#x26;query=%24.downloads&#x26;label=Zed%20Downloads" alt="Dynamic JSON Badge"> <img src="https://img.shields.io/github/license/vishnuroshan/zed-react-ts-snippets" alt="GitHub License"> <img src="https://img.shields.io/github/v/release/vishnuroshan/zed-react-ts-snippets" alt="GitHub Release">
+<img src="https://img.shields.io/github/stars/vishnuroshan/zed-react-ts-snippets" alt="GitHub Repo stars"></p>
+<p>A comprehensive collection of React and TypeScript snippets for the <a href="https://zed.dev">Zed IDE</a> to improve your development speed and productivity.</p>
+<h2 id="user-content-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features"><span class="heading-anchor-icon">#</span></a>Features</h2>
+<p>This extension provides a comprehensive set of snippets for React and TypeScript development, including:</p>
+<ul>
+<li>React functional components with TypeScript</li>
+<li>React hooks (useState, useEffect, useCallback, etc.) - <strong>Now available in both <code>.tsx</code> and <code>.ts</code> files!</strong></li>
+<li>TypeScript types, interfaces, and type guards</li>
+<li>Function and class declarations</li>
+<li>Import/export statements</li>
+<li>Error handling patterns</li>
+<li>Custom hooks and advanced patterns</li>
+<li>Tree-shakeable named imports (no more <code>React.</code> prefixes!)</li>
+<li>And much more!</li>
+</ul>
+<h2 id="user-content-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation"><span class="heading-anchor-icon">#</span></a>Installation</h2>
+<h3 id="user-content-method-1"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#method-1"><span class="heading-anchor-icon">#</span></a>Method 1</h3>
+<ol>
+<li>Go to Extensions menu in Zed IDE</li>
+<li>Search for "zed-react-ts-snippets"</li>
+<li>Click "Install"</li>
+</ol>
+<h3 id="user-content-method-2"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#method-2"><span class="heading-anchor-icon">#</span></a>Method 2</h3>
+<ol>
+<li>Clone this repo:</li>
+</ol>
+<pre><code>git clone https://github.com/vishnuroshan/zed-react-ts-snippets.git
+</code></pre>
+<ol start="2">
+<li>Go to Extensions menu in Zed IDE</li>
+<li>Click "Install Dev Extension"</li>
+<li>Select the folder you cloned</li>
+</ol>
+<h2 id="user-content-usage"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#usage"><span class="heading-anchor-icon">#</span></a>Usage</h2>
+<p>or TypeScript file and press <code>Tab</code> to expand the snippet.</p>
+<h3 id="user-content-file-support"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#file-support"><span class="heading-anchor-icon">#</span></a>File Support</h3>
+<ul>
+<li><strong><code>.tsx</code> files</strong>: All snippets available (components, hooks, types, etc.)</li>
+<li><strong><code>.ts</code> files</strong>: React hooks and TypeScript utility snippets available
+<ul>
+<li>Perfect for custom hooks (<code>.hook.ts</code> files)</li>
+<li>Ideal for separating logic from components</li>
+<li>All hook snippets work without JSX syntax
+Start typing the snippet prefix (e.g., <code>rfc</code>) in a TSX file and press <code>Tab</code> to expand the snippet.</li>
+</ul>
+</li>
+</ul>
+<h2 id="user-content-available-snippets"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#available-snippets"><span class="heading-anchor-icon">#</span></a>Available Snippets</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Prefix          (<code>.tsx</code> and <code>.ts</code>)</th><th>Description</th></tr></thead><tbody><tr><td><strong>React Components</strong></td><td></td></tr><tr><td><code>rfc</code></td><td>React Functional Component (const)</td></tr><tr><td><code>rff</code></td><td>React Functional Component (function)</td></tr><tr><td><code>frc</code></td><td>ForwardRef Component with props</td></tr><tr><td><code>hk</code></td><td>Custom Hook Template</td></tr><tr><td><code>rctx</code></td><td>React Context with Provider and hook</td></tr><tr><td><strong>React Hooks</strong></td><td></td></tr><tr><td><code>us</code></td><td>useState Hook with TypeScript</td></tr><tr><td><code>uem</code></td><td>useEffect Hook runs once at mount</td></tr><tr><td><code>uer</code></td><td>useEffect Hook runs on every render</td></tr><tr><td><code>cleanup</code></td><td>useEffect Hook Cleanup</td></tr><tr><td><code>useMemo</code></td><td>useMemo Hook</td></tr><tr><td><code>useCallback</code></td><td>useCallback Hook</td></tr><tr><td><code>useRef</code></td><td>useRef Hook</td></tr><tr><td><code>uih</code></td><td>useImperativeHandle Hook</td></tr><tr><td><code>useLayoutEffect</code></td><td>useLayoutEffect Hook</td></tr><tr><td><code>useDebugValue</code></td><td>useDebugValue Hook</td></tr><tr><td><code>useContext</code></td><td>useContext Hook</td></tr><tr><td><code>useReducer</code></td><td>useReducer Hook</td></tr><tr><td><strong>TypeScript Types</strong></td><td></td></tr><tr><td><code>tst</code></td><td>New Type Alias</td></tr><tr><td><code>tsi</code></td><td>New Interface</td></tr><tr><td><code>intr</code></td><td>Interface</td></tr><tr><td><code>typ</code></td><td>Type</td></tr><tr><td><code>enum</code></td><td>Enum</td></tr><tr><td><code>tsrcd</code></td><td>Record utility type</td></tr><tr><td><code>tgf</code></td><td>Type Guard Function</td></tr><tr><td><strong>Functions &#x26; Classes</strong></td><td></td></tr><tr><td><code>tsfn</code></td><td>Function Declaration</td></tr><tr><td><code>tsafn</code></td><td>Arrow Function</td></tr><tr><td><code>func</code></td><td>Function</td></tr><tr><td><code>tscls</code></td><td>Class with Constructor</td></tr><tr><td><code>tsserv</code></td><td>Generic Service Class Template</td></tr><tr><td><strong>Imports &#x26; Exports</strong></td><td></td></tr><tr><td><code>tsimprt</code></td><td>Import Statement</td></tr><tr><td><code>tsxprt</code></td><td>Module Export</td></tr><tr><td><strong>Utilities</strong></td><td></td></tr><tr><td><code>tsfetch</code></td><td>Typed Fetch Function</td></tr><tr><td><code>tstc</code></td><td>Try/Catch block</td></tr></tbody></table>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">type { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">FC</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> } from </span><span style="color:#032F62;--shiki-dark:#9ECBFF">'react'</span><span style="color:#24292E;--shiki-dark:#E1E4E8">;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">interface</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> ComponentNameProps</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> {</span></span>
+<span class="line"><span style="color:#E36209;--shiki-dark:#FFAB70">  propName</span><span style="color:#D73A49;--shiki-dark:#F97583">:</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> type</span><span style="color:#24292E;--shiki-dark:#E1E4E8">;</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">const</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> ComponentName</span><span style="color:#D73A49;--shiki-dark:#F97583">:</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> FC</span><span style="color:#24292E;--shiki-dark:#E1E4E8">&#x3C;</span><span style="color:#6F42C1;--shiki-dark:#B392F0">ComponentNameProps</span><span style="color:#24292E;--shiki-dark:#E1E4E8">> </span><span style="color:#D73A49;--shiki-dark:#F97583">=</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> ({ </span><span style="color:#E36209;--shiki-dark:#FFAB70">propName</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> }) </span><span style="color:#D73A49;--shiki-dark:#F97583">=></span><span style="color:#24292E;--shiki-dark:#E1E4E8"> {</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">  return</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> &#x3C;</span><span style="color:#6F42C1;--shiki-dark:#B392F0">div</span><span style="color:#24292E;--shiki-dark:#E1E4E8">>&#x3C;/</span><span style="color:#6F42C1;--shiki-dark:#B392F0">div</span><span style="color:#24292E;--shiki-dark:#E1E4E8">>;</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">};</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">export</span><span style="color:#D73A49;--shiki-dark:#F97583"> default</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> ComponentName;</span></span></code></pre>
+<hr>
+<h3 id="user-content-usestate-hook"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#usestate-hook"><span class="heading-anchor-icon">#</span></a>useState Hook</h3>
+<p>Type <code>us</code> and press Tab:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">const</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> [</span><span style="color:#005CC5;--shiki-dark:#79B8FF">state</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#005CC5;--shiki-dark:#79B8FF">setState</span><span style="color:#24292E;--shiki-dark:#E1E4E8">] </span><span style="color:#D73A49;--shiki-dark:#F97583">=</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> useState</span><span style="color:#24292E;--shiki-dark:#E1E4E8">&#x3C;</span><span style="color:#6F42C1;--shiki-dark:#B392F0">type</span><span style="color:#24292E;--shiki-dark:#E1E4E8">>(initialValue);</span></span></code></pre>
+<p><strong>Now works in <code>.ts</code> files too!</strong> Perfect for custom hooks:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">// useCounter.hook.ts</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">import</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> { useState } </span><span style="color:#D73A49;--shiki-dark:#F97583">from</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> 'react'</span><span style="color:#24292E;--shiki-dark:#E1E4E8">;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">export</span><span style="color:#D73A49;--shiki-dark:#F97583"> function</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> useCounter</span><span style="color:#24292E;--shiki-dark:#E1E4E8">(</span><span style="color:#E36209;--shiki-dark:#FFAB70">initialValue</span><span style="color:#D73A49;--shiki-dark:#F97583">:</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="color:#24292E;--shiki-dark:#E1E4E8">) {</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">  const</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> [</span><span style="color:#005CC5;--shiki-dark:#79B8FF">count</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#005CC5;--shiki-dark:#79B8FF">setCount</span><span style="color:#24292E;--shiki-dark:#E1E4E8">] </span><span style="color:#D73A49;--shiki-dark:#F97583">=</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> useState</span><span style="color:#24292E;--shiki-dark:#E1E4E8">&#x3C;</span><span style="color:#005CC5;--shiki-dark:#79B8FF">number</span><span style="color:#24292E;--shiki-dark:#E1E4E8">>(initialValue); </span><span style="color:#6A737D;--shiki-dark:#6A737D">// Type 'us' + Tab</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">  // ... rest of hook logic</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<hr>
+<h3 id="user-content-useeffect-hook"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#useeffect-hook"><span class="heading-anchor-icon">#</span></a>useEffect Hook</h3>
+<p>Type <code>uem</code> and press Tab:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">---</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">### useEffect Hook</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">Type </span><span style="color:#032F62;--shiki-dark:#9ECBFF">`uem`</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> and press </span><span style="color:#6F42C1;--shiki-dark:#B392F0">Tab</span><span style="color:#24292E;--shiki-dark:#E1E4E8">:</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#032F62;--shiki-dark:#9ECBFF">```tsx</span></span>
+<span class="line"><span style="color:#032F62;--shiki-dark:#9ECBFF">React.useEffect(() => {}, []);</span></span></code></pre>
+<hr>
+<h3 id="user-content-typescript-interface"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#typescript-interface"><span class="heading-anchor-icon">#</span></a>TypeScript Interface</h3>
+<p>Type <code>tsi</code> and press Tab:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">interface</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> InterfaceName</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> {</span></span>
+<span class="line"><span style="color:#E36209;--shiki-dark:#FFAB70">  key</span><span style="color:#D73A49;--shiki-dark:#F97583">:</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> type</span><span style="color:#24292E;--shiki-dark:#E1E4E8">;</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<hr>
+<h2 id="user-content-contributing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#contributing"><span class="heading-anchor-icon">#</span></a>Contributing</h2>
+<p>Contributions are welcome! Please feel free to submit a Pull Request.</p>
+<ol>
+<li>Fork the repository</li>
+<li>Create your feature branch (<code>git checkout -b feature/amazing-feature</code>)</li>
+<li>Commit your changes (<code>git commit -m 'Add some amazing feature'</code>)</li>
+<li>Push to the branch (<code>git push origin feature/amazing-feature</code>)</li>
+<li>Open a Pull Request</li>
+</ol>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>This project is licensed under the MIT License - see the <a href="https://github.com/vishnuroshan/zed-react-ts-snippets/blob/HEAD/LICENSE" target="_blank" rel="noopener">LICENSE</a> file for details.</p>
+<h2 id="user-content-author"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#author"><span class="heading-anchor-icon">#</span></a>Author</h2>
+<p>Vishnu Roshan - <a href="https://github.com/vishnuroshan">vishnuroshan</a></p>
+<h2 id="user-content-repository"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#repository"><span class="heading-anchor-icon">#</span></a>Repository</h2>
+<p><a href="https://github.com/vishnuroshan/zed-react-ts-snippets">https://github.com/vishnuroshan/zed-react-ts-snippets</a></p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-blue-pale);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>
