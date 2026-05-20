@@ -2,6 +2,16 @@
   "name": "zed-extension-safari",
   "type": "module",
   "version": "1.0.0",
+  "private": true,
+  "description": "Astro static site for the Zed Extension Safari directory, generated from data/extensions.json and refreshed every 6 hours.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HelgeSverre/gh-packages-zed.git",
+    "directory": "website"
+  },
+  "homepage": "https://helgesverre.github.io/gh-packages-zed/",
+  "bugs": "https://github.com/HelgeSverre/gh-packages-zed/issues",
+  "author": "Helge Sverre <helge.sverre@gmail.com> (https://helgesver.re)",
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",

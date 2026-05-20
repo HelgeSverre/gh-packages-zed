@@ -900,9 +900,12 @@ function generateReadme(packages, stats) {
 
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's \`extension.toml\`, and refreshed every 6 hours.
 
-🌐 **Live site:** https://helgesverre.github.io/gh-packages-zed
-🤖 **Auto-updated:** GitHub Action runs every 6 hours
-🧩 **Source of truth:** Each repo's \`extension.toml\` — version, authors, capabilities (LSP / grammar / theme / slash command / context server / debug adapter / docs provider / snippets / icon theme)
+[![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
+[![extensions](https://img.shields.io/badge/extensions-${pkgList.length}-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
+![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
+
+[**Live site →**](https://helgesverre.github.io/gh-packages-zed/)
 
 ## At a glance
 
@@ -914,6 +917,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Last updated | ${stats.last_run?.slice(0, 16).replace('T', ' ')} UTC |
 
 ### By capability
+
 | Type | Count |
 |------|-------|
 ${catRows}
@@ -921,7 +925,7 @@ ${catRows}
 ## How it works
 
 1. **Pull the registry.** Every entry in [zed-industries/extensions](https://github.com/zed-industries/extensions) is a git submodule pointing to the extension's source repo. We follow each submodule to its source.
-2. **Top up with GitHub search.** A handful of topic queries (\`topic:zed-extension\`, \`topic:zed-theme\`, etc.) pick up extensions that aren't (yet) in the official registry.
+2. **Top up with GitHub search.** A handful of topic queries (\`topic:zed-extension\`, \`topic:zed-theme\`, etc.) pick up extensions that aren't yet in the official registry.
 3. **Fetch each \`extension.toml\`.** Parsed to extract \`id\`, \`name\`, \`description\`, \`version\`, \`schema_version\`, \`authors\`, and which TOML sections are present (\`[grammars]\`, \`[language_servers]\`, \`[themes]\`, \`[slash_commands]\`, \`[context_servers]\`, \`[icon_themes]\`, \`[debug_adapters]\`, \`[indexed_docs_providers]\`).
 4. **Bail without a toml.** Repos that don't have an \`extension.toml\` aren't Zed extensions — they're filtered out of the listing entirely.
 5. **Cache READMEs** for each extension so the website can render full detail pages without hitting GitHub at view time.
@@ -945,10 +949,10 @@ The website lives in \`website/\` — Astro + Svelte 5 + Tailwind v4:
 cd website && npm install && npm run dev
 \`\`\`
 
-## 📦 Recently Discovered
+## Recently discovered
 
-| Package | ⭐ | Description |
-|---------|-----|-------------|
+| Package | Stars | Description |
+|---|---|---|
 ${recentlyDiscovered
   .slice(0, 20)
   .map(
@@ -957,10 +961,10 @@ ${recentlyDiscovered
   )
   .join("\n")}
 
-## 🌟 Top Starred (Under ${MAX_STARS})
+## Top starred (under ${MAX_STARS})
 
-| Package | ⭐ | Description |
-|---------|-----|-------------|
+| Package | Stars | Description |
+|---|---|---|
 ${byStars
   .slice(0, 20)
   .map(
@@ -969,10 +973,10 @@ ${byStars
   )
   .join("\n")}
 
-## 🔥 Recently Active
+## Recently active
 
-| Package | ⭐ | Last Push | Description |
-|---------|-----|-----------|-------------|
+| Package | Stars | Last push | Description |
+|---|---|---|---|
 ${recentlyActive
   .slice(0, 20)
   .map(
@@ -981,12 +985,10 @@ ${recentlyActive
   )
   .join("\n")}
 
----
-
 ## Run history
 
 | Run | New | Updated | Total |
-|-----|-----|---------|-------|
+|---|---|---|---|
 ${stats.runs
   .slice(-10)
   .reverse()

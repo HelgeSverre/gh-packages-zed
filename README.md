@@ -2,9 +2,12 @@
 
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
-🌐 **Live site:** https://helgesverre.github.io/gh-packages-zed
-🤖 **Auto-updated:** GitHub Action runs every 6 hours
-🧩 **Source of truth:** Each repo's `extension.toml` — version, authors, capabilities (LSP / grammar / theme / slash command / context server / debug adapter / docs provider / snippets / icon theme)
+[![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
+[![extensions](https://img.shields.io/badge/extensions-1462-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
+![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
+
+[**Live site →**](https://helgesverre.github.io/gh-packages-zed/)
 
 ## At a glance
 
@@ -16,6 +19,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Last updated | 2026-05-20 04:00 UTC |
 
 ### By capability
+
 | Type | Count |
 |------|-------|
 | Themes | 584 |
@@ -30,7 +34,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 ## How it works
 
 1. **Pull the registry.** Every entry in [zed-industries/extensions](https://github.com/zed-industries/extensions) is a git submodule pointing to the extension's source repo. We follow each submodule to its source.
-2. **Top up with GitHub search.** A handful of topic queries (`topic:zed-extension`, `topic:zed-theme`, etc.) pick up extensions that aren't (yet) in the official registry.
+2. **Top up with GitHub search.** A handful of topic queries (`topic:zed-extension`, `topic:zed-theme`, etc.) pick up extensions that aren't yet in the official registry.
 3. **Fetch each `extension.toml`.** Parsed to extract `id`, `name`, `description`, `version`, `schema_version`, `authors`, and which TOML sections are present (`[grammars]`, `[language_servers]`, `[themes]`, `[slash_commands]`, `[context_servers]`, `[icon_themes]`, `[debug_adapters]`, `[indexed_docs_providers]`).
 4. **Bail without a toml.** Repos that don't have an `extension.toml` aren't Zed extensions — they're filtered out of the listing entirely.
 5. **Cache READMEs** for each extension so the website can render full detail pages without hitting GitHub at view time.
@@ -54,10 +58,10 @@ The website lives in `website/` — Astro + Svelte 5 + Tailwind v4:
 cd website && npm install && npm run dev
 ```
 
-## 📦 Recently Discovered
+## Recently discovered
 
-| Package | ⭐ | Description |
-|---------|-----|-------------|
+| Package | Stars | Description |
+|---|---|---|
 | [sweetppro/zed-xml](https://github.com/sweetppro/zed-xml) | 28 | XML syntax highlighting for Zed |
 | [edgarkanyes/yaka](https://github.com/edgarkanyes/yaka) | 0 | A light theme for the Zed editor |
 | [Yxmura/yamura-zed-theme](https://github.com/Yxmura/yamura-zed-theme) | 0 | A zed theme made by Yamura, and named after him. Consists of a Light & Dark them... |
@@ -79,15 +83,15 @@ cd website && npm install && npm run dev
 | [nikitapashinsky/zoegi-theme](https://github.com/nikitapashinsky/zoegi-theme) | 6 | A port of Moegi theme for Zed |
 | [threonyl/zed-zokrates](https://github.com/threonyl/zed-zokrates) | 0 | Zed support for ZoKrates language. |
 
-## 🌟 Top Starred (Under 500)
+## Top starred (under 500)
 
-| Package | ⭐ | Description |
-|---------|-----|-------------|
+| Package | Stars | Description |
+|---|---|---|
 | [biomejs/biome-zed](https://github.com/biomejs/biome-zed) | 466 | Biome extension for Zed |
 | [xhyrom/zed-discord-presence](https://github.com/xhyrom/zed-discord-presence) | 415 | extension for zed that adds support for discord rich presence using lsp |
 | [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 319 | Catppuccin Theme but as blurred variants + custom ones |
 | [oxc-project/oxc-zed](https://github.com/oxc-project/oxc-zed) | 256 | Oxc extension for Zed |
-| [catppuccin/zed-icons](https://github.com/catppuccin/zed-icons) | 240 | 🦊 Soothing pastel icons for Zed |
+| [catppuccin/zed-icons](https://github.com/catppuccin/zed-icons) | 240 | Soothing pastel icons for Zed |
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
@@ -104,10 +108,10 @@ cd website && npm install && npm run dev
 | [zed-extensions/swift](https://github.com/zed-extensions/swift) | 136 | Extension for Zed to support Swift |
 | [rzukic/zed-latex](https://github.com/rzukic/zed-latex) | 132 |  |
 
-## 🔥 Recently Active
+## Recently active
 
-| Package | ⭐ | Last Push | Description |
-|---------|-----|-----------|-------------|
+| Package | Stars | Last push | Description |
+|---|---|---|---|
 | [HelgeSverre/zed-applescript](https://github.com/HelgeSverre/zed-applescript) | 1 | 2026-05-20 | (WIP) AppleScript language support for Zed editor |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 82 | 2026-05-20 | True Dark Theme for Zed IDE |
 | [MiguelMachado-dev/ReactTypeKit](https://github.com/MiguelMachado-dev/ReactTypeKit) | 1 | 2026-05-20 | A comprehensive Zed snippet pack providing fast, type-safe t... |
@@ -121,7 +125,7 @@ cd website && npm install && npm run dev
 | [spences10/zed-neon](https://github.com/spences10/zed-neon) | 0 | 2026-05-19 | Vivid neon themes for Zed. |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-05-19 | A Zed extension that allows to highlight all occurrences of ... |
 | [zcuric/zed-wordpress](https://github.com/zcuric/zed-wordpress) | 0 | 2026-05-19 | Zed extension: WordPress and WooCommerce support for PHP — p... |
-| [arrrrny/zuraffa-zed](https://github.com/arrrrny/zuraffa-zed) | 0 | 2026-05-19 | ZED Extension for Zuraffa 🦒 |
+| [arrrrny/zuraffa-zed](https://github.com/arrrrny/zuraffa-zed) | 0 | 2026-05-19 | ZED Extension for Zuraffa |
 | [acakp/moondusttheme-zed](https://github.com/acakp/moondusttheme-zed) | 0 | 2026-05-19 | Handcrafted theme for those who have not found syntax highli... |
 | [cfmleditor/zed-cfml](https://github.com/cfmleditor/zed-cfml) | 5 | 2026-05-19 |  |
 | [aliaksei-loi/zed-loi-paper-theme](https://github.com/aliaksei-loi/zed-loi-paper-theme) | 0 | 2026-05-19 | A Zed theme inspired by Claude.ai and Claude Code — warm cre... |
@@ -129,12 +133,10 @@ cd website && npm install && npm run dev
 | [joshuadavidthomas/zed-django](https://github.com/joshuadavidthomas/zed-django) | 35 | 2026-05-19 | A Django extension for Zed |
 | [openvanilla/mcbopomofo-zed-extension](https://github.com/openvanilla/mcbopomofo-zed-extension) | 0 | 2026-05-19 | McBopomofo Data Extension for Zed |
 
----
-
 ## Run history
 
 | Run | New | Updated | Total |
-|-----|-----|---------|-------|
+|---|---|---|---|
 | 2026-05-20T04:00 | 33 | 431 | 1730 |
 | 2026-05-20T03:50 | 104 | 427 | 1697 |
 | 2026-05-20T02:57 | 113 | 421 | 1593 |
