@@ -1,0 +1,11 @@
+id = "vhs"
+name = "VHS"
+version = "0.1.0"
+schema_version = 1
+authors = ["eth0net <eth0net@pm.me>"]
+description = "Syntax highlighting for VHS `.tape` files"
+repository = "https://github.com/eth0net/zed-vhs"
+
+[grammars.vhs]
+repository = "https://github.com/charmbracelet/tree-sitter-vhs"
+commit = "9534865e614c95eb9418e5e73f061c32fa4d9540"

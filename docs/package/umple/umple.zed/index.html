@@ -1,0 +1,159 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Umple - Zed Extension Safari</title><meta name="description" content="Umple language support: syntax highlighting, diagnostics, completion, inlay hints, go-to-definition, references, rename, hover, formatting"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Umple - Zed Extension Safari"><meta property="og:description" content="Umple language support: syntax highlighting, diagnostics, completion, inlay hints, go-to-definition, references, rename, hover, formatting"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Umple - Zed Extension Safari"><meta name="twitter:description" content="Umple language support: syntax highlighting, diagnostics, completion, inlay hints, go-to-definition, references, rename, hover, formatting"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.yFbdb8Bi.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> umple/umple.zed </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> Umple </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> Umple language support: syntax highlighting, diagnostics, completion, inlay hints, go-to-definition, references, rename, hover, formatting </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="grammar">Grammar</span><span class="cat-badge" data-cat="language-server">Language Server</span> </div> </div> </div> </header> <main class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/umple" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/umple/umple.zed" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.1.5</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">umple</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">Tree-sitter Query</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">MIT</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">2</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">4/29/2026</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">umple</dd> </div> </dl>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-umple-for-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#umple-for-zed"><span class="heading-anchor-icon">#</span></a>Umple for Zed</h1>
+<p>Umple language support for the <a href="https://zed.dev">Zed</a> editor, providing syntax highlighting, diagnostics, code completion, inlay hints, and go-to-definition for <code>.ump</code> files.</p>
+<h2 id="user-content-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation"><span class="heading-anchor-icon">#</span></a>Installation</h2>
+<p>The extension is available on the Zed marketplace. Install it from Zed:</p>
+<ol>
+<li>Open the command palette (<code>Cmd+Shift+P</code>) and run <strong>zed: extensions</strong></li>
+<li>Search for <strong>Umple</strong> and click Install</li>
+</ol>
+<p>The extension automatically downloads the LSP server and Umple compiler — no manual setup required.</p>
+<h3 id="user-content-dev-install-from-source"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#dev-install-from-source"><span class="heading-anchor-icon">#</span></a>Dev install (from source)</h3>
+<p>To work on the extension itself, install it as a dev extension:</p>
+<ol>
+<li>
+<p>Clone this repo:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">git</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> clone</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> https://github.com/umple/umple.zed.git</span></span></code></pre>
+</li>
+<li>
+<p>In Zed, open the command palette (<code>Cmd+Shift+P</code>) and run <strong>zed: install dev extension</strong></p>
+</li>
+<li>
+<p>Select the <code>umple.zed</code> directory</p>
+</li>
+</ol>
+<h3 id="user-content-prerequisites"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#prerequisites"><span class="heading-anchor-icon">#</span></a>Prerequisites</h3>
+<ul>
+<li><strong>Rust</strong> (via <a href="https://rustup.rs/">rustup</a>, not Homebrew rust — needed to compile the dev extension)</li>
+<li><strong>Node.js</strong> 20+ (for running the LSP server; tested on 20 and 23)</li>
+<li><strong>Java</strong> 11+ (optional — needed for diagnostics from the Umple compiler)</li>
+</ul>
+<h2 id="user-content-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features"><span class="heading-anchor-icon">#</span></a>Features</h2>
+<ul>
+<li><strong>Syntax highlighting</strong> via tree-sitter grammar and highlight queries</li>
+<li><strong>Diagnostics</strong> from UmpleSync compiler</li>
+<li><strong>Code completion</strong> with context-aware keyword suggestions</li>
+<li><strong>Go-to-definition</strong> for classes, interfaces, traits, enums, attributes, methods, state machines, states, associations, mixsets, requirements, and <code>use</code> statements</li>
+<li><strong>Find references</strong> across all reachable files with state-path disambiguation</li>
+<li><strong>Rename</strong> safe symbol rename across all references</li>
+<li><strong>Hover</strong> contextual information for symbols</li>
+<li><strong>Inlay hints</strong> editor-only inferred type annotations for untyped attributes when Zed renders LSP inlay hints</li>
+<li><strong>Formatting</strong> AST-driven indent correction, arrow spacing, declaration assignment spacing, structural comma spacing, blank-line normalization</li>
+<li><strong>Outline view</strong> showing classes, methods, state machines, and more</li>
+<li><strong>Cross-file support</strong> transitive <code>use</code> statement resolution and cross-file diagnostics</li>
+<li><strong>Auto-indentation</strong> for blocks</li>
+</ul>
+<p>Formatting is provided by the LSP server. It formats parse-clean Umple
+structure, parser-visible structural commas, and already split multi-line list
+indentation, but intentionally does not format embedded target-language method
+or action bodies. Formatter behavior belongs in <code>umple-lsp/packages/server</code>;
+this extension should only handle Zed launch/packaging behavior.</p>
+<h2 id="user-content-how-it-works"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#how-it-works"><span class="heading-anchor-icon">#</span></a>How It Works</h2>
+<p>The extension automatically installs <a href="https://www.npmjs.com/package/umple-lsp-server"><code>umple-lsp-server</code></a> from npm and downloads <code>umplesync.jar</code> for compiler diagnostics. The server is launched via Node.js in <code>--stdio</code> mode.</p>
+<h2 id="user-content-configuration-optional"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#configuration-optional"><span class="heading-anchor-icon">#</span></a>Configuration (optional)</h2>
+<p>You can adjust certain settings using Settings ... / Open Settings (cmd ,) or by editing the <code>settings.json</code> file.</p>
+<h3 id="user-content-configuration-settings-for-users"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#configuration-settings-for-users"><span class="heading-anchor-icon">#</span></a>Configuration settings for users</h3>
+<p>By default lines of Umple code that have errors or warnings are underlined; you can see the error or warning at the bottom of the screen if you click on the underlined text.</p>
+<p>However, if you would like such messages from the Umple compiler to appear inline (on the line where each problem occurs), then you can change the Languages &#x26; Tools / Diagnostics / Enabled setting to be true. You can also do this by adding the following to the settings.json file.</p>
+<pre><code>{
+  "diagnostics": {
+    "inline": {
+      "enabled": true
+    }
+  }
+}
+</code></pre>
+<h3 id="user-content-configuration-settings-for-developers-working-on-the-umple-lsp-server"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#configuration-settings-for-developers-working-on-the-umple-lsp-server"><span class="heading-anchor-icon">#</span></a>Configuration settings for developers working on the Umple LSP server</h3>
+<p>For development, you can override the auto-downloaded server with a local build. Add to your Zed <code>settings.json</code> (<code>Cmd+,</code>):</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "umple-lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "serverPath"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"/path/to/umple-lsp"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>This points to a locally cloned and built <a href="https://github.com/umple/umple-lsp">umple-lsp</a> repository.</p>
+<h2 id="user-content-updating"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#updating"><span class="heading-anchor-icon">#</span></a>Updating</h2>
+<p><strong>Marketplace install:</strong> Zed updates installed extensions automatically. New versions reach you via the Zed Extensions marketplace.</p>
+<p><strong>Dev install (from source):</strong> pull the latest changes and Zed will pick them up:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">cd</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> umple.zed</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">git</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> pull</span></span></code></pre>
+<p>Then restart Zed or reload the extension.</p>
+<p>The LSP server itself is downloaded from npm at every extension load (via <code>npm_package_latest_version("umple-lsp-server")</code>), so server-only changes reach you on the next Zed startup without any extension update needed.</p>
+<h2 id="user-content-grammar-sync"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#grammar-sync"><span class="heading-anchor-icon">#</span></a>Grammar Sync</h2>
+<p>The tree-sitter grammar and query files are derived from <a href="https://github.com/umple/umple-lsp">umple-lsp</a>. The following files are auto-synced and should not be edited manually:</p>
+<ul>
+<li><code>extension.toml</code> <code>[grammars.umple].rev</code> — pinned commit for <code>parser.c</code></li>
+<li><code>languages/umple/highlights.scm</code> — copied from <code>umple-lsp/packages/tree-sitter-umple/queries/</code></li>
+</ul>
+<h3 id="user-content-how-sync-usually-happens"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#how-sync-usually-happens"><span class="heading-anchor-icon">#</span></a>How sync usually happens</h3>
+<p>A GitHub Action in <a href="https://github.com/umple/umple-lsp/blob/master/.github/workflows/sync-umple-zed.yml"><code>umple/umple-lsp</code></a> auto-opens (or updates) a PR on this repo whenever grammar or query files change upstream. The PR force-pushes onto a stable branch <code>sync/umple-lsp-master</code>, bumps <code>extension.toml</code> patch version, and includes a body that classifies the change as <code>grammar | highlights | both</code> plus a "safe to merge?" hint. You just merge it.</p>
+<h3 id="user-content-manually-syncing-rarely-needed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#manually-syncing-rarely-needed"><span class="heading-anchor-icon">#</span></a>Manually syncing (rarely needed)</h3>
+<p>If the auto-PR workflow is broken or you want to sync ahead of an upstream push:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">./scripts/sync-grammar.sh</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --source</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> /path/to/umple-lsp</span></span></code></pre>
+<h3 id="user-content-checking-for-drift-ci-or-local"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#checking-for-drift-ci-or-local"><span class="heading-anchor-icon">#</span></a>Checking for drift (CI or local)</h3>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">./scripts/sync-grammar.sh</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --source</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> /path/to/umple-lsp</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --check</span></span></code></pre>
+<p>This exits with code 1 if any synced file is out of date. The <code>.github/workflows/check-sync.yml</code> workflow in this repo runs this on every push/PR to master to catch drift.</p>
+<h2 id="user-content-where-to-make-language-feature-changes"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#where-to-make-language-feature-changes"><span class="heading-anchor-icon">#</span></a>Where to Make Language-Feature Changes</h2>
+<p>This extension is mainly the Zed wrapper. Core language behavior belongs in <code>umple-lsp</code>:</p>
+<ul>
+<li>Diagnostics, completion, hover, inlay hints, go-to-definition, references, rename, formatting, workspace symbols, code actions, and LSP semantic tokens: <code>umple-lsp/packages/server</code></li>
+<li>Parser and tree-sitter highlighting: <code>umple-lsp/packages/tree-sitter-umple</code></li>
+<li>Zed extension loading, npm server download, language registration, and grammar pinning: this repo</li>
+</ul>
+<p>Zed's visible syntax highlighting comes from the synced tree-sitter highlight query at <code>languages/umple/highlights.scm</code>. The LSP server also advertises semantic tokens for clients that use them; those are generated from the upstream <code>highlights.scm</code> and mapped in <code>umple-lsp/packages/server/src/semanticTokens.ts</code>.</p>
+<p>When highlighting changes upstream, prefer the sync workflow or run:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">./scripts/sync-grammar.sh</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --source</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> /path/to/umple-lsp</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --check</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">./scripts/sync-grammar.sh</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --source</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> /path/to/umple-lsp</span></span></code></pre>
+<p>Change this repo directly only when the Zed wrapper behavior changes or when accepting the generated grammar/highlight sync.</p>
+<h2 id="user-content-troubleshooting"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#troubleshooting"><span class="heading-anchor-icon">#</span></a>Troubleshooting</h2>
+<h3 id="user-content-extension-fails-to-compile-failed-to-compile-rust-extension"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#extension-fails-to-compile-failed-to-compile-rust-extension"><span class="heading-anchor-icon">#</span></a>Extension fails to compile ("failed to compile Rust extension")</h3>
+<p>Zed compiles extensions to WebAssembly (<code>wasm32-wasip2</code>), which requires the Rust toolchain from <a href="https://rustup.rs/">rustup</a>. Homebrew's <code>rust</code> package only includes the native target and can't cross-compile to WASM.</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Remove Homebrew rust if installed</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">brew</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> uninstall</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> rust</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">brew</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> install</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> rustup</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Or install rustup directly via [rustup](https://rustup.rs/)</span></span></code></pre>
+<h3 id="user-content-lsp-server-not-starting"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#lsp-server-not-starting"><span class="heading-anchor-icon">#</span></a>LSP server not starting</h3>
+<p>Check <strong>View > Toggle Language Server Logs</strong> in Zed for errors. Common issues:</p>
+<ul>
+<li><strong>Node.js not found:</strong> Install Node.js 18+ and ensure it's on your PATH</li>
+<li><strong>npm install failed:</strong> Check internet connection, restart Zed to retry</li>
+</ul>
+<h3 id="user-content-no-diagnostics"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#no-diagnostics"><span class="heading-anchor-icon">#</span></a>No diagnostics</h3>
+<p>Diagnostics require Java 11+. Check the LSP logs (<strong>View > Toggle Language Server Logs</strong>) for errors related to <code>umplesync</code>.</p>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>MIT</p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>

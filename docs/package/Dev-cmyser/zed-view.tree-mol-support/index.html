@@ -1,0 +1,202 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>ViewTree - Zed Extension Safari</title><meta name="description" content="support for $mol view tree in zed  ZED EXTENSION"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="ViewTree - Zed Extension Safari"><meta property="og:description" content="support for $mol view tree in zed  ZED EXTENSION"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="ViewTree - Zed Extension Safari"><meta name="twitter:description" content="support for $mol view tree in zed  ZED EXTENSION"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.yFbdb8Bi.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> Dev-cmyser/zed-view.tree-mol-support </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> ViewTree </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> Language Server Protocol (LSP) implementation for .view.tree files used in the $mol web framework. </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="grammar">Grammar</span><span class="cat-badge" data-cat="language-server">Language Server</span> </div> </div> </div> </header> <main class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/viewtree" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/Dev-cmyser/zed-view.tree-mol-support" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1.0.10</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">viewtree</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">Makefile</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">NOASSERTION</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">1</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">1/13/2026</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">Dev-cmyser</dd> </div> </dl>  <h2 class="mt-5 text-xs uppercase font-mono" style="color:var(--zed-muted);">Topics</h2> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed </span> </div>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-viewtree-language-support-for-zed-editor"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#viewtree-language-support-for-zed-editor"><span class="heading-anchor-icon">#</span></a>View.Tree Language Support for Zed Editor</h1>
+<p>A comprehensive language extension for <a href="https://zed.dev">Zed</a> editor that provides syntax highlighting and intelligent autocompletion for <code>.view.tree</code> files used in the <a href="https://mol.hyoo.ru">$mol web framework</a>.</p>
+<h2 id="user-content-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features"><span class="heading-anchor-icon">#</span></a>Features</h2>
+<h3 id="user-content--syntax-highlighting"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-syntax-highlighting"><span class="heading-anchor-icon">#</span></a>🎨 Syntax Highlighting</h3>
+<ul>
+<li><strong>Component declarations</strong>: <code>$my_component $mol_view</code></li>
+<li><strong>Property definitions</strong>: <code>sub</code>, <code>title</code>, <code>value?</code></li>
+<li><strong>Binding operators</strong>: <code>&#x3C;=</code>, <code>&#x3C;=></code>, <code>^</code></li>
+<li><strong>String literals</strong>: <code>\Text</code>, <code>@\Localized</code></li>
+<li><strong>Special markers</strong>: <code>/</code>, <code>*</code>, primitives</li>
+</ul>
+<h3 id="user-content--intelligent-autocompletion-lsp"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-intelligent-autocompletion-lsp"><span class="heading-anchor-icon">#</span></a>🧠 Intelligent Autocompletion (LSP)</h3>
+<ul>
+<li><strong>Smart component completion</strong>: Suggests <code>$mol_*</code> framework components and project-specific components</li>
+<li><strong>Contextual property completion</strong>: Shows only relevant properties for the current component context</li>
+<li><strong>Dynamic project scanning</strong>: Automatically discovers components and properties from your codebase</li>
+<li><strong>Real-time updates</strong>: Monitors file changes and updates completions accordingly</li>
+</ul>
+<h3 id="user-content--code-navigation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-code-navigation"><span class="heading-anchor-icon">#</span></a>🔍 Code Navigation</h3>
+<ul>
+<li><strong>Outline view</strong>: Navigate between component definitions</li>
+<li><strong>Text objects</strong>: Select components and properties as logical units</li>
+<li><strong>Auto-indentation</strong>: Proper indentation for view.tree syntax</li>
+</ul>
+<h2 id="user-content-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation"><span class="heading-anchor-icon">#</span></a>Installation</h2>
+<h3 id="user-content-prerequisites"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#prerequisites"><span class="heading-anchor-icon">#</span></a>Prerequisites</h3>
+<ul>
+<li><a href="https://zed.dev">Zed Editor</a> (latest version recommended)</li>
+<li><a href="https://nodejs.org">Node.js</a> 16.0.0 or higher (for LSP features)</li>
+</ul>
+<h3 id="user-content-option-1-extension-manager-recommended"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#option-1-extension-manager-recommended"><span class="heading-anchor-icon">#</span></a>Option 1: Extension Manager (Recommended)</h3>
+<ol>
+<li>Open Zed</li>
+<li>Press <code>Cmd+Shift+P</code> (macOS) or <code>Ctrl+Shift+P</code> (Linux/Windows)</li>
+<li>Type "zed: extensions" and select it</li>
+<li>Search for "view.tree" or "mol"</li>
+<li>Install "View Tree Syntax Highlighting for $mol"</li>
+</ol>
+<h3 id="user-content-option-2-manual-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#option-2-manual-installation"><span class="heading-anchor-icon">#</span></a>Option 2: Manual Installation</h3>
+<ol>
+<li>
+<p>Clone this repository:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">git</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> clone</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> https://github.com/dev-cmyser/zed-view.tree-mol-support.git</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">cd</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> zed-view.tree-mol-support</span></span></code></pre>
+</li>
+<li>
+<p>Install and build the LSP server:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">./install.sh</span></span></code></pre>
+</li>
+<li>
+<p>Copy the extension to Zed's extensions directory:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cp</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -r</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> .</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> ~/.config/zed/extensions/viewtree/</span></span></code></pre>
+</li>
+<li>
+<p>Restart Zed</p>
+</li>
+</ol>
+<h2 id="user-content-usage"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#usage"><span class="heading-anchor-icon">#</span></a>Usage</h2>
+<h3 id="user-content-basic-syntax"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#basic-syntax"><span class="heading-anchor-icon">#</span></a>Basic Syntax</h3>
+<p>Create a <code>.view.tree</code> file and start typing:</p>
+<pre><code class="language-tree">$my_app $mol_view
+    title \My Application
+    sub /
+        &#x3C;= Header $mol_page
+            title \Welcome
+            body \
+                \Hello, world!
+        &#x3C;= Content $mol_list
+            rows &#x3C;= items*
+</code></pre>
+<h3 id="user-content-autocompletion"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#autocompletion"><span class="heading-anchor-icon">#</span></a>Autocompletion</h3>
+<h4 id="user-content-component-completion"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#component-completion"><span class="heading-anchor-icon">#</span></a>Component Completion</h4>
+<p>Type <code>$</code> to see available components:</p>
+<ul>
+<li>Framework components: <code>$mol_view</code>, <code>$mol_button</code>, <code>$mol_page</code></li>
+<li>Project components: Components found in your workspace</li>
+</ul>
+<h4 id="user-content-property-completion"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#property-completion"><span class="heading-anchor-icon">#</span></a>Property Completion</h4>
+<p>Inside a component definition, type any letter to see contextual properties:</p>
+<pre><code class="language-tree">$my_component $mol_view
+    s|  # ← Type 's' here, get 'sub', 'style', etc.
+</code></pre>
+<h4 id="user-content-binding-operators"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#binding-operators"><span class="heading-anchor-icon">#</span></a>Binding Operators</h4>
+<p>Type <code>&#x3C;=</code> to see binding options:</p>
+<ul>
+<li><code>&#x3C;=</code> (one-way binding)</li>
+<li><code>&#x3C;=></code> (two-way binding)</li>
+<li><code>^</code> (override)</li>
+</ul>
+<h2 id="user-content-project-structure"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#project-structure"><span class="heading-anchor-icon">#</span></a>Project Structure</h2>
+<pre><code>zed-view.tree-mol-support/
+├── extension.toml          # Extension manifest
+├── languages/viewtree/     # Language configuration
+│   ├── config.toml         # Language settings
+│   ├── highlights.scm      # Syntax highlighting rules
+│   ├── indents.scm        # Auto-indentation rules
+│   ├── outline.scm        # Code outline configuration
+│   └── textobjects.scm    # Text object definitions
+├── lsp/                   # Language Server Protocol implementation
+│   ├── src/               # TypeScript source code
+│   ├── package.json       # LSP dependencies
+│   └── bin/view-tree-lsp  # LSP executable
+└── install.sh            # Installation script
+</code></pre>
+<h2 id="user-content-development"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#development"><span class="heading-anchor-icon">#</span></a>Development</h2>
+<h3 id="user-content-building-the-lsp-server"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#building-the-lsp-server"><span class="heading-anchor-icon">#</span></a>Building the LSP Server</h3>
+<ol>
+<li>
+<p>Navigate to the LSP directory:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">cd</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> lsp/</span></span></code></pre>
+</li>
+<li>
+<p>Install dependencies:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">npm</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> install</span></span></code></pre>
+</li>
+<li>
+<p>Build:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">npm</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> run</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> build</span></span></code></pre>
+</li>
+<li>
+<p>Test:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">npm</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> start</span></span></code></pre>
+</li>
+</ol>
+<h3 id="user-content-grammar-development"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#grammar-development"><span class="heading-anchor-icon">#</span></a>Grammar Development</h3>
+<p>The syntax highlighting is powered by <a href="https://github.com/Dev-cmyser/tree-sitter-mol-view-tree">tree-sitter-mol-view-tree</a>. Grammar changes should be made in that repository.</p>
+<h3 id="user-content-contributing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#contributing"><span class="heading-anchor-icon">#</span></a>Contributing</h3>
+<ol>
+<li>Fork this repository</li>
+<li>Create a feature branch: <code>git checkout -b feature/amazing-feature</code></li>
+<li>Make your changes</li>
+<li>Test with a local Zed installation</li>
+<li>Commit your changes: <code>git commit -m 'Add amazing feature'</code></li>
+<li>Push to the branch: <code>git push origin feature/amazing-feature</code></li>
+<li>Open a Pull Request</li>
+</ol>
+<h2 id="user-content-troubleshooting"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#troubleshooting"><span class="heading-anchor-icon">#</span></a>Troubleshooting</h2>
+<h3 id="user-content-lsp-not-working"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#lsp-not-working"><span class="heading-anchor-icon">#</span></a>LSP Not Working</h3>
+<ol>
+<li><strong>Check Node.js</strong>: Ensure Node.js 16+ is installed: <code>node --version</code></li>
+<li><strong>Rebuild LSP</strong>: Run <code>./install.sh</code> again</li>
+<li><strong>Check logs</strong>: View LSP logs in Zed's debug console</li>
+<li><strong>Restart Zed</strong>: Sometimes a restart is needed after installation</li>
+</ol>
+<h3 id="user-content-no-syntax-highlighting"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#no-syntax-highlighting"><span class="heading-anchor-icon">#</span></a>No Syntax Highlighting</h3>
+<ol>
+<li><strong>File extension</strong>: Ensure your file ends with <code>.tree</code></li>
+<li><strong>Language mode</strong>: Check that Zed recognizes the file as "View Tree ($mol)"</li>
+<li><strong>Extension enabled</strong>: Verify the extension is installed and enabled</li>
+</ol>
+<h3 id="user-content-performance-issues"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#performance-issues"><span class="heading-anchor-icon">#</span></a>Performance Issues</h3>
+<ol>
+<li><strong>Large projects</strong>: The LSP scans up to 100 TypeScript files for performance</li>
+<li><strong>Initial scan</strong>: First-time scanning may take a few seconds</li>
+<li><strong>File watching</strong>: Subsequent updates should be fast</li>
+</ol>
+<h2 id="user-content-related-projects"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#related-projects"><span class="heading-anchor-icon">#</span></a>Related Projects</h2>
+<ul>
+<li><a href="https://github.com/hyoo-ru/mol">$mol Framework</a> - The web framework this extension supports</li>
+<li><a href="https://github.com/Dev-cmyser/tree-sitter-mol-view-tree">tree-sitter-mol-view-tree</a> - Tree-sitter grammar for view.tree</li>
+<li><a href="https://github.com/stan-donarise/view.tree-language">VSCode view.tree extension</a> - Similar extension for Visual Studio Code</li>
+</ul>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>This project is licensed under the Apache License 2.0 - see the <a href="https://github.com/Dev-cmyser/zed-view.tree-mol-support/blob/HEAD/LICENSE-APACHE" target="_blank" rel="noopener">LICENSE-APACHE</a> file for details.</p>
+<h2 id="user-content-acknowledgments"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#acknowledgments"><span class="heading-anchor-icon">#</span></a>Acknowledgments</h2>
+<ul>
+<li><a href="https://github.com/hyoo-ru">$mol team</a> for creating the amazing framework</li>
+<li><a href="https://tree-sitter.github.io/">Tree-sitter</a> for the parsing technology</li>
+<li><a href="https://zed.dev">Zed team</a> for the excellent editor and extension API</li>
+</ul></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>

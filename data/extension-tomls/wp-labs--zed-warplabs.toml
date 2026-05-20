@@ -1,0 +1,42 @@
+id = "warplabs"
+name = "WarpLabs"
+version = "0.16.0"
+schema_version = 1
+authors = ["WarpLabs Team"]
+description = "WFL, WFS, WPL, OML, WFG, and GXL language support for WarpLabs"
+repository = "https://github.com/wp-labs/zed-warplabs"
+
+[language_servers.wplabs-lsp]
+name = "WarpLabs LSP"
+languages = ["WFL", "WFS", "WPL", "OML", "WFG"]
+
+[language_servers.wplabs-lsp.language_ids]
+"WFL" = "wfl"
+"WFS" = "wfs"
+"WPL" = "wpl"
+"OML" = "oml"
+"WFG" = "wfg"
+
+[grammars.wfl]
+repository = "https://github.com/wp-labs/tree-sitter-wfl"
+rev = "4d4c55f519d8449f399bcaca2860570ebc8b2595"
+
+[grammars.wfs]
+repository = "https://github.com/wp-labs/tree-sitter-wfs"
+rev = "39e5fb246b7412fb43660dbb162bdb3bf9ec2404"
+
+[grammars.wpl]
+repository = "https://github.com/wp-labs/tree-sitter-wpl"
+rev = "3cc86519ff4adeb818e75b70c1c565098c1876b0"
+
+[grammars.oml]
+repository = "https://github.com/wp-labs/tree-sitter-oml"
+rev = "6105fa6360df78e2d477e9e496551875e5e93ea2"
+
+[grammars.wfg]
+repository = "https://github.com/wp-labs/tree-sitter-wfg"
+rev = "b381e3a605bb7bdbfeeabbc0bed2857806dfe581"
+
+[grammars.gxl]
+repository = "https://github.com/wp-labs/tree-sitter-gxl"
+rev = "85e678d9aedac0f3422ad547d668b3b8b0103b9b"

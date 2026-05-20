@@ -1,0 +1,12 @@
+id = "tamarin"
+name = "Tamarin"
+version = "1.12.0"
+schema_version = 1
+authors = ["lh104729"]
+description = "Syntax highlighting for Tamarin."
+repository = "https://github.com/LH104729/zed-tamarin"
+
+[grammars.spthy]
+repository = "https://github.com/tamarin-prover/tamarin-prover/"
+rev = "82780bbaf3328a45f624ddb41e51bf75425f851c"
+path = "tree-sitter/tree-sitter-spthy"

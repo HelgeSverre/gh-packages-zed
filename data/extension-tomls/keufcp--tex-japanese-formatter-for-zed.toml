@@ -1,0 +1,16 @@
+id = "tex-japanese-formatter"
+name = "TeX Japanese Formatter"
+version = "1.0.0"
+schema_version = 1
+authors = ["keufcp <keufcp@gmail.com>"]
+description = "TeX Japanese Formatter"
+repository = "https://github.com/keufcp/tex-japanese-formatter-for-zed"
+
+[language_servers.tex-japanese-formatter]
+name = "tex-japanese-formatter"
+languages = ["LaTeX", "Plaintext", "Markdown"]
+
+[language-servers.tex-japanese-formatter.language_ids]
+"LaTeX" = "latex"
+"Plaintext" = "plaintext"
+"Markdown" = "markdown"

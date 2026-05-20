@@ -1,0 +1,18 @@
+id = "templ"
+name = "Templ"
+version = "0.0.11"
+schema_version = 1
+authors = ["Mehmet Akif Duba <mail@makifdb.com>"]
+description = "Templ language support for Zed"
+repository = "https://github.com/makifdb/zed-templ"
+
+[language_servers.templ]
+name = "Templ Language Server"
+language = "Templ"
+
+[language_servers.templ.language_ids]
+"Templ" = "templ"
+
+[grammars.templ]
+repository = "https://github.com/vrischmann/tree-sitter-templ"
+commit = "68d6707ed20159ae7525241b8161c126dc1c620c"

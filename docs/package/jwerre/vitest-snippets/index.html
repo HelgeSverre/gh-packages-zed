@@ -1,0 +1,422 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Vitest Snippets - Zed Extension Safari</title><meta name="description" content="A comprehensive collection of Vitest snippets for the Zed editor to speed up test development."><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Vitest Snippets - Zed Extension Safari"><meta property="og:description" content="A comprehensive collection of Vitest snippets for the Zed editor to speed up test development."><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Vitest Snippets - Zed Extension Safari"><meta name="twitter:description" content="A comprehensive collection of Vitest snippets for the Zed editor to speed up test development."><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.yFbdb8Bi.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> jwerre/vitest-snippets </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> Vitest Snippets </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> A comprehensive collection of Vitest snippets for the Zed editor to speed up test development. </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="snippets">Snippets</span> </div> </div> </div> </header> <main class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/vitest-snippets" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/jwerre/vitest-snippets" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1.0.0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">vitest-snippets</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">JavaScript</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">MIT</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">1</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">11/17/2025</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">Jonah Werre</dd> </div> </dl>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-vitest-snippets-for-zed-editor"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#vitest-snippets-for-zed-editor"><span class="heading-anchor-icon">#</span></a>Vitest Snippets for Zed Editor</h1>
+<p>A comprehensive collection of Vitest snippets designed to speed up test development in the Zed editor.</p>
+<h2 id="user-content-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation"><span class="heading-anchor-icon">#</span></a>Installation</h2>
+<p>To use these snippets in Zed:</p>
+<ol>
+<li>Open Zed</li>
+<li>Go to <code>Settings</code> → <code>Snippets</code></li>
+<li>Click <code>Configure Snippets</code></li>
+<li>Select the appropriate language (JavaScript or TypeScript)</li>
+<li>Paste the content from the relevant snippet file</li>
+</ol>
+<h2 id="user-content-available-snippets"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#available-snippets"><span class="heading-anchor-icon">#</span></a>Available Snippets</h2>
+<h3 id="user-content-basic-test-structure"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#basic-test-structure"><span class="heading-anchor-icon">#</span></a>Basic Test Structure</h3>
+<ul>
+<li>bench(name, fn, options?) - Creates an individual benchmark case.</li>
+<li>describe(name, fn) - Creates a test suite to group related tests.</li>
+<li>it(name, fn, options?) - An alias for test.</li>
+<li>test(name, fn, options?) - Creates an individual test case.</li>
+</ul>
+<h4 id="user-content-describe"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#describe"><span class="heading-anchor-icon">#</span></a>Describe</h4>
+<ul>
+<li>describe.concurrent(name, fn) - Runs all tests in this suite concurrently.</li>
+<li>describe.each(cases)(name, fn) - Runs a suite multiple times with different data.</li>
+<li>describe.for(cases)(name, fn) - Runs a suite multiple times with different data.</li>
+<li>describe.only(name, fn) - Runs only this test suite.</li>
+<li>describe.runIf(condition)(name, fn?) - Runs this test suite only if the condition is true.</li>
+<li>describe.sequential(name, fn) - Runs all tests in this suite sequentially.</li>
+<li>describe.shuffle(name, fn) - Runs all tests in this suite in a random order.</li>
+<li>describe.skip(name, fn?) - Skips this test suite.</li>
+<li>describe.skipIf(condition)(name, fn?) - Skips this test suite if the condition is true.</li>
+<li>describe.todo(name) - Marks a test suite as not yet implemented.</li>
+</ul>
+<h4 id="user-content-test"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#test"><span class="heading-anchor-icon">#</span></a>Test</h4>
+<ul>
+<li>test.concurrent(name, fn) - Runs this test concurrently with others.</li>
+<li>test.each(cases)(name, fn) - Runs a test multiple times with different data.</li>
+<li>test.extends - extend the test context with custom fixtures</li>
+<li>test.only(name, fn) - Runs only this test (and other .only tests).</li>
+<li>test.runIf(condition)(name, fn) - Runs the test only if the condition is true.</li>
+<li>test.skip(name, fn?) - Skips this test.</li>
+<li>test.skipIf(condition)(name, fn?) - Skips this test if the condition is true.</li>
+<li>test.todo(name) - Marks a test as not yet implemented.</li>
+</ul>
+<h4 id="user-content-bench"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#bench"><span class="heading-anchor-icon">#</span></a>Bench</h4>
+<ul>
+<li>bench.skip(name, fn?) - Skips this benchmark.</li>
+<li>bench.only(name, fn) - Runs only this benchmark.</li>
+<li>bench.todo(name) - Marks a benchmark as not yet implemented.</li>
+</ul>
+<h4 id="user-content-setup-and-teardown"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#setup-and-teardown"><span class="heading-anchor-icon">#</span></a>Setup and Teardown</h4>
+<ul>
+<li>afterAll(fn) - Runs a function once after all tests in the suite.</li>
+<li>afterEach(fn) - Runs a function after each test in the suite.</li>
+<li>beforeAll(fn) - Runs a function once before all tests in the suite.</li>
+<li>beforeEach(fn) - Runs a function before each test in the suite.</li>
+</ul>
+<h4 id="user-content-test-hooks"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#test-hooks"><span class="heading-anchor-icon">#</span></a>Test Hooks</h4>
+<ul>
+<li>onTestFailed(fn) - Registers a function to run when the test fails.</li>
+<li>onTestFinished(fn) - Registers a cleanup function to run when the test finishes.</li>
+</ul>
+<h3 id="user-content-mocks"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#mocks"><span class="heading-anchor-icon">#</span></a>Mocks</h3>
+<ul>
+<li>.getMockImplementation() - Returns the current mock implementation.</li>
+<li>.getMockName() - Returns the custom name for the mock.</li>
+<li>.mockClear() - Clears call and instance history.</li>
+<li>.mockName(name) - Sets a custom name for the mock.</li>
+<li>.mockImplementation(fn) - Sets the default implementation of a mock.</li>
+<li>.mockImplementationOnce(fn) - Sets a one-time implementation.</li>
+<li>.withImplementation(fn, cb) - Runs a callback with a temporary implementation.</li>
+<li>.mockRejectedValue(error) - Sets an error to be returned as a rejected promise.</li>
+<li>.mockRejectedValueOnce(error) - Sets a one-time error to be returned as a rejected promise.</li>
+<li>.mockReset() - Clears history and resets implementation to vi.fn().</li>
+<li>.mockRestore() - Clears history and restores the original implementation (for spies).</li>
+<li>.mockResolvedValue(value) - Sets a value to be returned as a resolved promise.</li>
+<li>.mockResolvedValueOnce(value) - Sets a one-time value to be returned as a resolved promise.</li>
+<li>.mockReturnThis() - Sets the mock to return this context.</li>
+<li>.mockReturnValue(value) - Sets a value to be returned.</li>
+<li>.mockReturnValueOnce(value) - Sets a one-time value to be returned.</li>
+<li>.mock.calls - An array containing all call arguments.</li>
+<li>.mock.lastCall - The arguments of the last call.</li>
+<li>.mock.results - An array containing all call results (return/throw).</li>
+<li>.mock.settledResults - An array of settled promise results.</li>
+<li>.mock.invocationCallOrder - An array of invocation call orders.</li>
+<li>.mock.contexts - An array of this contexts for all calls.</li>
+<li>.mock.instances - An array of instances created by the mock.</li>
+</ul>
+<h3 id="user-content-vi-utility"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#vi-utility"><span class="heading-anchor-icon">#</span></a>Vi Utility</h3>
+<h4 id="user-content-mock-modules"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#mock-modules"><span class="heading-anchor-icon">#</span></a>Mock Modules</h4>
+<ul>
+<li>vi.doMock(path, factory?) - Mocks a module without hoisting (for circular dependencies).</li>
+<li>vi.doUnmock(path) - Unmocks a module (non-hoisted version of vi.unmock).</li>
+<li>vi.dynamicImportSettled() - Waits for all dynamic imports to resolve or reject.</li>
+<li>vi.importActual(path) - Imports a module, bypassing any mocks.</li>
+<li>vi.importMock(path) - Imports a module with all its exports mocked.</li>
+<li>vi.mock(path, factory?) - Mocks an entire module (must be hoisted).</li>
+<li>vi.mocked(value, deep?) - Type-casts a value as a mock, asserting its mock type.</li>
+<li>vi.resetModules() - Clears the module import cache.</li>
+<li>vi.unmock(path) - Specifies that a module should not be mocked (hoisted).</li>
+</ul>
+<h4 id="user-content-mocking-functions-and-objects"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#mocking-functions-and-objects"><span class="heading-anchor-icon">#</span></a>Mocking Functions and Objects</h4>
+<ul>
+<li>vi.clearAllMocks() - Clears mock.calls and mock.instances for all mocks.</li>
+<li>vi.fn(implementation?) - Creates a new, empty mock function.</li>
+<li>vi.isMockFunction(fn) - Checks if a value is a mock function or spy.</li>
+<li>vi.mockObject(object, overrides?) - Creates a deep mock of an object.</li>
+<li>vi.resetAllMocks() - Resets all mocks (clears history, instances, and resets implementations).</li>
+<li>vi.restoreAllMocks() - Restores all spies and mocks to their original implementations.</li>
+<li>vi.spyOn(object, 'methodName') - Creates a spy on an existing object method.</li>
+<li>vi.stubEnv(name, value) - Stubs an environment variable (process.env).</li>
+<li>vi.stubGlobal(name, value) - Stubs a global variable.</li>
+<li>vi.unstubAllEnvs() - Restores all stubbed environment variables.</li>
+<li>vi.unstubAllGlobals() - Restores all stubbed global variables.</li>
+</ul>
+<h4 id="user-content-fake-timers"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#fake-timers"><span class="heading-anchor-icon">#</span></a>Fake Timers</h4>
+<ul>
+<li>vi.advanceTimersByTime(ms) - Advances fake timers by a specified time (in ms).</li>
+<li>vi.advanceTimersByTimeAsync(ms) - Advances fake timers by time (async version).</li>
+<li>vi.advanceTimersToNextFrame() - Advances timers to the next requestAnimationFrame.</li>
+<li>vi.advanceTimersToNextTimer() - Advances timers to the next scheduled timer.</li>
+<li>vi.advanceTimersToNextTimerAsync() - Advances to the next timer (async version).</li>
+<li>vi.clearAllTimers() - Clears all pending timers.</li>
+<li>vi.getMockedSystemTime() - Gets the current mocked system time.</li>
+<li>vi.getRealSystemTime() - Gets the current real system time.</li>
+<li>vi.getTimerCount() - Returns the number of pending timers.</li>
+<li>vi.isFakeTimers() - Checks if timers are currently mocked.</li>
+<li>vi.runAllTicks() - Runs all pending microtasks (e.g., process.nextTick).</li>
+<li>vi.runAllTimers() - Runs all pending macrotasks (timers).</li>
+<li>vi.runAllTimersAsync() - Runs all pending macrotasks (async version).</li>
+<li>vi.runOnlyPendingTimers() - Runs only currently pending timers.</li>
+<li>vi.runOnlyPendingTimersAsync() - Runs only pending timers (async version).</li>
+<li>vi.setSystemTime(date) - Sets the system time when fake timers are in use.</li>
+<li>vi.useFakeTimers() - Mocks timer functions (setTimeout, setInterval).</li>
+<li>vi.useRealTimers() - Restores real timer functions.</li>
+</ul>
+<h4 id="user-content-miscellaneous"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#miscellaneous"><span class="heading-anchor-icon">#</span></a>Miscellaneous</h4>
+<ul>
+<li>vi.hoisted(fn) - Hoists a function to the top (used inside vi.mock).</li>
+<li>vi.resetConfig() - Resets Vitest configuration to its default.</li>
+<li>vi.setConfig(config) - Sets Vitest configuration for the current test file.</li>
+<li>vi.waitFor(fn, options?) - Waits for an assertion function to pass.</li>
+<li>vi.waitUntil(fn, options?) - Waits for a condition function to return true.</li>
+</ul>
+<h3 id="user-content-assertions-expect"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#assertions-expect"><span class="heading-anchor-icon">#</span></a>Assertions (expect)</h3>
+<ul>
+<li>expect(value) - The function used to create an assertion.</li>
+<li>expect.assert(value) - Chai's assert API as expect.assert for convenience</li>
+<li>expect.poll(fn, options?) - Polls a function until the assertion passes.</li>
+<li>expect.soft(value) - Creates a soft assertion that doesn't stop the test on failure.</li>
+<li>.not - Inverts the meaning of the next matcher.</li>
+<li>.rejects - Unwraps a promise's rejected reason.</li>
+<li>.resolves - Unwraps a promise's resolved value.</li>
+<li>.toBe(value) - Checks for strict equality (Object.is).</li>
+<li>.toBeCloseTo(number, precision?) - Checks if a number is close to another.</li>
+<li>.toBeDefined() - Checks that a value is not undefined.</li>
+<li>.toBeFalsy() - Checks that a value is falsy.</li>
+<li>.toBeGreaterThan(number) - Checks if a number is greater than another.</li>
+<li>.toBeGreaterThanOrEqual(number) - Checks if a number is greater than or equal.</li>
+<li>.toBeInstanceOf(class) - Checks if a value is an instance of a class.</li>
+<li>.toBeLessThan(number) - Checks if a number is less than another.</li>
+<li>.toBeLessThanOrEqual(number) - Checks if a number is less than or equal.</li>
+<li>.toBeNaN() - Checks that a value is NaN.</li>
+<li>.toBeNull() - Checks that a value is null.</li>
+<li>.toBeNullable() - Checks that a value is null or undefined.</li>
+<li>.toBeOneOf(array) - Checks if a value is one of the members of an array.</li>
+<li>.toBeTruthy() - Checks that a value is truthy.</li>
+<li>.toBeTypeOf(type) - Checks the type of a value (e.g., 'string').</li>
+<li>.toBeUndefined() - Checks that a value is undefined.</li>
+<li>.toContain(value) - Checks if an array or string contains a value.</li>
+<li>.toContainEqual(value) - Checks if an array contains an element with deep equality.</li>
+<li>.toEqual(value) - Deeply checks for equality of properties.</li>
+<li>.toHaveLength(number) - Checks the length of an array or string.</li>
+<li>.toHaveProperty(path, value?) - Checks if an object has a property.</li>
+<li>.toMatch(regexp | string) - Checks if a string matches a regex or substring.</li>
+<li>.toMatchFileSnapshot(filepath) - Compares a value to a snapshot in a separate file.</li>
+<li>.toMatchInlineSnapshot() - Compares a value to an inline snapshot.</li>
+<li>.toMatchObject(object) - Checks if an object contains the specified properties.</li>
+<li>.toMatchSnapshot() - Compares a value to a stored snapshot.</li>
+<li>.toSatisfy(predicate) - Checks if a value satisfies a predicate function.</li>
+<li>.toStrictEqual(value) - Deeply checks for equality, including object types.</li>
+<li>.toThrowError(error?) - Checks that a function throws an error.</li>
+<li>.toThrowErrorMatchingInlineSnapshot() - Checks if an error message matches an inline snapshot.</li>
+<li>.toThrowErrorMatchingSnapshot() - Checks if an error message matches a snapshot.</li>
+<li>expect.assertions(count) - Verifies that a specific number of assertions are called.</li>
+<li>expect.hasAssertions() - Verifies that at least one assertion is called.</li>
+<li>expect.unreachable() - Marks a line as unreachable.</li>
+<li>expect.anything() - Matches any value except null or undefined.</li>
+<li>expect.any(constructor) - Matches any value created with the given constructor.</li>
+<li>expect.closeTo(number, precision?) - Matches a number close to the expected value.</li>
+<li>expect.arrayContaining(array) - Matches an array containing the specified elements.</li>
+<li>expect.objectContaining(object) - Matches an object containing the specified properties.</li>
+<li>expect.stringContaining(string) - Matches a string containing the specified substring.</li>
+<li>expect.stringMatching(regexp) - Matches a string against a regex.</li>
+<li>expect.schemaMatching(schema) - Matches a value against a Zod schema.</li>
+<li>expect.addSnapshotSerializer(serializer) - Adds a custom snapshot serializer.</li>
+<li>expect.extend(matchers) - Adds custom matchers to expect.</li>
+<li>expect.addEqualityTesters(testers) - Adds custom equality testers.</li>
+</ul>
+<h5 id="user-content-mock-function-matchers"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#mock-function-matchers"><span class="heading-anchor-icon">#</span></a>Mock Function Matchers</h5>
+<ul>
+<li>.toHaveBeenCalled() - Checks if a mock function was called.</li>
+<li>.toHaveBeenCalledAfter(mock) - Checks if a mock was called after another mock.</li>
+<li>.toHaveBeenCalledBefore(mock) - Checks if a mock was called before another mock.</li>
+<li>.toHaveBeenCalledExactlyOnceWith(...args) - Checks if a mock was called exactly once with specific args.</li>
+<li>.toHaveBeenCalledTimes(number) - Checks how many times a mock was called.</li>
+<li>.toHaveBeenCalledWith(...args) - Checks if a mock was called with specific arguments.</li>
+<li>.toHaveBeenLastCalledWith(...args) - Checks the arguments of the last call.</li>
+<li>.toHaveBeenNthCalledWith(n, ...args) - Checks the arguments of the nth call.</li>
+<li>.toHaveLastReturnedWith(value) - Checks the return value of the last call.</li>
+<li>.toHaveNthReturnedWith(n, value) - Checks the return value of the nth call.</li>
+<li>.toHaveReturned() - Checks if a mock function returned successfully.</li>
+<li>.toHaveReturnedTimes(number) - Checks how many times a mock returned.</li>
+<li>.toHaveReturnedWith(value) - Checks if a mock returned a specific value.</li>
+</ul>
+<h5 id="user-content-promise-matchers-resolves--rejects"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#promise-matchers-resolves--rejects"><span class="heading-anchor-icon">#</span></a>Promise Matchers (.resolves / .rejects)</h5>
+<ul>
+<li>.toHaveLastResolvedWith(value) - Checks the last resolved value.</li>
+<li>.toHaveNthResolvedWith(n, value) - Checks the nth resolved value.</li>
+<li>.toHaveResolved() - Checks if a promise resolved.</li>
+<li>.toHaveResolvedTimes(number) - Checks how many times a promise resolved.</li>
+<li>.toHaveResolvedWith(value) - Checks if a promise resolved with a specific value.</li>
+</ul>
+<h3 id="user-content-assertions-assert"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#assertions-assert"><span class="heading-anchor-icon">#</span></a>Assertions (assert)</h3>
+<ul>
+<li>assert(value, message?) - Asserts that a value is truthy.</li>
+<li>assert.changes(fn, object, prop, message?) - Asserts fn changes object[prop].</li>
+<li>assert.changesButNotBy(fn, object, prop, delta, message?) - Asserts fn changes object[prop] but not by delta.</li>
+<li>assert.changesBy(fn, object, prop, delta, message?) - Asserts fn changes object[prop] by delta.</li>
+<li>assert.closeTo(actual, expected, delta, message?) - Asserts |actual - expected| &#x3C;= delta.</li>
+<li>assert.containsAllDeepKeys(object, keys, message?) - (Alias for hasAllDeepKeys).</li>
+<li>assert.containsAllKeys(object, keys, message?) - (Alias for hasAllKeys).</li>
+<li>assert.decreases(fn, object, prop, message?) - Asserts fn decreases object[prop].</li>
+<li>assert.decreasesButNotBy(fn, object, prop, delta, message?) - Asserts fn decreases object[prop] but not by delta.</li>
+<li>assert.decreasesBy(fn, object, prop, delta, message?) - Asserts fn decreases object[prop] by delta.</li>
+<li>assert.deepEqual(actual, expected, message?) - Asserts deep equality.</li>
+<li>assert.deepInclude(haystack, needle, message?) - Asserts haystack deep-includes needle.</li>
+<li>assert.deepNestedInclude(value, path, needle, message?) - Asserts value has deep-equal needle at path.</li>
+<li>assert.deepNestedPropertyVal(object, path, value, message?) - Asserts nested property path deep equals value.</li>
+<li>assert.deepOwnInclude(value, needle, message?) - Asserts value has deep-equal own property needle.</li>
+<li>assert.deepPropertyVal(object, prop, value, message?) - Asserts object[prop] deep equals value.</li>
+<li>assert.doesNotChange(fn, object, prop, message?) - Asserts fn does not change object[prop].</li>
+<li>assert.doesNotDecrease(fn, object, prop, message?) - Asserts fn does not decrease object[prop].</li>
+<li>assert.doesNotHaveAllDeepKeys(object, keys, message?) - Asserts object does not have all deep keys.</li>
+<li>assert.doesNotHaveAllKeys(object, keys, message?) - Asserts object does not have all keys.</li>
+<li>assert.doesNotHaveAnyDeepKeys(object, keys, message?) - Asserts object has no deep keys.</li>
+<li>assert.doesNotHaveAnyKeys(object, keys, message?) - Asserts object has none of keys.</li>
+<li>assert.doesNotIncrease(fn, object, prop, message?) - Asserts fn does not increase object[prop].</li>
+<li>assert.doesNotThrow(fn, error?, message?) - Asserts fn does not throw error.</li>
+<li>assert.equal(actual, expected, message?) - Asserts non-strict equality (==).</li>
+<li>assert.exists(value, message?) - Asserts value is not null or undefined.</li>
+<li>assert.fail(message?) - Throws an assertion error.</li>
+<li>assert.hasAllDeepKeys(object, keys, message?) - Asserts object has all deep keys.</li>
+<li>assert.hasAllKeys(object, keys, message?) - Asserts object has all keys.</li>
+<li>assert.hasAnyDeepKeys(object, keys, message?) - Asserts object has at least one deep keys.</li>
+<li>assert.hasAnyKeys(object, keys, message?) - Asserts object has at least one of keys.</li>
+<li>assert.ifError(value, message?) - Asserts value is falsy.</li>
+<li>assert.include(haystack, needle, message?) - Asserts haystack.includes(needle).</li>
+<li>assert.includeDeepMembers(superset, subset, message?) - Asserts superset deep-includes all members of subset.</li>
+<li>assert.includeDeepOrderedMembers(superset, subset, message?) - Asserts superset deep-includes all members of subset in order.</li>
+<li>assert.includeMembers(superset, subset, message?) - Asserts superset includes all members of subset.</li>
+<li>assert.includeOrderedMembers(superset, subset, message?) - Asserts superset includes all members of subset in order.</li>
+<li>assert.increases(fn, object, prop, message?) - Asserts fn increases object[prop].</li>
+<li>assert.increasesButNotBy(fn, object, prop, delta, message?) - Asserts fn increases object[prop] but not by delta.</li>
+<li>assert.increasesBy(fn, object, prop, delta, message?) - Asserts fn increases object[prop] by delta.</li>
+<li>assert.instanceOf(value, constructor, message?) - Asserts value instanceof constructor.</li>
+<li>assert.isAbove(value, above, message?) - Asserts value > above.</li>
+<li>assert.isArray(value, message?) - Asserts value is an array.</li>
+<li>assert.isAtLeast(value, atLeast, message?) - Asserts value >= atLeast.</li>
+<li>assert.isAtMost(value, atMost, message?) - Asserts value &#x3C;= atMost.</li>
+<li>assert.isBelow(value, below, message?) - Asserts value &#x3C; below.</li>
+<li>assert.isBoolean(value, message?) - Asserts value is a boolean.</li>
+<li>assert.isDefined(value, message?) - Asserts value !== undefined.</li>
+<li>assert.isEmpty(value, message?) - Asserts value is empty.</li>
+<li>assert.isExtensible(object, message?) - Asserts object is extensible.</li>
+<li>assert.isFalse(value, message?) - Asserts value === false.</li>
+<li>assert.isFinite(value, message?) - Asserts value is a finite number.</li>
+<li>assert.isFrozen(object, message?) - Asserts object is frozen.</li>
+<li>assert.isFunction(value, message?) - Asserts value is a function.</li>
+<li>assert.isNaN(value, message?) - Asserts value is NaN.</li>
+<li>assert.isNotArray(value, message?) - Asserts value is not an array.</li>
+<li>assert.isNotBoolean(value, message?) - Asserts value is not a boolean.</li>
+<li>assert.isNotEmpty(value, message?) - Asserts value is not empty.</li>
+<li>assert.isNotExtensible(object, message?) - Asserts object is not extensible.</li>
+<li>assert.isNotFalse(value, message?) - Asserts value !== false.</li>
+<li>assert.isNotFrozen(object, message?) - Asserts object is not frozen.</li>
+<li>assert.isNotFunction(value, message?) - Asserts value is not a function.</li>
+<li>assert.isNotNaN(value, message?) - Asserts value is not NaN.</li>
+<li>assert.isNotNull(value, message?) - Asserts value !== null.</li>
+<li>assert.isNotNumber(value, message?) - Asserts value is not a number.</li>
+<li>assert.isNotObject(value, message?) - Asserts value is not an object.</li>
+<li>assert.isNotOk(value, message?) - Asserts that a value is falsy.</li>
+<li>assert.isNotSealed(object, message?) - Asserts object is not sealed.</li>
+<li>assert.isNotString(value, message?) - Asserts value is not a string.</li>
+<li>assert.isNotTrue(value, message?) - Asserts value !== true.</li>
+<li>assert.isNull(value, message?) - Asserts value === null.</li>
+<li>assert.isNumber(value, message?) - Asserts value is a number.</li>
+<li>assert.isObject(value, message?) - Asserts value is an object.</li>
+<li>assert.isOk(value, message?) - Asserts that a value is truthy.</li>
+<li>assert.isSealed(object, message?) - Asserts object is sealed.</li>
+<li>assert.isString(value, message?) - Asserts value is a string.</li>
+<li>assert.isTrue(value, message?) - Asserts value === true.</li>
+<li>assert.isUndefined(value, message?) - Asserts value === undefined.</li>
+<li>assert.lengthOf(value, length, message?) - Asserts value.length === length.</li>
+<li>assert.match(value, regex, message?) - Asserts regex.test(value).</li>
+<li>assert.nestedInclude(value, path, needle, message?) - Asserts value has needle at path.</li>
+<li>assert.nestedProperty(object, path, message?) - Asserts object has nested property path.</li>
+<li>assert.nestedPropertyVal(object, path, value, message?) - Asserts nested property path equals value.</li>
+<li>assert.notDeepEqual(actual, expected, message?) - Asserts deep inequality.</li>
+<li>assert.notDeepInclude(haystack, needle, message?) - Asserts haystack does not deep-include needle.</li>
+<li>assert.notDeepNestedInclude(value, path, needle, message?) - Asserts value does not have deep-equal needle at path.</li>
+<li>assert.notDeepNestedPropertyVal(object, path, value, message?) - Asserts nested property path does not deep equal value.</li>
+<li>assert.notDeepOwnInclude(value, needle, message?) - Asserts value does not have deep-equal own property needle.</li>
+<li>assert.notDeepPropertyVal(object, prop, value, message?) - Asserts object[prop] does not deep equal value.</li>
+<li>assert.notEqual(actual, expected, message?) - Asserts non-strict inequality (!=).</li>
+<li>assert.notExists(value, message?) - Asserts value is null or undefined.</li>
+<li>assert.notInclude(haystack, needle, message?) - Asserts !haystack.includes(needle).</li>
+<li>assert.notIncludeDeepMembers(superset, subset, message?) - Asserts superset does not deep-include all members of subset.</li>
+<li>assert.notIncludeDeepOrderedMembers(superset, subset, message?) - Asserts superset does not deep-include all members of subset in order.</li>
+<li>assert.notIncludeMembers(superset, subset, message?) - Asserts superset does not include all members of subset.</li>
+<li>assert.notIncludeOrderedMembers(superset, subset, message?) - Asserts superset does not include all members of subset in order.</li>
+<li>assert.notInstanceOf(value, constructor, message?) - Asserts !(value instanceof constructor).</li>
+<li>assert.notMatch(value, regex, message?) - Asserts !regex.test(value).</li>
+<li>assert.notNestedInclude(value, path, needle, message?) - Asserts value does not have needle at path.</li>
+<li>assert.notNestedProperty(object, path, message?) - Asserts object does not have nested property path.</li>
+<li>assert.notNestedPropertyVal(object, path, value, message?) - Asserts nested property path does not equal value.</li>
+<li>assert.notOwnInclude(value, needle, message?) - Asserts value does not have own property needle.</li>
+<li>assert.notProperty(object, prop, message?) - Asserts object does not have property prop.</li>
+<li>assert.notPropertyVal(object, prop, value, message?) - Asserts object[prop] != value.</li>
+<li>assert.notSameDeepMembers(set1, set2, message?) - Asserts set1 and set2 do not have the same deep members.</li>
+<li>assert.notSameDeepOrderedMembers(set1, set2, message?) - Asserts set1 and set2 do not have same deep members in same order.</li>
+<li>assert.notSameMembers(set1, set2, message?) - Asserts set1 and set2 do not have the same members.</li>
+<li>assert.notSameOrderedMembers(set1, set2, message?) - Asserts set1 and set2 do not have same members in same order.</li>
+<li>assert.notTypeOf(value, type, message?) - Asserts typeof value !== type.</li>
+<li>assert.oneOf(value, list, message?) - Asserts value is one of list.</li>
+<li>assert.operator(val1, op, val2, message?) - Asserts val1 op val2 is truthy.</li>
+<li>assert.ownInclude(value, needle, message?) - Asserts value has own property needle.</li>
+<li>assert.property(object, prop, message?) - Asserts object has property prop.</li>
+<li>assert.propertyVal(object, prop, value, message?) - Asserts object[prop] == value.</li>
+<li>assert.sameDeepMembers(set1, set2, message?) - Asserts set1 and set2 have the same deep members.</li>
+<li>assert.sameDeepOrderedMembers(set1, set2, message?) - Asserts set1 and set2 have same deep members in same order.</li>
+<li>assert.sameMembers(set1, set2, message?) - Asserts set1 and set2 have the same members.</li>
+<li>assert.sameOrderedMembers(set1, set2, message?) - Asserts set1 and set2 have same members in same order.</li>
+<li>assert.strictEqual(actual, expected, message?) - Asserts strict equality (===).</li>
+<li>assert.throws(fn, error?, message?) - Asserts fn throws error.</li>
+<li>assert.typeOf(value, type, message?) - Asserts typeof value === type.</li>
+</ul>
+<h3 id="user-content-type-testing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#type-testing"><span class="heading-anchor-icon">#</span></a>Type Testing</h3>
+<ul>
+<li>assertType(value) - Asserts a value's type; fails with a type error if incorrect.</li>
+<li>expectTypeOf(value) - Asserts the type of a value at compile time.</li>
+</ul>
+<h4 id="user-content-type-matchers-for-expecttypeof--asserttype"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#type-matchers-for-expecttypeof--asserttype"><span class="heading-anchor-icon">#</span></a><strong>Type Matchers (for expectTypeOf &#x26; assertType)</strong></h4>
+<ul>
+<li>.asserts() - Checks if a function is an assertion function.</li>
+<li>.constructorParameters - Accesses constructor parameters type as a tuple.</li>
+<li>.exclude() - Excludes a type from a union.</li>
+<li>.extract() - Extracts a type from a union.</li>
+<li>.guards() - Checks if a function is a type guard.</li>
+<li>.instance - Accesses the instance type of a class.</li>
+<li>.items - Accesses the type of array items.</li>
+<li>.not - Inverts the meaning of the next type matcher.</li>
+<li>.parameter(index) - Accesses the type of a function parameter at a specific index.</li>
+<li>.parameters - Accesses the parameters type of a function as a tuple.</li>
+<li>.resolves - Accesses the resolved type of a promise.</li>
+<li>.returns - Accesses the return type of a function type.</li>
+<li>.toBeAny() - Checks if the type is any.</li>
+<li>.toBeArray() - Checks if the type is an array.</li>
+<li>.toBeBoolean() - Checks if the type is a boolean.</li>
+<li>.toBeCallableWith(...args) - Checks if a function is callable with given arguments.</li>
+<li>.toBeConstructibleWith(...args) - Checks if a class is constructible with given arguments.</li>
+<li>.toBeFunction() - Checks if the type is a function.</li>
+<li>.toBeNever() - Checks if the type is never.</li>
+<li>.toBeNull() - Checks if the type is null.</li>
+<li>.toBeNullable() - Checks if the type is nullable (or null or undefined).</li>
+<li>.toBeObject() - Checks if the type is an object.</li>
+<li>.toBeString() - Checks if the type is a string.</li>
+<li>.toBeSymbol() - Checks if the type is symbol.</li>
+<li>.toBeUndefined() - Checks if the type is undefined.</li>
+<li>.toBeUnknown() - Checks if the type is unknown.</li>
+<li>.toBeVoid() - Checks if the type is void.</li>
+<li>.toEqualTypeOf() - Checks if types are exactly equal.</li>
+<li>.toExtend() - Checks if the type extends T.</li>
+<li>.toHaveProperty(key, expectedType?) - Checks if an object type has a specific property.</li>
+<li>.toMatchObjectType() - Checks if the type matches an object subset.</li>
+<li>.toMatchTypeOf() - Checks if the type matches a subset of T.</li>
+</ul>
+<h2 id="user-content-contributing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#contributing"><span class="heading-anchor-icon">#</span></a>Contributing</h2>
+<p>Feel free to contribute new snippets or improvements by submitting a pull request to the repository.</p>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>MIT License</p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>

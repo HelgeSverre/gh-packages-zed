@@ -10,21 +10,21 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1335** |
-| In official registry | 904 |
-| Discovered via topics | 431 |
-| Last updated | 2026-05-20 02:57 UTC |
+| Total tracked | **1431** |
+| In official registry | 996 |
+| Discovered via topics | 435 |
+| Last updated | 2026-05-20 03:50 UTC |
 
 ### By capability
 | Type | Count |
 |------|-------|
-| Themes | 519 |
-| Grammars | 477 |
-| Language Servers | 462 |
-| Context Servers | 122 |
-| Snippets | 59 |
+| Themes | 569 |
+| Grammars | 514 |
+| Language Servers | 485 |
+| Context Servers | 123 |
+| Snippets | 64 |
 | Slash Commands | 53 |
-| Debug Adapters | 31 |
+| Debug Adapters | 32 |
 | Docs Providers | 15 |
 
 ## How it works
@@ -58,26 +58,26 @@ cd website && npm install && npm run dev
 
 | Package | ⭐ | Description |
 |---------|-----|-------------|
-| [bIaqat/quiet-light-theme-zed](https://github.com/bIaqat/quiet-light-theme-zed) | 8 |  |
-| [ocsmit/zed-r](https://github.com/ocsmit/zed-r) | 49 | R language support for Zed editor |
-| [zed-extensions/racket](https://github.com/zed-extensions/racket) | 4 | Racket support |
-| [Al-Pharaday/zed-theme-railgun](https://github.com/Al-Pharaday/zed-theme-railgun) | 0 | Railgun theme for Zed |
-| [pbsds/railscast-zed](https://github.com/pbsds/railscast-zed) | 0 |  |
-| [athxx/zed-theme-rainbow](https://github.com/athxx/zed-theme-rainbow) | 2 |  |
-| [Kalmaegi/zed-rainbow-csv](https://github.com/Kalmaegi/zed-rainbow-csv) | 58 | 🌈Rainbow CSV - zed extension: Highlight CSV with different rainbow colors to ma... |
-| [gabors0/rapture-zed](https://github.com/gabors0/rapture-zed) | 0 | a vscode theme ported to zed. original by Pustur |
-| [rcl-lang/zed-rcl](https://github.com/rcl-lang/zed-rcl) | 5 | An extension for the Zed editor that adds support for the RCL configuration lang... |
-| [tamimhasandev/react-snippets](https://github.com/tamimhasandev/react-snippets) | 11 |  |
-| [shonebinu/zed-react-snippets](https://github.com/shonebinu/zed-react-snippets) | 5 | Zed extension with converted React/Redux/React-Native snippets from the popular ... |
-| [MiguelMachado-dev/ReactTypeKit](https://github.com/MiguelMachado-dev/ReactTypeKit) | 1 | A comprehensive Zed snippet pack providing fast, type-safe templates for React, ... |
-| [vishnuroshan/zed-react-ts-snippets](https://github.com/vishnuroshan/zed-react-ts-snippets) | 35 | Speed up your Typescript/React workflow in Zed with ready-to-use snippets for co... |
-| [red/zed-red](https://github.com/red/zed-red) | 1 | Zed extension for Red |
-| [jac3km4/redscript-zed](https://github.com/jac3km4/redscript-zed) | 3 |  |
-| [JasonGH17/regedit](https://github.com/JasonGH17/regedit) | 0 | Zed Regedit language support extension |
-| [oxnan/RegEx-theme](https://github.com/oxnan/RegEx-theme) | 0 | A Vibrant dark theme for Zed |
-| [SiennaTransfer4/zed-rego](https://github.com/SiennaTransfer4/zed-rego) | 1 |  |
-| [stefanbc/relaxed-theme-zed](https://github.com/stefanbc/relaxed-theme-zed) | 0 | A port of the Relaxed VS Code theme by Michael Kühnel. Dark theme with easy on t... |
-| [rescript-lang/rescript-zed](https://github.com/rescript-lang/rescript-zed) | 26 | ReScript support for Zed editor |
+| [XiNiHa/ts-macro-zed](https://github.com/XiNiHa/ts-macro-zed) | 5 | TS Macro support for Zed |
+| [x032205/tsar-zed-theme](https://github.com/x032205/tsar-zed-theme) | 12 |  |
+| [xtrasmal/zed-theme-tsarcasm](https://github.com/xtrasmal/zed-theme-tsarcasm) | 1 | Theme for Zed |
+| [MoskitoHero/zed-turtle](https://github.com/MoskitoHero/zed-turtle) | 2 | Zed extension for the RDF Turtle format |
+| [YussufSassi/zed-twig](https://github.com/YussufSassi/zed-twig) | 15 | Syntax highlighting and Intellisense for Twig in Zed |
+| [tectiv3/twilight-zed](https://github.com/tectiv3/twilight-zed) | 0 | Twilight theme for Zed editor |
+| [seekode/zed-ts-snippets](https://github.com/seekode/zed-ts-snippets) | 18 | A comprehensive collection of TypeScript snippets for Zed editor, designed to ac... |
+| [rhodee/zed-typespec](https://github.com/rhodee/zed-typespec) | 5 | Typespec support |
+| [phwhite/ucode-zed](https://github.com/phwhite/ucode-zed) | 0 | Zed ucode language extension |
+| [zed-extensions/uiua](https://github.com/zed-extensions/uiua) | 1 | Uiua support |
+| [rubjo/ultimate-dark-neo-zed](https://github.com/rubjo/ultimate-dark-neo-zed) | 14 | Port of Ultimate Dark Neo to Zed editor |
+| [platformer/zed-umbralkai](https://github.com/platformer/zed-umbralkai) | 0 |  |
+| [michabay05/zed-umka](https://github.com/michabay05/zed-umka) | 4 |  |
+| [umple/umple.zed](https://github.com/umple/umple.zed) | 2 |  |
+| [i-amdroid/zed-underground-theme](https://github.com/i-amdroid/zed-underground-theme) | 2 | Underground theme for Zed editor |
+| [zetashift/unison-zed](https://github.com/zetashift/unison-zed) | 7 | Unison support for Zed. |
+| [Abdallah-Alwarawreh/unity-zed-snippets](https://github.com/Abdallah-Alwarawreh/unity-zed-snippets) | 8 | All snippets you need for Unity development in Zed |
+| [bryanbuchanan/unoflat](https://github.com/bryanbuchanan/unoflat) | 0 | Uno Flat is a minimal Zed theme based on Atom's One Dark. |
+| [elkraneo/zed-usd](https://github.com/elkraneo/zed-usd) | 1 |  |
+| [JekRock/zed-utl](https://github.com/JekRock/zed-utl) | 0 | Zed language support extension for UTL |
 
 ## 🌟 Top Starred (Under 500)
 
@@ -108,8 +108,9 @@ cd website && npm install && npm run dev
 
 | Package | ⭐ | Last Push | Description |
 |---------|-----|-----------|-------------|
-| [MiguelMachado-dev/ReactTypeKit](https://github.com/MiguelMachado-dev/ReactTypeKit) | 1 | 2026-05-20 | A comprehensive Zed snippet pack providing fast, type-safe t... |
 | [HelgeSverre/zed-applescript](https://github.com/HelgeSverre/zed-applescript) | 1 | 2026-05-20 | (WIP) AppleScript language support for Zed editor |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 82 | 2026-05-20 | True Dark Theme for Zed IDE |
+| [MiguelMachado-dev/ReactTypeKit](https://github.com/MiguelMachado-dev/ReactTypeKit) | 1 | 2026-05-20 | A comprehensive Zed snippet pack providing fast, type-safe t... |
 | [vishnuroshan/zed-react-ts-snippets](https://github.com/vishnuroshan/zed-react-ts-snippets) | 35 | 2026-05-20 | Speed up your Typescript/React workflow in Zed with ready-to... |
 | [emirror-de/clearsight-zed](https://github.com/emirror-de/clearsight-zed) | 0 | 2026-05-19 | A scientifically-backed, accessibility-focused theme optimiz... |
 | [maxleiko/zed-greycat-extension](https://github.com/maxleiko/zed-greycat-extension) | 0 | 2026-05-19 | GreyCat support for Zed |
@@ -126,7 +127,6 @@ cd website && npm install && npm run dev
 | [aliaksei-loi/zed-loi-paper-theme](https://github.com/aliaksei-loi/zed-loi-paper-theme) | 0 | 2026-05-19 | A Zed theme inspired by Claude.ai and Claude Code — warm cre... |
 | [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 165 | 2026-05-19 | Zed support for the Godot game engine and the GDScript langu... |
 | [joshuadavidthomas/zed-django](https://github.com/joshuadavidthomas/zed-django) | 35 | 2026-05-19 | A Django extension for Zed |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 82 | 2026-05-19 | True Dark Theme for Zed IDE |
 | [openvanilla/mcbopomofo-zed-extension](https://github.com/openvanilla/mcbopomofo-zed-extension) | 0 | 2026-05-19 | McBopomofo Data Extension for Zed |
 
 ---
@@ -135,6 +135,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |-----|-----|---------|-------|
+| 2026-05-20T03:50 | 104 | 427 | 1697 |
 | 2026-05-20T02:57 | 113 | 421 | 1593 |
 | 2026-05-20T00:40 | 132 | 410 | 1480 |
 | 2026-05-19T21:56 | 142 | 407 | 1348 |
@@ -144,7 +145,6 @@ cd website && npm install && npm run dev
 | 2026-05-19T20:52 | 20 | 368 | 870 |
 | 2026-05-19T20:16 | 20 | 266 | 870 |
 | 2026-05-19T20:16 | 20 | 368 | 870 |
-| 2026-05-19T20:16 | 0 | 0 | 860 |
 
 ---
 

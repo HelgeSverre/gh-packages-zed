@@ -1,0 +1,19 @@
+id = "terraform"
+name = "Terraform"
+description = "Terraform support."
+version = "0.1.8"
+schema_version = 1
+authors = ["Caius Durling <dev@caius.name>", "Daniel Banck <dbanck@users.noreply.github.com>"]
+repository = "https://github.com/zed-extensions/terraform"
+
+[language_servers.terraform-ls]
+name = "Terraform Language Server"
+languages = ["Terraform", "Terraform Vars"]
+language_ids = { Terraform = "terraform", "Terraform Vars" = "terraform-vars" }
+# TODO: file issue for server supported code actions
+# TODO: reenable default actions / delete override
+code_action_kinds = []
+
+[grammars.hcl]
+repository = "https://github.com/tree-sitter-grammars/tree-sitter-hcl"
+commit = "fad991865fee927dd1de5e172fb3f08ac674d914"

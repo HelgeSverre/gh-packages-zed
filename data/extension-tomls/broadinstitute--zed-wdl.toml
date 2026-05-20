@@ -1,0 +1,15 @@
+id = "wdl"
+name = "Workflow Description Language"
+version = "0.0.1"
+schema_version = 1
+authors = ["Lucas van Dijk <lvandijk@broadinstitute.org>"]
+description = "Syntaxt highlighting and LSP support for the Workflow Description Language (WDL)."
+repository = "https://github.com/broadinstitute/zed-wdl"
+
+[grammars.wdl]
+repository = "https://github.com/broadinstitute/tree-sitter-wdl"
+commit = "e0ea84c0a38fac0122c2bf0692806250b83995fe"
+
+[language_servers.wdl]
+languages = ["WDL"]
+name = "wdl-lsp"

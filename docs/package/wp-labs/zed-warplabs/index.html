@@ -1,0 +1,250 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>WarpLabs - Zed Extension Safari</title><meta name="description" content="WFL, WFS, WPL, OML, WFG, and GXL language support for WarpLabs"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="WarpLabs - Zed Extension Safari"><meta property="og:description" content="WFL, WFS, WPL, OML, WFG, and GXL language support for WarpLabs"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="WarpLabs - Zed Extension Safari"><meta name="twitter:description" content="WFL, WFS, WPL, OML, WFG, and GXL language support for WarpLabs"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.yFbdb8Bi.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> wp-labs/zed-warplabs </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> WarpLabs </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> WFL, WFS, WPL, OML, WFG, and GXL language support for WarpLabs </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="grammar">Grammar</span><span class="cat-badge" data-cat="language-server">Language Server</span> </div> </div> </div> </header> <main class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/warplabs" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/wp-labs/zed-warplabs" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.16.0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">warplabs</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">Tree-sitter Query</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">Apache-2.0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">3/2/2026</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">WarpLabs Team</dd> </div> </dl>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-warplabs-zed-extension"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#warplabs-zed-extension"><span class="heading-anchor-icon">#</span></a>WarpLabs Zed Extension</h1>
+<p>Zed editor extension for WarpLabs DSLs — syntax highlighting, diagnostics, completion, hover, go-to-definition, find references, rename, document symbols, and formatting.</p>
+<h2 id="user-content-supported-languages"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#supported-languages"><span class="heading-anchor-icon">#</span></a>Supported Languages</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Language</th><th>Suffix</th><th>Description</th></tr></thead><tbody><tr><td>WFL</td><td><code>.wfl</code></td><td>WarpFusion Language — fusion rules, pattern detection, scoring</td></tr><tr><td>WFS</td><td><code>.wfs</code></td><td>Window Field Schema — event stream window and field definitions</td></tr><tr><td>WPL</td><td><code>.wpl</code></td><td>WarpLabs Parsing Language — log parsing with transformation pipelines</td></tr><tr><td>OML</td><td><code>.oml</code></td><td>Output Mapping Language — output mapping and transformations</td></tr><tr><td>WFG</td><td><code>.wfg</code></td><td>WarpFusion scenario Generator — test scenario generation and fault injection</td></tr></tbody></table>
+<h2 id="user-content-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features"><span class="heading-anchor-icon">#</span></a>Features</h2>
+<h3 id="user-content-syntax-highlighting"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#syntax-highlighting"><span class="heading-anchor-icon">#</span></a>Syntax Highlighting</h3>
+<p>Tree-sitter-based highlighting for all 5 languages, including keywords, types, strings, numbers, comments, operators, and built-in functions.</p>
+<h3 id="user-content-language-server-wplabs-lsp"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#language-server-wplabs-lsp"><span class="heading-anchor-icon">#</span></a>Language Server (wplabs-lsp)</h3>
+<p>The extension integrates with <code>wplabs-lsp</code>, a Language Server Protocol server that provides:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Feature</th><th>Description</th></tr></thead><tbody><tr><td><strong>Diagnostics</strong></td><td>Real-time syntax error detection from tree-sitter ERROR/MISSING nodes</td></tr><tr><td><strong>Completion</strong></td><td>Keywords, built-in functions/types, document identifiers</td></tr><tr><td><strong>Hover</strong></td><td>Documentation for keywords, built-in function signatures, identifier context</td></tr><tr><td><strong>Go to Definition</strong></td><td>Jump to rule, window, scenario, package declarations (<code>Cmd+Click</code> / <code>F12</code>)</td></tr><tr><td><strong>Find References</strong></td><td>Find all usages of a symbol (<code>Shift+F12</code>)</td></tr><tr><td><strong>Rename</strong></td><td>Rename symbol across all definition and reference sites (<code>F2</code>)</td></tr><tr><td><strong>Document Symbols</strong></td><td>Outline view of rules, windows, contracts, scenarios (<code>Cmd+Shift+O</code>)</td></tr><tr><td><strong>Formatting</strong></td><td>Indent-based document formatting (<code>Cmd+Shift+I</code>)</td></tr></tbody></table>
+<h3 id="user-content-other"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#other"><span class="heading-anchor-icon">#</span></a>Other</h3>
+<ul>
+<li>Bracket matching and auto-close</li>
+<li>Auto-indentation</li>
+<li>Code folding</li>
+<li>Code snippets (OML)</li>
+</ul>
+<h2 id="user-content-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation"><span class="heading-anchor-icon">#</span></a>Installation</h2>
+<h3 id="user-content-1-install-wplabs-lsp"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#1-install-wplabs-lsp"><span class="heading-anchor-icon">#</span></a>1. Install wplabs-lsp</h3>
+<p>The LSP binary must be in your <code>PATH</code>.</p>
+<p><strong>From source:</strong></p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">cd</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> tools/wplabs-lsp</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> build</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --release</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Copy or symlink to a directory in your PATH</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cp</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> target/release/wplabs-lsp</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> /usr/local/bin/</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># or</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">ln</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -s</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> "$(</span><span style="color:#005CC5;--shiki-dark:#79B8FF">pwd</span><span style="color:#032F62;--shiki-dark:#9ECBFF">)/target/release/wplabs-lsp"</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> /usr/local/bin/wplabs-lsp</span></span></code></pre>
+<p><strong>Via cargo install</strong> (after publishing to crates.io):</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> install</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> wplabs-lsp</span></span></code></pre>
+<p>Verify:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">wplabs-lsp</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --version</span><span style="color:#6A737D;--shiki-dark:#6A737D">  # or just: which wplabs-lsp</span></span></code></pre>
+<h3 id="user-content-2-install-the-zed-extension"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#2-install-the-zed-extension"><span class="heading-anchor-icon">#</span></a>2. Install the Zed Extension</h3>
+<p><strong>From Zed Extension Marketplace</strong> (after publishing):</p>
+<p><code>Cmd+Shift+X</code> → search "WarpLabs" → Install</p>
+<p><strong>As Dev Extension</strong> (for development):</p>
+<p><code>Cmd+Shift+P</code> → "zed: install dev extension" → select <code>tools/zed-warplabs/</code></p>
+<h3 id="user-content-3-verify"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#3-verify"><span class="heading-anchor-icon">#</span></a>3. Verify</h3>
+<p>Open any <code>.wfl</code>, <code>.wfs</code>, <code>.wpl</code>, <code>.oml</code>, or <code>.wfg</code> file. You should see:</p>
+<ul>
+<li>Syntax highlighting immediately</li>
+<li>LSP status "WarpLabs LSP" in the status bar</li>
+<li>Diagnostics (red underlines) for syntax errors</li>
+<li>Completions when typing</li>
+</ul>
+<h2 id="user-content-language-reference"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#language-reference"><span class="heading-anchor-icon">#</span></a>Language Reference</h2>
+<h3 id="user-content-wfl--keywords--built-ins"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#wfl--keywords--built-ins"><span class="heading-anchor-icon">#</span></a>WFL — Keywords &#x26; Built-ins</h3>
+<p><strong>Keywords:</strong> <code>use</code>, <code>rule</code>, <code>meta</code>, <code>events</code>, <code>match</code>, <code>keys</code>, <code>duration</code>, <code>on</code>, <code>event</code>, <code>close</code>, <code>score</code>, <code>entity</code>, <code>yield</code>, <code>contract</code>, <code>given</code>, <code>expect</code>, <code>derive</code>, <code>stage</code>, <code>and</code>, <code>or</code>, <code>not</code>, <code>in</code>, <code>true</code>, <code>false</code>, <code>if</code>, <code>then</code>, <code>else</code>, <code>join</code>, <code>conv</code></p>
+<p><strong>Aggregates:</strong> <code>count</code>, <code>sum</code>, <code>avg</code>, <code>min</code>, <code>max</code>, <code>distinct</code></p>
+<p><strong>Functions:</strong> <code>fmt</code>, <code>has</code>, <code>Now::time</code>, <code>Now::date</code>, <code>Now::hour</code></p>
+<p><strong>Types:</strong> <code>chars</code>, <code>digit</code>, <code>float</code>, <code>bool</code>, <code>time</code>, <code>ip</code>, <code>hex</code></p>
+<h3 id="user-content-wfs--keywords--types"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#wfs--keywords--types"><span class="heading-anchor-icon">#</span></a>WFS — Keywords &#x26; Types</h3>
+<p><strong>Keywords:</strong> <code>window</code>, <code>stream</code>, <code>time</code>, <code>over</code>, <code>fields</code>, <code>array</code></p>
+<p><strong>Types:</strong> <code>chars</code>, <code>digit</code>, <code>float</code>, <code>bool</code>, <code>time</code>, <code>ip</code>, <code>hex</code></p>
+<h3 id="user-content-wpl--keywords--types"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#wpl--keywords--types"><span class="heading-anchor-icon">#</span></a>WPL — Keywords &#x26; Types</h3>
+<p><strong>Keywords:</strong> <code>package</code>, <code>rule</code>, <code>field</code>, <code>metadata</code>, <code>length</code>, <code>format</code>, <code>pipe</code>, <code>separator</code>, <code>target</code>, <code>type</code>, <code>tag</code>, <code>copy_raw</code>, <code>alt</code>, <code>opt</code>, <code>some_of</code>, <code>seq</code>, <code>not</code></p>
+<p><strong>Types:</strong> <code>chars</code>, <code>digit</code>, <code>float</code>, <code>bool</code>, <code>time</code>, <code>ip</code>, <code>hex</code>, <code>json</code>, <code>kvarr</code>, <code>http/request</code>, <code>http/status</code>, <code>http/agent</code></p>
+<h3 id="user-content-oml--keywords--pipe-functions"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#oml--keywords--pipe-functions"><span class="heading-anchor-icon">#</span></a>OML — Keywords &#x26; Pipe Functions</h3>
+<p><strong>Keywords:</strong> <code>name</code>, <code>rule</code>, <code>read</code>, <code>take</code>, <code>pipe</code>, <code>fmt</code>, <code>object</code>, <code>collect</code>, <code>match</code>, <code>select</code>, <code>from</code>, <code>where</code>, <code>and</code>, <code>or</code>, <code>not</code>, <code>in</code>, <code>auto</code>, <code>ip</code>, <code>chars</code>, <code>digit</code>, <code>float</code>, <code>time</code>, <code>bool</code>, <code>obj</code>, <code>array</code></p>
+<p><strong>Pipe functions:</strong> <code>to_json</code>, <code>base64_decode</code>, <code>base64_encode</code>, <code>url</code>, <code>nth</code>, <code>get</code>, <code>path</code>, <code>json_escape</code>, <code>json_unescape</code>, <code>html_unescape</code>, <code>html_escape</code>, <code>str_escape</code>, <code>to_str</code>, <code>skip_empty</code>, <code>ip4_to_int</code>, <code>Time::to_ts_ms</code></p>
+<h3 id="user-content-wfg--keywords--generator-functions"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#wfg--keywords--generator-functions"><span class="heading-anchor-icon">#</span></a>WFG — Keywords &#x26; Generator Functions</h3>
+<p><strong>Keywords:</strong> <code>use</code>, <code>scenario</code>, <code>seed</code>, <code>time</code>, <code>duration</code>, <code>total</code>, <code>stream</code>, <code>inject</code>, <code>for</code>, <code>on</code>, <code>faults</code>, <code>oracle</code>, <code>hit</code>, <code>near_miss</code>, <code>non_hit</code>, <code>true</code>, <code>false</code>, <code>out_of_order</code>, <code>late</code>, <code>duplicate</code>, <code>drop</code></p>
+<p><strong>Generator functions:</strong> <code>ipv4</code>, <code>pattern</code>, <code>uniform</code>, <code>choice</code>, <code>counter</code>, <code>normal</code>, <code>zipf</code></p>
+<h2 id="user-content-troubleshooting"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#troubleshooting"><span class="heading-anchor-icon">#</span></a>Troubleshooting</h2>
+<h3 id="user-content-lsp-not-starting"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#lsp-not-starting"><span class="heading-anchor-icon">#</span></a>LSP not starting</h3>
+<p>Check that <code>wplabs-lsp</code> is in your PATH:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">which</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> wplabs-lsp</span></span></code></pre>
+<p>Check Zed logs for errors: <code>Cmd+Shift+P</code> → "zed: open log"</p>
+<h3 id="user-content-lsp-running-but-no-diagnostics"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#lsp-running-but-no-diagnostics"><span class="heading-anchor-icon">#</span></a>LSP running but no diagnostics</h3>
+<p>The LSP only reports tree-sitter parse errors (ERROR/MISSING nodes). If the file parses correctly, there will be no diagnostics — this is expected.</p>
+<h3 id="user-content-debug-lsp"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#debug-lsp"><span class="heading-anchor-icon">#</span></a>Debug LSP</h3>
+<p>Run with logging enabled:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">RUST_LOG</span><span style="color:#D73A49;--shiki-dark:#F97583">=</span><span style="color:#032F62;--shiki-dark:#9ECBFF">debug</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> wplabs-lsp</span></span></code></pre>
+<p>Manual protocol test:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">printf</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> 'Content-Length: 80\r\n\r\n{"jsonrpc":"2.0","id":1,"method":"initialize","params":{"capabilities":{}}}'</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">  |</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> wplabs-lsp</span></span></code></pre>
+<h3 id="user-content-grammar-changes-not-reflected"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#grammar-changes-not-reflected"><span class="heading-anchor-icon">#</span></a>Grammar changes not reflected</h3>
+<p>After modifying a tree-sitter grammar:</p>
+<ol>
+<li><code>tree-sitter generate</code> in the grammar repo</li>
+<li><code>git commit</code> the changes</li>
+<li>Update <code>rev</code> in <code>extension.toml</code> to the new commit hash</li>
+<li>Reinstall the dev extension in Zed</li>
+</ol>
+<h3 id="user-content-validate-grammar--language-query-compatibility"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#validate-grammar--language-query-compatibility"><span class="heading-anchor-icon">#</span></a>Validate grammar + language query compatibility</h3>
+<p>Run this before pushing grammar/highlighting changes:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">bash</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> scripts/check-grammar-highlights.sh</span></span></code></pre>
+<p>This check will, for each language in <code>extension.toml</code>:</p>
+<ul>
+<li>clone the pinned grammar repo/revision,</li>
+<li>parse all <code>examples/&#x3C;lang>/*.lang</code> files,</li>
+<li>compile and run all <code>languages/&#x3C;lang>/*.scm</code> query files against those examples.</li>
+</ul>
+<h2 id="user-content-project-structure"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#project-structure"><span class="heading-anchor-icon">#</span></a>Project Structure</h2>
+<pre><code>tools/
+├── zed-warplabs/                # This Zed extension
+│   ├── extension.toml           # Extension manifest
+│   ├── Cargo.toml               # Rust WASM extension (for LSP integration)
+│   ├── src/lib.rs               # Extension trait implementation
+│   ├── languages/               # Per-language Zed configs
+│   │   ├── wfl/                 # config.toml + highlights/brackets/indents/folds/outline .scm
+│   │   ├── wfs/
+│   │   ├── wpl/
+│   │   ├── oml/
+│   │   └── wfg/
+│   ├── grammars/                # Pre-built WASM parsers
+│   ├── snippets/                # Code snippets
+│   └── examples/                # Example files for testing
+│
+├── wplabs-lsp/                   # Language Server binary
+│   ├── Cargo.toml
+│   └── src/
+│       ├── main.rs              # Stdio transport entry point
+│       ├── server.rs            # tower-lsp LanguageServer implementation
+│       ├── capabilities.rs      # LSP capability declarations
+│       ├── dispatch.rs          # Route requests by language
+│       ├── document.rs          # Document state (text + tree-sitter tree)
+│       ├── util.rs              # tree-sitter ↔ LSP type helpers
+│       ├── lang/                # Per-language handlers
+│       │   ├── mod.rs           # LangHandler trait
+│       │   ├── wfl.rs
+│       │   ├── wfs.rs
+│       │   ├── wpl.rs
+│       │   ├── oml.rs
+│       │   └── wfg.rs
+│       └── features/            # LSP feature implementations
+│           ├── diagnostics.rs
+│           ├── completion.rs
+│           ├── hover.rs
+│           ├── definition.rs
+│           ├── references.rs
+│           ├── rename.rs
+│           ├── symbols.rs
+│           └── formatting.rs
+│
+├── tree-sitter-wfl/             # Tree-sitter grammars
+├── tree-sitter-wfs/
+├── tree-sitter-wpl/
+├── tree-sitter-oml/
+└── tree-sitter-wfg/
+</code></pre>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>Apache-2.0</p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>

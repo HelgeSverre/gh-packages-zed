@@ -1,0 +1,12 @@
+id = "vrl"
+name = "VRL"
+version = "0.1.0"
+schema_version = 1
+
+authors = ["Zhongqiu Zhao <belltoy@gmail.com>"]
+description = "VRL extension for Zed"
+repository = "https://github.com/belltoy/zed-vrl"
+
+[grammars.vrl]
+repository = "https://github.com/belltoy/tree-sitter-vrl"
+commit = "274b3ce63f72aa8ffea18e7fc280d3062d28f0ba"

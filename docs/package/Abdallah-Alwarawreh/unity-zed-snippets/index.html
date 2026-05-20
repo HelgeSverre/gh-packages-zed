@@ -1,0 +1,148 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Unity Snippets - Zed Extension Safari</title><meta name="description" content="All snippets you need for Unity development in Zed"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Unity Snippets - Zed Extension Safari"><meta property="og:description" content="All snippets you need for Unity development in Zed"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Unity Snippets - Zed Extension Safari"><meta name="twitter:description" content="All snippets you need for Unity development in Zed"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.yFbdb8Bi.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> Abdallah-Alwarawreh/unity-zed-snippets </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> Unity Snippets </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> A collection of Unity snippets for faster development. </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="snippets">Snippets</span> </div> </div> </div> </header> <main class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/unity-snippets" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/Abdallah-Alwarawreh/unity-zed-snippets" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.0.1</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">unity-snippets</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">MIT</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">8</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">12/27/2025</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">Abdallah Alwarawreh</dd> </div> </dl>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-unity-snippets-for-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#unity-snippets-for-zed"><span class="heading-anchor-icon">#</span></a>Unity Snippets for Zed</h1>
+<p>A comprehensive collection of Unity C# snippets for the <a href="https://zed.dev">Zed editor</a>, designed to accelerate Unity game development with quick access to commonly used Unity classes, methods, and patterns.</p>
+<blockquote>
+<p><strong>Inspired by</strong> <a href="https://github.com/kleber-swf/vscode-unity-code-snippets">VSCode Unity Code Snippets</a> by Kleber Silva</p>
+</blockquote>
+<h2 id="user-content-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features"><span class="heading-anchor-icon">#</span></a>Features</h2>
+<p>This extension provides <strong>100+ code snippets</strong> covering:</p>
+<h3 id="user-content-core-unity-classes"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#core-unity-classes"><span class="heading-anchor-icon">#</span></a>Core Unity Classes</h3>
+<ul>
+<li><strong>MonoBehaviour</strong> - Complete class template with using statements</li>
+<li><strong>ScriptableObject</strong> - Class template with CreateAssetMenu attribute</li>
+<li><strong>StateMachineBehaviour</strong> - Animator state machine behavior template</li>
+<li><strong>NetworkBehaviour</strong> - Unity networking class template</li>
+</ul>
+<h3 id="user-content-unity-editor-extensions"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#unity-editor-extensions"><span class="heading-anchor-icon">#</span></a>Unity Editor Extensions</h3>
+<ul>
+<li><strong>Editor</strong> - Custom inspector editor template</li>
+<li><strong>EditorWindow</strong> - Custom editor window template</li>
+<li><strong>PropertyDrawer</strong> - Custom property drawer template</li>
+<li><strong>ScriptableWizard</strong> - Custom wizard template</li>
+<li><strong>Editor with Reorderable List</strong> - Advanced editor with reorderable list support</li>
+</ul>
+<h3 id="user-content-monobehaviour-lifecycle-methods"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#monobehaviour-lifecycle-methods"><span class="heading-anchor-icon">#</span></a>MonoBehaviour Lifecycle Methods</h3>
+<p>Complete coverage of all Unity MonoBehaviour callback methods:</p>
+<ul>
+<li>Core lifecycle: <code>Awake</code>, <code>Start</code>, <code>Update</code>, <code>FixedUpdate</code>, <code>LateUpdate</code></li>
+<li>Object lifecycle: <code>OnEnable</code>, <code>OnDisable</code>, <code>OnDestroy</code>, <code>OnValidate</code>, <code>Reset</code></li>
+<li>Collision detection: <code>OnCollisionEnter</code>, <code>OnCollisionStay</code>, <code>OnCollisionExit</code> (2D variants included)</li>
+<li>Trigger detection: <code>OnTriggerEnter</code>, <code>OnTriggerStay</code>, <code>OnTriggerExit</code> (2D variants included)</li>
+<li>Mouse events: <code>OnMouseDown</code>, <code>OnMouseUp</code>, <code>OnMouseEnter</code>, <code>OnMouseExit</code>, etc.</li>
+<li>Rendering: <code>OnPreRender</code>, <code>OnPostRender</code>, <code>OnRenderObject</code>, <code>OnDrawGizmos</code>, etc.</li>
+<li>Animation: <code>OnAnimatorIK</code>, <code>OnAnimatorMove</code></li>
+<li>Physics: <code>OnJointBreak</code>, <code>OnControllerColliderHit</code>, <code>OnParticleCollision</code></li>
+<li>Networking: <code>OnPlayerConnected</code>, <code>OnPlayerDisconnected</code>, <code>OnServerInitialized</code></li>
+<li>And many more...</li>
+</ul>
+<h3 id="user-content-statemachinebehaviour-methods"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#statemachinebehaviour-methods"><span class="heading-anchor-icon">#</span></a>StateMachineBehaviour Methods</h3>
+<ul>
+<li><code>OnStateEnter</code>, <code>OnStateExit</code>, <code>OnStateUpdate</code>, <code>OnStateMove</code>, <code>OnStateIK</code></li>
+</ul>
+<h3 id="user-content-editor-window-methods"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#editor-window-methods"><span class="heading-anchor-icon">#</span></a>Editor Window Methods</h3>
+<ul>
+<li><code>OnFocus</code>, <code>OnLostFocus</code>, <code>OnSelectionChange</code>, <code>OnProjectChange</code>, <code>OnInspectorUpdate</code></li>
+</ul>
+<h3 id="user-content-debug-utilities"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#debug-utilities"><span class="heading-anchor-icon">#</span></a>Debug Utilities</h3>
+<ul>
+<li><code>Debug.Log</code>, <code>Debug.LogError</code>, <code>Debug.LogWarning</code>, <code>Debug.LogException</code></li>
+<li>Formatted logging: <code>Debug.LogFormat</code>, <code>Debug.LogErrorFormat</code>, <code>Debug.LogWarningFormat</code></li>
+<li>Visual debugging: <code>Debug.DrawLine</code>, <code>Debug.DrawRay</code></li>
+</ul>
+<h3 id="user-content-common-attributes"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#common-attributes"><span class="heading-anchor-icon">#</span></a>Common Attributes</h3>
+<ul>
+<li><code>[SerializeField]</code> - For private field serialization</li>
+<li><code>[RequireComponent]</code> - Component dependency enforcement</li>
+</ul>
+<h3 id="user-content-general-c-templates"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#general-c-templates"><span class="heading-anchor-icon">#</span></a>General C# Templates</h3>
+<ul>
+<li>Generic class template</li>
+<li>Interface template</li>
+</ul>
+<h2 id="user-content-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation"><span class="heading-anchor-icon">#</span></a>Installation</h2>
+<ol>
+<li>Open Zed editor</li>
+<li>Open the command palette (<code>Cmd+Shift+P</code> on macOS, <code>Ctrl+Shift+P</code> on Windows/Linux)</li>
+<li>Type "zed: extensions" and select it</li>
+<li>Search for "Unity Snippets"</li>
+<li>Click "Install"</li>
+</ol>
+<h2 id="user-content-usage"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#usage"><span class="heading-anchor-icon">#</span></a>Usage</h2>
+<p>Simply start typing any of the snippet prefixes in a C# file and press <code>Tab</code> to expand the snippet. The snippets are context-aware and will work best in <code>.cs</code> files.</p>
+<h3 id="user-content-examples"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#examples"><span class="heading-anchor-icon">#</span></a>Examples</h3>
+<p>Type <code>MonoBehaviour</code> and press <code>Tab</code>:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">using</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> UnityEngine</span><span style="color:#24292E;--shiki-dark:#E1E4E8">;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">public</span><span style="color:#D73A49;--shiki-dark:#F97583"> class</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> YourClassName</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> : </span><span style="color:#6F42C1;--shiki-dark:#B392F0">MonoBehaviour</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> {</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    </span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>Type <code>Start</code> and press <code>Tab</code>:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">private</span><span style="color:#D73A49;--shiki-dark:#F97583"> void</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> Start</span><span style="color:#24292E;--shiki-dark:#E1E4E8">() {</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    </span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>Type <code>OnTriggerEnter</code> and press <code>Tab</code>:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">private</span><span style="color:#D73A49;--shiki-dark:#F97583"> void</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> OnTriggerEnter</span><span style="color:#24292E;--shiki-dark:#E1E4E8">(</span><span style="color:#6F42C1;--shiki-dark:#B392F0">Collider</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> other</span><span style="color:#24292E;--shiki-dark:#E1E4E8">) {</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    </span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>Type <code>Debug.Log</code> and press <code>Tab</code>:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">Debug.</span><span style="color:#6F42C1;--shiki-dark:#B392F0">Log</span><span style="color:#24292E;--shiki-dark:#E1E4E8">();</span></span></code></pre>
+<h2 id="user-content-snippet-prefixes"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#snippet-prefixes"><span class="heading-anchor-icon">#</span></a>Snippet Prefixes</h2>
+<p>All snippets use intuitive prefixes that match Unity's naming conventions:</p>
+<ul>
+<li><strong>Classes</strong>: <code>MonoBehaviour</code>, <code>ScriptableObject</code>, <code>StateMachineBehaviour</code>, etc.</li>
+<li><strong>Methods</strong>: <code>Start</code>, <code>Update</code>, <code>OnTriggerEnter</code>, <code>OnCollisionEnter</code>, etc.</li>
+<li><strong>Debug</strong>: <code>Debug.Log</code>, <code>Debug.LogError</code>, <code>Debug.DrawLine</code>, etc.</li>
+<li><strong>Attributes</strong>: <code>SerializeField</code>, <code>RequireComponent</code></li>
+</ul>
+<h2 id="user-content-contributing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#contributing"><span class="heading-anchor-icon">#</span></a>Contributing</h2>
+<p>Contributions are welcome! If you have suggestions for additional snippets or improvements, please:</p>
+<ol>
+<li>Fork the repository</li>
+<li>Create a feature branch</li>
+<li>Add your snippets to <code>snippets/csharp.json</code></li>
+<li>Submit a pull request</li>
+</ol>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>This project is licensed under the MIT License - see the <a href="https://github.com/Abdallah-Alwarawreh/unity-zed-snippets/blob/HEAD/LICENSE" target="_blank" rel="noopener">LICENSE</a> file for details.</p>
+<h2 id="user-content-changelog"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#changelog"><span class="heading-anchor-icon">#</span></a>Changelog</h2>
+<h3 id="user-content-001"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#001"><span class="heading-anchor-icon">#</span></a>0.0.1</h3>
+<ul>
+<li>Initial release with 100+ Unity C# snippets</li>
+<li>Complete MonoBehaviour lifecycle methods</li>
+<li>Unity Editor extension templates</li>
+<li>Debug utilities</li>
+<li>Common attributes and general C# templates</li>
+</ul>
+<h2 id="user-content-support"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#support"><span class="heading-anchor-icon">#</span></a>Support</h2>
+<p>If you encounter any issues or have feature requests, please <a href="https://github.com/abdallah-alwarawreh/unity-zed-snippets/issues">open an issue</a> on GitHub.</p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>

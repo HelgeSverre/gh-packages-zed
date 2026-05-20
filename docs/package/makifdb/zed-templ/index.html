@@ -1,0 +1,210 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Templ - Zed Extension Safari</title><meta name="description" content="Extension for Zed to support Templ"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Templ - Zed Extension Safari"><meta property="og:description" content="Extension for Zed to support Templ"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Templ - Zed Extension Safari"><meta name="twitter:description" content="Extension for Zed to support Templ"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.yFbdb8Bi.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> makifdb/zed-templ </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> Templ </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> Templ language support for Zed </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="grammar">Grammar</span><span class="cat-badge" data-cat="language-server">Language Server</span> </div> </div> </div> </header> <main class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/templ" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/makifdb/zed-templ" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.0.11</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">templ</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">Tree-sitter Query</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">MIT</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">47</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">5/2/2026</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">Mehmet Akif Duba</dd> </div> </dl>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-zed-templ-extension"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#zed-templ-extension"><span class="heading-anchor-icon">#</span></a>Zed Templ Extension</h1>
+<p>A comprehensive language extension for <a href="https://github.com/a-h/templ">Templ</a> in <a href="https://zed.dev">Zed</a>, providing syntax highlighting, language server support, and integration with web development tools.</p>
+<h2 id="user-content--features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-features"><span class="heading-anchor-icon">#</span></a>✨ Features</h2>
+<ul>
+<li>🎨 <strong>Syntax Highlighting</strong> for Templ templates</li>
+<li>🔧 <strong>Language Server Protocol (LSP)</strong> support via the official Templ language server</li>
+<li>🌈 <strong>Tailwind CSS</strong> autocomplete support (requires configuration)</li>
+<li>📝 <strong>HTML/CSS/JavaScript</strong> support within templates</li>
+<li>🚀 <strong>Emmet</strong> abbreviations (requires configuration)</li>
+<li>🔍 <strong>Go code</strong> support with gopls integration</li>
+</ul>
+<h2 id="user-content--prerequisites"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-prerequisites"><span class="heading-anchor-icon">#</span></a>📋 Prerequisites</h2>
+<p>Before installing this extension, you must have the following installed:</p>
+<h3 id="user-content-1-go-language-tools"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#1-go-language-tools"><span class="heading-anchor-icon">#</span></a>1. Go Language Tools</h3>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Install Go (if not already installed)</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Visit: https://go.dev/doc/install</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Install gopls (REQUIRED - templ LSP depends on this)</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">go</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> install</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> golang.org/x/tools/gopls@latest</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Install templ</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">go</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> install</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> github.com/a-h/templ/cmd/templ@latest</span></span></code></pre>
+<h3 id="user-content-2-verify-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#2-verify-installation"><span class="heading-anchor-icon">#</span></a>2. Verify Installation</h3>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Check that everything is installed correctly</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">templ</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> version</span><span style="color:#6A737D;--shiki-dark:#6A737D">  # Should print an installed templ version</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">gopls</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> version</span><span style="color:#6A737D;--shiki-dark:#6A737D">  # Should print an installed gopls version</span></span></code></pre>
+<h2 id="user-content--installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-installation"><span class="heading-anchor-icon">#</span></a>🚀 Installation</h2>
+<ol>
+<li>Open Zed</li>
+<li>Press <code>cmd+shift+x</code> (macOS) or <code>ctrl+shift+x</code> (Linux) to open extensions</li>
+<li>Search for "Templ"</li>
+<li>Click Install</li>
+</ol>
+<h2 id="user-content-️-configuration"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#️-configuration"><span class="heading-anchor-icon">#</span></a>⚙️ Configuration</h2>
+<h3 id="user-content-basic-setup"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#basic-setup"><span class="heading-anchor-icon">#</span></a>Basic Setup</h3>
+<p>The extension works out of the box for basic Templ syntax highlighting and LSP features.</p>
+<p>For manual verification examples, open the <code>examples/</code> folder in Zed. It includes a small Go module plus focused <code>.templ</code> files for syntax highlighting, Emmet, raw Go blocks, formatting behavior, and embedded language checks.</p>
+<h3 id="user-content-tailwind-css-autocomplete"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#tailwind-css-autocomplete"><span class="heading-anchor-icon">#</span></a>Tailwind CSS Autocomplete</h3>
+<p>To enable Tailwind CSS class autocomplete in Templ files, add this to your Zed settings (<code>cmd+,</code> or <code>ctrl+,</code>):</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "languages"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "Templ"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "language_servers"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span></span>
+<span class="line"><span style="color:#032F62;--shiki-dark:#9ECBFF">        "templ"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#032F62;--shiki-dark:#9ECBFF">        "tailwindcss-language-server"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#032F62;--shiki-dark:#9ECBFF">        "vscode-html-language-server"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#032F62;--shiki-dark:#9ECBFF">        "emmet-language-server"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      ]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  },</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "tailwindcss-language-server"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "includeLanguages"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">          "templ"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"html"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">        },</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "experimental"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">          "classRegex"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"class=</span><span style="color:#005CC5;--shiki-dark:#79B8FF">\"</span><span style="color:#032F62;--shiki-dark:#9ECBFF">([^</span><span style="color:#005CC5;--shiki-dark:#79B8FF">\"</span><span style="color:#032F62;--shiki-dark:#9ECBFF">]*)</span><span style="color:#005CC5;--shiki-dark:#79B8FF">\"</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"className=</span><span style="color:#005CC5;--shiki-dark:#79B8FF">\"</span><span style="color:#032F62;--shiki-dark:#9ECBFF">([^</span><span style="color:#005CC5;--shiki-dark:#79B8FF">\"</span><span style="color:#032F62;--shiki-dark:#9ECBFF">]*)</span><span style="color:#005CC5;--shiki-dark:#79B8FF">\"</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">        }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h3 id="user-content-emmet-support"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#emmet-support"><span class="heading-anchor-icon">#</span></a>Emmet Support</h3>
+<p>Emmet works in Templ markup when <code>emmet-language-server</code> is enabled for the <code>Templ</code> language. Use it by typing abbreviations and pressing <code>tab</code>:</p>
+<ul>
+<li><code>div.container</code> → <code>&#x3C;div class="container">&#x3C;/div></code></li>
+<li><code>ul>li*3</code> → Creates a list with 3 items</li>
+</ul>
+<p>If Emmet does not expand in <code>.templ</code> files:</p>
+<ol>
+<li>Ensure the <code>emmet</code> extension is installed in Zed</li>
+<li>Keep <code>emmet-language-server</code> in <code>languages.Templ.language_servers</code></li>
+<li>Restart Zed after changing language server settings</li>
+</ol>
+<h3 id="user-content-prettier-formatting"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#prettier-formatting"><span class="heading-anchor-icon">#</span></a>Prettier Formatting</h3>
+<p>To use Prettier with Templ files:</p>
+<ol>
+<li>Install the <a href="https://github.com/therealparmesh/prettier-plugin-templ-script">Prettier plugin for Templ</a>:</li>
+</ol>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">npm</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> install</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --save-dev</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> prettier</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> prettier-plugin-templ-script</span></span></code></pre>
+<ol start="2">
+<li>Add to your <code>.prettierrc</code>:</li>
+</ol>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "plugins"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"prettier-plugin-templ-script"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">],</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "overrides"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "files"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"*.templ"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">],</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "options"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "parser"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"templ"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  ]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h2 id="user-content--troubleshooting"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-troubleshooting"><span class="heading-anchor-icon">#</span></a>🐛 Troubleshooting</h2>
+<h3 id="user-content-language-server-templ-failed-to-start-or-lsp-not-starting"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#language-server-templ-failed-to-start-or-lsp-not-starting"><span class="heading-anchor-icon">#</span></a>"Language server templ failed to start" or "LSP not starting"</h3>
+<p><strong>Solution</strong>: Install gopls (see Prerequisites above). The Templ language server requires gopls to be installed.</p>
+<h3 id="user-content-no-tailwind-css-autocomplete"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#no-tailwind-css-autocomplete"><span class="heading-anchor-icon">#</span></a>"No Tailwind CSS autocomplete"</h3>
+<p><strong>Solution</strong>:</p>
+<ol>
+<li>Ensure you have the Tailwind CSS language server installed</li>
+<li>Add the configuration shown in the Tailwind CSS section above</li>
+<li>Restart Zed</li>
+</ol>
+<h3 id="user-content-stuck-on-setting-up-workspace-loading-packages"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#stuck-on-setting-up-workspace-loading-packages"><span class="heading-anchor-icon">#</span></a>"Stuck on 'Setting up workspace: Loading packages'"</h3>
+<p><strong>Solution</strong>: This was a compatibility issue with older Zed versions. Update Zed to a recent stable release.</p>
+<h3 id="user-content-spaces-inserted-between---or-raw-go-code-syntax-issues"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#spaces-inserted-between---or-raw-go-code-syntax-issues"><span class="heading-anchor-icon">#</span></a>"Spaces inserted between {{ }}" or "Raw Go code syntax issues"</h3>
+<p><strong>Problem</strong>: Raw Go blocks can be sensitive to editor auto-pairing and <code>templ fmt</code>. In practice this can show up as <code>{{</code> turning into <code>{ {</code>, or formatting/highlighting getting confused around raw Go blocks.</p>
+<p><strong>Workarounds</strong>:</p>
+<ol>
+<li>Type <code>{{</code> quickly without pause</li>
+<li>Use the undo function if spaces are inserted</li>
+<li>For raw Go blocks, ensure your code is syntactically valid</li>
+<li>If <code>templ fmt</code> rewrites the block, disable format on save for Templ files:</li>
+</ol>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "languages"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "Templ"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "format_on_save"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"off"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h3 id="user-content-empty-lines-are-deleted-on-save"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#empty-lines-are-deleted-on-save"><span class="heading-anchor-icon">#</span></a>"Empty lines are deleted on save"</h3>
+<p><strong>Note</strong>: This comes from the <code>templ fmt</code> formatter rather than the Zed extension itself. You can disable format on save:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "languages"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "Templ"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "format_on_save"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"off"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h2 id="user-content--usage-tips"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-usage-tips"><span class="heading-anchor-icon">#</span></a>🌟 Usage Tips</h2>
+<h3 id="user-content-basic-templ-syntax"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#basic-templ-syntax"><span class="heading-anchor-icon">#</span></a>Basic Templ Syntax</h3>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">package</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> main</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">import</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> "</span><span style="color:#6F42C1;--shiki-dark:#B392F0">fmt</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">templ</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> Hello</span><span style="color:#24292E;--shiki-dark:#E1E4E8">(name </span><span style="color:#D73A49;--shiki-dark:#F97583">string</span><span style="color:#24292E;--shiki-dark:#E1E4E8">) {</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    &#x3C;</span><span style="color:#22863A;--shiki-dark:#85E89D">div</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> class</span><span style="color:#24292E;--shiki-dark:#E1E4E8">=</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"greeting"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">></span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">        &#x3C;</span><span style="color:#22863A;--shiki-dark:#85E89D">h1</span><span style="color:#24292E;--shiki-dark:#E1E4E8">>Hello, </span><span style="color:#24292E;--shiki-dark:#E1E4E8">{ </span><span style="color:#24292E;--shiki-dark:#E1E4E8">name </span><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span><span style="color:#24292E;--shiki-dark:#E1E4E8">!&#x3C;/</span><span style="color:#22863A;--shiki-dark:#85E89D">h1</span><span style="color:#24292E;--shiki-dark:#E1E4E8">></span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">        { </span><span style="color:#24292E;--shiki-dark:#E1E4E8">fmt.</span><span style="color:#6F42C1;--shiki-dark:#B392F0">Sprintf</span><span style="color:#24292E;--shiki-dark:#E1E4E8">(</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"Welcome to Templ"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">) </span><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    &#x3C;/</span><span style="color:#22863A;--shiki-dark:#85E89D">div</span><span style="color:#24292E;--shiki-dark:#E1E4E8">></span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">// Using Go code blocks</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">templ</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> Counter</span><span style="color:#24292E;--shiki-dark:#E1E4E8">(count </span><span style="color:#D73A49;--shiki-dark:#F97583">int</span><span style="color:#24292E;--shiki-dark:#E1E4E8">) {</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    {{ formattedCount </span><span style="color:#D73A49;--shiki-dark:#F97583">:=</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> fmt.</span><span style="color:#6F42C1;--shiki-dark:#B392F0">Sprintf</span><span style="color:#24292E;--shiki-dark:#E1E4E8">(</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"</span><span style="color:#005CC5;--shiki-dark:#79B8FF">%d</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, count) }}</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    &#x3C;</span><span style="color:#22863A;--shiki-dark:#85E89D">div</span><span style="color:#24292E;--shiki-dark:#E1E4E8">>Count: </span><span style="color:#24292E;--shiki-dark:#E1E4E8">{ </span><span style="color:#24292E;--shiki-dark:#E1E4E8">formattedCount </span><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span><span style="color:#24292E;--shiki-dark:#E1E4E8">&#x3C;/</span><span style="color:#22863A;--shiki-dark:#85E89D">div</span><span style="color:#24292E;--shiki-dark:#E1E4E8">></span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h3 id="user-content-working-with-components"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#working-with-components"><span class="heading-anchor-icon">#</span></a>Working with Components</h3>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">// Define a layout</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">templ</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> Layout</span><span style="color:#24292E;--shiki-dark:#E1E4E8">(title </span><span style="color:#D73A49;--shiki-dark:#F97583">string</span><span style="color:#24292E;--shiki-dark:#E1E4E8">) {</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    &#x3C;!DOCTYPE html></span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    &#x3C;</span><span style="color:#22863A;--shiki-dark:#85E89D">html</span><span style="color:#24292E;--shiki-dark:#E1E4E8">></span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">        &#x3C;</span><span style="color:#22863A;--shiki-dark:#85E89D">head</span><span style="color:#24292E;--shiki-dark:#E1E4E8">>&#x3C;</span><span style="color:#22863A;--shiki-dark:#85E89D">title</span><span style="color:#24292E;--shiki-dark:#E1E4E8">></span><span style="color:#24292E;--shiki-dark:#E1E4E8">{ </span><span style="color:#24292E;--shiki-dark:#E1E4E8">title </span><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span><span style="color:#24292E;--shiki-dark:#E1E4E8">&#x3C;/</span><span style="color:#22863A;--shiki-dark:#85E89D">title</span><span style="color:#24292E;--shiki-dark:#E1E4E8">>&#x3C;/</span><span style="color:#22863A;--shiki-dark:#85E89D">head</span><span style="color:#24292E;--shiki-dark:#E1E4E8">></span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">        &#x3C;</span><span style="color:#22863A;--shiki-dark:#85E89D">body</span><span style="color:#24292E;--shiki-dark:#E1E4E8">></span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">            { </span><span style="color:#24292E;--shiki-dark:#E1E4E8">children</span><span style="color:#D73A49;--shiki-dark:#F97583">...</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">        &#x3C;/</span><span style="color:#22863A;--shiki-dark:#85E89D">body</span><span style="color:#24292E;--shiki-dark:#E1E4E8">></span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    &#x3C;/</span><span style="color:#22863A;--shiki-dark:#85E89D">html</span><span style="color:#24292E;--shiki-dark:#E1E4E8">></span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">// Use the layout</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">templ</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> Page</span><span style="color:#24292E;--shiki-dark:#E1E4E8">() {</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">    @</span><span style="color:#6F42C1;--shiki-dark:#B392F0">Layout</span><span style="color:#24292E;--shiki-dark:#E1E4E8">(</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"My Page"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">) {</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">        &#x3C;</span><span style="color:#22863A;--shiki-dark:#85E89D">h1</span><span style="color:#24292E;--shiki-dark:#E1E4E8">>Content goes here&#x3C;/</span><span style="color:#22863A;--shiki-dark:#85E89D">h1</span><span style="color:#24292E;--shiki-dark:#E1E4E8">></span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h2 id="user-content--contributing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-contributing"><span class="heading-anchor-icon">#</span></a>🤝 Contributing</h2>
+<p>Found a bug or have a feature request? Please open an issue on <a href="https://github.com/makifdb/zed-templ/issues">GitHub</a>.</p>
+<h2 id="user-content--license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-license"><span class="heading-anchor-icon">#</span></a>📝 License</h2>
+<p>MIT License - see the <a href="https://github.com/makifdb/zed-templ/blob/HEAD/LICENSE" target="_blank" rel="noopener">LICENSE</a> file for details.</p>
+<h2 id="user-content--acknowledgments"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-acknowledgments"><span class="heading-anchor-icon">#</span></a>🙏 Acknowledgments</h2>
+<ul>
+<li><a href="https://github.com/a-h/templ">a-h/templ</a> - The Templ templating language</li>
+<li><a href="https://github.com/vrischmann/tree-sitter-templ">vrischmann/tree-sitter-templ</a> - Tree-sitter grammar for Templ</li>
+<li><a href="https://zed.dev">Zed</a> - The Zed editor</li>
+</ul></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>

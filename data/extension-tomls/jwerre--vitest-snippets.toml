@@ -1,0 +1,8 @@
+id = "vitest-snippets"
+name = "Vitest Snippets"
+schema_version = 1
+version = "1.0.0"
+authors = ["Jonah Werre<jonahwerre@gmail.com>"]
+description = "A comprehensive collection of Vitest snippets for the Zed editor to speed up test development."
+repository = "https://github.com/jwerre/vitest-snippets"
+snippets = "snippets/javascript.json"

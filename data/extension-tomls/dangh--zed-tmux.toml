@@ -1,0 +1,11 @@
+id = "tmux"
+name = "tmux"
+version = "0.0.2"
+schema_version = 1
+authors = ["Dang Huynh <huynhminhdang@gmail.com>"]
+description = "Syntax highlighting for tmux configuration files"
+repository = "https://github.com/dangh/zed-tmux"
+
+[grammars.tmux]
+repository = "https://github.com/Freed-Wu/tree-sitter-tmux"
+commit = "7499587642a46ee156e1bb58851904ac750dcc7c"

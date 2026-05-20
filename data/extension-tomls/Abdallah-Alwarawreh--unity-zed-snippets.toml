@@ -1,0 +1,8 @@
+id = "unity-snippets"
+name = "Unity Snippets"
+version = "0.0.1"
+schema_version = 1
+authors = ["Abdallah Alwarawreh"]
+description = "A collection of Unity snippets for faster development."
+repository = "https://github.com/abdallah-alwarawreh/unity-zed-snippets"
+snippets = "./snippets/csharp.json"

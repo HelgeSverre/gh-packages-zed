@@ -1,0 +1,13 @@
+id = "tcl"
+name = "TCL Language"
+version = "0.0.2"
+schema_version = 1
+authors = ["Richnou <leys.richard@gmail.com>"]
+description = "An Extension providing TCL Language highlighting"
+repository = "https://github.com/richnou/kissb-zed-tcl"
+
+[grammars.tcl]
+#repository = "https://github.com/tree-sitter-grammars/tree-sitter-tcl"
+#rev = "8f11ac7206a54ed11210491cee1e0657e2962c47"
+repository = "https://github.com/richnou/tree-sitter-tcl"
+rev = "8e5ab6524dc7d081b1e5b980a7bbfba167e72332"

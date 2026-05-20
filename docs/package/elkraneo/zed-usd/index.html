@@ -1,0 +1,85 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>USD - Zed Extension Safari</title><meta name="description" content="Syntax highlighting for OpenUSD ASCII files (.usd, .usda)."><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="USD - Zed Extension Safari"><meta property="og:description" content="Syntax highlighting for OpenUSD ASCII files (.usd, .usda)."><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="USD - Zed Extension Safari"><meta name="twitter:description" content="Syntax highlighting for OpenUSD ASCII files (.usd, .usda)."><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.yFbdb8Bi.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> elkraneo/zed-usd </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> USD </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> Syntax highlighting for OpenUSD ASCII files (.usd, .usda). </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="grammar">Grammar</span> </div> </div> </div> </header> <main class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/usd" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/elkraneo/zed-usd" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.1.0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">usd</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">Tree-sitter Query</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">MIT</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">1</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">2/16/2026</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">elkraneo</dd> </div> </dl>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-zed-usd"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#zed-usd"><span class="heading-anchor-icon">#</span></a>zed-usd</h1>
+<p>USD/USDA language support for <a href="https://zed.dev">Zed</a> using
+<a href="https://github.com/ColinKennedy/tree-sitter-usd"><code>tree-sitter-usd</code></a>.</p>
+<h2 id="user-content-scope-v1"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#scope-v1"><span class="heading-anchor-icon">#</span></a>Scope (v1)</h2>
+<ul>
+<li>Syntax highlighting for <code>.usd</code> and <code>.usda</code></li>
+<li>File association for USD/USDA suffixes</li>
+<li>Basic bracket pairing and indentation query support</li>
+</ul>
+<h2 id="user-content-preview"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#preview"><span class="heading-anchor-icon">#</span></a>Preview</h2>
+<p><img src="https://raw.githubusercontent.com/elkraneo/zed-usd/HEAD/preview.png" alt="USD syntax highlighting preview"></p>
+<h2 id="user-content-install-for-development-local"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#install-for-development-local"><span class="heading-anchor-icon">#</span></a>Install For Development (Local)</h2>
+<ol>
+<li>Open Zed.</li>
+<li>Open command palette.</li>
+<li>Run <code>Extensions: Install Dev Extension</code>.</li>
+<li>Select the cloned local folder for this repository (for example: <code>/path/to/zed-usd</code>).</li>
+<li>Open <code>fixtures/basic.usda</code> or any <code>.usd</code>/<code>.usda</code> file and verify highlighting.</li>
+</ol>
+<h2 id="user-content-project-layout"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#project-layout"><span class="heading-anchor-icon">#</span></a>Project Layout</h2>
+<ul>
+<li><code>extension.toml</code>: extension metadata and grammar pin</li>
+<li><code>languages/usd/config.toml</code>: language config and file suffix mapping</li>
+<li><code>languages/usd/highlights.scm</code>: syntax highlight queries</li>
+<li><code>languages/usd/brackets.scm</code>: bracket pair queries</li>
+<li><code>languages/usd/indents.scm</code>: indentation queries</li>
+<li><code>languages/usd/outline.scm</code>: basic symbols in the outline panel</li>
+<li><code>fixtures/basic.usda</code>: quick manual test fixture</li>
+</ul>
+<h2 id="user-content-known-limitations"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#known-limitations"><span class="heading-anchor-icon">#</span></a>Known Limitations</h2>
+<ul>
+<li>Highlighting is baseline and may miss some advanced USD constructs.</li>
+<li><code>.usd</code> can also be binary in some workflows; this extension targets text/ASCII syntax highlighting.</li>
+<li>Rich outline/navigation queries are not included in v1.</li>
+</ul>
+<h2 id="user-content-grammar-source"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#grammar-source"><span class="heading-anchor-icon">#</span></a>Grammar Source</h2>
+<p>This extension uses:</p>
+<ul>
+<li><code>tree-sitter-usd</code> at commit <code>4e0875f724d94d0c2ff36f9b8cb0b12f8b20d216</code></li>
+<li>Upstream grammar license: GPL-3.0-or-later</li>
+<li>Repository license: MIT</li>
+</ul>
+<p>See <code>THIRD_PARTY_NOTICES.md</code> and <code>LICENSE</code>.</p>
+<h2 id="user-content-references--related-projects"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#references--related-projects"><span class="heading-anchor-icon">#</span></a>References / Related Projects</h2>
+<ul>
+<li>Zed editor: <a href="https://zed.dev">https://zed.dev</a></li>
+<li>Zed extension docs (languages): <a href="https://zed.dev/docs/extensions/languages">https://zed.dev/docs/extensions/languages</a></li>
+<li>Zed extension docs (development): <a href="https://zed.dev/docs/extensions/developing-extensions">https://zed.dev/docs/extensions/developing-extensions</a></li>
+<li><code>tree-sitter-usd</code> grammar (upstream parser used by this extension): <a href="https://github.com/ColinKennedy/tree-sitter-usd">https://github.com/ColinKennedy/tree-sitter-usd</a></li>
+<li>Tree-sitter parser list entry for USD: <a href="https://github.com/tree-sitter/tree-sitter/wiki/List-of-parsers">https://github.com/tree-sitter/tree-sitter/wiki/List-of-parsers</a></li>
+<li><code>nvim-treesitter</code> parser registry (USD listed): <a href="https://github.com/nvim-treesitter/nvim-treesitter">https://github.com/nvim-treesitter/nvim-treesitter</a></li>
+<li>OpenUSD project and docs: <a href="https://openusd.org">https://openusd.org</a></li>
+</ul></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>

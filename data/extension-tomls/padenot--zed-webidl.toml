@@ -1,0 +1,12 @@
+id = "webidl"
+name = "WebIDL"
+description = "WebIDL support"
+version = "0.0.2"
+schema_version = 1
+path_suffixes = ["webidl"]
+authors = ["Paul Adenot <padenot@mozilla.com>"]
+repository = "https://github.com/padenot/zed-webidl"
+
+[grammars.webidl]
+repository = "https://github.com/padenot/tree-sitter-webidl"
+commit = "e6870d31a485bf021f12e0f72a44eefc57173f93"

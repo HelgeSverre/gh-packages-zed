@@ -1,0 +1,453 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>TypeScript Snippets - Zed Extension Safari</title><meta name="description" content="A comprehensive collection of TypeScript snippets for Zed editor, designed to accelerate TypeScript development with intelligent autocomplete and placeholder support. "><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="TypeScript Snippets - Zed Extension Safari"><meta property="og:description" content="A comprehensive collection of TypeScript snippets for Zed editor, designed to accelerate TypeScript development with intelligent autocomplete and placeholder support. "><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="TypeScript Snippets - Zed Extension Safari"><meta name="twitter:description" content="A comprehensive collection of TypeScript snippets for Zed editor, designed to accelerate TypeScript development with intelligent autocomplete and placeholder support. "><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/extensions.yFbdb8Bi.css"></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> seekode/zed-ts-snippets </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> TypeScript Snippets </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> Essential TypeScript snippets for faster development with comprehensive type support </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="snippets">Snippets</span> </div> </div> </div> </header> <main class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/typescript-snippets" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/seekode/zed-ts-snippets" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.1.0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">typescript-snippets</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">MIT</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">18</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">10/1/2025</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">seekode</dd> </div> </dl>  <h2 class="mt-5 text-xs uppercase font-mono" style="color:var(--zed-muted);">Topics</h2> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> snippets </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> typescript </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed </span> </div>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-zed-typescript-snippets"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#zed-typescript-snippets"><span class="heading-anchor-icon">#</span></a>Zed TypeScript Snippets</h1>
+<p>A comprehensive collection of TypeScript snippets for <a href="https://zed.dev/">Zed editor</a>, designed to accelerate TypeScript development with intelligent type support and modern patterns.</p>
+<h2 id="user-content--features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-features"><span class="heading-anchor-icon">#</span></a>✨ Features</h2>
+<ul>
+<li><strong>Complete TypeScript Coverage</strong>: 200+ snippets covering types, interfaces, generics, and advanced features</li>
+<li><strong>Type-First Approach</strong>: All snippets include proper TypeScript type annotations</li>
+<li><strong>Short &#x26; Convenient Prefixes</strong>: VSCode-inspired short prefixes for faster coding</li>
+<li><strong>Smart Placeholders</strong>: Tab-navigable placeholders for efficient coding</li>
+<li><strong>Modern TypeScript</strong>: Support for latest TypeScript features including utility types, decorators, and more</li>
+<li><strong>Async/Await Support</strong>: Modern asynchronous programming patterns with proper typing</li>
+<li><strong>Advanced Types</strong>: Generics, conditional types, mapped types, and utility types</li>
+<li><strong>Class &#x26; OOP</strong>: Full support for classes, interfaces, abstract classes, and decorators</li>
+</ul>
+<h2 id="user-content--installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-installation"><span class="heading-anchor-icon">#</span></a>📦 Installation</h2>
+<h3 id="user-content-via-zed-extensions-recommended"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#via-zed-extensions-recommended"><span class="heading-anchor-icon">#</span></a>Via Zed Extensions (Recommended)</h3>
+<ol>
+<li>Open Zed editor</li>
+<li>Press <code>Cmd/Ctrl + Shift + P</code> to open the command palette</li>
+<li>Type "extensions" and select "zed: extensions"</li>
+<li>Search for "TypeScript Snippets"</li>
+<li>Click "Install"</li>
+</ol>
+<h3 id="user-content-manual-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#manual-installation"><span class="heading-anchor-icon">#</span></a>Manual Installation</h3>
+<ol>
+<li>
+<p>Clone this repository:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">git</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> clone</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> https://github.com/seekode/zed-ts-snippets</span></span></code></pre>
+</li>
+<li>
+<p>Copy the extension to your Zed extensions directory:</p>
+<ul>
+<li><strong>macOS</strong>: <code>~/.config/zed/extensions/</code></li>
+<li><strong>Linux</strong>: <code>~/.config/zed/extensions/</code></li>
+<li><strong>Windows</strong>: <code>%APPDATA%\Zed\extensions\</code></li>
+</ul>
+</li>
+<li>
+<p>Restart Zed</p>
+</li>
+</ol>
+<h2 id="user-content--usage"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-usage"><span class="heading-anchor-icon">#</span></a>🚀 Usage</h2>
+<p>Simply start typing any prefix. The snippets will appear in the autocomplete menu.</p>
+<h3 id="user-content-quick-start-examples"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#quick-start-examples"><span class="heading-anchor-icon">#</span></a>Quick Start Examples</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Prefix</th><th>Output</th><th>Description</th></tr></thead><tbody><tr><td><code>log</code></td><td><code>console.log($0)</code></td><td>Console log statement</td></tr><tr><td><code>int</code></td><td><code>interface Name { property: Type; }</code></td><td>TypeScript interface</td></tr><tr><td><code>typ</code></td><td><code>type TypeName = Type;</code></td><td>Type alias</td></tr><tr><td><code>af</code></td><td><code>const name = (params): ReturnType => {}</code></td><td>Typed arrow function</td></tr><tr><td><code>asf</code></td><td><code>async function name(): Promise&#x3C;Type> {}</code></td><td>Async function with typing</td></tr><tr><td><code>cls</code></td><td><code>class ClassName { constructor() {} }</code></td><td>TypeScript class</td></tr><tr><td><code>enu</code></td><td><code>enum EnumName { Member = Value }</code></td><td>Enum declaration</td></tr><tr><td><code>gfn</code></td><td><code>function name&#x3C;T>(param: T): ReturnType {}</code></td><td>Generic function</td></tr></tbody></table>
+<h2 id="user-content--available-snippets"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-available-snippets"><span class="heading-anchor-icon">#</span></a>📋 Available Snippets</h2>
+<h3 id="user-content-console-methods"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#console-methods"><span class="heading-anchor-icon">#</span></a>Console Methods</h3>
+<ul>
+<li><code>log</code> - Console log</li>
+<li><code>warn</code> - Console warn</li>
+<li><code>error</code> - Console error</li>
+<li><code>table</code> - Console table</li>
+<li><code>time</code> - Console time/timeEnd</li>
+</ul>
+<h3 id="user-content-functions--arrow-functions"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#functions--arrow-functions"><span class="heading-anchor-icon">#</span></a>Functions &#x26; Arrow Functions</h3>
+<ul>
+<li><code>fn</code> - Typed function declaration</li>
+<li><code>af</code> - Typed arrow function</li>
+<li><code>afe</code> - Arrow function (implicit return) with type</li>
+<li><code>asf</code> - Async function with Promise return type</li>
+<li><code>asa</code> - Async arrow function</li>
+<li><code>afn</code> - Anonymous typed function</li>
+<li><code>iife</code> - Immediately Invoked Function Expression</li>
+<li><code>aiife</code> - Async IIFE</li>
+<li><code>gfn</code> - Generic function</li>
+<li><code>gaf</code> - Generic arrow function</li>
+</ul>
+<h3 id="user-content-types--interfaces"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#types--interfaces"><span class="heading-anchor-icon">#</span></a>Types &#x26; Interfaces</h3>
+<ul>
+<li><code>int</code> - Interface declaration</li>
+<li><code>typ</code> - Type alias</li>
+<li><code>enu</code> - Enum declaration</li>
+<li><code>cenu</code> - Const enum</li>
+<li><code>gint</code> - Generic interface</li>
+<li><code>gtyp</code> - Generic type alias</li>
+<li><code>union</code> - Union type</li>
+<li><code>inter</code> - Intersection type</li>
+<li><code>lit</code> - Literal type</li>
+<li><code>tg</code> - Type guard function</li>
+<li><code>as</code> - Type assertion</li>
+</ul>
+<h3 id="user-content-advanced-types"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#advanced-types"><span class="heading-anchor-icon">#</span></a>Advanced Types</h3>
+<ul>
+<li><code>mtyp</code> - Mapped type</li>
+<li><code>ctyp</code> - Conditional type</li>
+<li><code>tlit</code> - Template literal type</li>
+<li><code>idx</code> - Index signature</li>
+<li><code>keyof</code> - keyof operator</li>
+<li><code>tof</code> - typeof operator</li>
+<li><code>infer</code> - infer keyword</li>
+<li><code>awaited</code> - Awaited utility type</li>
+</ul>
+<h3 id="user-content-utility-types"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#utility-types"><span class="heading-anchor-icon">#</span></a>Utility Types</h3>
+<ul>
+<li><code>pick</code> - Pick utility type</li>
+<li><code>omit</code> - Omit utility type</li>
+<li><code>partial</code> - Partial utility type</li>
+<li><code>required</code> - Required utility type</li>
+<li><code>readonly</code> - Readonly utility type</li>
+<li><code>record</code> - Record utility type</li>
+<li><code>exclude</code> - Exclude utility type</li>
+<li><code>extract</code> - Extract utility type</li>
+<li><code>nonnull</code> - NonNullable utility type</li>
+<li><code>rtype</code> - ReturnType utility type</li>
+<li><code>params</code> - Parameters utility type</li>
+</ul>
+<h3 id="user-content-loops--iteration"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#loops--iteration"><span class="heading-anchor-icon">#</span></a>Loops &#x26; Iteration</h3>
+<ul>
+<li><code>for</code> - For loop</li>
+<li><code>forof</code> - For...of loop</li>
+<li><code>forin</code> - For...in loop</li>
+<li><code>while</code> - While loop</li>
+<li><code>dowhile</code> - Do...while loop</li>
+<li><code>fre</code> - Array forEach with types</li>
+<li><code>map</code> - Array map with types</li>
+<li><code>filter</code> - Array filter with types</li>
+<li><code>reduce</code> - Array reduce with types</li>
+<li><code>find</code> - Array find with types</li>
+<li><code>findex</code> - Array findIndex with types</li>
+<li><code>some</code> - Array some with types</li>
+<li><code>every</code> - Array every with types</li>
+</ul>
+<h3 id="user-content-conditionals"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#conditionals"><span class="heading-anchor-icon">#</span></a>Conditionals</h3>
+<ul>
+<li><code>if</code> - If statement</li>
+<li><code>ifelse</code> - If...else statement</li>
+<li><code>else</code> - Else if statement</li>
+<li><code>ter</code> - Ternary operator</li>
+<li><code>switch</code> - Switch statement</li>
+</ul>
+<h3 id="user-content-error-handling"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#error-handling"><span class="heading-anchor-icon">#</span></a>Error Handling</h3>
+<ul>
+<li><code>try</code> - Try...catch block with typed error</li>
+<li><code>tryf</code> - Try...catch...finally</li>
+<li><code>terr</code> - Throw error</li>
+<li><code>cerr</code> - Custom error class</li>
+</ul>
+<h3 id="user-content-promises--async"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#promises--async"><span class="heading-anchor-icon">#</span></a>Promises &#x26; Async</h3>
+<ul>
+<li><code>prom</code> - New Promise with type</li>
+<li><code>then</code> - Promise then/catch with types</li>
+<li><code>await</code> - Await expression with type</li>
+<li><code>awaitt</code> - Await with try/catch and types</li>
+</ul>
+<h3 id="user-content-classes"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#classes"><span class="heading-anchor-icon">#</span></a>Classes</h3>
+<ul>
+<li><code>cls</code> - Class declaration</li>
+<li><code>clsp</code> - Class with typed properties</li>
+<li><code>clsm</code> - Class with typed method</li>
+<li><code>acls</code> - Abstract class</li>
+<li><code>clsi</code> - Class implements interface</li>
+<li><code>clse</code> - Class extends</li>
+<li><code>get</code> - Getter method with type</li>
+<li><code>set</code> - Setter method with type</li>
+<li><code>static</code> - Static method with type</li>
+<li><code>gcls</code> - Generic class</li>
+</ul>
+<h3 id="user-content-decorators"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#decorators"><span class="heading-anchor-icon">#</span></a>Decorators</h3>
+<ul>
+<li><code>dec</code> - Class decorator</li>
+<li><code>mdec</code> - Method decorator</li>
+<li><code>pdec</code> - Property decorator</li>
+<li><code>pardec</code> - Parameter decorator</li>
+</ul>
+<h3 id="user-content-modules--namespaces"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#modules--namespaces"><span class="heading-anchor-icon">#</span></a>Modules &#x26; Namespaces</h3>
+<ul>
+<li><code>ns</code> - Namespace declaration</li>
+<li><code>mod</code> - Module declaration</li>
+<li><code>dmod</code> - Declare module</li>
+<li><code>dglobal</code> - Declare global</li>
+</ul>
+<h3 id="user-content-importexport"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#importexport"><span class="heading-anchor-icon">#</span></a>Import/Export</h3>
+<ul>
+<li><code>imp</code> - Import default</li>
+<li><code>impn</code> - Import named</li>
+<li><code>impt</code> - Import type</li>
+<li><code>impa</code> - Import all (as)</li>
+<li><code>impd</code> - Dynamic import</li>
+<li><code>exp</code> - Export default</li>
+<li><code>expn</code> - Export named</li>
+<li><code>expt</code> - Export type</li>
+<li><code>expa</code> - Export all</li>
+<li><code>expf</code> - Export typed function</li>
+<li><code>expc</code> - Export typed const</li>
+<li><code>expi</code> - Export interface</li>
+<li><code>expta</code> - Export type alias</li>
+</ul>
+<h3 id="user-content-variables--destructuring"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#variables--destructuring"><span class="heading-anchor-icon">#</span></a>Variables &#x26; Destructuring</h3>
+<ul>
+<li><code>const</code> - Typed const declaration</li>
+<li><code>let</code> - Typed let declaration</li>
+<li><code>var</code> - Typed var declaration</li>
+<li><code>ca</code> - Const assertion (as const)</li>
+<li><code>darr</code> - Typed array destructuring</li>
+<li><code>dobj</code> - Typed object destructuring</li>
+<li><code>sarr</code> - Spread array</li>
+<li><code>sobj</code> - Spread object</li>
+<li><code>rest</code> - Rest parameters with type</li>
+</ul>
+<h3 id="user-content-objects"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#objects"><span class="heading-anchor-icon">#</span></a>Objects</h3>
+<ul>
+<li><code>obj</code> - Object literal</li>
+<li><code>tobj</code> - Typed object</li>
+<li><code>objm</code> - Object with typed method</li>
+<li><code>objs</code> - Object shorthand</li>
+<li><code>objc</code> - Object computed property</li>
+<li><code>okeys</code> - Object.keys() with proper typing</li>
+<li><code>ovals</code> - Object.values()</li>
+<li><code>oents</code> - Object.entries() with proper typing</li>
+<li><code>oassign</code> - Object.assign() with types</li>
+<li><code>ofreeze</code> - Object.freeze()</li>
+<li><code>oseal</code> - Object.seal()</li>
+<li><code>ocreate</code> - Object.create() with type</li>
+</ul>
+<h3 id="user-content-arrays--collections"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#arrays--collections"><span class="heading-anchor-icon">#</span></a>Arrays &#x26; Collections</h3>
+<ul>
+<li><code>arr</code> - Array literal</li>
+<li><code>tarr</code> - Typed array</li>
+<li><code>arrg</code> - Array with generic type</li>
+<li><code>rarr</code> - Readonly array</li>
+<li><code>tup</code> - Tuple type</li>
+<li><code>afrom</code> - Array.from() with type</li>
+<li><code>aof</code> - Array.of() with type</li>
+<li><code>set</code> - New Set with type</li>
+<li><code>nmap</code> - New Map with types</li>
+<li><code>wset</code> - New WeakSet with type</li>
+<li><code>wmap</code> - New WeakMap with types</li>
+</ul>
+<h3 id="user-content-strings"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#strings"><span class="heading-anchor-icon">#</span></a>Strings</h3>
+<ul>
+<li><code>tpl</code> - Template literal</li>
+<li><code>tlit</code> - Template literal type</li>
+<li><code>ttag</code> - Tagged template</li>
+<li><code>match</code> - String match</li>
+<li><code>replace</code> - String replace</li>
+<li><code>split</code> - String split</li>
+<li><code>trim</code> - String trim</li>
+<li><code>inc</code> - String includes</li>
+<li><code>starts</code> - String startsWith</li>
+<li><code>ends</code> - String endsWith</li>
+<li><code>pstart</code> - String padStart</li>
+<li><code>pend</code> - String padEnd</li>
+<li><code>repeat</code> - String repeat</li>
+</ul>
+<h3 id="user-content-timers"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#timers"><span class="heading-anchor-icon">#</span></a>Timers</h3>
+<ul>
+<li><code>timeout</code> - setTimeout</li>
+<li><code>interval</code> - setInterval</li>
+<li><code>ctimeout</code> - clearTimeout</li>
+<li><code>cinterval</code> - clearInterval</li>
+</ul>
+<h3 id="user-content-fetch--json"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#fetch--json"><span class="heading-anchor-icon">#</span></a>Fetch &#x26; JSON</h3>
+<ul>
+<li><code>fetch</code> - Fetch API with types</li>
+<li><code>feta</code> - Fetch async/await with types</li>
+<li><code>fetp</code> - Fetch POST request with types</li>
+<li><code>fetg</code> - Generic fetch function</li>
+<li><code>jparse</code> - JSON.parse() with type assertion</li>
+<li><code>jstring</code> - JSON.stringify()</li>
+<li><code>jstringp</code> - JSON.stringify() (pretty)</li>
+</ul>
+<h3 id="user-content-dom-manipulation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#dom-manipulation"><span class="heading-anchor-icon">#</span></a>DOM Manipulation</h3>
+<ul>
+<li><code>qs</code> - querySelector with generic type</li>
+<li><code>qsa</code> - querySelectorAll with generic type</li>
+<li><code>gel</code> - getElementById with type assertion</li>
+<li><code>gclass</code> - getElementsByClassName with type</li>
+<li><code>gtag</code> - getElementsByTagName with type</li>
+<li><code>cel</code> - createElement</li>
+<li><code>ael</code> - addEventListener with typed event</li>
+<li><code>rel</code> - removeEventListener</li>
+<li><code>domr</code> - DOMContentLoaded</li>
+<li><code>winl</code> - Window load event</li>
+<li><code>raf</code> - requestAnimationFrame</li>
+</ul>
+<h3 id="user-content-storage"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#storage"><span class="heading-anchor-icon">#</span></a>Storage</h3>
+<ul>
+<li><code>lset</code> - localStorage.setItem()</li>
+<li><code>lget</code> - localStorage.getItem()</li>
+<li><code>lrem</code> - localStorage.removeItem()</li>
+<li><code>lclear</code> - localStorage.clear()</li>
+<li><code>sset</code> - sessionStorage.setItem()</li>
+<li><code>sget</code> - sessionStorage.getItem()</li>
+</ul>
+<h3 id="user-content-advanced-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#advanced-features"><span class="heading-anchor-icon">#</span></a>Advanced Features</h3>
+<ul>
+<li><code>gen</code> - Generator function with types</li>
+<li><code>agen</code> - Async generator with types</li>
+<li><code>proxy</code> - Proxy object with type</li>
+<li><code>rget</code> - Reflect.get()</li>
+<li><code>sym</code> - Symbol</li>
+<li><code>symf</code> - Symbol.for()</li>
+</ul>
+<h3 id="user-content-regular-expressions"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#regular-expressions"><span class="heading-anchor-icon">#</span></a>Regular Expressions</h3>
+<ul>
+<li><code>re</code> - RegExp pattern</li>
+<li><code>retest</code> - RegExp test</li>
+</ul>
+<h3 id="user-content-math--date"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#math--date"><span class="heading-anchor-icon">#</span></a>Math &#x26; Date</h3>
+<ul>
+<li><code>mrand</code> - Math.random()</li>
+<li><code>mfloor</code> - Math.floor()</li>
+<li><code>mceil</code> - Math.ceil()</li>
+<li><code>mround</code> - Math.round()</li>
+<li><code>mmax</code> - Math.max()</li>
+<li><code>mmin</code> - Math.min()</li>
+<li><code>dnow</code> - Date.now()</li>
+<li><code>date</code> - New Date()</li>
+<li><code>iso</code> - ISO date string</li>
+</ul>
+<h3 id="user-content-operators--keywords"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#operators--keywords"><span class="heading-anchor-icon">#</span></a>Operators &#x26; Keywords</h3>
+<ul>
+<li><code>tof</code> - typeof check</li>
+<li><code>inst</code> - instanceof check</li>
+<li><code>nc</code> - Nullish coalescing (??)</li>
+<li><code>oc</code> - Optional chaining (?.)</li>
+<li><code>nna</code> - Non-null assertion (!)</li>
+<li><code>sat</code> - satisfies operator</li>
+<li><code>asc</code> - as const assertion</li>
+<li><code>rop</code> - Readonly property</li>
+<li><code>op</code> - Optional property</li>
+</ul>
+<h3 id="user-content-documentation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#documentation"><span class="heading-anchor-icon">#</span></a>Documentation</h3>
+<ul>
+<li><code>com</code> - Comment block</li>
+<li><code>doc</code> - TSDoc function documentation</li>
+<li><code>docc</code> - TSDoc class documentation</li>
+<li><code>doci</code> - TSDoc interface documentation</li>
+</ul>
+<h2 id="user-content--smart-placeholders"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-smart-placeholders"><span class="heading-anchor-icon">#</span></a>🎯 Smart Placeholders</h2>
+<p>Snippets use numbered placeholders (<code>$1</code>, <code>$2</code>, etc.) that you can tab through:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">// Typing 'int' + Tab</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">interface</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> InterfaceName</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> {</span></span>
+<span class="line"><span style="color:#E36209;--shiki-dark:#FFAB70">  property</span><span style="color:#D73A49;--shiki-dark:#F97583">:</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> Type</span><span style="color:#24292E;--shiki-dark:#E1E4E8">;</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">// Tab to InterfaceName, type name, Tab to property, type property name, Tab to Type, type the type</span></span></code></pre>
+<p>The <code>$0</code> placeholder indicates the final cursor position.</p>
+<h2 id="user-content-️-customization"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#️-customization"><span class="heading-anchor-icon">#</span></a>🛠️ Customization</h2>
+<p>You can modify snippets by editing the <code>snippets/typescript.json</code> file. Each snippet follows this structure:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "Snippet Name"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "prefix"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"trigger-text"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "body"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"const ${1:name}: ${2:Type} = ${3:value};"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h2 id="user-content--contributing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-contributing"><span class="heading-anchor-icon">#</span></a>🤝 Contributing</h2>
+<p>Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.</p>
+<h3 id="user-content-development-setup"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#development-setup"><span class="heading-anchor-icon">#</span></a>Development Setup</h3>
+<ol>
+<li>Fork the repository</li>
+<li>Clone your fork</li>
+<li>Make your changes</li>
+<li>Test in Zed</li>
+<li>Submit a pull request</li>
+</ol>
+<h2 id="user-content--license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-license"><span class="heading-anchor-icon">#</span></a>📄 License</h2>
+<p>This project is licensed under the MIT License - see the <a href="https://github.com/seekode/zed-ts-snippets/blob/HEAD/LICENSE" target="_blank" rel="noopener">LICENSE</a> file for details.</p>
+<h2 id="user-content--acknowledgments"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-acknowledgments"><span class="heading-anchor-icon">#</span></a>🙏 Acknowledgments</h2>
+<ul>
+<li><a href="https://zed.dev/">Zed Team</a> for creating an amazing editor</li>
+<li>TypeScript team for the incredible type system</li>
+<li>VSCode community for prefix inspiration</li>
+<li>Community feedback and contributions</li>
+</ul>
+<h2 id="user-content--support"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-support"><span class="heading-anchor-icon">#</span></a>📞 Support</h2>
+<ul>
+<li><strong>Issues</strong>: <a href="https://github.com/seekode/zed-ts-snippets/issues">GitHub Issues</a></li>
+<li><strong>Zed Community</strong>: <a href="https://discord.gg/zed">Zed Discord</a></li>
+<li><strong>Documentation</strong>: <a href="https://zed.dev/docs">Zed Documentation</a></li>
+</ul>
+<hr>
+<p><strong>Happy coding with Zed and TypeScript! 🚀</strong></p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>
