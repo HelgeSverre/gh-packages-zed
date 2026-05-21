@@ -52,8 +52,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-04-17T01:34:39Z",
-    "updated_at": "2026-05-20T23:34:54Z",
-    "pushed_at": "2026-05-20T23:34:50Z",
+    "updated_at": "2026-05-21T05:50:57Z",
+    "pushed_at": "2026-05-21T05:50:54Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -93,8 +93,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-05-02T05:39:52Z",
-    "updated_at": "2026-05-19T12:42:47Z",
-    "pushed_at": "2026-05-19T12:42:43Z",
+    "updated_at": "2026-05-21T03:26:11Z",
+    "pushed_at": "2026-05-21T03:41:21Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -156,8 +156,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-05-20T02:58:21Z",
-    "pushed_at": "2026-05-20T02:58:18Z",
+    "updated_at": "2026-05-21T02:58:28Z",
+    "pushed_at": "2026-05-21T02:58:24Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -387,8 +387,8 @@
     "language": "Rust",
     "license": "BlueOak-1.0.0",
     "created_at": "2026-04-22T09:18:16Z",
-    "updated_at": "2026-05-16T17:05:08Z",
-    "pushed_at": "2026-05-20T13:13:21Z",
+    "updated_at": "2026-05-21T04:38:13Z",
+    "pushed_at": "2026-05-21T04:38:10Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -5322,7 +5322,7 @@
     "name": "Dylanmurzello/zed-android-port",
     "url": "https://github.com/Dylanmurzello/zed-android-port",
     "description": "Native Android port of the Zed code editor,  gpui rendering through Vulkan, integrated Termux for LSPs and tooling, remote SSH support. Runs as an APK on tablets and Android desktop modes.",
-    "stars": 52,
+    "stars": 53,
     "forks": 1,
     "topics": [
       "android",
@@ -5349,7 +5349,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-05-07T00:12:10Z",
-    "updated_at": "2026-05-20T23:03:37Z",
+    "updated_at": "2026-05-21T06:58:13Z",
     "pushed_at": "2026-05-20T22:25:54Z",
     "discovered_at": "2026-05-19T19:54:12.053Z",
     "official": false
@@ -5380,8 +5380,8 @@
     "name": "x6nux/zed-globalization",
     "url": "https://github.com/x6nux/zed-globalization",
     "description": "Zed 编辑器汉化版 / 中文版 / 多语言版 — AI 驱动全自动翻译构建，支持简繁中文/日语/韩语 | Zed Editor Localized with AI-powered translation pipeline",
-    "stars": 439,
-    "forks": 11,
+    "stars": 443,
+    "forks": 13,
     "topics": [
       "ai-translation",
       "chinese",
@@ -5407,7 +5407,7 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-02-09T17:57:21Z",
-    "updated_at": "2026-05-20T19:11:31Z",
+    "updated_at": "2026-05-21T05:55:32Z",
     "pushed_at": "2026-05-20T23:32:30Z",
     "discovered_at": "2026-05-19T19:54:12.053Z",
     "official": false
@@ -6394,8 +6394,8 @@
     "language": "Lua",
     "license": "GPL-3.0",
     "created_at": "2021-07-29T01:24:02Z",
-    "updated_at": "2026-05-20T22:42:33Z",
-    "pushed_at": "2026-05-20T22:42:29Z",
+    "updated_at": "2026-05-21T04:55:07Z",
+    "pushed_at": "2026-05-21T04:55:03Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
   },
@@ -6751,7 +6751,7 @@
     "name": "wnkz/monoglow.nvim",
     "url": "https://github.com/wnkz/monoglow.nvim",
     "description": "🎆 A dark, mostly monochrome colorscheme with a touch of glowing.",
-    "stars": 161,
+    "stars": 162,
     "forks": 8,
     "topics": [
       "ghostty-theme",
@@ -6765,7 +6765,7 @@
     "language": "Lua",
     "license": "Apache-2.0",
     "created_at": "2024-10-05T14:40:58Z",
-    "updated_at": "2026-05-20T04:03:24Z",
+    "updated_at": "2026-05-21T06:15:52Z",
     "pushed_at": "2026-04-18T14:33:26Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
@@ -14948,7 +14948,7 @@
     "name": "davccavalcante/oxocarbon-theme-for-zed",
     "url": "https://github.com/davccavalcante/oxocarbon-theme-for-zed",
     "description": "The \"Oxocarbon Theme for Zed\" brings the sleek, modern aesthetics inspired by IBM Carbon Design System to your Zed editor. This theme is meticulously crafted to offer a refined and professional visual experience, available in multiple dark variations. The Oxocarbon Theme transforms your coding environment with its distinct, elegant style.",
-    "stars": 21,
+    "stars": 22,
     "forks": 3,
     "topics": [
       "davidccavalcante",
@@ -14967,7 +14967,7 @@
     "language": null,
     "license": "CC0-1.0",
     "created_at": "2024-08-01T01:36:49Z",
-    "updated_at": "2026-05-13T13:17:50Z",
+    "updated_at": "2026-05-21T01:29:19Z",
     "pushed_at": "2025-02-24T01:59:01Z",
     "discovered_at": "2026-05-19T20:15:46.472Z",
     "official": false
@@ -15687,7 +15687,7 @@
     "name": "agent-sh/agnix",
     "url": "https://github.com/agent-sh/agnix",
     "description": "The missing linter and lsp for AI coding assistants. Validate CLAUDE.md, AGENTS.md, SKILL.md, hooks, MCP. Plugin for all major IDEs included, with autofixes.",
-    "stars": 252,
+    "stars": 253,
     "forks": 23,
     "topics": [
       "agent",
@@ -15714,7 +15714,7 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
-    "updated_at": "2026-05-20T16:19:17Z",
+    "updated_at": "2026-05-21T03:26:14Z",
     "pushed_at": "2026-05-19T14:13:30Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
@@ -18273,8 +18273,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-05-20T18:48:50Z",
-    "pushed_at": "2026-05-20T18:48:42Z",
+    "updated_at": "2026-05-21T00:40:22Z",
+    "pushed_at": "2026-05-21T00:40:18Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },

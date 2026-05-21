@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1473** |
 | In official registry | 1041 |
 | Discovered via topics | 432 |
-| Last updated | 2026-05-21 00:39 UTC |
+| Last updated | 2026-05-21 07:17 UTC |
 
 ### By capability
 
@@ -120,6 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 82 | 2026-05-21 | True Dark Theme for Zed IDE |
 | [devglobe-xyz/zed-devglobe](https://github.com/devglobe-xyz/zed-devglobe) | 3 | 2026-05-20 | DevGlobe extension for Zed. Show up on a 3D globe in real ti... |
 | [HelgeSverre/zed-applescript](https://github.com/HelgeSverre/zed-applescript) | 1 | 2026-05-20 | AppleScript for Zed — syntax highlighting, outline, runnable... |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 125 | 2026-05-20 | The Ruby language support for Zed editor |
@@ -128,7 +129,6 @@ cd website && npm install && npm run dev
 | [LoganBresnahan/birds-of-paradise-zed](https://github.com/LoganBresnahan/birds-of-paradise-zed) | 0 | 2026-05-20 | Birds of Paradise theme for Zed, ported from Joe Bergantine'... |
 | [Finorion/zed-fineorite](https://github.com/Finorion/zed-fineorite) | 0 | 2026-05-20 | ☄️ Calm, medium contrast, dark and flat theme |
 | [BenjaminHalko/flow-icons-zed](https://github.com/BenjaminHalko/flow-icons-zed) | 18 | 2026-05-20 | Flow Icons for Zed |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 82 | 2026-05-20 | True Dark Theme for Zed IDE |
 | [MiguelMachado-dev/ReactTypeKit](https://github.com/MiguelMachado-dev/ReactTypeKit) | 1 | 2026-05-20 | A comprehensive Zed snippet pack providing fast, type-safe t... |
 | [vishnuroshan/zed-react-ts-snippets](https://github.com/vishnuroshan/zed-react-ts-snippets) | 35 | 2026-05-20 | Speed up your Typescript/React workflow in Zed with ready-to... |
 | [emirror-de/clearsight-zed](https://github.com/emirror-de/clearsight-zed) | 0 | 2026-05-19 | A scientifically-backed, accessibility-focused theme optimiz... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-05-21T07:17 | 0 | 431 | 1742 |
 | 2026-05-21T00:39 | 4 | 432 | 1742 |
 | 2026-05-20T18:48 | 5 | 431 | 1738 |
 | 2026-05-20T12:52 | 3 | 431 | 1733 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-05-20T04:00 | 33 | 431 | 1730 |
 | 2026-05-20T03:50 | 104 | 427 | 1697 |
 | 2026-05-20T02:57 | 113 | 421 | 1593 |
-| 2026-05-20T00:40 | 132 | 410 | 1480 |
 
 ---
 
