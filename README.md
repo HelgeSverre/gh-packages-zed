@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1473-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1475-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,16 +14,16 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1473** |
+| Total tracked | **1475** |
 | In official registry | 1041 |
-| Discovered via topics | 432 |
-| Last updated | 2026-05-21 07:17 UTC |
+| Discovered via topics | 434 |
+| Last updated | 2026-05-21 13:07 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
-| Themes | 595 |
+| Themes | 597 |
 | Grammars | 526 |
 | Language Servers | 491 |
 | Context Servers | 123 |
@@ -70,6 +70,8 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [Aler1x/zed-midnight-theme](https://github.com/Aler1x/zed-midnight-theme) | 0 | Dark Zed theme with Nord-inspired midnight blues and soft, easy-on-the-eyes synt... |
+| [AlexanderHeffernan/monokai-vibrant-zed](https://github.com/AlexanderHeffernan/monokai-vibrant-zed) | 0 | Zed port of Dylan Marsh's Monokai Vibrant – a very dark and vibrant Monokai base... |
 | [Fyelne/carbonfox-andromeda](https://github.com/Fyelne/carbonfox-andromeda) | 0 | Zed Theme with CarbonFox UI and Andromeda Text |
 | [Finorion/zed-fineorite](https://github.com/Finorion/zed-fineorite) | 0 | ☄️ Calm, medium contrast, dark and flat theme |
 | [iamguba/zed-jemini-theme](https://github.com/iamguba/zed-jemini-theme) | 0 | A port of Google Gemini color scheme |
@@ -88,8 +90,6 @@ cd website && npm install && npm run dev
 | [Gael-Lopes-Da-Silva/YellowedZed](https://github.com/Gael-Lopes-Da-Silva/YellowedZed) | 1 | A yellow material theme for Zed |
 | [TheAhumMaitra/Your-Name-Zed-theme](https://github.com/TheAhumMaitra/Your-Name-Zed-theme) | 2 | Your Name. theme for Zed |
 | [mikaeladev/zed-yuck](https://github.com/mikaeladev/zed-yuck) | 0 | Syntax highlighting for Yuck files in Zed |
-| [bIaqat/yue-theme-zed](https://github.com/bIaqat/yue-theme-zed) | 5 |  |
-| [Frank-vdm/Yugen](https://github.com/Frank-vdm/Yugen) | 4 |  |
 
 ## Top starred (under 500)
 
@@ -120,8 +120,13 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-05-21 | A Zed extension that allows to highlight all occurrences of ... |
+| [atsyplenkov/zed-pop-theme](https://github.com/atsyplenkov/zed-pop-theme) | 0 | 2026-05-21 | A Pop!_OS style theme for Zed |
+| [Aler1x/zed-midnight-theme](https://github.com/Aler1x/zed-midnight-theme) | 0 | 2026-05-21 | Dark Zed theme with Nord-inspired midnight blues and soft, e... |
+| [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 166 | 2026-05-21 | Zed support for the Godot game engine and the GDScript langu... |
+| [AlexanderHeffernan/monokai-vibrant-zed](https://github.com/AlexanderHeffernan/monokai-vibrant-zed) | 0 | 2026-05-21 | Zed port of Dylan Marsh's Monokai Vibrant – a very dark and ... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 82 | 2026-05-21 | True Dark Theme for Zed IDE |
-| [devglobe-xyz/zed-devglobe](https://github.com/devglobe-xyz/zed-devglobe) | 3 | 2026-05-20 | DevGlobe extension for Zed. Show up on a 3D globe in real ti... |
+| [devglobe-xyz/zed-devglobe](https://github.com/devglobe-xyz/zed-devglobe) | 4 | 2026-05-20 | DevGlobe extension for Zed. Show up on a 3D globe in real ti... |
 | [HelgeSverre/zed-applescript](https://github.com/HelgeSverre/zed-applescript) | 1 | 2026-05-20 | AppleScript for Zed — syntax highlighting, outline, runnable... |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 125 | 2026-05-20 | The Ruby language support for Zed editor |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 136 | 2026-05-20 | A port of the Neovim theme to Zed editor |
@@ -135,16 +140,12 @@ cd website && npm install && npm run dev
 | [maxleiko/zed-greycat-extension](https://github.com/maxleiko/zed-greycat-extension) | 0 | 2026-05-19 | GreyCat support for Zed |
 | [vitallium/zed-modus-themes](https://github.com/vitallium/zed-modus-themes) | 47 | 2026-05-19 | Port of Modus Themes (https://protesilaos.com/emacs/modus-th... |
 | [clementGilardy/zed-aws-toolkit](https://github.com/clementGilardy/zed-aws-toolkit) | 0 | 2026-05-19 | AWS Toolkit extension for Zed editor — S3, Lambda, CloudWatc... |
-| [oxc-project/oxc-zed](https://github.com/oxc-project/oxc-zed) | 256 | 2026-05-19 | Oxc extension for Zed |
-| [himattm/zed-islands-theme](https://github.com/himattm/zed-islands-theme) | 4 | 2026-05-19 | A Zed theme inspired by JetBrains' Islands design system, wi... |
-| [spences10/zed-neon](https://github.com/spences10/zed-neon) | 0 | 2026-05-19 | Vivid neon themes for Zed. |
-| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-05-19 | A Zed extension that allows to highlight all occurrences of ... |
-| [zcuric/zed-wordpress](https://github.com/zcuric/zed-wordpress) | 0 | 2026-05-19 | Zed extension: WordPress and WooCommerce support for PHP — p... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-05-21T13:07 | 2 | 431 | 1744 |
 | 2026-05-21T07:17 | 0 | 431 | 1742 |
 | 2026-05-21T00:39 | 4 | 432 | 1742 |
 | 2026-05-20T18:48 | 5 | 431 | 1738 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-05-20T05:54 | 0 | 431 | 1730 |
 | 2026-05-20T04:00 | 33 | 431 | 1730 |
 | 2026-05-20T03:50 | 104 | 427 | 1697 |
-| 2026-05-20T02:57 | 113 | 421 | 1593 |
 
 ---
 
