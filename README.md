@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1475-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1476-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,16 +14,16 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1475** |
+| Total tracked | **1476** |
 | In official registry | 1041 |
-| Discovered via topics | 434 |
-| Last updated | 2026-05-21 13:07 UTC |
+| Discovered via topics | 435 |
+| Last updated | 2026-05-21 18:39 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
-| Themes | 597 |
+| Themes | 598 |
 | Grammars | 526 |
 | Language Servers | 491 |
 | Context Servers | 123 |
@@ -70,6 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [tbxark/vscode2026-theme-zed](https://github.com/tbxark/vscode2026-theme-zed) | 0 | VS Code 2026 theme for Zed |
 | [Aler1x/zed-midnight-theme](https://github.com/Aler1x/zed-midnight-theme) | 0 | Dark Zed theme with Nord-inspired midnight blues and soft, easy-on-the-eyes synt... |
 | [AlexanderHeffernan/monokai-vibrant-zed](https://github.com/AlexanderHeffernan/monokai-vibrant-zed) | 0 | Zed port of Dylan Marsh's Monokai Vibrant – a very dark and vibrant Monokai base... |
 | [Fyelne/carbonfox-andromeda](https://github.com/Fyelne/carbonfox-andromeda) | 0 | Zed Theme with CarbonFox UI and Andromeda Text |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [egibs/yara.zed](https://github.com/egibs/yara.zed) | 1 | Yara language extension for Zed. |
 | [Gael-Lopes-Da-Silva/YellowedZed](https://github.com/Gael-Lopes-Da-Silva/YellowedZed) | 1 | A yellow material theme for Zed |
 | [TheAhumMaitra/Your-Name-Zed-theme](https://github.com/TheAhumMaitra/Your-Name-Zed-theme) | 2 | Your Name. theme for Zed |
-| [mikaeladev/zed-yuck](https://github.com/mikaeladev/zed-yuck) | 0 | Syntax highlighting for Yuck files in Zed |
 
 ## Top starred (under 500)
 
@@ -104,7 +104,7 @@ cd website && npm install && npm run dev
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 182 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 183 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
 | [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 166 | Zed support for the Godot game engine and the GDScript language |
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 165 | Typst extension for zed |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 159 | A macOS native style theme for Zed, let it same like native app in macOS. |
@@ -120,6 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [tbxark/vscode2026-theme-zed](https://github.com/tbxark/vscode2026-theme-zed) | 0 | 2026-05-21 | VS Code 2026 theme for Zed |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-05-21 | A Zed extension that allows to highlight all occurrences of ... |
 | [atsyplenkov/zed-pop-theme](https://github.com/atsyplenkov/zed-pop-theme) | 0 | 2026-05-21 | A Pop!_OS style theme for Zed |
 | [Aler1x/zed-midnight-theme](https://github.com/Aler1x/zed-midnight-theme) | 0 | 2026-05-21 | Dark Zed theme with Nord-inspired midnight blues and soft, e... |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [emirror-de/clearsight-zed](https://github.com/emirror-de/clearsight-zed) | 0 | 2026-05-19 | A scientifically-backed, accessibility-focused theme optimiz... |
 | [maxleiko/zed-greycat-extension](https://github.com/maxleiko/zed-greycat-extension) | 0 | 2026-05-19 | GreyCat support for Zed |
 | [vitallium/zed-modus-themes](https://github.com/vitallium/zed-modus-themes) | 47 | 2026-05-19 | Port of Modus Themes (https://protesilaos.com/emacs/modus-th... |
-| [clementGilardy/zed-aws-toolkit](https://github.com/clementGilardy/zed-aws-toolkit) | 0 | 2026-05-19 | AWS Toolkit extension for Zed editor — S3, Lambda, CloudWatc... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-05-21T18:39 | 1 | 433 | 1745 |
 | 2026-05-21T13:07 | 2 | 431 | 1744 |
 | 2026-05-21T07:17 | 0 | 431 | 1742 |
 | 2026-05-21T00:39 | 4 | 432 | 1742 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-05-20T07:13 | 0 | 431 | 1730 |
 | 2026-05-20T05:54 | 0 | 431 | 1730 |
 | 2026-05-20T04:00 | 33 | 431 | 1730 |
-| 2026-05-20T03:50 | 104 | 427 | 1697 |
 
 ---
 
