@@ -1,0 +1,9 @@
+submodule = "extensions/mc-dp-icons-theme/"
+id = "mc-dp-icons-theme"
+name = "Datapack Icons"
+version = "0.1.0"
+schema_version = 1
+authors = ["FuncFusion"]
+description = "Minecraft-inspired icon theme"
+repository = "https://github.com/FuncFusion/mc-dp-icons-zed"
+icon_themes = ["icon_themes/mc-dp-icons.json"]
