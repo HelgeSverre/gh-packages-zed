@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1478** |
 | In official registry | 1041 |
 | Discovered via topics | 437 |
-| Last updated | 2026-05-22 07:13 UTC |
+| Last updated | 2026-05-22 12:48 UTC |
 
 ### By capability
 
@@ -112,8 +112,8 @@ cd website && npm install && npm run dev
 | [slymax/zedokai](https://github.com/slymax/zedokai) | 145 | a theme for Zed based on the Monokai Pro color scheme |
 | [nathansbradshaw/zed-angular](https://github.com/nathansbradshaw/zed-angular) | 144 |  |
 | [zed-extensions/csharp](https://github.com/zed-extensions/csharp) | 139 | C# support |
+| [zed-extensions/swift](https://github.com/zed-extensions/swift) | 137 | Extension for Zed to support Swift |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 136 | A port of the Neovim theme to Zed editor |
-| [zed-extensions/swift](https://github.com/zed-extensions/swift) | 136 | Extension for Zed to support Swift |
 | [rzukic/zed-latex](https://github.com/rzukic/zed-latex) | 132 |  |
 
 ## Recently active
@@ -121,6 +121,8 @@ cd website && npm install && npm run dev
 | Package | Stars | Last push | Description |
 |---|---|---|---|
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-05-22 | A Zed extension that allows to highlight all occurrences of ... |
+| [gebeto/brogrammer-theme](https://github.com/gebeto/brogrammer-theme) | 0 | 2026-05-22 | flat sexy ZED theme |
+| [pBouillon/zed-angular-language-server](https://github.com/pBouillon/zed-angular-language-server) | 0 | 2026-05-22 | Angular template support for Zed, powered by the Angular Lan... |
 | [AlexanderHeffernan/zed-aspx](https://github.com/AlexanderHeffernan/zed-aspx) | 0 | 2026-05-22 | ASP.NET WebForms (ASPX) syntax highlighting for Zed with HTM... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 82 | 2026-05-22 | True Dark Theme for Zed IDE |
 | [panxiaoan/falcon-zed-themes](https://github.com/panxiaoan/falcon-zed-themes) | 2 | 2026-05-22 | A gentle, eye-friendly themes to protect your eyesight for Z... |
@@ -138,13 +140,12 @@ cd website && npm install && npm run dev
 | [LoganBresnahan/birds-of-paradise-zed](https://github.com/LoganBresnahan/birds-of-paradise-zed) | 0 | 2026-05-20 | Birds of Paradise theme for Zed, ported from Joe Bergantine'... |
 | [Finorion/zed-fineorite](https://github.com/Finorion/zed-fineorite) | 0 | 2026-05-20 | ☄️ Calm, medium contrast, dark and flat theme |
 | [BenjaminHalko/flow-icons-zed](https://github.com/BenjaminHalko/flow-icons-zed) | 18 | 2026-05-20 | Flow Icons for Zed |
-| [MiguelMachado-dev/ReactTypeKit](https://github.com/MiguelMachado-dev/ReactTypeKit) | 1 | 2026-05-20 | A comprehensive Zed snippet pack providing fast, type-safe t... |
-| [vishnuroshan/zed-react-ts-snippets](https://github.com/vishnuroshan/zed-react-ts-snippets) | 35 | 2026-05-20 | Speed up your Typescript/React workflow in Zed with ready-to... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-05-22T12:48 | 0 | 436 | 1747 |
 | 2026-05-22T07:13 | 1 | 435 | 1747 |
 | 2026-05-22T00:38 | 1 | 434 | 1746 |
 | 2026-05-21T18:39 | 1 | 433 | 1745 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-05-20T18:48 | 5 | 431 | 1738 |
 | 2026-05-20T12:52 | 3 | 431 | 1733 |
 | 2026-05-20T07:27 | 0 | 431 | 1730 |
-| 2026-05-20T07:13 | 0 | 431 | 1730 |
 
 ---
 
