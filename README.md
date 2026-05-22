@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1476-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1477-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,16 +14,16 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1476** |
+| Total tracked | **1477** |
 | In official registry | 1041 |
-| Discovered via topics | 435 |
-| Last updated | 2026-05-21 18:39 UTC |
+| Discovered via topics | 436 |
+| Last updated | 2026-05-22 00:38 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
-| Themes | 598 |
+| Themes | 599 |
 | Grammars | 526 |
 | Language Servers | 491 |
 | Context Servers | 123 |
@@ -70,6 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [fn-jakubkarp/zed-vivid-void-theme](https://github.com/fn-jakubkarp/zed-vivid-void-theme) | 0 | A deep, void-like aesthetic featuring highly vivid syntax highlighting. |
 | [tbxark/vscode2026-theme-zed](https://github.com/tbxark/vscode2026-theme-zed) | 0 | VS Code 2026 theme for Zed |
 | [Aler1x/zed-midnight-theme](https://github.com/Aler1x/zed-midnight-theme) | 0 | Dark Zed theme with Nord-inspired midnight blues and soft, easy-on-the-eyes synt... |
 | [AlexanderHeffernan/monokai-vibrant-zed](https://github.com/AlexanderHeffernan/monokai-vibrant-zed) | 0 | Zed port of Dylan Marsh's Monokai Vibrant – a very dark and vibrant Monokai base... |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [Yxmura/yamura-zed-theme](https://github.com/Yxmura/yamura-zed-theme) | 0 | A zed theme made by Yamura, and named after him. Consists of a Light & Dark them... |
 | [egibs/yara.zed](https://github.com/egibs/yara.zed) | 1 | Yara language extension for Zed. |
 | [Gael-Lopes-Da-Silva/YellowedZed](https://github.com/Gael-Lopes-Da-Silva/YellowedZed) | 1 | A yellow material theme for Zed |
-| [TheAhumMaitra/Your-Name-Zed-theme](https://github.com/TheAhumMaitra/Your-Name-Zed-theme) | 2 | Your Name. theme for Zed |
 
 ## Top starred (under 500)
 
@@ -120,6 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [fn-jakubkarp/zed-vivid-void-theme](https://github.com/fn-jakubkarp/zed-vivid-void-theme) | 0 | 2026-05-21 | A deep, void-like aesthetic featuring highly vivid syntax hi... |
 | [tbxark/vscode2026-theme-zed](https://github.com/tbxark/vscode2026-theme-zed) | 0 | 2026-05-21 | VS Code 2026 theme for Zed |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-05-21 | A Zed extension that allows to highlight all occurrences of ... |
 | [atsyplenkov/zed-pop-theme](https://github.com/atsyplenkov/zed-pop-theme) | 0 | 2026-05-21 | A Pop!_OS style theme for Zed |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [vishnuroshan/zed-react-ts-snippets](https://github.com/vishnuroshan/zed-react-ts-snippets) | 35 | 2026-05-20 | Speed up your Typescript/React workflow in Zed with ready-to... |
 | [emirror-de/clearsight-zed](https://github.com/emirror-de/clearsight-zed) | 0 | 2026-05-19 | A scientifically-backed, accessibility-focused theme optimiz... |
 | [maxleiko/zed-greycat-extension](https://github.com/maxleiko/zed-greycat-extension) | 0 | 2026-05-19 | GreyCat support for Zed |
-| [vitallium/zed-modus-themes](https://github.com/vitallium/zed-modus-themes) | 47 | 2026-05-19 | Port of Modus Themes (https://protesilaos.com/emacs/modus-th... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-05-22T00:38 | 1 | 434 | 1746 |
 | 2026-05-21T18:39 | 1 | 433 | 1745 |
 | 2026-05-21T13:07 | 2 | 431 | 1744 |
 | 2026-05-21T07:17 | 0 | 431 | 1742 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-05-20T07:27 | 0 | 431 | 1730 |
 | 2026-05-20T07:13 | 0 | 431 | 1730 |
 | 2026-05-20T05:54 | 0 | 431 | 1730 |
-| 2026-05-20T04:00 | 33 | 431 | 1730 |
 
 ---
 
