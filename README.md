@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1480** |
 | In official registry | 1042 |
 | Discovered via topics | 438 |
-| Last updated | 2026-05-23 00:37 UTC |
+| Last updated | 2026-05-23 12:20 UTC |
 
 ### By capability
 
@@ -104,7 +104,7 @@ cd website && npm install && npm run dev
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 183 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 184 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
 | [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 167 | Zed support for the Godot game engine and the GDScript language |
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 166 | Typst extension for zed |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 159 | A macOS native style theme for Zed, let it same like native app in macOS. |
@@ -112,22 +112,22 @@ cd website && npm install && npm run dev
 | [slymax/zedokai](https://github.com/slymax/zedokai) | 145 | a theme for Zed based on the Monokai Pro color scheme |
 | [nathansbradshaw/zed-angular](https://github.com/nathansbradshaw/zed-angular) | 144 |  |
 | [zed-extensions/csharp](https://github.com/zed-extensions/csharp) | 139 | C# support |
-| [zed-extensions/swift](https://github.com/zed-extensions/swift) | 137 | Extension for Zed to support Swift |
-| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 136 | A port of the Neovim theme to Zed editor |
+| [zed-extensions/swift](https://github.com/zed-extensions/swift) | 138 | Extension for Zed to support Swift |
+| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 137 | A port of the Neovim theme to Zed editor |
 | [rzukic/zed-latex](https://github.com/rzukic/zed-latex) | 132 |  |
 
 ## Recently active
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 82 | 2026-05-23 | True Dark Theme for Zed IDE |
 | [zephexMCP/mcp-server-zephex](https://github.com/zephexMCP/mcp-server-zephex) | 1 | 2026-05-22 | Zed extension for Zephex — 10 hosted MCP developer tools (pr... |
-| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 136 | 2026-05-22 | A port of the Neovim theme to Zed editor |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 183 | 2026-05-22 | Zed plugin for automatic time tracking and metrics generated... |
+| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 137 | 2026-05-22 | A port of the Neovim theme to Zed editor |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 184 | 2026-05-22 | Zed plugin for automatic time tracking and metrics generated... |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-05-22 | A Zed extension that allows to highlight all occurrences of ... |
 | [gebeto/brogrammer-theme](https://github.com/gebeto/brogrammer-theme) | 0 | 2026-05-22 | flat sexy ZED theme |
 | [pBouillon/zed-angular-language-server](https://github.com/pBouillon/zed-angular-language-server) | 0 | 2026-05-22 | Angular template support for Zed, powered by the Angular Lan... |
 | [AlexanderHeffernan/zed-aspx](https://github.com/AlexanderHeffernan/zed-aspx) | 0 | 2026-05-22 | ASP.NET WebForms (ASPX) syntax highlighting for Zed with HTM... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 82 | 2026-05-22 | True Dark Theme for Zed IDE |
 | [panxiaoan/falcon-zed-themes](https://github.com/panxiaoan/falcon-zed-themes) | 2 | 2026-05-22 | A gentle, eye-friendly themes to protect your eyesight for Z... |
 | [fn-jakubkarp/zed-vivid-void-theme](https://github.com/fn-jakubkarp/zed-vivid-void-theme) | 0 | 2026-05-21 | A deep, void-like aesthetic featuring highly vivid syntax hi... |
 | [tbxark/vscode2026-theme-zed](https://github.com/tbxark/vscode2026-theme-zed) | 0 | 2026-05-21 | VS Code 2026 theme for Zed |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-05-23T12:20 | 0 | 437 | 1750 |
 | 2026-05-23T00:37 | 3 | 435 | 1750 |
 | 2026-05-22T18:36 | 0 | 436 | 1747 |
 | 2026-05-22T12:48 | 0 | 436 | 1747 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-05-21T13:07 | 2 | 431 | 1744 |
 | 2026-05-21T07:17 | 0 | 431 | 1742 |
 | 2026-05-21T00:39 | 4 | 432 | 1742 |
-| 2026-05-20T18:48 | 5 | 431 | 1738 |
 
 ---
 
