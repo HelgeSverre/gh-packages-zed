@@ -1,0 +1,170 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Zephex MCP Server - Zed Extension Safari</title><meta name="description" content="Zed extension for Zephex — 10 hosted MCP developer tools (project context, code search, architecture analysis, package auditing, security headers, persistent reasoning) for AI agents in Zed's Agent Panel. One API key, zero local setup. https://zephex.dev"><link rel="canonical" href="https://helgesverre.github.io/gh-packages-zed/package/zephexMCP/mcp-server-zephex/"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Zephex MCP Server - Zed Extension Safari"><meta property="og:description" content="Zed extension for Zephex — 10 hosted MCP developer tools (project context, code search, architecture analysis, package auditing, security headers, persistent reasoning) for AI agents in Zed's Agent Panel. One API key, zero local setup. https://zephex.dev"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed/package/zephexMCP/mcp-server-zephex/"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Zephex MCP Server - Zed Extension Safari"><meta name="twitter:description" content="Zed extension for Zephex — 10 hosted MCP developer tools (project context, code search, architecture analysis, package auditing, security headers, persistent reasoning) for AI agents in Zed's Agent Panel. One API key, zero local setup. https://zephex.dev"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/gh-packages-zed/_astro/ClientRouter.astro_astro_type_script_index_0_lang.ClVLs1kt.js"></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Zephex MCP Server","description":"Zed extension for Zephex — 10 hosted MCP developer tools (project context, code search, architecture analysis, package auditing, security headers, persistent reasoning) for AI agents in Zed's Agent Panel. One API key, zero local setup. https://zephex.dev","applicationCategory":"DeveloperApplication","operatingSystem":"macOS, Linux, Windows","url":"https://zed.dev/extensions/mcp-server-zephex","codeRepository":"https://github.com/zephexMCP/mcp-server-zephex","author":[{"@type":"Person","name":"Zephex"}],"softwareVersion":"0.0.1","license":"MIT","keywords":"context-server","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/Layout.CGDlMdWE.css"><script type="module" src="/gh-packages-zed/_astro/page.B8i1Zz-u.js"></script></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <a href="#main" class="skip-to-content">Skip to content</a> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" data-astro-transition-persist="astro-fhchcgd7-1"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <script type="application/json" id="pkg-extras">{"url":"https://github.com/zephexMCP/mcp-server-zephex","language":"Rust","license":"MIT","topics":["ai-tools","developer-tools","mcp","model-context-protocol","zed","zed-extension","zephex"],"extension":{"authors":["Zephex"],"schema_version":1}}</script> <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> zephexMCP/mcp-server-zephex </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> Zephex MCP Server </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> Hosted MCP developer tools — project context, code search, architecture analysis, package auditing, and more. Connect with one API key. </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="context-server">MCP Server</span> </div> </div> </div> </header> <main id="main" class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/mcp-server-zephex" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/zephexMCP/mcp-server-zephex" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.0.1</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">mcp-server-zephex</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">Rust</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">MIT</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">1</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">1h ago</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">Zephex</dd> </div> </dl>  <h2 class="mt-5 text-xs uppercase font-mono" style="color:var(--zed-muted);">Topics</h2> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> ai-tools </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> developer-tools </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> mcp </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> model-context-protocol </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed-extension </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zephex </span> </div>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-zephex-mcp-server--zed-extension"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#zephex-mcp-server--zed-extension"><span class="heading-anchor-icon">#</span></a>Zephex MCP Server — Zed Extension</h1>
+<p><a href="https://zed.dev/extensions"><img src="https://img.shields.io/badge/Zed-Extension-blueviolet?logo=zed" alt="Zed Extension"></a>
+<a href="https://www.npmjs.com/package/zephex"><img src="https://img.shields.io/npm/v/zephex.svg?label=zephex" alt="npm"></a>
+<a href="https://github.com/zephexMCP/mcp-server-zephex/blob/HEAD/LICENSE" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT"></a></p>
+<p>One-click access to <strong><a href="https://zephex.dev">Zephex</a></strong> — a hosted MCP server with 10 developer tools — directly inside Zed's Agent Panel. No local server to run, no Docker, no port management. Just an API key.</p>
+<h2 id="user-content-what-you-get"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#what-you-get"><span class="heading-anchor-icon">#</span></a>What you get</h2>
+<ul>
+<li><strong>Project intelligence</strong> — AST-aware code reading, BM25-ranked search, full architecture diagrams</li>
+<li><strong>Package safety</strong> — live npm / PyPI / Cargo / Maven / NuGet CVE checks and deep migration guidance</li>
+<li><strong>Security audits</strong> — TLS, CSP, cookies, redirects on any URL with copy-paste fix snippets</li>
+<li><strong>Persistent reasoning</strong> — long-running thinking sessions with drift detection and cross-session memory</li>
+<li><strong>Curated knowledge base</strong> — answers across databases, security, frontend, backend, auth, mobile</li>
+</ul>
+<p>Files stay on your machine. Only tool calls go out to <code>https://zephex.dev/mcp</code>.</p>
+<h2 id="user-content-setup"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#setup"><span class="heading-anchor-icon">#</span></a>Setup</h2>
+<h3 id="user-content-1-get-an-api-key"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#1-get-an-api-key"><span class="heading-anchor-icon">#</span></a>1. Get an API key</h3>
+<p>Sign up at <strong><a href="https://zephex.dev">zephex.dev</a></strong> (free tier: 300 requests / month). Open the <a href="https://zephex.dev/dashboard">dashboard</a> and copy your key — it starts with <code>mcp_</code>.</p>
+<h3 id="user-content-2-install-this-extension"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#2-install-this-extension"><span class="heading-anchor-icon">#</span></a>2. Install this extension</h3>
+<p>In Zed: <code>cmd-shift-p</code> → <code>zed: extensions</code> → search <strong>Zephex</strong> → <strong>Install</strong>.</p>
+<h3 id="user-content-3-add-your-key-to-settingsjson"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#3-add-your-key-to-settingsjson"><span class="heading-anchor-icon">#</span></a>3. Add your key to <code>settings.json</code></h3>
+<p><code>cmd-,</code> (Zed settings) then click the <code>{}</code> icon to edit JSON. Paste:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "context_servers"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "mcp-server-zephex"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "zephex_api_key"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"mcp_your_key_here"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h3 id="user-content-4-reload"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#4-reload"><span class="heading-anchor-icon">#</span></a>4. Reload</h3>
+<p><code>cmd-shift-p</code> → <code>zed: reload context servers</code>. Open the Agent Panel — Zephex's 10 tools are now available.</p>
+<h2 id="user-content-tools"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#tools"><span class="heading-anchor-icon">#</span></a>Tools</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Tool</th><th>What it does</th></tr></thead><tbody><tr><td><code>get_project_context</code></td><td>Detects framework, package manager, build/test/dev/lint commands, env vars, deps, monorepo layout, entry points</td></tr><tr><td><code>read_code</code></td><td>AST-extracted symbol or full-file reading with token budgets, outline mode, and pagination</td></tr><tr><td><code>find_code</code></td><td>BM25-ranked search with AST-aware enclosing-block context, multi-query fan-out, exhaustive mode</td></tr><tr><td><code>explain_architecture</code></td><td>End-to-end architecture analysis with Mermaid diagrams (sequence, service, C4) and health scoring</td></tr><tr><td><code>scope_task</code></td><td>Plain-English task → minimal focus file set with risk assessment and reusable utilities</td></tr><tr><td><code>thinking</code></td><td>Persistent reasoning sessions with drift detection, revision tracking, branching hypotheses</td></tr><tr><td><code>audit_headers</code></td><td>HTTP / TLS / cookie / redirect security audit with fix snippets for Nginx, Caddy, Vercel, Cloudflare, etc.</td></tr><tr><td><code>check_package</code></td><td>Live npm / PyPI / Cargo / Maven / NuGet / Pub / Hex / CocoaPods / SPM version + supply-chain signals</td></tr><tr><td><code>audit_package</code></td><td>Deep package intelligence — breaking changes, CVEs, real migration steps and code diff examples</td></tr><tr><td><code>Zephex_dev_info</code></td><td>Expert knowledge base across 6 domains: databases, security, frontend, backend, auth, mobile</td></tr></tbody></table>
+<h2 id="user-content-pricing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#pricing"><span class="heading-anchor-icon">#</span></a>Pricing</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Tier</th><th>Requests / month</th><th>Price</th></tr></thead><tbody><tr><td>Free</td><td>300</td><td>$0</td></tr><tr><td>Pro</td><td>3,000</td><td>$7 / mo</td></tr><tr><td>Max</td><td>10,000</td><td>$19 / mo</td></tr></tbody></table>
+<p><a href="https://zephex.dev/dashboard">Manage your plan</a>.</p>
+<h2 id="user-content-how-it-works"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#how-it-works"><span class="heading-anchor-icon">#</span></a>How it works</h2>
+<p>This extension is a thin Rust → WebAssembly shim that:</p>
+<ol>
+<li>Reads <code>zephex_api_key</code> from your Zed settings</li>
+<li>Uses Zed's bundled Node.js runtime to install the <a href="https://www.npmjs.com/package/zephex"><code>zephex</code> npm package</a> (the actual MCP stdio server)</li>
+<li>Spawns the server with your API key injected as <code>ZEPHEX_API_KEY</code></li>
+</ol>
+<p>The MCP server handles JSON-RPC, keeps file reads local, and proxies tool calls to <code>https://zephex.dev/mcp</code>. No long-lived process, no port allocation, no admin permissions.</p>
+<h2 id="user-content-compatibility"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#compatibility"><span class="heading-anchor-icon">#</span></a>Compatibility</h2>
+<ul>
+<li>Zed 0.190+ (extension API 0.7.0)</li>
+<li>macOS, Linux, Windows</li>
+<li>Bundled Node.js runtime — no system Node required</li>
+</ul>
+<h2 id="user-content-troubleshooting"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#troubleshooting"><span class="heading-anchor-icon">#</span></a>Troubleshooting</h2>
+<p><strong><code>Missing zephex_api_key</code></strong> — your <code>settings.json</code> is missing the key or has it under the wrong path. Confirm the structure: <code>context_servers > mcp-server-zephex > settings > zephex_api_key</code>. Run <code>zed: reload context servers</code> after edits.</p>
+<p><strong>Tool call returns <code>401 Unauthorized</code></strong> — API key is invalid or expired. Get a fresh one at <a href="https://zephex.dev/dashboard">zephex.dev/dashboard</a>.</p>
+<p><strong>Extension fails to start</strong> — open <code>cmd-shift-p</code> → <code>zed: open log</code> and search for <code>zephex</code> or <code>extension</code>. The most common cause is a stale Node install in Zed's cache; reinstalling the extension fixes it.</p>
+<h2 id="user-content-links"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#links"><span class="heading-anchor-icon">#</span></a>Links</h2>
+<ul>
+<li><a href="https://zephex.dev/docs">Documentation</a></li>
+<li><a href="https://zephex.dev/dashboard">Dashboard</a></li>
+<li><a href="https://www.npmjs.com/package/zephex">npm package — zephex</a></li>
+<li><a href="https://github.com/zephexMCP/mcp-server-zephex/issues">Report an issue</a></li>
+</ul>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p><a href="https://github.com/zephexMCP/mcp-server-zephex/blob/HEAD/LICENSE" target="_blank" rel="noopener">MIT</a> © Zephex</p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>
