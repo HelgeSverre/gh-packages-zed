@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1481** |
 | In official registry | 1042 |
 | Discovered via topics | 439 |
-| Last updated | 2026-05-24 07:06 UTC |
+| Last updated | 2026-05-24 12:23 UTC |
 
 ### By capability
 
@@ -105,8 +105,8 @@ cd website && npm install && npm run dev
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 184 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
-| [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 167 | Zed support for the Godot game engine and the GDScript language |
-| [zed-extensions/typst](https://github.com/zed-extensions/typst) | 166 | Typst extension for zed |
+| [zed-extensions/typst](https://github.com/zed-extensions/typst) | 167 | Typst extension for zed |
+| [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 166 | Zed support for the Godot game engine and the GDScript language |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 159 | A macOS native style theme for Zed, let it same like native app in macOS. |
 | [thedadams/zed-comment](https://github.com/thedadams/zed-comment) | 148 | A comment extension for the Zed editor |
 | [slymax/zedokai](https://github.com/slymax/zedokai) | 145 | a theme for Zed based on the Monokai Pro color scheme |
@@ -135,7 +135,7 @@ cd website && npm install && npm run dev
 | [tbxark/vscode2026-theme-zed](https://github.com/tbxark/vscode2026-theme-zed) | 0 | 2026-05-21 | VS Code 2026 theme for Zed |
 | [atsyplenkov/zed-pop-theme](https://github.com/atsyplenkov/zed-pop-theme) | 0 | 2026-05-21 | A Pop!_OS style theme for Zed |
 | [Aler1x/zed-midnight-theme](https://github.com/Aler1x/zed-midnight-theme) | 0 | 2026-05-21 | Dark Zed theme with Nord-inspired midnight blues and soft, e... |
-| [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 167 | 2026-05-21 | Zed support for the Godot game engine and the GDScript langu... |
+| [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 166 | 2026-05-21 | Zed support for the Godot game engine and the GDScript langu... |
 | [AlexanderHeffernan/monokai-vibrant-zed](https://github.com/AlexanderHeffernan/monokai-vibrant-zed) | 0 | 2026-05-21 | Zed port of Dylan Marsh's Monokai Vibrant – a very dark and ... |
 | [devglobe-xyz/zed-devglobe](https://github.com/devglobe-xyz/zed-devglobe) | 4 | 2026-05-20 | DevGlobe extension for Zed. Show up on a 3D globe in real ti... |
 | [HelgeSverre/zed-applescript](https://github.com/HelgeSverre/zed-applescript) | 1 | 2026-05-20 | AppleScript for Zed — syntax highlighting, outline, runnable... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-05-24T12:23 | 1 | 439 | 1752 |
 | 2026-05-24T07:06 | 0 | 439 | 1751 |
 | 2026-05-24T00:37 | 1 | 438 | 1751 |
 | 2026-05-23T12:20 | 0 | 437 | 1750 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-05-22T07:13 | 1 | 435 | 1747 |
 | 2026-05-22T00:38 | 1 | 434 | 1746 |
 | 2026-05-21T18:39 | 1 | 433 | 1745 |
-| 2026-05-21T13:07 | 2 | 431 | 1744 |
 
 ---
 
