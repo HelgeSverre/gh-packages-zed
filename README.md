@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1481** |
 | In official registry | 1042 |
 | Discovered via topics | 439 |
-| Last updated | 2026-05-24 12:23 UTC |
+| Last updated | 2026-05-24 18:22 UTC |
 
 ### By capability
 
@@ -107,7 +107,7 @@ cd website && npm install && npm run dev
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 184 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 167 | Typst extension for zed |
 | [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 166 | Zed support for the Godot game engine and the GDScript language |
-| [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 159 | A macOS native style theme for Zed, let it same like native app in macOS. |
+| [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 158 | A macOS native style theme for Zed, let it same like native app in macOS. |
 | [thedadams/zed-comment](https://github.com/thedadams/zed-comment) | 148 | A comment extension for the Zed editor |
 | [slymax/zedokai](https://github.com/slymax/zedokai) | 145 | a theme for Zed based on the Monokai Pro color scheme |
 | [nathansbradshaw/zed-angular](https://github.com/nathansbradshaw/zed-angular) | 144 |  |
@@ -120,6 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [htahaozlu/context-bar](https://github.com/htahaozlu/context-bar) | 12 | 2026-05-24 | Local-first repository context and native macOS HUD for Clau... |
 | [whistlebee/zed-mojo](https://github.com/whistlebee/zed-mojo) | 0 | 2026-05-24 | Mojo LSP/Syntax/Debugger support for Zed |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 82 | 2026-05-24 | True Dark Theme for Zed IDE |
 | [rbstp/zed-csharp-ls](https://github.com/rbstp/zed-csharp-ls) | 0 | 2026-05-23 | C# language support for Zed, powered by csharp-ls. |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [AlexanderHeffernan/monokai-vibrant-zed](https://github.com/AlexanderHeffernan/monokai-vibrant-zed) | 0 | 2026-05-21 | Zed port of Dylan Marsh's Monokai Vibrant – a very dark and ... |
 | [devglobe-xyz/zed-devglobe](https://github.com/devglobe-xyz/zed-devglobe) | 4 | 2026-05-20 | DevGlobe extension for Zed. Show up on a 3D globe in real ti... |
 | [HelgeSverre/zed-applescript](https://github.com/HelgeSverre/zed-applescript) | 1 | 2026-05-20 | AppleScript for Zed — syntax highlighting, outline, runnable... |
-| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 125 | 2026-05-20 | The Ruby language support for Zed editor |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-05-24T18:22 | 0 | 440 | 1752 |
 | 2026-05-24T12:23 | 1 | 439 | 1752 |
 | 2026-05-24T07:06 | 0 | 439 | 1751 |
 | 2026-05-24T00:37 | 1 | 438 | 1751 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-05-22T12:48 | 0 | 436 | 1747 |
 | 2026-05-22T07:13 | 1 | 435 | 1747 |
 | 2026-05-22T00:38 | 1 | 434 | 1746 |
-| 2026-05-21T18:39 | 1 | 433 | 1745 |
 
 ---
 
