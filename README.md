@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1481** |
 | In official registry | 1042 |
 | Discovered via topics | 439 |
-| Last updated | 2026-05-24 00:37 UTC |
+| Last updated | 2026-05-24 07:06 UTC |
 
 ### By capability
 
@@ -120,9 +120,9 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [whistlebee/zed-mojo](https://github.com/whistlebee/zed-mojo) | 0 | 2026-05-23 |  |
+| [whistlebee/zed-mojo](https://github.com/whistlebee/zed-mojo) | 0 | 2026-05-24 | Mojo LSP/Syntax/Debugger support for Zed |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 82 | 2026-05-24 | True Dark Theme for Zed IDE |
 | [rbstp/zed-csharp-ls](https://github.com/rbstp/zed-csharp-ls) | 0 | 2026-05-23 | C# language support for Zed, powered by csharp-ls. |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 82 | 2026-05-23 | True Dark Theme for Zed IDE |
 | [zephexMCP/mcp-server-zephex](https://github.com/zephexMCP/mcp-server-zephex) | 1 | 2026-05-22 | Zed extension for Zephex — 10 hosted MCP developer tools (pr... |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 137 | 2026-05-22 | A port of the Neovim theme to Zed editor |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 184 | 2026-05-22 | Zed plugin for automatic time tracking and metrics generated... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-05-24T07:06 | 0 | 439 | 1751 |
 | 2026-05-24T00:37 | 1 | 438 | 1751 |
 | 2026-05-23T12:20 | 0 | 437 | 1750 |
 | 2026-05-23T00:37 | 3 | 435 | 1750 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-05-22T00:38 | 1 | 434 | 1746 |
 | 2026-05-21T18:39 | 1 | 433 | 1745 |
 | 2026-05-21T13:07 | 2 | 431 | 1744 |
-| 2026-05-21T07:17 | 0 | 431 | 1742 |
 
 ---
 
