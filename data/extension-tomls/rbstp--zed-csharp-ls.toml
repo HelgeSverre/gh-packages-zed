@@ -1,0 +1,15 @@
+id = "csharp-ls"
+name = "C# (csharp-ls)"
+description = "C# language support via csharp-ls."
+version = "0.1.0"
+schema_version = 1
+authors = ["Richard Boisvert <richard@rbstp.dev>"]
+repository = "https://github.com/rbstp/zed-csharp-ls"
+
+[language_servers.csharp-ls]
+name = "csharp-ls"
+language = "CSharp"
+
+[grammars.c_sharp]
+repository = "https://github.com/tree-sitter/tree-sitter-c-sharp"
+commit = "cac6d5fb595f5811a076336682d5d595ac1c9e85"
