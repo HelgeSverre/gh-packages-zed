@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1482** |
 | In official registry | 1042 |
 | Discovered via topics | 440 |
-| Last updated | 2026-05-25 13:08 UTC |
+| Last updated | 2026-05-25 18:33 UTC |
 
 ### By capability
 
@@ -120,6 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [fn-jakubkarp/zed-vivid-void-theme](https://github.com/fn-jakubkarp/zed-vivid-void-theme) | 0 | 2026-05-25 | A deep, void-like aesthetic featuring highly vivid syntax hi... |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 183 | 2026-05-25 | Zed plugin for automatic time tracking and metrics generated... |
 | [hansdoebel/zed-mcp-n8n](https://github.com/hansdoebel/zed-mcp-n8n) | 0 | 2026-05-25 | n8n MCP extension for Zed |
 | [duanechan/spring-boot-properties](https://github.com/duanechan/spring-boot-properties) | 0 | 2026-05-25 | Spring Boot application properties snippets for Zed |
@@ -135,7 +136,6 @@ cd website && npm install && npm run dev
 | [pBouillon/zed-angular-language-server](https://github.com/pBouillon/zed-angular-language-server) | 0 | 2026-05-22 | Angular template support for Zed, powered by the Angular Lan... |
 | [AlexanderHeffernan/zed-aspx](https://github.com/AlexanderHeffernan/zed-aspx) | 0 | 2026-05-22 | ASP.NET WebForms (ASPX) syntax highlighting for Zed with HTM... |
 | [panxiaoan/falcon-zed-themes](https://github.com/panxiaoan/falcon-zed-themes) | 2 | 2026-05-22 | A gentle, eye-friendly themes to protect your eyesight for Z... |
-| [fn-jakubkarp/zed-vivid-void-theme](https://github.com/fn-jakubkarp/zed-vivid-void-theme) | 0 | 2026-05-21 | A deep, void-like aesthetic featuring highly vivid syntax hi... |
 | [tbxark/vscode2026-theme-zed](https://github.com/tbxark/vscode2026-theme-zed) | 0 | 2026-05-21 | VS Code 2026 theme for Zed |
 | [atsyplenkov/zed-pop-theme](https://github.com/atsyplenkov/zed-pop-theme) | 0 | 2026-05-21 | A Pop!_OS style theme for Zed |
 | [Aler1x/zed-midnight-theme](https://github.com/Aler1x/zed-midnight-theme) | 0 | 2026-05-21 | Dark Zed theme with Nord-inspired midnight blues and soft, e... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-05-25T18:33 | 1 | 441 | 1754 |
 | 2026-05-25T13:08 | 0 | 442 | 1753 |
 | 2026-05-25T07:33 | 1 | 441 | 1753 |
 | 2026-05-25T00:39 | 0 | 440 | 1752 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-05-24T00:37 | 1 | 438 | 1751 |
 | 2026-05-23T12:20 | 0 | 437 | 1750 |
 | 2026-05-23T00:37 | 3 | 435 | 1750 |
-| 2026-05-22T18:36 | 0 | 436 | 1747 |
 
 ---
 
