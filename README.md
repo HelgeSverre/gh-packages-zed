@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1481** |
 | In official registry | 1042 |
 | Discovered via topics | 439 |
-| Last updated | 2026-05-24 18:22 UTC |
+| Last updated | 2026-05-25 00:39 UTC |
 
 ### By capability
 
@@ -71,7 +71,7 @@ cd website && npm install && npm run dev
 | Package | Stars | Description |
 |---|---|---|
 | [rbstp/zed-csharp-ls](https://github.com/rbstp/zed-csharp-ls) | 0 | C# language support for Zed, powered by csharp-ls. |
-| [ldanidev/flutter-snippets](https://github.com/ldanidev/flutter-snippets) | 11 | A collection of Flutter snippets to improve your development speed. |
+| [ldanidev/flutter-snippets](https://github.com/ldanidev/flutter-snippets) | 12 | A collection of Flutter snippets to improve your development speed. |
 | [zephexMCP/mcp-server-zephex](https://github.com/zephexMCP/mcp-server-zephex) | 1 | Zed extension for Zephex — 10 hosted MCP developer tools (project context, code ... |
 | [AlexanderHeffernan/zed-aspx](https://github.com/AlexanderHeffernan/zed-aspx) | 0 | ASP.NET WebForms (ASPX) syntax highlighting for Zed with HTML and C# injections. |
 | [fn-jakubkarp/zed-vivid-void-theme](https://github.com/fn-jakubkarp/zed-vivid-void-theme) | 0 | A deep, void-like aesthetic featuring highly vivid syntax highlighting. |
@@ -104,7 +104,7 @@ cd website && npm install && npm run dev
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 184 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 183 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 167 | Typst extension for zed |
 | [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 166 | Zed support for the Godot game engine and the GDScript language |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 158 | A macOS native style theme for Zed, let it same like native app in macOS. |
@@ -126,7 +126,7 @@ cd website && npm install && npm run dev
 | [rbstp/zed-csharp-ls](https://github.com/rbstp/zed-csharp-ls) | 0 | 2026-05-23 | C# language support for Zed, powered by csharp-ls. |
 | [zephexMCP/mcp-server-zephex](https://github.com/zephexMCP/mcp-server-zephex) | 1 | 2026-05-22 | Zed extension for Zephex — 10 hosted MCP developer tools (pr... |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 137 | 2026-05-22 | A port of the Neovim theme to Zed editor |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 184 | 2026-05-22 | Zed plugin for automatic time tracking and metrics generated... |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 183 | 2026-05-22 | Zed plugin for automatic time tracking and metrics generated... |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-05-22 | A Zed extension that allows to highlight all occurrences of ... |
 | [gebeto/brogrammer-theme](https://github.com/gebeto/brogrammer-theme) | 0 | 2026-05-22 | flat sexy ZED theme |
 | [pBouillon/zed-angular-language-server](https://github.com/pBouillon/zed-angular-language-server) | 0 | 2026-05-22 | Angular template support for Zed, powered by the Angular Lan... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-05-25T00:39 | 0 | 440 | 1752 |
 | 2026-05-24T18:22 | 0 | 440 | 1752 |
 | 2026-05-24T12:23 | 1 | 439 | 1752 |
 | 2026-05-24T07:06 | 0 | 439 | 1751 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-05-22T18:36 | 0 | 436 | 1747 |
 | 2026-05-22T12:48 | 0 | 436 | 1747 |
 | 2026-05-22T07:13 | 1 | 435 | 1747 |
-| 2026-05-22T00:38 | 1 | 434 | 1746 |
 
 ---
 
