@@ -52,8 +52,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-04-17T01:34:39Z",
-    "updated_at": "2026-05-24T22:41:03Z",
-    "pushed_at": "2026-05-24T22:41:00Z",
+    "updated_at": "2026-05-25T04:50:17Z",
+    "pushed_at": "2026-05-25T04:50:13Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -147,7 +147,7 @@
     "name": "Imgkl/the-dark-side",
     "url": "https://github.com/Imgkl/the-dark-side",
     "description": "True Dark Theme for Zed IDE",
-    "stars": 82,
+    "stars": 83,
     "forks": 5,
     "topics": [
       "zed-extension",
@@ -156,8 +156,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-05-24T02:58:18Z",
-    "pushed_at": "2026-05-24T02:58:15Z",
+    "updated_at": "2026-05-25T06:13:02Z",
+    "pushed_at": "2026-05-25T02:58:34Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -196,8 +196,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2024-08-27T10:31:46Z",
-    "updated_at": "2026-05-24T19:12:45Z",
-    "pushed_at": "2026-05-22T17:06:50Z",
+    "updated_at": "2026-05-25T06:21:31Z",
+    "pushed_at": "2026-05-25T06:21:29Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -366,8 +366,8 @@
     "language": "JavaScript",
     "license": null,
     "created_at": "2025-12-03T23:34:48Z",
-    "updated_at": "2026-05-20T07:47:53Z",
-    "pushed_at": "2026-05-20T07:47:49Z",
+    "updated_at": "2026-05-25T00:59:46Z",
+    "pushed_at": "2026-05-25T00:59:38Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -5381,7 +5381,7 @@
     "name": "x6nux/zed-globalization",
     "url": "https://github.com/x6nux/zed-globalization",
     "description": "Zed 编辑器汉化版 / 中文版 / 多语言版 — AI 驱动全自动翻译构建，支持简繁中文/日语/韩语 | Zed Editor Localized with AI-powered translation pipeline",
-    "stars": 465,
+    "stars": 469,
     "forks": 14,
     "topics": [
       "ai-translation",
@@ -5408,7 +5408,7 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-02-09T17:57:21Z",
-    "updated_at": "2026-05-24T23:04:45Z",
+    "updated_at": "2026-05-25T05:51:05Z",
     "pushed_at": "2026-05-22T09:23:36Z",
     "discovered_at": "2026-05-19T19:54:12.053Z",
     "official": false
@@ -5776,7 +5776,7 @@
     "name": "ember-theme/zed",
     "url": "https://github.com/ember-theme/zed",
     "description": "Ember theme for Zed",
-    "stars": 1,
+    "stars": 2,
     "forks": 1,
     "topics": [
       "colorscheme",
@@ -5787,7 +5787,7 @@
     "language": null,
     "license": null,
     "created_at": "2026-04-12T15:25:33Z",
-    "updated_at": "2026-05-08T19:55:05Z",
+    "updated_at": "2026-05-25T07:08:32Z",
     "pushed_at": "2026-04-12T15:27:48Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
@@ -6395,8 +6395,8 @@
     "language": "Lua",
     "license": "GPL-3.0",
     "created_at": "2021-07-29T01:24:02Z",
-    "updated_at": "2026-05-25T00:25:44Z",
-    "pushed_at": "2026-05-25T00:25:41Z",
+    "updated_at": "2026-05-25T06:45:28Z",
+    "pushed_at": "2026-05-25T06:45:24Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
   },
@@ -14631,16 +14631,21 @@
   "hansdoebel/zed-mcp-n8n": {
     "name": "hansdoebel/zed-mcp-n8n",
     "url": "https://github.com/hansdoebel/zed-mcp-n8n",
-    "description": "",
+    "description": "n8n MCP extension for Zed",
     "stars": 0,
     "forks": 0,
-    "topics": [],
+    "topics": [
+      "mcp",
+      "n8n",
+      "zed-extension"
+    ],
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-01-26T09:05:20Z",
-    "updated_at": "2026-01-26T09:37:05Z",
-    "pushed_at": "2026-01-26T09:32:58Z",
-    "discovered_at": "2026-05-19T20:07:54.613Z"
+    "updated_at": "2026-05-25T06:21:36Z",
+    "pushed_at": "2026-05-25T06:20:46Z",
+    "discovered_at": "2026-05-19T20:07:54.613Z",
+    "official": false
   },
   "jamesn-dev/zed-svelte-theme": {
     "name": "JamesN-dev/zed-svelte-theme",
@@ -18276,8 +18281,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-05-24T18:22:53Z",
-    "pushed_at": "2026-05-24T18:22:49Z",
+    "updated_at": "2026-05-25T00:39:34Z",
+    "pushed_at": "2026-05-25T00:39:30Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -29162,8 +29167,29 @@
     "license": null,
     "created_at": "2026-05-20T16:10:58Z",
     "updated_at": "2026-05-24T09:47:44Z",
-    "pushed_at": "2026-05-24T10:39:25Z",
+    "pushed_at": "2026-05-25T05:02:23Z",
     "discovered_at": "2026-05-24T12:23:31.290Z",
+    "official": false
+  },
+  "duanechan/spring-boot-properties": {
+    "name": "duanechan/spring-boot-properties",
+    "url": "https://github.com/duanechan/spring-boot-properties",
+    "description": "Spring Boot application properties snippets for Zed",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "java",
+      "snippets",
+      "spring-boot",
+      "zed",
+      "zed-extension"
+    ],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-05-25T04:08:36Z",
+    "updated_at": "2026-05-25T04:29:35Z",
+    "pushed_at": "2026-05-25T04:19:28Z",
+    "discovered_at": "2026-05-25T07:33:58.003Z",
     "official": false
   }
 }

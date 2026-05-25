@@ -1,0 +1,8 @@
+id = "spring-boot-properties"
+name = "Spring Boot Properties"
+version = "0.0.1"
+schema_version = 1
+authors = ["Duane Chan <duanechan19@gmail.com>"]
+description = "Spring Boot application.properties snippets for Zed"
+repository = "https://github.com/duanechan/spring-boot-properties"
+snippets = ["./snippets/properties.json"]
