@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1483** |
 | In official registry | 1044 |
 | Discovered via topics | 439 |
-| Last updated | 2026-05-26 12:59 UTC |
+| Last updated | 2026-05-26 18:48 UTC |
 
 ### By capability
 
@@ -107,7 +107,7 @@ cd website && npm install && npm run dev
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 183 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 168 | Typst extension for zed |
 | [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 167 | Zed support for the Godot game engine and the GDScript language |
-| [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 158 | A macOS native style theme for Zed, let it same like native app in macOS. |
+| [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 159 | A macOS native style theme for Zed, let it same like native app in macOS. |
 | [thedadams/zed-comment](https://github.com/thedadams/zed-comment) | 148 | A comment extension for the Zed editor |
 | [slymax/zedokai](https://github.com/slymax/zedokai) | 145 | a theme for Zed based on the Monokai Pro color scheme |
 | [nathansbradshaw/zed-angular](https://github.com/nathansbradshaw/zed-angular) | 144 |  |
@@ -120,8 +120,12 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [acakp/moondusttheme-zed](https://github.com/acakp/moondusttheme-zed) | 0 | 2026-05-26 | Handcrafted theme for those who have not found syntax highli... |
+| [dunyakirkali/zed-asciidoc](https://github.com/dunyakirkali/zed-asciidoc) | 18 | 2026-05-26 | Zed support for AsciiDoc syntax |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 125 | 2026-05-26 | The Ruby language support for Zed editor |
+| [HelgeSverre/zed-applescript](https://github.com/HelgeSverre/zed-applescript) | 1 | 2026-05-26 | AppleScript for Zed — syntax highlighting, outline, runnable... |
+| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-05-26 | A Zed extension that allows to highlight all occurrences of ... |
+| [rux-lang/Zed](https://github.com/rux-lang/Zed) | 2 | 2026-05-26 | Zed extension for Rux programming language |
+| [acakp/moondusttheme-zed](https://github.com/acakp/moondusttheme-zed) | 0 | 2026-05-26 | Handcrafted theme for those who have not found syntax highli... |
 | [HarshNarayanJha/zed-sequoia-theme](https://github.com/HarshNarayanJha/zed-sequoia-theme) | 5 | 2026-05-26 | Black, elegant, modern, monochrome or colourful theme for Ze... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 83 | 2026-05-26 | True Dark Theme for Zed IDE |
 | [BenjaminHalko/flow-icons-zed](https://github.com/BenjaminHalko/flow-icons-zed) | 18 | 2026-05-26 | 🌼 Flow Icons ported to Zed |
@@ -135,16 +139,13 @@ cd website && npm install && npm run dev
 | [rbstp/zed-csharp-ls](https://github.com/rbstp/zed-csharp-ls) | 0 | 2026-05-23 | C# language support for Zed, powered by csharp-ls. |
 | [zephexMCP/mcp-server-zephex](https://github.com/zephexMCP/mcp-server-zephex) | 2 | 2026-05-22 | Zed extension for Zephex — 10 hosted MCP developer tools (pr... |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 138 | 2026-05-22 | A port of the Neovim theme to Zed editor |
-| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-05-22 | A Zed extension that allows to highlight all occurrences of ... |
 | [gebeto/brogrammer-theme](https://github.com/gebeto/brogrammer-theme) | 0 | 2026-05-22 | flat sexy ZED theme |
-| [pBouillon/zed-angular-language-server](https://github.com/pBouillon/zed-angular-language-server) | 0 | 2026-05-22 | Angular template support for Zed, powered by the Angular Lan... |
-| [AlexanderHeffernan/zed-aspx](https://github.com/AlexanderHeffernan/zed-aspx) | 0 | 2026-05-22 | ASP.NET WebForms (ASPX) syntax highlighting for Zed with HTM... |
-| [panxiaoan/falcon-zed-themes](https://github.com/panxiaoan/falcon-zed-themes) | 2 | 2026-05-22 | A gentle, eye-friendly themes to protect your eyesight for Z... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-05-26T18:48 | 1 | 444 | 1758 |
 | 2026-05-26T12:59 | 1 | 444 | 1757 |
 | 2026-05-26T07:12 | 2 | 442 | 1756 |
 | 2026-05-26T00:37 | 0 | 442 | 1754 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-05-25T00:39 | 0 | 440 | 1752 |
 | 2026-05-24T18:22 | 0 | 440 | 1752 |
 | 2026-05-24T12:23 | 1 | 439 | 1752 |
-| 2026-05-24T07:06 | 0 | 439 | 1751 |
 
 ---
 
