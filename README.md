@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1482-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1483-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,16 +14,16 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1482** |
-| In official registry | 1043 |
+| Total tracked | **1483** |
+| In official registry | 1044 |
 | Discovered via topics | 439 |
-| Last updated | 2026-05-26 07:12 UTC |
+| Last updated | 2026-05-26 12:59 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
-| Themes | 599 |
+| Themes | 600 |
 | Grammars | 528 |
 | Language Servers | 492 |
 | Context Servers | 124 |
@@ -70,6 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [version14/zed-theme](https://github.com/version14/zed-theme) | 2 |  |
 | [duanechan/spring-boot-properties](https://github.com/duanechan/spring-boot-properties) | 0 | Spring Boot application properties snippets for Zed |
 | [rbstp/zed-csharp-ls](https://github.com/rbstp/zed-csharp-ls) | 0 | C# language support for Zed, powered by csharp-ls. |
 | [ldanidev/flutter-snippets](https://github.com/ldanidev/flutter-snippets) | 12 | A collection of Flutter snippets to improve your development speed. |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [LoganBresnahan/birds-of-paradise-zed](https://github.com/LoganBresnahan/birds-of-paradise-zed) | 0 | Birds of Paradise theme for Zed, ported from Joe Bergantine's TextMate original |
 | [srijonp4/blueberry-banana-zed](https://github.com/srijonp4/blueberry-banana-zed) | 0 | A dark purple and yellow theme for Zed, inspired by the Blueberry Banana VSCode ... |
 | [huangkairan/chalice-theme-zed](https://github.com/huangkairan/chalice-theme-zed) | 0 | Chalice theme for Zed |
-| [sergios-tech/sergio-tech-code-black-zed-theme](https://github.com/sergios-tech/sergio-tech-code-black-zed-theme) | 0 | Sergio's Tech Code in Black (Zed OLED Theme) |
 
 ## Top starred (under 500)
 
@@ -106,7 +106,7 @@ cd website && npm install && npm run dev
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 183 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 168 | Typst extension for zed |
-| [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 166 | Zed support for the Godot game engine and the GDScript language |
+| [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 167 | Zed support for the Godot game engine and the GDScript language |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 158 | A macOS native style theme for Zed, let it same like native app in macOS. |
 | [thedadams/zed-comment](https://github.com/thedadams/zed-comment) | 148 | A comment extension for the Zed editor |
 | [slymax/zedokai](https://github.com/slymax/zedokai) | 145 | a theme for Zed based on the Monokai Pro color scheme |
@@ -131,6 +131,7 @@ cd website && npm install && npm run dev
 | [duanechan/spring-boot-properties](https://github.com/duanechan/spring-boot-properties) | 0 | 2026-05-25 | Spring Boot application properties snippets for Zed |
 | [htahaozlu/context-bar](https://github.com/htahaozlu/context-bar) | 12 | 2026-05-24 | Local-first repository context and native macOS HUD for Clau... |
 | [whistlebee/zed-mojo](https://github.com/whistlebee/zed-mojo) | 0 | 2026-05-24 | Mojo LSP/Syntax/Debugger support for Zed |
+| [version14/zed-theme](https://github.com/version14/zed-theme) | 2 | 2026-05-24 |  |
 | [rbstp/zed-csharp-ls](https://github.com/rbstp/zed-csharp-ls) | 0 | 2026-05-23 | C# language support for Zed, powered by csharp-ls. |
 | [zephexMCP/mcp-server-zephex](https://github.com/zephexMCP/mcp-server-zephex) | 2 | 2026-05-22 | Zed extension for Zephex — 10 hosted MCP developer tools (pr... |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 138 | 2026-05-22 | A port of the Neovim theme to Zed editor |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [pBouillon/zed-angular-language-server](https://github.com/pBouillon/zed-angular-language-server) | 0 | 2026-05-22 | Angular template support for Zed, powered by the Angular Lan... |
 | [AlexanderHeffernan/zed-aspx](https://github.com/AlexanderHeffernan/zed-aspx) | 0 | 2026-05-22 | ASP.NET WebForms (ASPX) syntax highlighting for Zed with HTM... |
 | [panxiaoan/falcon-zed-themes](https://github.com/panxiaoan/falcon-zed-themes) | 2 | 2026-05-22 | A gentle, eye-friendly themes to protect your eyesight for Z... |
-| [tbxark/vscode2026-theme-zed](https://github.com/tbxark/vscode2026-theme-zed) | 0 | 2026-05-21 | VS Code 2026 theme for Zed |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-05-26T12:59 | 1 | 444 | 1757 |
 | 2026-05-26T07:12 | 2 | 442 | 1756 |
 | 2026-05-26T00:37 | 0 | 442 | 1754 |
 | 2026-05-25T18:33 | 1 | 441 | 1754 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-05-24T18:22 | 0 | 440 | 1752 |
 | 2026-05-24T12:23 | 1 | 439 | 1752 |
 | 2026-05-24T07:06 | 0 | 439 | 1751 |
-| 2026-05-24T00:37 | 1 | 438 | 1751 |
 
 ---
 
