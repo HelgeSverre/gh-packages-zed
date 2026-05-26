@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1482** |
 | In official registry | 1043 |
 | Discovered via topics | 439 |
-| Last updated | 2026-05-26 00:37 UTC |
+| Last updated | 2026-05-26 07:12 UTC |
 
 ### By capability
 
@@ -120,12 +120,15 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [acakp/moondusttheme-zed](https://github.com/acakp/moondusttheme-zed) | 0 | 2026-05-26 | Handcrafted theme for those who have not found syntax highli... |
+| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 125 | 2026-05-26 | The Ruby language support for Zed editor |
+| [HarshNarayanJha/zed-sequoia-theme](https://github.com/HarshNarayanJha/zed-sequoia-theme) | 5 | 2026-05-26 | Black, elegant, modern, monochrome or colourful theme for Ze... |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 83 | 2026-05-26 | True Dark Theme for Zed IDE |
+| [BenjaminHalko/flow-icons-zed](https://github.com/BenjaminHalko/flow-icons-zed) | 18 | 2026-05-26 | 🌼 Flow Icons ported to Zed |
 | [fn-jakubkarp/zed-vivid-void-theme](https://github.com/fn-jakubkarp/zed-vivid-void-theme) | 0 | 2026-05-25 | A deep, void-like aesthetic featuring highly vivid syntax hi... |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 183 | 2026-05-25 | Zed plugin for automatic time tracking and metrics generated... |
 | [hansdoebel/zed-mcp-n8n](https://github.com/hansdoebel/zed-mcp-n8n) | 0 | 2026-05-25 | n8n MCP extension for Zed |
 | [duanechan/spring-boot-properties](https://github.com/duanechan/spring-boot-properties) | 0 | 2026-05-25 | Spring Boot application properties snippets for Zed |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 83 | 2026-05-25 | True Dark Theme for Zed IDE |
-| [BenjaminHalko/flow-icons-zed](https://github.com/BenjaminHalko/flow-icons-zed) | 18 | 2026-05-25 | Flow Icons for Zed |
 | [htahaozlu/context-bar](https://github.com/htahaozlu/context-bar) | 12 | 2026-05-24 | Local-first repository context and native macOS HUD for Clau... |
 | [whistlebee/zed-mojo](https://github.com/whistlebee/zed-mojo) | 0 | 2026-05-24 | Mojo LSP/Syntax/Debugger support for Zed |
 | [rbstp/zed-csharp-ls](https://github.com/rbstp/zed-csharp-ls) | 0 | 2026-05-23 | C# language support for Zed, powered by csharp-ls. |
@@ -137,14 +140,12 @@ cd website && npm install && npm run dev
 | [AlexanderHeffernan/zed-aspx](https://github.com/AlexanderHeffernan/zed-aspx) | 0 | 2026-05-22 | ASP.NET WebForms (ASPX) syntax highlighting for Zed with HTM... |
 | [panxiaoan/falcon-zed-themes](https://github.com/panxiaoan/falcon-zed-themes) | 2 | 2026-05-22 | A gentle, eye-friendly themes to protect your eyesight for Z... |
 | [tbxark/vscode2026-theme-zed](https://github.com/tbxark/vscode2026-theme-zed) | 0 | 2026-05-21 | VS Code 2026 theme for Zed |
-| [atsyplenkov/zed-pop-theme](https://github.com/atsyplenkov/zed-pop-theme) | 0 | 2026-05-21 | A Pop!_OS style theme for Zed |
-| [Aler1x/zed-midnight-theme](https://github.com/Aler1x/zed-midnight-theme) | 0 | 2026-05-21 | Dark Zed theme with Nord-inspired midnight blues and soft, e... |
-| [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 166 | 2026-05-21 | Zed support for the Godot game engine and the GDScript langu... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-05-26T07:12 | 2 | 442 | 1756 |
 | 2026-05-26T00:37 | 0 | 442 | 1754 |
 | 2026-05-25T18:33 | 1 | 441 | 1754 |
 | 2026-05-25T13:08 | 0 | 442 | 1753 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-05-24T12:23 | 1 | 439 | 1752 |
 | 2026-05-24T07:06 | 0 | 439 | 1751 |
 | 2026-05-24T00:37 | 1 | 438 | 1751 |
-| 2026-05-23T12:20 | 0 | 437 | 1750 |
 
 ---
 
