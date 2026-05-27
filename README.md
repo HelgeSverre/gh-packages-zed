@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1487** |
 | In official registry | 1048 |
 | Discovered via topics | 439 |
-| Last updated | 2026-05-27 13:09 UTC |
+| Last updated | 2026-05-27 18:47 UTC |
 
 ### By capability
 
@@ -104,8 +104,8 @@ cd website && npm install && npm run dev
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 183 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
-| [zed-extensions/typst](https://github.com/zed-extensions/typst) | 168 | Typst extension for zed |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 185 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
+| [zed-extensions/typst](https://github.com/zed-extensions/typst) | 170 | Typst extension for zed |
 | [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 167 | Zed support for the Godot game engine and the GDScript language |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 159 | A macOS native style theme for Zed, let it same like native app in macOS. |
 | [thedadams/zed-comment](https://github.com/thedadams/zed-comment) | 148 | A comment extension for the Zed editor |
@@ -120,6 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [surrealdb/surrealql-zed](https://github.com/surrealdb/surrealql-zed) | 0 | 2026-05-27 | SurrealQL Language Extension for the Zed Editor |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-05-27 | A Zed extension that allows to highlight all occurrences of ... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 83 | 2026-05-27 | True Dark Theme for Zed IDE |
 | [HelgeSverre/zed-applescript](https://github.com/HelgeSverre/zed-applescript) | 1 | 2026-05-27 | AppleScript for Zed — syntax highlighting, outline, runnable... |
@@ -132,19 +133,19 @@ cd website && npm install && npm run dev
 | [kbilkis/cobalt2x2](https://github.com/kbilkis/cobalt2x2) | 0 | 2026-05-25 |  |
 | [fn-jakubkarp/zed-vivid-void-theme](https://github.com/fn-jakubkarp/zed-vivid-void-theme) | 0 | 2026-05-25 | A deep, void-like aesthetic featuring highly vivid syntax hi... |
 | [filipeveronezi/vespertine](https://github.com/filipeveronezi/vespertine) | 2 | 2026-05-25 | Peppermint and orange flavored light theme for Zed. |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 183 | 2026-05-25 | Zed plugin for automatic time tracking and metrics generated... |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 185 | 2026-05-25 | Zed plugin for automatic time tracking and metrics generated... |
 | [hansdoebel/zed-mcp-n8n](https://github.com/hansdoebel/zed-mcp-n8n) | 0 | 2026-05-25 | n8n MCP extension for Zed |
 | [duanechan/spring-boot-properties](https://github.com/duanechan/spring-boot-properties) | 0 | 2026-05-25 | Spring Boot application properties snippets for Zed |
 | [htahaozlu/context-bar](https://github.com/htahaozlu/context-bar) | 12 | 2026-05-24 | Local-first repository context and native macOS HUD for Clau... |
 | [whistlebee/zed-mojo](https://github.com/whistlebee/zed-mojo) | 0 | 2026-05-24 | Mojo LSP/Syntax/Debugger support for Zed |
 | [version14/zed-theme](https://github.com/version14/zed-theme) | 2 | 2026-05-24 |  |
 | [rbstp/zed-csharp-ls](https://github.com/rbstp/zed-csharp-ls) | 0 | 2026-05-23 | C# language support for Zed, powered by csharp-ls. |
-| [zephexMCP/mcp-server-zephex](https://github.com/zephexMCP/mcp-server-zephex) | 2 | 2026-05-22 | Zed extension for Zephex — 10 hosted MCP developer tools (pr... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-05-27T18:47 | 0 | 445 | 1762 |
 | 2026-05-27T13:09 | 4 | 445 | 1762 |
 | 2026-05-27T07:26 | 0 | 445 | 1758 |
 | 2026-05-27T00:39 | 0 | 445 | 1758 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-05-26T00:37 | 0 | 442 | 1754 |
 | 2026-05-25T18:33 | 1 | 441 | 1754 |
 | 2026-05-25T13:08 | 0 | 442 | 1753 |
-| 2026-05-25T07:33 | 1 | 441 | 1753 |
 
 ---
 
