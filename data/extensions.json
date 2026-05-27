@@ -58,8 +58,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-05-03T17:39:17Z",
-    "updated_at": "2026-05-27T07:12:48Z",
-    "pushed_at": "2026-05-27T07:12:44Z",
+    "updated_at": "2026-05-27T08:52:46Z",
+    "pushed_at": "2026-05-27T12:10:46Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false,
     "extension": {
@@ -1205,7 +1205,7 @@
     "name": "kartikvashistha/zed-ansible",
     "url": "https://github.com/kartikvashistha/zed-ansible",
     "description": "Ansible Extension for the Zed editor",
-    "stars": 49,
+    "stars": 50,
     "forks": 9,
     "topics": [
       "ansible",
@@ -1215,7 +1215,7 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-08-04T09:47:08Z",
-    "updated_at": "2026-05-26T12:26:37Z",
+    "updated_at": "2026-05-27T07:51:04Z",
     "pushed_at": "2026-05-04T07:54:34Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -5206,7 +5206,7 @@
     "name": "jenslys/zed-catppuccin-blur",
     "url": "https://github.com/jenslys/zed-catppuccin-blur",
     "description": "Catppuccin Theme but as blurred variants + custom ones",
-    "stars": 319,
+    "stars": 320,
     "forks": 13,
     "topics": [
       "catppuccin",
@@ -5218,7 +5218,7 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2024-07-12T16:43:02Z",
-    "updated_at": "2026-05-20T02:04:07Z",
+    "updated_at": "2026-05-27T12:00:22Z",
     "pushed_at": "2026-01-26T02:22:08Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -31108,13 +31108,13 @@
     "name": "zed-extensions/git_firefly",
     "url": "https://github.com/zed-extensions/git_firefly",
     "description": "",
-    "stars": 122,
+    "stars": 123,
     "forks": 4,
     "topics": [],
     "language": "Tree-sitter Query",
     "license": "Apache-2.0",
     "created_at": "2024-02-19T14:56:35Z",
-    "updated_at": "2026-05-25T12:55:27Z",
+    "updated_at": "2026-05-27T08:46:53Z",
     "pushed_at": "2026-05-18T22:07:40Z",
     "discovered_at": "2026-05-19T21:42:53.670Z",
     "official": false,
@@ -39866,7 +39866,7 @@
     "url": "https://github.com/bukitoka/one-dark-pro-max",
     "description": "Zed Theme: One Dark Pro Max :)",
     "stars": 10,
-    "forks": 4,
+    "forks": 3,
     "topics": [],
     "language": null,
     "license": "MIT",
@@ -50515,6 +50515,132 @@
         "Mathieu Souflis <contact@mathieusouflis.com>"
       ],
       "repository": "https://github.com/version14/zed-theme",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "kbilkis/cobalt2x2": {
+    "name": "kbilkis/cobalt2x2",
+    "url": "https://github.com/kbilkis/cobalt2x2",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-05-25T18:43:10Z",
+    "updated_at": "2026-05-25T22:09:46Z",
+    "pushed_at": "2026-05-25T22:09:42Z",
+    "discovered_at": "2026-05-27T13:09:03.597Z",
+    "official": true,
+    "extension": {
+      "id": "cobalt2x2-theme",
+      "name": "Cobalt2x2",
+      "description": "Continuation of the OG Cobalt2",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Kasparas Bilkis"
+      ],
+      "repository": "https://github.com/kbilkis/cobalt2x2",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "inko-lang/zed": {
+    "name": "inko-lang/zed",
+    "url": "https://github.com/inko-lang/zed",
+    "description": "An extension for Zed that adds Inko support",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2026-05-09T15:17:28Z",
+    "updated_at": "2026-05-09T16:19:54Z",
+    "pushed_at": "2026-05-09T16:19:50Z",
+    "discovered_at": "2026-05-27T13:09:03.597Z",
+    "official": true,
+    "extension": {
+      "id": "inko",
+      "name": "Inko",
+      "description": "Inko support.",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Yorick Peterse <yorick@yorickpeterse.com>"
+      ],
+      "repository": "https://github.com/inko-lang/zed",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
+      ]
+    }
+  },
+  "nstlgy/oc-2-theme": {
+    "name": "nstlgy/oc-2-theme",
+    "url": "https://github.com/nstlgy/oc-2-theme",
+    "description": "",
+    "stars": 1,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-05-07T17:15:10Z",
+    "updated_at": "2026-05-07T18:08:30Z",
+    "pushed_at": "2026-05-07T17:38:47Z",
+    "discovered_at": "2026-05-27T13:09:03.597Z",
+    "official": true,
+    "extension": {
+      "id": "oc-2-theme",
+      "name": "OC-2 Theme",
+      "description": "A light and dark Zed theme based on the OC-2 color palette.",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "nstlgy"
+      ],
+      "repository": "https://github.com/nstlgy/oc-2-theme",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "filipeveronezi/vespertine": {
+    "name": "filipeveronezi/vespertine",
+    "url": "https://github.com/filipeveronezi/vespertine",
+    "description": "Peppermint and orange flavored light theme for Zed.",
+    "stars": 2,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-05-25T11:11:25Z",
+    "updated_at": "2026-05-25T23:47:46Z",
+    "pushed_at": "2026-05-25T11:59:57Z",
+    "discovered_at": "2026-05-27T13:09:03.597Z",
+    "official": true,
+    "extension": {
+      "id": "vespertine-theme",
+      "name": "Vespertine",
+      "description": "Peppermint and orange flavored light theme for Zed.",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Filipe Veronezi"
+      ],
+      "repository": "https://github.com/filipeveronezi/vespertine",
       "snippets": null,
       "sections": [],
       "categories": [

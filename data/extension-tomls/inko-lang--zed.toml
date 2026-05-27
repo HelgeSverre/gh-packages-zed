@@ -1,0 +1,11 @@
+id = "inko"
+name = "Inko"
+version = "0.0.1"
+schema_version = 1
+authors = ["Yorick Peterse <yorick@yorickpeterse.com>"]
+description = "Inko support."
+repository = "https://github.com/inko-lang/zed"
+
+[grammars.inko]
+repository = "https://github.com/inko-lang/tree-sitter-inko"
+rev = "4cfe5920f9d350a6f1ffb687d93d618e08ba2e6a"
