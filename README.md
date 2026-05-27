@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1483** |
 | In official registry | 1044 |
 | Discovered via topics | 439 |
-| Last updated | 2026-05-27 00:39 UTC |
+| Last updated | 2026-05-27 07:26 UTC |
 
 ### By capability
 
@@ -120,15 +120,15 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-05-27 | A Zed extension that allows to highlight all occurrences of ... |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 83 | 2026-05-27 | True Dark Theme for Zed IDE |
+| [HelgeSverre/zed-applescript](https://github.com/HelgeSverre/zed-applescript) | 1 | 2026-05-27 | AppleScript for Zed — syntax highlighting, outline, runnable... |
 | [BenjaminHalko/flow-icons-zed](https://github.com/BenjaminHalko/flow-icons-zed) | 18 | 2026-05-27 | 🌼 Flow Icons ported to Zed |
 | [dunyakirkali/zed-asciidoc](https://github.com/dunyakirkali/zed-asciidoc) | 18 | 2026-05-26 | Zed support for AsciiDoc syntax |
-| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 125 | 2026-05-26 | The Ruby language support for Zed editor |
-| [HelgeSverre/zed-applescript](https://github.com/HelgeSverre/zed-applescript) | 1 | 2026-05-26 | AppleScript for Zed — syntax highlighting, outline, runnable... |
-| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-05-26 | A Zed extension that allows to highlight all occurrences of ... |
+| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 126 | 2026-05-26 | The Ruby language support for Zed editor |
 | [rux-lang/Zed](https://github.com/rux-lang/Zed) | 2 | 2026-05-26 | Zed extension for Rux programming language |
 | [acakp/moondusttheme-zed](https://github.com/acakp/moondusttheme-zed) | 0 | 2026-05-26 | Handcrafted theme for those who have not found syntax highli... |
 | [HarshNarayanJha/zed-sequoia-theme](https://github.com/HarshNarayanJha/zed-sequoia-theme) | 5 | 2026-05-26 | Black, elegant, modern, monochrome or colourful theme for Ze... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 83 | 2026-05-26 | True Dark Theme for Zed IDE |
 | [fn-jakubkarp/zed-vivid-void-theme](https://github.com/fn-jakubkarp/zed-vivid-void-theme) | 0 | 2026-05-25 | A deep, void-like aesthetic featuring highly vivid syntax hi... |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 183 | 2026-05-25 | Zed plugin for automatic time tracking and metrics generated... |
 | [hansdoebel/zed-mcp-n8n](https://github.com/hansdoebel/zed-mcp-n8n) | 0 | 2026-05-25 | n8n MCP extension for Zed |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-05-27T07:26 | 0 | 445 | 1758 |
 | 2026-05-27T00:39 | 0 | 445 | 1758 |
 | 2026-05-26T18:48 | 1 | 444 | 1758 |
 | 2026-05-26T12:59 | 1 | 444 | 1757 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-05-25T13:08 | 0 | 442 | 1753 |
 | 2026-05-25T07:33 | 1 | 441 | 1753 |
 | 2026-05-25T00:39 | 0 | 440 | 1752 |
-| 2026-05-24T18:22 | 0 | 440 | 1752 |
 
 ---
 
