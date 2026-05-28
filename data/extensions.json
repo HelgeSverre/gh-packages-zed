@@ -58,8 +58,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-05-03T17:39:17Z",
-    "updated_at": "2026-05-27T08:52:46Z",
-    "pushed_at": "2026-05-27T12:10:46Z",
+    "updated_at": "2026-05-27T20:49:00Z",
+    "pushed_at": "2026-05-27T20:48:29Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false,
     "extension": {
@@ -254,7 +254,7 @@
     "license": "NOASSERTION",
     "created_at": "2024-10-11T18:22:02Z",
     "updated_at": "2026-05-27T06:30:43Z",
-    "pushed_at": "2026-05-26T17:37:47Z",
+    "pushed_at": "2026-05-27T22:52:40Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -7587,8 +7587,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2025-04-02T08:51:29Z",
-    "updated_at": "2025-07-05T18:48:58Z",
-    "pushed_at": "2025-07-05T18:49:23Z",
+    "updated_at": "2026-05-27T19:59:39Z",
+    "pushed_at": "2026-05-27T19:59:35Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -7623,8 +7623,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2025-04-02T13:31:54Z",
-    "updated_at": "2025-07-05T16:19:21Z",
-    "pushed_at": "2025-07-05T16:20:04Z",
+    "updated_at": "2026-05-27T19:59:39Z",
+    "pushed_at": "2026-05-27T19:59:35Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -50641,6 +50641,103 @@
         "Filipe Veronezi"
       ],
       "repository": "https://github.com/filipeveronezi/vespertine",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "inuzdev/inuzdev-coffee-theme": {
+    "name": "InuzDev/inuzdev-coffee-theme",
+    "url": "https://github.com/InuzDev/inuzdev-coffee-theme",
+    "description": "A zed personalized theme, I will keep this updated and try to make it more pleasant to the eye.",
+    "stars": 1,
+    "forks": 0,
+    "topics": [
+      "coffee",
+      "theme",
+      "zed"
+    ],
+    "language": null,
+    "license": "GPL-3.0",
+    "created_at": "2026-05-19T13:21:19Z",
+    "updated_at": "2026-05-27T20:05:28Z",
+    "pushed_at": "2026-05-27T20:05:21Z",
+    "discovered_at": "2026-05-28T00:35:56.253Z",
+    "official": true,
+    "extension": {
+      "id": "inuzdev-coffee-theme",
+      "name": "InuzDev Coffee theme",
+      "description": "A coffee theme by InuzDev - v1.1.3",
+      "version": "1.1.3",
+      "schema_version": 1,
+      "authors": [
+        "Inuzdev"
+      ],
+      "repository": "https://github.com/InuzDev/InuzDev-coffee",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "fernaandojr/remix-min-darker-zed": {
+    "name": "FernaandoJr/remix-min-darker-zed",
+    "url": "https://github.com/FernaandoJr/remix-min-darker-zed",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-05-12T16:23:33Z",
+    "updated_at": "2026-05-13T11:59:53Z",
+    "pushed_at": "2026-05-13T11:59:48Z",
+    "discovered_at": "2026-05-28T00:35:56.253Z",
+    "official": true,
+    "extension": {
+      "id": "remix-min-darker-theme",
+      "name": "Remix Min Darker Theme",
+      "description": "Remix Min Darker Theme — dark UI theme for Zed with a minimal, high-contrast palette.",
+      "version": "0.0.4",
+      "schema_version": 1,
+      "authors": [
+        "FernaandoJr <fernaando.divino@gmail.com>"
+      ],
+      "repository": "https://github.com/FernaandoJr/remix-min-darker-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "xqsit94/veda-pro-zed": {
+    "name": "xqsit94/veda-pro-zed",
+    "url": "https://github.com/xqsit94/veda-pro-zed",
+    "description": "Veda Pro — a vivid One Dark Pro-inspired Zed theme on a deep violet-indigo background.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Go",
+    "license": "MIT",
+    "created_at": "2026-05-27T16:40:09Z",
+    "updated_at": "2026-05-27T16:57:12Z",
+    "pushed_at": "2026-05-27T16:57:07Z",
+    "discovered_at": "2026-05-28T00:35:56.253Z",
+    "official": true,
+    "extension": {
+      "id": "veda-pro-theme",
+      "name": "Veda Pro",
+      "description": "A vivid One Dark Pro-inspired Zed theme on a deep violet-indigo background.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Manikandan <manikandan@xqsit.dev>"
+      ],
+      "repository": "https://github.com/xqsit94/veda-pro-zed",
       "snippets": null,
       "sections": [],
       "categories": [
