@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1490** |
 | In official registry | 1051 |
 | Discovered via topics | 439 |
-| Last updated | 2026-05-28 00:35 UTC |
+| Last updated | 2026-05-28 07:20 UTC |
 
 ### By capability
 
@@ -120,14 +120,14 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-05-28 | A Zed extension that allows to highlight all occurrences of ... |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 83 | 2026-05-28 | True Dark Theme for Zed IDE |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 126 | 2026-05-27 | The Ruby language support for Zed editor |
-| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-05-27 | A Zed extension that allows to highlight all occurrences of ... |
 | [InuzDev/inuzdev-coffee-theme](https://github.com/InuzDev/inuzdev-coffee-theme) | 1 | 2026-05-27 | A zed personalized theme, I will keep this updated and try t... |
 | [Jean-Tinland/zed-theme-night-shift](https://github.com/Jean-Tinland/zed-theme-night-shift) | 1 | 2026-05-27 | A clean desatured zed theme  |
 | [Jean-Tinland/zed-theme-day-shift](https://github.com/Jean-Tinland/zed-theme-day-shift) | 0 | 2026-05-27 | A soft theme with light colors for zed |
 | [xqsit94/veda-pro-zed](https://github.com/xqsit94/veda-pro-zed) | 0 | 2026-05-27 | Veda Pro — a vivid One Dark Pro-inspired Zed theme on a deep... |
 | [surrealdb/surrealql-zed](https://github.com/surrealdb/surrealql-zed) | 0 | 2026-05-27 | SurrealQL Language Extension for the Zed Editor |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 83 | 2026-05-27 | True Dark Theme for Zed IDE |
 | [HelgeSverre/zed-applescript](https://github.com/HelgeSverre/zed-applescript) | 1 | 2026-05-27 | AppleScript for Zed — syntax highlighting, outline, runnable... |
 | [BenjaminHalko/flow-icons-zed](https://github.com/BenjaminHalko/flow-icons-zed) | 18 | 2026-05-27 | 🌼 Flow Icons ported to Zed |
 | [dunyakirkali/zed-asciidoc](https://github.com/dunyakirkali/zed-asciidoc) | 18 | 2026-05-26 | Zed support for AsciiDoc syntax |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-05-28T07:20 | 0 | 445 | 1766 |
 | 2026-05-28T00:35 | 4 | 445 | 1766 |
 | 2026-05-27T18:47 | 0 | 445 | 1762 |
 | 2026-05-27T13:09 | 4 | 445 | 1762 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-05-26T12:59 | 1 | 444 | 1757 |
 | 2026-05-26T07:12 | 2 | 442 | 1756 |
 | 2026-05-26T00:37 | 0 | 442 | 1754 |
-| 2026-05-25T18:33 | 1 | 441 | 1754 |
 
 ---
 
