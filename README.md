@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1490** |
 | In official registry | 1051 |
 | Discovered via topics | 439 |
-| Last updated | 2026-05-29 00:41 UTC |
+| Last updated | 2026-05-29 07:20 UTC |
 
 ### By capability
 
@@ -120,8 +120,8 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 83 | 2026-05-29 | True Dark Theme for Zed IDE |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-05-28 | A Zed extension that allows to highlight all occurrences of ... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 83 | 2026-05-28 | True Dark Theme for Zed IDE |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 126 | 2026-05-27 | The Ruby language support for Zed editor |
 | [InuzDev/inuzdev-coffee-theme](https://github.com/InuzDev/inuzdev-coffee-theme) | 1 | 2026-05-27 | A zed personalized theme, I will keep this updated and try t... |
 | [Jean-Tinland/zed-theme-night-shift](https://github.com/Jean-Tinland/zed-theme-night-shift) | 1 | 2026-05-27 | A clean desatured zed theme  |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-05-29T07:20 | 0 | 445 | 1767 |
 | 2026-05-29T00:41 | 0 | 446 | 1767 |
 | 2026-05-28T18:53 | 1 | 445 | 1767 |
 | 2026-05-28T13:13 | 0 | 445 | 1766 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-05-27T13:09 | 4 | 445 | 1762 |
 | 2026-05-27T07:26 | 0 | 445 | 1758 |
 | 2026-05-27T00:39 | 0 | 445 | 1758 |
-| 2026-05-26T18:48 | 1 | 444 | 1758 |
 
 ---
 
