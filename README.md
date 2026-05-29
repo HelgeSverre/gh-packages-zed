@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1490-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1494-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,18 +14,18 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1490** |
-| In official registry | 1051 |
+| Total tracked | **1494** |
+| In official registry | 1055 |
 | Discovered via topics | 439 |
-| Last updated | 2026-05-29 07:20 UTC |
+| Last updated | 2026-05-29 13:04 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
-| Themes | 606 |
-| Grammars | 529 |
-| Language Servers | 492 |
+| Themes | 607 |
+| Grammars | 532 |
+| Language Servers | 493 |
 | Context Servers | 124 |
 | Snippets | 67 |
 | Slash Commands | 53 |
@@ -70,6 +70,10 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [nicolas-cusan/zed-silverstripe](https://github.com/nicolas-cusan/zed-silverstripe) | 0 |  |
+| [aitit-inc/zed-surpassone-theme](https://github.com/aitit-inc/zed-surpassone-theme) | 0 | A coral & grayscale Zed theme with flat, monochrome design. Dark and Light varia... |
+| [momota1029/yulang-zed](https://github.com/momota1029/yulang-zed) | 0 |  |
+| [nzoschke/zed-djot](https://github.com/nzoschke/zed-djot) | 0 |  |
 | [InuzDev/inuzdev-coffee-theme](https://github.com/InuzDev/inuzdev-coffee-theme) | 1 | A zed personalized theme, I will keep this updated and try to make it more pleas... |
 | [FernaandoJr/remix-min-darker-zed](https://github.com/FernaandoJr/remix-min-darker-zed) | 0 |  |
 | [xqsit94/veda-pro-zed](https://github.com/xqsit94/veda-pro-zed) | 0 | Veda Pro — a vivid One Dark Pro-inspired Zed theme on a deep violet-indigo backg... |
@@ -86,10 +90,6 @@ cd website && npm install && npm run dev
 | [fn-jakubkarp/zed-vivid-void-theme](https://github.com/fn-jakubkarp/zed-vivid-void-theme) | 0 | A deep, void-like aesthetic featuring highly vivid syntax highlighting. |
 | [tbxark/vscode2026-theme-zed](https://github.com/tbxark/vscode2026-theme-zed) | 0 | VS Code 2026 theme for Zed |
 | [Aler1x/zed-midnight-theme](https://github.com/Aler1x/zed-midnight-theme) | 0 | Dark Zed theme with Nord-inspired midnight blues and soft, easy-on-the-eyes synt... |
-| [AlexanderHeffernan/monokai-vibrant-zed](https://github.com/AlexanderHeffernan/monokai-vibrant-zed) | 0 | Zed port of Dylan Marsh's Monokai Vibrant – a very dark and vibrant Monokai base... |
-| [Fyelne/carbonfox-andromeda](https://github.com/Fyelne/carbonfox-andromeda) | 0 | Zed Theme with CarbonFox UI and Andromeda Text |
-| [Finorion/zed-fineorite](https://github.com/Finorion/zed-fineorite) | 0 | ☄️ Calm, medium contrast, dark and flat theme |
-| [iamguba/zed-jemini-theme](https://github.com/iamguba/zed-jemini-theme) | 0 | A port of Google Gemini color scheme |
 
 ## Top starred (under 500)
 
@@ -120,31 +120,32 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [htahaozlu/context-bar](https://github.com/htahaozlu/context-bar) | 12 | 2026-05-29 | Local-first repository context and native macOS HUD for Clau... |
+| [surrealdb/surrealql-zed](https://github.com/surrealdb/surrealql-zed) | 0 | 2026-05-29 | SurrealQL Language Extension for the Zed Editor |
+| [hadez8877/one-dark-pro-enhanced](https://github.com/hadez8877/one-dark-pro-enhanced) | 5 | 2026-05-29 | The most installed theme in Visual Studio Code modified for ... |
+| [dunyakirkali/zed-asciidoc](https://github.com/dunyakirkali/zed-asciidoc) | 18 | 2026-05-29 | Zed support for AsciiDoc syntax |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 83 | 2026-05-29 | True Dark Theme for Zed IDE |
+| [aitit-inc/zed-surpassone-theme](https://github.com/aitit-inc/zed-surpassone-theme) | 0 | 2026-05-28 | A coral & grayscale Zed theme with flat, monochrome design. ... |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-05-28 | A Zed extension that allows to highlight all occurrences of ... |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 126 | 2026-05-27 | The Ruby language support for Zed editor |
 | [InuzDev/inuzdev-coffee-theme](https://github.com/InuzDev/inuzdev-coffee-theme) | 1 | 2026-05-27 | A zed personalized theme, I will keep this updated and try t... |
 | [Jean-Tinland/zed-theme-night-shift](https://github.com/Jean-Tinland/zed-theme-night-shift) | 1 | 2026-05-27 | A clean desatured zed theme  |
 | [Jean-Tinland/zed-theme-day-shift](https://github.com/Jean-Tinland/zed-theme-day-shift) | 0 | 2026-05-27 | A soft theme with light colors for zed |
 | [xqsit94/veda-pro-zed](https://github.com/xqsit94/veda-pro-zed) | 0 | 2026-05-27 | Veda Pro — a vivid One Dark Pro-inspired Zed theme on a deep... |
-| [surrealdb/surrealql-zed](https://github.com/surrealdb/surrealql-zed) | 0 | 2026-05-27 | SurrealQL Language Extension for the Zed Editor |
 | [HelgeSverre/zed-applescript](https://github.com/HelgeSverre/zed-applescript) | 1 | 2026-05-27 | AppleScript for Zed — syntax highlighting, outline, runnable... |
 | [BenjaminHalko/flow-icons-zed](https://github.com/BenjaminHalko/flow-icons-zed) | 18 | 2026-05-27 | 🌼 Flow Icons ported to Zed |
-| [dunyakirkali/zed-asciidoc](https://github.com/dunyakirkali/zed-asciidoc) | 18 | 2026-05-26 | Zed support for AsciiDoc syntax |
 | [rux-lang/Zed](https://github.com/rux-lang/Zed) | 2 | 2026-05-26 | Zed extension for Rux programming language |
 | [acakp/moondusttheme-zed](https://github.com/acakp/moondusttheme-zed) | 0 | 2026-05-26 | Handcrafted theme for those who have not found syntax highli... |
 | [HarshNarayanJha/zed-sequoia-theme](https://github.com/HarshNarayanJha/zed-sequoia-theme) | 5 | 2026-05-26 | Black, elegant, modern, monochrome or colourful theme for Ze... |
 | [kbilkis/cobalt2x2](https://github.com/kbilkis/cobalt2x2) | 0 | 2026-05-25 |  |
 | [fn-jakubkarp/zed-vivid-void-theme](https://github.com/fn-jakubkarp/zed-vivid-void-theme) | 0 | 2026-05-25 | A deep, void-like aesthetic featuring highly vivid syntax hi... |
 | [filipeveronezi/vespertine](https://github.com/filipeveronezi/vespertine) | 2 | 2026-05-25 | Peppermint and orange flavored light theme for Zed. |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 185 | 2026-05-25 | Zed plugin for automatic time tracking and metrics generated... |
-| [hansdoebel/zed-mcp-n8n](https://github.com/hansdoebel/zed-mcp-n8n) | 0 | 2026-05-25 | n8n MCP extension for Zed |
-| [duanechan/spring-boot-properties](https://github.com/duanechan/spring-boot-properties) | 0 | 2026-05-25 | Spring Boot application properties snippets for Zed |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-05-29T13:04 | 6 | 446 | 1773 |
 | 2026-05-29T07:20 | 0 | 445 | 1767 |
 | 2026-05-29T00:41 | 0 | 446 | 1767 |
 | 2026-05-28T18:53 | 1 | 445 | 1767 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-05-27T18:47 | 0 | 445 | 1762 |
 | 2026-05-27T13:09 | 4 | 445 | 1762 |
 | 2026-05-27T07:26 | 0 | 445 | 1758 |
-| 2026-05-27T00:39 | 0 | 445 | 1758 |
 
 ---
 
