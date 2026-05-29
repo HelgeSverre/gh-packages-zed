@@ -339,8 +339,8 @@
     "language": "Swift",
     "license": "NOASSERTION",
     "created_at": "2026-05-11T07:14:28Z",
-    "updated_at": "2026-05-29T12:29:52Z",
-    "pushed_at": "2026-05-29T12:29:48Z",
+    "updated_at": "2026-05-29T18:51:21Z",
+    "pushed_at": "2026-05-29T18:51:17Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false,
     "extension": {
@@ -1522,7 +1522,7 @@
     "license": "Apache-2.0",
     "created_at": "2025-09-06T08:50:19Z",
     "updated_at": "2026-05-11T01:28:47Z",
-    "pushed_at": "2026-05-29T11:06:20Z",
+    "pushed_at": "2026-05-29T15:16:19Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false,
     "extension": {
@@ -5206,7 +5206,7 @@
     "name": "jenslys/zed-catppuccin-blur",
     "url": "https://github.com/jenslys/zed-catppuccin-blur",
     "description": "Catppuccin Theme but as blurred variants + custom ones",
-    "stars": 320,
+    "stars": 321,
     "forks": 13,
     "topics": [
       "catppuccin",
@@ -5218,7 +5218,7 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2024-07-12T16:43:02Z",
-    "updated_at": "2026-05-27T12:00:22Z",
+    "updated_at": "2026-05-29T16:40:33Z",
     "pushed_at": "2026-01-26T02:22:08Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -50875,6 +50875,48 @@
       ],
       "categories": [
         "grammar"
+      ]
+    }
+  },
+  "harehare/zed-mq": {
+    "name": "harehare/zed-mq",
+    "url": "https://github.com/harehare/zed-mq",
+    "description": "This extension provides language support for mq in the Zed editor.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "markdown",
+      "mq",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2026-05-28T12:49:47Z",
+    "updated_at": "2026-05-29T13:33:31Z",
+    "pushed_at": "2026-05-29T13:33:16Z",
+    "discovered_at": "2026-05-29T18:52:10.675Z",
+    "official": false,
+    "extension": {
+      "id": "mq",
+      "name": "mq",
+      "description": "mq language support - jq-like tool for Markdown processing",
+      "version": "0.2.0",
+      "schema_version": 1,
+      "authors": [
+        "Takahiro Sato <harehare1110@gmail.com>"
+      ],
+      "repository": "https://github.com/harehare/zed-mq",
+      "snippets": null,
+      "sections": [
+        "grammars",
+        "language_servers",
+        "slash_commands"
+      ],
+      "categories": [
+        "grammar",
+        "language-server",
+        "slash-command"
       ]
     }
   }
