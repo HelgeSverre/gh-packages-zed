@@ -52,8 +52,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-04-17T01:34:39Z",
-    "updated_at": "2026-05-30T11:24:29Z",
-    "pushed_at": "2026-05-30T11:24:25Z",
+    "updated_at": "2026-05-30T17:47:26Z",
+    "pushed_at": "2026-05-30T17:47:22Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -148,7 +148,7 @@
     "url": "https://github.com/Imgkl/the-dark-side",
     "description": "True Dark Theme for Zed IDE",
     "stars": 83,
-    "forks": 5,
+    "forks": 6,
     "topics": [
       "zed-extension",
       "zed-theme"
@@ -606,7 +606,7 @@
     "name": "bennypowers/asimonim",
     "url": "https://github.com/bennypowers/asimonim",
     "description": "The Design Tokens Multitool. CLI and go library; LSP and MCP; Generator and converter",
-    "stars": 24,
+    "stars": 25,
     "forks": 2,
     "topics": [
       "claude-code-plugin",
@@ -623,7 +623,7 @@
     "language": "Go",
     "license": "GPL-3.0",
     "created_at": "2026-01-19T23:03:47Z",
-    "updated_at": "2026-05-17T01:34:12Z",
+    "updated_at": "2026-05-30T15:18:20Z",
     "pushed_at": "2026-05-11T08:03:00Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -831,7 +831,7 @@
     "name": "kartikvashistha/zed-ansible",
     "url": "https://github.com/kartikvashistha/zed-ansible",
     "description": "Ansible Extension for the Zed editor",
-    "stars": 51,
+    "stars": 52,
     "forks": 9,
     "topics": [
       "ansible",
@@ -841,7 +841,7 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-08-04T09:47:08Z",
-    "updated_at": "2026-05-29T06:55:10Z",
+    "updated_at": "2026-05-30T14:22:27Z",
     "pushed_at": "2026-05-04T07:54:34Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -1028,8 +1028,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-01-23T19:58:30Z",
-    "updated_at": "2026-04-30T18:59:01Z",
-    "pushed_at": "2026-04-30T19:01:42Z",
+    "updated_at": "2026-05-30T14:23:02Z",
+    "pushed_at": "2026-05-30T14:23:28Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -5323,7 +5323,7 @@
     "name": "Dylanmurzello/zed-android-port",
     "url": "https://github.com/Dylanmurzello/zed-android-port",
     "description": "Native Android port of the Zed code editor,  gpui rendering through Vulkan, integrated Termux for LSPs and tooling, remote SSH support. Runs as an APK on tablets and Android desktop modes.",
-    "stars": 72,
+    "stars": 73,
     "forks": 3,
     "topics": [
       "android",
@@ -5350,7 +5350,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-05-07T00:12:10Z",
-    "updated_at": "2026-05-29T20:55:48Z",
+    "updated_at": "2026-05-30T17:22:59Z",
     "pushed_at": "2026-05-26T16:24:28Z",
     "discovered_at": "2026-05-19T19:54:12.053Z",
     "official": false
@@ -5486,7 +5486,7 @@
     "name": "moabualruz/claude-code-cli-acp",
     "url": "https://github.com/moabualruz/claude-code-cli-acp",
     "description": "ACP adapter for the real Claude Code CLI: Rust PTY bridge for Zed and other Agent Client Protocol clients.",
-    "stars": 8,
+    "stars": 9,
     "forks": 0,
     "topics": [
       "acp",
@@ -5513,7 +5513,7 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-05-14T10:16:29Z",
-    "updated_at": "2026-05-28T02:52:25Z",
+    "updated_at": "2026-05-30T12:46:33Z",
     "pushed_at": "2026-05-23T14:40:18Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
@@ -5554,11 +5554,11 @@
       "zed",
       "zed-editor"
     ],
-    "language": "Shell",
+    "language": null,
     "license": null,
     "created_at": "2026-04-28T17:27:28Z",
-    "updated_at": "2026-05-23T03:54:20Z",
-    "pushed_at": "2026-05-23T03:54:23Z",
+    "updated_at": "2026-05-30T15:50:35Z",
+    "pushed_at": "2026-05-30T15:50:31Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
   },
@@ -6395,8 +6395,8 @@
     "language": "Lua",
     "license": "GPL-3.0",
     "created_at": "2021-07-29T01:24:02Z",
-    "updated_at": "2026-05-30T10:30:34Z",
-    "pushed_at": "2026-05-30T10:30:30Z",
+    "updated_at": "2026-05-30T16:52:00Z",
+    "pushed_at": "2026-05-30T16:51:56Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
   },
@@ -9375,16 +9375,28 @@
   "ejentum/zed-ejentum-mcp": {
     "name": "ejentum/zed-ejentum-mcp",
     "url": "https://github.com/ejentum/zed-ejentum-mcp",
-    "description": "Zed extension wrapping the Ejentum Reasoning Harness MCP server",
+    "description": "Zed editor extension wrapping the Ejentum MCP server. 8 cognitive operations (4 harnesses Ã— dynamic + adaptive) available to Zed's agent.",
     "stars": 0,
     "forks": 0,
-    "topics": [],
+    "topics": [
+      "agentic-ai",
+      "ai-agents",
+      "ejentum",
+      "llm",
+      "mcp",
+      "mcp-server",
+      "reasoning-harness",
+      "zed",
+      "zed-editor",
+      "zed-extension"
+    ],
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-05-10T17:47:36Z",
-    "updated_at": "2026-05-14T21:19:14Z",
-    "pushed_at": "2026-05-14T21:19:10Z",
-    "discovered_at": "2026-05-19T20:07:54.613Z"
+    "updated_at": "2026-05-30T17:25:09Z",
+    "pushed_at": "2026-05-30T17:25:06Z",
+    "discovered_at": "2026-05-19T20:07:54.613Z",
+    "official": false
   },
   "bmurgic/zed-ftp-mcp": {
     "name": "bmurgic/zed-ftp-mcp",
@@ -15055,17 +15067,17 @@
     "url": "https://github.com/pranavmangal/zed-ssh-config",
     "description": "A Zed extension that provides syntax highlighting for SSH config files",
     "stars": 2,
-    "forks": 0,
+    "forks": 1,
     "topics": [
       "ssh-config",
       "zed",
       "zed-extension"
     ],
-    "language": "Scheme",
+    "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2025-01-24T17:50:31Z",
-    "updated_at": "2026-05-23T16:19:17Z",
-    "pushed_at": "2025-01-24T18:05:02Z",
+    "updated_at": "2026-05-30T18:22:31Z",
+    "pushed_at": "2026-05-30T18:22:28Z",
     "discovered_at": "2026-05-19T20:15:46.472Z",
     "official": true
   },
@@ -18282,8 +18294,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-05-30T07:01:18Z",
-    "pushed_at": "2026-05-30T07:01:14Z",
+    "updated_at": "2026-05-30T12:26:21Z",
+    "pushed_at": "2026-05-30T12:26:18Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -19520,7 +19532,7 @@
     "url": "https://github.com/zed-extensions/git_firefly",
     "description": "",
     "stars": 125,
-    "forks": 4,
+    "forks": 5,
     "topics": [],
     "language": "Tree-sitter Query",
     "license": "Apache-2.0",
@@ -29026,8 +29038,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-05-21T17:10:49Z",
-    "updated_at": "2026-05-21T17:18:50Z",
-    "pushed_at": "2026-05-21T17:18:11Z",
+    "updated_at": "2026-05-30T16:40:37Z",
+    "pushed_at": "2026-05-30T16:40:34Z",
     "discovered_at": "2026-05-21T18:39:01.626Z",
     "official": false
   },
@@ -29582,5 +29594,20 @@
     "pushed_at": "2026-05-29T13:33:16Z",
     "discovered_at": "2026-05-29T18:52:10.675Z",
     "official": false
+  },
+  "srgaabriel/zed-dhall": {
+    "name": "SrGaabriel/zed-dhall",
+    "url": "https://github.com/SrGaabriel/zed-dhall",
+    "description": "",
+    "stars": 2,
+    "forks": 0,
+    "topics": [],
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "created_at": "2026-05-30T05:16:28Z",
+    "updated_at": "2026-05-30T08:53:45Z",
+    "pushed_at": "2026-05-30T05:24:03Z",
+    "discovered_at": "2026-05-30T18:23:49.056Z",
+    "official": true
   }
 }
