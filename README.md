@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1495** |
 | In official registry | 1055 |
 | Discovered via topics | 440 |
-| Last updated | 2026-05-29 18:52 UTC |
+| Last updated | 2026-05-30 00:37 UTC |
 
 ### By capability
 
@@ -120,10 +120,10 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [hadez8877/one-dark-pro-enhanced](https://github.com/hadez8877/one-dark-pro-enhanced) | 5 | 2026-05-29 | The most installed theme in Visual Studio Code modified for ... |
 | [htahaozlu/context-bar](https://github.com/htahaozlu/context-bar) | 12 | 2026-05-29 | Local-first repository context and native macOS HUD for Clau... |
 | [surrealdb/surrealql-zed](https://github.com/surrealdb/surrealql-zed) | 0 | 2026-05-29 | SurrealQL Language Extension for the Zed Editor |
 | [harehare/zed-mq](https://github.com/harehare/zed-mq) | 0 | 2026-05-29 | This extension provides language support for mq in the Zed e... |
-| [hadez8877/one-dark-pro-enhanced](https://github.com/hadez8877/one-dark-pro-enhanced) | 5 | 2026-05-29 | The most installed theme in Visual Studio Code modified for ... |
 | [dunyakirkali/zed-asciidoc](https://github.com/dunyakirkali/zed-asciidoc) | 18 | 2026-05-29 | Zed support for AsciiDoc syntax |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 83 | 2026-05-29 | True Dark Theme for Zed IDE |
 | [aitit-inc/zed-surpassone-theme](https://github.com/aitit-inc/zed-surpassone-theme) | 0 | 2026-05-28 | A coral & grayscale Zed theme with flat, monochrome design. ... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-05-30T00:37 | 0 | 448 | 1774 |
 | 2026-05-29T18:52 | 1 | 447 | 1774 |
 | 2026-05-29T13:04 | 6 | 446 | 1773 |
 | 2026-05-29T07:20 | 0 | 445 | 1767 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-05-28T07:20 | 0 | 445 | 1766 |
 | 2026-05-28T00:35 | 4 | 445 | 1766 |
 | 2026-05-27T18:47 | 0 | 445 | 1762 |
-| 2026-05-27T13:09 | 4 | 445 | 1762 |
 
 ---
 
