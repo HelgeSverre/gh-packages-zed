@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1495** |
 | In official registry | 1055 |
 | Discovered via topics | 440 |
-| Last updated | 2026-05-30 07:00 UTC |
+| Last updated | 2026-05-30 12:25 UTC |
 
 ### By capability
 
@@ -135,7 +135,7 @@ cd website && npm install && npm run dev
 | [xqsit94/veda-pro-zed](https://github.com/xqsit94/veda-pro-zed) | 0 | 2026-05-27 | Veda Pro — a vivid One Dark Pro-inspired Zed theme on a deep... |
 | [HelgeSverre/zed-applescript](https://github.com/HelgeSverre/zed-applescript) | 1 | 2026-05-27 | AppleScript for Zed — syntax highlighting, outline, runnable... |
 | [BenjaminHalko/flow-icons-zed](https://github.com/BenjaminHalko/flow-icons-zed) | 18 | 2026-05-27 | 🌼 Flow Icons ported to Zed |
-| [rux-lang/Zed](https://github.com/rux-lang/Zed) | 2 | 2026-05-26 | Zed extension for Rux programming language |
+| [rux-lang/Zed](https://github.com/rux-lang/Zed) | 3 | 2026-05-26 | Zed extension for Rux programming language |
 | [acakp/moondusttheme-zed](https://github.com/acakp/moondusttheme-zed) | 0 | 2026-05-26 | Handcrafted theme for those who have not found syntax highli... |
 | [HarshNarayanJha/zed-sequoia-theme](https://github.com/HarshNarayanJha/zed-sequoia-theme) | 5 | 2026-05-26 | Black, elegant, modern, monochrome or colourful theme for Ze... |
 | [kbilkis/cobalt2x2](https://github.com/kbilkis/cobalt2x2) | 0 | 2026-05-25 |  |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-05-30T12:25 | 0 | 448 | 1774 |
 | 2026-05-30T07:00 | 0 | 448 | 1774 |
 | 2026-05-30T00:37 | 0 | 448 | 1774 |
 | 2026-05-29T18:52 | 1 | 447 | 1774 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-05-28T18:53 | 1 | 445 | 1767 |
 | 2026-05-28T13:13 | 0 | 445 | 1766 |
 | 2026-05-28T07:20 | 0 | 445 | 1766 |
-| 2026-05-28T00:35 | 4 | 445 | 1766 |
 
 ---
 
