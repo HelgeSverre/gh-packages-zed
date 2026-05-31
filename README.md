@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1498** |
 | In official registry | 1058 |
 | Discovered via topics | 440 |
-| Last updated | 2026-05-31 07:18 UTC |
+| Last updated | 2026-05-31 12:28 UTC |
 
 ### By capability
 
@@ -120,6 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [htahaozlu/context-bar](https://github.com/htahaozlu/context-bar) | 12 | 2026-05-31 | Usage and cost visibility for Claude Code and Codex — native... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 83 | 2026-05-31 | True Dark Theme for Zed IDE |
 | [owlx56/zed-lean4](https://github.com/owlx56/zed-lean4) | 40 | 2026-05-30 |  |
 | [mike-bronner/zed-laravel](https://github.com/mike-bronner/zed-laravel) | 19 | 2026-05-30 | Laravel LSP for Zed editor. |
@@ -130,7 +131,6 @@ cd website && npm install && npm run dev
 | [SrGaabriel/zed-dhall](https://github.com/SrGaabriel/zed-dhall) | 2 | 2026-05-30 |  |
 | [hadez8877/one-dark-pro-enhanced](https://github.com/hadez8877/one-dark-pro-enhanced) | 5 | 2026-05-29 | The most installed theme in Visual Studio Code modified for ... |
 | [rockas-d/zenburn-transparent](https://github.com/rockas-d/zenburn-transparent) | 0 | 2026-05-29 | Zenburn Transparent — low-contrast Zenburn palette for Zed w... |
-| [htahaozlu/context-bar](https://github.com/htahaozlu/context-bar) | 12 | 2026-05-29 | Local-first repository context and native macOS HUD for Clau... |
 | [surrealdb/surrealql-zed](https://github.com/surrealdb/surrealql-zed) | 0 | 2026-05-29 | SurrealQL Language Extension for the Zed Editor |
 | [harehare/zed-mq](https://github.com/harehare/zed-mq) | 0 | 2026-05-29 | This extension provides language support for mq in the Zed e... |
 | [dunyakirkali/zed-asciidoc](https://github.com/dunyakirkali/zed-asciidoc) | 18 | 2026-05-29 | Zed support for AsciiDoc syntax |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-05-31T12:28 | 0 | 449 | 1777 |
 | 2026-05-31T07:18 | 0 | 449 | 1777 |
 | 2026-05-31T00:40 | 2 | 449 | 1777 |
 | 2026-05-30T18:23 | 1 | 449 | 1775 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-05-29T18:52 | 1 | 447 | 1774 |
 | 2026-05-29T13:04 | 6 | 446 | 1773 |
 | 2026-05-29T07:20 | 0 | 445 | 1767 |
-| 2026-05-29T00:41 | 0 | 446 | 1767 |
 
 ---
 
