@@ -1,0 +1,290 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Laravel - Zed Extension Safari</title><meta name="description" content="Laravel LSP for Zed editor."><link rel="canonical" href="https://helgesverre.github.io/gh-packages-zed/package/mike-bronner/zed-laravel/"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Laravel - Zed Extension Safari"><meta property="og:description" content="Laravel LSP for Zed editor."><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed/package/mike-bronner/zed-laravel/"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Laravel - Zed Extension Safari"><meta name="twitter:description" content="Laravel LSP for Zed editor."><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/gh-packages-zed/_astro/ClientRouter.astro_astro_type_script_index_0_lang.ClVLs1kt.js"></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Laravel","description":"Laravel LSP for Zed editor.","applicationCategory":"DeveloperApplication","operatingSystem":"macOS, Linux, Windows","url":"https://zed.dev/extensions/laravel","codeRepository":"https://github.com/mike-bronner/zed-laravel","author":[{"@type":"Person","name":"Mike Bronner"}],"softwareVersion":"0.2.2","license":"MIT","keywords":"language-server","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/Layout.CGDlMdWE.css"><script type="module" src="/gh-packages-zed/_astro/page.B8i1Zz-u.js"></script></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <a href="#main" class="skip-to-content">Skip to content</a> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" data-astro-transition-persist="astro-fhchcgd7-1"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <script type="application/json" id="pkg-extras">{"url":"https://github.com/mike-bronner/zed-laravel","language":"Rust","license":"MIT","topics":["blade","language","laravel","lsp-server","zed"],"extension":{"authors":["Mike Bronner"],"schema_version":1}}</script> <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> mike-bronner/zed-laravel </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> Laravel </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> Laravel development support for Zed with go-to-definition for Blade, Livewire, and Flux components. Install the separate Blade extension for syntax highlighting. </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="language-server">Language Server</span> </div> </div> </div> </header> <main id="main" class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/laravel" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/mike-bronner/zed-laravel" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.2.2</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">laravel</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">Rust</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">MIT</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">19</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">2h ago</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">Mike Bronner</dd> </div> </dl>  <h2 class="mt-5 text-xs uppercase font-mono" style="color:var(--zed-muted);">Topics</h2> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> blade </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> language </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> laravel </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> lsp-server </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed </span> </div>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><p align="center">
+  <img src="https://raw.githubusercontent.com/mike-bronner/zed-laravel/HEAD/docs/logo.svg" width="128" height="128" alt="Laravel for Zed">
+</p>
+<h1 align="center" id="user-content-laravel-for-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#laravel-for-zed"><span class="heading-anchor-icon">#</span></a>Laravel for Zed</h1>
+<p align="center">
+<strong>Cmd+Click your way through Laravel projects</strong>
+</p>
+<p align="center">
+<a href="https://github.com/mike-bronner/zed-laravel/actions/workflows/release.yml"><img src="https://github.com/mike-bronner/zed-laravel/actions/workflows/release.yml/badge.svg?event=release" alt="Release"></a>
+<a href="https://github.com/mike-bronner/zed-laravel/releases"><img src="https://img.shields.io/github/v/release/mike-bronner/zed-laravel?label=version" alt="Latest Release"></a>
+<img src="https://img.shields.io/github/downloads/mike-bronner/zed-laravel/total" alt="Downloads">
+<img src="https://img.shields.io/github/stars/mike-bronner/zed-laravel?style=flat" alt="GitHub Stars">
+</p>
+<p align="center">
+<img src="https://img.shields.io/badge/Laravel-FF2D20?logo=laravel&#x26;logoColor=white" alt="Laravel">
+<img src="https://img.shields.io/badge/Zed-Extension-8B5CF6" alt="Zed Extension">
+<img src="https://img.shields.io/badge/Rust-000000?logo=rust&#x26;logoColor=white" alt="Rust">
+<a href="https://github.com/mike-bronner/zed-laravel/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License"></a>
+</p>
+<p align="center">
+<sub>A community extension — not affiliated with Laravel LLC</sub>
+</p>
+<h2 id="user-content-️-why-we-built-this"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#️-why-we-built-this"><span class="heading-anchor-icon">#</span></a>❤️ Why we built this</h2>
+<p>We love Laravel, and we love Zed. When we moved our Laravel work into Zed, the deep, framework-aware tooling we'd relied on elsewhere wasn't there yet — so we built it. This extension exists to give Laravel first-class support in Zed, because a framework this good deserves great tooling everywhere its developers work.</p>
+<p>The intelligence lives in a standalone language server (LSP) — the same protocol your editor already speaks for other languages. Today it targets Zed; because it's LSP-based, the same engine could reach other LSP-capable editors (Neovim, Helix, Sublime Text, and more) down the road. That's a direction we'd love to grow toward, not something we ship yet.</p>
+<h3 id="user-content-how-it-works--static-analysis"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#how-it-works--static-analysis"><span class="heading-anchor-icon">#</span></a>How it works — static analysis</h3>
+<p>Everything is parsed statically with tree-sitter: the extension reads your files, it never runs them. It only touches your database when <em>you</em> opt into schema-backed completion, and it keeps working even when your app won't boot — a half-applied migration, a missing <code>.env</code>, or a dirty branch won't stop it. The honest trade-off: some deeply dynamic runtime behaviour (fully dynamic Eloquent magic, runtime-registered routes) is harder to reach through static analysis alone.</p>
+<p><strong>⚡ Indexing performance.</strong> The extension indexes every PHP and Blade file in your project (including <code>vendor/</code>) at startup so find-references and goto-definition return instantly. A persistent on-disk cache makes subsequent project opens near-instant — only files whose <code>mtime</code> has changed since they were last indexed get re-parsed. External changes (a <code>git pull</code>, a <code>composer install</code>, a formatter running outside Zed) are picked up live via <code>workspace/didChangeWatchedFiles</code>. The status bar shows progress during the initial warmup.</p>
+<h3 id="user-content-laravel-across-editors"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#laravel-across-editors"><span class="heading-anchor-icon">#</span></a>Laravel across editors</h3>
+<p>Laravel developers are spoiled for choice — every major editor has a strong way to work with the framework. Here's roughly where things stand and what each needs, so you can pick whatever fits how you work:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Editor</th><th>Laravel-aware tooling</th><th>Cost</th></tr></thead><tbody><tr><td><strong>PHPStorm</strong></td><td>Laravel support built in, powered by the <a href="https://laravel-idea.com/">Laravel Idea</a> plugin</td><td>Paid IDE (free for non-commercial use)</td></tr><tr><td><strong>VS Code</strong></td><td><a href="https://github.com/laravel/vs-code-extension">Official Laravel extension</a>, maintained by the Laravel team</td><td>Free</td></tr><tr><td><strong>Zed</strong></td><td>This extension, in addition to companion extensions:  <a href="https://github.com/bajrangCoder/zed-laravel-blade">Laravel Blade</a>, <a href="https://github.com/zed-extensions/php">PHP</a> (Intelephense), <a href="https://github.com/GeneaLabs/zed-phpcs-lsp">phpcs</a>, and <a href="https://github.com/GeneaLabs/zed-phpmd-lsp">phpmd</a></td><td>Free</td></tr></tbody></table>
+<p><sub>A high-level snapshot as of 2026-05-30 — not a feature-by-feature scorecard. Every option here is capable and actively developed. (As of 2025, the Laravel Idea plugin is bundled free with PhpStorm.) Corrections welcome via PR.</sub></p>
+<h2 id="user-content--features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-features"><span class="heading-anchor-icon">#</span></a>✨ Features</h2>
+<p>Each feature has a focused reference under <a href="https://github.com/mike-bronner/zed-laravel/blob/HEAD/docs/" target="_blank" rel="noopener"><code>docs/</code></a> — click through to dive in.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Feature</th><th>What it does</th></tr></thead><tbody><tr><td><a href="https://github.com/mike-bronner/zed-laravel/blob/HEAD/docs/go-to-definition.md" target="_blank" rel="noopener">🔗 Go-to-Definition</a></td><td>Jump to views, components, routes, config, translations, env, assets, middleware, bindings — plus query-chain columns / relations / tables</td></tr><tr><td><a href="https://github.com/mike-bronner/zed-laravel/blob/HEAD/docs/hover.md" target="_blank" rel="noopener">ℹ️ Hover</a></td><td>Intelephense-style summary cards for every recognised pattern</td></tr><tr><td><a href="https://github.com/mike-bronner/zed-laravel/blob/HEAD/docs/find-references.md" target="_blank" rel="noopener">🔍 Find References</a></td><td>Every call site across the project, vendor packages included</td></tr><tr><td><a href="https://github.com/mike-bronner/zed-laravel/blob/HEAD/docs/rename.md" target="_blank" rel="noopener">✏️ Rename</a></td><td>Atomic rename of routes, configs, translations, env vars, views, components, Livewire, middleware, bindings, and model classes</td></tr><tr><td><a href="https://github.com/mike-bronner/zed-laravel/blob/HEAD/docs/autocomplete.md" target="_blank" rel="noopener">💡 Autocomplete</a></td><td>Cast types, model properties, query chains, builder methods, Blade / loop / slot variables, Pennant flags</td></tr><tr><td><a href="https://github.com/mike-bronner/zed-laravel/blob/HEAD/docs/diagnostics.md" target="_blank" rel="noopener">❌ Diagnostics</a></td><td>Missing views / components / features, invalid rules, query-chain typos against your real schema</td></tr><tr><td><a href="https://github.com/mike-bronner/zed-laravel/blob/HEAD/docs/quick-actions.md" target="_blank" rel="noopener">⚡ Quick Actions</a></td><td>One-click create missing views, components, middleware, features, and migrations</td></tr><tr><td><a href="https://github.com/mike-bronner/zed-laravel/blob/HEAD/docs/blade-editing.md" target="_blank" rel="noopener">🎨 Blade Editing</a></td><td>Directive autocomplete, smart bracket expansion, closing-tag navigation</td></tr><tr><td><a href="https://github.com/mike-bronner/zed-laravel/blob/HEAD/docs/outline.md" target="_blank" rel="noopener">🗺️ Outline Panel</a></td><td>Laravel-aware route + Blade structure in Zed's outline and breadcrumbs</td></tr></tbody></table>
+<h2 id="user-content--install"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-install"><span class="heading-anchor-icon">#</span></a>📦 Install</h2>
+<p>Search <strong>"Laravel"</strong> in Zed Extensions and click Install.</p>
+<h3 id="user-content--recommended-companions"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-recommended-companions"><span class="heading-anchor-icon">#</span></a>🤝 Recommended companions</h3>
+<p>Also install the following extensions for a more complete experience:</p>
+<ul>
+<li><a href="https://github.com/bajrangCoder/zed-laravel-blade"><strong>Laravel Blade</strong></a> extension (<code>bajrangCoder/zed-laravel-blade</code>) for Blade-related fetures, syntax highlighting, etc.</li>
+<li><a href="https://github.com/zed-extensions/php"><strong>PHP</strong></a> (Intelephense) for php intellisense functionality</li>
+<li><a href="https://github.com/GeneaLabs/zed-phpcs-lsp"><strong>phpcs</strong></a> PHP CodeSniffer linting</li>
+<li><a href="https://github.com/GeneaLabs/zed-phpmd-lsp"><strong>phpmd</strong></a> PHP Mess Detector linting</li>
+</ul>
+<h3 id="user-content-from-source"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#from-source"><span class="heading-anchor-icon">#</span></a>From source</h3>
+<p>Clone the repo, run <code>cargo build --release</code> in <code>laravel-lsp/</code>, then use "zed: install dev extension".</p>
+<h2 id="user-content-️-configuration"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#️-configuration"><span class="heading-anchor-icon">#</span></a>⚙️ Configuration</h2>
+<p>The extension works out of the box with zero configuration. It automatically discovers your Laravel project structure, including view paths, component namespaces, route files, and service providers.</p>
+<p>Everything below is optional.</p>
+<h3 id="user-content-️-extension-settings"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#️-extension-settings"><span class="heading-anchor-icon">#</span></a>🎛️ Extension settings</h3>
+<p>Add any of these to your Zed <code>settings.json</code>:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "laravel-lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "autoCompleteDebounce"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">200</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "blade"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">          "directiveSpacing"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">false</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">        },</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "diagnostics"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">          "severity"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"warning"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">        }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Setting</th><th>Default</th><th>Description</th></tr></thead><tbody><tr><td><code>autoCompleteDebounce</code></td><td><code>200</code></td><td>Delay (ms) before autocomplete updates after typing. Lower values (50-100ms) give faster feedback. Higher values (300-500ms) reduce CPU usage.</td></tr><tr><td><code>blade.directiveSpacing</code></td><td><code>false</code></td><td>Add space between directive name and parentheses. <code>false</code>: <code>@if($condition)</code> / <code>true</code>: <code>@if ($condition)</code></td></tr><tr><td><code>diagnostics.severity</code></td><td><code>"warning"</code></td><td>Severity for query-chain diagnostics (unknown column/relation/table in Eloquent &#x26; <code>DB::table()</code> chains). One of <code>"warning"</code>, <code>"error"</code>, <code>"info"</code>, or <code>"off"</code> to disable. Requires a working database connection — diagnostics stay silent when the schema can't be introspected.</td></tr></tbody></table>
+<h3 id="user-content-️-database-connection"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#️-database-connection"><span class="heading-anchor-icon">#</span></a>🗄️ Database connection</h3>
+<p><strong>Database autocomplete</strong> (<code>exists:</code> / <code>unique:</code> rules, Eloquent properties) and query-chain diagnostics only work with a live database connection. Configure it in your <code>.env</code>:</p>
+<pre><code class="language-env">DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_DATABASE=myapp
+DB_USERNAME=root
+DB_PASSWORD=secret
+</code></pre>
+<p>Supports MySQL, PostgreSQL, SQLite, and SQL Server.</p>
+<h3 id="user-content--blade-directive-highlighting"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-blade-directive-highlighting"><span class="heading-anchor-icon">#</span></a>🎨 Blade directive highlighting</h3>
+<p>The <a href="https://github.com/bajrangCoder/zed-laravel-blade">Laravel Blade</a> extension already highlights standard directives and paired <code>@custom … @endcustom</code> blocks through tree-sitter. This optional setting adds the one case tree-sitter can't see: your app's <strong>custom inline directives</strong> registered via <code>Blade::directive()</code> (e.g. a <code>@money($amount)</code> macro). The LSP highlights them precisely — it colors only directives it has actually discovered (the same scan that drives directive completion), so PHPDoc <code>@param</code> tags, CSS at-rules like <code>@media</code>, and the <code>@</code> in email addresses are left alone, and commented-out directives stay dark. Enable it in your Zed <code>settings.json</code>:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "languages"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "Blade"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "semantic_tokens"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"combined"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h3 id="user-content-️-outline-panel"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#️-outline-panel"><span class="heading-anchor-icon">#</span></a>🗺️ Outline panel</h3>
+<p>The extension populates Zed's outline panel and breadcrumbs with Laravel-specific structure that no PHP language server understands:</p>
+<ul>
+<li><strong>Route files</strong> — every <code>Route::get/post/...</code> call labelled <code>METHOD URI [name=...]</code>, with nested <code>Route::group(...)</code> calls becoming hierarchical containers labelled <code>group [prefix=..., name=...]</code>. Prefix and name chains propagate to children. Covers all Route methods including <code>resource</code>, <code>apiResource</code>, <code>singleton</code>, <code>livewire</code>, <code>view</code>, <code>redirect</code>, <code>fallback</code>, etc.</li>
+<li><strong>Blade templates</strong> — <code>@extends</code>, <code>@section</code>, <code>@push</code>, <code>@yield</code>, <code>@stack</code>, <code>@include*</code>, <code>@props</code>, plus the modern tag syntax: <code>&#x3C;x-component></code>, <code>&#x3C;livewire:counter></code>, <code>&#x3C;flux:icon></code>, <code>&#x3C;x-slot:name></code>. Paired tags nest their children; self-closing tags appear as leaves.</li>
+</ul>
+<p>PHP class outlines (controllers, models, Livewire components, jobs, services) come from whatever PHP language server you have installed — those servers have real semantic understanding of PHP that a tree-sitter walker can't match. The official <a href="https://github.com/zed-extensions/php"><strong>PHP</strong></a> Zed extension registers Intelephense, Phpactor, and PhpTools; install it and pick whichever LSP you prefer.</p>
+<p><strong>Requirements</strong></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Outline</th><th>Requires</th></tr></thead><tbody><tr><td>Route files</td><td>This extension, plus <code>document_symbols: on</code> for <code>PHP</code> (route files use the <code>PHP</code> language).</td></tr><tr><td>Blade templates</td><td>This extension, the <a href="https://github.com/bajrangCoder/zed-laravel-blade">Laravel Blade</a> extension (for the <code>Blade</code> language definition), plus <code>document_symbols: on</code> for <code>Blade</code>.</td></tr><tr><td>PHP class files</td><td>A PHP language server (the <a href="https://github.com/zed-extensions/php">PHP</a> extension provides Intelephense / Phpactor / PhpTools), plus <code>document_symbols: on</code> for <code>PHP</code>.</td></tr></tbody></table>
+<p>Zed defaults to tree-sitter outlines, which don't call any LSP — opt into LSP outlines per-language (<a href="https://github.com/zed-industries/zed/pull/48780"><code>zed#48780</code></a>):</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "languages"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "PHP"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "document_symbols"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"on"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    },</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "Blade"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "document_symbols"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"on"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p><code>document_symbols: on</code> for <code>PHP</code> unlocks both our route outline (for files under <code>routes/</code>) and your PHP LSP's class outline (for everything else). <code>document_symbols: on</code> for <code>Blade</code> unlocks our Blade outline. (This opt-in is a Zed quirk — LSP clients that request <code>textDocument/documentSymbol</code> unconditionally, like Helix or Neovim, wouldn't need it.)</p>
+<blockquote>
+<p><strong>Quirks worth knowing</strong> — Zed colors outline labels by word-matching them against the source buffer's tree-sitter highlights, which produces slightly inconsistent colors on multi-segment URLs (e.g., <code>/cra-details</code> may color <code>cra</code> and <code>details</code> differently if they match different tokens elsewhere in the file). Route names appear in the LSP <code>detail</code> field, which Zed's outline panel doesn't currently render (VSCode and Sublime/LSP do). Both are tracked upstream: <a href="https://github.com/zed-industries/zed/issues/57576">zed#57576</a>.</p>
+</blockquote>
+<h3 id="user-content--tuning-intelephense"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-tuning-intelephense"><span class="heading-anchor-icon">#</span></a>🔧 Tuning Intelephense</h3>
+<p>If you use Intelephense as your PHP language server, goto-definition on a class name can surface noisy stub-template results from <code>vendor/*/stubs/</code>. The quick fix is to exclude them — those scaffold templates are never loaded at runtime:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "intelephense"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "files"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">          "exclude"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"**/stubs/**"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">        }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>After saving, restart Intelephense (<code>Cmd+Shift+P → lsp: restart</code>). For the licence-key shape, the <code>_ide_helper*.php</code> / <code>.phpstorm.meta.php</code> trade-offs, the cache caveat, and per-project <code>.intelephense.json</code>, see the <strong><a href="https://github.com/mike-bronner/zed-laravel/blob/HEAD/docs/tuning-intelephense.md" target="_blank" rel="noopener">full Intelephense tuning guide</a></strong>.</p>
+<h2 id="user-content--planned-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-planned-features"><span class="heading-anchor-icon">#</span></a>🚧 Planned Features</h2>
+<p><strong>Rename — remaining work</strong> (the class-backed kinds and the Eloquent model-class engine shipped; variables didn't):</p>
+<ul>
+<li>✏️ <strong>More PHP class kinds</strong> — the FQCN rename engine (use-statement updates, type-hint / static-call / <code>new</code> / <code>::class</code> rewrites, docblocks, file move) now powers Eloquent model rename; extending it to controllers, jobs, services, and form requests as first-class symbols is the follow-up.</li>
+<li>📝 <strong>Blade variable rename</strong> — scope-aware within a template (<code>@foreach</code>, <code>@php</code>, etc.), plus cross-file via the <code>view('x', ['key' => …])</code> / <code>compact('key')</code> linkage from controller into view.</li>
+<li>🔧 <strong>PHP variable rename</strong> — scope-aware function-local. Class properties (<code>$this->foo</code>) are out of scope for this round and folded into a future class-property rename.</li>
+</ul>
+<p><strong>Framework integrations:</strong></p>
+<ul>
+<li>🎨 <strong>Inertia.js support</strong> — go-to-definition and autocomplete for <code>Inertia::render('Page')</code> calls</li>
+<li>📁 <strong>Folio page routing</strong> — surface Folio's filesystem-routed pages in goto-definition / completion / find-references</li>
+</ul>
+<h2 id="user-content--contributing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-contributing"><span class="heading-anchor-icon">#</span></a>🤝 Contributing</h2>
+<p>Contributions are welcome! See <strong><a href="https://github.com/mike-bronner/zed-laravel/blob/HEAD/CONTRIBUTING.md" target="_blank" rel="noopener">CONTRIBUTING.md</a></strong> for the project layout, local development setup, building the LSP, running tests, and code style.</p>
+<hr>
+<p align="center">
+<a href="https://github.com/mike-bronner/zed-laravel/blob/main/LICENSE">MIT</a> · <a href="https://github.com/mike-bronner">mike-bronner</a>
+</p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>

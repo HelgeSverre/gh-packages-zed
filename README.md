@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1496-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1498-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,18 +14,18 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1496** |
-| In official registry | 1056 |
+| Total tracked | **1498** |
+| In official registry | 1058 |
 | Discovered via topics | 440 |
-| Last updated | 2026-05-30 18:23 UTC |
+| Last updated | 2026-05-31 00:40 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
-| Themes | 607 |
+| Themes | 608 |
 | Grammars | 534 |
-| Language Servers | 495 |
+| Language Servers | 496 |
 | Context Servers | 124 |
 | Snippets | 67 |
 | Slash Commands | 54 |
@@ -70,6 +70,8 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [mike-bronner/zed-laravel](https://github.com/mike-bronner/zed-laravel) | 19 | Laravel LSP for Zed editor. |
+| [rockas-d/zenburn-transparent](https://github.com/rockas-d/zenburn-transparent) | 0 | Zenburn Transparent — low-contrast Zenburn palette for Zed with a blurred/transl... |
 | [SrGaabriel/zed-dhall](https://github.com/SrGaabriel/zed-dhall) | 2 |  |
 | [harehare/zed-mq](https://github.com/harehare/zed-mq) | 0 | This extension provides language support for mq in the Zed editor. |
 | [nicolas-cusan/zed-silverstripe](https://github.com/nicolas-cusan/zed-silverstripe) | 0 |  |
@@ -88,8 +90,6 @@ cd website && npm install && npm run dev
 | [rbstp/zed-csharp-ls](https://github.com/rbstp/zed-csharp-ls) | 0 | C# language support for Zed, powered by csharp-ls. |
 | [ldanidev/flutter-snippets](https://github.com/ldanidev/flutter-snippets) | 12 | A collection of Flutter snippets to improve your development speed. |
 | [zephexMCP/mcp-server-zephex](https://github.com/zephexMCP/mcp-server-zephex) | 2 | Zed extension for Zephex — 10 hosted MCP developer tools (project context, code ... |
-| [AlexanderHeffernan/zed-aspx](https://github.com/AlexanderHeffernan/zed-aspx) | 0 | ASP.NET WebForms (ASPX) syntax highlighting for Zed with HTML and C# injections. |
-| [fn-jakubkarp/zed-vivid-void-theme](https://github.com/fn-jakubkarp/zed-vivid-void-theme) | 0 | A deep, void-like aesthetic featuring highly vivid syntax highlighting. |
 
 ## Top starred (under 500)
 
@@ -120,6 +120,8 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [owlx56/zed-lean4](https://github.com/owlx56/zed-lean4) | 40 | 2026-05-30 |  |
+| [mike-bronner/zed-laravel](https://github.com/mike-bronner/zed-laravel) | 19 | 2026-05-30 | Laravel LSP for Zed editor. |
 | [pranavmangal/zed-ssh-config](https://github.com/pranavmangal/zed-ssh-config) | 2 | 2026-05-30 | A Zed extension that provides syntax highlighting for SSH co... |
 | [ejentum/zed-ejentum-mcp](https://github.com/ejentum/zed-ejentum-mcp) | 0 | 2026-05-30 | Zed editor extension wrapping the Ejentum MCP server. 8 cogn... |
 | [tbxark/vscode2026-theme-zed](https://github.com/tbxark/vscode2026-theme-zed) | 0 | 2026-05-30 | VS Code 2026 theme for Zed |
@@ -127,6 +129,7 @@ cd website && npm install && npm run dev
 | [SrGaabriel/zed-dhall](https://github.com/SrGaabriel/zed-dhall) | 2 | 2026-05-30 |  |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 83 | 2026-05-30 | True Dark Theme for Zed IDE |
 | [hadez8877/one-dark-pro-enhanced](https://github.com/hadez8877/one-dark-pro-enhanced) | 5 | 2026-05-29 | The most installed theme in Visual Studio Code modified for ... |
+| [rockas-d/zenburn-transparent](https://github.com/rockas-d/zenburn-transparent) | 0 | 2026-05-29 | Zenburn Transparent — low-contrast Zenburn palette for Zed w... |
 | [htahaozlu/context-bar](https://github.com/htahaozlu/context-bar) | 12 | 2026-05-29 | Local-first repository context and native macOS HUD for Clau... |
 | [surrealdb/surrealql-zed](https://github.com/surrealdb/surrealql-zed) | 0 | 2026-05-29 | SurrealQL Language Extension for the Zed Editor |
 | [harehare/zed-mq](https://github.com/harehare/zed-mq) | 0 | 2026-05-29 | This extension provides language support for mq in the Zed e... |
@@ -137,14 +140,12 @@ cd website && npm install && npm run dev
 | [InuzDev/inuzdev-coffee-theme](https://github.com/InuzDev/inuzdev-coffee-theme) | 1 | 2026-05-27 | A zed personalized theme, I will keep this updated and try t... |
 | [Jean-Tinland/zed-theme-night-shift](https://github.com/Jean-Tinland/zed-theme-night-shift) | 1 | 2026-05-27 | A clean desatured zed theme  |
 | [Jean-Tinland/zed-theme-day-shift](https://github.com/Jean-Tinland/zed-theme-day-shift) | 0 | 2026-05-27 | A soft theme with light colors for zed |
-| [xqsit94/veda-pro-zed](https://github.com/xqsit94/veda-pro-zed) | 0 | 2026-05-27 | Veda Pro — a vivid One Dark Pro-inspired Zed theme on a deep... |
-| [HelgeSverre/zed-applescript](https://github.com/HelgeSverre/zed-applescript) | 1 | 2026-05-27 | AppleScript for Zed — syntax highlighting, outline, runnable... |
-| [BenjaminHalko/flow-icons-zed](https://github.com/BenjaminHalko/flow-icons-zed) | 18 | 2026-05-27 | 🌼 Flow Icons ported to Zed |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-05-31T00:40 | 2 | 449 | 1777 |
 | 2026-05-30T18:23 | 1 | 449 | 1775 |
 | 2026-05-30T12:25 | 0 | 448 | 1774 |
 | 2026-05-30T07:00 | 0 | 448 | 1774 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-05-29T07:20 | 0 | 445 | 1767 |
 | 2026-05-29T00:41 | 0 | 446 | 1767 |
 | 2026-05-28T18:53 | 1 | 445 | 1767 |
-| 2026-05-28T13:13 | 0 | 445 | 1766 |
 
 ---
 
