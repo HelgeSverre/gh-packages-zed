@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1498** |
 | In official registry | 1058 |
 | Discovered via topics | 440 |
-| Last updated | 2026-05-31 12:28 UTC |
+| Last updated | 2026-05-31 18:24 UTC |
 
 ### By capability
 
@@ -105,7 +105,7 @@ cd website && npm install && npm run dev
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 185 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
-| [zed-extensions/typst](https://github.com/zed-extensions/typst) | 170 | Typst extension for zed |
+| [zed-extensions/typst](https://github.com/zed-extensions/typst) | 171 | Typst extension for zed |
 | [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 167 | Zed support for the Godot game engine and the GDScript language |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 159 | A macOS native style theme for Zed, let it same like native app in macOS. |
 | [thedadams/zed-comment](https://github.com/thedadams/zed-comment) | 148 | A comment extension for the Zed editor |
@@ -120,12 +120,12 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [ejentum/zed-ejentum-mcp](https://github.com/ejentum/zed-ejentum-mcp) | 0 | 2026-05-31 | Zed editor extension wrapping the Ejentum MCP server. 8 cogn... |
 | [htahaozlu/context-bar](https://github.com/htahaozlu/context-bar) | 12 | 2026-05-31 | Usage and cost visibility for Claude Code and Codex — native... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 83 | 2026-05-31 | True Dark Theme for Zed IDE |
 | [owlx56/zed-lean4](https://github.com/owlx56/zed-lean4) | 40 | 2026-05-30 |  |
 | [mike-bronner/zed-laravel](https://github.com/mike-bronner/zed-laravel) | 19 | 2026-05-30 | Laravel LSP for Zed editor. |
 | [pranavmangal/zed-ssh-config](https://github.com/pranavmangal/zed-ssh-config) | 2 | 2026-05-30 | A Zed extension that provides syntax highlighting for SSH co... |
-| [ejentum/zed-ejentum-mcp](https://github.com/ejentum/zed-ejentum-mcp) | 0 | 2026-05-30 | Zed editor extension wrapping the Ejentum MCP server. 8 cogn... |
 | [tbxark/vscode2026-theme-zed](https://github.com/tbxark/vscode2026-theme-zed) | 0 | 2026-05-30 | VS Code 2026 theme for Zed |
 | [alysson-souza/zed-fish-lsp](https://github.com/alysson-souza/zed-fish-lsp) | 4 | 2026-05-30 | Fish shell extension for Zed with fish-lsp integration |
 | [SrGaabriel/zed-dhall](https://github.com/SrGaabriel/zed-dhall) | 2 | 2026-05-30 |  |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-05-31T18:24 | 0 | 449 | 1777 |
 | 2026-05-31T12:28 | 0 | 449 | 1777 |
 | 2026-05-31T07:18 | 0 | 449 | 1777 |
 | 2026-05-31T00:40 | 2 | 449 | 1777 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-05-30T00:37 | 0 | 448 | 1774 |
 | 2026-05-29T18:52 | 1 | 447 | 1774 |
 | 2026-05-29T13:04 | 6 | 446 | 1773 |
-| 2026-05-29T07:20 | 0 | 445 | 1767 |
 
 ---
 
