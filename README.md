@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1498** |
 | In official registry | 1058 |
 | Discovered via topics | 440 |
-| Last updated | 2026-05-31 00:40 UTC |
+| Last updated | 2026-05-31 07:18 UTC |
 
 ### By capability
 
@@ -120,6 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 83 | 2026-05-31 | True Dark Theme for Zed IDE |
 | [owlx56/zed-lean4](https://github.com/owlx56/zed-lean4) | 40 | 2026-05-30 |  |
 | [mike-bronner/zed-laravel](https://github.com/mike-bronner/zed-laravel) | 19 | 2026-05-30 | Laravel LSP for Zed editor. |
 | [pranavmangal/zed-ssh-config](https://github.com/pranavmangal/zed-ssh-config) | 2 | 2026-05-30 | A Zed extension that provides syntax highlighting for SSH co... |
@@ -127,7 +128,6 @@ cd website && npm install && npm run dev
 | [tbxark/vscode2026-theme-zed](https://github.com/tbxark/vscode2026-theme-zed) | 0 | 2026-05-30 | VS Code 2026 theme for Zed |
 | [alysson-souza/zed-fish-lsp](https://github.com/alysson-souza/zed-fish-lsp) | 4 | 2026-05-30 | Fish shell extension for Zed with fish-lsp integration |
 | [SrGaabriel/zed-dhall](https://github.com/SrGaabriel/zed-dhall) | 2 | 2026-05-30 |  |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 83 | 2026-05-30 | True Dark Theme for Zed IDE |
 | [hadez8877/one-dark-pro-enhanced](https://github.com/hadez8877/one-dark-pro-enhanced) | 5 | 2026-05-29 | The most installed theme in Visual Studio Code modified for ... |
 | [rockas-d/zenburn-transparent](https://github.com/rockas-d/zenburn-transparent) | 0 | 2026-05-29 | Zenburn Transparent — low-contrast Zenburn palette for Zed w... |
 | [htahaozlu/context-bar](https://github.com/htahaozlu/context-bar) | 12 | 2026-05-29 | Local-first repository context and native macOS HUD for Clau... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-05-31T07:18 | 0 | 449 | 1777 |
 | 2026-05-31T00:40 | 2 | 449 | 1777 |
 | 2026-05-30T18:23 | 1 | 449 | 1775 |
 | 2026-05-30T12:25 | 0 | 448 | 1774 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-05-29T13:04 | 6 | 446 | 1773 |
 | 2026-05-29T07:20 | 0 | 445 | 1767 |
 | 2026-05-29T00:41 | 0 | 446 | 1767 |
-| 2026-05-28T18:53 | 1 | 445 | 1767 |
 
 ---
 
