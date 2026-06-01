@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1501** |
 | In official registry | 1060 |
 | Discovered via topics | 441 |
-| Last updated | 2026-06-01 00:42 UTC |
+| Last updated | 2026-06-01 07:45 UTC |
 
 ### By capability
 
@@ -111,22 +111,23 @@ cd website && npm install && npm run dev
 | [thedadams/zed-comment](https://github.com/thedadams/zed-comment) | 148 | A comment extension for the Zed editor |
 | [slymax/zedokai](https://github.com/slymax/zedokai) | 145 | a theme for Zed based on the Monokai Pro color scheme |
 | [nathansbradshaw/zed-angular](https://github.com/nathansbradshaw/zed-angular) | 144 |  |
+| [zed-extensions/swift](https://github.com/zed-extensions/swift) | 140 | Extension for Zed to support Swift |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 139 | A port of the Neovim theme to Zed editor |
 | [zed-extensions/csharp](https://github.com/zed-extensions/csharp) | 139 | C# support |
-| [zed-extensions/swift](https://github.com/zed-extensions/swift) | 139 | Extension for Zed to support Swift |
 | [rzukic/zed-latex](https://github.com/rzukic/zed-latex) | 132 |  |
 
 ## Recently active
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [surrealdb/surrealql-zed](https://github.com/surrealdb/surrealql-zed) | 0 | 2026-06-01 | SurrealQL Language Extension for the Zed Editor |
+| [almeladev/geode-zed](https://github.com/almeladev/geode-zed) | 0 | 2026-06-01 | 💎 A gem-toned theme for Zed. Color only where it carries me... |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 83 | 2026-06-01 | True Dark Theme for Zed IDE |
 | [mike-bronner/zed-phpmd-lsp](https://github.com/mike-bronner/zed-phpmd-lsp) | 4 | 2026-05-31 | PHPMD linter for Zed editor. |
 | [mike-bronner/zed-phpcs-lsp](https://github.com/mike-bronner/zed-phpcs-lsp) | 16 | 2026-05-31 | PHPCS linter for Zed |
-| [almeladev/geode-zed](https://github.com/almeladev/geode-zed) | 0 | 2026-05-31 | 💎 A gem-toned theme for Zed. Color only where it carries me... |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 139 | 2026-05-31 | A port of the Neovim theme to Zed editor |
 | [ejentum/zed-ejentum-mcp](https://github.com/ejentum/zed-ejentum-mcp) | 0 | 2026-05-31 | Zed editor extension wrapping the Ejentum MCP server. 8 cogn... |
 | [htahaozlu/context-bar](https://github.com/htahaozlu/context-bar) | 12 | 2026-05-31 | Usage and cost visibility for Claude Code and Codex — native... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 83 | 2026-05-31 | True Dark Theme for Zed IDE |
 | [owlx56/zed-lean4](https://github.com/owlx56/zed-lean4) | 40 | 2026-05-30 |  |
 | [mike-bronner/zed-laravel](https://github.com/mike-bronner/zed-laravel) | 19 | 2026-05-30 | Laravel LSP for Zed editor. |
 | [pranavmangal/zed-ssh-config](https://github.com/pranavmangal/zed-ssh-config) | 2 | 2026-05-30 | A Zed extension that provides syntax highlighting for SSH co... |
@@ -135,7 +136,6 @@ cd website && npm install && npm run dev
 | [SrGaabriel/zed-dhall](https://github.com/SrGaabriel/zed-dhall) | 2 | 2026-05-30 |  |
 | [hadez8877/one-dark-pro-enhanced](https://github.com/hadez8877/one-dark-pro-enhanced) | 5 | 2026-05-29 | The most installed theme in Visual Studio Code modified for ... |
 | [rockas-d/zenburn-transparent](https://github.com/rockas-d/zenburn-transparent) | 0 | 2026-05-29 | Zenburn Transparent — low-contrast Zenburn palette for Zed w... |
-| [surrealdb/surrealql-zed](https://github.com/surrealdb/surrealql-zed) | 0 | 2026-05-29 | SurrealQL Language Extension for the Zed Editor |
 | [harehare/zed-mq](https://github.com/harehare/zed-mq) | 0 | 2026-05-29 | This extension provides language support for mq in the Zed e... |
 | [dunyakirkali/zed-asciidoc](https://github.com/dunyakirkali/zed-asciidoc) | 18 | 2026-05-29 | Zed support for AsciiDoc syntax |
 | [aitit-inc/zed-surpassone-theme](https://github.com/aitit-inc/zed-surpassone-theme) | 0 | 2026-05-28 | A coral & grayscale Zed theme with flat, monochrome design. ... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-01T07:45 | 0 | 451 | 1781 |
 | 2026-06-01T00:42 | 4 | 449 | 1781 |
 | 2026-05-31T18:24 | 0 | 449 | 1777 |
 | 2026-05-31T12:28 | 0 | 449 | 1777 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-05-30T12:25 | 0 | 448 | 1774 |
 | 2026-05-30T07:00 | 0 | 448 | 1774 |
 | 2026-05-30T00:37 | 0 | 448 | 1774 |
-| 2026-05-29T18:52 | 1 | 447 | 1774 |
 
 ---
 
