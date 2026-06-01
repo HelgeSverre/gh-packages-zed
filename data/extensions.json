@@ -5216,7 +5216,7 @@
     "name": "jenslys/zed-catppuccin-blur",
     "url": "https://github.com/jenslys/zed-catppuccin-blur",
     "description": "Catppuccin Theme but as blurred variants + custom ones",
-    "stars": 321,
+    "stars": 322,
     "forks": 13,
     "topics": [
       "catppuccin",
@@ -5228,7 +5228,7 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2024-07-12T16:43:02Z",
-    "updated_at": "2026-05-29T16:40:33Z",
+    "updated_at": "2026-05-31T18:30:49Z",
     "pushed_at": "2026-01-26T02:22:08Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -8261,7 +8261,7 @@
     "url": "https://github.com/irmhonde/shades-of-purple-theme",
     "description": "Shades of purple theme for Zed.",
     "stars": 9,
-    "forks": 0,
+    "forks": 1,
     "topics": [
       "zed",
       "zed-editor",
@@ -8796,7 +8796,7 @@
     "name": "cange/nightfox.zed",
     "url": "https://github.com/cange/nightfox.zed",
     "description": "A port of the Neovim theme to Zed editor",
-    "stars": 138,
+    "stars": 139,
     "forks": 5,
     "topics": [
       "zed",
@@ -8805,8 +8805,8 @@
     "language": "Lua",
     "license": "MIT",
     "created_at": "2024-05-02T20:49:30Z",
-    "updated_at": "2026-05-25T10:34:05Z",
-    "pushed_at": "2026-05-22T21:35:09Z",
+    "updated_at": "2026-05-31T21:11:08Z",
+    "pushed_at": "2026-05-31T19:41:31Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": true,
     "extension": {
@@ -51042,6 +51042,110 @@
         "Demetrios Rockas <demetrios@rockas.dev>"
       ],
       "repository": "https://github.com/rockas-d/zenburn-transparent",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "mike-bronner/zed-phpcs-lsp": {
+    "name": "mike-bronner/zed-phpcs-lsp",
+    "url": "https://github.com/mike-bronner/zed-phpcs-lsp",
+    "description": "PHPCS linter for Zed",
+    "stars": 16,
+    "forks": 3,
+    "topics": [],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2025-08-18T18:02:10Z",
+    "updated_at": "2026-05-31T23:49:24Z",
+    "pushed_at": "2026-05-31T23:49:22Z",
+    "discovered_at": "2026-06-01T00:42:32.382Z",
+    "official": true,
+    "extension": {
+      "id": "phpcs",
+      "name": "PHPCS",
+      "description": "PHP CodeSniffer Language Server for linting, formatting, and auto-fixing PHP code via PHPCS and PHPCBF.",
+      "version": "0.4.3",
+      "schema_version": 1,
+      "authors": [
+        "Mike Bronner <mike.bronner@icloud.com>"
+      ],
+      "repository": "https://github.com/mike-bronner/zed-phpcs-lsp",
+      "snippets": null,
+      "sections": [
+        "lib",
+        "language_servers"
+      ],
+      "categories": [
+        "language-server"
+      ]
+    }
+  },
+  "mike-bronner/zed-phpmd-lsp": {
+    "name": "mike-bronner/zed-phpmd-lsp",
+    "url": "https://github.com/mike-bronner/zed-phpmd-lsp",
+    "description": "PHPMD linter for Zed editor.",
+    "stars": 4,
+    "forks": 0,
+    "topics": [],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2025-09-01T14:25:47Z",
+    "updated_at": "2026-05-31T23:56:30Z",
+    "pushed_at": "2026-05-31T23:56:27Z",
+    "discovered_at": "2026-06-01T00:42:32.382Z",
+    "official": true,
+    "extension": {
+      "id": "phpmd",
+      "name": "PHPMD",
+      "description": "PHP Mess Detector Language Server for linting PHP code. We are looking for feedback, especially for Windows and Linux platforms.",
+      "version": "0.1.2",
+      "schema_version": 1,
+      "authors": [
+        "Mike Bronner <mike@genealabs.com>"
+      ],
+      "repository": "https://github.com/GeneaLabs/zed-phpmd-lsp",
+      "snippets": null,
+      "sections": [
+        "lib",
+        "language_servers"
+      ],
+      "categories": [
+        "language-server"
+      ]
+    }
+  },
+  "almeladev/geode-zed": {
+    "name": "almeladev/geode-zed",
+    "url": "https://github.com/almeladev/geode-zed",
+    "description": "💎 A gem-toned theme for Zed. Color only where it carries meaning — dark and light, cut from the same stone.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "theme",
+      "zed",
+      "zed-extension",
+      "zed-theme"
+    ],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-05-31T21:58:49Z",
+    "updated_at": "2026-05-31T23:25:53Z",
+    "pushed_at": "2026-05-31T23:25:50Z",
+    "discovered_at": "2026-06-01T00:42:32.382Z",
+    "official": false,
+    "extension": {
+      "id": "geode-theme",
+      "name": "Geode",
+      "description": "A calm, gem-toned theme — amethyst, sapphire, citrine, aquamarine and emerald on a violet-tinted base. Ships dark and light variants.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Almela <almeladev@users.noreply.github.com>"
+      ],
+      "repository": "https://github.com/almeladev/geode-zed",
       "snippets": null,
       "sections": [],
       "categories": [

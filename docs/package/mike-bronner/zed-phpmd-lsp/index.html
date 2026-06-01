@@ -1,0 +1,443 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>PHPMD - Zed Extension Safari</title><meta name="description" content="PHPMD linter for Zed editor."><link rel="canonical" href="https://helgesverre.github.io/gh-packages-zed/package/mike-bronner/zed-phpmd-lsp/"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="PHPMD - Zed Extension Safari"><meta property="og:description" content="PHPMD linter for Zed editor."><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed/package/mike-bronner/zed-phpmd-lsp/"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="PHPMD - Zed Extension Safari"><meta name="twitter:description" content="PHPMD linter for Zed editor."><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/gh-packages-zed/_astro/ClientRouter.astro_astro_type_script_index_0_lang.ClVLs1kt.js"></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"PHPMD","description":"PHPMD linter for Zed editor.","applicationCategory":"DeveloperApplication","operatingSystem":"macOS, Linux, Windows","url":"https://zed.dev/extensions/phpmd","codeRepository":"https://github.com/mike-bronner/zed-phpmd-lsp","author":[{"@type":"Person","name":"Mike Bronner"}],"softwareVersion":"0.1.2","license":"MIT","keywords":"language-server","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/Layout.CGDlMdWE.css"><script type="module" src="/gh-packages-zed/_astro/page.B8i1Zz-u.js"></script></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <a href="#main" class="skip-to-content">Skip to content</a> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" data-astro-transition-persist="astro-fhchcgd7-1"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <script type="application/json" id="pkg-extras">{"url":"https://github.com/mike-bronner/zed-phpmd-lsp","language":"Rust","license":"MIT","topics":[],"extension":{"authors":["Mike Bronner"],"schema_version":1}}</script> <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> mike-bronner/zed-phpmd-lsp </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> PHPMD </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> PHP Mess Detector Language Server for linting PHP code. We are looking for feedback, especially for Windows and Linux platforms. </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="language-server">Language Server</span> </div> </div> </div> </header> <main id="main" class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/phpmd" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/mike-bronner/zed-phpmd-lsp" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.1.2</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">phpmd</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">Rust</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">MIT</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">4</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">46m ago</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">Mike Bronner</dd> </div> </dl>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-phpmd-language-server-for-zed-editor"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#phpmd-language-server-for-zed-editor"><span class="heading-anchor-icon">#</span></a>PHPMD Language Server for Zed Editor</h1>
+<div align="center">
+<p><a href="https://github.com/mike-bronner/zed-phpmd-lsp/blob/HEAD/LICENSE" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="MIT License"></a>
+<a href="https://php.net"><img src="https://img.shields.io/badge/PHP-7.0%2B-777BB4?logo=php&#x26;logoColor=white" alt="PHP"></a>
+<a href="https://zed.dev"><img src="https://img.shields.io/badge/Zed-Editor-blue?logo=zed&#x26;logoColor=white" alt="Zed"></a>
+<a href="https://phpmd.org"><img src="https://img.shields.io/badge/PHPMD-2.15%2B-green" alt="PHPMD"></a>
+<a href="https://rust-lang.org"><img src="https://img.shields.io/badge/Rust-1.70%2B-orange?logo=rust&#x26;logoColor=white" alt="Rust"></a></p>
+<p><strong>Real-time PHP code quality analysis powered by PHP Mess Detector</strong></p>
+<p><a href="#-features">Features</a> • <a href="#-installation">Installation</a> • <a href="#-configuration">Configuration</a> • <a href="#-architecture">Architecture</a> • <a href="#-contributing">Contributing</a></p>
+</div>
+<hr>
+<h2 id="user-content--overview"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-overview"><span class="heading-anchor-icon">#</span></a>📋 Overview</h2>
+<p>The PHPMD Language Server brings comprehensive code quality analysis to Zed Editor through the Language Server Protocol (LSP). It provides real-time feedback on potential bugs, suboptimal code, overcomplicated expressions, and unused code elements as you write PHP.</p>
+<h3 id="user-content-why-phpmd-lsp"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#why-phpmd-lsp"><span class="heading-anchor-icon">#</span></a>Why PHPMD LSP?</h3>
+<ul>
+<li><strong>🚀 Instant Feedback</strong> - See code quality issues as you type, not after you commit</li>
+<li><strong>⚡ High Performance</strong> - Optimized with async processing, LZ4 compression, and smart caching</li>
+<li><strong>🎯 Zero Configuration</strong> - Works out of the box with sensible defaults</li>
+<li><strong>🔧 Highly Configurable</strong> - Customize rules to match your team's standards</li>
+<li><strong>📦 Self-Contained</strong> - Includes bundled PHPMD binary, no external dependencies required</li>
+</ul>
+<h2 id="user-content--features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-features"><span class="heading-anchor-icon">#</span></a>✨ Features</h2>
+<h3 id="user-content-core-capabilities"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#core-capabilities"><span class="heading-anchor-icon">#</span></a>Core Capabilities</h3>
+<h4 id="user-content--real-time-code-analysis"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-real-time-code-analysis"><span class="heading-anchor-icon">#</span></a>🔍 <strong>Real-Time Code Analysis</strong></h4>
+<ul>
+<li>Detects code quality issues instantly as you type</li>
+<li>Smart diagnostic ranges that skip leading whitespace for cleaner underlines</li>
+<li>Severity-based highlighting (errors, warnings, info)</li>
+<li>Rule-specific documentation links</li>
+</ul>
+<h4 id="user-content--performance-optimizations"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-performance-optimizations"><span class="heading-anchor-icon">#</span></a>⚡ <strong>Performance Optimizations</strong></h4>
+<ul>
+<li><strong>LZ4 Compression</strong> - Reduces memory usage by ~85% for large files</li>
+<li><strong>Smart Caching</strong> - Avoids re-analyzing unchanged files</li>
+<li><strong>Concurrent Processing</strong> - Analyzes up to 4 files simultaneously</li>
+<li><strong>Async Architecture</strong> - Non-blocking execution keeps editor responsive</li>
+<li><strong>Timeout Protection</strong> - 10-second safeguard prevents hanging on complex files</li>
+</ul>
+<h4 id="user-content--intelligent-diagnostics"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-intelligent-diagnostics"><span class="heading-anchor-icon">#</span></a>🎨 <strong>Intelligent Diagnostics</strong></h4>
+<ul>
+<li><strong>Context-Aware Ranges</strong> - Different highlighting for class, method, and property issues</li>
+<li><strong>Whitespace Trimming</strong> - Underlines start at first code character, not indentation</li>
+<li><strong>Property Detection</strong> - Correctly highlights property violations even when PHPMD reports class-level</li>
+<li><strong>Rule Categorization</strong> - Automatic severity mapping based on rule priority</li>
+</ul>
+<h3 id="user-content-configuration-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#configuration-features"><span class="heading-anchor-icon">#</span></a>Configuration Features</h3>
+<h4 id="user-content--flexible-configuration"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-flexible-configuration"><span class="heading-anchor-icon">#</span></a>🔧 <strong>Flexible Configuration</strong></h4>
+<ul>
+<li><strong>Auto-Discovery</strong> - Finds <code>phpmd.xml</code>, <code>phpmd.xml.dist</code>, <code>.phpmd.xml</code>, or <code>.phpmd.xml.dist</code> automatically</li>
+<li><strong>XML Validation</strong> - Validates config files before use, skipping invalid XML files</li>
+<li><strong>Smart Fallback</strong> - Uses all PHPMD rulesets when no valid config file is found</li>
+<li><strong>Live Reloading</strong> - Configuration changes apply instantly without restart</li>
+<li><strong>Multi-Source</strong> - Configure via project files, Zed settings, or environment variables</li>
+<li><strong>Auto-Recovery</strong> - Gracefully handles deleted or invalid config files</li>
+</ul>
+<h4 id="user-content--smart-phpmd-detection"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-smart-phpmd-detection"><span class="heading-anchor-icon">#</span></a>📦 <strong>Smart PHPMD Detection</strong></h4>
+<p>Priority order for finding PHPMD executable:</p>
+<ol>
+<li>Project's <code>vendor/bin/phpmd</code> (respects composer dependencies)</li>
+<li>Custom path from settings</li>
+<li>Bundled PHPMD 2.15+ PHAR (always available fallback)</li>
+<li>System PATH installation</li>
+</ol>
+<h3 id="user-content-reliability-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#reliability-features"><span class="heading-anchor-icon">#</span></a>Reliability Features</h3>
+<h4 id="user-content-️-robust-error-handling"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#️-robust-error-handling"><span class="heading-anchor-icon">#</span></a>🛡️ <strong>Robust Error Handling</strong></h4>
+<ul>
+<li><strong>Process Management</strong> - Automatic cleanup of zombie processes</li>
+<li><strong>Memory Monitoring</strong> - Tracks and logs memory usage for optimization</li>
+<li><strong>Graceful Degradation</strong> - Falls back to defaults when configs fail</li>
+<li><strong>Comprehensive Logging</strong> - Detailed debug output for troubleshooting</li>
+</ul>
+<h2 id="user-content--installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-installation"><span class="heading-anchor-icon">#</span></a>📦 Installation</h2>
+<h3 id="user-content-via-zed-extensions-panel-recommended"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#via-zed-extensions-panel-recommended"><span class="heading-anchor-icon">#</span></a>Via Zed Extensions Panel (Recommended)</h3>
+<ol>
+<li>Open Zed Editor</li>
+<li>Press <code>Cmd+Shift+X</code> (macOS) or <code>Ctrl+Shift+X</code> (Linux/Windows)</li>
+<li>Search for "PHPMD"</li>
+<li>Click Install</li>
+</ol>
+<h3 id="user-content-manual-installation-development"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#manual-installation-development"><span class="heading-anchor-icon">#</span></a>Manual Installation (Development)</h3>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Clone the repository</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">git</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> clone</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> https://github.com/GeneaLabs/zed-phpmd-lsp.git</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">cd</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> zed-phpmd-lsp</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Build the extension</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> build</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --release</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Build the LSP server</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">cd</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> lsp-server</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> build</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --release</span></span></code></pre>
+<h2 id="user-content--quick-start"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-quick-start"><span class="heading-anchor-icon">#</span></a>🚀 Quick Start</h2>
+<h3 id="user-content-1-enable-the-language-server"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#1-enable-the-language-server"><span class="heading-anchor-icon">#</span></a>1. Enable the Language Server</h3>
+<p>Add to your Zed <code>settings.json</code> (open with <code>Cmd+,</code> or <code>Ctrl+,</code>):</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "languages"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "PHP"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "language_servers"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"phpmd"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"intelephense"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h3 id="user-content-2-start-coding"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#2-start-coding"><span class="heading-anchor-icon">#</span></a>2. Start Coding</h3>
+<p>The extension automatically analyzes PHP files as you open and edit them:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">&#x3C;?</span><span style="color:#005CC5;--shiki-dark:#79B8FF">php</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">namespace</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> App\Services</span><span style="color:#24292E;--shiki-dark:#E1E4E8">;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">class</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> UserService</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">    private</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> $unused; </span><span style="color:#6A737D;--shiki-dark:#6A737D">// 🔍 Unused private field</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    </span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">    public</span><span style="color:#D73A49;--shiki-dark:#F97583"> function</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> complexMethod</span><span style="color:#24292E;--shiki-dark:#E1E4E8">($a, $b, $c, $d, $e, $f) </span><span style="color:#6A737D;--shiki-dark:#6A737D">// 🔍 Too many parameters</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    {</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">        if</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> ($a </span><span style="color:#D73A49;--shiki-dark:#F97583">==</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> true</span><span style="color:#24292E;--shiki-dark:#E1E4E8">) { </span><span style="color:#6A737D;--shiki-dark:#6A737D">// 🔍 Use strict comparison</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">            goto</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> end</span><span style="color:#24292E;--shiki-dark:#E1E4E8">; </span><span style="color:#6A737D;--shiki-dark:#6A737D">// 🔍 Avoid goto statements</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">        }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">        </span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        eval</span><span style="color:#24292E;--shiki-dark:#E1E4E8">($userInput); </span><span style="color:#6A737D;--shiki-dark:#6A737D">// 🔍 Security risk: eval usage</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">        </span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">        end</span><span style="color:#24292E;--shiki-dark:#E1E4E8">:</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">        return</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> $result;</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    </span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">    public</span><span style="color:#D73A49;--shiki-dark:#F97583"> function</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> m</span><span style="color:#24292E;--shiki-dark:#E1E4E8">() { </span><span style="color:#6A737D;--shiki-dark:#6A737D">// 🔍 Method name too short</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">        // Complex logic here...</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h2 id="user-content-️-configuration"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#️-configuration"><span class="heading-anchor-icon">#</span></a>⚙️ Configuration</h2>
+<h3 id="user-content-configuration-priority"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#configuration-priority"><span class="heading-anchor-icon">#</span></a>Configuration Priority</h3>
+<p>The extension uses this priority order (highest to lowest):</p>
+<ol>
+<li><strong>Project Config Files</strong> - <code>phpmd.xml</code>, <code>phpmd.xml.dist</code>, <code>.phpmd.xml</code></li>
+<li><strong>Zed Settings</strong> - User or project-specific settings.json</li>
+<li><strong>Environment Variables</strong> - <code>PHPMD_RULESETS</code>, <code>PHPMD_PATH</code></li>
+<li><strong>Defaults</strong> - Built-in rulesets: cleancode, codesize, controversial, design, naming, unusedcode</li>
+</ol>
+<h3 id="user-content-available-rulesets"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#available-rulesets"><span class="heading-anchor-icon">#</span></a>Available Rulesets</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Ruleset</th><th>Description</th><th>Key Rules</th></tr></thead><tbody><tr><td><strong>cleancode</strong></td><td>Clean code practices</td><td>BooleanArgumentFlag, ElseExpression, StaticAccess</td></tr><tr><td><strong>codesize</strong></td><td>Complexity and size limits</td><td>CyclomaticComplexity, NPathComplexity, ExcessiveMethodLength</td></tr><tr><td><strong>controversial</strong></td><td>Debated best practices</td><td>Superglobals, CamelCaseParameterName</td></tr><tr><td><strong>design</strong></td><td>Software design principles</td><td>ExitExpression, EvalExpression, GotoStatement</td></tr><tr><td><strong>naming</strong></td><td>Naming conventions</td><td>ShortVariable, LongVariable, ShortMethodName</td></tr><tr><td><strong>unusedcode</strong></td><td>Dead code detection</td><td>UnusedPrivateField, UnusedLocalVariable, UnusedPrivateMethod</td></tr></tbody></table>
+<h3 id="user-content-configuration-examples"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#configuration-examples"><span class="heading-anchor-icon">#</span></a>Configuration Examples</h3>
+<h4 id="user-content-basic-zed-settings"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#basic-zed-settings"><span class="heading-anchor-icon">#</span></a>Basic Zed Settings</h4>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "phpmd"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "rulesets"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"cleancode,codesize,design"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h4 id="user-content-advanced-project-configuration"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#advanced-project-configuration"><span class="heading-anchor-icon">#</span></a>Advanced Project Configuration</h4>
+<p>Create <code>phpmd.xml</code> in your project root:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">&#x3C;?</span><span style="color:#22863A;--shiki-dark:#85E89D">xml</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> version</span><span style="color:#24292E;--shiki-dark:#E1E4E8">=</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"1.0"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">?></span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">&#x3C;</span><span style="color:#22863A;--shiki-dark:#85E89D">ruleset</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> name</span><span style="color:#24292E;--shiki-dark:#E1E4E8">=</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"MyProject"</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">         xmlns</span><span style="color:#24292E;--shiki-dark:#E1E4E8">=</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"http://pmd.sf.net/ruleset/1.0.0"</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">         xmlns:xsi</span><span style="color:#24292E;--shiki-dark:#E1E4E8">=</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"http://www.w3.org/2001/XMLSchema-instance"</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">         xsi:schemaLocation</span><span style="color:#24292E;--shiki-dark:#E1E4E8">=</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"http://pmd.sf.net/ruleset/1.0.0</span></span>
+<span class="line"><span style="color:#032F62;--shiki-dark:#9ECBFF">                             http://pmd.sf.net/ruleset_xml_schema.xsd"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">></span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    </span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    &#x3C;</span><span style="color:#22863A;--shiki-dark:#85E89D">description</span><span style="color:#24292E;--shiki-dark:#E1E4E8">>Custom rules for MyProject&#x3C;/</span><span style="color:#22863A;--shiki-dark:#85E89D">description</span><span style="color:#24292E;--shiki-dark:#E1E4E8">></span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    </span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">    &#x3C;!-- Import specific rules --></span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    &#x3C;</span><span style="color:#22863A;--shiki-dark:#85E89D">rule</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> ref</span><span style="color:#24292E;--shiki-dark:#E1E4E8">=</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"rulesets/cleancode.xml"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">></span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">        &#x3C;</span><span style="color:#22863A;--shiki-dark:#85E89D">exclude</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> name</span><span style="color:#24292E;--shiki-dark:#E1E4E8">=</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"ElseExpression"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">/></span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    &#x3C;/</span><span style="color:#22863A;--shiki-dark:#85E89D">rule</span><span style="color:#24292E;--shiki-dark:#E1E4E8">></span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    </span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    &#x3C;</span><span style="color:#22863A;--shiki-dark:#85E89D">rule</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> ref</span><span style="color:#24292E;--shiki-dark:#E1E4E8">=</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"rulesets/codesize.xml/CyclomaticComplexity"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">></span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">        &#x3C;</span><span style="color:#22863A;--shiki-dark:#85E89D">properties</span><span style="color:#24292E;--shiki-dark:#E1E4E8">></span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">            &#x3C;</span><span style="color:#22863A;--shiki-dark:#85E89D">property</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> name</span><span style="color:#24292E;--shiki-dark:#E1E4E8">=</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"reportLevel"</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> value</span><span style="color:#24292E;--shiki-dark:#E1E4E8">=</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"15"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">/></span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">        &#x3C;/</span><span style="color:#22863A;--shiki-dark:#85E89D">properties</span><span style="color:#24292E;--shiki-dark:#E1E4E8">></span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    &#x3C;/</span><span style="color:#22863A;--shiki-dark:#85E89D">rule</span><span style="color:#24292E;--shiki-dark:#E1E4E8">></span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    </span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    &#x3C;</span><span style="color:#22863A;--shiki-dark:#85E89D">rule</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> ref</span><span style="color:#24292E;--shiki-dark:#E1E4E8">=</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"rulesets/naming.xml/ShortVariable"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">></span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">        &#x3C;</span><span style="color:#22863A;--shiki-dark:#85E89D">properties</span><span style="color:#24292E;--shiki-dark:#E1E4E8">></span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">            &#x3C;</span><span style="color:#22863A;--shiki-dark:#85E89D">property</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> name</span><span style="color:#24292E;--shiki-dark:#E1E4E8">=</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"minimum"</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> value</span><span style="color:#24292E;--shiki-dark:#E1E4E8">=</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"2"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">/></span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">            &#x3C;</span><span style="color:#22863A;--shiki-dark:#85E89D">property</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> name</span><span style="color:#24292E;--shiki-dark:#E1E4E8">=</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"exceptions"</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> value</span><span style="color:#24292E;--shiki-dark:#E1E4E8">=</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"id,db,em,i,j,k"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">/></span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">        &#x3C;/</span><span style="color:#22863A;--shiki-dark:#85E89D">properties</span><span style="color:#24292E;--shiki-dark:#E1E4E8">></span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    &#x3C;/</span><span style="color:#22863A;--shiki-dark:#85E89D">rule</span><span style="color:#24292E;--shiki-dark:#E1E4E8">></span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    </span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">    &#x3C;!-- Exclude patterns --></span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    &#x3C;</span><span style="color:#22863A;--shiki-dark:#85E89D">exclude-pattern</span><span style="color:#24292E;--shiki-dark:#E1E4E8">>*/vendor/*&#x3C;/</span><span style="color:#22863A;--shiki-dark:#85E89D">exclude-pattern</span><span style="color:#24292E;--shiki-dark:#E1E4E8">></span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    &#x3C;</span><span style="color:#22863A;--shiki-dark:#85E89D">exclude-pattern</span><span style="color:#24292E;--shiki-dark:#E1E4E8">>*/tests/*&#x3C;/</span><span style="color:#22863A;--shiki-dark:#85E89D">exclude-pattern</span><span style="color:#24292E;--shiki-dark:#E1E4E8">></span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    &#x3C;</span><span style="color:#22863A;--shiki-dark:#85E89D">exclude-pattern</span><span style="color:#24292E;--shiki-dark:#E1E4E8">>*/database/migrations/*&#x3C;/</span><span style="color:#22863A;--shiki-dark:#85E89D">exclude-pattern</span><span style="color:#24292E;--shiki-dark:#E1E4E8">></span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">&#x3C;/</span><span style="color:#22863A;--shiki-dark:#85E89D">ruleset</span><span style="color:#24292E;--shiki-dark:#E1E4E8">></span></span></code></pre>
+<h4 id="user-content-per-project-settings"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#per-project-settings"><span class="heading-anchor-icon">#</span></a>Per-Project Settings</h4>
+<p>Create <code>.zed/settings.json</code> in your project:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "phpmd"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "rulesets"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"./config/phpmd-strict.xml"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "phpmdPath"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"./vendor/bin/phpmd"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h2 id="user-content-️-architecture"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#️-architecture"><span class="heading-anchor-icon">#</span></a>🏗️ Architecture</h2>
+<h3 id="user-content-system-overview"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#system-overview"><span class="heading-anchor-icon">#</span></a>System Overview</h3>
+<pre><code>┌─────────────────┐     LSP Protocol      ┌──────────────────┐
+│                 │ ◄──────────────────► │                  │
+│   Zed Editor    │                      │   PHPMD LSP      │
+│                 │                      │    Server        │
+└─────────────────┘                      └──────────────────┘
+        │                                         │
+        │                                         │
+        ▼                                         ▼
+┌─────────────────┐                      ┌──────────────────┐
+│  PHP Files      │                      │   PHPMD Binary   │
+│  in Workspace   │                      │   (Analysis)     │
+└─────────────────┘                      └──────────────────┘
+</code></pre>
+<h3 id="user-content-key-components"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#key-components"><span class="heading-anchor-icon">#</span></a>Key Components</h3>
+<h4 id="user-content-lsp-server-lsp-serversrcmainrs"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#lsp-server-lsp-serversrcmainrs"><span class="heading-anchor-icon">#</span></a><strong>LSP Server</strong> (<code>lsp-server/src/main.rs</code>)</h4>
+<ul>
+<li><strong>Tower-LSP Framework</strong> - Async LSP implementation in Rust</li>
+<li><strong>Tokio Runtime</strong> - High-performance async execution</li>
+<li><strong>LZ4 Compression</strong> - Memory-efficient document storage</li>
+<li><strong>Semaphore Control</strong> - Limits concurrent PHPMD processes</li>
+</ul>
+<h4 id="user-content-memory-management"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#memory-management"><span class="heading-anchor-icon">#</span></a><strong>Memory Management</strong></h4>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">// Document compression reduces memory by ~85%</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">CompressedDocument</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> {</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    compressed_data</span><span style="color:#D73A49;--shiki-dark:#F97583">:</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> Vec</span><span style="color:#24292E;--shiki-dark:#E1E4E8">&#x3C;</span><span style="color:#6F42C1;--shiki-dark:#B392F0">u8</span><span style="color:#24292E;--shiki-dark:#E1E4E8">>,      </span><span style="color:#6A737D;--shiki-dark:#6A737D">// LZ4 compressed content</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    original_size</span><span style="color:#D73A49;--shiki-dark:#F97583">:</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> usize</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,           </span><span style="color:#6A737D;--shiki-dark:#6A737D">// Original file size</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    checksum</span><span style="color:#D73A49;--shiki-dark:#F97583">:</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> u64</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,                  </span><span style="color:#6A737D;--shiki-dark:#6A737D">// Content hash for cache validation</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    compression_ratio</span><span style="color:#D73A49;--shiki-dark:#F97583">:</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> f32</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,         </span><span style="color:#6A737D;--shiki-dark:#6A737D">// Monitoring compression efficiency</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h4 id="user-content-diagnostic-processing-pipeline"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#diagnostic-processing-pipeline"><span class="heading-anchor-icon">#</span></a><strong>Diagnostic Processing Pipeline</strong></h4>
+<ol>
+<li><strong>File Change Detection</strong> - Debounced to avoid excessive processing</li>
+<li><strong>Content Compression</strong> - LZ4 compression for memory efficiency</li>
+<li><strong>PHPMD Execution</strong> - Isolated process with timeout protection</li>
+<li><strong>JSON Parsing</strong> - Robust extraction from mixed PHPMD output</li>
+<li><strong>Range Calculation</strong> - Smart positioning with whitespace trimming</li>
+<li><strong>Cache Storage</strong> - Results cached with content checksums</li>
+</ol>
+<h3 id="user-content-performance-characteristics"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#performance-characteristics"><span class="heading-anchor-icon">#</span></a>Performance Characteristics</h3>
+<ul>
+<li><strong>Memory Usage</strong>: ~15-20MB base + ~0.2MB per open file (compressed)</li>
+<li><strong>Analysis Speed</strong>: 50-200ms for typical files (1000 lines)</li>
+<li><strong>Concurrent Files</strong>: Up to 4 simultaneous analyses</li>
+<li><strong>Cache Hit Rate</strong>: ~70-80% in typical editing sessions</li>
+<li><strong>Compression Ratio</strong>: 85-90% size reduction for source files</li>
+</ul>
+<h2 id="user-content--troubleshooting"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-troubleshooting"><span class="heading-anchor-icon">#</span></a>🐛 Troubleshooting</h2>
+<h3 id="user-content-common-issues"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#common-issues"><span class="heading-anchor-icon">#</span></a>Common Issues</h3>
+<h4 id="user-content-diagnostics-not-appearing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#diagnostics-not-appearing"><span class="heading-anchor-icon">#</span></a>Diagnostics Not Appearing</h4>
+<ol>
+<li>
+<p><strong>Verify language server is enabled:</strong></p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "languages"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "PHP"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "language_servers"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"phpmd"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+</li>
+<li>
+<p><strong>Check debug output:</strong></p>
+<ul>
+<li>View → Toggle Log Panel</li>
+<li>Look for <code>PHPMD LSP:</code> prefixed messages</li>
+</ul>
+</li>
+<li>
+<p><strong>Test PHPMD manually:</strong></p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">phpmd</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> path/to/file.php</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> text</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> cleancode</span></span></code></pre>
+</li>
+</ol>
+<h4 id="user-content-performance-issues"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#performance-issues"><span class="heading-anchor-icon">#</span></a>Performance Issues</h4>
+<ol>
+<li>
+<p><strong>Reduce concurrent analyses:</strong></p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "phpmd"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "maxConcurrent"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">2</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+</li>
+<li>
+<p><strong>Simplify rulesets:</strong></p>
+<ul>
+<li>Start with single ruleset: <code>"rulesets": "cleancode"</code></li>
+<li>Add more gradually to identify performance impact</li>
+</ul>
+</li>
+</ol>
+<h4 id="user-content-custom-rules-not-working"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#custom-rules-not-working"><span class="heading-anchor-icon">#</span></a>Custom Rules Not Working</h4>
+<ol>
+<li>
+<p><strong>Validate XML syntax:</strong></p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">xmllint</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --noout</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> phpmd.xml</span></span></code></pre>
+</li>
+<li>
+<p><strong>Check file paths:</strong></p>
+<ul>
+<li>Use absolute paths for testing</li>
+<li>Ensure relative paths are from project root</li>
+</ul>
+</li>
+<li>
+<p><strong>Test configuration:</strong></p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">phpmd</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> .</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> text</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> phpmd.xml</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --verbose</span></span></code></pre>
+</li>
+</ol>
+<h3 id="user-content-debug-mode"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#debug-mode"><span class="heading-anchor-icon">#</span></a>Debug Mode</h3>
+<p>Enable verbose logging in Zed:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "phpmd"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "logLevel"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"debug"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h2 id="user-content--contributing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-contributing"><span class="heading-anchor-icon">#</span></a>🤝 Contributing</h2>
+<p>We welcome contributions! See our <a href="https://github.com/mike-bronner/zed-phpmd-lsp/blob/HEAD/CONTRIBUTING.md" target="_blank" rel="noopener">Contributing Guide</a> for details.</p>
+<h3 id="user-content-development-setup"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#development-setup"><span class="heading-anchor-icon">#</span></a>Development Setup</h3>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Clone and setup</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">git</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> clone</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> https://github.com/GeneaLabs/zed-phpmd-lsp.git</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">cd</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> zed-phpmd-lsp</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Install Rust toolchain</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">curl</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --proto</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> '=https'</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --tlsv1.2</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -sSf</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> https://sh.rustup.rs</span><span style="color:#D73A49;--shiki-dark:#F97583"> |</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> sh</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Build everything</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> build</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --release</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">cd</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> lsp-server</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> &#x26;&#x26; </span><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> build</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --release</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Run tests</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> test</span></span></code></pre>
+<h3 id="user-content-areas-for-contribution"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#areas-for-contribution"><span class="heading-anchor-icon">#</span></a>Areas for Contribution</h3>
+<ul>
+<li>🪟 Windows testing and compatibility</li>
+<li>🐧 Linux distribution testing</li>
+<li>📝 Additional ruleset templates</li>
+<li>🌍 Internationalization support</li>
+<li>🧪 Test coverage improvements</li>
+<li>📚 Documentation translations</li>
+</ul>
+<h2 id="user-content--resources"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-resources"><span class="heading-anchor-icon">#</span></a>📚 Resources</h2>
+<ul>
+<li><a href="https://phpmd.org/documentation/index.html">PHPMD Documentation</a></li>
+<li><a href="https://phpmd.org/rules/index.html">PHPMD Rules Reference</a></li>
+<li><a href="https://zed.dev/docs/extensions">Zed Extensions Guide</a></li>
+<li><a href="https://microsoft.github.io/language-server-protocol/">Language Server Protocol Spec</a></li>
+</ul>
+<h2 id="user-content--license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-license"><span class="heading-anchor-icon">#</span></a>📄 License</h2>
+<p>This project is licensed under the MIT License - see the <a href="https://github.com/mike-bronner/zed-phpmd-lsp/blob/HEAD/LICENSE" target="_blank" rel="noopener">LICENSE</a> file for details.</p>
+<h3 id="user-content-third-party-licenses"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#third-party-licenses"><span class="heading-anchor-icon">#</span></a>Third-Party Licenses</h3>
+<ul>
+<li><strong>PHPMD</strong> - BSD-3-Clause License (bundled as PHAR)</li>
+<li><strong>Rust Dependencies</strong> - Various permissive licenses</li>
+</ul>
+<p>See <a href="https://github.com/mike-bronner/zed-phpmd-lsp/blob/HEAD/THIRD_PARTY_LICENSES.md" target="_blank" rel="noopener">THIRD_PARTY_LICENSES.md</a> for complete attribution.</p>
+<h2 id="user-content--acknowledgments"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-acknowledgments"><span class="heading-anchor-icon">#</span></a>🙏 Acknowledgments</h2>
+<ul>
+<li><strong><a href="https://github.com/manuelpichler">Manuel Pichler</a></strong> - Creator of PHPMD</li>
+<li><strong><a href="https://github.com/phpmd/phpmd/graphs/contributors">PHPMD Contributors</a></strong> - For the excellent code quality tool</li>
+<li><strong><a href="https://zed.dev">Zed Industries</a></strong> - For the blazing-fast editor and extension API</li>
+<li><strong><a href="https://github.com/ebkalderon/tower-lsp">Tower-LSP Contributors</a></strong> - For the robust LSP framework</li>
+<li><strong>PHP Community</strong> - For continuous feedback and support</li>
+</ul>
+<hr>
+<div align="center">
+<p><strong>Made with ❤️ for the PHP community</strong></p>
+<p><a href="https://github.com/GeneaLabs/zed-phpmd-lsp/issues">Report Bug</a> • <a href="https://github.com/GeneaLabs/zed-phpmd-lsp/issues">Request Feature</a> • <a href="https://github.com/GeneaLabs/zed-phpmd-lsp/discussions">Discussions</a></p>
+</div></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>

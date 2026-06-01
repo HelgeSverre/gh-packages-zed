@@ -1,0 +1,495 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>PHPCS - Zed Extension Safari</title><meta name="description" content="PHPCS linter for Zed"><link rel="canonical" href="https://helgesverre.github.io/gh-packages-zed/package/mike-bronner/zed-phpcs-lsp/"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="PHPCS - Zed Extension Safari"><meta property="og:description" content="PHPCS linter for Zed"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed/package/mike-bronner/zed-phpcs-lsp/"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="PHPCS - Zed Extension Safari"><meta name="twitter:description" content="PHPCS linter for Zed"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/gh-packages-zed/_astro/ClientRouter.astro_astro_type_script_index_0_lang.ClVLs1kt.js"></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"PHPCS","description":"PHPCS linter for Zed","applicationCategory":"DeveloperApplication","operatingSystem":"macOS, Linux, Windows","url":"https://zed.dev/extensions/phpcs","codeRepository":"https://github.com/mike-bronner/zed-phpcs-lsp","author":[{"@type":"Person","name":"Mike Bronner"}],"softwareVersion":"0.4.3","license":"MIT","keywords":"language-server","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/Layout.CGDlMdWE.css"><script type="module" src="/gh-packages-zed/_astro/page.B8i1Zz-u.js"></script></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <a href="#main" class="skip-to-content">Skip to content</a> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" data-astro-transition-persist="astro-fhchcgd7-1"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <script type="application/json" id="pkg-extras">{"url":"https://github.com/mike-bronner/zed-phpcs-lsp","language":"Rust","license":"MIT","topics":[],"extension":{"authors":["Mike Bronner"],"schema_version":1}}</script> <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> mike-bronner/zed-phpcs-lsp </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> PHPCS </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> PHP CodeSniffer Language Server for linting, formatting, and auto-fixing PHP code via PHPCS and PHPCBF. </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="language-server">Language Server</span> </div> </div> </div> </header> <main id="main" class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/phpcs" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/mike-bronner/zed-phpcs-lsp" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.4.3</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">phpcs</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">Rust</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">MIT</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">16</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">53m ago</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">Mike Bronner</dd> </div> </dl>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-phpcs-lsp-for-zed-editor"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#phpcs-lsp-for-zed-editor"><span class="heading-anchor-icon">#</span></a>PHPCS LSP for Zed Editor</h1>
+<blockquote>
+<p>A Language Server Protocol implementation that brings PHP_CodeSniffer integration to Zed Editor</p>
+</blockquote>
+<p><a href="https://github.com/mike-bronner/zed-phpcs-lsp/blob/HEAD/LICENSE" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="MIT License"></a>
+<a href="https://php.net"><img src="https://img.shields.io/badge/PHP-8.0%2B-777BB4?logo=php&#x26;logoColor=white" alt="PHP"></a>
+<a href="https://zed.dev"><img src="https://img.shields.io/badge/Zed-Editor-blue?logo=zed&#x26;logoColor=white" alt="Zed"></a>
+<a href="https://github.com/PHPCSStandards/PHP_CodeSniffer"><img src="https://img.shields.io/badge/PHPCS-3.13.2%2B-green" alt="PHPCS"></a></p>
+<p>This extension integrates PHP_CodeSniffer with Zed Editor to provide real-time code style checking and automatic formatting. It highlights violations as you code, auto-fixes them on save via PHPCBF, and supports various PHP coding standards including PSR-12, custom rulesets, and project-specific configurations.</p>
+<h2 id="user-content-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features"><span class="heading-anchor-icon">#</span></a>Features</h2>
+<ul>
+<li><strong>Real-time diagnostics</strong> - See code style violations as you type</li>
+<li><strong>Auto-fix on save</strong> - Automatically fix all PHPCS issues on save via <code>source.fixAll.phpcs</code></li>
+<li><strong>Zero configuration</strong> - Works out of the box using PHPCS native defaults</li>
+<li><strong>Live configuration</strong> - Settings changes apply immediately without restart</li>
+<li><strong>Auto-recovery</strong> - Automatically handles deleted or invalid config files</li>
+<li><strong>Multiple standards</strong> - PSR-12, PSR-2, Squiz, Slevomat, custom rulesets</li>
+<li><strong>Project awareness</strong> - Automatically discovers phpcs.xml configuration</li>
+<li><strong>Smart PHPCS detection</strong> - Prefers project-local installations with dependencies</li>
+<li><strong>Cross-platform</strong> - Static binaries for Linux (musl), macOS, and Windows</li>
+<li><strong>Flexible configuration</strong> - Via Zed settings, environment variables, or project files</li>
+</ul>
+<h3 id="user-content-performance--reliability"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#performance--reliability"><span class="heading-anchor-icon">#</span></a>Performance &#x26; Reliability</h3>
+<ul>
+<li><strong>Async process handling</strong> - Non-blocking PHPCS execution keeps editor responsive</li>
+<li><strong>Concurrent processing</strong> - Lint up to 4 files simultaneously for faster results</li>
+<li><strong>Timeout protection</strong> - Automatic 10-second timeout prevents hanging on large files</li>
+<li><strong>Memory optimization</strong> - LZ4 compression reduces memory usage by ~85%</li>
+<li><strong>Smart caching</strong> - Results cached to avoid redundant linting on unchanged files</li>
+<li><strong>Process management</strong> - Automatic cleanup of zombie processes</li>
+</ul>
+<h2 id="user-content-quick-start"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#quick-start"><span class="heading-anchor-icon">#</span></a>Quick Start</h2>
+<h3 id="user-content-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation"><span class="heading-anchor-icon">#</span></a>Installation</h3>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Via Zed Extensions (coming soon)</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># For now: manual installation for development</span></span></code></pre>
+<h3 id="user-content-basic-usage"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#basic-usage"><span class="heading-anchor-icon">#</span></a>Basic Usage</h3>
+<ol>
+<li>
+<p><strong>Ensure the PHPCS extension is installed</strong> in Zed from the Extensions panel</p>
+</li>
+<li>
+<p><strong>Enable the language server</strong> in your Zed settings.json:</p>
+</li>
+</ol>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "languages"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "PHP"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "language_servers"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"intelephense"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"phpcs"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"!phpactor"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<ol start="3">
+<li><strong>Open any PHP project</strong> and the extension will start analyzing your code:</li>
+</ol>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">&#x3C;?</span><span style="color:#005CC5;--shiki-dark:#79B8FF">php</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">// This will show underlines for style violations</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">if</span><span style="color:#24292E;--shiki-dark:#E1E4E8">($x</span><span style="color:#D73A49;--shiki-dark:#F97583">==</span><span style="color:#005CC5;--shiki-dark:#79B8FF">1</span><span style="color:#24292E;--shiki-dark:#E1E4E8">){</span><span style="color:#005CC5;--shiki-dark:#79B8FF">echo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> "test"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">;}</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">// This follows PSR-12 and won't show any issues</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">if</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> ($x </span><span style="color:#D73A49;--shiki-dark:#F97583">===</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> 1</span><span style="color:#24292E;--shiki-dark:#E1E4E8">) {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    echo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> "test"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">;</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<ol start="4">
+<li><strong>Enable auto-fix on save</strong> (optional) to fix all PHPCS issues when you save:</li>
+</ol>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "languages"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "PHP"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "code_actions_on_format"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "source.fixAll.phpcs"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">true</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      },</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "formatter"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [],</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "format_on_save"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"on"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<blockquote>
+<p><strong>Note:</strong> This runs PHPCBF on every save, automatically fixing all fixable code style issues. The <code>"formatter": []</code> is required to prevent Zed's default formatter from interfering. See the <a href="#auto-fix-on-save">Auto-Fix on Save</a> section for more configuration options.</p>
+</blockquote>
+<h2 id="user-content-configuration"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#configuration"><span class="heading-anchor-icon">#</span></a>Configuration</h2>
+<blockquote>
+<p><strong>Note:</strong> The extension works without any configuration, using PHPCS's natural defaults and bundled binaries.</p>
+</blockquote>
+<h3 id="user-content-coding-standards"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#coding-standards"><span class="heading-anchor-icon">#</span></a>Coding Standards</h3>
+<details>
+<summary><strong>Automatic Discovery</strong> (recommended)</summary>
+<p>The extension follows <strong>PHP_CodeSniffer's native discovery behavior</strong> with this priority order:</p>
+<ol>
+<li><strong>Project config files</strong> (discovered automatically, same as PHPCS):
+<ul>
+<li><code>.phpcs.xml</code> (highest priority)</li>
+<li><code>phpcs.xml</code></li>
+<li><code>.phpcs.xml.dist</code></li>
+<li><code>phpcs.xml.dist</code> (lowest config file priority)</li>
+</ul>
+</li>
+<li><strong>Zed settings</strong> - Custom configuration in settings.json</li>
+<li><strong>Environment variables</strong> - <code>PHPCS_STANDARD</code></li>
+<li><strong>PHPCS native defaults</strong> - User config (<code>~/.phpcs.xml</code>), global config, or PEAR standard</li>
+</ol>
+<blockquote>
+<p><strong>💡 Global Defaults:</strong> Set system-wide standards with <code>phpcs --config-set default_standard PSR12</code> or create <code>~/.phpcs.xml</code> for user-specific defaults that work across all projects.</p>
+</blockquote>
+</details>
+<details>
+<summary><strong>Zed Settings Configuration</strong></summary>
+<p>Configure standards in your <strong>Zed settings.json</strong> file (open with <code>Cmd+,</code> or <code>Ctrl+,</code>):</p>
+<p><strong>Single standard:</strong></p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "phpcs"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "standard"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"PSR12"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p><strong>Multiple standards (comma-separated):</strong></p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "phpcs"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "standard"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"PSR12"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"Squiz.Commenting"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"Generic.Files.LineLength"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p><strong>Path to custom ruleset:</strong></p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "phpcs"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "standard"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"/path/to/custom-phpcs.xml"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p><strong>Relative path to project ruleset:</strong></p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "phpcs"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "standard"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"./ruleset.xml"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<blockquote>
+<p><strong>💡 Tip:</strong> You can also set these in <strong>local project settings</strong> by creating <code>.zed/settings.json</code> in your project root.</p>
+</blockquote>
+</details>
+<details>
+<summary><strong>Environment Variables</strong></summary>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">export</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> PHPCS_STANDARD</span><span style="color:#D73A49;--shiki-dark:#F97583">=</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"PSR12"</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">export</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> PHPCS_PATH</span><span style="color:#D73A49;--shiki-dark:#F97583">=</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"/custom/path/to/phpcs"</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">export</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> PHPCBF_PATH</span><span style="color:#D73A49;--shiki-dark:#F97583">=</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"/custom/path/to/phpcbf"</span></span></code></pre>
+</details>
+<h3 id="user-content-phpcs-executable"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#phpcs-executable"><span class="heading-anchor-icon">#</span></a>PHPCS Executable</h3>
+<details>
+<summary><strong>Automatic Discovery</strong> (recommended)</summary>
+<p>The extension finds PHPCS and PHPCBF in this priority order:</p>
+<ol>
+<li><strong>User-configured path</strong> - Custom path from Zed LSP settings (explicit override always wins)</li>
+<li><strong>Project composer</strong> - <code>vendor/bin/phpcs</code> (includes project dependencies like Slevomat)</li>
+<li><strong>Environment variable</strong> - <code>PHPCS_PATH</code> / <code>PHPCBF_PATH</code></li>
+<li><strong>System PATH</strong> - Global phpcs installation (respects your <code>phpcs --config-set</code> settings)</li>
+<li><strong>Bundled PHAR</strong> - Modern PHPCS v3.13.2+ (fallback, included with extension)</li>
+</ol>
+<blockquote>
+<p><strong>🪟 Windows:</strong> Composer's <code>vendor/bin/phpcs</code> and the bundled <code>.phar</code> are PHP scripts, not native executables, so they're launched through <code>php</code> automatically; <code>.bat</code>/<code>.cmd</code> wrappers run via <code>cmd /C</code>. Ensure <code>php</code> is on your <code>PATH</code>.</p>
+</blockquote>
+<blockquote>
+<p><strong>💡 Global Config Support:</strong> The extension now respects your system PHPCS configuration. Set global defaults with <code>phpcs --config-set default_standard PSR12</code> or <code>phpcs --config-set installed_paths /path/to/sniffs</code> and they'll work automatically without any Zed configuration.</p>
+</blockquote>
+</details>
+<details>
+<summary><strong>Custom Paths</strong></summary>
+<p>Specify custom PHPCS/PHPCBF paths in settings.json:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "phpcs"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "phpcs_path"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"/custom/path/to/phpcs"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "phpcbf_path"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"/custom/path/to/phpcbf"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+</details>
+<h2 id="user-content-out-of-the-box-standards"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#out-of-the-box-standards"><span class="heading-anchor-icon">#</span></a>Out-of-the-box Standards</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Standard</th><th>Description</th></tr></thead><tbody><tr><td><strong>PSR-12</strong></td><td>Modern PHP coding style (recommended)</td></tr><tr><td><strong>PSR-2</strong></td><td>Legacy coding style guide</td></tr><tr><td><strong>PSR-1</strong></td><td>Basic coding standard</td></tr><tr><td><strong>PEAR</strong></td><td>PEAR coding standard (PHPCS default)</td></tr><tr><td><strong>Zend</strong></td><td>Zend framework standard</td></tr><tr><td><strong>Multiple</strong></td><td><code>"PSR12,Generic.Files.LineLength"</code></td></tr><tr><td><strong>Custom</strong></td><td>Your phpcs.xml ruleset</td></tr></tbody></table>
+<h2 id="user-content-project-configuration"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#project-configuration"><span class="heading-anchor-icon">#</span></a>Project Configuration</h2>
+<p>Create a <code>phpcs.xml</code> in your project root for team consistency. The extension will automatically discover and use any of these files (in priority order):</p>
+<ul>
+<li><code>.phpcs.xml</code> (typically for local overrides, often gitignored)</li>
+<li><code>phpcs.xml</code> (main project configuration)</li>
+<li><code>.phpcs.xml.dist</code> (distributable version, lower priority)</li>
+<li><code>phpcs.xml.dist</code> (template version, lowest priority)</li>
+</ul>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">&#x3C;?</span><span style="color:#22863A;--shiki-dark:#85E89D">xml</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> version</span><span style="color:#24292E;--shiki-dark:#E1E4E8">=</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"1.0"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">?></span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">&#x3C;</span><span style="color:#22863A;--shiki-dark:#85E89D">ruleset</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> name</span><span style="color:#24292E;--shiki-dark:#E1E4E8">=</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"Project Standards"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">></span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    &#x3C;</span><span style="color:#22863A;--shiki-dark:#85E89D">description</span><span style="color:#24292E;--shiki-dark:#E1E4E8">>Custom coding standard for our project&#x3C;/</span><span style="color:#22863A;--shiki-dark:#85E89D">description</span><span style="color:#24292E;--shiki-dark:#E1E4E8">></span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    &#x3C;</span><span style="color:#22863A;--shiki-dark:#85E89D">rule</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> ref</span><span style="color:#24292E;--shiki-dark:#E1E4E8">=</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"PSR12"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">/></span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">    &#x3C;!-- Customize line length --></span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    &#x3C;</span><span style="color:#22863A;--shiki-dark:#85E89D">rule</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> ref</span><span style="color:#24292E;--shiki-dark:#E1E4E8">=</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"Generic.Files.LineLength"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">></span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">        &#x3C;</span><span style="color:#22863A;--shiki-dark:#85E89D">properties</span><span style="color:#24292E;--shiki-dark:#E1E4E8">></span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">            &#x3C;</span><span style="color:#22863A;--shiki-dark:#85E89D">property</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> name</span><span style="color:#24292E;--shiki-dark:#E1E4E8">=</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"lineLimit"</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> value</span><span style="color:#24292E;--shiki-dark:#E1E4E8">=</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"120"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">/></span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">        &#x3C;/</span><span style="color:#22863A;--shiki-dark:#85E89D">properties</span><span style="color:#24292E;--shiki-dark:#E1E4E8">></span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    &#x3C;/</span><span style="color:#22863A;--shiki-dark:#85E89D">rule</span><span style="color:#24292E;--shiki-dark:#E1E4E8">></span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">    &#x3C;!-- Exclude directories --></span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    &#x3C;</span><span style="color:#22863A;--shiki-dark:#85E89D">exclude-pattern</span><span style="color:#24292E;--shiki-dark:#E1E4E8">>*/vendor/*&#x3C;/</span><span style="color:#22863A;--shiki-dark:#85E89D">exclude-pattern</span><span style="color:#24292E;--shiki-dark:#E1E4E8">></span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    &#x3C;</span><span style="color:#22863A;--shiki-dark:#85E89D">exclude-pattern</span><span style="color:#24292E;--shiki-dark:#E1E4E8">>*/storage/*&#x3C;/</span><span style="color:#22863A;--shiki-dark:#85E89D">exclude-pattern</span><span style="color:#24292E;--shiki-dark:#E1E4E8">></span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">&#x3C;/</span><span style="color:#22863A;--shiki-dark:#85E89D">ruleset</span><span style="color:#24292E;--shiki-dark:#E1E4E8">></span></span></code></pre>
+<h2 id="user-content-auto-recovery"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#auto-recovery"><span class="heading-anchor-icon">#</span></a>Auto-Recovery</h2>
+<p>The extension automatically handles configuration changes and edge cases:</p>
+<h3 id="user-content-deleted-config-files"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#deleted-config-files"><span class="heading-anchor-icon">#</span></a><strong>Deleted Config Files</strong></h3>
+<p>If you delete a <code>phpcs.xml</code> file after the LSP is running:</p>
+<ul>
+<li><strong>Proactive detection</strong> - Checks file exists before each lint operation</li>
+<li>Automatically re-scans for other config files (<code>.phpcs.xml.dist</code>, etc.)</li>
+<li>Falls back to PHPCS defaults if no config found</li>
+<li><strong>No restart required</strong> - recovery happens seamlessly</li>
+</ul>
+<h3 id="user-content-invalid-config-files"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#invalid-config-files"><span class="heading-anchor-icon">#</span></a><strong>Invalid Config Files</strong></h3>
+<p>If a config file becomes corrupted or references missing standards:</p>
+<ul>
+<li>File existence validated before use, with immediate re-discovery if missing</li>
+<li>Standard discovery process re-runs automatically for any configuration issues</li>
+<li>Graceful fallback to working configuration</li>
+<li>Detailed logging shows the recovery process</li>
+</ul>
+<h3 id="user-content-dynamic-updates"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#dynamic-updates"><span class="heading-anchor-icon">#</span></a><strong>Dynamic Updates</strong></h3>
+<ul>
+<li><strong>Settings changes</strong> - Applied immediately via <code>did_change_configuration</code></li>
+<li><strong>Workspace changes</strong> - Config re-discovered when switching projects</li>
+<li><strong>File system changes</strong> - Config errors trigger automatic re-discovery</li>
+</ul>
+<h2 id="user-content-auto-fix-on-save"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#auto-fix-on-save"><span class="heading-anchor-icon">#</span></a>Auto-Fix on Save</h2>
+<p>The extension supports automatic fixing of code style issues via PHPCBF (PHP Code Beautifier and Fixer), using the <code>source.fixAll.phpcs</code> code action. This follows the same convention used by ESLint, Biome, and Ruff.</p>
+<h3 id="user-content-phpcs-fixes-only"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#phpcs-fixes-only"><span class="heading-anchor-icon">#</span></a>PHPCS Fixes Only</h3>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "languages"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "PHP"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "code_actions_on_format"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "source.fixAll.phpcs"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">true</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      },</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "formatter"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [],</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "format_on_save"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"on"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h3 id="user-content-all-linter-fixes"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#all-linter-fixes"><span class="heading-anchor-icon">#</span></a>All Linter Fixes</h3>
+<p>Fix issues from PHPCS and any other linters that support <code>source.fixAll</code>:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "languages"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "PHP"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "code_actions_on_format"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "source.fixAll"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">true</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      },</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "formatter"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [],</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "format_on_save"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"on"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h3 id="user-content-combine-with-a-separate-formatter"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#combine-with-a-separate-formatter"><span class="heading-anchor-icon">#</span></a>Combine with a Separate Formatter</h3>
+<p>Use PHPCS fixing alongside a separate formatter (e.g., Prettier for embedded HTML/JS):</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "languages"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "PHP"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "code_actions_on_format"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "source.fixAll.phpcs"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">true</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      },</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "formatter"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "external"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">          "command"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"prettier"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">          "arguments"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"--stdin-filepath"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"{buffer_path}"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">        }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      },</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "format_on_save"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"on"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<blockquote>
+<p><strong>Important:</strong> When using <code>code_actions_on_format</code> without a separate formatter, you must set <code>"formatter": []</code> to prevent Zed's default <code>"auto"</code> formatter from interfering. See <a href="https://github.com/zed-industries/zed/issues/51490">zed-industries/zed#51490</a> for details.</p>
+</blockquote>
+<h3 id="user-content-how-it-works"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#how-it-works"><span class="heading-anchor-icon">#</span></a>How It Works</h3>
+<ul>
+<li>Auto-fixing uses the same coding standard as linting (phpcs.xml discovery, Zed settings, etc.)</li>
+<li>PHPCBF is discovered automatically using the same priority as PHPCS: user-configured path → project <code>vendor/bin</code> → <code>PHPCBF_PATH</code> env var → system PATH → bundled PHAR</li>
+<li>Auto-fixing and linting run from the same LSP process — no extra configuration needed</li>
+<li>The <code>source.fixAll.phpcs</code> code action is also available in the lightbulb menu for manual use</li>
+</ul>
+<h2 id="user-content-troubleshooting"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#troubleshooting"><span class="heading-anchor-icon">#</span></a>Troubleshooting</h2>
+<details>
+<summary><strong>Extension not working?</strong></summary>
+<ol>
+<li>Check Zed's debug console for error messages</li>
+<li>Verify PHPCS is accessible (custom paths must exist)</li>
+<li><strong>No restart needed</strong> - configuration changes apply immediately</li>
+</ol>
+</details>
+<details>
+<summary><strong>No diagnostics showing?</strong></summary>
+<ol>
+<li>Ensure you're editing a <code>.php</code> file</li>
+<li>Check that your configured standard exists</li>
+<li>Test with a file containing obvious style violations</li>
+</ol>
+</details>
+<details>
+<summary><strong>Custom rules not working?</strong></summary>
+<ol>
+<li>Validate your <code>phpcs.xml</code> syntax</li>
+<li>Ensure paths are relative to your project root</li>
+<li>Test your configuration manually with <code>phpcs --config-show</code></li>
+</ol>
+</details>
+<details>
+<summary><strong>Want to set global defaults?</strong></summary>
+<p><strong>Set PHPCS global configuration (affects all projects without local config):</strong></p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Set global default standard</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">phpcs</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --config-set</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> default_standard</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> PSR12</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># View current global config</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">phpcs</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --config-show</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Create user-specific config file</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">echo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> '&#x3C;?xml version="1.0"?></span></span>
+<span class="line"><span style="color:#032F62;--shiki-dark:#9ECBFF">&#x3C;ruleset name="My Default"></span></span>
+<span class="line"><span style="color:#032F62;--shiki-dark:#9ECBFF">    &#x3C;rule ref="PSR12"/></span></span>
+<span class="line"><span style="color:#032F62;--shiki-dark:#9ECBFF">&#x3C;/ruleset>'</span><span style="color:#D73A49;--shiki-dark:#F97583"> ></span><span style="color:#032F62;--shiki-dark:#9ECBFF"> ~/.phpcs.xml</span></span></code></pre>
+<blockquote>
+<p><strong>💡 Pro Tip:</strong> The extension respects all PHPCS configuration methods, so you can mix global defaults with project-specific overrides.</p>
+</blockquote>
+</details>
+<h2 id="user-content-contributing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#contributing"><span class="heading-anchor-icon">#</span></a>Contributing</h2>
+<h3 id="user-content-development-setup"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#development-setup"><span class="heading-anchor-icon">#</span></a>Development Setup</h3>
+<ol>
+<li>
+<p><strong>Clone the repository:</strong></p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">git</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> clone</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> https://github.com/mike-bronner/zed-phpcs-lsp.git</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">cd</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> zed-phpcs-lsp</span></span></code></pre>
+</li>
+<li>
+<p><strong>Build the LSP server:</strong></p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">cd</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> lsp-server</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> build</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --release</span></span></code></pre>
+</li>
+<li>
+<p><strong>Configure Zed to use local build:</strong></p>
+<p>Create <code>.zed/settings.json</code> in the project root:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "phpcs"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "binary"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "path"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"lsp-server/target/release/phpcs-lsp-server"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+</li>
+<li>
+<p><strong>Open the project in Zed</strong> and edit PHP files to test your changes.</p>
+</li>
+</ol>
+<blockquote>
+<p><strong>Note:</strong> The <code>.zed/</code> folder is gitignored to avoid conflicts with user settings.</p>
+</blockquote>
+<h3 id="user-content-testing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#testing"><span class="heading-anchor-icon">#</span></a>Testing</h3>
+<p>Create PHP files with intentional PHPCS violations in <code>test-files/</code> to verify diagnostics and code actions are working correctly. This folder is gitignored.</p>
+<h2 id="user-content-resources--credits"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#resources--credits"><span class="heading-anchor-icon">#</span></a>Resources &#x26; Credits</h2>
+<h3 id="user-content-learn-more"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#learn-more"><span class="heading-anchor-icon">#</span></a>Learn More</h3>
+<ul>
+<li><a href="https://github.com/PHPCSStandards/PHP_CodeSniffer/wiki">PHP_CodeSniffer Documentation</a></li>
+<li><a href="https://www.php-fig.org/psr/">PSR Standards</a></li>
+<li><a href="https://zed.dev/docs">Zed Editor Documentation</a></li>
+</ul>
+<h3 id="user-content-built-with"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#built-with"><span class="heading-anchor-icon">#</span></a>Built With</h3>
+<ul>
+<li><a href="https://github.com/PHPCSStandards/PHP_CodeSniffer">PHP_CodeSniffer</a> - The excellent tool that powers code analysis</li>
+<li><a href="https://zed.dev">Zed Editor</a> - The fast, collaborative editor</li>
+<li><a href="https://github.com/ebkalderon/tower-lsp">Tower LSP</a> - Rust LSP framework</li>
+</ul>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<h3 id="user-content-main-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#main-license"><span class="heading-anchor-icon">#</span></a>Main License</h3>
+<p>This project is licensed under the <a href="https://github.com/mike-bronner/zed-phpcs-lsp/blob/HEAD/LICENSE" target="_blank" rel="noopener">MIT License</a>.</p>
+<pre><code>MIT License
+
+Copyright (c) 2025 Mike Bronner
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+</code></pre>
+<h3 id="user-content-third-party-licenses"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#third-party-licenses"><span class="heading-anchor-icon">#</span></a>Third-Party Licenses</h3>
+<p>This extension bundles and redistributes third-party software. For a complete list of third-party licenses and attributions, please see <a href="https://github.com/mike-bronner/zed-phpcs-lsp/blob/HEAD/THIRD_PARTY_LICENSES.md" target="_blank" rel="noopener">THIRD_PARTY_LICENSES.md</a>.</p>
+<p><strong>Key third-party components:</strong></p>
+<ul>
+<li>
+<p><strong>PHP_CodeSniffer</strong> - BSD-3-Clause License<br>
+The core tool that powers code analysis. Bundled as PHAR binaries.</p>
+</li>
+<li>
+<p><strong>Rust Dependencies</strong> - Various permissive licenses (Apache-2.0, MIT, etc.)<br>
+All dependencies are compatible with the MIT license. See the full list in the third-party licenses file.</p>
+</li>
+</ul>
+<hr>
+<p><strong>Made with ❤️ and lots of ☕ for the PHP community.</strong></p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>

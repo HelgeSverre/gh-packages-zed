@@ -1738,8 +1738,36 @@
         "zed-+in:name+language:Rust": 0,
         "zed+extension+in:name": 0
       }
+    },
+    {
+      "timestamp": "2026-06-01T00:42:34.118Z",
+      "fetched": 669,
+      "unique": 515,
+      "new": 4,
+      "updated": 449,
+      "archived": 0,
+      "total": 1781,
+      "queries": {
+        "@official-registry": 105,
+        "topic:zed-extension": 309,
+        "topic:zed-extensions": 4,
+        "topic:zed-editor": 99,
+        "topic:zed-plugin": 0,
+        "topic:zed-theme": 142,
+        "topic:zed-themes": 3,
+        "topic:zed-icon-theme": 5,
+        "topic:zed-language": 2,
+        "topic:zed-grammar": 0,
+        "topic:zed-lsp": 0,
+        "topic:zed-snippets": 0,
+        "topic:zed-slash-command": 0,
+        "topic:zed-context-server": 0,
+        "topic:zed+language:Rust": 0,
+        "zed-+in:name+language:Rust": 0,
+        "zed+extension+in:name": 0
+      }
     }
   ],
-  "total_discovered": 1777,
-  "last_run": "2026-05-31T18:24:54.337Z"
+  "total_discovered": 1781,
+  "last_run": "2026-06-01T00:42:34.118Z"
 }
