@@ -494,8 +494,8 @@
     "language": "JavaScript",
     "license": null,
     "created_at": "2025-12-03T23:34:48Z",
-    "updated_at": "2026-05-31T13:12:45Z",
-    "pushed_at": "2026-05-27T00:00:39Z",
+    "updated_at": "2026-06-01T17:33:17Z",
+    "pushed_at": "2026-06-01T17:28:35Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false,
     "extension": {
@@ -8796,7 +8796,7 @@
     "name": "cange/nightfox.zed",
     "url": "https://github.com/cange/nightfox.zed",
     "description": "A port of the Neovim theme to Zed editor",
-    "stars": 139,
+    "stars": 140,
     "forks": 5,
     "topics": [
       "zed",
@@ -8805,7 +8805,7 @@
     "language": "Lua",
     "license": "MIT",
     "created_at": "2024-05-02T20:49:30Z",
-    "updated_at": "2026-05-31T21:11:08Z",
+    "updated_at": "2026-06-01T18:04:31Z",
     "pushed_at": "2026-05-31T19:41:31Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": true,
@@ -14626,6 +14626,7 @@
     "updated_at": "2026-04-30T21:59:34Z",
     "pushed_at": "2026-04-30T14:40:12Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
+    "official": true,
     "extension": {
       "id": "zizmor",
       "name": "zizmor for Zed",
@@ -17853,6 +17854,7 @@
     "updated_at": "2026-05-05T01:37:34Z",
     "pushed_at": "2026-03-20T01:16:22Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
+    "official": true,
     "extension": {
       "id": "kylejbrk.dbt",
       "name": "dbt",
@@ -19251,13 +19253,13 @@
     "name": "owlx56/zed-lean4",
     "url": "https://github.com/owlx56/zed-lean4",
     "description": "",
-    "stars": 40,
+    "stars": 41,
     "forks": 8,
     "topics": [],
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2025-04-18T13:34:52Z",
-    "updated_at": "2026-05-30T23:43:14Z",
+    "updated_at": "2026-06-01T17:54:00Z",
     "pushed_at": "2026-05-30T23:43:11Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": false,
@@ -31131,13 +31133,13 @@
     "name": "zed-extensions/git_firefly",
     "url": "https://github.com/zed-extensions/git_firefly",
     "description": "",
-    "stars": 126,
+    "stars": 127,
     "forks": 5,
     "topics": [],
     "language": "Tree-sitter Query",
     "license": "Apache-2.0",
     "created_at": "2024-02-19T14:56:35Z",
-    "updated_at": "2026-06-01T01:29:39Z",
+    "updated_at": "2026-06-01T16:16:27Z",
     "pushed_at": "2026-05-18T22:07:40Z",
     "discovered_at": "2026-05-19T21:42:53.670Z",
     "official": false,
@@ -51133,9 +51135,9 @@
     "license": "MIT",
     "created_at": "2026-05-31T21:58:49Z",
     "updated_at": "2026-06-01T03:03:43Z",
-    "pushed_at": "2026-06-01T03:04:58Z",
+    "pushed_at": "2026-06-01T19:05:37Z",
     "discovered_at": "2026-06-01T00:42:32.382Z",
-    "official": false,
+    "official": true,
     "extension": {
       "id": "geode-theme",
       "name": "Geode",
@@ -51146,6 +51148,228 @@
         "Almela <almeladev@users.noreply.github.com>"
       ],
       "repository": "https://github.com/almeladev/geode-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "taylorplewe/canipls-zed": {
+    "name": "taylorplewe/canipls-zed",
+    "url": "https://github.com/taylorplewe/canipls-zed",
+    "description": "Zed extension for caniuse-ls",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2026-05-04T17:09:17Z",
+    "updated_at": "2026-05-28T17:09:04Z",
+    "pushed_at": "2026-05-28T17:08:59Z",
+    "discovered_at": "2026-06-01T19:39:04.313Z",
+    "official": true,
+    "extension": {
+      "id": "canipls-lint",
+      "name": "canipls",
+      "description": "Get caniuse support info right in your editor",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Taylor Plewe <tplewe@outlook.com>"
+      ],
+      "repository": "https://github.com/taylorplewe/canipls-zed",
+      "snippets": null,
+      "sections": [
+        "language_servers"
+      ],
+      "categories": [
+        "language-server"
+      ]
+    }
+  },
+  "bashln/zed-doom": {
+    "name": "bashln/zed-doom",
+    "url": "https://github.com/bashln/zed-doom",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-05-28T10:32:44Z",
+    "updated_at": "2026-05-28T10:40:46Z",
+    "pushed_at": "2026-05-28T10:40:42Z",
+    "discovered_at": "2026-06-01T19:39:04.313Z",
+    "official": true,
+    "extension": {
+      "id": "doom-one-theme",
+      "name": "Doom One",
+      "description": "A faithful and vibrant port of the Doom One theme from Doom Emacs to Zed.",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "authors": [
+        "bashln",
+        "Leo"
+      ],
+      "repository": "https://github.com/bashln/zed-doom",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "oneptica/zed-theme-evangelion": {
+    "name": "Oneptica/Zed-Theme-Evangelion",
+    "url": "https://github.com/Oneptica/Zed-Theme-Evangelion",
+    "description": "Neon Genesis Evangelion inspired theme for Zed",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "zed"
+    ],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-05-12T21:56:59Z",
+    "updated_at": "2026-05-14T00:47:38Z",
+    "pushed_at": "2026-05-13T20:28:40Z",
+    "discovered_at": "2026-06-01T19:39:04.313Z",
+    "official": true,
+    "extension": {
+      "id": "eva-theme",
+      "name": "Evangelion",
+      "description": "Neon Genesis Evangelion inspired dark theme. Unit 01 purple, LCL orange, and NERV aesthetics.",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Oneptica <dev@oneptica.com>"
+      ],
+      "repository": "https://github.com/Oneptica/Zed-Theme-Evangelion",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "chocolatenao/inbedby7pm-zed": {
+    "name": "ChocolateNao/inbedby7pm-zed",
+    "url": "https://github.com/ChocolateNao/inbedby7pm-zed",
+    "description": "🕖 Inbedby7pm VScode Theme Brought to Zed",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2025-10-23T16:25:45Z",
+    "updated_at": "2026-05-31T12:44:07Z",
+    "pushed_at": "2026-05-31T12:44:03Z",
+    "discovered_at": "2026-06-01T19:39:04.313Z",
+    "official": true,
+    "extension": {
+      "id": "inbedby7pm-theme",
+      "name": "In Bed By 7pm",
+      "description": "🕖 A color theme for non-night owls",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "ChocolateNao <andrey12q112@gmail.com>"
+      ],
+      "repository": "https://github.com/ChocolateNao/inbedby7pm-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "ng-hai/zed-rose-pine-recast": {
+    "name": "ng-hai/zed-rose-pine-recast",
+    "url": "https://github.com/ng-hai/zed-rose-pine-recast",
+    "description": "All natural pine, faux fur and a bit of soho vibes for the classy minimalist — code without italics.",
+    "stars": 2,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-04-30T10:35:52Z",
+    "updated_at": "2026-06-01T12:12:10Z",
+    "pushed_at": "2026-06-01T12:12:05Z",
+    "discovered_at": "2026-06-01T19:39:04.313Z",
+    "official": true,
+    "extension": {
+      "id": "rose-pine-recast-theme",
+      "name": "Rosé Pine Recast",
+      "description": "The VSCode Rosé Pine syntax mapping, recast for Zed — canonical palette, reworked token scopes, italics removed.",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Hai Nguyen <nghai.dev@gmail.com>"
+      ],
+      "repository": "https://github.com/ng-hai/zed-rose-pine-recast",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "platformer/zed-senkai": {
+    "name": "platformer/zed-senkai",
+    "url": "https://github.com/platformer/zed-senkai",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-06-01T00:06:44Z",
+    "updated_at": "2026-06-01T01:22:36Z",
+    "pushed_at": "2026-06-01T01:25:16Z",
+    "discovered_at": "2026-06-01T19:39:04.313Z",
+    "official": true,
+    "extension": {
+      "id": "senkai-theme",
+      "name": "Senkai",
+      "description": "A dark theme with perceptually uniform syntax colors. Inspired by Seti Monokai and Penumbra from VS Code.",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "authors": [
+        "Andrew Sen <platformer@github.com>"
+      ],
+      "repository": "https://github.com/platformer/zed-senkai",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "clouby/solarized-osaka-zed": {
+    "name": "clouby/solarized-osaka-zed",
+    "url": "https://github.com/clouby/solarized-osaka-zed",
+    "description": "Solarized Osaka color schemes for Zed",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-04-27T01:41:55Z",
+    "updated_at": "2026-04-28T23:03:14Z",
+    "pushed_at": "2026-04-28T23:03:11Z",
+    "discovered_at": "2026-06-01T19:39:04.313Z",
+    "official": true,
+    "extension": {
+      "id": "solarized-osaka-theme",
+      "name": "Solarized Osaka",
+      "description": "Solarized Osaka color schemes for Zed.",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Carlos López <celb25@gmail.com>"
+      ],
+      "repository": "https://github.com/clouby/solarized-osaka-zed",
       "snippets": null,
       "sections": [],
       "categories": [
