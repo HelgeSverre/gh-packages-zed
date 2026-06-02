@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1508-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1509-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,17 +14,17 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1508** |
-| In official registry | 1070 |
-| Discovered via topics | 438 |
-| Last updated | 2026-06-01 19:39 UTC |
+| Total tracked | **1509** |
+| In official registry | 1073 |
+| Discovered via topics | 436 |
+| Last updated | 2026-06-02 00:44 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
 | Themes | 615 |
-| Grammars | 534 |
+| Grammars | 535 |
 | Language Servers | 499 |
 | Context Servers | 124 |
 | Snippets | 67 |
@@ -70,6 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [TisaneFruitRouge/hoon-zed](https://github.com/TisaneFruitRouge/hoon-zed) | 0 |  |
 | [taylorplewe/canipls-zed](https://github.com/taylorplewe/canipls-zed) | 0 | Zed extension for caniuse-ls |
 | [bashln/zed-doom](https://github.com/bashln/zed-doom) | 0 |  |
 | [Oneptica/Zed-Theme-Evangelion](https://github.com/Oneptica/Zed-Theme-Evangelion) | 0 | Neon Genesis Evangelion inspired theme for Zed |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [momota1029/yulang-zed](https://github.com/momota1029/yulang-zed) | 0 |  |
 | [nzoschke/zed-djot](https://github.com/nzoschke/zed-djot) | 0 |  |
 | [InuzDev/inuzdev-coffee-theme](https://github.com/InuzDev/inuzdev-coffee-theme) | 1 | A zed personalized theme, I will keep this updated and try to make it more pleas... |
-| [FernaandoJr/remix-min-darker-zed](https://github.com/FernaandoJr/remix-min-darker-zed) | 0 |  |
 
 ## Top starred (under 500)
 
@@ -120,7 +120,8 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [almeladev/geode-zed](https://github.com/almeladev/geode-zed) | 0 | 2026-06-01 | 💎 A gem-toned theme for Zed. Color only where it carries me... |
+| [almeladev/geode-zed](https://github.com/almeladev/geode-zed) | 0 | 2026-06-02 | 💎 A gem-toned theme for Zed. Color only where it carries me... |
+| [Sha1rholder/polycarbonate-dark-theme](https://github.com/Sha1rholder/polycarbonate-dark-theme) | 0 | 2026-06-01 | Turn Zed into a clean slab of dark glass. |
 | [BenjaminHalko/flow-icons-zed](https://github.com/BenjaminHalko/flow-icons-zed) | 19 | 2026-06-01 | 🌼 Flow Icons ported to Zed |
 | [ng-hai/zed-rose-pine-recast](https://github.com/ng-hai/zed-rose-pine-recast) | 2 | 2026-06-01 | All natural pine, faux fur and a bit of soho vibes for the c... |
 | [surrealdb/surrealql-zed](https://github.com/surrealdb/surrealql-zed) | 0 | 2026-06-01 | SurrealQL Language Extension for the Zed Editor |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [alysson-souza/zed-fish-lsp](https://github.com/alysson-souza/zed-fish-lsp) | 4 | 2026-05-30 | Fish shell extension for Zed with fish-lsp integration |
 | [SrGaabriel/zed-dhall](https://github.com/SrGaabriel/zed-dhall) | 2 | 2026-05-30 |  |
 | [hadez8877/one-dark-pro-enhanced](https://github.com/hadez8877/one-dark-pro-enhanced) | 5 | 2026-05-29 | The most installed theme in Visual Studio Code modified for ... |
-| [rockas-d/zenburn-transparent](https://github.com/rockas-d/zenburn-transparent) | 0 | 2026-05-29 | Zenburn Transparent — low-contrast Zenburn palette for Zed w... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-02T00:44 | 1 | 451 | 1791 |
 | 2026-06-01T19:39 | 9 | 451 | 1790 |
 | 2026-06-01T14:01 | 0 | 451 | 1781 |
 | 2026-06-01T07:45 | 0 | 451 | 1781 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-05-31T07:18 | 0 | 449 | 1777 |
 | 2026-05-31T00:40 | 2 | 449 | 1777 |
 | 2026-05-30T18:23 | 1 | 449 | 1775 |
-| 2026-05-30T12:25 | 0 | 448 | 1774 |
 
 ---
 

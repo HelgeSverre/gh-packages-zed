@@ -8942,8 +8942,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-03-08T22:03:26Z",
-    "updated_at": "2026-05-11T13:28:39Z",
-    "pushed_at": "2026-05-11T13:26:15Z",
+    "updated_at": "2026-06-01T21:48:23Z",
+    "pushed_at": "2026-06-01T21:48:19Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false,
     "extension": {
@@ -12235,6 +12235,7 @@
     "updated_at": "2026-05-15T21:12:10Z",
     "pushed_at": "2026-05-15T21:11:46Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
+    "official": true,
     "extension": {
       "id": "python-autodoc",
       "name": "Python Auto-Doc",
@@ -14990,6 +14991,7 @@
     "updated_at": "2026-05-08T13:48:11Z",
     "pushed_at": "2026-04-27T15:15:21Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
+    "official": true,
     "extension": {
       "id": "effect-language-service-tsgo",
       "name": "Effect Language Service (tsgo)",
@@ -51134,8 +51136,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-05-31T21:58:49Z",
-    "updated_at": "2026-06-01T03:03:43Z",
-    "pushed_at": "2026-06-01T19:05:37Z",
+    "updated_at": "2026-06-02T00:43:37Z",
+    "pushed_at": "2026-06-02T00:43:33Z",
     "discovered_at": "2026-06-01T00:42:32.382Z",
     "official": true,
     "extension": {
@@ -51374,6 +51376,39 @@
       "sections": [],
       "categories": [
         "theme"
+      ]
+    }
+  },
+  "tisanefruitrouge/hoon-zed": {
+    "name": "TisaneFruitRouge/hoon-zed",
+    "url": "https://github.com/TisaneFruitRouge/hoon-zed",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2026-05-08T21:54:31Z",
+    "updated_at": "2026-05-26T18:27:17Z",
+    "pushed_at": "2026-05-26T18:27:13Z",
+    "discovered_at": "2026-06-02T00:44:33.201Z",
+    "official": true,
+    "extension": {
+      "id": "hoon",
+      "name": "Hoon",
+      "description": "Hoon language support (syntax highlighting, brackets, comments).",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "TisaneFruitRouge"
+      ],
+      "repository": "https://github.com/TisaneFruitRouge/hoon-zed",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
       ]
     }
   }
