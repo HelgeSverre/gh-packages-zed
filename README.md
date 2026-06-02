@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1509** |
 | In official registry | 1073 |
 | Discovered via topics | 436 |
-| Last updated | 2026-06-02 13:15 UTC |
+| Last updated | 2026-06-02 19:14 UTC |
 
 ### By capability
 
@@ -104,9 +104,9 @@ cd website && npm install && npm run dev
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 185 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
-| [zed-extensions/typst](https://github.com/zed-extensions/typst) | 172 | Typst extension for zed |
-| [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 167 | Zed support for the Godot game engine and the GDScript language |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 186 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
+| [zed-extensions/typst](https://github.com/zed-extensions/typst) | 173 | Typst extension for zed |
+| [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 168 | Zed support for the Godot game engine and the GDScript language |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 159 | A macOS native style theme for Zed, let it same like native app in macOS. |
 | [thedadams/zed-comment](https://github.com/thedadams/zed-comment) | 148 | A comment extension for the Zed editor |
 | [slymax/zedokai](https://github.com/slymax/zedokai) | 145 | a theme for Zed based on the Monokai Pro color scheme |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-02T19:14 | 0 | 450 | 1791 |
 | 2026-06-02T13:15 | 0 | 450 | 1791 |
 | 2026-06-02T07:38 | 0 | 451 | 1791 |
 | 2026-06-02T00:44 | 1 | 451 | 1791 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-01T00:42 | 4 | 449 | 1781 |
 | 2026-05-31T18:24 | 0 | 449 | 1777 |
 | 2026-05-31T12:28 | 0 | 449 | 1777 |
-| 2026-05-31T07:18 | 0 | 449 | 1777 |
 
 ---
 
