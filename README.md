@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1509** |
 | In official registry | 1073 |
 | Discovered via topics | 436 |
-| Last updated | 2026-06-02 07:38 UTC |
+| Last updated | 2026-06-02 13:15 UTC |
 
 ### By capability
 
@@ -105,7 +105,7 @@ cd website && npm install && npm run dev
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 185 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
-| [zed-extensions/typst](https://github.com/zed-extensions/typst) | 171 | Typst extension for zed |
+| [zed-extensions/typst](https://github.com/zed-extensions/typst) | 172 | Typst extension for zed |
 | [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 167 | Zed support for the Godot game engine and the GDScript language |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 159 | A macOS native style theme for Zed, let it same like native app in macOS. |
 | [thedadams/zed-comment](https://github.com/thedadams/zed-comment) | 148 | A comment extension for the Zed editor |
@@ -120,8 +120,8 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 83 | 2026-06-02 | True Dark Theme for Zed IDE |
 | [almeladev/geode-zed](https://github.com/almeladev/geode-zed) | 0 | 2026-06-02 | 💎 A gem-toned theme for Zed. Color only where it carries me... |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 83 | 2026-06-02 | True Dark Theme for Zed IDE |
 | [alanisme/vscode-themes-for-zed](https://github.com/alanisme/vscode-themes-for-zed) | 11 | 2026-06-02 | ❤️ All 19 built-in Visual Studio Code color themes, ported t... |
 | [Sha1rholder/polycarbonate-dark-theme](https://github.com/Sha1rholder/polycarbonate-dark-theme) | 0 | 2026-06-01 | Turn Zed into a clean slab of dark glass. |
 | [BenjaminHalko/flow-icons-zed](https://github.com/BenjaminHalko/flow-icons-zed) | 19 | 2026-06-01 | 🌼 Flow Icons ported to Zed |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-02T13:15 | 0 | 450 | 1791 |
 | 2026-06-02T07:38 | 0 | 451 | 1791 |
 | 2026-06-02T00:44 | 1 | 451 | 1791 |
 | 2026-06-01T19:39 | 9 | 451 | 1790 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-05-31T18:24 | 0 | 449 | 1777 |
 | 2026-05-31T12:28 | 0 | 449 | 1777 |
 | 2026-05-31T07:18 | 0 | 449 | 1777 |
-| 2026-05-31T00:40 | 2 | 449 | 1777 |
 
 ---
 
