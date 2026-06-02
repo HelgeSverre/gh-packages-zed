@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1509** |
 | In official registry | 1073 |
 | Discovered via topics | 436 |
-| Last updated | 2026-06-02 00:44 UTC |
+| Last updated | 2026-06-02 07:38 UTC |
 
 ### By capability
 
@@ -120,12 +120,13 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 83 | 2026-06-02 | True Dark Theme for Zed IDE |
 | [almeladev/geode-zed](https://github.com/almeladev/geode-zed) | 0 | 2026-06-02 | 💎 A gem-toned theme for Zed. Color only where it carries me... |
+| [alanisme/vscode-themes-for-zed](https://github.com/alanisme/vscode-themes-for-zed) | 11 | 2026-06-02 | ❤️ All 19 built-in Visual Studio Code color themes, ported t... |
 | [Sha1rholder/polycarbonate-dark-theme](https://github.com/Sha1rholder/polycarbonate-dark-theme) | 0 | 2026-06-01 | Turn Zed into a clean slab of dark glass. |
 | [BenjaminHalko/flow-icons-zed](https://github.com/BenjaminHalko/flow-icons-zed) | 19 | 2026-06-01 | 🌼 Flow Icons ported to Zed |
 | [ng-hai/zed-rose-pine-recast](https://github.com/ng-hai/zed-rose-pine-recast) | 2 | 2026-06-01 | All natural pine, faux fur and a bit of soho vibes for the c... |
 | [surrealdb/surrealql-zed](https://github.com/surrealdb/surrealql-zed) | 0 | 2026-06-01 | SurrealQL Language Extension for the Zed Editor |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 83 | 2026-06-01 | True Dark Theme for Zed IDE |
 | [platformer/zed-senkai](https://github.com/platformer/zed-senkai) | 0 | 2026-06-01 |  |
 | [mike-bronner/zed-phpmd-lsp](https://github.com/mike-bronner/zed-phpmd-lsp) | 4 | 2026-05-31 | PHPMD linter for Zed editor. |
 | [mike-bronner/zed-phpcs-lsp](https://github.com/mike-bronner/zed-phpcs-lsp) | 16 | 2026-05-31 | PHPCS linter for Zed |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [tbxark/vscode2026-theme-zed](https://github.com/tbxark/vscode2026-theme-zed) | 0 | 2026-05-30 | VS Code 2026 theme for Zed |
 | [alysson-souza/zed-fish-lsp](https://github.com/alysson-souza/zed-fish-lsp) | 4 | 2026-05-30 | Fish shell extension for Zed with fish-lsp integration |
 | [SrGaabriel/zed-dhall](https://github.com/SrGaabriel/zed-dhall) | 2 | 2026-05-30 |  |
-| [hadez8877/one-dark-pro-enhanced](https://github.com/hadez8877/one-dark-pro-enhanced) | 5 | 2026-05-29 | The most installed theme in Visual Studio Code modified for ... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-02T07:38 | 0 | 451 | 1791 |
 | 2026-06-02T00:44 | 1 | 451 | 1791 |
 | 2026-06-01T19:39 | 9 | 451 | 1790 |
 | 2026-06-01T14:01 | 0 | 451 | 1781 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-05-31T12:28 | 0 | 449 | 1777 |
 | 2026-05-31T07:18 | 0 | 449 | 1777 |
 | 2026-05-31T00:40 | 2 | 449 | 1777 |
-| 2026-05-30T18:23 | 1 | 449 | 1775 |
 
 ---
 
