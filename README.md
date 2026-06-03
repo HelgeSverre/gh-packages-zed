@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1509** |
 | In official registry | 1073 |
 | Discovered via topics | 436 |
-| Last updated | 2026-06-03 13:36 UTC |
+| Last updated | 2026-06-03 19:19 UTC |
 
 ### By capability
 
@@ -120,6 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [pursvir/zed-todotxt](https://github.com/pursvir/zed-todotxt) | 6 | 2026-06-03 | Todo.txt support for Zed |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 140 | 2026-06-03 | A port of the Neovim theme to Zed editor |
 | [almeladev/geode-zed](https://github.com/almeladev/geode-zed) | 1 | 2026-06-03 | 💎 A gem-toned theme for Zed. Color only where it carries me... |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-06-03 | A Zed extension that allows to highlight all occurrences of ... |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [mike-bronner/zed-laravel](https://github.com/mike-bronner/zed-laravel) | 19 | 2026-05-30 | Laravel LSP for Zed editor. |
 | [pranavmangal/zed-ssh-config](https://github.com/pranavmangal/zed-ssh-config) | 2 | 2026-05-30 | A Zed extension that provides syntax highlighting for SSH co... |
 | [tbxark/vscode2026-theme-zed](https://github.com/tbxark/vscode2026-theme-zed) | 0 | 2026-05-30 | VS Code 2026 theme for Zed |
-| [alysson-souza/zed-fish-lsp](https://github.com/alysson-souza/zed-fish-lsp) | 4 | 2026-05-30 | Fish shell extension for Zed with fish-lsp integration |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-03T19:19 | 0 | 450 | 1791 |
 | 2026-06-03T13:36 | 0 | 450 | 1791 |
 | 2026-06-03T07:41 | 0 | 450 | 1791 |
 | 2026-06-03T00:49 | 0 | 450 | 1791 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-02T00:44 | 1 | 451 | 1791 |
 | 2026-06-01T19:39 | 9 | 451 | 1790 |
 | 2026-06-01T14:01 | 0 | 451 | 1781 |
-| 2026-06-01T07:45 | 0 | 451 | 1781 |
 
 ---
 
