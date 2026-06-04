@@ -52,8 +52,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-04-17T01:34:39Z",
-    "updated_at": "2026-06-03T22:10:38Z",
-    "pushed_at": "2026-06-03T21:00:50Z",
+    "updated_at": "2026-06-04T05:48:49Z",
+    "pushed_at": "2026-06-04T05:48:45Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -156,8 +156,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-06-03T02:59:13Z",
-    "pushed_at": "2026-06-03T02:59:10Z",
+    "updated_at": "2026-06-04T02:59:06Z",
+    "pushed_at": "2026-06-04T02:59:02Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -279,7 +279,7 @@
     "name": "Nako0/devglobe-extension",
     "url": "https://github.com/Nako0/devglobe-extension",
     "description": "Official Extensions for DevGlobe. Show up on a 3D globe in real time while you code, with automatic time tracking and coding metrics.",
-    "stars": 142,
+    "stars": 143,
     "forks": 9,
     "topics": [
       "claude-code-plugin",
@@ -299,7 +299,7 @@
     "language": "TypeScript",
     "license": "MIT",
     "created_at": "2026-03-06T15:12:36Z",
-    "updated_at": "2026-06-03T22:31:05Z",
+    "updated_at": "2026-06-04T04:53:09Z",
     "pushed_at": "2026-05-28T09:15:32Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
@@ -398,8 +398,8 @@
     "language": "Rust",
     "license": "BlueOak-1.0.0",
     "created_at": "2026-04-22T09:18:16Z",
-    "updated_at": "2026-06-02T04:38:57Z",
-    "pushed_at": "2026-06-02T04:38:53Z",
+    "updated_at": "2026-06-04T04:42:31Z",
+    "pushed_at": "2026-06-04T04:44:20Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -3365,7 +3365,7 @@
     "name": "jenslys/zed-catppuccin-blur",
     "url": "https://github.com/jenslys/zed-catppuccin-blur",
     "description": "Catppuccin Theme but as blurred variants + custom ones",
-    "stars": 324,
+    "stars": 325,
     "forks": 13,
     "topics": [
       "catppuccin",
@@ -3377,7 +3377,7 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2024-07-12T16:43:02Z",
-    "updated_at": "2026-06-03T11:53:43Z",
+    "updated_at": "2026-06-04T07:18:09Z",
     "pushed_at": "2026-01-26T02:22:08Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -5567,8 +5567,8 @@
     "language": null,
     "license": null,
     "created_at": "2026-04-28T17:27:28Z",
-    "updated_at": "2026-06-03T16:37:36Z",
-    "pushed_at": "2026-06-03T16:36:39Z",
+    "updated_at": "2026-06-04T06:06:50Z",
+    "pushed_at": "2026-06-04T06:06:46Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
   },
@@ -6405,8 +6405,8 @@
     "language": "Lua",
     "license": "GPL-3.0",
     "created_at": "2021-07-29T01:24:02Z",
-    "updated_at": "2026-06-04T00:28:23Z",
-    "pushed_at": "2026-06-04T00:28:19Z",
+    "updated_at": "2026-06-04T04:48:58Z",
+    "pushed_at": "2026-06-04T04:48:54Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
   },
@@ -18309,8 +18309,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-06-03T19:20:26Z",
-    "pushed_at": "2026-06-03T19:20:21Z",
+    "updated_at": "2026-06-04T00:50:05Z",
+    "pushed_at": "2026-06-04T00:50:01Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -29907,5 +29907,31 @@
     "pushed_at": "2026-05-26T18:27:13Z",
     "discovered_at": "2026-06-02T00:44:33.201Z",
     "official": true
+  },
+  "b67687/agent-stack": {
+    "name": "B67687/agent-stack",
+    "url": "https://github.com/B67687/agent-stack",
+    "description": "ACP protocol + omp acp agent backend + OpenAI-compatible HTTP bridge for Zed.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "acp",
+      "acp-protocol",
+      "agent-stack",
+      "ai-agent",
+      "ai-proxy",
+      "bridge",
+      "omp",
+      "rust",
+      "zed",
+      "zed-editor"
+    ],
+    "language": "TypeScript",
+    "license": null,
+    "created_at": "2026-06-03T05:59:41Z",
+    "updated_at": "2026-06-04T02:57:54Z",
+    "pushed_at": "2026-06-04T02:57:51Z",
+    "discovered_at": "2026-06-04T07:38:02.363Z",
+    "official": false
   }
 }

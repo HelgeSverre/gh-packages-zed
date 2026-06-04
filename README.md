@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1509** |
 | In official registry | 1073 |
 | Discovered via topics | 436 |
-| Last updated | 2026-06-04 00:49 UTC |
+| Last updated | 2026-06-04 07:38 UTC |
 
 ### By capability
 
@@ -97,7 +97,7 @@ cd website && npm install && npm run dev
 |---|---|---|
 | [biomejs/biome-zed](https://github.com/biomejs/biome-zed) | 466 | Biome extension for Zed |
 | [xhyrom/zed-discord-presence](https://github.com/xhyrom/zed-discord-presence) | 415 | extension for zed that adds support for discord rich presence using lsp |
-| [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 324 | Catppuccin Theme but as blurred variants + custom ones |
+| [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 325 | Catppuccin Theme but as blurred variants + custom ones |
 | [oxc-project/oxc-zed](https://github.com/oxc-project/oxc-zed) | 256 | Oxc extension for Zed |
 | [catppuccin/zed-icons](https://github.com/catppuccin/zed-icons) | 240 | 🦊 Soothing pastel icons for Zed |
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
@@ -120,11 +120,11 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 83 | 2026-06-04 | True Dark Theme for Zed IDE |
 | [pursvir/zed-todotxt](https://github.com/pursvir/zed-todotxt) | 6 | 2026-06-03 | Todo.txt support for Zed |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 140 | 2026-06-03 | A port of the Neovim theme to Zed editor |
 | [almeladev/geode-zed](https://github.com/almeladev/geode-zed) | 1 | 2026-06-03 | 💎 A gem-toned theme for Zed. Color only where it carries me... |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-06-03 | A Zed extension that allows to highlight all occurrences of ... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 83 | 2026-06-03 | True Dark Theme for Zed IDE |
 | [alanisme/vscode-themes-for-zed](https://github.com/alanisme/vscode-themes-for-zed) | 11 | 2026-06-02 | ❤️ All 19 built-in Visual Studio Code color themes, ported t... |
 | [Sha1rholder/polycarbonate-dark-theme](https://github.com/Sha1rholder/polycarbonate-dark-theme) | 0 | 2026-06-01 | Turn Zed into a clean slab of dark glass. |
 | [BenjaminHalko/flow-icons-zed](https://github.com/BenjaminHalko/flow-icons-zed) | 19 | 2026-06-01 | 🌼 Flow Icons ported to Zed |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-04T07:38 | 1 | 450 | 1792 |
 | 2026-06-04T00:49 | 0 | 450 | 1791 |
 | 2026-06-03T19:19 | 0 | 450 | 1791 |
 | 2026-06-03T13:36 | 0 | 450 | 1791 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-02T13:15 | 0 | 450 | 1791 |
 | 2026-06-02T07:38 | 0 | 451 | 1791 |
 | 2026-06-02T00:44 | 1 | 451 | 1791 |
-| 2026-06-01T19:39 | 9 | 451 | 1790 |
 
 ---
 
