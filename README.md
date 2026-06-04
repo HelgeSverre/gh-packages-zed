@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1509** |
 | In official registry | 1073 |
 | Discovered via topics | 436 |
-| Last updated | 2026-06-03 19:19 UTC |
+| Last updated | 2026-06-04 00:49 UTC |
 
 ### By capability
 
@@ -133,7 +133,7 @@ cd website && npm install && npm run dev
 | [platformer/zed-senkai](https://github.com/platformer/zed-senkai) | 0 | 2026-06-01 |  |
 | [mike-bronner/zed-phpmd-lsp](https://github.com/mike-bronner/zed-phpmd-lsp) | 4 | 2026-05-31 | PHPMD linter for Zed editor. |
 | [mike-bronner/zed-phpcs-lsp](https://github.com/mike-bronner/zed-phpcs-lsp) | 16 | 2026-05-31 | PHPCS linter for Zed |
-| [ejentum/zed-ejentum-mcp](https://github.com/ejentum/zed-ejentum-mcp) | 0 | 2026-05-31 | Zed editor extension wrapping the Ejentum MCP server. 8 cogn... |
+| [ejentum/zed-ejentum-mcp](https://github.com/ejentum/zed-ejentum-mcp) | 1 | 2026-05-31 | Zed editor extension wrapping the Ejentum MCP server. 8 cogn... |
 | [ChocolateNao/inbedby7pm-zed](https://github.com/ChocolateNao/inbedby7pm-zed) | 0 | 2026-05-31 | 🕖 Inbedby7pm VScode Theme Brought to Zed |
 | [htahaozlu/context-bar](https://github.com/htahaozlu/context-bar) | 12 | 2026-05-31 | Usage and cost visibility for Claude Code and Codex — native... |
 | [owlx56/zed-lean4](https://github.com/owlx56/zed-lean4) | 41 | 2026-05-30 |  |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-04T00:49 | 0 | 450 | 1791 |
 | 2026-06-03T19:19 | 0 | 450 | 1791 |
 | 2026-06-03T13:36 | 0 | 450 | 1791 |
 | 2026-06-03T07:41 | 0 | 450 | 1791 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-02T07:38 | 0 | 451 | 1791 |
 | 2026-06-02T00:44 | 1 | 451 | 1791 |
 | 2026-06-01T19:39 | 9 | 451 | 1790 |
-| 2026-06-01T14:01 | 0 | 451 | 1781 |
 
 ---
 
