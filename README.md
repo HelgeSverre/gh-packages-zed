@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1509** |
 | In official registry | 1074 |
 | Discovered via topics | 435 |
-| Last updated | 2026-06-04 13:03 UTC |
+| Last updated | 2026-06-04 18:46 UTC |
 
 ### By capability
 
@@ -120,6 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 187 | 2026-06-04 | Zed plugin for automatic time tracking and metrics generated... |
 | [zed-extensions/swift](https://github.com/zed-extensions/swift) | 140 | 2026-06-04 | Extension for Zed to support Swift |
 | [zed-extensions/kotlin](https://github.com/zed-extensions/kotlin) | 91 | 2026-06-04 | Kotlin support |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 83 | 2026-06-04 | True Dark Theme for Zed IDE |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [ChocolateNao/inbedby7pm-zed](https://github.com/ChocolateNao/inbedby7pm-zed) | 0 | 2026-05-31 | 🕖 Inbedby7pm VScode Theme Brought to Zed |
 | [htahaozlu/context-bar](https://github.com/htahaozlu/context-bar) | 12 | 2026-05-31 | Usage and cost visibility for Claude Code and Codex — native... |
 | [owlx56/zed-lean4](https://github.com/owlx56/zed-lean4) | 42 | 2026-05-30 |  |
-| [mike-bronner/zed-laravel](https://github.com/mike-bronner/zed-laravel) | 19 | 2026-05-30 | Laravel LSP for Zed editor. |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-04T18:46 | 2 | 449 | 1794 |
 | 2026-06-04T13:03 | 0 | 450 | 1792 |
 | 2026-06-04T07:38 | 1 | 450 | 1792 |
 | 2026-06-04T00:49 | 0 | 450 | 1791 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-03T00:49 | 0 | 450 | 1791 |
 | 2026-06-02T19:14 | 0 | 450 | 1791 |
 | 2026-06-02T13:15 | 0 | 450 | 1791 |
-| 2026-06-02T07:38 | 0 | 451 | 1791 |
 
 ---
 
