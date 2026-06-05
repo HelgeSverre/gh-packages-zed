@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1510** |
 | In official registry | 1074 |
 | Discovered via topics | 436 |
-| Last updated | 2026-06-05 07:29 UTC |
+| Last updated | 2026-06-05 13:00 UTC |
 
 ### By capability
 
@@ -120,10 +120,10 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 188 | 2026-06-05 | Zed plugin for automatic time tracking and metrics generated... |
 | [htahaozlu/context-bar](https://github.com/htahaozlu/context-bar) | 12 | 2026-06-05 | Usage and cost visibility for Claude Code and Codex — native... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 83 | 2026-06-05 | True Dark Theme for Zed IDE |
 | [ysalitrynskyi/zed-theme-darcula](https://github.com/ysalitrynskyi/zed-theme-darcula) | 0 | 2026-06-04 | The classic JetBrains Darcula color scheme for the Zed edito... |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 188 | 2026-06-04 | Zed plugin for automatic time tracking and metrics generated... |
 | [zed-extensions/swift](https://github.com/zed-extensions/swift) | 140 | 2026-06-04 | Extension for Zed to support Swift |
 | [zed-extensions/kotlin](https://github.com/zed-extensions/kotlin) | 91 | 2026-06-04 | Kotlin support |
 | [pursvir/zed-todotxt](https://github.com/pursvir/zed-todotxt) | 6 | 2026-06-03 | Todo.txt support for Zed |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-05T13:00 | 0 | 452 | 1795 |
 | 2026-06-05T07:29 | 0 | 452 | 1795 |
 | 2026-06-05T00:42 | 1 | 451 | 1795 |
 | 2026-06-04T18:46 | 2 | 449 | 1794 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-03T19:19 | 0 | 450 | 1791 |
 | 2026-06-03T13:36 | 0 | 450 | 1791 |
 | 2026-06-03T07:41 | 0 | 450 | 1791 |
-| 2026-06-03T00:49 | 0 | 450 | 1791 |
 
 ---
 
