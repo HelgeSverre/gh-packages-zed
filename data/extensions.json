@@ -327,7 +327,7 @@
     "url": "https://github.com/htahaozlu/context-bar",
     "description": "Usage and cost visibility for Claude Code and Codex — native macOS menubar app + cross-platform terminal CLI (npm, cargo, crates.io). ccusage-class reports, live 5h-block TUI, pure-Rust engine. Cost numbers are API-equivalent estimates.",
     "stars": 12,
-    "forks": 0,
+    "forks": 1,
     "topics": [
       "agent-workflows",
       "ai-coding-agents",
@@ -952,7 +952,7 @@
     "name": "vitallium/zed-modus-themes",
     "url": "https://github.com/vitallium/zed-modus-themes",
     "description": "Port of Modus Themes (https://protesilaos.com/emacs/modus-themes) for Zed",
-    "stars": 48,
+    "stars": 49,
     "forks": 3,
     "topics": [
       "zed",
@@ -962,7 +962,7 @@
     "language": "Jsonnet",
     "license": "GPL-3.0",
     "created_at": "2024-12-28T17:27:06Z",
-    "updated_at": "2026-05-31T07:57:10Z",
+    "updated_at": "2026-06-04T21:48:28Z",
     "pushed_at": "2026-05-19T20:43:00Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -51410,6 +51410,48 @@
       ],
       "categories": [
         "grammar"
+      ]
+    }
+  },
+  "ysalitrynskyi/zed-theme-darcula": {
+    "name": "ysalitrynskyi/zed-theme-darcula",
+    "url": "https://github.com/ysalitrynskyi/zed-theme-darcula",
+    "description": "The classic JetBrains Darcula color scheme for the Zed editor — 9 dark variants in one extension",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "color-scheme",
+      "darcula",
+      "dark-theme",
+      "jetbrains",
+      "syntax-highlighting",
+      "theme",
+      "zed",
+      "zed-editor",
+      "zed-extension",
+      "zed-theme"
+    ],
+    "language": null,
+    "license": "Apache-2.0",
+    "created_at": "2026-06-04T15:06:13Z",
+    "updated_at": "2026-06-04T21:37:05Z",
+    "pushed_at": "2026-06-04T21:37:02Z",
+    "discovered_at": "2026-06-05T00:42:07.669Z",
+    "official": false,
+    "extension": {
+      "id": "darcula",
+      "name": "Darcula",
+      "description": "The classic JetBrains Darcula color scheme for Zed, with 9 variants: Lighter, Darcula, Dim, Darker, Pitch Black, High Contrast, Vivid, Vivid Darker, and Vivid Black",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "authors": [
+        "Yevhen Salitrynskyi <ysalitrynskyi@gmail.com>"
+      ],
+      "repository": "https://github.com/ysalitrynskyi/zed-theme-darcula",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
       ]
     }
   }

@@ -52,8 +52,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-04-17T01:34:39Z",
-    "updated_at": "2026-06-04T15:44:10Z",
-    "pushed_at": "2026-06-04T15:42:31Z",
+    "updated_at": "2026-06-04T23:41:57Z",
+    "pushed_at": "2026-06-04T23:41:54Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -248,7 +248,7 @@
     "url": "https://github.com/htahaozlu/context-bar",
     "description": "Usage and cost visibility for Claude Code and Codex — native macOS menubar app + cross-platform terminal CLI (npm, cargo, crates.io). ccusage-class reports, live 5h-block TUI, pure-Rust engine. Cost numbers are API-equivalent estimates.",
     "stars": 12,
-    "forks": 0,
+    "forks": 1,
     "topics": [
       "agent-workflows",
       "ai-coding-agents",
@@ -279,7 +279,7 @@
     "name": "Nako0/devglobe-extension",
     "url": "https://github.com/Nako0/devglobe-extension",
     "description": "Official Extensions for DevGlobe. Show up on a 3D globe in real time while you code, with automatic time tracking and coding metrics.",
-    "stars": 144,
+    "stars": 145,
     "forks": 9,
     "topics": [
       "claude-code-plugin",
@@ -299,7 +299,7 @@
     "language": "TypeScript",
     "license": "MIT",
     "created_at": "2026-03-06T15:12:36Z",
-    "updated_at": "2026-06-04T15:42:45Z",
+    "updated_at": "2026-06-04T20:24:25Z",
     "pushed_at": "2026-05-28T09:15:32Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
@@ -699,7 +699,7 @@
     "name": "vitallium/zed-modus-themes",
     "url": "https://github.com/vitallium/zed-modus-themes",
     "description": "Port of Modus Themes (https://protesilaos.com/emacs/modus-themes) for Zed",
-    "stars": 48,
+    "stars": 49,
     "forks": 3,
     "topics": [
       "zed",
@@ -709,7 +709,7 @@
     "language": "Jsonnet",
     "license": "GPL-3.0",
     "created_at": "2024-12-28T17:27:06Z",
-    "updated_at": "2026-05-31T07:57:10Z",
+    "updated_at": "2026-06-04T21:48:28Z",
     "pushed_at": "2026-05-19T20:43:00Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -6405,8 +6405,8 @@
     "language": "Lua",
     "license": "GPL-3.0",
     "created_at": "2021-07-29T01:24:02Z",
-    "updated_at": "2026-06-04T14:39:04Z",
-    "pushed_at": "2026-06-04T14:35:49Z",
+    "updated_at": "2026-06-04T22:30:59Z",
+    "pushed_at": "2026-06-04T22:30:56Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
   },
@@ -18310,8 +18310,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-06-04T13:04:28Z",
-    "pushed_at": "2026-06-04T13:04:01Z",
+    "updated_at": "2026-06-04T18:47:18Z",
+    "pushed_at": "2026-06-04T18:47:13Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -29995,6 +29995,32 @@
     "updated_at": "2026-06-04T16:01:44Z",
     "pushed_at": "2026-06-04T15:59:39Z",
     "discovered_at": "2026-06-04T18:46:41.571Z",
+    "official": false
+  },
+  "ysalitrynskyi/zed-theme-darcula": {
+    "name": "ysalitrynskyi/zed-theme-darcula",
+    "url": "https://github.com/ysalitrynskyi/zed-theme-darcula",
+    "description": "The classic JetBrains Darcula color scheme for the Zed editor — 9 dark variants in one extension",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "color-scheme",
+      "darcula",
+      "dark-theme",
+      "jetbrains",
+      "syntax-highlighting",
+      "theme",
+      "zed",
+      "zed-editor",
+      "zed-extension",
+      "zed-theme"
+    ],
+    "language": null,
+    "license": "Apache-2.0",
+    "created_at": "2026-06-04T15:06:13Z",
+    "updated_at": "2026-06-04T21:37:05Z",
+    "pushed_at": "2026-06-04T21:37:02Z",
+    "discovered_at": "2026-06-05T00:42:07.669Z",
     "official": false
   }
 }

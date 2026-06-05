@@ -1,0 +1,208 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Darcula - Zed Extension Safari</title><meta name="description" content="The classic JetBrains Darcula color scheme for the Zed editor — 9 dark variants in one extension"><link rel="canonical" href="https://helgesverre.github.io/gh-packages-zed/package/ysalitrynskyi/zed-theme-darcula/"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Darcula - Zed Extension Safari"><meta property="og:description" content="The classic JetBrains Darcula color scheme for the Zed editor — 9 dark variants in one extension"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed/package/ysalitrynskyi/zed-theme-darcula/"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Darcula - Zed Extension Safari"><meta name="twitter:description" content="The classic JetBrains Darcula color scheme for the Zed editor — 9 dark variants in one extension"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/gh-packages-zed/_astro/ClientRouter.astro_astro_type_script_index_0_lang.ClVLs1kt.js"></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Darcula","description":"The classic JetBrains Darcula color scheme for the Zed editor — 9 dark variants in one extension","applicationCategory":"DeveloperApplication","operatingSystem":"macOS, Linux, Windows","url":"https://zed.dev/extensions/darcula","codeRepository":"https://github.com/ysalitrynskyi/zed-theme-darcula","author":[{"@type":"Person","name":"Yevhen Salitrynskyi"}],"softwareVersion":"1.0.0","license":"Apache-2.0","keywords":"theme","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/Layout.CGDlMdWE.css"><script type="module" src="/gh-packages-zed/_astro/page.B8i1Zz-u.js"></script></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <a href="#main" class="skip-to-content">Skip to content</a> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" data-astro-transition-persist="astro-fhchcgd7-1"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <script type="application/json" id="pkg-extras">{"url":"https://github.com/ysalitrynskyi/zed-theme-darcula","language":null,"license":"Apache-2.0","topics":["color-scheme","darcula","dark-theme","jetbrains","syntax-highlighting","theme","zed","zed-editor","zed-extension","zed-theme"],"extension":{"authors":["Yevhen Salitrynskyi"],"schema_version":1}}</script> <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> ysalitrynskyi/zed-theme-darcula </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> Darcula </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> The classic JetBrains Darcula color scheme for Zed, with 9 variants: Lighter, Darcula, Dim, Darker, Pitch Black, High Contrast, Vivid, Vivid Darker, and Vivid Black </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="theme">Theme</span> </div> </div> </div> </header> <main id="main" class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/darcula" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/ysalitrynskyi/zed-theme-darcula" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1.0.0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">darcula</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">Apache-2.0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">3h ago</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">Yevhen Salitrynskyi</dd> </div> </dl>  <h2 class="mt-5 text-xs uppercase font-mono" style="color:var(--zed-muted);">Topics</h2> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> color-scheme </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> darcula </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> dark-theme </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> jetbrains </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> syntax-highlighting </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> theme </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed-editor </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed-extension </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed-theme </span> </div>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-darcula-theme-for-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#darcula-theme-for-zed"><span class="heading-anchor-icon">#</span></a>Darcula Theme for Zed</h1>
+<p>The classic <strong>Darcula</strong> color scheme from JetBrains IDEs (IntelliJ IDEA, PhpStorm, PyCharm, WebStorm, RustRover, etc.), ported to the <a href="https://zed.dev/">Zed editor</a>.</p>
+<p>This brings the familiar dark Darcula look — <code>#2B2B2B</code> background, <code>#A9B7C6</code> foreground, orange keywords, green strings, blue numbers, purple fields, yellow methods — to Zed.</p>
+<p>Ships as <strong>9 variants</strong>, all built from the same canonical Darcula palette and listed here from lightest to darkest within each family.</p>
+<h3 id="user-content-classic"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#classic"><span class="heading-anchor-icon">#</span></a>Classic</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Variant</th><th>Editor background</th></tr></thead><tbody><tr><td><strong>Darcula Lighter</strong></td><td><code>#313335</code> — softer, raised background</td></tr><tr><td><strong>Darcula</strong></td><td><code>#2B2B2B</code> — the original classic scheme</td></tr><tr><td><strong>Darcula Dim</strong></td><td><code>#252525</code> — a touch deeper than classic</td></tr><tr><td><strong>Darcula Darker</strong></td><td><code>#1E1E1E</code> — deeper background</td></tr><tr><td><strong>Darcula Pitch Black</strong></td><td><code>#000000</code> — true black, ideal for OLED</td></tr></tbody></table>
+<h3 id="user-content-high-contrast"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#high-contrast"><span class="heading-anchor-icon">#</span></a>High Contrast</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Variant</th><th>Editor background</th></tr></thead><tbody><tr><td><strong>Darcula High Contrast</strong></td><td><code>#000000</code> — black background, brighter foreground and bolder syntax</td></tr></tbody></table>
+<h3 id="user-content-vivid-more-saturated-syntax"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#vivid-more-saturated-syntax"><span class="heading-anchor-icon">#</span></a>Vivid (more saturated syntax)</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Variant</th><th>Editor background</th></tr></thead><tbody><tr><td><strong>Darcula Vivid</strong></td><td><code>#2A2C2E</code> — vivid syntax on the classic background</td></tr><tr><td><strong>Darcula Vivid Darker</strong></td><td><code>#1E1E1E</code> — vivid syntax on a deeper background</td></tr><tr><td><strong>Darcula Vivid Black</strong></td><td><code>#000000</code> — vivid syntax on true black</td></tr></tbody></table>
+<h2 id="user-content-previews"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#previews"><span class="heading-anchor-icon">#</span></a>Previews</h2>
+<h3 id="user-content-darcula-lighter"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#darcula-lighter"><span class="heading-anchor-icon">#</span></a>Darcula Lighter</h3>
+<p><img src="https://raw.githubusercontent.com/ysalitrynskyi/zed-theme-darcula/HEAD/screenshots/darcula-lighter.png" alt="Darcula Lighter"></p>
+<h3 id="user-content-darcula"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#darcula"><span class="heading-anchor-icon">#</span></a>Darcula</h3>
+<p><img src="https://raw.githubusercontent.com/ysalitrynskyi/zed-theme-darcula/HEAD/screenshots/darcula.png" alt="Darcula"></p>
+<h3 id="user-content-darcula-dim"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#darcula-dim"><span class="heading-anchor-icon">#</span></a>Darcula Dim</h3>
+<p><img src="https://raw.githubusercontent.com/ysalitrynskyi/zed-theme-darcula/HEAD/screenshots/darcula-dim.png" alt="Darcula Dim"></p>
+<h3 id="user-content-darcula-darker"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#darcula-darker"><span class="heading-anchor-icon">#</span></a>Darcula Darker</h3>
+<p><img src="https://raw.githubusercontent.com/ysalitrynskyi/zed-theme-darcula/HEAD/screenshots/darcula-darker.png" alt="Darcula Darker"></p>
+<h3 id="user-content-darcula-pitch-black"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#darcula-pitch-black"><span class="heading-anchor-icon">#</span></a>Darcula Pitch Black</h3>
+<p><img src="https://raw.githubusercontent.com/ysalitrynskyi/zed-theme-darcula/HEAD/screenshots/darcula-pitch-black.png" alt="Darcula Pitch Black"></p>
+<h3 id="user-content-darcula-high-contrast"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#darcula-high-contrast"><span class="heading-anchor-icon">#</span></a>Darcula High Contrast</h3>
+<p><img src="https://raw.githubusercontent.com/ysalitrynskyi/zed-theme-darcula/HEAD/screenshots/darcula-high-contrast.png" alt="Darcula High Contrast"></p>
+<h3 id="user-content-darcula-vivid"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#darcula-vivid"><span class="heading-anchor-icon">#</span></a>Darcula Vivid</h3>
+<p><img src="https://raw.githubusercontent.com/ysalitrynskyi/zed-theme-darcula/HEAD/screenshots/darcula-vivid.png" alt="Darcula Vivid"></p>
+<h3 id="user-content-darcula-vivid-darker"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#darcula-vivid-darker"><span class="heading-anchor-icon">#</span></a>Darcula Vivid Darker</h3>
+<p><img src="https://raw.githubusercontent.com/ysalitrynskyi/zed-theme-darcula/HEAD/screenshots/darcula-vivid-darker.png" alt="Darcula Vivid Darker"></p>
+<h3 id="user-content-darcula-vivid-black"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#darcula-vivid-black"><span class="heading-anchor-icon">#</span></a>Darcula Vivid Black</h3>
+<p><img src="https://raw.githubusercontent.com/ysalitrynskyi/zed-theme-darcula/HEAD/screenshots/darcula-vivid-black.png" alt="Darcula Vivid Black"></p>
+<h2 id="user-content-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation"><span class="heading-anchor-icon">#</span></a>Installation</h2>
+<h3 id="user-content-from-the-zed-extension-registry"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#from-the-zed-extension-registry"><span class="heading-anchor-icon">#</span></a>From the Zed extension registry</h3>
+<ol>
+<li>Open Zed</li>
+<li>Press <code>Cmd+Shift+P</code> (macOS) or <code>Ctrl+Shift+P</code> (Linux/Windows) → <strong>Extensions: Install Extensions</strong></li>
+<li>Search for <strong>Darcula</strong></li>
+<li>Click <strong>Install</strong></li>
+</ol>
+<h3 id="user-content-manually-install-as-a-dev-extension"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#manually-install-as-a-dev-extension"><span class="heading-anchor-icon">#</span></a>Manually (install as a dev extension)</h3>
+<ol>
+<li>Clone this repo</li>
+<li>In Zed, run <strong>zed: install dev extension</strong> from the command palette</li>
+<li>Select this folder</li>
+</ol>
+<h2 id="user-content-activating-the-theme"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#activating-the-theme"><span class="heading-anchor-icon">#</span></a>Activating the theme</h2>
+<ol>
+<li>Press <code>Cmd+K</code> <code>Cmd+T</code> (macOS) or <code>Ctrl+K</code> <code>Ctrl+T</code> (Linux/Windows)</li>
+<li>Select any variant from the list</li>
+</ol>
+<blockquote>
+<p><strong>Note:</strong> Zed's theme picker lists themes alphabetically, so in-app the variants appear sorted by name rather than by brightness.</p>
+</blockquote>
+<h2 id="user-content-palette"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#palette"><span class="heading-anchor-icon">#</span></a>Palette</h2>
+<p>Base palette (shared by all variants unless noted):</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Token</th><th>Color</th></tr></thead><tbody><tr><td>Background</td><td><code>#2B2B2B</code></td></tr><tr><td>Foreground</td><td><code>#A9B7C6</code></td></tr><tr><td>Keyword</td><td><code>#CC7832</code></td></tr><tr><td>String</td><td><code>#6A8759</code></td></tr><tr><td>Number</td><td><code>#6897BB</code></td></tr><tr><td>Comment</td><td><code>#808080</code></td></tr><tr><td>Doc comment</td><td><code>#629755</code></td></tr><tr><td>Field / property</td><td><code>#9876AA</code></td></tr><tr><td>Function / method</td><td><code>#FFC66D</code></td></tr><tr><td>Annotation</td><td><code>#BBB529</code></td></tr><tr><td>Tag</td><td><code>#E8BF6A</code></td></tr><tr><td>Selection</td><td><code>#214283</code></td></tr></tbody></table>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>Theme code released under the <a href="https://github.com/ysalitrynskyi/zed-theme-darcula/blob/HEAD/LICENSE" target="_blank" rel="noopener">Apache 2.0 license</a>. Darcula is a JetBrains color scheme — see <a href="https://github.com/ysalitrynskyi/zed-theme-darcula/blob/HEAD/NOTICE.txt" target="_blank" rel="noopener">NOTICE.txt</a>. This is an unofficial port, not affiliated with JetBrains.</p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>

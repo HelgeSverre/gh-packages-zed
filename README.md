@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1509-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1510-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,16 +14,16 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1509** |
+| Total tracked | **1510** |
 | In official registry | 1074 |
-| Discovered via topics | 435 |
-| Last updated | 2026-06-04 18:46 UTC |
+| Discovered via topics | 436 |
+| Last updated | 2026-06-05 00:42 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
-| Themes | 615 |
+| Themes | 616 |
 | Grammars | 535 |
 | Language Servers | 499 |
 | Context Servers | 124 |
@@ -70,6 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [ysalitrynskyi/zed-theme-darcula](https://github.com/ysalitrynskyi/zed-theme-darcula) | 0 | The classic JetBrains Darcula color scheme for the Zed editor — 9 dark variants ... |
 | [TisaneFruitRouge/hoon-zed](https://github.com/TisaneFruitRouge/hoon-zed) | 0 |  |
 | [taylorplewe/canipls-zed](https://github.com/taylorplewe/canipls-zed) | 0 | Zed extension for caniuse-ls |
 | [bashln/zed-doom](https://github.com/bashln/zed-doom) | 0 |  |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [aitit-inc/zed-surpassone-theme](https://github.com/aitit-inc/zed-surpassone-theme) | 0 | A coral & grayscale Zed theme with flat, monochrome design. Dark and Light varia... |
 | [momota1029/yulang-zed](https://github.com/momota1029/yulang-zed) | 0 |  |
 | [nzoschke/zed-djot](https://github.com/nzoschke/zed-djot) | 0 |  |
-| [InuzDev/inuzdev-coffee-theme](https://github.com/InuzDev/inuzdev-coffee-theme) | 1 | A zed personalized theme, I will keep this updated and try to make it more pleas... |
 
 ## Top starred (under 500)
 
@@ -120,6 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [ysalitrynskyi/zed-theme-darcula](https://github.com/ysalitrynskyi/zed-theme-darcula) | 0 | 2026-06-04 | The classic JetBrains Darcula color scheme for the Zed edito... |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 187 | 2026-06-04 | Zed plugin for automatic time tracking and metrics generated... |
 | [zed-extensions/swift](https://github.com/zed-extensions/swift) | 140 | 2026-06-04 | Extension for Zed to support Swift |
 | [zed-extensions/kotlin](https://github.com/zed-extensions/kotlin) | 91 | 2026-06-04 | Kotlin support |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [ejentum/zed-ejentum-mcp](https://github.com/ejentum/zed-ejentum-mcp) | 1 | 2026-05-31 | Zed editor extension wrapping the Ejentum MCP server. 8 cogn... |
 | [ChocolateNao/inbedby7pm-zed](https://github.com/ChocolateNao/inbedby7pm-zed) | 0 | 2026-05-31 | 🕖 Inbedby7pm VScode Theme Brought to Zed |
 | [htahaozlu/context-bar](https://github.com/htahaozlu/context-bar) | 12 | 2026-05-31 | Usage and cost visibility for Claude Code and Codex — native... |
-| [owlx56/zed-lean4](https://github.com/owlx56/zed-lean4) | 42 | 2026-05-30 |  |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-05T00:42 | 1 | 451 | 1795 |
 | 2026-06-04T18:46 | 2 | 449 | 1794 |
 | 2026-06-04T13:03 | 0 | 450 | 1792 |
 | 2026-06-04T07:38 | 1 | 450 | 1792 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-03T07:41 | 0 | 450 | 1791 |
 | 2026-06-03T00:49 | 0 | 450 | 1791 |
 | 2026-06-02T19:14 | 0 | 450 | 1791 |
-| 2026-06-02T13:15 | 0 | 450 | 1791 |
 
 ---
 
