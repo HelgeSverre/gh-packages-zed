@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1510-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1511-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,17 +14,17 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1510** |
-| In official registry | 1074 |
+| Total tracked | **1511** |
+| In official registry | 1075 |
 | Discovered via topics | 436 |
-| Last updated | 2026-06-05 13:00 UTC |
+| Last updated | 2026-06-05 18:39 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
 | Themes | 616 |
-| Grammars | 535 |
+| Grammars | 536 |
 | Language Servers | 499 |
 | Context Servers | 124 |
 | Snippets | 67 |
@@ -70,6 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [huaium/zed-ass](https://github.com/huaium/zed-ass) | 0 | ASS/SSA Syntax Highlighting for Zed. |
 | [ysalitrynskyi/zed-theme-darcula](https://github.com/ysalitrynskyi/zed-theme-darcula) | 0 | The classic JetBrains Darcula color scheme for the Zed editor — 9 dark variants ... |
 | [TisaneFruitRouge/hoon-zed](https://github.com/TisaneFruitRouge/hoon-zed) | 0 |  |
 | [taylorplewe/canipls-zed](https://github.com/taylorplewe/canipls-zed) | 0 | Zed extension for caniuse-ls |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [nicolas-cusan/zed-silverstripe](https://github.com/nicolas-cusan/zed-silverstripe) | 0 |  |
 | [aitit-inc/zed-surpassone-theme](https://github.com/aitit-inc/zed-surpassone-theme) | 0 | A coral & grayscale Zed theme with flat, monochrome design. Dark and Light varia... |
 | [momota1029/yulang-zed](https://github.com/momota1029/yulang-zed) | 0 |  |
-| [nzoschke/zed-djot](https://github.com/nzoschke/zed-djot) | 0 |  |
 
 ## Top starred (under 500)
 
@@ -106,7 +106,7 @@ cd website && npm install && npm run dev
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 173 | Typst extension for zed |
-| [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 170 | Zed support for the Godot game engine and the GDScript language |
+| [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 172 | Zed support for the Godot game engine and the GDScript language |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 159 | A macOS native style theme for Zed, let it same like native app in macOS. |
 | [thedadams/zed-comment](https://github.com/thedadams/zed-comment) | 148 | A comment extension for the Zed editor |
 | [slymax/zedokai](https://github.com/slymax/zedokai) | 145 | a theme for Zed based on the Monokai Pro color scheme |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-05T18:39 | 1 | 452 | 1796 |
 | 2026-06-05T13:00 | 0 | 452 | 1795 |
 | 2026-06-05T07:29 | 0 | 452 | 1795 |
 | 2026-06-05T00:42 | 1 | 451 | 1795 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-04T00:49 | 0 | 450 | 1791 |
 | 2026-06-03T19:19 | 0 | 450 | 1791 |
 | 2026-06-03T13:36 | 0 | 450 | 1791 |
-| 2026-06-03T07:41 | 0 | 450 | 1791 |
 
 ---
 
