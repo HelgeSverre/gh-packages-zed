@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1510** |
 | In official registry | 1074 |
 | Discovered via topics | 436 |
-| Last updated | 2026-06-05 00:42 UTC |
+| Last updated | 2026-06-05 07:29 UTC |
 
 ### By capability
 
@@ -102,8 +102,8 @@ cd website && npm install && npm run dev
 | [catppuccin/zed-icons](https://github.com/catppuccin/zed-icons) | 240 | 🦊 Soothing pastel icons for Zed |
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 188 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 187 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 173 | Typst extension for zed |
 | [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 170 | Zed support for the Godot game engine and the GDScript language |
@@ -111,7 +111,7 @@ cd website && npm install && npm run dev
 | [thedadams/zed-comment](https://github.com/thedadams/zed-comment) | 148 | A comment extension for the Zed editor |
 | [slymax/zedokai](https://github.com/slymax/zedokai) | 145 | a theme for Zed based on the Monokai Pro color scheme |
 | [nathansbradshaw/zed-angular](https://github.com/nathansbradshaw/zed-angular) | 144 |  |
-| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 140 | A port of the Neovim theme to Zed editor |
+| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 142 | A port of the Neovim theme to Zed editor |
 | [zed-extensions/swift](https://github.com/zed-extensions/swift) | 140 | Extension for Zed to support Swift |
 | [zed-extensions/csharp](https://github.com/zed-extensions/csharp) | 139 | C# support |
 | [rzukic/zed-latex](https://github.com/rzukic/zed-latex) | 132 |  |
@@ -120,13 +120,14 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [htahaozlu/context-bar](https://github.com/htahaozlu/context-bar) | 12 | 2026-06-05 | Usage and cost visibility for Claude Code and Codex — native... |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 83 | 2026-06-05 | True Dark Theme for Zed IDE |
 | [ysalitrynskyi/zed-theme-darcula](https://github.com/ysalitrynskyi/zed-theme-darcula) | 0 | 2026-06-04 | The classic JetBrains Darcula color scheme for the Zed edito... |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 187 | 2026-06-04 | Zed plugin for automatic time tracking and metrics generated... |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 188 | 2026-06-04 | Zed plugin for automatic time tracking and metrics generated... |
 | [zed-extensions/swift](https://github.com/zed-extensions/swift) | 140 | 2026-06-04 | Extension for Zed to support Swift |
 | [zed-extensions/kotlin](https://github.com/zed-extensions/kotlin) | 91 | 2026-06-04 | Kotlin support |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 83 | 2026-06-04 | True Dark Theme for Zed IDE |
 | [pursvir/zed-todotxt](https://github.com/pursvir/zed-todotxt) | 6 | 2026-06-03 | Todo.txt support for Zed |
-| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 140 | 2026-06-03 | A port of the Neovim theme to Zed editor |
+| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 142 | 2026-06-03 | A port of the Neovim theme to Zed editor |
 | [almeladev/geode-zed](https://github.com/almeladev/geode-zed) | 1 | 2026-06-03 | 💎 A gem-toned theme for Zed. Color only where it carries me... |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-06-03 | A Zed extension that allows to highlight all occurrences of ... |
 | [alanisme/vscode-themes-for-zed](https://github.com/alanisme/vscode-themes-for-zed) | 11 | 2026-06-02 | ❤️ All 19 built-in Visual Studio Code color themes, ported t... |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [mike-bronner/zed-phpcs-lsp](https://github.com/mike-bronner/zed-phpcs-lsp) | 16 | 2026-05-31 | PHPCS linter for Zed |
 | [ejentum/zed-ejentum-mcp](https://github.com/ejentum/zed-ejentum-mcp) | 1 | 2026-05-31 | Zed editor extension wrapping the Ejentum MCP server. 8 cogn... |
 | [ChocolateNao/inbedby7pm-zed](https://github.com/ChocolateNao/inbedby7pm-zed) | 0 | 2026-05-31 | 🕖 Inbedby7pm VScode Theme Brought to Zed |
-| [htahaozlu/context-bar](https://github.com/htahaozlu/context-bar) | 12 | 2026-05-31 | Usage and cost visibility for Claude Code and Codex — native... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-05T07:29 | 0 | 452 | 1795 |
 | 2026-06-05T00:42 | 1 | 451 | 1795 |
 | 2026-06-04T18:46 | 2 | 449 | 1794 |
 | 2026-06-04T13:03 | 0 | 450 | 1792 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-03T13:36 | 0 | 450 | 1791 |
 | 2026-06-03T07:41 | 0 | 450 | 1791 |
 | 2026-06-03T00:49 | 0 | 450 | 1791 |
-| 2026-06-02T19:14 | 0 | 450 | 1791 |
 
 ---
 
