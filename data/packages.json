@@ -52,8 +52,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-04-17T01:34:39Z",
-    "updated_at": "2026-06-06T11:50:02Z",
-    "pushed_at": "2026-06-06T11:49:58Z",
+    "updated_at": "2026-06-06T15:58:15Z",
+    "pushed_at": "2026-06-06T15:58:12Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -147,7 +147,7 @@
     "name": "Imgkl/the-dark-side",
     "url": "https://github.com/Imgkl/the-dark-side",
     "description": "True Dark Theme for Zed IDE",
-    "stars": 83,
+    "stars": 84,
     "forks": 6,
     "topics": [
       "zed-extension",
@@ -156,7 +156,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-06-06T02:58:06Z",
+    "updated_at": "2026-06-06T15:42:15Z",
     "pushed_at": "2026-06-06T02:58:02Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -4988,8 +4988,8 @@
     "language": "Tree-sitter Query",
     "license": "GPL-3.0",
     "created_at": "2025-05-26T19:02:09Z",
-    "updated_at": "2025-06-06T19:41:37Z",
-    "pushed_at": "2025-06-06T19:41:46Z",
+    "updated_at": "2026-06-06T18:12:42Z",
+    "pushed_at": "2026-06-06T18:23:47Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -5333,7 +5333,7 @@
     "name": "Dylanmurzello/zed-android-port",
     "url": "https://github.com/Dylanmurzello/zed-android-port",
     "description": "Native Android port of the Zed code editor,  gpui rendering through Vulkan, integrated Termux for LSPs and tooling, remote SSH support. Runs as an APK on tablets and Android desktop modes.",
-    "stars": 79,
+    "stars": 81,
     "forks": 4,
     "topics": [
       "android",
@@ -5360,7 +5360,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-05-07T00:12:10Z",
-    "updated_at": "2026-06-06T01:20:08Z",
+    "updated_at": "2026-06-06T15:38:59Z",
     "pushed_at": "2026-06-05T21:34:45Z",
     "discovered_at": "2026-05-19T19:54:12.053Z",
     "official": false
@@ -5567,8 +5567,8 @@
     "language": null,
     "license": null,
     "created_at": "2026-04-28T17:27:28Z",
-    "updated_at": "2026-06-06T09:41:17Z",
-    "pushed_at": "2026-06-06T09:41:14Z",
+    "updated_at": "2026-06-06T15:39:06Z",
+    "pushed_at": "2026-06-06T15:39:02Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
   },
@@ -6405,8 +6405,8 @@
     "language": "Lua",
     "license": "GPL-3.0",
     "created_at": "2021-07-29T01:24:02Z",
-    "updated_at": "2026-06-06T10:55:48Z",
-    "pushed_at": "2026-06-06T10:55:45Z",
+    "updated_at": "2026-06-06T14:59:15Z",
+    "pushed_at": "2026-06-06T14:59:12Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
   },
@@ -18310,8 +18310,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-06-06T07:05:11Z",
-    "pushed_at": "2026-06-06T07:05:07Z",
+    "updated_at": "2026-06-06T12:28:19Z",
+    "pushed_at": "2026-06-06T12:28:15Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -29195,8 +29195,8 @@
     "language": "Python",
     "license": null,
     "created_at": "2026-05-20T16:10:58Z",
-    "updated_at": "2026-06-06T10:30:38Z",
-    "pushed_at": "2026-06-06T10:30:34Z",
+    "updated_at": "2026-06-06T16:48:31Z",
+    "pushed_at": "2026-06-06T16:48:27Z",
     "discovered_at": "2026-05-24T12:23:31.290Z",
     "official": false
   },
@@ -30052,8 +30052,8 @@
     "language": null,
     "license": null,
     "created_at": "2026-06-06T12:06:23Z",
-    "updated_at": "2026-06-06T12:07:34Z",
-    "pushed_at": "2026-06-06T12:06:41Z",
+    "updated_at": "2026-06-06T12:52:14Z",
+    "pushed_at": "2026-06-06T12:52:10Z",
     "discovered_at": "2026-06-06T12:27:44.534Z",
     "official": false
   },
@@ -30079,6 +30079,33 @@
     "updated_at": "2026-06-06T10:34:44Z",
     "pushed_at": "2026-06-06T10:21:23Z",
     "discovered_at": "2026-06-06T12:27:44.534Z",
+    "official": false
+  },
+  "youngcoder45/code-editor-config-dots": {
+    "name": "youngcoder45/code-editor-config-dots",
+    "url": "https://github.com/youngcoder45/code-editor-config-dots",
+    "description": "Personal development environment configurations for VS Code and Zed, designed for a fast, consistent, and distraction-free coding workflow across machines.",
+    "stars": 1,
+    "forks": 0,
+    "topics": [
+      "configuration",
+      "developer-tools",
+      "development-environment",
+      "dotfiles",
+      "editor-config",
+      "productivity",
+      "settings",
+      "visual-studio-code",
+      "vscode",
+      "zed",
+      "zed-editor"
+    ],
+    "language": null,
+    "license": null,
+    "created_at": "2026-03-23T11:03:40Z",
+    "updated_at": "2026-06-06T17:31:27Z",
+    "pushed_at": "2026-03-23T11:05:35Z",
+    "discovered_at": "2026-06-06T18:27:26.124Z",
     "official": false
   }
 }

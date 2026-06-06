@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1512** |
 | In official registry | 1075 |
 | Discovered via topics | 437 |
-| Last updated | 2026-06-06 12:27 UTC |
+| Last updated | 2026-06-06 18:27 UTC |
 
 ### By capability
 
@@ -120,8 +120,9 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [paveloom-r/zed-termux](https://github.com/paveloom-r/zed-termux) | 0 | 2026-06-06 | `termux-language-server` support for Zed editor |
 | [Adriusops/Buisson](https://github.com/Adriusops/Buisson) | 2 | 2026-06-06 | An inky botanical color scheme |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 83 | 2026-06-06 | True Dark Theme for Zed IDE |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 84 | 2026-06-06 | True Dark Theme for Zed IDE |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 189 | 2026-06-05 | Zed plugin for automatic time tracking and metrics generated... |
 | [htahaozlu/context-bar](https://github.com/htahaozlu/context-bar) | 12 | 2026-06-05 | Usage and cost visibility for Claude Code and Codex — native... |
 | [ysalitrynskyi/zed-theme-darcula](https://github.com/ysalitrynskyi/zed-theme-darcula) | 0 | 2026-06-04 | The classic JetBrains Darcula color scheme for the Zed edito... |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [platformer/zed-senkai](https://github.com/platformer/zed-senkai) | 0 | 2026-06-01 |  |
 | [mike-bronner/zed-phpmd-lsp](https://github.com/mike-bronner/zed-phpmd-lsp) | 4 | 2026-05-31 | PHPMD linter for Zed editor. |
 | [mike-bronner/zed-phpcs-lsp](https://github.com/mike-bronner/zed-phpcs-lsp) | 16 | 2026-05-31 | PHPCS linter for Zed |
-| [ejentum/zed-ejentum-mcp](https://github.com/ejentum/zed-ejentum-mcp) | 1 | 2026-05-31 | Zed editor extension wrapping the Ejentum MCP server. 8 cogn... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-06T18:27 | 1 | 453 | 1799 |
 | 2026-06-06T12:27 | 2 | 451 | 1798 |
 | 2026-06-06T07:04 | 0 | 452 | 1796 |
 | 2026-06-06T00:40 | 0 | 452 | 1796 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-05T00:42 | 1 | 451 | 1795 |
 | 2026-06-04T18:46 | 2 | 449 | 1794 |
 | 2026-06-04T13:03 | 0 | 450 | 1792 |
-| 2026-06-04T07:38 | 1 | 450 | 1792 |
 
 ---
 
