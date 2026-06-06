@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1511** |
 | In official registry | 1075 |
 | Discovered via topics | 436 |
-| Last updated | 2026-06-05 18:39 UTC |
+| Last updated | 2026-06-06 00:40 UTC |
 
 ### By capability
 
@@ -102,11 +102,11 @@ cd website && npm install && npm run dev
 | [catppuccin/zed-icons](https://github.com/catppuccin/zed-icons) | 240 | 🦊 Soothing pastel icons for Zed |
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 188 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 189 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
+| [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 173 | Zed support for the Godot game engine and the GDScript language |
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 173 | Typst extension for zed |
-| [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 172 | Zed support for the Godot game engine and the GDScript language |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 159 | A macOS native style theme for Zed, let it same like native app in macOS. |
 | [thedadams/zed-comment](https://github.com/thedadams/zed-comment) | 148 | A comment extension for the Zed editor |
 | [slymax/zedokai](https://github.com/slymax/zedokai) | 145 | a theme for Zed based on the Monokai Pro color scheme |
@@ -120,7 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 188 | 2026-06-05 | Zed plugin for automatic time tracking and metrics generated... |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 189 | 2026-06-05 | Zed plugin for automatic time tracking and metrics generated... |
 | [htahaozlu/context-bar](https://github.com/htahaozlu/context-bar) | 12 | 2026-06-05 | Usage and cost visibility for Claude Code and Codex — native... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 83 | 2026-06-05 | True Dark Theme for Zed IDE |
 | [ysalitrynskyi/zed-theme-darcula](https://github.com/ysalitrynskyi/zed-theme-darcula) | 0 | 2026-06-04 | The classic JetBrains Darcula color scheme for the Zed edito... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-06T00:40 | 0 | 452 | 1796 |
 | 2026-06-05T18:39 | 1 | 452 | 1796 |
 | 2026-06-05T13:00 | 0 | 452 | 1795 |
 | 2026-06-05T07:29 | 0 | 452 | 1795 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-04T07:38 | 1 | 450 | 1792 |
 | 2026-06-04T00:49 | 0 | 450 | 1791 |
 | 2026-06-03T19:19 | 0 | 450 | 1791 |
-| 2026-06-03T13:36 | 0 | 450 | 1791 |
 
 ---
 
