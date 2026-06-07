@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1513** |
 | In official registry | 1075 |
 | Discovered via topics | 438 |
-| Last updated | 2026-06-07 07:23 UTC |
+| Last updated | 2026-06-07 12:33 UTC |
 
 ### By capability
 
@@ -111,7 +111,7 @@ cd website && npm install && npm run dev
 | [thedadams/zed-comment](https://github.com/thedadams/zed-comment) | 148 | A comment extension for the Zed editor |
 | [slymax/zedokai](https://github.com/slymax/zedokai) | 145 | a theme for Zed based on the Monokai Pro color scheme |
 | [nathansbradshaw/zed-angular](https://github.com/nathansbradshaw/zed-angular) | 144 |  |
-| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 143 | A port of the Neovim theme to Zed editor |
+| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 142 | A port of the Neovim theme to Zed editor |
 | [zed-extensions/swift](https://github.com/zed-extensions/swift) | 140 | Extension for Zed to support Swift |
 | [zed-extensions/csharp](https://github.com/zed-extensions/csharp) | 139 | C# support |
 | [rzukic/zed-latex](https://github.com/rzukic/zed-latex) | 132 |  |
@@ -120,8 +120,8 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [paveloom-r/zed-termux](https://github.com/paveloom-r/zed-termux) | 0 | 2026-06-07 | `termux-language-server` support for Zed editor |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 84 | 2026-06-07 | True Dark Theme for Zed IDE |
-| [paveloom-r/zed-termux](https://github.com/paveloom-r/zed-termux) | 0 | 2026-06-06 | `termux-language-server` support for Zed editor |
 | [Adriusops/Buisson](https://github.com/Adriusops/Buisson) | 2 | 2026-06-06 | An inky botanical color scheme |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 189 | 2026-06-05 | Zed plugin for automatic time tracking and metrics generated... |
 | [htahaozlu/context-bar](https://github.com/htahaozlu/context-bar) | 12 | 2026-06-05 | Usage and cost visibility for Claude Code and Codex — native... |
@@ -129,7 +129,7 @@ cd website && npm install && npm run dev
 | [zed-extensions/swift](https://github.com/zed-extensions/swift) | 140 | 2026-06-04 | Extension for Zed to support Swift |
 | [zed-extensions/kotlin](https://github.com/zed-extensions/kotlin) | 91 | 2026-06-04 | Kotlin support |
 | [pursvir/zed-todotxt](https://github.com/pursvir/zed-todotxt) | 6 | 2026-06-03 | Todo.txt support for Zed |
-| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 143 | 2026-06-03 | A port of the Neovim theme to Zed editor |
+| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 142 | 2026-06-03 | A port of the Neovim theme to Zed editor |
 | [almeladev/geode-zed](https://github.com/almeladev/geode-zed) | 1 | 2026-06-03 | 💎 A gem-toned theme for Zed. Color only where it carries me... |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-06-03 | A Zed extension that allows to highlight all occurrences of ... |
 | [alanisme/vscode-themes-for-zed](https://github.com/alanisme/vscode-themes-for-zed) | 11 | 2026-06-02 | ❤️ All 19 built-in Visual Studio Code color themes, ported t... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-07T12:33 | 0 | 453 | 1800 |
 | 2026-06-07T07:23 | 1 | 452 | 1800 |
 | 2026-06-07T00:42 | 0 | 453 | 1799 |
 | 2026-06-06T18:27 | 1 | 453 | 1799 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-05T18:39 | 1 | 452 | 1796 |
 | 2026-06-05T13:00 | 0 | 452 | 1795 |
 | 2026-06-05T07:29 | 0 | 452 | 1795 |
-| 2026-06-05T00:42 | 1 | 451 | 1795 |
 
 ---
 
