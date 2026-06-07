@@ -52,8 +52,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-04-17T01:34:39Z",
-    "updated_at": "2026-06-06T23:10:07Z",
-    "pushed_at": "2026-06-06T23:10:04Z",
+    "updated_at": "2026-06-07T05:37:21Z",
+    "pushed_at": "2026-06-07T05:37:17Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -156,8 +156,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-06-06T15:42:15Z",
-    "pushed_at": "2026-06-06T02:58:02Z",
+    "updated_at": "2026-06-07T02:58:54Z",
+    "pushed_at": "2026-06-07T02:58:51Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -841,7 +841,7 @@
     "name": "kartikvashistha/zed-ansible",
     "url": "https://github.com/kartikvashistha/zed-ansible",
     "description": "Ansible Extension for the Zed editor",
-    "stars": 52,
+    "stars": 53,
     "forks": 9,
     "topics": [
       "ansible",
@@ -851,7 +851,7 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-08-04T09:47:08Z",
-    "updated_at": "2026-06-05T05:10:02Z",
+    "updated_at": "2026-06-07T04:53:19Z",
     "pushed_at": "2026-05-04T07:54:34Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -860,7 +860,7 @@
     "name": "fermeridamagni/fluent-oled-for-zed",
     "url": "https://github.com/fermeridamagni/fluent-oled-for-zed",
     "description": "A pure black, minimalist VSCODE theme designed for OLED displays. Zero distractions, GitHub syntax highlighting.",
-    "stars": 1,
+    "stars": 2,
     "forks": 0,
     "topics": [
       "zed",
@@ -870,7 +870,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-04-30T02:23:54Z",
-    "updated_at": "2026-05-26T19:56:29Z",
+    "updated_at": "2026-06-07T03:22:29Z",
     "pushed_at": "2026-05-03T22:23:10Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -5567,8 +5567,8 @@
     "language": null,
     "license": null,
     "created_at": "2026-04-28T17:27:28Z",
-    "updated_at": "2026-06-06T15:39:06Z",
-    "pushed_at": "2026-06-06T15:39:02Z",
+    "updated_at": "2026-06-07T04:51:55Z",
+    "pushed_at": "2026-06-07T04:51:52Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
   },
@@ -6405,8 +6405,8 @@
     "language": "Lua",
     "license": "GPL-3.0",
     "created_at": "2021-07-29T01:24:02Z",
-    "updated_at": "2026-06-06T22:16:32Z",
-    "pushed_at": "2026-06-06T22:16:29Z",
+    "updated_at": "2026-06-07T04:44:51Z",
+    "pushed_at": "2026-06-07T04:44:48Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
   },
@@ -15724,8 +15724,8 @@
     "name": "agent-sh/agnix",
     "url": "https://github.com/agent-sh/agnix",
     "description": "The missing linter and lsp for AI coding assistants. Validate CLAUDE.md, AGENTS.md, SKILL.md, hooks, MCP. Plugin for all major IDEs included, with autofixes.",
-    "stars": 267,
-    "forks": 24,
+    "stars": 269,
+    "forks": 25,
     "topics": [
       "agent",
       "ai",
@@ -15751,7 +15751,7 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
-    "updated_at": "2026-06-04T15:19:47Z",
+    "updated_at": "2026-06-07T06:10:38Z",
     "pushed_at": "2026-06-05T19:44:45Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
@@ -18310,8 +18310,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-06-06T18:27:59Z",
-    "pushed_at": "2026-06-06T18:27:55Z",
+    "updated_at": "2026-06-07T00:42:41Z",
+    "pushed_at": "2026-06-07T00:42:37Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -30106,6 +30106,25 @@
     "updated_at": "2026-06-06T17:31:27Z",
     "pushed_at": "2026-03-23T11:05:35Z",
     "discovered_at": "2026-06-06T18:27:26.124Z",
+    "official": false
+  },
+  "wesleydmscn/zed-samurai-theme": {
+    "name": "wesleydmscn/zed-samurai-theme",
+    "url": "https://github.com/wesleydmscn/zed-samurai-theme",
+    "description": "A Zed theme for samurai programmers",
+    "stars": 4,
+    "forks": 0,
+    "topics": [
+      "samurai",
+      "zed-extension",
+      "zed-theme"
+    ],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2025-11-13T23:36:16Z",
+    "updated_at": "2026-06-07T00:52:34Z",
+    "pushed_at": "2026-03-20T02:18:23Z",
+    "discovered_at": "2026-06-07T07:23:59.384Z",
     "official": false
   }
 }

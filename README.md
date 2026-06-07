@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1512-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1513-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,23 +14,23 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1512** |
+| Total tracked | **1513** |
 | In official registry | 1075 |
-| Discovered via topics | 437 |
-| Last updated | 2026-06-07 00:42 UTC |
+| Discovered via topics | 438 |
+| Last updated | 2026-06-07 07:23 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
 | Themes | 617 |
-| Grammars | 536 |
-| Language Servers | 499 |
-| Context Servers | 124 |
+| Grammars | 537 |
+| Language Servers | 500 |
+| Context Servers | 125 |
 | Snippets | 67 |
-| Slash Commands | 54 |
+| Slash Commands | 55 |
 | Debug Adapters | 32 |
-| Docs Providers | 15 |
+| Docs Providers | 16 |
 
 ## How it works
 
@@ -70,6 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [wesleydmscn/zed-samurai-theme](https://github.com/wesleydmscn/zed-samurai-theme) | 4 | A Zed theme for samurai programmers |
 | [Adriusops/Buisson](https://github.com/Adriusops/Buisson) | 2 | An inky botanical color scheme |
 | [huaium/zed-ass](https://github.com/huaium/zed-ass) | 0 | ASS/SSA Syntax Highlighting for Zed. |
 | [ysalitrynskyi/zed-theme-darcula](https://github.com/ysalitrynskyi/zed-theme-darcula) | 0 | The classic JetBrains Darcula color scheme for the Zed editor — 9 dark variants ... |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [SrGaabriel/zed-dhall](https://github.com/SrGaabriel/zed-dhall) | 2 |  |
 | [harehare/zed-mq](https://github.com/harehare/zed-mq) | 0 | This extension provides language support for mq in the Zed editor. |
 | [nicolas-cusan/zed-silverstripe](https://github.com/nicolas-cusan/zed-silverstripe) | 0 |  |
-| [aitit-inc/zed-surpassone-theme](https://github.com/aitit-inc/zed-surpassone-theme) | 0 | A coral & grayscale Zed theme with flat, monochrome design. Dark and Light varia... |
 
 ## Top starred (under 500)
 
@@ -120,9 +120,9 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 84 | 2026-06-07 | True Dark Theme for Zed IDE |
 | [paveloom-r/zed-termux](https://github.com/paveloom-r/zed-termux) | 0 | 2026-06-06 | `termux-language-server` support for Zed editor |
 | [Adriusops/Buisson](https://github.com/Adriusops/Buisson) | 2 | 2026-06-06 | An inky botanical color scheme |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 84 | 2026-06-06 | True Dark Theme for Zed IDE |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 189 | 2026-06-05 | Zed plugin for automatic time tracking and metrics generated... |
 | [htahaozlu/context-bar](https://github.com/htahaozlu/context-bar) | 12 | 2026-06-05 | Usage and cost visibility for Claude Code and Codex — native... |
 | [ysalitrynskyi/zed-theme-darcula](https://github.com/ysalitrynskyi/zed-theme-darcula) | 0 | 2026-06-04 | The classic JetBrains Darcula color scheme for the Zed edito... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-07T07:23 | 1 | 452 | 1800 |
 | 2026-06-07T00:42 | 0 | 453 | 1799 |
 | 2026-06-06T18:27 | 1 | 453 | 1799 |
 | 2026-06-06T12:27 | 2 | 451 | 1798 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-05T13:00 | 0 | 452 | 1795 |
 | 2026-06-05T07:29 | 0 | 452 | 1795 |
 | 2026-06-05T00:42 | 1 | 451 | 1795 |
-| 2026-06-04T18:46 | 2 | 449 | 1794 |
 
 ---
 
