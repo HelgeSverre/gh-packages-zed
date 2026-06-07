@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1513** |
 | In official registry | 1075 |
 | Discovered via topics | 438 |
-| Last updated | 2026-06-07 12:33 UTC |
+| Last updated | 2026-06-07 18:27 UTC |
 
 ### By capability
 
@@ -71,7 +71,7 @@ cd website && npm install && npm run dev
 | Package | Stars | Description |
 |---|---|---|
 | [wesleydmscn/zed-samurai-theme](https://github.com/wesleydmscn/zed-samurai-theme) | 4 | A Zed theme for samurai programmers |
-| [Adriusops/Buisson](https://github.com/Adriusops/Buisson) | 2 | An inky botanical color scheme |
+| [Adriusops/Buisson](https://github.com/Adriusops/Buisson) | 3 | An inky botanical color scheme |
 | [huaium/zed-ass](https://github.com/huaium/zed-ass) | 0 | ASS/SSA Syntax Highlighting for Zed. |
 | [ysalitrynskyi/zed-theme-darcula](https://github.com/ysalitrynskyi/zed-theme-darcula) | 0 | The classic JetBrains Darcula color scheme for the Zed editor — 9 dark variants ... |
 | [TisaneFruitRouge/hoon-zed](https://github.com/TisaneFruitRouge/hoon-zed) | 0 |  |
@@ -122,9 +122,9 @@ cd website && npm install && npm run dev
 |---|---|---|---|
 | [paveloom-r/zed-termux](https://github.com/paveloom-r/zed-termux) | 0 | 2026-06-07 | `termux-language-server` support for Zed editor |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 84 | 2026-06-07 | True Dark Theme for Zed IDE |
-| [Adriusops/Buisson](https://github.com/Adriusops/Buisson) | 2 | 2026-06-06 | An inky botanical color scheme |
+| [Adriusops/Buisson](https://github.com/Adriusops/Buisson) | 3 | 2026-06-06 | An inky botanical color scheme |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 189 | 2026-06-05 | Zed plugin for automatic time tracking and metrics generated... |
-| [htahaozlu/context-bar](https://github.com/htahaozlu/context-bar) | 12 | 2026-06-05 | Usage and cost visibility for Claude Code and Codex — native... |
+| [htahaozlu/context-bar](https://github.com/htahaozlu/context-bar) | 13 | 2026-06-05 | Usage and cost visibility for Claude Code and Codex — native... |
 | [ysalitrynskyi/zed-theme-darcula](https://github.com/ysalitrynskyi/zed-theme-darcula) | 0 | 2026-06-04 | The classic JetBrains Darcula color scheme for the Zed edito... |
 | [zed-extensions/swift](https://github.com/zed-extensions/swift) | 140 | 2026-06-04 | Extension for Zed to support Swift |
 | [zed-extensions/kotlin](https://github.com/zed-extensions/kotlin) | 91 | 2026-06-04 | Kotlin support |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-07T18:27 | 1 | 453 | 1801 |
 | 2026-06-07T12:33 | 0 | 453 | 1800 |
 | 2026-06-07T07:23 | 1 | 452 | 1800 |
 | 2026-06-07T00:42 | 0 | 453 | 1799 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-06T00:40 | 0 | 452 | 1796 |
 | 2026-06-05T18:39 | 1 | 452 | 1796 |
 | 2026-06-05T13:00 | 0 | 452 | 1795 |
-| 2026-06-05T07:29 | 0 | 452 | 1795 |
 
 ---
 
