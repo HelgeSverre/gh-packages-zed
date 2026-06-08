@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1513** |
 | In official registry | 1075 |
 | Discovered via topics | 438 |
-| Last updated | 2026-06-07 18:27 UTC |
+| Last updated | 2026-06-08 00:43 UTC |
 
 ### By capability
 
@@ -120,31 +120,32 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [zed-extensions/typst](https://github.com/zed-extensions/typst) | 173 | 2026-06-07 | Typst extension for zed |
+| [zed-extensions/nginx](https://github.com/zed-extensions/nginx) | 10 | 2026-06-07 |  |
+| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 126 | 2026-06-07 | The Ruby language support for Zed editor |
+| [zed-extensions/superhtml](https://github.com/zed-extensions/superhtml) | 12 | 2026-06-07 | SuperHTML support for zed |
+| [zed-extensions/kotlin](https://github.com/zed-extensions/kotlin) | 91 | 2026-06-07 | Kotlin support |
+| [zed-extensions/swift](https://github.com/zed-extensions/swift) | 140 | 2026-06-07 | Extension for Zed to support Swift |
+| [zed-extensions/log](https://github.com/zed-extensions/log) | 42 | 2026-06-07 | Syntax highlighting for log files in Zed. |
+| [zed-extensions/nix](https://github.com/zed-extensions/nix) | 115 | 2026-06-07 | Nix language support in Zed |
+| [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 131 | 2026-06-07 |  |
+| [htahaozlu/context-bar](https://github.com/htahaozlu/context-bar) | 13 | 2026-06-07 | Usage and cost visibility for Claude Code and Codex — native... |
 | [paveloom-r/zed-termux](https://github.com/paveloom-r/zed-termux) | 0 | 2026-06-07 | `termux-language-server` support for Zed editor |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 84 | 2026-06-07 | True Dark Theme for Zed IDE |
 | [Adriusops/Buisson](https://github.com/Adriusops/Buisson) | 3 | 2026-06-06 | An inky botanical color scheme |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 189 | 2026-06-05 | Zed plugin for automatic time tracking and metrics generated... |
-| [htahaozlu/context-bar](https://github.com/htahaozlu/context-bar) | 13 | 2026-06-05 | Usage and cost visibility for Claude Code and Codex — native... |
 | [ysalitrynskyi/zed-theme-darcula](https://github.com/ysalitrynskyi/zed-theme-darcula) | 0 | 2026-06-04 | The classic JetBrains Darcula color scheme for the Zed edito... |
-| [zed-extensions/swift](https://github.com/zed-extensions/swift) | 140 | 2026-06-04 | Extension for Zed to support Swift |
-| [zed-extensions/kotlin](https://github.com/zed-extensions/kotlin) | 91 | 2026-06-04 | Kotlin support |
 | [pursvir/zed-todotxt](https://github.com/pursvir/zed-todotxt) | 6 | 2026-06-03 | Todo.txt support for Zed |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 142 | 2026-06-03 | A port of the Neovim theme to Zed editor |
 | [almeladev/geode-zed](https://github.com/almeladev/geode-zed) | 1 | 2026-06-03 | 💎 A gem-toned theme for Zed. Color only where it carries me... |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-06-03 | A Zed extension that allows to highlight all occurrences of ... |
 | [alanisme/vscode-themes-for-zed](https://github.com/alanisme/vscode-themes-for-zed) | 11 | 2026-06-02 | ❤️ All 19 built-in Visual Studio Code color themes, ported t... |
-| [Sha1rholder/polycarbonate-dark-theme](https://github.com/Sha1rholder/polycarbonate-dark-theme) | 0 | 2026-06-01 | Turn Zed into a clean slab of dark glass. |
-| [BenjaminHalko/flow-icons-zed](https://github.com/BenjaminHalko/flow-icons-zed) | 20 | 2026-06-01 | 🌼 Flow Icons ported to Zed |
-| [ng-hai/zed-rose-pine-recast](https://github.com/ng-hai/zed-rose-pine-recast) | 2 | 2026-06-01 | All natural pine, faux fur and a bit of soho vibes for the c... |
-| [surrealdb/surrealql-zed](https://github.com/surrealdb/surrealql-zed) | 0 | 2026-06-01 | SurrealQL Language Extension for the Zed Editor |
-| [platformer/zed-senkai](https://github.com/platformer/zed-senkai) | 0 | 2026-06-01 |  |
-| [mike-bronner/zed-phpmd-lsp](https://github.com/mike-bronner/zed-phpmd-lsp) | 4 | 2026-05-31 | PHPMD linter for Zed editor. |
-| [mike-bronner/zed-phpcs-lsp](https://github.com/mike-bronner/zed-phpcs-lsp) | 16 | 2026-05-31 | PHPCS linter for Zed |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-08T00:43 | 0 | 454 | 1801 |
 | 2026-06-07T18:27 | 1 | 453 | 1801 |
 | 2026-06-07T12:33 | 0 | 453 | 1800 |
 | 2026-06-07T07:23 | 1 | 452 | 1800 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-06T07:04 | 0 | 452 | 1796 |
 | 2026-06-06T00:40 | 0 | 452 | 1796 |
 | 2026-06-05T18:39 | 1 | 452 | 1796 |
-| 2026-06-05T13:00 | 0 | 452 | 1795 |
 
 ---
 
