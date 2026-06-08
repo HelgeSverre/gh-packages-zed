@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1513** |
 | In official registry | 1075 |
 | Discovered via topics | 438 |
-| Last updated | 2026-06-08 00:43 UTC |
+| Last updated | 2026-06-08 07:41 UTC |
 
 ### By capability
 
@@ -120,6 +120,8 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [htahaozlu/context-bar](https://github.com/htahaozlu/context-bar) | 13 | 2026-06-08 | Usage and cost visibility for Claude Code and Codex — native... |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 84 | 2026-06-08 | True Dark Theme for Zed IDE |
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 173 | 2026-06-07 | Typst extension for zed |
 | [zed-extensions/nginx](https://github.com/zed-extensions/nginx) | 10 | 2026-06-07 |  |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 126 | 2026-06-07 | The Ruby language support for Zed editor |
@@ -129,9 +131,7 @@ cd website && npm install && npm run dev
 | [zed-extensions/log](https://github.com/zed-extensions/log) | 42 | 2026-06-07 | Syntax highlighting for log files in Zed. |
 | [zed-extensions/nix](https://github.com/zed-extensions/nix) | 115 | 2026-06-07 | Nix language support in Zed |
 | [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 131 | 2026-06-07 |  |
-| [htahaozlu/context-bar](https://github.com/htahaozlu/context-bar) | 13 | 2026-06-07 | Usage and cost visibility for Claude Code and Codex — native... |
 | [paveloom-r/zed-termux](https://github.com/paveloom-r/zed-termux) | 0 | 2026-06-07 | `termux-language-server` support for Zed editor |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 84 | 2026-06-07 | True Dark Theme for Zed IDE |
 | [Adriusops/Buisson](https://github.com/Adriusops/Buisson) | 3 | 2026-06-06 | An inky botanical color scheme |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 189 | 2026-06-05 | Zed plugin for automatic time tracking and metrics generated... |
 | [ysalitrynskyi/zed-theme-darcula](https://github.com/ysalitrynskyi/zed-theme-darcula) | 0 | 2026-06-04 | The classic JetBrains Darcula color scheme for the Zed edito... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-08T07:41 | 0 | 454 | 1801 |
 | 2026-06-08T00:43 | 0 | 454 | 1801 |
 | 2026-06-07T18:27 | 1 | 453 | 1801 |
 | 2026-06-07T12:33 | 0 | 453 | 1800 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-06T12:27 | 2 | 451 | 1798 |
 | 2026-06-06T07:04 | 0 | 452 | 1796 |
 | 2026-06-06T00:40 | 0 | 452 | 1796 |
-| 2026-06-05T18:39 | 1 | 452 | 1796 |
 
 ---
 
