@@ -85,7 +85,7 @@
     "name": "GDQuest/zed-gdscript",
     "url": "https://github.com/GDQuest/zed-gdscript",
     "description": "Zed support for the Godot game engine and the GDScript language",
-    "stars": 173,
+    "stars": 175,
     "forks": 21,
     "topics": [
       "code-editor",
@@ -97,7 +97,7 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-02-26T18:14:41Z",
-    "updated_at": "2026-06-05T21:32:37Z",
+    "updated_at": "2026-06-08T11:45:54Z",
     "pushed_at": "2026-05-21T10:29:17Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -349,8 +349,8 @@
     "language": "Swift",
     "license": "NOASSERTION",
     "created_at": "2026-05-11T07:14:28Z",
-    "updated_at": "2026-06-08T07:40:16Z",
-    "pushed_at": "2026-06-08T07:40:12Z",
+    "updated_at": "2026-06-08T11:13:57Z",
+    "pushed_at": "2026-06-08T11:13:53Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false,
     "extension": {
@@ -4993,7 +4993,7 @@
     "url": "https://github.com/huacnlee/zed-theme-macos-classic",
     "description": "A macOS native style theme for Zed, let it same like native app in macOS.",
     "stars": 159,
-    "forks": 6,
+    "forks": 7,
     "topics": [
       "macos-classic",
       "zed",
@@ -5177,7 +5177,7 @@
     "name": "gabeins/zed-mermaid",
     "url": "https://github.com/gabeins/zed-mermaid",
     "description": "Mermaid support for Zed",
-    "stars": 70,
+    "stars": 71,
     "forks": 6,
     "topics": [
       "diagrams",
@@ -5189,7 +5189,7 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-10-16T07:12:13Z",
-    "updated_at": "2026-05-30T07:38:58Z",
+    "updated_at": "2026-06-08T12:26:07Z",
     "pushed_at": "2026-01-26T08:59:52Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false,
@@ -6395,7 +6395,7 @@
     "name": "willpuckett/zed-kanata",
     "url": "https://github.com/willpuckett/zed-kanata",
     "description": "Kanata Support for Zed",
-    "stars": 1,
+    "stars": 2,
     "forks": 0,
     "topics": [
       "kanata",
@@ -6407,7 +6407,7 @@
     "language": "Rust",
     "license": null,
     "created_at": "2025-11-12T22:14:31Z",
-    "updated_at": "2026-03-18T04:48:35Z",
+    "updated_at": "2026-06-08T09:30:21Z",
     "pushed_at": "2025-11-13T00:23:32Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false,
@@ -8382,7 +8382,7 @@
     "name": "lucascompython/wgsl-wesl-zed",
     "url": "https://github.com/lucascompython/wgsl-wesl-zed",
     "description": "WGSL/WESL language support for Zed",
-    "stars": 22,
+    "stars": 23,
     "forks": 3,
     "topics": [
       "bevy",
@@ -8395,7 +8395,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2025-04-16T10:16:14Z",
-    "updated_at": "2026-04-30T07:36:42Z",
+    "updated_at": "2026-06-08T10:55:06Z",
     "pushed_at": "2026-02-28T15:54:13Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": true,
@@ -9320,7 +9320,7 @@
     "name": "gentlelionstudios/gentle-dark-zed",
     "url": "https://github.com/gentlelionstudios/gentle-dark-zed",
     "description": "Dark theme for the Zed code editor",
-    "stars": 5,
+    "stars": 6,
     "forks": 1,
     "topics": [
       "zed-theme"
@@ -9328,7 +9328,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-03-09T02:49:00Z",
-    "updated_at": "2025-10-31T05:15:47Z",
+    "updated_at": "2026-06-08T09:50:08Z",
     "pushed_at": "2025-10-31T05:15:43Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": true,
@@ -31136,13 +31136,13 @@
     "name": "zed-extensions/git_firefly",
     "url": "https://github.com/zed-extensions/git_firefly",
     "description": "",
-    "stars": 131,
+    "stars": 132,
     "forks": 5,
     "topics": [],
     "language": "Tree-sitter Query",
     "license": "Apache-2.0",
     "created_at": "2024-02-19T14:56:35Z",
-    "updated_at": "2026-06-07T22:18:04Z",
+    "updated_at": "2026-06-08T11:22:00Z",
     "pushed_at": "2026-06-07T22:07:58Z",
     "discovered_at": "2026-05-19T21:42:53.670Z",
     "official": false,
@@ -51572,6 +51572,43 @@
         "slash-command",
         "context-server",
         "docs-provider"
+      ]
+    }
+  },
+  "frostime/zed-file-mention": {
+    "name": "frostime/zed-file-mention",
+    "url": "https://github.com/frostime/zed-file-mention",
+    "description": "An zed extension (dev phase). Press @ for quick file path completions.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "rust",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Rust",
+    "license": "GPL-3.0",
+    "created_at": "2026-06-08T10:35:05Z",
+    "updated_at": "2026-06-08T10:37:54Z",
+    "pushed_at": "2026-06-08T10:37:32Z",
+    "discovered_at": "2026-06-08T13:27:40.347Z",
+    "official": false,
+    "extension": {
+      "id": "file-mentions",
+      "name": "File Mentions",
+      "description": "Press @ for quick file path completions.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "frostime"
+      ],
+      "repository": "https://github.com/frostime/zed-file-mentions",
+      "snippets": null,
+      "sections": [
+        "language_servers"
+      ],
+      "categories": [
+        "language-server"
       ]
     }
   }
