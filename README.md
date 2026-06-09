@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1514-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1516-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,16 +14,16 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1514** |
+| Total tracked | **1516** |
 | In official registry | 1075 |
-| Discovered via topics | 439 |
-| Last updated | 2026-06-09 00:37 UTC |
+| Discovered via topics | 441 |
+| Last updated | 2026-06-09 07:14 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
-| Themes | 617 |
+| Themes | 619 |
 | Grammars | 537 |
 | Language Servers | 501 |
 | Context Servers | 125 |
@@ -70,6 +70,8 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [Y-ASLant/Flow-Icons-Zed](https://github.com/Y-ASLant/Flow-Icons-Zed) | 0 | Base on https://flow-icons.pages.dev/ |
+| [adamsharifc/zed-field-lights](https://github.com/adamsharifc/zed-field-lights) | 0 | A dark Visual Studio Theme inspired by the great Ayu theme but adding some perso... |
 | [frostime/zed-file-mention](https://github.com/frostime/zed-file-mention) | 0 | An zed extension (dev phase). Press @ for quick file path completions. |
 | [wesleydmscn/zed-samurai-theme](https://github.com/wesleydmscn/zed-samurai-theme) | 4 | A Zed theme for samurai programmers |
 | [Adriusops/Buisson](https://github.com/Adriusops/Buisson) | 3 | An inky botanical color scheme |
@@ -88,8 +90,6 @@ cd website && npm install && npm run dev
 | [almeladev/geode-zed](https://github.com/almeladev/geode-zed) | 1 | 💎 A gem-toned theme for Zed. Color only where it carries meaning — dark and lig... |
 | [mike-bronner/zed-laravel](https://github.com/mike-bronner/zed-laravel) | 19 | Laravel LSP for Zed editor. |
 | [rockas-d/zenburn-transparent](https://github.com/rockas-d/zenburn-transparent) | 0 | Zenburn Transparent — low-contrast Zenburn palette for Zed with a blurred/transl... |
-| [SrGaabriel/zed-dhall](https://github.com/SrGaabriel/zed-dhall) | 2 |  |
-| [harehare/zed-mq](https://github.com/harehare/zed-mq) | 0 | This extension provides language support for mq in the Zed editor. |
 
 ## Top starred (under 500)
 
@@ -120,10 +120,12 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Y-ASLant/Flow-Icons-Zed](https://github.com/Y-ASLant/Flow-Icons-Zed) | 0 | 2026-06-09 | Base on https://flow-icons.pages.dev/ |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 84 | 2026-06-09 | True Dark Theme for Zed IDE |
+| [adamsharifc/zed-field-lights](https://github.com/adamsharifc/zed-field-lights) | 0 | 2026-06-09 | A dark Visual Studio Theme inspired by the great Ayu theme b... |
 | [Smyrnis/united-gnome-theme](https://github.com/Smyrnis/united-gnome-theme) | 1 | 2026-06-08 | Theme Extension for the Zed Editor |
 | [htahaozlu/context-bar](https://github.com/htahaozlu/context-bar) | 13 | 2026-06-08 | Usage and cost visibility for Claude Code and Codex — native... |
 | [frostime/zed-file-mention](https://github.com/frostime/zed-file-mention) | 0 | 2026-06-08 | An zed extension (dev phase). Press @ for quick file path co... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 84 | 2026-06-08 | True Dark Theme for Zed IDE |
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 173 | 2026-06-07 | Typst extension for zed |
 | [zed-extensions/nginx](https://github.com/zed-extensions/nginx) | 10 | 2026-06-07 |  |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 126 | 2026-06-07 | The Ruby language support for Zed editor |
@@ -138,13 +140,12 @@ cd website && npm install && npm run dev
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 190 | 2026-06-05 | Zed plugin for automatic time tracking and metrics generated... |
 | [ysalitrynskyi/zed-theme-darcula](https://github.com/ysalitrynskyi/zed-theme-darcula) | 0 | 2026-06-04 | The classic JetBrains Darcula color scheme for the Zed edito... |
 | [pursvir/zed-todotxt](https://github.com/pursvir/zed-todotxt) | 6 | 2026-06-03 | Todo.txt support for Zed |
-| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 142 | 2026-06-03 | A port of the Neovim theme to Zed editor |
-| [almeladev/geode-zed](https://github.com/almeladev/geode-zed) | 1 | 2026-06-03 | 💎 A gem-toned theme for Zed. Color only where it carries me... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-09T07:14 | 2 | 457 | 1806 |
 | 2026-06-09T00:37 | 0 | 457 | 1804 |
 | 2026-06-08T18:50 | 0 | 457 | 1804 |
 | 2026-06-08T13:27 | 3 | 455 | 1804 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-07T12:33 | 0 | 453 | 1800 |
 | 2026-06-07T07:23 | 1 | 452 | 1800 |
 | 2026-06-07T00:42 | 0 | 453 | 1799 |
-| 2026-06-06T18:27 | 1 | 453 | 1799 |
 
 ---
 

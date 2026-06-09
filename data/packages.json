@@ -52,8 +52,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-04-17T01:34:39Z",
-    "updated_at": "2026-06-09T00:33:00Z",
-    "pushed_at": "2026-06-09T00:32:56Z",
+    "updated_at": "2026-06-09T03:26:26Z",
+    "pushed_at": "2026-06-09T03:26:22Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -156,8 +156,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-06-08T02:58:52Z",
-    "pushed_at": "2026-06-08T02:58:49Z",
+    "updated_at": "2026-06-09T02:58:09Z",
+    "pushed_at": "2026-06-09T02:58:05Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -3227,7 +3227,7 @@
     "url": "https://github.com/huacnlee/zed-theme-macos-classic",
     "description": "A macOS native style theme for Zed, let it same like native app in macOS.",
     "stars": 159,
-    "forks": 7,
+    "forks": 5,
     "topics": [
       "macos-classic",
       "zed",
@@ -6409,8 +6409,8 @@
     "language": "Lua",
     "license": "GPL-3.0",
     "created_at": "2021-07-29T01:24:02Z",
-    "updated_at": "2026-06-08T23:39:48Z",
-    "pushed_at": "2026-06-08T23:39:44Z",
+    "updated_at": "2026-06-09T06:33:32Z",
+    "pushed_at": "2026-06-09T06:33:28Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
   },
@@ -13219,13 +13219,13 @@
     "name": "owlx56/zed-lean4",
     "url": "https://github.com/owlx56/zed-lean4",
     "description": "",
-    "stars": 44,
+    "stars": 45,
     "forks": 8,
     "topics": [],
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2025-04-18T13:34:52Z",
-    "updated_at": "2026-06-07T20:01:28Z",
+    "updated_at": "2026-06-09T01:26:09Z",
     "pushed_at": "2026-05-30T23:43:11Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": false
@@ -18314,8 +18314,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-06-08T18:50:51Z",
-    "pushed_at": "2026-06-08T18:50:47Z",
+    "updated_at": "2026-06-09T00:38:15Z",
+    "pushed_at": "2026-06-09T00:38:11Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -19557,7 +19557,7 @@
     "language": "Tree-sitter Query",
     "license": "Apache-2.0",
     "created_at": "2024-02-19T14:56:35Z",
-    "updated_at": "2026-06-08T11:22:00Z",
+    "updated_at": "2026-06-09T06:04:43Z",
     "pushed_at": "2026-06-07T22:07:58Z",
     "discovered_at": "2026-05-19T21:42:53.670Z",
     "official": false
@@ -28034,13 +28034,13 @@
     "name": "kevcamel/vscode_dark_modern.zed",
     "url": "https://github.com/kevcamel/vscode_dark_modern.zed",
     "description": "VS Code Dark Modern theme for Zed",
-    "stars": 47,
+    "stars": 48,
     "forks": 14,
     "topics": [],
     "language": null,
     "license": "MIT",
     "created_at": "2024-05-17T15:44:22Z",
-    "updated_at": "2026-06-05T16:48:50Z",
+    "updated_at": "2026-06-09T03:47:27Z",
     "pushed_at": "2026-03-02T20:35:18Z",
     "discovered_at": "2026-05-20T03:49:49.286Z",
     "official": false
@@ -29996,8 +29996,8 @@
     "language": "TypeScript",
     "license": "Apache-2.0",
     "created_at": "2026-02-23T21:09:46Z",
-    "updated_at": "2026-06-08T20:08:28Z",
-    "pushed_at": "2026-06-08T20:08:10Z",
+    "updated_at": "2026-06-09T00:46:38Z",
+    "pushed_at": "2026-06-09T00:46:35Z",
     "discovered_at": "2026-06-04T18:46:41.571Z",
     "official": false
   },
@@ -30215,6 +30215,43 @@
     "updated_at": "2026-06-08T10:01:03Z",
     "pushed_at": "2026-06-05T20:11:12Z",
     "discovered_at": "2026-06-08T13:27:40.347Z",
+    "official": false
+  },
+  "y-aslant/flow-icons-zed": {
+    "name": "Y-ASLant/Flow-Icons-Zed",
+    "url": "https://github.com/Y-ASLant/Flow-Icons-Zed",
+    "description": "Base on https://flow-icons.pages.dev/",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "zed",
+      "zed-extension",
+      "zed-theme"
+    ],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-06-09T06:23:42Z",
+    "updated_at": "2026-06-09T06:43:56Z",
+    "pushed_at": "2026-06-09T06:43:46Z",
+    "discovered_at": "2026-06-09T07:14:16.831Z",
+    "official": false
+  },
+  "adamsharifc/zed-field-lights": {
+    "name": "adamsharifc/zed-field-lights",
+    "url": "https://github.com/adamsharifc/zed-field-lights",
+    "description": "A dark Visual Studio Theme inspired by the great Ayu theme but adding some personal taste customizations ",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "zed",
+      "zed-theme"
+    ],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-06-09T01:37:03Z",
+    "updated_at": "2026-06-09T01:50:12Z",
+    "pushed_at": "2026-06-09T01:48:47Z",
+    "discovered_at": "2026-06-09T07:14:16.831Z",
     "official": false
   }
 }
