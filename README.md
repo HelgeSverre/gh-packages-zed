@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1517** |
 | In official registry | 1075 |
 | Discovered via topics | 442 |
-| Last updated | 2026-06-09 12:59 UTC |
+| Last updated | 2026-06-09 18:44 UTC |
 
 ### By capability
 
@@ -70,7 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
-| [M0n7y5/flutter-zed](https://github.com/M0n7y5/flutter-zed) | 0 | Flutter development support for ZED IDE |
+| [M0n7y5/flutter-zed](https://github.com/M0n7y5/flutter-zed) | 1 | Flutter development support for ZED IDE |
 | [Y-ASLant/Flow-Icons-Zed](https://github.com/Y-ASLant/Flow-Icons-Zed) | 0 | Base on https://flow-icons.pages.dev/ |
 | [adamsharifc/zed-field-lights](https://github.com/adamsharifc/zed-field-lights) | 0 | A dark Visual Studio Theme inspired by the great Ayu theme but adding some perso... |
 | [frostime/zed-file-mention](https://github.com/frostime/zed-file-mention) | 0 | An zed extension (dev phase). Press @ for quick file path completions. |
@@ -106,7 +106,7 @@ cd website && npm install && npm run dev
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
 | [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 175 | Zed support for the Godot game engine and the GDScript language |
-| [zed-extensions/typst](https://github.com/zed-extensions/typst) | 173 | Typst extension for zed |
+| [zed-extensions/typst](https://github.com/zed-extensions/typst) | 174 | Typst extension for zed |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 159 | A macOS native style theme for Zed, let it same like native app in macOS. |
 | [thedadams/zed-comment](https://github.com/thedadams/zed-comment) | 148 | A comment extension for the Zed editor |
 | [slymax/zedokai](https://github.com/slymax/zedokai) | 145 | a theme for Zed based on the Monokai Pro color scheme |
@@ -120,9 +120,9 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [M0n7y5/flutter-zed](https://github.com/M0n7y5/flutter-zed) | 0 | 2026-06-09 | Flutter development support for ZED IDE |
+| [M0n7y5/flutter-zed](https://github.com/M0n7y5/flutter-zed) | 1 | 2026-06-09 | Flutter development support for ZED IDE |
 | [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 132 | 2026-06-09 |  |
-| [zed-extensions/typst](https://github.com/zed-extensions/typst) | 173 | 2026-06-09 | Typst extension for zed |
+| [zed-extensions/typst](https://github.com/zed-extensions/typst) | 174 | 2026-06-09 | Typst extension for zed |
 | [Y-ASLant/Flow-Icons-Zed](https://github.com/Y-ASLant/Flow-Icons-Zed) | 0 | 2026-06-09 | Base on https://flow-icons.pages.dev/ |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 84 | 2026-06-09 | True Dark Theme for Zed IDE |
 | [adamsharifc/zed-field-lights](https://github.com/adamsharifc/zed-field-lights) | 0 | 2026-06-09 | A dark Visual Studio Theme inspired by the great Ayu theme b... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-09T18:44 | 0 | 460 | 1808 |
 | 2026-06-09T12:59 | 2 | 459 | 1808 |
 | 2026-06-09T07:14 | 2 | 457 | 1806 |
 | 2026-06-09T00:37 | 0 | 457 | 1804 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-08T00:43 | 0 | 454 | 1801 |
 | 2026-06-07T18:27 | 1 | 453 | 1801 |
 | 2026-06-07T12:33 | 0 | 453 | 1800 |
-| 2026-06-07T07:23 | 1 | 452 | 1800 |
 
 ---
 
