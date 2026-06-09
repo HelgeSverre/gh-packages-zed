@@ -1,0 +1,29 @@
+id = "dart-flutter"
+name = "Dart & Flutter"
+description = "Comprehensive Dart and Flutter support for Zed: analysis-server LSP, Dart/Flutter debugging (DAP), tasks, runnables, snippets, and semantic tokens."
+version = "0.1.0"
+schema_version = 1
+authors = ["M0n7y5 <https://github.com/M0n7y5>"]
+repository = "https://github.com/M0n7y5/flutter-zed"
+
+snippets = ["snippets/dart.json"]
+
+# This is a self-contained replacement for the official `dart` extension and
+# must NOT be installed alongside it (Zed allows only one owner of the `Dart`
+# language and grammar). See README.md.
+
+[language_servers.dart]
+name = "Dart LSP"
+language = "Dart"
+languages = ["Dart"]
+
+[grammars.dart]
+repository = "https://github.com/UserNobody14/tree-sitter-dart"
+commit = "6922ad29141e819773d6ffb0c6d2c27adefb5acc"
+
+# Schema defaults to `debug_adapter_schemas/Dart.json`.
+[debug_adapters.Dart]
+
+# Turns `flutter run` / `dart run` tasks (and the gutter runnables) into debug
+# sessions on the `Dart` adapter; see `dap_locator_create_scenario`.
+[debug_locators.flutter]

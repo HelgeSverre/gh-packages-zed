@@ -1,0 +1,408 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Dart &amp; Flutter - Zed Extension Safari</title><meta name="description" content="Flutter development support for ZED IDE"><link rel="canonical" href="https://helgesverre.github.io/gh-packages-zed/package/M0n7y5/flutter-zed/"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Dart &amp; Flutter - Zed Extension Safari"><meta property="og:description" content="Flutter development support for ZED IDE"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed/package/M0n7y5/flutter-zed/"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Dart &amp; Flutter - Zed Extension Safari"><meta name="twitter:description" content="Flutter development support for ZED IDE"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/gh-packages-zed/_astro/ClientRouter.astro_astro_type_script_index_0_lang.ClVLs1kt.js"></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Dart & Flutter","description":"Flutter development support for ZED IDE","applicationCategory":"DeveloperApplication","operatingSystem":"macOS, Linux, Windows","url":"https://zed.dev/extensions/dart-flutter","codeRepository":"https://github.com/M0n7y5/flutter-zed","author":[{"@type":"Person","name":"M0n7y5"}],"softwareVersion":"0.1.0","license":"GPL-3.0","keywords":"grammar, language-server, debug-adapter, snippets","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/Layout.CGDlMdWE.css"><script type="module" src="/gh-packages-zed/_astro/page.B8i1Zz-u.js"></script></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <a href="#main" class="skip-to-content">Skip to content</a> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" data-astro-transition-persist="astro-fhchcgd7-1"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <script type="application/json" id="pkg-extras">{"url":"https://github.com/M0n7y5/flutter-zed","language":"Rust","license":"GPL-3.0","topics":["dart","debugging","flutter","hot-reload","zed","zed-extension"],"extension":{"authors":["M0n7y5"],"schema_version":1}}</script> <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> M0n7y5/flutter-zed </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> Dart &amp; Flutter </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> Comprehensive Dart and Flutter support for Zed: analysis-server LSP, Dart/Flutter debugging (DAP), tasks, runnables, snippets, and semantic tokens. </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="grammar">Grammar</span><span class="cat-badge" data-cat="language-server">Language Server</span><span class="cat-badge" data-cat="debug-adapter">Debug Adapter</span><span class="cat-badge" data-cat="snippets">Snippets</span> </div> </div> </div> </header> <main id="main" class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/dart-flutter" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/M0n7y5/flutter-zed" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.1.0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">dart-flutter</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">Rust</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">GPL-3.0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">17m ago</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">M0n7y5</dd> </div> </dl>  <h2 class="mt-5 text-xs uppercase font-mono" style="color:var(--zed-muted);">Topics</h2> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> dart </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> debugging </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> flutter </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> hot-reload </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed-extension </span> </div>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-dart--flutter-for-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#dart--flutter-for-zed"><span class="heading-anchor-icon">#</span></a>Dart &#x26; Flutter for Zed</h1>
+<p>A comprehensive, self-contained Dart and Flutter extension for the
+<a href="https://zed.dev">Zed</a> editor: the Dart analysis server over LSP, the
+Dart/Flutter SDK debug adapters over DAP, tasks, gutter runnables, a debug
+locator, snippets, semantic-token rules, and vim text objects - in one install.</p>
+<p>It aims to bring the <strong>editing + debugging</strong> inner loop to parity with VS Code's
+Dart-Code. The features that remain VS-Code-only need editor capabilities Zed
+does not yet expose to extensions; those are documented in
+<a href="https://github.com/M0n7y5/flutter-zed/blob/HEAD/docs/limitations.md" target="_blank" rel="noopener"><code>docs/limitations.md</code></a>, with browser/terminal bridges in
+<a href="https://github.com/M0n7y5/flutter-zed/blob/HEAD/docs/devtools.md" target="_blank" rel="noopener"><code>docs/devtools.md</code></a> and
+<a href="https://github.com/M0n7y5/flutter-zed/blob/HEAD/docs/hot-reload-on-save.md" target="_blank" rel="noopener"><code>docs/hot-reload-on-save.md</code></a>.</p>
+<div class="markdown-alert markdown-alert-important" dir="auto">
+<p class="markdown-alert-title" dir="auto"><svg class="octicon" viewBox="0 0 16 16" width="16" height="16"><path d="M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v9.5A1.75 1.75 0 0 1 14.25 13H8.06l-2.573 2.573A1.458 1.458 0 0 1 3 14.543V13H1.75A1.75 1.75 0 0 1 0 11.25Zm1.75-.25a.25.25 0 0 0-.25.25v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25Zm7 2.25v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg>IMPORTANT</p>
+<p>This extension <strong>replaces</strong> the official <code>dart</code> extension. Zed allows only one
+extension to own the <code>Dart</code> language and grammar, so <strong>do not install both</strong> -
+uninstall the official "Dart" extension before installing this one.</p>
+</div>
+<h2 id="user-content-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features"><span class="heading-anchor-icon">#</span></a>Features</h2>
+<ul>
+<li><strong>IntelliSense</strong> from <code>dart language-server</code>: completion, hover, signature
+help, go-to-definition/references, rename, format, diagnostics, document &#x26;
+workspace symbols, inlay hints, call/type hierarchy.</li>
+<li><strong>Flutter assists &#x26; fixes</strong> - "Wrap with Widget/Column/Padding...", "Convert to
+StatefulWidget", "child -> children", add/remove <code>const</code>, etc. (server-side
+code actions; available via the code-actions menu).</li>
+<li><strong>Debugging</strong> (Flutter &#x26; Dart): breakpoints, stepping, variables, watch, call
+stack, console; launch &#x26; attach; device / build-mode / flavor / <code>--dart-define</code>
+selection; FVM support.</li>
+<li><strong>Run &#x26; debug from the gutter</strong>: <code>main()</code> and tests are runnable; the bundled
+locator turns <code>flutter run</code>/<code>dart run</code> and <code>flutter test</code>/<code>dart test</code> into
+debug sessions (breakpoints hit in tests too). Per-platform <code>flutter run -d &#x3C;chrome|web-server|emulator|iphone></code> entries share that gutter menu (desktop
+linux/macos/windows live in the task picker).</li>
+<li><strong>Tasks</strong>: run, test (<code>--coverage</code> too), <code>build</code> (apk/appbundle/ipa/web),
+<code>pub get</code>/<code>upgrade</code>/<code>outdated</code>, <code>build_runner</code> build/watch, <code>analyze</code>, <code>format</code>,
+<code>fix --apply</code>, <code>doctor</code>, <code>devices</code>, <code>emulators</code>, <code>Open DevTools</code>.</li>
+<li><strong>Snippets</strong> (<code>stless</code>, <code>stful</code>, <code>stanim</code>, <code>build</code>, <code>initState</code>, ...),
+<strong>semantic-token rules</strong> for Dart's custom token types (opt-in), and <strong>vim
+text objects</strong> for functions/classes/comments.</li>
+</ul>
+<h2 id="user-content-requirements"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#requirements"><span class="heading-anchor-icon">#</span></a>Requirements</h2>
+<ul>
+<li>The Dart/Flutter SDK on your <code>PATH</code> (<code>dart</code> / <code>flutter</code>), or point
+<code>lsp.dart.binary.path</code> at it. <a href="https://fvm.app">FVM</a> is supported.</li>
+</ul>
+<h2 id="user-content-install-as-a-dev-extension"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#install-as-a-dev-extension"><span class="heading-anchor-icon">#</span></a>Install (as a dev extension)</h2>
+<ol>
+<li>Clone this repo.</li>
+<li>In Zed: <code>zed: install dev extension</code> (command palette) -> select this folder.
+Zed compiles the Rust -> WASM and fetches the grammar.</li>
+</ol>
+<h2 id="user-content-debugging---zeddebugjson"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#debugging---zeddebugjson"><span class="heading-anchor-icon">#</span></a>Debugging - <code>.zed/debug.json</code></h2>
+<p>Create <code>.zed/debug.json</code> in your project. Every entry needs <code>"adapter": "Dart"</code>.
+The full schema is in <a href="https://github.com/M0n7y5/flutter-zed/blob/HEAD/debug_adapter_schemas/Dart.json" target="_blank" rel="noopener"><code>debug_adapter_schemas/Dart.json</code></a>.</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">[</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "label"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"Flutter (debug)"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "adapter"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"Dart"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "type"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"flutter"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "request"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"launch"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "program"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"lib/main.dart"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  },</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "label"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"Flutter on Chrome (dev flavor)"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "adapter"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"Dart"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "type"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"flutter"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "device_id"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"chrome"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "flavor"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"dev"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "dartDefines"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"API_URL=https://dev.example.com"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  },</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "label"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"Flutter on Android emulator"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "adapter"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"Dart"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "type"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"flutter"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "device_id"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"emulator-5554"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  },</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "label"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"Flutter on iOS simulator"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "adapter"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"Dart"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "type"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"flutter"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "device_id"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"iphone"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  },</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "label"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"Flutter (profile mode)"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "adapter"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"Dart"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "type"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"flutter"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "mode"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"profile"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "device_id"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"macos"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  },</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "label"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"Attach to running app"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "adapter"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"Dart"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "type"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"flutter"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "request"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"attach"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "vmServiceUri"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"ws://127.0.0.1:8181/abcdef=/ws"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  },</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "label"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"Flutter via FVM"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "adapter"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"Dart"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "type"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"flutter"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "useFvm"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">true</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "device_id"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"linux"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  },</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "label"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"Dart CLI"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "adapter"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"Dart"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "type"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"dart"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "program"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"bin/main.dart"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  },</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "label"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"Debug current test file"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "adapter"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"Dart"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "type"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"flutter"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "test"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">true</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "program"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"test/widget_test.dart"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span></code></pre>
+<p>Config keys: <code>type</code> (<code>flutter</code>|<code>dart</code>, default <code>flutter</code>), <code>request</code>
+(<code>launch</code>|<code>attach</code>, inferred <code>attach</code> when <code>vmServiceUri</code>/<code>vmServiceInfoFile</code> is
+set), <code>program</code>, <code>cwd</code>, <code>device_id</code> (-> <code>-d &#x3C;id></code>), <code>mode</code>
+(<code>debug</code>|<code>profile</code>|<code>release</code>), <code>flavor</code>, <code>dartDefines</code>, <code>toolArgs</code> (verbatim
+extra args to <code>flutter run</code>), <code>args</code> (args to your program), <code>env</code>, <code>useFvm</code>,
+<code>test</code> (run the file under <code>&#x3C;tool> debug_adapter --test</code> so breakpoints hit in
+tests), <code>vmServiceUri</code>, <code>vmServiceInfoFile</code>, <code>noDebug</code>, <code>stopOnEntry</code>,
+<code>debugSdkLibraries</code>, <code>debugExternalPackageLibraries</code>.</p>
+<h3 id="user-content-debugging-tests"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#debugging-tests"><span class="heading-anchor-icon">#</span></a>Debugging tests</h3>
+<p><code>flutter test</code>/<code>dart test</code> gutter runnables get a <strong>debug</strong> action automatically:
+the locator emits a <code>test: true</code> scenario that starts the SDK <em>test</em> debug
+adapter (<code>&#x3C;tool> debug_adapter --test</code>) with the test file as <code>program</code>, so
+breakpoints in your tests are honored. Group/single (<code>?line=</code>) selectors debug
+the whole file.</p>
+<h3 id="user-content-target-platforms"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#target-platforms"><span class="heading-anchor-icon">#</span></a>Target platforms</h3>
+<p>Bundled <code>flutter run -d &#x3C;platform></code> tasks let you run or debug on a specific
+device; the locator carries <code>-d &#x3C;platform></code> into the debug session. Two tiers:</p>
+<ul>
+<li><strong>Gutter + task picker</strong> (tagged, so they show in the gutter run/debug menu
+over <code>main()</code>): <code>chrome</code> and <code>web-server</code> (web), <code>emulator</code> (a running Android
+AVD), <code>iphone</code> (a booted iOS Simulator, macOS only).</li>
+<li><strong>Task picker only</strong> (<code>task: spawn</code>, run-only): <code>linux</code>, <code>macos</code>, <code>windows</code>
+desktop - host-specific, so they are kept out of the gutter menu. To debug on
+desktop, add a <code>.zed/debug.json</code> entry with <code>device_id</code>.</li>
+</ul>
+<p><code>emulator</code>/<code>iphone</code> rely on <code>-d</code> prefix matching (ids <code>emulator-5554</code>,
+<code>iPhone 15</code>, ...); boot one with the <code>flutter emulators</code> task (e.g.
+<code>flutter emulators --launch apple_ios_simulator</code>).</p>
+<p>To list and boot a chosen emulator in one terminal step, add this to your
+project <code>.zed/tasks.json</code> (it runs in your shell and uses POSIX <code>read</code>, so
+macOS/Linux):</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "label"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"Flutter: launch emulator"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "command"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"flutter emulators; printf '</span><span style="color:#005CC5;--shiki-dark:#79B8FF">\\</span><span style="color:#032F62;--shiki-dark:#9ECBFF">nEmulator id to launch: '; read -r e &#x26;&#x26; flutter emulators --launch </span><span style="color:#005CC5;--shiki-dark:#79B8FF">\"</span><span style="color:#032F62;--shiki-dark:#9ECBFF">$e</span><span style="color:#005CC5;--shiki-dark:#79B8FF">\"</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>Zed has no native device picker (extensions can't add UI or prompt for input),
+but the integrated terminal makes the <code>read</code> step work. Booting is async, so
+launch first, then run with <code>flutter run -d emulator</code>/<code>-d iphone</code>.</p>
+<p><code>-d</code> matches a device id or name exactly, then by prefix; there is no
+<code>android</code>/<code>ios</code> platform alias. For a physical phone, another simulator or
+emulator, or any specific device - whose ids are dynamic - run the
+<code>flutter devices</code> task to read the id, then set <code>device_id</code> in a <code>.zed/debug.json</code>
+launch config or add a task with <code>"args": ["run", "-d", "&#x3C;id>"]</code>. Device
+targeting is a <code>flutter run</code> feature; <code>flutter test</code> ignores <code>-d</code>.</p>
+<h2 id="user-content-tasks"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#tasks"><span class="heading-anchor-icon">#</span></a>Tasks</h2>
+<p>All tasks are available from the command palette via <code>task: spawn</code>. Tasks tagged
+for the gutter also appear in the run/debug (<code>></code>) menu over the relevant code.</p>
+<h3 id="user-content-run--debug-gutter-over-main--task-spawn"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#run--debug-gutter-over-main--task-spawn"><span class="heading-anchor-icon">#</span></a>Run &#x26; debug (gutter over <code>main()</code> + <code>task: spawn</code>)</h3>
+<p>Each row also gets an auto-generated <strong>Debug</strong> entry (the locator reuses the
+command).</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Task</th><th>Command</th><th>Runs on</th></tr></thead><tbody><tr><td>flutter run</td><td><code>flutter run</code></td><td>the default device</td></tr><tr><td>fvm flutter run</td><td><code>fvm flutter run</code></td><td>the default device, via FVM</td></tr><tr><td>flutter run -d chrome</td><td><code>flutter run -d chrome</code></td><td>web (Chrome)</td></tr><tr><td>flutter run -d web-server</td><td><code>flutter run -d web-server</code></td><td>headless web</td></tr><tr><td>flutter run -d emulator</td><td><code>flutter run -d emulator</code></td><td>a running Android emulator</td></tr><tr><td>flutter run -d iphone</td><td><code>flutter run -d iphone</code></td><td>a booted iOS simulator (macOS)</td></tr></tbody></table>
+<h3 id="user-content-tests-gutter-over-test-code--task-spawn"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#tests-gutter-over-test-code--task-spawn"><span class="heading-anchor-icon">#</span></a>Tests (gutter over test code + <code>task: spawn</code>)</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Task</th><th>Command</th><th>Runs</th></tr></thead><tbody><tr><td>flutter test</td><td><code>flutter test &#x3C;file></code> (FVM variant too)</td><td>the current Flutter test file</td></tr><tr><td>dart test file</td><td><code>dart test &#x3C;file></code></td><td>the current <code>package:test</code> file</td></tr><tr><td>dart test group / single</td><td><code>dart test "&#x3C;file>?line=&#x3C;row>"</code></td><td>the test file (debugs whole file)</td></tr><tr><td>flutter test --coverage</td><td><code>flutter test --coverage</code></td><td>the whole suite, writing <code>coverage/lcov.info</code></td></tr></tbody></table>
+<h3 id="user-content-utilities-task-spawn"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#utilities-task-spawn"><span class="heading-anchor-icon">#</span></a>Utilities (<code>task: spawn</code>)</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Task</th><th>Command</th><th>What it does</th></tr></thead><tbody><tr><td>desktop run</td><td><code>flutter run -d linux / macos / windows</code></td><td>run on desktop (run-only)</td></tr><tr><td>flutter pub get / upgrade / outdated</td><td><code>flutter pub get</code> / <code>upgrade</code> / <code>outdated</code></td><td>fetch / upgrade / list outdated packages</td></tr><tr><td>dart pub get</td><td><code>dart pub get</code></td><td>fetch packages (Dart-only)</td></tr><tr><td>flutter clean</td><td><code>flutter clean</code></td><td>delete build artifacts</td></tr><tr><td>flutter doctor</td><td><code>flutter doctor -v</code></td><td>environment diagnostics</td></tr><tr><td>flutter devices</td><td><code>flutter devices</code></td><td>list connected device ids</td></tr><tr><td>flutter emulators</td><td><code>flutter emulators</code></td><td>list AVDs / iOS sim (boot via <code>--launch</code>)</td></tr><tr><td>dart analyze</td><td><code>dart analyze</code></td><td>static analysis</td></tr><tr><td>dart format</td><td><code>dart format .</code></td><td>format the project</td></tr><tr><td>dart fix --apply</td><td><code>dart fix --apply</code></td><td>apply automated fixes</td></tr><tr><td>build_runner</td><td><code>dart run build_runner build / watch</code></td><td>code generation</td></tr><tr><td>Open DevTools</td><td><code>dart devtools</code></td><td>launch DevTools in the browser</td></tr></tbody></table>
+<h3 id="user-content-build--release-task-spawn"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#build--release-task-spawn"><span class="heading-anchor-icon">#</span></a>Build &#x26; release (<code>task: spawn</code>)</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Task</th><th>Command</th><th>Output</th></tr></thead><tbody><tr><td>flutter build apk</td><td><code>flutter build apk</code></td><td>release APK under <code>build/app/outputs/</code></td></tr><tr><td>flutter build appbundle</td><td><code>flutter build appbundle</code></td><td>Play Store <code>.aab</code> bundle</td></tr><tr><td>flutter build ipa</td><td><code>flutter build ipa</code></td><td>iOS archive (macOS + Xcode only)</td></tr><tr><td>flutter build web</td><td><code>flutter build web</code></td><td>static site under <code>build/web/</code></td></tr></tbody></table>
+<h2 id="user-content-recommended-settings"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#recommended-settings"><span class="heading-anchor-icon">#</span></a>Recommended settings</h2>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">  // Render LSP code lenses (off by default in Zed):</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "code_lens"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"on"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">  // Use the Dart analysis server's semantic tokens on top of tree-sitter:</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "languages"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "Dart"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"semantic_tokens"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"combined"</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  },</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "dart"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">      // Workspace settings forwarded to the analysis server:</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "lineLength"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">100</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "completeFunctionCalls"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">true</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "enableSnippets"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">true</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">      // FVM: pin the language server to your project SDK, e.g.</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">      // "binary": {</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">      //   "path": ".fvm/flutter_sdk/bin/dart",</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">      //   "arguments": ["language-server", "--protocol=lsp"]</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">      // }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h2 id="user-content-devtools-the-inspector-and-hot-reload"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#devtools-the-inspector-and-hot-reload"><span class="heading-anchor-icon">#</span></a>DevTools, the inspector, and hot reload</h2>
+<p>DevTools (widget inspector, performance, memory) runs in your browser against
+the app's VM Service - see <a href="https://github.com/M0n7y5/flutter-zed/blob/HEAD/docs/devtools.md" target="_blank" rel="noopener"><code>docs/devtools.md</code></a>. Hot reload and
+reload-on-save options are in <a href="https://github.com/M0n7y5/flutter-zed/blob/HEAD/docs/hot-reload-on-save.md" target="_blank" rel="noopener"><code>docs/hot-reload-on-save.md</code></a>.
+What's blocked on Zed core and why is in <a href="https://github.com/M0n7y5/flutter-zed/blob/HEAD/docs/limitations.md" target="_blank" rel="noopener"><code>docs/limitations.md</code></a>.</p>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>GPL-3.0-or-later. Incorporates Apache-2.0 material from
+<a href="https://github.com/zed-extensions/dart"><code>zed-extensions/dart</code></a>; see
+<a href="https://github.com/M0n7y5/flutter-zed/blob/HEAD/NOTICE" target="_blank" rel="noopener"><code>NOTICE</code></a>.</p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>

@@ -11551,8 +11551,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2024-04-27T19:27:52Z",
-    "updated_at": "2026-06-08T16:03:19Z",
-    "pushed_at": "2026-06-07T22:08:20Z",
+    "updated_at": "2026-06-09T10:56:43Z",
+    "pushed_at": "2026-06-09T10:55:45Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": false,
     "extension": {
@@ -31146,8 +31146,8 @@
     "language": "Tree-sitter Query",
     "license": "Apache-2.0",
     "created_at": "2024-02-19T14:56:35Z",
-    "updated_at": "2026-06-09T06:04:43Z",
-    "pushed_at": "2026-06-07T22:07:58Z",
+    "updated_at": "2026-06-09T10:59:56Z",
+    "pushed_at": "2026-06-09T10:59:06Z",
     "discovered_at": "2026-05-19T21:42:53.670Z",
     "official": false,
     "extension": {
@@ -51630,8 +51630,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-06-09T06:23:42Z",
-    "updated_at": "2026-06-09T06:43:56Z",
-    "pushed_at": "2026-06-09T06:43:46Z",
+    "updated_at": "2026-06-09T08:19:17Z",
+    "pushed_at": "2026-06-09T08:19:13Z",
     "discovered_at": "2026-06-09T07:14:16.831Z",
     "official": false,
     "extension": {
@@ -51682,6 +51682,54 @@
       "sections": [],
       "categories": [
         "theme"
+      ]
+    }
+  },
+  "m0n7y5/flutter-zed": {
+    "name": "M0n7y5/flutter-zed",
+    "url": "https://github.com/M0n7y5/flutter-zed",
+    "description": "Flutter development support for ZED IDE",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "dart",
+      "debugging",
+      "flutter",
+      "hot-reload",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Rust",
+    "license": "GPL-3.0",
+    "created_at": "2026-06-04T09:53:55Z",
+    "updated_at": "2026-06-09T12:43:53Z",
+    "pushed_at": "2026-06-09T12:42:36Z",
+    "discovered_at": "2026-06-09T12:59:47.866Z",
+    "official": false,
+    "extension": {
+      "id": "dart-flutter",
+      "name": "Dart & Flutter",
+      "description": "Comprehensive Dart and Flutter support for Zed: analysis-server LSP, Dart/Flutter debugging (DAP), tasks, runnables, snippets, and semantic tokens.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "M0n7y5 <https://github.com/M0n7y5>"
+      ],
+      "repository": "https://github.com/M0n7y5/flutter-zed",
+      "snippets": [
+        "snippets/dart.json"
+      ],
+      "sections": [
+        "language_servers",
+        "grammars",
+        "debug_adapters",
+        "debug_locators"
+      ],
+      "categories": [
+        "grammar",
+        "language-server",
+        "debug-adapter",
+        "snippets"
       ]
     }
   }
