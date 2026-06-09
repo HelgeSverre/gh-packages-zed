@@ -52,8 +52,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-04-17T01:34:39Z",
-    "updated_at": "2026-06-08T17:50:46Z",
-    "pushed_at": "2026-06-08T17:50:41Z",
+    "updated_at": "2026-06-09T00:33:00Z",
+    "pushed_at": "2026-06-09T00:32:56Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -184,7 +184,7 @@
     "name": "wakatime/zed-wakatime",
     "url": "https://github.com/wakatime/zed-wakatime",
     "description": "Zed plugin for automatic time tracking and metrics generated from your programming activity.",
-    "stars": 189,
+    "stars": 190,
     "forks": 29,
     "topics": [
       "extension",
@@ -196,7 +196,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2024-08-27T10:31:46Z",
-    "updated_at": "2026-06-05T18:43:42Z",
+    "updated_at": "2026-06-09T00:13:33Z",
     "pushed_at": "2026-06-05T10:49:56Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -370,13 +370,17 @@
     "stars": 21,
     "forks": 2,
     "topics": [
+      "flow",
+      "glassmorphism",
       "icon-theme",
-      "zed-extension"
+      "icons",
+      "zed-extension",
+      "zed-theme"
     ],
     "language": "JavaScript",
     "license": null,
     "created_at": "2025-12-03T23:34:48Z",
-    "updated_at": "2026-06-07T20:35:15Z",
+    "updated_at": "2026-06-08T21:00:57Z",
     "pushed_at": "2026-06-01T17:28:35Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
@@ -1817,7 +1821,7 @@
     "url": "https://github.com/tfuxu/zed-blueprint",
     "description": "Blueprint (.blp) language support for Zed editor",
     "stars": 9,
-    "forks": 3,
+    "forks": 4,
     "topics": [
       "blueprint",
       "gtk",
@@ -5678,7 +5682,7 @@
     "name": "deletosh/alfred-zed-recent",
     "url": "https://github.com/deletosh/alfred-zed-recent",
     "description": "Alfred 5 workflow — list and open recent Zed editor projects. Fast, zero-dependency, built in Go.",
-    "stars": 2,
+    "stars": 3,
     "forks": 0,
     "topics": [
       "alfred",
@@ -5691,7 +5695,7 @@
     "language": "Go",
     "license": null,
     "created_at": "2026-04-20T10:54:35Z",
-    "updated_at": "2026-05-26T02:10:28Z",
+    "updated_at": "2026-06-08T19:33:12Z",
     "pushed_at": "2026-04-20T14:40:09Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
@@ -6405,8 +6409,8 @@
     "language": "Lua",
     "license": "GPL-3.0",
     "created_at": "2021-07-29T01:24:02Z",
-    "updated_at": "2026-06-08T16:52:13Z",
-    "pushed_at": "2026-06-08T16:52:09Z",
+    "updated_at": "2026-06-08T23:39:48Z",
+    "pushed_at": "2026-06-08T23:39:44Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
   },
@@ -8974,7 +8978,7 @@
     "url": "https://github.com/zed-extensions/typst",
     "description": "Typst extension for zed",
     "stars": 173,
-    "forks": 14,
+    "forks": 15,
     "topics": [],
     "language": "Rust",
     "license": "Apache-2.0",
@@ -15724,7 +15728,7 @@
     "name": "agent-sh/agnix",
     "url": "https://github.com/agent-sh/agnix",
     "description": "The missing linter and lsp for AI coding assistants. Validate CLAUDE.md, AGENTS.md, SKILL.md, hooks, MCP. Plugin for all major IDEs included, with autofixes.",
-    "stars": 277,
+    "stars": 278,
     "forks": 25,
     "topics": [
       "agent",
@@ -15751,7 +15755,7 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
-    "updated_at": "2026-06-08T12:44:32Z",
+    "updated_at": "2026-06-08T19:45:26Z",
     "pushed_at": "2026-06-07T23:26:04Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
@@ -18310,8 +18314,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-06-08T13:29:05Z",
-    "pushed_at": "2026-06-08T13:28:12Z",
+    "updated_at": "2026-06-08T18:50:51Z",
+    "pushed_at": "2026-06-08T18:50:47Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -29989,11 +29993,11 @@
       "wcag",
       "zed-theme"
     ],
-    "language": "JavaScript",
+    "language": "TypeScript",
     "license": "Apache-2.0",
     "created_at": "2026-02-23T21:09:46Z",
-    "updated_at": "2026-06-07T17:39:03Z",
-    "pushed_at": "2026-06-07T17:38:59Z",
+    "updated_at": "2026-06-08T20:08:28Z",
+    "pushed_at": "2026-06-08T20:08:10Z",
     "discovered_at": "2026-06-04T18:46:41.571Z",
     "official": false
   },

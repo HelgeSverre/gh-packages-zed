@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1514** |
 | In official registry | 1075 |
 | Discovered via topics | 439 |
-| Last updated | 2026-06-08 18:50 UTC |
+| Last updated | 2026-06-09 00:37 UTC |
 
 ### By capability
 
@@ -102,7 +102,7 @@ cd website && npm install && npm run dev
 | [catppuccin/zed-icons](https://github.com/catppuccin/zed-icons) | 240 | 🦊 Soothing pastel icons for Zed |
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 189 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 190 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
 | [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 175 | Zed support for the Godot game engine and the GDScript language |
@@ -135,7 +135,7 @@ cd website && npm install && npm run dev
 | [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 132 | 2026-06-07 |  |
 | [paveloom-r/zed-termux](https://github.com/paveloom-r/zed-termux) | 0 | 2026-06-07 | `termux-language-server` support for Zed editor |
 | [Adriusops/Buisson](https://github.com/Adriusops/Buisson) | 3 | 2026-06-06 | An inky botanical color scheme |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 189 | 2026-06-05 | Zed plugin for automatic time tracking and metrics generated... |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 190 | 2026-06-05 | Zed plugin for automatic time tracking and metrics generated... |
 | [ysalitrynskyi/zed-theme-darcula](https://github.com/ysalitrynskyi/zed-theme-darcula) | 0 | 2026-06-04 | The classic JetBrains Darcula color scheme for the Zed edito... |
 | [pursvir/zed-todotxt](https://github.com/pursvir/zed-todotxt) | 6 | 2026-06-03 | Todo.txt support for Zed |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 142 | 2026-06-03 | A port of the Neovim theme to Zed editor |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-09T00:37 | 0 | 457 | 1804 |
 | 2026-06-08T18:50 | 0 | 457 | 1804 |
 | 2026-06-08T13:27 | 3 | 455 | 1804 |
 | 2026-06-08T07:41 | 0 | 454 | 1801 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-07T07:23 | 1 | 452 | 1800 |
 | 2026-06-07T00:42 | 0 | 453 | 1799 |
 | 2026-06-06T18:27 | 1 | 453 | 1799 |
-| 2026-06-06T12:27 | 2 | 451 | 1798 |
 
 ---
 
