@@ -1,0 +1,11 @@
+id = "logos"
+name = "Logos"
+version = "0.0.1"
+schema_version = 1
+description = "Syntax highlighting for Theos Logos .x and .xm files."
+authors = ["Great Love (nobottomline)"]
+repository = "https://github.com/nobottomline/logos-zed"
+
+[grammars.logos]
+repository = "https://github.com/nobottomline/logos-zed"
+rev = "main"

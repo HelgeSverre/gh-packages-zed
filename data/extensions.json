@@ -31140,13 +31140,13 @@
     "name": "zed-extensions/git_firefly",
     "url": "https://github.com/zed-extensions/git_firefly",
     "description": "",
-    "stars": 132,
+    "stars": 131,
     "forks": 5,
     "topics": [],
     "language": "Tree-sitter Query",
     "license": "Apache-2.0",
     "created_at": "2024-02-19T14:56:35Z",
-    "updated_at": "2026-06-09T10:59:56Z",
+    "updated_at": "2026-06-09T19:29:08Z",
     "pushed_at": "2026-06-09T10:59:06Z",
     "discovered_at": "2026-05-19T21:42:53.670Z",
     "official": false,
@@ -51142,7 +51142,7 @@
     "license": "MIT",
     "created_at": "2026-05-31T21:58:49Z",
     "updated_at": "2026-06-03T09:13:47Z",
-    "pushed_at": "2026-06-03T09:14:24Z",
+    "pushed_at": "2026-06-09T19:55:27Z",
     "discovered_at": "2026-06-01T00:42:32.382Z",
     "official": true,
     "extension": {
@@ -51730,6 +51730,48 @@
         "language-server",
         "debug-adapter",
         "snippets"
+      ]
+    }
+  },
+  "nobottomline/logos-zed": {
+    "name": "nobottomline/logos-zed",
+    "url": "https://github.com/nobottomline/logos-zed",
+    "description": "Syntax highlighting for Theos Logos files in Zed",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "logos",
+      "objective-c",
+      "objective-cpp",
+      "syntax-highlighting",
+      "theos",
+      "tree-sitter",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "C",
+    "license": "MIT",
+    "created_at": "2026-06-09T20:10:27Z",
+    "updated_at": "2026-06-09T20:28:57Z",
+    "pushed_at": "2026-06-09T20:19:03Z",
+    "discovered_at": "2026-06-10T00:43:30.822Z",
+    "official": false,
+    "extension": {
+      "id": "logos",
+      "name": "Logos",
+      "description": "Syntax highlighting for Theos Logos .x and .xm files.",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Great Love (nobottomline)"
+      ],
+      "repository": "https://github.com/nobottomline/logos-zed",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
       ]
     }
   }
