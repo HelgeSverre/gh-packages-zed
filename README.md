@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1518** |
 | In official registry | 1075 |
 | Discovered via topics | 443 |
-| Last updated | 2026-06-10 07:28 UTC |
+| Last updated | 2026-06-10 13:09 UTC |
 
 ### By capability
 
@@ -120,6 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 142 | 2026-06-10 | A port of the Neovim theme to Zed editor |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 84 | 2026-06-10 | True Dark Theme for Zed IDE |
 | [nobottomline/logos-zed](https://github.com/nobottomline/logos-zed) | 0 | 2026-06-09 | Syntax highlighting for Theos Logos files in Zed |
 | [almeladev/geode-zed](https://github.com/almeladev/geode-zed) | 1 | 2026-06-09 | 💎 A gem-toned theme for Zed. Color only where it carries me... |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [zed-extensions/log](https://github.com/zed-extensions/log) | 42 | 2026-06-07 | Syntax highlighting for log files in Zed. |
 | [zed-extensions/nix](https://github.com/zed-extensions/nix) | 115 | 2026-06-07 | Nix language support in Zed |
 | [paveloom-r/zed-termux](https://github.com/paveloom-r/zed-termux) | 0 | 2026-06-07 | `termux-language-server` support for Zed editor |
-| [Adriusops/Buisson](https://github.com/Adriusops/Buisson) | 3 | 2026-06-06 | An inky botanical color scheme |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-10T13:09 | 1 | 462 | 1811 |
 | 2026-06-10T07:28 | 0 | 462 | 1810 |
 | 2026-06-10T00:43 | 2 | 460 | 1810 |
 | 2026-06-09T18:44 | 0 | 460 | 1808 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-08T18:50 | 0 | 457 | 1804 |
 | 2026-06-08T13:27 | 3 | 455 | 1804 |
 | 2026-06-08T07:41 | 0 | 454 | 1801 |
-| 2026-06-08T00:43 | 0 | 454 | 1801 |
 
 ---
 
