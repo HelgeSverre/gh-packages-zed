@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1518** |
 | In official registry | 1075 |
 | Discovered via topics | 443 |
-| Last updated | 2026-06-10 13:09 UTC |
+| Last updated | 2026-06-10 18:53 UTC |
 
 ### By capability
 
@@ -120,6 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [htahaozlu/context-bar](https://github.com/htahaozlu/context-bar) | 13 | 2026-06-10 | Usage and cost visibility for Claude Code and Codex — native... |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 142 | 2026-06-10 | A port of the Neovim theme to Zed editor |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 84 | 2026-06-10 | True Dark Theme for Zed IDE |
 | [nobottomline/logos-zed](https://github.com/nobottomline/logos-zed) | 0 | 2026-06-09 | Syntax highlighting for Theos Logos files in Zed |
@@ -130,7 +131,6 @@ cd website && npm install && npm run dev
 | [Y-ASLant/Flow-Icons-Zed](https://github.com/Y-ASLant/Flow-Icons-Zed) | 0 | 2026-06-09 | Base on https://flow-icons.pages.dev/ |
 | [adamsharifc/zed-field-lights](https://github.com/adamsharifc/zed-field-lights) | 0 | 2026-06-09 | A dark Visual Studio Theme inspired by the great Ayu theme b... |
 | [Smyrnis/united-gnome-theme](https://github.com/Smyrnis/united-gnome-theme) | 1 | 2026-06-08 | Theme Extension for the Zed Editor |
-| [htahaozlu/context-bar](https://github.com/htahaozlu/context-bar) | 13 | 2026-06-08 | Usage and cost visibility for Claude Code and Codex — native... |
 | [frostime/zed-file-mention](https://github.com/frostime/zed-file-mention) | 0 | 2026-06-08 | An zed extension (dev phase). Press @ for quick file path co... |
 | [zed-extensions/nginx](https://github.com/zed-extensions/nginx) | 10 | 2026-06-07 |  |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 126 | 2026-06-07 | The Ruby language support for Zed editor |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-10T18:53 | 0 | 463 | 1811 |
 | 2026-06-10T13:09 | 1 | 462 | 1811 |
 | 2026-06-10T07:28 | 0 | 462 | 1810 |
 | 2026-06-10T00:43 | 2 | 460 | 1810 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-09T00:37 | 0 | 457 | 1804 |
 | 2026-06-08T18:50 | 0 | 457 | 1804 |
 | 2026-06-08T13:27 | 3 | 455 | 1804 |
-| 2026-06-08T07:41 | 0 | 454 | 1801 |
 
 ---
 
