@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1518** |
 | In official registry | 1075 |
 | Discovered via topics | 443 |
-| Last updated | 2026-06-10 00:43 UTC |
+| Last updated | 2026-06-10 07:28 UTC |
 
 ### By capability
 
@@ -120,13 +120,13 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 84 | 2026-06-10 | True Dark Theme for Zed IDE |
 | [nobottomline/logos-zed](https://github.com/nobottomline/logos-zed) | 0 | 2026-06-09 | Syntax highlighting for Theos Logos files in Zed |
 | [almeladev/geode-zed](https://github.com/almeladev/geode-zed) | 1 | 2026-06-09 | 💎 A gem-toned theme for Zed. Color only where it carries me... |
 | [M0n7y5/flutter-zed](https://github.com/M0n7y5/flutter-zed) | 1 | 2026-06-09 | Flutter development support for ZED IDE |
 | [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 131 | 2026-06-09 |  |
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 174 | 2026-06-09 | Typst extension for zed |
 | [Y-ASLant/Flow-Icons-Zed](https://github.com/Y-ASLant/Flow-Icons-Zed) | 0 | 2026-06-09 | Base on https://flow-icons.pages.dev/ |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 84 | 2026-06-09 | True Dark Theme for Zed IDE |
 | [adamsharifc/zed-field-lights](https://github.com/adamsharifc/zed-field-lights) | 0 | 2026-06-09 | A dark Visual Studio Theme inspired by the great Ayu theme b... |
 | [Smyrnis/united-gnome-theme](https://github.com/Smyrnis/united-gnome-theme) | 1 | 2026-06-08 | Theme Extension for the Zed Editor |
 | [htahaozlu/context-bar](https://github.com/htahaozlu/context-bar) | 13 | 2026-06-08 | Usage and cost visibility for Claude Code and Codex — native... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-10T07:28 | 0 | 462 | 1810 |
 | 2026-06-10T00:43 | 2 | 460 | 1810 |
 | 2026-06-09T18:44 | 0 | 460 | 1808 |
 | 2026-06-09T12:59 | 2 | 459 | 1808 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-08T13:27 | 3 | 455 | 1804 |
 | 2026-06-08T07:41 | 0 | 454 | 1801 |
 | 2026-06-08T00:43 | 0 | 454 | 1801 |
-| 2026-06-07T18:27 | 1 | 453 | 1801 |
 
 ---
 
