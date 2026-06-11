@@ -1,0 +1,11 @@
+id = "pioasm"
+name = "PIO Assembly"
+version = "0.0.1"
+schema_version = 1
+authors = ["GGORG <me@ggorg.xyz>"]
+description = "Raspberry Pi Pico PIO Assembly syntax highlighting"
+repository = "https://github.com/GGORG0/zed-pioasm-syntax"
+
+[grammars.pioasm]
+repository = "https://github.com/leo60228/tree-sitter-pioasm"
+rev = "afece58efdb30440bddd151ef1347fa8d6f744a9"

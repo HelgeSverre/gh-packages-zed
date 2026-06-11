@@ -1,0 +1,15 @@
+id = "json-tool-lsp"
+name = "json-tool-lsp"
+description = "Format and minify open JSON buffers through a minimal LSP bridge."
+version = "0.0.3"
+schema_version = 1
+authors = ["xgfone"]
+repository = "https://github.com/xgfone/zed-json-tool"
+
+[language_servers.json-tool-lsp]
+name = "json-tool-lsp"
+languages = ["JSON", "JSONC"]
+
+[language_servers.json-tool-lsp.language_ids]
+"JSON" = "json"
+"JSONC" = "jsonc"

@@ -1,0 +1,301 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>json-tool-lsp - Zed Extension Safari</title><meta name="description" content="Format and minify open JSON buffers through a minimal LSP bridge."><link rel="canonical" href="https://helgesverre.github.io/gh-packages-zed/package/xgfone/zed-json-tool/"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="json-tool-lsp - Zed Extension Safari"><meta property="og:description" content="Format and minify open JSON buffers through a minimal LSP bridge."><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed/package/xgfone/zed-json-tool/"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="json-tool-lsp - Zed Extension Safari"><meta name="twitter:description" content="Format and minify open JSON buffers through a minimal LSP bridge."><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/gh-packages-zed/_astro/ClientRouter.astro_astro_type_script_index_0_lang.ClVLs1kt.js"></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"json-tool-lsp","description":"Format and minify open JSON buffers through a minimal LSP bridge.","applicationCategory":"DeveloperApplication","operatingSystem":"macOS, Linux, Windows","url":"https://zed.dev/extensions/json-tool-lsp","codeRepository":"https://github.com/xgfone/zed-json-tool","author":[{"@type":"Person","name":"xgfone"}],"softwareVersion":"0.0.3","license":"Apache-2.0","keywords":"language-server","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/Layout.CGDlMdWE.css"><script type="module" src="/gh-packages-zed/_astro/page.B8i1Zz-u.js"></script></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <a href="#main" class="skip-to-content">Skip to content</a> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" data-astro-transition-persist="astro-fhchcgd7-1"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <script type="application/json" id="pkg-extras">{"url":"https://github.com/xgfone/zed-json-tool","language":"Rust","license":"Apache-2.0","topics":[],"extension":{"authors":["xgfone"],"schema_version":1}}</script> <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> xgfone/zed-json-tool </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> json-tool-lsp </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> Format and minify open JSON buffers through a minimal LSP bridge. </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="language-server">Language Server</span> </div> </div> </div> </header> <main id="main" class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/json-tool-lsp" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/xgfone/zed-json-tool" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.0.3</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">json-tool-lsp</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">Rust</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">Apache-2.0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">6/2/2026</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">xgfone</dd> </div> </dl>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-json-tool-lsp"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#json-tool-lsp"><span class="heading-anchor-icon">#</span></a>json-tool-lsp</h1>
+<p><code>json-tool-lsp</code> is a Zed extension for working with JSON buffers. It provides code actions for
+minifying and formatting the current editor buffer through a small companion LSP server.</p>
+<p>The extension is adapted from the VSCode extension <code>eriklynd.json-tools-1.0.2</code>, with the editor
+integration rewritten for Zed. Because Zed extensions cannot read editor buffers directly, this
+extension uses LSP document synchronization to receive the current buffer text and returns
+<code>WorkspaceEdit</code> edits through code actions.</p>
+<h2 id="user-content-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features"><span class="heading-anchor-icon">#</span></a>Features</h2>
+<ul>
+<li>
+<p><code>JSON Tool: Minify JSON</code></p>
+<ul>
+<li>Replaces the current JSON buffer with compact JSON.</li>
+<li>Supports one JSON value or a stream of multiple JSON values.</li>
+<li>When multiple JSON values are present, the result is one minified JSON value per line.</li>
+<li>Preserves large JSON numbers without converting them to floating point values.</li>
+<li>Preserves object key order.</li>
+</ul>
+</li>
+<li>
+<p><code>JSON Tool: Format JSON</code></p>
+<ul>
+<li>Uses a target maximum line length of 120 characters.</li>
+<li>Formats the current JSON buffer with 4-space indentation.</li>
+<li>Keeps arrays and objects on one line when they fit within the target line length.</li>
+<li>Expands arrays and objects across multiple lines when they exceed the target line length.</li>
+<li>Supports JSON streams, including JSON log files where each line is one JSON object.</li>
+<li>Also supports irregular multi-line JSON objects when they can be parsed as a valid JSON value stream.</li>
+</ul>
+</li>
+</ul>
+<h2 id="user-content-supported-languages"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#supported-languages"><span class="heading-anchor-icon">#</span></a>Supported Languages</h2>
+<p>The extension is enabled for:</p>
+<ul>
+<li><code>JSON</code></li>
+<li><code>JSONC</code></li>
+</ul>
+<p>JSONC is currently parsed with the same parser as JSON, so comments and trailing commas are not
+accepted yet.</p>
+<h2 id="user-content-usage"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#usage"><span class="heading-anchor-icon">#</span></a>Usage</h2>
+<ol>
+<li>Open a <code>JSON</code> or <code>JSONC</code> file in Zed.</li>
+<li>Open code actions for the current buffer.</li>
+<li>Choose one of:
+<ul>
+<li><code>JSON Tool: Minify JSON</code></li>
+<li><code>JSON Tool: Format JSON</code></li>
+</ul>
+</li>
+</ol>
+<p>If the buffer cannot be parsed as JSON, the extension does not offer a JSON edit.</p>
+<h2 id="user-content-json-streams"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#json-streams"><span class="heading-anchor-icon">#</span></a>JSON Streams</h2>
+<p>This extension intentionally supports more than a single top-level JSON value.
+This is useful for JSON log files and NDJSON-like files.</p>
+<p>Input:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span><span style="color:#005CC5;--shiki-dark:#79B8FF">"level"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">:</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"info"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span><span style="color:#005CC5;--shiki-dark:#79B8FF">"message"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">:</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"started"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span><span style="color:#005CC5;--shiki-dark:#79B8FF">"level"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">:</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"warn"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span><span style="color:#005CC5;--shiki-dark:#79B8FF">"message"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">:</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"slow request"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span><span style="color:#005CC5;--shiki-dark:#79B8FF">"duration_ms"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">:</span><span style="color:#005CC5;--shiki-dark:#79B8FF">1234</span><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>Format output:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span><span style="color:#005CC5;--shiki-dark:#79B8FF">"level"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"info"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"message"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"started"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span><span style="color:#005CC5;--shiki-dark:#79B8FF">"level"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"warn"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"message"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"slow request"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"duration_ms"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">1234</span><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>Minify output:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span><span style="color:#005CC5;--shiki-dark:#79B8FF">"level"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">:</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"info"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span><span style="color:#005CC5;--shiki-dark:#79B8FF">"message"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">:</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"started"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span><span style="color:#005CC5;--shiki-dark:#79B8FF">"level"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">:</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"warn"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span><span style="color:#005CC5;--shiki-dark:#79B8FF">"message"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">:</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"slow request"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span><span style="color:#005CC5;--shiki-dark:#79B8FF">"duration_ms"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">:</span><span style="color:#005CC5;--shiki-dark:#79B8FF">1234</span><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>When a value is longer than the target line length, formatting expands it:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "level"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"info"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "message"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"a long message that pushes the object beyond the configured line width"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "metadata"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"request_id"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"abc"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"status"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">200</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h2 id="user-content-local-development"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#local-development"><span class="heading-anchor-icon">#</span></a>Local Development</h2>
+<p>For local development, this repository includes helper scripts that build the
+extension and copy only the extension manifest and wasm into the local Zed data
+directory:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">scripts/install-dev.sh</span></span></code></pre>
+<p>For Zed Preview on macOS, pass the data directory explicitly:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">scripts/install-dev.sh</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --data-dir</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> "</span><span style="color:#24292E;--shiki-dark:#E1E4E8">$HOME</span><span style="color:#032F62;--shiki-dark:#9ECBFF">/Library/Application Support/Zed Preview"</span></span></code></pre>
+<p>Restart Zed after installation.</p>
+<p>The script builds these local development artifacts:</p>
+<ul>
+<li>the Zed extension wasm</li>
+<li>the native <code>json-tool-lsp</code> server</li>
+</ul>
+<p>It installs only the extension files into:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span>&#x3C;Zed data dir>/extensions/installed/json-tool-lsp</span></span></code></pre>
+<p>The local LSP server is not bundled into the extension. Point Zed at the locally built server with
+<code>lsp.json-tool-lsp.binary.path</code>:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "json-tool-lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">            "binary"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">                "path"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"/absolute/path/to/json-tool-lsp"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">            }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">        }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>Alternatively, set <code>ZED_JSON_TOOL_LSP</code> to the server path before launching Zed.</p>
+<p>These scripts are for local development only. Published builds download the platform-specific LSP
+server from GitHub Releases or use a user-provided server path.</p>
+<h2 id="user-content-development-commands"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#development-commands"><span class="heading-anchor-icon">#</span></a>Development Commands</h2>
+<p>Run LSP tests:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> test</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --manifest-path</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> server/Cargo.toml</span></span></code></pre>
+<p>Build the extension wasm:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> build</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --release</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --target</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> wasm32-wasip2</span></span></code></pre>
+<p>Build the LSP server:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> build</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --release</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --manifest-path</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> server/Cargo.toml</span></span></code></pre>
+<p>Clean build outputs:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">scripts/clean.sh</span></span></code></pre>
+<p>Uninstall the local development extension:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">scripts/uninstall-dev.sh</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --data-dir</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> "</span><span style="color:#24292E;--shiki-dark:#E1E4E8">$HOME</span><span style="color:#032F62;--shiki-dark:#9ECBFF">/Library/Application Support/Zed Preview"</span></span></code></pre>
+<h2 id="user-content-lsp-server-resolution"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#lsp-server-resolution"><span class="heading-anchor-icon">#</span></a>LSP Server Resolution</h2>
+<p>At runtime, the Zed extension resolves <code>json-tool-lsp</code> in this order:</p>
+<ol>
+<li><code>lsp.json-tool-lsp.binary.path</code> from Zed settings.</li>
+<li><code>ZED_JSON_TOOL_LSP</code> from the worktree shell environment.</li>
+<li><code>json-tool-lsp</code> from <code>PATH</code>.</li>
+<li>A platform-specific binary downloaded from the latest GitHub Release.</li>
+</ol>
+<h2 id="user-content-release-assets"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#release-assets"><span class="heading-anchor-icon">#</span></a>Release Assets</h2>
+<p>For automatic downloads, GitHub Releases must include platform-specific zip assets with these
+names:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span>json-tool-lsp-macos-aarch64.zip</span></span>
+<span class="line"><span>json-tool-lsp-macos-x86_64.zip</span></span>
+<span class="line"><span>json-tool-lsp-linux-aarch64.zip</span></span>
+<span class="line"><span>json-tool-lsp-linux-x86_64.zip</span></span>
+<span class="line"><span>json-tool-lsp-windows-x86_64.zip</span></span></code></pre>
+<p>Each zip should contain exactly the native LSP binary:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span>json-tool-lsp</span></span></code></pre>
+<p>On Windows, the binary should be:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span>json-tool-lsp.exe</span></span></code></pre>
+<p>The included GitHub Actions workflow at <code>.github/workflows/release-lsp.yml</code> builds and uploads
+these assets when a tag matching <code>v*</code> is pushed, or when the workflow is run manually.</p>
+<h2 id="user-content-configuration"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#configuration"><span class="heading-anchor-icon">#</span></a>Configuration</h2>
+<p>All formatter settings are optional. If you do not configure anything, the extension uses its
+defaults.</p>
+<p>You can configure only the setting you want to change:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "json-tool-lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">            "settings"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">                "max_line_length"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">100</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">            }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">        }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>Full formatter settings example:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "json-tool-lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">            "settings"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">                "indent_size"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">4</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">                "indent_style"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"space"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">                "max_line_length"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">120</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">                "compact_arrays"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"auto"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">                "compact_objects"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"auto"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">                "json_stream_mode"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"auto"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">                "document_separator"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"</span><span style="color:#005CC5;--shiki-dark:#79B8FF">\n</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">                "trailing_newline"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">true</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">                "object_key_order"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"preserve"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">                "space_after_colon"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">true</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">                "space_after_comma"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">true</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">            }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">        }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>Available formatter settings:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Setting</th><th>Default</th><th>Values</th><th>Description</th></tr></thead><tbody><tr><td><code>indent_size</code></td><td><code>4</code></td><td>positive integer</td><td>Number of spaces per indent level when <code>indent_style</code> is <code>space</code>.</td></tr><tr><td><code>indent_style</code></td><td><code>"space"</code></td><td><code>"space"</code>, <code>"tab"</code></td><td>Indentation style for expanded arrays and objects.</td></tr><tr><td><code>max_line_length</code></td><td><code>120</code></td><td>positive integer</td><td>Target line length for deciding whether arrays and objects stay on one line.</td></tr><tr><td><code>compact_arrays</code></td><td><code>"auto"</code></td><td><code>"auto"</code>, <code>"always"</code>, <code>"never"</code></td><td>Controls whether arrays stay on one line.</td></tr><tr><td><code>compact_objects</code></td><td><code>"auto"</code></td><td><code>"auto"</code>, <code>"always"</code>, <code>"never"</code></td><td>Controls whether objects stay on one line.</td></tr><tr><td><code>json_stream_mode</code></td><td><code>"auto"</code></td><td><code>"auto"</code>, <code>"single"</code>, <code>"stream"</code></td><td>Controls whether multiple top-level JSON values are accepted.</td></tr><tr><td><code>document_separator</code></td><td><code>"\n"</code></td><td>string</td><td>Text inserted between formatted or minified top-level JSON values.</td></tr><tr><td><code>trailing_newline</code></td><td><code>true</code></td><td>boolean</td><td>Adds a newline at the end of the replacement text.</td></tr><tr><td><code>object_key_order</code></td><td><code>"preserve"</code></td><td><code>"preserve"</code>, <code>"sort"</code></td><td>Preserves original object key order or sorts keys alphabetically while formatting.</td></tr><tr><td><code>space_after_colon</code></td><td><code>true</code></td><td>boolean</td><td>Adds a space after <code>:</code> in compact inline objects. Expanded objects always use <code>": "</code>.</td></tr><tr><td><code>space_after_comma</code></td><td><code>true</code></td><td>boolean</td><td>Adds a space after <code>,</code> in compact inline arrays and objects.</td></tr></tbody></table>
+<p>To use a custom LSP binary, configure Zed with:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "json-tool-lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">            "binary"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">                "path"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"/absolute/path/to/json-tool-lsp"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">            }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">        }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>Alternatively, set:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">export</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> ZED_JSON_TOOL_LSP</span><span style="color:#D73A49;--shiki-dark:#F97583">=</span><span style="color:#24292E;--shiki-dark:#E1E4E8">/absolute/path/to/json-tool-lsp</span></span></code></pre>
+<h2 id="user-content-implementation-notes"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#implementation-notes"><span class="heading-anchor-icon">#</span></a>Implementation Notes</h2>
+<p>The LSP server uses full document synchronization. It stores the latest text for open JSON buffers
+and responds to <code>textDocument/codeAction</code> with <code>WorkspaceEdit</code> changes that replace the full
+document range.</p>
+<p>Formatting is intentionally conservative:</p>
+<ul>
+<li>It parses valid JSON values with <code>serde_json</code>.</li>
+<li>It preserves object key order.</li>
+<li>It preserves arbitrary precision JSON numbers.</li>
+<li>It does not currently preserve comments, trailing commas, or other JSONC-only syntax.</li>
+<li>It does not read or write temporary files for JSON edits.</li>
+</ul>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>Apache-2.0</p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>

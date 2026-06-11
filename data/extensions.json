@@ -85,7 +85,7 @@
     "name": "GDQuest/zed-gdscript",
     "url": "https://github.com/GDQuest/zed-gdscript",
     "description": "Zed support for the Godot game engine and the GDScript language",
-    "stars": 175,
+    "stars": 176,
     "forks": 21,
     "topics": [
       "code-editor",
@@ -97,7 +97,7 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-02-26T18:14:41Z",
-    "updated_at": "2026-06-08T11:45:54Z",
+    "updated_at": "2026-06-11T00:14:07Z",
     "pushed_at": "2026-05-21T10:29:17Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -254,7 +254,7 @@
     "license": "NOASSERTION",
     "created_at": "2024-10-11T18:22:02Z",
     "updated_at": "2026-06-07T22:08:17Z",
-    "pushed_at": "2026-06-07T22:08:14Z",
+    "pushed_at": "2026-06-10T21:49:01Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -1079,7 +1079,7 @@
     "updated_at": "2026-05-06T15:07:14Z",
     "pushed_at": "2026-05-06T15:05:50Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
-    "official": false,
+    "official": true,
     "extension": {
       "id": "rasi",
       "name": "RASI",
@@ -2080,7 +2080,7 @@
     "name": "skunpro/react-forge",
     "url": "https://github.com/skunpro/react-forge",
     "description": "Zed MCP server extension for ecosystem-aware React component scaffolding (tests/stories/barrels) with impact estimation.",
-    "stars": 3,
+    "stars": 4,
     "forks": 0,
     "topics": [
       "extension",
@@ -2097,7 +2097,7 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-04-05T19:53:43Z",
-    "updated_at": "2026-04-07T12:47:19Z",
+    "updated_at": "2026-06-10T20:25:31Z",
     "pushed_at": "2026-04-19T01:22:36Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false,
@@ -2892,7 +2892,7 @@
     "name": "0x96f-org/0x96f-zed-theme",
     "url": "https://github.com/0x96f-org/0x96f-zed-theme",
     "description": "A simple and pleasant dark theme for Zed",
-    "stars": 37,
+    "stars": 38,
     "forks": 2,
     "topics": [
       "editor-theme",
@@ -2905,7 +2905,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-05-23T15:29:58Z",
-    "updated_at": "2026-04-30T12:08:38Z",
+    "updated_at": "2026-06-10T19:06:20Z",
     "pushed_at": "2026-04-01T16:36:20Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -3445,8 +3445,8 @@
     "name": "zarifpour/zed-solidity",
     "url": "https://github.com/zarifpour/zed-solidity",
     "description": "💠 Solidity language support for Zed.",
-    "stars": 70,
-    "forks": 9,
+    "stars": 71,
+    "forks": 10,
     "topics": [
       "blockchain",
       "ethereum",
@@ -3462,7 +3462,7 @@
     "language": "Solidity",
     "license": "MIT",
     "created_at": "2024-02-25T07:38:40Z",
-    "updated_at": "2026-06-08T17:40:05Z",
+    "updated_at": "2026-06-10T19:27:57Z",
     "pushed_at": "2026-03-22T18:01:22Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -11551,8 +11551,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2024-04-27T19:27:52Z",
-    "updated_at": "2026-06-09T14:00:23Z",
-    "pushed_at": "2026-06-09T10:55:45Z",
+    "updated_at": "2026-06-10T23:16:50Z",
+    "pushed_at": "2026-06-10T23:17:14Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": false,
     "extension": {
@@ -12786,6 +12786,7 @@
     "updated_at": "2026-05-12T07:50:50Z",
     "pushed_at": "2026-05-12T07:50:46Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
+    "official": true,
     "extension": {
       "id": "rockide",
       "name": "Rockide",
@@ -14797,6 +14798,7 @@
     "updated_at": "2026-04-29T04:09:32Z",
     "pushed_at": "2026-04-29T04:09:33Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
+    "official": true,
     "extension": {
       "id": "pyatlas-lsp",
       "name": "pyatlas-lsp",
@@ -31140,13 +31142,13 @@
     "name": "zed-extensions/git_firefly",
     "url": "https://github.com/zed-extensions/git_firefly",
     "description": "",
-    "stars": 131,
+    "stars": 132,
     "forks": 5,
     "topics": [],
     "language": "Tree-sitter Query",
     "license": "Apache-2.0",
     "created_at": "2024-02-19T14:56:35Z",
-    "updated_at": "2026-06-09T19:29:08Z",
+    "updated_at": "2026-06-10T23:40:01Z",
     "pushed_at": "2026-06-09T10:59:06Z",
     "discovered_at": "2026-05-19T21:42:53.670Z",
     "official": false,
@@ -38723,13 +38725,13 @@
     "name": "zed-extensions/nix",
     "url": "https://github.com/zed-extensions/nix",
     "description": "Nix language support in Zed",
-    "stars": 115,
+    "stars": 116,
     "forks": 24,
     "topics": [],
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-03-01T05:13:38Z",
-    "updated_at": "2026-06-07T22:08:02Z",
+    "updated_at": "2026-06-10T23:39:51Z",
     "pushed_at": "2026-06-07T22:07:59Z",
     "discovered_at": "2026-05-20T00:39:45.722Z",
     "official": false,
@@ -51667,7 +51669,7 @@
     "updated_at": "2026-06-09T01:50:12Z",
     "pushed_at": "2026-06-09T01:48:47Z",
     "discovered_at": "2026-06-09T07:14:16.831Z",
-    "official": false,
+    "official": true,
     "extension": {
       "id": "field-lights-theme",
       "name": "Field Lights",
@@ -51766,6 +51768,233 @@
         "Great Love (nobottomline)"
       ],
       "repository": "https://github.com/nobottomline/logos-zed",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
+      ]
+    }
+  },
+  "eduardolecdt/edusites-theme-zed": {
+    "name": "eduardolecdt/edusites-theme-zed",
+    "url": "https://github.com/eduardolecdt/edusites-theme-zed",
+    "description": "",
+    "stars": 2,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-05-29T00:55:10Z",
+    "updated_at": "2026-06-10T22:48:36Z",
+    "pushed_at": "2026-06-02T03:17:50Z",
+    "discovered_at": "2026-06-11T00:43:54.174Z",
+    "official": true,
+    "extension": {
+      "id": "edusites-theme",
+      "name": "EduSites",
+      "description": "EduSites theme for Zed — dark and light variants based on the EduSites visual identity.",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "authors": [
+        "Eduardo <eduardo@lecdt.com>"
+      ],
+      "repository": "https://github.com/eduardolecdt/edusites-theme-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "bluerexpy/halloweennightzed": {
+    "name": "BlueRexPY/HalloweenNightZed",
+    "url": "https://github.com/BlueRexPY/HalloweenNightZed",
+    "description": "🎃 Halloween Night - Zed Theme ",
+    "stars": 1,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-06-04T22:41:11Z",
+    "updated_at": "2026-06-04T23:16:57Z",
+    "pushed_at": "2026-06-04T23:16:53Z",
+    "discovered_at": "2026-06-11T00:43:54.174Z",
+    "official": true,
+    "extension": {
+      "id": "halloween-night-theme",
+      "name": "Halloween Night",
+      "description": "🍷 A sinister cocktail brewed with the finest vampire blood, a splash of spiced pumpkin juice, crushed spider legs for texture, a dash of clown hair for an eerie twist, and topped with a sprinkle of grave soil for that final touch of dread. Sip... if you dare. Bon appétit!",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "RuslanRystsov"
+      ],
+      "repository": "https://github.com/BlueRexPY/HalloweenNightZed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "xgfone/zed-json-tool": {
+    "name": "xgfone/zed-json-tool",
+    "url": "https://github.com/xgfone/zed-json-tool",
+    "description": "Format and minify open JSON buffers through a minimal LSP bridge.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "created_at": "2026-05-27T15:05:53Z",
+    "updated_at": "2026-06-02T01:58:44Z",
+    "pushed_at": "2026-06-02T01:59:05Z",
+    "discovered_at": "2026-06-11T00:43:54.174Z",
+    "official": true,
+    "extension": {
+      "id": "json-tool-lsp",
+      "name": "json-tool-lsp",
+      "description": "Format and minify open JSON buffers through a minimal LSP bridge.",
+      "version": "0.0.3",
+      "schema_version": 1,
+      "authors": [
+        "xgfone"
+      ],
+      "repository": "https://github.com/xgfone/zed-json-tool",
+      "snippets": null,
+      "sections": [
+        "language_servers"
+      ],
+      "categories": [
+        "language-server"
+      ]
+    }
+  },
+  "markosnarinian/koda-zed": {
+    "name": "markosnarinian/koda-zed",
+    "url": "https://github.com/markosnarinian/koda-zed",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-05-24T16:27:09Z",
+    "updated_at": "2026-06-02T14:17:08Z",
+    "pushed_at": "2026-06-02T14:11:00Z",
+    "discovered_at": "2026-06-11T00:43:54.174Z",
+    "official": true,
+    "extension": {
+      "id": "koda-theme",
+      "name": "Koda Theme",
+      "description": "Koda theme ported from oskarnurm/koda.nvim by Karl Oskar Joosep Nurm",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Markos Narinian <manarinian@gmail.com>",
+        "Karl Oskar Joosep Nurm"
+      ],
+      "repository": "https://github.com/markosnarinian/koda-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "idleberg/zed-nsis-extension": {
+    "name": "idleberg/zed-nsis-extension",
+    "url": "https://github.com/idleberg/zed-nsis-extension",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "Apache-2.0",
+    "created_at": "2026-05-15T15:37:00Z",
+    "updated_at": "2026-05-15T22:09:38Z",
+    "pushed_at": "2026-05-15T22:09:34Z",
+    "discovered_at": "2026-06-11T00:43:54.174Z",
+    "official": true,
+    "extension": {
+      "id": "nsis",
+      "name": "NSIS",
+      "description": "NSIS language support for Zed",
+      "version": "0.2.0",
+      "schema_version": 1,
+      "authors": [
+        "Jan T. Sott"
+      ],
+      "repository": "https://github.com/idleberg/zed-nsis-extension",
+      "snippets": null,
+      "sections": [
+        "lib",
+        "grammars",
+        "language_servers"
+      ],
+      "categories": [
+        "grammar",
+        "language-server"
+      ]
+    }
+  },
+  "codenii/phosphor-zed": {
+    "name": "Codenii/phosphor-zed",
+    "url": "https://github.com/Codenii/phosphor-zed",
+    "description": "A bold, high-contrast theme family for Zed. Built around a dark terminal aesthetic with electric syntax colors that refuse to be subtle.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-04-22T19:18:54Z",
+    "updated_at": "2026-05-01T12:20:59Z",
+    "pushed_at": "2026-05-01T12:20:56Z",
+    "discovered_at": "2026-06-11T00:43:54.174Z",
+    "official": true,
+    "extension": {
+      "id": "phosphor-theme",
+      "name": "Phosphor",
+      "description": "A bold, high-contrast theme family with six variants. Punchy syntax highlighting that refuses to be subtle.",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "authors": [
+        "Codenii <me@codeni.wiki>"
+      ],
+      "repository": "https://github.com/Codenii/phosphor-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "ggorg0/zed-pioasm-syntax": {
+    "name": "GGORG0/zed-pioasm-syntax",
+    "url": "https://github.com/GGORG0/zed-pioasm-syntax",
+    "description": "Raspberry Pi's PIO assembly language syntax for the Zed editor",
+    "stars": 1,
+    "forks": 0,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "Apache-2.0",
+    "created_at": "2026-06-09T19:25:26Z",
+    "updated_at": "2026-06-09T19:42:41Z",
+    "pushed_at": "2026-06-09T19:40:50Z",
+    "discovered_at": "2026-06-11T00:43:54.174Z",
+    "official": true,
+    "extension": {
+      "id": "pioasm",
+      "name": "PIO Assembly",
+      "description": "Raspberry Pi Pico PIO Assembly syntax highlighting",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "GGORG <me@ggorg.xyz>"
+      ],
+      "repository": "https://github.com/GGORG0/zed-pioasm-syntax",
       "snippets": null,
       "sections": [
         "grammars"

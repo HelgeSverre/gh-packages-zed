@@ -126,7 +126,7 @@
     "name": "GDQuest/zed-gdscript",
     "url": "https://github.com/GDQuest/zed-gdscript",
     "description": "Zed support for the Godot game engine and the GDScript language",
-    "stars": 175,
+    "stars": 176,
     "forks": 21,
     "topics": [
       "code-editor",
@@ -138,7 +138,7 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-02-26T18:14:41Z",
-    "updated_at": "2026-06-08T11:45:54Z",
+    "updated_at": "2026-06-11T00:14:07Z",
     "pushed_at": "2026-05-21T10:29:17Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -216,7 +216,7 @@
     "license": "NOASSERTION",
     "created_at": "2024-10-11T18:22:02Z",
     "updated_at": "2026-06-07T22:08:17Z",
-    "pushed_at": "2026-06-07T22:08:14Z",
+    "pushed_at": "2026-06-10T21:49:01Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -775,7 +775,7 @@
     "updated_at": "2026-05-06T15:07:14Z",
     "pushed_at": "2026-05-06T15:05:50Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
-    "official": false
+    "official": true
   },
   "quyx-org/znapper": {
     "name": "quyx-org/znapper",
@@ -1452,7 +1452,7 @@
     "name": "skunpro/react-forge",
     "url": "https://github.com/skunpro/react-forge",
     "description": "Zed MCP server extension for ecosystem-aware React component scaffolding (tests/stories/barrels) with impact estimation.",
-    "stars": 3,
+    "stars": 4,
     "forks": 0,
     "topics": [
       "extension",
@@ -1469,7 +1469,7 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-04-05T19:53:43Z",
-    "updated_at": "2026-04-07T12:47:19Z",
+    "updated_at": "2026-06-10T20:25:31Z",
     "pushed_at": "2026-04-19T01:22:36Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
@@ -1915,7 +1915,7 @@
     "name": "0x96f-org/0x96f-zed-theme",
     "url": "https://github.com/0x96f-org/0x96f-zed-theme",
     "description": "A simple and pleasant dark theme for Zed",
-    "stars": 37,
+    "stars": 38,
     "forks": 2,
     "topics": [
       "editor-theme",
@@ -1928,7 +1928,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-05-23T15:29:58Z",
-    "updated_at": "2026-04-30T12:08:38Z",
+    "updated_at": "2026-06-10T19:06:20Z",
     "pushed_at": "2026-04-01T16:36:20Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -2206,8 +2206,8 @@
     "name": "zarifpour/zed-solidity",
     "url": "https://github.com/zarifpour/zed-solidity",
     "description": "💠 Solidity language support for Zed.",
-    "stars": 70,
-    "forks": 9,
+    "stars": 71,
+    "forks": 10,
     "topics": [
       "blockchain",
       "ethereum",
@@ -2223,7 +2223,7 @@
     "language": "Solidity",
     "license": "MIT",
     "created_at": "2024-02-25T07:38:40Z",
-    "updated_at": "2026-06-08T17:40:05Z",
+    "updated_at": "2026-06-10T19:27:57Z",
     "pushed_at": "2026-03-22T18:01:22Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -5491,8 +5491,8 @@
     "language": "PowerShell",
     "license": null,
     "created_at": "2024-08-14T22:46:54Z",
-    "updated_at": "2026-06-10T01:27:12Z",
-    "pushed_at": "2026-06-10T01:27:07Z",
+    "updated_at": "2026-06-10T19:43:31Z",
+    "pushed_at": "2026-06-10T19:42:42Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
   },
@@ -6409,8 +6409,8 @@
     "language": "Lua",
     "license": "GPL-3.0",
     "created_at": "2021-07-29T01:24:02Z",
-    "updated_at": "2026-06-10T16:40:12Z",
-    "pushed_at": "2026-06-10T16:39:33Z",
+    "updated_at": "2026-06-10T23:45:11Z",
+    "pushed_at": "2026-06-10T23:45:08Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
   },
@@ -8983,8 +8983,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2024-04-27T19:27:52Z",
-    "updated_at": "2026-06-09T14:00:23Z",
-    "pushed_at": "2026-06-09T10:55:45Z",
+    "updated_at": "2026-06-10T23:16:50Z",
+    "pushed_at": "2026-06-10T23:17:14Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": false
   },
@@ -9625,7 +9625,8 @@
     "created_at": "2026-02-21T17:42:17Z",
     "updated_at": "2026-05-12T07:50:50Z",
     "pushed_at": "2026-05-12T07:50:46Z",
-    "discovered_at": "2026-05-19T20:07:54.613Z"
+    "discovered_at": "2026-05-19T20:07:54.613Z",
+    "official": true
   },
   "virgoc0der/claude-code-zed": {
     "name": "virgoC0der/claude-code-zed",
@@ -10714,7 +10715,8 @@
     "created_at": "2026-04-19T12:19:58Z",
     "updated_at": "2026-04-29T04:09:32Z",
     "pushed_at": "2026-04-29T04:09:33Z",
-    "discovered_at": "2026-05-19T20:07:54.613Z"
+    "discovered_at": "2026-05-19T20:07:54.613Z",
+    "official": true
   },
   "mikolajsemeniuk/zed-rest-client": {
     "name": "mikolajsemeniuk/zed-rest-client",
@@ -15728,7 +15730,7 @@
     "name": "agent-sh/agnix",
     "url": "https://github.com/agent-sh/agnix",
     "description": "The missing linter and lsp for AI coding assistants. Validate CLAUDE.md, AGENTS.md, SKILL.md, hooks, MCP. Plugin for all major IDEs included, with autofixes.",
-    "stars": 279,
+    "stars": 280,
     "forks": 26,
     "topics": [
       "agent",
@@ -15755,8 +15757,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
-    "updated_at": "2026-06-09T23:59:39Z",
-    "pushed_at": "2026-06-07T23:26:04Z",
+    "updated_at": "2026-06-10T21:52:13Z",
+    "pushed_at": "2026-06-10T19:39:42Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -18314,8 +18316,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-06-10T13:10:18Z",
-    "pushed_at": "2026-06-10T13:09:48Z",
+    "updated_at": "2026-06-10T18:55:35Z",
+    "pushed_at": "2026-06-10T18:53:59Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -19551,13 +19553,13 @@
     "name": "zed-extensions/git_firefly",
     "url": "https://github.com/zed-extensions/git_firefly",
     "description": "",
-    "stars": 131,
+    "stars": 132,
     "forks": 5,
     "topics": [],
     "language": "Tree-sitter Query",
     "license": "Apache-2.0",
     "created_at": "2024-02-19T14:56:35Z",
-    "updated_at": "2026-06-09T19:29:08Z",
+    "updated_at": "2026-06-10T23:40:01Z",
     "pushed_at": "2026-06-09T10:59:06Z",
     "discovered_at": "2026-05-19T21:42:53.670Z",
     "official": false
@@ -23232,13 +23234,13 @@
     "name": "zed-extensions/nix",
     "url": "https://github.com/zed-extensions/nix",
     "description": "Nix language support in Zed",
-    "stars": 115,
+    "stars": 116,
     "forks": 24,
     "topics": [],
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-03-01T05:13:38Z",
-    "updated_at": "2026-06-07T22:08:02Z",
+    "updated_at": "2026-06-10T23:39:51Z",
     "pushed_at": "2026-06-07T22:07:59Z",
     "discovered_at": "2026-05-20T00:39:45.722Z",
     "official": false
@@ -30252,7 +30254,7 @@
     "updated_at": "2026-06-09T01:50:12Z",
     "pushed_at": "2026-06-09T01:48:47Z",
     "discovered_at": "2026-06-09T07:14:16.831Z",
-    "official": false
+    "official": true
   },
   "dev-five-git/react-component-lens": {
     "name": "dev-five-git/react-component-lens",
@@ -30335,11 +30337,11 @@
       "terminal-ui",
       "zed-editor"
     ],
-    "language": "Rust",
+    "language": "Python",
     "license": null,
     "created_at": "2026-06-09T22:36:14Z",
-    "updated_at": "2026-06-10T18:42:23Z",
-    "pushed_at": "2026-06-10T18:51:10Z",
+    "updated_at": "2026-06-10T22:40:10Z",
+    "pushed_at": "2026-06-10T22:40:05Z",
     "discovered_at": "2026-06-10T00:43:30.823Z",
     "official": false
   },
@@ -30363,5 +30365,145 @@
     "pushed_at": "2026-06-10T12:59:40Z",
     "discovered_at": "2026-06-10T13:09:16.953Z",
     "official": false
+  },
+  "eduardolecdt/edusites-theme-zed": {
+    "name": "eduardolecdt/edusites-theme-zed",
+    "url": "https://github.com/eduardolecdt/edusites-theme-zed",
+    "description": "",
+    "stars": 2,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-05-29T00:55:10Z",
+    "updated_at": "2026-06-10T22:48:36Z",
+    "pushed_at": "2026-06-02T03:17:50Z",
+    "discovered_at": "2026-06-11T00:43:54.174Z",
+    "official": true
+  },
+  "bluerexpy/halloweennightzed": {
+    "name": "BlueRexPY/HalloweenNightZed",
+    "url": "https://github.com/BlueRexPY/HalloweenNightZed",
+    "description": "🎃 Halloween Night - Zed Theme ",
+    "stars": 1,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-06-04T22:41:11Z",
+    "updated_at": "2026-06-04T23:16:57Z",
+    "pushed_at": "2026-06-04T23:16:53Z",
+    "discovered_at": "2026-06-11T00:43:54.174Z",
+    "official": true
+  },
+  "xgfone/zed-json-tool": {
+    "name": "xgfone/zed-json-tool",
+    "url": "https://github.com/xgfone/zed-json-tool",
+    "description": "Format and minify open JSON buffers through a minimal LSP bridge.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "created_at": "2026-05-27T15:05:53Z",
+    "updated_at": "2026-06-02T01:58:44Z",
+    "pushed_at": "2026-06-02T01:59:05Z",
+    "discovered_at": "2026-06-11T00:43:54.174Z",
+    "official": true
+  },
+  "markosnarinian/koda-zed": {
+    "name": "markosnarinian/koda-zed",
+    "url": "https://github.com/markosnarinian/koda-zed",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-05-24T16:27:09Z",
+    "updated_at": "2026-06-02T14:17:08Z",
+    "pushed_at": "2026-06-02T14:11:00Z",
+    "discovered_at": "2026-06-11T00:43:54.174Z",
+    "official": true
+  },
+  "idleberg/zed-nsis-extension": {
+    "name": "idleberg/zed-nsis-extension",
+    "url": "https://github.com/idleberg/zed-nsis-extension",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "Apache-2.0",
+    "created_at": "2026-05-15T15:37:00Z",
+    "updated_at": "2026-05-15T22:09:38Z",
+    "pushed_at": "2026-05-15T22:09:34Z",
+    "discovered_at": "2026-06-11T00:43:54.174Z",
+    "official": true
+  },
+  "codenii/phosphor-zed": {
+    "name": "Codenii/phosphor-zed",
+    "url": "https://github.com/Codenii/phosphor-zed",
+    "description": "A bold, high-contrast theme family for Zed. Built around a dark terminal aesthetic with electric syntax colors that refuse to be subtle.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-04-22T19:18:54Z",
+    "updated_at": "2026-05-01T12:20:59Z",
+    "pushed_at": "2026-05-01T12:20:56Z",
+    "discovered_at": "2026-06-11T00:43:54.174Z",
+    "official": true
+  },
+  "ggorg0/zed-pioasm-syntax": {
+    "name": "GGORG0/zed-pioasm-syntax",
+    "url": "https://github.com/GGORG0/zed-pioasm-syntax",
+    "description": "Raspberry Pi's PIO assembly language syntax for the Zed editor",
+    "stars": 1,
+    "forks": 0,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "Apache-2.0",
+    "created_at": "2026-06-09T19:25:26Z",
+    "updated_at": "2026-06-09T19:42:41Z",
+    "pushed_at": "2026-06-09T19:40:50Z",
+    "discovered_at": "2026-06-11T00:43:54.174Z",
+    "official": true
+  },
+  "usebarekey/svelte-effect-runtime": {
+    "name": "usebarekey/svelte-effect-runtime",
+    "url": "https://github.com/usebarekey/svelte-effect-runtime",
+    "description": "Effect Runtime for Svelte",
+    "stars": 32,
+    "forks": 1,
+    "topics": [
+      "effect",
+      "effect-ts",
+      "svelte",
+      "sveltekit"
+    ],
+    "language": "TypeScript",
+    "license": "BSD-3-Clause",
+    "created_at": "2026-04-06T19:22:54Z",
+    "updated_at": "2026-06-10T22:11:14Z",
+    "pushed_at": "2026-06-10T22:11:10Z",
+    "discovered_at": "2026-06-11T00:43:54.174Z",
+    "official": true
+  },
+  "shionit/zed-todo-highlight": {
+    "name": "shionit/zed-todo-highlight",
+    "url": "https://github.com/shionit/zed-todo-highlight",
+    "description": "TODO Highlighter for Zed",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2026-05-17T18:07:03Z",
+    "updated_at": "2026-06-07T04:52:40Z",
+    "pushed_at": "2026-06-07T04:52:37Z",
+    "discovered_at": "2026-06-11T00:43:54.174Z",
+    "official": true
   }
 }
