@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1527** |
 | In official registry | 1088 |
 | Discovered via topics | 439 |
-| Last updated | 2026-06-11 13:17 UTC |
+| Last updated | 2026-06-11 18:59 UTC |
 
 ### By capability
 
@@ -106,7 +106,7 @@ cd website && npm install && npm run dev
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
 | [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 176 | Zed support for the Godot game engine and the GDScript language |
-| [zed-extensions/typst](https://github.com/zed-extensions/typst) | 174 | Typst extension for zed |
+| [zed-extensions/typst](https://github.com/zed-extensions/typst) | 175 | Typst extension for zed |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 159 | A macOS native style theme for Zed, let it same like native app in macOS. |
 | [thedadams/zed-comment](https://github.com/thedadams/zed-comment) | 148 | A comment extension for the Zed editor |
 | [slymax/zedokai](https://github.com/slymax/zedokai) | 145 | a theme for Zed based on the Monokai Pro color scheme |
@@ -127,7 +127,7 @@ cd website && npm install && npm run dev
 | [nobottomline/logos-zed](https://github.com/nobottomline/logos-zed) | 0 | 2026-06-11 | Syntax highlighting for Theos Logos files in Zed |
 | [HarshNarayanJha/zed-symbols-icons](https://github.com/HarshNarayanJha/zed-symbols-icons) | 2 | 2026-06-11 | A simple file icon theme for Zed. |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 84 | 2026-06-11 | True Dark Theme for Zed IDE |
-| [zed-extensions/typst](https://github.com/zed-extensions/typst) | 174 | 2026-06-10 | Typst extension for zed |
+| [zed-extensions/typst](https://github.com/zed-extensions/typst) | 175 | 2026-06-10 | Typst extension for zed |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 126 | 2026-06-10 | The Ruby language support for Zed editor |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 142 | 2026-06-10 | A port of the Neovim theme to Zed editor |
 | [almeladev/geode-zed](https://github.com/almeladev/geode-zed) | 1 | 2026-06-09 | 💎 A gem-toned theme for Zed. Color only where it carries me... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-11T18:59 | 0 | 463 | 1823 |
 | 2026-06-11T13:17 | 1 | 463 | 1823 |
 | 2026-06-11T07:40 | 2 | 462 | 1822 |
 | 2026-06-11T00:43 | 9 | 463 | 1820 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-10T00:43 | 2 | 460 | 1810 |
 | 2026-06-09T18:44 | 0 | 460 | 1808 |
 | 2026-06-09T12:59 | 2 | 459 | 1808 |
-| 2026-06-09T07:14 | 2 | 457 | 1806 |
 
 ---
 
