@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1533-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1534-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,10 +14,10 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1533** |
-| In official registry | 1101 |
+| Total tracked | **1534** |
+| In official registry | 1102 |
 | Discovered via topics | 432 |
-| Last updated | 2026-06-12 13:08 UTC |
+| Last updated | 2026-06-12 18:39 UTC |
 
 ### By capability
 
@@ -25,7 +25,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 |------|-------|
 | Themes | 629 |
 | Grammars | 543 |
-| Language Servers | 505 |
+| Language Servers | 506 |
 | Context Servers | 125 |
 | Snippets | 68 |
 | Slash Commands | 55 |
@@ -70,6 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [unlight/zed-boolean-toggle](https://github.com/unlight/zed-boolean-toggle) | 0 | A Zed editor extension that toggles boolean values (true/false, yes/no, on/off, ... |
 | [louiss0/zed-ebnf](https://github.com/louiss0/zed-ebnf) | 0 |  |
 | [electron-highlighter/zed](https://github.com/electron-highlighter/zed) | 0 | Electron Highlighter theme for Zed |
 | [Toxblh/zed-file-icons](https://github.com/Toxblh/zed-file-icons) | 0 | 2000+ file and folder icons for Zed, ported from the popular file-icons/vscode t... |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [M0n7y5/flutter-zed](https://github.com/M0n7y5/flutter-zed) | 1 | Flutter development support for ZED IDE |
 | [Y-ASLant/Flow-Icons-Zed](https://github.com/Y-ASLant/Flow-Icons-Zed) | 0 | Base on https://flow-icons.pages.dev/ |
 | [adamsharifc/zed-field-lights](https://github.com/adamsharifc/zed-field-lights) | 0 | A dark Visual Studio Theme inspired by the great Ayu theme but adding some perso... |
-| [frostime/zed-file-mention](https://github.com/frostime/zed-file-mention) | 0 | An zed extension (dev phase). Press @ for quick file path completions. |
 
 ## Top starred (under 500)
 
@@ -120,6 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [unlight/zed-boolean-toggle](https://github.com/unlight/zed-boolean-toggle) | 0 | 2026-06-12 | A Zed editor extension that toggles boolean values (true/fal... |
 | [mishamyrt/zed-opentype-feature](https://github.com/mishamyrt/zed-opentype-feature) | 0 | 2026-06-12 | 🔠 OpenType™ Feature language support for Zed |
 | [Sha1rholder/polycarbonate-dark-theme](https://github.com/Sha1rholder/polycarbonate-dark-theme) | 0 | 2026-06-12 | Turn Zed into a clean slab of dark glass. |
 | [MahoCommerce/zed](https://github.com/MahoCommerce/zed) | 1 | 2026-06-12 | Maho extension for Zed. |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 133 | 2026-06-09 |  |
 | [Y-ASLant/Flow-Icons-Zed](https://github.com/Y-ASLant/Flow-Icons-Zed) | 0 | 2026-06-09 | Base on https://flow-icons.pages.dev/ |
 | [adamsharifc/zed-field-lights](https://github.com/adamsharifc/zed-field-lights) | 0 | 2026-06-09 | A dark Visual Studio Theme inspired by the great Ayu theme b... |
-| [Smyrnis/united-gnome-theme](https://github.com/Smyrnis/united-gnome-theme) | 1 | 2026-06-08 | Theme Extension for the Zed Editor |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-12T18:39 | 1 | 463 | 1830 |
 | 2026-06-12T13:08 | 6 | 463 | 1829 |
 | 2026-06-12T07:37 | 0 | 463 | 1823 |
 | 2026-06-12T00:45 | 0 | 463 | 1823 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-11T00:43 | 9 | 463 | 1820 |
 | 2026-06-10T18:53 | 0 | 463 | 1811 |
 | 2026-06-10T13:09 | 1 | 462 | 1811 |
-| 2026-06-10T07:28 | 0 | 462 | 1810 |
 
 ---
 

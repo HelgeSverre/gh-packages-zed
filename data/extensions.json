@@ -2559,7 +2559,7 @@
     "updated_at": "2026-06-12T10:13:34Z",
     "pushed_at": "2026-06-12T10:13:33Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
-    "official": false,
+    "official": true,
     "extension": {
       "id": "maho",
       "name": "Maho",
@@ -26193,13 +26193,13 @@
     "name": "davccavalcante/call-trans-opt-received-2-19-98-13-24-18-rec-log-theme-for-zed",
     "url": "https://github.com/davccavalcante/call-trans-opt-received-2-19-98-13-24-18-rec-log-theme-for-zed",
     "description": "A iconic aesthetic of the shell screen from the 1999 film The Matrix, Inspired by the film's opening command Call trans opt: received. 2-19-98 13:24:18 REC>",
-    "stars": 30,
+    "stars": 31,
     "forks": 2,
     "topics": [],
     "language": null,
     "license": "MIT",
     "created_at": "2024-06-05T05:56:42Z",
-    "updated_at": "2026-06-03T17:23:01Z",
+    "updated_at": "2026-06-12T17:11:16Z",
     "pushed_at": "2025-02-24T02:09:33Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false,
@@ -52255,6 +52255,45 @@
       "sections": [],
       "categories": [
         "theme"
+      ]
+    }
+  },
+  "unlight/zed-boolean-toggle": {
+    "name": "unlight/zed-boolean-toggle",
+    "url": "https://github.com/unlight/zed-boolean-toggle",
+    "description": "A Zed editor extension that toggles boolean values (true/false, yes/no, on/off, 1/0) while preserving case",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "boolean-toggle",
+      "productivity",
+      "zed-editor",
+      "zed-extension",
+      "zed-extensions"
+    ],
+    "language": "Rust",
+    "license": null,
+    "created_at": "2026-06-12T17:58:27Z",
+    "updated_at": "2026-06-12T18:09:57Z",
+    "pushed_at": "2026-06-12T18:07:55Z",
+    "discovered_at": "2026-06-12T18:39:54.319Z",
+    "official": false,
+    "extension": {
+      "id": "boolean-toggle",
+      "name": "Boolean Toggle",
+      "description": "Toggle true/false, yes/no, on/off, 1/0",
+      "version": "0.1.2",
+      "schema_version": 1,
+      "authors": [
+        "Your Name"
+      ],
+      "repository": null,
+      "snippets": null,
+      "sections": [
+        "language_servers"
+      ],
+      "categories": [
+        "language-server"
       ]
     }
   }

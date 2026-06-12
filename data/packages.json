@@ -52,8 +52,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-04-17T01:34:39Z",
-    "updated_at": "2026-06-12T10:40:51Z",
-    "pushed_at": "2026-06-12T10:40:47Z",
+    "updated_at": "2026-06-12T17:32:55Z",
+    "pushed_at": "2026-06-12T17:32:51Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -620,7 +620,7 @@
     "name": "bennypowers/asimonim",
     "url": "https://github.com/bennypowers/asimonim",
     "description": "The Design Tokens Multitool. CLI and go library; LSP and MCP; Generator and converter",
-    "stars": 26,
+    "stars": 27,
     "forks": 2,
     "topics": [
       "claude-code-plugin",
@@ -637,7 +637,7 @@
     "language": "Go",
     "license": "GPL-3.0",
     "created_at": "2026-01-19T23:03:47Z",
-    "updated_at": "2026-06-10T14:01:54Z",
+    "updated_at": "2026-06-12T15:01:05Z",
     "pushed_at": "2026-06-10T13:59:56Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -1707,7 +1707,7 @@
     "updated_at": "2026-06-12T10:13:34Z",
     "pushed_at": "2026-06-12T10:13:33Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
-    "official": false
+    "official": true
   },
   "kaikozlov/kaiokai": {
     "name": "kaikozlov/kaiokai",
@@ -6409,8 +6409,8 @@
     "language": "Lua",
     "license": "GPL-3.0",
     "created_at": "2021-07-29T01:24:02Z",
-    "updated_at": "2026-06-12T09:46:40Z",
-    "pushed_at": "2026-06-12T09:46:36Z",
+    "updated_at": "2026-06-12T16:34:26Z",
+    "pushed_at": "2026-06-12T16:34:21Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
   },
@@ -6766,7 +6766,7 @@
     "name": "wnkz/monoglow.nvim",
     "url": "https://github.com/wnkz/monoglow.nvim",
     "description": "🎆 A dark, mostly monochrome colorscheme with a touch of glowing.",
-    "stars": 164,
+    "stars": 165,
     "forks": 9,
     "topics": [
       "ghostty-theme",
@@ -6780,7 +6780,7 @@
     "language": "Lua",
     "license": "Apache-2.0",
     "created_at": "2024-10-05T14:40:58Z",
-    "updated_at": "2026-05-24T05:09:19Z",
+    "updated_at": "2026-06-12T13:20:29Z",
     "pushed_at": "2026-04-18T14:33:26Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
@@ -17047,13 +17047,13 @@
     "name": "davccavalcante/call-trans-opt-received-2-19-98-13-24-18-rec-log-theme-for-zed",
     "url": "https://github.com/davccavalcante/call-trans-opt-received-2-19-98-13-24-18-rec-log-theme-for-zed",
     "description": "A iconic aesthetic of the shell screen from the 1999 film The Matrix, Inspired by the film's opening command Call trans opt: received. 2-19-98 13:24:18 REC>",
-    "stars": 30,
+    "stars": 31,
     "forks": 2,
     "topics": [],
     "language": null,
     "license": "MIT",
     "created_at": "2024-06-05T05:56:42Z",
-    "updated_at": "2026-06-03T17:23:01Z",
+    "updated_at": "2026-06-12T17:11:16Z",
     "pushed_at": "2025-02-24T02:09:33Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
@@ -18316,8 +18316,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-06-12T07:38:24Z",
-    "pushed_at": "2026-06-12T07:38:20Z",
+    "updated_at": "2026-06-12T13:09:23Z",
+    "pushed_at": "2026-06-12T13:09:19Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -30340,8 +30340,8 @@
     "language": "Rust",
     "license": null,
     "created_at": "2026-06-09T22:36:14Z",
-    "updated_at": "2026-06-12T12:46:52Z",
-    "pushed_at": "2026-06-12T12:46:48Z",
+    "updated_at": "2026-06-12T14:25:25Z",
+    "pushed_at": "2026-06-12T14:23:48Z",
     "discovered_at": "2026-06-10T00:43:30.823Z",
     "official": false
   },
@@ -30651,5 +30651,26 @@
     "pushed_at": "2026-03-13T07:47:42Z",
     "discovered_at": "2026-06-12T13:08:44.886Z",
     "official": true
+  },
+  "unlight/zed-boolean-toggle": {
+    "name": "unlight/zed-boolean-toggle",
+    "url": "https://github.com/unlight/zed-boolean-toggle",
+    "description": "A Zed editor extension that toggles boolean values (true/false, yes/no, on/off, 1/0) while preserving case",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "boolean-toggle",
+      "productivity",
+      "zed-editor",
+      "zed-extension",
+      "zed-extensions"
+    ],
+    "language": "Rust",
+    "license": null,
+    "created_at": "2026-06-12T17:58:27Z",
+    "updated_at": "2026-06-12T18:09:57Z",
+    "pushed_at": "2026-06-12T18:07:55Z",
+    "discovered_at": "2026-06-12T18:39:54.319Z",
+    "official": false
   }
 }
