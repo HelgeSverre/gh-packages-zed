@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1527** |
 | In official registry | 1088 |
 | Discovered via topics | 439 |
-| Last updated | 2026-06-12 00:45 UTC |
+| Last updated | 2026-06-12 07:37 UTC |
 
 ### By capability
 
@@ -107,33 +107,33 @@ cd website && npm install && npm run dev
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
 | [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 176 | Zed support for the Godot game engine and the GDScript language |
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 175 | Typst extension for zed |
-| [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 158 | A macOS native style theme for Zed, let it same like native app in macOS. |
+| [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 159 | A macOS native style theme for Zed, let it same like native app in macOS. |
 | [thedadams/zed-comment](https://github.com/thedadams/zed-comment) | 148 | A comment extension for the Zed editor |
 | [slymax/zedokai](https://github.com/slymax/zedokai) | 145 | a theme for Zed based on the Monokai Pro color scheme |
 | [nathansbradshaw/zed-angular](https://github.com/nathansbradshaw/zed-angular) | 144 |  |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 142 | A port of the Neovim theme to Zed editor |
 | [zed-extensions/swift](https://github.com/zed-extensions/swift) | 140 | Extension for Zed to support Swift |
 | [zed-extensions/csharp](https://github.com/zed-extensions/csharp) | 139 | C# support |
-| [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 132 |  |
+| [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 133 |  |
 
 ## Recently active
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 85 | 2026-06-12 | True Dark Theme for Zed IDE |
 | [htahaozlu/context-bar](https://github.com/htahaozlu/context-bar) | 13 | 2026-06-11 | Usage and cost visibility for Claude Code and Codex — native... |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-06-11 | A Zed extension that allows to highlight all occurrences of ... |
 | [Arthurmtro/zed-package-json-upgrade](https://github.com/Arthurmtro/zed-package-json-upgrade) | 0 | 2026-06-11 | Inline npm dependency update hints for package.json in Zed |
 | [exkungen/outrun-vscode-zed](https://github.com/exkungen/outrun-vscode-zed) | 0 | 2026-06-11 | Outrun VS Code theme ported to Zed (Night + Electric) |
 | [nobottomline/logos-zed](https://github.com/nobottomline/logos-zed) | 0 | 2026-06-11 | Syntax highlighting for Theos Logos files in Zed |
 | [HarshNarayanJha/zed-symbols-icons](https://github.com/HarshNarayanJha/zed-symbols-icons) | 2 | 2026-06-11 | A simple file icon theme for Zed. |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 85 | 2026-06-11 | True Dark Theme for Zed IDE |
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 175 | 2026-06-10 | Typst extension for zed |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 126 | 2026-06-10 | The Ruby language support for Zed editor |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 142 | 2026-06-10 | A port of the Neovim theme to Zed editor |
 | [almeladev/geode-zed](https://github.com/almeladev/geode-zed) | 1 | 2026-06-09 | 💎 A gem-toned theme for Zed. Color only where it carries me... |
 | [GGORG0/zed-pioasm-syntax](https://github.com/GGORG0/zed-pioasm-syntax) | 1 | 2026-06-09 | Raspberry Pi's PIO assembly language syntax for the Zed edit... |
 | [M0n7y5/flutter-zed](https://github.com/M0n7y5/flutter-zed) | 1 | 2026-06-09 | Flutter development support for ZED IDE |
-| [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 132 | 2026-06-09 |  |
+| [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 133 | 2026-06-09 |  |
 | [Y-ASLant/Flow-Icons-Zed](https://github.com/Y-ASLant/Flow-Icons-Zed) | 0 | 2026-06-09 | Base on https://flow-icons.pages.dev/ |
 | [adamsharifc/zed-field-lights](https://github.com/adamsharifc/zed-field-lights) | 0 | 2026-06-09 | A dark Visual Studio Theme inspired by the great Ayu theme b... |
 | [Smyrnis/united-gnome-theme](https://github.com/Smyrnis/united-gnome-theme) | 1 | 2026-06-08 | Theme Extension for the Zed Editor |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-12T07:37 | 0 | 463 | 1823 |
 | 2026-06-12T00:45 | 0 | 463 | 1823 |
 | 2026-06-11T18:59 | 0 | 463 | 1823 |
 | 2026-06-11T13:17 | 1 | 463 | 1823 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-10T13:09 | 1 | 462 | 1811 |
 | 2026-06-10T07:28 | 0 | 462 | 1810 |
 | 2026-06-10T00:43 | 2 | 460 | 1810 |
-| 2026-06-09T18:44 | 0 | 460 | 1808 |
 
 ---
 
