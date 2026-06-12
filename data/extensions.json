@@ -85,7 +85,7 @@
     "name": "GDQuest/zed-gdscript",
     "url": "https://github.com/GDQuest/zed-gdscript",
     "description": "Zed support for the Godot game engine and the GDScript language",
-    "stars": 176,
+    "stars": 177,
     "forks": 21,
     "topics": [
       "code-editor",
@@ -97,7 +97,7 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-02-26T18:14:41Z",
-    "updated_at": "2026-06-11T00:14:07Z",
+    "updated_at": "2026-06-12T11:56:57Z",
     "pushed_at": "2026-05-21T10:29:17Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -1498,10 +1498,10 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-04-29T22:23:55Z",
-    "updated_at": "2026-06-11T10:23:01Z",
-    "pushed_at": "2026-06-11T10:22:57Z",
+    "updated_at": "2026-06-12T08:38:13Z",
+    "pushed_at": "2026-06-12T08:38:09Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
-    "official": false,
+    "official": true,
     "extension": {
       "id": "package-json-upgrade",
       "name": "Package.json Upgrade",
@@ -1653,7 +1653,7 @@
     "updated_at": "2026-04-30T02:29:05Z",
     "pushed_at": "2026-04-30T02:28:00Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
-    "official": false,
+    "official": true,
     "extension": {
       "id": "cassette-futurism-theme",
       "name": "Cassette Futurism Theme",
@@ -2556,8 +2556,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-04-04T17:17:24Z",
-    "updated_at": "2026-04-08T09:50:08Z",
-    "pushed_at": "2026-04-07T14:51:46Z",
+    "updated_at": "2026-06-12T10:13:34Z",
+    "pushed_at": "2026-06-12T10:13:33Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false,
     "extension": {
@@ -2718,7 +2718,7 @@
     "updated_at": "2026-04-05T12:32:29Z",
     "pushed_at": "2026-04-05T12:09:47Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
-    "official": false,
+    "official": true,
     "extension": {
       "id": "kanagawa-wave-blur-theme",
       "name": "Kanagawa Wave Blur",
@@ -2749,10 +2749,10 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2026-04-05T10:16:35Z",
-    "updated_at": "2026-04-05T10:39:16Z",
-    "pushed_at": "2026-04-05T10:19:29Z",
+    "updated_at": "2026-06-12T10:43:41Z",
+    "pushed_at": "2026-06-12T10:43:38Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
-    "official": false,
+    "official": true,
     "extension": {
       "id": "opentype-feature-lang",
       "name": "OpenType™ Feature",
@@ -2980,7 +2980,7 @@
     "updated_at": "2026-04-01T07:33:25Z",
     "pushed_at": "2026-03-31T15:02:11Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
-    "official": false,
+    "official": true,
     "extension": {
       "id": "magento2-snippets",
       "name": "Magento 2 Snippets",
@@ -3303,7 +3303,7 @@
     "updated_at": "2026-03-26T13:36:31Z",
     "pushed_at": "2026-03-26T13:37:27Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
-    "official": false,
+    "official": true,
     "extension": {
       "id": "urdf",
       "name": "URDF",
@@ -3330,7 +3330,7 @@
     "url": "https://github.com/dunyakirkali/zed-asciidoc",
     "description": "Zed support for AsciiDoc syntax",
     "stars": 20,
-    "forks": 4,
+    "forks": 5,
     "topics": [
       "asciidoc",
       "zed-extension"
@@ -8946,10 +8946,10 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-03-08T22:03:26Z",
-    "updated_at": "2026-06-01T21:48:23Z",
-    "pushed_at": "2026-06-01T21:48:19Z",
+    "updated_at": "2026-06-12T10:39:12Z",
+    "pushed_at": "2026-06-12T10:39:09Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
-    "official": false,
+    "official": true,
     "extension": {
       "id": "polycarbonate-dark-theme",
       "name": "Polycarbonate Dark Theme",
@@ -52063,6 +52063,194 @@
         "Menouer Nobach <menouer.nobach@bettyblocks.com>"
       ],
       "repository": "https://github.com/exkungen/outrun-vscode-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "louiss0/zed-ebnf": {
+    "name": "louiss0/zed-ebnf",
+    "url": "https://github.com/louiss0/zed-ebnf",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2025-12-31T22:53:35Z",
+    "updated_at": "2026-03-31T00:42:14Z",
+    "pushed_at": "2026-03-31T00:42:20Z",
+    "discovered_at": "2026-06-12T13:08:44.886Z",
+    "official": true,
+    "extension": {
+      "id": "ebnf",
+      "name": "EBNF",
+      "description": "EBNF language support.",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "authors": [
+        "Shelton Louis <louisshelton0@gmail.com>"
+      ],
+      "repository": "https://github.com/louiss0/zed-ebnf",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
+      ]
+    }
+  },
+  "electron-highlighter/zed": {
+    "name": "electron-highlighter/zed",
+    "url": "https://github.com/electron-highlighter/zed",
+    "description": "Electron Highlighter theme for Zed",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-04-28T21:04:39Z",
+    "updated_at": "2026-06-05T20:39:02Z",
+    "pushed_at": "2026-06-05T20:38:29Z",
+    "discovered_at": "2026-06-12T13:08:44.886Z",
+    "official": true,
+    "extension": {
+      "id": "electron-highlighter-theme",
+      "name": "Electron Highlighter",
+      "description": "Electron highlighter is a dark syntax theme based off of the iconic One Dark theme with a more vibrant color palette.",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "mikemcbride <mike@mcbrides.us>"
+      ],
+      "repository": "https://github.com/electron-highlighter/zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "toxblh/zed-file-icons": {
+    "name": "Toxblh/zed-file-icons",
+    "url": "https://github.com/Toxblh/zed-file-icons",
+    "description": "2000+ file and folder icons for Zed, ported from the popular file-icons/vscode theme.\"",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Python",
+    "license": "MIT",
+    "created_at": "2026-03-25T13:21:56Z",
+    "updated_at": "2026-03-25T13:27:25Z",
+    "pushed_at": "2026-03-25T13:27:20Z",
+    "discovered_at": "2026-06-12T13:08:44.886Z",
+    "official": true,
+    "extension": {
+      "id": "file-icons",
+      "name": "File Icons",
+      "description": "2000+ file and folder icons for Zed, ported from the popular file-icons/vscode theme.",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "authors": [
+        "Anton Palgunov <toxblh@gmail.com>"
+      ],
+      "repository": "https://github.com/toxblh/zed-file-icons",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "andrewzhuk/nightfall-theme": {
+    "name": "andrewzhuk/nightfall-theme",
+    "url": "https://github.com/andrewzhuk/nightfall-theme",
+    "description": "A warm, vivid color scheme inspired by the colors of daybreak-theme — for Zed",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-04-05T20:00:59Z",
+    "updated_at": "2026-04-05T23:07:13Z",
+    "pushed_at": "2026-04-05T23:07:07Z",
+    "discovered_at": "2026-06-12T13:08:44.886Z",
+    "official": true,
+    "extension": {
+      "id": "nightfall-theme",
+      "name": "Nightfall",
+      "description": "A warm, vivid color scheme inspired by the colors of daybreak-theme",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Andrew Zhuk <andrewzhuk@outlook.com>"
+      ],
+      "repository": "https://github.com/andrewzhuk/nightfall-theme",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "envoidia/zed-selene-abyss": {
+    "name": "envoidia/zed-selene-abyss",
+    "url": "https://github.com/envoidia/zed-selene-abyss",
+    "description": " Blue and purple-focused dark theme for Zed",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-04-27T00:09:05Z",
+    "updated_at": "2026-05-15T23:54:17Z",
+    "pushed_at": "2026-05-15T23:54:13Z",
+    "discovered_at": "2026-06-12T13:08:44.886Z",
+    "official": true,
+    "extension": {
+      "id": "selene-abyss-theme",
+      "name": "Selene Abyss",
+      "description": "A blue and purple-focused dark theme",
+      "version": "0.0.3",
+      "schema_version": 1,
+      "authors": [
+        "envoidia"
+      ],
+      "repository": "https://github.com/envoidia/zed-selene-abyss",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "jxshwa/webstorm-darker-theme": {
+    "name": "jxshwa/webstorm-darker-theme",
+    "url": "https://github.com/jxshwa/webstorm-darker-theme",
+    "description": "Webstorm Darker Theme for Zed Editor",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-03-13T05:42:38Z",
+    "updated_at": "2026-03-13T07:47:45Z",
+    "pushed_at": "2026-03-13T07:47:42Z",
+    "discovered_at": "2026-06-12T13:08:44.886Z",
+    "official": true,
+    "extension": {
+      "id": "webstorm-darker-theme",
+      "name": "Webstorm Darker Theme",
+      "description": "Webstorm Darker Theme for Zed",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "jxshwa"
+      ],
+      "repository": "https://github.com/jxshwa/webstorm-darker-theme.git",
       "snippets": null,
       "sections": [],
       "categories": [

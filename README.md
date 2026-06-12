@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1527-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1533-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,17 +14,17 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1527** |
-| In official registry | 1088 |
-| Discovered via topics | 439 |
-| Last updated | 2026-06-12 07:37 UTC |
+| Total tracked | **1533** |
+| In official registry | 1101 |
+| Discovered via topics | 432 |
+| Last updated | 2026-06-12 13:08 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
-| Themes | 624 |
-| Grammars | 542 |
+| Themes | 629 |
+| Grammars | 543 |
 | Language Servers | 505 |
 | Context Servers | 125 |
 | Snippets | 68 |
@@ -70,6 +70,12 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [louiss0/zed-ebnf](https://github.com/louiss0/zed-ebnf) | 0 |  |
+| [electron-highlighter/zed](https://github.com/electron-highlighter/zed) | 0 | Electron Highlighter theme for Zed |
+| [Toxblh/zed-file-icons](https://github.com/Toxblh/zed-file-icons) | 0 | 2000+ file and folder icons for Zed, ported from the popular file-icons/vscode t... |
+| [andrewzhuk/nightfall-theme](https://github.com/andrewzhuk/nightfall-theme) | 0 | A warm, vivid color scheme inspired by the colors of daybreak-theme — for Zed |
+| [envoidia/zed-selene-abyss](https://github.com/envoidia/zed-selene-abyss) | 0 |  Blue and purple-focused dark theme for Zed |
+| [jxshwa/webstorm-darker-theme](https://github.com/jxshwa/webstorm-darker-theme) | 0 | Webstorm Darker Theme for Zed Editor |
 | [exkungen/outrun-vscode-zed](https://github.com/exkungen/outrun-vscode-zed) | 0 | Outrun VS Code theme ported to Zed (Night + Electric) |
 | [Lenivvenil/zed-likec4](https://github.com/Lenivvenil/zed-likec4) | 2 | LikeC4 architecture-as-code language support for Zed |
 | [eduardolecdt/edusites-theme-zed](https://github.com/eduardolecdt/edusites-theme-zed) | 2 |  |
@@ -84,12 +90,6 @@ cd website && npm install && npm run dev
 | [Y-ASLant/Flow-Icons-Zed](https://github.com/Y-ASLant/Flow-Icons-Zed) | 0 | Base on https://flow-icons.pages.dev/ |
 | [adamsharifc/zed-field-lights](https://github.com/adamsharifc/zed-field-lights) | 0 | A dark Visual Studio Theme inspired by the great Ayu theme but adding some perso... |
 | [frostime/zed-file-mention](https://github.com/frostime/zed-file-mention) | 0 | An zed extension (dev phase). Press @ for quick file path completions. |
-| [wesleydmscn/zed-samurai-theme](https://github.com/wesleydmscn/zed-samurai-theme) | 4 | A Zed theme for samurai programmers |
-| [Adriusops/Buisson](https://github.com/Adriusops/Buisson) | 3 | An inky botanical color scheme |
-| [huaium/zed-ass](https://github.com/huaium/zed-ass) | 0 | ASS/SSA Syntax Highlighting for Zed. |
-| [ysalitrynskyi/zed-theme-darcula](https://github.com/ysalitrynskyi/zed-theme-darcula) | 0 | The classic JetBrains Darcula color scheme for the Zed editor — 9 dark variants ... |
-| [TisaneFruitRouge/hoon-zed](https://github.com/TisaneFruitRouge/hoon-zed) | 0 |  |
-| [taylorplewe/canipls-zed](https://github.com/taylorplewe/canipls-zed) | 0 | Zed extension for caniuse-ls |
 
 ## Top starred (under 500)
 
@@ -105,7 +105,7 @@ cd website && npm install && npm run dev
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 190 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
-| [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 176 | Zed support for the Godot game engine and the GDScript language |
+| [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 177 | Zed support for the Godot game engine and the GDScript language |
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 175 | Typst extension for zed |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 159 | A macOS native style theme for Zed, let it same like native app in macOS. |
 | [thedadams/zed-comment](https://github.com/thedadams/zed-comment) | 148 | A comment extension for the Zed editor |
@@ -120,10 +120,13 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [mishamyrt/zed-opentype-feature](https://github.com/mishamyrt/zed-opentype-feature) | 0 | 2026-06-12 | 🔠 OpenType™ Feature language support for Zed |
+| [Sha1rholder/polycarbonate-dark-theme](https://github.com/Sha1rholder/polycarbonate-dark-theme) | 0 | 2026-06-12 | Turn Zed into a clean slab of dark glass. |
+| [MahoCommerce/zed](https://github.com/MahoCommerce/zed) | 1 | 2026-06-12 | Maho extension for Zed. |
+| [Arthurmtro/zed-package-json-upgrade](https://github.com/Arthurmtro/zed-package-json-upgrade) | 0 | 2026-06-12 | Inline npm dependency update hints for package.json in Zed |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 85 | 2026-06-12 | True Dark Theme for Zed IDE |
 | [htahaozlu/context-bar](https://github.com/htahaozlu/context-bar) | 13 | 2026-06-11 | Usage and cost visibility for Claude Code and Codex — native... |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-06-11 | A Zed extension that allows to highlight all occurrences of ... |
-| [Arthurmtro/zed-package-json-upgrade](https://github.com/Arthurmtro/zed-package-json-upgrade) | 0 | 2026-06-11 | Inline npm dependency update hints for package.json in Zed |
 | [exkungen/outrun-vscode-zed](https://github.com/exkungen/outrun-vscode-zed) | 0 | 2026-06-11 | Outrun VS Code theme ported to Zed (Night + Electric) |
 | [nobottomline/logos-zed](https://github.com/nobottomline/logos-zed) | 0 | 2026-06-11 | Syntax highlighting for Theos Logos files in Zed |
 | [HarshNarayanJha/zed-symbols-icons](https://github.com/HarshNarayanJha/zed-symbols-icons) | 2 | 2026-06-11 | A simple file icon theme for Zed. |
@@ -137,14 +140,12 @@ cd website && npm install && npm run dev
 | [Y-ASLant/Flow-Icons-Zed](https://github.com/Y-ASLant/Flow-Icons-Zed) | 0 | 2026-06-09 | Base on https://flow-icons.pages.dev/ |
 | [adamsharifc/zed-field-lights](https://github.com/adamsharifc/zed-field-lights) | 0 | 2026-06-09 | A dark Visual Studio Theme inspired by the great Ayu theme b... |
 | [Smyrnis/united-gnome-theme](https://github.com/Smyrnis/united-gnome-theme) | 1 | 2026-06-08 | Theme Extension for the Zed Editor |
-| [frostime/zed-file-mention](https://github.com/frostime/zed-file-mention) | 0 | 2026-06-08 | An zed extension (dev phase). Press @ for quick file path co... |
-| [zed-extensions/nginx](https://github.com/zed-extensions/nginx) | 10 | 2026-06-07 |  |
-| [zed-extensions/superhtml](https://github.com/zed-extensions/superhtml) | 12 | 2026-06-07 | SuperHTML support for zed |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-12T13:08 | 6 | 463 | 1829 |
 | 2026-06-12T07:37 | 0 | 463 | 1823 |
 | 2026-06-12T00:45 | 0 | 463 | 1823 |
 | 2026-06-11T18:59 | 0 | 463 | 1823 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-10T18:53 | 0 | 463 | 1811 |
 | 2026-06-10T13:09 | 1 | 462 | 1811 |
 | 2026-06-10T07:28 | 0 | 462 | 1810 |
-| 2026-06-10T00:43 | 2 | 460 | 1810 |
 
 ---
 
