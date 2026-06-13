@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1535** |
 | In official registry | 1104 |
 | Discovered via topics | 431 |
-| Last updated | 2026-06-13 00:45 UTC |
+| Last updated | 2026-06-13 07:18 UTC |
 
 ### By capability
 
@@ -97,7 +97,7 @@ cd website && npm install && npm run dev
 |---|---|---|
 | [biomejs/biome-zed](https://github.com/biomejs/biome-zed) | 466 | Biome extension for Zed |
 | [xhyrom/zed-discord-presence](https://github.com/xhyrom/zed-discord-presence) | 415 | extension for zed that adds support for discord rich presence using lsp |
-| [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 325 | Catppuccin Theme but as blurred variants + custom ones |
+| [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 326 | Catppuccin Theme but as blurred variants + custom ones |
 | [oxc-project/oxc-zed](https://github.com/oxc-project/oxc-zed) | 256 | Oxc extension for Zed |
 | [catppuccin/zed-icons](https://github.com/catppuccin/zed-icons) | 240 | 🦊 Soothing pastel icons for Zed |
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
@@ -120,12 +120,13 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [DROOdotFOO/aztec-noir](https://github.com/DROOdotFOO/aztec-noir) | 1 | 2026-06-13 | Noir language support for Zed |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 85 | 2026-06-13 | True Dark Theme for Zed IDE |
 | [MahoCommerce/zed](https://github.com/MahoCommerce/zed) | 1 | 2026-06-12 | Maho extension for Zed. |
 | [unlight/zed-boolean-toggle](https://github.com/unlight/zed-boolean-toggle) | 0 | 2026-06-12 | A Zed editor extension that toggles boolean values (true/fal... |
 | [mishamyrt/zed-opentype-feature](https://github.com/mishamyrt/zed-opentype-feature) | 0 | 2026-06-12 | 🔠 OpenType™ Feature language support for Zed |
 | [Sha1rholder/polycarbonate-dark-theme](https://github.com/Sha1rholder/polycarbonate-dark-theme) | 0 | 2026-06-12 | Turn Zed into a clean slab of dark glass. |
 | [Arthurmtro/zed-package-json-upgrade](https://github.com/Arthurmtro/zed-package-json-upgrade) | 0 | 2026-06-12 | Inline npm dependency update hints for package.json in Zed |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 85 | 2026-06-12 | True Dark Theme for Zed IDE |
 | [htahaozlu/context-bar](https://github.com/htahaozlu/context-bar) | 13 | 2026-06-11 | Usage and cost visibility for Claude Code and Codex — native... |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-06-11 | A Zed extension that allows to highlight all occurrences of ... |
 | [exkungen/outrun-vscode-zed](https://github.com/exkungen/outrun-vscode-zed) | 0 | 2026-06-11 | Outrun VS Code theme ported to Zed (Night + Electric) |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [M0n7y5/flutter-zed](https://github.com/M0n7y5/flutter-zed) | 1 | 2026-06-09 | Flutter development support for ZED IDE |
 | [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 133 | 2026-06-09 |  |
 | [Y-ASLant/Flow-Icons-Zed](https://github.com/Y-ASLant/Flow-Icons-Zed) | 0 | 2026-06-09 | Base on https://flow-icons.pages.dev/ |
-| [adamsharifc/zed-field-lights](https://github.com/adamsharifc/zed-field-lights) | 0 | 2026-06-09 | A dark Visual Studio Theme inspired by the great Ayu theme b... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-13T07:18 | 0 | 464 | 1831 |
 | 2026-06-13T00:45 | 1 | 464 | 1831 |
 | 2026-06-12T18:39 | 1 | 463 | 1830 |
 | 2026-06-12T13:08 | 6 | 463 | 1829 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-11T13:17 | 1 | 463 | 1823 |
 | 2026-06-11T07:40 | 2 | 462 | 1822 |
 | 2026-06-11T00:43 | 9 | 463 | 1820 |
-| 2026-06-10T18:53 | 0 | 463 | 1811 |
 
 ---
 
