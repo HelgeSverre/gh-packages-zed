@@ -1,0 +1,298 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Redmine MCP Server - Zed Extension Safari</title><meta name="description" content="Zed extension and standalone MCP server for Redmine, exposing issues, projects, wiki, time entries, attachments, versions, relations, watchers, and checklists to AI agents."><link rel="canonical" href="https://helgesverre.github.io/gh-packages-zed/package/weirdo-adam/zed-mcp-server-redmine/"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Redmine MCP Server - Zed Extension Safari"><meta property="og:description" content="Zed extension and standalone MCP server for Redmine, exposing issues, projects, wiki, time entries, attachments, versions, relations, watchers, and checklists to AI agents."><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed/package/weirdo-adam/zed-mcp-server-redmine/"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Redmine MCP Server - Zed Extension Safari"><meta name="twitter:description" content="Zed extension and standalone MCP server for Redmine, exposing issues, projects, wiki, time entries, attachments, versions, relations, watchers, and checklists to AI agents."><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/gh-packages-zed/_astro/ClientRouter.astro_astro_type_script_index_0_lang.ClVLs1kt.js"></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Redmine MCP Server","description":"Zed extension and standalone MCP server for Redmine, exposing issues, projects, wiki, time entries, attachments, versions, relations, watchers, and checklists to AI agents.","applicationCategory":"DeveloperApplication","operatingSystem":"macOS, Linux, Windows","url":"https://zed.dev/extensions/redmine-mcp-server","codeRepository":"https://github.com/weirdo-adam/zed-mcp-server-redmine","author":[{"@type":"Person","name":"weirdo-adam"}],"softwareVersion":"0.1.0","license":"MIT","keywords":"context-server","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/Layout.CGDlMdWE.css"><script type="module" src="/gh-packages-zed/_astro/page.B8i1Zz-u.js"></script></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <a href="#main" class="skip-to-content">Skip to content</a> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" data-astro-transition-persist="astro-fhchcgd7-1"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <script type="application/json" id="pkg-extras">{"url":"https://github.com/weirdo-adam/zed-mcp-server-redmine","language":"JavaScript","license":"MIT","topics":["agent-tools","ai-agent","context-server","issue-tracking","mcp","mcp-server","model-context-protocol","project-management","redmine","redmine-api","stdio","zed","zed-extension"],"extension":{"authors":["weirdo-adam"],"schema_version":1}}</script> <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> weirdo-adam/zed-mcp-server-redmine </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> Redmine MCP Server </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> Zed MCP context server for Redmine. </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="context-server">MCP Server</span> </div> </div> </div> </header> <main id="main" class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/redmine-mcp-server" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/weirdo-adam/zed-mcp-server-redmine" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.1.0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">redmine-mcp-server</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">JavaScript</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">MIT</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">4h ago</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">weirdo-adam</dd> </div> </dl>  <h2 class="mt-5 text-xs uppercase font-mono" style="color:var(--zed-muted);">Topics</h2> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> agent-tools </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> ai-agent </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> context-server </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> issue-tracking </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> mcp </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> mcp-server </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> model-context-protocol </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> project-management </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> redmine </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> redmine-api </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> stdio </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed-extension </span> </div>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><p align="center">
+  <img src="https://raw.githubusercontent.com/weirdo-adam/zed-mcp-server-redmine/HEAD/docs/assets/readme-hero.svg" alt="Redmine MCP Server for Zed" width="100%">
+</p>
+<p align="center">
+  <a href="https://github.com/weirdo-adam/zed-mcp-server-redmine/blob/HEAD/README.zh-CN.md" target="_blank" rel="noopener">简体中文</a>
+  ·
+  <a href="https://github.com/weirdo-adam/zed-mcp-server-redmine/blob/HEAD/docs/client-configuration.md" target="_blank" rel="noopener">Client configuration</a>
+  ·
+  <a href="https://github.com/weirdo-adam/zed-mcp-server-redmine/blob/HEAD/docs/api-coverage.md" target="_blank" rel="noopener">API coverage</a>
+  ·
+  <a href="https://github.com/weirdo-adam/zed-mcp-server-redmine/blob/HEAD/SECURITY.md" target="_blank" rel="noopener">Security</a>
+</p>
+<h1 id="user-content-redmine-mcp-server-for-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#redmine-mcp-server-for-zed"><span class="heading-anchor-icon">#</span></a>Redmine MCP Server for Zed</h1>
+<p>A Zed extension that registers a <code>redmine</code> MCP context server and runs the
+bundled stdio MCP server with Zed's Node.js runtime. The bundled
+<code>server/index.js</code> entrypoint can also run as a local MCP server for agent
+development tools that support stdio MCP servers.</p>
+<p>
+  <img alt="Version 0.1.0" src="https://img.shields.io/badge/version-0.1.0-f25f4c">
+  <img alt="License MIT" src="https://img.shields.io/badge/license-MIT-19c37d">
+  <img alt="Node 18.17 or newer" src="https://img.shields.io/badge/node-%3E%3D18.17-243447">
+  <img alt="Zed MCP extension" src="https://img.shields.io/badge/Zed-MCP_extension-7dd3fc">
+</p>
+<h2 id="user-content-project-positioning"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#project-positioning"><span class="heading-anchor-icon">#</span></a>Project Positioning</h2>
+<ul>
+<li>Primary distribution: Zed extension.</li>
+<li>Bundled runtime: standalone Redmine stdio MCP server.</li>
+<li>Secondary usage: local MCP configuration for Claude, Codex, and other agent
+tools.</li>
+<li>Package status: this repository is not published as an npm package; npm
+scripts are for local development, installation, and manual release packaging.</li>
+</ul>
+<h2 id="user-content-requirements"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#requirements"><span class="heading-anchor-icon">#</span></a>Requirements</h2>
+<ul>
+<li>Redmine with REST API access enabled.</li>
+<li>A Redmine API key with the required project permissions.</li>
+<li>Redmine Checklists plugin, only for checklist tools.</li>
+</ul>
+<h2 id="user-content-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation"><span class="heading-anchor-icon">#</span></a>Installation</h2>
+<p>Published builds are installed through Zed's extension registry. For local
+development, clone this repository and load it through Zed's development
+extension workflow.</p>
+<p>Zed starts <code>server/index.js</code> with its bundled Node.js runtime. A separate Node.js
+installation is only required for local development or standalone server tests.</p>
+<h2 id="user-content-configuration"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#configuration"><span class="heading-anchor-icon">#</span></a>Configuration</h2>
+<p>Configure the <code>redmine</code> context server in Zed settings:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "context_servers"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "redmine"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "REDMINE_BASE_URL"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"https://redmine.example.com"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "REDMINE_API_KEY"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"your-api-key"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "REDMINE_MCP_READ_ONLY"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">false</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>Settings are mapped to the <code>REDMINE_*</code> environment variables used by the server.
+Optional tool groups are enabled by default.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Variable</th><th>Required</th><th>Default</th><th>Description</th></tr></thead><tbody><tr><td><code>REDMINE_BASE_URL</code></td><td>Yes</td><td>none</td><td>Redmine base URL.</td></tr><tr><td><code>REDMINE_API_KEY</code></td><td>Yes</td><td>none</td><td>Redmine REST API key.</td></tr><tr><td><code>REDMINE_MCP_READ_ONLY</code></td><td>No</td><td><code>false</code></td><td>Hide and reject write tools.</td></tr><tr><td><code>REDMINE_MCP_ENABLE_DELETES</code></td><td>No</td><td><code>false</code></td><td>Expose destructive delete/remove tools. Delete and remove tools are disabled by default.</td></tr><tr><td><code>REDMINE_MCP_DISABLE_ATTACHMENTS</code></td><td>No</td><td><code>false</code></td><td>Disable attachment tools.</td></tr><tr><td><code>REDMINE_MCP_DISABLE_CHECKLISTS</code></td><td>No</td><td><code>false</code></td><td>Disable checklist tools.</td></tr><tr><td><code>REDMINE_MCP_DISABLE_RELATIONS</code></td><td>No</td><td><code>false</code></td><td>Disable issue relation tools.</td></tr><tr><td><code>REDMINE_MCP_DISABLE_TIME_ENTRIES</code></td><td>No</td><td><code>false</code></td><td>Disable time entry tools.</td></tr><tr><td><code>REDMINE_MCP_DISABLE_VERSIONS</code></td><td>No</td><td><code>false</code></td><td>Disable version tools.</td></tr><tr><td><code>REDMINE_MCP_DISABLE_WIKI</code></td><td>No</td><td><code>false</code></td><td>Disable wiki page tools.</td></tr><tr><td><code>REDMINE_MCP_DISABLE_WATCHERS</code></td><td>No</td><td><code>false</code></td><td>Disable watcher tools.</td></tr><tr><td><code>REDMINE_MCP_ATTACHMENT_MAX_BYTES</code></td><td>No</td><td><code>10485760</code></td><td>Maximum attachment upload/download payload size returned through MCP.</td></tr><tr><td><code>REDMINE_SILENT_WRITES</code></td><td>No</td><td><code>false</code></td><td>Return compact write results and send <code>notify=false</code>.</td></tr><tr><td><code>REDMINE_TIMEOUT_MS</code></td><td>No</td><td><code>30000</code></td><td>HTTP request timeout in milliseconds.</td></tr></tbody></table>
+<p>Write tools also support per-call <code>silent</code> and <code>notify</code> overrides.</p>
+<p>Standalone stdio server example:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">export</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> REDMINE_BASE_URL</span><span style="color:#D73A49;--shiki-dark:#F97583">=</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"https://redmine.example.com"</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">export</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> REDMINE_API_KEY</span><span style="color:#D73A49;--shiki-dark:#F97583">=</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"your-api-key"</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">export</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> REDMINE_MCP_READ_ONLY</span><span style="color:#D73A49;--shiki-dark:#F97583">=</span><span style="color:#24292E;--shiki-dark:#E1E4E8">true</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">node</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> server/index.js</span></span></code></pre>
+<h2 id="user-content-agent-client-configuration"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#agent-client-configuration"><span class="heading-anchor-icon">#</span></a>Agent Client Configuration</h2>
+<p>The server uses the standard stdio MCP transport. It can be configured in Zed,
+Claude Code or Claude Desktop, Codex, and other local MCP clients by launching
+<code>node /absolute/path/to/server/index.js</code> with the <code>REDMINE_*</code> environment
+variables.</p>
+<p>See <a href="https://github.com/weirdo-adam/zed-mcp-server-redmine/blob/HEAD/docs/client-configuration.md" target="_blank" rel="noopener">docs/client-configuration.md</a> for client
+configuration examples.</p>
+<p>Local one-command install for non-Zed MCP clients:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">scripts/install-local.sh</span></span></code></pre>
+<h2 id="user-content-security"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#security"><span class="heading-anchor-icon">#</span></a>Security</h2>
+<p>Effective permissions are determined by the configured Redmine API key. Use the
+least privileged key practical for the target project and set
+<code>REDMINE_MCP_READ_ONLY=true</code> when write operations are not required.</p>
+<p>Do not disclose API keys, private Redmine data, or internal Redmine URLs in
+public issues, pull requests, screenshots, or logs. See
+<a href="https://github.com/weirdo-adam/zed-mcp-server-redmine/blob/HEAD/SECURITY.md" target="_blank" rel="noopener">SECURITY.md</a> for vulnerability reporting.</p>
+<h2 id="user-content-available-tools"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#available-tools"><span class="heading-anchor-icon">#</span></a>Available Tools</h2>
+<p>Tool schemas are returned through MCP <code>tools/list</code>.
+See <a href="https://github.com/weirdo-adam/zed-mcp-server-redmine/blob/HEAD/docs/api-coverage.md" target="_blank" rel="noopener">docs/api-coverage.md</a> for Redmine REST API coverage
+status and unsupported areas.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Group</th><th>Tools</th><th>Availability</th><th>Notes</th></tr></thead><tbody><tr><td>Issues</td><td><code>redmine_list_issues</code>, <code>redmine_get_issue</code>, <code>redmine_create_issue</code>, <code>redmine_update_issue</code>, <code>redmine_delete_issue</code></td><td>Core issue tools are always enabled. <code>redmine_delete_issue</code> requires <code>REDMINE_MCP_ENABLE_DELETES=true</code>.</td><td>Write tools are hidden in read-only mode. Issue deletion is destructive and disabled by default.</td></tr><tr><td>Search and metadata</td><td><code>redmine_search</code>, <code>redmine_list_projects</code>, <code>redmine_get_project</code>, <code>redmine_list_project_memberships</code>, <code>redmine_get_project_membership</code>, <code>redmine_list_issue_statuses</code>, <code>redmine_list_trackers</code>, <code>redmine_list_issue_priorities</code>, <code>redmine_list_issue_categories</code>, <code>redmine_list_custom_fields</code>, <code>redmine_list_queries</code>, <code>redmine_list_users</code>, <code>redmine_get_current_user</code></td><td>Always enabled</td><td>Read-only. Project membership tools are read-only.</td></tr><tr><td>Attachments</td><td><code>redmine_get_attachment</code>, <code>redmine_download_attachment</code>, <code>redmine_upload_attachment</code>, <code>redmine_delete_attachment</code></td><td>Disable with <code>REDMINE_MCP_DISABLE_ATTACHMENTS=true</code>. <code>redmine_delete_attachment</code> also requires <code>REDMINE_MCP_ENABLE_DELETES=true</code>.</td><td>Upload and opt-in delete are hidden in read-only mode. Download returns base64 or UTF-8 text. Attachment deletion is destructive and disabled by default.</td></tr><tr><td>Wiki pages</td><td><code>redmine_list_wiki_pages</code>, <code>redmine_get_wiki_page</code></td><td>Disable with <code>REDMINE_MCP_DISABLE_WIKI=true</code>.</td><td>Read-only. Supports listing pages and reading a page by title or version.</td></tr><tr><td>Issue relations</td><td><code>redmine_list_issue_relations</code>, <code>redmine_get_issue_relation</code>, <code>redmine_add_issue_relation</code>, <code>redmine_delete_issue_relation</code></td><td>Disable with <code>REDMINE_MCP_DISABLE_RELATIONS=true</code>. Delete requires <code>REDMINE_MCP_ENABLE_DELETES=true</code>.</td><td>Write tools are hidden in read-only mode.</td></tr><tr><td>Checklists</td><td><code>redmine_list_checklists</code>, <code>redmine_add_checklist_item</code>, <code>redmine_update_checklist_item</code>, <code>redmine_delete_checklist_item</code></td><td>Disable with <code>REDMINE_MCP_DISABLE_CHECKLISTS=true</code>. Delete requires <code>REDMINE_MCP_ENABLE_DELETES=true</code>.</td><td>Requires Redmine Checklists.</td></tr><tr><td>Time entries</td><td><code>redmine_list_time_entries</code>, <code>redmine_get_time_entry</code>, <code>redmine_add_time_entry</code>, <code>redmine_update_time_entry</code>, <code>redmine_delete_time_entry</code>, <code>redmine_list_time_entry_activities</code></td><td>Disable with <code>REDMINE_MCP_DISABLE_TIME_ENTRIES=true</code>. Delete requires <code>REDMINE_MCP_ENABLE_DELETES=true</code>.</td><td>Write tools are hidden in read-only mode.</td></tr><tr><td>Versions</td><td><code>redmine_list_versions</code>, <code>redmine_get_version</code>, <code>redmine_create_version</code>, <code>redmine_update_version</code>, <code>redmine_delete_version</code></td><td>Disable with <code>REDMINE_MCP_DISABLE_VERSIONS=true</code>. Delete requires <code>REDMINE_MCP_ENABLE_DELETES=true</code>.</td><td>Write tools are hidden in read-only mode.</td></tr><tr><td>Watchers</td><td><code>redmine_list_watchers</code>, <code>redmine_add_watcher</code>, <code>redmine_remove_watcher</code></td><td>Disable with <code>REDMINE_MCP_DISABLE_WATCHERS=true</code>. Remove requires <code>REDMINE_MCP_ENABLE_DELETES=true</code>.</td><td>Write tools are hidden in read-only mode.</td></tr></tbody></table>
+<h2 id="user-content-development"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#development"><span class="heading-anchor-icon">#</span></a>Development</h2>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">scripts/check.sh</span></span></code></pre>
+<p>The check script runs JavaScript syntax checks, Node.js tests, Rust formatting,
+Rust clippy, and the Zed WASI target check.</p>
+<p>The MCP stdio transport uses newline-delimited JSON-RPC on stdout. Logs and
+diagnostics must be written to stderr.</p>
+<h2 id="user-content-local-releases"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#local-releases"><span class="heading-anchor-icon">#</span></a>Local Releases</h2>
+<p>Local release archives are maintained manually. To build the Zed extension wasm
+and create a distributable archive under <code>dist/</code>:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">scripts/package-release.sh</span></span></code></pre>
+<p>The archive includes the Zed extension files, the standalone MCP server, docs,
+and the local install script. Publish the generated archive and <code>.sha256</code> file
+as release assets when maintaining releases outside the Zed extension registry.</p>
+<h2 id="user-content-support"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#support"><span class="heading-anchor-icon">#</span></a>Support</h2>
+<p>Use GitHub Issues for defects and feature requests. Include the extension
+version, Zed version, Redmine version, relevant configuration flags, and
+sanitized MCP server logs.</p>
+<p>See <a href="https://github.com/weirdo-adam/zed-mcp-server-redmine/blob/HEAD/CONTRIBUTING.md" target="_blank" rel="noopener">CONTRIBUTING.md</a> and <a href="https://github.com/weirdo-adam/zed-mcp-server-redmine/blob/HEAD/SECURITY.md" target="_blank" rel="noopener">SECURITY.md</a> before
+opening pull requests or sensitive reports.</p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>

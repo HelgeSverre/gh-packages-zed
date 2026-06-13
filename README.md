@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1535-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1536-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,10 +14,10 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1535** |
+| Total tracked | **1536** |
 | In official registry | 1104 |
-| Discovered via topics | 431 |
-| Last updated | 2026-06-13 07:18 UTC |
+| Discovered via topics | 432 |
+| Last updated | 2026-06-13 12:36 UTC |
 
 ### By capability
 
@@ -26,7 +26,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Themes | 630 |
 | Grammars | 543 |
 | Language Servers | 506 |
-| Context Servers | 125 |
+| Context Servers | 126 |
 | Snippets | 68 |
 | Slash Commands | 55 |
 | Debug Adapters | 33 |
@@ -70,6 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [weirdo-adam/zed-mcp-server-redmine](https://github.com/weirdo-adam/zed-mcp-server-redmine) | 0 | Zed extension and standalone MCP server for Redmine, exposing issues, projects, ... |
 | [smit4k/zed-shale](https://github.com/smit4k/zed-shale) | 0 | A Zed port of the shale colorscheme |
 | [unlight/zed-boolean-toggle](https://github.com/unlight/zed-boolean-toggle) | 0 | A Zed editor extension that toggles boolean values (true/false, yes/no, on/off, ... |
 | [louiss0/zed-ebnf](https://github.com/louiss0/zed-ebnf) | 0 |  |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [GGORG0/zed-pioasm-syntax](https://github.com/GGORG0/zed-pioasm-syntax) | 1 | Raspberry Pi's PIO assembly language syntax for the Zed editor |
 | [nobottomline/logos-zed](https://github.com/nobottomline/logos-zed) | 0 | Syntax highlighting for Theos Logos files in Zed |
 | [M0n7y5/flutter-zed](https://github.com/M0n7y5/flutter-zed) | 1 | Flutter development support for ZED IDE |
-| [Y-ASLant/Flow-Icons-Zed](https://github.com/Y-ASLant/Flow-Icons-Zed) | 0 | Base on https://flow-icons.pages.dev/ |
 
 ## Top starred (under 500)
 
@@ -120,31 +120,32 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [nobottomline/logos-zed](https://github.com/nobottomline/logos-zed) | 0 | 2026-06-13 | Syntax highlighting for Theos Logos files in Zed |
+| [unlight/zed-boolean-toggle](https://github.com/unlight/zed-boolean-toggle) | 0 | 2026-06-13 | A Zed editor extension that toggles boolean values (true/fal... |
+| [MahoCommerce/zed](https://github.com/MahoCommerce/zed) | 1 | 2026-06-13 | Maho extension for Zed. |
+| [htahaozlu/context-bar](https://github.com/htahaozlu/context-bar) | 13 | 2026-06-13 | Usage and cost visibility for Claude Code and Codex — native... |
+| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 126 | 2026-06-13 | The Ruby language support for Zed editor |
+| [weirdo-adam/zed-mcp-server-redmine](https://github.com/weirdo-adam/zed-mcp-server-redmine) | 0 | 2026-06-13 | Zed extension and standalone MCP server for Redmine, exposin... |
 | [DROOdotFOO/aztec-noir](https://github.com/DROOdotFOO/aztec-noir) | 1 | 2026-06-13 | Noir language support for Zed |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 85 | 2026-06-13 | True Dark Theme for Zed IDE |
-| [MahoCommerce/zed](https://github.com/MahoCommerce/zed) | 1 | 2026-06-12 | Maho extension for Zed. |
-| [unlight/zed-boolean-toggle](https://github.com/unlight/zed-boolean-toggle) | 0 | 2026-06-12 | A Zed editor extension that toggles boolean values (true/fal... |
 | [mishamyrt/zed-opentype-feature](https://github.com/mishamyrt/zed-opentype-feature) | 0 | 2026-06-12 | 🔠 OpenType™ Feature language support for Zed |
 | [Sha1rholder/polycarbonate-dark-theme](https://github.com/Sha1rholder/polycarbonate-dark-theme) | 0 | 2026-06-12 | Turn Zed into a clean slab of dark glass. |
 | [Arthurmtro/zed-package-json-upgrade](https://github.com/Arthurmtro/zed-package-json-upgrade) | 0 | 2026-06-12 | Inline npm dependency update hints for package.json in Zed |
-| [htahaozlu/context-bar](https://github.com/htahaozlu/context-bar) | 13 | 2026-06-11 | Usage and cost visibility for Claude Code and Codex — native... |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-06-11 | A Zed extension that allows to highlight all occurrences of ... |
 | [exkungen/outrun-vscode-zed](https://github.com/exkungen/outrun-vscode-zed) | 0 | 2026-06-11 | Outrun VS Code theme ported to Zed (Night + Electric) |
-| [nobottomline/logos-zed](https://github.com/nobottomline/logos-zed) | 0 | 2026-06-11 | Syntax highlighting for Theos Logos files in Zed |
 | [HarshNarayanJha/zed-symbols-icons](https://github.com/HarshNarayanJha/zed-symbols-icons) | 2 | 2026-06-11 | A simple file icon theme for Zed. |
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 175 | 2026-06-10 | Typst extension for zed |
-| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 126 | 2026-06-10 | The Ruby language support for Zed editor |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 142 | 2026-06-10 | A port of the Neovim theme to Zed editor |
 | [almeladev/geode-zed](https://github.com/almeladev/geode-zed) | 1 | 2026-06-09 | 💎 A gem-toned theme for Zed. Color only where it carries me... |
 | [GGORG0/zed-pioasm-syntax](https://github.com/GGORG0/zed-pioasm-syntax) | 1 | 2026-06-09 | Raspberry Pi's PIO assembly language syntax for the Zed edit... |
 | [M0n7y5/flutter-zed](https://github.com/M0n7y5/flutter-zed) | 1 | 2026-06-09 | Flutter development support for ZED IDE |
 | [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 133 | 2026-06-09 |  |
-| [Y-ASLant/Flow-Icons-Zed](https://github.com/Y-ASLant/Flow-Icons-Zed) | 0 | 2026-06-09 | Base on https://flow-icons.pages.dev/ |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-13T12:36 | 2 | 464 | 1833 |
 | 2026-06-13T07:18 | 0 | 464 | 1831 |
 | 2026-06-13T00:45 | 1 | 464 | 1831 |
 | 2026-06-12T18:39 | 1 | 463 | 1830 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-11T18:59 | 0 | 463 | 1823 |
 | 2026-06-11T13:17 | 1 | 463 | 1823 |
 | 2026-06-11T07:40 | 2 | 462 | 1822 |
-| 2026-06-11T00:43 | 9 | 463 | 1820 |
 
 ---
 
