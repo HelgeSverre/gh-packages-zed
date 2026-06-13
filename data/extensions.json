@@ -538,7 +538,7 @@
     "updated_at": "2026-05-15T18:23:45Z",
     "pushed_at": "2026-05-15T18:23:41Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
-    "official": false,
+    "official": true,
     "extension": {
       "id": "mjml",
       "name": "MJML",
@@ -1030,7 +1030,7 @@
     "name": "Gurvirr/zed-ultraViolet",
     "url": "https://github.com/Gurvirr/zed-ultraViolet",
     "description": "A dark, violet-toned theme designed for quality & visual comfort ◡̈",
-    "stars": 115,
+    "stars": 114,
     "forks": 1,
     "topics": [
       "theme",
@@ -1041,7 +1041,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-03-27T21:17:19Z",
-    "updated_at": "2026-05-29T03:43:05Z",
+    "updated_at": "2026-06-12T23:12:02Z",
     "pushed_at": "2026-05-08T15:27:24Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -2556,8 +2556,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-04-04T17:17:24Z",
-    "updated_at": "2026-06-12T10:13:34Z",
-    "pushed_at": "2026-06-12T10:13:33Z",
+    "updated_at": "2026-06-12T22:12:16Z",
+    "pushed_at": "2026-06-12T22:12:12Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -52294,6 +52294,37 @@
       ],
       "categories": [
         "language-server"
+      ]
+    }
+  },
+  "smit4k/zed-shale": {
+    "name": "smit4k/zed-shale",
+    "url": "https://github.com/smit4k/zed-shale",
+    "description": "A Zed port of the shale colorscheme",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-05-13T02:54:52Z",
+    "updated_at": "2026-05-22T05:18:06Z",
+    "pushed_at": "2026-05-22T05:18:02Z",
+    "discovered_at": "2026-06-13T00:45:10.923Z",
+    "official": true,
+    "extension": {
+      "id": "shale-theme",
+      "name": "Shale Theme",
+      "description": "Shale theme for Zed",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Smit Patil <smit@smit.codes>"
+      ],
+      "repository": "https://github.com/smit4k/zed-shale",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
       ]
     }
   }

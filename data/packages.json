@@ -52,8 +52,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-04-17T01:34:39Z",
-    "updated_at": "2026-06-12T17:32:55Z",
-    "pushed_at": "2026-06-12T17:32:51Z",
+    "updated_at": "2026-06-13T00:08:37Z",
+    "pushed_at": "2026-06-13T00:08:33Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -445,7 +445,7 @@
     "updated_at": "2026-05-15T18:23:45Z",
     "pushed_at": "2026-05-15T18:23:41Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
-    "official": false
+    "official": true
   },
   "frixuu/zed-haxe": {
     "name": "Frixuu/Zed-Haxe",
@@ -742,7 +742,7 @@
     "name": "Gurvirr/zed-ultraViolet",
     "url": "https://github.com/Gurvirr/zed-ultraViolet",
     "description": "A dark, violet-toned theme designed for quality & visual comfort ◡̈",
-    "stars": 115,
+    "stars": 114,
     "forks": 1,
     "topics": [
       "theme",
@@ -753,7 +753,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-03-27T21:17:19Z",
-    "updated_at": "2026-05-29T03:43:05Z",
+    "updated_at": "2026-06-12T23:12:02Z",
     "pushed_at": "2026-05-08T15:27:24Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -1704,8 +1704,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-04-04T17:17:24Z",
-    "updated_at": "2026-06-12T10:13:34Z",
-    "pushed_at": "2026-06-12T10:13:33Z",
+    "updated_at": "2026-06-12T22:12:16Z",
+    "pushed_at": "2026-06-12T22:12:12Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -5319,7 +5319,7 @@
     "url": "https://github.com/arindampradhan/excalidraw-zed-extension",
     "description": "Excalidraw Preview for Zed, please zed support webview natively 🙏",
     "stars": 8,
-    "forks": 0,
+    "forks": 1,
     "topics": [
       "excalidraw",
       "zed",
@@ -6409,8 +6409,8 @@
     "language": "Lua",
     "license": "GPL-3.0",
     "created_at": "2021-07-29T01:24:02Z",
-    "updated_at": "2026-06-12T16:34:26Z",
-    "pushed_at": "2026-06-12T16:34:21Z",
+    "updated_at": "2026-06-12T23:18:40Z",
+    "pushed_at": "2026-06-12T23:17:50Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
   },
@@ -6540,8 +6540,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-03-13T20:17:28Z",
-    "updated_at": "2026-06-02T00:29:28Z",
-    "pushed_at": "2026-05-26T18:16:20Z",
+    "updated_at": "2026-06-12T23:35:54Z",
+    "pushed_at": "2026-06-12T23:35:49Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": true
   },
@@ -15758,7 +15758,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
     "updated_at": "2026-06-12T05:13:53Z",
-    "pushed_at": "2026-06-12T05:13:49Z",
+    "pushed_at": "2026-06-12T19:44:14Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -18316,8 +18316,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-06-12T13:09:23Z",
-    "pushed_at": "2026-06-12T13:09:19Z",
+    "updated_at": "2026-06-12T18:41:12Z",
+    "pushed_at": "2026-06-12T18:40:22Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -30340,8 +30340,8 @@
     "language": "Rust",
     "license": null,
     "created_at": "2026-06-09T22:36:14Z",
-    "updated_at": "2026-06-12T14:25:25Z",
-    "pushed_at": "2026-06-12T14:23:48Z",
+    "updated_at": "2026-06-12T22:29:16Z",
+    "pushed_at": "2026-06-12T22:29:11Z",
     "discovered_at": "2026-06-10T00:43:30.823Z",
     "official": false
   },
@@ -30672,5 +30672,20 @@
     "pushed_at": "2026-06-12T18:07:55Z",
     "discovered_at": "2026-06-12T18:39:54.319Z",
     "official": false
+  },
+  "smit4k/zed-shale": {
+    "name": "smit4k/zed-shale",
+    "url": "https://github.com/smit4k/zed-shale",
+    "description": "A Zed port of the shale colorscheme",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-05-13T02:54:52Z",
+    "updated_at": "2026-05-22T05:18:06Z",
+    "pushed_at": "2026-05-22T05:18:02Z",
+    "discovered_at": "2026-06-13T00:45:10.923Z",
+    "official": true
   }
 }
