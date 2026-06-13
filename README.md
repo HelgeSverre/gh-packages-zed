@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1536** |
 | In official registry | 1104 |
 | Discovered via topics | 432 |
-| Last updated | 2026-06-13 12:36 UTC |
+| Last updated | 2026-06-13 18:29 UTC |
 
 ### By capability
 
@@ -70,7 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
-| [weirdo-adam/zed-mcp-server-redmine](https://github.com/weirdo-adam/zed-mcp-server-redmine) | 0 | Zed extension and standalone MCP server for Redmine, exposing issues, projects, ... |
+| [weirdo-adam/zed-mcp-server-redmine](https://github.com/weirdo-adam/zed-mcp-server-redmine) | 1 | Zed extension and standalone MCP server for Redmine, exposing issues, projects, ... |
 | [smit4k/zed-shale](https://github.com/smit4k/zed-shale) | 0 | A Zed port of the shale colorscheme |
 | [unlight/zed-boolean-toggle](https://github.com/unlight/zed-boolean-toggle) | 0 | A Zed editor extension that toggles boolean values (true/false, yes/no, on/off, ... |
 | [louiss0/zed-ebnf](https://github.com/louiss0/zed-ebnf) | 0 |  |
@@ -112,7 +112,7 @@ cd website && npm install && npm run dev
 | [slymax/zedokai](https://github.com/slymax/zedokai) | 145 | a theme for Zed based on the Monokai Pro color scheme |
 | [nathansbradshaw/zed-angular](https://github.com/nathansbradshaw/zed-angular) | 144 |  |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 142 | A port of the Neovim theme to Zed editor |
-| [zed-extensions/swift](https://github.com/zed-extensions/swift) | 140 | Extension for Zed to support Swift |
+| [zed-extensions/swift](https://github.com/zed-extensions/swift) | 141 | Extension for Zed to support Swift |
 | [zed-extensions/csharp](https://github.com/zed-extensions/csharp) | 139 | C# support |
 | [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 133 |  |
 
@@ -120,12 +120,12 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [nobottomline/logos-zed](https://github.com/nobottomline/logos-zed) | 0 | 2026-06-13 | Syntax highlighting for Theos Logos files in Zed |
 | [unlight/zed-boolean-toggle](https://github.com/unlight/zed-boolean-toggle) | 0 | 2026-06-13 | A Zed editor extension that toggles boolean values (true/fal... |
-| [MahoCommerce/zed](https://github.com/MahoCommerce/zed) | 1 | 2026-06-13 | Maho extension for Zed. |
 | [htahaozlu/context-bar](https://github.com/htahaozlu/context-bar) | 13 | 2026-06-13 | Usage and cost visibility for Claude Code and Codex — native... |
+| [weirdo-adam/zed-mcp-server-redmine](https://github.com/weirdo-adam/zed-mcp-server-redmine) | 1 | 2026-06-13 | Zed extension and standalone MCP server for Redmine, exposin... |
+| [nobottomline/logos-zed](https://github.com/nobottomline/logos-zed) | 0 | 2026-06-13 | Syntax highlighting for Theos Logos files in Zed |
+| [MahoCommerce/zed](https://github.com/MahoCommerce/zed) | 1 | 2026-06-13 | Maho extension for Zed. |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 126 | 2026-06-13 | The Ruby language support for Zed editor |
-| [weirdo-adam/zed-mcp-server-redmine](https://github.com/weirdo-adam/zed-mcp-server-redmine) | 0 | 2026-06-13 | Zed extension and standalone MCP server for Redmine, exposin... |
 | [DROOdotFOO/aztec-noir](https://github.com/DROOdotFOO/aztec-noir) | 1 | 2026-06-13 | Noir language support for Zed |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 85 | 2026-06-13 | True Dark Theme for Zed IDE |
 | [mishamyrt/zed-opentype-feature](https://github.com/mishamyrt/zed-opentype-feature) | 0 | 2026-06-12 | 🔠 OpenType™ Feature language support for Zed |
@@ -133,7 +133,7 @@ cd website && npm install && npm run dev
 | [Arthurmtro/zed-package-json-upgrade](https://github.com/Arthurmtro/zed-package-json-upgrade) | 0 | 2026-06-12 | Inline npm dependency update hints for package.json in Zed |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-06-11 | A Zed extension that allows to highlight all occurrences of ... |
 | [exkungen/outrun-vscode-zed](https://github.com/exkungen/outrun-vscode-zed) | 0 | 2026-06-11 | Outrun VS Code theme ported to Zed (Night + Electric) |
-| [HarshNarayanJha/zed-symbols-icons](https://github.com/HarshNarayanJha/zed-symbols-icons) | 2 | 2026-06-11 | A simple file icon theme for Zed. |
+| [HarshNarayanJha/zed-symbols-icons](https://github.com/HarshNarayanJha/zed-symbols-icons) | 3 | 2026-06-11 | A simple file icon theme for Zed. |
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 175 | 2026-06-10 | Typst extension for zed |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 142 | 2026-06-10 | A port of the Neovim theme to Zed editor |
 | [almeladev/geode-zed](https://github.com/almeladev/geode-zed) | 1 | 2026-06-09 | 💎 A gem-toned theme for Zed. Color only where it carries me... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-13T18:29 | 0 | 466 | 1833 |
 | 2026-06-13T12:36 | 2 | 464 | 1833 |
 | 2026-06-13T07:18 | 0 | 464 | 1831 |
 | 2026-06-13T00:45 | 1 | 464 | 1831 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-12T00:45 | 0 | 463 | 1823 |
 | 2026-06-11T18:59 | 0 | 463 | 1823 |
 | 2026-06-11T13:17 | 1 | 463 | 1823 |
-| 2026-06-11T07:40 | 2 | 462 | 1822 |
 
 ---
 
