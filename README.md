@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1536** |
 | In official registry | 1104 |
 | Discovered via topics | 432 |
-| Last updated | 2026-06-14 07:35 UTC |
+| Last updated | 2026-06-14 12:39 UTC |
 
 ### By capability
 
@@ -97,7 +97,7 @@ cd website && npm install && npm run dev
 |---|---|---|
 | [biomejs/biome-zed](https://github.com/biomejs/biome-zed) | 466 | Biome extension for Zed |
 | [xhyrom/zed-discord-presence](https://github.com/xhyrom/zed-discord-presence) | 415 | extension for zed that adds support for discord rich presence using lsp |
-| [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 326 | Catppuccin Theme but as blurred variants + custom ones |
+| [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 327 | Catppuccin Theme but as blurred variants + custom ones |
 | [oxc-project/oxc-zed](https://github.com/oxc-project/oxc-zed) | 256 | Oxc extension for Zed |
 | [catppuccin/zed-icons](https://github.com/catppuccin/zed-icons) | 240 | 🦊 Soothing pastel icons for Zed |
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-14T12:39 | 0 | 466 | 1833 |
 | 2026-06-14T07:35 | 0 | 466 | 1833 |
 | 2026-06-14T00:43 | 0 | 466 | 1833 |
 | 2026-06-13T18:29 | 0 | 466 | 1833 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-12T18:39 | 1 | 463 | 1830 |
 | 2026-06-12T13:08 | 6 | 463 | 1829 |
 | 2026-06-12T07:37 | 0 | 463 | 1823 |
-| 2026-06-12T00:45 | 0 | 463 | 1823 |
 
 ---
 
