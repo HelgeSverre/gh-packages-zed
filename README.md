@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1536** |
 | In official registry | 1104 |
 | Discovered via topics | 432 |
-| Last updated | 2026-06-14 12:39 UTC |
+| Last updated | 2026-06-14 18:29 UTC |
 
 ### By capability
 
@@ -120,6 +120,8 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Adriusops/Buisson](https://github.com/Adriusops/Buisson) | 3 | 2026-06-14 | An inky botanical color scheme |
+| [mage-os-lab/zed-magento2-snippets](https://github.com/mage-os-lab/zed-magento2-snippets) | 5 | 2026-06-14 | Magento 2 and Hyvä snippets for the Zed editor. |
 | [weirdo-adam/zed-mcp-server-redmine](https://github.com/weirdo-adam/zed-mcp-server-redmine) | 1 | 2026-06-14 | Zed extension and standalone MCP server for Redmine, exposin... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 85 | 2026-06-14 | True Dark Theme for Zed IDE |
 | [htahaozlu/context-bar](https://github.com/htahaozlu/context-bar) | 13 | 2026-06-13 | Usage and cost visibility for Claude Code and Codex — native... |
@@ -138,13 +140,12 @@ cd website && npm install && npm run dev
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 143 | 2026-06-10 | 🦊 Zed editor theme ported from Neovim |
 | [almeladev/geode-zed](https://github.com/almeladev/geode-zed) | 1 | 2026-06-09 | 💎 A gem-toned theme for Zed. Color only where it carries me... |
 | [GGORG0/zed-pioasm-syntax](https://github.com/GGORG0/zed-pioasm-syntax) | 1 | 2026-06-09 | Raspberry Pi's PIO assembly language syntax for the Zed edit... |
-| [M0n7y5/flutter-zed](https://github.com/M0n7y5/flutter-zed) | 1 | 2026-06-09 | Flutter development support for ZED IDE |
-| [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 134 | 2026-06-09 |  |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-14T18:29 | 0 | 465 | 1832 |
 | 2026-06-14T12:39 | 0 | 466 | 1833 |
 | 2026-06-14T07:35 | 0 | 466 | 1833 |
 | 2026-06-14T00:43 | 0 | 466 | 1833 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-13T00:45 | 1 | 464 | 1831 |
 | 2026-06-12T18:39 | 1 | 463 | 1830 |
 | 2026-06-12T13:08 | 6 | 463 | 1829 |
-| 2026-06-12T07:37 | 0 | 463 | 1823 |
 
 ---
 
