@@ -52,8 +52,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-04-17T01:34:39Z",
-    "updated_at": "2026-06-13T18:09:18Z",
-    "pushed_at": "2026-06-13T18:09:14Z",
+    "updated_at": "2026-06-14T00:42:19Z",
+    "pushed_at": "2026-06-14T00:42:16Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -270,8 +270,8 @@
     "language": "Swift",
     "license": "NOASSERTION",
     "created_at": "2026-05-11T07:14:28Z",
-    "updated_at": "2026-06-13T18:08:28Z",
-    "pushed_at": "2026-06-13T18:08:24Z",
+    "updated_at": "2026-06-13T23:58:54Z",
+    "pushed_at": "2026-06-13T23:58:50Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -423,7 +423,7 @@
     "license": "MIT",
     "created_at": "2025-12-13T09:32:42Z",
     "updated_at": "2026-05-22T13:51:33Z",
-    "pushed_at": "2026-06-06T20:02:56Z",
+    "pushed_at": "2026-06-13T20:02:35Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -799,7 +799,7 @@
     "name": "BadRat-in/zed-lazyvim-theme",
     "url": "https://github.com/BadRat-in/zed-lazyvim-theme",
     "description": "A clean, elegant theme for Zed inspired by LazyVim and TokyoNight. This theme brings the beautiful aesthetics of LazyVim's default color scheme to the Zed editor.",
-    "stars": 0,
+    "stars": 1,
     "forks": 0,
     "topics": [
       "theme",
@@ -811,7 +811,7 @@
     "language": null,
     "license": "GPL-3.0",
     "created_at": "2025-10-19T09:08:13Z",
-    "updated_at": "2026-05-05T05:55:56Z",
+    "updated_at": "2026-06-13T21:03:49Z",
     "pushed_at": "2026-05-05T05:56:27Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -2404,8 +2404,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2025-10-11T01:42:31Z",
-    "updated_at": "2026-05-13T05:38:45Z",
-    "pushed_at": "2026-03-17T11:26:07Z",
+    "updated_at": "2026-06-13T18:46:55Z",
+    "pushed_at": "2026-06-13T18:46:51Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -5337,7 +5337,7 @@
     "name": "Dylanmurzello/zed-android-port",
     "url": "https://github.com/Dylanmurzello/zed-android-port",
     "description": "Native Android port of the Zed code editor,  gpui rendering through Vulkan, integrated Termux for LSPs and tooling, remote SSH support. Runs as an APK on tablets and Android desktop modes.",
-    "stars": 87,
+    "stars": 91,
     "forks": 6,
     "topics": [
       "android",
@@ -5364,7 +5364,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-05-07T00:12:10Z",
-    "updated_at": "2026-06-13T17:24:42Z",
+    "updated_at": "2026-06-13T23:39:44Z",
     "pushed_at": "2026-06-05T21:34:45Z",
     "discovered_at": "2026-05-19T19:54:12.053Z",
     "official": false
@@ -6409,8 +6409,8 @@
     "language": "Lua",
     "license": "GPL-3.0",
     "created_at": "2021-07-29T01:24:02Z",
-    "updated_at": "2026-06-13T17:13:26Z",
-    "pushed_at": "2026-06-13T17:13:22Z",
+    "updated_at": "2026-06-13T23:48:59Z",
+    "pushed_at": "2026-06-13T23:48:56Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
   },
@@ -6438,7 +6438,7 @@
   "cange/nightfox.zed": {
     "name": "cange/nightfox.zed",
     "url": "https://github.com/cange/nightfox.zed",
-    "description": "A port of the Neovim theme to Zed editor",
+    "description": "🦊 Zed editor theme ported from Neovim",
     "stars": 142,
     "forks": 5,
     "topics": [
@@ -6448,7 +6448,7 @@
     "language": "Lua",
     "license": "MIT",
     "created_at": "2024-05-02T20:49:30Z",
-    "updated_at": "2026-06-10T09:27:49Z",
+    "updated_at": "2026-06-13T21:48:57Z",
     "pushed_at": "2026-06-10T09:27:36Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": true
@@ -15730,7 +15730,7 @@
     "name": "agent-sh/agnix",
     "url": "https://github.com/agent-sh/agnix",
     "description": "The missing linter and lsp for AI coding assistants. Validate CLAUDE.md, AGENTS.md, SKILL.md, hooks, MCP. Plugin for all major IDEs included, with autofixes.",
-    "stars": 284,
+    "stars": 286,
     "forks": 28,
     "topics": [
       "agent",
@@ -15757,7 +15757,7 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
-    "updated_at": "2026-06-13T11:50:42Z",
+    "updated_at": "2026-06-14T00:21:18Z",
     "pushed_at": "2026-06-12T19:44:14Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
@@ -18316,8 +18316,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-06-13T12:36:53Z",
-    "pushed_at": "2026-06-13T12:36:49Z",
+    "updated_at": "2026-06-13T18:29:40Z",
+    "pushed_at": "2026-06-13T18:29:36Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -19553,13 +19553,13 @@
     "name": "zed-extensions/git_firefly",
     "url": "https://github.com/zed-extensions/git_firefly",
     "description": "",
-    "stars": 133,
+    "stars": 134,
     "forks": 5,
     "topics": [],
     "language": "Tree-sitter Query",
     "license": "Apache-2.0",
     "created_at": "2024-02-19T14:56:35Z",
-    "updated_at": "2026-06-12T06:05:52Z",
+    "updated_at": "2026-06-13T23:19:01Z",
     "pushed_at": "2026-06-09T10:59:06Z",
     "discovered_at": "2026-05-19T21:42:53.670Z",
     "official": false
