@@ -52,8 +52,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-04-17T01:34:39Z",
-    "updated_at": "2026-06-14T23:32:47Z",
-    "pushed_at": "2026-06-14T23:32:43Z",
+    "updated_at": "2026-06-15T05:57:16Z",
+    "pushed_at": "2026-06-15T05:57:12Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -156,8 +156,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-06-14T20:53:11Z",
-    "pushed_at": "2026-06-14T02:59:02Z",
+    "updated_at": "2026-06-15T02:59:15Z",
+    "pushed_at": "2026-06-15T02:59:12Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -184,7 +184,7 @@
     "name": "wakatime/zed-wakatime",
     "url": "https://github.com/wakatime/zed-wakatime",
     "description": "Zed plugin for automatic time tracking and metrics generated from your programming activity.",
-    "stars": 190,
+    "stars": 191,
     "forks": 29,
     "topics": [
       "extension",
@@ -196,7 +196,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2024-08-27T10:31:46Z",
-    "updated_at": "2026-06-09T00:13:33Z",
+    "updated_at": "2026-06-15T02:06:43Z",
     "pushed_at": "2026-06-05T10:49:56Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -6409,8 +6409,8 @@
     "language": "Lua",
     "license": "GPL-3.0",
     "created_at": "2021-07-29T01:24:02Z",
-    "updated_at": "2026-06-14T22:39:33Z",
-    "pushed_at": "2026-06-14T22:39:29Z",
+    "updated_at": "2026-06-15T05:04:24Z",
+    "pushed_at": "2026-06-15T05:04:21Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
   },
@@ -15479,7 +15479,7 @@
     "name": "darkvoid-theme/darkvoid.nvim",
     "url": "https://github.com/darkvoid-theme/darkvoid.nvim",
     "description": "Neovim Colorscheme for dark dwellers with optional glow effect!",
-    "stars": 226,
+    "stars": 225,
     "forks": 11,
     "topics": [
       "color-scheme",
@@ -15504,7 +15504,7 @@
     "language": "Lua",
     "license": "MIT",
     "created_at": "2024-07-30T06:26:25Z",
-    "updated_at": "2026-06-14T22:15:34Z",
+    "updated_at": "2026-06-15T01:45:30Z",
     "pushed_at": "2024-11-21T21:02:02Z",
     "discovered_at": "2026-05-19T20:52:12.309Z",
     "official": false
@@ -15946,8 +15946,8 @@
     "language": "TypeScript",
     "license": "MIT",
     "created_at": "2025-07-09T20:39:03Z",
-    "updated_at": "2026-06-11T14:13:42Z",
-    "pushed_at": "2026-06-11T14:11:48Z",
+    "updated_at": "2026-06-15T05:04:37Z",
+    "pushed_at": "2026-06-15T05:04:34Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -18286,8 +18286,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-06-14T18:30:28Z",
-    "pushed_at": "2026-06-14T18:30:24Z",
+    "updated_at": "2026-06-15T00:46:09Z",
+    "pushed_at": "2026-06-15T00:46:05Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -30737,9 +30737,29 @@
     "language": "TypeScript",
     "license": "MIT",
     "created_at": "2026-06-14T09:42:28Z",
-    "updated_at": "2026-06-14T21:00:52Z",
-    "pushed_at": "2026-06-14T21:12:36Z",
+    "updated_at": "2026-06-15T06:45:20Z",
+    "pushed_at": "2026-06-15T06:45:17Z",
     "discovered_at": "2026-06-15T00:45:35.625Z",
+    "official": false
+  },
+  "peterkyle01/neon-context-server": {
+    "name": "peterkyle01/neon-context-server",
+    "url": "https://github.com/peterkyle01/neon-context-server",
+    "description": "A community-maintained Zed editor context server for Neon serverless Postgres.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "apikey",
+      "mcp",
+      "neon",
+      "zed-extension"
+    ],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2026-06-14T12:43:26Z",
+    "updated_at": "2026-06-15T07:53:16Z",
+    "pushed_at": "2026-06-15T07:53:25Z",
+    "discovered_at": "2026-06-15T07:58:00.404Z",
     "official": false
   }
 }
