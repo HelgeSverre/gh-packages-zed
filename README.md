@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1536** |
 | In official registry | 1104 |
 | Discovered via topics | 432 |
-| Last updated | 2026-06-14 18:29 UTC |
+| Last updated | 2026-06-15 00:45 UTC |
 
 ### By capability
 
@@ -105,7 +105,7 @@ cd website && npm install && npm run dev
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 190 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
-| [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 177 | Zed support for the Godot game engine and the GDScript language |
+| [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 178 | Zed support for the Godot game engine and the GDScript language |
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 175 | Typst extension for zed |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 159 | A macOS native style theme for Zed, let it same like native app in macOS. |
 | [thedadams/zed-comment](https://github.com/thedadams/zed-comment) | 148 | A comment extension for the Zed editor |
@@ -123,7 +123,7 @@ cd website && npm install && npm run dev
 | [Adriusops/Buisson](https://github.com/Adriusops/Buisson) | 3 | 2026-06-14 | An inky botanical color scheme |
 | [mage-os-lab/zed-magento2-snippets](https://github.com/mage-os-lab/zed-magento2-snippets) | 5 | 2026-06-14 | Magento 2 and Hyvä snippets for the Zed editor. |
 | [weirdo-adam/zed-mcp-server-redmine](https://github.com/weirdo-adam/zed-mcp-server-redmine) | 1 | 2026-06-14 | Zed extension and standalone MCP server for Redmine, exposin... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 85 | 2026-06-14 | True Dark Theme for Zed IDE |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 86 | 2026-06-14 | True Dark Theme for Zed IDE |
 | [htahaozlu/context-bar](https://github.com/htahaozlu/context-bar) | 13 | 2026-06-13 | Usage and cost visibility for Claude Code and Codex — native... |
 | [unlight/zed-boolean-toggle](https://github.com/unlight/zed-boolean-toggle) | 0 | 2026-06-13 | A Zed editor extension that toggles boolean values (true/fal... |
 | [nobottomline/logos-zed](https://github.com/nobottomline/logos-zed) | 0 | 2026-06-13 | Syntax highlighting for Theos Logos files in Zed |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-15T00:45 | 1 | 465 | 1833 |
 | 2026-06-14T18:29 | 0 | 465 | 1832 |
 | 2026-06-14T12:39 | 0 | 466 | 1833 |
 | 2026-06-14T07:35 | 0 | 466 | 1833 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-13T07:18 | 0 | 464 | 1831 |
 | 2026-06-13T00:45 | 1 | 464 | 1831 |
 | 2026-06-12T18:39 | 1 | 463 | 1830 |
-| 2026-06-12T13:08 | 6 | 463 | 1829 |
 
 ---
 
