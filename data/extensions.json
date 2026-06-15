@@ -203,7 +203,7 @@
     "name": "wakatime/zed-wakatime",
     "url": "https://github.com/wakatime/zed-wakatime",
     "description": "Zed plugin for automatic time tracking and metrics generated from your programming activity.",
-    "stars": 191,
+    "stars": 192,
     "forks": 29,
     "topics": [
       "extension",
@@ -215,7 +215,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2024-08-27T10:31:46Z",
-    "updated_at": "2026-06-15T02:06:43Z",
+    "updated_at": "2026-06-15T09:34:19Z",
     "pushed_at": "2026-06-05T10:49:56Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -2624,7 +2624,7 @@
     "name": "isunjn/hami-melon-zed",
     "url": "https://github.com/isunjn/hami-melon-zed",
     "description": "🍈 Organic green and orange flavored code editor theme",
-    "stars": 10,
+    "stars": 11,
     "forks": 0,
     "topics": [
       "editor-theme",
@@ -2636,7 +2636,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-10-28T15:13:58Z",
-    "updated_at": "2026-05-05T21:39:37Z",
+    "updated_at": "2026-06-15T08:06:08Z",
     "pushed_at": "2026-04-06T15:15:45Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -8809,8 +8809,8 @@
     "language": "Lua",
     "license": "MIT",
     "created_at": "2024-05-02T20:49:30Z",
-    "updated_at": "2026-06-14T03:30:33Z",
-    "pushed_at": "2026-06-10T09:27:36Z",
+    "updated_at": "2026-06-15T12:35:27Z",
+    "pushed_at": "2026-06-15T12:37:49Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": true,
     "extension": {
@@ -38502,8 +38502,8 @@
     "language": "Tree-sitter Query",
     "license": "Apache-2.0",
     "created_at": "2024-05-12T11:54:32Z",
-    "updated_at": "2026-06-14T01:09:52Z",
-    "pushed_at": "2026-06-07T22:08:19Z",
+    "updated_at": "2026-06-15T13:03:43Z",
+    "pushed_at": "2026-06-15T13:04:15Z",
     "discovered_at": "2026-05-20T00:39:45.722Z",
     "official": false,
     "extension": {
@@ -52392,8 +52392,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-06-14T12:43:26Z",
-    "updated_at": "2026-06-15T07:53:16Z",
-    "pushed_at": "2026-06-15T07:53:25Z",
+    "updated_at": "2026-06-15T08:48:12Z",
+    "pushed_at": "2026-06-15T08:48:08Z",
     "discovered_at": "2026-06-15T07:58:00.404Z",
     "official": false,
     "extension": {
@@ -52412,6 +52412,103 @@
       ],
       "categories": [
         "context-server"
+      ]
+    }
+  },
+  "gersondantas/haven-theme": {
+    "name": "GersonDantas/Haven-Theme",
+    "url": "https://github.com/GersonDantas/Haven-Theme",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-05-14T17:54:18Z",
+    "updated_at": "2026-06-13T16:27:52Z",
+    "pushed_at": "2026-06-13T16:27:49Z",
+    "discovered_at": "2026-06-15T14:07:17.167Z",
+    "official": true,
+    "extension": {
+      "id": "haven-theme",
+      "name": "Haven",
+      "description": "A comfort-focused theme collection for Zed inspired by Dracula.",
+      "version": "0.6.0",
+      "schema_version": 1,
+      "authors": [
+        "Gerson Dantas"
+      ],
+      "repository": "https://github.com/GersonDantas/Haven-Theme",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "lmarkmann/patina-theme": {
+    "name": "lmarkmann/patina-theme",
+    "url": "https://github.com/lmarkmann/patina-theme",
+    "description": "A warm, muted color theme. Teal oxidation and amber warmth.",
+    "stars": 1,
+    "forks": 0,
+    "topics": [],
+    "language": "Python",
+    "license": "MIT",
+    "created_at": "2026-02-09T15:05:15Z",
+    "updated_at": "2026-06-13T20:32:23Z",
+    "pushed_at": "2026-06-13T20:32:20Z",
+    "discovered_at": "2026-06-15T14:07:17.167Z",
+    "official": true,
+    "extension": {
+      "id": "patina-theme",
+      "name": "Patina",
+      "description": "Warm, muted theme with earthy tones. Teal oxidation and amber warmth. Includes Dark, Dark Soft, Moss, Light, Lichen, and Stellar variants.",
+      "version": "1.3.1",
+      "schema_version": 1,
+      "authors": [
+        "Luis Markmann"
+      ],
+      "repository": "https://github.com/lmarkmann/patina-theme",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "begprod/quantum-zed": {
+    "name": "begprod/quantum-zed",
+    "url": "https://github.com/begprod/quantum-zed",
+    "description": "A dark theme for Zed inspired by the space",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "zed",
+      "zed-extension",
+      "zed-theme"
+    ],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-06-12T17:44:57Z",
+    "updated_at": "2026-06-15T10:26:48Z",
+    "pushed_at": "2026-06-15T10:26:47Z",
+    "discovered_at": "2026-06-15T14:07:17.167Z",
+    "official": false,
+    "extension": {
+      "id": "quantum-theme",
+      "name": "Quantum",
+      "description": "A dark theme for inspired by the space, calm colors for focused work.",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "authors": [
+        "Andrej Aratov"
+      ],
+      "repository": "https://github.com/",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
       ]
     }
   }
