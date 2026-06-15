@@ -535,8 +535,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-03-07T09:03:07Z",
-    "updated_at": "2026-05-15T18:23:45Z",
-    "pushed_at": "2026-05-15T18:23:41Z",
+    "updated_at": "2026-06-15T17:08:09Z",
+    "pushed_at": "2026-06-15T17:07:22Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -3446,7 +3446,7 @@
     "url": "https://github.com/zarifpour/zed-solidity",
     "description": "💠 Solidity language support for Zed.",
     "stars": 71,
-    "forks": 11,
+    "forks": 12,
     "topics": [
       "blockchain",
       "ethereum",
@@ -4996,7 +4996,7 @@
     "name": "huacnlee/zed-theme-macos-classic",
     "url": "https://github.com/huacnlee/zed-theme-macos-classic",
     "description": "A macOS native style theme for Zed, let it same like native app in macOS.",
-    "stars": 159,
+    "stars": 160,
     "forks": 5,
     "topics": [
       "macos-classic",
@@ -5007,7 +5007,7 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2024-01-29T02:19:59Z",
-    "updated_at": "2026-06-12T06:25:25Z",
+    "updated_at": "2026-06-15T17:17:05Z",
     "pushed_at": "2026-02-05T02:23:27Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -8800,7 +8800,7 @@
     "name": "cange/nightfox.zed",
     "url": "https://github.com/cange/nightfox.zed",
     "description": "🦊 Zed editor theme ported from Neovim",
-    "stars": 143,
+    "stars": 144,
     "forks": 5,
     "topics": [
       "zed",
@@ -8809,8 +8809,8 @@
     "language": "Lua",
     "license": "MIT",
     "created_at": "2024-05-02T20:49:30Z",
-    "updated_at": "2026-06-15T12:35:27Z",
-    "pushed_at": "2026-06-15T12:37:49Z",
+    "updated_at": "2026-06-15T16:28:24Z",
+    "pushed_at": "2026-06-15T16:15:40Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": true,
     "extension": {
@@ -12384,7 +12384,7 @@
     "updated_at": "2026-06-03T23:10:56Z",
     "pushed_at": "2026-05-31T13:11:03Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
-    "official": false,
+    "official": true,
     "extension": {
       "id": "ejentum-mcp",
       "name": "Ejentum",
@@ -50424,7 +50424,7 @@
     "updated_at": "2026-05-25T09:21:23Z",
     "pushed_at": "2026-05-22T22:39:48Z",
     "discovered_at": "2026-05-23T00:37:18.390Z",
-    "official": false,
+    "official": true,
     "extension": {
       "id": "mcp-server-zephex",
       "name": "Zephex MCP Server",
@@ -51513,8 +51513,8 @@
     "language": "Lua",
     "license": "MIT",
     "created_at": "2026-06-01T17:55:47Z",
-    "updated_at": "2026-06-14T13:10:30Z",
-    "pushed_at": "2026-06-14T13:10:26Z",
+    "updated_at": "2026-06-15T18:44:00Z",
+    "pushed_at": "2026-06-15T18:43:56Z",
     "discovered_at": "2026-06-06T12:27:44.534Z",
     "official": false,
     "extension": {
@@ -52392,8 +52392,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-06-14T12:43:26Z",
-    "updated_at": "2026-06-15T08:48:12Z",
-    "pushed_at": "2026-06-15T08:48:08Z",
+    "updated_at": "2026-06-15T15:58:49Z",
+    "pushed_at": "2026-06-15T15:57:42Z",
     "discovered_at": "2026-06-15T07:58:00.404Z",
     "official": false,
     "extension": {
@@ -52491,10 +52491,10 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-06-12T17:44:57Z",
-    "updated_at": "2026-06-15T10:26:48Z",
-    "pushed_at": "2026-06-15T10:26:47Z",
+    "updated_at": "2026-06-15T15:26:02Z",
+    "pushed_at": "2026-06-15T15:26:01Z",
     "discovered_at": "2026-06-15T14:07:17.167Z",
-    "official": false,
+    "official": true,
     "extension": {
       "id": "quantum-theme",
       "name": "Quantum",
@@ -52505,6 +52505,68 @@
         "Andrej Aratov"
       ],
       "repository": "https://github.com/",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "franzgollhammer/air-theme-zed": {
+    "name": "franzgollhammer/air-theme-zed",
+    "url": "https://github.com/franzgollhammer/air-theme-zed",
+    "description": "Zed port of JetBrains Air theme — calm dark + light + italic variants",
+    "stars": 1,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-05-21T12:23:26Z",
+    "updated_at": "2026-06-11T09:10:24Z",
+    "pushed_at": "2026-06-11T09:10:18Z",
+    "discovered_at": "2026-06-15T19:20:22.736Z",
+    "official": true,
+    "extension": {
+      "id": "air-theme",
+      "name": "Air Theme",
+      "description": "Zed port of JetBrains Air — calm dark + light theme. Lavender keywords, pink strings, amber numbers, green types. Includes italic variants.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Franz Gollhammer"
+      ],
+      "repository": "https://github.com/franzgollhammer/air-theme-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "yummacss/eclipsa-zed": {
+    "name": "yummacss/eclipsa-zed",
+    "url": "https://github.com/yummacss/eclipsa-zed",
+    "description": "A variant of the Ariake Dark theme.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-06-15T16:01:37Z",
+    "updated_at": "2026-06-15T17:01:58Z",
+    "pushed_at": "2026-06-15T17:01:44Z",
+    "discovered_at": "2026-06-15T19:20:22.736Z",
+    "official": true,
+    "extension": {
+      "id": "eclipsa-theme",
+      "name": "Eclipsa",
+      "description": "A variant of the Ariake Dark theme.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "rrenildopereiraa"
+      ],
+      "repository": "https://github.com/yummacss/eclipsa-zed",
       "snippets": null,
       "sections": [],
       "categories": [

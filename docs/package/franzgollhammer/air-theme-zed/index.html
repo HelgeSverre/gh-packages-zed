@@ -1,0 +1,232 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Air Theme - Zed Extension Safari</title><meta name="description" content="Zed port of JetBrains Air theme — calm dark + light + italic variants"><link rel="canonical" href="https://helgesverre.github.io/gh-packages-zed/package/franzgollhammer/air-theme-zed/"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Air Theme - Zed Extension Safari"><meta property="og:description" content="Zed port of JetBrains Air theme — calm dark + light + italic variants"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed/package/franzgollhammer/air-theme-zed/"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Air Theme - Zed Extension Safari"><meta name="twitter:description" content="Zed port of JetBrains Air theme — calm dark + light + italic variants"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/gh-packages-zed/_astro/ClientRouter.astro_astro_type_script_index_0_lang.ClVLs1kt.js"></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Air Theme","description":"Zed port of JetBrains Air theme — calm dark + light + italic variants","applicationCategory":"DeveloperApplication","operatingSystem":"macOS, Linux, Windows","url":"https://zed.dev/extensions/air-theme","codeRepository":"https://github.com/franzgollhammer/air-theme-zed","author":[{"@type":"Person","name":"Franz Gollhammer"}],"softwareVersion":"0.1.0","license":"MIT","keywords":"theme","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/Layout.CGDlMdWE.css"><script type="module" src="/gh-packages-zed/_astro/page.B8i1Zz-u.js"></script></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <a href="#main" class="skip-to-content">Skip to content</a> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" data-astro-transition-persist="astro-fhchcgd7-1"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <script type="application/json" id="pkg-extras">{"url":"https://github.com/franzgollhammer/air-theme-zed","language":null,"license":"MIT","topics":[],"extension":{"authors":["Franz Gollhammer"],"schema_version":1}}</script> <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> franzgollhammer/air-theme-zed </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> Air Theme </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> Zed port of JetBrains Air — calm dark + light theme. Lavender keywords, pink strings, amber numbers, green types. Includes italic variants. </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="theme">Theme</span> </div> </div> </div> </header> <main id="main" class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/air-theme" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/franzgollhammer/air-theme-zed" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.1.0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">air-theme</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">MIT</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">1</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">4d ago</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">Franz Gollhammer</dd> </div> </dl>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-air-theme-for-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#air-theme-for-zed"><span class="heading-anchor-icon">#</span></a>Air Theme for Zed</h1>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/franzgollhammer/air-theme-zed/HEAD/air-theme.png" width="128" alt="Air Theme Logo">
+</p>
+<p>Zed port of <a href="https://github.com/franzgollhammer/air-theme-vscode">JetBrains Air</a> — a calm theme family with lavender keywords, pink strings, amber numbers, and green types.</p>
+<h2 id="user-content-variants"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#variants"><span class="heading-anchor-icon">#</span></a>Variants</h2>
+<p>Four variants included:</p>
+<ul>
+<li><strong>Air Dark</strong> — Dark theme</li>
+<li><strong>Air Dark Italic</strong> — Dark with italic parameters/strings and bold functions</li>
+<li><strong>Air Light</strong> — Light theme</li>
+<li><strong>Air Light Italic</strong> — Light with italic parameters/strings and bold functions</li>
+</ul>
+<h3 id="user-content-air-dark"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#air-dark"><span class="heading-anchor-icon">#</span></a>Air Dark</h3>
+<p><img src="https://raw.githubusercontent.com/franzgollhammer/air-theme-zed/HEAD/preview-dark.png" alt="Air Dark"></p>
+<h3 id="user-content-air-dark-italic"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#air-dark-italic"><span class="heading-anchor-icon">#</span></a>Air Dark Italic</h3>
+<p><img src="https://raw.githubusercontent.com/franzgollhammer/air-theme-zed/HEAD/preview-air-theme-dark-italic.png" alt="Air Dark Italic"></p>
+<h3 id="user-content-air-light"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#air-light"><span class="heading-anchor-icon">#</span></a>Air Light</h3>
+<p><img src="https://raw.githubusercontent.com/franzgollhammer/air-theme-zed/HEAD/preview-light.png" alt="Air Light"></p>
+<h3 id="user-content-air-light-italic"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#air-light-italic"><span class="heading-anchor-icon">#</span></a>Air Light Italic</h3>
+<p><img src="https://raw.githubusercontent.com/franzgollhammer/air-theme-zed/HEAD/preview-air-theme-light-italic.png" alt="Air Light Italic"></p>
+<h3 id="user-content-italic-styles"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#italic-styles"><span class="heading-anchor-icon">#</span></a>Italic styles</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Token</th><th>Style</th></tr></thead><tbody><tr><td><code>function</code>, <code>function.method</code>, <code>function.builtin</code></td><td><strong>bold</strong></td></tr><tr><td><code>variable.parameter</code></td><td><em>italic</em></td></tr><tr><td><code>string</code>, <code>string.escape</code>, <code>string.regex</code></td><td><em>italic</em></td></tr><tr><td><code>comment</code></td><td><em>italic</em> (all variants)</td></tr></tbody></table>
+<h2 id="user-content-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation"><span class="heading-anchor-icon">#</span></a>Installation</h2>
+<h3 id="user-content-from-the-extensions-tab"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#from-the-extensions-tab"><span class="heading-anchor-icon">#</span></a>From the Extensions tab</h3>
+<ol>
+<li><code>cmd+shift+x</code> → open Extensions</li>
+<li>Search for "Air Theme"</li>
+<li>Click Install</li>
+<li><code>cmd+k cmd+t</code> → pick a variant</li>
+</ol>
+<h3 id="user-content-manually-dev-extension"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#manually-dev-extension"><span class="heading-anchor-icon">#</span></a>Manually (dev extension)</h3>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">git</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> clone</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> https://github.com/franzgollhammer/air-theme-zed</span></span></code></pre>
+<ol>
+<li>Open Zed</li>
+<li><code>cmd+shift+p</code> → <code>zed: install dev extension</code></li>
+<li>Select the cloned folder</li>
+<li><code>cmd+k cmd+t</code> → pick a variant</li>
+</ol>
+<h2 id="user-content-terminal-themes"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#terminal-themes"><span class="heading-anchor-icon">#</span></a>Terminal themes</h2>
+<p>Matching terminal themes in <code>terminal-themes/</code>:</p>
+<ul>
+<li><strong>Ghostty</strong> — <code>terminal-themes/ghostty/air-dark</code>, <code>air-light</code></li>
+<li><strong>iTerm2</strong> — <code>terminal-themes/iterm2/air-dark.itermcolors</code>, <code>air-light.itermcolors</code></li>
+<li><strong>Warp</strong> — <code>terminal-themes/warp/air-dark.yaml</code>, <code>air-light.yaml</code></li>
+</ul>
+<h2 id="user-content-color-palette"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#color-palette"><span class="heading-anchor-icon">#</span></a>Color palette</h2>
+<h3 id="user-content-dark"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#dark"><span class="heading-anchor-icon">#</span></a>Dark</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Role</th><th>Hex</th></tr></thead><tbody><tr><td>Background</td><td><code>#18191B</code></td></tr><tr><td>Foreground</td><td><code>#dddddd</code></td></tr><tr><td>Comment</td><td><code>#909192</code></td></tr><tr><td>String</td><td><code>#E394DC</code></td></tr><tr><td>Keyword</td><td><code>#82D2CE</code></td></tr><tr><td>Function</td><td><code>#F8C762</code></td></tr><tr><td>Type</td><td><code>#EFB080</code></td></tr><tr><td>Variable</td><td><code>#AAA0FA</code></td></tr><tr><td>Parameter</td><td><code>#A8CC7C</code></td></tr><tr><td>Number</td><td><code>#EBC88D</code></td></tr><tr><td>Tag</td><td><code>#87C3FF</code></td></tr></tbody></table>
+<h3 id="user-content-light"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#light"><span class="heading-anchor-icon">#</span></a>Light</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Role</th><th>Hex</th></tr></thead><tbody><tr><td>Background</td><td><code>#FBFBFC</code></td></tr><tr><td>Foreground</td><td><code>#1F2024</code></td></tr><tr><td>Comment</td><td><code>#8C8C8C</code></td></tr><tr><td>String</td><td><code>#B03A88</code></td></tr><tr><td>Keyword</td><td><code>#1F7F78</code></td></tr><tr><td>Function</td><td><code>#8D6B1F</code></td></tr><tr><td>Type</td><td><code>#A85A29</code></td></tr><tr><td>Variable</td><td><code>#5A4ECF</code></td></tr><tr><td>Parameter</td><td><code>#4E7A2A</code></td></tr><tr><td>Number</td><td><code>#8F6614</code></td></tr><tr><td>Tag</td><td><code>#1C5DB5</code></td></tr></tbody></table>
+<h2 id="user-content-matching-icons"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#matching-icons"><span class="heading-anchor-icon">#</span></a>Matching icons</h2>
+<p>Pair this theme with <a href="https://github.com/franzgollhammer/air-icons-zed">Air Icons for Zed</a> — JetBrains Air-inspired file icons designed to match this color palette.</p>
+<h2 id="user-content-related-projects"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#related-projects"><span class="heading-anchor-icon">#</span></a>Related projects</h2>
+<ul>
+<li><a href="https://github.com/franzgollhammer/air-icons-zed">Air Icons for Zed</a></li>
+<li><a href="https://github.com/franzgollhammer/air-theme-vscode">Air Theme for VSCode</a></li>
+<li><a href="https://www.jetbrains.com/help/idea/working-with-themes.html">JetBrains Air (original)</a></li>
+</ul>
+<h2 id="user-content-publishing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#publishing"><span class="heading-anchor-icon">#</span></a>Publishing</h2>
+<p>See the <a href="https://zed.dev/docs/extensions/themes">Zed Extensions docs</a>.</p>
+<p>PR against <a href="https://github.com/zed-industries/extensions">zed-industries/extensions</a>:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">git</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> submodule</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> add</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> https://github.com/franzgollhammer/air-theme-zed</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> extensions/air-theme</span></span></code></pre>
+<p>Add to <code>extensions.toml</code>:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">[</span><span style="color:#6F42C1;--shiki-dark:#B392F0">air-theme</span><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">submodule = </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"extensions/air-theme"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">version = </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"0.1.0"</span></span></code></pre>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>MIT</p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>
