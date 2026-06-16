@@ -1,0 +1,9 @@
+id = "blueprint-dark-theme"
+name = "Blueprint Dark Theme"
+version = "0.1.0"
+schema_version = 1
+authors = ["Storm Maxwell"]
+description = "Blueprint Dark Theme"
+repository = "https://github.com/SM2507/blueprint-dark-theme.git"
+
+themes = ["themes/blueprint-dark-theme.json"]
