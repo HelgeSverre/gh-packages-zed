@@ -58,8 +58,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-05-03T17:39:17Z",
-    "updated_at": "2026-06-11T10:35:36Z",
-    "pushed_at": "2026-06-11T10:35:32Z",
+    "updated_at": "2026-06-16T06:46:12Z",
+    "pushed_at": "2026-06-16T06:46:08Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false,
     "extension": {
@@ -141,8 +141,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-06-15T02:59:15Z",
-    "pushed_at": "2026-06-15T02:59:12Z",
+    "updated_at": "2026-06-16T02:59:22Z",
+    "pushed_at": "2026-06-16T02:59:06Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -243,7 +243,7 @@
     "name": "zed-extensions/ruby",
     "url": "https://github.com/zed-extensions/ruby",
     "description": "The Ruby language support for Zed editor",
-    "stars": 126,
+    "stars": 127,
     "forks": 31,
     "topics": [
       "ruby",
@@ -253,7 +253,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2024-10-11T18:22:02Z",
-    "updated_at": "2026-06-13T09:18:06Z",
+    "updated_at": "2026-06-16T06:46:08Z",
     "pushed_at": "2026-06-13T09:18:48Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -8937,7 +8937,7 @@
     "name": "Sha1rholder/polycarbonate-dark-theme",
     "url": "https://github.com/Sha1rholder/polycarbonate-dark-theme",
     "description": "Turn Zed into a clean slab of dark glass.",
-    "stars": 0,
+    "stars": 1,
     "forks": 0,
     "topics": [
       "zed",
@@ -8946,8 +8946,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-03-08T22:03:26Z",
-    "updated_at": "2026-06-12T10:39:12Z",
-    "pushed_at": "2026-06-12T10:39:09Z",
+    "updated_at": "2026-06-16T06:47:23Z",
+    "pushed_at": "2026-06-16T06:45:52Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": true,
     "extension": {
@@ -19262,13 +19262,13 @@
     "name": "owlx56/zed-lean4",
     "url": "https://github.com/owlx56/zed-lean4",
     "description": "",
-    "stars": 46,
+    "stars": 47,
     "forks": 8,
     "topics": [],
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2025-04-18T13:34:52Z",
-    "updated_at": "2026-06-14T23:11:52Z",
+    "updated_at": "2026-06-16T06:42:02Z",
     "pushed_at": "2026-05-30T23:43:11Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": false,
@@ -52567,6 +52567,37 @@
         "rrenildopereiraa"
       ],
       "repository": "https://github.com/yummacss/eclipsa-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "joangarciaa-dev/zed-symbols": {
+    "name": "joangarciaa-dev/zed-symbols",
+    "url": "https://github.com/joangarciaa-dev/zed-symbols",
+    "description": "A simple file icon theme for Zed.",
+    "stars": 24,
+    "forks": 6,
+    "topics": [],
+    "language": "TypeScript",
+    "license": "MIT",
+    "created_at": "2025-02-08T03:55:18Z",
+    "updated_at": "2026-06-16T04:45:41Z",
+    "pushed_at": "2026-06-16T04:45:38Z",
+    "discovered_at": "2026-06-16T07:57:06.606Z",
+    "official": false,
+    "extension": {
+      "id": "symbols",
+      "name": "Symbols",
+      "description": "A simple file icon theme",
+      "version": "1.2.0",
+      "schema_version": 1,
+      "authors": [
+        "Joan Garcia <joangarcia.dev@gmail.com>"
+      ],
+      "repository": "https://github.com/joangarciaa-dev/zed-symbols",
       "snippets": null,
       "sections": [],
       "categories": [

@@ -52,8 +52,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-04-17T01:34:39Z",
-    "updated_at": "2026-06-15T23:11:00Z",
-    "pushed_at": "2026-06-15T23:10:56Z",
+    "updated_at": "2026-06-16T05:21:06Z",
+    "pushed_at": "2026-06-16T05:21:01Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -73,8 +73,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-05-03T17:39:17Z",
-    "updated_at": "2026-06-11T10:35:36Z",
-    "pushed_at": "2026-06-11T10:35:32Z",
+    "updated_at": "2026-06-16T06:46:12Z",
+    "pushed_at": "2026-06-16T06:46:08Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -156,8 +156,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-06-15T02:59:15Z",
-    "pushed_at": "2026-06-15T02:59:12Z",
+    "updated_at": "2026-06-16T02:59:22Z",
+    "pushed_at": "2026-06-16T02:59:06Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -205,7 +205,7 @@
     "name": "zed-extensions/ruby",
     "url": "https://github.com/zed-extensions/ruby",
     "description": "The Ruby language support for Zed editor",
-    "stars": 126,
+    "stars": 127,
     "forks": 31,
     "topics": [
       "ruby",
@@ -215,7 +215,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2024-10-11T18:22:02Z",
-    "updated_at": "2026-06-13T09:18:06Z",
+    "updated_at": "2026-06-16T06:46:08Z",
     "pushed_at": "2026-06-13T09:18:48Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -5571,8 +5571,8 @@
     "language": null,
     "license": null,
     "created_at": "2026-04-28T17:27:28Z",
-    "updated_at": "2026-06-15T08:35:50Z",
-    "pushed_at": "2026-06-15T08:35:46Z",
+    "updated_at": "2026-06-16T06:50:46Z",
+    "pushed_at": "2026-06-16T06:50:43Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
   },
@@ -6568,7 +6568,7 @@
     "name": "Sha1rholder/polycarbonate-dark-theme",
     "url": "https://github.com/Sha1rholder/polycarbonate-dark-theme",
     "description": "Turn Zed into a clean slab of dark glass.",
-    "stars": 0,
+    "stars": 1,
     "forks": 0,
     "topics": [
       "zed",
@@ -6577,8 +6577,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-03-08T22:03:26Z",
-    "updated_at": "2026-06-12T10:39:12Z",
-    "pushed_at": "2026-06-12T10:39:09Z",
+    "updated_at": "2026-06-16T06:47:23Z",
+    "pushed_at": "2026-06-16T06:45:52Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": true
   },
@@ -13221,13 +13221,13 @@
     "name": "owlx56/zed-lean4",
     "url": "https://github.com/owlx56/zed-lean4",
     "description": "",
-    "stars": 46,
+    "stars": 47,
     "forks": 8,
     "topics": [],
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2025-04-18T13:34:52Z",
-    "updated_at": "2026-06-14T23:11:52Z",
+    "updated_at": "2026-06-16T06:42:02Z",
     "pushed_at": "2026-05-30T23:43:11Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": false
@@ -18286,8 +18286,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-06-15T19:20:57Z",
-    "pushed_at": "2026-06-15T19:20:53Z",
+    "updated_at": "2026-06-16T00:51:17Z",
+    "pushed_at": "2026-06-16T00:51:13Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -30492,8 +30492,8 @@
     "official": true
   },
   "b67687-stalled/agent-stack": {
-    "name": "b67687-stalled/agent-stack",
-    "url": "https://github.com/b67687-stalled/agent-stack",
+    "name": "b67687-stalled/Agent-Stack",
+    "url": "https://github.com/b67687-stalled/Agent-Stack",
     "description": "ACP protocol + omp acp agent backend + OpenAI-compatible HTTP bridge for Zed.",
     "stars": 0,
     "forks": 0,
@@ -30512,7 +30512,7 @@
     "language": "TypeScript",
     "license": null,
     "created_at": "2026-06-03T05:59:41Z",
-    "updated_at": "2026-06-11T06:01:32Z",
+    "updated_at": "2026-06-16T04:48:49Z",
     "pushed_at": "2026-06-04T08:50:05Z",
     "discovered_at": "2026-06-11T07:40:39.709Z",
     "official": false
@@ -30895,7 +30895,7 @@
     "name": "vibe-coding-labs/zed-reverse-engineer",
     "url": "https://github.com/vibe-coding-labs/zed-reverse-engineer",
     "description": "Zed Editor 逆向分析 — AI协议、登录授权、反向代理方案。Zed reverse engineering: AI protocol, auth flow, reverse proxy design.",
-    "stars": 0,
+    "stars": 1,
     "forks": 0,
     "topics": [
       "ai-protocol",
@@ -30910,9 +30910,24 @@
     "language": "Python",
     "license": "Apache-2.0",
     "created_at": "2026-06-14T16:20:53Z",
-    "updated_at": "2026-06-15T17:27:57Z",
+    "updated_at": "2026-06-16T06:20:44Z",
     "pushed_at": "2026-06-15T17:08:38Z",
     "discovered_at": "2026-06-15T19:20:22.737Z",
+    "official": false
+  },
+  "joangarciaa-dev/zed-symbols": {
+    "name": "joangarciaa-dev/zed-symbols",
+    "url": "https://github.com/joangarciaa-dev/zed-symbols",
+    "description": "A simple file icon theme for Zed.",
+    "stars": 24,
+    "forks": 6,
+    "topics": [],
+    "language": "TypeScript",
+    "license": "MIT",
+    "created_at": "2025-02-08T03:55:18Z",
+    "updated_at": "2026-06-16T04:45:41Z",
+    "pushed_at": "2026-06-16T04:45:38Z",
+    "discovered_at": "2026-06-16T07:57:06.606Z",
     "official": false
   }
 }

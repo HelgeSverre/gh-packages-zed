@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1542-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1543-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,16 +14,16 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1542** |
+| Total tracked | **1543** |
 | In official registry | 1111 |
-| Discovered via topics | 431 |
-| Last updated | 2026-06-16 00:50 UTC |
+| Discovered via topics | 432 |
+| Last updated | 2026-06-16 07:57 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
-| Themes | 635 |
+| Themes | 636 |
 | Grammars | 543 |
 | Language Servers | 506 |
 | Context Servers | 127 |
@@ -70,6 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [joangarciaa-dev/zed-symbols](https://github.com/joangarciaa-dev/zed-symbols) | 24 | A simple file icon theme for Zed. |
 | [franzgollhammer/air-theme-zed](https://github.com/franzgollhammer/air-theme-zed) | 1 | Zed port of JetBrains Air theme — calm dark + light + italic variants |
 | [yummacss/eclipsa-zed](https://github.com/yummacss/eclipsa-zed) | 0 | A variant of the Ariake Dark theme. |
 | [GersonDantas/Haven-Theme](https://github.com/GersonDantas/Haven-Theme) | 0 |  |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [Lenivvenil/zed-likec4](https://github.com/Lenivvenil/zed-likec4) | 2 | LikeC4 architecture-as-code language support for Zed |
 | [eduardolecdt/edusites-theme-zed](https://github.com/eduardolecdt/edusites-theme-zed) | 2 |  |
 | [BlueRexPY/HalloweenNightZed](https://github.com/BlueRexPY/HalloweenNightZed) | 1 | 🎃 Halloween Night - Zed Theme  |
-| [xgfone/zed-json-tool](https://github.com/xgfone/zed-json-tool) | 0 | Format and minify open JSON buffers through a minimal LSP bridge. |
 
 ## Top starred (under 500)
 
@@ -120,6 +120,10 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-06-16 | A Zed extension that allows to highlight all occurrences of ... |
+| [Sha1rholder/polycarbonate-dark-theme](https://github.com/Sha1rholder/polycarbonate-dark-theme) | 1 | 2026-06-16 | Turn Zed into a clean slab of dark glass. |
+| [joangarciaa-dev/zed-symbols](https://github.com/joangarciaa-dev/zed-symbols) | 24 | 2026-06-16 | A simple file icon theme for Zed. |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 86 | 2026-06-16 | True Dark Theme for Zed IDE |
 | [begprod/quantum-zed](https://github.com/begprod/quantum-zed) | 0 | 2026-06-15 | A dark theme for Zed inspired by the space |
 | [dunyakirkali/zed-asciidoc](https://github.com/dunyakirkali/zed-asciidoc) | 20 | 2026-06-15 | Zed support for AsciiDoc syntax |
 | [Adriusops/Buisson](https://github.com/Adriusops/Buisson) | 3 | 2026-06-15 | An inky botanical color scheme |
@@ -128,7 +132,6 @@ cd website && npm install && npm run dev
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 144 | 2026-06-15 | 🦊 Zed editor theme ported from Neovim |
 | [peterkyle01/neon-context-server](https://github.com/peterkyle01/neon-context-server) | 0 | 2026-06-15 | A community-maintained Zed editor context server for Neon se... |
 | [zed-extensions/nginx](https://github.com/zed-extensions/nginx) | 11 | 2026-06-15 |  |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 86 | 2026-06-15 | True Dark Theme for Zed IDE |
 | [mage-os-lab/zed-magento2-snippets](https://github.com/mage-os-lab/zed-magento2-snippets) | 5 | 2026-06-14 | Magento 2 and Hyvä snippets for the Zed editor. |
 | [weirdo-adam/zed-mcp-server-redmine](https://github.com/weirdo-adam/zed-mcp-server-redmine) | 1 | 2026-06-14 | Zed extension and standalone MCP server for Redmine, exposin... |
 | [htahaozlu/context-bar](https://github.com/htahaozlu/context-bar) | 13 | 2026-06-13 | Usage and cost visibility for Claude Code and Codex — native... |
@@ -137,14 +140,12 @@ cd website && npm install && npm run dev
 | [GersonDantas/Haven-Theme](https://github.com/GersonDantas/Haven-Theme) | 0 | 2026-06-13 |  |
 | [nobottomline/logos-zed](https://github.com/nobottomline/logos-zed) | 0 | 2026-06-13 | Syntax highlighting for Theos Logos files in Zed |
 | [MahoCommerce/zed](https://github.com/MahoCommerce/zed) | 1 | 2026-06-13 | Maho extension for Zed. |
-| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 126 | 2026-06-13 | The Ruby language support for Zed editor |
-| [DROOdotFOO/aztec-noir](https://github.com/DROOdotFOO/aztec-noir) | 1 | 2026-06-13 | Noir language support for Zed |
-| [mishamyrt/zed-opentype-feature](https://github.com/mishamyrt/zed-opentype-feature) | 0 | 2026-06-12 | 🔠 OpenType™ Feature language support for Zed |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-16T07:57 | 1 | 467 | 1843 |
 | 2026-06-16T00:50 | 0 | 468 | 1842 |
 | 2026-06-15T19:20 | 4 | 467 | 1842 |
 | 2026-06-15T14:07 | 4 | 467 | 1838 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-14T12:39 | 0 | 466 | 1833 |
 | 2026-06-14T07:35 | 0 | 466 | 1833 |
 | 2026-06-14T00:43 | 0 | 466 | 1833 |
-| 2026-06-13T18:29 | 0 | 466 | 1833 |
 
 ---
 
