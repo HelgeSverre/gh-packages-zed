@@ -15,9 +15,9 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | | Count |
 |---|---|
 | Total tracked | **1543** |
-| In official registry | 1111 |
-| Discovered via topics | 432 |
-| Last updated | 2026-06-16 07:57 UTC |
+| In official registry | 1112 |
+| Discovered via topics | 431 |
+| Last updated | 2026-06-16 13:45 UTC |
 
 ### By capability
 
@@ -120,6 +120,9 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [pataruco/zed-mjml](https://github.com/pataruco/zed-mjml) | 1 | 2026-06-16 | MJML syntax support for Zed |
+| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 144 | 2026-06-16 | 🦊 Zed editor theme ported from Neovim |
+| [alanisme/vscode-themes-for-zed](https://github.com/alanisme/vscode-themes-for-zed) | 11 | 2026-06-16 | ❤️ All 19 built-in Visual Studio Code color themes, ported t... |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-06-16 | A Zed extension that allows to highlight all occurrences of ... |
 | [Sha1rholder/polycarbonate-dark-theme](https://github.com/Sha1rholder/polycarbonate-dark-theme) | 1 | 2026-06-16 | Turn Zed into a clean slab of dark glass. |
 | [joangarciaa-dev/zed-symbols](https://github.com/joangarciaa-dev/zed-symbols) | 24 | 2026-06-16 | A simple file icon theme for Zed. |
@@ -127,9 +130,7 @@ cd website && npm install && npm run dev
 | [begprod/quantum-zed](https://github.com/begprod/quantum-zed) | 0 | 2026-06-15 | A dark theme for Zed inspired by the space |
 | [dunyakirkali/zed-asciidoc](https://github.com/dunyakirkali/zed-asciidoc) | 20 | 2026-06-15 | Zed support for AsciiDoc syntax |
 | [Adriusops/Buisson](https://github.com/Adriusops/Buisson) | 3 | 2026-06-15 | An inky botanical color scheme |
-| [pataruco/zed-mjml](https://github.com/pataruco/zed-mjml) | 1 | 2026-06-15 | MJML syntax support for Zed |
 | [yummacss/eclipsa-zed](https://github.com/yummacss/eclipsa-zed) | 0 | 2026-06-15 | A variant of the Ariake Dark theme. |
-| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 144 | 2026-06-15 | 🦊 Zed editor theme ported from Neovim |
 | [peterkyle01/neon-context-server](https://github.com/peterkyle01/neon-context-server) | 0 | 2026-06-15 | A community-maintained Zed editor context server for Neon se... |
 | [zed-extensions/nginx](https://github.com/zed-extensions/nginx) | 11 | 2026-06-15 |  |
 | [mage-os-lab/zed-magento2-snippets](https://github.com/mage-os-lab/zed-magento2-snippets) | 5 | 2026-06-14 | Magento 2 and Hyvä snippets for the Zed editor. |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [unlight/zed-boolean-toggle](https://github.com/unlight/zed-boolean-toggle) | 0 | 2026-06-13 | A Zed editor extension that toggles boolean values (true/fal... |
 | [GersonDantas/Haven-Theme](https://github.com/GersonDantas/Haven-Theme) | 0 | 2026-06-13 |  |
 | [nobottomline/logos-zed](https://github.com/nobottomline/logos-zed) | 0 | 2026-06-13 | Syntax highlighting for Theos Logos files in Zed |
-| [MahoCommerce/zed](https://github.com/MahoCommerce/zed) | 1 | 2026-06-13 | Maho extension for Zed. |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-16T13:45 | 0 | 468 | 1843 |
 | 2026-06-16T07:57 | 1 | 467 | 1843 |
 | 2026-06-16T00:50 | 0 | 468 | 1842 |
 | 2026-06-15T19:20 | 4 | 467 | 1842 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-14T18:29 | 0 | 465 | 1832 |
 | 2026-06-14T12:39 | 0 | 466 | 1833 |
 | 2026-06-14T07:35 | 0 | 466 | 1833 |
-| 2026-06-14T00:43 | 0 | 466 | 1833 |
 
 ---
 
