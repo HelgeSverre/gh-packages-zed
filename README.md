@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1542** |
 | In official registry | 1111 |
 | Discovered via topics | 431 |
-| Last updated | 2026-06-15 19:20 UTC |
+| Last updated | 2026-06-16 00:50 UTC |
 
 ### By capability
 
@@ -120,12 +120,13 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [begprod/quantum-zed](https://github.com/begprod/quantum-zed) | 0 | 2026-06-15 | A dark theme for Zed inspired by the space |
+| [dunyakirkali/zed-asciidoc](https://github.com/dunyakirkali/zed-asciidoc) | 20 | 2026-06-15 | Zed support for AsciiDoc syntax |
 | [Adriusops/Buisson](https://github.com/Adriusops/Buisson) | 3 | 2026-06-15 | An inky botanical color scheme |
 | [pataruco/zed-mjml](https://github.com/pataruco/zed-mjml) | 1 | 2026-06-15 | MJML syntax support for Zed |
 | [yummacss/eclipsa-zed](https://github.com/yummacss/eclipsa-zed) | 0 | 2026-06-15 | A variant of the Ariake Dark theme. |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 144 | 2026-06-15 | 🦊 Zed editor theme ported from Neovim |
 | [peterkyle01/neon-context-server](https://github.com/peterkyle01/neon-context-server) | 0 | 2026-06-15 | A community-maintained Zed editor context server for Neon se... |
-| [begprod/quantum-zed](https://github.com/begprod/quantum-zed) | 0 | 2026-06-15 | A dark theme for Zed inspired by the space |
 | [zed-extensions/nginx](https://github.com/zed-extensions/nginx) | 11 | 2026-06-15 |  |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 86 | 2026-06-15 | True Dark Theme for Zed IDE |
 | [mage-os-lab/zed-magento2-snippets](https://github.com/mage-os-lab/zed-magento2-snippets) | 5 | 2026-06-14 | Magento 2 and Hyvä snippets for the Zed editor. |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 126 | 2026-06-13 | The Ruby language support for Zed editor |
 | [DROOdotFOO/aztec-noir](https://github.com/DROOdotFOO/aztec-noir) | 1 | 2026-06-13 | Noir language support for Zed |
 | [mishamyrt/zed-opentype-feature](https://github.com/mishamyrt/zed-opentype-feature) | 0 | 2026-06-12 | 🔠 OpenType™ Feature language support for Zed |
-| [Sha1rholder/polycarbonate-dark-theme](https://github.com/Sha1rholder/polycarbonate-dark-theme) | 0 | 2026-06-12 | Turn Zed into a clean slab of dark glass. |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-16T00:50 | 0 | 468 | 1842 |
 | 2026-06-15T19:20 | 4 | 467 | 1842 |
 | 2026-06-15T14:07 | 4 | 467 | 1838 |
 | 2026-06-15T07:58 | 1 | 466 | 1834 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-14T07:35 | 0 | 466 | 1833 |
 | 2026-06-14T00:43 | 0 | 466 | 1833 |
 | 2026-06-13T18:29 | 0 | 466 | 1833 |
-| 2026-06-13T12:36 | 2 | 464 | 1833 |
 
 ---
 
