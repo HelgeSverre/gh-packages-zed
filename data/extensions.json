@@ -5100,7 +5100,7 @@
     "name": "zarifpour/xy-zed",
     "url": "https://github.com/zarifpour/xy-zed",
     "description": "🐈‍⬛ A sleek and sophisticated dark theme for Zed with vibrant, intelligent syntax highlighting.",
-    "stars": 81,
+    "stars": 80,
     "forks": 7,
     "topics": [
       "dark",
@@ -5118,7 +5118,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T22:41:16Z",
-    "updated_at": "2026-05-19T19:29:02Z",
+    "updated_at": "2026-06-17T13:03:06Z",
     "pushed_at": "2026-01-27T20:33:16Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -11551,7 +11551,7 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2024-04-27T19:27:52Z",
-    "updated_at": "2026-06-17T01:16:57Z",
+    "updated_at": "2026-06-17T09:13:10Z",
     "pushed_at": "2026-06-10T23:17:14Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": false,
@@ -12364,7 +12364,7 @@
     "name": "ejentum/zed-ejentum-mcp",
     "url": "https://github.com/ejentum/zed-ejentum-mcp",
     "description": "Zed editor extension wrapping the Ejentum MCP server. 8 cognitive operations (4 harnesses Ã— dynamic + adaptive) available to Zed's agent.",
-    "stars": 1,
+    "stars": 2,
     "forks": 0,
     "topics": [
       "agentic-ai",
@@ -12381,7 +12381,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-05-10T17:47:36Z",
-    "updated_at": "2026-06-03T23:10:56Z",
+    "updated_at": "2026-06-17T08:16:12Z",
     "pushed_at": "2026-05-31T13:11:03Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": true,
@@ -52714,6 +52714,49 @@
       ],
       "categories": [
         "context-server"
+      ]
+    }
+  },
+  "madkarmaa/zed-onedark-pro-blur": {
+    "name": "madkarmaa/zed-onedark-pro-blur",
+    "url": "https://github.com/madkarmaa/zed-onedark-pro-blur",
+    "description": "OneDark Pro port for Zed with blur effects",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "editor",
+      "editor-extension",
+      "editor-plugin",
+      "editor-theme",
+      "theme",
+      "themes",
+      "zed",
+      "zed-editor",
+      "zed-extension",
+      "zed-extensions",
+      "zed-theme"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "created_at": "2026-06-16T08:44:07Z",
+    "updated_at": "2026-06-17T10:35:15Z",
+    "pushed_at": "2026-06-17T10:35:21Z",
+    "discovered_at": "2026-06-17T13:15:42.551Z",
+    "official": false,
+    "extension": {
+      "id": "onedark-pro-blur-theme",
+      "name": "OneDark Pro Blur",
+      "description": "OneDark Pro port for Zed with blur effects",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "authors": [
+        "MadKarma"
+      ],
+      "repository": "https://github.com/madkarmaa/zed-onedark-pro-blur",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
       ]
     }
   }

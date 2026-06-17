@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1546-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1547-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,16 +14,16 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1546** |
+| Total tracked | **1547** |
 | In official registry | 1113 |
-| Discovered via topics | 433 |
-| Last updated | 2026-06-17 07:49 UTC |
+| Discovered via topics | 434 |
+| Last updated | 2026-06-17 13:15 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
-| Themes | 638 |
+| Themes | 639 |
 | Grammars | 543 |
 | Language Servers | 506 |
 | Context Servers | 128 |
@@ -70,6 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [madkarmaa/zed-onedark-pro-blur](https://github.com/madkarmaa/zed-onedark-pro-blur) | 0 | OneDark Pro port for Zed with blur effects |
 | [mnemodoc/zed-mnemodoc](https://github.com/mnemodoc/zed-mnemodoc) | 0 | Zed extension that wires mnemodoc-server into Zed's AI assistant — local, privat... |
 | [alvgaona/zed-black-metal](https://github.com/alvgaona/zed-black-metal) | 0 | Pitch-black base16 Black Metal themes for Zed — 11 band variants, each with a fr... |
 | [SM2507/blueprint-dark-theme](https://github.com/SM2507/blueprint-dark-theme) | 0 | A dark theme for the Zed code editor |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [andrewzhuk/nightfall-theme](https://github.com/andrewzhuk/nightfall-theme) | 0 | A warm, vivid color scheme inspired by the colors of daybreak-theme — for Zed |
 | [envoidia/zed-selene-abyss](https://github.com/envoidia/zed-selene-abyss) | 0 |  Blue and purple-focused dark theme for Zed |
 | [jxshwa/webstorm-darker-theme](https://github.com/jxshwa/webstorm-darker-theme) | 0 | Webstorm Darker Theme for Zed Editor |
-| [exkungen/outrun-vscode-zed](https://github.com/exkungen/outrun-vscode-zed) | 0 | Outrun VS Code theme ported to Zed (Night + Electric) |
 
 ## Top starred (under 500)
 
@@ -120,6 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [madkarmaa/zed-onedark-pro-blur](https://github.com/madkarmaa/zed-onedark-pro-blur) | 0 | 2026-06-17 | OneDark Pro port for Zed with blur effects |
 | [mnemodoc/zed-mnemodoc](https://github.com/mnemodoc/zed-mnemodoc) | 0 | 2026-06-17 | Zed extension that wires mnemodoc-server into Zed's AI assis... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 86 | 2026-06-17 | True Dark Theme for Zed IDE |
 | [alvgaona/zed-black-metal](https://github.com/alvgaona/zed-black-metal) | 0 | 2026-06-16 | Pitch-black base16 Black Metal themes for Zed — 11 band vari... |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [weirdo-adam/zed-mcp-server-redmine](https://github.com/weirdo-adam/zed-mcp-server-redmine) | 1 | 2026-06-14 | Zed extension and standalone MCP server for Redmine, exposin... |
 | [htahaozlu/context-bar](https://github.com/htahaozlu/context-bar) | 13 | 2026-06-13 | Usage and cost visibility for Claude Code and Codex — native... |
 | [lmarkmann/patina-theme](https://github.com/lmarkmann/patina-theme) | 1 | 2026-06-13 | A warm, muted color theme. Teal oxidation and amber warmth. |
-| [SM2507/blueprint-dark-theme](https://github.com/SM2507/blueprint-dark-theme) | 0 | 2026-06-13 | A dark theme for the Zed code editor |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-17T13:15 | 1 | 470 | 1848 |
 | 2026-06-17T07:49 | 2 | 469 | 1847 |
 | 2026-06-17T00:45 | 1 | 468 | 1845 |
 | 2026-06-16T19:13 | 1 | 468 | 1844 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-15T19:20 | 4 | 467 | 1842 |
 | 2026-06-15T14:07 | 4 | 467 | 1838 |
 | 2026-06-15T07:58 | 1 | 466 | 1834 |
-| 2026-06-15T00:45 | 1 | 465 | 1833 |
 
 ---
 
