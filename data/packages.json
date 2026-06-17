@@ -13221,13 +13221,13 @@
     "name": "owlx56/zed-lean4",
     "url": "https://github.com/owlx56/zed-lean4",
     "description": "",
-    "stars": 48,
+    "stars": 49,
     "forks": 8,
     "topics": [],
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2025-04-18T13:34:52Z",
-    "updated_at": "2026-06-16T17:01:00Z",
+    "updated_at": "2026-06-17T00:39:58Z",
     "pushed_at": "2026-05-30T23:43:11Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": false
@@ -15727,8 +15727,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
-    "updated_at": "2026-06-15T19:20:57Z",
-    "pushed_at": "2026-06-14T02:09:24Z",
+    "updated_at": "2026-06-16T22:00:50Z",
+    "pushed_at": "2026-06-16T22:00:49Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -18286,8 +18286,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-06-16T13:47:39Z",
-    "pushed_at": "2026-06-16T13:45:49Z",
+    "updated_at": "2026-06-16T19:13:55Z",
+    "pushed_at": "2026-06-16T19:13:51Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -29312,8 +29312,8 @@
     "language": "Nix",
     "license": "Apache-2.0",
     "created_at": "2026-04-30T15:29:50Z",
-    "updated_at": "2026-06-13T14:31:38Z",
-    "pushed_at": "2026-06-13T14:31:35Z",
+    "updated_at": "2026-06-17T00:13:59Z",
+    "pushed_at": "2026-06-17T00:13:55Z",
     "discovered_at": "2026-05-26T18:48:37.016Z",
     "official": false
   },
@@ -30944,5 +30944,30 @@
     "pushed_at": "2026-06-13T18:47:18Z",
     "discovered_at": "2026-06-16T19:13:20.321Z",
     "official": true
+  },
+  "alvgaona/zed-black-metal": {
+    "name": "alvgaona/zed-black-metal",
+    "url": "https://github.com/alvgaona/zed-black-metal",
+    "description": "Pitch-black base16 Black Metal themes for Zed — 11 band variants, each with a frosted Blurred companion.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "base16",
+      "black-metal",
+      "color-theme",
+      "dark-theme",
+      "theme",
+      "zed",
+      "zed-editor",
+      "zed-extension",
+      "zed-theme"
+    ],
+    "language": "Python",
+    "license": "NOASSERTION",
+    "created_at": "2026-06-16T23:02:25Z",
+    "updated_at": "2026-06-16T23:30:26Z",
+    "pushed_at": "2026-06-16T23:31:17Z",
+    "discovered_at": "2026-06-17T00:45:38.576Z",
+    "official": false
   }
 }

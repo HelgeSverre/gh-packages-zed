@@ -19262,13 +19262,13 @@
     "name": "owlx56/zed-lean4",
     "url": "https://github.com/owlx56/zed-lean4",
     "description": "",
-    "stars": 48,
+    "stars": 49,
     "forks": 8,
     "topics": [],
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2025-04-18T13:34:52Z",
-    "updated_at": "2026-06-16T17:01:00Z",
+    "updated_at": "2026-06-17T00:39:58Z",
     "pushed_at": "2026-05-30T23:43:11Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": false,
@@ -52629,6 +52629,47 @@
         "Storm Maxwell"
       ],
       "repository": "https://github.com/SM2507/blueprint-dark-theme.git",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "alvgaona/zed-black-metal": {
+    "name": "alvgaona/zed-black-metal",
+    "url": "https://github.com/alvgaona/zed-black-metal",
+    "description": "Pitch-black base16 Black Metal themes for Zed — 11 band variants, each with a frosted Blurred companion.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "base16",
+      "black-metal",
+      "color-theme",
+      "dark-theme",
+      "theme",
+      "zed",
+      "zed-editor",
+      "zed-extension",
+      "zed-theme"
+    ],
+    "language": "Python",
+    "license": "NOASSERTION",
+    "created_at": "2026-06-16T23:02:25Z",
+    "updated_at": "2026-06-16T23:30:26Z",
+    "pushed_at": "2026-06-16T23:31:17Z",
+    "discovered_at": "2026-06-17T00:45:38.576Z",
+    "official": false,
+    "extension": {
+      "id": "black-metal",
+      "name": "Black Metal",
+      "description": "Pitch-black base16 Black Metal themes for Zed, with frosted-glass blurred variants",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "alvgaona <alvgaona@gmail.com>"
+      ],
+      "repository": "https://github.com/alvgaona/zed-black-metal",
       "snippets": null,
       "sections": [],
       "categories": [

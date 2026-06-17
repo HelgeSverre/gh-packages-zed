@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1544-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1545-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,16 +14,16 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1544** |
+| Total tracked | **1545** |
 | In official registry | 1113 |
-| Discovered via topics | 431 |
-| Last updated | 2026-06-16 19:13 UTC |
+| Discovered via topics | 432 |
+| Last updated | 2026-06-17 00:45 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
-| Themes | 637 |
+| Themes | 638 |
 | Grammars | 543 |
 | Language Servers | 506 |
 | Context Servers | 127 |
@@ -70,6 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [alvgaona/zed-black-metal](https://github.com/alvgaona/zed-black-metal) | 0 | Pitch-black base16 Black Metal themes for Zed — 11 band variants, each with a fr... |
 | [SM2507/blueprint-dark-theme](https://github.com/SM2507/blueprint-dark-theme) | 0 | A dark theme for the Zed code editor |
 | [joangarciaa-dev/zed-symbols](https://github.com/joangarciaa-dev/zed-symbols) | 24 | A simple file icon theme for Zed. |
 | [franzgollhammer/air-theme-zed](https://github.com/franzgollhammer/air-theme-zed) | 1 | Zed port of JetBrains Air theme — calm dark + light + italic variants |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [jxshwa/webstorm-darker-theme](https://github.com/jxshwa/webstorm-darker-theme) | 0 | Webstorm Darker Theme for Zed Editor |
 | [exkungen/outrun-vscode-zed](https://github.com/exkungen/outrun-vscode-zed) | 0 | Outrun VS Code theme ported to Zed (Night + Electric) |
 | [Lenivvenil/zed-likec4](https://github.com/Lenivvenil/zed-likec4) | 2 | LikeC4 architecture-as-code language support for Zed |
-| [eduardolecdt/edusites-theme-zed](https://github.com/eduardolecdt/edusites-theme-zed) | 2 |  |
 
 ## Top starred (under 500)
 
@@ -120,6 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [alvgaona/zed-black-metal](https://github.com/alvgaona/zed-black-metal) | 0 | 2026-06-16 | Pitch-black base16 Black Metal themes for Zed — 11 band vari... |
 | [pataruco/zed-mjml](https://github.com/pataruco/zed-mjml) | 1 | 2026-06-16 | MJML syntax support for Zed |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 144 | 2026-06-16 | 🦊 Zed editor theme ported from Neovim |
 | [alanisme/vscode-themes-for-zed](https://github.com/alanisme/vscode-themes-for-zed) | 11 | 2026-06-16 | ❤️ All 19 built-in Visual Studio Code color themes, ported t... |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [lmarkmann/patina-theme](https://github.com/lmarkmann/patina-theme) | 1 | 2026-06-13 | A warm, muted color theme. Teal oxidation and amber warmth. |
 | [SM2507/blueprint-dark-theme](https://github.com/SM2507/blueprint-dark-theme) | 0 | 2026-06-13 | A dark theme for the Zed code editor |
 | [unlight/zed-boolean-toggle](https://github.com/unlight/zed-boolean-toggle) | 0 | 2026-06-13 | A Zed editor extension that toggles boolean values (true/fal... |
-| [GersonDantas/Haven-Theme](https://github.com/GersonDantas/Haven-Theme) | 0 | 2026-06-13 |  |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-17T00:45 | 1 | 468 | 1845 |
 | 2026-06-16T19:13 | 1 | 468 | 1844 |
 | 2026-06-16T13:45 | 0 | 468 | 1843 |
 | 2026-06-16T07:57 | 1 | 467 | 1843 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-15T07:58 | 1 | 466 | 1834 |
 | 2026-06-15T00:45 | 1 | 465 | 1833 |
 | 2026-06-14T18:29 | 0 | 465 | 1832 |
-| 2026-06-14T12:39 | 0 | 466 | 1833 |
 
 ---
 
