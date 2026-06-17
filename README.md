@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1545-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1546-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,10 +14,10 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1545** |
+| Total tracked | **1546** |
 | In official registry | 1113 |
-| Discovered via topics | 432 |
-| Last updated | 2026-06-17 00:45 UTC |
+| Discovered via topics | 433 |
+| Last updated | 2026-06-17 07:49 UTC |
 
 ### By capability
 
@@ -26,7 +26,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Themes | 638 |
 | Grammars | 543 |
 | Language Servers | 506 |
-| Context Servers | 127 |
+| Context Servers | 128 |
 | Snippets | 68 |
 | Slash Commands | 55 |
 | Debug Adapters | 33 |
@@ -70,6 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [mnemodoc/zed-mnemodoc](https://github.com/mnemodoc/zed-mnemodoc) | 0 | Zed extension that wires mnemodoc-server into Zed's AI assistant — local, privat... |
 | [alvgaona/zed-black-metal](https://github.com/alvgaona/zed-black-metal) | 0 | Pitch-black base16 Black Metal themes for Zed — 11 band variants, each with a fr... |
 | [SM2507/blueprint-dark-theme](https://github.com/SM2507/blueprint-dark-theme) | 0 | A dark theme for the Zed code editor |
 | [joangarciaa-dev/zed-symbols](https://github.com/joangarciaa-dev/zed-symbols) | 24 | A simple file icon theme for Zed. |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [envoidia/zed-selene-abyss](https://github.com/envoidia/zed-selene-abyss) | 0 |  Blue and purple-focused dark theme for Zed |
 | [jxshwa/webstorm-darker-theme](https://github.com/jxshwa/webstorm-darker-theme) | 0 | Webstorm Darker Theme for Zed Editor |
 | [exkungen/outrun-vscode-zed](https://github.com/exkungen/outrun-vscode-zed) | 0 | Outrun VS Code theme ported to Zed (Night + Electric) |
-| [Lenivvenil/zed-likec4](https://github.com/Lenivvenil/zed-likec4) | 2 | LikeC4 architecture-as-code language support for Zed |
 
 ## Top starred (under 500)
 
@@ -102,11 +102,11 @@ cd website && npm install && npm run dev
 | [catppuccin/zed-icons](https://github.com/catppuccin/zed-icons) | 240 | 🦊 Soothing pastel icons for Zed |
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 192 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 193 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
 | [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 179 | Zed support for the Godot game engine and the GDScript language |
-| [zed-extensions/typst](https://github.com/zed-extensions/typst) | 175 | Typst extension for zed |
+| [zed-extensions/typst](https://github.com/zed-extensions/typst) | 176 | Typst extension for zed |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 160 | A macOS native style theme for Zed, let it same like native app in macOS. |
 | [thedadams/zed-comment](https://github.com/thedadams/zed-comment) | 148 | A comment extension for the Zed editor |
 | [slymax/zedokai](https://github.com/slymax/zedokai) | 145 | a theme for Zed based on the Monokai Pro color scheme |
@@ -120,6 +120,8 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [mnemodoc/zed-mnemodoc](https://github.com/mnemodoc/zed-mnemodoc) | 0 | 2026-06-17 | Zed extension that wires mnemodoc-server into Zed's AI assis... |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 86 | 2026-06-17 | True Dark Theme for Zed IDE |
 | [alvgaona/zed-black-metal](https://github.com/alvgaona/zed-black-metal) | 0 | 2026-06-16 | Pitch-black base16 Black Metal themes for Zed — 11 band vari... |
 | [pataruco/zed-mjml](https://github.com/pataruco/zed-mjml) | 1 | 2026-06-16 | MJML syntax support for Zed |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 144 | 2026-06-16 | 🦊 Zed editor theme ported from Neovim |
@@ -127,7 +129,6 @@ cd website && npm install && npm run dev
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-06-16 | A Zed extension that allows to highlight all occurrences of ... |
 | [Sha1rholder/polycarbonate-dark-theme](https://github.com/Sha1rholder/polycarbonate-dark-theme) | 1 | 2026-06-16 | Turn Zed into a clean slab of dark glass. |
 | [joangarciaa-dev/zed-symbols](https://github.com/joangarciaa-dev/zed-symbols) | 24 | 2026-06-16 | A simple file icon theme for Zed. |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 86 | 2026-06-16 | True Dark Theme for Zed IDE |
 | [begprod/quantum-zed](https://github.com/begprod/quantum-zed) | 0 | 2026-06-15 | A dark theme for Zed inspired by the space |
 | [dunyakirkali/zed-asciidoc](https://github.com/dunyakirkali/zed-asciidoc) | 20 | 2026-06-15 | Zed support for AsciiDoc syntax |
 | [Adriusops/Buisson](https://github.com/Adriusops/Buisson) | 3 | 2026-06-15 | An inky botanical color scheme |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [htahaozlu/context-bar](https://github.com/htahaozlu/context-bar) | 13 | 2026-06-13 | Usage and cost visibility for Claude Code and Codex — native... |
 | [lmarkmann/patina-theme](https://github.com/lmarkmann/patina-theme) | 1 | 2026-06-13 | A warm, muted color theme. Teal oxidation and amber warmth. |
 | [SM2507/blueprint-dark-theme](https://github.com/SM2507/blueprint-dark-theme) | 0 | 2026-06-13 | A dark theme for the Zed code editor |
-| [unlight/zed-boolean-toggle](https://github.com/unlight/zed-boolean-toggle) | 0 | 2026-06-13 | A Zed editor extension that toggles boolean values (true/fal... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-17T07:49 | 2 | 469 | 1847 |
 | 2026-06-17T00:45 | 1 | 468 | 1845 |
 | 2026-06-16T19:13 | 1 | 468 | 1844 |
 | 2026-06-16T13:45 | 0 | 468 | 1843 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-15T14:07 | 4 | 467 | 1838 |
 | 2026-06-15T07:58 | 1 | 466 | 1834 |
 | 2026-06-15T00:45 | 1 | 465 | 1833 |
-| 2026-06-14T18:29 | 0 | 465 | 1832 |
 
 ---
 

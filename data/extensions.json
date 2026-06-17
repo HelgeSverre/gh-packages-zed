@@ -141,8 +141,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-06-16T02:59:22Z",
-    "pushed_at": "2026-06-16T02:59:06Z",
+    "updated_at": "2026-06-17T02:59:02Z",
+    "pushed_at": "2026-06-17T02:58:58Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -203,7 +203,7 @@
     "name": "wakatime/zed-wakatime",
     "url": "https://github.com/wakatime/zed-wakatime",
     "description": "Zed plugin for automatic time tracking and metrics generated from your programming activity.",
-    "stars": 192,
+    "stars": 193,
     "forks": 29,
     "topics": [
       "extension",
@@ -215,7 +215,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2024-08-27T10:31:46Z",
-    "updated_at": "2026-06-15T09:34:19Z",
+    "updated_at": "2026-06-17T07:23:40Z",
     "pushed_at": "2026-06-05T10:49:56Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -11545,13 +11545,13 @@
     "name": "zed-extensions/typst",
     "url": "https://github.com/zed-extensions/typst",
     "description": "Typst extension for zed",
-    "stars": 175,
+    "stars": 176,
     "forks": 15,
     "topics": [],
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2024-04-27T19:27:52Z",
-    "updated_at": "2026-06-11T16:39:14Z",
+    "updated_at": "2026-06-17T01:16:57Z",
     "pushed_at": "2026-06-10T23:17:14Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": false,
@@ -52674,6 +52674,46 @@
       "sections": [],
       "categories": [
         "theme"
+      ]
+    }
+  },
+  "mnemodoc/zed-mnemodoc": {
+    "name": "mnemodoc/zed-mnemodoc",
+    "url": "https://github.com/mnemodoc/zed-mnemodoc",
+    "description": "Zed extension that wires mnemodoc-server into Zed's AI assistant — local, private documentation search via Ollama.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "context-server",
+      "local-ai",
+      "mcp",
+      "ollama",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2026-06-16T23:32:07Z",
+    "updated_at": "2026-06-17T04:05:36Z",
+    "pushed_at": "2026-06-17T04:05:32Z",
+    "discovered_at": "2026-06-17T07:49:54.810Z",
+    "official": false,
+    "extension": {
+      "id": "mnemodoc",
+      "name": "Mnemodoc",
+      "description": "Auto-index and search project documentation via mcp-server and Ollama",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Nicolas Rodriguez <nico@nicoladmin.fr>"
+      ],
+      "repository": "https://github.com/mnemodoc/zed-mnemodoc",
+      "snippets": null,
+      "sections": [
+        "context_servers"
+      ],
+      "categories": [
+        "context-server"
       ]
     }
   }
