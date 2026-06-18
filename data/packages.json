@@ -197,7 +197,7 @@
     "license": "MIT",
     "created_at": "2024-08-27T10:31:46Z",
     "updated_at": "2026-06-17T07:23:40Z",
-    "pushed_at": "2026-06-05T10:49:56Z",
+    "pushed_at": "2026-06-18T17:03:12Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -593,7 +593,7 @@
     "license": "MIT",
     "created_at": "2025-07-14T14:11:36Z",
     "updated_at": "2026-05-11T18:10:45Z",
-    "pushed_at": "2026-05-11T18:10:41Z",
+    "pushed_at": "2026-06-18T17:43:44Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -1404,7 +1404,7 @@
     "license": "MIT",
     "created_at": "2025-12-21T18:52:30Z",
     "updated_at": "2026-04-21T11:28:08Z",
-    "pushed_at": "2026-06-08T16:24:36Z",
+    "pushed_at": "2026-06-18T16:23:19Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -2333,7 +2333,7 @@
     "name": "chopratejas/headroom-zed",
     "url": "https://github.com/chopratejas/headroom-zed",
     "description": "Zed extension for Headroom — context compression for AI agents",
-    "stars": 13,
+    "stars": 14,
     "forks": 2,
     "topics": [
       "ai-agents",
@@ -2350,7 +2350,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-03-18T16:55:33Z",
-    "updated_at": "2026-06-14T12:48:58Z",
+    "updated_at": "2026-06-18T16:51:11Z",
     "pushed_at": "2026-03-18T16:55:38Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
@@ -6439,7 +6439,7 @@
     "name": "cange/nightfox.zed",
     "url": "https://github.com/cange/nightfox.zed",
     "description": "🦊 Zed editor theme ported from Neovim",
-    "stars": 144,
+    "stars": 145,
     "forks": 5,
     "topics": [
       "zed",
@@ -6448,7 +6448,7 @@
     "language": "Lua",
     "license": "MIT",
     "created_at": "2024-05-02T20:49:30Z",
-    "updated_at": "2026-06-16T10:23:32Z",
+    "updated_at": "2026-06-18T13:39:33Z",
     "pushed_at": "2026-06-16T10:23:50Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": true
@@ -6766,8 +6766,8 @@
     "name": "wnkz/monoglow.nvim",
     "url": "https://github.com/wnkz/monoglow.nvim",
     "description": "🎆 A dark, mostly monochrome colorscheme with a touch of glowing.",
-    "stars": 166,
-    "forks": 9,
+    "stars": 167,
+    "forks": 8,
     "topics": [
       "ghostty-theme",
       "neovim",
@@ -6780,7 +6780,7 @@
     "language": "Lua",
     "license": "Apache-2.0",
     "created_at": "2024-10-05T14:40:58Z",
-    "updated_at": "2026-06-18T13:07:54Z",
+    "updated_at": "2026-06-18T14:54:22Z",
     "pushed_at": "2026-04-18T14:33:26Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
@@ -9255,8 +9255,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-05-13T12:49:53Z",
-    "updated_at": "2026-06-13T18:07:24Z",
-    "pushed_at": "2026-05-24T09:01:32Z",
+    "updated_at": "2026-06-18T13:46:46Z",
+    "pushed_at": "2026-06-18T13:46:10Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": false
   },
@@ -15727,8 +15727,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
-    "updated_at": "2026-06-18T02:45:58Z",
-    "pushed_at": "2026-06-17T13:19:01Z",
+    "updated_at": "2026-06-18T16:27:22Z",
+    "pushed_at": "2026-06-18T16:27:06Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -18286,8 +18286,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-06-18T07:41:34Z",
-    "pushed_at": "2026-06-18T07:41:29Z",
+    "updated_at": "2026-06-18T13:09:57Z",
+    "pushed_at": "2026-06-18T13:09:33Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -19524,7 +19524,7 @@
     "url": "https://github.com/zed-extensions/git_firefly",
     "description": "",
     "stars": 134,
-    "forks": 5,
+    "forks": 6,
     "topics": [],
     "language": "Tree-sitter Query",
     "license": "Apache-2.0",
@@ -29201,7 +29201,7 @@
     "name": "Tusk-PHP/lsp",
     "url": "https://github.com/Tusk-PHP/lsp",
     "description": "High-performance PHP 8+ LSP written in Go, focused on development speed",
-    "stars": 4,
+    "stars": 5,
     "forks": 0,
     "topics": [
       "language-server-protocol",
@@ -29216,8 +29216,8 @@
     "language": "Go",
     "license": "MIT",
     "created_at": "2026-03-09T09:38:48Z",
-    "updated_at": "2026-06-03T21:04:55Z",
-    "pushed_at": "2026-06-16T11:14:11Z",
+    "updated_at": "2026-06-18T18:31:49Z",
+    "pushed_at": "2026-06-18T16:21:12Z",
     "discovered_at": "2026-05-25T18:33:55.225Z",
     "official": false
   },
@@ -31067,8 +31067,8 @@
     "language": "Rust",
     "license": "GPL-3.0",
     "created_at": "2026-06-17T16:45:20Z",
-    "updated_at": "2026-06-17T16:47:03Z",
-    "pushed_at": "2026-06-17T16:45:25Z",
+    "updated_at": "2026-06-18T18:35:00Z",
+    "pushed_at": "2026-06-18T18:35:12Z",
     "discovered_at": "2026-06-17T18:49:19.899Z",
     "official": false
   },
@@ -31109,6 +31109,26 @@
     "updated_at": "2026-06-17T23:08:09Z",
     "pushed_at": "2026-06-17T00:13:55Z",
     "discovered_at": "2026-06-18T00:46:02.977Z",
+    "official": false
+  },
+  "smithjaedon/obsidian-theme": {
+    "name": "Smithjaedon/obsidian-theme",
+    "url": "https://github.com/Smithjaedon/obsidian-theme",
+    "description": "Minimal dark theme for Zed and VS Code. Grayscale UI with zero saturation — syntax-only color.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "dark-theme",
+      "minimal",
+      "vscode-theme",
+      "zed-theme"
+    ],
+    "language": null,
+    "license": null,
+    "created_at": "2026-06-18T15:04:07Z",
+    "updated_at": "2026-06-18T15:23:47Z",
+    "pushed_at": "2026-06-18T15:25:19Z",
+    "discovered_at": "2026-06-18T18:48:44.653Z",
     "official": false
   }
 }

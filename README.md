@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1549** |
 | In official registry | 1113 |
 | Discovered via topics | 436 |
-| Last updated | 2026-06-18 13:09 UTC |
+| Last updated | 2026-06-18 18:48 UTC |
 
 ### By capability
 
@@ -109,8 +109,8 @@ cd website && npm install && npm run dev
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 176 | Typst extension for zed |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 160 | A macOS native style theme for Zed, let it same like native app in macOS. |
 | [thedadams/zed-comment](https://github.com/thedadams/zed-comment) | 148 | A comment extension for the Zed editor |
+| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 145 | 🦊 Zed editor theme ported from Neovim |
 | [slymax/zedokai](https://github.com/slymax/zedokai) | 145 | a theme for Zed based on the Monokai Pro color scheme |
-| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 144 | 🦊 Zed editor theme ported from Neovim |
 | [nathansbradshaw/zed-angular](https://github.com/nathansbradshaw/zed-angular) | 144 |  |
 | [zed-extensions/swift](https://github.com/zed-extensions/swift) | 142 | Extension for Zed to support Swift |
 | [zed-extensions/csharp](https://github.com/zed-extensions/csharp) | 139 | C# support |
@@ -120,16 +120,19 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [livrasand/codetrackr-zed](https://github.com/livrasand/codetrackr-zed) | 0 | 2026-06-18 | Zed plugin for automatic time tracking and metrics generated... |
+| [FollowTheProcess/zed-txtar](https://github.com/FollowTheProcess/zed-txtar) | 0 | 2026-06-18 | A Zed extension providing syntax highlighting for txtar file... |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 193 | 2026-06-18 | Zed plugin for automatic time tracking and metrics generated... |
+| [whistlebee/zed-mojo](https://github.com/whistlebee/zed-mojo) | 1 | 2026-06-18 | Mojo LSP/Syntax/Debugger support for Zed |
 | [tbxark/vscode2026-theme-zed](https://github.com/tbxark/vscode2026-theme-zed) | 0 | 2026-06-18 | VS Code 2026 theme for Zed |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 86 | 2026-06-18 | True Dark Theme for Zed IDE |
 | [mnemodoc/zed-mnemodoc](https://github.com/mnemodoc/zed-mnemodoc) | 0 | 2026-06-18 | Zed extension that wires mnemodoc-server into Zed's AI assis... |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 128 | 2026-06-18 | The Ruby language support for Zed editor |
 | [madkarmaa/zed-onedark-pro-blur](https://github.com/madkarmaa/zed-onedark-pro-blur) | 0 | 2026-06-17 | OneDark Pro port for Zed with blur effects |
 | [LaurenceRawlings/zed-one-dark-pro-night-flat](https://github.com/LaurenceRawlings/zed-one-dark-pro-night-flat) | 0 | 2026-06-17 | A port of VSCode One Dark Pro Night Flat theme |
-| [livrasand/codetrackr-zed](https://github.com/livrasand/codetrackr-zed) | 0 | 2026-06-17 | Zed plugin for automatic time tracking and metrics generated... |
 | [alvgaona/zed-black-metal](https://github.com/alvgaona/zed-black-metal) | 0 | 2026-06-16 | Pitch-black base16 Black Metal themes for Zed — 11 band vari... |
 | [pataruco/zed-mjml](https://github.com/pataruco/zed-mjml) | 1 | 2026-06-16 | MJML syntax support for Zed |
-| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 144 | 2026-06-16 | 🦊 Zed editor theme ported from Neovim |
+| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 145 | 2026-06-16 | 🦊 Zed editor theme ported from Neovim |
 | [alanisme/vscode-themes-for-zed](https://github.com/alanisme/vscode-themes-for-zed) | 11 | 2026-06-16 | ❤️ All 19 built-in Visual Studio Code color themes, ported t... |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-06-16 | A Zed extension that allows to highlight all occurrences of ... |
 | [Sha1rholder/polycarbonate-dark-theme](https://github.com/Sha1rholder/polycarbonate-dark-theme) | 1 | 2026-06-16 | Turn Zed into a clean slab of dark glass. |
@@ -137,14 +140,12 @@ cd website && npm install && npm run dev
 | [begprod/quantum-zed](https://github.com/begprod/quantum-zed) | 0 | 2026-06-15 | A dark theme for Zed inspired by the space |
 | [dunyakirkali/zed-asciidoc](https://github.com/dunyakirkali/zed-asciidoc) | 20 | 2026-06-15 | Zed support for AsciiDoc syntax |
 | [Adriusops/Buisson](https://github.com/Adriusops/Buisson) | 3 | 2026-06-15 | An inky botanical color scheme |
-| [yummacss/eclipsa-zed](https://github.com/yummacss/eclipsa-zed) | 0 | 2026-06-15 | A variant of the Ariake Dark theme. |
-| [peterkyle01/neon-context-server](https://github.com/peterkyle01/neon-context-server) | 0 | 2026-06-15 | A community-maintained Zed editor context server for Neon se... |
-| [zed-extensions/nginx](https://github.com/zed-extensions/nginx) | 11 | 2026-06-15 |  |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-18T18:48 | 1 | 472 | 1852 |
 | 2026-06-18T13:09 | 0 | 473 | 1851 |
 | 2026-06-18T07:41 | 0 | 473 | 1851 |
 | 2026-06-18T00:46 | 2 | 471 | 1851 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-17T00:45 | 1 | 468 | 1845 |
 | 2026-06-16T19:13 | 1 | 468 | 1844 |
 | 2026-06-16T13:45 | 0 | 468 | 1843 |
-| 2026-06-16T07:57 | 1 | 467 | 1843 |
 
 ---
 
