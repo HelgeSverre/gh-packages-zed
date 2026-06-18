@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1549** |
 | In official registry | 1113 |
 | Discovered via topics | 436 |
-| Last updated | 2026-06-18 00:46 UTC |
+| Last updated | 2026-06-18 07:41 UTC |
 
 ### By capability
 
@@ -120,11 +120,13 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [tbxark/vscode2026-theme-zed](https://github.com/tbxark/vscode2026-theme-zed) | 0 | 2026-06-18 | VS Code 2026 theme for Zed |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 86 | 2026-06-18 | True Dark Theme for Zed IDE |
 | [mnemodoc/zed-mnemodoc](https://github.com/mnemodoc/zed-mnemodoc) | 0 | 2026-06-18 | Zed extension that wires mnemodoc-server into Zed's AI assis... |
+| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 128 | 2026-06-18 | The Ruby language support for Zed editor |
 | [madkarmaa/zed-onedark-pro-blur](https://github.com/madkarmaa/zed-onedark-pro-blur) | 0 | 2026-06-17 | OneDark Pro port for Zed with blur effects |
 | [LaurenceRawlings/zed-one-dark-pro-night-flat](https://github.com/LaurenceRawlings/zed-one-dark-pro-night-flat) | 0 | 2026-06-17 | A port of VSCode One Dark Pro Night Flat theme |
 | [livrasand/codetrackr-zed](https://github.com/livrasand/codetrackr-zed) | 0 | 2026-06-17 | Zed plugin for automatic time tracking and metrics generated... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 86 | 2026-06-17 | True Dark Theme for Zed IDE |
 | [alvgaona/zed-black-metal](https://github.com/alvgaona/zed-black-metal) | 0 | 2026-06-16 | Pitch-black base16 Black Metal themes for Zed — 11 band vari... |
 | [pataruco/zed-mjml](https://github.com/pataruco/zed-mjml) | 1 | 2026-06-16 | MJML syntax support for Zed |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 144 | 2026-06-16 | 🦊 Zed editor theme ported from Neovim |
@@ -138,13 +140,12 @@ cd website && npm install && npm run dev
 | [yummacss/eclipsa-zed](https://github.com/yummacss/eclipsa-zed) | 0 | 2026-06-15 | A variant of the Ariake Dark theme. |
 | [peterkyle01/neon-context-server](https://github.com/peterkyle01/neon-context-server) | 0 | 2026-06-15 | A community-maintained Zed editor context server for Neon se... |
 | [zed-extensions/nginx](https://github.com/zed-extensions/nginx) | 11 | 2026-06-15 |  |
-| [mage-os-lab/zed-magento2-snippets](https://github.com/mage-os-lab/zed-magento2-snippets) | 5 | 2026-06-14 | Magento 2 and Hyvä snippets for the Zed editor. |
-| [weirdo-adam/zed-mcp-server-redmine](https://github.com/weirdo-adam/zed-mcp-server-redmine) | 1 | 2026-06-14 | Zed extension and standalone MCP server for Redmine, exposin... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-18T07:41 | 0 | 473 | 1851 |
 | 2026-06-18T00:46 | 2 | 471 | 1851 |
 | 2026-06-17T18:49 | 1 | 471 | 1849 |
 | 2026-06-17T13:15 | 1 | 470 | 1848 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-16T13:45 | 0 | 468 | 1843 |
 | 2026-06-16T07:57 | 1 | 467 | 1843 |
 | 2026-06-16T00:50 | 0 | 468 | 1842 |
-| 2026-06-15T19:20 | 4 | 467 | 1842 |
 
 ---
 
