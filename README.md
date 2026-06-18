@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1548-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1549-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,16 +14,16 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1548** |
+| Total tracked | **1549** |
 | In official registry | 1113 |
-| Discovered via topics | 435 |
-| Last updated | 2026-06-17 18:49 UTC |
+| Discovered via topics | 436 |
+| Last updated | 2026-06-18 00:46 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
-| Themes | 639 |
+| Themes | 640 |
 | Grammars | 543 |
 | Language Servers | 507 |
 | Context Servers | 128 |
@@ -70,6 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [LaurenceRawlings/zed-one-dark-pro-night-flat](https://github.com/LaurenceRawlings/zed-one-dark-pro-night-flat) | 0 | A port of VSCode One Dark Pro Night Flat theme |
 | [livrasand/codetrackr-zed](https://github.com/livrasand/codetrackr-zed) | 0 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
 | [madkarmaa/zed-onedark-pro-blur](https://github.com/madkarmaa/zed-onedark-pro-blur) | 0 | OneDark Pro port for Zed with blur effects |
 | [mnemodoc/zed-mnemodoc](https://github.com/mnemodoc/zed-mnemodoc) | 0 | Zed extension that wires mnemodoc-server into Zed's AI assistant — local, privat... |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [electron-highlighter/zed](https://github.com/electron-highlighter/zed) | 0 | Electron Highlighter theme for Zed |
 | [Toxblh/zed-file-icons](https://github.com/Toxblh/zed-file-icons) | 0 | 2000+ file and folder icons for Zed, ported from the popular file-icons/vscode t... |
 | [andrewzhuk/nightfall-theme](https://github.com/andrewzhuk/nightfall-theme) | 0 | A warm, vivid color scheme inspired by the colors of daybreak-theme — for Zed |
-| [envoidia/zed-selene-abyss](https://github.com/envoidia/zed-selene-abyss) | 0 |  Blue and purple-focused dark theme for Zed |
 
 ## Top starred (under 500)
 
@@ -120,9 +120,10 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [livrasand/codetrackr-zed](https://github.com/livrasand/codetrackr-zed) | 0 | 2026-06-17 | Zed plugin for automatic time tracking and metrics generated... |
+| [mnemodoc/zed-mnemodoc](https://github.com/mnemodoc/zed-mnemodoc) | 0 | 2026-06-18 | Zed extension that wires mnemodoc-server into Zed's AI assis... |
 | [madkarmaa/zed-onedark-pro-blur](https://github.com/madkarmaa/zed-onedark-pro-blur) | 0 | 2026-06-17 | OneDark Pro port for Zed with blur effects |
-| [mnemodoc/zed-mnemodoc](https://github.com/mnemodoc/zed-mnemodoc) | 0 | 2026-06-17 | Zed extension that wires mnemodoc-server into Zed's AI assis... |
+| [LaurenceRawlings/zed-one-dark-pro-night-flat](https://github.com/LaurenceRawlings/zed-one-dark-pro-night-flat) | 0 | 2026-06-17 | A port of VSCode One Dark Pro Night Flat theme |
+| [livrasand/codetrackr-zed](https://github.com/livrasand/codetrackr-zed) | 0 | 2026-06-17 | Zed plugin for automatic time tracking and metrics generated... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 86 | 2026-06-17 | True Dark Theme for Zed IDE |
 | [alvgaona/zed-black-metal](https://github.com/alvgaona/zed-black-metal) | 0 | 2026-06-16 | Pitch-black base16 Black Metal themes for Zed — 11 band vari... |
 | [pataruco/zed-mjml](https://github.com/pataruco/zed-mjml) | 1 | 2026-06-16 | MJML syntax support for Zed |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [zed-extensions/nginx](https://github.com/zed-extensions/nginx) | 11 | 2026-06-15 |  |
 | [mage-os-lab/zed-magento2-snippets](https://github.com/mage-os-lab/zed-magento2-snippets) | 5 | 2026-06-14 | Magento 2 and Hyvä snippets for the Zed editor. |
 | [weirdo-adam/zed-mcp-server-redmine](https://github.com/weirdo-adam/zed-mcp-server-redmine) | 1 | 2026-06-14 | Zed extension and standalone MCP server for Redmine, exposin... |
-| [htahaozlu/context-bar](https://github.com/htahaozlu/context-bar) | 13 | 2026-06-13 | Usage and cost visibility for Claude Code and Codex — native... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-18T00:46 | 2 | 471 | 1851 |
 | 2026-06-17T18:49 | 1 | 471 | 1849 |
 | 2026-06-17T13:15 | 1 | 470 | 1848 |
 | 2026-06-17T07:49 | 2 | 469 | 1847 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-16T07:57 | 1 | 467 | 1843 |
 | 2026-06-16T00:50 | 0 | 468 | 1842 |
 | 2026-06-15T19:20 | 4 | 467 | 1842 |
-| 2026-06-15T14:07 | 4 | 467 | 1838 |
 
 ---
 

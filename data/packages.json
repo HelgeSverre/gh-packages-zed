@@ -279,7 +279,7 @@
     "name": "Nako0/devglobe-extension",
     "url": "https://github.com/Nako0/devglobe-extension",
     "description": "Official Extensions for DevGlobe. Show up on a 3D globe in real time while you code, with automatic time tracking and coding metrics.",
-    "stars": 148,
+    "stars": 152,
     "forks": 9,
     "topics": [
       "claude-code-plugin",
@@ -299,7 +299,7 @@
     "language": "TypeScript",
     "license": "MIT",
     "created_at": "2026-03-06T15:12:36Z",
-    "updated_at": "2026-06-17T15:09:49Z",
+    "updated_at": "2026-06-18T00:06:29Z",
     "pushed_at": "2026-05-28T09:15:32Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
@@ -5491,8 +5491,8 @@
     "language": "PowerShell",
     "license": null,
     "created_at": "2024-08-14T22:46:54Z",
-    "updated_at": "2026-06-10T19:43:31Z",
-    "pushed_at": "2026-06-10T19:42:42Z",
+    "updated_at": "2026-06-17T19:35:34Z",
+    "pushed_at": "2026-06-17T19:35:10Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
   },
@@ -18286,8 +18286,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-06-17T13:16:31Z",
-    "pushed_at": "2026-06-17T13:16:11Z",
+    "updated_at": "2026-06-17T18:50:19Z",
+    "pushed_at": "2026-06-17T18:49:49Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -31019,8 +31019,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-06-16T23:32:07Z",
-    "updated_at": "2026-06-17T04:05:36Z",
-    "pushed_at": "2026-06-17T04:05:32Z",
+    "updated_at": "2026-06-18T00:22:25Z",
+    "pushed_at": "2026-06-18T00:22:21Z",
     "discovered_at": "2026-06-17T07:49:54.810Z",
     "official": false
   },
@@ -31046,8 +31046,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-06-16T08:44:07Z",
-    "updated_at": "2026-06-17T10:35:15Z",
-    "pushed_at": "2026-06-17T10:35:21Z",
+    "updated_at": "2026-06-17T21:50:39Z",
+    "pushed_at": "2026-06-17T21:50:34Z",
     "discovered_at": "2026-06-17T13:15:42.551Z",
     "official": false
   },
@@ -31070,6 +31070,45 @@
     "updated_at": "2026-06-17T16:47:03Z",
     "pushed_at": "2026-06-17T16:45:25Z",
     "discovered_at": "2026-06-17T18:49:19.899Z",
+    "official": false
+  },
+  "laurencerawlings/zed-one-dark-pro-night-flat": {
+    "name": "LaurenceRawlings/zed-one-dark-pro-night-flat",
+    "url": "https://github.com/LaurenceRawlings/zed-one-dark-pro-night-flat",
+    "description": "A port of VSCode One Dark Pro Night Flat theme",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "zed",
+      "zed-extension"
+    ],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-06-17T20:59:08Z",
+    "updated_at": "2026-06-17T21:07:48Z",
+    "pushed_at": "2026-06-17T21:09:58Z",
+    "discovered_at": "2026-06-18T00:46:02.976Z",
+    "official": false
+  },
+  "x-shikanime/colemak": {
+    "name": "x-shikanime/colemak",
+    "url": "https://github.com/x-shikanime/colemak",
+    "description": "Colemak keyboard layout configurations",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "colemak",
+      "helix",
+      "neovim",
+      "nix",
+      "zed-editor"
+    ],
+    "language": "Nix",
+    "license": "Apache-2.0",
+    "created_at": "2026-04-30T15:29:50Z",
+    "updated_at": "2026-06-17T23:08:09Z",
+    "pushed_at": "2026-06-17T00:13:55Z",
+    "discovered_at": "2026-06-18T00:46:02.977Z",
     "official": false
   }
 }
