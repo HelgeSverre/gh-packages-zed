@@ -94,7 +94,7 @@
     "license": "MIT",
     "created_at": "2026-05-02T05:39:52Z",
     "updated_at": "2026-06-09T16:56:57Z",
-    "pushed_at": "2026-05-21T03:41:21Z",
+    "pushed_at": "2026-06-18T19:06:02Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -185,7 +185,7 @@
     "url": "https://github.com/wakatime/zed-wakatime",
     "description": "Zed plugin for automatic time tracking and metrics generated from your programming activity.",
     "stars": 193,
-    "forks": 29,
+    "forks": 28,
     "topics": [
       "extension",
       "wakatime",
@@ -18286,8 +18286,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-06-18T13:09:57Z",
-    "pushed_at": "2026-06-18T13:09:33Z",
+    "updated_at": "2026-06-18T18:49:19Z",
+    "pushed_at": "2026-06-18T18:49:15Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -25190,7 +25190,7 @@
     "license": "Apache-2.0",
     "created_at": "2025-08-14T22:37:54Z",
     "updated_at": "2026-05-23T16:49:06Z",
-    "pushed_at": "2025-11-20T21:22:47Z",
+    "pushed_at": "2026-06-18T21:13:04Z",
     "discovered_at": "2026-05-20T02:57:03.419Z",
     "official": false
   },
@@ -29217,7 +29217,7 @@
     "license": "MIT",
     "created_at": "2026-03-09T09:38:48Z",
     "updated_at": "2026-06-18T18:31:49Z",
-    "pushed_at": "2026-06-18T16:21:12Z",
+    "pushed_at": "2026-06-18T19:01:16Z",
     "discovered_at": "2026-05-25T18:33:55.225Z",
     "official": false
   },
@@ -29968,8 +29968,8 @@
     "language": "TypeScript",
     "license": "Apache-2.0",
     "created_at": "2026-02-23T21:09:46Z",
-    "updated_at": "2026-06-09T00:46:38Z",
-    "pushed_at": "2026-06-09T00:46:35Z",
+    "updated_at": "2026-06-18T22:42:55Z",
+    "pushed_at": "2026-06-18T22:42:50Z",
     "discovered_at": "2026-06-04T18:46:41.571Z",
     "official": false
   },
@@ -30310,8 +30310,8 @@
     "language": "Rust",
     "license": null,
     "created_at": "2026-06-09T22:36:14Z",
-    "updated_at": "2026-06-14T12:02:08Z",
-    "pushed_at": "2026-06-14T11:45:22Z",
+    "updated_at": "2026-06-18T22:57:09Z",
+    "pushed_at": "2026-06-18T22:57:04Z",
     "discovered_at": "2026-06-10T00:43:30.823Z",
     "official": false
   },
@@ -31067,8 +31067,8 @@
     "language": "Rust",
     "license": "GPL-3.0",
     "created_at": "2026-06-17T16:45:20Z",
-    "updated_at": "2026-06-18T18:35:00Z",
-    "pushed_at": "2026-06-18T18:35:12Z",
+    "updated_at": "2026-06-18T19:10:19Z",
+    "pushed_at": "2026-06-18T19:10:13Z",
     "discovered_at": "2026-06-17T18:49:19.899Z",
     "official": false
   },
@@ -31129,6 +31129,28 @@
     "updated_at": "2026-06-18T15:23:47Z",
     "pushed_at": "2026-06-18T15:25:19Z",
     "discovered_at": "2026-06-18T18:48:44.653Z",
+    "official": false
+  },
+  "livrasand/zed-svg": {
+    "name": "livrasand/zed-svg",
+    "url": "https://github.com/livrasand/zed-svg",
+    "description": "The SVG syntax highlighting support for Zed editor",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "parser",
+      "svg",
+      "tree-sitter",
+      "xml",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Tree-sitter Query",
+    "license": "Apache-2.0",
+    "created_at": "2026-06-18T23:05:51Z",
+    "updated_at": "2026-06-18T23:08:47Z",
+    "pushed_at": "2026-06-18T23:05:54Z",
+    "discovered_at": "2026-06-19T00:49:59.886Z",
     "official": false
   }
 }

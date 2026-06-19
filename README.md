@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1549-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1550-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,17 +14,17 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1549** |
+| Total tracked | **1550** |
 | In official registry | 1113 |
-| Discovered via topics | 436 |
-| Last updated | 2026-06-18 18:48 UTC |
+| Discovered via topics | 437 |
+| Last updated | 2026-06-19 00:50 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
 | Themes | 640 |
-| Grammars | 543 |
+| Grammars | 544 |
 | Language Servers | 507 |
 | Context Servers | 128 |
 | Snippets | 68 |
@@ -70,6 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [livrasand/zed-svg](https://github.com/livrasand/zed-svg) | 0 | The SVG syntax highlighting support for Zed editor |
 | [LaurenceRawlings/zed-one-dark-pro-night-flat](https://github.com/LaurenceRawlings/zed-one-dark-pro-night-flat) | 0 | A port of VSCode One Dark Pro Night Flat theme |
 | [livrasand/codetrackr-zed](https://github.com/livrasand/codetrackr-zed) | 0 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
 | [madkarmaa/zed-onedark-pro-blur](https://github.com/madkarmaa/zed-onedark-pro-blur) | 0 | OneDark Pro port for Zed with blur effects |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [louiss0/zed-ebnf](https://github.com/louiss0/zed-ebnf) | 0 |  |
 | [electron-highlighter/zed](https://github.com/electron-highlighter/zed) | 0 | Electron Highlighter theme for Zed |
 | [Toxblh/zed-file-icons](https://github.com/Toxblh/zed-file-icons) | 0 | 2000+ file and folder icons for Zed, ported from the popular file-icons/vscode t... |
-| [andrewzhuk/nightfall-theme](https://github.com/andrewzhuk/nightfall-theme) | 0 | A warm, vivid color scheme inspired by the colors of daybreak-theme — for Zed |
 
 ## Top starred (under 500)
 
@@ -120,6 +120,8 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [livrasand/zed-svg](https://github.com/livrasand/zed-svg) | 0 | 2026-06-18 | The SVG syntax highlighting support for Zed editor |
+| [SiennaTransfer4/zed-rego](https://github.com/SiennaTransfer4/zed-rego) | 2 | 2026-06-18 |  |
 | [livrasand/codetrackr-zed](https://github.com/livrasand/codetrackr-zed) | 0 | 2026-06-18 | Zed plugin for automatic time tracking and metrics generated... |
 | [FollowTheProcess/zed-txtar](https://github.com/FollowTheProcess/zed-txtar) | 0 | 2026-06-18 | A Zed extension providing syntax highlighting for txtar file... |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 193 | 2026-06-18 | Zed plugin for automatic time tracking and metrics generated... |
@@ -138,13 +140,12 @@ cd website && npm install && npm run dev
 | [Sha1rholder/polycarbonate-dark-theme](https://github.com/Sha1rholder/polycarbonate-dark-theme) | 1 | 2026-06-16 | Turn Zed into a clean slab of dark glass. |
 | [joangarciaa-dev/zed-symbols](https://github.com/joangarciaa-dev/zed-symbols) | 24 | 2026-06-16 | A simple file icon theme for Zed. |
 | [begprod/quantum-zed](https://github.com/begprod/quantum-zed) | 0 | 2026-06-15 | A dark theme for Zed inspired by the space |
-| [dunyakirkali/zed-asciidoc](https://github.com/dunyakirkali/zed-asciidoc) | 20 | 2026-06-15 | Zed support for AsciiDoc syntax |
-| [Adriusops/Buisson](https://github.com/Adriusops/Buisson) | 3 | 2026-06-15 | An inky botanical color scheme |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-19T00:50 | 1 | 473 | 1853 |
 | 2026-06-18T18:48 | 1 | 472 | 1852 |
 | 2026-06-18T13:09 | 0 | 473 | 1851 |
 | 2026-06-18T07:41 | 0 | 473 | 1851 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-17T07:49 | 2 | 469 | 1847 |
 | 2026-06-17T00:45 | 1 | 468 | 1845 |
 | 2026-06-16T19:13 | 1 | 468 | 1844 |
-| 2026-06-16T13:45 | 0 | 468 | 1843 |
 
 ---
 
