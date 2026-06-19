@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1550** |
 | In official registry | 1113 |
 | Discovered via topics | 437 |
-| Last updated | 2026-06-19 00:50 UTC |
+| Last updated | 2026-06-19 07:52 UTC |
 
 ### By capability
 
@@ -102,7 +102,7 @@ cd website && npm install && npm run dev
 | [catppuccin/zed-icons](https://github.com/catppuccin/zed-icons) | 240 | 🦊 Soothing pastel icons for Zed |
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 193 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 192 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
 | [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 179 | Zed support for the Godot game engine and the GDScript language |
@@ -120,14 +120,14 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 86 | 2026-06-19 | True Dark Theme for Zed IDE |
 | [livrasand/zed-svg](https://github.com/livrasand/zed-svg) | 0 | 2026-06-18 | The SVG syntax highlighting support for Zed editor |
 | [SiennaTransfer4/zed-rego](https://github.com/SiennaTransfer4/zed-rego) | 2 | 2026-06-18 |  |
 | [livrasand/codetrackr-zed](https://github.com/livrasand/codetrackr-zed) | 0 | 2026-06-18 | Zed plugin for automatic time tracking and metrics generated... |
 | [FollowTheProcess/zed-txtar](https://github.com/FollowTheProcess/zed-txtar) | 0 | 2026-06-18 | A Zed extension providing syntax highlighting for txtar file... |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 193 | 2026-06-18 | Zed plugin for automatic time tracking and metrics generated... |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 192 | 2026-06-18 | Zed plugin for automatic time tracking and metrics generated... |
 | [whistlebee/zed-mojo](https://github.com/whistlebee/zed-mojo) | 1 | 2026-06-18 | Mojo LSP/Syntax/Debugger support for Zed |
 | [tbxark/vscode2026-theme-zed](https://github.com/tbxark/vscode2026-theme-zed) | 0 | 2026-06-18 | VS Code 2026 theme for Zed |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 86 | 2026-06-18 | True Dark Theme for Zed IDE |
 | [mnemodoc/zed-mnemodoc](https://github.com/mnemodoc/zed-mnemodoc) | 0 | 2026-06-18 | Zed extension that wires mnemodoc-server into Zed's AI assis... |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 128 | 2026-06-18 | The Ruby language support for Zed editor |
 | [madkarmaa/zed-onedark-pro-blur](https://github.com/madkarmaa/zed-onedark-pro-blur) | 0 | 2026-06-17 | OneDark Pro port for Zed with blur effects |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-19T07:52 | 0 | 474 | 1853 |
 | 2026-06-19T00:50 | 1 | 473 | 1853 |
 | 2026-06-18T18:48 | 1 | 472 | 1852 |
 | 2026-06-18T13:09 | 0 | 473 | 1851 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-17T13:15 | 1 | 470 | 1848 |
 | 2026-06-17T07:49 | 2 | 469 | 1847 |
 | 2026-06-17T00:45 | 1 | 468 | 1845 |
-| 2026-06-16T19:13 | 1 | 468 | 1844 |
 
 ---
 
