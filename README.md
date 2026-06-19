@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1551** |
 | In official registry | 1113 |
 | Discovered via topics | 438 |
-| Last updated | 2026-06-19 13:11 UTC |
+| Last updated | 2026-06-19 18:36 UTC |
 
 ### By capability
 
@@ -114,12 +114,13 @@ cd website && npm install && npm run dev
 | [nathansbradshaw/zed-angular](https://github.com/nathansbradshaw/zed-angular) | 144 |  |
 | [zed-extensions/swift](https://github.com/zed-extensions/swift) | 142 | Extension for Zed to support Swift |
 | [zed-extensions/csharp](https://github.com/zed-extensions/csharp) | 139 | C# support |
-| [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 134 |  |
+| [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 135 |  |
 
 ## Recently active
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-06-19 | A Zed extension that allows to highlight all occurrences of ... |
 | [cf-lang/zed](https://github.com/cf-lang/zed) | 1 | 2026-06-19 | Zed editor support for the C! programming language. |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 86 | 2026-06-19 | True Dark Theme for Zed IDE |
 | [livrasand/zed-svg](https://github.com/livrasand/zed-svg) | 0 | 2026-06-18 | The SVG syntax highlighting support for Zed editor |
@@ -137,7 +138,6 @@ cd website && npm install && npm run dev
 | [pataruco/zed-mjml](https://github.com/pataruco/zed-mjml) | 1 | 2026-06-16 | MJML syntax support for Zed |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 146 | 2026-06-16 | 🦊 Zed editor theme ported from Neovim |
 | [alanisme/vscode-themes-for-zed](https://github.com/alanisme/vscode-themes-for-zed) | 11 | 2026-06-16 | ❤️ All 19 built-in Visual Studio Code color themes, ported t... |
-| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-06-16 | A Zed extension that allows to highlight all occurrences of ... |
 | [Sha1rholder/polycarbonate-dark-theme](https://github.com/Sha1rholder/polycarbonate-dark-theme) | 1 | 2026-06-16 | Turn Zed into a clean slab of dark glass. |
 | [joangarciaa-dev/zed-symbols](https://github.com/joangarciaa-dev/zed-symbols) | 24 | 2026-06-16 | A simple file icon theme for Zed. |
 
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-19T18:36 | 1 | 475 | 1855 |
 | 2026-06-19T13:11 | 1 | 474 | 1854 |
 | 2026-06-19T07:52 | 0 | 474 | 1853 |
 | 2026-06-19T00:50 | 1 | 473 | 1853 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-18T00:46 | 2 | 471 | 1851 |
 | 2026-06-17T18:49 | 1 | 471 | 1849 |
 | 2026-06-17T13:15 | 1 | 470 | 1848 |
-| 2026-06-17T07:49 | 2 | 469 | 1847 |
 
 ---
 
