@@ -156,8 +156,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-06-19T02:59:27Z",
-    "pushed_at": "2026-06-19T02:59:24Z",
+    "updated_at": "2026-06-20T02:58:27Z",
+    "pushed_at": "2026-06-20T02:58:24Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -279,7 +279,7 @@
     "name": "Nako0/devglobe-extension",
     "url": "https://github.com/Nako0/devglobe-extension",
     "description": "Official Extensions for DevGlobe. Show up on a 3D globe in real time while you code, with automatic time tracking and coding metrics.",
-    "stars": 160,
+    "stars": 161,
     "forks": 9,
     "topics": [
       "claude-code-plugin",
@@ -299,7 +299,7 @@
     "language": "TypeScript",
     "license": "MIT",
     "created_at": "2026-03-06T15:12:36Z",
-    "updated_at": "2026-06-20T00:16:45Z",
+    "updated_at": "2026-06-20T06:46:15Z",
     "pushed_at": "2026-06-19T07:22:24Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
@@ -15700,7 +15700,7 @@
     "name": "agent-sh/agnix",
     "url": "https://github.com/agent-sh/agnix",
     "description": "The missing linter and lsp for AI coding assistants. Validate CLAUDE.md, AGENTS.md, SKILL.md, hooks, MCP. Plugin for all major IDEs included, with autofixes.",
-    "stars": 293,
+    "stars": 294,
     "forks": 28,
     "topics": [
       "agent",
@@ -15727,7 +15727,7 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
-    "updated_at": "2026-06-19T20:24:10Z",
+    "updated_at": "2026-06-20T03:15:33Z",
     "pushed_at": "2026-06-19T19:44:25Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
@@ -17676,13 +17676,13 @@
     "name": "joshuablais/compline",
     "url": "https://github.com/joshuablais/compline",
     "description": "A color palette for Deep contemplation and work",
-    "stars": 111,
+    "stars": 112,
     "forks": 16,
     "topics": [],
     "language": "CSS",
     "license": "GPL-3.0",
     "created_at": "2025-10-31T19:02:45Z",
-    "updated_at": "2026-06-13T10:07:53Z",
+    "updated_at": "2026-06-20T01:12:31Z",
     "pushed_at": "2026-01-20T17:25:47Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
@@ -18286,8 +18286,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-06-19T18:37:32Z",
-    "pushed_at": "2026-06-19T18:37:28Z",
+    "updated_at": "2026-06-20T00:41:27Z",
+    "pushed_at": "2026-06-20T00:41:24Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -29250,8 +29250,8 @@
     "language": null,
     "license": null,
     "created_at": "2026-05-25T05:34:31Z",
-    "updated_at": "2026-06-15T23:42:50Z",
-    "pushed_at": "2026-06-15T23:42:46Z",
+    "updated_at": "2026-06-20T01:34:49Z",
+    "pushed_at": "2026-06-20T01:34:45Z",
     "discovered_at": "2026-05-26T07:12:20.287Z",
     "official": false
   },
@@ -30310,8 +30310,8 @@
     "language": "Rust",
     "license": null,
     "created_at": "2026-06-09T22:36:14Z",
-    "updated_at": "2026-06-19T23:40:44Z",
-    "pushed_at": "2026-06-19T23:40:39Z",
+    "updated_at": "2026-06-20T06:21:32Z",
+    "pushed_at": "2026-06-20T06:21:28Z",
     "discovered_at": "2026-06-10T00:43:30.823Z",
     "official": false
   },
@@ -31289,5 +31289,54 @@
     "pushed_at": "2026-05-29T09:27:53Z",
     "discovered_at": "2026-06-20T00:40:53.680Z",
     "official": true
+  },
+  "pol-cova/vercel-theme": {
+    "name": "pol-cova/vercel-theme",
+    "url": "https://github.com/pol-cova/vercel-theme",
+    "description": "A minimal Vercel-inspired Zed theme with light and dark variants.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "dark-theme",
+      "developer-tools",
+      "editor-theme",
+      "geist",
+      "light-theme",
+      "theme",
+      "vercel",
+      "zed",
+      "zed-theme"
+    ],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-06-20T04:03:54Z",
+    "updated_at": "2026-06-20T04:09:33Z",
+    "pushed_at": "2026-06-20T04:09:30Z",
+    "discovered_at": "2026-06-20T07:20:31.431Z",
+    "official": false
+  },
+  "pol-cova/cursor-theme-zed": {
+    "name": "pol-cova/cursor-theme-zed",
+    "url": "https://github.com/pol-cova/cursor-theme-zed",
+    "description": "A warm Cursor-inspired Zed theme with light and dark variants.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "cursor",
+      "dark-theme",
+      "developer-tools",
+      "editor-theme",
+      "light-theme",
+      "theme",
+      "zed",
+      "zed-theme"
+    ],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-06-20T03:43:39Z",
+    "updated_at": "2026-06-20T04:00:33Z",
+    "pushed_at": "2026-06-20T04:00:30Z",
+    "discovered_at": "2026-06-20T07:20:31.431Z",
+    "official": false
   }
 }
