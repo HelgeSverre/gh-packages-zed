@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1559** |
 | In official registry | 1119 |
 | Discovered via topics | 440 |
-| Last updated | 2026-06-20 12:36 UTC |
+| Last updated | 2026-06-20 18:30 UTC |
 
 ### By capability
 
@@ -120,13 +120,13 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-06-20 | A Zed extension that allows to highlight all occurrences of ... |
 | [pataruco/zed-mjml](https://github.com/pataruco/zed-mjml) | 1 | 2026-06-20 | MJML syntax support for Zed |
 | [pol-cova/vercel-theme](https://github.com/pol-cova/vercel-theme) | 0 | 2026-06-20 | A minimal Vercel-inspired Zed theme with light and dark vari... |
 | [pol-cova/cursor-theme-zed](https://github.com/pol-cova/cursor-theme-zed) | 0 | 2026-06-20 | A warm Cursor-inspired Zed theme with light and dark variant... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 86 | 2026-06-20 | True Dark Theme for Zed IDE |
 | [frypan05/Lumin](https://github.com/frypan05/Lumin) | 29 | 2026-06-19 | Minimalistic everyday theme for Zed. |
 | [FollowTheProcess/zed-txtar](https://github.com/FollowTheProcess/zed-txtar) | 0 | 2026-06-19 | A Zed extension providing syntax highlighting for txtar file... |
-| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-06-19 | A Zed extension that allows to highlight all occurrences of ... |
 | [cf-lang/zed](https://github.com/cf-lang/zed) | 1 | 2026-06-19 | Zed editor support for the C! programming language. |
 | [livrasand/zed-svg](https://github.com/livrasand/zed-svg) | 0 | 2026-06-18 | The SVG syntax highlighting support for Zed editor |
 | [SiennaTransfer4/zed-rego](https://github.com/SiennaTransfer4/zed-rego) | 2 | 2026-06-18 |  |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-20T18:30 | 0 | 476 | 1864 |
 | 2026-06-20T12:36 | 0 | 476 | 1864 |
 | 2026-06-20T07:20 | 2 | 474 | 1864 |
 | 2026-06-20T00:40 | 7 | 475 | 1862 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-19T00:50 | 1 | 473 | 1853 |
 | 2026-06-18T18:48 | 1 | 472 | 1852 |
 | 2026-06-18T13:09 | 0 | 473 | 1851 |
-| 2026-06-18T07:41 | 0 | 473 | 1851 |
 
 ---
 
