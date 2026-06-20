@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1559** |
 | In official registry | 1119 |
 | Discovered via topics | 440 |
-| Last updated | 2026-06-20 07:20 UTC |
+| Last updated | 2026-06-20 12:36 UTC |
 
 ### By capability
 
@@ -114,12 +114,13 @@ cd website && npm install && npm run dev
 | [nathansbradshaw/zed-angular](https://github.com/nathansbradshaw/zed-angular) | 144 |  |
 | [zed-extensions/swift](https://github.com/zed-extensions/swift) | 142 | Extension for Zed to support Swift |
 | [zed-extensions/csharp](https://github.com/zed-extensions/csharp) | 139 | C# support |
-| [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 135 |  |
+| [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 136 |  |
 
 ## Recently active
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [pataruco/zed-mjml](https://github.com/pataruco/zed-mjml) | 1 | 2026-06-20 | MJML syntax support for Zed |
 | [pol-cova/vercel-theme](https://github.com/pol-cova/vercel-theme) | 0 | 2026-06-20 | A minimal Vercel-inspired Zed theme with light and dark vari... |
 | [pol-cova/cursor-theme-zed](https://github.com/pol-cova/cursor-theme-zed) | 0 | 2026-06-20 | A warm Cursor-inspired Zed theme with light and dark variant... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 86 | 2026-06-20 | True Dark Theme for Zed IDE |
@@ -138,13 +139,13 @@ cd website && npm install && npm run dev
 | [madkarmaa/zed-onedark-pro-blur](https://github.com/madkarmaa/zed-onedark-pro-blur) | 0 | 2026-06-17 | OneDark Pro port for Zed with blur effects |
 | [LaurenceRawlings/zed-one-dark-pro-night-flat](https://github.com/LaurenceRawlings/zed-one-dark-pro-night-flat) | 0 | 2026-06-17 | A port of VSCode One Dark Pro Night Flat theme |
 | [alvgaona/zed-black-metal](https://github.com/alvgaona/zed-black-metal) | 0 | 2026-06-16 | Pitch-black base16 Black Metal themes for Zed — 11 band vari... |
-| [pataruco/zed-mjml](https://github.com/pataruco/zed-mjml) | 1 | 2026-06-16 | MJML syntax support for Zed |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 146 | 2026-06-16 | 🦊 Zed editor theme ported from Neovim |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-20T12:36 | 0 | 476 | 1864 |
 | 2026-06-20T07:20 | 2 | 474 | 1864 |
 | 2026-06-20T00:40 | 7 | 475 | 1862 |
 | 2026-06-19T18:36 | 1 | 475 | 1855 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-18T18:48 | 1 | 472 | 1852 |
 | 2026-06-18T13:09 | 0 | 473 | 1851 |
 | 2026-06-18T07:41 | 0 | 473 | 1851 |
-| 2026-06-18T00:46 | 2 | 471 | 1851 |
 
 ---
 
