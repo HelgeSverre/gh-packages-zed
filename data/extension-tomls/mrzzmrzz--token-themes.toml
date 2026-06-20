@@ -1,0 +1,8 @@
+id = "token-themes"
+name = "Token-themes"
+version = "0.0.1"
+schema_version = 1
+authors = ["Thorsten Rhau", "Mrzz <runze.ma@outlook.com>"]
+description = "A warm, muted Token theme family for Zed with light and dark variants."
+repository = "https://github.com/mrzzmrzz/token-themes.git"
+themes = ["themes/token-themes.json"]

@@ -1,0 +1,8 @@
+id = "latex-snippets"
+name = "LaTeX Snippets"
+version = "0.0.1"
+schema_version = 1
+authors = ["Oneptica <dev@oneptica.com>"]
+description = "LaTeX snippets for common patterns. Install alongside a LaTeX language extension for full support."
+repository = "https://github.com/Oneptica/Zed-LaTeX-Snippets"
+snippets = ["./snippets/latex.json"]
