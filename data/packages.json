@@ -279,7 +279,7 @@
     "name": "Nako0/devglobe-extension",
     "url": "https://github.com/Nako0/devglobe-extension",
     "description": "Official Extensions for DevGlobe. Show up on a 3D globe in real time while you code, with automatic time tracking and coding metrics.",
-    "stars": 164,
+    "stars": 165,
     "forks": 9,
     "topics": [
       "claude-code-plugin",
@@ -299,7 +299,7 @@
     "language": "TypeScript",
     "license": "MIT",
     "created_at": "2026-03-06T15:12:36Z",
-    "updated_at": "2026-06-21T11:24:07Z",
+    "updated_at": "2026-06-21T13:01:08Z",
     "pushed_at": "2026-06-19T07:22:24Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
@@ -2333,7 +2333,7 @@
     "name": "chopratejas/headroom-zed",
     "url": "https://github.com/chopratejas/headroom-zed",
     "description": "Zed extension for Headroom — context compression for AI agents",
-    "stars": 21,
+    "stars": 22,
     "forks": 2,
     "topics": [
       "ai-agents",
@@ -2350,7 +2350,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-03-18T16:55:33Z",
-    "updated_at": "2026-06-21T12:20:24Z",
+    "updated_at": "2026-06-21T17:52:06Z",
     "pushed_at": "2026-03-18T16:55:38Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
@@ -5337,7 +5337,7 @@
     "name": "Dylanmurzello/zed-android-port",
     "url": "https://github.com/Dylanmurzello/zed-android-port",
     "description": "Native Android port of the Zed code editor,  gpui rendering through Vulkan, integrated Termux for LSPs and tooling, remote SSH support. Runs as an APK on tablets and Android desktop modes.",
-    "stars": 98,
+    "stars": 99,
     "forks": 8,
     "topics": [
       "android",
@@ -5364,7 +5364,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-05-07T00:12:10Z",
-    "updated_at": "2026-06-20T11:20:37Z",
+    "updated_at": "2026-06-21T17:26:30Z",
     "pushed_at": "2026-06-05T21:34:45Z",
     "discovered_at": "2026-05-19T19:54:12.053Z",
     "official": false
@@ -15700,7 +15700,7 @@
     "name": "agent-sh/agnix",
     "url": "https://github.com/agent-sh/agnix",
     "description": "The missing linter and lsp for AI coding assistants. Validate CLAUDE.md, AGENTS.md, SKILL.md, hooks, MCP. Plugin for all major IDEs included, with autofixes.",
-    "stars": 295,
+    "stars": 296,
     "forks": 29,
     "topics": [
       "agent",
@@ -15727,8 +15727,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
-    "updated_at": "2026-06-21T11:58:13Z",
-    "pushed_at": "2026-06-21T12:33:31Z",
+    "updated_at": "2026-06-21T14:53:42Z",
+    "pushed_at": "2026-06-21T14:53:39Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -18286,8 +18286,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-06-21T07:38:57Z",
-    "pushed_at": "2026-06-21T07:38:53Z",
+    "updated_at": "2026-06-21T12:40:23Z",
+    "pushed_at": "2026-06-21T12:40:19Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -31356,6 +31356,27 @@
     "updated_at": "2026-06-21T09:59:38Z",
     "pushed_at": "2026-06-16T13:12:55Z",
     "discovered_at": "2026-06-21T12:39:48.605Z",
+    "official": false
+  },
+  "aquifer-labs/artesian-zed": {
+    "name": "aquifer-labs/artesian-zed",
+    "url": "https://github.com/aquifer-labs/artesian-zed",
+    "description": "Memory control for AI agents in Zed — the Artesian MCP server as a Zed context server. Reference: aquifer-labs/artesian.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "agent-memory",
+      "artesian",
+      "mcp",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "created_at": "2026-06-21T13:39:35Z",
+    "updated_at": "2026-06-21T13:40:14Z",
+    "pushed_at": "2026-06-21T13:39:37Z",
+    "discovered_at": "2026-06-21T18:31:41.542Z",
     "official": false
   }
 }
