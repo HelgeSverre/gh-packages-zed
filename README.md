@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1559** |
 | In official registry | 1119 |
 | Discovered via topics | 440 |
-| Last updated | 2026-06-21 00:44 UTC |
+| Last updated | 2026-06-21 07:38 UTC |
 
 ### By capability
 
@@ -97,7 +97,7 @@ cd website && npm install && npm run dev
 |---|---|---|
 | [biomejs/biome-zed](https://github.com/biomejs/biome-zed) | 466 | Biome extension for Zed |
 | [xhyrom/zed-discord-presence](https://github.com/xhyrom/zed-discord-presence) | 415 | extension for zed that adds support for discord rich presence using lsp |
-| [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 326 | Catppuccin Theme but as blurred variants + custom ones |
+| [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 327 | Catppuccin Theme but as blurred variants + custom ones |
 | [oxc-project/oxc-zed](https://github.com/oxc-project/oxc-zed) | 256 | Oxc extension for Zed |
 | [catppuccin/zed-icons](https://github.com/catppuccin/zed-icons) | 240 | 🦊 Soothing pastel icons for Zed |
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
@@ -109,7 +109,7 @@ cd website && npm install && npm run dev
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 176 | Typst extension for zed |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 160 | A macOS native style theme for Zed, let it same like native app in macOS. |
 | [thedadams/zed-comment](https://github.com/thedadams/zed-comment) | 148 | A comment extension for the Zed editor |
-| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 146 | 🦊 Zed editor theme ported from Neovim |
+| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 147 | 🦊 Zed editor theme ported from Neovim |
 | [slymax/zedokai](https://github.com/slymax/zedokai) | 145 | a theme for Zed based on the Monokai Pro color scheme |
 | [nathansbradshaw/zed-angular](https://github.com/nathansbradshaw/zed-angular) | 144 |  |
 | [zed-extensions/swift](https://github.com/zed-extensions/swift) | 142 | Extension for Zed to support Swift |
@@ -120,11 +120,12 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 86 | 2026-06-21 | True Dark Theme for Zed IDE |
+| [skunpro/react-forge](https://github.com/skunpro/react-forge) | 4 | 2026-06-21 | Zed MCP server extension for ecosystem-aware React component... |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-06-20 | A Zed extension that allows to highlight all occurrences of ... |
 | [pataruco/zed-mjml](https://github.com/pataruco/zed-mjml) | 1 | 2026-06-20 | MJML syntax support for Zed |
 | [pol-cova/vercel-theme](https://github.com/pol-cova/vercel-theme) | 0 | 2026-06-20 | A minimal Vercel-inspired Zed theme with light and dark vari... |
 | [pol-cova/cursor-theme-zed](https://github.com/pol-cova/cursor-theme-zed) | 0 | 2026-06-20 | A warm Cursor-inspired Zed theme with light and dark variant... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 86 | 2026-06-20 | True Dark Theme for Zed IDE |
 | [frypan05/Lumin](https://github.com/frypan05/Lumin) | 29 | 2026-06-19 | Minimalistic everyday theme for Zed. |
 | [FollowTheProcess/zed-txtar](https://github.com/FollowTheProcess/zed-txtar) | 0 | 2026-06-19 | A Zed extension providing syntax highlighting for txtar file... |
 | [cf-lang/zed](https://github.com/cf-lang/zed) | 1 | 2026-06-19 | Zed editor support for the C! programming language. |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [madkarmaa/zed-onedark-pro-blur](https://github.com/madkarmaa/zed-onedark-pro-blur) | 0 | 2026-06-17 | OneDark Pro port for Zed with blur effects |
 | [LaurenceRawlings/zed-one-dark-pro-night-flat](https://github.com/LaurenceRawlings/zed-one-dark-pro-night-flat) | 0 | 2026-06-17 | A port of VSCode One Dark Pro Night Flat theme |
 | [alvgaona/zed-black-metal](https://github.com/alvgaona/zed-black-metal) | 0 | 2026-06-16 | Pitch-black base16 Black Metal themes for Zed — 11 band vari... |
-| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 146 | 2026-06-16 | 🦊 Zed editor theme ported from Neovim |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-21T07:38 | 0 | 476 | 1864 |
 | 2026-06-21T00:44 | 0 | 476 | 1864 |
 | 2026-06-20T18:30 | 0 | 476 | 1864 |
 | 2026-06-20T12:36 | 0 | 476 | 1864 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-19T13:11 | 1 | 474 | 1854 |
 | 2026-06-19T07:52 | 0 | 474 | 1853 |
 | 2026-06-19T00:50 | 1 | 473 | 1853 |
-| 2026-06-18T18:48 | 1 | 472 | 1852 |
 
 ---
 
