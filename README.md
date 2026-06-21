@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1559** |
 | In official registry | 1119 |
 | Discovered via topics | 440 |
-| Last updated | 2026-06-20 18:30 UTC |
+| Last updated | 2026-06-21 00:44 UTC |
 
 ### By capability
 
@@ -114,7 +114,7 @@ cd website && npm install && npm run dev
 | [nathansbradshaw/zed-angular](https://github.com/nathansbradshaw/zed-angular) | 144 |  |
 | [zed-extensions/swift](https://github.com/zed-extensions/swift) | 142 | Extension for Zed to support Swift |
 | [zed-extensions/csharp](https://github.com/zed-extensions/csharp) | 139 | C# support |
-| [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 136 |  |
+| [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 137 |  |
 
 ## Recently active
 
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-21T00:44 | 0 | 476 | 1864 |
 | 2026-06-20T18:30 | 0 | 476 | 1864 |
 | 2026-06-20T12:36 | 0 | 476 | 1864 |
 | 2026-06-20T07:20 | 2 | 474 | 1864 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-19T07:52 | 0 | 474 | 1853 |
 | 2026-06-19T00:50 | 1 | 473 | 1853 |
 | 2026-06-18T18:48 | 1 | 472 | 1852 |
-| 2026-06-18T13:09 | 0 | 473 | 1851 |
 
 ---
 
