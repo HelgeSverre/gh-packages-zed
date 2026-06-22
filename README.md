@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1562** |
 | In official registry | 1119 |
 | Discovered via topics | 443 |
-| Last updated | 2026-06-22 00:44 UTC |
+| Last updated | 2026-06-22 07:59 UTC |
 
 ### By capability
 
@@ -112,17 +112,17 @@ cd website && npm install && npm run dev
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 147 | 🦊 Zed editor theme ported from Neovim |
 | [slymax/zedokai](https://github.com/slymax/zedokai) | 145 | a theme for Zed based on the Monokai Pro color scheme |
 | [nathansbradshaw/zed-angular](https://github.com/nathansbradshaw/zed-angular) | 144 |  |
-| [zed-extensions/swift](https://github.com/zed-extensions/swift) | 142 | Extension for Zed to support Swift |
+| [zed-extensions/swift](https://github.com/zed-extensions/swift) | 143 | Extension for Zed to support Swift |
 | [zed-extensions/csharp](https://github.com/zed-extensions/csharp) | 139 | C# support |
-| [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 137 |  |
+| [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 138 |  |
 
 ## Recently active
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 86 | 2026-06-22 | True Dark Theme for Zed IDE |
 | [aquifer-labs/artesian-zed](https://github.com/aquifer-labs/artesian-zed) | 0 | 2026-06-21 | Memory control for AI agents in Zed — the Artesian MCP serve... |
 | [bhavya-dang/Solace](https://github.com/bhavya-dang/Solace) | 2 | 2026-06-21 | A minimalistic theme with violet accents and pastel syntax. ... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 86 | 2026-06-21 | True Dark Theme for Zed IDE |
 | [skunpro/react-forge](https://github.com/skunpro/react-forge) | 4 | 2026-06-21 | Zed MCP server extension for ecosystem-aware React component... |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-06-20 | A Zed extension that allows to highlight all occurrences of ... |
 | [pataruco/zed-mjml](https://github.com/pataruco/zed-mjml) | 1 | 2026-06-20 | MJML syntax support for Zed |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-22T07:59 | 0 | 480 | 1868 |
 | 2026-06-22T00:44 | 2 | 478 | 1868 |
 | 2026-06-21T18:31 | 1 | 477 | 1866 |
 | 2026-06-21T12:39 | 1 | 476 | 1865 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-20T12:36 | 0 | 476 | 1864 |
 | 2026-06-20T07:20 | 2 | 474 | 1864 |
 | 2026-06-20T00:40 | 7 | 475 | 1862 |
-| 2026-06-19T18:36 | 1 | 475 | 1855 |
 
 ---
 
