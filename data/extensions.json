@@ -3694,7 +3694,7 @@
     "url": "https://github.com/chopratejas/headroom-zed",
     "description": "Zed extension for Headroom — context compression for AI agents",
     "stars": 22,
-    "forks": 2,
+    "forks": 3,
     "topics": [
       "ai-agents",
       "coding-agents",
@@ -53235,8 +53235,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-06-21T13:39:35Z",
-    "updated_at": "2026-06-21T13:40:14Z",
-    "pushed_at": "2026-06-21T13:39:37Z",
+    "updated_at": "2026-06-21T20:10:23Z",
+    "pushed_at": "2026-06-21T20:10:19Z",
     "discovered_at": "2026-06-21T18:31:41.542Z",
     "official": false,
     "extension": {
@@ -53254,6 +53254,43 @@
       ],
       "categories": [
         "context-server"
+      ]
+    }
+  },
+  "bhavya-dang/solace": {
+    "name": "bhavya-dang/Solace",
+    "url": "https://github.com/bhavya-dang/Solace",
+    "description": "A minimalistic theme with violet accents and pastel syntax. For Zed.",
+    "stars": 2,
+    "forks": 0,
+    "topics": [
+      "code-editor-extension",
+      "editor-theme",
+      "zed",
+      "zed-extension",
+      "zed-theme"
+    ],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-06-21T17:14:44Z",
+    "updated_at": "2026-06-21T18:40:54Z",
+    "pushed_at": "2026-06-21T17:39:10Z",
+    "discovered_at": "2026-06-22T00:44:44.143Z",
+    "official": false,
+    "extension": {
+      "id": "solace-theme",
+      "name": "Solace",
+      "description": "A minimalistic theme with lavender accents and pastel syntax.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Bhavya Dang (bhavyadang.in)"
+      ],
+      "repository": "https://github.com/bhavya-dang/Solace",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
       ]
     }
   }
