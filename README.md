@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1562-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1563-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,16 +14,16 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1562** |
+| Total tracked | **1563** |
 | In official registry | 1119 |
-| Discovered via topics | 443 |
-| Last updated | 2026-06-22 07:59 UTC |
+| Discovered via topics | 444 |
+| Last updated | 2026-06-22 13:53 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
-| Themes | 647 |
+| Themes | 648 |
 | Grammars | 547 |
 | Language Servers | 508 |
 | Context Servers | 129 |
@@ -70,7 +70,8 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
-| [bhavya-dang/Solace](https://github.com/bhavya-dang/Solace) | 2 | A minimalistic theme with violet accents and pastel syntax. For Zed. |
+| [CibiAananth/zed-vercel-italics](https://github.com/CibiAananth/zed-vercel-italics) | 0 | Vercel light and dark themes for Zed, with Night Owl-style italic syntax highlig... |
+| [bhavya-dang/Solace](https://github.com/bhavya-dang/Solace) | 3 | A minimalistic theme with violet accents and pastel syntax. For Zed. |
 | [aquifer-labs/artesian-zed](https://github.com/aquifer-labs/artesian-zed) | 0 | Memory control for AI agents in Zed — the Artesian MCP server as a Zed context s... |
 | [ronketer/nand2tetris-for-Zed](https://github.com/ronketer/nand2tetris-for-Zed) | 0 | An extension for Zed code editor  which adds support for nand2tetris online cour... |
 | [pol-cova/vercel-theme](https://github.com/pol-cova/vercel-theme) | 0 | A minimal Vercel-inspired Zed theme with light and dark variants. |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [mnemodoc/zed-mnemodoc](https://github.com/mnemodoc/zed-mnemodoc) | 0 | Zed extension that wires mnemodoc-server into Zed's AI assistant — local, privat... |
 | [alvgaona/zed-black-metal](https://github.com/alvgaona/zed-black-metal) | 0 | Pitch-black base16 Black Metal themes for Zed — 11 band variants, each with a fr... |
 | [SM2507/blueprint-dark-theme](https://github.com/SM2507/blueprint-dark-theme) | 0 | A dark theme for the Zed code editor |
-| [joangarciaa-dev/zed-symbols](https://github.com/joangarciaa-dev/zed-symbols) | 24 | A simple file icon theme for Zed. |
 
 ## Top starred (under 500)
 
@@ -120,9 +120,11 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Adriusops/Buisson](https://github.com/Adriusops/Buisson) | 3 | 2026-06-22 | An inky botanical color scheme |
+| [CibiAananth/zed-vercel-italics](https://github.com/CibiAananth/zed-vercel-italics) | 0 | 2026-06-22 | Vercel light and dark themes for Zed, with Night Owl-style i... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 86 | 2026-06-22 | True Dark Theme for Zed IDE |
 | [aquifer-labs/artesian-zed](https://github.com/aquifer-labs/artesian-zed) | 0 | 2026-06-21 | Memory control for AI agents in Zed — the Artesian MCP serve... |
-| [bhavya-dang/Solace](https://github.com/bhavya-dang/Solace) | 2 | 2026-06-21 | A minimalistic theme with violet accents and pastel syntax. ... |
+| [bhavya-dang/Solace](https://github.com/bhavya-dang/Solace) | 3 | 2026-06-21 | A minimalistic theme with violet accents and pastel syntax. ... |
 | [skunpro/react-forge](https://github.com/skunpro/react-forge) | 4 | 2026-06-21 | Zed MCP server extension for ecosystem-aware React component... |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-06-20 | A Zed extension that allows to highlight all occurrences of ... |
 | [pataruco/zed-mjml](https://github.com/pataruco/zed-mjml) | 1 | 2026-06-20 | MJML syntax support for Zed |
@@ -138,13 +140,12 @@ cd website && npm install && npm run dev
 | [whistlebee/zed-mojo](https://github.com/whistlebee/zed-mojo) | 1 | 2026-06-18 | Mojo LSP/Syntax/Debugger support for Zed |
 | [tbxark/vscode2026-theme-zed](https://github.com/tbxark/vscode2026-theme-zed) | 0 | 2026-06-18 | VS Code 2026 theme for Zed |
 | [mnemodoc/zed-mnemodoc](https://github.com/mnemodoc/zed-mnemodoc) | 0 | 2026-06-18 | Zed extension that wires mnemodoc-server into Zed's AI assis... |
-| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 128 | 2026-06-18 | The Ruby language support for Zed editor |
-| [madkarmaa/zed-onedark-pro-blur](https://github.com/madkarmaa/zed-onedark-pro-blur) | 0 | 2026-06-17 | OneDark Pro port for Zed with blur effects |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-22T13:53 | 1 | 480 | 1869 |
 | 2026-06-22T07:59 | 0 | 480 | 1868 |
 | 2026-06-22T00:44 | 2 | 478 | 1868 |
 | 2026-06-21T18:31 | 1 | 477 | 1866 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-20T18:30 | 0 | 476 | 1864 |
 | 2026-06-20T12:36 | 0 | 476 | 1864 |
 | 2026-06-20T07:20 | 2 | 474 | 1864 |
-| 2026-06-20T00:40 | 7 | 475 | 1862 |
 
 ---
 

@@ -279,7 +279,7 @@
     "name": "Nako0/devglobe-extension",
     "url": "https://github.com/Nako0/devglobe-extension",
     "description": "Official Extensions for DevGlobe. Show up on a 3D globe in real time while you code, with automatic time tracking and coding metrics.",
-    "stars": 169,
+    "stars": 170,
     "forks": 9,
     "topics": [
       "claude-code-plugin",
@@ -299,7 +299,7 @@
     "language": "TypeScript",
     "license": "MIT",
     "created_at": "2026-03-06T15:12:36Z",
-    "updated_at": "2026-06-22T07:31:35Z",
+    "updated_at": "2026-06-22T10:09:11Z",
     "pushed_at": "2026-06-19T07:22:24Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
@@ -367,8 +367,8 @@
     "name": "BenjaminHalko/flow-icons-zed",
     "url": "https://github.com/BenjaminHalko/flow-icons-zed",
     "description": "🌼 Flow Icons ported to Zed",
-    "stars": 24,
-    "forks": 2,
+    "stars": 26,
+    "forks": 3,
     "topics": [
       "flow",
       "glassmorphism",
@@ -380,7 +380,7 @@
     "language": "JavaScript",
     "license": null,
     "created_at": "2025-12-03T23:34:48Z",
-    "updated_at": "2026-06-19T19:07:35Z",
+    "updated_at": "2026-06-22T12:41:34Z",
     "pushed_at": "2026-06-01T17:28:35Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
@@ -2333,7 +2333,7 @@
     "name": "chopratejas/headroom-zed",
     "url": "https://github.com/chopratejas/headroom-zed",
     "description": "Zed extension for Headroom — context compression for AI agents",
-    "stars": 23,
+    "stars": 24,
     "forks": 3,
     "topics": [
       "ai-agents",
@@ -2350,7 +2350,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-03-18T16:55:33Z",
-    "updated_at": "2026-06-22T05:11:01Z",
+    "updated_at": "2026-06-22T13:49:55Z",
     "pushed_at": "2026-03-18T16:55:38Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
@@ -2413,7 +2413,7 @@
     "name": "huacnlee/zed-extension-action",
     "url": "https://github.com/huacnlee/zed-extension-action",
     "description": "GitHub Action for automatically bump Zed Extensions version after a release.",
-    "stars": 35,
+    "stars": 36,
     "forks": 2,
     "topics": [
       "github-action",
@@ -2422,7 +2422,7 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2024-02-20T06:05:54Z",
-    "updated_at": "2026-06-13T09:43:45Z",
+    "updated_at": "2026-06-22T13:45:30Z",
     "pushed_at": "2026-03-17T01:53:21Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
@@ -3064,7 +3064,7 @@
     "name": "huacnlee/color-lsp",
     "url": "https://github.com/huacnlee/color-lsp",
     "description": "A document color language server.",
-    "stars": 50,
+    "stars": 51,
     "forks": 14,
     "topics": [
       "color",
@@ -3076,7 +3076,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2025-06-26T06:38:01Z",
-    "updated_at": "2026-06-02T05:08:58Z",
+    "updated_at": "2026-06-22T11:48:17Z",
     "pushed_at": "2026-02-10T03:40:52Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -5309,8 +5309,8 @@
     "language": "Go",
     "license": "MIT",
     "created_at": "2026-03-09T04:35:59Z",
-    "updated_at": "2026-06-21T07:55:03Z",
-    "pushed_at": "2026-06-21T07:54:59Z",
+    "updated_at": "2026-06-22T08:22:54Z",
+    "pushed_at": "2026-06-22T08:22:50Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -5500,7 +5500,7 @@
     "name": "moabualruz/claude-code-cli-acp",
     "url": "https://github.com/moabualruz/claude-code-cli-acp",
     "description": "ACP adapter for the real Claude Code CLI: Rust PTY bridge for Zed and other Agent Client Protocol clients.",
-    "stars": 11,
+    "stars": 12,
     "forks": 2,
     "topics": [
       "acp",
@@ -5527,7 +5527,7 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-05-14T10:16:29Z",
-    "updated_at": "2026-06-11T17:08:41Z",
+    "updated_at": "2026-06-22T12:35:32Z",
     "pushed_at": "2026-06-11T17:08:35Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
@@ -9082,13 +9082,13 @@
     "name": "zed-extensions/kotlin",
     "url": "https://github.com/zed-extensions/kotlin",
     "description": "Kotlin support",
-    "stars": 95,
+    "stars": 96,
     "forks": 29,
     "topics": [],
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-02-27T10:35:56Z",
-    "updated_at": "2026-06-19T22:55:25Z",
+    "updated_at": "2026-06-22T13:12:03Z",
     "pushed_at": "2026-06-07T22:08:05Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": false
@@ -14867,7 +14867,7 @@
     "name": "skarline/zed-fleet-themes",
     "url": "https://github.com/skarline/zed-fleet-themes",
     "description": "🚢 Transform Zed with Fleet's sleek, modern aesthetic for a sublime coding experience.",
-    "stars": 84,
+    "stars": 85,
     "forks": 7,
     "topics": [
       "zed",
@@ -14878,7 +14878,7 @@
     "language": "TypeScript",
     "license": null,
     "created_at": "2024-03-04T23:56:09Z",
-    "updated_at": "2026-06-21T08:47:46Z",
+    "updated_at": "2026-06-22T12:30:26Z",
     "pushed_at": "2025-03-13T17:22:47Z",
     "discovered_at": "2026-05-19T20:15:46.472Z",
     "official": true
@@ -18286,8 +18286,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-06-22T00:45:20Z",
-    "pushed_at": "2026-06-22T00:45:17Z",
+    "updated_at": "2026-06-22T08:00:27Z",
+    "pushed_at": "2026-06-22T08:00:12Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -23205,7 +23205,7 @@
     "url": "https://github.com/zed-extensions/nix",
     "description": "Nix language support in Zed",
     "stars": 117,
-    "forks": 24,
+    "forks": 25,
     "topics": [],
     "language": "Tree-sitter Query",
     "license": "MIT",
@@ -29217,7 +29217,7 @@
     "license": "MIT",
     "created_at": "2026-03-09T09:38:48Z",
     "updated_at": "2026-06-20T12:29:38Z",
-    "pushed_at": "2026-06-19T23:47:53Z",
+    "pushed_at": "2026-06-22T11:58:29Z",
     "discovered_at": "2026-05-25T18:33:55.225Z",
     "official": false
   },
@@ -29672,7 +29672,7 @@
     "name": "almeladev/geode-zed",
     "url": "https://github.com/almeladev/geode-zed",
     "description": "💎 A gem-toned theme for Zed. Color only where it carries meaning — dark and light, cut from the same stone.",
-    "stars": 1,
+    "stars": 2,
     "forks": 0,
     "topics": [
       "theme",
@@ -29683,7 +29683,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-05-31T21:58:49Z",
-    "updated_at": "2026-06-03T09:13:47Z",
+    "updated_at": "2026-06-22T10:56:40Z",
     "pushed_at": "2026-06-09T19:55:27Z",
     "discovered_at": "2026-06-01T00:42:32.382Z",
     "official": true
@@ -30052,8 +30052,8 @@
     "language": "Lua",
     "license": "MIT",
     "created_at": "2026-06-01T17:55:47Z",
-    "updated_at": "2026-06-15T18:44:00Z",
-    "pushed_at": "2026-06-15T18:43:56Z",
+    "updated_at": "2026-06-22T13:05:37Z",
+    "pushed_at": "2026-06-22T13:05:09Z",
     "discovered_at": "2026-06-06T12:27:44.534Z",
     "official": false
   },
@@ -31383,7 +31383,7 @@
     "name": "bhavya-dang/Solace",
     "url": "https://github.com/bhavya-dang/Solace",
     "description": "A minimalistic theme with violet accents and pastel syntax. For Zed.",
-    "stars": 2,
+    "stars": 3,
     "forks": 0,
     "topics": [
       "code-editor-extension",
@@ -31395,7 +31395,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-06-21T17:14:44Z",
-    "updated_at": "2026-06-21T18:40:54Z",
+    "updated_at": "2026-06-22T12:22:31Z",
     "pushed_at": "2026-06-21T17:39:10Z",
     "discovered_at": "2026-06-22T00:44:44.143Z",
     "official": false
@@ -31422,6 +31422,27 @@
     "updated_at": "2026-06-22T00:41:24Z",
     "pushed_at": "2026-06-21T22:27:27Z",
     "discovered_at": "2026-06-22T00:44:44.144Z",
+    "official": false
+  },
+  "cibiaananth/zed-vercel-italics": {
+    "name": "CibiAananth/zed-vercel-italics",
+    "url": "https://github.com/CibiAananth/zed-vercel-italics",
+    "description": "Vercel light and dark themes for Zed, with Night Owl-style italic syntax highlighting.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "night-owl",
+      "themes",
+      "vercel-theme",
+      "zed",
+      "zed-theme"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "created_at": "2026-06-22T08:28:49Z",
+    "updated_at": "2026-06-22T09:08:08Z",
+    "pushed_at": "2026-06-22T09:08:03Z",
+    "discovered_at": "2026-06-22T13:53:10.092Z",
     "official": false
   }
 }
