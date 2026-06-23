@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1563** |
 | In official registry | 1119 |
 | Discovered via topics | 444 |
-| Last updated | 2026-06-23 00:40 UTC |
+| Last updated | 2026-06-23 07:14 UTC |
 
 ### By capability
 
@@ -71,7 +71,7 @@ cd website && npm install && npm run dev
 | Package | Stars | Description |
 |---|---|---|
 | [CibiAananth/zed-vercel-italics](https://github.com/CibiAananth/zed-vercel-italics) | 0 | Vercel light and dark themes for Zed, with Night Owl-style italic syntax highlig... |
-| [bhavya-dang/Solace](https://github.com/bhavya-dang/Solace) | 3 | A minimalistic theme with violet accents and pastel syntax. For Zed. |
+| [bhavya-dang/Solace](https://github.com/bhavya-dang/Solace) | 4 | A minimalistic theme with violet accents and pastel syntax. For Zed. |
 | [aquifer-labs/artesian-zed](https://github.com/aquifer-labs/artesian-zed) | 0 | Memory control for AI agents in Zed — the Artesian MCP server as a Zed context s... |
 | [ronketer/nand2tetris-for-Zed](https://github.com/ronketer/nand2tetris-for-Zed) | 0 | An extension for Zed code editor  which adds support for nand2tetris online cour... |
 | [pol-cova/vercel-theme](https://github.com/pol-cova/vercel-theme) | 0 | A minimal Vercel-inspired Zed theme with light and dark variants. |
@@ -120,11 +120,11 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [bhavya-dang/Solace](https://github.com/bhavya-dang/Solace) | 3 | 2026-06-22 | A minimalistic theme with violet accents and pastel syntax. ... |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 193 | 2026-06-22 | Zed plugin for automatic time tracking and metrics generated... |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 86 | 2026-06-23 | True Dark Theme for Zed IDE |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 193 | 2026-06-23 | Zed plugin for automatic time tracking and metrics generated... |
+| [bhavya-dang/Solace](https://github.com/bhavya-dang/Solace) | 4 | 2026-06-22 | A minimalistic theme with violet accents and pastel syntax. ... |
 | [Adriusops/Buisson](https://github.com/Adriusops/Buisson) | 3 | 2026-06-22 | An inky botanical color scheme |
 | [CibiAananth/zed-vercel-italics](https://github.com/CibiAananth/zed-vercel-italics) | 0 | 2026-06-22 | Vercel light and dark themes for Zed, with Night Owl-style i... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 86 | 2026-06-22 | True Dark Theme for Zed IDE |
 | [aquifer-labs/artesian-zed](https://github.com/aquifer-labs/artesian-zed) | 0 | 2026-06-21 | Memory control for AI agents in Zed — the Artesian MCP serve... |
 | [skunpro/react-forge](https://github.com/skunpro/react-forge) | 4 | 2026-06-21 | Zed MCP server extension for ecosystem-aware React component... |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-06-20 | A Zed extension that allows to highlight all occurrences of ... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-23T07:14 | 0 | 481 | 1869 |
 | 2026-06-23T00:40 | 0 | 481 | 1869 |
 | 2026-06-22T19:06 | 0 | 481 | 1869 |
 | 2026-06-22T13:53 | 1 | 480 | 1869 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-21T12:39 | 1 | 476 | 1865 |
 | 2026-06-21T07:38 | 0 | 476 | 1864 |
 | 2026-06-21T00:44 | 0 | 476 | 1864 |
-| 2026-06-20T18:30 | 0 | 476 | 1864 |
 
 ---
 
