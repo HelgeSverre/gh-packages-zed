@@ -1,0 +1,11 @@
+id = "holocron"
+name = "Holocron"
+version = "0.1.0"
+schema_version = 1
+authors = ["holocron-lang"]
+description = "Language support for Holocron (.holocron.yaml) schema files — live diagnostics via holocron-lsp."
+repository = "https://github.com/holocron-lang/zed-holocron"
+
+[language_servers.holocron-lsp]
+name = "holocron-lsp"
+language = "Holocron"

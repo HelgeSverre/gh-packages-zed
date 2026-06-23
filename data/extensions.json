@@ -203,7 +203,7 @@
     "name": "wakatime/zed-wakatime",
     "url": "https://github.com/wakatime/zed-wakatime",
     "description": "Zed plugin for automatic time tracking and metrics generated from your programming activity.",
-    "stars": 195,
+    "stars": 196,
     "forks": 28,
     "topics": [
       "extension",
@@ -215,7 +215,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2024-08-27T10:31:46Z",
-    "updated_at": "2026-06-23T10:26:48Z",
+    "updated_at": "2026-06-23T14:59:31Z",
     "pushed_at": "2026-06-23T02:37:23Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -5296,7 +5296,7 @@
     "name": "uncenter/zed-tera",
     "url": "https://github.com/uncenter/zed-tera",
     "description": "⛩️ Zed extension for the Tera templating language.",
-    "stars": 19,
+    "stars": 18,
     "forks": 0,
     "topics": [
       "tera",
@@ -5306,7 +5306,7 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-11-12T02:09:59Z",
-    "updated_at": "2026-06-06T19:47:57Z",
+    "updated_at": "2026-06-23T15:04:34Z",
     "pushed_at": "2026-01-18T20:01:04Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -8514,8 +8514,8 @@
     "language": null,
     "license": "Apache-2.0",
     "created_at": "2025-04-19T15:11:21Z",
-    "updated_at": "2026-06-20T14:38:19Z",
-    "pushed_at": "2025-10-05T19:25:53Z",
+    "updated_at": "2026-06-23T18:34:22Z",
+    "pushed_at": "2026-06-23T18:34:00Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": true,
     "extension": {
@@ -19262,13 +19262,13 @@
     "name": "owlx56/zed-lean4",
     "url": "https://github.com/owlx56/zed-lean4",
     "description": "",
-    "stars": 50,
+    "stars": 51,
     "forks": 9,
     "topics": [],
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2025-04-18T13:34:52Z",
-    "updated_at": "2026-06-20T13:54:58Z",
+    "updated_at": "2026-06-23T13:46:06Z",
     "pushed_at": "2026-05-30T23:43:11Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": false,
@@ -53196,8 +53196,8 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2026-06-16T11:21:43Z",
-    "updated_at": "2026-06-21T09:59:38Z",
-    "pushed_at": "2026-06-16T13:12:55Z",
+    "updated_at": "2026-06-23T15:11:03Z",
+    "pushed_at": "2026-06-23T15:10:56Z",
     "discovered_at": "2026-06-21T12:39:48.605Z",
     "official": false,
     "extension": {
@@ -53273,7 +53273,7 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-06-21T17:14:44Z",
-    "updated_at": "2026-06-23T01:30:38Z",
+    "updated_at": "2026-06-23T17:11:28Z",
     "pushed_at": "2026-06-22T19:43:07Z",
     "discovered_at": "2026-06-22T00:44:44.143Z",
     "official": false,
@@ -53328,6 +53328,46 @@
       "sections": [],
       "categories": [
         "theme"
+      ]
+    }
+  },
+  "holocron-lang/zed-holocron": {
+    "name": "holocron-lang/zed-holocron",
+    "url": "https://github.com/holocron-lang/zed-holocron",
+    "description": "Zed editor extension for Holocron — live in-editor diagnostics via holocron-lsp.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "holocron",
+      "language-server",
+      "lsp",
+      "yaml",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Rust",
+    "license": "MPL-2.0",
+    "created_at": "2026-06-23T17:21:32Z",
+    "updated_at": "2026-06-23T18:22:49Z",
+    "pushed_at": "2026-06-23T18:22:44Z",
+    "discovered_at": "2026-06-23T18:42:04.851Z",
+    "official": false,
+    "extension": {
+      "id": "holocron",
+      "name": "Holocron",
+      "description": "Language support for Holocron (.holocron.yaml) schema files — live diagnostics via holocron-lsp.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "holocron-lang"
+      ],
+      "repository": "https://github.com/holocron-lang/zed-holocron",
+      "snippets": null,
+      "sections": [
+        "language_servers"
+      ],
+      "categories": [
+        "language-server"
       ]
     }
   }
