@@ -126,7 +126,7 @@
     "name": "GDQuest/zed-gdscript",
     "url": "https://github.com/GDQuest/zed-gdscript",
     "description": "Zed support for the Godot game engine and the GDScript language",
-    "stars": 179,
+    "stars": 180,
     "forks": 22,
     "topics": [
       "code-editor",
@@ -138,7 +138,7 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-02-26T18:14:41Z",
-    "updated_at": "2026-06-16T14:55:16Z",
+    "updated_at": "2026-06-23T10:19:26Z",
     "pushed_at": "2026-05-21T10:29:17Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -184,7 +184,7 @@
     "name": "wakatime/zed-wakatime",
     "url": "https://github.com/wakatime/zed-wakatime",
     "description": "Zed plugin for automatic time tracking and metrics generated from your programming activity.",
-    "stars": 193,
+    "stars": 195,
     "forks": 28,
     "topics": [
       "extension",
@@ -196,7 +196,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2024-08-27T10:31:46Z",
-    "updated_at": "2026-06-23T02:37:26Z",
+    "updated_at": "2026-06-23T10:26:48Z",
     "pushed_at": "2026-06-23T02:37:23Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -279,7 +279,7 @@
     "name": "Nako0/devglobe-extension",
     "url": "https://github.com/Nako0/devglobe-extension",
     "description": "Official Extensions for DevGlobe. Show up on a 3D globe in real time while you code, with automatic time tracking and coding metrics.",
-    "stars": 171,
+    "stars": 172,
     "forks": 9,
     "topics": [
       "claude-code-plugin",
@@ -299,7 +299,7 @@
     "language": "TypeScript",
     "license": "MIT",
     "created_at": "2026-03-06T15:12:36Z",
-    "updated_at": "2026-06-22T15:15:06Z",
+    "updated_at": "2026-06-23T09:57:08Z",
     "pushed_at": "2026-06-19T07:22:24Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
@@ -845,7 +845,7 @@
     "name": "kartikvashistha/zed-ansible",
     "url": "https://github.com/kartikvashistha/zed-ansible",
     "description": "Ansible Extension for the Zed editor",
-    "stars": 55,
+    "stars": 54,
     "forks": 9,
     "topics": [
       "ansible",
@@ -855,7 +855,7 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-08-04T09:47:08Z",
-    "updated_at": "2026-06-21T09:53:06Z",
+    "updated_at": "2026-06-23T11:48:23Z",
     "pushed_at": "2026-05-04T07:54:34Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -5309,8 +5309,8 @@
     "language": "Go",
     "license": "MIT",
     "created_at": "2026-03-09T04:35:59Z",
-    "updated_at": "2026-06-22T08:22:54Z",
-    "pushed_at": "2026-06-22T08:22:50Z",
+    "updated_at": "2026-06-23T07:31:51Z",
+    "pushed_at": "2026-06-23T07:31:47Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -5337,7 +5337,7 @@
     "name": "Dylanmurzello/zed-android-port",
     "url": "https://github.com/Dylanmurzello/zed-android-port",
     "description": "Native Android port of the Zed code editor,  gpui rendering through Vulkan, integrated Termux for LSPs and tooling, remote SSH support. Runs as an APK on tablets and Android desktop modes.",
-    "stars": 102,
+    "stars": 103,
     "forks": 9,
     "topics": [
       "android",
@@ -5364,7 +5364,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-05-07T00:12:10Z",
-    "updated_at": "2026-06-23T06:25:20Z",
+    "updated_at": "2026-06-23T09:46:11Z",
     "pushed_at": "2026-06-05T21:34:45Z",
     "discovered_at": "2026-05-19T19:54:12.053Z",
     "official": false
@@ -18286,8 +18286,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-06-23T00:41:18Z",
-    "pushed_at": "2026-06-23T00:41:14Z",
+    "updated_at": "2026-06-23T07:15:12Z",
+    "pushed_at": "2026-06-23T07:15:05Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -19529,8 +19529,8 @@
     "language": "Tree-sitter Query",
     "license": "Apache-2.0",
     "created_at": "2024-02-19T14:56:35Z",
-    "updated_at": "2026-06-22T07:16:01Z",
-    "pushed_at": "2026-06-09T10:59:06Z",
+    "updated_at": "2026-06-23T07:36:02Z",
+    "pushed_at": "2026-06-23T07:36:30Z",
     "discovered_at": "2026-05-19T21:42:53.670Z",
     "official": false
   },
@@ -30310,8 +30310,8 @@
     "language": "Rust",
     "license": null,
     "created_at": "2026-06-09T22:36:14Z",
-    "updated_at": "2026-06-20T06:21:32Z",
-    "pushed_at": "2026-06-20T06:21:28Z",
+    "updated_at": "2026-06-23T10:45:17Z",
+    "pushed_at": "2026-06-23T10:45:12Z",
     "discovered_at": "2026-06-10T00:43:30.823Z",
     "official": false
   },
@@ -31444,5 +31444,26 @@
     "pushed_at": "2026-06-22T09:08:03Z",
     "discovered_at": "2026-06-22T13:53:10.092Z",
     "official": false
+  },
+  "alex-oleshkevich/fastapi-lsp": {
+    "name": "alex-oleshkevich/fastapi-lsp",
+    "url": "https://github.com/alex-oleshkevich/fastapi-lsp",
+    "description": "Language server for FastAPI and Starlette — route resolution, Depends() graph, url_for, Jinja templates, env intelligence. One Rust binary.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "fastapi",
+      "language-server-protocol",
+      "lsp",
+      "lsp-server",
+      "starlette"
+    ],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2026-06-15T08:55:22Z",
+    "updated_at": "2026-06-23T11:30:20Z",
+    "pushed_at": "2026-06-23T11:30:13Z",
+    "discovered_at": "2026-06-23T12:57:23.077Z",
+    "official": true
   }
 }

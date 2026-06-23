@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1563** |
 | In official registry | 1119 |
 | Discovered via topics | 444 |
-| Last updated | 2026-06-23 07:14 UTC |
+| Last updated | 2026-06-23 12:57 UTC |
 
 ### By capability
 
@@ -102,10 +102,10 @@ cd website && npm install && npm run dev
 | [catppuccin/zed-icons](https://github.com/catppuccin/zed-icons) | 240 | 🦊 Soothing pastel icons for Zed |
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 193 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 195 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
-| [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 179 | Zed support for the Godot game engine and the GDScript language |
+| [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 180 | Zed support for the Godot game engine and the GDScript language |
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 176 | Typst extension for zed |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 160 | A macOS native style theme for Zed, let it same like native app in macOS. |
 | [thedadams/zed-comment](https://github.com/thedadams/zed-comment) | 148 | A comment extension for the Zed editor |
@@ -120,8 +120,9 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 138 | 2026-06-23 |  |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 86 | 2026-06-23 | True Dark Theme for Zed IDE |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 193 | 2026-06-23 | Zed plugin for automatic time tracking and metrics generated... |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 195 | 2026-06-23 | Zed plugin for automatic time tracking and metrics generated... |
 | [bhavya-dang/Solace](https://github.com/bhavya-dang/Solace) | 4 | 2026-06-22 | A minimalistic theme with violet accents and pastel syntax. ... |
 | [Adriusops/Buisson](https://github.com/Adriusops/Buisson) | 3 | 2026-06-22 | An inky botanical color scheme |
 | [CibiAananth/zed-vercel-italics](https://github.com/CibiAananth/zed-vercel-italics) | 0 | 2026-06-22 | Vercel light and dark themes for Zed, with Night Owl-style i... |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [livrasand/codetrackr-zed](https://github.com/livrasand/codetrackr-zed) | 0 | 2026-06-18 | Zed plugin for automatic time tracking and metrics generated... |
 | [whistlebee/zed-mojo](https://github.com/whistlebee/zed-mojo) | 1 | 2026-06-18 | Mojo LSP/Syntax/Debugger support for Zed |
 | [tbxark/vscode2026-theme-zed](https://github.com/tbxark/vscode2026-theme-zed) | 0 | 2026-06-18 | VS Code 2026 theme for Zed |
-| [mnemodoc/zed-mnemodoc](https://github.com/mnemodoc/zed-mnemodoc) | 0 | 2026-06-18 | Zed extension that wires mnemodoc-server into Zed's AI assis... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-23T12:57 | 1 | 480 | 1870 |
 | 2026-06-23T07:14 | 0 | 481 | 1869 |
 | 2026-06-23T00:40 | 0 | 481 | 1869 |
 | 2026-06-22T19:06 | 0 | 481 | 1869 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-21T18:31 | 1 | 477 | 1866 |
 | 2026-06-21T12:39 | 1 | 476 | 1865 |
 | 2026-06-21T07:38 | 0 | 476 | 1864 |
-| 2026-06-21T00:44 | 0 | 476 | 1864 |
 
 ---
 
