@@ -299,8 +299,8 @@
     "language": "TypeScript",
     "license": "MIT",
     "created_at": "2026-03-06T15:12:36Z",
-    "updated_at": "2026-06-24T08:37:25Z",
-    "pushed_at": "2026-06-19T07:22:24Z",
+    "updated_at": "2026-06-24T15:39:22Z",
+    "pushed_at": "2026-06-24T15:38:09Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -2333,7 +2333,7 @@
     "name": "chopratejas/headroom-zed",
     "url": "https://github.com/chopratejas/headroom-zed",
     "description": "Zed extension for Headroom — context compression for AI agents",
-    "stars": 26,
+    "stars": 27,
     "forks": 3,
     "topics": [
       "ai-agents",
@@ -2350,7 +2350,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-03-18T16:55:33Z",
-    "updated_at": "2026-06-24T01:49:17Z",
+    "updated_at": "2026-06-24T17:51:13Z",
     "pushed_at": "2026-03-18T16:55:38Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
@@ -5337,7 +5337,7 @@
     "name": "Dylanmurzello/zed-android-port",
     "url": "https://github.com/Dylanmurzello/zed-android-port",
     "description": "Native Android port of the Zed code editor,  gpui rendering through Vulkan, integrated Termux for LSPs and tooling, remote SSH support. Runs as an APK on tablets and Android desktop modes.",
-    "stars": 105,
+    "stars": 107,
     "forks": 9,
     "topics": [
       "android",
@@ -5364,7 +5364,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-05-07T00:12:10Z",
-    "updated_at": "2026-06-24T06:09:02Z",
+    "updated_at": "2026-06-24T18:19:08Z",
     "pushed_at": "2026-06-05T21:34:45Z",
     "discovered_at": "2026-05-19T19:54:12.053Z",
     "official": false
@@ -18286,8 +18286,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-06-24T07:11:58Z",
-    "pushed_at": "2026-06-24T07:11:54Z",
+    "updated_at": "2026-06-24T12:44:57Z",
+    "pushed_at": "2026-06-24T12:44:53Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -31516,6 +31516,71 @@
     "updated_at": "2026-06-16T23:14:52Z",
     "pushed_at": "2026-06-16T23:15:52Z",
     "discovered_at": "2026-06-24T12:44:24.573Z",
+    "official": true
+  },
+  "alex-oleshkevich/babel-lsp": {
+    "name": "alex-oleshkevich/babel-lsp",
+    "url": "https://github.com/alex-oleshkevich/babel-lsp",
+    "description": "Language server for Python Babel i18n (.po/.pot catalogs, gettext in Python & Jinja2)",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "babel",
+      "intl",
+      "language-server-protocol",
+      "lsp"
+    ],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2026-06-15T12:18:43Z",
+    "updated_at": "2026-06-24T11:20:49Z",
+    "pushed_at": "2026-06-24T11:20:45Z",
+    "discovered_at": "2026-06-24T18:36:24.492Z",
+    "official": true
+  },
+  "adriusops/buisson-zed": {
+    "name": "Adriusops/buisson-zed",
+    "url": "https://github.com/Adriusops/buisson-zed",
+    "description": "Buisson theme for Zed editor",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-06-22T12:50:19Z",
+    "updated_at": "2026-06-24T17:02:04Z",
+    "pushed_at": "2026-06-24T17:01:15Z",
+    "discovered_at": "2026-06-24T18:36:24.492Z",
+    "official": true
+  },
+  "alex-oleshkevich/sqlalchemy-lsp": {
+    "name": "alex-oleshkevich/sqlalchemy-lsp",
+    "url": "https://github.com/alex-oleshkevich/sqlalchemy-lsp",
+    "description": "SQLAlchemy & Alembic language server (Rust, tower-lsp + tree-sitter) — spec-driven. Companion to your Python LSP.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2026-06-18T08:24:51Z",
+    "updated_at": "2026-06-24T11:27:22Z",
+    "pushed_at": "2026-06-24T11:27:18Z",
+    "discovered_at": "2026-06-24T18:36:24.493Z",
+    "official": true
+  },
+  "ams-sth/vantadark": {
+    "name": "ams-sth/vantadark",
+    "url": "https://github.com/ams-sth/vantadark",
+    "description": "A minimal dark theme for Zed. Clean surfaces, no borders, five syntax colours. Gets out of the way.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "NOASSERTION",
+    "created_at": "2026-06-23T06:14:59Z",
+    "updated_at": "2026-06-24T10:23:57Z",
+    "pushed_at": "2026-06-24T10:23:53Z",
+    "discovered_at": "2026-06-24T18:36:24.493Z",
     "official": true
   }
 }

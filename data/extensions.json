@@ -3693,7 +3693,7 @@
     "name": "chopratejas/headroom-zed",
     "url": "https://github.com/chopratejas/headroom-zed",
     "description": "Zed extension for Headroom — context compression for AI agents",
-    "stars": 26,
+    "stars": 27,
     "forks": 3,
     "topics": [
       "ai-agents",
@@ -3710,7 +3710,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-03-18T16:55:33Z",
-    "updated_at": "2026-06-24T01:49:17Z",
+    "updated_at": "2026-06-24T17:51:13Z",
     "pushed_at": "2026-03-18T16:55:38Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false,
@@ -53395,6 +53395,68 @@
         "Evgenii Sergeev"
       ],
       "repository": "https://github.com/evgenii-sergeev/zed-ep-133",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "adriusops/buisson-zed": {
+    "name": "Adriusops/buisson-zed",
+    "url": "https://github.com/Adriusops/buisson-zed",
+    "description": "Buisson theme for Zed editor",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-06-22T12:50:19Z",
+    "updated_at": "2026-06-24T17:02:04Z",
+    "pushed_at": "2026-06-24T17:01:15Z",
+    "discovered_at": "2026-06-24T18:36:24.492Z",
+    "official": true,
+    "extension": {
+      "id": "buisson-theme",
+      "name": "Buisson",
+      "description": "An inky botanical color scheme — Evergarden soul, Flexoki accessibility",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Adrius <me@adrius.blog>"
+      ],
+      "repository": "https://github.com/Adriusops/buisson-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "ams-sth/vantadark": {
+    "name": "ams-sth/vantadark",
+    "url": "https://github.com/ams-sth/vantadark",
+    "description": "A minimal dark theme for Zed. Clean surfaces, no borders, five syntax colours. Gets out of the way.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "NOASSERTION",
+    "created_at": "2026-06-23T06:14:59Z",
+    "updated_at": "2026-06-24T10:23:57Z",
+    "pushed_at": "2026-06-24T10:23:53Z",
+    "discovered_at": "2026-06-24T18:36:24.493Z",
+    "official": true,
+    "extension": {
+      "id": "vantadark-theme",
+      "name": "Vantadark",
+      "description": "A minimal dark theme for Zed. Clean surfaces, no borders, five syntax colours. Gets out of the way.",
+      "version": "1.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Amsh Shrestha <sthaamsh37@gmail.com>"
+      ],
+      "repository": "https://github.com/ams-sth/vantadark",
       "snippets": null,
       "sections": [],
       "categories": [
