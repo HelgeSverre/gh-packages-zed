@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1564-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1565-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,16 +14,16 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1564** |
-| In official registry | 1119 |
+| Total tracked | **1565** |
+| In official registry | 1120 |
 | Discovered via topics | 445 |
-| Last updated | 2026-06-24 07:11 UTC |
+| Last updated | 2026-06-24 12:44 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
-| Themes | 648 |
+| Themes | 649 |
 | Grammars | 547 |
 | Language Servers | 509 |
 | Context Servers | 129 |
@@ -70,6 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [evgenii-sergeev/zed-ep-133](https://github.com/evgenii-sergeev/zed-ep-133) | 0 | Teenage Engineering’s EP–133 K.O. II inspired theme for Zed |
 | [holocron-lang/zed-holocron](https://github.com/holocron-lang/zed-holocron) | 0 | Zed editor extension for Holocron — live in-editor diagnostics via holocron-lsp. |
 | [CibiAananth/zed-vercel-italics](https://github.com/CibiAananth/zed-vercel-italics) | 0 | Vercel light and dark themes for Zed, with Night Owl-style italic syntax highlig... |
 | [bhavya-dang/Solace](https://github.com/bhavya-dang/Solace) | 4 | A minimalistic theme with violet accents and pastel syntax. For Zed. |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [livrasand/codetrackr-zed](https://github.com/livrasand/codetrackr-zed) | 0 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
 | [madkarmaa/zed-onedark-pro-blur](https://github.com/madkarmaa/zed-onedark-pro-blur) | 0 | OneDark Pro port for Zed with blur effects |
 | [mnemodoc/zed-mnemodoc](https://github.com/mnemodoc/zed-mnemodoc) | 0 | Zed extension that wires mnemodoc-server into Zed's AI assistant — local, privat... |
-| [alvgaona/zed-black-metal](https://github.com/alvgaona/zed-black-metal) | 0 | Pitch-black base16 Black Metal themes for Zed — 11 band variants, each with a fr... |
 
 ## Top starred (under 500)
 
@@ -120,6 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [evgenii-sergeev/zed-ep-133](https://github.com/evgenii-sergeev/zed-ep-133) | 0 | 2026-06-24 | Teenage Engineering’s EP–133 K.O. II inspired theme for Zed |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 86 | 2026-06-24 | True Dark Theme for Zed IDE |
 | [swannysec/mcp-server-searxng](https://github.com/swannysec/mcp-server-searxng) | 1 | 2026-06-23 | Privacy-focused web search via SearXNG instances for Zed AI ... |
 | [aquifer-labs/artesian-zed](https://github.com/aquifer-labs/artesian-zed) | 0 | 2026-06-23 | Memory control for AI agents in Zed — the Artesian MCP serve... |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [frypan05/Lumin](https://github.com/frypan05/Lumin) | 29 | 2026-06-19 | Minimalistic everyday theme for Zed. |
 | [FollowTheProcess/zed-txtar](https://github.com/FollowTheProcess/zed-txtar) | 0 | 2026-06-19 | A Zed extension providing syntax highlighting for txtar file... |
 | [cf-lang/zed](https://github.com/cf-lang/zed) | 1 | 2026-06-19 | Zed editor support for the C! programming language. |
-| [livrasand/zed-svg](https://github.com/livrasand/zed-svg) | 0 | 2026-06-18 | The SVG syntax highlighting support for Zed editor |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-24T12:44 | 2 | 481 | 1873 |
 | 2026-06-24T07:11 | 0 | 481 | 1871 |
 | 2026-06-24T00:35 | 0 | 481 | 1871 |
 | 2026-06-23T18:42 | 1 | 480 | 1871 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-22T19:06 | 0 | 481 | 1869 |
 | 2026-06-22T13:53 | 1 | 480 | 1869 |
 | 2026-06-22T07:59 | 0 | 480 | 1868 |
-| 2026-06-22T00:44 | 2 | 478 | 1868 |
 
 ---
 
