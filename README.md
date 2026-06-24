@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1564** |
 | In official registry | 1119 |
 | Discovered via topics | 445 |
-| Last updated | 2026-06-24 00:35 UTC |
+| Last updated | 2026-06-24 07:11 UTC |
 
 ### By capability
 
@@ -108,7 +108,7 @@ cd website && npm install && npm run dev
 | [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 181 | Zed support for the Godot game engine and the GDScript language |
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 176 | Typst extension for zed |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 160 | A macOS native style theme for Zed, let it same like native app in macOS. |
-| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 148 | 🦊 Zed editor theme ported from Neovim |
+| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 149 | 🦊 Zed editor theme ported from Neovim |
 | [thedadams/zed-comment](https://github.com/thedadams/zed-comment) | 148 | A comment extension for the Zed editor |
 | [slymax/zedokai](https://github.com/slymax/zedokai) | 145 | a theme for Zed based on the Monokai Pro color scheme |
 | [nathansbradshaw/zed-angular](https://github.com/nathansbradshaw/zed-angular) | 144 |  |
@@ -120,13 +120,13 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 86 | 2026-06-24 | True Dark Theme for Zed IDE |
 | [swannysec/mcp-server-searxng](https://github.com/swannysec/mcp-server-searxng) | 1 | 2026-06-23 | Privacy-focused web search via SearXNG instances for Zed AI ... |
 | [aquifer-labs/artesian-zed](https://github.com/aquifer-labs/artesian-zed) | 0 | 2026-06-23 | Memory control for AI agents in Zed — the Artesian MCP serve... |
 | [irmhonde/monospace-icon-theme](https://github.com/irmhonde/monospace-icon-theme) | 6 | 2026-06-23 | Monospace icon theme for Zed. |
 | [holocron-lang/zed-holocron](https://github.com/holocron-lang/zed-holocron) | 0 | 2026-06-23 | Zed editor extension for Holocron — live in-editor diagnosti... |
 | [ronketer/nand2tetris-for-Zed](https://github.com/ronketer/nand2tetris-for-Zed) | 0 | 2026-06-23 | An extension for Zed code editor  which adds support for nan... |
 | [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 138 | 2026-06-23 |  |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 86 | 2026-06-23 | True Dark Theme for Zed IDE |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 196 | 2026-06-23 | Zed plugin for automatic time tracking and metrics generated... |
 | [bhavya-dang/Solace](https://github.com/bhavya-dang/Solace) | 4 | 2026-06-22 | A minimalistic theme with violet accents and pastel syntax. ... |
 | [Adriusops/Buisson](https://github.com/Adriusops/Buisson) | 3 | 2026-06-22 | An inky botanical color scheme |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-24T07:11 | 0 | 481 | 1871 |
 | 2026-06-24T00:35 | 0 | 481 | 1871 |
 | 2026-06-23T18:42 | 1 | 480 | 1871 |
 | 2026-06-23T12:57 | 1 | 480 | 1870 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-22T13:53 | 1 | 480 | 1869 |
 | 2026-06-22T07:59 | 0 | 480 | 1868 |
 | 2026-06-22T00:44 | 2 | 478 | 1868 |
-| 2026-06-21T18:31 | 1 | 477 | 1866 |
 
 ---
 
