@@ -141,8 +141,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-06-24T02:58:19Z",
-    "pushed_at": "2026-06-24T02:58:15Z",
+    "updated_at": "2026-06-25T02:58:17Z",
+    "pushed_at": "2026-06-25T02:58:13Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -3693,7 +3693,7 @@
     "name": "chopratejas/headroom-zed",
     "url": "https://github.com/chopratejas/headroom-zed",
     "description": "Zed extension for Headroom — context compression for AI agents",
-    "stars": 27,
+    "stars": 28,
     "forks": 3,
     "topics": [
       "ai-agents",
@@ -3710,7 +3710,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-03-18T16:55:33Z",
-    "updated_at": "2026-06-24T17:51:13Z",
+    "updated_at": "2026-06-25T04:47:36Z",
     "pushed_at": "2026-03-18T16:55:38Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false,
@@ -5221,7 +5221,7 @@
     "url": "https://github.com/jenslys/zed-catppuccin-blur",
     "description": "Catppuccin Theme but as blurred variants + custom ones",
     "stars": 327,
-    "forks": 13,
+    "forks": 14,
     "topics": [
       "catppuccin",
       "catppuccin-theme",
@@ -53489,6 +53489,42 @@
         "malleroid"
       ],
       "repository": "https://github.com/malleroid/emerald-synth-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "caelyreth/eclat-zed": {
+    "name": "caelyreth/eclat-zed",
+    "url": "https://github.com/caelyreth/eclat-zed",
+    "description": "Immersed in peace and a muted Zed editor theme.",
+    "stars": 7,
+    "forks": 0,
+    "topics": [
+      "color-scheme",
+      "zed",
+      "zed-extension",
+      "zed-theme"
+    ],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2025-12-26T13:24:55Z",
+    "updated_at": "2026-05-14T08:47:51Z",
+    "pushed_at": "2025-12-28T05:45:51Z",
+    "discovered_at": "2026-06-25T07:11:46.347Z",
+    "official": false,
+    "extension": {
+      "id": "eclat",
+      "name": "Eclat",
+      "description": "Immersed in peace and a muted colorscheme",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Akiyama Kohane <i@kept.to>"
+      ],
+      "repository": "https://github.com/utakotoba/eclat-zed",
       "snippets": null,
       "sections": [],
       "categories": [

@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1568-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1569-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,16 +14,16 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1568** |
+| Total tracked | **1569** |
 | In official registry | 1125 |
-| Discovered via topics | 443 |
-| Last updated | 2026-06-25 00:40 UTC |
+| Discovered via topics | 444 |
+| Last updated | 2026-06-25 07:11 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
-| Themes | 652 |
+| Themes | 653 |
 | Grammars | 547 |
 | Language Servers | 509 |
 | Context Servers | 129 |
@@ -70,6 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [caelyreth/eclat-zed](https://github.com/caelyreth/eclat-zed) | 7 | Immersed in peace and a muted Zed editor theme. |
 | [malleroid/emerald-synth-zed](https://github.com/malleroid/emerald-synth-zed) | 0 | Emerald Synth theme for Zed editor |
 | [ams-sth/vantadark](https://github.com/ams-sth/vantadark) | 0 | A minimal dark theme for Zed. Clean surfaces, no borders, five syntax colours. G... |
 | [Adriusops/buisson-zed](https://github.com/Adriusops/buisson-zed) | 0 | Buisson theme for Zed editor |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [frypan05/Lumin](https://github.com/frypan05/Lumin) | 29 | Minimalistic everyday theme for Zed. |
 | [cf-lang/zed](https://github.com/cf-lang/zed) | 1 | Zed editor support for the C! programming language. |
 | [livrasand/zed-svg](https://github.com/livrasand/zed-svg) | 0 | The SVG syntax highlighting support for Zed editor |
-| [LaurenceRawlings/zed-one-dark-pro-night-flat](https://github.com/LaurenceRawlings/zed-one-dark-pro-night-flat) | 0 | A port of VSCode One Dark Pro Night Flat theme |
 
 ## Top starred (under 500)
 
@@ -120,10 +120,10 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 86 | 2026-06-25 | True Dark Theme for Zed IDE |
 | [Adriusops/buisson-zed](https://github.com/Adriusops/buisson-zed) | 0 | 2026-06-24 | Buisson theme for Zed editor |
 | [evgenii-sergeev/zed-ep-133](https://github.com/evgenii-sergeev/zed-ep-133) | 0 | 2026-06-24 | Teenage Engineering’s EP–133 K.O. II inspired theme for Zed |
 | [ams-sth/vantadark](https://github.com/ams-sth/vantadark) | 0 | 2026-06-24 | A minimal dark theme for Zed. Clean surfaces, no borders, fi... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 86 | 2026-06-24 | True Dark Theme for Zed IDE |
 | [swannysec/mcp-server-searxng](https://github.com/swannysec/mcp-server-searxng) | 1 | 2026-06-23 | Privacy-focused web search via SearXNG instances for Zed AI ... |
 | [aquifer-labs/artesian-zed](https://github.com/aquifer-labs/artesian-zed) | 0 | 2026-06-23 | Memory control for AI agents in Zed — the Artesian MCP serve... |
 | [irmhonde/monospace-icon-theme](https://github.com/irmhonde/monospace-icon-theme) | 6 | 2026-06-23 | Monospace icon theme for Zed. |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-25T07:11 | 1 | 480 | 1879 |
 | 2026-06-25T00:40 | 1 | 481 | 1878 |
 | 2026-06-24T18:36 | 4 | 481 | 1877 |
 | 2026-06-24T12:44 | 2 | 481 | 1873 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-23T12:57 | 1 | 480 | 1870 |
 | 2026-06-23T07:14 | 0 | 481 | 1869 |
 | 2026-06-23T00:40 | 0 | 481 | 1869 |
-| 2026-06-22T19:06 | 0 | 481 | 1869 |
 
 ---
 
