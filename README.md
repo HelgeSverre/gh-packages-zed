@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1567-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1568-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,16 +14,16 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1567** |
-| In official registry | 1122 |
-| Discovered via topics | 445 |
-| Last updated | 2026-06-24 18:36 UTC |
+| Total tracked | **1568** |
+| In official registry | 1125 |
+| Discovered via topics | 443 |
+| Last updated | 2026-06-25 00:40 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
-| Themes | 651 |
+| Themes | 652 |
 | Grammars | 547 |
 | Language Servers | 509 |
 | Context Servers | 129 |
@@ -70,6 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [malleroid/emerald-synth-zed](https://github.com/malleroid/emerald-synth-zed) | 0 | Emerald Synth theme for Zed editor |
 | [ams-sth/vantadark](https://github.com/ams-sth/vantadark) | 0 | A minimal dark theme for Zed. Clean surfaces, no borders, five syntax colours. G... |
 | [Adriusops/buisson-zed](https://github.com/Adriusops/buisson-zed) | 0 | Buisson theme for Zed editor |
 | [evgenii-sergeev/zed-ep-133](https://github.com/evgenii-sergeev/zed-ep-133) | 0 | Teenage Engineering’s EP–133 K.O. II inspired theme for Zed |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [cf-lang/zed](https://github.com/cf-lang/zed) | 1 | Zed editor support for the C! programming language. |
 | [livrasand/zed-svg](https://github.com/livrasand/zed-svg) | 0 | The SVG syntax highlighting support for Zed editor |
 | [LaurenceRawlings/zed-one-dark-pro-night-flat](https://github.com/LaurenceRawlings/zed-one-dark-pro-night-flat) | 0 | A port of VSCode One Dark Pro Night Flat theme |
-| [livrasand/codetrackr-zed](https://github.com/livrasand/codetrackr-zed) | 0 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
 
 ## Top starred (under 500)
 
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-25T00:40 | 1 | 481 | 1878 |
 | 2026-06-24T18:36 | 4 | 481 | 1877 |
 | 2026-06-24T12:44 | 2 | 481 | 1873 |
 | 2026-06-24T07:11 | 0 | 481 | 1871 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-23T07:14 | 0 | 481 | 1869 |
 | 2026-06-23T00:40 | 0 | 481 | 1869 |
 | 2026-06-22T19:06 | 0 | 481 | 1869 |
-| 2026-06-22T13:53 | 1 | 480 | 1869 |
 
 ---
 
