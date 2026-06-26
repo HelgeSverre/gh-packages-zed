@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1569** |
 | In official registry | 1125 |
 | Discovered via topics | 444 |
-| Last updated | 2026-06-26 00:42 UTC |
+| Last updated | 2026-06-26 07:18 UTC |
 
 ### By capability
 
@@ -108,7 +108,7 @@ cd website && npm install && npm run dev
 | [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 181 | Zed support for the Godot game engine and the GDScript language |
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 176 | Typst extension for zed |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 160 | A macOS native style theme for Zed, let it same like native app in macOS. |
-| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 150 | 🦊 Zed editor theme ported from Neovim |
+| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 151 | 🦊 Zed editor theme ported from Neovim |
 | [thedadams/zed-comment](https://github.com/thedadams/zed-comment) | 148 | A comment extension for the Zed editor |
 | [slymax/zedokai](https://github.com/slymax/zedokai) | 145 | a theme for Zed based on the Monokai Pro color scheme |
 | [nathansbradshaw/zed-angular](https://github.com/nathansbradshaw/zed-angular) | 144 |  |
@@ -120,9 +120,10 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [kevcamel/vscode_dark_modern.zed](https://github.com/kevcamel/vscode_dark_modern.zed) | 51 | 2026-06-26 | VS Code Dark Modern theme for Zed |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 86 | 2026-06-26 | True Dark Theme for Zed IDE |
 | [bhavya-dang/Solace](https://github.com/bhavya-dang/Solace) | 4 | 2026-06-25 | A minimalistic theme with violet accents and pastel syntax. ... |
 | [MathieuAlphamosa/zed-spip](https://github.com/MathieuAlphamosa/zed-spip) | 1 | 2026-06-25 | SPIP template language extension for the Zed editor |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 86 | 2026-06-25 | True Dark Theme for Zed IDE |
 | [Adriusops/buisson-zed](https://github.com/Adriusops/buisson-zed) | 0 | 2026-06-24 | Buisson theme for Zed editor |
 | [evgenii-sergeev/zed-ep-133](https://github.com/evgenii-sergeev/zed-ep-133) | 0 | 2026-06-24 | Teenage Engineering’s EP–133 K.O. II inspired theme for Zed |
 | [ams-sth/vantadark](https://github.com/ams-sth/vantadark) | 0 | 2026-06-24 | A minimal dark theme for Zed. Clean surfaces, no borders, fi... |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-06-20 | A Zed extension that allows to highlight all occurrences of ... |
 | [pataruco/zed-mjml](https://github.com/pataruco/zed-mjml) | 1 | 2026-06-20 | MJML syntax support for Zed |
 | [pol-cova/vercel-theme](https://github.com/pol-cova/vercel-theme) | 0 | 2026-06-20 | A minimal Vercel-inspired Zed theme with light and dark vari... |
-| [pol-cova/cursor-theme-zed](https://github.com/pol-cova/cursor-theme-zed) | 0 | 2026-06-20 | A warm Cursor-inspired Zed theme with light and dark variant... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-26T07:18 | 0 | 482 | 1881 |
 | 2026-06-26T00:42 | 1 | 482 | 1881 |
 | 2026-06-25T18:45 | 0 | 482 | 1880 |
 | 2026-06-25T12:48 | 1 | 481 | 1880 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-24T12:44 | 2 | 481 | 1873 |
 | 2026-06-24T07:11 | 0 | 481 | 1871 |
 | 2026-06-24T00:35 | 0 | 481 | 1871 |
-| 2026-06-23T18:42 | 1 | 480 | 1871 |
 
 ---
 
