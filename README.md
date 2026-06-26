@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1569** |
 | In official registry | 1125 |
 | Discovered via topics | 444 |
-| Last updated | 2026-06-26 12:43 UTC |
+| Last updated | 2026-06-26 18:36 UTC |
 
 ### By capability
 
@@ -120,6 +120,9 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [aquifer-labs/artesian-zed](https://github.com/aquifer-labs/artesian-zed) | 0 | 2026-06-26 | Memory control for AI agents in Zed — the Artesian MCP serve... |
+| [tbxark/vscode2026-theme-zed](https://github.com/tbxark/vscode2026-theme-zed) | 0 | 2026-06-26 | VS Code 2026 theme for Zed |
+| [pataruco/zed-mjml](https://github.com/pataruco/zed-mjml) | 1 | 2026-06-26 | MJML syntax support for Zed |
 | [bhavya-dang/Solace](https://github.com/bhavya-dang/Solace) | 4 | 2026-06-26 | A minimalistic theme with violet accents and pastel syntax. ... |
 | [ronketer/nand2tetris-for-Zed](https://github.com/ronketer/nand2tetris-for-Zed) | 0 | 2026-06-26 | An extension for Zed code editor  which adds support for nan... |
 | [kevcamel/vscode_dark_modern.zed](https://github.com/kevcamel/vscode_dark_modern.zed) | 51 | 2026-06-26 | VS Code Dark Modern theme for Zed |
@@ -129,7 +132,6 @@ cd website && npm install && npm run dev
 | [evgenii-sergeev/zed-ep-133](https://github.com/evgenii-sergeev/zed-ep-133) | 0 | 2026-06-24 | Teenage Engineering’s EP–133 K.O. II inspired theme for Zed |
 | [ams-sth/vantadark](https://github.com/ams-sth/vantadark) | 0 | 2026-06-24 | A minimal dark theme for Zed. Clean surfaces, no borders, fi... |
 | [swannysec/mcp-server-searxng](https://github.com/swannysec/mcp-server-searxng) | 1 | 2026-06-23 | Privacy-focused web search via SearXNG instances for Zed AI ... |
-| [aquifer-labs/artesian-zed](https://github.com/aquifer-labs/artesian-zed) | 0 | 2026-06-23 | Memory control for AI agents in Zed — the Artesian MCP serve... |
 | [irmhonde/monospace-icon-theme](https://github.com/irmhonde/monospace-icon-theme) | 6 | 2026-06-23 | Monospace icon theme for Zed. |
 | [holocron-lang/zed-holocron](https://github.com/holocron-lang/zed-holocron) | 0 | 2026-06-23 | Zed editor extension for Holocron — live in-editor diagnosti... |
 | [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 139 | 2026-06-23 |  |
@@ -138,13 +140,12 @@ cd website && npm install && npm run dev
 | [CibiAananth/zed-vercel-italics](https://github.com/CibiAananth/zed-vercel-italics) | 0 | 2026-06-22 | Vercel light and dark themes for Zed, with Night Owl-style i... |
 | [skunpro/react-forge](https://github.com/skunpro/react-forge) | 4 | 2026-06-21 | Zed MCP server extension for ecosystem-aware React component... |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-06-20 | A Zed extension that allows to highlight all occurrences of ... |
-| [pataruco/zed-mjml](https://github.com/pataruco/zed-mjml) | 1 | 2026-06-20 | MJML syntax support for Zed |
-| [pol-cova/vercel-theme](https://github.com/pol-cova/vercel-theme) | 0 | 2026-06-20 | A minimal Vercel-inspired Zed theme with light and dark vari... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-26T18:36 | 2 | 481 | 1883 |
 | 2026-06-26T12:43 | 0 | 482 | 1881 |
 | 2026-06-26T07:18 | 0 | 482 | 1881 |
 | 2026-06-26T00:42 | 1 | 482 | 1881 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-25T00:40 | 1 | 481 | 1878 |
 | 2026-06-24T18:36 | 4 | 481 | 1877 |
 | 2026-06-24T12:44 | 2 | 481 | 1873 |
-| 2026-06-24T07:11 | 0 | 481 | 1871 |
 
 ---
 
