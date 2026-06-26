@@ -279,7 +279,7 @@
     "name": "Nako0/devglobe-extension",
     "url": "https://github.com/Nako0/devglobe-extension",
     "description": "Official Extensions for DevGlobe. Show up on a 3D globe in real time while you code, with automatic time tracking and coding metrics.",
-    "stars": 180,
+    "stars": 183,
     "forks": 10,
     "topics": [
       "claude-code-plugin",
@@ -299,7 +299,7 @@
     "language": "TypeScript",
     "license": "MIT",
     "created_at": "2026-03-06T15:12:36Z",
-    "updated_at": "2026-06-25T14:59:39Z",
+    "updated_at": "2026-06-25T21:19:14Z",
     "pushed_at": "2026-06-25T11:41:49Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
@@ -2350,7 +2350,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-03-18T16:55:33Z",
-    "updated_at": "2026-06-25T18:44:45Z",
+    "updated_at": "2026-06-25T19:19:31Z",
     "pushed_at": "2026-03-18T16:55:38Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
@@ -5337,7 +5337,7 @@
     "name": "Dylanmurzello/zed-android-port",
     "url": "https://github.com/Dylanmurzello/zed-android-port",
     "description": "Native Android port of the Zed code editor,  gpui rendering through Vulkan, integrated Termux for LSPs and tooling, remote SSH support. Runs as an APK on tablets and Android desktop modes.",
-    "stars": 110,
+    "stars": 111,
     "forks": 9,
     "topics": [
       "android",
@@ -5364,7 +5364,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-05-07T00:12:10Z",
-    "updated_at": "2026-06-25T14:24:10Z",
+    "updated_at": "2026-06-25T23:37:24Z",
     "pushed_at": "2026-06-05T21:34:45Z",
     "discovered_at": "2026-05-19T19:54:12.053Z",
     "official": false
@@ -15701,7 +15701,7 @@
     "name": "agent-sh/agnix",
     "url": "https://github.com/agent-sh/agnix",
     "description": "The missing linter and lsp for AI coding assistants. Validate CLAUDE.md, AGENTS.md, SKILL.md, hooks, MCP. Plugin for all major IDEs included, with autofixes.",
-    "stars": 298,
+    "stars": 299,
     "forks": 29,
     "topics": [
       "agent",
@@ -15728,7 +15728,7 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
-    "updated_at": "2026-06-25T15:54:28Z",
+    "updated_at": "2026-06-25T22:20:32Z",
     "pushed_at": "2026-06-25T11:59:23Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
@@ -18287,8 +18287,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-06-25T12:48:59Z",
-    "pushed_at": "2026-06-25T12:48:55Z",
+    "updated_at": "2026-06-25T18:46:00Z",
+    "pushed_at": "2026-06-25T18:45:53Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -21523,13 +21523,13 @@
     "name": "zed-extensions/log",
     "url": "https://github.com/zed-extensions/log",
     "description": "Syntax highlighting for log files in Zed.",
-    "stars": 44,
+    "stars": 45,
     "forks": 6,
     "topics": [],
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-02-18T13:35:25Z",
-    "updated_at": "2026-06-14T11:45:43Z",
+    "updated_at": "2026-06-25T21:08:42Z",
     "pushed_at": "2026-06-07T22:08:00Z",
     "discovered_at": "2026-05-19T21:55:15.596Z",
     "official": false
@@ -31397,7 +31397,7 @@
     "license": "MIT",
     "created_at": "2026-06-21T17:14:44Z",
     "updated_at": "2026-06-23T17:11:28Z",
-    "pushed_at": "2026-06-22T19:43:07Z",
+    "pushed_at": "2026-06-25T19:49:23Z",
     "discovered_at": "2026-06-22T00:44:44.143Z",
     "official": false
   },
@@ -31641,6 +31641,30 @@
     "updated_at": "2026-06-25T15:28:34Z",
     "pushed_at": "2026-06-25T15:27:35Z",
     "discovered_at": "2026-06-25T12:48:26.083Z",
+    "official": false
+  },
+  "joaquinruz/zed-markitdown-mcp": {
+    "name": "JoaquinRuz/zed-markitdown-mcp",
+    "url": "https://github.com/JoaquinRuz/zed-markitdown-mcp",
+    "description": "Give your AI agent a convert_to_markdown tool to read PDF/DOCX/XLSX/PPTX/images by path — and ~10-18x cheaper than native PDF reading. markitdown as a Zed MCP context server, with a self-healing health check.",
+    "stars": 1,
+    "forks": 0,
+    "topics": [
+      "document-conversion",
+      "docx",
+      "markitdown",
+      "mcp",
+      "model-context-protocol",
+      "pdf",
+      "zed",
+      "zed-editor"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "created_at": "2026-06-25T19:37:17Z",
+    "updated_at": "2026-06-25T20:13:09Z",
+    "pushed_at": "2026-06-25T20:12:59Z",
+    "discovered_at": "2026-06-26T00:42:14.420Z",
     "official": false
   }
 }

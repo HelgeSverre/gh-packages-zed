@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1569** |
 | In official registry | 1125 |
 | Discovered via topics | 444 |
-| Last updated | 2026-06-25 18:45 UTC |
+| Last updated | 2026-06-26 00:42 UTC |
 
 ### By capability
 
@@ -120,6 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [bhavya-dang/Solace](https://github.com/bhavya-dang/Solace) | 4 | 2026-06-25 | A minimalistic theme with violet accents and pastel syntax. ... |
 | [MathieuAlphamosa/zed-spip](https://github.com/MathieuAlphamosa/zed-spip) | 1 | 2026-06-25 | SPIP template language extension for the Zed editor |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 86 | 2026-06-25 | True Dark Theme for Zed IDE |
 | [Adriusops/buisson-zed](https://github.com/Adriusops/buisson-zed) | 0 | 2026-06-24 | Buisson theme for Zed editor |
@@ -132,7 +133,6 @@ cd website && npm install && npm run dev
 | [ronketer/nand2tetris-for-Zed](https://github.com/ronketer/nand2tetris-for-Zed) | 0 | 2026-06-23 | An extension for Zed code editor  which adds support for nan... |
 | [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 139 | 2026-06-23 |  |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 196 | 2026-06-23 | Zed plugin for automatic time tracking and metrics generated... |
-| [bhavya-dang/Solace](https://github.com/bhavya-dang/Solace) | 4 | 2026-06-22 | A minimalistic theme with violet accents and pastel syntax. ... |
 | [Adriusops/Buisson](https://github.com/Adriusops/Buisson) | 3 | 2026-06-22 | An inky botanical color scheme |
 | [CibiAananth/zed-vercel-italics](https://github.com/CibiAananth/zed-vercel-italics) | 0 | 2026-06-22 | Vercel light and dark themes for Zed, with Night Owl-style i... |
 | [skunpro/react-forge](https://github.com/skunpro/react-forge) | 4 | 2026-06-21 | Zed MCP server extension for ecosystem-aware React component... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-26T00:42 | 1 | 482 | 1881 |
 | 2026-06-25T18:45 | 0 | 482 | 1880 |
 | 2026-06-25T12:48 | 1 | 481 | 1880 |
 | 2026-06-25T07:11 | 1 | 480 | 1879 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-24T07:11 | 0 | 481 | 1871 |
 | 2026-06-24T00:35 | 0 | 481 | 1871 |
 | 2026-06-23T18:42 | 1 | 480 | 1871 |
-| 2026-06-23T12:57 | 1 | 480 | 1870 |
 
 ---
 
