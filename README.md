@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1569** |
 | In official registry | 1125 |
 | Discovered via topics | 444 |
-| Last updated | 2026-06-27 07:05 UTC |
+| Last updated | 2026-06-27 12:27 UTC |
 
 ### By capability
 
@@ -97,16 +97,16 @@ cd website && npm install && npm run dev
 |---|---|---|
 | [biomejs/biome-zed](https://github.com/biomejs/biome-zed) | 466 | Biome extension for Zed |
 | [xhyrom/zed-discord-presence](https://github.com/xhyrom/zed-discord-presence) | 415 | extension for zed that adds support for discord rich presence using lsp |
-| [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 327 | Catppuccin Theme but as blurred variants + custom ones |
+| [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 328 | Catppuccin Theme but as blurred variants + custom ones |
 | [oxc-project/oxc-zed](https://github.com/oxc-project/oxc-zed) | 256 | Oxc extension for Zed |
 | [catppuccin/zed-icons](https://github.com/catppuccin/zed-icons) | 240 | 🦊 Soothing pastel icons for Zed |
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 196 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 197 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
 | [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 181 | Zed support for the Godot game engine and the GDScript language |
-| [zed-extensions/typst](https://github.com/zed-extensions/typst) | 176 | Typst extension for zed |
+| [zed-extensions/typst](https://github.com/zed-extensions/typst) | 177 | Typst extension for zed |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 160 | A macOS native style theme for Zed, let it same like native app in macOS. |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 151 | 🦊 Zed editor theme ported from Neovim |
 | [thedadams/zed-comment](https://github.com/thedadams/zed-comment) | 148 | A comment extension for the Zed editor |
@@ -120,7 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 86 | 2026-06-27 | True Dark Theme for Zed IDE |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 87 | 2026-06-27 | True Dark Theme for Zed IDE |
 | [bhavya-dang/Solace](https://github.com/bhavya-dang/Solace) | 4 | 2026-06-26 | A minimalistic theme with violet accents and pastel syntax. ... |
 | [aquifer-labs/artesian-zed](https://github.com/aquifer-labs/artesian-zed) | 0 | 2026-06-26 | Memory control for AI agents in Zed — the Artesian MCP serve... |
 | [tbxark/vscode2026-theme-zed](https://github.com/tbxark/vscode2026-theme-zed) | 0 | 2026-06-26 | VS Code 2026 theme for Zed |
@@ -135,7 +135,7 @@ cd website && npm install && npm run dev
 | [irmhonde/monospace-icon-theme](https://github.com/irmhonde/monospace-icon-theme) | 6 | 2026-06-23 | Monospace icon theme for Zed. |
 | [holocron-lang/zed-holocron](https://github.com/holocron-lang/zed-holocron) | 0 | 2026-06-23 | Zed editor extension for Holocron — live in-editor diagnosti... |
 | [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 139 | 2026-06-23 |  |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 196 | 2026-06-23 | Zed plugin for automatic time tracking and metrics generated... |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 197 | 2026-06-23 | Zed plugin for automatic time tracking and metrics generated... |
 | [Adriusops/Buisson](https://github.com/Adriusops/Buisson) | 3 | 2026-06-22 | An inky botanical color scheme |
 | [CibiAananth/zed-vercel-italics](https://github.com/CibiAananth/zed-vercel-italics) | 0 | 2026-06-22 | Vercel light and dark themes for Zed, with Night Owl-style i... |
 | [skunpro/react-forge](https://github.com/skunpro/react-forge) | 4 | 2026-06-21 | Zed MCP server extension for ecosystem-aware React component... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-27T12:27 | 0 | 483 | 1883 |
 | 2026-06-27T07:05 | 0 | 483 | 1883 |
 | 2026-06-27T00:39 | 0 | 483 | 1883 |
 | 2026-06-26T18:36 | 2 | 481 | 1883 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-25T18:45 | 0 | 482 | 1880 |
 | 2026-06-25T12:48 | 1 | 481 | 1880 |
 | 2026-06-25T07:11 | 1 | 480 | 1879 |
-| 2026-06-25T00:40 | 1 | 481 | 1878 |
 
 ---
 
