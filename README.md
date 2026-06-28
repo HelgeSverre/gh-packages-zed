@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1569** |
 | In official registry | 1125 |
 | Discovered via topics | 444 |
-| Last updated | 2026-06-28 07:21 UTC |
+| Last updated | 2026-06-28 12:28 UTC |
 
 ### By capability
 
@@ -97,7 +97,7 @@ cd website && npm install && npm run dev
 |---|---|---|
 | [biomejs/biome-zed](https://github.com/biomejs/biome-zed) | 466 | Biome extension for Zed |
 | [xhyrom/zed-discord-presence](https://github.com/xhyrom/zed-discord-presence) | 415 | extension for zed that adds support for discord rich presence using lsp |
-| [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 328 | Catppuccin Theme but as blurred variants + custom ones |
+| [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 329 | Catppuccin Theme but as blurred variants + custom ones |
 | [oxc-project/oxc-zed](https://github.com/oxc-project/oxc-zed) | 256 | Oxc extension for Zed |
 | [catppuccin/zed-icons](https://github.com/catppuccin/zed-icons) | 240 | 🦊 Soothing pastel icons for Zed |
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
@@ -120,6 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 128 | 2026-06-28 | The Ruby language support for Zed editor |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 87 | 2026-06-28 | True Dark Theme for Zed IDE |
 | [pol-cova/cursor-theme-zed](https://github.com/pol-cova/cursor-theme-zed) | 0 | 2026-06-27 | A warm Cursor-inspired Zed theme with light and dark variant... |
 | [alysson-souza/zed-fish-lsp](https://github.com/alysson-souza/zed-fish-lsp) | 4 | 2026-06-27 | Fish shell extension for Zed with fish-lsp integration |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 139 | 2026-06-23 |  |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 197 | 2026-06-23 | Zed plugin for automatic time tracking and metrics generated... |
 | [Adriusops/Buisson](https://github.com/Adriusops/Buisson) | 3 | 2026-06-22 | An inky botanical color scheme |
-| [CibiAananth/zed-vercel-italics](https://github.com/CibiAananth/zed-vercel-italics) | 0 | 2026-06-22 | Vercel light and dark themes for Zed, with Night Owl-style i... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-28T12:28 | 0 | 483 | 1883 |
 | 2026-06-28T07:21 | 0 | 483 | 1883 |
 | 2026-06-28T00:39 | 0 | 483 | 1883 |
 | 2026-06-27T18:25 | 0 | 483 | 1883 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-26T18:36 | 2 | 481 | 1883 |
 | 2026-06-26T12:43 | 0 | 482 | 1881 |
 | 2026-06-26T07:18 | 0 | 482 | 1881 |
-| 2026-06-26T00:42 | 1 | 482 | 1881 |
 
 ---
 
