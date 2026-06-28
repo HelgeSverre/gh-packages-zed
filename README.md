@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1569** |
 | In official registry | 1125 |
 | Discovered via topics | 444 |
-| Last updated | 2026-06-28 00:39 UTC |
+| Last updated | 2026-06-28 07:21 UTC |
 
 ### By capability
 
@@ -120,9 +120,9 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 87 | 2026-06-28 | True Dark Theme for Zed IDE |
 | [pol-cova/cursor-theme-zed](https://github.com/pol-cova/cursor-theme-zed) | 0 | 2026-06-27 | A warm Cursor-inspired Zed theme with light and dark variant... |
 | [alysson-souza/zed-fish-lsp](https://github.com/alysson-souza/zed-fish-lsp) | 4 | 2026-06-27 | Fish shell extension for Zed with fish-lsp integration |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 87 | 2026-06-27 | True Dark Theme for Zed IDE |
 | [bhavya-dang/Solace](https://github.com/bhavya-dang/Solace) | 4 | 2026-06-26 | A minimalistic theme with violet accents and pastel syntax. ... |
 | [aquifer-labs/artesian-zed](https://github.com/aquifer-labs/artesian-zed) | 0 | 2026-06-26 | Memory control for AI agents in Zed — the Artesian MCP serve... |
 | [tbxark/vscode2026-theme-zed](https://github.com/tbxark/vscode2026-theme-zed) | 0 | 2026-06-26 | VS Code 2026 theme for Zed |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-28T07:21 | 0 | 483 | 1883 |
 | 2026-06-28T00:39 | 0 | 483 | 1883 |
 | 2026-06-27T18:25 | 0 | 483 | 1883 |
 | 2026-06-27T12:27 | 0 | 483 | 1883 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-26T12:43 | 0 | 482 | 1881 |
 | 2026-06-26T07:18 | 0 | 482 | 1881 |
 | 2026-06-26T00:42 | 1 | 482 | 1881 |
-| 2026-06-25T18:45 | 0 | 482 | 1880 |
 
 ---
 
