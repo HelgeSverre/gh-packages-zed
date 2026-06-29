@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1569** |
 | In official registry | 1125 |
 | Discovered via topics | 444 |
-| Last updated | 2026-06-29 07:42 UTC |
+| Last updated | 2026-06-29 13:28 UTC |
 
 ### By capability
 
@@ -77,7 +77,7 @@ cd website && npm install && npm run dev
 | [evgenii-sergeev/zed-ep-133](https://github.com/evgenii-sergeev/zed-ep-133) | 0 | Teenage Engineering’s EP–133 K.O. II inspired theme for Zed |
 | [holocron-lang/zed-holocron](https://github.com/holocron-lang/zed-holocron) | 0 | Zed editor extension for Holocron — live in-editor diagnostics via holocron-lsp. |
 | [CibiAananth/zed-vercel-italics](https://github.com/CibiAananth/zed-vercel-italics) | 0 | Vercel light and dark themes for Zed, with Night Owl-style italic syntax highlig... |
-| [bhavya-dang/Solace](https://github.com/bhavya-dang/Solace) | 4 | A minimalistic theme with violet accents and pastel syntax. For Zed. |
+| [bhavya-dang/Solace](https://github.com/bhavya-dang/Solace) | 5 | A minimalistic theme with violet accents and pastel syntax. For Zed. |
 | [aquifer-labs/artesian-zed](https://github.com/aquifer-labs/artesian-zed) | 0 | Memory control for AI agents in Zed — the Artesian MCP server as a Zed context s... |
 | [ronketer/nand2tetris-for-Zed](https://github.com/ronketer/nand2tetris-for-Zed) | 0 | An extension for Zed code editor  which adds support for nand2tetris online cour... |
 | [pol-cova/vercel-theme](https://github.com/pol-cova/vercel-theme) | 0 | A minimal Vercel-inspired Zed theme with light and dark variants. |
@@ -101,14 +101,14 @@ cd website && npm install && npm run dev
 | [oxc-project/oxc-zed](https://github.com/oxc-project/oxc-zed) | 256 | Oxc extension for Zed |
 | [catppuccin/zed-icons](https://github.com/catppuccin/zed-icons) | 240 | 🦊 Soothing pastel icons for Zed |
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 198 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 197 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
 | [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 181 | Zed support for the Godot game engine and the GDScript language |
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 177 | Typst extension for zed |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 160 | A macOS native style theme for Zed, let it same like native app in macOS. |
-| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 151 | 🦊 Zed editor theme ported from Neovim |
+| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 152 | 🦊 Zed editor theme ported from Neovim |
 | [thedadams/zed-comment](https://github.com/thedadams/zed-comment) | 148 | A comment extension for the Zed editor |
 | [slymax/zedokai](https://github.com/slymax/zedokai) | 145 | a theme for Zed based on the Monokai Pro color scheme |
 | [nathansbradshaw/zed-angular](https://github.com/nathansbradshaw/zed-angular) | 144 |  |
@@ -120,11 +120,12 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [hadez8877/one-dark-pro-enhanced](https://github.com/hadez8877/one-dark-pro-enhanced) | 6 | 2026-06-29 | The most installed theme in Visual Studio Code modified for ... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 87 | 2026-06-29 | True Dark Theme for Zed IDE |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 129 | 2026-06-28 | The Ruby language support for Zed editor |
 | [pol-cova/cursor-theme-zed](https://github.com/pol-cova/cursor-theme-zed) | 0 | 2026-06-27 | A warm Cursor-inspired Zed theme with light and dark variant... |
 | [alysson-souza/zed-fish-lsp](https://github.com/alysson-souza/zed-fish-lsp) | 4 | 2026-06-27 | Fish shell extension for Zed with fish-lsp integration |
-| [bhavya-dang/Solace](https://github.com/bhavya-dang/Solace) | 4 | 2026-06-26 | A minimalistic theme with violet accents and pastel syntax. ... |
+| [bhavya-dang/Solace](https://github.com/bhavya-dang/Solace) | 5 | 2026-06-26 | A minimalistic theme with violet accents and pastel syntax. ... |
 | [aquifer-labs/artesian-zed](https://github.com/aquifer-labs/artesian-zed) | 0 | 2026-06-26 | Memory control for AI agents in Zed — the Artesian MCP serve... |
 | [tbxark/vscode2026-theme-zed](https://github.com/tbxark/vscode2026-theme-zed) | 0 | 2026-06-26 | VS Code 2026 theme for Zed |
 | [pataruco/zed-mjml](https://github.com/pataruco/zed-mjml) | 1 | 2026-06-26 | MJML syntax support for Zed |
@@ -138,13 +139,13 @@ cd website && npm install && npm run dev
 | [irmhonde/monospace-icon-theme](https://github.com/irmhonde/monospace-icon-theme) | 6 | 2026-06-23 | Monospace icon theme for Zed. |
 | [holocron-lang/zed-holocron](https://github.com/holocron-lang/zed-holocron) | 0 | 2026-06-23 | Zed editor extension for Holocron — live in-editor diagnosti... |
 | [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 139 | 2026-06-23 |  |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 197 | 2026-06-23 | Zed plugin for automatic time tracking and metrics generated... |
-| [Adriusops/Buisson](https://github.com/Adriusops/Buisson) | 3 | 2026-06-22 | An inky botanical color scheme |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 198 | 2026-06-23 | Zed plugin for automatic time tracking and metrics generated... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-29T13:28 | 0 | 483 | 1883 |
 | 2026-06-29T07:42 | 0 | 483 | 1883 |
 | 2026-06-29T00:41 | 0 | 483 | 1883 |
 | 2026-06-28T18:25 | 0 | 483 | 1883 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-27T18:25 | 0 | 483 | 1883 |
 | 2026-06-27T12:27 | 0 | 483 | 1883 |
 | 2026-06-27T07:05 | 0 | 483 | 1883 |
-| 2026-06-27T00:39 | 0 | 483 | 1883 |
 
 ---
 
