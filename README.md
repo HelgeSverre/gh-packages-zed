@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1569** |
 | In official registry | 1125 |
 | Discovered via topics | 444 |
-| Last updated | 2026-06-29 00:41 UTC |
+| Last updated | 2026-06-29 07:42 UTC |
 
 ### By capability
 
@@ -120,8 +120,8 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 128 | 2026-06-28 | The Ruby language support for Zed editor |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 87 | 2026-06-28 | True Dark Theme for Zed IDE |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 87 | 2026-06-29 | True Dark Theme for Zed IDE |
+| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 129 | 2026-06-28 | The Ruby language support for Zed editor |
 | [pol-cova/cursor-theme-zed](https://github.com/pol-cova/cursor-theme-zed) | 0 | 2026-06-27 | A warm Cursor-inspired Zed theme with light and dark variant... |
 | [alysson-souza/zed-fish-lsp](https://github.com/alysson-souza/zed-fish-lsp) | 4 | 2026-06-27 | Fish shell extension for Zed with fish-lsp integration |
 | [bhavya-dang/Solace](https://github.com/bhavya-dang/Solace) | 4 | 2026-06-26 | A minimalistic theme with violet accents and pastel syntax. ... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-29T07:42 | 0 | 483 | 1883 |
 | 2026-06-29T00:41 | 0 | 483 | 1883 |
 | 2026-06-28T18:25 | 0 | 483 | 1883 |
 | 2026-06-28T12:28 | 0 | 483 | 1883 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-27T12:27 | 0 | 483 | 1883 |
 | 2026-06-27T07:05 | 0 | 483 | 1883 |
 | 2026-06-27T00:39 | 0 | 483 | 1883 |
-| 2026-06-26T18:36 | 2 | 481 | 1883 |
 
 ---
 
