@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1569** |
 | In official registry | 1125 |
 | Discovered via topics | 444 |
-| Last updated | 2026-06-30 12:41 UTC |
+| Last updated | 2026-06-30 18:37 UTC |
 
 ### By capability
 
@@ -121,6 +121,7 @@ cd website && npm install && npm run dev
 | Package | Stars | Last push | Description |
 |---|---|---|---|
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 198 | 2026-06-30 | Zed plugin for automatic time tracking and metrics generated... |
+| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 152 | 2026-06-30 | 🦊 Zed editor theme ported from Neovim |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 87 | 2026-06-30 | True Dark Theme for Zed IDE |
 | [alanisme/vscode-themes-for-zed](https://github.com/alanisme/vscode-themes-for-zed) | 13 | 2026-06-29 | ❤️ All 19 built-in Visual Studio Code color themes, ported t... |
 | [hadez8877/one-dark-pro-enhanced](https://github.com/hadez8877/one-dark-pro-enhanced) | 6 | 2026-06-29 | The most installed theme in Visual Studio Code modified for ... |
@@ -130,7 +131,7 @@ cd website && npm install && npm run dev
 | [bhavya-dang/Solace](https://github.com/bhavya-dang/Solace) | 5 | 2026-06-26 | A minimalistic theme with violet accents and pastel syntax. ... |
 | [aquifer-labs/artesian-zed](https://github.com/aquifer-labs/artesian-zed) | 0 | 2026-06-26 | Memory control for AI agents in Zed — the Artesian MCP serve... |
 | [tbxark/vscode2026-theme-zed](https://github.com/tbxark/vscode2026-theme-zed) | 0 | 2026-06-26 | VS Code 2026 theme for Zed |
-| [pataruco/zed-mjml](https://github.com/pataruco/zed-mjml) | 1 | 2026-06-26 | MJML syntax support for Zed |
+| [pataruco/zed-mjml](https://github.com/pataruco/zed-mjml) | 2 | 2026-06-26 | MJML syntax support for Zed |
 | [ronketer/nand2tetris-for-Zed](https://github.com/ronketer/nand2tetris-for-Zed) | 0 | 2026-06-26 | An extension for Zed code editor  which adds support for nan... |
 | [kevcamel/vscode_dark_modern.zed](https://github.com/kevcamel/vscode_dark_modern.zed) | 52 | 2026-06-26 | VS Code Dark Modern theme for Zed |
 | [MathieuAlphamosa/zed-spip](https://github.com/MathieuAlphamosa/zed-spip) | 1 | 2026-06-25 | SPIP template language extension for the Zed editor |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [ams-sth/vantadark](https://github.com/ams-sth/vantadark) | 0 | 2026-06-24 | A minimal dark theme for Zed. Clean surfaces, no borders, fi... |
 | [swannysec/mcp-server-searxng](https://github.com/swannysec/mcp-server-searxng) | 1 | 2026-06-23 | Privacy-focused web search via SearXNG instances for Zed AI ... |
 | [irmhonde/monospace-icon-theme](https://github.com/irmhonde/monospace-icon-theme) | 6 | 2026-06-23 | Monospace icon theme for Zed. |
-| [holocron-lang/zed-holocron](https://github.com/holocron-lang/zed-holocron) | 0 | 2026-06-23 | Zed editor extension for Holocron — live in-editor diagnosti... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-30T18:37 | 0 | 483 | 1884 |
 | 2026-06-30T12:41 | 0 | 484 | 1884 |
 | 2026-06-30T07:17 | 1 | 483 | 1884 |
 | 2026-06-30T00:39 | 0 | 483 | 1883 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-29T00:41 | 0 | 483 | 1883 |
 | 2026-06-28T18:25 | 0 | 483 | 1883 |
 | 2026-06-28T12:28 | 0 | 483 | 1883 |
-| 2026-06-28T07:21 | 0 | 483 | 1883 |
 
 ---
 
