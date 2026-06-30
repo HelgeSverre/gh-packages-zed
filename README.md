@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1569** |
 | In official registry | 1125 |
 | Discovered via topics | 444 |
-| Last updated | 2026-06-29 18:40 UTC |
+| Last updated | 2026-06-30 00:39 UTC |
 
 ### By capability
 
@@ -107,7 +107,7 @@ cd website && npm install && npm run dev
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
 | [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 181 | Zed support for the Godot game engine and the GDScript language |
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 177 | Typst extension for zed |
-| [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 160 | A macOS native style theme for Zed, let it same like native app in macOS. |
+| [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 161 | A macOS native style theme for Zed, let it same like native app in macOS. |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 152 | 🦊 Zed editor theme ported from Neovim |
 | [thedadams/zed-comment](https://github.com/thedadams/zed-comment) | 148 | A comment extension for the Zed editor |
 | [slymax/zedokai](https://github.com/slymax/zedokai) | 145 | a theme for Zed based on the Monokai Pro color scheme |
@@ -121,7 +121,7 @@ cd website && npm install && npm run dev
 | Package | Stars | Last push | Description |
 |---|---|---|---|
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 198 | 2026-06-29 | Zed plugin for automatic time tracking and metrics generated... |
-| [alanisme/vscode-themes-for-zed](https://github.com/alanisme/vscode-themes-for-zed) | 12 | 2026-06-29 | ❤️ All 19 built-in Visual Studio Code color themes, ported t... |
+| [alanisme/vscode-themes-for-zed](https://github.com/alanisme/vscode-themes-for-zed) | 13 | 2026-06-29 | ❤️ All 19 built-in Visual Studio Code color themes, ported t... |
 | [hadez8877/one-dark-pro-enhanced](https://github.com/hadez8877/one-dark-pro-enhanced) | 6 | 2026-06-29 | The most installed theme in Visual Studio Code modified for ... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 87 | 2026-06-29 | True Dark Theme for Zed IDE |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 129 | 2026-06-28 | The Ruby language support for Zed editor |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-30T00:39 | 0 | 483 | 1883 |
 | 2026-06-29T18:40 | 0 | 483 | 1883 |
 | 2026-06-29T13:28 | 0 | 483 | 1883 |
 | 2026-06-29T07:42 | 0 | 483 | 1883 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-28T07:21 | 0 | 483 | 1883 |
 | 2026-06-28T00:39 | 0 | 483 | 1883 |
 | 2026-06-27T18:25 | 0 | 483 | 1883 |
-| 2026-06-27T12:27 | 0 | 483 | 1883 |
 
 ---
 
