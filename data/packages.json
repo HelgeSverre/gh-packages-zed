@@ -156,8 +156,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-06-29T02:58:41Z",
-    "pushed_at": "2026-06-29T02:58:38Z",
+    "updated_at": "2026-06-30T02:58:39Z",
+    "pushed_at": "2026-06-30T02:58:35Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -196,8 +196,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2024-08-27T10:31:46Z",
-    "updated_at": "2026-06-29T11:44:32Z",
-    "pushed_at": "2026-06-29T17:03:48Z",
+    "updated_at": "2026-06-30T03:08:30Z",
+    "pushed_at": "2026-06-30T03:08:27Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -280,7 +280,7 @@
     "url": "https://github.com/Nako0/devglobe-extension",
     "description": "Official Extensions for DevGlobe. Show up on a 3D globe in real time while you code, with automatic time tracking and coding metrics.",
     "stars": 195,
-    "forks": 10,
+    "forks": 11,
     "topics": [
       "claude-code-plugin",
       "code",
@@ -2927,8 +2927,8 @@
     "language": "TypeScript",
     "license": "GPL-3.0",
     "created_at": "2024-09-30T17:41:34Z",
-    "updated_at": "2026-06-17T02:16:37Z",
-    "pushed_at": "2026-06-17T02:16:26Z",
+    "updated_at": "2026-06-30T06:34:33Z",
+    "pushed_at": "2026-06-30T06:34:28Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -5337,7 +5337,7 @@
     "name": "Dylanmurzello/zed-android-port",
     "url": "https://github.com/Dylanmurzello/zed-android-port",
     "description": "Native Android port of the Zed code editor,  gpui rendering through Vulkan, integrated Termux for LSPs and tooling, remote SSH support. Runs as an APK on tablets and Android desktop modes.",
-    "stars": 113,
+    "stars": 114,
     "forks": 9,
     "topics": [
       "android",
@@ -5364,7 +5364,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-05-07T00:12:10Z",
-    "updated_at": "2026-06-27T18:16:21Z",
+    "updated_at": "2026-06-30T05:35:31Z",
     "pushed_at": "2026-06-05T21:34:45Z",
     "discovered_at": "2026-05-19T19:54:12.053Z",
     "official": false
@@ -6780,7 +6780,7 @@
     "language": "Lua",
     "license": "Apache-2.0",
     "created_at": "2024-10-05T14:40:58Z",
-    "updated_at": "2026-06-29T15:30:14Z",
+    "updated_at": "2026-06-30T05:24:14Z",
     "pushed_at": "2026-04-18T14:33:26Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
@@ -15701,7 +15701,7 @@
     "name": "agent-sh/agnix",
     "url": "https://github.com/agent-sh/agnix",
     "description": "The missing linter and lsp for AI coding assistants. Validate CLAUDE.md, AGENTS.md, SKILL.md, hooks, MCP. Plugin for all major IDEs included, with autofixes.",
-    "stars": 306,
+    "stars": 308,
     "forks": 28,
     "topics": [
       "agent",
@@ -15728,7 +15728,7 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
-    "updated_at": "2026-06-29T23:48:06Z",
+    "updated_at": "2026-06-30T03:01:11Z",
     "pushed_at": "2026-06-29T14:26:49Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
@@ -18287,8 +18287,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-06-29T18:41:33Z",
-    "pushed_at": "2026-06-29T18:41:29Z",
+    "updated_at": "2026-06-30T00:40:13Z",
+    "pushed_at": "2026-06-30T00:40:09Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -31710,6 +31710,33 @@
     "updated_at": "2026-06-26T13:01:06Z",
     "pushed_at": "2026-06-26T12:56:43Z",
     "discovered_at": "2026-06-26T18:36:57.330Z",
+    "official": false
+  },
+  "magimetal/matrix-themes": {
+    "name": "magimetal/matrix-themes",
+    "url": "https://github.com/magimetal/matrix-themes",
+    "description": "Matrix-inspired themes for various software; pi-coding-agent, ghostty, herdr, vscode, zed",
+    "stars": 2,
+    "forks": 0,
+    "topics": [
+      "ghostty",
+      "ghostty-theme",
+      "herdr",
+      "matrix",
+      "pi-coding-agent",
+      "pi-coding-agent-theme",
+      "theme",
+      "vscode",
+      "vscode-theme",
+      "zed",
+      "zed-theme"
+    ],
+    "language": null,
+    "license": null,
+    "created_at": "2026-05-13T05:42:58Z",
+    "updated_at": "2026-06-30T05:16:28Z",
+    "pushed_at": "2026-06-09T23:51:17Z",
+    "discovered_at": "2026-06-30T07:17:53.935Z",
     "official": false
   }
 }

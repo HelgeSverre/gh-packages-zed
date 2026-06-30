@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1569** |
 | In official registry | 1125 |
 | Discovered via topics | 444 |
-| Last updated | 2026-06-30 00:39 UTC |
+| Last updated | 2026-06-30 07:17 UTC |
 
 ### By capability
 
@@ -120,10 +120,10 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 198 | 2026-06-29 | Zed plugin for automatic time tracking and metrics generated... |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 198 | 2026-06-30 | Zed plugin for automatic time tracking and metrics generated... |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 87 | 2026-06-30 | True Dark Theme for Zed IDE |
 | [alanisme/vscode-themes-for-zed](https://github.com/alanisme/vscode-themes-for-zed) | 13 | 2026-06-29 | ❤️ All 19 built-in Visual Studio Code color themes, ported t... |
 | [hadez8877/one-dark-pro-enhanced](https://github.com/hadez8877/one-dark-pro-enhanced) | 6 | 2026-06-29 | The most installed theme in Visual Studio Code modified for ... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 87 | 2026-06-29 | True Dark Theme for Zed IDE |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 129 | 2026-06-28 | The Ruby language support for Zed editor |
 | [pol-cova/cursor-theme-zed](https://github.com/pol-cova/cursor-theme-zed) | 0 | 2026-06-27 | A warm Cursor-inspired Zed theme with light and dark variant... |
 | [alysson-souza/zed-fish-lsp](https://github.com/alysson-souza/zed-fish-lsp) | 4 | 2026-06-27 | Fish shell extension for Zed with fish-lsp integration |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-06-30T07:17 | 1 | 483 | 1884 |
 | 2026-06-30T00:39 | 0 | 483 | 1883 |
 | 2026-06-29T18:40 | 0 | 483 | 1883 |
 | 2026-06-29T13:28 | 0 | 483 | 1883 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-28T12:28 | 0 | 483 | 1883 |
 | 2026-06-28T07:21 | 0 | 483 | 1883 |
 | 2026-06-28T00:39 | 0 | 483 | 1883 |
-| 2026-06-27T18:25 | 0 | 483 | 1883 |
 
 ---
 
