@@ -1,0 +1,11 @@
+id = "sbatch"
+name = "SBATCH"
+description = "Syntax highlighting for SLURM sbatch scripts"
+version = "0.1.0"
+schema_version = 1
+authors = ["nemeott"]
+repository = "https://github.com/nemeott/sbatch-zed"
+
+[grammars.sbatch]
+repository = "https://github.com/nemeott/tree-sitter-sbatch"
+commit = "5379c251758deda52084bb4b2ed4e990bff4c96e"

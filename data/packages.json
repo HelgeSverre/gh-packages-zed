@@ -216,7 +216,7 @@
     "license": "NOASSERTION",
     "created_at": "2024-10-11T18:22:02Z",
     "updated_at": "2026-06-29T03:07:09Z",
-    "pushed_at": "2026-06-28T07:37:51Z",
+    "pushed_at": "2026-07-01T18:00:15Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -279,7 +279,7 @@
     "name": "Nako0/devglobe-extension",
     "url": "https://github.com/Nako0/devglobe-extension",
     "description": "Official Extensions for DevGlobe. Show up on a 3D globe in real time while you code, with automatic time tracking and coding metrics.",
-    "stars": 195,
+    "stars": 196,
     "forks": 11,
     "topics": [
       "claude-code-plugin",
@@ -299,7 +299,7 @@
     "language": "TypeScript",
     "license": "MIT",
     "created_at": "2026-03-06T15:12:36Z",
-    "updated_at": "2026-06-29T14:14:20Z",
+    "updated_at": "2026-07-01T14:50:59Z",
     "pushed_at": "2026-06-25T11:41:49Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
@@ -742,7 +742,7 @@
     "name": "Gurvirr/zed-ultraViolet",
     "url": "https://github.com/Gurvirr/zed-ultraViolet",
     "description": "A dark, violet-toned theme designed for quality & visual comfort ◡̈",
-    "stars": 115,
+    "stars": 114,
     "forks": 1,
     "topics": [
       "theme",
@@ -753,7 +753,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-03-27T21:17:19Z",
-    "updated_at": "2026-07-01T04:37:32Z",
+    "updated_at": "2026-07-01T14:30:04Z",
     "pushed_at": "2026-05-08T15:27:24Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -1555,7 +1555,7 @@
     "name": "tahayvr/matte-black-zed",
     "url": "https://github.com/tahayvr/matte-black-zed",
     "description": "A low distraction dark theme for Zed Editor",
-    "stars": 18,
+    "stars": 19,
     "forks": 3,
     "topics": [
       "theme",
@@ -1564,7 +1564,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2025-08-05T18:20:55Z",
-    "updated_at": "2026-05-18T11:57:29Z",
+    "updated_at": "2026-07-01T18:29:58Z",
     "pushed_at": "2026-04-15T01:07:20Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -2146,7 +2146,7 @@
     "name": "dunyakirkali/zed-asciidoc",
     "url": "https://github.com/dunyakirkali/zed-asciidoc",
     "description": "Zed support for AsciiDoc syntax",
-    "stars": 20,
+    "stars": 21,
     "forks": 5,
     "topics": [
       "asciidoc",
@@ -2155,7 +2155,7 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-03-30T11:33:55Z",
-    "updated_at": "2026-06-15T19:49:17Z",
+    "updated_at": "2026-07-01T13:11:01Z",
     "pushed_at": "2026-06-15T19:49:12Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
@@ -5337,7 +5337,7 @@
     "name": "Dylanmurzello/zed-android-port",
     "url": "https://github.com/Dylanmurzello/zed-android-port",
     "description": "Native Android port of the Zed code editor,  gpui rendering through Vulkan, integrated Termux for LSPs and tooling, remote SSH support. Runs as an APK on tablets and Android desktop modes.",
-    "stars": 117,
+    "stars": 118,
     "forks": 9,
     "topics": [
       "android",
@@ -5364,7 +5364,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-05-07T00:12:10Z",
-    "updated_at": "2026-07-01T09:11:00Z",
+    "updated_at": "2026-07-01T18:22:48Z",
     "pushed_at": "2026-06-05T21:34:45Z",
     "discovered_at": "2026-05-19T19:54:12.053Z",
     "official": false
@@ -10942,16 +10942,23 @@
   "nemeott/statix-zed": {
     "name": "nemeott/statix-zed",
     "url": "https://github.com/nemeott/statix-zed",
-    "description": "",
+    "description": "Zed extension for Statix LSP",
     "stars": 0,
     "forks": 0,
-    "topics": [],
+    "topics": [
+      "lsp",
+      "nix",
+      "rust",
+      "statix",
+      "zed-extension"
+    ],
     "language": "Rust",
     "license": null,
     "created_at": "2026-04-24T05:50:28Z",
-    "updated_at": "2026-04-25T21:37:01Z",
+    "updated_at": "2026-07-01T18:02:08Z",
     "pushed_at": "2026-04-25T21:36:57Z",
-    "discovered_at": "2026-05-19T20:07:54.613Z"
+    "discovered_at": "2026-05-19T20:07:54.613Z",
+    "official": false
   },
   "davidsmfreire/sqlshield-zed": {
     "name": "davidsmfreire/sqlshield-zed",
@@ -15701,7 +15708,7 @@
     "name": "agent-sh/agnix",
     "url": "https://github.com/agent-sh/agnix",
     "description": "The missing linter and lsp for AI coding assistants. Validate CLAUDE.md, AGENTS.md, SKILL.md, hooks, MCP. Plugin for all major IDEs included, with autofixes.",
-    "stars": 312,
+    "stars": 313,
     "forks": 28,
     "topics": [
       "agent",
@@ -15728,7 +15735,7 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
-    "updated_at": "2026-06-30T16:27:17Z",
+    "updated_at": "2026-07-01T14:03:08Z",
     "pushed_at": "2026-06-29T14:26:49Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
@@ -18287,8 +18294,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-07-01T07:30:43Z",
-    "pushed_at": "2026-07-01T07:30:38Z",
+    "updated_at": "2026-07-01T12:58:00Z",
+    "pushed_at": "2026-07-01T12:57:56Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -25013,13 +25020,13 @@
     "name": "Kalmaegi/zed-rainbow-csv",
     "url": "https://github.com/Kalmaegi/zed-rainbow-csv",
     "description": "🌈Rainbow CSV - zed extension: Highlight CSV with different rainbow colors to make them more readable",
-    "stars": 58,
+    "stars": 59,
     "forks": 4,
     "topics": [],
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-04-12T13:06:46Z",
-    "updated_at": "2026-05-18T09:31:45Z",
+    "updated_at": "2026-07-01T18:31:10Z",
     "pushed_at": "2025-09-06T04:10:00Z",
     "discovered_at": "2026-05-20T02:57:03.419Z",
     "official": false
@@ -30311,8 +30318,8 @@
     "language": "Rust",
     "license": null,
     "created_at": "2026-06-09T22:36:14Z",
-    "updated_at": "2026-07-01T11:51:23Z",
-    "pushed_at": "2026-06-29T18:44:06Z",
+    "updated_at": "2026-07-01T18:19:49Z",
+    "pushed_at": "2026-07-01T18:19:44Z",
     "discovered_at": "2026-06-10T00:43:30.823Z",
     "official": false
   },
@@ -31638,8 +31645,8 @@
     "language": "C#",
     "license": "Unlicense",
     "created_at": "2026-06-18T15:06:49Z",
-    "updated_at": "2026-06-29T10:16:19Z",
-    "pushed_at": "2026-06-29T10:16:20Z",
+    "updated_at": "2026-07-01T15:10:27Z",
+    "pushed_at": "2026-07-01T15:11:37Z",
     "discovered_at": "2026-06-25T12:48:26.083Z",
     "official": false
   },
@@ -31737,6 +31744,47 @@
     "updated_at": "2026-06-30T05:16:28Z",
     "pushed_at": "2026-06-09T23:51:17Z",
     "discovered_at": "2026-06-30T07:17:53.935Z",
+    "official": false
+  },
+  "nemeott/sbatch-zed": {
+    "name": "nemeott/sbatch-zed",
+    "url": "https://github.com/nemeott/sbatch-zed",
+    "description": "Zed extension for SBATCH syntax highlighting",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "sbatch",
+      "slurm",
+      "syntax-highlighting",
+      "tree-sitter",
+      "zed-extension"
+    ],
+    "language": "Tree-sitter Query",
+    "license": null,
+    "created_at": "2026-04-10T04:41:04Z",
+    "updated_at": "2026-07-01T18:03:41Z",
+    "pushed_at": "2026-04-10T16:56:00Z",
+    "discovered_at": "2026-07-01T18:39:37.967Z",
+    "official": false
+  },
+  "iraemachina/rage-theme": {
+    "name": "iraemachina/RAGE-theme",
+    "url": "https://github.com/iraemachina/RAGE-theme",
+    "description": "A bold dark theme for Zed with high-contrast syntax colors",
+    "stars": 1,
+    "forks": 0,
+    "topics": [
+      "syntax-highlighting",
+      "theme",
+      "zed",
+      "zed-themes"
+    ],
+    "language": null,
+    "license": null,
+    "created_at": "2026-07-01T18:11:12Z",
+    "updated_at": "2026-07-01T18:29:14Z",
+    "pushed_at": "2026-07-01T18:24:16Z",
+    "discovered_at": "2026-07-01T18:39:37.968Z",
     "official": false
   }
 }

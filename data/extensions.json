@@ -254,7 +254,7 @@
     "license": "NOASSERTION",
     "created_at": "2024-10-11T18:22:02Z",
     "updated_at": "2026-06-29T03:07:09Z",
-    "pushed_at": "2026-06-28T07:37:51Z",
+    "pushed_at": "2026-07-01T18:00:15Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -1030,7 +1030,7 @@
     "name": "Gurvirr/zed-ultraViolet",
     "url": "https://github.com/Gurvirr/zed-ultraViolet",
     "description": "A dark, violet-toned theme designed for quality & visual comfort ◡̈",
-    "stars": 115,
+    "stars": 114,
     "forks": 1,
     "topics": [
       "theme",
@@ -1041,7 +1041,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-03-27T21:17:19Z",
-    "updated_at": "2026-07-01T04:37:32Z",
+    "updated_at": "2026-07-01T14:30:04Z",
     "pushed_at": "2026-05-08T15:27:24Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -2285,7 +2285,7 @@
     "name": "tahayvr/matte-black-zed",
     "url": "https://github.com/tahayvr/matte-black-zed",
     "description": "A low distraction dark theme for Zed Editor",
-    "stars": 18,
+    "stars": 19,
     "forks": 3,
     "topics": [
       "theme",
@@ -2294,7 +2294,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2025-08-05T18:20:55Z",
-    "updated_at": "2026-05-18T11:57:29Z",
+    "updated_at": "2026-07-01T18:29:58Z",
     "pushed_at": "2026-04-15T01:07:20Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -3329,7 +3329,7 @@
     "name": "dunyakirkali/zed-asciidoc",
     "url": "https://github.com/dunyakirkali/zed-asciidoc",
     "description": "Zed support for AsciiDoc syntax",
-    "stars": 20,
+    "stars": 21,
     "forks": 5,
     "topics": [
       "asciidoc",
@@ -3338,7 +3338,7 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-03-30T11:33:55Z",
-    "updated_at": "2026-06-15T19:49:17Z",
+    "updated_at": "2026-07-01T13:11:01Z",
     "pushed_at": "2026-06-15T19:49:12Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false,
@@ -15153,16 +15153,23 @@
   "nemeott/statix-zed": {
     "name": "nemeott/statix-zed",
     "url": "https://github.com/nemeott/statix-zed",
-    "description": "",
+    "description": "Zed extension for Statix LSP",
     "stars": 0,
     "forks": 0,
-    "topics": [],
+    "topics": [
+      "lsp",
+      "nix",
+      "rust",
+      "statix",
+      "zed-extension"
+    ],
     "language": "Rust",
     "license": null,
     "created_at": "2026-04-24T05:50:28Z",
-    "updated_at": "2026-04-25T21:37:01Z",
+    "updated_at": "2026-07-01T18:02:08Z",
     "pushed_at": "2026-04-25T21:36:57Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
+    "official": false,
     "extension": {
       "id": "statix",
       "name": "Statix",
@@ -42373,13 +42380,13 @@
     "name": "Kalmaegi/zed-rainbow-csv",
     "url": "https://github.com/Kalmaegi/zed-rainbow-csv",
     "description": "🌈Rainbow CSV - zed extension: Highlight CSV with different rainbow colors to make them more readable",
-    "stars": 58,
+    "stars": 59,
     "forks": 4,
     "topics": [],
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-04-12T13:06:46Z",
-    "updated_at": "2026-05-18T09:31:45Z",
+    "updated_at": "2026-07-01T18:31:10Z",
     "pushed_at": "2025-09-06T04:10:00Z",
     "discovered_at": "2026-05-20T02:57:03.419Z",
     "official": false,
@@ -53529,6 +53536,45 @@
       "sections": [],
       "categories": [
         "theme"
+      ]
+    }
+  },
+  "nemeott/sbatch-zed": {
+    "name": "nemeott/sbatch-zed",
+    "url": "https://github.com/nemeott/sbatch-zed",
+    "description": "Zed extension for SBATCH syntax highlighting",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "sbatch",
+      "slurm",
+      "syntax-highlighting",
+      "tree-sitter",
+      "zed-extension"
+    ],
+    "language": "Tree-sitter Query",
+    "license": null,
+    "created_at": "2026-04-10T04:41:04Z",
+    "updated_at": "2026-07-01T18:03:41Z",
+    "pushed_at": "2026-04-10T16:56:00Z",
+    "discovered_at": "2026-07-01T18:39:37.967Z",
+    "official": false,
+    "extension": {
+      "id": "sbatch",
+      "name": "SBATCH",
+      "description": "Syntax highlighting for SLURM sbatch scripts",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "nemeott"
+      ],
+      "repository": "https://github.com/nemeott/sbatch-zed",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
       ]
     }
   }
