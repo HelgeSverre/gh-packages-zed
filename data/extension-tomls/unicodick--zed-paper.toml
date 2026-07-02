@@ -1,0 +1,23 @@
+id = "paper-development"
+name = "Paper Development"
+version = "0.1.0"
+schema_version = 1
+authors = ["unicodick"]
+description = "Paper 1.21.11 plugin development tools for Zed."
+repository = "https://github.com/unicodick/zed-paper"
+languages = ["languages/paper-plugin-yaml"]
+snippets = ["snippets/java.json"]
+
+[lib]
+kind = "Rust"
+version = "0.7.0"
+
+[grammars.yaml]
+repository = "https://github.com/zed-industries/tree-sitter-yaml"
+rev = "baff0b51c64ef6a1fb1f8390f3ad6015b83ec13a"
+
+[language_servers.paper-development]
+name = "Paper Development"
+languages = ["Paper Plugin YAML"]
+
+[context_servers.paper-development]

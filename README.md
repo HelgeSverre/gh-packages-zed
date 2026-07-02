@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1571-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1573-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,20 +14,20 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1571** |
+| Total tracked | **1573** |
 | In official registry | 1125 |
-| Discovered via topics | 446 |
-| Last updated | 2026-07-02 12:39 UTC |
+| Discovered via topics | 448 |
+| Last updated | 2026-07-02 18:31 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
-| Themes | 654 |
-| Grammars | 548 |
-| Language Servers | 509 |
-| Context Servers | 129 |
-| Snippets | 69 |
+| Themes | 655 |
+| Grammars | 549 |
+| Language Servers | 510 |
+| Context Servers | 130 |
+| Snippets | 70 |
 | Slash Commands | 55 |
 | Debug Adapters | 33 |
 | Docs Providers | 16 |
@@ -70,9 +70,11 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [unicodick/zed-paper](https://github.com/unicodick/zed-paper) | 0 | Paper 1.21.11 plugin development tools for Zed. |
+| [buisson-theme/Buisson](https://github.com/buisson-theme/Buisson) | 3 | An inky botanical color scheme |
 | [aefly/orng](https://github.com/aefly/orng) | 0 | 🍊 Your editor called — it wants more orange. Bold accents, crisp contrast, dark... |
 | [nemeott/sbatch-zed](https://github.com/nemeott/sbatch-zed) | 0 | Zed extension for SBATCH syntax highlighting |
-| [caelyreth/eclat-zed](https://github.com/caelyreth/eclat-zed) | 7 | Immersed in peace and a muted Zed editor theme. |
+| [caelyreth/eclat-zed](https://github.com/caelyreth/eclat-zed) | 8 | Immersed in peace and a muted Zed editor theme. |
 | [malleroid/emerald-synth-zed](https://github.com/malleroid/emerald-synth-zed) | 0 | Emerald Synth theme for Zed editor |
 | [ams-sth/vantadark](https://github.com/ams-sth/vantadark) | 0 | A minimal dark theme for Zed. Clean surfaces, no borders, five syntax colours. G... |
 | [Adriusops/buisson-zed](https://github.com/Adriusops/buisson-zed) | 0 | Buisson theme for Zed editor |
@@ -88,8 +90,6 @@ cd website && npm install && npm run dev
 | [mrzzmrzz/token-themes](https://github.com/mrzzmrzz/token-themes) | 0 | Token light and dark themes for Zed |
 | [leisure462/zed-claude-themes](https://github.com/leisure462/zed-claude-themes) | 1 |  |
 | [MrPoloGit/elsa-lang](https://github.com/MrPoloGit/elsa-lang) | 0 |  |
-| [Oneptica/Zed-LaTeX-Snippets](https://github.com/Oneptica/Zed-LaTeX-Snippets) | 2 |  |
-| [frypan05/Lumin](https://github.com/frypan05/Lumin) | 29 | Minimalistic everyday theme for Zed. |
 
 ## Top starred (under 500)
 
@@ -101,7 +101,7 @@ cd website && npm install && npm run dev
 | [oxc-project/oxc-zed](https://github.com/oxc-project/oxc-zed) | 256 | Oxc extension for Zed |
 | [catppuccin/zed-icons](https://github.com/catppuccin/zed-icons) | 240 | 🦊 Soothing pastel icons for Zed |
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 198 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 199 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
@@ -120,13 +120,15 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [buisson-theme/Buisson](https://github.com/buisson-theme/Buisson) | 3 | 2026-07-02 | An inky botanical color scheme |
+| [unicodick/zed-paper](https://github.com/unicodick/zed-paper) | 0 | 2026-07-02 | Paper 1.21.11 plugin development tools for Zed. |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 153 | 2026-07-02 | 🦊 Zed editor theme ported from Neovim |
-| [kevcamel/vscode_dark_modern.zed](https://github.com/kevcamel/vscode_dark_modern.zed) | 52 | 2026-07-02 | VS Code Dark Modern theme for Zed |
+| [kevcamel/vscode_dark_modern.zed](https://github.com/kevcamel/vscode_dark_modern.zed) | 53 | 2026-07-02 | VS Code Dark Modern theme for Zed |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 87 | 2026-07-02 | True Dark Theme for Zed IDE |
 | [aefly/orng](https://github.com/aefly/orng) | 0 | 2026-07-02 | 🍊 Your editor called — it wants more orange. Bold accents, ... |
-| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 129 | 2026-07-01 | The Ruby language support for Zed editor |
+| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 130 | 2026-07-01 | The Ruby language support for Zed editor |
 | [frostime/zed-file-mention](https://github.com/frostime/zed-file-mention) | 0 | 2026-07-01 | An zed extension (dev phase). Press @ for quick file path co... |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 198 | 2026-07-01 | Zed plugin for automatic time tracking and metrics generated... |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 199 | 2026-07-01 | Zed plugin for automatic time tracking and metrics generated... |
 | [alanisme/vscode-themes-for-zed](https://github.com/alanisme/vscode-themes-for-zed) | 13 | 2026-06-29 | ❤️ All 19 built-in Visual Studio Code color themes, ported t... |
 | [hadez8877/one-dark-pro-enhanced](https://github.com/hadez8877/one-dark-pro-enhanced) | 6 | 2026-06-29 | The most installed theme in Visual Studio Code modified for ... |
 | [pol-cova/cursor-theme-zed](https://github.com/pol-cova/cursor-theme-zed) | 0 | 2026-06-27 | A warm Cursor-inspired Zed theme with light and dark variant... |
@@ -138,13 +140,12 @@ cd website && npm install && npm run dev
 | [ronketer/nand2tetris-for-Zed](https://github.com/ronketer/nand2tetris-for-Zed) | 0 | 2026-06-26 | An extension for Zed code editor  which adds support for nan... |
 | [MathieuAlphamosa/zed-spip](https://github.com/MathieuAlphamosa/zed-spip) | 1 | 2026-06-25 | SPIP template language extension for the Zed editor |
 | [Adriusops/buisson-zed](https://github.com/Adriusops/buisson-zed) | 0 | 2026-06-24 | Buisson theme for Zed editor |
-| [evgenii-sergeev/zed-ep-133](https://github.com/evgenii-sergeev/zed-ep-133) | 0 | 2026-06-24 | Teenage Engineering’s EP–133 K.O. II inspired theme for Zed |
-| [ams-sth/vantadark](https://github.com/ams-sth/vantadark) | 0 | 2026-06-24 | A minimal dark theme for Zed. Clean surfaces, no borders, fi... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-07-02T18:31 | 2 | 487 | 1890 |
 | 2026-07-02T12:39 | 0 | 488 | 1888 |
 | 2026-07-02T07:08 | 0 | 488 | 1888 |
 | 2026-07-02T00:39 | 2 | 486 | 1888 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-07-01T00:41 | 0 | 483 | 1884 |
 | 2026-06-30T18:37 | 0 | 483 | 1884 |
 | 2026-06-30T12:41 | 0 | 484 | 1884 |
-| 2026-06-30T07:17 | 1 | 483 | 1884 |
 
 ---
 
