@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1571** |
 | In official registry | 1125 |
 | Discovered via topics | 446 |
-| Last updated | 2026-07-02 00:39 UTC |
+| Last updated | 2026-07-02 07:08 UTC |
 
 ### By capability
 
@@ -120,10 +120,11 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [kevcamel/vscode_dark_modern.zed](https://github.com/kevcamel/vscode_dark_modern.zed) | 52 | 2026-07-02 | VS Code Dark Modern theme for Zed |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 87 | 2026-07-02 | True Dark Theme for Zed IDE |
 | [aefly/orng](https://github.com/aefly/orng) | 0 | 2026-07-02 | 🍊 Your editor called — it wants more orange. Bold accents, ... |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 129 | 2026-07-01 | The Ruby language support for Zed editor |
 | [frostime/zed-file-mention](https://github.com/frostime/zed-file-mention) | 0 | 2026-07-01 | An zed extension (dev phase). Press @ for quick file path co... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 87 | 2026-07-01 | True Dark Theme for Zed IDE |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 198 | 2026-07-01 | Zed plugin for automatic time tracking and metrics generated... |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 153 | 2026-06-30 | 🦊 Zed editor theme ported from Neovim |
 | [alanisme/vscode-themes-for-zed](https://github.com/alanisme/vscode-themes-for-zed) | 13 | 2026-06-29 | ❤️ All 19 built-in Visual Studio Code color themes, ported t... |
@@ -135,7 +136,6 @@ cd website && npm install && npm run dev
 | [tbxark/vscode2026-theme-zed](https://github.com/tbxark/vscode2026-theme-zed) | 0 | 2026-06-26 | VS Code 2026 theme for Zed |
 | [pataruco/zed-mjml](https://github.com/pataruco/zed-mjml) | 2 | 2026-06-26 | MJML syntax support for Zed |
 | [ronketer/nand2tetris-for-Zed](https://github.com/ronketer/nand2tetris-for-Zed) | 0 | 2026-06-26 | An extension for Zed code editor  which adds support for nan... |
-| [kevcamel/vscode_dark_modern.zed](https://github.com/kevcamel/vscode_dark_modern.zed) | 52 | 2026-06-26 | VS Code Dark Modern theme for Zed |
 | [MathieuAlphamosa/zed-spip](https://github.com/MathieuAlphamosa/zed-spip) | 1 | 2026-06-25 | SPIP template language extension for the Zed editor |
 | [Adriusops/buisson-zed](https://github.com/Adriusops/buisson-zed) | 0 | 2026-06-24 | Buisson theme for Zed editor |
 | [evgenii-sergeev/zed-ep-133](https://github.com/evgenii-sergeev/zed-ep-133) | 0 | 2026-06-24 | Teenage Engineering’s EP–133 K.O. II inspired theme for Zed |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-07-02T07:08 | 0 | 488 | 1888 |
 | 2026-07-02T00:39 | 2 | 486 | 1888 |
 | 2026-07-01T18:39 | 2 | 484 | 1886 |
 | 2026-07-01T12:57 | 0 | 483 | 1884 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-06-30T12:41 | 0 | 484 | 1884 |
 | 2026-06-30T07:17 | 1 | 483 | 1884 |
 | 2026-06-30T00:39 | 0 | 483 | 1883 |
-| 2026-06-29T18:40 | 0 | 483 | 1883 |
 
 ---
 
