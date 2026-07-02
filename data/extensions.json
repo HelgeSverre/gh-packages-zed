@@ -254,7 +254,7 @@
     "license": "NOASSERTION",
     "created_at": "2024-10-11T18:22:02Z",
     "updated_at": "2026-06-29T03:07:09Z",
-    "pushed_at": "2026-07-01T18:00:15Z",
+    "pushed_at": "2026-07-01T19:27:00Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -1845,7 +1845,7 @@
     "url": "https://github.com/sinon/zed-structurizr",
     "description": "Structurizr Zed Extension",
     "stars": 0,
-    "forks": 0,
+    "forks": 1,
     "topics": [
       "lsp",
       "structurizr",
@@ -4996,7 +4996,7 @@
     "name": "huacnlee/zed-theme-macos-classic",
     "url": "https://github.com/huacnlee/zed-theme-macos-classic",
     "description": "A macOS native style theme for Zed, let it same like native app in macOS.",
-    "stars": 161,
+    "stars": 162,
     "forks": 5,
     "topics": [
       "macos-classic",
@@ -5007,7 +5007,7 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2024-01-29T02:19:59Z",
-    "updated_at": "2026-06-29T20:30:02Z",
+    "updated_at": "2026-07-01T22:51:37Z",
     "pushed_at": "2026-02-05T02:23:27Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -12231,14 +12231,23 @@
     "name": "eallender/zed-python-autodoc",
     "url": "https://github.com/eallender/zed-python-autodoc",
     "description": "Zed extension for python auto-documentation",
-    "stars": 0,
+    "stars": 4,
     "forks": 0,
-    "topics": [],
+    "topics": [
+      "auto-comments",
+      "auto-complete",
+      "auto-documentation",
+      "python",
+      "rust",
+      "zed",
+      "zed-editor",
+      "zed-extension"
+    ],
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-05-12T23:09:15Z",
-    "updated_at": "2026-05-15T21:12:10Z",
-    "pushed_at": "2026-05-15T21:11:46Z",
+    "updated_at": "2026-07-01T23:12:17Z",
+    "pushed_at": "2026-06-01T22:09:23Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": true,
     "extension": {
@@ -22360,7 +22369,7 @@
     "name": "skarline/zed-fleet-themes",
     "url": "https://github.com/skarline/zed-fleet-themes",
     "description": "🚢 Transform Zed with Fleet's sleek, modern aesthetic for a sublime coding experience.",
-    "stars": 86,
+    "stars": 87,
     "forks": 7,
     "topics": [
       "zed",
@@ -22371,7 +22380,7 @@
     "language": "TypeScript",
     "license": null,
     "created_at": "2024-03-04T23:56:09Z",
-    "updated_at": "2026-06-27T07:18:02Z",
+    "updated_at": "2026-07-01T23:45:44Z",
     "pushed_at": "2025-03-13T17:22:47Z",
     "discovered_at": "2026-05-19T20:15:46.472Z",
     "official": true,
@@ -22952,7 +22961,7 @@
     "name": "zarifpour/zed-env",
     "url": "https://github.com/zarifpour/zed-env",
     "description": "🔐 env support for Zed.",
-    "stars": 54,
+    "stars": 55,
     "forks": 2,
     "topics": [
       "dotenv",
@@ -22969,7 +22978,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-07-12T02:40:18Z",
-    "updated_at": "2026-06-30T15:16:50Z",
+    "updated_at": "2026-07-01T18:39:47Z",
     "pushed_at": "2024-11-13T21:48:13Z",
     "discovered_at": "2026-05-19T20:52:12.309Z",
     "official": true,
@@ -53575,6 +53584,40 @@
       ],
       "categories": [
         "grammar"
+      ]
+    }
+  },
+  "aefly/orng": {
+    "name": "aefly/orng",
+    "url": "https://github.com/aefly/orng",
+    "description": "🍊 Your editor called — it wants more orange. Bold accents, crisp contrast, dark & light.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "zed",
+      "zed-theme"
+    ],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-07-02T00:11:58Z",
+    "updated_at": "2026-07-02T00:29:04Z",
+    "pushed_at": "2026-07-02T00:12:14Z",
+    "discovered_at": "2026-07-02T00:39:46.448Z",
+    "official": false,
+    "extension": {
+      "id": "orng-theme",
+      "name": "orng",
+      "description": "🍊 Your editor called — it wants more orange. Bold accents, crisp contrast, dark & light.",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "authors": [
+        "aefly"
+      ],
+      "repository": "https://github.com/aefly/orng",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
       ]
     }
   }
