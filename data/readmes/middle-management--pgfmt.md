@@ -1,0 +1,83 @@
+# pgfmt
+
+A PostgreSQL SQL formatter. Reads SQL from stdin, outputs formatted SQL to stdout.
+
+Uses [libpg_query](https://github.com/pganalyze/pg_query_go) to parse SQL with the actual PostgreSQL parser.
+
+## Install
+
+```bash
+go install github.com/middle-management/pgfmt@latest
+```
+
+## Usage
+
+```bash
+echo "SELECT id,name FROM users WHERE active=true" | pgfmt
+```
+
+```bash
+pgfmt < query.sql
+```
+
+## LSP Server
+
+pgfmt includes an LSP server that provides formatting and diagnostics for SQL files.
+
+### Install
+
+```bash
+go install github.com/middle-management/pgfmt/cmd/pgfmt-lsp@latest
+```
+
+### Editor Setup
+
+**Neovim** (via `nvim-lspconfig`):
+
+```lua
+vim.lsp.config['pgfmt'] = {
+  cmd = { 'pgfmt-lsp' },
+  filetypes = { 'sql' },
+  root_markers = { '.git' },
+}
+vim.lsp.enable('pgfmt')
+```
+
+**VS Code** (via a generic LSP client like `vscode-languageclient`):
+
+```json
+{
+  "pgfmt.server.path": "pgfmt-lsp"
+}
+```
+
+**Zed** — install the [pgfmt Zed extension](https://github.com/middle-management/pgfmt/tree/main/zed-pgfmt) from the extension registry. It bundles `pgfmt-lsp` and downloads it automatically — no manual setup required.
+
+Then enable formatting in `.zed/settings.json` or `~/.config/zed/settings.json`:
+
+```json
+{
+  "languages": {
+    "SQL": {
+      "formatter": "language_server",
+      "format_on_save": "on"
+    }
+  }
+}
+```
+
+See the [extension README](zed-pgfmt/README.md) for advanced configuration, including how to use a custom binary path.
+
+### Features
+
+- **Formatting** — format SQL files using `textDocument/formatting`
+- **Diagnostics** — parse errors reported on open and change
+
+## Build from source
+
+```bash
+git clone https://github.com/middle-management/pgfmt.git
+cd pgfmt
+go build -o pgfmt .
+go build -o pgfmt-lsp ./cmd/pgfmt-lsp
+```
