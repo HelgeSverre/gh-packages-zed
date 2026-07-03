@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1573-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1571-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,16 +14,16 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1573** |
+| Total tracked | **1571** |
 | In official registry | 1125 |
-| Discovered via topics | 448 |
-| Last updated | 2026-07-02 18:31 UTC |
+| Discovered via topics | 446 |
+| Last updated | 2026-07-03 00:33 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
-| Themes | 655 |
+| Themes | 653 |
 | Grammars | 549 |
 | Language Servers | 510 |
 | Context Servers | 130 |
@@ -97,7 +97,7 @@ cd website && npm install && npm run dev
 |---|---|---|
 | [biomejs/biome-zed](https://github.com/biomejs/biome-zed) | 466 | Biome extension for Zed |
 | [xhyrom/zed-discord-presence](https://github.com/xhyrom/zed-discord-presence) | 415 | extension for zed that adds support for discord rich presence using lsp |
-| [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 329 | Catppuccin Theme but as blurred variants + custom ones |
+| [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 330 | Catppuccin Theme but as blurred variants + custom ones |
 | [oxc-project/oxc-zed](https://github.com/oxc-project/oxc-zed) | 256 | Oxc extension for Zed |
 | [catppuccin/zed-icons](https://github.com/catppuccin/zed-icons) | 240 | 🦊 Soothing pastel icons for Zed |
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
@@ -120,6 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [BenjaminHalko/flow-icons-zed](https://github.com/BenjaminHalko/flow-icons-zed) | 27 | 2026-07-02 | 🌼 Flow Icons ported to Zed |
 | [buisson-theme/Buisson](https://github.com/buisson-theme/Buisson) | 3 | 2026-07-02 | An inky botanical color scheme |
 | [unicodick/zed-paper](https://github.com/unicodick/zed-paper) | 0 | 2026-07-02 | Paper 1.21.11 plugin development tools for Zed. |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 153 | 2026-07-02 | 🦊 Zed editor theme ported from Neovim |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [pataruco/zed-mjml](https://github.com/pataruco/zed-mjml) | 2 | 2026-06-26 | MJML syntax support for Zed |
 | [ronketer/nand2tetris-for-Zed](https://github.com/ronketer/nand2tetris-for-Zed) | 0 | 2026-06-26 | An extension for Zed code editor  which adds support for nan... |
 | [MathieuAlphamosa/zed-spip](https://github.com/MathieuAlphamosa/zed-spip) | 1 | 2026-06-25 | SPIP template language extension for the Zed editor |
-| [Adriusops/buisson-zed](https://github.com/Adriusops/buisson-zed) | 0 | 2026-06-24 | Buisson theme for Zed editor |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-07-03T00:33 | 0 | 435 | 1885 |
 | 2026-07-02T18:31 | 2 | 487 | 1890 |
 | 2026-07-02T12:39 | 0 | 488 | 1888 |
 | 2026-07-02T07:08 | 0 | 488 | 1888 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-07-01T07:30 | 0 | 483 | 1884 |
 | 2026-07-01T00:41 | 0 | 483 | 1884 |
 | 2026-06-30T18:37 | 0 | 483 | 1884 |
-| 2026-06-30T12:41 | 0 | 484 | 1884 |
 
 ---
 
