@@ -85,7 +85,7 @@
     "name": "GDQuest/zed-gdscript",
     "url": "https://github.com/GDQuest/zed-gdscript",
     "description": "Zed support for the Godot game engine and the GDScript language",
-    "stars": 181,
+    "stars": 182,
     "forks": 22,
     "topics": [
       "code-editor",
@@ -97,7 +97,7 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-02-26T18:14:41Z",
-    "updated_at": "2026-06-23T23:27:03Z",
+    "updated_at": "2026-07-03T00:36:54Z",
     "pushed_at": "2026-05-21T10:29:17Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -141,8 +141,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-07-02T02:58:18Z",
-    "pushed_at": "2026-07-02T02:58:15Z",
+    "updated_at": "2026-07-03T05:37:08Z",
+    "pushed_at": "2026-07-03T05:37:05Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -2040,7 +2040,7 @@
     "name": "foxoman/zed-nim",
     "url": "https://github.com/foxoman/zed-nim",
     "description": "Nim support for Zed Editor",
-    "stars": 47,
+    "stars": 48,
     "forks": 4,
     "topics": [
       "nim",
@@ -2051,7 +2051,7 @@
     "language": "Tree-sitter Query",
     "license": "Apache-2.0",
     "created_at": "2024-07-12T08:06:46Z",
-    "updated_at": "2026-06-12T04:48:39Z",
+    "updated_at": "2026-07-03T01:30:21Z",
     "pushed_at": "2026-04-20T19:10:13Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -3710,7 +3710,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-03-18T16:55:33Z",
-    "updated_at": "2026-06-29T09:39:28Z",
+    "updated_at": "2026-07-03T03:17:52Z",
     "pushed_at": "2026-03-18T16:55:38Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false,
@@ -8310,7 +8310,7 @@
     "name": "alanisme/vscode-themes-for-zed",
     "url": "https://github.com/alanisme/vscode-themes-for-zed",
     "description": "❤️ All 19 built-in Visual Studio Code color themes, ported to Zed.",
-    "stars": 13,
+    "stars": 14,
     "forks": 0,
     "topics": [
       "color-theme",
@@ -8324,7 +8324,7 @@
     "language": "TypeScript",
     "license": "MIT",
     "created_at": "2026-03-09T00:14:00Z",
-    "updated_at": "2026-06-29T23:23:45Z",
+    "updated_at": "2026-07-03T06:28:17Z",
     "pushed_at": "2026-06-29T15:33:19Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": true,
@@ -8800,7 +8800,7 @@
     "name": "cange/nightfox.zed",
     "url": "https://github.com/cange/nightfox.zed",
     "description": "🦊 Zed editor theme ported from Neovim",
-    "stars": 153,
+    "stars": 154,
     "forks": 5,
     "topics": [
       "zed",
@@ -8809,7 +8809,7 @@
     "language": "Lua",
     "license": "MIT",
     "created_at": "2024-05-02T20:49:30Z",
-    "updated_at": "2026-07-02T12:21:38Z",
+    "updated_at": "2026-07-02T20:48:30Z",
     "pushed_at": "2026-07-02T12:21:09Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": true,
@@ -48298,13 +48298,13 @@
     "name": "kevcamel/vscode_dark_modern.zed",
     "url": "https://github.com/kevcamel/vscode_dark_modern.zed",
     "description": "VS Code Dark Modern theme for Zed",
-    "stars": 53,
+    "stars": 54,
     "forks": 16,
     "topics": [],
     "language": null,
     "license": "MIT",
     "created_at": "2024-05-17T15:44:22Z",
-    "updated_at": "2026-07-02T14:02:18Z",
+    "updated_at": "2026-07-03T06:23:44Z",
     "pushed_at": "2026-07-02T03:41:12Z",
     "discovered_at": "2026-05-20T03:49:49.286Z",
     "official": false,
@@ -53624,6 +53624,83 @@
         "extension",
         "themes"
       ],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "softyesti/softglass_zed_theme": {
+    "name": "softyesti/softglass_zed_theme",
+    "url": "https://github.com/softyesti/softglass_zed_theme",
+    "description": "Glass themes with color options for Zed Code Editor.",
+    "stars": 2,
+    "forks": 0,
+    "topics": [
+      "code",
+      "colors",
+      "editor",
+      "glass",
+      "glassmorphism",
+      "theme",
+      "zed",
+      "zed-industries",
+      "zed-theme"
+    ],
+    "language": "Makefile",
+    "license": "AGPL-3.0",
+    "created_at": "2024-04-27T14:17:04Z",
+    "updated_at": "2024-10-29T17:46:10Z",
+    "pushed_at": "2024-10-29T17:46:59Z",
+    "discovered_at": "2026-07-03T07:05:34.323Z",
+    "official": false,
+    "extension": {
+      "id": "softglass",
+      "name": "SoftGlass Themes",
+      "description": "Glass themes with color options.",
+      "version": "0.6.0",
+      "schema_version": 1,
+      "authors": [
+        "João Sereia (SoftYes TI) <joao.sereia@softyes.com.br>"
+      ],
+      "repository": "https://github.com/softyesti/softglass",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "roxo-theme/zed": {
+    "name": "roxo-theme/zed",
+    "url": "https://github.com/roxo-theme/zed",
+    "description": "Roxo theme for zed IDE",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "theme",
+      "zed",
+      "zed-industries",
+      "zed-theme"
+    ],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2024-08-25T20:42:30Z",
+    "updated_at": "2024-08-26T21:40:48Z",
+    "pushed_at": "2024-08-26T21:40:45Z",
+    "discovered_at": "2026-07-03T07:05:34.323Z",
+    "official": false,
+    "extension": {
+      "id": "roxo-theme",
+      "name": "Roxo theme",
+      "description": "Roxo theme for Zed IDE",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "authors": [
+        "Rellyson Silva <noreply>"
+      ],
+      "repository": "https://github.com/roxo-theme/zed",
+      "snippets": null,
+      "sections": [],
       "categories": [
         "theme"
       ]
