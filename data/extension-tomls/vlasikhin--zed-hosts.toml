@@ -1,0 +1,11 @@
+id = "hosts"
+name = "Hosts"
+version = "0.0.1"
+schema_version = 1
+authors = ["Pavel Vlasikhin <pavel@vlasikhin.com>"]
+description = "Syntax highlighting for /etc/hosts files"
+repository = "https://github.com/vlasikhin/zed-hosts"
+
+[grammars.hosts]
+repository = "https://github.com/vlasikhin/tree-sitter-hosts"
+rev = "63d71efa1ca8a45d691378c5a5acdd1c3a4ec447"

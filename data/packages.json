@@ -82,8 +82,8 @@
     "name": "jellydn/zed-codemux",
     "url": "https://github.com/jellydn/zed-codemux",
     "description": "Open Zed terminals inside tmux or zellij — port of vscode-mux to the Zed editor.",
-    "stars": 8,
-    "forks": 0,
+    "stars": 9,
+    "forks": 1,
     "topics": [
       "tmux",
       "zed",
@@ -93,7 +93,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-05-02T05:39:52Z",
-    "updated_at": "2026-06-09T16:56:57Z",
+    "updated_at": "2026-07-03T12:41:23Z",
     "pushed_at": "2026-06-18T19:06:02Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
@@ -2333,7 +2333,7 @@
     "name": "chopratejas/headroom-zed",
     "url": "https://github.com/chopratejas/headroom-zed",
     "description": "Zed extension for Headroom — context compression for AI agents",
-    "stars": 35,
+    "stars": 36,
     "forks": 6,
     "topics": [
       "ai-agents",
@@ -2350,7 +2350,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-03-18T16:55:33Z",
-    "updated_at": "2026-07-03T03:17:52Z",
+    "updated_at": "2026-07-03T12:19:02Z",
     "pushed_at": "2026-03-18T16:55:38Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
@@ -14778,7 +14778,7 @@
     "name": "skarline/zed-fleet-themes",
     "url": "https://github.com/skarline/zed-fleet-themes",
     "description": "🚢 Transform Zed with Fleet's sleek, modern aesthetic for a sublime coding experience.",
-    "stars": 88,
+    "stars": 87,
     "forks": 7,
     "topics": [
       "zed",
@@ -14789,7 +14789,7 @@
     "language": "TypeScript",
     "license": null,
     "created_at": "2024-03-04T23:56:09Z",
-    "updated_at": "2026-07-02T17:58:24Z",
+    "updated_at": "2026-07-03T11:54:53Z",
     "pushed_at": "2025-03-13T17:22:47Z",
     "discovered_at": "2026-05-19T20:15:46.472Z",
     "official": true
@@ -15390,7 +15390,7 @@
     "name": "darkvoid-theme/darkvoid.nvim",
     "url": "https://github.com/darkvoid-theme/darkvoid.nvim",
     "description": "Neovim Colorscheme for dark dwellers with optional glow effect!",
-    "stars": 224,
+    "stars": 225,
     "forks": 11,
     "topics": [
       "color-scheme",
@@ -15415,7 +15415,7 @@
     "language": "Lua",
     "license": "MIT",
     "created_at": "2024-07-30T06:26:25Z",
-    "updated_at": "2026-06-29T19:44:29Z",
+    "updated_at": "2026-07-03T12:13:43Z",
     "pushed_at": "2024-11-21T21:02:02Z",
     "discovered_at": "2026-05-19T20:52:12.309Z",
     "official": false
@@ -15638,8 +15638,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
-    "updated_at": "2026-07-03T07:17:57Z",
-    "pushed_at": "2026-07-02T22:53:01Z",
+    "updated_at": "2026-07-03T09:52:57Z",
+    "pushed_at": "2026-07-03T09:52:53Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -17587,13 +17587,13 @@
     "name": "joshuablais/compline",
     "url": "https://github.com/joshuablais/compline",
     "description": "A color palette for Deep contemplation and work",
-    "stars": 115,
+    "stars": 116,
     "forks": 17,
     "topics": [],
     "language": "CSS",
     "license": "GPL-3.0",
     "created_at": "2025-10-31T19:02:45Z",
-    "updated_at": "2026-07-02T09:41:27Z",
+    "updated_at": "2026-07-03T13:04:02Z",
     "pushed_at": "2026-01-20T17:25:47Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
@@ -18197,8 +18197,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-07-03T09:41:27Z",
-    "pushed_at": "2026-07-03T09:41:20Z",
+    "updated_at": "2026-07-03T09:48:25Z",
+    "pushed_at": "2026-07-03T09:48:22Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -31771,8 +31771,8 @@
     "language": "Lua",
     "license": "MIT",
     "created_at": "2026-06-01T17:55:47Z",
-    "updated_at": "2026-07-02T18:01:02Z",
-    "pushed_at": "2026-07-02T18:00:44Z",
+    "updated_at": "2026-07-03T12:28:38Z",
+    "pushed_at": "2026-07-03T12:28:35Z",
     "discovered_at": "2026-07-02T18:31:46.271Z",
     "official": false
   },
@@ -31925,6 +31925,36 @@
     "updated_at": "2026-06-25T04:55:46Z",
     "pushed_at": "2026-06-25T04:55:41Z",
     "discovered_at": "2026-07-03T09:40:50.991Z",
+    "official": true
+  },
+  "ek2kk/catppuccin-black-zed": {
+    "name": "ek2kk/catppuccin-black-zed",
+    "url": "https://github.com/ek2kk/catppuccin-black-zed",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-04-29T11:48:59Z",
+    "updated_at": "2026-04-29T11:53:08Z",
+    "pushed_at": "2026-04-29T11:52:57Z",
+    "discovered_at": "2026-07-03T13:19:54.521Z",
+    "official": true
+  },
+  "vlasikhin/zed-hosts": {
+    "name": "vlasikhin/zed-hosts",
+    "url": "https://github.com/vlasikhin/zed-hosts",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2026-04-30T08:05:15Z",
+    "updated_at": "2026-05-01T08:10:05Z",
+    "pushed_at": "2026-05-01T08:10:02Z",
+    "discovered_at": "2026-07-03T13:19:54.521Z",
     "official": true
   }
 }

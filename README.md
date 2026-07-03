@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1575-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1577-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,17 +14,17 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1575** |
-| In official registry | 1127 |
+| Total tracked | **1577** |
+| In official registry | 1129 |
 | Discovered via topics | 448 |
-| Last updated | 2026-07-03 09:46 UTC |
+| Last updated | 2026-07-03 13:19 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
-| Themes | 657 |
-| Grammars | 549 |
+| Themes | 658 |
+| Grammars | 550 |
 | Language Servers | 510 |
 | Context Servers | 130 |
 | Snippets | 70 |
@@ -70,6 +70,8 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [ek2kk/catppuccin-black-zed](https://github.com/ek2kk/catppuccin-black-zed) | 0 |  |
+| [vlasikhin/zed-hosts](https://github.com/vlasikhin/zed-hosts) | 0 |  |
 | [Roter-S/deep-slate-theme](https://github.com/Roter-S/deep-slate-theme) | 0 |  |
 | [flynt-theme/flynt-zed](https://github.com/flynt-theme/flynt-zed) | 1 | Flynt for Zed editor |
 | [softyesti/softglass_zed_theme](https://github.com/softyesti/softglass_zed_theme) | 2 | Glass themes with color options for Zed Code Editor. |
@@ -88,8 +90,6 @@ cd website && npm install && npm run dev
 | [bhavya-dang/Solace](https://github.com/bhavya-dang/Solace) | 5 | A minimalistic theme with violet accents and pastel syntax. For Zed. |
 | [aquifer-labs/artesian-zed](https://github.com/aquifer-labs/artesian-zed) | 0 | Memory control for AI agents in Zed — the Artesian MCP server as a Zed context s... |
 | [ronketer/nand2tetris-for-Zed](https://github.com/ronketer/nand2tetris-for-Zed) | 0 | An extension for Zed code editor  which adds support for nand2tetris online cour... |
-| [pol-cova/vercel-theme](https://github.com/pol-cova/vercel-theme) | 0 | A minimal Vercel-inspired Zed theme with light and dark variants. |
-| [pol-cova/cursor-theme-zed](https://github.com/pol-cova/cursor-theme-zed) | 0 | A warm Cursor-inspired Zed theme with light and dark variants. |
 
 ## Top starred (under 500)
 
@@ -120,9 +120,9 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [buisson-theme/Buisson](https://github.com/buisson-theme/Buisson) | 3 | 2026-07-03 | An inky botanical color scheme |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 87 | 2026-07-03 | True Dark Theme for Zed IDE |
 | [BenjaminHalko/flow-icons-zed](https://github.com/BenjaminHalko/flow-icons-zed) | 27 | 2026-07-02 | 🌼 Flow Icons ported to Zed |
-| [buisson-theme/Buisson](https://github.com/buisson-theme/Buisson) | 3 | 2026-07-02 | An inky botanical color scheme |
 | [Roter-S/deep-slate-theme](https://github.com/Roter-S/deep-slate-theme) | 0 | 2026-07-02 |  |
 | [flynt-theme/flynt-zed](https://github.com/flynt-theme/flynt-zed) | 1 | 2026-07-02 | Flynt for Zed editor |
 | [unicodick/zed-paper](https://github.com/unicodick/zed-paper) | 0 | 2026-07-02 | Paper 1.21.11 plugin development tools for Zed. |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-07-03T13:19 | 2 | 489 | 1895 |
 | 2026-07-03T09:46 | 0 | 489 | 1893 |
 | 2026-07-03T09:40 | 3 | 489 | 1893 |
 | 2026-07-03T07:05 | 5 | 484 | 1890 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-07-02T07:08 | 0 | 488 | 1888 |
 | 2026-07-02T00:39 | 2 | 486 | 1888 |
 | 2026-07-01T18:39 | 2 | 484 | 1886 |
-| 2026-07-01T12:57 | 0 | 483 | 1884 |
 
 ---
 
