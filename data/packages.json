@@ -4192,7 +4192,7 @@
     "name": "zangetsu02/zed-discord-theme",
     "url": "https://github.com/zangetsu02/zed-discord-theme",
     "description": "A theme for Zed inspired by Discord's new dark theme.",
-    "stars": 7,
+    "stars": 6,
     "forks": 0,
     "topics": [
       "theme",
@@ -4203,7 +4203,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2025-06-14T13:20:10Z",
-    "updated_at": "2026-04-20T13:57:07Z",
+    "updated_at": "2026-07-03T17:13:55Z",
     "pushed_at": "2025-10-29T20:17:24Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -5337,7 +5337,7 @@
     "name": "Dylanmurzello/zed-android-port",
     "url": "https://github.com/Dylanmurzello/zed-android-port",
     "description": "Native Android port of the Zed code editor,  gpui rendering through Vulkan, integrated Termux for LSPs and tooling, remote SSH support. Runs as an APK on tablets and Android desktop modes.",
-    "stars": 118,
+    "stars": 119,
     "forks": 9,
     "topics": [
       "android",
@@ -5364,7 +5364,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-05-07T00:12:10Z",
-    "updated_at": "2026-07-03T07:47:08Z",
+    "updated_at": "2026-07-03T14:46:23Z",
     "pushed_at": "2026-06-05T21:34:45Z",
     "discovered_at": "2026-05-19T19:54:12.053Z",
     "official": false
@@ -11327,7 +11327,8 @@
     "created_at": "2026-04-16T13:55:09Z",
     "updated_at": "2026-04-16T14:23:33Z",
     "pushed_at": "2026-04-16T14:23:30Z",
-    "discovered_at": "2026-05-19T20:07:54.613Z"
+    "discovered_at": "2026-05-19T20:07:54.613Z",
+    "official": true
   },
   "michaellustig-shopify/zed-i18n-jump": {
     "name": "michaellustig-shopify/zed-i18n-jump",
@@ -18197,8 +18198,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-07-03T09:48:25Z",
-    "pushed_at": "2026-07-03T09:48:22Z",
+    "updated_at": "2026-07-03T13:20:31Z",
+    "pushed_at": "2026-07-03T13:20:27Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -30221,8 +30222,8 @@
     "language": "Rust",
     "license": null,
     "created_at": "2026-06-09T22:36:14Z",
-    "updated_at": "2026-07-01T18:19:49Z",
-    "pushed_at": "2026-07-01T18:19:44Z",
+    "updated_at": "2026-07-03T14:02:08Z",
+    "pushed_at": "2026-07-03T14:02:03Z",
     "discovered_at": "2026-06-10T00:43:30.823Z",
     "official": false
   },
@@ -30821,8 +30822,8 @@
     "language": "Python",
     "license": "Apache-2.0",
     "created_at": "2026-06-14T16:20:53Z",
-    "updated_at": "2026-06-16T17:04:01Z",
-    "pushed_at": "2026-06-16T17:03:38Z",
+    "updated_at": "2026-07-03T16:31:20Z",
+    "pushed_at": "2026-07-03T16:31:17Z",
     "discovered_at": "2026-06-15T19:20:22.737Z",
     "official": false
   },
@@ -31955,6 +31956,51 @@
     "updated_at": "2026-05-01T08:10:05Z",
     "pushed_at": "2026-05-01T08:10:02Z",
     "discovered_at": "2026-07-03T13:19:54.521Z",
+    "official": true
+  },
+  "hodyhq/zed-azure-mcp": {
+    "name": "hodyhq/zed-azure-mcp",
+    "url": "https://github.com/hodyhq/zed-azure-mcp",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2026-06-12T05:49:08Z",
+    "updated_at": "2026-06-14T23:24:40Z",
+    "pushed_at": "2026-06-14T23:24:37Z",
+    "discovered_at": "2026-07-03T19:05:04.574Z",
+    "official": true
+  },
+  "frypan05/github-actions-snippet": {
+    "name": "frypan05/github-actions-snippet",
+    "url": "https://github.com/frypan05/github-actions-snippet",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-06-22T20:18:35Z",
+    "updated_at": "2026-06-23T13:26:08Z",
+    "pushed_at": "2026-06-23T13:25:14Z",
+    "discovered_at": "2026-07-03T19:05:04.574Z",
+    "official": true
+  },
+  "zeroheight/ai-plugins": {
+    "name": "zeroheight/ai-plugins",
+    "url": "https://github.com/zeroheight/ai-plugins",
+    "description": "Plugins for AI tools ",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2026-06-16T16:47:38Z",
+    "updated_at": "2026-06-25T09:11:42Z",
+    "pushed_at": "2026-06-25T09:11:37Z",
+    "discovered_at": "2026-07-03T19:05:04.574Z",
     "official": true
   }
 }

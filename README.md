@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1577-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1579-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,10 +14,10 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1577** |
-| In official registry | 1129 |
-| Discovered via topics | 448 |
-| Last updated | 2026-07-03 13:19 UTC |
+| Total tracked | **1579** |
+| In official registry | 1132 |
+| Discovered via topics | 447 |
+| Last updated | 2026-07-03 19:05 UTC |
 
 ### By capability
 
@@ -26,8 +26,8 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Themes | 658 |
 | Grammars | 550 |
 | Language Servers | 510 |
-| Context Servers | 130 |
-| Snippets | 70 |
+| Context Servers | 131 |
+| Snippets | 71 |
 | Slash Commands | 55 |
 | Debug Adapters | 33 |
 | Docs Providers | 16 |
@@ -70,6 +70,8 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [hodyhq/zed-azure-mcp](https://github.com/hodyhq/zed-azure-mcp) | 0 |  |
+| [frypan05/github-actions-snippet](https://github.com/frypan05/github-actions-snippet) | 0 |  |
 | [ek2kk/catppuccin-black-zed](https://github.com/ek2kk/catppuccin-black-zed) | 0 |  |
 | [vlasikhin/zed-hosts](https://github.com/vlasikhin/zed-hosts) | 0 |  |
 | [Roter-S/deep-slate-theme](https://github.com/Roter-S/deep-slate-theme) | 0 |  |
@@ -88,8 +90,6 @@ cd website && npm install && npm run dev
 | [holocron-lang/zed-holocron](https://github.com/holocron-lang/zed-holocron) | 0 | Zed editor extension for Holocron — live in-editor diagnostics via holocron-lsp. |
 | [CibiAananth/zed-vercel-italics](https://github.com/CibiAananth/zed-vercel-italics) | 0 | Vercel light and dark themes for Zed, with Night Owl-style italic syntax highlig... |
 | [bhavya-dang/Solace](https://github.com/bhavya-dang/Solace) | 5 | A minimalistic theme with violet accents and pastel syntax. For Zed. |
-| [aquifer-labs/artesian-zed](https://github.com/aquifer-labs/artesian-zed) | 0 | Memory control for AI agents in Zed — the Artesian MCP server as a Zed context s... |
-| [ronketer/nand2tetris-for-Zed](https://github.com/ronketer/nand2tetris-for-Zed) | 0 | An extension for Zed code editor  which adds support for nand2tetris online cour... |
 
 ## Top starred (under 500)
 
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-07-03T19:05 | 3 | 489 | 1898 |
 | 2026-07-03T13:19 | 2 | 489 | 1895 |
 | 2026-07-03T09:46 | 0 | 489 | 1893 |
 | 2026-07-03T09:40 | 3 | 489 | 1893 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-07-02T12:39 | 0 | 488 | 1888 |
 | 2026-07-02T07:08 | 0 | 488 | 1888 |
 | 2026-07-02T00:39 | 2 | 486 | 1888 |
-| 2026-07-01T18:39 | 2 | 484 | 1886 |
 
 ---
 

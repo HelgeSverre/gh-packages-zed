@@ -1,0 +1,14 @@
+id = "github-actions-snippets"
+name = "GitHub Actions Snippet"
+version = "0.0.1"
+schema_version = 1
+
+authors = ["Daksh Sharma <www.dakshsharma.tech>"]
+
+description = "GitHub Actions workflow snippets for Zed."
+
+repository = "https://github.com/frypan05/github-actions-snippet"
+
+snippets = [
+  "./snippets/yaml.json"
+]

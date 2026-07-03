@@ -6585,7 +6585,7 @@
     "name": "zangetsu02/zed-discord-theme",
     "url": "https://github.com/zangetsu02/zed-discord-theme",
     "description": "A theme for Zed inspired by Discord's new dark theme.",
-    "stars": 7,
+    "stars": 6,
     "forks": 0,
     "topics": [
       "theme",
@@ -6596,7 +6596,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2025-06-14T13:20:10Z",
-    "updated_at": "2026-04-20T13:57:07Z",
+    "updated_at": "2026-07-03T17:13:55Z",
     "pushed_at": "2025-10-29T20:17:24Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -15972,6 +15972,7 @@
     "updated_at": "2026-04-16T14:23:33Z",
     "pushed_at": "2026-04-16T14:23:30Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
+    "official": true,
     "extension": {
       "id": "k8s-crd-lsp",
       "name": "Kubernetes CRD LSP",
@@ -53829,6 +53830,72 @@
       ],
       "categories": [
         "grammar"
+      ]
+    }
+  },
+  "hodyhq/zed-azure-mcp": {
+    "name": "hodyhq/zed-azure-mcp",
+    "url": "https://github.com/hodyhq/zed-azure-mcp",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2026-06-12T05:49:08Z",
+    "updated_at": "2026-06-14T23:24:40Z",
+    "pushed_at": "2026-06-14T23:24:37Z",
+    "discovered_at": "2026-07-03T19:05:04.574Z",
+    "official": true,
+    "extension": {
+      "id": "azure-mcp",
+      "name": "Azure MCP",
+      "description": "Azure MCP server for Zed's agent — manage and query Azure resources from the assistant.",
+      "version": "0.1.1",
+      "schema_version": 1,
+      "authors": [
+        "Hodahel Moinzadeh <hody@hody.dev>"
+      ],
+      "repository": "https://github.com/hodyhq/zed-azure-mcp",
+      "snippets": null,
+      "sections": [
+        "context_servers"
+      ],
+      "categories": [
+        "context-server"
+      ]
+    }
+  },
+  "frypan05/github-actions-snippet": {
+    "name": "frypan05/github-actions-snippet",
+    "url": "https://github.com/frypan05/github-actions-snippet",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-06-22T20:18:35Z",
+    "updated_at": "2026-06-23T13:26:08Z",
+    "pushed_at": "2026-06-23T13:25:14Z",
+    "discovered_at": "2026-07-03T19:05:04.574Z",
+    "official": true,
+    "extension": {
+      "id": "github-actions-snippets",
+      "name": "GitHub Actions Snippet",
+      "description": "GitHub Actions workflow snippets for Zed.",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Daksh Sharma <www.dakshsharma.tech>"
+      ],
+      "repository": "https://github.com/frypan05/github-actions-snippet",
+      "snippets": [
+        "./snippets/yaml.json"
+      ],
+      "sections": [],
+      "categories": [
+        "snippets"
       ]
     }
   }
