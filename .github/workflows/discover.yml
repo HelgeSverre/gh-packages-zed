@@ -2,7 +2,7 @@ name: Discover Zed Extensions
 
 on:
   schedule:
-    - cron: '0 */6 * * *'
+    - cron: '40 */6 * * *'
   workflow_dispatch:
 
 permissions:
