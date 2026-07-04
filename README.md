@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1581** |
 | In official registry | 1134 |
 | Discovered via topics | 447 |
-| Last updated | 2026-07-04 13:04 UTC |
+| Last updated | 2026-07-04 19:04 UTC |
 
 ### By capability
 
@@ -120,6 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [livrasand/codetrackr-zed](https://github.com/livrasand/codetrackr-zed) | 0 | 2026-07-04 | Zed plugin for automatic time tracking and metrics generated... |
 | [buisson-theme/Buisson](https://github.com/buisson-theme/Buisson) | 3 | 2026-07-04 | An inky botanical color scheme |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 155 | 2026-07-04 | 🦊 Zed editor theme ported from Neovim |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 130 | 2026-07-04 | The Ruby language support for Zed editor |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [alysson-souza/zed-fish-lsp](https://github.com/alysson-souza/zed-fish-lsp) | 4 | 2026-06-27 | Fish shell extension for Zed with fish-lsp integration |
 | [bhavya-dang/Solace](https://github.com/bhavya-dang/Solace) | 5 | 2026-06-26 | A minimalistic theme with violet accents and pastel syntax. ... |
 | [aquifer-labs/artesian-zed](https://github.com/aquifer-labs/artesian-zed) | 0 | 2026-06-26 | Memory control for AI agents in Zed — the Artesian MCP serve... |
-| [tbxark/vscode2026-theme-zed](https://github.com/tbxark/vscode2026-theme-zed) | 0 | 2026-06-26 | VS Code 2026 theme for Zed |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-07-04T19:04 | 0 | 488 | 1901 |
 | 2026-07-04T13:04 | 3 | 489 | 1901 |
 | 2026-07-04T07:35 | 0 | 489 | 1898 |
 | 2026-07-04T01:13 | 0 | 489 | 1898 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-07-03T09:40 | 3 | 489 | 1893 |
 | 2026-07-03T07:05 | 5 | 484 | 1890 |
 | 2026-07-03T00:33 | 0 | 435 | 1885 |
-| 2026-07-02T18:31 | 2 | 487 | 1890 |
 
 ---
 
