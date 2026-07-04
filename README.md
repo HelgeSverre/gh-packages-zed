@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1579** |
 | In official registry | 1132 |
 | Discovered via topics | 447 |
-| Last updated | 2026-07-04 01:13 UTC |
+| Last updated | 2026-07-04 07:35 UTC |
 
 ### By capability
 
@@ -120,9 +120,9 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 87 | 2026-07-04 | True Dark Theme for Zed IDE |
 | [hadez8877/one-dark-pro-enhanced](https://github.com/hadez8877/one-dark-pro-enhanced) | 6 | 2026-07-03 | The most installed theme in Visual Studio Code modified for ... |
 | [buisson-theme/Buisson](https://github.com/buisson-theme/Buisson) | 3 | 2026-07-03 | An inky botanical color scheme |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 87 | 2026-07-03 | True Dark Theme for Zed IDE |
 | [BenjaminHalko/flow-icons-zed](https://github.com/BenjaminHalko/flow-icons-zed) | 27 | 2026-07-02 | 🌼 Flow Icons ported to Zed |
 | [Roter-S/deep-slate-theme](https://github.com/Roter-S/deep-slate-theme) | 0 | 2026-07-02 |  |
 | [flynt-theme/flynt-zed](https://github.com/flynt-theme/flynt-zed) | 1 | 2026-07-02 | Flynt for Zed editor |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-07-04T07:35 | 0 | 489 | 1898 |
 | 2026-07-04T01:13 | 0 | 489 | 1898 |
 | 2026-07-03T19:05 | 3 | 489 | 1898 |
 | 2026-07-03T13:19 | 2 | 489 | 1895 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-07-03T00:33 | 0 | 435 | 1885 |
 | 2026-07-02T18:31 | 2 | 487 | 1890 |
 | 2026-07-02T12:39 | 0 | 488 | 1888 |
-| 2026-07-02T07:08 | 0 | 488 | 1888 |
 
 ---
 
