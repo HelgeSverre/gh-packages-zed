@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1581** |
 | In official registry | 1134 |
 | Discovered via topics | 447 |
-| Last updated | 2026-07-05 13:05 UTC |
+| Last updated | 2026-07-05 19:04 UTC |
 
 ### By capability
 
@@ -105,7 +105,7 @@ cd website && npm install && npm run dev
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
-| [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 183 | Zed support for the Godot game engine and the GDScript language |
+| [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 184 | Zed support for the Godot game engine and the GDScript language |
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 182 | Typst extension for zed |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 162 | A macOS native style theme for Zed, let it same like native app in macOS. |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 155 | 🦊 Zed editor theme ported from Neovim |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-07-05T19:04 | 0 | 489 | 1902 |
 | 2026-07-05T13:05 | 0 | 489 | 1902 |
 | 2026-07-05T07:45 | 0 | 489 | 1902 |
 | 2026-07-05T01:17 | 1 | 488 | 1902 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-07-04T01:13 | 0 | 489 | 1898 |
 | 2026-07-03T19:05 | 3 | 489 | 1898 |
 | 2026-07-03T13:19 | 2 | 489 | 1895 |
-| 2026-07-03T09:46 | 0 | 489 | 1893 |
 
 ---
 
