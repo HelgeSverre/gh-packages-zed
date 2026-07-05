@@ -423,7 +423,7 @@
     "license": "MIT",
     "created_at": "2025-12-13T09:32:42Z",
     "updated_at": "2026-07-03T21:18:08Z",
-    "pushed_at": "2026-06-29T12:07:57Z",
+    "pushed_at": "2026-07-04T20:02:42Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -15612,7 +15612,7 @@
     "name": "agent-sh/agnix",
     "url": "https://github.com/agent-sh/agnix",
     "description": "The missing linter and lsp for AI coding assistants. Validate CLAUDE.md, AGENTS.md, SKILL.md, hooks, MCP. Plugin for all major IDEs included, with autofixes.",
-    "stars": 321,
+    "stars": 324,
     "forks": 30,
     "topics": [
       "agent",
@@ -15639,8 +15639,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
-    "updated_at": "2026-07-04T16:25:39Z",
-    "pushed_at": "2026-07-04T18:53:30Z",
+    "updated_at": "2026-07-05T00:49:39Z",
+    "pushed_at": "2026-07-05T00:58:08Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -18198,8 +18198,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-07-04T13:05:31Z",
-    "pushed_at": "2026-07-04T13:05:27Z",
+    "updated_at": "2026-07-04T19:04:58Z",
+    "pushed_at": "2026-07-04T19:04:48Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -32052,5 +32052,33 @@
     "pushed_at": "2026-07-04T12:22:33Z",
     "discovered_at": "2026-07-04T13:04:55.885Z",
     "official": true
+  },
+  "christopherpaquin/vllm-local-developer-stack": {
+    "name": "christopherpaquin/vllm-local-developer-stack",
+    "url": "https://github.com/christopherpaquin/vllm-local-developer-stack",
+    "description": "Containerized local LLM development stack. Features automated multi-GPU vLLM hosting (optimized for Qwen-Coder), | Tunables & Benchmarks  │ One-click integration configurations for Zed IDE, VS Code Continue, and Aider CLI.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "ai-assistant",
+      "aider",
+      "continue-dev",
+      "docker-compose",
+      "dual-gpu",
+      "gpu-acceleration",
+      "local-llm",
+      "qwen",
+      "qwen-coder",
+      "self-hosted",
+      "vllm",
+      "zed-editor"
+    ],
+    "language": "Shell",
+    "license": "Apache-2.0",
+    "created_at": "2026-07-03T01:57:25Z",
+    "updated_at": "2026-07-04T20:40:12Z",
+    "pushed_at": "2026-07-04T20:40:09Z",
+    "discovered_at": "2026-07-05T01:17:22.157Z",
+    "official": false
   }
 }
