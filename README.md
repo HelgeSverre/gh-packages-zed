@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1581** |
 | In official registry | 1134 |
 | Discovered via topics | 447 |
-| Last updated | 2026-07-05 01:17 UTC |
+| Last updated | 2026-07-05 07:45 UTC |
 
 ### By capability
 
@@ -120,11 +120,11 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 87 | 2026-07-05 | True Dark Theme for Zed IDE |
 | [livrasand/codetrackr-zed](https://github.com/livrasand/codetrackr-zed) | 0 | 2026-07-04 | Zed plugin for automatic time tracking and metrics generated... |
 | [buisson-theme/Buisson](https://github.com/buisson-theme/Buisson) | 3 | 2026-07-04 | An inky botanical color scheme |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 155 | 2026-07-04 | 🦊 Zed editor theme ported from Neovim |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 130 | 2026-07-04 | The Ruby language support for Zed editor |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 87 | 2026-07-04 | True Dark Theme for Zed IDE |
 | [hadez8877/one-dark-pro-enhanced](https://github.com/hadez8877/one-dark-pro-enhanced) | 6 | 2026-07-03 | The most installed theme in Visual Studio Code modified for ... |
 | [BenjaminHalko/flow-icons-zed](https://github.com/BenjaminHalko/flow-icons-zed) | 27 | 2026-07-02 | 🌼 Flow Icons ported to Zed |
 | [Roter-S/deep-slate-theme](https://github.com/Roter-S/deep-slate-theme) | 0 | 2026-07-02 |  |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-07-05T07:45 | 0 | 489 | 1902 |
 | 2026-07-05T01:17 | 1 | 488 | 1902 |
 | 2026-07-04T19:04 | 0 | 488 | 1901 |
 | 2026-07-04T13:04 | 3 | 489 | 1901 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-07-03T13:19 | 2 | 489 | 1895 |
 | 2026-07-03T09:46 | 0 | 489 | 1893 |
 | 2026-07-03T09:40 | 3 | 489 | 1893 |
-| 2026-07-03T07:05 | 5 | 484 | 1890 |
 
 ---
 
