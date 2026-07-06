@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1582** |
 | In official registry | 1134 |
 | Discovered via topics | 448 |
-| Last updated | 2026-07-06 01:17 UTC |
+| Last updated | 2026-07-06 08:07 UTC |
 
 ### By capability
 
@@ -120,12 +120,12 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 87 | 2026-07-06 | True Dark Theme for Zed IDE |
+| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 130 | 2026-07-06 | The Ruby language support for Zed editor |
 | [MaraniMatias/zed-minimax-proxy](https://github.com/MaraniMatias/zed-minimax-proxy) | 0 | 2026-07-05 | Use MiniMax as Zed completion |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 87 | 2026-07-05 | True Dark Theme for Zed IDE |
 | [livrasand/codetrackr-zed](https://github.com/livrasand/codetrackr-zed) | 0 | 2026-07-04 | Zed plugin for automatic time tracking and metrics generated... |
 | [buisson-theme/Buisson](https://github.com/buisson-theme/Buisson) | 3 | 2026-07-04 | An inky botanical color scheme |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 155 | 2026-07-04 | 🦊 Zed editor theme ported from Neovim |
-| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 130 | 2026-07-04 | The Ruby language support for Zed editor |
 | [hadez8877/one-dark-pro-enhanced](https://github.com/hadez8877/one-dark-pro-enhanced) | 6 | 2026-07-03 | The most installed theme in Visual Studio Code modified for ... |
 | [BenjaminHalko/flow-icons-zed](https://github.com/BenjaminHalko/flow-icons-zed) | 27 | 2026-07-02 | 🌼 Flow Icons ported to Zed |
 | [Roter-S/deep-slate-theme](https://github.com/Roter-S/deep-slate-theme) | 0 | 2026-07-02 |  |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-07-06T08:07 | 0 | 490 | 1903 |
 | 2026-07-06T01:17 | 1 | 489 | 1903 |
 | 2026-07-05T19:04 | 0 | 489 | 1902 |
 | 2026-07-05T13:05 | 0 | 489 | 1902 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-07-04T13:04 | 3 | 489 | 1901 |
 | 2026-07-04T07:35 | 0 | 489 | 1898 |
 | 2026-07-04T01:13 | 0 | 489 | 1898 |
-| 2026-07-03T19:05 | 3 | 489 | 1898 |
 
 ---
 
