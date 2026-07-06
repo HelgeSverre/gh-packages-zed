@@ -1,0 +1,56 @@
+id = "minimax-proxy"
+name = "MiniMaxProxy"
+version = "0.1.0"
+schema_version = 1
+authors = ["Marani Matias Ezequiel <maranimatias@gmail.com>"]
+description = "AI code completions via MiniMax-M3 with up to ~250k tokens of context."
+repository = "https://github.com/matiasmarani/minimax-proxy"
+themes = []
+icon_themes = []
+languages = []
+capabilities = []
+icon = ""
+
+[lib]
+kind = "Rust"
+
+[grammars]
+
+[language_servers.minimax-proxy]
+name = "MiniMaxProxy"
+languages = [
+  "Bash",
+  "C",
+  "C++",
+  "CSS",
+  "Dockerfile",
+  "Elixir",
+  "Go",
+  "HTML",
+  "Java",
+  "JavaScript",
+  "JSON",
+  "JSX",
+  "Markdown",
+  "PHP",
+  "Plain Text",
+  "Python",
+  "Ruby",
+  "Rust",
+  "SQL",
+  "Svelte",
+  "Swift",
+  "TOML",
+  "TSX",
+  "TypeScript",
+  "Vue.js",
+  "YAML",
+]
+
+[language_servers.minimax-proxy.language_ids]
+
+[context_servers]
+
+[agent_servers]
+
+[slash_commands] 

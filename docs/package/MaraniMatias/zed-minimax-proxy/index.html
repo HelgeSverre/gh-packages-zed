@@ -1,0 +1,243 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>MiniMaxProxy - Zed Extension Safari</title><meta name="description" content="Use MiniMax as Zed completion"><link rel="canonical" href="https://helgesverre.github.io/gh-packages-zed/package/MaraniMatias/zed-minimax-proxy/"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="MiniMaxProxy - Zed Extension Safari"><meta property="og:description" content="Use MiniMax as Zed completion"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed/package/MaraniMatias/zed-minimax-proxy/"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="MiniMaxProxy - Zed Extension Safari"><meta name="twitter:description" content="Use MiniMax as Zed completion"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/gh-packages-zed/_astro/ClientRouter.astro_astro_type_script_index_0_lang.ClVLs1kt.js"></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"MiniMaxProxy","description":"Use MiniMax as Zed completion","applicationCategory":"DeveloperApplication","operatingSystem":"macOS, Linux, Windows","url":"https://zed.dev/extensions/minimax-proxy","codeRepository":"https://github.com/MaraniMatias/zed-minimax-proxy","author":[{"@type":"Person","name":"Marani Matias Ezequiel"}],"softwareVersion":"0.1.0","license":"MIT","keywords":"grammar, language-server, slash-command, context-server","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/Layout.CGDlMdWE.css"><script type="module" src="/gh-packages-zed/_astro/page.B8i1Zz-u.js"></script></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <a href="#main" class="skip-to-content">Skip to content</a> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" data-astro-transition-persist="astro-fhchcgd7-1"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <script type="application/json" id="pkg-extras">{"url":"https://github.com/MaraniMatias/zed-minimax-proxy","language":"Rust","license":"MIT","topics":["minimax","zed-extension"],"extension":{"authors":["Marani Matias Ezequiel"],"schema_version":1}}</script> <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> MaraniMatias/zed-minimax-proxy </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> MiniMaxProxy </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> AI code completions via MiniMax-M3 with up to ~250k tokens of context. </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="grammar">Grammar</span><span class="cat-badge" data-cat="language-server">Language Server</span><span class="cat-badge" data-cat="slash-command">Slash Command</span><span class="cat-badge" data-cat="context-server">MCP Server</span> </div> </div> </div> </header> <main id="main" class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/minimax-proxy" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/MaraniMatias/zed-minimax-proxy" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.1.0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">minimax-proxy</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">Rust</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">MIT</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">3h ago</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">Marani Matias Ezequiel</dd> </div> </dl>  <h2 class="mt-5 text-xs uppercase font-mono" style="color:var(--zed-muted);">Topics</h2> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> minimax </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed-extension </span> </div>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-minimaxproxy"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#minimaxproxy"><span class="heading-anchor-icon">#</span></a>MiniMaxProxy</h1>
+<p>A Zed extension that proxies inline code completions through the MiniMax-M3 chat-completions API. The prompt window is roughly 250k tokens; the server turns each prompt into the chat-completion format M3 was tuned on.</p>
+<p>Install it as a dev extension from <a href="https://github.com/MaraniMatias/zed-minimax-proxy">MaraniMatias/zed-minimax-proxy</a>. No marketplace step required.</p>
+<h2 id="user-content-quick-start"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#quick-start"><span class="heading-anchor-icon">#</span></a>Quick start</h2>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">git</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> clone</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> https://github.com/MaraniMatias/zed-minimax-proxy</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">cd</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> zed-minimax-proxy</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> build</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --release</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --manifest-path</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> server/Cargo.toml</span></span></code></pre>
+<p>Then in Zed: <code>Cmd+Shift+P</code> → <code>zed: install dev extension</code> and pick the cloned directory. Zed compiles the WASM extension, restarts when you trigger a completion, and locates the server binary at the path built above.</p>
+<p>Drop your API token in <code>~/.config/zed/settings.json</code> (see <a href="#settings">Settings</a>) and reload Zed. The first completion request starts the server; nothing else to configure.</p>
+<h2 id="user-content-where-the-server-binary-lives"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#where-the-server-binary-lives"><span class="heading-anchor-icon">#</span></a>Where the server binary lives</h2>
+<p>The extension looks for <code>minimax-proxy-server</code> in this order:</p>
+<ol>
+<li>On <code>PATH</code> (<code>worktree.which(...)</code>); pick this if you <code>cargo install --path server</code>.</li>
+<li>At <code>server/target/release/minimax-proxy-server</code> relative to the extension directory.</li>
+<li>At <code>bin/minimax-proxy-server</code> relative to the extension directory.</li>
+</ol>
+<p>If none of these resolve, the extension returns an error pointing at the missing binary. Build the server first, then reload.</p>
+<h2 id="user-content-settings"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#settings"><span class="heading-anchor-icon">#</span></a>Settings</h2>
+<p>Settings live under the <code>minimax-proxy</code> LSP entry in <code>~/.config/zed/settings.json</code>. Five fields are recognized; the others are ignored. Defaults in parentheses.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Field</th><th>Type</th><th>Default</th><th>Notes</th></tr></thead><tbody><tr><td><code>model</code></td><td>string</td><td><code>MiniMax-M3</code></td><td>Forwarded to MiniMax as the model name.</td></tr><tr><td><code>max_tokens</code></td><td>integer</td><td><code>256</code></td><td>Max output tokens per completion. Range 1-8192.</td></tr><tr><td><code>api_token</code></td><td>string</td><td>(none)</td><td>API token. Required. Sent as <code>MINIMAX_API_KEY</code>.</td></tr><tr><td><code>temperature</code></td><td>number</td><td><code>0.2</code></td><td>Sampling temperature. Range 0.0-2.0.</td></tr><tr><td><code>top_p</code></td><td>number</td><td><code>0.95</code></td><td>Nucleus sampling. Range 0.0-1.0.</td></tr></tbody></table>
+<h3 id="user-content-example-settingsjson"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#example-settingsjson"><span class="heading-anchor-icon">#</span></a>Example <code>settings.json</code></h3>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "minimax-proxy"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "api_token"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"sk-..."</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "model"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"MiniMax-M3"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#6A737D;--shiki-dark:#6A737D">// Don't work with MiniMax-M2.7</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "max_tokens"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">256</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  },</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "languages"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "Markdown-Inline"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"language_servers"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"minimax-proxy"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,  </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"..."</span><span style="color:#24292E;--shiki-dark:#E1E4E8">] },</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "Plain Text"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"language_servers"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"minimax-proxy"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"..."</span><span style="color:#24292E;--shiki-dark:#E1E4E8">] },</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "Markdown"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"language_servers"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"minimax-proxy"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,  </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"..."</span><span style="color:#24292E;--shiki-dark:#E1E4E8">] },</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "Python"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"language_servers"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"minimax-proxy"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"..."</span><span style="color:#24292E;--shiki-dark:#E1E4E8">] },</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "Rust"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"language_servers"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"minimax-proxy"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,  </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"..."</span><span style="color:#24292E;--shiki-dark:#E1E4E8">] },</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "JSON"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"language_servers"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"minimax-proxy"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"..."</span><span style="color:#24292E;--shiki-dark:#E1E4E8">] },</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "YAML"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"language_servers"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"minimax-proxy"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"..."</span><span style="color:#24292E;--shiki-dark:#E1E4E8">] },</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "HTML"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"language_servers"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"minimax-proxy"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,  </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"..."</span><span style="color:#24292E;--shiki-dark:#E1E4E8">] },</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "CSS"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"language_servers"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"minimax-proxy"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,  </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"..."</span><span style="color:#24292E;--shiki-dark:#E1E4E8">] },</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "Dockerfile"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"language_servers"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"minimax-proxy"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"..."</span><span style="color:#24292E;--shiki-dark:#E1E4E8">] },</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "JavaScript"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"language_servers"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [ </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"minimax-proxy"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"..."</span><span style="color:#24292E;--shiki-dark:#E1E4E8">] },</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">    // .... add "minimax-proxy" as lsp server</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>If <code>api_token</code> is missing, the server exits on startup (it requires <code>MINIMAX_API_KEY</code>). It does not invent a placeholder.</p>
+<h2 id="user-content-how-it-talks-to-minimax"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#how-it-talks-to-minimax"><span class="heading-anchor-icon">#</span></a>How it talks to MiniMax</h2>
+<p>Zed sends the prompt as Qwen FIM markers; the proxy turns that into a chat-completion message in the format M3 was tuned on:</p>
+<pre><code>&#x3C;|fim_prefix|>...código antes...&#x3C;|fim_suffix|>...código después...&#x3C;|fim_middle|>
+            ↓
+# language: typescript
+&#x3C;contextBeforeCursor>
+...código antes...&#x3C;cursorPosition>
+&#x3C;contextAfterCursor>
+...código después...
+</code></pre>
+<p>The model fills <code>&#x3C;cursorPosition></code>. The rewrite keeps the cursor location explicit so M3 stops regurgitating FIM markers in its output.</p>
+<p>Other things the proxy does:</p>
+<ul>
+<li>Splits the request timeout across the payload size (<code>base + per-K-tokens</code>), clamped to a hard cap.</li>
+<li>Slices long prompts at ~250k input tokens, keeping the most recent prefix and suffix.</li>
+<li>Applies default stop sequences (<code>&#x3C;|fim_*></code>, <code>&#x3C;|endoftext|></code>, doubled newlines) plus anything the caller passes.</li>
+</ul>
+<h2 id="user-content-building-from-source"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#building-from-source"><span class="heading-anchor-icon">#</span></a>Building from source</h2>
+<h3 id="user-content-the-extension-wasm"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#the-extension-wasm"><span class="heading-anchor-icon">#</span></a>The extension (WASM)</h3>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> build</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --target</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> wasm32-wasip2</span></span></code></pre>
+<p>The artifact lives at <code>target/wasm32-wasip2/debug/minimax_proxy_extension.wasm</code>. Dev installs in Zed read from this path; nothing to copy by hand.</p>
+<p><code>rust-toolchain.toml</code> pins the toolchain and target, so a fresh checkout should build without extra setup as long as <code>rustup target add wasm32-wasip2</code> resolves.</p>
+<h3 id="user-content-the-server"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#the-server"><span class="heading-anchor-icon">#</span></a>The server</h3>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> build</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --release</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --manifest-path</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> server/Cargo.toml</span></span></code></pre>
+<p>Output: <code>server/target/release/minimax-proxy-server</code>. The extension finds it there. To install it on your PATH instead:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> install</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --path</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> server</span></span></code></pre>
+<h3 id="user-content-the-bun-alternative"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#the-bun-alternative"><span class="heading-anchor-icon">#</span></a>The Bun alternative</h3>
+<p>A Bun script in <code>docs/server.ts</code> implements the same HTTP contract. It's a development aid, not what the extension spawns. Run it for prompt-rewrite tests when you don't want to rebuild the Rust server:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">MINIMAX_API_KEY</span><span style="color:#D73A49;--shiki-dark:#F97583">=</span><span style="color:#032F62;--shiki-dark:#9ECBFF">...</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> bun</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> docs/server.ts</span></span></code></pre>
+<h2 id="user-content-talking-to-the-server-directly"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#talking-to-the-server-directly"><span class="heading-anchor-icon">#</span></a>Talking to the server directly</h2>
+<p>The server listens on <code>127.0.0.1:8787</code> and accepts OpenAI-shaped <code>text_completion</code> requests:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">curl</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -s</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> http://127.0.0.1:8787/v1/completions</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  -H</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> "content-type: application/json"</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  -d</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> '{</span></span>
+<span class="line"><span style="color:#032F62;--shiki-dark:#9ECBFF">    "model": "MiniMax-M3",</span></span>
+<span class="line"><span style="color:#032F62;--shiki-dark:#9ECBFF">    "prompt": "&#x3C;|fim_prefix|>const greet = (name) => &#x3C;|fim_suffix|>;\n&#x3C;|fim_middle|>",</span></span>
+<span class="line"><span style="color:#032F62;--shiki-dark:#9ECBFF">    "max_tokens": 64</span></span>
+<span class="line"><span style="color:#032F62;--shiki-dark:#9ECBFF">  }'</span></span></code></pre>
+<p>This works whether the server was launched by Zed or by hand.</p>
+<h2 id="user-content-repository-layout"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#repository-layout"><span class="heading-anchor-icon">#</span></a>Repository layout</h2>
+<pre><code>zed-minimax-proxy/
+├── Cargo.toml              # workspace root + extension package
+├── rust-toolchain.toml
+├── extension.toml
+├── lefthook.yml            # git hooks (lint, test, build)
+├── src/lib.rs              # the extension (WASM)
+├── server/                 # the HTTP proxy (Rust)
+│   ├── Cargo.toml
+│   └── src/main.rs
+├── docs/server.ts          # Bun alternative (local testing)
+├── README.md
+└── LICENSE
+</code></pre>
+<h2 id="user-content-git-hooks"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#git-hooks"><span class="heading-anchor-icon">#</span></a>Git hooks</h2>
+<p><a href="https://lefthook.dev/">Lefthook</a> runs three gates automatically:</p>
+<ul>
+<li><strong>pre-commit</strong>: <code>cargo fmt --check</code>, <code>cargo clippy --workspace --all-targets -- -D warnings</code>, <code>cargo test --workspace</code>. Parallel; runs only when matching <code>.rs</code> files are staged.</li>
+<li><strong>pre-push</strong>: <code>cargo build --target wasm32-wasip2</code>. Heavier, so it lives on push instead of commit.</li>
+</ul>
+<p>Install once after cloning:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">brew</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> install</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> lefthook</span><span style="color:#6A737D;--shiki-dark:#6A737D">      # or scoop / apt / etc.</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">lefthook</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> install</span></span></code></pre>
+<p>Skip a hook on a one-off commit with <code>git commit --no-verify</code>.</p>
+<h2 id="user-content-limitations"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#limitations"><span class="heading-anchor-icon">#</span></a>Limitations</h2>
+<ul>
+<li><code>user_stop_takes_priority_over_default</code> in the server crate had a stale assertion against an earlier draft of <code>apply_stop_sequences</code>. Fixed in this release.</li>
+<li>The extension expects a pre-built server binary in one of the three documented locations; there is no automatic build step.</li>
+<li>Streaming is not supported; the entire response is returned in a single message. Flipping <code>stream: true</code> in the server would require a different response shape.</li>
+</ul>
+<h2 id="user-content-releases"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#releases"><span class="heading-anchor-icon">#</span></a>Releases</h2>
+<p>The server is released with <a href="https://release-plz.ails.it/"><code>release-plz</code></a> running 100% locally, no GitHub Actions consumed on the free tier. The <code>minimax-proxy-extension</code> package is excluded from release-plz (its version follows Zed's extension registry cadence, not this repo).</p>
+<h3 id="user-content-one-time-setup"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#one-time-setup"><span class="heading-anchor-icon">#</span></a>One-time setup</h3>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> install</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> release-plz</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --locked</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> install</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> cargo-zigbuild</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --locked</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">brew</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> install</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> zig</span><span style="color:#6A737D;--shiki-dark:#6A737D">       # cross-compile dependency for cargo-zigbuild</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">rustup</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> target</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> add</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> aarch64-apple-darwin</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> x86_64-apple-darwin</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> x86_64-unknown-linux-gnu</span></span></code></pre>
+<p><code>gh</code> (GitHub CLI) must be authenticated: <code>gh auth login</code>.</p>
+<h3 id="user-content-cutting-a-release"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#cutting-a-release"><span class="heading-anchor-icon">#</span></a>Cutting a release</h3>
+<p>The flow runs entirely on your machine.</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># 1. Confirm conventional-commit history since the last release.</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">git</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> log</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> v0.1.0..HEAD</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --oneline</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># 2. release-plz opens a "chore: release vX.Y.Z" PR</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">#    that bumps server/Cargo.toml, server/Cargo.lock, and</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">#    writes server/CHANGELOG.md from commit history.</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">release-plz</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> release</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># 3. Auto-merge that PR; nothing executes on CI.</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">gh</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> pr</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> merge</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --auto</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --squash</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --delete-branch</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># 4. Pull main locally.</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">git</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> pull</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> origin</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> main</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># 5. Build for each platform.</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> build</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --release</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --target</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> aarch64-apple-darwin</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  --manifest-path</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> server/Cargo.toml</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> build</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --release</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --target</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> x86_64-apple-darwin</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  --manifest-path</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> server/Cargo.toml</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> zigbuild</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --release</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --target</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> x86_64-unknown-linux-gnu</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  --manifest-path</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> server/Cargo.toml</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># 6. Package and upload.</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">for</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> t </span><span style="color:#D73A49;--shiki-dark:#F97583">in</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> aarch64-apple-darwin</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> x86_64-apple-darwin</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> x86_64-unknown-linux-gnu</span><span style="color:#24292E;--shiki-dark:#E1E4E8">; </span><span style="color:#D73A49;--shiki-dark:#F97583">do</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">    tar</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -czf</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> "server/target/minimax-proxy-server-v0.2.0-${</span><span style="color:#24292E;--shiki-dark:#E1E4E8">t</span><span style="color:#032F62;--shiki-dark:#9ECBFF">}.tar.gz"</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        -C</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> "server/target/${</span><span style="color:#24292E;--shiki-dark:#E1E4E8">t</span><span style="color:#032F62;--shiki-dark:#9ECBFF">}/release"</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> minimax-proxy-server</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">done</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">gh</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> release</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> create</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> v0.2.0</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#032F62;--shiki-dark:#9ECBFF">    server/target/minimax-proxy-server-v0.2.0-</span><span style="color:#005CC5;--shiki-dark:#79B8FF">*</span><span style="color:#032F62;--shiki-dark:#9ECBFF">.tar.gz</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    --title</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> "v0.2.0"</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --generate-notes</span></span></code></pre>
+<p>Use <code>release-plz release --dry-run</code> first if you want to preview the PR body and the changelog diff without pushing.</p>
+<h3 id="user-content-commit-message-format"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#commit-message-format"><span class="heading-anchor-icon">#</span></a>Commit message format</h3>
+<p>release-plz reads conventional commits:</p>
+<ul>
+<li><code>feat(server): ...</code> → minor bump on the server.</li>
+<li><code>fix(server): ...</code> → patch bump.</li>
+<li><code>feat!(server): ...</code> or a footer <code>BREAKING CHANGE: ...</code> → major bump.</li>
+<li><code>chore(server):</code>, <code>docs:</code>, <code>refactor(server):</code> → no version change.</li>
+</ul>
+<p>Prefix with <code>(server)</code> only when the change touches <code>server/</code>. The extension uses <code>(ext)</code> or no prefix and is ignored by release-plz.</p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>
