@@ -132,7 +132,7 @@
     "name": "Imgkl/the-dark-side",
     "url": "https://github.com/Imgkl/the-dark-side",
     "description": "True Dark Theme for Zed IDE",
-    "stars": 87,
+    "stars": 88,
     "forks": 6,
     "topics": [
       "zed-extension",
@@ -141,7 +141,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-07-06T06:11:12Z",
+    "updated_at": "2026-07-06T17:23:39Z",
     "pushed_at": "2026-07-06T06:11:09Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -3492,7 +3492,7 @@
     "name": "hodgers/zed-sparql",
     "url": "https://github.com/hodgers/zed-sparql",
     "description": "SPARQL support for Zed",
-    "stars": 2,
+    "stars": 3,
     "forks": 0,
     "topics": [
       "sparql",
@@ -3504,7 +3504,7 @@
     "language": "Rust",
     "license": null,
     "created_at": "2026-03-19T00:22:03Z",
-    "updated_at": "2026-05-23T05:27:57Z",
+    "updated_at": "2026-07-06T17:51:53Z",
     "pushed_at": "2026-03-20T21:16:11Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false,
@@ -8809,8 +8809,8 @@
     "language": "Lua",
     "license": "MIT",
     "created_at": "2024-05-02T20:49:30Z",
-    "updated_at": "2026-07-04T11:31:28Z",
-    "pushed_at": "2026-07-06T13:48:33Z",
+    "updated_at": "2026-07-06T19:01:15Z",
+    "pushed_at": "2026-07-06T19:00:43Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": true,
     "extension": {
@@ -31083,13 +31083,13 @@
     "name": "zed-extensions/git_firefly",
     "url": "https://github.com/zed-extensions/git_firefly",
     "description": "",
-    "stars": 141,
+    "stars": 142,
     "forks": 6,
     "topics": [],
     "language": "Tree-sitter Query",
     "license": "Apache-2.0",
     "created_at": "2024-02-19T14:56:35Z",
-    "updated_at": "2026-07-01T12:40:20Z",
+    "updated_at": "2026-07-06T15:00:12Z",
     "pushed_at": "2026-06-23T07:36:30Z",
     "discovered_at": "2026-05-19T21:42:53.670Z",
     "official": false,
@@ -32166,13 +32166,13 @@
     "name": "clicktodev/halcyon-zed",
     "url": "https://github.com/clicktodev/halcyon-zed",
     "description": "A dark blue theme for Zed",
-    "stars": 20,
+    "stars": 21,
     "forks": 0,
     "topics": [],
     "language": null,
     "license": "MIT",
     "created_at": "2024-05-21T00:11:12Z",
-    "updated_at": "2026-04-11T21:57:58Z",
+    "updated_at": "2026-07-06T18:29:48Z",
     "pushed_at": "2025-04-04T23:26:18Z",
     "discovered_at": "2026-05-19T21:42:53.670Z",
     "official": false,
@@ -54007,6 +54007,37 @@
         "language-server",
         "slash-command",
         "context-server"
+      ]
+    }
+  },
+  "p404/zed-hc-monokai": {
+    "name": "p404/zed-hc-monokai",
+    "url": "https://github.com/p404/zed-hc-monokai",
+    "description": "Zed Theme",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Makefile",
+    "license": "MIT",
+    "created_at": "2025-12-12T15:57:19Z",
+    "updated_at": "2026-07-04T05:46:52Z",
+    "pushed_at": "2026-07-04T05:46:48Z",
+    "discovered_at": "2026-07-06T19:18:00.225Z",
+    "official": true,
+    "extension": {
+      "id": "hc-monokai-theme",
+      "name": "HC Monokai",
+      "description": "High contrast Monokai theme with black editor background, charcoal UI surfaces, and vibrant syntax highlighting",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "p404"
+      ],
+      "repository": "https://github.com/p404/zed-hc-monokai",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
       ]
     }
   }
