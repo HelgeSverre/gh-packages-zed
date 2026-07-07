@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1583** |
 | In official registry | 1135 |
 | Discovered via topics | 448 |
-| Last updated | 2026-07-06 19:18 UTC |
+| Last updated | 2026-07-07 01:18 UTC |
 
 ### By capability
 
@@ -83,7 +83,7 @@ cd website && npm install && npm run dev
 | [softyesti/softglass_zed_theme](https://github.com/softyesti/softglass_zed_theme) | 2 | Glass themes with color options for Zed Code Editor. |
 | [roxo-theme/zed](https://github.com/roxo-theme/zed) | 0 | Roxo theme for zed IDE |
 | [unicodick/zed-paper](https://github.com/unicodick/zed-paper) | 0 | Paper 1.21.11 plugin development tools for Zed. |
-| [buisson-theme/Buisson](https://github.com/buisson-theme/Buisson) | 3 | An inky botanical color scheme |
+| [buisson-theme/Buisson](https://github.com/buisson-theme/Buisson) | 4 | An inky botanical color scheme |
 | [aefly/orng](https://github.com/aefly/orng) | 0 | 🍊 Your editor called — it wants more orange. Bold accents, crisp contrast, dark... |
 | [nemeott/sbatch-zed](https://github.com/nemeott/sbatch-zed) | 0 | Zed extension for SBATCH syntax highlighting |
 | [caelyreth/eclat-zed](https://github.com/caelyreth/eclat-zed) | 8 | Immersed in peace and a muted Zed editor theme. |
@@ -126,7 +126,7 @@ cd website && npm install && npm run dev
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 130 | 2026-07-06 | The Ruby language support for Zed editor |
 | [MaraniMatias/zed-minimax-proxy](https://github.com/MaraniMatias/zed-minimax-proxy) | 0 | 2026-07-05 | Use MiniMax as Zed completion |
 | [livrasand/codetrackr-zed](https://github.com/livrasand/codetrackr-zed) | 0 | 2026-07-04 | Zed plugin for automatic time tracking and metrics generated... |
-| [buisson-theme/Buisson](https://github.com/buisson-theme/Buisson) | 3 | 2026-07-04 | An inky botanical color scheme |
+| [buisson-theme/Buisson](https://github.com/buisson-theme/Buisson) | 4 | 2026-07-04 | An inky botanical color scheme |
 | [p404/zed-hc-monokai](https://github.com/p404/zed-hc-monokai) | 0 | 2026-07-04 | Zed Theme |
 | [BenjaminHalko/flow-icons-zed](https://github.com/BenjaminHalko/flow-icons-zed) | 27 | 2026-07-02 | 🌼 Flow Icons ported to Zed |
 | [Roter-S/deep-slate-theme](https://github.com/Roter-S/deep-slate-theme) | 0 | 2026-07-02 |  |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-07-07T01:18 | 0 | 491 | 1905 |
 | 2026-07-06T19:18 | 2 | 490 | 1905 |
 | 2026-07-06T13:59 | 0 | 490 | 1903 |
 | 2026-07-06T08:07 | 0 | 490 | 1903 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-07-05T07:45 | 0 | 489 | 1902 |
 | 2026-07-05T01:17 | 1 | 488 | 1902 |
 | 2026-07-04T19:04 | 0 | 488 | 1901 |
-| 2026-07-04T13:04 | 3 | 489 | 1901 |
 
 ---
 
