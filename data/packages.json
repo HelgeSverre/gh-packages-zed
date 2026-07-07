@@ -3,7 +3,7 @@
     "name": "HelgeSverre/zed-applescript",
     "url": "https://github.com/HelgeSverre/zed-applescript",
     "description": "AppleScript for Zed — syntax highlighting, outline, runnables, language injection. Powered by a custom tree-sitter grammar.",
-    "stars": 2,
+    "stars": 3,
     "forks": 0,
     "topics": [
       "applescript",
@@ -19,7 +19,7 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2025-12-31T19:00:50Z",
-    "updated_at": "2026-06-02T12:26:04Z",
+    "updated_at": "2026-07-07T12:47:07Z",
     "pushed_at": "2026-05-27T02:00:07Z",
     "discovered_at": "2026-05-19T19:19:12.408Z",
     "official": true
@@ -126,7 +126,7 @@
     "name": "GDQuest/zed-gdscript",
     "url": "https://github.com/GDQuest/zed-gdscript",
     "description": "Zed support for the Godot game engine and the GDScript language",
-    "stars": 184,
+    "stars": 185,
     "forks": 22,
     "topics": [
       "code-editor",
@@ -138,7 +138,7 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-02-26T18:14:41Z",
-    "updated_at": "2026-07-05T15:56:49Z",
+    "updated_at": "2026-07-07T03:55:33Z",
     "pushed_at": "2026-05-21T10:29:17Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -156,8 +156,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-07-06T17:23:39Z",
-    "pushed_at": "2026-07-06T06:11:09Z",
+    "updated_at": "2026-07-07T05:53:15Z",
+    "pushed_at": "2026-07-07T05:53:11Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -3065,7 +3065,7 @@
     "url": "https://github.com/huacnlee/color-lsp",
     "description": "A document color language server.",
     "stars": 51,
-    "forks": 15,
+    "forks": 16,
     "topics": [
       "color",
       "color-highlight",
@@ -3215,10 +3215,10 @@
       "zed-extension"
     ],
     "language": "Tree-sitter Query",
-    "license": "MIT",
+    "license": "BSD-3-Clause",
     "created_at": "2025-10-08T00:37:21Z",
-    "updated_at": "2026-06-22T05:17:29Z",
-    "pushed_at": "2026-02-05T05:31:59Z",
+    "updated_at": "2026-07-07T03:45:11Z",
+    "pushed_at": "2026-07-07T03:45:07Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -4154,7 +4154,7 @@
     "name": "loyal-disloyal/gdscript-zed-snippets",
     "url": "https://github.com/loyal-disloyal/gdscript-zed-snippets",
     "description": "A useful collection of Godot 4 snippets that speeds up development in the Zed editor.",
-    "stars": 2,
+    "stars": 3,
     "forks": 1,
     "topics": [
       "gdscript",
@@ -4164,7 +4164,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2025-10-30T08:27:20Z",
-    "updated_at": "2026-04-26T00:32:57Z",
+    "updated_at": "2026-07-07T05:50:06Z",
     "pushed_at": "2025-11-01T08:48:53Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -5309,8 +5309,8 @@
     "language": "Go",
     "license": "MIT",
     "created_at": "2026-03-09T04:35:59Z",
-    "updated_at": "2026-07-06T07:50:21Z",
-    "pushed_at": "2026-07-06T07:50:16Z",
+    "updated_at": "2026-07-07T07:25:37Z",
+    "pushed_at": "2026-07-07T07:25:33Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -5337,7 +5337,7 @@
     "name": "Dylanmurzello/zed-android-port",
     "url": "https://github.com/Dylanmurzello/zed-android-port",
     "description": "Native Android port of the Zed code editor,  gpui rendering through Vulkan, integrated Termux for LSPs and tooling, remote SSH support. Runs as an APK on tablets and Android desktop modes.",
-    "stars": 123,
+    "stars": 124,
     "forks": 10,
     "topics": [
       "android",
@@ -5364,7 +5364,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-05-07T00:12:10Z",
-    "updated_at": "2026-07-05T16:45:01Z",
+    "updated_at": "2026-07-07T01:57:57Z",
     "pushed_at": "2026-06-05T21:34:45Z",
     "discovered_at": "2026-05-19T19:54:12.053Z",
     "official": false
@@ -6097,10 +6097,10 @@
       "zed-editor"
     ],
     "language": "Tree-sitter Query",
-    "license": "MIT",
+    "license": "BSD-3-Clause",
     "created_at": "2024-06-18T00:20:22Z",
-    "updated_at": "2026-07-02T19:47:45Z",
-    "pushed_at": "2025-10-08T05:10:15Z",
+    "updated_at": "2026-07-07T03:42:23Z",
+    "pushed_at": "2026-07-07T03:42:20Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": true
   },
@@ -6439,7 +6439,7 @@
     "name": "cange/nightfox.zed",
     "url": "https://github.com/cange/nightfox.zed",
     "description": "🦊 Zed editor theme ported from Neovim",
-    "stars": 155,
+    "stars": 156,
     "forks": 5,
     "topics": [
       "zed",
@@ -6448,7 +6448,7 @@
     "language": "Lua",
     "license": "MIT",
     "created_at": "2024-05-02T20:49:30Z",
-    "updated_at": "2026-07-06T19:01:15Z",
+    "updated_at": "2026-07-07T12:56:10Z",
     "pushed_at": "2026-07-06T19:00:43Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": true
@@ -8435,24 +8435,6 @@
     "pushed_at": "2025-07-20T19:46:11Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": true
-  },
-  "bajrangcoder/zed-mojo": {
-    "name": "bajrangCoder/zed-mojo",
-    "url": "https://github.com/bajrangCoder/zed-mojo",
-    "description": "Mojo support for Zed",
-    "stars": 32,
-    "forks": 5,
-    "topics": [
-      "extension",
-      "mojo",
-      "zed"
-    ],
-    "language": "Rust",
-    "license": null,
-    "created_at": "2024-08-26T10:43:31Z",
-    "updated_at": "2026-04-08T13:51:12Z",
-    "pushed_at": "2025-07-07T06:05:53Z",
-    "discovered_at": "2026-05-19T19:54:12.054Z"
   },
   "drew-harris/fff-zed": {
     "name": "drew-harris/fff-zed",
@@ -14875,7 +14857,7 @@
     "name": "davccavalcante/hacker-night-vision-theme-for-zed",
     "url": "https://github.com/davccavalcante/hacker-night-vision-theme-for-zed",
     "description": "📺 A monochromatic theme with a vibrant palette for effective contrast. Inspired by secret agency operating systems, this theme adds a touch of espionage to your coding environment.",
-    "stars": 4,
+    "stars": 5,
     "forks": 1,
     "topics": [
       "dark-theme",
@@ -14894,7 +14876,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-09-13T10:44:56Z",
-    "updated_at": "2026-02-15T01:40:16Z",
+    "updated_at": "2026-07-07T11:01:25Z",
     "pushed_at": "2025-02-24T02:01:59Z",
     "discovered_at": "2026-05-19T20:15:46.472Z",
     "official": false
@@ -15639,7 +15621,7 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
-    "updated_at": "2026-07-06T22:04:31Z",
+    "updated_at": "2026-07-07T06:17:57Z",
     "pushed_at": "2026-07-05T01:51:14Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
@@ -18198,8 +18180,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-07-06T19:18:39Z",
-    "pushed_at": "2026-07-06T19:18:32Z",
+    "updated_at": "2026-07-07T01:18:47Z",
+    "pushed_at": "2026-07-07T01:18:43Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -30222,8 +30204,8 @@
     "language": "Rust",
     "license": null,
     "created_at": "2026-06-09T22:36:14Z",
-    "updated_at": "2026-07-03T14:02:08Z",
-    "pushed_at": "2026-07-03T14:02:03Z",
+    "updated_at": "2026-07-07T09:46:42Z",
+    "pushed_at": "2026-07-07T09:46:38Z",
     "discovered_at": "2026-06-10T00:43:30.823Z",
     "official": false
   },
@@ -32148,6 +32130,29 @@
     "updated_at": "2026-07-06T20:19:13Z",
     "pushed_at": "2026-07-06T20:19:09Z",
     "discovered_at": "2026-07-06T19:18:00.225Z",
+    "official": false
+  },
+  "atomic-dark/zed": {
+    "name": "atomic-dark/zed",
+    "url": "https://github.com/atomic-dark/zed",
+    "description": "A developer-friendly collection of widely-used syntax themes with OLED support and enhanced contrast for zed editor.",
+    "stars": 1,
+    "forks": 0,
+    "topics": [
+      "catppuccin-theme",
+      "material-theme",
+      "one-dark-theme",
+      "rose-pine-theme",
+      "theme",
+      "vague-theme",
+      "zed-theme"
+    ],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-05-15T10:38:13Z",
+    "updated_at": "2026-07-07T10:43:34Z",
+    "pushed_at": "2026-06-26T12:53:18Z",
+    "discovered_at": "2026-07-07T13:26:53.687Z",
     "official": false
   }
 }

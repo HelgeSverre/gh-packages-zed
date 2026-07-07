@@ -17,15 +17,15 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1583** |
 | In official registry | 1135 |
 | Discovered via topics | 448 |
-| Last updated | 2026-07-07 01:18 UTC |
+| Last updated | 2026-07-07 13:26 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
-| Themes | 661 |
-| Grammars | 551 |
-| Language Servers | 511 |
+| Themes | 662 |
+| Grammars | 550 |
+| Language Servers | 510 |
 | Context Servers | 132 |
 | Snippets | 71 |
 | Slash Commands | 56 |
@@ -70,6 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [atomic-dark/zed](https://github.com/atomic-dark/zed) | 1 | A developer-friendly collection of widely-used syntax themes with OLED support a... |
 | [p404/zed-hc-monokai](https://github.com/p404/zed-hc-monokai) | 0 | Zed Theme |
 | [MaraniMatias/zed-minimax-proxy](https://github.com/MaraniMatias/zed-minimax-proxy) | 0 | Use MiniMax as Zed completion |
 | [ita-lang/ita-theme](https://github.com/ita-lang/ita-theme) | 0 | Itá Semantic — semantic color theme for the Itá language (Zed, Dark & Light, WCA... |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [caelyreth/eclat-zed](https://github.com/caelyreth/eclat-zed) | 8 | Immersed in peace and a muted Zed editor theme. |
 | [malleroid/emerald-synth-zed](https://github.com/malleroid/emerald-synth-zed) | 0 | Emerald Synth theme for Zed editor |
 | [ams-sth/vantadark](https://github.com/ams-sth/vantadark) | 0 | A minimal dark theme for Zed. Clean surfaces, no borders, five syntax colours. G... |
-| [Adriusops/buisson-zed](https://github.com/Adriusops/buisson-zed) | 0 | Buisson theme for Zed editor |
 
 ## Top starred (under 500)
 
@@ -105,10 +105,10 @@ cd website && npm install && npm run dev
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
-| [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 184 | Zed support for the Godot game engine and the GDScript language |
+| [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 185 | Zed support for the Godot game engine and the GDScript language |
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 182 | Typst extension for zed |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 162 | A macOS native style theme for Zed, let it same like native app in macOS. |
-| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 155 | 🦊 Zed editor theme ported from Neovim |
+| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 156 | 🦊 Zed editor theme ported from Neovim |
 | [thedadams/zed-comment](https://github.com/thedadams/zed-comment) | 148 | A comment extension for the Zed editor |
 | [slymax/zedokai](https://github.com/slymax/zedokai) | 145 | a theme for Zed based on the Monokai Pro color scheme |
 | [nathansbradshaw/zed-angular](https://github.com/nathansbradshaw/zed-angular) | 144 |  |
@@ -120,9 +120,11 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 155 | 2026-07-06 | 🦊 Zed editor theme ported from Neovim |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 88 | 2026-07-07 | True Dark Theme for Zed IDE |
+| [ChemisTechlabs/zed-pascal](https://github.com/ChemisTechlabs/zed-pascal) | 15 | 2026-07-07 | A Pascal language extension for Zed Editor |
+| [ChemisTechlabs/zed-firebase-security-rules](https://github.com/ChemisTechlabs/zed-firebase-security-rules) | 3 | 2026-07-07 | A Firebase Security Rules language syntax highlight extensio... |
+| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 156 | 2026-07-06 | 🦊 Zed editor theme ported from Neovim |
 | [hadez8877/one-dark-pro-enhanced](https://github.com/hadez8877/one-dark-pro-enhanced) | 6 | 2026-07-06 | The most installed theme in Visual Studio Code modified for ... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 88 | 2026-07-06 | True Dark Theme for Zed IDE |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 130 | 2026-07-06 | The Ruby language support for Zed editor |
 | [MaraniMatias/zed-minimax-proxy](https://github.com/MaraniMatias/zed-minimax-proxy) | 0 | 2026-07-05 | Use MiniMax as Zed completion |
 | [livrasand/codetrackr-zed](https://github.com/livrasand/codetrackr-zed) | 0 | 2026-07-04 | Zed plugin for automatic time tracking and metrics generated... |
@@ -138,13 +140,12 @@ cd website && npm install && npm run dev
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 200 | 2026-07-01 | Zed plugin for automatic time tracking and metrics generated... |
 | [alanisme/vscode-themes-for-zed](https://github.com/alanisme/vscode-themes-for-zed) | 16 | 2026-06-29 | ❤️ All 19 built-in Visual Studio Code color themes, ported t... |
 | [ita-lang/ita-theme](https://github.com/ita-lang/ita-theme) | 0 | 2026-06-28 | Itá Semantic — semantic color theme for the Itá language (Ze... |
-| [pol-cova/cursor-theme-zed](https://github.com/pol-cova/cursor-theme-zed) | 0 | 2026-06-27 | A warm Cursor-inspired Zed theme with light and dark variant... |
-| [alysson-souza/zed-fish-lsp](https://github.com/alysson-souza/zed-fish-lsp) | 4 | 2026-06-27 | Fish shell extension for Zed with fish-lsp integration |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-07-07T13:26 | 1 | 490 | 1905 |
 | 2026-07-07T01:18 | 0 | 491 | 1905 |
 | 2026-07-06T19:18 | 2 | 490 | 1905 |
 | 2026-07-06T13:59 | 0 | 490 | 1903 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-07-05T13:05 | 0 | 489 | 1902 |
 | 2026-07-05T07:45 | 0 | 489 | 1902 |
 | 2026-07-05T01:17 | 1 | 488 | 1902 |
-| 2026-07-04T19:04 | 0 | 488 | 1901 |
 
 ---
 
