@@ -3,7 +3,7 @@
     "name": "HelgeSverre/zed-applescript",
     "url": "https://github.com/HelgeSverre/zed-applescript",
     "description": "AppleScript for Zed — syntax highlighting, outline, runnables, language injection. Powered by a custom tree-sitter grammar.",
-    "stars": 3,
+    "stars": 4,
     "forks": 0,
     "topics": [
       "applescript",
@@ -19,7 +19,7 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2025-12-31T19:00:50Z",
-    "updated_at": "2026-07-07T12:47:07Z",
+    "updated_at": "2026-07-07T21:59:25Z",
     "pushed_at": "2026-05-27T02:00:07Z",
     "discovered_at": "2026-05-19T19:19:12.408Z",
     "official": true
@@ -308,7 +308,7 @@
     "name": "albertsko/zed-everforest",
     "url": "https://github.com/albertsko/zed-everforest",
     "description": "🌲 Everforest for Zed",
-    "stars": 14,
+    "stars": 15,
     "forks": 4,
     "topics": [
       "everforest",
@@ -319,7 +319,7 @@
     "language": "Go Template",
     "license": "MIT",
     "created_at": "2025-11-14T14:30:39Z",
-    "updated_at": "2026-06-21T07:35:33Z",
+    "updated_at": "2026-07-08T00:59:36Z",
     "pushed_at": "2026-05-17T18:34:08Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -846,7 +846,7 @@
     "url": "https://github.com/kartikvashistha/zed-ansible",
     "description": "Ansible Extension for the Zed editor",
     "stars": 54,
-    "forks": 9,
+    "forks": 8,
     "topics": [
       "ansible",
       "zed-editor",
@@ -3853,7 +3853,7 @@
     "name": "vitallium/zed-ltex",
     "url": "https://github.com/vitallium/zed-ltex",
     "description": "LTeX+ Language Server support for Zed",
-    "stars": 20,
+    "stars": 19,
     "forks": 3,
     "topics": [
       "ltex",
@@ -3864,7 +3864,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2024-08-06T19:05:20Z",
-    "updated_at": "2026-05-28T18:22:24Z",
+    "updated_at": "2026-07-07T23:45:45Z",
     "pushed_at": "2025-12-01T20:00:41Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -5337,7 +5337,7 @@
     "name": "Dylanmurzello/zed-android-port",
     "url": "https://github.com/Dylanmurzello/zed-android-port",
     "description": "Native Android port of the Zed code editor,  gpui rendering through Vulkan, integrated Termux for LSPs and tooling, remote SSH support. Runs as an APK on tablets and Android desktop modes.",
-    "stars": 125,
+    "stars": 126,
     "forks": 10,
     "topics": [
       "android",
@@ -5364,7 +5364,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-05-07T00:12:10Z",
-    "updated_at": "2026-07-07T16:40:10Z",
+    "updated_at": "2026-07-07T19:54:22Z",
     "pushed_at": "2026-06-05T21:34:45Z",
     "discovered_at": "2026-05-19T19:54:12.053Z",
     "official": false
@@ -9212,8 +9212,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-05-12T23:09:15Z",
-    "updated_at": "2026-07-01T23:12:17Z",
-    "pushed_at": "2026-06-01T22:09:23Z",
+    "updated_at": "2026-07-07T23:26:30Z",
+    "pushed_at": "2026-07-07T23:26:26Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": true
   },
@@ -18180,8 +18180,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-07-07T13:28:05Z",
-    "pushed_at": "2026-07-07T13:27:26Z",
+    "updated_at": "2026-07-07T19:20:19Z",
+    "pushed_at": "2026-07-07T19:20:12Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -32159,7 +32159,7 @@
     "name": "ManSio/mscodebase-intelligence",
     "url": "https://github.com/ManSio/mscodebase-intelligence",
     "description": "High-performance, memory-safe, and native async Python MCP server for Zed IDE on Windows. Features multi-bucket RAG, hybrid LanceDB/BM25 search, dynamic re-ranking, and O(1) status caching.",
-    "stars": 0,
+    "stars": 1,
     "forks": 0,
     "topics": [
       "codebase-intelligence",
@@ -32176,8 +32176,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
-    "updated_at": "2026-07-07T18:57:07Z",
-    "pushed_at": "2026-07-07T17:21:13Z",
+    "updated_at": "2026-07-07T22:42:57Z",
+    "pushed_at": "2026-07-07T22:42:53Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false
   }

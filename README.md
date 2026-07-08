@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1584** |
 | In official registry | 1135 |
 | Discovered via topics | 449 |
-| Last updated | 2026-07-07 19:19 UTC |
+| Last updated | 2026-07-08 01:11 UTC |
 
 ### By capability
 
@@ -70,7 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
-| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 0 | High-performance, memory-safe, and native async Python MCP server for Zed IDE on... |
+| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | High-performance, memory-safe, and native async Python MCP server for Zed IDE on... |
 | [atomic-dark/zed](https://github.com/atomic-dark/zed) | 1 | A developer-friendly collection of widely-used syntax themes with OLED support a... |
 | [p404/zed-hc-monokai](https://github.com/p404/zed-hc-monokai) | 0 | Zed Theme |
 | [MaraniMatias/zed-minimax-proxy](https://github.com/MaraniMatias/zed-minimax-proxy) | 0 | Use MiniMax as Zed completion |
@@ -120,7 +120,8 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 0 | 2026-07-07 | High-performance, memory-safe, and native async Python MCP s... |
+| [eallender/zed-python-autodoc](https://github.com/eallender/zed-python-autodoc) | 4 | 2026-07-07 | Zed extension for python auto-documentation |
+| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-07-07 | High-performance, memory-safe, and native async Python MCP s... |
 | [pranavmangal/zed-ssh-config](https://github.com/pranavmangal/zed-ssh-config) | 2 | 2026-07-07 | A Zed extension that provides syntax highlighting for SSH co... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 88 | 2026-07-07 | True Dark Theme for Zed IDE |
 | [ChemisTechlabs/zed-pascal](https://github.com/ChemisTechlabs/zed-pascal) | 15 | 2026-07-07 | A Pascal language extension for Zed Editor |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [kevcamel/vscode_dark_modern.zed](https://github.com/kevcamel/vscode_dark_modern.zed) | 55 | 2026-07-02 | VS Code Dark Modern theme for Zed |
 | [aefly/orng](https://github.com/aefly/orng) | 0 | 2026-07-02 | 🍊 Your editor called — it wants more orange. Bold accents, ... |
 | [frostime/zed-file-mention](https://github.com/frostime/zed-file-mention) | 0 | 2026-07-01 | An zed extension (dev phase). Press @ for quick file path co... |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 200 | 2026-07-01 | Zed plugin for automatic time tracking and metrics generated... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-07-08T01:11 | 0 | 492 | 1906 |
 | 2026-07-07T19:19 | 1 | 491 | 1906 |
 | 2026-07-07T13:26 | 1 | 490 | 1905 |
 | 2026-07-07T01:18 | 0 | 491 | 1905 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-07-06T01:17 | 1 | 489 | 1903 |
 | 2026-07-05T19:04 | 0 | 489 | 1902 |
 | 2026-07-05T13:05 | 0 | 489 | 1902 |
-| 2026-07-05T07:45 | 0 | 489 | 1902 |
 
 ---
 
