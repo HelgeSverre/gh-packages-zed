@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1585** |
 | In official registry | 1135 |
 | Discovered via topics | 450 |
-| Last updated | 2026-07-08 07:32 UTC |
+| Last updated | 2026-07-08 13:14 UTC |
 
 ### By capability
 
@@ -86,7 +86,7 @@ cd website && npm install && npm run dev
 | [softyesti/softglass_zed_theme](https://github.com/softyesti/softglass_zed_theme) | 2 | Glass themes with color options for Zed Code Editor. |
 | [roxo-theme/zed](https://github.com/roxo-theme/zed) | 0 | Roxo theme for zed IDE |
 | [unicodick/zed-paper](https://github.com/unicodick/zed-paper) | 0 | Paper 1.21.11 plugin development tools for Zed. |
-| [buisson-theme/Buisson](https://github.com/buisson-theme/Buisson) | 4 | An inky botanical color scheme |
+| [buisson-theme/Buisson](https://github.com/buisson-theme/Buisson) | 5 | An inky botanical color scheme |
 | [aefly/orng](https://github.com/aefly/orng) | 0 | 🍊 Your editor called — it wants more orange. Bold accents, crisp contrast, dark... |
 | [nemeott/sbatch-zed](https://github.com/nemeott/sbatch-zed) | 0 | Zed extension for SBATCH syntax highlighting |
 | [caelyreth/eclat-zed](https://github.com/caelyreth/eclat-zed) | 8 | Immersed in peace and a muted Zed editor theme. |
@@ -120,6 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Ben-Wormald/cloudformation-language-server-zed](https://github.com/Ben-Wormald/cloudformation-language-server-zed) | 4 | 2026-07-08 | Zed extension for the AWS CloudFormation language server |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 88 | 2026-07-08 | True Dark Theme for Zed IDE |
 | [golproductions/check-zed](https://github.com/golproductions/check-zed) | 0 | 2026-07-08 | Less hallucinations. GOL Check for Zed: validates shell comm... |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-07-08 | High-performance, memory-safe, and native async Python MCP s... |
@@ -132,19 +133,19 @@ cd website && npm install && npm run dev
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 130 | 2026-07-06 | The Ruby language support for Zed editor |
 | [MaraniMatias/zed-minimax-proxy](https://github.com/MaraniMatias/zed-minimax-proxy) | 0 | 2026-07-05 | Use MiniMax as Zed completion |
 | [livrasand/codetrackr-zed](https://github.com/livrasand/codetrackr-zed) | 0 | 2026-07-04 | Zed plugin for automatic time tracking and metrics generated... |
-| [buisson-theme/Buisson](https://github.com/buisson-theme/Buisson) | 4 | 2026-07-04 | An inky botanical color scheme |
+| [buisson-theme/Buisson](https://github.com/buisson-theme/Buisson) | 5 | 2026-07-04 | An inky botanical color scheme |
 | [p404/zed-hc-monokai](https://github.com/p404/zed-hc-monokai) | 0 | 2026-07-04 | Zed Theme |
 | [BenjaminHalko/flow-icons-zed](https://github.com/BenjaminHalko/flow-icons-zed) | 27 | 2026-07-02 | 🌼 Flow Icons ported to Zed |
 | [Roter-S/deep-slate-theme](https://github.com/Roter-S/deep-slate-theme) | 0 | 2026-07-02 |  |
 | [flynt-theme/flynt-zed](https://github.com/flynt-theme/flynt-zed) | 1 | 2026-07-02 | Flynt for Zed editor |
 | [unicodick/zed-paper](https://github.com/unicodick/zed-paper) | 0 | 2026-07-02 | Paper 1.21.11 plugin development tools for Zed. |
 | [kevcamel/vscode_dark_modern.zed](https://github.com/kevcamel/vscode_dark_modern.zed) | 55 | 2026-07-02 | VS Code Dark Modern theme for Zed |
-| [aefly/orng](https://github.com/aefly/orng) | 0 | 2026-07-02 | 🍊 Your editor called — it wants more orange. Bold accents, ... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-07-08T13:14 | 0 | 493 | 1907 |
 | 2026-07-08T07:32 | 1 | 492 | 1907 |
 | 2026-07-08T01:11 | 0 | 492 | 1906 |
 | 2026-07-07T19:19 | 1 | 491 | 1906 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-07-06T13:59 | 0 | 490 | 1903 |
 | 2026-07-06T08:07 | 0 | 490 | 1903 |
 | 2026-07-06T01:17 | 1 | 489 | 1903 |
-| 2026-07-05T19:04 | 0 | 489 | 1902 |
 
 ---
 
