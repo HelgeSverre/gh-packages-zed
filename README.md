@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1585** |
 | In official registry | 1135 |
 | Discovered via topics | 450 |
-| Last updated | 2026-07-08 13:14 UTC |
+| Last updated | 2026-07-08 19:05 UTC |
 
 ### By capability
 
@@ -120,10 +120,10 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-07-08 | High-performance, memory-safe, and native async Python MCP s... |
 | [Ben-Wormald/cloudformation-language-server-zed](https://github.com/Ben-Wormald/cloudformation-language-server-zed) | 4 | 2026-07-08 | Zed extension for the AWS CloudFormation language server |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 88 | 2026-07-08 | True Dark Theme for Zed IDE |
 | [golproductions/check-zed](https://github.com/golproductions/check-zed) | 0 | 2026-07-08 | Less hallucinations. GOL Check for Zed: validates shell comm... |
-| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-07-08 | High-performance, memory-safe, and native async Python MCP s... |
 | [eallender/zed-python-autodoc](https://github.com/eallender/zed-python-autodoc) | 4 | 2026-07-07 | Zed extension for python auto-documentation |
 | [pranavmangal/zed-ssh-config](https://github.com/pranavmangal/zed-ssh-config) | 2 | 2026-07-07 | A Zed extension that provides syntax highlighting for SSH co... |
 | [ChemisTechlabs/zed-pascal](https://github.com/ChemisTechlabs/zed-pascal) | 15 | 2026-07-07 | A Pascal language extension for Zed Editor |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-07-08T19:05 | 0 | 492 | 1907 |
 | 2026-07-08T13:14 | 0 | 493 | 1907 |
 | 2026-07-08T07:32 | 1 | 492 | 1907 |
 | 2026-07-08T01:11 | 0 | 492 | 1906 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-07-06T19:18 | 2 | 490 | 1905 |
 | 2026-07-06T13:59 | 0 | 490 | 1903 |
 | 2026-07-06T08:07 | 0 | 490 | 1903 |
-| 2026-07-06T01:17 | 1 | 489 | 1903 |
 
 ---
 
