@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1584-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1585-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,10 +14,10 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1584** |
+| Total tracked | **1585** |
 | In official registry | 1135 |
-| Discovered via topics | 449 |
-| Last updated | 2026-07-08 01:11 UTC |
+| Discovered via topics | 450 |
+| Last updated | 2026-07-08 07:32 UTC |
 
 ### By capability
 
@@ -25,7 +25,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 |------|-------|
 | Themes | 662 |
 | Grammars | 551 |
-| Language Servers | 511 |
+| Language Servers | 512 |
 | Context Servers | 133 |
 | Snippets | 71 |
 | Slash Commands | 57 |
@@ -70,6 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [golproductions/check-zed](https://github.com/golproductions/check-zed) | 0 | Less hallucinations. GOL Check for Zed: validates shell commands before they run... |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | High-performance, memory-safe, and native async Python MCP server for Zed IDE on... |
 | [atomic-dark/zed](https://github.com/atomic-dark/zed) | 1 | A developer-friendly collection of widely-used syntax themes with OLED support a... |
 | [p404/zed-hc-monokai](https://github.com/p404/zed-hc-monokai) | 0 | Zed Theme |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [aefly/orng](https://github.com/aefly/orng) | 0 | 🍊 Your editor called — it wants more orange. Bold accents, crisp contrast, dark... |
 | [nemeott/sbatch-zed](https://github.com/nemeott/sbatch-zed) | 0 | Zed extension for SBATCH syntax highlighting |
 | [caelyreth/eclat-zed](https://github.com/caelyreth/eclat-zed) | 8 | Immersed in peace and a muted Zed editor theme. |
-| [malleroid/emerald-synth-zed](https://github.com/malleroid/emerald-synth-zed) | 0 | Emerald Synth theme for Zed editor |
 
 ## Top starred (under 500)
 
@@ -120,10 +120,11 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 88 | 2026-07-08 | True Dark Theme for Zed IDE |
+| [golproductions/check-zed](https://github.com/golproductions/check-zed) | 0 | 2026-07-08 | Less hallucinations. GOL Check for Zed: validates shell comm... |
+| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-07-08 | High-performance, memory-safe, and native async Python MCP s... |
 | [eallender/zed-python-autodoc](https://github.com/eallender/zed-python-autodoc) | 4 | 2026-07-07 | Zed extension for python auto-documentation |
-| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-07-07 | High-performance, memory-safe, and native async Python MCP s... |
 | [pranavmangal/zed-ssh-config](https://github.com/pranavmangal/zed-ssh-config) | 2 | 2026-07-07 | A Zed extension that provides syntax highlighting for SSH co... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 88 | 2026-07-07 | True Dark Theme for Zed IDE |
 | [ChemisTechlabs/zed-pascal](https://github.com/ChemisTechlabs/zed-pascal) | 15 | 2026-07-07 | A Pascal language extension for Zed Editor |
 | [ChemisTechlabs/zed-firebase-security-rules](https://github.com/ChemisTechlabs/zed-firebase-security-rules) | 3 | 2026-07-07 | A Firebase Security Rules language syntax highlight extensio... |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 156 | 2026-07-06 | 🦊 Zed editor theme ported from Neovim |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [unicodick/zed-paper](https://github.com/unicodick/zed-paper) | 0 | 2026-07-02 | Paper 1.21.11 plugin development tools for Zed. |
 | [kevcamel/vscode_dark_modern.zed](https://github.com/kevcamel/vscode_dark_modern.zed) | 55 | 2026-07-02 | VS Code Dark Modern theme for Zed |
 | [aefly/orng](https://github.com/aefly/orng) | 0 | 2026-07-02 | 🍊 Your editor called — it wants more orange. Bold accents, ... |
-| [frostime/zed-file-mention](https://github.com/frostime/zed-file-mention) | 0 | 2026-07-01 | An zed extension (dev phase). Press @ for quick file path co... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-07-08T07:32 | 1 | 492 | 1907 |
 | 2026-07-08T01:11 | 0 | 492 | 1906 |
 | 2026-07-07T19:19 | 1 | 491 | 1906 |
 | 2026-07-07T13:26 | 1 | 490 | 1905 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-07-06T08:07 | 0 | 490 | 1903 |
 | 2026-07-06T01:17 | 1 | 489 | 1903 |
 | 2026-07-05T19:04 | 0 | 489 | 1902 |
-| 2026-07-05T13:05 | 0 | 489 | 1902 |
 
 ---
 

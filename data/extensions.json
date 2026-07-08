@@ -141,8 +141,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-07-07T05:53:15Z",
-    "pushed_at": "2026-07-07T05:53:11Z",
+    "updated_at": "2026-07-08T04:52:37Z",
+    "pushed_at": "2026-07-08T04:52:34Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -54063,8 +54063,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
-    "updated_at": "2026-07-07T22:42:57Z",
-    "pushed_at": "2026-07-07T22:42:53Z",
+    "updated_at": "2026-07-08T03:50:36Z",
+    "pushed_at": "2026-07-08T03:50:32Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false,
     "extension": {
@@ -54090,6 +54090,46 @@
         "language-server",
         "slash-command",
         "context-server"
+      ]
+    }
+  },
+  "golproductions/check-zed": {
+    "name": "golproductions/check-zed",
+    "url": "https://github.com/golproductions/check-zed",
+    "description": "Less hallucinations. GOL Check for Zed: validates shell commands before they run.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "ai-agents",
+      "command-validation",
+      "gol-productions",
+      "hallucination",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "created_at": "2026-06-22T07:26:07Z",
+    "updated_at": "2026-07-08T04:47:13Z",
+    "pushed_at": "2026-07-08T04:47:09Z",
+    "discovered_at": "2026-07-08T07:32:55.376Z",
+    "official": false,
+    "extension": {
+      "id": "gol-check",
+      "name": "GOL Check",
+      "description": "The universal anti-hallucination engine. AI agents hallucinate. Check catches it.",
+      "version": "1.0.1",
+      "schema_version": 1,
+      "authors": [
+        "GOL Productions <support@golproductions.com>"
+      ],
+      "repository": "https://github.com/golproductions/check-zed",
+      "snippets": null,
+      "sections": [
+        "language_servers"
+      ],
+      "categories": [
+        "language-server"
       ]
     }
   }

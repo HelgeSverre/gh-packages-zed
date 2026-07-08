@@ -156,8 +156,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-07-07T05:53:15Z",
-    "pushed_at": "2026-07-07T05:53:11Z",
+    "updated_at": "2026-07-08T04:52:37Z",
+    "pushed_at": "2026-07-08T04:52:34Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -620,7 +620,7 @@
     "name": "bennypowers/asimonim",
     "url": "https://github.com/bennypowers/asimonim",
     "description": "The Design Tokens Multitool. CLI and go library; LSP and MCP; Generator and converter",
-    "stars": 27,
+    "stars": 28,
     "forks": 2,
     "topics": [
       "claude-code-plugin",
@@ -637,7 +637,7 @@
     "language": "Go",
     "license": "GPL-3.0",
     "created_at": "2026-01-19T23:03:47Z",
-    "updated_at": "2026-06-12T15:01:05Z",
+    "updated_at": "2026-07-08T02:17:12Z",
     "pushed_at": "2026-06-10T13:59:56Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -5309,8 +5309,8 @@
     "language": "Go",
     "license": "MIT",
     "created_at": "2026-03-09T04:35:59Z",
-    "updated_at": "2026-07-07T07:25:37Z",
-    "pushed_at": "2026-07-07T07:25:33Z",
+    "updated_at": "2026-07-08T07:03:46Z",
+    "pushed_at": "2026-07-08T07:03:39Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -5337,7 +5337,7 @@
     "name": "Dylanmurzello/zed-android-port",
     "url": "https://github.com/Dylanmurzello/zed-android-port",
     "description": "Native Android port of the Zed code editor,  gpui rendering through Vulkan, integrated Termux for LSPs and tooling, remote SSH support. Runs as an APK on tablets and Android desktop modes.",
-    "stars": 126,
+    "stars": 127,
     "forks": 10,
     "topics": [
       "android",
@@ -5364,7 +5364,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-05-07T00:12:10Z",
-    "updated_at": "2026-07-07T19:54:22Z",
+    "updated_at": "2026-07-08T03:18:30Z",
     "pushed_at": "2026-06-05T21:34:45Z",
     "discovered_at": "2026-05-19T19:54:12.053Z",
     "official": false
@@ -5980,7 +5980,7 @@
     "name": "AprilNEA/gpui-symbols",
     "url": "https://github.com/AprilNEA/gpui-symbols",
     "description": "SF Symbols for GPUI – Render Apple's 9000+ icons in Rust desktop apps with type-safe enums and native macOS rendering",
-    "stars": 15,
+    "stars": 16,
     "forks": 0,
     "topics": [
       "desktop-app",
@@ -5995,7 +5995,7 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-20T14:53:11Z",
-    "updated_at": "2026-07-01T08:33:54Z",
+    "updated_at": "2026-07-08T04:40:21Z",
     "pushed_at": "2026-01-21T15:33:27Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
@@ -15373,7 +15373,7 @@
     "name": "darkvoid-theme/darkvoid.nvim",
     "url": "https://github.com/darkvoid-theme/darkvoid.nvim",
     "description": "Neovim Colorscheme for dark dwellers with optional glow effect!",
-    "stars": 225,
+    "stars": 226,
     "forks": 11,
     "topics": [
       "color-scheme",
@@ -15398,7 +15398,7 @@
     "language": "Lua",
     "license": "MIT",
     "created_at": "2024-07-30T06:26:25Z",
-    "updated_at": "2026-07-03T12:13:43Z",
+    "updated_at": "2026-07-08T05:07:34Z",
     "pushed_at": "2024-11-21T21:02:02Z",
     "discovered_at": "2026-05-19T20:52:12.309Z",
     "official": false
@@ -15594,7 +15594,7 @@
     "name": "agent-sh/agnix",
     "url": "https://github.com/agent-sh/agnix",
     "description": "The missing linter and lsp for AI coding assistants. Validate CLAUDE.md, AGENTS.md, SKILL.md, hooks, MCP. Plugin for all major IDEs included, with autofixes.",
-    "stars": 330,
+    "stars": 331,
     "forks": 30,
     "topics": [
       "agent",
@@ -15621,7 +15621,7 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
-    "updated_at": "2026-07-07T06:17:57Z",
+    "updated_at": "2026-07-08T06:21:04Z",
     "pushed_at": "2026-07-05T01:51:14Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
@@ -18180,8 +18180,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-07-07T19:20:19Z",
-    "pushed_at": "2026-07-07T19:20:12Z",
+    "updated_at": "2026-07-08T01:12:00Z",
+    "pushed_at": "2026-07-08T01:11:56Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -32176,9 +32176,31 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
-    "updated_at": "2026-07-07T22:42:57Z",
-    "pushed_at": "2026-07-07T22:42:53Z",
+    "updated_at": "2026-07-08T03:50:36Z",
+    "pushed_at": "2026-07-08T03:50:32Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
+    "official": false
+  },
+  "golproductions/check-zed": {
+    "name": "golproductions/check-zed",
+    "url": "https://github.com/golproductions/check-zed",
+    "description": "Less hallucinations. GOL Check for Zed: validates shell commands before they run.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "ai-agents",
+      "command-validation",
+      "gol-productions",
+      "hallucination",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "created_at": "2026-06-22T07:26:07Z",
+    "updated_at": "2026-07-08T04:47:13Z",
+    "pushed_at": "2026-07-08T04:47:09Z",
+    "discovered_at": "2026-07-08T07:32:55.376Z",
     "official": false
   }
 }
