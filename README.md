@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1585** |
 | In official registry | 1135 |
 | Discovered via topics | 450 |
-| Last updated | 2026-07-09 01:13 UTC |
+| Last updated | 2026-07-09 08:04 UTC |
 
 ### By capability
 
@@ -106,7 +106,7 @@ cd website && npm install && npm run dev
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
 | [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 185 | Zed support for the Godot game engine and the GDScript language |
-| [zed-extensions/typst](https://github.com/zed-extensions/typst) | 183 | Typst extension for zed |
+| [zed-extensions/typst](https://github.com/zed-extensions/typst) | 185 | Typst extension for zed |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 162 | A macOS native style theme for Zed, let it same like native app in macOS. |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 156 | 🦊 Zed editor theme ported from Neovim |
 | [thedadams/zed-comment](https://github.com/thedadams/zed-comment) | 148 | A comment extension for the Zed editor |
@@ -120,9 +120,10 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-07-08 | High-performance, memory-safe, and native async Python MCP s... |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 88 | 2026-07-09 | True Dark Theme for Zed IDE |
+| [mumez/zed-extension-tonel-smalltalk](https://github.com/mumez/zed-extension-tonel-smalltalk) | 0 | 2026-07-09 | Tonel Smalltalk language extensiotn for Zed |
+| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-07-09 | High-performance, memory-safe, and native async Python MCP s... |
 | [Ben-Wormald/cloudformation-language-server-zed](https://github.com/Ben-Wormald/cloudformation-language-server-zed) | 4 | 2026-07-08 | Zed extension for the AWS CloudFormation language server |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 88 | 2026-07-08 | True Dark Theme for Zed IDE |
 | [golproductions/check-zed](https://github.com/golproductions/check-zed) | 0 | 2026-07-08 | Less hallucinations. GOL Check for Zed: validates shell comm... |
 | [eallender/zed-python-autodoc](https://github.com/eallender/zed-python-autodoc) | 4 | 2026-07-07 | Zed extension for python auto-documentation |
 | [pranavmangal/zed-ssh-config](https://github.com/pranavmangal/zed-ssh-config) | 2 | 2026-07-07 | A Zed extension that provides syntax highlighting for SSH co... |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [Roter-S/deep-slate-theme](https://github.com/Roter-S/deep-slate-theme) | 0 | 2026-07-02 |  |
 | [flynt-theme/flynt-zed](https://github.com/flynt-theme/flynt-zed) | 1 | 2026-07-02 | Flynt for Zed editor |
 | [unicodick/zed-paper](https://github.com/unicodick/zed-paper) | 0 | 2026-07-02 | Paper 1.21.11 plugin development tools for Zed. |
-| [kevcamel/vscode_dark_modern.zed](https://github.com/kevcamel/vscode_dark_modern.zed) | 55 | 2026-07-02 | VS Code Dark Modern theme for Zed |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-07-09T08:04 | 0 | 494 | 1908 |
 | 2026-07-09T01:13 | 1 | 492 | 1908 |
 | 2026-07-08T19:05 | 0 | 492 | 1907 |
 | 2026-07-08T13:14 | 0 | 493 | 1907 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-07-07T13:26 | 1 | 490 | 1905 |
 | 2026-07-07T01:18 | 0 | 491 | 1905 |
 | 2026-07-06T19:18 | 2 | 490 | 1905 |
-| 2026-07-06T13:59 | 0 | 490 | 1903 |
 
 ---
 
