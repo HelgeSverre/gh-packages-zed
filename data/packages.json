@@ -196,7 +196,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2024-08-27T10:31:46Z",
-    "updated_at": "2026-07-05T20:49:53Z",
+    "updated_at": "2026-07-09T00:07:38Z",
     "pushed_at": "2026-07-01T01:01:45Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -5491,8 +5491,8 @@
     "language": "PowerShell",
     "license": null,
     "created_at": "2024-08-14T22:46:54Z",
-    "updated_at": "2026-07-02T14:27:05Z",
-    "pushed_at": "2026-07-01T19:36:41Z",
+    "updated_at": "2026-07-08T19:21:09Z",
+    "pushed_at": "2026-07-08T19:20:16Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
   },
@@ -15594,7 +15594,7 @@
     "name": "agent-sh/agnix",
     "url": "https://github.com/agent-sh/agnix",
     "description": "The missing linter and lsp for AI coding assistants. Validate CLAUDE.md, AGENTS.md, SKILL.md, hooks, MCP. Plugin for all major IDEs included, with autofixes.",
-    "stars": 333,
+    "stars": 334,
     "forks": 29,
     "topics": [
       "agent",
@@ -15621,7 +15621,7 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
-    "updated_at": "2026-07-08T14:47:01Z",
+    "updated_at": "2026-07-08T19:29:56Z",
     "pushed_at": "2026-07-05T01:51:14Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
@@ -18180,8 +18180,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-07-08T13:16:10Z",
-    "pushed_at": "2026-07-08T13:14:58Z",
+    "updated_at": "2026-07-08T19:06:20Z",
+    "pushed_at": "2026-07-08T19:05:59Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -32176,8 +32176,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
-    "updated_at": "2026-07-08T18:53:15Z",
-    "pushed_at": "2026-07-08T18:52:55Z",
+    "updated_at": "2026-07-08T21:08:08Z",
+    "pushed_at": "2026-07-08T21:08:03Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false
   },
@@ -32201,6 +32201,30 @@
     "updated_at": "2026-07-08T04:47:13Z",
     "pushed_at": "2026-07-08T04:47:09Z",
     "discovered_at": "2026-07-08T07:32:55.376Z",
+    "official": false
+  },
+  "cloweling/tutorials-dev": {
+    "name": "Cloweling/tutorials-dev",
+    "url": "https://github.com/Cloweling/tutorials-dev",
+    "description": "A personal collection of development tutorials and setup guides for modern web technologies.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "angular",
+      "development",
+      "lsp",
+      "setup-guide",
+      "tutorials",
+      "typescript",
+      "web-development",
+      "zed-editor"
+    ],
+    "language": "Shell",
+    "license": null,
+    "created_at": "2026-03-14T02:25:47Z",
+    "updated_at": "2026-07-08T22:11:09Z",
+    "pushed_at": "2026-07-08T22:05:17Z",
+    "discovered_at": "2026-07-09T01:13:42.597Z",
     "official": false
   }
 }
