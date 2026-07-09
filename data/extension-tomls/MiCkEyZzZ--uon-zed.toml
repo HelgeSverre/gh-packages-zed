@@ -1,0 +1,13 @@
+id = "uon"
+name = "УОН"
+version = "0.1.0"
+schema_version = 1
+authors = ["УОН разработчики"]
+description = "Поддержка УОН для Zed"
+
+[language_servers.uon-lsp]
+language = "УОН"
+
+[grammars.uon]
+repository = "https://github.com/MiCkEyZzZ/tree-sitter-uon"
+rev = "main"

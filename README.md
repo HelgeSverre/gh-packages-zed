@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1585-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1587-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,18 +14,18 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1585** |
+| Total tracked | **1587** |
 | In official registry | 1135 |
-| Discovered via topics | 450 |
-| Last updated | 2026-07-09 08:04 UTC |
+| Discovered via topics | 452 |
+| Last updated | 2026-07-09 13:39 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
 | Themes | 662 |
-| Grammars | 551 |
-| Language Servers | 512 |
+| Grammars | 553 |
+| Language Servers | 513 |
 | Context Servers | 133 |
 | Snippets | 71 |
 | Slash Commands | 57 |
@@ -70,6 +70,8 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [MiCkEyZzZ/uon-zed](https://github.com/MiCkEyZzZ/uon-zed) | 0 | Поддержка формата данных UON для редактора Zed. |
+| [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | Zed editor support for Carve, a modern light markup language |
 | [golproductions/check-zed](https://github.com/golproductions/check-zed) | 0 | Less hallucinations. GOL Check for Zed: validates shell commands before they run... |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | High-performance, memory-safe, and native async Python MCP server for Zed IDE on... |
 | [atomic-dark/zed](https://github.com/atomic-dark/zed) | 1 | A developer-friendly collection of widely-used syntax themes with OLED support a... |
@@ -88,8 +90,6 @@ cd website && npm install && npm run dev
 | [unicodick/zed-paper](https://github.com/unicodick/zed-paper) | 0 | Paper 1.21.11 plugin development tools for Zed. |
 | [buisson-theme/Buisson](https://github.com/buisson-theme/Buisson) | 5 | An inky botanical color scheme |
 | [aefly/orng](https://github.com/aefly/orng) | 0 | 🍊 Your editor called — it wants more orange. Bold accents, crisp contrast, dark... |
-| [nemeott/sbatch-zed](https://github.com/nemeott/sbatch-zed) | 0 | Zed extension for SBATCH syntax highlighting |
-| [caelyreth/eclat-zed](https://github.com/caelyreth/eclat-zed) | 8 | Immersed in peace and a muted Zed editor theme. |
 
 ## Top starred (under 500)
 
@@ -113,14 +113,16 @@ cd website && npm install && npm run dev
 | [slymax/zedokai](https://github.com/slymax/zedokai) | 145 | a theme for Zed based on the Monokai Pro color scheme |
 | [nathansbradshaw/zed-angular](https://github.com/nathansbradshaw/zed-angular) | 144 |  |
 | [zed-extensions/swift](https://github.com/zed-extensions/swift) | 143 | Extension for Zed to support Swift |
-| [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 143 |  |
+| [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 142 |  |
 | [zed-extensions/csharp](https://github.com/zed-extensions/csharp) | 139 | C# support |
 
 ## Recently active
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 88 | 2026-07-09 | True Dark Theme for Zed IDE |
+| [MiCkEyZzZ/uon-zed](https://github.com/MiCkEyZzZ/uon-zed) | 0 | 2026-07-09 | Поддержка формата данных UON для редактора Zed. |
+| [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-07-09 | Zed editor support for Carve, a modern light markup language |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 87 | 2026-07-09 | True Dark Theme for Zed IDE |
 | [mumez/zed-extension-tonel-smalltalk](https://github.com/mumez/zed-extension-tonel-smalltalk) | 0 | 2026-07-09 | Tonel Smalltalk language extensiotn for Zed |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-07-09 | High-performance, memory-safe, and native async Python MCP s... |
 | [Ben-Wormald/cloudformation-language-server-zed](https://github.com/Ben-Wormald/cloudformation-language-server-zed) | 4 | 2026-07-08 | Zed extension for the AWS CloudFormation language server |
@@ -138,13 +140,12 @@ cd website && npm install && npm run dev
 | [p404/zed-hc-monokai](https://github.com/p404/zed-hc-monokai) | 0 | 2026-07-04 | Zed Theme |
 | [BenjaminHalko/flow-icons-zed](https://github.com/BenjaminHalko/flow-icons-zed) | 27 | 2026-07-02 | 🌼 Flow Icons ported to Zed |
 | [Roter-S/deep-slate-theme](https://github.com/Roter-S/deep-slate-theme) | 0 | 2026-07-02 |  |
-| [flynt-theme/flynt-zed](https://github.com/flynt-theme/flynt-zed) | 1 | 2026-07-02 | Flynt for Zed editor |
-| [unicodick/zed-paper](https://github.com/unicodick/zed-paper) | 0 | 2026-07-02 | Paper 1.21.11 plugin development tools for Zed. |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-07-09T13:39 | 2 | 493 | 1910 |
 | 2026-07-09T08:04 | 0 | 494 | 1908 |
 | 2026-07-09T01:13 | 1 | 492 | 1908 |
 | 2026-07-08T19:05 | 0 | 492 | 1907 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-07-07T19:19 | 1 | 491 | 1906 |
 | 2026-07-07T13:26 | 1 | 490 | 1905 |
 | 2026-07-07T01:18 | 0 | 491 | 1905 |
-| 2026-07-06T19:18 | 2 | 490 | 1905 |
 
 ---
 

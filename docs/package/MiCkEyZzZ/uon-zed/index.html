@@ -1,0 +1,169 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>УОН - Zed Extension Safari</title><meta name="description" content="Поддержка формата данных UON для редактора Zed."><link rel="canonical" href="https://helgesverre.github.io/gh-packages-zed/package/MiCkEyZzZ/uon-zed/"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="УОН - Zed Extension Safari"><meta property="og:description" content="Поддержка формата данных UON для редактора Zed."><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed/package/MiCkEyZzZ/uon-zed/"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="УОН - Zed Extension Safari"><meta name="twitter:description" content="Поддержка формата данных UON для редактора Zed."><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/gh-packages-zed/_astro/ClientRouter.astro_astro_type_script_index_0_lang.ClVLs1kt.js"></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"УОН","description":"Поддержка формата данных UON для редактора Zed.","applicationCategory":"DeveloperApplication","operatingSystem":"macOS, Linux, Windows","url":"https://zed.dev/extensions/uon","codeRepository":"https://github.com/MiCkEyZzZ/uon-zed","author":[{"@type":"Person","name":"УОН разработчики"}],"softwareVersion":"0.1.0","license":"MIT","keywords":"grammar, language-server","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/Layout.CGDlMdWE.css"><script type="module" src="/gh-packages-zed/_astro/page.B8i1Zz-u.js"></script></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <a href="#main" class="skip-to-content">Skip to content</a> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" data-astro-transition-persist="astro-fhchcgd7-1"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <script type="application/json" id="pkg-extras">{"url":"https://github.com/MiCkEyZzZ/uon-zed","language":"Rust","license":"MIT","topics":["data-format","lsp","parser","rust","serialization","syntax-highlighting","tree-sitter","unicode","uon","zed","zed-extension"],"extension":{"authors":["УОН разработчики"],"schema_version":1}}</script> <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> MiCkEyZzZ/uon-zed </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> УОН </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> Поддержка УОН для Zed </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="grammar">Grammar</span><span class="cat-badge" data-cat="language-server">Language Server</span> </div> </div> </div> </header> <main id="main" class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/uon" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/MiCkEyZzZ/uon-zed" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.1.0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">uon</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">Rust</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">MIT</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">43m ago</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">УОН разработчики</dd> </div> </dl>  <h2 class="mt-5 text-xs uppercase font-mono" style="color:var(--zed-muted);">Topics</h2> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> data-format </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> lsp </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> parser </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> rust </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> serialization </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> syntax-highlighting </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> tree-sitter </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> unicode </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> uon </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed-extension </span> </div>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-uon-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#uon-zed"><span class="heading-anchor-icon">#</span></a>uon-zed</h1>
+<p>Расширение для редактора <a href="https://zed.dev">Zed</a>, добавляющее поддержку формата
+данных <strong>УОН</strong> (Универсальная Объектная Нотация / Universal Object Notation).</p>
+<h2 id="user-content-уон--что-это"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#уон--что-это"><span class="heading-anchor-icon">#</span></a>УОН — что это?</h2>
+<p><strong>УОН</strong> — это русскоязычный формат представления структурированных данных,
+вдохновлённый JSON. Ключевые слова и синтаксис ориентированы на русский язык.</p>
+<h3 id="user-content-синтаксис"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#синтаксис"><span class="heading-anchor-icon">#</span></a>Синтаксис</h3>
+<pre><code class="language-uon">{
+  имя: "Вася",
+  возраст: 25,
+  холост: истина,
+  дети: пусто,
+  дата_рождения: 1999-01-15,
+  время_в_пути: 1ч30мин,
+  заметка: /* многострочный
+               комментарий */,
+  // однострочный комментарий
+  адрес: {
+    город: "Москва",
+    индекс: 101000
+  },
+  телефоны: [
+    "+7-900-123-45-67",
+    "+7-901-234-56-78"
+  ]
+}
+</code></pre>
+<h3 id="user-content-поддерживаемые-типы-данных"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#поддерживаемые-типы-данных"><span class="heading-anchor-icon">#</span></a>Поддерживаемые типы данных</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Тип</th><th>Пример</th><th>Описание</th></tr></thead><tbody><tr><td><code>объект</code></td><td><code>{ ключ: значение }</code></td><td>Неупорядоченный набор пар</td></tr><tr><td><code>массив</code></td><td><code>[1, 2, 3]</code></td><td>Упорядоченный список</td></tr><tr><td><code>строка</code></td><td><code>"текст"</code></td><td>Строка в двойных кавычках</td></tr><tr><td><code>число</code></td><td><code>42</code>, <code>3.14</code></td><td>Целое или дробное число</td></tr><tr><td><code>булево</code></td><td><code>истина</code>, <code>ложь</code></td><td>Логические значения</td></tr><tr><td><code>пусто</code></td><td><code>пусто</code></td><td>Отсутствие значения</td></tr><tr><td><code>дата</code></td><td><code>2024-01-15</code></td><td>Дата в формате YYYY-MM-DD</td></tr><tr><td><code>длительность</code></td><td><code>5д12ч30мин</code></td><td>Продолжительность</td></tr></tbody></table>
+<p><strong>Ключи</strong> могут быть строками или идентификаторами (в том числе на кириллице).</p>
+<h3 id="user-content-комментарии"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#комментарии"><span class="heading-anchor-icon">#</span></a>Комментарии</h3>
+<ul>
+<li>Однострочные: <code>// комментарий</code></li>
+<li>Многострочные: <code>/* комментарий */</code></li>
+</ul>
+<h2 id="user-content-возможности-расширения"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#возможности-расширения"><span class="heading-anchor-icon">#</span></a>Возможности расширения</h2>
+<ul>
+<li>✅ <strong>Подсветка синтаксиса</strong> — грамматика Tree-sitter с подсветкой строк, чисел,
+-дат, длительностей, комментариев, пунктуации</li>
+<li>✅ <strong>LSP-интеграция</strong> — поддержка языкового сервера <code>uon-lsp</code> (должен быть
+установлен отдельно)</li>
+<li>✅ <strong>Автоматическое определение</strong> — файлы с расширениями <code>.уон</code> / <code>.uon</code></li>
+</ul>
+<h2 id="user-content-установка"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#установка"><span class="heading-anchor-icon">#</span></a>Установка</h2>
+<h3 id="user-content-через-zed-extensions"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#через-zed-extensions"><span class="heading-anchor-icon">#</span></a>Через Zed Extensions</h3>
+<ol>
+<li>Откройте Zed</li>
+<li>Перейдите в <code>Extensions</code> (палитра команд: <code>extensions: install extension</code>)</li>
+<li>Найдите <strong>УОН</strong></li>
+<li>Нажмите <code>Install</code></li>
+</ol>
+<h3 id="user-content-вручную"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#вручную"><span class="heading-anchor-icon">#</span></a>Вручную</h3>
+<ol>
+<li>Клонируйте репозиторий:
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">git</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> clone</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> https://github.com/MiCkEyZzZ/uon-zed.git</span></span></code></pre>
+</li>
+<li>Соберите расширение:
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> build</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --release</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --target</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> wasm32-wasi</span></span></code></pre>
+</li>
+<li>Скопируйте полученный <code>target/wasm32-wasi/release/uon-zed.wasm</code> в директорию
+расширений Zed.</li>
+</ol>
+<h2 id="user-content-требования"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#требования"><span class="heading-anchor-icon">#</span></a>Требования</h2>
+<ul>
+<li><a href="https://zed.dev">Zed</a> (версия с поддержкой WASM-расширений)</li>
+<li><a href="https://github.com/MiCkEyZzZ/uon-lsp">uon-lsp</a> — языковой сервер (опционально,
+для LSP-функций)</li>
+</ul>
+<p>Установка LSP:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> install</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --path</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> uon-lsp</span></span></code></pre>
+<h2 id="user-content-разработка"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#разработка"><span class="heading-anchor-icon">#</span></a>Разработка</h2>
+<h3 id="user-content-структура-проекта"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#структура-проекта"><span class="heading-anchor-icon">#</span></a>Структура проекта</h3>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span>uon-zed/</span></span>
+<span class="line"><span>├── src/lib.rs              # Точка входа расширения (Rust)</span></span>
+<span class="line"><span>├── languages/uon/          # Конфигурация языка</span></span>
+<span class="line"><span>│   ├── config.toml         # Настройки языка</span></span>
+<span class="line"><span>│   └── highlights.scm      # Правила подсветки синтаксиса</span></span>
+<span class="line"><span>├── grammars/uon/           # Tree-sitter грамматика</span></span>
+<span class="line"><span>│   ├── grammar.js          # Описание грамматики</span></span>
+<span class="line"><span>│   ├── src/parser.c        # Сгенерированный парсер</span></span>
+<span class="line"><span>│   └── tree-sitter.json    # Метаданные грамматики</span></span>
+<span class="line"><span>├── extension.toml          # Манифест расширения</span></span>
+<span class="line"><span>└── Cargo.toml              # Rust-зависимости</span></span></code></pre>
+<h3 id="user-content-сборка"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#сборка"><span class="heading-anchor-icon">#</span></a>Сборка</h3>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> build</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --release</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --target</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> wasm32-wasi</span></span></code></pre>
+<h2 id="user-content-лицензия"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#лицензия"><span class="heading-anchor-icon">#</span></a>Лицензия</h2>
+<p>MIT</p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>
