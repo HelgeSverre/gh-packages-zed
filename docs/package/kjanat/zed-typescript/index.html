@@ -1,0 +1,259 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>TypeScript - Zed Extension Safari</title><meta name="description" content="Runs the TypeScript 7+ language server in Zed."><link rel="canonical" href="https://helgesverre.github.io/gh-packages-zed/package/kjanat/zed-typescript/"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="TypeScript - Zed Extension Safari"><meta property="og:description" content="Runs the TypeScript 7+ language server in Zed."><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed/package/kjanat/zed-typescript/"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="TypeScript - Zed Extension Safari"><meta name="twitter:description" content="Runs the TypeScript 7+ language server in Zed."><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/gh-packages-zed/_astro/ClientRouter.astro_astro_type_script_index_0_lang.ClVLs1kt.js"></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"TypeScript","description":"Runs the TypeScript 7+ language server in Zed.","applicationCategory":"DeveloperApplication","operatingSystem":"macOS, Linux, Windows","url":"https://zed.dev/extensions/typescript","codeRepository":"https://github.com/kjanat/zed-typescript","author":[{"@type":"Person","name":"Kaj Kowalski"}],"softwareVersion":"0.0.1","license":"MIT","keywords":"language-server","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/Layout.CGDlMdWE.css"><script type="module" src="/gh-packages-zed/_astro/page.B8i1Zz-u.js"></script></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <a href="#main" class="skip-to-content">Skip to content</a> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" data-astro-transition-persist="astro-fhchcgd7-1"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <script type="application/json" id="pkg-extras">{"url":"https://github.com/kjanat/zed-typescript","language":"Rust","license":"MIT","topics":["typescript","typescript-7","typescript-native","zed","zed-extension"],"extension":{"authors":["Kaj Kowalski"],"schema_version":1}}</script> <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> kjanat/zed-typescript </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> TypeScript </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> Runs the TypeScript 7+ language server in Zed. </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="language-server">Language Server</span> </div> </div> </div> </header> <main id="main" class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/typescript" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/kjanat/zed-typescript" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.0.1</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">typescript</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">Rust</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">MIT</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">4h ago</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">Kaj Kowalski</dd> </div> </dl>  <h2 class="mt-5 text-xs uppercase font-mono" style="color:var(--zed-muted);">Topics</h2> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> typescript </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> typescript-7 </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> typescript-native </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed-extension </span> </div>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-typescript-for-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#typescript-for-zed"><span class="heading-anchor-icon">#</span></a>TypeScript for Zed</h1>
+<p>Zed extension that runs the <a href="https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/" title="Announcing TypeScript 7.0">TypeScript 7</a> native language server.</p>
+<p>It attaches to Zed's existing JavaScript, JSX, TypeScript, and TSX languages.</p>
+<h2 id="user-content-how-the-server-runs"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#how-the-server-runs"><span class="heading-anchor-icon">#</span></a>How the server runs</h2>
+<p>TypeScript 7's language server is a native executable that ships inside the platform-specific
+<code>@typescript/typescript-&#x3C;platform>-&#x3C;arch></code> npm packages, launched in LSP mode:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">tsc</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --lsp</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --stdio</span></span></code></pre>
+<p>The extension executes that native binary directly when it can locate it next to the resolved
+<code>typescript</code> package (npm/bun hoisted layouts, pnpm on Linux/macOS). Otherwise it falls back to the
+package's <code>bin/tsc</code> Node launcher — Microsoft's own resolution logic — via the worktree's <code>node</code>
+(volta/fnm shims included) or Zed's bundled Node. No Node process stays in the middle on the native
+path.</p>
+<h2 id="user-content-server-resolution"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#server-resolution"><span class="heading-anchor-icon">#</span></a>Server resolution</h2>
+<p>The extension resolves the TypeScript 7+ package to run, preferring the project's own copy:</p>
+<ol>
+<li><code>tsdk.path</code> (explicit, version checked). Accepts the package root, its <code>lib</code> dir (VS Code
+<code>typescript.tsdk</code> convention), a <code>bin/tsc</code> path, or a platform package containing the native
+binary.</li>
+<li>Any dep (dependencies/devDependencies/peerDependencies) in the worktree <code>package.json</code> whose
+version specifier indicates 7+ (including aliases like <code>"@typescript/native"</code>, <code>"typescript-7"</code>,
+or <code>"typescript"</code> aliased via <code>npm:</code>). Verifies the actual installed version is >=7. (Skips
+<code>@typescript/typescript6</code> compat aliases.)</li>
+<li>Otherwise: managed <code>npm install typescript</code> into the extension's own directory (version >=7
+enforced).</li>
+</ol>
+<p>For managed installs, <code>version</code> wins over <code>updateChannel</code>:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Setting</th><th>Install behavior</th></tr></thead><tbody><tr><td><code>version</code></td><td>Install any npm version spec, such as <code>7.0.2</code>, <code>next</code>, or <code>^7.0.0</code>.</td></tr><tr><td><code>updateChannel: "latest"</code></td><td>Install the latest stable <code>typescript</code> package.</td></tr><tr><td><code>updateChannel: "next"</code></td><td>Install <code>typescript@next</code>, matching TypeScript's nightly channel.</td></tr></tbody></table>
+<p>TypeScript 6 and older are rejected — for those, use Zed's built-in TypeScript support instead.</p>
+<h2 id="user-content-settings"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#settings"><span class="heading-anchor-icon">#</span></a>Settings</h2>
+<p>All configuration lives under <code>lsp.typescript</code> in Zed settings. The extension owns a small set of
+launch/install keys; <strong>everything else in <code>settings</code> is forwarded verbatim to the language server</strong>,
+which pulls it via <code>workspace/configuration</code>.</p>
+<h3 id="user-content-extension-owned-settings"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#extension-owned-settings"><span class="heading-anchor-icon">#</span></a>Extension-owned settings</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Setting</th><th>Meaning</th></tr></thead><tbody><tr><td><code>version</code></td><td>npm version spec to install (wins over <code>updateChannel</code>).</td></tr><tr><td><code>updateChannel</code></td><td><code>"latest"</code> or <code>"next"</code>.</td></tr><tr><td><code>tsdk.path</code></td><td>Explicit TypeScript package location (see <a href="#server-resolution">Server resolution</a>).</td></tr><tr><td><code>server.pprofDir</code></td><td>Passes <code>--pprofDir</code> so the server writes pprof CPU/memory profiles there.</td></tr><tr><td><code>server.goMemLimit</code></td><td>Sets <code>GOMEMLIMIT</code> for the server. Integer bytes with optional <code>B</code>/<code>KiB</code>/<code>MiB</code>/<code>GiB</code>/<code>TiB</code> suffix, or <code>off</code>.</td></tr><tr><td><code>server.args</code></td><td>Extra CLI args appended to <code>--lsp --stdio</code> — forwards future server flags without an extension update.</td></tr><tr><td><code>server.env</code></td><td>Extra environment variables for the server process (e.g. <code>GOGC</code>, debug vars).</td></tr></tbody></table>
+<p>Dotted (<code>"server.pprofDir": …</code>) and nested (<code>"server": {"pprofDir": …}</code>) forms are both accepted;
+the nested form wins when both are set.</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "typescript"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "updateChannel"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"next"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "server"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">          "pprofDir"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"./.typescript-pprof"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">          "goMemLimit"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"2048MiB"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">          "env"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"GOGC"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"50"</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">        }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>The current server flag surface in <code>--lsp</code> mode is <code>--stdio</code>, <code>--pipe &#x3C;name></code>, <code>--socket &#x3C;addr></code>,
+and <code>--pprofDir &#x3C;dir></code>; anything new lands via <code>server.args</code>.</p>
+<h3 id="user-content-custom-binary"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#custom-binary"><span class="heading-anchor-icon">#</span></a>Custom binary</h3>
+<p><code>lsp.typescript.binary</code> overrides how the server is launched entirely:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "typescript"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "binary"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">        // a path ending in tsc/tsc.js/tsc.exe is launched as the server itself;</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">        // any other path is treated as a custom node to run the resolved tsc with</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "path"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"/path/to/tsc"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "arguments"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"--lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"--stdio"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">], </span><span style="color:#6A737D;--shiki-dark:#6A737D">// optional: full args override</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "env"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"GOMEMLIMIT"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"4GiB"</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> } </span><span style="color:#6A737D;--shiki-dark:#6A737D">// optional: highest-precedence env</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>Environment precedence, lowest to highest: shell environment, <code>server.env</code>, <code>server.goMemLimit</code>,
+<code>binary.env</code>.</p>
+<h3 id="user-content-language-server-configuration-forwarded"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#language-server-configuration-forwarded"><span class="heading-anchor-icon">#</span></a>Language server configuration (forwarded)</h3>
+<p>The server requests the configuration sections <code>js/ts</code>, <code>typescript</code>, <code>javascript</code>, and <code>editor</code>,
+and merges them with ascending precedence <code>editor</code> → <code>javascript</code> → <code>typescript</code> → <code>js/ts</code>. Put
+those sections directly in <code>settings</code> — they are forwarded to the server:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "typescript"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "typescript"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">          "preferences"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">            "quoteStyle"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"single"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">            "importModuleSpecifier"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"non-relative"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">            "preferTypeOnlyAutoImports"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">true</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">          }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">        }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>Matching Zed's built-in TypeScript support, the extension enables all inlay hint kinds and both code
+lens kinds server-side by default (Zed's own <code>inlay_hints</code> setting still controls whether hints are
+displayed). Your settings deep-merge over these defaults and win at leaf level, so e.g.
+<code>"typescript": {"inlayHints": {"parameterNames": {"enabled": "none"}}}</code> turns one hint kind off
+while the rest keep their defaults.</p>
+<p>VS Code-style dotted keys are also accepted and expanded, so configuration copied from TypeScript
+docs works as-is (nested form wins on conflict):</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "typescript"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "typescript.inlayHints.parameterNames.enabled"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"all"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "js/ts.implicitProjectConfig.checkJs"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">true</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>Option groups the server reads (same names as the VS Code TypeScript settings, minus the
+<code>typescript.</code>/<code>javascript.</code> prefix): <code>inlayHints.*</code>, <code>preferences.*</code> (quote style, auto-imports,
+module specifiers, organize imports), <code>suggest.*</code>, <code>format.*</code>, <code>referencesCodeLens.*</code> /
+<code>implementationsCodeLens.*</code>, <code>validate.*</code>, <code>workspaceSymbols.*</code>, <code>autoClosingTags</code>, and
+<code>implicitProjectConfig.*</code> under <code>js/ts</code>. The authoritative list is <a href="https://github.com/microsoft/typescript-go/blob/168e7015edf98244febc8f4ae450b673b5d195d7/internal/ls/lsutil/userpreferences.go#L37-L193"><code>UserPreferences</code></a> in the server
+source.</p>
+<h3 id="user-content-initialization-options-forwarded"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#initialization-options-forwarded"><span class="heading-anchor-icon">#</span></a>Initialization options (forwarded)</h3>
+<p><code>initialization_options</code> are passed to the server verbatim at <code>initialize</code>.<br>
+Known upstream options (<a href="https://github.com/microsoft/typescript-go/blob/168e7015edf98244febc8f4ae450b673b5d195d7/internal/lsp/lsproto/lsp_generated.go#L8774-L8790"><code>InitializationOptions</code></a>, read in <a href="https://github.com/microsoft/typescript-go/blob/main/internal/lsp/server.go"><code>server.go</code></a>):</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Option</th><th>Upstream meaning</th></tr></thead><tbody><tr><td><code>disablePushDiagnostics</code></td><td>Disable automatic diagnostic pushes.</td></tr><tr><td><code>codeLensShowLocationsCommandName</code></td><td>Client command used by resolved references/implementations CodeLens.</td></tr><tr><td><code>userPreferences</code></td><td>Initial user preferences (same shape as the sections above).</td></tr><tr><td><code>enableTelemetry</code></td><td>Enable server telemetry events.</td></tr><tr><td><code>logVerbosity</code></td><td>Initial server log verbosity.</td></tr></tbody></table>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "typescript"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "initialization_options"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "enableTelemetry"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">false</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "logVerbosity"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">2</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>Preferences set via the configuration sections update live on <code>workspace/didChangeConfiguration</code>;
+<code>initialization_options</code> only apply at server startup.</p>
+<h2 id="user-content-known-limits"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#known-limits"><span class="heading-anchor-icon">#</span></a>Known limits</h2>
+<ul>
+<li>TypeScript 7 has no stable programmatic API yet, so embedded-language workflows (Vue, MDX, Astro,
+Svelte, Angular templates) are not supported by the upstream server.</li>
+<li><code>codeLensShowLocationsCommandName</code> requires client-side command support that Zed extensions cannot
+register; code lenses resolve, but the "show locations" command is editor-dependent.</li>
+</ul>
+<h2 id="user-content-dev-install"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#dev-install"><span class="heading-anchor-icon">#</span></a>Dev Install</h2>
+<p>Prerequisite: Rust installed with <code>rustup</code>.</p>
+<p>In Zed, run <code>zed: install dev extension</code> and select this directory.</p>
+<p>After edits, rebuild from the Extensions page.<br>
+For logs, run Zed with <code>zed --foreground</code> or use <code>zed: open log</code>.</p>
+</article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>
