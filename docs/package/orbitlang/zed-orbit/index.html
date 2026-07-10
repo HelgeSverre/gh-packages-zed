@@ -1,0 +1,166 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Orbit - Zed Extension Safari</title><meta name="description" content="Orbit language syntax highlighting and indentation for Zed"><link rel="canonical" href="https://helgesverre.github.io/gh-packages-zed/package/orbitlang/zed-orbit/"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Orbit - Zed Extension Safari"><meta property="og:description" content="Orbit language syntax highlighting and indentation for Zed"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed/package/orbitlang/zed-orbit/"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Orbit - Zed Extension Safari"><meta name="twitter:description" content="Orbit language syntax highlighting and indentation for Zed"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/gh-packages-zed/_astro/ClientRouter.astro_astro_type_script_index_0_lang.ClVLs1kt.js"></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Orbit","description":"Orbit language syntax highlighting and indentation for Zed","applicationCategory":"DeveloperApplication","operatingSystem":"macOS, Linux, Windows","url":"https://zed.dev/extensions/orbit","codeRepository":"https://github.com/orbitlang/zed-orbit","author":[{"@type":"Person","name":"Orbit Project"}],"softwareVersion":"0.1.0","license":"Apache-2.0","keywords":"grammar","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/Layout.CGDlMdWE.css"><script type="module" src="/gh-packages-zed/_astro/page.B8i1Zz-u.js"></script></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <a href="#main" class="skip-to-content">Skip to content</a> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" data-astro-transition-persist="astro-fhchcgd7-1"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <script type="application/json" id="pkg-extras">{"url":"https://github.com/orbitlang/zed-orbit","language":"Tree-sitter Query","license":"Apache-2.0","topics":["orbit","orbitlang","zed","zed-extension"],"extension":{"authors":["Orbit Project"],"schema_version":1}}</script> <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> orbitlang/zed-orbit </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> Orbit </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> Orbit language syntax highlighting and indentation for Zed </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="grammar">Grammar</span> </div> </div> </div> </header> <main id="main" class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/orbit" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/orbitlang/zed-orbit" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.1.0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">orbit</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">Tree-sitter Query</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">Apache-2.0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">5h ago</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">Orbit Project</dd> </div> </dl>  <h2 class="mt-5 text-xs uppercase font-mono" style="color:var(--zed-muted);">Topics</h2> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> orbit </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> orbitlang </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed-extension </span> </div>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><div align="center">
+<h1 id="user-content-orbit-for-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#orbit-for-zed"><span class="heading-anchor-icon">#</span></a>Orbit for Zed</h1>
+<p><strong>The official <a href="https://zed.dev">Zed</a> extension for the <a href="https://github.com/orbitlang/orbit">Orbit</a> programming language.</strong></p>
+<p><a href="https://zed.dev"><img src="https://img.shields.io/badge/editor-Zed-084CCF" alt="editor: Zed"></a>
+<a href="https://github.com/orbitlang/ts-orbit"><img src="https://img.shields.io/badge/grammar-tree--sitter-green" alt="grammar: tree--sitter"></a>
+<a href="https://github.com/orbitlang/zed-orbit/blob/HEAD/LICENSE" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/license-Apache--2.0-green" alt="license: Apache 2.0"></a></p>
+</div>
+<hr>
+<blockquote>
+<p>⚠️ <strong>Early days.</strong> The extension is functional and tracks the Orbit
+language as it stands today, but both Orbit and this extension are moving
+targets. Expect frequent updates as the language evolves.</p>
+</blockquote>
+<h2 id="user-content-what-is-this"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#what-is-this"><span class="heading-anchor-icon">#</span></a>What is this?</h2>
+<p>This is the official Zed editor extension for <strong>Orbit</strong> programming language.
+It gives <code>.orb</code> files first-class treatment in Zed: syntax highlighting, smart indentation, and
+bracket handling, all driven by a real <a href="https://tree-sitter.github.io/tree-sitter/">tree-sitter</a>
+grammar rather than regex heuristics.</p>
+<p>Because it parses Orbit with the same kind of grammar the language tooling
+itself uses, highlighting stays accurate through the whole surface of the
+language — from atoms and raw strings to decorators, channels, and grouped
+<code>native from</code> FFI blocks.</p>
+<h2 id="user-content-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features"><span class="heading-anchor-icon">#</span></a>Features</h2>
+<ul>
+<li><strong>Full syntax highlighting</strong> — every construct the language currently
+exposes:
+<ul>
+<li>Comments (<code>#</code>, <code>/* … */</code>) and <strong>doc comments</strong> (<code>/** … */</code>)</li>
+<li>All literals — integers (dec/hex/oct/bin, signed &#x26; unsigned), floats,
+chars, strings, <strong>raw</strong> (<code>r"…"</code>) and <strong>bytes</strong> (<code>b"…"</code>) strings, atoms
+(<code>@name</code>), booleans, <code>nil</code></li>
+<li>Declarations — <code>func</code>, <code>class</code>, <code>trait</code>, <code>impl</code>, <code>init</code>/<code>cleanup</code>,
+<code>var</code>/<code>let</code>, <code>native</code></li>
+<li>Control flow — <code>if</code>/<code>elif</code>/<code>else</code>, <code>loop</code>, <code>for … in</code>, <code>switch</code>/<code>case</code>/
+<code>default</code>/<code>fallthrough</code>, <code>break</code>/<code>continue</code>, <code>defer</code>, <code>try</code>/<code>catch</code>/
+<code>finally</code>, <code>sync</code></li>
+<li>Concurrency &#x26; operators — <code>spawn</code>, <code>await</code>, channels (<code>&#x3C;-</code>), pipelines
+(<code>|></code>), null-safety (<code>?.</code>, <code>??</code>, <code>?:</code>), the full operator set</li>
+<li>Visibility &#x26; modifiers — <code>pub</code>, <code>prot</code>, <code>weak</code>, <code>async</code>, <code>const</code></li>
+<li>Built-in types — <code>i8…i64</code>, <code>u8…u64</code>, <code>iSize</code>/<code>uSize</code>, <code>f32</code>/<code>f64</code>, <code>bool</code>,
+<code>byte</code>, <code>ptr</code>, <code>opaque</code>, <code>unit</code></li>
+<li>Decorators (<code>@[ … ]</code>), imports (<code>import</code>/<code>from</code>/<code>as</code>), and FFI declarations
+including the grouped <code>native from "lib" { … }</code> form</li>
+</ul>
+</li>
+<li><strong>Smart indentation</strong> — automatic indent/outdent for blocks, <code>switch</code> bodies,
+parameter and argument lists, list/set/dict literals, and <code>native</code> blocks.</li>
+<li><strong>Bracket matching &#x26; auto-close</strong> — for <code>{}</code>, <code>[]</code>, <code>()</code>.</li>
+<li><strong>Comment toggling</strong> — line (<code>#</code>) and block (<code>/* */</code>) comments.</li>
+</ul>
+<h2 id="user-content-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation"><span class="heading-anchor-icon">#</span></a>Installation</h2>
+<p>Orbit is not yet in the Zed extension registry, so install it as a <strong>dev
+extension</strong>:</p>
+<ol>
+<li>Clone this repository.</li>
+<li>In Zed, open the command palette and run <strong><code>zed: install dev extension</code></strong>.</li>
+<li>Select the cloned <code>zed-orbit</code> directory.</li>
+</ol>
+<p>Zed compiles the tree-sitter grammar to WebAssembly on install (this downloads
+a small toolchain the first time). Once done, any <code>.orb</code> file is recognised as
+<strong>Orbit</strong> automatically.</p>
+<h2 id="user-content-what-it-does-not-do-yet"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#what-it-does-not-do-yet"><span class="heading-anchor-icon">#</span></a>What it does <em>not</em> do (yet)</h2>
+<p>Highlighting and indentation are provided directly by this extension. Richer
+editor features depend on tooling that Orbit does not ship yet:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Feature</th><th>Status</th></tr></thead><tbody><tr><td>Syntax highlighting</td><td>✅</td></tr><tr><td>Auto-indent / bracket handling</td><td>✅</td></tr><tr><td><strong>Format Document</strong></td><td>❌ Needs an external formatter or an LSP</td></tr><tr><td>Autocomplete, diagnostics, go-to-definition</td><td>❌ Needs an Orbit language server</td></tr></tbody></table>
+<p>These will land as the Orbit toolchain grows a formatter and language server.</p>
+<h2 id="user-content-how-its-built"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#how-its-built"><span class="heading-anchor-icon">#</span></a>How it's built</h2>
+<p>The extension is a thin Zed package around a dedicated tree-sitter grammar:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Piece</th><th>Where</th></tr></thead><tbody><tr><td>Extension manifest</td><td><a href="https://github.com/orbitlang/zed-orbit/blob/HEAD/extension.toml" target="_blank" rel="noopener"><code>extension.toml</code></a></td></tr><tr><td>Language config (<code>.orb</code>, comments, brackets)</td><td><a href="https://github.com/orbitlang/zed-orbit/blob/HEAD/languages/orbit/config.toml" target="_blank" rel="noopener"><code>languages/orbit/config.toml</code></a></td></tr><tr><td>Highlighting / indent / bracket queries</td><td><a href="https://github.com/orbitlang/zed-orbit/blob/HEAD/languages/orbit/" target="_blank" rel="noopener"><code>languages/orbit/*.scm</code></a></td></tr><tr><td><strong>The grammar itself</strong></td><td><a href="https://github.com/orbitlang/ts-orbit"><code>orbitlang/ts-orbit</code></a></td></tr></tbody></table>
+<p><code>extension.toml</code> pins an exact commit of the grammar repository; Zed clones and
+compiles that commit at install time. See the grammar repo for how the parser
+is defined and regenerated.</p>
+<h2 id="user-content-project-status"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#project-status"><span class="heading-anchor-icon">#</span></a>Project status</h2>
+<p>The extension mirrors the Orbit language, which is in active alpha. As Orbit's
+syntax moves, the grammar and these queries are updated to match. If you hit a
+construct that isn't highlighted or indented correctly, it's most likely a
+grammar gap worth reporting.</p>
+<h2 id="user-content-maintenance"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#maintenance"><span class="heading-anchor-icon">#</span></a>Maintenance</h2>
+<p>This extension is <strong>fully AI-managed</strong>: the tree-sitter grammar, the Zed
+queries, and this documentation are authored and kept in sync with the Orbit
+language by an AI workflow. It aims to support every feature the language
+currently offers, and to follow along as new ones land.</p>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>Licensed under the <strong>Apache License 2.0</strong>. See <a href="https://github.com/orbitlang/zed-orbit/blob/HEAD/LICENSE" target="_blank" rel="noopener">LICENSE</a>.</p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>

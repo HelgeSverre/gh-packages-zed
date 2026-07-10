@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1587-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1588-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,17 +14,17 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1587** |
+| Total tracked | **1588** |
 | In official registry | 1135 |
-| Discovered via topics | 452 |
-| Last updated | 2026-07-09 19:12 UTC |
+| Discovered via topics | 453 |
+| Last updated | 2026-07-10 01:13 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
 | Themes | 662 |
-| Grammars | 553 |
+| Grammars | 554 |
 | Language Servers | 513 |
 | Context Servers | 133 |
 | Snippets | 71 |
@@ -70,6 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [orbitlang/zed-orbit](https://github.com/orbitlang/zed-orbit) | 0 |  |
 | [MiCkEyZzZ/uon-zed](https://github.com/MiCkEyZzZ/uon-zed) | 0 | Поддержка формата данных UON для редактора Zed. |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | Zed editor support for Carve, a modern light markup language |
 | [golproductions/check-zed](https://github.com/golproductions/check-zed) | 0 | Less hallucinations. GOL Check for Zed: validates shell commands before they run... |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [roxo-theme/zed](https://github.com/roxo-theme/zed) | 0 | Roxo theme for zed IDE |
 | [unicodick/zed-paper](https://github.com/unicodick/zed-paper) | 0 | Paper 1.21.11 plugin development tools for Zed. |
 | [buisson-theme/Buisson](https://github.com/buisson-theme/Buisson) | 5 | An inky botanical color scheme |
-| [aefly/orng](https://github.com/aefly/orng) | 0 | 🍊 Your editor called — it wants more orange. Bold accents, crisp contrast, dark... |
 
 ## Top starred (under 500)
 
@@ -111,8 +111,8 @@ cd website && npm install && npm run dev
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 156 | 🦊 Zed editor theme ported from Neovim |
 | [thedadams/zed-comment](https://github.com/thedadams/zed-comment) | 148 | A comment extension for the Zed editor |
 | [slymax/zedokai](https://github.com/slymax/zedokai) | 145 | a theme for Zed based on the Monokai Pro color scheme |
+| [zed-extensions/swift](https://github.com/zed-extensions/swift) | 144 | Extension for Zed to support Swift |
 | [nathansbradshaw/zed-angular](https://github.com/nathansbradshaw/zed-angular) | 144 |  |
-| [zed-extensions/swift](https://github.com/zed-extensions/swift) | 143 | Extension for Zed to support Swift |
 | [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 142 |  |
 | [zed-extensions/csharp](https://github.com/zed-extensions/csharp) | 139 | C# support |
 
@@ -120,7 +120,9 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [BenjaminHalko/flow-icons-zed](https://github.com/BenjaminHalko/flow-icons-zed) | 26 | 2026-07-09 | 🌼 Flow Icons ported to Zed |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-07-09 | High-performance, memory-safe, and native async Python MCP s... |
+| [orbitlang/zed-orbit](https://github.com/orbitlang/zed-orbit) | 0 | 2026-07-09 |  |
 | [vitallium/zed-stimulus](https://github.com/vitallium/zed-stimulus) | 20 | 2026-07-09 | Stimulus LSP support for Zed |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 156 | 2026-07-09 | 🦊 Zed editor theme ported from Neovim |
 | [MiCkEyZzZ/uon-zed](https://github.com/MiCkEyZzZ/uon-zed) | 0 | 2026-07-09 | Поддержка формата данных UON для редактора Zed. |
@@ -138,13 +140,12 @@ cd website && npm install && npm run dev
 | [hadez8877/one-dark-pro-enhanced](https://github.com/hadez8877/one-dark-pro-enhanced) | 6 | 2026-07-06 | The most installed theme in Visual Studio Code modified for ... |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 130 | 2026-07-06 | The Ruby language support for Zed editor |
 | [MaraniMatias/zed-minimax-proxy](https://github.com/MaraniMatias/zed-minimax-proxy) | 0 | 2026-07-05 | Use MiniMax as Zed completion |
-| [livrasand/codetrackr-zed](https://github.com/livrasand/codetrackr-zed) | 0 | 2026-07-04 | Zed plugin for automatic time tracking and metrics generated... |
-| [buisson-theme/Buisson](https://github.com/buisson-theme/Buisson) | 5 | 2026-07-04 | An inky botanical color scheme |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-07-10T01:13 | 1 | 495 | 1911 |
 | 2026-07-09T19:12 | 0 | 495 | 1910 |
 | 2026-07-09T13:39 | 2 | 493 | 1910 |
 | 2026-07-09T08:04 | 0 | 494 | 1908 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-07-08T07:32 | 1 | 492 | 1907 |
 | 2026-07-08T01:11 | 0 | 492 | 1906 |
 | 2026-07-07T19:19 | 1 | 491 | 1906 |
-| 2026-07-07T13:26 | 1 | 490 | 1905 |
 
 ---
 

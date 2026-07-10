@@ -1,0 +1,12 @@
+id = "orbit"
+name = "Orbit"
+version = "0.1.0"
+schema_version = 1
+authors = ["Orbit Project"]
+description = "Orbit language syntax highlighting and indentation for Zed"
+repository = "https://github.com/orbitlang/zed-orbit"
+
+[grammars.orbit]
+repository = "https://github.com/orbitlang/ts-orbit"
+commit = "b5b10bf6eb0b39ec805a8e74f164dfa32e9f5aca"  # ts-orbit v0.1.0
+
