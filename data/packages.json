@@ -2413,7 +2413,7 @@
     "name": "huacnlee/zed-extension-action",
     "url": "https://github.com/huacnlee/zed-extension-action",
     "description": "GitHub Action for automatically bump Zed Extensions version after a release.",
-    "stars": 37,
+    "stars": 38,
     "forks": 2,
     "topics": [
       "github-action",
@@ -2422,7 +2422,7 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2024-02-20T06:05:54Z",
-    "updated_at": "2026-07-02T02:34:30Z",
+    "updated_at": "2026-07-10T08:15:16Z",
     "pushed_at": "2026-03-17T01:53:21Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
@@ -5478,7 +5478,7 @@
     "name": "sonercirit/zed-windows-stable",
     "url": "https://github.com/sonercirit/zed-windows-stable",
     "description": "automated windows builds for Zed code editor, built from source, stable channel",
-    "stars": 232,
+    "stars": 233,
     "forks": 10,
     "topics": [
       "code-editor",
@@ -5491,7 +5491,7 @@
     "language": "PowerShell",
     "license": null,
     "created_at": "2024-08-14T22:46:54Z",
-    "updated_at": "2026-07-10T01:13:42Z",
+    "updated_at": "2026-07-10T10:27:50Z",
     "pushed_at": "2026-07-10T01:13:37Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
@@ -6042,7 +6042,7 @@
     "name": "GCaggianese/zed-fuzzel-filepicker",
     "url": "https://github.com/GCaggianese/zed-fuzzel-filepicker",
     "description": "A recursive fuzzy file picker for Zed editor using Fuzzel, inspired by Emacs' dired navigation.",
-    "stars": 1,
+    "stars": 2,
     "forks": 0,
     "topics": [
       "dired",
@@ -6057,7 +6057,7 @@
     "language": "Shell",
     "license": "Apache-2.0",
     "created_at": "2025-12-27T02:29:49Z",
-    "updated_at": "2025-12-27T03:08:55Z",
+    "updated_at": "2026-07-10T09:07:45Z",
     "pushed_at": "2025-12-27T03:07:26Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
@@ -18180,8 +18180,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-07-10T01:14:20Z",
-    "pushed_at": "2026-07-10T01:14:16Z",
+    "updated_at": "2026-07-10T07:55:07Z",
+    "pushed_at": "2026-07-10T07:54:45Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -32338,6 +32338,30 @@
     "updated_at": "2026-07-10T07:09:09Z",
     "pushed_at": "2026-07-08T12:12:28Z",
     "discovered_at": "2026-07-10T07:54:10.331Z",
+    "official": false
+  },
+  "hyyan/zed-test-coverage-highlight": {
+    "name": "hyyan/zed-test-coverage-highlight",
+    "url": "https://github.com/hyyan/zed-test-coverage-highlight",
+    "description": "Zed extension that highlights test coverage in the editor. Renders lcov, JaCoCo, Cobertura and Clover reports as colored lines, with a coverage code lens and hover.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "clover",
+      "cobertura",
+      "code-coverage",
+      "jacoco",
+      "lcov",
+      "lsp",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "TypeScript",
+    "license": "MIT",
+    "created_at": "2026-07-10T08:40:40Z",
+    "updated_at": "2026-07-10T09:36:20Z",
+    "pushed_at": "2026-07-10T09:36:03Z",
+    "discovered_at": "2026-07-10T13:22:23.420Z",
     "official": false
   }
 }
