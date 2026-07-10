@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1590** |
 | In official registry | 1135 |
 | Discovered via topics | 455 |
-| Last updated | 2026-07-10 13:22 UTC |
+| Last updated | 2026-07-10 19:09 UTC |
 
 ### By capability
 
@@ -111,20 +111,21 @@ cd website && npm install && npm run dev
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 156 | 🦊 Zed editor theme ported from Neovim |
 | [thedadams/zed-comment](https://github.com/thedadams/zed-comment) | 148 | A comment extension for the Zed editor |
 | [slymax/zedokai](https://github.com/slymax/zedokai) | 145 | a theme for Zed based on the Monokai Pro color scheme |
-| [zed-extensions/swift](https://github.com/zed-extensions/swift) | 144 | Extension for Zed to support Swift |
 | [nathansbradshaw/zed-angular](https://github.com/nathansbradshaw/zed-angular) | 144 |  |
-| [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 142 |  |
+| [zed-extensions/swift](https://github.com/zed-extensions/swift) | 143 | Extension for Zed to support Swift |
+| [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 143 |  |
 | [zed-extensions/csharp](https://github.com/zed-extensions/csharp) | 139 | C# support |
 
 ## Recently active
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [felixtensor/zed-mlir-suite](https://github.com/felixtensor/zed-mlir-suite) | 2 | 2026-07-10 | The MLIR extension for Zed. |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 87 | 2026-07-10 | True Dark Theme for Zed IDE |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-07-10 | High-performance, memory-safe, and native async Python MCP s... |
 | [kjanat/zed-typescript](https://github.com/kjanat/zed-typescript) | 0 | 2026-07-10 | Runs the TypeScript 7+ language server in Zed. |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 200 | 2026-07-10 | Zed plugin for automatic time tracking and metrics generated... |
-| [BenjaminHalko/flow-icons-zed](https://github.com/BenjaminHalko/flow-icons-zed) | 26 | 2026-07-09 | 🌼 Flow Icons ported to Zed |
+| [BenjaminHalko/flow-icons-zed](https://github.com/BenjaminHalko/flow-icons-zed) | 27 | 2026-07-09 | 🌼 Flow Icons ported to Zed |
 | [orbitlang/zed-orbit](https://github.com/orbitlang/zed-orbit) | 0 | 2026-07-09 |  |
 | [vitallium/zed-stimulus](https://github.com/vitallium/zed-stimulus) | 20 | 2026-07-09 | Stimulus LSP support for Zed |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 156 | 2026-07-09 | 🦊 Zed editor theme ported from Neovim |
@@ -132,7 +133,6 @@ cd website && npm install && npm run dev
 | [pataruco/zed-mjml](https://github.com/pataruco/zed-mjml) | 2 | 2026-07-09 | MJML syntax support for Zed |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-07-09 | Zed editor support for Carve, a modern light markup language |
 | [mumez/zed-extension-tonel-smalltalk](https://github.com/mumez/zed-extension-tonel-smalltalk) | 0 | 2026-07-09 | Tonel Smalltalk language extensiotn for Zed |
-| [felixtensor/zed-mlir-suite](https://github.com/felixtensor/zed-mlir-suite) | 2 | 2026-07-08 | The MLIR extension for Zed. |
 | [Ben-Wormald/cloudformation-language-server-zed](https://github.com/Ben-Wormald/cloudformation-language-server-zed) | 4 | 2026-07-08 | Zed extension for the AWS CloudFormation language server |
 | [golproductions/check-zed](https://github.com/golproductions/check-zed) | 0 | 2026-07-08 | Less hallucinations. GOL Check for Zed: validates shell comm... |
 | [eallender/zed-python-autodoc](https://github.com/eallender/zed-python-autodoc) | 4 | 2026-07-07 | Zed extension for python auto-documentation |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-07-10T19:09 | 0 | 459 | 1914 |
 | 2026-07-10T13:22 | 1 | 498 | 1914 |
 | 2026-07-10T07:54 | 2 | 496 | 1913 |
 | 2026-07-10T01:13 | 1 | 495 | 1911 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-07-09T01:13 | 1 | 492 | 1908 |
 | 2026-07-08T19:05 | 0 | 492 | 1907 |
 | 2026-07-08T13:14 | 0 | 493 | 1907 |
-| 2026-07-08T07:32 | 1 | 492 | 1907 |
 
 ---
 
