@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1590** |
 | In official registry | 1135 |
 | Discovered via topics | 455 |
-| Last updated | 2026-07-11 01:10 UTC |
+| Last updated | 2026-07-11 07:22 UTC |
 
 ### By capability
 
@@ -120,12 +120,12 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-07-11 | High-performance, memory-safe, and native async Python MCP s... |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 87 | 2026-07-11 | True Dark Theme for Zed IDE |
+| [BenjaminHalko/flow-icons-zed](https://github.com/BenjaminHalko/flow-icons-zed) | 27 | 2026-07-11 | 🌼 Flow Icons ported to Zed |
 | [felixtensor/zed-mlir-suite](https://github.com/felixtensor/zed-mlir-suite) | 2 | 2026-07-10 | The MLIR extension for Zed. |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 87 | 2026-07-10 | True Dark Theme for Zed IDE |
-| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-07-10 | High-performance, memory-safe, and native async Python MCP s... |
 | [kjanat/zed-typescript](https://github.com/kjanat/zed-typescript) | 0 | 2026-07-10 | Runs the TypeScript 7+ language server in Zed. |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 200 | 2026-07-10 | Zed plugin for automatic time tracking and metrics generated... |
-| [BenjaminHalko/flow-icons-zed](https://github.com/BenjaminHalko/flow-icons-zed) | 27 | 2026-07-09 | 🌼 Flow Icons ported to Zed |
 | [orbitlang/zed-orbit](https://github.com/orbitlang/zed-orbit) | 0 | 2026-07-09 |  |
 | [vitallium/zed-stimulus](https://github.com/vitallium/zed-stimulus) | 20 | 2026-07-09 | Stimulus LSP support for Zed |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 156 | 2026-07-09 | 🦊 Zed editor theme ported from Neovim |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-07-11T07:22 | 0 | 498 | 1914 |
 | 2026-07-11T01:10 | 0 | 498 | 1914 |
 | 2026-07-10T19:09 | 0 | 459 | 1914 |
 | 2026-07-10T13:22 | 1 | 498 | 1914 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-07-09T13:39 | 2 | 493 | 1910 |
 | 2026-07-09T08:04 | 0 | 494 | 1908 |
 | 2026-07-09T01:13 | 1 | 492 | 1908 |
-| 2026-07-08T19:05 | 0 | 492 | 1907 |
 
 ---
 
