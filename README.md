@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1594** |
 | In official registry | 1135 |
 | Discovered via topics | 459 |
-| Last updated | 2026-07-11 13:05 UTC |
+| Last updated | 2026-07-11 19:03 UTC |
 
 ### By capability
 
@@ -121,7 +121,10 @@ cd website && npm install && npm run dev
 | Package | Stars | Last push | Description |
 |---|---|---|---|
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-07-11 | High-performance, memory-safe, and native async Python MCP s... |
+| [emirror-de/clearsight-zed](https://github.com/emirror-de/clearsight-zed) | 0 | 2026-07-11 | A scientifically-backed, accessibility-focused theme optimiz... |
+| [MahoCommerce/zed](https://github.com/MahoCommerce/zed) | 1 | 2026-07-11 | Maho extension for Zed. |
 | [MiCkEyZzZ/uon-zed](https://github.com/MiCkEyZzZ/uon-zed) | 0 | 2026-07-11 | Поддержка формата данных UON для редактора Zed. |
+| [golproductions/check-zed](https://github.com/golproductions/check-zed) | 0 | 2026-07-11 | Less hallucinations. GOL Check for Zed: validates shell comm... |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-07-11 | Zed editor support for Carve, a modern light markup language |
 | [felixtensor/zed-mlir-suite](https://github.com/felixtensor/zed-mlir-suite) | 2 | 2026-07-11 | The MLIR extension for Zed. |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 87 | 2026-07-11 | True Dark Theme for Zed IDE |
@@ -134,17 +137,15 @@ cd website && npm install && npm run dev
 | [pataruco/zed-mjml](https://github.com/pataruco/zed-mjml) | 3 | 2026-07-09 | MJML syntax support for Zed |
 | [mumez/zed-extension-tonel-smalltalk](https://github.com/mumez/zed-extension-tonel-smalltalk) | 0 | 2026-07-09 | Tonel Smalltalk language extensiotn for Zed |
 | [Ben-Wormald/cloudformation-language-server-zed](https://github.com/Ben-Wormald/cloudformation-language-server-zed) | 4 | 2026-07-08 | Zed extension for the AWS CloudFormation language server |
-| [golproductions/check-zed](https://github.com/golproductions/check-zed) | 0 | 2026-07-08 | Less hallucinations. GOL Check for Zed: validates shell comm... |
 | [eallender/zed-python-autodoc](https://github.com/eallender/zed-python-autodoc) | 4 | 2026-07-07 | Zed extension for python auto-documentation |
 | [pranavmangal/zed-ssh-config](https://github.com/pranavmangal/zed-ssh-config) | 2 | 2026-07-07 | A Zed extension that provides syntax highlighting for SSH co... |
 | [ChemisTechlabs/zed-pascal](https://github.com/ChemisTechlabs/zed-pascal) | 15 | 2026-07-07 | A Pascal language extension for Zed Editor |
-| [ChemisTechlabs/zed-firebase-security-rules](https://github.com/ChemisTechlabs/zed-firebase-security-rules) | 3 | 2026-07-07 | A Firebase Security Rules language syntax highlight extensio... |
-| [hadez8877/one-dark-pro-enhanced](https://github.com/hadez8877/one-dark-pro-enhanced) | 6 | 2026-07-06 | The most installed theme in Visual Studio Code modified for ... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-07-11T19:03 | 0 | 498 | 1918 |
 | 2026-07-11T13:05 | 4 | 494 | 1918 |
 | 2026-07-11T07:22 | 0 | 498 | 1914 |
 | 2026-07-11T01:10 | 0 | 498 | 1914 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-07-10T01:13 | 1 | 495 | 1911 |
 | 2026-07-09T19:12 | 0 | 495 | 1910 |
 | 2026-07-09T13:39 | 2 | 493 | 1910 |
-| 2026-07-09T08:04 | 0 | 494 | 1908 |
 
 ---
 

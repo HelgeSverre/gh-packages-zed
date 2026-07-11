@@ -419,11 +419,11 @@
       "zed",
       "zed-extension"
     ],
-    "language": "HTML",
+    "language": "Rust",
     "license": "MIT",
     "created_at": "2025-12-13T09:32:42Z",
-    "updated_at": "2026-07-11T12:59:07Z",
-    "pushed_at": "2026-07-11T13:04:13Z",
+    "updated_at": "2026-07-11T14:17:53Z",
+    "pushed_at": "2026-07-11T14:21:52Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -1705,7 +1705,7 @@
     "license": "MIT",
     "created_at": "2026-04-04T17:17:24Z",
     "updated_at": "2026-06-13T09:50:45Z",
-    "pushed_at": "2026-06-13T09:50:45Z",
+    "pushed_at": "2026-07-11T16:26:47Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -3294,8 +3294,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2025-08-29T18:11:57Z",
-    "updated_at": "2026-01-27T21:53:45Z",
-    "pushed_at": "2026-05-19T21:58:23Z",
+    "updated_at": "2026-07-11T16:53:02Z",
+    "pushed_at": "2026-07-11T16:52:59Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -5328,7 +5328,7 @@
     "language": "Rust",
     "license": null,
     "created_at": "2026-04-09T10:00:15Z",
-    "updated_at": "2026-07-06T07:33:13Z",
+    "updated_at": "2026-07-11T13:39:38Z",
     "pushed_at": "2026-04-10T16:03:44Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
@@ -5337,7 +5337,7 @@
     "name": "Dylanmurzello/zed-android-port",
     "url": "https://github.com/Dylanmurzello/zed-android-port",
     "description": "Native Android port of the Zed code editor,  gpui rendering through Vulkan, integrated Termux for LSPs and tooling, remote SSH support. Runs as an APK on tablets and Android desktop modes.",
-    "stars": 128,
+    "stars": 129,
     "forks": 10,
     "topics": [
       "android",
@@ -5364,7 +5364,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-05-07T00:12:10Z",
-    "updated_at": "2026-07-10T06:42:52Z",
+    "updated_at": "2026-07-11T18:58:07Z",
     "pushed_at": "2026-06-05T21:34:45Z",
     "discovered_at": "2026-05-19T19:54:12.053Z",
     "official": false
@@ -5580,7 +5580,7 @@
     "name": "alanisme/vscode-themes-for-zed",
     "url": "https://github.com/alanisme/vscode-themes-for-zed",
     "description": "❤️ All 19 built-in Visual Studio Code color themes, ported to Zed.",
-    "stars": 16,
+    "stars": 17,
     "forks": 0,
     "topics": [
       "color-theme",
@@ -5594,7 +5594,7 @@
     "language": "TypeScript",
     "license": "MIT",
     "created_at": "2026-03-09T00:14:00Z",
-    "updated_at": "2026-07-03T20:15:43Z",
+    "updated_at": "2026-07-11T17:41:29Z",
     "pushed_at": "2026-06-29T15:33:19Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": true
@@ -18180,8 +18180,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-07-11T07:22:39Z",
-    "pushed_at": "2026-07-11T07:22:32Z",
+    "updated_at": "2026-07-11T13:06:37Z",
+    "pushed_at": "2026-07-11T13:06:30Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -32179,8 +32179,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
-    "updated_at": "2026-07-11T13:04:33Z",
-    "pushed_at": "2026-07-11T13:04:28Z",
+    "updated_at": "2026-07-11T19:01:35Z",
+    "pushed_at": "2026-07-11T19:01:29Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false
   },
@@ -32201,8 +32201,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-06-22T07:26:07Z",
-    "updated_at": "2026-07-08T04:47:13Z",
-    "pushed_at": "2026-07-08T04:47:09Z",
+    "updated_at": "2026-07-11T13:12:01Z",
+    "pushed_at": "2026-07-11T13:11:54Z",
     "discovered_at": "2026-07-08T07:32:55.376Z",
     "official": false
   },
@@ -32252,8 +32252,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-07-09T08:54:12Z",
-    "updated_at": "2026-07-11T13:02:17Z",
-    "pushed_at": "2026-07-11T13:02:10Z",
+    "updated_at": "2026-07-11T13:55:04Z",
+    "pushed_at": "2026-07-11T13:55:00Z",
     "discovered_at": "2026-07-09T13:39:01.645Z",
     "official": false
   },
