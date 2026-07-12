@@ -203,7 +203,7 @@
     "name": "wakatime/zed-wakatime",
     "url": "https://github.com/wakatime/zed-wakatime",
     "description": "Zed plugin for automatic time tracking and metrics generated from your programming activity.",
-    "stars": 201,
+    "stars": 202,
     "forks": 28,
     "topics": [
       "extension",
@@ -215,7 +215,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2024-08-27T10:31:46Z",
-    "updated_at": "2026-07-11T21:30:06Z",
+    "updated_at": "2026-07-12T17:40:02Z",
     "pushed_at": "2026-07-10T02:09:59Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -1710,7 +1710,7 @@
     "name": "rami-shalhoub/comment-blocks-zed",
     "url": "https://github.com/rami-shalhoub/comment-blocks-zed",
     "description": "this extension provide comment snippets to add descriptive heards",
-    "stars": 1,
+    "stars": 2,
     "forks": 0,
     "topics": [
       "comments",
@@ -1719,7 +1719,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-04-24T11:24:26Z",
-    "updated_at": "2026-05-23T16:10:20Z",
+    "updated_at": "2026-07-12T18:49:25Z",
     "pushed_at": "2026-04-28T22:24:00Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -2556,8 +2556,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-04-04T17:17:24Z",
-    "updated_at": "2026-06-13T09:50:45Z",
-    "pushed_at": "2026-07-11T16:26:47Z",
+    "updated_at": "2026-07-12T16:35:33Z",
+    "pushed_at": "2026-07-12T16:35:43Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -54066,8 +54066,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
-    "updated_at": "2026-07-12T09:34:25Z",
-    "pushed_at": "2026-07-12T09:34:19Z",
+    "updated_at": "2026-07-12T16:32:06Z",
+    "pushed_at": "2026-07-12T16:32:01Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false,
     "extension": {
@@ -54474,6 +54474,43 @@
         "Swaylen Hayes <swaylenhayes@gmail.com>"
       ],
       "repository": "https://github.com/swaylenhayes/filo-leche",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "0xdea/monokaiju-theme": {
+    "name": "0xdea/monokaiju-theme",
+    "url": "https://github.com/0xdea/monokaiju-theme",
+    "description": "A Zed theme inspired by Monokai Pro (CE).",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "color-scheme",
+      "monokai",
+      "monokai-pro",
+      "zed",
+      "zed-theme"
+    ],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-07-12T14:12:48Z",
+    "updated_at": "2026-07-12T15:25:14Z",
+    "pushed_at": "2026-07-12T15:25:08Z",
+    "discovered_at": "2026-07-12T19:03:27.403Z",
+    "official": false,
+    "extension": {
+      "id": "monokaiju-theme",
+      "name": "Monokaiju",
+      "description": "A Zed theme inspired by Monokai Pro (CE).",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Marco Ivaldi <raptor@0xdeadbeef.info>"
+      ],
+      "repository": "https://github.com/0xdea/monokaiju-theme",
       "snippets": null,
       "sections": [],
       "categories": [
