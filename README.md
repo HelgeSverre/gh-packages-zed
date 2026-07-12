@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1594** |
 | In official registry | 1135 |
 | Discovered via topics | 459 |
-| Last updated | 2026-07-11 19:03 UTC |
+| Last updated | 2026-07-12 01:12 UTC |
 
 ### By capability
 
@@ -101,7 +101,7 @@ cd website && npm install && npm run dev
 | [oxc-project/oxc-zed](https://github.com/oxc-project/oxc-zed) | 256 | Oxc extension for Zed |
 | [catppuccin/zed-icons](https://github.com/catppuccin/zed-icons) | 240 | 🦊 Soothing pastel icons for Zed |
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 200 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 201 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
 | [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 188 | Zed support for the Godot game engine and the GDScript language |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
@@ -120,17 +120,17 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-07-11 | High-performance, memory-safe, and native async Python MCP s... |
+| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-07-12 | High-performance, memory-safe, and native async Python MCP s... |
+| [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-07-11 | Zed editor support for Carve, a modern light markup language |
 | [emirror-de/clearsight-zed](https://github.com/emirror-de/clearsight-zed) | 0 | 2026-07-11 | A scientifically-backed, accessibility-focused theme optimiz... |
 | [MahoCommerce/zed](https://github.com/MahoCommerce/zed) | 1 | 2026-07-11 | Maho extension for Zed. |
 | [MiCkEyZzZ/uon-zed](https://github.com/MiCkEyZzZ/uon-zed) | 0 | 2026-07-11 | Поддержка формата данных UON для редактора Zed. |
 | [golproductions/check-zed](https://github.com/golproductions/check-zed) | 0 | 2026-07-11 | Less hallucinations. GOL Check for Zed: validates shell comm... |
-| [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-07-11 | Zed editor support for Carve, a modern light markup language |
 | [felixtensor/zed-mlir-suite](https://github.com/felixtensor/zed-mlir-suite) | 2 | 2026-07-11 | The MLIR extension for Zed. |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 87 | 2026-07-11 | True Dark Theme for Zed IDE |
 | [BenjaminHalko/flow-icons-zed](https://github.com/BenjaminHalko/flow-icons-zed) | 27 | 2026-07-11 | 🌼 Flow Icons ported to Zed |
 | [kjanat/zed-typescript](https://github.com/kjanat/zed-typescript) | 0 | 2026-07-10 | Runs the TypeScript 7+ language server in Zed. |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 200 | 2026-07-10 | Zed plugin for automatic time tracking and metrics generated... |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 201 | 2026-07-10 | Zed plugin for automatic time tracking and metrics generated... |
 | [orbitlang/zed-orbit](https://github.com/orbitlang/zed-orbit) | 0 | 2026-07-09 |  |
 | [vitallium/zed-stimulus](https://github.com/vitallium/zed-stimulus) | 20 | 2026-07-09 | Stimulus LSP support for Zed |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 157 | 2026-07-09 | 🦊 Zed editor theme ported from Neovim |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-07-12T01:12 | 0 | 498 | 1918 |
 | 2026-07-11T19:03 | 0 | 498 | 1918 |
 | 2026-07-11T13:05 | 4 | 494 | 1918 |
 | 2026-07-11T07:22 | 0 | 498 | 1914 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-07-10T07:54 | 2 | 496 | 1913 |
 | 2026-07-10T01:13 | 1 | 495 | 1911 |
 | 2026-07-09T19:12 | 0 | 495 | 1910 |
-| 2026-07-09T13:39 | 2 | 493 | 1910 |
 
 ---
 
