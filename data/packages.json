@@ -600,7 +600,7 @@
   "rux-lang/zed": {
     "name": "rux-lang/Zed",
     "url": "https://github.com/rux-lang/Zed",
-    "description": "Zed extension for Rux programming language",
+    "description": "Zed extension for the Rux programming language",
     "stars": 4,
     "forks": 0,
     "topics": [
@@ -611,7 +611,7 @@
     "language": "C",
     "license": "MIT",
     "created_at": "2026-04-29T19:40:17Z",
-    "updated_at": "2026-06-14T22:09:21Z",
+    "updated_at": "2026-07-13T00:47:32Z",
     "pushed_at": "2026-05-26T14:25:08Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
@@ -15117,7 +15117,7 @@
     "name": "zarifpour/zed-env",
     "url": "https://github.com/zarifpour/zed-env",
     "description": "🔐 env support for Zed.",
-    "stars": 55,
+    "stars": 56,
     "forks": 2,
     "topics": [
       "dotenv",
@@ -15134,7 +15134,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-07-12T02:40:18Z",
-    "updated_at": "2026-07-01T18:39:47Z",
+    "updated_at": "2026-07-12T20:48:48Z",
     "pushed_at": "2024-11-13T21:48:13Z",
     "discovered_at": "2026-05-19T20:52:12.309Z",
     "official": true
@@ -18180,8 +18180,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-07-12T13:05:12Z",
-    "pushed_at": "2026-07-12T13:05:07Z",
+    "updated_at": "2026-07-12T19:04:29Z",
+    "pushed_at": "2026-07-12T19:04:09Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -32513,6 +32513,28 @@
     "updated_at": "2026-07-12T15:25:14Z",
     "pushed_at": "2026-07-12T15:25:08Z",
     "discovered_at": "2026-07-12T19:03:27.403Z",
+    "official": false
+  },
+  "laurenzpavlosmalisianos/logos-theme": {
+    "name": "laurenzpavlosmalisianos/logos-theme",
+    "url": "https://github.com/laurenzpavlosmalisianos/logos-theme",
+    "description": "A personal theme for Zed with light, dark, and translucent blur variants.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "dark-theme",
+      "light-theme",
+      "translucent-theme",
+      "zed-editor",
+      "zed-extension",
+      "zed-theme"
+    ],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-07-12T20:27:13Z",
+    "updated_at": "2026-07-12T20:44:06Z",
+    "pushed_at": "2026-07-12T20:27:53Z",
+    "discovered_at": "2026-07-13T01:13:01.855Z",
     "official": false
   }
 }

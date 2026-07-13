@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1595-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1596-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,16 +14,16 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1595** |
+| Total tracked | **1596** |
 | In official registry | 1135 |
-| Discovered via topics | 460 |
-| Last updated | 2026-07-12 19:03 UTC |
+| Discovered via topics | 461 |
+| Last updated | 2026-07-13 01:13 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
-| Themes | 667 |
+| Themes | 668 |
 | Grammars | 555 |
 | Language Servers | 515 |
 | Context Servers | 133 |
@@ -70,6 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [laurenzpavlosmalisianos/logos-theme](https://github.com/laurenzpavlosmalisianos/logos-theme) | 0 | A personal theme for Zed with light, dark, and translucent blur variants. |
 | [0xdea/monokaiju-theme](https://github.com/0xdea/monokaiju-theme) | 0 | A Zed theme inspired by Monokai Pro (CE). |
 | [swaynehales/mostacho-solo](https://github.com/swaynehales/mostacho-solo) | 0 | A warm/dark theme for Zed. "Hold the crema." |
 | [swaynehales/mostacho-leche](https://github.com/swaynehales/mostacho-leche) | 0 | A warm/light theme for Zed. "Fuzzy side up." |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [xseman/simple-light](https://github.com/xseman/simple-light) | 8 | Simple light theme for IDEs |
 | [hodyhq/zed-azure-mcp](https://github.com/hodyhq/zed-azure-mcp) | 0 |  |
 | [frypan05/github-actions-snippet](https://github.com/frypan05/github-actions-snippet) | 0 |  |
-| [ek2kk/catppuccin-black-zed](https://github.com/ek2kk/catppuccin-black-zed) | 0 |  |
 
 ## Top starred (under 500)
 
@@ -120,6 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [laurenzpavlosmalisianos/logos-theme](https://github.com/laurenzpavlosmalisianos/logos-theme) | 0 | 2026-07-12 | A personal theme for Zed with light, dark, and translucent b... |
 | [MahoCommerce/zed](https://github.com/MahoCommerce/zed) | 1 | 2026-07-12 | Maho extension for Zed. |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-07-12 | High-performance, memory-safe, and native async Python MCP s... |
 | [0xdea/monokaiju-theme](https://github.com/0xdea/monokaiju-theme) | 0 | 2026-07-12 | A Zed theme inspired by Monokai Pro (CE). |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [mumez/zed-extension-tonel-smalltalk](https://github.com/mumez/zed-extension-tonel-smalltalk) | 0 | 2026-07-09 | Tonel Smalltalk language extensiotn for Zed |
 | [Ben-Wormald/cloudformation-language-server-zed](https://github.com/Ben-Wormald/cloudformation-language-server-zed) | 4 | 2026-07-08 | Zed extension for the AWS CloudFormation language server |
 | [eallender/zed-python-autodoc](https://github.com/eallender/zed-python-autodoc) | 4 | 2026-07-07 | Zed extension for python auto-documentation |
-| [pranavmangal/zed-ssh-config](https://github.com/pranavmangal/zed-ssh-config) | 2 | 2026-07-07 | A Zed extension that provides syntax highlighting for SSH co... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-07-13T01:13 | 1 | 499 | 1922 |
 | 2026-07-12T19:03 | 2 | 498 | 1921 |
 | 2026-07-12T13:04 | 1 | 497 | 1919 |
 | 2026-07-12T07:32 | 0 | 498 | 1918 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-07-11T07:22 | 0 | 498 | 1914 |
 | 2026-07-11T01:10 | 0 | 498 | 1914 |
 | 2026-07-10T19:09 | 0 | 459 | 1914 |
-| 2026-07-10T13:22 | 1 | 498 | 1914 |
 
 ---
 

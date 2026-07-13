@@ -1,0 +1,8 @@
+id = "logos-theme"
+name = "Logos Theme"
+version = "0.0.1"
+schema_version = 1
+authors = ["Laurenz Pavlos Malisianos"]
+description = "Four coordinated Zed themes: opaque light and dark palettes plus opt-in blur variants."
+repository = "https://github.com/laurenzpavlosmalisianos/logos-theme"
+themes = ["themes/logos.json"]
