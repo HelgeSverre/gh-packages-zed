@@ -156,8 +156,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-07-12T04:59:27Z",
-    "pushed_at": "2026-07-12T04:59:23Z",
+    "updated_at": "2026-07-13T05:19:01Z",
+    "pushed_at": "2026-07-13T05:18:51Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -5309,8 +5309,8 @@
     "language": "Go",
     "license": "MIT",
     "created_at": "2026-03-09T04:35:59Z",
-    "updated_at": "2026-07-12T07:05:53Z",
-    "pushed_at": "2026-07-12T07:05:41Z",
+    "updated_at": "2026-07-13T07:23:27Z",
+    "pushed_at": "2026-07-13T07:23:17Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -5337,7 +5337,7 @@
     "name": "Dylanmurzello/zed-android-port",
     "url": "https://github.com/Dylanmurzello/zed-android-port",
     "description": "Native Android port of the Zed code editor,  gpui rendering through Vulkan, integrated Termux for LSPs and tooling, remote SSH support. Runs as an APK on tablets and Android desktop modes.",
-    "stars": 131,
+    "stars": 133,
     "forks": 10,
     "topics": [
       "android",
@@ -5364,7 +5364,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-05-07T00:12:10Z",
-    "updated_at": "2026-07-12T15:22:40Z",
+    "updated_at": "2026-07-13T04:48:11Z",
     "pushed_at": "2026-06-05T21:34:45Z",
     "discovered_at": "2026-05-19T19:54:12.053Z",
     "official": false
@@ -15594,7 +15594,7 @@
     "name": "agent-sh/agnix",
     "url": "https://github.com/agent-sh/agnix",
     "description": "The missing linter and lsp for AI coding assistants. Validate CLAUDE.md, AGENTS.md, SKILL.md, hooks, MCP. Plugin for all major IDEs included, with autofixes.",
-    "stars": 339,
+    "stars": 341,
     "forks": 29,
     "topics": [
       "agent",
@@ -15621,7 +15621,7 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
-    "updated_at": "2026-07-11T11:31:06Z",
+    "updated_at": "2026-07-13T05:54:28Z",
     "pushed_at": "2026-07-10T23:22:20Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
@@ -18180,8 +18180,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-07-12T19:04:29Z",
-    "pushed_at": "2026-07-12T19:04:09Z",
+    "updated_at": "2026-07-13T01:13:38Z",
+    "pushed_at": "2026-07-13T01:13:34Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -31231,8 +31231,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-06-20T03:43:39Z",
-    "updated_at": "2026-06-27T20:02:33Z",
-    "pushed_at": "2026-06-27T20:02:30Z",
+    "updated_at": "2026-07-13T03:22:13Z",
+    "pushed_at": "2026-07-13T03:22:08Z",
     "discovered_at": "2026-06-20T07:20:31.431Z",
     "official": false
   },
@@ -32313,8 +32313,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-07-09T19:20:08Z",
-    "updated_at": "2026-07-10T03:16:44Z",
-    "pushed_at": "2026-07-10T03:16:21Z",
+    "updated_at": "2026-07-13T01:43:00Z",
+    "pushed_at": "2026-07-13T01:42:56Z",
     "discovered_at": "2026-07-10T07:54:10.331Z",
     "official": false
   },
@@ -32498,7 +32498,7 @@
     "name": "0xdea/monokaiju-theme",
     "url": "https://github.com/0xdea/monokaiju-theme",
     "description": "A Zed theme inspired by Monokai Pro (CE).",
-    "stars": 0,
+    "stars": 2,
     "forks": 0,
     "topics": [
       "color-scheme",
@@ -32510,7 +32510,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-07-12T14:12:48Z",
-    "updated_at": "2026-07-12T15:25:14Z",
+    "updated_at": "2026-07-13T05:41:17Z",
     "pushed_at": "2026-07-12T15:25:08Z",
     "discovered_at": "2026-07-12T19:03:27.403Z",
     "official": false
@@ -32535,6 +32535,62 @@
     "updated_at": "2026-07-12T20:44:06Z",
     "pushed_at": "2026-07-12T20:27:53Z",
     "discovered_at": "2026-07-13T01:13:01.855Z",
+    "official": false
+  },
+  "coooolfan/tree-sitter-jimmer-dto": {
+    "name": "Coooolfan/tree-sitter-jimmer-dto",
+    "url": "https://github.com/Coooolfan/tree-sitter-jimmer-dto",
+    "description": "Tree-sitter grammar and Zed language support for Jimmer DTO",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "dto",
+      "jimmer",
+      "tree-sitter",
+      "zed-extension"
+    ],
+    "language": "C",
+    "license": "MIT",
+    "created_at": "2026-07-13T03:30:59Z",
+    "updated_at": "2026-07-13T03:31:43Z",
+    "pushed_at": "2026-07-13T03:31:55Z",
+    "discovered_at": "2026-07-13T07:48:26.691Z",
+    "official": false
+  },
+  "0lswitcher/dotfiles": {
+    "name": "0lswitcher/dotfiles",
+    "url": "https://github.com/0lswitcher/dotfiles",
+    "description": "My personal collection of configuration files for a variety of UNIX-based applications. ",
+    "stars": 1,
+    "forks": 0,
+    "topics": [
+      "awww",
+      "dotfiles",
+      "dots",
+      "gnu-stow",
+      "hypr",
+      "hyprland",
+      "hyprland-config",
+      "hyprland-rice",
+      "kando",
+      "neovim",
+      "obsidian",
+      "qt",
+      "rice",
+      "shell",
+      "swww",
+      "theme-switcher",
+      "vscodium",
+      "waybar",
+      "wayland",
+      "zed-editor"
+    ],
+    "language": "CSS",
+    "license": "Unlicense",
+    "created_at": "2025-08-02T22:47:54Z",
+    "updated_at": "2026-07-13T04:17:20Z",
+    "pushed_at": "2026-07-13T03:50:16Z",
+    "discovered_at": "2026-07-13T07:48:26.691Z",
     "official": false
   }
 }

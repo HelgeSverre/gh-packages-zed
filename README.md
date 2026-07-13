@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1596** |
 | In official registry | 1135 |
 | Discovered via topics | 461 |
-| Last updated | 2026-07-13 01:13 UTC |
+| Last updated | 2026-07-13 07:48 UTC |
 
 ### By capability
 
@@ -71,7 +71,7 @@ cd website && npm install && npm run dev
 | Package | Stars | Description |
 |---|---|---|
 | [laurenzpavlosmalisianos/logos-theme](https://github.com/laurenzpavlosmalisianos/logos-theme) | 0 | A personal theme for Zed with light, dark, and translucent blur variants. |
-| [0xdea/monokaiju-theme](https://github.com/0xdea/monokaiju-theme) | 0 | A Zed theme inspired by Monokai Pro (CE). |
+| [0xdea/monokaiju-theme](https://github.com/0xdea/monokaiju-theme) | 2 | A Zed theme inspired by Monokai Pro (CE). |
 | [swaynehales/mostacho-solo](https://github.com/swaynehales/mostacho-solo) | 0 | A warm/dark theme for Zed. "Hold the crema." |
 | [swaynehales/mostacho-leche](https://github.com/swaynehales/mostacho-leche) | 0 | A warm/light theme for Zed. "Fuzzy side up." |
 | [swaynehales/filo-solo](https://github.com/swaynehales/filo-solo) | 0 | A sharp/dark theme for Zed. "No warmth, no mercy." |
@@ -120,18 +120,19 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 87 | 2026-07-13 | True Dark Theme for Zed IDE |
+| [pol-cova/cursor-theme-zed](https://github.com/pol-cova/cursor-theme-zed) | 0 | 2026-07-13 | A warm Cursor-inspired Zed theme with light and dark variant... |
+| [kjanat/zed-typescript](https://github.com/kjanat/zed-typescript) | 0 | 2026-07-13 | Runs the TypeScript 7+ language server in Zed. |
 | [laurenzpavlosmalisianos/logos-theme](https://github.com/laurenzpavlosmalisianos/logos-theme) | 0 | 2026-07-12 | A personal theme for Zed with light, dark, and translucent b... |
 | [MahoCommerce/zed](https://github.com/MahoCommerce/zed) | 1 | 2026-07-12 | Maho extension for Zed. |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-07-12 | High-performance, memory-safe, and native async Python MCP s... |
-| [0xdea/monokaiju-theme](https://github.com/0xdea/monokaiju-theme) | 0 | 2026-07-12 | A Zed theme inspired by Monokai Pro (CE). |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 87 | 2026-07-12 | True Dark Theme for Zed IDE |
+| [0xdea/monokaiju-theme](https://github.com/0xdea/monokaiju-theme) | 2 | 2026-07-12 | A Zed theme inspired by Monokai Pro (CE). |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-07-11 | Zed editor support for Carve, a modern light markup language |
 | [emirror-de/clearsight-zed](https://github.com/emirror-de/clearsight-zed) | 0 | 2026-07-11 | A scientifically-backed, accessibility-focused theme optimiz... |
 | [MiCkEyZzZ/uon-zed](https://github.com/MiCkEyZzZ/uon-zed) | 0 | 2026-07-11 | Поддержка формата данных UON для редактора Zed. |
 | [golproductions/check-zed](https://github.com/golproductions/check-zed) | 0 | 2026-07-11 | Less hallucinations. GOL Check for Zed: validates shell comm... |
 | [felixtensor/zed-mlir-suite](https://github.com/felixtensor/zed-mlir-suite) | 2 | 2026-07-11 | The MLIR extension for Zed. |
 | [BenjaminHalko/flow-icons-zed](https://github.com/BenjaminHalko/flow-icons-zed) | 27 | 2026-07-11 | 🌼 Flow Icons ported to Zed |
-| [kjanat/zed-typescript](https://github.com/kjanat/zed-typescript) | 0 | 2026-07-10 | Runs the TypeScript 7+ language server in Zed. |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 202 | 2026-07-10 | Zed plugin for automatic time tracking and metrics generated... |
 | [orbitlang/zed-orbit](https://github.com/orbitlang/zed-orbit) | 0 | 2026-07-09 |  |
 | [vitallium/zed-stimulus](https://github.com/vitallium/zed-stimulus) | 20 | 2026-07-09 | Stimulus LSP support for Zed |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [pataruco/zed-mjml](https://github.com/pataruco/zed-mjml) | 3 | 2026-07-09 | MJML syntax support for Zed |
 | [mumez/zed-extension-tonel-smalltalk](https://github.com/mumez/zed-extension-tonel-smalltalk) | 0 | 2026-07-09 | Tonel Smalltalk language extensiotn for Zed |
 | [Ben-Wormald/cloudformation-language-server-zed](https://github.com/Ben-Wormald/cloudformation-language-server-zed) | 4 | 2026-07-08 | Zed extension for the AWS CloudFormation language server |
-| [eallender/zed-python-autodoc](https://github.com/eallender/zed-python-autodoc) | 4 | 2026-07-07 | Zed extension for python auto-documentation |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-07-13T07:48 | 2 | 500 | 1924 |
 | 2026-07-13T01:13 | 1 | 499 | 1922 |
 | 2026-07-12T19:03 | 2 | 498 | 1921 |
 | 2026-07-12T13:04 | 1 | 497 | 1919 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-07-11T13:05 | 4 | 494 | 1918 |
 | 2026-07-11T07:22 | 0 | 498 | 1914 |
 | 2026-07-11T01:10 | 0 | 498 | 1914 |
-| 2026-07-10T19:09 | 0 | 459 | 1914 |
 
 ---
 
