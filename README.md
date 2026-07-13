@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1596-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1597-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,18 +14,18 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1596** |
+| Total tracked | **1597** |
 | In official registry | 1135 |
-| Discovered via topics | 461 |
-| Last updated | 2026-07-13 13:29 UTC |
+| Discovered via topics | 462 |
+| Last updated | 2026-07-13 19:07 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
 | Themes | 668 |
-| Grammars | 555 |
-| Language Servers | 515 |
+| Grammars | 556 |
+| Language Servers | 516 |
 | Context Servers | 133 |
 | Snippets | 71 |
 | Slash Commands | 57 |
@@ -70,6 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [petercr/varlock-zed-extension](https://github.com/petercr/varlock-zed-extension) | 2 | Zed port of the Varlock VS Code @env-spec extension for .env.schema files. |
 | [laurenzpavlosmalisianos/logos-theme](https://github.com/laurenzpavlosmalisianos/logos-theme) | 0 | A personal theme for Zed with light, dark, and translucent blur variants. |
 | [0xdea/monokaiju-theme](https://github.com/0xdea/monokaiju-theme) | 2 | A Zed theme inspired by Monokai Pro (CE). |
 | [swaynehales/mostacho-solo](https://github.com/swaynehales/mostacho-solo) | 0 | A warm/dark theme for Zed. "Hold the crema." |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [ita-lang/ita-theme](https://github.com/ita-lang/ita-theme) | 0 | Itá Semantic — semantic color theme for the Itá language (Zed, Dark & Light, WCA... |
 | [xseman/simple-light](https://github.com/xseman/simple-light) | 8 | Simple light theme for IDEs |
 | [hodyhq/zed-azure-mcp](https://github.com/hodyhq/zed-azure-mcp) | 0 |  |
-| [frypan05/github-actions-snippet](https://github.com/frypan05/github-actions-snippet) | 0 |  |
 
 ## Top starred (under 500)
 
@@ -120,6 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-07-13 | High-performance, memory-safe, and native async Python MCP s... |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-07-13 | A Zed extension that allows to highlight all occurrences of ... |
 | [yuna0x0/zed-ink](https://github.com/yuna0x0/zed-ink) | 4 | 2026-07-13 | Ink language support for Zed |
 | [yuna0x0/zed-yarn-spinner](https://github.com/yuna0x0/zed-yarn-spinner) | 1 | 2026-07-13 | Yarn Spinner language support for Zed |
@@ -129,7 +130,6 @@ cd website && npm install && npm run dev
 | [kjanat/zed-typescript](https://github.com/kjanat/zed-typescript) | 0 | 2026-07-13 | Runs the TypeScript 7+ language server in Zed. |
 | [laurenzpavlosmalisianos/logos-theme](https://github.com/laurenzpavlosmalisianos/logos-theme) | 0 | 2026-07-12 | A personal theme for Zed with light, dark, and translucent b... |
 | [MahoCommerce/zed](https://github.com/MahoCommerce/zed) | 1 | 2026-07-12 | Maho extension for Zed. |
-| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-07-12 | High-performance, memory-safe, and native async Python MCP s... |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-07-11 | Zed editor support for Carve, a modern light markup language |
 | [emirror-de/clearsight-zed](https://github.com/emirror-de/clearsight-zed) | 0 | 2026-07-11 | A scientifically-backed, accessibility-focused theme optimiz... |
 | [MiCkEyZzZ/uon-zed](https://github.com/MiCkEyZzZ/uon-zed) | 0 | 2026-07-11 | Поддержка формата данных UON для редактора Zed. |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-07-13T19:07 | 2 | 502 | 1926 |
 | 2026-07-13T13:29 | 0 | 502 | 1924 |
 | 2026-07-13T07:48 | 2 | 500 | 1924 |
 | 2026-07-13T01:13 | 1 | 499 | 1922 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-07-12T01:12 | 0 | 498 | 1918 |
 | 2026-07-11T19:03 | 0 | 498 | 1918 |
 | 2026-07-11T13:05 | 4 | 494 | 1918 |
-| 2026-07-11T07:22 | 0 | 498 | 1914 |
 
 ---
 
