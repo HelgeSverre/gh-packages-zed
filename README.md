@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1599-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1600-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,16 +14,16 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1599** |
+| Total tracked | **1600** |
 | In official registry | 1135 |
-| Discovered via topics | 464 |
-| Last updated | 2026-07-14 13:05 UTC |
+| Discovered via topics | 465 |
+| Last updated | 2026-07-14 19:04 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
-| Themes | 670 |
+| Themes | 671 |
 | Grammars | 556 |
 | Language Servers | 516 |
 | Context Servers | 133 |
@@ -70,6 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [freshjuice-dev/zed-themes](https://github.com/freshjuice-dev/zed-themes) | 0 | FreshJuice dark themes for Zed editor — fruit-named, high-contrast, warm palette... |
 | [emirror-de/quietude-zed](https://github.com/emirror-de/quietude-zed) | 0 | A calm, warm monochrome theme for Zed, engineered to reduce eye strain during lo... |
 | [runescape-themes/zed-icons](https://github.com/runescape-themes/zed-icons) | 1 | 🏰 Old School RuneScape icon theme for Zed |
 | [petercr/varlock-zed-extension](https://github.com/petercr/varlock-zed-extension) | 2 | Zed port of the Varlock VS Code @env-spec extension for .env.schema files. |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [atomic-dark/zed](https://github.com/atomic-dark/zed) | 1 | A developer-friendly collection of widely-used syntax themes with OLED support a... |
 | [p404/zed-hc-monokai](https://github.com/p404/zed-hc-monokai) | 0 | Zed Theme |
 | [MaraniMatias/zed-minimax-proxy](https://github.com/MaraniMatias/zed-minimax-proxy) | 0 | Use MiniMax as Zed completion |
-| [ita-lang/ita-theme](https://github.com/ita-lang/ita-theme) | 0 | Itá Semantic — semantic color theme for the Itá language (Zed, Dark & Light, WCA... |
 
 ## Top starred (under 500)
 
@@ -120,12 +120,14 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [emirror-de/quietude-zed](https://github.com/emirror-de/quietude-zed) | 0 | 2026-07-14 | A calm, warm monochrome theme for Zed, engineered to reduce ... |
+| [rami-shalhoub/comment-blocks-zed](https://github.com/rami-shalhoub/comment-blocks-zed) | 2 | 2026-07-14 | this extension provide comment snippets to add descriptive h... |
+| [freshjuice-dev/zed-themes](https://github.com/freshjuice-dev/zed-themes) | 0 | 2026-07-14 | FreshJuice dark themes for Zed editor — fruit-named, high-co... |
+| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-07-14 | A Zed extension that allows to highlight all occurrences of ... |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-07-14 | Zed editor support for Carve, a modern light markup language |
+| [emirror-de/quietude-zed](https://github.com/emirror-de/quietude-zed) | 0 | 2026-07-14 | A calm, warm monochrome theme for Zed, engineered to reduce ... |
 | [felixtensor/zed-mlir-suite](https://github.com/felixtensor/zed-mlir-suite) | 2 | 2026-07-14 | The MLIR extension for Zed. |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 88 | 2026-07-14 | True Dark Theme for Zed IDE |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-07-13 | High-performance, memory-safe, and native async Python MCP s... |
-| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-07-13 | A Zed extension that allows to highlight all occurrences of ... |
 | [yuna0x0/zed-ink](https://github.com/yuna0x0/zed-ink) | 4 | 2026-07-13 | Ink language support for Zed |
 | [yuna0x0/zed-yarn-spinner](https://github.com/yuna0x0/zed-yarn-spinner) | 1 | 2026-07-13 | Yarn Spinner language support for Zed |
 | [0xdea/monokaiju-theme](https://github.com/0xdea/monokaiju-theme) | 2 | 2026-07-13 | A Zed theme inspired by Monokai Pro (CE). |
@@ -138,13 +140,12 @@ cd website && npm install && npm run dev
 | [golproductions/check-zed](https://github.com/golproductions/check-zed) | 0 | 2026-07-11 | Less hallucinations. GOL Check for Zed: validates shell comm... |
 | [BenjaminHalko/flow-icons-zed](https://github.com/BenjaminHalko/flow-icons-zed) | 27 | 2026-07-11 | 🌼 Flow Icons ported to Zed |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 202 | 2026-07-10 | Zed plugin for automatic time tracking and metrics generated... |
-| [orbitlang/zed-orbit](https://github.com/orbitlang/zed-orbit) | 0 | 2026-07-09 |  |
-| [vitallium/zed-stimulus](https://github.com/vitallium/zed-stimulus) | 20 | 2026-07-09 | Stimulus LSP support for Zed |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-07-14T19:04 | 1 | 506 | 1929 |
 | 2026-07-14T13:05 | 1 | 505 | 1928 |
 | 2026-07-14T07:22 | 1 | 504 | 1927 |
 | 2026-07-14T01:06 | 0 | 504 | 1926 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-07-13T01:13 | 1 | 499 | 1922 |
 | 2026-07-12T19:03 | 2 | 498 | 1921 |
 | 2026-07-12T13:04 | 1 | 497 | 1919 |
-| 2026-07-12T07:32 | 0 | 498 | 1918 |
 
 ---
 
