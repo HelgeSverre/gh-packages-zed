@@ -141,8 +141,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-07-13T09:54:13Z",
-    "pushed_at": "2026-07-13T05:18:51Z",
+    "updated_at": "2026-07-14T04:35:06Z",
+    "pushed_at": "2026-07-14T04:35:02Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -7500,7 +7500,7 @@
     "url": "https://github.com/davccavalcante/blade-runner-2049-theme-for-zed",
     "description": "📺 A cyberpunk aesthetic theme based on the command line interface of Blade Runner 2049, inspired by the film's dystopian and high-tech visual style",
     "stars": 28,
-    "forks": 5,
+    "forks": 6,
     "topics": [
       "blade-runner",
       "blade-runner-2049",
@@ -8800,7 +8800,7 @@
     "name": "cange/nightfox.zed",
     "url": "https://github.com/cange/nightfox.zed",
     "description": "🦊 Zed editor theme ported from Neovim",
-    "stars": 157,
+    "stars": 156,
     "forks": 5,
     "topics": [
       "zed",
@@ -8809,7 +8809,7 @@
     "language": "Lua",
     "license": "MIT",
     "created_at": "2024-05-02T20:49:30Z",
-    "updated_at": "2026-07-11T07:57:43Z",
+    "updated_at": "2026-07-14T06:52:55Z",
     "pushed_at": "2026-07-09T18:20:20Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": true,
@@ -38634,7 +38634,7 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-03-01T05:13:38Z",
-    "updated_at": "2026-07-08T15:00:35Z",
+    "updated_at": "2026-07-14T06:39:14Z",
     "pushed_at": "2026-06-07T22:07:59Z",
     "discovered_at": "2026-05-20T00:39:45.722Z",
     "official": false,
@@ -54316,8 +54316,8 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-03-09T03:40:37Z",
-    "updated_at": "2026-07-11T07:38:27Z",
-    "pushed_at": "2026-07-11T07:38:19Z",
+    "updated_at": "2026-07-14T04:50:33Z",
+    "pushed_at": "2026-07-14T04:50:29Z",
     "discovered_at": "2026-07-10T07:54:10.331Z",
     "official": false,
     "extension": {
@@ -54593,6 +54593,45 @@
       "categories": [
         "grammar",
         "language-server"
+      ]
+    }
+  },
+  "runescape-themes/zed-icons": {
+    "name": "runescape-themes/zed-icons",
+    "url": "https://github.com/runescape-themes/zed-icons",
+    "description": "🏰 Old School RuneScape icon theme for Zed",
+    "stars": 1,
+    "forks": 0,
+    "topics": [
+      "icon-theme",
+      "icons",
+      "oldschool-runescape",
+      "osrs",
+      "runescape",
+      "zed",
+      "zed-extension"
+    ],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-07-03T06:24:29Z",
+    "updated_at": "2026-07-14T01:59:37Z",
+    "pushed_at": "2026-07-03T06:27:47Z",
+    "discovered_at": "2026-07-14T07:22:35.649Z",
+    "official": false,
+    "extension": {
+      "id": "runescape-icon-theme",
+      "name": "RuneScape Icon Theme",
+      "description": "🏰 Old School RuneScape icon theme for Zed",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "authors": [
+        "Ronas Lencevičius <contact@ronaldas.dev>"
+      ],
+      "repository": "https://github.com/runescape-themes/zed-icons",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
       ]
     }
   }
