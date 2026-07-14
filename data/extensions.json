@@ -4584,7 +4584,7 @@
     "name": "ankddev/zed-jetbrains-newui-icons",
     "url": "https://github.com/ankddev/zed-jetbrains-newui-icons",
     "description": "JetBrains New UI Icons Theme for Zed editor.",
-    "stars": 24,
+    "stars": 25,
     "forks": 8,
     "topics": [
       "icons",
@@ -4596,7 +4596,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2025-02-08T13:19:33Z",
-    "updated_at": "2026-05-21T21:25:39Z",
+    "updated_at": "2026-07-14T07:33:41Z",
     "pushed_at": "2026-02-11T15:14:27Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -6006,7 +6006,7 @@
     "name": "pyncz/zed-tokyo-night-dark-theme",
     "url": "https://github.com/pyncz/zed-tokyo-night-dark-theme",
     "description": "A contrast Tokyo Night theme modification for Zed editor.",
-    "stars": 0,
+    "stars": 1,
     "forks": 1,
     "topics": [
       "theme",
@@ -6018,7 +6018,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2025-12-04T01:45:04Z",
-    "updated_at": "2025-12-04T02:21:04Z",
+    "updated_at": "2026-07-14T09:03:01Z",
     "pushed_at": "2025-12-04T02:21:00Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -6322,7 +6322,7 @@
     "url": "https://github.com/hjr265/zed-gotmpl",
     "description": "Go template (gotmpl, gohtml) support for Zed",
     "stars": 28,
-    "forks": 3,
+    "forks": 4,
     "topics": [
       "gohtml",
       "gotemplate",
@@ -38628,13 +38628,13 @@
     "name": "zed-extensions/nix",
     "url": "https://github.com/zed-extensions/nix",
     "description": "Nix language support in Zed",
-    "stars": 118,
+    "stars": 119,
     "forks": 27,
     "topics": [],
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-03-01T05:13:38Z",
-    "updated_at": "2026-07-14T06:39:14Z",
+    "updated_at": "2026-07-14T07:31:28Z",
     "pushed_at": "2026-06-07T22:07:59Z",
     "discovered_at": "2026-05-20T00:39:45.722Z",
     "official": false,
@@ -53167,7 +53167,7 @@
     "name": "bhavya-dang/Solace",
     "url": "https://github.com/bhavya-dang/Solace",
     "description": "A minimalistic theme with violet accents and pastel syntax. For Zed.",
-    "stars": 5,
+    "stars": 6,
     "forks": 0,
     "topics": [
       "code-editor-extension",
@@ -53179,7 +53179,7 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-06-21T17:14:44Z",
-    "updated_at": "2026-06-29T10:39:56Z",
+    "updated_at": "2026-07-14T09:45:59Z",
     "pushed_at": "2026-06-26T18:41:45Z",
     "discovered_at": "2026-06-22T00:44:44.143Z",
     "official": false,
@@ -54198,8 +54198,8 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2026-06-01T12:22:18Z",
-    "updated_at": "2026-07-11T20:56:21Z",
-    "pushed_at": "2026-07-11T20:56:18Z",
+    "updated_at": "2026-07-14T12:07:07Z",
+    "pushed_at": "2026-07-14T12:06:24Z",
     "discovered_at": "2026-07-09T13:39:01.645Z",
     "official": false,
     "extension": {
@@ -54628,6 +54628,40 @@
         "Ronas Lencevičius <contact@ronaldas.dev>"
       ],
       "repository": "https://github.com/runescape-themes/zed-icons",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "emirror-de/quietude-zed": {
+    "name": "emirror-de/quietude-zed",
+    "url": "https://github.com/emirror-de/quietude-zed",
+    "description": "A calm, warm monochrome theme for Zed, engineered to reduce eye strain during long coding sessions.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "zed-editor-theme",
+      "zed-theme"
+    ],
+    "language": null,
+    "license": "GPL-3.0",
+    "created_at": "2026-07-14T11:01:05Z",
+    "updated_at": "2026-07-14T12:16:03Z",
+    "pushed_at": "2026-07-14T12:15:08Z",
+    "discovered_at": "2026-07-14T13:05:37.802Z",
+    "official": false,
+    "extension": {
+      "id": "quietude",
+      "name": "Quietude",
+      "description": "A calm, warm monochrome theme engineered to reduce eye strain during long coding sessions. Ships light (Dawn) and dark (Dusk) variants with muted, purposeful accents.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Lewin Probst <info@emirror.de>"
+      ],
+      "repository": "https://github.com/emirror-de/quietude-zed",
       "snippets": null,
       "sections": [],
       "categories": [
