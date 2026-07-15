@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1600** |
 | In official registry | 1135 |
 | Discovered via topics | 465 |
-| Last updated | 2026-07-15 01:05 UTC |
+| Last updated | 2026-07-15 07:24 UTC |
 
 ### By capability
 
@@ -103,7 +103,7 @@ cd website && npm install && npm run dev
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 202 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
-| [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 190 | Zed support for the Godot game engine and the GDScript language |
+| [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 191 | Zed support for the Godot game engine and the GDScript language |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 185 | Typst extension for zed |
@@ -120,14 +120,14 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 88 | 2026-07-15 | True Dark Theme for Zed IDE |
+| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-07-15 | High-performance, memory-safe, and native async Python MCP s... |
 | [freshjuice-dev/zed-themes](https://github.com/freshjuice-dev/zed-themes) | 0 | 2026-07-15 | FreshJuice dark themes for Zed editor — fruit-named, high-co... |
-| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-07-14 | High-performance, memory-safe, and native async Python MCP s... |
 | [rami-shalhoub/comment-blocks-zed](https://github.com/rami-shalhoub/comment-blocks-zed) | 2 | 2026-07-14 | this extension provide comment snippets to add descriptive h... |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-07-14 | A Zed extension that allows to highlight all occurrences of ... |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-07-14 | Zed editor support for Carve, a modern light markup language |
 | [emirror-de/quietude-zed](https://github.com/emirror-de/quietude-zed) | 0 | 2026-07-14 | A calm, warm monochrome theme for Zed, engineered to reduce ... |
 | [felixtensor/zed-mlir-suite](https://github.com/felixtensor/zed-mlir-suite) | 2 | 2026-07-14 | The MLIR extension for Zed. |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 88 | 2026-07-14 | True Dark Theme for Zed IDE |
 | [yuna0x0/zed-ink](https://github.com/yuna0x0/zed-ink) | 4 | 2026-07-13 | Ink language support for Zed |
 | [yuna0x0/zed-yarn-spinner](https://github.com/yuna0x0/zed-yarn-spinner) | 1 | 2026-07-13 | Yarn Spinner language support for Zed |
 | [0xdea/monokaiju-theme](https://github.com/0xdea/monokaiju-theme) | 2 | 2026-07-13 | A Zed theme inspired by Monokai Pro (CE). |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-07-15T07:24 | 0 | 507 | 1929 |
 | 2026-07-15T01:05 | 0 | 507 | 1929 |
 | 2026-07-14T19:04 | 1 | 506 | 1929 |
 | 2026-07-14T13:05 | 1 | 505 | 1928 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-07-13T13:29 | 0 | 502 | 1924 |
 | 2026-07-13T07:48 | 2 | 500 | 1924 |
 | 2026-07-13T01:13 | 1 | 499 | 1922 |
-| 2026-07-12T19:03 | 2 | 498 | 1921 |
 
 ---
 
