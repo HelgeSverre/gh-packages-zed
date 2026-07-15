@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1601** |
 | In official registry | 1135 |
 | Discovered via topics | 466 |
-| Last updated | 2026-07-15 13:06 UTC |
+| Last updated | 2026-07-15 19:04 UTC |
 
 ### By capability
 
@@ -110,7 +110,7 @@ cd website && npm install && npm run dev
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 164 | A macOS native style theme for Zed, let it same like native app in macOS. |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 156 | 🦊 Zed editor theme ported from Neovim |
 | [thedadams/zed-comment](https://github.com/thedadams/zed-comment) | 148 | A comment extension for the Zed editor |
-| [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 145 |  |
+| [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 146 |  |
 | [slymax/zedokai](https://github.com/slymax/zedokai) | 145 | a theme for Zed based on the Monokai Pro color scheme |
 | [nathansbradshaw/zed-angular](https://github.com/nathansbradshaw/zed-angular) | 144 |  |
 | [zed-extensions/swift](https://github.com/zed-extensions/swift) | 143 | Extension for Zed to support Swift |
@@ -120,11 +120,11 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-07-15 | High-performance, memory-safe, and native async Python MCP s... |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-07-15 | Zed editor support for Carve, a modern light markup language |
 | [felixtensor/zed-mlir-suite](https://github.com/felixtensor/zed-mlir-suite) | 2 | 2026-07-15 | The MLIR extension for Zed. |
 | [b4bury/zed-glass](https://github.com/b4bury/zed-glass) | 0 | 2026-07-15 | Glass — a liquid-glass transparent theme for Zed (dark + lig... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 88 | 2026-07-15 | True Dark Theme for Zed IDE |
-| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-07-15 | High-performance, memory-safe, and native async Python MCP s... |
 | [freshjuice-dev/zed-themes](https://github.com/freshjuice-dev/zed-themes) | 0 | 2026-07-15 | FreshJuice dark themes for Zed editor — fruit-named, high-co... |
 | [rami-shalhoub/comment-blocks-zed](https://github.com/rami-shalhoub/comment-blocks-zed) | 2 | 2026-07-14 | this extension provide comment snippets to add descriptive h... |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-07-14 | A Zed extension that allows to highlight all occurrences of ... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-07-15T19:04 | 0 | 508 | 1930 |
 | 2026-07-15T13:06 | 1 | 507 | 1930 |
 | 2026-07-15T07:24 | 0 | 507 | 1929 |
 | 2026-07-15T01:05 | 0 | 507 | 1929 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-07-14T01:06 | 0 | 504 | 1926 |
 | 2026-07-13T19:07 | 2 | 502 | 1926 |
 | 2026-07-13T13:29 | 0 | 502 | 1924 |
-| 2026-07-13T07:48 | 2 | 500 | 1924 |
 
 ---
 
