@@ -11430,13 +11430,13 @@
     "name": "zed-extensions/typst",
     "url": "https://github.com/zed-extensions/typst",
     "description": "Typst extension for zed",
-    "stars": 185,
+    "stars": 186,
     "forks": 15,
     "topics": [],
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2024-04-27T19:27:52Z",
-    "updated_at": "2026-07-09T06:32:43Z",
+    "updated_at": "2026-07-15T09:14:09Z",
     "pushed_at": "2026-06-10T23:17:14Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": false,
@@ -54198,8 +54198,8 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2026-06-01T12:22:18Z",
-    "updated_at": "2026-07-14T14:38:29Z",
-    "pushed_at": "2026-07-14T14:36:46Z",
+    "updated_at": "2026-07-15T10:54:59Z",
+    "pushed_at": "2026-07-15T10:58:01Z",
     "discovered_at": "2026-07-09T13:39:01.645Z",
     "official": false,
     "extension": {
@@ -54316,8 +54316,8 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-03-09T03:40:37Z",
-    "updated_at": "2026-07-14T04:50:33Z",
-    "pushed_at": "2026-07-14T04:50:29Z",
+    "updated_at": "2026-07-15T09:18:59Z",
+    "pushed_at": "2026-07-15T10:49:06Z",
     "discovered_at": "2026-07-10T07:54:10.331Z",
     "official": false,
     "extension": {
@@ -54700,6 +54700,43 @@
         "Alex Zappa @ FreshJuice.dev"
       ],
       "repository": "https://github.com/freshjuice-dev/zed-themes",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "b4bury/zed-glass": {
+    "name": "b4bury/zed-glass",
+    "url": "https://github.com/b4bury/zed-glass",
+    "description": "Glass — a liquid-glass transparent theme for Zed (dark + light)",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "glass",
+      "theme",
+      "transparent",
+      "zed",
+      "zed-theme"
+    ],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-07-14T18:51:38Z",
+    "updated_at": "2026-07-15T10:48:54Z",
+    "pushed_at": "2026-07-15T10:48:49Z",
+    "discovered_at": "2026-07-15T13:06:05.297Z",
+    "official": false,
+    "extension": {
+      "id": "glass",
+      "name": "Glass",
+      "description": "Liquid glass — a transparent, frosted theme (dark + light) for Zed",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Hleb Bury <b4bury@gmail.com>"
+      ],
+      "repository": "https://github.com/b4bury/zed-glass",
       "snippets": null,
       "sections": [],
       "categories": [
