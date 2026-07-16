@@ -254,7 +254,7 @@
     "license": "NOASSERTION",
     "created_at": "2024-10-11T18:22:02Z",
     "updated_at": "2026-07-06T06:06:08Z",
-    "pushed_at": "2026-07-06T06:06:27Z",
+    "pushed_at": "2026-07-15T21:04:13Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -54066,8 +54066,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
-    "updated_at": "2026-07-15T18:59:24Z",
-    "pushed_at": "2026-07-15T18:59:20Z",
+    "updated_at": "2026-07-15T19:07:20Z",
+    "pushed_at": "2026-07-15T19:07:13Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false,
     "extension": {
@@ -54673,7 +54673,7 @@
     "name": "freshjuice-dev/zed-themes",
     "url": "https://github.com/freshjuice-dev/zed-themes",
     "description": "FreshJuice dark themes for Zed editor — fruit-named, high-contrast, warm palettes",
-    "stars": 0,
+    "stars": 1,
     "forks": 0,
     "topics": [
       "freshjuice",
@@ -54686,7 +54686,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-07-14T14:34:38Z",
-    "updated_at": "2026-07-15T00:10:20Z",
+    "updated_at": "2026-07-15T19:57:25Z",
     "pushed_at": "2026-07-15T00:10:16Z",
     "discovered_at": "2026-07-14T19:04:59.269Z",
     "official": false,
@@ -54737,6 +54737,43 @@
         "Hleb Bury <b4bury@gmail.com>"
       ],
       "repository": "https://github.com/b4bury/zed-glass",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "solace-theme/solace": {
+    "name": "Solace-Theme/Solace",
+    "url": "https://github.com/Solace-Theme/Solace",
+    "description": "A minimalistic theme with violet accents and pastel syntax. For Zed.",
+    "stars": 6,
+    "forks": 0,
+    "topics": [
+      "code-editor-extension",
+      "editor-theme",
+      "zed",
+      "zed-extension",
+      "zed-theme"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "created_at": "2026-06-21T17:14:44Z",
+    "updated_at": "2026-07-15T20:00:33Z",
+    "pushed_at": "2026-06-26T18:41:45Z",
+    "discovered_at": "2026-07-16T01:09:52.759Z",
+    "official": false,
+    "extension": {
+      "id": "solace-theme",
+      "name": "Solace",
+      "description": "A minimal Zed theme with violet undertones and pastel syntax.",
+      "version": "0.1.2",
+      "schema_version": 1,
+      "authors": [
+        "Bhavya Dang (bhavyadang.in)"
+      ],
+      "repository": "https://github.com/bhavya-dang/Solace",
       "snippets": null,
       "sections": [],
       "categories": [
