@@ -147,7 +147,7 @@
     "name": "Imgkl/the-dark-side",
     "url": "https://github.com/Imgkl/the-dark-side",
     "description": "True Dark Theme for Zed IDE",
-    "stars": 88,
+    "stars": 89,
     "forks": 6,
     "topics": [
       "zed-extension",
@@ -156,7 +156,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-07-16T04:44:51Z",
+    "updated_at": "2026-07-16T15:27:14Z",
     "pushed_at": "2026-07-16T04:44:47Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -197,7 +197,7 @@
     "license": "MIT",
     "created_at": "2024-08-27T10:31:46Z",
     "updated_at": "2026-07-12T17:40:02Z",
-    "pushed_at": "2026-07-10T02:09:59Z",
+    "pushed_at": "2026-07-16T17:03:34Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -367,7 +367,7 @@
     "name": "BenjaminHalko/flow-icons-zed",
     "url": "https://github.com/BenjaminHalko/flow-icons-zed",
     "description": "🌼 Flow Icons ported to Zed",
-    "stars": 28,
+    "stars": 27,
     "forks": 3,
     "topics": [
       "flow",
@@ -380,7 +380,7 @@
     "language": "JavaScript",
     "license": null,
     "created_at": "2025-12-03T23:34:48Z",
-    "updated_at": "2026-07-16T07:42:07Z",
+    "updated_at": "2026-07-16T17:16:33Z",
     "pushed_at": "2026-07-11T02:03:08Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
@@ -638,7 +638,7 @@
     "license": "GPL-3.0",
     "created_at": "2026-01-19T23:03:47Z",
     "updated_at": "2026-07-08T02:17:12Z",
-    "pushed_at": "2026-06-10T13:59:56Z",
+    "pushed_at": "2026-07-16T18:26:15Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -1555,7 +1555,7 @@
     "name": "tahayvr/matte-black-zed",
     "url": "https://github.com/tahayvr/matte-black-zed",
     "description": "A low distraction dark theme for Zed Editor",
-    "stars": 19,
+    "stars": 20,
     "forks": 3,
     "topics": [
       "theme",
@@ -1564,7 +1564,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2025-08-05T18:20:55Z",
-    "updated_at": "2026-07-01T18:29:58Z",
+    "updated_at": "2026-07-16T16:15:48Z",
     "pushed_at": "2026-04-15T01:07:20Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -6513,7 +6513,7 @@
     "name": "felipefdl/warm-burnout",
     "url": "https://github.com/felipefdl/warm-burnout",
     "description": "Mostly warm, WCAG-audited color theme suite with one cool type accent. For developers who are already burned out but still have deadlines.",
-    "stars": 101,
+    "stars": 102,
     "forks": 11,
     "topics": [
       "accessibility",
@@ -6540,7 +6540,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-03-13T20:17:28Z",
-    "updated_at": "2026-07-16T02:22:10Z",
+    "updated_at": "2026-07-16T17:33:11Z",
     "pushed_at": "2026-07-16T02:22:07Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": true
@@ -18180,8 +18180,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-07-16T07:31:05Z",
-    "pushed_at": "2026-07-16T07:30:40Z",
+    "updated_at": "2026-07-16T13:10:09Z",
+    "pushed_at": "2026-07-16T13:08:30Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -20835,13 +20835,18 @@
     "url": "https://github.com/ChunzhengLab/json5-zed-extension",
     "description": "JSON5 syntax highlighting support to Zed using Joakker's Tree-sitter.",
     "stars": 4,
-    "forks": 0,
-    "topics": [],
+    "forks": 1,
+    "topics": [
+      "json5",
+      "tree-sitter",
+      "zed",
+      "zed-extension"
+    ],
     "language": "Tree-sitter Query",
-    "license": null,
+    "license": "MIT",
     "created_at": "2025-05-13T08:42:51Z",
-    "updated_at": "2026-01-10T10:14:30Z",
-    "pushed_at": "2025-09-22T19:58:06Z",
+    "updated_at": "2026-07-16T13:13:54Z",
+    "pushed_at": "2026-07-16T13:06:27Z",
     "discovered_at": "2026-05-19T21:55:15.596Z",
     "official": true
   },
@@ -32179,8 +32184,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
-    "updated_at": "2026-07-15T19:07:20Z",
-    "pushed_at": "2026-07-15T19:07:13Z",
+    "updated_at": "2026-07-16T18:59:25Z",
+    "pushed_at": "2026-07-16T18:59:22Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false
   },
@@ -32490,7 +32495,7 @@
     "license": null,
     "created_at": "2026-04-21T09:59:34Z",
     "updated_at": "2026-07-14T21:01:52Z",
-    "pushed_at": "2026-07-14T21:01:28Z",
+    "pushed_at": "2026-07-16T17:52:49Z",
     "discovered_at": "2026-07-12T19:03:27.403Z",
     "official": false
   },
@@ -32734,6 +32739,27 @@
     "updated_at": "2026-07-15T20:00:33Z",
     "pushed_at": "2026-06-26T18:41:45Z",
     "discovered_at": "2026-07-16T01:09:52.759Z",
+    "official": false
+  },
+  "k6w/zed-blurred-macos": {
+    "name": "k6w/zed-blurred-macos",
+    "url": "https://github.com/k6w/zed-blurred-macos",
+    "description": "a collection of macos-inspired themes for the zed editor. 50 themes total: five palettes, light and dark, each shipped in five chrome variants from fully solid to fully translucent.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "javascript",
+      "macos",
+      "themes",
+      "zed",
+      "zed-editor"
+    ],
+    "language": "JavaScript",
+    "license": "MIT",
+    "created_at": "2026-06-06T19:01:35Z",
+    "updated_at": "2026-07-16T18:18:22Z",
+    "pushed_at": "2026-06-06T19:01:38Z",
+    "discovered_at": "2026-07-16T19:04:07.757Z",
     "official": false
   }
 }
