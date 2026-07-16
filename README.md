@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1602** |
 | In official registry | 1135 |
 | Discovered via topics | 467 |
-| Last updated | 2026-07-16 07:30 UTC |
+| Last updated | 2026-07-16 13:08 UTC |
 
 ### By capability
 
@@ -120,6 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [laurenzpavlosmalisianos/logos-theme](https://github.com/laurenzpavlosmalisianos/logos-theme) | 0 | 2026-07-16 | A personal theme for Zed with light, dark, and translucent b... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 88 | 2026-07-16 | True Dark Theme for Zed IDE |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 130 | 2026-07-15 | The Ruby language support for Zed editor |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-07-15 | High-performance, memory-safe, and native async Python MCP s... |
@@ -135,7 +136,6 @@ cd website && npm install && npm run dev
 | [0xdea/monokaiju-theme](https://github.com/0xdea/monokaiju-theme) | 2 | 2026-07-13 | A Zed theme inspired by Monokai Pro (CE). |
 | [pol-cova/cursor-theme-zed](https://github.com/pol-cova/cursor-theme-zed) | 0 | 2026-07-13 | A warm Cursor-inspired Zed theme with light and dark variant... |
 | [kjanat/zed-typescript](https://github.com/kjanat/zed-typescript) | 0 | 2026-07-13 | Runs the TypeScript 7+ language server in Zed. |
-| [laurenzpavlosmalisianos/logos-theme](https://github.com/laurenzpavlosmalisianos/logos-theme) | 0 | 2026-07-12 | A personal theme for Zed with light, dark, and translucent b... |
 | [MahoCommerce/zed](https://github.com/MahoCommerce/zed) | 1 | 2026-07-12 | Maho extension for Zed. |
 | [emirror-de/clearsight-zed](https://github.com/emirror-de/clearsight-zed) | 0 | 2026-07-11 | A scientifically-backed, accessibility-focused theme optimiz... |
 | [MiCkEyZzZ/uon-zed](https://github.com/MiCkEyZzZ/uon-zed) | 0 | 2026-07-11 | Поддержка формата данных UON для редактора Zed. |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-07-16T13:08 | 0 | 508 | 1931 |
 | 2026-07-16T07:30 | 0 | 508 | 1931 |
 | 2026-07-16T01:09 | 1 | 507 | 1931 |
 | 2026-07-15T19:04 | 0 | 508 | 1930 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-07-14T19:04 | 1 | 506 | 1929 |
 | 2026-07-14T13:05 | 1 | 505 | 1928 |
 | 2026-07-14T07:22 | 1 | 504 | 1927 |
-| 2026-07-14T01:06 | 0 | 504 | 1926 |
 
 ---
 
