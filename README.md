@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1602** |
 | In official registry | 1135 |
 | Discovered via topics | 467 |
-| Last updated | 2026-07-16 01:09 UTC |
+| Last updated | 2026-07-16 07:30 UTC |
 
 ### By capability
 
@@ -120,12 +120,12 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 88 | 2026-07-16 | True Dark Theme for Zed IDE |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 130 | 2026-07-15 | The Ruby language support for Zed editor |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-07-15 | High-performance, memory-safe, and native async Python MCP s... |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-07-15 | Zed editor support for Carve, a modern light markup language |
 | [felixtensor/zed-mlir-suite](https://github.com/felixtensor/zed-mlir-suite) | 2 | 2026-07-15 | The MLIR extension for Zed. |
 | [b4bury/zed-glass](https://github.com/b4bury/zed-glass) | 0 | 2026-07-15 | Glass — a liquid-glass transparent theme for Zed (dark + lig... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 88 | 2026-07-15 | True Dark Theme for Zed IDE |
 | [freshjuice-dev/zed-themes](https://github.com/freshjuice-dev/zed-themes) | 1 | 2026-07-15 | FreshJuice dark themes for Zed editor — fruit-named, high-co... |
 | [rami-shalhoub/comment-blocks-zed](https://github.com/rami-shalhoub/comment-blocks-zed) | 2 | 2026-07-14 | this extension provide comment snippets to add descriptive h... |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-07-14 | A Zed extension that allows to highlight all occurrences of ... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-07-16T07:30 | 0 | 508 | 1931 |
 | 2026-07-16T01:09 | 1 | 507 | 1931 |
 | 2026-07-15T19:04 | 0 | 508 | 1930 |
 | 2026-07-15T13:06 | 1 | 507 | 1930 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-07-14T13:05 | 1 | 505 | 1928 |
 | 2026-07-14T07:22 | 1 | 504 | 1927 |
 | 2026-07-14T01:06 | 0 | 504 | 1926 |
-| 2026-07-13T19:07 | 2 | 502 | 1926 |
 
 ---
 

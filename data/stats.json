@@ -1,34 +1,6 @@
 {
   "runs": [
     {
-      "timestamp": "2026-06-21T12:39:49.179Z",
-      "fetched": 711,
-      "unique": 543,
-      "new": 1,
-      "updated": 476,
-      "archived": 0,
-      "total": 1865,
-      "queries": {
-        "@official-registry": 104,
-        "topic:zed-extension": 328,
-        "topic:zed-extensions": 6,
-        "topic:zed-editor": 109,
-        "topic:zed-plugin": 0,
-        "topic:zed-theme": 154,
-        "topic:zed-themes": 3,
-        "topic:zed-icon-theme": 5,
-        "topic:zed-language": 2,
-        "topic:zed-grammar": 0,
-        "topic:zed-lsp": 0,
-        "topic:zed-snippets": 0,
-        "topic:zed-slash-command": 0,
-        "topic:zed-context-server": 0,
-        "topic:zed+language:Rust": 0,
-        "zed-+in:name+language:Rust": 0,
-        "zed+extension+in:name": 0
-      }
-    },
-    {
       "timestamp": "2026-06-21T18:31:41.942Z",
       "fetched": 712,
       "unique": 544,
@@ -2799,8 +2771,36 @@
         "zed-+in:name+language:Rust": 0,
         "zed+extension+in:name": 0
       }
+    },
+    {
+      "timestamp": "2026-07-16T07:30:10.299Z",
+      "fetched": 748,
+      "unique": 574,
+      "new": 0,
+      "updated": 508,
+      "archived": 0,
+      "total": 1931,
+      "queries": {
+        "@official-registry": 101,
+        "topic:zed-extension": 346,
+        "topic:zed-extensions": 7,
+        "topic:zed-editor": 117,
+        "topic:zed-plugin": 0,
+        "topic:zed-theme": 166,
+        "topic:zed-themes": 4,
+        "topic:zed-icon-theme": 5,
+        "topic:zed-language": 2,
+        "topic:zed-grammar": 0,
+        "topic:zed-lsp": 0,
+        "topic:zed-snippets": 0,
+        "topic:zed-slash-command": 0,
+        "topic:zed-context-server": 0,
+        "topic:zed+language:Rust": 0,
+        "zed-+in:name+language:Rust": 0,
+        "zed+extension+in:name": 0
+      }
     }
   ],
   "total_discovered": 1931,
-  "last_run": "2026-07-16T01:09:53.542Z"
+  "last_run": "2026-07-16T07:30:10.300Z"
 }
