@@ -3693,7 +3693,7 @@
     "name": "chopratejas/headroom-zed",
     "url": "https://github.com/chopratejas/headroom-zed",
     "description": "Zed extension for Headroom — context compression for AI agents",
-    "stars": 43,
+    "stars": 45,
     "forks": 8,
     "topics": [
       "ai-agents",
@@ -3710,7 +3710,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-03-18T16:55:33Z",
-    "updated_at": "2026-07-17T12:29:08Z",
+    "updated_at": "2026-07-17T14:34:31Z",
     "pushed_at": "2026-03-18T16:55:38Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false,
@@ -8310,7 +8310,7 @@
     "name": "alanisme/vscode-themes-for-zed",
     "url": "https://github.com/alanisme/vscode-themes-for-zed",
     "description": "❤️ All 19 built-in Visual Studio Code color themes, ported to Zed.",
-    "stars": 18,
+    "stars": 19,
     "forks": 0,
     "topics": [
       "color-theme",
@@ -8324,7 +8324,7 @@
     "language": "TypeScript",
     "license": "MIT",
     "created_at": "2026-03-09T00:14:00Z",
-    "updated_at": "2026-07-12T06:13:46Z",
+    "updated_at": "2026-07-17T18:30:15Z",
     "pushed_at": "2026-06-29T15:33:19Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": true,
@@ -11430,13 +11430,13 @@
     "name": "zed-extensions/typst",
     "url": "https://github.com/zed-extensions/typst",
     "description": "Typst extension for zed",
-    "stars": 186,
+    "stars": 187,
     "forks": 15,
     "topics": [],
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2024-04-27T19:27:52Z",
-    "updated_at": "2026-07-15T09:14:09Z",
+    "updated_at": "2026-07-17T17:36:08Z",
     "pushed_at": "2026-06-10T23:17:14Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": false,
@@ -22847,7 +22847,7 @@
     "name": "zarifpour/zed-env",
     "url": "https://github.com/zarifpour/zed-env",
     "description": "🔐 env support for Zed.",
-    "stars": 56,
+    "stars": 57,
     "forks": 2,
     "topics": [
       "dotenv",
@@ -22864,7 +22864,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-07-12T02:40:18Z",
-    "updated_at": "2026-07-12T20:48:48Z",
+    "updated_at": "2026-07-17T17:51:52Z",
     "pushed_at": "2024-11-13T21:48:13Z",
     "discovered_at": "2026-05-19T20:52:12.309Z",
     "official": true,
@@ -54071,8 +54071,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
-    "updated_at": "2026-07-17T12:07:52Z",
-    "pushed_at": "2026-07-17T12:07:13Z",
+    "updated_at": "2026-07-17T19:02:22Z",
+    "pushed_at": "2026-07-17T19:01:16Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false,
     "extension": {
@@ -54691,8 +54691,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-07-14T14:34:38Z",
-    "updated_at": "2026-07-15T19:57:25Z",
-    "pushed_at": "2026-07-15T00:10:16Z",
+    "updated_at": "2026-07-17T19:00:59Z",
+    "pushed_at": "2026-07-17T19:00:33Z",
     "discovered_at": "2026-07-14T19:04:59.269Z",
     "official": true,
     "extension": {
@@ -55008,8 +55008,8 @@
     "language": "Java",
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
-    "updated_at": "2026-07-17T12:44:04Z",
-    "pushed_at": "2026-07-17T13:03:44Z",
+    "updated_at": "2026-07-17T16:01:32Z",
+    "pushed_at": "2026-07-17T16:05:24Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false,
     "extension": {
@@ -55066,6 +55066,44 @@
       "sections": [],
       "categories": [
         "theme"
+      ]
+    }
+  },
+  "pursvir/zed-pgn": {
+    "name": "pursvir/zed-pgn",
+    "url": "https://github.com/pursvir/zed-pgn",
+    "description": "Portable Game Notation support for Zed.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "chess",
+      "pgn",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2026-07-15T10:04:54Z",
+    "updated_at": "2026-07-17T16:18:56Z",
+    "pushed_at": "2026-07-15T10:05:12Z",
+    "discovered_at": "2026-07-17T19:03:58.553Z",
+    "official": false,
+    "extension": {
+      "id": "pgn",
+      "name": "PGN",
+      "description": "PGN support.",
+      "version": "0.1",
+      "schema_version": 1,
+      "authors": [
+        "pursvir"
+      ],
+      "repository": "https://github.com/pursvir/zed-pgn",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
       ]
     }
   }
