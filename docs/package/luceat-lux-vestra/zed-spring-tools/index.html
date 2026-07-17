@@ -1,0 +1,143 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Zed Spring Tools - Zed Extension Safari</title><meta name="description" content="Experimental Spring Boot language intelligence for Zed, built on the required official Java extension. Early source release; one tested tuple (macOS arm64/JDK 25)."><link rel="canonical" href="https://helgesverre.github.io/gh-packages-zed/package/luceat-lux-vestra/zed-spring-tools/"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Zed Spring Tools - Zed Extension Safari"><meta property="og:description" content="Experimental Spring Boot language intelligence for Zed, built on the required official Java extension. Early source release; one tested tuple (macOS arm64/JDK 25)."><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed/package/luceat-lux-vestra/zed-spring-tools/"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Zed Spring Tools - Zed Extension Safari"><meta name="twitter:description" content="Experimental Spring Boot language intelligence for Zed, built on the required official Java extension. Early source release; one tested tuple (macOS arm64/JDK 25)."><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/gh-packages-zed/_astro/ClientRouter.astro_astro_type_script_index_0_lang.ClVLs1kt.js"></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Zed Spring Tools","description":"Experimental Spring Boot language intelligence for Zed, built on the required official Java extension. Early source release; one tested tuple (macOS arm64/JDK 25).","applicationCategory":"DeveloperApplication","operatingSystem":"macOS, Linux, Windows","url":"https://zed.dev/extensions/zed-spring-tools","codeRepository":"https://github.com/luceat-lux-vestra/zed-spring-tools","author":[{"@type":"Person","name":"Zed Spring Tools Contributors"}],"softwareVersion":"0.1.0-alpha.1","license":"Apache-2.0","keywords":"language-server","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/Layout.CGDlMdWE.css"><script type="module" src="/gh-packages-zed/_astro/page.B8i1Zz-u.js"></script></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <a href="#main" class="skip-to-content">Skip to content</a> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" data-astro-transition-persist="astro-fhchcgd7-1"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <script type="application/json" id="pkg-extras">{"url":"https://github.com/luceat-lux-vestra/zed-spring-tools","language":"Java","license":"Apache-2.0","topics":["java","jdt-ls","language-server","lsp","spring","spring-boot","zed","zed-extension"],"extension":{"authors":["Zed Spring Tools Contributors"],"schema_version":1}}</script> <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> luceat-lux-vestra/zed-spring-tools </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> Zed Spring Tools </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> Spring Boot language intelligence for Zed using the required official Java extension. </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="language-server">Language Server</span> </div> </div> </div> </header> <main id="main" class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/zed-spring-tools" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/luceat-lux-vestra/zed-spring-tools" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.1.0-alpha.1</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">zed-spring-tools</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">Java</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">Apache-2.0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">2m ago</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">Zed Spring Tools Contributors</dd> </div> </dl>  <h2 class="mt-5 text-xs uppercase font-mono" style="color:var(--zed-muted);">Topics</h2> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> java </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> jdt-ls </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> language-server </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> lsp </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> spring </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> spring-boot </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed-extension </span> </div>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-zed-spring-tools"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#zed-spring-tools"><span class="heading-anchor-icon">#</span></a>Zed Spring Tools</h1>
+<p>This is an experimental repository. It has completed its source-based
+feasibility phase, its basic local end-to-end PoC, and the source-separated
+product scaffold that D004 requires. On macOS arm64/JDK 25 a clean development
+install now returns real Spring Boot property completions through the product
+extension. It is <strong>not</strong> a stable release and claims no tested platform other
+than that tuple.</p>
+<p>S010 proved a managed JDT launch that keeps writable Equinox private state
+outside the fixed distribution. S011 then proved the real Spring classpath
+callback, project-cache transition, and a visible attributable <code>server.port</code>
+completion through Zed. S012 reproduced that functional path with the official
+Java extension and proxy unmodified, and S013 corrected and verified the exact
+listener-removal contract. D002 and D003 therefore select a separately
+installed Spring companion that explicitly requires the official Zed Java
+extension and uses its JDT LS. A reduced self-managed JDT fallback is not part
+of the initial product. D004 then fixed the product stack, and the product
+scaffold and its macOS arm64 vertical slice now exist in this tree.</p>
+<p>The long-term product goal is capability parity with VS Code Spring Tools. A
+capability may use a Zed-native workflow instead of copying VS Code's UI, but it
+must not silently disappear from the target because the current Zed API lacks a
+surface. Such gaps remain tracked for an alternative design or upstream work.
+The auditable list is the <a href="https://github.com/luceat-lux-vestra/zed-spring-tools/blob/HEAD/docs/capability-inventory.md" target="_blank" rel="noopener">capability inventory</a>.
+At inventory version 2, it tracks 46 capabilities, of which 4 are <code>verified</code>.</p>
+<p>Development is local-first: complete a useful macOS arm64 PoC, publish the source
+repository on GitHub with an experimental status, and then develop capabilities
+and platform validation in public. The extension is intended to be installable
+on every Zed-supported macOS, Linux, and Windows desktop, but untested platforms
+will remain explicitly unverified until the matrix in
+<a href="https://github.com/luceat-lux-vestra/zed-spring-tools/blob/HEAD/docs/spikes/prerequisites.md" target="_blank" rel="noopener">the prerequisite document</a> runs.</p>
+<h2 id="user-content-current-phase"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#current-phase"><span class="heading-anchor-icon">#</span></a>Current phase</h2>
+<p>Research, prerequisite isolation, the fixed local Spring Boot end-to-end PoC,
+and the product scaffold are complete. On macOS 26.5.1 arm64 with Temurin JDK
+25.0.3, the same real Spring Boot LS child produced an empty completion
+baseline, received the authentic JDT classpath callback, populated its project
+cache, and later returned one visible <code>server.port</code> completion to Zed. S013 also
+completed the authentic listener-removal and owned-route cleanup path.</p>
+<p>The product extension now reproduces that flow from a clean development install
+rather than from a hand-prepared spike worktree: it materializes its own
+coordinator and bridge, acquires the pinned unchanged Spring artifact, discovers
+the official Java provider, and returns real Spring Boot property completions.
+An audit of the run's logs found no credential and no classpath payload, and no
+owned process or owned route survived it.</p>
+<p>Unhandled <code>vscode-spring-boot.ls.start</code> and <code>sts/javaType</code> client requests remain
+product work, and the extension is not yet a general Spring feature
+implementation. See <a href="https://github.com/luceat-lux-vestra/zed-spring-tools/blob/HEAD/LIMITATIONS.md" target="_blank" rel="noopener">known limitations</a>.</p>
+<p><a href="https://github.com/luceat-lux-vestra/zed-spring-tools/blob/HEAD/docs/decisions/002-pivot-to-versioned-coordination.md" target="_blank" rel="noopener">D002</a> passes the
+direction gate with <strong>Pivot</strong>: <code>zed-spring-tools</code> is an official-Java companion,
+loads reviewed Spring bridge bundles into the Java-owned JDT LS, and owns the
+Spring coordinator and Spring Boot LS. The Java extension remains unmodified in
+the target architecture. <a href="https://github.com/luceat-lux-vestra/zed-spring-tools/blob/HEAD/docs/research/009-unmodified-java-companion-boundary.md" target="_blank" rel="noopener">R009</a>
+defines the remaining reverse-callback boundary.
+<a href="https://github.com/luceat-lux-vestra/zed-spring-tools/blob/HEAD/docs/spikes/012-unmodified-java-companion-bridge.md" target="_blank" rel="noopener">S012</a> proved that boundary
+and the visible completion with official Java unmodified, but failed its strict
+removal criterion because the coordinator rejected the authentic Spring removal
+shape before bridge transport. The narrow
+<a href="https://github.com/luceat-lux-vestra/zed-spring-tools/blob/HEAD/docs/spikes/013-authentic-spring-removal-contract.md" target="_blank" rel="noopener">S013</a> cleanup contract
+then passed on the fixed tuple, so
+<a href="https://github.com/luceat-lux-vestra/zed-spring-tools/blob/HEAD/docs/decisions/003-java-companion-product-architecture.md" target="_blank" rel="noopener">D003</a> is accepted.
+<a href="https://github.com/luceat-lux-vestra/zed-spring-tools/blob/HEAD/docs/decisions/004-product-stack-build-and-packaging.md" target="_blank" rel="noopener">D004</a> then selected the
+product stack that the current scaffold implements.</p>
+<p>The work in this phase must:</p>
+<ul>
+<li>distinguish confirmed facts from inferences and hypotheses;</li>
+<li>cite primary sources and relevant source-code locations;</li>
+<li>record reproducible runtime observations;</li>
+<li>identify client, server, distribution, and licensing constraints;</li>
+<li>keep production code separated from <code>spikes/</code> and free of copied spike
+infrastructure, committed third-party binaries, and official-Java mutation;
+and</li>
+<li>label every capability and platform by its evidence, so an untested target
+stays <code>untested</code> rather than becoming an implied support claim.</li>
+</ul>
+<h2 id="user-content-repository-layout"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#repository-layout"><span class="heading-anchor-icon">#</span></a>Repository layout</h2>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span>src/            # Rust/WASM Zed extension adapter</span></span>
+<span class="line"><span>coordinator/    # Dependency-free Node Spring coordinator and its tests</span></span>
+<span class="line"><span>bridge/         # Java bridge contributed to the Java-owned JDT LS</span></span>
+<span class="line"><span>protocol/       # Versioned schemas and fixtures for the Java boundary</span></span>
+<span class="line"><span>scripts/        # Local PoC preparation and bridge verification</span></span>
+<span class="line"><span>tests/          # Product fixtures</span></span>
+<span class="line"><span>docs/</span></span>
+<span class="line"><span>├── decisions/  # Decisions made from research and spike evidence</span></span>
+<span class="line"><span>├── research/   # Source-based technical investigations</span></span>
+<span class="line"><span>└── spikes/     # Reproducible feasibility experiments</span></span>
+<span class="line"><span>spikes/         # Disposable experiment code; never production code</span></span></code></pre>
+<p>Production code under the first six directories is source-separated from
+<code>spikes/</code>, which stays disposable evidence and is never promoted. D002 selects
+the technical direction, accepted D003 plus S013 close the architecture evidence
+gate, and D004 fixes the stack that the current scaffold implements. Product CI
+does not exist yet.</p>
+<p>An initial public GitHub source release is not a multiplatform support claim or
+a stable Zed Marketplace release. It must not include the Spring VSIX or
+extracted third-party binaries.</p>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>This project is licensed under the <a href="https://github.com/luceat-lux-vestra/zed-spring-tools/blob/HEAD/LICENSE" target="_blank" rel="noopener">Apache License 2.0</a>.</p>
+<p>That license covers this repository's own source. It does not relicense any
+third-party material: the Spring Tools VSIX remains Eclipse Public License 1.0
+and the official Zed Java extension remains under its own upstream license.
+Neither is committed here. See <a href="https://github.com/luceat-lux-vestra/zed-spring-tools/blob/HEAD/THIRD_PARTY_NOTICES.md" target="_blank" rel="noopener">third-party material</a>
+for the exact boundaries.</p>
+<h2 id="user-content-primary-research-question"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#primary-research-question"><span class="heading-anchor-icon">#</span></a>Primary research question</h2>
+<blockquote>
+<p>What process and protocol structure is required for a Zed extension to run and
+coordinate JDT LS and the Spring Tools Language Server?</p>
+</blockquote>
+<p>See <a href="https://github.com/luceat-lux-vestra/zed-spring-tools/blob/HEAD/docs/research/README.md" target="_blank" rel="noopener">the research index</a>,
+<a href="https://github.com/luceat-lux-vestra/zed-spring-tools/blob/HEAD/docs/spikes/README.md" target="_blank" rel="noopener">the spike index</a>, and
+<a href="https://github.com/luceat-lux-vestra/zed-spring-tools/blob/HEAD/docs/decisions/README.md" target="_blank" rel="noopener">the decision index</a> for the evidence and selected
+direction. The reviewed next milestones are in the
+<a href="https://github.com/luceat-lux-vestra/zed-spring-tools/blob/HEAD/docs/implementation-plan.md" target="_blank" rel="noopener">product implementation and public-development plan</a>.</p>
+<p>For the concise public boundary, see <a href="https://github.com/luceat-lux-vestra/zed-spring-tools/blob/HEAD/COMPATIBILITY.md" target="_blank" rel="noopener">compatibility</a>,
+<a href="https://github.com/luceat-lux-vestra/zed-spring-tools/blob/HEAD/LIMITATIONS.md" target="_blank" rel="noopener">known limitations</a>, and <a href="https://github.com/luceat-lux-vestra/zed-spring-tools/blob/HEAD/THIRD_PARTY_NOTICES.md" target="_blank" rel="noopener">third-party material</a>.</p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>
