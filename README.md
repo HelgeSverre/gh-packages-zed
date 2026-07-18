@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1613** |
 | In official registry | 1142 |
 | Discovered via topics | 471 |
-| Last updated | 2026-07-18 07:15 UTC |
+| Last updated | 2026-07-18 13:04 UTC |
 
 ### By capability
 
@@ -120,16 +120,16 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [anidotdev/love2d-zed](https://github.com/anidotdev/love2d-zed) | 0 | 2026-07-18 | A Zed extension for developing games with the LÖVE framework... |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-07-18 | High-performance, memory-safe, and native async Python MCP s... |
+| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 0 | 2026-07-18 | Experimental Spring Boot language intelligence for Zed, buil... |
+| [anidotdev/love2d-zed](https://github.com/anidotdev/love2d-zed) | 0 | 2026-07-18 | A Zed extension for developing games with the LÖVE framework... |
+| [leolorenzato/zed-pastel-night-theme](https://github.com/leolorenzato/zed-pastel-night-theme) | 0 | 2026-07-18 | 🌃 Pastel Night theme for Zed |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 89 | 2026-07-18 | True Dark Theme for Zed IDE |
 | [DuskSystems/zed-cedar](https://github.com/DuskSystems/zed-cedar) | 1 | 2026-07-18 | Cedar language support for Zed. |
-| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 0 | 2026-07-18 | Experimental Spring Boot language intelligence for Zed, buil... |
 | [kr-aman-sharma/idx-theme](https://github.com/kr-aman-sharma/idx-theme) | 0 | 2026-07-17 | Project IDX is alive |
 | [freshjuice-dev/zed-themes](https://github.com/freshjuice-dev/zed-themes) | 1 | 2026-07-17 | FreshJuice dark themes for Zed editor — fruit-named, high-co... |
 | [rux-lang/Zed](https://github.com/rux-lang/Zed) | 4 | 2026-07-17 | Zed extension for the Rux programming language |
 | [b4bury/zed-glass](https://github.com/b4bury/zed-glass) | 0 | 2026-07-17 | Glass — a liquid-glass transparent theme for Zed (dark + lig... |
-| [leolorenzato/zed-pastel-night-theme](https://github.com/leolorenzato/zed-pastel-night-theme) | 0 | 2026-07-17 | 🌃 Pastel Night theme for Zed |
 | [emirror-de/quietude-zed](https://github.com/emirror-de/quietude-zed) | 0 | 2026-07-17 | A calm, warm monochrome theme for Zed, engineered to reduce ... |
 | [xXCHAVOTAXx/candela-theme](https://github.com/xXCHAVOTAXx/candela-theme) | 0 | 2026-07-17 | Warm, low-fatigue Zed theme (dark + light) with OKLCH-unifor... |
 | [kjanat/zed-typescript](https://github.com/kjanat/zed-typescript) | 0 | 2026-07-16 | Runs the TypeScript 7+ language server in Zed. |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-07-18T13:04 | 0 | 516 | 1942 |
 | 2026-07-18T07:15 | 1 | 515 | 1942 |
 | 2026-07-18T01:08 | 1 | 514 | 1941 |
 | 2026-07-17T19:03 | 1 | 513 | 1940 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-07-16T19:04 | 1 | 509 | 1932 |
 | 2026-07-16T13:08 | 0 | 508 | 1931 |
 | 2026-07-16T07:30 | 0 | 508 | 1931 |
-| 2026-07-16T01:09 | 1 | 507 | 1931 |
 
 ---
 
