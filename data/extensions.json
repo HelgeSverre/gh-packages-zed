@@ -141,8 +141,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-07-17T04:47:51Z",
-    "pushed_at": "2026-07-17T04:47:47Z",
+    "updated_at": "2026-07-18T04:33:08Z",
+    "pushed_at": "2026-07-18T04:33:05Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -3693,7 +3693,7 @@
     "name": "chopratejas/headroom-zed",
     "url": "https://github.com/chopratejas/headroom-zed",
     "description": "Zed extension for Headroom — context compression for AI agents",
-    "stars": 46,
+    "stars": 49,
     "forks": 8,
     "topics": [
       "ai-agents",
@@ -3710,7 +3710,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-03-18T16:55:33Z",
-    "updated_at": "2026-07-17T21:55:17Z",
+    "updated_at": "2026-07-18T07:01:13Z",
     "pushed_at": "2026-03-18T16:55:38Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false,
@@ -5100,7 +5100,7 @@
     "name": "zarifpour/xy-zed",
     "url": "https://github.com/zarifpour/xy-zed",
     "description": "🐈‍⬛ A sleek and sophisticated dark theme for Zed with vibrant, intelligent syntax highlighting.",
-    "stars": 83,
+    "stars": 84,
     "forks": 7,
     "topics": [
       "dark",
@@ -5118,7 +5118,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T22:41:16Z",
-    "updated_at": "2026-07-10T04:59:02Z",
+    "updated_at": "2026-07-18T01:09:22Z",
     "pushed_at": "2026-01-27T20:33:16Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -5416,8 +5416,8 @@
     "language": "Tree-sitter Query",
     "license": "Apache-2.0",
     "created_at": "2026-01-10T23:51:38Z",
-    "updated_at": "2026-01-12T15:17:19Z",
-    "pushed_at": "2026-01-12T15:17:16Z",
+    "updated_at": "2026-07-18T02:03:23Z",
+    "pushed_at": "2026-07-18T02:03:18Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false,
     "extension": {
@@ -8800,7 +8800,7 @@
     "name": "cange/nightfox.zed",
     "url": "https://github.com/cange/nightfox.zed",
     "description": "🦊 Zed editor theme ported from Neovim",
-    "stars": 156,
+    "stars": 157,
     "forks": 5,
     "topics": [
       "zed",
@@ -8809,7 +8809,7 @@
     "language": "Lua",
     "license": "MIT",
     "created_at": "2024-05-02T20:49:30Z",
-    "updated_at": "2026-07-14T06:52:55Z",
+    "updated_at": "2026-07-18T06:27:26Z",
     "pushed_at": "2026-07-09T18:20:20Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": true,
@@ -54071,8 +54071,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
-    "updated_at": "2026-07-17T20:36:03Z",
-    "pushed_at": "2026-07-17T20:35:59Z",
+    "updated_at": "2026-07-18T04:46:32Z",
+    "pushed_at": "2026-07-18T04:46:28Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false,
     "extension": {
@@ -55008,8 +55008,8 @@
     "language": "Java",
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
-    "updated_at": "2026-07-17T20:35:31Z",
-    "pushed_at": "2026-07-17T20:35:21Z",
+    "updated_at": "2026-07-18T01:53:14Z",
+    "pushed_at": "2026-07-18T01:53:12Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false,
     "extension": {
@@ -55139,6 +55139,53 @@
       "sections": [],
       "categories": [
         "theme"
+      ]
+    }
+  },
+  "anidotdev/love2d-zed": {
+    "name": "anidotdev/love2d-zed",
+    "url": "https://github.com/anidotdev/love2d-zed",
+    "description": "A Zed extension for developing games with the LÖVE framework.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "extension",
+      "gamedev",
+      "love",
+      "love2d",
+      "lua",
+      "lua-programming",
+      "rust",
+      "rust-library",
+      "wasm",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Lua",
+    "license": "MIT",
+    "created_at": "2026-07-18T05:02:38Z",
+    "updated_at": "2026-07-18T07:10:19Z",
+    "pushed_at": "2026-07-18T07:10:04Z",
+    "discovered_at": "2026-07-18T07:15:57.436Z",
+    "official": false,
+    "extension": {
+      "id": "love2d",
+      "name": "Love2D",
+      "description": "A Zed extension for developing games with the LÖVE framework.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Animesh Gautam"
+      ],
+      "repository": "https://github.com/anidotdev/love2d-zed",
+      "snippets": null,
+      "sections": [
+        "language_servers",
+        "grammars"
+      ],
+      "categories": [
+        "grammar",
+        "language-server"
       ]
     }
   }
