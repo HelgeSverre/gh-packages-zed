@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1613-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1614-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,18 +14,18 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1613** |
+| Total tracked | **1614** |
 | In official registry | 1142 |
-| Discovered via topics | 471 |
-| Last updated | 2026-07-18 19:03 UTC |
+| Discovered via topics | 472 |
+| Last updated | 2026-07-19 01:11 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
 | Themes | 680 |
-| Grammars | 558 |
-| Language Servers | 519 |
+| Grammars | 559 |
+| Language Servers | 520 |
 | Context Servers | 133 |
 | Snippets | 71 |
 | Slash Commands | 57 |
@@ -70,6 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [polina4096/zed-rune-lsp](https://github.com/polina4096/zed-rune-lsp) | 0 | Zed extension for the Rune programming language. |
 | [anidotdev/love2d-zed](https://github.com/anidotdev/love2d-zed) | 0 | A Zed extension for developing games with the LÖVE framework. |
 | [kr-aman-sharma/idx-theme](https://github.com/kr-aman-sharma/idx-theme) | 0 | Project IDX is alive |
 | [pursvir/zed-pgn](https://github.com/pursvir/zed-pgn) | 0 | Portable Game Notation support for Zed. |
@@ -81,7 +82,7 @@ cd website && npm install && npm run dev
 | [leolorenzato/zed-pastel-night-theme](https://github.com/leolorenzato/zed-pastel-night-theme) | 0 | 🌃 Pastel Night theme for Zed |
 | [xXCHAVOTAXx/candela-theme](https://github.com/xXCHAVOTAXx/candela-theme) | 0 | Warm, low-fatigue Zed theme (dark + light) with OKLCH-uniform accents and verifi... |
 | [k6w/zed-blurred-macos](https://github.com/k6w/zed-blurred-macos) | 0 | a collection of macos-inspired themes for the zed editor. 50 themes total: five ... |
-| [Solace-Theme/Solace](https://github.com/Solace-Theme/Solace) | 6 | A minimalistic theme with violet accents and pastel syntax. For Zed. |
+| [Solace-Theme/Solace](https://github.com/Solace-Theme/Solace) | 7 | A minimalistic theme with violet accents and pastel syntax. For Zed. |
 | [b4bury/zed-glass](https://github.com/b4bury/zed-glass) | 0 | Glass — a liquid-glass transparent theme for Zed (dark + light) |
 | [freshjuice-dev/zed-themes](https://github.com/freshjuice-dev/zed-themes) | 1 | FreshJuice dark themes for Zed editor — fruit-named, high-contrast, warm palette... |
 | [emirror-de/quietude-zed](https://github.com/emirror-de/quietude-zed) | 0 | A calm, warm monochrome theme for Zed, engineered to reduce eye strain during lo... |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [petercr/varlock-zed-extension](https://github.com/petercr/varlock-zed-extension) | 2 | Zed port of the Varlock VS Code @env-spec extension for .env.schema files. |
 | [laurenzpavlosmalisianos/logos-theme](https://github.com/laurenzpavlosmalisianos/logos-theme) | 0 | A personal theme for Zed with light, dark, and translucent blur variants. |
 | [0xdea/monokaiju-theme](https://github.com/0xdea/monokaiju-theme) | 2 | A Zed theme inspired by Monokai Pro (CE). |
-| [swaynehales/mostacho-solo](https://github.com/swaynehales/mostacho-solo) | 0 | A warm/dark theme for Zed. "Hold the crema." |
 
 ## Top starred (under 500)
 
@@ -120,8 +120,10 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-07-18 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 0 | 2026-07-18 | Experimental Spring Boot language intelligence for Zed, buil... |
+| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-07-18 | Intelligent codebase search & indexing for Zed. Async MCP se... |
+| [polina4096/zed-rune-lsp](https://github.com/polina4096/zed-rune-lsp) | 0 | 2026-07-18 | Zed extension for the Rune programming language. |
+| [laurenzpavlosmalisianos/logos-theme](https://github.com/laurenzpavlosmalisianos/logos-theme) | 0 | 2026-07-18 | A personal theme for Zed with light, dark, and translucent b... |
 | [DuskSystems/zed-cedar](https://github.com/DuskSystems/zed-cedar) | 1 | 2026-07-18 | Cedar language support for Zed. |
 | [leolorenzato/zed-pastel-night-theme](https://github.com/leolorenzato/zed-pastel-night-theme) | 0 | 2026-07-18 | 🌃 Pastel Night theme for Zed |
 | [anidotdev/love2d-zed](https://github.com/anidotdev/love2d-zed) | 0 | 2026-07-18 | A Zed extension for developing games with the LÖVE framework... |
@@ -136,15 +138,14 @@ cd website && npm install && npm run dev
 | [schemalock/zed](https://github.com/schemalock/zed) | 0 | 2026-07-16 | SchemaLock language server extension for the Zed editor |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 202 | 2026-07-16 | Zed plugin for automatic time tracking and metrics generated... |
 | [ChunzhengLab/json5-zed-extension](https://github.com/ChunzhengLab/json5-zed-extension) | 5 | 2026-07-16 | JSON5 syntax highlighting support to Zed using Joakker's Tre... |
-| [laurenzpavlosmalisianos/logos-theme](https://github.com/laurenzpavlosmalisianos/logos-theme) | 0 | 2026-07-16 | A personal theme for Zed with light, dark, and translucent b... |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 130 | 2026-07-15 | The Ruby language support for Zed editor |
 | [guntherdoescode/orange](https://github.com/guntherdoescode/orange) | 0 | 2026-07-15 | Orange on Black theme for Zed |
-| [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-07-15 | Zed editor support for Carve, a modern light markup language |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-07-19T01:11 | 1 | 516 | 1943 |
 | 2026-07-18T19:03 | 0 | 516 | 1942 |
 | 2026-07-18T13:04 | 0 | 516 | 1942 |
 | 2026-07-18T07:15 | 1 | 515 | 1942 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-07-17T07:28 | 1 | 510 | 1933 |
 | 2026-07-17T01:11 | 0 | 510 | 1932 |
 | 2026-07-16T19:04 | 1 | 509 | 1932 |
-| 2026-07-16T13:08 | 0 | 508 | 1931 |
 
 ---
 

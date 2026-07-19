@@ -1,0 +1,15 @@
+id = "rune"
+name = "Rune"
+description = "Rune language support: syntax highlighting, outline, and the Rune language server."
+version = "0.1.0"
+schema_version = 1
+authors = ["polina4096"]
+repository = "https://github.com/polina4096/zed-rune-lsp"
+
+[language_servers.rune-languageserver]
+name = "Rune Language Server"
+languages = ["Rune"]
+
+[grammars.rune]
+repository = "https://github.com/zhuhaow/tree-sitter-rune"
+rev = "91dd6fa73fb14a02c728601ae0a853238625b627"
