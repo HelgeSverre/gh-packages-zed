@@ -6,67 +6,168 @@
 
 # MSCodebase Intelligence
 
-**AI-powered semantic code search for Zed IDE**
+**AI-powered semantic code search for Zed IDE — deep code analysis MCP server**
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![MCP](https://img.shields.io/badge/MCP-compatible-green.svg)](https://modelcontextprotocol.io/)
 [![Zed](https://img.shields.io/badge/Zed-extension-orange.svg)](https://zed.dev/)
-[![Tests](https://img.shields.io/badge/tests-391%20passing-brightgreen)](tests/)
+[![Tests](https://img.shields.io/badge/tests-605%20total-brightgreen)](tests/)
 
-[Features](#-features) • [Quick Start](#-quick-start) • [Tools](#-mcp-tools-43-total) • [Documentation](#-documentation-map) • [Installation](docs/en/INSTALL.md) • [Architecture](docs/en/ARCHITECTURE.md) • [Contributing](CONTRIBUTING.md) • [Security](SECURITY.md)
+[Features](#-features) • [Quick Start](#-quick-start) • [Tools](#-mcp-tools-38-total) • [Documentation](#-documentation-map) • [Installation](docs/en/INSTALL.md) • [Architecture](docs/en/ARCHITECTURE.md) • [Contributing](CONTRIBUTING.md) • [Security](SECURITY.md)
 
-*Last updated: 2026-07-07*
+*Last updated: 2026-07-18*
 
 </div>
 
 ---
+
+## 🎯 Positioning
+
+**MSCodeBase Intelligence** is an MCP server for **Zed IDE** that gives AI assistants **deep understanding of the entire codebase**: semantic search, call graph, project memory, diagnostics.
+
+This is **not** an LSP server or a replacement for the editor's built-in autocomplete. It's a "code intelligence" layer on top of the editor:
+
+```
+┌─────────────────────────────────────────────────────┐
+│                      Zed IDE                         │
+│  ┌───────────────────────────────────────────────┐  │
+│  │        LSP (built-in autocomplete,           │  │
+│  │        inline hints, diagnostics)            │  │
+│  └───────────────────────────────────────────────┘  │
+│                        │                              │
+│                        ▼                              │
+│  ┌───────────────────────────────────────────────┐  │
+│  │  MSCodeBase (MCP server)                     │  │
+│  │  · Semantic search across the codebase       │  │
+│  │  · Call graph & impact analysis              │  │
+│  │  · Project memory (ADR, tech debt)           │  │
+│  │  · Self-diagnostics and self-healing         │  │
+│  │  · 39 tools for AI assistant                 │  │
+│  └───────────────────────────────────────────────┘  │
+└─────────────────────────────────────────────────────┘
+```
+
+### What you get
+
+| Feature | MSCodeBase | Standard LSP (pyright/pylsp) |
+|---------|:----------:|:---------------------------:|
+| 🔍 **Semantic search** (BM25 + Vector + Reranker) | ✅ | ❌ |
+| 🧠 **Call graph + impact analysis** | ✅ | ❌ |
+| 🗃️ **Project memory** (ADR, known issues) | ✅ | ❌ |
+| 🏥 **Self-diagnosis + self-healing** | ✅ | ❌ |
+| 🔎 **Cross-repo search** | ✅ | ❌ |
+| 🤖 **RAG answer generation** (mode=ask) | ✅ | ❌ |
+| 🔬 **Search explainability** (per-stage score trace) | ✅ | ❌ |
+| 🏛️ **Architecture drift detection** (chain/circular/hub) | ✅ | ❌ |
+| ✅ **Claim verification** (agent fact-checking vs code) | ✅ | ❌ |
+| ✏️ **Inline autocomplete** | ❌ | ✅ |
+| 🏷️ **Inlay hints** | ❌ | ✅ |
+
+### LSP: Hybrid Rename Only
+
+MSCodeBase **uses LSP only for `rename_symbol`** — the LSP client (`src/core/lsp_client.py`) spawns **pyright-langserver** for precise cross-file rename, with graceful fallback to SymbolIndex (Tree-sitter) on timeout. All other functionality is implemented through **38 MCP tools**.
+
+The standalone LSP server (`src/lsp_main.py`) was experimental and **does not work in Zed** — see [LSP_WONTFIX.md](docs/en/investigations/LSP_WONTFIX.md).
+
+### Platforms
+
+Designed and tested on **Windows**. macOS and Linux should work but have not been validated officially.
+
+### Languages
+
+| Language | Parsing | Call Graph | Data Flow (ASSIGNED_FROM) |
+|---|---|---|---|
+| **Python** | ✅ | ✅ | ✅ |
+| **TypeScript** | ✅ | ✅ | ✅ |
+| **TSX** | ✅ | ✅ | ✅ |
+| **Rust** | ✅ | ✅ | ✅ |
+| **Go** | ✅ | ✅ | ✅ |
+| **JavaScript** | ✅ | ✅ | ✅ |
+| **Java** | ✅ | ✅ | ✅ |
+| **C#** | ✅ | ✅ | ✅ |
+| **Ruby** | ✅ | ✅ | ✅ |
+| **PHP** | ✅ | ✅ | ✅ |
+| **Kotlin** | ✅ | ✅ | ✅ |
+| **Swift** | ✅ | ✅ | ✅ |
+| **C** | ✅ | ✅ | ✅ |
+| **C++** | ✅ | ✅ | ✅ |
+| **Scala** | ✅ | ✅ | ✅ |
+| **Dart** | ✅ | ✅ | ✅ |
+| **Shell** | ✅ | ⚪ | ⚪ |
+| **Bash** | ✅ | ⚪ | ⚪ |
 
 ## ✨ Features
 
 | Feature | Description |
 |---------|-------------|
 | 🔍 **Unified Search** | `search_code(query, mode, intent_hint)` — single tool: fast/quality/deep/context/ask/auto |
-| 🧠 **Intelligence Layer** | 10 high-level `intel_*` tools: self-diagnostics, topology, error prediction |
-| 🗃️ **Project Memory** | ADR, known issues, tech debt — automatically persisted between sessions |
+| 🧠 **Intelligence Layer** | 13 high-level `intel_*` tools: self-diagnostics, topology, memory, error prediction |
 | 🌐 **Cross-repo Search** | Search across multiple projects with `@mention` syntax |
 | 🌳 **Call Graph** | Full call graph: definition + callers + callees + impact analysis |
 | 🏗 **Structural Search** | 13 AST patterns (class_inheritance, async_function, decorator, etc.) |
 | 🔎 **Context Search** | Find similar code — paste a fragment, get semantic duplicates |
 | 🪣 **Multi-Bucket RAG** | Code/docs buckets, soft weighting, intent_hint (code/docs/auto) |
-| 🤖 **mode=ask** | RAG-генерация ответа через phi-4 (server profile) |
+| 🤖 **mode=ask** | RAG answer generation via phi-4 (server profile) |
 | 💾 **LanceDB v2** | Vector DB with per-project isolation (incremental BM25 reindex) |
 | 🛡 **Rate Limiting** | DebounceBatch + CircuitBreaker — protection against VFS loops |
 | 🏥 **Self-Diagnosis** | `get_health_report` + `index_health` — full check and recovery |
-| 🧪 **Clean Architecture** | DI Container (15 services), 43 tools (33 class-based + 10 intel), 391+ tests |
+| 🧪 **Clean Architecture** | DI Container (18 services), 39 tools (18 core + 13 intel + 7 inline + 1 optional), 605+ tests |
 | 🪟 **Multi-Window** | `ProjectIndexerRegistry` — isolated Indexer per project, LRU 5, ResourceMonitor throttle |
+| ✏️ **Write Tools** | `codebase(action=...)` — unified hub: rename, move, delete, replace, insert, ack |
+| ⚡ **Meta-Patching** | LanceDB `move_chunks_metadata` — file_path rename without re-embedding (50ms vs 5s) |
+| 🔗 **Data Flow Graph** | `ASSIGNED_FROM` edges track variable assignments. Unified Walker + Conditional Flow (if/for/while/try). 42 edge types in PropertyGraph. |
 | ⚙️ **SYSTEM_PROFILE** | `light` (sync) / `server` (async with phi-4) |
+| 🎯 **MMR Diversification** | Maximal Marginal Relevance (λ=0.6) после RRF — убирает дубли, сохраняя релевантность. 0.3ms на 50 docs. |
+| 🧠 **Auto Intent Detection** | Keyword-based автоопределение code/docs по тексту запроса. Не требует ручного `intent_hint`. |
+| 📖 **Extended Synonyms** | 39 групп синонимов (auth↔login, function↔method, cache↔buffer и др.) — закрывает разрыв между терминологией пользователя и кодом. |
 
 ---
 
 ## 🚀 Quick Start
 
-> Full installation guide: **[docs/en/INSTALL.md](docs/en/INSTALL.md)**
+Install the `mscodebase-intelligence` extension in Zed, then:
 
 ```bash
-git clone https://github.com/ManSio/mscodebase-intelligence.git
-cd mscodebase-intelligence
+cd D:\Project\MSCodeBase
 python install.py
+
+# Quick sync (code only, no prompts):
+python install.py --sync
+
+# CI mode (no prompts, fail fast):
+python install.py --yes
+
+# Skip model downloads:
+python install.py --skip-models
+
+# Restart Zed (File → Quit → reopen)
+# Verify: intel_get_runtime_status()
 ```
 
-**After installation:** File → Quit → reopen project → wait for indexing.
+**install.py does:**
+1. Copies 39+ source files to the extension directory
+2. Installs Python dependencies
+3. Downloads llama-server.exe + GGUF reranker model (bge-reranker-v2-m3). The embedder (multilingual-e5-small INT8) is an ONNX model downloaded separately.
+4. Configures MCP in Zed's settings.json
 
-**Verify:** in Agent Panel (`Ctrl+Shift+P` → `Agent Panel: Toggle`) run:
+See also: [AI_INSTALLATION_PROMPT.md](AI_INSTALLATION_PROMPT.md), [docs/en/INSTALL.md](docs/en/INSTALL.md)
+
+### Providers
+
+MCP auto-selects the best available provider:
+
 ```
-get_index_status()
+ONNX INT8 (in-process)         → llama.cpp GGUF (GPU) → LM Studio (if running) → BM25 only
+   ~0.5 GB RAM                    ~1.7 GB RAM (2× llama-server)   ~6 GB RAM          no embeddings
+   e5-small embedder (384dim)     reranker (bge-reranker-v2-m3)     external API
 ```
 
-> **Windows:** Windows has specifics (Restricted Mode, project resolves via SQLite).
-> Read **[docs/en/ZED_WINDOWS_QUIRKS.md](docs/en/ZED_WINDOWS_QUIRKS.md)**
-> before installation.
->
-> **LM Studio:** Recommended for vector search. Install, run on port 1234 —
-> MCP connects automatically.
+> Embedding runs **in-process** via ONNX Runtime e5-small INT8 (~52 ch/s on Windows CPU).
+> The reranker runs as a separate `llama-server.exe` process serving the BGE-M3 GGUF model.
+> LM Studio is only an optional fallback provider if the local ONNX model is unavailable.
+
+Benchmarks: [docs/research/2026-07-10-final-benchmark.md](docs/research/2026-07-10-final-benchmark.md)
 
 ---
 
@@ -76,10 +177,14 @@ get_index_status()
 |----------|-------------|----------|-----------|
 | **[docs/en/INSTALL.md](docs/en/INSTALL.md)** | Installation, setup, uninstall | Users | 🇬🇧 🇷🇺 🇨🇳 |
 | **[docs/en/ARCHITECTURE.md](docs/en/ARCHITECTURE.md)** | Clean Architecture, Layers, DI | Developers | 🇬🇧 🇷🇺 🇨🇳 |
+| **[docs/en/ARCHITECTURE_DEEP.md](docs/en/ARCHITECTURE_DEEP.md)** | Deep architecture: pipeline, lifecycle, comparison | Architects | 🇬🇧 🇷🇺 🇨🇳 |
+| **[docs/en/SEARCH_PIPELINE.md](docs/en/SEARCH_PIPELINE.md)** | Search pipeline: BM25 → RRF → Reranker | Developers | 🇬🇧 🇷🇺 🇨🇳 |
+| **[docs/en/GRACEFUL_DEGRADATION.md](docs/en/GRACEFUL_DEGRADATION.md)** | 5 levels of graceful degradation (llama.cpp → ONNX → BM25) | DevOps | 🇬🇧 🇷🇺 🇨🇳 |
 | **[docs/en/ARCHITECTURE_LAYERS.md](docs/en/ARCHITECTURE_LAYERS.md)** | 10 runtime layers | Architects | 🇬🇧 🇷🇺 🇨🇳 |
 | **[docs/en/FAQ.md](docs/en/FAQ.md)** | Frequently Asked Questions | All | 🇬🇧 🇷🇺 🇨🇳 |
 | **[docs/en/TELEMETRY.md](docs/en/TELEMETRY.md)** | Metrics, ETA, data collection | DevOps | 🇬🇧 🇷🇺 🇨🇳 |
-| **[docs/en/investigations/LSP_WONTFIX.md](docs/en/investigations/LSP_WONTFIX.md)** | LSP on Windows investigation (WONTFIX) | Support | 🇬🇧 🇨🇳 |
+| **[docs/en/investigations/ONNX_SESSION_REPORT.md](docs/en/investigations/ONNX_SESSION_REPORT.md)** | Full ONNX migration, 7 fixes, benchmarks | Support | 🇬🇧 |
+| **[docs/en/investigations/LSP_WONTFIX.md](docs/en/investigations/LSP_WONTFIX.md)** | LSP on Windows investigation (WONTFIX) | Support | 🇬🇧 🇷🇺 🇨🇳 |
 | **[docs/en/ZED_WINDOWS_QUIRKS.md](docs/en/ZED_WINDOWS_QUIRKS.md)** | Windows specifics, Restricted Mode | Windows users | 🇬🇧 🇷🇺 🇨🇳 |
 | **[docs/en/CHANGELOG.md](docs/en/CHANGELOG.md)** | Version history | All | 🇬🇧 🇷🇺 🇨🇳 |
 | **[docs/en/CONTRIBUTING.md](docs/en/CONTRIBUTING.md)** | How to contribute, PRs | Contributors | 🇬🇧 🇷🇺 🇨🇳 |
@@ -87,12 +192,14 @@ get_index_status()
 | **[AGENTS.md](AGENTS.md)** | AI Agent system rules | AI Agent | 🇬🇧 |
 | **[SECURITY.md](SECURITY.md)** | Security policy, reporting vulnerabilities | Security | 🇬🇧 |
 | **[CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)** | Community standards | Contributors | 🇬🇧 |
+| **[CONTRIBUTING.md](CONTRIBUTING.md)** | How to contribute (root-level) | Contributors | 🇬🇧 |
+| **[docs/KNOWN_ISSUES.md](docs/KNOWN_ISSUES.md)** | Known issues & technical debt registry | All | 🇬🇧 |
 
-All documents are cross-referenced.
+All documents are cross-referenced. Available in 3 languages: English, Русский, 中文.
 
 ---
 
-## 🔧 MCP Tools (43 total)
+## 🔧 MCP Tools (38 total)
 
 ### Core Search
 
@@ -103,6 +210,7 @@ All documents are cross-referenced.
 | `cross_repo_search(query @repo)` | Search across multiple projects (mono-repo) |
 | `cross_project_deps(action)` | Cross-project dependency graph: `graph` / `deps` / `cycles` / `impact` |
 | `get_symbol_info(query)` | Call Graph: callers, callees, impact files |
+| `execute_script(code, timeout, args)` | **Sandboxed Python execution.** TempDirectory isolation, PYTHONPATH=project, graceful shutdown. Returns structured `{stdout, stderr, exit_code, duration_ms, truncated, timed_out}` |
 | `impact_analysis(symbol)` | Symbol change impact analysis (risk score, depth) |
 
 ### Index Management
@@ -123,9 +231,7 @@ All documents are cross-referenced.
 | Tool | When to Use |
 |------|-------------|
 | `get_health_report()` | **Full self-diagnosis:** index, embedder, logs, synchronization |
-| `watcher_status()` | Component status: embedder mode (LM Studio / Ollama / ONNX) |
 | `get_logs(project_root)` | Latest errors and warnings from project logs |
-| `get_repo_map(project_root)` | Project map: file tree + key symbols |
 | `read_live_file(path)` | Read file from LSP memory (including unsaved changes) |
 
 ### Analytics
@@ -135,8 +241,9 @@ All documents are cross-referenced.
 | `get_hotspots(project_root)` | Hotspots — files with high bug rate |
 | `get_repo_rank(project_root, top_k)` | Symbol importance ranking (PageRank on call graph) |
 | `get_bug_correlation(project_root)` | Bug-change correlation analysis |
+| `get_repo_map(project_root)` | Project map: file tree + key symbols |
 | `get_related_files(project_root, path)` | Files related via co-change / bug correlation |
-| `graph_query(query_type, target)` | Knowledge graph queries: `impact` / `feature` / `deps` / `tests` |
+| `graph_query(action, target)` | Graph queries: `impact` / `feature` / `deps` / `tests` / `cypher` / `flow` / `drift` / `verify` |
 | `find_similar_bugs(error)` | Find similar bugs from history by error text |
 
 ### Git & History
@@ -154,10 +261,20 @@ All documents are cross-referenced.
 | `submit_background_task(type, root)` | Run long tasks: `bug_correlation` / `build_knowledge_graph` / `full_analysis` |
 | `get_task_status(task_id)` | Background task status |
 | `verify_action(action_type)` | Verification: `file_write` / `git_commit` / `git_push` / `index_sync` |
-| `predict_eta(operation)` | Operation time prediction |
-| `run_health_check()` | Full project health check (tests + git) |
 
-### Intelligence Layer (intel_*) — 10 High-Level Tools
+### Write Tools — `codebase(action=...)`
+
+| Action | When to Use |
+|--------|-------------|
+| `codebase(action="rename", old, new, apply)` | Rename symbol across all files (preview/apply, collision check) |
+| `codebase(action="move", symbol, to_file, apply)` | Move symbol to another file (preview/apply, import updates) |
+| `codebase(action="safe_delete", symbol, force, apply)` | Safe delete with reference check (force mode) |
+| `codebase(action="replace", symbol, new_code, apply)` | Replace function/class body (preview/apply) |
+| `codebase(action="insert_before", anchor, new_code, apply)` | Insert code before anchor symbol (preview/apply) |
+| `codebase(action="insert_after", anchor, new_code, apply)` | Insert code after anchor's body (preview/apply) |
+| `codebase(action="ack_impact", file_path)` | Acknowledge impact for modification guard |
+
+### Intelligence Layer (intel_*) — 13 High-Level Tools
 
 | Tool | What it does |
 |------|-------------|
@@ -171,6 +288,22 @@ All documents are cross-referenced.
 | `intel_add_memory_node(section, data)` | Add a record to project memory |
 | `intel_get_hotspots()` | Top-5 files with highest bug load |
 | `intel_predict_root_cause(error)` | Predict root cause from logs + history |
+| `intel_get_telemetry(days)` | Per-tool telemetry, resource usage, LLM stats |
+| `intel_auto_collect_adrs(max_commits)` | Auto-generate ADRs from commit history |
+| `intel_reset_index()` | Delete and rebuild index from scratch |
+
+> `intel_tool_health()`, `intel_explain_project_state()`, `intel_get_project_context()` — see Diagnostic Tools below.
+
+### Diagnostic Tools (6)
+
+| Tool | What it does |
+|------|-------------|
+| `debug_runtime_passport()` | Process passport: RUN_ID, PID, build info |
+| `get_runtime_counters()` | Runtime counters: calls, blocks, warnings |
+| `intel_execution_timeline(limit)` | Recent action timeline with durations |
+| `intel_get_project_context(root)` | Single snapshot: state, index, health, memory |
+| `intel_explain_project_state(root)` | Human-readable project state diagnosis |
+| `intel_tool_health()` | Tool success rates, latency, confidence |
 
 ---
 
@@ -180,11 +313,11 @@ All documents are cross-referenced.
 
 ```
 ┌──────────────────────────────────────────────────────────────────┐
-│                   MCP Server (~220 lines)                        │
-│            src/mcp/server.py — только регистрация                 │
+│                   MCP Server (~600 lines)                         │
+│            src/mcp/server.py + server_tools.py + server_factory.py │
 │                                                                  │
 │  ┌──────────────────────────────────────────────────────────┐   │
-│  │              DI Container (15 services)                   │   │
+|  │              DI Container (18 services)                   │   │
 │  │  src/core/di_container.py — ServiceCollection              │   │
 │  │                                                           │   │
 │  │  ┌──────────┐  ┌────────────┐  ┌──────────────────────┐  │   │
@@ -197,19 +330,22 @@ All documents are cross-referenced.
 │              ┌────────────┴────────────┐                         │
 │              ▼                          ▼                         │
 │  ┌────────────────────┐  ┌────────────────────────────────────┐  │
-│  │  33 Tool Classes   │  │  10 intel_* tools                  │  │
-│  │  src/mcp/tools/*.py │  │  src/core/intelligence_layer.py    │  │
-│  │  Каждый инструмент  │  │  error_boundary decorator          │  │
-│  │  — отдельный класс │  │  JSON status/message/detail        │  │
-│  │  Constructor Inj.   │  │  asyncio.wait_for(timeout)        │  │
+│  │  18 Tool Classes   │  │  13 intel_* + 7 inline tools    │  │
+│  │  src/mcp/tools/*.py │  │  intelligence/layer.py +           │  │
+│  │  + codebase hub     │  │  server_tools.py (inline)          │  │
+│  │  Constructor Inj.   │  │  error_boundary decorator          │
+│  │  1 execute_script   │  │  asyncio.wait_for(timeout)        │  │
 │  └────────────────────┘  └────────────────────────────────────┘  │
 └──────────────────────────────────────────────────────────────────┘
          │
          ▼
 ┌─────────────────┐     ┌───────────────────┐
 │  RemoteEmbedder  │     │  LanceDB v2       │
-│  (LM Studio /    │     │  (Векторная БД)    │
-│   Ollama / ONNX) │     │  BM25 + Vector    │
+│  (ONNX Runtime     │     │  (Vector DB)       │
+│   e5-small INT8,    │     │  BM25 + Vector    │
+│   in-process;      │     │                    │
+│   LM Studio/Ollama │     │                    │
+│   fallback)        │     │                    │
 └─────────────────┘     └───────────────────┘
 ```
 
@@ -219,21 +355,26 @@ All documents are cross-referenced.
 
 | Mode | Latency | Best For |
 |:-----|:--------|:---------|
-| `search_code(query, mode="fast")` | ~300ms | Simple keyword / exact name |
-| `search_code(query, mode="quality")` | ~1200ms | Semantic search with reranker |
+| `search_code(query, mode="fast")` | ~80-500ms | Simple keyword / exact name |
+| `search_code(query, mode="quality")` | ~250-2000ms | Semantic search with reranker |
 | `search_code(query, mode="deep")` | ~2-5s | Complex research across modules |
-| `search_code(query, mode="context")` | ~500ms | Find similar code by fragment |
-| `cross_repo_search(query @repo)` | ~500ms-2s | Cross-project search |
+| `search_code(query, mode="context")` | ~200-800ms | Find similar code by fragment |
+| `get_symbol_info(query)` | ~200-1500ms | Symbol definition + call graph |
+| `impact_analysis(symbol)` | ~1-5s | Change impact analysis |
 
 ### Environment Variables
 
 | Variable | Default | Description |
 |----------|---------|-------------|
-| `LM_STUDIO_URL` | `http://localhost:1234/v1` | LM Studio API endpoint |
+| `LM_STUDIO_HOST` | `localhost` | LM Studio hostname |
 | `LM_STUDIO_PORT` | `1234` | LM Studio port |
-| `OLLAMA_URL` | `http://localhost:11434` | Ollama API endpoint |
-| `LOG_LEVEL` | `INFO` | Уровень логирования |
-| `ZED_WINDOWS_QUIRKS.md` | *(см. файл)* | Инструкции для Windows |
+| `OLLAMA_HOST` | `localhost` | Ollama hostname |
+| `OLLAMA_PORT` | `11434` | Ollama port |
+| `EMBEDDING_MODEL` | `qwen3-embedding` | Default embedding model name |
+| `LOG_LEVEL` | `INFO` | Logging verbosity level |
+| `MSCODEBASE_MCP_TOOLS` | *(default set)* | Comma-separated list of visible tools (e.g. `search_code,codebase`) |
+| `MSCODEBASE_EXECUTE_SCRIPT_ENABLED` | `false` | Enable `execute_script` tool (RCE risk) |
+| `LLAMA_BACKEND` | `auto` | Reranker backend: `auto` / `msvc` (CPU) / `vulkan` (GPU) |
 
 ---
 
@@ -241,30 +382,30 @@ All documents are cross-referenced.
 
 ### MCP Server Not Responding
 
-**Symptoms:** инструменты не отвечают, таймаут.
+**Symptoms:** tools timeout, no response.
 
 **Checklist:**
-1. **File → Quit** → открой проект заново
-2. Запустите `python install.py` для перенастройки
-3. Проверьте логи: `%LOCALAPPDATA%\Zed\extensions\mscodebase-intelligence\.codebase_indices\logs\`
+1. **File → Quit** → reopen the project
+2. Run `python install.py` to reconfigure
+3. Check logs: `%LOCALAPPDATA%\Zed\extensions\mscodebase-intelligence\.codebase_indices\logs\`
 
 ### Index Empty (0 chunks)
 
-В Agent Panel выполните:
+Run in Agent Panel:
 ```
 intel_trigger_reindex()
 ```
 
-После проверьте: `get_index_status()`
+Then verify: `get_index_status()`
 
 ### LM Studio Connection Issues
 
 ```bash
-# Проверьте, что сервер отвечает:
+# Verify the server responds:
 python -c "import urllib.request; print(urllib.request.urlopen('http://localhost:1234/v1/health').read())"
 ```
 
-Должен быть ответ `{"status":"ok"}`.
+Expected: `{"status":"ok"}`.
 
 ---
 
@@ -273,42 +414,48 @@ python -c "import urllib.request; print(urllib.request.urlopen('http://localhost
 ```
 mscodebase-intelligence/
 ├── src/
-│   ├── main.py                   # MCP server entry point (~220 lines)
-│   ├── lsp_main.py               # LSP server (DI-based, for didSave indexing)
+│   ├── main.py                     # MCP server entry point (~194 lines)
 │   ├── mcp/
-│   │   ├── server.py             # DI routing — only imports + registration
-│   │   └── tools/                 # 10 files, 33 class-based + 10 intel = 43 total
-│   │       ├── search_tools.py   # search_code, get_symbol_info, impact_analysis
-│   │       ├── indexing_tools.py # notify_change, index_project_dir, index_health
-│   │       ├── git_tools.py      # get_branch_info, get_commit_history
-│   │       ├── system_tools.py   # get_index_status, watcher_status, read_live_file
-│   │       ├── analysis_tools.py # structural_search, get_repo_map, scan_changes
-│   │       ├── graph_tools.py    # cross_repo_search, graph_query, get_related_files
-│   │       ├── investigation_tools.py  # get_bug_correlation, get_hotspots
-│   │       └── lifecycle_tools.py      # submit_background_task, verify_action
-│   ├── core/
-│   │   ├── di_container.py       # ★ DI Container (15 services, ServiceCollection)
-│   │   ├── error_handler.py      # ★ error_boundary + ToolError
-│   │   ├── rate_limiter.py       # ★ SlidingWindowRateLimiter + DebounceBatch + CircuitBreaker
-│   │   ├── indexer.py            # LanceDB vector storage
-│   │   ├── searcher.py           # Hybrid search (BM25 + Dense + RRF)
-│   │   ├── symbol_index.py       # Call Graph (BFS, impact analysis)
-│   │   ├── intelligence_layer.py # intel_* tools (10 high-level)
-│   │   ├── remote_embedder.py    # LM Studio / Ollama client
-│   │   ├── reranker.py           # Multi-Provider Reranker
-│   │   ├── parser.py             # Tree-sitter AST
-│   │   ├── health_report.py      # Self-diagnosis engine
-│   │   └── ...
-│   └── utils/
-│       ├── paths.py              # SafePathManager, to_win_long_path
-│       └── zed_config.py         # Auto-configure Zed settings
+│   │   ├── server.py               # MCP server creation (~597 lines)
+│   │   ├── server_factory.py       # DI setup + server lifecycle (~478 lines)
+│   │   ├── server_tools.py         # Tool registration + 7 inline tools (~607 lines)
+│   │   └── tools/                  # 11 modules + base class
+│   │       ├── codebase_tool.py    # codebase(action=...) hub + execute_script
+│   │       ├── search_tools.py     # search_code, get_symbol_info, impact_analysis
+│   │       ├── indexing_tools.py   # notify_change, index_project_dir, index_health
+│   │       ├── git_tools.py        # get_branch_info, get_commit_history, get_file_history
+│   │       ├── system_tools.py     # get_index_status, get_health_report, read_live_file, get_logs
+│   │       ├── analysis_tools.py   # structural_search, get_repo_map, get_repo_rank, scan_changes
+│   │       ├── graph_tools.py      # cross_repo_search, cross_project_deps, graph_query
+│   │       ├── investigation_tools.py  # get_bug_correlation, get_hotspots, find_similar_bugs
+│   │       ├── lifecycle_tools.py  # submit_background_task, get_task_status, verify_action
+│   │       ├── meta_tools.py       # IndexTool, GitTool, SystemTool (spoke tools for codebase hub)
+│   │       └── write_tools.py      # WriteTool (rename, move, delete, replace, insert)
+│   ├── core/                       # Business logic + backward-compat shims
+│   │   ├── di_container.py         # ★ DI Container (18 services, ServiceCollection)
+│   │   ├── error_handler.py        # error_boundary decorator + ToolError
+│   │   ├── rate_limiter.py         # SlidingWindowRateLimiter + DebounceBatch + CircuitBreaker
+│   │   ├── graph.py                # PropertyGraph (42 edge types)
+│   │   ├── structural_search.py    # 13 AST patterns (Tree-sitter)
+│   │   ├── lsp_client.py           # Thin LSP client (pyright JSON-RPC 2.0)
+│   │   ├── intelligence_layer.py   # Shim → core/intelligence/layer.py
+│   │   ├── indexing/               # 18 files: indexer, parser, symbol_index, file_guard, ...
+│   │   ├── search/                 # 18 files: engine (Searcher), scoring, bm25, cypher_*, ...
+│   │   └── intelligence/           # 5 files: layer (intel_* tools), jobs, health, context, store
+│   ├── providers/
+│   │   ├── embedder/
+│   │   │   └── remote_embedder.py  # ONNX e5-small INT8 + LM Studio/Ollama fallback
+│   │   └── reranker/               # llama_runner, multi_provider, search_result_reranker, scoring
+│   ├── config/
+│   │   └── settings.py             # All configuration via os.getenv (Single Source of Truth)
+│   └── utils/                      # paths, i18n, ui_formatter, zed_config
 ├── docs/
-│   ├── en/               # English docs
-│   ├── ru/               # Russian docs
-│   └── zh/               # Chinese docs
-├── tests/                        # 391 tests (pytest)
-├── .agents/skills/               # Skills for AI agent
-├── install.py                    # Installer
+│   ├── en/                         # English docs
+│   ├── ru/                         # Russian docs
+│   └── zh/                         # Chinese docs
+├── scripts/                        # CLI utilities (install, sync, benchmark, audit)
+├── tests/                          # 605 tests (pytest)
+├── install.py                      # Installer (3 languages: en/ru/zh)
 └── README.md
 ```
 

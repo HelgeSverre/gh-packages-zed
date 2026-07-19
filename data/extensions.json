@@ -3934,7 +3934,7 @@
     "name": "WhySoBad/zed-hyprlang-extension",
     "url": "https://github.com/WhySoBad/zed-hyprlang-extension",
     "description": "A Zed extension to add hyprlang syntax highlighting and language server support",
-    "stars": 11,
+    "stars": 10,
     "forks": 1,
     "topics": [
       "hyprland",
@@ -3945,7 +3945,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2024-12-12T11:17:45Z",
-    "updated_at": "2026-06-22T14:46:43Z",
+    "updated_at": "2026-07-19T07:32:45Z",
     "pushed_at": "2026-03-12T11:33:52Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -54078,23 +54078,22 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
-    "updated_at": "2026-07-18T22:31:23Z",
-    "pushed_at": "2026-07-18T22:31:19Z",
+    "updated_at": "2026-07-19T13:03:48Z",
+    "pushed_at": "2026-07-19T13:03:40Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false,
     "extension": {
       "id": "mscodebase-intelligence",
       "name": "MSCodeBase Intelligence",
       "description": "Semantic codebase intelligence with Multi-Bucket RAG, contextual retrieval, and system profiles",
-      "version": "2.5.3",
+      "version": "3.2.3",
       "schema_version": 1,
       "authors": [
-        "Misha <misha@example.com>"
+        "ManSio <mansio0602@gmail.com>"
       ],
       "repository": "https://github.com/ManSio/mscodebase-intelligence",
       "snippets": null,
       "sections": [
-        "lib",
         "grammars",
         "language_servers",
         "context_servers",
@@ -54328,8 +54327,8 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-03-09T03:40:37Z",
-    "updated_at": "2026-07-15T09:18:59Z",
-    "pushed_at": "2026-07-15T10:49:06Z",
+    "updated_at": "2026-07-19T11:03:07Z",
+    "pushed_at": "2026-07-19T11:03:10Z",
     "discovered_at": "2026-07-10T07:54:10.331Z",
     "official": false,
     "extension": {
@@ -55015,8 +55014,8 @@
     "language": "Java",
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
-    "updated_at": "2026-07-19T04:41:58Z",
-    "pushed_at": "2026-07-19T04:41:56Z",
+    "updated_at": "2026-07-19T10:52:10Z",
+    "pushed_at": "2026-07-19T10:52:05Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false,
     "extension": {
@@ -55055,8 +55054,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-07-14T07:23:24Z",
-    "updated_at": "2026-07-18T14:26:49Z",
-    "pushed_at": "2026-07-18T15:12:18Z",
+    "updated_at": "2026-07-19T10:27:52Z",
+    "pushed_at": "2026-07-19T10:28:06Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false,
     "extension": {
