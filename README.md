@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1614** |
 | In official registry | 1142 |
 | Discovered via topics | 472 |
-| Last updated | 2026-07-19 13:04 UTC |
+| Last updated | 2026-07-19 19:03 UTC |
 
 ### By capability
 
@@ -120,10 +120,10 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-07-19 | Intelligent codebase search & indexing for Zed. Async MCP se... |
-| [felixtensor/zed-mlir-suite](https://github.com/felixtensor/zed-mlir-suite) | 2 | 2026-07-19 | The MLIR extension for Zed. |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 0 | 2026-07-19 | Experimental Spring Boot language intelligence for Zed, buil... |
 | [leolorenzato/zed-pastel-night-theme](https://github.com/leolorenzato/zed-pastel-night-theme) | 0 | 2026-07-19 | 🌃 Pastel Night theme for Zed |
+| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-07-19 | Intelligent codebase search & indexing for Zed. Async MCP se... |
+| [felixtensor/zed-mlir-suite](https://github.com/felixtensor/zed-mlir-suite) | 2 | 2026-07-19 | The MLIR extension for Zed. |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 89 | 2026-07-19 | True Dark Theme for Zed IDE |
 | [polina4096/zed-rune-lsp](https://github.com/polina4096/zed-rune-lsp) | 0 | 2026-07-18 | Zed extension for the Rune programming language. |
 | [laurenzpavlosmalisianos/logos-theme](https://github.com/laurenzpavlosmalisianos/logos-theme) | 0 | 2026-07-18 | A personal theme for Zed with light, dark, and translucent b... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-07-19T19:03 | 0 | 517 | 1943 |
 | 2026-07-19T13:04 | 0 | 517 | 1943 |
 | 2026-07-19T07:31 | 0 | 517 | 1943 |
 | 2026-07-19T01:11 | 1 | 516 | 1943 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-07-18T01:08 | 1 | 514 | 1941 |
 | 2026-07-17T19:03 | 1 | 513 | 1940 |
 | 2026-07-17T13:05 | 6 | 511 | 1939 |
-| 2026-07-17T07:28 | 1 | 510 | 1933 |
 
 ---
 
