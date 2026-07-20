@@ -15,9 +15,9 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | | Count |
 |---|---|
 | Total tracked | **1615** |
-| In official registry | 1144 |
-| Discovered via topics | 471 |
-| Last updated | 2026-07-20 13:21 UTC |
+| In official registry | 1145 |
+| Discovered via topics | 470 |
+| Last updated | 2026-07-20 19:15 UTC |
 
 ### By capability
 
@@ -120,16 +120,18 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-07-20 | Intelligent codebase search & indexing for Zed. Async MCP se... |
+| [zed-extensions/swift](https://github.com/zed-extensions/swift) | 144 | 2026-07-20 | Extension for Zed to support Swift |
+| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 0 | 2026-07-20 | Experimental Spring Boot language intelligence for Zed, buil... |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 202 | 2026-07-20 | Zed plugin for automatic time tracking and metrics generated... |
+| [Pvxlabs/pine-script-zed](https://github.com/Pvxlabs/pine-script-zed) | 1 | 2026-07-20 | Pine Script language support for Zed. |
+| [felixtensor/zed-mlir-suite](https://github.com/felixtensor/zed-mlir-suite) | 2 | 2026-07-20 | The MLIR extension for Zed. |
 | [rvben/zed-rumdl](https://github.com/rvben/zed-rumdl) | 1 | 2026-07-20 | Zed extension for rumdl - a fast Markdown linter and formatt... |
 | [b4bury/zed-glass](https://github.com/b4bury/zed-glass) | 0 | 2026-07-20 | Glass — a liquid-glass transparent theme for Zed (dark + lig... |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 202 | 2026-07-20 | Zed plugin for automatic time tracking and metrics generated... |
 | [emirror-de/quietude-zed](https://github.com/emirror-de/quietude-zed) | 0 | 2026-07-20 | A calm, warm monochrome theme for Zed, engineered to reduce ... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 89 | 2026-07-20 | True Dark Theme for Zed IDE |
 | [kr-aman-sharma/idx-theme](https://github.com/kr-aman-sharma/idx-theme) | 0 | 2026-07-19 | Project IDX is alive |
-| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-07-19 | Intelligent codebase search & indexing for Zed. Async MCP se... |
-| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 0 | 2026-07-19 | Experimental Spring Boot language intelligence for Zed, buil... |
 | [leolorenzato/zed-pastel-night-theme](https://github.com/leolorenzato/zed-pastel-night-theme) | 0 | 2026-07-19 | 🌃 Pastel Night theme for Zed |
-| [felixtensor/zed-mlir-suite](https://github.com/felixtensor/zed-mlir-suite) | 2 | 2026-07-19 | The MLIR extension for Zed. |
 | [polina4096/zed-rune-lsp](https://github.com/polina4096/zed-rune-lsp) | 0 | 2026-07-18 | Zed extension for the Rune programming language. |
 | [laurenzpavlosmalisianos/logos-theme](https://github.com/laurenzpavlosmalisianos/logos-theme) | 0 | 2026-07-18 | A personal theme for Zed with light, dark, and translucent b... |
 | [DuskSystems/zed-cedar](https://github.com/DuskSystems/zed-cedar) | 1 | 2026-07-18 | Cedar language support for Zed. |
@@ -138,13 +140,12 @@ cd website && npm install && npm run dev
 | [rux-lang/Zed](https://github.com/rux-lang/Zed) | 4 | 2026-07-17 | Zed extension for the Rux programming language |
 | [xXCHAVOTAXx/candela-theme](https://github.com/xXCHAVOTAXx/candela-theme) | 0 | 2026-07-17 | Warm, low-fatigue Zed theme (dark + light) with OKLCH-unifor... |
 | [kjanat/zed-typescript](https://github.com/kjanat/zed-typescript) | 0 | 2026-07-16 | Runs the TypeScript 7+ language server in Zed. |
-| [schemalock/zed](https://github.com/schemalock/zed) | 0 | 2026-07-16 | SchemaLock language server extension for the Zed editor |
-| [ChunzhengLab/json5-zed-extension](https://github.com/ChunzhengLab/json5-zed-extension) | 5 | 2026-07-16 | JSON5 syntax highlighting support to Zed using Joakker's Tre... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-07-20T19:15 | 1 | 518 | 1945 |
 | 2026-07-20T13:21 | 1 | 517 | 1944 |
 | 2026-07-20T07:44 | 0 | 517 | 1943 |
 | 2026-07-20T01:12 | 0 | 517 | 1943 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-07-19T01:11 | 1 | 516 | 1943 |
 | 2026-07-18T19:03 | 0 | 516 | 1942 |
 | 2026-07-18T13:04 | 0 | 516 | 1942 |
-| 2026-07-18T07:15 | 1 | 515 | 1942 |
 
 ---
 
