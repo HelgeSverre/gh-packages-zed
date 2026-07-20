@@ -1,0 +1,215 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>rumdl - Zed Extension Safari</title><meta name="description" content="Zed extension for rumdl - a fast Markdown linter and formatter written in Rust"><link rel="canonical" href="https://helgesverre.github.io/gh-packages-zed/package/rvben/zed-rumdl/"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="rumdl - Zed Extension Safari"><meta property="og:description" content="Zed extension for rumdl - a fast Markdown linter and formatter written in Rust"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed/package/rvben/zed-rumdl/"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="rumdl - Zed Extension Safari"><meta name="twitter:description" content="Zed extension for rumdl - a fast Markdown linter and formatter written in Rust"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/gh-packages-zed/_astro/ClientRouter.astro_astro_type_script_index_0_lang.ClVLs1kt.js"></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"rumdl","description":"Zed extension for rumdl - a fast Markdown linter and formatter written in Rust","applicationCategory":"DeveloperApplication","operatingSystem":"macOS, Linux, Windows","url":"https://zed.dev/extensions/rumdl","codeRepository":"https://github.com/rvben/zed-rumdl","author":[{"@type":"Person","name":"Ruben Jongejan"}],"softwareVersion":"0.0.4","license":"MIT","keywords":"language-server","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/Layout.CGDlMdWE.css"><script type="module" src="/gh-packages-zed/_astro/page.B8i1Zz-u.js"></script></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <a href="#main" class="skip-to-content">Skip to content</a> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" data-astro-transition-persist="astro-fhchcgd7-1"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <script type="application/json" id="pkg-extras">{"url":"https://github.com/rvben/zed-rumdl","language":"Rust","license":"MIT","topics":[],"extension":{"authors":["Ruben Jongejan"],"schema_version":1}}</script> <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> rvben/zed-rumdl </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> rumdl </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> Fast Markdown linter and formatter written in Rust </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="language-server">Language Server</span> </div> </div> </div> </header> <main id="main" class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/rumdl" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/rvben/zed-rumdl" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.0.4</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">rumdl</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">Rust</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">MIT</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">1</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">1m ago</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">Ruben Jongejan</dd> </div> </dl>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-zed-rumdl"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#zed-rumdl"><span class="heading-anchor-icon">#</span></a>zed-rumdl</h1>
+<p><a href="https://zed.dev">Zed</a> extension for <a href="https://github.com/rvben/rumdl">rumdl</a> - a fast Markdown linter and formatter written in Rust.</p>
+<h2 id="user-content-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features"><span class="heading-anchor-icon">#</span></a>Features</h2>
+<ul>
+<li>Real-time Markdown linting with inline diagnostics</li>
+<li>Format on save and on-demand formatting</li>
+<li>Automatic binary management (downloads rumdl automatically)</li>
+<li>Respects project configuration (<code>.rumdl.toml</code>, <code>pyproject.toml</code>)</li>
+<li>Configurable via Zed's LSP settings</li>
+</ul>
+<h2 id="user-content-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation"><span class="heading-anchor-icon">#</span></a>Installation</h2>
+<ol>
+<li>Open Zed</li>
+<li>Open the Extensions panel (<code>cmd+shift+x</code> on macOS)</li>
+<li>Search for "rumdl"</li>
+<li>Click Install</li>
+</ol>
+<p>The extension will automatically download the appropriate rumdl binary for your platform.</p>
+<h2 id="user-content-configuration"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#configuration"><span class="heading-anchor-icon">#</span></a>Configuration</h2>
+<h3 id="user-content-zed-settings"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#zed-settings"><span class="heading-anchor-icon">#</span></a>Zed Settings</h3>
+<p>rumdl starts automatically for Markdown files once the extension is installed.
+To format with rumdl, set it as the formatter explicitly. Zed's default
+(<code>"formatter": "auto"</code>) formats Markdown with its built-in Prettier
+integration, so without this setting Prettier formats your files, not rumdl:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "languages"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "Markdown"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "formatter"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "language_server"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">          "name"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"rumdl"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">        }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      },</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "format_on_save"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"on"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>If you set <code>language_servers</code> explicitly, keep the <code>"..."</code> placeholder so
+other language servers stay enabled alongside rumdl:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "languages"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "Markdown"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "language_servers"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"rumdl"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"..."</span><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h3 id="user-content-custom-binary-path"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#custom-binary-path"><span class="heading-anchor-icon">#</span></a>Custom Binary Path</h3>
+<p>If you want to use a specific rumdl binary instead of the auto-downloaded one,
+you can also pass custom arguments (for example rumdl's global <code>--config</code> flag)
+and environment variables:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "rumdl"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "binary"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "path"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"/path/to/rumdl"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "arguments"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"server"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"--config"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"/path/to/.rumdl.toml"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">],</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "env"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">          "RUMDL_LOG"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"debug"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">        }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>Only <code>path</code> is required; <code>arguments</code> defaults to <code>["server"]</code>, and <code>env</code>
+entries are added to the server's environment. A configured <code>path</code> takes
+precedence over rumdl on your PATH, which in turn takes precedence over the
+auto-downloaded binary. Changes apply on the next language server restart, no
+Zed restart needed.</p>
+<h3 id="user-content-lsp-settings"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#lsp-settings"><span class="heading-anchor-icon">#</span></a>LSP Settings</h3>
+<p>You can pass configuration to rumdl via Zed's LSP settings. The shape matches
+rumdl's LSP configuration: server options at the top level (camelCase), rule
+configuration nested under <code>settings</code>:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "rumdl"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "configPath"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">".rumdl.toml"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "enableAutoFix"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">true</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "settings"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">          "lineLength"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">120</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">          "disable"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"MD033"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">],</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">          "MD013"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">            "lineLength"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">120</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">          }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">        }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>These are sent to rumdl both as <code>initialize</code> options and on
+<code>workspace/didChangeConfiguration</code>, so edits apply without restarting the
+server. To send a different payload at initialization, set
+<code>lsp.rumdl.initialization_options</code>, which takes precedence over <code>settings</code>
+for the <code>initialize</code> request.</p>
+<h3 id="user-content-using-a-system-installed-rumdl"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#using-a-system-installed-rumdl"><span class="heading-anchor-icon">#</span></a>Using a System-Installed rumdl</h3>
+<p>If you have rumdl installed via Homebrew, Cargo, or another method, the extension will use that instead of downloading:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Install via Homebrew</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">brew</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> install</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> rvben/tap/rumdl</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Or via Cargo</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> install</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> rumdl</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Or via mise</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">mise</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> use</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> rumdl@latest</span></span></code></pre>
+<h3 id="user-content-project-configuration"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#project-configuration"><span class="heading-anchor-icon">#</span></a>Project Configuration</h3>
+<p>rumdl reads configuration from:</p>
+<ul>
+<li><code>.rumdl.toml</code> in your project root</li>
+<li><code>pyproject.toml</code> under <code>[tool.rumdl]</code></li>
+</ul>
+<p>See the <a href="https://github.com/rvben/rumdl/blob/main/docs/CONFIGURATION.md">rumdl documentation</a> for all configuration options.</p>
+<h2 id="user-content-troubleshooting"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#troubleshooting"><span class="heading-anchor-icon">#</span></a>Troubleshooting</h2>
+<h3 id="user-content-extension-not-working"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#extension-not-working"><span class="heading-anchor-icon">#</span></a>Extension not working</h3>
+<ol>
+<li>
+<p><strong>Check logs</strong>: Open the command palette and run <code>zed: open log</code>. Look for lines containing "rumdl".</p>
+</li>
+<li>
+<p><strong>Verify rumdl is installed</strong>: If using a system installation, verify with:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">which</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> rumdl</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">rumdl</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --version</span></span></code></pre>
+</li>
+<li>
+<p><strong>Restart the language server</strong>: After installing or upgrading rumdl, run <code>editor: restart language server</code> from the command palette (or restart Zed) to pick up the new binary.</p>
+</li>
+</ol>
+<h3 id="user-content-diagnostics-not-showing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#diagnostics-not-showing"><span class="heading-anchor-icon">#</span></a>Diagnostics not showing</h3>
+<ol>
+<li>
+<p><strong>Check language server is enabled</strong>: rumdl is enabled by default for Markdown. If you override <code>language_servers</code> in your settings, make sure the list includes <code>"rumdl"</code>.</p>
+</li>
+<li>
+<p><strong>Check file type</strong>: Ensure the file is recognized as Markdown (check the language indicator in the status bar).</p>
+</li>
+<li>
+<p><strong>Check rumdl configuration</strong>: Some rules may be disabled in your <code>.rumdl.toml</code>.</p>
+</li>
+</ol>
+<h3 id="user-content-format-on-save-not-working"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#format-on-save-not-working"><span class="heading-anchor-icon">#</span></a>Format on save not working</h3>
+<ol>
+<li>
+<p><strong>Set rumdl as the formatter and enable format on save</strong>:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "languages"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "Markdown"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "formatter"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "language_server"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">          "name"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"rumdl"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">        }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      },</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "format_on_save"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"on"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>Without the <code>formatter</code> setting, Zed formats Markdown with its built-in Prettier integration instead of rumdl.</p>
+</li>
+<li>
+<p><strong>Check if rumdl supports fixing the issue</strong>: Not all lint warnings have auto-fixes. Run <code>rumdl check --fix</code> to apply the fixes rumdl can make automatically.</p>
+</li>
+</ol>
+<h3 id="user-content-wrong-rumdl-version"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#wrong-rumdl-version"><span class="heading-anchor-icon">#</span></a>Wrong rumdl version</h3>
+<p>The extension checks for rumdl in this order:</p>
+<ol>
+<li>Custom binary path from LSP settings</li>
+<li>System PATH (<code>which rumdl</code>)</li>
+<li>Auto-downloaded from GitHub releases</li>
+</ol>
+<p>To use a specific version, either:</p>
+<ul>
+<li>Set a custom binary path in LSP settings</li>
+<li>Ensure your preferred version is first in PATH</li>
+<li>Remove any cached downloads (in Zed's extension data directory)</li>
+</ul>
+<p>Settings and PATH are re-checked every time the language server starts, so switching binaries only needs <code>editor: restart language server</code>, not a Zed restart. If GitHub is unreachable, the extension falls back to the most recently downloaded binary.</p>
+<h2 id="user-content-requirements"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#requirements"><span class="heading-anchor-icon">#</span></a>Requirements</h2>
+<ul>
+<li>Zed editor</li>
+<li>macOS (Intel or Apple Silicon), Linux (x86_64 or ARM64), or Windows (x86_64)</li>
+</ul>
+<h2 id="user-content-contributing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#contributing"><span class="heading-anchor-icon">#</span></a>Contributing</h2>
+<p>Contributions are welcome! Please see the <a href="https://github.com/rvben/zed-rumdl/blob/HEAD/.github/ISSUE_TEMPLATE" target="_blank" rel="noopener">issue templates</a> for reporting bugs or requesting features.</p>
+<p>For issues with rumdl's linting rules or CLI, please use the <a href="https://github.com/rvben/rumdl/issues">main rumdl repository</a>.</p>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>MIT</p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>
