@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1615** |
 | In official registry | 1145 |
 | Discovered via topics | 470 |
-| Last updated | 2026-07-21 01:10 UTC |
+| Last updated | 2026-07-21 07:33 UTC |
 
 ### By capability
 
@@ -120,16 +120,17 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 89 | 2026-07-21 | True Dark Theme for Zed IDE |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 202 | 2026-07-21 | Zed plugin for automatic time tracking and metrics generated... |
+| [BenjaminHalko/flow-icons-zed](https://github.com/BenjaminHalko/flow-icons-zed) | 28 | 2026-07-21 | 🌼 Flow Icons ported to Zed |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-07-20 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [zed-extensions/swift](https://github.com/zed-extensions/swift) | 144 | 2026-07-20 | Extension for Zed to support Swift |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 0 | 2026-07-20 | Experimental Spring Boot language intelligence for Zed, buil... |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 202 | 2026-07-20 | Zed plugin for automatic time tracking and metrics generated... |
 | [Pvxlabs/pine-script-zed](https://github.com/Pvxlabs/pine-script-zed) | 1 | 2026-07-20 | Pine Script language support for Zed. |
 | [felixtensor/zed-mlir-suite](https://github.com/felixtensor/zed-mlir-suite) | 2 | 2026-07-20 | The MLIR extension for Zed. |
 | [rvben/zed-rumdl](https://github.com/rvben/zed-rumdl) | 1 | 2026-07-20 | Zed extension for rumdl - a fast Markdown linter and formatt... |
 | [b4bury/zed-glass](https://github.com/b4bury/zed-glass) | 0 | 2026-07-20 | Glass — a liquid-glass transparent theme for Zed (dark + lig... |
 | [emirror-de/quietude-zed](https://github.com/emirror-de/quietude-zed) | 0 | 2026-07-20 | A calm, warm monochrome theme for Zed, engineered to reduce ... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 89 | 2026-07-20 | True Dark Theme for Zed IDE |
 | [kr-aman-sharma/idx-theme](https://github.com/kr-aman-sharma/idx-theme) | 0 | 2026-07-19 | Project IDX is alive |
 | [leolorenzato/zed-pastel-night-theme](https://github.com/leolorenzato/zed-pastel-night-theme) | 0 | 2026-07-19 | 🌃 Pastel Night theme for Zed |
 | [polina4096/zed-rune-lsp](https://github.com/polina4096/zed-rune-lsp) | 0 | 2026-07-18 | Zed extension for the Rune programming language. |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [freshjuice-dev/zed-themes](https://github.com/freshjuice-dev/zed-themes) | 1 | 2026-07-17 | FreshJuice dark themes for Zed editor — fruit-named, high-co... |
 | [rux-lang/Zed](https://github.com/rux-lang/Zed) | 4 | 2026-07-17 | Zed extension for the Rux programming language |
 | [xXCHAVOTAXx/candela-theme](https://github.com/xXCHAVOTAXx/candela-theme) | 0 | 2026-07-17 | Warm, low-fatigue Zed theme (dark + light) with OKLCH-unifor... |
-| [kjanat/zed-typescript](https://github.com/kjanat/zed-typescript) | 0 | 2026-07-16 | Runs the TypeScript 7+ language server in Zed. |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-07-21T07:33 | 0 | 519 | 1945 |
 | 2026-07-21T01:10 | 0 | 519 | 1945 |
 | 2026-07-20T19:15 | 1 | 518 | 1945 |
 | 2026-07-20T13:21 | 1 | 517 | 1944 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-07-19T13:04 | 0 | 517 | 1943 |
 | 2026-07-19T07:31 | 0 | 517 | 1943 |
 | 2026-07-19T01:11 | 1 | 516 | 1943 |
-| 2026-07-18T19:03 | 0 | 516 | 1942 |
 
 ---
 
