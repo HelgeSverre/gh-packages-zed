@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1615-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1619-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,18 +14,18 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1615** |
-| In official registry | 1145 |
-| Discovered via topics | 470 |
-| Last updated | 2026-07-21 07:33 UTC |
+| Total tracked | **1619** |
+| In official registry | 1150 |
+| Discovered via topics | 469 |
+| Last updated | 2026-07-21 13:07 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
-| Themes | 680 |
-| Grammars | 559 |
-| Language Servers | 521 |
+| Themes | 683 |
+| Grammars | 560 |
+| Language Servers | 522 |
 | Context Servers | 133 |
 | Snippets | 71 |
 | Slash Commands | 57 |
@@ -70,6 +70,10 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [shamsghi/Ayu-in-Zed](https://github.com/shamsghi/Ayu-in-Zed) | 0 | A sleek, modern Ayu-inspired theme for the Zed editor that stays readable during... |
+| [DLC-link/zed-daml-lsp](https://github.com/DLC-link/zed-daml-lsp) | 0 |  |
+| [hearth-code/hearthcode-zed](https://github.com/hearth-code/hearthcode-zed) | 0 | HearthCode themes for Zed, generated from HearthTheme |
+| [cringoleg/jetbrains-high-contrast-zed](https://github.com/cringoleg/jetbrains-high-contrast-zed) | 0 |  |
 | [rvben/zed-rumdl](https://github.com/rvben/zed-rumdl) | 1 | Zed extension for rumdl - a fast Markdown linter and formatter written in Rust |
 | [polina4096/zed-rune-lsp](https://github.com/polina4096/zed-rune-lsp) | 0 | Zed extension for the Rune programming language. |
 | [anidotdev/love2d-zed](https://github.com/anidotdev/love2d-zed) | 0 | A Zed extension for developing games with the LÖVE framework. |
@@ -86,10 +90,6 @@ cd website && npm install && npm run dev
 | [Solace-Theme/Solace](https://github.com/Solace-Theme/Solace) | 7 | A minimalistic theme with violet accents and pastel syntax. For Zed. |
 | [b4bury/zed-glass](https://github.com/b4bury/zed-glass) | 0 | Glass — a liquid-glass transparent theme for Zed (dark + light) |
 | [freshjuice-dev/zed-themes](https://github.com/freshjuice-dev/zed-themes) | 1 | FreshJuice dark themes for Zed editor — fruit-named, high-contrast, warm palette... |
-| [emirror-de/quietude-zed](https://github.com/emirror-de/quietude-zed) | 0 | A calm, warm monochrome theme for Zed, engineered to reduce eye strain during lo... |
-| [runescape-themes/zed-icons](https://github.com/runescape-themes/zed-icons) | 1 | 🏰 Old School RuneScape icon theme for Zed |
-| [petercr/varlock-zed-extension](https://github.com/petercr/varlock-zed-extension) | 2 | Zed port of the Varlock VS Code @env-spec extension for .env.schema files. |
-| [laurenzpavlosmalisianos/logos-theme](https://github.com/laurenzpavlosmalisianos/logos-theme) | 0 | A personal theme for Zed with light, dark, and translucent blur variants. |
 
 ## Top starred (under 500)
 
@@ -120,10 +120,11 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-07-21 | Intelligent codebase search & indexing for Zed. Async MCP se... |
+| [hearth-code/hearthcode-zed](https://github.com/hearth-code/hearthcode-zed) | 0 | 2026-07-21 | HearthCode themes for Zed, generated from HearthTheme |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 89 | 2026-07-21 | True Dark Theme for Zed IDE |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 202 | 2026-07-21 | Zed plugin for automatic time tracking and metrics generated... |
 | [BenjaminHalko/flow-icons-zed](https://github.com/BenjaminHalko/flow-icons-zed) | 28 | 2026-07-21 | 🌼 Flow Icons ported to Zed |
-| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-07-20 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [zed-extensions/swift](https://github.com/zed-extensions/swift) | 144 | 2026-07-20 | Extension for Zed to support Swift |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 0 | 2026-07-20 | Experimental Spring Boot language intelligence for Zed, buil... |
 | [Pvxlabs/pine-script-zed](https://github.com/Pvxlabs/pine-script-zed) | 1 | 2026-07-20 | Pine Script language support for Zed. |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [anidotdev/love2d-zed](https://github.com/anidotdev/love2d-zed) | 0 | 2026-07-18 | A Zed extension for developing games with the LÖVE framework... |
 | [freshjuice-dev/zed-themes](https://github.com/freshjuice-dev/zed-themes) | 1 | 2026-07-17 | FreshJuice dark themes for Zed editor — fruit-named, high-co... |
 | [rux-lang/Zed](https://github.com/rux-lang/Zed) | 4 | 2026-07-17 | Zed extension for the Rux programming language |
-| [xXCHAVOTAXx/candela-theme](https://github.com/xXCHAVOTAXx/candela-theme) | 0 | 2026-07-17 | Warm, low-fatigue Zed theme (dark + light) with OKLCH-unifor... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-07-21T13:07 | 4 | 519 | 1949 |
 | 2026-07-21T07:33 | 0 | 519 | 1945 |
 | 2026-07-21T01:10 | 0 | 519 | 1945 |
 | 2026-07-20T19:15 | 1 | 518 | 1945 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-07-19T19:03 | 0 | 517 | 1943 |
 | 2026-07-19T13:04 | 0 | 517 | 1943 |
 | 2026-07-19T07:31 | 0 | 517 | 1943 |
-| 2026-07-19T01:11 | 1 | 516 | 1943 |
 
 ---
 

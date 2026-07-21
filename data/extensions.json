@@ -141,7 +141,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-07-21T04:53:14Z",
+    "updated_at": "2026-07-21T08:54:05Z",
     "pushed_at": "2026-07-21T04:52:48Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -3693,7 +3693,7 @@
     "name": "chopratejas/headroom-zed",
     "url": "https://github.com/chopratejas/headroom-zed",
     "description": "Zed extension for Headroom — context compression for AI agents",
-    "stars": 51,
+    "stars": 52,
     "forks": 10,
     "topics": [
       "ai-agents",
@@ -3710,7 +3710,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-03-18T16:55:33Z",
-    "updated_at": "2026-07-20T07:21:39Z",
+    "updated_at": "2026-07-21T09:36:46Z",
     "pushed_at": "2026-03-18T16:55:38Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false,
@@ -6203,7 +6203,7 @@
     "url": "https://github.com/yuna0x0/zed-yarn-spinner",
     "description": "Yarn Spinner language support for Zed",
     "stars": 1,
-    "forks": 0,
+    "forks": 1,
     "topics": [
       "game-development",
       "gamedev",
@@ -11689,7 +11689,7 @@
     "url": "https://github.com/zed-extensions/kotlin",
     "description": "Kotlin support",
     "stars": 98,
-    "forks": 31,
+    "forks": 32,
     "topics": [],
     "language": "Tree-sitter Query",
     "license": "MIT",
@@ -14658,6 +14658,7 @@
     "updated_at": "2026-04-29T07:47:12Z",
     "pushed_at": "2026-04-29T07:47:07Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
+    "official": true,
     "extension": {
       "id": "bruno",
       "name": "Bruno",
@@ -54088,8 +54089,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
-    "updated_at": "2026-07-20T20:58:57Z",
-    "pushed_at": "2026-07-20T20:58:23Z",
+    "updated_at": "2026-07-21T13:06:45Z",
+    "pushed_at": "2026-07-21T13:05:55Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false,
     "extension": {
@@ -55278,6 +55279,138 @@
       ],
       "categories": [
         "language-server"
+      ]
+    }
+  },
+  "shamsghi/ayu-in-zed": {
+    "name": "shamsghi/Ayu-in-Zed",
+    "url": "https://github.com/shamsghi/Ayu-in-Zed",
+    "description": "A sleek, modern Ayu-inspired theme for the Zed editor that stays readable during long coding sessions.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "ayu",
+      "ayu-theme"
+    ],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-04-06T17:43:44Z",
+    "updated_at": "2026-07-04T01:34:14Z",
+    "pushed_at": "2026-07-04T01:35:56Z",
+    "discovered_at": "2026-07-21T13:07:05.890Z",
+    "official": true,
+    "extension": {
+      "id": "ayu-theme",
+      "name": "Ayu Classic",
+      "description": "Faithful Ayu dark, mirage, OLED, and light theme variants for Zed",
+      "version": "1.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Ayu Theme contributors",
+        "shamsghi"
+      ],
+      "repository": "https://github.com/shamsghi/Ayu-in-Zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "dlc-link/zed-daml-lsp": {
+    "name": "DLC-link/zed-daml-lsp",
+    "url": "https://github.com/DLC-link/zed-daml-lsp",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "Apache-2.0",
+    "created_at": "2025-11-27T15:25:40Z",
+    "updated_at": "2026-04-20T15:29:49Z",
+    "pushed_at": "2026-03-25T14:58:33Z",
+    "discovered_at": "2026-07-21T13:07:05.890Z",
+    "official": true,
+    "extension": {
+      "id": "daml",
+      "name": "DAML",
+      "description": "DAML smart contract language support for Zed",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "BitSafe"
+      ],
+      "repository": "https://github.com/DLC-link/zed-daml-lsp",
+      "snippets": null,
+      "sections": [
+        "language_servers",
+        "grammars"
+      ],
+      "categories": [
+        "grammar",
+        "language-server"
+      ]
+    }
+  },
+  "hearth-code/hearthcode-zed": {
+    "name": "hearth-code/hearthcode-zed",
+    "url": "https://github.com/hearth-code/hearthcode-zed",
+    "description": "HearthCode themes for Zed, generated from HearthTheme",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-07-21T03:25:13Z",
+    "updated_at": "2026-07-21T04:57:12Z",
+    "pushed_at": "2026-07-21T04:57:05Z",
+    "discovered_at": "2026-07-21T13:07:05.890Z",
+    "official": true,
+    "extension": {
+      "id": "hearthcode-theme",
+      "name": "HearthCode Theme",
+      "description": "Low-glare dark and light themes for long coding sessions, with warm Ember and editorial Moss.",
+      "version": "3.7.5",
+      "schema_version": 1,
+      "authors": [
+        "HearthCode"
+      ],
+      "repository": "https://github.com/hearth-code/hearthcode-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "cringoleg/jetbrains-high-contrast-zed": {
+    "name": "cringoleg/jetbrains-high-contrast-zed",
+    "url": "https://github.com/cringoleg/jetbrains-high-contrast-zed",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-04-21T20:13:26Z",
+    "updated_at": "2026-04-28T19:49:21Z",
+    "pushed_at": "2026-04-28T19:49:17Z",
+    "discovered_at": "2026-07-21T13:07:05.890Z",
+    "official": true,
+    "extension": {
+      "id": "jb-high-contrast-theme",
+      "name": "JetBrains High Contrast",
+      "description": "A port of the JetBrains High Contrast accessibility theme for Zed",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "cringoleg"
+      ],
+      "repository": "https://github.com/cringoleg/jetbrains-high-contrast-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
       ]
     }
   }
