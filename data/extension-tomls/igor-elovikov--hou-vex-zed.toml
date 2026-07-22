@@ -1,0 +1,12 @@
+id = "houdini-vex"
+name = "Houdini VEX"
+version = "0.0.1"
+schema_version = 1
+authors = ["Igor Elovikov <igor.elovikov@gmail.com>"]
+description = "Houdini VEX Language support"
+repository = "https://github.com/igor-elovikov/hou-vex-zed"
+snippets = ["./snippets/houdini-vex.json"]
+
+[grammars.vex]
+repository = "https://github.com/igor-elovikov/tree-sitter-vex"
+rev = "cfcf9565dd9624028d6c20e41cc6c312eae21172"
