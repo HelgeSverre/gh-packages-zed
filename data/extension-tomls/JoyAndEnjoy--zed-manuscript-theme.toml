@@ -1,0 +1,22 @@
+id = "manuscript-theme"
+name = "Manuscript Theme"
+version = "0.1.0"
+schema_version = 1
+description = "A warm, old-paper theme collection"
+repository = "https://github.com/JoyAndEnjoy/zed-manuscript-theme"
+authors = ["JoyAndEnjoy <anytype@duck.com>"]
+themes = ["themes/manuscript-dark.json", "themes/manuscript-dark-decolorized-hc.json", "themes/manuscript-light.json", "themes/manuscript-light-decolorized-hc.json"]
+languages = []
+capabilities = []
+
+[lib]
+
+[grammars]
+
+[language_servers]
+
+[context_servers]
+
+[agent_servers]
+
+[slash_commands]
