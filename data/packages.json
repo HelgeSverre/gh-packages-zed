@@ -156,8 +156,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-07-21T08:54:05Z",
-    "pushed_at": "2026-07-21T04:52:48Z",
+    "updated_at": "2026-07-22T04:52:42Z",
+    "pushed_at": "2026-07-22T04:52:26Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -196,8 +196,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2024-08-27T10:31:46Z",
-    "updated_at": "2026-07-21T02:25:17Z",
-    "pushed_at": "2026-07-21T17:03:36Z",
+    "updated_at": "2026-07-22T06:11:19Z",
+    "pushed_at": "2026-07-22T06:11:32Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -637,8 +637,8 @@
     "language": "Go",
     "license": "GPL-3.0",
     "created_at": "2026-01-19T23:03:47Z",
-    "updated_at": "2026-07-19T11:45:36Z",
-    "pushed_at": "2026-07-19T17:07:04Z",
+    "updated_at": "2026-07-22T07:17:15Z",
+    "pushed_at": "2026-07-22T07:16:30Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -742,7 +742,7 @@
     "name": "Gurvirr/zed-ultraViolet",
     "url": "https://github.com/Gurvirr/zed-ultraViolet",
     "description": "A dark, violet-toned theme designed for quality & visual comfort ◡̈",
-    "stars": 115,
+    "stars": 116,
     "forks": 2,
     "topics": [
       "theme",
@@ -753,7 +753,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-03-27T21:17:19Z",
-    "updated_at": "2026-07-09T13:31:06Z",
+    "updated_at": "2026-07-22T06:11:37Z",
     "pushed_at": "2026-05-08T15:27:24Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -5001,7 +5001,7 @@
     "name": "LoamStudios/zed-bamboo-theme",
     "url": "https://github.com/LoamStudios/zed-bamboo-theme",
     "description": "A port of the Bamboo theme to Zed",
-    "stars": 3,
+    "stars": 4,
     "forks": 1,
     "topics": [
       "theme",
@@ -5012,7 +5012,7 @@
     "language": "HTML",
     "license": "NOASSERTION",
     "created_at": "2025-05-23T14:01:02Z",
-    "updated_at": "2026-02-16T18:09:30Z",
+    "updated_at": "2026-07-22T05:58:37Z",
     "pushed_at": "2025-05-23T15:03:22Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -5309,8 +5309,8 @@
     "language": "Go",
     "license": "MIT",
     "created_at": "2026-03-09T04:35:59Z",
-    "updated_at": "2026-07-21T07:05:58Z",
-    "pushed_at": "2026-07-21T07:04:52Z",
+    "updated_at": "2026-07-22T07:06:51Z",
+    "pushed_at": "2026-07-22T07:06:10Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -5337,8 +5337,8 @@
     "name": "Dylanmurzello/zed-android-port",
     "url": "https://github.com/Dylanmurzello/zed-android-port",
     "description": "Native Android port of the Zed code editor,  gpui rendering through Vulkan, integrated Termux for LSPs and tooling, remote SSH support. Runs as an APK on tablets and Android desktop modes.",
-    "stars": 139,
-    "forks": 11,
+    "stars": 140,
+    "forks": 12,
     "topics": [
       "android",
       "android-app",
@@ -5364,7 +5364,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-05-07T00:12:10Z",
-    "updated_at": "2026-07-18T06:37:06Z",
+    "updated_at": "2026-07-22T06:58:05Z",
     "pushed_at": "2026-06-05T21:34:45Z",
     "discovered_at": "2026-05-19T19:54:12.053Z",
     "official": false
@@ -9444,14 +9444,19 @@
   "fabric0de/sentry-mcp-server-zed": {
     "name": "fabric0de/sentry-mcp-server-zed",
     "url": "https://github.com/fabric0de/sentry-mcp-server-zed",
-    "description": "",
-    "stars": 2,
+    "description": "Zed extension that runs @sentry/mcp-server in stdio mode.",
+    "stars": 3,
     "forks": 0,
-    "topics": [],
+    "topics": [
+      "mcp",
+      "sentry",
+      "zed",
+      "zed-extension"
+    ],
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-02-22T02:41:07Z",
-    "updated_at": "2026-05-13T14:35:30Z",
+    "updated_at": "2026-07-22T06:40:52Z",
     "pushed_at": "2026-05-14T02:10:57Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": true
@@ -18191,8 +18196,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-07-21T19:06:22Z",
-    "pushed_at": "2026-07-21T19:05:44Z",
+    "updated_at": "2026-07-22T01:10:27Z",
+    "pushed_at": "2026-07-22T01:10:21Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -33120,8 +33125,8 @@
     "language": "Rust",
     "license": null,
     "created_at": "2026-07-21T08:09:16Z",
-    "updated_at": "2026-07-22T01:06:57Z",
-    "pushed_at": "2026-07-22T01:06:53Z",
+    "updated_at": "2026-07-22T01:17:30Z",
+    "pushed_at": "2026-07-22T01:17:21Z",
     "discovered_at": "2026-07-22T01:09:49.303Z",
     "official": false
   }

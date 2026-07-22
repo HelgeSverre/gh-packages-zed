@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1620** |
 | In official registry | 1150 |
 | Discovered via topics | 470 |
-| Last updated | 2026-07-22 01:09 UTC |
+| Last updated | 2026-07-22 07:33 UTC |
 
 ### By capability
 
@@ -120,14 +120,14 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 202 | 2026-07-22 | Zed plugin for automatic time tracking and metrics generated... |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 89 | 2026-07-22 | True Dark Theme for Zed IDE |
 | [WhiteKr/zed-classic-asp](https://github.com/WhiteKr/zed-classic-asp) | 0 | 2026-07-22 | Classic ASP (VBScript) support for the Zed editor — syntax h... |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-07-21 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [DuskSystems/zed-cedar](https://github.com/DuskSystems/zed-cedar) | 1 | 2026-07-21 | Cedar language support for Zed. |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 202 | 2026-07-21 | Zed plugin for automatic time tracking and metrics generated... |
 | [unicodick/zed-paper](https://github.com/unicodick/zed-paper) | 0 | 2026-07-21 | Paper 1.21.11 plugin development tools for Zed. |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 0 | 2026-07-21 | Experimental Spring Boot language intelligence for Zed, buil... |
 | [hearth-code/hearthcode-zed](https://github.com/hearth-code/hearthcode-zed) | 0 | 2026-07-21 | HearthCode themes for Zed, generated from HearthTheme |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 89 | 2026-07-21 | True Dark Theme for Zed IDE |
 | [BenjaminHalko/flow-icons-zed](https://github.com/BenjaminHalko/flow-icons-zed) | 28 | 2026-07-21 | 🌼 Flow Icons ported to Zed |
 | [zed-extensions/swift](https://github.com/zed-extensions/swift) | 144 | 2026-07-20 | Extension for Zed to support Swift |
 | [Pvxlabs/pine-script-zed](https://github.com/Pvxlabs/pine-script-zed) | 1 | 2026-07-20 | Pine Script language support for Zed. |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-07-22T07:33 | 0 | 522 | 1950 |
 | 2026-07-22T01:09 | 1 | 520 | 1950 |
 | 2026-07-21T19:05 | 0 | 520 | 1949 |
 | 2026-07-21T13:07 | 4 | 519 | 1949 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-07-20T13:21 | 1 | 517 | 1944 |
 | 2026-07-20T07:44 | 0 | 517 | 1943 |
 | 2026-07-20T01:12 | 0 | 517 | 1943 |
-| 2026-07-19T19:03 | 0 | 517 | 1943 |
 
 ---
 
