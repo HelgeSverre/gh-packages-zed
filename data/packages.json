@@ -3504,8 +3504,8 @@
     "language": "Tree-sitter Query",
     "license": "Apache-2.0",
     "created_at": "2026-01-10T23:51:38Z",
-    "updated_at": "2026-07-18T16:09:36Z",
-    "pushed_at": "2026-07-18T16:09:32Z",
+    "updated_at": "2026-07-21T21:28:30Z",
+    "pushed_at": "2026-07-21T21:28:15Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -8958,13 +8958,13 @@
     "name": "zed-extensions/kotlin",
     "url": "https://github.com/zed-extensions/kotlin",
     "description": "Kotlin support",
-    "stars": 98,
-    "forks": 32,
+    "stars": 99,
+    "forks": 33,
     "topics": [],
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-02-27T10:35:56Z",
-    "updated_at": "2026-07-14T19:29:44Z",
+    "updated_at": "2026-07-21T22:33:19Z",
     "pushed_at": "2026-06-07T22:08:05Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": false
@@ -15605,7 +15605,7 @@
     "name": "agent-sh/agnix",
     "url": "https://github.com/agent-sh/agnix",
     "description": "The missing linter and lsp for AI coding assistants. Validate CLAUDE.md, AGENTS.md, SKILL.md, hooks, MCP. Plugin for all major IDEs included, with autofixes.",
-    "stars": 357,
+    "stars": 358,
     "forks": 30,
     "topics": [
       "agent",
@@ -15632,7 +15632,7 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
-    "updated_at": "2026-07-21T11:41:01Z",
+    "updated_at": "2026-07-21T19:13:11Z",
     "pushed_at": "2026-07-21T11:40:49Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
@@ -18191,8 +18191,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-07-21T13:10:24Z",
-    "pushed_at": "2026-07-21T13:07:37Z",
+    "updated_at": "2026-07-21T19:06:22Z",
+    "pushed_at": "2026-07-21T19:05:44Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -32202,8 +32202,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
-    "updated_at": "2026-07-21T19:04:38Z",
-    "pushed_at": "2026-07-21T19:02:42Z",
+    "updated_at": "2026-07-21T23:25:48Z",
+    "pushed_at": "2026-07-21T23:25:43Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false
   },
@@ -32467,7 +32467,7 @@
     "name": "T1ckbase/vscode-langservers-extracted",
     "url": "https://github.com/T1ckbase/vscode-langservers-extracted",
     "description": "Language servers extracted from Microsoft repositories for CSS, HTML, JSON, Markdown, and ESLint.",
-    "stars": 14,
+    "stars": 15,
     "forks": 0,
     "topics": [
       "autocompletion",
@@ -32492,7 +32492,7 @@
     "language": "TypeScript",
     "license": "MIT",
     "created_at": "2025-09-04T13:25:25Z",
-    "updated_at": "2026-07-21T05:18:17Z",
+    "updated_at": "2026-07-22T00:46:53Z",
     "pushed_at": "2026-07-17T12:32:00Z",
     "discovered_at": "2026-07-12T13:04:37.755Z",
     "official": false
@@ -32513,7 +32513,7 @@
     "license": null,
     "created_at": "2026-04-21T09:59:34Z",
     "updated_at": "2026-07-14T21:01:52Z",
-    "pushed_at": "2026-07-20T19:59:21Z",
+    "pushed_at": "2026-07-21T23:29:17Z",
     "discovered_at": "2026-07-12T19:03:27.403Z",
     "official": false
   },
@@ -33101,5 +33101,28 @@
     "pushed_at": "2026-04-28T19:49:17Z",
     "discovered_at": "2026-07-21T13:07:05.890Z",
     "official": true
+  },
+  "whitekr/zed-classic-asp": {
+    "name": "WhiteKr/zed-classic-asp",
+    "url": "https://github.com/WhiteKr/zed-classic-asp",
+    "description": "Classic ASP (VBScript) support for the Zed editor — syntax highlighting, outline, and a language server with go-to-definition, find references, and include diagnostics",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "asp",
+      "classic-asp",
+      "language-server",
+      "tree-sitter",
+      "vbscript",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Rust",
+    "license": null,
+    "created_at": "2026-07-21T08:09:16Z",
+    "updated_at": "2026-07-22T01:06:57Z",
+    "pushed_at": "2026-07-22T01:06:53Z",
+    "discovered_at": "2026-07-22T01:09:49.303Z",
+    "official": false
   }
 }

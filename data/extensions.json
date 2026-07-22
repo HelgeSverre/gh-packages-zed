@@ -5416,8 +5416,8 @@
     "language": "Tree-sitter Query",
     "license": "Apache-2.0",
     "created_at": "2026-01-10T23:51:38Z",
-    "updated_at": "2026-07-18T16:09:36Z",
-    "pushed_at": "2026-07-18T16:09:32Z",
+    "updated_at": "2026-07-21T21:28:30Z",
+    "pushed_at": "2026-07-21T21:28:15Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false,
     "extension": {
@@ -11688,13 +11688,13 @@
     "name": "zed-extensions/kotlin",
     "url": "https://github.com/zed-extensions/kotlin",
     "description": "Kotlin support",
-    "stars": 98,
-    "forks": 32,
+    "stars": 99,
+    "forks": 33,
     "topics": [],
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-02-27T10:35:56Z",
-    "updated_at": "2026-07-14T19:29:44Z",
+    "updated_at": "2026-07-21T22:33:19Z",
     "pushed_at": "2026-06-07T22:08:05Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": false,
@@ -54089,8 +54089,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
-    "updated_at": "2026-07-21T19:04:38Z",
-    "pushed_at": "2026-07-21T19:02:42Z",
+    "updated_at": "2026-07-21T23:25:48Z",
+    "pushed_at": "2026-07-21T23:25:43Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false,
     "extension": {
@@ -55411,6 +55411,49 @@
       "sections": [],
       "categories": [
         "theme"
+      ]
+    }
+  },
+  "whitekr/zed-classic-asp": {
+    "name": "WhiteKr/zed-classic-asp",
+    "url": "https://github.com/WhiteKr/zed-classic-asp",
+    "description": "Classic ASP (VBScript) support for the Zed editor — syntax highlighting, outline, and a language server with go-to-definition, find references, and include diagnostics",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "asp",
+      "classic-asp",
+      "language-server",
+      "tree-sitter",
+      "vbscript",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Rust",
+    "license": null,
+    "created_at": "2026-07-21T08:09:16Z",
+    "updated_at": "2026-07-22T01:06:57Z",
+    "pushed_at": "2026-07-22T01:06:53Z",
+    "discovered_at": "2026-07-22T01:09:49.303Z",
+    "official": false,
+    "extension": {
+      "id": "classic-asp",
+      "name": "Classic ASP",
+      "description": "Classic ASP (VBScript) syntax highlighting for Zed",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "WhiteKr <hanjisu2215g@gmail.com>"
+      ],
+      "repository": "https://github.com/WhiteKr/zed-classic-asp",
+      "snippets": null,
+      "sections": [
+        "language_servers",
+        "grammars"
+      ],
+      "categories": [
+        "grammar",
+        "language-server"
       ]
     }
   }

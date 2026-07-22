@@ -1,0 +1,114 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Classic ASP - Zed Extension Safari</title><meta name="description" content="Classic ASP (VBScript) support for the Zed editor — syntax highlighting, outline, and a language server with go-to-definition, find references, and include diagnostics"><link rel="canonical" href="https://helgesverre.github.io/gh-packages-zed/package/WhiteKr/zed-classic-asp/"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Classic ASP - Zed Extension Safari"><meta property="og:description" content="Classic ASP (VBScript) support for the Zed editor — syntax highlighting, outline, and a language server with go-to-definition, find references, and include diagnostics"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed/package/WhiteKr/zed-classic-asp/"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Classic ASP - Zed Extension Safari"><meta name="twitter:description" content="Classic ASP (VBScript) support for the Zed editor — syntax highlighting, outline, and a language server with go-to-definition, find references, and include diagnostics"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/gh-packages-zed/_astro/ClientRouter.astro_astro_type_script_index_0_lang.ClVLs1kt.js"></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Classic ASP","description":"Classic ASP (VBScript) support for the Zed editor — syntax highlighting, outline, and a language server with go-to-definition, find references, and include diagnostics","applicationCategory":"DeveloperApplication","operatingSystem":"macOS, Linux, Windows","url":"https://zed.dev/extensions/classic-asp","codeRepository":"https://github.com/WhiteKr/zed-classic-asp","author":[{"@type":"Person","name":"WhiteKr"}],"softwareVersion":"0.0.1","keywords":"grammar, language-server","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/Layout.CGDlMdWE.css"><script type="module" src="/gh-packages-zed/_astro/page.B8i1Zz-u.js"></script></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <a href="#main" class="skip-to-content">Skip to content</a> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" data-astro-transition-persist="astro-fhchcgd7-1"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <script type="application/json" id="pkg-extras">{"url":"https://github.com/WhiteKr/zed-classic-asp","language":"Rust","license":null,"topics":["asp","classic-asp","language-server","tree-sitter","vbscript","zed","zed-extension"],"extension":{"authors":["WhiteKr"],"schema_version":1}}</script> <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> WhiteKr/zed-classic-asp </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> Classic ASP </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> Classic ASP (VBScript) syntax highlighting for Zed </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="grammar">Grammar</span><span class="cat-badge" data-cat="language-server">Language Server</span> </div> </div> </div> </header> <main id="main" class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/classic-asp" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/WhiteKr/zed-classic-asp" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.0.1</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">classic-asp</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">Rust</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">3m ago</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">WhiteKr</dd> </div> </dl>  <h2 class="mt-5 text-xs uppercase font-mono" style="color:var(--zed-muted);">Topics</h2> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> asp </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> classic-asp </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> language-server </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> tree-sitter </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> vbscript </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed-extension </span> </div>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-classic-asp-for-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#classic-asp-for-zed"><span class="heading-anchor-icon">#</span></a>Classic ASP for Zed</h1>
+<p>Syntax highlighting and outline support for Classic ASP (VBScript) files in the <a href="https://zed.dev">Zed</a> editor.</p>
+<h2 id="user-content-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features"><span class="heading-anchor-icon">#</span></a>Features</h2>
+<ul>
+<li>Highlighting for <code>.asp</code> / <code>.asa</code> files:
+<ul>
+<li>HTML outside <code>&#x3C;% %></code> blocks</li>
+<li>VBScript inside <code>&#x3C;% %></code> and <code>&#x3C;%= %></code> blocks</li>
+<li><code>&#x3C;%</code> / <code>%></code> / <code>&#x3C;%=</code> delimiters</li>
+</ul>
+</li>
+<li>Case-insensitive VBScript keyword recognition (<code>Dim</code>, <code>dim</code>, <code>DIM</code> all work)</li>
+<li>Outline panel / breadcrumbs for <code>Sub</code>, <code>Function</code>, <code>Class</code>, and <code>Property</code> definitions</li>
+<li>Standalone <code>.vbs</code> files are highlighted as VBScript</li>
+<li>Highlighting is resilient: a parse error in one region does not break the rest of the file</li>
+</ul>
+<h2 id="user-content-installation-dev-extension"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation-dev-extension"><span class="heading-anchor-icon">#</span></a>Installation (dev extension)</h2>
+<ol>
+<li>
+<p>Clone this repository, and clone the grammar repository next to it:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">git</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> clone</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> https://github.com/WhiteKr/zed-classic-asp</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">git</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> clone</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> https://github.com/WhiteKr/tree-sitter-vbscript</span></span></code></pre>
+</li>
+<li>
+<p>Make sure the <code>[grammars.vbscript]</code> entry in <code>extension.toml</code> points at the grammar repository (a <code>file://</code> URL works for local development; the <code>commit</code> field must match a commit that exists there).</p>
+</li>
+<li>
+<p>In Zed, run <code>zed: install dev extension</code> from the command palette and select the <code>zed-classic-asp</code> directory.</p>
+</li>
+<li>
+<p>Open any <code>.asp</code> file — for example <code>test/fixtures/sample.asp</code>.</p>
+</li>
+</ol>
+<h2 id="user-content-language-server-asp-ls"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#language-server-asp-ls"><span class="heading-anchor-icon">#</span></a>Language server (asp-ls)</h2>
+<p>The extension ships with a minimal language server providing:</p>
+<ul>
+<li><strong>Go to definition</strong> on <code>&#x3C;!--#include file|virtual="..."--></code> directives (opens the included file). A leading <code>/</code> in <code>file=</code> paths resolves against the web root, same as <code>virtual=</code></li>
+<li><strong>Go to definition</strong> on function/sub names — searched through the current file and its include chain, falling back to the whole workspace. Declaration order does not matter (a <code>Sub</code> defined after its call site is found)</li>
+<li><strong>Go to definition</strong> on path strings in code — <code>Response.Redirect "/page.asp"</code>, <code>Server.MapPath("lib/db.asp")</code>, etc. Query strings (<code>?...</code>) are ignored; leading <code>/</code> resolves against the web root, otherwise relative to the current file</li>
+<li><strong>Find references</strong> — lists every file that includes the current file (or, on an include directive, the directive's target)</li>
+<li><strong>Workspace symbol search</strong> for <code>Sub</code> / <code>Function</code> / <code>Class</code> / <code>Property</code> definitions</li>
+<li><strong>Diagnostics</strong> for include directives whose target file cannot be found</li>
+<li><strong>Hover docs</strong> for the intrinsic objects (<code>Request</code>, <code>Response</code>, <code>Server</code>, <code>Session</code>, <code>Application</code>), common ADO members (<code>MoveNext</code>, <code>EOF</code>, <code>BeginTrans</code>, ...), and user-defined functions (shows the definition line)</li>
+</ul>
+<h3 id="user-content-setup"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#setup"><span class="heading-anchor-icon">#</span></a>Setup</h3>
+<p>Build and install the server binary so Zed can find it:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> install</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --path</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> server</span></span></code></pre>
+<p>(or build it anywhere and point Zed at it via settings):</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "asp-ls"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "binary"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"path"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"/path/to/asp-ls"</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h3 id="user-content-web-root-for-virtual-includes"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#web-root-for-virtual-includes"><span class="heading-anchor-icon">#</span></a>Web root for <code>virtual=</code> includes</h3>
+<p><code>&#x3C;!--#include virtual="/lib/db.asp"--></code> paths resolve against the web root, which defaults to the workspace root. If your web root is a subdirectory, set it in Zed settings:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "asp-ls"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "initialization_options"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"webRoot"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"wwwroot"</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h2 id="user-content-supported"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#supported"><span class="heading-anchor-icon">#</span></a>Supported</h2>
+<ul>
+<li>VBScript inside <code>&#x3C;% %></code> and <code>&#x3C;%= %></code></li>
+<li>HTML outside of ASP blocks</li>
+<li>Outline items for <code>Sub</code> / <code>Function</code> / <code>Class</code> / <code>Property Get|Let|Set</code></li>
+</ul>
+<h2 id="user-content-not-supported-yet"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#not-supported-yet"><span class="heading-anchor-icon">#</span></a>Not supported (yet)</h2>
+<ul>
+<li>JScript pages and the <code>@Language</code> directive (VBScript is assumed)</li>
+<li><code>&#x3C;script runat="server"></code> blocks (rendered as plain HTML script content; highlighting will not break, but no VBScript highlighting inside)</li>
+<li>Static analysis (undefined-function warnings and the like) — VBScript's case-insensitivity and <code>Execute</code>/<code>Eval</code> make false positives too likely</li>
+<li>Auto-indent inside <code>If</code> / <code>Sub</code> / loop blocks: the minimal grammar is intentionally flat (no block nodes) to keep highlighting resilient on broken code, so indent queries have nothing to anchor to</li>
+</ul>
+<h2 id="user-content-architecture"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#architecture"><span class="heading-anchor-icon">#</span></a>Architecture</h2>
+<ul>
+<li><code>&#x3C;% %></code> boundaries are parsed with <a href="https://github.com/tree-sitter/tree-sitter-embedded-template">tree-sitter-embedded-template</a>; HTML and VBScript are injected into <code>content</code> / <code>code</code> nodes.</li>
+<li>VBScript uses a purpose-built minimal grammar (<a href="https://github.com/WhiteKr/tree-sitter-vbscript">tree-sitter-vbscript</a>): a flat token-level grammar with structured nodes only for <code>Sub</code> / <code>Function</code> / <code>Class</code> / <code>Property</code> definitions, which keeps highlighting robust on partial or invalid code.</li>
+</ul></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>
