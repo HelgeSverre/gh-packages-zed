@@ -376,7 +376,7 @@
     "name": "albertsko/zed-everforest",
     "url": "https://github.com/albertsko/zed-everforest",
     "description": "🌲 Everforest for Zed",
-    "stars": 15,
+    "stars": 16,
     "forks": 4,
     "topics": [
       "everforest",
@@ -387,7 +387,7 @@
     "language": "Go Template",
     "license": "MIT",
     "created_at": "2025-11-14T14:30:39Z",
-    "updated_at": "2026-07-08T00:59:36Z",
+    "updated_at": "2026-07-23T16:47:07Z",
     "pushed_at": "2026-05-17T18:34:08Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -5100,7 +5100,7 @@
     "name": "zarifpour/xy-zed",
     "url": "https://github.com/zarifpour/xy-zed",
     "description": "🐈‍⬛ A sleek and sophisticated dark theme for Zed with vibrant, intelligent syntax highlighting.",
-    "stars": 84,
+    "stars": 85,
     "forks": 7,
     "topics": [
       "dark",
@@ -5118,7 +5118,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T22:41:16Z",
-    "updated_at": "2026-07-18T01:09:22Z",
+    "updated_at": "2026-07-23T15:41:10Z",
     "pushed_at": "2026-01-27T20:33:16Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -54095,8 +54095,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
-    "updated_at": "2026-07-23T03:13:04Z",
-    "pushed_at": "2026-07-23T03:13:00Z",
+    "updated_at": "2026-07-23T18:45:58Z",
+    "pushed_at": "2026-07-23T18:45:54Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false,
     "extension": {
@@ -54264,8 +54264,8 @@
     "language": "Tree-sitter Query",
     "license": "Apache-2.0",
     "created_at": "2026-07-09T18:35:02Z",
-    "updated_at": "2026-07-09T21:30:25Z",
-    "pushed_at": "2026-07-09T19:18:05Z",
+    "updated_at": "2026-07-23T14:34:03Z",
+    "pushed_at": "2026-07-23T14:32:41Z",
     "discovered_at": "2026-07-10T01:13:46.095Z",
     "official": false,
     "extension": {
@@ -55031,8 +55031,8 @@
     "language": "Java",
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
-    "updated_at": "2026-07-23T12:44:33Z",
-    "pushed_at": "2026-07-23T12:44:29Z",
+    "updated_at": "2026-07-23T18:56:06Z",
+    "pushed_at": "2026-07-23T18:56:03Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false,
     "extension": {
@@ -55599,6 +55599,45 @@
       "sections": [],
       "categories": [
         "theme"
+      ]
+    }
+  },
+  "encore-ecosystem/encore-zed": {
+    "name": "encore-ecosystem/encore-zed",
+    "url": "https://github.com/encore-ecosystem/encore-zed",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "encore",
+      "zed-extension"
+    ],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2026-03-30T19:21:46Z",
+    "updated_at": "2026-07-23T18:13:00Z",
+    "pushed_at": "2026-07-23T18:09:02Z",
+    "discovered_at": "2026-07-23T19:04:41.250Z",
+    "official": false,
+    "extension": {
+      "id": "encore-zed",
+      "name": "Encore",
+      "description": "Encore extension for Zed",
+      "version": "0.0.6",
+      "schema_version": 1,
+      "authors": [
+        "Maksim Shushkevich <m.e.shushkevich@yandex.com>"
+      ],
+      "repository": "https://github.com/encore-language/encore-zed",
+      "snippets": null,
+      "sections": [
+        "lib",
+        "grammars",
+        "language_servers"
+      ],
+      "categories": [
+        "grammar",
+        "language-server"
       ]
     }
   }

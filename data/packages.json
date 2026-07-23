@@ -308,7 +308,7 @@
     "name": "albertsko/zed-everforest",
     "url": "https://github.com/albertsko/zed-everforest",
     "description": "🌲 Everforest for Zed",
-    "stars": 15,
+    "stars": 16,
     "forks": 4,
     "topics": [
       "everforest",
@@ -319,7 +319,7 @@
     "language": "Go Template",
     "license": "MIT",
     "created_at": "2025-11-14T14:30:39Z",
-    "updated_at": "2026-07-08T00:59:36Z",
+    "updated_at": "2026-07-23T16:47:07Z",
     "pushed_at": "2026-05-17T18:34:08Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -3303,7 +3303,7 @@
     "name": "zarifpour/xy-zed",
     "url": "https://github.com/zarifpour/xy-zed",
     "description": "🐈‍⬛ A sleek and sophisticated dark theme for Zed with vibrant, intelligent syntax highlighting.",
-    "stars": 84,
+    "stars": 85,
     "forks": 7,
     "topics": [
       "dark",
@@ -3321,7 +3321,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T22:41:16Z",
-    "updated_at": "2026-07-18T01:09:22Z",
+    "updated_at": "2026-07-23T15:41:10Z",
     "pushed_at": "2026-01-27T20:33:16Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -15611,7 +15611,7 @@
     "name": "agent-sh/agnix",
     "url": "https://github.com/agent-sh/agnix",
     "description": "The missing linter and lsp for AI coding assistants. Validate CLAUDE.md, AGENTS.md, SKILL.md, hooks, MCP. Plugin for all major IDEs included, with autofixes.",
-    "stars": 361,
+    "stars": 363,
     "forks": 30,
     "topics": [
       "agent",
@@ -15638,7 +15638,7 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
-    "updated_at": "2026-07-22T19:06:46Z",
+    "updated_at": "2026-07-23T16:40:46Z",
     "pushed_at": "2026-07-21T11:40:49Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
@@ -18197,8 +18197,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-07-23T07:33:46Z",
-    "pushed_at": "2026-07-23T07:33:42Z",
+    "updated_at": "2026-07-23T13:13:18Z",
+    "pushed_at": "2026-07-23T13:13:01Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -31557,7 +31557,7 @@
     "license": "Unlicense",
     "created_at": "2026-06-18T15:06:49Z",
     "updated_at": "2026-07-23T12:39:17Z",
-    "pushed_at": "2026-07-23T12:38:37Z",
+    "pushed_at": "2026-07-23T13:47:51Z",
     "discovered_at": "2026-06-25T12:48:26.083Z",
     "official": false
   },
@@ -32208,8 +32208,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
-    "updated_at": "2026-07-23T03:13:04Z",
-    "pushed_at": "2026-07-23T03:13:00Z",
+    "updated_at": "2026-07-23T18:45:58Z",
+    "pushed_at": "2026-07-23T18:45:54Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false
   },
@@ -32321,8 +32321,8 @@
     "language": "Tree-sitter Query",
     "license": "Apache-2.0",
     "created_at": "2026-07-09T18:35:02Z",
-    "updated_at": "2026-07-09T21:30:25Z",
-    "pushed_at": "2026-07-09T19:18:05Z",
+    "updated_at": "2026-07-23T14:34:03Z",
+    "pushed_at": "2026-07-23T14:32:41Z",
     "discovered_at": "2026-07-10T01:13:46.095Z",
     "official": false
   },
@@ -32889,8 +32889,8 @@
     "language": "Java",
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
-    "updated_at": "2026-07-23T12:44:33Z",
-    "pushed_at": "2026-07-23T12:44:29Z",
+    "updated_at": "2026-07-23T18:56:06Z",
+    "pushed_at": "2026-07-23T18:56:03Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false
   },
@@ -33235,5 +33235,45 @@
     "pushed_at": "2026-07-20T18:33:58Z",
     "discovered_at": "2026-07-23T13:12:29.790Z",
     "official": true
+  },
+  "encore-ecosystem/encore-zed": {
+    "name": "encore-ecosystem/encore-zed",
+    "url": "https://github.com/encore-ecosystem/encore-zed",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "encore",
+      "zed-extension"
+    ],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2026-03-30T19:21:46Z",
+    "updated_at": "2026-07-23T18:13:00Z",
+    "pushed_at": "2026-07-23T18:09:02Z",
+    "discovered_at": "2026-07-23T19:04:41.250Z",
+    "official": false
+  },
+  "renatotadeufigueiredo/multi-agent-development-workbench": {
+    "name": "RenatoTadeuFigueiredo/multi-agent-development-workbench",
+    "url": "https://github.com/RenatoTadeuFigueiredo/multi-agent-development-workbench",
+    "description": "Provider-independent Rust workbench for orchestrating Claude, Codex, Grok, and OpenRouter agents",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "agent-client-protocol",
+      "ai-agents",
+      "multi-agent",
+      "openrouter",
+      "rust",
+      "zed-editor"
+    ],
+    "language": null,
+    "license": "Apache-2.0",
+    "created_at": "2026-07-23T15:07:21Z",
+    "updated_at": "2026-07-23T15:22:26Z",
+    "pushed_at": "2026-07-23T15:18:44Z",
+    "discovered_at": "2026-07-23T19:04:41.251Z",
+    "official": false
   }
 }
