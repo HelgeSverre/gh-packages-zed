@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1623** |
 | In official registry | 1154 |
 | Discovered via topics | 469 |
-| Last updated | 2026-07-22 19:04 UTC |
+| Last updated | 2026-07-23 01:11 UTC |
 
 ### By capability
 
@@ -121,6 +121,7 @@ cd website && npm install && npm run dev
 | Package | Stars | Last push | Description |
 |---|---|---|---|
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-07-22 | Intelligent codebase search & indexing for Zed. Async MCP se... |
+| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 130 | 2026-07-22 | The Ruby language support for Zed editor |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 0 | 2026-07-22 | Experimental Spring Boot language intelligence for Zed, buil... |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 202 | 2026-07-22 | Zed plugin for automatic time tracking and metrics generated... |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-07-22 | Zed editor support for Carve, a modern light markup language |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [kr-aman-sharma/idx-theme](https://github.com/kr-aman-sharma/idx-theme) | 0 | 2026-07-19 | Project IDX is alive |
 | [leolorenzato/zed-pastel-night-theme](https://github.com/leolorenzato/zed-pastel-night-theme) | 0 | 2026-07-19 | 🌃 Pastel Night theme for Zed |
 | [polina4096/zed-rune-lsp](https://github.com/polina4096/zed-rune-lsp) | 0 | 2026-07-18 | Zed extension for the Rune programming language. |
-| [laurenzpavlosmalisianos/logos-theme](https://github.com/laurenzpavlosmalisianos/logos-theme) | 0 | 2026-07-18 | A personal theme for Zed with light, dark, and translucent b... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-07-23T01:11 | 0 | 522 | 1954 |
 | 2026-07-22T19:04 | 1 | 522 | 1954 |
 | 2026-07-22T13:10 | 3 | 522 | 1953 |
 | 2026-07-22T07:33 | 0 | 522 | 1950 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-07-21T07:33 | 0 | 519 | 1945 |
 | 2026-07-21T01:10 | 0 | 519 | 1945 |
 | 2026-07-20T19:15 | 1 | 518 | 1945 |
-| 2026-07-20T13:21 | 1 | 517 | 1944 |
 
 ---
 
