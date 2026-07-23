@@ -127,7 +127,7 @@
     "url": "https://github.com/GDQuest/zed-gdscript",
     "description": "Zed support for the Godot game engine and the GDScript language",
     "stars": 192,
-    "forks": 23,
+    "forks": 24,
     "topics": [
       "code-editor",
       "godot",
@@ -147,7 +147,7 @@
     "name": "Imgkl/the-dark-side",
     "url": "https://github.com/Imgkl/the-dark-side",
     "description": "True Dark Theme for Zed IDE",
-    "stars": 89,
+    "stars": 90,
     "forks": 6,
     "topics": [
       "zed-extension",
@@ -156,7 +156,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-07-23T04:58:29Z",
+    "updated_at": "2026-07-23T10:05:00Z",
     "pushed_at": "2026-07-23T04:58:25Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -5337,7 +5337,7 @@
     "name": "Dylanmurzello/zed-android-port",
     "url": "https://github.com/Dylanmurzello/zed-android-port",
     "description": "Native Android port of the Zed code editor,  gpui rendering through Vulkan, integrated Termux for LSPs and tooling, remote SSH support. Runs as an APK on tablets and Android desktop modes.",
-    "stars": 141,
+    "stars": 142,
     "forks": 12,
     "topics": [
       "android",
@@ -5364,7 +5364,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-05-07T00:12:10Z",
-    "updated_at": "2026-07-22T16:32:48Z",
+    "updated_at": "2026-07-23T08:44:32Z",
     "pushed_at": "2026-06-05T21:34:45Z",
     "discovered_at": "2026-05-19T19:54:12.053Z",
     "official": false
@@ -7140,7 +7140,7 @@
     "name": "buckedunicorn/retro-synth-dark",
     "url": "https://github.com/buckedunicorn/retro-synth-dark",
     "description": "This is a standard VS Code theme based on the synthwave-x-fluoromachine theme family. This version uses only official VS Code theming APIs and doesn't require any custom extensions or modifications.",
-    "stars": 2,
+    "stars": 3,
     "forks": 0,
     "topics": [
       "cursor-theme",
@@ -7152,7 +7152,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2025-08-04T13:48:14Z",
-    "updated_at": "2025-12-23T00:38:22Z",
+    "updated_at": "2026-07-23T10:25:53Z",
     "pushed_at": "2025-08-09T15:55:50Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
@@ -18197,8 +18197,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-07-23T01:12:12Z",
-    "pushed_at": "2026-07-23T01:12:08Z",
+    "updated_at": "2026-07-23T07:33:46Z",
+    "pushed_at": "2026-07-23T07:33:42Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -31556,8 +31556,8 @@
     "language": "C#",
     "license": "Unlicense",
     "created_at": "2026-06-18T15:06:49Z",
-    "updated_at": "2026-07-22T16:48:31Z",
-    "pushed_at": "2026-07-22T16:47:57Z",
+    "updated_at": "2026-07-23T12:39:17Z",
+    "pushed_at": "2026-07-23T12:38:37Z",
     "discovered_at": "2026-06-25T12:48:26.083Z",
     "official": false
   },
@@ -32889,8 +32889,8 @@
     "language": "Java",
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
-    "updated_at": "2026-07-22T19:36:34Z",
-    "pushed_at": "2026-07-22T19:35:06Z",
+    "updated_at": "2026-07-23T12:44:33Z",
+    "pushed_at": "2026-07-23T12:44:29Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false
   },
@@ -33189,6 +33189,51 @@
     "updated_at": "2026-07-07T12:45:19Z",
     "pushed_at": "2026-07-07T12:44:20Z",
     "discovered_at": "2026-07-22T19:04:31.936Z",
+    "official": true
+  },
+  "agrippa1027/zed-hubbamax": {
+    "name": "agrippa1027/zed-hubbamax",
+    "url": "https://github.com/agrippa1027/zed-hubbamax",
+    "description": "Hubbamax theme for zed.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-06-28T12:59:34Z",
+    "updated_at": "2026-07-17T15:11:00Z",
+    "pushed_at": "2026-07-17T15:10:09Z",
+    "discovered_at": "2026-07-23T13:12:29.790Z",
+    "official": true
+  },
+  "sarvagnan/jsonl-tools": {
+    "name": "sarvagnan/jsonl-tools",
+    "url": "https://github.com/sarvagnan/jsonl-tools",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Objective-C++",
+    "license": "0BSD",
+    "created_at": "2026-07-21T11:25:18Z",
+    "updated_at": "2026-07-22T18:48:10Z",
+    "pushed_at": "2026-07-22T18:46:19Z",
+    "discovered_at": "2026-07-23T13:12:29.790Z",
+    "official": true
+  },
+  "monfa-red/lini": {
+    "name": "monfa-red/lini",
+    "url": "https://github.com/monfa-red/lini",
+    "description": "A small, human-readable language for plain-text diagrams",
+    "stars": 2,
+    "forks": 0,
+    "topics": [],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2026-06-13T20:41:54Z",
+    "updated_at": "2026-07-20T18:34:49Z",
+    "pushed_at": "2026-07-20T18:33:58Z",
+    "discovered_at": "2026-07-23T13:12:29.790Z",
     "official": true
   }
 }
