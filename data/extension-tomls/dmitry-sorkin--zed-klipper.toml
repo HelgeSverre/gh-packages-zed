@@ -1,0 +1,18 @@
+id = "klipper"
+name = "Klipper"
+description = "Syntax highlighting for Klipper printer.cfg and macro files"
+version = "0.1.0"
+schema_version = 1
+authors = ["Dmitry Sorkin <dmitry@sorkin.com>"]
+repository = "https://github.com/dmitry-sorkin/zed-klipper"
+license = "GPL-3.0"
+
+# The grammar lives inside this same repository under
+# `grammars/klipper/`. Zed fetches the repo and looks at the
+# `path` subdirectory to find the tree-sitter grammar source.
+# `commit` pins it to a specific revision so grammar changes don't
+# silently break the extension.
+[grammars.klipper]
+repository = "https://github.com/dmitry-sorkin/zed-klipper"
+commit = "v0.1.0"
+path = "grammars/klipper"

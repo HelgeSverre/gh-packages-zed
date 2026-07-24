@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1625-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1626-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,17 +14,17 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1625** |
+| Total tracked | **1626** |
 | In official registry | 1155 |
-| Discovered via topics | 470 |
-| Last updated | 2026-07-23 19:04 UTC |
+| Discovered via topics | 471 |
+| Last updated | 2026-07-24 01:10 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
 | Themes | 685 |
-| Grammars | 564 |
+| Grammars | 565 |
 | Language Servers | 525 |
 | Context Servers | 134 |
 | Snippets | 72 |
@@ -70,6 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [dmitry-sorkin/zed-klipper](https://github.com/dmitry-sorkin/zed-klipper) | 0 | Zed extension: Klipper printer.cfg syntax highlighting via tree-sitter-klipper. |
 | [encore-ecosystem/encore-zed](https://github.com/encore-ecosystem/encore-zed) | 0 |  |
 | [agrippa1027/zed-hubbamax](https://github.com/agrippa1027/zed-hubbamax) | 0 | Hubbamax theme for zed. |
 | [JoyAndEnjoy/zed-manuscript-theme](https://github.com/JoyAndEnjoy/zed-manuscript-theme) | 0 | A warm, paper-like theme collection for Zed |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [qb-bbq-bq/zed-woodland-theme](https://github.com/qb-bbq-bq/zed-woodland-theme) | 0 | A brown-based theme with green accents and light pink cursor |
 | [schemalock/zed](https://github.com/schemalock/zed) | 0 | SchemaLock language server extension for the Zed editor |
 | [eugenebokhan/zed-vs-code-2026-theme](https://github.com/eugenebokhan/zed-vs-code-2026-theme) | 0 |  |
-| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 0 | Experimental Spring Boot language intelligence for Zed, built on the required of... |
 
 ## Top starred (under 500)
 
@@ -112,16 +112,17 @@ cd website && npm install && npm run dev
 | [thedadams/zed-comment](https://github.com/thedadams/zed-comment) | 148 | A comment extension for the Zed editor |
 | [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 146 |  |
 | [slymax/zedokai](https://github.com/slymax/zedokai) | 145 | a theme for Zed based on the Monokai Pro color scheme |
-| [zed-extensions/swift](https://github.com/zed-extensions/swift) | 144 | Extension for Zed to support Swift |
 | [nathansbradshaw/zed-angular](https://github.com/nathansbradshaw/zed-angular) | 144 |  |
+| [zed-extensions/swift](https://github.com/zed-extensions/swift) | 143 | Extension for Zed to support Swift |
 | [zed-extensions/csharp](https://github.com/zed-extensions/csharp) | 139 | C# support |
 
 ## Recently active
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 0 | 2026-07-23 | Experimental Spring Boot language intelligence for Zed, buil... |
+| [dmitry-sorkin/zed-klipper](https://github.com/dmitry-sorkin/zed-klipper) | 0 | 2026-07-23 | Zed extension: Klipper printer.cfg syntax highlighting via t... |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-07-23 | Intelligent codebase search & indexing for Zed. Async MCP se... |
+| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 0 | 2026-07-23 | Experimental Spring Boot language intelligence for Zed, buil... |
 | [encore-ecosystem/encore-zed](https://github.com/encore-ecosystem/encore-zed) | 0 | 2026-07-23 |  |
 | [orbitlang/zed-orbit](https://github.com/orbitlang/zed-orbit) | 0 | 2026-07-23 |  |
 | [felixtensor/zed-mlir-suite](https://github.com/felixtensor/zed-mlir-suite) | 3 | 2026-07-23 | The MLIR extension for Zed. |
@@ -129,7 +130,7 @@ cd website && npm install && npm run dev
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 130 | 2026-07-23 | The Ruby language support for Zed editor |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 202 | 2026-07-22 | Zed plugin for automatic time tracking and metrics generated... |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-07-22 | Zed editor support for Carve, a modern light markup language |
-| [zed-extensions/swift](https://github.com/zed-extensions/swift) | 144 | 2026-07-22 | Extension for Zed to support Swift |
+| [zed-extensions/swift](https://github.com/zed-extensions/swift) | 143 | 2026-07-22 | Extension for Zed to support Swift |
 | [WhiteKr/zed-classic-asp](https://github.com/WhiteKr/zed-classic-asp) | 0 | 2026-07-22 | Classic ASP (VBScript) support for the Zed editor — syntax h... |
 | [DuskSystems/zed-cedar](https://github.com/DuskSystems/zed-cedar) | 1 | 2026-07-21 | Cedar language support for Zed. |
 | [unicodick/zed-paper](https://github.com/unicodick/zed-paper) | 0 | 2026-07-21 | Paper 1.21.11 plugin development tools for Zed. |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [rvben/zed-rumdl](https://github.com/rvben/zed-rumdl) | 1 | 2026-07-20 | Zed extension for rumdl - a fast Markdown linter and formatt... |
 | [b4bury/zed-glass](https://github.com/b4bury/zed-glass) | 0 | 2026-07-20 | Glass — a liquid-glass transparent theme for Zed (dark + lig... |
 | [emirror-de/quietude-zed](https://github.com/emirror-de/quietude-zed) | 0 | 2026-07-20 | A calm, warm monochrome theme for Zed, engineered to reduce ... |
-| [kr-aman-sharma/idx-theme](https://github.com/kr-aman-sharma/idx-theme) | 0 | 2026-07-19 | Project IDX is alive |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-07-24T01:10 | 1 | 524 | 1960 |
 | 2026-07-23T19:04 | 2 | 522 | 1959 |
 | 2026-07-23T13:12 | 3 | 522 | 1957 |
 | 2026-07-23T07:33 | 0 | 522 | 1954 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-07-22T07:33 | 0 | 522 | 1950 |
 | 2026-07-22T01:09 | 1 | 520 | 1950 |
 | 2026-07-21T19:05 | 0 | 520 | 1949 |
-| 2026-07-21T13:07 | 4 | 519 | 1949 |
 
 ---
 

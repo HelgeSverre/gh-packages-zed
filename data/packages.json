@@ -127,7 +127,7 @@
     "url": "https://github.com/GDQuest/zed-gdscript",
     "description": "Zed support for the Godot game engine and the GDScript language",
     "stars": 192,
-    "forks": 24,
+    "forks": 23,
     "topics": [
       "code-editor",
       "godot",
@@ -5478,7 +5478,7 @@
     "name": "sonercirit/zed-windows-stable",
     "url": "https://github.com/sonercirit/zed-windows-stable",
     "description": "automated windows builds for Zed code editor, built from source, stable channel",
-    "stars": 231,
+    "stars": 230,
     "forks": 10,
     "topics": [
       "code-editor",
@@ -5491,7 +5491,7 @@
     "language": "PowerShell",
     "license": null,
     "created_at": "2024-08-14T22:46:54Z",
-    "updated_at": "2026-07-23T01:26:07Z",
+    "updated_at": "2026-07-24T01:08:20Z",
     "pushed_at": "2026-07-23T01:26:03Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
@@ -8928,13 +8928,13 @@
     "name": "zed-extensions/swift",
     "url": "https://github.com/zed-extensions/swift",
     "description": "Extension for Zed to support Swift",
-    "stars": 144,
+    "stars": 143,
     "forks": 31,
     "topics": [],
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2024-02-19T09:14:14Z",
-    "updated_at": "2026-07-22T13:09:59Z",
+    "updated_at": "2026-07-23T23:47:25Z",
     "pushed_at": "2026-07-22T13:08:23Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": false
@@ -15390,7 +15390,7 @@
     "name": "darkvoid-theme/darkvoid.nvim",
     "url": "https://github.com/darkvoid-theme/darkvoid.nvim",
     "description": "Neovim Colorscheme for dark dwellers with optional glow effect!",
-    "stars": 225,
+    "stars": 224,
     "forks": 10,
     "topics": [
       "color-scheme",
@@ -15415,7 +15415,7 @@
     "language": "Lua",
     "license": "MIT",
     "created_at": "2024-07-30T06:26:25Z",
-    "updated_at": "2026-07-18T23:44:52Z",
+    "updated_at": "2026-07-23T19:39:34Z",
     "pushed_at": "2024-11-21T21:02:02Z",
     "discovered_at": "2026-05-19T20:52:12.309Z",
     "official": false
@@ -18197,8 +18197,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-07-23T13:13:18Z",
-    "pushed_at": "2026-07-23T13:13:01Z",
+    "updated_at": "2026-07-23T19:05:21Z",
+    "pushed_at": "2026-07-23T19:05:12Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -30838,13 +30838,13 @@
     "name": "joangarciaa-dev/zed-symbols",
     "url": "https://github.com/joangarciaa-dev/zed-symbols",
     "description": "A simple file icon theme for Zed.",
-    "stars": 26,
+    "stars": 25,
     "forks": 6,
     "topics": [],
     "language": "TypeScript",
     "license": "MIT",
     "created_at": "2025-02-08T03:55:18Z",
-    "updated_at": "2026-07-09T05:59:29Z",
+    "updated_at": "2026-07-24T00:01:36Z",
     "pushed_at": "2026-06-16T04:45:38Z",
     "discovered_at": "2026-06-16T07:57:06.606Z",
     "official": false
@@ -31601,8 +31601,8 @@
     "language": "Nix",
     "license": "Apache-2.0",
     "created_at": "2026-04-30T15:29:50Z",
-    "updated_at": "2026-06-17T23:08:09Z",
-    "pushed_at": "2026-06-17T00:13:55Z",
+    "updated_at": "2026-07-23T23:27:28Z",
+    "pushed_at": "2026-07-23T23:27:24Z",
     "discovered_at": "2026-06-26T18:36:57.330Z",
     "official": false
   },
@@ -32208,8 +32208,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
-    "updated_at": "2026-07-23T18:45:58Z",
-    "pushed_at": "2026-07-23T18:45:54Z",
+    "updated_at": "2026-07-23T22:11:38Z",
+    "pushed_at": "2026-07-23T22:11:07Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false
   },
@@ -32508,7 +32508,7 @@
     "url": "https://github.com/thiagocolen/pinky-and-the-brain",
     "description": "A production-ready, cloud-native agent service, exposed as a service through the Agent Client Protocol (ACP) standard for IDE integration (like Zed IDE) or REST/WebSocket clients.",
     "stars": 0,
-    "forks": 0,
+    "forks": 1,
     "topics": [
       "acp-protocol",
       "agents",
@@ -32519,7 +32519,7 @@
     "license": null,
     "created_at": "2026-04-21T09:59:34Z",
     "updated_at": "2026-07-22T19:37:56Z",
-    "pushed_at": "2026-07-22T21:34:45Z",
+    "pushed_at": "2026-07-23T21:03:05Z",
     "discovered_at": "2026-07-12T19:03:27.403Z",
     "official": false
   },
@@ -33271,9 +33271,30 @@
     "language": null,
     "license": "Apache-2.0",
     "created_at": "2026-07-23T15:07:21Z",
-    "updated_at": "2026-07-23T15:22:26Z",
-    "pushed_at": "2026-07-23T15:18:44Z",
+    "updated_at": "2026-07-23T19:44:04Z",
+    "pushed_at": "2026-07-24T00:22:15Z",
     "discovered_at": "2026-07-23T19:04:41.251Z",
+    "official": false
+  },
+  "dmitry-sorkin/zed-klipper": {
+    "name": "dmitry-sorkin/zed-klipper",
+    "url": "https://github.com/dmitry-sorkin/zed-klipper",
+    "description": "Zed extension: Klipper printer.cfg syntax highlighting via tree-sitter-klipper.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "klipper",
+      "syntax-highlighting",
+      "tree-sitter",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "C",
+    "license": "NOASSERTION",
+    "created_at": "2026-07-23T21:54:47Z",
+    "updated_at": "2026-07-23T22:21:40Z",
+    "pushed_at": "2026-07-23T22:21:36Z",
+    "discovered_at": "2026-07-24T01:10:45.997Z",
     "official": false
   }
 }

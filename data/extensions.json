@@ -86,7 +86,7 @@
     "url": "https://github.com/GDQuest/zed-gdscript",
     "description": "Zed support for the Godot game engine and the GDScript language",
     "stars": 192,
-    "forks": 24,
+    "forks": 23,
     "topics": [
       "code-editor",
       "godot",
@@ -11614,13 +11614,13 @@
     "name": "zed-extensions/swift",
     "url": "https://github.com/zed-extensions/swift",
     "description": "Extension for Zed to support Swift",
-    "stars": 144,
+    "stars": 143,
     "forks": 31,
     "topics": [],
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2024-02-19T09:14:14Z",
-    "updated_at": "2026-07-22T13:09:59Z",
+    "updated_at": "2026-07-23T23:47:25Z",
     "pushed_at": "2026-07-22T13:08:23Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": false,
@@ -52506,13 +52506,13 @@
     "name": "joangarciaa-dev/zed-symbols",
     "url": "https://github.com/joangarciaa-dev/zed-symbols",
     "description": "A simple file icon theme for Zed.",
-    "stars": 26,
+    "stars": 25,
     "forks": 6,
     "topics": [],
     "language": "TypeScript",
     "license": "MIT",
     "created_at": "2025-02-08T03:55:18Z",
-    "updated_at": "2026-07-09T05:59:29Z",
+    "updated_at": "2026-07-24T00:01:36Z",
     "pushed_at": "2026-06-16T04:45:38Z",
     "discovered_at": "2026-06-16T07:57:06.606Z",
     "official": false,
@@ -54095,8 +54095,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
-    "updated_at": "2026-07-23T18:45:58Z",
-    "pushed_at": "2026-07-23T18:45:54Z",
+    "updated_at": "2026-07-23T22:11:38Z",
+    "pushed_at": "2026-07-23T22:11:07Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false,
     "extension": {
@@ -55638,6 +55638,45 @@
       "categories": [
         "grammar",
         "language-server"
+      ]
+    }
+  },
+  "dmitry-sorkin/zed-klipper": {
+    "name": "dmitry-sorkin/zed-klipper",
+    "url": "https://github.com/dmitry-sorkin/zed-klipper",
+    "description": "Zed extension: Klipper printer.cfg syntax highlighting via tree-sitter-klipper.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "klipper",
+      "syntax-highlighting",
+      "tree-sitter",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "C",
+    "license": "NOASSERTION",
+    "created_at": "2026-07-23T21:54:47Z",
+    "updated_at": "2026-07-23T22:21:40Z",
+    "pushed_at": "2026-07-23T22:21:36Z",
+    "discovered_at": "2026-07-24T01:10:45.997Z",
+    "official": false,
+    "extension": {
+      "id": "klipper",
+      "name": "Klipper",
+      "description": "Syntax highlighting for Klipper printer.cfg and macro files",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Dmitry Sorkin <dmitry@sorkin.com>"
+      ],
+      "repository": "https://github.com/dmitry-sorkin/zed-klipper",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
       ]
     }
   }
