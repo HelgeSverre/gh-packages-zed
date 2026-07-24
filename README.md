@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1628** |
 | In official registry | 1157 |
 | Discovered via topics | 471 |
-| Last updated | 2026-07-24 13:08 UTC |
+| Last updated | 2026-07-24 19:06 UTC |
 
 ### By capability
 
@@ -120,13 +120,14 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-07-24 | A Zed extension that allows to highlight all occurrences of ... |
+| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-07-24 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [knownIndie/voidline-zed-theme](https://github.com/knownIndie/voidline-zed-theme) | 0 | 2026-07-24 | Low-glare carbon-black and glass themes for Zed |
+| [leolorenzato/zed-pastel-night-theme](https://github.com/leolorenzato/zed-pastel-night-theme) | 0 | 2026-07-24 | 🌃 Pastel Night theme for Zed |
+| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-07-24 | A Zed extension that allows to highlight all occurrences of ... |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 203 | 2026-07-24 | Zed plugin for automatic time tracking and metrics generated... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 90 | 2026-07-24 | True Dark Theme for Zed IDE |
 | [callqh/lucent-blur](https://github.com/callqh/lucent-blur) | 0 | 2026-07-24 |  |
 | [dmitry-sorkin/zed-klipper](https://github.com/dmitry-sorkin/zed-klipper) | 0 | 2026-07-23 | Zed extension: Klipper printer.cfg syntax highlighting via t... |
-| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-07-23 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 0 | 2026-07-23 | Experimental Spring Boot language intelligence for Zed, buil... |
 | [encore-ecosystem/encore-zed](https://github.com/encore-ecosystem/encore-zed) | 0 | 2026-07-23 |  |
 | [orbitlang/zed-orbit](https://github.com/orbitlang/zed-orbit) | 0 | 2026-07-23 |  |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [unicodick/zed-paper](https://github.com/unicodick/zed-paper) | 0 | 2026-07-21 | Paper 1.21.11 plugin development tools for Zed. |
 | [hearth-code/hearthcode-zed](https://github.com/hearth-code/hearthcode-zed) | 0 | 2026-07-21 | HearthCode themes for Zed, generated from HearthTheme |
 | [BenjaminHalko/flow-icons-zed](https://github.com/BenjaminHalko/flow-icons-zed) | 28 | 2026-07-21 | 🌼 Flow Icons ported to Zed |
-| [Pvxlabs/pine-script-zed](https://github.com/Pvxlabs/pine-script-zed) | 1 | 2026-07-20 | Pine Script language support for Zed. |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-07-24T19:06 | 1 | 526 | 1963 |
 | 2026-07-24T13:08 | 2 | 525 | 1962 |
 | 2026-07-24T07:33 | 0 | 525 | 1960 |
 | 2026-07-24T01:10 | 1 | 524 | 1960 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-07-23T01:11 | 0 | 522 | 1954 |
 | 2026-07-22T19:04 | 1 | 522 | 1954 |
 | 2026-07-22T13:10 | 3 | 522 | 1953 |
-| 2026-07-22T07:33 | 0 | 522 | 1950 |
 
 ---
 
