@@ -59,8 +59,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-05-03T17:39:17Z",
-    "updated_at": "2026-07-24T07:31:22Z",
-    "pushed_at": "2026-07-14T15:04:49Z",
+    "updated_at": "2026-07-24T12:39:52Z",
+    "pushed_at": "2026-07-24T12:39:52Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false,
     "extension": {
@@ -204,7 +204,7 @@
     "name": "wakatime/zed-wakatime",
     "url": "https://github.com/wakatime/zed-wakatime",
     "description": "Zed plugin for automatic time tracking and metrics generated from your programming activity.",
-    "stars": 202,
+    "stars": 203,
     "forks": 29,
     "topics": [
       "extension",
@@ -216,7 +216,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2024-08-27T10:31:46Z",
-    "updated_at": "2026-07-24T06:31:51Z",
+    "updated_at": "2026-07-24T12:03:14Z",
     "pushed_at": "2026-07-24T06:31:48Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -3694,8 +3694,8 @@
     "name": "chopratejas/headroom-zed",
     "url": "https://github.com/chopratejas/headroom-zed",
     "description": "Zed extension for Headroom — context compression for AI agents",
-    "stars": 52,
-    "forks": 11,
+    "stars": 53,
+    "forks": 12,
     "topics": [
       "ai-agents",
       "coding-agents",
@@ -3711,7 +3711,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-03-18T16:55:33Z",
-    "updated_at": "2026-07-22T16:11:23Z",
+    "updated_at": "2026-07-24T10:04:01Z",
     "pushed_at": "2026-03-18T16:55:38Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false,
@@ -53205,7 +53205,7 @@
     "updated_at": "2026-07-14T09:45:59Z",
     "pushed_at": "2026-06-26T18:41:45Z",
     "discovered_at": "2026-06-22T00:44:44.143Z",
-    "official": false,
+    "official": true,
     "extension": {
       "id": "solace-theme",
       "name": "Solace",
@@ -55678,6 +55678,73 @@
       ],
       "categories": [
         "grammar"
+      ]
+    }
+  },
+  "callqh/lucent-blur": {
+    "name": "callqh/lucent-blur",
+    "url": "https://github.com/callqh/lucent-blur",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "created_at": "2026-07-21T05:46:58Z",
+    "updated_at": "2026-07-24T03:24:22Z",
+    "pushed_at": "2026-07-24T03:24:13Z",
+    "discovered_at": "2026-07-24T13:08:38.427Z",
+    "official": true,
+    "extension": {
+      "id": "lucent-blur-theme",
+      "name": "Lucent Blur",
+      "description": "Three focused dark and light themes with readable translucent Zed surfaces",
+      "version": "0.3.0",
+      "schema_version": 1,
+      "authors": [
+        "callqh"
+      ],
+      "repository": "https://github.com/callqh/lucent-blur",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "knownindie/voidline-zed-theme": {
+    "name": "knownIndie/voidline-zed-theme",
+    "url": "https://github.com/knownIndie/voidline-zed-theme",
+    "description": "Low-glare carbon-black and glass themes for Zed",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "dark-theme",
+      "zed",
+      "zed-extension",
+      "zed-theme"
+    ],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-07-24T08:38:34Z",
+    "updated_at": "2026-07-24T08:39:22Z",
+    "pushed_at": "2026-07-24T08:38:37Z",
+    "discovered_at": "2026-07-24T13:08:38.427Z",
+    "official": false,
+    "extension": {
+      "id": "voidline-theme",
+      "name": "Voidline Themes",
+      "description": "Low-glare Zed themes with carbon-black surfaces, focused syntax colors, and an optional glass variant.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Aryan Bhardwaj"
+      ],
+      "repository": "https://github.com/knownIndie/voidline-zed-theme",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
       ]
     }
   }
