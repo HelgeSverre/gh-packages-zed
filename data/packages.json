@@ -66,6 +66,7 @@
     "topics": [
       "code-review",
       "lsp-server",
+      "rust",
       "vulnerability-research",
       "zed",
       "zed-extension"
@@ -73,7 +74,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-05-03T17:39:17Z",
-    "updated_at": "2026-07-14T15:05:41Z",
+    "updated_at": "2026-07-24T07:31:22Z",
     "pushed_at": "2026-07-14T15:04:49Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
@@ -94,7 +95,7 @@
     "license": "MIT",
     "created_at": "2026-05-02T05:39:52Z",
     "updated_at": "2026-07-21T13:03:05Z",
-    "pushed_at": "2026-07-23T02:52:48Z",
+    "pushed_at": "2026-07-24T03:03:46Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -156,8 +157,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-07-23T10:05:00Z",
-    "pushed_at": "2026-07-23T04:58:25Z",
+    "updated_at": "2026-07-24T04:54:30Z",
+    "pushed_at": "2026-07-24T04:54:26Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -196,8 +197,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2024-08-27T10:31:46Z",
-    "updated_at": "2026-07-22T09:34:24Z",
-    "pushed_at": "2026-07-22T17:03:31Z",
+    "updated_at": "2026-07-24T06:31:51Z",
+    "pushed_at": "2026-07-24T06:31:48Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -3303,7 +3304,7 @@
     "name": "zarifpour/xy-zed",
     "url": "https://github.com/zarifpour/xy-zed",
     "description": "🐈‍⬛ A sleek and sophisticated dark theme for Zed with vibrant, intelligent syntax highlighting.",
-    "stars": 85,
+    "stars": 86,
     "forks": 7,
     "topics": [
       "dark",
@@ -3321,7 +3322,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T22:41:16Z",
-    "updated_at": "2026-07-23T15:41:10Z",
+    "updated_at": "2026-07-24T04:19:40Z",
     "pushed_at": "2026-01-27T20:33:16Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -5309,8 +5310,8 @@
     "language": "Go",
     "license": "MIT",
     "created_at": "2026-03-09T04:35:59Z",
-    "updated_at": "2026-07-23T07:05:30Z",
-    "pushed_at": "2026-07-23T07:04:33Z",
+    "updated_at": "2026-07-24T07:04:58Z",
+    "pushed_at": "2026-07-24T07:04:42Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -18197,8 +18198,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-07-23T19:05:21Z",
-    "pushed_at": "2026-07-23T19:05:12Z",
+    "updated_at": "2026-07-24T01:11:21Z",
+    "pushed_at": "2026-07-24T01:11:17Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -19434,13 +19435,13 @@
     "name": "zed-extensions/git_firefly",
     "url": "https://github.com/zed-extensions/git_firefly",
     "description": "",
-    "stars": 146,
+    "stars": 147,
     "forks": 6,
     "topics": [],
     "language": "Tree-sitter Query",
     "license": "Apache-2.0",
     "created_at": "2024-02-19T14:56:35Z",
-    "updated_at": "2026-07-15T15:09:15Z",
+    "updated_at": "2026-07-24T01:14:30Z",
     "pushed_at": "2026-06-23T07:36:30Z",
     "discovered_at": "2026-05-19T21:42:53.670Z",
     "official": false
@@ -31213,7 +31214,7 @@
     "name": "pol-cova/vercel-theme",
     "url": "https://github.com/pol-cova/vercel-theme",
     "description": "A minimal Vercel-inspired Zed theme with light and dark variants.",
-    "stars": 0,
+    "stars": 1,
     "forks": 0,
     "topics": [
       "dark-theme",
@@ -31229,7 +31230,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-06-20T04:03:54Z",
-    "updated_at": "2026-06-20T04:09:33Z",
+    "updated_at": "2026-07-24T06:44:48Z",
     "pushed_at": "2026-06-20T04:09:30Z",
     "discovered_at": "2026-06-20T07:20:31.431Z",
     "official": false
@@ -33272,7 +33273,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-07-23T15:07:21Z",
     "updated_at": "2026-07-23T19:44:04Z",
-    "pushed_at": "2026-07-24T00:22:15Z",
+    "pushed_at": "2026-07-24T02:39:31Z",
     "discovered_at": "2026-07-23T19:04:41.251Z",
     "official": false
   },
