@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1628** |
 | In official registry | 1157 |
 | Discovered via topics | 471 |
-| Last updated | 2026-07-25 13:04 UTC |
+| Last updated | 2026-07-25 19:03 UTC |
 
 ### By capability
 
@@ -122,7 +122,7 @@ cd website && npm install && npm run dev
 |---|---|---|---|
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 0 | 2026-07-25 | Experimental Spring Boot language intelligence for Zed, buil... |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-07-25 | Intelligent codebase search & indexing for Zed. Async MCP se... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 90 | 2026-07-25 | True Dark Theme for Zed IDE |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 91 | 2026-07-25 | True Dark Theme for Zed IDE |
 | [runescape-themes/zed-icons](https://github.com/runescape-themes/zed-icons) | 1 | 2026-07-25 | 🏰 Old School RuneScape icon theme for Zed |
 | [dylan-gluck/zed-sudolang](https://github.com/dylan-gluck/zed-sudolang) | 0 | 2026-07-25 | Zed extension for SudoLang |
 | [knownIndie/voidline-zed-theme](https://github.com/knownIndie/voidline-zed-theme) | 0 | 2026-07-24 | Low-glare carbon-black and glass themes for Zed |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-07-25T19:03 | 0 | 526 | 1963 |
 | 2026-07-25T13:04 | 0 | 526 | 1963 |
 | 2026-07-25T07:27 | 0 | 526 | 1963 |
 | 2026-07-25T01:10 | 0 | 526 | 1963 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-07-24T01:10 | 1 | 524 | 1960 |
 | 2026-07-23T19:04 | 2 | 522 | 1959 |
 | 2026-07-23T13:12 | 3 | 522 | 1957 |
-| 2026-07-23T07:33 | 0 | 522 | 1954 |
 
 ---
 
