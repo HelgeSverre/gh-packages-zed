@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1628** |
 | In official registry | 1157 |
 | Discovered via topics | 471 |
-| Last updated | 2026-07-25 07:27 UTC |
+| Last updated | 2026-07-25 13:04 UTC |
 
 ### By capability
 
@@ -101,7 +101,7 @@ cd website && npm install && npm run dev
 | [oxc-project/oxc-zed](https://github.com/oxc-project/oxc-zed) | 256 | Oxc extension for Zed |
 | [catppuccin/zed-icons](https://github.com/catppuccin/zed-icons) | 240 | 🦊 Soothing pastel icons for Zed |
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 203 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 204 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
 | [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 192 | Zed support for the Godot game engine and the GDScript language |
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 190 | Typst extension for zed |
@@ -120,15 +120,15 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 0 | 2026-07-25 | Experimental Spring Boot language intelligence for Zed, buil... |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-07-25 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 90 | 2026-07-25 | True Dark Theme for Zed IDE |
 | [runescape-themes/zed-icons](https://github.com/runescape-themes/zed-icons) | 1 | 2026-07-25 | 🏰 Old School RuneScape icon theme for Zed |
-| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 0 | 2026-07-25 | Experimental Spring Boot language intelligence for Zed, buil... |
 | [dylan-gluck/zed-sudolang](https://github.com/dylan-gluck/zed-sudolang) | 0 | 2026-07-25 | Zed extension for SudoLang |
 | [knownIndie/voidline-zed-theme](https://github.com/knownIndie/voidline-zed-theme) | 0 | 2026-07-24 | Low-glare carbon-black and glass themes for Zed |
 | [leolorenzato/zed-pastel-night-theme](https://github.com/leolorenzato/zed-pastel-night-theme) | 0 | 2026-07-24 | 🌃 Pastel Night theme for Zed |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-07-24 | A Zed extension that allows to highlight all occurrences of ... |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 203 | 2026-07-24 | Zed plugin for automatic time tracking and metrics generated... |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 204 | 2026-07-24 | Zed plugin for automatic time tracking and metrics generated... |
 | [callqh/lucent-blur](https://github.com/callqh/lucent-blur) | 0 | 2026-07-24 |  |
 | [dmitry-sorkin/zed-klipper](https://github.com/dmitry-sorkin/zed-klipper) | 0 | 2026-07-23 | Zed extension: Klipper printer.cfg syntax highlighting via t... |
 | [encore-ecosystem/encore-zed](https://github.com/encore-ecosystem/encore-zed) | 0 | 2026-07-23 |  |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-07-25T13:04 | 0 | 526 | 1963 |
 | 2026-07-25T07:27 | 0 | 526 | 1963 |
 | 2026-07-25T01:10 | 0 | 526 | 1963 |
 | 2026-07-24T19:06 | 1 | 526 | 1963 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-07-23T19:04 | 2 | 522 | 1959 |
 | 2026-07-23T13:12 | 3 | 522 | 1957 |
 | 2026-07-23T07:33 | 0 | 522 | 1954 |
-| 2026-07-23T01:11 | 0 | 522 | 1954 |
 
 ---
 
