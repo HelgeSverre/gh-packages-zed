@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1628** |
 | In official registry | 1157 |
 | Discovered via topics | 471 |
-| Last updated | 2026-07-26 07:33 UTC |
+| Last updated | 2026-07-26 13:04 UTC |
 
 ### By capability
 
@@ -120,11 +120,11 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-07-26 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-07-26 | A Zed extension that allows to highlight all occurrences of ... |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 0 | 2026-07-26 | Experimental Spring Boot language intelligence for Zed, buil... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 91 | 2026-07-26 | True Dark Theme for Zed IDE |
 | [albertsko/zed-everforest](https://github.com/albertsko/zed-everforest) | 16 | 2026-07-25 | 🌲 Everforest for Zed |
-| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-07-25 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [runescape-themes/zed-icons](https://github.com/runescape-themes/zed-icons) | 1 | 2026-07-25 | 🏰 Old School RuneScape icon theme for Zed |
 | [dylan-gluck/zed-sudolang](https://github.com/dylan-gluck/zed-sudolang) | 0 | 2026-07-25 | Zed extension for SudoLang |
 | [knownIndie/voidline-zed-theme](https://github.com/knownIndie/voidline-zed-theme) | 0 | 2026-07-24 | Low-glare carbon-black and glass themes for Zed |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-07-26T13:04 | 0 | 528 | 1964 |
 | 2026-07-26T07:33 | 0 | 528 | 1964 |
 | 2026-07-26T01:12 | 1 | 527 | 1964 |
 | 2026-07-25T19:03 | 0 | 526 | 1963 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-07-24T19:06 | 1 | 526 | 1963 |
 | 2026-07-24T13:08 | 2 | 525 | 1962 |
 | 2026-07-24T07:33 | 0 | 525 | 1960 |
-| 2026-07-24T01:10 | 1 | 524 | 1960 |
 
 ---
 
