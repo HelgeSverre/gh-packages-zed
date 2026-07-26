@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1628** |
 | In official registry | 1157 |
 | Discovered via topics | 471 |
-| Last updated | 2026-07-25 19:03 UTC |
+| Last updated | 2026-07-26 01:12 UTC |
 
 ### By capability
 
@@ -120,7 +120,8 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 0 | 2026-07-25 | Experimental Spring Boot language intelligence for Zed, buil... |
+| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 0 | 2026-07-26 | Experimental Spring Boot language intelligence for Zed, buil... |
+| [albertsko/zed-everforest](https://github.com/albertsko/zed-everforest) | 16 | 2026-07-25 | 🌲 Everforest for Zed |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-07-25 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 91 | 2026-07-25 | True Dark Theme for Zed IDE |
 | [runescape-themes/zed-icons](https://github.com/runescape-themes/zed-icons) | 1 | 2026-07-25 | 🏰 Old School RuneScape icon theme for Zed |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [zed-extensions/swift](https://github.com/zed-extensions/swift) | 143 | 2026-07-22 | Extension for Zed to support Swift |
 | [WhiteKr/zed-classic-asp](https://github.com/WhiteKr/zed-classic-asp) | 0 | 2026-07-22 | Classic ASP (VBScript) support for the Zed editor — syntax h... |
 | [DuskSystems/zed-cedar](https://github.com/DuskSystems/zed-cedar) | 1 | 2026-07-21 | Cedar language support for Zed. |
-| [unicodick/zed-paper](https://github.com/unicodick/zed-paper) | 0 | 2026-07-21 | Paper 1.21.11 plugin development tools for Zed. |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-07-26T01:12 | 1 | 527 | 1964 |
 | 2026-07-25T19:03 | 0 | 526 | 1963 |
 | 2026-07-25T13:04 | 0 | 526 | 1963 |
 | 2026-07-25T07:27 | 0 | 526 | 1963 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-07-24T07:33 | 0 | 525 | 1960 |
 | 2026-07-24T01:10 | 1 | 524 | 1960 |
 | 2026-07-23T19:04 | 2 | 522 | 1959 |
-| 2026-07-23T13:12 | 3 | 522 | 1957 |
 
 ---
 

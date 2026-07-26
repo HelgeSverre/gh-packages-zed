@@ -320,8 +320,8 @@
     "language": "Go Template",
     "license": "MIT",
     "created_at": "2025-11-14T14:30:39Z",
-    "updated_at": "2026-07-23T16:47:07Z",
-    "pushed_at": "2026-05-17T18:34:08Z",
+    "updated_at": "2026-07-25T19:43:28Z",
+    "pushed_at": "2026-07-25T19:44:20Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -368,7 +368,7 @@
     "name": "BenjaminHalko/flow-icons-zed",
     "url": "https://github.com/BenjaminHalko/flow-icons-zed",
     "description": "🌼 Flow Icons ported to Zed",
-    "stars": 28,
+    "stars": 29,
     "forks": 3,
     "topics": [
       "flow",
@@ -381,7 +381,7 @@
     "language": "JavaScript",
     "license": null,
     "created_at": "2025-12-03T23:34:48Z",
-    "updated_at": "2026-07-21T02:03:48Z",
+    "updated_at": "2026-07-25T23:03:47Z",
     "pushed_at": "2026-07-21T02:03:43Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
@@ -424,7 +424,7 @@
     "license": "MIT",
     "created_at": "2025-12-13T09:32:42Z",
     "updated_at": "2026-07-19T22:24:14Z",
-    "pushed_at": "2026-07-18T20:03:13Z",
+    "pushed_at": "2026-07-25T20:03:40Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -5830,7 +5830,7 @@
     "name": "rwxae/rofi-zed",
     "url": "https://github.com/rwxae/rofi-zed",
     "description": "Quickly open recent Zed Editor projects with Rofi.",
-    "stars": 1,
+    "stars": 2,
     "forks": 0,
     "topics": [
       "rofi",
@@ -5841,7 +5841,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2025-06-20T22:51:17Z",
-    "updated_at": "2026-04-05T17:18:35Z",
+    "updated_at": "2026-07-25T22:08:41Z",
     "pushed_at": "2026-04-05T16:16:57Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
@@ -13293,14 +13293,21 @@
   "iwe-org/zed-iwe": {
     "name": "iwe-org/zed-iwe",
     "url": "https://github.com/iwe-org/zed-iwe",
-    "description": "",
+    "description": "Zed extension for IWE — markdown knowledge-graph navigation and refactoring via LSP",
     "stars": 10,
     "forks": 2,
-    "topics": [],
+    "topics": [
+      "lsp",
+      "markdown",
+      "note-taking",
+      "pkm",
+      "zed",
+      "zed-extension"
+    ],
     "language": "Rust",
     "license": "MIT",
     "created_at": "2024-12-24T00:42:00Z",
-    "updated_at": "2026-03-30T16:24:41Z",
+    "updated_at": "2026-07-26T00:39:00Z",
     "pushed_at": "2026-02-28T15:55:59Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": true
@@ -15639,8 +15646,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
-    "updated_at": "2026-07-25T10:51:00Z",
-    "pushed_at": "2026-07-24T20:07:58Z",
+    "updated_at": "2026-07-26T00:40:34Z",
+    "pushed_at": "2026-07-26T00:40:29Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -18198,8 +18205,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-07-25T13:06:29Z",
-    "pushed_at": "2026-07-25T13:05:16Z",
+    "updated_at": "2026-07-25T19:04:15Z",
+    "pushed_at": "2026-07-25T19:04:11Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -32890,8 +32897,8 @@
     "language": "Java",
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
-    "updated_at": "2026-07-25T13:51:24Z",
-    "pushed_at": "2026-07-25T13:51:10Z",
+    "updated_at": "2026-07-26T00:57:06Z",
+    "pushed_at": "2026-07-26T00:57:04Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false
   },
@@ -33350,6 +33357,30 @@
     "updated_at": "2026-07-24T18:01:28Z",
     "pushed_at": "2026-07-24T17:57:08Z",
     "discovered_at": "2026-07-24T19:06:32.342Z",
+    "official": false
+  },
+  "riddle-lang/riddle": {
+    "name": "riddle-lang/riddle",
+    "url": "https://github.com/riddle-lang/riddle",
+    "description": "A concise, modern and fast programming language",
+    "stars": 16,
+    "forks": 3,
+    "topics": [
+      "helix",
+      "idea-plugin",
+      "lsp",
+      "package-manager",
+      "programming-language",
+      "rust",
+      "vscode-extension",
+      "zed-extension"
+    ],
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "created_at": "2026-05-17T07:32:27Z",
+    "updated_at": "2026-07-25T23:21:07Z",
+    "pushed_at": "2026-07-25T20:55:32Z",
+    "discovered_at": "2026-07-26T01:12:51.640Z",
     "official": false
   }
 }
