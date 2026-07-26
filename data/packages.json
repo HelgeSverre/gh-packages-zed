@@ -216,8 +216,8 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2024-10-11T18:22:02Z",
-    "updated_at": "2026-07-06T06:06:08Z",
-    "pushed_at": "2026-07-23T02:47:25Z",
+    "updated_at": "2026-07-26T19:03:27Z",
+    "pushed_at": "2026-07-26T19:03:19Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -3997,7 +3997,7 @@
     "name": "hjr265/zed-gotmpl",
     "url": "https://github.com/hjr265/zed-gotmpl",
     "description": "Go template (gotmpl, gohtml) support for Zed",
-    "stars": 29,
+    "stars": 30,
     "forks": 4,
     "topics": [
       "gohtml",
@@ -4009,7 +4009,7 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2025-08-03T06:00:52Z",
-    "updated_at": "2026-07-14T18:31:41Z",
+    "updated_at": "2026-07-26T13:45:05Z",
     "pushed_at": "2025-11-16T17:22:24Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -15017,8 +15017,8 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2025-01-24T17:50:31Z",
-    "updated_at": "2026-07-07T14:22:11Z",
-    "pushed_at": "2026-07-07T14:43:46Z",
+    "updated_at": "2026-07-26T13:45:52Z",
+    "pushed_at": "2026-07-26T13:46:51Z",
     "discovered_at": "2026-05-19T20:15:46.472Z",
     "official": true
   },
@@ -15619,7 +15619,7 @@
     "name": "agent-sh/agnix",
     "url": "https://github.com/agent-sh/agnix",
     "description": "The missing linter and lsp for AI coding assistants. Validate CLAUDE.md, AGENTS.md, SKILL.md, hooks, MCP. Plugin for all major IDEs included, with autofixes.",
-    "stars": 365,
+    "stars": 366,
     "forks": 30,
     "topics": [
       "agent",
@@ -15646,7 +15646,7 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
-    "updated_at": "2026-07-26T00:40:34Z",
+    "updated_at": "2026-07-26T15:39:58Z",
     "pushed_at": "2026-07-26T09:03:10Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
@@ -18205,8 +18205,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-07-26T08:07:47Z",
-    "pushed_at": "2026-07-26T07:34:23Z",
+    "updated_at": "2026-07-26T13:06:33Z",
+    "pushed_at": "2026-07-26T13:05:03Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -32216,8 +32216,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
-    "updated_at": "2026-07-26T09:19:27Z",
-    "pushed_at": "2026-07-26T09:19:19Z",
+    "updated_at": "2026-07-26T15:41:09Z",
+    "pushed_at": "2026-07-26T15:40:49Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false
   },
@@ -33297,11 +33297,11 @@
       "zed",
       "zed-extension"
     ],
-    "language": "C",
+    "language": "Tree-sitter Query",
     "license": "NOASSERTION",
     "created_at": "2026-07-23T21:54:47Z",
-    "updated_at": "2026-07-23T22:21:40Z",
-    "pushed_at": "2026-07-23T22:21:36Z",
+    "updated_at": "2026-07-26T13:56:12Z",
+    "pushed_at": "2026-07-26T13:55:35Z",
     "discovered_at": "2026-07-24T01:10:45.997Z",
     "official": false
   },
@@ -33381,6 +33381,23 @@
     "updated_at": "2026-07-26T11:48:10Z",
     "pushed_at": "2026-07-26T05:29:02Z",
     "discovered_at": "2026-07-26T01:12:51.640Z",
+    "official": false
+  },
+  "constraintpikeman/zed-editor": {
+    "name": "ConstraintPikeman/zed-editor",
+    "url": "https://github.com/ConstraintPikeman/zed-editor",
+    "description": "High-performance open-source code editor built in Rust with AI assistance and real-time collaboration",
+    "stars": 12,
+    "forks": 0,
+    "topics": [
+      "zed-editor"
+    ],
+    "language": null,
+    "license": null,
+    "created_at": "2026-07-01T01:52:53Z",
+    "updated_at": "2026-07-26T18:49:28Z",
+    "pushed_at": "2026-07-26T16:46:27Z",
+    "discovered_at": "2026-07-26T19:04:11.712Z",
     "official": false
   }
 }

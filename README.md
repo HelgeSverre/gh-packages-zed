@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1628** |
 | In official registry | 1157 |
 | Discovered via topics | 471 |
-| Last updated | 2026-07-26 13:04 UTC |
+| Last updated | 2026-07-26 19:04 UTC |
 
 ### By capability
 
@@ -120,7 +120,10 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 130 | 2026-07-26 | The Ruby language support for Zed editor |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-07-26 | Intelligent codebase search & indexing for Zed. Async MCP se... |
+| [dmitry-sorkin/zed-klipper](https://github.com/dmitry-sorkin/zed-klipper) | 0 | 2026-07-26 | Zed extension: Klipper printer.cfg syntax highlighting via t... |
+| [pranavmangal/zed-ssh-config](https://github.com/pranavmangal/zed-ssh-config) | 2 | 2026-07-26 | A Zed extension that provides syntax highlighting for SSH co... |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-07-26 | A Zed extension that allows to highlight all occurrences of ... |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 0 | 2026-07-26 | Experimental Spring Boot language intelligence for Zed, buil... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 91 | 2026-07-26 | True Dark Theme for Zed IDE |
@@ -131,20 +134,18 @@ cd website && npm install && npm run dev
 | [leolorenzato/zed-pastel-night-theme](https://github.com/leolorenzato/zed-pastel-night-theme) | 0 | 2026-07-24 | 🌃 Pastel Night theme for Zed |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 204 | 2026-07-24 | Zed plugin for automatic time tracking and metrics generated... |
 | [callqh/lucent-blur](https://github.com/callqh/lucent-blur) | 0 | 2026-07-24 |  |
-| [dmitry-sorkin/zed-klipper](https://github.com/dmitry-sorkin/zed-klipper) | 0 | 2026-07-23 | Zed extension: Klipper printer.cfg syntax highlighting via t... |
 | [encore-ecosystem/encore-zed](https://github.com/encore-ecosystem/encore-zed) | 0 | 2026-07-23 |  |
 | [orbitlang/zed-orbit](https://github.com/orbitlang/zed-orbit) | 0 | 2026-07-23 |  |
 | [felixtensor/zed-mlir-suite](https://github.com/felixtensor/zed-mlir-suite) | 3 | 2026-07-23 | The MLIR extension for Zed. |
-| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 130 | 2026-07-23 | The Ruby language support for Zed editor |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-07-22 | Zed editor support for Carve, a modern light markup language |
 | [zed-extensions/swift](https://github.com/zed-extensions/swift) | 144 | 2026-07-22 | Extension for Zed to support Swift |
 | [WhiteKr/zed-classic-asp](https://github.com/WhiteKr/zed-classic-asp) | 0 | 2026-07-22 | Classic ASP (VBScript) support for the Zed editor — syntax h... |
-| [DuskSystems/zed-cedar](https://github.com/DuskSystems/zed-cedar) | 1 | 2026-07-21 | Cedar language support for Zed. |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-07-26T19:04 | 1 | 528 | 1965 |
 | 2026-07-26T13:04 | 0 | 528 | 1964 |
 | 2026-07-26T07:33 | 0 | 528 | 1964 |
 | 2026-07-26T01:12 | 1 | 527 | 1964 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-07-25T01:10 | 0 | 526 | 1963 |
 | 2026-07-24T19:06 | 1 | 526 | 1963 |
 | 2026-07-24T13:08 | 2 | 525 | 1962 |
-| 2026-07-24T07:33 | 0 | 525 | 1960 |
 
 ---
 
