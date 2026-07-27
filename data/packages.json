@@ -139,8 +139,8 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-02-26T18:14:41Z",
-    "updated_at": "2026-07-22T14:27:36Z",
-    "pushed_at": "2026-05-21T10:29:17Z",
+    "updated_at": "2026-07-27T13:21:00Z",
+    "pushed_at": "2026-07-27T13:17:21Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -5615,8 +5615,8 @@
     "language": "Rust",
     "license": "MPL-2.0",
     "created_at": "2025-01-04T04:36:16Z",
-    "updated_at": "2026-07-20T11:44:37Z",
-    "pushed_at": "2026-07-20T11:43:39Z",
+    "updated_at": "2026-07-27T11:37:48Z",
+    "pushed_at": "2026-07-27T11:36:54Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
   },
@@ -8855,7 +8855,7 @@
     "url": "https://github.com/zed-extensions/typst",
     "description": "Typst extension for zed",
     "stars": 190,
-    "forks": 15,
+    "forks": 16,
     "topics": [],
     "language": "Rust",
     "license": "Apache-2.0",
@@ -8960,7 +8960,7 @@
     "url": "https://github.com/zed-extensions/kotlin",
     "description": "Kotlin support",
     "stars": 99,
-    "forks": 33,
+    "forks": 32,
     "topics": [],
     "language": "Tree-sitter Query",
     "license": "MIT",
@@ -15619,7 +15619,7 @@
     "name": "agent-sh/agnix",
     "url": "https://github.com/agent-sh/agnix",
     "description": "The missing linter and lsp for AI coding assistants. Validate CLAUDE.md, AGENTS.md, SKILL.md, hooks, MCP. Plugin for all major IDEs included, with autofixes.",
-    "stars": 366,
+    "stars": 367,
     "forks": 31,
     "topics": [
       "agent",
@@ -15646,7 +15646,7 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
-    "updated_at": "2026-07-27T07:37:29Z",
+    "updated_at": "2026-07-27T08:59:18Z",
     "pushed_at": "2026-07-27T07:45:03Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
@@ -18205,8 +18205,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-07-27T01:15:07Z",
-    "pushed_at": "2026-07-27T01:15:03Z",
+    "updated_at": "2026-07-27T07:56:04Z",
+    "pushed_at": "2026-07-27T07:55:12Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -33279,8 +33279,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-07-23T15:07:21Z",
-    "updated_at": "2026-07-25T17:13:50Z",
-    "pushed_at": "2026-07-25T17:13:49Z",
+    "updated_at": "2026-07-27T12:57:41Z",
+    "pushed_at": "2026-07-27T12:56:36Z",
     "discovered_at": "2026-07-23T19:04:41.251Z",
     "official": false
   },
@@ -33288,7 +33288,7 @@
     "name": "dmitry-sorkin/zed-klipper",
     "url": "https://github.com/dmitry-sorkin/zed-klipper",
     "description": "Zed extension: Klipper printer.cfg syntax highlighting via tree-sitter-klipper.",
-    "stars": 0,
+    "stars": 1,
     "forks": 0,
     "topics": [
       "klipper",
@@ -33300,7 +33300,7 @@
     "language": "Tree-sitter Query",
     "license": "NOASSERTION",
     "created_at": "2026-07-23T21:54:47Z",
-    "updated_at": "2026-07-26T22:23:48Z",
+    "updated_at": "2026-07-27T09:34:16Z",
     "pushed_at": "2026-07-26T22:23:44Z",
     "discovered_at": "2026-07-24T01:10:45.997Z",
     "official": false
@@ -33387,7 +33387,7 @@
     "name": "ConstraintPikeman/zed-editor",
     "url": "https://github.com/ConstraintPikeman/zed-editor",
     "description": "High-performance open-source code editor built in Rust with AI assistance and real-time collaboration",
-    "stars": 142,
+    "stars": 196,
     "forks": 0,
     "topics": [
       "zed-editor"
@@ -33395,9 +33395,56 @@
     "language": null,
     "license": null,
     "created_at": "2026-07-01T01:52:53Z",
-    "updated_at": "2026-07-27T07:52:41Z",
+    "updated_at": "2026-07-27T12:30:19Z",
     "pushed_at": "2026-07-26T16:46:27Z",
     "discovered_at": "2026-07-26T19:04:11.712Z",
     "official": false
+  },
+  "tmsbkn/jest-snippets": {
+    "name": "tmsbkn/Jest-Snippets",
+    "url": "https://github.com/tmsbkn/Jest-Snippets",
+    "description": "Jest test snippets for Zed",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-07-24T20:46:14Z",
+    "updated_at": "2026-07-24T23:07:21Z",
+    "pushed_at": "2026-07-24T23:07:17Z",
+    "discovered_at": "2026-07-27T13:34:41.786Z",
+    "official": true
+  },
+  "akullpp/monobrut-theme": {
+    "name": "akullpp/monobrut-theme",
+    "url": "https://github.com/akullpp/monobrut-theme",
+    "description": "A dark brutalist theme with Monokai colors for Zed.",
+    "stars": 1,
+    "forks": 0,
+    "topics": [
+      "theme"
+    ],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-07-26T12:40:28Z",
+    "updated_at": "2026-07-27T08:31:35Z",
+    "pushed_at": "2026-07-27T08:29:22Z",
+    "discovered_at": "2026-07-27T13:34:41.786Z",
+    "official": true
+  },
+  "cyrusnuevodia/skill-language-server": {
+    "name": "CyrusNuevoDia/skill-language-server",
+    "url": "https://github.com/CyrusNuevoDia/skill-language-server",
+    "description": "A language server for agent skills — /skill-name and $skill-name become real symbols in VS Code, Zed, Neovim, and Helix.",
+    "stars": 1,
+    "forks": 0,
+    "topics": [],
+    "language": "TypeScript",
+    "license": "MIT",
+    "created_at": "2026-07-27T03:33:52Z",
+    "updated_at": "2026-07-27T06:15:43Z",
+    "pushed_at": "2026-07-27T06:13:13Z",
+    "discovered_at": "2026-07-27T13:34:41.786Z",
+    "official": true
   }
 }

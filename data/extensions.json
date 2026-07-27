@@ -98,8 +98,8 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-02-26T18:14:41Z",
-    "updated_at": "2026-07-22T14:27:36Z",
-    "pushed_at": "2026-05-21T10:29:17Z",
+    "updated_at": "2026-07-27T13:21:00Z",
+    "pushed_at": "2026-07-27T13:17:21Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -11432,7 +11432,7 @@
     "url": "https://github.com/zed-extensions/typst",
     "description": "Typst extension for zed",
     "stars": 190,
-    "forks": 15,
+    "forks": 16,
     "topics": [],
     "language": "Rust",
     "license": "Apache-2.0",
@@ -11690,7 +11690,7 @@
     "url": "https://github.com/zed-extensions/kotlin",
     "description": "Kotlin support",
     "stars": 99,
-    "forks": 33,
+    "forks": 32,
     "topics": [],
     "language": "Tree-sitter Query",
     "license": "MIT",
@@ -55653,7 +55653,7 @@
     "name": "dmitry-sorkin/zed-klipper",
     "url": "https://github.com/dmitry-sorkin/zed-klipper",
     "description": "Zed extension: Klipper printer.cfg syntax highlighting via tree-sitter-klipper.",
-    "stars": 0,
+    "stars": 1,
     "forks": 0,
     "topics": [
       "klipper",
@@ -55665,7 +55665,7 @@
     "language": "Tree-sitter Query",
     "license": "NOASSERTION",
     "created_at": "2026-07-23T21:54:47Z",
-    "updated_at": "2026-07-26T22:23:48Z",
+    "updated_at": "2026-07-27T09:34:16Z",
     "pushed_at": "2026-07-26T22:23:44Z",
     "discovered_at": "2026-07-24T01:10:45.997Z",
     "official": false,
@@ -55748,6 +55748,72 @@
         "Aryan Bhardwaj"
       ],
       "repository": "https://github.com/knownIndie/voidline-zed-theme",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "tmsbkn/jest-snippets": {
+    "name": "tmsbkn/Jest-Snippets",
+    "url": "https://github.com/tmsbkn/Jest-Snippets",
+    "description": "Jest test snippets for Zed",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-07-24T20:46:14Z",
+    "updated_at": "2026-07-24T23:07:21Z",
+    "pushed_at": "2026-07-24T23:07:17Z",
+    "discovered_at": "2026-07-27T13:34:41.786Z",
+    "official": true,
+    "extension": {
+      "id": "jest-snippets",
+      "name": "Jest Snippets",
+      "description": "Jest test snippets for Zed",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Tomas dev@tmsbkn.ca"
+      ],
+      "repository": "https://github.com/tmsbkn/Jest-Snippets",
+      "snippets": [
+        "./snippets/javascript.json"
+      ],
+      "sections": [],
+      "categories": [
+        "snippets"
+      ]
+    }
+  },
+  "akullpp/monobrut-theme": {
+    "name": "akullpp/monobrut-theme",
+    "url": "https://github.com/akullpp/monobrut-theme",
+    "description": "A dark brutalist theme with Monokai colors for Zed.",
+    "stars": 1,
+    "forks": 0,
+    "topics": [
+      "theme"
+    ],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-07-26T12:40:28Z",
+    "updated_at": "2026-07-27T08:31:35Z",
+    "pushed_at": "2026-07-27T08:29:22Z",
+    "discovered_at": "2026-07-27T13:34:41.786Z",
+    "official": true,
+    "extension": {
+      "id": "monobrut-theme",
+      "name": "Monobrut",
+      "description": "A high-contrast brutalist theme collection for Zed.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Andreas Kull"
+      ],
+      "repository": "https://github.com/akullpp/monobrut-theme",
       "snippets": null,
       "sections": [],
       "categories": [

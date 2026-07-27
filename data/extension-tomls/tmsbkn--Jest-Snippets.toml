@@ -1,0 +1,9 @@
+schema_version = 1
+id = "jest-snippets"
+name = "Jest Snippets"
+version = "0.0.1"
+authors = ["Tomas dev@tmsbkn.ca"]
+description = "Jest test snippets for Zed"
+repository = "https://github.com/tmsbkn/Jest-Snippets"
+
+snippets = ["./snippets/javascript.json"]
