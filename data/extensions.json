@@ -86,7 +86,7 @@
     "name": "GDQuest/zed-gdscript",
     "url": "https://github.com/GDQuest/zed-gdscript",
     "description": "Zed support for the Godot game engine and the GDScript language",
-    "stars": 192,
+    "stars": 193,
     "forks": 23,
     "topics": [
       "code-editor",
@@ -98,7 +98,7 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-02-26T18:14:41Z",
-    "updated_at": "2026-07-27T13:21:00Z",
+    "updated_at": "2026-07-27T21:13:04Z",
     "pushed_at": "2026-07-27T13:17:21Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -142,8 +142,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-07-27T05:32:57Z",
-    "pushed_at": "2026-07-27T05:32:53Z",
+    "updated_at": "2026-07-28T04:48:15Z",
+    "pushed_at": "2026-07-28T04:48:01Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -3694,7 +3694,7 @@
     "name": "chopratejas/headroom-zed",
     "url": "https://github.com/chopratejas/headroom-zed",
     "description": "Zed extension for Headroom — context compression for AI agents",
-    "stars": 54,
+    "stars": 56,
     "forks": 12,
     "topics": [
       "ai-agents",
@@ -3711,7 +3711,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-03-18T16:55:33Z",
-    "updated_at": "2026-07-26T02:31:16Z",
+    "updated_at": "2026-07-28T06:38:34Z",
     "pushed_at": "2026-03-18T16:55:38Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false,
@@ -4098,8 +4098,8 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2025-01-22T17:29:48Z",
-    "updated_at": "2026-06-03T17:58:46Z",
-    "pushed_at": "2026-03-08T15:39:53Z",
+    "updated_at": "2026-07-27T21:22:00Z",
+    "pushed_at": "2026-07-27T21:21:38Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -5221,7 +5221,7 @@
     "name": "jenslys/zed-catppuccin-blur",
     "url": "https://github.com/jenslys/zed-catppuccin-blur",
     "description": "Catppuccin Theme but as blurred variants + custom ones",
-    "stars": 330,
+    "stars": 329,
     "forks": 14,
     "topics": [
       "catppuccin",
@@ -5233,7 +5233,7 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2024-07-12T16:43:02Z",
-    "updated_at": "2026-07-27T18:10:36Z",
+    "updated_at": "2026-07-28T05:58:46Z",
     "pushed_at": "2026-01-26T02:22:08Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -8455,7 +8455,7 @@
     "name": "cange/nightfox.zed",
     "url": "https://github.com/cange/nightfox.zed",
     "description": "🦊 Zed editor theme ported from Neovim",
-    "stars": 160,
+    "stars": 161,
     "forks": 5,
     "topics": [
       "zed",
@@ -8464,7 +8464,7 @@
     "language": "Lua",
     "license": "MIT",
     "created_at": "2024-05-02T20:49:30Z",
-    "updated_at": "2026-07-24T21:48:24Z",
+    "updated_at": "2026-07-28T05:31:51Z",
     "pushed_at": "2026-07-09T18:20:20Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": true,
@@ -54006,8 +54006,8 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-03-09T03:40:37Z",
-    "updated_at": "2026-07-26T20:02:42Z",
-    "pushed_at": "2026-07-23T07:06:50Z",
+    "updated_at": "2026-07-28T07:11:55Z",
+    "pushed_at": "2026-07-28T07:10:59Z",
     "discovered_at": "2026-07-10T07:54:10.331Z",
     "official": false,
     "extension": {
@@ -55536,6 +55536,389 @@
       "sections": [],
       "categories": [
         "theme"
+      ]
+    }
+  },
+  "alaestor/mirror-zed-cea": {
+    "name": "alaestor/mirror-zed-cea",
+    "url": "https://github.com/alaestor/mirror-zed-cea",
+    "description": "zed extension for cheat engine auto-assembler script highlighting",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "zed-extension"
+    ],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2026-07-27T20:25:12Z",
+    "updated_at": "2026-07-28T07:02:14Z",
+    "pushed_at": "2026-07-28T07:01:00Z",
+    "discovered_at": "2026-07-28T07:34:46.548Z",
+    "official": false,
+    "extension": {
+      "id": "cea",
+      "name": "Cheat Engine Auto Assembler",
+      "description": "Syntax highlighting for Cheat Engine Auto Assembler scripts with embedded Lua",
+      "version": "0.2.0",
+      "schema_version": 1,
+      "authors": [
+        "alaestor"
+      ],
+      "repository": "https://codeberg.org/alaestor/zed-cea",
+      "snippets": null,
+      "sections": [
+        "grammars",
+        "language_servers"
+      ],
+      "categories": [
+        "grammar",
+        "language-server"
+      ]
+    }
+  },
+  "brendan-corrigan/zed-emmylua": {
+    "name": "brendan-corrigan/zed-EmmyLua",
+    "url": "https://github.com/brendan-corrigan/zed-EmmyLua",
+    "description": "Zed extension for the EmmyLua language server and debugger.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "emmylua",
+      "lua",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "created_at": "2025-07-26T12:25:56Z",
+    "updated_at": "2025-07-27T10:24:26Z",
+    "pushed_at": "2025-07-27T10:24:22Z",
+    "discovered_at": "2026-07-28T07:34:46.549Z",
+    "official": false,
+    "extension": {
+      "id": "zed-emmylua",
+      "name": "zed-EmmyLua",
+      "description": "Support for the EmmyLua Language server",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Brendan Corrigan <https://github.com/brendan-corrigan>"
+      ],
+      "repository": "https://github.com/brendan-corrigan/zed-EmmyLua",
+      "snippets": null,
+      "sections": [
+        "language_servers"
+      ],
+      "categories": [
+        "language-server"
+      ]
+    }
+  },
+  "rustlanges/zed-dotenv": {
+    "name": "RustLangES/zed-dotenv",
+    "url": "https://github.com/RustLangES/zed-dotenv",
+    "description": "Zed env variables plugin",
+    "stars": 2,
+    "forks": 0,
+    "topics": [
+      "dotenv",
+      "environment-variables",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "created_at": "2024-09-26T03:18:29Z",
+    "updated_at": "2026-05-28T16:47:01Z",
+    "pushed_at": "2025-07-27T02:12:01Z",
+    "discovered_at": "2026-07-28T07:34:46.549Z",
+    "official": false,
+    "extension": {
+      "id": "zed-dotenv",
+      "name": "DotEnv",
+      "description": "Load the system environment variables, your local files, edit your .env files and much more.",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "RustLangES <contact@rustlang-es.org>",
+        "Sergio Ribera <56278796+SergioRibera@users.noreply.github.com>"
+      ],
+      "repository": "https://github.com/RustLangES/zed-dotenv",
+      "snippets": null,
+      "sections": [
+        "language_servers",
+        "grammars"
+      ],
+      "categories": [
+        "grammar",
+        "language-server"
+      ]
+    }
+  },
+  "neoncitylights/zed-webidl": {
+    "name": "neoncitylights/zed-webidl",
+    "url": "https://github.com/neoncitylights/zed-webidl",
+    "description": "WebIDL syntax highlighting support for Zed",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "webidl",
+      "zed-extension"
+    ],
+    "language": "WebIDL",
+    "license": "MIT",
+    "created_at": "2025-07-17T23:03:04Z",
+    "updated_at": "2025-07-18T21:16:03Z",
+    "pushed_at": "2025-07-18T21:15:59Z",
+    "discovered_at": "2026-07-28T07:34:46.549Z",
+    "official": false,
+    "extension": {
+      "id": "webidl",
+      "name": "WebIDL",
+      "description": "WebIDL syntax highlighting support for Zed.",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Samantha Nguyen <contact@samanthanguyen.me>"
+      ],
+      "repository": "https://github.com/neoncitylights/zed-webidl",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
+      ]
+    }
+  },
+  "davccavalcante/vercel-mcp-server-for-zed": {
+    "name": "davccavalcante/vercel-mcp-server-for-zed",
+    "url": "https://github.com/davccavalcante/vercel-mcp-server-for-zed",
+    "description": "💾 Model Context Protocol (MCP) Server Vercel for Zed Editor",
+    "stars": 5,
+    "forks": 4,
+    "topics": [
+      "davidccavalcante",
+      "fjallstoppur",
+      "mcp",
+      "mcp-server",
+      "takk-ag",
+      "takk-design",
+      "takk8is",
+      "vercel",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Rust",
+    "license": null,
+    "created_at": "2025-06-29T04:59:25Z",
+    "updated_at": "2025-12-26T02:30:13Z",
+    "pushed_at": "2025-07-11T18:52:28Z",
+    "discovered_at": "2026-07-28T07:34:46.549Z",
+    "official": false,
+    "extension": {
+      "id": "aws-mcp-server-for-zed",
+      "name": "AWS MCP Server",
+      "description": "💾 Model Context Protocol (MCP) Server for AWS",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "authors": [
+        "David C Cavalcante <davcavalcante@proton.me>",
+        "Takk™ Innovate Studio <say@takk.ag>"
+      ],
+      "repository": "https://github.com/Takk8IS/aws-mcp-server-for-zed",
+      "snippets": null,
+      "sections": [
+        "context_servers"
+      ],
+      "categories": [
+        "context-server"
+      ]
+    }
+  },
+  "ashpool37/zed-extension-opentofu": {
+    "name": "ashpool37/zed-extension-opentofu",
+    "url": "https://github.com/ashpool37/zed-extension-opentofu",
+    "description": "OpenTofu support for Zed",
+    "stars": 8,
+    "forks": 0,
+    "topics": [
+      "tofu-ls",
+      "zed-extension"
+    ],
+    "language": "Tree-sitter Query",
+    "license": "Apache-2.0",
+    "created_at": "2025-06-27T01:35:10Z",
+    "updated_at": "2026-03-07T10:39:50Z",
+    "pushed_at": "2025-06-27T01:39:04Z",
+    "discovered_at": "2026-07-28T07:34:46.549Z",
+    "official": false,
+    "extension": {
+      "id": "opentofu",
+      "name": "OpenTofu",
+      "description": "OpenTofu support.",
+      "version": "0.2.0",
+      "schema_version": 1,
+      "authors": [
+        "Caius Durling <dev@caius.name>",
+        "Daniel Banck <dbanck@users.noreply.github.com>",
+        "Artem Zhurikhin <github.code@ash.pw>"
+      ],
+      "repository": "https://github.com/ashpool37/zed-extension-opentofu",
+      "snippets": null,
+      "sections": [
+        "language_servers",
+        "grammars"
+      ],
+      "categories": [
+        "grammar",
+        "language-server"
+      ]
+    }
+  },
+  "iyair/kanagawa-theme": {
+    "name": "IYair/kanagawa-theme",
+    "url": "https://github.com/IYair/kanagawa-theme",
+    "description": "🐉 A theme inspired by the Kanagawa wave 🌊",
+    "stars": 1,
+    "forks": 0,
+    "topics": [
+      "kanagawa",
+      "themes",
+      "zed-extension"
+    ],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2024-09-16T22:57:07Z",
+    "updated_at": "2024-09-17T17:55:50Z",
+    "pushed_at": "2024-09-17T17:55:46Z",
+    "discovered_at": "2026-07-28T07:34:46.549Z",
+    "official": false,
+    "extension": {
+      "id": "kanagawa-theme",
+      "name": "Kanagawa Themes",
+      "description": "🐉 A theme inspired by the Kanagawa wave 🌊",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Yair Chan <enyaoficial001@gmail.com>"
+      ],
+      "repository": "https://github.com/IYair/kanagawa-theme.git",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "wlh320/zed-ext-rime-ls": {
+    "name": "wlh320/zed-ext-rime-ls",
+    "url": "https://github.com/wlh320/zed-ext-rime-ls",
+    "description": "Rime language server for Zed editor",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "rime",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Rust",
+    "license": null,
+    "created_at": "2024-05-06T08:58:57Z",
+    "updated_at": "2024-06-27T08:24:07Z",
+    "pushed_at": "2024-06-27T08:24:04Z",
+    "discovered_at": "2026-07-28T07:34:46.549Z",
+    "official": false,
+    "extension": {
+      "id": "rime-ls",
+      "name": "Rime language server",
+      "description": "Rime language server for zed",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "ZilcH40 <wlh233@live.com>"
+      ],
+      "repository": "https://github.com/wlh320/zed-ext-rime-ls",
+      "snippets": null,
+      "sections": [
+        "language_servers"
+      ],
+      "categories": [
+        "language-server"
+      ]
+    }
+  },
+  "gracien-app/zed-usd-ext": {
+    "name": "gracien-app/zed-usd-ext",
+    "url": "https://github.com/gracien-app/zed-usd-ext",
+    "description": "Extension for Zed editor introducing support for Universal Scene Description files.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "universal-scene-description",
+      "usd",
+      "usda",
+      "zed-extension"
+    ],
+    "language": "Scheme",
+    "license": null,
+    "created_at": "2024-05-11T22:54:22Z",
+    "updated_at": "2024-05-12T11:26:13Z",
+    "pushed_at": "2024-05-12T11:02:50Z",
+    "discovered_at": "2026-07-28T07:34:46.549Z",
+    "official": false,
+    "extension": {
+      "id": "usd-ext",
+      "name": "Universal Scene Description",
+      "description": "Syntax highlighting for Pixar's Universal Scene Description (USD).",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Gracien <gracien.app@icloud.com>"
+      ],
+      "repository": "https://github.com/gracien-app/zed-usd-ext",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
+      ]
+    }
+  },
+  "huacnlee/zed-lalrpop": {
+    "name": "huacnlee/zed-lalrpop",
+    "url": "https://github.com/huacnlee/zed-lalrpop",
+    "description": "LALRPOP parser grammar support for Zed.",
+    "stars": 3,
+    "forks": 1,
+    "topics": [
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Scheme",
+    "license": "MIT",
+    "created_at": "2024-05-03T06:48:51Z",
+    "updated_at": "2025-05-16T16:29:50Z",
+    "pushed_at": "2024-05-03T06:50:03Z",
+    "discovered_at": "2026-07-28T07:34:46.549Z",
+    "official": false,
+    "extension": {
+      "id": "lalrpop",
+      "name": "LALRPOP",
+      "description": "LALRPOP parser grammar support.",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Jason Lee <huacnlee@gmail.com>"
+      ],
+      "repository": "https://github.com/huacnlee/zed-lalrpop",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
       ]
     }
   }
