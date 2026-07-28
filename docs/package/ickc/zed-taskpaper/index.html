@@ -1,0 +1,135 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>TaskPaper - Zed Extension Safari</title><meta name="description" content="TaskPaper language support for Zed: tree-sitter grammar, syntax highlighting, outline navigation, and the taskpaper-ls language server with due-date diagnostics, task counts, and @done tooling."><link rel="canonical" href="https://helgesverre.github.io/gh-packages-zed/package/ickc/zed-taskpaper/"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="TaskPaper - Zed Extension Safari"><meta property="og:description" content="TaskPaper language support for Zed: tree-sitter grammar, syntax highlighting, outline navigation, and the taskpaper-ls language server with due-date diagnostics, task counts, and @done tooling."><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed/package/ickc/zed-taskpaper/"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="TaskPaper - Zed Extension Safari"><meta name="twitter:description" content="TaskPaper language support for Zed: tree-sitter grammar, syntax highlighting, outline navigation, and the taskpaper-ls language server with due-date diagnostics, task counts, and @done tooling."><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/gh-packages-zed/_astro/ClientRouter.astro_astro_type_script_index_0_lang.ClVLs1kt.js"></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"TaskPaper","description":"TaskPaper language support for Zed: tree-sitter grammar, syntax highlighting, outline navigation, and the taskpaper-ls language server with due-date diagnostics, task counts, and @done tooling.","applicationCategory":"DeveloperApplication","operatingSystem":"macOS, Linux, Windows","url":"https://zed.dev/extensions/taskpaper","codeRepository":"https://github.com/ickc/zed-taskpaper","author":[{"@type":"Person","name":"Kolen Cheung"}],"softwareVersion":"0.3.4","license":"MIT","keywords":"grammar, language-server","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/Layout.CGDlMdWE.css"><script type="module" src="/gh-packages-zed/_astro/page.B8i1Zz-u.js"></script></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <a href="#main" class="skip-to-content">Skip to content</a> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" data-astro-transition-persist="astro-fhchcgd7-1"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <script type="application/json" id="pkg-extras">{"url":"https://github.com/ickc/zed-taskpaper","language":"C","license":"MIT","topics":["language-server","lsp","outliner","plaintext","rust","syntax-highlighting","task-management","taskpaper","todo","tree-sitter","zed","zed-extension"],"extension":{"authors":["Kolen Cheung"],"schema_version":1}}</script> <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> ickc/zed-taskpaper </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> TaskPaper </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> TaskPaper language support: syntax highlighting, outline navigation, and a language server with due-date diagnostics, task counts, and @done tooling. </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="grammar">Grammar</span><span class="cat-badge" data-cat="language-server">Language Server</span> </div> </div> </div> </header> <main id="main" class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/taskpaper" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/ickc/zed-taskpaper" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.3.4</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">taskpaper</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">C</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">MIT</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">5h ago</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">Kolen Cheung</dd> </div> </dl>  <h2 class="mt-5 text-xs uppercase font-mono" style="color:var(--zed-muted);">Topics</h2> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> language-server </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> lsp </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> outliner </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> plaintext </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> rust </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> syntax-highlighting </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> task-management </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> taskpaper </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> todo </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> tree-sitter </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed-extension </span> </div>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-zed-taskpaper"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#zed-taskpaper"><span class="heading-anchor-icon">#</span></a>zed-taskpaper</h1>
+<p><a href="https://www.taskpaper.com">TaskPaper</a> language support for <a href="https://zed.dev">Zed</a>:
+syntax highlighting, <code>@done</code>/<code>@cancelled</code> fading, and outline navigation via
+a tree-sitter grammar, plus a lightweight language server (<code>taskpaper-ls</code>)
+for due-date awareness, live task counts, and one-keystroke task workflows.</p>
+<h2 id="user-content-format"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#format"><span class="heading-anchor-icon">#</span></a>Format</h2>
+<ul>
+<li><strong>Task</strong> — a line starting with <code>- </code>.</li>
+<li><strong>Project</strong> — a non-task line ending with <code>:</code> (trailing tags allowed).</li>
+<li><strong>Note</strong> — any other non-blank line.</li>
+<li><strong>Tags</strong> — a trailing, whitespace-preceded run of <code>@name</code> / <code>@name(value)</code>
+at the end of a line. Mid-line <code>@words</code> (emails, handles) are plain text.</li>
+<li><strong>Nesting</strong> — tab indentation nests an item under the item above.</li>
+</ul>
+<h2 id="user-content-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features"><span class="heading-anchor-icon">#</span></a>Features</h2>
+<p>Shortcuts below are written for macOS; on Linux and Windows use <code>ctrl</code>
+wherever they say <code>cmd</code>.</p>
+<ul>
+<li><strong>Highlighting</strong> — projects as titles, notes dimmed, tags and values
+distinctly colored.</li>
+<li><strong><code>@done</code> / <code>@cancelled</code> fading</strong> — tagged items and their entire subtree
+(any depth) fade into the theme's ghost style, distinct from note
+dimming. The state tag stays legible: <code>@done</code> muted blue,
+<code>@cancelled</code> muted amber. Task bullets act as pseudo-checkboxes: accent
+colored while open, faded when closed.</li>
+<li><strong>Outline</strong> — projects (only) appear in the outline panel and
+<code>cmd-shift-o</code>, nested as in the document, shown by bare name.</li>
+<li><strong>Folding</strong> — indentation-based folding works out of the box (a <code>@done</code>
+subtree folds like any other indented block).</li>
+</ul>
+<p>From the language server (all passive once installed):</p>
+<ul>
+<li><strong>Due-date diagnostics</strong> — open items with <code>@due</code>/<code>@start</code> dates in the
+past get a warning ("due (3 days overdue)"); items due today, or tagged
+<code>@today</code>, get an info. The project diagnostics panel (<code>cmd-shift-m</code>)
+thereby doubles as a "what needs attention" view across all files.</li>
+<li><strong>Inlay hints</strong> — live task counts after every project heading
+(<code>Home:  3 open</code>) and countdowns after future <code>@due</code> tags (<code>in 3 days</code>).
+Enable inlay hints in settings: <code>"inlay_hints": {"enabled": true}</code>.</li>
+<li><strong>Hover</strong> — hover a project for its count breakdown, or a
+<code>@due</code>/<code>@done</code>/<code>@cancelled</code> tag for relative dates.</li>
+<li><strong>Code actions</strong> (<code>cmd-.</code> on any line):
+<ul>
+<li><em>Mark/Remove <code>@done</code></em> (stamps today's date) and <em><code>@cancelled</code></em> — the
+toggle, operating on the buffer, unsaved changes and all.</li>
+<li><em>Archive finished items</em> — moves every finished subtree to a top-level
+<code>Archive:</code> project (created on demand, newest at top), stamping each
+with a <code>@project(Parent / Child)</code> breadcrumb so the parent chain is
+preserved — the same convention as the TaskPaper 3 app.</li>
+<li><em>Sort children by <code>@due</code></em> and <em>task ↔ note conversion</em>.</li>
+</ul>
+</li>
+<li><strong>Tag completion</strong> — type <code>@</code> for tag names ranked by workspace usage;
+inside <code>@due(</code> get date suggestions (today / tomorrow / next week).</li>
+<li><strong>Tag rename</strong> — rename a <code>@tag</code> across the whole workspace.</li>
+<li><strong>Project search</strong> — projects across all <code>.taskpaper</code> files in the
+open-symbols picker.</li>
+<li><strong>Formatting</strong> — <code>editor: format</code> (or format-on-save) strips trailing
+whitespace, converts leading spaces to tabs, and normalizes tag spacing.</li>
+</ul>
+<h2 id="user-content-install"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#install"><span class="heading-anchor-icon">#</span></a>Install</h2>
+<p>In Zed: <code>zed: extensions</code>, search for <strong>TaskPaper</strong>, install. Open any
+<code>.taskpaper</code> file.</p>
+<p>The first time a <code>.taskpaper</code> file is opened, the extension resolves the
+<code>taskpaper-ls</code> binary in this order:</p>
+<ol>
+<li><code>lsp.taskpaper-ls.binary.path</code> from your Zed settings, if set;</li>
+<li>a <code>taskpaper-ls</code> on the worktree's PATH;</li>
+<li>otherwise it downloads the binary for your platform from this repo's
+<a href="https://github.com/ickc/zed-taskpaper/releases">GitHub releases</a> and
+caches it. Prebuilt binaries cover macOS, Linux, and Windows on both
+x86-64 and arm64.</li>
+</ol>
+<p>Everything except the language server features works without that download.</p>
+<p>To run from a checkout instead — <code>zed: extensions</code> → <code>Install Dev Extension</code> → select the clone. Build the server with <code>pixi run build-lsp</code>
+and put <code>taskpaper-ls</code> on your PATH (or point
+<code>lsp.taskpaper-ls.binary.path</code> at it).</p>
+<h2 id="user-content-marking-items-done-with-alt-d"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#marking-items-done-with-alt-d"><span class="heading-anchor-icon">#</span></a>Marking items <code>@done</code> with <code>alt-d</code></h2>
+<p>The <em>Mark @done</em> code action is one keystroke away via <code>cmd-.</code>. For a
+dedicated key, bind the code-action menu (<code>zed: open keymap</code>):</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">[</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "context"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"Editor &#x26;&#x26; extension == taskpaper"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "bindings"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "alt-d"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"editor::ToggleCodeActions"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span></code></pre>
+<h2 id="user-content-filtering"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#filtering"><span class="heading-anchor-icon">#</span></a>Filtering</h2>
+<p>Overdue and due-today items surface automatically in the diagnostics
+panel (<code>cmd-shift-m</code>), across every file in the project. For ad-hoc tag
+filtering use buffer search (<code>cmd-f</code>) or project search (<code>cmd-shift-f</code>)
+for <code>@due</code>, <code>@due(2026-07</code>, etc.</p>
+<h2 id="user-content-limitations"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#limitations"><span class="heading-anchor-icon">#</span></a>Limitations</h2>
+<ul>
+<li>Faded, not struck through: Zed theme syntax styles have no strikethrough.</li>
+<li>Tag values cannot contain <code>)</code> or newlines; nested parentheses make the
+run plain text.</li>
+<li>Tags are recognized only at the end of a line (stricter than TaskPaper 3,
+by design).</li>
+</ul>
+<h2 id="user-content-development"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#development"><span class="heading-anchor-icon">#</span></a>Development</h2>
+<p>See <a href="https://github.com/ickc/zed-taskpaper/blob/HEAD/MAINTAINER.md" target="_blank" rel="noopener">MAINTAINER.md</a>. <a href="https://github.com/ickc/zed-taskpaper/blob/HEAD/LICENSE" target="_blank" rel="noopener">MIT</a> licensed.</p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>

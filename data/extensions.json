@@ -54693,8 +54693,8 @@
     "language": "Java",
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
-    "updated_at": "2026-07-27T00:53:13Z",
-    "pushed_at": "2026-07-26T06:43:00Z",
+    "updated_at": "2026-07-28T18:49:19Z",
+    "pushed_at": "2026-07-28T18:46:50Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false,
     "extension": {
@@ -55941,8 +55941,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-07-04T16:07:37Z",
-    "updated_at": "2026-07-28T10:24:03Z",
-    "pushed_at": "2026-07-27T16:49:14Z",
+    "updated_at": "2026-07-28T13:59:44Z",
+    "pushed_at": "2026-07-28T13:50:59Z",
     "discovered_at": "2026-07-28T13:15:22.373Z",
     "official": false,
     "extension": {
@@ -55955,6 +55955,54 @@
         "Kolen Cheung <10970208+ickc@users.noreply.github.com>"
       ],
       "repository": "https://github.com/ickc/zed-csv-toolkit",
+      "snippets": null,
+      "sections": [
+        "grammars",
+        "language_servers"
+      ],
+      "categories": [
+        "grammar",
+        "language-server"
+      ]
+    }
+  },
+  "ickc/zed-taskpaper": {
+    "name": "ickc/zed-taskpaper",
+    "url": "https://github.com/ickc/zed-taskpaper",
+    "description": "TaskPaper language support for Zed: tree-sitter grammar, syntax highlighting, outline navigation, and the taskpaper-ls language server with due-date diagnostics, task counts, and @done tooling.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "language-server",
+      "lsp",
+      "outliner",
+      "plaintext",
+      "rust",
+      "syntax-highlighting",
+      "task-management",
+      "taskpaper",
+      "todo",
+      "tree-sitter",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "C",
+    "license": "MIT",
+    "created_at": "2026-07-05T03:10:15Z",
+    "updated_at": "2026-07-28T13:29:54Z",
+    "pushed_at": "2026-07-28T13:28:29Z",
+    "discovered_at": "2026-07-28T19:05:28.066Z",
+    "official": false,
+    "extension": {
+      "id": "taskpaper",
+      "name": "TaskPaper",
+      "description": "TaskPaper language support: syntax highlighting, outline navigation, and a language server with due-date diagnostics, task counts, and @done tooling.",
+      "version": "0.3.4",
+      "schema_version": 1,
+      "authors": [
+        "Kolen Cheung <10970208+ickc@users.noreply.github.com>"
+      ],
+      "repository": "https://github.com/ickc/zed-taskpaper",
       "snippets": null,
       "sections": [
         "grammars",
