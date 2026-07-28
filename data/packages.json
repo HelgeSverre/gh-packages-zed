@@ -185,7 +185,7 @@
     "name": "wakatime/zed-wakatime",
     "url": "https://github.com/wakatime/zed-wakatime",
     "description": "Zed plugin for automatic time tracking and metrics generated from your programming activity.",
-    "stars": 204,
+    "stars": 205,
     "forks": 29,
     "topics": [
       "extension",
@@ -197,7 +197,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2024-08-27T10:31:46Z",
-    "updated_at": "2026-07-25T08:12:53Z",
+    "updated_at": "2026-07-27T22:23:05Z",
     "pushed_at": "2026-07-27T17:04:03Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -1433,7 +1433,7 @@
     "name": "foxoman/zed-nim",
     "url": "https://github.com/foxoman/zed-nim",
     "description": "Nim support for Zed Editor",
-    "stars": 48,
+    "stars": 49,
     "forks": 4,
     "topics": [
       "nim",
@@ -1444,7 +1444,7 @@
     "language": "Tree-sitter Query",
     "license": "Apache-2.0",
     "created_at": "2024-07-12T08:06:46Z",
-    "updated_at": "2026-07-03T01:30:21Z",
+    "updated_at": "2026-07-27T21:56:29Z",
     "pushed_at": "2026-04-20T19:10:13Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -4743,46 +4743,6 @@
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
-  "brendan-corrigan/zed-emmylua": {
-    "name": "brendan-corrigan/zed-EmmyLua",
-    "url": "https://github.com/brendan-corrigan/zed-EmmyLua",
-    "description": "Zed extension for the EmmyLua language server and debugger.",
-    "stars": 0,
-    "forks": 0,
-    "topics": [
-      "emmylua",
-      "lua",
-      "zed",
-      "zed-extension"
-    ],
-    "language": "Rust",
-    "license": "Apache-2.0",
-    "created_at": "2025-07-26T12:25:56Z",
-    "updated_at": "2025-07-27T10:24:26Z",
-    "pushed_at": "2025-07-27T10:24:22Z",
-    "discovered_at": "2026-05-19T19:19:12.409Z",
-    "official": false
-  },
-  "rustlanges/zed-dotenv": {
-    "name": "RustLangES/zed-dotenv",
-    "url": "https://github.com/RustLangES/zed-dotenv",
-    "description": "Zed env variables plugin",
-    "stars": 2,
-    "forks": 0,
-    "topics": [
-      "dotenv",
-      "environment-variables",
-      "zed",
-      "zed-extension"
-    ],
-    "language": "Rust",
-    "license": "Apache-2.0",
-    "created_at": "2024-09-26T03:18:29Z",
-    "updated_at": "2026-05-28T16:47:01Z",
-    "pushed_at": "2025-07-27T02:12:01Z",
-    "discovered_at": "2026-05-19T19:19:12.409Z",
-    "official": false
-  },
   "navi-language/zed-navi": {
     "name": "navi-language/zed-navi",
     "url": "https://github.com/navi-language/zed-navi",
@@ -4800,24 +4760,6 @@
     "pushed_at": "2025-07-22T06:08:08Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
-  },
-  "neoncitylights/zed-webidl": {
-    "name": "neoncitylights/zed-webidl",
-    "url": "https://github.com/neoncitylights/zed-webidl",
-    "description": "WebIDL syntax highlighting support for Zed",
-    "stars": 0,
-    "forks": 0,
-    "topics": [
-      "webidl",
-      "zed-extension"
-    ],
-    "language": "WebIDL",
-    "license": "MIT",
-    "created_at": "2025-07-17T23:03:04Z",
-    "updated_at": "2025-07-18T21:16:03Z",
-    "pushed_at": "2025-07-18T21:15:59Z",
-    "discovered_at": "2026-05-19T19:19:12.409Z",
-    "official": false
   },
   "davccavalcante/blade-runner-2049-theme-for-zed": {
     "name": "davccavalcante/blade-runner-2049-theme-for-zed",
@@ -4845,32 +4787,6 @@
     "created_at": "2025-02-11T00:28:27Z",
     "updated_at": "2026-07-14T00:21:46Z",
     "pushed_at": "2025-07-12T18:56:49Z",
-    "discovered_at": "2026-05-19T19:19:12.409Z",
-    "official": false
-  },
-  "davccavalcante/vercel-mcp-server-for-zed": {
-    "name": "davccavalcante/vercel-mcp-server-for-zed",
-    "url": "https://github.com/davccavalcante/vercel-mcp-server-for-zed",
-    "description": "💾 Model Context Protocol (MCP) Server Vercel for Zed Editor",
-    "stars": 5,
-    "forks": 4,
-    "topics": [
-      "davidccavalcante",
-      "fjallstoppur",
-      "mcp",
-      "mcp-server",
-      "takk-ag",
-      "takk-design",
-      "takk8is",
-      "vercel",
-      "zed",
-      "zed-extension"
-    ],
-    "language": "Rust",
-    "license": null,
-    "created_at": "2025-06-29T04:59:25Z",
-    "updated_at": "2025-12-26T02:30:13Z",
-    "pushed_at": "2025-07-11T18:52:28Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -4963,24 +4879,6 @@
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
-  "ashpool37/zed-extension-opentofu": {
-    "name": "ashpool37/zed-extension-opentofu",
-    "url": "https://github.com/ashpool37/zed-extension-opentofu",
-    "description": "OpenTofu support for Zed",
-    "stars": 8,
-    "forks": 0,
-    "topics": [
-      "tofu-ls",
-      "zed-extension"
-    ],
-    "language": "Tree-sitter Query",
-    "license": "Apache-2.0",
-    "created_at": "2025-06-27T01:35:10Z",
-    "updated_at": "2026-03-07T10:39:50Z",
-    "pushed_at": "2025-06-27T01:39:04Z",
-    "discovered_at": "2026-05-19T19:19:12.409Z",
-    "official": false
-  },
   "paveloom-r/zed-termux": {
     "name": "paveloom-r/zed-termux",
     "url": "https://github.com/paveloom-r/zed-termux",
@@ -5038,27 +4936,6 @@
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
-  "omarjatoi/zed-caddyfile": {
-    "name": "omarjatoi/zed-caddyfile",
-    "url": "https://github.com/omarjatoi/zed-caddyfile",
-    "description": "Caddyfile syntax highlighting support extension for the Zed text editor.",
-    "stars": 0,
-    "forks": 0,
-    "topics": [
-      "caddy",
-      "caddyfile",
-      "caddyserver",
-      "zed",
-      "zed-extension"
-    ],
-    "language": null,
-    "license": "Apache-2.0",
-    "created_at": "2024-09-26T13:20:54Z",
-    "updated_at": "2025-06-19T09:23:14Z",
-    "pushed_at": "2024-09-26T13:22:33Z",
-    "discovered_at": "2026-05-19T19:19:12.409Z",
-    "official": false
-  },
   "arunk140/neon-zed-theme": {
     "name": "arunk140/neon-zed-theme",
     "url": "https://github.com/arunk140/neon-zed-theme",
@@ -5078,25 +4955,6 @@
     "pushed_at": "2024-09-24T07:07:46Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
-  },
-  "iyair/kanagawa-theme": {
-    "name": "IYair/kanagawa-theme",
-    "url": "https://github.com/IYair/kanagawa-theme",
-    "description": "🐉 A theme inspired by the Kanagawa wave 🌊",
-    "stars": 1,
-    "forks": 0,
-    "topics": [
-      "kanagawa",
-      "themes",
-      "zed-extension"
-    ],
-    "language": null,
-    "license": "MIT",
-    "created_at": "2024-09-16T22:57:07Z",
-    "updated_at": "2024-09-17T17:55:50Z",
-    "pushed_at": "2024-09-17T17:55:46Z",
-    "discovered_at": "2026-05-19T19:19:12.409Z",
-    "official": false
   },
   "deadmau5v/ubuntu-yaru-theme": {
     "name": "deadmau5v/Ubuntu-Yaru-Theme",
@@ -5214,63 +5072,6 @@
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
-  "wlh320/zed-ext-rime-ls": {
-    "name": "wlh320/zed-ext-rime-ls",
-    "url": "https://github.com/wlh320/zed-ext-rime-ls",
-    "description": "Rime language server for Zed editor",
-    "stars": 0,
-    "forks": 0,
-    "topics": [
-      "rime",
-      "zed",
-      "zed-extension"
-    ],
-    "language": "Rust",
-    "license": null,
-    "created_at": "2024-05-06T08:58:57Z",
-    "updated_at": "2024-06-27T08:24:07Z",
-    "pushed_at": "2024-06-27T08:24:04Z",
-    "discovered_at": "2026-05-19T19:19:12.409Z",
-    "official": false
-  },
-  "gracien-app/zed-usd-ext": {
-    "name": "gracien-app/zed-usd-ext",
-    "url": "https://github.com/gracien-app/zed-usd-ext",
-    "description": "Extension for Zed editor introducing support for Universal Scene Description files.",
-    "stars": 0,
-    "forks": 0,
-    "topics": [
-      "universal-scene-description",
-      "usd",
-      "usda",
-      "zed-extension"
-    ],
-    "language": "Scheme",
-    "license": null,
-    "created_at": "2024-05-11T22:54:22Z",
-    "updated_at": "2024-05-12T11:26:13Z",
-    "pushed_at": "2024-05-12T11:02:50Z",
-    "discovered_at": "2026-05-19T19:19:12.409Z",
-    "official": false
-  },
-  "huacnlee/zed-lalrpop": {
-    "name": "huacnlee/zed-lalrpop",
-    "url": "https://github.com/huacnlee/zed-lalrpop",
-    "description": "LALRPOP parser grammar support for Zed.",
-    "stars": 3,
-    "forks": 1,
-    "topics": [
-      "zed",
-      "zed-extension"
-    ],
-    "language": "Scheme",
-    "license": "MIT",
-    "created_at": "2024-05-03T06:48:51Z",
-    "updated_at": "2025-05-16T16:29:50Z",
-    "pushed_at": "2024-05-03T06:50:03Z",
-    "discovered_at": "2026-05-19T19:19:12.409Z",
-    "official": false
-  },
   "jacobcoffee/blackula": {
     "name": "JacobCoffee/blackula",
     "url": "https://github.com/JacobCoffee/blackula",
@@ -5365,7 +5166,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-05-07T00:12:10Z",
-    "updated_at": "2026-07-27T00:18:22Z",
+    "updated_at": "2026-07-28T01:01:35Z",
     "pushed_at": "2026-06-05T21:34:45Z",
     "discovered_at": "2026-05-19T19:54:12.053Z",
     "official": false
@@ -6767,7 +6568,7 @@
     "name": "wnkz/monoglow.nvim",
     "url": "https://github.com/wnkz/monoglow.nvim",
     "description": "🎆 A dark, mostly monochrome colorscheme with a touch of glowing.",
-    "stars": 171,
+    "stars": 170,
     "forks": 8,
     "topics": [
       "ghostty-theme",
@@ -6781,7 +6582,7 @@
     "language": "Lua",
     "license": "Apache-2.0",
     "created_at": "2024-10-05T14:40:58Z",
-    "updated_at": "2026-07-18T03:40:33Z",
+    "updated_at": "2026-07-28T00:05:16Z",
     "pushed_at": "2026-04-18T14:33:26Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
@@ -8959,13 +8760,13 @@
     "name": "zed-extensions/kotlin",
     "url": "https://github.com/zed-extensions/kotlin",
     "description": "Kotlin support",
-    "stars": 99,
+    "stars": 100,
     "forks": 32,
     "topics": [],
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-02-27T10:35:56Z",
-    "updated_at": "2026-07-21T22:33:19Z",
+    "updated_at": "2026-07-27T21:56:36Z",
     "pushed_at": "2026-06-07T22:08:05Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": false
@@ -15646,8 +15447,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
-    "updated_at": "2026-07-27T14:28:39Z",
-    "pushed_at": "2026-07-27T14:24:41Z",
+    "updated_at": "2026-07-27T23:55:56Z",
+    "pushed_at": "2026-07-27T23:55:52Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -18205,8 +18006,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-07-27T13:38:57Z",
-    "pushed_at": "2026-07-27T13:35:07Z",
+    "updated_at": "2026-07-27T19:07:32Z",
+    "pushed_at": "2026-07-27T19:06:29Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -23128,13 +22929,13 @@
     "name": "zed-extensions/nix",
     "url": "https://github.com/zed-extensions/nix",
     "description": "Nix language support in Zed",
-    "stars": 121,
+    "stars": 122,
     "forks": 27,
     "topics": [],
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-03-01T05:13:38Z",
-    "updated_at": "2026-07-24T21:14:06Z",
+    "updated_at": "2026-07-27T23:14:05Z",
     "pushed_at": "2026-06-07T22:07:59Z",
     "discovered_at": "2026-05-20T00:39:45.722Z",
     "official": false
@@ -32918,8 +32719,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-07-14T07:23:24Z",
-    "updated_at": "2026-07-24T15:32:23Z",
-    "pushed_at": "2026-07-24T15:29:32Z",
+    "updated_at": "2026-07-27T19:19:17Z",
+    "pushed_at": "2026-07-27T19:19:56Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false
   },
