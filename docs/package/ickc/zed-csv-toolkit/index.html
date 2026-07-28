@@ -1,0 +1,150 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>CSV Toolkit - Zed Extension Safari</title><meta name="description" content="Zed extension for CSV/TSV/SSV/PSV: rainbow columns plus a lightweight language server — ragged-row diagnostics, column-aware hover, an inline table view, and markdown-table preview."><link rel="canonical" href="https://helgesverre.github.io/gh-packages-zed/package/ickc/zed-csv-toolkit/"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="CSV Toolkit - Zed Extension Safari"><meta property="og:description" content="Zed extension for CSV/TSV/SSV/PSV: rainbow columns plus a lightweight language server — ragged-row diagnostics, column-aware hover, an inline table view, and markdown-table preview."><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed/package/ickc/zed-csv-toolkit/"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="CSV Toolkit - Zed Extension Safari"><meta name="twitter:description" content="Zed extension for CSV/TSV/SSV/PSV: rainbow columns plus a lightweight language server — ragged-row diagnostics, column-aware hover, an inline table view, and markdown-table preview."><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/gh-packages-zed/_astro/ClientRouter.astro_astro_type_script_index_0_lang.ClVLs1kt.js"></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"CSV Toolkit","description":"Zed extension for CSV/TSV/SSV/PSV: rainbow columns plus a lightweight language server — ragged-row diagnostics, column-aware hover, an inline table view, and markdown-table preview.","applicationCategory":"DeveloperApplication","operatingSystem":"macOS, Linux, Windows","url":"https://zed.dev/extensions/csv-toolkit","codeRepository":"https://github.com/ickc/zed-csv-toolkit","author":[{"@type":"Person","name":"Kolen Cheung"}],"softwareVersion":"0.3.0","license":"MIT","keywords":"grammar, language-server","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/Layout.CGDlMdWE.css"><script type="module" src="/gh-packages-zed/_astro/page.B8i1Zz-u.js"></script></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <a href="#main" class="skip-to-content">Skip to content</a> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" data-astro-transition-persist="astro-fhchcgd7-1"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <script type="application/json" id="pkg-extras">{"url":"https://github.com/ickc/zed-csv-toolkit","language":"Rust","license":"MIT","topics":["csv","language-server","lsp","rust","tree-sitter","tsv","zed","zed-extension"],"extension":{"authors":["Kolen Cheung"],"schema_version":1}}</script> <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> ickc/zed-csv-toolkit </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> CSV Toolkit </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> Rainbow columns for CSV/TSV/SSV/PSV plus a lightweight language server: ragged-row diagnostics, column-aware hover, an inline table view, and markdown-table preview. </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="grammar">Grammar</span><span class="cat-badge" data-cat="language-server">Language Server</span> </div> </div> </div> </header> <main id="main" class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/csv-toolkit" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/ickc/zed-csv-toolkit" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.3.0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">csv-toolkit</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">Rust</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">MIT</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">20h ago</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">Kolen Cheung</dd> </div> </dl>  <h2 class="mt-5 text-xs uppercase font-mono" style="color:var(--zed-muted);">Topics</h2> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> csv </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> language-server </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> lsp </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> rust </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> tree-sitter </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> tsv </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed-extension </span> </div>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-zed-csv-toolkit"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#zed-csv-toolkit"><span class="heading-anchor-icon">#</span></a>zed-csv-toolkit</h1>
+<p>A Zed extension for delimiter-separated values — CSV, TSV, SSV (semicolon),
+and PSV (pipe):</p>
+<ul>
+<li><strong>Rainbow columns</strong> — each column highlighted in a cycling color.</li>
+<li><strong>Diagnostics</strong> — ragged rows, unclosed quotes, text after a closing
+quote: the errors that silently corrupt CSVs.</li>
+<li><strong>Hover</strong> — any cell shows its column name, column index, and row
+position — invaluable in wide files where the header is scrolled away.</li>
+<li><strong>Inline table view</strong> — select rows, run once, see a real table rendered
+in the editor.</li>
+<li><strong>Markdown preview</strong> — one keybinding turns the file into a markdown
+table, ready for Zed's markdown preview (wraps text, unlike the table).</li>
+</ul>
+<p>Open <a href="https://github.com/ickc/zed-csv-toolkit/blob/HEAD/examples/demo.csv" target="_blank" rel="noopener"><code>examples/demo.csv</code></a> to see all of it at once —
+it packs quoting, a multi-line field, and two ragged rows into six lines.
+<code>csv-ls --help</code> lists everything the binary can do on its own.</p>
+<p>Docs for developing, releasing, and design rationale live in
+<a href="https://github.com/ickc/zed-csv-toolkit/blob/HEAD/MAINTAINER.md" target="_blank" rel="noopener">MAINTAINER.md</a>.</p>
+<h2 id="user-content-setup"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#setup"><span class="heading-anchor-icon">#</span></a>Setup</h2>
+<p>Install the extension — the rest is automatic. The <code>csv-ls</code> language
+server is resolved in this order: <code>lsp.csv-ls.binary.path</code> in settings, a
+<code>csv-ls</code> on PATH, else downloaded from this repo's GitHub releases (and
+kept up to date). <code>lsp.csv-ls.binary.arguments</code> and <code>.env</code> apply however
+the binary was resolved.</p>
+<p>For a semicolon-delimited <code>.csv</code> file, assign the buffer to the SSV
+language (language selector in the status bar).</p>
+<h3 id="user-content-what-it-writes-outside-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#what-it-writes-outside-zed"><span class="heading-anchor-icon">#</span></a>What it writes outside Zed</h3>
+<p>The inline table view is a Jupyter kernel, so it needs four kernelspecs
+(<code>csv</code>, <code>tsv</code>, <code>ssv</code>, <code>psv</code>) in your Jupyter data directory. <code>csv-ls</code>
+keeps them current on every start, but only if you already have Jupyter —
+an explicit <code>$JUPYTER_DATA_DIR</code>, or an existing platform data directory
+(<code>~/Library/Jupyter</code>, <code>%APPDATA%\jupyter</code>, <code>$XDG_DATA_HOME/jupyter</code>). On a
+machine with no Jupyter it writes nothing and says so in <code>zed: open log</code>.
+No Python is involved either way: the kernel is <code>csv-ls</code> itself.</p>
+<ul>
+<li><strong>Enable it anyway:</strong> run <code>csv-ls install-kernelspecs</code> once.</li>
+<li><strong>Turn it off:</strong> <code>{ "lsp": { "csv-ls": { "binary": { "env": { "CSV_LS_NO_KERNELSPECS": "1" } } } } }</code> in settings.</li>
+<li><strong>Remove what it wrote:</strong> <code>csv-ls uninstall-kernelspecs</code> (or
+<code>jupyter kernelspec remove csv tsv ssv psv</code>). Worth running before you
+uninstall the extension, or the specs linger pointing at a binary that
+is no longer there.</li>
+</ul>
+<p>A kernelspec that csv-ls did not write is never overwritten or removed.</p>
+<h2 id="user-content-relationship-to-other-csv-extensions"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#relationship-to-other-csv-extensions"><span class="heading-anchor-icon">#</span></a>Relationship to other CSV extensions</h2>
+<p>Two CSV extensions already exist in Zed's registry, and this one overlaps
+both by design:</p>
+<ul>
+<li><a href="https://github.com/weartist/zed-rainbow-csv"><code>rainbow-csv</code></a> ships the
+same grammar, pinned to the same commit, for the same four languages.
+The rainbow highlighting here is not an improvement on it — it is the
+same thing, bundled with the language server, because Zed has no way to
+attach a language server to another extension's languages.</li>
+<li><a href="https://github.com/huacnlee/zed-csv"><code>csv</code></a> provides plain CSV syntax
+from a different grammar.</li>
+</ul>
+<p>What this adds over both: diagnostics, hover, the inline table view, and
+the markdown preview. Install only one of the three — Zed registers
+languages by name, so two extensions defining <code>CSV</code> will fight over it.</p>
+<h2 id="user-content-inline-table-view"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#inline-table-view"><span class="heading-anchor-icon">#</span></a>Inline table view</h2>
+<p>Select the rows you want (include the header; <code>cmd-a</code> for the whole file),
+then <code>repl: run</code> (<code>ctrl-shift-enter</code>). Known Zed issue: the very first
+run after launching Zed may silently do nothing — Zed populates its
+kernel list lazily and drops the run that triggered the scan (the log
+shows <code>No kernel found for language: CSV</code>); just run again. The table
+renders inline (shown here alongside rainbow columns and a ragged-row
+diagnostic):</p>
+<p><img src="https://raw.githubusercontent.com/ickc/zed-csv-toolkit/HEAD/assets/inline-table-view.png" alt="Inline table view, with rainbow columns and a ragged-row diagnostic in the editor above it"></p>
+<p><code>repl: clear outputs</code> removes it. It is read-only: column widths autosize,
+long cells scroll rather than wrap, no sorting — limits of Zed's table
+widget, not of this extension. Copying it yields a markdown table.</p>
+<p>Optional one-keystroke version (extensions cannot ship keybindings, so
+copy-paste; on Linux use <code>ctrl-a</code>):</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">// keymap.json</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "context"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"Editor &#x26;&#x26; extension == csv"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "bindings"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "ctrl-alt-p"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"workspace::SendKeystrokes"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"cmd-a ctrl-shift-enter escape"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>If several kernels exist for a language, pin ours in settings:
+<code>{ "jupyter": { "kernel_selections": { "csv": "csv" } } }</code>.</p>
+<h2 id="user-content-markdown-preview"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#markdown-preview"><span class="heading-anchor-icon">#</span></a>Markdown preview</h2>
+<p><img src="https://raw.githubusercontent.com/ickc/zed-csv-toolkit/HEAD/assets/markdown-preview.png" alt="Markdown preview of a CSV rendered as a table"></p>
+<p><code>csv-ls markdown --temp &#x3C;file></code> writes the file as a GitHub-flavored
+markdown table to a stable temp path and prints it. The path is derived
+from the source file, so re-running updates the same buffer and two
+same-named CSVs don't collide. Wire it to a task and a keybinding (<code>zed</code>
+is Zed's CLI — <code>cli: install</code> from the command palette; the command below
+is POSIX shell, so on Windows adapt it to your task shell):</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">// tasks.json (macOS; on Linux the fallback path is</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">// ${XDG_DATA_HOME:-$HOME/.local/share}/zed/extensions/work/csv-toolkit/bin/csv-ls)</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "label"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"csv: markdown preview"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "command"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"b=$(command -v csv-ls) || b=</span><span style="color:#005CC5;--shiki-dark:#79B8FF">\"</span><span style="color:#032F62;--shiki-dark:#9ECBFF">$HOME/Library/Application Support/Zed/extensions/work/csv-toolkit/bin/csv-ls</span><span style="color:#005CC5;--shiki-dark:#79B8FF">\"</span><span style="color:#032F62;--shiki-dark:#9ECBFF">; zed </span><span style="color:#005CC5;--shiki-dark:#79B8FF">\"</span><span style="color:#032F62;--shiki-dark:#9ECBFF">$(</span><span style="color:#005CC5;--shiki-dark:#79B8FF">\"</span><span style="color:#032F62;--shiki-dark:#9ECBFF">$b</span><span style="color:#005CC5;--shiki-dark:#79B8FF">\"</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> markdown --temp </span><span style="color:#005CC5;--shiki-dark:#79B8FF">\"</span><span style="color:#032F62;--shiki-dark:#9ECBFF">$ZED_FILE</span><span style="color:#005CC5;--shiki-dark:#79B8FF">\"</span><span style="color:#032F62;--shiki-dark:#9ECBFF">)</span><span style="color:#005CC5;--shiki-dark:#79B8FF">\"</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "reveal"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"never"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "hide"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"always"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">// keymap.json</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "context"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"Editor &#x26;&#x26; extension == csv"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "bindings"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "cmd-shift-v"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"task::Spawn"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"task_name"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"csv: markdown preview"</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> }]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p><code>cmd-shift-v</code> is deliberate: it is already <code>markdown: open preview</code>'s
+default binding, so pressing it in the CSV opens the markdown table, and
+pressing it again in that buffer opens the rendered preview — one key,
+twice. Re-running the task rewrites the same temp file and Zed reloads the
+open buffer.</p>
+<p>Gotchas: <code>task_name</code> must match the task's <code>label</code> exactly, and pick keys
+your window manager doesn't capture system-wide (e.g. Amethyst may swallow
+<code>ctrl-alt-*</code> chords). If the task appears to do nothing, set
+<code>"reveal": "always"</code> and <code>"hide": "never"</code> to see the error.</p>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>MIT. The rainbow grammar
+(<a href="https://github.com/coroa/rainbow-csv-tree-sitter">coroa/rainbow-csv-tree-sitter</a>)
+is fetched by Zed from its own repository and is not vendored here.</p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>
