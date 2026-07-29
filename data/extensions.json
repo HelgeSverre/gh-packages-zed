@@ -86,7 +86,7 @@
     "name": "GDQuest/zed-gdscript",
     "url": "https://github.com/GDQuest/zed-gdscript",
     "description": "Zed support for the Godot game engine and the GDScript language",
-    "stars": 193,
+    "stars": 194,
     "forks": 23,
     "topics": [
       "code-editor",
@@ -98,7 +98,7 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-02-26T18:14:41Z",
-    "updated_at": "2026-07-27T21:13:04Z",
+    "updated_at": "2026-07-29T15:46:45Z",
     "pushed_at": "2026-07-27T13:17:21Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -486,7 +486,7 @@
     "name": "BenjaminHalko/flow-icons-zed",
     "url": "https://github.com/BenjaminHalko/flow-icons-zed",
     "description": "🌼 Flow Icons ported to Zed",
-    "stars": 29,
+    "stars": 30,
     "forks": 3,
     "topics": [
       "flow",
@@ -499,7 +499,7 @@
     "language": "JavaScript",
     "license": null,
     "created_at": "2025-12-03T23:34:48Z",
-    "updated_at": "2026-07-27T02:22:33Z",
+    "updated_at": "2026-07-29T14:47:15Z",
     "pushed_at": "2026-07-27T02:22:29Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false,
@@ -4585,7 +4585,7 @@
     "name": "ankddev/zed-jetbrains-newui-icons",
     "url": "https://github.com/ankddev/zed-jetbrains-newui-icons",
     "description": "JetBrains New UI Icons Theme for Zed editor.",
-    "stars": 25,
+    "stars": 26,
     "forks": 8,
     "topics": [
       "icons",
@@ -4597,7 +4597,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2025-02-08T13:19:33Z",
-    "updated_at": "2026-07-14T07:33:41Z",
+    "updated_at": "2026-07-29T16:26:54Z",
     "pushed_at": "2026-02-11T15:14:27Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -8455,7 +8455,7 @@
     "name": "cange/nightfox.zed",
     "url": "https://github.com/cange/nightfox.zed",
     "description": "🦊 Zed editor theme ported from Neovim",
-    "stars": 161,
+    "stars": 163,
     "forks": 5,
     "topics": [
       "zed",
@@ -8464,7 +8464,7 @@
     "language": "Lua",
     "license": "MIT",
     "created_at": "2024-05-02T20:49:30Z",
-    "updated_at": "2026-07-28T05:31:51Z",
+    "updated_at": "2026-07-29T17:25:25Z",
     "pushed_at": "2026-07-09T18:20:20Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": true,
@@ -11344,7 +11344,7 @@
     "url": "https://github.com/zed-extensions/kotlin",
     "description": "Kotlin support",
     "stars": 100,
-    "forks": 32,
+    "forks": 33,
     "topics": [],
     "language": "Tree-sitter Query",
     "license": "MIT",
@@ -21210,6 +21210,7 @@
     "updated_at": "2026-02-22T13:26:03Z",
     "pushed_at": "2026-02-02T14:57:56Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
+    "official": true,
     "extension": {
       "id": "mcp-server-kubernetes",
       "name": "Kubernetes MCP Server",
@@ -54260,8 +54261,8 @@
     "language": "C",
     "license": "MIT",
     "created_at": "2026-05-18T00:14:32Z",
-    "updated_at": "2026-07-13T15:03:48Z",
-    "pushed_at": "2026-07-29T02:39:54Z",
+    "updated_at": "2026-07-29T16:17:47Z",
+    "pushed_at": "2026-07-29T16:19:53Z",
     "discovered_at": "2026-07-13T19:07:05.045Z",
     "official": false,
     "extension": {
@@ -54678,7 +54679,7 @@
     "name": "luceat-lux-vestra/zed-spring-tools",
     "url": "https://github.com/luceat-lux-vestra/zed-spring-tools",
     "description": "Experimental Spring Boot language intelligence for Zed, built on the required official Java extension. Early source release; one tested tuple (macOS arm64/JDK 25).",
-    "stars": 0,
+    "stars": 1,
     "forks": 0,
     "topics": [
       "java",
@@ -54693,8 +54694,8 @@
     "language": "Java",
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
-    "updated_at": "2026-07-29T12:21:04Z",
-    "pushed_at": "2026-07-29T12:20:40Z",
+    "updated_at": "2026-07-29T18:06:21Z",
+    "pushed_at": "2026-07-29T18:02:53Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false,
     "extension": {
@@ -55551,8 +55552,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-07-27T20:25:12Z",
-    "updated_at": "2026-07-28T07:02:14Z",
-    "pushed_at": "2026-07-28T07:01:00Z",
+    "updated_at": "2026-07-29T13:32:33Z",
+    "pushed_at": "2026-07-29T13:30:43Z",
     "discovered_at": "2026-07-28T07:34:46.548Z",
     "official": false,
     "extension": {
@@ -56011,6 +56012,37 @@
       "categories": [
         "grammar",
         "language-server"
+      ]
+    }
+  },
+  "justbipin/zed-plastic-legacy-theme": {
+    "name": "JustBipin/zed-plastic-legacy-theme",
+    "url": "https://github.com/JustBipin/zed-plastic-legacy-theme",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-07-10T20:39:11Z",
+    "updated_at": "2026-07-10T20:40:32Z",
+    "pushed_at": "2026-07-10T20:40:27Z",
+    "discovered_at": "2026-07-29T19:04:50.211Z",
+    "official": true,
+    "extension": {
+      "id": "plastic-legacy-theme",
+      "name": "Plastic Legacy Theme",
+      "description": "A port of Will Stone's Plastic Legacy theme for Zed. A simple syntax and dark UI theme with a warmer color palette.",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Bipin Thapa <thapabipin139@gmail.com>"
+      ],
+      "repository": "https://github.com/justbipin/zed-plastic-legacy-theme",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
       ]
     }
   }
