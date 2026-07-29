@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1635** |
 | In official registry | 1161 |
 | Discovered via topics | 474 |
-| Last updated | 2026-07-28 19:05 UTC |
+| Last updated | 2026-07-29 01:10 UTC |
 
 ### By capability
 
@@ -120,10 +120,10 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 147 | 2026-07-28 |  |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 0 | 2026-07-28 | Experimental Spring Boot language intelligence for Zed, buil... |
 | [ickc/zed-csv-toolkit](https://github.com/ickc/zed-csv-toolkit) | 0 | 2026-07-28 | Zed extension for CSV/TSV/SSV/PSV: rainbow columns plus a li... |
 | [ickc/zed-taskpaper](https://github.com/ickc/zed-taskpaper) | 0 | 2026-07-28 | TaskPaper language support for Zed: tree-sitter grammar, syn... |
-| [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 147 | 2026-07-28 |  |
 | [felixtensor/zed-mlir-suite](https://github.com/felixtensor/zed-mlir-suite) | 4 | 2026-07-28 | The MLIR extension for Zed. |
 | [alaestor/mirror-zed-cea](https://github.com/alaestor/mirror-zed-cea) | 0 | 2026-07-28 | zed extension for cheat engine auto-assembler script highlig... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 91 | 2026-07-28 | True Dark Theme for Zed IDE |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-07-29T01:10 | 0 | 532 | 1974 |
 | 2026-07-28T19:05 | 1 | 531 | 1974 |
 | 2026-07-28T13:15 | 1 | 530 | 1973 |
 | 2026-07-28T07:34 | 12 | 518 | 1972 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-07-27T07:54 | 0 | 529 | 1965 |
 | 2026-07-27T01:14 | 0 | 529 | 1965 |
 | 2026-07-26T19:04 | 1 | 528 | 1965 |
-| 2026-07-26T13:04 | 0 | 528 | 1964 |
 
 ---
 
