@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1635** |
 | In official registry | 1161 |
 | Discovered via topics | 474 |
-| Last updated | 2026-07-29 07:36 UTC |
+| Last updated | 2026-07-29 13:16 UTC |
 
 ### By capability
 
@@ -120,11 +120,11 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 0 | 2026-07-29 | Experimental Spring Boot language intelligence for Zed, buil... |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 205 | 2026-07-29 | Zed plugin for automatic time tracking and metrics generated... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 91 | 2026-07-29 | True Dark Theme for Zed IDE |
 | [petercr/varlock-zed-extension](https://github.com/petercr/varlock-zed-extension) | 2 | 2026-07-29 | Zed port of the Varlock VS Code @env-spec extension for .env... |
 | [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 147 | 2026-07-28 |  |
-| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 0 | 2026-07-28 | Experimental Spring Boot language intelligence for Zed, buil... |
 | [ickc/zed-csv-toolkit](https://github.com/ickc/zed-csv-toolkit) | 0 | 2026-07-28 | Zed extension for CSV/TSV/SSV/PSV: rainbow columns plus a li... |
 | [ickc/zed-taskpaper](https://github.com/ickc/zed-taskpaper) | 0 | 2026-07-28 | TaskPaper language support for Zed: tree-sitter grammar, syn... |
 | [felixtensor/zed-mlir-suite](https://github.com/felixtensor/zed-mlir-suite) | 4 | 2026-07-28 | The MLIR extension for Zed. |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-07-29T13:16 | 0 | 532 | 1974 |
 | 2026-07-29T07:36 | 0 | 532 | 1974 |
 | 2026-07-29T01:10 | 0 | 532 | 1974 |
 | 2026-07-28T19:05 | 1 | 531 | 1974 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-07-27T19:05 | 2 | 529 | 1970 |
 | 2026-07-27T13:34 | 3 | 529 | 1968 |
 | 2026-07-27T07:54 | 0 | 529 | 1965 |
-| 2026-07-27T01:14 | 0 | 529 | 1965 |
 
 ---
 

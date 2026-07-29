@@ -83,7 +83,7 @@
     "name": "jellydn/zed-codemux",
     "url": "https://github.com/jellydn/zed-codemux",
     "description": "Open Zed terminals inside tmux or zellij — port of vscode-mux to the Zed editor.",
-    "stars": 12,
+    "stars": 13,
     "forks": 1,
     "topics": [
       "tmux",
@@ -94,7 +94,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-05-02T05:39:52Z",
-    "updated_at": "2026-07-21T13:03:05Z",
+    "updated_at": "2026-07-29T10:56:16Z",
     "pushed_at": "2026-07-24T03:03:46Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
@@ -404,7 +404,7 @@
     "license": "BlueOak-1.0.0",
     "created_at": "2026-04-22T09:18:16Z",
     "updated_at": "2026-07-21T08:24:00Z",
-    "pushed_at": "2026-07-22T08:14:37Z",
+    "pushed_at": "2026-07-29T08:14:20Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -1916,7 +1916,7 @@
     "name": "0x96f-org/0x96f-zed-theme",
     "url": "https://github.com/0x96f-org/0x96f-zed-theme",
     "description": "A simple and pleasant dark theme for Zed",
-    "stars": 40,
+    "stars": 41,
     "forks": 2,
     "topics": [
       "editor-theme",
@@ -1929,7 +1929,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-05-23T15:29:58Z",
-    "updated_at": "2026-06-26T13:17:27Z",
+    "updated_at": "2026-07-29T08:30:10Z",
     "pushed_at": "2026-04-01T16:36:20Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -2334,7 +2334,7 @@
     "name": "chopratejas/headroom-zed",
     "url": "https://github.com/chopratejas/headroom-zed",
     "description": "Zed extension for Headroom — context compression for AI agents",
-    "stars": 56,
+    "stars": 55,
     "forks": 12,
     "topics": [
       "ai-agents",
@@ -2351,7 +2351,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-03-18T16:55:33Z",
-    "updated_at": "2026-07-28T06:38:34Z",
+    "updated_at": "2026-07-29T09:22:42Z",
     "pushed_at": "2026-03-18T16:55:38Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
@@ -2848,7 +2848,7 @@
     "name": "emirror-de/papercolor-zed",
     "url": "https://github.com/emirror-de/papercolor-zed",
     "description": "The original PaperColor Theme, inspired by Google Material Design, ported to Zed.",
-    "stars": 4,
+    "stars": 5,
     "forks": 1,
     "topics": [
       "theme",
@@ -2857,7 +2857,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2025-08-13T12:28:06Z",
-    "updated_at": "2026-02-19T09:15:00Z",
+    "updated_at": "2026-07-29T12:08:39Z",
     "pushed_at": "2026-02-19T09:14:55Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -4678,7 +4678,7 @@
     "name": "DROOdotFOO/LSPbridge",
     "url": "https://github.com/DROOdotFOO/LSPbridge",
     "description": "Universal bridge for exporting IDE diagnostics to AI assistants. Privacy-first Rust CLI with IDE extensions for VS Code, Neovim, and Zed.",
-    "stars": 6,
+    "stars": 5,
     "forks": 0,
     "topics": [
       "ai-tools",
@@ -4695,7 +4695,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2025-07-26T16:07:39Z",
-    "updated_at": "2026-05-29T04:33:02Z",
+    "updated_at": "2026-07-29T09:20:35Z",
     "pushed_at": "2025-08-09T01:36:04Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
@@ -15420,7 +15420,7 @@
     "name": "agent-sh/agnix",
     "url": "https://github.com/agent-sh/agnix",
     "description": "The missing linter and lsp for AI coding assistants. Validate CLAUDE.md, AGENTS.md, SKILL.md, hooks, MCP. Plugin for all major IDEs included, with autofixes.",
-    "stars": 370,
+    "stars": 368,
     "forks": 30,
     "topics": [
       "agent",
@@ -15447,7 +15447,7 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
-    "updated_at": "2026-07-28T19:02:49Z",
+    "updated_at": "2026-07-29T11:43:51Z",
     "pushed_at": "2026-07-27T23:55:52Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
@@ -18006,8 +18006,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-07-29T01:11:15Z",
-    "pushed_at": "2026-07-29T01:11:03Z",
+    "updated_at": "2026-07-29T07:39:03Z",
+    "pushed_at": "2026-07-29T07:37:27Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -28978,8 +28978,8 @@
     "language": null,
     "license": null,
     "created_at": "2026-05-25T05:34:31Z",
-    "updated_at": "2026-07-13T18:09:54Z",
-    "pushed_at": "2026-07-13T18:09:27Z",
+    "updated_at": "2026-07-29T11:01:45Z",
+    "pushed_at": "2026-07-29T10:59:26Z",
     "discovered_at": "2026-05-26T07:12:20.287Z",
     "official": false
   },
@@ -30019,7 +30019,7 @@
     "name": "nMaroulis/protoagent",
     "url": "https://github.com/nMaroulis/protoagent",
     "description": "A blazing-fast, local-first AI agent ecosystem. Orchestrate local LLMs with Python, run them in a native Rust terminal, or integrate directly into your editor via ACP.",
-    "stars": 5,
+    "stars": 4,
     "forks": 0,
     "topics": [
       "agent-client-protocol",
@@ -30038,7 +30038,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-06-09T22:36:14Z",
-    "updated_at": "2026-07-26T04:08:48Z",
+    "updated_at": "2026-07-29T11:47:21Z",
     "pushed_at": "2026-07-17T12:13:28Z",
     "discovered_at": "2026-06-10T00:43:30.823Z",
     "official": false
@@ -32698,8 +32698,8 @@
     "language": "Java",
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
-    "updated_at": "2026-07-28T20:26:28Z",
-    "pushed_at": "2026-07-28T20:26:06Z",
+    "updated_at": "2026-07-29T12:21:04Z",
+    "pushed_at": "2026-07-29T12:20:40Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false
   },
@@ -33179,8 +33179,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-05-17T07:32:27Z",
-    "updated_at": "2026-07-29T07:23:11Z",
-    "pushed_at": "2026-07-29T05:19:12Z",
+    "updated_at": "2026-07-29T12:18:05Z",
+    "pushed_at": "2026-07-29T12:13:42Z",
     "discovered_at": "2026-07-26T01:12:51.640Z",
     "official": false
   },
