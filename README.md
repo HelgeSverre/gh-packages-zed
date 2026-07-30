@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1636** |
 | In official registry | 1163 |
 | Discovered via topics | 473 |
-| Last updated | 2026-07-30 01:06 UTC |
+| Last updated | 2026-07-30 07:33 UTC |
 
 ### By capability
 
@@ -111,8 +111,8 @@ cd website && npm install && npm run dev
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 163 | 🦊 Zed editor theme ported from Neovim |
 | [thedadams/zed-comment](https://github.com/thedadams/zed-comment) | 148 | A comment extension for the Zed editor |
 | [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 147 |  |
+| [zed-extensions/swift](https://github.com/zed-extensions/swift) | 145 | Extension for Zed to support Swift |
 | [slymax/zedokai](https://github.com/slymax/zedokai) | 145 | a theme for Zed based on the Monokai Pro color scheme |
-| [zed-extensions/swift](https://github.com/zed-extensions/swift) | 144 | Extension for Zed to support Swift |
 | [nathansbradshaw/zed-angular](https://github.com/nathansbradshaw/zed-angular) | 144 |  |
 | [zed-extensions/csharp](https://github.com/zed-extensions/csharp) | 139 | C# support |
 
@@ -120,11 +120,11 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [alaestor/mirror-zed-cea](https://github.com/alaestor/mirror-zed-cea) | 0 | 2026-07-29 | zed extension for cheat engine auto-assembler script highlig... |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 91 | 2026-07-30 | True Dark Theme for Zed IDE |
+| [alaestor/mirror-zed-cea](https://github.com/alaestor/mirror-zed-cea) | 0 | 2026-07-30 | zed extension for cheat engine auto-assembler script highlig... |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 1 | 2026-07-29 | Experimental Spring Boot language intelligence for Zed, buil... |
 | [petercr/varlock-zed-extension](https://github.com/petercr/varlock-zed-extension) | 2 | 2026-07-29 | Zed port of the Varlock VS Code @env-spec extension for .env... |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 205 | 2026-07-29 | Zed plugin for automatic time tracking and metrics generated... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 91 | 2026-07-29 | True Dark Theme for Zed IDE |
 | [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 147 | 2026-07-28 |  |
 | [ickc/zed-csv-toolkit](https://github.com/ickc/zed-csv-toolkit) | 0 | 2026-07-28 | Zed extension for CSV/TSV/SSV/PSV: rainbow columns plus a li... |
 | [ickc/zed-taskpaper](https://github.com/ickc/zed-taskpaper) | 0 | 2026-07-28 | TaskPaper language support for Zed: tree-sitter grammar, syn... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-07-30T07:33 | 0 | 534 | 1977 |
 | 2026-07-30T01:06 | 0 | 534 | 1977 |
 | 2026-07-29T19:04 | 3 | 532 | 1977 |
 | 2026-07-29T13:16 | 0 | 532 | 1974 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-07-28T13:15 | 1 | 530 | 1973 |
 | 2026-07-28T07:34 | 12 | 518 | 1972 |
 | 2026-07-28T01:08 | 0 | 316 | 1960 |
-| 2026-07-27T19:05 | 2 | 529 | 1970 |
 
 ---
 
