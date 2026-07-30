@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1636** |
 | In official registry | 1163 |
 | Discovered via topics | 473 |
-| Last updated | 2026-07-30 07:33 UTC |
+| Last updated | 2026-07-30 13:12 UTC |
 
 ### By capability
 
@@ -120,9 +120,9 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 1 | 2026-07-30 | Experimental Spring Boot language intelligence for Zed, buil... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 91 | 2026-07-30 | True Dark Theme for Zed IDE |
 | [alaestor/mirror-zed-cea](https://github.com/alaestor/mirror-zed-cea) | 0 | 2026-07-30 | zed extension for cheat engine auto-assembler script highlig... |
-| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 1 | 2026-07-29 | Experimental Spring Boot language intelligence for Zed, buil... |
 | [petercr/varlock-zed-extension](https://github.com/petercr/varlock-zed-extension) | 2 | 2026-07-29 | Zed port of the Varlock VS Code @env-spec extension for .env... |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 205 | 2026-07-29 | Zed plugin for automatic time tracking and metrics generated... |
 | [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 147 | 2026-07-28 |  |
@@ -139,12 +139,13 @@ cd website && npm install && npm run dev
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-07-26 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [albertsko/zed-everforest](https://github.com/albertsko/zed-everforest) | 16 | 2026-07-26 | 🌲 Everforest for Zed |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-07-26 | A Zed extension that allows to highlight all occurrences of ... |
-| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 130 | 2026-07-26 | The Ruby language support for Zed editor |
+| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 131 | 2026-07-26 | The Ruby language support for Zed editor |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-07-30T13:12 | 0 | 534 | 1977 |
 | 2026-07-30T07:33 | 0 | 534 | 1977 |
 | 2026-07-30T01:06 | 0 | 534 | 1977 |
 | 2026-07-29T19:04 | 3 | 532 | 1977 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-07-28T19:05 | 1 | 531 | 1974 |
 | 2026-07-28T13:15 | 1 | 530 | 1973 |
 | 2026-07-28T07:34 | 12 | 518 | 1972 |
-| 2026-07-28T01:08 | 0 | 316 | 1960 |
 
 ---
 
