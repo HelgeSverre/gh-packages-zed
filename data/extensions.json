@@ -54687,7 +54687,7 @@
   "luceat-lux-vestra/zed-spring-tools": {
     "name": "luceat-lux-vestra/zed-spring-tools",
     "url": "https://github.com/luceat-lux-vestra/zed-spring-tools",
-    "description": "Experimental Spring Boot language intelligence for Zed, built on the required official Java extension. Early source release; one tested tuple (macOS arm64/JDK 25).",
+    "description": "Spring Boot language intelligence for Zed, built on the required official Java extension. Early source release; one tested tuple (macOS arm64/JDK 25).",
     "stars": 1,
     "forks": 0,
     "topics": [
@@ -54703,7 +54703,7 @@
     "language": "Java",
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
-    "updated_at": "2026-07-30T12:57:19Z",
+    "updated_at": "2026-07-30T22:56:50Z",
     "pushed_at": "2026-07-30T12:55:35Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false,
@@ -56091,6 +56091,39 @@
       ],
       "categories": [
         "grammar",
+        "language-server"
+      ]
+    }
+  },
+  "laravel/zed-extension": {
+    "name": "laravel/zed-extension",
+    "url": "https://github.com/laravel/zed-extension",
+    "description": "",
+    "stars": 26,
+    "forks": 0,
+    "topics": [],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2026-05-20T14:18:18Z",
+    "updated_at": "2026-07-30T19:46:17Z",
+    "pushed_at": "2026-07-30T19:46:13Z",
+    "discovered_at": "2026-07-31T01:12:11.656Z",
+    "official": true,
+    "extension": {
+      "id": "laravel-official",
+      "name": "Laravel (Official)",
+      "description": "Official Laravel LSP integration.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Laravel"
+      ],
+      "repository": "https://github.com/laravel/zed-extension",
+      "snippets": null,
+      "sections": [
+        "language_servers"
+      ],
+      "categories": [
         "language-server"
       ]
     }

@@ -15457,8 +15457,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
-    "updated_at": "2026-07-30T11:20:57Z",
-    "pushed_at": "2026-07-27T23:55:52Z",
+    "updated_at": "2026-07-31T00:03:02Z",
+    "pushed_at": "2026-07-31T00:10:08Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -18016,8 +18016,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-07-30T13:15:38Z",
-    "pushed_at": "2026-07-30T13:13:28Z",
+    "updated_at": "2026-07-30T19:07:49Z",
+    "pushed_at": "2026-07-30T19:06:19Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -32692,7 +32692,7 @@
   "luceat-lux-vestra/zed-spring-tools": {
     "name": "luceat-lux-vestra/zed-spring-tools",
     "url": "https://github.com/luceat-lux-vestra/zed-spring-tools",
-    "description": "Experimental Spring Boot language intelligence for Zed, built on the required official Java extension. Early source release; one tested tuple (macOS arm64/JDK 25).",
+    "description": "Spring Boot language intelligence for Zed, built on the required official Java extension. Early source release; one tested tuple (macOS arm64/JDK 25).",
     "stars": 1,
     "forks": 0,
     "topics": [
@@ -32708,7 +32708,7 @@
     "language": "Java",
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
-    "updated_at": "2026-07-30T12:57:19Z",
+    "updated_at": "2026-07-30T22:56:50Z",
     "pushed_at": "2026-07-30T12:55:35Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false
@@ -33650,5 +33650,20 @@
     "pushed_at": "2026-07-21T21:28:15Z",
     "discovered_at": "2026-07-30T19:05:47.130Z",
     "official": false
+  },
+  "laravel/zed-extension": {
+    "name": "laravel/zed-extension",
+    "url": "https://github.com/laravel/zed-extension",
+    "description": "",
+    "stars": 26,
+    "forks": 0,
+    "topics": [],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2026-05-20T14:18:18Z",
+    "updated_at": "2026-07-30T19:46:17Z",
+    "pushed_at": "2026-07-30T19:46:13Z",
+    "discovered_at": "2026-07-31T01:12:11.656Z",
+    "official": true
   }
 }
