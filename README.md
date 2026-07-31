@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1641** |
 | In official registry | 1167 |
 | Discovered via topics | 474 |
-| Last updated | 2026-07-31 13:16 UTC |
+| Last updated | 2026-07-31 19:05 UTC |
 
 ### By capability
 
@@ -120,11 +120,14 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 1 | 2026-07-31 | Spring Boot language intelligence for Zed, built on the requ... |
+| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-07-31 | Intelligent codebase search & indexing for Zed. Async MCP se... |
+| [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-07-31 | Zed editor support for Carve, a modern light markup language |
+| [MiCkEyZzZ/uon-zed](https://github.com/MiCkEyZzZ/uon-zed) | 0 | 2026-07-31 | Поддержка формата данных UON для редактора Zed. |
 | [Sercali-co/Sercali-Zed-Theme](https://github.com/Sercali-co/Sercali-Zed-Theme) | 6 | 2026-07-31 | A Gilded Void theme family for Zed: deep neutral basalts wit... |
 | [leolorenzato/zed-pastel-night-theme](https://github.com/leolorenzato/zed-pastel-night-theme) | 0 | 2026-07-31 | 🌃 Pastel Night theme for Zed |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 91 | 2026-07-31 | True Dark Theme for Zed IDE |
 | [laravel/zed-extension](https://github.com/laravel/zed-extension) | 26 | 2026-07-30 |  |
-| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 1 | 2026-07-30 | Spring Boot language intelligence for Zed, built on the requ... |
 | [charmingruby/g-slowpoke-zed-theme](https://github.com/charmingruby/g-slowpoke-zed-theme) | 2 | 2026-07-30 | A calm, pastel dark theme for Zed, inspired by Galarian Slow... |
 | [alaestor/mirror-zed-cea](https://github.com/alaestor/mirror-zed-cea) | 0 | 2026-07-30 | zed extension for cheat engine auto-assembler script |
 | [petercr/varlock-zed-extension](https://github.com/petercr/varlock-zed-extension) | 2 | 2026-07-29 | Zed port of the Varlock VS Code @env-spec extension for .env... |
@@ -137,14 +140,12 @@ cd website && npm install && npm run dev
 | [nusnewob/caddyfile-zed](https://github.com/nusnewob/caddyfile-zed) | 14 | 2026-07-27 | Caddyfile Support for Zed |
 | [dylan-gluck/zed-sudolang](https://github.com/dylan-gluck/zed-sudolang) | 0 | 2026-07-27 | Zed extension for SudoLang |
 | [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 196 | 2026-07-27 | Zed support for the Godot game engine and the GDScript langu... |
-| [akullpp/monobrut-theme](https://github.com/akullpp/monobrut-theme) | 1 | 2026-07-27 | A dark brutalist theme with Monokai colors for Zed. |
-| [BenjaminHalko/flow-icons-zed](https://github.com/BenjaminHalko/flow-icons-zed) | 31 | 2026-07-27 | 🌼 Flow Icons ported to Zed |
-| [dmitry-sorkin/zed-klipper](https://github.com/dmitry-sorkin/zed-klipper) | 2 | 2026-07-26 | Zed extension: Klipper printer.cfg syntax highlighting via t... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-07-31T19:05 | 0 | 535 | 1983 |
 | 2026-07-31T13:16 | 4 | 535 | 1983 |
 | 2026-07-31T07:38 | 0 | 535 | 1979 |
 | 2026-07-31T01:12 | 1 | 535 | 1979 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-07-30T01:06 | 0 | 534 | 1977 |
 | 2026-07-29T19:04 | 3 | 532 | 1977 |
 | 2026-07-29T13:16 | 0 | 532 | 1974 |
-| 2026-07-29T07:36 | 0 | 532 | 1974 |
 
 ---
 
