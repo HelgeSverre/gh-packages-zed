@@ -157,8 +157,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-07-30T04:41:30Z",
-    "pushed_at": "2026-07-30T04:40:53Z",
+    "updated_at": "2026-07-31T05:19:09Z",
+    "pushed_at": "2026-07-31T05:18:42Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -415,7 +415,14 @@
     "stars": 28,
     "forks": 6,
     "topics": [
+      "cargo",
+      "crates-io",
+      "dependency-management",
       "dependi",
+      "developer-tools",
+      "editor-extension",
+      "npm",
+      "package-manager",
       "rust",
       "zed",
       "zed-extension"
@@ -423,7 +430,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2025-12-13T09:32:42Z",
-    "updated_at": "2026-07-19T22:24:14Z",
+    "updated_at": "2026-07-31T06:47:21Z",
     "pushed_at": "2026-07-27T21:06:23Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -5111,8 +5118,8 @@
     "language": "Go",
     "license": "MIT",
     "created_at": "2026-03-09T04:35:59Z",
-    "updated_at": "2026-07-30T07:07:23Z",
-    "pushed_at": "2026-07-30T07:06:31Z",
+    "updated_at": "2026-07-31T07:13:20Z",
+    "pushed_at": "2026-07-31T07:12:57Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -5139,7 +5146,7 @@
     "name": "Dylanmurzello/zed-android-port",
     "url": "https://github.com/Dylanmurzello/zed-android-port",
     "description": "Native Android port of the Zed code editor,  gpui rendering through Vulkan, integrated Termux for LSPs and tooling, remote SSH support. Runs as an APK on tablets and Android desktop modes.",
-    "stars": 148,
+    "stars": 149,
     "forks": 12,
     "topics": [
       "android",
@@ -5166,7 +5173,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-05-07T00:12:10Z",
-    "updated_at": "2026-07-30T05:38:30Z",
+    "updated_at": "2026-07-31T03:39:47Z",
     "pushed_at": "2026-06-05T21:34:45Z",
     "discovered_at": "2026-05-19T19:54:12.053Z",
     "official": false
@@ -14617,7 +14624,7 @@
     "name": "HarshNarayanJha/zed-sequoia-theme",
     "url": "https://github.com/HarshNarayanJha/zed-sequoia-theme",
     "description": "Black, elegant, modern, monochrome or colourful theme for Zed.",
-    "stars": 8,
+    "stars": 7,
     "forks": 1,
     "topics": [
       "ide-theme",
@@ -14629,7 +14636,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2025-03-03T17:01:20Z",
-    "updated_at": "2026-07-30T18:52:01Z",
+    "updated_at": "2026-07-31T04:13:13Z",
     "pushed_at": "2026-05-26T03:59:08Z",
     "discovered_at": "2026-05-19T20:15:46.472Z",
     "official": true
@@ -15457,8 +15464,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
-    "updated_at": "2026-07-31T00:03:02Z",
-    "pushed_at": "2026-07-31T00:10:08Z",
+    "updated_at": "2026-07-31T07:29:54Z",
+    "pushed_at": "2026-07-31T07:28:37Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -18016,8 +18023,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-07-30T19:07:49Z",
-    "pushed_at": "2026-07-30T19:06:19Z",
+    "updated_at": "2026-07-31T01:12:44Z",
+    "pushed_at": "2026-07-31T01:12:40Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -32729,8 +32736,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-07-14T07:23:24Z",
-    "updated_at": "2026-07-27T19:19:17Z",
-    "pushed_at": "2026-07-27T19:19:56Z",
+    "updated_at": "2026-07-31T06:57:47Z",
+    "pushed_at": "2026-07-31T06:57:47Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false
   },
@@ -33291,16 +33298,18 @@
   "alaestor/mirror-zed-cea": {
     "name": "alaestor/mirror-zed-cea",
     "url": "https://github.com/alaestor/mirror-zed-cea",
-    "description": "zed extension for cheat engine auto-assembler script highlighting",
+    "description": "zed extension for cheat engine auto-assembler script",
     "stars": 0,
     "forks": 0,
     "topics": [
+      "auto-assembler",
+      "cheat-engine",
       "zed-extension"
     ],
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-07-27T20:25:12Z",
-    "updated_at": "2026-07-30T01:21:00Z",
+    "updated_at": "2026-07-31T01:28:35Z",
     "pushed_at": "2026-07-30T01:21:24Z",
     "discovered_at": "2026-07-28T07:34:46.548Z",
     "official": false
