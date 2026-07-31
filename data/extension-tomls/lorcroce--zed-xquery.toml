@@ -1,0 +1,11 @@
+schema_version = 1
+id = "xquery"
+name = "XQuery"
+version = "0.0.1"
+description = "XQuery language support for Zed"
+authors = ["Loris Croce <loris.croce@uca.fr>"]
+repository = "https://github.com/lorcroce/zed-xquery"
+
+[grammars.xquery]
+repository = "https://github.com/grantmacken/tree-sitter-xquery"
+rev = "85f15e8f6388981678838407c25f9222a7abe14b"

@@ -3086,8 +3086,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2025-12-10T17:22:00Z",
-    "updated_at": "2026-06-30T18:45:33Z",
-    "pushed_at": "2026-03-27T14:12:38Z",
+    "updated_at": "2026-07-31T12:29:59Z",
+    "pushed_at": "2026-07-31T12:28:40Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false,
     "extension": {
@@ -11085,13 +11085,13 @@
     "name": "zed-extensions/typst",
     "url": "https://github.com/zed-extensions/typst",
     "description": "Typst extension for zed",
-    "stars": 190,
+    "stars": 191,
     "forks": 16,
     "topics": [],
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2024-04-27T19:27:52Z",
-    "updated_at": "2026-07-22T16:54:44Z",
+    "updated_at": "2026-07-31T12:27:56Z",
     "pushed_at": "2026-06-10T23:17:14Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": false,
@@ -30734,13 +30734,13 @@
     "name": "zed-extensions/git_firefly",
     "url": "https://github.com/zed-extensions/git_firefly",
     "description": "",
-    "stars": 147,
+    "stars": 148,
     "forks": 6,
     "topics": [],
     "language": "Tree-sitter Query",
     "license": "Apache-2.0",
     "created_at": "2024-02-19T14:56:35Z",
-    "updated_at": "2026-07-28T23:39:41Z",
+    "updated_at": "2026-07-31T12:29:32Z",
     "pushed_at": "2026-07-28T23:40:00Z",
     "discovered_at": "2026-05-19T21:42:53.670Z",
     "official": false,
@@ -56127,6 +56127,101 @@
       ],
       "categories": [
         "language-server"
+      ]
+    }
+  },
+  "charmingruby/g-slowpoke-zed-theme": {
+    "name": "charmingruby/g-slowpoke-zed-theme",
+    "url": "https://github.com/charmingruby/g-slowpoke-zed-theme",
+    "description": "A calm, pastel dark theme for Zed, inspired by Galarian Slowpoke.",
+    "stars": 2,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-07-30T12:02:35Z",
+    "updated_at": "2026-07-30T14:14:27Z",
+    "pushed_at": "2026-07-30T12:42:59Z",
+    "discovered_at": "2026-07-31T13:16:50.699Z",
+    "official": true,
+    "extension": {
+      "id": "g-slowpoke-theme",
+      "name": "Galarian Slowpoke Theme",
+      "description": "A calm, pastel dark theme inspired by Galarian Slowpoke.",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Gustavo Dias <gustavodiasa2121@gmail.com>"
+      ],
+      "repository": "https://github.com/charmingruby/g-slowpoke-zed-theme",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "kasper9n/monokai-sharp-zed-theme": {
+    "name": "kasper9n/monokai-sharp-zed-theme",
+    "url": "https://github.com/kasper9n/monokai-sharp-zed-theme",
+    "description": "Monokai Sharp theme for Zed",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Svelte",
+    "license": "MIT",
+    "created_at": "2025-12-03T00:55:40Z",
+    "updated_at": "2026-07-27T22:14:28Z",
+    "pushed_at": "2026-07-27T22:14:20Z",
+    "discovered_at": "2026-07-31T13:16:50.699Z",
+    "official": true,
+    "extension": {
+      "id": "monokai-sharp",
+      "name": "Monokai Sharp",
+      "description": "Monokai Sharp theme",
+      "version": "1.0.3",
+      "schema_version": 1,
+      "authors": [
+        "Kasper Henningsen <kasperkh.kh@gmail.com>"
+      ],
+      "repository": "https://github.com/kasper9n/monokai-sharp",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "lorcroce/zed-xquery": {
+    "name": "lorcroce/zed-xquery",
+    "url": "https://github.com/lorcroce/zed-xquery",
+    "description": "XQuery language support for Zed",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "GPL-3.0",
+    "created_at": "2026-04-16T09:47:02Z",
+    "updated_at": "2026-04-16T09:48:35Z",
+    "pushed_at": "2026-04-16T09:48:31Z",
+    "discovered_at": "2026-07-31T13:16:50.699Z",
+    "official": true,
+    "extension": {
+      "id": "xquery",
+      "name": "XQuery",
+      "description": "XQuery language support for Zed",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Loris Croce <loris.croce@uca.fr>"
+      ],
+      "repository": "https://github.com/lorcroce/zed-xquery",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
       ]
     }
   }
