@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1643-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1644-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,16 +14,16 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1643** |
+| Total tracked | **1644** |
 | In official registry | 1168 |
-| Discovered via topics | 475 |
-| Last updated | 2026-08-01 13:07 UTC |
+| Discovered via topics | 476 |
+| Last updated | 2026-08-01 19:04 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
-| Themes | 693 |
+| Themes | 694 |
 | Grammars | 571 |
 | Language Servers | 531 |
 | Context Servers | 135 |
@@ -70,6 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [lukedunwoody/zed-polaris](https://github.com/lukedunwoody/zed-polaris) | 0 | A cool-toned dark theme for Zed featuring vibrant syntax highlighting inspired b... |
 | [duso-org/duso-zed](https://github.com/duso-org/duso-zed) | 0 | Zed extension for Duso |
 | [joansgarcia/zed-symbols](https://github.com/joansgarcia/zed-symbols) | 26 | A simple file icon theme for Zed. |
 | [charmingruby/g-slowpoke-zed-theme](https://github.com/charmingruby/g-slowpoke-zed-theme) | 2 | A calm, pastel dark theme for Zed, inspired by Galarian Slowpoke. |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [wlh320/zed-ext-rime-ls](https://github.com/wlh320/zed-ext-rime-ls) | 0 | Rime language server for Zed editor |
 | [gracien-app/zed-usd-ext](https://github.com/gracien-app/zed-usd-ext) | 0 | Extension for Zed editor introducing support for Universal Scene Description fil... |
 | [huacnlee/zed-lalrpop](https://github.com/huacnlee/zed-lalrpop) | 3 | LALRPOP parser grammar support for Zed. |
-| [alaestor/mirror-zed-cea](https://github.com/alaestor/mirror-zed-cea) | 0 | zed extension for cheat engine auto-assembler script |
 
 ## Top starred (under 500)
 
@@ -120,6 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [lukedunwoody/zed-polaris](https://github.com/lukedunwoody/zed-polaris) | 0 | 2026-08-01 | A cool-toned dark theme for Zed featuring vibrant syntax hig... |
 | [ChemisTechlabs/zed-firebase-security-rules](https://github.com/ChemisTechlabs/zed-firebase-security-rules) | 3 | 2026-08-01 | A Firebase Security Rules language syntax highlight extensio... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 91 | 2026-08-01 | True Dark Theme for Zed IDE |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-08-01 | Zed editor support for Carve, a modern light markup language |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [ickc/zed-csv-toolkit](https://github.com/ickc/zed-csv-toolkit) | 0 | 2026-07-28 | Zed extension for CSV/TSV/SSV/PSV: rainbow columns plus a li... |
 | [ickc/zed-taskpaper](https://github.com/ickc/zed-taskpaper) | 0 | 2026-07-28 | TaskPaper language support for Zed: tree-sitter grammar, syn... |
 | [felixtensor/zed-mlir-suite](https://github.com/felixtensor/zed-mlir-suite) | 4 | 2026-07-28 | The MLIR extension for Zed. |
-| [kasper9n/monokai-sharp-zed-theme](https://github.com/kasper9n/monokai-sharp-zed-theme) | 0 | 2026-07-27 | Monokai Sharp theme for Zed |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-08-01T19:04 | 1 | 535 | 1986 |
 | 2026-08-01T13:07 | 0 | 535 | 1985 |
 | 2026-08-01T07:31 | 0 | 535 | 1985 |
 | 2026-08-01T01:12 | 2 | 534 | 1985 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-07-31T01:12 | 1 | 535 | 1979 |
 | 2026-07-30T19:05 | 1 | 534 | 1978 |
 | 2026-07-30T13:12 | 0 | 534 | 1977 |
-| 2026-07-30T07:33 | 0 | 534 | 1977 |
 
 ---
 

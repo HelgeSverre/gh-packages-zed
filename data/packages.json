@@ -751,7 +751,7 @@
     "url": "https://github.com/Gurvirr/zed-ultraViolet",
     "description": "A dark, violet-toned theme designed for quality & visual comfort ◡̈",
     "stars": 116,
-    "forks": 2,
+    "forks": 1,
     "topics": [
       "theme",
       "zed",
@@ -3235,7 +3235,7 @@
     "url": "https://github.com/huacnlee/zed-theme-macos-classic",
     "description": "A macOS native style theme for Zed, let it same like native app in macOS.",
     "stars": 165,
-    "forks": 5,
+    "forks": 6,
     "topics": [
       "macos-classic",
       "zed",
@@ -5287,7 +5287,7 @@
     "name": "sonercirit/zed-windows-stable",
     "url": "https://github.com/sonercirit/zed-windows-stable",
     "description": "automated windows builds for Zed code editor, built from source, stable channel",
-    "stars": 229,
+    "stars": 228,
     "forks": 10,
     "topics": [
       "code-editor",
@@ -5300,7 +5300,7 @@
     "language": "PowerShell",
     "license": null,
     "created_at": "2024-08-14T22:46:54Z",
-    "updated_at": "2026-07-31T14:31:35Z",
+    "updated_at": "2026-08-01T16:37:36Z",
     "pushed_at": "2026-07-29T19:34:55Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
@@ -13508,7 +13508,7 @@
     "name": "lmn451/css-variables-zed",
     "url": "https://github.com/lmn451/css-variables-zed",
     "description": "Project-wide CSS custom property intelligence for Zed: completion, hover, navigation, rename, diagnostics, and color tools.",
-    "stars": 7,
+    "stars": 8,
     "forks": 3,
     "topics": [
       "css",
@@ -13523,7 +13523,7 @@
     "language": "Rust",
     "license": "GPL-3.0",
     "created_at": "2025-11-15T12:51:35Z",
-    "updated_at": "2026-07-30T17:41:42Z",
+    "updated_at": "2026-08-01T17:44:58Z",
     "pushed_at": "2026-02-19T17:07:26Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": true
@@ -14844,7 +14844,7 @@
     "name": "skarline/zed-xcode-themes",
     "url": "https://github.com/skarline/zed-xcode-themes",
     "description": "🍎 Recreate Xcode's native feel in Zed with authentic themes for a seamless, Apple-inspired coding environment.",
-    "stars": 76,
+    "stars": 77,
     "forks": 3,
     "topics": [
       "zed",
@@ -14855,7 +14855,7 @@
     "language": null,
     "license": null,
     "created_at": "2024-02-25T02:26:32Z",
-    "updated_at": "2026-07-30T12:57:19Z",
+    "updated_at": "2026-08-01T15:17:51Z",
     "pushed_at": "2025-01-14T12:40:40Z",
     "discovered_at": "2026-05-19T20:15:46.472Z",
     "official": true
@@ -15464,8 +15464,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
-    "updated_at": "2026-08-01T12:59:19Z",
-    "pushed_at": "2026-08-01T12:59:01Z",
+    "updated_at": "2026-08-01T14:42:17Z",
+    "pushed_at": "2026-08-01T14:42:14Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -18023,8 +18023,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-08-01T07:32:40Z",
-    "pushed_at": "2026-08-01T07:32:25Z",
+    "updated_at": "2026-08-01T13:08:12Z",
+    "pushed_at": "2026-08-01T13:08:08Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -33196,8 +33196,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-05-17T07:32:27Z",
-    "updated_at": "2026-08-01T04:14:27Z",
-    "pushed_at": "2026-08-01T04:14:19Z",
+    "updated_at": "2026-08-01T14:58:29Z",
+    "pushed_at": "2026-08-01T14:58:19Z",
     "discovered_at": "2026-07-26T01:12:51.640Z",
     "official": false
   },
@@ -33763,6 +33763,26 @@
     "updated_at": "2026-07-30T18:53:39Z",
     "pushed_at": "2026-06-16T04:45:38Z",
     "discovered_at": "2026-08-01T01:12:34.389Z",
+    "official": false
+  },
+  "lukedunwoody/zed-polaris": {
+    "name": "lukedunwoody/zed-polaris",
+    "url": "https://github.com/lukedunwoody/zed-polaris",
+    "description": "A cool-toned dark theme for Zed featuring vibrant syntax highlighting inspired by the star Polaris.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "polaris",
+      "zed",
+      "zed-extension",
+      "zed-theme"
+    ],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-08-01T13:08:32Z",
+    "updated_at": "2026-08-01T13:13:19Z",
+    "pushed_at": "2026-08-01T13:09:14Z",
+    "discovered_at": "2026-08-01T19:03:59.449Z",
     "official": false
   }
 }
