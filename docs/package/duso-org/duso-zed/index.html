@@ -1,0 +1,217 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Duso - Zed Extension Safari</title><meta name="description" content="Zed extension for Duso"><link rel="canonical" href="https://helgesverre.github.io/gh-packages-zed/package/duso-org/duso-zed/"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Duso - Zed Extension Safari"><meta property="og:description" content="Zed extension for Duso"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed/package/duso-org/duso-zed/"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Duso - Zed Extension Safari"><meta name="twitter:description" content="Zed extension for Duso"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/gh-packages-zed/_astro/ClientRouter.astro_astro_type_script_index_0_lang.ClVLs1kt.js"></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Duso","description":"Zed extension for Duso","applicationCategory":"DeveloperApplication","operatingSystem":"macOS, Linux, Windows","url":"https://zed.dev/extensions/duso","codeRepository":"https://github.com/duso-org/duso-zed","author":[{"@type":"Person","name":"Duso Community"}],"softwareVersion":"1.6.21","license":"Apache-2.0","keywords":"grammar, language-server","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/Layout.CGDlMdWE.css"><script type="module" src="/gh-packages-zed/_astro/page.B8i1Zz-u.js"></script></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <a href="#main" class="skip-to-content">Skip to content</a> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" data-astro-transition-persist="astro-fhchcgd7-1"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <script type="application/json" id="pkg-extras">{"url":"https://github.com/duso-org/duso-zed","language":"Tree-sitter Query","license":"Apache-2.0","topics":[],"extension":{"authors":["Duso Community"],"schema_version":1}}</script> <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> duso-org/duso-zed </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> Duso </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> LSP support for Duso - a scripting language for AI agents and automation </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="grammar">Grammar</span><span class="cat-badge" data-cat="language-server">Language Server</span> </div> </div> </div> </header> <main id="main" class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/duso" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/duso-org/duso-zed" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1.6.21</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">duso</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">Tree-sitter Query</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">Apache-2.0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">6d ago</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">Duso Community</dd> </div> </dl>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-duso-extension-for-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#duso-extension-for-zed"><span class="heading-anchor-icon">#</span></a>Duso Extension for Zed</h1>
+<p>A comprehensive Zed editor extension for the <a href="https://duso.rocks">Duso</a> programming language - Scripted Intelligence for AI agents and automation.</p>
+<h2 id="user-content-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features"><span class="heading-anchor-icon">#</span></a>Features</h2>
+<h3 id="user-content-syntax-highlighting"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#syntax-highlighting"><span class="heading-anchor-icon">#</span></a>Syntax Highlighting</h3>
+<ul>
+<li>Full support for Duso 1.6.21 language syntax</li>
+<li>Keywords: <code>if/then/else/elseif/end</code>, <code>while</code>, <code>for</code>, <code>function</code>, <code>return</code>, <code>try/catch</code></li>
+<li>80+ built-in functions including parallel, spawn, fetch, datastore, image processing, cryptography, and more</li>
+<li>String templates with <code>{{ expr }}</code> syntax</li>
+<li>Comments: <code>//</code> line and <code>/* */</code> block comments</li>
+<li>Regular expressions with <code>~ pattern ~</code> syntax</li>
+</ul>
+<h3 id="user-content-language-server-protocol-lsp"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#language-server-protocol-lsp"><span class="heading-anchor-icon">#</span></a>Language Server Protocol (LSP)</h3>
+<ul>
+<li>Real-time language features</li>
+<li>Error checking and diagnostics</li>
+<li>Auto-completion</li>
+<li>Code navigation</li>
+<li>Hover information</li>
+<li>Document symbols and outline</li>
+</ul>
+<h3 id="user-content-code-snippet"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#code-snippet"><span class="heading-anchor-icon">#</span></a>Code Snippet</h3>
+<ul>
+<li>Quick insertion of common patterns</li>
+<li>Functions, loops, conditionals</li>
+<li>Parallel execution blocks</li>
+<li>Try/catch error handling</li>
+<li>Module imports and Claude integration</li>
+</ul>
+<h3 id="user-content-smart-editing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#smart-editing"><span class="heading-anchor-icon">#</span></a>Smart Editing</h3>
+<ul>
+<li>Auto-closing brackets</li>
+<li>Proper indentation for code blocks</li>
+<li>Bracket matching</li>
+<li>Code outline</li>
+</ul>
+<h2 id="user-content-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation"><span class="heading-anchor-icon">#</span></a>Installation</h2>
+<h3 id="user-content-from-zed-extensions"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#from-zed-extensions"><span class="heading-anchor-icon">#</span></a>From Zed Extensions</h3>
+<ol>
+<li>Open Zed</li>
+<li>Go to Extensions</li>
+<li>Search for "duso"</li>
+<li>Click Install</li>
+</ol>
+<h3 id="user-content-from-source"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#from-source"><span class="heading-anchor-icon">#</span></a>From Source</h3>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">cd</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> ~/.zed/extensions</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">git</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> clone</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> https://github.com/duso-org/duso-zed.git</span></span></code></pre>
+<h2 id="user-content-requirements"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#requirements"><span class="heading-anchor-icon">#</span></a>Requirements</h2>
+<ul>
+<li><strong>Duso</strong> must be installed on your system. Get it from:
+<ul>
+<li><a href="https://duso.rocks">Duso Homepage</a>: Download and install binary</li>
+<li><a href="https://brew.sh">Homebrew</a>: <code>brew tap duso-org/homebrew-duso &#x26;&#x26; brew install duso</code></li>
+<li><a href="https://github.com/duso-org/duso/releases">GitHub Releases</a></li>
+</ul>
+</li>
+</ul>
+<p>The extension uses Duso's built-in LSP server (<code>duso -lsp</code>) for all language features.</p>
+<h2 id="user-content-configuration"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#configuration"><span class="heading-anchor-icon">#</span></a>Configuration</h2>
+<p>The extension works out of the box with no configuration needed. It automatically:</p>
+<ul>
+<li>Recognizes <code>.du</code> files as Duso scripts</li>
+<li>Launches the LSP server when needed</li>
+<li>Applies syntax highlighting and smart indentation</li>
+</ul>
+<h2 id="user-content-getting-started"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#getting-started"><span class="heading-anchor-icon">#</span></a>Getting Started</h2>
+<ol>
+<li>Create a <code>.du</code> file:</li>
+</ol>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">touch</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> hello.du</span></span></code></pre>
+<ol start="2">
+<li>Write some Duso:</li>
+</ol>
+<pre><code class="language-duso">// Your first Duso script
+print("Hello, Duso!")
+
+// Use snippets for quick coding
+// Type 'fn' and press Tab to create a function
+</code></pre>
+<ol start="3">
+<li>Open the file in Zed - syntax highlighting and LSP features are automatically enabled.</li>
+</ol>
+<h2 id="user-content-snippets"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#snippets"><span class="heading-anchor-icon">#</span></a>Snippets</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Trigger</th><th>Expansion</th></tr></thead><tbody><tr><td><code>fn</code></td><td>function declaration</td></tr><tr><td><code>if</code></td><td>if statement</td></tr><tr><td><code>ifelse</code></td><td>if/else statement</td></tr><tr><td><code>for</code></td><td>for loop (range)</td></tr><tr><td><code>forin</code></td><td>for-in loop (iteration)</td></tr><tr><td><code>while</code></td><td>while loop</td></tr><tr><td><code>try</code></td><td>try/catch block</td></tr><tr><td><code>parallel</code></td><td>parallel execution block</td></tr><tr><td><code>spawn</code></td><td>spawn process</td></tr><tr><td><code>require</code></td><td>module import</td></tr><tr><td><code>fetch</code></td><td>HTTP fetch</td></tr></tbody></table>
+<h2 id="user-content-commands"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#commands"><span class="heading-anchor-icon">#</span></a>Commands</h2>
+<p>The extension provides access to Duso's built-in documentation:</p>
+<ul>
+<li>Right-click on any function name</li>
+<li>Hover for information via LSP</li>
+<li>Check the Duso documentation: <code>duso -doc</code> or <code>duso -docserver</code></li>
+</ul>
+<h2 id="user-content-learn-duso"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#learn-duso"><span class="heading-anchor-icon">#</span></a>Learn Duso</h2>
+<ul>
+<li><strong>Official Docs</strong>: <code>duso -read</code> (guides and reference)</li>
+<li><strong>Examples</strong>: <code>duso -read examples/</code></li>
+<li><strong>Reference</strong>: <code>duso -doc</code> (built-in function reference)</li>
+<li><strong>Website</strong>: <a href="https://duso.rocks">duso.rocks</a></li>
+</ul>
+<h2 id="user-content-troubleshooting"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#troubleshooting"><span class="heading-anchor-icon">#</span></a>Troubleshooting</h2>
+<h3 id="user-content-duso-not-found-error"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#duso-not-found-error"><span class="heading-anchor-icon">#</span></a>"Duso not found" error</h3>
+<p>Make sure Duso is installed and available in your PATH:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">which</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> duso</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">duso</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -version</span></span></code></pre>
+<h3 id="user-content-syntax-highlighting-not-working"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#syntax-highlighting-not-working"><span class="heading-anchor-icon">#</span></a>Syntax highlighting not working</h3>
+<ul>
+<li>Verify the file has a <code>.du</code> extension</li>
+<li>Check that the Duso extension is enabled in Zed</li>
+<li>Reload Zed (Cmd+Shift+P → "Revert to auto-saved copy" or restart)</li>
+</ul>
+<h3 id="user-content-lsp-not-responding"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#lsp-not-responding"><span class="heading-anchor-icon">#</span></a>LSP not responding</h3>
+<ul>
+<li>Check that Duso LSP works: <code>duso -lsp</code> (should start without errors, press Ctrl+C to stop)</li>
+<li>Check Zed logs: View → Toggle Developer Console</li>
+</ul>
+<h2 id="user-content-contributing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#contributing"><span class="heading-anchor-icon">#</span></a>Contributing</h2>
+<p>We'd love your contributions!</p>
+<h2 id="user-content-related-projects"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#related-projects"><span class="heading-anchor-icon">#</span></a>Related Projects</h2>
+<ul>
+<li><a href="https://github.com/duso-org/duso">Duso Language</a> - The main Duso repository</li>
+</ul>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>Copyright 2026 Ludonode LLC</p>
+<p>Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at</p>
+<pre><code>http://www.apache.org/licenses/LICENSE-2.0
+</code></pre>
+<p>Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.</p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>

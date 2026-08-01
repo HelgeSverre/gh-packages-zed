@@ -1,0 +1,17 @@
+id = "duso"
+name = "Duso"
+description = "LSP support for Duso - a scripting language for AI agents and automation"
+version = "1.6.21"
+schema_version = 1
+authors = ["Duso Community"]
+repository = "https://github.com/duso-org/duso-zed"
+wasm = "target/wasm32-wasip1/debug/zed_duso.wasm"
+
+[grammars.duso]
+repository = "https://github.com/duso-org/duso-tree-sitter"
+rev = "8daca19ca785ec23edb83e7ca209ce55143ea9d4"
+
+[language_servers.duso]
+name = "Duso Language Server"
+languages = ["Duso"]
+

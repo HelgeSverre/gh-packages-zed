@@ -60,7 +60,7 @@
     "license": "MIT",
     "created_at": "2026-05-03T17:39:17Z",
     "updated_at": "2026-07-26T20:16:03Z",
-    "pushed_at": "2026-07-26T20:15:47Z",
+    "pushed_at": "2026-07-31T20:06:22Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false,
     "extension": {
@@ -11343,13 +11343,13 @@
     "name": "zed-extensions/kotlin",
     "url": "https://github.com/zed-extensions/kotlin",
     "description": "Kotlin support",
-    "stars": 100,
+    "stars": 101,
     "forks": 33,
     "topics": [],
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-02-27T10:35:56Z",
-    "updated_at": "2026-07-27T21:56:36Z",
+    "updated_at": "2026-07-31T21:30:56Z",
     "pushed_at": "2026-06-07T22:08:05Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": false,
@@ -53767,8 +53767,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
-    "updated_at": "2026-07-31T17:43:55Z",
-    "pushed_at": "2026-07-31T17:43:47Z",
+    "updated_at": "2026-07-31T19:31:33Z",
+    "pushed_at": "2026-07-31T19:31:20Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false,
     "extension": {
@@ -53898,8 +53898,8 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2026-06-01T12:22:18Z",
-    "updated_at": "2026-07-22T15:34:08Z",
-    "pushed_at": "2026-07-31T16:15:05Z",
+    "updated_at": "2026-07-31T19:54:41Z",
+    "pushed_at": "2026-07-31T19:54:19Z",
     "discovered_at": "2026-07-09T13:39:01.645Z",
     "official": false,
     "extension": {
@@ -54703,8 +54703,8 @@
     "language": "Java",
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
-    "updated_at": "2026-07-31T17:46:42Z",
-    "pushed_at": "2026-07-31T17:46:33Z",
+    "updated_at": "2026-07-31T21:43:16Z",
+    "pushed_at": "2026-07-31T21:43:14Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false,
     "extension": {
@@ -56222,6 +56222,72 @@
       ],
       "categories": [
         "grammar"
+      ]
+    }
+  },
+  "duso-org/duso-zed": {
+    "name": "duso-org/duso-zed",
+    "url": "https://github.com/duso-org/duso-zed",
+    "description": "Zed extension for Duso",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "Apache-2.0",
+    "created_at": "2026-03-08T21:16:14Z",
+    "updated_at": "2026-07-26T00:15:45Z",
+    "pushed_at": "2026-07-26T00:15:42Z",
+    "discovered_at": "2026-08-01T01:12:34.389Z",
+    "official": true,
+    "extension": {
+      "id": "duso",
+      "name": "Duso",
+      "description": "LSP support for Duso - a scripting language for AI agents and automation",
+      "version": "1.6.21",
+      "schema_version": 1,
+      "authors": [
+        "Duso Community"
+      ],
+      "repository": "https://github.com/duso-org/duso-zed",
+      "snippets": null,
+      "sections": [
+        "grammars",
+        "language_servers"
+      ],
+      "categories": [
+        "grammar",
+        "language-server"
+      ]
+    }
+  },
+  "joansgarcia/zed-symbols": {
+    "name": "joansgarcia/zed-symbols",
+    "url": "https://github.com/joansgarcia/zed-symbols",
+    "description": "A simple file icon theme for Zed.",
+    "stars": 26,
+    "forks": 6,
+    "topics": [],
+    "language": "TypeScript",
+    "license": "MIT",
+    "created_at": "2025-02-08T03:55:18Z",
+    "updated_at": "2026-07-30T18:53:39Z",
+    "pushed_at": "2026-06-16T04:45:38Z",
+    "discovered_at": "2026-08-01T01:12:34.389Z",
+    "official": false,
+    "extension": {
+      "id": "symbols",
+      "name": "Symbols",
+      "description": "A simple file icon theme",
+      "version": "1.2.0",
+      "schema_version": 1,
+      "authors": [
+        "Joan Garcia <joangarcia.dev@gmail.com>"
+      ],
+      "repository": "https://github.com/joangarciaa-dev/zed-symbols",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
       ]
     }
   }
