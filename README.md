@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1643** |
 | In official registry | 1168 |
 | Discovered via topics | 475 |
-| Last updated | 2026-08-01 07:31 UTC |
+| Last updated | 2026-08-01 13:07 UTC |
 
 ### By capability
 
@@ -109,7 +109,7 @@ cd website && npm install && npm run dev
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 165 | A macOS native style theme for Zed, let it same like native app in macOS. |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 164 | 🦊 Zed editor theme ported from Neovim |
-| [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 149 |  |
+| [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 150 |  |
 | [thedadams/zed-comment](https://github.com/thedadams/zed-comment) | 148 | A comment extension for the Zed editor |
 | [zed-extensions/swift](https://github.com/zed-extensions/swift) | 145 | Extension for Zed to support Swift |
 | [slymax/zedokai](https://github.com/slymax/zedokai) | 145 | a theme for Zed based on the Monokai Pro color scheme |
@@ -135,7 +135,7 @@ cd website && npm install && npm run dev
 | [alaestor/mirror-zed-cea](https://github.com/alaestor/mirror-zed-cea) | 0 | 2026-07-30 | zed extension for cheat engine auto-assembler script |
 | [petercr/varlock-zed-extension](https://github.com/petercr/varlock-zed-extension) | 2 | 2026-07-29 | Zed port of the Varlock VS Code @env-spec extension for .env... |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 206 | 2026-07-29 | Zed plugin for automatic time tracking and metrics generated... |
-| [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 149 | 2026-07-28 |  |
+| [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 150 | 2026-07-28 |  |
 | [ickc/zed-csv-toolkit](https://github.com/ickc/zed-csv-toolkit) | 0 | 2026-07-28 | Zed extension for CSV/TSV/SSV/PSV: rainbow columns plus a li... |
 | [ickc/zed-taskpaper](https://github.com/ickc/zed-taskpaper) | 0 | 2026-07-28 | TaskPaper language support for Zed: tree-sitter grammar, syn... |
 | [felixtensor/zed-mlir-suite](https://github.com/felixtensor/zed-mlir-suite) | 4 | 2026-07-28 | The MLIR extension for Zed. |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-08-01T13:07 | 0 | 535 | 1985 |
 | 2026-08-01T07:31 | 0 | 535 | 1985 |
 | 2026-08-01T01:12 | 2 | 534 | 1985 |
 | 2026-07-31T19:05 | 0 | 535 | 1983 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-07-30T19:05 | 1 | 534 | 1978 |
 | 2026-07-30T13:12 | 0 | 534 | 1977 |
 | 2026-07-30T07:33 | 0 | 534 | 1977 |
-| 2026-07-30T01:06 | 0 | 534 | 1977 |
 
 ---
 
