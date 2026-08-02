@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1644** |
 | In official registry | 1168 |
 | Discovered via topics | 476 |
-| Last updated | 2026-08-02 13:04 UTC |
+| Last updated | 2026-08-02 19:04 UTC |
 
 ### By capability
 
@@ -109,7 +109,7 @@ cd website && npm install && npm run dev
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 165 | A macOS native style theme for Zed, let it same like native app in macOS. |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 164 | 🦊 Zed editor theme ported from Neovim |
-| [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 150 |  |
+| [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 151 |  |
 | [thedadams/zed-comment](https://github.com/thedadams/zed-comment) | 148 | A comment extension for the Zed editor |
 | [zed-extensions/swift](https://github.com/zed-extensions/swift) | 145 | Extension for Zed to support Swift |
 | [slymax/zedokai](https://github.com/slymax/zedokai) | 145 | a theme for Zed based on the Monokai Pro color scheme |
@@ -120,13 +120,15 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-08-02 | Intelligent codebase search & indexing for Zed. Async MCP se... |
+| [SwornSystems/zed-cedar](https://github.com/SwornSystems/zed-cedar) | 1 | 2026-08-02 | Cedar language support for Zed. |
+| [kevcamel/vscode_dark_modern.zed](https://github.com/kevcamel/vscode_dark_modern.zed) | 54 | 2026-08-02 | VS Code Dark Modern theme for Zed |
+| [felixtensor/zed-mlir-suite](https://github.com/felixtensor/zed-mlir-suite) | 4 | 2026-08-02 | The MLIR extension for Zed. |
+| [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-08-02 | Zed editor support for Carve, a modern light markup language |
 | [rux-lang/Zed](https://github.com/rux-lang/Zed) | 4 | 2026-08-02 | Zed extension for the Rux programming language |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 91 | 2026-08-02 | True Dark Theme for Zed IDE |
-| [SwornSystems/zed-cedar](https://github.com/SwornSystems/zed-cedar) | 1 | 2026-08-02 | Cedar language support for Zed. |
-| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-08-01 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [lukedunwoody/zed-polaris](https://github.com/lukedunwoody/zed-polaris) | 0 | 2026-08-01 | A cool-toned dark theme for Zed featuring vibrant syntax hig... |
 | [ChemisTechlabs/zed-firebase-security-rules](https://github.com/ChemisTechlabs/zed-firebase-security-rules) | 3 | 2026-08-01 | A Firebase Security Rules language syntax highlight extensio... |
-| [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-08-01 | Zed editor support for Carve, a modern light markup language |
 | [madkarmaa/zed-onedark-pro-blur](https://github.com/madkarmaa/zed-onedark-pro-blur) | 0 | 2026-08-01 | OneDark Pro port for Zed with blur effects |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 1 | 2026-07-31 | Spring Boot language intelligence for Zed, built on the requ... |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-07-31 | A Zed extension that allows to highlight all occurrences of ... |
@@ -138,13 +140,12 @@ cd website && npm install && npm run dev
 | [alaestor/mirror-zed-cea](https://github.com/alaestor/mirror-zed-cea) | 0 | 2026-07-30 | zed extension for cheat engine auto-assembler script |
 | [petercr/varlock-zed-extension](https://github.com/petercr/varlock-zed-extension) | 2 | 2026-07-29 | Zed port of the Varlock VS Code @env-spec extension for .env... |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 206 | 2026-07-29 | Zed plugin for automatic time tracking and metrics generated... |
-| [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 150 | 2026-07-28 |  |
-| [ickc/zed-csv-toolkit](https://github.com/ickc/zed-csv-toolkit) | 0 | 2026-07-28 | Zed extension for CSV/TSV/SSV/PSV: rainbow columns plus a li... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-08-02T19:04 | 0 | 537 | 1987 |
 | 2026-08-02T13:04 | 0 | 537 | 1987 |
 | 2026-08-02T07:32 | 0 | 537 | 1987 |
 | 2026-08-02T01:12 | 1 | 536 | 1987 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-08-01T01:12 | 2 | 534 | 1985 |
 | 2026-07-31T19:05 | 0 | 535 | 1983 |
 | 2026-07-31T13:16 | 4 | 535 | 1983 |
-| 2026-07-31T07:38 | 0 | 535 | 1979 |
 
 ---
 
