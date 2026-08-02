@@ -431,7 +431,7 @@
     "license": "MIT",
     "created_at": "2025-12-13T09:32:42Z",
     "updated_at": "2026-07-31T06:47:21Z",
-    "pushed_at": "2026-07-27T21:06:23Z",
+    "pushed_at": "2026-08-01T20:06:05Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -3005,7 +3005,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2025-02-08T13:19:33Z",
-    "updated_at": "2026-07-29T16:26:54Z",
+    "updated_at": "2026-08-01T23:28:29Z",
     "pushed_at": "2026-02-11T15:14:27Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -6949,7 +6949,7 @@
     "name": "buckedunicorn/retro-synth-dark",
     "url": "https://github.com/buckedunicorn/retro-synth-dark",
     "description": "This is a standard VS Code theme based on the synthwave-x-fluoromachine theme family. This version uses only official VS Code theming APIs and doesn't require any custom extensions or modifications.",
-    "stars": 3,
+    "stars": 4,
     "forks": 0,
     "topics": [
       "cursor-theme",
@@ -6961,7 +6961,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2025-08-04T13:48:14Z",
-    "updated_at": "2026-07-31T21:25:42Z",
+    "updated_at": "2026-08-01T22:17:13Z",
     "pushed_at": "2025-08-09T15:55:50Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
@@ -18023,8 +18023,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-08-01T13:08:12Z",
-    "pushed_at": "2026-08-01T13:08:08Z",
+    "updated_at": "2026-08-01T19:04:35Z",
+    "pushed_at": "2026-08-01T19:04:30Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -32034,8 +32034,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
-    "updated_at": "2026-07-31T19:31:33Z",
-    "pushed_at": "2026-07-31T19:31:20Z",
+    "updated_at": "2026-08-01T21:07:01Z",
+    "pushed_at": "2026-08-01T21:06:57Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false
   },
@@ -32522,7 +32522,7 @@
     "language": null,
     "license": "GPL-3.0",
     "created_at": "2026-07-14T11:01:05Z",
-    "updated_at": "2026-07-20T07:07:15Z",
+    "updated_at": "2026-08-01T23:53:54Z",
     "pushed_at": "2026-07-20T07:07:10Z",
     "discovered_at": "2026-07-14T13:05:37.802Z",
     "official": false
@@ -33783,6 +33783,24 @@
     "updated_at": "2026-08-01T13:13:19Z",
     "pushed_at": "2026-08-01T13:09:14Z",
     "discovered_at": "2026-08-01T19:03:59.449Z",
+    "official": false
+  },
+  "shdwmtr/zex": {
+    "name": "shdwmtr/zex",
+    "url": "https://github.com/shdwmtr/zex",
+    "description": "An extremely fast file explorer and disk usage analyzer companion for Linux, built for the Zed ecosystem.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "zed",
+      "zed-editor"
+    ],
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "created_at": "2026-07-27T21:58:50Z",
+    "updated_at": "2026-08-02T00:29:01Z",
+    "pushed_at": "2026-08-02T00:27:11Z",
+    "discovered_at": "2026-08-02T01:12:50.405Z",
     "official": false
   }
 }

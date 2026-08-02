@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1644** |
 | In official registry | 1168 |
 | Discovered via topics | 476 |
-| Last updated | 2026-08-01 19:04 UTC |
+| Last updated | 2026-08-02 01:12 UTC |
 
 ### By capability
 
@@ -120,6 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-08-01 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [lukedunwoody/zed-polaris](https://github.com/lukedunwoody/zed-polaris) | 0 | 2026-08-01 | A cool-toned dark theme for Zed featuring vibrant syntax hig... |
 | [ChemisTechlabs/zed-firebase-security-rules](https://github.com/ChemisTechlabs/zed-firebase-security-rules) | 3 | 2026-08-01 | A Firebase Security Rules language syntax highlight extensio... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 91 | 2026-08-01 | True Dark Theme for Zed IDE |
@@ -127,7 +128,6 @@ cd website && npm install && npm run dev
 | [madkarmaa/zed-onedark-pro-blur](https://github.com/madkarmaa/zed-onedark-pro-blur) | 0 | 2026-08-01 | OneDark Pro port for Zed with blur effects |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 1 | 2026-07-31 | Spring Boot language intelligence for Zed, built on the requ... |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-07-31 | A Zed extension that allows to highlight all occurrences of ... |
-| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-07-31 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [MiCkEyZzZ/uon-zed](https://github.com/MiCkEyZzZ/uon-zed) | 0 | 2026-07-31 | Поддержка формата данных UON для редактора Zed. |
 | [Sercali-co/Sercali-Zed-Theme](https://github.com/Sercali-co/Sercali-Zed-Theme) | 6 | 2026-07-31 | A Gilded Void theme family for Zed: deep neutral basalts wit... |
 | [leolorenzato/zed-pastel-night-theme](https://github.com/leolorenzato/zed-pastel-night-theme) | 0 | 2026-07-31 | 🌃 Pastel Night theme for Zed |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-08-02T01:12 | 1 | 536 | 1987 |
 | 2026-08-01T19:04 | 1 | 535 | 1986 |
 | 2026-08-01T13:07 | 0 | 535 | 1985 |
 | 2026-08-01T07:31 | 0 | 535 | 1985 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-07-31T07:38 | 0 | 535 | 1979 |
 | 2026-07-31T01:12 | 1 | 535 | 1979 |
 | 2026-07-30T19:05 | 1 | 534 | 1978 |
-| 2026-07-30T13:12 | 0 | 534 | 1977 |
 
 ---
 
