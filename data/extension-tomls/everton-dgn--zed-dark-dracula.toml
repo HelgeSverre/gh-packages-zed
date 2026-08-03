@@ -1,0 +1,8 @@
+id = "dark-dracula-theme"
+name = "Dark Dracula"
+version = "1.0.0"
+schema_version = 1
+description = "A darker Dracula theme for Zed with deep backgrounds, balanced contrast and refined syntax highlighting."
+repository = "https://github.com/everton-dgn/zed-dark-dracula"
+authors = ["Éverton Toffanetto <contato@querocriarsite.com>"]
+themes = ["themes/dark-dracula.json"]
