@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1645** |
 | In official registry | 1168 |
 | Discovered via topics | 477 |
-| Last updated | 2026-08-03 13:35 UTC |
+| Last updated | 2026-08-03 19:11 UTC |
 
 ### By capability
 
@@ -71,7 +71,7 @@ cd website && npm install && npm run dev
 | Package | Stars | Description |
 |---|---|---|
 | [everton-dgn/zed-dark-dracula](https://github.com/everton-dgn/zed-dark-dracula) | 0 | A darker Dracula theme for Zed with deep backgrounds, balanced contrast and refi... |
-| [lukedunwoody/zed-polaris](https://github.com/lukedunwoody/zed-polaris) | 0 | A cool-toned dark theme for Zed featuring vibrant syntax highlighting inspired b... |
+| [lukedunwoody/zed-polaris](https://github.com/lukedunwoody/zed-polaris) | 0 | A cool-toned dark theme for Zed. |
 | [duso-org/duso-zed](https://github.com/duso-org/duso-zed) | 0 | Zed extension for Duso |
 | [joansgarcia/zed-symbols](https://github.com/joansgarcia/zed-symbols) | 25 | A simple file icon theme for Zed. |
 | [charmingruby/g-slowpoke-zed-theme](https://github.com/charmingruby/g-slowpoke-zed-theme) | 2 | A calm, pastel dark theme for Zed, inspired by Galarian Slowpoke. |
@@ -120,16 +120,16 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-08-03 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 1 | 2026-08-03 | Spring Boot language intelligence for Zed, built on the requ... |
 | [everton-dgn/zed-dark-dracula](https://github.com/everton-dgn/zed-dark-dracula) | 0 | 2026-08-03 | A darker Dracula theme for Zed with deep backgrounds, balanc... |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-08-03 | Zed editor support for Carve, a modern light markup language |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 91 | 2026-08-03 | True Dark Theme for Zed IDE |
-| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-08-02 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [SwornSystems/zed-cedar](https://github.com/SwornSystems/zed-cedar) | 1 | 2026-08-02 | Cedar language support for Zed. |
 | [kevcamel/vscode_dark_modern.zed](https://github.com/kevcamel/vscode_dark_modern.zed) | 54 | 2026-08-02 | VS Code Dark Modern theme for Zed |
 | [felixtensor/zed-mlir-suite](https://github.com/felixtensor/zed-mlir-suite) | 4 | 2026-08-02 | The MLIR extension for Zed. |
 | [rux-lang/Zed](https://github.com/rux-lang/Zed) | 4 | 2026-08-02 | Zed extension for the Rux programming language |
-| [lukedunwoody/zed-polaris](https://github.com/lukedunwoody/zed-polaris) | 0 | 2026-08-01 | A cool-toned dark theme for Zed featuring vibrant syntax hig... |
+| [lukedunwoody/zed-polaris](https://github.com/lukedunwoody/zed-polaris) | 0 | 2026-08-01 | A cool-toned dark theme for Zed. |
 | [ChemisTechlabs/zed-firebase-security-rules](https://github.com/ChemisTechlabs/zed-firebase-security-rules) | 3 | 2026-08-01 | A Firebase Security Rules language syntax highlight extensio... |
 | [madkarmaa/zed-onedark-pro-blur](https://github.com/madkarmaa/zed-onedark-pro-blur) | 0 | 2026-08-01 | OneDark Pro port for Zed with blur effects |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-07-31 | A Zed extension that allows to highlight all occurrences of ... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-08-03T19:11 | 0 | 539 | 1989 |
 | 2026-08-03T13:35 | 1 | 538 | 1989 |
 | 2026-08-03T07:52 | 1 | 537 | 1988 |
 | 2026-08-03T01:13 | 0 | 537 | 1987 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-08-02T01:12 | 1 | 536 | 1987 |
 | 2026-08-01T19:04 | 1 | 535 | 1986 |
 | 2026-08-01T13:07 | 0 | 535 | 1985 |
-| 2026-08-01T07:31 | 0 | 535 | 1985 |
 
 ---
 
