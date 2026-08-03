@@ -127,7 +127,7 @@
     "name": "GDQuest/zed-gdscript",
     "url": "https://github.com/GDQuest/zed-gdscript",
     "description": "Zed support for the Godot game engine and the GDScript language",
-    "stars": 194,
+    "stars": 195,
     "forks": 23,
     "topics": [
       "code-editor",
@@ -139,7 +139,7 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-02-26T18:14:41Z",
-    "updated_at": "2026-08-02T10:52:56Z",
+    "updated_at": "2026-08-03T05:20:43Z",
     "pushed_at": "2026-07-27T13:17:21Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -157,8 +157,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-08-02T05:18:32Z",
-    "pushed_at": "2026-08-02T05:17:53Z",
+    "updated_at": "2026-08-03T05:24:16Z",
+    "pushed_at": "2026-08-03T05:23:32Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -185,7 +185,7 @@
     "name": "wakatime/zed-wakatime",
     "url": "https://github.com/wakatime/zed-wakatime",
     "description": "Zed plugin for automatic time tracking and metrics generated from your programming activity.",
-    "stars": 206,
+    "stars": 207,
     "forks": 29,
     "topics": [
       "extension",
@@ -197,7 +197,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2024-08-27T10:31:46Z",
-    "updated_at": "2026-08-01T06:36:07Z",
+    "updated_at": "2026-08-03T07:47:43Z",
     "pushed_at": "2026-07-29T06:35:54Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -3378,7 +3378,7 @@
     "url": "https://github.com/jenslys/zed-catppuccin-blur",
     "description": "Catppuccin Theme but as blurred variants + custom ones",
     "stars": 330,
-    "forks": 14,
+    "forks": 13,
     "topics": [
       "catppuccin",
       "catppuccin-theme",
@@ -5118,8 +5118,8 @@
     "language": "Go",
     "license": "MIT",
     "created_at": "2026-03-09T04:35:59Z",
-    "updated_at": "2026-08-02T07:05:49Z",
-    "pushed_at": "2026-08-02T07:05:43Z",
+    "updated_at": "2026-08-03T07:23:57Z",
+    "pushed_at": "2026-08-03T07:23:43Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -5146,7 +5146,7 @@
     "name": "Dylanmurzello/zed-android-port",
     "url": "https://github.com/Dylanmurzello/zed-android-port",
     "description": "Native Android port of the Zed code editor,  gpui rendering through Vulkan, integrated Termux for LSPs and tooling, remote SSH support. Runs as an APK on tablets and Android desktop modes.",
-    "stars": 151,
+    "stars": 152,
     "forks": 13,
     "topics": [
       "android",
@@ -5173,7 +5173,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-05-07T00:12:10Z",
-    "updated_at": "2026-08-02T11:44:49Z",
+    "updated_at": "2026-08-03T04:24:11Z",
     "pushed_at": "2026-06-05T21:34:45Z",
     "discovered_at": "2026-05-19T19:54:12.053Z",
     "official": false
@@ -6248,7 +6248,7 @@
     "name": "cange/nightfox.zed",
     "url": "https://github.com/cange/nightfox.zed",
     "description": "🦊 Zed editor theme ported from Neovim",
-    "stars": 164,
+    "stars": 163,
     "forks": 5,
     "topics": [
       "zed",
@@ -6257,7 +6257,7 @@
     "language": "Lua",
     "license": "MIT",
     "created_at": "2024-05-02T20:49:30Z",
-    "updated_at": "2026-07-30T14:05:17Z",
+    "updated_at": "2026-08-03T03:22:30Z",
     "pushed_at": "2026-07-09T18:20:20Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": true
@@ -18023,8 +18023,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-08-02T19:04:41Z",
-    "pushed_at": "2026-08-02T19:04:36Z",
+    "updated_at": "2026-08-03T01:13:37Z",
+    "pushed_at": "2026-08-03T01:13:33Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -33754,13 +33754,13 @@
     "name": "joansgarcia/zed-symbols",
     "url": "https://github.com/joansgarcia/zed-symbols",
     "description": "A simple file icon theme for Zed.",
-    "stars": 26,
+    "stars": 25,
     "forks": 6,
     "topics": [],
     "language": "TypeScript",
     "license": "MIT",
     "created_at": "2025-02-08T03:55:18Z",
-    "updated_at": "2026-07-30T18:53:39Z",
+    "updated_at": "2026-08-03T04:10:01Z",
     "pushed_at": "2026-06-16T04:45:38Z",
     "discovered_at": "2026-08-01T01:12:34.389Z",
     "official": false
@@ -33798,9 +33798,36 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-07-27T21:58:50Z",
-    "updated_at": "2026-08-03T00:58:57Z",
-    "pushed_at": "2026-08-03T00:58:53Z",
+    "updated_at": "2026-08-03T01:17:25Z",
+    "pushed_at": "2026-08-03T01:17:21Z",
     "discovered_at": "2026-08-02T01:12:50.405Z",
+    "official": false
+  },
+  "pol-cova/owl-strudel": {
+    "name": "pol-cova/owl-strudel",
+    "url": "https://github.com/pol-cova/owl-strudel",
+    "description": "Live-code Strudel music from VS Code, Cursor, and Zed.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "cursor",
+      "music",
+      "music-generation",
+      "music-producer",
+      "strudel",
+      "strudelcc",
+      "strudelcode",
+      "vscode",
+      "vscode-extension",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "TypeScript",
+    "license": "NOASSERTION",
+    "created_at": "2026-08-02T07:50:29Z",
+    "updated_at": "2026-08-03T06:18:34Z",
+    "pushed_at": "2026-08-03T06:18:17Z",
+    "discovered_at": "2026-08-03T07:52:40.159Z",
     "official": false
   }
 }

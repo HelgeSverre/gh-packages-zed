@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1644** |
 | In official registry | 1168 |
 | Discovered via topics | 476 |
-| Last updated | 2026-08-03 01:13 UTC |
+| Last updated | 2026-08-03 07:52 UTC |
 
 ### By capability
 
@@ -72,7 +72,7 @@ cd website && npm install && npm run dev
 |---|---|---|
 | [lukedunwoody/zed-polaris](https://github.com/lukedunwoody/zed-polaris) | 0 | A cool-toned dark theme for Zed featuring vibrant syntax highlighting inspired b... |
 | [duso-org/duso-zed](https://github.com/duso-org/duso-zed) | 0 | Zed extension for Duso |
-| [joansgarcia/zed-symbols](https://github.com/joansgarcia/zed-symbols) | 26 | A simple file icon theme for Zed. |
+| [joansgarcia/zed-symbols](https://github.com/joansgarcia/zed-symbols) | 25 | A simple file icon theme for Zed. |
 | [charmingruby/g-slowpoke-zed-theme](https://github.com/charmingruby/g-slowpoke-zed-theme) | 2 | A calm, pastel dark theme for Zed, inspired by Galarian Slowpoke. |
 | [kasper9n/monokai-sharp-zed-theme](https://github.com/kasper9n/monokai-sharp-zed-theme) | 0 | Monokai Sharp theme for Zed |
 | [lorcroce/zed-xquery](https://github.com/lorcroce/zed-xquery) | 0 | XQuery language support for Zed |
@@ -100,15 +100,15 @@ cd website && npm install && npm run dev
 | [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 330 | Catppuccin Theme but as blurred variants + custom ones |
 | [oxc-project/oxc-zed](https://github.com/oxc-project/oxc-zed) | 256 | Oxc extension for Zed |
 | [catppuccin/zed-icons](https://github.com/catppuccin/zed-icons) | 240 | 🦊 Soothing pastel icons for Zed |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 207 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 206 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
-| [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 194 | Zed support for the Godot game engine and the GDScript language |
+| [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 195 | Zed support for the Godot game engine and the GDScript language |
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 191 | Typst extension for zed |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 165 | A macOS native style theme for Zed, let it same like native app in macOS. |
-| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 164 | 🦊 Zed editor theme ported from Neovim |
+| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 163 | 🦊 Zed editor theme ported from Neovim |
 | [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 151 |  |
 | [thedadams/zed-comment](https://github.com/thedadams/zed-comment) | 148 | A comment extension for the Zed editor |
 | [zed-extensions/swift](https://github.com/zed-extensions/swift) | 145 | Extension for Zed to support Swift |
@@ -120,13 +120,13 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 91 | 2026-08-03 | True Dark Theme for Zed IDE |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-08-02 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [SwornSystems/zed-cedar](https://github.com/SwornSystems/zed-cedar) | 1 | 2026-08-02 | Cedar language support for Zed. |
 | [kevcamel/vscode_dark_modern.zed](https://github.com/kevcamel/vscode_dark_modern.zed) | 54 | 2026-08-02 | VS Code Dark Modern theme for Zed |
 | [felixtensor/zed-mlir-suite](https://github.com/felixtensor/zed-mlir-suite) | 4 | 2026-08-02 | The MLIR extension for Zed. |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-08-02 | Zed editor support for Carve, a modern light markup language |
 | [rux-lang/Zed](https://github.com/rux-lang/Zed) | 4 | 2026-08-02 | Zed extension for the Rux programming language |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 91 | 2026-08-02 | True Dark Theme for Zed IDE |
 | [lukedunwoody/zed-polaris](https://github.com/lukedunwoody/zed-polaris) | 0 | 2026-08-01 | A cool-toned dark theme for Zed featuring vibrant syntax hig... |
 | [ChemisTechlabs/zed-firebase-security-rules](https://github.com/ChemisTechlabs/zed-firebase-security-rules) | 3 | 2026-08-01 | A Firebase Security Rules language syntax highlight extensio... |
 | [madkarmaa/zed-onedark-pro-blur](https://github.com/madkarmaa/zed-onedark-pro-blur) | 0 | 2026-08-01 | OneDark Pro port for Zed with blur effects |
@@ -139,12 +139,13 @@ cd website && npm install && npm run dev
 | [charmingruby/g-slowpoke-zed-theme](https://github.com/charmingruby/g-slowpoke-zed-theme) | 2 | 2026-07-30 | A calm, pastel dark theme for Zed, inspired by Galarian Slow... |
 | [alaestor/mirror-zed-cea](https://github.com/alaestor/mirror-zed-cea) | 0 | 2026-07-30 | zed extension for cheat engine auto-assembler script |
 | [petercr/varlock-zed-extension](https://github.com/petercr/varlock-zed-extension) | 2 | 2026-07-29 | Zed port of the Varlock VS Code @env-spec extension for .env... |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 206 | 2026-07-29 | Zed plugin for automatic time tracking and metrics generated... |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 207 | 2026-07-29 | Zed plugin for automatic time tracking and metrics generated... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-08-03T07:52 | 1 | 537 | 1988 |
 | 2026-08-03T01:13 | 0 | 537 | 1987 |
 | 2026-08-02T19:04 | 0 | 537 | 1987 |
 | 2026-08-02T13:04 | 0 | 537 | 1987 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-08-01T13:07 | 0 | 535 | 1985 |
 | 2026-08-01T07:31 | 0 | 535 | 1985 |
 | 2026-08-01T01:12 | 2 | 534 | 1985 |
-| 2026-07-31T19:05 | 0 | 535 | 1983 |
 
 ---
 
