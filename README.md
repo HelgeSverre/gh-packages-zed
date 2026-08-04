@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1645** |
 | In official registry | 1168 |
 | Discovered via topics | 477 |
-| Last updated | 2026-08-04 13:17 UTC |
+| Last updated | 2026-08-04 19:12 UTC |
 
 ### By capability
 
@@ -120,9 +120,11 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-08-04 | Intelligent codebase search & indexing for Zed. Async MCP se... |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 207 | 2026-08-04 | Zed plugin for automatic time tracking and metrics generated... |
+| [leolorenzato/zed-pastel-night-theme](https://github.com/leolorenzato/zed-pastel-night-theme) | 0 | 2026-08-04 | 🌃 Pastel Night theme for Zed |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 91 | 2026-08-04 | True Dark Theme for Zed IDE |
 | [zed-extensions/kotlin](https://github.com/zed-extensions/kotlin) | 102 | 2026-08-03 | Kotlin support |
-| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-08-03 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 1 | 2026-08-03 | Spring Boot language intelligence for Zed, built on the requ... |
 | [everton-dgn/zed-dark-dracula](https://github.com/everton-dgn/zed-dark-dracula) | 0 | 2026-08-03 | A darker Dracula theme for Zed with deep backgrounds, balanc... |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-08-03 | Zed editor support for Carve, a modern light markup language |
@@ -136,15 +138,14 @@ cd website && npm install && npm run dev
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-07-31 | A Zed extension that allows to highlight all occurrences of ... |
 | [MiCkEyZzZ/uon-zed](https://github.com/MiCkEyZzZ/uon-zed) | 0 | 2026-07-31 | Поддержка формата данных UON для редактора Zed. |
 | [Sercali-co/Sercali-Zed-Theme](https://github.com/Sercali-co/Sercali-Zed-Theme) | 6 | 2026-07-31 | A Gilded Void theme family for Zed: deep neutral basalts wit... |
-| [leolorenzato/zed-pastel-night-theme](https://github.com/leolorenzato/zed-pastel-night-theme) | 0 | 2026-07-31 | 🌃 Pastel Night theme for Zed |
 | [laravel/zed-extension](https://github.com/laravel/zed-extension) | 26 | 2026-07-30 |  |
 | [charmingruby/g-slowpoke-zed-theme](https://github.com/charmingruby/g-slowpoke-zed-theme) | 2 | 2026-07-30 | A calm, pastel dark theme for Zed, inspired by Galarian Slow... |
-| [alaestor/mirror-zed-cea](https://github.com/alaestor/mirror-zed-cea) | 0 | 2026-07-30 | zed extension for cheat engine auto-assembler script |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-08-04T19:12 | 2 | 539 | 1991 |
 | 2026-08-04T13:17 | 0 | 539 | 1989 |
 | 2026-08-04T07:34 | 0 | 539 | 1989 |
 | 2026-08-04T01:09 | 0 | 539 | 1989 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-08-03T01:13 | 0 | 537 | 1987 |
 | 2026-08-02T19:04 | 0 | 537 | 1987 |
 | 2026-08-02T13:04 | 0 | 537 | 1987 |
-| 2026-08-02T07:32 | 0 | 537 | 1987 |
 
 ---
 
