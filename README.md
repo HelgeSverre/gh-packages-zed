@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1645** |
 | In official registry | 1168 |
 | Discovered via topics | 477 |
-| Last updated | 2026-08-04 01:09 UTC |
+| Last updated | 2026-08-04 07:34 UTC |
 
 ### By capability
 
@@ -120,12 +120,12 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 91 | 2026-08-04 | True Dark Theme for Zed IDE |
 | [zed-extensions/kotlin](https://github.com/zed-extensions/kotlin) | 102 | 2026-08-03 | Kotlin support |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-08-03 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 1 | 2026-08-03 | Spring Boot language intelligence for Zed, built on the requ... |
 | [everton-dgn/zed-dark-dracula](https://github.com/everton-dgn/zed-dark-dracula) | 0 | 2026-08-03 | A darker Dracula theme for Zed with deep backgrounds, balanc... |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-08-03 | Zed editor support for Carve, a modern light markup language |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 91 | 2026-08-03 | True Dark Theme for Zed IDE |
 | [SwornSystems/zed-cedar](https://github.com/SwornSystems/zed-cedar) | 1 | 2026-08-02 | Cedar language support for Zed. |
 | [kevcamel/vscode_dark_modern.zed](https://github.com/kevcamel/vscode_dark_modern.zed) | 54 | 2026-08-02 | VS Code Dark Modern theme for Zed |
 | [felixtensor/zed-mlir-suite](https://github.com/felixtensor/zed-mlir-suite) | 4 | 2026-08-02 | The MLIR extension for Zed. |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-08-04T07:34 | 0 | 539 | 1989 |
 | 2026-08-04T01:09 | 0 | 539 | 1989 |
 | 2026-08-03T19:11 | 0 | 539 | 1989 |
 | 2026-08-03T13:35 | 1 | 538 | 1989 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-08-02T13:04 | 0 | 537 | 1987 |
 | 2026-08-02T07:32 | 0 | 537 | 1987 |
 | 2026-08-02T01:12 | 1 | 536 | 1987 |
-| 2026-08-01T19:04 | 1 | 535 | 1986 |
 
 ---
 
