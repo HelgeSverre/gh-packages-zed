@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1645** |
 | In official registry | 1168 |
 | Discovered via topics | 477 |
-| Last updated | 2026-08-03 19:11 UTC |
+| Last updated | 2026-08-04 01:09 UTC |
 
 ### By capability
 
@@ -120,7 +120,8 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-08-03 | Intelligent codebase search & indexing for Zed. Async MCP se... |
+| [zed-extensions/kotlin](https://github.com/zed-extensions/kotlin) | 102 | 2026-08-03 | Kotlin support |
+| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-08-03 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 1 | 2026-08-03 | Spring Boot language intelligence for Zed, built on the requ... |
 | [everton-dgn/zed-dark-dracula](https://github.com/everton-dgn/zed-dark-dracula) | 0 | 2026-08-03 | A darker Dracula theme for Zed with deep backgrounds, balanc... |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-08-03 | Zed editor support for Carve, a modern light markup language |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [laravel/zed-extension](https://github.com/laravel/zed-extension) | 26 | 2026-07-30 |  |
 | [charmingruby/g-slowpoke-zed-theme](https://github.com/charmingruby/g-slowpoke-zed-theme) | 2 | 2026-07-30 | A calm, pastel dark theme for Zed, inspired by Galarian Slow... |
 | [alaestor/mirror-zed-cea](https://github.com/alaestor/mirror-zed-cea) | 0 | 2026-07-30 | zed extension for cheat engine auto-assembler script |
-| [petercr/varlock-zed-extension](https://github.com/petercr/varlock-zed-extension) | 2 | 2026-07-29 | Zed port of the Varlock VS Code @env-spec extension for .env... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-08-04T01:09 | 0 | 539 | 1989 |
 | 2026-08-03T19:11 | 0 | 539 | 1989 |
 | 2026-08-03T13:35 | 1 | 538 | 1989 |
 | 2026-08-03T07:52 | 1 | 537 | 1988 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-08-02T07:32 | 0 | 537 | 1987 |
 | 2026-08-02T01:12 | 1 | 536 | 1987 |
 | 2026-08-01T19:04 | 1 | 535 | 1986 |
-| 2026-08-01T13:07 | 0 | 535 | 1985 |
 
 ---
 
