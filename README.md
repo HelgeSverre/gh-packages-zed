@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1645** |
 | In official registry | 1168 |
 | Discovered via topics | 477 |
-| Last updated | 2026-08-05 01:08 UTC |
+| Last updated | 2026-08-05 07:34 UTC |
 
 ### By capability
 
@@ -100,7 +100,7 @@ cd website && npm install && npm run dev
 | [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 329 | Catppuccin Theme but as blurred variants + custom ones |
 | [oxc-project/oxc-zed](https://github.com/oxc-project/oxc-zed) | 256 | Oxc extension for Zed |
 | [catppuccin/zed-icons](https://github.com/catppuccin/zed-icons) | 240 | 🦊 Soothing pastel icons for Zed |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 207 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 208 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
 | [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 195 | Zed support for the Godot game engine and the GDScript language |
@@ -110,8 +110,8 @@ cd website && npm install && npm run dev
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 165 | A macOS native style theme for Zed, let it same like native app in macOS. |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 163 | 🦊 Zed editor theme ported from Neovim |
 | [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 151 |  |
+| [zed-extensions/swift](https://github.com/zed-extensions/swift) | 148 | Extension for Zed to support Swift |
 | [thedadams/zed-comment](https://github.com/thedadams/zed-comment) | 148 | A comment extension for the Zed editor |
-| [zed-extensions/swift](https://github.com/zed-extensions/swift) | 147 | Extension for Zed to support Swift |
 | [slymax/zedokai](https://github.com/slymax/zedokai) | 145 | a theme for Zed based on the Monokai Pro color scheme |
 | [nathansbradshaw/zed-angular](https://github.com/nathansbradshaw/zed-angular) | 144 |  |
 | [zed-extensions/csharp](https://github.com/zed-extensions/csharp) | 139 | C# support |
@@ -120,10 +120,10 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-08-04 | Intelligent codebase search & indexing for Zed. Async MCP se... |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 207 | 2026-08-04 | Zed plugin for automatic time tracking and metrics generated... |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 91 | 2026-08-05 | True Dark Theme for Zed IDE |
+| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-08-05 | Intelligent codebase search & indexing for Zed. Async MCP se... |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 208 | 2026-08-04 | Zed plugin for automatic time tracking and metrics generated... |
 | [leolorenzato/zed-pastel-night-theme](https://github.com/leolorenzato/zed-pastel-night-theme) | 0 | 2026-08-04 | 🌃 Pastel Night theme for Zed |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 91 | 2026-08-04 | True Dark Theme for Zed IDE |
 | [zed-extensions/kotlin](https://github.com/zed-extensions/kotlin) | 102 | 2026-08-03 | Kotlin support |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 1 | 2026-08-03 | Spring Boot language intelligence for Zed, built on the requ... |
 | [everton-dgn/zed-dark-dracula](https://github.com/everton-dgn/zed-dark-dracula) | 0 | 2026-08-03 | A darker Dracula theme for Zed with deep backgrounds, balanc... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-08-05T07:34 | 0 | 541 | 1991 |
 | 2026-08-05T01:08 | 0 | 541 | 1991 |
 | 2026-08-04T19:12 | 2 | 539 | 1991 |
 | 2026-08-04T13:17 | 0 | 539 | 1989 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-08-03T13:35 | 1 | 538 | 1989 |
 | 2026-08-03T07:52 | 1 | 537 | 1988 |
 | 2026-08-03T01:13 | 0 | 537 | 1987 |
-| 2026-08-02T19:04 | 0 | 537 | 1987 |
 
 ---
 
