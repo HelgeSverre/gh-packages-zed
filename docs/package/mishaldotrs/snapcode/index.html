@@ -1,0 +1,261 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Snapcode - Zed Extension Safari</title><meta name="description" content="📸 Beautiful code screenshots for Zed, written in Rust."><link rel="canonical" href="https://helgesverre.github.io/gh-packages-zed/package/mishaldotrs/snapcode/"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Snapcode - Zed Extension Safari"><meta property="og:description" content="📸 Beautiful code screenshots for Zed, written in Rust."><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed/package/mishaldotrs/snapcode/"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Snapcode - Zed Extension Safari"><meta name="twitter:description" content="📸 Beautiful code screenshots for Zed, written in Rust."><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/gh-packages-zed/_astro/ClientRouter.astro_astro_type_script_index_0_lang.ClVLs1kt.js"></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Snapcode","description":"📸 Beautiful code screenshots for Zed, written in Rust.","applicationCategory":"DeveloperApplication","operatingSystem":"macOS, Linux, Windows","url":"https://zed.dev/extensions/snapcode","codeRepository":"https://github.com/mishaldotrs/snapcode","author":[{"@type":"Person","name":"Mishal Turkane"}],"softwareVersion":"0.1.0","license":"MIT","keywords":"language-server","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/Layout.CGDlMdWE.css"><script type="module" src="/gh-packages-zed/_astro/page.B8i1Zz-u.js"></script></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <a href="#main" class="skip-to-content">Skip to content</a> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" data-astro-transition-persist="astro-fhchcgd7-1"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <script type="application/json" id="pkg-extras">{"url":"https://github.com/mishaldotrs/snapcode","language":"Rust","license":"MIT","topics":["code-to-image","rust","screenshot","snapshot","zed","zed-extension","zed-theme"],"extension":{"authors":["Mishal Turkane"],"schema_version":1}}</script> <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> mishaldotrs/snapcode </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> Snapcode </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> 📸 Polaroid for your code — take beautiful, shareable screenshots of selected code, right from the editor. </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="language-server">Language Server</span> </div> </div> </div> </header> <main id="main" class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/snapcode" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/mishaldotrs/snapcode" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.1.0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">snapcode</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">Rust</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">MIT</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">1</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">5h ago</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">Mishal Turkane</dd> </div> </dl>  <h2 class="mt-5 text-xs uppercase font-mono" style="color:var(--zed-muted);">Topics</h2> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> code-to-image </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> rust </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> screenshot </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> snapshot </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed-extension </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed-theme </span> </div>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-snapcode---polaroid-for-your-code-in-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#snapcode---polaroid-for-your-code-in-zed"><span class="heading-anchor-icon">#</span></a>Snapcode — 📸 Polaroid for your code, in Zed</h1>
+<p>Take beautiful, shareable screenshots of your code without leaving <a href="https://zed.dev">Zed</a>.
+Inspired by <a href="https://github.com/octref/polacode">Polacode</a> for VS Code.</p>
+<p><img src="https://raw.githubusercontent.com/mishaldotrs/snapcode/HEAD/assets/preview.png" alt="Snapcode preview"></p>
+<p>Select some code → open code actions (<code>ctrl-.</code> / <code>cmd-.</code>) → <strong>📸 Snapcode: snap selection as PNG</strong> — and a polished, syntax-highlighted snapshot lands in your project root and opens right in Zed.</p>
+<h2 id="user-content-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features"><span class="heading-anchor-icon">#</span></a>Features</h2>
+<ul>
+<li>📸 <strong>One action away</strong> — snapshots via the code action menu, on the selection or the whole file</li>
+<li>🖼 <strong>PNG and SVG output</strong> — crisp 2× PNGs for sharing, infinitely-scalable SVGs for docs</li>
+<li>🎨 <strong>Polacode-style framing</strong> — gradient (or solid/transparent) backdrop, floating window with macOS traffic lights, drop shadow, window title, optional line numbers</li>
+<li>✂️ <strong>Smart cropping</strong> — expands to full lines, strips common indentation, trims blank edges</li>
+<li>🔤 <strong>Bundled JetBrains Mono</strong> — pixel-identical rendering on every machine (ligatures included)</li>
+<li>🌈 <strong>Any language</strong> — syntax highlighting via <a href="https://github.com/trishume/syntect">syntect</a>, detected from the buffer's language, extension, or shebang</li>
+</ul>
+<h2 id="user-content-how-it-works-and-how-it-differs-from-polacode"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#how-it-works-and-how-it-differs-from-polacode"><span class="heading-anchor-icon">#</span></a>How it works (and how it differs from Polacode)</h2>
+<p>Polacode renders your code in a VS Code <strong>webview</strong> and screenshots the DOM with
+<a href="https://github.com/tsayen/dom-to-image">dom-to-image</a>. Zed extensions are Rust compiled to
+WebAssembly with <strong>no webview/DOM APIs</strong>, so Snapcode rebuilds the same pipeline with
+Zed-native technology:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th></th><th>Polacode (VS Code)</th><th>Snapcode (Zed)</th></tr></thead><tbody><tr><td>UI entry point</td><td>Webview panel</td><td>LSP <strong>code actions</strong> on your selection</td></tr><tr><td>Highlighting</td><td>Editor's HTML clipboard</td><td><a href="https://github.com/trishume/syntect">syntect</a></td></tr><tr><td>Window chrome</td><td>HTML + CSS</td><td>Generated SVG (gradient, shadow, traffic lights)</td></tr><tr><td>Image capture</td><td>dom-to-image</td><td><a href="https://github.com/linebender/resvg">resvg</a> rasterization</td></tr></tbody></table>
+<p>Two components live in this repo:</p>
+<pre><code>snapcode/
+├── extension.toml     # Zed extension manifest
+├── src/lib.rs         # WASM extension: finds/downloads snapcode-ls
+└── snapcode-ls/       # the engine: a tiny language server (native binary)
+    └── src/           # LSP plumbing → syntect → SVG → resvg → PNG
+</code></pre>
+<p>The extension registers <code>snapcode-ls</code> for ~45 languages. The server offers two code actions
+(<code>snap as PNG</code> / <code>snap as SVG</code>), renders the image, saves it, and asks Zed to open it
+(<code>window/showDocument</code>) plus shows a toast with the path (<code>window/showMessage</code>).</p>
+<h2 id="user-content-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation"><span class="heading-anchor-icon">#</span></a>Installation</h2>
+<h3 id="user-content-as-a-dev-extension-from-source"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#as-a-dev-extension-from-source"><span class="heading-anchor-icon">#</span></a>As a dev extension (from source)</h3>
+<ol>
+<li>
+<p>Install <a href="https://rustup.rs">rustup</a> (Zed builds extensions with your Rust toolchain).</p>
+</li>
+<li>
+<p>Build and install the rendering engine so it's on your <code>PATH</code>:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> install</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --path</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> snapcode-ls</span></span></code></pre>
+</li>
+<li>
+<p>In Zed: <code>zed: extensions</code> → <strong>Install Dev Extension</strong> → select this directory.</p>
+</li>
+<li>
+<p>Open any source file, select some lines, hit <code>ctrl-.</code> (Linux) / <code>cmd-.</code> (macOS), and snap!</p>
+</li>
+</ol>
+<blockquote>
+<p>If <code>snapcode-ls</code> isn't on your <code>PATH</code>, the extension tries to download a pre-built binary
+from this repo's GitHub releases (see <em>Releasing</em> below), or you can point it at a binary
+explicitly via settings:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{ </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"snapcode-ls"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"binary"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"path"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"/path/to/snapcode-ls"</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> } } } }</span></span></code></pre>
+</blockquote>
+<h3 id="user-content-where-do-images-go"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#where-do-images-go"><span class="heading-anchor-icon">#</span></a>Where do images go?</h3>
+<p>Into your <strong>workspace root</strong> by default (so they appear in the project panel), named
+<code>snapcode-&#x3C;file>-&#x3C;timestamp>.png</code>. Configure <code>output_dir</code> to change that.</p>
+<h2 id="user-content-configuration"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#configuration"><span class="heading-anchor-icon">#</span></a>Configuration</h2>
+<p>All appearance options are passed as LSP initialization options in your Zed <code>settings.json</code>:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "snapcode-ls"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "initialization_options"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "theme"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"base16-ocean.dark"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "background"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"#667eea,#764ba2"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "padding"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">48</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "font_size"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">14</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "line_numbers"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">true</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "window_controls"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">true</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "window_title"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">null</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "shadow"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">true</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "corner_radius"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">12</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "scale"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">2</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "tab_width"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">4</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "output_dir"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"~/Pictures/snapcode"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Option</th><th>Default</th><th>Description</th></tr></thead><tbody><tr><td><code>theme</code></td><td><code>"base16-ocean.dark"</code></td><td>Highlighting theme. Run <code>snapcode-ls --themes</code> to list them (<code>base16-ocean.dark</code>, <code>base16-eighties.dark</code>, <code>base16-mocha.dark</code>, <code>base16-ocean.light</code>, <code>InspiredGitHub</code>, <code>Solarized (dark)</code>, <code>Solarized (light)</code>)</td></tr><tr><td><code>background</code></td><td><code>"#667eea,#764ba2"</code></td><td>Backdrop: one color = solid, comma-separated = gradient, <code>"transparent"</code> = none</td></tr><tr><td><code>padding</code></td><td><code>48</code></td><td>Space around the window, in px</td></tr><tr><td><code>font_size</code></td><td><code>14</code></td><td>Code font size, in px</td></tr><tr><td><code>line_numbers</code></td><td><code>false</code></td><td>Show a line-number gutter</td></tr><tr><td><code>window_controls</code></td><td><code>true</code></td><td>macOS-style traffic lights</td></tr><tr><td><code>window_title</code></td><td>file name</td><td>Fixed title text</td></tr><tr><td><code>shadow</code></td><td><code>true</code></td><td>Drop shadow under the window</td></tr><tr><td><code>corner_radius</code></td><td><code>12</code></td><td>Window corner radius, in px</td></tr><tr><td><code>scale</code></td><td><code>2</code></td><td>PNG supersampling (2 = retina-crisp)</td></tr><tr><td><code>tab_width</code></td><td><code>4</code></td><td>Spaces per hard tab</td></tr><tr><td><code>output_dir</code></td><td>workspace root</td><td>Save location, supports <code>~/</code></td></tr></tbody></table>
+<p>Changes take effect after restarting the language server
+(<code>editor: restart language server</code> or reopening the project).</p>
+<h2 id="user-content-development"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#development"><span class="heading-anchor-icon">#</span></a>Development</h2>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Engine tests (includes an actual PNG render)</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">cd</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> snapcode-ls</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> &#x26;&#x26; </span><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> test</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Preview the look without Zed — writes PNG + SVG into snapcode-ls/target/preview/</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">cd</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> snapcode-ls</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> &#x26;&#x26; </span><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> run</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --example</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> preview</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># End-to-end LSP session against the release binary</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">cd</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> snapcode-ls</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> &#x26;&#x26; </span><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> build</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --release</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">python3</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> scripts/lsp_smoke_test.py</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># The WASM extension itself</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> build</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --release</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --target</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> wasm32-wasip2</span></span></code></pre>
+<h2 id="user-content-releasing-pre-built-binaries"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#releasing-pre-built-binaries"><span class="heading-anchor-icon">#</span></a>Releasing pre-built binaries</h2>
+<p>Tag a version and push — CI cross-builds <code>snapcode-ls</code> for Linux/macOS/Windows (x86_64 + aarch64)
+and attaches the archives the extension expects:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">git</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> tag</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> v0.1.0</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> &#x26;&#x26; </span><span style="color:#6F42C1;--shiki-dark:#B392F0">git</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> push</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --tags</span></span></code></pre>
+<h2 id="user-content-publishing-to-the-zed-extension-registry"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#publishing-to-the-zed-extension-registry"><span class="heading-anchor-icon">#</span></a>Publishing to the Zed extension registry</h2>
+<ol>
+<li>
+<p>Push this repo to GitHub (public).</p>
+</li>
+<li>
+<p>Publish at least one release (previous section) so users get automatic binaries.</p>
+</li>
+<li>
+<p>Fork <a href="https://github.com/zed-industries/extensions">zed-industries/extensions</a>, then:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">git</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> submodule</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> add</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> https://github.com/mishaldotrs/snapcode.git</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> extensions/snapcode</span></span></code></pre>
+</li>
+<li>
+<p>Add to the top-level <code>extensions.toml</code>:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">[</span><span style="color:#6F42C1;--shiki-dark:#B392F0">snapcode</span><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">submodule = </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"extensions/snapcode"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">version = </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"0.1.0"</span></span></code></pre>
+</li>
+<li>
+<p>Run <code>pnpm sort-extensions</code> and open a PR.</p>
+</li>
+</ol>
+<h2 id="user-content-credits"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#credits"><span class="heading-anchor-icon">#</span></a>Credits</h2>
+<ul>
+<li><a href="https://github.com/octref/polacode">Polacode</a> by @octref — the original 📸, and this project's namesake UX</li>
+<li><a href="https://carbon.now.sh">Carbon</a> — the aesthetic north star</li>
+<li><a href="https://github.com/trishume/syntect">syntect</a> &#x26; <a href="https://github.com/linebender/resvg">resvg</a> — the rendering engine</li>
+<li><a href="https://www.jetbrains.com/lp/mono/">JetBrains Mono</a> — bundled under the <a href="https://github.com/mishaldotrs/snapcode/blob/HEAD/snapcode-ls/assets/fonts/OFL.txt" target="_blank" rel="noopener">OFL</a></li>
+</ul>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p><a href="https://github.com/mishaldotrs/snapcode/blob/HEAD/LICENSE" target="_blank" rel="noopener">MIT</a></p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>

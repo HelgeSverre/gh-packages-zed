@@ -538,8 +538,8 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2026-05-12T19:52:44Z",
-    "updated_at": "2026-07-27T17:41:32Z",
-    "pushed_at": "2026-07-27T17:39:50Z",
+    "updated_at": "2026-08-05T21:42:10Z",
+    "pushed_at": "2026-08-05T21:42:08Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -5300,8 +5300,8 @@
     "language": "PowerShell",
     "license": null,
     "created_at": "2024-08-14T22:46:54Z",
-    "updated_at": "2026-08-05T08:48:37Z",
-    "pushed_at": "2026-08-03T08:16:25Z",
+    "updated_at": "2026-08-05T20:27:59Z",
+    "pushed_at": "2026-08-05T20:27:23Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
   },
@@ -6248,7 +6248,7 @@
     "name": "cange/nightfox.zed",
     "url": "https://github.com/cange/nightfox.zed",
     "description": "🦊 Zed editor theme ported from Neovim",
-    "stars": 163,
+    "stars": 164,
     "forks": 5,
     "topics": [
       "zed",
@@ -6257,7 +6257,7 @@
     "language": "Lua",
     "license": "MIT",
     "created_at": "2024-05-02T20:49:30Z",
-    "updated_at": "2026-08-03T03:22:30Z",
+    "updated_at": "2026-08-05T21:29:06Z",
     "pushed_at": "2026-07-09T18:20:20Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": true
@@ -18023,8 +18023,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-08-05T13:18:05Z",
-    "pushed_at": "2026-08-05T13:16:41Z",
+    "updated_at": "2026-08-05T19:08:25Z",
+    "pushed_at": "2026-08-05T19:07:31Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -32035,8 +32035,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
-    "updated_at": "2026-08-05T18:49:04Z",
-    "pushed_at": "2026-08-05T18:48:29Z",
+    "updated_at": "2026-08-05T21:20:25Z",
+    "pushed_at": "2026-08-05T21:20:20Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false
   },
@@ -33899,6 +33899,29 @@
     "updated_at": "2026-08-05T08:09:04Z",
     "pushed_at": "2026-08-04T17:21:43Z",
     "discovered_at": "2026-08-04T19:12:01.748Z",
+    "official": false
+  },
+  "mishaldotrs/snapcode": {
+    "name": "mishaldotrs/snapcode",
+    "url": "https://github.com/mishaldotrs/snapcode",
+    "description": "📸 Beautiful code screenshots for Zed, written in Rust.",
+    "stars": 1,
+    "forks": 0,
+    "topics": [
+      "code-to-image",
+      "rust",
+      "screenshot",
+      "snapshot",
+      "zed",
+      "zed-extension",
+      "zed-theme"
+    ],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2026-08-05T18:14:49Z",
+    "updated_at": "2026-08-05T19:23:24Z",
+    "pushed_at": "2026-08-05T19:22:54Z",
+    "discovered_at": "2026-08-06T01:08:39.857Z",
     "official": false
   }
 }
