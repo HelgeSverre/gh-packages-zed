@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1646** |
 | In official registry | 1168 |
 | Discovered via topics | 478 |
-| Last updated | 2026-08-06 01:08 UTC |
+| Last updated | 2026-08-06 07:34 UTC |
 
 ### By capability
 
@@ -120,12 +120,12 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 91 | 2026-08-06 | True Dark Theme for Zed IDE |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 208 | 2026-08-06 | Zed plugin for automatic time tracking and metrics generated... |
 | [dylan-gluck/zed-sudolang](https://github.com/dylan-gluck/zed-sudolang) | 0 | 2026-08-05 | Zed extension for SudoLang |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-08-05 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [mishaldotrs/snapcode](https://github.com/mishaldotrs/snapcode) | 1 | 2026-08-05 | 📸 Beautiful code screenshots for Zed, written in Rust. |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-08-05 | Zed editor support for Carve, a modern light markup language |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 91 | 2026-08-05 | True Dark Theme for Zed IDE |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 208 | 2026-08-04 | Zed plugin for automatic time tracking and metrics generated... |
 | [leolorenzato/zed-pastel-night-theme](https://github.com/leolorenzato/zed-pastel-night-theme) | 0 | 2026-08-04 | 🌃 Pastel Night theme for Zed |
 | [zed-extensions/kotlin](https://github.com/zed-extensions/kotlin) | 103 | 2026-08-03 | Kotlin support |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 1 | 2026-08-03 | Spring Boot language intelligence for Zed, built on the requ... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-08-06T07:34 | 0 | 541 | 1992 |
 | 2026-08-06T01:08 | 1 | 540 | 1992 |
 | 2026-08-05T19:06 | 0 | 541 | 1991 |
 | 2026-08-05T13:16 | 0 | 541 | 1991 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-08-04T13:17 | 0 | 539 | 1989 |
 | 2026-08-04T07:34 | 0 | 539 | 1989 |
 | 2026-08-04T01:09 | 0 | 539 | 1989 |
-| 2026-08-03T19:11 | 0 | 539 | 1989 |
 
 ---
 
