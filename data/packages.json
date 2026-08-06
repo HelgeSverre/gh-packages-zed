@@ -4201,7 +4201,7 @@
     "url": "https://github.com/zangetsu02/zed-discord-theme",
     "description": "A theme for Zed inspired by Discord's new dark theme.",
     "stars": 6,
-    "forks": 0,
+    "forks": 1,
     "topics": [
       "theme",
       "zed",
@@ -5118,8 +5118,8 @@
     "language": "Go",
     "license": "MIT",
     "created_at": "2026-03-09T04:35:59Z",
-    "updated_at": "2026-08-05T07:07:35Z",
-    "pushed_at": "2026-08-05T07:07:18Z",
+    "updated_at": "2026-08-06T08:50:38Z",
+    "pushed_at": "2026-08-06T08:49:48Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -14604,7 +14604,7 @@
     "name": "skarline/zed-fleet-themes",
     "url": "https://github.com/skarline/zed-fleet-themes",
     "description": "🚢 Transform Zed with Fleet's sleek, modern aesthetic for a sublime coding experience.",
-    "stars": 89,
+    "stars": 90,
     "forks": 7,
     "topics": [
       "zed",
@@ -14615,7 +14615,7 @@
     "language": "TypeScript",
     "license": null,
     "created_at": "2024-03-04T23:56:09Z",
-    "updated_at": "2026-08-05T07:25:48Z",
+    "updated_at": "2026-08-06T07:49:38Z",
     "pushed_at": "2025-03-13T17:22:47Z",
     "discovered_at": "2026-05-19T20:15:46.472Z",
     "official": true
@@ -18023,8 +18023,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-08-06T01:09:14Z",
-    "pushed_at": "2026-08-06T01:09:10Z",
+    "updated_at": "2026-08-06T07:35:52Z",
+    "pushed_at": "2026-08-06T07:35:29Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -31383,8 +31383,8 @@
     "language": "C#",
     "license": "Unlicense",
     "created_at": "2026-06-18T15:06:49Z",
-    "updated_at": "2026-07-28T17:37:13Z",
-    "pushed_at": "2026-07-28T17:39:51Z",
+    "updated_at": "2026-08-06T12:59:13Z",
+    "pushed_at": "2026-08-06T13:00:16Z",
     "discovered_at": "2026-06-25T12:48:26.083Z",
     "official": false
   },
@@ -33182,8 +33182,8 @@
     "name": "riddle-lang/riddle",
     "url": "https://github.com/riddle-lang/riddle",
     "description": "A concise, modern and fast programming language",
-    "stars": 24,
-    "forks": 3,
+    "stars": 25,
+    "forks": 2,
     "topics": [
       "helix",
       "idea-plugin",
@@ -33197,7 +33197,7 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-05-17T07:32:27Z",
-    "updated_at": "2026-08-05T14:41:30Z",
+    "updated_at": "2026-08-06T09:56:45Z",
     "pushed_at": "2026-08-05T14:54:12Z",
     "discovered_at": "2026-07-26T01:12:51.640Z",
     "official": false
@@ -33893,11 +33893,11 @@
       "wayland",
       "zed-editor"
     ],
-    "language": "Lua",
+    "language": "Shell",
     "license": null,
     "created_at": "2026-07-29T18:31:54Z",
-    "updated_at": "2026-08-05T08:09:04Z",
-    "pushed_at": "2026-08-04T17:21:43Z",
+    "updated_at": "2026-08-06T13:10:19Z",
+    "pushed_at": "2026-08-06T13:09:09Z",
     "discovered_at": "2026-08-04T19:12:01.748Z",
     "official": false
   },
@@ -33922,6 +33922,34 @@
     "updated_at": "2026-08-05T19:23:24Z",
     "pushed_at": "2026-08-05T19:22:54Z",
     "discovered_at": "2026-08-06T01:08:39.857Z",
+    "official": false
+  },
+  "henry-wiki/sc-indent-fix": {
+    "name": "henry-wiki/sc-indent-fix",
+    "url": "https://github.com/henry-wiki/sc-indent-fix",
+    "description": "PHP + HTML mixed indentation fixer with multi-line string block support",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "code-fixer",
+      "code-formatting",
+      "code-style",
+      "formatter",
+      "html",
+      "html5",
+      "indentation",
+      "mysql",
+      "php",
+      "psr-2",
+      "sql",
+      "zed-editor"
+    ],
+    "language": "PHP",
+    "license": "MIT",
+    "created_at": "2026-07-24T06:04:30Z",
+    "updated_at": "2026-08-06T12:27:05Z",
+    "pushed_at": "2026-08-06T12:24:27Z",
+    "discovered_at": "2026-08-06T13:14:02.434Z",
     "official": false
   }
 }
