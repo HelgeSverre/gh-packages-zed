@@ -1,0 +1,206 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Radical Reborn - Zed Extension Safari</title><meta name="description" content="A dark theme for radical hacking inspired by retro futuristic design for the ZED Editor and VSCODE"><link rel="canonical" href="https://helgesverre.github.io/gh-packages-zed/package/AquaOctet/radical-reborn/"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Radical Reborn - Zed Extension Safari"><meta property="og:description" content="A dark theme for radical hacking inspired by retro futuristic design for the ZED Editor and VSCODE"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed/package/AquaOctet/radical-reborn/"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Radical Reborn - Zed Extension Safari"><meta name="twitter:description" content="A dark theme for radical hacking inspired by retro futuristic design for the ZED Editor and VSCODE"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/gh-packages-zed/_astro/ClientRouter.astro_astro_type_script_index_0_lang.ClVLs1kt.js"></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Radical Reborn","description":"A dark theme for radical hacking inspired by retro futuristic design for the ZED Editor and VSCODE","applicationCategory":"DeveloperApplication","operatingSystem":"macOS, Linux, Windows","url":"https://zed.dev/extensions/radical-reborn-theme","codeRepository":"https://github.com/AquaOctet/radical-reborn","author":[{"@type":"Person","name":"AquaOctet"}],"softwareVersion":"0.1.1","license":"MIT","keywords":"theme","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/Layout.CGDlMdWE.css"><script type="module" src="/gh-packages-zed/_astro/page.B8i1Zz-u.js"></script></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <a href="#main" class="skip-to-content">Skip to content</a> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" data-astro-transition-persist="astro-fhchcgd7-1"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <script type="application/json" id="pkg-extras">{"url":"https://github.com/AquaOctet/radical-reborn","language":"TypeScript","license":"MIT","topics":[],"extension":{"authors":["AquaOctet"],"schema_version":1}}</script> <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> AquaOctet/radical-reborn </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> Radical Reborn </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> A Retro-futuristic dark theme. Inspired by Radical by dhedgecock </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="theme">Theme</span> </div> </div> </div> </header> <main id="main" class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/radical-reborn-theme" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/AquaOctet/radical-reborn" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.1.1</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">radical-reborn-theme</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">TypeScript</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">MIT</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">1d ago</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">AquaOctet</dd> </div> </dl>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-radical-reborn"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#radical-reborn"><span class="heading-anchor-icon">#</span></a>Radical Reborn</h1>
+<p>A maintained fork of Dan Hedgecock's <a href="https://github.com/DHedgecock/radical-vscode">Radical</a> — a retro-futuristic dark theme — extended for <strong>VSCode</strong> and <strong>Zed</strong>.</p>
+<blockquote>
+<p><strong>Status:</strong> v0.1.0 — initial fork release.</p>
+</blockquote>
+<h2 id="user-content-whats-different-from-upstream-radical"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#whats-different-from-upstream-radical"><span class="heading-anchor-icon">#</span></a>What's different from upstream Radical</h2>
+<ul>
+<li><strong>Zed support</strong> alongside VSCode, built from a single TypeScript palette + semantic-token core.</li>
+<li><strong>Modernized tooling</strong>: TypeScript 5, tsx, ESLint flat config, Node 22.</li>
+<li><strong>Coverage for newer editor surfaces</strong>: AI completion preview (ghost text), parameter annotations (inlay hints), sticky scroll subheader, semantic tokens, version-control decorations.</li>
+<li><strong>APCA contrast pass</strong> to verify body-text legibility.</li>
+<li><strong>MIT-licensed</strong> (upstream is ISC; Zed Extensions registry no longer accepts ISC).</li>
+</ul>
+<h2 id="user-content-install"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#install"><span class="heading-anchor-icon">#</span></a>Install</h2>
+<p>In every editor, pick <strong>Radical Reborn</strong> from the theme picker after install
+(VSCode/VSCodium/Cursor: <code>Cmd/Ctrl-K Cmd/Ctrl-T</code>).</p>
+<blockquote>
+<p><strong>After installing:</strong> the theme ships colors only — set up the
+<a href="#recommended-font">recommended font</a> (copy-paste settings included), and see
+<a href="#overrides">Overrides</a> to tweak any color without forking the theme.</p>
+</blockquote>
+<h3 id="user-content-vscodium--cursor--windsurf-open-vsx"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#vscodium--cursor--windsurf-open-vsx"><span class="heading-anchor-icon">#</span></a>VSCodium / Cursor / Windsurf (Open VSX)</h3>
+<p>Published to the <a href="https://open-vsx.org/extension/aquaoctet/radical-reborn">Open VSX registry</a>.
+Open the Extensions panel, search <strong>Radical Reborn</strong>, and install.</p>
+<blockquote>
+<p>Stock Microsoft VSCode does not use Open VSX — install from the <code>.vsix</code> below.</p>
+</blockquote>
+<h3 id="user-content-vscode-vsix"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#vscode-vsix"><span class="heading-anchor-icon">#</span></a>VSCode (.vsix)</h3>
+<p>Download <code>radical-reborn.vsix</code> from the
+<a href="https://github.com/AquaOctet/radical-reborn/releases">latest release</a> and install:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">code</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --install-extension</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> radical-reborn.vsix</span></span></code></pre>
+<p>Or in VSCode: Extensions panel → <code>⋯</code> menu → <strong>Install from VSIX…</strong>.</p>
+<h3 id="user-content-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#zed"><span class="heading-anchor-icon">#</span></a>Zed</h3>
+<p>Install via the Zed Extensions panel: search <strong>Radical Reborn</strong>.</p>
+<blockquote>
+<p>Registry submission under review
+(<a href="https://github.com/zed-industries/extensions/pull/7072">zed-industries/extensions#7072</a>).
+Until it lands: clone this repo, <code>npm install &#x26;&#x26; npm run build</code>, then run
+<code>zed: install dev extension</code> and pick the repo folder.</p>
+</blockquote>
+<h3 id="user-content-build-from-source-contributors"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#build-from-source-contributors"><span class="heading-anchor-icon">#</span></a>Build from source (contributors)</h3>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">git</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> clone</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> https://github.com/AquaOctet/radical-reborn</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">cd</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> radical-reborn</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">npm</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> install</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">npm</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> run</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> build</span><span style="color:#6A737D;--shiki-dark:#6A737D">      # emits dist/RadicalReborn.json + themes/radical-reborn.json</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">npm</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> run</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> package</span><span style="color:#6A737D;--shiki-dark:#6A737D">    # produces radical-reborn.vsix</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">code</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --install-extension</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> radical-reborn.vsix</span></span></code></pre>
+<h2 id="user-content-recommended-font"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#recommended-font"><span class="heading-anchor-icon">#</span></a>Recommended font</h2>
+<p>Radical Reborn is a <strong>color theme</strong> — by design, neither VSCode nor Zed lets a
+theme bundle or force a font, so the font is yours to choose. We recommend
+<strong><a href="https://github.com/tonsky/FiraCode">Fira Code</a></strong> — a free, hugely popular
+coding font whose programming ligatures (<code>=></code>, <code>!=</code>, <code>>=</code>) look great against
+this palette's pink operators. <a href="https://www.jetbrains.com/lp/mono/">JetBrains Mono</a>,
+Cascadia Code, and MonoLisa are excellent alternatives. Because the theme leans
+on <strong>italics</strong> (comments, type names, parameters), prefer a font with a <em>real</em>
+italic rather than a synthetic one.</p>
+<p><strong>VSCode</strong> — <code>settings.json</code>:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "editor.fontFamily"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"'Fira Code', 'JetBrains Mono', monospace"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "editor.fontLigatures"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">true</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "editor.fontSize"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">14</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "editor.lineHeight"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">1.6</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p><strong>Zed</strong> — <code>settings.json</code>:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "buffer_font_family"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"Fira Code"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "buffer_font_features"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"calt"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">true</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> },</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "buffer_font_size"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">14</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "buffer_font_weight"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">500</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "buffer_line_height"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"comfortable"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "ui_font_size"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">15</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<blockquote>
+<p>Copy-paste version: <a href="https://github.com/AquaOctet/radical-reborn/blob/HEAD/examples/zed-settings.jsonc" target="_blank" rel="noopener"><code>examples/zed-settings.jsonc</code></a>.</p>
+</blockquote>
+<blockquote>
+<p>Install Fira Code first (<code>brew install --cask font-fira-code</code> on macOS, your
+package manager on Linux, or <a href="https://github.com/tonsky/FiraCode/releases">the release zip</a>).
+<code>calt</code> in Zed and <code>fontLigatures</code> in VSCode enable the ligatures.</p>
+</blockquote>
+<h3 id="user-content-crisp-rendering-on-a-non-retina-display-macos"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#crisp-rendering-on-a-non-retina-display-macos"><span class="heading-anchor-icon">#</span></a>Crisp rendering on a non-Retina display (macOS)</h3>
+<p>macOS uses grayscale antialiasing that's sharp on Retina but renders <strong>soft /
+fuzzy on low-DPI external monitors</strong> (1080p/1440p). This is an OS rendering
+behavior, not the theme. Fixes, most impactful first:</p>
+<ol>
+<li>
+<p><strong>Reduce macOS font-smoothing</strong> — the big lever. In Terminal:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Per-app, Zed only (recommended):</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">defaults</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> write</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> dev.zed.Zed</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> AppleFontSmoothing</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -int</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> 0</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># …or globally, for every app:</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">defaults</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> write</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -g</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> AppleFontSmoothing</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -int</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> 0</span></span></code></pre>
+<p>Fully quit and reopen Zed (the global form needs a logout/login). <code>0</code>
+disables the stroke "fattening" that blurs text at low DPI; try <code>1</code> if <code>0</code>
+looks too thin. Revert with <code>defaults delete dev.zed.Zed AppleFontSmoothing</code>.
+(For VSCode, the same trick uses bundle id <code>com.microsoft.VSCode</code>, or set
+<code>"workbench.fontAliasing": "antialiased"</code>.)</p>
+</li>
+<li>
+<p><strong>Use a medium font weight</strong> (already in the snippet above) — thicker
+strokes catch more pixels and read crisper: <code>"buffer_font_weight": 500</code>.</p>
+</li>
+<li>
+<p><strong>Keep an integer font size</strong> (14, 15, 16 — not 14.5) and avoid fractional
+display scaling; both blur text at low DPI.</p>
+</li>
+</ol>
+<p>Fira Code's Regular weight is on the light side — if it still feels soft after
+the above, <strong>JetBrains Mono</strong> renders noticeably crisper at low DPI.</p>
+<h3 id="user-content-is-the-font-actually-applied-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#is-the-font-actually-applied-zed"><span class="heading-anchor-icon">#</span></a>Is the font actually applied? (Zed)</h3>
+<p>A <strong>theme cannot set the font in Zed</strong> — Zed's theme format has no font field,
+so Radical Reborn ships colors only. The font comes entirely from your
+<code>settings.json</code>. Picking "Radical Reborn" in the theme picker changes colors,
+never the font. If Fira Code doesn't seem active, check these in order:</p>
+<ol>
+<li>
+<p><strong>Is Fira Code installed?</strong> Zed only uses installed system fonts (it doesn't
+bundle any). On macOS:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">system_profiler</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> SPFontsDataType</span><span style="color:#D73A49;--shiki-dark:#F97583"> |</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> grep</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -i</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> "fira code"</span><span style="color:#D73A49;--shiki-dark:#F97583"> ||</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> echo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> "NOT INSTALLED"</span></span></code></pre>
+<p>If missing: <code>brew install --cask font-fira-code</code>, then <strong>fully quit and
+relaunch Zed</strong> (fonts load at startup).</p>
+</li>
+<li>
+<p><strong>Is the setting present?</strong> Open settings (<code>cmd-,</code> → <code>~/.config/zed/settings.json</code>)
+and confirm a <em>top-level</em> key — not inside the theme block:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#032F62;--shiki-dark:#9ECBFF">"buffer_font_family"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"Fira Code"</span></span></code></pre>
+<p>The family name must match exactly: <code>Fira Code</code> (not <code>FiraCode</code>, and Nerd
+Font builds register as <code>FiraCode Nerd Font</code>).</p>
+</li>
+<li>
+<p><strong>Visual proof:</strong> with <code>"buffer_font_features": { "calt": true }</code>, type <code>=></code>,
+<code>!=</code>, <code>-></code>. Fira Code renders these as ligature glyphs. If they stay as
+separate characters, Fira Code isn't the active font.</p>
+</li>
+<li>
+<p><strong>Still wrong?</strong> Check Zed's log for a fallback:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">tail</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -n</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> 200</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> ~/Library/Logs/Zed/Zed.log</span><span style="color:#D73A49;--shiki-dark:#F97583"> |</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> grep</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -i</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> font</span></span></code></pre>
+<p>A "font not found / falling back" line means the name doesn't match an
+installed family — Zed quietly substitutes its default (Zed Plex Mono).</p>
+</li>
+</ol>
+<h2 id="user-content-overrides"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#overrides"><span class="heading-anchor-icon">#</span></a>Overrides</h2>
+<p>Both editors let you layer your own colors on top of Radical Reborn in
+<code>settings.json</code> — no fork needed, and your tweaks survive theme updates.</p>
+<p><strong>Zed</strong> — <code>experimental.theme_overrides</code> applies to whatever theme is active.
+UI keys use the theme's style names; syntax colors nest under <code>"syntax"</code>:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "experimental.theme_overrides"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "editor.active_line.background"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"#cd8ce720"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "syntax"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "comment"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"color"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"#7c9c9e"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"font_style"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">null</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p><strong>VSCode / VSCodium</strong> — scope overrides to the theme with a <code>[Radical Reborn]</code>
+block. Workbench (UI) keys and syntax tokens use separate settings:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "workbench.colorCustomizations"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "[Radical Reborn]"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "editor.lineHighlightBackground"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"#d043cf20"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  },</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "editor.tokenColorCustomizations"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "[Radical Reborn]"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "comments"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"#7c9c9e"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>Key references: <a href="https://zed.dev/schema/themes/v0.2.0.json">Zed theme keys</a>
+(plus <code>schemas/zed-v0.2.0-extended.json</code> in this repo for newer engine keys) ·
+<a href="https://code.visualstudio.com/api/references/theme-color">VSCode theme color reference</a>.</p>
+<h2 id="user-content-acknowledgements"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#acknowledgements"><span class="heading-anchor-icon">#</span></a>Acknowledgements</h2>
+<p>Original "Radical" theme by <strong><a href="https://github.com/DHedgecock">Dan Hedgecock</a></strong>. This fork preserves the palette philosophy (pink/teal/lavender/chartreuse on a deep purple-black) while extending coverage to modern editor surfaces and porting to Zed.</p>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>MIT — see <a href="https://github.com/AquaOctet/radical-reborn/blob/HEAD/LICENSE" target="_blank" rel="noopener">LICENSE</a>. Copyright Dan Hedgecock (2018, original) and Aqua (2026, fork).</p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>
