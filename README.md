@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1646** |
 | In official registry | 1168 |
 | Discovered via topics | 478 |
-| Last updated | 2026-08-07 01:39 UTC |
+| Last updated | 2026-08-07 07:04 UTC |
 
 ### By capability
 
@@ -97,7 +97,7 @@ cd website && npm install && npm run dev
 |---|---|---|
 | [biomejs/biome-zed](https://github.com/biomejs/biome-zed) | 466 | Biome extension for Zed |
 | [xhyrom/zed-discord-presence](https://github.com/xhyrom/zed-discord-presence) | 415 | extension for zed that adds support for discord rich presence using lsp |
-| [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 329 | Catppuccin Theme but as blurred variants + custom ones |
+| [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 330 | Catppuccin Theme but as blurred variants + custom ones |
 | [oxc-project/oxc-zed](https://github.com/oxc-project/oxc-zed) | 256 | Oxc extension for Zed |
 | [catppuccin/zed-icons](https://github.com/catppuccin/zed-icons) | 240 | 🦊 Soothing pastel icons for Zed |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 208 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
@@ -120,9 +120,9 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 92 | 2026-08-07 | True Dark Theme for Zed IDE |
 | [alaestor/mirror-zed-cea](https://github.com/alaestor/mirror-zed-cea) | 0 | 2026-08-07 | zed extension for cheat engine auto-assembler script |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-08-06 | Intelligent codebase search & indexing for Zed. Async MCP se... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 91 | 2026-08-06 | True Dark Theme for Zed IDE |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 208 | 2026-08-06 | Zed plugin for automatic time tracking and metrics generated... |
 | [dylan-gluck/zed-sudolang](https://github.com/dylan-gluck/zed-sudolang) | 0 | 2026-08-05 | Zed extension for SudoLang |
 | [mishaldotrs/snapcode](https://github.com/mishaldotrs/snapcode) | 1 | 2026-08-05 | click screenshots for Zed, written in Rust. |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-08-07T07:04 | 0 | 542 | 1993 |
 | 2026-08-07T01:39 | 0 | 542 | 1993 |
 | 2026-08-06T13:14 | 1 | 541 | 1993 |
 | 2026-08-06T07:34 | 0 | 541 | 1992 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-08-05T07:34 | 0 | 541 | 1991 |
 | 2026-08-05T01:08 | 0 | 541 | 1991 |
 | 2026-08-04T19:12 | 2 | 539 | 1991 |
-| 2026-08-04T13:17 | 0 | 539 | 1989 |
 
 ---
 
