@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1646** |
 | In official registry | 1168 |
 | Discovered via topics | 478 |
-| Last updated | 2026-08-06 13:14 UTC |
+| Last updated | 2026-08-07 01:39 UTC |
 
 ### By capability
 
@@ -70,7 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
-| [mishaldotrs/snapcode](https://github.com/mishaldotrs/snapcode) | 1 | 📸 Beautiful code screenshots for Zed, written in Rust. |
+| [mishaldotrs/snapcode](https://github.com/mishaldotrs/snapcode) | 1 | click screenshots for Zed, written in Rust. |
 | [everton-dgn/zed-dark-dracula](https://github.com/everton-dgn/zed-dark-dracula) | 0 | A darker Dracula theme for Zed with deep backgrounds, balanced contrast and refi... |
 | [lukedunwoody/zed-polaris](https://github.com/lukedunwoody/zed-polaris) | 0 | A cool-toned dark theme for Zed. |
 | [duso-org/duso-zed](https://github.com/duso-org/duso-zed) | 0 | Zed extension for Duso |
@@ -104,7 +104,7 @@ cd website && npm install && npm run dev
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
 | [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 195 | Zed support for the Godot game engine and the GDScript language |
-| [zed-extensions/typst](https://github.com/zed-extensions/typst) | 191 | Typst extension for zed |
+| [zed-extensions/typst](https://github.com/zed-extensions/typst) | 192 | Typst extension for zed |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 165 | A macOS native style theme for Zed, let it same like native app in macOS. |
@@ -120,11 +120,12 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [alaestor/mirror-zed-cea](https://github.com/alaestor/mirror-zed-cea) | 0 | 2026-08-07 | zed extension for cheat engine auto-assembler script |
+| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-08-06 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 91 | 2026-08-06 | True Dark Theme for Zed IDE |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 208 | 2026-08-06 | Zed plugin for automatic time tracking and metrics generated... |
 | [dylan-gluck/zed-sudolang](https://github.com/dylan-gluck/zed-sudolang) | 0 | 2026-08-05 | Zed extension for SudoLang |
-| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-08-05 | Intelligent codebase search & indexing for Zed. Async MCP se... |
-| [mishaldotrs/snapcode](https://github.com/mishaldotrs/snapcode) | 1 | 2026-08-05 | 📸 Beautiful code screenshots for Zed, written in Rust. |
+| [mishaldotrs/snapcode](https://github.com/mishaldotrs/snapcode) | 1 | 2026-08-05 | click screenshots for Zed, written in Rust. |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-08-05 | Zed editor support for Carve, a modern light markup language |
 | [leolorenzato/zed-pastel-night-theme](https://github.com/leolorenzato/zed-pastel-night-theme) | 0 | 2026-08-04 | 🌃 Pastel Night theme for Zed |
 | [zed-extensions/kotlin](https://github.com/zed-extensions/kotlin) | 103 | 2026-08-03 | Kotlin support |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [madkarmaa/zed-onedark-pro-blur](https://github.com/madkarmaa/zed-onedark-pro-blur) | 0 | 2026-08-01 | OneDark Pro port for Zed with blur effects |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-07-31 | A Zed extension that allows to highlight all occurrences of ... |
 | [MiCkEyZzZ/uon-zed](https://github.com/MiCkEyZzZ/uon-zed) | 0 | 2026-07-31 | Поддержка формата данных UON для редактора Zed. |
-| [Sercali-co/Sercali-Zed-Theme](https://github.com/Sercali-co/Sercali-Zed-Theme) | 6 | 2026-07-31 | A Gilded Void theme family for Zed: deep neutral basalts wit... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-08-07T01:39 | 0 | 542 | 1993 |
 | 2026-08-06T13:14 | 1 | 541 | 1993 |
 | 2026-08-06T07:34 | 0 | 541 | 1992 |
 | 2026-08-06T01:08 | 1 | 540 | 1992 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-08-05T01:08 | 0 | 541 | 1991 |
 | 2026-08-04T19:12 | 2 | 539 | 1991 |
 | 2026-08-04T13:17 | 0 | 539 | 1989 |
-| 2026-08-04T07:34 | 0 | 539 | 1989 |
 
 ---
 
