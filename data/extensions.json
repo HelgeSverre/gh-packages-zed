@@ -205,7 +205,7 @@
     "url": "https://github.com/wakatime/zed-wakatime",
     "description": "Zed plugin for automatic time tracking and metrics generated from your programming activity.",
     "stars": 208,
-    "forks": 29,
+    "forks": 30,
     "topics": [
       "extension",
       "wakatime",
@@ -53187,7 +53187,7 @@
     "updated_at": "2026-07-02T02:37:26Z",
     "pushed_at": "2026-07-02T02:37:58Z",
     "discovered_at": "2026-07-02T00:39:46.448Z",
-    "official": false,
+    "official": true,
     "extension": {
       "id": "orng-theme",
       "name": "orng",
@@ -53768,8 +53768,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
-    "updated_at": "2026-08-06T20:43:55Z",
-    "pushed_at": "2026-08-06T20:43:22Z",
+    "updated_at": "2026-08-07T18:32:32Z",
+    "pushed_at": "2026-08-07T18:32:21Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false,
     "extension": {
@@ -56462,6 +56462,194 @@
         "Richard Linssen (adapted from Microsoft's theme)"
       ],
       "repository": "https://github.com/ralnss/zed-visual-studio-dark",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "hendrymudarkt/zed-asp-classic": {
+    "name": "hendrymudarkt/zed-asp-classic",
+    "url": "https://github.com/hendrymudarkt/zed-asp-classic",
+    "description": "",
+    "stars": 1,
+    "forks": 0,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2026-06-25T07:52:16Z",
+    "updated_at": "2026-07-21T07:51:55Z",
+    "pushed_at": "2026-07-08T10:15:02Z",
+    "discovered_at": "2026-08-07T19:02:36.214Z",
+    "official": true,
+    "extension": {
+      "id": "asp-classic",
+      "name": "ASP Classic",
+      "description": "ASP Classic (VBScript) syntax highlighting for Zed",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Hendry Muda Rangkuti <hendrymuda76@gmail.com>"
+      ],
+      "repository": "https://github.com/hendrymudarkt/zed-asp-classic",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
+      ]
+    }
+  },
+  "devidb/cathode-zed-theme": {
+    "name": "devidb/cathode-zed-theme",
+    "url": "https://github.com/devidb/cathode-zed-theme",
+    "description": "Dark theme with a blurred translucent background and a neon syntax palette.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-08-07T08:11:26Z",
+    "updated_at": "2026-08-07T14:40:16Z",
+    "pushed_at": "2026-08-07T14:39:02Z",
+    "discovered_at": "2026-08-07T19:02:36.214Z",
+    "official": true,
+    "extension": {
+      "id": "cathode-theme",
+      "name": "Cathode",
+      "description": "A terminal-centered, minimal dark theme: an opaque black terminal at the center of a translucent, blurred sheet of frosted glass, with a neon syntax palette. Ships Ultraviolet and Phosphor variants.",
+      "version": "1.0.1",
+      "schema_version": 1,
+      "authors": [
+        "devidb"
+      ],
+      "repository": "https://github.com/devidb/cathode-zed-theme",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "tgrecojs/coding-in-the-sun": {
+    "name": "tgrecojs/coding-in-the-sun",
+    "url": "https://github.com/tgrecojs/coding-in-the-sun",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-08-05T15:24:12Z",
+    "updated_at": "2026-08-05T15:33:05Z",
+    "pushed_at": "2026-08-05T15:30:57Z",
+    "discovered_at": "2026-08-07T19:02:36.214Z",
+    "official": true,
+    "extension": {
+      "id": "coding-in-the-sun-theme",
+      "name": "Coding in the Sun",
+      "description": "A high-contrast light theme for Zed, ported from Coding in the Sun for VS Code",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "tgrecojs"
+      ],
+      "repository": "https://github.com/tgrecojs/coding-in-the-sun",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "nicktriez/edgerunners-2-zed-editor-themes": {
+    "name": "Nicktriez/edgerunners-2-zed-editor-themes",
+    "url": "https://github.com/Nicktriez/edgerunners-2-zed-editor-themes",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-07-18T14:10:53Z",
+    "updated_at": "2026-08-07T09:20:08Z",
+    "pushed_at": "2026-08-07T09:19:12Z",
+    "discovered_at": "2026-08-07T19:02:36.214Z",
+    "official": true,
+    "extension": {
+      "id": "edgerunners-2-theme",
+      "name": "Edgerunners 2",
+      "description": "Based on Cyberpunk Edgerunners 2",
+      "version": "0.0.2",
+      "schema_version": 1,
+      "authors": [
+        "NickTriez"
+      ],
+      "repository": "https://github.com/Nicktriez/edgerunners-2-zed-editor-themes",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "imkarmona/miles-theme": {
+    "name": "imkarmona/miles-theme",
+    "url": "https://github.com/imkarmona/miles-theme",
+    "description": "Dark red Zed theme inspired by Spider-Man — OLED and Night variants",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-08-07T18:49:05Z",
+    "updated_at": "2026-08-07T18:49:46Z",
+    "pushed_at": "2026-08-07T18:49:32Z",
+    "discovered_at": "2026-08-07T19:02:36.214Z",
+    "official": true,
+    "extension": {
+      "id": "miles-theme",
+      "name": "Miles",
+      "description": "Dark red theme inspired by Spider-Man. Two variants: OLED (pure black) and Night (neutral dark, cozy-hacker).",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "imkarmona <guilhermecarmona86@gmail.com>"
+      ],
+      "repository": "https://github.com/imkarmona/miles-theme",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "ghostvox/stix": {
+    "name": "GhostVox/Stix",
+    "url": "https://github.com/GhostVox/Stix",
+    "description": "A port of subliminal nvim to zed",
+    "stars": 1,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-04-16T20:47:19Z",
+    "updated_at": "2026-07-19T20:24:19Z",
+    "pushed_at": "2026-07-19T20:24:15Z",
+    "discovered_at": "2026-08-07T19:02:36.214Z",
+    "official": true,
+    "extension": {
+      "id": "stix-theme",
+      "name": "Stix",
+      "description": "Stix is a elegant theme using pastel colors ",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Ghostvox"
+      ],
+      "repository": "https://github.com/Ghostvox/Stix",
       "snippets": null,
       "sections": [],
       "categories": [

@@ -1,0 +1,11 @@
+id = "asp-classic"
+name = "ASP Classic"
+version = "0.1.0"
+schema_version = 1
+authors = ["Hendry Muda Rangkuti <hendrymuda76@gmail.com>"]
+description = "ASP Classic (VBScript) syntax highlighting for Zed"
+repository = "https://github.com/hendrymudarkt/zed-asp-classic"
+
+[grammars.asp_classic]
+repository = "https://github.com/hendrymudarkt/tree-sitter-asp-classic"
+rev = "29c82455a082ee7b8c7e84b03db88e3b00af45cb"
