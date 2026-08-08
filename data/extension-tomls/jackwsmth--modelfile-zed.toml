@@ -1,0 +1,11 @@
+id = "modelfile"
+name = "Modelfile"
+version = "0.0.1"
+schema_version = 1
+authors = ["Jack Smith <jackwsmth@proton.me>"]
+description = "Syntax highlighting for Ollama's Modelfile."
+repository = "https://github.com/jackwsmth/modelfile-zed"
+
+[grammars.modelfile]
+repository = "https://github.com/jackwsmth/tree-sitter-modelfile"
+rev = "495aa4f4c27c853af8f5981adb74fb0a3daeaf42"

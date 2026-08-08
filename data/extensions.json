@@ -60,7 +60,7 @@
     "license": "MIT",
     "created_at": "2026-05-03T17:39:17Z",
     "updated_at": "2026-07-26T20:16:03Z",
-    "pushed_at": "2026-07-31T20:06:22Z",
+    "pushed_at": "2026-08-07T20:06:17Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false,
     "extension": {
@@ -11085,13 +11085,13 @@
     "name": "zed-extensions/typst",
     "url": "https://github.com/zed-extensions/typst",
     "description": "Typst extension for zed",
-    "stars": 192,
+    "stars": 193,
     "forks": 17,
     "topics": [],
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2024-04-27T19:27:52Z",
-    "updated_at": "2026-08-06T22:12:48Z",
+    "updated_at": "2026-08-07T20:29:00Z",
     "pushed_at": "2026-06-10T23:17:14Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": false,
@@ -11349,8 +11349,8 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-02-27T10:35:56Z",
-    "updated_at": "2026-08-05T08:53:11Z",
-    "pushed_at": "2026-08-03T23:11:13Z",
+    "updated_at": "2026-08-07T22:12:09Z",
+    "pushed_at": "2026-08-07T22:12:48Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": false,
     "extension": {
@@ -40864,7 +40864,7 @@
     "url": "https://github.com/gabeins/zed-plantuml",
     "description": "PlantUML support for Zed",
     "stars": 15,
-    "forks": 3,
+    "forks": 4,
     "topics": [],
     "language": "Tree-sitter Query",
     "license": "MIT",
@@ -50007,10 +50007,11 @@
   "zephexmcp/mcp-server-zephex": {
     "name": "zephexMCP/mcp-server-zephex",
     "url": "https://github.com/zephexMCP/mcp-server-zephex",
-    "description": "Zed extension for Zephex — 10 hosted MCP developer tools (project context, code search, architecture analysis, package auditing, security headers, persistent reasoning) for AI agents in Zed's Agent Panel. One API key, zero local setup. https://zephex.dev",
+    "description": "Zephex hosted MCP (Zed extension) — 10 tools for real codebases + optional CLI. Project context, find_code, check_package, Test Pulse. https://zephex.dev/mcp",
     "stars": 2,
     "forks": 0,
     "topics": [
+      "ai-agents",
       "ai-tools",
       "developer-tools",
       "mcp",
@@ -50022,8 +50023,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-05-22T18:49:00Z",
-    "updated_at": "2026-05-25T09:21:23Z",
-    "pushed_at": "2026-05-22T22:39:48Z",
+    "updated_at": "2026-08-08T00:41:04Z",
+    "pushed_at": "2026-08-08T00:14:28Z",
     "discovered_at": "2026-05-23T00:37:18.390Z",
     "official": true,
     "extension": {
@@ -53768,8 +53769,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
-    "updated_at": "2026-08-07T18:32:32Z",
-    "pushed_at": "2026-08-07T18:32:21Z",
+    "updated_at": "2026-08-07T22:10:24Z",
+    "pushed_at": "2026-08-07T22:10:20Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false,
     "extension": {
@@ -56650,6 +56651,177 @@
         "Ghostvox"
       ],
       "repository": "https://github.com/Ghostvox/Stix",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "ggfevans/zed-hujson": {
+    "name": "ggfevans/zed-hujson",
+    "url": "https://github.com/ggfevans/zed-hujson",
+    "description": "HuJSON language grammar for Zed",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "grammar",
+      "huge-jason",
+      "hujson",
+      "human-json",
+      "tree-sitter",
+      "tree-sitter-grammar",
+      "zed"
+    ],
+    "language": "Shell",
+    "license": "MIT",
+    "created_at": "2026-04-09T07:16:05Z",
+    "updated_at": "2026-06-15T06:41:07Z",
+    "pushed_at": "2026-06-15T06:41:05Z",
+    "discovered_at": "2026-08-08T01:04:38.158Z",
+    "official": true,
+    "extension": {
+      "id": "hujson",
+      "name": "HuJSON",
+      "description": "HuJSON (JWCC) support: JSON with comments and trailing commas",
+      "version": "1.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Gareth Evans <hi@gvns.ca>"
+      ],
+      "repository": "https://github.com/ggfevans/zed-hujson",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
+      ]
+    }
+  },
+  "jackwsmth/modelfile-zed": {
+    "name": "jackwsmth/modelfile-zed",
+    "url": "https://github.com/jackwsmth/modelfile-zed",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2026-04-29T13:35:14Z",
+    "updated_at": "2026-05-07T12:06:21Z",
+    "pushed_at": "2026-05-07T12:06:16Z",
+    "discovered_at": "2026-08-08T01:04:38.158Z",
+    "official": true,
+    "extension": {
+      "id": "modelfile",
+      "name": "Modelfile",
+      "description": "Syntax highlighting for Ollama's Modelfile.",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Jack Smith <jackwsmth@proton.me>"
+      ],
+      "repository": "https://github.com/jackwsmth/modelfile-zed",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
+      ]
+    }
+  },
+  "julian-graf/zed-one-dark-vibrant": {
+    "name": "julian-graf/zed-one-dark-vibrant",
+    "url": "https://github.com/julian-graf/zed-one-dark-vibrant",
+    "description": "A Zed-port of José Rodríguez' One Dark Vibrant theme for VSCode: https://github.com/josergz/one-dark-vibrant-theme",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-06-12T19:54:00Z",
+    "updated_at": "2026-07-24T15:14:31Z",
+    "pushed_at": "2026-07-24T15:10:12Z",
+    "discovered_at": "2026-08-08T01:04:38.158Z",
+    "official": true,
+    "extension": {
+      "id": "one-dark-vibrant-theme",
+      "name": "One Dark Vibrant",
+      "description": "A port of one-dark-vibrant-theme to Zed",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Julian Graf"
+      ],
+      "repository": "https://github.com/julian-graf/zed-one-dark-vibrant",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "ganderzz/zed-dylan": {
+    "name": "ganderzz/zed-dylan",
+    "url": "https://github.com/ganderzz/zed-dylan",
+    "description": "Extension to use the Dylan LSP in the Zed Editor",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2026-06-21T05:57:16Z",
+    "updated_at": "2026-06-21T17:34:11Z",
+    "pushed_at": "2026-06-21T17:34:07Z",
+    "discovered_at": "2026-08-08T01:04:38.158Z",
+    "official": true,
+    "extension": {
+      "id": "open-dylan",
+      "name": "Open Dylan",
+      "description": "Open Dylan language support with lsp-dylan LSP",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Dylan Paulus <hello@dylanpaulus.com>"
+      ],
+      "repository": "https://github.com/dylan/zed-open-dylan",
+      "snippets": null,
+      "sections": [
+        "grammars",
+        "language_servers"
+      ],
+      "categories": [
+        "grammar",
+        "language-server"
+      ]
+    }
+  },
+  "ahmedash95/sukun": {
+    "name": "ahmedash95/sukun",
+    "url": "https://github.com/ahmedash95/sukun",
+    "description": "Zed theme",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-07-23T13:42:35Z",
+    "updated_at": "2026-07-23T16:58:07Z",
+    "pushed_at": "2026-07-23T16:48:33Z",
+    "discovered_at": "2026-08-08T01:04:38.158Z",
+    "official": true,
+    "extension": {
+      "id": "sukun-theme",
+      "name": "Sukun",
+      "description": "Sukun — a calm, warm theme for Zed with light, soft, and dark variants.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Ahmed Ash"
+      ],
+      "repository": "https://github.com/ahmedash95/sukun",
       "snippets": null,
       "sections": [],
       "categories": [

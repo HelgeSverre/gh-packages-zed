@@ -1,0 +1,15 @@
+id = "open-dylan"
+name = "Open Dylan"
+description = "Open Dylan language support with lsp-dylan LSP"
+version = "0.0.1"
+schema_version = 1
+authors = ["Dylan Paulus <hello@dylanpaulus.com>"]
+repository = "https://github.com/dylan/zed-open-dylan"
+
+[grammars.dylan]
+repository = "https://github.com/ganderzz/tree-sitter-dylan"
+commit = "acaca0932e456c2707880a14dae15747750746e9"
+
+[language_servers.dylan-lsp-server]
+languages = ["Dylan"]
+name = "dylan-lsp-server"
