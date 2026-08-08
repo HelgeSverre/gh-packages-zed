@@ -1,0 +1,11 @@
+id = "robots-txt"
+name = "robots.txt"
+version = "0.1.0"
+schema_version = 1
+authors = ["PleahMaCaka <pleahmacaka@gmail.com>"]
+description = "robots.txt syntax support"
+repository = "https://github.com/PleahMaCaka/zed-robots-txt"
+
+[grammars.robots_txt]
+repository = "https://github.com/opa-oz/tree-sitter-robots-txt"
+commit = "0c066107e3548de79316a6a4ec771e2f7cf7c468" # v1.0.1
