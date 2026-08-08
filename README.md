@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1659** |
 | In official registry | 1183 |
 | Discovered via topics | 476 |
-| Last updated | 2026-08-08 01:04 UTC |
+| Last updated | 2026-08-08 07:02 UTC |
 
 ### By capability
 
@@ -120,15 +120,15 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-08-08 | A Zed extension that allows to highlight all occurrences of ... |
+| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-08-08 | Intelligent codebase search & indexing for Zed. Async MCP se... |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 92 | 2026-08-08 | True Dark Theme for Zed IDE |
 | [zephexMCP/mcp-server-zephex](https://github.com/zephexMCP/mcp-server-zephex) | 2 | 2026-08-08 | Zephex hosted MCP (Zed extension) — 10 tools for real codeba... |
 | [zed-extensions/kotlin](https://github.com/zed-extensions/kotlin) | 103 | 2026-08-07 | Kotlin support |
-| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-08-07 | Intelligent codebase search & indexing for Zed. Async MCP se... |
-| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-08-07 | A Zed extension that allows to highlight all occurrences of ... |
 | [imkarmona/miles-theme](https://github.com/imkarmona/miles-theme) | 0 | 2026-08-07 | Dark red Zed theme inspired by Spider-Man — OLED and Night v... |
 | [devidb/cathode-zed-theme](https://github.com/devidb/cathode-zed-theme) | 0 | 2026-08-07 | Dark theme with a blurred translucent background and a neon ... |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 164 | 2026-08-07 | 🦊 Zed editor theme ported from Neovim |
 | [Nicktriez/edgerunners-2-zed-editor-themes](https://github.com/Nicktriez/edgerunners-2-zed-editor-themes) | 0 | 2026-08-07 |  |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 92 | 2026-08-07 | True Dark Theme for Zed IDE |
 | [alaestor/mirror-zed-cea](https://github.com/alaestor/mirror-zed-cea) | 0 | 2026-08-07 | zed extension for cheat engine auto-assembler script |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 208 | 2026-08-06 | Zed plugin for automatic time tracking and metrics generated... |
 | [dylan-gluck/zed-sudolang](https://github.com/dylan-gluck/zed-sudolang) | 0 | 2026-08-05 | Zed extension for SudoLang |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-08-08T07:02 | 0 | 541 | 2008 |
 | 2026-08-08T01:04 | 5 | 541 | 2008 |
 | 2026-08-07T19:02 | 6 | 541 | 2003 |
 | 2026-08-07T13:03 | 4 | 541 | 1997 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-08-06T07:34 | 0 | 541 | 1992 |
 | 2026-08-06T01:08 | 1 | 540 | 1992 |
 | 2026-08-05T19:06 | 0 | 541 | 1991 |
-| 2026-08-05T13:16 | 0 | 541 | 1991 |
 
 ---
 
