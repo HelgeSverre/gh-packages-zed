@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1665** |
 | In official registry | 1189 |
 | Discovered via topics | 476 |
-| Last updated | 2026-08-09 01:04 UTC |
+| Last updated | 2026-08-09 07:02 UTC |
 
 ### By capability
 
@@ -120,13 +120,13 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-08-09 | A Zed extension that allows to highlight all occurrences of ... |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 93 | 2026-08-09 | True Dark Theme for Zed IDE |
 | [freshjuice-dev/zed-themes](https://github.com/freshjuice-dev/zed-themes) | 1 | 2026-08-08 | FreshJuice dark themes for Zed editor — fruit-named, high-co... |
 | [maxhu08/modern-tweaked-zed](https://github.com/maxhu08/modern-tweaked-zed) | 0 | 2026-08-08 | 🎨 a set of vscode themes for zed ide |
-| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-08-08 | A Zed extension that allows to highlight all occurrences of ... |
 | [Onzis/opencode-theme](https://github.com/Onzis/opencode-theme) | 1 | 2026-08-08 | opencode-theme for Zed IDE |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-08-08 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [kr-aman-sharma/idx-theme](https://github.com/kr-aman-sharma/idx-theme) | 0 | 2026-08-08 | Project IDX is alive |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 93 | 2026-08-08 | True Dark Theme for Zed IDE |
 | [zephexMCP/mcp-server-zephex](https://github.com/zephexMCP/mcp-server-zephex) | 4 | 2026-08-08 | Zephex hosted MCP (Zed extension) — 10 tools for real codeba... |
 | [Zeraphim/zed-theme](https://github.com/Zeraphim/zed-theme) | 0 | 2026-08-07 |  |
 | [zed-extensions/kotlin](https://github.com/zed-extensions/kotlin) | 103 | 2026-08-07 | Kotlin support |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-08-09T07:02 | 0 | 544 | 2015 |
 | 2026-08-09T01:04 | 1 | 543 | 2015 |
 | 2026-08-08T18:56 | 4 | 541 | 2014 |
 | 2026-08-08T13:01 | 2 | 541 | 2010 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-08-07T13:03 | 4 | 541 | 1997 |
 | 2026-08-07T07:04 | 0 | 542 | 1993 |
 | 2026-08-07T01:39 | 0 | 542 | 1993 |
-| 2026-08-06T13:14 | 1 | 541 | 1993 |
 
 ---
 
