@@ -1,0 +1,9 @@
+id = "forest-mint-theme"
+name = "Forest Mint"
+version = "0.1.0"
+schema_version = 1
+authors = ["Laura Thiel <me@laura.garden>"]
+description = "Warm forest-green theme, light + dark"
+repository = "https://github.com/lauragarden/zed-forest-mint"
+
+themes = ["themes/forest-mint.json"]

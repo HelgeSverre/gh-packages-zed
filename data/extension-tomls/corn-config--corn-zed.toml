@@ -1,0 +1,11 @@
+id = "corn"
+name = "Corn"
+description = "Language support for the Corn config language"
+version = "0.1.0"
+schema_version = 1
+authors = ["Victor Vintorez <victor@vintorez.dev>"]
+repository = "https://github.com/corn-config/corn-zed"
+
+[grammars.corn]
+repository = "https://github.com/corn-config/tree-sitter-corn"
+rev = "464654742cbfd3a3de560aba120998f1d5dfa844"

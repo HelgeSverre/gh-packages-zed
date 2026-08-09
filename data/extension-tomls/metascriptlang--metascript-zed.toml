@@ -1,0 +1,15 @@
+id = "metascript"
+name = "MetaScript"
+description = "MetaScript language support."
+version = "0.2.0"
+schema_version = 1
+authors = ["MetaScript Contributors"]
+repository = "https://github.com/metascriptlang/metascript-zed"
+
+[grammars.metascript]
+repository = "https://github.com/metascriptlang/tree-sitter-metascript"
+commit = "9ca61fea148e7967291b9157cf9335132cc7ad00"
+
+[language_servers.metascript]
+name = "MetaScript Language Server"
+languages = ["MetaScript"]

@@ -1,0 +1,11 @@
+id = "praia"
+name = "Praia"
+version = "0.1.0"
+schema_version = 1
+authors = ["Viggo Lekdorf"]
+description = "Syntax highlighting for the Praia programming language"
+repository = "https://github.com/praia-lang/praia-zed"
+
+[grammars.praia]
+repository = "https://github.com/praia-lang/tree-sitter-praia"
+rev = "0f1e80478e638bcae5032884834fc8ca78d10656"

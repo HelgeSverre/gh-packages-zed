@@ -486,7 +486,7 @@
     "name": "BenjaminHalko/flow-icons-zed",
     "url": "https://github.com/BenjaminHalko/flow-icons-zed",
     "description": "🌼 Flow Icons ported to Zed",
-    "stars": 31,
+    "stars": 32,
     "forks": 3,
     "topics": [
       "flow",
@@ -499,7 +499,7 @@
     "language": "JavaScript",
     "license": null,
     "created_at": "2025-12-03T23:34:48Z",
-    "updated_at": "2026-07-30T15:21:42Z",
+    "updated_at": "2026-08-09T08:27:56Z",
     "pushed_at": "2026-07-27T02:22:29Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false,
@@ -856,7 +856,7 @@
     "updated_at": "2026-05-21T12:19:04Z",
     "pushed_at": "2026-05-21T12:19:00Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
-    "official": false,
+    "official": true,
     "extension": {
       "id": "pop-theme",
       "name": "Pop Theme",
@@ -7897,7 +7897,7 @@
     "updated_at": "2026-05-19T15:55:01Z",
     "pushed_at": "2026-05-19T15:42:17Z",
     "discovered_at": "2026-05-19T19:54:12.053Z",
-    "official": false,
+    "official": true,
     "extension": {
       "id": "neon-theme",
       "name": "Neon Theme",
@@ -8799,7 +8799,7 @@
     "name": "gko/oldbook-theme",
     "url": "https://github.com/gko/oldbook-theme",
     "description": "📙 Colorscheme inspired by the feel of aged books. Minimal, soft, and readable.",
-    "stars": 9,
+    "stars": 10,
     "forks": 1,
     "topics": [
       "colorscheme",
@@ -8816,7 +8816,7 @@
     "language": "Vim Script",
     "license": "GPL-3.0",
     "created_at": "2025-07-13T11:36:04Z",
-    "updated_at": "2026-06-24T12:30:39Z",
+    "updated_at": "2026-08-09T12:52:07Z",
     "pushed_at": "2026-03-22T12:19:41Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": true,
@@ -13488,6 +13488,7 @@
     "updated_at": "2026-05-17T12:06:45Z",
     "pushed_at": "2026-05-05T21:50:27Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
+    "official": true,
     "extension": {
       "id": "quint",
       "name": "Quint",
@@ -15426,6 +15427,7 @@
     "updated_at": "2026-04-17T10:29:34Z",
     "pushed_at": "2026-04-20T08:39:33Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
+    "official": true,
     "extension": {
       "id": "HL7v2",
       "name": "HL7v2",
@@ -56976,8 +56978,8 @@
     "language": null,
     "license": "Apache-2.0",
     "created_at": "2026-08-08T13:27:25Z",
-    "updated_at": "2026-08-08T13:35:57Z",
-    "pushed_at": "2026-08-08T13:35:50Z",
+    "updated_at": "2026-08-09T09:00:28Z",
+    "pushed_at": "2026-08-09T09:00:06Z",
     "discovered_at": "2026-08-08T18:56:57.472Z",
     "official": false,
     "extension": {
@@ -57028,6 +57030,299 @@
         "maxhu08"
       ],
       "repository": "https://github.com/maxhu08/modern-tweaked-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "corn-config/corn-zed": {
+    "name": "corn-config/corn-zed",
+    "url": "https://github.com/corn-config/corn-zed",
+    "description": "Corn language support for Zed editor",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2026-05-10T11:55:31Z",
+    "updated_at": "2026-05-10T14:15:57Z",
+    "pushed_at": "2026-05-10T14:15:53Z",
+    "discovered_at": "2026-08-09T13:02:03.483Z",
+    "official": true,
+    "extension": {
+      "id": "corn",
+      "name": "Corn",
+      "description": "Language support for the Corn config language",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Victor Vintorez <victor@vintorez.dev>"
+      ],
+      "repository": "https://github.com/corn-config/corn-zed",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
+      ]
+    }
+  },
+  "spilikin/zed-fhir-shorthand": {
+    "name": "spilikin/zed-fhir-shorthand",
+    "url": "https://github.com/spilikin/zed-fhir-shorthand",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2026-05-22T09:14:53Z",
+    "updated_at": "2026-05-26T07:17:40Z",
+    "pushed_at": "2026-05-26T07:17:38Z",
+    "discovered_at": "2026-08-09T13:02:03.483Z",
+    "official": true,
+    "extension": {
+      "id": "fhir-shorthand",
+      "name": "FHIR Shorthand",
+      "description": "FHIR Shorthand (FSH) language support for Zed: syntax highlighting, bracket matching, and code outline for .fsh files.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Sergej Suskov <sergej.suskov@gmail.com>"
+      ],
+      "repository": "https://github.com/spilikin/zed-fhir-shorthand",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
+      ]
+    }
+  },
+  "lauragarden/zed-forest-mint": {
+    "name": "lauragarden/zed-forest-mint",
+    "url": "https://github.com/lauragarden/zed-forest-mint",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-07-12T07:20:39Z",
+    "updated_at": "2026-07-14T19:48:39Z",
+    "pushed_at": "2026-07-14T19:48:28Z",
+    "discovered_at": "2026-08-09T13:02:03.483Z",
+    "official": true,
+    "extension": {
+      "id": "forest-mint-theme",
+      "name": "Forest Mint",
+      "description": "Warm forest-green theme, light + dark",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Laura Thiel <me@laura.garden>"
+      ],
+      "repository": "https://github.com/lauragarden/zed-forest-mint",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "maikel-479/hadal": {
+    "name": "maikel-479/hadal",
+    "url": "https://github.com/maikel-479/hadal",
+    "description": "Deep-sea Zed Editor Inspired Theme",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-08-07T04:25:22Z",
+    "updated_at": "2026-08-08T20:06:03Z",
+    "pushed_at": "2026-08-08T20:05:59Z",
+    "discovered_at": "2026-08-09T13:02:03.483Z",
+    "official": true,
+    "extension": {
+      "id": "hadal-theme",
+      "name": "Hadal Theme",
+      "description": "A deep-sea inspired theme for Zed with dark and light variants, 101 syntax captures, and full terminal support.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "maikel"
+      ],
+      "repository": "https://github.com/maikel-479/hadal",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "cassiebeckley/zed-koka": {
+    "name": "cassiebeckley/zed-koka",
+    "url": "https://github.com/cassiebeckley/zed-koka",
+    "description": "Zed editor extension for the Koka language",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2026-05-01T07:43:04Z",
+    "updated_at": "2026-05-01T07:51:27Z",
+    "pushed_at": "2026-05-01T07:51:24Z",
+    "discovered_at": "2026-08-09T13:02:03.483Z",
+    "official": true,
+    "extension": {
+      "id": "koka",
+      "name": "Koka",
+      "description": "Koka support.",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Cassandra Beckley <beckl.ds@gmail.com>"
+      ],
+      "repository": "https://github.com/cassiebeckley/zed-koka",
+      "snippets": null,
+      "sections": [
+        "grammars",
+        "language_servers"
+      ],
+      "categories": [
+        "grammar",
+        "language-server"
+      ]
+    }
+  },
+  "metascriptlang/metascript-zed": {
+    "name": "metascriptlang/metascript-zed",
+    "url": "https://github.com/metascriptlang/metascript-zed",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2026-03-05T11:14:44Z",
+    "updated_at": "2026-05-02T18:37:57Z",
+    "pushed_at": "2026-05-02T18:37:53Z",
+    "discovered_at": "2026-08-09T13:02:03.483Z",
+    "official": true,
+    "extension": {
+      "id": "metascript",
+      "name": "MetaScript",
+      "description": "MetaScript language support.",
+      "version": "0.2.0",
+      "schema_version": 1,
+      "authors": [
+        "MetaScript Contributors"
+      ],
+      "repository": "https://github.com/metascriptlang/metascript-zed",
+      "snippets": null,
+      "sections": [
+        "grammars",
+        "language_servers"
+      ],
+      "categories": [
+        "grammar",
+        "language-server"
+      ]
+    }
+  },
+  "regnull/palette-masters-zed": {
+    "name": "regnull/palette-masters-zed",
+    "url": "https://github.com/regnull/palette-masters-zed",
+    "description": "46 Zed editor themes inspired by master painter palettes — Monet, Van Gogh, Matisse, Rembrandt, and 19 more",
+    "stars": 6,
+    "forks": 0,
+    "topics": [],
+    "language": "Python",
+    "license": "MIT",
+    "created_at": "2026-05-10T01:39:58Z",
+    "updated_at": "2026-05-21T23:28:55Z",
+    "pushed_at": "2026-05-21T23:28:51Z",
+    "discovered_at": "2026-08-09T13:02:03.483Z",
+    "official": true,
+    "extension": {
+      "id": "palette-masters-theme",
+      "name": "Palette Masters",
+      "description": "46 color themes inspired by the master palettes of history's most influential painters",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "regnull"
+      ],
+      "repository": "https://github.com/regnull/palette-masters-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "praia-lang/praia-zed": {
+    "name": "praia-lang/praia-zed",
+    "url": "https://github.com/praia-lang/praia-zed",
+    "description": "Syntax highlighting for the Zed code editor",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2026-05-01T14:03:31Z",
+    "updated_at": "2026-05-28T15:06:12Z",
+    "pushed_at": "2026-05-28T15:03:33Z",
+    "discovered_at": "2026-08-09T13:02:03.483Z",
+    "official": true,
+    "extension": {
+      "id": "praia",
+      "name": "Praia",
+      "description": "Syntax highlighting for the Praia programming language",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Viggo Lekdorf"
+      ],
+      "repository": "https://github.com/praia-lang/praia-zed",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
+      ]
+    }
+  },
+  "biancofla/qwark": {
+    "name": "biancofla/qwark",
+    "url": "https://github.com/biancofla/qwark",
+    "description": "A muted green theme family for Zed.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-08-08T11:44:28Z",
+    "updated_at": "2026-08-09T12:19:26Z",
+    "pushed_at": "2026-08-09T12:19:19Z",
+    "discovered_at": "2026-08-09T13:02:03.484Z",
+    "official": true,
+    "extension": {
+      "id": "qwark-theme",
+      "name": "Qwark",
+      "description": "A muted green theme family designed for comfortable long reading sessions.",
+      "version": "0.2.0",
+      "schema_version": 1,
+      "authors": [
+        "Flavio Biancospino <flavio.biancospino@gmail.com>"
+      ],
+      "repository": "https://github.com/biancofla/qwark",
       "snippets": null,
       "sections": [],
       "categories": [
