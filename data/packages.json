@@ -431,7 +431,7 @@
     "license": "MIT",
     "created_at": "2025-12-13T09:32:42Z",
     "updated_at": "2026-08-08T05:12:35Z",
-    "pushed_at": "2026-08-01T20:06:05Z",
+    "pushed_at": "2026-08-08T20:02:50Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -5309,7 +5309,7 @@
     "name": "moabualruz/claude-code-cli-acp",
     "url": "https://github.com/moabualruz/claude-code-cli-acp",
     "description": "ACP adapter for the real Claude Code CLI: Rust PTY bridge for Zed and other Agent Client Protocol clients.",
-    "stars": 13,
+    "stars": 14,
     "forks": 3,
     "topics": [
       "acp",
@@ -5336,7 +5336,7 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-05-14T10:16:29Z",
-    "updated_at": "2026-06-26T19:56:03Z",
+    "updated_at": "2026-08-08T21:08:02Z",
     "pushed_at": "2026-06-11T17:08:35Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
@@ -6349,8 +6349,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-03-13T20:17:28Z",
-    "updated_at": "2026-08-03T08:36:13Z",
-    "pushed_at": "2026-07-16T02:22:07Z",
+    "updated_at": "2026-08-08T21:41:25Z",
+    "pushed_at": "2026-08-08T21:41:23Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": true
   },
@@ -15438,7 +15438,7 @@
     "name": "agent-sh/agnix",
     "url": "https://github.com/agent-sh/agnix",
     "description": "The missing linter and lsp for AI coding assistants. Validate CLAUDE.md, AGENTS.md, SKILL.md, hooks, MCP. Plugin for all major IDEs included, with autofixes.",
-    "stars": 375,
+    "stars": 376,
     "forks": 31,
     "topics": [
       "agent",
@@ -15465,8 +15465,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
-    "updated_at": "2026-08-08T17:42:11Z",
-    "pushed_at": "2026-08-08T18:48:01Z",
+    "updated_at": "2026-08-08T22:55:00Z",
+    "pushed_at": "2026-08-08T22:54:55Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -18024,8 +18024,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-08-08T13:02:13Z",
-    "pushed_at": "2026-08-08T13:02:09Z",
+    "updated_at": "2026-08-08T18:57:33Z",
+    "pushed_at": "2026-08-08T18:57:29Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -28861,7 +28861,7 @@
     "name": "zephexMCP/mcp-server-zephex",
     "url": "https://github.com/zephexMCP/mcp-server-zephex",
     "description": "Zephex hosted MCP (Zed extension) — 10 tools for real codebases + optional CLI. Project context, find_code, check_package, Test Pulse. https://zephex.dev/mcp",
-    "stars": 2,
+    "stars": 4,
     "forks": 0,
     "topics": [
       "ai-agents",
@@ -28876,7 +28876,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-05-22T18:49:00Z",
-    "updated_at": "2026-08-08T00:41:04Z",
+    "updated_at": "2026-08-08T21:55:17Z",
     "pushed_at": "2026-08-08T00:14:28Z",
     "discovered_at": "2026-05-23T00:37:18.390Z",
     "official": true
@@ -32013,7 +32013,7 @@
     "name": "ManSio/mscodebase-intelligence",
     "url": "https://github.com/ManSio/mscodebase-intelligence",
     "description": "Intelligent codebase search & indexing for Zed. Async MCP server featuring LanceDB/BM25 hybrid search, multi-bucket RAG, and autonomous self-healing workflows. High-performance, memory-safe, and ready for your production code.",
-    "stars": 1,
+    "stars": 2,
     "forks": 0,
     "topics": [
       "adr",
@@ -32037,7 +32037,7 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
-    "updated_at": "2026-08-08T12:52:35Z",
+    "updated_at": "2026-08-09T00:51:37Z",
     "pushed_at": "2026-08-08T12:52:22Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false
@@ -32548,7 +32548,7 @@
     "license": "MIT",
     "created_at": "2026-07-14T14:34:38Z",
     "updated_at": "2026-07-17T19:00:59Z",
-    "pushed_at": "2026-07-17T19:00:33Z",
+    "pushed_at": "2026-08-08T22:23:16Z",
     "discovered_at": "2026-07-14T19:04:59.269Z",
     "official": true
   },
@@ -33199,8 +33199,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-05-17T07:32:27Z",
-    "updated_at": "2026-08-07T12:52:47Z",
-    "pushed_at": "2026-08-08T03:29:47Z",
+    "updated_at": "2026-08-08T23:52:26Z",
+    "pushed_at": "2026-08-08T23:52:22Z",
     "discovered_at": "2026-07-26T01:12:51.640Z",
     "official": false
   },
@@ -34295,12 +34295,34 @@
       "tdd",
       "zed-editor"
     ],
-    "language": "Shell",
+    "language": "PowerShell",
     "license": "MIT",
     "created_at": "2026-08-07T18:46:45Z",
-    "updated_at": "2026-08-08T18:53:54Z",
-    "pushed_at": "2026-08-08T18:52:03Z",
+    "updated_at": "2026-08-08T19:56:32Z",
+    "pushed_at": "2026-08-08T19:56:28Z",
     "discovered_at": "2026-08-08T18:56:57.473Z",
+    "official": false
+  },
+  "maxhu08/modern-tweaked-zed": {
+    "name": "maxhu08/modern-tweaked-zed",
+    "url": "https://github.com/maxhu08/modern-tweaked-zed",
+    "description": "🎨 a set of vscode themes for zed ide",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "extension",
+      "theme",
+      "zed-extension",
+      "zed-them",
+      "zed-theme",
+      "zed-theme-dark"
+    ],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-08-08T22:06:40Z",
+    "updated_at": "2026-08-08T22:15:55Z",
+    "pushed_at": "2026-08-08T22:15:51Z",
+    "discovered_at": "2026-08-09T01:04:36.775Z",
     "official": false
   }
 }

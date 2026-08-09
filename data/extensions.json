@@ -50008,7 +50008,7 @@
     "name": "zephexMCP/mcp-server-zephex",
     "url": "https://github.com/zephexMCP/mcp-server-zephex",
     "description": "Zephex hosted MCP (Zed extension) — 10 tools for real codebases + optional CLI. Project context, find_code, check_package, Test Pulse. https://zephex.dev/mcp",
-    "stars": 2,
+    "stars": 4,
     "forks": 0,
     "topics": [
       "ai-agents",
@@ -50023,7 +50023,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-05-22T18:49:00Z",
-    "updated_at": "2026-08-08T00:41:04Z",
+    "updated_at": "2026-08-08T21:55:17Z",
     "pushed_at": "2026-08-08T00:14:28Z",
     "discovered_at": "2026-05-23T00:37:18.390Z",
     "official": true,
@@ -53745,7 +53745,7 @@
     "name": "ManSio/mscodebase-intelligence",
     "url": "https://github.com/ManSio/mscodebase-intelligence",
     "description": "Intelligent codebase search & indexing for Zed. Async MCP server featuring LanceDB/BM25 hybrid search, multi-bucket RAG, and autonomous self-healing workflows. High-performance, memory-safe, and ready for your production code.",
-    "stars": 1,
+    "stars": 2,
     "forks": 0,
     "topics": [
       "adr",
@@ -53769,7 +53769,7 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
-    "updated_at": "2026-08-08T12:52:35Z",
+    "updated_at": "2026-08-09T00:51:37Z",
     "pushed_at": "2026-08-08T12:52:22Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false,
@@ -54389,7 +54389,7 @@
     "license": "MIT",
     "created_at": "2026-07-14T14:34:38Z",
     "updated_at": "2026-07-17T19:00:59Z",
-    "pushed_at": "2026-07-17T19:00:33Z",
+    "pushed_at": "2026-08-08T22:23:16Z",
     "discovered_at": "2026-07-14T19:04:59.269Z",
     "official": true,
     "extension": {
@@ -56990,6 +56990,44 @@
         "Onzis"
       ],
       "repository": "https://github.com/Onzis/opencode-theme",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "maxhu08/modern-tweaked-zed": {
+    "name": "maxhu08/modern-tweaked-zed",
+    "url": "https://github.com/maxhu08/modern-tweaked-zed",
+    "description": "🎨 a set of vscode themes for zed ide",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "extension",
+      "theme",
+      "zed-extension",
+      "zed-them",
+      "zed-theme",
+      "zed-theme-dark"
+    ],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-08-08T22:06:40Z",
+    "updated_at": "2026-08-08T22:15:55Z",
+    "pushed_at": "2026-08-08T22:15:51Z",
+    "discovered_at": "2026-08-09T01:04:36.775Z",
+    "official": false,
+    "extension": {
+      "id": "vscode-modern-tweaked-theme",
+      "name": "VSCode Modern Tweaked",
+      "description": "Flatter, refined variants of VS Code Modern Dark and Light for Zed.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "maxhu08"
+      ],
+      "repository": "https://github.com/maxhu08/modern-tweaked-zed",
       "snippets": null,
       "sections": [],
       "categories": [

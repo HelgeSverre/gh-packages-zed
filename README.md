@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1664-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1665-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,16 +14,16 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1664** |
+| Total tracked | **1665** |
 | In official registry | 1189 |
-| Discovered via topics | 475 |
-| Last updated | 2026-08-08 18:56 UTC |
+| Discovered via topics | 476 |
+| Last updated | 2026-08-09 01:04 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
-| Themes | 706 |
+| Themes | 707 |
 | Grammars | 577 |
 | Language Servers | 534 |
 | Context Servers | 135 |
@@ -70,6 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [maxhu08/modern-tweaked-zed](https://github.com/maxhu08/modern-tweaked-zed) | 0 | 🎨 a set of vscode themes for zed ide |
 | [pleahmacaka/zed-robots-txt](https://github.com/pleahmacaka/zed-robots-txt) | 1 | robots.txt syntax support for Zed |
 | [pleahmacaka/zed-batch](https://github.com/pleahmacaka/zed-batch) | 2 | Windows Batch (.bat, .cmd) support |
 | [Onzis/opencode-theme](https://github.com/Onzis/opencode-theme) | 1 | opencode-theme for Zed IDE |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [AquaOctet/radical-reborn](https://github.com/AquaOctet/radical-reborn) | 0 | A dark theme for radical hacking inspired by retro futuristic design for the ZED... |
 | [ralnss/zed-visual-studio-dark](https://github.com/ralnss/zed-visual-studio-dark) | 1 | The dark theme of Visual Studio for Zed |
 | [mishaldotrs/snapcode](https://github.com/mishaldotrs/snapcode) | 1 | click screenshots for Zed, written in Rust. |
-| [everton-dgn/zed-dark-dracula](https://github.com/everton-dgn/zed-dark-dracula) | 0 | A darker Dracula theme for Zed with deep backgrounds, balanced contrast and refi... |
 
 ## Top starred (under 500)
 
@@ -120,12 +120,14 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [freshjuice-dev/zed-themes](https://github.com/freshjuice-dev/zed-themes) | 1 | 2026-08-08 | FreshJuice dark themes for Zed editor — fruit-named, high-co... |
+| [maxhu08/modern-tweaked-zed](https://github.com/maxhu08/modern-tweaked-zed) | 0 | 2026-08-08 | 🎨 a set of vscode themes for zed ide |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-08-08 | A Zed extension that allows to highlight all occurrences of ... |
 | [Onzis/opencode-theme](https://github.com/Onzis/opencode-theme) | 1 | 2026-08-08 | opencode-theme for Zed IDE |
-| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 1 | 2026-08-08 | Intelligent codebase search & indexing for Zed. Async MCP se... |
+| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-08-08 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [kr-aman-sharma/idx-theme](https://github.com/kr-aman-sharma/idx-theme) | 0 | 2026-08-08 | Project IDX is alive |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 93 | 2026-08-08 | True Dark Theme for Zed IDE |
-| [zephexMCP/mcp-server-zephex](https://github.com/zephexMCP/mcp-server-zephex) | 2 | 2026-08-08 | Zephex hosted MCP (Zed extension) — 10 tools for real codeba... |
+| [zephexMCP/mcp-server-zephex](https://github.com/zephexMCP/mcp-server-zephex) | 4 | 2026-08-08 | Zephex hosted MCP (Zed extension) — 10 tools for real codeba... |
 | [Zeraphim/zed-theme](https://github.com/Zeraphim/zed-theme) | 0 | 2026-08-07 |  |
 | [zed-extensions/kotlin](https://github.com/zed-extensions/kotlin) | 103 | 2026-08-07 | Kotlin support |
 | [imkarmona/miles-theme](https://github.com/imkarmona/miles-theme) | 0 | 2026-08-07 | Dark red Zed theme inspired by Spider-Man — OLED and Night v... |
@@ -138,13 +140,12 @@ cd website && npm install && npm run dev
 | [mishaldotrs/snapcode](https://github.com/mishaldotrs/snapcode) | 1 | 2026-08-05 | click screenshots for Zed, written in Rust. |
 | [AquaOctet/radical-reborn](https://github.com/AquaOctet/radical-reborn) | 0 | 2026-08-05 | A dark theme for radical hacking inspired by retro futuristi... |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-08-05 | Zed editor support for Carve, a modern light markup language |
-| [tgrecojs/coding-in-the-sun](https://github.com/tgrecojs/coding-in-the-sun) | 0 | 2026-08-05 |  |
-| [leolorenzato/zed-pastel-night-theme](https://github.com/leolorenzato/zed-pastel-night-theme) | 0 | 2026-08-04 | 🌃 Pastel Night theme for Zed |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-08-09T01:04 | 1 | 543 | 2015 |
 | 2026-08-08T18:56 | 4 | 541 | 2014 |
 | 2026-08-08T13:01 | 2 | 541 | 2010 |
 | 2026-08-08T07:02 | 0 | 541 | 2008 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-08-07T07:04 | 0 | 542 | 1993 |
 | 2026-08-07T01:39 | 0 | 542 | 1993 |
 | 2026-08-06T13:14 | 1 | 541 | 1993 |
-| 2026-08-06T07:34 | 0 | 541 | 1992 |
 
 ---
 
