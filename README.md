@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1674** |
 | In official registry | 1202 |
 | Discovered via topics | 472 |
-| Last updated | 2026-08-09 13:02 UTC |
+| Last updated | 2026-08-09 18:57 UTC |
 
 ### By capability
 
@@ -104,12 +104,12 @@ cd website && npm install && npm run dev
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
 | [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 195 | Zed support for the Godot game engine and the GDScript language |
-| [zed-extensions/typst](https://github.com/zed-extensions/typst) | 193 | Typst extension for zed |
+| [zed-extensions/typst](https://github.com/zed-extensions/typst) | 192 | Typst extension for zed |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 167 | A macOS native style theme for Zed, let it same like native app in macOS. |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 164 | 🦊 Zed editor theme ported from Neovim |
-| [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 152 |  |
+| [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 153 |  |
 | [zed-extensions/swift](https://github.com/zed-extensions/swift) | 148 | Extension for Zed to support Swift |
 | [thedadams/zed-comment](https://github.com/thedadams/zed-comment) | 148 | A comment extension for the Zed editor |
 | [slymax/zedokai](https://github.com/slymax/zedokai) | 145 | a theme for Zed based on the Monokai Pro color scheme |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-08-09T18:57 | 0 | 544 | 2024 |
 | 2026-08-09T13:02 | 9 | 544 | 2024 |
 | 2026-08-09T07:02 | 0 | 544 | 2015 |
 | 2026-08-09T01:04 | 1 | 543 | 2015 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-08-08T01:04 | 5 | 541 | 2008 |
 | 2026-08-07T19:02 | 6 | 541 | 2003 |
 | 2026-08-07T13:03 | 4 | 541 | 1997 |
-| 2026-08-07T07:04 | 0 | 542 | 1993 |
 
 ---
 
