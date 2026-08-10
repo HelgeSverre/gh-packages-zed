@@ -5221,7 +5221,7 @@
     "name": "jenslys/zed-catppuccin-blur",
     "url": "https://github.com/jenslys/zed-catppuccin-blur",
     "description": "Catppuccin Theme but as blurred variants + custom ones",
-    "stars": 330,
+    "stars": 331,
     "forks": 13,
     "topics": [
       "catppuccin",
@@ -5233,7 +5233,7 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2024-07-12T16:43:02Z",
-    "updated_at": "2026-08-07T03:43:33Z",
+    "updated_at": "2026-08-10T10:59:36Z",
     "pushed_at": "2026-01-26T02:22:08Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -54708,7 +54708,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
     "updated_at": "2026-08-03T13:24:54Z",
-    "pushed_at": "2026-08-03T13:22:24Z",
+    "pushed_at": "2026-08-10T12:17:38Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false,
     "extension": {
@@ -57358,6 +57358,101 @@
       "sections": [
         "contributes"
       ],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "valyefimov/zed-theme-efa-dark": {
+    "name": "valyefimov/zed-theme-efa-dark",
+    "url": "https://github.com/valyefimov/zed-theme-efa-dark",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2025-11-12T17:18:37Z",
+    "updated_at": "2026-05-05T22:35:10Z",
+    "pushed_at": "2026-05-05T22:35:06Z",
+    "discovered_at": "2026-08-10T13:03:26.789Z",
+    "official": true,
+    "extension": {
+      "id": "efa-dark-theme",
+      "name": "Efa Dark Theme",
+      "description": "A JetBrains-inspired dark theme for Zed with balanced contrast and refined syntax colors.",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "authors": [
+        "Yefimov Valentyn <valentine.efimov@gmail.com>"
+      ],
+      "repository": "https://github.com/valyefimov/zed-theme-efa-dark",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "nekoyasan/inlang-zed": {
+    "name": "NEKOYASAN/inlang-zed",
+    "url": "https://github.com/NEKOYASAN/inlang-zed",
+    "description": "",
+    "stars": 1,
+    "forks": 0,
+    "topics": [],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2026-06-29T11:36:08Z",
+    "updated_at": "2026-07-25T11:35:49Z",
+    "pushed_at": "2026-07-25T11:35:43Z",
+    "discovered_at": "2026-08-10T13:03:26.789Z",
+    "official": true,
+    "extension": {
+      "id": "inlang-language-server",
+      "name": "Inlang Language Server",
+      "description": "Unofficial Inlang Language Server - Inspect Inlang and Paraglide message references with inline hints, hovers, diagnostics, and extract actions.",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Akane Kamiseto <akane@nekoyasan.me>"
+      ],
+      "repository": "https://github.com/nekoyasan/inlang-zed",
+      "snippets": null,
+      "sections": [
+        "language_servers"
+      ],
+      "categories": [
+        "language-server"
+      ]
+    }
+  },
+  "xplato/kokedera-light": {
+    "name": "xplato/kokedera-light",
+    "url": "https://github.com/xplato/kokedera-light",
+    "description": "Light themed version of Kokedera for Zed",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-05-04T20:48:40Z",
+    "updated_at": "2026-05-04T21:00:19Z",
+    "pushed_at": "2026-05-04T21:00:13Z",
+    "discovered_at": "2026-08-10T13:03:26.789Z",
+    "official": true,
+    "extension": {
+      "id": "kokedera-light-theme",
+      "name": "Kokedera Light",
+      "description": "A peaceful light theme inspired by the dark theme, Kokedera.",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Tristan Brewster"
+      ],
+      "repository": "https://github.com/xplato/kokedera-light",
+      "snippets": null,
+      "sections": [],
       "categories": [
         "theme"
       ]

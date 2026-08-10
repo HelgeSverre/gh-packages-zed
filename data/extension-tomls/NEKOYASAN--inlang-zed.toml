@@ -1,0 +1,34 @@
+id = "inlang-language-server"
+name = "Inlang Language Server"
+description = "Unofficial Inlang Language Server - Inspect Inlang and Paraglide message references with inline hints, hovers, diagnostics, and extract actions."
+version = "0.0.1"
+schema_version = 1
+authors = ["Akane Kamiseto <akane@nekoyasan.me>"]
+repository = "https://github.com/nekoyasan/inlang-zed"
+
+[language_servers.inlang-language-server]
+name = "Inlang Language Server"
+languages = [
+  "Astro",
+  "HTML",
+  "JavaScript",
+  "JSX",
+  "JSON",
+  "JSONC",
+  "Svelte",
+  "TSX",
+  "TypeScript",
+  "Vue.js",
+]
+
+[language_servers.inlang-language-server.language_ids]
+"Astro" = "astro"
+"HTML" = "html"
+"JavaScript" = "javascript"
+"JSX" = "javascriptreact"
+"JSON" = "json"
+"JSONC" = "jsonc"
+"Svelte" = "svelte"
+"TSX" = "typescriptreact"
+"TypeScript" = "typescript"
+"Vue.js" = "vue"
