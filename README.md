@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1675** |
 | In official registry | 1202 |
 | Discovered via topics | 473 |
-| Last updated | 2026-08-10 01:04 UTC |
+| Last updated | 2026-08-10 07:05 UTC |
 
 ### By capability
 
@@ -100,7 +100,7 @@ cd website && npm install && npm run dev
 | [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 330 | Catppuccin Theme but as blurred variants + custom ones |
 | [oxc-project/oxc-zed](https://github.com/oxc-project/oxc-zed) | 256 | Oxc extension for Zed |
 | [catppuccin/zed-icons](https://github.com/catppuccin/zed-icons) | 240 | 🦊 Soothing pastel icons for Zed |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 208 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 209 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
 | [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 195 | Zed support for the Godot game engine and the GDScript language |
@@ -120,12 +120,12 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 93 | 2026-08-10 | True Dark Theme for Zed IDE |
 | [comphy-lab/comphy-zed-themes](https://github.com/comphy-lab/comphy-zed-themes) | 2 | 2026-08-09 |  |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 164 | 2026-08-09 | 🦊 Zed editor theme ported from Neovim |
 | [biancofla/qwark](https://github.com/biancofla/qwark) | 0 | 2026-08-09 | A muted green theme family for Zed. |
 | [Onzis/opencode-theme](https://github.com/Onzis/opencode-theme) | 1 | 2026-08-09 | opencode-theme for Zed IDE |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-08-09 | A Zed extension that allows to highlight all occurrences of ... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 93 | 2026-08-09 | True Dark Theme for Zed IDE |
 | [freshjuice-dev/zed-themes](https://github.com/freshjuice-dev/zed-themes) | 1 | 2026-08-08 | FreshJuice dark themes for Zed editor — fruit-named, high-co... |
 | [maxhu08/modern-tweaked-zed](https://github.com/maxhu08/modern-tweaked-zed) | 0 | 2026-08-08 | 🎨 a set of vscode themes for zed ide |
 | [maikel-479/hadal](https://github.com/maikel-479/hadal) | 0 | 2026-08-08 | Deep-sea Zed Editor Inspired Theme |
@@ -138,13 +138,14 @@ cd website && npm install && npm run dev
 | [devidb/cathode-zed-theme](https://github.com/devidb/cathode-zed-theme) | 0 | 2026-08-07 | Dark theme with a blurred translucent background and a neon ... |
 | [Nicktriez/edgerunners-2-zed-editor-themes](https://github.com/Nicktriez/edgerunners-2-zed-editor-themes) | 0 | 2026-08-07 |  |
 | [alaestor/mirror-zed-cea](https://github.com/alaestor/mirror-zed-cea) | 0 | 2026-08-07 | zed extension for cheat engine auto-assembler script |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 208 | 2026-08-06 | Zed plugin for automatic time tracking and metrics generated... |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 209 | 2026-08-06 | Zed plugin for automatic time tracking and metrics generated... |
 | [dylan-gluck/zed-sudolang](https://github.com/dylan-gluck/zed-sudolang) | 0 | 2026-08-05 | Zed extension for SudoLang |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-08-10T07:05 | 0 | 544 | 2025 |
 | 2026-08-10T01:04 | 1 | 543 | 2025 |
 | 2026-08-09T18:57 | 0 | 544 | 2024 |
 | 2026-08-09T13:02 | 9 | 544 | 2024 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-08-08T13:01 | 2 | 541 | 2010 |
 | 2026-08-08T07:02 | 0 | 541 | 2008 |
 | 2026-08-08T01:04 | 5 | 541 | 2008 |
-| 2026-08-07T19:02 | 6 | 541 | 2003 |
 
 ---
 
