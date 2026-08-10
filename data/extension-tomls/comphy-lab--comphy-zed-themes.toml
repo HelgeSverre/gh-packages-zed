@@ -1,0 +1,11 @@
+id = "comphy-crisp-themes"
+name = "CoMPhy Crisp Themes"
+version = "1.1.0"
+schema_version = 1
+authors = ["Vatsal Sanjay <vatsalsanjay@gmail.com>"]
+description = "CoMPhy Crisp Velvet themes — jewel-toned syntax on deep plum-tinted dark backgrounds"
+repository = "https://github.com/VatsalSy/comphy-zed-themes"
+icon = "icon.png"
+
+[contributes]
+themes = ["themes/comphy-crisp-velvet.json", "themes/comphy-gruvbox-plum.json"]
