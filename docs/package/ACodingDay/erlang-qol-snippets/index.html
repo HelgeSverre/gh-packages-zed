@@ -1,0 +1,193 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Erlang QoL Snippets - Zed Extension Safari</title><meta name="description" content="Erlang QoL snippets for the Zed editor — module/comment templates and code generation"><link rel="canonical" href="https://helgesverre.github.io/gh-packages-zed/package/ACodingDay/erlang-qol-snippets/"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Erlang QoL Snippets - Zed Extension Safari"><meta property="og:description" content="Erlang QoL snippets for the Zed editor — module/comment templates and code generation"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed/package/ACodingDay/erlang-qol-snippets/"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Erlang QoL Snippets - Zed Extension Safari"><meta name="twitter:description" content="Erlang QoL snippets for the Zed editor — module/comment templates and code generation"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/gh-packages-zed/_astro/ClientRouter.astro_astro_type_script_index_0_lang.ClVLs1kt.js"></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Erlang QoL Snippets","description":"Erlang QoL snippets for the Zed editor — module/comment templates and code generation","applicationCategory":"DeveloperApplication","operatingSystem":"macOS, Linux, Windows","url":"https://zed.dev/extensions/erlang-qol-snippets","codeRepository":"https://github.com/ACodingDay/erlang-qol-snippets","author":[{"@type":"Person","name":"ACodingDay"}],"softwareVersion":"0.1.0","license":"MIT","keywords":"snippets","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/Layout.CGDlMdWE.css"><script type="module" src="/gh-packages-zed/_astro/page.B8i1Zz-u.js"></script></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <a href="#main" class="skip-to-content">Skip to content</a> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" data-astro-transition-persist="astro-fhchcgd7-1"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <script type="application/json" id="pkg-extras">{"url":"https://github.com/ACodingDay/erlang-qol-snippets","language":"PowerShell","license":"MIT","topics":[],"extension":{"authors":["ACodingDay"],"schema_version":1}}</script> <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> ACodingDay/erlang-qol-snippets </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> Erlang QoL Snippets </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> Erlang QoL: module and comment templates as snippets, ported from the erlang-code-generation VSCode extension </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="snippets">Snippets</span> </div> </div> </div> </header> <main id="main" class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/erlang-qol-snippets" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/ACodingDay/erlang-qol-snippets" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.1.0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">erlang-qol-snippets</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">PowerShell</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">MIT</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">1d ago</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">ACodingDay</dd> </div> </dl>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-erlang-qol-snippets"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#erlang-qol-snippets"><span class="heading-anchor-icon">#</span></a>Erlang QoL Snippets</h1>
+<p><a href="https://github.com/ACodingDay/erlang-qol-snippets/blob/HEAD/README_CN.md" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/%E4%B8%AD%E6%96%87%E6%96%87%E6%A1%A3-%E7%82%B9%E5%87%BB%E6%9F%A5%E7%9C%8B-orange" alt="中文文档"></a></p>
+<p>Erlang code generation templates and everyday code snippets for the <a href="https://zed.dev">Zed editor</a>, ported from the <a href="https://github.com/Qualia91/erlang-code-generation">erlang-code-generation</a> VSCode extension.</p>
+<h2 id="user-content-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features"><span class="heading-anchor-icon">#</span></a>Features</h2>
+<ul>
+<li><strong>11 module templates</strong> — gen_server, gen_statem, supervisor, header (<code>.hrl</code> with include guard), empty module, Common Test suite, poolboy worker, cowboy websocket handler, cowboy REST handler, lager handler, escript</li>
+<li><strong>3 comment templates</strong> — header / section / function</li>
+<li><strong>14 everyday code snippets</strong> — log, receive, case, try, eunit tests, poolboy/cowboy/child-spec snippets</li>
+</ul>
+<h2 id="user-content-requirements"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#requirements"><span class="heading-anchor-icon">#</span></a>Requirements</h2>
+<ul>
+<li>Zed editor</li>
+<li>An extension that provides the Erlang language (e.g. the official <a href="https://github.com/zed-extensions/erlang"><code>erlang</code></a> extension — it also bundles the ELP and erlang_ls language servers). Snippets are scoped to the <code>Erlang</code> language.</li>
+</ul>
+<h2 id="user-content-installation-development"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation-development"><span class="heading-anchor-icon">#</span></a>Installation (development)</h2>
+<p>Until this extension is published to the Zed extension registry, install it as a dev extension:</p>
+<ol>
+<li>Zed → Extensions panel → <strong>Install Dev Extension</strong> (or run <code>zed: install dev extension</code> from the command palette)</li>
+<li>Select this repository's directory</li>
+<li>In Extensions panel, the card shows <code>erlang-qol-snippets</code> as a dev extension</li>
+</ol>
+<h2 id="user-content-usage"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#usage"><span class="heading-anchor-icon">#</span></a>Usage</h2>
+<h3 id="user-content-via-snippet-completion"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#via-snippet-completion"><span class="heading-anchor-icon">#</span></a>Via snippet completion</h3>
+<p>Open an <code>.erl</code> / <code>.hrl</code> file and type a snippet prefix, then select it from the completion menu.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Prefix</th><th>Snippet</th></tr></thead><tbody><tr><td><code>log</code></td><td>print to console</td></tr><tr><td><code>rec</code> / <code>reca</code></td><td>receive / receive with after</td></tr><tr><td><code>case</code> / <code>if</code> / <code>try</code> / <code>?</code></td><td>case / if / try / inline try-catch</td></tr><tr><td><code>eunit</code></td><td>eunit tests section</td></tr><tr><td><code>pools</code> / <code>cows</code> / <code>works</code> / <code>sups</code></td><td>poolboy specs / cowboy web supervisor / worker child specs / supervisor child specs</td></tr><tr><td><code>comsec</code> / <code>funsec</code> / <code>comhdr</code></td><td>comment: section / function / header</td></tr><tr><td><code>mod-genserver</code></td><td>gen_server module template</td></tr><tr><td><code>mod-genstatem</code></td><td>gen_statem module template</td></tr><tr><td><code>mod-supervisor</code></td><td>supervisor module template</td></tr><tr><td><code>mod-header</code></td><td>header (<code>.hrl</code>) template with include guard</td></tr><tr><td><code>mod-empty</code></td><td>empty module template</td></tr><tr><td><code>mod-ct</code></td><td>Common Test suite template</td></tr><tr><td><code>mod-poolboy-worker</code></td><td>poolboy worker template</td></tr><tr><td><code>mod-websocket-handler</code></td><td>cowboy websocket handler template</td></tr><tr><td><code>mod-rest-handler</code></td><td>cowboy REST handler template</td></tr><tr><td><code>mod-lager-handler</code></td><td>lager handler template</td></tr><tr><td><code>mod-escript</code></td><td>escript template</td></tr></tbody></table>
+<h3 id="user-content-via-keybindings-recommended"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#via-keybindings-recommended"><span class="heading-anchor-icon">#</span></a>Via keybindings (recommended)</h3>
+<p>Zed extensions cannot register commands, so module templates are triggered by binding the <a href="https://zed.dev/docs/keymaps"><code>editor::InsertSnippet</code></a> action in your user keymap (<code>~/.config/zed/keymap.json</code> on Windows: <code>%APPDATA%\Zed\keymap.json</code>):</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">[</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "context"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"Editor &#x26;&#x26; !menu &#x26;&#x26; !picker"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "bindings"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "ctrl-shift-p g"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"editor::InsertSnippet"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"language"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"erlang"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"name"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"module: gen_server template"</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> }],</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "ctrl-shift-p s"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"editor::InsertSnippet"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"language"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"erlang"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"name"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"module: gen_statem template"</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> }],</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "ctrl-shift-p u"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"editor::InsertSnippet"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"language"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"erlang"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"name"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"module: supervisor template"</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> }],</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "ctrl-shift-p h"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"editor::InsertSnippet"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"language"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"erlang"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"name"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"module: header template"</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> }],</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "ctrl-shift-p e"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"editor::InsertSnippet"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"language"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"erlang"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"name"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"module: empty template"</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> }],</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "ctrl-shift-p c"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"editor::InsertSnippet"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"language"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"erlang"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"name"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"module: CT template"</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> }],</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "ctrl-shift-p p"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"editor::InsertSnippet"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"language"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"erlang"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"name"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"module: poolboy worker template"</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> }],</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "ctrl-shift-p w"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"editor::InsertSnippet"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"language"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"erlang"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"name"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"module: websocket handler template"</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> }],</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "ctrl-shift-p r"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"editor::InsertSnippet"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"language"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"erlang"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"name"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"module: cowboy rest handler template"</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> }],</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "ctrl-shift-p l"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"editor::InsertSnippet"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"language"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"erlang"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"name"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"module: lager handler template"</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> }],</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "ctrl-shift-p x"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"editor::InsertSnippet"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"language"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"erlang"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"name"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"module: escript template"</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> }],</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "ctrl-shift-p 1"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"editor::InsertSnippet"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"language"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"erlang"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"name"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"comment: header"</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> }],</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "ctrl-shift-p 2"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"editor::InsertSnippet"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"language"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"erlang"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"name"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"comment: section"</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> }],</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "ctrl-shift-p 3"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"editor::InsertSnippet"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"language"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"erlang"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"name"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"comment: function"</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> }]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span></code></pre>
+<p>Press <code>ctrl-shift-p</code> then the letter. Note that when a chord is pending, pressing <code>ctrl-shift-p</code> alone opens the command palette after a ~1s delay. <code>$1</code>/<code>$2</code>/<code>$3</code> tabstops guide you through module name, author and fields.</p>
+<h2 id="user-content-editing-templates--adding-new-snippets"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#editing-templates--adding-new-snippets"><span class="heading-anchor-icon">#</span></a>Editing templates / adding new snippets</h2>
+<p>Zed requires all snippets for one language to live in a single file (<code>snippets/erlang.json</code>), so this repository maintains one JSON file per snippet in <code>snippets-src/</code> and merges them with a build script.</p>
+<ol>
+<li>
+<p>Edit <code>snippets-src/&#x3C;nn-name>.json</code> (one snippet per file) or add a new one, e.g. <code>27-my-snippet.json</code>:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "My snippet"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "prefix"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"my"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "body"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"..."</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"</span><span style="color:#005CC5;--shiki-dark:#79B8FF">\t</span><span style="color:#032F62;--shiki-dark:#9ECBFF">${1:placeholder}"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">],</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "description"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"Optional description"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+</li>
+<li>
+<p>Run the merge script (PowerShell, no dependencies):</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">.\build.ps1</span></span></code></pre>
+</li>
+<li>
+<p>In Zed: Extensions panel → <strong>Rebuild</strong> on the dev extension card.</p>
+</li>
+</ol>
+<p>Notes:</p>
+<ul>
+<li>Snippet names must be unique (the build script fails on duplicates).</li>
+<li>Tabstops must be numbered continuously (<code>$1</code>, <code>$2</code>, ... <code>$0</code> for the final position); placeholders with the same number are linked (typing once fills all occurrences).</li>
+<li>Zed does not support snippet variables (<code>$TM_FILENAME_BASE</code> etc.) — use linked tabstops instead.</li>
+<li>A literal <code>$</code> inside the body must be escaped as <code>\\$</code>.</li>
+<li>Do not edit <code>snippets/erlang.json</code> directly — it is generated by <code>build.ps1</code>.</li>
+</ul>
+<h2 id="user-content-contributors"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#contributors"><span class="heading-anchor-icon">#</span></a>Contributors</h2>
+<ul>
+<li>Original extension <a href="https://github.com/Qualia91/erlang-code-generation">erlang-code-generation</a> and its developer <a href="https://github.com/Qualia91">Qualia91</a> — this project is a Zed port of their work.</li>
+</ul>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p><a href="https://github.com/ACodingDay/erlang-qol-snippets/blob/HEAD/LICENSE" target="_blank" rel="noopener">MIT</a> — portions are derived from the MIT-licensed <a href="https://github.com/Qualia91/erlang-code-generation">erlang-code-generation</a> VSCode extension (Copyright (c) 2022 BOC Dev).</p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>
