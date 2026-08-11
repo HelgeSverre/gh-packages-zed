@@ -4088,7 +4088,7 @@
     "url": "https://github.com/nusnewob/caddyfile-zed",
     "description": "Caddyfile Support for Zed",
     "stars": 14,
-    "forks": 2,
+    "forks": 3,
     "topics": [
       "caddy",
       "caddyfile",
@@ -5067,7 +5067,7 @@
     "name": "emirror-de/clearsight-zed",
     "url": "https://github.com/emirror-de/clearsight-zed",
     "description": "A scientifically-backed, accessibility-focused theme optimized for bright environments and colorblind users.",
-    "stars": 0,
+    "stars": 1,
     "forks": 1,
     "topics": [
       "theme",
@@ -5076,8 +5076,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2025-08-29T18:11:57Z",
-    "updated_at": "2026-07-11T16:53:02Z",
-    "pushed_at": "2026-07-11T16:52:59Z",
+    "updated_at": "2026-08-10T21:41:33Z",
+    "pushed_at": "2026-08-10T22:32:37Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false,
     "extension": {
@@ -49979,13 +49979,13 @@
     "name": "ldanidev/flutter-snippets",
     "url": "https://github.com/ldanidev/flutter-snippets",
     "description": "A collection of Flutter snippets to improve your development speed.",
-    "stars": 14,
+    "stars": 15,
     "forks": 2,
     "topics": [],
     "language": null,
     "license": "GPL-3.0",
     "created_at": "2024-12-20T22:26:53Z",
-    "updated_at": "2026-08-03T13:06:42Z",
+    "updated_at": "2026-08-10T20:27:42Z",
     "pushed_at": "2025-10-14T21:20:20Z",
     "discovered_at": "2026-05-23T00:37:18.390Z",
     "official": false,
@@ -54353,7 +54353,7 @@
     "license": "GPL-3.0",
     "created_at": "2026-07-14T11:01:05Z",
     "updated_at": "2026-08-10T18:29:07Z",
-    "pushed_at": "2026-08-10T14:27:48Z",
+    "pushed_at": "2026-08-10T21:34:30Z",
     "discovered_at": "2026-07-14T13:05:37.802Z",
     "official": false,
     "extension": {
@@ -55405,7 +55405,7 @@
     "updated_at": "2026-07-24T15:59:27Z",
     "pushed_at": "2026-07-24T15:59:20Z",
     "discovered_at": "2026-07-24T13:08:38.427Z",
-    "official": false,
+    "official": true,
     "extension": {
       "id": "voidline-theme",
       "name": "Voidline Themes",
@@ -56313,7 +56313,7 @@
     "updated_at": "2026-08-03T17:43:05Z",
     "pushed_at": "2026-08-01T13:09:14Z",
     "discovered_at": "2026-08-01T19:03:59.449Z",
-    "official": false,
+    "official": true,
     "extension": {
       "id": "polaris-theme",
       "name": "Polaris",
@@ -57703,6 +57703,194 @@
         "Giossue"
       ],
       "repository": "https://github.com/giossue/slate-ui-theme",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "ranganp/blueberry-night-zed": {
+    "name": "rangaNP/blueberry-night-zed",
+    "url": "https://github.com/rangaNP/blueberry-night-zed",
+    "description": "Blueberry Night theme for Zed",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-06-07T02:19:36Z",
+    "updated_at": "2026-06-11T11:46:15Z",
+    "pushed_at": "2026-06-11T11:46:10Z",
+    "discovered_at": "2026-08-11T01:04:41.365Z",
+    "official": true,
+    "extension": {
+      "id": "blueberry-night-theme",
+      "name": "Blueberry Night",
+      "description": "Meet the Blue!",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "authors": [
+        "rangaNP"
+      ],
+      "repository": "https://github.com/rangaNP/blueberry-night-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "yizixu/zed-i18n-lens": {
+    "name": "yizixu/zed-i18n-lens",
+    "url": "https://github.com/yizixu/zed-i18n-lens",
+    "description": "Zed extension + language server for i18n key hover/completion/diagnostics/definition.",
+    "stars": 1,
+    "forks": 0,
+    "topics": [],
+    "language": "JavaScript",
+    "license": "MIT",
+    "created_at": "2026-06-06T10:15:08Z",
+    "updated_at": "2026-07-23T10:12:07Z",
+    "pushed_at": "2026-07-23T10:12:11Z",
+    "discovered_at": "2026-08-11T01:04:41.365Z",
+    "official": true,
+    "extension": {
+      "id": "i18n-lens-language-server",
+      "name": "I18n Lens",
+      "description": "Show configurable inline translations for i18n keys in Vue/TS/TSX, with hover, diagnostics, completion, definition, and references.",
+      "version": "0.11.1",
+      "schema_version": 1,
+      "authors": [
+        "yizixu <yi865729489@gmail.com>"
+      ],
+      "repository": "https://github.com/yizixu/zed-i18n-lens",
+      "snippets": null,
+      "sections": [
+        "language_servers"
+      ],
+      "categories": [
+        "language-server"
+      ]
+    }
+  },
+  "ardahamamcioglu/macos-prism-theme": {
+    "name": "ardahamamcioglu/macos-prism-theme",
+    "url": "https://github.com/ardahamamcioglu/macos-prism-theme",
+    "description": "A macOS-inspired Zed color theme with rich, colorful syntax highlighting for dark and light modes.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "GPL-3.0",
+    "created_at": "2026-07-29T11:04:03Z",
+    "updated_at": "2026-07-29T19:14:04Z",
+    "pushed_at": "2026-07-29T19:13:12Z",
+    "discovered_at": "2026-08-11T01:04:41.365Z",
+    "official": true,
+    "extension": {
+      "id": "macos-prism-theme",
+      "name": "MacOS prism",
+      "description": "A macOS-inspired Zed color theme with rich, colorful syntax highlighting for dark and light modes.",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Arda Hamamcioglu"
+      ],
+      "repository": "https://github.com/ardahamamcioglu/macos-prism-theme.git",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "phoenix-pulse/zed-themes": {
+    "name": "phoenix-pulse/zed-themes",
+    "url": "https://github.com/phoenix-pulse/zed-themes",
+    "description": "Two vibrant theme families for Zed, each with dark and light variants.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-08-09T18:14:48Z",
+    "updated_at": "2026-08-09T18:38:27Z",
+    "pushed_at": "2026-08-09T18:37:49Z",
+    "discovered_at": "2026-08-11T01:04:41.365Z",
+    "official": true,
+    "extension": {
+      "id": "phoenix-pulse-theme",
+      "name": "Phoenix Pulse Themes",
+      "description": "Two vibrant theme families for Zed, each with dark and light variants.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Onurcan Sever"
+      ],
+      "repository": "https://github.com/phoenix-pulse/zed-themes",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "specy/zed-pruple-theme": {
+    "name": "Specy/zed-pruple-theme",
+    "url": "https://github.com/Specy/zed-pruple-theme",
+    "description": "A purpleish dark and blurred theme for zed",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-08-02T12:04:31Z",
+    "updated_at": "2026-08-02T13:00:16Z",
+    "pushed_at": "2026-08-02T13:00:04Z",
+    "discovered_at": "2026-08-11T01:04:41.365Z",
+    "official": true,
+    "extension": {
+      "id": "pruple-theme",
+      "name": "Pruple theme",
+      "description": "A purpleish dark and blurred theme",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Specy <specy.dev@gmail.com>"
+      ],
+      "repository": "https://github.com/Specy/zed-pruple-theme",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "mrcoolbay/seaglass-theme": {
+    "name": "MrCoolBay/seaglass-theme",
+    "url": "https://github.com/MrCoolBay/seaglass-theme",
+    "description": "A soft-pastel frosted glass theme for Zed — three transparency levels, light & dark.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-07-24T08:48:05Z",
+    "updated_at": "2026-07-24T09:23:04Z",
+    "pushed_at": "2026-07-24T09:22:12Z",
+    "discovered_at": "2026-08-11T01:04:41.365Z",
+    "official": true,
+    "extension": {
+      "id": "seaglass-theme",
+      "name": "Seaglass",
+      "description": "A soft-pastel frosted glass theme for Zed",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "MrCoolBay <mrcoolbayshare@gmail.com>"
+      ],
+      "repository": "https://github.com/mrcoolbay/seaglass-theme",
       "snippets": null,
       "sections": [],
       "categories": [

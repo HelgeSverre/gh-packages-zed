@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1686-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1692-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,18 +14,18 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1686** |
-| In official registry | 1212 |
-| Discovered via topics | 474 |
-| Last updated | 2026-08-10 19:02 UTC |
+| Total tracked | **1692** |
+| In official registry | 1220 |
+| Discovered via topics | 472 |
+| Last updated | 2026-08-11 01:04 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
-| Themes | 721 |
+| Themes | 726 |
 | Grammars | 582 |
-| Language Servers | 537 |
+| Language Servers | 538 |
 | Context Servers | 135 |
 | Snippets | 75 |
 | Slash Commands | 58 |
@@ -70,6 +70,12 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [rangaNP/blueberry-night-zed](https://github.com/rangaNP/blueberry-night-zed) | 0 | Blueberry Night theme for Zed |
+| [yizixu/zed-i18n-lens](https://github.com/yizixu/zed-i18n-lens) | 1 | Zed extension + language server for i18n key hover/completion/diagnostics/defini... |
+| [ardahamamcioglu/macos-prism-theme](https://github.com/ardahamamcioglu/macos-prism-theme) | 0 | A macOS-inspired Zed color theme with rich, colorful syntax highlighting for dar... |
+| [phoenix-pulse/zed-themes](https://github.com/phoenix-pulse/zed-themes) | 0 | Two vibrant theme families for Zed, each with dark and light variants. |
+| [Specy/zed-pruple-theme](https://github.com/Specy/zed-pruple-theme) | 0 | A purpleish dark and blurred theme for zed |
+| [MrCoolBay/seaglass-theme](https://github.com/MrCoolBay/seaglass-theme) | 0 | A soft-pastel frosted glass theme for Zed — three transparency levels, light & d... |
 | [Giossue/carbon-theme](https://github.com/Giossue/carbon-theme) | 0 | Carbon Themes |
 | [ShayanAbbas1/coolnight-zed](https://github.com/ShayanAbbas1/coolnight-zed) | 0 | Coolnight theme for Zed — ported from Josean Martinez's coolnight colorscheme |
 | [Giossue/dark-foundry-theme](https://github.com/Giossue/dark-foundry-theme) | 0 | Dark Foundry Themes |
@@ -84,12 +90,6 @@ cd website && npm install && npm run dev
 | [comphy-lab/comphy-zed-themes](https://github.com/comphy-lab/comphy-zed-themes) | 2 |  |
 | [biancofla/qwark](https://github.com/biancofla/qwark) | 0 | A muted green theme family for Zed. |
 | [corn-config/corn-zed](https://github.com/corn-config/corn-zed) | 0 | Corn language support for Zed editor |
-| [spilikin/zed-fhir-shorthand](https://github.com/spilikin/zed-fhir-shorthand) | 0 |  |
-| [lauragarden/zed-forest-mint](https://github.com/lauragarden/zed-forest-mint) | 0 |  |
-| [maikel-479/hadal](https://github.com/maikel-479/hadal) | 0 | Deep-sea Zed Editor Inspired Theme |
-| [cassiebeckley/zed-koka](https://github.com/cassiebeckley/zed-koka) | 0 | Zed editor extension for the Koka language |
-| [metascriptlang/metascript-zed](https://github.com/metascriptlang/metascript-zed) | 0 |  |
-| [regnull/palette-masters-zed](https://github.com/regnull/palette-masters-zed) | 6 | 46 Zed editor themes inspired by master painter palettes — Monet, Van Gogh, Mati... |
 
 ## Top starred (under 500)
 
@@ -120,17 +120,19 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [emirror-de/clearsight-zed](https://github.com/emirror-de/clearsight-zed) | 1 | 2026-08-10 | A scientifically-backed, accessibility-focused theme optimiz... |
+| [emirror-de/quietude-zed](https://github.com/emirror-de/quietude-zed) | 1 | 2026-08-10 | A calm, warm monochrome theme for Zed, engineered to reduce ... |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 209 | 2026-08-10 | Zed plugin for automatic time tracking and metrics generated... |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-08-10 | Zed editor support for Carve, a modern light markup language |
 | [ShayanAbbas1/coolnight-zed](https://github.com/ShayanAbbas1/coolnight-zed) | 0 | 2026-08-10 | Coolnight theme for Zed — ported from Josean Martinez's cool... |
 | [devinaxo/zed-firefox-quantum-themes](https://github.com/devinaxo/zed-firefox-quantum-themes) | 0 | 2026-08-10 | A Zed port of the Firefox Quantum themes for Visual Studio C... |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-08-10 | A Zed extension that allows to highlight all occurrences of ... |
 | [Giossue/glass-theme](https://github.com/Giossue/glass-theme) | 0 | 2026-08-10 | Glass Themes |
-| [emirror-de/quietude-zed](https://github.com/emirror-de/quietude-zed) | 1 | 2026-08-10 | A calm, warm monochrome theme for Zed, engineered to reduce ... |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 1 | 2026-08-10 | Spring Boot language intelligence for Zed, built on the requ... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 93 | 2026-08-10 | True Dark Theme for Zed IDE |
 | [comphy-lab/comphy-zed-themes](https://github.com/comphy-lab/comphy-zed-themes) | 2 | 2026-08-09 |  |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 164 | 2026-08-09 | 🦊 Zed editor theme ported from Neovim |
+| [phoenix-pulse/zed-themes](https://github.com/phoenix-pulse/zed-themes) | 0 | 2026-08-09 | Two vibrant theme families for Zed, each with dark and light... |
 | [biancofla/qwark](https://github.com/biancofla/qwark) | 0 | 2026-08-09 | A muted green theme family for Zed. |
 | [Onzis/opencode-theme](https://github.com/Onzis/opencode-theme) | 1 | 2026-08-09 | opencode-theme for Zed IDE |
 | [ACodingDay/erlang-qol-snippets](https://github.com/ACodingDay/erlang-qol-snippets) | 0 | 2026-08-09 | Erlang QoL snippets for the Zed editor — module/comment temp... |
@@ -138,13 +140,12 @@ cd website && npm install && npm run dev
 | [maxhu08/modern-tweaked-zed](https://github.com/maxhu08/modern-tweaked-zed) | 0 | 2026-08-08 | 🎨 a set of vscode themes for zed ide |
 | [maikel-479/hadal](https://github.com/maikel-479/hadal) | 0 | 2026-08-08 | Deep-sea Zed Editor Inspired Theme |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-08-08 | Intelligent codebase search & indexing for Zed. Async MCP se... |
-| [kr-aman-sharma/idx-theme](https://github.com/kr-aman-sharma/idx-theme) | 0 | 2026-08-08 | Project IDX is alive |
-| [zephexMCP/mcp-server-zephex](https://github.com/zephexMCP/mcp-server-zephex) | 4 | 2026-08-08 | Zephex hosted MCP (Zed extension) — 10 tools for real codeba... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-08-11T01:04 | 8 | 543 | 2046 |
 | 2026-08-10T19:02 | 9 | 544 | 2038 |
 | 2026-08-10T13:03 | 4 | 544 | 2029 |
 | 2026-08-10T07:05 | 0 | 544 | 2025 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-08-09T07:02 | 0 | 544 | 2015 |
 | 2026-08-09T01:04 | 1 | 543 | 2015 |
 | 2026-08-08T18:56 | 4 | 541 | 2014 |
-| 2026-08-08T13:01 | 2 | 541 | 2010 |
 
 ---
 

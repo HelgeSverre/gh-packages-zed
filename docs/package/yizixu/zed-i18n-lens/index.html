@@ -1,0 +1,238 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>I18n Lens - Zed Extension Safari</title><meta name="description" content="Zed extension + language server for i18n key hover/completion/diagnostics/definition."><link rel="canonical" href="https://helgesverre.github.io/gh-packages-zed/package/yizixu/zed-i18n-lens/"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="I18n Lens - Zed Extension Safari"><meta property="og:description" content="Zed extension + language server for i18n key hover/completion/diagnostics/definition."><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed/package/yizixu/zed-i18n-lens/"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="I18n Lens - Zed Extension Safari"><meta name="twitter:description" content="Zed extension + language server for i18n key hover/completion/diagnostics/definition."><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/gh-packages-zed/_astro/ClientRouter.astro_astro_type_script_index_0_lang.ClVLs1kt.js"></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"I18n Lens","description":"Zed extension + language server for i18n key hover/completion/diagnostics/definition.","applicationCategory":"DeveloperApplication","operatingSystem":"macOS, Linux, Windows","url":"https://zed.dev/extensions/i18n-lens-language-server","codeRepository":"https://github.com/yizixu/zed-i18n-lens","author":[{"@type":"Person","name":"yizixu"}],"softwareVersion":"0.11.1","license":"MIT","keywords":"language-server","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/Layout.CGDlMdWE.css"><script type="module" src="/gh-packages-zed/_astro/page.B8i1Zz-u.js"></script></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <a href="#main" class="skip-to-content">Skip to content</a> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" data-astro-transition-persist="astro-fhchcgd7-1"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <script type="application/json" id="pkg-extras">{"url":"https://github.com/yizixu/zed-i18n-lens","language":"JavaScript","license":"MIT","topics":[],"extension":{"authors":["yizixu"],"schema_version":1}}</script> <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> yizixu/zed-i18n-lens </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> I18n Lens </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> Show configurable inline translations for i18n keys in Vue/TS/TSX, with hover, diagnostics, completion, definition, and references. </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="language-server">Language Server</span> </div> </div> </div> </header> <main id="main" class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/i18n-lens-language-server" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/yizixu/zed-i18n-lens" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.11.1</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">i18n-lens-language-server</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">JavaScript</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">MIT</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">1</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">7/23/2026</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">yizixu</dd> </div> </dl>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-i18n-lens-for-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#i18n-lens-for-zed"><span class="heading-anchor-icon">#</span></a>I18n Lens for Zed</h1>
+<p>Zed extension plus Language Server for Vue, TypeScript, TSX, JavaScript and JSX. It shows the real translation text behind i18n keys while editing.</p>
+<h2 id="user-content-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features"><span class="heading-anchor-icon">#</span></a>Features</h2>
+<ul>
+<li>Inline translation display via LSP inlay hints</li>
+<li>Detect <code>$t</code>/<code>t</code>/<code>tc</code>/<code>$tc</code>/<code>i18n.t</code> calls, <code>v-t="'key'"</code>, <code>v-t="{ path: 'key' }"</code>, <code>&#x3C;i18n-t keypath="key"></code> (Vue I18n), <code>&#x3C;Trans i18nKey="key"></code> (react-i18next), and <code>formatMessage({ id: "key" })</code> (react-intl)</li>
+<li>Hover: show all locale values for a key</li>
+<li>Diagnostics: report missing keys, missing locale entries, mismatched interpolation params, and (on locale files) keys whose params differ across languages</li>
+<li>Quick fixes: add missing / remove unused interpolation params on supported i18n calls, and create a missing key in every locale file that lacks it</li>
+<li>Completion: suggest existing i18n keys with default locale text</li>
+<li>Definition: jump from a source key to its locale definition; when several locales define the key, pick which language file to open</li>
+<li>References: from a key in a locale file (or a source usage), find every place the key is used across the project's source code</li>
+</ul>
+<h2 id="user-content-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation"><span class="heading-anchor-icon">#</span></a>Installation</h2>
+<p>Install <strong>I18n Lens</strong> from Zed's extension catalog. The extension downloads its companion language server package, <a href="https://www.npmjs.com/package/i18n-lens-language-server"><code>i18n-lens-language-server</code></a>, into Zed's extension work directory at runtime.</p>
+<p>After installation, open a Vue, TypeScript, TSX, JavaScript, or JSX file in a project that contains locale files. If your locale files are not in one of the default directories, configure <code>localeDirs</code> as shown below.</p>
+<h2 id="user-content-quick-start"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#quick-start"><span class="heading-anchor-icon">#</span></a>Quick start</h2>
+<p>For most projects, add this to your project <code>.zed/settings.json</code> or user-level Zed settings:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "i18n-lens"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "defaultLocale"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"en-US"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "localeDirs"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"src/locales"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"src/i18n"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>If you prefer a project-owned config file that can be committed with the repository, create <code>.zed/i18nlensrc.json</code> instead. When both are present, <code>.zed/i18nlensrc.json</code> takes precedence over Zed settings.</p>
+<h2 id="user-content-inline-translations"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#inline-translations"><span class="heading-anchor-icon">#</span></a>Inline translations</h2>
+<blockquote>
+<p><strong>Important:</strong> Inline translations are rendered through Zed's LSP inlay hints. In Zed settings, make sure <strong>Inlay Hints</strong> are enabled and <strong>Inlay Hints: Show Other Hints</strong> is turned on. If <strong>Show Other Hints</strong> is disabled, hover/completion/diagnostics can still work, but inline translation text will not be displayed.</p>
+</blockquote>
+<p>When inlay hints are enabled in Zed, code like this:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">t</span><span style="color:#24292E;--shiki-dark:#E1E4E8">(</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"order.pay_now"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">)</span></span></code></pre>
+<p>will show the default locale translation inline after the key string, for example:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">t</span><span style="color:#24292E;--shiki-dark:#E1E4E8">(</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"order.pay_now"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">)  立即支付</span></span></code></pre>
+<p>The inline hint uses <code>defaultLocale</code> from your Zed settings or <code>.zed/i18nlensrc.json</code>, falling back to <code>zh-CN</code>. Missing keys are not shown inline because diagnostics already report them.</p>
+<p>Long translations are truncated inline to keep the editor readable. Hover still shows the full locale table.</p>
+<h2 id="user-content-hover"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#hover"><span class="heading-anchor-icon">#</span></a>Hover</h2>
+<p>Hovering over an i18n key shows every loaded locale value in a read-only table.</p>
+<p>To open a specific language file, use Go to Definition (Ctrl/Cmd+click or F12) on the key. When the key exists in more than one locale, the editor offers each language's file — default locale first — so you can jump straight to the one you want instead of only the default locale.</p>
+<h2 id="user-content-diagnostics"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#diagnostics"><span class="heading-anchor-icon">#</span></a>Diagnostics</h2>
+<p>Diagnostics refresh automatically when loaded locale files or locale directories change, so editing translation files should update warnings/errors without restarting the extension.</p>
+<p>Diagnostics distinguish between these cases:</p>
+<ul>
+<li>If a key is missing from every loaded locale, it is reported as an error.</li>
+<li>If a key exists in at least one locale but is missing from other locales, it is reported as a warning listing the missing locale names.</li>
+<li>If a translation contains named placeholders such as <code>{count}</code> but the source call does not pass them, it reports missing params.</li>
+<li>If the source call passes params that no loaded translation uses, it reports unused params.</li>
+<li>Quick fixes can add missing params to supported i18n calls.</li>
+</ul>
+<p>For example, if <code>order.pay_now</code> exists in <code>zh-CN</code> but is missing from <code>en-US</code>, the warning message is:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span>Missing i18n key "order.pay_now" in locales: en-US</span></span></code></pre>
+<h2 id="user-content-project-configuration"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#project-configuration"><span class="heading-anchor-icon">#</span></a>Project configuration</h2>
+<p>I18n Lens supports two configuration sources:</p>
+<ol>
+<li>Zed settings, under <code>lsp.i18n-lens.settings</code>.</li>
+<li>A project file, <code>.zed/i18nlensrc.json</code>.</li>
+</ol>
+<p>The project file is merged on top of Zed settings, so repository-specific configuration can override personal or team-wide editor settings.</p>
+<h3 id="user-content-configure-from-zed-settings"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#configure-from-zed-settings"><span class="heading-anchor-icon">#</span></a>Configure from Zed settings</h3>
+<p>Use this when you want configuration to live in Zed's normal settings system:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "i18n-lens"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "defaultLocale"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"en-US"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "localeDirs"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"src/locales"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"src/i18n"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">],</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "inlayHints"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">          "enabled"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">true</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">          "maxLength"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">32</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">        }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>Zed settings can be user-level or project-level. For project-level Zed settings, put the snippet in <code>.zed/settings.json</code>.</p>
+<h3 id="user-content-configure-from-zedi18nlensrcjson"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#configure-from-zedi18nlensrcjson"><span class="heading-anchor-icon">#</span></a>Configure from <code>.zed/i18nlensrc.json</code></h3>
+<p>Use this when the i18n layout should be part of the repository and shared by everyone who opens it:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "defaultLocale"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"en-US"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "localeDirs"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"src/locales"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"src/i18n"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">],</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "inlayHints"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "enabled"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">true</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "maxLength"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">32</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  },</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "packages"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "root"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"apps/web"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "defaultLocale"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"en-US"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "localeDirs"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"src/locales"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    },</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "root"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"packages/admin"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "defaultLocale"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"ja-JP"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "localeDirs"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"src/i18n"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  ]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>A template is available in this repository:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span>.zed/i18nlensrc.example.json</span></span></code></pre>
+<p>Supported options:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Option</th><th>Type</th><th>Default</th><th>Description</th></tr></thead><tbody><tr><td><code>defaultLocale</code></td><td>string</td><td><code>zh-CN</code></td><td>Locale used for completion details and inline translation hints. Supports exact names such as <code>en-US</code>, case-insensitive matching, <code>_</code>/<code>-</code> normalization, and language aliases such as <code>en</code> matching <code>en-US</code>.</td></tr><tr><td><code>localeDirs</code></td><td>string[]</td><td><code>src/locales</code>, <code>src/i18n</code>, <code>locales</code>, <code>i18n</code></td><td>Workspace-relative directories to scan for locale files. In package configs, paths are relative to that package root.</td></tr><tr><td><code>inlayHints.enabled</code></td><td>boolean</td><td><code>true</code></td><td>Enables or disables inline translation hints from this language server. Hover, completion, definition, diagnostics, and quick fixes can still work when inline hints are disabled.</td></tr><tr><td><code>inlayHints.maxLength</code></td><td>number</td><td><code>24</code></td><td>Maximum inline hint label length before truncation. Hover still shows the full text.</td></tr><tr><td><code>packages</code></td><td>array</td><td><code>[]</code></td><td>Optional monorepo package contexts. Each item needs a workspace-relative <code>root</code> and can override <code>defaultLocale</code>, <code>localeDirs</code>, and <code>inlayHints</code>. The language server picks the longest package root matching the currently edited file.</td></tr></tbody></table>
+<p>Invalid or missing config values fall back to defaults. If <code>.zed/i18nlensrc.json</code> contains invalid JSON, the language server logs a warning and continues with the Zed settings or default config.</p>
+<p>Configuration changes are watched automatically. After saving <code>.zed/i18nlensrc.json</code>, the language server reloads config, rebuilds the locale cache, refreshes diagnostics, and asks the editor to refresh inlay hints. Changes made through Zed settings are also handled through the language server configuration update path.</p>
+<h2 id="user-content-locale-discovery"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#locale-discovery"><span class="heading-anchor-icon">#</span></a>Locale discovery</h2>
+<p>In a single-project workspace, <code>localeDirs</code> are resolved relative to the workspace root. By default, the language server reads JSON files from these directories if they exist:</p>
+<ul>
+<li><code>src/locales/*.json</code></li>
+<li><code>src/i18n/*.json</code></li>
+<li><code>locales/*.json</code></li>
+<li><code>i18n/*.json</code></li>
+</ul>
+<p>Locale names come from filenames, for example <code>en-US.json</code>, <code>ja-JP.json</code>, or <code>zh-CN.json</code>. If your files are under a nested directory such as <code>src/i18n/locales/en-US.json</code>, set <code>localeDirs</code> to <code>["src/i18n/locales"]</code>.</p>
+<p>It also supports locale directories such as:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span>src/locales/en-US/common.json</span></span>
+<span class="line"><span>src/locales/ja-JP/common.json</span></span></code></pre>
+<p>A file named <code>common.json</code> contributes keys with the <code>common.</code> prefix. A file named <code>index.json</code> contributes keys without an <code>index.</code> prefix.</p>
+<h2 id="user-content-monorepo-workspaces"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#monorepo-workspaces"><span class="heading-anchor-icon">#</span></a>Monorepo workspaces</h2>
+<p>For pnpm/turborepo and other monorepos, put <code>.zed/i18nlensrc.json</code> under the workspace root and add <code>packages</code> entries:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "defaultLocale"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"en-US"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "packages"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "root"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"apps/web"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "localeDirs"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"src/locales"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    },</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "root"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"packages/admin"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "defaultLocale"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"en-US"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "localeDirs"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"src/i18n"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  ]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>When a document is opened, I18n Lens selects the package whose <code>root</code> is the longest path prefix of that document. <code>localeDirs</code> inside a package are resolved relative to that package root, so <code>apps/web/src/locales</code> and <code>packages/admin/src/i18n</code> are indexed independently. Package entries inherit root-level <code>defaultLocale</code>, <code>localeDirs</code>, and <code>inlayHints</code> unless they override them.</p>
+<h2 id="user-content-local-development"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#local-development"><span class="heading-anchor-icon">#</span></a>Local development</h2>
+<p>Install dependencies:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">npm</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> install</span></span></code></pre>
+<p>Run tests:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">npm</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> test</span></span></code></pre>
+<p>The language server is published to npm as
+<a href="https://www.npmjs.com/package/i18n-lens-language-server"><code>i18n-lens-language-server</code></a>.
+A Zed extension must not ship its language server, so the Rust shell installs
+that npm package into its work directory at runtime via the Zed Extension API
+(<code>npm_install_package</code>), the same pattern the official Node-based extensions use.</p>
+<p>Check the Zed extension adapter:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> check</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --target</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> wasm32-wasip1</span></span></code></pre>
+<p>On this Windows setup, if <code>cargo</code> is not visible inside Git Bash / WSL, use:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">$HOME</span><span style="color:#6F42C1;--shiki-dark:#B392F0">/.cargo/bin/cargo.exe"</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> check</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --target</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> wasm32-wasip1</span></span></code></pre>
+<h2 id="user-content-test-in-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#test-in-zed"><span class="heading-anchor-icon">#</span></a>Test in Zed</h2>
+<ol>
+<li>Open Zed.</li>
+<li>Run <code>Install Dev Extension</code> from the command palette.</li>
+<li>Select this project root, for example the local <code>zed-i18n-lens</code> repository directory.</li>
+<li>Open a Vue/TS/JS project with locale JSON files.</li>
+<li>Test hover, completion, diagnostics, definition, and inlay hints.</li>
+</ol>
+<h3 id="user-content-iterating-on-the-language-server"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#iterating-on-the-language-server"><span class="heading-anchor-icon">#</span></a>Iterating on the language server</h3>
+<p>The published npm version can lag behind your working tree. To test local <code>server/*.js</code> changes without publishing, pack the current tree and install it into the Zed work directory, then restart the server:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">.</span><span style="color:#D73A49;--shiki-dark:#F97583">/</span><span style="color:#24292E;--shiki-dark:#E1E4E8">scripts</span><span style="color:#D73A49;--shiki-dark:#F97583">/</span><span style="color:#005CC5;--shiki-dark:#79B8FF">deploy-local.ps1</span></span></code></pre>
+<p>It runs <code>npm pack</code>, installs the tarball into <code>%LOCALAPPDATA%\Zed\extensions\work\i18n-lens-language-server\node_modules\i18n-lens-language-server</code> (the same layout Zed produces), then prompts you to run <strong>restart language server</strong> from the Zed command palette.</p>
+<blockquote>
+<p>To exercise the real install path instead, delete <code>%LOCALAPPDATA%\Zed\extensions\work\i18n-lens-language-server\node_modules</code> and restart the server — Zed will reinstall the published npm package.</p>
+</blockquote></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>
