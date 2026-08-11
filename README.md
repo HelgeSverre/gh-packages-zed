@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1692** |
 | In official registry | 1220 |
 | Discovered via topics | 472 |
-| Last updated | 2026-08-11 01:04 UTC |
+| Last updated | 2026-08-11 07:03 UTC |
 
 ### By capability
 
@@ -120,16 +120,16 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 209 | 2026-08-11 | Zed plugin for automatic time tracking and metrics generated... |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 93 | 2026-08-11 | True Dark Theme for Zed IDE |
 | [emirror-de/clearsight-zed](https://github.com/emirror-de/clearsight-zed) | 1 | 2026-08-10 | A scientifically-backed, accessibility-focused theme optimiz... |
 | [emirror-de/quietude-zed](https://github.com/emirror-de/quietude-zed) | 1 | 2026-08-10 | A calm, warm monochrome theme for Zed, engineered to reduce ... |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 209 | 2026-08-10 | Zed plugin for automatic time tracking and metrics generated... |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-08-10 | Zed editor support for Carve, a modern light markup language |
 | [ShayanAbbas1/coolnight-zed](https://github.com/ShayanAbbas1/coolnight-zed) | 0 | 2026-08-10 | Coolnight theme for Zed — ported from Josean Martinez's cool... |
 | [devinaxo/zed-firefox-quantum-themes](https://github.com/devinaxo/zed-firefox-quantum-themes) | 0 | 2026-08-10 | A Zed port of the Firefox Quantum themes for Visual Studio C... |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-08-10 | A Zed extension that allows to highlight all occurrences of ... |
 | [Giossue/glass-theme](https://github.com/Giossue/glass-theme) | 0 | 2026-08-10 | Glass Themes |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 1 | 2026-08-10 | Spring Boot language intelligence for Zed, built on the requ... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 93 | 2026-08-10 | True Dark Theme for Zed IDE |
 | [comphy-lab/comphy-zed-themes](https://github.com/comphy-lab/comphy-zed-themes) | 2 | 2026-08-09 |  |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 164 | 2026-08-09 | 🦊 Zed editor theme ported from Neovim |
 | [phoenix-pulse/zed-themes](https://github.com/phoenix-pulse/zed-themes) | 0 | 2026-08-09 | Two vibrant theme families for Zed, each with dark and light... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-08-11T07:03 | 0 | 543 | 2046 |
 | 2026-08-11T01:04 | 8 | 543 | 2046 |
 | 2026-08-10T19:02 | 9 | 544 | 2038 |
 | 2026-08-10T13:03 | 4 | 544 | 2029 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-08-09T13:02 | 9 | 544 | 2024 |
 | 2026-08-09T07:02 | 0 | 544 | 2015 |
 | 2026-08-09T01:04 | 1 | 543 | 2015 |
-| 2026-08-08T18:56 | 4 | 541 | 2014 |
 
 ---
 
