@@ -622,7 +622,7 @@
     "updated_at": "2026-07-17T11:49:32Z",
     "pushed_at": "2026-08-02T11:19:30Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
-    "official": false
+    "official": true
   },
   "bennypowers/asimonim": {
     "name": "bennypowers/asimonim",
@@ -6248,7 +6248,7 @@
     "name": "cange/nightfox.zed",
     "url": "https://github.com/cange/nightfox.zed",
     "description": "🦊 Zed editor theme ported from Neovim",
-    "stars": 164,
+    "stars": 165,
     "forks": 5,
     "topics": [
       "zed",
@@ -6257,7 +6257,7 @@
     "language": "Lua",
     "license": "MIT",
     "created_at": "2024-05-02T20:49:30Z",
-    "updated_at": "2026-08-09T19:57:12Z",
+    "updated_at": "2026-08-11T15:39:10Z",
     "pushed_at": "2026-08-09T19:57:05Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": true
@@ -18026,8 +18026,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-08-11T07:04:23Z",
-    "pushed_at": "2026-08-11T07:04:18Z",
+    "updated_at": "2026-08-11T13:07:27Z",
+    "pushed_at": "2026-08-11T13:04:16Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -31433,7 +31433,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-04-30T15:29:50Z",
     "updated_at": "2026-08-06T20:05:32Z",
-    "pushed_at": "2026-08-06T20:05:04Z",
+    "pushed_at": "2026-08-11T15:50:11Z",
     "discovered_at": "2026-06-26T18:36:57.330Z",
     "official": false
   },
@@ -32039,8 +32039,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
-    "updated_at": "2026-08-09T22:51:52Z",
-    "pushed_at": "2026-08-08T12:52:22Z",
+    "updated_at": "2026-08-11T18:16:45Z",
+    "pushed_at": "2026-08-11T18:16:17Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false
   },
@@ -32132,10 +32132,10 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2026-06-01T12:22:18Z",
-    "updated_at": "2026-08-10T16:32:14Z",
-    "pushed_at": "2026-08-10T16:29:24Z",
+    "updated_at": "2026-08-11T15:38:01Z",
+    "pushed_at": "2026-08-11T15:35:27Z",
     "discovered_at": "2026-07-09T13:39:01.645Z",
-    "official": false
+    "official": true
   },
   "orbitlang/zed-orbit": {
     "name": "orbitlang/zed-orbit",
@@ -32196,7 +32196,7 @@
     "license": "NOASSERTION",
     "created_at": "2026-03-09T03:40:37Z",
     "updated_at": "2026-08-02T15:58:27Z",
-    "pushed_at": "2026-08-02T15:58:15Z",
+    "pushed_at": "2026-08-11T17:46:37Z",
     "discovered_at": "2026-07-10T07:54:10.331Z",
     "official": false
   },
@@ -32744,7 +32744,7 @@
     "updated_at": "2026-08-04T14:48:13Z",
     "pushed_at": "2026-08-04T14:47:21Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
-    "official": false
+    "official": true
   },
   "pursvir/zed-pgn": {
     "name": "pursvir/zed-pgn",
@@ -34300,8 +34300,8 @@
     "language": "PowerShell",
     "license": "MIT",
     "created_at": "2026-08-07T18:46:45Z",
-    "updated_at": "2026-08-11T00:32:20Z",
-    "pushed_at": "2026-08-11T00:32:15Z",
+    "updated_at": "2026-08-11T17:48:09Z",
+    "pushed_at": "2026-08-11T17:48:01Z",
     "discovered_at": "2026-08-08T18:56:57.473Z",
     "official": false
   },
@@ -34873,5 +34873,90 @@
     "pushed_at": "2026-08-11T05:00:12Z",
     "discovered_at": "2026-08-11T13:03:42.972Z",
     "official": true
+  },
+  "makinda-jackson/makinda-zed": {
+    "name": "makinda-jackson/makinda-zed",
+    "url": "https://github.com/makinda-jackson/makinda-zed",
+    "description": "Makinda themes for Zed — premium light and dark with warm orange accents",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-05-06T12:56:51Z",
+    "updated_at": "2026-05-31T15:53:18Z",
+    "pushed_at": "2026-05-17T19:52:59Z",
+    "discovered_at": "2026-08-11T19:03:16.749Z",
+    "official": false
+  },
+  "panosdimak/zed-souffle": {
+    "name": "panosdimak/zed-souffle",
+    "url": "https://github.com/panosdimak/zed-souffle",
+    "description": "Soufflé Datalog language support for Zed",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2026-07-16T15:37:55Z",
+    "updated_at": "2026-07-22T14:00:26Z",
+    "pushed_at": "2026-07-22T13:39:48Z",
+    "discovered_at": "2026-08-11T19:03:16.749Z",
+    "official": true
+  },
+  "devgauravjatt/turbo-log-snippets": {
+    "name": "devgauravjatt/turbo-log-snippets",
+    "url": "https://github.com/devgauravjatt/turbo-log-snippets",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-07-20T13:08:59Z",
+    "updated_at": "2026-07-22T04:20:01Z",
+    "pushed_at": "2026-07-22T04:19:40Z",
+    "discovered_at": "2026-08-11T19:03:16.749Z",
+    "official": true
+  },
+  "mehcode/filament": {
+    "name": "mehcode/filament",
+    "url": "https://github.com/mehcode/filament",
+    "description": "A warm, filament-lit theme for Zed.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "color-scheme",
+      "dark-theme",
+      "theme",
+      "zed",
+      "zed-extension",
+      "zed-theme"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "created_at": "2026-07-31T22:30:00Z",
+    "updated_at": "2026-08-11T18:03:30Z",
+    "pushed_at": "2026-08-11T18:02:54Z",
+    "discovered_at": "2026-08-11T19:03:16.749Z",
+    "official": false
+  },
+  "owen-debiasio/orchis-dark-zed-theme": {
+    "name": "owen-debiasio/orchis-dark-zed-theme",
+    "url": "https://github.com/owen-debiasio/orchis-dark-zed-theme",
+    "description": "A clean theme based off the colors of Orchis Dark",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "zed",
+      "zed-theme"
+    ],
+    "language": null,
+    "license": "GPL-3.0",
+    "created_at": "2026-08-11T17:57:02Z",
+    "updated_at": "2026-08-11T18:01:39Z",
+    "pushed_at": "2026-08-11T18:01:24Z",
+    "discovered_at": "2026-08-11T19:03:16.750Z",
+    "official": false
   }
 }
