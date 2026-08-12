@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1707-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1708-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,18 +14,18 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1707** |
+| Total tracked | **1708** |
 | In official registry | 1234 |
-| Discovered via topics | 473 |
-| Last updated | 2026-08-12 13:03 UTC |
+| Discovered via topics | 474 |
+| Last updated | 2026-08-12 19:03 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
 | Themes | 731 |
-| Grammars | 588 |
-| Language Servers | 546 |
+| Grammars | 589 |
+| Language Servers | 547 |
 | Context Servers | 135 |
 | Snippets | 76 |
 | Slash Commands | 58 |
@@ -70,6 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [MrSubidubi/mlir-tablegen](https://github.com/MrSubidubi/mlir-tablegen) | 4 | MLIR Extension for Zed |
 | [xsynaptic/zed-mdxlint](https://github.com/xsynaptic/zed-mdxlint) | 0 | Zed extension providing mdxlint language server support |
 | [madebygrant/zed-package-bump](https://github.com/madebygrant/zed-package-bump) | 0 | Zed extension that flags outdated npm dependencies in package.json, with code ac... |
 | [felixtensor/mlir-tablegen](https://github.com/felixtensor/mlir-tablegen) | 4 | MLIR Extension for Zed |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [yizixu/zed-i18n-lens](https://github.com/yizixu/zed-i18n-lens) | 1 | Zed extension + language server for i18n key hover/completion/diagnostics/defini... |
 | [ardahamamcioglu/macos-prism-theme](https://github.com/ardahamamcioglu/macos-prism-theme) | 0 | A macOS-inspired Zed color theme with rich, colorful syntax highlighting for dar... |
 | [phoenix-pulse/zed-themes](https://github.com/phoenix-pulse/zed-themes) | 0 | Two vibrant theme families for Zed, each with dark and light variants. |
-| [Specy/zed-pruple-theme](https://github.com/Specy/zed-pruple-theme) | 0 | A purpleish dark and blurred theme for zed |
 
 ## Top starred (under 500)
 
@@ -97,7 +97,7 @@ cd website && npm install && npm run dev
 |---|---|---|
 | [biomejs/biome-zed](https://github.com/biomejs/biome-zed) | 466 | Biome extension for Zed |
 | [xhyrom/zed-discord-presence](https://github.com/xhyrom/zed-discord-presence) | 415 | extension for zed that adds support for discord rich presence using lsp |
-| [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 331 | Catppuccin Theme but as blurred variants + custom ones |
+| [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 330 | Catppuccin Theme but as blurred variants + custom ones |
 | [oxc-project/oxc-zed](https://github.com/oxc-project/oxc-zed) | 256 | Oxc extension for Zed |
 | [catppuccin/zed-icons](https://github.com/catppuccin/zed-icons) | 240 | 🦊 Soothing pastel icons for Zed |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 209 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
@@ -124,6 +124,7 @@ cd website && npm install && npm run dev
 | [lmn451/css-variables-zed](https://github.com/lmn451/css-variables-zed) | 8 | 2026-08-12 | Project-wide CSS custom property intelligence for Zed: compl... |
 | [madebygrant/zed-package-bump](https://github.com/madebygrant/zed-package-bump) | 0 | 2026-08-12 | Zed extension that flags outdated npm dependencies in packag... |
 | [felixtensor/mlir-tablegen](https://github.com/felixtensor/mlir-tablegen) | 4 | 2026-08-12 | MLIR Extension for Zed |
+| [MrSubidubi/mlir-tablegen](https://github.com/MrSubidubi/mlir-tablegen) | 4 | 2026-08-12 | MLIR Extension for Zed |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 94 | 2026-08-12 | True Dark Theme for Zed IDE |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 131 | 2026-08-12 | The Ruby language support for Zed editor |
 | [zxcodes/cron-sense](https://github.com/zxcodes/cron-sense) | 0 | 2026-08-12 | Zed extension: explain cron schedules (inspired by tumido/cr... |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [infectiious/setinox.zed](https://github.com/infectiious/setinox.zed) | 0 | 2026-08-11 | A Zed theme based on the Seti UI color palette. |
 | [emirror-de/quietude-zed](https://github.com/emirror-de/quietude-zed) | 1 | 2026-08-10 | A calm, warm monochrome theme for Zed, engineered to reduce ... |
 | [ShayanAbbas1/coolnight-zed](https://github.com/ShayanAbbas1/coolnight-zed) | 0 | 2026-08-10 | Coolnight theme for Zed — ported from Josean Martinez's cool... |
-| [devinaxo/zed-firefox-quantum-themes](https://github.com/devinaxo/zed-firefox-quantum-themes) | 0 | 2026-08-10 | A Zed port of the Firefox Quantum themes for Visual Studio C... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-08-12T19:03 | 2 | 548 | 2066 |
 | 2026-08-12T13:03 | 2 | 547 | 2064 |
 | 2026-08-12T07:05 | 2 | 545 | 2062 |
 | 2026-08-12T01:04 | 6 | 546 | 2060 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-08-11T01:04 | 8 | 543 | 2046 |
 | 2026-08-10T19:02 | 9 | 544 | 2038 |
 | 2026-08-10T13:03 | 4 | 544 | 2029 |
-| 2026-08-10T07:05 | 0 | 544 | 2025 |
 
 ---
 
