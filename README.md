@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1704-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1706-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,18 +14,18 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1704** |
+| Total tracked | **1706** |
 | In official registry | 1234 |
-| Discovered via topics | 470 |
-| Last updated | 2026-08-12 01:04 UTC |
+| Discovered via topics | 472 |
+| Last updated | 2026-08-12 07:05 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
 | Themes | 731 |
-| Grammars | 587 |
-| Language Servers | 543 |
+| Grammars | 588 |
+| Language Servers | 545 |
 | Context Servers | 135 |
 | Snippets | 76 |
 | Slash Commands | 58 |
@@ -70,6 +70,8 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [madebygrant/zed-package-bump](https://github.com/madebygrant/zed-package-bump) | 0 | Zed extension that flags outdated npm dependencies in package.json, with code ac... |
+| [felixtensor/mlir-tablegen](https://github.com/felixtensor/mlir-tablegen) | 4 | MLIR Extension for Zed |
 | [monster-cookie/zed-papyrus](https://github.com/monster-cookie/zed-papyrus) | 0 | Bethesda Papyrus Syntax and Language support for Zed |
 | [csalmeida/summercamp-zed-theme](https://github.com/csalmeida/summercamp-zed-theme) | 0 | A return of the Summercamp theme for Zed. |
 | [zxcodes/cron-sense](https://github.com/zxcodes/cron-sense) | 0 | Zed extension: explain cron schedules (inspired by tumido/cron-explained) |
@@ -88,8 +90,6 @@ cd website && npm install && npm run dev
 | [phoenix-pulse/zed-themes](https://github.com/phoenix-pulse/zed-themes) | 0 | Two vibrant theme families for Zed, each with dark and light variants. |
 | [Specy/zed-pruple-theme](https://github.com/Specy/zed-pruple-theme) | 0 | A purpleish dark and blurred theme for zed |
 | [MrCoolBay/seaglass-theme](https://github.com/MrCoolBay/seaglass-theme) | 0 | A soft-pastel frosted glass theme for Zed — three transparency levels, light & d... |
-| [Giossue/carbon-theme](https://github.com/Giossue/carbon-theme) | 0 | Carbon Themes |
-| [ShayanAbbas1/coolnight-zed](https://github.com/ShayanAbbas1/coolnight-zed) | 0 | Coolnight theme for Zed — ported from Josean Martinez's coolnight colorscheme |
 
 ## Top starred (under 500)
 
@@ -120,6 +120,10 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [madebygrant/zed-package-bump](https://github.com/madebygrant/zed-package-bump) | 0 | 2026-08-12 | Zed extension that flags outdated npm dependencies in packag... |
+| [felixtensor/mlir-tablegen](https://github.com/felixtensor/mlir-tablegen) | 4 | 2026-08-12 | MLIR Extension for Zed |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 94 | 2026-08-12 | True Dark Theme for Zed IDE |
+| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 131 | 2026-08-12 | The Ruby language support for Zed editor |
 | [zxcodes/cron-sense](https://github.com/zxcodes/cron-sense) | 0 | 2026-08-12 | Zed extension: explain cron schedules (inspired by tumido/cr... |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-08-11 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [monster-cookie/zed-papyrus](https://github.com/monster-cookie/zed-papyrus) | 0 | 2026-08-11 | Bethesda Papyrus Syntax and Language support for Zed |
@@ -132,19 +136,16 @@ cd website && npm install && npm run dev
 | [emirror-de/clearsight-zed](https://github.com/emirror-de/clearsight-zed) | 1 | 2026-08-11 | A scientifically-backed, accessibility-focused theme optimiz... |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 209 | 2026-08-11 | Zed plugin for automatic time tracking and metrics generated... |
 | [infectiious/setinox.zed](https://github.com/infectiious/setinox.zed) | 0 | 2026-08-11 | A Zed theme based on the Seti UI color palette. |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 94 | 2026-08-11 | True Dark Theme for Zed IDE |
 | [emirror-de/quietude-zed](https://github.com/emirror-de/quietude-zed) | 1 | 2026-08-10 | A calm, warm monochrome theme for Zed, engineered to reduce ... |
 | [ShayanAbbas1/coolnight-zed](https://github.com/ShayanAbbas1/coolnight-zed) | 0 | 2026-08-10 | Coolnight theme for Zed — ported from Josean Martinez's cool... |
 | [devinaxo/zed-firefox-quantum-themes](https://github.com/devinaxo/zed-firefox-quantum-themes) | 0 | 2026-08-10 | A Zed port of the Firefox Quantum themes for Visual Studio C... |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-08-10 | A Zed extension that allows to highlight all occurrences of ... |
-| [Giossue/glass-theme](https://github.com/Giossue/glass-theme) | 0 | 2026-08-10 | Glass Themes |
-| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 1 | 2026-08-10 | Spring Boot language intelligence for Zed, built on the requ... |
-| [comphy-lab/comphy-zed-themes](https://github.com/comphy-lab/comphy-zed-themes) | 2 | 2026-08-09 |  |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-08-12T07:05 | 2 | 545 | 2062 |
 | 2026-08-12T01:04 | 6 | 546 | 2060 |
 | 2026-08-11T19:03 | 5 | 543 | 2054 |
 | 2026-08-11T13:03 | 3 | 543 | 2049 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-08-10T13:03 | 4 | 544 | 2029 |
 | 2026-08-10T07:05 | 0 | 544 | 2025 |
 | 2026-08-10T01:04 | 1 | 543 | 2025 |
-| 2026-08-09T18:57 | 0 | 544 | 2024 |
 
 ---
 

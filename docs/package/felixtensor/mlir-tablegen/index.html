@@ -1,0 +1,307 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>MLIR - Zed Extension Safari</title><meta name="description" content="MLIR Extension for Zed"><link rel="canonical" href="https://helgesverre.github.io/gh-packages-zed/package/felixtensor/mlir-tablegen/"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="MLIR - Zed Extension Safari"><meta property="og:description" content="MLIR Extension for Zed"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed/package/felixtensor/mlir-tablegen/"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="MLIR - Zed Extension Safari"><meta name="twitter:description" content="MLIR Extension for Zed"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/gh-packages-zed/_astro/ClientRouter.astro_astro_type_script_index_0_lang.ClVLs1kt.js"></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"MLIR","description":"MLIR Extension for Zed","applicationCategory":"DeveloperApplication","operatingSystem":"macOS, Linux, Windows","url":"https://zed.dev/extensions/mlir-tablegen","codeRepository":"https://github.com/felixtensor/mlir-tablegen","author":[{"@type":"Person","name":"felixtensor"},{"@type":"Person","name":"feichai0017"}],"softwareVersion":"0.6.2","license":"NOASSERTION","keywords":"grammar, language-server","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/Layout.CGDlMdWE.css"><script type="module" src="/gh-packages-zed/_astro/page.B8i1Zz-u.js"></script></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <a href="#main" class="skip-to-content">Skip to content</a> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" data-astro-transition-persist="astro-fhchcgd7-1"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <script type="application/json" id="pkg-extras">{"url":"https://github.com/felixtensor/mlir-tablegen","language":"Rust","license":"NOASSERTION","topics":["mlir","pdll","tablegen","zed","zed-extension"],"extension":{"authors":["felixtensor","feichai0017"],"schema_version":1}}</script> <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> felixtensor/mlir-tablegen </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> MLIR </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> MLIR, TableGen, and PDLL support. </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="grammar">Grammar</span><span class="cat-badge" data-cat="language-server">Language Server</span> </div> </div> </div> </header> <main id="main" class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/mlir-tablegen" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/felixtensor/mlir-tablegen" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.6.2</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">mlir-tablegen</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">Rust</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">NOASSERTION</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">4</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">2h ago</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">felixtensor, feichai0017</dd> </div> </dl>  <h2 class="mt-5 text-xs uppercase font-mono" style="color:var(--zed-muted);">Topics</h2> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> mlir </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> pdll </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> tablegen </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed-extension </span> </div>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-zed-mlir"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#zed-mlir"><span class="heading-anchor-icon">#</span></a>Zed MLIR</h1>
+<p><a href="https://mlir.llvm.org">MLIR</a> (<code>.mlir</code>), <a href="https://llvm.org/docs/TableGen/">TableGen</a>
+(<code>.td</code>), and <a href="https://mlir.llvm.org/docs/PDLL/">PDLL</a> (<code>.pdll</code>) support for the
+<a href="https://zed.dev">Zed</a> editor.</p>
+<h2 id="user-content-development"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#development"><span class="heading-anchor-icon">#</span></a>Development</h2>
+<p>To develop this extension, see the <a href="https://zed.dev/docs/extensions/developing-extensions">Developing Extensions</a> section of the Zed docs.</p>
+<h2 id="user-content-highlighting"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#highlighting"><span class="heading-anchor-icon">#</span></a>Highlighting</h2>
+<p>Custom and out-of-tree dialects need no configuration: any <code>dialect.op</code> form is
+recognized, so a project's own dialects behave like upstream ones. MLIR embedded
+in C++ raw strings is highlighted as MLIR wherever Zed's bundled C++ grammar
+injects <code>raw_string_content</code> by delimiter, as in <code>R"mlir(…)mlir"</code>.</p>
+<h2 id="user-content-language-servers"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#language-servers"><span class="heading-anchor-icon">#</span></a>Language Servers</h2>
+<p>The extension integrates the three language servers from the LLVM project:
+<code>mlir-lsp-server</code> for <code>.mlir</code>, <code>mlir-pdll-lsp-server</code> for <code>.pdll</code>, and
+<code>tblgen-lsp-server</code> for <code>.td</code>. They are optional — Tree-sitter highlighting,
+symbol outlines, bracket matching, and indentation work without them.</p>
+<p>Completion items from the MLIR and PDLL servers are classified by their LSP kind
+and detail, so values, blocks, dialects, operations, types, attributes,
+constraints, and include paths are colored consistently.</p>
+<h3 id="user-content-server-capabilities"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#server-capabilities"><span class="heading-anchor-icon">#</span></a>Server Capabilities</h3>
+<p>The available LSP features depend on the server and LLVM version. The following
+matrix reflects
+<a href="https://github.com/llvm/llvm-project/commit/06bf4bfff830"><code>llvm/llvm-project@06bf4bfff830</code></a>.
+This extension does not pin or bundle LLVM, so capabilities may differ in other
+LLVM builds.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>LSP capability</th><th align="center">MLIR</th><th align="center">PDLL</th><th align="center">TableGen</th></tr></thead><tbody><tr><td>Completion</td><td align="center">✅</td><td align="center">✅</td><td align="center">➖</td></tr><tr><td>Diagnostics</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td></tr><tr><td>Signature help</td><td align="center">➖</td><td align="center">✅</td><td align="center">➖</td></tr><tr><td>Definition</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td></tr><tr><td>References</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td></tr><tr><td>Document links</td><td align="center">➖</td><td align="center">✅</td><td align="center">✅</td></tr><tr><td>Hover</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td></tr><tr><td>Document symbols</td><td align="center">⚠️</td><td align="center">✅</td><td align="center">➖</td></tr><tr><td>Inlay hints</td><td align="center">➖</td><td align="center">✅</td><td align="center">➖</td></tr><tr><td>Code actions</td><td align="center">✅</td><td align="center">➖</td><td align="center">➖</td></tr><tr><td>Semantic tokens</td><td align="center">➖</td><td align="center">➖</td><td align="center">➖</td></tr><tr><td>Formatting</td><td align="center">➖</td><td align="center">➖</td><td align="center">➖</td></tr></tbody></table>
+<p><em>Key: ✅ Supported · ⚠️ Conditional · ➖ Not supported.</em></p>
+<p>Diagnostics use the standard <code>textDocument/publishDiagnostics</code> notification,
+which is not advertised in the initialization capability object. MLIR document
+symbols require the client to advertise hierarchical document symbols.</p>
+<h3 id="user-content-disable-the-servers"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#disable-the-servers"><span class="heading-anchor-icon">#</span></a>Disable the Servers</h3>
+<p>If the LLVM language servers are not installed, disable LSP for these languages
+to prevent Zed from trying to initialize them:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "languages"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "MLIR"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "enable_language_server"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">false</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    },</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "PDLL"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "enable_language_server"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">false</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    },</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "TableGen"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "enable_language_server"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">false</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>Add this to your user <code>settings.json</code> or a project's <code>.zed/settings.json</code>. See
+Zed's documentation for
+<a href="https://zed.dev/docs/configuring-languages#enabling-or-disabling-language-servers">enabling or disabling language servers</a>.</p>
+<h3 id="user-content-build-the-servers"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#build-the-servers"><span class="heading-anchor-icon">#</span></a>Build the Servers</h3>
+<p>The three servers live in the <code>llvm-project</code> monorepo under <code>mlir/tools/</code>.
+Follow the <a href="https://mlir.llvm.org/getting_started/">official MLIR Getting Started guide</a>
+to build them. A typical Unix-like flow is:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">git</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> clone</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> https://github.com/llvm/llvm-project.git</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">mkdir</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> llvm-project/build</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> &#x26;&#x26; </span><span style="color:#005CC5;--shiki-dark:#79B8FF">cd</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> llvm-project/build</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cmake</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -G</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> Ninja</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> ../llvm</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  -DLLVM_ENABLE_PROJECTS=mlir</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  -DLLVM_TARGETS_TO_BUILD=</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"Native"</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  -DCMAKE_BUILD_TYPE=Release</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  -DLLVM_ENABLE_ASSERTIONS=ON</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cmake</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --build</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> .</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --target</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> mlir-lsp-server</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> mlir-pdll-lsp-server</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> tblgen-lsp-server</span></span></code></pre>
+<p>After a successful build, the binaries are in <code>llvm-project/build/bin/</code>.
+Configure each server's binary path directly in Zed. Alternatively, make that
+directory available on the worktree's <code>$PATH</code>.</p>
+<p>If <code>mlir</code> is listed in <code>LLVM_ENABLE_PROJECTS</code> and you build the default <code>all</code>
+target, the three servers are produced with the rest of MLIR and do not need a
+separate build command.</p>
+<h3 id="user-content-configure-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#configure-zed"><span class="heading-anchor-icon">#</span></a>Configure Zed</h3>
+<p>Configure each server under <code>lsp.&#x3C;server-id></code> in Zed's <code>settings.json</code>. The
+executable is resolved in this order: <code>binary.path</code>, then <code>settings.path</code>, then
+the worktree's <code>$PATH</code>.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Field</th><th>Type</th><th>Applies to</th><th>Description</th></tr></thead><tbody><tr><td><code>path</code></td><td><code>string</code></td><td>All</td><td>Path to the server binary</td></tr><tr><td><code>compilation_database</code></td><td><code>string</code></td><td>TableGen, PDLL</td><td>Path to the compilation-database YAML</td></tr><tr><td><code>extra_dirs</code></td><td><code>string[]</code></td><td>TableGen, PDLL</td><td>Extra include directories</td></tr><tr><td><code>log</code></td><td><code>string</code></td><td>All</td><td>Log verbosity: <code>"error"</code>, <code>"info"</code>, or <code>"verbose"</code></td></tr><tr><td><code>pretty</code></td><td><code>bool</code></td><td>All</td><td>Pretty-print JSON output</td></tr></tbody></table>
+<p>All fields are optional. When <code>compilation_database</code> is unset and
+<code>binary.arguments</code> does not already contain the corresponding database flag,
+the extension searches the worktree's <code>build/</code> and <code>out/</code> directories for the
+TableGen or PDLL compilation database.</p>
+<p>Zed's native <code>binary.path</code>, <code>binary.arguments</code>, and <code>binary.env</code> fields are also
+supported. <code>binary.path</code> selects the executable, <code>binary.arguments</code> supplies
+launch arguments, and <code>binary.env</code> overrides matching environment variables.</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "mlir-lsp-server"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "path"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"/path/to/mlir-lsp-server"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "log"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"verbose"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    },</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "tblgen-lsp-server"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "path"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"/path/to/tblgen-lsp-server"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "compilation_database"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"/path/to/build/tablegen_compile_commands.yml"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "extra_dirs"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span></span>
+<span class="line"><span style="color:#032F62;--shiki-dark:#9ECBFF">          "/path/to/llvm-project/llvm/include"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#032F62;--shiki-dark:#9ECBFF">          "/path/to/llvm-project/mlir/include"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">        ]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    },</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "mlir-pdll-lsp-server"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "path"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"/path/to/mlir-pdll-lsp-server"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "compilation_database"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"/path/to/build/pdll_compile_commands.yml"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "extra_dirs"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span></span>
+<span class="line"><span style="color:#032F62;--shiki-dark:#9ECBFF">          "/path/to/llvm-project/mlir/include"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">        ]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>After changing a server's launch settings, open the command palette and run
+<code>zed: restart language server</code>.</p>
+<h3 id="user-content-ssh-remote-development"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#ssh-remote-development"><span class="heading-anchor-icon">#</span></a>SSH Remote Development</h3>
+<p>When a project is opened over SSH, the source code, language servers, tasks, and
+terminals run on the remote server; the local machine only runs the Zed UI. See
+Zed's <a href="https://zed.dev/docs/remote-development#zed-settings">remote development documentation</a>
+for the full model.</p>
+<p>Zed keeps the settings scopes separate, and editing one does not update another.
+<code>zed: open settings file</code> edits the local UI machine, <code>zed: open server settings</code>
+edits the remote server, and <code>zed: open project settings file</code> (or
+<code>.zed/settings.json</code>) applies to everyone opening that project. Configure the
+language-server binaries in the <strong>remote server settings</strong>, not the local
+settings file: if Zed runs on Windows but the project is opened on a Linux
+server, the <code>path</code> value must be a Linux path on the remote server.</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "mlir-lsp-server"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "path"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"/home/you/llvm-project/build/bin/mlir-lsp-server"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    },</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "tblgen-lsp-server"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "path"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"/home/you/llvm-project/build/bin/tblgen-lsp-server"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    },</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "mlir-pdll-lsp-server"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "path"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"/home/you/llvm-project/build/bin/mlir-pdll-lsp-server"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>The same rule applies to the other path-like settings: <code>compilation_database</code>
+must point to a file visible to the machine running the language server,
+<code>extra_dirs</code> must point to include directories visible to that same machine, and
+the auto-detected <code>build/</code> and <code>out/</code> compilation databases are searched relative
+to the worktree. Never put host-specific absolute paths — <code>C:\...</code> from a Windows
+UI host, or <code>/Applications/...</code> and Homebrew paths from a macOS UI host — into a
+project <code>.zed/settings.json</code> used by a Linux SSH workspace; the remote server
+cannot execute them.</p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>
