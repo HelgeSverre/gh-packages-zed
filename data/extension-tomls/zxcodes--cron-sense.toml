@@ -1,0 +1,47 @@
+id = "cron-sense-lsp"
+name = "Cron Sense"
+version = "0.3.0"
+schema_version = 1
+authors = ["Mohammed Farmaan <https://github.com/zxcodes>"]
+description = "Hover tooltips that translate cron schedules into human-readable English. Inspired by tumido/cron-explained (Tom Coufal)."
+repository = "https://github.com/zxcodes/cron-sense"
+
+[language_servers.cron-sense-lsp]
+name = "Cron Sense"
+languages = [
+  "Shell Script",
+  "YAML",
+  "TOML",
+  "JSON",
+  "JSONC",
+  "Dockerfile",
+  "JavaScript",
+  "TypeScript",
+  "TSX",
+  "JSX",
+  "Python",
+  "Ruby",
+  "Go",
+  "Rust",
+  "Plain Text",
+  "Markdown",
+]
+
+# Map Zed language names → LSP textDocument languageIds (same pattern as import-cost-lsp / prisma).
+[language_servers.cron-sense-lsp.language_ids]
+"Shell Script" = "shellscript"
+"YAML" = "yaml"
+"TOML" = "toml"
+"JSON" = "json"
+"JSONC" = "jsonc"
+"Dockerfile" = "dockerfile"
+"JavaScript" = "javascript"
+"TypeScript" = "typescript"
+"TSX" = "typescriptreact"
+"JSX" = "javascriptreact"
+"Python" = "python"
+"Ruby" = "ruby"
+"Go" = "go"
+"Rust" = "rust"
+"Plain Text" = "plaintext"
+"Markdown" = "markdown"

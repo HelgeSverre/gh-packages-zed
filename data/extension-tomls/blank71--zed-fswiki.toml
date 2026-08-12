@@ -1,0 +1,16 @@
+id = "fswiki"
+name = "FreeStyleWiki"
+description = "FreeStyleWiki language support for Zed"
+version = "1.0.1"
+schema_version = 1
+authors = ["blank71"]
+repository = "https://github.com/blank71/zed-fswiki"
+
+[grammars.fswiki]
+repository = "https://github.com/blank71/tree-sitter-fswiki"
+rev = "f8d6c1e4e952178f2fd1c5cea3d0f599950f862d"
+
+[language_servers.fswiki-lsp]
+name = "FreeStyleWiki LSP"
+languages = ["FreeStyleWiki"]
+command = { extension = true }

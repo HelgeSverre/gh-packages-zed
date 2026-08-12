@@ -1,0 +1,16 @@
+id = "papyrus"
+name = "Papyrus"
+version = "0.1.0"
+schema_version = 1
+authors = ["monster-cookie"]
+description = "Bethesda Papyrus language support for Starfield, Skyrim, and Fallout 4"
+repository = "https://github.com/monster-cookie/zed-papyrus"
+
+[grammars.papyrus]
+repository = "https://github.com/monster-cookie/papyrus-language-server"
+rev = "f4baf7da54ed6fca79ff81ae211b3364282630b6"
+path = "grammar"
+
+[language_servers.papyrus-language-server]
+name = "Papyrus Language Server"
+languages = ["Papyrus"]
