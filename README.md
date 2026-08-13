@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1708** |
 | In official registry | 1234 |
 | Discovered via topics | 474 |
-| Last updated | 2026-08-13 07:05 UTC |
+| Last updated | 2026-08-13 13:03 UTC |
 
 ### By capability
 
@@ -120,9 +120,12 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [pursvir/zed-pgn](https://github.com/pursvir/zed-pgn) | 0 | 2026-08-13 | Portable Game Notation support for Zed. |
+| [shnarazk/zed-lean4](https://github.com/shnarazk/zed-lean4) | 3 | 2026-08-13 | Zed extension to support Lean4 language |
+| [surrealdb/surrealql-zed](https://github.com/surrealdb/surrealql-zed) | 0 | 2026-08-13 | SurrealQL Language Extension for the Zed Editor |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 94 | 2026-08-13 | True Dark Theme for Zed IDE |
 | [madebygrant/zed-package-bump](https://github.com/madebygrant/zed-package-bump) | 0 | 2026-08-13 | Package Bump: A Zed extension that flags outdated npm depend... |
-| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 131 | 2026-08-13 | The Ruby language support for Zed editor |
+| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 132 | 2026-08-13 | The Ruby language support for Zed editor |
 | [lucascompython/wgsl-wesl-zed](https://github.com/lucascompython/wgsl-wesl-zed) | 23 | 2026-08-12 | WGSL/WESL language support for Zed |
 | [lmn451/css-variables-zed](https://github.com/lmn451/css-variables-zed) | 8 | 2026-08-12 | Project-wide CSS custom property intelligence for Zed: compl... |
 | [xsynaptic/zed-mdxlint](https://github.com/xsynaptic/zed-mdxlint) | 0 | 2026-08-12 | Zed extension providing mdxlint language server support |
@@ -137,14 +140,12 @@ cd website && npm install && npm run dev
 | [blank71/zed-fswiki](https://github.com/blank71/zed-fswiki) | 0 | 2026-08-11 |  |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-08-11 | Zed editor support for Carve, a modern light markup language |
 | [emirror-de/clearsight-zed](https://github.com/emirror-de/clearsight-zed) | 1 | 2026-08-11 | A scientifically-backed, accessibility-focused theme optimiz... |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 209 | 2026-08-11 | Zed plugin for automatic time tracking and metrics generated... |
-| [infectiious/setinox.zed](https://github.com/infectiious/setinox.zed) | 0 | 2026-08-11 | A Zed theme based on the Seti UI color palette. |
-| [emirror-de/quietude-zed](https://github.com/emirror-de/quietude-zed) | 1 | 2026-08-10 | A calm, warm monochrome theme for Zed, engineered to reduce ... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-08-13T13:03 | 0 | 549 | 2067 |
 | 2026-08-13T07:05 | 0 | 549 | 2067 |
 | 2026-08-13T01:05 | 1 | 548 | 2067 |
 | 2026-08-12T19:03 | 2 | 548 | 2066 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-08-11T19:03 | 5 | 543 | 2054 |
 | 2026-08-11T13:03 | 3 | 543 | 2049 |
 | 2026-08-11T07:03 | 0 | 543 | 2046 |
-| 2026-08-11T01:04 | 8 | 543 | 2046 |
 
 ---
 
