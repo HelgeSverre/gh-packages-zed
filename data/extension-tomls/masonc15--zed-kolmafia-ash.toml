@@ -1,0 +1,17 @@
+id = "kolmafia-ash"
+name = "KoLmafia ASH"
+version = "0.1.19"
+schema_version = 1
+authors = ["Colin"]
+description = "Language support for KoLmafia ASH scripts"
+repository = "https://github.com/masonc15/zed-kolmafia-ash"
+snippets = ["./snippets/kolmafia ash.json"]
+
+[language_servers.kolmafia-ash]
+name = "KoLmafia ASH Language Server"
+languages = ["KoLmafia ASH"]
+
+[grammars.kolmafia_ash]
+repository = "https://github.com/masonc15/zed-kolmafia-ash"
+rev = "fa7141ffd6390e851e9d5f123d3a46e58836f3bb"
+path = "grammar"
