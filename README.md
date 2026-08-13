@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1708** |
 | In official registry | 1234 |
 | Discovered via topics | 474 |
-| Last updated | 2026-08-12 19:03 UTC |
+| Last updated | 2026-08-13 01:05 UTC |
 
 ### By capability
 
@@ -103,7 +103,7 @@ cd website && npm install && npm run dev
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 209 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
-| [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 195 | Zed support for the Godot game engine and the GDScript language |
+| [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 196 | Zed support for the Godot game engine and the GDScript language |
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 192 | Typst extension for zed |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
@@ -120,13 +120,14 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [xsynaptic/zed-mdxlint](https://github.com/xsynaptic/zed-mdxlint) | 0 | 2026-08-12 | Zed extension providing mdxlint language server support |
+| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 131 | 2026-08-13 | The Ruby language support for Zed editor |
+| [lucascompython/wgsl-wesl-zed](https://github.com/lucascompython/wgsl-wesl-zed) | 23 | 2026-08-12 | WGSL/WESL language support for Zed |
 | [lmn451/css-variables-zed](https://github.com/lmn451/css-variables-zed) | 8 | 2026-08-12 | Project-wide CSS custom property intelligence for Zed: compl... |
+| [xsynaptic/zed-mdxlint](https://github.com/xsynaptic/zed-mdxlint) | 0 | 2026-08-12 | Zed extension providing mdxlint language server support |
 | [madebygrant/zed-package-bump](https://github.com/madebygrant/zed-package-bump) | 0 | 2026-08-12 | Zed extension that flags outdated npm dependencies in packag... |
 | [felixtensor/mlir-tablegen](https://github.com/felixtensor/mlir-tablegen) | 4 | 2026-08-12 | MLIR Extension for Zed |
 | [MrSubidubi/mlir-tablegen](https://github.com/MrSubidubi/mlir-tablegen) | 4 | 2026-08-12 | MLIR Extension for Zed |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 94 | 2026-08-12 | True Dark Theme for Zed IDE |
-| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 131 | 2026-08-12 | The Ruby language support for Zed editor |
 | [zxcodes/cron-sense](https://github.com/zxcodes/cron-sense) | 0 | 2026-08-12 | Zed extension: explain cron schedules (inspired by tumido/cr... |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-08-11 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [monster-cookie/zed-papyrus](https://github.com/monster-cookie/zed-papyrus) | 0 | 2026-08-11 | Bethesda Papyrus Syntax and Language support for Zed |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 209 | 2026-08-11 | Zed plugin for automatic time tracking and metrics generated... |
 | [infectiious/setinox.zed](https://github.com/infectiious/setinox.zed) | 0 | 2026-08-11 | A Zed theme based on the Seti UI color palette. |
 | [emirror-de/quietude-zed](https://github.com/emirror-de/quietude-zed) | 1 | 2026-08-10 | A calm, warm monochrome theme for Zed, engineered to reduce ... |
-| [ShayanAbbas1/coolnight-zed](https://github.com/ShayanAbbas1/coolnight-zed) | 0 | 2026-08-10 | Coolnight theme for Zed — ported from Josean Martinez's cool... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-08-13T01:05 | 1 | 548 | 2067 |
 | 2026-08-12T19:03 | 2 | 548 | 2066 |
 | 2026-08-12T13:03 | 2 | 547 | 2064 |
 | 2026-08-12T07:05 | 2 | 545 | 2062 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-08-11T07:03 | 0 | 543 | 2046 |
 | 2026-08-11T01:04 | 8 | 543 | 2046 |
 | 2026-08-10T19:02 | 9 | 544 | 2038 |
-| 2026-08-10T13:03 | 4 | 544 | 2029 |
 
 ---
 
