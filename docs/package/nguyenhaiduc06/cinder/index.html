@@ -1,0 +1,185 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Cinder - Zed Extension Safari</title><meta name="description" content="A terminal-native dark theme. Near-black surfaces, hairline rules, one ember accent, syntax that stays quiet."><link rel="canonical" href="https://helgesverre.github.io/gh-packages-zed/package/nguyenhaiduc06/cinder/"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Cinder - Zed Extension Safari"><meta property="og:description" content="A terminal-native dark theme. Near-black surfaces, hairline rules, one ember accent, syntax that stays quiet."><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed/package/nguyenhaiduc06/cinder/"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Cinder - Zed Extension Safari"><meta name="twitter:description" content="A terminal-native dark theme. Near-black surfaces, hairline rules, one ember accent, syntax that stays quiet."><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/gh-packages-zed/_astro/ClientRouter.astro_astro_type_script_index_0_lang.ClVLs1kt.js"></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Cinder","description":"A terminal-native dark theme. Near-black surfaces, hairline rules, one ember accent, syntax that stays quiet.","applicationCategory":"DeveloperApplication","operatingSystem":"macOS, Linux, Windows","url":"https://zed.dev/extensions/cinder-theme","codeRepository":"https://github.com/nguyenhaiduc06/cinder","author":[{"@type":"Person","name":"Duc Nguyen"}],"softwareVersion":"0.1.0","license":"MIT","keywords":"theme","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/Layout.CGDlMdWE.css"><script type="module" src="/gh-packages-zed/_astro/page.B8i1Zz-u.js"></script></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <a href="#main" class="skip-to-content">Skip to content</a> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" data-astro-transition-persist="astro-fhchcgd7-1"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <script type="application/json" id="pkg-extras">{"url":"https://github.com/nguyenhaiduc06/cinder","language":null,"license":"MIT","topics":[],"extension":{"authors":["Duc Nguyen"],"schema_version":1}}</script> <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> nguyenhaiduc06/cinder </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> Cinder </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> A terminal-native dark theme. Near-black surfaces, hairline rules, one ember accent, syntax that stays quiet. </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="theme">Theme</span> </div> </div> </div> </header> <main id="main" class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/cinder-theme" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/nguyenhaiduc06/cinder" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.1.0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">cinder-theme</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">MIT</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">5h ago</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">Duc Nguyen</dd> </div> </dl>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-cinder"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#cinder"><span class="heading-anchor-icon">#</span></a>Cinder</h1>
+<p>A terminal-native dark theme for <a href="https://zed.dev">Zed</a>. Near-black surfaces, hairline rules,
+one ember accent (<code>#e0632a</code>), and a deliberately quiet seven-color syntax palette.</p>
+<h2 id="user-content-install"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#install"><span class="heading-anchor-icon">#</span></a>Install</h2>
+<p>Once published: <code>zed: extensions</code> → search <strong>Cinder</strong>.</p>
+<p><strong>Manually (single theme file):</strong></p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">mkdir</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -p</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> ~/.config/zed/themes</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">curl</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -o</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> ~/.config/zed/themes/cinder.json</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#032F62;--shiki-dark:#9ECBFF">  https://raw.githubusercontent.com/nguyenhaiduc06/cinder/main/themes/cinder.json</span></span></code></pre>
+<p>Then pick <code>Cinder Dark</code> via <code>cmd-k cmd-t</code>.</p>
+<p><strong>As a dev extension:</strong> clone this repo, then <code>zed: install dev extension</code> from the command
+palette and point it at the directory.</p>
+<h2 id="user-content-palette"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#palette"><span class="heading-anchor-icon">#</span></a>Palette</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Role</th><th>Hex</th><th>Used for</th></tr></thead><tbody><tr><td>Chrome</td><td><code>#070708</code></td><td>title bar, window background</td></tr><tr><td>Sidebar / panels</td><td><code>#0b0b0d</code></td><td>project panel, terminal panel surface</td></tr><tr><td>Editor</td><td><code>#0a0a0b</code></td><td>editor + gutter background</td></tr><tr><td>Tab bar / status bar</td><td><code>#0c0c0e</code></td><td>inactive tabs, status bar, terminal</td></tr><tr><td>Popover</td><td><code>#101013</code></td><td>elevated surfaces, pickers, inputs</td></tr><tr><td>Selected row</td><td><code>#17171a</code></td><td>element.selected / active</td></tr><tr><td>Border</td><td><code>#1c1c20</code></td><td>hairline rules</td></tr><tr><td>Widget border</td><td><code>#26262b</code></td><td>inputs, popovers, scrollbar thumb</td></tr><tr><td>Text</td><td><code>#e8e6e3</code> → <code>#c8c6c3</code> → <code>#8a8a92</code> → <code>#5a5a62</code> → <code>#3a3a40</code></td><td>never pure white</td></tr><tr><td>Ember</td><td><code>#e0632a</code> / <code>#f0834f</code></td><td>cursor, focus, accents, active line number</td></tr><tr><td>Green</td><td><code>#4ea672</code></td><td>created / success</td></tr><tr><td>Red</td><td><code>#d1495b</code></td><td>deleted / error</td></tr><tr><td>Yellow</td><td><code>#e0c07a</code></td><td>modified / warning</td></tr><tr><td>Blue</td><td><code>#7fb3e0</code></td><td>info, selection tint (22%)</td></tr><tr><td>Purple</td><td><code>#c98cd9</code></td><td>conflict, keywords</td></tr></tbody></table>
+<h2 id="user-content-syntax-scope-map"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#syntax-scope-map"><span class="heading-anchor-icon">#</span></a>Syntax scope map</h2>
+<p>Seven colors, no more:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Color</th><th>Zed keys</th></tr></thead><tbody><tr><td><code>#c98cd9</code></td><td><code>keyword</code>, <code>variable.special</code>, <code>preproc</code></td></tr><tr><td><code>#e0c07a</code></td><td><code>function*</code>, <code>type*</code>, <code>constructor</code>, <code>enum</code>, <code>variant</code>, <code>tag</code>, <code>title</code></td></tr><tr><td><code>#7fb3e0</code></td><td><code>variable</code>, <code>property</code>, <code>attribute</code>, <code>label</code>, <code>link_*</code></td></tr><tr><td><code>#8fbf7f</code></td><td><code>string*</code>, <code>text.literal</code></td></tr><tr><td><code>#e0632a</code></td><td><code>number</code>, <code>boolean</code>, <code>constant</code>, <code>string.escape</code>, <code>punctuation.special</code></td></tr><tr><td><code>#6b6b74</code></td><td><code>punctuation*</code>, <code>operator</code></td></tr><tr><td><code>#5a5a62</code></td><td><code>comment</code> (italic), <code>hint</code></td></tr></tbody></table>
+<p>Identifiers stay near-foreground — only callables and keywords earn hue. Numbers borrow the
+accent. No bold anywhere; comments are the only italic (plus <code>emphasis</code> / <code>link_text</code>).</p>
+<h2 id="user-content-design-notes"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#design-notes"><span class="heading-anchor-icon">#</span></a>Design notes</h2>
+<ul>
+<li><strong>Brackets</strong> — matching-bracket highlights stay a neutral <code>#26262b</code> rather than a color cycle.
+Zed's <code>accents</code> key (used for indent-guide/bracket cycling) is set to the same seven-color
+syntax palette, but the muted highlight is a deliberate choice to keep brackets quiet.</li>
+<li><strong>Scrollbar / minimap</strong> — untinted on purpose: <code>#26262b</code> at 40 / 60 / 80% for rest / hover /
+active. Ember there reads as an error.</li>
+<li><strong><code>terminal.ansi.cyan</code></strong> is <code>#8fbf7f</code> (the string green), keeping the terminal inside the
+seven-color budget instead of introducing an eighth hue.</li>
+</ul>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>MIT</p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>

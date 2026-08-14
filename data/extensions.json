@@ -86,7 +86,7 @@
     "name": "GDQuest/zed-gdscript",
     "url": "https://github.com/GDQuest/zed-gdscript",
     "description": "Zed support for the Godot game engine and the GDScript language",
-    "stars": 196,
+    "stars": 197,
     "forks": 23,
     "topics": [
       "code-editor",
@@ -98,7 +98,7 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-02-26T18:14:41Z",
-    "updated_at": "2026-08-13T00:35:06Z",
+    "updated_at": "2026-08-14T08:53:16Z",
     "pushed_at": "2026-07-27T13:17:21Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -254,7 +254,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2024-10-11T18:22:02Z",
-    "updated_at": "2026-08-13T21:18:39Z",
+    "updated_at": "2026-08-14T10:56:52Z",
     "pushed_at": "2026-08-13T21:19:06Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -1536,8 +1536,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2025-09-06T08:50:19Z",
-    "updated_at": "2026-06-01T11:29:20Z",
-    "pushed_at": "2026-08-13T09:06:34Z",
+    "updated_at": "2026-08-14T08:02:26Z",
+    "pushed_at": "2026-08-14T08:02:07Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false,
     "extension": {
@@ -53771,8 +53771,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
-    "updated_at": "2026-08-14T06:18:56Z",
-    "pushed_at": "2026-08-14T06:18:28Z",
+    "updated_at": "2026-08-14T11:18:50Z",
+    "pushed_at": "2026-08-14T11:18:41Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false,
     "extension": {
@@ -58584,6 +58584,137 @@
       ],
       "categories": [
         "language-server"
+      ]
+    }
+  },
+  "nguyenhaiduc06/cinder": {
+    "name": "nguyenhaiduc06/cinder",
+    "url": "https://github.com/nguyenhaiduc06/cinder",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-07-28T07:46:18Z",
+    "updated_at": "2026-08-14T07:40:47Z",
+    "pushed_at": "2026-08-14T07:40:41Z",
+    "discovered_at": "2026-08-14T13:03:22.143Z",
+    "official": true,
+    "extension": {
+      "id": "cinder-theme",
+      "name": "Cinder",
+      "description": "A terminal-native dark theme. Near-black surfaces, hairline rules, one ember accent, syntax that stays quiet.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Duc Nguyen <nguyenhaiduc06@gmail.com>"
+      ],
+      "repository": "https://github.com/nguyenhaiduc06/cinder",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "fajriyan/deepz-theme": {
+    "name": "fajriyan/deepz-theme",
+    "url": "https://github.com/fajriyan/deepz-theme",
+    "description": "A custom Deep dark theme for Zed",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-08-13T21:57:02Z",
+    "updated_at": "2026-08-13T22:08:34Z",
+    "pushed_at": "2026-08-13T22:09:10Z",
+    "discovered_at": "2026-08-14T13:03:22.144Z",
+    "official": true,
+    "extension": {
+      "id": "deepz-theme",
+      "name": "Deepz",
+      "description": "Deepz — Deep dark theme for Zed",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "fajriyan <fajriyan20@gmail.com>"
+      ],
+      "repository": "https://github.com/fajriyan/deepz-theme",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "ehshit/ehwebthemeszed": {
+    "name": "ehshit/EhWebThemesZed",
+    "url": "https://github.com/ehshit/EhWebThemesZed",
+    "description": "Collection of Themes from Eh's Websites and Stuff for Zed!",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-08-12T10:00:53Z",
+    "updated_at": "2026-08-12T10:02:07Z",
+    "pushed_at": "2026-08-12T10:19:32Z",
+    "discovered_at": "2026-08-14T13:03:22.144Z",
+    "official": true,
+    "extension": {
+      "id": "eh-web-themes",
+      "name": "Eh's Web Themes",
+      "description": "Collection of Themes from Eh's Websites and Stuff for Zed!",
+      "version": "1.0",
+      "schema_version": 1,
+      "authors": [
+        "Eh"
+      ],
+      "repository": "https://github.com/ehshit/EhWebThemesZed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "magicgordon/zed-leo-extension": {
+    "name": "MagicGordon/zed-leo-extension",
+    "url": "https://github.com/MagicGordon/zed-leo-extension",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2026-07-09T23:33:14Z",
+    "updated_at": "2026-08-12T13:06:54Z",
+    "pushed_at": "2026-08-12T13:06:04Z",
+    "discovered_at": "2026-08-14T13:03:22.144Z",
+    "official": true,
+    "extension": {
+      "id": "leo",
+      "name": "Leo",
+      "description": "Leo and Aleo language support for Zed.",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "MagicGordon"
+      ],
+      "repository": "https://github.com/MagicGordon/zed-leo-extension",
+      "snippets": [
+        "./snippets/leo.json"
+      ],
+      "sections": [
+        "grammars",
+        "language_servers"
+      ],
+      "categories": [
+        "grammar",
+        "language-server",
+        "snippets"
       ]
     }
   }

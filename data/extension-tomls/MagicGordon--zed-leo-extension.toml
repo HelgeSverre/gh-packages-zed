@@ -1,0 +1,23 @@
+id = "leo"
+name = "Leo"
+version = "0.0.1"
+schema_version = 1
+authors = ["MagicGordon"]
+description = "Leo and Aleo language support for Zed."
+repository = "https://github.com/MagicGordon/zed-leo-extension"
+snippets = ["./snippets/leo.json"]
+
+[grammars.aleo]
+repository = "https://github.com/MagicGordon/tree-sitter-aleo"
+rev = "f185de8177c0fb4c17bddef528148f6455b7f720"
+
+[grammars.leo]
+repository = "https://github.com/MagicGordon/tree-sitter-leo"
+rev = "73496de44bbf3422a659dc35573af9ddc0de4b0f"
+
+[language_servers.leo-lsp]
+name = "Leo LSP"
+languages = ["Leo"]
+
+[language_servers.leo-lsp.language_ids]
+Leo = "leo"
