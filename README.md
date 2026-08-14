@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1711** |
 | In official registry | 1235 |
 | Discovered via topics | 476 |
-| Last updated | 2026-08-14 01:05 UTC |
+| Last updated | 2026-08-14 07:05 UTC |
 
 ### By capability
 
@@ -120,8 +120,9 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-08-14 | Intelligent codebase search & indexing for Zed. Async MCP se... |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 94 | 2026-08-14 | True Dark Theme for Zed IDE |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-08-14 | Zed editor support for Carve, a modern light markup language |
-| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-08-13 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 132 | 2026-08-13 | The Ruby language support for Zed editor |
 | [gesundes/zed-ansible-vault](https://github.com/gesundes/zed-ansible-vault) | 0 | 2026-08-13 | Encrypt and decrypt Ansible Vault files and inline !vault YA... |
 | [masonc15/zed-kolmafia-ash](https://github.com/masonc15/zed-kolmafia-ash) | 1 | 2026-08-13 | Modern Zed tooling for KoLmafia’s ASH scripting language. |
@@ -129,7 +130,6 @@ cd website && npm install && npm run dev
 | [pursvir/zed-pgn](https://github.com/pursvir/zed-pgn) | 0 | 2026-08-13 | Portable Game Notation support for Zed. |
 | [shnarazk/zed-lean4](https://github.com/shnarazk/zed-lean4) | 3 | 2026-08-13 | Zed extension to support Lean4 language |
 | [surrealdb/surrealql-zed](https://github.com/surrealdb/surrealql-zed) | 0 | 2026-08-13 | SurrealQL Language Extension for the Zed Editor |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 94 | 2026-08-13 | True Dark Theme for Zed IDE |
 | [madebygrant/zed-package-bump](https://github.com/madebygrant/zed-package-bump) | 0 | 2026-08-13 | Package Bump: A Zed extension that flags outdated npm depend... |
 | [lucascompython/wgsl-wesl-zed](https://github.com/lucascompython/wgsl-wesl-zed) | 23 | 2026-08-12 | WGSL/WESL language support for Zed |
 | [lmn451/css-variables-zed](https://github.com/lmn451/css-variables-zed) | 8 | 2026-08-12 | Project-wide CSS custom property intelligence for Zed: compl... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-08-14T07:05 | 0 | 551 | 2071 |
 | 2026-08-14T01:05 | 2 | 550 | 2071 |
 | 2026-08-13T19:03 | 2 | 548 | 2069 |
 | 2026-08-13T13:03 | 0 | 549 | 2067 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-08-12T13:03 | 2 | 547 | 2064 |
 | 2026-08-12T07:05 | 2 | 545 | 2062 |
 | 2026-08-12T01:04 | 6 | 546 | 2060 |
-| 2026-08-11T19:03 | 5 | 543 | 2054 |
 
 ---
 
