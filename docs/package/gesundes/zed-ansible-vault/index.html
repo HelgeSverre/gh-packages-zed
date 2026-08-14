@@ -1,0 +1,260 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Ansible Vault - Zed Extension Safari</title><meta name="description" content="Encrypt and decrypt Ansible Vault files and inline !vault YAML values in Zed"><link rel="canonical" href="https://helgesverre.github.io/gh-packages-zed/package/gesundes/zed-ansible-vault/"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Ansible Vault - Zed Extension Safari"><meta property="og:description" content="Encrypt and decrypt Ansible Vault files and inline !vault YAML values in Zed"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed/package/gesundes/zed-ansible-vault/"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Ansible Vault - Zed Extension Safari"><meta name="twitter:description" content="Encrypt and decrypt Ansible Vault files and inline !vault YAML values in Zed"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/gh-packages-zed/_astro/ClientRouter.astro_astro_type_script_index_0_lang.ClVLs1kt.js"></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Ansible Vault","description":"Encrypt and decrypt Ansible Vault files and inline !vault YAML values in Zed","applicationCategory":"DeveloperApplication","operatingSystem":"macOS, Linux, Windows","url":"https://zed.dev/extensions/ansible-vault","codeRepository":"https://github.com/gesundes/zed-ansible-vault","author":[{"@type":"Person","name":"Oleg Lipin"}],"softwareVersion":"0.2.1","license":"MIT","keywords":"language-server","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/Layout.CGDlMdWE.css"><script type="module" src="/gh-packages-zed/_astro/page.B8i1Zz-u.js"></script></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <a href="#main" class="skip-to-content">Skip to content</a> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" data-astro-transition-persist="astro-fhchcgd7-1"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <script type="application/json" id="pkg-extras">{"url":"https://github.com/gesundes/zed-ansible-vault","language":"Rust","license":"MIT","topics":["ansible","ansible-vault","rust","zed-extension"],"extension":{"authors":["Oleg Lipin"],"schema_version":1}}</script> <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> gesundes/zed-ansible-vault </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> Ansible Vault </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> Encrypt and decrypt Ansible Vault files and inline !vault YAML values </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="language-server">Language Server</span> </div> </div> </div> </header> <main id="main" class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/ansible-vault" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/gesundes/zed-ansible-vault" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.2.1</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">ansible-vault</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">Rust</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">MIT</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">3h ago</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">Oleg Lipin</dd> </div> </dl>  <h2 class="mt-5 text-xs uppercase font-mono" style="color:var(--zed-muted);">Topics</h2> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> ansible </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> ansible-vault </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> rust </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed-extension </span> </div>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-ansible-vault-for-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#ansible-vault-for-zed"><span class="heading-anchor-icon">#</span></a>Ansible Vault for Zed</h1>
+<p>A Zed extension and native companion language server for encrypting Ansible Vault files and YAML
+<code>!vault</code> values. It does not patch Zed and coexists with the existing Ansible/YAML language
+servers.</p>
+<p>This extension complements the existing <strong>Ansible</strong> extension in the Zed catalog. It adds Vault
+operations and diagnostics; it does not replace Ansible syntax highlighting or its language server.</p>
+<h2 id="user-content-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation"><span class="heading-anchor-icon">#</span></a>Installation</h2>
+<p>After the catalog release, open Zed Extensions, search for <strong>Ansible Vault</strong>, and select <strong>Install</strong>.
+The extension downloads the native companion matching its own version and verifies its SHA-256
+checksum before making it executable. Companion <code>0.2.1</code> is downloaded only from release <code>v0.2.1</code>.</p>
+<p>For development, open the command palette, run <strong>Extensions: Install Dev Extension</strong>, and select
+this repository. A development install can use a locally built companion as described below.</p>
+<h2 id="user-content-actions"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#actions"><span class="heading-anchor-icon">#</span></a>Actions</h2>
+<p>Open Zed's contextual code actions menu with <code>editor: toggle code actions</code>. With the JetBrains
+keymap this is <code>Alt/Option+Enter</code>; from the global command palette (double Shift in that keymap),
+search for <code>editor: toggle code actions</code>. The Vault actions are dynamic LSP actions, so they appear
+in the contextual menu rather than directly in the global command palette. To show the toolbar
+button, enable <code>toolbar.code_actions</code> in Zed settings.</p>
+<p>Zed chooses the position of its inline bolt itself. It hides the bolt when the cursor is on a blank
+line. If a nonblank cursor line has less than four columns of indentation available for the inline
+slot, Zed may move the bolt to a nearby blank or more deeply indented line (up to eight lines away).
+The LSP protocol does not let this extension set the bolt coordinates; <code>Alt/Option+Enter</code> still
+opens the actions for the current cursor position, and the toolbar button does not move between
+lines.</p>
+<p>For whole-file actions the active document must be a saved <code>file://</code> file. Availability is
+contextual:</p>
+<ul>
+<li>
+<p>A regular YAML/Ansible file always offers <strong>Encrypt File</strong>, regardless of cursor position.</p>
+</li>
+<li>
+<p>A complete Vault file always offers only <strong>Decrypt File</strong>, regardless of cursor position.</p>
+</li>
+<li>
+<p>A scalar mapping value offers <strong>Encrypt YAML Value</strong> from anywhere on its key line or inside the
+value, including multiline scalars.</p>
+</li>
+<li>
+<p>A <code>!vault</code> mapping value offers <strong>Decrypt !vault Value</strong> from anywhere on its key line or inside
+any ciphertext line. A malformed Vault header still offers decryption and never offers value
+encryption; resolving it stops with a validation error and does not modify the document.</p>
+</li>
+<li>
+<p><strong>Ansible Vault: Encrypt File</strong></p>
+</li>
+<li>
+<p><strong>Ansible Vault: Decrypt File</strong></p>
+</li>
+<li>
+<p><strong>Ansible Vault: Encrypt YAML Value</strong></p>
+</li>
+<li>
+<p><strong>Ansible Vault: Decrypt !vault Value</strong></p>
+</li>
+<li>
+<p><strong>Ansible Vault: Fix Vault Header</strong> (only when a canonical header can be inferred safely)</p>
+</li>
+</ul>
+<p>There is no separate setup check. Selecting any action performs a new preflight before prompting
+or changing data: platform, executable and command support, private temp storage, source access,
+target-directory access, password file, or GUI prompt backend.</p>
+<h2 id="user-content-vault-diagnostics"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#vault-diagnostics"><span class="heading-anchor-icon">#</span></a>Vault diagnostics</h2>
+<p>The companion validates complete Vault files and inline <code>!vault</code> blocks whenever a document is
+opened or changed. Invalid markers, unsupported Vault versions or ciphers, missing Vault 1.2 IDs,
+empty payloads, and non-hexadecimal payload lines are published as standard LSP errors. Zed
+underlines the exact header field or payload line, shows it in the Diagnostics view and scrollbar,
+and clears it immediately after the document is corrected or closed. The versioned <strong>Fix Vault
+Header</strong> quick fix recognizes confident errors in the marker, separators, version, and cipher and
+normalizes the entire line to <code>$ANSIBLE_VAULT;1.1;AES256</code> or to a Vault 1.2 header while preserving
+its existing ID. It is withheld when a Vault 1.2 ID is missing or the input is too ambiguous. The
+fix never invokes Ansible or requests a password.</p>
+<p>To keep diagnostic messages visible to the right of their source lines, enable Zed's inline
+diagnostics through <code>editor: toggle inline diagnostics</code> or settings:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "diagnostics"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "inline"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "enabled"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">true</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "max_severity"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"warning"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h2 id="user-content-requirements"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#requirements"><span class="heading-anchor-icon">#</span></a>Requirements</h2>
+<ul>
+<li>Zed with support for third-party language-server extensions.</li>
+<li><code>ansible-vault</code> from a maintained <code>ansible-core</code> release installed on the host. Release <code>0.2.1</code>
+is tested with <code>ansible-core</code> 2.19, 2.20, and 2.21.</li>
+<li>If no password file is configured:
+<ul>
+<li>macOS: <code>/usr/bin/osascript</code>;</li>
+<li>Linux: a graphical session and one of <code>zenity</code>, <code>kdialog</code>, or <code>yad</code>.</li>
+</ul>
+</li>
+</ul>
+<p>The extension never bundles Ansible or a dialog tool.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Platform</th><th>Architectures</th><th>Support</th></tr></thead><tbody><tr><td>macOS 10.15.7 or newer</td><td>Intel <code>x86_64</code></td><td>Supported</td></tr><tr><td>macOS 11 or newer</td><td>Apple Silicon <code>aarch64</code></td><td>Supported</td></tr><tr><td>Linux supported by Zed</td><td><code>x86_64</code>, <code>aarch64</code></td><td>Supported with static companion binaries</td></tr><tr><td>Windows</td><td>—</td><td>Not supported in 0.2.1</td></tr></tbody></table>
+<p>Interactive prompts require a graphical desktop session. Headless and remote environments must use
+<code>ansibleVault.passwordFile</code>.</p>
+<h2 id="user-content-settings"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#settings"><span class="heading-anchor-icon">#</span></a>Settings</h2>
+<p>Open Zed's Settings Editor (<code>Cmd+,</code> on macOS or <code>Ctrl+,</code> on Linux) for global configuration, or edit
+<code>.zed/settings.json</code> in a project. Search for and open the JSON settings file from that UI, then add
+the LSP section below. Zed knows how to start the installed extension, but the <code>lsp</code> key is still
+required when you want to customize its settings. Project settings override global settings through
+Zed's normal LSP settings merge. The Zed extension API does not currently allow this extension to
+register a custom graphical settings form.</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "ansible-vault-lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "ansibleVault"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">          "executable"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"ansible-vault"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">          "passwordFile"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">".vault-password"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">          "vaultId"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">null</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">          "promptBackend"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"auto"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">        }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p><code>passwordFile</code> accepts an absolute path, <code>~/...</code>, or a path relative to the worktree containing the
+current document. A configured but missing, empty, unreadable, or non-regular file is an error; the
+server does not silently fall back to a prompt. On POSIX, broadly accessible permissions produce a
+warning. The password itself must never be put in settings.</p>
+<p><code>promptBackend</code> is <code>auto</code>, <code>osascript</code>, <code>zenity</code>, <code>kdialog</code>, or <code>yad</code>. An explicitly selected
+backend never falls back to another one. <code>vaultId</code> supplies the label for Ansible Vault 1.2 and may
+not contain <code>@</code>.</p>
+<p>For local companion development, point Zed directly at the debug or release binary:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "ansible-vault-lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "binary"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "path"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"/absolute/path/to/ansible-vault-lsp"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h2 id="user-content-safety-model"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#safety-model"><span class="heading-anchor-icon">#</span></a>Safety model</h2>
+<ul>
+<li>Interactive passwords are entered once in a masked native dialog for both encryption and
+decryption.</li>
+<li>Passwords are held in zeroizing memory and passed to Ansible only via a private <code>0600</code> temporary
+password file. Passwords and plaintext never appear in process arguments or environment.</li>
+<li>Processes are launched directly without a shell, use a private <code>ANSIBLE_LOCAL_TEMP</code>, have a
+timeout, and are killed when timed out.</li>
+<li>Inline changes use a versioned <code>WorkspaceEdit</code>, so they participate in Undo and fail safely if
+the document changes.</li>
+<li>Whole-file operations reject dirty, read-only, symlinked, special, and non-UTF-8 files. They run
+on private copies, recheck the document version and disk hash, preserve POSIX permissions, and
+atomically rename the result in the original directory.</li>
+<li>Only one Vault operation may run for a document at a time. Raw Ansible stdout/stderr is never
+exposed in UI errors or logs.</li>
+</ul>
+<h2 id="user-content-development"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#development"><span class="heading-anchor-icon">#</span></a>Development</h2>
+<p>Install Rust 1.97.1 with <code>rustfmt</code>, <code>clippy</code>, and the <code>wasm32-wasip2</code> target, then run:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> fmt</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --all</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --check</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> clippy</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --workspace</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --all-targets</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --locked</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -D</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> warnings</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> test</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --workspace</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --locked</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> build</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -p</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> ansible-vault-lsp</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --locked</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> build</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -p</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> zed-ansible-vault-extension</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --release</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --locked</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --target</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> wasm32-wasip2</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">./scripts/check-release-version.sh</span></span></code></pre>
+<p>Before using <strong>Install Dev Extension</strong>, verify the exact toolchain visible to Zed:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">./scripts/check-dev-environment.sh</span></span></code></pre>
+<p>Zed requires <code>cargo</code> and <code>rustc</code> to be rustup proxies. On macOS, installing both the Homebrew
+<code>rust</code> and <code>rustup</code> formulae can leave <code>/opt/homebrew/bin/rustc</code> pointing at the standalone
+Homebrew sysroot while <code>wasm32-wasip2</code> is installed in the rustup sysroot. The resulting Zed log
+contains <code>can't find crate for core</code>, and the failed extension will not appear in the installed
+list. Fix that conflict with:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">brew</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> unlink</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> rust</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">brew</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> link</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --force</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> rustup</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">rustup</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> target</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> add</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> wasm32-wasip2</span></span></code></pre>
+<p>In Zed, use <strong>Extensions: Install Dev Extension</strong> and select this repository. Configure the local
+binary path while developing. Release assets are named
+<code>ansible-vault-lsp-{darwin|linux}-{aarch64|x86_64}</code> with adjacent <code>.sha256</code> files.</p>
+<h2 id="user-content-troubleshooting"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#troubleshooting"><span class="heading-anchor-icon">#</span></a>Troubleshooting</h2>
+<ul>
+<li><strong>No Vault actions:</strong> save the file, make sure its language is YAML or Ansible, and run
+<code>editor: toggle code actions</code> with the cursor on a nonblank line. Check the Zed language-server
+log for <code>ansible-vault-lsp</code> startup errors.</li>
+<li><strong><code>ansible-vault</code> not found:</strong> use an absolute <code>ansibleVault.executable</code> or launch Zed from an
+environment whose <code>PATH</code> contains Ansible.</li>
+<li><strong>No password dialog on Linux:</strong> verify <code>DISPLAY</code> or <code>WAYLAND_DISPLAY</code> and install <code>zenity</code>,
+<code>kdialog</code>, or <code>yad</code>; otherwise configure a password file.</li>
+<li><strong>Companion download failure:</strong> confirm GitHub Releases is reachable and the extension can write
+to its own extension directory. Reinstalling retries a clean staged download; checksum failures
+are never activated.</li>
+<li><strong>File changed but the buffer did not refresh:</strong> reload the file before editing it. The operation
+has already completed on disk, and the warning prevents editing stale plaintext/ciphertext.</li>
+<li><strong>Persistent diagnostics:</strong> open Zed's Diagnostics view or enable inline diagnostics. The header
+quick fix appears only when the intended canonical header can be inferred safely.</li>
+</ul>
+<p>When reporting a problem, include the extension, Zed, OS, and <code>ansible-vault --version</code> values plus
+a synthetic reproduction. Never include a real password, password file, decrypted value, private
+Vault payload, or identifying filesystem path. See <a href="https://github.com/gesundes/zed-ansible-vault/blob/HEAD/SECURITY.md" target="_blank" rel="noopener">SECURITY.md</a> for private reports.</p>
+<h2 id="user-content-release-and-e2e"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#release-and-e2e"><span class="heading-anchor-icon">#</span></a>Release and E2E</h2>
+<p>The complete contributor, release, rollback, catalog, and manual E2E procedures are documented in
+<a href="https://github.com/gesundes/zed-ansible-vault/blob/HEAD/CONTRIBUTING.md" target="_blank" rel="noopener">CONTRIBUTING.md</a>. Release artifacts include per-file checksums, a combined
+<code>SHA256SUMS</code>, a CycloneDX SBOM, and GitHub build-provenance attestations.</p>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>MIT</p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>
