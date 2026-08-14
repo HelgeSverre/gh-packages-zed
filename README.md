@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1715** |
 | In official registry | 1239 |
 | Discovered via topics | 476 |
-| Last updated | 2026-08-14 13:03 UTC |
+| Last updated | 2026-08-14 19:02 UTC |
 
 ### By capability
 
@@ -107,7 +107,7 @@ cd website && npm install && npm run dev
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 192 | Typst extension for zed |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
-| [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 167 | A macOS native style theme for Zed, let it same like native app in macOS. |
+| [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 168 | A macOS native style theme for Zed, let it same like native app in macOS. |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 166 | 🦊 Zed editor theme ported from Neovim |
 | [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 153 |  |
 | [zed-extensions/swift](https://github.com/zed-extensions/swift) | 148 | Extension for Zed to support Swift |
@@ -121,6 +121,8 @@ cd website && npm install && npm run dev
 | Package | Stars | Last push | Description |
 |---|---|---|---|
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-08-14 | Intelligent codebase search & indexing for Zed. Async MCP se... |
+| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 166 | 2026-08-14 | 🦊 Zed editor theme ported from Neovim |
+| [encore-ecosystem/encore-zed](https://github.com/encore-ecosystem/encore-zed) | 0 | 2026-08-14 |  |
 | [surrealdb/surrealql-zed](https://github.com/surrealdb/surrealql-zed) | 0 | 2026-08-14 | SurrealQL Language Extension for the Zed Editor |
 | [nguyenhaiduc06/cinder](https://github.com/nguyenhaiduc06/cinder) | 0 | 2026-08-14 |  |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 94 | 2026-08-14 | True Dark Theme for Zed IDE |
@@ -138,13 +140,12 @@ cd website && npm install && npm run dev
 | [MagicGordon/zed-leo-extension](https://github.com/MagicGordon/zed-leo-extension) | 0 | 2026-08-12 |  |
 | [xsynaptic/zed-mdxlint](https://github.com/xsynaptic/zed-mdxlint) | 0 | 2026-08-12 | Zed extension providing mdxlint language server support |
 | [ehshit/EhWebThemesZed](https://github.com/ehshit/EhWebThemesZed) | 0 | 2026-08-12 | Collection of Themes from Eh's Websites and Stuff for Zed! |
-| [felixtensor/mlir-tablegen](https://github.com/felixtensor/mlir-tablegen) | 4 | 2026-08-12 | MLIR Extension for Zed |
-| [MrSubidubi/mlir-tablegen](https://github.com/MrSubidubi/mlir-tablegen) | 4 | 2026-08-12 | MLIR Extension for Zed |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-08-14T19:02 | 1 | 550 | 2078 |
 | 2026-08-14T13:03 | 6 | 551 | 2077 |
 | 2026-08-14T07:05 | 0 | 551 | 2071 |
 | 2026-08-14T01:05 | 2 | 550 | 2071 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-08-13T01:05 | 1 | 548 | 2067 |
 | 2026-08-12T19:03 | 2 | 548 | 2066 |
 | 2026-08-12T13:03 | 2 | 547 | 2064 |
-| 2026-08-12T07:05 | 2 | 545 | 2062 |
 
 ---
 

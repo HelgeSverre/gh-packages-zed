@@ -3,7 +3,7 @@
     "name": "HelgeSverre/zed-applescript",
     "url": "https://github.com/HelgeSverre/zed-applescript",
     "description": "AppleScript for Zed — syntax highlighting, outline, runnables, language injection. Powered by a custom tree-sitter grammar.",
-    "stars": 4,
+    "stars": 5,
     "forks": 0,
     "topics": [
       "applescript",
@@ -19,7 +19,7 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2025-12-31T19:00:50Z",
-    "updated_at": "2026-07-12T10:03:50Z",
+    "updated_at": "2026-08-14T17:32:04Z",
     "pushed_at": "2026-05-27T02:00:07Z",
     "discovered_at": "2026-05-19T19:19:12.408Z",
     "official": true
@@ -3234,7 +3234,7 @@
     "name": "huacnlee/zed-theme-macos-classic",
     "url": "https://github.com/huacnlee/zed-theme-macos-classic",
     "description": "A macOS native style theme for Zed, let it same like native app in macOS.",
-    "stars": 167,
+    "stars": 168,
     "forks": 6,
     "topics": [
       "macos-classic",
@@ -3245,7 +3245,7 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2024-01-29T02:19:59Z",
-    "updated_at": "2026-08-08T13:23:30Z",
+    "updated_at": "2026-08-14T13:07:02Z",
     "pushed_at": "2026-02-05T02:23:27Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -5146,7 +5146,7 @@
     "name": "Dylanmurzello/zed-android-port",
     "url": "https://github.com/Dylanmurzello/zed-android-port",
     "description": "Native Android port of the Zed code editor,  gpui rendering through Vulkan, integrated Termux for LSPs and tooling, remote SSH support. Runs as an APK on tablets and Android desktop modes.",
-    "stars": 164,
+    "stars": 165,
     "forks": 14,
     "topics": [
       "android",
@@ -5173,7 +5173,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-05-07T00:12:10Z",
-    "updated_at": "2026-08-14T13:00:00Z",
+    "updated_at": "2026-08-14T14:38:35Z",
     "pushed_at": "2026-08-07T13:48:06Z",
     "discovered_at": "2026-05-19T19:54:12.053Z",
     "official": false
@@ -6257,8 +6257,8 @@
     "language": "Lua",
     "license": "MIT",
     "created_at": "2024-05-02T20:49:30Z",
-    "updated_at": "2026-08-13T04:12:25Z",
-    "pushed_at": "2026-08-09T19:57:05Z",
+    "updated_at": "2026-08-14T16:43:10Z",
+    "pushed_at": "2026-08-14T16:43:07Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": true
   },
@@ -6576,7 +6576,7 @@
     "url": "https://github.com/wnkz/monoglow.nvim",
     "description": "🎆 A dark, mostly monochrome colorscheme with a touch of glowing.",
     "stars": 172,
-    "forks": 9,
+    "forks": 10,
     "topics": [
       "ghostty-theme",
       "neovim",
@@ -15219,7 +15219,7 @@
     "name": "darkvoid-theme/darkvoid.nvim",
     "url": "https://github.com/darkvoid-theme/darkvoid.nvim",
     "description": "Neovim Colorscheme for dark dwellers with optional glow effect!",
-    "stars": 225,
+    "stars": 226,
     "forks": 10,
     "topics": [
       "color-scheme",
@@ -15244,7 +15244,7 @@
     "language": "Lua",
     "license": "MIT",
     "created_at": "2024-07-30T06:26:25Z",
-    "updated_at": "2026-08-06T06:57:07Z",
+    "updated_at": "2026-08-14T15:53:03Z",
     "pushed_at": "2024-11-21T21:02:02Z",
     "discovered_at": "2026-05-19T20:52:12.309Z",
     "official": false
@@ -18026,8 +18026,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-08-14T07:06:23Z",
-    "pushed_at": "2026-08-14T07:06:11Z",
+    "updated_at": "2026-08-14T13:04:33Z",
+    "pushed_at": "2026-08-14T13:03:55Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -32039,8 +32039,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
-    "updated_at": "2026-08-14T11:18:50Z",
-    "pushed_at": "2026-08-14T11:18:41Z",
+    "updated_at": "2026-08-14T18:39:22Z",
+    "pushed_at": "2026-08-14T18:38:54Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false
   },
@@ -32871,8 +32871,8 @@
     "language": "HTML",
     "license": null,
     "created_at": "2026-07-20T15:17:37Z",
-    "updated_at": "2026-07-25T10:58:12Z",
-    "pushed_at": "2026-07-25T10:57:58Z",
+    "updated_at": "2026-08-14T14:23:47Z",
+    "pushed_at": "2026-08-14T14:22:53Z",
     "discovered_at": "2026-07-20T19:15:55.157Z",
     "official": false
   },
@@ -33077,11 +33077,11 @@
       "encore",
       "zed-extension"
     ],
-    "language": "Tree-sitter Query",
+    "language": "Rust",
     "license": "MIT",
     "created_at": "2026-03-30T19:21:46Z",
-    "updated_at": "2026-07-23T18:13:00Z",
-    "pushed_at": "2026-07-23T18:09:02Z",
+    "updated_at": "2026-08-14T15:40:49Z",
+    "pushed_at": "2026-08-14T15:40:16Z",
     "discovered_at": "2026-07-23T19:04:41.250Z",
     "official": false
   },
@@ -35375,5 +35375,25 @@
     "pushed_at": "2026-08-12T05:55:45Z",
     "discovered_at": "2026-08-14T13:03:22.144Z",
     "official": true
+  },
+  "kissalexandra/selene": {
+    "name": "kissalexandra/Selene",
+    "url": "https://github.com/kissalexandra/Selene",
+    "description": "Official Mirror: Celestial theme for Ghostty, Xcode and Zed (continuation of the Salander theme).",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "ghostty-theme",
+      "theme",
+      "xcode-theme",
+      "zed-theme"
+    ],
+    "language": null,
+    "license": "Apache-2.0",
+    "created_at": "2026-07-20T07:08:48Z",
+    "updated_at": "2026-07-29T16:45:15Z",
+    "pushed_at": "2026-07-29T16:46:03Z",
+    "discovered_at": "2026-08-14T19:02:12.223Z",
+    "official": false
   }
 }
