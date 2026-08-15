@@ -6322,7 +6322,7 @@
     "name": "felipefdl/warm-burnout",
     "url": "https://github.com/felipefdl/warm-burnout",
     "description": "Mostly warm, WCAG-audited color theme suite with one cool type accent. For developers who are already burned out but still have deadlines.",
-    "stars": 111,
+    "stars": 112,
     "forks": 11,
     "topics": [
       "accessibility",
@@ -6349,7 +6349,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-03-13T20:17:28Z",
-    "updated_at": "2026-08-15T00:57:36Z",
+    "updated_at": "2026-08-15T13:26:25Z",
     "pushed_at": "2026-08-09T06:29:18Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": true
@@ -15467,8 +15467,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
-    "updated_at": "2026-08-15T10:39:15Z",
-    "pushed_at": "2026-08-15T11:09:45Z",
+    "updated_at": "2026-08-15T14:48:16Z",
+    "pushed_at": "2026-08-15T14:47:58Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -18026,8 +18026,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-08-15T06:57:04Z",
-    "pushed_at": "2026-08-15T06:56:55Z",
+    "updated_at": "2026-08-15T12:57:59Z",
+    "pushed_at": "2026-08-15T12:57:45Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -32204,8 +32204,8 @@
     "name": "hyyan/zed-test-coverage-highlight",
     "url": "https://github.com/hyyan/zed-test-coverage-highlight",
     "description": "Zed extension that highlights test coverage in the editor. Renders lcov, JaCoCo, Cobertura and Clover reports as colored lines, with a coverage code lens and hover.",
-    "stars": 1,
-    "forks": 0,
+    "stars": 2,
+    "forks": 1,
     "topics": [
       "clover",
       "cobertura",
@@ -32219,7 +32219,7 @@
     "language": "TypeScript",
     "license": "MIT",
     "created_at": "2026-07-10T08:40:40Z",
-    "updated_at": "2026-08-14T07:31:54Z",
+    "updated_at": "2026-08-15T15:44:16Z",
     "pushed_at": "2026-08-14T07:37:57Z",
     "discovered_at": "2026-07-10T13:22:23.420Z",
     "official": true
@@ -35379,7 +35379,7 @@
   "kissalexandra/selene": {
     "name": "kissalexandra/Selene",
     "url": "https://github.com/kissalexandra/Selene",
-    "description": "Official Mirror: Celestial theme for Ghostty, Xcode and Zed (continuation of the Salander theme).",
+    "description": "Celestial theme for Ghostty, Xcode and Zed (continuation of the Salander theme).",
     "stars": 0,
     "forks": 0,
     "topics": [
@@ -35391,9 +35391,34 @@
     "language": null,
     "license": "Apache-2.0",
     "created_at": "2026-07-20T07:08:48Z",
-    "updated_at": "2026-07-29T16:45:15Z",
-    "pushed_at": "2026-07-29T16:46:03Z",
+    "updated_at": "2026-08-15T16:09:16Z",
+    "pushed_at": "2026-08-15T16:05:09Z",
     "discovered_at": "2026-08-14T19:02:12.223Z",
+    "official": false
+  },
+  "grunmin/dsh-acp-enhanced": {
+    "name": "grunmin/dsh-acp-enhanced",
+    "url": "https://github.com/grunmin/dsh-acp-enhanced",
+    "description": "Enhanced ACP (Agent Client Protocol) server for DeepSeek Harness (dsh) — drop-in bridge for the Zed editor: block-level streaming, usage/stat telemetry, model & reasoning-effort switching, permission presets, session resume & archive. Install: dsh plugin add",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "acp",
+      "agent-client-protocol",
+      "ai-agent",
+      "deepseek-harness",
+      "dsh",
+      "dsh-plugin",
+      "llm",
+      "zed",
+      "zed-editor"
+    ],
+    "language": "JavaScript",
+    "license": "MIT",
+    "created_at": "2026-08-14T00:48:20Z",
+    "updated_at": "2026-08-15T15:24:20Z",
+    "pushed_at": "2026-08-15T15:24:04Z",
+    "discovered_at": "2026-08-15T18:51:44.196Z",
     "official": false
   }
 }
