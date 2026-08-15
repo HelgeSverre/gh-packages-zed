@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1715** |
 | In official registry | 1239 |
 | Discovered via topics | 476 |
-| Last updated | 2026-08-15 01:03 UTC |
+| Last updated | 2026-08-15 06:56 UTC |
 
 ### By capability
 
@@ -120,13 +120,13 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-08-15 | A Zed extension that allows to highlight all occurrences of ... |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 94 | 2026-08-15 | True Dark Theme for Zed IDE |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-08-14 | Intelligent codebase search & indexing for Zed. Async MCP se... |
-| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-08-14 | A Zed extension that allows to highlight all occurrences of ... |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 168 | 2026-08-14 | 🦊 Zed editor theme ported from Neovim |
 | [encore-ecosystem/encore-zed](https://github.com/encore-ecosystem/encore-zed) | 0 | 2026-08-14 |  |
 | [surrealdb/surrealql-zed](https://github.com/surrealdb/surrealql-zed) | 0 | 2026-08-14 | SurrealQL Language Extension for the Zed Editor |
 | [nguyenhaiduc06/cinder](https://github.com/nguyenhaiduc06/cinder) | 0 | 2026-08-14 |  |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 94 | 2026-08-14 | True Dark Theme for Zed IDE |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-08-14 | Zed editor support for Carve, a modern light markup language |
 | [fajriyan/deepz-theme](https://github.com/fajriyan/deepz-theme) | 0 | 2026-08-13 | A custom Deep dark theme for Zed |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 132 | 2026-08-13 | The Ruby language support for Zed editor |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-08-15T06:56 | 0 | 551 | 2078 |
 | 2026-08-15T01:03 | 0 | 551 | 2078 |
 | 2026-08-14T19:02 | 1 | 550 | 2078 |
 | 2026-08-14T13:03 | 6 | 551 | 2077 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-08-13T13:03 | 0 | 549 | 2067 |
 | 2026-08-13T07:05 | 0 | 549 | 2067 |
 | 2026-08-13T01:05 | 1 | 548 | 2067 |
-| 2026-08-12T19:03 | 2 | 548 | 2066 |
 
 ---
 
