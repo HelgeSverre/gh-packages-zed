@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1715** |
 | In official registry | 1239 |
 | Discovered via topics | 476 |
-| Last updated | 2026-08-14 19:02 UTC |
+| Last updated | 2026-08-15 01:03 UTC |
 
 ### By capability
 
@@ -104,11 +104,11 @@ cd website && npm install && npm run dev
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
 | [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 197 | Zed support for the Godot game engine and the GDScript language |
-| [zed-extensions/typst](https://github.com/zed-extensions/typst) | 192 | Typst extension for zed |
+| [zed-extensions/typst](https://github.com/zed-extensions/typst) | 193 | Typst extension for zed |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 168 | A macOS native style theme for Zed, let it same like native app in macOS. |
-| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 166 | 🦊 Zed editor theme ported from Neovim |
+| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 168 | 🦊 Zed editor theme ported from Neovim |
 | [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 153 |  |
 | [zed-extensions/swift](https://github.com/zed-extensions/swift) | 148 | Extension for Zed to support Swift |
 | [thedadams/zed-comment](https://github.com/thedadams/zed-comment) | 148 | A comment extension for the Zed editor |
@@ -121,7 +121,8 @@ cd website && npm install && npm run dev
 | Package | Stars | Last push | Description |
 |---|---|---|---|
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-08-14 | Intelligent codebase search & indexing for Zed. Async MCP se... |
-| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 166 | 2026-08-14 | 🦊 Zed editor theme ported from Neovim |
+| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-08-14 | A Zed extension that allows to highlight all occurrences of ... |
+| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 168 | 2026-08-14 | 🦊 Zed editor theme ported from Neovim |
 | [encore-ecosystem/encore-zed](https://github.com/encore-ecosystem/encore-zed) | 0 | 2026-08-14 |  |
 | [surrealdb/surrealql-zed](https://github.com/surrealdb/surrealql-zed) | 0 | 2026-08-14 | SurrealQL Language Extension for the Zed Editor |
 | [nguyenhaiduc06/cinder](https://github.com/nguyenhaiduc06/cinder) | 0 | 2026-08-14 |  |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [lmn451/css-variables-zed](https://github.com/lmn451/css-variables-zed) | 8 | 2026-08-12 | Project-wide CSS custom property intelligence for Zed: compl... |
 | [MagicGordon/zed-leo-extension](https://github.com/MagicGordon/zed-leo-extension) | 0 | 2026-08-12 |  |
 | [xsynaptic/zed-mdxlint](https://github.com/xsynaptic/zed-mdxlint) | 0 | 2026-08-12 | Zed extension providing mdxlint language server support |
-| [ehshit/EhWebThemesZed](https://github.com/ehshit/EhWebThemesZed) | 0 | 2026-08-12 | Collection of Themes from Eh's Websites and Stuff for Zed! |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-08-15T01:03 | 0 | 551 | 2078 |
 | 2026-08-14T19:02 | 1 | 550 | 2078 |
 | 2026-08-14T13:03 | 6 | 551 | 2077 |
 | 2026-08-14T07:05 | 0 | 551 | 2071 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-08-13T07:05 | 0 | 549 | 2067 |
 | 2026-08-13T01:05 | 1 | 548 | 2067 |
 | 2026-08-12T19:03 | 2 | 548 | 2066 |
-| 2026-08-12T13:03 | 2 | 547 | 2064 |
 
 ---
 
