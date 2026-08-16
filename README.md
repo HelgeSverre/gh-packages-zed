@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1716** |
 | In official registry | 1240 |
 | Discovered via topics | 476 |
-| Last updated | 2026-08-16 01:04 UTC |
+| Last updated | 2026-08-16 06:56 UTC |
 
 ### By capability
 
@@ -120,11 +120,11 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 94 | 2026-08-16 | True Dark Theme for Zed IDE |
 | [Paulo-Camacho/zed-8008](https://github.com/Paulo-Camacho/zed-8008) | 1 | 2026-08-15 | A Zed theme inspired by 8008 keycap set. |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-08-15 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-08-15 | Zed editor support for Carve, a modern light markup language |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-08-15 | A Zed extension that allows to highlight all occurrences of ... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 94 | 2026-08-15 | True Dark Theme for Zed IDE |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 168 | 2026-08-14 | 🦊 Zed editor theme ported from Neovim |
 | [encore-ecosystem/encore-zed](https://github.com/encore-ecosystem/encore-zed) | 0 | 2026-08-14 |  |
 | [surrealdb/surrealql-zed](https://github.com/surrealdb/surrealql-zed) | 0 | 2026-08-14 | SurrealQL Language Extension for the Zed Editor |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-08-16T06:56 | 1 | 553 | 2081 |
 | 2026-08-16T01:04 | 1 | 552 | 2080 |
 | 2026-08-15T18:51 | 1 | 551 | 2079 |
 | 2026-08-15T12:57 | 0 | 551 | 2078 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-08-14T13:03 | 6 | 551 | 2077 |
 | 2026-08-14T07:05 | 0 | 551 | 2071 |
 | 2026-08-14T01:05 | 2 | 550 | 2071 |
-| 2026-08-13T19:03 | 2 | 548 | 2069 |
 
 ---
 
