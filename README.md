@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1715-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1716-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,16 +14,16 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1715** |
-| In official registry | 1239 |
+| Total tracked | **1716** |
+| In official registry | 1240 |
 | Discovered via topics | 476 |
-| Last updated | 2026-08-15 18:51 UTC |
+| Last updated | 2026-08-16 01:04 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
-| Themes | 735 |
+| Themes | 736 |
 | Grammars | 591 |
 | Language Servers | 550 |
 | Context Servers | 135 |
@@ -70,6 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [Paulo-Camacho/zed-8008](https://github.com/Paulo-Camacho/zed-8008) | 1 | A Zed theme inspired by 8008 keycap set. |
 | [fajriyan/deepz-theme](https://github.com/fajriyan/deepz-theme) | 0 | A custom Deep dark theme for Zed |
 | [ehshit/EhWebThemesZed](https://github.com/ehshit/EhWebThemesZed) | 0 | Collection of Themes from Eh's Websites and Stuff for Zed! |
 | [MagicGordon/zed-leo-extension](https://github.com/MagicGordon/zed-leo-extension) | 0 |  |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [karnauhmax/zed-gitlab-web-ide-theme](https://github.com/karnauhmax/zed-gitlab-web-ide-theme) | 0 | Port of GitLab's Web IDE themes (Dark, Dark Midnight, Light) to Zed editor |
 | [makinda-jackson/makinda-zed](https://github.com/makinda-jackson/makinda-zed) | 0 | Makinda themes for Zed — premium light and dark with warm orange accents |
 | [panosdimak/zed-souffle](https://github.com/panosdimak/zed-souffle) | 0 | Soufflé Datalog language support for Zed |
-| [devgauravjatt/turbo-log-snippets](https://github.com/devgauravjatt/turbo-log-snippets) | 0 |  |
 
 ## Top starred (under 500)
 
@@ -120,8 +120,9 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-08-15 | Zed editor support for Carve, a modern light markup language |
+| [Paulo-Camacho/zed-8008](https://github.com/Paulo-Camacho/zed-8008) | 1 | 2026-08-15 | A Zed theme inspired by 8008 keycap set. |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-08-15 | Intelligent codebase search & indexing for Zed. Async MCP se... |
+| [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-08-15 | Zed editor support for Carve, a modern light markup language |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-08-15 | A Zed extension that allows to highlight all occurrences of ... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 94 | 2026-08-15 | True Dark Theme for Zed IDE |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 168 | 2026-08-14 | 🦊 Zed editor theme ported from Neovim |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [lucascompython/wgsl-wesl-zed](https://github.com/lucascompython/wgsl-wesl-zed) | 23 | 2026-08-12 | WGSL/WESL language support for Zed |
 | [lmn451/css-variables-zed](https://github.com/lmn451/css-variables-zed) | 8 | 2026-08-12 | Project-wide CSS custom property intelligence for Zed: compl... |
 | [MagicGordon/zed-leo-extension](https://github.com/MagicGordon/zed-leo-extension) | 0 | 2026-08-12 |  |
-| [xsynaptic/zed-mdxlint](https://github.com/xsynaptic/zed-mdxlint) | 0 | 2026-08-12 | Zed extension providing mdxlint language server support |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-08-16T01:04 | 1 | 552 | 2080 |
 | 2026-08-15T18:51 | 1 | 551 | 2079 |
 | 2026-08-15T12:57 | 0 | 551 | 2078 |
 | 2026-08-15T06:56 | 0 | 551 | 2078 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-08-14T07:05 | 0 | 551 | 2071 |
 | 2026-08-14T01:05 | 2 | 550 | 2071 |
 | 2026-08-13T19:03 | 2 | 548 | 2069 |
-| 2026-08-13T13:03 | 0 | 549 | 2067 |
 
 ---
 
