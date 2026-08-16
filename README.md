@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1716** |
 | In official registry | 1240 |
 | Discovered via topics | 476 |
-| Last updated | 2026-08-16 06:56 UTC |
+| Last updated | 2026-08-16 12:57 UTC |
 
 ### By capability
 
@@ -102,8 +102,8 @@ cd website && npm install && npm run dev
 | [catppuccin/zed-icons](https://github.com/catppuccin/zed-icons) | 240 | 🦊 Soothing pastel icons for Zed |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 209 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
+| [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 198 | Zed support for the Godot game engine and the GDScript language |
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
-| [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 197 | Zed support for the Godot game engine and the GDScript language |
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 193 | Typst extension for zed |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
@@ -120,9 +120,9 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-08-16 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 94 | 2026-08-16 | True Dark Theme for Zed IDE |
 | [Paulo-Camacho/zed-8008](https://github.com/Paulo-Camacho/zed-8008) | 1 | 2026-08-15 | A Zed theme inspired by 8008 keycap set. |
-| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-08-15 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-08-15 | Zed editor support for Carve, a modern light markup language |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-08-15 | A Zed extension that allows to highlight all occurrences of ... |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 168 | 2026-08-14 | 🦊 Zed editor theme ported from Neovim |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-08-16T12:57 | 0 | 554 | 2081 |
 | 2026-08-16T06:56 | 1 | 553 | 2081 |
 | 2026-08-16T01:04 | 1 | 552 | 2080 |
 | 2026-08-15T18:51 | 1 | 551 | 2079 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-08-14T19:02 | 1 | 550 | 2078 |
 | 2026-08-14T13:03 | 6 | 551 | 2077 |
 | 2026-08-14T07:05 | 0 | 551 | 2071 |
-| 2026-08-14T01:05 | 2 | 550 | 2071 |
 
 ---
 
