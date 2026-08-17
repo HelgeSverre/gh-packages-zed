@@ -59,8 +59,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-05-03T17:39:17Z",
-    "updated_at": "2026-08-15T06:23:50Z",
-    "pushed_at": "2026-08-15T06:23:52Z",
+    "updated_at": "2026-08-17T13:20:16Z",
+    "pushed_at": "2026-08-17T13:17:14Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -205,7 +205,7 @@
     "url": "https://github.com/wakatime/zed-wakatime",
     "description": "Zed plugin for automatic time tracking and metrics generated from your programming activity.",
     "stars": 209,
-    "forks": 30,
+    "forks": 31,
     "topics": [
       "extension",
       "wakatime",
@@ -1031,7 +1031,7 @@
     "name": "Gurvirr/zed-ultraViolet",
     "url": "https://github.com/Gurvirr/zed-ultraViolet",
     "description": "A dark, violet-toned theme designed for quality & visual comfort ◡̈",
-    "stars": 116,
+    "stars": 117,
     "forks": 1,
     "topics": [
       "theme",
@@ -1042,7 +1042,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-03-27T21:17:19Z",
-    "updated_at": "2026-07-22T06:11:37Z",
+    "updated_at": "2026-08-17T17:55:01Z",
     "pushed_at": "2026-05-08T15:27:24Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -58791,6 +58791,37 @@
         "grammar",
         "language-server",
         "snippets"
+      ]
+    }
+  },
+  "x032205/argent-zed-theme": {
+    "name": "x032205/argent-zed-theme",
+    "url": "https://github.com/x032205/argent-zed-theme",
+    "description": "",
+    "stars": 12,
+    "forks": 3,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2024-04-28T05:35:57Z",
+    "updated_at": "2026-08-17T02:15:09Z",
+    "pushed_at": "2026-08-17T02:15:03Z",
+    "discovered_at": "2026-08-17T18:56:32.572Z",
+    "official": true,
+    "extension": {
+      "id": "tsar",
+      "name": "Argent",
+      "description": "Minimal and modern semi-transparent dark theme, in desaturated silver and the original saturated palette.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "x <x032205@gmail.com>"
+      ],
+      "repository": "https://github.com/x032205/argent-zed-theme",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
       ]
     }
   }
