@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1717** |
 | In official registry | 1241 |
 | Discovered via topics | 476 |
-| Last updated | 2026-08-17 01:03 UTC |
+| Last updated | 2026-08-17 07:02 UTC |
 
 ### By capability
 
@@ -120,9 +120,9 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 95 | 2026-08-17 | True Dark Theme for Zed IDE |
 | [MahoCommerce/zed](https://github.com/MahoCommerce/zed) | 1 | 2026-08-16 | Maho extension for Zed. |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-08-16 | Intelligent codebase search & indexing for Zed. Async MCP se... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 94 | 2026-08-16 | True Dark Theme for Zed IDE |
 | [Paulo-Camacho/zed-8008](https://github.com/Paulo-Camacho/zed-8008) | 1 | 2026-08-15 | A Zed theme inspired by 8008 keycap set. |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-08-15 | Zed editor support for Carve, a modern light markup language |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-08-15 | A Zed extension that allows to highlight all occurrences of ... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-08-17T07:02 | 0 | 557 | 2086 |
 | 2026-08-17T01:03 | 3 | 555 | 2086 |
 | 2026-08-16T18:51 | 2 | 553 | 2083 |
 | 2026-08-16T12:57 | 0 | 554 | 2081 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-08-15T12:57 | 0 | 551 | 2078 |
 | 2026-08-15T06:56 | 0 | 551 | 2078 |
 | 2026-08-15T01:03 | 0 | 551 | 2078 |
-| 2026-08-14T19:02 | 1 | 550 | 2078 |
 
 ---
 
