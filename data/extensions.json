@@ -2557,8 +2557,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-04-04T17:17:24Z",
-    "updated_at": "2026-08-11T21:05:01Z",
-    "pushed_at": "2026-08-11T21:04:57Z",
+    "updated_at": "2026-08-16T21:01:37Z",
+    "pushed_at": "2026-08-16T21:01:23Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -6283,7 +6283,7 @@
     "name": "swannysec/mcp-server-searxng",
     "url": "https://github.com/swannysec/mcp-server-searxng",
     "description": "Privacy-focused web search via SearXNG instances for Zed AI assistant",
-    "stars": 1,
+    "stars": 2,
     "forks": 0,
     "topics": [
       "mcp-server",
@@ -6295,7 +6295,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2025-11-23T01:42:36Z",
-    "updated_at": "2026-04-01T20:18:43Z",
+    "updated_at": "2026-08-16T23:20:24Z",
     "pushed_at": "2026-06-23T21:31:45Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false,
@@ -53771,8 +53771,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
-    "updated_at": "2026-08-16T18:50:09Z",
-    "pushed_at": "2026-08-16T18:49:35Z",
+    "updated_at": "2026-08-16T19:57:17Z",
+    "pushed_at": "2026-08-16T19:56:43Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false,
     "extension": {
@@ -58753,6 +58753,44 @@
       "sections": [],
       "categories": [
         "theme"
+      ]
+    }
+  },
+  "vadim-su/zed_mojo": {
+    "name": "vadim-su/zed_mojo",
+    "url": "https://github.com/vadim-su/zed_mojo",
+    "description": "",
+    "stars": 2,
+    "forks": 0,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2026-05-30T08:16:37Z",
+    "updated_at": "2026-07-09T16:45:38Z",
+    "pushed_at": "2026-05-30T09:06:12Z",
+    "discovered_at": "2026-08-17T01:03:46.356Z",
+    "official": true,
+    "extension": {
+      "id": "mojo",
+      "name": "Mojo",
+      "description": "Mojo language support for Zed",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Vadim Suharnikov"
+      ],
+      "repository": "https://github.com/vadim-su/zed_mojo",
+      "snippets": [
+        "./snippets/mojo.json"
+      ],
+      "sections": [
+        "grammars",
+        "language_servers"
+      ],
+      "categories": [
+        "grammar",
+        "language-server",
+        "snippets"
       ]
     }
   }
