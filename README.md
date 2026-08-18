@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1718** |
 | In official registry | 1242 |
 | Discovered via topics | 476 |
-| Last updated | 2026-08-18 13:01 UTC |
+| Last updated | 2026-08-18 18:55 UTC |
 
 ### By capability
 
@@ -80,7 +80,7 @@ cd website && npm install && npm run dev
 | [0rtbo/0-protan-prism-theme](https://github.com/0rtbo/0-protan-prism-theme) | 0 | A dark and light Zed theme family designed for strong protan color vision. |
 | [gesundes/zed-ansible-vault](https://github.com/gesundes/zed-ansible-vault) | 0 | Encrypt and decrypt Ansible Vault files and inline !vault YAML values in Zed |
 | [masonc15/zed-kolmafia-ash](https://github.com/masonc15/zed-kolmafia-ash) | 1 | Modern Zed tooling for KoLmafia’s ASH scripting language. |
-| [MrSubidubi/mlir-tablegen](https://github.com/MrSubidubi/mlir-tablegen) | 4 | MLIR Extension for Zed |
+| [MrSubidubi/mlir-tablegen](https://github.com/MrSubidubi/mlir-tablegen) | 5 | MLIR Extension for Zed |
 | [xsynaptic/zed-mdxlint](https://github.com/xsynaptic/zed-mdxlint) | 0 | Zed extension providing mdxlint language server support |
 | [madebygrant/zed-package-bump](https://github.com/madebygrant/zed-package-bump) | 0 | Package Bump: A Zed extension that flags outdated npm dependencies in package.js... |
 | [felixtensor/mlir-tablegen](https://github.com/felixtensor/mlir-tablegen) | 4 | MLIR Extension for Zed |
@@ -120,8 +120,8 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [madebygrant/zed-package-bump](https://github.com/madebygrant/zed-package-bump) | 0 | 2026-08-18 | Package Bump: A Zed extension that flags outdated npm depend... |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-08-18 | Intelligent codebase search & indexing for Zed. Async MCP se... |
+| [madebygrant/zed-package-bump](https://github.com/madebygrant/zed-package-bump) | 0 | 2026-08-18 | Package Bump: A Zed extension that flags outdated npm depend... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 96 | 2026-08-18 | True Dark Theme for Zed IDE |
 | [gesundes/zed-ansible-vault](https://github.com/gesundes/zed-ansible-vault) | 0 | 2026-08-17 | Encrypt and decrypt Ansible Vault files and inline !vault YA... |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-08-17 | A Zed extension that allows to highlight all occurrences of ... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-08-18T18:55 | 0 | 557 | 2088 |
 | 2026-08-18T13:01 | 1 | 556 | 2088 |
 | 2026-08-18T06:59 | 0 | 557 | 2087 |
 | 2026-08-18T01:03 | 0 | 557 | 2087 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-08-17T01:03 | 3 | 555 | 2086 |
 | 2026-08-16T18:51 | 2 | 553 | 2083 |
 | 2026-08-16T12:57 | 0 | 554 | 2081 |
-| 2026-08-16T06:56 | 1 | 553 | 2081 |
 
 ---
 

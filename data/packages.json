@@ -1855,13 +1855,14 @@
     "forks": 0,
     "topics": [
       "zed",
+      "zed-editor",
       "zed-extension",
       "zed-theme"
     ],
     "language": null,
     "license": "MIT",
     "created_at": "2026-01-16T11:34:28Z",
-    "updated_at": "2026-04-02T15:41:35Z",
+    "updated_at": "2026-08-18T14:32:27Z",
     "pushed_at": "2026-04-02T15:41:31Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -5146,7 +5147,7 @@
     "name": "Dylanmurzello/zed-android-port",
     "url": "https://github.com/Dylanmurzello/zed-android-port",
     "description": "Native Android port of the Zed code editor,  gpui rendering through Vulkan, integrated Termux for LSPs and tooling, remote SSH support. Runs as an APK on tablets and Android desktop modes.",
-    "stars": 171,
+    "stars": 173,
     "forks": 14,
     "topics": [
       "android",
@@ -5173,7 +5174,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-05-07T00:12:10Z",
-    "updated_at": "2026-08-18T09:57:42Z",
+    "updated_at": "2026-08-18T15:47:32Z",
     "pushed_at": "2026-08-07T13:48:06Z",
     "discovered_at": "2026-05-19T19:54:12.053Z",
     "official": false
@@ -18026,8 +18027,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-08-18T07:00:51Z",
-    "pushed_at": "2026-08-18T07:00:07Z",
+    "updated_at": "2026-08-18T13:20:29Z",
+    "pushed_at": "2026-08-18T13:01:44Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -32039,8 +32040,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
-    "updated_at": "2026-08-18T03:07:41Z",
-    "pushed_at": "2026-08-18T03:07:32Z",
+    "updated_at": "2026-08-18T17:06:06Z",
+    "pushed_at": "2026-08-18T17:05:43Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false
   },
@@ -34307,8 +34308,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-08-07T18:46:45Z",
-    "updated_at": "2026-08-16T18:53:51Z",
-    "pushed_at": "2026-08-16T18:53:00Z",
+    "updated_at": "2026-08-18T16:30:58Z",
+    "pushed_at": "2026-08-18T16:28:39Z",
     "discovered_at": "2026-08-08T18:56:57.473Z",
     "official": false
   },
@@ -35174,7 +35175,7 @@
     "name": "MrSubidubi/mlir-tablegen",
     "url": "https://github.com/MrSubidubi/mlir-tablegen",
     "description": "MLIR Extension for Zed",
-    "stars": 4,
+    "stars": 5,
     "forks": 0,
     "topics": [
       "mlir",
@@ -35186,7 +35187,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-03-09T03:40:37Z",
-    "updated_at": "2026-08-12T16:05:28Z",
+    "updated_at": "2026-08-18T15:34:17Z",
     "pushed_at": "2026-08-12T04:31:06Z",
     "discovered_at": "2026-08-12T19:03:11.488Z",
     "official": false
@@ -35584,8 +35585,8 @@
     "language": null,
     "license": null,
     "created_at": "2026-08-16T21:55:25Z",
-    "updated_at": "2026-08-18T10:29:05Z",
-    "pushed_at": "2026-08-18T10:26:56Z",
+    "updated_at": "2026-08-18T17:28:11Z",
+    "pushed_at": "2026-08-18T17:20:04Z",
     "discovered_at": "2026-08-17T01:03:46.357Z",
     "official": false
   },
