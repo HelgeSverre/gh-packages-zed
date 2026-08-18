@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1718** |
 | In official registry | 1242 |
 | Discovered via topics | 476 |
-| Last updated | 2026-08-17 18:56 UTC |
+| Last updated | 2026-08-18 01:03 UTC |
 
 ### By capability
 
@@ -120,12 +120,13 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-08-17 | Intelligent codebase search & indexing for Zed. Async MCP se... |
+| [gesundes/zed-ansible-vault](https://github.com/gesundes/zed-ansible-vault) | 0 | 2026-08-17 | Encrypt and decrypt Ansible Vault files and inline !vault YA... |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-08-17 | A Zed extension that allows to highlight all occurrences of ... |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 1 | 2026-08-17 | Spring Boot language intelligence for Zed, built on the requ... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 95 | 2026-08-17 | True Dark Theme for Zed IDE |
 | [x032205/argent-zed-theme](https://github.com/x032205/argent-zed-theme) | 12 | 2026-08-17 |  |
 | [MahoCommerce/zed](https://github.com/MahoCommerce/zed) | 1 | 2026-08-16 | Maho extension for Zed. |
-| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-08-16 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [Paulo-Camacho/zed-8008](https://github.com/Paulo-Camacho/zed-8008) | 1 | 2026-08-15 | A Zed theme inspired by 8008 keycap set. |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-08-15 | Zed editor support for Carve, a modern light markup language |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 168 | 2026-08-14 | 🦊 Zed editor theme ported from Neovim |
@@ -134,7 +135,6 @@ cd website && npm install && npm run dev
 | [nguyenhaiduc06/cinder](https://github.com/nguyenhaiduc06/cinder) | 0 | 2026-08-14 |  |
 | [fajriyan/deepz-theme](https://github.com/fajriyan/deepz-theme) | 0 | 2026-08-13 | A custom Deep dark theme for Zed |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 132 | 2026-08-13 | The Ruby language support for Zed editor |
-| [gesundes/zed-ansible-vault](https://github.com/gesundes/zed-ansible-vault) | 0 | 2026-08-13 | Encrypt and decrypt Ansible Vault files and inline !vault YA... |
 | [masonc15/zed-kolmafia-ash](https://github.com/masonc15/zed-kolmafia-ash) | 1 | 2026-08-13 | Modern Zed tooling for KoLmafia’s ASH scripting language. |
 | [0rtbo/0-protan-prism-theme](https://github.com/0rtbo/0-protan-prism-theme) | 0 | 2026-08-13 | A dark and light Zed theme family designed for strong protan... |
 | [pursvir/zed-pgn](https://github.com/pursvir/zed-pgn) | 0 | 2026-08-13 | Portable Game Notation support for Zed. |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-08-18T01:03 | 0 | 557 | 2087 |
 | 2026-08-17T18:56 | 1 | 557 | 2087 |
 | 2026-08-17T13:00 | 0 | 557 | 2086 |
 | 2026-08-17T07:02 | 0 | 557 | 2086 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-08-16T06:56 | 1 | 553 | 2081 |
 | 2026-08-16T01:04 | 1 | 552 | 2080 |
 | 2026-08-15T18:51 | 1 | 551 | 2079 |
-| 2026-08-15T12:57 | 0 | 551 | 2078 |
 
 ---
 
