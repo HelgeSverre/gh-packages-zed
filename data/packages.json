@@ -3073,7 +3073,7 @@
     "url": "https://github.com/huacnlee/color-lsp",
     "description": "A document color language server.",
     "stars": 58,
-    "forks": 17,
+    "forks": 18,
     "topics": [
       "color",
       "color-highlight",
@@ -4004,7 +4004,7 @@
     "name": "hjr265/zed-gotmpl",
     "url": "https://github.com/hjr265/zed-gotmpl",
     "description": "Go template (gotmpl, gohtml) support for Zed",
-    "stars": 30,
+    "stars": 31,
     "forks": 4,
     "topics": [
       "gohtml",
@@ -4016,7 +4016,7 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2025-08-03T06:00:52Z",
-    "updated_at": "2026-07-26T13:45:05Z",
+    "updated_at": "2026-08-18T11:41:29Z",
     "pushed_at": "2025-11-16T17:22:24Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -5146,7 +5146,7 @@
     "name": "Dylanmurzello/zed-android-port",
     "url": "https://github.com/Dylanmurzello/zed-android-port",
     "description": "Native Android port of the Zed code editor,  gpui rendering through Vulkan, integrated Termux for LSPs and tooling, remote SSH support. Runs as an APK on tablets and Android desktop modes.",
-    "stars": 170,
+    "stars": 171,
     "forks": 14,
     "topics": [
       "android",
@@ -5173,7 +5173,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-05-07T00:12:10Z",
-    "updated_at": "2026-08-18T03:06:49Z",
+    "updated_at": "2026-08-18T09:57:42Z",
     "pushed_at": "2026-08-07T13:48:06Z",
     "discovered_at": "2026-05-19T19:54:12.053Z",
     "official": false
@@ -5789,7 +5789,7 @@
     "name": "AprilNEA/gpui-symbols",
     "url": "https://github.com/AprilNEA/gpui-symbols",
     "description": "SF Symbols for GPUI – Render Apple's 9000+ icons in Rust desktop apps with type-safe enums and native macOS rendering",
-    "stars": 17,
+    "stars": 18,
     "forks": 1,
     "topics": [
       "desktop-app",
@@ -5804,7 +5804,7 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-20T14:53:11Z",
-    "updated_at": "2026-07-21T16:55:24Z",
+    "updated_at": "2026-08-18T07:02:48Z",
     "pushed_at": "2026-01-21T15:33:27Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
@@ -12945,7 +12945,7 @@
     "url": "https://github.com/owlx56/zed-lean4",
     "description": "",
     "stars": 54,
-    "forks": 9,
+    "forks": 10,
     "topics": [],
     "language": "Rust",
     "license": "Apache-2.0",
@@ -18026,8 +18026,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-08-18T01:04:21Z",
-    "pushed_at": "2026-08-18T01:04:04Z",
+    "updated_at": "2026-08-18T07:00:51Z",
+    "pushed_at": "2026-08-18T07:00:07Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -35143,8 +35143,8 @@
     "language": "CSS",
     "license": "CC-BY-4.0",
     "created_at": "2026-07-03T20:21:54Z",
-    "updated_at": "2026-08-17T07:18:06Z",
-    "pushed_at": "2026-08-17T07:17:10Z",
+    "updated_at": "2026-08-18T07:08:14Z",
+    "pushed_at": "2026-08-18T07:05:41Z",
     "discovered_at": "2026-08-12T13:03:57.457Z",
     "official": false
   },
@@ -35407,8 +35407,8 @@
     "name": "grunmin/dsh-acp-enhanced",
     "url": "https://github.com/grunmin/dsh-acp-enhanced",
     "description": "Enhanced ACP (Agent Client Protocol) server for DeepSeek Harness (dsh) — drop-in bridge for the Zed editor: block-level streaming, usage/stat telemetry, model & reasoning-effort switching, permission presets, session resume & archive. Install: dsh plugin add",
-    "stars": 1,
-    "forks": 0,
+    "stars": 2,
+    "forks": 1,
     "topics": [
       "acp",
       "agent-client-protocol",
@@ -35423,7 +35423,7 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-08-14T00:48:20Z",
-    "updated_at": "2026-08-17T09:23:48Z",
+    "updated_at": "2026-08-18T11:59:47Z",
     "pushed_at": "2026-08-16T06:34:09Z",
     "discovered_at": "2026-08-15T18:51:44.196Z",
     "official": false
@@ -35584,8 +35584,8 @@
     "language": null,
     "license": null,
     "created_at": "2026-08-16T21:55:25Z",
-    "updated_at": "2026-08-16T21:57:52Z",
-    "pushed_at": "2026-08-16T21:56:27Z",
+    "updated_at": "2026-08-18T10:29:05Z",
+    "pushed_at": "2026-08-18T10:26:56Z",
     "discovered_at": "2026-08-17T01:03:46.357Z",
     "official": false
   },
@@ -35603,5 +35603,28 @@
     "pushed_at": "2026-08-17T02:15:03Z",
     "discovered_at": "2026-08-17T18:56:32.572Z",
     "official": true
+  },
+  "nmannaii/vsdbg-zed": {
+    "name": "nmannaii/vsdbg-zed",
+    "url": "https://github.com/nmannaii/vsdbg-zed",
+    "description": "A DAP stdio proxy that lets Zed debug .NET with Microsoft's vsdbg instead of netcoredbg.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "dap",
+      "debugger",
+      "netcoredbg",
+      "vsdbg",
+      "zed",
+      "zed-dap",
+      "zed-editor"
+    ],
+    "language": "JavaScript",
+    "license": null,
+    "created_at": "2026-08-18T09:21:55Z",
+    "updated_at": "2026-08-18T09:48:00Z",
+    "pushed_at": "2026-08-18T09:40:10Z",
+    "discovered_at": "2026-08-18T13:01:15.403Z",
+    "official": false
   }
 }
