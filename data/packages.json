@@ -157,8 +157,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-08-18T06:29:23Z",
-    "pushed_at": "2026-08-18T02:43:33Z",
+    "updated_at": "2026-08-19T02:45:59Z",
+    "pushed_at": "2026-08-19T02:45:20Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -2215,7 +2215,7 @@
     "name": "zarifpour/zed-solidity",
     "url": "https://github.com/zarifpour/zed-solidity",
     "description": "💠 Solidity language support for Zed.",
-    "stars": 71,
+    "stars": 70,
     "forks": 12,
     "topics": [
       "blockchain",
@@ -2232,7 +2232,7 @@
     "language": "Solidity",
     "license": "MIT",
     "created_at": "2024-02-25T07:38:40Z",
-    "updated_at": "2026-06-10T19:27:57Z",
+    "updated_at": "2026-08-19T06:35:16Z",
     "pushed_at": "2026-03-22T18:01:22Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -5119,8 +5119,8 @@
     "language": "Go",
     "license": "MIT",
     "created_at": "2026-03-09T04:35:59Z",
-    "updated_at": "2026-08-18T06:58:14Z",
-    "pushed_at": "2026-08-18T06:56:53Z",
+    "updated_at": "2026-08-19T06:57:53Z",
+    "pushed_at": "2026-08-19T06:57:20Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -5147,7 +5147,7 @@
     "name": "Dylanmurzello/zed-android-port",
     "url": "https://github.com/Dylanmurzello/zed-android-port",
     "description": "Native Android port of the Zed code editor,  gpui rendering through Vulkan, integrated Termux for LSPs and tooling, remote SSH support. Runs as an APK on tablets and Android desktop modes.",
-    "stars": 173,
+    "stars": 174,
     "forks": 14,
     "topics": [
       "android",
@@ -5174,7 +5174,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-05-07T00:12:10Z",
-    "updated_at": "2026-08-18T15:47:32Z",
+    "updated_at": "2026-08-19T05:17:36Z",
     "pushed_at": "2026-08-07T13:48:06Z",
     "discovered_at": "2026-05-19T19:54:12.053Z",
     "official": false
@@ -18027,8 +18027,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-08-18T19:07:01Z",
-    "pushed_at": "2026-08-18T18:56:22Z",
+    "updated_at": "2026-08-19T01:04:50Z",
+    "pushed_at": "2026-08-19T01:04:19Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -32041,7 +32041,7 @@
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
     "updated_at": "2026-08-18T17:06:06Z",
-    "pushed_at": "2026-08-18T21:01:06Z",
+    "pushed_at": "2026-08-19T02:47:57Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false
   },
@@ -35626,6 +35626,27 @@
     "updated_at": "2026-08-18T09:48:00Z",
     "pushed_at": "2026-08-18T09:40:10Z",
     "discovered_at": "2026-08-18T13:01:15.403Z",
+    "official": false
+  },
+  "wavespeedai/wavespeed-mcp-zed": {
+    "name": "WaveSpeedAI/wavespeed-mcp-zed",
+    "url": "https://github.com/WaveSpeedAI/wavespeed-mcp-zed",
+    "description": "WaveSpeed MCP for Zed — AI media generation (image, video, audio, 3D) as a Zed context server",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "context-server",
+      "mcp",
+      "wavespeed",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2026-08-19T04:45:23Z",
+    "updated_at": "2026-08-19T04:46:43Z",
+    "pushed_at": "2026-08-19T04:45:26Z",
+    "discovered_at": "2026-08-19T06:59:56.986Z",
     "official": false
   }
 }

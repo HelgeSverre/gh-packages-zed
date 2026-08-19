@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1718-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1719-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,10 +14,10 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1718** |
+| Total tracked | **1719** |
 | In official registry | 1242 |
-| Discovered via topics | 476 |
-| Last updated | 2026-08-19 01:03 UTC |
+| Discovered via topics | 477 |
+| Last updated | 2026-08-19 06:59 UTC |
 
 ### By capability
 
@@ -26,7 +26,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Themes | 737 |
 | Grammars | 592 |
 | Language Servers | 551 |
-| Context Servers | 135 |
+| Context Servers | 136 |
 | Snippets | 79 |
 | Slash Commands | 58 |
 | Debug Adapters | 33 |
@@ -70,6 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [WaveSpeedAI/wavespeed-mcp-zed](https://github.com/WaveSpeedAI/wavespeed-mcp-zed) | 0 | WaveSpeed MCP for Zed — AI media generation (image, video, audio, 3D) as a Zed c... |
 | [x032205/argent-zed-theme](https://github.com/x032205/argent-zed-theme) | 12 |  |
 | [vadim-su/zed_mojo](https://github.com/vadim-su/zed_mojo) | 2 |  |
 | [Paulo-Camacho/zed-8008](https://github.com/Paulo-Camacho/zed-8008) | 1 | A Zed theme inspired by 8008 keycap set. |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [zxcodes/cron-sense](https://github.com/zxcodes/cron-sense) | 0 | Zed extension: explain cron schedules (inspired by tumido/cron-explained) |
 | [YouKnow-sys/fluent-zed](https://github.com/YouKnow-sys/fluent-zed) | 0 | a extension to add fluent language support to zed |
 | [blank71/zed-fswiki](https://github.com/blank71/zed-fswiki) | 0 |  |
-| [karnauhmax/zed-gitlab-web-ide-theme](https://github.com/karnauhmax/zed-gitlab-web-ide-theme) | 0 | Port of GitLab's Web IDE themes (Dark, Dark Midnight, Light) to Zed editor |
 
 ## Top starred (under 500)
 
@@ -120,9 +120,10 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-08-18 | Intelligent codebase search & indexing for Zed. Async MCP se... |
+| [WaveSpeedAI/wavespeed-mcp-zed](https://github.com/WaveSpeedAI/wavespeed-mcp-zed) | 0 | 2026-08-19 | WaveSpeed MCP for Zed — AI media generation (image, video, a... |
+| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-08-19 | Intelligent codebase search & indexing for Zed. Async MCP se... |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 96 | 2026-08-19 | True Dark Theme for Zed IDE |
 | [madebygrant/zed-package-bump](https://github.com/madebygrant/zed-package-bump) | 0 | 2026-08-18 | Package Bump: A Zed extension that flags outdated npm depend... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 96 | 2026-08-18 | True Dark Theme for Zed IDE |
 | [gesundes/zed-ansible-vault](https://github.com/gesundes/zed-ansible-vault) | 0 | 2026-08-17 | Encrypt and decrypt Ansible Vault files and inline !vault YA... |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-08-17 | A Zed extension that allows to highlight all occurrences of ... |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 1 | 2026-08-17 | Spring Boot language intelligence for Zed, built on the requ... |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [masonc15/zed-kolmafia-ash](https://github.com/masonc15/zed-kolmafia-ash) | 1 | 2026-08-13 | Modern Zed tooling for KoLmafia’s ASH scripting language. |
 | [0rtbo/0-protan-prism-theme](https://github.com/0rtbo/0-protan-prism-theme) | 0 | 2026-08-13 | A dark and light Zed theme family designed for strong protan... |
 | [pursvir/zed-pgn](https://github.com/pursvir/zed-pgn) | 0 | 2026-08-13 | Portable Game Notation support for Zed. |
-| [shnarazk/zed-lean4](https://github.com/shnarazk/zed-lean4) | 3 | 2026-08-13 | Zed extension to support Lean4 language |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-08-19T06:59 | 1 | 557 | 2089 |
 | 2026-08-19T01:03 | 0 | 557 | 2088 |
 | 2026-08-18T18:55 | 0 | 557 | 2088 |
 | 2026-08-18T13:01 | 1 | 556 | 2088 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-08-17T13:00 | 0 | 557 | 2086 |
 | 2026-08-17T07:02 | 0 | 557 | 2086 |
 | 2026-08-17T01:03 | 3 | 555 | 2086 |
-| 2026-08-16T18:51 | 2 | 553 | 2083 |
 
 ---
 
