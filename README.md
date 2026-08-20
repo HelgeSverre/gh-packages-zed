@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1719** |
 | In official registry | 1242 |
 | Discovered via topics | 477 |
-| Last updated | 2026-08-20 07:00 UTC |
+| Last updated | 2026-08-20 13:01 UTC |
 
 ### By capability
 
@@ -97,7 +97,7 @@ cd website && npm install && npm run dev
 |---|---|---|
 | [biomejs/biome-zed](https://github.com/biomejs/biome-zed) | 466 | Biome extension for Zed |
 | [xhyrom/zed-discord-presence](https://github.com/xhyrom/zed-discord-presence) | 415 | extension for zed that adds support for discord rich presence using lsp |
-| [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 331 | Catppuccin Theme but as blurred variants + custom ones |
+| [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 330 | Catppuccin Theme but as blurred variants + custom ones |
 | [oxc-project/oxc-zed](https://github.com/oxc-project/oxc-zed) | 256 | Oxc extension for Zed |
 | [catppuccin/zed-icons](https://github.com/catppuccin/zed-icons) | 240 | 🦊 Soothing pastel icons for Zed |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 209 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-08-20T13:01 | 0 | 560 | 2090 |
 | 2026-08-20T07:00 | 0 | 560 | 2090 |
 | 2026-08-20T01:03 | 0 | 560 | 2090 |
 | 2026-08-19T18:54 | 0 | 560 | 2090 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-08-18T18:55 | 0 | 557 | 2088 |
 | 2026-08-18T13:01 | 1 | 556 | 2088 |
 | 2026-08-18T06:59 | 0 | 557 | 2087 |
-| 2026-08-18T01:03 | 0 | 557 | 2087 |
 
 ---
 
