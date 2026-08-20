@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1719** |
 | In official registry | 1242 |
 | Discovered via topics | 477 |
-| Last updated | 2026-08-19 18:54 UTC |
+| Last updated | 2026-08-20 01:03 UTC |
 
 ### By capability
 
@@ -104,7 +104,7 @@ cd website && npm install && npm run dev
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
 | [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 198 | Zed support for the Godot game engine and the GDScript language |
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
-| [zed-extensions/typst](https://github.com/zed-extensions/typst) | 194 | Typst extension for zed |
+| [zed-extensions/typst](https://github.com/zed-extensions/typst) | 195 | Typst extension for zed |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 169 | A macOS native style theme for Zed, let it same like native app in macOS. |
@@ -120,8 +120,8 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-08-19 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 168 | 2026-08-19 | 🦊 Zed editor theme ported from Neovim |
+| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-08-19 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [WaveSpeedAI/wavespeed-mcp-zed](https://github.com/WaveSpeedAI/wavespeed-mcp-zed) | 0 | 2026-08-19 | WaveSpeed MCP for Zed — AI media generation (image, video, a... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 96 | 2026-08-19 | True Dark Theme for Zed IDE |
 | [pleahmacaka/zed-batch](https://github.com/pleahmacaka/zed-batch) | 2 | 2026-08-19 | Windows Batch (.bat, .cmd) support |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-08-20T01:03 | 0 | 560 | 2090 |
 | 2026-08-19T18:54 | 0 | 560 | 2090 |
 | 2026-08-19T13:01 | 1 | 558 | 2090 |
 | 2026-08-19T06:59 | 1 | 557 | 2089 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-08-18T06:59 | 0 | 557 | 2087 |
 | 2026-08-18T01:03 | 0 | 557 | 2087 |
 | 2026-08-17T18:56 | 1 | 557 | 2087 |
-| 2026-08-17T13:00 | 0 | 557 | 2086 |
 
 ---
 
