@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1720** |
 | In official registry | 1243 |
 | Discovered via topics | 477 |
-| Last updated | 2026-08-21 07:00 UTC |
+| Last updated | 2026-08-21 13:01 UTC |
 
 ### By capability
 
@@ -97,7 +97,7 @@ cd website && npm install && npm run dev
 |---|---|---|
 | [biomejs/biome-zed](https://github.com/biomejs/biome-zed) | 466 | Biome extension for Zed |
 | [xhyrom/zed-discord-presence](https://github.com/xhyrom/zed-discord-presence) | 415 | extension for zed that adds support for discord rich presence using lsp |
-| [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 330 | Catppuccin Theme but as blurred variants + custom ones |
+| [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 331 | Catppuccin Theme but as blurred variants + custom ones |
 | [oxc-project/oxc-zed](https://github.com/oxc-project/oxc-zed) | 256 | Oxc extension for Zed |
 | [catppuccin/zed-icons](https://github.com/catppuccin/zed-icons) | 240 | 🦊 Soothing pastel icons for Zed |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 209 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
@@ -120,31 +120,32 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-08-21 | Zed editor support for Carve, a modern light markup language |
+| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-08-21 | A Zed extension that allows to highlight all occurrences of ... |
+| [aefly/orng](https://github.com/aefly/orng) | 0 | 2026-08-21 | 🍊 Your editor called — it wants more orange. Bold accents, ... |
 | [WaveSpeedAI/wavespeed-mcp-zed](https://github.com/WaveSpeedAI/wavespeed-mcp-zed) | 0 | 2026-08-21 | WaveSpeed MCP for Zed — AI media generation (image, video, a... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 96 | 2026-08-21 | True Dark Theme for Zed IDE |
-| [pleahmacaka/zed-batch](https://github.com/pleahmacaka/zed-batch) | 2 | 2026-08-21 | Windows Batch (.bat, .cmd) support |
+| [pleahmacaka/zed-batch](https://github.com/pleahmacaka/zed-batch) | 3 | 2026-08-21 | Windows Batch (.bat, .cmd) support |
 | [SinaMombeiny/S-DarkTheme.zed](https://github.com/SinaMombeiny/S-DarkTheme.zed) | 5 | 2026-08-21 | Dark theme for Zed |
 | [gesundes/zed-ansible-vault](https://github.com/gesundes/zed-ansible-vault) | 0 | 2026-08-20 | Encrypt and decrypt Ansible Vault files and inline !vault YA... |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-08-20 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 168 | 2026-08-19 | 🦊 Zed editor theme ported from Neovim |
 | [madebygrant/zed-package-bump](https://github.com/madebygrant/zed-package-bump) | 0 | 2026-08-18 | Package Bump: A Zed extension that flags outdated npm depend... |
-| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-08-17 | A Zed extension that allows to highlight all occurrences of ... |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 1 | 2026-08-17 | Spring Boot language intelligence for Zed, built on the requ... |
 | [x032205/argent-zed-theme](https://github.com/x032205/argent-zed-theme) | 12 | 2026-08-17 |  |
 | [MahoCommerce/zed](https://github.com/MahoCommerce/zed) | 1 | 2026-08-16 | Maho extension for Zed. |
 | [SomeoneWithOptions/zed-solitude](https://github.com/SomeoneWithOptions/zed-solitude) | 0 | 2026-08-15 |  |
 | [Paulo-Camacho/zed-8008](https://github.com/Paulo-Camacho/zed-8008) | 1 | 2026-08-15 | A Zed theme inspired by 8008 keycap set. |
-| [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-08-15 | Zed editor support for Carve, a modern light markup language |
 | [encore-ecosystem/encore-zed](https://github.com/encore-ecosystem/encore-zed) | 0 | 2026-08-14 |  |
 | [surrealdb/surrealql-zed](https://github.com/surrealdb/surrealql-zed) | 0 | 2026-08-14 | SurrealQL Language Extension for the Zed Editor |
 | [nguyenhaiduc06/cinder](https://github.com/nguyenhaiduc06/cinder) | 0 | 2026-08-14 |  |
 | [fajriyan/deepz-theme](https://github.com/fajriyan/deepz-theme) | 0 | 2026-08-13 | A custom Deep dark theme for Zed |
-| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 133 | 2026-08-13 | The Ruby language support for Zed editor |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-08-21T13:01 | 0 | 561 | 2091 |
 | 2026-08-21T07:00 | 0 | 561 | 2091 |
 | 2026-08-21T01:03 | 0 | 561 | 2091 |
 | 2026-08-20T18:56 | 1 | 560 | 2091 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-08-19T18:54 | 0 | 560 | 2090 |
 | 2026-08-19T13:01 | 1 | 558 | 2090 |
 | 2026-08-19T06:59 | 1 | 557 | 2089 |
-| 2026-08-19T01:03 | 0 | 557 | 2088 |
 
 ---
 
