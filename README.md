@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1720** |
 | In official registry | 1243 |
 | Discovered via topics | 477 |
-| Last updated | 2026-08-21 01:03 UTC |
+| Last updated | 2026-08-21 07:00 UTC |
 
 ### By capability
 
@@ -120,13 +120,13 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [WaveSpeedAI/wavespeed-mcp-zed](https://github.com/WaveSpeedAI/wavespeed-mcp-zed) | 0 | 2026-08-21 | WaveSpeed MCP for Zed — AI media generation (image, video, a... |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 96 | 2026-08-21 | True Dark Theme for Zed IDE |
+| [pleahmacaka/zed-batch](https://github.com/pleahmacaka/zed-batch) | 2 | 2026-08-21 | Windows Batch (.bat, .cmd) support |
 | [SinaMombeiny/S-DarkTheme.zed](https://github.com/SinaMombeiny/S-DarkTheme.zed) | 5 | 2026-08-21 | Dark theme for Zed |
 | [gesundes/zed-ansible-vault](https://github.com/gesundes/zed-ansible-vault) | 0 | 2026-08-20 | Encrypt and decrypt Ansible Vault files and inline !vault YA... |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-08-20 | Intelligent codebase search & indexing for Zed. Async MCP se... |
-| [WaveSpeedAI/wavespeed-mcp-zed](https://github.com/WaveSpeedAI/wavespeed-mcp-zed) | 0 | 2026-08-20 | WaveSpeed MCP for Zed — AI media generation (image, video, a... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 96 | 2026-08-20 | True Dark Theme for Zed IDE |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 168 | 2026-08-19 | 🦊 Zed editor theme ported from Neovim |
-| [pleahmacaka/zed-batch](https://github.com/pleahmacaka/zed-batch) | 2 | 2026-08-19 | Windows Batch (.bat, .cmd) support |
 | [madebygrant/zed-package-bump](https://github.com/madebygrant/zed-package-bump) | 0 | 2026-08-18 | Package Bump: A Zed extension that flags outdated npm depend... |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-08-17 | A Zed extension that allows to highlight all occurrences of ... |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 1 | 2026-08-17 | Spring Boot language intelligence for Zed, built on the requ... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-08-21T07:00 | 0 | 561 | 2091 |
 | 2026-08-21T01:03 | 0 | 561 | 2091 |
 | 2026-08-20T18:56 | 1 | 560 | 2091 |
 | 2026-08-20T13:01 | 0 | 560 | 2090 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-08-19T13:01 | 1 | 558 | 2090 |
 | 2026-08-19T06:59 | 1 | 557 | 2089 |
 | 2026-08-19T01:03 | 0 | 557 | 2088 |
-| 2026-08-18T18:55 | 0 | 557 | 2088 |
 
 ---
 
