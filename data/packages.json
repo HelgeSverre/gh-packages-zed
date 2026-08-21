@@ -61,7 +61,7 @@
     "name": "0xdea/zed-highlight",
     "url": "https://github.com/0xdea/zed-highlight",
     "description": "A Zed extension that allows to highlight all occurrences of selected words.",
-    "stars": 3,
+    "stars": 4,
     "forks": 0,
     "topics": [
       "code-review",
@@ -74,8 +74,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-05-03T17:39:17Z",
-    "updated_at": "2026-08-21T12:10:14Z",
-    "pushed_at": "2026-08-21T12:07:11Z",
+    "updated_at": "2026-08-21T18:36:46Z",
+    "pushed_at": "2026-08-21T14:09:29Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -1050,8 +1050,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-01-23T19:58:30Z",
-    "updated_at": "2026-06-27T18:50:01Z",
-    "pushed_at": "2026-06-27T18:49:57Z",
+    "updated_at": "2026-08-21T15:31:16Z",
+    "pushed_at": "2026-08-21T15:29:19Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -2343,7 +2343,7 @@
     "url": "https://github.com/chopratejas/headroom-zed",
     "description": "Zed extension for Headroom — context compression for AI agents",
     "stars": 59,
-    "forks": 12,
+    "forks": 13,
     "topics": [
       "ai-agents",
       "coding-agents",
@@ -2788,7 +2788,7 @@
     "name": "injirez/zed-pycharm-modern-themes",
     "url": "https://github.com/injirez/zed-pycharm-modern-themes",
     "description": "Pycharm Modern Themes for Zed 🐍⚡",
-    "stars": 3,
+    "stars": 4,
     "forks": 0,
     "topics": [
       "pycharm-theme",
@@ -2799,7 +2799,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-02-08T18:30:49Z",
-    "updated_at": "2026-03-03T14:19:57Z",
+    "updated_at": "2026-08-21T14:07:34Z",
     "pushed_at": "2026-02-24T13:30:06Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -6359,7 +6359,7 @@
     "name": "hadez8877/one-dark-pro-enhanced",
     "url": "https://github.com/hadez8877/one-dark-pro-enhanced",
     "description": "The most installed theme in Visual Studio Code modified for Zed",
-    "stars": 6,
+    "stars": 7,
     "forks": 0,
     "topics": [
       "theme",
@@ -6369,7 +6369,7 @@
     "language": null,
     "license": "Apache-2.0",
     "created_at": "2025-10-22T21:21:15Z",
-    "updated_at": "2026-07-03T23:18:16Z",
+    "updated_at": "2026-08-21T16:24:51Z",
     "pushed_at": "2026-07-06T09:24:06Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": true
@@ -12705,13 +12705,13 @@
     "name": "obledev/zed-mcp-memory",
     "url": "https://github.com/obledev/zed-mcp-memory",
     "description": "Memory MCP server for the Zed editor 🧠",
-    "stars": 2,
+    "stars": 3,
     "forks": 0,
     "topics": [],
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-03-08T12:59:01Z",
-    "updated_at": "2026-08-02T10:47:31Z",
+    "updated_at": "2026-08-21T15:48:38Z",
     "pushed_at": "2026-03-08T13:13:11Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": false
@@ -13513,7 +13513,7 @@
     "url": "https://github.com/lmn451/css-variables-zed",
     "description": "Project-wide CSS custom property intelligence for Zed: completion, hover, navigation, rename, diagnostics, and color tools.",
     "stars": 8,
-    "forks": 3,
+    "forks": 4,
     "topics": [
       "css",
       "css-variables",
@@ -15441,7 +15441,7 @@
     "name": "agent-sh/agnix",
     "url": "https://github.com/agent-sh/agnix",
     "description": "The missing linter and lsp for AI coding assistants. Validate CLAUDE.md, AGENTS.md, SKILL.md, hooks, MCP. Plugin for all major IDEs included, with autofixes.",
-    "stars": 388,
+    "stars": 389,
     "forks": 32,
     "topics": [
       "agent",
@@ -15468,7 +15468,7 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
-    "updated_at": "2026-08-20T23:39:54Z",
+    "updated_at": "2026-08-21T15:12:15Z",
     "pushed_at": "2026-08-20T21:30:06Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
@@ -18027,8 +18027,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-08-21T07:01:47Z",
-    "pushed_at": "2026-08-21T07:01:25Z",
+    "updated_at": "2026-08-21T13:03:50Z",
+    "pushed_at": "2026-08-21T13:02:30Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -32205,7 +32205,7 @@
     "name": "hyyan/zed-test-coverage-highlight",
     "url": "https://github.com/hyyan/zed-test-coverage-highlight",
     "description": "Zed extension that highlights test coverage in the editor. Renders lcov, JaCoCo, Cobertura and Clover reports as colored lines, with a coverage code lens and hover.",
-    "stars": 7,
+    "stars": 8,
     "forks": 1,
     "topics": [
       "clover",
@@ -32220,7 +32220,7 @@
     "language": "TypeScript",
     "license": "MIT",
     "created_at": "2026-07-10T08:40:40Z",
-    "updated_at": "2026-08-21T08:35:43Z",
+    "updated_at": "2026-08-21T16:35:29Z",
     "pushed_at": "2026-08-21T08:33:23Z",
     "discovered_at": "2026-07-10T13:22:23.420Z",
     "official": true
@@ -33202,8 +33202,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-05-17T07:32:27Z",
-    "updated_at": "2026-08-21T03:44:32Z",
-    "pushed_at": "2026-08-20T03:04:39Z",
+    "updated_at": "2026-08-21T18:33:12Z",
+    "pushed_at": "2026-08-21T18:32:43Z",
     "discovered_at": "2026-07-26T01:12:51.640Z",
     "official": false
   },
@@ -35560,8 +35560,8 @@
     "language": "TypeScript",
     "license": null,
     "created_at": "2026-08-14T05:48:45Z",
-    "updated_at": "2026-08-21T08:36:04Z",
-    "pushed_at": "2026-08-21T08:34:56Z",
+    "updated_at": "2026-08-21T16:39:54Z",
+    "pushed_at": "2026-08-21T16:35:17Z",
     "discovered_at": "2026-08-17T01:03:46.357Z",
     "official": false
   },
@@ -35668,8 +35668,8 @@
     "language": "Svelte",
     "license": "MIT",
     "created_at": "2026-08-18T08:27:26Z",
-    "updated_at": "2026-08-21T12:19:28Z",
-    "pushed_at": "2026-08-21T04:32:56Z",
+    "updated_at": "2026-08-21T13:54:00Z",
+    "pushed_at": "2026-08-21T13:53:04Z",
     "discovered_at": "2026-08-19T13:01:40.362Z",
     "official": false
   },
@@ -35687,5 +35687,55 @@
     "pushed_at": "2026-08-15T21:49:32Z",
     "discovered_at": "2026-08-20T18:56:55.881Z",
     "official": true
+  },
+  "yanivzalach/zed_pycharm_dracula_theme": {
+    "name": "YanivZalach/Zed_Pycharm_Dracula_Theme",
+    "url": "https://github.com/YanivZalach/Zed_Pycharm_Dracula_Theme",
+    "description": "Pycharm dracula theme for the Zed Editor",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "dracula",
+      "javascript",
+      "pycharm-theme",
+      "python",
+      "python3",
+      "react",
+      "typescript",
+      "zed-editor",
+      "zed-extension",
+      "zed-theme"
+    ],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-08-21T16:58:24Z",
+    "updated_at": "2026-08-21T17:55:25Z",
+    "pushed_at": "2026-08-21T17:54:31Z",
+    "discovered_at": "2026-08-21T18:55:51.713Z",
+    "official": false
+  },
+  "santi020k/dep-beacon": {
+    "name": "santi020k/dep-beacon",
+    "url": "https://github.com/santi020k/dep-beacon",
+    "description": "Dependency intelligence and OSV security signals for npm manifests in VS Code and Zed.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "dependencies",
+      "npm",
+      "osv",
+      "pnpm",
+      "security",
+      "typescript",
+      "vscode-extension",
+      "zed-extension"
+    ],
+    "language": "TypeScript",
+    "license": "MIT",
+    "created_at": "2026-06-22T23:16:08Z",
+    "updated_at": "2026-08-21T17:35:45Z",
+    "pushed_at": "2026-08-21T17:46:27Z",
+    "discovered_at": "2026-08-21T18:55:51.713Z",
+    "official": false
   }
 }

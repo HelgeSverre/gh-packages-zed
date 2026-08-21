@@ -46,7 +46,7 @@
     "name": "0xdea/zed-highlight",
     "url": "https://github.com/0xdea/zed-highlight",
     "description": "A Zed extension that allows to highlight all occurrences of selected words.",
-    "stars": 3,
+    "stars": 4,
     "forks": 0,
     "topics": [
       "code-review",
@@ -59,8 +59,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-05-03T17:39:17Z",
-    "updated_at": "2026-08-21T12:10:14Z",
-    "pushed_at": "2026-08-21T12:07:11Z",
+    "updated_at": "2026-08-21T18:36:46Z",
+    "pushed_at": "2026-08-21T14:09:29Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -1461,8 +1461,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-01-23T19:58:30Z",
-    "updated_at": "2026-06-27T18:50:01Z",
-    "pushed_at": "2026-06-27T18:49:57Z",
+    "updated_at": "2026-08-21T15:31:16Z",
+    "pushed_at": "2026-08-21T15:29:19Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false,
     "extension": {
@@ -3696,7 +3696,7 @@
     "url": "https://github.com/chopratejas/headroom-zed",
     "description": "Zed extension for Headroom — context compression for AI agents",
     "stars": 59,
-    "forks": 12,
+    "forks": 13,
     "topics": [
       "ai-agents",
       "coding-agents",
@@ -4353,7 +4353,7 @@
     "name": "injirez/zed-pycharm-modern-themes",
     "url": "https://github.com/injirez/zed-pycharm-modern-themes",
     "description": "Pycharm Modern Themes for Zed 🐍⚡",
-    "stars": 3,
+    "stars": 4,
     "forks": 0,
     "topics": [
       "pycharm-theme",
@@ -4364,7 +4364,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-02-08T18:30:49Z",
-    "updated_at": "2026-03-03T14:19:57Z",
+    "updated_at": "2026-08-21T14:07:34Z",
     "pushed_at": "2026-02-24T13:30:06Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -8558,7 +8558,7 @@
     "name": "hadez8877/one-dark-pro-enhanced",
     "url": "https://github.com/hadez8877/one-dark-pro-enhanced",
     "description": "The most installed theme in Visual Studio Code modified for Zed",
-    "stars": 6,
+    "stars": 7,
     "forks": 0,
     "topics": [
       "theme",
@@ -8568,7 +8568,7 @@
     "language": null,
     "license": "Apache-2.0",
     "created_at": "2025-10-22T21:21:15Z",
-    "updated_at": "2026-07-03T23:18:16Z",
+    "updated_at": "2026-08-21T16:24:51Z",
     "pushed_at": "2026-07-06T09:24:06Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": true,
@@ -18359,13 +18359,13 @@
     "name": "obledev/zed-mcp-memory",
     "url": "https://github.com/obledev/zed-mcp-memory",
     "description": "Memory MCP server for the Zed editor 🧠",
-    "stars": 2,
+    "stars": 3,
     "forks": 0,
     "topics": [],
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-03-08T12:59:01Z",
-    "updated_at": "2026-08-02T10:47:31Z",
+    "updated_at": "2026-08-21T15:48:38Z",
     "pushed_at": "2026-03-08T13:13:11Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": false,
@@ -19987,7 +19987,7 @@
     "url": "https://github.com/lmn451/css-variables-zed",
     "description": "Project-wide CSS custom property intelligence for Zed: completion, hover, navigation, rename, diagnostics, and color tools.",
     "stars": 8,
-    "forks": 3,
+    "forks": 4,
     "topics": [
       "css",
       "css-variables",
@@ -58893,6 +58893,48 @@
         "Andres <andres@vineskills.com>"
       ],
       "repository": "https://github.com/SomeoneWithOptions/zed-solitude",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "yanivzalach/zed_pycharm_dracula_theme": {
+    "name": "YanivZalach/Zed_Pycharm_Dracula_Theme",
+    "url": "https://github.com/YanivZalach/Zed_Pycharm_Dracula_Theme",
+    "description": "Pycharm dracula theme for the Zed Editor",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "dracula",
+      "javascript",
+      "pycharm-theme",
+      "python",
+      "python3",
+      "react",
+      "typescript",
+      "zed-editor",
+      "zed-extension",
+      "zed-theme"
+    ],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-08-21T16:58:24Z",
+    "updated_at": "2026-08-21T17:55:25Z",
+    "pushed_at": "2026-08-21T17:54:31Z",
+    "discovered_at": "2026-08-21T18:55:51.713Z",
+    "official": false,
+    "extension": {
+      "id": "pycharm-dracula-themes",
+      "name": "Pycharm Dracula Themes",
+      "description": "Pycharm Dracula",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "authors": [
+        "Yaniv Zalach"
+      ],
+      "repository": "https://github.com/YanivZalach/Zed_Pycharm_Dracula_Theme",
       "snippets": null,
       "sections": [],
       "categories": [

@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1720-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1721-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,16 +14,16 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1720** |
+| Total tracked | **1721** |
 | In official registry | 1243 |
-| Discovered via topics | 477 |
-| Last updated | 2026-08-21 13:01 UTC |
+| Discovered via topics | 478 |
+| Last updated | 2026-08-21 18:55 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
-| Themes | 738 |
+| Themes | 739 |
 | Grammars | 592 |
 | Language Servers | 551 |
 | Context Servers | 136 |
@@ -70,6 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [YanivZalach/Zed_Pycharm_Dracula_Theme](https://github.com/YanivZalach/Zed_Pycharm_Dracula_Theme) | 0 | Pycharm dracula theme for the Zed Editor |
 | [SomeoneWithOptions/zed-solitude](https://github.com/SomeoneWithOptions/zed-solitude) | 0 |  |
 | [WaveSpeedAI/wavespeed-mcp-zed](https://github.com/WaveSpeedAI/wavespeed-mcp-zed) | 0 | WaveSpeed MCP for Zed — AI media generation (image, video, audio, 3D) as a Zed c... |
 | [x032205/argent-zed-theme](https://github.com/x032205/argent-zed-theme) | 12 |  |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [monster-cookie/zed-papyrus](https://github.com/monster-cookie/zed-papyrus) | 0 | Bethesda Papyrus Syntax and Language support for Zed |
 | [csalmeida/summercamp-zed-theme](https://github.com/csalmeida/summercamp-zed-theme) | 0 | A return of the Summercamp theme for Zed. |
 | [zxcodes/cron-sense](https://github.com/zxcodes/cron-sense) | 0 | Zed extension: explain cron schedules (inspired by tumido/cron-explained) |
-| [YouKnow-sys/fluent-zed](https://github.com/YouKnow-sys/fluent-zed) | 0 | a extension to add fluent language support to zed |
 
 ## Top starred (under 500)
 
@@ -120,8 +120,10 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [YanivZalach/Zed_Pycharm_Dracula_Theme](https://github.com/YanivZalach/Zed_Pycharm_Dracula_Theme) | 0 | 2026-08-21 | Pycharm dracula theme for the Zed Editor |
+| [alysson-souza/zed-fish-lsp](https://github.com/alysson-souza/zed-fish-lsp) | 4 | 2026-08-21 | Fish shell extension for Zed with fish-lsp integration |
+| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 4 | 2026-08-21 | A Zed extension that allows to highlight all occurrences of ... |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-08-21 | Zed editor support for Carve, a modern light markup language |
-| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 3 | 2026-08-21 | A Zed extension that allows to highlight all occurrences of ... |
 | [aefly/orng](https://github.com/aefly/orng) | 0 | 2026-08-21 | 🍊 Your editor called — it wants more orange. Bold accents, ... |
 | [WaveSpeedAI/wavespeed-mcp-zed](https://github.com/WaveSpeedAI/wavespeed-mcp-zed) | 0 | 2026-08-21 | WaveSpeed MCP for Zed — AI media generation (image, video, a... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 96 | 2026-08-21 | True Dark Theme for Zed IDE |
@@ -138,13 +140,12 @@ cd website && npm install && npm run dev
 | [Paulo-Camacho/zed-8008](https://github.com/Paulo-Camacho/zed-8008) | 1 | 2026-08-15 | A Zed theme inspired by 8008 keycap set. |
 | [encore-ecosystem/encore-zed](https://github.com/encore-ecosystem/encore-zed) | 0 | 2026-08-14 |  |
 | [surrealdb/surrealql-zed](https://github.com/surrealdb/surrealql-zed) | 0 | 2026-08-14 | SurrealQL Language Extension for the Zed Editor |
-| [nguyenhaiduc06/cinder](https://github.com/nguyenhaiduc06/cinder) | 0 | 2026-08-14 |  |
-| [fajriyan/deepz-theme](https://github.com/fajriyan/deepz-theme) | 0 | 2026-08-13 | A custom Deep dark theme for Zed |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-08-21T18:55 | 2 | 561 | 2093 |
 | 2026-08-21T13:01 | 0 | 561 | 2091 |
 | 2026-08-21T07:00 | 0 | 561 | 2091 |
 | 2026-08-21T01:03 | 0 | 561 | 2091 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-08-20T01:03 | 0 | 560 | 2090 |
 | 2026-08-19T18:54 | 0 | 560 | 2090 |
 | 2026-08-19T13:01 | 1 | 558 | 2090 |
-| 2026-08-19T06:59 | 1 | 557 | 2089 |
 
 ---
 
