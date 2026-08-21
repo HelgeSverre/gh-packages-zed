@@ -127,7 +127,7 @@
     "name": "GDQuest/zed-gdscript",
     "url": "https://github.com/GDQuest/zed-gdscript",
     "description": "Zed support for the Godot game engine and the GDScript language",
-    "stars": 198,
+    "stars": 199,
     "forks": 23,
     "topics": [
       "code-editor",
@@ -139,7 +139,7 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-02-26T18:14:41Z",
-    "updated_at": "2026-08-16T08:35:52Z",
+    "updated_at": "2026-08-20T22:11:23Z",
     "pushed_at": "2026-07-27T13:17:21Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -14964,7 +14964,7 @@
     "name": "zarifpour/zed-env",
     "url": "https://github.com/zarifpour/zed-env",
     "description": "🔐 env support for Zed.",
-    "stars": 57,
+    "stars": 58,
     "forks": 3,
     "topics": [
       "dotenv",
@@ -14981,7 +14981,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-07-12T02:40:18Z",
-    "updated_at": "2026-08-07T07:34:53Z",
+    "updated_at": "2026-08-20T20:30:28Z",
     "pushed_at": "2024-11-13T21:48:13Z",
     "discovered_at": "2026-05-19T20:52:12.309Z",
     "official": true
@@ -15441,7 +15441,7 @@
     "name": "agent-sh/agnix",
     "url": "https://github.com/agent-sh/agnix",
     "description": "The missing linter and lsp for AI coding assistants. Validate CLAUDE.md, AGENTS.md, SKILL.md, hooks, MCP. Plugin for all major IDEs included, with autofixes.",
-    "stars": 387,
+    "stars": 388,
     "forks": 32,
     "topics": [
       "agent",
@@ -15468,8 +15468,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
-    "updated_at": "2026-08-20T14:52:05Z",
-    "pushed_at": "2026-08-18T21:19:35Z",
+    "updated_at": "2026-08-20T23:39:54Z",
+    "pushed_at": "2026-08-20T21:30:06Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -18027,8 +18027,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-08-20T13:06:15Z",
-    "pushed_at": "2026-08-20T13:02:28Z",
+    "updated_at": "2026-08-20T18:57:59Z",
+    "pushed_at": "2026-08-20T18:57:30Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -25270,19 +25270,19 @@
   "sinamombeiny/s-darktheme.zed": {
     "name": "SinaMombeiny/S-DarkTheme.zed",
     "url": "https://github.com/SinaMombeiny/S-DarkTheme.zed",
-    "description": "Dark theme for zed.dev",
-    "stars": 3,
+    "description": "Dark theme for Zed",
+    "stars": 5,
     "forks": 0,
     "topics": [
+      "dark-theme",
       "extension",
-      "theme",
-      "zed"
+      "zed-editor"
     ],
     "language": null,
     "license": "MIT",
     "created_at": "2024-07-01T21:28:51Z",
-    "updated_at": "2024-12-03T14:01:22Z",
-    "pushed_at": "2024-12-03T13:57:09Z",
+    "updated_at": "2026-08-21T00:59:08Z",
+    "pushed_at": "2026-08-21T00:58:32Z",
     "discovered_at": "2026-05-20T02:57:03.419Z",
     "official": true
   },
@@ -29001,8 +29001,8 @@
     "language": null,
     "license": null,
     "created_at": "2026-05-25T05:34:31Z",
-    "updated_at": "2026-08-19T19:52:51Z",
-    "pushed_at": "2026-08-19T19:49:55Z",
+    "updated_at": "2026-08-21T00:18:07Z",
+    "pushed_at": "2026-08-21T00:18:03Z",
     "discovered_at": "2026-05-26T07:12:20.287Z",
     "official": false
   },
@@ -31422,7 +31422,7 @@
     "url": "https://github.com/shikanime-labs/colemak",
     "description": "Colemak keyboard layout configurations",
     "stars": 0,
-    "forks": 1,
+    "forks": 2,
     "topics": [
       "colemak",
       "helix",
@@ -31434,7 +31434,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-04-30T15:29:50Z",
     "updated_at": "2026-08-06T20:05:32Z",
-    "pushed_at": "2026-08-11T15:50:11Z",
+    "pushed_at": "2026-08-20T21:47:23Z",
     "discovered_at": "2026-06-26T18:36:57.330Z",
     "official": false
   },
@@ -32205,7 +32205,7 @@
     "name": "hyyan/zed-test-coverage-highlight",
     "url": "https://github.com/hyyan/zed-test-coverage-highlight",
     "description": "Zed extension that highlights test coverage in the editor. Renders lcov, JaCoCo, Cobertura and Clover reports as colored lines, with a coverage code lens and hover.",
-    "stars": 3,
+    "stars": 5,
     "forks": 1,
     "topics": [
       "clover",
@@ -32220,7 +32220,7 @@
     "language": "TypeScript",
     "license": "MIT",
     "created_at": "2026-07-10T08:40:40Z",
-    "updated_at": "2026-08-20T11:56:24Z",
+    "updated_at": "2026-08-20T21:37:14Z",
     "pushed_at": "2026-08-14T07:37:57Z",
     "discovered_at": "2026-07-10T13:22:23.420Z",
     "official": true
@@ -33802,7 +33802,7 @@
     "name": "shdwmtr/zex",
     "url": "https://github.com/shdwmtr/zex",
     "description": "An extremely fast explorer and disk usage analyzer companion for the Zed ecosystem.",
-    "stars": 7,
+    "stars": 8,
     "forks": 0,
     "topics": [
       "zed",
@@ -33811,7 +33811,7 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-07-27T21:58:50Z",
-    "updated_at": "2026-08-18T00:46:36Z",
+    "updated_at": "2026-08-21T00:21:12Z",
     "pushed_at": "2026-08-18T00:46:34Z",
     "discovered_at": "2026-08-02T01:12:50.405Z",
     "official": false
@@ -35589,8 +35589,8 @@
     "language": null,
     "license": null,
     "created_at": "2026-08-16T21:55:25Z",
-    "updated_at": "2026-08-19T07:28:14Z",
-    "pushed_at": "2026-08-19T07:26:46Z",
+    "updated_at": "2026-08-20T21:14:40Z",
+    "pushed_at": "2026-08-20T21:14:33Z",
     "discovered_at": "2026-08-17T01:03:46.357Z",
     "official": false
   },

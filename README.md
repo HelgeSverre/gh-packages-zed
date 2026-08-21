@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1720** |
 | In official registry | 1243 |
 | Discovered via topics | 477 |
-| Last updated | 2026-08-20 18:56 UTC |
+| Last updated | 2026-08-21 01:03 UTC |
 
 ### By capability
 
@@ -102,7 +102,7 @@ cd website && npm install && npm run dev
 | [catppuccin/zed-icons](https://github.com/catppuccin/zed-icons) | 240 | 🦊 Soothing pastel icons for Zed |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 209 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
-| [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 198 | Zed support for the Godot game engine and the GDScript language |
+| [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 199 | Zed support for the Godot game engine and the GDScript language |
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 195 | Typst extension for zed |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
@@ -120,6 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [SinaMombeiny/S-DarkTheme.zed](https://github.com/SinaMombeiny/S-DarkTheme.zed) | 5 | 2026-08-21 | Dark theme for Zed |
 | [gesundes/zed-ansible-vault](https://github.com/gesundes/zed-ansible-vault) | 0 | 2026-08-20 | Encrypt and decrypt Ansible Vault files and inline !vault YA... |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-08-20 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [WaveSpeedAI/wavespeed-mcp-zed](https://github.com/WaveSpeedAI/wavespeed-mcp-zed) | 0 | 2026-08-20 | WaveSpeed MCP for Zed — AI media generation (image, video, a... |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [nguyenhaiduc06/cinder](https://github.com/nguyenhaiduc06/cinder) | 0 | 2026-08-14 |  |
 | [fajriyan/deepz-theme](https://github.com/fajriyan/deepz-theme) | 0 | 2026-08-13 | A custom Deep dark theme for Zed |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 133 | 2026-08-13 | The Ruby language support for Zed editor |
-| [masonc15/zed-kolmafia-ash](https://github.com/masonc15/zed-kolmafia-ash) | 1 | 2026-08-13 | Modern Zed tooling for KoLmafia’s ASH scripting language. |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-08-21T01:03 | 0 | 561 | 2091 |
 | 2026-08-20T18:56 | 1 | 560 | 2091 |
 | 2026-08-20T13:01 | 0 | 560 | 2090 |
 | 2026-08-20T07:00 | 0 | 560 | 2090 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-08-19T06:59 | 1 | 557 | 2089 |
 | 2026-08-19T01:03 | 0 | 557 | 2088 |
 | 2026-08-18T18:55 | 0 | 557 | 2088 |
-| 2026-08-18T13:01 | 1 | 556 | 2088 |
 
 ---
 
