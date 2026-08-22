@@ -2359,7 +2359,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-03-18T16:55:33Z",
-    "updated_at": "2026-08-10T17:30:42Z",
+    "updated_at": "2026-08-22T08:46:44Z",
     "pushed_at": "2026-03-18T16:55:38Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
@@ -6323,7 +6323,7 @@
     "name": "felipefdl/warm-burnout",
     "url": "https://github.com/felipefdl/warm-burnout",
     "description": "Mostly warm, WCAG-audited color theme suite with one cool type accent. For developers who are already burned out but still have deadlines.",
-    "stars": 114,
+    "stars": 115,
     "forks": 11,
     "topics": [
       "accessibility",
@@ -6350,7 +6350,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-03-13T20:17:28Z",
-    "updated_at": "2026-08-17T15:32:31Z",
+    "updated_at": "2026-08-22T09:54:55Z",
     "pushed_at": "2026-08-09T06:29:18Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": true
@@ -6577,7 +6577,7 @@
     "url": "https://github.com/wnkz/monoglow.nvim",
     "description": "🎆 A dark, mostly monochrome colorscheme with a touch of glowing.",
     "stars": 174,
-    "forks": 10,
+    "forks": 11,
     "topics": [
       "ghostty-theme",
       "neovim",
@@ -8669,8 +8669,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2024-04-27T19:27:52Z",
-    "updated_at": "2026-08-19T22:19:20Z",
-    "pushed_at": "2026-06-10T23:17:14Z",
+    "updated_at": "2026-08-22T09:27:19Z",
+    "pushed_at": "2026-08-22T09:27:03Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": false
   },
@@ -15220,7 +15220,7 @@
     "name": "darkvoid-theme/darkvoid.nvim",
     "url": "https://github.com/darkvoid-theme/darkvoid.nvim",
     "description": "Neovim Colorscheme for dark dwellers with optional glow effect!",
-    "stars": 226,
+    "stars": 227,
     "forks": 10,
     "topics": [
       "color-scheme",
@@ -15245,7 +15245,7 @@
     "language": "Lua",
     "license": "MIT",
     "created_at": "2024-07-30T06:26:25Z",
-    "updated_at": "2026-08-14T15:53:03Z",
+    "updated_at": "2026-08-22T07:04:46Z",
     "pushed_at": "2024-11-21T21:02:02Z",
     "discovered_at": "2026-05-19T20:52:12.309Z",
     "official": false
@@ -18027,8 +18027,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-08-22T01:04:26Z",
-    "pushed_at": "2026-08-22T01:04:20Z",
+    "updated_at": "2026-08-22T06:58:27Z",
+    "pushed_at": "2026-08-22T06:58:22Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -22951,7 +22951,7 @@
     "url": "https://github.com/zed-extensions/nix",
     "description": "Nix language support in Zed",
     "stars": 125,
-    "forks": 27,
+    "forks": 28,
     "topics": [],
     "language": "Tree-sitter Query",
     "license": "MIT",
@@ -33202,8 +33202,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-05-17T07:32:27Z",
-    "updated_at": "2026-08-21T18:33:12Z",
-    "pushed_at": "2026-08-22T03:04:23Z",
+    "updated_at": "2026-08-22T10:19:33Z",
+    "pushed_at": "2026-08-22T10:19:23Z",
     "discovered_at": "2026-07-26T01:12:51.640Z",
     "official": false
   },
@@ -35128,8 +35128,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-08-12T11:40:26Z",
-    "updated_at": "2026-08-12T11:53:11Z",
-    "pushed_at": "2026-08-12T11:40:30Z",
+    "updated_at": "2026-08-22T11:43:53Z",
+    "pushed_at": "2026-08-22T11:43:44Z",
     "discovered_at": "2026-08-12T13:03:57.456Z",
     "official": false
   },
@@ -35643,7 +35643,7 @@
     "url": "https://github.com/WaveSpeedAI/wavespeed-mcp-zed",
     "description": "WaveSpeed MCP for Zed — AI media generation (image, video, audio, 3D) as a Zed context server",
     "stars": 0,
-    "forks": 0,
+    "forks": 1,
     "topics": [
       "context-server",
       "mcp",
@@ -35780,6 +35780,29 @@
     "updated_at": "2026-08-21T22:46:31Z",
     "pushed_at": "2026-08-21T22:46:25Z",
     "discovered_at": "2026-08-22T01:03:50.244Z",
+    "official": false
+  },
+  "bastenit/zed-composer-support": {
+    "name": "BastenIT/zed-composer-support",
+    "url": "https://github.com/BastenIT/zed-composer-support",
+    "description": "Packagist links, installed-version hints, and update checks for composer.json files in Zed.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "composer",
+      "developer-tools",
+      "language-server",
+      "packagist",
+      "php",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "JavaScript",
+    "license": "MIT",
+    "created_at": "2026-08-22T12:16:17Z",
+    "updated_at": "2026-08-22T12:34:00Z",
+    "pushed_at": "2026-08-22T12:33:50Z",
+    "discovered_at": "2026-08-22T12:57:51.520Z",
     "official": false
   }
 }

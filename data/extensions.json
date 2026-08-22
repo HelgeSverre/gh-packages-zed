@@ -3712,7 +3712,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-03-18T16:55:33Z",
-    "updated_at": "2026-08-10T17:30:42Z",
+    "updated_at": "2026-08-22T08:46:44Z",
     "pushed_at": "2026-03-18T16:55:38Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false,
@@ -11092,8 +11092,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2024-04-27T19:27:52Z",
-    "updated_at": "2026-08-19T22:19:20Z",
-    "pushed_at": "2026-06-10T23:17:14Z",
+    "updated_at": "2026-08-22T09:27:19Z",
+    "pushed_at": "2026-08-22T09:27:03Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": false,
     "extension": {
@@ -38327,7 +38327,7 @@
     "url": "https://github.com/zed-extensions/nix",
     "description": "Nix language support in Zed",
     "stars": 125,
-    "forks": 27,
+    "forks": 28,
     "topics": [],
     "language": "Tree-sitter Query",
     "license": "MIT",
@@ -58415,8 +58415,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-08-12T11:40:26Z",
-    "updated_at": "2026-08-12T11:53:11Z",
-    "pushed_at": "2026-08-12T11:40:30Z",
+    "updated_at": "2026-08-22T11:43:53Z",
+    "pushed_at": "2026-08-22T11:43:44Z",
     "discovered_at": "2026-08-12T13:03:57.456Z",
     "official": false,
     "extension": {
@@ -58835,7 +58835,7 @@
     "url": "https://github.com/WaveSpeedAI/wavespeed-mcp-zed",
     "description": "WaveSpeed MCP for Zed — AI media generation (image, video, audio, 3D) as a Zed context server",
     "stars": 0,
-    "forks": 0,
+    "forks": 1,
     "topics": [
       "context-server",
       "mcp",
@@ -58969,6 +58969,48 @@
       "snippets": null,
       "sections": [
         "language_servers"
+      ],
+      "categories": [
+        "language-server"
+      ]
+    }
+  },
+  "bastenit/zed-composer-support": {
+    "name": "BastenIT/zed-composer-support",
+    "url": "https://github.com/BastenIT/zed-composer-support",
+    "description": "Packagist links, installed-version hints, and update checks for composer.json files in Zed.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "composer",
+      "developer-tools",
+      "language-server",
+      "packagist",
+      "php",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "JavaScript",
+    "license": "MIT",
+    "created_at": "2026-08-22T12:16:17Z",
+    "updated_at": "2026-08-22T12:34:00Z",
+    "pushed_at": "2026-08-22T12:33:50Z",
+    "discovered_at": "2026-08-22T12:57:51.520Z",
+    "official": false,
+    "extension": {
+      "id": "composer-support",
+      "name": "Composer Support",
+      "description": "Packagist links, installed versions, and update hints for composer.json files.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "BastenIT"
+      ],
+      "repository": "https://github.com/BastenIT/zed-composer-support",
+      "snippets": null,
+      "sections": [
+        "language_servers",
+        "capabilities"
       ],
       "categories": [
         "language-server"
