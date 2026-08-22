@@ -74,8 +74,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-05-03T17:39:17Z",
-    "updated_at": "2026-08-21T18:36:46Z",
-    "pushed_at": "2026-08-21T14:09:29Z",
+    "updated_at": "2026-08-21T21:02:07Z",
+    "pushed_at": "2026-08-21T20:59:41Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -5147,7 +5147,7 @@
     "name": "Dylanmurzello/zed-android-port",
     "url": "https://github.com/Dylanmurzello/zed-android-port",
     "description": "Native Android port of the Zed code editor,  gpui rendering through Vulkan, integrated Termux for LSPs and tooling, remote SSH support. Runs as an APK on tablets and Android desktop modes.",
-    "stars": 177,
+    "stars": 176,
     "forks": 15,
     "topics": [
       "android",
@@ -5174,7 +5174,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-05-07T00:12:10Z",
-    "updated_at": "2026-08-21T03:41:49Z",
+    "updated_at": "2026-08-21T19:59:11Z",
     "pushed_at": "2026-08-07T13:48:06Z",
     "discovered_at": "2026-05-19T19:54:12.053Z",
     "official": false
@@ -5791,7 +5791,7 @@
     "url": "https://github.com/AprilNEA/gpui-symbols",
     "description": "SF Symbols for GPUI – Render Apple's 9000+ icons in Rust desktop apps with type-safe enums and native macOS rendering",
     "stars": 18,
-    "forks": 1,
+    "forks": 2,
     "topics": [
       "desktop-app",
       "gpui",
@@ -12945,13 +12945,13 @@
     "name": "owlx56/zed-lean4",
     "url": "https://github.com/owlx56/zed-lean4",
     "description": "",
-    "stars": 54,
+    "stars": 55,
     "forks": 10,
     "topics": [],
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2025-04-18T13:34:52Z",
-    "updated_at": "2026-07-26T01:49:03Z",
+    "updated_at": "2026-08-21T21:18:01Z",
     "pushed_at": "2026-05-30T23:43:11Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": false
@@ -15469,7 +15469,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
     "updated_at": "2026-08-21T15:12:15Z",
-    "pushed_at": "2026-08-20T21:30:06Z",
+    "pushed_at": "2026-08-21T19:47:22Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -18027,8 +18027,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-08-21T13:03:50Z",
-    "pushed_at": "2026-08-21T13:02:30Z",
+    "updated_at": "2026-08-21T18:57:06Z",
+    "pushed_at": "2026-08-21T18:56:23Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -25281,8 +25281,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-07-01T21:28:51Z",
-    "updated_at": "2026-08-21T02:29:17Z",
-    "pushed_at": "2026-08-21T02:28:42Z",
+    "updated_at": "2026-08-21T22:05:46Z",
+    "pushed_at": "2026-08-21T22:23:11Z",
     "discovered_at": "2026-05-20T02:57:03.419Z",
     "official": true
   },
@@ -29001,8 +29001,8 @@
     "language": null,
     "license": null,
     "created_at": "2026-05-25T05:34:31Z",
-    "updated_at": "2026-08-21T00:18:07Z",
-    "pushed_at": "2026-08-21T00:18:03Z",
+    "updated_at": "2026-08-21T20:18:09Z",
+    "pushed_at": "2026-08-21T20:17:11Z",
     "discovered_at": "2026-05-26T07:12:20.287Z",
     "official": false
   },
@@ -32205,7 +32205,7 @@
     "name": "hyyan/zed-test-coverage-highlight",
     "url": "https://github.com/hyyan/zed-test-coverage-highlight",
     "description": "Zed extension that highlights test coverage in the editor. Renders lcov, JaCoCo, Cobertura and Clover reports as colored lines, with a coverage code lens and hover.",
-    "stars": 8,
+    "stars": 9,
     "forks": 1,
     "topics": [
       "clover",
@@ -32220,7 +32220,7 @@
     "language": "TypeScript",
     "license": "MIT",
     "created_at": "2026-07-10T08:40:40Z",
-    "updated_at": "2026-08-21T16:35:29Z",
+    "updated_at": "2026-08-21T21:42:49Z",
     "pushed_at": "2026-08-21T08:33:23Z",
     "discovered_at": "2026-07-10T13:22:23.420Z",
     "official": true
@@ -33803,7 +33803,7 @@
     "url": "https://github.com/shdwmtr/zex",
     "description": "An extremely fast explorer and disk usage analyzer companion for the Zed ecosystem.",
     "stars": 8,
-    "forks": 0,
+    "forks": 1,
     "topics": [
       "zed",
       "zed-editor"
@@ -34809,20 +34809,26 @@
   "santi020k/santi020k-theme": {
     "name": "santi020k/santi020k-theme",
     "url": "https://github.com/santi020k/santi020k-theme",
-    "description": "Monorepo for the Santi020k Theme family: a calm violet theme system spanning VS Code, Chrome, shared brand packages, and static product websites.",
+    "description": "Calm violet themes and design tokens for VS Code, Zed, Chrome, Codex, terminals, and the web.",
     "stars": 0,
     "forks": 0,
     "topics": [
-      "extension",
+      "astro",
+      "browser-theme",
+      "chrome-theme",
+      "codex-theme",
+      "design-tokens",
       "open-source",
+      "terminal-theme",
       "theme",
-      "vscode"
+      "vscode-theme",
+      "zed-theme"
     ],
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-04-28T16:41:12Z",
-    "updated_at": "2026-07-28T06:42:59Z",
-    "pushed_at": "2026-08-03T09:23:26Z",
+    "updated_at": "2026-08-21T22:37:30Z",
+    "pushed_at": "2026-08-21T22:44:49Z",
     "discovered_at": "2026-08-11T01:04:41.365Z",
     "official": true
   },
@@ -35692,7 +35698,7 @@
     "name": "YanivZalach/Zed_Pycharm_Dracula_Theme",
     "url": "https://github.com/YanivZalach/Zed_Pycharm_Dracula_Theme",
     "description": "Pycharm dracula theme for the Zed Editor",
-    "stars": 0,
+    "stars": 1,
     "forks": 0,
     "topics": [
       "dracula",
@@ -35709,8 +35715,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-08-21T16:58:24Z",
-    "updated_at": "2026-08-21T17:55:25Z",
-    "pushed_at": "2026-08-21T17:54:31Z",
+    "updated_at": "2026-08-21T21:21:01Z",
+    "pushed_at": "2026-08-21T20:57:49Z",
     "discovered_at": "2026-08-21T18:55:51.713Z",
     "official": false
   },
@@ -35733,9 +35739,47 @@
     "language": "TypeScript",
     "license": "MIT",
     "created_at": "2026-06-22T23:16:08Z",
-    "updated_at": "2026-08-21T17:35:45Z",
-    "pushed_at": "2026-08-21T17:46:27Z",
+    "updated_at": "2026-08-21T22:19:08Z",
+    "pushed_at": "2026-08-21T22:18:54Z",
     "discovered_at": "2026-08-21T18:55:51.713Z",
+    "official": false
+  },
+  "krawitzzz/zed-hyperlinks": {
+    "name": "krawitzzZ/zed-hyperlinks",
+    "url": "https://github.com/krawitzzZ/zed-hyperlinks",
+    "description": "",
+    "stars": 1,
+    "forks": 0,
+    "topics": [],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2026-07-24T08:21:45Z",
+    "updated_at": "2026-08-11T16:37:24Z",
+    "pushed_at": "2026-08-11T16:37:17Z",
+    "discovered_at": "2026-08-22T01:03:50.244Z",
+    "official": true
+  },
+  "yuu104/zed-selection-context-to-ai-agent": {
+    "name": "yuu104/zed-selection-context-to-ai-agent",
+    "url": "https://github.com/yuu104/zed-selection-context-to-ai-agent",
+    "description": "Send the current Zed selection to Claude Code or Codex running in any terminal",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "claude-code",
+      "codex",
+      "developer-tools",
+      "language-server",
+      "rust",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2026-08-21T21:59:27Z",
+    "updated_at": "2026-08-21T22:46:31Z",
+    "pushed_at": "2026-08-21T22:46:25Z",
+    "discovered_at": "2026-08-22T01:03:50.244Z",
     "official": false
   }
 }

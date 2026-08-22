@@ -1,0 +1,31 @@
+id = "hyperlinks-lsp"
+name = "Hyperlinks"
+version = "0.0.4"
+schema_version = 1
+authors = ["Nikita Demin"]
+description = "Turn text into clickable links based on regex patterns."
+repository = "https://github.com/krawitzzZ/zed-hyperlinks"
+
+[language_servers.hyperlinks]
+name = "Hyperlinks"
+languages = [
+  "Plain Text",
+  "Markdown",
+  "Rust",
+  "JavaScript",
+  "TypeScript",
+  "TSX",
+  "JSON",
+  "YAML",
+  "TOML",
+  "Python",
+  "Go",
+  "C",
+  "C++",
+  "HTML",
+  "CSS",
+  "Bash",
+  "Ruby",
+  "PHP",
+  "Java",
+]

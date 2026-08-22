@@ -1,0 +1,164 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Hyperlinks - Zed Extension Safari</title><meta name="description" content="Turn text into clickable links based on regex patterns."><link rel="canonical" href="https://helgesverre.github.io/gh-packages-zed/package/krawitzzZ/zed-hyperlinks/"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Hyperlinks - Zed Extension Safari"><meta property="og:description" content="Turn text into clickable links based on regex patterns."><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed/package/krawitzzZ/zed-hyperlinks/"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Hyperlinks - Zed Extension Safari"><meta name="twitter:description" content="Turn text into clickable links based on regex patterns."><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/gh-packages-zed/_astro/ClientRouter.astro_astro_type_script_index_0_lang.ClVLs1kt.js"></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Hyperlinks","description":"Turn text into clickable links based on regex patterns.","applicationCategory":"DeveloperApplication","operatingSystem":"macOS, Linux, Windows","url":"https://zed.dev/extensions/hyperlinks-lsp","codeRepository":"https://github.com/krawitzzZ/zed-hyperlinks","author":[{"@type":"Person","name":"Nikita Demin"}],"softwareVersion":"0.0.4","license":"MIT","keywords":"language-server","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/Layout.CGDlMdWE.css"><script type="module" src="/gh-packages-zed/_astro/page.B8i1Zz-u.js"></script></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <a href="#main" class="skip-to-content">Skip to content</a> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" data-astro-transition-persist="astro-fhchcgd7-1"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <script type="application/json" id="pkg-extras">{"url":"https://github.com/krawitzzZ/zed-hyperlinks","language":"Rust","license":"MIT","topics":[],"extension":{"authors":["Nikita Demin"],"schema_version":1}}</script> <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> krawitzzZ/zed-hyperlinks </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> Hyperlinks </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> Turn text into clickable links based on regex patterns. </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="language-server">Language Server</span> </div> </div> </div> </header> <main id="main" class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/hyperlinks-lsp" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/krawitzzZ/zed-hyperlinks" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.0.4</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">hyperlinks-lsp</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">Rust</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">MIT</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">1</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">8/11/2026</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">Nikita Demin</dd> </div> </dl>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-hyperlinks-zed-extension"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#hyperlinks-zed-extension"><span class="heading-anchor-icon">#</span></a>Hyperlinks (Zed extension)</h1>
+<p>Automatically turn text into clickable links based on regex patterns, inspired by
+the VS Code extension <a href="https://github.com/dlevs/vscode-pattern-links">dlevs/vscode-pattern-links</a>.</p>
+<p>For example, turn <code>ISSUE-123</code> into a link to your issue tracker, or <code>#42</code> into a
+link to a GitHub issue.</p>
+<h2 id="user-content-how-it-works"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#how-it-works"><span class="heading-anchor-icon">#</span></a>How it works</h2>
+<p>Zed renders links returned by language servers via the LSP <code>textDocument/documentLink</code>
+request (supported by Zed since mid-2026, enabled by default). This extension runs a
+small language server that scans open documents for your configured regex rules and
+returns a link for each match.</p>
+<p>The language server lives in a separate repository,
+<a href="https://github.com/krawitzzZ/zed-hyperlinks-server">krawitzzZ/zed-hyperlinks-server</a>,
+and is published to npm as <a href="https://www.npmjs.com/package/hyperlinks-lsp"><code>hyperlinks-lsp</code></a>.
+On first use the extension installs the latest package version via Zed's npm APIs and
+runs it with Zed's bundled Node.</p>
+<p>Cmd-click (macOS) / Ctrl-click (Linux/Windows) a match to open the link.</p>
+<p>The server also reports a custom <code>hyperlink</code> semantic token for every match, which
+you can style to make matches visually stand out. See <a href="#highlighting">Highlighting</a>
+below.</p>
+<h2 id="user-content-requirements"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#requirements"><span class="heading-anchor-icon">#</span></a>Requirements</h2>
+<ul>
+<li>A recent version of Zed with LSP document link support.</li>
+<li>Network access on first use (to install the language server from npm); afterwards it is cached.</li>
+</ul>
+<h2 id="user-content-installation-dev-extension"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation-dev-extension"><span class="heading-anchor-icon">#</span></a>Installation (dev extension)</h2>
+<ol>
+<li>Clone this repository.</li>
+<li>In Zed, open the command palette and run <code>zed: install dev extension</code>
+(or use the <code>Install Dev Extension</code> button on the Extensions page), then select
+this directory.</li>
+</ol>
+<p>Zed compiles the Rust/WASM part automatically.</p>
+<h2 id="user-content-configuration"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#configuration"><span class="heading-anchor-icon">#</span></a>Configuration</h2>
+<p>There is no per-extension settings UI in Zed, so rules are configured through the
+language server's <strong>workspace settings</strong> in your <code>settings.json</code>, under the
+<code>hyperlinkRules</code> array:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "hyperlinks"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "hyperlinkRules"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">          {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">            "linkPattern"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"ISSUE-</span><span style="color:#005CC5;--shiki-dark:#79B8FF">\\</span><span style="color:#032F62;--shiki-dark:#9ECBFF">d+"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">            "linkTarget"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"https://myorg.atlassian.net/browse/$0"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">          },</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">          {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">            "linkPattern"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"#(</span><span style="color:#005CC5;--shiki-dark:#79B8FF">\\</span><span style="color:#032F62;--shiki-dark:#9ECBFF">d+)"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">            "linkTarget"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"https://github.com/my-org/my-repo/issues/$1"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">            "languages"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"markdown"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"plaintext"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">          }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">        ]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>These are forwarded via <code>language_server_workspace_configuration</code> (and then
+<code>workspace/didChangeConfiguration</code>). Optional <code>initialization_options</code> under the
+same <code>lsp.hyperlinks</code> key are forwarded separately if you ever need them.</p>
+<h3 id="user-content-rule-fields"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#rule-fields"><span class="heading-anchor-icon">#</span></a>Rule fields</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Field</th><th>Required</th><th>Description</th></tr></thead><tbody><tr><td><code>linkPattern</code></td><td>yes</td><td>A regular expression used to find text to turn into links, e.g. <code>ISSUE-\\d+</code>.</td></tr><tr><td><code>linkTarget</code></td><td>yes</td><td>The link template. <code>$0</code> is the whole match, <code>$1</code>, <code>$2</code>, ... are capture groups. Use <code>\$</code> for a literal <code>$</code>.</td></tr><tr><td><code>linkPatternFlags</code></td><td>no</td><td>Extra JavaScript regex flags, e.g. <code>i</code> (case-insensitive) or <code>s</code> (dot matches newlines). The <code>g</code> flag is always applied.</td></tr><tr><td><code>languages</code></td><td>no</td><td>List of LSP <code>languageId</code> strings to restrict the rule to (e.g. <code>["markdown", "plaintext"]</code>). If omitted/empty, the rule applies to all.</td></tr></tbody></table>
+<h2 id="user-content-highlighting"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#highlighting"><span class="heading-anchor-icon">#</span></a>Highlighting</h2>
+<p>Zed does not visually style document links on its own, so by default a match is
+clickable but looks like ordinary text. To make matches stand out, the language
+server emits an LSP semantic token of the custom type <code>hyperlink</code> for every match
+(multi-line matches are split into one token per line, as LSP requires).</p>
+<p>Zed styles semantic tokens through
+<a href="https://zed.dev/docs/semantic-tokens"><code>semantic_token_rules</code></a>. To highlight
+hyperlinks, do two things in your <code>settings.json</code>:</p>
+<ol>
+<li>Enable semantic tokens (they are <strong>off by default</strong>) by setting
+<code>semantic_tokens</code> to <code>"combined"</code> (keep tree-sitter highlighting and overlay
+semantic tokens) or <code>"full"</code>. You can set this globally or per-language.</li>
+<li>Add a rule matching the <code>hyperlink</code> token type under
+<code>global_lsp_settings.semantic_token_rules</code>.</li>
+</ol>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "semantic_tokens"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"combined"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "global_lsp_settings"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "semantic_token_rules"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "token_type"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"hyperlink"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "underline"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">true</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "foreground_color"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"#4c9df3"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    ]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>Instead of a hardcoded color you can reference theme styles, e.g.
+<code>"style": ["link_uri", "link_text"]</code>; the first style found in your theme is used.
+See the <a href="https://zed.dev/docs/semantic-tokens#rule-structure">rule structure</a> for
+all available properties (<code>background_color</code>, <code>font_weight</code>, <code>strikethrough</code>, ...).</p>
+<blockquote>
+<p>Changing the <code>semantic_tokens</code> mode may require restarting the language server
+(<code>editor: restart language server</code>) to take effect.</p>
+</blockquote>
+<h2 id="user-content-supported-languages"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#supported-languages"><span class="heading-anchor-icon">#</span></a>Supported languages</h2>
+<p>Zed requires extension language servers to declare the languages they attach to
+(there is no "all files" wildcard). The languages are enumerated in
+<a href="https://github.com/krawitzzZ/zed-hyperlinks/blob/HEAD/extension.toml" target="_blank" rel="noopener"><code>extension.toml</code></a> and currently cover Plain Text, Markdown, and a
+range of common programming languages. Add more entries there if you need others.</p>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p><a href="https://github.com/krawitzzZ/zed-hyperlinks/blob/HEAD/LICENSE" target="_blank" rel="noopener">MIT</a></p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>
