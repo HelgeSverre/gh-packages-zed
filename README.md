@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1722** |
 | In official registry | 1244 |
 | Discovered via topics | 478 |
-| Last updated | 2026-08-22 01:03 UTC |
+| Last updated | 2026-08-22 06:57 UTC |
 
 ### By capability
 
@@ -120,6 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 96 | 2026-08-22 | True Dark Theme for Zed IDE |
 | [SinaMombeiny/S-DarkTheme.zed](https://github.com/SinaMombeiny/S-DarkTheme.zed) | 5 | 2026-08-21 | Dark theme for Zed |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 4 | 2026-08-21 | A Zed extension that allows to highlight all occurrences of ... |
 | [YanivZalach/Zed_Pycharm_Dracula_Theme](https://github.com/YanivZalach/Zed_Pycharm_Dracula_Theme) | 1 | 2026-08-21 | Pycharm dracula theme for the Zed Editor |
@@ -127,7 +128,6 @@ cd website && npm install && npm run dev
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-08-21 | Zed editor support for Carve, a modern light markup language |
 | [aefly/orng](https://github.com/aefly/orng) | 0 | 2026-08-21 | 🍊 Your editor called — it wants more orange. Bold accents, ... |
 | [WaveSpeedAI/wavespeed-mcp-zed](https://github.com/WaveSpeedAI/wavespeed-mcp-zed) | 0 | 2026-08-21 | WaveSpeed MCP for Zed — AI media generation (image, video, a... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 96 | 2026-08-21 | True Dark Theme for Zed IDE |
 | [pleahmacaka/zed-batch](https://github.com/pleahmacaka/zed-batch) | 3 | 2026-08-21 | Windows Batch (.bat, .cmd) support |
 | [gesundes/zed-ansible-vault](https://github.com/gesundes/zed-ansible-vault) | 0 | 2026-08-20 | Encrypt and decrypt Ansible Vault files and inline !vault YA... |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-08-20 | Intelligent codebase search & indexing for Zed. Async MCP se... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-08-22T06:57 | 0 | 565 | 2095 |
 | 2026-08-22T01:03 | 2 | 564 | 2095 |
 | 2026-08-21T18:55 | 2 | 561 | 2093 |
 | 2026-08-21T13:01 | 0 | 561 | 2091 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-08-20T13:01 | 0 | 560 | 2090 |
 | 2026-08-20T07:00 | 0 | 560 | 2090 |
 | 2026-08-20T01:03 | 0 | 560 | 2090 |
-| 2026-08-19T18:54 | 0 | 560 | 2090 |
 
 ---
 
