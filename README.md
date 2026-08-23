@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1723** |
 | In official registry | 1244 |
 | Discovered via topics | 479 |
-| Last updated | 2026-08-23 01:03 UTC |
+| Last updated | 2026-08-23 06:58 UTC |
 
 ### By capability
 
@@ -120,13 +120,13 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 96 | 2026-08-23 | True Dark Theme for Zed IDE |
 | [SinaMombeiny/S-DarkTheme.zed](https://github.com/SinaMombeiny/S-DarkTheme.zed) | 5 | 2026-08-22 | Dark theme for Zed |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-08-22 | Zed editor support for Carve, a modern light markup language |
 | [BastenIT/zed-composer-support](https://github.com/BastenIT/zed-composer-support) | 0 | 2026-08-22 | Packagist links, installed-version hints, and update checks ... |
 | [xsynaptic/zed-mdxlint](https://github.com/xsynaptic/zed-mdxlint) | 0 | 2026-08-22 | Zed extension providing mdxlint language server support |
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 195 | 2026-08-22 | Typst extension for zed |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 96 | 2026-08-22 | True Dark Theme for Zed IDE |
-| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 4 | 2026-08-21 | A Zed extension that allows to highlight all occurrences of ... |
+| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-08-21 | A Zed extension that allows to highlight all occurrences of ... |
 | [YanivZalach/Zed_Pycharm_Dracula_Theme](https://github.com/YanivZalach/Zed_Pycharm_Dracula_Theme) | 1 | 2026-08-21 | Pycharm dracula theme for the Zed Editor |
 | [alysson-souza/zed-fish-lsp](https://github.com/alysson-souza/zed-fish-lsp) | 4 | 2026-08-21 | Fish shell extension for Zed with fish-lsp integration |
 | [aefly/orng](https://github.com/aefly/orng) | 0 | 2026-08-21 | 🍊 Your editor called — it wants more orange. Bold accents, ... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-08-23T06:58 | 0 | 567 | 2096 |
 | 2026-08-23T01:03 | 0 | 567 | 2096 |
 | 2026-08-22T18:52 | 0 | 566 | 2096 |
 | 2026-08-22T12:57 | 1 | 565 | 2096 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-08-21T13:01 | 0 | 561 | 2091 |
 | 2026-08-21T07:00 | 0 | 561 | 2091 |
 | 2026-08-21T01:03 | 0 | 561 | 2091 |
-| 2026-08-20T18:56 | 1 | 560 | 2091 |
 
 ---
 
