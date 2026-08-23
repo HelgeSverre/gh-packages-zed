@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1723** |
 | In official registry | 1244 |
 | Discovered via topics | 479 |
-| Last updated | 2026-08-22 18:52 UTC |
+| Last updated | 2026-08-23 01:03 UTC |
 
 ### By capability
 
@@ -135,16 +135,17 @@ cd website && npm install && npm run dev
 | [gesundes/zed-ansible-vault](https://github.com/gesundes/zed-ansible-vault) | 0 | 2026-08-20 | Encrypt and decrypt Ansible Vault files and inline !vault YA... |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-08-20 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 168 | 2026-08-19 | 🦊 Zed editor theme ported from Neovim |
+| [Zeraphim/zed-theme](https://github.com/Zeraphim/zed-theme) | 0 | 2026-08-18 |  |
 | [madebygrant/zed-package-bump](https://github.com/madebygrant/zed-package-bump) | 0 | 2026-08-18 | Package Bump: A Zed extension that flags outdated npm depend... |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 1 | 2026-08-17 | Spring Boot language intelligence for Zed, built on the requ... |
 | [x032205/argent-zed-theme](https://github.com/x032205/argent-zed-theme) | 12 | 2026-08-17 |  |
 | [MahoCommerce/zed](https://github.com/MahoCommerce/zed) | 1 | 2026-08-16 | Maho extension for Zed. |
-| [SomeoneWithOptions/zed-solitude](https://github.com/SomeoneWithOptions/zed-solitude) | 0 | 2026-08-15 |  |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-08-23T01:03 | 0 | 567 | 2096 |
 | 2026-08-22T18:52 | 0 | 566 | 2096 |
 | 2026-08-22T12:57 | 1 | 565 | 2096 |
 | 2026-08-22T06:57 | 0 | 565 | 2095 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-08-21T07:00 | 0 | 561 | 2091 |
 | 2026-08-21T01:03 | 0 | 561 | 2091 |
 | 2026-08-20T18:56 | 1 | 560 | 2091 |
-| 2026-08-20T13:01 | 0 | 560 | 2090 |
 
 ---
 
