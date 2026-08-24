@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1723** |
 | In official registry | 1244 |
 | Discovered via topics | 479 |
-| Last updated | 2026-08-23 18:52 UTC |
+| Last updated | 2026-08-24 01:03 UTC |
 
 ### By capability
 
@@ -120,6 +120,8 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [mehcode/filament](https://github.com/mehcode/filament) | 0 | 2026-08-23 | A warm, filament-lit theme for Zed. |
+| [rux-lang/Zed](https://github.com/rux-lang/Zed) | 4 | 2026-08-23 | Zed extension for the Rux programming language |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-08-23 | A Zed extension that allows to highlight all occurrences of ... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 96 | 2026-08-23 | True Dark Theme for Zed IDE |
 | [SinaMombeiny/S-DarkTheme.zed](https://github.com/SinaMombeiny/S-DarkTheme.zed) | 5 | 2026-08-22 | Dark theme for Zed |
@@ -138,13 +140,12 @@ cd website && npm install && npm run dev
 | [Zeraphim/zed-theme](https://github.com/Zeraphim/zed-theme) | 0 | 2026-08-18 |  |
 | [madebygrant/zed-package-bump](https://github.com/madebygrant/zed-package-bump) | 0 | 2026-08-18 | Package Bump: A Zed extension that flags outdated npm depend... |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 1 | 2026-08-17 | Spring Boot language intelligence for Zed, built on the requ... |
-| [x032205/argent-zed-theme](https://github.com/x032205/argent-zed-theme) | 12 | 2026-08-17 |  |
-| [MahoCommerce/zed](https://github.com/MahoCommerce/zed) | 1 | 2026-08-16 | Maho extension for Zed. |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-08-24T01:03 | 1 | 567 | 2097 |
 | 2026-08-23T18:52 | 0 | 567 | 2096 |
 | 2026-08-23T12:58 | 0 | 567 | 2096 |
 | 2026-08-23T06:58 | 0 | 567 | 2096 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-08-22T06:57 | 0 | 565 | 2095 |
 | 2026-08-22T01:03 | 2 | 564 | 2095 |
 | 2026-08-21T18:55 | 2 | 561 | 2093 |
-| 2026-08-21T13:01 | 0 | 561 | 2091 |
 
 ---
 
