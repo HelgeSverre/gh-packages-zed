@@ -1440,7 +1440,7 @@
     "name": "foxoman/zed-nim",
     "url": "https://github.com/foxoman/zed-nim",
     "description": "Nim support for Zed Editor",
-    "stars": 48,
+    "stars": 49,
     "forks": 4,
     "topics": [
       "nim",
@@ -1451,7 +1451,7 @@
     "language": "Tree-sitter Query",
     "license": "Apache-2.0",
     "created_at": "2024-07-12T08:06:46Z",
-    "updated_at": "2026-08-15T22:52:32Z",
+    "updated_at": "2026-08-24T09:06:53Z",
     "pushed_at": "2026-04-20T19:10:13Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -2995,7 +2995,7 @@
     "url": "https://github.com/ankddev/zed-jetbrains-newui-icons",
     "description": "JetBrains New UI Icons Theme for Zed editor.",
     "stars": 28,
-    "forks": 9,
+    "forks": 10,
     "topics": [
       "icons",
       "jetbrains",
@@ -3413,8 +3413,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2025-12-02T06:40:19Z",
-    "updated_at": "2026-01-22T05:42:09Z",
-    "pushed_at": "2026-01-22T05:42:04Z",
+    "updated_at": "2026-08-24T11:44:08Z",
+    "pushed_at": "2026-08-24T11:43:53Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -5119,8 +5119,8 @@
     "language": "Go",
     "license": "MIT",
     "created_at": "2026-03-09T04:35:59Z",
-    "updated_at": "2026-08-23T06:54:38Z",
-    "pushed_at": "2026-08-23T06:54:30Z",
+    "updated_at": "2026-08-24T07:13:18Z",
+    "pushed_at": "2026-08-24T07:12:38Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -5147,7 +5147,7 @@
     "name": "Dylanmurzello/zed-android-port",
     "url": "https://github.com/Dylanmurzello/zed-android-port",
     "description": "Native Android port of the Zed code editor,  gpui rendering through Vulkan, integrated Termux for LSPs and tooling, remote SSH support. Runs as an APK on tablets and Android desktop modes.",
-    "stars": 177,
+    "stars": 180,
     "forks": 15,
     "topics": [
       "android",
@@ -5174,7 +5174,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-05-07T00:12:10Z",
-    "updated_at": "2026-08-23T21:32:49Z",
+    "updated_at": "2026-08-24T10:09:54Z",
     "pushed_at": "2026-08-07T13:48:06Z",
     "discovered_at": "2026-05-19T19:54:12.053Z",
     "official": false
@@ -18027,8 +18027,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-08-24T01:04:17Z",
-    "pushed_at": "2026-08-24T01:04:12Z",
+    "updated_at": "2026-08-24T07:04:31Z",
+    "pushed_at": "2026-08-24T07:03:02Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -19270,7 +19270,7 @@
     "language": "Tree-sitter Query",
     "license": "Apache-2.0",
     "created_at": "2024-02-19T14:56:35Z",
-    "updated_at": "2026-08-11T07:38:21Z",
+    "updated_at": "2026-08-24T11:05:23Z",
     "pushed_at": "2026-07-28T23:40:00Z",
     "discovered_at": "2026-05-19T21:42:53.670Z",
     "official": false
@@ -32205,7 +32205,7 @@
     "name": "hyyan/zed-test-coverage-highlight",
     "url": "https://github.com/hyyan/zed-test-coverage-highlight",
     "description": "Zed extension that highlights test coverage in the editor. Renders lcov, JaCoCo, Cobertura and Clover reports as colored lines, with a coverage code lens and hover.",
-    "stars": 10,
+    "stars": 11,
     "forks": 1,
     "topics": [
       "clover",
@@ -32220,7 +32220,7 @@
     "language": "TypeScript",
     "license": "MIT",
     "created_at": "2026-07-10T08:40:40Z",
-    "updated_at": "2026-08-22T03:51:33Z",
+    "updated_at": "2026-08-24T08:54:29Z",
     "pushed_at": "2026-08-21T08:33:23Z",
     "discovered_at": "2026-07-10T13:22:23.420Z",
     "official": true
@@ -35802,11 +35802,11 @@
       "zed",
       "zed-extension"
     ],
-    "language": "JavaScript",
+    "language": "Rust",
     "license": "MIT",
     "created_at": "2026-08-22T12:16:17Z",
-    "updated_at": "2026-08-22T12:34:00Z",
-    "pushed_at": "2026-08-22T12:33:50Z",
+    "updated_at": "2026-08-24T12:52:50Z",
+    "pushed_at": "2026-08-24T12:45:26Z",
     "discovered_at": "2026-08-22T12:57:51.520Z",
     "official": false
   },
@@ -35848,6 +35848,69 @@
     "updated_at": "2026-08-24T06:09:53Z",
     "pushed_at": "2026-08-24T06:08:59Z",
     "discovered_at": "2026-08-24T07:02:30.243Z",
+    "official": false
+  },
+  "balakar94/mikrotik-zed": {
+    "name": "balakar94/mikrotik-zed",
+    "url": "https://github.com/balakar94/mikrotik-zed",
+    "description": "Zed extension for MikroTik RouterOS Script — syntax highlighting, autocompletion, inline documentation, and LSP diagnostics",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "language-server",
+      "lsp",
+      "mikrotik",
+      "routeros",
+      "tree-sitter",
+      "zed-extension"
+    ],
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "created_at": "2026-08-22T22:20:48Z",
+    "updated_at": "2026-08-24T12:48:04Z",
+    "pushed_at": "2026-08-24T12:44:19Z",
+    "discovered_at": "2026-08-24T13:01:58.453Z",
+    "official": false
+  },
+  "mattfor/leetcode-zed": {
+    "name": "MattFor/leetcode-zed",
+    "url": "https://github.com/MattFor/leetcode-zed",
+    "description": "A Zed extension to do leetcode problems kinda-directly in the code editor.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "leetcode",
+      "rust",
+      "rust-cli",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2026-08-17T22:59:45Z",
+    "updated_at": "2026-08-24T11:44:31Z",
+    "pushed_at": "2026-08-24T11:32:34Z",
+    "discovered_at": "2026-08-24T13:01:58.453Z",
+    "official": false
+  },
+  "ahmadsaeedahsan/rage-theme": {
+    "name": "ahmadsaeedahsan/RAGE-theme",
+    "url": "https://github.com/ahmadsaeedahsan/RAGE-theme",
+    "description": "A bold dark theme for Zed with high-contrast syntax colors",
+    "stars": 2,
+    "forks": 0,
+    "topics": [
+      "syntax-highlighting",
+      "theme",
+      "zed",
+      "zed-themes"
+    ],
+    "language": null,
+    "license": null,
+    "created_at": "2026-07-01T18:11:12Z",
+    "updated_at": "2026-07-31T16:28:01Z",
+    "pushed_at": "2026-07-01T22:02:36Z",
+    "discovered_at": "2026-08-24T13:01:58.454Z",
     "official": false
   }
 }

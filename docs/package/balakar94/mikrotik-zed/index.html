@@ -1,0 +1,348 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>MikroTik RouterOS Script - Zed Extension Safari</title><meta name="description" content="Zed extension for MikroTik RouterOS Script — syntax highlighting, autocompletion, inline documentation, and LSP diagnostics"><link rel="canonical" href="https://helgesverre.github.io/gh-packages-zed/package/balakar94/mikrotik-zed/"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="MikroTik RouterOS Script - Zed Extension Safari"><meta property="og:description" content="Zed extension for MikroTik RouterOS Script — syntax highlighting, autocompletion, inline documentation, and LSP diagnostics"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed/package/balakar94/mikrotik-zed/"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="MikroTik RouterOS Script - Zed Extension Safari"><meta name="twitter:description" content="Zed extension for MikroTik RouterOS Script — syntax highlighting, autocompletion, inline documentation, and LSP diagnostics"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/gh-packages-zed/_astro/ClientRouter.astro_astro_type_script_index_0_lang.ClVLs1kt.js"></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"MikroTik RouterOS Script","description":"Zed extension for MikroTik RouterOS Script — syntax highlighting, autocompletion, inline documentation, and LSP diagnostics","applicationCategory":"DeveloperApplication","operatingSystem":"macOS, Linux, Windows","url":"https://zed.dev/extensions/mikrotik-rsc","codeRepository":"https://github.com/balakar94/mikrotik-zed","author":[{"@type":"Person","name":"balakar94"}],"softwareVersion":"0.5.0","license":"Apache-2.0","keywords":"grammar, language-server","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/Layout.CGDlMdWE.css"><script type="module" src="/gh-packages-zed/_astro/page.B8i1Zz-u.js"></script></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <a href="#main" class="skip-to-content">Skip to content</a> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" data-astro-transition-persist="astro-fhchcgd7-1"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <script type="application/json" id="pkg-extras">{"url":"https://github.com/balakar94/mikrotik-zed","language":"Rust","license":"Apache-2.0","topics":["language-server","lsp","mikrotik","routeros","tree-sitter","zed-extension"],"extension":{"authors":["balakar94"],"schema_version":1}}</script> <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> balakar94/mikrotik-zed </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> MikroTik RouterOS Script </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> MikroTik RouterOS v7.20+ language support with highlighting, completions, hover docs, diagnostics and one-click deploy. </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="grammar">Grammar</span><span class="cat-badge" data-cat="language-server">Language Server</span> </div> </div> </div> </header> <main id="main" class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/mikrotik-rsc" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/balakar94/mikrotik-zed" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.5.0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">mikrotik-rsc</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">Rust</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">Apache-2.0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">18m ago</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">balakar94</dd> </div> </dl>  <h2 class="mt-5 text-xs uppercase font-mono" style="color:var(--zed-muted);">Topics</h2> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> language-server </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> lsp </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> mikrotik </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> routeros </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> tree-sitter </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed-extension </span> </div>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 align="center" id="user-content-mikrotik-routeros-script--zed-extension"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#mikrotik-routeros-script--zed-extension"><span class="heading-anchor-icon">#</span></a>MikroTik RouterOS Script — Zed Extension</h1>
+<p align="center">
+  Complete Zed integration for MikroTik RouterOS Script<br>
+  <em>Tree-sitter highlighting · LSP completion &#x26; hover · Diagnostics · Deploy</em>
+</p>
+<p align="center">
+  <a href="https://github.com/balakar94/mikrotik-zed/releases"><img src="https://img.shields.io/github/v/release/balakar94/mikrotik-zed?label=release&#x26;color=blue" alt="release"></a>
+  <a href="https://github.com/balakar94/mikrotik-zed/actions/workflows/ci.yml"><img src="https://github.com/balakar94/mikrotik-zed/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+  <a href="https://github.com/balakar94/mikrotik-zed/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-green" alt="license"></a>
+  <a href="https://manual.mikrotik.com/docs/cli-reference/"><img src="https://img.shields.io/badge/RouterOS-v7.20%2B-red" alt="RouterOS"></a>
+  <a href="https://zed.dev"><img src="https://img.shields.io/badge/Zed-extension-black" alt="Zed"></a>
+  <a href="https://github.com/balakar94/tree-sitter-rsc"><img src="https://img.shields.io/badge/tree--sitter-rsc-orange" alt="grammar"></a>
+</p>
+<hr>
+<p><strong>Contents:</strong> <a href="#-features">Features</a> · <a href="#-install">Install</a> · <a href="#-quick-start">Quick start</a> · <a href="#-dependencies">Dependencies</a> · <a href="#-deploy">Deploy</a> · <a href="#-language-server">Language Server</a> · <a href="#-grammar">Grammar</a> · <a href="#-sync--extraction">Sync &#x26; Extraction</a> · <a href="#%EF%B8%8F-development">Development</a> · <a href="#-release">Release</a> · <a href="#-reference">Reference</a> · <a href="#-license">License</a></p>
+<hr>
+<h2 id="user-content--features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-features"><span class="heading-anchor-icon">#</span></a>✨ Features</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Area</th><th>What you get</th></tr></thead><tbody><tr><td><strong>Highlighting</strong></td><td>Full RouterOS syntax highlighting powered by a dedicated tree-sitter grammar</td></tr><tr><td><strong>Completion</strong></td><td>Context-aware suggestions for menus, verbs, properties and values, with snippets and inline documentation</td></tr><tr><td><strong>Hover</strong></td><td>Reference documentation for menus, properties and verbs, shown right where you type</td></tr><tr><td><strong>Diagnostics</strong></td><td>Live semantic and syntax validation of your script while you write it</td></tr><tr><td><strong>Outlining</strong></td><td>Document outline of menus and script variables, plus code folding</td></tr><tr><td><strong>Signature</strong></td><td>Parameter hints when calling menu verbs</td></tr><tr><td><strong>Navigation</strong></td><td>Go-to-definition and find-references across script variables</td></tr><tr><td><strong>Quick fixes</strong></td><td>"Did you mean …?" corrections for typos in properties, menus and values</td></tr><tr><td><strong>Deploy</strong></td><td>Send a validated script to a real router over REST or SSH without leaving the editor</td></tr><tr><td><strong>Sync</strong></td><td>Keeps the built-in command database aligned with MikroTik's published CLI reference</td></tr><tr><td><strong>Grammar</strong></td><td>A dedicated tree-sitter grammar, developed in its own repository and pinned by revision</td></tr></tbody></table>
+<p><strong>Coverage:</strong> the command database models the complete RouterOS v7.20+ CLI — <strong>1038 menus</strong>, directories and executable commands alike, spanning every context of the hierarchy from interfaces and networking to queues, users and system tools. It is extracted automatically from MikroTik's official machine-readable documentation, so completion, hover and diagnostics work anywhere in the tree rather than on a hand-picked subset.</p>
+<details>
+<summary>Example <code>.rsc</code> — hover, completion, diagnostics</summary>
+<pre><code class="language-rsc"># /ip/address — hover shows Type + Arguments
+/ip address add address=10.0.0.1/24 interface=ether1
+
+# completion after `chain=` → input | forward | output
+/ip firewall filter add chain=input action=accept comment="allow"
+
+# diagnostics: missing required `address` → Info
+/ip address add interface=ether1
+
+# multi-line with backslash continuation
+/tool fetch url="https://example.com/very/long/url/that/needs/continuation" \
+    mode=https
+
+# control flow
+:if ($var > 10) do={ :put "ok" } else={ :error "fail" }
+</code></pre>
+</details>
+<hr>
+<h2 id="user-content--install"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-install"><span class="heading-anchor-icon">#</span></a>📦 Install</h2>
+<h3 id="user-content-from-zed-extensions-once-published"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#from-zed-extensions-once-published"><span class="heading-anchor-icon">#</span></a>From Zed Extensions (once published)</h3>
+<p>Zed → <code>zed: extensions</code> → search <strong>MikroTik</strong> → <strong>Install</strong>.</p>
+<h3 id="user-content-dev-install-local"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#dev-install-local"><span class="heading-anchor-icon">#</span></a>Dev install (local)</h3>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># 1. Optional: build LSP locally (otherwise extension auto-downloads from Releases)</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> build</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -p</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> rsc-ls</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --release</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">export</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> PATH</span><span style="color:#D73A49;--shiki-dark:#F97583">=</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">$PWD</span><span style="color:#032F62;--shiki-dark:#9ECBFF">/target/release:</span><span style="color:#24292E;--shiki-dark:#E1E4E8">$PATH</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># For GUI Zed (Dock), also copy to a GUI-visible PATH (or just run: make install-lsp):</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cp</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> target/release/rsc-ls</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> ~/.cargo/bin/rsc-ls</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cp</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> target/release/rsc-ls</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> /opt/homebrew/bin/rsc-ls</span><span style="color:#6A737D;--shiki-dark:#6A737D">  # macOS</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># 2. Zed → Command Palette → Install Dev Extension → select this directory</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># 3. Open a .rsc file; check logs via zed --foreground or zed: open log</span></span></code></pre>
+<h3 id="user-content-binary-auto-download"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#binary-auto-download"><span class="heading-anchor-icon">#</span></a>Binary auto-download</h3>
+<p>Using the extension requires no manual builds. When you open a <code>.rsc</code> file, the extension locates its language server by trying three sources in order, stopping at the first success:</p>
+<ol>
+<li><strong>Your PATH</strong> — an <code>rsc-ls</code> you installed yourself takes precedence (the development override; Windows probes <code>rsc-ls.exe</code> too).</li>
+<li><strong>The cache</strong> — the copy downloaded by a previous session, reused as-is.</li>
+<li><strong>GitHub Releases</strong> — otherwise it downloads the build that matches your platform from the table below, verifies it against the published SHA-256 companion <em>before</em> making it executable or running it, and surfaces progress through Zed's installation-status UI. Any failure — missing asset, checksum mismatch — aborts cleanly and shows manual instructions: an unverified binary is never executed.</li>
+</ol>
+<p>Every asset is named after a Rust <strong>target triple</strong>: the conventional <code>&#x3C;architecture>-&#x3C;vendor>-&#x3C;os>-&#x3C;abi></code> string that compilers and toolchains use to identify one exact platform.</p>
+<table align="center">
+  <thead>
+    <tr><th>Target triple</th><th>Platform</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><code>aarch64-apple-darwin</code></td><td>macOS Apple Silicon</td></tr>
+    <tr><td><code>x86_64-apple-darwin</code></td><td>macOS Intel</td></tr>
+    <tr><td><code>aarch64-unknown-linux-gnu</code></td><td>Linux ARM64</td></tr>
+    <tr><td><code>x86_64-unknown-linux-gnu</code></td><td>Linux x64</td></tr>
+    <tr><td><code>x86_64-pc-windows-msvc</code></td><td>Windows x64</td></tr>
+    <tr><td><code>aarch64-pc-windows-msvc</code></td><td>Windows ARM64</td></tr>
+  </tbody>
+</table>
+<blockquote>
+<p><strong>Windows detail:</strong> the downloaded binary is cached and spawned with an <code>.exe</code> suffix, because Windows refuses to execute images whose file name lacks one. Release assets themselves stay extension-less byte blobs, so a single naming scheme serves every platform.</p>
+<p><strong>Fresh-release 404s:</strong> GitHub's CDN can take a minute or two to propagate new release assets; the API path works immediately, and a PATH-installed binary always bypasses the download entirely.</p>
+</blockquote>
+<hr>
+<h2 id="user-content--quick-start"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-quick-start"><span class="heading-anchor-icon">#</span></a>🚀 Quick start</h2>
+<p>Create a script in a folder where you actually keep your RouterOS work — any <code>.rsc</code> file will do, they are plain text:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cat</span><span style="color:#D73A49;--shiki-dark:#F97583"> ></span><span style="color:#032F62;--shiki-dark:#9ECBFF"> demo.rsc</span><span style="color:#D73A49;--shiki-dark:#F97583"> &#x3C;&#x3C;</span><span style="color:#032F62;--shiki-dark:#9ECBFF">'RSC'</span></span>
+<span class="line"><span style="color:#032F62;--shiki-dark:#9ECBFF">/ip address add address=10.0.0.1/24 interface=ether1</span></span>
+<span class="line"><span style="color:#032F62;--shiki-dark:#9ECBFF">/ip firewall filter add chain=input action=accept</span></span>
+<span class="line"><span style="color:#032F62;--shiki-dark:#9ECBFF">RSC</span></span></code></pre>
+<p>Open <code>demo.rsc</code> in Zed and try three things, one per core feature:</p>
+<ul>
+<li><strong>Completion:</strong> type <code>/ip </code> and pause — the popup lists the sub-menus that exist under <code>/ip</code> according to the command database.</li>
+<li><strong>Hover:</strong> rest the cursor on <code>/ip address</code> — a card explains what the menu is for and what its commands accept.</li>
+<li><strong>Diagnostics:</strong> remove <code>address=</code> from the first line — the editor flags that <code>add</code> under <code>/ip address</code> cannot run without it, because validation knows the real command signature rather than guessing from syntax alone.</li>
+</ul>
+<hr>
+<h2 id="user-content--dependencies"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-dependencies"><span class="heading-anchor-icon">#</span></a>🔧 Dependencies</h2>
+<p>Nothing exotic is required, and <code>make install</code> sets up all of it for you (see Bootstrap below). This is the complete list, and why each piece exists:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Dependency</th><th>Required</th><th>Why</th></tr></thead><tbody><tr><td>Rust 1.90</td><td>✅ required</td><td>Builds the language server and the extension glue. The repo pins the compiler version <em>and</em> the WebAssembly target in <code>rust-toolchain.toml</code>, so rustup installs both automatically on first use — nothing to add by hand.</td></tr><tr><td>Python 3.11+</td><td>✅ required</td><td>Runs the extraction, sync and deploy tooling (it relies on the standard-library <code>tomllib</code>).</td></tr><tr><td>pytest, requests, paramiko</td><td>✅ auto</td><td>The Python test suite and the deploy transports. They live inside a project-local <code>.venv</code>, never the system interpreter — which sidesteps PEP 668 on Fedora, Debian and Arch.</td></tr><tr><td>C compiler + linker</td><td>✅ required</td><td>Compiles the native language server (Xcode CLT, <code>build-essential</code>, or <code>base-devel</code> depending on platform).</td></tr><tr><td>git</td><td>✅ required</td><td>Clones the grammar working copy at the revision pinned in <code>extension.toml</code>.</td></tr><tr><td>curl</td><td>✅ required</td><td>Downloads toolchains and release binaries during setup.</td></tr><tr><td>cargo-audit</td><td>⚪ optional</td><td>Scans dependencies against the RustSec advisory database. It runs weekly in CI; <code>make audit</code> does the same locally.</td></tr><tr><td>wasm-tools</td><td>⚪ optional</td><td>Inspects the compiled WebAssembly component when hacking on the extension glue (rustc already emits a valid component).</td></tr></tbody></table>
+<h3 id="user-content-bootstrap"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#bootstrap"><span class="heading-anchor-icon">#</span></a>Bootstrap</h3>
+<p><code>make install</code> performs the entire setup and is idempotent — re-running it never breaks anything. It detects your operating system and package manager, installs the system packages, provisions rustup with a minimal profile if it is missing (the pinned toolchain and WASI target then arrive on their own through <code>rust-toolchain.toml</code>), creates the <code>.venv</code> with the Python dependencies, installs a local tree-sitter CLI, and finally builds the language server and puts it on your PATH — including the GUI-visible location on macOS, so the Zed app finds it too.</p>
+<ul>
+<li>Containers and CI usually want <code>SKIP_SYSTEM=1 make install</code> to skip distro packages.</li>
+<li>Every stage is also a standalone target: <code>make install-deps</code> (system packages), <code>make install-tools</code> (toolchains and <code>.venv</code>), <code>make install-lsp</code> (build + install the server).</li>
+</ul>
+<p>Supported platforms:</p>
+<ul>
+<li><strong>macOS</strong> — Homebrew and Xcode Command Line Tools</li>
+<li><strong>Fedora / RHEL</strong></li>
+<li><strong>Arch</strong></li>
+<li><strong>Debian / Ubuntu</strong></li>
+</ul>
+<p>Any other system works too: skip the distro step with <code>SKIP_SYSTEM=1</code> and provide the equivalent packages yourself.</p>
+<details>
+<summary>Per-platform notes</summary>
+<p>macOS (Homebrew):</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">xcode-select</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --install</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">brew</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> install</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> python</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> node</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">curl</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --proto</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> '=https'</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --tlsv1.2</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -sSf</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> https://sh.rustup.rs</span><span style="color:#D73A49;--shiki-dark:#F97583"> |</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> sh</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -s</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -y</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --profile</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> minimal</span></span></code></pre>
+<p>Fedora/RHEL:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">sudo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> dnf</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> install</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -y</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> gcc</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> gcc-c++</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> make</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> curl</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> git</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> openssl-devel</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> pkgconf-pkg-config</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> python3</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> python3-pip</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> nodejs</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> npm</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">curl</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --proto</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> '=https'</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --tlsv1.2</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -sSf</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> https://sh.rustup.rs</span><span style="color:#D73A49;--shiki-dark:#F97583"> |</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> sh</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -s</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -y</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --profile</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> minimal</span></span></code></pre>
+<p>Debian/Ubuntu:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">sudo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> apt-get</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> update</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">sudo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> apt-get</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> install</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -y</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> build-essential</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> curl</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> git</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> pkg-config</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> libssl-dev</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> python3</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> python3-venv</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> python3-pip</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> nodejs</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> npm</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">curl</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --proto</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> '=https'</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --tlsv1.2</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -sSf</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> https://sh.rustup.rs</span><span style="color:#D73A49;--shiki-dark:#F97583"> |</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> sh</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -s</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -y</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --profile</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> minimal</span></span></code></pre>
+<p>Arch:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">sudo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> pacman</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -Sy</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --needed</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --noconfirm</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> base-devel</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> curl</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> git</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> python</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> python-pip</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> nodejs</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> npm</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">curl</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --proto</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> '=https'</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --tlsv1.2</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -sSf</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> https://sh.rustup.rs</span><span style="color:#D73A49;--shiki-dark:#F97583"> |</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> sh</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -s</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -y</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --profile</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> minimal</span></span></code></pre>
+<p>Then, on any platform:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">make</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> install-tools</span><span style="color:#6A737D;--shiki-dark:#6A737D">   # .venv + tree-sitter-cli; toolchain and WASI target come pinned via rust-toolchain.toml</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">make</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> grammar-clone</span><span style="color:#6A737D;--shiki-dark:#6A737D">   # fetch the grammars/rsc working copy</span></span></code></pre>
+</details>
+<hr>
+<h2 id="user-content--deploy"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-deploy"><span class="heading-anchor-icon">#</span></a>🛫 Deploy</h2>
+<p>Local validation only proves the script is well-formed; sooner or later you want it running on a router. Doing that by hand means copying text into a terminal session and hoping the paste survived quoting intact. The deploy tooling closes that gap: it pushes the file to the device and imports it, either from a Zed task or from the companion script, with a dry-run mode that exercises the whole path without ever touching a device.</p>
+<p>Two transports are available, selected per task:</p>
+<ul>
+<li><strong>REST</strong> — talks to the RouterOS v7.20+ REST API, posting the script for execution (with a file-upload + <code>/import</code> fallback for longer scripts).</li>
+<li><strong>SSH</strong> — uploads via SFTP and runs <code>/import</code> over an interactive session.</li>
+</ul>
+<p>Both report more than a transport-level success code: RouterOS routinely answers HTTP 200 or exits SSH with status 0 even when an import failed, so the output is scanned for high-confidence failure markers (<code>syntax error</code>, <code>bad command name</code>, <code>failure:</code> …) and surfaces them as real failures.</p>
+<p>The connection is configured through environment variables (<code>MIKROTIK_HOST</code>, <code>MIKROTIK_USER</code>, <code>MIKROTIK_PASS</code>, plus optional overrides for port, method, TLS verification and timeout — see <code>python scripts/mikrotik-deploy.py --help</code>). One safe first run needs nothing else:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">python</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> scripts/mikrotik-deploy.py</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> demo.rsc</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --dry-run</span></span></code></pre>
+<p>Zed tasks live per-worktree: copy <code>languages/rsc/tasks.json</code> to <code>.zed/tasks.json</code> and you get <strong>REST / SSH / Dry-run / Validate</strong> entries that operate on <code>$ZED_FILE</code>.</p>
+<hr>
+<h2 id="user-content--language-server"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-language-server"><span class="heading-anchor-icon">#</span></a>🧠 Language Server</h2>
+<p>The heart of the extension is <strong>rsc-ls</strong>, a self-contained language server written in pure Rust — no Node runtime, no external processes: one binary speaking the Language Server Protocol over stdio. Its entire knowledge of RouterOS, the 1038-menu database, is compiled into the executable itself, which means instant startup and zero data files to lose track of.</p>
+<p>That database drives everything contextual the editor experiences:</p>
+<ul>
+<li><strong>Completions</strong> understand where the cursor is: root menus after a leading <code>/</code>, sub-menus within the current context, the verbs a specific menu accepts, and per-verb properties and values — including enumerations, booleans and their documentation. After a <code>:</code> it switches to RouterOS scripting words. Triggers are <code>/</code>, space, <code>=</code> and <code>:</code>.</li>
+<li><strong>Hover</strong> resolves menu paths, properties and verbs against the same database, so the documentation shown is the documentation MikroTik publishes, not paraphrasing.</li>
+<li><strong>Diagnostics</strong> work in two layers. Semantic rules check each statement against the real command signatures — unknown menus, unknown properties, missing required arguments, duplicated properties, invalid enum values. Syntax rules catch structural breakage such as brace and quote mismatches, correctly handling backslash line continuations by reasoning about logical lines while reporting positions on physical ones. Generous caps on file size keep the editor responsive on huge export scripts.</li>
+<li><strong>Structure</strong> features derive from the same parse: document symbols for menus and script variables, plus folding ranges.</li>
+<li><strong>Signature</strong> help shows required-first parameter hints when calling menu verbs.</li>
+<li><strong>Navigation</strong> links variable declarations (<code>:local</code> / <code>:global</code>) to their <code>$name</code> usages in both directions.</li>
+<li><strong>Quick fixes</strong> offer "did you mean …?" candidates computed by edit distance when something is mistyped.</li>
+</ul>
+<p>The protocol side is hardened deliberately: message-size and document-size caps, a bounded document store, and strict URI validation — so a hostile or corrupt workspace cannot exhaust the server's memory.</p>
+<hr>
+<h2 id="user-content--grammar"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-grammar"><span class="heading-anchor-icon">#</span></a>🌳 Grammar</h2>
+<p>RouterOS has no standard tree-sitter grammar, so this project maintains one — but in its own repository, <a href="https://github.com/balakar94/tree-sitter-rsc"><code>balakar94/tree-sitter-rsc</code></a>, rather than in-tree. Two reasons drive the split: the grammar iterates independently of the extension, and the Zed marketplace rejects packages containing nested git repositories. Instead of vendoring history, this repo keeps an <strong>untracked working copy</strong> at <code>grammars/rsc/</code> and pins the exact grammar revision in <code>extension.toml</code> — builds stay reproducible while the packaging stays clean. After cloning, <code>make grammar-clone</code> fetches the working copy at that revision.</p>
+<p>Query files exist twice by design: <code>languages/rsc/*.scm</code> here is canonical (it is what Zed loads), while the copy inside the grammar repository exists only so <code>tree-sitter test</code> can run against it.</p>
+<p>Grammar development is the <strong>only</strong> place Node.js enters this project — it provides <code>tree-sitter-cli</code> through npx:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">cd</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> grammars/rsc</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">npx</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> tree-sitter</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> generate</span><span style="color:#6A737D;--shiki-dark:#6A737D">       # grammar.js → src/parser.c</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">npx</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> tree-sitter</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> test</span><span style="color:#6A737D;--shiki-dark:#6A737D">           # run the corpus suite</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">npx</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> tree-sitter</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> parse</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> FILE</span><span style="color:#6A737D;--shiki-dark:#6A737D">     # inspect how a file parses</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">npx</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> tree-sitter</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> highlight</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> FILE</span><span style="color:#6A737D;--shiki-dark:#6A737D"> # preview highlighting</span></span></code></pre>
+<p>Publishing a grammar change is scripted: <code>python scripts/publish_grammar.py</code> pushes the grammar repository and updates the revision pin in <code>extension.toml</code> in one step.</p>
+<hr>
+<h2 id="user-content--sync--extraction"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-sync--extraction"><span class="heading-anchor-icon">#</span></a>🔄 Sync &#x26; Extraction</h2>
+<p>RouterOS evolves, and a hardcoded command table would rot silently. MikroTik mitigates this by publishing its CLI reference in machine-readable form (<code>llms-full.txt</code>), and this project builds directly on that source of truth.</p>
+<p>The pipeline has two steps. <code>scripts/sync_llms.py</code> fetches the upstream files and compares them against what the database was built from — with <code>--check</code> it writes nothing and exits non-zero when upstream moved, which is exactly how CI notices drift. <code>scripts/extract_commands.py</code> then distills the fetched documentation into <code>data/commands.toml</code>: currently 1038 menus, regenerated idempotently. Each generation records the RouterOS version, the UTC timestamp and the hash of the source document in its header, so any database snapshot can be traced back to the exact documentation it came from.</p>
+<p>Updating the language server's knowledge therefore reduces to: sync, extract, commit — the TOML is embedded into the binary at compile time, and the next build carries the fresh data everywhere.</p>
+<hr>
+<h2 id="user-content-️-development"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#️-development"><span class="heading-anchor-icon">#</span></a>🛠️ Development</h2>
+<p>Everything runs through <code>make</code>, so contributor workflows mirror CI one-to-one: <code>make validate</code> replays the entire gate locally — formatting, clippy on both targets with warnings denied, all three test suites, upstream-sync check and extraction idempotency. The combined suite is 838 tests: 67 grammar corpus tests, 555 Rust tests (537 unit + 4 CLI + 14 end-to-end) and 216 Python tests.</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">make</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> generate</span><span style="color:#6A737D;--shiki-dark:#6A737D">      # regenerate parser.c from grammar.js</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">make</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> test-all</span><span style="color:#6A737D;--shiki-dark:#6A737D">      # grammar + Rust + Python suites</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">make</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> check</span><span style="color:#6A737D;--shiki-dark:#6A737D">         # fast compile verification (WASM + LSP targets)</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">make</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> fmt</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> clippy</span><span style="color:#6A737D;--shiki-dark:#6A737D">    # format check + lints (-D warnings)</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">make</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> audit</span><span style="color:#6A737D;--shiki-dark:#6A737D">         # dependency scan against RustSec advisories</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">make</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> validate</span><span style="color:#6A737D;--shiki-dark:#6A737D">      # everything CI runs, in one target</span></span></code></pre>
+<p><strong>Observability:</strong> the server logs to stderr (stdout belongs to the protocol):</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">RSC_LS_LOG</span><span style="color:#D73A49;--shiki-dark:#F97583">=</span><span style="color:#032F62;--shiki-dark:#9ECBFF">debug</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> zed</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --foreground</span><span style="color:#6A737D;--shiki-dark:#6A737D">      # or: RUST_LOG</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># levels: error &#x3C; warn &#x3C; info &#x3C; debug &#x3C; trace (default info)</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># prefixes: [rsc-ls][LEVEL] and [mikrotik-zed]</span></span></code></pre>
+<hr>
+<h2 id="user-content--release"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-release"><span class="heading-anchor-icon">#</span></a>📤 Release</h2>
+<p>Two independent tracks: an automated GitHub Release, then a human-reviewed marketplace listing.</p>
+<p><strong>1 · GitHub Release — automated</strong></p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">make</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> bump</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> VERSION=x.y.z</span><span style="color:#6A737D;--shiki-dark:#6A737D">                     # updates Cargo.toml + extension.toml</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">git</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> tag</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> vX.Y.Z</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> &#x26;&#x26; </span><span style="color:#6F42C1;--shiki-dark:#B392F0">git</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> push</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> origin</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> vX.Y.Z</span><span style="color:#6A737D;--shiki-dark:#6A737D">    # this is the whole trigger</span></span></code></pre>
+<p>The tag fires <code>release.yml</code>, which:</p>
+<ol>
+<li>Cross-compiles <code>rsc-ls</code> for all six platform triples</li>
+<li>Builds the WebAssembly component</li>
+<li>Publishes a GitHub Release with every binary plus its SHA-256 companion</li>
+</ol>
+<p>Those digests are exactly what the extension's auto-download verifies at install time.</p>
+<p><strong>2 · Zed Marketplace — human reviewed</strong></p>
+<p>A pull request to <a href="https://github.com/zed-industries/extensions"><code>zed-industries/extensions</code></a> carrying the extension metadata and the pinned grammar revision. <code>extension.toml</code> stays marketplace-ready at all times; preparing this PR never blocks on track 1, but merging makes sense only once the release exists.</p>
+<hr>
+<h2 id="user-content--reference"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-reference"><span class="heading-anchor-icon">#</span></a>📚 Reference</h2>
+<ul>
+<li>RouterOS CLI: <a href="https://manual.mikrotik.com/docs/cli-reference/">https://manual.mikrotik.com/docs/cli-reference/</a></li>
+<li>Truth source: <a href="https://manual.mikrotik.com/llms-full.txt">https://manual.mikrotik.com/llms-full.txt</a></li>
+<li>Zed extensions: <a href="https://zed.dev/docs/extensions/developing-extensions">https://zed.dev/docs/extensions/developing-extensions</a></li>
+<li>Grammar repo: <a href="https://github.com/balakar94/tree-sitter-rsc">https://github.com/balakar94/tree-sitter-rsc</a></li>
+</ul>
+<hr>
+<h2 id="user-content--license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-license"><span class="heading-anchor-icon">#</span></a>📄 License</h2>
+<p>Apache-2.0 — see <a href="https://github.com/balakar94/mikrotik-zed/blob/HEAD/LICENSE" target="_blank" rel="noopener">LICENSE</a>.</p>
+<p align="center">
+  Built with ❤️ for MikroTik + Zed
+</p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>

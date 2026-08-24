@@ -1,0 +1,19 @@
+id = "leetcode"
+name = "LeetCode"
+version = "0.1.0"
+schema_version = 1
+authors = ["MattFor <mattfor@relaxy.xyz>"]
+description = "Browse, solve, test and submit LeetCode problems from Zed."
+repository = "https://github.com/MattFor/leetcode-zed"
+
+[context_servers.leetcode]
+
+[[capabilities]]
+kind = "process:exec"
+command = "leetcode-zed"
+args = ["**"]
+
+[[capabilities]]
+kind = "download_file"
+host = "github.com"
+path = ["MattFor", "leetcode-zed", "releases", "download", "**"]

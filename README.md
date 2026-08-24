@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1724-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1726-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,19 +14,19 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1724** |
+| Total tracked | **1726** |
 | In official registry | 1244 |
-| Discovered via topics | 480 |
-| Last updated | 2026-08-24 07:02 UTC |
+| Discovered via topics | 482 |
+| Last updated | 2026-08-24 13:01 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
 | Themes | 739 |
-| Grammars | 593 |
-| Language Servers | 554 |
-| Context Servers | 136 |
+| Grammars | 594 |
+| Language Servers | 555 |
+| Context Servers | 137 |
 | Snippets | 79 |
 | Slash Commands | 58 |
 | Debug Adapters | 34 |
@@ -70,6 +70,8 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | Zed extension for MikroTik RouterOS Script — syntax highlighting, autocompletion... |
+| [MattFor/leetcode-zed](https://github.com/MattFor/leetcode-zed) | 0 | A Zed extension to do leetcode problems kinda-directly in the code editor. |
 | [ZeWaka/zed-dm-langclient](https://github.com/ZeWaka/zed-dm-langclient) | 0 | Language client for DM for Zed |
 | [BastenIT/zed-composer-support](https://github.com/BastenIT/zed-composer-support) | 0 | Packagist links, installed-version hints, and update checks for composer.json fi... |
 | [krawitzzZ/zed-hyperlinks](https://github.com/krawitzzZ/zed-hyperlinks) | 1 |  |
@@ -88,8 +90,6 @@ cd website && npm install && npm run dev
 | [masonc15/zed-kolmafia-ash](https://github.com/masonc15/zed-kolmafia-ash) | 1 | Modern Zed tooling for KoLmafia’s ASH scripting language. |
 | [MrSubidubi/mlir-tablegen](https://github.com/MrSubidubi/mlir-tablegen) | 5 | MLIR Extension for Zed |
 | [xsynaptic/zed-mdxlint](https://github.com/xsynaptic/zed-mdxlint) | 0 | Zed extension providing mdxlint language server support |
-| [madebygrant/zed-package-bump](https://github.com/madebygrant/zed-package-bump) | 0 | Package Bump: A Zed extension that flags outdated npm dependencies in package.js... |
-| [felixtensor/mlir-tablegen](https://github.com/felixtensor/mlir-tablegen) | 4 | MLIR Extension for Zed |
 
 ## Top starred (under 500)
 
@@ -120,6 +120,9 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [BastenIT/zed-composer-support](https://github.com/BastenIT/zed-composer-support) | 0 | 2026-08-24 | Packagist links, installed-version hints, and update checks ... |
+| [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-08-24 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
+| [MattFor/leetcode-zed](https://github.com/MattFor/leetcode-zed) | 0 | 2026-08-24 | A Zed extension to do leetcode problems kinda-directly in th... |
 | [ZeWaka/zed-dm-langclient](https://github.com/ZeWaka/zed-dm-langclient) | 0 | 2026-08-24 | Language client for DM for Zed |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 96 | 2026-08-24 | True Dark Theme for Zed IDE |
 | [mehcode/filament](https://github.com/mehcode/filament) | 0 | 2026-08-23 | A warm, filament-lit theme for Zed. |
@@ -127,7 +130,6 @@ cd website && npm install && npm run dev
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-08-23 | A Zed extension that allows to highlight all occurrences of ... |
 | [SinaMombeiny/S-DarkTheme.zed](https://github.com/SinaMombeiny/S-DarkTheme.zed) | 5 | 2026-08-22 | Dark theme for Zed |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-08-22 | Zed editor support for Carve, a modern light markup language |
-| [BastenIT/zed-composer-support](https://github.com/BastenIT/zed-composer-support) | 0 | 2026-08-22 | Packagist links, installed-version hints, and update checks ... |
 | [xsynaptic/zed-mdxlint](https://github.com/xsynaptic/zed-mdxlint) | 0 | 2026-08-22 | Zed extension providing mdxlint language server support |
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 195 | 2026-08-22 | Typst extension for zed |
 | [YanivZalach/Zed_Pycharm_Dracula_Theme](https://github.com/YanivZalach/Zed_Pycharm_Dracula_Theme) | 1 | 2026-08-21 | Pycharm dracula theme for the Zed Editor |
@@ -138,13 +140,12 @@ cd website && npm install && npm run dev
 | [gesundes/zed-ansible-vault](https://github.com/gesundes/zed-ansible-vault) | 0 | 2026-08-20 | Encrypt and decrypt Ansible Vault files and inline !vault YA... |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-08-20 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 168 | 2026-08-19 | 🦊 Zed editor theme ported from Neovim |
-| [Zeraphim/zed-theme](https://github.com/Zeraphim/zed-theme) | 0 | 2026-08-18 |  |
-| [madebygrant/zed-package-bump](https://github.com/madebygrant/zed-package-bump) | 0 | 2026-08-18 | Package Bump: A Zed extension that flags outdated npm depend... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-08-24T13:01 | 3 | 568 | 2101 |
 | 2026-08-24T07:02 | 1 | 568 | 2098 |
 | 2026-08-24T01:03 | 1 | 567 | 2097 |
 | 2026-08-23T18:52 | 0 | 567 | 2096 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-08-22T18:52 | 0 | 566 | 2096 |
 | 2026-08-22T12:57 | 1 | 565 | 2096 |
 | 2026-08-22T06:57 | 0 | 565 | 2095 |
-| 2026-08-22T01:03 | 2 | 564 | 2095 |
 
 ---
 

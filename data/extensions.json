@@ -2041,7 +2041,7 @@
     "name": "foxoman/zed-nim",
     "url": "https://github.com/foxoman/zed-nim",
     "description": "Nim support for Zed Editor",
-    "stars": 48,
+    "stars": 49,
     "forks": 4,
     "topics": [
       "nim",
@@ -2052,7 +2052,7 @@
     "language": "Tree-sitter Query",
     "license": "Apache-2.0",
     "created_at": "2024-07-12T08:06:46Z",
-    "updated_at": "2026-08-15T22:52:32Z",
+    "updated_at": "2026-08-24T09:06:53Z",
     "pushed_at": "2026-04-20T19:10:13Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -4587,7 +4587,7 @@
     "url": "https://github.com/ankddev/zed-jetbrains-newui-icons",
     "description": "JetBrains New UI Icons Theme for Zed editor.",
     "stars": 28,
-    "forks": 9,
+    "forks": 10,
     "topics": [
       "icons",
       "jetbrains",
@@ -30744,7 +30744,7 @@
     "language": "Tree-sitter Query",
     "license": "Apache-2.0",
     "created_at": "2024-02-19T14:56:35Z",
-    "updated_at": "2026-08-11T07:38:21Z",
+    "updated_at": "2026-08-24T11:05:23Z",
     "pushed_at": "2026-07-28T23:40:00Z",
     "discovered_at": "2026-05-19T21:42:53.670Z",
     "official": false,
@@ -58995,11 +58995,11 @@
       "zed",
       "zed-extension"
     ],
-    "language": "JavaScript",
+    "language": "Rust",
     "license": "MIT",
     "created_at": "2026-08-22T12:16:17Z",
-    "updated_at": "2026-08-22T12:34:00Z",
-    "pushed_at": "2026-08-22T12:33:50Z",
+    "updated_at": "2026-08-24T12:52:50Z",
+    "pushed_at": "2026-08-24T12:45:26Z",
     "discovered_at": "2026-08-22T12:57:51.520Z",
     "official": false,
     "extension": {
@@ -59062,6 +59062,88 @@
         "grammar",
         "language-server",
         "debug-adapter"
+      ]
+    }
+  },
+  "balakar94/mikrotik-zed": {
+    "name": "balakar94/mikrotik-zed",
+    "url": "https://github.com/balakar94/mikrotik-zed",
+    "description": "Zed extension for MikroTik RouterOS Script — syntax highlighting, autocompletion, inline documentation, and LSP diagnostics",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "language-server",
+      "lsp",
+      "mikrotik",
+      "routeros",
+      "tree-sitter",
+      "zed-extension"
+    ],
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "created_at": "2026-08-22T22:20:48Z",
+    "updated_at": "2026-08-24T12:48:04Z",
+    "pushed_at": "2026-08-24T12:44:19Z",
+    "discovered_at": "2026-08-24T13:01:58.453Z",
+    "official": false,
+    "extension": {
+      "id": "mikrotik-rsc",
+      "name": "MikroTik RouterOS Script",
+      "description": "MikroTik RouterOS v7.20+ language support with highlighting, completions, hover docs, diagnostics and one-click deploy.",
+      "version": "0.5.0",
+      "schema_version": 1,
+      "authors": [
+        "balakar94"
+      ],
+      "repository": "https://github.com/balakar94/mikrotik-zed",
+      "snippets": null,
+      "sections": [
+        "grammars",
+        "language_servers"
+      ],
+      "categories": [
+        "grammar",
+        "language-server"
+      ]
+    }
+  },
+  "mattfor/leetcode-zed": {
+    "name": "MattFor/leetcode-zed",
+    "url": "https://github.com/MattFor/leetcode-zed",
+    "description": "A Zed extension to do leetcode problems kinda-directly in the code editor.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "leetcode",
+      "rust",
+      "rust-cli",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2026-08-17T22:59:45Z",
+    "updated_at": "2026-08-24T11:44:31Z",
+    "pushed_at": "2026-08-24T11:32:34Z",
+    "discovered_at": "2026-08-24T13:01:58.453Z",
+    "official": false,
+    "extension": {
+      "id": "leetcode",
+      "name": "LeetCode",
+      "description": "Browse, solve, test and submit LeetCode problems from Zed.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "MattFor <mattfor@relaxy.xyz>"
+      ],
+      "repository": "https://github.com/MattFor/leetcode-zed",
+      "snippets": null,
+      "sections": [
+        "context_servers",
+        "capabilities"
+      ],
+      "categories": [
+        "context-server"
       ]
     }
   }
