@@ -1,0 +1,28 @@
+id = "dreammaker"
+name = "DreamMaker"
+version = "0.1.0"
+schema_version = 1
+authors = ["ZeWaka"]
+description = "DreamMaker language support."
+repository = "https://github.com/ZeWaka/zed-dm-langclient"
+
+capabilities = [
+  { kind = "download_file", host = "github.com", path = ["SpaceManiac", "SpacemanDMM", "**"] },
+  { kind = "process:exec", command = "powershell.exe", args = ["**"] },
+  { kind = "process:exec", command = "reg.exe", args = ["**"] },
+  { kind = "process:exec", command = "sh", args = ["**"] },
+]
+
+[grammars.dm]
+repository = "https://github.com/FeudeyTF/tree-sitter-dm"
+rev = "8e2b7af2a88ba19ad7a6dbe761334d1c7f27461c"
+
+[language_servers.dm-langserver]
+name = "DreamMaker Language Server"
+languages = ["DreamMaker"]
+
+[language_servers.dm-langserver.language_ids]
+"DreamMaker" = "dm"
+
+[debug_adapters.byond]
+schema_path = "debug_adapter_schemas/byond.json"

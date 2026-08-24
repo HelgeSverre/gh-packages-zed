@@ -157,8 +157,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-08-23T02:51:11Z",
-    "pushed_at": "2026-08-23T02:51:01Z",
+    "updated_at": "2026-08-24T02:51:51Z",
+    "pushed_at": "2026-08-24T02:51:38Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -18027,8 +18027,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-08-23T18:52:51Z",
-    "pushed_at": "2026-08-23T18:52:45Z",
+    "updated_at": "2026-08-24T01:04:17Z",
+    "pushed_at": "2026-08-24T01:04:12Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -33187,7 +33187,7 @@
     "name": "riddle-lang/riddle",
     "url": "https://github.com/riddle-lang/riddle",
     "description": "A concise, modern and fast programming language",
-    "stars": 29,
+    "stars": 30,
     "forks": 2,
     "topics": [
       "helix",
@@ -33202,7 +33202,7 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-05-17T07:32:27Z",
-    "updated_at": "2026-08-23T15:02:45Z",
+    "updated_at": "2026-08-24T06:33:01Z",
     "pushed_at": "2026-08-23T15:02:16Z",
     "discovered_at": "2026-07-26T01:12:51.640Z",
     "official": false
@@ -33767,13 +33767,13 @@
     "name": "joansgarcia/zed-symbols",
     "url": "https://github.com/joansgarcia/zed-symbols",
     "description": "A simple file icon theme for Zed.",
-    "stars": 26,
+    "stars": 25,
     "forks": 7,
     "topics": [],
     "language": "TypeScript",
     "license": "MIT",
     "created_at": "2025-02-08T03:55:18Z",
-    "updated_at": "2026-08-22T05:01:44Z",
+    "updated_at": "2026-08-24T04:33:29Z",
     "pushed_at": "2026-06-16T04:45:38Z",
     "discovered_at": "2026-08-01T01:12:34.389Z",
     "official": false
@@ -34317,8 +34317,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-08-07T18:46:45Z",
-    "updated_at": "2026-08-20T17:40:53Z",
-    "pushed_at": "2026-08-20T17:40:47Z",
+    "updated_at": "2026-08-24T01:55:00Z",
+    "pushed_at": "2026-08-24T01:54:55Z",
     "discovered_at": "2026-08-08T18:56:57.473Z",
     "official": false
   },
@@ -35679,8 +35679,8 @@
     "language": "Svelte",
     "license": "MIT",
     "created_at": "2026-08-18T08:27:26Z",
-    "updated_at": "2026-08-24T00:56:29Z",
-    "pushed_at": "2026-08-24T00:56:14Z",
+    "updated_at": "2026-08-24T01:08:06Z",
+    "pushed_at": "2026-08-24T01:07:49Z",
     "discovered_at": "2026-08-19T13:01:40.362Z",
     "official": false
   },
@@ -35827,6 +35827,27 @@
     "updated_at": "2026-08-23T20:33:08Z",
     "pushed_at": "2026-08-23T20:32:32Z",
     "discovered_at": "2026-08-24T01:03:39.144Z",
+    "official": false
+  },
+  "zewaka/zed-dm-langclient": {
+    "name": "ZeWaka/zed-dm-langclient",
+    "url": "https://github.com/ZeWaka/zed-dm-langclient",
+    "description": "Language client for DM for Zed",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "byond",
+      "dm",
+      "spacestation13",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Rust",
+    "license": "GPL-3.0",
+    "created_at": "2026-08-23T23:07:15Z",
+    "updated_at": "2026-08-24T06:09:53Z",
+    "pushed_at": "2026-08-24T06:08:59Z",
+    "discovered_at": "2026-08-24T07:02:30.243Z",
     "official": false
   }
 }

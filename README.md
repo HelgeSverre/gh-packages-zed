@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1723-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1724-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,22 +14,22 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1723** |
+| Total tracked | **1724** |
 | In official registry | 1244 |
-| Discovered via topics | 479 |
-| Last updated | 2026-08-24 01:03 UTC |
+| Discovered via topics | 480 |
+| Last updated | 2026-08-24 07:02 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
 | Themes | 739 |
-| Grammars | 592 |
-| Language Servers | 553 |
+| Grammars | 593 |
+| Language Servers | 554 |
 | Context Servers | 136 |
 | Snippets | 79 |
 | Slash Commands | 58 |
-| Debug Adapters | 33 |
+| Debug Adapters | 34 |
 | Docs Providers | 16 |
 
 ## How it works
@@ -70,6 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [ZeWaka/zed-dm-langclient](https://github.com/ZeWaka/zed-dm-langclient) | 0 | Language client for DM for Zed |
 | [BastenIT/zed-composer-support](https://github.com/BastenIT/zed-composer-support) | 0 | Packagist links, installed-version hints, and update checks for composer.json fi... |
 | [krawitzzZ/zed-hyperlinks](https://github.com/krawitzzZ/zed-hyperlinks) | 1 |  |
 | [YanivZalach/Zed_Pycharm_Dracula_Theme](https://github.com/YanivZalach/Zed_Pycharm_Dracula_Theme) | 1 | Pycharm dracula theme for the Zed Editor |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [xsynaptic/zed-mdxlint](https://github.com/xsynaptic/zed-mdxlint) | 0 | Zed extension providing mdxlint language server support |
 | [madebygrant/zed-package-bump](https://github.com/madebygrant/zed-package-bump) | 0 | Package Bump: A Zed extension that flags outdated npm dependencies in package.js... |
 | [felixtensor/mlir-tablegen](https://github.com/felixtensor/mlir-tablegen) | 4 | MLIR Extension for Zed |
-| [monster-cookie/zed-papyrus](https://github.com/monster-cookie/zed-papyrus) | 0 | Bethesda Papyrus Syntax and Language support for Zed |
 
 ## Top starred (under 500)
 
@@ -120,10 +120,11 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [ZeWaka/zed-dm-langclient](https://github.com/ZeWaka/zed-dm-langclient) | 0 | 2026-08-24 | Language client for DM for Zed |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 96 | 2026-08-24 | True Dark Theme for Zed IDE |
 | [mehcode/filament](https://github.com/mehcode/filament) | 0 | 2026-08-23 | A warm, filament-lit theme for Zed. |
 | [rux-lang/Zed](https://github.com/rux-lang/Zed) | 4 | 2026-08-23 | Zed extension for the Rux programming language |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-08-23 | A Zed extension that allows to highlight all occurrences of ... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 96 | 2026-08-23 | True Dark Theme for Zed IDE |
 | [SinaMombeiny/S-DarkTheme.zed](https://github.com/SinaMombeiny/S-DarkTheme.zed) | 5 | 2026-08-22 | Dark theme for Zed |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-08-22 | Zed editor support for Carve, a modern light markup language |
 | [BastenIT/zed-composer-support](https://github.com/BastenIT/zed-composer-support) | 0 | 2026-08-22 | Packagist links, installed-version hints, and update checks ... |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 168 | 2026-08-19 | 🦊 Zed editor theme ported from Neovim |
 | [Zeraphim/zed-theme](https://github.com/Zeraphim/zed-theme) | 0 | 2026-08-18 |  |
 | [madebygrant/zed-package-bump](https://github.com/madebygrant/zed-package-bump) | 0 | 2026-08-18 | Package Bump: A Zed extension that flags outdated npm depend... |
-| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 1 | 2026-08-17 | Spring Boot language intelligence for Zed, built on the requ... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-08-24T07:02 | 1 | 568 | 2098 |
 | 2026-08-24T01:03 | 1 | 567 | 2097 |
 | 2026-08-23T18:52 | 0 | 567 | 2096 |
 | 2026-08-23T12:58 | 0 | 567 | 2096 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-08-22T12:57 | 1 | 565 | 2096 |
 | 2026-08-22T06:57 | 0 | 565 | 2095 |
 | 2026-08-22T01:03 | 2 | 564 | 2095 |
-| 2026-08-21T18:55 | 2 | 561 | 2093 |
 
 ---
 
