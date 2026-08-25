@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1726** |
 | In official registry | 1244 |
 | Discovered via topics | 482 |
-| Last updated | 2026-08-25 01:03 UTC |
+| Last updated | 2026-08-25 07:01 UTC |
 
 ### By capability
 
@@ -108,7 +108,7 @@ cd website && npm install && npm run dev
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 169 | A macOS native style theme for Zed, let it same like native app in macOS. |
-| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 168 | 🦊 Zed editor theme ported from Neovim |
+| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 169 | 🦊 Zed editor theme ported from Neovim |
 | [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 153 |  |
 | [zed-extensions/swift](https://github.com/zed-extensions/swift) | 148 | Extension for Zed to support Swift |
 | [thedadams/zed-comment](https://github.com/thedadams/zed-comment) | 148 | A comment extension for the Zed editor |
@@ -120,17 +120,17 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-08-24 | Intelligent codebase search & indexing for Zed. Async MCP se... |
+| [SinaMombeiny/S-DarkTheme.zed](https://github.com/SinaMombeiny/S-DarkTheme.zed) | 5 | 2026-08-25 | Dark theme for Zed |
+| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-08-25 | Intelligent codebase search & indexing for Zed. Async MCP se... |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 96 | 2026-08-25 | True Dark Theme for Zed IDE |
 | [MattFor/leetcode-zed](https://github.com/MattFor/leetcode-zed) | 0 | 2026-08-24 | A Zed extension to do leetcode problems kinda-directly in th... |
 | [BastenIT/zed-composer-support](https://github.com/BastenIT/zed-composer-support) | 0 | 2026-08-24 | Packagist links, installed-version hints, and update checks ... |
 | [ankddev/zed-jetbrains-newui-icons](https://github.com/ankddev/zed-jetbrains-newui-icons) | 28 | 2026-08-24 | JetBrains New UI Icons Theme for Zed editor. |
 | [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-08-24 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
 | [ZeWaka/zed-dm-langclient](https://github.com/ZeWaka/zed-dm-langclient) | 0 | 2026-08-24 | Language client for DM for Zed |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 96 | 2026-08-24 | True Dark Theme for Zed IDE |
 | [mehcode/filament](https://github.com/mehcode/filament) | 0 | 2026-08-23 | A warm, filament-lit theme for Zed. |
 | [rux-lang/Zed](https://github.com/rux-lang/Zed) | 4 | 2026-08-23 | Zed extension for the Rux programming language |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-08-23 | A Zed extension that allows to highlight all occurrences of ... |
-| [SinaMombeiny/S-DarkTheme.zed](https://github.com/SinaMombeiny/S-DarkTheme.zed) | 5 | 2026-08-22 | Dark theme for Zed |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-08-22 | Zed editor support for Carve, a modern light markup language |
 | [xsynaptic/zed-mdxlint](https://github.com/xsynaptic/zed-mdxlint) | 0 | 2026-08-22 | Zed extension providing mdxlint language server support |
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 195 | 2026-08-22 | Typst extension for zed |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-08-25T07:01 | 1 | 570 | 2102 |
 | 2026-08-25T01:03 | 0 | 570 | 2101 |
 | 2026-08-24T18:57 | 0 | 571 | 2101 |
 | 2026-08-24T13:01 | 3 | 568 | 2101 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-08-23T12:58 | 0 | 567 | 2096 |
 | 2026-08-23T06:58 | 0 | 567 | 2096 |
 | 2026-08-23T01:03 | 0 | 567 | 2096 |
-| 2026-08-22T18:52 | 0 | 566 | 2096 |
 
 ---
 
