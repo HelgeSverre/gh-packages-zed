@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1727** |
 | In official registry | 1244 |
 | Discovered via topics | 483 |
-| Last updated | 2026-08-25 13:02 UTC |
+| Last updated | 2026-08-25 18:56 UTC |
 
 ### By capability
 
@@ -74,7 +74,7 @@ cd website && npm install && npm run dev
 | [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | Zed extension for MikroTik RouterOS Script — syntax highlighting, autocompletion... |
 | [MattFor/leetcode-zed](https://github.com/MattFor/leetcode-zed) | 0 | A Zed extension to do leetcode problems kinda-directly in the code editor. |
 | [ZeWaka/zed-dm-langclient](https://github.com/ZeWaka/zed-dm-langclient) | 0 | Language client for DM for Zed |
-| [BastenIT/zed-composer-support](https://github.com/BastenIT/zed-composer-support) | 0 | Packagist links, installed-version hints, and update checks for composer.json fi... |
+| [BastenIT/zed-composer-support](https://github.com/BastenIT/zed-composer-support) | 1 | Packagist links, installed-version hints, and update checks for composer.json fi... |
 | [krawitzzZ/zed-hyperlinks](https://github.com/krawitzzZ/zed-hyperlinks) | 1 |  |
 | [YanivZalach/Zed_Pycharm_Dracula_Theme](https://github.com/YanivZalach/Zed_Pycharm_Dracula_Theme) | 1 | Pycharm dracula theme for the Zed Editor |
 | [SomeoneWithOptions/zed-solitude](https://github.com/SomeoneWithOptions/zed-solitude) | 0 |  |
@@ -110,7 +110,7 @@ cd website && npm install && npm run dev
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 169 | A macOS native style theme for Zed, let it same like native app in macOS. |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 169 | 🦊 Zed editor theme ported from Neovim |
 | [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 153 |  |
-| [zed-extensions/swift](https://github.com/zed-extensions/swift) | 148 | Extension for Zed to support Swift |
+| [zed-extensions/swift](https://github.com/zed-extensions/swift) | 149 | Extension for Zed to support Swift |
 | [thedadams/zed-comment](https://github.com/thedadams/zed-comment) | 148 | A comment extension for the Zed editor |
 | [slymax/zedokai](https://github.com/slymax/zedokai) | 145 | a theme for Zed based on the Monokai Pro color scheme |
 | [nathansbradshaw/zed-angular](https://github.com/nathansbradshaw/zed-angular) | 144 |  |
@@ -120,13 +120,13 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-08-25 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [MrSubidubi/mlir-tablegen](https://github.com/MrSubidubi/mlir-tablegen) | 5 | 2026-08-25 | MLIR Extension for Zed |
 | [n0blenote/zed-asm](https://github.com/n0blenote/zed-asm) | 0 | 2026-08-25 | Assembly language support in Zed |
-| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-08-25 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [SinaMombeiny/S-DarkTheme.zed](https://github.com/SinaMombeiny/S-DarkTheme.zed) | 5 | 2026-08-25 | Dark theme for Zed |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 96 | 2026-08-25 | True Dark Theme for Zed IDE |
 | [MattFor/leetcode-zed](https://github.com/MattFor/leetcode-zed) | 0 | 2026-08-24 | A Zed extension to do leetcode problems kinda-directly in th... |
-| [BastenIT/zed-composer-support](https://github.com/BastenIT/zed-composer-support) | 0 | 2026-08-24 | Packagist links, installed-version hints, and update checks ... |
+| [BastenIT/zed-composer-support](https://github.com/BastenIT/zed-composer-support) | 1 | 2026-08-24 | Packagist links, installed-version hints, and update checks ... |
 | [ankddev/zed-jetbrains-newui-icons](https://github.com/ankddev/zed-jetbrains-newui-icons) | 28 | 2026-08-24 | JetBrains New UI Icons Theme for Zed editor. |
 | [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-08-24 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
 | [ZeWaka/zed-dm-langclient](https://github.com/ZeWaka/zed-dm-langclient) | 0 | 2026-08-24 | Language client for DM for Zed |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-08-25T18:56 | 0 | 573 | 2104 |
 | 2026-08-25T13:02 | 2 | 571 | 2104 |
 | 2026-08-25T07:01 | 1 | 570 | 2102 |
 | 2026-08-25T01:03 | 0 | 570 | 2101 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-08-24T01:03 | 1 | 567 | 2097 |
 | 2026-08-23T18:52 | 0 | 567 | 2096 |
 | 2026-08-23T12:58 | 0 | 567 | 2096 |
-| 2026-08-23T06:58 | 0 | 567 | 2096 |
 
 ---
 
