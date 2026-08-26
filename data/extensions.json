@@ -59,8 +59,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-05-03T17:39:17Z",
-    "updated_at": "2026-08-23T08:48:50Z",
-    "pushed_at": "2026-08-23T08:48:46Z",
+    "updated_at": "2026-08-25T21:50:01Z",
+    "pushed_at": "2026-08-25T21:49:56Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -52054,15 +52054,27 @@
   "lmarkmann/patina-theme": {
     "name": "lmarkmann/patina-theme",
     "url": "https://github.com/lmarkmann/patina-theme",
-    "description": "A warm, muted color theme. Teal oxidation and amber warmth.",
-    "stars": 1,
+    "description": "A warm, muted color theme. Teal oxidation and amber warmth; in six variants.",
+    "stars": 3,
     "forks": 0,
-    "topics": [],
+    "topics": [
+      "color-theme",
+      "colorscheme",
+      "dark-theme",
+      "editor-theme",
+      "ghostty-theme",
+      "helix-theme",
+      "light-theme",
+      "open-vsx",
+      "vscode-theme",
+      "vscodium",
+      "zed-theme"
+    ],
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-02-09T15:05:15Z",
-    "updated_at": "2026-06-13T20:32:23Z",
-    "pushed_at": "2026-06-13T20:32:20Z",
+    "updated_at": "2026-08-25T21:22:53Z",
+    "pushed_at": "2026-06-28T22:56:59Z",
     "discovered_at": "2026-06-15T14:07:17.167Z",
     "official": true,
     "extension": {
@@ -58489,8 +58501,8 @@
     "name": "masonc15/zed-kolmafia-ash",
     "url": "https://github.com/masonc15/zed-kolmafia-ash",
     "description": "Modern Zed tooling for KoLmafia’s ASH scripting language.",
-    "stars": 1,
-    "forks": 0,
+    "stars": 2,
+    "forks": 1,
     "topics": [
       "ash",
       "kingdom-of-loathing",
@@ -58506,7 +58518,7 @@
     "language": "C",
     "license": "BSD-3-Clause",
     "created_at": "2026-08-13T04:06:01Z",
-    "updated_at": "2026-08-13T17:14:29Z",
+    "updated_at": "2026-08-25T21:14:11Z",
     "pushed_at": "2026-08-13T16:18:59Z",
     "discovered_at": "2026-08-13T19:03:12.067Z",
     "official": false,
@@ -59082,8 +59094,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-08-22T22:20:48Z",
-    "updated_at": "2026-08-24T13:19:08Z",
-    "pushed_at": "2026-08-24T13:15:00Z",
+    "updated_at": "2026-08-26T00:56:04Z",
+    "pushed_at": "2026-08-26T00:55:52Z",
     "discovered_at": "2026-08-24T13:01:58.453Z",
     "official": false,
     "extension": {
@@ -59185,6 +59197,59 @@
         "grammar",
         "language-server",
         "slash-command"
+      ]
+    }
+  },
+  "onza/typo3-typoscript": {
+    "name": "onza/typo3-typoscript",
+    "url": "https://github.com/onza/typo3-typoscript",
+    "description": "TypoScript and TSconfig language support for the Zed editor (Tree-sitter + completions LSP)",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "cms",
+      "grammar",
+      "language-server",
+      "lsp",
+      "parser",
+      "syntax-highlighting",
+      "tree-sitter",
+      "tsconfig",
+      "typo3",
+      "typoscript",
+      "zed",
+      "zed-editor",
+      "zed-extension"
+    ],
+    "language": "C",
+    "license": "MIT",
+    "created_at": "2026-08-25T07:18:15Z",
+    "updated_at": "2026-08-25T21:59:09Z",
+    "pushed_at": "2026-08-25T21:56:48Z",
+    "discovered_at": "2026-08-26T01:03:56.303Z",
+    "official": false,
+    "extension": {
+      "id": "typoscript",
+      "name": "TYPO3 TypoScript",
+      "description": "TypoScript and TSconfig support for Zed",
+      "version": "0.2.2",
+      "schema_version": 1,
+      "authors": [
+        "Martin Farkas <info@martinfarkas.com>"
+      ],
+      "repository": "https://github.com/onza/typo3-typoscript",
+      "snippets": [
+        "./snippets/typoscript.json",
+        "./snippets/tsconfig.json"
+      ],
+      "sections": [
+        "grammars",
+        "language_servers"
+      ],
+      "categories": [
+        "grammar",
+        "language-server",
+        "snippets"
       ]
     }
   }

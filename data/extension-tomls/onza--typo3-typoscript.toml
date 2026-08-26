@@ -1,0 +1,20 @@
+id = "typoscript"
+name = "TYPO3 TypoScript"
+version = "0.2.2"
+schema_version = 1
+authors = ["Martin Farkas <info@martinfarkas.com>"]
+description = "TypoScript and TSconfig support for Zed"
+repository = "https://github.com/onza/typo3-typoscript"
+snippets = ["./snippets/typoscript.json", "./snippets/tsconfig.json"]
+
+[grammars.typoscript]
+repository = "https://github.com/onza/typo3-typoscript"
+rev = "7f57975c460177d044ef9fe4e5e5d360a876aefb"
+
+[language_servers.typoscript-lsp]
+name = "TypoScript LSP"
+languages = ["TypoScript", "TSconfig"]
+
+[language_servers.typoscript-lsp.language_ids]
+TypoScript = "typoscript"
+TSconfig = "tsconfig"
