@@ -142,8 +142,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-08-25T02:46:58Z",
-    "pushed_at": "2026-08-25T02:46:54Z",
+    "updated_at": "2026-08-26T02:53:36Z",
+    "pushed_at": "2026-08-26T02:53:31Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -1490,7 +1490,7 @@
     "name": "Arthurmtro/zed-package-json-upgrade",
     "url": "https://github.com/Arthurmtro/zed-package-json-upgrade",
     "description": "Inline npm dependency update hints for package.json in Zed",
-    "stars": 0,
+    "stars": 1,
     "forks": 0,
     "topics": [
       "zed",
@@ -1499,7 +1499,7 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-04-29T22:23:55Z",
-    "updated_at": "2026-07-09T11:20:56Z",
+    "updated_at": "2026-08-26T04:23:33Z",
     "pushed_at": "2026-06-12T08:38:09Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -5222,7 +5222,7 @@
     "name": "jenslys/zed-catppuccin-blur",
     "url": "https://github.com/jenslys/zed-catppuccin-blur",
     "description": "Catppuccin Theme but as blurred variants + custom ones",
-    "stars": 331,
+    "stars": 332,
     "forks": 13,
     "topics": [
       "catppuccin",
@@ -5234,7 +5234,7 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2024-07-12T16:43:02Z",
-    "updated_at": "2026-08-24T19:42:28Z",
+    "updated_at": "2026-08-26T03:50:47Z",
     "pushed_at": "2026-01-26T02:22:08Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -11344,13 +11344,13 @@
     "name": "zed-extensions/kotlin",
     "url": "https://github.com/zed-extensions/kotlin",
     "description": "Kotlin support",
-    "stars": 104,
+    "stars": 103,
     "forks": 33,
     "topics": [],
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-02-27T10:35:56Z",
-    "updated_at": "2026-08-10T16:59:58Z",
+    "updated_at": "2026-08-26T05:38:55Z",
     "pushed_at": "2026-08-07T22:12:48Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": false,
@@ -34864,13 +34864,13 @@
     "name": "zed-extensions/log",
     "url": "https://github.com/zed-extensions/log",
     "description": "Syntax highlighting for log files in Zed.",
-    "stars": 49,
+    "stars": 50,
     "forks": 6,
     "topics": [],
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-02-18T13:35:25Z",
-    "updated_at": "2026-08-16T14:45:13Z",
+    "updated_at": "2026-08-26T05:30:48Z",
     "pushed_at": "2026-06-07T22:08:00Z",
     "discovered_at": "2026-05-19T21:55:15.596Z",
     "official": false,
@@ -47960,7 +47960,7 @@
     "url": "https://github.com/kevcamel/vscode_dark_modern.zed",
     "description": "VS Code Dark Modern theme for Zed",
     "stars": 56,
-    "forks": 18,
+    "forks": 19,
     "topics": [],
     "language": null,
     "license": "MIT",
@@ -52073,8 +52073,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-02-09T15:05:15Z",
-    "updated_at": "2026-08-25T21:22:53Z",
-    "pushed_at": "2026-06-28T22:56:59Z",
+    "updated_at": "2026-08-26T01:07:43Z",
+    "pushed_at": "2026-08-26T01:08:21Z",
     "discovered_at": "2026-06-15T14:07:17.167Z",
     "official": true,
     "extension": {
@@ -53785,7 +53785,7 @@
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
     "updated_at": "2026-08-25T17:53:26Z",
-    "pushed_at": "2026-08-25T18:28:26Z",
+    "pushed_at": "2026-08-26T03:00:28Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false,
     "extension": {
@@ -59250,6 +59250,40 @@
         "grammar",
         "language-server",
         "snippets"
+      ]
+    }
+  },
+  "mkai/zed-theme-afterglow-remastered": {
+    "name": "mkai/zed-theme-afterglow-remastered",
+    "url": "https://github.com/mkai/zed-theme-afterglow-remastered",
+    "description": "Afterglow Remastered theme for Zed",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "zed",
+      "zed-theme"
+    ],
+    "language": null,
+    "license": "NOASSERTION",
+    "created_at": "2026-08-16T13:39:39Z",
+    "updated_at": "2026-08-26T05:34:53Z",
+    "pushed_at": "2026-08-16T16:48:23Z",
+    "discovered_at": "2026-08-26T07:06:48.345Z",
+    "official": false,
+    "extension": {
+      "id": "afterglow-remastered",
+      "name": "Afterglow Remastered",
+      "description": "Afterglow Remastered theme for Zed — a port of Marvin Hagemeister's VS Code theme.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "mkai"
+      ],
+      "repository": "https://github.com/mkai/zed-theme-afterglow-remastered",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
       ]
     }
   }
