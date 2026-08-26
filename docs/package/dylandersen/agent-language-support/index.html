@@ -1,0 +1,193 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Agent Language Support - Zed Extension Safari</title><meta name="description" content="Unofficial community Zed language support compatible with Agent Script."><link rel="canonical" href="https://helgesverre.github.io/gh-packages-zed/package/dylandersen/agent-language-support/"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Agent Language Support - Zed Extension Safari"><meta property="og:description" content="Unofficial community Zed language support compatible with Agent Script."><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed/package/dylandersen/agent-language-support/"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Agent Language Support - Zed Extension Safari"><meta name="twitter:description" content="Unofficial community Zed language support compatible with Agent Script."><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/gh-packages-zed/_astro/ClientRouter.astro_astro_type_script_index_0_lang.ClVLs1kt.js"></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Agent Language Support","description":"Unofficial community Zed language support compatible with Agent Script.","applicationCategory":"DeveloperApplication","operatingSystem":"macOS, Linux, Windows","url":"https://zed.dev/extensions/agent-language","codeRepository":"https://github.com/dylandersen/agent-language-support","author":[{"@type":"Person","name":"Dylan Andersen"}],"softwareVersion":"0.2.0","license":"Apache-2.0","keywords":"grammar, language-server","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/Layout.CGDlMdWE.css"><script type="module" src="/gh-packages-zed/_astro/page.B8i1Zz-u.js"></script></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <a href="#main" class="skip-to-content">Skip to content</a> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" data-astro-transition-persist="astro-fhchcgd7-1"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <script type="application/json" id="pkg-extras">{"url":"https://github.com/dylandersen/agent-language-support","language":"Tree-sitter Query","license":"Apache-2.0","topics":["agentforce","agentscript","language-server","salesforce","zed","zed-extension"],"extension":{"authors":["Dylan Andersen"],"schema_version":1}}</script> <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> dylandersen/agent-language-support </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> Agent Language Support </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> Community-maintained Zed language support compatible with Agent Script </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="grammar">Grammar</span><span class="cat-badge" data-cat="language-server">Language Server</span> </div> </div> </div> </header> <main id="main" class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/agent-language" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/dylandersen/agent-language-support" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.2.0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">agent-language</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">Tree-sitter Query</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">Apache-2.0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">52m ago</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">Dylan Andersen</dd> </div> </dl>  <h2 class="mt-5 text-xs uppercase font-mono" style="color:var(--zed-muted);">Topics</h2> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> agentforce </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> agentscript </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> language-server </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> salesforce </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed-extension </span> </div>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none">
+<div align="center">
+<h1 id="user-content-agent-language-support"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#agent-language-support"><span class="heading-anchor-icon">#</span></a>Agent Language Support</h1>
+<p><strong>An independent Zed language extension compatible with Agent Script.</strong></p>
+<p><a href="https://github.com/dylandersen/agent-language-support/actions/workflows/ci.yml"><img src="https://github.com/dylandersen/agent-language-support/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+<a href="https://zed.dev/docs/extensions/developing-extensions"><img src="https://img.shields.io/badge/Zed-development_extension-084CCF" alt="Zed Extension"></a>
+<a href="#licensing"><img src="https://img.shields.io/badge/license-Apache--2.0-7C3AED" alt="License: Apache-2.0"></a>
+<a href="https://github.com/salesforce/agentscript"><img src="https://img.shields.io/badge/files-.agent-00A1E0" alt="Agent Script"></a></p>
+</div>
+<p>Agent Language Support recognizes <code>.agent</code> files and connects them to the
+official open-source Agent Script language server. It provides semantic color,
+diagnostics, hover, completion, navigation, rename, symbols, and code actions.</p>
+<div class="markdown-alert markdown-alert-important" dir="auto">
+<p class="markdown-alert-title" dir="auto"><svg class="octicon" viewBox="0 0 16 16" width="16" height="16"><path d="M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v9.5A1.75 1.75 0 0 1 14.25 13H8.06l-2.573 2.573A1.458 1.458 0 0 1 3 14.543V13H1.75A1.75 1.75 0 0 1 0 11.25Zm1.75-.25a.25.25 0 0 0-.25.25v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25Zm7 2.25v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg>IMPORTANT</p>
+<p>This is an unofficial community compatibility project. It is not a Salesforce
+product and is not affiliated with, sponsored by, or endorsed by Salesforce
+or Zed Industries. Version 0.2.0 has not been submitted to Zed's extension
+registry.</p>
+</div>
+<h2 id="user-content-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features"><span class="heading-anchor-icon">#</span></a>Features</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Capability</th><th align="center">Support</th></tr></thead><tbody><tr><td><code>.agent</code> language detection</td><td align="center">✅</td></tr><tr><td>Rich semantic highlighting</td><td align="center">✅</td></tr><tr><td>Diagnostics and validation</td><td align="center">✅</td></tr><tr><td>Completion and hover</td><td align="center">✅</td></tr><tr><td>Go to definition and references</td><td align="center">✅</td></tr><tr><td>Rename, symbols, and code actions</td><td align="center">✅</td></tr><tr><td>Runtime installation of the official npm LSP</td><td align="center">✅</td></tr></tbody></table>
+<p>The extension pins <code>@sf-agentscript/lsp-server</code> to version <code>2.3.33</code>. Zed
+installs that package into the extension work directory when the language
+server is first needed and supplies the Node.js runtime. No language-server
+bundle is checked into this repository or packaged into the extension.</p>
+<h2 id="user-content-install-from-source"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#install-from-source"><span class="heading-anchor-icon">#</span></a>Install from source</h2>
+<ol>
+<li>
+<p>Install <a href="https://zed.dev/">Zed</a> and <a href="https://rustup.rs/">Rust</a>.</p>
+</li>
+<li>
+<p>Add Zed's WebAssembly target:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">rustup</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> target</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> add</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> wasm32-wasip2</span></span></code></pre>
+</li>
+<li>
+<p>Clone this repository:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">git</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> clone</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> https://github.com/dylandersen/agent-language-support.git</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">cd</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> agent-language-support</span></span></code></pre>
+</li>
+<li>
+<p>In Zed, open the command palette and run <strong><code>zed: install dev extension</code></strong>.</p>
+</li>
+<li>
+<p>Select the cloned <code>agent-language-support</code> folder, then open an <code>.agent</code> file.</p>
+</li>
+</ol>
+<p>On first use, Zed downloads the pinned official language-server package from
+npm. Internet access to the npm registry is therefore required once per pinned
+version.</p>
+<h2 id="user-content-enable-semantic-color"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#enable-semantic-color"><span class="heading-anchor-icon">#</span></a>Enable semantic color</h2>
+<p>Add this to your Zed <code>settings.json</code>:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "languages"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "Agent Script"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "semantic_tokens"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"full"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>Then run <strong><code>editor: restart language server</code></strong> or restart Zed. The status bar
+should show <strong>Agent Script</strong>, and the language-server indicator should show
+<strong>Agent Script Language Server</strong> running.</p>
+<h2 id="user-content-dialect-configuration"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#dialect-configuration"><span class="heading-anchor-icon">#</span></a>Dialect configuration</h2>
+<p>The official server uses Agentforce when no dialect is configured. The
+extension also accepts the friendly values <code>agentforce</code> and <code>agentscript</code> and
+maps them to the current official npm package identifiers:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "agent-script-language-server"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "initialization_options"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "dialect"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"agentforce"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h2 id="user-content-architecture"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#architecture"><span class="heading-anchor-icon">#</span></a>Architecture</h2>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span>.agent file</span></span>
+<span class="line"><span>    ├── pinned Salesforce Tree-sitter grammar</span></span>
+<span class="line"><span>    │       └── structure and baseline scopes</span></span>
+<span class="line"><span>    └── Zed extension (WebAssembly)</span></span>
+<span class="line"><span>            └── installs pinned @sf-agentscript/lsp-server from npm</span></span>
+<span class="line"><span>                    └── semantic tokens, diagnostics and language features</span></span></code></pre>
+<p>The Tree-sitter grammar is pinned to Salesforce's upstream commit
+<code>5e6404e9a662f049af236c2886f910d47e392905</code>. Runtime package versions,
+copyright notices, and license boundaries are documented in
+<a href="https://github.com/dylandersen/agent-language-support/blob/HEAD/NOTICE" target="_blank" rel="noopener"><code>NOTICE</code></a>, <a href="https://github.com/dylandersen/agent-language-support/blob/HEAD/THIRD_PARTY_NOTICES.md" target="_blank" rel="noopener"><code>THIRD_PARTY_NOTICES.md</code></a>, and
+<a href="https://github.com/dylandersen/agent-language-support/blob/HEAD/LICENSES.md" target="_blank" rel="noopener"><code>LICENSES.md</code></a>.</p>
+<h2 id="user-content-example"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#example"><span class="heading-anchor-icon">#</span></a>Example</h2>
+<p><a href="https://github.com/dylandersen/agent-language-support/blob/HEAD/examples/quote-builder.agent" target="_blank" rel="noopener"><code>examples/quote-builder.agent</code></a> is a complete,
+generalized quote-building workflow with catalog search, opportunity lookup,
+quote creation, line updates, and guarded reasoning. Its action targets are
+illustrative <code>Example*</code> placeholders; it contains no customer, account,
+product, organization, credential, or Salesforce-internal data.</p>
+<h2 id="user-content-troubleshooting"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#troubleshooting"><span class="heading-anchor-icon">#</span></a>Troubleshooting</h2>
+<p><strong>The file is recognized, but everything is one color</strong></p>
+<p>Enable <code>semantic_tokens: "full"</code> as shown above, save the settings, and restart
+the language server.</p>
+<p><strong>The language server did not install</strong></p>
+<p>Confirm Zed can reach the npm registry, then open the Extensions page, select
+this development extension, and choose <strong>Rebuild</strong>. Version 0.2.0 no longer
+expects or extracts <code>server/server.mjs</code>.</p>
+<p><strong>Zed cannot compile the extension</strong></p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">rustup</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> target</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> add</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> wasm32-wasip2</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> check</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --locked</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --target</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> wasm32-wasip2</span></span></code></pre>
+<h2 id="user-content-development"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#development"><span class="heading-anchor-icon">#</span></a>Development</h2>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">npm</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> install</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --no-save</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --package-lock=false</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --ignore-scripts</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> @sf-agentscript/lsp-server@2.3.33</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> fmt</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --check</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> check</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --locked</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --target</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> wasm32-wasip2</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">node</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> scripts/verify-lsp-package.mjs</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">node</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> scripts/smoke-lsp.mjs</span></span></code></pre>
+<p>See <a href="https://github.com/dylandersen/agent-language-support/blob/HEAD/CONTRIBUTING.md" target="_blank" rel="noopener"><code>CONTRIBUTING.md</code></a> for contribution guidance and
+<a href="https://github.com/dylandersen/agent-language-support/blob/HEAD/SECURITY.md" target="_blank" rel="noopener"><code>SECURITY.md</code></a> for private vulnerability reporting. Maintainers
+use <a href="https://github.com/dylandersen/agent-language-support/blob/HEAD/RELEASE_CHECKLIST.md" target="_blank" rel="noopener"><code>RELEASE_CHECKLIST.md</code></a> to verify provenance and
+release readiness.</p>
+<h2 id="user-content-project-relationship"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#project-relationship"><span class="heading-anchor-icon">#</span></a>Project relationship</h2>
+<p>The Agent Script language and its official tooling are developed by Salesforce in
+<a href="https://github.com/salesforce/agentscript"><code>salesforce/agentscript</code></a>. This
+repository is an independent compatibility integration for Zed. It is not a
+Salesforce product and is not affiliated with, sponsored by, or endorsed by
+Salesforce or Zed Industries.</p>
+<h2 id="user-content-licensing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#licensing"><span class="heading-anchor-icon">#</span></a>Licensing</h2>
+<p>This repository is licensed under <a href="https://github.com/dylandersen/agent-language-support/blob/HEAD/LICENSE" target="_blank" rel="noopener">Apache License 2.0</a>. Files derived
+from Salesforce sources remain Apache-2.0 and are identified explicitly in
+<a href="https://github.com/dylandersen/agent-language-support/blob/HEAD/LICENSES.md" target="_blank" rel="noopener"><code>LICENSES.md</code></a>. Runtime npm dependencies retain their own
+licenses; see <a href="https://github.com/dylandersen/agent-language-support/blob/HEAD/THIRD_PARTY_NOTICES.md" target="_blank" rel="noopener"><code>THIRD_PARTY_NOTICES.md</code></a>.</p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>

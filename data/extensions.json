@@ -11086,13 +11086,13 @@
     "name": "zed-extensions/typst",
     "url": "https://github.com/zed-extensions/typst",
     "description": "Typst extension for zed",
-    "stars": 195,
+    "stars": 196,
     "forks": 17,
     "topics": [],
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2024-04-27T19:27:52Z",
-    "updated_at": "2026-08-22T09:27:19Z",
+    "updated_at": "2026-08-26T17:26:34Z",
     "pushed_at": "2026-08-22T09:27:03Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": false,
@@ -52073,8 +52073,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-02-09T15:05:15Z",
-    "updated_at": "2026-08-26T01:07:43Z",
-    "pushed_at": "2026-08-26T01:08:21Z",
+    "updated_at": "2026-08-26T15:22:17Z",
+    "pushed_at": "2026-08-26T15:09:53Z",
     "discovered_at": "2026-06-15T14:07:17.167Z",
     "official": true,
     "extension": {
@@ -53785,7 +53785,7 @@
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
     "updated_at": "2026-08-25T17:53:26Z",
-    "pushed_at": "2026-08-26T03:00:28Z",
+    "pushed_at": "2026-08-26T17:09:26Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false,
     "extension": {
@@ -54720,8 +54720,8 @@
     "language": "Java",
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
-    "updated_at": "2026-08-10T13:42:48Z",
-    "pushed_at": "2026-08-17T12:19:24Z",
+    "updated_at": "2026-08-26T13:52:45Z",
+    "pushed_at": "2026-08-26T13:43:47Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false,
     "extension": {
@@ -59094,8 +59094,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-08-22T22:20:48Z",
-    "updated_at": "2026-08-26T00:56:04Z",
-    "pushed_at": "2026-08-26T00:55:52Z",
+    "updated_at": "2026-08-26T19:07:39Z",
+    "pushed_at": "2026-08-26T18:54:53Z",
     "discovered_at": "2026-08-24T13:01:58.453Z",
     "official": false,
     "extension": {
@@ -59284,6 +59284,103 @@
       "sections": [],
       "categories": [
         "theme"
+      ]
+    }
+  },
+  "dylandersen/agent-language-support": {
+    "name": "dylandersen/agent-language-support",
+    "url": "https://github.com/dylandersen/agent-language-support",
+    "description": "Unofficial community Zed language support compatible with Agent Script.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "agentforce",
+      "agentscript",
+      "language-server",
+      "salesforce",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Tree-sitter Query",
+    "license": "Apache-2.0",
+    "created_at": "2026-08-26T15:42:32Z",
+    "updated_at": "2026-08-26T18:31:14Z",
+    "pushed_at": "2026-08-26T18:30:51Z",
+    "discovered_at": "2026-08-26T19:22:46.995Z",
+    "official": false,
+    "extension": {
+      "id": "agent-language",
+      "name": "Agent Language Support",
+      "description": "Community-maintained Zed language support compatible with Agent Script",
+      "version": "0.2.0",
+      "schema_version": 1,
+      "authors": [
+        "Dylan Andersen"
+      ],
+      "repository": "https://github.com/dylandersen/agent-language-support",
+      "snippets": null,
+      "sections": [
+        "language_servers",
+        "grammars"
+      ],
+      "categories": [
+        "grammar",
+        "language-server"
+      ]
+    }
+  },
+  "onza/typo3-fluid": {
+    "name": "onza/typo3-fluid",
+    "url": "https://github.com/onza/typo3-fluid",
+    "description": "Fluid template language support for the Zed editor (Tree-sitter + helper LSP)",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "cms",
+      "fluid",
+      "grammer",
+      "language-server",
+      "lsp",
+      "parser",
+      "syntax-highlighting",
+      "templating",
+      "tree-sitter",
+      "typo3",
+      "zed",
+      "zed-editor",
+      "zed-extension"
+    ],
+    "language": "C",
+    "license": "NOASSERTION",
+    "created_at": "2026-08-26T12:32:49Z",
+    "updated_at": "2026-08-26T13:26:41Z",
+    "pushed_at": "2026-08-26T13:14:44Z",
+    "discovered_at": "2026-08-26T19:22:46.995Z",
+    "official": false,
+    "extension": {
+      "id": "fluid",
+      "name": "TYPO3 Fluid",
+      "description": "Fluid templates for Zed (Tree-sitter, completions, analyze, schema)",
+      "version": "0.1.3",
+      "schema_version": 1,
+      "authors": [
+        "Martin Farkas <info@martinfarkas.com>"
+      ],
+      "repository": "https://github.com/onza/typo3-fluid",
+      "snippets": [
+        "./snippets/fluid html.json",
+        "./snippets/fluid xml.json",
+        "./snippets/fluid json.json",
+        "./snippets/fluid text.json"
+      ],
+      "sections": [
+        "grammars",
+        "language_servers"
+      ],
+      "categories": [
+        "grammar",
+        "language-server",
+        "snippets"
       ]
     }
   }

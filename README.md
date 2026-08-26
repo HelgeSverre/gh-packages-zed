@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1729-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1731-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,20 +14,20 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1729** |
+| Total tracked | **1731** |
 | In official registry | 1244 |
-| Discovered via topics | 485 |
-| Last updated | 2026-08-26 13:02 UTC |
+| Discovered via topics | 487 |
+| Last updated | 2026-08-26 19:22 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
 | Themes | 740 |
-| Grammars | 596 |
-| Language Servers | 557 |
+| Grammars | 598 |
+| Language Servers | 559 |
 | Context Servers | 137 |
-| Snippets | 80 |
+| Snippets | 81 |
 | Slash Commands | 59 |
 | Debug Adapters | 34 |
 | Docs Providers | 16 |
@@ -70,6 +70,8 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [dylandersen/agent-language-support](https://github.com/dylandersen/agent-language-support) | 0 | Unofficial community Zed language support compatible with Agent Script. |
+| [onza/typo3-fluid](https://github.com/onza/typo3-fluid) | 0 | Fluid template language support for the Zed editor (Tree-sitter + helper LSP) |
 | [mkai/zed-theme-afterglow-remastered](https://github.com/mkai/zed-theme-afterglow-remastered) | 0 | Afterglow Remastered theme for Zed |
 | [onza/typo3-typoscript](https://github.com/onza/typo3-typoscript) | 0 | TypoScript and TSconfig language support for the Zed editor (Tree-sitter + compl... |
 | [n0blenote/zed-asm](https://github.com/n0blenote/zed-asm) | 0 | Assembly language support in Zed |
@@ -88,8 +90,6 @@ cd website && npm install && npm run dev
 | [ehshit/EhWebThemesZed](https://github.com/ehshit/EhWebThemesZed) | 0 | Collection of Themes from Eh's Websites and Stuff for Zed! |
 | [MagicGordon/zed-leo-extension](https://github.com/MagicGordon/zed-leo-extension) | 0 |  |
 | [nguyenhaiduc06/cinder](https://github.com/nguyenhaiduc06/cinder) | 0 |  |
-| [0rtbo/0-protan-prism-theme](https://github.com/0rtbo/0-protan-prism-theme) | 0 | A dark and light Zed theme family designed for strong protan color vision. |
-| [gesundes/zed-ansible-vault](https://github.com/gesundes/zed-ansible-vault) | 0 | Encrypt and decrypt Ansible Vault files and inline !vault YAML values in Zed |
 
 ## Top starred (under 500)
 
@@ -104,7 +104,7 @@ cd website && npm install && npm run dev
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
 | [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 200 | Zed support for the Godot game engine and the GDScript language |
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
-| [zed-extensions/typst](https://github.com/zed-extensions/typst) | 195 | Typst extension for zed |
+| [zed-extensions/typst](https://github.com/zed-extensions/typst) | 196 | Typst extension for zed |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 170 | 🦊 Zed editor theme ported from Neovim |
@@ -120,11 +120,14 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [onza/typo3-typoscript](https://github.com/onza/typo3-typoscript) | 0 | 2026-08-26 | TypoScript and TSconfig language support for the Zed editor ... |
-| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-08-26 | Intelligent codebase search & indexing for Zed. Async MCP se... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 96 | 2026-08-26 | True Dark Theme for Zed IDE |
-| [lmarkmann/patina-theme](https://github.com/lmarkmann/patina-theme) | 3 | 2026-08-26 | A warm, muted color theme. Teal oxidation and amber warmth; ... |
 | [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-08-26 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
+| [dylandersen/agent-language-support](https://github.com/dylandersen/agent-language-support) | 0 | 2026-08-26 | Unofficial community Zed language support compatible with Ag... |
+| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-08-26 | Intelligent codebase search & indexing for Zed. Async MCP se... |
+| [lmarkmann/patina-theme](https://github.com/lmarkmann/patina-theme) | 3 | 2026-08-26 | A warm, muted color theme. Teal oxidation and amber warmth; ... |
+| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 1 | 2026-08-26 | Spring Boot language intelligence for Zed, built on the requ... |
+| [onza/typo3-fluid](https://github.com/onza/typo3-fluid) | 0 | 2026-08-26 | Fluid template language support for the Zed editor (Tree-sit... |
+| [onza/typo3-typoscript](https://github.com/onza/typo3-typoscript) | 0 | 2026-08-26 | TypoScript and TSconfig language support for the Zed editor ... |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 96 | 2026-08-26 | True Dark Theme for Zed IDE |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-08-25 | A Zed extension that allows to highlight all occurrences of ... |
 | [MrSubidubi/mlir-tablegen](https://github.com/MrSubidubi/mlir-tablegen) | 5 | 2026-08-25 | MLIR Extension for Zed |
 | [n0blenote/zed-asm](https://github.com/n0blenote/zed-asm) | 0 | 2026-08-25 | Assembly language support in Zed |
@@ -137,14 +140,12 @@ cd website && npm install && npm run dev
 | [rux-lang/Zed](https://github.com/rux-lang/Zed) | 4 | 2026-08-23 | Zed extension for the Rux programming language |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-08-22 | Zed editor support for Carve, a modern light markup language |
 | [xsynaptic/zed-mdxlint](https://github.com/xsynaptic/zed-mdxlint) | 0 | 2026-08-22 | Zed extension providing mdxlint language server support |
-| [zed-extensions/typst](https://github.com/zed-extensions/typst) | 195 | 2026-08-22 | Typst extension for zed |
-| [YanivZalach/Zed_Pycharm_Dracula_Theme](https://github.com/YanivZalach/Zed_Pycharm_Dracula_Theme) | 1 | 2026-08-21 | Pycharm dracula theme for the Zed Editor |
-| [alysson-souza/zed-fish-lsp](https://github.com/alysson-souza/zed-fish-lsp) | 4 | 2026-08-21 | Fish shell extension for Zed with fish-lsp integration |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-08-26T19:22 | 2 | 576 | 2108 |
 | 2026-08-26T13:02 | 0 | 576 | 2106 |
 | 2026-08-26T07:06 | 1 | 575 | 2106 |
 | 2026-08-26T01:03 | 1 | 574 | 2105 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-08-25T01:03 | 0 | 570 | 2101 |
 | 2026-08-24T18:57 | 0 | 571 | 2101 |
 | 2026-08-24T13:01 | 3 | 568 | 2101 |
-| 2026-08-24T07:02 | 1 | 568 | 2098 |
 
 ---
 

@@ -1,0 +1,19 @@
+# SPDX-License-Identifier: Apache-2.0
+
+id = "agent-language"
+name = "Agent Language Support"
+description = "Community-maintained Zed language support compatible with Agent Script"
+version = "0.2.0"
+schema_version = 1
+authors = ["Dylan Andersen"]
+repository = "https://github.com/dylandersen/agent-language-support"
+
+[language_servers.agent-script-language-server]
+name = "Agent Script Language Server"
+language = "Agent Script"
+language_ids = { "Agent Script" = "agentscript" }
+
+[grammars.agentscript]
+repository = "https://github.com/salesforce/agentscript"
+commit = "5e6404e9a662f049af236c2886f910d47e392905"
+path = "packages/parser-tree-sitter"
