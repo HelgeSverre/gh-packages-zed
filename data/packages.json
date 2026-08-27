@@ -217,7 +217,7 @@
     "license": "NOASSERTION",
     "created_at": "2024-10-11T18:22:02Z",
     "updated_at": "2026-08-19T16:44:32Z",
-    "pushed_at": "2026-08-13T21:19:06Z",
+    "pushed_at": "2026-08-26T23:51:54Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -3312,7 +3312,7 @@
     "name": "zarifpour/xy-zed",
     "url": "https://github.com/zarifpour/xy-zed",
     "description": "🐈‍⬛ A sleek and sophisticated dark theme for Zed with vibrant, intelligent syntax highlighting.",
-    "stars": 89,
+    "stars": 90,
     "forks": 7,
     "topics": [
       "dark",
@@ -3330,7 +3330,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T22:41:16Z",
-    "updated_at": "2026-08-05T10:51:48Z",
+    "updated_at": "2026-08-27T01:34:22Z",
     "pushed_at": "2026-01-27T20:33:16Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -5424,8 +5424,8 @@
     "language": "Rust",
     "license": "MPL-2.0",
     "created_at": "2025-01-04T04:36:16Z",
-    "updated_at": "2026-08-10T11:32:01Z",
-    "pushed_at": "2026-08-10T11:31:02Z",
+    "updated_at": "2026-08-27T00:21:46Z",
+    "pushed_at": "2026-08-27T00:21:43Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
   },
@@ -14964,7 +14964,7 @@
     "name": "zarifpour/zed-env",
     "url": "https://github.com/zarifpour/zed-env",
     "description": "🔐 env support for Zed.",
-    "stars": 58,
+    "stars": 59,
     "forks": 3,
     "topics": [
       "dotenv",
@@ -14981,7 +14981,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-07-12T02:40:18Z",
-    "updated_at": "2026-08-20T20:30:28Z",
+    "updated_at": "2026-08-26T21:03:00Z",
     "pushed_at": "2024-11-13T21:48:13Z",
     "discovered_at": "2026-05-19T20:52:12.309Z",
     "official": true
@@ -15468,8 +15468,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
-    "updated_at": "2026-08-26T00:47:12Z",
-    "pushed_at": "2026-08-25T21:22:40Z",
+    "updated_at": "2026-08-27T00:57:11Z",
+    "pushed_at": "2026-08-27T02:01:51Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -18027,8 +18027,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-08-26T13:19:05Z",
-    "pushed_at": "2026-08-26T13:02:47Z",
+    "updated_at": "2026-08-26T20:07:28Z",
+    "pushed_at": "2026-08-26T19:23:23Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -25276,12 +25276,13 @@
     "topics": [
       "dark-theme",
       "extension",
-      "zed-editor"
+      "zed-editor",
+      "zed-theme"
     ],
     "language": null,
     "license": "MIT",
     "created_at": "2024-07-01T21:28:51Z",
-    "updated_at": "2026-08-25T04:25:04Z",
+    "updated_at": "2026-08-26T22:52:34Z",
     "pushed_at": "2026-08-25T04:24:08Z",
     "discovered_at": "2026-05-20T02:57:03.419Z",
     "official": true
@@ -35948,8 +35949,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-08-17T17:19:02Z",
-    "updated_at": "2026-08-25T09:04:46Z",
-    "pushed_at": "2026-08-25T04:09:20Z",
+    "updated_at": "2026-08-27T01:39:40Z",
+    "pushed_at": "2026-08-27T01:39:11Z",
     "discovered_at": "2026-08-25T07:01:02.282Z",
     "official": false
   },
@@ -36061,10 +36062,10 @@
       "zed",
       "zed-extension"
     ],
-    "language": "Tree-sitter Query",
+    "language": "JavaScript",
     "license": "Apache-2.0",
     "created_at": "2026-08-26T15:42:32Z",
-    "updated_at": "2026-08-26T18:31:14Z",
+    "updated_at": "2026-08-26T19:31:16Z",
     "pushed_at": "2026-08-26T18:30:51Z",
     "discovered_at": "2026-08-26T19:22:46.995Z",
     "official": false

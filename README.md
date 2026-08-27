@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1731** |
 | In official registry | 1244 |
 | Discovered via topics | 487 |
-| Last updated | 2026-08-26 19:22 UTC |
+| Last updated | 2026-08-27 02:10 UTC |
 
 ### By capability
 
@@ -120,6 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 133 | 2026-08-26 | The Ruby language support for Zed editor |
 | [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-08-26 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
 | [dylandersen/agent-language-support](https://github.com/dylandersen/agent-language-support) | 0 | 2026-08-26 | Unofficial community Zed language support compatible with Ag... |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-08-26 | Intelligent codebase search & indexing for Zed. Async MCP se... |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [mehcode/filament](https://github.com/mehcode/filament) | 0 | 2026-08-23 | A warm, filament-lit theme for Zed. |
 | [rux-lang/Zed](https://github.com/rux-lang/Zed) | 4 | 2026-08-23 | Zed extension for the Rux programming language |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-08-22 | Zed editor support for Carve, a modern light markup language |
-| [xsynaptic/zed-mdxlint](https://github.com/xsynaptic/zed-mdxlint) | 0 | 2026-08-22 | Zed extension providing mdxlint language server support |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-08-27T02:10 | 0 | 577 | 2108 |
 | 2026-08-26T19:22 | 2 | 576 | 2108 |
 | 2026-08-26T13:02 | 0 | 576 | 2106 |
 | 2026-08-26T07:06 | 1 | 575 | 2106 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-08-25T07:01 | 1 | 570 | 2102 |
 | 2026-08-25T01:03 | 0 | 570 | 2101 |
 | 2026-08-24T18:57 | 0 | 571 | 2101 |
-| 2026-08-24T13:01 | 3 | 568 | 2101 |
 
 ---
 
