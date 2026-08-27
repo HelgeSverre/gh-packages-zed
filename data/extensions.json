@@ -7966,8 +7966,8 @@
     "name": "alanisme/vscode-themes-for-zed",
     "url": "https://github.com/alanisme/vscode-themes-for-zed",
     "description": "❤️ All 19 built-in Visual Studio Code color themes, ported to Zed.",
-    "stars": 20,
-    "forks": 0,
+    "stars": 21,
+    "forks": 1,
     "topics": [
       "color-theme",
       "dark-theme",
@@ -7980,7 +7980,7 @@
     "language": "TypeScript",
     "license": "MIT",
     "created_at": "2026-03-09T00:14:00Z",
-    "updated_at": "2026-08-10T02:42:52Z",
+    "updated_at": "2026-08-27T18:24:57Z",
     "pushed_at": "2026-06-29T15:33:19Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": true,
@@ -22322,7 +22322,7 @@
     "url": "https://github.com/pranavmangal/zed-ssh-config",
     "description": "A Zed extension that provides syntax highlighting for SSH config files",
     "stars": 3,
-    "forks": 2,
+    "forks": 1,
     "topics": [
       "ssh-config",
       "zed",
@@ -54859,7 +54859,7 @@
     "name": "anidotdev/love2d-zed",
     "url": "https://github.com/anidotdev/love2d-zed",
     "description": "A Zed extension for developing games with the LÖVE framework.",
-    "stars": 0,
+    "stars": 1,
     "forks": 0,
     "topics": [
       "extension",
@@ -54877,7 +54877,7 @@
     "language": "Lua",
     "license": "MIT",
     "created_at": "2026-07-18T05:02:38Z",
-    "updated_at": "2026-07-18T10:51:03Z",
+    "updated_at": "2026-08-27T20:39:50Z",
     "pushed_at": "2026-07-18T10:50:59Z",
     "discovered_at": "2026-07-18T07:15:57.436Z",
     "official": false,
@@ -59381,6 +59381,44 @@
       "categories": [
         "grammar",
         "language-server",
+        "snippets"
+      ]
+    }
+  },
+  "dankdown10256/licensr": {
+    "name": "DankDown10256/licensr",
+    "url": "https://github.com/DankDown10256/licensr",
+    "description": "Licensr is a Zed IDE extension to write licenses for your projects smoothly",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "extensions",
+      "license",
+      "licensing",
+      "zed-extensions"
+    ],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-08-27T19:15:38Z",
+    "updated_at": "2026-08-27T20:44:46Z",
+    "pushed_at": "2026-08-27T20:41:17Z",
+    "discovered_at": "2026-08-27T22:01:46.865Z",
+    "official": false,
+    "extension": {
+      "id": "licensr",
+      "name": "Licensr",
+      "description": "Insert common software licenses using snippets",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Lucas Poupeau"
+      ],
+      "repository": "https://github.com/DankDown10256/licensr",
+      "snippets": [
+        "./snippets/snippets.json"
+      ],
+      "sections": [],
+      "categories": [
         "snippets"
       ]
     }

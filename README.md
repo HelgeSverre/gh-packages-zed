@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1731-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1732-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,10 +14,10 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1731** |
+| Total tracked | **1732** |
 | In official registry | 1244 |
-| Discovered via topics | 487 |
-| Last updated | 2026-08-27 16:27 UTC |
+| Discovered via topics | 488 |
+| Last updated | 2026-08-27 22:01 UTC |
 
 ### By capability
 
@@ -27,7 +27,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Grammars | 598 |
 | Language Servers | 559 |
 | Context Servers | 137 |
-| Snippets | 81 |
+| Snippets | 82 |
 | Slash Commands | 59 |
 | Debug Adapters | 34 |
 | Docs Providers | 16 |
@@ -70,6 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [DankDown10256/licensr](https://github.com/DankDown10256/licensr) | 0 | Licensr is a Zed IDE extension to write licenses for your projects smoothly |
 | [dylandersen/agent-language-support](https://github.com/dylandersen/agent-language-support) | 0 | Unofficial community Zed language support compatible with Agent Script. |
 | [onza/typo3-fluid](https://github.com/onza/typo3-fluid) | 0 | Fluid template language support for the Zed editor |
 | [mkai/zed-theme-afterglow-remastered](https://github.com/mkai/zed-theme-afterglow-remastered) | 0 | Afterglow Remastered theme for Zed |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [fajriyan/deepz-theme](https://github.com/fajriyan/deepz-theme) | 0 | A custom Deep dark theme for Zed |
 | [ehshit/EhWebThemesZed](https://github.com/ehshit/EhWebThemesZed) | 0 | Collection of Themes from Eh's Websites and Stuff for Zed! |
 | [MagicGordon/zed-leo-extension](https://github.com/MagicGordon/zed-leo-extension) | 0 |  |
-| [nguyenhaiduc06/cinder](https://github.com/nguyenhaiduc06/cinder) | 0 |  |
 
 ## Top starred (under 500)
 
@@ -120,6 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [DankDown10256/licensr](https://github.com/DankDown10256/licensr) | 0 | 2026-08-27 | Licensr is a Zed IDE extension to write licenses for your pr... |
 | [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-08-27 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 96 | 2026-08-27 | True Dark Theme for Zed IDE |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 170 | 2026-08-27 | 🦊 Zed editor theme ported from Neovim |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [MattFor/leetcode-zed](https://github.com/MattFor/leetcode-zed) | 0 | 2026-08-24 | A Zed extension to do leetcode problems kinda-directly in th... |
 | [BastenIT/zed-composer-support](https://github.com/BastenIT/zed-composer-support) | 1 | 2026-08-24 | Packagist links, installed-version hints, and update checks ... |
 | [ankddev/zed-jetbrains-newui-icons](https://github.com/ankddev/zed-jetbrains-newui-icons) | 27 | 2026-08-24 | JetBrains New UI Icons Theme for Zed editor. |
-| [ZeWaka/zed-dm-langclient](https://github.com/ZeWaka/zed-dm-langclient) | 0 | 2026-08-24 | Language client for DM for Zed |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-08-27T22:01 | 2 | 577 | 2110 |
 | 2026-08-27T16:27 | 0 | 577 | 2108 |
 | 2026-08-27T09:53 | 0 | 577 | 2108 |
 | 2026-08-27T02:10 | 0 | 577 | 2108 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-08-26T01:03 | 1 | 574 | 2105 |
 | 2026-08-25T18:56 | 0 | 573 | 2104 |
 | 2026-08-25T13:02 | 2 | 571 | 2104 |
-| 2026-08-25T07:01 | 1 | 570 | 2102 |
 
 ---
 
