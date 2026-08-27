@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1731** |
 | In official registry | 1244 |
 | Discovered via topics | 487 |
-| Last updated | 2026-08-27 09:53 UTC |
+| Last updated | 2026-08-27 16:27 UTC |
 
 ### By capability
 
@@ -120,31 +120,32 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-08-27 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 96 | 2026-08-27 | True Dark Theme for Zed IDE |
+| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 170 | 2026-08-27 | 🦊 Zed editor theme ported from Neovim |
 | [pleahmacaka/zed-batch](https://github.com/pleahmacaka/zed-batch) | 3 | 2026-08-27 | Windows Batch (.bat, .cmd) support |
 | [pngdrift/zed-actionscript](https://github.com/pngdrift/zed-actionscript) | 3 | 2026-08-27 | ActionScript language support for Zed editor |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 133 | 2026-08-26 | The Ruby language support for Zed editor |
-| [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-08-26 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
 | [dylandersen/agent-language-support](https://github.com/dylandersen/agent-language-support) | 0 | 2026-08-26 | Unofficial community Zed language support compatible with Ag... |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-08-26 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [lmarkmann/patina-theme](https://github.com/lmarkmann/patina-theme) | 3 | 2026-08-26 | A warm, muted color theme. Teal oxidation and amber warmth; ... |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 1 | 2026-08-26 | Spring Boot language intelligence for Zed, built on the requ... |
 | [onza/typo3-fluid](https://github.com/onza/typo3-fluid) | 0 | 2026-08-26 | Fluid template language support for the Zed editor |
 | [onza/typo3-typoscript](https://github.com/onza/typo3-typoscript) | 0 | 2026-08-26 | TypoScript and TSconfig language support for the Zed editor |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 96 | 2026-08-26 | True Dark Theme for Zed IDE |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-08-25 | A Zed extension that allows to highlight all occurrences of ... |
 | [MrSubidubi/mlir-tablegen](https://github.com/MrSubidubi/mlir-tablegen) | 5 | 2026-08-25 | MLIR Extension for Zed |
 | [n0blenote/zed-asm](https://github.com/n0blenote/zed-asm) | 0 | 2026-08-25 | Assembly language support in Zed |
 | [SinaMombeiny/S-DarkTheme.zed](https://github.com/SinaMombeiny/S-DarkTheme.zed) | 5 | 2026-08-25 | Dark theme for Zed |
 | [MattFor/leetcode-zed](https://github.com/MattFor/leetcode-zed) | 0 | 2026-08-24 | A Zed extension to do leetcode problems kinda-directly in th... |
 | [BastenIT/zed-composer-support](https://github.com/BastenIT/zed-composer-support) | 1 | 2026-08-24 | Packagist links, installed-version hints, and update checks ... |
-| [ankddev/zed-jetbrains-newui-icons](https://github.com/ankddev/zed-jetbrains-newui-icons) | 28 | 2026-08-24 | JetBrains New UI Icons Theme for Zed editor. |
+| [ankddev/zed-jetbrains-newui-icons](https://github.com/ankddev/zed-jetbrains-newui-icons) | 27 | 2026-08-24 | JetBrains New UI Icons Theme for Zed editor. |
 | [ZeWaka/zed-dm-langclient](https://github.com/ZeWaka/zed-dm-langclient) | 0 | 2026-08-24 | Language client for DM for Zed |
-| [mehcode/filament](https://github.com/mehcode/filament) | 0 | 2026-08-23 | A warm, filament-lit theme for Zed. |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-08-27T16:27 | 0 | 577 | 2108 |
 | 2026-08-27T09:53 | 0 | 577 | 2108 |
 | 2026-08-27T02:10 | 0 | 577 | 2108 |
 | 2026-08-26T19:22 | 2 | 576 | 2108 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-08-25T18:56 | 0 | 573 | 2104 |
 | 2026-08-25T13:02 | 2 | 571 | 2104 |
 | 2026-08-25T07:01 | 1 | 570 | 2102 |
-| 2026-08-25T01:03 | 0 | 570 | 2101 |
 
 ---
 
