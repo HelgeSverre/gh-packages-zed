@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1733** |
 | In official registry | 1244 |
 | Discovered via topics | 489 |
-| Last updated | 2026-08-28 03:31 UTC |
+| Last updated | 2026-08-28 10:02 UTC |
 
 ### By capability
 
@@ -100,7 +100,7 @@ cd website && npm install && npm run dev
 | [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 333 | Catppuccin Theme but as blurred variants + custom ones |
 | [oxc-project/oxc-zed](https://github.com/oxc-project/oxc-zed) | 256 | Oxc extension for Zed |
 | [catppuccin/zed-icons](https://github.com/catppuccin/zed-icons) | 240 | 🦊 Soothing pastel icons for Zed |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 210 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 211 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
 | [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 200 | Zed support for the Godot game engine and the GDScript language |
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
@@ -120,9 +120,10 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-08-28 | Intelligent codebase search & indexing for Zed. Async MCP se... |
+| [DankDown10256/licensr](https://github.com/DankDown10256/licensr) | 0 | 2026-08-28 | Licensr is a Zed IDE extension to write licenses for your pr... |
 | [neylonsantos/neytone-zed](https://github.com/neylonsantos/neytone-zed) | 0 | 2026-08-28 | An ergonomic, warm light theme with high-contrast typography... |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-08-28 | Zed editor support for Carve, a modern light markup language |
-| [DankDown10256/licensr](https://github.com/DankDown10256/licensr) | 0 | 2026-08-27 | Licensr is a Zed IDE extension to write licenses for your pr... |
 | [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-08-27 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 96 | 2026-08-27 | True Dark Theme for Zed IDE |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 170 | 2026-08-27 | 🦊 Zed editor theme ported from Neovim |
@@ -130,7 +131,6 @@ cd website && npm install && npm run dev
 | [pngdrift/zed-actionscript](https://github.com/pngdrift/zed-actionscript) | 3 | 2026-08-27 | ActionScript language support for Zed editor |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 133 | 2026-08-26 | The Ruby language support for Zed editor |
 | [dylandersen/agent-language-support](https://github.com/dylandersen/agent-language-support) | 0 | 2026-08-26 | Unofficial community Zed language support compatible with Ag... |
-| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-08-26 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [lmarkmann/patina-theme](https://github.com/lmarkmann/patina-theme) | 3 | 2026-08-26 | A warm, muted color theme. Teal oxidation and amber warmth; ... |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 1 | 2026-08-26 | Spring Boot language intelligence for Zed, built on the requ... |
 | [onza/typo3-fluid](https://github.com/onza/typo3-fluid) | 0 | 2026-08-26 | Fluid template language support for the Zed editor |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-08-28T10:02 | 0 | 580 | 2111 |
 | 2026-08-28T03:31 | 1 | 579 | 2111 |
 | 2026-08-27T22:01 | 2 | 577 | 2110 |
 | 2026-08-27T16:27 | 0 | 577 | 2108 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-08-26T13:02 | 0 | 576 | 2106 |
 | 2026-08-26T07:06 | 1 | 575 | 2106 |
 | 2026-08-26T01:03 | 1 | 574 | 2105 |
-| 2026-08-25T18:56 | 0 | 573 | 2104 |
 
 ---
 
