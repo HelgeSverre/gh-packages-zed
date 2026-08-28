@@ -75,7 +75,7 @@
     "license": "MIT",
     "created_at": "2026-05-03T17:39:17Z",
     "updated_at": "2026-08-25T21:50:01Z",
-    "pushed_at": "2026-08-25T21:49:56Z",
+    "pushed_at": "2026-08-28T20:05:38Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -216,8 +216,8 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2024-10-11T18:22:02Z",
-    "updated_at": "2026-08-28T15:34:43Z",
-    "pushed_at": "2026-08-26T23:51:54Z",
+    "updated_at": "2026-08-28T20:45:42Z",
+    "pushed_at": "2026-08-28T20:45:49Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -5119,8 +5119,8 @@
     "language": "Go",
     "license": "MIT",
     "created_at": "2026-03-09T04:35:59Z",
-    "updated_at": "2026-08-27T17:43:16Z",
-    "pushed_at": "2026-08-27T17:35:47Z",
+    "updated_at": "2026-08-28T18:31:41Z",
+    "pushed_at": "2026-08-28T18:31:14Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -15469,7 +15469,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
     "updated_at": "2026-08-28T06:22:34Z",
-    "pushed_at": "2026-08-27T21:32:52Z",
+    "pushed_at": "2026-08-28T19:46:22Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -18027,8 +18027,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-08-28T10:03:06Z",
-    "pushed_at": "2026-08-28T10:02:48Z",
+    "updated_at": "2026-08-28T16:49:52Z",
+    "pushed_at": "2026-08-28T16:48:55Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -31998,7 +31998,7 @@
     "license": "ISC",
     "created_at": "2026-07-04T02:15:25Z",
     "updated_at": "2026-08-28T16:39:53Z",
-    "pushed_at": "2026-08-28T16:38:10Z",
+    "pushed_at": "2026-08-28T16:53:29Z",
     "discovered_at": "2026-07-06T19:18:00.225Z",
     "official": false
   },
@@ -32054,7 +32054,7 @@
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
     "updated_at": "2026-08-28T16:24:45Z",
-    "pushed_at": "2026-08-28T16:21:45Z",
+    "pushed_at": "2026-08-28T18:04:46Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false
   },
@@ -33217,8 +33217,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-05-17T07:32:27Z",
-    "updated_at": "2026-08-28T12:11:29Z",
-    "pushed_at": "2026-08-28T13:53:49Z",
+    "updated_at": "2026-08-28T19:54:44Z",
+    "pushed_at": "2026-08-28T19:54:39Z",
     "discovered_at": "2026-07-26T01:12:51.640Z",
     "official": false
   },
@@ -35820,8 +35820,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-08-22T12:16:17Z",
-    "updated_at": "2026-08-25T18:37:32Z",
-    "pushed_at": "2026-08-24T14:43:17Z",
+    "updated_at": "2026-08-28T17:24:51Z",
+    "pushed_at": "2026-08-28T17:22:16Z",
     "discovered_at": "2026-08-22T12:57:51.520Z",
     "official": false
   },
@@ -35882,8 +35882,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-08-22T22:20:48Z",
-    "updated_at": "2026-08-28T16:41:37Z",
-    "pushed_at": "2026-08-28T16:41:27Z",
+    "updated_at": "2026-08-28T18:13:07Z",
+    "pushed_at": "2026-08-28T18:10:13Z",
     "discovered_at": "2026-08-24T13:01:58.453Z",
     "official": false
   },
@@ -36260,6 +36260,29 @@
     "updated_at": "2026-08-28T11:44:29Z",
     "pushed_at": "2026-08-28T11:54:11Z",
     "discovered_at": "2026-08-28T16:48:20.309Z",
+    "official": false
+  },
+  "silynometa/zed-intellij-server": {
+    "name": "SilyNoMeta/zed-intellij-server",
+    "url": "https://github.com/SilyNoMeta/zed-intellij-server",
+    "description": "IntelliJ-powered Java and Kotlin code engine for Zed (JetBrains intellij-server backend over LSP/DAP)",
+    "stars": 1,
+    "forks": 0,
+    "topics": [
+      "debugger",
+      "intellij",
+      "java",
+      "kotlin",
+      "lsp",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "created_at": "2026-08-28T20:21:49Z",
+    "updated_at": "2026-08-28T21:40:13Z",
+    "pushed_at": "2026-08-28T21:39:29Z",
+    "discovered_at": "2026-08-28T21:48:48.580Z",
     "official": false
   }
 }
