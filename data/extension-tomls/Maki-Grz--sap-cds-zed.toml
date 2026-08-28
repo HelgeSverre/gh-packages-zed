@@ -1,0 +1,15 @@
+id = "sap-cds"
+name = "SAP CDS Language Support"
+version = "0.1.0"
+schema_version = 1
+authors = ["Maki-Grz (Maximilien Grzeczka)"]
+description = "SAP Cloud Application Programming Model (CAP) CDS language support for the Zed editor, using tree-sitter-cds and @sap/cds-lsp."
+repository = "https://github.com/cap-js-community/sap-cds-zed"
+
+[grammars.cds]
+repository = "https://github.com/SAP-archive/tree-sitter-cds"
+rev = "66bc383c134ae76d25abac7b952985e8d0a52b03"
+
+[language_servers.cds-lsp]
+name = "SAP CDS Language Server"
+languages = ["CDS"]
