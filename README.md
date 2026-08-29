@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1735** |
 | In official registry | 1246 |
 | Discovered via topics | 489 |
-| Last updated | 2026-08-28 21:48 UTC |
+| Last updated | 2026-08-29 01:00 UTC |
 
 ### By capability
 
@@ -100,7 +100,7 @@ cd website && npm install && npm run dev
 | [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 333 | Catppuccin Theme but as blurred variants + custom ones |
 | [oxc-project/oxc-zed](https://github.com/oxc-project/oxc-zed) | 256 | Oxc extension for Zed |
 | [catppuccin/zed-icons](https://github.com/catppuccin/zed-icons) | 240 | 🦊 Soothing pastel icons for Zed |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 211 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 212 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
 | [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 200 | Zed support for the Godot game engine and the GDScript language |
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
@@ -120,6 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [SinaMombeiny/S-DarkTheme.zed](https://github.com/SinaMombeiny/S-DarkTheme.zed) | 5 | 2026-08-28 | Dark theme for Zed |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 134 | 2026-08-28 | The Ruby language support for Zed editor |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-08-28 | A Zed extension that allows to highlight all occurrences of ... |
 | [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-08-28 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 1 | 2026-08-26 | Spring Boot language intelligence for Zed, built on the requ... |
 | [onza/typo3-fluid](https://github.com/onza/typo3-fluid) | 0 | 2026-08-26 | Fluid template language support for the Zed editor |
 | [onza/typo3-typoscript](https://github.com/onza/typo3-typoscript) | 0 | 2026-08-26 | TypoScript and TSconfig language support for the Zed editor |
-| [MrSubidubi/mlir-tablegen](https://github.com/MrSubidubi/mlir-tablegen) | 5 | 2026-08-25 | MLIR Extension for Zed |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-08-29T01:00 | 0 | 582 | 2117 |
 | 2026-08-28T21:48 | 1 | 581 | 2117 |
 | 2026-08-28T16:48 | 5 | 579 | 2116 |
 | 2026-08-28T10:02 | 0 | 580 | 2111 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-08-27T09:53 | 0 | 577 | 2108 |
 | 2026-08-27T02:10 | 0 | 577 | 2108 |
 | 2026-08-26T19:22 | 2 | 576 | 2108 |
-| 2026-08-26T13:02 | 0 | 576 | 2106 |
 
 ---
 
