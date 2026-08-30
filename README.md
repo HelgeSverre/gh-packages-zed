@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1735** |
 | In official registry | 1246 |
 | Discovered via topics | 489 |
-| Last updated | 2026-08-29 18:43 UTC |
+| Last updated | 2026-08-30 01:12 UTC |
 
 ### By capability
 
@@ -100,14 +100,14 @@ cd website && npm install && npm run dev
 | [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 333 | Catppuccin Theme but as blurred variants + custom ones |
 | [oxc-project/oxc-zed](https://github.com/oxc-project/oxc-zed) | 256 | Oxc extension for Zed |
 | [catppuccin/zed-icons](https://github.com/catppuccin/zed-icons) | 240 | 🦊 Soothing pastel icons for Zed |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 212 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 213 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
 | [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 200 | Zed support for the Godot game engine and the GDScript language |
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
-| [zed-extensions/typst](https://github.com/zed-extensions/typst) | 196 | Typst extension for zed |
+| [zed-extensions/typst](https://github.com/zed-extensions/typst) | 197 | Typst extension for zed |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
-| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 170 | 🦊 Zed editor theme ported from Neovim |
+| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 171 | 🦊 Zed editor theme ported from Neovim |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 169 | A macOS native style theme for Zed, let it same like native app in macOS. |
 | [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 153 |  |
 | [zed-extensions/swift](https://github.com/zed-extensions/swift) | 149 | Extension for Zed to support Swift |
@@ -120,22 +120,22 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-08-29 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
+| [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-08-30 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
+| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 134 | 2026-08-29 | The Ruby language support for Zed editor |
+| [SinaMombeiny/S-DarkTheme.zed](https://github.com/SinaMombeiny/S-DarkTheme.zed) | 5 | 2026-08-29 | Dark theme for Zed |
+| [DankDown10256/licensr](https://github.com/DankDown10256/licensr) | 0 | 2026-08-29 | Licensr is a Zed IDE extension to write licenses for your pr... |
 | [alaestor/mirror-zed-cea](https://github.com/alaestor/mirror-zed-cea) | 0 | 2026-08-29 | zed extension for cheat engine auto-assembler script |
 | [tfuxu/zed-blueprint](https://github.com/tfuxu/zed-blueprint) | 9 | 2026-08-29 | Blueprint (.blp) language support for Zed editor |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-08-29 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 96 | 2026-08-29 | True Dark Theme for Zed IDE |
-| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 134 | 2026-08-29 | The Ruby language support for Zed editor |
 | [pol-cova/cursor-theme-zed](https://github.com/pol-cova/cursor-theme-zed) | 0 | 2026-08-29 | A warm Cursor-inspired Zed theme with light and dark variant... |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-08-29 | A Zed extension that allows to highlight all occurrences of ... |
-| [SinaMombeiny/S-DarkTheme.zed](https://github.com/SinaMombeiny/S-DarkTheme.zed) | 5 | 2026-08-28 | Dark theme for Zed |
 | [BastenIT/zed-composer-support](https://github.com/BastenIT/zed-composer-support) | 1 | 2026-08-28 | Packagist links, installed-version hints, and update checks ... |
 | [mantou132/zed-cspell](https://github.com/mantou132/zed-cspell) | 38 | 2026-08-28 |  |
 | [Maki-Grz/sap-cds-zed](https://github.com/Maki-Grz/sap-cds-zed) | 0 | 2026-08-28 | SAP Cloud Application Programming Model (CAP) CDS language s... |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-08-28 | Zed editor support for Carve, a modern light markup language |
-| [DankDown10256/licensr](https://github.com/DankDown10256/licensr) | 0 | 2026-08-28 | Licensr is a Zed IDE extension to write licenses for your pr... |
 | [neylonsantos/neytone-zed](https://github.com/neylonsantos/neytone-zed) | 0 | 2026-08-28 | An ergonomic, warm light theme with high-contrast typography... |
-| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 170 | 2026-08-27 | 🦊 Zed editor theme ported from Neovim |
+| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 171 | 2026-08-27 | 🦊 Zed editor theme ported from Neovim |
 | [pleahmacaka/zed-batch](https://github.com/pleahmacaka/zed-batch) | 3 | 2026-08-27 | Windows Batch (.bat, .cmd) support |
 | [pngdrift/zed-actionscript](https://github.com/pngdrift/zed-actionscript) | 3 | 2026-08-27 | ActionScript language support for Zed editor |
 | [dylandersen/agent-language-support](https://github.com/dylandersen/agent-language-support) | 0 | 2026-08-26 | Unofficial community Zed language support compatible with Ag... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-08-30T01:12 | 0 | 582 | 2117 |
 | 2026-08-29T18:43 | 0 | 582 | 2117 |
 | 2026-08-29T12:45 | 0 | 582 | 2117 |
 | 2026-08-29T06:48 | 0 | 582 | 2117 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-08-28T10:02 | 0 | 580 | 2111 |
 | 2026-08-28T03:31 | 1 | 579 | 2111 |
 | 2026-08-27T22:01 | 2 | 577 | 2110 |
-| 2026-08-27T16:27 | 0 | 577 | 2108 |
 
 ---
 
