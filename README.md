@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1735** |
 | In official registry | 1246 |
 | Discovered via topics | 489 |
-| Last updated | 2026-08-30 12:46 UTC |
+| Last updated | 2026-08-30 18:43 UTC |
 
 ### By capability
 
@@ -107,7 +107,7 @@ cd website && npm install && npm run dev
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 197 | Typst extension for zed |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
-| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 172 | 🦊 Zed editor theme ported from Neovim |
+| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 173 | 🦊 Zed editor theme ported from Neovim |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 169 | A macOS native style theme for Zed, let it same like native app in macOS. |
 | [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 153 |  |
 | [zed-extensions/swift](https://github.com/zed-extensions/swift) | 149 | Extension for Zed to support Swift |
@@ -120,9 +120,10 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [SwornSystems/zed-cedar](https://github.com/SwornSystems/zed-cedar) | 1 | 2026-08-30 | Cedar language support for Zed. |
 | [MrSubidubi/mlir-tablegen](https://github.com/MrSubidubi/mlir-tablegen) | 5 | 2026-08-30 | MLIR Extension for Zed |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 134 | 2026-08-30 | The Ruby language support for Zed editor |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 96 | 2026-08-30 | True Dark Theme for Zed IDE |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 97 | 2026-08-30 | True Dark Theme for Zed IDE |
 | [SinaMombeiny/S-DarkTheme.zed](https://github.com/SinaMombeiny/S-DarkTheme.zed) | 5 | 2026-08-30 | Dark theme for Zed |
 | [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-08-30 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
 | [DankDown10256/licensr](https://github.com/DankDown10256/licensr) | 0 | 2026-08-29 | Licensr is a Zed IDE extension to write licenses for your pr... |
@@ -136,15 +137,15 @@ cd website && npm install && npm run dev
 | [Maki-Grz/sap-cds-zed](https://github.com/Maki-Grz/sap-cds-zed) | 0 | 2026-08-28 | SAP Cloud Application Programming Model (CAP) CDS language s... |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-08-28 | Zed editor support for Carve, a modern light markup language |
 | [neylonsantos/neytone-zed](https://github.com/neylonsantos/neytone-zed) | 0 | 2026-08-28 | An ergonomic, warm light theme with high-contrast typography... |
-| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 172 | 2026-08-27 | 🦊 Zed editor theme ported from Neovim |
+| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 173 | 2026-08-27 | 🦊 Zed editor theme ported from Neovim |
 | [pleahmacaka/zed-batch](https://github.com/pleahmacaka/zed-batch) | 3 | 2026-08-27 | Windows Batch (.bat, .cmd) support |
 | [pngdrift/zed-actionscript](https://github.com/pngdrift/zed-actionscript) | 3 | 2026-08-27 | ActionScript language support for Zed editor |
-| [dylandersen/agent-language-support](https://github.com/dylandersen/agent-language-support) | 0 | 2026-08-26 | Unofficial community Zed language support compatible with Ag... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-08-30T18:43 | 1 | 582 | 2118 |
 | 2026-08-30T12:46 | 0 | 582 | 2117 |
 | 2026-08-30T06:49 | 0 | 582 | 2117 |
 | 2026-08-30T01:12 | 0 | 582 | 2117 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-08-29T01:00 | 0 | 582 | 2117 |
 | 2026-08-28T21:48 | 1 | 581 | 2117 |
 | 2026-08-28T16:48 | 5 | 579 | 2116 |
-| 2026-08-28T10:02 | 0 | 580 | 2111 |
 
 ---
 
