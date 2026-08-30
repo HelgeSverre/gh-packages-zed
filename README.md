@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1735** |
 | In official registry | 1246 |
 | Discovered via topics | 489 |
-| Last updated | 2026-08-30 06:49 UTC |
+| Last updated | 2026-08-30 12:46 UTC |
 
 ### By capability
 
@@ -120,14 +120,15 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [MrSubidubi/mlir-tablegen](https://github.com/MrSubidubi/mlir-tablegen) | 5 | 2026-08-30 | MLIR Extension for Zed |
+| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 134 | 2026-08-30 | The Ruby language support for Zed editor |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 96 | 2026-08-30 | True Dark Theme for Zed IDE |
 | [SinaMombeiny/S-DarkTheme.zed](https://github.com/SinaMombeiny/S-DarkTheme.zed) | 5 | 2026-08-30 | Dark theme for Zed |
 | [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-08-30 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
-| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 134 | 2026-08-29 | The Ruby language support for Zed editor |
 | [DankDown10256/licensr](https://github.com/DankDown10256/licensr) | 0 | 2026-08-29 | Licensr is a Zed IDE extension to write licenses for your pr... |
 | [alaestor/mirror-zed-cea](https://github.com/alaestor/mirror-zed-cea) | 0 | 2026-08-29 | zed extension for cheat engine auto-assembler script |
 | [tfuxu/zed-blueprint](https://github.com/tfuxu/zed-blueprint) | 9 | 2026-08-29 | Blueprint (.blp) language support for Zed editor |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-08-29 | Intelligent codebase search & indexing for Zed. Async MCP se... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 96 | 2026-08-29 | True Dark Theme for Zed IDE |
 | [pol-cova/cursor-theme-zed](https://github.com/pol-cova/cursor-theme-zed) | 0 | 2026-08-29 | A warm Cursor-inspired Zed theme with light and dark variant... |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-08-29 | A Zed extension that allows to highlight all occurrences of ... |
 | [BastenIT/zed-composer-support](https://github.com/BastenIT/zed-composer-support) | 1 | 2026-08-28 | Packagist links, installed-version hints, and update checks ... |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [pleahmacaka/zed-batch](https://github.com/pleahmacaka/zed-batch) | 3 | 2026-08-27 | Windows Batch (.bat, .cmd) support |
 | [pngdrift/zed-actionscript](https://github.com/pngdrift/zed-actionscript) | 3 | 2026-08-27 | ActionScript language support for Zed editor |
 | [dylandersen/agent-language-support](https://github.com/dylandersen/agent-language-support) | 0 | 2026-08-26 | Unofficial community Zed language support compatible with Ag... |
-| [lmarkmann/patina-theme](https://github.com/lmarkmann/patina-theme) | 3 | 2026-08-26 | A warm, muted color theme. Teal oxidation and amber warmth; ... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-08-30T12:46 | 0 | 582 | 2117 |
 | 2026-08-30T06:49 | 0 | 582 | 2117 |
 | 2026-08-30T01:12 | 0 | 582 | 2117 |
 | 2026-08-29T18:43 | 0 | 582 | 2117 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-08-28T21:48 | 1 | 581 | 2117 |
 | 2026-08-28T16:48 | 5 | 579 | 2116 |
 | 2026-08-28T10:02 | 0 | 580 | 2111 |
-| 2026-08-28T03:31 | 1 | 579 | 2111 |
 
 ---
 
