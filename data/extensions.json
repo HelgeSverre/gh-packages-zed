@@ -142,8 +142,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-08-30T18:40:45Z",
-    "pushed_at": "2026-08-30T07:32:21Z",
+    "updated_at": "2026-08-31T07:45:05Z",
+    "pushed_at": "2026-08-31T07:43:47Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -4998,7 +4998,7 @@
     "name": "huacnlee/zed-theme-macos-classic",
     "url": "https://github.com/huacnlee/zed-theme-macos-classic",
     "description": "A macOS native style theme for Zed, let it same like native app in macOS.",
-    "stars": 169,
+    "stars": 170,
     "forks": 6,
     "topics": [
       "macos-classic",
@@ -5009,7 +5009,7 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2024-01-29T02:19:59Z",
-    "updated_at": "2026-08-19T15:52:26Z",
+    "updated_at": "2026-08-31T09:03:16Z",
     "pushed_at": "2026-02-05T02:23:27Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -54722,7 +54722,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
     "updated_at": "2026-08-26T13:52:45Z",
-    "pushed_at": "2026-08-26T13:43:47Z",
+    "pushed_at": "2026-08-31T12:19:08Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false,
     "extension": {
@@ -59606,6 +59606,44 @@
       "sections": [],
       "categories": [
         "theme"
+      ]
+    }
+  },
+  "afrigon/zed-x": {
+    "name": "afrigon/zed-x",
+    "url": "https://github.com/afrigon/zed-x",
+    "description": "x syntax highlighting & language server for Zed",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "syntax-highlighting",
+      "x-lang",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Scheme",
+    "license": null,
+    "created_at": "2024-11-19T17:15:44Z",
+    "updated_at": "2026-08-31T12:20:57Z",
+    "pushed_at": "2024-11-24T05:48:29Z",
+    "discovered_at": "2026-08-31T12:51:35.636Z",
+    "official": false,
+    "extension": {
+      "id": "x",
+      "name": "x",
+      "description": "x support.",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Alexandre Frigon <alexandre@frigon.app>"
+      ],
+      "repository": "https://github.com/afrigon/zed-x",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
       ]
     }
   }

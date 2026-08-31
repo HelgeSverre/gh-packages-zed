@@ -157,8 +157,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-08-30T18:40:45Z",
-    "pushed_at": "2026-08-30T07:32:21Z",
+    "updated_at": "2026-08-31T07:45:05Z",
+    "pushed_at": "2026-08-31T07:43:47Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -3235,7 +3235,7 @@
     "name": "huacnlee/zed-theme-macos-classic",
     "url": "https://github.com/huacnlee/zed-theme-macos-classic",
     "description": "A macOS native style theme for Zed, let it same like native app in macOS.",
-    "stars": 169,
+    "stars": 170,
     "forks": 6,
     "topics": [
       "macos-classic",
@@ -3246,7 +3246,7 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2024-01-29T02:19:59Z",
-    "updated_at": "2026-08-19T15:52:26Z",
+    "updated_at": "2026-08-31T09:03:16Z",
     "pushed_at": "2026-02-05T02:23:27Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -18027,8 +18027,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-08-31T01:15:48Z",
-    "pushed_at": "2026-08-31T01:15:44Z",
+    "updated_at": "2026-08-31T07:05:04Z",
+    "pushed_at": "2026-08-31T07:02:42Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -32737,7 +32737,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
     "updated_at": "2026-08-26T13:52:45Z",
-    "pushed_at": "2026-08-26T13:43:47Z",
+    "pushed_at": "2026-08-31T12:19:08Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false
   },
@@ -32888,7 +32888,7 @@
     "license": null,
     "created_at": "2026-07-20T15:17:37Z",
     "updated_at": "2026-08-26T15:12:55Z",
-    "pushed_at": "2026-08-26T14:47:34Z",
+    "pushed_at": "2026-08-31T09:00:11Z",
     "discovered_at": "2026-07-20T19:15:55.157Z",
     "official": false
   },
@@ -35456,8 +35456,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-08-14T00:48:20Z",
-    "updated_at": "2026-08-29T12:42:29Z",
-    "pushed_at": "2026-08-29T08:29:02Z",
+    "updated_at": "2026-08-31T12:33:01Z",
+    "pushed_at": "2026-08-31T12:22:24Z",
     "discovered_at": "2026-08-15T18:51:44.196Z",
     "official": false
   },
@@ -36168,7 +36168,7 @@
     "name": "mpiton/zed-depsy",
     "url": "https://github.com/mpiton/zed-depsy",
     "description": "Dependi extension for the Zed editor — manage and update dependencies inline",
-    "stars": 32,
+    "stars": 33,
     "forks": 7,
     "topics": [
       "cargo",
@@ -36186,7 +36186,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2025-12-13T09:32:42Z",
-    "updated_at": "2026-08-30T13:27:29Z",
+    "updated_at": "2026-08-31T08:03:04Z",
     "pushed_at": "2026-08-30T13:38:43Z",
     "discovered_at": "2026-08-28T16:48:20.309Z",
     "official": true
@@ -36348,6 +36348,26 @@
     "updated_at": "2026-08-30T20:43:52Z",
     "pushed_at": "2026-08-30T20:43:42Z",
     "discovered_at": "2026-08-31T01:15:12.850Z",
+    "official": false
+  },
+  "afrigon/zed-x": {
+    "name": "afrigon/zed-x",
+    "url": "https://github.com/afrigon/zed-x",
+    "description": "x syntax highlighting & language server for Zed",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "syntax-highlighting",
+      "x-lang",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Scheme",
+    "license": null,
+    "created_at": "2024-11-19T17:15:44Z",
+    "updated_at": "2026-08-31T12:20:57Z",
+    "pushed_at": "2024-11-24T05:48:29Z",
+    "discovered_at": "2026-08-31T12:51:35.636Z",
     "official": false
   }
 }
