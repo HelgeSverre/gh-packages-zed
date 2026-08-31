@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1737** |
 | In official registry | 1246 |
 | Discovered via topics | 491 |
-| Last updated | 2026-08-31 01:15 UTC |
+| Last updated | 2026-08-31 07:02 UTC |
 
 ### By capability
 
@@ -97,7 +97,7 @@ cd website && npm install && npm run dev
 |---|---|---|
 | [biomejs/biome-zed](https://github.com/biomejs/biome-zed) | 466 | Biome extension for Zed |
 | [xhyrom/zed-discord-presence](https://github.com/xhyrom/zed-discord-presence) | 415 | extension for zed that adds support for discord rich presence using lsp |
-| [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 333 | Catppuccin Theme but as blurred variants + custom ones |
+| [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 334 | Catppuccin Theme but as blurred variants + custom ones |
 | [oxc-project/oxc-zed](https://github.com/oxc-project/oxc-zed) | 256 | Oxc extension for Zed |
 | [catppuccin/zed-icons](https://github.com/catppuccin/zed-icons) | 240 | 🦊 Soothing pastel icons for Zed |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 213 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
@@ -109,7 +109,7 @@ cd website && npm install && npm run dev
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 173 | 🦊 Zed editor theme ported from Neovim |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 169 | A macOS native style theme for Zed, let it same like native app in macOS. |
-| [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 153 |  |
+| [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 154 |  |
 | [zed-extensions/swift](https://github.com/zed-extensions/swift) | 149 | Extension for Zed to support Swift |
 | [thedadams/zed-comment](https://github.com/thedadams/zed-comment) | 148 | A comment extension for the Zed editor |
 | [slymax/zedokai](https://github.com/slymax/zedokai) | 145 | a theme for Zed based on the Monokai Pro color scheme |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-08-31T07:02 | 0 | 585 | 2120 |
 | 2026-08-31T01:15 | 2 | 583 | 2120 |
 | 2026-08-30T18:43 | 1 | 582 | 2118 |
 | 2026-08-30T12:46 | 0 | 582 | 2117 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-08-29T12:45 | 0 | 582 | 2117 |
 | 2026-08-29T06:48 | 0 | 582 | 2117 |
 | 2026-08-29T01:00 | 0 | 582 | 2117 |
-| 2026-08-28T21:48 | 1 | 581 | 2117 |
 
 ---
 
