@@ -1,0 +1,151 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>MLIR - Zed Extension Safari</title><meta name="description" content="MLIR Extension for Zed"><link rel="canonical" href="https://helgesverre.github.io/gh-packages-zed/package/felixtensor/zed-mlir/"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="MLIR - Zed Extension Safari"><meta property="og:description" content="MLIR Extension for Zed"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed/package/felixtensor/zed-mlir/"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="MLIR - Zed Extension Safari"><meta name="twitter:description" content="MLIR Extension for Zed"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/gh-packages-zed/_astro/ClientRouter.astro_astro_type_script_index_0_lang.ClVLs1kt.js"></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"MLIR","description":"MLIR Extension for Zed","applicationCategory":"DeveloperApplication","operatingSystem":"macOS, Linux, Windows","url":"https://zed.dev/extensions/mlir-tablegen","codeRepository":"https://github.com/felixtensor/zed-mlir","author":[{"@type":"Person","name":"felixtensor"},{"@type":"Person","name":"feichai0017"}],"softwareVersion":"0.6.3","license":"NOASSERTION","keywords":"grammar, language-server","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/Layout.CGDlMdWE.css"><script type="module" src="/gh-packages-zed/_astro/page.B8i1Zz-u.js"></script></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <a href="#main" class="skip-to-content">Skip to content</a> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" data-astro-transition-persist="astro-fhchcgd7-1"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <script type="application/json" id="pkg-extras">{"url":"https://github.com/felixtensor/zed-mlir","language":"Tree-sitter Query","license":"NOASSERTION","topics":["mlir","pdll","tablegen","tree-sitter","zed","zed-extension"],"extension":{"authors":["felixtensor","feichai0017"],"schema_version":1}}</script> <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> felixtensor/zed-mlir </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> MLIR </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> MLIR, TableGen, and PDLL support. </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="grammar">Grammar</span><span class="cat-badge" data-cat="language-server">Language Server</span> </div> </div> </div> </header> <main id="main" class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/mlir-tablegen" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/felixtensor/zed-mlir" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.6.3</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">mlir-tablegen</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">Tree-sitter Query</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">NOASSERTION</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">5</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">22m ago</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">felixtensor, feichai0017</dd> </div> </dl>  <h2 class="mt-5 text-xs uppercase font-mono" style="color:var(--zed-muted);">Topics</h2> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> mlir </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> pdll </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> tablegen </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> tree-sitter </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed-extension </span> </div>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-zed-mlir"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#zed-mlir"><span class="heading-anchor-icon">#</span></a>Zed MLIR</h1>
+<p><a href="https://github.com/felixtensor/zed-mlir/blob/HEAD/README.md" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/lang-EN-blue?style=flat-square" alt="EN"></a>
+<a href="https://github.com/felixtensor/zed-mlir/blob/HEAD/docs/README_ZH.md" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/lang-%E4%B8%AD%E6%96%87-lightgrey?style=flat-square" alt="中文"></a></p>
+<p><a href="https://github.com/felixtensor/zed-mlir/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/felixtensor/zed-mlir/ci.yml?style=flat-square&#x26;logo=githubactions&#x26;logoColor=white&#x26;label=CI" alt="CI"></a>
+<a href="https://github.com/felixtensor/zed-mlir/tags"><img src="https://img.shields.io/github/v/tag/felixtensor/zed-mlir?style=flat-square&#x26;logo=github&#x26;label=version" alt="Version"></a>
+<a href="https://github.com/felixtensor/zed-mlir/blob/HEAD/LICENSE" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/license-Apache%202.0%20with%20LLVM%20Exceptions-blue?style=flat-square&#x26;logo=apache&#x26;logoColor=white" alt="License"></a>
+<a href="https://github.com/felixtensor/zed-mlir/stargazers"><img src="https://img.shields.io/github/stars/felixtensor/zed-mlir?style=flat-square&#x26;logo=github" alt="Stars"></a></p>
+<p><a href="https://mlir.llvm.org">MLIR</a>, <a href="https://llvm.org/docs/TableGen/">TableGen</a>, and <a href="https://mlir.llvm.org/docs/PDLL/">PDLL</a> support for the <a href="https://zed.dev">Zed</a> editor.</p>
+<h2 id="user-content-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features"><span class="heading-anchor-icon">#</span></a>Features</h2>
+<ul>
+<li><strong>Tree-sitter grammars</strong> for MLIR (<code>.mlir</code>), TableGen (<code>.td</code>), and PDLL (<code>.pdll</code>) — the pinned MLIR parser parses a <a href="https://github.com/felixtensor/tree-sitter-mlir/blob/main/examples/README.md">curated corpus of official MLIR test files</a> without <code>ERROR</code> nodes; this extension's Zed queries provide highlighting on top of those syntax trees.</li>
+<li><strong>MLIR inside C++ raw strings</strong> — when Zed's bundled C++ grammar injects <code>raw_string_content</code> by delimiter, MLIR inside <code>R"mlir(…)mlir"</code> strings is highlighted using this extension's MLIR grammar.</li>
+<li><strong>First-class custom dialect support</strong> — user-defined or out-of-tree <code>dialect.op</code> forms are recognized and highlighted correctly, so your project's own dialects just work.</li>
+<li><strong>Symbol outline</strong> — navigate symbols in MLIR, TableGen, and PDLL from the outline panel.</li>
+<li><strong>Language Server integration</strong> for all three upstream LLVM servers:
+<ul>
+<li><code>mlir-lsp-server</code> for <code>.mlir</code></li>
+<li><code>mlir-pdll-lsp-server</code> for <code>.pdll</code></li>
+<li><code>tblgen-lsp-server</code> for <code>.td</code></li>
+</ul>
+</li>
+<li><strong>Rich completion labels</strong> — completion items from the MLIR and PDLL language servers are classified by their LSP kind and detail, so values, blocks, dialects, operations, types, attributes, constraints, and include paths are colored consistently.</li>
+<li><strong>Editing ergonomics</strong> — bracket matching, auto-close pairs, and indentation tuned for each language.</li>
+<li><strong>Vim text objects</strong> — function and comment objects in all three languages, class objects where the grammar has a matching construct, and the motions built on them.</li>
+</ul>
+<h2 id="user-content-prerequisites"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#prerequisites"><span class="heading-anchor-icon">#</span></a>Prerequisites</h2>
+<ul>
+<li><a href="https://zed.dev/download">Zed</a> editor</li>
+<li>(Optional) LLVM language servers for LSP features — see <a href="#language-support">Language Support</a>.</li>
+</ul>
+<h2 id="user-content-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation"><span class="heading-anchor-icon">#</span></a>Installation</h2>
+<p>Open the extension gallery with <code>Cmd+Shift+X</code> on macOS or <code>Ctrl+Shift+X</code> on Linux/Windows — or <strong>Zed > Extensions</strong> from the menu bar — then search for <strong>MLIR</strong> and click <strong>Install</strong>. Nothing else is required: no Rust toolchain, and no LLVM binaries.</p>
+<h3 id="user-content-install-as-a-dev-extension"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#install-as-a-dev-extension"><span class="heading-anchor-icon">#</span></a>Install as a dev extension</h3>
+<p>To run a local checkout instead — to try an unreleased change, or to work on the extension itself — clone the repository:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">git</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> clone</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> https://github.com/felixtensor/zed-mlir.git</span></span></code></pre>
+<p>Then open the command palette (<code>Cmd+Shift+P</code> on macOS, <code>Ctrl+Shift+P</code> on Linux/Windows) and run <strong><code>zed: install dev extension</code></strong>, selecting the cloned directory. Zed compiles the extension to WebAssembly on install, so this path needs a stable Rust toolchain from <a href="https://rustup.rs">rustup</a>. The first build fetches dependencies and may take a minute or two; <strong><code>zed: open log</code></strong> has the details if it fails.</p>
+<p>See <a href="https://github.com/felixtensor/zed-mlir/blob/HEAD/CONTRIBUTING.md" target="_blank" rel="noopener">CONTRIBUTING.md</a> for the development setup, and the Zed docs on <a href="https://zed.dev/docs/extensions/developing-extensions">Developing Extensions</a> for how extensions are structured.</p>
+<h2 id="user-content-language-support"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#language-support"><span class="heading-anchor-icon">#</span></a>Language Support</h2>
+<h3 id="user-content-core-editing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#core-editing"><span class="heading-anchor-icon">#</span></a>Core editing</h3>
+<p>No LLVM binaries are required. To keep Tree-sitter highlighting, symbol outlines, bracket matching, indentation, and Vim text objects without LSP features, disable language servers in your user settings or project <code>.zed/settings.json</code>:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "languages"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "MLIR"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"enable_language_server"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">false</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> },</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "PDLL"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"enable_language_server"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">false</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> },</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "TableGen"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"enable_language_server"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">false</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>See <a href="https://github.com/felixtensor/zed-mlir/blob/HEAD/docs/LANGUAGE_SERVER.md#disable-lsp" target="_blank" rel="noopener">Language Server Setup</a> for details.</p>
+<h3 id="user-content-lsp-code-intelligence"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#lsp-code-intelligence"><span class="heading-anchor-icon">#</span></a>LSP code intelligence</h3>
+<p>Install <code>mlir-lsp-server</code>, <code>mlir-pdll-lsp-server</code>, and <code>tblgen-lsp-server</code> to enable the LSP features supported by each language. Configure each server's binary path in Zed; alternatively, make the containing directory available on the worktree's <code>$PATH</code>. See <a href="https://github.com/felixtensor/zed-mlir/blob/HEAD/docs/LANGUAGE_SERVER.md#configure-lsp" target="_blank" rel="noopener">Language Server Setup</a> for the capability matrix, build instructions, settings, and <a href="https://github.com/felixtensor/zed-mlir/blob/HEAD/docs/REMOTE_DEVELOPMENT.md" target="_blank" rel="noopener">SSH remote development</a>.</p>
+<h3 id="user-content-vim-mode"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#vim-mode"><span class="heading-anchor-icon">#</span></a>Vim mode</h3>
+<p>In Vim mode, <code>af</code> / <code>if</code> and <code>ac</code> / <code>ic</code> select functions and classes, <code>gc</code> takes the surrounding run of comments, and <code>]m</code> moves between functions:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Language</th><th>Function (<code>af</code> / <code>if</code>, <code>]m</code>)</th><th>Class (<code>ac</code> / <code>ic</code>)</th></tr></thead><tbody><tr><td>MLIR</td><td><code>func.func</code>, <code>llvm.func</code></td><td><code>module</code>, <code>builtin.module</code></td></tr><tr><td>PDLL</td><td>top-level <code>Pattern</code>, <code>Constraint</code>, <code>Rewrite</code></td><td>—</td></tr><tr><td>TableGen</td><td>named <code>def</code>, <code>defm</code></td><td><code>class</code>, <code>multiclass</code></td></tr></tbody></table>
+<p>See <a href="https://github.com/felixtensor/zed-mlir/blob/HEAD/docs/VIM_MODE.md" target="_blank" rel="noopener">Vim Mode</a> for how each mapping follows the grammar's node shapes, and for the motion-depth limit in MLIR.</p>
+<h2 id="user-content-screenshots"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#screenshots"><span class="heading-anchor-icon">#</span></a>Screenshots</h2>
+<h3 id="user-content-out-of-tree-dialect-highlighting"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#out-of-tree-dialect-highlighting"><span class="heading-anchor-icon">#</span></a>Out-of-Tree Dialect Highlighting</h3>
+<p><img src="https://raw.githubusercontent.com/felixtensor/zed-mlir/assets/screenshots/downstream-triton.png" alt="Out-of-Tree Dialect Highlighting"></p>
+<h3 id="user-content-mlir-in-c-raw-strings"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#mlir-in-c-raw-strings"><span class="heading-anchor-icon">#</span></a>MLIR in C++ Raw Strings</h3>
+<p><img src="https://raw.githubusercontent.com/felixtensor/zed-mlir/assets/screenshots/cpp-inject-mlir.png" alt="MLIR in C++ Raw Strings"></p>
+<h3 id="user-content-go-to-definition"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#go-to-definition"><span class="heading-anchor-icon">#</span></a>Go to Definition</h3>
+<p><img src="https://raw.githubusercontent.com/felixtensor/zed-mlir/assets/screenshots/go-to-definition.gif" alt="Go to Definition"></p>
+<h3 id="user-content-find-references"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#find-references"><span class="heading-anchor-icon">#</span></a>Find References</h3>
+<p><img src="https://raw.githubusercontent.com/felixtensor/zed-mlir/assets/screenshots/find-references.gif" alt="Find References"></p>
+<h3 id="user-content-hover--signature"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#hover--signature"><span class="heading-anchor-icon">#</span></a>Hover / Signature</h3>
+<p><img src="https://raw.githubusercontent.com/felixtensor/zed-mlir/assets/screenshots/hover.gif" alt="Hover / Signature"></p>
+<h3 id="user-content-completion"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#completion"><span class="heading-anchor-icon">#</span></a>Completion</h3>
+<p><img src="https://raw.githubusercontent.com/felixtensor/zed-mlir/assets/screenshots/completion.gif" alt="Completion"></p>
+<h3 id="user-content-diagnostics"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#diagnostics"><span class="heading-anchor-icon">#</span></a>Diagnostics</h3>
+<p><img src="https://raw.githubusercontent.com/felixtensor/zed-mlir/assets/screenshots/diagnostics.gif" alt="Diagnostics"></p>
+<h3 id="user-content-symbol-outline"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#symbol-outline"><span class="heading-anchor-icon">#</span></a>Symbol Outline</h3>
+<p><img src="https://raw.githubusercontent.com/felixtensor/zed-mlir/assets/screenshots/outline.gif" alt="Symbol Outline"></p>
+<h2 id="user-content-acknowledgements"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#acknowledgements"><span class="heading-anchor-icon">#</span></a>Acknowledgements</h2>
+<p>This extension builds on:</p>
+<ul>
+<li><a href="https://mlir.llvm.org">MLIR</a> — the multi-level intermediate representation framework from the LLVM project.</li>
+<li><a href="https://github.com/felixtensor/tree-sitter-mlir">tree-sitter-mlir</a> — Tree-sitter grammar for MLIR.</li>
+<li><a href="https://github.com/felixtensor/tree-sitter-tablegen">tree-sitter-tablegen</a> — Tree-sitter grammar for TableGen.</li>
+<li><a href="https://github.com/felixtensor/tree-sitter-pdll">tree-sitter-pdll</a> — Tree-sitter grammar for PDLL.</li>
+<li>The three LSP servers (<code>mlir-lsp-server</code>, <code>mlir-pdll-lsp-server</code>, <code>tblgen-lsp-server</code>) are part of the <a href="https://github.com/llvm/llvm-project">LLVM project</a>.</li>
+</ul>
+<p>The out-of-tree dialect screenshot uses a TritonGPU test file from <a href="https://github.com/triton-lang/triton">Triton</a>.</p>
+<p>For MLIR tooling in other editors, see:</p>
+<ul>
+<li><a href="https://github.com/llvm/vscode-mlir">vscode-mlir</a> — official VS Code extension for MLIR, PDLL, and TableGen.</li>
+<li><a href="https://github.com/llvm/llvm-project/tree/main/mlir/utils/emacs">mlir-mode</a> — Emacs major mode and LSP client, shipped in the LLVM monorepo.</li>
+</ul>
+<h2 id="user-content-feedback--contributions"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#feedback--contributions"><span class="heading-anchor-icon">#</span></a>Feedback &#x26; Contributions</h2>
+<p>Development priorities are tracked in the <a href="https://github.com/felixtensor/zed-mlir/blob/HEAD/docs/ROADMAP.md" target="_blank" rel="noopener">roadmap</a>. See <a href="https://github.com/felixtensor/zed-mlir/blob/HEAD/CONTRIBUTING.md" target="_blank" rel="noopener">CONTRIBUTING.md</a> for issue reporting, development, and validation guidance.</p>
+<ul>
+<li>Use the <a href="https://github.com/felixtensor/zed-mlir/issues/new/choose">issue chooser</a> to report a bug, request a feature, or ask a setup question.</li>
+<li>Follow the <a href="https://github.com/felixtensor/zed-mlir/blob/HEAD/CONTRIBUTING.md#pull-requests" target="_blank" rel="noopener">pull request guidance</a> when submitting a change.</li>
+</ul>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>Apache License 2.0 with LLVM Exceptions.</p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>

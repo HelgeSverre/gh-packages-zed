@@ -34864,13 +34864,13 @@
     "name": "zed-extensions/log",
     "url": "https://github.com/zed-extensions/log",
     "description": "Syntax highlighting for log files in Zed.",
-    "stars": 50,
+    "stars": 51,
     "forks": 6,
     "topics": [],
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-02-18T13:35:25Z",
-    "updated_at": "2026-08-26T05:30:48Z",
+    "updated_at": "2026-08-31T13:44:50Z",
     "pushed_at": "2026-06-07T22:08:00Z",
     "discovered_at": "2026-05-19T21:55:15.596Z",
     "official": false,
@@ -54706,8 +54706,8 @@
     "name": "luceat-lux-vestra/zed-spring-tools",
     "url": "https://github.com/luceat-lux-vestra/zed-spring-tools",
     "description": "Spring Boot language intelligence for Zed, built on the required official Java extension. Early source release; one tested tuple (macOS arm64/JDK 25).",
-    "stars": 1,
-    "forks": 0,
+    "stars": 2,
+    "forks": 1,
     "topics": [
       "java",
       "jdt-ls",
@@ -54721,8 +54721,8 @@
     "language": "Java",
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
-    "updated_at": "2026-08-26T13:52:45Z",
-    "pushed_at": "2026-08-31T12:19:08Z",
+    "updated_at": "2026-08-31T18:38:57Z",
+    "pushed_at": "2026-08-31T18:34:37Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false,
     "extension": {
@@ -58114,7 +58114,7 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-07-31T22:30:00Z",
-    "updated_at": "2026-08-29T01:46:35Z",
+    "updated_at": "2026-08-31T16:27:27Z",
     "pushed_at": "2026-08-23T23:09:38Z",
     "discovered_at": "2026-08-11T19:03:16.749Z",
     "official": true,
@@ -59621,11 +59621,11 @@
       "zed",
       "zed-extension"
     ],
-    "language": "Scheme",
-    "license": null,
+    "language": "Tree-sitter Query",
+    "license": "MIT",
     "created_at": "2024-11-19T17:15:44Z",
-    "updated_at": "2026-08-31T12:20:57Z",
-    "pushed_at": "2024-11-24T05:48:29Z",
+    "updated_at": "2026-08-31T17:07:01Z",
+    "pushed_at": "2026-08-31T17:05:49Z",
     "discovered_at": "2026-08-31T12:51:35.636Z",
     "official": false,
     "extension": {
@@ -59638,6 +59638,99 @@
         "Alexandre Frigon <alexandre@frigon.app>"
       ],
       "repository": "https://github.com/afrigon/zed-x",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
+      ]
+    }
+  },
+  "felixtensor/zed-mlir": {
+    "name": "felixtensor/zed-mlir",
+    "url": "https://github.com/felixtensor/zed-mlir",
+    "description": "MLIR Extension for Zed",
+    "stars": 5,
+    "forks": 0,
+    "topics": [
+      "mlir",
+      "pdll",
+      "tablegen",
+      "tree-sitter",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Tree-sitter Query",
+    "license": "NOASSERTION",
+    "created_at": "2026-03-09T03:40:37Z",
+    "updated_at": "2026-08-31T18:27:19Z",
+    "pushed_at": "2026-08-31T18:24:47Z",
+    "discovered_at": "2026-08-31T18:46:32.811Z",
+    "official": false,
+    "extension": {
+      "id": "mlir-tablegen",
+      "name": "MLIR",
+      "description": "MLIR, TableGen, and PDLL support.",
+      "version": "0.6.3",
+      "schema_version": 1,
+      "authors": [
+        "felixtensor <xubuyun@outlook.com>",
+        "feichai0017 <songguocheng348@gmail.com>"
+      ],
+      "repository": "https://github.com/felixtensor/zed-mlir",
+      "snippets": null,
+      "sections": [
+        "grammars",
+        "language_servers"
+      ],
+      "categories": [
+        "grammar",
+        "language-server"
+      ]
+    }
+  },
+  "fireseasonnow/zed-better-comments": {
+    "name": "fireseasonnow/zed-better-comments",
+    "url": "https://github.com/fireseasonnow/zed-better-comments",
+    "description": "Better Comments for Zed: highlights //*, //!, //? and //# markers plus TODO/FIXME/NOTE tags. Fixes the markers Comments Highlighter advertises but never fires.",
+    "stars": 1,
+    "forks": 0,
+    "topics": [
+      "better-comments",
+      "code-comments",
+      "comment-tags",
+      "comments",
+      "developer-tools",
+      "editor-extension",
+      "fixme",
+      "highlighting",
+      "syntax-highlighting",
+      "todo",
+      "todo-comments",
+      "tree-sitter",
+      "tree-sitter-grammar",
+      "zed",
+      "zed-editor",
+      "zed-extension"
+    ],
+    "language": "JavaScript",
+    "license": "MIT",
+    "created_at": "2026-08-31T15:41:18Z",
+    "updated_at": "2026-08-31T16:04:55Z",
+    "pushed_at": "2026-08-31T15:57:59Z",
+    "discovered_at": "2026-08-31T18:46:32.811Z",
+    "official": false,
+    "extension": {
+      "id": "comment",
+      "name": "Better Comments",
+      "description": "Better Comments syntax for Zed. Fork of Comments Highlighter that recognises markers adjacent to the comment delimiter (//*, //!, //?, //#) and trailing comments.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "fireseason <45042199+fireseasonnow@users.noreply.github.com>"
+      ],
+      "repository": "https://github.com/fireseasonnow/zed-better-comments",
       "snippets": null,
       "sections": [
         "grammars"

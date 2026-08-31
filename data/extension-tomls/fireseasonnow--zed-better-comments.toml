@@ -1,0 +1,46 @@
+id = "comment"
+name = "Better Comments"
+version = "0.1.0"
+schema_version = 1
+authors = ["fireseason <45042199+fireseasonnow@users.noreply.github.com>"]
+description = "Better Comments syntax for Zed. Fork of Comments Highlighter that recognises markers adjacent to the comment delimiter (//*, //!, //?, //#) and trailing comments."
+repository = "https://github.com/fireseasonnow/zed-better-comments"
+
+#* Retains id = "comment" deliberately. Zed uninstalls a published extension before
+#* installing a dev extension of the same id, so this replaces Comments Highlighter
+#* atomically instead of contending with it for the single `comment` language slot.
+#* A different id would let both install and fight over that slot, with undefined
+#* resolution order — the intuitive way to avoid a collision is the only way to
+#* cause one. Nothing is lost in the swap: every tag and capture name the incumbent
+#* emits is preserved.
+#*
+#* This also means the extension CANNOT go to the Zed registry as-is: registry ids
+#* are unique and `comment` is taken by the extension this replaces. It installs as
+#* a dev extension from a clone.
+
+[grammars.comment]
+#* GrammarManifestEntry requires repository + rev, and Zed resolves the grammar by
+#* revision — it shells out to `git fetch` + `git checkout`. So `repository` points
+#* at THIS repository and `path` selects the grammar subdirectory: one repository,
+#* one history, no submodule.
+#*
+#* `rev` must be a commit that exists on the remote. After any edit under
+#* tree-sitter-comment/src/:
+#*
+#*   cd tree-sitter-comment && npx tree-sitter generate && npx tree-sitter test
+#*   cd .. && git add -A && git commit -m "..."
+#*   ./scripts/stamp-grammar-rev.sh     # writes HEAD into `rev` below
+#*   git commit -am "Stamp grammar rev"
+#*   git push
+#*   zed: install dev extension
+#*
+#* The commit and push are not optional; an unpushed grammar change is invisible to
+#* Zed. To iterate without pushing, point `repository` at your local absolute path
+#* (a filesystem path is a valid git remote) — then only the commit is required.
+#*
+#* If checkout_repo refuses with "already exists, but is not a git clone of",
+#* delete grammars/ — it is a gitignored build artifact whose origin must match
+#* `repository`, so it goes stale whenever that value changes.
+repository = "https://github.com/fireseasonnow/zed-better-comments"
+rev = "6011951b6f48847e469b6bd1d9766a89551940a2"
+path = "tree-sitter-comment"

@@ -1,0 +1,229 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Better Comments - Zed Extension Safari</title><meta name="description" content="Better Comments for Zed: highlights //*, //!, //? and //# markers plus TODO/FIXME/NOTE tags. Fixes the markers Comments Highlighter advertises but never fires."><link rel="canonical" href="https://helgesverre.github.io/gh-packages-zed/package/fireseasonnow/zed-better-comments/"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Better Comments - Zed Extension Safari"><meta property="og:description" content="Better Comments for Zed: highlights //*, //!, //? and //# markers plus TODO/FIXME/NOTE tags. Fixes the markers Comments Highlighter advertises but never fires."><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed/package/fireseasonnow/zed-better-comments/"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Better Comments - Zed Extension Safari"><meta name="twitter:description" content="Better Comments for Zed: highlights //*, //!, //? and //# markers plus TODO/FIXME/NOTE tags. Fixes the markers Comments Highlighter advertises but never fires."><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/gh-packages-zed/_astro/ClientRouter.astro_astro_type_script_index_0_lang.ClVLs1kt.js"></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Better Comments","description":"Better Comments for Zed: highlights //*, //!, //? and //# markers plus TODO/FIXME/NOTE tags. Fixes the markers Comments Highlighter advertises but never fires.","applicationCategory":"DeveloperApplication","operatingSystem":"macOS, Linux, Windows","url":"https://zed.dev/extensions/comment","codeRepository":"https://github.com/fireseasonnow/zed-better-comments","author":[{"@type":"Person","name":"fireseason"}],"softwareVersion":"0.1.0","license":"MIT","keywords":"grammar","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/Layout.CGDlMdWE.css"><script type="module" src="/gh-packages-zed/_astro/page.B8i1Zz-u.js"></script></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <a href="#main" class="skip-to-content">Skip to content</a> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" data-astro-transition-persist="astro-fhchcgd7-1"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <script type="application/json" id="pkg-extras">{"url":"https://github.com/fireseasonnow/zed-better-comments","language":"JavaScript","license":"MIT","topics":["better-comments","code-comments","comment-tags","comments","developer-tools","editor-extension","fixme","highlighting","syntax-highlighting","todo","todo-comments","tree-sitter","tree-sitter-grammar","zed","zed-editor","zed-extension"],"extension":{"authors":["fireseason"],"schema_version":1}}</script> <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> fireseasonnow/zed-better-comments </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> Better Comments </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> Better Comments syntax for Zed. Fork of Comments Highlighter that recognises markers adjacent to the comment delimiter (//*, //!, //?, //#) and trailing comments. </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="grammar">Grammar</span> </div> </div> </div> </header> <main id="main" class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/comment" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/fireseasonnow/zed-better-comments" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.1.0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">comment</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">JavaScript</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">MIT</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">1</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">2h ago</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">fireseason</dd> </div> </dl>  <h2 class="mt-5 text-xs uppercase font-mono" style="color:var(--zed-muted);">Topics</h2> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> better-comments </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> code-comments </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> comment-tags </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> comments </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> developer-tools </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> editor-extension </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> fixme </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> highlighting </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> syntax-highlighting </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> todo </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> todo-comments </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> tree-sitter </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> tree-sitter-grammar </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed-editor </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed-extension </span> </div>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-better-comments-for-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#better-comments-for-zed"><span class="heading-anchor-icon">#</span></a>Better Comments for Zed</h1>
+<p><a href="https://github.com/fireseasonnow/zed-better-comments/actions?query=workflow%3ACI+branch%3Amain"><img src="https://github.com/fireseasonnow/zed-better-comments/workflows/CI/badge.svg" alt="CI"></a></p>
+<p><img src="https://raw.githubusercontent.com/fireseasonnow/zed-better-comments/HEAD/assets/hero.png" alt="Comments Highlighter on the left, this fork on the right. The //, //!, //# and //// lines, plus #, -- and ** block continuations, are plain grey in the left panel and coloured in the right one."></p>
+<p><sub>Colours as they resolve in a One Dark-style theme — they come from your theme, not from this extension. Regenerate with <code>assets/hero.html</code>.</sub></p>
+<p>Better Comments syntax in Zed. A fork of <a href="https://zed.dev/extensions/comment">Comments Highlighter</a> (<code>thedadams/zed-comment</code>) that fixes the reason its advertised <code>*</code>, <code>!</code>, and <code>#</code> markers never fired.</p>
+<h2 id="user-content-why-this-exists"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#why-this-exists"><span class="heading-anchor-icon">#</span></a>Why this exists</h2>
+<p>Comments Highlighter declares support for <code>*</code>, <code>!</code>, <code>?</code>, and <code>#</code> in its <code>highlights.scm</code>, but three of the four are unreachable. Its grammar's external scanner has two overlapping character sets:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">is_possible_start_of_tag </span><span style="color:#D73A49;--shiki-dark:#F97583">=</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> { </span><span style="color:#D73A49;--shiki-dark:#F97583">/</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> # </span><span style="color:#D73A49;--shiki-dark:#F97583">*</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> ; </span><span style="color:#D73A49;--shiki-dark:#F97583">+</span><span style="color:#D73A49;--shiki-dark:#F97583"> -</span><span style="color:#D73A49;--shiki-dark:#F97583"> !</span><span style="color:#D73A49;--shiki-dark:#F97583"> |</span><span style="color:#D73A49;--shiki-dark:#F97583"> &#x3C;</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> [ </span><span style="color:#D73A49;--shiki-dark:#F97583">%</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> }</span><span style="color:#6A737D;--shiki-dark:#6A737D">   // comment-prefix punctuation</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">is_special_tag           </span><span style="color:#D73A49;--shiki-dark:#F97583">=</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> { </span><span style="color:#D73A49;--shiki-dark:#F97583">*</span><span style="color:#D73A49;--shiki-dark:#F97583"> !</span><span style="color:#D73A49;--shiki-dark:#F97583"> ?</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> # }</span><span style="color:#6A737D;--shiki-dark:#6A737D">                 // marker characters</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">                             ▲ ▲ ▲ ▲</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">                             │ │ │ └─ in both → eaten as prefix → never tags</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">                             │ │ └─── NOT in the prefix set → the only one that worked</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">                             └─┴───── in both → eaten as prefix → never tags</span></span></code></pre>
+<p><code>parse_tagprefix()</code> greedily consumed every punctuation character, so in <code>//* text</code> the <code>*</code> was swallowed before the tag-name scanner ran. <code>?</code> is absent from the prefix set, which is exactly why <code>//?</code> was the single adjacent-marker form that worked.</p>
+<p>This fork marks the token end before each marker, so the last one falls outside the prefix. <code>//*</code> becomes prefix <code>//</code> plus name <code>*</code>.</p>
+<h2 id="user-content-what-changed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#what-changed"><span class="heading-anchor-icon">#</span></a>What changed</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Form</th><th>Comments Highlighter</th><th>This fork</th></tr></thead><tbody><tr><td><code>//* highlighted note</code></td><td>not highlighted</td><td>highlighted</td></tr><tr><td><code>//! alert</code></td><td>not highlighted</td><td>highlighted</td></tr><tr><td><code>//# warning</code></td><td>not highlighted</td><td>highlighted</td></tr><tr><td><code>////* repeated delimiters</code></td><td>not highlighted</td><td>highlighted</td></tr><tr><td><code>#* hash delimiter</code></td><td>not highlighted</td><td>highlighted</td></tr><tr><td><code>--* sql delimiter</code></td><td>not highlighted</td><td>highlighted</td></tr><tr><td><code> ** block continuation</code></td><td>not highlighted</td><td>highlighted</td></tr><tr><td><code>//?</code>, <code>// *</code>, <code>// !</code>, <code>// ?</code></td><td>highlighted</td><td>unchanged</td></tr><tr><td>all 20 word tags</td><td>highlighted</td><td>unchanged</td></tr><tr><td><code> * @param</code> JSDoc</td><td>not highlighted</td><td>unchanged — still not highlighted</td></tr></tbody></table>
+<p>Trailing comments (<code>const x = 3; //* note</code>) highlight too, in every delimiter family. That needed no change: Zed injects only the comment node's own range, so the scanner sees column 0 no matter what precedes the comment on the line.</p>
+<p>Lower-case prose after a symbol marker works, which it has to: <code>//* returns the flat story</code> is how the syntax is actually written. The all-caps requirement still applies to word tags, because dropping it there would tag every capitalised sentence.</p>
+<h2 id="user-content-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation"><span class="heading-anchor-icon">#</span></a>Installation</h2>
+<p>This installs as a dev extension. It is not on the Zed registry and cannot be: registry ids are unique, and the <code>comment</code> id belongs to the extension this replaces — see the note below on why sharing that id is the point.</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">git</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> clone</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> https://github.com/fireseasonnow/zed-better-comments.git</span></span></code></pre>
+<p>Then run <code>zed: install dev extension</code> from the command palette and select the repository root. Nothing needs editing first — <code>[grammars.comment]</code> in <code>extension.toml</code> points at this repository's GitHub URL, and <code>path = "tree-sitter-comment"</code> selects the grammar subdirectory, so Zed fetches the grammar itself.</p>
+<p>Zed compiles the grammar to wasm on install; the first build takes a few seconds.</p>
+<p><strong>Installing this uninstalls Comments Highlighter.</strong> That is deliberate, not a side effect. Zed core hardcodes <code>(#set! injection.language "comment")</code> in the <code>injections.scm</code> of 60+ languages, so exactly one extension can occupy the language named <code>comment</code>. Sharing the extension id <code>comment</code> makes Zed swap them atomically. Giving this fork a <em>different</em> id would let both install and contend for that one slot with undefined resolution order — the intuitive way to avoid a collision is the only way to cause one.</p>
+<p>Nothing is lost in the swap: every tag and every capture name the incumbent emits is preserved.</p>
+<p><strong>Rollback:</strong> uninstall the dev extension and reinstall Comments Highlighter from the Extensions panel. No settings or files need reverting.</p>
+<h2 id="user-content-tags"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#tags"><span class="heading-anchor-icon">#</span></a>Tags</h2>
+<p>Colours come from your theme, resolved through Zed's longest-dotted-prefix fallback (<code>string.comment.info.text</code> → <code>string.comment.info</code> → <code>string.comment</code> → <code>string</code>). Every mainstream theme defines these, so it is readable in light and dark with no configuration.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Markers and tags</th><th>Capture family</th></tr></thead><tbody><tr><td><code>TODO</code> <code>WIP</code> <code>MAYBE</code> <code>QUESTION</code> <code>?</code></td><td><code>constant.comment.todo</code></td></tr><tr><td><code>NOTE</code> <code>XXX</code> <code>INFO</code> <code>DOCS</code> <code>PERF</code> <code>TEST</code> <code>*</code> <code>**</code></td><td><code>string.comment.info</code></td></tr><tr><td><code>FIXME</code> <code>FIX</code> <code>BUG</code> <code>ERROR</code> <code>DELETE</code> <code>!</code></td><td><code>property.comment.error</code></td></tr><tr><td><code>HACK</code> <code>WARNING</code> <code>WARN</code> <code>SAFETY</code> <code>IMPORTANT</code> <code>#</code></td><td><code>keyword.comment.warn</code></td></tr></tbody></table>
+<p>Each family also emits <code>.prefix</code>, <code>.bracket</code>, <code>.user</code>, and <code>.text</code> sub-captures. They partition the whole span from delimiter to end of line, so setting them to one colour reproduces upstream Better Comments' whole-line decoration.</p>
+<h3 id="user-content-block-comments"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#block-comments"><span class="heading-anchor-icon">#</span></a>Block comments</h3>
+<p>Use a doubled marker for an intentional highlight block, and a single <code>*</code> stays ordinary JSDoc:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">/**</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"> ** Knowledge base search URL contract:      ← highlighted</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"> ** - q: search query (omitted when empty)   ← highlighted</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"> */</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">/**</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"> * </span><span style="color:#D73A49;--shiki-dark:#F97583">@param</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> cardIndex</span><span style="color:#6A737D;--shiki-dark:#6A737D"> - zero-based index       ← plain, by design</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"> */</span></span></code></pre>
+<p>This is not a house convention layered on top of Better Comments — it is what upstream does. Its <code>FindJSDocComments</code> prefix group is <code>([ \t]*\*[ \t]*)</code>, consuming exactly one <code>*</code> before requiring a tag. So <code>** text</code> is upstream's way of tagging a JSDoc line, and <code> * @param</code> finds no tag after the prefix and is left alone.</p>
+<h3 id="user-content-consecutive-lines-merge"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#consecutive-lines-merge"><span class="heading-anchor-icon">#</span></a>Consecutive lines merge</h3>
+<p>Consecutive tagged lines become one run in the first line's colour, and only the first name is recognised. A blank line resets it. Inherited behaviour, unchanged:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">// TODO: recognised, colours the whole run</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">// FIXME: absorbed as text, not its own tag</span></span></code></pre>
+<h2 id="user-content-official-better-comments-colours"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#official-better-comments-colours"><span class="heading-anchor-icon">#</span></a>Official Better Comments colours</h2>
+<p>Upstream's palette is tuned for a dark background, so it is not baked in. To opt in, add this under your theme name — note that upstream gives <code>todo</code> (<code>#FF8C00</code>) and <code>?</code> (<code>#3498DB</code>) different colours while both map to <code>constant.comment.todo</code> here, so pick one:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "experimental.theme_overrides"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "syntax"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "constant.comment.todo"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"color"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"#FF8C00"</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> },</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "string.comment.info"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"color"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"#98C379"</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> },</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "property.comment.error"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"color"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"#FF2D00"</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> },</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "keyword.comment.warn"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"color"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"#FF8C00"</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h2 id="user-content-on-italic-comments"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#on-italic-comments"><span class="heading-anchor-icon">#</span></a>On italic comments</h2>
+<p>Side by side with VS Code, the one visual difference is italic. That is a theme
+difference, not something this extension drops. Zed's Ayu Dark and One Light both
+define <code>comment</code> with no <code>font_style</code>, so comments are upright there whether or
+not they carry a tag — and so are <code>string</code>, <code>property</code>, <code>constant</code>, and <code>keyword</code>,
+which is where tag colours resolve. Many VS Code themes italicise comments, and
+Better Comments only layers colour on top, so the italic survives there.</p>
+<p>If you want that look, italicise <strong>all</strong> comments rather than only tagged ones.
+Styling just the four families leaves tagged comments italic among upright plain
+ones, which is not what VS Code does:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#032F62;--shiki-dark:#9ECBFF">"theme_overrides"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "Ayu Dark"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "syntax"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "comment"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"font_style"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"italic"</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> },</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "comment.doc"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"font_style"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"italic"</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> },</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "string.comment.info"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"font_style"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"italic"</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> },</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "property.comment.error"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"font_style"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"italic"</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> },</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "constant.comment.todo"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"font_style"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"italic"</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> },</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "keyword.comment.warn"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"font_style"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"italic"</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>Use the theme-name-keyed form, not <code>experimental.theme_overrides</code>, if you switch
+between a light and a dark theme — the experimental key only applies to whichever
+is currently active. Merge with the palette block above where they overlap:
+<code>{ "color": "#98C379", "font_style": "italic" }</code>.</p>
+<h2 id="user-content-known-limitations"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#known-limitations"><span class="heading-anchor-icon">#</span></a>Known limitations</h2>
+<p><strong>No strikethrough for the <code>//</code> commented-out-code tag.</strong> Unreachable on this rail. <code>HighlightStyleContent</code>, the deserialisation target for theme syntax styles, carries only <code>color</code>, <code>background_color</code>, <code>font_style</code>, and <code>font_weight</code>. <code>strikethrough</code> exists on the semantic-token rail (<code>global_lsp_settings.semantic_token_rules</code>), which a grammar extension does not use. A language server emitting semantic tokens would unlock it, at the cost of a shipped binary, a per-language opt-in (<code>semantic_tokens</code> defaults to <code>"off"</code>), and unverified token-merge behaviour alongside <code>vtsls</code>.</p>
+<p><strong>Same-line block tags are highlighted, where upstream leaves them plain.</strong> <code>/* NOTE: … */</code> tags here; upstream's block matcher anchors the tag to line start and requires whitespace after <code>/*</code>, so it does not. This is inherited Comments Highlighter behaviour, kept because replacement is automatic and silent and the superset guarantee outranks strict parity.</p>
+<p>Each such tag keeps its own colour family — <code>/* TODO: */</code> purple, <code>/* FIXME: */</code> blue — because a marker inside a block-comment <em>opener</em> is treated as delimiter rather than tag. Without that, the star of <code>/*</code> would be read as the marker and every block word tag would collapse into one colour. CSS and SCSS have no other comment form, so that would have been widely visible. A marker directly against the opener, <code>/*!</code>, produces no tag, matching upstream.</p>
+<h2 id="user-content-development"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#development"><span class="heading-anchor-icon">#</span></a>Development</h2>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">cd</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> tree-sitter-comment</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">npm</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> install</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">npx</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> tree-sitter</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> generate</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">npx</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> tree-sitter</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> test</span><span style="color:#6A737D;--shiki-dark:#6A737D">                                    # 51 fixtures</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">npx</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> tree-sitter</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> query</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> ../languages/comment/highlights.scm</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> FILE</span><span style="color:#6A737D;--shiki-dark:#6A737D">   # check captures, not just structure</span></span></code></pre>
+<p><code>tree-sitter test</code> compares structure only, so it cannot tell which <em>name</em> matched. Use <code>tree-sitter query</code> against <code>highlights.scm</code> when the capture family matters — it is also the closest offline proxy for what Zed renders.</p>
+<p>Iteration loop after any edit to <code>src/scanner.c</code> or <code>grammar.js</code>:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">cd</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> tree-sitter-comment</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> &#x26;&#x26; </span><span style="color:#6F42C1;--shiki-dark:#B392F0">npx</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> tree-sitter</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> generate</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> &#x26;&#x26; </span><span style="color:#6F42C1;--shiki-dark:#B392F0">npx</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> tree-sitter</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> test</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> &#x26;&#x26; </span><span style="color:#005CC5;--shiki-dark:#79B8FF">cd</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> ..</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">git</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> add</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -A</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> &#x26;&#x26; </span><span style="color:#6F42C1;--shiki-dark:#B392F0">git</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> commit</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -m</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> "..."</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">./scripts/stamp-grammar-rev.sh</span><span style="color:#6A737D;--shiki-dark:#6A737D">      # writes HEAD into `rev` in extension.toml</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">git</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> commit</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -am</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> "Stamp grammar rev"</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">git</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> push</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># zed: install dev extension</span></span></code></pre>
+<p>The commit and push are not optional. <code>[grammars.comment]</code> resolves by <code>repository</code> + <code>rev</code>, and <code>ExtensionBuilder::checkout_repo</code> shells out to <code>git fetch</code> + <code>git checkout</code>, so an unpushed grammar change is invisible to Zed. Committing the generated <code>src/parser.c</code> is likewise required — Zed builds the grammar but never runs <code>tree-sitter generate</code>.</p>
+<p>To iterate without pushing, point <code>repository</code> under <code>[grammars.comment]</code> at your local absolute checkout path; a filesystem path is a valid git remote, and then only the local commit is needed. Do not push that value.</p>
+<p>Zed clones the grammar into <code>grammars/</code> (gitignored) and skips recompiling when the wasm is newer than the sources. <code>stamp-grammar-rev.sh</code> deletes that clone so the next install refetches; it also goes stale whenever <code>repository</code> changes, which is when <code>checkout_repo</code> reports "already exists, but is not a git clone of".</p>
+<h2 id="user-content-credits"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#credits"><span class="heading-anchor-icon">#</span></a>Credits</h2>
+<ul>
+<li><a href="https://github.com/thedadams/zed-comment">thedadams/zed-comment</a> and <a href="https://github.com/thedadams/tree-sitter-comment">thedadams/tree-sitter-comment</a> — the extension and grammar this forks, MIT.</li>
+<li><a href="https://github.com/stsewd/tree-sitter-comment">stsewd/tree-sitter-comment</a> — the original grammar, MIT.</li>
+<li><a href="https://github.com/aaron-bond/better-comments">aaron-bond/better-comments</a> — the VS Code extension whose <code>src/parser.ts</code> this fork's behaviour is specified against, MIT.</li>
+</ul>
+<p>Licensing and provenance are set out in <a href="https://github.com/fireseasonnow/zed-better-comments/blob/HEAD/LICENSE" target="_blank" rel="noopener">LICENSE</a> and <a href="https://github.com/fireseasonnow/zed-better-comments/blob/HEAD/NOTICE" target="_blank" rel="noopener">NOTICE</a>.</p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>

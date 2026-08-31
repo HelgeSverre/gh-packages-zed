@@ -1,0 +1,34 @@
+id = "mlir-tablegen"
+name = "MLIR"
+description = "MLIR, TableGen, and PDLL support."
+version = "0.6.3"
+schema_version = 1
+authors = [
+    "felixtensor <xubuyun@outlook.com>",
+    "feichai0017 <songguocheng348@gmail.com>",
+]
+repository = "https://github.com/felixtensor/zed-mlir"
+
+[grammars.mlir]
+repository = "https://github.com/felixtensor/tree-sitter-mlir"
+commit = "06a0f9237dd3166e2021090e6d30ca08fb13c8e3"
+
+[grammars.tablegen]
+repository = "https://github.com/felixtensor/tree-sitter-tablegen"
+commit = "e803084a70b2d8bb47bfe3c390dc6756e67d9da8"
+
+[grammars.pdll]
+repository = "https://github.com/felixtensor/tree-sitter-pdll"
+commit = "2fc85e2af4e3996a81051758fdbc3e729f962aee"
+
+[language_servers.mlir-lsp-server]
+name = "mlir-lsp-server"
+languages = ["MLIR"]
+
+[language_servers.mlir-pdll-lsp-server]
+name = "mlir-pdll-lsp-server"
+languages = ["PDLL"]
+
+[language_servers.tblgen-lsp-server]
+name = "tblgen-lsp-server"
+languages = ["TableGen"]
