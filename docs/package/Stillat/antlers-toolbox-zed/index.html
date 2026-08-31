@@ -1,0 +1,159 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Antlers Toolbox - Zed Extension Safari</title><meta name="description" content="Antlers Toolbox for Zed"><link rel="canonical" href="https://helgesverre.github.io/gh-packages-zed/package/Stillat/antlers-toolbox-zed/"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Antlers Toolbox - Zed Extension Safari"><meta property="og:description" content="Antlers Toolbox for Zed"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed/package/Stillat/antlers-toolbox-zed/"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Antlers Toolbox - Zed Extension Safari"><meta name="twitter:description" content="Antlers Toolbox for Zed"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/gh-packages-zed/_astro/ClientRouter.astro_astro_type_script_index_0_lang.ClVLs1kt.js"></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Antlers Toolbox","description":"Antlers Toolbox for Zed","applicationCategory":"DeveloperApplication","operatingSystem":"macOS, Linux, Windows","url":"https://zed.dev/extensions/statamic-antlers-toolbox","codeRepository":"https://github.com/Stillat/antlers-toolbox-zed","author":[{"@type":"Person","name":"John Koster"}],"softwareVersion":"0.4.0","license":"MIT","keywords":"grammar, language-server","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/Layout.CGDlMdWE.css"><script type="module" src="/gh-packages-zed/_astro/page.B8i1Zz-u.js"></script></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <a href="#main" class="skip-to-content">Skip to content</a> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" data-astro-transition-persist="astro-fhchcgd7-1"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <script type="application/json" id="pkg-extras">{"url":"https://github.com/Stillat/antlers-toolbox-zed","language":"JavaScript","license":"MIT","topics":["antlers","statamic","zed-extension"],"extension":{"authors":["John Koster"],"schema_version":1}}</script> <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> Stillat/antlers-toolbox-zed </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> Antlers Toolbox </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> Statamic Antlers templates with language-server support. </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="grammar">Grammar</span><span class="cat-badge" data-cat="language-server">Language Server</span> </div> </div> </div> </header> <main id="main" class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/statamic-antlers-toolbox" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/Stillat/antlers-toolbox-zed" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.4.0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">statamic-antlers-toolbox</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">JavaScript</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">MIT</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">1</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">29m ago</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">John Koster</dd> </div> </dl>  <h2 class="mt-5 text-xs uppercase font-mono" style="color:var(--zed-muted);">Topics</h2> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> antlers </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> statamic </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed-extension </span> </div>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-antlers-toolbox-for-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#antlers-toolbox-for-zed"><span class="heading-anchor-icon">#</span></a>Antlers Toolbox for Zed</h1>
+<p><a href="https://github.com/Stillat/antlers-toolbox-zed/actions/workflows/ci.yml"><img src="https://github.com/Stillat/antlers-toolbox-zed/actions/workflows/ci.yml/badge.svg" alt="CI"></a></p>
+<p>Statamic Antlers language support for <a href="https://zed.dev/">Zed</a>, powered by the
+<a href="https://github.com/Stillat/vscode-antlers-language-server">Antlers Language Server</a> and
+<a href="https://github.com/Stillat/tree-sitter-antlers">tree-sitter-antlers</a>.</p>
+<h2 id="user-content-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features"><span class="heading-anchor-icon">#</span></a>Features</h2>
+<ul>
+<li>syntax highlighting for Antlers tags, variables, parameters, modifiers, expressions, comments,
+component directives, front matter, and embedded PHP</li>
+<li>HTML, CSS, and JavaScript highlighting across Antlers regions</li>
+<li>completions, hover information, go to definition, find references, document symbols, warnings,
+errors, and quick fixes</li>
+<li>formatting for whole files or selected ranges</li>
+<li>folding, code outlines, automatic indentation, bracket matching, and syntax-aware text selection</li>
+<li>optional inline field-type hints and semantic highlighting</li>
+<li>automatic hiding of sensitive parameter values during collaboration</li>
+</ul>
+<p>The extension recognizes:</p>
+<ul>
+<li><code>*.antlers.html</code></li>
+<li><code>*.antlers.php</code></li>
+<li><code>*.antlers.xml</code></li>
+</ul>
+<h2 id="user-content-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation"><span class="heading-anchor-icon">#</span></a>Installation</h2>
+<p>The extension can currently be installed from source:</p>
+<ol>
+<li>Install a current Zed build and <a href="https://rustup.rs/">Rust through <code>rustup</code></a>. Zed downloads the
+additional build tools it needs automatically.</li>
+<li>Clone or download this repository. You do not need a separate copy of <code>tree-sitter-antlers</code> or
+to run <code>npm install</code> for a normal installation.</li>
+<li>Remove any earlier <strong>Antlers</strong> dev-extension installation, and uninstall or disable the
+existing <strong>Statamic Antlers</strong> gallery extension if it is installed. They use different extension
+IDs but recognize the same file extensions.</li>
+<li>Open Zed's command palette and run <strong>zed: install dev extension</strong>.</li>
+<li>Select the directory containing <code>extension.toml</code>.</li>
+<li>Open an Antlers template and confirm that the language selector shows <strong>Antlers</strong>.</li>
+</ol>
+<p>On first use, the extension installs the latest published <code>antlers-language-server</code> package with
+Zed's managed Node.js runtime. Users who restrict extension capabilities must allow <code>npm:install</code>
+for <code>antlers-language-server</code>.</p>
+<h2 id="user-content-configuration"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#configuration"><span class="heading-anchor-icon">#</span></a>Configuration</h2>
+<p>Language-server settings can be supplied through Zed's <code>lsp</code> settings:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "antlers-language-server"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "formatFrontMatter"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">false</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "showGeneralSnippetCompletions"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">true</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "formatterIgnoreExtensions"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"xml"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">],</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "inlayHints"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">          "showFieldTypes"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">true</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">        },</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "diagnostics"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">          "reportDiagnostics"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">true</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">          "warnOnDynamicCssClassNames"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">true</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">          "validateTagParameters"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">true</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">        },</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "html"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">          "format"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">            "wrapLineLength"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">120</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">          }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">        }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>Field-type hints also require Zed's <code>inlay_hints.enabled</code> editor setting. Semantic highlighting is
+available when Zed's <code>semantic_tokens</code> setting is <code>combined</code> or <code>full</code>.</p>
+<p>See the
+<a href="https://github.com/Stillat/vscode-antlers-language-server">Antlers Language Server repository</a>
+for the available language-server behavior and settings.</p>
+<h2 id="user-content-troubleshooting"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#troubleshooting"><span class="heading-anchor-icon">#</span></a>Troubleshooting</h2>
+<p>If highlighting and language features are both missing, check the language selector first. It
+should show <strong>Antlers</strong>, not HTML or Plain Text. After rebuilding the extension, close and reopen
+any affected Antlers tabs so Zed reloads its language support.</p>
+<p>Zed stores cached copies of the parsers under this repository's ignored <code>grammars/</code> directory. If
+you switched <code>extension.toml</code> between a local grammar and the released GitHub version, clear those
+cached copies before reinstalling:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">node</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> scripts/clear-grammar-cache.mjs</span></span></code></pre>
+<p>Use <strong>zed: open log</strong> and the language-server status indicator to inspect startup errors or restart
+the server. For additional extension output, close Zed and launch it from a terminal with
+<code>zed --foreground</code>.</p>
+<h2 id="user-content-development"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#development"><span class="heading-anchor-icon">#</span></a>Development</h2>
+<p>Prerequisites:</p>
+<ul>
+<li>a current Zed build</li>
+<li>Git, Node.js 20 or newer, and npm</li>
+<li>Rust installed through <code>rustup</code></li>
+<li>a local copy of <a href="https://github.com/Stillat/tree-sitter-antlers">tree-sitter-antlers</a></li>
+</ul>
+<p>Place the grammar beside this repository, or pass its location explicitly:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">node</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> scripts/verify.mjs</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --grammar-root</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> ../tree-sitter-antlers</span></span></code></pre>
+<p>The verification script regenerates and tests the parser, checks the included Antlers examples and
+editor behavior, checks formatting and Rust code, and builds the extension.</p>
+<p>To also download and verify the published language server:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">node</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> scripts/verify.mjs</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --grammar-root</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> ../tree-sitter-antlers</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --include-published-language-server</span></span></code></pre>
+<h3 id="user-content-testing-grammar-changes"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#testing-grammar-changes"><span class="heading-anchor-icon">#</span></a>Testing grammar changes</h3>
+<p>The checked-in <code>extension.toml</code> always points to a specific commit in the public grammar
+repository. To test unpublished grammar changes, prepare a local copy before rebuilding the dev
+extension:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">node</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> scripts/stage-local-grammar.mjs</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --grammar-root</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> ../tree-sitter-antlers</span></span></code></pre>
+<p>This creates an ignored temporary copy, points <code>extension.toml</code> to it, and reports whether Zed needs
+to rebuild the extension. Restore the public grammar URL and version before committing your
+changes, then run <code>node scripts/clear-grammar-cache.mjs</code> before rebuilding against the public
+grammar again.</p>
+<p>Zed creates the ignored <code>grammars/</code> directory while building the extension. Its contents are
+generated build files and should not be committed.</p>
+<h3 id="user-content-testing-language-server-changes"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#testing-language-server-changes"><span class="heading-anchor-icon">#</span></a>Testing language-server changes</h3>
+<p>To make Zed use your local language-server build instead of the npm version, add a <code>binary</code>
+override:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "antlers-language-server"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "binary"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "path"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"C:</span><span style="color:#005CC5;--shiki-dark:#79B8FF">\\</span><span style="color:#032F62;--shiki-dark:#9ECBFF">path</span><span style="color:#005CC5;--shiki-dark:#79B8FF">\\</span><span style="color:#032F62;--shiki-dark:#9ECBFF">to</span><span style="color:#005CC5;--shiki-dark:#79B8FF">\\</span><span style="color:#032F62;--shiki-dark:#9ECBFF">vscode-antlers-language-server</span><span style="color:#005CC5;--shiki-dark:#79B8FF">\\</span><span style="color:#032F62;--shiki-dark:#9ECBFF">antlersls</span><span style="color:#005CC5;--shiki-dark:#79B8FF">\\</span><span style="color:#032F62;--shiki-dark:#9ECBFF">server.js"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "arguments"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"--stdio"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>Remove the <code>binary</code> block and restart the language server to return to the npm-published version.</p>
+<h2 id="user-content-support-and-contributing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#support-and-contributing"><span class="heading-anchor-icon">#</span></a>Support and contributing</h2>
+<p>See <a href="https://github.com/Stillat/antlers-toolbox-zed/blob/HEAD/SUPPORT.md" target="_blank" rel="noopener">SUPPORT.md</a> for help choosing the right issue tracker and
+<a href="https://github.com/Stillat/antlers-toolbox-zed/blob/HEAD/CONTRIBUTING.md" target="_blank" rel="noopener">CONTRIBUTING.md</a> before proposing a change. Please report suspected
+vulnerabilities as described in <a href="https://github.com/Stillat/antlers-toolbox-zed/blob/HEAD/SECURITY.md" target="_blank" rel="noopener">SECURITY.md</a>.</p>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>Antlers Toolbox for Zed is open-source software licensed under the <a href="https://github.com/Stillat/antlers-toolbox-zed/blob/HEAD/LICENSE" target="_blank" rel="noopener">MIT License</a>.</p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>

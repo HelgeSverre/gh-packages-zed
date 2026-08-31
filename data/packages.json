@@ -1563,7 +1563,7 @@
     "name": "tahayvr/matte-black-zed",
     "url": "https://github.com/tahayvr/matte-black-zed",
     "description": "A low distraction dark theme for Zed Editor",
-    "stars": 20,
+    "stars": 21,
     "forks": 3,
     "topics": [
       "theme",
@@ -1572,7 +1572,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2025-08-05T18:20:55Z",
-    "updated_at": "2026-07-16T16:15:48Z",
+    "updated_at": "2026-08-31T00:09:18Z",
     "pushed_at": "2026-04-15T01:07:20Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -18027,8 +18027,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-08-30T12:47:20Z",
-    "pushed_at": "2026-08-30T12:46:44Z",
+    "updated_at": "2026-08-30T18:44:41Z",
+    "pushed_at": "2026-08-30T18:44:19Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -25282,8 +25282,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-07-01T21:28:51Z",
-    "updated_at": "2026-08-30T03:37:57Z",
-    "pushed_at": "2026-08-30T03:37:39Z",
+    "updated_at": "2026-08-30T22:32:55Z",
+    "pushed_at": "2026-08-30T22:45:46Z",
     "discovered_at": "2026-05-20T02:57:03.419Z",
     "official": true
   },
@@ -29002,8 +29002,8 @@
     "language": null,
     "license": null,
     "created_at": "2026-05-25T05:34:31Z",
-    "updated_at": "2026-08-30T02:16:06Z",
-    "pushed_at": "2026-08-30T02:15:52Z",
+    "updated_at": "2026-08-31T00:20:56Z",
+    "pushed_at": "2026-08-31T00:20:24Z",
     "discovered_at": "2026-05-26T07:12:20.287Z",
     "official": false
   },
@@ -32973,8 +32973,8 @@
     "language": "Rust",
     "license": null,
     "created_at": "2026-07-21T08:09:16Z",
-    "updated_at": "2026-07-22T01:17:30Z",
-    "pushed_at": "2026-07-22T01:17:21Z",
+    "updated_at": "2026-08-31T00:47:04Z",
+    "pushed_at": "2026-08-31T00:46:47Z",
     "discovered_at": "2026-07-22T01:09:49.303Z",
     "official": false
   },
@@ -33219,8 +33219,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-05-17T07:32:27Z",
-    "updated_at": "2026-08-30T17:57:15Z",
-    "pushed_at": "2026-08-30T18:33:52Z",
+    "updated_at": "2026-08-30T19:14:38Z",
+    "pushed_at": "2026-08-30T19:39:47Z",
     "discovered_at": "2026-07-26T01:12:51.640Z",
     "official": false
   },
@@ -35617,8 +35617,8 @@
     "language": null,
     "license": null,
     "created_at": "2026-08-16T21:55:25Z",
-    "updated_at": "2026-08-30T11:50:20Z",
-    "pushed_at": "2026-08-30T11:49:29Z",
+    "updated_at": "2026-08-30T19:40:44Z",
+    "pushed_at": "2026-08-30T19:39:46Z",
     "discovered_at": "2026-08-17T01:03:46.357Z",
     "official": false
   },
@@ -36306,6 +36306,48 @@
     "updated_at": "2026-08-30T17:34:38Z",
     "pushed_at": "2026-08-30T17:32:25Z",
     "discovered_at": "2026-08-30T18:43:47.788Z",
+    "official": false
+  },
+  "stillat/antlers-toolbox-zed": {
+    "name": "Stillat/antlers-toolbox-zed",
+    "url": "https://github.com/Stillat/antlers-toolbox-zed",
+    "description": "Antlers Toolbox for Zed",
+    "stars": 1,
+    "forks": 0,
+    "topics": [
+      "antlers",
+      "statamic",
+      "zed-extension"
+    ],
+    "language": "JavaScript",
+    "license": "MIT",
+    "created_at": "2026-08-30T21:02:37Z",
+    "updated_at": "2026-08-31T00:47:21Z",
+    "pushed_at": "2026-08-31T00:46:22Z",
+    "discovered_at": "2026-08-31T01:15:12.850Z",
+    "official": false
+  },
+  "tavasolireza/oddities-theme": {
+    "name": "tavasolireza/oddities-theme",
+    "url": "https://github.com/tavasolireza/oddities-theme",
+    "description": "Some themes with uncommon color combinations that I like.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "color-theme",
+      "golden-eye",
+      "soft2000",
+      "yuuyake",
+      "zed",
+      "zed-extension",
+      "zed-theme"
+    ],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-08-30T20:32:34Z",
+    "updated_at": "2026-08-30T20:43:52Z",
+    "pushed_at": "2026-08-30T20:43:42Z",
+    "discovered_at": "2026-08-31T01:15:12.850Z",
     "official": false
   }
 }
