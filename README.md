@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1745** |
 | In official registry | 1253 |
 | Discovered via topics | 492 |
-| Last updated | 2026-09-01 12:50 UTC |
+| Last updated | 2026-09-01 18:47 UTC |
 
 ### By capability
 
@@ -75,7 +75,7 @@ cd website && npm install && npm run dev
 | [JordanMar1/epitech-header-snippets](https://github.com/JordanMar1/epitech-header-snippets) | 0 |  |
 | [lbssousa/zed-gregorio](https://github.com/lbssousa/zed-gregorio) | 0 | Zed extension for Gregorio GABC/NABC Gregorian chant notation |
 | [RustyDaemon/zed-void-oled-theme](https://github.com/RustyDaemon/zed-void-oled-theme) | 0 | A true black OLED theme for Zed editor |
-| [felixtensor/zed-mlir](https://github.com/felixtensor/zed-mlir) | 5 | MLIR Extension for Zed |
+| [felixtensor/zed-mlir](https://github.com/felixtensor/zed-mlir) | 6 | MLIR Extension for Zed |
 | [fireseasonnow/zed-better-comments](https://github.com/fireseasonnow/zed-better-comments) | 1 | Better Comments for Zed: highlights //*, //!, //? and //# markers plus TODO/FIXM... |
 | [afrigon/zed-x](https://github.com/afrigon/zed-x) | 0 | x syntax highlighting & language server for Zed |
 | [Stillat/antlers-toolbox-zed](https://github.com/Stillat/antlers-toolbox-zed) | 1 | Antlers Toolbox for Zed |
@@ -120,14 +120,15 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [DROOdotFOO/synthwave84-zed](https://github.com/DROOdotFOO/synthwave84-zed) | 5 | 2026-09-01 | Synthwave84 for Zed editor |
+| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 3 | 2026-09-01 | Spring Boot language intelligence for Zed, built on the requ... |
 | [comphy-lab/comphy-zed-themes](https://github.com/comphy-lab/comphy-zed-themes) | 2 | 2026-09-01 |  |
 | [tfuxu/zed-blueprint](https://github.com/tfuxu/zed-blueprint) | 9 | 2026-09-01 | Blueprint (.blp) language support for Zed editor |
 | [dunyakirkali/zed-asciidoc](https://github.com/dunyakirkali/zed-asciidoc) | 23 | 2026-09-01 | Zed support for AsciiDoc syntax |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 97 | 2026-09-01 | True Dark Theme for Zed IDE |
 | [WhiteKr/zed-classic-asp](https://github.com/WhiteKr/zed-classic-asp) | 0 | 2026-09-01 | Classic ASP (VBScript) support for the Zed editor — syntax h... |
 | [DankDown10256/licensr](https://github.com/DankDown10256/licensr) | 0 | 2026-08-31 | Licensr is a Zed IDE extension to write licenses for your pr... |
-| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 3 | 2026-08-31 | Spring Boot language intelligence for Zed, built on the requ... |
-| [felixtensor/zed-mlir](https://github.com/felixtensor/zed-mlir) | 5 | 2026-08-31 | MLIR Extension for Zed |
+| [felixtensor/zed-mlir](https://github.com/felixtensor/zed-mlir) | 6 | 2026-08-31 | MLIR Extension for Zed |
 | [afrigon/zed-x](https://github.com/afrigon/zed-x) | 0 | 2026-08-31 | x syntax highlighting & language server for Zed |
 | [fireseasonnow/zed-better-comments](https://github.com/fireseasonnow/zed-better-comments) | 1 | 2026-08-31 | Better Comments for Zed: highlights //*, //!, //? and //# ma... |
 | [Stillat/antlers-toolbox-zed](https://github.com/Stillat/antlers-toolbox-zed) | 1 | 2026-08-31 | Antlers Toolbox for Zed |
@@ -135,16 +136,16 @@ cd website && npm install && npm run dev
 | [tavasolireza/oddities-theme](https://github.com/tavasolireza/oddities-theme) | 0 | 2026-08-30 | Some themes with uncommon color combinations that I like. |
 | [SwornSystems/zed-cedar](https://github.com/SwornSystems/zed-cedar) | 1 | 2026-08-30 | Cedar language support for Zed. |
 | [MrSubidubi/mlir-tablegen](https://github.com/MrSubidubi/mlir-tablegen) | 5 | 2026-08-30 | MLIR Extension for Zed |
-| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 134 | 2026-08-30 | The Ruby language support for Zed editor |
+| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 135 | 2026-08-30 | The Ruby language support for Zed editor |
 | [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-08-30 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
 | [RustyDaemon/zed-void-oled-theme](https://github.com/RustyDaemon/zed-void-oled-theme) | 0 | 2026-08-29 | A true black OLED theme for Zed editor |
 | [alaestor/mirror-zed-cea](https://github.com/alaestor/mirror-zed-cea) | 0 | 2026-08-29 | zed extension for cheat engine auto-assembler script |
-| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-08-29 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-09-01T18:47 | 0 | 588 | 2130 |
 | 2026-09-01T12:50 | 0 | 588 | 2130 |
 | 2026-09-01T06:55 | 0 | 588 | 2130 |
 | 2026-09-01T01:20 | 7 | 586 | 2130 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-08-31T01:15 | 2 | 583 | 2120 |
 | 2026-08-30T18:43 | 1 | 582 | 2118 |
 | 2026-08-30T12:46 | 0 | 582 | 2117 |
-| 2026-08-30T06:49 | 0 | 582 | 2117 |
 
 ---
 
