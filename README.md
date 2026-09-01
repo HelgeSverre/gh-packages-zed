@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1745** |
 | In official registry | 1253 |
 | Discovered via topics | 492 |
-| Last updated | 2026-09-01 01:20 UTC |
+| Last updated | 2026-09-01 06:55 UTC |
 
 ### By capability
 
@@ -107,7 +107,7 @@ cd website && npm install && npm run dev
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 198 | Typst extension for zed |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
-| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 173 | 🦊 Zed editor theme ported from Neovim |
+| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 174 | 🦊 Zed editor theme ported from Neovim |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 170 | A macOS native style theme for Zed, let it same like native app in macOS. |
 | [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 154 |  |
 | [zed-extensions/swift](https://github.com/zed-extensions/swift) | 149 | Extension for Zed to support Swift |
@@ -120,6 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 97 | 2026-09-01 | True Dark Theme for Zed IDE |
 | [WhiteKr/zed-classic-asp](https://github.com/WhiteKr/zed-classic-asp) | 0 | 2026-09-01 | Classic ASP (VBScript) support for the Zed editor — syntax h... |
 | [dunyakirkali/zed-asciidoc](https://github.com/dunyakirkali/zed-asciidoc) | 23 | 2026-08-31 | Zed support for AsciiDoc syntax |
 | [comphy-lab/comphy-zed-themes](https://github.com/comphy-lab/comphy-zed-themes) | 2 | 2026-08-31 |  |
@@ -128,7 +129,6 @@ cd website && npm install && npm run dev
 | [felixtensor/zed-mlir](https://github.com/felixtensor/zed-mlir) | 5 | 2026-08-31 | MLIR Extension for Zed |
 | [afrigon/zed-x](https://github.com/afrigon/zed-x) | 0 | 2026-08-31 | x syntax highlighting & language server for Zed |
 | [fireseasonnow/zed-better-comments](https://github.com/fireseasonnow/zed-better-comments) | 1 | 2026-08-31 | Better Comments for Zed: highlights //*, //!, //? and //# ma... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 97 | 2026-08-31 | True Dark Theme for Zed IDE |
 | [Stillat/antlers-toolbox-zed](https://github.com/Stillat/antlers-toolbox-zed) | 1 | 2026-08-31 | Antlers Toolbox for Zed |
 | [SinaMombeiny/S-DarkTheme.zed](https://github.com/SinaMombeiny/S-DarkTheme.zed) | 5 | 2026-08-30 | Dark theme for Zed |
 | [tavasolireza/oddities-theme](https://github.com/tavasolireza/oddities-theme) | 0 | 2026-08-30 | Some themes with uncommon color combinations that I like. |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-09-01T06:55 | 0 | 588 | 2130 |
 | 2026-09-01T01:20 | 7 | 586 | 2130 |
 | 2026-08-31T18:46 | 2 | 585 | 2123 |
 | 2026-08-31T12:51 | 1 | 585 | 2121 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-08-30T12:46 | 0 | 582 | 2117 |
 | 2026-08-30T06:49 | 0 | 582 | 2117 |
 | 2026-08-30T01:12 | 0 | 582 | 2117 |
-| 2026-08-29T18:43 | 0 | 582 | 2117 |
 
 ---
 
