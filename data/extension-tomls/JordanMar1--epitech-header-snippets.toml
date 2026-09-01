@@ -1,0 +1,31 @@
+id = "epitech-header-snippets"
+name = "EPITECH Header"
+version = "1.0.0"
+schema_version = 1
+authors = ["Jordan Marescaux <jordan.marescaux@epitech.eu>"]
+description = "insert your epitech header easily"
+repository = "https://github.com/JordanMar1/epitech-header-snippets.git"
+snippets = [
+  "./snippets/c.json",
+  "./snippets/c++.json",
+  "./snippets/css.json",
+  "./snippets/elixir.json",
+  "./snippets/go.json",
+  "./snippets/haskell.json",
+  "./snippets/html.json",
+  "./snippets/java.json",
+  "./snippets/javascript.json",
+  "./snippets/kotlin.json",
+  "./snippets/lua.json",
+  "./snippets/make.json",
+  "./snippets/ocaml.json",
+  "./snippets/php.json",
+  "./snippets/python.json",
+  "./snippets/ruby.json",
+  "./snippets/rust.json",
+  "./snippets/shell.json",
+  "./snippets/sql.json",
+  "./snippets/toml.json",
+  "./snippets/typescript.json",
+  "./snippets/yaml.json"
+]

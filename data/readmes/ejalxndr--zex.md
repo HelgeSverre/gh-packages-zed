@@ -1,0 +1,86 @@
+<img height="80" alt="icon" src="assets/icon.svg" />
+
+# Z-Explorer (zex)
+An extremely fast explorer and disk usage analyzer companion for the [Zed ecosystem](https://github.com/zed-industries/zed) using the same [GPUI renderer framework](https://www.gpui.rs/). 
+
+Zex can inherit config, themes, and icon themes from Zed out-of-the-box. 
+It's not a reimplementation of Zed's renderer, it's an identical subset of the source tree, stripped down to just a few MB.
+
+### Left: Zed, Right: Zex
+
+Kinda hard to tell which is which, isn't it? Zex prides itself in its first-class integration into Zed's ecosystem. 
+
+![](https://github.com/user-attachments/assets/cfb421d0-2fbb-4c20-8302-95d4346c6c5f)
+
+## Installation
+
+On macOS, Linux, and Windows pre-built binaries of Zex can found on the [releases page](https://github.com/shdwmtr/zex/releases). 
+
+## Configuration
+Zex reads a JSONC config from `$XDG_CONFIG_HOME/zex/config.json`, falling back to `~/.config/zex/config.json`. Every field is optional, and comments/trailing commas are allowed.
+
+The full field reference lives in the CLI
+
+```sh
+# list every key, grouped by section
+$ zex config
+# docs, type, and default for one key   
+$ zex config theme.mode
+```
+
+### Boilerplate configuration
+`$XDG_CONFIG_HOME/zex/config.json`
+
+```jsonc
+{
+    "inherit_from_zed": true, /* $ zex config inherit_from_zed */ 
+    "show_hidden_files": true,
+    /* Empty sidebars are not rendered by zex. */ 
+    "sidebar": [
+        { "name": "Home", "path": "~" },
+        "separator",
+        {
+            "section": "Places",
+            "entries": [
+                { "name": "Downloads", "path": "~/Downloads" },
+                { "name": "Documents", "path": "~/Documents" },
+                { "name": "Development", "path": "~/Development" }
+            ]
+        },
+        "separator",
+        { "name": "Local Disk", "path": "/" },
+        { "name": "Trash", "path": ":trash" } /* :trash is a virtual path */
+    ],
+    "git": {
+        "enabled": true
+    }
+}
+```
+
+## Building from source
+Zex requires the recent 2024 rust compiler toolchain.
+
+```bash
+# Run zexplorer
+$ cargo run
+
+# Build optimized release
+$ cargo build --profile optimized-release
+```
+
+`make install` builds the optimized release and installs the binary, `.desktop` entry, and icon:
+
+```bash
+$ make build
+$ sudo make install               # installs to /usr/local by default
+$ sudo make PREFIX=/usr install   # or a custom prefix
+```
+
+## Contributions
+Contributions are welcome; there's plenty of room to help: new features, bug fixes, performance improvements, or just cleaning up rough edges. Open a PR, we'll take a look.
+
+Commits merged to `main` should follow [Conventional Commits](https://www.conventionalcommits.org/).
+
+## License
+
+Apache 2.0. See [LICENSE](LICENSE).

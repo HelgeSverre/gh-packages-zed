@@ -1563,7 +1563,7 @@
     "name": "tahayvr/matte-black-zed",
     "url": "https://github.com/tahayvr/matte-black-zed",
     "description": "A low distraction dark theme for Zed Editor",
-    "stars": 21,
+    "stars": 22,
     "forks": 3,
     "topics": [
       "theme",
@@ -1572,7 +1572,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2025-08-05T18:20:55Z",
-    "updated_at": "2026-08-31T00:09:18Z",
+    "updated_at": "2026-08-31T19:03:15Z",
     "pushed_at": "2026-04-15T01:07:20Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -2164,8 +2164,8 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-03-30T11:33:55Z",
-    "updated_at": "2026-08-23T02:17:27Z",
-    "pushed_at": "2026-06-15T19:49:12Z",
+    "updated_at": "2026-08-31T22:05:13Z",
+    "pushed_at": "2026-08-31T22:09:27Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -5147,7 +5147,7 @@
     "name": "Dylanmurzello/zed-android-port",
     "url": "https://github.com/Dylanmurzello/zed-android-port",
     "description": "Native Android port of the Zed code editor,  gpui rendering through Vulkan, integrated Termux for LSPs and tooling, remote SSH support. Runs as an APK on tablets and Android desktop modes.",
-    "stars": 188,
+    "stars": 189,
     "forks": 14,
     "topics": [
       "android",
@@ -5174,7 +5174,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-05-07T00:12:10Z",
-    "updated_at": "2026-08-31T15:57:35Z",
+    "updated_at": "2026-08-31T20:01:08Z",
     "pushed_at": "2026-08-07T13:48:06Z",
     "discovered_at": "2026-05-19T19:54:12.053Z",
     "official": false
@@ -8663,13 +8663,13 @@
     "name": "zed-extensions/typst",
     "url": "https://github.com/zed-extensions/typst",
     "description": "Typst extension for zed",
-    "stars": 197,
+    "stars": 198,
     "forks": 17,
     "topics": [],
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2024-04-27T19:27:52Z",
-    "updated_at": "2026-08-30T00:45:42Z",
+    "updated_at": "2026-08-31T23:50:42Z",
     "pushed_at": "2026-08-22T09:27:03Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": false
@@ -18027,8 +18027,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-08-31T13:03:33Z",
-    "pushed_at": "2026-08-31T12:52:07Z",
+    "updated_at": "2026-08-31T19:09:34Z",
+    "pushed_at": "2026-08-31T18:47:07Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -32973,8 +32973,8 @@
     "language": "Rust",
     "license": null,
     "created_at": "2026-07-21T08:09:16Z",
-    "updated_at": "2026-08-31T01:25:23Z",
-    "pushed_at": "2026-08-31T01:25:14Z",
+    "updated_at": "2026-09-01T00:54:09Z",
+    "pushed_at": "2026-09-01T00:53:41Z",
     "discovered_at": "2026-07-22T01:09:49.303Z",
     "official": false
   },
@@ -33546,12 +33546,14 @@
   "vetr0s/zed_odin_template": {
     "name": "vetr0s/zed_odin_template",
     "url": "https://github.com/vetr0s/zed_odin_template",
-    "description": "A starting point for Odin projects in the Zed editor: build tasks, clickable compiler errors, OLS autocomplete, and a debugger.",
+    "description": "Odin project template for Zed with build tasks, clickable errors, OLS, and CodeLLDB debugging",
     "stars": 0,
     "forks": 0,
     "topics": [
+      "codelldb",
       "odin",
       "odin-lang",
+      "ols",
       "template",
       "zed",
       "zed-editor"
@@ -33559,8 +33561,8 @@
     "language": "Shell",
     "license": "Unlicense",
     "created_at": "2026-07-28T01:26:10Z",
-    "updated_at": "2026-07-28T01:48:28Z",
-    "pushed_at": "2026-07-28T01:48:22Z",
+    "updated_at": "2026-08-31T23:18:00Z",
+    "pushed_at": "2026-08-31T23:17:24Z",
     "discovered_at": "2026-07-28T07:34:46.549Z",
     "official": false
   },
@@ -34306,7 +34308,7 @@
   "johngbl/autonomous-engineer": {
     "name": "johngbl/autonomous-engineer",
     "url": "https://github.com/johngbl/autonomous-engineer",
-    "description": "Single self-contained Verified Loop & Emergent Architecture Meta-Skill. Transforms coding agents into Staff-level autonomous engineers via 4-block communication, TDD with deletion rule, grep+long-context, and disciplined sandboxing. Simple by default, opt-in complexity.",
+    "description": "Pragmatic Senior Engineering Meta-Skill for AI coding agents. Evidence-based verified loops, strict TDD, anti-guessing discipline, and clean code.",
     "stars": 2,
     "forks": 1,
     "topics": [
@@ -34334,8 +34336,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-08-07T18:46:45Z",
-    "updated_at": "2026-08-29T02:17:42Z",
-    "pushed_at": "2026-08-29T02:08:41Z",
+    "updated_at": "2026-08-31T21:23:35Z",
+    "pushed_at": "2026-08-31T21:22:43Z",
     "discovered_at": "2026-08-08T18:56:57.473Z",
     "official": false
   },
@@ -34506,8 +34508,8 @@
     "language": "Shell",
     "license": "MIT",
     "created_at": "2025-05-10T13:27:48Z",
-    "updated_at": "2026-08-09T20:19:02Z",
-    "pushed_at": "2026-08-09T20:31:10Z",
+    "updated_at": "2026-08-31T21:25:03Z",
+    "pushed_at": "2026-08-31T21:16:17Z",
     "discovered_at": "2026-08-10T01:04:42.892Z",
     "official": false
   },
@@ -35762,9 +35764,9 @@
     "license": "MIT",
     "created_at": "2026-06-22T23:16:08Z",
     "updated_at": "2026-08-21T22:19:08Z",
-    "pushed_at": "2026-08-21T22:18:54Z",
+    "pushed_at": "2026-08-31T21:50:27Z",
     "discovered_at": "2026-08-21T18:55:51.713Z",
-    "official": false
+    "official": true
   },
   "krawitzzz/zed-hyperlinks": {
     "name": "krawitzzZ/zed-hyperlinks",
@@ -36116,10 +36118,10 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-08-27T19:15:38Z",
-    "updated_at": "2026-08-29T18:50:47Z",
-    "pushed_at": "2026-08-29T18:50:43Z",
+    "updated_at": "2026-08-31T19:53:00Z",
+    "pushed_at": "2026-08-31T19:52:35Z",
     "discovered_at": "2026-08-27T22:01:46.865Z",
-    "official": false
+    "official": true
   },
   "shehtman/zed-nowrap": {
     "name": "Shehtman/zed-nowrap",
@@ -36348,7 +36350,7 @@
     "updated_at": "2026-08-30T20:43:52Z",
     "pushed_at": "2026-08-30T20:43:42Z",
     "discovered_at": "2026-08-31T01:15:12.850Z",
-    "official": false
+    "official": true
   },
   "afrigon/zed-x": {
     "name": "afrigon/zed-x",
@@ -36390,7 +36392,7 @@
     "updated_at": "2026-08-31T18:27:19Z",
     "pushed_at": "2026-08-31T18:24:47Z",
     "discovered_at": "2026-08-31T18:46:32.811Z",
-    "official": false
+    "official": true
   },
   "fireseasonnow/zed-better-comments": {
     "name": "fireseasonnow/zed-better-comments",
@@ -36422,6 +36424,122 @@
     "updated_at": "2026-08-31T16:04:55Z",
     "pushed_at": "2026-08-31T15:57:59Z",
     "discovered_at": "2026-08-31T18:46:32.811Z",
+    "official": false
+  },
+  "tlyphed/zed-answer-set-programming": {
+    "name": "tlyphed/zed-answer-set-programming",
+    "url": "https://github.com/tlyphed/zed-answer-set-programming",
+    "description": "Answer Set Programming Extension for Zed",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2026-05-08T17:05:37Z",
+    "updated_at": "2026-05-12T08:52:57Z",
+    "pushed_at": "2026-05-12T08:52:53Z",
+    "discovered_at": "2026-09-01T01:20:20.081Z",
+    "official": true
+  },
+  "phtn/beast-ext": {
+    "name": "phtn/beast-ext",
+    "url": "https://github.com/phtn/beast-ext",
+    "description": "beast tsx tree-sitter",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "C",
+    "license": "MIT",
+    "created_at": "2026-08-08T06:15:47Z",
+    "updated_at": "2026-08-25T09:49:34Z",
+    "pushed_at": "2026-08-25T09:46:51Z",
+    "discovered_at": "2026-09-01T01:20:20.081Z",
+    "official": true
+  },
+  "jordanmar1/epitech-header-snippets": {
+    "name": "JordanMar1/epitech-header-snippets",
+    "url": "https://github.com/JordanMar1/epitech-header-snippets",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-06-14T18:28:13Z",
+    "updated_at": "2026-06-15T11:06:57Z",
+    "pushed_at": "2026-06-15T11:06:53Z",
+    "discovered_at": "2026-09-01T01:20:20.081Z",
+    "official": true
+  },
+  "lbssousa/zed-gregorio": {
+    "name": "lbssousa/zed-gregorio",
+    "url": "https://github.com/lbssousa/zed-gregorio",
+    "description": "Zed extension for Gregorio GABC/NABC Gregorian chant notation",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2026-03-27T16:30:08Z",
+    "updated_at": "2026-06-26T14:47:14Z",
+    "pushed_at": "2026-06-26T14:47:10Z",
+    "discovered_at": "2026-09-01T01:20:20.081Z",
+    "official": false
+  },
+  "qinains/hbuilderx-soft-green": {
+    "name": "qinains/hbuilderx-soft-green",
+    "url": "https://github.com/qinains/hbuilderx-soft-green",
+    "description": "The healthiest theme for your eyes!",
+    "stars": 11,
+    "forks": 2,
+    "topics": [
+      "green",
+      "h5builder",
+      "hbuilderx",
+      "light",
+      "soft",
+      "solarized",
+      "vscode-theme"
+    ],
+    "language": "TypeScript",
+    "license": "MIT",
+    "created_at": "2019-12-30T14:20:46Z",
+    "updated_at": "2026-08-31T02:30:58Z",
+    "pushed_at": "2026-08-31T09:15:30Z",
+    "discovered_at": "2026-09-01T01:20:20.081Z",
+    "official": true
+  },
+  "rustydaemon/zed-void-oled-theme": {
+    "name": "RustyDaemon/zed-void-oled-theme",
+    "url": "https://github.com/RustyDaemon/zed-void-oled-theme",
+    "description": "A true black OLED theme for Zed editor",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "Apache-2.0",
+    "created_at": "2026-08-29T18:21:32Z",
+    "updated_at": "2026-08-29T18:26:57Z",
+    "pushed_at": "2026-08-29T18:22:50Z",
+    "discovered_at": "2026-09-01T01:20:20.081Z",
+    "official": true
+  },
+  "ejalxndr/zex": {
+    "name": "ejalxndr/zex",
+    "url": "https://github.com/ejalxndr/zex",
+    "description": "An extremely fast explorer and disk usage analyzer companion for the Zed ecosystem.",
+    "stars": 9,
+    "forks": 2,
+    "topics": [
+      "zed",
+      "zed-editor"
+    ],
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "created_at": "2026-07-27T21:58:50Z",
+    "updated_at": "2026-08-31T20:17:42Z",
+    "pushed_at": "2026-08-18T00:46:34Z",
+    "discovered_at": "2026-09-01T01:20:20.082Z",
     "official": false
   }
 }

@@ -2286,7 +2286,7 @@
     "name": "tahayvr/matte-black-zed",
     "url": "https://github.com/tahayvr/matte-black-zed",
     "description": "A low distraction dark theme for Zed Editor",
-    "stars": 21,
+    "stars": 22,
     "forks": 3,
     "topics": [
       "theme",
@@ -2295,7 +2295,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2025-08-05T18:20:55Z",
-    "updated_at": "2026-08-31T00:09:18Z",
+    "updated_at": "2026-08-31T19:03:15Z",
     "pushed_at": "2026-04-15T01:07:20Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -3340,8 +3340,8 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-03-30T11:33:55Z",
-    "updated_at": "2026-08-23T02:17:27Z",
-    "pushed_at": "2026-06-15T19:49:12Z",
+    "updated_at": "2026-08-31T22:05:13Z",
+    "pushed_at": "2026-08-31T22:09:27Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false,
     "extension": {
@@ -11086,13 +11086,13 @@
     "name": "zed-extensions/typst",
     "url": "https://github.com/zed-extensions/typst",
     "description": "Typst extension for zed",
-    "stars": 197,
+    "stars": 198,
     "forks": 17,
     "topics": [],
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2024-04-27T19:27:52Z",
-    "updated_at": "2026-08-30T00:45:42Z",
+    "updated_at": "2026-08-31T23:50:42Z",
     "pushed_at": "2026-08-22T09:27:03Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": false,
@@ -55128,8 +55128,8 @@
     "language": "Rust",
     "license": null,
     "created_at": "2026-07-21T08:09:16Z",
-    "updated_at": "2026-08-31T01:25:23Z",
-    "pushed_at": "2026-08-31T01:25:14Z",
+    "updated_at": "2026-09-01T00:54:09Z",
+    "pushed_at": "2026-09-01T00:53:41Z",
     "discovered_at": "2026-07-22T01:09:49.303Z",
     "official": false,
     "extension": {
@@ -57370,8 +57370,8 @@
     "language": "Shell",
     "license": "MIT",
     "created_at": "2025-05-10T13:27:48Z",
-    "updated_at": "2026-08-09T20:19:02Z",
-    "pushed_at": "2026-08-09T20:31:10Z",
+    "updated_at": "2026-08-31T21:25:03Z",
+    "pushed_at": "2026-08-31T21:16:17Z",
     "discovered_at": "2026-08-10T01:04:42.892Z",
     "official": false,
     "extension": {
@@ -59400,10 +59400,10 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-08-27T19:15:38Z",
-    "updated_at": "2026-08-29T18:50:47Z",
-    "pushed_at": "2026-08-29T18:50:43Z",
+    "updated_at": "2026-08-31T19:53:00Z",
+    "pushed_at": "2026-08-31T19:52:35Z",
     "discovered_at": "2026-08-27T22:01:46.865Z",
-    "official": false,
+    "official": true,
     "extension": {
       "id": "licensr",
       "name": "Licensr",
@@ -59591,7 +59591,7 @@
     "updated_at": "2026-08-30T20:43:52Z",
     "pushed_at": "2026-08-30T20:43:42Z",
     "discovered_at": "2026-08-31T01:15:12.850Z",
-    "official": false,
+    "official": true,
     "extension": {
       "id": "oddities-theme",
       "name": "Oddities: Uncommon Themes",
@@ -59667,7 +59667,7 @@
     "updated_at": "2026-08-31T18:27:19Z",
     "pushed_at": "2026-08-31T18:24:47Z",
     "discovered_at": "2026-08-31T18:46:32.811Z",
-    "official": false,
+    "official": true,
     "extension": {
       "id": "mlir-tablegen",
       "name": "MLIR",
@@ -59737,6 +59737,194 @@
       ],
       "categories": [
         "grammar"
+      ]
+    }
+  },
+  "tlyphed/zed-answer-set-programming": {
+    "name": "tlyphed/zed-answer-set-programming",
+    "url": "https://github.com/tlyphed/zed-answer-set-programming",
+    "description": "Answer Set Programming Extension for Zed",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2026-05-08T17:05:37Z",
+    "updated_at": "2026-05-12T08:52:57Z",
+    "pushed_at": "2026-05-12T08:52:53Z",
+    "discovered_at": "2026-09-01T01:20:20.081Z",
+    "official": true,
+    "extension": {
+      "id": "answer-set-programming",
+      "name": "Answer Set Programming",
+      "description": "Answer Set Programming (ASP) support using the clingo grammar",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Tobias Geibinger <tobias.geibinger@tlyphed.net>"
+      ],
+      "repository": "https://github.com/tlyphed/zed-answer-set-programming",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
+      ]
+    }
+  },
+  "phtn/beast-ext": {
+    "name": "phtn/beast-ext",
+    "url": "https://github.com/phtn/beast-ext",
+    "description": "beast tsx tree-sitter",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "C",
+    "license": "MIT",
+    "created_at": "2026-08-08T06:15:47Z",
+    "updated_at": "2026-08-25T09:49:34Z",
+    "pushed_at": "2026-08-25T09:46:51Z",
+    "discovered_at": "2026-09-01T01:20:20.081Z",
+    "official": true,
+    "extension": {
+      "id": "beast",
+      "name": "Beast",
+      "description": "Syntax highlighting for Beast (.btsx) — indentation-first Octane TSRX",
+      "version": "0.3.0",
+      "schema_version": 1,
+      "authors": [
+        "phtn"
+      ],
+      "repository": "https://github.com/phtn/beast-ext",
+      "snippets": null,
+      "sections": [
+        "grammars",
+        "language_servers"
+      ],
+      "categories": [
+        "grammar",
+        "language-server"
+      ]
+    }
+  },
+  "jordanmar1/epitech-header-snippets": {
+    "name": "JordanMar1/epitech-header-snippets",
+    "url": "https://github.com/JordanMar1/epitech-header-snippets",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-06-14T18:28:13Z",
+    "updated_at": "2026-06-15T11:06:57Z",
+    "pushed_at": "2026-06-15T11:06:53Z",
+    "discovered_at": "2026-09-01T01:20:20.081Z",
+    "official": true,
+    "extension": {
+      "id": "epitech-header-snippets",
+      "name": "EPITECH Header",
+      "description": "insert your epitech header easily",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "authors": [
+        "Jordan Marescaux <jordan.marescaux@epitech.eu>"
+      ],
+      "repository": "https://github.com/JordanMar1/epitech-header-snippets.git",
+      "snippets": [
+        "./snippets/c.json",
+        "./snippets/c++.json",
+        "./snippets/css.json",
+        "./snippets/elixir.json",
+        "./snippets/go.json",
+        "./snippets/haskell.json",
+        "./snippets/html.json",
+        "./snippets/java.json",
+        "./snippets/javascript.json",
+        "./snippets/kotlin.json",
+        "./snippets/lua.json",
+        "./snippets/make.json",
+        "./snippets/ocaml.json",
+        "./snippets/php.json",
+        "./snippets/python.json",
+        "./snippets/ruby.json",
+        "./snippets/rust.json",
+        "./snippets/shell.json",
+        "./snippets/sql.json",
+        "./snippets/toml.json",
+        "./snippets/typescript.json",
+        "./snippets/yaml.json"
+      ],
+      "sections": [],
+      "categories": [
+        "snippets"
+      ]
+    }
+  },
+  "lbssousa/zed-gregorio": {
+    "name": "lbssousa/zed-gregorio",
+    "url": "https://github.com/lbssousa/zed-gregorio",
+    "description": "Zed extension for Gregorio GABC/NABC Gregorian chant notation",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2026-03-27T16:30:08Z",
+    "updated_at": "2026-06-26T14:47:14Z",
+    "pushed_at": "2026-06-26T14:47:10Z",
+    "discovered_at": "2026-09-01T01:20:20.081Z",
+    "official": false,
+    "extension": {
+      "id": "gregorio",
+      "name": "Gregorio GABC",
+      "description": "Support for GABC/NABC Gregorian chant notation, powered by tree-sitter-gregorio and gregorio-lsp",
+      "version": "0.8.0",
+      "schema_version": 1,
+      "authors": [
+        "AISCGre Brasil"
+      ],
+      "repository": "https://github.com/AISCGre-BR/zed-gregorio",
+      "snippets": null,
+      "sections": [
+        "grammars",
+        "language_servers"
+      ],
+      "categories": [
+        "grammar",
+        "language-server"
+      ]
+    }
+  },
+  "rustydaemon/zed-void-oled-theme": {
+    "name": "RustyDaemon/zed-void-oled-theme",
+    "url": "https://github.com/RustyDaemon/zed-void-oled-theme",
+    "description": "A true black OLED theme for Zed editor",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "Apache-2.0",
+    "created_at": "2026-08-29T18:21:32Z",
+    "updated_at": "2026-08-29T18:26:57Z",
+    "pushed_at": "2026-08-29T18:22:50Z",
+    "discovered_at": "2026-09-01T01:20:20.081Z",
+    "official": true,
+    "extension": {
+      "id": "void-oled-theme",
+      "name": "Void OLED",
+      "description": "A very dark theme for Zed Editor",
+      "version": "0.8.9",
+      "schema_version": 1,
+      "authors": [
+        "Rusty Daemon"
+      ],
+      "repository": "https://github.com/RustyDaemon/zed-void-oled-theme.git",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
       ]
     }
   }

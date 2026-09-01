@@ -1,0 +1,11 @@
+id = "answer-set-programming"
+name = "Answer Set Programming"
+version = "0.1.0"
+schema_version = 1
+authors = ["Tobias Geibinger <tobias.geibinger@tlyphed.net>"]
+description = "Answer Set Programming (ASP) support using the clingo grammar"
+repository = "https://github.com/tlyphed/zed-answer-set-programming"
+
+[grammars.clingo]
+repository = "https://github.com/potassco/tree-sitter-clingo"
+commit = "e522bcabb38d25f2d03a335fea3f60d45bf93b00"
