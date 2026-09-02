@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1745** |
 | In official registry | 1253 |
 | Discovered via topics | 492 |
-| Last updated | 2026-09-02 06:57 UTC |
+| Last updated | 2026-09-02 12:52 UTC |
 
 ### By capability
 
@@ -120,9 +120,9 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-09-02 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 97 | 2026-09-02 | True Dark Theme for Zed IDE |
 | [DankDown10256/licensr](https://github.com/DankDown10256/licensr) | 0 | 2026-09-01 | Licensr is a Zed IDE extension to write licenses for your pr... |
-| [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-09-01 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
 | [DROOdotFOO/synthwave84-zed](https://github.com/DROOdotFOO/synthwave84-zed) | 5 | 2026-09-01 | Synthwave84 for Zed editor |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 3 | 2026-09-01 | Spring Boot language intelligence for Zed, built on the requ... |
 | [comphy-lab/comphy-zed-themes](https://github.com/comphy-lab/comphy-zed-themes) | 2 | 2026-09-01 |  |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-09-02T12:52 | 0 | 588 | 2131 |
 | 2026-09-02T06:57 | 0 | 588 | 2131 |
 | 2026-09-02T01:10 | 1 | 588 | 2131 |
 | 2026-09-01T18:47 | 0 | 588 | 2130 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-08-31T18:46 | 2 | 585 | 2123 |
 | 2026-08-31T12:51 | 1 | 585 | 2121 |
 | 2026-08-31T07:02 | 0 | 585 | 2120 |
-| 2026-08-31T01:15 | 2 | 583 | 2120 |
 
 ---
 
