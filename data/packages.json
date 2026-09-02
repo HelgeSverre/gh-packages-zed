@@ -185,7 +185,7 @@
     "name": "wakatime/zed-wakatime",
     "url": "https://github.com/wakatime/zed-wakatime",
     "description": "Zed plugin for automatic time tracking and metrics generated from your programming activity.",
-    "stars": 213,
+    "stars": 214,
     "forks": 30,
     "topics": [
       "extension",
@@ -197,7 +197,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2024-08-27T10:31:46Z",
-    "updated_at": "2026-08-29T19:50:13Z",
+    "updated_at": "2026-09-01T22:37:49Z",
     "pushed_at": "2026-08-11T06:45:20Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -3074,7 +3074,7 @@
     "url": "https://github.com/huacnlee/color-lsp",
     "description": "A document color language server.",
     "stars": 58,
-    "forks": 18,
+    "forks": 19,
     "topics": [
       "color",
       "color-highlight",
@@ -15468,8 +15468,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
-    "updated_at": "2026-09-01T09:19:33Z",
-    "pushed_at": "2026-08-29T21:58:26Z",
+    "updated_at": "2026-09-01T22:59:31Z",
+    "pushed_at": "2026-09-01T22:50:22Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -18027,8 +18027,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-09-01T13:15:04Z",
-    "pushed_at": "2026-09-01T12:51:23Z",
+    "updated_at": "2026-09-01T18:48:09Z",
+    "pushed_at": "2026-09-01T18:47:43Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -31497,7 +31497,7 @@
     "language": null,
     "license": null,
     "created_at": "2026-05-13T05:42:58Z",
-    "updated_at": "2026-06-30T05:16:28Z",
+    "updated_at": "2026-09-01T20:23:06Z",
     "pushed_at": "2026-06-09T23:51:17Z",
     "discovered_at": "2026-06-30T07:17:53.935Z",
     "official": false
@@ -31979,9 +31979,11 @@
       "jetbrains",
       "jetbrains-idea",
       "jetbrains-plugin",
-      "jetbrains-plugins",
       "lsp",
       "lsp-bridge",
+      "neovim",
+      "neovim-plugin",
+      "neovim-plugin-lua",
       "rust",
       "ts7",
       "ts7x",
@@ -31989,16 +31991,14 @@
       "version-manager",
       "versionlens",
       "vscode-extension",
-      "vscode-extensions",
       "zed",
-      "zed-extension",
-      "zed-extensions"
+      "zed-extension"
     ],
     "language": "Rust",
     "license": "ISC",
     "created_at": "2026-07-04T02:15:25Z",
-    "updated_at": "2026-09-01T13:29:56Z",
-    "pushed_at": "2026-09-01T13:52:05Z",
+    "updated_at": "2026-09-01T21:37:36Z",
+    "pushed_at": "2026-09-01T21:36:59Z",
     "discovered_at": "2026-07-06T19:18:00.225Z",
     "official": false
   },
@@ -34309,7 +34309,7 @@
     "name": "johngbl/autonomous-engineer",
     "url": "https://github.com/johngbl/autonomous-engineer",
     "description": "Pragmatic Senior Engineering Meta-Skill for AI coding agents. Evidence-based verified loops, strict TDD, anti-guessing discipline, and clean code.",
-    "stars": 2,
+    "stars": 1,
     "forks": 1,
     "topics": [
       "agentic-coding",
@@ -34336,8 +34336,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-08-07T18:46:45Z",
-    "updated_at": "2026-08-31T21:23:35Z",
-    "pushed_at": "2026-08-31T21:22:43Z",
+    "updated_at": "2026-09-01T20:43:28Z",
+    "pushed_at": "2026-09-01T20:42:25Z",
     "discovered_at": "2026-08-08T18:56:57.473Z",
     "official": false
   },
@@ -35764,7 +35764,7 @@
     "license": "MIT",
     "created_at": "2026-06-22T23:16:08Z",
     "updated_at": "2026-08-21T22:19:08Z",
-    "pushed_at": "2026-08-31T21:50:27Z",
+    "pushed_at": "2026-09-02T00:00:28Z",
     "discovered_at": "2026-08-21T18:55:51.713Z",
     "official": true
   },
@@ -35886,8 +35886,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-08-22T22:20:48Z",
-    "updated_at": "2026-08-30T00:34:26Z",
-    "pushed_at": "2026-08-30T00:34:26Z",
+    "updated_at": "2026-09-01T21:51:16Z",
+    "pushed_at": "2026-09-01T21:52:33Z",
     "discovered_at": "2026-08-24T13:01:58.453Z",
     "official": false
   },
@@ -36118,8 +36118,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-08-27T19:15:38Z",
-    "updated_at": "2026-08-31T19:53:00Z",
-    "pushed_at": "2026-08-31T19:52:35Z",
+    "updated_at": "2026-09-01T22:38:45Z",
+    "pushed_at": "2026-09-01T22:38:41Z",
     "discovered_at": "2026-08-27T22:01:46.865Z",
     "official": true
   },
@@ -36537,9 +36537,24 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-07-27T21:58:50Z",
-    "updated_at": "2026-08-31T20:17:42Z",
-    "pushed_at": "2026-08-18T00:46:34Z",
+    "updated_at": "2026-09-02T00:32:31Z",
+    "pushed_at": "2026-09-02T00:32:29Z",
     "discovered_at": "2026-09-01T01:20:20.082Z",
     "official": false
+  },
+  "rust-glancer/rust-glancer": {
+    "name": "rust-glancer/rust-glancer",
+    "url": "https://github.com/rust-glancer/rust-glancer",
+    "description": "Lightweight Rust LSP optimized for low memory usage",
+    "stars": 493,
+    "forks": 8,
+    "topics": [],
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "created_at": "2026-04-29T04:59:07Z",
+    "updated_at": "2026-09-02T00:57:55Z",
+    "pushed_at": "2026-09-01T07:51:53Z",
+    "discovered_at": "2026-09-02T01:10:48.888Z",
+    "official": true
   }
 }
