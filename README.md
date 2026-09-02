@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1745** |
 | In official registry | 1253 |
 | Discovered via topics | 492 |
-| Last updated | 2026-09-02 12:52 UTC |
+| Last updated | 2026-09-02 18:46 UTC |
 
 ### By capability
 
@@ -102,7 +102,7 @@ cd website && npm install && npm run dev
 | [catppuccin/zed-icons](https://github.com/catppuccin/zed-icons) | 240 | 🦊 Soothing pastel icons for Zed |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 214 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
-| [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 200 | Zed support for the Godot game engine and the GDScript language |
+| [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 201 | Zed support for the Godot game engine and the GDScript language |
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 198 | Typst extension for zed |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
@@ -120,11 +120,11 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 3 | 2026-09-02 | Spring Boot language intelligence for Zed, built on the requ... |
 | [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-09-02 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 97 | 2026-09-02 | True Dark Theme for Zed IDE |
 | [DankDown10256/licensr](https://github.com/DankDown10256/licensr) | 0 | 2026-09-01 | Licensr is a Zed IDE extension to write licenses for your pr... |
 | [DROOdotFOO/synthwave84-zed](https://github.com/DROOdotFOO/synthwave84-zed) | 5 | 2026-09-01 | Synthwave84 for Zed editor |
-| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 3 | 2026-09-01 | Spring Boot language intelligence for Zed, built on the requ... |
 | [comphy-lab/comphy-zed-themes](https://github.com/comphy-lab/comphy-zed-themes) | 2 | 2026-09-01 |  |
 | [tfuxu/zed-blueprint](https://github.com/tfuxu/zed-blueprint) | 9 | 2026-09-01 | Blueprint (.blp) language support for Zed editor |
 | [dunyakirkali/zed-asciidoc](https://github.com/dunyakirkali/zed-asciidoc) | 23 | 2026-09-01 | Zed support for AsciiDoc syntax |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-09-02T18:46 | 0 | 588 | 2131 |
 | 2026-09-02T12:52 | 0 | 588 | 2131 |
 | 2026-09-02T06:57 | 0 | 588 | 2131 |
 | 2026-09-02T01:10 | 1 | 588 | 2131 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-09-01T01:20 | 7 | 586 | 2130 |
 | 2026-08-31T18:46 | 2 | 585 | 2123 |
 | 2026-08-31T12:51 | 1 | 585 | 2121 |
-| 2026-08-31T07:02 | 0 | 585 | 2120 |
 
 ---
 
