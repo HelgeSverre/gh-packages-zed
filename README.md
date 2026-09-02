@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1745** |
 | In official registry | 1253 |
 | Discovered via topics | 492 |
-| Last updated | 2026-09-02 01:10 UTC |
+| Last updated | 2026-09-02 06:57 UTC |
 
 ### By capability
 
@@ -120,6 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 97 | 2026-09-02 | True Dark Theme for Zed IDE |
 | [DankDown10256/licensr](https://github.com/DankDown10256/licensr) | 0 | 2026-09-01 | Licensr is a Zed IDE extension to write licenses for your pr... |
 | [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-09-01 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
 | [DROOdotFOO/synthwave84-zed](https://github.com/DROOdotFOO/synthwave84-zed) | 5 | 2026-09-01 | Synthwave84 for Zed editor |
@@ -127,7 +128,6 @@ cd website && npm install && npm run dev
 | [comphy-lab/comphy-zed-themes](https://github.com/comphy-lab/comphy-zed-themes) | 2 | 2026-09-01 |  |
 | [tfuxu/zed-blueprint](https://github.com/tfuxu/zed-blueprint) | 9 | 2026-09-01 | Blueprint (.blp) language support for Zed editor |
 | [dunyakirkali/zed-asciidoc](https://github.com/dunyakirkali/zed-asciidoc) | 23 | 2026-09-01 | Zed support for AsciiDoc syntax |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 97 | 2026-09-01 | True Dark Theme for Zed IDE |
 | [WhiteKr/zed-classic-asp](https://github.com/WhiteKr/zed-classic-asp) | 0 | 2026-09-01 | Classic ASP (VBScript) support for the Zed editor — syntax h... |
 | [felixtensor/zed-mlir](https://github.com/felixtensor/zed-mlir) | 6 | 2026-08-31 | MLIR Extension for Zed |
 | [afrigon/zed-x](https://github.com/afrigon/zed-x) | 0 | 2026-08-31 | x syntax highlighting & language server for Zed |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-09-02T06:57 | 0 | 588 | 2131 |
 | 2026-09-02T01:10 | 1 | 588 | 2131 |
 | 2026-09-01T18:47 | 0 | 588 | 2130 |
 | 2026-09-01T12:50 | 0 | 588 | 2130 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-08-31T12:51 | 1 | 585 | 2121 |
 | 2026-08-31T07:02 | 0 | 585 | 2120 |
 | 2026-08-31T01:15 | 2 | 583 | 2120 |
-| 2026-08-30T18:43 | 1 | 582 | 2118 |
 
 ---
 
