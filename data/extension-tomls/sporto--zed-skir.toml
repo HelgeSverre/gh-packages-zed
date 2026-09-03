@@ -1,0 +1,11 @@
+id = "skir"
+name = "Skir"
+version = "0.3.0"
+schema_version = 1
+authors = ["Sebastian Porto <sebastian@sporto.cc>"]
+description = "Syntax highlighting for the Skir schema language (.skir files)"
+repository = "https://github.com/sporto/zed-skir"
+
+[grammars.skir]
+repository = "https://github.com/sporto/tree-sitter-skir"
+rev = "431f29528d08133d052241b72b23688cf034901a"
