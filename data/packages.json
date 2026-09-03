@@ -5147,7 +5147,7 @@
     "name": "Dylanmurzello/zed-android-port",
     "url": "https://github.com/Dylanmurzello/zed-android-port",
     "description": "Native Android port of the Zed code editor,  gpui rendering through Vulkan, integrated Termux for LSPs and tooling, remote SSH support. Runs as an APK on tablets and Android desktop modes.",
-    "stars": 190,
+    "stars": 192,
     "forks": 14,
     "topics": [
       "android",
@@ -5174,7 +5174,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-05-07T00:12:10Z",
-    "updated_at": "2026-09-02T17:36:36Z",
+    "updated_at": "2026-09-03T14:39:42Z",
     "pushed_at": "2026-08-07T13:48:06Z",
     "discovered_at": "2026-05-19T19:54:12.053Z",
     "official": false
@@ -5301,8 +5301,8 @@
     "language": "PowerShell",
     "license": null,
     "created_at": "2024-08-14T22:46:54Z",
-    "updated_at": "2026-08-27T07:13:49Z",
-    "pushed_at": "2026-08-27T07:11:06Z",
+    "updated_at": "2026-09-03T17:00:03Z",
+    "pushed_at": "2026-09-03T16:59:18Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
   },
@@ -18027,8 +18027,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-09-03T06:55:52Z",
-    "pushed_at": "2026-09-03T06:55:43Z",
+    "updated_at": "2026-09-03T12:54:11Z",
+    "pushed_at": "2026-09-03T12:53:01Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -32053,8 +32053,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
-    "updated_at": "2026-09-03T03:21:47Z",
-    "pushed_at": "2026-09-03T03:20:12Z",
+    "updated_at": "2026-09-03T18:37:24Z",
+    "pushed_at": "2026-09-03T18:51:33Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false
   },
@@ -34309,7 +34309,7 @@
     "name": "johngbl/autonomous-engineer",
     "url": "https://github.com/johngbl/autonomous-engineer",
     "description": "Pragmatic Senior Engineering Meta-Skill for AI coding agents. Evidence-based verified loops, strict TDD, anti-guessing discipline, and clean code.",
-    "stars": 1,
+    "stars": 2,
     "forks": 1,
     "topics": [
       "agentic-coding",
@@ -34336,8 +34336,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-08-07T18:46:45Z",
-    "updated_at": "2026-09-02T03:16:47Z",
-    "pushed_at": "2026-09-02T03:16:43Z",
+    "updated_at": "2026-09-03T16:41:41Z",
+    "pushed_at": "2026-09-03T16:35:16Z",
     "discovered_at": "2026-08-08T18:56:57.473Z",
     "official": false
   },
@@ -35324,7 +35324,7 @@
     "license": "MIT",
     "created_at": "2026-08-13T19:10:02Z",
     "updated_at": "2026-08-17T22:17:57Z",
-    "pushed_at": "2026-08-20T17:34:54Z",
+    "pushed_at": "2026-09-03T17:35:27Z",
     "discovered_at": "2026-08-14T01:05:12.208Z",
     "official": false
   },
@@ -36276,7 +36276,7 @@
     "name": "SilyNoMeta/zed-intellij-server",
     "url": "https://github.com/SilyNoMeta/zed-intellij-server",
     "description": "IntelliJ-powered Java and Kotlin code engine for Zed (JetBrains intellij-server backend over LSP/DAP)",
-    "stars": 2,
+    "stars": 3,
     "forks": 0,
     "topics": [
       "debugger",
@@ -36290,7 +36290,7 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-08-28T20:21:49Z",
-    "updated_at": "2026-09-03T04:56:29Z",
+    "updated_at": "2026-09-03T14:22:51Z",
     "pushed_at": "2026-09-03T04:56:20Z",
     "discovered_at": "2026-08-28T21:48:48.580Z",
     "official": false
@@ -36652,5 +36652,26 @@
     "pushed_at": "2026-09-03T02:47:08Z",
     "discovered_at": "2026-09-03T12:52:29.788Z",
     "official": true
+  },
+  "toonionofficial/twrite": {
+    "name": "ToonionOfficial/twrite",
+    "url": "https://github.com/ToonionOfficial/twrite",
+    "description": "TWrite is a GPUI fast, modular text editor crate for Rust.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "gpui",
+      "gpui-component",
+      "rust",
+      "zed",
+      "zed-editor"
+    ],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2026-09-02T15:38:43Z",
+    "updated_at": "2026-09-03T15:04:04Z",
+    "pushed_at": "2026-09-03T18:08:05Z",
+    "discovered_at": "2026-09-03T18:53:15.863Z",
+    "official": false
   }
 }

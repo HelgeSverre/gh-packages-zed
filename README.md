@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1751** |
 | In official registry | 1259 |
 | Discovered via topics | 492 |
-| Last updated | 2026-09-03 12:52 UTC |
+| Last updated | 2026-09-03 18:53 UTC |
 
 ### By capability
 
@@ -120,9 +120,10 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-09-03 | Intelligent codebase search & indexing for Zed. Async MCP se... |
+| [gesundes/zed-ansible-vault](https://github.com/gesundes/zed-ansible-vault) | 0 | 2026-09-03 | Encrypt and decrypt Ansible Vault files and inline !vault YA... |
 | [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-09-03 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 97 | 2026-09-03 | True Dark Theme for Zed IDE |
-| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-09-03 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [carthage-software/whim-zed](https://github.com/carthage-software/whim-zed) | 0 | 2026-09-03 | Language support for Whim in Zed. |
 | [neylonsantos/neytone-zed](https://github.com/neylonsantos/neytone-zed) | 0 | 2026-09-03 | An ergonomic, warm light theme with high-contrast typography... |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 135 | 2026-09-02 | The Ruby language support for Zed editor |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [afrigon/zed-x](https://github.com/afrigon/zed-x) | 0 | 2026-08-31 | x syntax highlighting & language server for Zed |
 | [fireseasonnow/zed-better-comments](https://github.com/fireseasonnow/zed-better-comments) | 1 | 2026-08-31 | Better Comments for Zed: highlights //*, //!, //? and //# ma... |
 | [Stillat/antlers-toolbox-zed](https://github.com/Stillat/antlers-toolbox-zed) | 1 | 2026-08-31 | Antlers Toolbox for Zed |
-| [SinaMombeiny/S-DarkTheme.zed](https://github.com/SinaMombeiny/S-DarkTheme.zed) | 5 | 2026-08-30 | Dark theme for Zed |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-09-03T18:53 | 1 | 588 | 2138 |
 | 2026-09-03T12:52 | 1 | 588 | 2137 |
 | 2026-09-03T06:55 | 0 | 588 | 2136 |
 | 2026-09-03T01:12 | 5 | 588 | 2136 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-09-02T01:10 | 1 | 588 | 2131 |
 | 2026-09-01T18:47 | 0 | 588 | 2130 |
 | 2026-09-01T12:50 | 0 | 588 | 2130 |
-| 2026-09-01T06:55 | 0 | 588 | 2130 |
 
 ---
 
