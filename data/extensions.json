@@ -2470,7 +2470,7 @@
     "url": "https://github.com/MrAMS/zed-auto-file-header",
     "description": "A Zed extension that inserts a customizable file header (Filename, Author, Date, Copyright) automatically when you create a new, empty file.",
     "stars": 8,
-    "forks": 3,
+    "forks": 4,
     "topics": [
       "file-header",
       "zed",
@@ -2820,7 +2820,7 @@
     "name": "EmmanuelVernet/zed-tokyoppuccin",
     "url": "https://github.com/EmmanuelVernet/zed-tokyoppuccin",
     "description": "A nice blend of Tokyo Night and Catppuccin themes",
-    "stars": 0,
+    "stars": 1,
     "forks": 0,
     "topics": [
       "zed",
@@ -2831,7 +2831,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-01-16T11:34:28Z",
-    "updated_at": "2026-08-18T14:32:27Z",
+    "updated_at": "2026-09-03T09:49:16Z",
     "pushed_at": "2026-04-02T15:41:31Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -59095,8 +59095,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-08-22T22:20:48Z",
-    "updated_at": "2026-09-02T12:48:54Z",
-    "pushed_at": "2026-09-02T12:47:57Z",
+    "updated_at": "2026-09-03T12:33:50Z",
+    "pushed_at": "2026-09-03T12:32:52Z",
     "discovered_at": "2026-08-24T13:01:58.453Z",
     "official": false,
     "extension": {
@@ -60092,6 +60092,41 @@
       "sections": [],
       "categories": [
         "theme"
+      ]
+    }
+  },
+  "carthage-software/whim-zed": {
+    "name": "carthage-software/whim-zed",
+    "url": "https://github.com/carthage-software/whim-zed",
+    "description": "Language support for Whim in Zed.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2026-09-01T07:55:35Z",
+    "updated_at": "2026-09-03T02:46:50Z",
+    "pushed_at": "2026-09-03T02:47:08Z",
+    "discovered_at": "2026-09-03T12:52:29.788Z",
+    "official": true,
+    "extension": {
+      "id": "whim-lang",
+      "name": "Whim Language Support",
+      "description": "Language support for Whim.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Seifeddine Gmati <azjezz@carthage.software>"
+      ],
+      "repository": "https://github.com/carthage-software/whim-zed",
+      "snippets": null,
+      "sections": [
+        "grammars",
+        "language_servers"
+      ],
+      "categories": [
+        "grammar",
+        "language-server"
       ]
     }
   }
