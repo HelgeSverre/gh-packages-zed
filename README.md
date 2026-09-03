@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1750** |
 | In official registry | 1258 |
 | Discovered via topics | 492 |
-| Last updated | 2026-09-03 01:12 UTC |
+| Last updated | 2026-09-03 06:55 UTC |
 
 ### By capability
 
@@ -110,7 +110,7 @@ cd website && npm install && npm run dev
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 176 | 🦊 Zed editor theme ported from Neovim |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 170 | A macOS native style theme for Zed, let it same like native app in macOS. |
 | [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 154 |  |
-| [zed-extensions/swift](https://github.com/zed-extensions/swift) | 149 | Extension for Zed to support Swift |
+| [zed-extensions/swift](https://github.com/zed-extensions/swift) | 150 | Extension for Zed to support Swift |
 | [thedadams/zed-comment](https://github.com/thedadams/zed-comment) | 148 | A comment extension for the Zed editor |
 | [slymax/zedokai](https://github.com/slymax/zedokai) | 145 | a theme for Zed based on the Monokai Pro color scheme |
 | [nathansbradshaw/zed-angular](https://github.com/nathansbradshaw/zed-angular) | 144 |  |
@@ -120,12 +120,13 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-09-02 | Intelligent codebase search & indexing for Zed. Async MCP se... |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 97 | 2026-09-03 | True Dark Theme for Zed IDE |
+| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-09-03 | Intelligent codebase search & indexing for Zed. Async MCP se... |
+| [neylonsantos/neytone-zed](https://github.com/neylonsantos/neytone-zed) | 0 | 2026-09-03 | An ergonomic, warm light theme with high-contrast typography... |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 135 | 2026-09-02 | The Ruby language support for Zed editor |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 3 | 2026-09-02 | Spring Boot language intelligence for Zed, built on the requ... |
 | [cartan-lang/zed-cartan](https://github.com/cartan-lang/zed-cartan) | 0 | 2026-09-02 | Cartan language support for Zed: tree-sitter highlighting an... |
 | [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-09-02 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 97 | 2026-09-02 | True Dark Theme for Zed IDE |
 | [DankDown10256/licensr](https://github.com/DankDown10256/licensr) | 0 | 2026-09-01 | Licensr is a Zed IDE extension to write licenses for your pr... |
 | [DROOdotFOO/synthwave84-zed](https://github.com/DROOdotFOO/synthwave84-zed) | 5 | 2026-09-01 | Synthwave84 for Zed editor |
 | [comphy-lab/comphy-zed-themes](https://github.com/comphy-lab/comphy-zed-themes) | 2 | 2026-09-01 |  |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [Stillat/antlers-toolbox-zed](https://github.com/Stillat/antlers-toolbox-zed) | 1 | 2026-08-31 | Antlers Toolbox for Zed |
 | [SinaMombeiny/S-DarkTheme.zed](https://github.com/SinaMombeiny/S-DarkTheme.zed) | 5 | 2026-08-30 | Dark theme for Zed |
 | [tavasolireza/oddities-theme](https://github.com/tavasolireza/oddities-theme) | 0 | 2026-08-30 | Some themes with uncommon color combinations that I like. |
-| [bkataru/iron-man-zed](https://github.com/bkataru/iron-man-zed) | 0 | 2026-08-30 | Theme for Zed. Arc-reactor gold, repulsor blue, and crimson ... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-09-03T06:55 | 0 | 588 | 2136 |
 | 2026-09-03T01:12 | 5 | 588 | 2136 |
 | 2026-09-02T18:46 | 0 | 588 | 2131 |
 | 2026-09-02T12:52 | 0 | 588 | 2131 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-09-01T12:50 | 0 | 588 | 2130 |
 | 2026-09-01T06:55 | 0 | 588 | 2130 |
 | 2026-09-01T01:20 | 7 | 586 | 2130 |
-| 2026-08-31T18:46 | 2 | 585 | 2123 |
 
 ---
 
