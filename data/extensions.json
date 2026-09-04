@@ -3340,8 +3340,8 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-03-30T11:33:55Z",
-    "updated_at": "2026-09-01T11:21:55Z",
-    "pushed_at": "2026-09-01T11:17:55Z",
+    "updated_at": "2026-09-03T21:47:23Z",
+    "pushed_at": "2026-09-03T21:47:40Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false,
     "extension": {
@@ -30738,13 +30738,13 @@
     "name": "zed-extensions/git_firefly",
     "url": "https://github.com/zed-extensions/git_firefly",
     "description": "",
-    "stars": 154,
+    "stars": 155,
     "forks": 6,
     "topics": [],
     "language": "Tree-sitter Query",
     "license": "Apache-2.0",
     "created_at": "2024-02-19T14:56:35Z",
-    "updated_at": "2026-08-31T05:08:54Z",
+    "updated_at": "2026-09-03T23:21:25Z",
     "pushed_at": "2026-07-28T23:40:00Z",
     "discovered_at": "2026-05-19T21:42:53.670Z",
     "official": false,
@@ -40866,13 +40866,13 @@
     "name": "gabeins/zed-plantuml",
     "url": "https://github.com/gabeins/zed-plantuml",
     "description": "PlantUML support for Zed",
-    "stars": 15,
+    "stars": 16,
     "forks": 4,
     "topics": [],
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-10-16T15:51:04Z",
-    "updated_at": "2026-05-19T09:08:18Z",
+    "updated_at": "2026-09-03T22:22:49Z",
     "pushed_at": "2026-02-23T13:14:51Z",
     "discovered_at": "2026-05-20T00:39:45.722Z",
     "official": false,
@@ -47960,13 +47960,13 @@
     "name": "kevcamel/vscode_dark_modern.zed",
     "url": "https://github.com/kevcamel/vscode_dark_modern.zed",
     "description": "VS Code Dark Modern theme for Zed",
-    "stars": 57,
+    "stars": 58,
     "forks": 20,
     "topics": [],
     "language": null,
     "license": "MIT",
     "created_at": "2024-05-17T15:44:22Z",
-    "updated_at": "2026-08-26T09:26:40Z",
+    "updated_at": "2026-09-03T23:00:48Z",
     "pushed_at": "2026-08-02T16:30:24Z",
     "discovered_at": "2026-05-20T03:49:49.286Z",
     "official": false,
@@ -51144,19 +51144,18 @@
   "wesleydmscn/zed-samurai-theme": {
     "name": "wesleydmscn/zed-samurai-theme",
     "url": "https://github.com/wesleydmscn/zed-samurai-theme",
-    "description": "A Zed theme for samurai programmers",
+    "description": "A theme for samurai programmers 🤺",
     "stars": 4,
     "forks": 0,
     "topics": [
       "samurai",
-      "zed-extension",
       "zed-theme"
     ],
     "language": null,
     "license": "MIT",
     "created_at": "2025-11-13T23:36:16Z",
-    "updated_at": "2026-06-07T00:52:34Z",
-    "pushed_at": "2026-03-20T02:18:23Z",
+    "updated_at": "2026-09-03T23:35:03Z",
+    "pushed_at": "2026-09-03T23:31:29Z",
     "discovered_at": "2026-06-07T07:23:59.384Z",
     "official": false,
     "extension": {
@@ -53785,8 +53784,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
-    "updated_at": "2026-09-03T18:37:24Z",
-    "pushed_at": "2026-09-03T18:51:33Z",
+    "updated_at": "2026-09-03T19:31:54Z",
+    "pushed_at": "2026-09-03T19:31:45Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false,
     "extension": {
@@ -54722,7 +54721,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
     "updated_at": "2026-09-02T17:37:09Z",
-    "pushed_at": "2026-09-02T17:36:45Z",
+    "pushed_at": "2026-09-03T21:26:16Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false,
     "extension": {
@@ -60123,6 +60122,103 @@
       "sections": [
         "grammars",
         "language_servers"
+      ],
+      "categories": [
+        "grammar",
+        "language-server"
+      ]
+    }
+  },
+  "2u841r/dark-trio": {
+    "name": "2u841r/dark-trio",
+    "url": "https://github.com/2u841r/dark-trio",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-04-29T20:24:18Z",
+    "updated_at": "2026-05-21T16:41:27Z",
+    "pushed_at": "2026-05-21T16:41:22Z",
+    "discovered_at": "2026-09-04T01:08:33.780Z",
+    "official": true,
+    "extension": {
+      "id": "dark-trio-themes",
+      "name": "Dark Trio",
+      "description": "3 dark themes: Bytes Newsletter, Svelte 5, Pinky Promise",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "2u841r"
+      ],
+      "repository": "https://github.com/2u841r/dark-trio",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "slipstream-max/jetbrains-dark-blur-theme": {
+    "name": "Slipstream-Max/jetbrains-dark-blur-theme",
+    "url": "https://github.com/Slipstream-Max/jetbrains-dark-blur-theme",
+    "description": "Blurred JetBrains Dark theme for Zed",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-05-08T08:51:51Z",
+    "updated_at": "2026-05-08T08:53:45Z",
+    "pushed_at": "2026-05-08T08:53:40Z",
+    "discovered_at": "2026-09-04T01:08:33.780Z",
+    "official": true,
+    "extension": {
+      "id": "jetbrains-dark-blur-theme",
+      "name": "JetBrains Dark Blur",
+      "description": "Blurred JetBrains Dark theme for Zed",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Slipstream Max"
+      ],
+      "repository": "https://github.com/Slipstream-Max/jetbrains-dark-blur-theme",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "marko-js/zed": {
+    "name": "marko-js/zed",
+    "url": "https://github.com/marko-js/zed",
+    "description": "Marko language support for the Zed editor.",
+    "stars": 1,
+    "forks": 0,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2026-06-13T20:59:39Z",
+    "updated_at": "2026-08-20T17:07:31Z",
+    "pushed_at": "2026-08-20T17:02:56Z",
+    "discovered_at": "2026-09-04T01:08:33.780Z",
+    "official": true,
+    "extension": {
+      "id": "marko",
+      "name": "Marko",
+      "description": "Marko language support: syntax highlighting, embedded languages, and the Marko language server.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Dylan Piercey <pierceydylan@gmail.com>"
+      ],
+      "repository": "https://github.com/marko-js/zed",
+      "snippets": null,
+      "sections": [
+        "language_servers",
+        "grammars"
       ],
       "categories": [
         "grammar",
