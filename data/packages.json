@@ -83,7 +83,7 @@
     "name": "jellydn/zed-codemux",
     "url": "https://github.com/jellydn/zed-codemux",
     "description": "Open Zed terminals inside tmux or zellij — port of vscode-mux to the Zed editor.",
-    "stars": 15,
+    "stars": 16,
     "forks": 1,
     "topics": [
       "tmux",
@@ -94,7 +94,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-05-02T05:39:52Z",
-    "updated_at": "2026-09-03T05:40:10Z",
+    "updated_at": "2026-09-04T08:54:46Z",
     "pushed_at": "2026-07-24T03:03:46Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
@@ -5119,8 +5119,8 @@
     "language": "Go",
     "license": "MIT",
     "created_at": "2026-03-09T04:35:59Z",
-    "updated_at": "2026-09-03T11:03:47Z",
-    "pushed_at": "2026-09-03T11:03:01Z",
+    "updated_at": "2026-09-04T11:08:15Z",
+    "pushed_at": "2026-09-04T11:03:12Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -5147,7 +5147,7 @@
     "name": "Dylanmurzello/zed-android-port",
     "url": "https://github.com/Dylanmurzello/zed-android-port",
     "description": "Native Android port of the Zed code editor,  gpui rendering through Vulkan, integrated Termux for LSPs and tooling, remote SSH support. Runs as an APK on tablets and Android desktop modes.",
-    "stars": 193,
+    "stars": 194,
     "forks": 14,
     "topics": [
       "android",
@@ -5174,7 +5174,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-05-07T00:12:10Z",
-    "updated_at": "2026-09-04T03:43:58Z",
+    "updated_at": "2026-09-04T11:02:19Z",
     "pushed_at": "2026-08-07T13:48:06Z",
     "discovered_at": "2026-05-19T19:54:12.053Z",
     "official": false
@@ -8209,23 +8209,6 @@
     "pushed_at": "2025-09-30T19:56:19Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": true
-  },
-  "crwen/alfred-zed-projects": {
-    "name": "crwen/alfred-zed-projects",
-    "url": "https://github.com/crwen/alfred-zed-projects",
-    "description": "A Alfred workflow to open with zed.",
-    "stars": 6,
-    "forks": 2,
-    "topics": [
-      "alfred-workflow",
-      "zed"
-    ],
-    "language": "Rust",
-    "license": null,
-    "created_at": "2024-06-19T13:17:15Z",
-    "updated_at": "2026-01-29T02:21:31Z",
-    "pushed_at": "2025-09-04T10:07:23Z",
-    "discovered_at": "2026-05-19T19:54:12.054Z"
   },
   "gvozdvmozgu/sqruff-zed": {
     "name": "gvozdvmozgu/sqruff-zed",
@@ -18027,8 +18010,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-09-04T01:09:20Z",
-    "pushed_at": "2026-09-04T01:09:16Z",
+    "updated_at": "2026-09-04T06:59:34Z",
+    "pushed_at": "2026-09-04T06:57:57Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -25282,8 +25265,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-07-01T21:28:51Z",
-    "updated_at": "2026-08-30T22:32:55Z",
-    "pushed_at": "2026-08-30T22:45:46Z",
+    "updated_at": "2026-09-04T12:33:02Z",
+    "pushed_at": "2026-09-04T12:26:08Z",
     "discovered_at": "2026-05-20T02:57:03.419Z",
     "official": true
   },
@@ -32052,8 +32035,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
-    "updated_at": "2026-09-04T06:35:29Z",
-    "pushed_at": "2026-09-04T06:35:21Z",
+    "updated_at": "2026-09-04T08:26:52Z",
+    "pushed_at": "2026-09-04T08:26:21Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false
   },
@@ -32736,7 +32719,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
     "updated_at": "2026-09-04T03:12:43Z",
-    "pushed_at": "2026-09-04T03:12:35Z",
+    "pushed_at": "2026-09-04T09:32:57Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false
   },
@@ -36738,6 +36721,30 @@
     "updated_at": "2026-09-04T05:39:33Z",
     "pushed_at": "2026-09-04T05:38:47Z",
     "discovered_at": "2026-09-04T06:57:25.494Z",
+    "official": false
+  },
+  "jeffreyjyz/command-code-zed": {
+    "name": "JeffreyJYZ/command-code-zed",
+    "url": "https://github.com/JeffreyJYZ/command-code-zed",
+    "description": "Zed extension and cmduse CLI for live Command Code usage: plan, credits, 5-hour and weekly windows, per-window elapsed, billing period stats. Rust, no bloat.",
+    "stars": 1,
+    "forks": 0,
+    "topics": [
+      "cargo",
+      "cli",
+      "command-code",
+      "extension",
+      "rust",
+      "tui",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Rust",
+    "license": null,
+    "created_at": "2026-09-04T07:49:15Z",
+    "updated_at": "2026-09-04T12:00:34Z",
+    "pushed_at": "2026-09-04T12:00:27Z",
+    "discovered_at": "2026-09-04T12:51:39.260Z",
     "official": false
   }
 }

@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1755-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1756-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,16 +14,16 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1755** |
+| Total tracked | **1756** |
 | In official registry | 1262 |
-| Discovered via topics | 493 |
-| Last updated | 2026-09-04 06:57 UTC |
+| Discovered via topics | 494 |
+| Last updated | 2026-09-04 12:51 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
-| Themes | 750 |
+| Themes | 751 |
 | Grammars | 610 |
 | Language Servers | 567 |
 | Context Servers | 137 |
@@ -70,6 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [JeffreyJYZ/command-code-zed](https://github.com/JeffreyJYZ/command-code-zed) | 1 | Zed extension and cmduse CLI for live Command Code usage: plan, credits, 5-hour ... |
 | [jigyansunanda/true-monokai-for-zed](https://github.com/jigyansunanda/true-monokai-for-zed) | 0 | The original Monokai theme for Zed, faithfully recreating the classic color pale... |
 | [2u841r/dark-trio](https://github.com/2u841r/dark-trio) | 0 |  |
 | [Slipstream-Max/jetbrains-dark-blur-theme](https://github.com/Slipstream-Max/jetbrains-dark-blur-theme) | 0 | Blurred JetBrains Dark theme for Zed |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [fireseasonnow/zed-better-comments](https://github.com/fireseasonnow/zed-better-comments) | 1 | Better Comments for Zed: highlights //*, //!, //? and //# markers plus TODO/FIXM... |
 | [afrigon/zed-x](https://github.com/afrigon/zed-x) | 0 | x syntax highlighting & language server for Zed |
 | [Stillat/antlers-toolbox-zed](https://github.com/Stillat/antlers-toolbox-zed) | 1 | Antlers Toolbox for Zed |
-| [tavasolireza/oddities-theme](https://github.com/tavasolireza/oddities-theme) | 0 | Some themes with uncommon color combinations that I like. |
 
 ## Top starred (under 500)
 
@@ -120,10 +120,12 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [SinaMombeiny/S-DarkTheme.zed](https://github.com/SinaMombeiny/S-DarkTheme.zed) | 5 | 2026-09-04 | Dark theme for Zed |
+| [JeffreyJYZ/command-code-zed](https://github.com/JeffreyJYZ/command-code-zed) | 1 | 2026-09-04 | Zed extension and cmduse CLI for live Command Code usage: pl... |
+| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 3 | 2026-09-04 | Spring Boot language intelligence for Zed, built on the requ... |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-09-04 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 97 | 2026-09-04 | True Dark Theme for Zed IDE |
 | [jigyansunanda/true-monokai-for-zed](https://github.com/jigyansunanda/true-monokai-for-zed) | 0 | 2026-09-04 | The original Monokai theme for Zed, faithfully recreating th... |
-| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 3 | 2026-09-04 | Spring Boot language intelligence for Zed, built on the requ... |
 | [whistlebee/zed-mojo](https://github.com/whistlebee/zed-mojo) | 2 | 2026-09-04 | Mojo LSP/Syntax/Debugger support for Zed |
 | [MrAMS/zed-auto-file-header](https://github.com/MrAMS/zed-auto-file-header) | 8 | 2026-09-04 | A Zed extension that inserts a customizable file header (Fil... |
 | [wesleydmscn/zed-samurai-theme](https://github.com/wesleydmscn/zed-samurai-theme) | 4 | 2026-09-03 | A theme for samurai programmers 🤺 |
@@ -138,13 +140,12 @@ cd website && npm install && npm run dev
 | [DROOdotFOO/synthwave84-zed](https://github.com/DROOdotFOO/synthwave84-zed) | 5 | 2026-09-01 | Synthwave84 for Zed editor |
 | [comphy-lab/comphy-zed-themes](https://github.com/comphy-lab/comphy-zed-themes) | 2 | 2026-09-01 |  |
 | [tfuxu/zed-blueprint](https://github.com/tfuxu/zed-blueprint) | 9 | 2026-09-01 | Blueprint (.blp) language support for Zed editor |
-| [icrmahin/visqode-zed-theme](https://github.com/icrmahin/visqode-zed-theme) | 0 | 2026-09-01 |  |
-| [WhiteKr/zed-classic-asp](https://github.com/WhiteKr/zed-classic-asp) | 0 | 2026-09-01 | Classic ASP (VBScript) support for the Zed editor — syntax h... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-09-04T12:51 | 1 | 589 | 2142 |
 | 2026-09-04T06:57 | 1 | 588 | 2142 |
 | 2026-09-04T01:08 | 3 | 589 | 2141 |
 | 2026-09-03T18:53 | 1 | 588 | 2138 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-09-02T18:46 | 0 | 588 | 2131 |
 | 2026-09-02T12:52 | 0 | 588 | 2131 |
 | 2026-09-02T06:57 | 0 | 588 | 2131 |
-| 2026-09-02T01:10 | 1 | 588 | 2131 |
 
 ---
 
