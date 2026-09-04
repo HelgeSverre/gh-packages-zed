@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1756** |
 | In official registry | 1262 |
 | Discovered via topics | 494 |
-| Last updated | 2026-09-04 12:51 UTC |
+| Last updated | 2026-09-04 18:45 UTC |
 
 ### By capability
 
@@ -120,9 +120,10 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [SinaMombeiny/S-DarkTheme.zed](https://github.com/SinaMombeiny/S-DarkTheme.zed) | 5 | 2026-09-04 | Dark theme for Zed |
-| [JeffreyJYZ/command-code-zed](https://github.com/JeffreyJYZ/command-code-zed) | 1 | 2026-09-04 | Zed extension and cmduse CLI for live Command Code usage: pl... |
+| [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-09-04 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 3 | 2026-09-04 | Spring Boot language intelligence for Zed, built on the requ... |
+| [JeffreyJYZ/command-code-zed](https://github.com/JeffreyJYZ/command-code-zed) | 1 | 2026-09-04 | Zed extension and cmduse CLI for live Command Code usage: pl... |
+| [SinaMombeiny/S-DarkTheme.zed](https://github.com/SinaMombeiny/S-DarkTheme.zed) | 5 | 2026-09-04 | Dark theme for Zed |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-09-04 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 97 | 2026-09-04 | True Dark Theme for Zed IDE |
 | [jigyansunanda/true-monokai-for-zed](https://github.com/jigyansunanda/true-monokai-for-zed) | 0 | 2026-09-04 | The original Monokai theme for Zed, faithfully recreating th... |
@@ -131,7 +132,6 @@ cd website && npm install && npm run dev
 | [wesleydmscn/zed-samurai-theme](https://github.com/wesleydmscn/zed-samurai-theme) | 4 | 2026-09-03 | A theme for samurai programmers 🤺 |
 | [dunyakirkali/zed-asciidoc](https://github.com/dunyakirkali/zed-asciidoc) | 23 | 2026-09-03 | Zed support for AsciiDoc syntax |
 | [gesundes/zed-ansible-vault](https://github.com/gesundes/zed-ansible-vault) | 0 | 2026-09-03 | Encrypt and decrypt Ansible Vault files and inline !vault YA... |
-| [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-09-03 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
 | [carthage-software/whim-zed](https://github.com/carthage-software/whim-zed) | 0 | 2026-09-03 | Language support for Whim in Zed. |
 | [neylonsantos/neytone-zed](https://github.com/neylonsantos/neytone-zed) | 0 | 2026-09-03 | An ergonomic, warm light theme with high-contrast typography... |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 135 | 2026-09-02 | The Ruby language support for Zed editor |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-09-04T18:45 | 0 | 590 | 2142 |
 | 2026-09-04T12:51 | 1 | 589 | 2142 |
 | 2026-09-04T06:57 | 1 | 588 | 2142 |
 | 2026-09-04T01:08 | 3 | 589 | 2141 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-09-03T01:12 | 5 | 588 | 2136 |
 | 2026-09-02T18:46 | 0 | 588 | 2131 |
 | 2026-09-02T12:52 | 0 | 588 | 2131 |
-| 2026-09-02T06:57 | 0 | 588 | 2131 |
 
 ---
 
