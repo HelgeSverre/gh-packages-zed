@@ -157,8 +157,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-09-03T06:31:36Z",
-    "pushed_at": "2026-09-03T06:31:26Z",
+    "updated_at": "2026-09-04T06:34:16Z",
+    "pushed_at": "2026-09-04T06:33:44Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -1670,8 +1670,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2025-11-23T12:49:30Z",
-    "updated_at": "2026-05-04T16:35:46Z",
-    "pushed_at": "2026-04-11T16:26:18Z",
+    "updated_at": "2026-09-04T02:07:16Z",
+    "pushed_at": "2026-09-04T02:07:11Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -5147,7 +5147,7 @@
     "name": "Dylanmurzello/zed-android-port",
     "url": "https://github.com/Dylanmurzello/zed-android-port",
     "description": "Native Android port of the Zed code editor,  gpui rendering through Vulkan, integrated Termux for LSPs and tooling, remote SSH support. Runs as an APK on tablets and Android desktop modes.",
-    "stars": 192,
+    "stars": 193,
     "forks": 14,
     "topics": [
       "android",
@@ -5174,7 +5174,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-05-07T00:12:10Z",
-    "updated_at": "2026-09-03T14:39:42Z",
+    "updated_at": "2026-09-04T03:43:58Z",
     "pushed_at": "2026-08-07T13:48:06Z",
     "discovered_at": "2026-05-19T19:54:12.053Z",
     "official": false
@@ -8941,8 +8941,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-05-13T12:49:53Z",
-    "updated_at": "2026-07-12T01:26:31Z",
-    "pushed_at": "2026-06-18T13:46:10Z",
+    "updated_at": "2026-09-04T02:21:41Z",
+    "pushed_at": "2026-09-04T02:21:35Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": false
   },
@@ -18027,8 +18027,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-09-03T19:02:32Z",
-    "pushed_at": "2026-09-03T18:53:47Z",
+    "updated_at": "2026-09-04T01:09:20Z",
+    "pushed_at": "2026-09-04T01:09:16Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -30760,8 +30760,8 @@
     "language": "TypeScript",
     "license": "MIT",
     "created_at": "2026-06-12T09:51:02Z",
-    "updated_at": "2026-06-17T16:23:08Z",
-    "pushed_at": "2026-06-17T16:23:03Z",
+    "updated_at": "2026-09-04T02:48:13Z",
+    "pushed_at": "2026-09-04T02:48:05Z",
     "discovered_at": "2026-06-17T07:49:54.810Z",
     "official": false
   },
@@ -32052,8 +32052,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
-    "updated_at": "2026-09-03T19:31:54Z",
-    "pushed_at": "2026-09-03T19:31:45Z",
+    "updated_at": "2026-09-04T06:35:29Z",
+    "pushed_at": "2026-09-04T06:35:21Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false
   },
@@ -32735,8 +32735,8 @@
     "language": "JavaScript",
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
-    "updated_at": "2026-09-02T17:37:09Z",
-    "pushed_at": "2026-09-03T21:26:16Z",
+    "updated_at": "2026-09-04T03:12:43Z",
+    "pushed_at": "2026-09-04T03:12:35Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false
   },
@@ -35457,8 +35457,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-08-14T00:48:20Z",
-    "updated_at": "2026-08-31T15:13:37Z",
-    "pushed_at": "2026-08-31T15:01:11Z",
+    "updated_at": "2026-09-04T04:53:58Z",
+    "pushed_at": "2026-09-04T04:52:49Z",
     "discovered_at": "2026-08-15T18:51:44.196Z",
     "official": false
   },
@@ -36717,5 +36717,27 @@
     "pushed_at": "2026-08-20T17:02:56Z",
     "discovered_at": "2026-09-04T01:08:33.780Z",
     "official": true
+  },
+  "jigyansunanda/true-monokai-for-zed": {
+    "name": "jigyansunanda/true-monokai-for-zed",
+    "url": "https://github.com/jigyansunanda/true-monokai-for-zed",
+    "description": "The original Monokai theme for Zed, faithfully recreating the classic color palette and contrast of the classic Monokai.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "monokai",
+      "monokai-theme",
+      "zed",
+      "zed-editor",
+      "zed-extension",
+      "zed-theme"
+    ],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-09-03T13:11:38Z",
+    "updated_at": "2026-09-04T05:39:33Z",
+    "pushed_at": "2026-09-04T05:38:47Z",
+    "discovered_at": "2026-09-04T06:57:25.494Z",
+    "official": false
   }
 }

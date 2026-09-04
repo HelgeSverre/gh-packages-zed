@@ -142,8 +142,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-09-03T06:31:36Z",
-    "pushed_at": "2026-09-03T06:31:26Z",
+    "updated_at": "2026-09-04T06:34:16Z",
+    "pushed_at": "2026-09-04T06:33:44Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -2479,8 +2479,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2025-11-23T12:49:30Z",
-    "updated_at": "2026-05-04T16:35:46Z",
-    "pushed_at": "2026-04-11T16:26:18Z",
+    "updated_at": "2026-09-04T02:07:16Z",
+    "pushed_at": "2026-09-04T02:07:11Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -11674,8 +11674,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-05-13T12:49:53Z",
-    "updated_at": "2026-07-12T01:26:31Z",
-    "pushed_at": "2026-06-18T13:46:10Z",
+    "updated_at": "2026-09-04T02:21:41Z",
+    "pushed_at": "2026-09-04T02:21:35Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": false,
     "extension": {
@@ -53784,8 +53784,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
-    "updated_at": "2026-09-03T19:31:54Z",
-    "pushed_at": "2026-09-03T19:31:45Z",
+    "updated_at": "2026-09-04T06:35:29Z",
+    "pushed_at": "2026-09-04T06:35:21Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false,
     "extension": {
@@ -54720,8 +54720,8 @@
     "language": "JavaScript",
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
-    "updated_at": "2026-09-02T17:37:09Z",
-    "pushed_at": "2026-09-03T21:26:16Z",
+    "updated_at": "2026-09-04T03:12:43Z",
+    "pushed_at": "2026-09-04T03:12:35Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false,
     "extension": {
@@ -60223,6 +60223,44 @@
       "categories": [
         "grammar",
         "language-server"
+      ]
+    }
+  },
+  "jigyansunanda/true-monokai-for-zed": {
+    "name": "jigyansunanda/true-monokai-for-zed",
+    "url": "https://github.com/jigyansunanda/true-monokai-for-zed",
+    "description": "The original Monokai theme for Zed, faithfully recreating the classic color palette and contrast of the classic Monokai.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "monokai",
+      "monokai-theme",
+      "zed",
+      "zed-editor",
+      "zed-extension",
+      "zed-theme"
+    ],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-09-03T13:11:38Z",
+    "updated_at": "2026-09-04T05:39:33Z",
+    "pushed_at": "2026-09-04T05:38:47Z",
+    "discovered_at": "2026-09-04T06:57:25.494Z",
+    "official": false,
+    "extension": {
+      "id": "true-monokai-theme",
+      "name": "True Monokai",
+      "description": "The original Monokai theme for Zed, faithfully recreating the classic color palette and contrast of the classic Monokai.",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "authors": [
+        "Jig <nandajigyansu@gmail.com>"
+      ],
+      "repository": "https://github.com/jigyansunanda/true-monokai-for-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
       ]
     }
   }
