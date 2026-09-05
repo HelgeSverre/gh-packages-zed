@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1756** |
 | In official registry | 1262 |
 | Discovered via topics | 494 |
-| Last updated | 2026-09-05 12:46 UTC |
+| Last updated | 2026-09-05 18:44 UTC |
 
 ### By capability
 
@@ -120,6 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [innovatorved/zed-api-client](https://github.com/innovatorved/zed-api-client) | 0 | 2026-09-05 | HTTP client for Zed. |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-09-05 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [JeffreyJYZ/command-code-zed](https://github.com/JeffreyJYZ/command-code-zed) | 1 | 2026-09-05 | Zed extension and cmduse CLI for live Command Code usage: pl... |
 | [runescape-themes/zed-icons](https://github.com/runescape-themes/zed-icons) | 1 | 2026-09-05 | 🏰 Old School RuneScape icon theme for Zed |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [gesundes/zed-ansible-vault](https://github.com/gesundes/zed-ansible-vault) | 0 | 2026-09-03 | Encrypt and decrypt Ansible Vault files and inline !vault YA... |
 | [carthage-software/whim-zed](https://github.com/carthage-software/whim-zed) | 0 | 2026-09-03 | Language support for Whim in Zed. |
 | [neylonsantos/neytone-zed](https://github.com/neylonsantos/neytone-zed) | 0 | 2026-09-03 | An ergonomic, warm light theme with high-contrast typography... |
-| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 135 | 2026-09-02 | The Ruby language support for Zed editor |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-09-05T18:44 | 1 | 592 | 2143 |
 | 2026-09-05T12:46 | 0 | 590 | 2142 |
 | 2026-09-05T06:49 | 0 | 590 | 2142 |
 | 2026-09-05T01:07 | 0 | 590 | 2142 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-09-04T01:08 | 3 | 589 | 2141 |
 | 2026-09-03T18:53 | 1 | 588 | 2138 |
 | 2026-09-03T12:52 | 1 | 588 | 2137 |
-| 2026-09-03T06:55 | 0 | 588 | 2136 |
 
 ---
 

@@ -11388,13 +11388,25 @@
     "description": "HTTP client for Zed.",
     "stars": 0,
     "forks": 0,
-    "topics": [],
+    "topics": [
+      "api-client",
+      "http-client",
+      "innovatorved",
+      "rest-client",
+      "rust",
+      "tree-sitter",
+      "wasm",
+      "zed",
+      "zed-editor",
+      "zed-extension"
+    ],
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-03-07T10:14:42Z",
-    "updated_at": "2026-04-11T15:04:20Z",
-    "pushed_at": "2026-04-11T15:04:14Z",
-    "discovered_at": "2026-05-19T20:07:54.613Z"
+    "updated_at": "2026-09-05T16:11:32Z",
+    "pushed_at": "2026-09-05T16:11:23Z",
+    "discovered_at": "2026-05-19T20:07:54.613Z",
+    "official": false
   },
   "mikemackintosh/zed-crowdcontrol": {
     "name": "mikemackintosh/zed-crowdcontrol",
@@ -12929,7 +12941,7 @@
     "url": "https://github.com/owlx56/zed-lean4",
     "description": "",
     "stars": 55,
-    "forks": 10,
+    "forks": 11,
     "topics": [],
     "language": "Rust",
     "license": "Apache-2.0",
@@ -18010,8 +18022,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-09-05T06:50:10Z",
-    "pushed_at": "2026-09-05T06:50:06Z",
+    "updated_at": "2026-09-05T12:47:31Z",
+    "pushed_at": "2026-09-05T12:47:27Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -29703,8 +29715,8 @@
     "language": "TypeScript",
     "license": "Apache-2.0",
     "created_at": "2026-02-23T21:09:46Z",
-    "updated_at": "2026-08-09T15:47:16Z",
-    "pushed_at": "2026-08-09T15:46:48Z",
+    "updated_at": "2026-09-05T14:58:42Z",
+    "pushed_at": "2026-09-05T14:58:38Z",
     "discovered_at": "2026-06-04T18:46:41.571Z",
     "official": false
   },
@@ -35424,7 +35436,7 @@
     "name": "grunmin/dsh-acp-enhanced",
     "url": "https://github.com/grunmin/dsh-acp-enhanced",
     "description": "Enhanced ACP (Agent Client Protocol) server for DeepSeek Harness (dsh) — drop-in bridge for the Zed editor: block-level streaming, usage/stat telemetry, model & reasoning-effort switching, permission presets, session resume & archive. Install: dsh plugin add",
-    "stars": 5,
+    "stars": 6,
     "forks": 1,
     "topics": [
       "acp",
@@ -35440,7 +35452,7 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-08-14T00:48:20Z",
-    "updated_at": "2026-09-05T03:06:51Z",
+    "updated_at": "2026-09-05T17:45:24Z",
     "pushed_at": "2026-09-05T03:06:47Z",
     "discovered_at": "2026-08-15T18:51:44.196Z",
     "official": false
@@ -35601,8 +35613,8 @@
     "language": null,
     "license": null,
     "created_at": "2026-08-16T21:55:25Z",
-    "updated_at": "2026-09-03T04:01:19Z",
-    "pushed_at": "2026-09-03T04:00:30Z",
+    "updated_at": "2026-09-05T13:31:41Z",
+    "pushed_at": "2026-09-05T13:31:36Z",
     "discovered_at": "2026-08-17T01:03:46.357Z",
     "official": false
   },
@@ -36581,11 +36593,17 @@
     "description": "A warm dark theme for Zed with signature orange accents.",
     "stars": 0,
     "forks": 0,
-    "topics": [],
+    "topics": [
+      "mimo",
+      "orange",
+      "zed",
+      "zed-editor",
+      "zed-theme"
+    ],
     "language": null,
     "license": "MIT",
     "created_at": "2026-08-29T20:25:15Z",
-    "updated_at": "2026-08-29T20:44:41Z",
+    "updated_at": "2026-09-05T13:48:16Z",
     "pushed_at": "2026-08-29T20:44:33Z",
     "discovered_at": "2026-09-03T01:12:31.004Z",
     "official": true
@@ -36745,6 +36763,27 @@
     "updated_at": "2026-09-05T09:06:39Z",
     "pushed_at": "2026-09-05T09:06:35Z",
     "discovered_at": "2026-09-04T12:51:39.260Z",
+    "official": false
+  },
+  "rupakraj/toolbelt-lsp": {
+    "name": "rupakraj/toolbelt-lsp",
+    "url": "https://github.com/rupakraj/toolbelt-lsp",
+    "description": "A grab-bag of small editor utilities for Zed, exposed as LSP code actions",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "lsp",
+      "lsp-server",
+      "zed",
+      "zed-editor",
+      "zed-extension"
+    ],
+    "language": "Rust",
+    "license": null,
+    "created_at": "2026-09-05T15:46:13Z",
+    "updated_at": "2026-09-05T16:47:39Z",
+    "pushed_at": "2026-09-05T16:47:35Z",
+    "discovered_at": "2026-09-05T18:44:17.813Z",
     "official": false
   }
 }
