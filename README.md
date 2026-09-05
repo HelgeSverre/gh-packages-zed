@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1756** |
 | In official registry | 1262 |
 | Discovered via topics | 494 |
-| Last updated | 2026-09-04 18:45 UTC |
+| Last updated | 2026-09-05 01:07 UTC |
 
 ### By capability
 
@@ -102,7 +102,7 @@ cd website && npm install && npm run dev
 | [catppuccin/zed-icons](https://github.com/catppuccin/zed-icons) | 240 | 🦊 Soothing pastel icons for Zed |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 214 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
-| [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 201 | Zed support for the Godot game engine and the GDScript language |
+| [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 202 | Zed support for the Godot game engine and the GDScript language |
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 198 | Typst extension for zed |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
@@ -120,9 +120,13 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [JeffreyJYZ/command-code-zed](https://github.com/JeffreyJYZ/command-code-zed) | 1 | 2026-09-05 | Zed extension and cmduse CLI for live Command Code usage: pl... |
+| [livetennisapi/zed-livetennis-mcp](https://github.com/livetennisapi/zed-livetennis-mcp) | 1 | 2026-09-05 | Zed extension: Live Tennis MCP server — real-time and histor... |
+| [tfuxu/zed-blueprint](https://github.com/tfuxu/zed-blueprint) | 9 | 2026-09-04 | Blueprint (.blp) language support for Zed editor |
+| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-09-04 | A Zed extension that allows to highlight all occurrences of ... |
+| [funsaized/kanagawa-zed-theme](https://github.com/funsaized/kanagawa-zed-theme) | 2 | 2026-09-04 | 🌊 Kanagawa Wave dark theme with blur/transparency effects f... |
 | [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-09-04 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 3 | 2026-09-04 | Spring Boot language intelligence for Zed, built on the requ... |
-| [JeffreyJYZ/command-code-zed](https://github.com/JeffreyJYZ/command-code-zed) | 1 | 2026-09-04 | Zed extension and cmduse CLI for live Command Code usage: pl... |
 | [SinaMombeiny/S-DarkTheme.zed](https://github.com/SinaMombeiny/S-DarkTheme.zed) | 5 | 2026-09-04 | Dark theme for Zed |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-09-04 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 97 | 2026-09-04 | True Dark Theme for Zed IDE |
@@ -136,15 +140,12 @@ cd website && npm install && npm run dev
 | [neylonsantos/neytone-zed](https://github.com/neylonsantos/neytone-zed) | 0 | 2026-09-03 | An ergonomic, warm light theme with high-contrast typography... |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 135 | 2026-09-02 | The Ruby language support for Zed editor |
 | [cartan-lang/zed-cartan](https://github.com/cartan-lang/zed-cartan) | 0 | 2026-09-02 | Cartan language support for Zed: tree-sitter highlighting an... |
-| [DankDown10256/licensr](https://github.com/DankDown10256/licensr) | 0 | 2026-09-01 | Licensr is a Zed IDE extension to write licenses for your pr... |
-| [DROOdotFOO/synthwave84-zed](https://github.com/DROOdotFOO/synthwave84-zed) | 5 | 2026-09-01 | Synthwave84 for Zed editor |
-| [comphy-lab/comphy-zed-themes](https://github.com/comphy-lab/comphy-zed-themes) | 2 | 2026-09-01 |  |
-| [tfuxu/zed-blueprint](https://github.com/tfuxu/zed-blueprint) | 9 | 2026-09-01 | Blueprint (.blp) language support for Zed editor |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-09-05T01:07 | 0 | 590 | 2142 |
 | 2026-09-04T18:45 | 0 | 590 | 2142 |
 | 2026-09-04T12:51 | 1 | 589 | 2142 |
 | 2026-09-04T06:57 | 1 | 588 | 2142 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-09-03T06:55 | 0 | 588 | 2136 |
 | 2026-09-03T01:12 | 5 | 588 | 2136 |
 | 2026-09-02T18:46 | 0 | 588 | 2131 |
-| 2026-09-02T12:52 | 0 | 588 | 2131 |
 
 ---
 
