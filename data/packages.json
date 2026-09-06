@@ -5119,8 +5119,8 @@
     "language": "Go",
     "license": "MIT",
     "created_at": "2026-03-09T04:35:59Z",
-    "updated_at": "2026-09-05T10:24:13Z",
-    "pushed_at": "2026-09-05T10:24:09Z",
+    "updated_at": "2026-09-06T10:43:51Z",
+    "pushed_at": "2026-09-06T10:43:47Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -5147,7 +5147,7 @@
     "name": "Dylanmurzello/zed-android-port",
     "url": "https://github.com/Dylanmurzello/zed-android-port",
     "description": "Native Android port of the Zed code editor,  gpui rendering through Vulkan, integrated Termux for LSPs and tooling, remote SSH support. Runs as an APK on tablets and Android desktop modes.",
-    "stars": 197,
+    "stars": 198,
     "forks": 14,
     "topics": [
       "android",
@@ -5174,7 +5174,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-05-07T00:12:10Z",
-    "updated_at": "2026-09-05T21:42:13Z",
+    "updated_at": "2026-09-06T07:58:25Z",
     "pushed_at": "2026-08-07T13:48:06Z",
     "discovered_at": "2026-05-19T19:54:12.053Z",
     "official": false
@@ -6576,7 +6576,7 @@
     "name": "wnkz/monoglow.nvim",
     "url": "https://github.com/wnkz/monoglow.nvim",
     "description": "🎆 A dark, mostly monochrome colorscheme with a touch of glowing.",
-    "stars": 174,
+    "stars": 175,
     "forks": 11,
     "topics": [
       "ghostty-theme",
@@ -6590,7 +6590,7 @@
     "language": "Lua",
     "license": "Apache-2.0",
     "created_at": "2024-10-05T14:40:58Z",
-    "updated_at": "2026-08-19T07:41:58Z",
+    "updated_at": "2026-09-06T11:16:51Z",
     "pushed_at": "2026-04-18T14:33:26Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
@@ -18022,8 +18022,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-09-06T01:15:17Z",
-    "pushed_at": "2026-09-06T01:15:13Z",
+    "updated_at": "2026-09-06T06:51:05Z",
+    "pushed_at": "2026-09-06T06:51:01Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -35436,7 +35436,7 @@
     "name": "grunmin/dsh-acp-enhanced",
     "url": "https://github.com/grunmin/dsh-acp-enhanced",
     "description": "Enhanced ACP (Agent Client Protocol) server for DeepSeek Harness (dsh) — drop-in bridge for the Zed editor: block-level streaming, usage/stat telemetry, model & reasoning-effort switching, permission presets, session resume & archive. Install: dsh plugin add",
-    "stars": 7,
+    "stars": 6,
     "forks": 1,
     "topics": [
       "acp",
@@ -35452,7 +35452,7 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-08-14T00:48:20Z",
-    "updated_at": "2026-09-06T03:20:16Z",
+    "updated_at": "2026-09-06T10:14:48Z",
     "pushed_at": "2026-09-05T03:06:47Z",
     "discovered_at": "2026-08-15T18:51:44.196Z",
     "official": false
@@ -35532,7 +35532,7 @@
     "name": "dd3v/mute-theme",
     "url": "https://github.com/dd3v/mute-theme",
     "description": "Minimalistic dark theme for Zed",
-    "stars": 1,
+    "stars": 2,
     "forks": 0,
     "topics": [
       "zed",
@@ -35542,7 +35542,7 @@
     "language": null,
     "license": null,
     "created_at": "2026-08-16T18:26:18Z",
-    "updated_at": "2026-09-06T00:05:27Z",
+    "updated_at": "2026-09-06T09:10:06Z",
     "pushed_at": "2026-08-16T19:24:47Z",
     "discovered_at": "2026-08-16T18:51:25.922Z",
     "official": false
@@ -36537,7 +36537,7 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-07-27T21:58:50Z",
-    "updated_at": "2026-09-02T00:32:31Z",
+    "updated_at": "2026-09-06T09:38:04Z",
     "pushed_at": "2026-09-02T00:32:29Z",
     "discovered_at": "2026-09-01T01:20:20.082Z",
     "official": false
@@ -36847,6 +36847,38 @@
     "updated_at": "2026-09-05T19:25:48Z",
     "pushed_at": "2026-08-01T18:56:58Z",
     "discovered_at": "2026-09-06T01:14:49.463Z",
+    "official": false
+  },
+  "luuvish/decl-lang": {
+    "name": "luuvish/decl-lang",
+    "url": "https://github.com/luuvish/decl-lang",
+    "description": "Declarative Language",
+    "stars": 1,
+    "forks": 0,
+    "topics": [
+      "config",
+      "configuration",
+      "declarative",
+      "evaluation",
+      "functional",
+      "json",
+      "language",
+      "language-server",
+      "programming-language",
+      "python",
+      "rust",
+      "typescript",
+      "validation",
+      "vscode-extension",
+      "yaml",
+      "zed-extension"
+    ],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2026-08-30T13:17:22Z",
+    "updated_at": "2026-09-06T09:45:09Z",
+    "pushed_at": "2026-09-06T09:45:05Z",
+    "discovered_at": "2026-09-06T12:46:50.552Z",
     "official": false
   }
 }
