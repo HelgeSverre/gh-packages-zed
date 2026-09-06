@@ -3695,7 +3695,7 @@
     "name": "chopratejas/headroom-zed",
     "url": "https://github.com/chopratejas/headroom-zed",
     "description": "Zed extension for Headroom — context compression for AI agents",
-    "stars": 59,
+    "stars": 60,
     "forks": 13,
     "topics": [
       "ai-agents",
@@ -3712,7 +3712,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-03-18T16:55:33Z",
-    "updated_at": "2026-08-22T08:46:44Z",
+    "updated_at": "2026-09-06T14:32:39Z",
     "pushed_at": "2026-03-18T16:55:38Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false,
@@ -7588,15 +7588,15 @@
     "name": "paveloom-r/zed-termux",
     "url": "https://github.com/paveloom-r/zed-termux",
     "description": "`termux-language-server` support for Zed editor",
-    "stars": 0,
-    "forks": 0,
+    "stars": 1,
+    "forks": 1,
     "topics": [
       "zed-extension"
     ],
     "language": "Tree-sitter Query",
     "license": "GPL-3.0",
     "created_at": "2025-05-26T19:02:09Z",
-    "updated_at": "2026-06-07T07:53:49Z",
+    "updated_at": "2026-09-06T17:12:54Z",
     "pushed_at": "2026-06-07T07:53:45Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false,
@@ -8042,7 +8042,7 @@
     "name": "lucascompython/wgsl-wesl-zed",
     "url": "https://github.com/lucascompython/wgsl-wesl-zed",
     "description": "WGSL/WESL language support for Zed",
-    "stars": 25,
+    "stars": 26,
     "forks": 4,
     "topics": [
       "bevy",
@@ -8055,7 +8055,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2025-04-16T10:16:14Z",
-    "updated_at": "2026-09-02T12:42:31Z",
+    "updated_at": "2026-09-06T13:08:38Z",
     "pushed_at": "2026-08-12T19:33:35Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": true,
@@ -22166,7 +22166,7 @@
     "name": "davccavalcante/oxocarbon-theme-for-zed",
     "url": "https://github.com/davccavalcante/oxocarbon-theme-for-zed",
     "description": "The \"Oxocarbon Theme for Zed\" brings the sleek, modern aesthetics inspired by IBM Carbon Design System to your Zed editor. This theme is meticulously crafted to offer a refined and professional visual experience, available in multiple dark variations. The Oxocarbon Theme transforms your coding environment with its distinct, elegant style.",
-    "stars": 22,
+    "stars": 23,
     "forks": 3,
     "topics": [
       "davidccavalcante",
@@ -22185,7 +22185,7 @@
     "language": null,
     "license": "CC0-1.0",
     "created_at": "2024-08-01T01:36:49Z",
-    "updated_at": "2026-08-07T11:12:10Z",
+    "updated_at": "2026-09-06T17:08:20Z",
     "pushed_at": "2025-02-24T01:59:01Z",
     "discovered_at": "2026-05-19T20:15:46.472Z",
     "official": false,
@@ -22552,7 +22552,7 @@
     "name": "zarifpour/zed-env",
     "url": "https://github.com/zarifpour/zed-env",
     "description": "🔐 env support for Zed.",
-    "stars": 59,
+    "stars": 60,
     "forks": 2,
     "topics": [
       "dotenv",
@@ -22569,7 +22569,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-07-12T02:40:18Z",
-    "updated_at": "2026-08-26T21:03:00Z",
+    "updated_at": "2026-09-06T13:14:18Z",
     "pushed_at": "2024-11-13T21:48:13Z",
     "discovered_at": "2026-05-19T20:52:12.309Z",
     "official": true,
@@ -53796,8 +53796,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
-    "updated_at": "2026-09-05T12:22:23Z",
-    "pushed_at": "2026-09-05T12:22:19Z",
+    "updated_at": "2026-09-06T18:34:02Z",
+    "pushed_at": "2026-09-06T18:33:59Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false,
     "extension": {
@@ -54733,7 +54733,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
     "updated_at": "2026-09-04T13:43:52Z",
-    "pushed_at": "2026-09-04T13:40:53Z",
+    "pushed_at": "2026-09-06T12:51:55Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false,
     "extension": {
@@ -60391,6 +60391,43 @@
         "Bavuett"
       ],
       "repository": "https://github.com/Bavuett/zed-pastel-pink-theme",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "catthode/zed": {
+    "name": "catthode/zed",
+    "url": "https://github.com/catthode/zed",
+    "description": "Warm OLED theme for Zed",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "catthode",
+      "dark-theme",
+      "theme",
+      "zed",
+      "zed-theme"
+    ],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-09-06T16:21:41Z",
+    "updated_at": "2026-09-06T17:35:12Z",
+    "pushed_at": "2026-09-06T17:34:07Z",
+    "discovered_at": "2026-09-06T18:43:49.662Z",
+    "official": false,
+    "extension": {
+      "id": "catthode-theme",
+      "name": "Catthode",
+      "description": "A warm, retro-futuristic OLED theme for Zed",
+      "version": "0.1.1",
+      "schema_version": 1,
+      "authors": [
+        "Catthode"
+      ],
+      "repository": "https://github.com/catthode/zed",
       "snippets": null,
       "sections": [],
       "categories": [
