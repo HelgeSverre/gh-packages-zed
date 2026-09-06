@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1758** |
 | In official registry | 1262 |
 | Discovered via topics | 496 |
-| Last updated | 2026-09-06 01:14 UTC |
+| Last updated | 2026-09-06 06:50 UTC |
 
 ### By capability
 
@@ -120,6 +120,8 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 97 | 2026-09-06 | True Dark Theme for Zed IDE |
+| [kevcamel/vscode_dark_modern.zed](https://github.com/kevcamel/vscode_dark_modern.zed) | 58 | 2026-09-06 | VS Code Dark Modern theme for Zed |
 | [kjanat/zed-typescript](https://github.com/kjanat/zed-typescript) | 0 | 2026-09-06 | Runs the TypeScript 7+ language server in Zed. |
 | [egrook/monkey-c-zed](https://github.com/egrook/monkey-c-zed) | 0 | 2026-09-05 | Monkey C (Garmin Connect IQ) language support for the Zed ed... |
 | [Bavuett/zed-pastel-pink-theme](https://github.com/Bavuett/zed-pastel-pink-theme) | 0 | 2026-09-05 | 🌸 A beautiful, luminous pastel pink dark theme for the Zed ... |
@@ -127,7 +129,6 @@ cd website && npm install && npm run dev
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-09-05 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [JeffreyJYZ/command-code-zed](https://github.com/JeffreyJYZ/command-code-zed) | 1 | 2026-09-05 | Zed extension and cmduse CLI for live Command Code usage: pl... |
 | [runescape-themes/zed-icons](https://github.com/runescape-themes/zed-icons) | 1 | 2026-09-05 | 🏰 Old School RuneScape icon theme for Zed |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 97 | 2026-09-05 | True Dark Theme for Zed IDE |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-09-05 | A Zed extension that allows to highlight all occurrences of ... |
 | [livetennisapi/zed-livetennis-mcp](https://github.com/livetennisapi/zed-livetennis-mcp) | 1 | 2026-09-05 | Zed extension: Live Tennis MCP server — real-time and histor... |
 | [tfuxu/zed-blueprint](https://github.com/tfuxu/zed-blueprint) | 9 | 2026-09-04 | Blueprint (.blp) language support for Zed editor |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [whistlebee/zed-mojo](https://github.com/whistlebee/zed-mojo) | 2 | 2026-09-04 | Mojo LSP/Syntax/Debugger support for Zed |
 | [MrAMS/zed-auto-file-header](https://github.com/MrAMS/zed-auto-file-header) | 8 | 2026-09-04 | A Zed extension that inserts a customizable file header (Fil... |
 | [wesleydmscn/zed-samurai-theme](https://github.com/wesleydmscn/zed-samurai-theme) | 4 | 2026-09-03 | A theme for samurai programmers 🤺 |
-| [dunyakirkali/zed-asciidoc](https://github.com/dunyakirkali/zed-asciidoc) | 23 | 2026-09-03 | Zed support for AsciiDoc syntax |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-09-06T06:50 | 0 | 596 | 2146 |
 | 2026-09-06T01:14 | 3 | 593 | 2146 |
 | 2026-09-05T18:44 | 1 | 592 | 2143 |
 | 2026-09-05T12:46 | 0 | 590 | 2142 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-09-04T12:51 | 1 | 589 | 2142 |
 | 2026-09-04T06:57 | 1 | 588 | 2142 |
 | 2026-09-04T01:08 | 3 | 589 | 2141 |
-| 2026-09-03T18:53 | 1 | 588 | 2138 |
 
 ---
 
