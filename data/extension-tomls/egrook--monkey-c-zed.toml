@@ -1,0 +1,13 @@
+id = "monkey-c-ce"
+name = "Monkey C"
+description = "Monkey C (Garmin Connect IQ) community edition: syntax highlighting, outline, code navigation and snippets."
+version = "0.1.0"
+schema_version = 1
+authors = ["Eliot Grook <eliot@grook.xyz>"]
+repository = "https://github.com/egrook/monkey-c-zed"
+
+snippets = "./snippets/monkey c.json"
+
+[grammars.monkey_c]
+repository = "https://github.com/bombsimon/tree-sitter-monkey-c"
+commit = "6454acab6ff46cb6d1ae60b262caab0910c37a4a"

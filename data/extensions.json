@@ -244,8 +244,8 @@
     "name": "zed-extensions/ruby",
     "url": "https://github.com/zed-extensions/ruby",
     "description": "The Ruby language support for Zed editor",
-    "stars": 135,
-    "forks": 32,
+    "stars": 136,
+    "forks": 33,
     "topics": [
       "ruby",
       "zed",
@@ -254,7 +254,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2024-10-11T18:22:02Z",
-    "updated_at": "2026-09-01T16:46:15Z",
+    "updated_at": "2026-09-05T20:14:27Z",
     "pushed_at": "2026-09-02T20:14:35Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -52269,7 +52269,7 @@
     "name": "alvgaona/zed-black-metal",
     "url": "https://github.com/alvgaona/zed-black-metal",
     "description": "Pitch-black base16 Black Metal themes for Zed — 11 band variants, each with a frosted Blurred companion.",
-    "stars": 0,
+    "stars": 1,
     "forks": 0,
     "topics": [
       "base16",
@@ -52285,7 +52285,7 @@
     "language": "Python",
     "license": "NOASSERTION",
     "created_at": "2026-06-16T23:02:25Z",
-    "updated_at": "2026-06-16T23:30:26Z",
+    "updated_at": "2026-09-06T00:12:53Z",
     "pushed_at": "2026-06-16T23:31:17Z",
     "discovered_at": "2026-06-17T00:45:38.576Z",
     "official": false,
@@ -54004,8 +54004,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-07-09T19:20:08Z",
-    "updated_at": "2026-07-16T23:42:00Z",
-    "pushed_at": "2026-07-16T23:42:12Z",
+    "updated_at": "2026-09-06T01:00:28Z",
+    "pushed_at": "2026-09-06T01:00:24Z",
     "discovered_at": "2026-07-10T07:54:10.331Z",
     "official": false,
     "extension": {
@@ -60315,6 +60315,82 @@
         "Jeffrey JYZ"
       ],
       "repository": "https://github.com/JeffreyJYZ/command-code-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "egrook/monkey-c-zed": {
+    "name": "egrook/monkey-c-zed",
+    "url": "https://github.com/egrook/monkey-c-zed",
+    "description": "Monkey C (Garmin Connect IQ) language support for the Zed editor: syntax highlighting, symbol outline, indentation and snippets for .mc files.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "zed",
+      "zed-editor",
+      "zed-extension"
+    ],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2026-09-05T21:04:56Z",
+    "updated_at": "2026-09-05T21:05:16Z",
+    "pushed_at": "2026-09-05T21:04:59Z",
+    "discovered_at": "2026-09-06T01:14:49.462Z",
+    "official": false,
+    "extension": {
+      "id": "monkey-c-ce",
+      "name": "Monkey C",
+      "description": "Monkey C (Garmin Connect IQ) community edition: syntax highlighting, outline, code navigation and snippets.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Eliot Grook <eliot@grook.xyz>"
+      ],
+      "repository": "https://github.com/egrook/monkey-c-zed",
+      "snippets": "./snippets/monkey c.json",
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar",
+        "snippets"
+      ]
+    }
+  },
+  "bavuett/zed-pastel-pink-theme": {
+    "name": "Bavuett/zed-pastel-pink-theme",
+    "url": "https://github.com/Bavuett/zed-pastel-pink-theme",
+    "description": "🌸 A beautiful, luminous pastel pink dark theme for the Zed editor.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "dark-theme",
+      "pastel",
+      "pink",
+      "theme",
+      "zed-extension",
+      "zed-theme"
+    ],
+    "language": null,
+    "license": null,
+    "created_at": "2026-09-05T19:11:40Z",
+    "updated_at": "2026-09-05T20:00:05Z",
+    "pushed_at": "2026-09-05T20:00:01Z",
+    "discovered_at": "2026-09-06T01:14:49.462Z",
+    "official": false,
+    "extension": {
+      "id": "pastel-pink-flower",
+      "name": "Pastel Pink Flower Theme",
+      "description": "A beautiful, luminous pastel pink dark theme.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Bavuett"
+      ],
+      "repository": "https://github.com/Bavuett/zed-pastel-pink-theme",
       "snippets": null,
       "sections": [],
       "categories": [

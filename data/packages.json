@@ -206,8 +206,8 @@
     "name": "zed-extensions/ruby",
     "url": "https://github.com/zed-extensions/ruby",
     "description": "The Ruby language support for Zed editor",
-    "stars": 135,
-    "forks": 32,
+    "stars": 136,
+    "forks": 33,
     "topics": [
       "ruby",
       "zed",
@@ -216,7 +216,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2024-10-11T18:22:02Z",
-    "updated_at": "2026-09-01T16:46:15Z",
+    "updated_at": "2026-09-05T20:14:27Z",
     "pushed_at": "2026-09-02T20:14:35Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -5147,7 +5147,7 @@
     "name": "Dylanmurzello/zed-android-port",
     "url": "https://github.com/Dylanmurzello/zed-android-port",
     "description": "Native Android port of the Zed code editor,  gpui rendering through Vulkan, integrated Termux for LSPs and tooling, remote SSH support. Runs as an APK on tablets and Android desktop modes.",
-    "stars": 196,
+    "stars": 197,
     "forks": 14,
     "topics": [
       "android",
@@ -5174,7 +5174,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-05-07T00:12:10Z",
-    "updated_at": "2026-09-05T09:47:42Z",
+    "updated_at": "2026-09-05T21:42:13Z",
     "pushed_at": "2026-08-07T13:48:06Z",
     "discovered_at": "2026-05-19T19:54:12.053Z",
     "official": false
@@ -15463,8 +15463,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
-    "updated_at": "2026-09-05T10:41:38Z",
-    "pushed_at": "2026-09-04T19:45:52Z",
+    "updated_at": "2026-09-05T22:21:10Z",
+    "pushed_at": "2026-09-05T22:21:06Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -18022,8 +18022,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-09-05T12:47:31Z",
-    "pushed_at": "2026-09-05T12:47:27Z",
+    "updated_at": "2026-09-05T18:44:54Z",
+    "pushed_at": "2026-09-05T18:44:50Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -30707,7 +30707,7 @@
     "name": "alvgaona/zed-black-metal",
     "url": "https://github.com/alvgaona/zed-black-metal",
     "description": "Pitch-black base16 Black Metal themes for Zed — 11 band variants, each with a frosted Blurred companion.",
-    "stars": 0,
+    "stars": 1,
     "forks": 0,
     "topics": [
       "base16",
@@ -30723,7 +30723,7 @@
     "language": "Python",
     "license": "NOASSERTION",
     "created_at": "2026-06-16T23:02:25Z",
-    "updated_at": "2026-06-16T23:30:26Z",
+    "updated_at": "2026-09-06T00:12:53Z",
     "pushed_at": "2026-06-16T23:31:17Z",
     "discovered_at": "2026-06-17T00:45:38.576Z",
     "official": false
@@ -32181,8 +32181,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-07-09T19:20:08Z",
-    "updated_at": "2026-07-16T23:42:00Z",
-    "pushed_at": "2026-07-16T23:42:12Z",
+    "updated_at": "2026-09-06T01:00:28Z",
+    "pushed_at": "2026-09-06T01:00:24Z",
     "discovered_at": "2026-07-10T07:54:10.331Z",
     "official": false
   },
@@ -35532,7 +35532,7 @@
     "name": "dd3v/mute-theme",
     "url": "https://github.com/dd3v/mute-theme",
     "description": "Minimalistic dark theme for Zed",
-    "stars": 0,
+    "stars": 1,
     "forks": 0,
     "topics": [
       "zed",
@@ -35542,7 +35542,7 @@
     "language": null,
     "license": null,
     "created_at": "2026-08-16T18:26:18Z",
-    "updated_at": "2026-08-16T19:25:12Z",
+    "updated_at": "2026-09-06T00:05:27Z",
     "pushed_at": "2026-08-16T19:24:47Z",
     "discovered_at": "2026-08-16T18:51:25.922Z",
     "official": false
@@ -35613,8 +35613,8 @@
     "language": null,
     "license": null,
     "created_at": "2026-08-16T21:55:25Z",
-    "updated_at": "2026-09-05T13:31:41Z",
-    "pushed_at": "2026-09-05T13:31:36Z",
+    "updated_at": "2026-09-05T21:28:16Z",
+    "pushed_at": "2026-09-05T21:28:13Z",
     "discovered_at": "2026-08-17T01:03:46.357Z",
     "official": false
   },
@@ -36189,7 +36189,7 @@
     "license": "MIT",
     "created_at": "2025-12-13T09:32:42Z",
     "updated_at": "2026-08-31T08:03:04Z",
-    "pushed_at": "2026-08-30T13:38:43Z",
+    "pushed_at": "2026-09-05T20:03:54Z",
     "discovered_at": "2026-08-28T16:48:20.309Z",
     "official": true
   },
@@ -36784,6 +36784,69 @@
     "updated_at": "2026-09-05T16:47:39Z",
     "pushed_at": "2026-09-05T16:47:35Z",
     "discovered_at": "2026-09-05T18:44:17.813Z",
+    "official": false
+  },
+  "egrook/monkey-c-zed": {
+    "name": "egrook/monkey-c-zed",
+    "url": "https://github.com/egrook/monkey-c-zed",
+    "description": "Monkey C (Garmin Connect IQ) language support for the Zed editor: syntax highlighting, symbol outline, indentation and snippets for .mc files.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "zed",
+      "zed-editor",
+      "zed-extension"
+    ],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2026-09-05T21:04:56Z",
+    "updated_at": "2026-09-05T21:05:16Z",
+    "pushed_at": "2026-09-05T21:04:59Z",
+    "discovered_at": "2026-09-06T01:14:49.462Z",
+    "official": false
+  },
+  "bavuett/zed-pastel-pink-theme": {
+    "name": "Bavuett/zed-pastel-pink-theme",
+    "url": "https://github.com/Bavuett/zed-pastel-pink-theme",
+    "description": "🌸 A beautiful, luminous pastel pink dark theme for the Zed editor.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "dark-theme",
+      "pastel",
+      "pink",
+      "theme",
+      "zed-extension",
+      "zed-theme"
+    ],
+    "language": null,
+    "license": null,
+    "created_at": "2026-09-05T19:11:40Z",
+    "updated_at": "2026-09-05T20:00:05Z",
+    "pushed_at": "2026-09-05T20:00:01Z",
+    "discovered_at": "2026-09-06T01:14:49.462Z",
+    "official": false
+  },
+  "jhaanurag/prism-night-theme": {
+    "name": "jhaanurag/prism-night-theme",
+    "url": "https://github.com/jhaanurag/prism-night-theme",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "color-scheme",
+      "dark-theme",
+      "matugen",
+      "theme",
+      "zed-editor",
+      "zed-theme"
+    ],
+    "language": "Python",
+    "license": null,
+    "created_at": "2026-08-01T18:29:53Z",
+    "updated_at": "2026-09-05T19:25:48Z",
+    "pushed_at": "2026-08-01T18:56:58Z",
+    "discovered_at": "2026-09-06T01:14:49.463Z",
     "official": false
   }
 }
