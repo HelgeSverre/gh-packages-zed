@@ -254,8 +254,8 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2024-10-11T18:22:02Z",
-    "updated_at": "2026-09-05T20:14:27Z",
-    "pushed_at": "2026-09-02T20:14:35Z",
+    "updated_at": "2026-09-07T16:06:21Z",
+    "pushed_at": "2026-09-07T16:06:38Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -7980,8 +7980,8 @@
     "language": "TypeScript",
     "license": "MIT",
     "created_at": "2026-03-09T00:14:00Z",
-    "updated_at": "2026-08-27T18:24:57Z",
-    "pushed_at": "2026-06-29T15:33:19Z",
+    "updated_at": "2026-09-07T13:32:39Z",
+    "pushed_at": "2026-09-07T13:32:01Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": true,
     "extension": {
@@ -59106,8 +59106,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-08-22T22:20:48Z",
-    "updated_at": "2026-09-04T16:15:33Z",
-    "pushed_at": "2026-09-04T16:12:13Z",
+    "updated_at": "2026-09-07T13:11:40Z",
+    "pushed_at": "2026-09-07T13:10:51Z",
     "discovered_at": "2026-08-24T13:01:58.453Z",
     "official": false,
     "extension": {
@@ -60432,6 +60432,41 @@
       "sections": [],
       "categories": [
         "theme"
+      ]
+    }
+  },
+  "briar-systems/mach-zed": {
+    "name": "briar-systems/mach-zed",
+    "url": "https://github.com/briar-systems/mach-zed",
+    "description": "Mach language support for Zed including syntax highlighting, indentation, and code outline",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2026-02-11T18:21:24Z",
+    "updated_at": "2026-08-31T22:51:40Z",
+    "pushed_at": "2026-08-31T22:52:11Z",
+    "discovered_at": "2026-09-07T18:46:27.368Z",
+    "official": true,
+    "extension": {
+      "id": "mach",
+      "name": "Mach",
+      "description": "Mach language support for Zed — syntax highlighting, indentation, and LSP integration.",
+      "version": "0.5.0",
+      "schema_version": 1,
+      "authors": [
+        "octalide"
+      ],
+      "repository": "https://github.com/briar-systems/mach-zed",
+      "snippets": null,
+      "sections": [
+        "grammars",
+        "language_servers"
+      ],
+      "categories": [
+        "grammar",
+        "language-server"
       ]
     }
   }

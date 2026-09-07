@@ -216,8 +216,8 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2024-10-11T18:22:02Z",
-    "updated_at": "2026-09-05T20:14:27Z",
-    "pushed_at": "2026-09-02T20:14:35Z",
+    "updated_at": "2026-09-07T16:06:21Z",
+    "pushed_at": "2026-09-07T16:06:38Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -5104,7 +5104,7 @@
     "name": "alanisme/awesome-zed-extensions",
     "url": "https://github.com/alanisme/awesome-zed-extensions",
     "description": "⭐ Discover the best Zed extensions, ranked by stars, loved by developers, updated daily. Find your next favorite tool! 🚀📊",
-    "stars": 23,
+    "stars": 24,
     "forks": 1,
     "topics": [
       "awesome",
@@ -5119,7 +5119,7 @@
     "language": "Go",
     "license": "MIT",
     "created_at": "2026-03-09T04:35:59Z",
-    "updated_at": "2026-09-07T12:09:57Z",
+    "updated_at": "2026-09-07T17:12:04Z",
     "pushed_at": "2026-09-07T12:09:42Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
@@ -5128,7 +5128,7 @@
     "name": "arindampradhan/excalidraw-zed-extension",
     "url": "https://github.com/arindampradhan/excalidraw-zed-extension",
     "description": "Excalidraw Preview for Zed, please zed support webview natively 🙏",
-    "stars": 13,
+    "stars": 14,
     "forks": 1,
     "topics": [
       "excalidraw",
@@ -5138,7 +5138,7 @@
     "language": "Rust",
     "license": null,
     "created_at": "2026-04-09T10:00:15Z",
-    "updated_at": "2026-09-03T02:00:53Z",
+    "updated_at": "2026-09-07T17:42:46Z",
     "pushed_at": "2026-04-10T16:03:44Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
@@ -5404,8 +5404,8 @@
     "language": "TypeScript",
     "license": "MIT",
     "created_at": "2026-03-09T00:14:00Z",
-    "updated_at": "2026-08-27T18:24:57Z",
-    "pushed_at": "2026-06-29T15:33:19Z",
+    "updated_at": "2026-09-07T13:32:39Z",
+    "pushed_at": "2026-09-07T13:32:01Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": true
   },
@@ -18022,8 +18022,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-09-07T07:04:35Z",
-    "pushed_at": "2026-09-07T07:04:30Z",
+    "updated_at": "2026-09-07T12:52:20Z",
+    "pushed_at": "2026-09-07T12:52:08Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -35880,8 +35880,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-08-22T22:20:48Z",
-    "updated_at": "2026-09-04T16:15:33Z",
-    "pushed_at": "2026-09-04T16:12:13Z",
+    "updated_at": "2026-09-07T13:11:40Z",
+    "pushed_at": "2026-09-07T13:10:51Z",
     "discovered_at": "2026-08-24T13:01:58.453Z",
     "official": false
   },
@@ -36657,7 +36657,7 @@
     "name": "ToonionOfficial/twrite",
     "url": "https://github.com/ToonionOfficial/twrite",
     "description": "TWrite is a GPUI fast, modular text editor crate for Rust.",
-    "stars": 0,
+    "stars": 1,
     "forks": 0,
     "topics": [
       "gpui",
@@ -36669,8 +36669,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-09-02T15:38:43Z",
-    "updated_at": "2026-09-04T16:31:57Z",
-    "pushed_at": "2026-09-04T16:30:50Z",
+    "updated_at": "2026-09-07T15:46:20Z",
+    "pushed_at": "2026-09-07T15:45:28Z",
     "discovered_at": "2026-09-03T18:53:15.863Z",
     "official": false
   },
@@ -36900,6 +36900,62 @@
     "updated_at": "2026-09-06T17:35:12Z",
     "pushed_at": "2026-09-06T17:34:07Z",
     "discovered_at": "2026-09-06T18:43:49.662Z",
+    "official": false
+  },
+  "jolars/fatou": {
+    "name": "jolars/fatou",
+    "url": "https://github.com/jolars/fatou",
+    "description": "Julia language server, formatter, and linter built in Rust",
+    "stars": 51,
+    "forks": 2,
+    "topics": [],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2026-06-16T07:23:23Z",
+    "updated_at": "2026-09-03T05:16:16Z",
+    "pushed_at": "2026-09-03T05:19:45Z",
+    "discovered_at": "2026-09-07T18:46:27.368Z",
+    "official": true
+  },
+  "briar-systems/mach-zed": {
+    "name": "briar-systems/mach-zed",
+    "url": "https://github.com/briar-systems/mach-zed",
+    "description": "Mach language support for Zed including syntax highlighting, indentation, and code outline",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2026-02-11T18:21:24Z",
+    "updated_at": "2026-08-31T22:51:40Z",
+    "pushed_at": "2026-08-31T22:52:11Z",
+    "discovered_at": "2026-09-07T18:46:27.368Z",
+    "official": true
+  },
+  "gabrielfrigo4/profile": {
+    "name": "GabrielFrigo4/profile",
+    "url": "https://github.com/GabrielFrigo4/profile",
+    "description": "🎨 Universal Profile: Dotfiles declarativos de softwares, configurações de editores (VSCode/Zed/Emacs/Vim) e runbooks portáteis de IA.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "ai-skills",
+      "declarative",
+      "developer-environment",
+      "dotfiles",
+      "emacs",
+      "nushell",
+      "powershell",
+      "vim",
+      "vscode",
+      "zed-editor"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "created_at": "2026-09-07T16:00:35Z",
+    "updated_at": "2026-09-07T18:40:42Z",
+    "pushed_at": "2026-09-07T18:40:32Z",
+    "discovered_at": "2026-09-07T18:46:27.369Z",
     "official": false
   }
 }

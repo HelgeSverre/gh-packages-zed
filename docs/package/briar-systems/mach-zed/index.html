@@ -1,0 +1,165 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Mach - Zed Extension Safari</title><meta name="description" content="Mach language support for Zed including syntax highlighting, indentation, and code outline"><link rel="canonical" href="https://helgesverre.github.io/gh-packages-zed/package/briar-systems/mach-zed/"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Mach - Zed Extension Safari"><meta property="og:description" content="Mach language support for Zed including syntax highlighting, indentation, and code outline"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed/package/briar-systems/mach-zed/"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Mach - Zed Extension Safari"><meta name="twitter:description" content="Mach language support for Zed including syntax highlighting, indentation, and code outline"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/gh-packages-zed/_astro/ClientRouter.astro_astro_type_script_index_0_lang.ClVLs1kt.js"></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Mach","description":"Mach language support for Zed including syntax highlighting, indentation, and code outline","applicationCategory":"DeveloperApplication","operatingSystem":"macOS, Linux, Windows","url":"https://zed.dev/extensions/mach","codeRepository":"https://github.com/briar-systems/mach-zed","author":[{"@type":"Person","name":"octalide"}],"softwareVersion":"0.5.0","license":"MIT","keywords":"grammar, language-server","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/Layout.CGDlMdWE.css"><script type="module" src="/gh-packages-zed/_astro/page.B8i1Zz-u.js"></script></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <a href="#main" class="skip-to-content">Skip to content</a> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" data-astro-transition-persist="astro-fhchcgd7-1"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <script type="application/json" id="pkg-extras">{"url":"https://github.com/briar-systems/mach-zed","language":"Tree-sitter Query","license":"MIT","topics":[],"extension":{"authors":["octalide"],"schema_version":1}}</script> <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> briar-systems/mach-zed </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> Mach </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> Mach language support for Zed — syntax highlighting, indentation, and LSP integration. </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="grammar">Grammar</span><span class="cat-badge" data-cat="language-server">Language Server</span> </div> </div> </div> </header> <main id="main" class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/mach" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/briar-systems/mach-zed" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.5.0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">mach</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">Tree-sitter Query</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">MIT</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">6d ago</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">octalide</dd> </div> </dl>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-mach-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#mach-zed"><span class="heading-anchor-icon">#</span></a>mach-zed</h1>
+<p><a href="https://zed.dev">Zed</a> extension for the <a href="https://github.com/briar-systems/mach">Mach</a> programming language.</p>
+<h2 id="user-content-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features"><span class="heading-anchor-icon">#</span></a>Features</h2>
+<ul>
+<li><strong>Syntax highlighting</strong> via <a href="https://github.com/briar-systems/mach-tree-sitter">mach-tree-sitter</a></li>
+<li><strong>Auto-indentation</strong> for blocks, records, unions, parameter lists, and initializer lists</li>
+<li><strong>Bracket matching</strong> and auto-closing for <code>{}</code>, <code>[]</code>, <code>()</code>, <code>""</code>, <code>''</code></li>
+<li><strong>Comment toggling</strong> with <code>#</code></li>
+<li><strong>LSP integration</strong> with <a href="https://github.com/briar-systems/mach-lsp">mach-lsp</a> (when available on <code>$PATH</code>)</li>
+</ul>
+<h2 id="user-content-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation"><span class="heading-anchor-icon">#</span></a>Installation</h2>
+<h3 id="user-content-from-the-zed-extension-registry"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#from-the-zed-extension-registry"><span class="heading-anchor-icon">#</span></a>From the Zed Extension Registry</h3>
+<p>Once published, search for <strong>Mach</strong> in Zed's extension panel (<code>zed: extensions</code>) and click <strong>Install</strong>.</p>
+<h3 id="user-content-manual--development"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#manual--development"><span class="heading-anchor-icon">#</span></a>Manual / Development</h3>
+<p>Clone this repository and symlink or copy it into your Zed extensions directory:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">git</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> clone</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> https://github.com/briar-systems/mach-zed.git</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">ln</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -s</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> "$(</span><span style="color:#005CC5;--shiki-dark:#79B8FF">pwd</span><span style="color:#032F62;--shiki-dark:#9ECBFF">)/mach-zed"</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> ~/.local/share/zed/extensions/installed/mach</span></span></code></pre>
+<p>Restart Zed to pick up the extension.</p>
+<h2 id="user-content-language-server"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#language-server"><span class="heading-anchor-icon">#</span></a>Language Server</h2>
+<p>This extension ships a Rust WASM extension that tells Zed how to locate and start <code>mls</code>. When you open a <code>.mach</code> file, Zed will:</p>
+<ol>
+<li>Check your Zed settings for a user-configured binary path (see <a href="#configuration">Configuration</a> below).</li>
+<li>Look for <code>mls</code> on your system <code>$PATH</code>.</li>
+<li>If neither is found, display an error with instructions.</li>
+</ol>
+<h3 id="user-content-building-mach-lsp"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#building-mach-lsp"><span class="heading-anchor-icon">#</span></a>Building mach-lsp</h3>
+<p>Build <code>mach-lsp</code> from source:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">git</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> clone</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> https://github.com/briar-systems/mach-lsp.git</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">cd</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> mach-lsp</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">mach</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> dep</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> pull</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">mach</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> build</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> .</span></span></code></pre>
+<p>The binary will be at <code>out/{target}/{profile}/bin/mls</code> (e.g. <code>out/linux/debug/bin/mls</code> for a default debug build on Linux). Add it to your <code>$PATH</code>:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cp</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> out/linux/debug/bin/mls</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> ~/.local/bin/</span></span></code></pre>
+<h3 id="user-content-building-the-wasm-extension"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#building-the-wasm-extension"><span class="heading-anchor-icon">#</span></a>Building the WASM Extension</h3>
+<p>If you're developing the extension locally and need to rebuild the WASM component:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">cd</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> mach-zed</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> build</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --release</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --target</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> wasm32-wasip1</span></span></code></pre>
+<blockquote>
+<p><strong>Note:</strong> You need the <code>wasm32-wasip1</code> target installed:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">rustup</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> target</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> add</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> wasm32-wasip1</span></span></code></pre>
+</blockquote>
+<p>The compiled <code>.wasm</code> file will be at <code>target/wasm32-wasip1/release/mach_zed.wasm</code>. Zed handles building and loading the WASM automatically when installing from the extension registry or from a local dev extension directory.</p>
+<h2 id="user-content-configuration"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#configuration"><span class="heading-anchor-icon">#</span></a>Configuration</h2>
+<h3 id="user-content-editor-settings"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#editor-settings"><span class="heading-anchor-icon">#</span></a>Editor Settings</h3>
+<p>You can customize Mach-specific editor settings in your Zed <code>settings.json</code>:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "languages"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "Mach"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">            "tab_size"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">4</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">            "hard_tabs"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">false</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">            "format_on_save"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"off"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">        }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h3 id="user-content-language-server-binary"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#language-server-binary"><span class="heading-anchor-icon">#</span></a>Language Server Binary</h3>
+<p>If <code>mls</code> is not on your <code>$PATH</code>, or you want to use a specific build, configure the binary path in your Zed <code>settings.json</code>:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "mls"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">            "binary"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">                "path"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"/absolute/path/to/mls"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">                "arguments"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: []</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">            }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">        }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h2 id="user-content-project-structure"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#project-structure"><span class="heading-anchor-icon">#</span></a>Project Structure</h2>
+<pre><code>mach-zed/
+├── extension.toml              # Extension manifest (grammars, LSP, metadata)
+├── Cargo.toml                  # Rust WASM extension build configuration
+├── src/
+│   └── lib.rs                  # WASM extension entry point (language_server_command)
+├── languages/
+│   └── mach/
+│       ├── config.toml         # Language configuration (brackets, comments, etc.)
+│       ├── brackets.scm        # Bracket matching queries
+│       ├── highlights.scm      # Syntax highlighting queries
+│       ├── indents.scm         # Auto-indentation queries
+│       └── outline.scm         # Document outline queries
+└── README.md
+</code></pre>
+<h2 id="user-content-how-it-works"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#how-it-works"><span class="heading-anchor-icon">#</span></a>How It Works</h2>
+<p>Zed extensions with language server support require a Rust WASM component that implements the <code>Extension</code> trait from <code>zed_extension_api</code>. The key method is <code>language_server_command</code>, which returns the command Zed should execute to start the LSP.</p>
+<p>The extension resolves the <code>mls</code> binary in this order:</p>
+<ol>
+<li><strong>User settings</strong> — <code>lsp.mls.binary.path</code> in Zed's <code>settings.json</code></li>
+<li><strong>Cached path</strong> — a previously resolved path that still exists on disk</li>
+<li><strong>System PATH</strong> — <code>worktree.which("mls")</code> searches <code>$PATH</code></li>
+</ol>
+<p>If none of these succeed, Zed shows an error message guiding the user to install <code>mls</code>.</p>
+<h2 id="user-content-contributing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#contributing"><span class="heading-anchor-icon">#</span></a>Contributing</h2>
+<ol>
+<li>Clone this repo alongside <a href="https://github.com/briar-systems/mach-tree-sitter">mach-tree-sitter</a>.</li>
+<li>Edit queries in <code>languages/mach/</code> and reload the Zed extension to test.</li>
+<li>For grammar changes, update <code>mach-tree-sitter</code> and bump the <code>rev</code> in <code>[grammars.mach]</code> of <code>extension.toml</code>.</li>
+<li>For LSP integration changes, edit <code>src/lib.rs</code> and rebuild the WASM component.</li>
+</ol>
+<blockquote>
+<p><strong>Highlight queries are coupled to the grammar.</strong> A query may only reference
+node types and tokens that the pinned <code>mach-tree-sitter</code> revision actually
+produces — referencing a node or token the grammar does not emit makes Zed
+drop the entire query file. So query updates for new syntax must land
+<em>together with</em> a grammar bump, never ahead of one. Validate every query file
+against the pinned grammar before committing (<code>tree-sitter query &#x3C;file>.scm sample.mach</code> must exit cleanly for each).</p>
+<p>The grammar now matches the authoritative <code>doc/language/grammar.md</code>, and the
+queries cover the full surface, including:</p>
+<ul>
+<li><code>:~</code> bit-reinterpret and <code>::</code> value casts — <code>(cast_expression operator: _ @operator)</code>.</li>
+<li><code>fwd</code> re-export declarations — <code>"fwd" @keyword</code>, plus a
+<code>forward_declaration</code> outline item and alias highlight.</li>
+<li><code>$</code>-prefixed comptime value parameters / fields (<code>fun f($x: T)</code>, <code>$tag: T;</code>)
+— <code>(parameter comptime: "$" ...)</code> and <code>(field_declaration comptime: "$" ...)</code>.</li>
+<li>The <code>asm &#x3C;isa> { ... }</code> ISA-tag form — <code>(asm_statement isa: (identifier))</code>
+and <code>(asm_statement body: (asm_body))</code>; the raw body is one <code>asm_body</code> node.</li>
+<li><code>#[attr]</code> decorators (<code>#[symbol("...")]</code>, <code>#[inline]</code>, <code>#[align(expr)]</code>,
+<code>#[section(...)]</code>, <code>#[library(...)]</code>) — <code>(decorator "#[" name: (identifier) @attribute)</code>; argument expressions keep their own highlights.</li>
+<li>Comptime variadic packs — <code>(pack_parameter name: (identifier))</code> for <code>va: ...</code>,
+the <code>$each a in va { ... }</code> unroll (<code>comptime_each_statement</code>, <code>$</code>/<code>each</code>/<code>in</code>
+keywords), and the <code>va...</code> <code>pack_spread_expression</code> ellipsis.</li>
+<li>Secret values: <code>^T</code> is a <code>secret_type</code> with its marker highlighted as a type
+qualifier, while <code>value:^T</code> is a <code>secret_strip_expression</code> with its operator
+highlighted as an operator.</li>
+<li><code>#[attr]</code> annotations: both <code>#[</code> and <code>]</code> are <code>punctuation.special</code>. The
+decorator query follows the broad bracket captures so they do not overwrite
+the closing delimiter's annotation highlight.</li>
+</ul>
+<p>Note <code>pub</code> / <code>ext</code> are repeatable <code>modifiers</code> children of each declaration
+(there is no <code>public_declaration</code> or <code>extern_declaration</code> node), and there is
+no method-receiver syntax. <code>&#x26;</code> is the bitwise-AND operator, so it highlights as
+an operator rather than a pointer sigil.</p>
+</blockquote>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p><a href="https://github.com/briar-systems/mach-zed/blob/HEAD/LICENSE" target="_blank" rel="noopener">MIT</a></p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>
