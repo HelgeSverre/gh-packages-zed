@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1760** |
 | In official registry | 1263 |
 | Discovered via topics | 497 |
-| Last updated | 2026-09-08 12:51 UTC |
+| Last updated | 2026-09-08 18:48 UTC |
 
 ### By capability
 
@@ -120,6 +120,8 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 136 | 2026-09-08 | The Ruby language support for Zed editor |
+| [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-09-08 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-09-08 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [atomic-dark/zed](https://github.com/atomic-dark/zed) | 1 | 2026-09-08 | A developer-friendly collection of widely-used syntax themes... |
 | [0x96f-org/0x96f-zed-theme](https://github.com/0x96f-org/0x96f-zed-theme) | 41 | 2026-09-08 | A simple and pleasant dark theme for Zed |
@@ -128,9 +130,7 @@ cd website && npm install && npm run dev
 | [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 334 | 2026-09-08 | Catppuccin Theme but as blurred variants + custom ones |
 | [JeffreyJYZ/command-code-zed](https://github.com/JeffreyJYZ/command-code-zed) | 1 | 2026-09-08 | Zed extension and cmduse CLI for live Command Code usage: pl... |
 | [wesleydmscn/zed-samurai-theme](https://github.com/wesleydmscn/zed-samurai-theme) | 4 | 2026-09-08 | A theme for samurai programmers 🤺 |
-| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 136 | 2026-09-07 | The Ruby language support for Zed editor |
 | [alanisme/vscode-themes-for-zed](https://github.com/alanisme/vscode-themes-for-zed) | 21 | 2026-09-07 | ❤️ All 19 built-in Visual Studio Code color themes, ported t... |
-| [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-09-07 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 3 | 2026-09-07 | Spring Boot language intelligence for Zed, built on the requ... |
 | [catthode/zed](https://github.com/catthode/zed) | 0 | 2026-09-06 | Warm OLED theme for Zed |
 | [kevcamel/vscode_dark_modern.zed](https://github.com/kevcamel/vscode_dark_modern.zed) | 58 | 2026-09-06 | VS Code Dark Modern theme for Zed |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-09-08T18:48 | 0 | 598 | 2151 |
 | 2026-09-08T12:51 | 0 | 599 | 2151 |
 | 2026-09-08T06:55 | 0 | 599 | 2151 |
 | 2026-09-08T01:11 | 0 | 599 | 2151 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-09-07T01:14 | 0 | 598 | 2148 |
 | 2026-09-06T18:43 | 1 | 597 | 2148 |
 | 2026-09-06T12:46 | 1 | 596 | 2147 |
-| 2026-09-06T06:50 | 0 | 596 | 2146 |
 
 ---
 
