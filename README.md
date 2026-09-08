@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1760** |
 | In official registry | 1263 |
 | Discovered via topics | 497 |
-| Last updated | 2026-09-08 01:11 UTC |
+| Last updated | 2026-09-08 06:55 UTC |
 
 ### By capability
 
@@ -120,13 +120,14 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 97 | 2026-09-08 | True Dark Theme for Zed IDE |
+| [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 334 | 2026-09-08 | Catppuccin Theme but as blurred variants + custom ones |
+| [JeffreyJYZ/command-code-zed](https://github.com/JeffreyJYZ/command-code-zed) | 1 | 2026-09-08 | Zed extension and cmduse CLI for live Command Code usage: pl... |
+| [wesleydmscn/zed-samurai-theme](https://github.com/wesleydmscn/zed-samurai-theme) | 4 | 2026-09-08 | A theme for samurai programmers 🤺 |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 136 | 2026-09-07 | The Ruby language support for Zed editor |
 | [alanisme/vscode-themes-for-zed](https://github.com/alanisme/vscode-themes-for-zed) | 21 | 2026-09-07 | ❤️ All 19 built-in Visual Studio Code color themes, ported t... |
 | [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-09-07 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 3 | 2026-09-07 | Spring Boot language intelligence for Zed, built on the requ... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 97 | 2026-09-07 | True Dark Theme for Zed IDE |
-| [JeffreyJYZ/command-code-zed](https://github.com/JeffreyJYZ/command-code-zed) | 1 | 2026-09-07 | Zed extension and cmduse CLI for live Command Code usage: pl... |
-| [wesleydmscn/zed-samurai-theme](https://github.com/wesleydmscn/zed-samurai-theme) | 4 | 2026-09-07 | A theme for samurai programmers 🤺 |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-09-06 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [catthode/zed](https://github.com/catthode/zed) | 0 | 2026-09-06 | Warm OLED theme for Zed |
 | [kevcamel/vscode_dark_modern.zed](https://github.com/kevcamel/vscode_dark_modern.zed) | 58 | 2026-09-06 | VS Code Dark Modern theme for Zed |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [livetennisapi/zed-livetennis-mcp](https://github.com/livetennisapi/zed-livetennis-mcp) | 1 | 2026-09-05 | Zed extension: Live Tennis MCP server — real-time and histor... |
 | [tfuxu/zed-blueprint](https://github.com/tfuxu/zed-blueprint) | 9 | 2026-09-04 | Blueprint (.blp) language support for Zed editor |
 | [funsaized/kanagawa-zed-theme](https://github.com/funsaized/kanagawa-zed-theme) | 2 | 2026-09-04 | 🌊 Kanagawa Wave dark theme with blur/transparency effects f... |
-| [SinaMombeiny/S-DarkTheme.zed](https://github.com/SinaMombeiny/S-DarkTheme.zed) | 5 | 2026-09-04 | Dark theme for Zed |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-09-08T06:55 | 0 | 599 | 2151 |
 | 2026-09-08T01:11 | 0 | 599 | 2151 |
 | 2026-09-07T18:46 | 3 | 598 | 2151 |
 | 2026-09-07T12:51 | 0 | 598 | 2148 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-09-06T12:46 | 1 | 596 | 2147 |
 | 2026-09-06T06:50 | 0 | 596 | 2146 |
 | 2026-09-06T01:14 | 3 | 593 | 2146 |
-| 2026-09-05T18:44 | 1 | 592 | 2143 |
 
 ---
 
