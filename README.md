@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1760** |
 | In official registry | 1263 |
 | Discovered via topics | 497 |
-| Last updated | 2026-09-09 01:10 UTC |
+| Last updated | 2026-09-09 06:55 UTC |
 
 ### By capability
 
@@ -107,7 +107,7 @@ cd website && npm install && npm run dev
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 198 | Typst extension for zed |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
-| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 177 | 🦊 Zed editor theme ported from Neovim |
+| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 178 | 🦊 Zed editor theme ported from Neovim |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 170 | A macOS native style theme for Zed, let it same like native app in macOS. |
 | [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 155 |  |
 | [zed-extensions/swift](https://github.com/zed-extensions/swift) | 150 | Extension for Zed to support Swift |
@@ -120,15 +120,15 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 136 | 2026-09-08 | The Ruby language support for Zed editor |
+| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 136 | 2026-09-09 | The Ruby language support for Zed editor |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 98 | 2026-09-09 | True Dark Theme for Zed IDE |
+| [JeffreyJYZ/command-code-zed](https://github.com/JeffreyJYZ/command-code-zed) | 1 | 2026-09-09 | Zed extension and cmduse CLI for live Command Code usage: pl... |
 | [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-09-08 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-09-08 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [atomic-dark/zed](https://github.com/atomic-dark/zed) | 1 | 2026-09-08 | A developer-friendly collection of widely-used syntax themes... |
 | [0x96f-org/0x96f-zed-theme](https://github.com/0x96f-org/0x96f-zed-theme) | 41 | 2026-09-08 | A simple and pleasant dark theme for Zed |
 | [surrealdb/surrealql-zed](https://github.com/surrealdb/surrealql-zed) | 0 | 2026-09-08 | SurrealQL Language Extension for the Zed Editor |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 98 | 2026-09-08 | True Dark Theme for Zed IDE |
 | [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 335 | 2026-09-08 | Catppuccin Theme but as blurred variants + custom ones |
-| [JeffreyJYZ/command-code-zed](https://github.com/JeffreyJYZ/command-code-zed) | 1 | 2026-09-08 | Zed extension and cmduse CLI for live Command Code usage: pl... |
 | [wesleydmscn/zed-samurai-theme](https://github.com/wesleydmscn/zed-samurai-theme) | 4 | 2026-09-08 | A theme for samurai programmers 🤺 |
 | [alanisme/vscode-themes-for-zed](https://github.com/alanisme/vscode-themes-for-zed) | 21 | 2026-09-07 | ❤️ All 19 built-in Visual Studio Code color themes, ported t... |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 3 | 2026-09-07 | Spring Boot language intelligence for Zed, built on the requ... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-09-09T06:55 | 0 | 598 | 2152 |
 | 2026-09-09T01:10 | 1 | 598 | 2152 |
 | 2026-09-08T18:48 | 0 | 598 | 2151 |
 | 2026-09-08T12:51 | 0 | 599 | 2151 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-09-07T12:51 | 0 | 598 | 2148 |
 | 2026-09-07T07:03 | 0 | 598 | 2148 |
 | 2026-09-07T01:14 | 0 | 598 | 2148 |
-| 2026-09-06T18:43 | 1 | 597 | 2148 |
 
 ---
 
