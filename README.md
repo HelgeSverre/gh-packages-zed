@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1760** |
 | In official registry | 1263 |
 | Discovered via topics | 497 |
-| Last updated | 2026-09-08 18:48 UTC |
+| Last updated | 2026-09-09 01:10 UTC |
 
 ### By capability
 
@@ -97,7 +97,7 @@ cd website && npm install && npm run dev
 |---|---|---|
 | [biomejs/biome-zed](https://github.com/biomejs/biome-zed) | 466 | Biome extension for Zed |
 | [xhyrom/zed-discord-presence](https://github.com/xhyrom/zed-discord-presence) | 415 | extension for zed that adds support for discord rich presence using lsp |
-| [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 334 | Catppuccin Theme but as blurred variants + custom ones |
+| [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 335 | Catppuccin Theme but as blurred variants + custom ones |
 | [oxc-project/oxc-zed](https://github.com/oxc-project/oxc-zed) | 256 | Oxc extension for Zed |
 | [catppuccin/zed-icons](https://github.com/catppuccin/zed-icons) | 240 | 🦊 Soothing pastel icons for Zed |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 215 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
@@ -126,8 +126,8 @@ cd website && npm install && npm run dev
 | [atomic-dark/zed](https://github.com/atomic-dark/zed) | 1 | 2026-09-08 | A developer-friendly collection of widely-used syntax themes... |
 | [0x96f-org/0x96f-zed-theme](https://github.com/0x96f-org/0x96f-zed-theme) | 41 | 2026-09-08 | A simple and pleasant dark theme for Zed |
 | [surrealdb/surrealql-zed](https://github.com/surrealdb/surrealql-zed) | 0 | 2026-09-08 | SurrealQL Language Extension for the Zed Editor |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 97 | 2026-09-08 | True Dark Theme for Zed IDE |
-| [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 334 | 2026-09-08 | Catppuccin Theme but as blurred variants + custom ones |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 98 | 2026-09-08 | True Dark Theme for Zed IDE |
+| [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 335 | 2026-09-08 | Catppuccin Theme but as blurred variants + custom ones |
 | [JeffreyJYZ/command-code-zed](https://github.com/JeffreyJYZ/command-code-zed) | 1 | 2026-09-08 | Zed extension and cmduse CLI for live Command Code usage: pl... |
 | [wesleydmscn/zed-samurai-theme](https://github.com/wesleydmscn/zed-samurai-theme) | 4 | 2026-09-08 | A theme for samurai programmers 🤺 |
 | [alanisme/vscode-themes-for-zed](https://github.com/alanisme/vscode-themes-for-zed) | 21 | 2026-09-07 | ❤️ All 19 built-in Visual Studio Code color themes, ported t... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-09-09T01:10 | 1 | 598 | 2152 |
 | 2026-09-08T18:48 | 0 | 598 | 2151 |
 | 2026-09-08T12:51 | 0 | 599 | 2151 |
 | 2026-09-08T06:55 | 0 | 599 | 2151 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-09-07T07:03 | 0 | 598 | 2148 |
 | 2026-09-07T01:14 | 0 | 598 | 2148 |
 | 2026-09-06T18:43 | 1 | 597 | 2148 |
-| 2026-09-06T12:46 | 1 | 596 | 2147 |
 
 ---
 
