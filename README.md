@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1760** |
 | In official registry | 1263 |
 | Discovered via topics | 497 |
-| Last updated | 2026-09-09 12:51 UTC |
+| Last updated | 2026-09-09 18:46 UTC |
 
 ### By capability
 
@@ -120,11 +120,11 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-09-09 | Intelligent codebase search & indexing for Zed. Async MCP se... |
+| [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-09-09 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
 | [JeffreyJYZ/command-code-zed](https://github.com/JeffreyJYZ/command-code-zed) | 1 | 2026-09-09 | Zed extension and cmduse CLI for live Command Code usage: pl... |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 136 | 2026-09-09 | The Ruby language support for Zed editor |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 98 | 2026-09-09 | True Dark Theme for Zed IDE |
-| [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-09-08 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
-| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-09-08 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [atomic-dark/zed](https://github.com/atomic-dark/zed) | 1 | 2026-09-08 | A developer-friendly collection of widely-used syntax themes... |
 | [0x96f-org/0x96f-zed-theme](https://github.com/0x96f-org/0x96f-zed-theme) | 41 | 2026-09-08 | A simple and pleasant dark theme for Zed |
 | [surrealdb/surrealql-zed](https://github.com/surrealdb/surrealql-zed) | 0 | 2026-09-08 | SurrealQL Language Extension for the Zed Editor |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-09-09T18:46 | 0 | 598 | 2152 |
 | 2026-09-09T12:51 | 0 | 598 | 2152 |
 | 2026-09-09T06:55 | 0 | 598 | 2152 |
 | 2026-09-09T01:10 | 1 | 598 | 2152 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-09-08T01:11 | 0 | 599 | 2151 |
 | 2026-09-07T18:46 | 3 | 598 | 2151 |
 | 2026-09-07T12:51 | 0 | 598 | 2148 |
-| 2026-09-07T07:03 | 0 | 598 | 2148 |
 
 ---
 
