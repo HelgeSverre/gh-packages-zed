@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1760** |
 | In official registry | 1263 |
 | Discovered via topics | 497 |
-| Last updated | 2026-09-09 06:55 UTC |
+| Last updated | 2026-09-09 12:51 UTC |
 
 ### By capability
 
@@ -108,8 +108,8 @@ cd website && npm install && npm run dev
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 178 | 🦊 Zed editor theme ported from Neovim |
-| [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 170 | A macOS native style theme for Zed, let it same like native app in macOS. |
-| [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 155 |  |
+| [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 171 | A macOS native style theme for Zed, let it same like native app in macOS. |
+| [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 154 |  |
 | [zed-extensions/swift](https://github.com/zed-extensions/swift) | 150 | Extension for Zed to support Swift |
 | [thedadams/zed-comment](https://github.com/thedadams/zed-comment) | 148 | A comment extension for the Zed editor |
 | [slymax/zedokai](https://github.com/slymax/zedokai) | 145 | a theme for Zed based on the Monokai Pro color scheme |
@@ -120,9 +120,9 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [JeffreyJYZ/command-code-zed](https://github.com/JeffreyJYZ/command-code-zed) | 1 | 2026-09-09 | Zed extension and cmduse CLI for live Command Code usage: pl... |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 136 | 2026-09-09 | The Ruby language support for Zed editor |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 98 | 2026-09-09 | True Dark Theme for Zed IDE |
-| [JeffreyJYZ/command-code-zed](https://github.com/JeffreyJYZ/command-code-zed) | 1 | 2026-09-09 | Zed extension and cmduse CLI for live Command Code usage: pl... |
 | [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-09-08 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-09-08 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [atomic-dark/zed](https://github.com/atomic-dark/zed) | 1 | 2026-09-08 | A developer-friendly collection of widely-used syntax themes... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-09-09T12:51 | 0 | 598 | 2152 |
 | 2026-09-09T06:55 | 0 | 598 | 2152 |
 | 2026-09-09T01:10 | 1 | 598 | 2152 |
 | 2026-09-08T18:48 | 0 | 598 | 2151 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-09-07T18:46 | 3 | 598 | 2151 |
 | 2026-09-07T12:51 | 0 | 598 | 2148 |
 | 2026-09-07T07:03 | 0 | 598 | 2148 |
-| 2026-09-07T01:14 | 0 | 598 | 2148 |
 
 ---
 
