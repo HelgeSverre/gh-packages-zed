@@ -142,8 +142,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-09-09T06:47:08Z",
-    "pushed_at": "2026-09-09T06:46:14Z",
+    "updated_at": "2026-09-10T06:40:24Z",
+    "pushed_at": "2026-09-10T06:40:13Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -11674,8 +11674,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-05-13T12:49:53Z",
-    "updated_at": "2026-09-10T00:36:53Z",
-    "pushed_at": "2026-09-10T00:36:48Z",
+    "updated_at": "2026-09-10T05:18:53Z",
+    "pushed_at": "2026-09-10T05:18:49Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": false,
     "extension": {
@@ -30750,13 +30750,13 @@
     "name": "zed-extensions/git_firefly",
     "url": "https://github.com/zed-extensions/git_firefly",
     "description": "",
-    "stars": 154,
+    "stars": 153,
     "forks": 6,
     "topics": [],
     "language": "Tree-sitter Query",
     "license": "Apache-2.0",
     "created_at": "2024-02-19T14:56:35Z",
-    "updated_at": "2026-09-09T07:38:38Z",
+    "updated_at": "2026-09-10T06:39:02Z",
     "pushed_at": "2026-07-28T23:40:00Z",
     "discovered_at": "2026-05-19T21:42:53.670Z",
     "official": false,
@@ -60301,8 +60301,8 @@
     "language": "Rust",
     "license": null,
     "created_at": "2026-09-04T07:49:15Z",
-    "updated_at": "2026-09-09T13:43:07Z",
-    "pushed_at": "2026-09-09T13:38:45Z",
+    "updated_at": "2026-09-10T09:47:58Z",
+    "pushed_at": "2026-09-10T09:47:54Z",
     "discovered_at": "2026-09-04T12:51:39.260Z",
     "official": false,
     "extension": {
@@ -60498,6 +60498,47 @@
       "sections": [],
       "categories": [
         "theme"
+      ]
+    }
+  },
+  "salva-sm/sfcc-zed-debugger": {
+    "name": "salva-sm/sfcc-zed-debugger",
+    "url": "https://github.com/salva-sm/sfcc-zed-debugger",
+    "description": "Zed debug adapter for Salesforce B2C Commerce (SFCC) server-side scripts: breakpoints, stepping, call stack and variables against a sandbox.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "dap",
+      "debug-adapter",
+      "salesforce-commerce-cloud",
+      "sfcc",
+      "sfra",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "JavaScript",
+    "license": null,
+    "created_at": "2026-09-07T16:06:54Z",
+    "updated_at": "2026-09-10T11:42:03Z",
+    "pushed_at": "2026-09-10T11:41:40Z",
+    "discovered_at": "2026-09-10T11:47:47.225Z",
+    "official": false,
+    "extension": {
+      "id": "b2c-debug",
+      "name": "B2C Commerce Debugger",
+      "description": "Debug server-side Salesforce B2C Commerce scripts in Zed, through the debug adapter shipped with the official b2c CLI.",
+      "version": "0.2.2",
+      "schema_version": 1,
+      "authors": [
+        "salva-sm"
+      ],
+      "repository": "https://github.com/salva-sm/sfcc-zed-debugger",
+      "snippets": null,
+      "sections": [
+        "debug_adapters"
+      ],
+      "categories": [
+        "debug-adapter"
       ]
     }
   }

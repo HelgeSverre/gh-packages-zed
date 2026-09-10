@@ -1,0 +1,204 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>B2C Commerce Debugger - Zed Extension Safari</title><meta name="description" content="Zed debug adapter for Salesforce B2C Commerce (SFCC) server-side scripts: breakpoints, stepping, call stack and variables against a sandbox."><link rel="canonical" href="https://helgesverre.github.io/gh-packages-zed/package/salva-sm/sfcc-zed-debugger/"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="B2C Commerce Debugger - Zed Extension Safari"><meta property="og:description" content="Zed debug adapter for Salesforce B2C Commerce (SFCC) server-side scripts: breakpoints, stepping, call stack and variables against a sandbox."><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed/package/salva-sm/sfcc-zed-debugger/"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="B2C Commerce Debugger - Zed Extension Safari"><meta name="twitter:description" content="Zed debug adapter for Salesforce B2C Commerce (SFCC) server-side scripts: breakpoints, stepping, call stack and variables against a sandbox."><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/gh-packages-zed/_astro/ClientRouter.astro_astro_type_script_index_0_lang.ClVLs1kt.js"></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"B2C Commerce Debugger","description":"Zed debug adapter for Salesforce B2C Commerce (SFCC) server-side scripts: breakpoints, stepping, call stack and variables against a sandbox.","applicationCategory":"DeveloperApplication","operatingSystem":"macOS, Linux, Windows","url":"https://zed.dev/extensions/b2c-debug","codeRepository":"https://github.com/salva-sm/sfcc-zed-debugger","author":[{"@type":"Person","name":"salva-sm"}],"softwareVersion":"0.2.2","keywords":"debug-adapter","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/Layout.CGDlMdWE.css"><script type="module" src="/gh-packages-zed/_astro/page.B8i1Zz-u.js"></script></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <a href="#main" class="skip-to-content">Skip to content</a> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" data-astro-transition-persist="astro-fhchcgd7-1"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <script type="application/json" id="pkg-extras">{"url":"https://github.com/salva-sm/sfcc-zed-debugger","language":"JavaScript","license":null,"topics":["dap","debug-adapter","salesforce-commerce-cloud","sfcc","sfra","zed","zed-extension"],"extension":{"authors":["salva-sm"],"schema_version":1}}</script> <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> salva-sm/sfcc-zed-debugger </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> B2C Commerce Debugger </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> Debug server-side Salesforce B2C Commerce scripts in Zed, through the debug adapter shipped with the official b2c CLI. </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="debug-adapter">Debug Adapter</span> </div> </div> </div> </header> <main id="main" class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/b2c-debug" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/salva-sm/sfcc-zed-debugger" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.2.2</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">b2c-debug</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">JavaScript</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">6m ago</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">salva-sm</dd> </div> </dl>  <h2 class="mt-5 text-xs uppercase font-mono" style="color:var(--zed-muted);">Topics</h2> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> dap </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> debug-adapter </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> salesforce-commerce-cloud </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> sfcc </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> sfra </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed-extension </span> </div>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-b2c-commerce-debugger-for-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#b2c-commerce-debugger-for-zed"><span class="heading-anchor-icon">#</span></a>B2C Commerce Debugger for Zed</h1>
+<p>Breakpoints, stepping and variable inspection in server-side Salesforce B2C Commerce scripts —
+controllers, hooks, jobs, SCAPI hooks — from inside Zed.</p>
+<p>Zed only speaks to debuggers it knows about, and B2C Commerce is not one of them. This
+extension registers one: it tells Zed how to launch <code>b2c debug</code>, the Debug Adapter Protocol
+adapter that ships with the official Salesforce CLI. The debugging itself is done by that
+adapter and by the instance's own <code>dw/debugger/v2_0</code> API; this repository is the ~150 lines of
+glue that makes Zed aware of it.</p>
+<h2 id="user-content-why-it-ships-its-own-adapter"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#why-it-ships-its-own-adapter"><span class="heading-anchor-icon">#</span></a>Why it ships its own adapter</h2>
+<p>The CLI has a DAP adapter of its own, <code>b2c debug</code>, and this extension started as a wrapper
+around it. That does not work. Measured on b2c-cli 1.23.2 by reading the wire:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Behaviour</th><th>Result</th></tr></thead><tbody><tr><td><code>initialize</code></td><td>answers with capabilities</td></tr><tr><td><code>initialized</code> event</td><td><strong>never sent</strong> — an editor that follows the protocol waits for it forever</td></tr><tr><td><code>attach</code></td><td>answers success</td></tr><tr><td><code>setBreakpoints</code></td><td>answers success with an <strong>empty</strong> list, and nothing halts. Absolute, cartridge-relative and server paths all behave the same</td></tr></tbody></table>
+<p>The same CLI's RPC mode does every one of those correctly. So <code>tools/adapter.js</code> speaks DAP to
+the editor and JSONL to <code>b2c debug cli --rpc</code>, leaving authentication, cartridge mapping and
+halt detection to the CLI. It translates breakpoints, threads, stack frames, scopes,
+variables, expression evaluation, stepping and continue, and turns <code>thread_stopped</code> into the
+DAP <code>stopped</code> event.</p>
+<h2 id="user-content-requirements"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#requirements"><span class="heading-anchor-icon">#</span></a>Requirements</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th></th><th></th></tr></thead><tbody><tr><td>CLI</td><td><code>@salesforce/b2c-cli</code> on <code>PATH</code> (<code>npm i -g @salesforce/b2c-cli</code>, or <code>volta install @salesforce/b2c-cli</code>)</td></tr><tr><td>Credentials</td><td>Basic auth in <code>dw.json</code> — a Business Manager user and password or WebDAV access key. OAuth alone is not enough</td></tr><tr><td>Instance</td><td><em>Administration → Development Configuration → Script Debugger → Enable</em></td></tr></tbody></table>
+<p>Only one debugger client can attach to an instance at a time: if the Prophet or the Salesforce
+VS Code extension is attached, this one cannot be.</p>
+<h2 id="user-content-install"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#install"><span class="heading-anchor-icon">#</span></a>Install</h2>
+<p>Not in the Zed registry, so there are two ways in.</p>
+<p><strong>From a zip — nothing to build.</strong> Take <code>b2c-debug-&#x3C;version>.zip</code> from
+<a href="https://github.com/salva-sm/sfcc-zed-debugger/releases">Releases</a>, unzip it anywhere and run
+the <code>install.ps1</code> inside. It drops the extension into
+<code>%LOCALAPPDATA%\Zed\extensions\installed</code>, which Zed watches, so it is picked up without a
+restart.</p>
+<p><strong>From source, to work on it.</strong></p>
+<ol>
+<li>
+<p>Clone it somewhere with <strong>no non-ASCII characters in the path</strong>. Zed builds the extension
+with cargo <em>in place</em>, hardcoding <code>--target-dir</code> inside the clone, and the MinGW linker
+fails on accented paths.</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">git</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> clone</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> https://github.com/salva-sm/sfcc-zed-debugger.git</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> C:/dev/sfcc-zed-debugger</span></span></code></pre>
+</li>
+<li>
+<p>In Zed: <strong>Extensions → Install Dev Extension</strong> and pick the clone.</p>
+</li>
+</ol>
+<p>Zed compiles it on install; there is nothing to build by hand. After editing the extension,
+use <strong>Extensions → Rebuild</strong> (or reinstall) to pick the change up. <code>.\package.ps1</code> turns what
+Zed built into the zip above.</p>
+<h3 id="user-content-how-the-cli-is-located"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#how-the-cli-is-located"><span class="heading-anchor-icon">#</span></a>How the CLI is located</h3>
+<p>The extension never bundles the b2c CLI, it looks for it, so nothing here depends on how you
+installed it. In order: the <code>binary</code> setting of the debug configuration, then <code>b2c</code> on <code>PATH</code>
+— resolved by the extension and handed to the adapter — then <code>npm root -g</code>. Set
+<code>B2C_ADAPTER_ENTRY</code> to the CLI's <code>bin/run.js</code> to override the lot. When none of them work the
+adapter says so, in <code>%TEMP%\b2c-dap.log</code>.</p>
+<h2 id="user-content-use"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#use"><span class="heading-anchor-icon">#</span></a>Use</h2>
+<p>Add a <code>.zed/debug.json</code> to the project:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">[</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "label"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"SFCC: attach debugger"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "adapter"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"b2c"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "request"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"attach"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "cartridge_path"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"source/cartridges"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span></code></pre>
+<p>Then set breakpoints in the gutter and start the session. The debugger attaches to the
+instance; it never launches anything, so a breakpoint is only hit once a request, job or SCAPI
+call runs that code.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Field</th><th>Meaning</th></tr></thead><tbody><tr><td><code>cartridge_path</code></td><td>Cartridges directory, absolute or relative to the worktree root. Defaults to <code>source/cartridges</code> or <code>cartridges</code>, whichever holds <code>modules/server/route.js</code></td></tr><tr><td><code>config</code></td><td>Path to a <code>dw.json</code>. Defaults to whatever the CLI resolves from the worktree root</td></tr><tr><td><code>instance</code></td><td>Named instance, when the configuration file holds more than one</td></tr><tr><td><code>logs</code></td><td><code>false</code> stops the sandbox log from being followed while attached. On by default</td></tr><tr><td><code>log_level</code></td><td>Levels followed in the debug console, comma separated, or <code>all</code>. Defaults to <code>error,customerror</code></td></tr><tr><td><code>client_id</code></td><td>Client ID reported to the debugger API. Change it when two people share an instance</td></tr><tr><td><code>binary</code></td><td>Path to the CLI — its <code>bin/run.js</code> or the <code>b2c</code> executable. Set it when <code>b2c</code> is not on the <code>PATH</code> Zed inherits</td></tr><tr><td><code>runtime</code></td><td>Path to the <code>node</code> executable that runs <code>bin/run.js</code>. Set it when node is managed by Volta, nvm or another shim</td></tr></tbody></table>
+<p>Both paths are machine-specific: only add them when the session fails to start, and prefer
+making <code>b2c</code> and <code>node</code> resolvable to a plain <code>PATH</code> lookup so the committed <code>.zed/debug.json</code>
+stays the same for everyone.</p>
+<h2 id="user-content-the-sandbox-log-in-the-session"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#the-sandbox-log-in-the-session"><span class="heading-anchor-icon">#</span></a>The sandbox log in the session</h2>
+<p>Attaching also follows the sandbox log: <code>prost logger</code> is started with the same <code>dw.json</code> and
+every line it prints reaches the debug console, coloured, for as long as the session lasts. It
+is where the error that did <em>not</em> stop at a breakpoint shows up. Only <code>error</code> and
+<code>customerror</code> are followed — a debug session is no place for the whole firehose, and
+<code>log_level</code> widens it. <code>prost</code> has to be on the <code>PATH</code> (<code>B2C_LOGGER</code> points at another
+binary); when it is not, the console says so once and the session carries on. <code>"logs": false</code>
+turns it off.</p>
+<h2 id="user-content-two-things-that-will-waste-your-afternoon"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#two-things-that-will-waste-your-afternoon"><span class="heading-anchor-icon">#</span></a>Two things that will waste your afternoon</h2>
+<p>Neither is the extension's fault, both bite everyone debugging B2C Commerce:</p>
+<ul>
+<li><strong>A page served from cache never runs its controller.</strong> If a breakpoint in a controller is
+never hit, add a unique query parameter to the URL and try again.</li>
+<li><strong>A password-protected storefront answers 401 before any script runs.</strong> Sandboxes usually
+have storefront protection on; the request has to carry those credentials.</li>
+</ul>
+<p>Every session is recorded in <code>b2c-dap.log</code> in the system temp directory — both the DAP
+conversation with Zed and the RPC one with the CLI. <code>B2C_DAP_LOG</code> points it elsewhere. That
+file is the first place to look when a session does not start.</p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>
