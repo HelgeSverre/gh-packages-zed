@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1762** |
 | In official registry | 1264 |
 | Discovered via topics | 498 |
-| Last updated | 2026-09-10 11:47 UTC |
+| Last updated | 2026-09-10 16:39 UTC |
 
 ### By capability
 
@@ -120,13 +120,14 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 136 | 2026-09-10 | The Ruby language support for Zed editor |
+| [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 204 | 2026-09-10 | Zed support for the Godot game engine and the GDScript langu... |
 | [salva-sm/sfcc-zed-debugger](https://github.com/salva-sm/sfcc-zed-debugger) | 0 | 2026-09-10 | Zed debug adapter for Salesforce B2C Commerce (SFCC) server-... |
 | [JeffreyJYZ/command-code-zed](https://github.com/JeffreyJYZ/command-code-zed) | 1 | 2026-09-10 | Zed extension and cmduse CLI for live Command Code usage: pl... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 98 | 2026-09-10 | True Dark Theme for Zed IDE |
 | [whistlebee/zed-mojo](https://github.com/whistlebee/zed-mojo) | 2 | 2026-09-10 | Mojo LSP/Syntax/Debugger support for Zed |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-09-10 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-09-09 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
-| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 136 | 2026-09-09 | The Ruby language support for Zed editor |
 | [chrisdrackett/bamboo-theme-zed](https://github.com/chrisdrackett/bamboo-theme-zed) | 0 | 2026-09-09 | Bamboo Theme for Zed |
 | [atomic-dark/zed](https://github.com/atomic-dark/zed) | 1 | 2026-09-08 | A developer-friendly collection of widely-used syntax themes... |
 | [0x96f-org/0x96f-zed-theme](https://github.com/0x96f-org/0x96f-zed-theme) | 41 | 2026-09-08 | A simple and pleasant dark theme for Zed |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [kevcamel/vscode_dark_modern.zed](https://github.com/kevcamel/vscode_dark_modern.zed) | 58 | 2026-09-06 | VS Code Dark Modern theme for Zed |
 | [kjanat/zed-typescript](https://github.com/kjanat/zed-typescript) | 0 | 2026-09-06 | Runs the TypeScript 7+ language server in Zed. |
 | [egrook/monkey-c-zed](https://github.com/egrook/monkey-c-zed) | 0 | 2026-09-05 | Monkey C (Garmin Connect IQ) language support for the Zed ed... |
-| [Bavuett/zed-pastel-pink-theme](https://github.com/Bavuett/zed-pastel-pink-theme) | 0 | 2026-09-05 | 🌸 A beautiful, luminous pastel pink dark theme for the Zed ... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-09-10T16:39 | 0 | 601 | 2157 |
 | 2026-09-10T11:47 | 3 | 598 | 2157 |
 | 2026-09-10T05:14 | 2 | 597 | 2154 |
 | 2026-09-09T18:46 | 0 | 598 | 2152 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-09-08T18:48 | 0 | 598 | 2151 |
 | 2026-09-08T12:51 | 0 | 599 | 2151 |
 | 2026-09-08T06:55 | 0 | 599 | 2151 |
-| 2026-09-08T01:11 | 0 | 599 | 2151 |
 
 ---
 
