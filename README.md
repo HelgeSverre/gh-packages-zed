@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1762** |
 | In official registry | 1264 |
 | Discovered via topics | 498 |
-| Last updated | 2026-09-10 16:39 UTC |
+| Last updated | 2026-09-10 21:11 UTC |
 
 ### By capability
 
@@ -102,9 +102,9 @@ cd website && npm install && npm run dev
 | [catppuccin/zed-icons](https://github.com/catppuccin/zed-icons) | 240 | 🦊 Soothing pastel icons for Zed |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 215 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
-| [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 204 | Zed support for the Godot game engine and the GDScript language |
+| [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 205 | Zed support for the Godot game engine and the GDScript language |
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
-| [zed-extensions/typst](https://github.com/zed-extensions/typst) | 198 | Typst extension for zed |
+| [zed-extensions/typst](https://github.com/zed-extensions/typst) | 197 | Typst extension for zed |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 178 | 🦊 Zed editor theme ported from Neovim |
@@ -120,13 +120,14 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-09-10 | Intelligent codebase search & indexing for Zed. Async MCP se... |
+| [gesundes/zed-ansible-vault](https://github.com/gesundes/zed-ansible-vault) | 0 | 2026-09-10 | Encrypt and decrypt Ansible Vault files and inline !vault YA... |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 136 | 2026-09-10 | The Ruby language support for Zed editor |
-| [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 204 | 2026-09-10 | Zed support for the Godot game engine and the GDScript langu... |
+| [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 205 | 2026-09-10 | Zed support for the Godot game engine and the GDScript langu... |
 | [salva-sm/sfcc-zed-debugger](https://github.com/salva-sm/sfcc-zed-debugger) | 0 | 2026-09-10 | Zed debug adapter for Salesforce B2C Commerce (SFCC) server-... |
 | [JeffreyJYZ/command-code-zed](https://github.com/JeffreyJYZ/command-code-zed) | 1 | 2026-09-10 | Zed extension and cmduse CLI for live Command Code usage: pl... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 98 | 2026-09-10 | True Dark Theme for Zed IDE |
 | [whistlebee/zed-mojo](https://github.com/whistlebee/zed-mojo) | 2 | 2026-09-10 | Mojo LSP/Syntax/Debugger support for Zed |
-| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-09-10 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-09-09 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
 | [chrisdrackett/bamboo-theme-zed](https://github.com/chrisdrackett/bamboo-theme-zed) | 0 | 2026-09-09 | Bamboo Theme for Zed |
 | [atomic-dark/zed](https://github.com/atomic-dark/zed) | 1 | 2026-09-08 | A developer-friendly collection of widely-used syntax themes... |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [catthode/zed](https://github.com/catthode/zed) | 0 | 2026-09-06 | Warm OLED theme for Zed |
 | [kevcamel/vscode_dark_modern.zed](https://github.com/kevcamel/vscode_dark_modern.zed) | 58 | 2026-09-06 | VS Code Dark Modern theme for Zed |
 | [kjanat/zed-typescript](https://github.com/kjanat/zed-typescript) | 0 | 2026-09-06 | Runs the TypeScript 7+ language server in Zed. |
-| [egrook/monkey-c-zed](https://github.com/egrook/monkey-c-zed) | 0 | 2026-09-05 | Monkey C (Garmin Connect IQ) language support for the Zed ed... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-09-10T21:11 | 1 | 601 | 2158 |
 | 2026-09-10T16:39 | 0 | 601 | 2157 |
 | 2026-09-10T11:47 | 3 | 598 | 2157 |
 | 2026-09-10T05:14 | 2 | 597 | 2154 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-09-09T01:10 | 1 | 598 | 2152 |
 | 2026-09-08T18:48 | 0 | 598 | 2151 |
 | 2026-09-08T12:51 | 0 | 599 | 2151 |
-| 2026-09-08T06:55 | 0 | 599 | 2151 |
 
 ---
 
