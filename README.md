@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1765** |
 | In official registry | 1267 |
 | Discovered via topics | 498 |
-| Last updated | 2026-09-11 16:45 UTC |
+| Last updated | 2026-09-11 21:17 UTC |
 
 ### By capability
 
@@ -120,12 +120,13 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-09-11 | A Zed extension that allows to highlight all occurrences of ... |
+| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-09-11 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [zed-extensions/nix](https://github.com/zed-extensions/nix) | 124 | 2026-09-11 | Nix language support in Zed |
 | [JeffreyJYZ/command-code-zed](https://github.com/JeffreyJYZ/command-code-zed) | 1 | 2026-09-11 | Zed extension and cmduse CLI for live Command Code usage: pl... |
 | [whistlebee/zed-mojo](https://github.com/whistlebee/zed-mojo) | 2 | 2026-09-11 | Mojo LSP/Syntax/Debugger support for Zed |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 98 | 2026-09-11 | True Dark Theme for Zed IDE |
 | [funsaized/kanagawa-zed-theme](https://github.com/funsaized/kanagawa-zed-theme) | 2 | 2026-09-11 | 🌊 Kanagawa Wave dark theme with blur/transparency effects f... |
-| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-09-10 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [gesundes/zed-ansible-vault](https://github.com/gesundes/zed-ansible-vault) | 0 | 2026-09-10 | Encrypt and decrypt Ansible Vault files and inline !vault YA... |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 136 | 2026-09-10 | The Ruby language support for Zed editor |
 | [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 205 | 2026-09-10 | Zed support for the Godot game engine and the GDScript langu... |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [wesleydmscn/zed-samurai-theme](https://github.com/wesleydmscn/zed-samurai-theme) | 4 | 2026-09-08 | A theme for samurai programmers 🤺 |
 | [alanisme/vscode-themes-for-zed](https://github.com/alanisme/vscode-themes-for-zed) | 22 | 2026-09-07 | ❤️ All 19 built-in Visual Studio Code color themes, ported t... |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 3 | 2026-09-07 | Spring Boot language intelligence for Zed, built on the requ... |
-| [catthode/zed](https://github.com/catthode/zed) | 0 | 2026-09-06 | Warm OLED theme for Zed |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-09-11T21:17 | 1 | 602 | 2163 |
 | 2026-09-11T16:45 | 3 | 602 | 2162 |
 | 2026-09-11T11:47 | 1 | 601 | 2159 |
 | 2026-09-11T05:13 | 0 | 602 | 2158 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-09-10T05:14 | 2 | 597 | 2154 |
 | 2026-09-09T18:46 | 0 | 598 | 2152 |
 | 2026-09-09T12:51 | 0 | 598 | 2152 |
-| 2026-09-09T06:55 | 0 | 598 | 2152 |
 
 ---
 
