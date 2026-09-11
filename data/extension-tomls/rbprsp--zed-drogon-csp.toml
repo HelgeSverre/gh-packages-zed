@@ -1,0 +1,11 @@
+id = "drogon-csp"
+name = "Drogon CSP"
+version = "0.1.0"
+schema_version = 1
+authors = ["rbprsp <relonychan@proton.me>"]
+description = "Syntax highlighting for the Drogon CSP template language"
+repository = "https://github.com/rbprsp/zed-drogon-csp"
+
+[grammars.csp]
+repository = "https://github.com/rbprsp/tree-sitter-csp"
+commit = "b65c4d695ca97aa9712036b4ab0c1c21a140ae84"

@@ -1,0 +1,333 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>AutoIt - Zed Extension Safari</title><meta name="description" content="AutoIt v3 language extension for the Zed editor"><link rel="canonical" href="https://helgesverre.github.io/gh-packages-zed/package/sumit-m/zed-autoit/"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="AutoIt - Zed Extension Safari"><meta property="og:description" content="AutoIt v3 language extension for the Zed editor"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed/package/sumit-m/zed-autoit/"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="AutoIt - Zed Extension Safari"><meta name="twitter:description" content="AutoIt v3 language extension for the Zed editor"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/gh-packages-zed/_astro/ClientRouter.astro_astro_type_script_index_0_lang.ClVLs1kt.js"></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"AutoIt","description":"AutoIt v3 language extension for the Zed editor","applicationCategory":"DeveloperApplication","operatingSystem":"macOS, Linux, Windows","url":"https://zed.dev/extensions/autoit","codeRepository":"https://github.com/sumit-m/zed-autoit","author":[{"@type":"Person","name":"Sumit Madan"}],"softwareVersion":"0.5.0","license":"MIT","keywords":"grammar, language-server, snippets","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/Layout.CGDlMdWE.css"><script type="module" src="/gh-packages-zed/_astro/page.B8i1Zz-u.js"></script></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <a href="#main" class="skip-to-content">Skip to content</a> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" data-astro-transition-persist="astro-fhchcgd7-1"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <script type="application/json" id="pkg-extras">{"url":"https://github.com/sumit-m/zed-autoit","language":"Rust","license":"MIT","topics":[],"extension":{"authors":["Sumit Madan"],"schema_version":1}}</script> <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> sumit-m/zed-autoit </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> AutoIt </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> AutoIt v3 (.au3) language support for Zed </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="grammar">Grammar</span><span class="cat-badge" data-cat="language-server">Language Server</span><span class="cat-badge" data-cat="snippets">Snippets</span> </div> </div> </div> </header> <main id="main" class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/autoit" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/sumit-m/zed-autoit" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.5.0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">autoit</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">Rust</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">MIT</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">6/2/2026</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">Sumit Madan</dd> </div> </dl>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 align="center" id="user-content-autoit-for-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#autoit-for-zed"><span class="heading-anchor-icon">#</span></a>AutoIt for Zed</h1>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sumit-m/zed-autoit/HEAD/robot.png" alt="Pixel-art weathered robot holding a magnifying glass and a club — mascot for the AutoIt for Zed extension" width="500">
+</p>
+<p><strong>First-class editing support for <a href="https://www.autoitscript.com/site/autoit/">AutoIt v3</a> (<code>.au3</code>, <code>.a3x</code>) in the <a href="https://zed.dev">Zed editor</a></strong> — syntax highlighting, live diagnostics, hover docs for ~3,500 built-in and library functions, outline, go-to-definition, find-references, completion, signature help, inlay hints, code actions, code formatting, semantic highlighting, document highlight, folding, call hierarchy, color swatches, cross-file <code>#include</code> resolution, snippets, and one-keystroke task runners for the AutoIt toolchain.</p>
+<h2 id="user-content-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features"><span class="heading-anchor-icon">#</span></a>Features</h2>
+<ul>
+<li><strong>Syntax highlighting</strong> via a from-scratch <a href="https://github.com/sumit-m/tree-sitter-autoit">tree-sitter grammar</a> — 182 corpus tests, 99.96% pass rate against AutoIt's bundled Examples directory (2,662 files).</li>
+<li><strong>Live diagnostics</strong> via the <a href="https://github.com/sumit-m/autoit-lsp">autoit-lsp</a> language server, which wraps AutoIt's official <code>Au3Check.exe</code>. Edits surface red squiggles ~400ms after you stop typing (configurable) without needing to save.</li>
+<li><strong>Hover docs</strong> for <strong>3,542 functions</strong> (core builtins + UDF library) from the official AutoIt help — signature, summary, parameter list, return value, and a footer link to the canonical docs page.</li>
+<li><strong>Go-to-definition</strong> — jump to where any function, variable, or constant is declared. Works within the current file and across <code>#include</code>d files.</li>
+<li><strong>Find-references</strong> — locate all usages of the symbol under the cursor, scope-aware (local variables only match within their function). Project-wide: when a folder is open, references in files that <code>#include</code> the current one are found too.</li>
+<li><strong>Document highlight</strong> — place the cursor on a variable or function and every other occurrence in the file is passively highlighted, distinguishing reads from writes (the left-hand side of an assignment renders as a write).</li>
+<li><strong>Call hierarchy</strong> — incoming ("who calls this?") and outgoing ("what does this call?") trees for any function, spanning the <code>#include</code> graph and the whole project. <em>Computed by the language server today, but Zed has no call-hierarchy UI yet (<a href="https://github.com/zed-industries/zed/issues/14203">zed-industries/zed#14203</a>) — it lights up automatically once Zed ships one.</em></li>
+<li><strong>Completion</strong> — context-aware popup for variables (<code>$</code>), macros (<code>@</code>), functions (built-in and user-defined), and symbols from included files. Also completes file paths inside <code>#include</code> directives.</li>
+<li><strong>Signature help</strong> — parameter popup as you type inside a function call, with the active parameter highlighted. Covers all ~3,542 built-in and UDF library functions plus user-defined functions with their doc-comments. Requires two Zed settings to enable — see <a href="#signature-help-and-inlay-hints">Signature help and inlay hints</a> below.</li>
+<li><strong>Inlay hints</strong> — always-visible parameter name labels on existing call sites (e.g. <code>flag: 0  title: "Hi"  text: "Hello"</code>). Works out of the box if inlay hints are enabled in Zed.</li>
+<li><strong>Semantic tokens</strong> — LSP-driven highlighting that distinguishes things tree-sitter can't see from syntax alone: user-defined functions vs built-ins, parameters vs locals vs globals, index-recognised constants, and macros. The headline win (UDF vs built-in) renders in most themes; the finer categories are theme-dependent — see <a href="#semantic-highlighting">Semantic highlighting</a>.</li>
+<li><strong>Document color</strong> — color swatches next to <code>0xRRGGBB</code> literals passed to known color-taking GUI functions (<code>GUICtrlSetColor</code>, <code>_GUICtrlListView_SetTextColor</code>, etc.), with correct RGB-vs-BGR decoding per function.</li>
+<li><strong>Folding ranges</strong> — LSP-computed folds for functions, <code>#Region</code> blocks, <code>If</code>/<code>While</code>/<code>For</code>/<code>Switch</code>/<code>Select</code>/<code>With</code> bodies, and multi-line block comments — including <code>#region</code> blocks that Zed's built-in folding can't fold. Opt-in; see <a href="#folding">Folding</a>.</li>
+<li><strong>Code actions</strong> — quick-fixes on diagnostic squiggles: add a missing <code>#include &#x3C;Lib.au3></code> for UDF library functions, and fix function-name casing to the canonical form.</li>
+<li><strong>Code formatting</strong> — reformat the current file via AutoIt3Wrapper's <code>/Tidy</code> mode (fixes indentation, normalises keyword/function casing). Windows-only; requires SciTE4AutoIt3. Trigger with the editor's <strong>Format Document</strong> command.</li>
+<li><strong>Document symbols / outline</strong> — functions, <code>Global</code>/<code>Const</code>/<code>Enum</code> declarations, <code>#Region</code> blocks.</li>
+<li><strong>Brackets, indentation, outline navigation</strong> — the usual editor affordances.</li>
+<li><strong>19 bundled snippets</strong> for <code>Func</code>, <code>If</code>/<code>ElseIf</code>/<code>Else</code>, <code>For</code>, <code>While</code>, <code>Switch</code>, <code>Region</code>, <code>MsgBox</code>, <code>ConsoleWrite</code>, hot-keys, etc.</li>
+<li><strong>7 task definitions</strong> for run / Au3Check / Aut2Exe compile / Aut2Exe with GUI options / Au3Info / Koda Form Designer / kill running script. Zero-config for standard installer-based AutoIt installations (registry discovery).</li>
+</ul>
+<h2 id="user-content-feature-matrix"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#feature-matrix"><span class="heading-anchor-icon">#</span></a>Feature Matrix</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Feature</th><th align="center">Windows</th><th align="center">macOS</th><th align="center">Linux</th></tr></thead><tbody><tr><td>Syntax highlighting</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td></tr><tr><td>Hover docs</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td></tr><tr><td>Go-to-definition</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td></tr><tr><td>Find-references</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td></tr><tr><td>Completion</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td></tr><tr><td>Signature help</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td></tr><tr><td>Inlay hints</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td></tr><tr><td>Document symbols / outline</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td></tr><tr><td>Document highlight</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td></tr><tr><td>Folding ranges</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td></tr><tr><td>Call hierarchy †</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td></tr><tr><td>Semantic tokens</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td></tr><tr><td>Document color</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td></tr><tr><td>Code actions</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td></tr><tr><td>Snippets</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td></tr><tr><td>Live diagnostics (Au3Check) ‡</td><td align="center">✅</td><td align="center">❌</td><td align="center">❌</td></tr><tr><td>Code formatting (Tidy) ‡</td><td align="center">✅</td><td align="center">❌</td><td align="center">❌</td></tr><tr><td>Task runners ‡</td><td align="center">✅</td><td align="center">❌</td><td align="center">❌</td></tr></tbody></table>
+<p>† <strong>Call hierarchy</strong> is computed by the language server on all platforms, but Zed does not yet expose a call-hierarchy UI (<a href="https://github.com/zed-industries/zed/issues/14203">zed-industries/zed#14203</a>). It will become invokable in-editor once Zed ships one — no extension change needed.</p>
+<p>‡ The Windows-only rows invoke AutoIt's official <code>.exe</code> binaries (<code>Au3Check.exe</code>, <code>AutoIt3.exe</code>, <code>Aut2Exe.exe</code>), which AutoIt ships for Windows only. On macOS/Linux these features are silently disabled; everything else works.</p>
+<h2 id="user-content-requirements"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#requirements"><span class="heading-anchor-icon">#</span></a>Requirements</h2>
+<ul>
+<li><strong>Zed</strong> 0.180 or later (uses <code>schema_version = 1</code>).</li>
+<li><strong>Any OS</strong> — the extension and language server build and run on Windows, Linux, and macOS. Syntax highlighting, outline, hover docs, go-to-definition, find-references, completion, and snippets work everywhere.</li>
+<li><strong>Windows + AutoIt v3 installed</strong> if you want live diagnostics, code formatting, or the bundled tasks. These rely on AutoIt's Windows-only binaries (<code>Au3Check.exe</code>, <code>AutoIt3.exe</code>, <code>Aut2Exe.exe</code>). AutoIt install can be:
+<ul>
+<li><strong>Default installer</strong> (<code>C:\Program Files (x86)\AutoIt3\</code>) — fully zero-config.</li>
+<li><strong>Custom installer location</strong> — fully zero-config, the registry tells us where.</li>
+<li><strong>Portable / unzipped</strong> at a non-default path — set <code>au3checkPath</code> in your Zed settings (see <a href="#configuration">Configuration</a>).</li>
+</ul>
+</li>
+<li><strong>SciTE4AutoIt3</strong> (the full SciTE bundle from autoitscript.com) if you want code formatting. It provides <code>AutoIt3Wrapper.au3</code> and <code>Tidy.exe</code>, which the formatter invokes. Standard SciTE4AutoIt3 installs to <code>C:\Program Files (x86)\AutoIt3\SciTE\</code> and are discovered automatically.</li>
+<li>On Linux/macOS the LSP starts cleanly and serves hover, outline, go-to-definition, find-references, completion, semantic tokens, folding, document highlight, document color, and code actions; diagnostics and formatting are silently disabled. Task definitions are still installed but won't run since they invoke <code>*.exe</code> binaries.</li>
+</ul>
+<h2 id="user-content-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation"><span class="heading-anchor-icon">#</span></a>Installation</h2>
+<p>Open Zed → command palette (<code>cmd-shift-p</code> / <code>ctrl-shift-p</code>) → <code>extensions</code> → search <strong>AutoIt</strong> → install.</p>
+<p>That's it for installer-based AutoIt setups. The Au3Check path is discovered automatically via the Windows registry.</p>
+<h2 id="user-content-configuration"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#configuration"><span class="heading-anchor-icon">#</span></a>Configuration</h2>
+<p>All settings live under <code>lsp.autoit-lsp.settings</code> in your <code>settings.json</code> (<code>%APPDATA%\Zed\settings.json</code> user-wide, or <code>.zed/settings.json</code> per-workspace).</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "autoit-lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "au3checkPath"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"D:</span><span style="color:#005CC5;--shiki-dark:#79B8FF">\\</span><span style="color:#032F62;--shiki-dark:#9ECBFF">Tools</span><span style="color:#005CC5;--shiki-dark:#79B8FF">\\</span><span style="color:#032F62;--shiki-dark:#9ECBFF">AutoIt3</span><span style="color:#005CC5;--shiki-dark:#79B8FF">\\</span><span style="color:#032F62;--shiki-dark:#9ECBFF">Au3Check.exe"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "debounceMs"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">400</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "au3checkExtraArgs"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"-w 1 -w 2 -d"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Setting</th><th>Default</th><th>Description</th></tr></thead><tbody><tr><td><code>au3checkPath</code></td><td>(registry discovery)</td><td>Absolute path to <code>Au3Check.exe</code>. Needed only for portable / unzipped AutoIt installs at non-default locations. If set to a non-existent file, the server logs a warning and falls back to registry discovery — so a stale setting doesn't break the LSP after you install AutoIt normally.</td></tr><tr><td><code>debounceMs</code></td><td><code>400</code></td><td>Milliseconds to wait after the last keystroke before re-linting. Clamped to <code>[50, 5000]</code>. The first edit after open or save lints immediately regardless.</td></tr><tr><td><code>au3checkExtraArgs</code></td><td><code>""</code></td><td>Extra flags appended verbatim to the <code>Au3Check.exe</code> command line — type them exactly as you would on a command line. Quote-aware tokenization respects <code>"double quotes"</code>, so a spaced path like <code>-I "C:\My Includes"</code> works as written. Use it to enable warning levels (<code>-w 1 -w 2 …</code>) or the strict undeclared-variable check (<code>-d</code>). Run <code>Au3Check.exe -h</code> for the full flag list. No validation is done — a flag that breaks Au3Check's output format is on you. Changes take effect immediately (open files re-lint on settings change).</td></tr></tbody></table>
+<h3 id="user-content-signature-help-and-inlay-hints"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#signature-help-and-inlay-hints"><span class="heading-anchor-icon">#</span></a>Signature help and inlay hints</h3>
+<p>These features are served by the language server but controlled by Zed's own editor settings (not under <code>lsp.autoit-lsp</code>).</p>
+<p><strong>Signature help</strong> is disabled by default in Zed. Enable it by adding these two lines to your <code>settings.json</code>:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "auto_signature_help"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">true</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "show_signature_help_after_edits"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">true</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>With these enabled, the parameter popup appears automatically when your cursor enters a function call's argument list and stays open as you type. You can also trigger it manually at any time with <strong>Ctrl+I</strong> (Windows/Linux) or <strong>Cmd+I</strong> (macOS) — this works regardless of the settings above.</p>
+<p><strong>Inlay hints</strong> (parameter name labels on call sites) are controlled by Zed's <code>inlay_hints</code> setting, which defaults to <code>enabled: true</code> in recent Zed releases. If you don't see them, check:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "inlay_hints"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "enabled"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">true</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h3 id="user-content-code-formatting"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#code-formatting"><span class="heading-anchor-icon">#</span></a>Code formatting</h3>
+<p>Code formatting uses AutoIt3Wrapper's <code>/Tidy</code> mode to fix indentation, normalise keyword and function casing, and clean up spacing. It is automatically available when <a href="https://www.autoitscript.com/site/autoit-script-editor/downloads/">SciTE4AutoIt3</a> is installed alongside AutoIt (the LSP detects it via the Windows registry). No configuration is needed.</p>
+<p>Trigger formatting with Zed's standard <strong>Format Document</strong> command (<code>alt-shift-f</code> on Windows/Linux, <code>option-shift-f</code> on macOS), or via the command palette: <code>editor: format</code>.</p>
+<p>The <code>"Format Document"</code> option only appears in the command palette when the LSP has detected all three required binaries (<code>AutoIt3.exe</code>, <code>AutoIt3Wrapper.au3</code>, <code>Tidy.exe</code>). If formatting does not appear, confirm that SciTE4AutoIt3 is installed.</p>
+<h3 id="user-content-folding"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#folding"><span class="heading-anchor-icon">#</span></a>Folding</h3>
+<p>The language server provides folding ranges for functions, <code>#Region</code> blocks, <code>If</code>/<code>While</code>/<code>For</code>/<code>Switch</code>/<code>Select</code>/<code>With</code> bodies, and multi-line block comments. Using these requires opting in via a Zed per-language setting — otherwise Zed uses its own indentation-based folding, which (notably) can't fold <code>#region</code> blocks:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "languages"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "AutoIt"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "document_folding_ranges"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"on"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>With <code>document_folding_ranges</code> set to <code>"on"</code>, the fold arrows in the gutter come from the LSP, and <code>#region … #endregion</code> blocks fold like everything else.</p>
+<h3 id="user-content-semantic-highlighting"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#semantic-highlighting"><span class="heading-anchor-icon">#</span></a>Semantic highlighting</h3>
+<p>The language server emits semantic tokens that classify identifiers more precisely than syntax alone can — user-defined functions vs built-ins, parameters vs local vs global variables, index-recognised constants, and macros. The most visible effect is that your own functions render differently from built-in/library functions (e.g. <code>MyHelper</code> vs <code>_ArrayAdd</code>), which most themes color out of the box.</p>
+<p>The finer distinctions (parameter vs variable, constant, macro) are <strong>theme-dependent</strong>: a theme has to define styles for the corresponding semantic token types/modifiers to color them, and many themes don't — in that case Zed falls back to the tree-sitter highlighting, with no loss compared to before. This is the same theme-dependency that applies to semantic tokens for any language in Zed.</p>
+<h2 id="user-content-tasks"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#tasks"><span class="heading-anchor-icon">#</span></a>Tasks</h2>
+<p>All tasks scope to AutoIt files only and show up in the Command Palette under <strong>task: spawn</strong>. AutoIt's install directory is discovered at run-time from the Windows registry, so no editing is needed for standard installs.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Task</th><th>What it does</th></tr></thead><tbody><tr><td><strong>AutoIt: Run</strong> <em>filename</em></td><td>Runs the script, streaming <code>ConsoleWrite()</code> output to the terminal in real time.</td></tr><tr><td><strong>AutoIt: Check</strong> <em>filename</em> <strong>(Au3Check)</strong></td><td>Lints the file with the official <code>Au3Check.exe</code> — preview of what the LSP shows as you edit.</td></tr><tr><td><strong>AutoIt: Compile</strong> <em>filename</em> <strong>(Aut2Exe)</strong></td><td>Direct compile to a standalone Windows binary with defaults.</td></tr><tr><td><strong>AutoIt: Compile</strong> <em>filename</em> <strong>with Options (AutoIt3Wrapper GUI)</strong></td><td>Launches the SciTE-bundled <code>AutoIt3Wrapper.au3</code> with <code>/ShowGui</code> so you pick icon / version info / console mode before compile.</td></tr><tr><td><strong>AutoIt: Launch Au3Info</strong></td><td>The window-info inspector GUI.</td></tr><tr><td><strong>AutoIt: Launch Koda Form Designer</strong></td><td>The drag-and-drop GUI builder bundled with SciTE4AutoIt3.</td></tr><tr><td><strong>AutoIt: Kill</strong> <em>filename</em></td><td>SciTE-equivalent of Ctrl+Break — terminates the <code>AutoIt3.exe</code> process running the current file.</td></tr></tbody></table>
+<h2 id="user-content-limitations"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#limitations"><span class="heading-anchor-icon">#</span></a>Limitations</h2>
+<h3 id="user-content-permanent-constraints"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#permanent-constraints"><span class="heading-anchor-icon">#</span></a>Permanent constraints</h3>
+<ul>
+<li><strong>Diagnostics, code formatting, and tasks are Windows-only.</strong> They invoke AutoIt's official binaries (<code>Au3Check.exe</code>, <code>AutoIt3.exe</code>, <code>Aut2Exe.exe</code>), which AutoIt itself only ships for Windows. Everything else — syntax, outline, hover, go-to-definition, find-references, completion, code actions, semantic tokens, folding, document color, and snippets — works on Linux and macOS too.</li>
+<li><strong>Call hierarchy has no in-editor UI yet</strong> (Zed limitation — <a href="https://github.com/zed-industries/zed/issues/14203">zed-industries/zed#14203</a>). The language server fully implements it; it becomes invokable once Zed ships a call-hierarchy UI.</li>
+<li><strong>No color picker</strong> (Zed limitation — <a href="https://github.com/zed-industries/zed/issues/52208">zed-industries/zed#52208</a>). Color swatches render next to <code>0x…</code> literals, but clicking one doesn't open an editable picker yet. The server already answers <code>colorPresentation</code>, so the picker will work as soon as Zed ships one.</li>
+<li><strong>Outline panel is flat</strong> (Zed limitation — the LSP emits a proper hierarchy with parameters as children of functions and contents nested under regions, but Zed's outline panel renders flat with indentation instead of expand/collapse — tracked at <a href="https://github.com/zed-industries/zed/issues/23095">zed-industries/zed#23095</a>).</li>
+<li><strong>Snippets fire inside strings/comments</strong> (Zed limitation — the extension's <code>overrides.scm</code> correctly identifies string/comment scopes and suppresses word/LSP completions there, but Zed's snippet provider doesn't currently honor the per-scope override — tracked at <a href="https://github.com/zed-industries/zed/pull/21578">zed-industries/zed#21578</a>). The existing override blocks will start working automatically once that is fixed upstream.</li>
+</ul>
+<h2 id="user-content-troubleshooting"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#troubleshooting"><span class="heading-anchor-icon">#</span></a>Troubleshooting</h2>
+<p><strong>Diagnostics don't appear.</strong> Check that AutoIt is installed and <code>Au3Check.exe</code> exists. If you have a portable / non-installer AutoIt, set <code>au3checkPath</code> (see <a href="#configuration">Configuration</a>). The server logs <code>Au3Check.exe not found in registry, default path, or initializationOptions.au3checkPath — diagnostics disabled</code> to stderr if discovery fails.</p>
+<p><strong>Hover shows nothing on a function I defined myself.</strong> If you're hovering a call that's defined in the same file or an <code>#include</code>d file, confirm the definition uses the standard <code>Func Name(...)</code> syntax and that the file has been saved (the index is built from the on-disk content). The built-in catalog covers ~3,542 documented AutoIt builtins and UDF library functions; user-defined functions show a signature popup once indexed. Macros (<code>@CRLF</code>, <code>@ScriptDir</code>, etc.) don't have hover — they're covered by completion detail strings instead.</p>
+<p><strong>Tasks fail with <code>'x86' is not recognized</code> or similar PowerShell errors.</strong> Make sure Zed's default shell is PowerShell, not <code>cmd.exe</code> or bash. The tasks use PowerShell's <code>&#x26;</code> call operator and the registry-lookup pattern; running them through a different shell needs a workspace <code>tasks.json</code> override with your preferred invocation.</p>
+<p><strong>The squiggle lands on <code>)</code> instead of the function name.</strong> Should be fixed in v0.3.0 — please <a href="https://github.com/sumit-m/zed-autoit/issues">file an issue</a> with the source line and the message Au3Check produced.</p>
+<p><strong>"Format Document" doesn't appear / formatting does nothing.</strong> The formatter requires <a href="https://www.autoitscript.com/site/autoit-script-editor/downloads/">SciTE4AutoIt3</a> — the full SciTE bundle, not just the base AutoIt3 installer. Install it, then reload Zed (the LSP discovers the binaries at startup). If SciTE4AutoIt3 is installed at a non-default path, the LSP uses the Windows registry to locate it; a portable install at a custom path is not currently supported for formatting.</p>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>MIT — see <a href="https://github.com/sumit-m/zed-autoit/blob/HEAD/LICENSE" target="_blank" rel="noopener">LICENSE</a>.</p>
+<h2 id="user-content-acknowledgments"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#acknowledgments"><span class="heading-anchor-icon">#</span></a>Acknowledgments</h2>
+<ul>
+<li>The Au3Check invocation pattern and stdout-parsing regex are adapted from <a href="https://github.com/loganch/AutoIt-VSCode">loganch/AutoIt-VSCode</a> (MIT). Their prior art validated the wrapping approach.</li>
+<li>Builtin function metadata is derived from the official AutoIt v3 documentation at <a href="https://www.autoitscript.com/autoit3/docs/">https://www.autoitscript.com/autoit3/docs/</a> — only structured fields (name, signature, parameters, summary, return value) are extracted, not the full prose.</li>
+<li>The tree-sitter grammar lives in a sibling repo: <a href="https://github.com/sumit-m/tree-sitter-autoit">tree-sitter-autoit</a>.</li>
+<li>The language server lives in a sibling repo: <a href="https://github.com/sumit-m/autoit-lsp">autoit-lsp</a>.</li>
+</ul></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>
