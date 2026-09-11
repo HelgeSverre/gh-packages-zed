@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1762** |
 | In official registry | 1264 |
 | Discovered via topics | 498 |
-| Last updated | 2026-09-10 21:11 UTC |
+| Last updated | 2026-09-11 05:13 UTC |
 
 ### By capability
 
@@ -120,6 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [funsaized/kanagawa-zed-theme](https://github.com/funsaized/kanagawa-zed-theme) | 2 | 2026-09-11 | 🌊 Kanagawa Wave dark theme with blur/transparency effects f... |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-09-10 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [gesundes/zed-ansible-vault](https://github.com/gesundes/zed-ansible-vault) | 0 | 2026-09-10 | Encrypt and decrypt Ansible Vault files and inline !vault YA... |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 136 | 2026-09-10 | The Ruby language support for Zed editor |
@@ -138,13 +139,13 @@ cd website && npm install && npm run dev
 | [alanisme/vscode-themes-for-zed](https://github.com/alanisme/vscode-themes-for-zed) | 22 | 2026-09-07 | ❤️ All 19 built-in Visual Studio Code color themes, ported t... |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 3 | 2026-09-07 | Spring Boot language intelligence for Zed, built on the requ... |
 | [catthode/zed](https://github.com/catthode/zed) | 0 | 2026-09-06 | Warm OLED theme for Zed |
-| [kevcamel/vscode_dark_modern.zed](https://github.com/kevcamel/vscode_dark_modern.zed) | 58 | 2026-09-06 | VS Code Dark Modern theme for Zed |
-| [kjanat/zed-typescript](https://github.com/kjanat/zed-typescript) | 0 | 2026-09-06 | Runs the TypeScript 7+ language server in Zed. |
+| [kevcamel/vscode_dark_modern.zed](https://github.com/kevcamel/vscode_dark_modern.zed) | 59 | 2026-09-06 | VS Code Dark Modern theme for Zed |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-09-11T05:13 | 0 | 602 | 2158 |
 | 2026-09-10T21:11 | 1 | 601 | 2158 |
 | 2026-09-10T16:39 | 0 | 601 | 2157 |
 | 2026-09-10T11:47 | 3 | 598 | 2157 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-09-09T06:55 | 0 | 598 | 2152 |
 | 2026-09-09T01:10 | 1 | 598 | 2152 |
 | 2026-09-08T18:48 | 0 | 598 | 2151 |
-| 2026-09-08T12:51 | 0 | 599 | 2151 |
 
 ---
 
