@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1762** |
 | In official registry | 1264 |
 | Discovered via topics | 498 |
-| Last updated | 2026-09-11 05:13 UTC |
+| Last updated | 2026-09-11 11:47 UTC |
 
 ### By capability
 
@@ -120,15 +120,15 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [JeffreyJYZ/command-code-zed](https://github.com/JeffreyJYZ/command-code-zed) | 1 | 2026-09-11 | Zed extension and cmduse CLI for live Command Code usage: pl... |
+| [whistlebee/zed-mojo](https://github.com/whistlebee/zed-mojo) | 2 | 2026-09-11 | Mojo LSP/Syntax/Debugger support for Zed |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 98 | 2026-09-11 | True Dark Theme for Zed IDE |
 | [funsaized/kanagawa-zed-theme](https://github.com/funsaized/kanagawa-zed-theme) | 2 | 2026-09-11 | 🌊 Kanagawa Wave dark theme with blur/transparency effects f... |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-09-10 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [gesundes/zed-ansible-vault](https://github.com/gesundes/zed-ansible-vault) | 0 | 2026-09-10 | Encrypt and decrypt Ansible Vault files and inline !vault YA... |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 136 | 2026-09-10 | The Ruby language support for Zed editor |
 | [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 205 | 2026-09-10 | Zed support for the Godot game engine and the GDScript langu... |
 | [salva-sm/sfcc-zed-debugger](https://github.com/salva-sm/sfcc-zed-debugger) | 0 | 2026-09-10 | Zed debug adapter for Salesforce B2C Commerce (SFCC) server-... |
-| [JeffreyJYZ/command-code-zed](https://github.com/JeffreyJYZ/command-code-zed) | 1 | 2026-09-10 | Zed extension and cmduse CLI for live Command Code usage: pl... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 98 | 2026-09-10 | True Dark Theme for Zed IDE |
-| [whistlebee/zed-mojo](https://github.com/whistlebee/zed-mojo) | 2 | 2026-09-10 | Mojo LSP/Syntax/Debugger support for Zed |
 | [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-09-09 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
 | [chrisdrackett/bamboo-theme-zed](https://github.com/chrisdrackett/bamboo-theme-zed) | 0 | 2026-09-09 | Bamboo Theme for Zed |
 | [atomic-dark/zed](https://github.com/atomic-dark/zed) | 1 | 2026-09-08 | A developer-friendly collection of widely-used syntax themes... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-09-11T11:47 | 1 | 601 | 2159 |
 | 2026-09-11T05:13 | 0 | 602 | 2158 |
 | 2026-09-10T21:11 | 1 | 601 | 2158 |
 | 2026-09-10T16:39 | 0 | 601 | 2157 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-09-09T12:51 | 0 | 598 | 2152 |
 | 2026-09-09T06:55 | 0 | 598 | 2152 |
 | 2026-09-09T01:10 | 1 | 598 | 2152 |
-| 2026-09-08T18:48 | 0 | 598 | 2151 |
 
 ---
 
