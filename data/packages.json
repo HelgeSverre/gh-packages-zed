@@ -127,7 +127,7 @@
     "name": "GDQuest/zed-gdscript",
     "url": "https://github.com/GDQuest/zed-gdscript",
     "description": "Zed support for the Godot game engine and the GDScript language",
-    "stars": 205,
+    "stars": 206,
     "forks": 23,
     "topics": [
       "code-editor",
@@ -139,7 +139,7 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-02-26T18:14:41Z",
-    "updated_at": "2026-09-10T19:22:26Z",
+    "updated_at": "2026-09-12T19:58:01Z",
     "pushed_at": "2026-09-10T12:07:53Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -5148,7 +5148,7 @@
     "name": "Dylanmurzello/zed-android-port",
     "url": "https://github.com/Dylanmurzello/zed-android-port",
     "description": "Native Android port of the Zed code editor,  gpui rendering through Vulkan, integrated Termux for LSPs and tooling, remote SSH support. Runs as an APK on tablets and Android desktop modes.",
-    "stars": 211,
+    "stars": 212,
     "forks": 15,
     "topics": [
       "android",
@@ -5175,7 +5175,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-05-07T00:12:10Z",
-    "updated_at": "2026-09-12T08:21:02Z",
+    "updated_at": "2026-09-12T17:17:57Z",
     "pushed_at": "2026-08-07T13:48:06Z",
     "discovered_at": "2026-05-19T19:54:12.053Z",
     "official": false
@@ -13523,8 +13523,8 @@
     "language": "Rust",
     "license": "GPL-3.0",
     "created_at": "2025-11-15T12:51:35Z",
-    "updated_at": "2026-09-09T07:48:08Z",
-    "pushed_at": "2026-08-12T19:33:12Z",
+    "updated_at": "2026-09-12T18:55:27Z",
+    "pushed_at": "2026-09-12T18:55:22Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": true
   },
@@ -15437,7 +15437,7 @@
     "name": "agent-sh/agnix",
     "url": "https://github.com/agent-sh/agnix",
     "description": "The missing linter and lsp for AI coding assistants. Validate CLAUDE.md, AGENTS.md, SKILL.md, hooks, MCP. Plugin for all major IDEs included, with autofixes.",
-    "stars": 411,
+    "stars": 412,
     "forks": 31,
     "topics": [
       "agent",
@@ -15464,7 +15464,7 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
-    "updated_at": "2026-09-12T07:39:24Z",
+    "updated_at": "2026-09-12T18:40:49Z",
     "pushed_at": "2026-09-11T19:46:01Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
@@ -18023,8 +18023,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-09-12T11:15:02Z",
-    "pushed_at": "2026-09-12T11:14:59Z",
+    "updated_at": "2026-09-12T15:49:48Z",
+    "pushed_at": "2026-09-12T15:49:37Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -30057,8 +30057,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-06-09T22:36:14Z",
-    "updated_at": "2026-09-12T15:23:05Z",
-    "pushed_at": "2026-09-12T15:23:01Z",
+    "updated_at": "2026-09-12T20:53:32Z",
+    "pushed_at": "2026-09-12T20:53:29Z",
     "discovered_at": "2026-06-10T00:43:30.823Z",
     "official": false
   },
@@ -31992,8 +31992,8 @@
     "language": "Rust",
     "license": "ISC",
     "created_at": "2026-07-04T02:15:25Z",
-    "updated_at": "2026-09-02T22:36:32Z",
-    "pushed_at": "2026-09-02T22:36:21Z",
+    "updated_at": "2026-09-12T17:05:29Z",
+    "pushed_at": "2026-09-12T17:27:12Z",
     "discovered_at": "2026-07-06T19:18:00.225Z",
     "official": false
   },
@@ -32182,8 +32182,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-07-09T19:20:08Z",
-    "updated_at": "2026-09-06T01:00:28Z",
-    "pushed_at": "2026-09-06T01:00:24Z",
+    "updated_at": "2026-09-12T19:47:24Z",
+    "pushed_at": "2026-09-12T20:38:18Z",
     "discovered_at": "2026-07-10T07:54:10.331Z",
     "official": false
   },
@@ -33214,8 +33214,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-05-17T07:32:27Z",
-    "updated_at": "2026-09-12T08:20:50Z",
-    "pushed_at": "2026-09-12T08:20:46Z",
+    "updated_at": "2026-09-12T18:52:59Z",
+    "pushed_at": "2026-09-12T18:52:55Z",
     "discovered_at": "2026-07-26T01:12:51.640Z",
     "official": false
   },
@@ -35881,8 +35881,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-08-22T22:20:48Z",
-    "updated_at": "2026-09-12T15:31:56Z",
-    "pushed_at": "2026-09-12T15:32:06Z",
+    "updated_at": "2026-09-12T17:41:37Z",
+    "pushed_at": "2026-09-12T17:41:48Z",
     "discovered_at": "2026-08-24T13:01:58.453Z",
     "official": false
   },
@@ -36193,7 +36193,7 @@
     "license": "MIT",
     "created_at": "2025-12-13T09:32:42Z",
     "updated_at": "2026-09-06T13:14:24Z",
-    "pushed_at": "2026-09-05T20:03:54Z",
+    "pushed_at": "2026-09-12T20:03:57Z",
     "discovered_at": "2026-08-28T16:48:20.309Z",
     "official": true
   },
@@ -36901,8 +36901,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-09-06T16:21:41Z",
-    "updated_at": "2026-09-06T17:35:12Z",
-    "pushed_at": "2026-09-06T17:34:07Z",
+    "updated_at": "2026-09-12T18:03:20Z",
+    "pushed_at": "2026-09-12T18:03:17Z",
     "discovered_at": "2026-09-06T18:43:49.662Z",
     "official": false
   },
@@ -37133,8 +37133,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-09-10T18:48:52Z",
-    "updated_at": "2026-09-11T17:48:46Z",
-    "pushed_at": "2026-09-12T06:09:44Z",
+    "updated_at": "2026-09-12T20:55:05Z",
+    "pushed_at": "2026-09-12T20:55:03Z",
     "discovered_at": "2026-09-10T21:11:31.705Z",
     "official": false
   },

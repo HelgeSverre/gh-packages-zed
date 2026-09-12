@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1769** |
 | In official registry | 1269 |
 | Discovered via topics | 500 |
-| Last updated | 2026-09-12 15:49 UTC |
+| Last updated | 2026-09-12 20:56 UTC |
 
 ### By capability
 
@@ -102,7 +102,7 @@ cd website && npm install && npm run dev
 | [catppuccin/zed-icons](https://github.com/catppuccin/zed-icons) | 240 | 🦊 Soothing pastel icons for Zed |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 216 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
-| [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 205 | Zed support for the Godot game engine and the GDScript language |
+| [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 206 | Zed support for the Godot game engine and the GDScript language |
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 197 | Typst extension for zed |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
@@ -120,6 +120,9 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [kjanat/zed-typescript](https://github.com/kjanat/zed-typescript) | 0 | 2026-09-12 | Runs the TypeScript 7+ language server in Zed. |
+| [lmn451/css-variables-zed](https://github.com/lmn451/css-variables-zed) | 7 | 2026-09-12 | Project-wide CSS custom property intelligence for Zed: compl... |
+| [catthode/zed](https://github.com/catthode/zed) | 0 | 2026-09-12 | Warm OLED theme for Zed |
 | [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-09-12 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
 | [DROOdotFOO/synthwave84-zed](https://github.com/DROOdotFOO/synthwave84-zed) | 5 | 2026-09-12 | Synthwave84 themes for Zed editor |
 | [JeffreyJYZ/command-code-zed](https://github.com/JeffreyJYZ/command-code-zed) | 1 | 2026-09-12 | Zed extension and cmduse CLI for live Command Code usage: pl... |
@@ -134,17 +137,15 @@ cd website && npm install && npm run dev
 | [whistlebee/zed-mojo](https://github.com/whistlebee/zed-mojo) | 2 | 2026-09-11 | Mojo LSP/Syntax/Debugger support for Zed |
 | [funsaized/kanagawa-zed-theme](https://github.com/funsaized/kanagawa-zed-theme) | 2 | 2026-09-11 | 🌊 Kanagawa Wave dark theme with blur/transparency effects f... |
 | [gesundes/zed-ansible-vault](https://github.com/gesundes/zed-ansible-vault) | 0 | 2026-09-10 | Encrypt and decrypt Ansible Vault files and inline !vault YA... |
-| [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 205 | 2026-09-10 | Zed support for the Godot game engine and the GDScript langu... |
+| [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 206 | 2026-09-10 | Zed support for the Godot game engine and the GDScript langu... |
 | [salva-sm/sfcc-zed-debugger](https://github.com/salva-sm/sfcc-zed-debugger) | 0 | 2026-09-10 | Zed debug adapter for Salesforce B2C Commerce (SFCC) server-... |
 | [chrisdrackett/bamboo-theme-zed](https://github.com/chrisdrackett/bamboo-theme-zed) | 0 | 2026-09-09 | Bamboo Theme for Zed |
-| [atomic-dark/zed](https://github.com/atomic-dark/zed) | 1 | 2026-09-08 | A developer-friendly collection of widely-used syntax themes... |
-| [0x96f-org/0x96f-zed-theme](https://github.com/0x96f-org/0x96f-zed-theme) | 41 | 2026-09-08 | A simple and pleasant dark theme for Zed |
-| [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 335 | 2026-09-08 | Catppuccin Theme but as blurred variants + custom ones |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-09-12T20:56 | 0 | 604 | 2167 |
 | 2026-09-12T15:49 | 0 | 604 | 2167 |
 | 2026-09-12T11:14 | 0 | 604 | 2167 |
 | 2026-09-12T05:00 | 4 | 602 | 2167 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-09-11T05:13 | 0 | 602 | 2158 |
 | 2026-09-10T21:11 | 1 | 601 | 2158 |
 | 2026-09-10T16:39 | 0 | 601 | 2157 |
-| 2026-09-10T11:47 | 3 | 598 | 2157 |
 
 ---
 
