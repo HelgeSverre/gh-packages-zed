@@ -526,7 +526,7 @@
     "url": "https://github.com/pataruco/zed-mjml",
     "description": "MJML syntax support for Zed",
     "stars": 3,
-    "forks": 1,
+    "forks": 2,
     "topics": [
       "extension",
       "mjml",
@@ -1527,7 +1527,7 @@
     "url": "https://github.com/surrealdb/surrealql-zed",
     "description": "SurrealQL Language Extension for the Zed Editor",
     "stars": 0,
-    "forks": 0,
+    "forks": 1,
     "topics": [
       "surrealdb",
       "zed",
@@ -1536,8 +1536,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2025-09-06T08:50:19Z",
-    "updated_at": "2026-08-14T08:02:26Z",
-    "pushed_at": "2026-09-08T08:20:09Z",
+    "updated_at": "2026-09-12T01:55:04Z",
+    "pushed_at": "2026-09-12T01:54:58Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false,
     "extension": {
@@ -52067,7 +52067,7 @@
     "name": "lmarkmann/patina-theme",
     "url": "https://github.com/lmarkmann/patina-theme",
     "description": "A warm, muted color theme. Teal oxidation and amber warmth; in six variants.",
-    "stars": 3,
+    "stars": 4,
     "forks": 0,
     "topics": [
       "color-theme",
@@ -52085,7 +52085,7 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-02-09T15:05:15Z",
-    "updated_at": "2026-08-26T15:22:17Z",
+    "updated_at": "2026-09-11T22:49:21Z",
     "pushed_at": "2026-08-26T15:09:53Z",
     "discovered_at": "2026-06-15T14:07:17.167Z",
     "official": true,
@@ -60641,6 +60641,150 @@
       ],
       "categories": [
         "grammar"
+      ]
+    }
+  },
+  "ryanabx/faded-prism-zed": {
+    "name": "ryanabx/faded-prism-zed",
+    "url": "https://github.com/ryanabx/faded-prism-zed",
+    "description": "A color theme for Zed",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-09-03T18:08:43Z",
+    "updated_at": "2026-09-03T20:09:38Z",
+    "pushed_at": "2026-09-03T20:10:49Z",
+    "discovered_at": "2026-09-12T05:00:02.438Z",
+    "official": true,
+    "extension": {
+      "id": "faded-prism-theme",
+      "name": "Faded Prism Theme",
+      "description": "A faint pastel theme for Zed",
+      "version": "1.4.1",
+      "schema_version": 1,
+      "authors": [
+        "Ryan Brue <ryanbrue.dev@gmail.com>"
+      ],
+      "repository": "https://github.com/ryanabx/faded-prism-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "notpeter/fennel-zed": {
+    "name": "notpeter/fennel-zed",
+    "url": "https://github.com/notpeter/fennel-zed",
+    "description": "Zed Extension for Fennel Language",
+    "stars": 2,
+    "forks": 0,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2026-07-27T13:41:31Z",
+    "updated_at": "2026-09-09T07:52:03Z",
+    "pushed_at": "2026-07-27T13:48:54Z",
+    "discovered_at": "2026-09-12T05:00:02.438Z",
+    "official": true,
+    "extension": {
+      "id": "fennel",
+      "name": "Fennel",
+      "description": "Fennel language support.",
+      "version": "0.2.0",
+      "schema_version": 1,
+      "authors": [
+        "Peter Tripp <petertripp@gmail.com>"
+      ],
+      "repository": "https://github.com/notpeter/fennel-zed",
+      "snippets": null,
+      "sections": [
+        "grammars",
+        "language_servers"
+      ],
+      "categories": [
+        "grammar",
+        "language-server"
+      ]
+    }
+  },
+  "cappuccinotogo/kokedera-icons-extension-zed": {
+    "name": "cappuccinotogo/kokedera-icons-extension-zed",
+    "url": "https://github.com/cappuccinotogo/kokedera-icons-extension-zed",
+    "description": "Kokedera Icons for Zed — nine file icon themes inspired by forest greens, weathered stone, and warm lantern light.",
+    "stars": 2,
+    "forks": 0,
+    "topics": [
+      "file-icons",
+      "icon-theme",
+      "icons",
+      "kokedera",
+      "theme",
+      "zed",
+      "zed-extension"
+    ],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-03-18T19:03:31Z",
+    "updated_at": "2026-09-12T02:23:23Z",
+    "pushed_at": "2026-09-11T09:50:44Z",
+    "discovered_at": "2026-09-12T05:00:02.438Z",
+    "official": false,
+    "extension": {
+      "id": "kokedera-icons",
+      "name": "Kokedera Icons",
+      "description": "File and folder icons inspired by forest greens, weathered stone, and warm lantern light — nine sets matching Kokedera Theme.",
+      "version": "2.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Florian Mühlhans"
+      ],
+      "repository": "https://github.com/cappuccinotogo/kokedera-icons-extension-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "cappuccinotogo/kokedera-theme-extension-zed": {
+    "name": "cappuccinotogo/kokedera-theme-extension-zed",
+    "url": "https://github.com/cappuccinotogo/kokedera-theme-extension-zed",
+    "description": "Kokedera for Zed — nine color themes inspired by forest greens, weathered stone, and warm lantern light.",
+    "stars": 3,
+    "forks": 0,
+    "topics": [
+      "colorscheme",
+      "dark-theme",
+      "kokedera",
+      "light-theme",
+      "theme",
+      "zed",
+      "zed-theme"
+    ],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-03-11T08:53:21Z",
+    "updated_at": "2026-09-12T02:23:32Z",
+    "pushed_at": "2026-09-11T09:50:50Z",
+    "discovered_at": "2026-09-12T05:00:02.440Z",
+    "official": false,
+    "extension": {
+      "id": "kokedera-theme",
+      "name": "Kokedera Theme",
+      "description": "Nine hand-tuned color themes inspired by forest greens, weathered stone, and warm lantern light — seven dark palettes and two light palettes.",
+      "version": "2.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Florian Mühlhans"
+      ],
+      "repository": "https://github.com/cappuccinotogo/kokedera-theme-extension-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
       ]
     }
   }
