@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1769** |
 | In official registry | 1269 |
 | Discovered via topics | 500 |
-| Last updated | 2026-09-12 11:14 UTC |
+| Last updated | 2026-09-12 15:49 UTC |
 
 ### By capability
 
@@ -120,6 +120,8 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-09-12 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
+| [DROOdotFOO/synthwave84-zed](https://github.com/DROOdotFOO/synthwave84-zed) | 5 | 2026-09-12 | Synthwave84 themes for Zed editor |
 | [JeffreyJYZ/command-code-zed](https://github.com/JeffreyJYZ/command-code-zed) | 1 | 2026-09-12 | Zed extension and cmduse CLI for live Command Code usage: pl... |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 136 | 2026-09-12 | The Ruby language support for Zed editor |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 98 | 2026-09-12 | True Dark Theme for Zed IDE |
@@ -134,17 +136,16 @@ cd website && npm install && npm run dev
 | [gesundes/zed-ansible-vault](https://github.com/gesundes/zed-ansible-vault) | 0 | 2026-09-10 | Encrypt and decrypt Ansible Vault files and inline !vault YA... |
 | [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 205 | 2026-09-10 | Zed support for the Godot game engine and the GDScript langu... |
 | [salva-sm/sfcc-zed-debugger](https://github.com/salva-sm/sfcc-zed-debugger) | 0 | 2026-09-10 | Zed debug adapter for Salesforce B2C Commerce (SFCC) server-... |
-| [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-09-09 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
 | [chrisdrackett/bamboo-theme-zed](https://github.com/chrisdrackett/bamboo-theme-zed) | 0 | 2026-09-09 | Bamboo Theme for Zed |
 | [atomic-dark/zed](https://github.com/atomic-dark/zed) | 1 | 2026-09-08 | A developer-friendly collection of widely-used syntax themes... |
 | [0x96f-org/0x96f-zed-theme](https://github.com/0x96f-org/0x96f-zed-theme) | 41 | 2026-09-08 | A simple and pleasant dark theme for Zed |
 | [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 335 | 2026-09-08 | Catppuccin Theme but as blurred variants + custom ones |
-| [wesleydmscn/zed-samurai-theme](https://github.com/wesleydmscn/zed-samurai-theme) | 4 | 2026-09-08 | A theme for samurai programmers 🤺 |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-09-12T15:49 | 0 | 604 | 2167 |
 | 2026-09-12T11:14 | 0 | 604 | 2167 |
 | 2026-09-12T05:00 | 4 | 602 | 2167 |
 | 2026-09-11T21:17 | 1 | 602 | 2163 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-09-10T21:11 | 1 | 601 | 2158 |
 | 2026-09-10T16:39 | 0 | 601 | 2157 |
 | 2026-09-10T11:47 | 3 | 598 | 2157 |
-| 2026-09-10T05:14 | 2 | 597 | 2154 |
 
 ---
 
