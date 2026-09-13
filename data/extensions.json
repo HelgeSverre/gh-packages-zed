@@ -18854,13 +18854,13 @@
     "name": "owlx56/zed-lean4",
     "url": "https://github.com/owlx56/zed-lean4",
     "description": "",
-    "stars": 58,
+    "stars": 57,
     "forks": 11,
     "topics": [],
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2025-04-18T13:34:52Z",
-    "updated_at": "2026-09-10T22:57:15Z",
+    "updated_at": "2026-09-12T22:02:57Z",
     "pushed_at": "2026-05-30T23:43:11Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": false,
@@ -53797,8 +53797,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
-    "updated_at": "2026-09-11T19:22:58Z",
-    "pushed_at": "2026-09-11T19:22:53Z",
+    "updated_at": "2026-09-13T04:25:48Z",
+    "pushed_at": "2026-09-13T04:25:45Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false,
     "extension": {
@@ -60782,6 +60782,89 @@
         "Florian Mühlhans"
       ],
       "repository": "https://github.com/cappuccinotogo/kokedera-theme-extension-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "klarlanguage/klar-zed": {
+    "name": "klarlanguage/klar-zed",
+    "url": "https://github.com/klarlanguage/klar-zed",
+    "description": "🦓 Klar support for Zed",
+    "stars": 1,
+    "forks": 0,
+    "topics": [
+      "klar",
+      "klon",
+      "language-server",
+      "lsp",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "created_at": "2026-09-12T03:43:07Z",
+    "updated_at": "2026-09-13T03:35:06Z",
+    "pushed_at": "2026-09-13T03:35:02Z",
+    "discovered_at": "2026-09-13T05:21:11.822Z",
+    "official": false,
+    "extension": {
+      "id": "klar",
+      "name": "Klar",
+      "description": "Klar support.",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "ProCode Software"
+      ],
+      "repository": "https://github.com/ProCode-Software/klar/tree/main/packages/klar-zed",
+      "snippets": null,
+      "sections": [
+        "language_servers",
+        "grammars"
+      ],
+      "categories": [
+        "grammar",
+        "language-server"
+      ]
+    }
+  },
+  "xtrasmal/zed-theme-horizoncode": {
+    "name": "xtrasmal/zed-theme-horizoncode",
+    "url": "https://github.com/xtrasmal/zed-theme-horizoncode",
+    "description": "HorizonCode - Zed theme",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "helix",
+      "helix-editor",
+      "helix-theme",
+      "iterm2",
+      "theme",
+      "wezterm",
+      "wezterm-themes",
+      "zed",
+      "zed-theme"
+    ],
+    "language": "Shell",
+    "license": "MIT",
+    "created_at": "2026-09-12T20:49:06Z",
+    "updated_at": "2026-09-12T22:20:37Z",
+    "pushed_at": "2026-09-12T22:20:32Z",
+    "discovered_at": "2026-09-13T05:21:11.824Z",
+    "official": false,
+    "extension": {
+      "id": "horizoncode",
+      "name": "HorizonCode",
+      "description": "Horizon, faithfully — dark and bright, fully scoped for Zed",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Xander <1174877+xtrasmal@users.noreply.github.com>"
+      ],
+      "repository": "https://github.com/xtrasmal/zed-theme-horizoncode",
       "snippets": null,
       "sections": [],
       "categories": [
