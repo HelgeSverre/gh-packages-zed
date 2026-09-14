@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1774** |
 | In official registry | 1271 |
 | Discovered via topics | 503 |
-| Last updated | 2026-09-14 13:19 UTC |
+| Last updated | 2026-09-14 22:02 UTC |
 
 ### By capability
 
@@ -104,7 +104,7 @@ cd website && npm install && npm run dev
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
 | [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 205 | Zed support for the Godot game engine and the GDScript language |
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
-| [zed-extensions/typst](https://github.com/zed-extensions/typst) | 197 | Typst extension for zed |
+| [zed-extensions/typst](https://github.com/zed-extensions/typst) | 198 | Typst extension for zed |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 181 | 🦊 Zed editor theme ported from Neovim |
@@ -120,6 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-09-14 | Zed editor support for Carve, a modern light markup language |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 3 | 2026-09-14 | Spring Boot language intelligence for Zed, built on the requ... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 98 | 2026-09-14 | True Dark Theme for Zed IDE |
 | [klarlanguage/klar-zed](https://github.com/klarlanguage/klar-zed) | 1 | 2026-09-13 | 🦓 Klar support for Zed |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [surrealdb/surrealql-zed](https://github.com/surrealdb/surrealql-zed) | 0 | 2026-09-12 | SurrealQL Language Extension for the Zed Editor |
 | [zed-extensions/nix](https://github.com/zed-extensions/nix) | 124 | 2026-09-11 | Nix language support in Zed |
 | [cappuccinotogo/kokedera-theme-extension-zed](https://github.com/cappuccinotogo/kokedera-theme-extension-zed) | 3 | 2026-09-11 | Kokedera for Zed — nine color themes inspired by forest gree... |
-| [cappuccinotogo/kokedera-icons-extension-zed](https://github.com/cappuccinotogo/kokedera-icons-extension-zed) | 2 | 2026-09-11 | Kokedera Icons for Zed — nine file icon themes inspired by f... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-09-14T22:02 | 0 | 608 | 2174 |
 | 2026-09-14T13:19 | 3 | 608 | 2174 |
 | 2026-09-14T05:25 | 0 | 608 | 2171 |
 | 2026-09-13T21:07 | 1 | 607 | 2171 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-09-12T20:56 | 0 | 604 | 2167 |
 | 2026-09-12T15:49 | 0 | 604 | 2167 |
 | 2026-09-12T11:14 | 0 | 604 | 2167 |
-| 2026-09-12T05:00 | 4 | 602 | 2167 |
 
 ---
 
