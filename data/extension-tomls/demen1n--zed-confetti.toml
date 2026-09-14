@@ -1,0 +1,11 @@
+id = "confetti"
+name = "Confetti"
+description = "Syntax highlighting for Confetti, an unopinionated configuration language (confetti.hgs3.me)"
+version = "0.1.0"
+schema_version = 1
+authors = ["demen1n"]
+repository = "https://github.com/demen1n/zed-confetti"
+
+[grammars.confetti]
+repository = "https://github.com/demen1n/tree-sitter-confetti"
+rev = "bf1e80ae7e9de9ea42d9cbb04c725dbb4393aee2"

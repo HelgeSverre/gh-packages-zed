@@ -142,8 +142,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-09-13T06:48:55Z",
-    "pushed_at": "2026-09-13T06:48:52Z",
+    "updated_at": "2026-09-14T07:12:42Z",
+    "pushed_at": "2026-09-14T07:12:38Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -2894,7 +2894,7 @@
     "name": "0x96f-org/0x96f-zed-theme",
     "url": "https://github.com/0x96f-org/0x96f-zed-theme",
     "description": "A simple and pleasant dark theme for Zed",
-    "stars": 41,
+    "stars": 42,
     "forks": 3,
     "topics": [
       "editor-theme",
@@ -2907,7 +2907,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-05-23T15:29:58Z",
-    "updated_at": "2026-09-08T10:45:02Z",
+    "updated_at": "2026-09-14T06:41:55Z",
     "pushed_at": "2026-09-08T10:45:37Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -7387,7 +7387,7 @@
     "name": "davccavalcante/blade-runner-2049-theme-for-zed",
     "url": "https://github.com/davccavalcante/blade-runner-2049-theme-for-zed",
     "description": "📺 A cyberpunk aesthetic theme based on the command line interface of Blade Runner 2049, inspired by the film's dystopian and high-tech visual style",
-    "stars": 28,
+    "stars": 27,
     "forks": 6,
     "topics": [
       "blade-runner",
@@ -7407,7 +7407,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2025-02-11T00:28:27Z",
-    "updated_at": "2026-07-14T00:21:46Z",
+    "updated_at": "2026-09-14T10:13:55Z",
     "pushed_at": "2025-07-12T18:56:49Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false,
@@ -8457,7 +8457,7 @@
     "name": "cange/nightfox.zed",
     "url": "https://github.com/cange/nightfox.zed",
     "description": "🦊 Zed editor theme ported from Neovim",
-    "stars": 180,
+    "stars": 181,
     "forks": 5,
     "topics": [
       "zed",
@@ -8466,7 +8466,7 @@
     "language": "Lua",
     "license": "MIT",
     "created_at": "2024-05-02T20:49:30Z",
-    "updated_at": "2026-09-14T04:39:23Z",
+    "updated_at": "2026-09-14T11:44:45Z",
     "pushed_at": "2026-08-27T11:32:49Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": true,
@@ -47973,13 +47973,13 @@
     "name": "kevcamel/vscode_dark_modern.zed",
     "url": "https://github.com/kevcamel/vscode_dark_modern.zed",
     "description": "VS Code Dark Modern theme for Zed",
-    "stars": 59,
+    "stars": 60,
     "forks": 21,
     "topics": [],
     "language": null,
     "license": "MIT",
     "created_at": "2024-05-17T15:44:22Z",
-    "updated_at": "2026-09-10T21:20:23Z",
+    "updated_at": "2026-09-14T11:48:55Z",
     "pushed_at": "2026-09-06T04:32:53Z",
     "discovered_at": "2026-05-20T03:49:49.286Z",
     "official": false,
@@ -54330,7 +54330,7 @@
     "name": "runescape-themes/zed-icons",
     "url": "https://github.com/runescape-themes/zed-icons",
     "description": "🏰 Old School RuneScape icon theme for Zed",
-    "stars": 1,
+    "stars": 2,
     "forks": 0,
     "topics": [
       "icon-theme",
@@ -54344,7 +54344,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-07-03T06:24:29Z",
-    "updated_at": "2026-09-05T08:27:49Z",
+    "updated_at": "2026-09-14T12:48:04Z",
     "pushed_at": "2026-09-05T08:27:45Z",
     "discovered_at": "2026-07-14T07:22:35.649Z",
     "official": true,
@@ -54734,7 +54734,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
     "updated_at": "2026-09-07T11:54:00Z",
-    "pushed_at": "2026-09-07T11:53:57Z",
+    "pushed_at": "2026-09-14T12:19:09Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false,
     "extension": {
@@ -60908,6 +60908,70 @@
       ],
       "categories": [
         "grammar"
+      ]
+    }
+  },
+  "demen1n/zed-confetti": {
+    "name": "demen1n/zed-confetti",
+    "url": "https://github.com/demen1n/zed-confetti",
+    "description": "Zed extension for the Confetti configuration language",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2026-09-03T11:18:02Z",
+    "updated_at": "2026-09-03T11:19:27Z",
+    "pushed_at": "2026-09-03T11:18:06Z",
+    "discovered_at": "2026-09-14T13:19:42.676Z",
+    "official": true,
+    "extension": {
+      "id": "confetti",
+      "name": "Confetti",
+      "description": "Syntax highlighting for Confetti, an unopinionated configuration language (confetti.hgs3.me)",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "demen1n"
+      ],
+      "repository": "https://github.com/demen1n/zed-confetti",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
+      ]
+    }
+  },
+  "danilomcampos/lina-zed": {
+    "name": "danilomcampos/lina-zed",
+    "url": "https://github.com/danilomcampos/lina-zed",
+    "description": "Lina theme for Zed",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-08-21T10:03:35Z",
+    "updated_at": "2026-09-13T08:44:43Z",
+    "pushed_at": "2026-09-13T08:44:38Z",
+    "discovered_at": "2026-09-14T13:19:42.676Z",
+    "official": true,
+    "extension": {
+      "id": "lina-theme",
+      "name": "Lina",
+      "description": "Lina theme for Zed",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Danilo Campos <hello@danilocampos.cc>"
+      ],
+      "repository": "https://github.com/danilomcampos/lina-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
       ]
     }
   }

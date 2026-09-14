@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1772-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1774-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,17 +14,17 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1772** |
-| In official registry | 1269 |
+| Total tracked | **1774** |
+| In official registry | 1271 |
 | Discovered via topics | 503 |
-| Last updated | 2026-09-14 05:25 UTC |
+| Last updated | 2026-09-14 13:19 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
-| Themes | 759 |
-| Grammars | 617 |
+| Themes | 760 |
+| Grammars | 618 |
 | Language Servers | 571 |
 | Context Servers | 137 |
 | Snippets | 85 |
@@ -70,6 +70,8 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [demen1n/zed-confetti](https://github.com/demen1n/zed-confetti) | 0 | Zed extension for the Confetti configuration language |
+| [danilomcampos/lina-zed](https://github.com/danilomcampos/lina-zed) | 0 | Lina theme for Zed |
 | [Null-logic-0/zed-hologram](https://github.com/Null-logic-0/zed-hologram) | 0 | HOLO template language support for Zed: Hologram framework syntax highlighting, ... |
 | [xtrasmal/zed-theme-horizoncode](https://github.com/xtrasmal/zed-theme-horizoncode) | 0 | HorizonCode - Zed theme |
 | [klarlanguage/klar-zed](https://github.com/klarlanguage/klar-zed) | 1 | 🦓 Klar support for Zed |
@@ -88,8 +90,6 @@ cd website && npm install && npm run dev
 | [Bavuett/zed-pastel-pink-theme](https://github.com/Bavuett/zed-pastel-pink-theme) | 0 | 🌸 A beautiful, luminous pastel pink dark theme for the Zed editor. |
 | [JeffreyJYZ/command-code-zed](https://github.com/JeffreyJYZ/command-code-zed) | 1 | Zed extension and cmduse CLI for live Command Code usage: plan, credits, 5-hour ... |
 | [jigyansunanda/true-monokai-for-zed](https://github.com/jigyansunanda/true-monokai-for-zed) | 0 | The original Monokai theme for Zed, faithfully recreating the classic color pale... |
-| [2u841r/dark-trio](https://github.com/2u841r/dark-trio) | 0 |  |
-| [Slipstream-Max/jetbrains-dark-blur-theme](https://github.com/Slipstream-Max/jetbrains-dark-blur-theme) | 0 | Blurred JetBrains Dark theme for Zed |
 
 ## Top starred (under 500)
 
@@ -107,7 +107,7 @@ cd website && npm install && npm run dev
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 197 | Typst extension for zed |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
-| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 180 | 🦊 Zed editor theme ported from Neovim |
+| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 181 | 🦊 Zed editor theme ported from Neovim |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 171 | A macOS native style theme for Zed, let it same like native app in macOS. |
 | [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 153 |  |
 | [zed-extensions/swift](https://github.com/zed-extensions/swift) | 151 | Extension for Zed to support Swift |
@@ -120,11 +120,13 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 3 | 2026-09-14 | Spring Boot language intelligence for Zed, built on the requ... |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 98 | 2026-09-14 | True Dark Theme for Zed IDE |
 | [klarlanguage/klar-zed](https://github.com/klarlanguage/klar-zed) | 1 | 2026-09-13 | 🦓 Klar support for Zed |
 | [Null-logic-0/zed-hologram](https://github.com/Null-logic-0/zed-hologram) | 0 | 2026-09-13 | HOLO template language support for Zed: Hologram framework s... |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-09-13 | Intelligent codebase search & indexing for Zed. Async MCP se... |
+| [danilomcampos/lina-zed](https://github.com/danilomcampos/lina-zed) | 0 | 2026-09-13 | Lina theme for Zed |
 | [emirror-de/papercolor-zed](https://github.com/emirror-de/papercolor-zed) | 5 | 2026-09-13 | The original PaperColor Theme, inspired by Google Material D... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 98 | 2026-09-13 | True Dark Theme for Zed IDE |
 | [xtrasmal/zed-theme-horizoncode](https://github.com/xtrasmal/zed-theme-horizoncode) | 0 | 2026-09-12 | HorizonCode - Zed theme |
 | [kjanat/zed-typescript](https://github.com/kjanat/zed-typescript) | 0 | 2026-09-12 | Runs the TypeScript 7+ language server in Zed. |
 | [lmn451/css-variables-zed](https://github.com/lmn451/css-variables-zed) | 7 | 2026-09-12 | Project-wide CSS custom property intelligence for Zed: compl... |
@@ -138,13 +140,12 @@ cd website && npm install && npm run dev
 | [zed-extensions/nix](https://github.com/zed-extensions/nix) | 124 | 2026-09-11 | Nix language support in Zed |
 | [cappuccinotogo/kokedera-theme-extension-zed](https://github.com/cappuccinotogo/kokedera-theme-extension-zed) | 3 | 2026-09-11 | Kokedera for Zed — nine color themes inspired by forest gree... |
 | [cappuccinotogo/kokedera-icons-extension-zed](https://github.com/cappuccinotogo/kokedera-icons-extension-zed) | 2 | 2026-09-11 | Kokedera Icons for Zed — nine file icon themes inspired by f... |
-| [whistlebee/zed-mojo](https://github.com/whistlebee/zed-mojo) | 2 | 2026-09-11 | Mojo LSP/Syntax/Debugger support for Zed |
-| [funsaized/kanagawa-zed-theme](https://github.com/funsaized/kanagawa-zed-theme) | 2 | 2026-09-11 | 🌊 Kanagawa Wave dark theme with blur/transparency effects f... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-09-14T13:19 | 3 | 608 | 2174 |
 | 2026-09-14T05:25 | 0 | 608 | 2171 |
 | 2026-09-13T21:07 | 1 | 607 | 2171 |
 | 2026-09-13T16:37 | 0 | 607 | 2170 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-09-12T15:49 | 0 | 604 | 2167 |
 | 2026-09-12T11:14 | 0 | 604 | 2167 |
 | 2026-09-12T05:00 | 4 | 602 | 2167 |
-| 2026-09-11T21:17 | 1 | 602 | 2163 |
 
 ---
 
