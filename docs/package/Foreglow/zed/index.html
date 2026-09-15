@@ -1,0 +1,414 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Foreglow - Zed Extension Safari</title><meta name="description" content="Foreglow Theme for Zed"><link rel="canonical" href="https://helgesverre.github.io/gh-packages-zed/package/Foreglow/zed/"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Foreglow - Zed Extension Safari"><meta property="og:description" content="Foreglow Theme for Zed"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed/package/Foreglow/zed/"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Foreglow - Zed Extension Safari"><meta name="twitter:description" content="Foreglow Theme for Zed"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/gh-packages-zed/_astro/ClientRouter.astro_astro_type_script_index_0_lang.ClVLs1kt.js"></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Foreglow","description":"Foreglow Theme for Zed","applicationCategory":"DeveloperApplication","operatingSystem":"macOS, Linux, Windows","url":"https://zed.dev/extensions/foreglow-theme","codeRepository":"https://github.com/Foreglow/zed","author":[{"@type":"Person","name":"Foreglow"}],"softwareVersion":"0.1.0","license":"MIT","keywords":"theme","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/Layout.CGDlMdWE.css"><script type="module" src="/gh-packages-zed/_astro/page.B8i1Zz-u.js"></script></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <a href="#main" class="skip-to-content">Skip to content</a> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" data-astro-transition-persist="astro-fhchcgd7-1"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <script type="application/json" id="pkg-extras">{"url":"https://github.com/Foreglow/zed","language":null,"license":"MIT","topics":[],"extension":{"authors":["Foreglow"],"schema_version":1}}</script> <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> Foreglow/zed </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> Foreglow </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> Twilight-inspired theme family: Foreglow (dark, dawn), Afterglow (light, dusk), Alpenglow (rubescent), and Airglow (auroral). </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="theme">Theme</span> </div> </div> </div> </header> <main id="main" class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/foreglow-theme" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/Foreglow/zed" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.1.0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">foreglow-theme</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">MIT</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">2d ago</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">Foreglow</dd> </div> </dl>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><p align="center"><img width="320" alt="foreglow-logo" src="https://github.com/user-attachments/assets/5b0f629b-9800-4c97-b23b-fa3f22681ea4"></p>
+<h3 align="center" id="user-content-foreglow-theme-for-zed-editor"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#foreglow-theme-for-zed-editor"><span class="heading-anchor-icon">#</span></a>Foreglow Theme for <a href="https://zed.dev/">Zed Editor</a></h3>
+<p align="center">
+  <a href="https://github.com/Foreglow/zed/stargazers"><img src="https://img.shields.io/github/stars/Foreglow/zed?style=for-the-badge&#x26;labelColor=313244&#x26;color=CB81E4" alt="Stars"></a>
+  <a href="https://github.com/Foreglow/zed/issues"><img src="https://img.shields.io/github/issues/Foreglow/zed?style=for-the-badge&#x26;labelColor=313244&#x26;color=8930A6" alt="Issues"></a>
+  <a href="https://github.com/Foreglow/zed/graphs/contributors"><img src="https://img.shields.io/github/contributors/Foreglow/zed?style=for-the-badge&#x26;labelColor=313244&#x26;color=FF6B8A" alt="Contributors"></a>
+  <a href="https://github.com/Foreglow/zed/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Foreglow/zed?style=for-the-badge&#x26;labelColor=313244&#x26;color=2EE8C8" alt="License"></a>
+</p>
+<p align="center"><img width="640" alt="foreglow-pack" src="https://github.com/user-attachments/assets/76249ab2-94c0-4477-ac7b-d485aa279abe"></p>
+<h2 id="user-content-previews"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#previews"><span class="heading-anchor-icon">#</span></a>Previews</h2>
+<details>
+  <summary>🌃 Foreglow</summary>
+  <img width="1460" height="1061" alt="foreglow" src="https://github.com/user-attachments/assets/0f451e59-a1a5-4d73-859a-56522a866e6d">
+</details>
+<details>
+  <summary>🌇 Afterglow</summary>
+  <img width="1460" height="1061" alt="afterglow" src="https://github.com/user-attachments/assets/14ff88c6-5822-4beb-872a-7a6ebf07dd80">
+</details>
+<details>
+  <summary>🌉 Alpenglow</summary>
+  <img width="1460" height="1061" alt="alpenglow" src="https://github.com/user-attachments/assets/67087c1c-df1a-4899-bf1b-185612a9e2ca">
+</details>
+<details>
+  <summary>🌌 Airglow</summary>
+  <img width="1460" height="1061" alt="airglow" src="https://github.com/user-attachments/assets/142f498e-a0d9-461c-a693-c336dced38d7">
+</details>
+<p>A twilight-inspired theme family for the Zed editor, with four variants:
+<strong>Foreglow</strong> (dark-dawn), <strong>Afterglow</strong> (light-dusk), <strong>Alpenglow</strong>
+(rubescent), and <strong>Airglow</strong> (auroral).</p>
+<h2 id="user-content-repository-layout"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#repository-layout"><span class="heading-anchor-icon">#</span></a>Repository Layout</h2>
+<pre><code>.
+├── extension.toml       # extension manifest (id, name, version, ...)
+└── themes/
+    └── foreglow.json     # theme family: all 4 variants in one file
+</code></pre>
+<p>This follows <a href="https://zed.dev/docs/extensions/developing-extensions">Zed's extension format</a>:
+every extension needs an <code>extension.toml</code> manifest, and theme JSON files live
+under <code>themes/</code>, each conforming to Zed's
+<a href="https://zed.dev/schema/themes/v0.2.0.json">theme schema</a> (a theme <em>family</em>
+object containing one or more <code>themes</code> entries with <code>name</code>, <code>appearance</code>,
+and a <code>style</code> map — not a flat list of color tokens).</p>
+<h2 id="user-content-try-it-locally-dev-extension"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#try-it-locally-dev-extension"><span class="heading-anchor-icon">#</span></a>Try it locally (dev extension)</h2>
+<p>Zed doesn't have an in-app "paste theme JSON" flow — you install the whole
+extension folder as a dev extension instead:</p>
+<ol>
+<li>Clone this repo: <code>git clone https://github.com/Foreglow/zed.git</code></li>
+<li>In Zed, open the command palette (<code>Cmd+Shift+P</code> / <code>Ctrl+Shift+P</code>) and run
+<strong>zed: install dev extension</strong></li>
+<li>Select the cloned <code>zed</code> folder (the one containing <code>extension.toml</code>)</li>
+<li>Open theme selection (<code>Cmd+K Cmd+T</code> / <code>Ctrl+K Ctrl+T</code>) and pick <strong>Foreglow</strong>,
+<strong>Afterglow</strong>, <strong>Alpenglow</strong>, or <strong>Airglow</strong></li>
+</ol>
+<p>If you already have the published extension installed, installing the dev
+version will replace it. Check <code>~/.local/share/zed/logs/Zed.log</code> (or run
+<code>zed --foreground</code> for verbose output) if something doesn't load.</p>
+<h2 id="user-content-publishing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#publishing"><span class="heading-anchor-icon">#</span></a>Publishing</h2>
+<p>Zed themes are distributed through the community
+<a href="https://github.com/zed-industries/extensions">zed-industries/extensions</a>
+registry — there's no separate marketplace to upload to directly. To publish:</p>
+<ol>
+<li>Read Zed's <a href="https://zed.dev/docs/extensions/publishing/overview">publishing guidelines</a>
+(prerequisites and license requirements).</li>
+<li>Fork <a href="https://github.com/zed-industries/extensions">zed-industries/extensions</a>
+and clone it:
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">git</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> clone</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> https://github.com/</span><span style="color:#D73A49;--shiki-dark:#F97583">&#x3C;</span><span style="color:#032F62;--shiki-dark:#9ECBFF">your-usernam</span><span style="color:#24292E;--shiki-dark:#E1E4E8">e</span><span style="color:#D73A49;--shiki-dark:#F97583">></span><span style="color:#032F62;--shiki-dark:#9ECBFF">/extensions</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">cd</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> extensions</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">git</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> submodule</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> init</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">git</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> submodule</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> update</span></span></code></pre>
+</li>
+<li>Add this repo as a submodule (HTTPS, not SSH, and it must be publicly
+accessible):
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">git</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> submodule</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> add</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> https://github.com/Foreglow/zed.git</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> extensions/foreglow-theme</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">git</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> add</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> extensions/foreglow-theme</span></span></code></pre>
+</li>
+<li>Add an entry to their <code>extensions.toml</code>:
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">[</span><span style="color:#6F42C1;--shiki-dark:#B392F0">foreglow-theme</span><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">submodule = </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"extensions/foreglow-theme"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">version = </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"0.1.0"</span></span></code></pre>
+</li>
+<li>Run <code>pnpm sort-extensions</code>, commit, and open a PR against
+<code>zed-industries/extensions</code>.</li>
+</ol>
+<p>Maintainers review every submission — respond to feedback within 3 weeks or
+the PR gets closed. Once merged, Zed packages and publishes it automatically;
+after that it's installable from Zed's built-in Extensions panel like any
+other theme, no dev-extension step needed.</p>
+<p>To ship an update later: bump <code>version</code> in <code>extension.toml</code> here, push, then
+update the submodule commit and <code>version</code> in <code>extensions.toml</code> in a new PR
+against <code>zed-industries/extensions</code> (see their
+<a href="https://zed.dev/docs/extensions/publishing/updating-and-maintenance">updating an extension</a>
+guide).</p>
+<h2 id="user-content-color-palette"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#color-palette"><span class="heading-anchor-icon">#</span></a>Color Palette</h2>
+<h3 id="user-content-foreglow-dark"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#foreglow-dark"><span class="heading-anchor-icon">#</span></a>Foreglow (Dark)</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Token</th><th>Hex</th><th>Usage</th></tr></thead><tbody><tr><td>Background</td><td><code>#161221</code></td><td>Main background</td></tr><tr><td>Current Line</td><td><code>#281F3D</code></td><td>Line highlight</td></tr><tr><td>Selection</td><td><code>#3D2556</code></td><td>Text selection</td></tr><tr><td>Foreground</td><td><code>#E8E3F2</code></td><td>Default text</td></tr><tr><td>Comment</td><td><code>#736699</code></td><td>Comments</td></tr><tr><td>Keyword</td><td><code>#CB81E4</code></td><td>Keywords</td></tr><tr><td>String</td><td><code>#ED9F82</code></td><td>Strings</td></tr><tr><td>Function</td><td><code>#EC93BF</code></td><td>Functions</td></tr><tr><td>Number</td><td><code>#EFBF6C</code></td><td>Numbers</td></tr><tr><td>Type</td><td><code>#75C6D7</code></td><td>Classes, types</td></tr><tr><td>Variable</td><td><code>#C7BCE6</code></td><td>Variables</td></tr><tr><td>Accent</td><td><code>#F471C8</code></td><td>Cursor, accent</td></tr></tbody></table>
+<h3 id="user-content-afterglow-light"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#afterglow-light"><span class="heading-anchor-icon">#</span></a>Afterglow (Light)</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Token</th><th>Hex</th><th>Usage</th></tr></thead><tbody><tr><td>Background</td><td><code>#F4EEE1</code></td><td>Main background</td></tr><tr><td>Current Line</td><td><code>#E6D6C1</code></td><td>Line highlight</td></tr><tr><td>Selection</td><td><code>#DFC2AA</code></td><td>Text selection</td></tr><tr><td>Foreground</td><td><code>#24163B</code></td><td>Default text</td></tr><tr><td>Comment</td><td><code>#7A6F9B</code></td><td>Comments</td></tr><tr><td>Keyword</td><td><code>#8930A6</code></td><td>Keywords</td></tr><tr><td>String</td><td><code>#B64820</code></td><td>Strings</td></tr><tr><td>Function</td><td><code>#AE296B</code></td><td>Functions</td></tr><tr><td>Number</td><td><code>#955F0F</code></td><td>Numbers</td></tr><tr><td>Type</td><td><code>#1D7187</code></td><td>Classes, types</td></tr><tr><td>Variable</td><td><code>#4D3781</code></td><td>Variables</td></tr><tr><td>Accent</td><td><code>#C3228E</code></td><td>Cursor, accent</td></tr></tbody></table>
+<h3 id="user-content-alpenglow-rubescent"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#alpenglow-rubescent"><span class="heading-anchor-icon">#</span></a>Alpenglow (Rubescent)</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Token</th><th>Hex</th><th>Usage</th></tr></thead><tbody><tr><td>Background</td><td><code>#1A0505</code></td><td>Main background</td></tr><tr><td>Current Line</td><td><code>#3D1212</code></td><td>Line highlight</td></tr><tr><td>Selection</td><td><code>#5A1E1E</code></td><td>Text selection</td></tr><tr><td>Foreground</td><td><code>#F5E6DC</code></td><td>Default text</td></tr><tr><td>Comment</td><td><code>#8B6B6B</code></td><td>Comments</td></tr><tr><td>Keyword</td><td><code>#FF6B8A</code></td><td>Keywords</td></tr><tr><td>String</td><td><code>#FF9F6C</code></td><td>Strings</td></tr><tr><td>Function</td><td><code>#FFB3C6</code></td><td>Functions</td></tr><tr><td>Number</td><td><code>#FF7E67</code></td><td>Numbers</td></tr><tr><td>Type</td><td><code>#E85D75</code></td><td>Classes, types</td></tr><tr><td>Variable</td><td><code>#FFA07A</code></td><td>Variables</td></tr><tr><td>Accent</td><td><code>#FF6B9D</code></td><td>Cursor, accent</td></tr></tbody></table>
+<h3 id="user-content-airglow-auroral"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#airglow-auroral"><span class="heading-anchor-icon">#</span></a>Airglow (Auroral)</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Token</th><th>Hex</th><th>Usage</th></tr></thead><tbody><tr><td>Background</td><td><code>#0A1A1F</code></td><td>Main background</td></tr><tr><td>Current Line</td><td><code>#0F2024</code></td><td>Line highlight</td></tr><tr><td>Selection</td><td><code>#162E34</code></td><td>Text selection</td></tr><tr><td>Foreground</td><td><code>#E0F0F5</code></td><td>Default text</td></tr><tr><td>Comment</td><td><code>#5A8A90</code></td><td>Comments</td></tr><tr><td>Keyword</td><td><code>#2EE8C8</code></td><td>Keywords</td></tr><tr><td>String</td><td><code>#7DD8A8</code></td><td>Strings</td></tr><tr><td>Function</td><td><code>#C8A0E8</code></td><td>Functions</td></tr><tr><td>Number</td><td><code>#D4B870</code></td><td>Numbers</td></tr><tr><td>Type</td><td><code>#4AA8D0</code></td><td>Classes, types</td></tr><tr><td>Variable</td><td><code>#8BC4D4</code></td><td>Variables</td></tr><tr><td>Accent</td><td><code>#2EE8C8</code></td><td>Cursor, accent</td></tr></tbody></table>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>MIT © <a href="https://github.com/Foreglow">Foreglow</a></p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>

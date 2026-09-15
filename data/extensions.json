@@ -217,7 +217,7 @@
     "license": "MIT",
     "created_at": "2024-08-27T10:31:46Z",
     "updated_at": "2026-09-15T11:01:04Z",
-    "pushed_at": "2026-08-11T06:45:20Z",
+    "pushed_at": "2026-09-15T17:03:43Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -5184,7 +5184,7 @@
     "name": "gabeins/zed-mermaid",
     "url": "https://github.com/gabeins/zed-mermaid",
     "description": "Mermaid support for Zed",
-    "stars": 77,
+    "stars": 78,
     "forks": 6,
     "topics": [
       "diagrams",
@@ -5196,7 +5196,7 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-10-16T07:12:13Z",
-    "updated_at": "2026-09-13T18:32:34Z",
+    "updated_at": "2026-09-15T15:17:43Z",
     "pushed_at": "2026-01-26T08:59:52Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false,
@@ -8457,7 +8457,7 @@
     "name": "cange/nightfox.zed",
     "url": "https://github.com/cange/nightfox.zed",
     "description": "🦊 Zed editor theme ported from Neovim",
-    "stars": 181,
+    "stars": 182,
     "forks": 5,
     "topics": [
       "zed",
@@ -8466,7 +8466,7 @@
     "language": "Lua",
     "license": "MIT",
     "created_at": "2024-05-02T20:49:30Z",
-    "updated_at": "2026-09-14T11:44:45Z",
+    "updated_at": "2026-09-15T14:26:47Z",
     "pushed_at": "2026-08-27T11:32:49Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": true,
@@ -18372,13 +18372,13 @@
     "name": "obledev/zed-mcp-memory",
     "url": "https://github.com/obledev/zed-mcp-memory",
     "description": "Memory MCP server for the Zed editor 🧠",
-    "stars": 3,
+    "stars": 4,
     "forks": 0,
     "topics": [],
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-03-08T12:59:01Z",
-    "updated_at": "2026-08-21T15:48:38Z",
+    "updated_at": "2026-09-15T13:42:03Z",
     "pushed_at": "2026-03-08T13:13:11Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": false,
@@ -43013,8 +43013,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-07-01T21:28:51Z",
-    "updated_at": "2026-09-04T12:33:02Z",
-    "pushed_at": "2026-09-04T12:26:08Z",
+    "updated_at": "2026-09-15T14:30:30Z",
+    "pushed_at": "2026-09-15T14:30:21Z",
     "discovered_at": "2026-05-20T02:57:03.419Z",
     "official": true,
     "extension": {
@@ -51161,14 +51161,15 @@
     "stars": 4,
     "forks": 0,
     "topics": [
+      "dark-theme",
       "samurai",
       "zed-theme"
     ],
     "language": null,
     "license": "MIT",
     "created_at": "2025-11-13T23:36:16Z",
-    "updated_at": "2026-09-08T01:12:52Z",
-    "pushed_at": "2026-09-08T01:12:48Z",
+    "updated_at": "2026-09-15T16:45:29Z",
+    "pushed_at": "2026-09-15T16:45:25Z",
     "discovered_at": "2026-06-07T07:23:59.384Z",
     "official": false,
     "extension": {
@@ -59682,8 +59683,8 @@
     "language": "Tree-sitter Query",
     "license": "NOASSERTION",
     "created_at": "2026-03-09T03:40:37Z",
-    "updated_at": "2026-09-09T06:39:19Z",
-    "pushed_at": "2026-08-31T18:24:47Z",
+    "updated_at": "2026-09-15T16:40:30Z",
+    "pushed_at": "2026-09-15T16:40:29Z",
     "discovered_at": "2026-08-31T18:46:32.811Z",
     "official": true,
     "extension": {
@@ -60418,7 +60419,7 @@
     "updated_at": "2026-09-12T18:03:20Z",
     "pushed_at": "2026-09-12T18:03:17Z",
     "discovered_at": "2026-09-06T18:43:49.662Z",
-    "official": false,
+    "official": true,
     "extension": {
       "id": "catthode-theme",
       "name": "Catthode",
@@ -60968,6 +60969,68 @@
         "Danilo Campos <hello@danilocampos.cc>"
       ],
       "repository": "https://github.com/danilomcampos/lina-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "foreglow/zed": {
+    "name": "Foreglow/zed",
+    "url": "https://github.com/Foreglow/zed",
+    "description": "Foreglow Theme for Zed",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-08-13T19:21:51Z",
+    "updated_at": "2026-09-14T05:11:46Z",
+    "pushed_at": "2026-09-12T19:25:41Z",
+    "discovered_at": "2026-09-15T17:15:46.542Z",
+    "official": true,
+    "extension": {
+      "id": "foreglow-theme",
+      "name": "Foreglow",
+      "description": "Twilight-inspired theme family: Foreglow (dark, dawn), Afterglow (light, dusk), Alpenglow (rubescent), and Airglow (auroral).",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Foreglow"
+      ],
+      "repository": "https://github.com/Foreglow/zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "mete-sirin/midnight-theme": {
+    "name": "mete-sirin/midnight-theme",
+    "url": "https://github.com/mete-sirin/midnight-theme",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-09-12T07:35:08Z",
+    "updated_at": "2026-09-12T07:35:16Z",
+    "pushed_at": "2026-09-12T07:35:12Z",
+    "discovered_at": "2026-09-15T17:15:46.542Z",
+    "official": true,
+    "extension": {
+      "id": "midnight-theme",
+      "name": "Midnight",
+      "description": "Charcoal dark theme with navy blue elements.",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "authors": [
+        "Mete Sirin <metesirin.dev@gmail.com>"
+      ],
+      "repository": "https://github.com/mete-sirin/midnight-theme",
       "snippets": null,
       "sections": [],
       "categories": [
