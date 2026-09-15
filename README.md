@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1776** |
 | In official registry | 1274 |
 | Discovered via topics | 502 |
-| Last updated | 2026-09-15 17:15 UTC |
+| Last updated | 2026-09-15 21:44 UTC |
 
 ### By capability
 
@@ -120,18 +120,19 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-09-15 | Intelligent codebase search & indexing for Zed. Async MCP se... |
+| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 136 | 2026-09-15 | The Ruby language support for Zed editor |
+| [encore-ecosystem/encore-zed](https://github.com/encore-ecosystem/encore-zed) | 0 | 2026-09-15 |  |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 216 | 2026-09-15 | Zed plugin for automatic time tracking and metrics generated... |
 | [wesleydmscn/zed-samurai-theme](https://github.com/wesleydmscn/zed-samurai-theme) | 4 | 2026-09-15 | A theme for samurai programmers 🤺 |
-| [felixtensor/zed-mlir](https://github.com/felixtensor/zed-mlir) | 7 | 2026-09-15 | MLIR Extension for Zed |
+| [felixtensor/zed-mlir](https://github.com/felixtensor/zed-mlir) | 8 | 2026-09-15 | MLIR Extension for Zed |
 | [SinaMombeiny/S-DarkTheme.zed](https://github.com/SinaMombeiny/S-DarkTheme.zed) | 5 | 2026-09-15 | Dark theme for Zed |
-| [encore-ecosystem/encore-zed](https://github.com/encore-ecosystem/encore-zed) | 0 | 2026-09-15 |  |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 98 | 2026-09-15 | True Dark Theme for Zed IDE |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-09-15 | Zed editor support for Carve, a modern light markup language |
 | [alysson-souza/zed-chezmoi-lsp](https://github.com/alysson-souza/zed-chezmoi-lsp) | 1 | 2026-09-14 | Chezmoi template support for Zed with host-language highligh... |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 3 | 2026-09-14 | Spring Boot language intelligence for Zed, built on the requ... |
 | [klarlanguage/klar-zed](https://github.com/klarlanguage/klar-zed) | 1 | 2026-09-13 | 🦓 Klar support for Zed |
 | [Null-logic-0/zed-hologram](https://github.com/Null-logic-0/zed-hologram) | 0 | 2026-09-13 | HOLO template language support for Zed: Hologram framework s... |
-| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-09-13 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [danilomcampos/lina-zed](https://github.com/danilomcampos/lina-zed) | 0 | 2026-09-13 | Lina theme for Zed |
 | [emirror-de/papercolor-zed](https://github.com/emirror-de/papercolor-zed) | 5 | 2026-09-13 | The original PaperColor Theme, inspired by Google Material D... |
 | [xtrasmal/zed-theme-horizoncode](https://github.com/xtrasmal/zed-theme-horizoncode) | 0 | 2026-09-12 | HorizonCode - Zed theme |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [Foreglow/zed](https://github.com/Foreglow/zed) | 0 | 2026-09-12 | Foreglow Theme for Zed |
 | [lmn451/css-variables-zed](https://github.com/lmn451/css-variables-zed) | 7 | 2026-09-12 | Project-wide CSS custom property intelligence for Zed: compl... |
 | [catthode/zed](https://github.com/catthode/zed) | 0 | 2026-09-12 | Warm OLED theme for Zed |
-| [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-09-12 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-09-15T21:44 | 0 | 608 | 2176 |
 | 2026-09-15T17:15 | 2 | 608 | 2176 |
 | 2026-09-15T12:05 | 0 | 608 | 2174 |
 | 2026-09-15T05:18 | 0 | 608 | 2174 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-09-13T21:07 | 1 | 607 | 2171 |
 | 2026-09-13T16:37 | 0 | 607 | 2170 |
 | 2026-09-13T12:16 | 1 | 606 | 2170 |
-| 2026-09-13T05:21 | 2 | 604 | 2169 |
 
 ---
 
