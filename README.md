@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1777** |
 | In official registry | 1275 |
 | Discovered via topics | 502 |
-| Last updated | 2026-09-16 17:16 UTC |
+| Last updated | 2026-09-16 21:41 UTC |
 
 ### By capability
 
@@ -97,14 +97,14 @@ cd website && npm install && npm run dev
 |---|---|---|
 | [biomejs/biome-zed](https://github.com/biomejs/biome-zed) | 466 | Biome extension for Zed |
 | [xhyrom/zed-discord-presence](https://github.com/xhyrom/zed-discord-presence) | 415 | extension for zed that adds support for discord rich presence using lsp |
-| [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 334 | Catppuccin Theme but as blurred variants + custom ones |
+| [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 335 | Catppuccin Theme but as blurred variants + custom ones |
 | [oxc-project/oxc-zed](https://github.com/oxc-project/oxc-zed) | 256 | Oxc extension for Zed |
 | [catppuccin/zed-icons](https://github.com/catppuccin/zed-icons) | 240 | 🦊 Soothing pastel icons for Zed |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 216 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
+| [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 207 | Zed support for the Godot game engine and the GDScript language |
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
-| [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 206 | Zed support for the Godot game engine and the GDScript language |
+| [zed-extensions/typst](https://github.com/zed-extensions/typst) | 199 | Typst extension for zed |
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
-| [zed-extensions/typst](https://github.com/zed-extensions/typst) | 198 | Typst extension for zed |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 182 | 🦊 Zed editor theme ported from Neovim |
@@ -120,6 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [blacktop/zed-objc](https://github.com/blacktop/zed-objc) | 4 | 2026-09-16 | Objective-C support for Zed |
 | [catthode/zed](https://github.com/catthode/zed) | 0 | 2026-09-16 | Warm OLED theme for Zed |
 | [SinaMombeiny/S-DarkTheme.zed](https://github.com/SinaMombeiny/S-DarkTheme.zed) | 5 | 2026-09-16 | Dark theme for Zed |
 | [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-09-16 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [danilomcampos/lina-zed](https://github.com/danilomcampos/lina-zed) | 0 | 2026-09-13 | Lina theme for Zed |
 | [emirror-de/papercolor-zed](https://github.com/emirror-de/papercolor-zed) | 5 | 2026-09-13 | The original PaperColor Theme, inspired by Google Material D... |
 | [xtrasmal/zed-theme-horizoncode](https://github.com/xtrasmal/zed-theme-horizoncode) | 0 | 2026-09-12 | HorizonCode - Zed theme |
-| [kjanat/zed-typescript](https://github.com/kjanat/zed-typescript) | 0 | 2026-09-12 | Runs the TypeScript 7+ language server in Zed. |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-09-16T21:41 | 0 | 609 | 2179 |
 | 2026-09-16T17:16 | 1 | 608 | 2179 |
 | 2026-09-16T12:01 | 2 | 608 | 2178 |
 | 2026-09-16T05:14 | 0 | 608 | 2176 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-09-15T05:18 | 0 | 608 | 2174 |
 | 2026-09-14T22:02 | 0 | 608 | 2174 |
 | 2026-09-14T13:19 | 3 | 608 | 2174 |
-| 2026-09-14T05:25 | 0 | 608 | 2171 |
 
 ---
 
