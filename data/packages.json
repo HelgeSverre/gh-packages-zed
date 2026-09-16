@@ -2038,7 +2038,7 @@
     "name": "mantou132/zed-cspell",
     "url": "https://github.com/mantou132/zed-cspell",
     "description": "",
-    "stars": 39,
+    "stars": 40,
     "forks": 7,
     "topics": [
       "zed",
@@ -2047,7 +2047,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2025-01-05T07:27:09Z",
-    "updated_at": "2026-09-06T23:30:19Z",
+    "updated_at": "2026-09-16T15:08:31Z",
     "pushed_at": "2026-08-28T15:50:10Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -4006,7 +4006,7 @@
     "name": "hjr265/zed-gotmpl",
     "url": "https://github.com/hjr265/zed-gotmpl",
     "description": "Go template (gotmpl, gohtml) support for Zed",
-    "stars": 31,
+    "stars": 32,
     "forks": 5,
     "topics": [
       "gohtml",
@@ -4018,7 +4018,7 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2025-08-03T06:00:52Z",
-    "updated_at": "2026-08-18T11:41:29Z",
+    "updated_at": "2026-09-16T15:15:14Z",
     "pushed_at": "2025-11-16T17:22:24Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -18023,8 +18023,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-09-16T05:14:57Z",
-    "pushed_at": "2026-09-16T05:14:52Z",
+    "updated_at": "2026-09-16T12:02:27Z",
+    "pushed_at": "2026-09-16T12:02:23Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -25278,8 +25278,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-07-01T21:28:51Z",
-    "updated_at": "2026-09-15T14:30:30Z",
-    "pushed_at": "2026-09-15T14:30:21Z",
+    "updated_at": "2026-09-16T15:40:54Z",
+    "pushed_at": "2026-09-16T15:40:50Z",
     "discovered_at": "2026-05-20T02:57:03.419Z",
     "official": true
   },
@@ -28998,8 +28998,8 @@
     "language": null,
     "license": null,
     "created_at": "2026-05-25T05:34:31Z",
-    "updated_at": "2026-09-12T21:30:36Z",
-    "pushed_at": "2026-09-12T21:30:33Z",
+    "updated_at": "2026-09-16T16:36:43Z",
+    "pushed_at": "2026-09-16T16:36:39Z",
     "discovered_at": "2026-05-26T07:12:20.287Z",
     "official": false
   },
@@ -31397,8 +31397,8 @@
     "language": "C#",
     "license": "Unlicense",
     "created_at": "2026-06-18T15:06:49Z",
-    "updated_at": "2026-09-15T13:42:49Z",
-    "pushed_at": "2026-09-16T11:32:42Z",
+    "updated_at": "2026-09-16T14:55:07Z",
+    "pushed_at": "2026-09-16T15:35:12Z",
     "discovered_at": "2026-06-25T12:48:26.083Z",
     "official": false
   },
@@ -35882,8 +35882,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-08-22T22:20:48Z",
-    "updated_at": "2026-09-16T00:16:44Z",
-    "pushed_at": "2026-09-16T00:16:40Z",
+    "updated_at": "2026-09-16T13:58:49Z",
+    "pushed_at": "2026-09-16T14:02:34Z",
     "discovered_at": "2026-08-24T13:01:58.453Z",
     "official": false
   },
@@ -36381,7 +36381,7 @@
     "name": "felixtensor/zed-mlir",
     "url": "https://github.com/felixtensor/zed-mlir",
     "description": "MLIR Extension for Zed",
-    "stars": 8,
+    "stars": 9,
     "forks": 0,
     "topics": [
       "mlir",
@@ -36394,7 +36394,7 @@
     "language": "Tree-sitter Query",
     "license": "NOASSERTION",
     "created_at": "2026-03-09T03:40:37Z",
-    "updated_at": "2026-09-15T19:32:06Z",
+    "updated_at": "2026-09-16T12:40:03Z",
     "pushed_at": "2026-09-15T16:40:29Z",
     "discovered_at": "2026-08-31T18:46:32.811Z",
     "official": true
@@ -36902,8 +36902,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-09-06T16:21:41Z",
-    "updated_at": "2026-09-12T18:03:20Z",
-    "pushed_at": "2026-09-12T18:03:17Z",
+    "updated_at": "2026-09-16T16:07:46Z",
+    "pushed_at": "2026-09-16T16:07:42Z",
     "discovered_at": "2026-09-06T18:43:49.662Z",
     "official": true
   },
@@ -37526,5 +37526,27 @@
     "pushed_at": "2026-09-16T11:52:33Z",
     "discovered_at": "2026-09-16T12:01:48.996Z",
     "official": true
+  },
+  "adi805/pi-zed-follow": {
+    "name": "adi805/pi-zed-follow",
+    "url": "https://github.com/adi805/pi-zed-follow",
+    "description": "Pi extension that auto-opens files in Zed editor when Pi writes or edits them (ACP-style auto-follow, works in terminal)",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "acp",
+      "ai",
+      "editor-plugin",
+      "typescript",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "TypeScript",
+    "license": null,
+    "created_at": "2026-05-16T12:57:47Z",
+    "updated_at": "2026-09-16T14:21:20Z",
+    "pushed_at": "2026-05-16T13:16:08Z",
+    "discovered_at": "2026-09-16T17:16:41.529Z",
+    "official": false
   }
 }
