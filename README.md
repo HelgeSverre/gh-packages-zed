@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1776** |
 | In official registry | 1274 |
 | Discovered via topics | 502 |
-| Last updated | 2026-09-15 21:44 UTC |
+| Last updated | 2026-09-16 05:14 UTC |
 
 ### By capability
 
@@ -120,6 +120,8 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-09-16 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
+| [klarlanguage/klar-zed](https://github.com/klarlanguage/klar-zed) | 1 | 2026-09-15 | 🦓 Klar support for Zed |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-09-15 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 136 | 2026-09-15 | The Ruby language support for Zed editor |
 | [encore-ecosystem/encore-zed](https://github.com/encore-ecosystem/encore-zed) | 0 | 2026-09-15 |  |
@@ -131,7 +133,6 @@ cd website && npm install && npm run dev
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-09-15 | Zed editor support for Carve, a modern light markup language |
 | [alysson-souza/zed-chezmoi-lsp](https://github.com/alysson-souza/zed-chezmoi-lsp) | 1 | 2026-09-14 | Chezmoi template support for Zed with host-language highligh... |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 3 | 2026-09-14 | Spring Boot language intelligence for Zed, built on the requ... |
-| [klarlanguage/klar-zed](https://github.com/klarlanguage/klar-zed) | 1 | 2026-09-13 | 🦓 Klar support for Zed |
 | [Null-logic-0/zed-hologram](https://github.com/Null-logic-0/zed-hologram) | 0 | 2026-09-13 | HOLO template language support for Zed: Hologram framework s... |
 | [danilomcampos/lina-zed](https://github.com/danilomcampos/lina-zed) | 0 | 2026-09-13 | Lina theme for Zed |
 | [emirror-de/papercolor-zed](https://github.com/emirror-de/papercolor-zed) | 5 | 2026-09-13 | The original PaperColor Theme, inspired by Google Material D... |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [kjanat/zed-typescript](https://github.com/kjanat/zed-typescript) | 0 | 2026-09-12 | Runs the TypeScript 7+ language server in Zed. |
 | [Foreglow/zed](https://github.com/Foreglow/zed) | 0 | 2026-09-12 | Foreglow Theme for Zed |
 | [lmn451/css-variables-zed](https://github.com/lmn451/css-variables-zed) | 7 | 2026-09-12 | Project-wide CSS custom property intelligence for Zed: compl... |
-| [catthode/zed](https://github.com/catthode/zed) | 0 | 2026-09-12 | Warm OLED theme for Zed |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-09-16T05:14 | 0 | 608 | 2176 |
 | 2026-09-15T21:44 | 0 | 608 | 2176 |
 | 2026-09-15T17:15 | 2 | 608 | 2176 |
 | 2026-09-15T12:05 | 0 | 608 | 2174 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-09-14T05:25 | 0 | 608 | 2171 |
 | 2026-09-13T21:07 | 1 | 607 | 2171 |
 | 2026-09-13T16:37 | 0 | 607 | 2170 |
-| 2026-09-13T12:16 | 1 | 606 | 2170 |
 
 ---
 
