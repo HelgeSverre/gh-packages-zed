@@ -1,0 +1,16 @@
+id = "kitty"
+name = "Kitty"
+version = "0.0.2"
+schema_version = 1
+authors = ["elcaten"]
+description = "Syntax highlighting, formatting, completion and hover help for kitty configuration files"
+repository = "https://github.com/Elcaten/zed-kitty"
+
+[language_servers.kitty-lsp]
+name = "Kitty Language Server"
+languages = ["Kitty"]
+
+[grammars.kitty]
+repository = "https://github.com/Elcaten/zed-kitty"
+rev = "9257f32a63e671488ba44cd5ba1e8523daf23166"
+path = "grammar"
