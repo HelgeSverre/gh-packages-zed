@@ -1,0 +1,15 @@
+id = "donna"
+name = "Donna"
+version = "0.1.0"
+schema_version = 1
+authors = ["NikolasSkyl"]
+description = "Donna language support for Zed(syntax and LSP)"
+repository = "https://github.com/NikolasSkyl/donna-zed"
+
+[grammars.donna]
+repository = "https://github.com/donna-lang/tree-sitter-donna"
+rev = "main"
+
+[language_servers.donna-lsp]
+name = "donna-lsp"
+languages = ["Donna"]

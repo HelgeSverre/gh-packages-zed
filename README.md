@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1781-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1783-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,18 +14,18 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1781** |
-| In official registry | 1278 |
-| Discovered via topics | 503 |
-| Last updated | 2026-09-17 12:03 UTC |
+| Total tracked | **1783** |
+| In official registry | 1281 |
+| Discovered via topics | 502 |
+| Last updated | 2026-09-17 17:15 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
 | Themes | 762 |
-| Grammars | 622 |
-| Language Servers | 574 |
+| Grammars | 623 |
+| Language Servers | 576 |
 | Context Servers | 138 |
 | Snippets | 85 |
 | Slash Commands | 61 |
@@ -70,6 +70,8 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [codetime-dev/codetime-zed](https://github.com/codetime-dev/codetime-zed) | 1 | Automatic coding-time tracking for codetime.dev — Zed editor extension |
+| [NikolasSkyl/donna-zed](https://github.com/NikolasSkyl/donna-zed) | 0 | 🔲 Zed Editor Extension for Donna Language |
 | [Feral-Lang/Zed](https://github.com/Feral-Lang/Zed) | 0 | Language support for Zed editor. |
 | [relkian/zed-extension-salt](https://github.com/relkian/zed-extension-salt) | 1 | Salt (AKA SaltStack) files syntax highlighting for Zed editor |
 | [BANSAFAn/i18n-zed](https://github.com/BANSAFAn/i18n-zed) | 1 | A small script for Zed Editor that makes it easy to work with I18n (currently in... |
@@ -88,8 +90,6 @@ cd website && npm install && npm run dev
 | [cappuccinotogo/kokedera-icons-extension-zed](https://github.com/cappuccinotogo/kokedera-icons-extension-zed) | 2 | Kokedera Icons for Zed — nine file icon themes inspired by forest greens, weathe... |
 | [tonsky/zed-theme-alabaster](https://github.com/tonsky/zed-theme-alabaster) | 11 |  |
 | [sumit-m/zed-autoit](https://github.com/sumit-m/zed-autoit) | 0 | AutoIt v3 language extension for the Zed editor |
-| [rbprsp/zed-drogon-csp](https://github.com/rbprsp/zed-drogon-csp) | 0 |  |
-| [salva-sm/sfcc-zed-debugger](https://github.com/salva-sm/sfcc-zed-debugger) | 0 | Zed debug adapter for Salesforce B2C Commerce (SFCC) server-side scripts: breakp... |
 
 ## Top starred (under 500)
 
@@ -120,8 +120,9 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 216 | 2026-09-17 | Zed plugin for automatic time tracking and metrics generated... |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 3 | 2026-09-17 | Spring Boot language intelligence for Zed, built on the requ... |
+| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-09-17 | A Zed extension that allows to highlight all occurrences of ... |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 216 | 2026-09-17 | Zed plugin for automatic time tracking and metrics generated... |
 | [Yezarath/zed-catppuccin-glass](https://github.com/Yezarath/zed-catppuccin-glass) | 0 | 2026-09-17 | Transparent Catppuccin themes for the Zed editor — 18 froste... |
 | [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 335 | 2026-09-17 | Catppuccin Theme but as blurred variants + custom ones |
 | [BANSAFAn/i18n-zed](https://github.com/BANSAFAn/i18n-zed) | 1 | 2026-09-17 | A small script for Zed Editor that makes it easy to work wit... |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [wesleydmscn/zed-samurai-theme](https://github.com/wesleydmscn/zed-samurai-theme) | 4 | 2026-09-15 | A theme for samurai programmers 🤺 |
 | [felixtensor/zed-mlir](https://github.com/felixtensor/zed-mlir) | 9 | 2026-09-15 | MLIR Extension for Zed |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-09-15 | Zed editor support for Carve, a modern light markup language |
-| [alysson-souza/zed-chezmoi-lsp](https://github.com/alysson-souza/zed-chezmoi-lsp) | 1 | 2026-09-14 | Chezmoi template support for Zed with host-language highligh... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-09-17T17:15 | 2 | 612 | 2186 |
 | 2026-09-17T12:03 | 3 | 611 | 2184 |
 | 2026-09-17T05:21 | 2 | 609 | 2181 |
 | 2026-09-16T21:41 | 0 | 609 | 2179 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-09-15T21:44 | 0 | 608 | 2176 |
 | 2026-09-15T17:15 | 2 | 608 | 2176 |
 | 2026-09-15T12:05 | 0 | 608 | 2174 |
-| 2026-09-15T05:18 | 0 | 608 | 2174 |
 
 ---
 

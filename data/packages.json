@@ -74,8 +74,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-05-03T17:39:17Z",
-    "updated_at": "2026-09-12T05:41:48Z",
-    "pushed_at": "2026-09-12T05:41:44Z",
+    "updated_at": "2026-09-17T14:38:59Z",
+    "pushed_at": "2026-09-17T14:38:53Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -2343,7 +2343,7 @@
     "url": "https://github.com/chopratejas/headroom-zed",
     "description": "Zed extension for Headroom — context compression for AI agents",
     "stars": 67,
-    "forks": 14,
+    "forks": 15,
     "topics": [
       "ai-agents",
       "coding-agents",
@@ -7374,7 +7374,8 @@
     "created_at": "2026-05-07T01:34:56Z",
     "updated_at": "2026-05-10T14:50:55Z",
     "pushed_at": "2026-05-10T14:50:27Z",
-    "discovered_at": "2026-05-19T19:54:12.054Z"
+    "discovered_at": "2026-05-19T19:54:12.054Z",
+    "official": true
   },
   "kmshdev/deepwiki-mcp-server": {
     "name": "kmshdev/deepwiki-mcp-server",
@@ -15437,7 +15438,7 @@
     "name": "agent-sh/agnix",
     "url": "https://github.com/agent-sh/agnix",
     "description": "The missing linter and lsp for AI coding assistants. Validate CLAUDE.md, AGENTS.md, SKILL.md, hooks, MCP. Plugin for all major IDEs included, with autofixes.",
-    "stars": 418,
+    "stars": 419,
     "forks": 31,
     "topics": [
       "agent",
@@ -15464,7 +15465,7 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
-    "updated_at": "2026-09-17T07:22:48Z",
+    "updated_at": "2026-09-17T16:59:20Z",
     "pushed_at": "2026-09-16T08:31:12Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
@@ -18023,8 +18024,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-09-17T05:21:36Z",
-    "pushed_at": "2026-09-17T05:21:33Z",
+    "updated_at": "2026-09-17T12:04:22Z",
+    "pushed_at": "2026-09-17T12:04:17Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -22946,13 +22947,13 @@
     "name": "zed-extensions/nix",
     "url": "https://github.com/zed-extensions/nix",
     "description": "Nix language support in Zed",
-    "stars": 124,
+    "stars": 125,
     "forks": 28,
     "topics": [],
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-03-01T05:13:38Z",
-    "updated_at": "2026-09-11T15:22:51Z",
+    "updated_at": "2026-09-17T16:18:45Z",
     "pushed_at": "2026-09-11T15:23:06Z",
     "discovered_at": "2026-05-20T00:39:45.722Z",
     "official": false
@@ -30039,7 +30040,7 @@
     "name": "nMaroulis/protoagent",
     "url": "https://github.com/nMaroulis/protoagent",
     "description": "A blazing-fast, local-first AI agent ecosystem. Orchestrate local LLMs with Python, run them in a native Rust terminal, or integrate directly into your editor via ACP.",
-    "stars": 7,
+    "stars": 8,
     "forks": 1,
     "topics": [
       "agent-client-protocol",
@@ -30058,7 +30059,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-06-09T22:36:14Z",
-    "updated_at": "2026-09-16T19:29:07Z",
+    "updated_at": "2026-09-17T16:44:37Z",
     "pushed_at": "2026-09-15T12:45:57Z",
     "discovered_at": "2026-06-10T00:43:30.823Z",
     "official": false
@@ -32732,8 +32733,8 @@
     "language": "JavaScript",
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
-    "updated_at": "2026-09-17T08:12:14Z",
-    "pushed_at": "2026-09-17T08:16:56Z",
+    "updated_at": "2026-09-17T16:29:43Z",
+    "pushed_at": "2026-09-17T16:34:29Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false
   },
@@ -34305,7 +34306,7 @@
     "name": "johngbl/autonomous-engineer",
     "url": "https://github.com/johngbl/autonomous-engineer",
     "description": "Pragmatic Senior Engineering Meta-Skill for AI coding agents. Evidence-based verified loops, strict TDD, anti-guessing discipline, and clean code.",
-    "stars": 4,
+    "stars": 5,
     "forks": 1,
     "topics": [
       "agentic-coding",
@@ -34332,7 +34333,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-08-07T18:46:45Z",
-    "updated_at": "2026-09-17T01:50:42Z",
+    "updated_at": "2026-09-17T16:14:12Z",
     "pushed_at": "2026-09-17T01:50:38Z",
     "discovered_at": "2026-08-08T18:56:57.473Z",
     "official": false
@@ -35615,8 +35616,8 @@
     "language": null,
     "license": null,
     "created_at": "2026-08-16T21:55:25Z",
-    "updated_at": "2026-09-17T11:04:18Z",
-    "pushed_at": "2026-09-17T11:04:14Z",
+    "updated_at": "2026-09-17T17:15:15Z",
+    "pushed_at": "2026-09-17T17:15:11Z",
     "discovered_at": "2026-08-17T01:03:46.357Z",
     "official": false
   },
@@ -37360,7 +37361,7 @@
     "language": "Tree-sitter Query",
     "license": "GPL-3.0",
     "created_at": "2026-09-13T07:10:22Z",
-    "updated_at": "2026-09-17T01:26:12Z",
+    "updated_at": "2026-09-17T17:03:52Z",
     "pushed_at": "2026-09-13T11:14:05Z",
     "discovered_at": "2026-09-13T12:16:23.649Z",
     "official": false
@@ -37649,15 +37650,47 @@
     "topics": [
       "i18n",
       "i18n-js",
+      "rust",
+      "rust-lang",
       "zed",
       "zed-extension"
     ],
     "language": "JavaScript",
     "license": "GPL-3.0",
     "created_at": "2026-09-17T06:45:49Z",
-    "updated_at": "2026-09-17T08:17:06Z",
+    "updated_at": "2026-09-17T13:09:55Z",
     "pushed_at": "2026-09-17T06:58:23Z",
     "discovered_at": "2026-09-17T12:03:44.784Z",
     "official": false
+  },
+  "codetime-dev/codetime-zed": {
+    "name": "codetime-dev/codetime-zed",
+    "url": "https://github.com/codetime-dev/codetime-zed",
+    "description": "Automatic coding-time tracking for codetime.dev — Zed editor extension",
+    "stars": 1,
+    "forks": 0,
+    "topics": [],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2026-06-18T18:19:32Z",
+    "updated_at": "2026-08-08T17:29:57Z",
+    "pushed_at": "2026-08-08T17:29:56Z",
+    "discovered_at": "2026-09-17T17:15:44.436Z",
+    "official": true
+  },
+  "nikolasskyl/donna-zed": {
+    "name": "NikolasSkyl/donna-zed",
+    "url": "https://github.com/NikolasSkyl/donna-zed",
+    "description": "🔲 Zed Editor Extension for Donna Language",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2026-05-14T17:38:16Z",
+    "updated_at": "2026-05-26T19:00:06Z",
+    "pushed_at": "2026-05-26T19:00:01Z",
+    "discovered_at": "2026-09-17T17:15:44.436Z",
+    "official": true
   }
 }
