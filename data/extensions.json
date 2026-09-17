@@ -3695,7 +3695,7 @@
     "name": "chopratejas/headroom-zed",
     "url": "https://github.com/chopratejas/headroom-zed",
     "description": "Zed extension for Headroom — context compression for AI agents",
-    "stars": 66,
+    "stars": 67,
     "forks": 14,
     "topics": [
       "ai-agents",
@@ -3712,7 +3712,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-03-18T16:55:33Z",
-    "updated_at": "2026-09-13T23:24:13Z",
+    "updated_at": "2026-09-17T03:21:05Z",
     "pushed_at": "2026-03-18T16:55:38Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false,
@@ -6453,7 +6453,7 @@
     "license": "MIT",
     "created_at": "2025-11-05T05:18:41Z",
     "updated_at": "2026-06-29T15:55:11Z",
-    "pushed_at": "2026-09-16T18:18:39Z",
+    "pushed_at": "2026-09-17T04:55:27Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false,
     "extension": {
@@ -54735,7 +54735,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
     "updated_at": "2026-09-07T11:54:00Z",
-    "pushed_at": "2026-09-14T12:19:09Z",
+    "pushed_at": "2026-09-17T03:02:53Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false,
     "extension": {
@@ -60877,7 +60877,7 @@
     "name": "Null-logic-0/zed-hologram",
     "url": "https://github.com/Null-logic-0/zed-hologram",
     "description": "HOLO template language support for Zed: Hologram framework syntax highlighting, indentation and mix format integration",
-    "stars": 0,
+    "stars": 1,
     "forks": 0,
     "topics": [
       "elixir",
@@ -60889,7 +60889,7 @@
     "language": "Tree-sitter Query",
     "license": "GPL-3.0",
     "created_at": "2026-09-13T07:10:22Z",
-    "updated_at": "2026-09-13T11:15:54Z",
+    "updated_at": "2026-09-17T01:26:12Z",
     "pushed_at": "2026-09-13T11:14:05Z",
     "discovered_at": "2026-09-13T12:16:23.649Z",
     "official": false,
@@ -61070,6 +61070,57 @@
       "categories": [
         "grammar",
         "language-server"
+      ]
+    }
+  },
+  "yezarath/zed-catppuccin-glass": {
+    "name": "Yezarath/zed-catppuccin-glass",
+    "url": "https://github.com/Yezarath/zed-catppuccin-glass",
+    "description": "Transparent Catppuccin themes for the Zed editor — 18 frosted-free variants (Mocha, Latte, Frappé, Macchiato, Espresso, Iced Latte) at three opacity levels. Colour-identical to Catppuccin Blur with the window material switched from blurred to transparent.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "alpha",
+      "catppuccin",
+      "dark-theme",
+      "editor-theme",
+      "light-theme",
+      "theme",
+      "transparent",
+      "zed",
+      "zed-editor",
+      "zed-theme"
+    ],
+    "language": "Python",
+    "license": "NOASSERTION",
+    "created_at": "2026-09-17T01:19:54Z",
+    "updated_at": "2026-09-17T01:26:40Z",
+    "pushed_at": "2026-09-17T01:27:22Z",
+    "discovered_at": "2026-09-17T05:21:01.212Z",
+    "official": false,
+    "extension": {
+      "id": "catppuccin-glass",
+      "name": "Catppuccin Glass",
+      "description": "Catppuccin themes with a clear window material (transparent, no blur). Derived from Catppuccin Blur.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Yezarath <dao-saint@proton.me>"
+      ],
+      "repository": "https://github.com/Yezarath/zed-catppuccin-glass",
+      "snippets": null,
+      "sections": [
+        "lib",
+        "grammars",
+        "language_servers",
+        "context_servers",
+        "slash_commands"
+      ],
+      "categories": [
+        "grammar",
+        "language-server",
+        "slash-command",
+        "context-server"
       ]
     }
   }

@@ -1,0 +1,22 @@
+id = "catppuccin-glass"
+name = "Catppuccin Glass"
+version = "0.1.0"
+schema_version = 1
+description = "Catppuccin themes with a clear window material (transparent, no blur). Derived from Catppuccin Blur."
+license = "MIT"
+repository = "https://github.com/Yezarath/zed-catppuccin-glass"
+authors = ["Yezarath <dao-saint@proton.me>"]
+themes = ["themes/catppuccin-glass.json"]
+icon_themes = []
+languages = []
+capabilities = []
+
+[lib]
+
+[grammars]
+
+[language_servers]
+
+[context_servers]
+
+[slash_commands]

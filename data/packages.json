@@ -2342,7 +2342,7 @@
     "name": "chopratejas/headroom-zed",
     "url": "https://github.com/chopratejas/headroom-zed",
     "description": "Zed extension for Headroom — context compression for AI agents",
-    "stars": 66,
+    "stars": 67,
     "forks": 14,
     "topics": [
       "ai-agents",
@@ -2359,7 +2359,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-03-18T16:55:33Z",
-    "updated_at": "2026-09-13T23:24:13Z",
+    "updated_at": "2026-09-17T03:21:05Z",
     "pushed_at": "2026-03-18T16:55:38Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
@@ -4097,7 +4097,7 @@
     "license": "MIT",
     "created_at": "2025-11-05T05:18:41Z",
     "updated_at": "2026-06-29T15:55:11Z",
-    "pushed_at": "2026-09-16T18:18:39Z",
+    "pushed_at": "2026-09-17T04:55:27Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -15437,7 +15437,7 @@
     "name": "agent-sh/agnix",
     "url": "https://github.com/agent-sh/agnix",
     "description": "The missing linter and lsp for AI coding assistants. Validate CLAUDE.md, AGENTS.md, SKILL.md, hooks, MCP. Plugin for all major IDEs included, with autofixes.",
-    "stars": 416,
+    "stars": 417,
     "forks": 31,
     "topics": [
       "agent",
@@ -15464,7 +15464,7 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
-    "updated_at": "2026-09-16T08:31:16Z",
+    "updated_at": "2026-09-17T02:39:00Z",
     "pushed_at": "2026-09-16T08:31:12Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
@@ -18023,8 +18023,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-09-16T17:17:18Z",
-    "pushed_at": "2026-09-16T17:17:13Z",
+    "updated_at": "2026-09-16T21:42:25Z",
+    "pushed_at": "2026-09-16T21:42:21Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -32733,7 +32733,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
     "updated_at": "2026-09-07T11:54:00Z",
-    "pushed_at": "2026-09-14T12:19:09Z",
+    "pushed_at": "2026-09-17T03:02:53Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false
   },
@@ -34332,8 +34332,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-08-07T18:46:45Z",
-    "updated_at": "2026-09-13T01:15:51Z",
-    "pushed_at": "2026-09-11T03:31:55Z",
+    "updated_at": "2026-09-17T01:50:42Z",
+    "pushed_at": "2026-09-17T01:50:38Z",
     "discovered_at": "2026-08-08T18:56:57.473Z",
     "official": false
   },
@@ -36958,8 +36958,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-09-07T16:00:35Z",
-    "updated_at": "2026-09-13T23:45:00Z",
-    "pushed_at": "2026-09-13T23:44:56Z",
+    "updated_at": "2026-09-17T05:16:11Z",
+    "pushed_at": "2026-09-17T05:16:07Z",
     "discovered_at": "2026-09-07T18:46:27.369Z",
     "official": false
   },
@@ -36967,7 +36967,7 @@
     "name": "BrokkAi/muse-acp",
     "url": "https://github.com/BrokkAi/muse-acp",
     "description": "Use Meta Muse Code in Zed, IntelliJ IDEA, and other JetBrains IDEs with your existing subscription. Dependency-free Rust adapter for Agent Client Protocol (ACP), using the native Muse Session Protocol (MSP).",
-    "stars": 5,
+    "stars": 6,
     "forks": 1,
     "topics": [
       "acp",
@@ -36992,7 +36992,7 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-09-03T18:54:22Z",
-    "updated_at": "2026-09-16T18:23:53Z",
+    "updated_at": "2026-09-16T23:43:01Z",
     "pushed_at": "2026-09-15T14:56:23Z",
     "discovered_at": "2026-09-09T01:10:37.044Z",
     "official": false
@@ -37348,7 +37348,7 @@
     "name": "Null-logic-0/zed-hologram",
     "url": "https://github.com/Null-logic-0/zed-hologram",
     "description": "HOLO template language support for Zed: Hologram framework syntax highlighting, indentation and mix format integration",
-    "stars": 0,
+    "stars": 1,
     "forks": 0,
     "topics": [
       "elixir",
@@ -37360,7 +37360,7 @@
     "language": "Tree-sitter Query",
     "license": "GPL-3.0",
     "created_at": "2026-09-13T07:10:22Z",
-    "updated_at": "2026-09-13T11:15:54Z",
+    "updated_at": "2026-09-17T01:26:12Z",
     "pushed_at": "2026-09-13T11:14:05Z",
     "discovered_at": "2026-09-13T12:16:23.649Z",
     "official": false
@@ -37547,6 +37547,67 @@
     "updated_at": "2026-09-16T14:21:20Z",
     "pushed_at": "2026-05-16T13:16:08Z",
     "discovered_at": "2026-09-16T17:16:41.529Z",
+    "official": false
+  },
+  "rzisso/golang-skills": {
+    "name": "rzisso/golang-skills",
+    "url": "https://github.com/rzisso/golang-skills",
+    "description": "Golang Skills for Cline and other AI Agents",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "ai",
+      "ai-agents",
+      "ai-coding",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "cline",
+      "cline-ai",
+      "cline-rules",
+      "cline-skill",
+      "codex",
+      "cursor",
+      "go",
+      "golang",
+      "kilo-code",
+      "skill-md",
+      "skills",
+      "zed",
+      "zed-editor"
+    ],
+    "language": "Go",
+    "license": "MIT",
+    "created_at": "2026-09-16T16:36:27Z",
+    "updated_at": "2026-09-17T01:32:56Z",
+    "pushed_at": "2026-09-17T01:32:53Z",
+    "discovered_at": "2026-09-17T05:21:01.212Z",
+    "official": false
+  },
+  "yezarath/zed-catppuccin-glass": {
+    "name": "Yezarath/zed-catppuccin-glass",
+    "url": "https://github.com/Yezarath/zed-catppuccin-glass",
+    "description": "Transparent Catppuccin themes for the Zed editor — 18 frosted-free variants (Mocha, Latte, Frappé, Macchiato, Espresso, Iced Latte) at three opacity levels. Colour-identical to Catppuccin Blur with the window material switched from blurred to transparent.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "alpha",
+      "catppuccin",
+      "dark-theme",
+      "editor-theme",
+      "light-theme",
+      "theme",
+      "transparent",
+      "zed",
+      "zed-editor",
+      "zed-theme"
+    ],
+    "language": "Python",
+    "license": "NOASSERTION",
+    "created_at": "2026-09-17T01:19:54Z",
+    "updated_at": "2026-09-17T01:26:40Z",
+    "pushed_at": "2026-09-17T01:27:22Z",
+    "discovered_at": "2026-09-17T05:21:01.212Z",
     "official": false
   }
 }

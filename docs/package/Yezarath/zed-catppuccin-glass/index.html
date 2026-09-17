@@ -1,0 +1,200 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Catppuccin Glass - Zed Extension Safari</title><meta name="description" content="Transparent Catppuccin themes for the Zed editor — 18 frosted-free variants (Mocha, Latte, Frappé, Macchiato, Espresso, Iced Latte) at three opacity levels. Colour-identical to Catppuccin Blur with the window material switched from blurred to transparent."><link rel="canonical" href="https://helgesverre.github.io/gh-packages-zed/package/Yezarath/zed-catppuccin-glass/"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Catppuccin Glass - Zed Extension Safari"><meta property="og:description" content="Transparent Catppuccin themes for the Zed editor — 18 frosted-free variants (Mocha, Latte, Frappé, Macchiato, Espresso, Iced Latte) at three opacity levels. Colour-identical to Catppuccin Blur with the window material switched from blurred to transparent."><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed/package/Yezarath/zed-catppuccin-glass/"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Catppuccin Glass - Zed Extension Safari"><meta name="twitter:description" content="Transparent Catppuccin themes for the Zed editor — 18 frosted-free variants (Mocha, Latte, Frappé, Macchiato, Espresso, Iced Latte) at three opacity levels. Colour-identical to Catppuccin Blur with the window material switched from blurred to transparent."><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/gh-packages-zed/_astro/ClientRouter.astro_astro_type_script_index_0_lang.ClVLs1kt.js"></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Catppuccin Glass","description":"Transparent Catppuccin themes for the Zed editor — 18 frosted-free variants (Mocha, Latte, Frappé, Macchiato, Espresso, Iced Latte) at three opacity levels. Colour-identical to Catppuccin Blur with the window material switched from blurred to transparent.","applicationCategory":"DeveloperApplication","operatingSystem":"macOS, Linux, Windows","url":"https://zed.dev/extensions/catppuccin-glass","codeRepository":"https://github.com/Yezarath/zed-catppuccin-glass","author":[{"@type":"Person","name":"Yezarath"}],"softwareVersion":"0.1.0","license":"NOASSERTION","keywords":"grammar, language-server, slash-command, context-server","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/Layout.CGDlMdWE.css"><script type="module" src="/gh-packages-zed/_astro/page.B8i1Zz-u.js"></script></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <a href="#main" class="skip-to-content">Skip to content</a> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" data-astro-transition-persist="astro-fhchcgd7-1"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <script type="application/json" id="pkg-extras">{"url":"https://github.com/Yezarath/zed-catppuccin-glass","language":"Python","license":"NOASSERTION","topics":["alpha","catppuccin","dark-theme","editor-theme","light-theme","theme","transparent","zed","zed-editor","zed-theme"],"extension":{"authors":["Yezarath"],"schema_version":1}}</script> <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> Yezarath/zed-catppuccin-glass </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> Catppuccin Glass </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> Catppuccin themes with a clear window material (transparent, no blur). Derived from Catppuccin Blur. </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="grammar">Grammar</span><span class="cat-badge" data-cat="language-server">Language Server</span><span class="cat-badge" data-cat="slash-command">Slash Command</span><span class="cat-badge" data-cat="context-server">MCP Server</span> </div> </div> </div> </header> <main id="main" class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/catppuccin-glass" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/Yezarath/zed-catppuccin-glass" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.1.0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">catppuccin-glass</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">Python</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">NOASSERTION</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">3h ago</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">Yezarath</dd> </div> </dl>  <h2 class="mt-5 text-xs uppercase font-mono" style="color:var(--zed-muted);">Topics</h2> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> alpha </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> catppuccin </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> dark-theme </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> editor-theme </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> light-theme </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> theme </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> transparent </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed-editor </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed-theme </span> </div>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-catppuccin-glass"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#catppuccin-glass"><span class="heading-anchor-icon">#</span></a>Catppuccin Glass</h1>
+<p>A Zed theme pack: the <a href="https://github.com/jenslys/zed-catppuccin-blur">Catppuccin Blur</a>
+family (v0.3.4) with the window material switched from <strong>frosted</strong> to <strong>clear</strong>.</p>
+<p>That is the entire change:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#B31D28;--shiki-dark:#FDAEB7">- "background.appearance": "blurred"</span></span>
+<span class="line"><span style="color:#22863A;--shiki-dark:#85E89D">+ "background.appearance": "transparent"</span></span></code></pre>
+<p>Every colour, every alpha byte, every accent, and each variant's <code>light</code>/<code>dark</code>
+<code>appearance</code> is byte-for-byte identical to the upstream theme. In Zed's own
+source, <code>WindowBackgroundAppearance::Transparent</code> is documented as <em>"Plain alpha
+transparency"</em> while <code>Blurred</code> is <em>"Transparency, but the contents behind the
+window are blurred"</em> (<code>crates/gpui/src/platform.rs</code>) — so this trades the
+frosted material for plain transparency and nothing else.</p>
+<h2 id="user-content-contents"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#contents"><span class="heading-anchor-icon">#</span></a>Contents</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Path</th><th>What it is</th></tr></thead><tbody><tr><td><code>extension.toml</code></td><td>Zed extension manifest (id <code>catppuccin-glass</code>)</td></tr><tr><td><code>themes/catppuccin-glass.json</code></td><td>The generated theme family — 18 variants</td></tr><tr><td><code>generate.py</code></td><td>Regenerates the theme file from the upstream source</td></tr><tr><td><code>LICENSE</code></td><td>MIT, preserving the upstream Catppuccin copyright notice</td></tr></tbody></table>
+<p>18 variants = 3 opacity levels × 6 flavours (Iced Latte, Espresso, Latte,
+Frappé, Macchiato, Mocha).</p>
+<h2 id="user-content-install-as-a-dev-extension"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#install-as-a-dev-extension"><span class="heading-anchor-icon">#</span></a>Install as a dev extension</h2>
+<ol>
+<li>Open the extension page: run <code>zed: extensions</code> from the command palette.</li>
+<li>Click <strong>Install Dev Extension</strong>.</li>
+<li>Select this directory (the one containing <code>extension.toml</code>).</li>
+</ol>
+<p>This is a theme-only extension, so no Rust or <code>wasm32-wasip2</code> build is
+involved — <code>extension.toml</code> plus the JSON theme is the whole extension.</p>
+<p>Then pick the theme (<code>theme selector: toggle</code> from the command palette):</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Slot</th><th>Theme name</th></tr></thead><tbody><tr><td>Dark</td><td><code>Catppuccin Glass Mocha (Transparent) [Light]</code></td></tr><tr><td>Light</td><td><code>Catppuccin Glass Iced Latte (Transparent) [Light]</code></td></tr></tbody></table>
+<p>Every variant carries the <code>Catppuccin Glass</code> prefix. This is deliberate: Zed's
+theme registry is keyed by <strong>variant name alone</strong> and never prefixes the theme
+family. Without the prefix the entries would read
+<code>Catppuccin Mocha (Transparent) [Light]</code>, which is easy to confuse with
+upstream's <code>Catppuccin Mocha (Blur) [Light]</code>. The same convention is used by
+other multi-variant families such as Lucent Blur and Kanagawa Wave Blur.</p>
+<p>The <code>name</code> field at the top of the JSON (<code>"Catppuccin Glass"</code>) is the family
+name, not part of any variant name.</p>
+<p><code>[Light]</code> / <code>[Heavy]</code> are <strong>not</strong> light/dark mode — they are the opacity levels
+inherited from upstream, named after their blur intensity. <code>[Light]</code> is the
+least opaque (and the level this pack's README suggests for maximum wallpaper
+visibility); plain (no bracket) is medium; <code>[Heavy]</code> is the most opaque. The
+dark/light distinction is the separate <code>appearance</code> field.</p>
+<p>If you already installed an earlier build of this extension, its theme names
+have changed — re-run <strong>Install Dev Extension</strong> so the new names replace the old
+ones in the selector.</p>
+<p>If the theme does not show up, check the log with <code>zed: open log</code>; running
+<code>zed --foreground</code> from a terminal gives verbose INFO-level output.</p>
+<h2 id="user-content-regenerating"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#regenerating"><span class="heading-anchor-icon">#</span></a>Regenerating</h2>
+<p>The theme file is generated, so edit <code>generate.py</code> (not the JSON) if you want a
+different transform, then re-run:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">python3</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> generate.py</span></span></code></pre>
+<p>Source: <strong>upstream only, pinned to an immutable commit</strong> so the output is
+reproducible and independent of anything installed on the machine running it.</p>
+<pre><code>jenslys/zed-catppuccin-blur @ v0.3.4
+c8f493c54220ed6f6bbf722648a1de96f08a983b    themes/catppuccin-blur.json
+</code></pre>
+<p>That commit's JSON hashes <code>3576a8c9…</code>, which is the exact file the published
+<code>catppuccin-blur</code> v0.3.4 extension ships. So the theme is derived from the same
+bytes you would have installed — just fetched from the pinned commit rather than
+discovered on disk. This is why the generator needs network access and has no
+local-file flag: a fresh clone on any OS resolves the same input.</p>
+<p>To adopt a newer upstream, bump <code>UPSTREAM_COMMIT</code> and <code>UPSTREAM_TAG</code> together,
+re-run, and confirm the self-check still passes.</p>
+<p>The generator self-checks (18 variants, 176 style keys each, all transparent,
+all branded <code>Catppuccin Glass</code>, no <code>(Blur)</code> left) and validates against
+<code>https://zed.dev/schema/themes/v0.2.0.json</code> when <code>jsonschema</code> is installed. That
+schema is cached for 7 days (<code>.theme-schema-cache.json</code>) and the stale copy is
+reused if the network is unavailable.</p>
+<p>Note the theme JSON is committed, so it only changes when someone re-runs the
+generator — there is no automatic sync.</p>
+<h2 id="user-content-coloralpha-reference"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#coloralpha-reference"><span class="heading-anchor-icon">#</span></a>Color–alpha reference</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Variant level</th><th><code>background</code> (chrome)</th><th><code>surface.background</code></th></tr></thead><tbody><tr><td><code>[Light]</code></td><td><code>#1e1e2e99</code> (60%)</td><td><code>#1e1e2e8c</code></td></tr><tr><td>(medium)</td><td><code>#1e1e2ed7</code> (84%)</td><td><code>#1e1e2ed0</code></td></tr><tr><td><code>[Heavy]</code></td><td><code>#1e1e2ee0</code> (88%)</td><td><code>#1e1e2edb</code></td></tr></tbody></table>
+<p>(Mocha hex shown; other flavours use the same alpha bytes.)</p>
+<p>The 7 keys whose alpha encodes the level are: <code>background</code>,
+<code>surface.background</code>, <code>title_bar.background</code>, <code>status_bar.background</code>,
+<code>tab.active_background</code>, <code>scrollbar.thumb.background</code>, <code>drop_target.background</code>.</p>
+<p>Already fully clear (<code>#00000000</code>): <code>editor.background</code>, <code>panel.background</code>,
+<code>tab_bar.background</code>, <code>terminal.background</code>, <code>toolbar.background</code>,
+<code>editor.gutter.background</code>.</p>
+<h2 id="user-content-if-it-still-looks-hazy"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#if-it-still-looks-hazy"><span class="heading-anchor-icon">#</span></a>If it still looks hazy</h2>
+<p>The material is now plain transparency, so any remaining haze comes from the
+per-surface alpha above, not from blur:</p>
+<ul>
+<li><strong>More wallpaper:</strong> lower the alpha bytes on those 7 keys in
+<code>themes/catppuccin-glass.json</code> (or switch to the <code>[Light]</code> variant, which this
+README already selects).</li>
+<li><strong>Less wallpaper:</strong> use the medium or <code>[Heavy]</code> variant.</li>
+</ul>
+<p><code>experimental.theme_overrides</code> in your own <code>settings.json</code> (borders, line
+numbers, indent guides, …) applies to every theme and carries over unchanged.</p>
+<h2 id="user-content-credits-and-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#credits-and-license"><span class="heading-anchor-icon">#</span></a>Credits and license</h2>
+<p>This theme exists entirely on top of Catppuccin's work. The colour data — every
+hex value and every alpha byte — is copied unchanged from:</p>
+<ul>
+<li><a href="https://github.com/catppuccin/catppuccin">Catppuccin</a> — the palette (MIT)</li>
+<li><a href="https://github.com/catppuccin/zed">catppuccin/zed</a> — the Zed port (MIT)</li>
+<li><a href="https://github.com/jenslys/zed-catppuccin-blur">jenslys/zed-catppuccin-blur</a> —
+the blurred variants this is derived from, by Jens Lystad (MIT)</li>
+</ul>
+<p>The only original contribution here is the mechanical change of
+<code>background.appearance</code> from <code>blurred</code> to <code>transparent</code>, plus the generator that
+applies it. No colour was altered.</p>
+<p>Licensed under the <a href="https://github.com/Yezarath/zed-catppuccin-glass/blob/HEAD/LICENSE" target="_blank" rel="noopener">MIT License</a>. The upstream copyright notice
+(<code>Copyright (c) 2024 Catppuccin</code>) is preserved in <code>LICENSE</code> as MIT requires.</p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>
