@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1778-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1781-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,21 +14,21 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1778** |
-| In official registry | 1275 |
+| Total tracked | **1781** |
+| In official registry | 1278 |
 | Discovered via topics | 503 |
-| Last updated | 2026-09-17 05:21 UTC |
+| Last updated | 2026-09-17 12:03 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
 | Themes | 762 |
-| Grammars | 620 |
-| Language Servers | 573 |
+| Grammars | 622 |
+| Language Servers | 574 |
 | Context Servers | 138 |
 | Snippets | 85 |
-| Slash Commands | 60 |
+| Slash Commands | 61 |
 | Debug Adapters | 35 |
 | Docs Providers | 16 |
 
@@ -70,6 +70,9 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [Feral-Lang/Zed](https://github.com/Feral-Lang/Zed) | 0 | Language support for Zed editor. |
+| [relkian/zed-extension-salt](https://github.com/relkian/zed-extension-salt) | 1 | Salt (AKA SaltStack) files syntax highlighting for Zed editor |
+| [BANSAFAn/i18n-zed](https://github.com/BANSAFAn/i18n-zed) | 1 | A small script for Zed Editor that makes it easy to work with I18n (currently in... |
 | [Yezarath/zed-catppuccin-glass](https://github.com/Yezarath/zed-catppuccin-glass) | 0 | Transparent Catppuccin themes for the Zed editor — 18 frosted-free variants (Moc... |
 | [Elcaten/zed-kitty](https://github.com/Elcaten/zed-kitty) | 0 | Kitty configuration support for Zed: syntax highlighting, formatting, autocomple... |
 | [Foreglow/zed](https://github.com/Foreglow/zed) | 0 | Foreglow Theme for Zed |
@@ -87,9 +90,6 @@ cd website && npm install && npm run dev
 | [sumit-m/zed-autoit](https://github.com/sumit-m/zed-autoit) | 0 | AutoIt v3 language extension for the Zed editor |
 | [rbprsp/zed-drogon-csp](https://github.com/rbprsp/zed-drogon-csp) | 0 |  |
 | [salva-sm/sfcc-zed-debugger](https://github.com/salva-sm/sfcc-zed-debugger) | 0 | Zed debug adapter for Salesforce B2C Commerce (SFCC) server-side scripts: breakp... |
-| [chrisdrackett/bamboo-theme-zed](https://github.com/chrisdrackett/bamboo-theme-zed) | 0 | Bamboo Theme for Zed |
-| [briar-systems/mach-zed](https://github.com/briar-systems/mach-zed) | 0 | Mach language support for Zed including syntax highlighting, indentation, and co... |
-| [catthode/zed](https://github.com/catthode/zed) | 0 | Warm OLED theme for Zed |
 
 ## Top starred (under 500)
 
@@ -109,7 +109,7 @@ cd website && npm install && npm run dev
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 182 | 🦊 Zed editor theme ported from Neovim |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 172 | A macOS native style theme for Zed, let it same like native app in macOS. |
-| [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 153 |  |
+| [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 154 |  |
 | [zed-extensions/swift](https://github.com/zed-extensions/swift) | 151 | Extension for Zed to support Swift |
 | [thedadams/zed-comment](https://github.com/thedadams/zed-comment) | 148 | A comment extension for the Zed editor |
 | [slymax/zedokai](https://github.com/slymax/zedokai) | 145 | a theme for Zed based on the Monokai Pro color scheme |
@@ -120,31 +120,32 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [blacktop/zed-objc](https://github.com/blacktop/zed-objc) | 4 | 2026-09-17 | Objective-C support for Zed |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 216 | 2026-09-17 | Zed plugin for automatic time tracking and metrics generated... |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 3 | 2026-09-17 | Spring Boot language intelligence for Zed, built on the requ... |
 | [Yezarath/zed-catppuccin-glass](https://github.com/Yezarath/zed-catppuccin-glass) | 0 | 2026-09-17 | Transparent Catppuccin themes for the Zed editor — 18 froste... |
+| [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 335 | 2026-09-17 | Catppuccin Theme but as blurred variants + custom ones |
+| [BANSAFAn/i18n-zed](https://github.com/BANSAFAn/i18n-zed) | 1 | 2026-09-17 | A small script for Zed Editor that makes it easy to work wit... |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 98 | 2026-09-17 | True Dark Theme for Zed IDE |
+| [blacktop/zed-objc](https://github.com/blacktop/zed-objc) | 4 | 2026-09-17 | Objective-C support for Zed |
 | [catthode/zed](https://github.com/catthode/zed) | 0 | 2026-09-16 | Warm OLED theme for Zed |
 | [SinaMombeiny/S-DarkTheme.zed](https://github.com/SinaMombeiny/S-DarkTheme.zed) | 5 | 2026-09-16 | Dark theme for Zed |
 | [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-09-16 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 98 | 2026-09-16 | True Dark Theme for Zed IDE |
 | [Elcaten/zed-kitty](https://github.com/Elcaten/zed-kitty) | 0 | 2026-09-15 | Kitty configuration support for Zed: syntax highlighting, fo... |
 | [klarlanguage/klar-zed](https://github.com/klarlanguage/klar-zed) | 1 | 2026-09-15 | 🦓 Klar support for Zed |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-09-15 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 136 | 2026-09-15 | The Ruby language support for Zed editor |
+| [relkian/zed-extension-salt](https://github.com/relkian/zed-extension-salt) | 1 | 2026-09-15 | Salt (AKA SaltStack) files syntax highlighting for Zed edito... |
 | [encore-ecosystem/encore-zed](https://github.com/encore-ecosystem/encore-zed) | 0 | 2026-09-15 |  |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 216 | 2026-09-15 | Zed plugin for automatic time tracking and metrics generated... |
 | [wesleydmscn/zed-samurai-theme](https://github.com/wesleydmscn/zed-samurai-theme) | 4 | 2026-09-15 | A theme for samurai programmers 🤺 |
 | [felixtensor/zed-mlir](https://github.com/felixtensor/zed-mlir) | 9 | 2026-09-15 | MLIR Extension for Zed |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-09-15 | Zed editor support for Carve, a modern light markup language |
 | [alysson-souza/zed-chezmoi-lsp](https://github.com/alysson-souza/zed-chezmoi-lsp) | 1 | 2026-09-14 | Chezmoi template support for Zed with host-language highligh... |
-| [Null-logic-0/zed-hologram](https://github.com/Null-logic-0/zed-hologram) | 1 | 2026-09-13 | HOLO template language support for Zed: Hologram framework s... |
-| [danilomcampos/lina-zed](https://github.com/danilomcampos/lina-zed) | 0 | 2026-09-13 | Lina theme for Zed |
-| [emirror-de/papercolor-zed](https://github.com/emirror-de/papercolor-zed) | 5 | 2026-09-13 | The original PaperColor Theme, inspired by Google Material D... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-09-17T12:03 | 3 | 611 | 2184 |
 | 2026-09-17T05:21 | 2 | 609 | 2181 |
 | 2026-09-16T21:41 | 0 | 609 | 2179 |
 | 2026-09-16T17:16 | 1 | 608 | 2179 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-09-15T17:15 | 2 | 608 | 2176 |
 | 2026-09-15T12:05 | 0 | 608 | 2174 |
 | 2026-09-15T05:18 | 0 | 608 | 2174 |
-| 2026-09-14T22:02 | 0 | 608 | 2174 |
 
 ---
 
