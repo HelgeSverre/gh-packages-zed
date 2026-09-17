@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1783** |
 | In official registry | 1281 |
 | Discovered via topics | 502 |
-| Last updated | 2026-09-17 17:15 UTC |
+| Last updated | 2026-09-17 21:44 UTC |
 
 ### By capability
 
@@ -126,7 +126,7 @@ cd website && npm install && npm run dev
 | [Yezarath/zed-catppuccin-glass](https://github.com/Yezarath/zed-catppuccin-glass) | 0 | 2026-09-17 | Transparent Catppuccin themes for the Zed editor — 18 froste... |
 | [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 335 | 2026-09-17 | Catppuccin Theme but as blurred variants + custom ones |
 | [BANSAFAn/i18n-zed](https://github.com/BANSAFAn/i18n-zed) | 1 | 2026-09-17 | A small script for Zed Editor that makes it easy to work wit... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 98 | 2026-09-17 | True Dark Theme for Zed IDE |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 99 | 2026-09-17 | True Dark Theme for Zed IDE |
 | [blacktop/zed-objc](https://github.com/blacktop/zed-objc) | 4 | 2026-09-17 | Objective-C support for Zed |
 | [catthode/zed](https://github.com/catthode/zed) | 0 | 2026-09-16 | Warm OLED theme for Zed |
 | [SinaMombeiny/S-DarkTheme.zed](https://github.com/SinaMombeiny/S-DarkTheme.zed) | 5 | 2026-09-16 | Dark theme for Zed |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-09-17T21:44 | 1 | 612 | 2187 |
 | 2026-09-17T17:15 | 2 | 612 | 2186 |
 | 2026-09-17T12:03 | 3 | 611 | 2184 |
 | 2026-09-17T05:21 | 2 | 609 | 2181 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-09-16T05:14 | 0 | 608 | 2176 |
 | 2026-09-15T21:44 | 0 | 608 | 2176 |
 | 2026-09-15T17:15 | 2 | 608 | 2176 |
-| 2026-09-15T12:05 | 0 | 608 | 2174 |
 
 ---
 

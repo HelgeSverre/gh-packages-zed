@@ -148,7 +148,7 @@
     "name": "Imgkl/the-dark-side",
     "url": "https://github.com/Imgkl/the-dark-side",
     "description": "True Dark Theme for Zed IDE",
-    "stars": 98,
+    "stars": 99,
     "forks": 6,
     "topics": [
       "zed-extension",
@@ -157,7 +157,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-09-17T06:47:24Z",
+    "updated_at": "2026-09-17T18:48:49Z",
     "pushed_at": "2026-09-17T06:47:19Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -750,7 +750,7 @@
     "name": "Gurvirr/zed-ultraViolet",
     "url": "https://github.com/Gurvirr/zed-ultraViolet",
     "description": "A dark, violet-toned theme designed for quality & visual comfort ◡̈",
-    "stars": 118,
+    "stars": 119,
     "forks": 1,
     "topics": [
       "theme",
@@ -761,7 +761,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-03-27T21:17:19Z",
-    "updated_at": "2026-09-13T05:48:21Z",
+    "updated_at": "2026-09-17T19:13:37Z",
     "pushed_at": "2026-05-08T15:27:24Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -5425,8 +5425,8 @@
     "language": "Rust",
     "license": "MPL-2.0",
     "created_at": "2025-01-04T04:36:16Z",
-    "updated_at": "2026-09-10T02:10:10Z",
-    "pushed_at": "2026-09-10T02:10:05Z",
+    "updated_at": "2026-09-17T21:02:48Z",
+    "pushed_at": "2026-09-17T21:02:45Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
   },
@@ -5895,7 +5895,7 @@
     "name": "ChemisTechlabs/zed-firebase-security-rules",
     "url": "https://github.com/ChemisTechlabs/zed-firebase-security-rules",
     "description": "A Firebase Security Rules language syntax highlight extension for Zed Editor",
-    "stars": 3,
+    "stars": 4,
     "forks": 1,
     "topics": [
       "extension",
@@ -5910,7 +5910,7 @@
     "language": "Tree-sitter Query",
     "license": "BSD-3-Clause",
     "created_at": "2024-06-18T00:20:22Z",
-    "updated_at": "2026-08-01T06:40:18Z",
+    "updated_at": "2026-09-17T17:30:48Z",
     "pushed_at": "2026-08-01T06:40:12Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": true
@@ -14988,7 +14988,7 @@
     "url": "https://github.com/simplificare-org/cypher",
     "description": "Cypher Extension for Zed",
     "stars": 5,
-    "forks": 2,
+    "forks": 3,
     "topics": [
       "cypher",
       "cypher-query-language",
@@ -15007,7 +15007,7 @@
     "url": "https://github.com/simplificare-org/tree-sitter-cypher",
     "description": "A Tree-sitter parser for the Cypher query language, based on the Cypher Style Guide and the openCypher grammar. This parser is designed for syntax highlighting and editor support, such as integration with a Zed extension.",
     "stars": 5,
-    "forks": 0,
+    "forks": 1,
     "topics": [
       "cypher",
       "cypher-query-language",
@@ -18024,8 +18024,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-09-17T12:04:22Z",
-    "pushed_at": "2026-09-17T12:04:17Z",
+    "updated_at": "2026-09-17T17:16:23Z",
+    "pushed_at": "2026-09-17T17:16:18Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -32734,7 +32734,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
     "updated_at": "2026-09-17T16:29:43Z",
-    "pushed_at": "2026-09-17T16:34:29Z",
+    "pushed_at": "2026-09-17T21:28:28Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false
   },
@@ -34333,8 +34333,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-08-07T18:46:45Z",
-    "updated_at": "2026-09-17T16:14:12Z",
-    "pushed_at": "2026-09-17T01:50:38Z",
+    "updated_at": "2026-09-17T21:43:19Z",
+    "pushed_at": "2026-09-17T21:43:15Z",
     "discovered_at": "2026-08-08T18:56:57.473Z",
     "official": false
   },
@@ -35440,7 +35440,7 @@
     "url": "https://github.com/grunmin/dsh-acp-enhanced",
     "description": "Enhanced ACP (Agent Client Protocol) server for DeepSeek Harness (dsh) — drop-in bridge for the Zed editor: block-level streaming, usage/stat telemetry, model & reasoning-effort switching, permission presets, session resume & archive. Install: dsh plugin add",
     "stars": 6,
-    "forks": 1,
+    "forks": 2,
     "topics": [
       "acp",
       "agent-client-protocol",
@@ -35616,8 +35616,8 @@
     "language": null,
     "license": null,
     "created_at": "2026-08-16T21:55:25Z",
-    "updated_at": "2026-09-17T17:15:15Z",
-    "pushed_at": "2026-09-17T17:15:11Z",
+    "updated_at": "2026-09-17T19:58:28Z",
+    "pushed_at": "2026-09-17T19:58:24Z",
     "discovered_at": "2026-08-17T01:03:46.357Z",
     "official": false
   },
@@ -36959,8 +36959,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-09-07T16:00:35Z",
-    "updated_at": "2026-09-17T05:16:11Z",
-    "pushed_at": "2026-09-17T05:16:07Z",
+    "updated_at": "2026-09-17T21:39:39Z",
+    "pushed_at": "2026-09-17T21:39:35Z",
     "discovered_at": "2026-09-07T18:46:27.369Z",
     "official": false
   },
@@ -37692,5 +37692,30 @@
     "pushed_at": "2026-05-26T19:00:01Z",
     "discovered_at": "2026-09-17T17:15:44.436Z",
     "official": true
+  },
+  "josephsintum/zed-claude-code-connect": {
+    "name": "josephsintum/zed-claude-code-connect",
+    "url": "https://github.com/josephsintum/zed-claude-code-connect",
+    "description": "Use the Claude Code CLI in your own terminal, and let it see the file and selection you have open in Zed.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "ai-coding",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "lsp",
+      "mcp",
+      "rust",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2026-09-15T17:23:19Z",
+    "updated_at": "2026-09-17T21:37:15Z",
+    "pushed_at": "2026-09-17T21:37:10Z",
+    "discovered_at": "2026-09-17T21:44:30.134Z",
+    "official": false
   }
 }
