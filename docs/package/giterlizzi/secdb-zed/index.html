@@ -1,0 +1,226 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>ZEN SecDB (Vulnerability Audit) - Zed Extension Safari</title><meta name="description" content="ZED extension for ZEN SecDB CLI"><link rel="canonical" href="https://helgesverre.github.io/gh-packages-zed/package/giterlizzi/secdb-zed/"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="ZEN SecDB (Vulnerability Audit) - Zed Extension Safari"><meta property="og:description" content="ZED extension for ZEN SecDB CLI"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed/package/giterlizzi/secdb-zed/"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="ZEN SecDB (Vulnerability Audit) - Zed Extension Safari"><meta name="twitter:description" content="ZED extension for ZEN SecDB CLI"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/gh-packages-zed/_astro/ClientRouter.astro_astro_type_script_index_0_lang.ClVLs1kt.js"></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"ZEN SecDB (Vulnerability Audit)","description":"ZED extension for ZEN SecDB CLI","applicationCategory":"DeveloperApplication","operatingSystem":"macOS, Linux, Windows","url":"https://zed.dev/extensions/secdb-lsp","codeRepository":"https://github.com/giterlizzi/secdb-zed","author":[{"@type":"Person","name":"Giuseppe Di Terlizzi"}],"softwareVersion":"0.1.0","license":"Apache-2.0","keywords":"language-server","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/Layout.CGDlMdWE.css"><script type="module" src="/gh-packages-zed/_astro/page.B8i1Zz-u.js"></script></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <a href="#main" class="skip-to-content">Skip to content</a> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" data-astro-transition-persist="astro-fhchcgd7-1"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <script type="application/json" id="pkg-extras">{"url":"https://github.com/giterlizzi/secdb-zed","language":"Rust","license":"Apache-2.0","topics":[],"extension":{"authors":["Giuseppe Di Terlizzi"],"schema_version":1}}</script> <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> giterlizzi/secdb-zed </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> ZEN SecDB (Vulnerability Audit) </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> Inline vulnerability audit of dependency manifests, powered by ZEN SecDB </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="language-server">Language Server</span> </div> </div> </div> </header> <main id="main" class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/secdb-lsp" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/giterlizzi/secdb-zed" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.1.0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">secdb-lsp</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">Rust</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">Apache-2.0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">13h ago</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">Giuseppe Di Terlizzi</dd> </div> </dl>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-zen-secdb-for-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#zen-secdb-for-zed"><span class="heading-anchor-icon">#</span></a>ZEN SecDB for Zed</h1>
+<p>Audit your dependency manifests for known vulnerabilities without leaving the editor.</p>
+<p>This is the <a href="https://zed.dev">Zed</a> extension for <strong>ZEN SecDB</strong>. As you open a
+dependency manifest, it audits the declared packages against the ZEN SecDB
+vulnerability database and reports known advisories inline, as diagnostics on the
+exact dependency line, each linking back to the advisory.</p>
+<p>It is a thin wrapper around the <a href="https://github.com/giterlizzi/secdb-cli"><code>secdb</code></a>
+CLI: the extension launches <code>secdb lsp</code> (a Language Server that speaks JSON-RPC over
+stdio) and Zed renders whatever it reports.</p>
+<h2 id="user-content-what-it-does"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#what-it-does"><span class="heading-anchor-icon">#</span></a>What it does</h2>
+<ul>
+<li>Parses the open manifest and resolves each dependency to a package URL (PURL).</li>
+<li>Audits the whole set against ZEN SecDB.</li>
+<li>Surfaces every known advisory as a diagnostic on the dependency's line, with a
+severity mapped from the advisory (error / warning / information / hint) and a
+clickable link to the advisory page.</li>
+<li>Re-audits as you open and edit a manifest (debounced, so it audits shortly after
+you stop typing rather than on every keystroke).</li>
+<li>On startup, discovers and audits every supported manifest in the workspace, so
+findings appear without opening each file (noise directories like <code>node_modules</code>,
+<code>vendor</code>, <code>target</code>, <code>dist</code> and <code>build</code> are skipped, and symlinks aren't followed).</li>
+</ul>
+<h2 id="user-content-requirements"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#requirements"><span class="heading-anchor-icon">#</span></a>Requirements</h2>
+<p>The extension does <strong>not</strong> bundle a binary: it runs the <code>secdb</code> CLI, which must be
+installed and on your <code>PATH</code>.</p>
+<ol>
+<li>Install the <code>secdb</code> CLI — see
+<a href="https://github.com/giterlizzi/secdb-cli">giterlizzi/secdb-cli</a>.</li>
+<li>Verify it is reachable: <code>secdb version</code>. If you start Zed from a GUI launcher,
+make sure the directory holding <code>secdb</code> (e.g. <code>~/.local/bin</code>) is on the <code>PATH</code>
+Zed inherits; launching Zed from a terminal is the simplest guarantee.</li>
+<li>Optional: set <code>SECDB_API_KEY</code> in the environment Zed inherits, and/or point the
+CLI at a custom instance with <code>--base-url</code>, if your ZEN SecDB deployment
+requires it.</li>
+</ol>
+<h2 id="user-content-supported-files"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#supported-files"><span class="heading-anchor-icon">#</span></a>Supported files</h2>
+<p>The server detects the format from the file name and audits these manifests (the
+same set as <code>secdb audit manifest</code>). The extension attaches the server to the Zed
+language each file is assigned, via the <code>languages</code> list in <code>extension.toml</code>:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Manifest</th><th>Ecosystem</th><th>Zed language</th></tr></thead><tbody><tr><td><code>go.mod</code></td><td>Go modules</td><td>Go Mod</td></tr><tr><td><code>package-lock.json</code></td><td>npm</td><td>JSON</td></tr><tr><td><code>yarn.lock</code></td><td>npm</td><td>Plain Text</td></tr><tr><td><code>requirements*.txt</code></td><td>Python</td><td>Plain Text</td></tr><tr><td><code>Gemfile.lock</code></td><td>Ruby</td><td>Plain Text</td></tr><tr><td><code>pom.xml</code></td><td>Maven (Java)</td><td>XML</td></tr><tr><td><code>composer.lock</code></td><td>PHP (Composer)</td><td>Plain Text</td></tr></tbody></table>
+<p>Detection is by file name, so only files named like the above are audited — opening
+a bare <code>package.json</code>, for example, starts the server but produces no diagnostics
+(npm findings come from <code>package-lock.json</code> / <code>yarn.lock</code>). Several of these files
+are plain text in Zed (<code>yarn.lock</code>, <code>Gemfile.lock</code>, <code>requirements.txt</code>,
+<code>composer.lock</code>), so the extension attaches to the <code>Plain Text</code> language; the server
+simply does nothing for plain-text files it doesn't recognize.</p>
+<h2 id="user-content-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation"><span class="heading-anchor-icon">#</span></a>Installation</h2>
+<p>Until it lands in the Zed extension registry, install it as a dev extension:</p>
+<ol>
+<li>Clone this repository.</li>
+<li>In Zed, run <code>zed: install dev extension</code> from the command palette and select the
+cloned directory.</li>
+</ol>
+<p>Building the extension requires the <code>wasm32-wasip2</code> Rust target; Zed installs it via
+<code>rustup</code> automatically. On toolchains without <code>rustup</code>, add the target manually.</p>
+<h2 id="user-content-how-it-works"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#how-it-works"><span class="heading-anchor-icon">#</span></a>How it works</h2>
+<pre><code>editor buffer ──▶ secdb lsp ──▶ manifest parser ──▶ PURLs ──▶ ZEN SecDB audit
+                                                                     │
+   diagnostics on the dependency line ◀── advisory ⇄ severity ⇄ link ┘
+</code></pre>
+<p>The extension only tells Zed which binary to launch (<code>secdb lsp</code>) and for which
+files. All the parsing and auditing happens in the CLI, so adding manifest formats
+or fixing detection is done there, not here.</p>
+<h2 id="user-content-zen-secdb-mcp-server-optional"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#zen-secdb-mcp-server-optional"><span class="heading-anchor-icon">#</span></a>ZEN SecDB MCP server (optional)</h2>
+<p>Separately from this extension, ZEN SecDB exposes a remote <strong>MCP server</strong> that gives
+Zed's Agent panel live vulnerability tools. It is independent of the diagnostics
+extension — you can use either or both. Full docs:
+<a href="https://secdb.nttzen.cloud/docs/integrations/mcp">secdb.nttzen.cloud/docs/integrations/mcp</a>.</p>
+<p>The tools it exposes:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Tool</th><th>Purpose</th></tr></thead><tbody><tr><td><code>vulnerability_search</code></td><td>Full-text search across CVEs, advisories, exploits and products</td></tr><tr><td><code>vulnerability_info</code></td><td>Complete CVE details: description, metadata, affected products</td></tr><tr><td><code>vulnerability_score</code></td><td>CVSS / EPSS scores with human-readable explanations</td></tr><tr><td><code>epss_timeseries</code></td><td>Historical EPSS probability trend for a CVE</td></tr><tr><td><code>ssvc_calculator</code></td><td>CISA SSVC prioritization decision for a CVE</td></tr><tr><td><code>sightings_search</code></td><td>Real-world exploitation evidence: PoCs, scanner plugins, mentions</td></tr><tr><td><code>purl_audit</code></td><td>Audit application dependencies by Package URL (PURL)</td></tr><tr><td><code>linux_audit</code> / <code>linux_os</code></td><td>Audit installed Linux packages / list supported distros</td></tr><tr><td><code>feed_report</code> / <code>feed_report_catalog</code></td><td>Run predefined analytics reports / list them</td></tr></tbody></table>
+<p>Add it either from Zed's UI or by editing <code>settings.json</code>:</p>
+<ul>
+<li>
+<p><strong>From the UI</strong> — open <strong>Settings → AI → MCP Servers</strong> (or run <code>agent: open settings</code>), click <strong>Add Server → Add Remote Server</strong>, and enter a name (<code>secdb</code>)
+and the URL <code>https://secdb.nttzen.cloud/mcp</code>. Zed writes the entry below for you.</p>
+</li>
+<li>
+<p><strong>In <code>settings.json</code></strong>:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "context_servers"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "secdb"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "url"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"https://secdb.nttzen.cloud/mcp"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+</li>
+</ul>
+<p>Once connected, the server's tools are available in Zed's Agent panel — ask the
+agent in natural language (e.g. <em>"Is pkg:npm/lodash@4.17.19 vulnerable?"</em>, <em>"Which of
+my go.mod advisories are urgent by EPSS/SSVC?"</em>, <em>"Summarize CVE-2021-44228 and the
+fixed version"</em>) and it calls the tools as needed.</p>
+<p>Both routes need a Zed build with remote (HTTP) MCP support — on older builds, use
+<strong>Add Local Server</strong> (or the <code>"command"</code>/<code>"args"</code> form in <code>settings.json</code>) to bridge
+it locally with <code>npx -y mcp-remote https://secdb.nttzen.cloud/mcp</code>.</p>
+<h2 id="user-content-related"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#related"><span class="heading-anchor-icon">#</span></a>Related</h2>
+<ul>
+<li><strong>ZEN SecDB CLI</strong> — the engine behind this extension, and a full CLI for CVE
+lookup, PURL/Linux/Docker audits, SSVC and SBOM scanning:
+<a href="https://github.com/giterlizzi/secdb-cli">giterlizzi/secdb-cli</a>.</li>
+<li><strong>ZEN SecDB MCP</strong> — the remote MCP server described above
+(<a href="https://secdb.nttzen.cloud/docs/integrations/mcp">docs</a>).</li>
+</ul>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>Apache-2.0. See <a href="https://github.com/giterlizzi/secdb-zed/blob/HEAD/LICENSE" target="_blank" rel="noopener">LICENSE</a>.</p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>

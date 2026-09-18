@@ -142,8 +142,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-09-17T18:48:49Z",
-    "pushed_at": "2026-09-17T06:47:19Z",
+    "updated_at": "2026-09-18T06:43:30Z",
+    "pushed_at": "2026-09-18T06:43:25Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -255,7 +255,7 @@
     "license": "NOASSERTION",
     "created_at": "2024-10-11T18:22:02Z",
     "updated_at": "2026-09-10T14:45:56Z",
-    "pushed_at": "2026-09-15T19:01:20Z",
+    "pushed_at": "2026-09-18T08:18:59Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -4999,7 +4999,7 @@
     "name": "huacnlee/zed-theme-macos-classic",
     "url": "https://github.com/huacnlee/zed-theme-macos-classic",
     "description": "A macOS native style theme for Zed, let it same like native app in macOS.",
-    "stars": 172,
+    "stars": 173,
     "forks": 6,
     "topics": [
       "macos-classic",
@@ -5010,7 +5010,7 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2024-01-29T02:19:59Z",
-    "updated_at": "2026-09-15T05:22:51Z",
+    "updated_at": "2026-09-18T10:09:17Z",
     "pushed_at": "2026-02-05T02:23:27Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -54720,7 +54720,7 @@
     "name": "luceat-lux-vestra/zed-spring-tools",
     "url": "https://github.com/luceat-lux-vestra/zed-spring-tools",
     "description": "Spring Boot language intelligence for Zed, built on the required official Java extension. Early source release; one tested tuple (macOS arm64/JDK 25).",
-    "stars": 3,
+    "stars": 4,
     "forks": 1,
     "topics": [
       "java",
@@ -54735,7 +54735,7 @@
     "language": "JavaScript",
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
-    "updated_at": "2026-09-17T22:44:14Z",
+    "updated_at": "2026-09-18T10:04:15Z",
     "pushed_at": "2026-09-17T22:44:14Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false,
@@ -61344,6 +61344,178 @@
       "categories": [
         "grammar",
         "language-server"
+      ]
+    }
+  },
+  "hazicy/milo-theme-zed": {
+    "name": "hazicy/milo-theme-zed",
+    "url": "https://github.com/hazicy/milo-theme-zed",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-09-17T15:04:23Z",
+    "updated_at": "2026-09-18T02:20:05Z",
+    "pushed_at": "2026-09-18T02:20:01Z",
+    "discovered_at": "2026-09-18T11:47:44.716Z",
+    "official": true,
+    "extension": {
+      "id": "milo-theme",
+      "name": "Milo",
+      "description": "A refined dark color theme for Zed.",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "hazicy"
+      ],
+      "repository": "https://github.com/hazicy/milo-theme-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "ibehren1/zed-newspaper-theme": {
+    "name": "ibehren1/zed-newspaper-theme",
+    "url": "https://github.com/ibehren1/zed-newspaper-theme",
+    "description": "Flat, monochrome, letterpress/e-ink theme. Newsprint surfaces that never reach white, near-black ink text, square corners, no shadows.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-09-17T20:37:01Z",
+    "updated_at": "2026-09-17T20:45:57Z",
+    "pushed_at": "2026-09-17T20:45:52Z",
+    "discovered_at": "2026-09-18T11:47:44.716Z",
+    "official": true,
+    "extension": {
+      "id": "newspaper-theme",
+      "name": "Newspaper",
+      "description": "Flat, monochrome, letterpress/e-ink theme. Newsprint surfaces that never reach white, near-black ink text, square corners, no shadows.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Isaac Behrens"
+      ],
+      "repository": "https://github.com/ibehren1/zed-newspaper-theme",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "giterlizzi/secdb-zed": {
+    "name": "giterlizzi/secdb-zed",
+    "url": "https://github.com/giterlizzi/secdb-zed",
+    "description": "ZED extension for ZEN SecDB CLI",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "created_at": "2026-09-17T15:57:35Z",
+    "updated_at": "2026-09-17T22:07:48Z",
+    "pushed_at": "2026-09-17T22:07:44Z",
+    "discovered_at": "2026-09-18T11:47:44.716Z",
+    "official": true,
+    "extension": {
+      "id": "secdb-lsp",
+      "name": "ZEN SecDB (Vulnerability Audit)",
+      "description": "Inline vulnerability audit of dependency manifests, powered by ZEN SecDB",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Giuseppe Di Terlizzi <giuseppe.diterlizzi@gmail.com>"
+      ],
+      "repository": "https://github.com/giterlizzi/secdb-zed",
+      "snippets": null,
+      "sections": [
+        "language_servers"
+      ],
+      "categories": [
+        "language-server"
+      ]
+    }
+  },
+  "daryllepv/zed-auto-self-close-tag": {
+    "name": "daryllepv/zed-auto-self-close-tag",
+    "url": "https://github.com/daryllepv/zed-auto-self-close-tag",
+    "description": "Zed extension that automatically complete self-closing tags in Zed by typing /. Supports TSX, JSX, Astro, Svelte, Vue, HTML, and XML.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "lsp-server",
+      "published",
+      "rust",
+      "zed-extension"
+    ],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2026-09-18T07:22:36Z",
+    "updated_at": "2026-09-18T11:11:47Z",
+    "pushed_at": "2026-09-18T11:11:43Z",
+    "discovered_at": "2026-09-18T11:47:44.716Z",
+    "official": false,
+    "extension": {
+      "id": "auto-self-close-tag-lsp",
+      "name": "Auto Self-close Tag",
+      "description": "Completes self-closing tags in TSX, JSX, Astro, Svelte, Vue, HTML, and XML when you type /.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Darylle Villanueva <darylle.p.v@gmail.com>"
+      ],
+      "repository": "https://github.com/daryllepv/zed-auto-self-close-tag",
+      "snippets": null,
+      "sections": [
+        "language_servers"
+      ],
+      "categories": [
+        "language-server"
+      ]
+    }
+  },
+  "nerowolfe75/brackets-refined-zed": {
+    "name": "NeroWolfe75/brackets-refined-zed",
+    "url": "https://github.com/NeroWolfe75/brackets-refined-zed",
+    "description": "A refined dark theme for Zed with a neutral interface and carefully balanced syntax colors.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "color-theme",
+      "dark-theme",
+      "theme",
+      "zed",
+      "zed-editor",
+      "zed-extension",
+      "zed-theme"
+    ],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-09-18T08:34:54Z",
+    "updated_at": "2026-09-18T08:40:22Z",
+    "pushed_at": "2026-09-18T08:35:55Z",
+    "discovered_at": "2026-09-18T11:47:44.716Z",
+    "official": false,
+    "extension": {
+      "id": "brackets-refined-theme",
+      "name": "Brackets Refined",
+      "description": "A refined dark theme for Zed with a neutral interface and carefully balanced syntax colors.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "NeroWolfe75"
+      ],
+      "repository": "https://github.com/NeroWolfe75/brackets-refined-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
       ]
     }
   }
