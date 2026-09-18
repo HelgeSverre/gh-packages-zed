@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1794** |
 | In official registry | 1289 |
 | Discovered via topics | 505 |
-| Last updated | 2026-09-18 16:43 UTC |
+| Last updated | 2026-09-18 21:14 UTC |
 
 ### By capability
 
@@ -120,6 +120,8 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-09-18 | A Zed extension that allows to highlight all occurrences of ... |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 216 | 2026-09-18 | Zed plugin for automatic time tracking and metrics generated... |
 | [daryllepv/zed-auto-self-close-tag](https://github.com/daryllepv/zed-auto-self-close-tag) | 0 | 2026-09-18 | Zed extension that automatically complete self-closing tags ... |
 | [NeroWolfe75/brackets-refined-zed](https://github.com/NeroWolfe75/brackets-refined-zed) | 0 | 2026-09-18 | A refined dark theme for Zed with a neutral interface and ca... |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 136 | 2026-09-18 | The Ruby language support for Zed editor |
@@ -131,8 +133,6 @@ cd website && npm install && npm run dev
 | [giterlizzi/secdb-zed](https://github.com/giterlizzi/secdb-zed) | 0 | 2026-09-17 | ZED extension for ZEN SecDB CLI |
 | [ibehren1/zed-newspaper-theme](https://github.com/ibehren1/zed-newspaper-theme) | 0 | 2026-09-17 | Flat, monochrome, letterpress/e-ink theme. Newsprint surface... |
 | [mschuwalow/languagetool-zed-extension](https://github.com/mschuwalow/languagetool-zed-extension) | 0 | 2026-09-17 |  |
-| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-09-17 | A Zed extension that allows to highlight all occurrences of ... |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 216 | 2026-09-17 | Zed plugin for automatic time tracking and metrics generated... |
 | [Yezarath/zed-catppuccin-glass](https://github.com/Yezarath/zed-catppuccin-glass) | 0 | 2026-09-17 | Transparent Catppuccin themes for the Zed editor — 18 froste... |
 | [BANSAFAn/i18n-zed](https://github.com/BANSAFAn/i18n-zed) | 1 | 2026-09-17 | A small script for Zed Editor that makes it easy to work wit... |
 | [blacktop/zed-objc](https://github.com/blacktop/zed-objc) | 4 | 2026-09-17 | Objective-C support for Zed |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-09-18T21:14 | 0 | 617 | 2200 |
 | 2026-09-18T16:43 | 6 | 617 | 2200 |
 | 2026-09-18T11:47 | 5 | 615 | 2194 |
 | 2026-09-18T05:10 | 2 | 613 | 2189 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-09-17T05:21 | 2 | 609 | 2181 |
 | 2026-09-16T21:41 | 0 | 609 | 2179 |
 | 2026-09-16T17:16 | 1 | 608 | 2179 |
-| 2026-09-16T12:01 | 2 | 608 | 2178 |
 
 ---
 
