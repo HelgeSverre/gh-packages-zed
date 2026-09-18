@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1789-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1794-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,18 +14,18 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1789** |
-| In official registry | 1284 |
+| Total tracked | **1794** |
+| In official registry | 1289 |
 | Discovered via topics | 505 |
-| Last updated | 2026-09-18 11:47 UTC |
+| Last updated | 2026-09-18 16:43 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
-| Themes | 765 |
-| Grammars | 624 |
-| Language Servers | 579 |
+| Themes | 766 |
+| Grammars | 627 |
+| Language Servers | 582 |
 | Context Servers | 138 |
 | Snippets | 85 |
 | Slash Commands | 61 |
@@ -70,6 +70,11 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [chess10kp/jac-zed](https://github.com/chess10kp/jac-zed) | 0 | Jac support for Zed |
+| [mschuwalow/languagetool-zed-extension](https://github.com/mschuwalow/languagetool-zed-extension) | 0 |  |
+| [KalaayPT/rotom-zed](https://github.com/KalaayPT/rotom-zed) | 0 | Rotom language support for Zed |
+| [okhalri/zed-blink](https://github.com/okhalri/zed-blink) | 0 | Blink IDL syntax highlighting for Zed |
+| [fisherrjd/Grapebox](https://github.com/fisherrjd/Grapebox) | 0 | Purple Theme inspired by GruvBox |
 | [hazicy/milo-theme-zed](https://github.com/hazicy/milo-theme-zed) | 0 |  |
 | [ibehren1/zed-newspaper-theme](https://github.com/ibehren1/zed-newspaper-theme) | 0 | Flat, monochrome, letterpress/e-ink theme. Newsprint surfaces that never reach w... |
 | [giterlizzi/secdb-zed](https://github.com/giterlizzi/secdb-zed) | 0 | ZED extension for ZEN SecDB CLI |
@@ -85,11 +90,6 @@ cd website && npm install && npm run dev
 | [Elcaten/zed-kitty](https://github.com/Elcaten/zed-kitty) | 0 | Kitty configuration support for Zed: syntax highlighting, formatting, autocomple... |
 | [Foreglow/zed](https://github.com/Foreglow/zed) | 0 | Foreglow Theme for Zed |
 | [mete-sirin/midnight-theme](https://github.com/mete-sirin/midnight-theme) | 0 |  |
-| [demen1n/zed-confetti](https://github.com/demen1n/zed-confetti) | 0 | Zed extension for the Confetti configuration language |
-| [danilomcampos/lina-zed](https://github.com/danilomcampos/lina-zed) | 0 | Lina theme for Zed |
-| [Null-logic-0/zed-hologram](https://github.com/Null-logic-0/zed-hologram) | 1 | HOLO template language support for Zed: Hologram framework syntax highlighting, ... |
-| [xtrasmal/zed-theme-horizoncode](https://github.com/xtrasmal/zed-theme-horizoncode) | 0 | HorizonCode - Zed theme |
-| [klarlanguage/klar-zed](https://github.com/klarlanguage/klar-zed) | 1 | 🦓 Klar support for Zed |
 
 ## Top starred (under 500)
 
@@ -130,6 +130,7 @@ cd website && npm install && npm run dev
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 4 | 2026-09-17 | Spring Boot language intelligence for Zed, built on the requ... |
 | [giterlizzi/secdb-zed](https://github.com/giterlizzi/secdb-zed) | 0 | 2026-09-17 | ZED extension for ZEN SecDB CLI |
 | [ibehren1/zed-newspaper-theme](https://github.com/ibehren1/zed-newspaper-theme) | 0 | 2026-09-17 | Flat, monochrome, letterpress/e-ink theme. Newsprint surface... |
+| [mschuwalow/languagetool-zed-extension](https://github.com/mschuwalow/languagetool-zed-extension) | 0 | 2026-09-17 |  |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-09-17 | A Zed extension that allows to highlight all occurrences of ... |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 216 | 2026-09-17 | Zed plugin for automatic time tracking and metrics generated... |
 | [Yezarath/zed-catppuccin-glass](https://github.com/Yezarath/zed-catppuccin-glass) | 0 | 2026-09-17 | Transparent Catppuccin themes for the Zed editor — 18 froste... |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [SinaMombeiny/S-DarkTheme.zed](https://github.com/SinaMombeiny/S-DarkTheme.zed) | 5 | 2026-09-16 | Dark theme for Zed |
 | [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-09-16 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
 | [Elcaten/zed-kitty](https://github.com/Elcaten/zed-kitty) | 0 | 2026-09-15 | Kitty configuration support for Zed: syntax highlighting, fo... |
-| [klarlanguage/klar-zed](https://github.com/klarlanguage/klar-zed) | 1 | 2026-09-15 | 🦓 Klar support for Zed |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-09-18T16:43 | 6 | 617 | 2200 |
 | 2026-09-18T11:47 | 5 | 615 | 2194 |
 | 2026-09-18T05:10 | 2 | 613 | 2189 |
 | 2026-09-17T21:44 | 1 | 612 | 2187 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-09-16T21:41 | 0 | 609 | 2179 |
 | 2026-09-16T17:16 | 1 | 608 | 2179 |
 | 2026-09-16T12:01 | 2 | 608 | 2178 |
-| 2026-09-16T05:14 | 0 | 608 | 2176 |
 
 ---
 

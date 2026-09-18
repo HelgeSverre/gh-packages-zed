@@ -1031,7 +1031,7 @@
     "name": "Gurvirr/zed-ultraViolet",
     "url": "https://github.com/Gurvirr/zed-ultraViolet",
     "description": "A dark, violet-toned theme designed for quality & visual comfort ◡̈",
-    "stars": 119,
+    "stars": 118,
     "forks": 1,
     "topics": [
       "theme",
@@ -1042,7 +1042,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-03-27T21:17:19Z",
-    "updated_at": "2026-09-17T19:13:37Z",
+    "updated_at": "2026-09-18T14:15:35Z",
     "pushed_at": "2026-05-08T15:27:24Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -58866,7 +58866,7 @@
     "name": "WaveSpeedAI/wavespeed-mcp-zed",
     "url": "https://github.com/WaveSpeedAI/wavespeed-mcp-zed",
     "description": "WaveSpeed MCP for Zed — AI media generation (image, video, audio, 3D) as a Zed context server",
-    "stars": 0,
+    "stars": 1,
     "forks": 1,
     "topics": [
       "context-server",
@@ -58878,7 +58878,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-08-19T04:45:23Z",
-    "updated_at": "2026-08-21T05:35:16Z",
+    "updated_at": "2026-09-18T12:13:43Z",
     "pushed_at": "2026-08-21T05:34:36Z",
     "discovered_at": "2026-08-19T06:59:56.986Z",
     "official": false,
@@ -61516,6 +61516,174 @@
       "sections": [],
       "categories": [
         "theme"
+      ]
+    }
+  },
+  "okhalri/zed-blink": {
+    "name": "okhalri/zed-blink",
+    "url": "https://github.com/okhalri/zed-blink",
+    "description": "Blink IDL syntax highlighting for Zed",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2026-06-26T18:30:45Z",
+    "updated_at": "2026-06-26T19:05:23Z",
+    "pushed_at": "2026-06-26T19:05:15Z",
+    "discovered_at": "2026-09-18T16:43:01.918Z",
+    "official": true,
+    "extension": {
+      "id": "blink",
+      "name": "Blink",
+      "description": "Syntax highlighting for the Blink IDL (.blink files).",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "okhalri"
+      ],
+      "repository": "https://github.com/okhalri/zed-blink",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
+      ]
+    }
+  },
+  "fisherrjd/grapebox": {
+    "name": "fisherrjd/Grapebox",
+    "url": "https://github.com/fisherrjd/Grapebox",
+    "description": "Purple Theme inspired by GruvBox",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-06-29T22:34:24Z",
+    "updated_at": "2026-06-29T23:24:30Z",
+    "pushed_at": "2026-06-29T23:24:27Z",
+    "discovered_at": "2026-09-18T16:43:01.918Z",
+    "official": true,
+    "extension": {
+      "id": "grapebox-theme",
+      "name": "Grapebox",
+      "description": "Gruvbox, but make it purple",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Jade Fisher"
+      ],
+      "repository": "https://github.com/fisherrjd/Grapebox",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "chess10kp/jac-zed": {
+    "name": "chess10kp/jac-zed",
+    "url": "https://github.com/chess10kp/jac-zed",
+    "description": "Jac support for Zed",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2026-06-19T18:28:55Z",
+    "updated_at": "2026-06-20T01:16:24Z",
+    "pushed_at": "2026-06-20T01:16:20Z",
+    "discovered_at": "2026-09-18T16:43:01.919Z",
+    "official": true,
+    "extension": {
+      "id": "jac",
+      "name": "Jac",
+      "description": "Jac language support.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Jaseci Labs"
+      ],
+      "repository": "https://github.com/chess10kp/jac-zed",
+      "snippets": null,
+      "sections": [
+        "language_servers",
+        "grammars"
+      ],
+      "categories": [
+        "grammar",
+        "language-server"
+      ]
+    }
+  },
+  "mschuwalow/languagetool-zed-extension": {
+    "name": "mschuwalow/languagetool-zed-extension",
+    "url": "https://github.com/mschuwalow/languagetool-zed-extension",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2026-05-24T09:27:55Z",
+    "updated_at": "2026-09-17T18:01:52Z",
+    "pushed_at": "2026-09-17T18:01:47Z",
+    "discovered_at": "2026-09-18T16:43:01.919Z",
+    "official": true,
+    "extension": {
+      "id": "languagetool-lsp",
+      "name": "LanguageTool",
+      "description": "Grammar and style checking for Zed using LanguageTool.",
+      "version": "0.2.1",
+      "schema_version": 1,
+      "authors": [
+        "Maxim Schuwalow"
+      ],
+      "repository": "https://github.com/mschuwalow/languagetool-zed-extension",
+      "snippets": null,
+      "sections": [
+        "language_servers"
+      ],
+      "categories": [
+        "language-server"
+      ]
+    }
+  },
+  "kalaaypt/rotom-zed": {
+    "name": "KalaayPT/rotom-zed",
+    "url": "https://github.com/KalaayPT/rotom-zed",
+    "description": "Rotom language support for Zed",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2026-06-21T13:25:25Z",
+    "updated_at": "2026-06-24T21:03:45Z",
+    "pushed_at": "2026-06-24T21:03:40Z",
+    "discovered_at": "2026-09-18T16:43:01.919Z",
+    "official": true,
+    "extension": {
+      "id": "rotom",
+      "name": "Rotom",
+      "description": "Rotom language support for Zed",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "KalaayPT"
+      ],
+      "repository": "https://github.com/KalaayPT/rotom-extensions",
+      "snippets": null,
+      "sections": [
+        "grammars",
+        "lib",
+        "language_servers"
+      ],
+      "categories": [
+        "grammar",
+        "language-server"
       ]
     }
   }

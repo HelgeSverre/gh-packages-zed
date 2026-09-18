@@ -750,7 +750,7 @@
     "name": "Gurvirr/zed-ultraViolet",
     "url": "https://github.com/Gurvirr/zed-ultraViolet",
     "description": "A dark, violet-toned theme designed for quality & visual comfort ◡̈",
-    "stars": 119,
+    "stars": 118,
     "forks": 1,
     "topics": [
       "theme",
@@ -761,7 +761,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-03-27T21:17:19Z",
-    "updated_at": "2026-09-17T19:13:37Z",
+    "updated_at": "2026-09-18T14:15:35Z",
     "pushed_at": "2026-05-08T15:27:24Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -2917,7 +2917,7 @@
     "name": "lupomikti/3dmigoto-ini-extension",
     "url": "https://github.com/lupomikti/3dmigoto-ini-extension",
     "description": "Extensions and files for multiple editors that provide language functionality such as syntax highlighting for 3DMigoto-flavored .ini files",
-    "stars": 11,
+    "stars": 12,
     "forks": 0,
     "topics": [
       "3dmigoto",
@@ -2936,7 +2936,7 @@
     "language": "TypeScript",
     "license": "GPL-3.0",
     "created_at": "2024-09-30T17:41:34Z",
-    "updated_at": "2026-07-13T20:41:12Z",
+    "updated_at": "2026-09-18T12:12:29Z",
     "pushed_at": "2026-06-30T06:34:28Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
@@ -15438,7 +15438,7 @@
     "name": "agent-sh/agnix",
     "url": "https://github.com/agent-sh/agnix",
     "description": "The missing linter and lsp for AI coding assistants. Validate CLAUDE.md, AGENTS.md, SKILL.md, hooks, MCP. Plugin for all major IDEs included, with autofixes.",
-    "stars": 420,
+    "stars": 421,
     "forks": 31,
     "topics": [
       "agent",
@@ -15465,7 +15465,7 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
-    "updated_at": "2026-09-18T05:58:28Z",
+    "updated_at": "2026-09-18T12:35:09Z",
     "pushed_at": "2026-09-18T05:26:57Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
@@ -18024,8 +18024,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-09-18T05:11:10Z",
-    "pushed_at": "2026-09-18T05:11:07Z",
+    "updated_at": "2026-09-18T11:48:23Z",
+    "pushed_at": "2026-09-18T11:48:19Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -35663,7 +35663,7 @@
     "name": "WaveSpeedAI/wavespeed-mcp-zed",
     "url": "https://github.com/WaveSpeedAI/wavespeed-mcp-zed",
     "description": "WaveSpeed MCP for Zed — AI media generation (image, video, audio, 3D) as a Zed context server",
-    "stars": 0,
+    "stars": 1,
     "forks": 1,
     "topics": [
       "context-server",
@@ -35675,7 +35675,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-08-19T04:45:23Z",
-    "updated_at": "2026-08-21T05:35:16Z",
+    "updated_at": "2026-09-18T12:13:43Z",
     "pushed_at": "2026-08-21T05:34:36Z",
     "discovered_at": "2026-08-19T06:59:56.986Z",
     "official": false
@@ -36675,8 +36675,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-09-02T15:38:43Z",
-    "updated_at": "2026-09-18T04:31:17Z",
-    "pushed_at": "2026-09-18T04:53:01Z",
+    "updated_at": "2026-09-18T16:29:07Z",
+    "pushed_at": "2026-09-18T16:41:33Z",
     "discovered_at": "2026-09-03T18:53:15.863Z",
     "official": false
   },
@@ -36994,7 +36994,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-09-03T18:54:22Z",
     "updated_at": "2026-09-18T07:58:39Z",
-    "pushed_at": "2026-09-18T10:02:17Z",
+    "pushed_at": "2026-09-18T16:42:10Z",
     "discovered_at": "2026-09-09T01:10:37.044Z",
     "official": false
   },
@@ -37855,5 +37855,99 @@
     "pushed_at": "2026-09-18T08:35:55Z",
     "discovered_at": "2026-09-18T11:47:44.716Z",
     "official": false
+  },
+  "okhalri/zed-blink": {
+    "name": "okhalri/zed-blink",
+    "url": "https://github.com/okhalri/zed-blink",
+    "description": "Blink IDL syntax highlighting for Zed",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2026-06-26T18:30:45Z",
+    "updated_at": "2026-06-26T19:05:23Z",
+    "pushed_at": "2026-06-26T19:05:15Z",
+    "discovered_at": "2026-09-18T16:43:01.918Z",
+    "official": true
+  },
+  "fisherrjd/grapebox": {
+    "name": "fisherrjd/Grapebox",
+    "url": "https://github.com/fisherrjd/Grapebox",
+    "description": "Purple Theme inspired by GruvBox",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-06-29T22:34:24Z",
+    "updated_at": "2026-06-29T23:24:30Z",
+    "pushed_at": "2026-06-29T23:24:27Z",
+    "discovered_at": "2026-09-18T16:43:01.918Z",
+    "official": true
+  },
+  "chess10kp/jac-zed": {
+    "name": "chess10kp/jac-zed",
+    "url": "https://github.com/chess10kp/jac-zed",
+    "description": "Jac support for Zed",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2026-06-19T18:28:55Z",
+    "updated_at": "2026-06-20T01:16:24Z",
+    "pushed_at": "2026-06-20T01:16:20Z",
+    "discovered_at": "2026-09-18T16:43:01.919Z",
+    "official": true
+  },
+  "mschuwalow/languagetool-zed-extension": {
+    "name": "mschuwalow/languagetool-zed-extension",
+    "url": "https://github.com/mschuwalow/languagetool-zed-extension",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2026-05-24T09:27:55Z",
+    "updated_at": "2026-09-17T18:01:52Z",
+    "pushed_at": "2026-09-17T18:01:47Z",
+    "discovered_at": "2026-09-18T16:43:01.919Z",
+    "official": true
+  },
+  "npmx-dev/vscode-npmx": {
+    "name": "npmx-dev/vscode-npmx",
+    "url": "https://github.com/npmx-dev/vscode-npmx",
+    "description": "A better browser for the npm registry",
+    "stars": 74,
+    "forks": 13,
+    "topics": [
+      "npm",
+      "npmjs",
+      "vscode-extension"
+    ],
+    "language": "TypeScript",
+    "license": "MIT",
+    "created_at": "2026-01-29T17:05:04Z",
+    "updated_at": "2026-09-15T05:27:26Z",
+    "pushed_at": "2026-08-29T05:48:24Z",
+    "discovered_at": "2026-09-18T16:43:01.919Z",
+    "official": true
+  },
+  "kalaaypt/rotom-zed": {
+    "name": "KalaayPT/rotom-zed",
+    "url": "https://github.com/KalaayPT/rotom-zed",
+    "description": "Rotom language support for Zed",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2026-06-21T13:25:25Z",
+    "updated_at": "2026-06-24T21:03:45Z",
+    "pushed_at": "2026-06-24T21:03:40Z",
+    "discovered_at": "2026-09-18T16:43:01.919Z",
+    "official": true
   }
 }

@@ -1,0 +1,18 @@
+id = "rotom"
+name = "Rotom"
+version = "0.1.0"
+schema_version = 1
+authors = ["KalaayPT"]
+description = "Rotom language support for Zed"
+repository = "https://github.com/KalaayPT/rotom-extensions"
+languages = ["languages/rotom"]
+
+[grammars.rotom]
+repository = "https://github.com/KalaayPT/tree-sitter-rotom"
+rev = "16f2e4c6bc62ae774539568d38da5874c954f08e"
+
+[lib]
+kind = "Rust"
+
+[language_servers.rotom-lsp]
+languages = ["Rotom"]

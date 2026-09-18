@@ -1,0 +1,11 @@
+id = "blink"
+name = "Blink"
+version = "0.1.0"
+schema_version = 1
+authors = ["okhalri"]
+description = "Syntax highlighting for the Blink IDL (.blink files)."
+repository = "https://github.com/okhalri/zed-blink"
+
+[grammars.blink]
+repository = "https://github.com/okhalri/tree-sitter-blink"
+rev = "980af4b28d35d64e8137f3a4f50f8111c089642b"
