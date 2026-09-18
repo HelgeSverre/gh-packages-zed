@@ -1,0 +1,60 @@
+id = "gin-csv"
+name = "gin-csv"
+description = "Delimited files with coloured columns, and sort, filter, align and pad where the file already is."
+version = "0.1.0"
+schema_version = 1
+authors = ["Seah Ky"]
+repository = "https://github.com/seahsky/gin-csv"
+
+# Needed only for the release download, and scoped to this project's own
+# releases. Finding the server on PATH does not require a capability.
+#
+# This has to sit above the tables below: a top-level key after a [table]
+# header would be read as a key of that table.
+capabilities = [
+  { kind = "download_file", host = "github.com", path = [
+    "seahsky",
+    "gin-csv",
+    "releases",
+    "download",
+    "**",
+  ] },
+]
+
+# Four languages, one per delimiter. A tree-sitter parser has its delimiter
+# compiled in, so a dialect cannot be a setting. Named by delimiter rather than
+# by file format, because Zed's language index is keyed by name with no
+# collision check and a second extension registering "CSV" silently overwrites
+# the first.
+
+[grammars.gin_csv_comma]
+repository = "https://github.com/seahsky/gin-csv-grammars"
+rev = "89d9b46193bc1d0f7fc6f98de42a044090b81afb"
+path = "comma"
+
+[grammars.gin_csv_tab]
+repository = "https://github.com/seahsky/gin-csv-grammars"
+rev = "89d9b46193bc1d0f7fc6f98de42a044090b81afb"
+path = "tab"
+
+[grammars.gin_csv_pipe]
+repository = "https://github.com/seahsky/gin-csv-grammars"
+rev = "89d9b46193bc1d0f7fc6f98de42a044090b81afb"
+path = "pipe"
+
+[grammars.gin_csv_semicolon]
+repository = "https://github.com/seahsky/gin-csv-grammars"
+rev = "89d9b46193bc1d0f7fc6f98de42a044090b81afb"
+path = "semicolon"
+
+# One server for all four languages. It takes the dialect from the languageId on
+# open, so changing a file's language changes its colouring and its parsing
+# together, with no command of the extension's own.
+[language_servers.gin-csv-server]
+name = "gin-csv"
+languages = [
+  "Delimited (comma)",
+  "Delimited (tab)",
+  "Delimited (pipe)",
+  "Delimited (semicolon)",
+]

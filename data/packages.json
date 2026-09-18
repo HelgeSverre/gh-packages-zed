@@ -3392,7 +3392,7 @@
     "license": "MIT",
     "created_at": "2024-07-12T16:43:02Z",
     "updated_at": "2026-09-17T07:25:54Z",
-    "pushed_at": "2026-09-17T07:25:49Z",
+    "pushed_at": "2026-09-18T04:00:47Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -18024,8 +18024,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-09-17T17:16:23Z",
-    "pushed_at": "2026-09-17T17:16:18Z",
+    "updated_at": "2026-09-17T21:45:07Z",
+    "pushed_at": "2026-09-17T21:45:02Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -32733,8 +32733,8 @@
     "language": "JavaScript",
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
-    "updated_at": "2026-09-17T16:29:43Z",
-    "pushed_at": "2026-09-17T21:28:28Z",
+    "updated_at": "2026-09-17T22:44:14Z",
+    "pushed_at": "2026-09-17T22:44:14Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false
   },
@@ -35616,8 +35616,8 @@
     "language": null,
     "license": null,
     "created_at": "2026-08-16T21:55:25Z",
-    "updated_at": "2026-09-17T19:58:28Z",
-    "pushed_at": "2026-09-17T19:58:24Z",
+    "updated_at": "2026-09-18T05:03:20Z",
+    "pushed_at": "2026-09-18T05:03:16Z",
     "discovered_at": "2026-08-17T01:03:46.357Z",
     "official": false
   },
@@ -36675,8 +36675,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-09-02T15:38:43Z",
-    "updated_at": "2026-09-16T02:25:31Z",
-    "pushed_at": "2026-09-16T02:27:55Z",
+    "updated_at": "2026-09-18T04:31:17Z",
+    "pushed_at": "2026-09-18T04:53:01Z",
     "discovered_at": "2026-09-03T18:53:15.863Z",
     "official": false
   },
@@ -36959,8 +36959,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-09-07T16:00:35Z",
-    "updated_at": "2026-09-17T21:39:39Z",
-    "pushed_at": "2026-09-17T21:39:35Z",
+    "updated_at": "2026-09-18T01:18:16Z",
+    "pushed_at": "2026-09-18T01:18:13Z",
     "discovered_at": "2026-09-07T18:46:27.369Z",
     "official": false
   },
@@ -37397,8 +37397,8 @@
     "language": "TypeScript",
     "license": "Apache-2.0",
     "created_at": "2026-08-28T14:03:54Z",
-    "updated_at": "2026-09-14T18:07:18Z",
-    "pushed_at": "2026-09-16T19:49:05Z",
+    "updated_at": "2026-09-18T02:36:17Z",
+    "pushed_at": "2026-09-18T02:37:06Z",
     "discovered_at": "2026-09-13T21:07:24.622Z",
     "official": false
   },
@@ -37716,6 +37716,56 @@
     "updated_at": "2026-09-17T21:37:15Z",
     "pushed_at": "2026-09-17T21:37:10Z",
     "discovered_at": "2026-09-17T21:44:30.134Z",
+    "official": false
+  },
+  "seahsky/gin-csv": {
+    "name": "seahsky/gin-csv",
+    "url": "https://github.com/seahsky/gin-csv",
+    "description": "Delimited files in Zed with coloured columns, and sort, filter, align and pad where the file already is",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "csv",
+      "delimited-text",
+      "language-server",
+      "lsp",
+      "rust",
+      "tabular-data",
+      "tree-sitter",
+      "tsv",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2026-09-18T02:33:59Z",
+    "updated_at": "2026-09-18T02:34:09Z",
+    "pushed_at": "2026-09-18T02:34:06Z",
+    "discovered_at": "2026-09-18T05:10:30.642Z",
+    "official": false
+  },
+  "seahsky/gin-csv-grammars": {
+    "name": "seahsky/gin-csv-grammars",
+    "url": "https://github.com/seahsky/gin-csv-grammars",
+    "description": "Tree-sitter grammars for the four delimited-text dialects of gin-csv",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "csv",
+      "delimited-text",
+      "parser",
+      "tree-sitter",
+      "tree-sitter-grammar",
+      "tsv",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "C",
+    "license": null,
+    "created_at": "2026-09-18T02:33:11Z",
+    "updated_at": "2026-09-18T02:33:20Z",
+    "pushed_at": "2026-09-18T02:33:16Z",
+    "discovered_at": "2026-09-18T05:10:30.642Z",
     "official": false
   }
 }
