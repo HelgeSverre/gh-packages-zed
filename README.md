@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1799** |
 | In official registry | 1292 |
 | Discovered via topics | 507 |
-| Last updated | 2026-09-19 16:03 UTC |
+| Last updated | 2026-09-19 20:59 UTC |
 
 ### By capability
 
@@ -110,7 +110,7 @@ cd website && npm install && npm run dev
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 182 | 🦊 Zed editor theme ported from Neovim |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 173 | A macOS native style theme for Zed, let it same like native app in macOS. |
 | [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 154 |  |
-| [zed-extensions/swift](https://github.com/zed-extensions/swift) | 151 | Extension for Zed to support Swift |
+| [zed-extensions/swift](https://github.com/zed-extensions/swift) | 152 | Extension for Zed to support Swift |
 | [thedadams/zed-comment](https://github.com/thedadams/zed-comment) | 148 | A comment extension for the Zed editor |
 | [slymax/zedokai](https://github.com/slymax/zedokai) | 145 | a theme for Zed based on the Monokai Pro color scheme |
 | [nathansbradshaw/zed-angular](https://github.com/nathansbradshaw/zed-angular) | 144 |  |
@@ -120,10 +120,11 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-09-19 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
-| [DankDown10256/licensr](https://github.com/DankDown10256/licensr) | 0 | 2026-09-19 | Licensr is a Zed IDE extension to write licenses for your pr... |
-| [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 334 | 2026-09-19 | Catppuccin Theme but as blurred variants + custom ones |
 | [thoriqakbar0/fsl-lsp](https://github.com/thoriqakbar0/fsl-lsp) | 0 | 2026-09-19 | Pre-alpha FSL grammar, Zed extension, and language-server in... |
+| [BANSAFAn/i18n-zed](https://github.com/BANSAFAn/i18n-zed) | 1 | 2026-09-19 | A small script for Zed Editor that makes it easy to work wit... |
+| [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-09-19 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
+| [DankDown10256/licensr](https://github.com/DankDown10256/licensr) | 1 | 2026-09-19 | Licensr is a Zed IDE extension to write licenses for your pr... |
+| [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 334 | 2026-09-19 | Catppuccin Theme but as blurred variants + custom ones |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 136 | 2026-09-19 | The Ruby language support for Zed editor |
 | [MahoCommerce/zed](https://github.com/MahoCommerce/zed) | 1 | 2026-09-19 | Maho extension for Zed. |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-09-19 | Intelligent codebase search & indexing for Zed. Async MCP se... |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [giterlizzi/secdb-zed](https://github.com/giterlizzi/secdb-zed) | 0 | 2026-09-17 | ZED extension for ZEN SecDB CLI |
 | [ibehren1/zed-newspaper-theme](https://github.com/ibehren1/zed-newspaper-theme) | 0 | 2026-09-17 | Flat, monochrome, letterpress/e-ink theme. Newsprint surface... |
 | [mschuwalow/languagetool-zed-extension](https://github.com/mschuwalow/languagetool-zed-extension) | 0 | 2026-09-17 |  |
-| [Yezarath/zed-catppuccin-glass](https://github.com/Yezarath/zed-catppuccin-glass) | 0 | 2026-09-17 | Transparent Catppuccin themes for the Zed editor — 18 froste... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-09-19T20:59 | 0 | 619 | 2205 |
 | 2026-09-19T16:03 | 0 | 619 | 2205 |
 | 2026-09-19T11:30 | 1 | 618 | 2205 |
 | 2026-09-19T05:01 | 4 | 617 | 2204 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-09-18T05:10 | 2 | 613 | 2189 |
 | 2026-09-17T21:44 | 1 | 612 | 2187 |
 | 2026-09-17T17:15 | 2 | 612 | 2186 |
-| 2026-09-17T12:03 | 3 | 611 | 2184 |
 
 ---
 
