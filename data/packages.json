@@ -3392,7 +3392,7 @@
     "license": "MIT",
     "created_at": "2024-07-12T16:43:02Z",
     "updated_at": "2026-09-17T07:25:54Z",
-    "pushed_at": "2026-09-18T04:00:47Z",
+    "pushed_at": "2026-09-19T03:58:33Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -5311,7 +5311,7 @@
     "name": "moabualruz/claude-code-cli-acp",
     "url": "https://github.com/moabualruz/claude-code-cli-acp",
     "description": "ACP adapter for the real Claude Code CLI: Rust PTY bridge for Zed and other Agent Client Protocol clients.",
-    "stars": 15,
+    "stars": 16,
     "forks": 3,
     "topics": [
       "acp",
@@ -5338,7 +5338,7 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-05-14T10:16:29Z",
-    "updated_at": "2026-09-08T06:07:31Z",
+    "updated_at": "2026-09-19T00:42:36Z",
     "pushed_at": "2026-06-11T17:08:35Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
@@ -18024,8 +18024,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-09-18T16:43:34Z",
-    "pushed_at": "2026-09-18T16:43:30Z",
+    "updated_at": "2026-09-18T21:15:13Z",
+    "pushed_at": "2026-09-18T21:15:08Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -28999,8 +28999,8 @@
     "language": null,
     "license": null,
     "created_at": "2026-05-25T05:34:31Z",
-    "updated_at": "2026-09-16T16:36:43Z",
-    "pushed_at": "2026-09-16T16:36:39Z",
+    "updated_at": "2026-09-19T01:36:08Z",
+    "pushed_at": "2026-09-19T01:36:04Z",
     "discovered_at": "2026-05-26T07:12:20.287Z",
     "official": false
   },
@@ -32050,8 +32050,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
-    "updated_at": "2026-09-15T19:25:15Z",
-    "pushed_at": "2026-09-15T19:25:10Z",
+    "updated_at": "2026-09-19T03:30:51Z",
+    "pushed_at": "2026-09-19T03:30:46Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false
   },
@@ -36882,8 +36882,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-08-30T13:17:22Z",
-    "updated_at": "2026-09-13T15:14:06Z",
-    "pushed_at": "2026-09-13T15:14:01Z",
+    "updated_at": "2026-09-19T02:40:53Z",
+    "pushed_at": "2026-09-19T02:40:48Z",
     "discovered_at": "2026-09-06T12:46:50.552Z",
     "official": false
   },
@@ -36959,8 +36959,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-09-07T16:00:35Z",
-    "updated_at": "2026-09-18T01:18:16Z",
-    "pushed_at": "2026-09-18T01:18:13Z",
+    "updated_at": "2026-09-19T02:00:07Z",
+    "pushed_at": "2026-09-19T02:00:03Z",
     "discovered_at": "2026-09-07T18:46:27.369Z",
     "official": false
   },
@@ -36968,7 +36968,7 @@
     "name": "BrokkAi/muse-acp",
     "url": "https://github.com/BrokkAi/muse-acp",
     "description": "Use Meta Muse Code in Zed, IntelliJ IDEA, and other JetBrains IDEs with your existing subscription. Dependency-free Rust adapter for Agent Client Protocol (ACP), using the native Muse Session Protocol (MSP).",
-    "stars": 6,
+    "stars": 8,
     "forks": 1,
     "topics": [
       "acp",
@@ -36993,7 +36993,7 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-09-03T18:54:22Z",
-    "updated_at": "2026-09-18T07:58:39Z",
+    "updated_at": "2026-09-19T03:25:20Z",
     "pushed_at": "2026-09-18T18:27:26Z",
     "discovered_at": "2026-09-09T01:10:37.044Z",
     "official": false
@@ -37398,7 +37398,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-08-28T14:03:54Z",
     "updated_at": "2026-09-18T02:36:17Z",
-    "pushed_at": "2026-09-18T02:37:06Z",
+    "pushed_at": "2026-09-19T01:32:46Z",
     "discovered_at": "2026-09-13T21:07:24.622Z",
     "official": false
   },
@@ -37949,5 +37949,73 @@
     "pushed_at": "2026-06-24T21:03:40Z",
     "discovered_at": "2026-09-18T16:43:01.919Z",
     "official": true
+  },
+  "gugahoi/zed-css-modules-lsp": {
+    "name": "gugahoi/zed-css-modules-lsp",
+    "url": "https://github.com/gugahoi/zed-css-modules-lsp",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2026-06-22T01:59:34Z",
+    "updated_at": "2026-08-18T05:47:28Z",
+    "pushed_at": "2026-08-18T06:07:05Z",
+    "discovered_at": "2026-09-19T05:01:44.112Z",
+    "official": true
+  },
+  "pedronhamirre/lumenhush-theme": {
+    "name": "pedronhamirre/lumenhush-theme",
+    "url": "https://github.com/pedronhamirre/lumenhush-theme",
+    "description": "A calm dark theme for Zed with warm accents and low-contrast color separation.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-09-05T17:31:58Z",
+    "updated_at": "2026-09-05T17:32:36Z",
+    "pushed_at": "2026-09-05T17:32:33Z",
+    "discovered_at": "2026-09-19T05:01:44.112Z",
+    "official": true
+  },
+  "postdare/zed-postdare": {
+    "name": "postdare/zed-postdare",
+    "url": "https://github.com/postdare/zed-postdare",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-09-10T04:53:02Z",
+    "updated_at": "2026-09-10T05:02:40Z",
+    "pushed_at": "2026-09-10T05:02:36Z",
+    "discovered_at": "2026-09-19T05:01:44.112Z",
+    "official": true
+  },
+  "tensorfoundrylabs/theme-zed": {
+    "name": "tensorfoundrylabs/theme-zed",
+    "url": "https://github.com/tensorfoundrylabs/theme-zed",
+    "description": "Our internal  Zed dark theme.",
+    "stars": 1,
+    "forks": 0,
+    "topics": [
+      "zed",
+      "zed-editor",
+      "zed-editor-theme",
+      "zed-extension",
+      "zed-extensions",
+      "zed-theme",
+      "zed-themes"
+    ],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-09-19T01:39:24Z",
+    "updated_at": "2026-09-19T03:23:21Z",
+    "pushed_at": "2026-09-19T03:01:55Z",
+    "discovered_at": "2026-09-19T05:01:44.112Z",
+    "official": false
   }
 }
