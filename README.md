@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1798-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1799-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,18 +14,18 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1798** |
+| Total tracked | **1799** |
 | In official registry | 1292 |
-| Discovered via topics | 506 |
-| Last updated | 2026-09-19 05:01 UTC |
+| Discovered via topics | 507 |
+| Last updated | 2026-09-19 11:30 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
 | Themes | 769 |
-| Grammars | 627 |
-| Language Servers | 583 |
+| Grammars | 628 |
+| Language Servers | 584 |
 | Context Servers | 138 |
 | Snippets | 85 |
 | Slash Commands | 61 |
@@ -70,6 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [thoriqakbar0/fsl-lsp](https://github.com/thoriqakbar0/fsl-lsp) | 0 | Pre-alpha FSL grammar, Zed extension, and language-server integration |
 | [gugahoi/zed-css-modules-lsp](https://github.com/gugahoi/zed-css-modules-lsp) | 0 |  |
 | [pedronhamirre/lumenhush-theme](https://github.com/pedronhamirre/lumenhush-theme) | 0 | A calm dark theme for Zed with warm accents and low-contrast color separation. |
 | [postdare/zed-postdare](https://github.com/postdare/zed-postdare) | 0 |  |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [NikolasSkyl/donna-zed](https://github.com/NikolasSkyl/donna-zed) | 0 | 🔲 Zed Editor Extension for Donna Language |
 | [Feral-Lang/Zed](https://github.com/Feral-Lang/Zed) | 0 | Language support for Zed editor. |
 | [relkian/zed-extension-salt](https://github.com/relkian/zed-extension-salt) | 1 | Salt (AKA SaltStack) files syntax highlighting for Zed editor |
-| [BANSAFAn/i18n-zed](https://github.com/BANSAFAn/i18n-zed) | 1 | A small script for Zed Editor that makes it easy to work with I18n (currently in... |
 
 ## Top starred (under 500)
 
@@ -97,7 +97,7 @@ cd website && npm install && npm run dev
 |---|---|---|
 | [biomejs/biome-zed](https://github.com/biomejs/biome-zed) | 466 | Biome extension for Zed |
 | [xhyrom/zed-discord-presence](https://github.com/xhyrom/zed-discord-presence) | 415 | extension for zed that adds support for discord rich presence using lsp |
-| [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 335 | Catppuccin Theme but as blurred variants + custom ones |
+| [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 334 | Catppuccin Theme but as blurred variants + custom ones |
 | [oxc-project/oxc-zed](https://github.com/oxc-project/oxc-zed) | 256 | Oxc extension for Zed |
 | [catppuccin/zed-icons](https://github.com/catppuccin/zed-icons) | 240 | 🦊 Soothing pastel icons for Zed |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 216 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
@@ -120,15 +120,17 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 335 | 2026-09-19 | Catppuccin Theme but as blurred variants + custom ones |
+| [thoriqakbar0/fsl-lsp](https://github.com/thoriqakbar0/fsl-lsp) | 0 | 2026-09-19 | Pre-alpha FSL grammar, Zed extension, and language-server in... |
+| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 136 | 2026-09-19 | The Ruby language support for Zed editor |
+| [MahoCommerce/zed](https://github.com/MahoCommerce/zed) | 1 | 2026-09-19 | Maho extension for Zed. |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-09-19 | Intelligent codebase search & indexing for Zed. Async MCP se... |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 216 | 2026-09-19 | Zed plugin for automatic time tracking and metrics generated... |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 99 | 2026-09-19 | True Dark Theme for Zed IDE |
+| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-09-19 | A Zed extension that allows to highlight all occurrences of ... |
+| [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 334 | 2026-09-19 | Catppuccin Theme but as blurred variants + custom ones |
 | [tensorfoundrylabs/theme-zed](https://github.com/tensorfoundrylabs/theme-zed) | 1 | 2026-09-19 | Our internal  Zed dark theme. |
-| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-09-18 | A Zed extension that allows to highlight all occurrences of ... |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 216 | 2026-09-18 | Zed plugin for automatic time tracking and metrics generated... |
 | [daryllepv/zed-auto-self-close-tag](https://github.com/daryllepv/zed-auto-self-close-tag) | 0 | 2026-09-18 | Zed extension that automatically complete self-closing tags ... |
 | [NeroWolfe75/brackets-refined-zed](https://github.com/NeroWolfe75/brackets-refined-zed) | 0 | 2026-09-18 | A refined dark theme for Zed with a neutral interface and ca... |
-| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 136 | 2026-09-18 | The Ruby language support for Zed editor |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 99 | 2026-09-18 | True Dark Theme for Zed IDE |
 | [seahsky/gin-csv](https://github.com/seahsky/gin-csv) | 0 | 2026-09-18 | Delimited files in Zed with coloured columns, and sort, filt... |
 | [hazicy/milo-theme-zed](https://github.com/hazicy/milo-theme-zed) | 0 | 2026-09-18 |  |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 4 | 2026-09-17 | Spring Boot language intelligence for Zed, built on the requ... |
@@ -138,13 +140,12 @@ cd website && npm install && npm run dev
 | [Yezarath/zed-catppuccin-glass](https://github.com/Yezarath/zed-catppuccin-glass) | 0 | 2026-09-17 | Transparent Catppuccin themes for the Zed editor — 18 froste... |
 | [BANSAFAn/i18n-zed](https://github.com/BANSAFAn/i18n-zed) | 1 | 2026-09-17 | A small script for Zed Editor that makes it easy to work wit... |
 | [blacktop/zed-objc](https://github.com/blacktop/zed-objc) | 4 | 2026-09-17 | Objective-C support for Zed |
-| [catthode/zed](https://github.com/catthode/zed) | 0 | 2026-09-16 | Warm OLED theme for Zed |
-| [SinaMombeiny/S-DarkTheme.zed](https://github.com/SinaMombeiny/S-DarkTheme.zed) | 5 | 2026-09-16 | Dark theme for Zed |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-09-19T11:30 | 1 | 618 | 2205 |
 | 2026-09-19T05:01 | 4 | 617 | 2204 |
 | 2026-09-18T21:14 | 0 | 617 | 2200 |
 | 2026-09-18T16:43 | 6 | 617 | 2200 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-09-17T17:15 | 2 | 612 | 2186 |
 | 2026-09-17T12:03 | 3 | 611 | 2184 |
 | 2026-09-17T05:21 | 2 | 609 | 2181 |
-| 2026-09-16T21:41 | 0 | 609 | 2179 |
 
 ---
 
