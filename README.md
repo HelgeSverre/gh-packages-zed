@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1799** |
 | In official registry | 1292 |
 | Discovered via topics | 507 |
-| Last updated | 2026-09-19 11:30 UTC |
+| Last updated | 2026-09-19 16:03 UTC |
 
 ### By capability
 
@@ -120,6 +120,9 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-09-19 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
+| [DankDown10256/licensr](https://github.com/DankDown10256/licensr) | 0 | 2026-09-19 | Licensr is a Zed IDE extension to write licenses for your pr... |
+| [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 334 | 2026-09-19 | Catppuccin Theme but as blurred variants + custom ones |
 | [thoriqakbar0/fsl-lsp](https://github.com/thoriqakbar0/fsl-lsp) | 0 | 2026-09-19 | Pre-alpha FSL grammar, Zed extension, and language-server in... |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 136 | 2026-09-19 | The Ruby language support for Zed editor |
 | [MahoCommerce/zed](https://github.com/MahoCommerce/zed) | 1 | 2026-09-19 | Maho extension for Zed. |
@@ -127,7 +130,6 @@ cd website && npm install && npm run dev
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 216 | 2026-09-19 | Zed plugin for automatic time tracking and metrics generated... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 99 | 2026-09-19 | True Dark Theme for Zed IDE |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-09-19 | A Zed extension that allows to highlight all occurrences of ... |
-| [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 334 | 2026-09-19 | Catppuccin Theme but as blurred variants + custom ones |
 | [tensorfoundrylabs/theme-zed](https://github.com/tensorfoundrylabs/theme-zed) | 1 | 2026-09-19 | Our internal  Zed dark theme. |
 | [daryllepv/zed-auto-self-close-tag](https://github.com/daryllepv/zed-auto-self-close-tag) | 0 | 2026-09-18 | Zed extension that automatically complete self-closing tags ... |
 | [NeroWolfe75/brackets-refined-zed](https://github.com/NeroWolfe75/brackets-refined-zed) | 0 | 2026-09-18 | A refined dark theme for Zed with a neutral interface and ca... |
@@ -138,13 +140,12 @@ cd website && npm install && npm run dev
 | [ibehren1/zed-newspaper-theme](https://github.com/ibehren1/zed-newspaper-theme) | 0 | 2026-09-17 | Flat, monochrome, letterpress/e-ink theme. Newsprint surface... |
 | [mschuwalow/languagetool-zed-extension](https://github.com/mschuwalow/languagetool-zed-extension) | 0 | 2026-09-17 |  |
 | [Yezarath/zed-catppuccin-glass](https://github.com/Yezarath/zed-catppuccin-glass) | 0 | 2026-09-17 | Transparent Catppuccin themes for the Zed editor — 18 froste... |
-| [BANSAFAn/i18n-zed](https://github.com/BANSAFAn/i18n-zed) | 1 | 2026-09-17 | A small script for Zed Editor that makes it easy to work wit... |
-| [blacktop/zed-objc](https://github.com/blacktop/zed-objc) | 4 | 2026-09-17 | Objective-C support for Zed |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-09-19T16:03 | 0 | 619 | 2205 |
 | 2026-09-19T11:30 | 1 | 618 | 2205 |
 | 2026-09-19T05:01 | 4 | 617 | 2204 |
 | 2026-09-18T21:14 | 0 | 617 | 2200 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-09-17T21:44 | 1 | 612 | 2187 |
 | 2026-09-17T17:15 | 2 | 612 | 2186 |
 | 2026-09-17T12:03 | 3 | 611 | 2184 |
-| 2026-09-17T05:21 | 2 | 609 | 2181 |
 
 ---
 

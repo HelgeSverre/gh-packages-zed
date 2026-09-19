@@ -1,6 +1,11 @@
-# TWrite
+<h1 align="center">TWrite</h1>
 
-[![Docs](https://img.shields.io/badge/docs-notes.toonion.net%2Fdocs-blue)](https://toonionofficial.github.io/twrite/docs)
+<p align="center">
+  <a href="https://crates.io/crates/twrite"><img src="https://img.shields.io/crates/v/twrite.svg" alt="Release"></a>
+  <a href="https://docs.rs/twrite"><img src="https://docs.rs/twrite/badge.svg" alt="Docs"></a>
+  <a href="https://github.com/ToonionOfficial/twrite/actions/workflows/ci.yml"><img src="https://github.com/ToonionOfficial/twrite/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+  <a href="https://github.com/ToonionOfficial/twrite/blob/main/LICENSE"><img src="https://img.shields.io/crates/l/twrite.svg" alt="Licence"></a>
+</p>
 
 TWrite is a fast, modular text editor crate for Rust. Leveraging the GPU-accelerated GPUI framework developed by [Zed](https://github.com/zed-industries/zed), it provides a responsive, extensible base for building modern text, Markdown, and custom-language editors
 
@@ -9,14 +14,25 @@ Full guides plus the API reference live at
 
 ## Install
 
-TWrite is not on crates.io yet; depend on git:
+```sh
+cargo add gpui@0.2 twrite
+```
 
-```toml
-twrite = { git = "https://github.com/ToonionOfficial/twrite", version = "0.7" }
+For Markdown support:
+
+```sh
+cargo add twrite --features markdown
+```
+
+For a specific GPU backend on Linux (Wayland or X11):
+
+```sh
+cargo add gpui@0.2 --no-default-features --features wayland
+cargo add twrite --no-default-features --features wayland
 ```
 
 Linux also needs GPUI system libraries; see the
-[full setup](https://notes.toonion.net/docs/getting-started.html).
+[full setup](https://toonionofficial.github.io/twrite/docs/getting-started.html).
 
 ## Usage
 
