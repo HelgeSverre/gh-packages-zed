@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1799** |
 | In official registry | 1292 |
 | Discovered via topics | 507 |
-| Last updated | 2026-09-19 20:59 UTC |
+| Last updated | 2026-09-20 05:23 UTC |
 
 ### By capability
 
@@ -121,7 +121,7 @@ cd website && npm install && npm run dev
 | Package | Stars | Last push | Description |
 |---|---|---|---|
 | [thoriqakbar0/fsl-lsp](https://github.com/thoriqakbar0/fsl-lsp) | 0 | 2026-09-19 | Pre-alpha FSL grammar, Zed extension, and language-server in... |
-| [BANSAFAn/i18n-zed](https://github.com/BANSAFAn/i18n-zed) | 1 | 2026-09-19 | A small script for Zed Editor that makes it easy to work wit... |
+| [BANSAFAn/i18n-zed](https://github.com/BANSAFAn/i18n-zed) | 2 | 2026-09-19 | A small script for Zed Editor that makes it easy to work wit... |
 | [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-09-19 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
 | [DankDown10256/licensr](https://github.com/DankDown10256/licensr) | 1 | 2026-09-19 | Licensr is a Zed IDE extension to write licenses for your pr... |
 | [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 334 | 2026-09-19 | Catppuccin Theme but as blurred variants + custom ones |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-09-20T05:23 | 0 | 619 | 2205 |
 | 2026-09-19T20:59 | 0 | 619 | 2205 |
 | 2026-09-19T16:03 | 0 | 619 | 2205 |
 | 2026-09-19T11:30 | 1 | 618 | 2205 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-09-18T11:47 | 5 | 615 | 2194 |
 | 2026-09-18T05:10 | 2 | 613 | 2189 |
 | 2026-09-17T21:44 | 1 | 612 | 2187 |
-| 2026-09-17T17:15 | 2 | 612 | 2186 |
 
 ---
 
