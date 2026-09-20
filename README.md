@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1798** |
 | In official registry | 1292 |
 | Discovered via topics | 506 |
-| Last updated | 2026-09-20 11:47 UTC |
+| Last updated | 2026-09-20 16:28 UTC |
 
 ### By capability
 
@@ -103,7 +103,7 @@ cd website && npm install && npm run dev
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 216 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
 | [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 207 | Zed support for the Godot game engine and the GDScript language |
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
-| [zed-extensions/typst](https://github.com/zed-extensions/typst) | 199 | Typst extension for zed |
+| [zed-extensions/typst](https://github.com/zed-extensions/typst) | 200 | Typst extension for zed |
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
@@ -120,8 +120,9 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Azagtot/zed-mikrotik-routeros](https://github.com/Azagtot/zed-mikrotik-routeros) | 2 | 2026-09-20 | MikroTik RouterOS syntax, snippets, diagnostics, and complet... |
+| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 5 | 2026-09-20 | Spring Boot language intelligence for Zed, built on the requ... |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-09-20 | Intelligent codebase search & indexing for Zed. Async MCP se... |
-| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 4 | 2026-09-20 | Spring Boot language intelligence for Zed, built on the requ... |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-09-20 | Zed editor support for Carve, a modern light markup language |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 99 | 2026-09-20 | True Dark Theme for Zed IDE |
 | [thoriqakbar0/fsl-lsp](https://github.com/thoriqakbar0/fsl-lsp) | 0 | 2026-09-19 | Pre-alpha FSL grammar, Zed extension, and language-server in... |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [seahsky/gin-csv](https://github.com/seahsky/gin-csv) | 0 | 2026-09-18 | Delimited files in Zed with coloured columns, and sort, filt... |
 | [hazicy/milo-theme-zed](https://github.com/hazicy/milo-theme-zed) | 0 | 2026-09-18 |  |
 | [giterlizzi/secdb-zed](https://github.com/giterlizzi/secdb-zed) | 0 | 2026-09-17 | ZED extension for ZEN SecDB CLI |
-| [ibehren1/zed-newspaper-theme](https://github.com/ibehren1/zed-newspaper-theme) | 0 | 2026-09-17 | Flat, monochrome, letterpress/e-ink theme. Newsprint surface... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-09-20T16:28 | 0 | 619 | 2204 |
 | 2026-09-20T11:47 | 0 | 619 | 2204 |
 | 2026-09-20T05:23 | 0 | 619 | 2205 |
 | 2026-09-19T20:59 | 0 | 619 | 2205 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-09-18T21:14 | 0 | 617 | 2200 |
 | 2026-09-18T16:43 | 6 | 617 | 2200 |
 | 2026-09-18T11:47 | 5 | 615 | 2194 |
-| 2026-09-18T05:10 | 2 | 613 | 2189 |
 
 ---
 
