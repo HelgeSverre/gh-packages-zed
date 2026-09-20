@@ -142,8 +142,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-09-19T06:42:45Z",
-    "pushed_at": "2026-09-19T06:42:41Z",
+    "updated_at": "2026-09-20T07:06:55Z",
+    "pushed_at": "2026-09-20T07:06:51Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -3696,7 +3696,7 @@
     "url": "https://github.com/chopratejas/headroom-zed",
     "description": "Zed extension for Headroom — context compression for AI agents",
     "stars": 68,
-    "forks": 15,
+    "forks": 16,
     "topics": [
       "ai-agents",
       "coding-agents",
@@ -44337,48 +44337,6 @@
       ]
     }
   },
-  "razen-core/zed-spai-zero-theme": {
-    "name": "razen-core/zed-spai-zero-theme",
-    "url": "https://github.com/razen-core/zed-spai-zero-theme",
-    "description": "A sleek dark theme with cyan accents and modern styling for zed ide.",
-    "stars": 1,
-    "forks": 1,
-    "topics": [],
-    "language": null,
-    "license": "MIT",
-    "created_at": "2025-06-08T14:28:54Z",
-    "updated_at": "2026-01-29T12:34:22Z",
-    "pushed_at": "2025-09-20T08:44:45Z",
-    "discovered_at": "2026-05-20T02:57:03.419Z",
-    "official": false,
-    "extension": {
-      "id": "spai-zero-theme",
-      "name": "Spai Zero Theme",
-      "description": "3 premium dark themes with vibrant accents: Space Gray, Midnight Blue & Deep Green variants",
-      "version": "0.2.1",
-      "schema_version": 1,
-      "authors": [
-        "Prathmesh </> (Prathmesh Barot) <prathmeshbarot2009@gmail.com>"
-      ],
-      "repository": "https://github.com/BasaiCorp/zed-spai-zero-theme",
-      "snippets": null,
-      "sections": [
-        "lib",
-        "grammars",
-        "language_servers",
-        "context_servers",
-        "slash_commands",
-        "indexed_docs_providers"
-      ],
-      "categories": [
-        "grammar",
-        "language-server",
-        "slash-command",
-        "context-server",
-        "docs-provider"
-      ]
-    }
-  },
   "remorses/spiceflow-zed-theme": {
     "name": "remorses/spiceflow-zed-theme",
     "url": "https://github.com/remorses/spiceflow-zed-theme",
@@ -53800,7 +53758,7 @@
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
     "updated_at": "2026-09-19T08:18:28Z",
-    "pushed_at": "2026-09-19T08:18:24Z",
+    "pushed_at": "2026-09-20T10:41:05Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false,
     "extension": {
@@ -53930,8 +53888,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-06-01T12:22:18Z",
-    "updated_at": "2026-09-15T04:07:15Z",
-    "pushed_at": "2026-09-15T04:07:11Z",
+    "updated_at": "2026-09-20T09:44:52Z",
+    "pushed_at": "2026-09-20T09:44:48Z",
     "discovered_at": "2026-07-09T13:39:01.645Z",
     "official": true,
     "extension": {
@@ -54735,8 +54693,8 @@
     "language": "JavaScript",
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
-    "updated_at": "2026-09-18T10:04:15Z",
-    "pushed_at": "2026-09-17T22:44:14Z",
+    "updated_at": "2026-09-20T09:28:32Z",
+    "pushed_at": "2026-09-20T10:17:45Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false,
     "extension": {
