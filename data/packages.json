@@ -5148,7 +5148,7 @@
     "name": "Dylanmurzello/zed-android-port",
     "url": "https://github.com/Dylanmurzello/zed-android-port",
     "description": "Native Android port of the Zed code editor,  gpui rendering through Vulkan, integrated Termux for LSPs and tooling, remote SSH support. Runs as an APK on tablets and Android desktop modes.",
-    "stars": 216,
+    "stars": 217,
     "forks": 18,
     "topics": [
       "android",
@@ -5175,7 +5175,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-05-07T00:12:10Z",
-    "updated_at": "2026-09-19T12:56:17Z",
+    "updated_at": "2026-09-20T19:25:54Z",
     "pushed_at": "2026-08-07T13:48:06Z",
     "discovered_at": "2026-05-19T19:54:12.053Z",
     "official": false
@@ -6435,7 +6435,7 @@
     "name": "makinda-jackson/makinda-themes",
     "url": "https://github.com/makinda-jackson/makinda-themes",
     "description": "Premium light and dark themes for VS Code, JetBrains, Sublime Text, Zed, Obsidian, and 10+ terminals — warm orange accents, WCAG-AA contrast",
-    "stars": 3,
+    "stars": 4,
     "forks": 0,
     "topics": [
       "color-scheme",
@@ -6456,7 +6456,7 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2021-07-23T12:37:58Z",
-    "updated_at": "2026-08-13T12:21:50Z",
+    "updated_at": "2026-09-20T20:54:26Z",
     "pushed_at": "2026-05-06T18:45:31Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
@@ -18024,8 +18024,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-09-20T11:48:21Z",
-    "pushed_at": "2026-09-20T11:48:17Z",
+    "updated_at": "2026-09-20T16:29:03Z",
+    "pushed_at": "2026-09-20T16:29:00Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -28984,8 +28984,8 @@
     "language": null,
     "license": null,
     "created_at": "2026-05-25T05:34:31Z",
-    "updated_at": "2026-09-19T16:07:19Z",
-    "pushed_at": "2026-09-19T16:07:16Z",
+    "updated_at": "2026-09-20T16:44:52Z",
+    "pushed_at": "2026-09-20T16:44:49Z",
     "discovered_at": "2026-05-26T07:12:20.287Z",
     "official": false
   },
@@ -35601,8 +35601,8 @@
     "language": null,
     "license": null,
     "created_at": "2026-08-16T21:55:25Z",
-    "updated_at": "2026-09-20T15:44:55Z",
-    "pushed_at": "2026-09-20T15:44:51Z",
+    "updated_at": "2026-09-20T19:51:11Z",
+    "pushed_at": "2026-09-20T19:51:07Z",
     "discovered_at": "2026-08-17T01:03:46.357Z",
     "official": false
   },
@@ -35921,7 +35921,7 @@
     "name": "ryonakae/zerdr",
     "url": "https://github.com/ryonakae/zerdr",
     "description": "Keep Herdr and Zed workspaces in sync.",
-    "stars": 3,
+    "stars": 4,
     "forks": 0,
     "topics": [
       "ai-agents",
@@ -35938,7 +35938,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-08-17T17:19:02Z",
-    "updated_at": "2026-09-12T14:10:48Z",
+    "updated_at": "2026-09-20T18:34:28Z",
     "pushed_at": "2026-09-12T14:10:46Z",
     "discovered_at": "2026-08-25T07:01:02.282Z",
     "official": false
@@ -36867,8 +36867,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-08-30T13:17:22Z",
-    "updated_at": "2026-09-20T16:19:42Z",
-    "pushed_at": "2026-09-20T16:19:38Z",
+    "updated_at": "2026-09-20T16:50:58Z",
+    "pushed_at": "2026-09-20T16:50:54Z",
     "discovered_at": "2026-09-06T12:46:50.552Z",
     "official": false
   },
@@ -38022,6 +38022,84 @@
     "updated_at": "2026-09-19T10:14:32Z",
     "pushed_at": "2026-09-19T18:32:59Z",
     "discovered_at": "2026-09-19T11:30:45.335Z",
+    "official": false
+  },
+  "neatsorg/zed-writing-tools": {
+    "name": "neatsorg/zed-writing-tools",
+    "url": "https://github.com/neatsorg/zed-writing-tools",
+    "description": "Zed extensions and language servers for Japanese writing tools",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "conversion",
+      "deepl",
+      "document-writing",
+      "english-translation",
+      "hankaku",
+      "japanese",
+      "japanese-kana",
+      "japanese-language",
+      "japanese-translation",
+      "lsp",
+      "lsp-server",
+      "proofreading",
+      "text-writer",
+      "translation",
+      "writing",
+      "zed",
+      "zed-extension",
+      "zenkaku",
+      "zenkaku-hankaku"
+    ],
+    "language": "JavaScript",
+    "license": "GPL-3.0",
+    "created_at": "2026-09-20T17:38:03Z",
+    "updated_at": "2026-09-20T20:06:56Z",
+    "pushed_at": "2026-09-20T20:06:52Z",
+    "discovered_at": "2026-09-20T21:03:00.798Z",
+    "official": false
+  },
+  "neatsorg/zed-scratch-buffers": {
+    "name": "neatsorg/zed-scratch-buffers",
+    "url": "https://github.com/neatsorg/zed-scratch-buffers",
+    "description": "Patch repository for persistent unsaved buffers in Zed",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "document-writer",
+      "document-writing",
+      "text-editor",
+      "text-writer",
+      "zed",
+      "zed-editor"
+    ],
+    "language": "Shell",
+    "license": "GPL-3.0",
+    "created_at": "2026-09-20T17:38:10Z",
+    "updated_at": "2026-09-20T18:38:35Z",
+    "pushed_at": "2026-09-20T18:29:29Z",
+    "discovered_at": "2026-09-20T21:03:00.800Z",
+    "official": false
+  },
+  "neatsorg/zed-word-counter": {
+    "name": "neatsorg/zed-word-counter",
+    "url": "https://github.com/neatsorg/zed-word-counter",
+    "description": "Patch repository for document statistics in the Zed status bar",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "document-writer",
+      "document-writing",
+      "text-writer",
+      "zed",
+      "zed-editor"
+    ],
+    "language": "Shell",
+    "license": "GPL-3.0",
+    "created_at": "2026-09-20T17:38:06Z",
+    "updated_at": "2026-09-20T18:37:20Z",
+    "pushed_at": "2026-09-20T18:17:55Z",
+    "discovered_at": "2026-09-20T21:03:00.800Z",
     "official": false
   }
 }
