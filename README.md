@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1798** |
 | In official registry | 1292 |
 | Discovered via topics | 506 |
-| Last updated | 2026-09-20 21:03 UTC |
+| Last updated | 2026-09-21 05:27 UTC |
 
 ### By capability
 
@@ -120,8 +120,8 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 5 | 2026-09-21 | Spring Boot language intelligence for Zed, built on the requ... |
 | [Azagtot/zed-mikrotik-routeros](https://github.com/Azagtot/zed-mikrotik-routeros) | 2 | 2026-09-20 | MikroTik RouterOS syntax, snippets, diagnostics, and complet... |
-| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 5 | 2026-09-20 | Spring Boot language intelligence for Zed, built on the requ... |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-09-20 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-09-20 | Zed editor support for Carve, a modern light markup language |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 99 | 2026-09-20 | True Dark Theme for Zed IDE |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-09-21T05:27 | 0 | 622 | 2207 |
 | 2026-09-20T21:03 | 3 | 619 | 2207 |
 | 2026-09-20T16:28 | 0 | 619 | 2204 |
 | 2026-09-20T11:47 | 0 | 619 | 2204 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-09-19T11:30 | 1 | 618 | 2205 |
 | 2026-09-19T05:01 | 4 | 617 | 2204 |
 | 2026-09-18T21:14 | 0 | 617 | 2200 |
-| 2026-09-18T16:43 | 6 | 617 | 2200 |
 
 ---
 
