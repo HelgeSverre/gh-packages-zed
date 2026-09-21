@@ -1,0 +1,11 @@
+id = "heta"
+name = "Heta"
+version = "0.1.0"
+schema_version = 1
+authors = ["Alexander Stepanov <stepanov@insysbio.com>"]
+description = "Heta syntax highlighting for Zed."
+repository = "https://github.com/hetalang/zed-heta"
+
+[grammars.heta]
+repository = "https://github.com/hetalang/tree-sitter-heta"
+rev = "0ded6b2af2e5ec31576ee367d1478219a7326775"

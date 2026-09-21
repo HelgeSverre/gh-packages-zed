@@ -1,0 +1,11 @@
+id = "sbpf-assembly"
+name = "sBPF Assembly"
+version = "0.1.0"
+schema_version = 1
+authors = ["Perelyn-sama"]
+description = "Syntax highlighting for Solana sBPF Assembly."
+repository = "https://github.com/Perelyn-sama/sbpf-assembly"
+
+[grammars.sbpf_asm]
+repository = "https://github.com/Perelyn-sama/tree-sitter-sbpf-asm"
+commit = "63c46ff19b88bcce22b30c9fe230f9062e98710b"

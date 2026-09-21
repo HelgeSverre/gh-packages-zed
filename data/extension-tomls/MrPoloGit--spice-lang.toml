@@ -1,0 +1,17 @@
+id = "spice-lang"
+name = "Spice"
+version = "0.2.0"
+schema_version = 1
+authors = [
+    "MrPoloGit",
+]
+description = "Syntax highlighting and language server support for SPICE circuit netlists (.cir, .sp, .spi, .lib, .mod, .mdl)"
+repository = "https://github.com/MrPoloGit/spice-lang"
+
+[grammars.spice]
+repository = "https://github.com/MrPoloGit/tree-sitter-spice"
+rev = "eb725bc0efdeaaf4e408e8d91045ec5d0e69992f"
+
+[language_servers.spice-lsp]
+name = "Spice LSP"
+languages = ["Spice"]

@@ -1,0 +1,15 @@
+id = "hfst"
+name = "HFST"
+version = "0.0.1"
+schema_version = 1
+authors = ["Aboobacker MK <aboobackervyd@gmail.com>"]
+description = "HFST language support for Zed: TWOL (Two-Level Morphology) and LEXC (Lexicon Compiler)"
+repository = "https://github.com/tachyons/zed-hfst"
+
+[grammars.twol]
+repository = "https://github.com/tachyons/tree-sitter-twol"
+commit = "07e4424626c76cc8b34b16d3a31294e455d2667a"
+
+[grammars.lexc]
+repository = "https://github.com/tachyons/tree-sitter-lexc"
+commit = "40f1b2fced29314f15d7d76d6f789697045166dd"

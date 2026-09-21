@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1798-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1807-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,18 +14,18 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1798** |
-| In official registry | 1292 |
-| Discovered via topics | 506 |
-| Last updated | 2026-09-21 13:19 UTC |
+| Total tracked | **1807** |
+| In official registry | 1302 |
+| Discovered via topics | 505 |
+| Last updated | 2026-09-21 22:12 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
-| Themes | 769 |
-| Grammars | 627 |
-| Language Servers | 583 |
+| Themes | 772 |
+| Grammars | 631 |
+| Language Servers | 586 |
 | Context Servers | 137 |
 | Snippets | 85 |
 | Slash Commands | 60 |
@@ -70,6 +70,15 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [chalk-ai/chalk-zed](https://github.com/chalk-ai/chalk-zed) | 0 | Zed integration for Chalk language and analysis tooling |
+| [MrCheesie/doodle-icons](https://github.com/MrCheesie/doodle-icons) | 0 | Doodle themed icon pack extension for Zed IDE |
+| [RiverMatsumoto/zed-gruvbox-material-icons](https://github.com/RiverMatsumoto/zed-gruvbox-material-icons) | 0 |  |
+| [hetalang/zed-heta](https://github.com/hetalang/zed-heta) | 1 | Plugin for the Zed editor for highlighting the Heta language |
+| [tachyons/zed-hfst](https://github.com/tachyons/zed-hfst) | 0 | Zed plugin for lexc and twol languages |
+| [lvabarajithan/nous-alt-theme](https://github.com/lvabarajithan/nous-alt-theme) | 0 | Nous Alt theme for Zed |
+| [jorgsowa/php-lsp-zed-extension](https://github.com/jorgsowa/php-lsp-zed-extension) | 1 |  |
+| [Perelyn-sama/sbpf-assembly](https://github.com/Perelyn-sama/sbpf-assembly) | 0 |  |
+| [MrPoloGit/spice-lang](https://github.com/MrPoloGit/spice-lang) | 0 |  |
 | [thoriqakbar0/fsl-lsp](https://github.com/thoriqakbar0/fsl-lsp) | 0 | Pre-alpha FSL grammar, Zed extension, and language-server integration |
 | [gugahoi/zed-css-modules-lsp](https://github.com/gugahoi/zed-css-modules-lsp) | 0 |  |
 | [pedronhamirre/lumenhush-theme](https://github.com/pedronhamirre/lumenhush-theme) | 0 | A calm dark theme for Zed with warm accents and low-contrast color separation. |
@@ -81,15 +90,6 @@ cd website && npm install && npm run dev
 | [okhalri/zed-blink](https://github.com/okhalri/zed-blink) | 0 | Blink IDL syntax highlighting for Zed |
 | [fisherrjd/Grapebox](https://github.com/fisherrjd/Grapebox) | 0 | Purple Theme inspired by GruvBox |
 | [hazicy/milo-theme-zed](https://github.com/hazicy/milo-theme-zed) | 0 |  |
-| [ibehren1/zed-newspaper-theme](https://github.com/ibehren1/zed-newspaper-theme) | 0 | Flat, monochrome, letterpress/e-ink theme. Newsprint surfaces that never reach w... |
-| [giterlizzi/secdb-zed](https://github.com/giterlizzi/secdb-zed) | 0 | ZED extension for ZEN SecDB CLI |
-| [daryllepv/zed-auto-self-close-tag](https://github.com/daryllepv/zed-auto-self-close-tag) | 0 | Zed extension that automatically complete self-closing tags in Zed by typing /. ... |
-| [NeroWolfe75/brackets-refined-zed](https://github.com/NeroWolfe75/brackets-refined-zed) | 0 | A refined dark theme for Zed with a neutral interface and carefully balanced syn... |
-| [seahsky/gin-csv](https://github.com/seahsky/gin-csv) | 0 | Delimited files in Zed with coloured columns, and sort, filter, align and pad wh... |
-| [codetime-dev/codetime-zed](https://github.com/codetime-dev/codetime-zed) | 1 | Automatic coding-time tracking for codetime.dev — Zed editor extension |
-| [NikolasSkyl/donna-zed](https://github.com/NikolasSkyl/donna-zed) | 0 | 🔲 Zed Editor Extension for Donna Language |
-| [Feral-Lang/Zed](https://github.com/Feral-Lang/Zed) | 0 | Language support for Zed editor. |
-| [relkian/zed-extension-salt](https://github.com/relkian/zed-extension-salt) | 1 | Salt (AKA SaltStack) files syntax highlighting for Zed editor |
 
 ## Top starred (under 500)
 
@@ -103,12 +103,12 @@ cd website && npm install && npm run dev
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 216 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
 | [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 207 | Zed support for the Godot game engine and the GDScript language |
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
-| [zed-extensions/typst](https://github.com/zed-extensions/typst) | 200 | Typst extension for zed |
+| [zed-extensions/typst](https://github.com/zed-extensions/typst) | 201 | Typst extension for zed |
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 183 | 🦊 Zed editor theme ported from Neovim |
-| [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 173 | A macOS native style theme for Zed, let it same like native app in macOS. |
+| [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 174 | A macOS native style theme for Zed, let it same like native app in macOS. |
 | [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 154 |  |
 | [zed-extensions/swift](https://github.com/zed-extensions/swift) | 152 | Extension for Zed to support Swift |
 | [thedadams/zed-comment](https://github.com/thedadams/zed-comment) | 148 | A comment extension for the Zed editor |
@@ -120,11 +120,13 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-09-21 | Zed editor support for Carve, a modern light markup language |
+| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-09-21 | Intelligent codebase search & indexing for Zed. Async MCP se... |
+| [JeffreyJYZ/command-code-zed](https://github.com/JeffreyJYZ/command-code-zed) | 1 | 2026-09-21 | Zed extension and cmduse CLI for live Command Code usage: pl... |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 5 | 2026-09-21 | Spring Boot language intelligence for Zed, built on the requ... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 99 | 2026-09-21 | True Dark Theme for Zed IDE |
+| [lvabarajithan/nous-alt-theme](https://github.com/lvabarajithan/nous-alt-theme) | 0 | 2026-09-20 | Nous Alt theme for Zed |
 | [Azagtot/zed-mikrotik-routeros](https://github.com/Azagtot/zed-mikrotik-routeros) | 2 | 2026-09-20 | MikroTik RouterOS syntax, snippets, diagnostics, and complet... |
-| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-09-20 | Intelligent codebase search & indexing for Zed. Async MCP se... |
-| [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-09-20 | Zed editor support for Carve, a modern light markup language |
 | [thoriqakbar0/fsl-lsp](https://github.com/thoriqakbar0/fsl-lsp) | 0 | 2026-09-19 | Pre-alpha FSL grammar, Zed extension, and language-server in... |
 | [BANSAFAn/i18n-zed](https://github.com/BANSAFAn/i18n-zed) | 2 | 2026-09-19 | A small script for Zed Editor that makes it easy to work wit... |
 | [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-09-19 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
@@ -137,14 +139,13 @@ cd website && npm install && npm run dev
 | [tensorfoundrylabs/theme-zed](https://github.com/tensorfoundrylabs/theme-zed) | 1 | 2026-09-19 | Our internal  Zed dark theme. |
 | [daryllepv/zed-auto-self-close-tag](https://github.com/daryllepv/zed-auto-self-close-tag) | 0 | 2026-09-18 | Zed extension that automatically complete self-closing tags ... |
 | [NeroWolfe75/brackets-refined-zed](https://github.com/NeroWolfe75/brackets-refined-zed) | 0 | 2026-09-18 | A refined dark theme for Zed with a neutral interface and ca... |
-| [seahsky/gin-csv](https://github.com/seahsky/gin-csv) | 0 | 2026-09-18 | Delimited files in Zed with coloured columns, and sort, filt... |
-| [hazicy/milo-theme-zed](https://github.com/hazicy/milo-theme-zed) | 0 | 2026-09-18 |  |
-| [giterlizzi/secdb-zed](https://github.com/giterlizzi/secdb-zed) | 0 | 2026-09-17 | ZED extension for ZEN SecDB CLI |
+| [MrCheesie/doodle-icons](https://github.com/MrCheesie/doodle-icons) | 0 | 2026-09-18 | Doodle themed icon pack extension for Zed IDE |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-09-21T22:12 | 14 | 623 | 2225 |
 | 2026-09-21T13:19 | 4 | 620 | 2211 |
 | 2026-09-21T05:27 | 0 | 622 | 2207 |
 | 2026-09-20T21:03 | 3 | 619 | 2207 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-09-19T20:59 | 0 | 619 | 2205 |
 | 2026-09-19T16:03 | 0 | 619 | 2205 |
 | 2026-09-19T11:30 | 1 | 618 | 2205 |
-| 2026-09-19T05:01 | 4 | 617 | 2204 |
 
 ---
 
