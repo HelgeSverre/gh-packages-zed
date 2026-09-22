@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1807-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1810-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,18 +14,18 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1807** |
-| In official registry | 1302 |
+| Total tracked | **1810** |
+| In official registry | 1305 |
 | Discovered via topics | 505 |
-| Last updated | 2026-09-21 22:12 UTC |
+| Last updated | 2026-09-22 05:22 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
-| Themes | 772 |
+| Themes | 774 |
 | Grammars | 631 |
-| Language Servers | 586 |
+| Language Servers | 587 |
 | Context Servers | 137 |
 | Snippets | 85 |
 | Slash Commands | 60 |
@@ -70,6 +70,9 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [chrisdrackett/bamboo-icon-theme-zed](https://github.com/chrisdrackett/bamboo-icon-theme-zed) | 0 | Bamboo Icon Theme for Zed |
+| [Dyqer/openapi](https://github.com/Dyqer/openapi) | 0 | openapi extension for zed |
+| [abhinaaaavvv/truly-zen-theme](https://github.com/abhinaaaavvv/truly-zen-theme) | 0 | A zed editor theme for total concentration. |
 | [chalk-ai/chalk-zed](https://github.com/chalk-ai/chalk-zed) | 0 | Zed integration for Chalk language and analysis tooling |
 | [MrCheesie/doodle-icons](https://github.com/MrCheesie/doodle-icons) | 0 | Doodle themed icon pack extension for Zed IDE |
 | [RiverMatsumoto/zed-gruvbox-material-icons](https://github.com/RiverMatsumoto/zed-gruvbox-material-icons) | 0 |  |
@@ -87,9 +90,6 @@ cd website && npm install && npm run dev
 | [chess10kp/jac-zed](https://github.com/chess10kp/jac-zed) | 0 | Jac support for Zed |
 | [mschuwalow/languagetool-zed-extension](https://github.com/mschuwalow/languagetool-zed-extension) | 0 |  |
 | [KalaayPT/rotom-zed](https://github.com/KalaayPT/rotom-zed) | 0 | Rotom language support for Zed |
-| [okhalri/zed-blink](https://github.com/okhalri/zed-blink) | 0 | Blink IDL syntax highlighting for Zed |
-| [fisherrjd/Grapebox](https://github.com/fisherrjd/Grapebox) | 0 | Purple Theme inspired by GruvBox |
-| [hazicy/milo-theme-zed](https://github.com/hazicy/milo-theme-zed) | 0 |  |
 
 ## Top starred (under 500)
 
@@ -120,13 +120,14 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [JeffreyJYZ/command-code-zed](https://github.com/JeffreyJYZ/command-code-zed) | 1 | 2026-09-22 | Zed extension and cmduse CLI for live Command Code usage: pl... |
+| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 5 | 2026-09-21 | Spring Boot language intelligence for Zed, built on the requ... |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-09-21 | Zed editor support for Carve, a modern light markup language |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-09-21 | Intelligent codebase search & indexing for Zed. Async MCP se... |
-| [JeffreyJYZ/command-code-zed](https://github.com/JeffreyJYZ/command-code-zed) | 1 | 2026-09-21 | Zed extension and cmduse CLI for live Command Code usage: pl... |
-| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 5 | 2026-09-21 | Spring Boot language intelligence for Zed, built on the requ... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 99 | 2026-09-21 | True Dark Theme for Zed IDE |
 | [lvabarajithan/nous-alt-theme](https://github.com/lvabarajithan/nous-alt-theme) | 0 | 2026-09-20 | Nous Alt theme for Zed |
 | [Azagtot/zed-mikrotik-routeros](https://github.com/Azagtot/zed-mikrotik-routeros) | 2 | 2026-09-20 | MikroTik RouterOS syntax, snippets, diagnostics, and complet... |
+| [chrisdrackett/bamboo-icon-theme-zed](https://github.com/chrisdrackett/bamboo-icon-theme-zed) | 0 | 2026-09-20 | Bamboo Icon Theme for Zed |
 | [thoriqakbar0/fsl-lsp](https://github.com/thoriqakbar0/fsl-lsp) | 0 | 2026-09-19 | Pre-alpha FSL grammar, Zed extension, and language-server in... |
 | [BANSAFAn/i18n-zed](https://github.com/BANSAFAn/i18n-zed) | 2 | 2026-09-19 | A small script for Zed Editor that makes it easy to work wit... |
 | [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-09-19 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [tensorfoundrylabs/theme-zed](https://github.com/tensorfoundrylabs/theme-zed) | 1 | 2026-09-19 | Our internal  Zed dark theme. |
 | [daryllepv/zed-auto-self-close-tag](https://github.com/daryllepv/zed-auto-self-close-tag) | 0 | 2026-09-18 | Zed extension that automatically complete self-closing tags ... |
 | [NeroWolfe75/brackets-refined-zed](https://github.com/NeroWolfe75/brackets-refined-zed) | 0 | 2026-09-18 | A refined dark theme for Zed with a neutral interface and ca... |
-| [MrCheesie/doodle-icons](https://github.com/MrCheesie/doodle-icons) | 0 | 2026-09-18 | Doodle themed icon pack extension for Zed IDE |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-09-22T05:22 | 6 | 626 | 2231 |
 | 2026-09-21T22:12 | 14 | 623 | 2225 |
 | 2026-09-21T13:19 | 4 | 620 | 2211 |
 | 2026-09-21T05:27 | 0 | 622 | 2207 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-09-20T05:23 | 0 | 619 | 2205 |
 | 2026-09-19T20:59 | 0 | 619 | 2205 |
 | 2026-09-19T16:03 | 0 | 619 | 2205 |
-| 2026-09-19T11:30 | 1 | 618 | 2205 |
 
 ---
 

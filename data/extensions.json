@@ -205,7 +205,7 @@
     "url": "https://github.com/wakatime/zed-wakatime",
     "description": "Zed plugin for automatic time tracking and metrics generated from your programming activity.",
     "stars": 216,
-    "forks": 29,
+    "forks": 30,
     "topics": [
       "extension",
       "wakatime",
@@ -54693,8 +54693,8 @@
     "language": "JavaScript",
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
-    "updated_at": "2026-09-21T14:10:44Z",
-    "pushed_at": "2026-09-21T14:10:33Z",
+    "updated_at": "2026-09-21T23:10:48Z",
+    "pushed_at": "2026-09-21T23:10:46Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false,
     "extension": {
@@ -60262,8 +60262,8 @@
     "language": "Rust",
     "license": null,
     "created_at": "2026-09-04T07:49:15Z",
-    "updated_at": "2026-09-21T14:19:49Z",
-    "pushed_at": "2026-09-21T14:19:45Z",
+    "updated_at": "2026-09-22T04:11:42Z",
+    "pushed_at": "2026-09-22T04:11:38Z",
     "discovered_at": "2026-09-04T12:51:39.260Z",
     "official": false,
     "extension": {
@@ -62114,6 +62114,101 @@
       "categories": [
         "grammar",
         "language-server"
+      ]
+    }
+  },
+  "chrisdrackett/bamboo-icon-theme-zed": {
+    "name": "chrisdrackett/bamboo-icon-theme-zed",
+    "url": "https://github.com/chrisdrackett/bamboo-icon-theme-zed",
+    "description": "Bamboo Icon Theme for Zed",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "GPL-3.0",
+    "created_at": "2026-09-09T01:18:41Z",
+    "updated_at": "2026-09-20T15:18:45Z",
+    "pushed_at": "2026-09-20T15:18:42Z",
+    "discovered_at": "2026-09-22T05:21:57.724Z",
+    "official": true,
+    "extension": {
+      "id": "bamboo-icons",
+      "name": "Bamboo Icons",
+      "description": "Icons with color and body for Zed.",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Chris Drackett"
+      ],
+      "repository": "https://github.com/chrisdrackett/bamboo-icon-theme-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "dyqer/openapi": {
+    "name": "Dyqer/openapi",
+    "url": "https://github.com/Dyqer/openapi",
+    "description": "openapi extension for zed",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2026-09-10T07:00:17Z",
+    "updated_at": "2026-09-11T05:54:09Z",
+    "pushed_at": "2026-09-11T05:54:13Z",
+    "discovered_at": "2026-09-22T05:21:57.724Z",
+    "official": true,
+    "extension": {
+      "id": "openapi-lsp",
+      "name": "OpenAPI",
+      "description": "OpenAPI language support: spec detection, $ref jump, hover, completion, and diagnostics",
+      "version": "0.2.1",
+      "schema_version": 1,
+      "authors": [
+        "Dyqer"
+      ],
+      "repository": "https://github.com/Dyqer/openapi",
+      "snippets": null,
+      "sections": [
+        "language_servers"
+      ],
+      "categories": [
+        "language-server"
+      ]
+    }
+  },
+  "abhinaaaavvv/truly-zen-theme": {
+    "name": "abhinaaaavvv/truly-zen-theme",
+    "url": "https://github.com/abhinaaaavvv/truly-zen-theme",
+    "description": "A zed editor theme for total concentration.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-08-28T15:38:06Z",
+    "updated_at": "2026-08-29T16:13:16Z",
+    "pushed_at": "2026-08-29T16:12:55Z",
+    "discovered_at": "2026-09-22T05:21:57.724Z",
+    "official": true,
+    "extension": {
+      "id": "truly-zen-theme",
+      "name": "Truly Zen",
+      "description": "A zed editor theme for total concentration.",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "authors": [
+        "Abhinav Sarkar"
+      ],
+      "repository": "https://github.com/abhinaaaavvv/truly-zen-theme",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
       ]
     }
   }
