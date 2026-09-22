@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1812-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1813-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,17 +14,17 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1812** |
+| Total tracked | **1813** |
 | In official registry | 1307 |
-| Discovered via topics | 505 |
-| Last updated | 2026-09-22 17:16 UTC |
+| Discovered via topics | 506 |
+| Last updated | 2026-09-22 21:39 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
 | Themes | 776 |
-| Grammars | 631 |
+| Grammars | 632 |
 | Language Servers | 587 |
 | Context Servers | 137 |
 | Snippets | 85 |
@@ -70,6 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [aalto-opencs/stlcpp-zed](https://github.com/aalto-opencs/stlcpp-zed) | 0 | Zed language extension for 𝕊𝕋𝕃ℂ++ |
 | [ArtemiszenN/ratveteinn](https://github.com/ArtemiszenN/ratveteinn) | 0 | A near-black, ultra-high-contrast theme inspired by Synthwave themes. |
 | [ams-sth/slatehollow](https://github.com/ams-sth/slatehollow) | 1 | A minimal dark theme for Zed. Clean surfaces, no borders, five syntax colours. G... |
 | [chrisdrackett/bamboo-icon-theme-zed](https://github.com/chrisdrackett/bamboo-icon-theme-zed) | 0 | Bamboo Icon Theme for Zed |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [pedronhamirre/lumenhush-theme](https://github.com/pedronhamirre/lumenhush-theme) | 0 | A calm dark theme for Zed with warm accents and low-contrast color separation. |
 | [postdare/zed-postdare](https://github.com/postdare/zed-postdare) | 0 |  |
 | [tensorfoundrylabs/theme-zed](https://github.com/tensorfoundrylabs/theme-zed) | 1 | Our internal  Zed dark theme. |
-| [chess10kp/jac-zed](https://github.com/chess10kp/jac-zed) | 0 | Jac support for Zed |
 
 ## Top starred (under 500)
 
@@ -120,7 +120,11 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [vitallium/zed-modus-themes](https://github.com/vitallium/zed-modus-themes) | 54 | 2026-09-22 | Port of Modus Themes (https://protesilaos.com/emacs/modus-th... |
+| [BANSAFAn/i18n-zed](https://github.com/BANSAFAn/i18n-zed) | 2 | 2026-09-22 | A small script for Zed Editor that makes it easy to work wit... |
+| [wesleydmscn/zed-samurai-theme](https://github.com/wesleydmscn/zed-samurai-theme) | 4 | 2026-09-22 | A theme for samurai programmers 🤺 |
 | [JeffreyJYZ/command-code-zed](https://github.com/JeffreyJYZ/command-code-zed) | 2 | 2026-09-22 | Zed extension and cmduse CLI for live Command Code usage: pl... |
+| [aalto-opencs/stlcpp-zed](https://github.com/aalto-opencs/stlcpp-zed) | 0 | 2026-09-22 | Zed language extension for 𝕊𝕋𝕃ℂ++ |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-09-22 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [dunyakirkali/zed-asciidoc](https://github.com/dunyakirkali/zed-asciidoc) | 23 | 2026-09-22 | Zed support for AsciiDoc syntax |
 | [whistlebee/zed-mojo](https://github.com/whistlebee/zed-mojo) | 3 | 2026-09-22 | Mojo LSP/Syntax/Debugger support for Zed |
@@ -135,16 +139,13 @@ cd website && npm install && npm run dev
 | [Azagtot/zed-mikrotik-routeros](https://github.com/Azagtot/zed-mikrotik-routeros) | 2 | 2026-09-20 | MikroTik RouterOS syntax, snippets, diagnostics, and complet... |
 | [chrisdrackett/bamboo-icon-theme-zed](https://github.com/chrisdrackett/bamboo-icon-theme-zed) | 0 | 2026-09-20 | Bamboo Icon Theme for Zed |
 | [thoriqakbar0/fsl-lsp](https://github.com/thoriqakbar0/fsl-lsp) | 0 | 2026-09-19 | Pre-alpha FSL grammar, Zed extension, and language-server in... |
-| [BANSAFAn/i18n-zed](https://github.com/BANSAFAn/i18n-zed) | 2 | 2026-09-19 | A small script for Zed Editor that makes it easy to work wit... |
 | [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-09-19 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
-| [DankDown10256/licensr](https://github.com/DankDown10256/licensr) | 1 | 2026-09-19 | Licensr is a Zed IDE extension to write licenses for your pr... |
-| [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 335 | 2026-09-19 | Catppuccin Theme but as blurred variants + custom ones |
-| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 136 | 2026-09-19 | The Ruby language support for Zed editor |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-09-22T21:39 | 2 | 629 | 2238 |
 | 2026-09-22T17:16 | 1 | 628 | 2236 |
 | 2026-09-22T12:02 | 4 | 626 | 2235 |
 | 2026-09-22T05:22 | 6 | 626 | 2231 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-09-20T21:03 | 3 | 619 | 2207 |
 | 2026-09-20T16:28 | 0 | 619 | 2204 |
 | 2026-09-20T11:47 | 0 | 619 | 2204 |
-| 2026-09-20T05:23 | 0 | 619 | 2205 |
 
 ---
 

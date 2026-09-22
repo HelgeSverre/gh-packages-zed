@@ -1,0 +1,11 @@
+id = "stlcpp"
+name = "stlcpp"
+version = "0.0.1"
+schema_version = 1
+authors = ["Niklas Halonen"]
+description = "Language support for STLC++"
+repository = "https://github.com/aalto-opencs/stlcpp-zed"
+
+[grammars.stlcpp]
+repository = "https://github.com/aalto-opencs/tree-sitter-stlcpp"
+rev = "295926a6a7bf937954131c0de1ed443ca986f4fc"
