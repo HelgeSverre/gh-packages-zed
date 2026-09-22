@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1812** |
 | In official registry | 1307 |
 | Discovered via topics | 505 |
-| Last updated | 2026-09-22 12:02 UTC |
+| Last updated | 2026-09-22 17:16 UTC |
 
 ### By capability
 
@@ -97,7 +97,7 @@ cd website && npm install && npm run dev
 |---|---|---|
 | [biomejs/biome-zed](https://github.com/biomejs/biome-zed) | 466 | Biome extension for Zed |
 | [xhyrom/zed-discord-presence](https://github.com/xhyrom/zed-discord-presence) | 415 | extension for zed that adds support for discord rich presence using lsp |
-| [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 334 | Catppuccin Theme but as blurred variants + custom ones |
+| [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 335 | Catppuccin Theme but as blurred variants + custom ones |
 | [oxc-project/oxc-zed](https://github.com/oxc-project/oxc-zed) | 256 | Oxc extension for Zed |
 | [catppuccin/zed-icons](https://github.com/catppuccin/zed-icons) | 240 | 🦊 Soothing pastel icons for Zed |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 216 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
@@ -120,6 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [JeffreyJYZ/command-code-zed](https://github.com/JeffreyJYZ/command-code-zed) | 2 | 2026-09-22 | Zed extension and cmduse CLI for live Command Code usage: pl... |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-09-22 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [dunyakirkali/zed-asciidoc](https://github.com/dunyakirkali/zed-asciidoc) | 23 | 2026-09-22 | Zed support for AsciiDoc syntax |
 | [whistlebee/zed-mojo](https://github.com/whistlebee/zed-mojo) | 3 | 2026-09-22 | Mojo LSP/Syntax/Debugger support for Zed |
@@ -127,7 +128,6 @@ cd website && npm install && npm run dev
 | [Null-logic-0/zed-hologram](https://github.com/Null-logic-0/zed-hologram) | 2 | 2026-09-22 | HOLO template language support for Zed: Hologram framework s... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 99 | 2026-09-22 | True Dark Theme for Zed IDE |
 | [blacktop/zed-objc](https://github.com/blacktop/zed-objc) | 4 | 2026-09-22 | Objective-C support for Zed |
-| [JeffreyJYZ/command-code-zed](https://github.com/JeffreyJYZ/command-code-zed) | 2 | 2026-09-22 | Zed extension and cmduse CLI for live Command Code usage: pl... |
 | [ams-sth/slatehollow](https://github.com/ams-sth/slatehollow) | 1 | 2026-09-22 | A minimal dark theme for Zed. Clean surfaces, no borders, fi... |
 | [ArtemiszenN/ratveteinn](https://github.com/ArtemiszenN/ratveteinn) | 0 | 2026-09-21 | A near-black, ultra-high-contrast theme inspired by Synthwav... |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-09-21 | Zed editor support for Carve, a modern light markup language |
@@ -138,13 +138,14 @@ cd website && npm install && npm run dev
 | [BANSAFAn/i18n-zed](https://github.com/BANSAFAn/i18n-zed) | 2 | 2026-09-19 | A small script for Zed Editor that makes it easy to work wit... |
 | [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-09-19 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
 | [DankDown10256/licensr](https://github.com/DankDown10256/licensr) | 1 | 2026-09-19 | Licensr is a Zed IDE extension to write licenses for your pr... |
-| [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 334 | 2026-09-19 | Catppuccin Theme but as blurred variants + custom ones |
+| [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 335 | 2026-09-19 | Catppuccin Theme but as blurred variants + custom ones |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 136 | 2026-09-19 | The Ruby language support for Zed editor |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-09-22T17:16 | 1 | 628 | 2236 |
 | 2026-09-22T12:02 | 4 | 626 | 2235 |
 | 2026-09-22T05:22 | 6 | 626 | 2231 |
 | 2026-09-21T22:12 | 14 | 623 | 2225 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-09-20T16:28 | 0 | 619 | 2204 |
 | 2026-09-20T11:47 | 0 | 619 | 2204 |
 | 2026-09-20T05:23 | 0 | 619 | 2205 |
-| 2026-09-19T20:59 | 0 | 619 | 2205 |
 
 ---
 
