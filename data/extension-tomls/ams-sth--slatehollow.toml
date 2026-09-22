@@ -1,0 +1,8 @@
+id = "vantadark-theme"
+name = "Slatehollow"
+version = "3.0.0"
+schema_version = 1
+description = "Clean surfaces, five syntax colours. Enough to tell your code apart, not enough to distract. Ships with a light variant — Slatehollow Light."
+repository = "https://github.com/ams-sth/slatehollow"
+authors = ["Amsh Shrestha <sthaamsh37@gmail.com>"]
+themes = ["themes/slatehollow-dark.json", "themes/slatehollow-light.json"]
