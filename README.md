@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1813** |
 | In official registry | 1307 |
 | Discovered via topics | 506 |
-| Last updated | 2026-09-22 21:39 UTC |
+| Last updated | 2026-09-23 05:09 UTC |
 
 ### By capability
 
@@ -120,12 +120,14 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-09-23 | Intelligent codebase search & indexing for Zed. Async MCP se... |
+| [JeffreyJYZ/command-code-zed](https://github.com/JeffreyJYZ/command-code-zed) | 2 | 2026-09-23 | Zed extension and cmduse CLI for live Command Code usage: pl... |
+| [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-09-23 | Zed editor support for Carve, a modern light markup language |
+| [kennyheard/zed-theme-zen](https://github.com/kennyheard/zed-theme-zen) | 5 | 2026-09-22 | A Zed theme designed for clarity and focus. |
 | [vitallium/zed-modus-themes](https://github.com/vitallium/zed-modus-themes) | 54 | 2026-09-22 | Port of Modus Themes (https://protesilaos.com/emacs/modus-th... |
 | [BANSAFAn/i18n-zed](https://github.com/BANSAFAn/i18n-zed) | 2 | 2026-09-22 | A small script for Zed Editor that makes it easy to work wit... |
 | [wesleydmscn/zed-samurai-theme](https://github.com/wesleydmscn/zed-samurai-theme) | 4 | 2026-09-22 | A theme for samurai programmers 🤺 |
-| [JeffreyJYZ/command-code-zed](https://github.com/JeffreyJYZ/command-code-zed) | 2 | 2026-09-22 | Zed extension and cmduse CLI for live Command Code usage: pl... |
 | [aalto-opencs/stlcpp-zed](https://github.com/aalto-opencs/stlcpp-zed) | 0 | 2026-09-22 | Zed language extension for 𝕊𝕋𝕃ℂ++ |
-| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-09-22 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [dunyakirkali/zed-asciidoc](https://github.com/dunyakirkali/zed-asciidoc) | 23 | 2026-09-22 | Zed support for AsciiDoc syntax |
 | [whistlebee/zed-mojo](https://github.com/whistlebee/zed-mojo) | 3 | 2026-09-22 | Mojo LSP/Syntax/Debugger support for Zed |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 5 | 2026-09-22 | Spring Boot language intelligence for Zed, built on the requ... |
@@ -134,17 +136,16 @@ cd website && npm install && npm run dev
 | [blacktop/zed-objc](https://github.com/blacktop/zed-objc) | 4 | 2026-09-22 | Objective-C support for Zed |
 | [ams-sth/slatehollow](https://github.com/ams-sth/slatehollow) | 1 | 2026-09-22 | A minimal dark theme for Zed. Clean surfaces, no borders, fi... |
 | [ArtemiszenN/ratveteinn](https://github.com/ArtemiszenN/ratveteinn) | 0 | 2026-09-21 | A near-black, ultra-high-contrast theme inspired by Synthwav... |
-| [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-09-21 | Zed editor support for Carve, a modern light markup language |
 | [lvabarajithan/nous-alt-theme](https://github.com/lvabarajithan/nous-alt-theme) | 0 | 2026-09-20 | Nous Alt theme for Zed |
 | [Azagtot/zed-mikrotik-routeros](https://github.com/Azagtot/zed-mikrotik-routeros) | 2 | 2026-09-20 | MikroTik RouterOS syntax, snippets, diagnostics, and complet... |
 | [chrisdrackett/bamboo-icon-theme-zed](https://github.com/chrisdrackett/bamboo-icon-theme-zed) | 0 | 2026-09-20 | Bamboo Icon Theme for Zed |
 | [thoriqakbar0/fsl-lsp](https://github.com/thoriqakbar0/fsl-lsp) | 0 | 2026-09-19 | Pre-alpha FSL grammar, Zed extension, and language-server in... |
-| [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-09-19 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-09-23T05:09 | 0 | 631 | 2238 |
 | 2026-09-22T21:39 | 2 | 629 | 2238 |
 | 2026-09-22T17:16 | 1 | 628 | 2236 |
 | 2026-09-22T12:02 | 4 | 626 | 2235 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-09-21T05:27 | 0 | 622 | 2207 |
 | 2026-09-20T21:03 | 3 | 619 | 2207 |
 | 2026-09-20T16:28 | 0 | 619 | 2204 |
-| 2026-09-20T11:47 | 0 | 619 | 2204 |
 
 ---
 
