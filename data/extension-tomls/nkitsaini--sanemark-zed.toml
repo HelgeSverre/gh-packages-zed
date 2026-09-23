@@ -1,0 +1,14 @@
+id = "sanemark-markdown-lsp"
+name = "Sanemark Markdown LSP"
+version = "0.1.0"
+schema_version = 1
+authors = ["Ankit Saini <nnkitsaini@gmail.com>"]
+description = "Markdown language server with support for formatting, link navigation, diagnostics, completion, and note-taking tools"
+repository = "https://github.com/nkitsaini/sanemark-zed"
+
+[language_servers.sanemark]
+name = "Sanemark"
+languages = ["Markdown"]
+
+[language_servers.sanemark.language_ids]
+Markdown = "markdown"

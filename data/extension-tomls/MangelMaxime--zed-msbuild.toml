@@ -1,0 +1,11 @@
+id = "msbuild-lsp"
+name = "MSBuild LSP"
+description = "MSBuild language server for project files (.fsproj, .csproj, .props, .targets, ...)."
+version = "1.0.0"
+schema_version = 1
+authors = ["Maxime Mangel"]
+repository = "https://github.com/MangelMaxime/zed-msbuild"
+
+[language_servers.msbuild-project-tools]
+name = "MSBuild Project Tools"
+languages = ["C# Project File", "F# Project File", "MSBuild File"]
