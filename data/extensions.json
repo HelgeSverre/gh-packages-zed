@@ -86,7 +86,7 @@
     "name": "GDQuest/zed-gdscript",
     "url": "https://github.com/GDQuest/zed-gdscript",
     "description": "Zed support for the Godot game engine and the GDScript language",
-    "stars": 208,
+    "stars": 209,
     "forks": 23,
     "topics": [
       "code-editor",
@@ -98,7 +98,7 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-02-26T18:14:41Z",
-    "updated_at": "2026-09-23T08:15:00Z",
+    "updated_at": "2026-09-23T21:12:41Z",
     "pushed_at": "2026-09-10T12:07:53Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -254,8 +254,8 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2024-10-11T18:22:02Z",
-    "updated_at": "2026-09-23T06:04:06Z",
-    "pushed_at": "2026-09-19T09:01:08Z",
+    "updated_at": "2026-09-23T18:45:09Z",
+    "pushed_at": "2026-09-23T18:45:31Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -5184,7 +5184,7 @@
     "name": "gabeins/zed-mermaid",
     "url": "https://github.com/gabeins/zed-mermaid",
     "description": "Mermaid support for Zed",
-    "stars": 78,
+    "stars": 79,
     "forks": 6,
     "topics": [
       "diagrams",
@@ -5196,7 +5196,7 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-10-16T07:12:13Z",
-    "updated_at": "2026-09-15T15:17:43Z",
+    "updated_at": "2026-09-23T21:10:24Z",
     "pushed_at": "2026-01-26T08:59:52Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false,
@@ -53758,7 +53758,7 @@
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
     "updated_at": "2026-09-22T11:58:24Z",
-    "pushed_at": "2026-09-23T03:32:02Z",
+    "pushed_at": "2026-09-23T18:50:22Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false,
     "extension": {
@@ -54678,7 +54678,7 @@
     "name": "luceat-lux-vestra/zed-spring-tools",
     "url": "https://github.com/luceat-lux-vestra/zed-spring-tools",
     "description": "Spring Boot language intelligence for Zed, built on the required official Java extension. Early source release; one tested tuple (macOS arm64/JDK 25).",
-    "stars": 5,
+    "stars": 6,
     "forks": 1,
     "topics": [
       "java",
@@ -54693,7 +54693,7 @@
     "language": "JavaScript",
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
-    "updated_at": "2026-09-22T10:13:23Z",
+    "updated_at": "2026-09-23T19:04:50Z",
     "pushed_at": "2026-09-23T08:40:09Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false,
@@ -62425,6 +62425,41 @@
       ],
       "categories": [
         "language-server"
+      ]
+    }
+  },
+  "kagulion/astro-snippets": {
+    "name": "kagulion/astro-snippets",
+    "url": "https://github.com/kagulion/astro-snippets",
+    "description": "Modern, clean, and comprehensive snippets for Astro development in Zed IDE",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-09-11T20:02:43Z",
+    "updated_at": "2026-09-23T20:03:21Z",
+    "pushed_at": "2026-09-23T20:03:17Z",
+    "discovered_at": "2026-09-23T21:46:17.071Z",
+    "official": true,
+    "extension": {
+      "id": "astro-snippets",
+      "name": "Astro Snippets",
+      "description": "Comprehensive, modern Astro snippets for Zed IDE with Astro 7+ support",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "authors": [
+        "kagulion"
+      ],
+      "repository": "https://github.com/kagulion/astro-snippets",
+      "snippets": [
+        "./snippets/astro.json",
+        "./snippets/typescript.json",
+        "./snippets/javascript.json"
+      ],
+      "sections": [],
+      "categories": [
+        "snippets"
       ]
     }
   }

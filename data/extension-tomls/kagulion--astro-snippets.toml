@@ -1,0 +1,13 @@
+id = "astro-snippets"
+name = "Astro Snippets"
+version = "1.0.0"
+schema_version = 1
+authors = ["kagulion"]
+description = "Comprehensive, modern Astro snippets for Zed IDE with Astro 7+ support"
+repository = "https://github.com/kagulion/astro-snippets"
+
+snippets = [
+  "./snippets/astro.json",
+  "./snippets/typescript.json",
+  "./snippets/javascript.json"
+]
