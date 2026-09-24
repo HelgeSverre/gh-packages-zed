@@ -1,0 +1,11 @@
+id = "lrc"
+name = "Lyrics"
+schema_version = 1
+version = "0.1"
+description = "Song lyrics support."
+repository = "https://github.com/pursvir/zed-lrc"
+authors = ["pursvir"]
+
+[grammars.lrc]
+repository = "https://github.com/pursvir/tree-sitter-lrc.git"
+rev = "d958f0f8020e441996b22c1080cff0abd405325a"

@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1817-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1822-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,17 +14,17 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1817** |
-| In official registry | 1310 |
-| Discovered via topics | 507 |
-| Last updated | 2026-09-23 21:46 UTC |
+| Total tracked | **1822** |
+| In official registry | 1314 |
+| Discovered via topics | 508 |
+| Last updated | 2026-09-24 05:21 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
-| Themes | 777 |
-| Grammars | 632 |
+| Themes | 781 |
+| Grammars | 633 |
 | Language Servers | 589 |
 | Context Servers | 137 |
 | Snippets | 86 |
@@ -70,6 +70,11 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [erik-praznovsky/zed-blackout-engine](https://github.com/erik-praznovsky/zed-blackout-engine) | 2 | Blackout Engine theme for Zed editor. |
+| [ddh4r4m/zed-shades-of-stoicism](https://github.com/ddh4r4m/zed-shades-of-stoicism) | 0 | Shades of Stoicism — ten themes for Zed, generated from one palette system and c... |
+| [xscriptor-colors/zed](https://github.com/xscriptor-colors/zed) | 0 |  |
+| [isanjaymenon/hackerone-zed-theme](https://github.com/isanjaymenon/hackerone-zed-theme) | 0 | HackerOne Dark and Light Zed Theme, ported from the official VS Code Theme |
+| [pursvir/zed-lrc](https://github.com/pursvir/zed-lrc) | 0 | Song lyrics support for Zed. |
 | [kagulion/astro-snippets](https://github.com/kagulion/astro-snippets) | 0 | Modern, clean, and comprehensive snippets for Astro development in Zed IDE |
 | [MangelMaxime/zed-msbuild](https://github.com/MangelMaxime/zed-msbuild) | 1 |  |
 | [nkitsaini/sanemark-zed](https://github.com/nkitsaini/sanemark-zed) | 0 |  |
@@ -85,11 +90,6 @@ cd website && npm install && npm run dev
 | [RiverMatsumoto/zed-gruvbox-material-icons](https://github.com/RiverMatsumoto/zed-gruvbox-material-icons) | 0 |  |
 | [hetalang/zed-heta](https://github.com/hetalang/zed-heta) | 1 | Plugin for the Zed editor for highlighting the Heta language |
 | [tachyons/zed-hfst](https://github.com/tachyons/zed-hfst) | 0 | Zed plugin for lexc and twol languages |
-| [lvabarajithan/nous-alt-theme](https://github.com/lvabarajithan/nous-alt-theme) | 0 | Nous Alt theme for Zed |
-| [jorgsowa/php-lsp-zed-extension](https://github.com/jorgsowa/php-lsp-zed-extension) | 1 |  |
-| [Perelyn-sama/sbpf-assembly](https://github.com/Perelyn-sama/sbpf-assembly) | 0 |  |
-| [MrPoloGit/spice-lang](https://github.com/MrPoloGit/spice-lang) | 0 |  |
-| [thoriqakbar0/fsl-lsp](https://github.com/thoriqakbar0/fsl-lsp) | 0 | Pre-alpha FSL grammar, Zed extension, and language-server integration |
 
 ## Top starred (under 500)
 
@@ -120,31 +120,32 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [vitallium/zed-modus-themes](https://github.com/vitallium/zed-modus-themes) | 54 | 2026-09-24 | Port of Modus Themes (https://protesilaos.com/emacs/modus-th... |
+| [briar-systems/mach-zed](https://github.com/briar-systems/mach-zed) | 0 | 2026-09-24 | Mach language support for Zed including syntax highlighting,... |
+| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 6 | 2026-09-24 | Spring Boot language intelligence for Zed, built on the requ... |
+| [isanjaymenon/hackerone-zed-theme](https://github.com/isanjaymenon/hackerone-zed-theme) | 0 | 2026-09-24 | HackerOne Dark and Light Zed Theme, ported from the official... |
+| [tensorfoundrylabs/theme-zed](https://github.com/tensorfoundrylabs/theme-zed) | 1 | 2026-09-24 | Our internal  Zed dark theme. |
+| [pursvir/zed-lrc](https://github.com/pursvir/zed-lrc) | 0 | 2026-09-23 | Song lyrics support for Zed. |
 | [kagulion/astro-snippets](https://github.com/kagulion/astro-snippets) | 0 | 2026-09-23 | Modern, clean, and comprehensive snippets for Astro developm... |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-09-23 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 137 | 2026-09-23 | The Ruby language support for Zed editor |
 | [dunyakirkali/zed-asciidoc](https://github.com/dunyakirkali/zed-asciidoc) | 23 | 2026-09-23 | Zed support for AsciiDoc syntax |
+| [ddh4r4m/zed-shades-of-stoicism](https://github.com/ddh4r4m/zed-shades-of-stoicism) | 0 | 2026-09-23 | Shades of Stoicism — ten themes for Zed, generated from one ... |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-09-23 | Zed editor support for Carve, a modern light markup language |
 | [monokkai/zed-solarized-osaka-late2026](https://github.com/monokkai/zed-solarized-osaka-late2026) | 1 | 2026-09-23 | Solarized Osaka (vivid) ported to Zed — opaque and blurred v... |
-| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 6 | 2026-09-23 | Spring Boot language intelligence for Zed, built on the requ... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 99 | 2026-09-23 | True Dark Theme for Zed IDE |
 | [JeffreyJYZ/command-code-zed](https://github.com/JeffreyJYZ/command-code-zed) | 2 | 2026-09-23 | Zed extension and cmduse CLI for live Command Code usage: pl... |
 | [kennyheard/zed-theme-zen](https://github.com/kennyheard/zed-theme-zen) | 5 | 2026-09-22 | A Zed theme designed for clarity and focus. |
-| [vitallium/zed-modus-themes](https://github.com/vitallium/zed-modus-themes) | 54 | 2026-09-22 | Port of Modus Themes (https://protesilaos.com/emacs/modus-th... |
 | [BANSAFAn/i18n-zed](https://github.com/BANSAFAn/i18n-zed) | 2 | 2026-09-22 | A small script for Zed Editor that makes it easy to work wit... |
 | [wesleydmscn/zed-samurai-theme](https://github.com/wesleydmscn/zed-samurai-theme) | 4 | 2026-09-22 | A theme for samurai programmers 🤺 |
 | [aalto-opencs/stlcpp-zed](https://github.com/aalto-opencs/stlcpp-zed) | 0 | 2026-09-22 | Zed language extension for 𝕊𝕋𝕃ℂ++ |
 | [whistlebee/zed-mojo](https://github.com/whistlebee/zed-mojo) | 3 | 2026-09-22 | Mojo LSP/Syntax/Debugger support for Zed |
-| [Null-logic-0/zed-hologram](https://github.com/Null-logic-0/zed-hologram) | 2 | 2026-09-22 | HOLO template language support for Zed: Hologram framework s... |
-| [blacktop/zed-objc](https://github.com/blacktop/zed-objc) | 4 | 2026-09-22 | Objective-C support for Zed |
-| [ams-sth/slatehollow](https://github.com/ams-sth/slatehollow) | 1 | 2026-09-22 | A minimal dark theme for Zed. Clean surfaces, no borders, fi... |
-| [ArtemiszenN/ratveteinn](https://github.com/ArtemiszenN/ratveteinn) | 0 | 2026-09-21 | A near-black, ultra-high-contrast theme inspired by Synthwav... |
-| [lvabarajithan/nous-alt-theme](https://github.com/lvabarajithan/nous-alt-theme) | 0 | 2026-09-20 | Nous Alt theme for Zed |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-09-24T05:21 | 7 | 634 | 2252 |
 | 2026-09-23T21:46 | 3 | 631 | 2245 |
 | 2026-09-23T17:27 | 3 | 632 | 2242 |
 | 2026-09-23T12:06 | 1 | 631 | 2239 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-09-22T12:02 | 4 | 626 | 2235 |
 | 2026-09-22T05:22 | 6 | 626 | 2231 |
 | 2026-09-21T22:12 | 14 | 623 | 2225 |
-| 2026-09-21T13:19 | 4 | 620 | 2211 |
 
 ---
 

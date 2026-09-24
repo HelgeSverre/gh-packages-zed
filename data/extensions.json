@@ -967,8 +967,8 @@
     "language": "Jsonnet",
     "license": "GPL-3.0",
     "created_at": "2024-12-28T17:27:06Z",
-    "updated_at": "2026-09-15T12:02:50Z",
-    "pushed_at": "2026-09-22T19:41:41Z",
+    "updated_at": "2026-09-24T05:17:41Z",
+    "pushed_at": "2026-09-24T05:17:39Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -3332,7 +3332,7 @@
     "url": "https://github.com/dunyakirkali/zed-asciidoc",
     "description": "Zed support for AsciiDoc syntax",
     "stars": 23,
-    "forks": 7,
+    "forks": 6,
     "topics": [
       "asciidoc",
       "zed-extension"
@@ -54693,8 +54693,8 @@
     "language": "JavaScript",
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
-    "updated_at": "2026-09-23T19:04:50Z",
-    "pushed_at": "2026-09-23T08:40:09Z",
+    "updated_at": "2026-09-24T02:09:18Z",
+    "pushed_at": "2026-09-24T02:09:15Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false,
     "extension": {
@@ -60402,12 +60402,16 @@
     "description": "Mach language support for Zed including syntax highlighting, indentation, and code outline",
     "stars": 0,
     "forks": 0,
-    "topics": [],
-    "language": "Tree-sitter Query",
+    "topics": [
+      "mach",
+      "mach-lang",
+      "zed-extension"
+    ],
+    "language": "Rust",
     "license": "MIT",
     "created_at": "2026-02-11T18:21:24Z",
-    "updated_at": "2026-08-31T22:51:40Z",
-    "pushed_at": "2026-08-31T22:52:11Z",
+    "updated_at": "2026-09-24T04:13:21Z",
+    "pushed_at": "2026-09-24T04:13:17Z",
     "discovered_at": "2026-09-07T18:46:27.368Z",
     "official": true,
     "extension": {
@@ -61765,10 +61769,10 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-09-19T01:39:24Z",
-    "updated_at": "2026-09-19T03:23:21Z",
-    "pushed_at": "2026-09-19T03:01:55Z",
+    "updated_at": "2026-09-24T00:40:51Z",
+    "pushed_at": "2026-09-24T00:40:46Z",
     "discovered_at": "2026-09-19T05:01:44.112Z",
-    "official": false,
+    "official": true,
     "extension": {
       "id": "tensorfoundry-theme",
       "name": "TensorFoundry",
@@ -62460,6 +62464,177 @@
       "sections": [],
       "categories": [
         "snippets"
+      ]
+    }
+  },
+  "erik-praznovsky/zed-blackout-engine": {
+    "name": "erik-praznovsky/zed-blackout-engine",
+    "url": "https://github.com/erik-praznovsky/zed-blackout-engine",
+    "description": "Blackout Engine theme for Zed editor.",
+    "stars": 2,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-09-03T08:46:05Z",
+    "updated_at": "2026-09-19T09:24:33Z",
+    "pushed_at": "2026-09-19T09:24:29Z",
+    "discovered_at": "2026-09-24T05:21:56.495Z",
+    "official": true,
+    "extension": {
+      "id": "blackout-engine-theme",
+      "name": "Blackout Engine",
+      "description": "Dark theme for Zed editor - Neon/Pastel variants.",
+      "version": "0.1.1",
+      "schema_version": 1,
+      "authors": [
+        "Erik Praznovský <erik@virtualsoaring.eu>"
+      ],
+      "repository": "https://github.com/erik-praznovsky/zed-blackout-engine",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "ddh4r4m/zed-shades-of-stoicism": {
+    "name": "ddh4r4m/zed-shades-of-stoicism",
+    "url": "https://github.com/ddh4r4m/zed-shades-of-stoicism",
+    "description": "Shades of Stoicism — ten themes for Zed, generated from one palette system and contrast-audited at build time",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-09-23T15:32:12Z",
+    "updated_at": "2026-09-23T15:32:38Z",
+    "pushed_at": "2026-09-23T15:32:34Z",
+    "discovered_at": "2026-09-24T05:21:56.495Z",
+    "official": true,
+    "extension": {
+      "id": "shades-of-stoicism-theme",
+      "name": "Shades of Stoicism",
+      "description": "Ten themes from one palette system, eight dark and two light. Every syntax colour sits at the same perceptual lightness and every token is contrast-audited at build time.",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "authors": [
+        "Dharam Dhurandhar <ddh4r4m@gmail.com>"
+      ],
+      "repository": "https://github.com/ddh4r4m/zed-shades-of-stoicism",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "xscriptor-colors/zed": {
+    "name": "xscriptor-colors/zed",
+    "url": "https://github.com/xscriptor-colors/zed",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Python",
+    "license": "MIT",
+    "created_at": "2026-09-14T20:04:36Z",
+    "updated_at": "2026-09-17T12:44:47Z",
+    "pushed_at": "2026-09-17T12:44:43Z",
+    "discovered_at": "2026-09-24T05:21:56.495Z",
+    "official": true,
+    "extension": {
+      "id": "xscriptor-theme",
+      "name": "Xscriptor Themes",
+      "description": "Twelve Xscriptor color palettes for Zed: X, Madrid, Lahabana, Miami, Paris, Tokio, Oslo, Helsinki, Berlin, London, Praha and Bogota.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Xscriptor"
+      ],
+      "repository": "https://github.com/xscriptor-colors/zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "isanjaymenon/hackerone-zed-theme": {
+    "name": "isanjaymenon/hackerone-zed-theme",
+    "url": "https://github.com/isanjaymenon/hackerone-zed-theme",
+    "description": "HackerOne Dark and Light Zed Theme, ported from the official VS Code Theme",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "extensions",
+      "hackerone-vscode-theme",
+      "hackerone-zed-theme",
+      "vscode-theme",
+      "zed-editor",
+      "zed-extension",
+      "zed-theme"
+    ],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-09-23T19:16:23Z",
+    "updated_at": "2026-09-24T02:09:43Z",
+    "pushed_at": "2026-09-24T01:41:37Z",
+    "discovered_at": "2026-09-24T05:21:56.495Z",
+    "official": false,
+    "extension": {
+      "id": "hackerone-theme",
+      "name": "HackerOne Theme",
+      "description": "HackerOne Dark and Light Theme, ported from the official VS Code Theme",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Sanjaymenon <support+zed@sanjaymenon.xyz>"
+      ],
+      "repository": "https://github.com/isanjaymenon/hackerone-zed-theme",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "pursvir/zed-lrc": {
+    "name": "pursvir/zed-lrc",
+    "url": "https://github.com/pursvir/zed-lrc",
+    "description": "Song lyrics support for Zed.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "lrc",
+      "lrc-files",
+      "zed",
+      "zed-editor",
+      "zed-extension"
+    ],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2026-09-23T22:42:12Z",
+    "updated_at": "2026-09-23T22:47:51Z",
+    "pushed_at": "2026-09-23T22:46:31Z",
+    "discovered_at": "2026-09-24T05:21:56.495Z",
+    "official": false,
+    "extension": {
+      "id": "lrc",
+      "name": "Lyrics",
+      "description": "Song lyrics support.",
+      "version": "0.1",
+      "schema_version": 1,
+      "authors": [
+        "pursvir"
+      ],
+      "repository": "https://github.com/pursvir/zed-lrc",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
       ]
     }
   }
