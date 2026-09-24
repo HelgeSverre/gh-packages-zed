@@ -5235,7 +5235,7 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2024-07-12T16:43:02Z",
-    "updated_at": "2026-09-23T16:07:22Z",
+    "updated_at": "2026-09-24T10:14:58Z",
     "pushed_at": "2026-09-19T12:23:12Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -11273,7 +11273,7 @@
     "url": "https://github.com/zed-extensions/swift",
     "description": "Extension for Zed to support Swift",
     "stars": 152,
-    "forks": 29,
+    "forks": 30,
     "topics": [],
     "language": "Rust",
     "license": "Apache-2.0",
@@ -54693,8 +54693,8 @@
     "language": "JavaScript",
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
-    "updated_at": "2026-09-24T02:09:18Z",
-    "pushed_at": "2026-09-24T02:09:15Z",
+    "updated_at": "2026-09-24T10:29:16Z",
+    "pushed_at": "2026-09-24T10:29:14Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false,
     "extension": {
@@ -62635,6 +62635,165 @@
       ],
       "categories": [
         "grammar"
+      ]
+    }
+  },
+  "eiwa-lang/zed-extension": {
+    "name": "eiwa-lang/zed-extension",
+    "url": "https://github.com/eiwa-lang/zed-extension",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2026-07-23T03:32:10Z",
+    "updated_at": "2026-09-17T02:55:25Z",
+    "pushed_at": "2026-09-17T02:55:20Z",
+    "discovered_at": "2026-09-24T12:54:23.165Z",
+    "official": true,
+    "extension": {
+      "id": "eiwa",
+      "name": "Eiwa",
+      "description": "Eiwa language support.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Leo Douglas"
+      ],
+      "repository": "https://github.com/eiwa-lang/zed-extension",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
+      ]
+    }
+  },
+  "justkevv/zed-fuji-winter-theme": {
+    "name": "justKevv/zed-fuji-winter-theme",
+    "url": "https://github.com/justKevv/zed-fuji-winter-theme",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-09-23T14:53:50Z",
+    "updated_at": "2026-09-23T16:02:22Z",
+    "pushed_at": "2026-09-23T16:01:49Z",
+    "discovered_at": "2026-09-24T12:54:23.165Z",
+    "official": true,
+    "extension": {
+      "id": "fuji-winter-theme",
+      "name": "Fuji Winter",
+      "description": "Dark, moody Mount Fuji winter palette — desaturated blue/green-gray with warm gray text",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "justKevv <kevinbramastaa@gmail.com>"
+      ],
+      "repository": "https://github.com/justKevv/zed-fuji-winter-theme",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "xproklyatx/mountain-theme": {
+    "name": "xproklyatx/mountain-theme",
+    "url": "https://github.com/xproklyatx/mountain-theme",
+    "description": "Port of Mountain theme for Zed edittor.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-09-22T02:38:44Z",
+    "updated_at": "2026-09-24T02:13:37Z",
+    "pushed_at": "2026-09-24T02:13:33Z",
+    "discovered_at": "2026-09-24T12:54:23.165Z",
+    "official": true,
+    "extension": {
+      "id": "mountain-theme",
+      "name": "Mountain",
+      "description": "Port of Mountain theme for Zed Editor",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "xproklyatx"
+      ],
+      "repository": "https://github.com/xproklyatx/mountain-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "r1n-k0/zed-nord-wave": {
+    "name": "R1N-K0/zed-nord-wave",
+    "url": "https://github.com/R1N-K0/zed-nord-wave",
+    "description": "A darker version of the awesome Nord theme for Zed - a port of the Nord Wave VS Code theme",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Python",
+    "license": "NOASSERTION",
+    "created_at": "2026-08-03T06:58:04Z",
+    "updated_at": "2026-08-03T11:05:25Z",
+    "pushed_at": "2026-08-03T11:05:21Z",
+    "discovered_at": "2026-09-24T12:54:23.165Z",
+    "official": true,
+    "extension": {
+      "id": "nord-wave-theme",
+      "name": "Nord Wave",
+      "description": "A darker version of the awesome Nord theme — a Zed port of the VS Code theme by Dimitrios Lytras.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "R1N-K0"
+      ],
+      "repository": "https://github.com/R1N-K0/zed-nord-wave",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "relm4/zed-relm4-snippets": {
+    "name": "Relm4/zed-relm4-snippets",
+    "url": "https://github.com/Relm4/zed-relm4-snippets",
+    "description": "Relm4 code snippets for Zed",
+    "stars": 1,
+    "forks": 1,
+    "topics": [],
+    "language": null,
+    "license": "Apache-2.0",
+    "created_at": "2026-09-04T18:09:16Z",
+    "updated_at": "2026-09-19T19:00:29Z",
+    "pushed_at": "2026-09-19T19:00:24Z",
+    "discovered_at": "2026-09-24T12:54:23.165Z",
+    "official": true,
+    "extension": {
+      "id": "relm4-snippets",
+      "name": "Relm4 Snippets",
+      "description": "Relm4 code snippets",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Eduardo Flores <edfloreshz@gmail.com>"
+      ],
+      "repository": "https://github.com/Relm4/zed-relm4",
+      "snippets": [
+        "./snippets/rust.json"
+      ],
+      "sections": [],
+      "categories": [
+        "snippets"
       ]
     }
   }
