@@ -3,7 +3,7 @@
     "name": "HelgeSverre/zed-applescript",
     "url": "https://github.com/HelgeSverre/zed-applescript",
     "description": "AppleScript for Zed — syntax highlighting, outline, runnables, language injection. Powered by a custom tree-sitter grammar.",
-    "stars": 5,
+    "stars": 6,
     "forks": 0,
     "topics": [
       "applescript",
@@ -19,7 +19,7 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2025-12-31T19:00:50Z",
-    "updated_at": "2026-08-14T17:32:04Z",
+    "updated_at": "2026-09-24T14:39:30Z",
     "pushed_at": "2026-05-27T02:00:07Z",
     "discovered_at": "2026-05-19T19:19:12.408Z",
     "official": true
@@ -206,7 +206,7 @@
     "name": "zed-extensions/ruby",
     "url": "https://github.com/zed-extensions/ruby",
     "description": "The Ruby language support for Zed editor",
-    "stars": 137,
+    "stars": 138,
     "forks": 33,
     "topics": [
       "ruby",
@@ -216,8 +216,8 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2024-10-11T18:22:02Z",
-    "updated_at": "2026-09-23T18:45:09Z",
-    "pushed_at": "2026-09-23T18:45:31Z",
+    "updated_at": "2026-09-24T15:20:13Z",
+    "pushed_at": "2026-09-24T15:20:40Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -853,7 +853,7 @@
     "name": "kartikvashistha/zed-ansible",
     "url": "https://github.com/kartikvashistha/zed-ansible",
     "description": "Ansible Extension for the Zed editor",
-    "stars": 57,
+    "stars": 58,
     "forks": 8,
     "topics": [
       "ansible",
@@ -863,7 +863,7 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-08-04T09:47:08Z",
-    "updated_at": "2026-08-27T12:40:24Z",
+    "updated_at": "2026-09-24T14:39:30Z",
     "pushed_at": "2026-05-04T07:54:34Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -1440,7 +1440,7 @@
     "name": "foxoman/zed-nim",
     "url": "https://github.com/foxoman/zed-nim",
     "description": "Nim support for Zed Editor",
-    "stars": 49,
+    "stars": 50,
     "forks": 4,
     "topics": [
       "nim",
@@ -1451,7 +1451,7 @@
     "language": "Tree-sitter Query",
     "license": "Apache-2.0",
     "created_at": "2024-07-12T08:06:46Z",
-    "updated_at": "2026-08-24T09:06:53Z",
+    "updated_at": "2026-09-24T18:34:20Z",
     "pushed_at": "2026-04-20T19:10:13Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -3358,7 +3358,7 @@
     "name": "gabeins/zed-mermaid",
     "url": "https://github.com/gabeins/zed-mermaid",
     "description": "Mermaid support for Zed",
-    "stars": 79,
+    "stars": 81,
     "forks": 6,
     "topics": [
       "diagrams",
@@ -3370,7 +3370,7 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-10-16T07:12:13Z",
-    "updated_at": "2026-09-23T21:10:24Z",
+    "updated_at": "2026-09-24T14:40:10Z",
     "pushed_at": "2026-01-26T08:59:52Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
@@ -4006,7 +4006,7 @@
     "name": "hjr265/zed-gotmpl",
     "url": "https://github.com/hjr265/zed-gotmpl",
     "description": "Go template (gotmpl, gohtml) support for Zed",
-    "stars": 33,
+    "stars": 34,
     "forks": 5,
     "topics": [
       "gohtml",
@@ -4018,7 +4018,7 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2025-08-03T06:00:52Z",
-    "updated_at": "2026-09-23T08:12:56Z",
+    "updated_at": "2026-09-24T14:39:43Z",
     "pushed_at": "2025-11-16T17:22:24Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -5302,8 +5302,8 @@
     "language": "PowerShell",
     "license": null,
     "created_at": "2024-08-14T22:46:54Z",
-    "updated_at": "2026-09-22T01:45:28Z",
-    "pushed_at": "2026-09-18T11:17:27Z",
+    "updated_at": "2026-09-24T17:29:24Z",
+    "pushed_at": "2026-09-24T17:29:09Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
   },
@@ -8723,13 +8723,13 @@
     "name": "zed-extensions/swift",
     "url": "https://github.com/zed-extensions/swift",
     "description": "Extension for Zed to support Swift",
-    "stars": 152,
+    "stars": 153,
     "forks": 30,
     "topics": [],
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2024-02-19T09:14:14Z",
-    "updated_at": "2026-09-19T16:49:14Z",
+    "updated_at": "2026-09-24T14:40:03Z",
     "pushed_at": "2026-07-22T13:08:23Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": false
@@ -13509,7 +13509,7 @@
     "name": "lmn451/css-variables-zed",
     "url": "https://github.com/lmn451/css-variables-zed",
     "description": "Project-wide CSS custom property intelligence for Zed: completion, hover, navigation, rename, diagnostics, and color tools.",
-    "stars": 7,
+    "stars": 8,
     "forks": 4,
     "topics": [
       "css",
@@ -13524,7 +13524,7 @@
     "language": "Rust",
     "license": "GPL-3.0",
     "created_at": "2025-11-15T12:51:35Z",
-    "updated_at": "2026-09-12T18:55:27Z",
+    "updated_at": "2026-09-24T14:39:35Z",
     "pushed_at": "2026-09-12T18:55:22Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": true
@@ -14445,7 +14445,7 @@
     "name": "kartikvashistha/zed-gosum",
     "url": "https://github.com/kartikvashistha/zed-gosum",
     "description": "Highlighting extension for Go Checksum files in the Zed editor",
-    "stars": 2,
+    "stars": 3,
     "forks": 0,
     "topics": [
       "gosum",
@@ -14455,7 +14455,7 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-08-11T12:09:47Z",
-    "updated_at": "2025-09-15T04:28:26Z",
+    "updated_at": "2026-09-24T14:39:42Z",
     "pushed_at": "2025-05-04T13:28:01Z",
     "discovered_at": "2026-05-19T20:15:46.472Z",
     "official": true
@@ -14826,7 +14826,7 @@
     "name": "pranavmangal/zed-ssh-config",
     "url": "https://github.com/pranavmangal/zed-ssh-config",
     "description": "A Zed extension that provides syntax highlighting for SSH config files",
-    "stars": 3,
+    "stars": 4,
     "forks": 1,
     "topics": [
       "ssh-config",
@@ -14836,7 +14836,7 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2025-01-24T17:50:31Z",
-    "updated_at": "2026-09-23T08:11:31Z",
+    "updated_at": "2026-09-24T14:40:03Z",
     "pushed_at": "2026-07-26T13:46:51Z",
     "discovered_at": "2026-05-19T20:15:46.472Z",
     "official": true
@@ -15465,7 +15465,7 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
-    "updated_at": "2026-09-24T00:56:17Z",
+    "updated_at": "2026-09-24T15:06:12Z",
     "pushed_at": "2026-09-20T21:24:48Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
@@ -18024,8 +18024,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-09-24T06:58:38Z",
-    "pushed_at": "2026-09-24T06:58:34Z",
+    "updated_at": "2026-09-24T12:55:03Z",
+    "pushed_at": "2026-09-24T12:54:58Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -19261,13 +19261,13 @@
     "name": "zed-extensions/git_firefly",
     "url": "https://github.com/zed-extensions/git_firefly",
     "description": "",
-    "stars": 154,
+    "stars": 156,
     "forks": 6,
     "topics": [],
     "language": "Tree-sitter Query",
     "license": "Apache-2.0",
     "created_at": "2024-02-19T14:56:35Z",
-    "updated_at": "2026-09-17T07:44:36Z",
+    "updated_at": "2026-09-24T14:57:33Z",
     "pushed_at": "2026-07-28T23:40:00Z",
     "discovered_at": "2026-05-19T21:42:53.670Z",
     "official": false
@@ -20678,7 +20678,7 @@
     "name": "ChunzhengLab/json5-zed-extension",
     "url": "https://github.com/ChunzhengLab/json5-zed-extension",
     "description": "JSON5 syntax highlighting support to Zed using Joakker's Tree-sitter.",
-    "stars": 5,
+    "stars": 6,
     "forks": 1,
     "topics": [
       "json5",
@@ -20689,7 +20689,7 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2025-05-13T08:42:51Z",
-    "updated_at": "2026-09-01T08:05:43Z",
+    "updated_at": "2026-09-24T14:39:49Z",
     "pushed_at": "2026-07-16T13:06:27Z",
     "discovered_at": "2026-05-19T21:55:15.596Z",
     "official": true
@@ -21265,13 +21265,13 @@
     "name": "zed-extensions/log",
     "url": "https://github.com/zed-extensions/log",
     "description": "Syntax highlighting for log files in Zed.",
-    "stars": 52,
+    "stars": 53,
     "forks": 6,
     "topics": [],
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-02-18T13:35:25Z",
-    "updated_at": "2026-09-19T13:59:00Z",
+    "updated_at": "2026-09-24T14:39:50Z",
     "pushed_at": "2026-06-07T22:08:00Z",
     "discovered_at": "2026-05-19T21:55:15.596Z",
     "official": false
@@ -22947,13 +22947,13 @@
     "name": "zed-extensions/nix",
     "url": "https://github.com/zed-extensions/nix",
     "description": "Nix language support in Zed",
-    "stars": 125,
+    "stars": 127,
     "forks": 28,
     "topics": [],
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-03-01T05:13:38Z",
-    "updated_at": "2026-09-17T16:18:45Z",
+    "updated_at": "2026-09-24T14:39:53Z",
     "pushed_at": "2026-09-11T15:23:06Z",
     "discovered_at": "2026-05-20T00:39:45.722Z",
     "official": false
@@ -24755,13 +24755,13 @@
     "name": "Kalmaegi/zed-rainbow-csv",
     "url": "https://github.com/Kalmaegi/zed-rainbow-csv",
     "description": "🌈Rainbow CSV - zed extension: Highlight CSV with different rainbow colors to make them more readable",
-    "stars": 60,
+    "stars": 62,
     "forks": 4,
     "topics": [],
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-04-12T13:06:46Z",
-    "updated_at": "2026-09-23T14:52:58Z",
+    "updated_at": "2026-09-24T15:38:05Z",
     "pushed_at": "2025-09-06T04:10:00Z",
     "discovered_at": "2026-05-20T02:57:03.419Z",
     "official": false
@@ -31461,7 +31461,7 @@
     "name": "magimetal/matrix-themes",
     "url": "https://github.com/magimetal/matrix-themes",
     "description": "Matrix-inspired themes for various software; pi-coding-agent, ghostty, herdr, vscode, zed",
-    "stars": 2,
+    "stars": 3,
     "forks": 0,
     "topics": [
       "ghostty",
@@ -31479,7 +31479,7 @@
     "language": null,
     "license": null,
     "created_at": "2026-05-13T05:42:58Z",
-    "updated_at": "2026-09-01T20:23:06Z",
+    "updated_at": "2026-09-24T14:18:21Z",
     "pushed_at": "2026-06-09T23:51:17Z",
     "discovered_at": "2026-06-30T07:17:53.935Z",
     "official": false
@@ -32200,7 +32200,7 @@
     "name": "hyyan/zed-test-coverage-highlight",
     "url": "https://github.com/hyyan/zed-test-coverage-highlight",
     "description": "Zed extension that highlights test coverage in the editor. Renders lcov, JaCoCo, Cobertura and Clover reports as colored lines, with a coverage code lens and hover.",
-    "stars": 12,
+    "stars": 13,
     "forks": 1,
     "topics": [
       "clover",
@@ -32215,7 +32215,7 @@
     "language": "TypeScript",
     "license": "MIT",
     "created_at": "2026-07-10T08:40:40Z",
-    "updated_at": "2026-09-22T22:01:09Z",
+    "updated_at": "2026-09-24T14:19:50Z",
     "pushed_at": "2026-08-21T08:33:23Z",
     "discovered_at": "2026-07-10T13:22:23.420Z",
     "official": true
@@ -33201,8 +33201,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-05-17T07:32:27Z",
-    "updated_at": "2026-09-15T04:09:23Z",
-    "pushed_at": "2026-09-12T18:52:55Z",
+    "updated_at": "2026-09-24T16:36:15Z",
+    "pushed_at": "2026-09-24T16:43:48Z",
     "discovered_at": "2026-07-26T01:12:51.640Z",
     "official": false
   },
@@ -36751,8 +36751,8 @@
     "language": "Rust",
     "license": null,
     "created_at": "2026-09-04T07:49:15Z",
-    "updated_at": "2026-09-23T02:59:28Z",
-    "pushed_at": "2026-09-23T02:59:25Z",
+    "updated_at": "2026-09-24T13:34:02Z",
+    "pushed_at": "2026-09-24T13:33:58Z",
     "discovered_at": "2026-09-04T12:51:39.260Z",
     "official": false
   },
@@ -36983,7 +36983,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-09-03T18:54:22Z",
     "updated_at": "2026-09-21T14:38:56Z",
-    "pushed_at": "2026-09-21T14:45:13Z",
+    "pushed_at": "2026-09-24T18:48:22Z",
     "discovered_at": "2026-09-09T01:10:37.044Z",
     "official": false
   },
@@ -37387,7 +37387,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-08-28T14:03:54Z",
     "updated_at": "2026-09-18T02:36:17Z",
-    "pushed_at": "2026-09-23T21:30:32Z",
+    "pushed_at": "2026-09-24T18:15:58Z",
     "discovered_at": "2026-09-13T21:07:24.622Z",
     "official": false
   },
@@ -38065,8 +38065,8 @@
     "language": "JavaScript",
     "license": "GPL-3.0",
     "created_at": "2026-09-20T17:38:03Z",
-    "updated_at": "2026-09-21T15:02:02Z",
-    "pushed_at": "2026-09-21T15:01:58Z",
+    "updated_at": "2026-09-24T17:59:08Z",
+    "pushed_at": "2026-09-24T17:59:04Z",
     "discovered_at": "2026-09-20T21:03:00.798Z",
     "official": false
   },
@@ -38688,8 +38688,8 @@
     "language": "Go",
     "license": "MIT",
     "created_at": "2026-09-22T10:59:54Z",
-    "updated_at": "2026-09-22T12:18:19Z",
-    "pushed_at": "2026-09-22T11:39:09Z",
+    "updated_at": "2026-09-24T15:53:47Z",
+    "pushed_at": "2026-09-24T15:53:43Z",
     "discovered_at": "2026-09-22T17:16:02.589Z",
     "official": false
   },
@@ -38849,8 +38849,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-08-07T18:46:45Z",
-    "updated_at": "2026-09-23T20:21:34Z",
-    "pushed_at": "2026-09-23T20:17:31Z",
+    "updated_at": "2026-09-24T16:10:57Z",
+    "pushed_at": "2026-09-24T16:10:53Z",
     "discovered_at": "2026-09-23T21:46:17.072Z",
     "official": false
   },
@@ -39067,5 +39067,50 @@
     "pushed_at": "2026-09-19T19:00:24Z",
     "discovered_at": "2026-09-24T12:54:23.165Z",
     "official": true
+  },
+  "ribbtdev/breadog-zed": {
+    "name": "RibbtDev/breadog-zed",
+    "url": "https://github.com/RibbtDev/breadog-zed",
+    "description": "Breadog theme for the Zed editor",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "zed",
+      "zed-extension",
+      "zed-theme"
+    ],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-09-24T14:28:08Z",
+    "updated_at": "2026-09-24T18:18:34Z",
+    "pushed_at": "2026-09-24T18:18:30Z",
+    "discovered_at": "2026-09-24T18:49:22.366Z",
+    "official": false
+  },
+  "dylanvann/xcode-system-theme": {
+    "name": "DylanVann/xcode-system-theme",
+    "url": "https://github.com/DylanVann/xcode-system-theme",
+    "description": "Xcode 27's default colors for Ghostty, Zed, and bat, so your editor, terminal, and Xcode all agree with each other and with the rest of macOS",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "bat",
+      "color-scheme",
+      "ghostty",
+      "ghostty-theme",
+      "macos",
+      "theme",
+      "xcode",
+      "zed",
+      "zed-extension",
+      "zed-theme"
+    ],
+    "language": "Shell",
+    "license": "MIT",
+    "created_at": "2026-09-24T16:47:22Z",
+    "updated_at": "2026-09-24T18:19:12Z",
+    "pushed_at": "2026-09-24T18:16:57Z",
+    "discovered_at": "2026-09-24T18:49:22.366Z",
+    "official": false
   }
 }
