@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1822** |
 | In official registry | 1314 |
 | Discovered via topics | 508 |
-| Last updated | 2026-09-24 05:21 UTC |
+| Last updated | 2026-09-24 06:57 UTC |
 
 ### By capability
 
@@ -120,6 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 99 | 2026-09-24 | True Dark Theme for Zed IDE |
 | [vitallium/zed-modus-themes](https://github.com/vitallium/zed-modus-themes) | 54 | 2026-09-24 | Port of Modus Themes (https://protesilaos.com/emacs/modus-th... |
 | [briar-systems/mach-zed](https://github.com/briar-systems/mach-zed) | 0 | 2026-09-24 | Mach language support for Zed including syntax highlighting,... |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 6 | 2026-09-24 | Spring Boot language intelligence for Zed, built on the requ... |
@@ -133,7 +134,6 @@ cd website && npm install && npm run dev
 | [ddh4r4m/zed-shades-of-stoicism](https://github.com/ddh4r4m/zed-shades-of-stoicism) | 0 | 2026-09-23 | Shades of Stoicism — ten themes for Zed, generated from one ... |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 0 | 2026-09-23 | Zed editor support for Carve, a modern light markup language |
 | [monokkai/zed-solarized-osaka-late2026](https://github.com/monokkai/zed-solarized-osaka-late2026) | 1 | 2026-09-23 | Solarized Osaka (vivid) ported to Zed — opaque and blurred v... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 99 | 2026-09-23 | True Dark Theme for Zed IDE |
 | [JeffreyJYZ/command-code-zed](https://github.com/JeffreyJYZ/command-code-zed) | 2 | 2026-09-23 | Zed extension and cmduse CLI for live Command Code usage: pl... |
 | [kennyheard/zed-theme-zen](https://github.com/kennyheard/zed-theme-zen) | 5 | 2026-09-22 | A Zed theme designed for clarity and focus. |
 | [BANSAFAn/i18n-zed](https://github.com/BANSAFAn/i18n-zed) | 2 | 2026-09-22 | A small script for Zed Editor that makes it easy to work wit... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-09-24T06:57 | 0 | 636 | 2252 |
 | 2026-09-24T05:21 | 7 | 634 | 2252 |
 | 2026-09-23T21:46 | 3 | 631 | 2245 |
 | 2026-09-23T17:27 | 3 | 632 | 2242 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-09-22T17:16 | 1 | 628 | 2236 |
 | 2026-09-22T12:02 | 4 | 626 | 2235 |
 | 2026-09-22T05:22 | 6 | 626 | 2231 |
-| 2026-09-21T22:12 | 14 | 623 | 2225 |
 
 ---
 
