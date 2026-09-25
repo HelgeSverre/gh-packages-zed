@@ -1,0 +1,8 @@
+id = "ruby-snippets"
+name = "Ruby Snippets"
+version = "0.1.0"
+schema_version = 1
+authors = ["Andy Waite <github.aw@andywaite.com>", "Vitaly Slobodin <vitaly_slobodin@fastmail.com>"]
+description = "Ruby code snippets for common classes, modules, blocks, and testing workflows."
+repository = "https://github.com/vitallium/zed-ruby-snippets-extension"
+snippets = "./snippets/ruby.json"
