@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1830** |
 | In official registry | 1321 |
 | Discovered via topics | 509 |
-| Last updated | 2026-09-25 01:11 UTC |
+| Last updated | 2026-09-25 06:58 UTC |
 
 ### By capability
 
@@ -120,16 +120,17 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 99 | 2026-09-25 | True Dark Theme for Zed IDE |
+| [mumez/zed-extension-tonel-smalltalk](https://github.com/mumez/zed-extension-tonel-smalltalk) | 0 | 2026-09-25 | Tonel Smalltalk language extensiotn for Zed |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 6 | 2026-09-25 | Spring Boot language intelligence for Zed, built on the requ... |
-| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-09-24 | Intelligent codebase search & indexing for Zed. Async MCP se... |
+| [JeffreyJYZ/command-code-zed](https://github.com/JeffreyJYZ/command-code-zed) | 2 | 2026-09-25 | Zed extension and cmduse CLI for live Command Code usage: pl... |
+| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 3 | 2026-09-24 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [blacktop/zed-objc](https://github.com/blacktop/zed-objc) | 4 | 2026-09-24 | Objective-C support for Zed |
 | [SinaMombeiny/S-DarkTheme.zed](https://github.com/SinaMombeiny/S-DarkTheme.zed) | 5 | 2026-09-24 | Dark theme for Zed |
 | [vitallium/zed-ltex](https://github.com/vitallium/zed-ltex) | 19 | 2026-09-24 | LTeX+ Language Server support for Zed |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 138 | 2026-09-24 | The Ruby language support for Zed editor |
 | [DylanVann/xcode-system-theme](https://github.com/DylanVann/xcode-system-theme) | 0 | 2026-09-24 | Xcode 27's default colors for Ghostty, Zed, and bat, so your... |
 | [RibbtDev/breadog-zed](https://github.com/RibbtDev/breadog-zed) | 0 | 2026-09-24 | Breadog theme for the Zed editor |
-| [JeffreyJYZ/command-code-zed](https://github.com/JeffreyJYZ/command-code-zed) | 2 | 2026-09-24 | Zed extension and cmduse CLI for live Command Code usage: pl... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 99 | 2026-09-24 | True Dark Theme for Zed IDE |
 | [vitallium/zed-modus-themes](https://github.com/vitallium/zed-modus-themes) | 54 | 2026-09-24 | Port of Modus Themes (https://protesilaos.com/emacs/modus-th... |
 | [briar-systems/mach-zed](https://github.com/briar-systems/mach-zed) | 0 | 2026-09-24 | Mach language support for Zed including syntax highlighting,... |
 | [xproklyatx/mountain-theme](https://github.com/xproklyatx/mountain-theme) | 0 | 2026-09-24 | Port of Mountain theme for Zed edittor. |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [kagulion/astro-snippets](https://github.com/kagulion/astro-snippets) | 0 | 2026-09-23 | Modern, clean, and comprehensive snippets for Astro developm... |
 | [dunyakirkali/zed-asciidoc](https://github.com/dunyakirkali/zed-asciidoc) | 23 | 2026-09-23 | Zed support for AsciiDoc syntax |
 | [justKevv/zed-fuji-winter-theme](https://github.com/justKevv/zed-fuji-winter-theme) | 0 | 2026-09-23 |  |
-| [ddh4r4m/zed-shades-of-stoicism](https://github.com/ddh4r4m/zed-shades-of-stoicism) | 0 | 2026-09-23 | Shades of Stoicism — ten themes for Zed, generated from one ... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-09-25T06:58 | 0 | 638 | 2260 |
 | 2026-09-25T01:11 | 1 | 638 | 2260 |
 | 2026-09-24T18:49 | 2 | 636 | 2259 |
 | 2026-09-24T12:54 | 5 | 636 | 2257 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-09-23T17:27 | 3 | 632 | 2242 |
 | 2026-09-23T12:06 | 1 | 631 | 2239 |
 | 2026-09-23T05:09 | 0 | 631 | 2238 |
-| 2026-09-22T21:39 | 2 | 629 | 2238 |
 
 ---
 
