@@ -1,0 +1,14 @@
+id = "rl"
+name = "RL"
+version = "0.1.0"
+schema_version = 1
+description = "RL language support: syntax highlighting via tree-sitter and diagnostics via rlsp"
+authors = ["MohamedGonem"]
+repository = "https://github.com/rl-lang/tree-sitter-rl"
+
+[grammars.rl]
+repository = "https://github.com/rl-lang/tree-sitter-rl"
+commit = "6e2f332cb6e6a0578f9bce6bbb647f3366762e3d"
+
+[language_servers.rl-lsp]
+languages = ["rl"]

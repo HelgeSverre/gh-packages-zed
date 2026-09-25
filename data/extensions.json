@@ -244,7 +244,7 @@
     "name": "zed-extensions/ruby",
     "url": "https://github.com/zed-extensions/ruby",
     "description": "The Ruby language support for Zed editor",
-    "stars": 138,
+    "stars": 139,
     "forks": 33,
     "topics": [
       "ruby",
@@ -254,8 +254,8 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2024-10-11T18:22:02Z",
-    "updated_at": "2026-09-24T20:11:40Z",
-    "pushed_at": "2026-09-24T20:12:02Z",
+    "updated_at": "2026-09-25T09:29:53Z",
+    "pushed_at": "2026-09-25T10:17:48Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -487,7 +487,7 @@
     "url": "https://github.com/BenjaminHalko/flow-icons-zed",
     "description": "🌼 Flow Icons ported to Zed",
     "stars": 39,
-    "forks": 3,
+    "forks": 4,
     "topics": [
       "flow",
       "glassmorphism",
@@ -3340,8 +3340,8 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-03-30T11:33:55Z",
-    "updated_at": "2026-09-23T16:40:23Z",
-    "pushed_at": "2026-09-23T16:40:21Z",
+    "updated_at": "2026-09-25T08:08:31Z",
+    "pushed_at": "2026-09-25T08:08:37Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false,
     "extension": {
@@ -5985,7 +5985,7 @@
     "license": "CC0-1.0",
     "created_at": "2025-10-02T10:11:26Z",
     "updated_at": "2025-12-04T23:51:47Z",
-    "pushed_at": "2025-12-04T23:51:43Z",
+    "pushed_at": "2026-09-25T12:12:44Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false,
     "extension": {
@@ -54694,7 +54694,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
     "updated_at": "2026-09-25T04:31:59Z",
-    "pushed_at": "2026-09-25T04:31:57Z",
+    "pushed_at": "2026-09-25T12:07:31Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false,
     "extension": {
@@ -62804,6 +62804,9 @@
     "stars": 0,
     "forks": 0,
     "topics": [
+      "breadog",
+      "color-scheme",
+      "light-theme",
       "zed",
       "zed-extension",
       "zed-theme"
@@ -62811,8 +62814,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-09-24T14:28:08Z",
-    "updated_at": "2026-09-24T18:18:34Z",
-    "pushed_at": "2026-09-24T18:18:30Z",
+    "updated_at": "2026-09-25T12:17:50Z",
+    "pushed_at": "2026-09-25T12:12:03Z",
     "discovered_at": "2026-09-24T18:49:22.366Z",
     "official": true,
     "extension": {
@@ -62903,6 +62906,152 @@
       "sections": [],
       "categories": [
         "snippets"
+      ]
+    }
+  },
+  "thochra/zed-haproxy-extension": {
+    "name": "thochra/zed-haproxy-extension",
+    "url": "https://github.com/thochra/zed-haproxy-extension",
+    "description": "Extension for the Zed editor that adds syntax highlighting",
+    "stars": 1,
+    "forks": 0,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2026-04-26T15:24:14Z",
+    "updated_at": "2026-09-22T16:08:00Z",
+    "pushed_at": "2026-09-22T16:10:52Z",
+    "discovered_at": "2026-09-25T12:54:21.384Z",
+    "official": true,
+    "extension": {
+      "id": "haproxy",
+      "name": "HAProxy",
+      "description": "HAProxy configuration syntax support for Zed",
+      "version": "1.0.1",
+      "schema_version": 1,
+      "authors": [
+        "thochra"
+      ],
+      "repository": "https://github.com/thochra/zed-haproxy-extension",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
+      ]
+    }
+  },
+  "saifbasheeralkhoja/skys-theme": {
+    "name": "saifbasheeralkhoja/skys-theme",
+    "url": "https://github.com/saifbasheeralkhoja/skys-theme",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-06-17T07:03:41Z",
+    "updated_at": "2026-06-19T20:24:16Z",
+    "pushed_at": "2026-06-19T20:24:13Z",
+    "discovered_at": "2026-09-25T12:54:21.384Z",
+    "official": true,
+    "extension": {
+      "id": "skys-theme",
+      "name": "Sky's Sea",
+      "description": "A beautiful minimalistic custom theme for the Zed Editor.",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Saif Basheer Mohammed Al-Khoja"
+      ],
+      "repository": "https://github.com/saifbasheeralkhoja/skys-theme",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "rl-lang/rl-zed-extension": {
+    "name": "rl-lang/rl-zed-extension",
+    "url": "https://github.com/rl-lang/rl-zed-extension",
+    "description": "RL language support for Zed: tree-sitter highlighting plus rlsp diagnostics",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "lsp",
+      "rl",
+      "rl-lang",
+      "tree-sitter",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Tree-sitter Query",
+    "license": "NOASSERTION",
+    "created_at": "2026-07-08T08:41:36Z",
+    "updated_at": "2026-09-25T08:29:40Z",
+    "pushed_at": "2026-09-25T08:30:08Z",
+    "discovered_at": "2026-09-25T12:54:21.384Z",
+    "official": false,
+    "extension": {
+      "id": "rl",
+      "name": "RL",
+      "description": "RL language support: syntax highlighting via tree-sitter and diagnostics via rlsp",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "MohamedGonem"
+      ],
+      "repository": "https://github.com/rl-lang/tree-sitter-rl",
+      "snippets": null,
+      "sections": [
+        "grammars",
+        "language_servers"
+      ],
+      "categories": [
+        "grammar",
+        "language-server"
+      ]
+    }
+  },
+  "yuukilike/zed-skin": {
+    "name": "yuukiLike/zed-skin",
+    "url": "https://github.com/yuukiLike/zed-skin",
+    "description": "A high contrast theme collection for Zed. Three AAA-audited dark themes and a warm-white Day Vivid palette.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "dark-theme",
+      "green",
+      "greentree",
+      "high-contrast",
+      "light-theme",
+      "midori",
+      "zed",
+      "zed-theme"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "created_at": "2026-09-25T09:59:14Z",
+    "updated_at": "2026-09-25T10:39:58Z",
+    "pushed_at": "2026-09-25T10:18:47Z",
+    "discovered_at": "2026-09-25T12:54:21.385Z",
+    "official": false,
+    "extension": {
+      "id": "green-tree-theme",
+      "name": "GreenTree",
+      "description": "A high contrast theme collection for Zed. Three dark variants meet the WCAG AAA text contrast target in the included palette audit; warm-white Day Vivid prioritizes brighter colors.",
+      "version": "0.11.0",
+      "schema_version": 1,
+      "authors": [
+        "yuukiLike"
+      ],
+      "repository": "https://github.com/yuukiLike/zed-skin",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
       ]
     }
   }

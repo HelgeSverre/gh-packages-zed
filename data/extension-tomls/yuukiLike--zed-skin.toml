@@ -1,0 +1,8 @@
+id = "green-tree-theme"
+name = "GreenTree"
+version = "0.11.0"
+schema_version = 1
+authors = ["yuukiLike"]
+description = "A high contrast theme collection for Zed. Three dark variants meet the WCAG AAA text contrast target in the included palette audit; warm-white Day Vivid prioritizes brighter colors."
+repository = "https://github.com/yuukiLike/zed-skin"
+themes = ["themes/green-tree.json"]
