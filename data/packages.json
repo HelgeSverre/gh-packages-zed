@@ -74,8 +74,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-05-03T17:39:17Z",
-    "updated_at": "2026-09-19T06:12:13Z",
-    "pushed_at": "2026-09-19T06:12:16Z",
+    "updated_at": "2026-09-25T20:17:35Z",
+    "pushed_at": "2026-09-25T20:17:37Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -217,7 +217,7 @@
     "license": "NOASSERTION",
     "created_at": "2024-10-11T18:22:02Z",
     "updated_at": "2026-09-25T09:29:53Z",
-    "pushed_at": "2026-09-25T10:17:48Z",
+    "pushed_at": "2026-09-25T19:16:25Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -5148,7 +5148,7 @@
     "name": "Dylanmurzello/zed-android-port",
     "url": "https://github.com/Dylanmurzello/zed-android-port",
     "description": "Native Android port of the Zed code editor,  gpui rendering through Vulkan, integrated Termux for LSPs and tooling, remote SSH support. Runs as an APK on tablets and Android desktop modes.",
-    "stars": 216,
+    "stars": 217,
     "forks": 18,
     "topics": [
       "android",
@@ -5175,7 +5175,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-05-07T00:12:10Z",
-    "updated_at": "2026-09-22T11:24:04Z",
+    "updated_at": "2026-09-25T18:54:41Z",
     "pushed_at": "2026-08-07T13:48:06Z",
     "discovered_at": "2026-05-19T19:54:12.053Z",
     "official": false
@@ -15438,7 +15438,7 @@
     "name": "agent-sh/agnix",
     "url": "https://github.com/agent-sh/agnix",
     "description": "The missing linter and lsp for AI coding assistants. Validate CLAUDE.md, AGENTS.md, SKILL.md, hooks, MCP. Plugin for all major IDEs included, with autofixes.",
-    "stars": 425,
+    "stars": 426,
     "forks": 31,
     "topics": [
       "agent",
@@ -15465,8 +15465,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
-    "updated_at": "2026-09-25T10:28:26Z",
-    "pushed_at": "2026-09-20T21:24:48Z",
+    "updated_at": "2026-09-25T19:52:29Z",
+    "pushed_at": "2026-09-25T19:47:21Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -18024,8 +18024,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-09-25T12:55:04Z",
-    "pushed_at": "2026-09-25T12:54:58Z",
+    "updated_at": "2026-09-25T18:48:44Z",
+    "pushed_at": "2026-09-25T18:48:39Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -32719,7 +32719,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
     "updated_at": "2026-09-25T12:58:26Z",
-    "pushed_at": "2026-09-25T18:25:02Z",
+    "pushed_at": "2026-09-25T22:51:12Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false
   },
@@ -37387,7 +37387,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-08-28T14:03:54Z",
     "updated_at": "2026-09-18T02:36:17Z",
-    "pushed_at": "2026-09-25T18:37:25Z",
+    "pushed_at": "2026-09-25T23:54:22Z",
     "discovered_at": "2026-09-13T21:07:24.622Z",
     "official": false
   },
@@ -38157,8 +38157,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-09-21T07:36:15Z",
-    "updated_at": "2026-09-23T15:45:02Z",
-    "pushed_at": "2026-09-23T15:45:01Z",
+    "updated_at": "2026-09-25T19:56:26Z",
+    "pushed_at": "2026-09-25T19:56:27Z",
     "discovered_at": "2026-09-21T13:19:36.942Z",
     "official": false
   },
@@ -38402,7 +38402,7 @@
     "url": "https://github.com/Sunrisepeak/mcpp-language-server",
     "description": "mcppls — a C++20/23 modules language server: one set of module semantics on GCC, Clang, MSVC and MinGW, for editors (VS Code, Zed, CLion, Neovim), AI Agents (MCP) and CI",
     "stars": 12,
-    "forks": 0,
+    "forks": 1,
     "topics": [
       "ai-agents",
       "clangd",
@@ -39235,6 +39235,42 @@
     "updated_at": "2026-09-25T10:39:58Z",
     "pushed_at": "2026-09-25T10:18:47Z",
     "discovered_at": "2026-09-25T12:54:21.385Z",
+    "official": false
+  },
+  "ahsanriaz786/zed-vscode-dotfiles": {
+    "name": "AhsanRiaz786/zed-vscode-dotfiles",
+    "url": "https://github.com/AhsanRiaz786/zed-vscode-dotfiles",
+    "description": "Make the Zed editor look and behave like VS Code: Dark Modern theme, Seti icons, VS Code keymap, VS Code editor defaults, all AI disabled. Drop-in dotfiles — 33 developer extensions auto-installed on first launch.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "ai-disabled",
+      "config",
+      "dark-modern",
+      "developer-tools",
+      "dotfiles",
+      "dotfiles-macos",
+      "editor",
+      "keymap",
+      "linux",
+      "macos",
+      "productivity",
+      "seti-icons",
+      "settings",
+      "theme",
+      "vs-code",
+      "vscode",
+      "vscode-theme",
+      "zed",
+      "zed-config",
+      "zed-editor"
+    ],
+    "language": "Shell",
+    "license": "MIT",
+    "created_at": "2026-09-26T00:51:23Z",
+    "updated_at": "2026-09-26T00:57:01Z",
+    "pushed_at": "2026-09-26T00:56:58Z",
+    "discovered_at": "2026-09-26T01:09:58.772Z",
     "official": false
   }
 }

@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1834** |
 | In official registry | 1323 |
 | Discovered via topics | 511 |
-| Last updated | 2026-09-25 18:48 UTC |
+| Last updated | 2026-09-26 01:09 UTC |
 
 ### By capability
 
@@ -121,6 +121,8 @@ cd website && npm install && npm run dev
 | Package | Stars | Last push | Description |
 |---|---|---|---|
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 7 | 2026-09-25 | Spring Boot language intelligence for Zed, built on the requ... |
+| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-09-25 | A Zed extension that allows to highlight all occurrences of ... |
+| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 139 | 2026-09-25 | The Ruby language support for Zed editor |
 | [briar-systems/mach-zed](https://github.com/briar-systems/mach-zed) | 0 | 2026-09-25 | Mach language support for Zed including syntax highlighting,... |
 | [JeffreyJYZ/command-code-zed](https://github.com/JeffreyJYZ/command-code-zed) | 2 | 2026-09-25 | Zed extension and cmduse CLI for live Command Code usage: pl... |
 | [duanechan/spring-boot-properties](https://github.com/duanechan/spring-boot-properties) | 0 | 2026-09-25 | Spring Boot application properties snippets for Zed |
@@ -129,7 +131,6 @@ cd website && npm install && npm run dev
 | [shnarazk/Quasarized.Zed](https://github.com/shnarazk/Quasarized.Zed) | 0 | 2026-09-25 | A modified color scheme extension for Zed editor based on So... |
 | [RibbtDev/breadog-zed](https://github.com/RibbtDev/breadog-zed) | 0 | 2026-09-25 | Breadog theme for the Zed editor |
 | [yuukiLike/zed-skin](https://github.com/yuukiLike/zed-skin) | 0 | 2026-09-25 | A high contrast theme collection for Zed. Three AAA-audited ... |
-| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 139 | 2026-09-25 | The Ruby language support for Zed editor |
 | [rl-lang/rl-zed-extension](https://github.com/rl-lang/rl-zed-extension) | 0 | 2026-09-25 | RL language support for Zed: tree-sitter highlighting plus r... |
 | [dunyakirkali/zed-asciidoc](https://github.com/dunyakirkali/zed-asciidoc) | 23 | 2026-09-25 | Zed support for AsciiDoc syntax |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 99 | 2026-09-25 | True Dark Theme for Zed IDE |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [vitallium/zed-ltex](https://github.com/vitallium/zed-ltex) | 19 | 2026-09-24 | LTeX+ Language Server support for Zed |
 | [DylanVann/xcode-system-theme](https://github.com/DylanVann/xcode-system-theme) | 0 | 2026-09-24 | Xcode 27's default colors for Ghostty, Zed, and bat, so your... |
 | [vitallium/zed-modus-themes](https://github.com/vitallium/zed-modus-themes) | 54 | 2026-09-24 | Port of Modus Themes (https://protesilaos.com/emacs/modus-th... |
-| [xproklyatx/mountain-theme](https://github.com/xproklyatx/mountain-theme) | 0 | 2026-09-24 | Port of Mountain theme for Zed edittor. |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-09-26T01:09 | 1 | 639 | 2267 |
 | 2026-09-25T18:48 | 0 | 639 | 2266 |
 | 2026-09-25T12:54 | 6 | 637 | 2266 |
 | 2026-09-25T06:58 | 0 | 638 | 2260 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-09-24T06:57 | 0 | 636 | 2252 |
 | 2026-09-24T05:21 | 7 | 634 | 2252 |
 | 2026-09-23T21:46 | 3 | 631 | 2245 |
-| 2026-09-23T17:27 | 3 | 632 | 2242 |
 
 ---
 
