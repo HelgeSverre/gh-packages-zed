@@ -157,8 +157,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-09-25T06:43:38Z",
-    "pushed_at": "2026-09-25T06:43:35Z",
+    "updated_at": "2026-09-26T06:42:34Z",
+    "pushed_at": "2026-09-26T06:42:30Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -2936,8 +2936,8 @@
     "language": "TypeScript",
     "license": "GPL-3.0",
     "created_at": "2024-09-30T17:41:34Z",
-    "updated_at": "2026-09-19T17:28:32Z",
-    "pushed_at": "2026-09-19T17:28:27Z",
+    "updated_at": "2026-09-26T05:47:52Z",
+    "pushed_at": "2026-09-26T05:47:47Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -3834,7 +3834,7 @@
     "license": "CC0-1.0",
     "created_at": "2025-10-02T10:11:26Z",
     "updated_at": "2025-12-04T23:51:47Z",
-    "pushed_at": "2026-09-25T12:12:44Z",
+    "pushed_at": "2026-09-26T03:20:12Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -18024,8 +18024,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-09-25T18:48:44Z",
-    "pushed_at": "2026-09-25T18:48:39Z",
+    "updated_at": "2026-09-26T01:10:30Z",
+    "pushed_at": "2026-09-26T01:10:26Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -32036,7 +32036,7 @@
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
     "updated_at": "2026-09-25T14:12:19Z",
-    "pushed_at": "2026-09-25T14:12:13Z",
+    "pushed_at": "2026-09-26T06:41:24Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false
   },
@@ -32719,7 +32719,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
     "updated_at": "2026-09-25T12:58:26Z",
-    "pushed_at": "2026-09-25T22:51:12Z",
+    "pushed_at": "2026-09-26T02:21:29Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false
   },
@@ -36748,11 +36748,11 @@
       "zed",
       "zed-extension"
     ],
-    "language": "Rust",
+    "language": "TypeScript",
     "license": null,
     "created_at": "2026-09-04T07:49:15Z",
-    "updated_at": "2026-09-25T16:48:26Z",
-    "pushed_at": "2026-09-25T16:48:21Z",
+    "updated_at": "2026-09-26T02:57:10Z",
+    "pushed_at": "2026-09-26T02:57:07Z",
     "discovered_at": "2026-09-04T12:51:39.260Z",
     "official": false
   },
@@ -38401,7 +38401,7 @@
     "name": "Sunrisepeak/mcpp-language-server",
     "url": "https://github.com/Sunrisepeak/mcpp-language-server",
     "description": "mcppls — a C++20/23 modules language server: one set of module semantics on GCC, Clang, MSVC and MinGW, for editors (VS Code, Zed, CLion, Neovim), AI Agents (MCP) and CI",
-    "stars": 12,
+    "stars": 13,
     "forks": 1,
     "topics": [
       "ai-agents",
@@ -38428,8 +38428,8 @@
     "language": "C++",
     "license": "Apache-2.0",
     "created_at": "2026-09-21T20:10:00Z",
-    "updated_at": "2026-09-25T14:52:27Z",
-    "pushed_at": "2026-09-25T00:55:00Z",
+    "updated_at": "2026-09-26T02:47:03Z",
+    "pushed_at": "2026-09-26T03:26:53Z",
     "discovered_at": "2026-09-21T22:12:12.101Z",
     "official": false
   },
@@ -39271,6 +39271,27 @@
     "updated_at": "2026-09-26T00:57:01Z",
     "pushed_at": "2026-09-26T00:56:58Z",
     "discovered_at": "2026-09-26T01:09:58.772Z",
+    "official": false
+  },
+  "monkhai/ized": {
+    "name": "monkhai/iZed",
+    "url": "https://github.com/monkhai/iZed",
+    "description": "Work-in-progress Zed editor for iPad, opening projects on macOS Machines over SSH",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "gpui",
+      "ipad",
+      "rust",
+      "ssh",
+      "zed-editor"
+    ],
+    "language": "Rust",
+    "license": "AGPL-3.0",
+    "created_at": "2026-09-26T03:22:32Z",
+    "updated_at": "2026-09-26T03:36:14Z",
+    "pushed_at": "2026-09-26T03:36:11Z",
+    "discovered_at": "2026-09-26T06:55:23.502Z",
     "official": false
   }
 }
