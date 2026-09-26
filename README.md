@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1834** |
 | In official registry | 1323 |
 | Discovered via topics | 511 |
-| Last updated | 2026-09-26 06:55 UTC |
+| Last updated | 2026-09-26 12:49 UTC |
 
 ### By capability
 
@@ -120,11 +120,11 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 99 | 2026-09-26 | True Dark Theme for Zed IDE |
+| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 7 | 2026-09-26 | Spring Boot language intelligence for Zed, built on the requ... |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 3 | 2026-09-26 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [shnarazk/Quasarized.Zed](https://github.com/shnarazk/Quasarized.Zed) | 0 | 2026-09-26 | A modified color scheme extension for Zed editor based on So... |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 99 | 2026-09-26 | True Dark Theme for Zed IDE |
 | [JeffreyJYZ/command-code-zed](https://github.com/JeffreyJYZ/command-code-zed) | 2 | 2026-09-26 | Zed extension and cmduse CLI for live Command Code usage: pl... |
-| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 7 | 2026-09-26 | Spring Boot language intelligence for Zed, built on the requ... |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-09-25 | A Zed extension that allows to highlight all occurrences of ... |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 139 | 2026-09-25 | The Ruby language support for Zed editor |
 | [briar-systems/mach-zed](https://github.com/briar-systems/mach-zed) | 0 | 2026-09-25 | Mach language support for Zed including syntax highlighting,... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-09-26T12:49 | 0 | 640 | 2268 |
 | 2026-09-26T06:55 | 1 | 639 | 2268 |
 | 2026-09-26T01:09 | 1 | 639 | 2267 |
 | 2026-09-25T18:48 | 0 | 639 | 2266 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-09-24T18:49 | 2 | 636 | 2259 |
 | 2026-09-24T12:54 | 5 | 636 | 2257 |
 | 2026-09-24T06:57 | 0 | 636 | 2252 |
-| 2026-09-24T05:21 | 7 | 634 | 2252 |
 
 ---
 
