@@ -3874,8 +3874,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2024-08-06T19:05:20Z",
-    "updated_at": "2026-09-09T07:45:24Z",
-    "pushed_at": "2026-09-24T20:31:17Z",
+    "updated_at": "2026-09-26T15:03:53Z",
+    "pushed_at": "2026-09-26T15:03:52Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -18024,8 +18024,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-09-26T06:56:00Z",
-    "pushed_at": "2026-09-26T06:55:56Z",
+    "updated_at": "2026-09-26T12:49:47Z",
+    "pushed_at": "2026-09-26T12:49:44Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -28641,8 +28641,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-05-02T15:28:06Z",
-    "updated_at": "2026-07-09T02:18:37Z",
-    "pushed_at": "2026-05-19T11:12:49Z",
+    "updated_at": "2026-09-26T16:39:03Z",
+    "pushed_at": "2026-09-26T16:38:58Z",
     "discovered_at": "2026-05-20T18:48:09.721Z",
     "official": true
   },
@@ -30045,7 +30045,7 @@
     "license": "MIT",
     "created_at": "2026-06-09T22:36:14Z",
     "updated_at": "2026-09-24T07:01:14Z",
-    "pushed_at": "2026-09-15T12:45:57Z",
+    "pushed_at": "2026-09-26T14:09:23Z",
     "discovered_at": "2026-06-10T00:43:30.823Z",
     "official": false
   },
@@ -32036,7 +32036,7 @@
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
     "updated_at": "2026-09-26T09:27:51Z",
-    "pushed_at": "2026-09-26T12:48:06Z",
+    "pushed_at": "2026-09-26T17:51:07Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false
   },
@@ -32719,7 +32719,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
     "updated_at": "2026-09-25T12:58:26Z",
-    "pushed_at": "2026-09-26T12:48:24Z",
+    "pushed_at": "2026-09-26T12:50:12Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false
   },
@@ -35601,8 +35601,8 @@
     "language": null,
     "license": null,
     "created_at": "2026-08-16T21:55:25Z",
-    "updated_at": "2026-09-26T11:33:54Z",
-    "pushed_at": "2026-09-26T11:33:50Z",
+    "updated_at": "2026-09-26T13:36:20Z",
+    "pushed_at": "2026-09-26T13:36:16Z",
     "discovered_at": "2026-08-17T01:03:46.357Z",
     "official": false
   },
@@ -36660,8 +36660,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-09-02T15:38:43Z",
-    "updated_at": "2026-09-25T11:11:05Z",
-    "pushed_at": "2026-09-25T11:11:02Z",
+    "updated_at": "2026-09-26T14:52:28Z",
+    "pushed_at": "2026-09-26T15:24:47Z",
     "discovered_at": "2026-09-03T18:53:15.863Z",
     "official": false
   },
@@ -36922,8 +36922,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-02-11T18:21:24Z",
-    "updated_at": "2026-09-25T18:15:58Z",
-    "pushed_at": "2026-09-25T18:24:21Z",
+    "updated_at": "2026-09-26T15:02:25Z",
+    "pushed_at": "2026-09-26T15:02:21Z",
     "discovered_at": "2026-09-07T18:46:27.368Z",
     "official": true
   },
@@ -36982,8 +36982,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-09-03T18:54:22Z",
-    "updated_at": "2026-09-26T11:40:42Z",
-    "pushed_at": "2026-09-26T11:47:44Z",
+    "updated_at": "2026-09-26T12:57:23Z",
+    "pushed_at": "2026-09-26T12:57:19Z",
     "discovered_at": "2026-09-09T01:10:37.044Z",
     "official": false
   },
@@ -37847,10 +37847,10 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-09-18T08:34:54Z",
-    "updated_at": "2026-09-18T08:40:22Z",
-    "pushed_at": "2026-09-18T08:35:55Z",
+    "updated_at": "2026-09-26T13:41:21Z",
+    "pushed_at": "2026-09-26T13:41:17Z",
     "discovered_at": "2026-09-18T11:47:44.716Z",
-    "official": false
+    "official": true
   },
   "okhalri/zed-blink": {
     "name": "okhalri/zed-blink",
@@ -39289,9 +39289,54 @@
     "language": "Rust",
     "license": "AGPL-3.0",
     "created_at": "2026-09-26T03:22:32Z",
-    "updated_at": "2026-09-26T03:36:14Z",
-    "pushed_at": "2026-09-26T03:36:11Z",
+    "updated_at": "2026-09-26T17:24:43Z",
+    "pushed_at": "2026-09-26T17:24:40Z",
     "discovered_at": "2026-09-26T06:55:23.502Z",
+    "official": false
+  },
+  "oxidescheme/zed": {
+    "name": "oxidescheme/zed",
+    "url": "https://github.com/oxidescheme/zed",
+    "description": "A minimalist colorscheme for Zed",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "colorscheme",
+      "minimal",
+      "oxide",
+      "port",
+      "theme",
+      "zed"
+    ],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-05-14T17:27:35Z",
+    "updated_at": "2026-09-26T09:08:20Z",
+    "pushed_at": "2026-09-26T09:08:16Z",
+    "discovered_at": "2026-09-26T18:48:00.642Z",
+    "official": true
+  },
+  "17robots/dyn-editors": {
+    "name": "17robots/dyn-editors",
+    "url": "https://github.com/17robots/dyn-editors",
+    "description": "Dyn language support for VS Code, Zed, Helix, Neovim, and Sublime Text",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "dyn",
+      "helix",
+      "language-server",
+      "neovim",
+      "sublime-text",
+      "vscode-extension",
+      "zed-extension"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "created_at": "2026-09-26T15:42:52Z",
+    "updated_at": "2026-09-26T16:03:28Z",
+    "pushed_at": "2026-09-26T16:03:26Z",
+    "discovered_at": "2026-09-26T18:48:00.642Z",
     "official": false
   }
 }
