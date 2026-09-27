@@ -86,7 +86,7 @@
     "name": "GDQuest/zed-gdscript",
     "url": "https://github.com/GDQuest/zed-gdscript",
     "description": "Zed support for the Godot game engine and the GDScript language",
-    "stars": 209,
+    "stars": 210,
     "forks": 23,
     "topics": [
       "code-editor",
@@ -98,7 +98,7 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-02-26T18:14:41Z",
-    "updated_at": "2026-09-23T21:12:41Z",
+    "updated_at": "2026-09-26T22:55:43Z",
     "pushed_at": "2026-09-10T12:07:53Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -3340,8 +3340,8 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-03-30T11:33:55Z",
-    "updated_at": "2026-09-25T08:08:31Z",
-    "pushed_at": "2026-09-25T08:08:37Z",
+    "updated_at": "2026-09-26T22:22:38Z",
+    "pushed_at": "2026-09-26T22:22:44Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false,
     "extension": {
@@ -5985,7 +5985,7 @@
     "license": "CC0-1.0",
     "created_at": "2025-10-02T10:11:26Z",
     "updated_at": "2026-09-26T12:06:52Z",
-    "pushed_at": "2026-09-26T12:06:47Z",
+    "pushed_at": "2026-09-27T01:00:02Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false,
     "extension": {
@@ -53757,8 +53757,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
-    "updated_at": "2026-09-26T09:27:51Z",
-    "pushed_at": "2026-09-26T17:51:07Z",
+    "updated_at": "2026-09-26T22:41:42Z",
+    "pushed_at": "2026-09-26T21:00:23Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false,
     "extension": {
@@ -60410,8 +60410,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-02-11T18:21:24Z",
-    "updated_at": "2026-09-26T15:02:25Z",
-    "pushed_at": "2026-09-26T15:02:21Z",
+    "updated_at": "2026-09-26T19:07:11Z",
+    "pushed_at": "2026-09-26T19:09:12Z",
     "discovered_at": "2026-09-07T18:46:27.368Z",
     "official": true,
     "extension": {
@@ -63037,7 +63037,7 @@
     "updated_at": "2026-09-25T10:39:58Z",
     "pushed_at": "2026-09-25T10:18:47Z",
     "discovered_at": "2026-09-25T12:54:21.385Z",
-    "official": false,
+    "official": true,
     "extension": {
       "id": "green-tree-theme",
       "name": "GreenTree",
@@ -63090,6 +63090,79 @@
       "sections": [],
       "categories": [
         "theme"
+      ]
+    }
+  },
+  "dbkarashev/zed-icu": {
+    "name": "dbkarashev/zed-icu",
+    "url": "https://github.com/dbkarashev/zed-icu",
+    "description": "Transparent theme for Zed",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-09-04T12:29:44Z",
+    "updated_at": "2026-09-26T09:30:07Z",
+    "pushed_at": "2026-09-26T09:30:06Z",
+    "discovered_at": "2026-09-27T01:19:26.877Z",
+    "official": true,
+    "extension": {
+      "id": "icu-theme",
+      "name": "ICU",
+      "description": "Transparent theme for Zed",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Damir Karashev"
+      ],
+      "repository": "https://github.com/dbkarashev/zed-icu",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "maxmalkin/zedtex": {
+    "name": "maxmalkin/zedtex",
+    "url": "https://github.com/maxmalkin/zedtex",
+    "description": "ZedTeX: LaTeX package support, TeX page previews, Markdown equations, and Jupyter HTML/PDF export for Zed.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "jupyter-notebook",
+      "latex",
+      "markdown",
+      "zed-extension"
+    ],
+    "language": "Python",
+    "license": "GPL-3.0",
+    "created_at": "2026-09-26T18:30:31Z",
+    "updated_at": "2026-09-27T01:07:24Z",
+    "pushed_at": "2026-09-27T01:07:20Z",
+    "discovered_at": "2026-09-27T01:19:26.877Z",
+    "official": false,
+    "extension": {
+      "id": "latex-rendering-lsp",
+      "name": "ZedTeX",
+      "description": "Package-aware TeX page previews, Markdown math images, and notebook HTML/PDF exports through code actions.",
+      "version": "0.1.5",
+      "schema_version": 1,
+      "authors": [
+        "Max Malkin <max@malkin.io>"
+      ],
+      "repository": "https://github.com/maxmalkin/zedtex",
+      "snippets": [
+        "./snippets/python.json",
+        "./snippets/latex.json"
+      ],
+      "sections": [
+        "language_servers"
+      ],
+      "categories": [
+        "language-server",
+        "snippets"
       ]
     }
   }
