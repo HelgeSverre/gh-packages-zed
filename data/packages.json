@@ -94,8 +94,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-05-02T05:39:52Z",
-    "updated_at": "2026-09-27T06:06:45Z",
-    "pushed_at": "2026-09-27T11:33:30Z",
+    "updated_at": "2026-09-27T14:43:23Z",
+    "pushed_at": "2026-09-27T14:43:20Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -127,7 +127,7 @@
     "name": "GDQuest/zed-gdscript",
     "url": "https://github.com/GDQuest/zed-gdscript",
     "description": "Zed support for the Godot game engine and the GDScript language",
-    "stars": 210,
+    "stars": 209,
     "forks": 23,
     "topics": [
       "code-editor",
@@ -139,7 +139,7 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-02-26T18:14:41Z",
-    "updated_at": "2026-09-26T22:55:43Z",
+    "updated_at": "2026-09-27T15:43:31Z",
     "pushed_at": "2026-09-10T12:07:53Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -6324,7 +6324,7 @@
     "name": "felipefdl/warm-burnout",
     "url": "https://github.com/felipefdl/warm-burnout",
     "description": "Mostly warm, WCAG-audited color theme suite with one cool type accent. For developers who are already burned out but still have deadlines.",
-    "stars": 119,
+    "stars": 120,
     "forks": 13,
     "topics": [
       "accessibility",
@@ -6351,7 +6351,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-03-13T20:17:28Z",
-    "updated_at": "2026-09-25T03:03:13Z",
+    "updated_at": "2026-09-27T15:59:46Z",
     "pushed_at": "2026-09-25T03:03:08Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": true
@@ -15438,7 +15438,7 @@
     "name": "agent-sh/agnix",
     "url": "https://github.com/agent-sh/agnix",
     "description": "The missing linter and lsp for AI coding assistants. Validate CLAUDE.md, AGENTS.md, SKILL.md, hooks, MCP. Plugin for all major IDEs included, with autofixes.",
-    "stars": 426,
+    "stars": 425,
     "forks": 31,
     "topics": [
       "agent",
@@ -15465,8 +15465,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
-    "updated_at": "2026-09-25T19:52:29Z",
-    "pushed_at": "2026-09-25T19:47:21Z",
+    "updated_at": "2026-09-27T17:41:53Z",
+    "pushed_at": "2026-09-27T17:42:48Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -18024,8 +18024,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-09-27T06:57:48Z",
-    "pushed_at": "2026-09-27T06:57:44Z",
+    "updated_at": "2026-09-27T12:51:54Z",
+    "pushed_at": "2026-09-27T12:51:50Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -28984,8 +28984,8 @@
     "language": null,
     "license": null,
     "created_at": "2026-05-25T05:34:31Z",
-    "updated_at": "2026-09-23T01:20:08Z",
-    "pushed_at": "2026-09-23T01:20:05Z",
+    "updated_at": "2026-09-27T14:45:32Z",
+    "pushed_at": "2026-09-27T14:45:28Z",
     "discovered_at": "2026-05-26T07:12:20.287Z",
     "official": false
   },
@@ -38428,8 +38428,8 @@
     "language": "C++",
     "license": "Apache-2.0",
     "created_at": "2026-09-21T20:10:00Z",
-    "updated_at": "2026-09-27T04:59:08Z",
-    "pushed_at": "2026-09-27T12:42:50Z",
+    "updated_at": "2026-09-27T16:08:17Z",
+    "pushed_at": "2026-09-27T16:08:13Z",
     "discovered_at": "2026-09-21T22:12:12.101Z",
     "official": false
   },
@@ -39289,8 +39289,8 @@
     "language": "Rust",
     "license": "AGPL-3.0",
     "created_at": "2026-09-26T03:22:32Z",
-    "updated_at": "2026-09-27T02:22:51Z",
-    "pushed_at": "2026-09-27T02:22:47Z",
+    "updated_at": "2026-09-27T17:43:43Z",
+    "pushed_at": "2026-09-27T17:43:39Z",
     "discovered_at": "2026-09-26T06:55:23.502Z",
     "official": false
   },
@@ -39459,6 +39459,26 @@
     "updated_at": "2026-09-27T07:18:02Z",
     "pushed_at": "2026-08-17T18:36:31Z",
     "discovered_at": "2026-09-27T12:51:17.334Z",
+    "official": false
+  },
+  "rajan9884/zed-editor": {
+    "name": "rajan9884/zed-editor",
+    "url": "https://github.com/rajan9884/zed-editor",
+    "description": "zed-editor template for xbps package",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "template",
+      "void-linux",
+      "xbps-pkg",
+      "zed-editor"
+    ],
+    "language": "Shell",
+    "license": null,
+    "created_at": "2026-09-27T14:07:58Z",
+    "updated_at": "2026-09-27T14:10:42Z",
+    "pushed_at": "2026-09-27T14:08:07Z",
+    "discovered_at": "2026-09-27T18:48:03.585Z",
     "official": false
   }
 }

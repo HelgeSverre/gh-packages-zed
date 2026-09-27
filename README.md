@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1837** |
 | In official registry | 1327 |
 | Discovered via topics | 510 |
-| Last updated | 2026-09-27 12:51 UTC |
+| Last updated | 2026-09-27 18:48 UTC |
 
 ### By capability
 
@@ -101,7 +101,7 @@ cd website && npm install && npm run dev
 | [oxc-project/oxc-zed](https://github.com/oxc-project/oxc-zed) | 256 | Oxc extension for Zed |
 | [catppuccin/zed-icons](https://github.com/catppuccin/zed-icons) | 240 | 🦊 Soothing pastel icons for Zed |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 216 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
-| [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 210 | Zed support for the Godot game engine and the GDScript language |
+| [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 209 | Zed support for the Godot game engine and the GDScript language |
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 201 | Typst extension for zed |
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-09-27T18:48 | 1 | 644 | 2277 |
 | 2026-09-27T12:51 | 2 | 642 | 2276 |
 | 2026-09-27T06:57 | 0 | 643 | 2274 |
 | 2026-09-27T01:19 | 4 | 641 | 2274 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-09-26T01:09 | 1 | 639 | 2267 |
 | 2026-09-25T18:48 | 0 | 639 | 2266 |
 | 2026-09-25T12:54 | 6 | 637 | 2266 |
-| 2026-09-25T06:58 | 0 | 638 | 2260 |
 
 ---
 
