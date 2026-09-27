@@ -83,7 +83,7 @@
     "name": "jellydn/zed-codemux",
     "url": "https://github.com/jellydn/zed-codemux",
     "description": "Open Zed terminals inside tmux or zellij — port of vscode-mux to the Zed editor.",
-    "stars": 16,
+    "stars": 17,
     "forks": 1,
     "topics": [
       "tmux",
@@ -94,7 +94,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-05-02T05:39:52Z",
-    "updated_at": "2026-09-04T08:54:46Z",
+    "updated_at": "2026-09-27T06:06:45Z",
     "pushed_at": "2026-07-24T03:03:46Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
@@ -3236,7 +3236,7 @@
     "name": "huacnlee/zed-theme-macos-classic",
     "url": "https://github.com/huacnlee/zed-theme-macos-classic",
     "description": "A macOS native style theme for Zed, let it same like native app in macOS.",
-    "stars": 174,
+    "stars": 175,
     "forks": 6,
     "topics": [
       "macos-classic",
@@ -3247,7 +3247,7 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2024-01-29T02:19:59Z",
-    "updated_at": "2026-09-21T18:42:24Z",
+    "updated_at": "2026-09-27T01:39:44Z",
     "pushed_at": "2026-02-05T02:23:27Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -3833,8 +3833,8 @@
     "language": null,
     "license": "CC0-1.0",
     "created_at": "2025-10-02T10:11:26Z",
-    "updated_at": "2026-09-26T12:06:52Z",
-    "pushed_at": "2026-09-27T01:00:02Z",
+    "updated_at": "2026-09-27T04:24:08Z",
+    "pushed_at": "2026-09-27T04:24:04Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -15217,7 +15217,7 @@
     "name": "darkvoid-theme/darkvoid.nvim",
     "url": "https://github.com/darkvoid-theme/darkvoid.nvim",
     "description": "Neovim Colorscheme for dark dwellers with optional glow effect!",
-    "stars": 228,
+    "stars": 225,
     "forks": 10,
     "topics": [
       "color-scheme",
@@ -15242,7 +15242,7 @@
     "language": "Lua",
     "license": "MIT",
     "created_at": "2024-07-30T06:26:25Z",
-    "updated_at": "2026-09-14T22:24:39Z",
+    "updated_at": "2026-09-27T03:54:31Z",
     "pushed_at": "2024-11-21T21:02:02Z",
     "discovered_at": "2026-05-19T20:52:12.309Z",
     "official": false
@@ -18024,8 +18024,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-09-26T18:48:37Z",
-    "pushed_at": "2026-09-26T18:48:33Z",
+    "updated_at": "2026-09-27T01:20:05Z",
+    "pushed_at": "2026-09-27T01:20:00Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -34833,8 +34833,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-04-28T16:41:12Z",
-    "updated_at": "2026-09-26T21:56:15Z",
-    "pushed_at": "2026-09-26T21:56:12Z",
+    "updated_at": "2026-09-27T04:00:19Z",
+    "pushed_at": "2026-09-27T04:02:47Z",
     "discovered_at": "2026-08-11T01:04:41.365Z",
     "official": true
   },
@@ -35601,8 +35601,8 @@
     "language": null,
     "license": null,
     "created_at": "2026-08-16T21:55:25Z",
-    "updated_at": "2026-09-27T00:35:39Z",
-    "pushed_at": "2026-09-27T00:35:35Z",
+    "updated_at": "2026-09-27T06:17:13Z",
+    "pushed_at": "2026-09-27T06:17:09Z",
     "discovered_at": "2026-08-17T01:03:46.357Z",
     "official": false
   },
@@ -36748,11 +36748,11 @@
       "zed",
       "zed-extension"
     ],
-    "language": "TypeScript",
+    "language": "Rust",
     "license": null,
     "created_at": "2026-09-04T07:49:15Z",
-    "updated_at": "2026-09-26T02:57:10Z",
-    "pushed_at": "2026-09-26T02:57:07Z",
+    "updated_at": "2026-09-27T06:29:40Z",
+    "pushed_at": "2026-09-27T06:29:36Z",
     "discovered_at": "2026-09-04T12:51:39.260Z",
     "official": false
   },
@@ -38193,8 +38193,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-09-20T02:38:16Z",
-    "updated_at": "2026-09-25T12:17:48Z",
-    "pushed_at": "2026-09-25T13:12:29Z",
+    "updated_at": "2026-09-27T05:48:39Z",
+    "pushed_at": "2026-09-27T05:48:35Z",
     "discovered_at": "2026-09-21T13:19:36.943Z",
     "official": false
   },
@@ -38428,7 +38428,7 @@
     "language": "C++",
     "license": "Apache-2.0",
     "created_at": "2026-09-21T20:10:00Z",
-    "updated_at": "2026-09-26T09:43:30Z",
+    "updated_at": "2026-09-27T04:59:08Z",
     "pushed_at": "2026-09-26T03:26:53Z",
     "discovered_at": "2026-09-21T22:12:12.101Z",
     "official": false
@@ -39289,8 +39289,8 @@
     "language": "Rust",
     "license": "AGPL-3.0",
     "created_at": "2026-09-26T03:22:32Z",
-    "updated_at": "2026-09-26T23:14:00Z",
-    "pushed_at": "2026-09-26T23:13:55Z",
+    "updated_at": "2026-09-27T02:22:51Z",
+    "pushed_at": "2026-09-27T02:22:47Z",
     "discovered_at": "2026-09-26T06:55:23.502Z",
     "official": false
   },
