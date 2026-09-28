@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1837** |
 | In official registry | 1327 |
 | Discovered via topics | 510 |
-| Last updated | 2026-09-28 12:57 UTC |
+| Last updated | 2026-09-28 18:51 UTC |
 
 ### By capability
 
@@ -120,19 +120,19 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-09-28 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 7 | 2026-09-28 | Spring Boot language intelligence for Zed, built on the requ... |
+| [yuzukq/zed-theme-Resonance-with-HatsuneMiku](https://github.com/yuzukq/zed-theme-Resonance-with-HatsuneMiku) | 0 | 2026-09-28 | A custom theme for Zed inspired by Hatsune Miku's color pale... |
 | [BastenIT/zed-composer-support](https://github.com/BastenIT/zed-composer-support) | 1 | 2026-09-28 | Packagist links, installed-version hints, and update checks ... |
 | [zed-extensions/kotlin](https://github.com/zed-extensions/kotlin) | 103 | 2026-09-28 | Kotlin support |
 | [JeffreyJYZ/command-code-zed](https://github.com/JeffreyJYZ/command-code-zed) | 2 | 2026-09-28 | Zed extension and cmduse CLI for live Command Code usage: pl... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 99 | 2026-09-28 | True Dark Theme for Zed IDE |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-09-28 | A Zed extension that allows to highlight all occurrences of ... |
 | [yuukiLike/zed-skin](https://github.com/yuukiLike/zed-skin) | 0 | 2026-09-28 | A high contrast theme collection for Zed. Three AAA-audited ... |
-| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 3 | 2026-09-27 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [shnarazk/Quasarized.Zed](https://github.com/shnarazk/Quasarized.Zed) | 0 | 2026-09-27 | A modified color scheme extension for Zed editor based on So... |
 | [maxmalkin/zedtex](https://github.com/maxmalkin/zedtex) | 0 | 2026-09-27 | ZedTeX: LaTeX package support, TeX page previews, Markdown e... |
 | [dunyakirkali/zed-asciidoc](https://github.com/dunyakirkali/zed-asciidoc) | 23 | 2026-09-26 | Zed support for AsciiDoc syntax |
 | [briar-systems/mach-zed](https://github.com/briar-systems/mach-zed) | 0 | 2026-09-26 | Mach language support for Zed including syntax highlighting,... |
-| [yuzukq/zed-theme-Resonance-with-HatsuneMiku](https://github.com/yuzukq/zed-theme-Resonance-with-HatsuneMiku) | 0 | 2026-09-26 | A custom theme for Zed inspired by Hatsune Miku's color pale... |
 | [vitallium/zed-ltex](https://github.com/vitallium/zed-ltex) | 19 | 2026-09-26 | LTeX+ Language Server support for Zed |
 | [NeroWolfe75/brackets-refined-zed](https://github.com/NeroWolfe75/brackets-refined-zed) | 0 | 2026-09-26 | A refined dark theme for Zed with a neutral interface and ca... |
 | [dbkarashev/zed-icu](https://github.com/dbkarashev/zed-icu) | 0 | 2026-09-26 | Transparent theme for Zed |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-09-28T18:51 | 0 | 644 | 2278 |
 | 2026-09-28T12:57 | 0 | 644 | 2278 |
 | 2026-09-28T07:13 | 0 | 645 | 2278 |
 | 2026-09-28T01:20 | 1 | 645 | 2278 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-09-27T01:19 | 4 | 641 | 2274 |
 | 2026-09-26T18:48 | 2 | 640 | 2270 |
 | 2026-09-26T12:49 | 0 | 640 | 2268 |
-| 2026-09-26T06:55 | 1 | 639 | 2268 |
 
 ---
 
