@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1837** |
 | In official registry | 1327 |
 | Discovered via topics | 510 |
-| Last updated | 2026-09-28 01:20 UTC |
+| Last updated | 2026-09-28 07:13 UTC |
 
 ### By capability
 
@@ -100,7 +100,7 @@ cd website && npm install && npm run dev
 | [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 336 | Catppuccin Theme but as blurred variants + custom ones |
 | [oxc-project/oxc-zed](https://github.com/oxc-project/oxc-zed) | 256 | Oxc extension for Zed |
 | [catppuccin/zed-icons](https://github.com/catppuccin/zed-icons) | 240 | 🦊 Soothing pastel icons for Zed |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 216 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 215 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
 | [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 209 | Zed support for the Godot game engine and the GDScript language |
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 201 | Typst extension for zed |
@@ -120,10 +120,11 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 7 | 2026-09-27 | Spring Boot language intelligence for Zed, built on the requ... |
+| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 7 | 2026-09-28 | Spring Boot language intelligence for Zed, built on the requ... |
+| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-09-28 | A Zed extension that allows to highlight all occurrences of ... |
+| [JeffreyJYZ/command-code-zed](https://github.com/JeffreyJYZ/command-code-zed) | 2 | 2026-09-28 | Zed extension and cmduse CLI for live Command Code usage: pl... |
+| [yuukiLike/zed-skin](https://github.com/yuukiLike/zed-skin) | 0 | 2026-09-28 | A high contrast theme collection for Zed. Three AAA-audited ... |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 3 | 2026-09-27 | Intelligent codebase search & indexing for Zed. Async MCP se... |
-| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-09-27 | A Zed extension that allows to highlight all occurrences of ... |
-| [JeffreyJYZ/command-code-zed](https://github.com/JeffreyJYZ/command-code-zed) | 2 | 2026-09-27 | Zed extension and cmduse CLI for live Command Code usage: pl... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 99 | 2026-09-27 | True Dark Theme for Zed IDE |
 | [shnarazk/Quasarized.Zed](https://github.com/shnarazk/Quasarized.Zed) | 0 | 2026-09-27 | A modified color scheme extension for Zed editor based on So... |
 | [maxmalkin/zedtex](https://github.com/maxmalkin/zedtex) | 0 | 2026-09-27 | ZedTeX: LaTeX package support, TeX page previews, Markdown e... |
@@ -138,13 +139,13 @@ cd website && npm install && npm run dev
 | [duanechan/spring-boot-properties](https://github.com/duanechan/spring-boot-properties) | 0 | 2026-09-25 | Spring Boot application properties snippets for Zed |
 | [juxta-tad/fozzy](https://github.com/juxta-tad/fozzy) | 1 | 2026-09-25 |  |
 | [RibbtDev/breadog-zed](https://github.com/RibbtDev/breadog-zed) | 0 | 2026-09-25 | Breadog theme for the Zed editor |
-| [yuukiLike/zed-skin](https://github.com/yuukiLike/zed-skin) | 0 | 2026-09-25 | A high contrast theme collection for Zed. Three AAA-audited ... |
 | [rl-lang/rl-zed-extension](https://github.com/rl-lang/rl-zed-extension) | 0 | 2026-09-25 | RL language support for Zed: tree-sitter highlighting plus r... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-09-28T07:13 | 0 | 645 | 2278 |
 | 2026-09-28T01:20 | 1 | 645 | 2278 |
 | 2026-09-27T18:48 | 1 | 644 | 2277 |
 | 2026-09-27T12:51 | 2 | 642 | 2276 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-09-26T12:49 | 0 | 640 | 2268 |
 | 2026-09-26T06:55 | 1 | 639 | 2268 |
 | 2026-09-26T01:09 | 1 | 639 | 2267 |
-| 2026-09-25T18:48 | 0 | 639 | 2266 |
 
 ---
 
