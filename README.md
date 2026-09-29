@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1851** |
 | In official registry | 1342 |
 | Discovered via topics | 509 |
-| Last updated | 2026-09-29 12:58 UTC |
+| Last updated | 2026-09-29 18:51 UTC |
 
 ### By capability
 
@@ -107,7 +107,7 @@ cd website && npm install && npm run dev
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
-| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 184 | 🦊 Zed editor theme ported from Neovim |
+| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 185 | 🦊 Zed editor theme ported from Neovim |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 175 | A macOS native style theme for Zed, let it same like native app in macOS. |
 | [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 156 |  |
 | [zed-extensions/swift](https://github.com/zed-extensions/swift) | 153 | Extension for Zed to support Swift |
@@ -120,8 +120,8 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-09-29 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [JeffreyJYZ/command-code-zed](https://github.com/JeffreyJYZ/command-code-zed) | 1 | 2026-09-29 | Zed extension and cmduse CLI for live Command Code usage: pl... |
+| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-09-29 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-09-29 | A Zed extension that allows to highlight all occurrences of ... |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 215 | 2026-09-29 | Zed plugin for automatic time tracking and metrics generated... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 99 | 2026-09-29 | True Dark Theme for Zed IDE |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-09-29T18:51 | 0 | 646 | 2299 |
 | 2026-09-29T12:58 | 1 | 644 | 2299 |
 | 2026-09-29T07:01 | 1 | 643 | 2298 |
 | 2026-09-29T01:17 | 19 | 643 | 2297 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-09-28T01:20 | 1 | 645 | 2278 |
 | 2026-09-27T18:48 | 1 | 644 | 2277 |
 | 2026-09-27T12:51 | 2 | 642 | 2276 |
-| 2026-09-27T06:57 | 0 | 643 | 2274 |
 
 ---
 
