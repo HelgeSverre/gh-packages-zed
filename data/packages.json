@@ -5289,7 +5289,7 @@
     "name": "sonercirit/zed-windows-stable",
     "url": "https://github.com/sonercirit/zed-windows-stable",
     "description": "automated windows builds for Zed code editor, built from source, stable channel",
-    "stars": 232,
+    "stars": 231,
     "forks": 11,
     "topics": [
       "code-editor",
@@ -5302,7 +5302,7 @@
     "language": "PowerShell",
     "license": null,
     "created_at": "2024-08-14T22:46:54Z",
-    "updated_at": "2026-09-26T12:21:25Z",
+    "updated_at": "2026-09-29T01:18:32Z",
     "pushed_at": "2026-09-24T17:29:09Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
@@ -5312,7 +5312,7 @@
     "url": "https://github.com/moabualruz/claude-code-cli-acp",
     "description": "ACP adapter for the real Claude Code CLI: Rust PTY bridge for Zed and other Agent Client Protocol clients.",
     "stars": 18,
-    "forks": 3,
+    "forks": 4,
     "topics": [
       "acp",
       "agent-client-protocol",
@@ -15438,7 +15438,7 @@
     "name": "agent-sh/agnix",
     "url": "https://github.com/agent-sh/agnix",
     "description": "The missing linter and lsp for AI coding assistants. Validate CLAUDE.md, AGENTS.md, SKILL.md, hooks, MCP. Plugin for all major IDEs included, with autofixes.",
-    "stars": 425,
+    "stars": 426,
     "forks": 31,
     "topics": [
       "agent",
@@ -15465,8 +15465,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
-    "updated_at": "2026-09-27T22:00:00Z",
-    "pushed_at": "2026-09-27T21:59:58Z",
+    "updated_at": "2026-09-29T01:59:46Z",
+    "pushed_at": "2026-09-29T06:42:42Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -18024,8 +18024,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-09-28T18:52:13Z",
-    "pushed_at": "2026-09-28T18:52:08Z",
+    "updated_at": "2026-09-29T01:18:16Z",
+    "pushed_at": "2026-09-29T01:18:11Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -32035,8 +32035,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
-    "updated_at": "2026-09-28T19:00:34Z",
-    "pushed_at": "2026-09-28T19:36:01Z",
+    "updated_at": "2026-09-29T04:57:07Z",
+    "pushed_at": "2026-09-29T04:57:02Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false
   },
@@ -34340,8 +34340,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-08-08T22:06:40Z",
-    "updated_at": "2026-08-08T22:15:55Z",
-    "pushed_at": "2026-08-08T22:15:51Z",
+    "updated_at": "2026-09-29T01:55:55Z",
+    "pushed_at": "2026-09-29T01:55:51Z",
     "discovered_at": "2026-08-09T01:04:36.775Z",
     "official": false
   },
@@ -36736,7 +36736,7 @@
     "name": "JeffreyJYZ/command-code-zed",
     "url": "https://github.com/JeffreyJYZ/command-code-zed",
     "description": "Zed extension and cmduse CLI for live Command Code usage: plan, credits, 5-hour and weekly windows, per-window elapsed, billing period stats. Rust, no bloat.",
-    "stars": 2,
+    "stars": 1,
     "forks": 0,
     "topics": [
       "cargo",
@@ -36751,7 +36751,7 @@
     "language": "TypeScript",
     "license": null,
     "created_at": "2026-09-04T07:49:15Z",
-    "updated_at": "2026-09-28T09:39:06Z",
+    "updated_at": "2026-09-29T03:18:07Z",
     "pushed_at": "2026-09-28T09:39:02Z",
     "discovered_at": "2026-09-04T12:51:39.260Z",
     "official": false
@@ -36948,8 +36948,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-09-07T16:00:35Z",
-    "updated_at": "2026-09-28T05:38:31Z",
-    "pushed_at": "2026-09-28T05:38:27Z",
+    "updated_at": "2026-09-29T02:37:59Z",
+    "pushed_at": "2026-09-29T02:37:56Z",
     "discovered_at": "2026-09-07T18:46:27.369Z",
     "official": false
   },
@@ -39812,5 +39812,36 @@
     "pushed_at": "2026-09-17T09:53:43Z",
     "discovered_at": "2026-09-29T01:17:25.591Z",
     "official": true
+  },
+  "lucaaszsx/platformio-zed-setup": {
+    "name": "lucaaszsx/platformio-zed-setup",
+    "url": "https://github.com/lucaaszsx/platformio-zed-setup",
+    "description": "Zed setup using tasks for embedded systems development using PlatformIO Core (PIO).",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "arduino",
+      "arduino-ide",
+      "arduino-uno",
+      "c-programming",
+      "cpp",
+      "embedded",
+      "esp32",
+      "esp32-arduino",
+      "esp32-s3",
+      "pio",
+      "platformio",
+      "scripts",
+      "text-editor",
+      "zed",
+      "zed-editor"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "created_at": "2026-09-28T18:18:26Z",
+    "updated_at": "2026-09-29T03:59:45Z",
+    "pushed_at": "2026-09-29T03:44:32Z",
+    "discovered_at": "2026-09-29T07:01:26.912Z",
+    "official": false
   }
 }
