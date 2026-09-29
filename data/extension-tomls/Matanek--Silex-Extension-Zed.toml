@@ -1,0 +1,16 @@
+id = "silex"
+name = "Silex"
+version = "0.52.0"
+schema_version = 1
+authors = ["Matanek"]
+description = "Silex language support"
+repository = "https://github.com/Matanek/Silex-Extension-Zed"
+languages = ["languages/silex"]
+
+[language_servers.silex]
+name = "Silex LSP"
+languages = ["Silex"]
+
+[grammars.silex]
+repository = "https://github.com/Matanek/Silex-Extension-Zed"
+rev = "84390e431a04f079046ae97458989074409a3b15"

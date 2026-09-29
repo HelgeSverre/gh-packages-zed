@@ -59,8 +59,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-05-03T17:39:17Z",
-    "updated_at": "2026-09-28T07:31:59Z",
-    "pushed_at": "2026-09-28T07:34:02Z",
+    "updated_at": "2026-09-28T20:42:19Z",
+    "pushed_at": "2026-09-28T20:42:15Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -957,7 +957,7 @@
     "name": "vitallium/zed-modus-themes",
     "url": "https://github.com/vitallium/zed-modus-themes",
     "description": "Port of Modus Themes (https://protesilaos.com/emacs/modus-themes) for Zed",
-    "stars": 54,
+    "stars": 55,
     "forks": 3,
     "topics": [
       "zed",
@@ -967,7 +967,7 @@
     "language": "Jsonnet",
     "license": "GPL-3.0",
     "created_at": "2024-12-28T17:27:06Z",
-    "updated_at": "2026-09-24T05:17:41Z",
+    "updated_at": "2026-09-28T20:55:36Z",
     "pushed_at": "2026-09-24T05:17:39Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -22168,7 +22168,7 @@
     "name": "davccavalcante/oxocarbon-theme-for-zed",
     "url": "https://github.com/davccavalcante/oxocarbon-theme-for-zed",
     "description": "The \"Oxocarbon Theme for Zed\" brings the sleek, modern aesthetics inspired by IBM Carbon Design System to your Zed editor. This theme is meticulously crafted to offer a refined and professional visual experience, available in multiple dark variations. The Oxocarbon Theme transforms your coding environment with its distinct, elegant style.",
-    "stars": 23,
+    "stars": 24,
     "forks": 3,
     "topics": [
       "davidccavalcante",
@@ -22187,7 +22187,7 @@
     "language": null,
     "license": "CC0-1.0",
     "created_at": "2024-08-01T01:36:49Z",
-    "updated_at": "2026-09-06T17:08:20Z",
+    "updated_at": "2026-09-29T00:00:22Z",
     "pushed_at": "2025-02-24T01:59:01Z",
     "discovered_at": "2026-05-19T20:15:46.472Z",
     "official": false,
@@ -53757,8 +53757,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
-    "updated_at": "2026-09-28T18:50:08Z",
-    "pushed_at": "2026-09-28T18:48:10Z",
+    "updated_at": "2026-09-28T19:00:34Z",
+    "pushed_at": "2026-09-28T19:36:01Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false,
     "extension": {
@@ -55492,8 +55492,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-07-24T03:26:21Z",
-    "updated_at": "2026-09-05T00:19:38Z",
-    "pushed_at": "2026-09-05T00:19:33Z",
+    "updated_at": "2026-09-28T22:32:59Z",
+    "pushed_at": "2026-09-28T22:32:56Z",
     "discovered_at": "2026-07-27T19:05:58.027Z",
     "official": true,
     "extension": {
@@ -58986,7 +58986,7 @@
     "updated_at": "2026-09-28T11:12:02Z",
     "pushed_at": "2026-09-28T11:12:19Z",
     "discovered_at": "2026-08-22T12:57:51.520Z",
-    "official": false,
+    "official": true,
     "extension": {
       "id": "composer-support",
       "name": "Composer Support",
@@ -63161,6 +63161,457 @@
         "language_servers"
       ],
       "categories": [
+        "language-server",
+        "snippets"
+      ]
+    }
+  },
+  "sm2507/cynosure-light-theme": {
+    "name": "SM2507/cynosure-light-theme",
+    "url": "https://github.com/SM2507/cynosure-light-theme",
+    "description": "Cynosure Light Theme for Zed - Cyberpunk 2077, Phantom Liberty inspired theme",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-09-28T15:33:27Z",
+    "updated_at": "2026-09-28T15:38:49Z",
+    "pushed_at": "2026-09-28T15:37:56Z",
+    "discovered_at": "2026-09-29T01:17:25.591Z",
+    "official": true,
+    "extension": {
+      "id": "cynosure-light-theme",
+      "name": "Cynosure Light Theme",
+      "description": "Cyberpunk 2077, Phantom Liberty inspired theme",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Storm Maxwell"
+      ],
+      "repository": "https://github.com/SM2507/cynosure-light-theme.git",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "iamanuclearwarhead/zed-dusty-plum": {
+    "name": "iamanuclearwarhead/zed-dusty-plum",
+    "url": "https://github.com/iamanuclearwarhead/zed-dusty-plum",
+    "description": "Dusty Plum theme for Zed",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-09-10T13:50:54Z",
+    "updated_at": "2026-09-28T04:48:44Z",
+    "pushed_at": "2026-09-28T04:48:40Z",
+    "discovered_at": "2026-09-29T01:17:25.591Z",
+    "official": true,
+    "extension": {
+      "id": "dusty-plum-theme",
+      "name": "Dusty Plum",
+      "description": "Muted plum background with pastel pink accents. A dark and light theme.",
+      "version": "0.1.1",
+      "schema_version": 1,
+      "authors": [
+        "larp"
+      ],
+      "repository": "https://github.com/iamanuclearwarhead/zed-dusty-plum",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "bashln/zed-forest-night-ethereal-theme": {
+    "name": "bashln/zed-forest-night-ethereal-theme",
+    "url": "https://github.com/bashln/zed-forest-night-ethereal-theme",
+    "description": "Zed Theme forest-night-theme ported from omarchy-forest-night-theme from ForrestKnight",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "NOASSERTION",
+    "created_at": "2026-09-02T22:26:16Z",
+    "updated_at": "2026-09-03T10:07:50Z",
+    "pushed_at": "2026-09-03T10:03:18Z",
+    "discovered_at": "2026-09-29T01:17:25.591Z",
+    "official": true,
+    "extension": {
+      "id": "forest-night-ethereal-theme",
+      "name": "Forest Night Ethereal",
+      "description": "A deep blue-slate aesthetic for Zed with muted forest green, teal, purple and amber accents.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "bashln",
+        "Forrest Knight"
+      ],
+      "repository": "https://github.com/bashln/zed-forest-night-ethereal-theme",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "devmor-j/gafelson-lavender-theme": {
+    "name": "devmor-j/gafelson-lavender-theme",
+    "url": "https://github.com/devmor-j/gafelson-lavender-theme",
+    "description": "Gafelson and Lavender blend for Zed",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-09-27T19:24:11Z",
+    "updated_at": "2026-09-28T15:58:20Z",
+    "pushed_at": "2026-09-28T15:58:12Z",
+    "discovered_at": "2026-09-29T01:17:25.591Z",
+    "official": true,
+    "extension": {
+      "id": "gafelson-lavender-theme",
+      "name": "Gafelson Lavender",
+      "description": "Gafelson and Lavender blend for Zed",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Morteza Jamshidi"
+      ],
+      "repository": "https://github.com/devmor-j/gafelson-lavender-theme",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "georgydesign/georgy-themes-zed": {
+    "name": "GeorgyDesign/georgy-themes-zed",
+    "url": "https://github.com/GeorgyDesign/georgy-themes-zed",
+    "description": "Georgy Themes for Zed. Dark-only theme family inspired by simplicity and “accessibility”.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-08-12T20:24:11Z",
+    "updated_at": "2026-09-09T14:44:23Z",
+    "pushed_at": "2026-09-09T14:26:19Z",
+    "discovered_at": "2026-09-29T01:17:25.591Z",
+    "official": true,
+    "extension": {
+      "id": "georgy-theme",
+      "name": "Georgy Theme",
+      "description": "A dark theme family for Zed including Georgy Dark, Georgy Black, Georgy Black High, and Georgy Black Dim.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Georgy"
+      ],
+      "repository": "https://github.com/GeorgyDesign/georgy-themes-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "ashenwolf/zed-hexaly": {
+    "name": "ashenwolf/zed-hexaly",
+    "url": "https://github.com/ashenwolf/zed-hexaly",
+    "description": "Hexaly language support for Zed: syntax highlighting for Hexaly Modeler models",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2026-09-09T22:23:48Z",
+    "updated_at": "2026-09-10T18:34:25Z",
+    "pushed_at": "2026-09-10T18:34:19Z",
+    "discovered_at": "2026-09-29T01:17:25.591Z",
+    "official": true,
+    "extension": {
+      "id": "hexaly",
+      "name": "Hexaly",
+      "description": "Hexaly Modeler language support for Zed: syntax highlighting and a language server for .hxm",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Sergii Gulenok <graywolfs@gmail.com>"
+      ],
+      "repository": "https://github.com/ashenwolf/zed-hexaly",
+      "snippets": null,
+      "sections": [
+        "grammars",
+        "language_servers",
+        "capabilities"
+      ],
+      "categories": [
+        "grammar",
+        "language-server"
+      ]
+    }
+  },
+  "yusefkarim/zed-monochrome-amber": {
+    "name": "yusefkarim/zed-monochrome-amber",
+    "url": "https://github.com/yusefkarim/zed-monochrome-amber",
+    "description": "A mostly-monochrome theme for Zed with warm amber accents, in dark and light variants, adapted from Josias Beem's Monochromator.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-07-09T23:34:01Z",
+    "updated_at": "2026-07-13T19:34:52Z",
+    "pushed_at": "2026-07-13T19:34:48Z",
+    "discovered_at": "2026-09-29T01:17:25.591Z",
+    "official": true,
+    "extension": {
+      "id": "monochrome-amber-theme",
+      "name": "Monochrome Amber",
+      "description": "A mostly-monochrome theme with warm amber accents, in dark and light variants, adapted from Josias Beem's Monochromator.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Yusef Karim <yusefkarim@riseup.net>"
+      ],
+      "repository": "https://github.com/yusefkarim/zed-monochrome-amber",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "franqong/nordppuccin-zed": {
+    "name": "franqong/nordppuccin-zed",
+    "url": "https://github.com/franqong/nordppuccin-zed",
+    "description": "A hybrid theme combining Nord's cold icy aesthetic with Catppuccin's pastel syntax.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-09-23T17:46:39Z",
+    "updated_at": "2026-09-26T22:12:33Z",
+    "pushed_at": "2026-09-26T22:21:43Z",
+    "discovered_at": "2026-09-29T01:17:25.591Z",
+    "official": true,
+    "extension": {
+      "id": "nordppuccin-theme",
+      "name": "Nordppuccin",
+      "description": "A hybrid theme combining Nord's cold icy aesthetic with Catppuccin's pastel syntax.",
+      "version": "0.0.2",
+      "schema_version": 1,
+      "authors": [
+        "franqong"
+      ],
+      "repository": "https://github.com/franqong/nordppuccin-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "narcilee7/zed-obsidian-theme": {
+    "name": "narcilee7/zed-obsidian-theme",
+    "url": "https://github.com/narcilee7/zed-obsidian-theme",
+    "description": "obsidian theme for zed editor",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-07-26T12:26:00Z",
+    "updated_at": "2026-07-26T12:37:14Z",
+    "pushed_at": "2026-07-26T12:36:13Z",
+    "discovered_at": "2026-09-29T01:17:25.591Z",
+    "official": true,
+    "extension": {
+      "id": "obsidian-theme",
+      "name": "Obsidian Theme",
+      "description": "A faithful port of Obsidian's default theme (dark and light) for Zed.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "narcilee7"
+      ],
+      "repository": "https://github.com/narcilee7/zed-obsidian-theme",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "jeffschuil/oceanic-rift-zed": {
+    "name": "jeffschuil/oceanic-rift-zed",
+    "url": "https://github.com/jeffschuil/oceanic-rift-zed",
+    "description": "A deep-ocean dark theme for the Zed editor — sibling of the Oceanic Rift VS Code theme.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-08-21T17:42:36Z",
+    "updated_at": "2026-08-21T18:46:34Z",
+    "pushed_at": "2026-08-21T18:46:11Z",
+    "discovered_at": "2026-09-29T01:17:25.591Z",
+    "official": true,
+    "extension": {
+      "id": "oceanic-rift-theme",
+      "name": "Oceanic Rift",
+      "description": "A deep-ocean dark theme for Zed, adapted from the Oceanic Reef theme.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Jeff Schuil"
+      ],
+      "repository": "https://github.com/jeffschuil/oceanic-rift-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "dalpat/zed-olive-green": {
+    "name": "dalpat/zed-olive-green",
+    "url": "https://github.com/dalpat/zed-olive-green",
+    "description": "Olive Green: muted green dark and warm ivory light themes for Zed, with gold and teal syntax",
+    "stars": 1,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-09-16T15:20:59Z",
+    "updated_at": "2026-09-25T13:08:12Z",
+    "pushed_at": "2026-09-25T13:08:08Z",
+    "discovered_at": "2026-09-29T01:17:25.591Z",
+    "official": true,
+    "extension": {
+      "id": "olive-green-theme",
+      "name": "Olive Green",
+      "description": "Muted green themes: deep forest dark and warm ivory light, with lime, olive, gold, and teal syntax.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Dalpat Singh"
+      ],
+      "repository": "https://github.com/dalpat/zed-olive-green",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "matanek/silex-extension-zed": {
+    "name": "Matanek/Silex-Extension-Zed",
+    "url": "https://github.com/Matanek/Silex-Extension-Zed",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "C",
+    "license": "Apache-2.0",
+    "created_at": "2026-07-25T17:02:13Z",
+    "updated_at": "2026-09-21T15:03:09Z",
+    "pushed_at": "2026-09-21T15:03:03Z",
+    "discovered_at": "2026-09-29T01:17:25.591Z",
+    "official": true,
+    "extension": {
+      "id": "silex",
+      "name": "Silex",
+      "description": "Silex language support",
+      "version": "0.52.0",
+      "schema_version": 1,
+      "authors": [
+        "Matanek"
+      ],
+      "repository": "https://github.com/Matanek/Silex-Extension-Zed",
+      "snippets": null,
+      "sections": [
+        "language_servers",
+        "grammars"
+      ],
+      "categories": [
+        "grammar",
+        "language-server"
+      ]
+    }
+  },
+  "kyoka-suigetsu/the-forbidden-one": {
+    "name": "Kyoka-Suigetsu/the-forbidden-one",
+    "url": "https://github.com/Kyoka-Suigetsu/the-forbidden-one",
+    "description": "Forbidden — a dark-only theme for Zed by Kyoka-Suigetsu.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-09-13T03:35:10Z",
+    "updated_at": "2026-09-26T19:19:06Z",
+    "pushed_at": "2026-09-26T19:19:03Z",
+    "discovered_at": "2026-09-29T01:17:25.591Z",
+    "official": true,
+    "extension": {
+      "id": "the-forbidden-one-theme",
+      "name": "The Forbidden One",
+      "description": "The Forbidden One, a dark-only theme for Zed.",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Kyoka-Suigetsu"
+      ],
+      "repository": "https://github.com/Kyoka-Suigetsu/the-forbidden-one",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "symbolicsoft/verifpal-zed": {
+    "name": "symbolicsoft/verifpal-zed",
+    "url": "https://github.com/symbolicsoft/verifpal-zed",
+    "description": "Verifpal for Zed",
+    "stars": 1,
+    "forks": 0,
+    "topics": [],
+    "language": "C",
+    "license": "GPL-3.0",
+    "created_at": "2026-08-22T11:29:43Z",
+    "updated_at": "2026-09-17T09:53:47Z",
+    "pushed_at": "2026-09-17T09:53:43Z",
+    "discovered_at": "2026-09-29T01:17:25.591Z",
+    "official": true,
+    "extension": {
+      "id": "verifpal",
+      "name": "Verifpal",
+      "description": "Verifpal language support: highlighting, the language server built into the Verifpal binary, snippets and tasks.",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "authors": [
+        "Nadim Kobeissi <nadim@symbolic.software>"
+      ],
+      "repository": "https://github.com/symbolicsoft/verifpal-zed",
+      "snippets": [
+        "./snippets/verifpal.json"
+      ],
+      "sections": [
+        "grammars",
+        "language_servers"
+      ],
+      "categories": [
+        "grammar",
         "language-server",
         "snippets"
       ]
