@@ -142,8 +142,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-09-29T07:33:46Z",
-    "pushed_at": "2026-09-29T07:33:42Z",
+    "updated_at": "2026-09-30T07:31:48Z",
+    "pushed_at": "2026-09-30T07:31:39Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -8161,7 +8161,7 @@
     "name": "irmhonde/monospace-icon-theme",
     "url": "https://github.com/irmhonde/monospace-icon-theme",
     "description": "Monospace icon theme for Zed.",
-    "stars": 6,
+    "stars": 7,
     "forks": 3,
     "topics": [
       "zed",
@@ -8171,7 +8171,7 @@
     "language": null,
     "license": "Apache-2.0",
     "created_at": "2025-04-19T15:11:21Z",
-    "updated_at": "2026-06-23T18:49:25Z",
+    "updated_at": "2026-09-30T12:20:01Z",
     "pushed_at": "2026-06-23T18:53:20Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": true,
@@ -54694,25 +54694,27 @@
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
     "updated_at": "2026-09-28T02:21:05Z",
-    "pushed_at": "2026-09-28T17:22:37Z",
+    "pushed_at": "2026-09-30T12:58:34Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false,
     "extension": {
-      "id": "zed-spring-tools",
-      "name": "Zed Spring Tools",
-      "description": "Spring Boot language intelligence for Zed using the required official Java extension.",
-      "version": "0.1.0-alpha.1",
+      "id": "spring-tools",
+      "name": "Spring Tools",
+      "description": "Spring Boot language intelligence for Zed. Requires the official Java extension; an XML extension enables pom.xml Maven hints.",
+      "version": "0.1.0",
       "schema_version": 1,
       "authors": [
-        "Zed Spring Tools Contributors"
+        "algorist"
       ],
       "repository": "https://github.com/luceat-lux-vestra/zed-spring-tools",
       "snippets": null,
       "sections": [
+        "grammars",
         "language_servers",
         "capabilities"
       ],
       "categories": [
+        "grammar",
         "language-server"
       ]
     }
@@ -63664,6 +63666,37 @@
       ],
       "categories": [
         "grammar"
+      ]
+    }
+  },
+  "zepocas/zenith-zed": {
+    "name": "zepocas/zenith-zed",
+    "url": "https://github.com/zepocas/zenith-zed",
+    "description": "Zenith dark theme for the Zed editor",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-09-29T09:27:55Z",
+    "updated_at": "2026-09-29T09:32:52Z",
+    "pushed_at": "2026-09-29T09:32:47Z",
+    "discovered_at": "2026-09-30T12:59:15.249Z",
+    "official": true,
+    "extension": {
+      "id": "zenith-theme",
+      "name": "Zenith",
+      "description": "A warm dark theme with muted greys and Gruvbox-inspired syntax colours",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Zé Poças"
+      ],
+      "repository": "https://github.com/zepocas/zenith-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
       ]
     }
   }

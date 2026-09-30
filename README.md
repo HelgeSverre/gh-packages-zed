@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1852-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1853-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,17 +14,17 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1852** |
-| In official registry | 1342 |
+| Total tracked | **1853** |
+| In official registry | 1343 |
 | Discovered via topics | 510 |
-| Last updated | 2026-09-30 07:01 UTC |
+| Last updated | 2026-09-30 12:59 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
-| Themes | 801 |
-| Grammars | 640 |
+| Themes | 802 |
+| Grammars | 641 |
 | Language Servers | 594 |
 | Context Servers | 137 |
 | Snippets | 90 |
@@ -70,6 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [zepocas/zenith-zed](https://github.com/zepocas/zenith-zed) | 0 | Zenith dark theme for the Zed editor |
 | [ldhnam/zed-dataform-sqlx](https://github.com/ldhnam/zed-dataform-sqlx) | 0 | Zed extension for Dataform .sqlx files: SQL highlighting with JavaScript config ... |
 | [SM2507/cynosure-light-theme](https://github.com/SM2507/cynosure-light-theme) | 0 | Cynosure Light Theme for Zed - Cyberpunk 2077, Phantom Liberty inspired theme |
 | [iamanuclearwarhead/zed-dusty-plum](https://github.com/iamanuclearwarhead/zed-dusty-plum) | 0 | Dusty Plum theme for Zed |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [maxmalkin/zedtex](https://github.com/maxmalkin/zedtex) | 0 | ZedTeX: LaTeX package support, TeX page previews, Markdown equations, and Jupyte... |
 | [oxidescheme/zed](https://github.com/oxidescheme/zed) | 0 | A minimalist colorscheme for Zed |
 | [yuukiLike/zed-skin](https://github.com/yuukiLike/zed-skin) | 0 | A high contrast theme collection for Zed. Three AAA-audited dark themes and a wa... |
-| [thochra/zed-haproxy-extension](https://github.com/thochra/zed-haproxy-extension) | 1 | Extension for the Zed editor that adds syntax highlighting |
 
 ## Top starred (under 500)
 
@@ -120,16 +120,17 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 7 | 2026-09-30 | Spring Boot language intelligence for Zed, built on the requ... |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 99 | 2026-09-30 | True Dark Theme for Zed IDE |
 | [ldhnam/zed-dataform-sqlx](https://github.com/ldhnam/zed-dataform-sqlx) | 0 | 2026-09-30 | Zed extension for Dataform .sqlx files: SQL highlighting wit... |
 | [JeffreyJYZ/command-code-zed](https://github.com/JeffreyJYZ/command-code-zed) | 1 | 2026-09-29 | Zed extension and cmduse CLI for live Command Code usage: pl... |
 | [mnemodoc/zed-mnemodoc](https://github.com/mnemodoc/zed-mnemodoc) | 0 | 2026-09-29 | Zed extension that wires mnemodoc-server into Zed's AI assis... |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-09-29 | Intelligent codebase search & indexing for Zed. Async MCP se... |
+| [zepocas/zenith-zed](https://github.com/zepocas/zenith-zed) | 0 | 2026-09-29 | Zenith dark theme for the Zed editor |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-09-29 | A Zed extension that allows to highlight all occurrences of ... |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 215 | 2026-09-29 | Zed plugin for automatic time tracking and metrics generated... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 99 | 2026-09-29 | True Dark Theme for Zed IDE |
 | [maxhu08/modern-tweaked-zed](https://github.com/maxhu08/modern-tweaked-zed) | 0 | 2026-09-29 | 🎨 a set of vscode themes for zed ide |
 | [livetennisapi/zed-livetennis-mcp](https://github.com/livetennisapi/zed-livetennis-mcp) | 1 | 2026-09-28 | Zed extension: Live Tennis MCP server — real-time and histor... |
-| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 7 | 2026-09-28 | Spring Boot language intelligence for Zed, built on the requ... |
 | [yuzukq/zed-theme-Resonance-with-HatsuneMiku](https://github.com/yuzukq/zed-theme-Resonance-with-HatsuneMiku) | 0 | 2026-09-28 | A custom theme for Zed inspired by Hatsune Miku's color pale... |
 | [devmor-j/gafelson-lavender-theme](https://github.com/devmor-j/gafelson-lavender-theme) | 0 | 2026-09-28 | Gafelson and Lavender blend for Zed |
 | [SM2507/cynosure-light-theme](https://github.com/SM2507/cynosure-light-theme) | 0 | 2026-09-28 | Cynosure Light Theme for Zed - Cyberpunk 2077, Phantom Liber... |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [yuukiLike/zed-skin](https://github.com/yuukiLike/zed-skin) | 0 | 2026-09-28 | A high contrast theme collection for Zed. Three AAA-audited ... |
 | [shnarazk/Quasarized.Zed](https://github.com/shnarazk/Quasarized.Zed) | 0 | 2026-09-27 | A modified color scheme extension for Zed editor based on So... |
 | [maxmalkin/zedtex](https://github.com/maxmalkin/zedtex) | 0 | 2026-09-27 | ZedTeX: LaTeX package support, TeX page previews, Markdown e... |
-| [dunyakirkali/zed-asciidoc](https://github.com/dunyakirkali/zed-asciidoc) | 23 | 2026-09-26 | Zed support for AsciiDoc syntax |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-09-30T12:59 | 2 | 646 | 2302 |
 | 2026-09-30T07:01 | 1 | 646 | 2300 |
 | 2026-09-30T01:19 | 0 | 646 | 2299 |
 | 2026-09-29T18:51 | 0 | 646 | 2299 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-09-28T18:51 | 0 | 644 | 2278 |
 | 2026-09-28T12:57 | 0 | 644 | 2278 |
 | 2026-09-28T07:13 | 0 | 645 | 2278 |
-| 2026-09-28T01:20 | 1 | 645 | 2278 |
 
 ---
 
