@@ -4099,8 +4099,8 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2025-01-22T17:29:48Z",
-    "updated_at": "2026-07-27T21:22:00Z",
-    "pushed_at": "2026-07-27T21:21:38Z",
+    "updated_at": "2026-09-30T18:35:29Z",
+    "pushed_at": "2026-09-30T18:35:19Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -38111,13 +38111,13 @@
     "name": "zed-extensions/nginx",
     "url": "https://github.com/zed-extensions/nginx",
     "description": "",
-    "stars": 12,
+    "stars": 13,
     "forks": 5,
     "topics": [],
     "language": "Tree-sitter Query",
     "license": "Apache-2.0",
     "created_at": "2024-05-12T11:54:32Z",
-    "updated_at": "2026-08-28T07:51:56Z",
+    "updated_at": "2026-09-30T13:00:16Z",
     "pushed_at": "2026-06-15T13:04:15Z",
     "discovered_at": "2026-05-20T00:39:45.722Z",
     "official": false,
@@ -53888,8 +53888,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-06-01T12:22:18Z",
-    "updated_at": "2026-09-27T07:19:33Z",
-    "pushed_at": "2026-09-23T14:12:54Z",
+    "updated_at": "2026-09-30T16:14:38Z",
+    "pushed_at": "2026-09-30T16:14:33Z",
     "discovered_at": "2026-07-09T13:39:01.645Z",
     "official": true,
     "extension": {
@@ -54694,7 +54694,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
     "updated_at": "2026-09-28T02:21:05Z",
-    "pushed_at": "2026-09-30T12:58:34Z",
+    "pushed_at": "2026-09-30T13:11:18Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false,
     "extension": {
@@ -63036,8 +63036,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-09-25T09:59:14Z",
-    "updated_at": "2026-09-28T03:17:11Z",
-    "pushed_at": "2026-09-28T03:17:07Z",
+    "updated_at": "2026-09-30T15:17:33Z",
+    "pushed_at": "2026-09-30T15:17:28Z",
     "discovered_at": "2026-09-25T12:54:21.385Z",
     "official": true,
     "extension": {
@@ -63697,6 +63697,118 @@
       "sections": [],
       "categories": [
         "theme"
+      ]
+    }
+  },
+  "fruit-guardians/codeql-zed": {
+    "name": "Fruit-Guardians/codeql-zed",
+    "url": "https://github.com/Fruit-Guardians/codeql-zed",
+    "description": "CodeQL language support for Zed with Tree-sitter syntax highlighting and the CodeQL CLI language server.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "codeql",
+      "language-server",
+      "rust",
+      "security-tools",
+      "static-analysis",
+      "tree-sitter",
+      "zed"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "created_at": "2026-08-24T07:41:51Z",
+    "updated_at": "2026-08-24T13:58:03Z",
+    "pushed_at": "2026-08-24T13:47:10Z",
+    "discovered_at": "2026-09-30T18:52:03.938Z",
+    "official": true,
+    "extension": {
+      "id": "codeql",
+      "name": "CodeQL",
+      "description": "CodeQL query language support powered by Tree-sitter and the CodeQL CLI language server.",
+      "version": "0.1.1",
+      "schema_version": 1,
+      "authors": [
+        "CodeQL Zed contributors"
+      ],
+      "repository": "https://github.com/Fruit-Guardians/codeql-zed",
+      "snippets": null,
+      "sections": [
+        "grammars",
+        "language_servers"
+      ],
+      "categories": [
+        "grammar",
+        "language-server"
+      ]
+    }
+  },
+  "olllayor/pearl-theme": {
+    "name": "olllayor/pearl-theme",
+    "url": "https://github.com/olllayor/pearl-theme",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-09-28T07:43:45Z",
+    "updated_at": "2026-09-29T06:51:55Z",
+    "pushed_at": "2026-09-29T06:51:51Z",
+    "discovered_at": "2026-09-30T18:52:03.938Z",
+    "official": true,
+    "extension": {
+      "id": "pearl-theme",
+      "name": "Pearl Theme",
+      "description": "Pearl - sepia light, charcoal dark.",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Ollayor M <muhammadnabiyevolloyor@gmail.com>"
+      ],
+      "repository": "https://github.com/olllayor/pearl-theme",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "atomicptr/zed-moonbug": {
+    "name": "atomicptr/zed-moonbug",
+    "url": "https://github.com/atomicptr/zed-moonbug",
+    "description": "Lua debugger for Zed, powered by moonbug",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "lua",
+      "lua-debugger",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Lua",
+    "license": "MIT",
+    "created_at": "2026-09-13T15:18:54Z",
+    "updated_at": "2026-09-30T15:37:00Z",
+    "pushed_at": "2026-09-30T15:36:56Z",
+    "discovered_at": "2026-09-30T18:52:03.938Z",
+    "official": false,
+    "extension": {
+      "id": "moonbug-debugger",
+      "name": "moonbug",
+      "description": "Single-file, in-process, DAP powered Lua debugger for your favorite code editor!",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Christopher Kaster <me@atomicptr.de>"
+      ],
+      "repository": "https://github.com/atomicptr/zed-moonbug",
+      "snippets": null,
+      "sections": [
+        "debug_adapters"
+      ],
+      "categories": [
+        "debug-adapter"
       ]
     }
   }
