@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1856** |
 | In official registry | 1345 |
 | Discovered via topics | 511 |
-| Last updated | 2026-10-01 01:26 UTC |
+| Last updated | 2026-10-01 07:02 UTC |
 
 ### By capability
 
@@ -120,6 +120,8 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [knownIndie/voidline-zed-theme](https://github.com/knownIndie/voidline-zed-theme) | 0 | 2026-10-01 | Low-glare carbon-black and glass themes for Zed |
+| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 139 | 2026-10-01 | The Ruby language support for Zed editor |
 | [briar-systems/mach-zed](https://github.com/briar-systems/mach-zed) | 0 | 2026-09-30 | Mach language support for Zed including syntax highlighting,... |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-09-30 | Zed editor support for Carve, a modern light markup language |
 | [nusnewob/caddyfile-zed](https://github.com/nusnewob/caddyfile-zed) | 14 | 2026-09-30 | Caddyfile Support for Zed |
@@ -138,13 +140,12 @@ cd website && npm install && npm run dev
 | [maxhu08/modern-tweaked-zed](https://github.com/maxhu08/modern-tweaked-zed) | 0 | 2026-09-29 | 🎨 a set of vscode themes for zed ide |
 | [livetennisapi/zed-livetennis-mcp](https://github.com/livetennisapi/zed-livetennis-mcp) | 1 | 2026-09-28 | Zed extension: Live Tennis MCP server — real-time and histor... |
 | [yuzukq/zed-theme-Resonance-with-HatsuneMiku](https://github.com/yuzukq/zed-theme-Resonance-with-HatsuneMiku) | 0 | 2026-09-28 | A custom theme for Zed inspired by Hatsune Miku's color pale... |
-| [devmor-j/gafelson-lavender-theme](https://github.com/devmor-j/gafelson-lavender-theme) | 0 | 2026-09-28 | Gafelson and Lavender blend for Zed |
-| [SM2507/cynosure-light-theme](https://github.com/SM2507/cynosure-light-theme) | 0 | 2026-09-28 | Cynosure Light Theme for Zed - Cyberpunk 2077, Phantom Liber... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-10-01T07:02 | 0 | 648 | 2307 |
 | 2026-10-01T01:26 | 1 | 647 | 2307 |
 | 2026-09-30T18:52 | 4 | 646 | 2306 |
 | 2026-09-30T12:59 | 2 | 646 | 2302 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-09-29T12:58 | 1 | 644 | 2299 |
 | 2026-09-29T07:01 | 1 | 643 | 2298 |
 | 2026-09-29T01:17 | 19 | 643 | 2297 |
-| 2026-09-28T18:51 | 0 | 644 | 2278 |
 
 ---
 
