@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1856** |
 | In official registry | 1345 |
 | Discovered via topics | 511 |
-| Last updated | 2026-09-30 18:52 UTC |
+| Last updated | 2026-10-01 01:26 UTC |
 
 ### By capability
 
@@ -120,8 +120,9 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [nusnewob/caddyfile-zed](https://github.com/nusnewob/caddyfile-zed) | 14 | 2026-09-30 | Caddyfile Support for Zed |
+| [briar-systems/mach-zed](https://github.com/briar-systems/mach-zed) | 0 | 2026-09-30 | Mach language support for Zed including syntax highlighting,... |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-09-30 | Zed editor support for Carve, a modern light markup language |
+| [nusnewob/caddyfile-zed](https://github.com/nusnewob/caddyfile-zed) | 14 | 2026-09-30 | Caddyfile Support for Zed |
 | [atomicptr/zed-moonbug](https://github.com/atomicptr/zed-moonbug) | 0 | 2026-09-30 | Lua debugger for Zed, powered by moonbug |
 | [yuukiLike/zed-skin](https://github.com/yuukiLike/zed-skin) | 0 | 2026-09-30 | A high contrast theme collection for Zed. Three AAA-audited ... |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 7 | 2026-09-30 | Spring Boot language intelligence for Zed, built on the requ... |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [yuzukq/zed-theme-Resonance-with-HatsuneMiku](https://github.com/yuzukq/zed-theme-Resonance-with-HatsuneMiku) | 0 | 2026-09-28 | A custom theme for Zed inspired by Hatsune Miku's color pale... |
 | [devmor-j/gafelson-lavender-theme](https://github.com/devmor-j/gafelson-lavender-theme) | 0 | 2026-09-28 | Gafelson and Lavender blend for Zed |
 | [SM2507/cynosure-light-theme](https://github.com/SM2507/cynosure-light-theme) | 0 | 2026-09-28 | Cynosure Light Theme for Zed - Cyberpunk 2077, Phantom Liber... |
-| [BastenIT/zed-composer-support](https://github.com/BastenIT/zed-composer-support) | 1 | 2026-09-28 | Packagist links, installed-version hints, and update checks ... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-10-01T01:26 | 1 | 647 | 2307 |
 | 2026-09-30T18:52 | 4 | 646 | 2306 |
 | 2026-09-30T12:59 | 2 | 646 | 2302 |
 | 2026-09-30T07:01 | 1 | 646 | 2300 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-09-29T07:01 | 1 | 643 | 2298 |
 | 2026-09-29T01:17 | 19 | 643 | 2297 |
 | 2026-09-28T18:51 | 0 | 644 | 2278 |
-| 2026-09-28T12:57 | 0 | 644 | 2278 |
 
 ---
 
