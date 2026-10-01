@@ -1,0 +1,11 @@
+id = "overpassql"
+name = "OverpassQL"
+version = "0.1.0"
+schema_version = 1
+authors = ["Edwin Kortman <edwin.kortman@pm.me>"]
+description = "OverpassQL (Overpass API query language) syntax highlighting support to Zed."
+repository = "https://github.com/edwinkortman/overpassql-zed-extension"
+
+[grammars.overpassql]
+repository = "https://github.com/edwinkortman/tree-sitter-overpassql"
+rev = "01bf1e7de0e9c8eebbe8974c06634d846836cd1e"

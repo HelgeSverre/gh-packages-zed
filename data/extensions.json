@@ -244,7 +244,7 @@
     "name": "zed-extensions/ruby",
     "url": "https://github.com/zed-extensions/ruby",
     "description": "The Ruby language support for Zed editor",
-    "stars": 139,
+    "stars": 140,
     "forks": 33,
     "topics": [
       "ruby",
@@ -254,7 +254,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2024-10-11T18:22:02Z",
-    "updated_at": "2026-10-01T11:22:43Z",
+    "updated_at": "2026-10-01T18:21:52Z",
     "pushed_at": "2026-10-01T04:17:44Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -377,7 +377,7 @@
     "name": "albertsko/zed-everforest",
     "url": "https://github.com/albertsko/zed-everforest",
     "description": "🌲 Everforest for Zed",
-    "stars": 16,
+    "stars": 17,
     "forks": 4,
     "topics": [
       "everforest",
@@ -388,7 +388,7 @@
     "language": "Go Template",
     "license": "MIT",
     "created_at": "2025-11-14T14:30:39Z",
-    "updated_at": "2026-08-13T09:50:49Z",
+    "updated_at": "2026-10-01T17:55:17Z",
     "pushed_at": "2026-07-26T20:36:43Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -22372,7 +22372,7 @@
     "name": "skarline/zed-xcode-themes",
     "url": "https://github.com/skarline/zed-xcode-themes",
     "description": "🍎 Recreate Xcode's native feel in Zed with authentic themes for a seamless, Apple-inspired coding environment.",
-    "stars": 79,
+    "stars": 80,
     "forks": 3,
     "topics": [
       "zed",
@@ -22383,7 +22383,7 @@
     "language": null,
     "license": null,
     "created_at": "2024-02-25T02:26:32Z",
-    "updated_at": "2026-08-30T08:35:54Z",
+    "updated_at": "2026-10-01T14:45:33Z",
     "pushed_at": "2025-01-14T12:40:40Z",
     "discovered_at": "2026-05-19T20:15:46.472Z",
     "official": true,
@@ -42385,13 +42385,13 @@
     "name": "stefanbc/relaxed-theme-zed",
     "url": "https://github.com/stefanbc/relaxed-theme-zed",
     "description": "A port of the Relaxed VS Code theme by Michael Kühnel. Dark theme with easy on the eyes colors.",
-    "stars": 0,
+    "stars": 1,
     "forks": 0,
     "topics": [],
     "language": null,
     "license": "MIT",
     "created_at": "2026-03-18T14:13:39Z",
-    "updated_at": "2026-04-13T14:02:11Z",
+    "updated_at": "2026-10-01T13:32:35Z",
     "pushed_at": "2026-04-13T14:02:06Z",
     "discovered_at": "2026-05-20T02:57:03.419Z",
     "official": false,
@@ -58568,7 +58568,7 @@
     "license": "MIT",
     "created_at": "2026-08-13T19:10:02Z",
     "updated_at": "2026-08-17T22:17:57Z",
-    "pushed_at": "2026-09-10T17:36:44Z",
+    "pushed_at": "2026-10-01T17:44:51Z",
     "discovered_at": "2026-08-14T01:05:12.208Z",
     "official": false,
     "extension": {
@@ -63902,6 +63902,39 @@
       "sections": [],
       "categories": [
         "theme"
+      ]
+    }
+  },
+  "edwinkortman/overpassql-zed-extension": {
+    "name": "edwinkortman/overpassql-zed-extension",
+    "url": "https://github.com/edwinkortman/overpassql-zed-extension",
+    "description": "",
+    "stars": 1,
+    "forks": 0,
+    "topics": [],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2026-06-15T10:14:10Z",
+    "updated_at": "2026-06-15T10:52:52Z",
+    "pushed_at": "2026-06-15T10:52:51Z",
+    "discovered_at": "2026-10-01T18:51:33.326Z",
+    "official": true,
+    "extension": {
+      "id": "overpassql",
+      "name": "OverpassQL",
+      "description": "OverpassQL (Overpass API query language) syntax highlighting support to Zed.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Edwin Kortman <edwin.kortman@pm.me>"
+      ],
+      "repository": "https://github.com/edwinkortman/overpassql-zed-extension",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
       ]
     }
   }
