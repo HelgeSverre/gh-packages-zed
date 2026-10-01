@@ -142,8 +142,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-09-30T07:31:48Z",
-    "pushed_at": "2026-09-30T07:31:39Z",
+    "updated_at": "2026-10-01T07:51:14Z",
+    "pushed_at": "2026-10-01T07:51:10Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -254,7 +254,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2024-10-11T18:22:02Z",
-    "updated_at": "2026-09-25T09:29:53Z",
+    "updated_at": "2026-10-01T11:22:43Z",
     "pushed_at": "2026-10-01T04:17:44Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -5196,7 +5196,7 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-10-16T07:12:13Z",
-    "updated_at": "2026-09-24T14:40:10Z",
+    "updated_at": "2026-10-01T11:28:32Z",
     "pushed_at": "2026-01-26T08:59:52Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false,
@@ -11278,7 +11278,7 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2024-02-19T09:14:14Z",
-    "updated_at": "2026-09-24T14:40:03Z",
+    "updated_at": "2026-10-01T11:24:10Z",
     "pushed_at": "2026-07-22T13:08:23Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": false,
@@ -11352,7 +11352,7 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-02-27T10:35:56Z",
-    "updated_at": "2026-09-28T09:44:28Z",
+    "updated_at": "2026-10-01T11:24:08Z",
     "pushed_at": "2026-09-28T09:44:26Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": false,
@@ -30758,7 +30758,7 @@
     "language": "Tree-sitter Query",
     "license": "Apache-2.0",
     "created_at": "2024-02-19T14:56:35Z",
-    "updated_at": "2026-09-24T14:57:33Z",
+    "updated_at": "2026-10-01T11:24:34Z",
     "pushed_at": "2026-07-28T23:40:00Z",
     "discovered_at": "2026-05-19T21:42:53.670Z",
     "official": false,
@@ -34884,7 +34884,7 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-02-18T13:35:25Z",
-    "updated_at": "2026-09-24T14:39:50Z",
+    "updated_at": "2026-10-01T11:24:34Z",
     "pushed_at": "2026-06-07T22:08:00Z",
     "discovered_at": "2026-05-19T21:55:15.596Z",
     "official": false,
@@ -38117,7 +38117,7 @@
     "language": "Tree-sitter Query",
     "license": "Apache-2.0",
     "created_at": "2024-05-12T11:54:32Z",
-    "updated_at": "2026-09-30T13:00:16Z",
+    "updated_at": "2026-10-01T11:24:31Z",
     "pushed_at": "2026-06-15T13:04:15Z",
     "discovered_at": "2026-05-20T00:39:45.722Z",
     "official": false,
@@ -38340,13 +38340,13 @@
     "name": "zed-extensions/nix",
     "url": "https://github.com/zed-extensions/nix",
     "description": "Nix language support in Zed",
-    "stars": 127,
+    "stars": 128,
     "forks": 28,
     "topics": [],
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-03-01T05:13:38Z",
-    "updated_at": "2026-09-24T14:39:53Z",
+    "updated_at": "2026-10-01T11:47:31Z",
     "pushed_at": "2026-09-11T15:23:06Z",
     "discovered_at": "2026-05-20T00:39:45.722Z",
     "official": false,
@@ -63809,6 +63809,99 @@
       ],
       "categories": [
         "debug-adapter"
+      ]
+    }
+  },
+  "arobsn/edge-zed": {
+    "name": "arobsn/edge-zed",
+    "url": "https://github.com/arobsn/edge-zed",
+    "description": "Clean & Elegant Color Scheme inspired by Atom One and Material",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "TypeScript",
+    "license": "MIT",
+    "created_at": "2026-09-30T23:58:56Z",
+    "updated_at": "2026-10-01T00:12:01Z",
+    "pushed_at": "2026-10-01T00:11:17Z",
+    "discovered_at": "2026-10-01T12:58:05.303Z",
+    "official": true,
+    "extension": {
+      "id": "edge-theme",
+      "name": "Edge",
+      "description": "Clean & Elegant Color Scheme inspired by Atom One and Material.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Alison Oliveira <arobsn@proton.me>"
+      ],
+      "repository": "https://github.com/arobsn/edge-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "dhanush-s-gowda/zed-theme-pure-black-high-contrast": {
+    "name": "Dhanush-S-Gowda/zed-theme-Pure-Black-High-Contrast",
+    "url": "https://github.com/Dhanush-S-Gowda/zed-theme-Pure-Black-High-Contrast",
+    "description": "Pure black OLED-friendly high contrast theme for Zed with bright syntax colors and minimal dark UI",
+    "stars": 1,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-09-29T04:27:09Z",
+    "updated_at": "2026-09-29T04:48:53Z",
+    "pushed_at": "2026-09-29T04:48:27Z",
+    "discovered_at": "2026-10-01T12:58:05.303Z",
+    "official": true,
+    "extension": {
+      "id": "pure-black-high-contrast-theme",
+      "name": "Pure Black High Contrast",
+      "description": "Pure black OLED-friendly high contrast theme for Zed with bright syntax colors and minimal dark UI",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Dhanush S Gowda"
+      ],
+      "repository": "https://github.com/Dhanush-S-Gowda/zed-theme-Pure-Black-High-Contrast",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "sequelcore/zed-theme": {
+    "name": "sequelcore/zed-theme",
+    "url": "https://github.com/sequelcore/zed-theme",
+    "description": "Sequel Ink and Sequel Void themes for the Zed editor",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "JavaScript",
+    "license": "MIT",
+    "created_at": "2026-09-30T20:56:29Z",
+    "updated_at": "2026-09-30T21:44:09Z",
+    "pushed_at": "2026-09-30T21:44:05Z",
+    "discovered_at": "2026-10-01T12:58:05.303Z",
+    "official": true,
+    "extension": {
+      "id": "sequel-theme",
+      "name": "Sequel",
+      "description": "Warm monochrome dark theme: ink, paper, graphite and gold.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Sequel"
+      ],
+      "repository": "https://github.com/sequelcore/zed-theme",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
       ]
     }
   }
