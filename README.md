@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1860** |
 | In official registry | 1349 |
 | Discovered via topics | 511 |
-| Last updated | 2026-10-02 01:16 UTC |
+| Last updated | 2026-10-02 07:00 UTC |
 
 ### By capability
 
@@ -100,7 +100,7 @@ cd website && npm install && npm run dev
 | [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 336 | Catppuccin Theme but as blurred variants + custom ones |
 | [oxc-project/oxc-zed](https://github.com/oxc-project/oxc-zed) | 256 | Oxc extension for Zed |
 | [catppuccin/zed-icons](https://github.com/catppuccin/zed-icons) | 240 | 🦊 Soothing pastel icons for Zed |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 215 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 216 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
 | [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 209 | Zed support for the Godot game engine and the GDScript language |
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 202 | Typst extension for zed |
@@ -138,13 +138,14 @@ cd website && npm install && npm run dev
 | [mnemodoc/zed-mnemodoc](https://github.com/mnemodoc/zed-mnemodoc) | 0 | 2026-09-29 | Zed extension that wires mnemodoc-server into Zed's AI assis... |
 | [zepocas/zenith-zed](https://github.com/zepocas/zenith-zed) | 0 | 2026-09-29 | Zenith dark theme for the Zed editor |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-09-29 | A Zed extension that allows to highlight all occurrences of ... |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 215 | 2026-09-29 | Zed plugin for automatic time tracking and metrics generated... |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 216 | 2026-09-29 | Zed plugin for automatic time tracking and metrics generated... |
 | [olllayor/pearl-theme](https://github.com/olllayor/pearl-theme) | 0 | 2026-09-29 |  |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-10-02T07:00 | 0 | 646 | 2312 |
 | 2026-10-02T01:16 | 0 | 646 | 2312 |
 | 2026-10-01T18:51 | 2 | 648 | 2312 |
 | 2026-10-01T12:58 | 3 | 648 | 2310 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-09-30T12:59 | 2 | 646 | 2302 |
 | 2026-09-30T07:01 | 1 | 646 | 2300 |
 | 2026-09-30T01:19 | 0 | 646 | 2299 |
-| 2026-09-29T18:51 | 0 | 646 | 2299 |
 
 ---
 
