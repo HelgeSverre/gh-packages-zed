@@ -59,8 +59,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-05-03T17:39:17Z",
-    "updated_at": "2026-09-29T08:51:37Z",
-    "pushed_at": "2026-09-29T08:51:33Z",
+    "updated_at": "2026-10-02T09:53:28Z",
+    "pushed_at": "2026-10-02T09:53:24Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -142,8 +142,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-10-01T07:51:14Z",
-    "pushed_at": "2026-10-01T07:51:10Z",
+    "updated_at": "2026-10-02T07:34:09Z",
+    "pushed_at": "2026-10-02T07:34:05Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -4586,7 +4586,7 @@
     "name": "ankddev/zed-jetbrains-newui-icons",
     "url": "https://github.com/ankddev/zed-jetbrains-newui-icons",
     "description": "JetBrains New UI Icons Theme for Zed editor.",
-    "stars": 27,
+    "stars": 28,
     "forks": 9,
     "topics": [
       "icons",
@@ -4598,7 +4598,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2025-02-08T13:19:33Z",
-    "updated_at": "2026-08-27T13:44:15Z",
+    "updated_at": "2026-10-02T08:33:41Z",
     "pushed_at": "2026-08-24T13:42:07Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -6792,7 +6792,7 @@
     "name": "MrUprizing/zed-mcp-server-nextjs",
     "url": "https://github.com/MrUprizing/zed-mcp-server-nextjs",
     "description": "NextJS MCP Extension for Zed",
-    "stars": 18,
+    "stars": 19,
     "forks": 2,
     "topics": [
       "zed-extension"
@@ -6800,7 +6800,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2025-10-24T00:09:53Z",
-    "updated_at": "2026-09-11T04:43:18Z",
+    "updated_at": "2026-10-02T08:23:14Z",
     "pushed_at": "2025-10-24T00:10:54Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -63935,6 +63935,79 @@
       ],
       "categories": [
         "grammar"
+      ]
+    }
+  },
+  "nudojs/nudo-zed": {
+    "name": "nudojs/nudo-zed",
+    "url": "https://github.com/nudojs/nudo-zed",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2026-09-14T16:43:04Z",
+    "updated_at": "2026-09-30T16:57:46Z",
+    "pushed_at": "2026-09-30T16:57:42Z",
+    "discovered_at": "2026-10-02T12:56:41.072Z",
+    "official": true,
+    "extension": {
+      "id": "nudo-lsp",
+      "name": "Nudo",
+      "description": "Nudo type inference for JavaScript and TypeScript",
+      "version": "0.1.2",
+      "schema_version": 1,
+      "authors": [
+        "wmzy"
+      ],
+      "repository": "https://github.com/nudojs/nudo-zed",
+      "snippets": null,
+      "sections": [
+        "language_servers"
+      ],
+      "categories": [
+        "language-server"
+      ]
+    }
+  },
+  "mihaicrisan04/zed-viper": {
+    "name": "mihaicrisan04/zed-viper",
+    "url": "https://github.com/mihaicrisan04/zed-viper",
+    "description": "Viper verification language (.vpr) support for Zed: highlighting and verification errors via ViperServer",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "formal-verification",
+      "tree-sitter",
+      "viper",
+      "zed-extension"
+    ],
+    "language": "C",
+    "license": "MIT",
+    "created_at": "2026-10-02T10:51:05Z",
+    "updated_at": "2026-10-02T10:51:15Z",
+    "pushed_at": "2026-10-02T10:52:47Z",
+    "discovered_at": "2026-10-02T12:56:41.072Z",
+    "official": false,
+    "extension": {
+      "id": "viper",
+      "name": "Viper",
+      "description": "Viper verification language (.vpr): syntax highlighting and verification errors as you save, powered by ViperServer",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Mihai Crisan"
+      ],
+      "repository": "https://github.com/mihaicrisan04/zed-viper",
+      "snippets": null,
+      "sections": [
+        "grammars",
+        "language_servers"
+      ],
+      "categories": [
+        "grammar",
+        "language-server"
       ]
     }
   }
