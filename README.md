@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1862** |
 | In official registry | 1350 |
 | Discovered via topics | 512 |
-| Last updated | 2026-10-02 12:56 UTC |
+| Last updated | 2026-10-02 18:50 UTC |
 
 ### By capability
 
@@ -120,6 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-10-02 | Zed editor support for Carve, a modern light markup language |
 | [mihaicrisan04/zed-viper](https://github.com/mihaicrisan04/zed-viper) | 0 | 2026-10-02 | Viper verification language (.vpr) support for Zed: highligh... |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-10-02 | A Zed extension that allows to highlight all occurrences of ... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 99 | 2026-10-02 | True Dark Theme for Zed IDE |
@@ -130,7 +131,6 @@ cd website && npm install && npm run dev
 | [arobsn/edge-zed](https://github.com/arobsn/edge-zed) | 0 | 2026-10-01 | Clean & Elegant Color Scheme inspired by Atom One and Materi... |
 | [sequelcore/zed-theme](https://github.com/sequelcore/zed-theme) | 0 | 2026-09-30 | Sequel Ink and Sequel Void themes for the Zed editor |
 | [briar-systems/mach-zed](https://github.com/briar-systems/mach-zed) | 0 | 2026-09-30 | Mach language support for Zed including syntax highlighting,... |
-| [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-09-30 | Zed editor support for Carve, a modern light markup language |
 | [nusnewob/caddyfile-zed](https://github.com/nusnewob/caddyfile-zed) | 14 | 2026-09-30 | Caddyfile Support for Zed |
 | [nudojs/nudo-zed](https://github.com/nudojs/nudo-zed) | 0 | 2026-09-30 |  |
 | [atomicptr/zed-moonbug](https://github.com/atomicptr/zed-moonbug) | 0 | 2026-09-30 | Lua debugger for Zed, powered by moonbug |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-10-02T18:50 | 0 | 647 | 2314 |
 | 2026-10-02T12:56 | 2 | 646 | 2314 |
 | 2026-10-02T07:00 | 0 | 646 | 2312 |
 | 2026-10-02T01:16 | 0 | 646 | 2312 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-10-01T01:26 | 1 | 647 | 2307 |
 | 2026-09-30T18:52 | 4 | 646 | 2306 |
 | 2026-09-30T12:59 | 2 | 646 | 2302 |
-| 2026-09-30T07:01 | 1 | 646 | 2300 |
 
 ---
 
