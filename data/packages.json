@@ -75,7 +75,7 @@
     "license": "MIT",
     "created_at": "2026-05-03T17:39:17Z",
     "updated_at": "2026-10-02T09:53:28Z",
-    "pushed_at": "2026-10-02T09:53:24Z",
+    "pushed_at": "2026-10-02T20:05:34Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -15466,7 +15466,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
     "updated_at": "2026-10-02T15:30:55Z",
-    "pushed_at": "2026-10-01T01:55:34Z",
+    "pushed_at": "2026-10-02T19:46:32Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -18024,8 +18024,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-10-02T12:57:19Z",
-    "pushed_at": "2026-10-02T12:57:15Z",
+    "updated_at": "2026-10-02T18:50:52Z",
+    "pushed_at": "2026-10-02T18:50:48Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -29832,8 +29832,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2025-11-13T23:36:16Z",
-    "updated_at": "2026-09-22T18:49:06Z",
-    "pushed_at": "2026-09-22T18:49:02Z",
+    "updated_at": "2026-10-02T22:46:13Z",
+    "pushed_at": "2026-10-02T22:46:09Z",
     "discovered_at": "2026-06-07T07:23:59.384Z",
     "official": false
   },
@@ -32718,8 +32718,8 @@
     "language": "JavaScript",
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
-    "updated_at": "2026-09-28T02:21:05Z",
-    "pushed_at": "2026-09-30T13:11:18Z",
+    "updated_at": "2026-10-02T23:09:35Z",
+    "pushed_at": "2026-10-03T00:45:20Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false
   },
@@ -35601,8 +35601,8 @@
     "language": null,
     "license": null,
     "created_at": "2026-08-16T21:55:25Z",
-    "updated_at": "2026-10-02T17:29:33Z",
-    "pushed_at": "2026-10-02T17:29:29Z",
+    "updated_at": "2026-10-02T22:55:09Z",
+    "pushed_at": "2026-10-02T22:55:05Z",
     "discovered_at": "2026-08-17T01:03:46.357Z",
     "official": false
   },
@@ -36948,8 +36948,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-09-07T16:00:35Z",
-    "updated_at": "2026-10-02T12:18:15Z",
-    "pushed_at": "2026-10-02T12:18:11Z",
+    "updated_at": "2026-10-02T23:42:38Z",
+    "pushed_at": "2026-10-02T23:42:34Z",
     "discovered_at": "2026-09-07T18:46:27.369Z",
     "official": false
   },
@@ -37534,8 +37534,8 @@
     "language": "TypeScript",
     "license": null,
     "created_at": "2026-05-16T12:57:47Z",
-    "updated_at": "2026-09-16T14:21:20Z",
-    "pushed_at": "2026-05-16T13:16:08Z",
+    "updated_at": "2026-10-03T01:09:45Z",
+    "pushed_at": "2026-10-03T01:09:41Z",
     "discovered_at": "2026-09-16T17:16:41.529Z",
     "official": false
   },
@@ -38157,8 +38157,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-09-21T07:36:15Z",
-    "updated_at": "2026-10-02T11:19:12Z",
-    "pushed_at": "2026-10-02T11:19:04Z",
+    "updated_at": "2026-10-02T18:52:48Z",
+    "pushed_at": "2026-10-02T18:52:45Z",
     "discovered_at": "2026-09-21T13:19:36.942Z",
     "official": false
   },
@@ -38401,7 +38401,7 @@
     "name": "Sunrisepeak/mcpp-language-server",
     "url": "https://github.com/Sunrisepeak/mcpp-language-server",
     "description": "mcppls — a C++20/23 modules language server: one set of module semantics on GCC, Clang, MSVC and MinGW, for editors (VS Code, Zed, CLion, Neovim), AI Agents (MCP) and CI",
-    "stars": 15,
+    "stars": 16,
     "forks": 1,
     "topics": [
       "ai-agents",
@@ -38428,8 +38428,8 @@
     "language": "C++",
     "license": "Apache-2.0",
     "created_at": "2026-09-21T20:10:00Z",
-    "updated_at": "2026-10-01T16:53:27Z",
-    "pushed_at": "2026-10-01T18:10:29Z",
+    "updated_at": "2026-10-03T00:45:27Z",
+    "pushed_at": "2026-10-03T00:29:09Z",
     "discovered_at": "2026-09-21T22:12:12.101Z",
     "official": false
   },
@@ -40150,6 +40150,57 @@
     "updated_at": "2026-10-02T10:51:15Z",
     "pushed_at": "2026-10-02T10:52:47Z",
     "discovered_at": "2026-10-02T12:56:41.072Z",
+    "official": false
+  },
+  "rcpthongta/zed-agent-skills": {
+    "name": "rcpthongta/zed-agent-skills",
+    "url": "https://github.com/rcpthongta/zed-agent-skills",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "ai",
+      "ai-agent-skills",
+      "ai-agents",
+      "ai-skills",
+      "skills",
+      "zed",
+      "zed-editor"
+    ],
+    "language": null,
+    "license": null,
+    "created_at": "2026-10-02T20:07:14Z",
+    "updated_at": "2026-10-02T21:55:53Z",
+    "pushed_at": "2026-10-02T21:55:49Z",
+    "discovered_at": "2026-10-03T01:13:41.690Z",
+    "official": false
+  },
+  "amiralimanzar/zed-rtl": {
+    "name": "AmirAliManzar/Zed-RTL",
+    "url": "https://github.com/AmirAliManzar/Zed-RTL",
+    "description": "Fixed right-to-left (Persian/Arabic/Hebrew) text rendering and caret movement in the Zed editor, with an auto-updating patched build for Windows.",
+    "stars": 1,
+    "forks": 0,
+    "topics": [
+      "arabic",
+      "bidi",
+      "farsi",
+      "hebrew",
+      "i18n",
+      "persian",
+      "right-to-left",
+      "rtl",
+      "text-editor",
+      "windows",
+      "zed",
+      "zed-editor"
+    ],
+    "language": "Rust",
+    "license": "GPL-3.0",
+    "created_at": "2026-09-29T18:48:49Z",
+    "updated_at": "2026-10-02T19:38:58Z",
+    "pushed_at": "2026-10-02T10:44:00Z",
+    "discovered_at": "2026-10-03T01:13:41.690Z",
     "official": false
   }
 }

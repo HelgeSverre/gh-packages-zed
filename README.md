@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1862** |
 | In official registry | 1350 |
 | Discovered via topics | 512 |
-| Last updated | 2026-10-02 18:50 UTC |
+| Last updated | 2026-10-03 01:13 UTC |
 
 ### By capability
 
@@ -120,9 +120,11 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 7 | 2026-10-03 | Spring Boot language intelligence for Zed, built on the requ... |
+| [wesleydmscn/zed-samurai-theme](https://github.com/wesleydmscn/zed-samurai-theme) | 4 | 2026-10-02 | A theme for samurai programmers 🤺 |
+| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-10-02 | A Zed extension that allows to highlight all occurrences of ... |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-10-02 | Zed editor support for Carve, a modern light markup language |
 | [mihaicrisan04/zed-viper](https://github.com/mihaicrisan04/zed-viper) | 0 | 2026-10-02 | Viper verification language (.vpr) support for Zed: highligh... |
-| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-10-02 | A Zed extension that allows to highlight all occurrences of ... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 99 | 2026-10-02 | True Dark Theme for Zed IDE |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-10-01 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [gesundes/zed-ansible-vault](https://github.com/gesundes/zed-ansible-vault) | 0 | 2026-10-01 | Encrypt and decrypt Ansible Vault files and inline !vault YA... |
@@ -135,16 +137,15 @@ cd website && npm install && npm run dev
 | [nudojs/nudo-zed](https://github.com/nudojs/nudo-zed) | 0 | 2026-09-30 |  |
 | [atomicptr/zed-moonbug](https://github.com/atomicptr/zed-moonbug) | 0 | 2026-09-30 | Lua debugger for Zed, powered by moonbug |
 | [yuukiLike/zed-skin](https://github.com/yuukiLike/zed-skin) | 0 | 2026-09-30 | A high contrast theme collection for Zed. Three AAA-audited ... |
-| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 7 | 2026-09-30 | Spring Boot language intelligence for Zed, built on the requ... |
 | [ldhnam/zed-dataform-sqlx](https://github.com/ldhnam/zed-dataform-sqlx) | 0 | 2026-09-30 | Zed extension for Dataform .sqlx files: SQL highlighting wit... |
 | [JeffreyJYZ/command-code-zed](https://github.com/JeffreyJYZ/command-code-zed) | 1 | 2026-09-29 | Zed extension and cmduse CLI for live Command Code usage: pl... |
 | [mnemodoc/zed-mnemodoc](https://github.com/mnemodoc/zed-mnemodoc) | 0 | 2026-09-29 | Zed extension that wires mnemodoc-server into Zed's AI assis... |
-| [zepocas/zenith-zed](https://github.com/zepocas/zenith-zed) | 0 | 2026-09-29 | Zenith dark theme for the Zed editor |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-10-03T01:13 | 2 | 647 | 2316 |
 | 2026-10-02T18:50 | 0 | 647 | 2314 |
 | 2026-10-02T12:56 | 2 | 646 | 2314 |
 | 2026-10-02T07:00 | 0 | 646 | 2312 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-10-01T07:02 | 0 | 648 | 2307 |
 | 2026-10-01T01:26 | 1 | 647 | 2307 |
 | 2026-09-30T18:52 | 4 | 646 | 2306 |
-| 2026-09-30T12:59 | 2 | 646 | 2302 |
 
 ---
 
