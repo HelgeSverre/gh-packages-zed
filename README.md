@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1861** |
 | In official registry | 1350 |
 | Discovered via topics | 511 |
-| Last updated | 2026-10-03 14:21 UTC |
+| Last updated | 2026-10-03 19:34 UTC |
 
 ### By capability
 
@@ -120,7 +120,9 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [thoriqakbar0/fsl-lsp](https://github.com/thoriqakbar0/fsl-lsp) | 0 | 2026-10-03 | Pre-alpha FSL grammar, Zed extension, and language-server in... |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-10-03 | Intelligent codebase search & indexing for Zed. Async MCP se... |
+| [lmarkmann/patina-theme](https://github.com/lmarkmann/patina-theme) | 4 | 2026-10-03 | A warm, muted color theme. Teal oxidation and amber warmth; ... |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 7 | 2026-10-03 | Spring Boot language intelligence for Zed, built on the requ... |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 140 | 2026-10-03 | The Ruby language support for Zed editor |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 99 | 2026-10-03 | True Dark Theme for Zed IDE |
@@ -138,13 +140,12 @@ cd website && npm install && npm run dev
 | [atomicptr/zed-moonbug](https://github.com/atomicptr/zed-moonbug) | 0 | 2026-09-30 | Lua debugger for Zed, powered by moonbug |
 | [yuukiLike/zed-skin](https://github.com/yuukiLike/zed-skin) | 0 | 2026-09-30 | A high contrast theme collection for Zed. Three AAA-audited ... |
 | [ldhnam/zed-dataform-sqlx](https://github.com/ldhnam/zed-dataform-sqlx) | 0 | 2026-09-30 | Zed extension for Dataform .sqlx files: SQL highlighting wit... |
-| [JeffreyJYZ/command-code-zed](https://github.com/JeffreyJYZ/command-code-zed) | 1 | 2026-09-29 | Zed extension and cmduse CLI for live Command Code usage: pl... |
-| [mnemodoc/zed-mnemodoc](https://github.com/mnemodoc/zed-mnemodoc) | 0 | 2026-09-29 | Zed extension that wires mnemodoc-server into Zed's AI assis... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-10-03T19:34 | 0 | 650 | 2316 |
 | 2026-10-03T14:21 | 1 | 649 | 2316 |
 | 2026-10-03T07:05 | 0 | 649 | 2316 |
 | 2026-10-03T01:13 | 2 | 647 | 2316 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-10-02T01:16 | 0 | 646 | 2312 |
 | 2026-10-01T18:51 | 2 | 648 | 2312 |
 | 2026-10-01T12:58 | 3 | 648 | 2310 |
-| 2026-10-01T07:02 | 0 | 648 | 2307 |
 
 ---
 
