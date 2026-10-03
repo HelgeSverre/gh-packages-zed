@@ -142,8 +142,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-10-02T07:34:09Z",
-    "pushed_at": "2026-10-02T07:34:05Z",
+    "updated_at": "2026-10-03T07:08:25Z",
+    "pushed_at": "2026-10-03T07:08:21Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -255,7 +255,7 @@
     "license": "NOASSERTION",
     "created_at": "2024-10-11T18:22:02Z",
     "updated_at": "2026-10-01T18:21:52Z",
-    "pushed_at": "2026-10-01T04:17:44Z",
+    "pushed_at": "2026-10-03T07:27:13Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -4999,7 +4999,7 @@
     "name": "huacnlee/zed-theme-macos-classic",
     "url": "https://github.com/huacnlee/zed-theme-macos-classic",
     "description": "A macOS native style theme for Zed, let it same like native app in macOS.",
-    "stars": 175,
+    "stars": 176,
     "forks": 6,
     "topics": [
       "macos-classic",
@@ -5010,7 +5010,7 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2024-01-29T02:19:59Z",
-    "updated_at": "2026-09-27T01:39:44Z",
+    "updated_at": "2026-10-03T12:05:51Z",
     "pushed_at": "2026-02-05T02:23:27Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -5184,7 +5184,7 @@
     "name": "gabeins/zed-mermaid",
     "url": "https://github.com/gabeins/zed-mermaid",
     "description": "Mermaid support for Zed",
-    "stars": 81,
+    "stars": 82,
     "forks": 6,
     "topics": [
       "diagrams",
@@ -5196,7 +5196,7 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-10-16T07:12:13Z",
-    "updated_at": "2026-10-01T11:28:32Z",
+    "updated_at": "2026-10-03T10:33:57Z",
     "pushed_at": "2026-01-26T08:59:52Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false,
@@ -10040,42 +10040,6 @@
         "language_servers"
       ],
       "categories": [
-        "language-server"
-      ]
-    }
-  },
-  "technique-lang/extension.zed": {
-    "name": "technique-lang/extension.zed",
-    "url": "https://github.com/technique-lang/extension.zed",
-    "description": "Technique language support for the Zed Editor.",
-    "stars": 1,
-    "forks": 1,
-    "topics": [
-      "zed"
-    ],
-    "language": "Rust",
-    "license": "MIT",
-    "created_at": "2025-08-22T12:54:04Z",
-    "updated_at": "2025-10-03T10:40:04Z",
-    "pushed_at": "2025-10-03T10:38:13Z",
-    "discovered_at": "2026-05-19T19:54:12.054Z",
-    "extension": {
-      "id": "technique",
-      "name": "Technique",
-      "description": "Syntax highlighting for the Technique procedure language",
-      "version": "0.2.3",
-      "schema_version": 1,
-      "authors": [
-        "Andrew Cowie"
-      ],
-      "repository": "https://github.com/technique-lang/extension.zed",
-      "snippets": null,
-      "sections": [
-        "grammars",
-        "language_servers"
-      ],
-      "categories": [
-        "grammar",
         "language-server"
       ]
     }
@@ -53757,8 +53721,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
-    "updated_at": "2026-10-03T06:16:58Z",
-    "pushed_at": "2026-10-03T06:16:57Z",
+    "updated_at": "2026-10-03T11:56:17Z",
+    "pushed_at": "2026-10-03T11:56:13Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false,
     "extension": {
@@ -54693,8 +54657,8 @@
     "language": "JavaScript",
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
-    "updated_at": "2026-10-02T23:09:35Z",
-    "pushed_at": "2026-10-03T07:01:51Z",
+    "updated_at": "2026-10-03T07:53:47Z",
+    "pushed_at": "2026-10-03T07:53:45Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false,
     "extension": {
@@ -60842,7 +60806,7 @@
     "name": "Null-logic-0/zed-hologram",
     "url": "https://github.com/Null-logic-0/zed-hologram",
     "description": "HOLO template language support for Zed: Hologram framework syntax highlighting, indentation and mix format integration",
-    "stars": 2,
+    "stars": 3,
     "forks": 0,
     "topics": [
       "elixir",
@@ -60854,7 +60818,7 @@
     "language": "Tree-sitter Query",
     "license": "GPL-3.0",
     "created_at": "2026-09-13T07:10:22Z",
-    "updated_at": "2026-09-22T06:43:04Z",
+    "updated_at": "2026-10-03T08:18:08Z",
     "pushed_at": "2026-09-22T06:53:01Z",
     "discovered_at": "2026-09-13T12:16:23.649Z",
     "official": false,
