@@ -1,0 +1,224 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Google Apps Script - Zed Extension Safari</title><meta name="description" content="Google AppsScript support for Zed IDE"><link rel="canonical" href="https://helgesverre.github.io/gh-packages-zed/package/waterrmalann/zed-google-apps-script/"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Google Apps Script - Zed Extension Safari"><meta property="og:description" content="Google AppsScript support for Zed IDE"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed/package/waterrmalann/zed-google-apps-script/"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Google Apps Script - Zed Extension Safari"><meta name="twitter:description" content="Google AppsScript support for Zed IDE"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/gh-packages-zed/_astro/ClientRouter.astro_astro_type_script_index_0_lang.ClVLs1kt.js"></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Google Apps Script","description":"Google AppsScript support for Zed IDE","applicationCategory":"DeveloperApplication","operatingSystem":"macOS, Linux, Windows","url":"https://zed.dev/extensions/google-apps-script","codeRepository":"https://github.com/waterrmalann/zed-google-apps-script","author":[{"@type":"Person","name":"Alan"}],"softwareVersion":"0.1.0","license":"MIT","keywords":"grammar, language-server, snippets","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/Layout.CGDlMdWE.css"><script type="module" src="/gh-packages-zed/_astro/page.B8i1Zz-u.js"></script></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <a href="#main" class="skip-to-content">Skip to content</a> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" data-astro-transition-persist="astro-fhchcgd7-1"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <script type="application/json" id="pkg-extras">{"url":"https://github.com/waterrmalann/zed-google-apps-script","language":"JavaScript","license":"MIT","topics":["google-apps-script","zed","zed-extension"],"extension":{"authors":["Alan"],"schema_version":1}}</script> <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> waterrmalann/zed-google-apps-script </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> Google Apps Script </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> Google Apps Script (.gs) support, with Apps Script-aware IntelliSense. </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="grammar">Grammar</span><span class="cat-badge" data-cat="language-server">Language Server</span><span class="cat-badge" data-cat="snippets">Snippets</span> </div> </div> </div> </header> <main id="main" class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/google-apps-script" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/waterrmalann/zed-google-apps-script" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.1.0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">google-apps-script</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">JavaScript</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">MIT</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">9/24/2026</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">Alan</dd> </div> </dl>  <h2 class="mt-5 text-xs uppercase font-mono" style="color:var(--zed-muted);">Topics</h2> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> google-apps-script </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed-extension </span> </div>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-google-apps-script-for-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#google-apps-script-for-zed"><span class="heading-anchor-icon">#</span></a>Google Apps Script for Zed</h1>
+<p>A <a href="https://zed.dev">Zed</a> extension that adds support for
+<a href="https://developers.google.com/apps-script">Google Apps Script</a> <code>.gs</code> files.</p>
+<ul>
+<li><strong>Syntax highlighting</strong> with the JavaScript Tree-sitter grammar. Apps Script
+services (<code>SpreadsheetApp</code>, <code>DriveApp</code>, <code>HtmlService</code>, ...) and the
+simple-trigger and web app entry points (<code>onOpen</code>, <code>onEdit</code>, <code>onInstall</code>,
+<code>onSelectionChange</code>, <code>doGet</code> and <code>doPost</code>) get their own highlights.</li>
+<li><strong>Embedded languages</strong>: JSDoc comments (including <code>@OnlyCurrentDoc</code> and
+<code>@customfunction</code>), regular expressions, HTML passed to
+<code>HtmlService.createHtmlOutput()</code> and <code>HtmlService.createTemplate()</code>, and SQL
+passed to JDBC statements.</li>
+<li><strong>Editor support</strong>: outline, breadcrumbs, bracket matching,
+auto-indentation, comment toggling and Vim text objects.</li>
+<li><strong>IntelliSense for Apps Script</strong> through
+<a href="https://github.com/yioneko/vtsls">vtsls</a>, the TypeScript language server Zed
+uses for JavaScript. It provides completions, hover, go-to-definition,
+references, rename, signature help, code actions and inlay hints, with
+these adjustments for Apps Script:
+<ul>
+<li>The type definitions from
+<a href="https://www.npmjs.com/package/@types/google-apps-script"><code>@types/google-apps-script</code></a>
+are included, so services such as <code>SpreadsheetApp</code> are typed. No
+<code>package.json</code> or <code>npm install</code> is needed in your project.</li>
+<li>All script files of a project share one global scope, as they do in Apps
+Script. A function declared in any <code>.gs</code> file resolves in the others, even
+when that file is not open.</li>
+<li>Browser globals such as <code>window</code>, <code>document</code>, <code>fetch</code> and <code>setTimeout</code> are
+not suggested, because Apps Script does not have them.</li>
+</ul>
+</li>
+<li><strong>Snippets</strong> for triggers, web apps, custom functions, menus, locks, caching,
+script properties, <code>UrlFetchApp</code> and time-driven triggers.</li>
+<li><strong>Formatting</strong> through the language server, or with Prettier if you enable
+it (see <a href="#formatting">Formatting</a>).</li>
+</ul>
+<h2 id="user-content-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation"><span class="heading-anchor-icon">#</span></a>Installation</h2>
+<p>Clone this repository and run <code>zed: install dev extension</code> on the cloned
+directory. Rust must be installed through <a href="https://rustup.rs">rustup</a>. Once the
+extension is published to the Zed extension registry, it can also be installed
+from the Extensions page (<code>zed: extensions</code>).</p>
+<p>The language server needs Node.js, which Zed provides. The first time you
+open a <code>.gs</code> file, Zed installs <code>@vtsls/language-server</code> and
+<code>@types/google-apps-script</code> into the extension's directory.</p>
+<h2 id="user-content-working-with-clasp"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#working-with-clasp"><span class="heading-anchor-icon">#</span></a>Working with clasp</h2>
+<p>With <a href="https://github.com/google/clasp">clasp</a>, the extension works best when
+local files use the <code>.gs</code> extension. clasp writes pulled files with the first
+extension listed in <code>scriptExtensions</code> in <code>.clasp.json</code>, which is <code>.js</code> by
+default:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "scriptId"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"..."</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "rootDir"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"src"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "scriptExtensions"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">".gs"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#032F62;--shiki-dark:#9ECBFF">".js"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>To keep <code>.js</code> files instead, map them to this language in a project settings
+file, <code>.zed/settings.json</code>:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "file_types"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "Google Apps Script"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"**/src/**/*.js"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>The <code>appsscript.json</code> manifest marks the root of a script project. Every
+<code>.gs</code> file under the directory that contains it is part of the shared global
+scope, and so is every <code>.js</code> file when you map <code>.js</code> files to this language.
+Without a manifest, only the files in the same directory are.</p>
+<h2 id="user-content-configuration"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#configuration"><span class="heading-anchor-icon">#</span></a>Configuration</h2>
+<p>The language server is called <code>apps-script-vtsls</code>. It accepts the same
+settings as vtsls, under <code>lsp.apps-script-vtsls.settings</code>. These settings
+apply to Apps Script files only, not to your other JavaScript files.</p>
+<h3 id="user-content-type-checking"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#type-checking"><span class="heading-anchor-icon">#</span></a>Type checking</h3>
+<p>Type errors are not reported by default, as for plain JavaScript. To enable
+type checking in every file:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "apps-script-vtsls"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "js/ts"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">          "implicitProjectConfig"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">            "checkJs"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">true</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">          }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">        }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>To check a single file, add <code>// @ts-check</code> at the top of it.</p>
+<p>JSDoc annotations give types to trigger event objects and your own functions:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">/** </span><span style="color:#D73A49;--shiki-dark:#F97583">@param</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> {GoogleAppsScript.Events.SheetsOnEdit}</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> e</span><span style="color:#6A737D;--shiki-dark:#6A737D"> */</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">function</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> onEdit</span><span style="color:#24292E;--shiki-dark:#E1E4E8">(</span><span style="color:#E36209;--shiki-dark:#FFAB70">e</span><span style="color:#24292E;--shiki-dark:#E1E4E8">) {</span></span>
+<span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">  const</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> range</span><span style="color:#D73A49;--shiki-dark:#F97583"> =</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> e.range; </span><span style="color:#6A737D;--shiki-dark:#6A737D">// GoogleAppsScript.Spreadsheet.Range</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h3 id="user-content-type-definitions"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#type-definitions"><span class="heading-anchor-icon">#</span></a>Type definitions</h3>
+<p>If your project installs <code>@types/google-apps-script</code> itself (for example with
+<code>npm install --save-dev @types/google-apps-script</code>), that copy is used instead
+of the bundled one, so you can pin its version.</p>
+<h3 id="user-content-formatting"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#formatting"><span class="heading-anchor-icon">#</span></a>Formatting</h3>
+<p>Files are formatted by the language server. To use Zed's Prettier
+integration instead, which formats them like JavaScript:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "languages"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "Google Apps Script"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "prettier"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "allowed"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">true</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h3 id="user-content-inlay-hints"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#inlay-hints"><span class="heading-anchor-icon">#</span></a>Inlay hints</h3>
+<p>The server provides the same inlay hints as Zed's JavaScript support. They are
+shown when inlay hints are enabled in Zed:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "languages"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "Google Apps Script"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "inlay_hints"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "enabled"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">true</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h3 id="user-content-disabling-the-language-server"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#disabling-the-language-server"><span class="heading-anchor-icon">#</span></a>Disabling the language server</h3>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "languages"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "Google Apps Script"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "enable_language_server"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">false</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h3 id="user-content-using-your-own-vtsls"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#using-your-own-vtsls"><span class="heading-anchor-icon">#</span></a>Using your own vtsls</h3>
+<p>The Apps Script plugin is tested with the vtsls version the extension
+installs (0.3.0, which bundles TypeScript 5.9). Other versions are untested.</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "apps-script-vtsls"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "binary"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "path"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"/path/to/vtsls"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "arguments"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"--stdio"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h2 id="user-content-running-functions"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#running-functions"><span class="heading-anchor-icon">#</span></a>Running functions</h2>
+<p>Top-level functions can be run from the editor gutter with clasp's
+<a href="https://github.com/google/clasp#run"><code>run-function</code></a> command, which needs the
+setup described in clasp's documentation. Functions whose names end with <code>_</code>
+are private in Apps Script and are skipped. Add this task to
+<code>.zed/tasks.json</code>:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">[</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "label"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"clasp run-function $ZED_CUSTOM_function_name"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "command"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"clasp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "args"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"run-function"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"$ZED_CUSTOM_function_name"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">],</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "tags"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"apps-script-function"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span></code></pre>
+<h2 id="user-content-notes"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#notes"><span class="heading-anchor-icon">#</span></a>Notes</h2>
+<ul>
+<li>Other languages also use the <code>.gs</code> extension, such as Genie, Gosu and GrADS.
+To open those with a different language, add them to <code>file_types</code>.</li>
+<li>ES modules (<code>import</code> and <code>export</code>) are not supported by Apps Script.</li>
+<li>Enabled <a href="https://developers.google.com/apps-script/guides/services/advanced">advanced services</a>
+(<code>Drive</code>, <code>Sheets</code>, <code>Gmail</code>, ...) are also typed. The type definitions
+declare all of them, whether or not they are enabled in <code>appsscript.json</code>.</li>
+<li>HTML files, including templates with <code>&#x3C;? ?></code> scriptlets, use Zed's HTML
+support.</li>
+</ul>
+<h2 id="user-content-how-it-works"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#how-it-works"><span class="heading-anchor-icon">#</span></a>How it works</h2>
+<p>Apps Script runs JavaScript on the V8 runtime, so the extension uses the
+<a href="https://github.com/tree-sitter/tree-sitter-javascript">tree-sitter-javascript</a>
+grammar with queries adapted from Zed's JavaScript support.</p>
+<p>The language server is a separate vtsls instance that only handles Apps
+Script files. It loads a small tsserver plugin,
+<a href="https://github.com/waterrmalann/zed-google-apps-script/blob/HEAD/tsserver-plugin/index.js" target="_blank" rel="noopener"><code>tsserver-plugin/index.js</code></a>, which adds the
+project's other script files and the Apps Script type definitions to each
+project, reads <code>.gs</code> files as JavaScript, and uses the ECMAScript library
+without the DOM. The vtsls version is pinned because the plugin relies on
+tsserver internals.</p>
+<h2 id="user-content-development"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#development"><span class="heading-anchor-icon">#</span></a>Development</h2>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Extension (Rust, compiled to WebAssembly by Zed)</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">rustup</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> target</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> add</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> wasm32-wasip2</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> fmt</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --check</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> clippy</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --target</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> wasm32-wasip2</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -D</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> warnings</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> test</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># tsserver plugin tests (run vtsls against temporary projects)</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">cd</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> tsserver-plugin</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">npm</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> ci</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">npm</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> test</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Tree-sitter queries (needs tree-sitter-cli and a C compiler)</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">scripts/check-queries.sh</span></span></code></pre>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p><a href="https://github.com/waterrmalann/zed-google-apps-script/blob/HEAD/LICENSE" target="_blank" rel="noopener">MIT</a></p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>
