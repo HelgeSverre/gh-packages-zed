@@ -53853,7 +53853,7 @@
     "license": "MIT",
     "created_at": "2026-06-01T12:22:18Z",
     "updated_at": "2026-10-02T16:48:52Z",
-    "pushed_at": "2026-10-02T16:48:48Z",
+    "pushed_at": "2026-10-04T01:10:31Z",
     "discovered_at": "2026-07-09T13:39:01.645Z",
     "official": true,
     "extension": {
@@ -63972,6 +63972,46 @@
       "categories": [
         "grammar",
         "language-server"
+      ]
+    }
+  },
+  "baneeishaque/mcp-server-gistpad": {
+    "name": "baneeishaque/mcp-server-gistpad",
+    "url": "https://github.com/baneeishaque/mcp-server-gistpad",
+    "description": "GitHub Gists in Zed: browse, create, edit, and comment on gists, with daily notes and prompts.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "gistpad",
+      "github-gists",
+      "mcp",
+      "mcp-server",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2026-10-03T22:14:11Z",
+    "updated_at": "2026-10-03T22:18:21Z",
+    "pushed_at": "2026-10-03T22:19:00Z",
+    "discovered_at": "2026-10-04T01:47:47.137Z",
+    "official": false,
+    "extension": {
+      "id": "mcp-server-gistpad",
+      "name": "GistPad MCP Server",
+      "description": "GitHub Gists in Zed: browse, create, edit, and comment on gists, with daily notes and prompts.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Banee Ishaque K"
+      ],
+      "repository": "https://github.com/baneeishaque/mcp-server-gistpad",
+      "snippets": null,
+      "sections": [
+        "context_servers"
+      ],
+      "categories": [
+        "context-server"
       ]
     }
   }

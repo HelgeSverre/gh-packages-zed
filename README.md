@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1861-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1862-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,10 +14,10 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1861** |
+| Total tracked | **1862** |
 | In official registry | 1350 |
-| Discovered via topics | 511 |
-| Last updated | 2026-10-03 19:34 UTC |
+| Discovered via topics | 512 |
+| Last updated | 2026-10-04 01:47 UTC |
 
 ### By capability
 
@@ -26,7 +26,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Themes | 806 |
 | Grammars | 643 |
 | Language Servers | 596 |
-| Context Servers | 137 |
+| Context Servers | 138 |
 | Snippets | 90 |
 | Slash Commands | 60 |
 | Debug Adapters | 36 |
@@ -70,6 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [baneeishaque/mcp-server-gistpad](https://github.com/baneeishaque/mcp-server-gistpad) | 0 | GitHub Gists in Zed: browse, create, edit, and comment on gists, with daily note... |
 | [nudojs/nudo-zed](https://github.com/nudojs/nudo-zed) | 0 |  |
 | [mihaicrisan04/zed-viper](https://github.com/mihaicrisan04/zed-viper) | 0 | Viper verification language (.vpr) support for Zed: highlighting and verificatio... |
 | [edwinkortman/overpassql-zed-extension](https://github.com/edwinkortman/overpassql-zed-extension) | 1 |  |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [ashenwolf/zed-hexaly](https://github.com/ashenwolf/zed-hexaly) | 0 | Hexaly language support for Zed: syntax highlighting for Hexaly Modeler models |
 | [yusefkarim/zed-monochrome-amber](https://github.com/yusefkarim/zed-monochrome-amber) | 0 | A mostly-monochrome theme for Zed with warm amber accents, in dark and light var... |
 | [franqong/nordppuccin-zed](https://github.com/franqong/nordppuccin-zed) | 0 | A hybrid theme combining Nord's cold icy aesthetic with Catppuccin's pastel synt... |
-| [narcilee7/zed-obsidian-theme](https://github.com/narcilee7/zed-obsidian-theme) | 0 | obsidian theme for zed editor |
 
 ## Top starred (under 500)
 
@@ -120,6 +120,8 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-10-04 | Zed editor support for Carve, a modern light markup language |
+| [baneeishaque/mcp-server-gistpad](https://github.com/baneeishaque/mcp-server-gistpad) | 0 | 2026-10-03 | GitHub Gists in Zed: browse, create, edit, and comment on gi... |
 | [thoriqakbar0/fsl-lsp](https://github.com/thoriqakbar0/fsl-lsp) | 0 | 2026-10-03 | Pre-alpha FSL grammar, Zed extension, and language-server in... |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-10-03 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [lmarkmann/patina-theme](https://github.com/lmarkmann/patina-theme) | 4 | 2026-10-03 | A warm, muted color theme. Teal oxidation and amber warmth; ... |
@@ -128,7 +130,6 @@ cd website && npm install && npm run dev
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 99 | 2026-10-03 | True Dark Theme for Zed IDE |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-10-03 | A Zed extension that allows to highlight all occurrences of ... |
 | [wesleydmscn/zed-samurai-theme](https://github.com/wesleydmscn/zed-samurai-theme) | 4 | 2026-10-02 | A theme for samurai programmers 🤺 |
-| [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-10-02 | Zed editor support for Carve, a modern light markup language |
 | [mihaicrisan04/zed-viper](https://github.com/mihaicrisan04/zed-viper) | 0 | 2026-10-02 | Viper verification language (.vpr) support for Zed: highligh... |
 | [gesundes/zed-ansible-vault](https://github.com/gesundes/zed-ansible-vault) | 0 | 2026-10-01 | Encrypt and decrypt Ansible Vault files and inline !vault YA... |
 | [knownIndie/voidline-zed-theme](https://github.com/knownIndie/voidline-zed-theme) | 0 | 2026-10-01 | Low-glare carbon-black and glass themes for Zed |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [nudojs/nudo-zed](https://github.com/nudojs/nudo-zed) | 0 | 2026-09-30 |  |
 | [atomicptr/zed-moonbug](https://github.com/atomicptr/zed-moonbug) | 0 | 2026-09-30 | Lua debugger for Zed, powered by moonbug |
 | [yuukiLike/zed-skin](https://github.com/yuukiLike/zed-skin) | 0 | 2026-09-30 | A high contrast theme collection for Zed. Three AAA-audited ... |
-| [ldhnam/zed-dataform-sqlx](https://github.com/ldhnam/zed-dataform-sqlx) | 0 | 2026-09-30 | Zed extension for Dataform .sqlx files: SQL highlighting wit... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-10-04T01:47 | 1 | 650 | 2317 |
 | 2026-10-03T19:34 | 0 | 650 | 2316 |
 | 2026-10-03T14:21 | 1 | 649 | 2316 |
 | 2026-10-03T07:05 | 0 | 649 | 2316 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-10-02T07:00 | 0 | 646 | 2312 |
 | 2026-10-02T01:16 | 0 | 646 | 2312 |
 | 2026-10-01T18:51 | 2 | 648 | 2312 |
-| 2026-10-01T12:58 | 3 | 648 | 2310 |
 
 ---
 
