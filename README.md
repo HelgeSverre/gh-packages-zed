@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1862** |
 | In official registry | 1350 |
 | Discovered via topics | 512 |
-| Last updated | 2026-10-04 01:47 UTC |
+| Last updated | 2026-10-04 08:43 UTC |
 
 ### By capability
 
@@ -120,6 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 99 | 2026-10-04 | True Dark Theme for Zed IDE |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-10-04 | Zed editor support for Carve, a modern light markup language |
 | [baneeishaque/mcp-server-gistpad](https://github.com/baneeishaque/mcp-server-gistpad) | 0 | 2026-10-03 | GitHub Gists in Zed: browse, create, edit, and comment on gi... |
 | [thoriqakbar0/fsl-lsp](https://github.com/thoriqakbar0/fsl-lsp) | 0 | 2026-10-03 | Pre-alpha FSL grammar, Zed extension, and language-server in... |
@@ -127,7 +128,6 @@ cd website && npm install && npm run dev
 | [lmarkmann/patina-theme](https://github.com/lmarkmann/patina-theme) | 4 | 2026-10-03 | A warm, muted color theme. Teal oxidation and amber warmth; ... |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 7 | 2026-10-03 | Spring Boot language intelligence for Zed, built on the requ... |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 140 | 2026-10-03 | The Ruby language support for Zed editor |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 99 | 2026-10-03 | True Dark Theme for Zed IDE |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-10-03 | A Zed extension that allows to highlight all occurrences of ... |
 | [wesleydmscn/zed-samurai-theme](https://github.com/wesleydmscn/zed-samurai-theme) | 4 | 2026-10-02 | A theme for samurai programmers 🤺 |
 | [mihaicrisan04/zed-viper](https://github.com/mihaicrisan04/zed-viper) | 0 | 2026-10-02 | Viper verification language (.vpr) support for Zed: highligh... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-10-04T08:43 | 0 | 651 | 2317 |
 | 2026-10-04T01:47 | 1 | 650 | 2317 |
 | 2026-10-03T19:34 | 0 | 650 | 2316 |
 | 2026-10-03T14:21 | 1 | 649 | 2316 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-10-02T12:56 | 2 | 646 | 2314 |
 | 2026-10-02T07:00 | 0 | 646 | 2312 |
 | 2026-10-02T01:16 | 0 | 646 | 2312 |
-| 2026-10-01T18:51 | 2 | 648 | 2312 |
 
 ---
 
