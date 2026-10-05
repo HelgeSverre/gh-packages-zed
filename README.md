@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1864-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1865-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,16 +14,16 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1864** |
+| Total tracked | **1865** |
 | In official registry | 1350 |
-| Discovered via topics | 514 |
-| Last updated | 2026-10-04 19:46 UTC |
+| Discovered via topics | 515 |
+| Last updated | 2026-10-05 01:22 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
-| Themes | 806 |
+| Themes | 807 |
 | Grammars | 645 |
 | Language Servers | 597 |
 | Context Servers | 138 |
@@ -70,6 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [sigrunixia/Tenebrous-Zed](https://github.com/sigrunixia/Tenebrous-Zed) | 0 | Zed theme for my Tenebrous Coloration |
 | [freshjuice-dev/zed-hubl](https://github.com/freshjuice-dev/zed-hubl) | 0 | HubL (HubSpot templating) syntax highlighting for Zed. Bundled tree-sitter gramm... |
 | [waterrmalann/zed-google-apps-script](https://github.com/waterrmalann/zed-google-apps-script) | 0 | Google AppsScript support for Zed IDE |
 | [baneeishaque/mcp-server-gistpad](https://github.com/baneeishaque/mcp-server-gistpad) | 0 | GitHub Gists in Zed: browse, create, edit, and comment on gists, with daily note... |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [bashln/zed-forest-night-ethereal-theme](https://github.com/bashln/zed-forest-night-ethereal-theme) | 0 | Zed Theme forest-night-theme ported from omarchy-forest-night-theme from Forrest... |
 | [devmor-j/gafelson-lavender-theme](https://github.com/devmor-j/gafelson-lavender-theme) | 0 | Gafelson and Lavender blend for Zed |
 | [GeorgyDesign/georgy-themes-zed](https://github.com/GeorgyDesign/georgy-themes-zed) | 0 | Georgy Themes for Zed. Dark-only theme family inspired by simplicity and “access... |
-| [ashenwolf/zed-hexaly](https://github.com/ashenwolf/zed-hexaly) | 0 | Hexaly language support for Zed: syntax highlighting for Hexaly Modeler models |
 
 ## Top starred (under 500)
 
@@ -120,6 +120,8 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [sigrunixia/Tenebrous-Zed](https://github.com/sigrunixia/Tenebrous-Zed) | 0 | 2026-10-04 | Zed theme for my Tenebrous Coloration |
+| [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-10-04 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
 | [pataruco/zed-mjml](https://github.com/pataruco/zed-mjml) | 3 | 2026-10-04 | MJML syntax support for Zed |
 | [baneeishaque/mcp-server-gistpad](https://github.com/baneeishaque/mcp-server-gistpad) | 0 | 2026-10-04 | GitHub Gists in Zed: browse, create, edit, and comment on gi... |
 | [atomicptr/zed-moonbug](https://github.com/atomicptr/zed-moonbug) | 0 | 2026-10-04 | Lua debugger for Zed, powered by moonbug |
@@ -138,13 +140,12 @@ cd website && npm install && npm run dev
 | [knownIndie/voidline-zed-theme](https://github.com/knownIndie/voidline-zed-theme) | 0 | 2026-10-01 | Low-glare carbon-black and glass themes for Zed |
 | [arobsn/edge-zed](https://github.com/arobsn/edge-zed) | 0 | 2026-10-01 | Clean & Elegant Color Scheme inspired by Atom One and Materi... |
 | [sequelcore/zed-theme](https://github.com/sequelcore/zed-theme) | 0 | 2026-09-30 | Sequel Ink and Sequel Void themes for the Zed editor |
-| [briar-systems/mach-zed](https://github.com/briar-systems/mach-zed) | 0 | 2026-09-30 | Mach language support for Zed including syntax highlighting,... |
-| [nusnewob/caddyfile-zed](https://github.com/nusnewob/caddyfile-zed) | 14 | 2026-09-30 | Caddyfile Support for Zed |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-10-05T01:22 | 1 | 653 | 2320 |
 | 2026-10-04T19:46 | 0 | 653 | 2319 |
 | 2026-10-04T14:30 | 2 | 651 | 2319 |
 | 2026-10-04T08:43 | 0 | 651 | 2317 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-10-03T07:05 | 0 | 649 | 2316 |
 | 2026-10-03T01:13 | 2 | 647 | 2316 |
 | 2026-10-02T18:50 | 0 | 647 | 2314 |
-| 2026-10-02T12:56 | 2 | 646 | 2314 |
 
 ---
 

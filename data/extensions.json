@@ -59034,7 +59034,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-08-22T22:20:48Z",
     "updated_at": "2026-09-16T13:58:49Z",
-    "pushed_at": "2026-09-19T14:44:11Z",
+    "pushed_at": "2026-10-04T21:50:20Z",
     "discovered_at": "2026-08-24T13:01:58.453Z",
     "official": false,
     "extension": {
@@ -64092,6 +64092,39 @@
         "grammar",
         "language-server",
         "snippets"
+      ]
+    }
+  },
+  "sigrunixia/tenebrous-zed": {
+    "name": "sigrunixia/Tenebrous-Zed",
+    "url": "https://github.com/sigrunixia/Tenebrous-Zed",
+    "description": "Zed theme for my Tenebrous Coloration",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "zed-theme"
+    ],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-10-04T21:39:42Z",
+    "updated_at": "2026-10-04T22:29:54Z",
+    "pushed_at": "2026-10-04T22:29:51Z",
+    "discovered_at": "2026-10-05T01:22:43.088Z",
+    "official": false,
+    "extension": {
+      "id": "tenebrous",
+      "name": "Tenebrous",
+      "description": "Dark theme matching the Tenebrous Obsidian theme.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Sigrunixia"
+      ],
+      "repository": "https://github.com/sigrunixia/Tenebrous-Zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
       ]
     }
   }
