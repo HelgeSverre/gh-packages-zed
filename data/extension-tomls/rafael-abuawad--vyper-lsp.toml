@@ -1,0 +1,20 @@
+id = "vyper"
+name = "Vyper"
+version = "0.1.0"
+schema_version = 1
+authors = ["Rafael Abuawad <rafael.abuawad@live.com>"]
+description = "Vyper syntax highlighting, outline, and language server support."
+snippets = ["./snippets/vyper.json"]
+
+# Grammar by Olyno (MIT): https://github.com/Olyno/tree-sitter-vyper
+# Grammar fixes: https://github.com/rafael-abuawad/tree-sitter-vyper
+[grammars.vyper]
+repository = "https://github.com/rafael-abuawad/tree-sitter-vyper"
+rev = "21285cb4faee77baf9bbde0b231dc92d227a44a4"
+
+[language_servers.vyper-lsp]
+name = "Vyper LSP"
+languages = ["Vyper"]
+
+[language_servers.vyper-lsp.language_ids]
+Vyper = "vyper"
