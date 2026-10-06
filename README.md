@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1868** |
 | In official registry | 1350 |
 | Discovered via topics | 518 |
-| Last updated | 2026-10-06 07:01 UTC |
+| Last updated | 2026-10-06 12:56 UTC |
 
 ### By capability
 
@@ -120,11 +120,11 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 99 | 2026-10-06 | True Dark Theme for Zed IDE |
 | [baneeishaque/mcp-server-gistpad](https://github.com/baneeishaque/mcp-server-gistpad) | 0 | 2026-10-06 | GitHub Gists in Zed: browse, create, edit, and comment on gi... |
 | [fennec-support/kosh-zed](https://github.com/fennec-support/kosh-zed) | 0 | 2026-10-06 | zed extension for the koshka shell |
 | [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-10-05 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-10-05 | Zed editor support for Carve, a modern light markup language |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 99 | 2026-10-05 | True Dark Theme for Zed IDE |
 | [rafael-abuawad/vyper-lsp](https://github.com/rafael-abuawad/vyper-lsp) | 0 | 2026-10-05 | Zed extension for the Vyper smart contract language. Syntax ... |
 | [sigrunixia/Tenebrous-Zed](https://github.com/sigrunixia/Tenebrous-Zed) | 0 | 2026-10-04 | Zed theme for my Tenebrous Coloration |
 | [pataruco/zed-mjml](https://github.com/pataruco/zed-mjml) | 3 | 2026-10-04 | MJML syntax support for Zed |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-10-06T12:56 | 2 | 656 | 2326 |
 | 2026-10-06T07:01 | 0 | 656 | 2324 |
 | 2026-10-06T01:16 | 1 | 655 | 2324 |
 | 2026-10-05T18:54 | 2 | 654 | 2323 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-10-04T19:46 | 0 | 653 | 2319 |
 | 2026-10-04T14:30 | 2 | 651 | 2319 |
 | 2026-10-04T08:43 | 0 | 651 | 2317 |
-| 2026-10-04T01:47 | 1 | 650 | 2317 |
 
 ---
 
