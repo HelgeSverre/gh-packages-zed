@@ -64215,5 +64215,48 @@
         "docs-provider"
       ]
     }
+  },
+  "fennec-support/kosh-zed": {
+    "name": "fennec-support/kosh-zed",
+    "url": "https://github.com/fennec-support/kosh-zed",
+    "description": "zed extension for the koshka shell",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "bash",
+      "extension",
+      "formatter",
+      "language-server",
+      "linter",
+      "sh",
+      "shell",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Rust",
+    "license": "BSD-3-Clause",
+    "created_at": "2026-10-05T23:26:04Z",
+    "updated_at": "2026-10-06T00:57:54Z",
+    "pushed_at": "2026-10-06T00:54:24Z",
+    "discovered_at": "2026-10-06T01:16:58.795Z",
+    "official": false,
+    "extension": {
+      "id": "kosh-lsp",
+      "name": "Koshka",
+      "description": "Shell diagnostics, completion, and formatting from the Koshka shell.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "toiletbril"
+      ],
+      "repository": "https://github.com/fennec-support/kosh-zed",
+      "snippets": null,
+      "sections": [
+        "language_servers"
+      ],
+      "categories": [
+        "language-server"
+      ]
+    }
   }
 }

@@ -1008,8 +1008,8 @@
     "language": "CSS",
     "license": "MIT",
     "created_at": "2026-02-16T13:55:01Z",
-    "updated_at": "2026-10-05T17:45:04Z",
-    "pushed_at": "2026-10-05T17:44:59Z",
+    "updated_at": "2026-10-05T20:05:48Z",
+    "pushed_at": "2026-10-05T20:05:44Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -5148,7 +5148,7 @@
     "name": "Dylanmurzello/zed-android-port",
     "url": "https://github.com/Dylanmurzello/zed-android-port",
     "description": "Native Android port of the Zed code editor,  gpui rendering through Vulkan, integrated Termux for LSPs and tooling, remote SSH support. Runs as an APK on tablets and Android desktop modes.",
-    "stars": 220,
+    "stars": 222,
     "forks": 18,
     "topics": [
       "android",
@@ -5175,7 +5175,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-05-07T00:12:10Z",
-    "updated_at": "2026-10-03T03:57:35Z",
+    "updated_at": "2026-10-06T00:07:54Z",
     "pushed_at": "2026-08-07T13:48:06Z",
     "discovered_at": "2026-05-19T19:54:12.053Z",
     "official": false
@@ -15450,7 +15450,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
     "updated_at": "2026-10-05T17:08:46Z",
-    "pushed_at": "2026-10-05T17:08:42Z",
+    "pushed_at": "2026-10-06T00:22:48Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -17404,8 +17404,8 @@
     "language": "CSS",
     "license": "GPL-3.0",
     "created_at": "2025-10-31T19:02:45Z",
-    "updated_at": "2026-09-30T09:57:11Z",
-    "pushed_at": "2026-09-21T17:13:26Z",
+    "updated_at": "2026-10-05T19:52:25Z",
+    "pushed_at": "2026-10-05T19:52:20Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -18008,8 +18008,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-10-05T13:00:23Z",
-    "pushed_at": "2026-10-05T13:00:15Z",
+    "updated_at": "2026-10-05T18:54:49Z",
+    "pushed_at": "2026-10-05T18:54:43Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -35585,8 +35585,8 @@
     "language": null,
     "license": null,
     "created_at": "2026-08-16T21:55:25Z",
-    "updated_at": "2026-10-05T16:14:53Z",
-    "pushed_at": "2026-10-05T16:14:49Z",
+    "updated_at": "2026-10-05T22:14:11Z",
+    "pushed_at": "2026-10-05T22:14:07Z",
     "discovered_at": "2026-08-17T01:03:46.357Z",
     "official": false
   },
@@ -36932,8 +36932,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-09-07T16:00:35Z",
-    "updated_at": "2026-10-05T03:30:53Z",
-    "pushed_at": "2026-10-05T03:30:49Z",
+    "updated_at": "2026-10-05T21:56:04Z",
+    "pushed_at": "2026-10-05T21:56:00Z",
     "discovered_at": "2026-09-07T18:46:27.369Z",
     "official": false
   },
@@ -36967,7 +36967,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-09-03T18:54:22Z",
     "updated_at": "2026-10-04T04:21:44Z",
-    "pushed_at": "2026-10-05T16:46:18Z",
+    "pushed_at": "2026-10-05T19:17:01Z",
     "discovered_at": "2026-09-09T01:10:37.044Z",
     "official": false
   },
@@ -38649,8 +38649,8 @@
     "language": "TypeScript",
     "license": "NOASSERTION",
     "created_at": "2026-08-03T15:10:40Z",
-    "updated_at": "2026-09-28T22:31:48Z",
-    "pushed_at": "2026-09-28T22:33:58Z",
+    "updated_at": "2026-10-05T22:14:59Z",
+    "pushed_at": "2026-10-05T22:15:03Z",
     "discovered_at": "2026-09-22T12:02:39.129Z",
     "official": false
   },
@@ -40354,6 +40354,31 @@
     "updated_at": "2026-10-02T22:46:13Z",
     "pushed_at": "2026-10-02T22:46:09Z",
     "discovered_at": "2026-10-05T18:54:09.368Z",
+    "official": false
+  },
+  "fennec-support/kosh-zed": {
+    "name": "fennec-support/kosh-zed",
+    "url": "https://github.com/fennec-support/kosh-zed",
+    "description": "zed extension for the koshka shell",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "bash",
+      "extension",
+      "formatter",
+      "language-server",
+      "linter",
+      "sh",
+      "shell",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Rust",
+    "license": "BSD-3-Clause",
+    "created_at": "2026-10-05T23:26:04Z",
+    "updated_at": "2026-10-06T00:57:54Z",
+    "pushed_at": "2026-10-06T00:54:24Z",
+    "discovered_at": "2026-10-06T01:16:58.795Z",
     "official": false
   }
 }
