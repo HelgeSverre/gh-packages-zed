@@ -204,7 +204,7 @@
     "name": "wakatime/zed-wakatime",
     "url": "https://github.com/wakatime/zed-wakatime",
     "description": "Zed plugin for automatic time tracking and metrics generated from your programming activity.",
-    "stars": 215,
+    "stars": 216,
     "forks": 30,
     "topics": [
       "extension",
@@ -216,8 +216,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2024-08-27T10:31:46Z",
-    "updated_at": "2026-10-05T08:15:02Z",
-    "pushed_at": "2026-09-29T08:26:49Z",
+    "updated_at": "2026-10-06T13:21:51Z",
+    "pushed_at": "2026-10-06T17:04:21Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -11738,7 +11738,7 @@
     "name": "eallender/zed-python-autodoc",
     "url": "https://github.com/eallender/zed-python-autodoc",
     "description": "Zed extension for python auto-documentation",
-    "stars": 4,
+    "stars": 5,
     "forks": 0,
     "topics": [
       "auto-comments",
@@ -11753,7 +11753,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-05-12T23:09:15Z",
-    "updated_at": "2026-07-07T23:26:30Z",
+    "updated_at": "2026-10-06T14:18:34Z",
     "pushed_at": "2026-07-07T23:26:26Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": true,
@@ -18820,7 +18820,7 @@
     "url": "https://github.com/owlx56/zed-lean4",
     "description": "",
     "stars": 60,
-    "forks": 12,
+    "forks": 13,
     "topics": [],
     "language": "Rust",
     "license": "Apache-2.0",
@@ -53852,8 +53852,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-06-01T12:22:18Z",
-    "updated_at": "2026-10-05T15:18:50Z",
-    "pushed_at": "2026-10-05T15:18:46Z",
+    "updated_at": "2026-10-06T13:38:39Z",
+    "pushed_at": "2026-10-06T13:38:34Z",
     "discovered_at": "2026-07-09T13:39:01.645Z",
     "official": true,
     "extension": {
@@ -54642,7 +54642,7 @@
     "name": "luceat-lux-vestra/zed-spring-tools",
     "url": "https://github.com/luceat-lux-vestra/zed-spring-tools",
     "description": "Spring Boot language intelligence for Zed, built on the required official Java extension. Early source release; one tested tuple (macOS arm64/JDK 25).",
-    "stars": 7,
+    "stars": 8,
     "forks": 1,
     "topics": [
       "java",
@@ -54657,7 +54657,7 @@
     "language": "JavaScript",
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
-    "updated_at": "2026-10-03T07:53:47Z",
+    "updated_at": "2026-10-06T17:11:34Z",
     "pushed_at": "2026-10-03T07:53:45Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false,
@@ -64256,6 +64256,41 @@
       ],
       "categories": [
         "language-server"
+      ]
+    }
+  },
+  "silenttwin/blue-velvet": {
+    "name": "silenttwin/blue-velvet",
+    "url": "https://github.com/silenttwin/blue-velvet",
+    "description": "A deep blue color scheme for the Zed/Gram text editors featuring muted pastel highlights.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "zed",
+      "zed-editor",
+      "zed-theme"
+    ],
+    "language": "Shell",
+    "license": "MIT",
+    "created_at": "2026-10-06T18:09:52Z",
+    "updated_at": "2026-10-06T18:36:42Z",
+    "pushed_at": "2026-10-06T18:30:21Z",
+    "discovered_at": "2026-10-06T18:51:55.070Z",
+    "official": false,
+    "extension": {
+      "id": "blue-velvet",
+      "name": "Blue Velvet",
+      "description": "A deep blue color scheme featuring muted pastel highlights.",
+      "version": "0.0.2",
+      "schema_version": 1,
+      "authors": [
+        "Silent Twin"
+      ],
+      "repository": "https://github.com/silenttwin/blue-velvet",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
       ]
     }
   }
