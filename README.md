@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1868** |
 | In official registry | 1350 |
 | Discovered via topics | 518 |
-| Last updated | 2026-10-06 01:16 UTC |
+| Last updated | 2026-10-06 07:01 UTC |
 
 ### By capability
 
@@ -120,6 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [baneeishaque/mcp-server-gistpad](https://github.com/baneeishaque/mcp-server-gistpad) | 0 | 2026-10-06 | GitHub Gists in Zed: browse, create, edit, and comment on gi... |
 | [fennec-support/kosh-zed](https://github.com/fennec-support/kosh-zed) | 0 | 2026-10-06 | zed extension for the koshka shell |
 | [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-10-05 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-10-05 | Zed editor support for Carve, a modern light markup language |
@@ -127,7 +128,6 @@ cd website && npm install && npm run dev
 | [rafael-abuawad/vyper-lsp](https://github.com/rafael-abuawad/vyper-lsp) | 0 | 2026-10-05 | Zed extension for the Vyper smart contract language. Syntax ... |
 | [sigrunixia/Tenebrous-Zed](https://github.com/sigrunixia/Tenebrous-Zed) | 0 | 2026-10-04 | Zed theme for my Tenebrous Coloration |
 | [pataruco/zed-mjml](https://github.com/pataruco/zed-mjml) | 3 | 2026-10-04 | MJML syntax support for Zed |
-| [baneeishaque/mcp-server-gistpad](https://github.com/baneeishaque/mcp-server-gistpad) | 0 | 2026-10-04 | GitHub Gists in Zed: browse, create, edit, and comment on gi... |
 | [atomicptr/zed-moonbug](https://github.com/atomicptr/zed-moonbug) | 0 | 2026-10-04 | Lua debugger for Zed, powered by moonbug |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-10-04 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [freshjuice-dev/zed-hubl](https://github.com/freshjuice-dev/zed-hubl) | 0 | 2026-10-04 | HubL (HubSpot templating) syntax highlighting for Zed. Bundl... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-10-06T07:01 | 0 | 656 | 2324 |
 | 2026-10-06T01:16 | 1 | 655 | 2324 |
 | 2026-10-05T18:54 | 2 | 654 | 2323 |
 | 2026-10-05T12:59 | 0 | 655 | 2321 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-10-04T14:30 | 2 | 651 | 2319 |
 | 2026-10-04T08:43 | 0 | 651 | 2317 |
 | 2026-10-04T01:47 | 1 | 650 | 2317 |
-| 2026-10-03T19:34 | 0 | 650 | 2316 |
 
 ---
 
