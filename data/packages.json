@@ -157,8 +157,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-10-06T08:11:18Z",
-    "pushed_at": "2026-10-06T08:11:12Z",
+    "updated_at": "2026-10-07T07:44:48Z",
+    "pushed_at": "2026-10-07T07:44:44Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -404,7 +404,7 @@
     "license": "BlueOak-1.0.0",
     "created_at": "2026-04-22T09:18:16Z",
     "updated_at": "2026-07-21T08:24:00Z",
-    "pushed_at": "2026-09-30T08:13:58Z",
+    "pushed_at": "2026-10-07T08:14:20Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -5175,7 +5175,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-05-07T00:12:10Z",
-    "updated_at": "2026-10-06T15:29:19Z",
+    "updated_at": "2026-10-07T11:22:11Z",
     "pushed_at": "2026-08-07T13:48:06Z",
     "discovered_at": "2026-05-19T19:54:12.053Z",
     "official": false
@@ -5791,7 +5791,7 @@
     "name": "AprilNEA/gpui-symbols",
     "url": "https://github.com/AprilNEA/gpui-symbols",
     "description": "SF Symbols for GPUI – Render Apple's 9000+ icons in Rust desktop apps with type-safe enums and native macOS rendering",
-    "stars": 17,
+    "stars": 18,
     "forks": 2,
     "topics": [
       "desktop-app",
@@ -5806,7 +5806,7 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-20T14:53:11Z",
-    "updated_at": "2026-10-06T09:02:52Z",
+    "updated_at": "2026-10-07T11:26:28Z",
     "pushed_at": "2026-01-21T15:33:27Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
@@ -6250,7 +6250,7 @@
     "name": "cange/nightfox.zed",
     "url": "https://github.com/cange/nightfox.zed",
     "description": "🦊 Zed editor theme ported from Neovim",
-    "stars": 185,
+    "stars": 186,
     "forks": 6,
     "topics": [
       "zed",
@@ -6259,7 +6259,7 @@
     "language": "Lua",
     "license": "MIT",
     "created_at": "2024-05-02T20:49:30Z",
-    "updated_at": "2026-10-04T14:48:55Z",
+    "updated_at": "2026-10-07T10:23:57Z",
     "pushed_at": "2026-08-27T11:32:49Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": true
@@ -6304,7 +6304,7 @@
     "name": "harehare/tarn-theme",
     "url": "https://github.com/harehare/tarn-theme",
     "description": "A dark color theme for VS Code and Neovim, inspired by the stillness of a high-altitude glacial lake",
-    "stars": 2,
+    "stars": 3,
     "forks": 0,
     "topics": [
       "nvim-theme",
@@ -6315,7 +6315,7 @@
     "language": "Lua",
     "license": null,
     "created_at": "2026-05-07T07:26:44Z",
-    "updated_at": "2026-09-08T12:00:25Z",
+    "updated_at": "2026-10-07T11:50:02Z",
     "pushed_at": "2026-09-08T11:15:03Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
@@ -6481,7 +6481,7 @@
   "tiagojct/pequod": {
     "name": "tiagojct/pequod",
     "url": "https://github.com/tiagojct/pequod",
-    "description": "A pigment-inspired colour palette for reading and code, rooted in Moby-Dick. Warm paper, deep ink, eight accent hues named after the crew of the Pequod.",
+    "description": "Archived. Moved to Ensigns.",
     "stars": 4,
     "forks": 0,
     "topics": [
@@ -6506,8 +6506,8 @@
     "language": "Python",
     "license": "NOASSERTION",
     "created_at": "2026-04-23T16:15:18Z",
-    "updated_at": "2026-08-16T13:04:50Z",
-    "pushed_at": "2026-04-30T09:58:43Z",
+    "updated_at": "2026-10-07T11:01:58Z",
+    "pushed_at": "2026-10-07T11:01:57Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
   },
@@ -15422,7 +15422,7 @@
     "name": "agent-sh/agnix",
     "url": "https://github.com/agent-sh/agnix",
     "description": "The missing linter and lsp for AI coding assistants. Validate CLAUDE.md, AGENTS.md, SKILL.md, hooks, MCP. Plugin for all major IDEs included, with autofixes.",
-    "stars": 444,
+    "stars": 445,
     "forks": 34,
     "topics": [
       "agent",
@@ -15449,7 +15449,7 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
-    "updated_at": "2026-10-06T21:31:51Z",
+    "updated_at": "2026-10-07T08:16:01Z",
     "pushed_at": "2026-10-06T21:37:46Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
@@ -18008,8 +18008,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-10-07T01:21:34Z",
-    "pushed_at": "2026-10-07T01:21:30Z",
+    "updated_at": "2026-10-07T07:02:22Z",
+    "pushed_at": "2026-10-07T07:02:18Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -31412,8 +31412,8 @@
     "language": "Nix",
     "license": "Apache-2.0",
     "created_at": "2026-04-30T15:29:50Z",
-    "updated_at": "2026-10-01T15:10:41Z",
-    "pushed_at": "2026-10-01T15:10:37Z",
+    "updated_at": "2026-10-07T12:54:57Z",
+    "pushed_at": "2026-10-07T12:56:00Z",
     "discovered_at": "2026-06-26T18:36:57.330Z",
     "official": false
   },
@@ -32687,7 +32687,7 @@
     "name": "luceat-lux-vestra/zed-spring-tools",
     "url": "https://github.com/luceat-lux-vestra/zed-spring-tools",
     "description": "Spring Boot language intelligence for Zed, built on the required official Java extension. Early source release; one tested tuple (macOS arm64/JDK 25).",
-    "stars": 8,
+    "stars": 9,
     "forks": 1,
     "topics": [
       "java",
@@ -32702,7 +32702,7 @@
     "language": "JavaScript",
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
-    "updated_at": "2026-10-06T17:11:34Z",
+    "updated_at": "2026-10-07T09:38:19Z",
     "pushed_at": "2026-10-03T07:53:45Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false
@@ -36966,8 +36966,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-09-03T18:54:22Z",
-    "updated_at": "2026-10-06T10:37:08Z",
-    "pushed_at": "2026-10-06T03:00:38Z",
+    "updated_at": "2026-10-07T12:53:05Z",
+    "pushed_at": "2026-10-07T12:53:00Z",
     "discovered_at": "2026-09-09T01:10:37.044Z",
     "official": false
   },
@@ -38413,7 +38413,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-09-21T20:10:00Z",
     "updated_at": "2026-10-04T18:26:10Z",
-    "pushed_at": "2026-10-07T05:25:10Z",
+    "pushed_at": "2026-10-07T12:17:43Z",
     "discovered_at": "2026-09-21T22:12:12.101Z",
     "official": false
   },
@@ -40163,7 +40163,7 @@
     "name": "AmirAliManzar/Zed-RTL",
     "url": "https://github.com/AmirAliManzar/Zed-RTL",
     "description": "Fixed right-to-left (Persian/Arabic/Hebrew) text rendering and caret movement in the Zed editor, with an auto-updating patched build for Windows.",
-    "stars": 1,
+    "stars": 4,
     "forks": 0,
     "topics": [
       "arabic",
@@ -40182,7 +40182,7 @@
     "language": "Rust",
     "license": "GPL-3.0",
     "created_at": "2026-09-29T18:48:49Z",
-    "updated_at": "2026-10-06T18:36:23Z",
+    "updated_at": "2026-10-07T12:35:06Z",
     "pushed_at": "2026-10-06T18:36:19Z",
     "discovered_at": "2026-10-03T01:13:41.690Z",
     "official": false
@@ -40404,8 +40404,8 @@
     "language": "TypeScript",
     "license": "Apache-2.0",
     "created_at": "2026-10-06T03:31:12Z",
-    "updated_at": "2026-10-07T06:55:02Z",
-    "pushed_at": "2026-10-07T06:58:29Z",
+    "updated_at": "2026-10-07T09:00:58Z",
+    "pushed_at": "2026-10-07T09:00:55Z",
     "discovered_at": "2026-10-06T12:56:24.959Z",
     "official": false
   },
@@ -40469,8 +40469,8 @@
     "language": "TypeScript",
     "license": "BSD-3-Clause",
     "created_at": "2026-10-06T13:41:37Z",
-    "updated_at": "2026-10-07T06:38:24Z",
-    "pushed_at": "2026-10-07T06:38:20Z",
+    "updated_at": "2026-10-07T08:22:16Z",
+    "pushed_at": "2026-10-07T08:22:11Z",
     "discovered_at": "2026-10-06T18:51:55.070Z",
     "official": false
   },
@@ -40495,8 +40495,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-10-01T19:48:54Z",
-    "updated_at": "2026-10-07T05:46:55Z",
-    "pushed_at": "2026-10-07T06:05:03Z",
+    "updated_at": "2026-10-07T12:31:38Z",
+    "pushed_at": "2026-10-07T12:31:35Z",
     "discovered_at": "2026-10-07T01:20:55.214Z",
     "official": false
   },
