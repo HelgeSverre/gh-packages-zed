@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1870** |
 | In official registry | 1350 |
 | Discovered via topics | 520 |
-| Last updated | 2026-10-07 01:20 UTC |
+| Last updated | 2026-10-07 07:01 UTC |
 
 ### By capability
 
@@ -121,6 +121,7 @@ cd website && npm install && npm run dev
 | Package | Stars | Last push | Description |
 |---|---|---|---|
 | [chiploom/zed-wit](https://github.com/chiploom/zed-wit) | 0 | 2026-10-07 | Modern WIT language support for Zed, with Tree-sitter syntax... |
+| [sigrunixia/Tenebrous-Zed](https://github.com/sigrunixia/Tenebrous-Zed) | 0 | 2026-10-07 | Zed theme for my Tenebrous Coloration |
 | [fennec-support/kosh-zed](https://github.com/fennec-support/kosh-zed) | 0 | 2026-10-06 | zed extension for the koshka shell |
 | [silenttwin/blue-velvet](https://github.com/silenttwin/blue-velvet) | 0 | 2026-10-06 | A deep blue color scheme for the Zed/Gram text editors featu... |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 216 | 2026-10-06 | Zed plugin for automatic time tracking and metrics generated... |
@@ -129,7 +130,6 @@ cd website && npm install && npm run dev
 | [baneeishaque/mcp-server-gistpad](https://github.com/baneeishaque/mcp-server-gistpad) | 0 | 2026-10-06 | GitHub Gists in Zed: browse, create, edit, and comment on gi... |
 | [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-10-05 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
 | [rafael-abuawad/vyper-lsp](https://github.com/rafael-abuawad/vyper-lsp) | 0 | 2026-10-05 | Zed extension for the Vyper smart contract language. Syntax ... |
-| [sigrunixia/Tenebrous-Zed](https://github.com/sigrunixia/Tenebrous-Zed) | 0 | 2026-10-04 | Zed theme for my Tenebrous Coloration |
 | [pataruco/zed-mjml](https://github.com/pataruco/zed-mjml) | 3 | 2026-10-04 | MJML syntax support for Zed |
 | [atomicptr/zed-moonbug](https://github.com/atomicptr/zed-moonbug) | 0 | 2026-10-04 | Lua debugger for Zed, powered by moonbug |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-10-04 | Intelligent codebase search & indexing for Zed. Async MCP se... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-10-07T07:01 | 0 | 661 | 2330 |
 | 2026-10-07T01:20 | 2 | 659 | 2330 |
 | 2026-10-06T18:51 | 2 | 657 | 2328 |
 | 2026-10-06T12:56 | 2 | 656 | 2326 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-10-05T12:59 | 0 | 655 | 2321 |
 | 2026-10-05T07:19 | 1 | 654 | 2321 |
 | 2026-10-05T01:22 | 1 | 653 | 2320 |
-| 2026-10-04T19:46 | 0 | 653 | 2319 |
 
 ---
 
