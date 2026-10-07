@@ -86,7 +86,7 @@
     "name": "GDQuest/zed-gdscript",
     "url": "https://github.com/GDQuest/zed-gdscript",
     "description": "Zed support for the Godot game engine and the GDScript language",
-    "stars": 209,
+    "stars": 210,
     "forks": 23,
     "topics": [
       "code-editor",
@@ -98,7 +98,7 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-02-26T18:14:41Z",
-    "updated_at": "2026-09-27T15:43:31Z",
+    "updated_at": "2026-10-06T23:49:17Z",
     "pushed_at": "2026-09-10T12:07:53Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -1220,7 +1220,7 @@
     "name": "kartikvashistha/zed-ansible",
     "url": "https://github.com/kartikvashistha/zed-ansible",
     "description": "Ansible Extension for the Zed editor",
-    "stars": 59,
+    "stars": 60,
     "forks": 8,
     "topics": [
       "ansible",
@@ -1230,7 +1230,7 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-08-04T09:47:08Z",
-    "updated_at": "2026-09-27T11:44:26Z",
+    "updated_at": "2026-10-07T00:52:59Z",
     "pushed_at": "2026-05-04T07:54:34Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -5300,7 +5300,7 @@
     "url": "https://github.com/uncenter/zed-tera",
     "description": "⛩️ Zed extension for the Tera templating language.",
     "stars": 18,
-    "forks": 0,
+    "forks": 1,
     "topics": [
       "tera",
       "zed",
@@ -64236,8 +64236,8 @@
     "language": "Rust",
     "license": "BSD-3-Clause",
     "created_at": "2026-10-05T23:26:04Z",
-    "updated_at": "2026-10-06T00:57:54Z",
-    "pushed_at": "2026-10-06T00:54:24Z",
+    "updated_at": "2026-10-06T19:56:15Z",
+    "pushed_at": "2026-10-06T20:01:52Z",
     "discovered_at": "2026-10-06T01:16:58.795Z",
     "official": false,
     "extension": {
@@ -64291,6 +64291,55 @@
       "sections": [],
       "categories": [
         "theme"
+      ]
+    }
+  },
+  "chiploom/zed-wit": {
+    "name": "chiploom/zed-wit",
+    "url": "https://github.com/chiploom/zed-wit",
+    "description": "Modern WIT language support for Zed, with Tree-sitter syntax highlighting, snippets, diagnostics, formatting, navigation, completions, and a native language server.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "language-server",
+      "lsp",
+      "syntax-highlighting",
+      "tree-sitter",
+      "wasm",
+      "webassembly",
+      "webassembly-interface-type",
+      "wit",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "created_at": "2026-10-01T19:48:54Z",
+    "updated_at": "2026-10-07T00:58:30Z",
+    "pushed_at": "2026-10-07T01:19:28Z",
+    "discovered_at": "2026-10-07T01:20:55.214Z",
+    "official": false,
+    "extension": {
+      "id": "wit",
+      "name": "WIT",
+      "description": "Modern WebAssembly Interface Types: syntax, package diagnostics, and formatting.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Chiploom"
+      ],
+      "repository": "https://github.com/chiploom/zed-wit",
+      "snippets": [
+        "snippets/wit.json"
+      ],
+      "sections": [
+        "grammars",
+        "language_servers"
+      ],
+      "categories": [
+        "grammar",
+        "language-server",
+        "snippets"
       ]
     }
   }

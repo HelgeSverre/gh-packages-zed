@@ -127,7 +127,7 @@
     "name": "GDQuest/zed-gdscript",
     "url": "https://github.com/GDQuest/zed-gdscript",
     "description": "Zed support for the Godot game engine and the GDScript language",
-    "stars": 209,
+    "stars": 210,
     "forks": 23,
     "topics": [
       "code-editor",
@@ -139,7 +139,7 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-02-26T18:14:41Z",
-    "updated_at": "2026-09-27T15:43:31Z",
+    "updated_at": "2026-10-06T23:49:17Z",
     "pushed_at": "2026-09-10T12:07:53Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -853,7 +853,7 @@
     "name": "kartikvashistha/zed-ansible",
     "url": "https://github.com/kartikvashistha/zed-ansible",
     "description": "Ansible Extension for the Zed editor",
-    "stars": 59,
+    "stars": 60,
     "forks": 8,
     "topics": [
       "ansible",
@@ -863,7 +863,7 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-08-04T09:47:08Z",
-    "updated_at": "2026-09-27T11:44:26Z",
+    "updated_at": "2026-10-07T00:52:59Z",
     "pushed_at": "2026-05-04T07:54:34Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -3445,7 +3445,7 @@
     "url": "https://github.com/uncenter/zed-tera",
     "description": "⛩️ Zed extension for the Tera templating language.",
     "stars": 18,
-    "forks": 0,
+    "forks": 1,
     "topics": [
       "tera",
       "zed",
@@ -15449,8 +15449,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
-    "updated_at": "2026-10-06T17:27:40Z",
-    "pushed_at": "2026-10-06T16:06:58Z",
+    "updated_at": "2026-10-06T21:31:51Z",
+    "pushed_at": "2026-10-06T21:37:46Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -18008,8 +18008,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-10-06T12:57:05Z",
-    "pushed_at": "2026-10-06T12:56:59Z",
+    "updated_at": "2026-10-06T18:52:34Z",
+    "pushed_at": "2026-10-06T18:52:30Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -38142,7 +38142,7 @@
     "license": "MIT",
     "created_at": "2026-09-21T07:36:15Z",
     "updated_at": "2026-10-05T15:50:08Z",
-    "pushed_at": "2026-10-05T15:52:42Z",
+    "pushed_at": "2026-10-06T23:25:47Z",
     "discovered_at": "2026-09-21T13:19:36.942Z",
     "official": false
   },
@@ -38413,7 +38413,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-09-21T20:10:00Z",
     "updated_at": "2026-10-04T18:26:10Z",
-    "pushed_at": "2026-10-06T17:00:00Z",
+    "pushed_at": "2026-10-07T01:05:44Z",
     "discovered_at": "2026-09-21T22:12:12.101Z",
     "official": false
   },
@@ -40376,8 +40376,8 @@
     "language": "Rust",
     "license": "BSD-3-Clause",
     "created_at": "2026-10-05T23:26:04Z",
-    "updated_at": "2026-10-06T00:57:54Z",
-    "pushed_at": "2026-10-06T00:54:24Z",
+    "updated_at": "2026-10-06T19:56:15Z",
+    "pushed_at": "2026-10-06T20:01:52Z",
     "discovered_at": "2026-10-06T01:16:58.795Z",
     "official": false
   },
@@ -40404,8 +40404,8 @@
     "language": "TypeScript",
     "license": "Apache-2.0",
     "created_at": "2026-10-06T03:31:12Z",
-    "updated_at": "2026-10-06T12:38:30Z",
-    "pushed_at": "2026-10-06T12:38:26Z",
+    "updated_at": "2026-10-07T00:01:20Z",
+    "pushed_at": "2026-10-07T00:01:18Z",
     "discovered_at": "2026-10-06T12:56:24.959Z",
     "official": false
   },
@@ -40469,9 +40469,58 @@
     "language": "TypeScript",
     "license": "BSD-3-Clause",
     "created_at": "2026-10-06T13:41:37Z",
-    "updated_at": "2026-10-06T15:16:04Z",
-    "pushed_at": "2026-10-06T15:08:28Z",
+    "updated_at": "2026-10-06T20:22:46Z",
+    "pushed_at": "2026-10-06T20:22:41Z",
     "discovered_at": "2026-10-06T18:51:55.070Z",
+    "official": false
+  },
+  "chiploom/zed-wit": {
+    "name": "chiploom/zed-wit",
+    "url": "https://github.com/chiploom/zed-wit",
+    "description": "Modern WIT language support for Zed, with Tree-sitter syntax highlighting, snippets, diagnostics, formatting, navigation, completions, and a native language server.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "language-server",
+      "lsp",
+      "syntax-highlighting",
+      "tree-sitter",
+      "wasm",
+      "webassembly",
+      "webassembly-interface-type",
+      "wit",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "created_at": "2026-10-01T19:48:54Z",
+    "updated_at": "2026-10-07T00:58:30Z",
+    "pushed_at": "2026-10-07T01:19:28Z",
+    "discovered_at": "2026-10-07T01:20:55.214Z",
+    "official": false
+  },
+  "rootform-dev/editors": {
+    "name": "rootform-dev/editors",
+    "url": "https://github.com/rootform-dev/editors",
+    "description": "Thin VS Code and Zed clients for the Rootform language server",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "infrastructure-as-code",
+      "language-server",
+      "lsp",
+      "rootform",
+      "terraform",
+      "vscode-extension",
+      "zed-extension"
+    ],
+    "language": "JavaScript",
+    "license": "Apache-2.0",
+    "created_at": "2026-10-01T07:23:56Z",
+    "updated_at": "2026-10-06T20:33:10Z",
+    "pushed_at": "2026-10-06T20:33:16Z",
+    "discovered_at": "2026-10-07T01:20:55.214Z",
     "official": false
   }
 }
