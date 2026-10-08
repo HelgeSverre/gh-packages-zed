@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1870** |
 | In official registry | 1350 |
 | Discovered via topics | 520 |
-| Last updated | 2026-10-08 01:20 UTC |
+| Last updated | 2026-10-08 07:04 UTC |
 
 ### By capability
 
@@ -105,8 +105,8 @@ cd website && npm install && npm run dev
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 201 | Typst extension for zed |
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
+| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 188 | 🦊 Zed editor theme ported from Neovim |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
-| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 187 | 🦊 Zed editor theme ported from Neovim |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 178 | A macOS native style theme for Zed, let it same like native app in macOS. |
 | [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 156 |  |
@@ -120,11 +120,11 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [sigrunixia/Tenebrous-Zed](https://github.com/sigrunixia/Tenebrous-Zed) | 0 | 2026-10-08 | A dark Zed theme in the Tenebrous colour scheme. |
 | [chiploom/zed-wit](https://github.com/chiploom/zed-wit) | 0 | 2026-10-08 | Modern WIT language support for Zed, with Tree-sitter syntax... |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 140 | 2026-10-07 | The Ruby language support for Zed editor |
 | [NeroWolfe75/brackets-refined-zed](https://github.com/NeroWolfe75/brackets-refined-zed) | 0 | 2026-10-07 | A refined dark theme for Zed with a neutral interface and ca... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 99 | 2026-10-07 | True Dark Theme for Zed IDE |
-| [sigrunixia/Tenebrous-Zed](https://github.com/sigrunixia/Tenebrous-Zed) | 0 | 2026-10-07 | A dark Zed theme in the Tenebrous colour scheme. |
 | [fennec-support/kosh-zed](https://github.com/fennec-support/kosh-zed) | 0 | 2026-10-06 | zed extension for the koshka shell |
 | [silenttwin/blue-velvet](https://github.com/silenttwin/blue-velvet) | 0 | 2026-10-06 | A deep blue color scheme for the Zed/Gram text editors featu... |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 217 | 2026-10-06 | Zed plugin for automatic time tracking and metrics generated... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-10-08T07:04 | 0 | 661 | 2331 |
 | 2026-10-08T01:20 | 1 | 660 | 2331 |
 | 2026-10-07T18:54 | 0 | 661 | 2330 |
 | 2026-10-07T13:00 | 0 | 661 | 2330 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-10-06T12:56 | 2 | 656 | 2326 |
 | 2026-10-06T07:01 | 0 | 656 | 2324 |
 | 2026-10-06T01:16 | 1 | 655 | 2324 |
-| 2026-10-05T18:54 | 2 | 654 | 2323 |
 
 ---
 
