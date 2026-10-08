@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1870** |
 | In official registry | 1350 |
 | Discovered via topics | 520 |
-| Last updated | 2026-10-08 07:04 UTC |
+| Last updated | 2026-10-08 12:59 UTC |
 
 ### By capability
 
@@ -120,15 +120,15 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-10-08 | Zed editor support for Carve, a modern light markup language |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 99 | 2026-10-08 | True Dark Theme for Zed IDE |
 | [sigrunixia/Tenebrous-Zed](https://github.com/sigrunixia/Tenebrous-Zed) | 0 | 2026-10-08 | A dark Zed theme in the Tenebrous colour scheme. |
 | [chiploom/zed-wit](https://github.com/chiploom/zed-wit) | 0 | 2026-10-08 | Modern WIT language support for Zed, with Tree-sitter syntax... |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 140 | 2026-10-07 | The Ruby language support for Zed editor |
 | [NeroWolfe75/brackets-refined-zed](https://github.com/NeroWolfe75/brackets-refined-zed) | 0 | 2026-10-07 | A refined dark theme for Zed with a neutral interface and ca... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 99 | 2026-10-07 | True Dark Theme for Zed IDE |
 | [fennec-support/kosh-zed](https://github.com/fennec-support/kosh-zed) | 0 | 2026-10-06 | zed extension for the koshka shell |
 | [silenttwin/blue-velvet](https://github.com/silenttwin/blue-velvet) | 0 | 2026-10-06 | A deep blue color scheme for the Zed/Gram text editors featu... |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 217 | 2026-10-06 | Zed plugin for automatic time tracking and metrics generated... |
-| [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-10-06 | Zed editor support for Carve, a modern light markup language |
 | [baneeishaque/mcp-server-gistpad](https://github.com/baneeishaque/mcp-server-gistpad) | 0 | 2026-10-06 | GitHub Gists in Zed: browse, create, edit, and comment on gi... |
 | [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-10-05 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
 | [rafael-abuawad/vyper-lsp](https://github.com/rafael-abuawad/vyper-lsp) | 0 | 2026-10-05 | Zed extension for the Vyper smart contract language. Syntax ... |
@@ -137,7 +137,7 @@ cd website && npm install && npm run dev
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-10-04 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [freshjuice-dev/zed-hubl](https://github.com/freshjuice-dev/zed-hubl) | 0 | 2026-10-04 | HubL (HubSpot templating) syntax highlighting for Zed. Bundl... |
 | [thoriqakbar0/fsl-lsp](https://github.com/thoriqakbar0/fsl-lsp) | 0 | 2026-10-03 | Pre-alpha FSL grammar, Zed extension, and language-server in... |
-| [lmarkmann/patina-theme](https://github.com/lmarkmann/patina-theme) | 6 | 2026-10-03 | A warm, muted color theme. Teal oxidation and amber warmth; ... |
+| [lmarkmann/patina-theme](https://github.com/lmarkmann/patina-theme) | 7 | 2026-10-03 | A warm, muted color theme. Teal oxidation and amber warmth; ... |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 9 | 2026-10-03 | Spring Boot language intelligence for Zed, built on the requ... |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-10-03 | A Zed extension that allows to highlight all occurrences of ... |
 
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-10-08T12:59 | 0 | 661 | 2331 |
 | 2026-10-08T07:04 | 0 | 661 | 2331 |
 | 2026-10-08T01:20 | 1 | 660 | 2331 |
 | 2026-10-07T18:54 | 0 | 661 | 2330 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-10-06T18:51 | 2 | 657 | 2328 |
 | 2026-10-06T12:56 | 2 | 656 | 2326 |
 | 2026-10-06T07:01 | 0 | 656 | 2324 |
-| 2026-10-06T01:16 | 1 | 655 | 2324 |
 
 ---
 
