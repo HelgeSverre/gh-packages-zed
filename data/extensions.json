@@ -142,8 +142,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-10-08T08:02:35Z",
-    "pushed_at": "2026-10-08T08:02:31Z",
+    "updated_at": "2026-10-09T08:02:39Z",
+    "pushed_at": "2026-10-09T08:02:35Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -216,8 +216,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2024-08-27T10:31:46Z",
-    "updated_at": "2026-10-07T13:58:01Z",
-    "pushed_at": "2026-10-06T17:04:21Z",
+    "updated_at": "2026-10-09T11:13:23Z",
+    "pushed_at": "2026-10-09T11:13:21Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -1575,7 +1575,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2025-08-13T13:42:09Z",
-    "updated_at": "2026-09-22T22:07:06Z",
+    "updated_at": "2026-10-09T09:29:19Z",
     "pushed_at": "2026-09-22T22:07:04Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -51992,7 +51992,7 @@
     "name": "lmarkmann/patina-theme",
     "url": "https://github.com/lmarkmann/patina-theme",
     "description": "A warm, muted color theme. Teal oxidation and amber warmth; in six variants.",
-    "stars": 8,
+    "stars": 9,
     "forks": 0,
     "topics": [
       "color-theme",
@@ -52010,7 +52010,7 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-02-09T15:05:15Z",
-    "updated_at": "2026-10-08T18:46:50Z",
+    "updated_at": "2026-10-09T12:46:53Z",
     "pushed_at": "2026-10-03T14:35:32Z",
     "discovered_at": "2026-06-15T14:07:17.167Z",
     "official": true,
@@ -53852,8 +53852,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-06-01T12:22:18Z",
-    "updated_at": "2026-10-08T21:32:51Z",
-    "pushed_at": "2026-10-08T22:55:30Z",
+    "updated_at": "2026-10-09T08:15:37Z",
+    "pushed_at": "2026-10-09T08:15:33Z",
     "discovered_at": "2026-07-09T13:39:01.645Z",
     "official": true,
     "extension": {
@@ -54642,7 +54642,7 @@
     "name": "luceat-lux-vestra/zed-spring-tools",
     "url": "https://github.com/luceat-lux-vestra/zed-spring-tools",
     "description": "Spring Boot language intelligence for Zed, built on the required official Java extension. Early source release; one tested tuple (macOS arm64/JDK 25).",
-    "stars": 9,
+    "stars": 10,
     "forks": 1,
     "topics": [
       "java",
@@ -54657,7 +54657,7 @@
     "language": "JavaScript",
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
-    "updated_at": "2026-10-07T09:38:19Z",
+    "updated_at": "2026-10-09T12:25:10Z",
     "pushed_at": "2026-10-03T07:53:45Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false,
@@ -64316,7 +64316,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-10-01T19:48:54Z",
     "updated_at": "2026-10-08T15:32:16Z",
-    "pushed_at": "2026-10-09T07:02:06Z",
+    "pushed_at": "2026-10-09T07:41:18Z",
     "discovered_at": "2026-10-07T01:20:55.214Z",
     "official": false,
     "extension": {
@@ -64340,6 +64340,70 @@
         "grammar",
         "language-server",
         "snippets"
+      ]
+    }
+  },
+  "nertzy/zed-bats": {
+    "name": "nertzy/zed-bats",
+    "url": "https://github.com/nertzy/zed-bats",
+    "description": "Bats (Bash Automated Testing System) support for Zed: run each @test from the gutter, with outline and highlighting, built on tree-sitter-bats.",
+    "stars": 1,
+    "forks": 0,
+    "topics": [],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2026-10-07T21:37:18Z",
+    "updated_at": "2026-10-08T19:27:41Z",
+    "pushed_at": "2026-10-08T19:42:48Z",
+    "discovered_at": "2026-10-09T12:58:18.260Z",
+    "official": true,
+    "extension": {
+      "id": "bats",
+      "name": "Bats",
+      "description": "Bats (Bash Automated Testing System) support for Zed: run each @test from the gutter, with outline and highlighting, built on tree-sitter-bats.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Grant Hutchins <zed-plugins@nertzy.com>"
+      ],
+      "repository": "https://github.com/nertzy/zed-bats",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
+      ]
+    }
+  },
+  "lazyanubis/zed-graphite": {
+    "name": "lazyanubis/zed-graphite",
+    "url": "https://github.com/lazyanubis/zed-graphite",
+    "description": "A charcoal Zed theme with blue keywords, purple control flow, olive types, and warm gold functions.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-10-09T09:28:12Z",
+    "updated_at": "2026-10-09T09:42:07Z",
+    "pushed_at": "2026-10-09T09:42:03Z",
+    "discovered_at": "2026-10-09T12:58:18.260Z",
+    "official": true,
+    "extension": {
+      "id": "graphite-theme",
+      "name": "Graphite",
+      "description": "A charcoal theme with blue keywords, purple control flow, olive types, and warm gold functions.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Anubis"
+      ],
+      "repository": "https://github.com/lazyanubis/zed-graphite",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
       ]
     }
   }

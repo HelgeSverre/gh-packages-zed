@@ -1,0 +1,8 @@
+id = "graphite-theme"
+name = "Graphite"
+version = "0.1.0"
+schema_version = 1
+authors = ["Anubis"]
+description = "A charcoal theme with blue keywords, purple control flow, olive types, and warm gold functions."
+repository = "https://github.com/lazyanubis/zed-graphite"
+themes = ["themes/graphite.json"]

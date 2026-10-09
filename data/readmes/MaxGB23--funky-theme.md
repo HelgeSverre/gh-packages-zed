@@ -1,0 +1,235 @@
+# Funky Theme 👻
+
+> A vibrant, semantically-driven dark theme for Visual Studio Code, Cursor, and Antigravity — breaking away from the usual dull dark themes.
+
+As terminal agents and AI handle more of the heavy lifting, the IDE is becoming less of a place to write everything and more of a place to review, understand, and refine. Funky Theme embraces that shift with bright, vibrant semantics — because if you're going to look at code, it shouldn't have to look dull.
+
+**Get it on the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=MaxGB23.funky-theme-vscode) · [Open VSX](https://open-vsx.org/extension/MaxGB23/funky-theme-vscode).**
+
+---
+
+## Screenshots
+
+<p align="center"><strong>Funky Dark</strong></p>
+
+<p align="center">
+  <img src="public/images/tsx-code.png" alt="Funky Dark — TSX code" width="75%">
+</p>
+
+<p align="center"><strong>Funky Darker</strong></p>
+
+<p align="center">
+  <img src="public/images/functions-darker.png" alt="Funky Darker — Functions code" width="75%">
+</p>
+
+---
+
+## Variants — Five ways to read the same code
+
+Different developers read code differently. Some want pure color, some want deep night, some need accessibility, some love cursive. There is a Funky variant for each of them — same palette, five experiences.
+
+| Variant                 | Description                                                                                                                                                     |
+| ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Funky Dark**          | The main experience. Balanced contrast, vivid palette.                                                                                                          |
+| **Funky Darker**        | Ultra-nocturnal backgrounds for zero-distraction sessions.                                                                                                      |
+| **Funky Dark Italic**   | The full cursive treatment — control flow, storage types and metadata in italic, zero bold in code. For fans of italic-capable fonts like Operator Mono.       |
+| **Funky Dark Mix**      | A directed typography strategy: bold on declaration names, italic on metadata, everything else regular. An anti-eye-fatigue balance.                          |
+| **Funky High Contrast** | Accessibility-first borders and strong UI separation for maximum visibility.                                                                                    |
+
+Five profiles, one palette — every variant keeps the meaning of every color while changing the reading experience. Two decisions drive the lineup: the italic layer is shared between Dark Mix and Dark Italic so they complement instead of colliding, and keyword italics — one of the more polarizing choices in syntax highlighting — live isolated in Funky Dark Italic instead of being forced on everyone. The choices are grounded in research across developer communities, theme discussions, and real-world usage patterns.
+
+---
+
+## Color Philosophy
+
+Funky Theme is built around a **semantic, tiered color palette** defined in a single source-of-truth config file. Every color has a name and a reason to exist:
+
+- 🩷 **Pinks** — Tags, parameters, numeric constants
+- 🟣 **Purples** — Keywords, support classes (flow keywords in a lighter purple)
+- 🩵 **Cyans** — Functions, escape characters, regex group punctuation, structural top-of-file keywords (imports, use, require…)
+- 🔵 **Blues** — Methods, symbol operators, storage modifier
+- 🟡 **Yellows** — Type names, attribute names (e.g., HTML, CSS, JSX)
+- 🟢 **Greens** — Strings, git untracked, inline code
+- 🔴 **Reds** — Errors, deleted references
+- 🟠 **Oranges** — `new`/operator accents, auxiliary keywords (extends, mod…)
+
+**One shared canvas.** Dark themes often reach for deep blues — the familiar default — but blue-heavy darks can feel harsh or fatiguing to some eyes, even at low brightness. All five variants instead share one custom gray-mauve canvas, a friendlier take on deep night — grounded in research across developer communities, theme discussions, and real-world usage patterns. Only Darker goes deeper, and High Contrast keeps the same canvas while approaching accessibility through stronger borders and UI separation, not a darker background.
+
+| Canvas | Variants |
+|---|---|
+| `#24212e` gray-mauve | Dark · Dark Italic · Dark Mix · High Contrast |
+| `#181520` ultra-nocturnal | Darker |
+
+---
+
+## Language Support
+
+While primarily dedicated to and optimized for **web development** (specifically for workflows using **React, HTML, CSS, JavaScript, TypeScript, Next.js, and Markdown**), it has also been tested and tuned for the following:
+
+**Web frameworks & libraries**
+
+- **React**, **Vue**, **Svelte**, **Angular**
+- **Next.js**
+
+**Languages**
+
+- **TypeScript / TSX**
+- **JavaScript** (includes Node.js/Express)
+- **HTML**, **CSS / SCSS**, **XML**
+- **C**, **C++**, **C#**
+- **Go**, **Java**
+- **PHP**, **Python**, **Rust**
+
+**Formats & utilities**
+
+- **Markdown**, **JSON / JSON5** & **Regular Expressions (RegEx)** — formats and utilities with dedicated rules
+
+Popular dark themes — Dracula Theme, Material Theme, Tokyo Night - often recycle the same few colors across languages, blurring what is what. Funky Theme maps code by role instead: flow, structure, reference, creation. The same semantic part keeps its family color in every tested language.
+
+---
+
+## Recommended editor settings
+
+### Theme settings
+
+Funky Theme is tested and tuned against the following editor settings. They are **recommended, not required** — the theme works with any font and spacing, but this is the setup it was designed and validated with:
+
+```json
+{
+  "editor.fontFamily": "Cascadia Code, monospace",
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 23,
+  "editor.tabSize": 2,
+  "editor.fontSize": 14,
+  "editor.bracketPairColorization.enabled": true
+}
+```
+
+> `editor.lineHeight` works anywhere from **23 to 25** — pick what feels comfortable.
+>
+> **Note**: Cascadia Code isn't bundled with Funky Theme. If it isn't installed on your system, VS Code falls back to a system monospace font.
+>
+> `editor.bracketPairColorization` is the primary bracket rendering mode — the palette is configured for it. If disabled, VS Code falls back to a basic bracket colorization that doesn't leverage the theme's semantic colors.
+
+### Personal recommendations
+
+Settings the maintainer enjoys — not required, but they make the editor feel better:
+
+```json
+{
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.mouseWheelZoom": true
+}
+```
+
+> Cursor animations add smoothness to caret movement — some find them fluid, others distracting.
+>
+> `editor.mouseWheelZoom` scales only the editor text with Ctrl+scroll — unlike `window.zoomLevel`, which scales the entire UI (panels, sidebars, tabs). Handy if you prefer a compact UI but comfortable code size, though not everyone adjusts their zoom on the fly.
+
+---
+
+## 📦 Installation
+
+Funky Theme is available on both major VS Code-compatible registries — the **VS Code Marketplace** and **Open VSX** — plus the GitHub Releases `.vsix` for anything else. Pick the path that fits your editor.
+
+### Option A: VS Code Marketplace (Recommended)
+
+Get it directly: **[VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=MaxGB23.funky-theme-vscode)** — or follow the steps below.
+
+1. Open the **Extensions** view (`Ctrl+Shift+X` on Windows/Linux or `Cmd+Shift+X` on Mac).
+2. Search for **"Funky Theme"** — extension ID: `MaxGB23.funky-theme-vscode`.
+3. Click **Install**.
+4. Open the Command Palette (`Ctrl+Shift+P` on Windows/Linux or `Cmd+Shift+P` on Mac), run **`Preferences: Color Theme`**, and select your favorite **Funky** variant.
+
+### Option B: Open VSX (VS Code-compatible editors)
+
+Get it directly: **[Open VSX](https://open-vsx.org/extension/MaxGB23/funky-theme-vscode)** — the open-source registry used by VS Code-compatible editors that cannot use the Microsoft Marketplace (Microsoft's ToS restricts forks): **VSCodium** (default gallery), **Google Antigravity** (default marketplace), **Cursor** (served through Cursor's own marketplace proxy), **Windsurf / Devin Desktop**, **AWS Kiro**, **Gitpod** (browser) and **Eclipse Theia**. In any of these, just open the editor's **Extensions** panel and search for **"Funky Theme"** — then pick a Funky variant via `Preferences: Color Theme`.
+
+### Option C: GitHub Releases (direct .vsix)
+
+Prefer sideloading? Download the latest `.vsix` file from the [Releases](https://github.com/maxgb23/funky-theme/releases) page and install it directly:
+
+1. Open the Command Palette (`Ctrl+Shift+P` on Windows/Linux or `Cmd+Shift+P` on Mac).
+2. Type and select **`Extensions: Install from VSIX...`**.
+3. Browse and select the downloaded `.vsix` file.
+4. Open the Command Palette again, run **`Preferences: Color Theme`**, and select your favorite **Funky** variant.
+
+Or install it via CLI:
+
+```bash
+code --install-extension path/to/funky-theme-vscode-x.x.x.vsix
+```
+
+> *Note: Replace `code` with your editor's CLI command if you are not using VS Code, e.g., `cursor --install-extension ...`, `codium --install-extension ...` (VSCodium), or `antigravity --install-extension ...` (Google Antigravity).*
+
+---
+
+## Terminals
+
+The integrated editor terminal already ships with Funky Theme's ANSI palette — no extra setup required, and it works across shells such as Bash, Zsh, PowerShell, and others. The palette is most noticeable in shells and CLI tools that make extensive use of colored output.
+
+### Terminal-based AI Agents (WIP)
+
+A standalone terminal palette for AI coding agents is being built in its own repo, [`funky-theme-tui`](https://github.com/MaxGB23/funky-theme-tui) — starting with gentle-shell, and with Pi along for the ride since gentle-shell runs on it, plus OpenCode and Claude Code. Two variants are planned, Funky Dark and Funky Darker, plus transparent background variants for people who run a custom terminal background. They are independent palettes — kept visually close to the editor theme, but tuned for the terminal experience, which is a different medium, so small variations per variant are expected. Minimal italics may be used where they aid readability, without a separate italic variant.
+
+> **Status:** WIP — currently around `v0.1.0`; nothing published yet. It will ship to package marketplaces (like Pi packages) once v1 is stable.
+
+---
+
+## Roadmap
+
+Forward-looking work that has not shipped yet. It lives here rather than in `CHANGELOG.md` on purpose: the changelog records what each version actually changed, so a roadmap that drifts into a released section misrepresents that version's history.
+
+- **Zed support** — planned, no work started yet.
+- **Terminal-based AI agents** — see [Terminal-based AI Agents](#terminal-based-ai-agents-wip) above; the palette ships from its own repo, `funky-theme-tui`.
+
+---
+
+## Build from source
+
+> **Note**: You can use `npm` to install dependencies and run scripts, but **`pnpm` is highly recommended** for better security, stricter dependency resolution, and to avoid lockfile conflicts.
+
+```bash
+# Clone the repo
+git clone https://github.com/maxgb23/funky-theme
+cd funky-theme
+
+# Install dependencies
+pnpm install
+
+# Compile the theme JSON files
+pnpm build
+
+# Generate the .vsix package
+pnpm package
+```
+
+---
+
+## Maintenance & Contributing
+
+Want to tweak colors, add new tokens, or build your own variant on top of Funky Theme?
+
+👉 Read the **[Guía de Mantenimiento](./docs/how-to-modify-theme.md)** — a step-by-step guide covering the architecture, how to modify existing colors, and how to add new palette tokens.
+
+> The guide is written in Spanish, as most contributors and maintainers of this project are Spanish-speaking developers.
+
+---
+
+## Author
+
+**Maximiliano González Ballesteros** — the developer behind Funky Theme.
+
+- GitHub: [maxgb23](https://github.com/maxgb23)
+- LinkedIn: [in/maxballesteros](https://www.linkedin.com/in/maxballesteros/)
+- X: [@FunkyGtG](https://x.com/FunkyGtG)
+- Email: maxgonzalezballesteros@gmail.com
+
+Special thanks to [danelogotom-dotcom](https://github.com/danelogotom-dotcom) — not a code contributor, but part of the process: ideas, constructive criticism, and report feedback shaped the theme.
+
+---
+
+## License
+
+[MIT](./LICENSE) © Max González Ballesteros (@maxgb23)
