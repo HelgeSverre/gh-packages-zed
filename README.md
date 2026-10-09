@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1872** |
 | In official registry | 1352 |
 | Discovered via topics | 520 |
-| Last updated | 2026-10-09 12:58 UTC |
+| Last updated | 2026-10-09 18:52 UTC |
 
 ### By capability
 
@@ -100,7 +100,7 @@ cd website && npm install && npm run dev
 | [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 337 | Catppuccin Theme but as blurred variants + custom ones |
 | [oxc-project/oxc-zed](https://github.com/oxc-project/oxc-zed) | 256 | Oxc extension for Zed |
 | [catppuccin/zed-icons](https://github.com/catppuccin/zed-icons) | 240 | 🦊 Soothing pastel icons for Zed |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 217 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 218 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
 | [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 210 | Zed support for the Godot game engine and the GDScript language |
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 201 | Typst extension for zed |
@@ -110,7 +110,7 @@ cd website && npm install && npm run dev
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 178 | A macOS native style theme for Zed, let it same like native app in macOS. |
 | [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 156 |  |
-| [zed-extensions/swift](https://github.com/zed-extensions/swift) | 152 | Extension for Zed to support Swift |
+| [zed-extensions/swift](https://github.com/zed-extensions/swift) | 151 | Extension for Zed to support Swift |
 | [thedadams/zed-comment](https://github.com/thedadams/zed-comment) | 148 | A comment extension for the Zed editor |
 | [slymax/zedokai](https://github.com/slymax/zedokai) | 145 | a theme for Zed based on the Monokai Pro color scheme |
 | [nathansbradshaw/zed-angular](https://github.com/nathansbradshaw/zed-angular) | 144 |  |
@@ -120,9 +120,9 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 217 | 2026-10-09 | Zed plugin for automatic time tracking and metrics generated... |
-| [lazyanubis/zed-graphite](https://github.com/lazyanubis/zed-graphite) | 0 | 2026-10-09 | A charcoal Zed theme with blue keywords, purple control flow... |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 218 | 2026-10-09 | Zed plugin for automatic time tracking and metrics generated... |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-10-09 | Zed editor support for Carve, a modern light markup language |
+| [lazyanubis/zed-graphite](https://github.com/lazyanubis/zed-graphite) | 0 | 2026-10-09 | A charcoal Zed theme with blue keywords, purple control flow... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 99 | 2026-10-09 | True Dark Theme for Zed IDE |
 | [chiploom/zed-wit](https://github.com/chiploom/zed-wit) | 0 | 2026-10-09 | Modern WIT language support for Zed, with Tree-sitter syntax... |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-10-08 | Intelligent codebase search & indexing for Zed. Async MCP se... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-10-09T18:52 | 1 | 662 | 2338 |
 | 2026-10-09T12:58 | 5 | 662 | 2337 |
 | 2026-10-09T07:03 | 0 | 662 | 2332 |
 | 2026-10-09T01:22 | 0 | 662 | 2332 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-10-08T01:20 | 1 | 660 | 2331 |
 | 2026-10-07T18:54 | 0 | 661 | 2330 |
 | 2026-10-07T13:00 | 0 | 661 | 2330 |
-| 2026-10-07T07:01 | 0 | 661 | 2330 |
 
 ---
 
