@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1870** |
 | In official registry | 1350 |
 | Discovered via topics | 520 |
-| Last updated | 2026-10-09 01:22 UTC |
+| Last updated | 2026-10-09 07:03 UTC |
 
 ### By capability
 
@@ -120,9 +120,9 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [chiploom/zed-wit](https://github.com/chiploom/zed-wit) | 0 | 2026-10-09 | Modern WIT language support for Zed, with Tree-sitter syntax... |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-10-08 | Zed editor support for Carve, a modern light markup language |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-10-08 | Intelligent codebase search & indexing for Zed. Async MCP se... |
-| [chiploom/zed-wit](https://github.com/chiploom/zed-wit) | 0 | 2026-10-08 | Modern WIT language support for Zed, with Tree-sitter syntax... |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 140 | 2026-10-08 | The Ruby language support for Zed editor |
 | [gesundes/zed-ansible-vault](https://github.com/gesundes/zed-ansible-vault) | 0 | 2026-10-08 | Encrypt and decrypt Ansible Vault files and inline !vault YA... |
 | [silenttwin/blue-velvet](https://github.com/silenttwin/blue-velvet) | 0 | 2026-10-08 | A deep blue color scheme for the Zed/Gram text editors featu... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-10-09T07:03 | 0 | 662 | 2332 |
 | 2026-10-09T01:22 | 0 | 662 | 2332 |
 | 2026-10-08T18:53 | 1 | 661 | 2332 |
 | 2026-10-08T12:59 | 0 | 661 | 2331 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-10-07T13:00 | 0 | 661 | 2330 |
 | 2026-10-07T07:01 | 0 | 661 | 2330 |
 | 2026-10-07T01:20 | 2 | 659 | 2330 |
-| 2026-10-06T18:51 | 2 | 657 | 2328 |
 
 ---
 
