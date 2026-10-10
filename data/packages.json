@@ -629,7 +629,7 @@
     "url": "https://github.com/bennypowers/asimonim",
     "description": "The Design Tokens Multitool. CLI and go library; LSP and MCP; Generator and converter",
     "stars": 29,
-    "forks": 2,
+    "forks": 3,
     "topics": [
       "claude-code-plugin",
       "cli",
@@ -853,7 +853,7 @@
     "name": "kartikvashistha/zed-ansible",
     "url": "https://github.com/kartikvashistha/zed-ansible",
     "description": "Ansible Extension for the Zed editor",
-    "stars": 60,
+    "stars": 61,
     "forks": 8,
     "topics": [
       "ansible",
@@ -863,7 +863,7 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-08-04T09:47:08Z",
-    "updated_at": "2026-10-07T00:52:59Z",
+    "updated_at": "2026-10-10T18:31:50Z",
     "pushed_at": "2026-05-04T07:54:34Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -2633,7 +2633,7 @@
     "url": "https://github.com/nusnewob/caddyfile-zed",
     "description": "Caddyfile Support for Zed",
     "stars": 14,
-    "forks": 5,
+    "forks": 6,
     "topics": [
       "caddy",
       "caddyfile",
@@ -12692,7 +12692,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-03-08T12:59:01Z",
-    "updated_at": "2026-10-04T06:26:58Z",
+    "updated_at": "2026-10-10T13:58:31Z",
     "pushed_at": "2026-03-08T13:13:11Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": false
@@ -18008,8 +18008,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-10-10T07:00:14Z",
-    "pushed_at": "2026-10-10T07:00:11Z",
+    "updated_at": "2026-10-10T12:54:47Z",
+    "pushed_at": "2026-10-10T12:54:43Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -32019,8 +32019,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
-    "updated_at": "2026-10-04T13:40:26Z",
-    "pushed_at": "2026-10-10T06:07:01Z",
+    "updated_at": "2026-10-10T18:41:56Z",
+    "pushed_at": "2026-10-10T18:41:52Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false
   },
@@ -32112,8 +32112,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-06-01T12:22:18Z",
-    "updated_at": "2026-10-09T13:47:12Z",
-    "pushed_at": "2026-10-09T13:47:08Z",
+    "updated_at": "2026-10-10T13:07:38Z",
+    "pushed_at": "2026-10-10T13:07:34Z",
     "discovered_at": "2026-07-09T13:39:01.645Z",
     "official": true
   },
@@ -33062,8 +33062,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-03-30T19:21:46Z",
-    "updated_at": "2026-09-15T08:28:29Z",
-    "pushed_at": "2026-09-15T18:37:25Z",
+    "updated_at": "2026-10-10T16:09:07Z",
+    "pushed_at": "2026-10-10T16:09:02Z",
     "discovered_at": "2026-07-23T19:04:41.250Z",
     "official": false
   },
@@ -38015,7 +38015,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-09-19T09:50:14Z",
     "updated_at": "2026-09-19T10:14:32Z",
-    "pushed_at": "2026-10-03T18:34:02Z",
+    "pushed_at": "2026-10-10T18:34:38Z",
     "discovered_at": "2026-09-19T11:30:45.335Z",
     "official": false
   },
@@ -38413,7 +38413,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-09-21T20:10:00Z",
     "updated_at": "2026-10-10T10:14:51Z",
-    "pushed_at": "2026-10-10T11:16:58Z",
+    "pushed_at": "2026-10-10T18:21:40Z",
     "discovered_at": "2026-09-21T22:12:12.101Z",
     "official": false
   },
@@ -40686,6 +40686,25 @@
     "updated_at": "2026-10-10T10:07:24Z",
     "pushed_at": "2026-10-10T10:07:20Z",
     "discovered_at": "2026-10-09T18:52:14.557Z",
+    "official": false
+  },
+  "gabbro-lang/zed-gabbro": {
+    "name": "gabbro-lang/zed-gabbro",
+    "url": "https://github.com/gabbro-lang/zed-gabbro",
+    "description": "Zed extension for the Gabbro programming language: syntax highlighting and language server",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "gabbro",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Tree-sitter Query",
+    "license": "Apache-2.0",
+    "created_at": "2026-10-10T14:47:20Z",
+    "updated_at": "2026-10-10T15:07:40Z",
+    "pushed_at": "2026-10-10T15:07:36Z",
+    "discovered_at": "2026-10-10T18:50:48.428Z",
     "official": false
   }
 }
