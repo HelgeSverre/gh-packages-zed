@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1872** |
 | In official registry | 1352 |
 | Discovered via topics | 520 |
-| Last updated | 2026-10-10 01:19 UTC |
+| Last updated | 2026-10-10 06:59 UTC |
 
 ### By capability
 
@@ -120,13 +120,13 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-10-09 | A Zed extension that allows to highlight all occurrences of ... |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 218 | 2026-10-09 | Zed plugin for automatic time tracking and metrics generated... |
+| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-10-10 | A Zed extension that allows to highlight all occurrences of ... |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 218 | 2026-10-10 | Zed plugin for automatic time tracking and metrics generated... |
+| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-10-10 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-10-09 | Zed editor support for Carve, a modern light markup language |
 | [lazyanubis/zed-graphite](https://github.com/lazyanubis/zed-graphite) | 0 | 2026-10-09 | A charcoal Zed theme with blue keywords, purple control flow... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 99 | 2026-10-09 | True Dark Theme for Zed IDE |
 | [chiploom/zed-wit](https://github.com/chiploom/zed-wit) | 0 | 2026-10-09 | Modern WIT language support for Zed, with Tree-sitter syntax... |
-| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-10-08 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [nertzy/zed-bats](https://github.com/nertzy/zed-bats) | 1 | 2026-10-08 | Bats (Bash Automated Testing System) support for Zed: run ea... |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 140 | 2026-10-08 | The Ruby language support for Zed editor |
 | [gesundes/zed-ansible-vault](https://github.com/gesundes/zed-ansible-vault) | 0 | 2026-10-08 | Encrypt and decrypt Ansible Vault files and inline !vault YA... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-10-10T06:59 | 0 | 663 | 2338 |
 | 2026-10-10T01:19 | 0 | 663 | 2338 |
 | 2026-10-09T18:52 | 1 | 662 | 2338 |
 | 2026-10-09T12:58 | 5 | 662 | 2337 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-10-08T12:59 | 0 | 661 | 2331 |
 | 2026-10-08T07:04 | 0 | 661 | 2331 |
 | 2026-10-08T01:20 | 1 | 660 | 2331 |
-| 2026-10-07T18:54 | 0 | 661 | 2330 |
 
 ---
 
