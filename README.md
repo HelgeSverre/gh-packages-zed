@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1872** |
 | In official registry | 1352 |
 | Discovered via topics | 520 |
-| Last updated | 2026-10-10 06:59 UTC |
+| Last updated | 2026-10-10 12:54 UTC |
 
 ### By capability
 
@@ -97,7 +97,7 @@ cd website && npm install && npm run dev
 |---|---|---|
 | [biomejs/biome-zed](https://github.com/biomejs/biome-zed) | 466 | Biome extension for Zed |
 | [xhyrom/zed-discord-presence](https://github.com/xhyrom/zed-discord-presence) | 415 | extension for zed that adds support for discord rich presence using lsp |
-| [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 337 | Catppuccin Theme but as blurred variants + custom ones |
+| [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 338 | Catppuccin Theme but as blurred variants + custom ones |
 | [oxc-project/oxc-zed](https://github.com/oxc-project/oxc-zed) | 256 | Oxc extension for Zed |
 | [catppuccin/zed-icons](https://github.com/catppuccin/zed-icons) | 240 | 🦊 Soothing pastel icons for Zed |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 218 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
@@ -120,12 +120,13 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 10 | 2026-10-10 | Spring Boot language intelligence for Zed, built on the requ... |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 99 | 2026-10-10 | True Dark Theme for Zed IDE |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-10-10 | A Zed extension that allows to highlight all occurrences of ... |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 218 | 2026-10-10 | Zed plugin for automatic time tracking and metrics generated... |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-10-10 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-10-09 | Zed editor support for Carve, a modern light markup language |
 | [lazyanubis/zed-graphite](https://github.com/lazyanubis/zed-graphite) | 0 | 2026-10-09 | A charcoal Zed theme with blue keywords, purple control flow... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 99 | 2026-10-09 | True Dark Theme for Zed IDE |
 | [chiploom/zed-wit](https://github.com/chiploom/zed-wit) | 0 | 2026-10-09 | Modern WIT language support for Zed, with Tree-sitter syntax... |
 | [nertzy/zed-bats](https://github.com/nertzy/zed-bats) | 1 | 2026-10-08 | Bats (Bash Automated Testing System) support for Zed: run ea... |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 140 | 2026-10-08 | The Ruby language support for Zed editor |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [rafael-abuawad/vyper-lsp](https://github.com/rafael-abuawad/vyper-lsp) | 0 | 2026-10-05 | Zed extension for the Vyper smart contract language. Syntax ... |
 | [pataruco/zed-mjml](https://github.com/pataruco/zed-mjml) | 3 | 2026-10-04 | MJML syntax support for Zed |
 | [atomicptr/zed-moonbug](https://github.com/atomicptr/zed-moonbug) | 0 | 2026-10-04 | Lua debugger for Zed, powered by moonbug |
-| [freshjuice-dev/zed-hubl](https://github.com/freshjuice-dev/zed-hubl) | 0 | 2026-10-04 | HubL (HubSpot templating) syntax highlighting for Zed. Bundl... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-10-10T12:54 | 0 | 663 | 2338 |
 | 2026-10-10T06:59 | 0 | 663 | 2338 |
 | 2026-10-10T01:19 | 0 | 663 | 2338 |
 | 2026-10-09T18:52 | 1 | 662 | 2338 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-10-08T18:53 | 1 | 661 | 2332 |
 | 2026-10-08T12:59 | 0 | 661 | 2331 |
 | 2026-10-08T07:04 | 0 | 661 | 2331 |
-| 2026-10-08T01:20 | 1 | 660 | 2331 |
 
 ---
 
