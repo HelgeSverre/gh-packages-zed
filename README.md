@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1874** |
 | In official registry | 1352 |
 | Discovered via topics | 522 |
-| Last updated | 2026-10-11 01:25 UTC |
+| Last updated | 2026-10-11 07:00 UTC |
 
 ### By capability
 
@@ -105,7 +105,7 @@ cd website && npm install && npm run dev
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 201 | Typst extension for zed |
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
-| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 188 | 🦊 Zed editor theme ported from Neovim |
+| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 189 | 🦊 Zed editor theme ported from Neovim |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 178 | A macOS native style theme for Zed, let it same like native app in macOS. |
@@ -129,7 +129,7 @@ cd website && npm install && npm run dev
 | [encore-ecosystem/encore-zed](https://github.com/encore-ecosystem/encore-zed) | 0 | 2026-10-10 |  |
 | [gabbro-lang/zed-gabbro](https://github.com/gabbro-lang/zed-gabbro) | 0 | 2026-10-10 | Zed extension for the Gabbro programming language: syntax hi... |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-10-10 | Zed editor support for Carve, a modern light markup language |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 99 | 2026-10-10 | True Dark Theme for Zed IDE |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 100 | 2026-10-10 | True Dark Theme for Zed IDE |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-10-10 | A Zed extension that allows to highlight all occurrences of ... |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 218 | 2026-10-10 | Zed plugin for automatic time tracking and metrics generated... |
 | [lazyanubis/zed-graphite](https://github.com/lazyanubis/zed-graphite) | 0 | 2026-10-09 | A charcoal Zed theme with blue keywords, purple control flow... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-10-11T07:00 | 1 | 664 | 2341 |
 | 2026-10-11T01:25 | 1 | 663 | 2340 |
 | 2026-10-10T18:50 | 1 | 663 | 2339 |
 | 2026-10-10T12:54 | 0 | 663 | 2338 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-10-09T12:58 | 5 | 662 | 2337 |
 | 2026-10-09T07:03 | 0 | 662 | 2332 |
 | 2026-10-09T01:22 | 0 | 662 | 2332 |
-| 2026-10-08T18:53 | 1 | 661 | 2332 |
 
 ---
 

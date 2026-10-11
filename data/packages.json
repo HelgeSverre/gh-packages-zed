@@ -148,7 +148,7 @@
     "name": "Imgkl/the-dark-side",
     "url": "https://github.com/Imgkl/the-dark-side",
     "description": "True Dark Theme for Zed IDE",
-    "stars": 99,
+    "stars": 100,
     "forks": 6,
     "topics": [
       "zed-extension",
@@ -157,7 +157,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-10-10T07:46:17Z",
+    "updated_at": "2026-10-11T05:09:36Z",
     "pushed_at": "2026-10-10T07:46:13Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -6250,7 +6250,7 @@
     "name": "cange/nightfox.zed",
     "url": "https://github.com/cange/nightfox.zed",
     "description": "🦊 Zed editor theme ported from Neovim",
-    "stars": 188,
+    "stars": 189,
     "forks": 5,
     "topics": [
       "zed",
@@ -6259,7 +6259,7 @@
     "language": "Lua",
     "license": "MIT",
     "created_at": "2024-05-02T20:49:30Z",
-    "updated_at": "2026-10-08T04:58:08Z",
+    "updated_at": "2026-10-11T01:44:41Z",
     "pushed_at": "2026-08-27T11:32:49Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": true
@@ -14589,7 +14589,7 @@
     "name": "skarline/zed-fleet-themes",
     "url": "https://github.com/skarline/zed-fleet-themes",
     "description": "🚢 Transform Zed with Fleet's sleek, modern aesthetic for a sublime coding experience.",
-    "stars": 90,
+    "stars": 91,
     "forks": 8,
     "topics": [
       "zed",
@@ -14600,7 +14600,7 @@
     "language": "TypeScript",
     "license": null,
     "created_at": "2024-03-04T23:56:09Z",
-    "updated_at": "2026-09-23T07:30:02Z",
+    "updated_at": "2026-10-11T01:43:34Z",
     "pushed_at": "2025-03-13T17:22:47Z",
     "discovered_at": "2026-05-19T20:15:46.472Z",
     "official": true
@@ -15449,8 +15449,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
-    "updated_at": "2026-10-10T23:55:30Z",
-    "pushed_at": "2026-10-09T20:04:17Z",
+    "updated_at": "2026-10-11T06:34:06Z",
+    "pushed_at": "2026-10-11T06:44:55Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -18008,8 +18008,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-10-10T18:51:24Z",
-    "pushed_at": "2026-10-10T18:51:20Z",
+    "updated_at": "2026-10-11T01:25:45Z",
+    "pushed_at": "2026-10-11T01:25:42Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -38413,7 +38413,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-09-21T20:10:00Z",
     "updated_at": "2026-10-10T10:14:51Z",
-    "pushed_at": "2026-10-11T01:06:18Z",
+    "pushed_at": "2026-10-11T06:20:19Z",
     "discovered_at": "2026-09-21T22:12:12.101Z",
     "official": false
   },
@@ -39916,8 +39916,8 @@
     "language": "TypeScript",
     "license": null,
     "created_at": "2026-09-04T07:49:15Z",
-    "updated_at": "2026-10-10T04:03:44Z",
-    "pushed_at": "2026-10-09T18:56:10Z",
+    "updated_at": "2026-10-11T04:38:11Z",
+    "pushed_at": "2026-10-11T04:38:07Z",
     "discovered_at": "2026-09-30T12:59:15.249Z",
     "official": false
   },
@@ -40404,8 +40404,8 @@
     "language": "TypeScript",
     "license": "Apache-2.0",
     "created_at": "2026-10-06T03:31:12Z",
-    "updated_at": "2026-10-10T11:56:39Z",
-    "pushed_at": "2026-10-10T11:56:37Z",
+    "updated_at": "2026-10-11T06:51:28Z",
+    "pushed_at": "2026-10-11T06:51:26Z",
     "discovered_at": "2026-10-06T12:56:24.959Z",
     "official": false
   },
@@ -40724,6 +40724,30 @@
     "updated_at": "2026-10-10T21:07:32Z",
     "pushed_at": "2026-10-10T21:07:28Z",
     "discovered_at": "2026-10-11T01:25:03.666Z",
+    "official": false
+  },
+  "w0x7y/rime": {
+    "name": "w0x7y/Rime",
+    "url": "https://github.com/w0x7y/Rime",
+    "description": "A colder colorscheme",
+    "stars": 1,
+    "forks": 0,
+    "topics": [
+      "base16",
+      "colorscheme",
+      "dark-theme",
+      "neovim",
+      "neovim-colorscheme",
+      "terminal-theme",
+      "vscode-theme",
+      "zed-theme"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "created_at": "2026-10-11T05:32:19Z",
+    "updated_at": "2026-10-11T06:26:18Z",
+    "pushed_at": "2026-10-11T06:26:15Z",
+    "discovered_at": "2026-10-11T07:00:45.399Z",
     "official": false
   }
 }
