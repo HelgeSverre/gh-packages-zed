@@ -2621,10 +2621,10 @@
       "zed-extension"
     ],
     "language": null,
-    "license": null,
+    "license": "MIT",
     "created_at": "2024-10-21T20:24:05Z",
-    "updated_at": "2026-03-22T22:29:04Z",
-    "pushed_at": "2026-03-08T18:44:52Z",
+    "updated_at": "2026-10-11T01:00:25Z",
+    "pushed_at": "2026-10-11T01:00:22Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -6324,7 +6324,7 @@
     "name": "felipefdl/warm-burnout",
     "url": "https://github.com/felipefdl/warm-burnout",
     "description": "Mostly warm, WCAG-audited color theme suite with one cool type accent. For developers who are already burned out but still have deadlines.",
-    "stars": 122,
+    "stars": 123,
     "forks": 13,
     "topics": [
       "accessibility",
@@ -6351,7 +6351,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-03-13T20:17:28Z",
-    "updated_at": "2026-10-09T11:23:14Z",
+    "updated_at": "2026-10-10T20:13:16Z",
     "pushed_at": "2026-09-25T03:03:08Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": true
@@ -12927,7 +12927,7 @@
     "url": "https://github.com/owlx56/zed-lean4",
     "description": "",
     "stars": 60,
-    "forks": 13,
+    "forks": 14,
     "topics": [],
     "language": "Rust",
     "license": "Apache-2.0",
@@ -15422,7 +15422,7 @@
     "name": "agent-sh/agnix",
     "url": "https://github.com/agent-sh/agnix",
     "description": "The missing linter and lsp for AI coding assistants. Validate CLAUDE.md, AGENTS.md, SKILL.md, hooks, MCP. Plugin for all major IDEs included, with autofixes.",
-    "stars": 446,
+    "stars": 445,
     "forks": 34,
     "topics": [
       "agent",
@@ -15449,7 +15449,7 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
-    "updated_at": "2026-10-09T19:21:45Z",
+    "updated_at": "2026-10-10T23:55:30Z",
     "pushed_at": "2026-10-09T20:04:17Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
@@ -18008,8 +18008,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-10-10T12:54:47Z",
-    "pushed_at": "2026-10-10T12:54:43Z",
+    "updated_at": "2026-10-10T18:51:24Z",
+    "pushed_at": "2026-10-10T18:51:20Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -25263,8 +25263,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-07-01T21:28:51Z",
-    "updated_at": "2026-09-24T20:34:11Z",
-    "pushed_at": "2026-09-24T20:34:06Z",
+    "updated_at": "2026-10-10T19:19:57Z",
+    "pushed_at": "2026-10-10T19:19:54Z",
     "discovered_at": "2026-05-20T02:57:03.419Z",
     "official": true
   },
@@ -32019,8 +32019,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
-    "updated_at": "2026-10-10T18:41:56Z",
-    "pushed_at": "2026-10-10T18:41:52Z",
+    "updated_at": "2026-10-10T19:48:29Z",
+    "pushed_at": "2026-10-10T20:41:25Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false
   },
@@ -32702,8 +32702,8 @@
     "language": "JavaScript",
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
-    "updated_at": "2026-10-10T12:38:29Z",
-    "pushed_at": "2026-10-10T12:39:19Z",
+    "updated_at": "2026-10-10T23:35:39Z",
+    "pushed_at": "2026-10-10T23:35:37Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false
   },
@@ -38413,7 +38413,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-09-21T20:10:00Z",
     "updated_at": "2026-10-10T10:14:51Z",
-    "pushed_at": "2026-10-10T18:21:40Z",
+    "pushed_at": "2026-10-11T01:06:18Z",
     "discovered_at": "2026-09-21T22:12:12.101Z",
     "official": false
   },
@@ -40705,6 +40705,25 @@
     "updated_at": "2026-10-10T15:07:40Z",
     "pushed_at": "2026-10-10T15:07:36Z",
     "discovered_at": "2026-10-10T18:50:48.428Z",
+    "official": false
+  },
+  "fels-lang/zed-fels": {
+    "name": "fels-lang/zed-fels",
+    "url": "https://github.com/fels-lang/zed-fels",
+    "description": "Zed extension for the Fels programming language (formerly Gabbro): syntax highlighting and language server",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "gabbro",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Tree-sitter Query",
+    "license": "Apache-2.0",
+    "created_at": "2026-10-10T14:47:20Z",
+    "updated_at": "2026-10-10T21:07:32Z",
+    "pushed_at": "2026-10-10T21:07:28Z",
+    "discovered_at": "2026-10-11T01:25:03.666Z",
     "official": false
   }
 }

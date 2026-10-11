@@ -4061,10 +4061,10 @@
       "zed-extension"
     ],
     "language": null,
-    "license": null,
+    "license": "MIT",
     "created_at": "2024-10-21T20:24:05Z",
-    "updated_at": "2026-03-22T22:29:04Z",
-    "pushed_at": "2026-03-08T18:44:52Z",
+    "updated_at": "2026-10-11T01:00:25Z",
+    "pushed_at": "2026-10-11T01:00:22Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -18820,7 +18820,7 @@
     "url": "https://github.com/owlx56/zed-lean4",
     "description": "",
     "stars": 60,
-    "forks": 13,
+    "forks": 14,
     "topics": [],
     "language": "Rust",
     "license": "Apache-2.0",
@@ -42978,8 +42978,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-07-01T21:28:51Z",
-    "updated_at": "2026-09-24T20:34:11Z",
-    "pushed_at": "2026-09-24T20:34:06Z",
+    "updated_at": "2026-10-10T19:19:57Z",
+    "pushed_at": "2026-10-10T19:19:54Z",
     "discovered_at": "2026-05-20T02:57:03.419Z",
     "official": true,
     "extension": {
@@ -53721,8 +53721,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
-    "updated_at": "2026-10-10T18:41:56Z",
-    "pushed_at": "2026-10-10T18:41:52Z",
+    "updated_at": "2026-10-10T19:48:29Z",
+    "pushed_at": "2026-10-10T20:41:25Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false,
     "extension": {
@@ -54657,8 +54657,8 @@
     "language": "JavaScript",
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
-    "updated_at": "2026-10-10T12:38:29Z",
-    "pushed_at": "2026-10-10T12:39:19Z",
+    "updated_at": "2026-10-10T23:35:39Z",
+    "pushed_at": "2026-10-10T23:35:37Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false,
     "extension": {
@@ -64435,6 +64435,45 @@
         "Christian Brendlin"
       ],
       "repository": "https://github.com/gabbro-lang/zed-gabbro",
+      "snippets": null,
+      "sections": [
+        "language_servers",
+        "grammars"
+      ],
+      "categories": [
+        "grammar",
+        "language-server"
+      ]
+    }
+  },
+  "fels-lang/zed-fels": {
+    "name": "fels-lang/zed-fels",
+    "url": "https://github.com/fels-lang/zed-fels",
+    "description": "Zed extension for the Fels programming language (formerly Gabbro): syntax highlighting and language server",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "gabbro",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Tree-sitter Query",
+    "license": "Apache-2.0",
+    "created_at": "2026-10-10T14:47:20Z",
+    "updated_at": "2026-10-10T21:07:32Z",
+    "pushed_at": "2026-10-10T21:07:28Z",
+    "discovered_at": "2026-10-11T01:25:03.666Z",
+    "official": false,
+    "extension": {
+      "id": "fels",
+      "name": "Fels",
+      "description": "Syntax highlighting and the language server for the Fels programming language.",
+      "version": "0.3.0",
+      "schema_version": 1,
+      "authors": [
+        "Christian Brendlin"
+      ],
+      "repository": "https://github.com/fels-lang/zed-fels",
       "snippets": null,
       "sections": [
         "language_servers",
