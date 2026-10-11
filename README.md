@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1874-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1875-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,17 +14,17 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1874** |
+| Total tracked | **1875** |
 | In official registry | 1352 |
-| Discovered via topics | 522 |
-| Last updated | 2026-10-11 12:56 UTC |
+| Discovered via topics | 523 |
+| Last updated | 2026-10-11 18:51 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
 | Themes | 809 |
-| Grammars | 651 |
+| Grammars | 652 |
 | Language Servers | 603 |
 | Context Servers | 139 |
 | Snippets | 93 |
@@ -70,6 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [sachadvr/zed-razor](https://github.com/sachadvr/zed-razor) | 1 | Razor (.razor / .cshtml) syntax highlighting for the Zed editor |
 | [fels-lang/zed-fels](https://github.com/fels-lang/zed-fels) | 0 | Zed extension for the Fels programming language (formerly Gabbro): syntax highli... |
 | [gabbro-lang/zed-gabbro](https://github.com/gabbro-lang/zed-gabbro) | 0 | Zed extension for the Gabbro programming language: syntax highlighting and langu... |
 | [nertzy/zed-bats](https://github.com/nertzy/zed-bats) | 1 | Bats (Bash Automated Testing System) support for Zed: run each @test from the gu... |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [arobsn/edge-zed](https://github.com/arobsn/edge-zed) | 0 | Clean & Elegant Color Scheme inspired by Atom One and Material |
 | [Dhanush-S-Gowda/zed-theme-Pure-Black-High-Contrast](https://github.com/Dhanush-S-Gowda/zed-theme-Pure-Black-High-Contrast) | 1 | Pure black OLED-friendly high contrast theme for Zed with bright syntax colors a... |
 | [sequelcore/zed-theme](https://github.com/sequelcore/zed-theme) | 0 | Sequel Ink and Sequel Void themes for the Zed editor |
-| [Fruit-Guardians/codeql-zed](https://github.com/Fruit-Guardians/codeql-zed) | 0 | CodeQL language support for Zed with Tree-sitter syntax highlighting and the Cod... |
 
 ## Top starred (under 500)
 
@@ -120,6 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [sachadvr/zed-razor](https://github.com/sachadvr/zed-razor) | 1 | 2026-10-11 | Razor (.razor / .cshtml) syntax highlighting for the Zed edi... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 100 | 2026-10-11 | True Dark Theme for Zed IDE |
 | [adechlien/adech-theme-zed](https://github.com/adechlien/adech-theme-zed) | 1 | 2026-10-11 | Adech Theme for Zed IDE |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 10 | 2026-10-10 | Spring Boot language intelligence for Zed, built on the requ... |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [gesundes/zed-ansible-vault](https://github.com/gesundes/zed-ansible-vault) | 0 | 2026-10-08 | Encrypt and decrypt Ansible Vault files and inline !vault YA... |
 | [silenttwin/blue-velvet](https://github.com/silenttwin/blue-velvet) | 0 | 2026-10-08 | A deep blue color scheme for the Zed/Gram text editors featu... |
 | [sigrunixia/Tenebrous-Zed](https://github.com/sigrunixia/Tenebrous-Zed) | 0 | 2026-10-08 | A dark Zed theme in the Tenebrous colour scheme. |
-| [NeroWolfe75/brackets-refined-zed](https://github.com/NeroWolfe75/brackets-refined-zed) | 0 | 2026-10-07 | A refined dark theme for Zed with a neutral interface and ca... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-10-11T18:51 | 2 | 664 | 2343 |
 | 2026-10-11T12:56 | 0 | 665 | 2341 |
 | 2026-10-11T07:00 | 1 | 664 | 2341 |
 | 2026-10-11T01:25 | 1 | 663 | 2340 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-10-10T01:19 | 0 | 663 | 2338 |
 | 2026-10-09T18:52 | 1 | 662 | 2338 |
 | 2026-10-09T12:58 | 5 | 662 | 2337 |
-| 2026-10-09T07:03 | 0 | 662 | 2332 |
 
 ---
 

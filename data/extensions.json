@@ -2041,7 +2041,7 @@
     "name": "foxoman/zed-nim",
     "url": "https://github.com/foxoman/zed-nim",
     "description": "Nim support for Zed Editor",
-    "stars": 50,
+    "stars": 51,
     "forks": 5,
     "topics": [
       "nim",
@@ -2052,7 +2052,7 @@
     "language": "Tree-sitter Query",
     "license": "Apache-2.0",
     "created_at": "2024-07-12T08:06:46Z",
-    "updated_at": "2026-09-24T18:34:20Z",
+    "updated_at": "2026-10-11T13:33:32Z",
     "pushed_at": "2026-04-20T19:10:13Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -47928,7 +47928,7 @@
     "url": "https://github.com/y7ya-com/vscode-dark-polished",
     "description": "",
     "stars": 7,
-    "forks": 2,
+    "forks": 3,
     "topics": [],
     "language": null,
     "license": "MIT",
@@ -64482,6 +64482,44 @@
       "categories": [
         "grammar",
         "language-server"
+      ]
+    }
+  },
+  "sachadvr/zed-razor": {
+    "name": "sachadvr/zed-razor",
+    "url": "https://github.com/sachadvr/zed-razor",
+    "description": "Razor (.razor / .cshtml) syntax highlighting for the Zed editor",
+    "stars": 1,
+    "forks": 0,
+    "topics": [
+      "razor",
+      "tree-sitter",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Tree-sitter Query",
+    "license": null,
+    "created_at": "2025-11-26T20:14:19Z",
+    "updated_at": "2026-10-11T15:36:14Z",
+    "pushed_at": "2026-10-11T15:36:12Z",
+    "discovered_at": "2026-10-11T18:51:15.599Z",
+    "official": false,
+    "extension": {
+      "id": "razor",
+      "name": "Razor",
+      "description": "Basic Razor syntax highlighting for Zed.",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Sacha"
+      ],
+      "repository": "https://github.com/sachadvr/zed-razor",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
       ]
     }
   }
