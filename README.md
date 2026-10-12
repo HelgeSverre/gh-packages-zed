@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1876** |
 | In official registry | 1352 |
 | Discovered via topics | 524 |
-| Last updated | 2026-10-12 01:28 UTC |
+| Last updated | 2026-10-12 07:21 UTC |
 
 ### By capability
 
@@ -120,7 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 10 | 2026-10-11 | Spring Boot language intelligence for Zed, built on the requ... |
+| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 11 | 2026-10-11 | Spring Boot language intelligence for Zed, built on the requ... |
 | [PrincessSiren/zed-sweet-theme](https://github.com/PrincessSiren/zed-sweet-theme) | 0 | 2026-10-11 | Sweet theme for Zed: deep plum + hot pink (dark), blush + la... |
 | [sachadvr/zed-razor](https://github.com/sachadvr/zed-razor) | 1 | 2026-10-11 | Razor (.razor / .cshtml) syntax highlighting for the Zed edi... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 100 | 2026-10-11 | True Dark Theme for Zed IDE |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-10-12T07:21 | 0 | 666 | 2344 |
 | 2026-10-12T01:28 | 1 | 666 | 2344 |
 | 2026-10-11T18:51 | 2 | 664 | 2343 |
 | 2026-10-11T12:56 | 0 | 665 | 2341 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-10-10T12:54 | 0 | 663 | 2338 |
 | 2026-10-10T06:59 | 0 | 663 | 2338 |
 | 2026-10-10T01:19 | 0 | 663 | 2338 |
-| 2026-10-09T18:52 | 1 | 662 | 2338 |
 
 ---
 
