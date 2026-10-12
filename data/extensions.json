@@ -1043,8 +1043,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-03-27T21:17:19Z",
-    "updated_at": "2026-09-18T14:15:35Z",
-    "pushed_at": "2026-05-08T15:27:24Z",
+    "updated_at": "2026-10-12T18:11:53Z",
+    "pushed_at": "2026-10-12T18:11:49Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -54658,8 +54658,8 @@
     "language": "JavaScript",
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
-    "updated_at": "2026-10-12T01:36:53Z",
-    "pushed_at": "2026-10-11T23:14:45Z",
+    "updated_at": "2026-10-12T16:46:17Z",
+    "pushed_at": "2026-10-12T16:46:13Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false,
     "extension": {
@@ -63001,8 +63001,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-09-25T09:59:14Z",
-    "updated_at": "2026-09-30T15:17:33Z",
-    "pushed_at": "2026-09-30T15:17:28Z",
+    "updated_at": "2026-10-12T18:45:39Z",
+    "pushed_at": "2026-10-12T18:45:35Z",
     "discovered_at": "2026-09-25T12:54:21.385Z",
     "official": true,
     "extension": {
@@ -63811,15 +63811,23 @@
   "dhanush-s-gowda/zed-theme-pure-black-high-contrast": {
     "name": "Dhanush-S-Gowda/zed-theme-Pure-Black-High-Contrast",
     "url": "https://github.com/Dhanush-S-Gowda/zed-theme-Pure-Black-High-Contrast",
-    "description": "Pure black OLED-friendly high contrast theme for Zed with bright syntax colors and minimal dark UI",
+    "description": "Pure black & high contrast theme for Zed with bright syntax colors",
     "stars": 1,
     "forks": 0,
-    "topics": [],
+    "topics": [
+      "dark-mode",
+      "dark-theme",
+      "high-contrast",
+      "theme",
+      "zed",
+      "zed-editor",
+      "zed-theme"
+    ],
     "language": null,
     "license": "MIT",
     "created_at": "2026-09-29T04:27:09Z",
-    "updated_at": "2026-09-29T04:48:53Z",
-    "pushed_at": "2026-09-29T04:48:27Z",
+    "updated_at": "2026-10-12T18:45:16Z",
+    "pushed_at": "2026-10-12T18:43:35Z",
     "discovered_at": "2026-10-01T12:58:05.303Z",
     "official": true,
     "extension": {
@@ -64553,6 +64561,43 @@
         "PrincessSiren <48842744+PrincessSiren@users.noreply.github.com>"
       ],
       "repository": "https://github.com/PrincessSiren/zed-sweet-theme",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "relaxed-theme/zed-theme-relaxed": {
+    "name": "Relaxed-Theme/zed-theme-relaxed",
+    "url": "https://github.com/Relaxed-Theme/zed-theme-relaxed",
+    "description": "🕶️ A relaxed Zed theme to take a more relaxed view of things.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "relaxed",
+      "relaxed-theme",
+      "theme",
+      "zed",
+      "zed-theme"
+    ],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-10-12T15:16:48Z",
+    "updated_at": "2026-10-12T16:37:25Z",
+    "pushed_at": "2026-10-12T16:35:22Z",
+    "discovered_at": "2026-10-12T18:54:52.155Z",
+    "official": false,
+    "extension": {
+      "id": "relaxed-theme",
+      "name": "Relaxed",
+      "description": "A port of the Relaxed VS Code theme by Michael Kühnel. Dark theme with easy on the eyes colors.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Stefan Cosma <hi@stefancosma.xyz>"
+      ],
+      "repository": "https://github.com/stefanbc/relaxed-theme-zed",
       "snippets": null,
       "sections": [],
       "categories": [
