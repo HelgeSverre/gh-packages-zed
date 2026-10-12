@@ -605,7 +605,7 @@
     "name": "panxiaoan/falcon-zed-themes",
     "url": "https://github.com/panxiaoan/falcon-zed-themes",
     "description": "A gentle, eye-friendly themes to protect your eyesight for Zed. 一个温和的，对眼睛友好，保护视力的 Zed 护眼主题。",
-    "stars": 3,
+    "stars": 4,
     "forks": 0,
     "topics": [
       "eye-friendly",
@@ -617,7 +617,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-05-09T06:30:28Z",
-    "updated_at": "2026-06-08T06:44:39Z",
+    "updated_at": "2026-10-11T23:38:31Z",
     "pushed_at": "2026-05-22T01:41:00Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -2469,7 +2469,7 @@
     "name": "MrAMS/zed-auto-file-header",
     "url": "https://github.com/MrAMS/zed-auto-file-header",
     "description": "A Zed extension that inserts a customizable file header (Filename, Author, Date, Copyright) automatically when you create a new, empty file.",
-    "stars": 8,
+    "stars": 9,
     "forks": 4,
     "topics": [
       "file-header",
@@ -2479,7 +2479,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2025-11-23T12:49:30Z",
-    "updated_at": "2026-09-04T02:07:16Z",
+    "updated_at": "2026-10-11T23:39:11Z",
     "pushed_at": "2026-09-04T02:07:11Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -22132,7 +22132,7 @@
     "name": "davccavalcante/oxocarbon-theme-for-zed",
     "url": "https://github.com/davccavalcante/oxocarbon-theme-for-zed",
     "description": "The \"Oxocarbon Theme for Zed\" brings the sleek, modern aesthetics inspired by IBM Carbon Design System to your Zed editor. This theme is meticulously crafted to offer a refined and professional visual experience, available in multiple dark variations. The Oxocarbon Theme transforms your coding environment with its distinct, elegant style.",
-    "stars": 24,
+    "stars": 25,
     "forks": 3,
     "topics": [
       "davidccavalcante",
@@ -22151,7 +22151,7 @@
     "language": null,
     "license": "CC0-1.0",
     "created_at": "2024-08-01T01:36:49Z",
-    "updated_at": "2026-09-29T00:00:22Z",
+    "updated_at": "2026-10-11T21:55:57Z",
     "pushed_at": "2025-02-24T01:59:01Z",
     "discovered_at": "2026-05-19T20:15:46.472Z",
     "official": false,
@@ -30716,13 +30716,13 @@
     "name": "zed-extensions/git_firefly",
     "url": "https://github.com/zed-extensions/git_firefly",
     "description": "",
-    "stars": 155,
+    "stars": 156,
     "forks": 6,
     "topics": [],
     "language": "Tree-sitter Query",
     "license": "Apache-2.0",
     "created_at": "2024-02-19T14:56:35Z",
-    "updated_at": "2026-10-11T08:44:22Z",
+    "updated_at": "2026-10-11T21:55:56Z",
     "pushed_at": "2026-07-28T23:40:00Z",
     "discovered_at": "2026-05-19T21:42:53.670Z",
     "official": false,
@@ -54657,8 +54657,8 @@
     "language": "JavaScript",
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
-    "updated_at": "2026-10-10T23:35:39Z",
-    "pushed_at": "2026-10-10T23:35:37Z",
+    "updated_at": "2026-10-11T23:14:47Z",
+    "pushed_at": "2026-10-11T23:14:45Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false,
     "extension": {
@@ -64520,6 +64520,42 @@
       ],
       "categories": [
         "grammar"
+      ]
+    }
+  },
+  "princesssiren/zed-sweet-theme": {
+    "name": "PrincessSiren/zed-sweet-theme",
+    "url": "https://github.com/PrincessSiren/zed-sweet-theme",
+    "description": "Sweet theme for Zed: deep plum + hot pink (dark), blush + lavender (light). Matches claude-desktop-extra's Sweet.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "sweet",
+      "theme",
+      "zed",
+      "zed-theme"
+    ],
+    "language": "Python",
+    "license": "GPL-3.0",
+    "created_at": "2026-10-11T21:42:53Z",
+    "updated_at": "2026-10-11T21:43:01Z",
+    "pushed_at": "2026-10-11T23:06:42Z",
+    "discovered_at": "2026-10-12T01:28:54.029Z",
+    "official": false,
+    "extension": {
+      "id": "sweet-theme",
+      "name": "Sweet",
+      "description": "Sweet Dark and Sweet Light: deep plum with hot pink, and blush with lavender.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "PrincessSiren <48842744+PrincessSiren@users.noreply.github.com>"
+      ],
+      "repository": "https://github.com/PrincessSiren/zed-sweet-theme",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
       ]
     }
   }
