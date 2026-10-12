@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1876** |
 | In official registry | 1352 |
 | Discovered via topics | 524 |
-| Last updated | 2026-10-12 07:21 UTC |
+| Last updated | 2026-10-12 13:15 UTC |
 
 ### By capability
 
@@ -97,7 +97,7 @@ cd website && npm install && npm run dev
 |---|---|---|
 | [biomejs/biome-zed](https://github.com/biomejs/biome-zed) | 466 | Biome extension for Zed |
 | [xhyrom/zed-discord-presence](https://github.com/xhyrom/zed-discord-presence) | 415 | extension for zed that adds support for discord rich presence using lsp |
-| [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 338 | Catppuccin Theme but as blurred variants + custom ones |
+| [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 339 | Catppuccin Theme but as blurred variants + custom ones |
 | [oxc-project/oxc-zed](https://github.com/oxc-project/oxc-zed) | 256 | Oxc extension for Zed |
 | [catppuccin/zed-icons](https://github.com/catppuccin/zed-icons) | 240 | 🦊 Soothing pastel icons for Zed |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 218 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
@@ -120,10 +120,10 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 100 | 2026-10-12 | True Dark Theme for Zed IDE |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 11 | 2026-10-11 | Spring Boot language intelligence for Zed, built on the requ... |
 | [PrincessSiren/zed-sweet-theme](https://github.com/PrincessSiren/zed-sweet-theme) | 0 | 2026-10-11 | Sweet theme for Zed: deep plum + hot pink (dark), blush + la... |
 | [sachadvr/zed-razor](https://github.com/sachadvr/zed-razor) | 1 | 2026-10-11 | Razor (.razor / .cshtml) syntax highlighting for the Zed edi... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 100 | 2026-10-11 | True Dark Theme for Zed IDE |
 | [adechlien/adech-theme-zed](https://github.com/adechlien/adech-theme-zed) | 1 | 2026-10-11 | Adech Theme for Zed IDE |
 | [fels-lang/zed-fels](https://github.com/fels-lang/zed-fels) | 0 | 2026-10-10 | Zed extension for the Fels programming language (formerly Ga... |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-10-10 | Intelligent codebase search & indexing for Zed. Async MCP se... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-10-12T13:15 | 1 | 666 | 2345 |
 | 2026-10-12T07:21 | 0 | 666 | 2344 |
 | 2026-10-12T01:28 | 1 | 666 | 2344 |
 | 2026-10-11T18:51 | 2 | 664 | 2343 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-10-10T18:50 | 1 | 663 | 2339 |
 | 2026-10-10T12:54 | 0 | 663 | 2338 |
 | 2026-10-10T06:59 | 0 | 663 | 2338 |
-| 2026-10-10T01:19 | 0 | 663 | 2338 |
 
 ---
 
