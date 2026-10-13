@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1877-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1878-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,16 +14,16 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1877** |
+| Total tracked | **1878** |
 | In official registry | 1352 |
-| Discovered via topics | 525 |
-| Last updated | 2026-10-12 18:54 UTC |
+| Discovered via topics | 526 |
+| Last updated | 2026-10-13 01:23 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
-| Themes | 811 |
+| Themes | 812 |
 | Grammars | 652 |
 | Language Servers | 603 |
 | Context Servers | 139 |
@@ -70,7 +70,8 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
-| [Relaxed-Theme/zed-theme-relaxed](https://github.com/Relaxed-Theme/zed-theme-relaxed) | 0 | 🕶️ A relaxed Zed theme to take a more relaxed view of things. |
+| [InacioPS/gruvbox-frameless-theme](https://github.com/InacioPS/gruvbox-frameless-theme) | 0 | Frameless Gruvbox themes for Zed with six dark variants, transparent editor guid... |
+| [Relaxed-Theme/zed-theme-relaxed](https://github.com/Relaxed-Theme/zed-theme-relaxed) | 1 | 🕶️ A relaxed Zed theme to take a more relaxed view of things. |
 | [PrincessSiren/zed-sweet-theme](https://github.com/PrincessSiren/zed-sweet-theme) | 0 | Sweet theme for Zed: deep plum + hot pink (dark), blush + lavender (light). Matc... |
 | [sachadvr/zed-razor](https://github.com/sachadvr/zed-razor) | 1 | Razor (.razor / .cshtml) syntax highlighting for the Zed editor |
 | [fels-lang/zed-fels](https://github.com/fels-lang/zed-fels) | 0 | Zed extension for the Fels programming language (formerly Gabbro): syntax highli... |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [nudojs/nudo-zed](https://github.com/nudojs/nudo-zed) | 0 |  |
 | [mihaicrisan04/zed-viper](https://github.com/mihaicrisan04/zed-viper) | 0 | Viper verification language (.vpr) support for Zed: highlighting and verificatio... |
 | [edwinkortman/overpassql-zed-extension](https://github.com/edwinkortman/overpassql-zed-extension) | 1 |  |
-| [arobsn/edge-zed](https://github.com/arobsn/edge-zed) | 0 | Clean & Elegant Color Scheme inspired by Atom One and Material |
 
 ## Top starred (under 500)
 
@@ -101,7 +101,7 @@ cd website && npm install && npm run dev
 | [oxc-project/oxc-zed](https://github.com/oxc-project/oxc-zed) | 256 | Oxc extension for Zed |
 | [catppuccin/zed-icons](https://github.com/catppuccin/zed-icons) | 240 | 🦊 Soothing pastel icons for Zed |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 218 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
-| [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 210 | Zed support for the Godot game engine and the GDScript language |
+| [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 211 | Zed support for the Godot game engine and the GDScript language |
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 201 | Typst extension for zed |
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
@@ -120,18 +120,19 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Relaxed-Theme/zed-theme-relaxed](https://github.com/Relaxed-Theme/zed-theme-relaxed) | 1 | 2026-10-12 | 🕶️ A relaxed Zed theme to take a more relaxed view of thing... |
+| [InacioPS/gruvbox-frameless-theme](https://github.com/InacioPS/gruvbox-frameless-theme) | 0 | 2026-10-12 | Frameless Gruvbox themes for Zed with six dark variants, tra... |
 | [yuukiLike/zed-skin](https://github.com/yuukiLike/zed-skin) | 0 | 2026-10-12 | A high contrast theme collection for Zed. Three AAA-audited ... |
 | [Dhanush-S-Gowda/zed-theme-Pure-Black-High-Contrast](https://github.com/Dhanush-S-Gowda/zed-theme-Pure-Black-High-Contrast) | 1 | 2026-10-12 | Pure black & high contrast theme for Zed with bright syntax ... |
 | [Gurvirr/zed-ultraViolet](https://github.com/Gurvirr/zed-ultraViolet) | 118 | 2026-10-12 | A dark, violet-toned theme designed for quality & visual com... |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 11 | 2026-10-12 | Spring Boot language intelligence for Zed, built on the requ... |
-| [Relaxed-Theme/zed-theme-relaxed](https://github.com/Relaxed-Theme/zed-theme-relaxed) | 0 | 2026-10-12 | 🕶️ A relaxed Zed theme to take a more relaxed view of thing... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 100 | 2026-10-12 | True Dark Theme for Zed IDE |
 | [PrincessSiren/zed-sweet-theme](https://github.com/PrincessSiren/zed-sweet-theme) | 0 | 2026-10-11 | Sweet theme for Zed: deep plum + hot pink (dark), blush + la... |
 | [sachadvr/zed-razor](https://github.com/sachadvr/zed-razor) | 1 | 2026-10-11 | Razor (.razor / .cshtml) syntax highlighting for the Zed edi... |
 | [adechlien/adech-theme-zed](https://github.com/adechlien/adech-theme-zed) | 1 | 2026-10-11 | Adech Theme for Zed IDE |
 | [fels-lang/zed-fels](https://github.com/fels-lang/zed-fels) | 0 | 2026-10-10 | Zed extension for the Fels programming language (formerly Ga... |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-10-10 | Intelligent codebase search & indexing for Zed. Async MCP se... |
-| [SinaMombeiny/S-DarkTheme.zed](https://github.com/SinaMombeiny/S-DarkTheme.zed) | 5 | 2026-10-10 | Dark theme for Zed |
+| [SinaMombeiny/S-DarkTheme.zed](https://github.com/SinaMombeiny/S-DarkTheme.zed) | 5 | 2026-10-10 | Dark theme extension for the Zed code editor |
 | [thoriqakbar0/fsl-lsp](https://github.com/thoriqakbar0/fsl-lsp) | 0 | 2026-10-10 | Pre-alpha FSL grammar, Zed extension, and language-server in... |
 | [encore-ecosystem/encore-zed](https://github.com/encore-ecosystem/encore-zed) | 0 | 2026-10-10 |  |
 | [gabbro-lang/zed-gabbro](https://github.com/gabbro-lang/zed-gabbro) | 0 | 2026-10-10 | Zed extension for the Gabbro programming language: syntax hi... |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-10-10 | A Zed extension that allows to highlight all occurrences of ... |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 218 | 2026-10-10 | Zed plugin for automatic time tracking and metrics generated... |
 | [lazyanubis/zed-graphite](https://github.com/lazyanubis/zed-graphite) | 0 | 2026-10-09 | A charcoal Zed theme with blue keywords, purple control flow... |
-| [chiploom/zed-wit](https://github.com/chiploom/zed-wit) | 0 | 2026-10-09 | Modern WIT language support for Zed, with Tree-sitter syntax... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-10-13T01:23 | 3 | 669 | 2349 |
 | 2026-10-12T18:54 | 1 | 668 | 2346 |
 | 2026-10-12T13:15 | 1 | 666 | 2345 |
 | 2026-10-12T07:21 | 0 | 666 | 2344 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-10-11T07:00 | 1 | 664 | 2341 |
 | 2026-10-11T01:25 | 1 | 663 | 2340 |
 | 2026-10-10T18:50 | 1 | 663 | 2339 |
-| 2026-10-10T12:54 | 0 | 663 | 2338 |
 
 ---
 

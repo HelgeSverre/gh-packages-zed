@@ -86,7 +86,7 @@
     "name": "GDQuest/zed-gdscript",
     "url": "https://github.com/GDQuest/zed-gdscript",
     "description": "Zed support for the Godot game engine and the GDScript language",
-    "stars": 210,
+    "stars": 211,
     "forks": 24,
     "topics": [
       "code-editor",
@@ -98,7 +98,7 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-02-26T18:14:41Z",
-    "updated_at": "2026-10-06T23:49:17Z",
+    "updated_at": "2026-10-12T21:15:01Z",
     "pushed_at": "2026-09-10T12:07:53Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -4661,7 +4661,7 @@
     "name": "hilleer/zed-v-theme",
     "url": "https://github.com/hilleer/zed-v-theme",
     "description": "A Zed port of the vscode V theme",
-    "stars": 0,
+    "stars": 1,
     "forks": 0,
     "topics": [
       "zed-extension",
@@ -4670,7 +4670,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-02-10T17:08:09Z",
-    "updated_at": "2026-04-09T06:33:51Z",
+    "updated_at": "2026-10-12T20:20:43Z",
     "pushed_at": "2026-02-10T20:48:23Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -42967,7 +42967,7 @@
   "sinamombeiny/s-darktheme.zed": {
     "name": "SinaMombeiny/S-DarkTheme.zed",
     "url": "https://github.com/SinaMombeiny/S-DarkTheme.zed",
-    "description": "Dark theme for Zed",
+    "description": "Dark theme extension for the Zed code editor",
     "stars": 5,
     "forks": 0,
     "topics": [
@@ -42979,7 +42979,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-07-01T21:28:51Z",
-    "updated_at": "2026-10-10T19:19:57Z",
+    "updated_at": "2026-10-12T21:42:42Z",
     "pushed_at": "2026-10-10T19:19:54Z",
     "discovered_at": "2026-05-20T02:57:03.419Z",
     "official": true,
@@ -64572,7 +64572,7 @@
     "name": "Relaxed-Theme/zed-theme-relaxed",
     "url": "https://github.com/Relaxed-Theme/zed-theme-relaxed",
     "description": "🕶️ A relaxed Zed theme to take a more relaxed view of things.",
-    "stars": 0,
+    "stars": 1,
     "forks": 0,
     "topics": [
       "relaxed",
@@ -64584,8 +64584,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-10-12T15:16:48Z",
-    "updated_at": "2026-10-12T16:37:25Z",
-    "pushed_at": "2026-10-12T16:35:22Z",
+    "updated_at": "2026-10-12T21:24:02Z",
+    "pushed_at": "2026-10-12T22:10:26Z",
     "discovered_at": "2026-10-12T18:54:52.155Z",
     "official": false,
     "extension": {
@@ -64598,6 +64598,43 @@
         "Stefan Cosma <hi@stefancosma.xyz>"
       ],
       "repository": "https://github.com/stefanbc/relaxed-theme-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "inaciops/gruvbox-frameless-theme": {
+    "name": "InacioPS/gruvbox-frameless-theme",
+    "url": "https://github.com/InacioPS/gruvbox-frameless-theme",
+    "description": "Frameless Gruvbox themes for Zed with six dark variants, transparent editor guides, and Maple Mono italic syntax.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "dark-theme",
+      "gruvbox",
+      "gruvbox-material",
+      "zed",
+      "zed-editor"
+    ],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-10-12T19:36:59Z",
+    "updated_at": "2026-10-12T20:03:19Z",
+    "pushed_at": "2026-10-12T19:57:42Z",
+    "discovered_at": "2026-10-13T01:23:52.730Z",
+    "official": false,
+    "extension": {
+      "id": "gruvbox-frameless-theme",
+      "name": "Gruvbox Frameless",
+      "description": "Six frameless Gruvbox variants for Zed with Maple Mono italic syntax support.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Community"
+      ],
+      "repository": "https://github.com/InacioPS/gruvbox-frameless-theme",
       "snippets": null,
       "sections": [],
       "categories": [
