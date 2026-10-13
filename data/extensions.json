@@ -59,8 +59,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-05-03T17:39:17Z",
-    "updated_at": "2026-10-10T06:20:58Z",
-    "pushed_at": "2026-10-10T06:21:02Z",
+    "updated_at": "2026-10-13T14:06:43Z",
+    "pushed_at": "2026-10-13T14:06:29Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -256,7 +256,7 @@
     "license": "NOASSERTION",
     "created_at": "2024-10-11T18:22:02Z",
     "updated_at": "2026-10-07T21:12:59Z",
-    "pushed_at": "2026-10-08T18:07:14Z",
+    "pushed_at": "2026-10-13T17:11:53Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -2778,7 +2778,7 @@
     "name": "tfuxu/zed-blueprint",
     "url": "https://github.com/tfuxu/zed-blueprint",
     "description": "Blueprint (.blp) language support for Zed editor",
-    "stars": 10,
+    "stars": 11,
     "forks": 5,
     "topics": [
       "blueprint",
@@ -2792,7 +2792,7 @@
     "language": "Tree-sitter Query",
     "license": "GPL-3.0",
     "created_at": "2024-07-26T23:55:00Z",
-    "updated_at": "2026-09-20T15:49:24Z",
+    "updated_at": "2026-10-13T17:34:26Z",
     "pushed_at": "2026-09-04T20:45:17Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -47898,7 +47898,7 @@
     "url": "https://github.com/kevcamel/vscode_dark_modern.zed",
     "description": "VS Code Dark Modern theme for Zed",
     "stars": 60,
-    "forks": 21,
+    "forks": 22,
     "topics": [],
     "language": null,
     "license": "MIT",
@@ -54658,8 +54658,8 @@
     "language": "JavaScript",
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
-    "updated_at": "2026-10-12T16:46:17Z",
-    "pushed_at": "2026-10-13T10:35:17Z",
+    "updated_at": "2026-10-13T18:22:41Z",
+    "pushed_at": "2026-10-13T18:27:57Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false,
     "extension": {
@@ -63001,8 +63001,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-09-25T09:59:14Z",
-    "updated_at": "2026-10-12T18:45:39Z",
-    "pushed_at": "2026-10-12T18:45:35Z",
+    "updated_at": "2026-10-13T15:04:24Z",
+    "pushed_at": "2026-10-13T15:04:19Z",
     "discovered_at": "2026-09-25T12:54:21.385Z",
     "official": true,
     "extension": {
@@ -64325,7 +64325,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-10-01T19:48:54Z",
     "updated_at": "2026-10-08T15:32:16Z",
-    "pushed_at": "2026-10-13T13:00:35Z",
+    "pushed_at": "2026-10-13T18:40:56Z",
     "discovered_at": "2026-10-07T01:20:55.214Z",
     "official": false,
     "extension": {
@@ -64584,8 +64584,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-10-12T15:16:48Z",
-    "updated_at": "2026-10-13T06:16:42Z",
-    "pushed_at": "2026-10-13T06:16:41Z",
+    "updated_at": "2026-10-13T17:38:49Z",
+    "pushed_at": "2026-10-13T17:38:45Z",
     "discovered_at": "2026-10-12T18:54:52.155Z",
     "official": false,
     "extension": {
@@ -64685,6 +64685,45 @@
       ],
       "categories": [
         "language-server"
+      ]
+    }
+  },
+  "strategiumfinancepartner/agent-nexus-zed": {
+    "name": "Strategiumfinancepartner/agent-nexus-zed",
+    "url": "https://github.com/Strategiumfinancepartner/agent-nexus-zed",
+    "description": "Agent Nexus MCP server extension for Zed",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "ai-agents",
+      "mcp",
+      "mcp-server",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Rust",
+    "license": "NOASSERTION",
+    "created_at": "2026-10-13T14:57:09Z",
+    "updated_at": "2026-10-13T14:57:30Z",
+    "pushed_at": "2026-10-13T14:57:27Z",
+    "discovered_at": "2026-10-13T18:53:28.686Z",
+    "official": false,
+    "extension": {
+      "id": "agent-nexus-mcp",
+      "name": "Agent Nexus MCP",
+      "description": "Live-verified registry of 690+ APIs, MCP servers and CLIs for AI agents, inside Zed's Agent Panel.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Agent Nexus <hello@agentnexus.app>"
+      ],
+      "repository": "https://github.com/Strategiumfinancepartner/agent-nexus-zed",
+      "snippets": null,
+      "sections": [
+        "context_servers"
+      ],
+      "categories": [
+        "context-server"
       ]
     }
   }

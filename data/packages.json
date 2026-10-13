@@ -74,8 +74,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-05-03T17:39:17Z",
-    "updated_at": "2026-10-10T06:20:58Z",
-    "pushed_at": "2026-10-10T06:21:02Z",
+    "updated_at": "2026-10-13T14:06:43Z",
+    "pushed_at": "2026-10-13T14:06:29Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -218,7 +218,7 @@
     "license": "NOASSERTION",
     "created_at": "2024-10-11T18:22:02Z",
     "updated_at": "2026-10-07T21:12:59Z",
-    "pushed_at": "2026-10-08T18:07:14Z",
+    "pushed_at": "2026-10-13T17:11:53Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -1829,7 +1829,7 @@
     "name": "tfuxu/zed-blueprint",
     "url": "https://github.com/tfuxu/zed-blueprint",
     "description": "Blueprint (.blp) language support for Zed editor",
-    "stars": 10,
+    "stars": 11,
     "forks": 5,
     "topics": [
       "blueprint",
@@ -1843,7 +1843,7 @@
     "language": "Tree-sitter Query",
     "license": "GPL-3.0",
     "created_at": "2024-07-26T23:55:00Z",
-    "updated_at": "2026-09-20T15:49:24Z",
+    "updated_at": "2026-10-13T17:34:26Z",
     "pushed_at": "2026-09-04T20:45:17Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -5121,8 +5121,8 @@
     "language": "Go",
     "license": "MIT",
     "created_at": "2026-03-09T04:35:59Z",
-    "updated_at": "2026-10-12T15:03:02Z",
-    "pushed_at": "2026-10-12T15:02:57Z",
+    "updated_at": "2026-10-13T14:00:23Z",
+    "pushed_at": "2026-10-13T14:00:13Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -15423,7 +15423,7 @@
     "name": "agent-sh/agnix",
     "url": "https://github.com/agent-sh/agnix",
     "description": "The missing linter and lsp for AI coding assistants. Validate CLAUDE.md, AGENTS.md, SKILL.md, hooks, MCP. Plugin for all major IDEs included, with autofixes.",
-    "stars": 448,
+    "stars": 449,
     "forks": 34,
     "topics": [
       "agent",
@@ -15450,7 +15450,7 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
-    "updated_at": "2026-10-13T00:46:47Z",
+    "updated_at": "2026-10-13T14:17:45Z",
     "pushed_at": "2026-10-12T06:14:51Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
@@ -18009,8 +18009,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-10-13T07:07:52Z",
-    "pushed_at": "2026-10-13T07:07:48Z",
+    "updated_at": "2026-10-13T13:02:18Z",
+    "pushed_at": "2026-10-13T13:02:13Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -27721,7 +27721,7 @@
     "url": "https://github.com/kevcamel/vscode_dark_modern.zed",
     "description": "VS Code Dark Modern theme for Zed",
     "stars": 60,
-    "forks": 21,
+    "forks": 22,
     "topics": [],
     "language": null,
     "license": "MIT",
@@ -29263,7 +29263,7 @@
     "name": "mhensberg2003/ALzed",
     "url": "https://github.com/mhensberg2003/ALzed",
     "description": "AL language support for Zed — Microsoft Dynamics 365 Business Central",
-    "stars": 4,
+    "stars": 5,
     "forks": 1,
     "topics": [
       "al-language",
@@ -29281,7 +29281,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-05-21T08:47:56Z",
-    "updated_at": "2026-10-13T09:51:53Z",
+    "updated_at": "2026-10-13T15:05:48Z",
     "pushed_at": "2026-05-31T23:09:33Z",
     "discovered_at": "2026-05-29T13:04:49.616Z",
     "official": true
@@ -30010,7 +30010,7 @@
     "name": "nMaroulis/protoagent",
     "url": "https://github.com/nMaroulis/protoagent",
     "description": "A blazing-fast, local-first AI agent ecosystem. Orchestrate local LLMs with Python, run them in a native Rust terminal, or integrate directly into your editor via ACP.",
-    "stars": 11,
+    "stars": 12,
     "forks": 1,
     "topics": [
       "agent-client-protocol",
@@ -30029,8 +30029,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-06-09T22:36:14Z",
-    "updated_at": "2026-09-27T20:40:54Z",
-    "pushed_at": "2026-10-13T07:06:22Z",
+    "updated_at": "2026-10-13T16:37:56Z",
+    "pushed_at": "2026-10-13T17:28:57Z",
     "discovered_at": "2026-06-10T00:43:30.823Z",
     "official": false
   },
@@ -32703,8 +32703,8 @@
     "language": "JavaScript",
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
-    "updated_at": "2026-10-12T16:46:17Z",
-    "pushed_at": "2026-10-13T10:35:17Z",
+    "updated_at": "2026-10-13T18:22:41Z",
+    "pushed_at": "2026-10-13T18:27:57Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false
   },
@@ -36933,8 +36933,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-09-07T16:00:35Z",
-    "updated_at": "2026-10-13T11:57:44Z",
-    "pushed_at": "2026-10-13T11:57:39Z",
+    "updated_at": "2026-10-13T16:57:22Z",
+    "pushed_at": "2026-10-13T16:57:18Z",
     "discovered_at": "2026-09-07T18:46:27.369Z",
     "official": false
   },
@@ -36942,7 +36942,7 @@
     "name": "BrokkAi/muse-acp",
     "url": "https://github.com/BrokkAi/muse-acp",
     "description": "Use Meta Muse Code in Zed, IntelliJ IDEA, and other JetBrains IDEs with your existing subscription. Dependency-free Rust adapter for Agent Client Protocol (ACP), using the native Muse Session Protocol (MSP).",
-    "stars": 16,
+    "stars": 17,
     "forks": 2,
     "topics": [
       "acp",
@@ -36967,8 +36967,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-09-03T18:54:22Z",
-    "updated_at": "2026-10-12T20:07:25Z",
-    "pushed_at": "2026-10-12T20:07:23Z",
+    "updated_at": "2026-10-13T17:46:14Z",
+    "pushed_at": "2026-10-13T18:01:05Z",
     "discovered_at": "2026-09-09T01:10:37.044Z",
     "official": false
   },
@@ -37372,7 +37372,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-08-28T14:03:54Z",
     "updated_at": "2026-09-18T02:36:17Z",
-    "pushed_at": "2026-10-12T13:40:58Z",
+    "pushed_at": "2026-10-13T17:51:49Z",
     "discovered_at": "2026-09-13T21:07:24.622Z",
     "official": false
   },
@@ -38142,8 +38142,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-09-21T07:36:15Z",
-    "updated_at": "2026-10-13T09:32:08Z",
-    "pushed_at": "2026-10-13T09:32:05Z",
+    "updated_at": "2026-10-13T15:10:52Z",
+    "pushed_at": "2026-10-13T16:04:25Z",
     "discovered_at": "2026-09-21T13:19:36.942Z",
     "official": false
   },
@@ -38413,8 +38413,8 @@
     "language": "C++",
     "license": "Apache-2.0",
     "created_at": "2026-09-21T20:10:00Z",
-    "updated_at": "2026-10-12T22:49:36Z",
-    "pushed_at": "2026-10-13T12:38:06Z",
+    "updated_at": "2026-10-13T15:36:36Z",
+    "pushed_at": "2026-10-13T16:35:28Z",
     "discovered_at": "2026-09-21T22:12:12.101Z",
     "official": false
   },
@@ -39217,8 +39217,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-09-25T09:59:14Z",
-    "updated_at": "2026-10-12T18:45:39Z",
-    "pushed_at": "2026-10-12T18:45:35Z",
+    "updated_at": "2026-10-13T15:04:24Z",
+    "pushed_at": "2026-10-13T15:04:19Z",
     "discovered_at": "2026-09-25T12:54:21.385Z",
     "official": true
   },
@@ -39319,8 +39319,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-09-26T15:42:52Z",
-    "updated_at": "2026-10-13T04:43:39Z",
-    "pushed_at": "2026-10-13T04:43:34Z",
+    "updated_at": "2026-10-13T14:38:02Z",
+    "pushed_at": "2026-10-13T14:38:12Z",
     "discovered_at": "2026-09-26T18:48:00.642Z",
     "official": false
   },
@@ -39917,8 +39917,8 @@
     "language": "TypeScript",
     "license": null,
     "created_at": "2026-09-04T07:49:15Z",
-    "updated_at": "2026-10-13T10:26:01Z",
-    "pushed_at": "2026-10-13T10:25:57Z",
+    "updated_at": "2026-10-13T15:55:34Z",
+    "pushed_at": "2026-10-13T15:55:30Z",
     "discovered_at": "2026-09-30T12:59:15.249Z",
     "official": false
   },
@@ -40172,7 +40172,7 @@
     "name": "AmirAliManzar/Zed-RTL",
     "url": "https://github.com/AmirAliManzar/Zed-RTL",
     "description": "Fixed right-to-left (Persian/Arabic/Hebrew) text rendering and caret movement in the Zed editor, with an auto-updating patched build for Windows.",
-    "stars": 6,
+    "stars": 7,
     "forks": 0,
     "topics": [
       "arabic",
@@ -40191,7 +40191,7 @@
     "language": "Rust",
     "license": "GPL-3.0",
     "created_at": "2026-09-29T18:48:49Z",
-    "updated_at": "2026-10-13T11:56:08Z",
+    "updated_at": "2026-10-13T14:39:08Z",
     "pushed_at": "2026-10-13T11:56:04Z",
     "discovered_at": "2026-10-03T01:13:41.690Z",
     "official": false
@@ -40414,7 +40414,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-10-06T03:31:12Z",
     "updated_at": "2026-10-11T19:50:43Z",
-    "pushed_at": "2026-10-11T19:45:16Z",
+    "pushed_at": "2026-10-13T18:52:28Z",
     "discovered_at": "2026-10-06T12:56:24.959Z",
     "official": false
   },
@@ -40505,7 +40505,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-10-01T19:48:54Z",
     "updated_at": "2026-10-08T15:32:16Z",
-    "pushed_at": "2026-10-13T13:00:35Z",
+    "pushed_at": "2026-10-13T18:40:56Z",
     "discovered_at": "2026-10-07T01:20:55.214Z",
     "official": false
   },
@@ -40754,8 +40754,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-10-11T15:56:55Z",
-    "updated_at": "2026-10-13T04:06:33Z",
-    "pushed_at": "2026-10-13T04:06:30Z",
+    "updated_at": "2026-10-13T18:46:58Z",
+    "pushed_at": "2026-10-13T18:46:55Z",
     "discovered_at": "2026-10-11T07:00:45.399Z",
     "official": false
   },
@@ -40875,8 +40875,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-10-12T15:16:48Z",
-    "updated_at": "2026-10-13T06:16:42Z",
-    "pushed_at": "2026-10-13T06:16:41Z",
+    "updated_at": "2026-10-13T17:38:49Z",
+    "pushed_at": "2026-10-13T17:38:45Z",
     "discovered_at": "2026-10-12T18:54:52.155Z",
     "official": false
   },
@@ -40981,6 +40981,27 @@
     "updated_at": "2026-10-13T08:02:14Z",
     "pushed_at": "2026-10-13T08:02:11Z",
     "discovered_at": "2026-10-13T07:07:13.284Z",
+    "official": false
+  },
+  "strategiumfinancepartner/agent-nexus-zed": {
+    "name": "Strategiumfinancepartner/agent-nexus-zed",
+    "url": "https://github.com/Strategiumfinancepartner/agent-nexus-zed",
+    "description": "Agent Nexus MCP server extension for Zed",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "ai-agents",
+      "mcp",
+      "mcp-server",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Rust",
+    "license": "NOASSERTION",
+    "created_at": "2026-10-13T14:57:09Z",
+    "updated_at": "2026-10-13T14:57:30Z",
+    "pushed_at": "2026-10-13T14:57:27Z",
+    "discovered_at": "2026-10-13T18:53:28.686Z",
     "official": false
   }
 }
