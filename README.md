@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1879** |
 | In official registry | 1352 |
 | Discovered via topics | 527 |
-| Last updated | 2026-10-13 07:07 UTC |
+| Last updated | 2026-10-13 13:01 UTC |
 
 ### By capability
 
@@ -120,14 +120,15 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [chiploom/zed-wit](https://github.com/chiploom/zed-wit) | 0 | 2026-10-13 | Modern WIT language support for Zed, with Tree-sitter syntax... |
+| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 11 | 2026-10-13 | Spring Boot language intelligence for Zed, built on the requ... |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 101 | 2026-10-13 | True Dark Theme for Zed IDE |
 | [bhaskar0210s/revs](https://github.com/bhaskar0210s/revs) | 0 | 2026-10-13 | Git line history for Zed, like GitLens: open the previous or... |
 | [Relaxed-Theme/zed-theme-relaxed](https://github.com/Relaxed-Theme/zed-theme-relaxed) | 1 | 2026-10-13 | 🕶️ A relaxed Zed theme to take a more relaxed view of thing... |
 | [InacioPS/gruvbox-frameless-theme](https://github.com/InacioPS/gruvbox-frameless-theme) | 0 | 2026-10-12 | Frameless Gruvbox themes for Zed with six dark variants, tra... |
 | [yuukiLike/zed-skin](https://github.com/yuukiLike/zed-skin) | 0 | 2026-10-12 | A high contrast theme collection for Zed. Three AAA-audited ... |
 | [Dhanush-S-Gowda/zed-theme-Pure-Black-High-Contrast](https://github.com/Dhanush-S-Gowda/zed-theme-Pure-Black-High-Contrast) | 1 | 2026-10-12 | Pure black & high contrast theme for Zed with bright syntax ... |
 | [Gurvirr/zed-ultraViolet](https://github.com/Gurvirr/zed-ultraViolet) | 118 | 2026-10-12 | A dark, violet-toned theme designed for quality & visual com... |
-| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 11 | 2026-10-12 | Spring Boot language intelligence for Zed, built on the requ... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 101 | 2026-10-12 | True Dark Theme for Zed IDE |
 | [PrincessSiren/zed-sweet-theme](https://github.com/PrincessSiren/zed-sweet-theme) | 0 | 2026-10-11 | Sweet theme for Zed: deep plum + hot pink (dark), blush + la... |
 | [sachadvr/zed-razor](https://github.com/sachadvr/zed-razor) | 1 | 2026-10-11 | Razor (.razor / .cshtml) syntax highlighting for the Zed edi... |
 | [adechlien/adech-theme-zed](https://github.com/adechlien/adech-theme-zed) | 1 | 2026-10-11 | Adech Theme for Zed IDE |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [gabbro-lang/zed-gabbro](https://github.com/gabbro-lang/zed-gabbro) | 0 | 2026-10-10 | Zed extension for the Gabbro programming language: syntax hi... |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-10-10 | Zed editor support for Carve, a modern light markup language |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-10-10 | A Zed extension that allows to highlight all occurrences of ... |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 218 | 2026-10-10 | Zed plugin for automatic time tracking and metrics generated... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-10-13T13:01 | 0 | 673 | 2350 |
 | 2026-10-13T07:07 | 1 | 672 | 2350 |
 | 2026-10-13T01:23 | 3 | 669 | 2349 |
 | 2026-10-12T18:54 | 1 | 668 | 2346 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-10-11T18:51 | 2 | 664 | 2343 |
 | 2026-10-11T12:56 | 0 | 665 | 2341 |
 | 2026-10-11T07:00 | 1 | 664 | 2341 |
-| 2026-10-11T01:25 | 1 | 663 | 2340 |
 
 ---
 
