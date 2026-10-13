@@ -133,7 +133,7 @@
     "name": "Imgkl/the-dark-side",
     "url": "https://github.com/Imgkl/the-dark-side",
     "description": "True Dark Theme for Zed IDE",
-    "stars": 100,
+    "stars": 101,
     "forks": 6,
     "topics": [
       "things-i-built-for-myself",
@@ -143,7 +143,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-10-12T09:02:46Z",
+    "updated_at": "2026-10-13T04:00:03Z",
     "pushed_at": "2026-10-12T08:07:21Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -8044,7 +8044,7 @@
     "name": "lucascompython/wgsl-wesl-zed",
     "url": "https://github.com/lucascompython/wgsl-wesl-zed",
     "description": "WGSL/WESL language support for Zed",
-    "stars": 27,
+    "stars": 28,
     "forks": 4,
     "topics": [
       "bevy",
@@ -8057,7 +8057,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2025-04-16T10:16:14Z",
-    "updated_at": "2026-09-30T20:52:46Z",
+    "updated_at": "2026-10-13T03:18:27Z",
     "pushed_at": "2026-08-12T19:33:35Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": true,
@@ -56229,7 +56229,7 @@
     "url": "https://github.com/joansgarcia/zed-symbols",
     "description": "A simple file icon theme for Zed.",
     "stars": 26,
-    "forks": 7,
+    "forks": 6,
     "topics": [],
     "language": "TypeScript",
     "license": "MIT",
@@ -63826,7 +63826,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-09-29T04:27:09Z",
-    "updated_at": "2026-10-12T18:45:16Z",
+    "updated_at": "2026-10-13T02:45:36Z",
     "pushed_at": "2026-10-12T18:43:35Z",
     "discovered_at": "2026-10-01T12:58:05.303Z",
     "official": true,
@@ -64584,8 +64584,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-10-12T15:16:48Z",
-    "updated_at": "2026-10-12T21:24:02Z",
-    "pushed_at": "2026-10-12T22:10:26Z",
+    "updated_at": "2026-10-13T06:16:42Z",
+    "pushed_at": "2026-10-13T06:16:41Z",
     "discovered_at": "2026-10-12T18:54:52.155Z",
     "official": false,
     "extension": {
@@ -64639,6 +64639,52 @@
       "sections": [],
       "categories": [
         "theme"
+      ]
+    }
+  },
+  "bhaskar0210s/revs": {
+    "name": "bhaskar0210s/revs",
+    "url": "https://github.com/bhaskar0210s/revs",
+    "description": "Git line history for Zed, like GitLens: open the previous or next revision of the current line in a side-by-side diff, with optional git blame. Apple silicon Macs.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "diff",
+      "git",
+      "git-blame",
+      "git-history",
+      "gitlens",
+      "language-server",
+      "line-history",
+      "macos",
+      "rust",
+      "zed",
+      "zed-editor",
+      "zed-extension"
+    ],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2026-10-13T03:57:32Z",
+    "updated_at": "2026-10-13T06:56:08Z",
+    "pushed_at": "2026-10-13T06:59:33Z",
+    "discovered_at": "2026-10-13T07:07:13.284Z",
+    "official": false,
+    "extension": {
+      "id": "revs-lsp",
+      "name": "Revs: Git Blame, Line History & Revision Diffs",
+      "description": "Git line history like GitLens: open the previous or next revision of the current line in a side-by-side diff, with optional git blame. Apple silicon Macs only.",
+      "version": "1.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Revs contributors"
+      ],
+      "repository": "https://github.com/bhaskar0210s/revs",
+      "snippets": null,
+      "sections": [
+        "language_servers"
+      ],
+      "categories": [
+        "language-server"
       ]
     }
   }
