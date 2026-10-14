@@ -488,7 +488,7 @@
     "url": "https://github.com/BenjaminHalko/flow-icons-zed",
     "description": "🌼 Flow Icons ported to Zed",
     "stars": 40,
-    "forks": 6,
+    "forks": 7,
     "topics": [
       "flow",
       "glassmorphism",
@@ -8458,7 +8458,7 @@
     "name": "cange/nightfox.zed",
     "url": "https://github.com/cange/nightfox.zed",
     "description": "🦊 Zed editor theme ported from Neovim",
-    "stars": 189,
+    "stars": 188,
     "forks": 5,
     "topics": [
       "zed",
@@ -8467,7 +8467,7 @@
     "language": "Lua",
     "license": "MIT",
     "created_at": "2024-05-02T20:49:30Z",
-    "updated_at": "2026-10-11T01:44:41Z",
+    "updated_at": "2026-10-14T17:48:45Z",
     "pushed_at": "2026-08-27T11:32:49Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": true,
@@ -53853,8 +53853,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-06-01T12:22:18Z",
-    "updated_at": "2026-10-14T12:24:20Z",
-    "pushed_at": "2026-10-14T12:24:15Z",
+    "updated_at": "2026-10-14T17:13:04Z",
+    "pushed_at": "2026-10-14T17:12:59Z",
     "discovered_at": "2026-07-09T13:39:01.645Z",
     "official": true,
     "extension": {
@@ -54658,8 +54658,8 @@
     "language": "JavaScript",
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
-    "updated_at": "2026-10-14T00:07:08Z",
-    "pushed_at": "2026-10-14T00:05:45Z",
+    "updated_at": "2026-10-14T17:01:12Z",
+    "pushed_at": "2026-10-14T17:00:57Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false,
     "extension": {
@@ -64324,8 +64324,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-10-01T19:48:54Z",
-    "updated_at": "2026-10-14T12:33:19Z",
-    "pushed_at": "2026-10-14T12:48:26Z",
+    "updated_at": "2026-10-14T18:05:10Z",
+    "pushed_at": "2026-10-14T18:05:07Z",
     "discovered_at": "2026-10-07T01:20:55.214Z",
     "official": false,
     "extension": {
@@ -64759,6 +64759,51 @@
       ],
       "categories": [
         "grammar"
+      ]
+    }
+  },
+  "dimensionlab/frontier-zed": {
+    "name": "DimensionLab/frontier-zed",
+    "url": "https://github.com/DimensionLab/frontier-zed",
+    "description": "Frontier for Zed: JSON schemas, snippets and the Frontier MCP context server for physics-ML training configs, RunSpecs, data-prep recipes, pipelines, hub entries and plugin manifests. A Zed extension (extension.toml plus a small wasm32-wasip2 crate), installable as a dev extension today and submitted to the Zed extension registry later.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "cfd",
+      "json-schema",
+      "mcp",
+      "physics-ml",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "created_at": "2026-10-14T13:14:36Z",
+    "updated_at": "2026-10-14T14:35:45Z",
+    "pushed_at": "2026-10-14T14:35:36Z",
+    "discovered_at": "2026-10-14T18:51:15.292Z",
+    "official": false,
+    "extension": {
+      "id": "frontier",
+      "name": "Frontier",
+      "description": "Frontier physics-ML files in Zed: JSON schemas for training configs, RunSpecs, data-prep recipes, pipelines, hub entries and plugin manifests; snippets; and the Frontier MCP context server (datasets, versions, provenance, data-prep ops) for the agent panel.",
+      "version": "0.9.0",
+      "schema_version": 1,
+      "authors": [
+        "DimensionLab <oss@dimensionlab.org>"
+      ],
+      "repository": "https://github.com/DimensionLab/frontier-zed",
+      "snippets": [
+        "./snippets/json.json",
+        "./snippets/yaml.json",
+        "./snippets/toml.json"
+      ],
+      "sections": [
+        "context_servers"
+      ],
+      "categories": [
+        "context-server",
+        "snippets"
       ]
     }
   }

@@ -1,0 +1,289 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Frontier - Zed Extension Safari</title><meta name="description" content="Frontier for Zed: JSON schemas, snippets and the Frontier MCP context server for physics-ML training configs, RunSpecs, data-prep recipes, pipelines, hub entries and plugin manifests. A Zed extension (extension.toml plus a small wasm32-wasip2 crate), installable as a dev extension today and submitted to the Zed extension registry later."><link rel="canonical" href="https://helgesverre.github.io/gh-packages-zed/package/DimensionLab/frontier-zed/"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Frontier - Zed Extension Safari"><meta property="og:description" content="Frontier for Zed: JSON schemas, snippets and the Frontier MCP context server for physics-ML training configs, RunSpecs, data-prep recipes, pipelines, hub entries and plugin manifests. A Zed extension (extension.toml plus a small wasm32-wasip2 crate), installable as a dev extension today and submitted to the Zed extension registry later."><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed/package/DimensionLab/frontier-zed/"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Frontier - Zed Extension Safari"><meta name="twitter:description" content="Frontier for Zed: JSON schemas, snippets and the Frontier MCP context server for physics-ML training configs, RunSpecs, data-prep recipes, pipelines, hub entries and plugin manifests. A Zed extension (extension.toml plus a small wasm32-wasip2 crate), installable as a dev extension today and submitted to the Zed extension registry later."><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/gh-packages-zed/_astro/ClientRouter.astro_astro_type_script_index_0_lang.ClVLs1kt.js"></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Frontier","description":"Frontier for Zed: JSON schemas, snippets and the Frontier MCP context server for physics-ML training configs, RunSpecs, data-prep recipes, pipelines, hub entries and plugin manifests. A Zed extension (extension.toml plus a small wasm32-wasip2 crate), installable as a dev extension today and submitted to the Zed extension registry later.","applicationCategory":"DeveloperApplication","operatingSystem":"macOS, Linux, Windows","url":"https://zed.dev/extensions/frontier","codeRepository":"https://github.com/DimensionLab/frontier-zed","author":[{"@type":"Person","name":"DimensionLab"}],"softwareVersion":"0.9.0","license":"Apache-2.0","keywords":"context-server, snippets","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/Layout.CGDlMdWE.css"><script type="module" src="/gh-packages-zed/_astro/page.B8i1Zz-u.js"></script></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <a href="#main" class="skip-to-content">Skip to content</a> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" data-astro-transition-persist="astro-fhchcgd7-1"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <script type="application/json" id="pkg-extras">{"url":"https://github.com/DimensionLab/frontier-zed","language":"Python","license":"Apache-2.0","topics":["cfd","json-schema","mcp","physics-ml","zed","zed-extension"],"extension":{"authors":["DimensionLab"],"schema_version":1}}</script> <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> DimensionLab/frontier-zed </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> Frontier </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> Frontier physics-ML files in Zed: JSON schemas for training configs, RunSpecs, data-prep recipes, pipelines, hub entries and plugin manifests; snippets; and the Frontier MCP context server (datasets, versions, provenance, data-prep ops) for the agent panel. </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="context-server">MCP Server</span><span class="cat-badge" data-cat="snippets">Snippets</span> </div> </div> </div> </header> <main id="main" class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/frontier" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/DimensionLab/frontier-zed" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.9.0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">frontier</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">Python</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">Apache-2.0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">4h ago</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">DimensionLab</dd> </div> </dl>  <h2 class="mt-5 text-xs uppercase font-mono" style="color:var(--zed-muted);">Topics</h2> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> cfd </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> json-schema </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> mcp </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> physics-ml </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed-extension </span> </div>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-frontier-for-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#frontier-for-zed"><span class="heading-anchor-icon">#</span></a>Frontier for Zed</h1>
+<p>A <a href="https://zed.dev">Zed</a> extension for <a href="https://dimensionlab.org">DimensionLab Frontier</a>,
+the platform for training, understanding and deploying large physics models. It makes Zed
+understand Frontier's files and puts Frontier's data tools in Zed's agent panel.</p>
+<p>Licence: Apache-2.0 for everything in this repository. Nothing of Frontier itself is
+vendored: the extension is configuration plus a small WebAssembly shim that launches a
+program from your own Python environment, and the schemas are the public specification
+(CC-BY-4.0).</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Piece</th><th>What you get</th><th>Needs</th></tr></thead><tbody><tr><td>Schema associations</td><td>Completion, hover and diagnostics for training configs, RunSpecs, JobSpecs, data-prep recipes, pipelines, hub entries and benchmark specs, through Zed's built-in <code>json-language-server</code> and <code>yaml-language-server</code></td><td>one settings block (below)</td></tr><tr><td>Bundled schemas</td><td>The nine Frontier JSON Schemas in <code>schemas/</code>, identical to <code>spec/schemas/</code> in the frontier-format repository</td><td>nothing</td></tr><tr><td>Snippets</td><td><code>frontier-train</code>, <code>frontier-train-transient</code>, <code>frontier-runspec</code>, <code>frontier-runspec-pipeline</code>, <code>frontier-jobspec</code>, <code>frontier-hub-entry</code>, <code>frontier-benchmark</code>, <code>frontier-site</code> (YAML); <code>frontier-recipe</code>, <code>frontier-step</code>, <code>frontier-pipeline</code>, <code>frontier-runspec</code> (JSON); <code>frontier-toml</code>, <code>frontier-plugin</code> (TOML)</td><td>nothing; TOML snippets need the TOML extension</td></tr><tr><td>Context server <code>frontier</code></td><td>Frontier's MCP server in the agent panel: <code>dataset.*</code>, <code>version.*</code>, <code>quality.*</code>, <code>judge.*</code>, <code>prep.*</code> tools and the <code>frontier://datasets</code>, <code>frontier://dataset/{name}/card</code>, <code>frontier://dataset/{name}/provenance</code>, <code>frontier://policy</code> resources</td><td>a Python environment with Frontier's <code>frontier-agent</code> package installed</td></tr><tr><td>Skills</td><td><code>frontier-diagnose-dataset</code>, <code>frontier-cleaning-recipe</code>, <code>frontier-split-leakage</code> for Zed's agent (the Pi package's prompts, in Zed's skill format)</td><td>copy or symlink into <code>~/.agents/skills/</code></td></tr><tr><td>Icon theme</td><td>"Frontier Minimal": file icons for Frontier files, drawn with <code>currentColor</code></td><td>opt-in; see Icons</td></tr></tbody></table>
+<p>Screenshots: <code>docs/screenshots/zed-schema-diagnostics.png</code> and
+<code>docs/screenshots/zed-context-server.png</code> (placeholders until the first release is captured
+in a real Zed; see Status).</p>
+<h2 id="user-content-install"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#install"><span class="heading-anchor-icon">#</span></a>Install</h2>
+<p><strong>Dev extension (now).</strong> In Zed run <code>zed: install dev extension</code> (or <em>Extensions</em> →
+<em>Install Dev Extension</em>) and pick this directory (<code>tools/frontier-zed</code> in a Frontier
+checkout, or a clone of <code>DimensionLab/frontier-zed</code>). Zed compiles the Rust crate itself; it
+needs <code>rustup</code> with the <code>wasm32-wasip2</code> target, which Zed adds when it is missing. To build
+by hand:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">rustup</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> target</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> add</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> wasm32-wasip2</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> build</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --release</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --target</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> wasm32-wasip2</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --manifest-path</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> tools/frontier-zed/Cargo.toml</span></span></code></pre>
+<p>The crate is not a member of the Frontier workspace (it has its own <code>[workspace]</code> table),
+so <code>cargo build --workspace</code> at the repository root never touches it. Inside the monorepo
+the artifact lands in <code>dist/target/wasm32-wasip2/release/frontier_zed.wasm</code> (the root
+<code>.cargo/config.toml</code> sets the target directory); in a standalone clone, in <code>target/</code>.</p>
+<p><strong>Extension registry (later).</strong> Once published, <em>Extensions</em> → search "Frontier". The
+registry submission is a pull request to <code>zed-industries/extensions</code> that adds this
+repository as a git submodule and an entry in <code>extensions.toml</code>; it is not done yet.</p>
+<h2 id="user-content-schema-diagnostics"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#schema-diagnostics"><span class="heading-anchor-icon">#</span></a>Schema diagnostics</h2>
+<p>Zed associates JSON Schemas with files through language-server settings, not through
+extension manifests, so one settings block is needed. Copy
+<a href="https://github.com/DimensionLab/frontier-zed/blob/HEAD/settings/zed-settings.json" target="_blank" rel="noopener"><code>settings/zed-settings.json</code></a> into your user settings
+(<code>zed: open settings</code>) or into a project's <code>.zed/settings.json</code>. It maps:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Pattern</th><th>Schema</th></tr></thead><tbody><tr><td><code>*.frontier.yaml</code>, <code>*.train.yaml</code>, <code>**/frontier-train/configs/*.yaml</code></td><td><code>frontier-train-config</code></td></tr><tr><td><code>*.runspec.yaml</code>, <code>runspec.yaml</code>, <code>*.runspec.json</code></td><td><code>runspec</code></td></tr><tr><td><code>*.jobspec.yaml</code>, <code>jobspec.yaml</code>, <code>*.jobspec.json</code></td><td><code>jobspec</code></td></tr><tr><td><code>*.recipe.json</code>, <code>recipe.json</code></td><td><code>recipe</code> (each step's <code>params</code> is tied to its <code>op</code>)</td></tr><tr><td><code>pipeline.json</code>, <code>*.pipeline.json</code></td><td><code>pipeline-v1</code></td></tr><tr><td><code>*.hub.yaml</code>, <code>**/frontier_hub/catalog/*/*.yaml</code></td><td><code>hub-entry</code></td></tr><tr><td><code>*.benchmark.yaml</code>, <code>**/frontier_eval/benchmarks/*.yaml</code></td><td><code>benchmark-spec</code></td></tr></tbody></table>
+<p><code>settings/zed-settings.json</code> points at the published URLs
+(<code>https://dimensionlab.org/schemas/&#x3C;name>.schema.json</code>). Until those URLs are live, or when
+you work offline, use <a href="https://github.com/DimensionLab/frontier-zed/blob/HEAD/settings/zed-settings.local.json" target="_blank" rel="noopener"><code>settings/zed-settings.local.json</code></a>,
+which points at the bundled copies through <code>./tools/frontier-zed/schemas/...</code> (Zed resolves
+<code>./</code> against the worktree root, so this form is for a Frontier checkout; elsewhere replace the
+prefix with the absolute path of your clone, <code>~/</code> is expanded too).</p>
+<p>Two per-file alternatives need no settings: a <code>"$schema": "&#x3C;url or path>"</code> key at the top
+of a JSON document, or a <code># yaml-language-server: $schema=&#x3C;url or path></code> modeline as the
+first line of a YAML document.</p>
+<p><strong>TOML (<code>frontier.toml</code>, <code>plugin.toml</code>).</strong> TOML is not built into Zed; install the TOML
+extension (its language server is Tombi). Frontier validates these files itself
+(<code>frontier config check</code>, <code>frontier plugin check</code>) and the schemas are bundled for whatever
+association mechanism your TOML language server offers; the extension does not wire them.</p>
+<p><strong>Site profiles</strong> (<code>~/.frontier/sites/&#x3C;name>.yaml</code>) have no published schema yet; the
+<code>frontier-site</code> snippet gives the shape and <code>frontier sites</code> validates them.</p>
+<h2 id="user-content-the-frontier-context-server"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#the-frontier-context-server"><span class="heading-anchor-icon">#</span></a>The <code>frontier</code> context server</h2>
+<p>Declared in <code>extension.toml</code> as <code>[context_servers.frontier]</code>; <code>src/lib.rs</code> tells Zed to run</p>
+<pre><code>&#x3C;python> -m frontier_agent mcp [--datasets-dir D] [--record F] [--approver none|ui|auto] [extra args]
+</code></pre>
+<p>over stdio. <code>frontier_agent</code> is the <code>frontier-agent</code> package that ships with Frontier (it is
+not on PyPI; a Frontier installation or checkout provides it, <code>uv sync</code> in a checkout gives
+<code>.venv/bin/python</code>). <code>python</code> must be an interpreter that has it. Configure it in Zed's
+<code>settings.json</code> (Zed also
+shows these settings, with a schema, when you enable the server in the agent panel):</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "context_servers"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "frontier"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "python"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"/path/to/frontier/.venv/bin/python"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "datasets_dir"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"/path/to/frontier/datasets"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "approver"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"none"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "env"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {}</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p><code>command.path</code>, <code>command.arguments</code> and <code>command.env</code> under <code>context_servers.frontier</code>
+override the interpreter, the whole argument list and the environment, as for any Zed
+context server. Check the server from a terminal first:
+<code>/path/to/.venv/bin/python -m frontier_agent mcp --help</code>.</p>
+<p>What the agent sees: 15 fixed tools plus <code>plan</code>/<code>preview</code>/<code>run</code> for every data-prep op,
+with the op's own parameter schema; the resources above as context. Tool names are the
+server's (<code>dataset.describe</code>, <code>prep.fields.rename.plan</code>, ...).</p>
+<p><strong>Approvals.</strong> Keep <code>approver</code> at <code>none</code>. In that mode every operation that writes
+(<code>&#x3C;op>.run</code>, <code>version.revert</code>) is refused unless the site policy
+(<code>policy.ai.autonomous_op_classes</code>) grants autonomy for the op class, because Zed has no
+handler that turns <code>prep.request_approval</code> into a dialog whose answer the server can trust
+(<code>ui</code> is for clients such as the Pi package that intercept the call; a model could otherwise
+answer its own approval). Data-prep sessions with approvals in Zed are the job of the
+Frontier ACP agent, <code>python -m frontier_agent acp</code>, specified in <code>spec/acp.md</code> of the
+frontier-format repository and configured as an external agent in Zed (<code>agent_servers</code>),
+not as a context server.</p>
+<p><strong>Policy.</strong> <code>policy.ai.data_leaves_site</code>, <code>allowed_providers</code> and the rest apply inside the
+server; the judge backend the tools use is chosen there, not by the model Zed's panel runs.</p>
+<p>The <code>frontier</code> CLI is not required by the extension. <code>frontier</code> on your PATH is what the
+<em>Open in Zed</em> story below assumes, and what <code>frontier prep</code> needs to run recipes.</p>
+<h2 id="user-content-skills-prompt-templates"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#skills-prompt-templates"><span class="heading-anchor-icon">#</span></a>Skills (prompt templates)</h2>
+<p>Zed replaced its Rules Library with Skills (Zed 1.4). The three procedures the Pi package
+ships as prompts are here as skills; install them by copying or symlinking each directory
+under <code>skills/</code> into <code>~/.agents/skills/</code> (all projects) or <code>&#x3C;project>/.agents/skills/</code>
+(one project), then type <code>/frontier-diagnose-dataset</code> or <code>@frontier-cleaning-recipe</code> in
+the agent panel, or let the agent pick them up from the catalog:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">ln</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -s</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> "</span><span style="color:#24292E;--shiki-dark:#E1E4E8">$PWD</span><span style="color:#032F62;--shiki-dark:#9ECBFF">/tools/frontier-zed/skills/"</span><span style="color:#005CC5;--shiki-dark:#79B8FF">*</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> ~/.agents/skills/</span></span></code></pre>
+<p>Extensions cannot ship skills yet, so this step is manual. A project <code>.rules</code> or
+<code>AGENTS.md</code> is the place for site conventions (dataset directory, which judge backend is
+allowed); Zed reads the first of <code>.rules</code>, <code>.cursorrules</code>, <code>.windsurfrules</code>, <code>.clinerules</code>,
+<code>.github/copilot-instructions.md</code>, <code>AGENT.md</code>, <code>AGENTS.md</code>, <code>CLAUDE.md</code>, <code>GEMINI.md</code>.</p>
+<h2 id="user-content-icons"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#icons"><span class="heading-anchor-icon">#</span></a>Icons</h2>
+<p><code>icon_themes/frontier.json</code> is the "Frontier Minimal" icon theme: file icons for
+<code>frontier.toml</code>, <code>plugin.toml</code>, <code>*.recipe.json</code>, <code>pipeline.json</code>, <code>*.runspec.yaml</code>,
+<code>*.frontier.yaml</code>, <code>*.hub.yaml</code>, drawn as 16 px strokes in <code>currentColor</code>, so they follow
+any Zed theme. Zed has no API to add icons to the active theme: an icon theme is whole, and
+only its stem/suffix tables merge with the default theme, so selecting it gives every
+non-Frontier file the plain <code>file.svg</code> icon. It is therefore off unless you choose it
+(<code>icon_theme: "Frontier Minimal"</code> in settings). The SVGs are also the source for the app's
+own file-kind glyphs.</p>
+<h2 id="user-content-open-in-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#open-in-zed"><span class="heading-anchor-icon">#</span></a>Open in Zed</h2>
+<p>Frontier's app and TUI hand heavy editing to Zed through Zed's CLI (<code>zed</code>, installed from
+Zed's <em>Install CLI</em> command). The forms, from Zed's CLI reference:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Action</th><th>Command Frontier runs or shows</th></tr></thead><tbody><tr><td>Open a file at a position</td><td><code>zed /abs/path/file.yaml:LINE:COL</code> (1-based; <code>:LINE</code> alone works)</td></tr><tr><td>Open a run's artifact directory next to the current workspace</td><td><code>zed --add /abs/path/runs/&#x3C;id></code></td></tr><tr><td>Compare two configs or recipe versions</td><td><code>zed --diff /abs/old.yaml /abs/new.yaml</code> (repeatable for several pairs)</td></tr><tr><td>Wait for the editor to close (scripts, <code>$EDITOR</code>)</td><td><code>zed --wait /abs/path</code></td></tr></tbody></table>
+<p>On the desktop app the command is spawned directly; on the web app the server reports a
+local path for the artifact (mounted share) and the UI shows the command to copy, because no
+<code>zed://</code> URL form that opens a file at a line is documented. VS Code gets
+<code>vscode://file/ABS/PATH:LINE:COL</code> for the same action.</p>
+<h2 id="user-content-layout"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#layout"><span class="heading-anchor-icon">#</span></a>Layout</h2>
+<pre><code>extension.toml           manifest (schema_version 1): snippets, icon theme, [context_servers.frontier]
+Cargo.toml, src/lib.rs   the wasm32-wasip2 shim: context_server_command + context_server_configuration
+configuration/           installation text, default settings and settings schema Zed shows for the server
+schemas/                 bundled JSON Schemas (copies of the published spec/schemas/)
+settings/                settings blocks for json-language-server and yaml-language-server
+snippets/                json.json, yaml.json, toml.json (matched to languages by file name)
+skills/                  three agent skills (SKILL.md)
+icons/, icon_themes/     the opt-in icon theme
+tests/                   pytest: manifest shape, schemas, settings, snippets validate, server command
+</code></pre>
+<h2 id="user-content-develop"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#develop"><span class="heading-anchor-icon">#</span></a>Develop</h2>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">uv</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> run</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --no-sync</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> pytest</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> tools/frontier-zed/tests</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -q</span><span style="color:#6A737D;--shiki-dark:#6A737D">            # or: pnpm nx run frontier-zed:test</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">FRONTIER_ZED_BUILD</span><span style="color:#D73A49;--shiki-dark:#F97583">=</span><span style="color:#032F62;--shiki-dark:#9ECBFF">1</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> uv</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> run</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --no-sync</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> pytest</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> tools/frontier-zed/tests</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -q</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -k</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> wasm</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">pnpm</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> nx</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> run</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> frontier-zed:build</span><span style="color:#6A737D;--shiki-dark:#6A737D">                                  # cargo build for wasm32-wasip2</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">pnpm</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> nx</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> run</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> frontier-zed:sync-schemas</span><span style="color:#6A737D;--shiki-dark:#6A737D">                           # refresh schemas/ from the monorepo's published schemas</span></span></code></pre>
+<p>The tests render every snippet (first choice, default placeholders) and validate the result
+against its schema, so a schema change that breaks a snippet fails here.</p>
+<p>Zed facts this extension relies on were checked on 2026-10-11 against zed.dev/docs,
+<code>zed-industries/zed</code> (<code>crates/extension/src/extension_manifest.rs</code>) and crates.io
+(<code>zed_extension_api</code> 0.7.0): manifest schema version 1; extensions compile to
+<code>wasm32-wasip2</code>; context servers need a Rust crate (<code>context_server_command</code>,
+<code>context_server_configuration</code>); snippets are listed in the manifest and matched by file
+name; icon themes use schema v0.3.0 and only stems/suffixes merge with the default theme;
+slash commands are removed and agent-server extensions deprecated in favour of the ACP
+registry; the Rules Library became Skills in <code>~/.agents/skills/</code>; Zed plans to deprecate
+context-server extensions in favour of the MCP registry (tracked in zed-industries/zed#59351),
+which is why the server will also be published there.</p>
+<h2 id="user-content-status"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#status"><span class="heading-anchor-icon">#</span></a>Status</h2>
+<ul>
+<li>Not yet tried in a real Zed: the machine this was built on has no Zed installed. The
+manifest, the WASM build and the server command are covered by tests; the first run in
+Zed should confirm the dev-extension install, the diagnostics on a training config and the
+server in the agent panel, and capture the two screenshots.</li>
+<li><code>https://dimensionlab.org/schemas/</code> is not serving the schemas yet; use the local settings
+block until it does.</li>
+<li>Zed extension registry and MCP registry submissions pending.</li>
+</ul></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>
