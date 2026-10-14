@@ -218,7 +218,7 @@
     "license": "MIT",
     "created_at": "2024-08-27T10:31:46Z",
     "updated_at": "2026-10-10T06:17:41Z",
-    "pushed_at": "2026-10-10T06:17:39Z",
+    "pushed_at": "2026-10-13T21:14:33Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -3113,7 +3113,7 @@
     "name": "mantou132/zed-cspell",
     "url": "https://github.com/mantou132/zed-cspell",
     "description": "",
-    "stars": 41,
+    "stars": 40,
     "forks": 7,
     "topics": [
       "zed",
@@ -3122,7 +3122,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2025-01-05T07:27:09Z",
-    "updated_at": "2026-10-10T05:32:30Z",
+    "updated_at": "2026-10-13T23:16:31Z",
     "pushed_at": "2026-08-28T15:50:10Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -11311,13 +11311,13 @@
     "name": "zed-extensions/kotlin",
     "url": "https://github.com/zed-extensions/kotlin",
     "description": "Kotlin support",
-    "stars": 104,
+    "stars": 105,
     "forks": 36,
     "topics": [],
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-02-27T10:35:56Z",
-    "updated_at": "2026-10-05T16:25:56Z",
+    "updated_at": "2026-10-14T00:20:40Z",
     "pushed_at": "2026-09-28T09:44:26Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": false,
@@ -22337,7 +22337,7 @@
     "name": "skarline/zed-xcode-themes",
     "url": "https://github.com/skarline/zed-xcode-themes",
     "description": "🍎 Recreate Xcode's native feel in Zed with authentic themes for a seamless, Apple-inspired coding environment.",
-    "stars": 78,
+    "stars": 77,
     "forks": 3,
     "topics": [
       "zed",
@@ -22348,7 +22348,7 @@
     "language": null,
     "license": null,
     "created_at": "2024-02-25T02:26:32Z",
-    "updated_at": "2026-10-11T11:07:16Z",
+    "updated_at": "2026-10-13T23:45:44Z",
     "pushed_at": "2025-01-14T12:40:40Z",
     "discovered_at": "2026-05-19T20:15:46.472Z",
     "official": true,
@@ -54642,24 +54642,24 @@
   "luceat-lux-vestra/zed-spring-tools": {
     "name": "luceat-lux-vestra/zed-spring-tools",
     "url": "https://github.com/luceat-lux-vestra/zed-spring-tools",
-    "description": "Spring Boot language intelligence for Zed, built on the required official Java extension. Early source release; one tested tuple (macOS arm64/JDK 25).",
+    "description": "Spring Boot language intelligence for Zed, powered by the official standalone Spring Tools language server. Complements Zed's Java extension. Registry publication pending.",
     "stars": 11,
     "forks": 1,
     "topics": [
       "java",
-      "jdt-ls",
       "language-server",
       "lsp",
       "spring",
       "spring-boot",
+      "spring-tools",
       "zed",
       "zed-extension"
     ],
     "language": "JavaScript",
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
-    "updated_at": "2026-10-13T18:22:41Z",
-    "pushed_at": "2026-10-13T18:27:57Z",
+    "updated_at": "2026-10-14T00:07:08Z",
+    "pushed_at": "2026-10-14T00:05:45Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false,
     "extension": {
@@ -60699,7 +60699,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-03-11T08:53:21Z",
-    "updated_at": "2026-09-12T02:23:32Z",
+    "updated_at": "2026-10-13T19:05:30Z",
     "pushed_at": "2026-09-11T09:50:50Z",
     "discovered_at": "2026-09-12T05:00:02.440Z",
     "official": false,
@@ -64324,8 +64324,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-10-01T19:48:54Z",
-    "updated_at": "2026-10-08T15:32:16Z",
-    "pushed_at": "2026-10-13T18:40:56Z",
+    "updated_at": "2026-10-14T00:23:44Z",
+    "pushed_at": "2026-10-14T00:25:26Z",
     "discovered_at": "2026-10-07T01:20:55.214Z",
     "official": false,
     "extension": {
@@ -64724,6 +64724,41 @@
       ],
       "categories": [
         "context-server"
+      ]
+    }
+  },
+  "nitelang/zed-extension": {
+    "name": "nitelang/zed-extension",
+    "url": "https://github.com/nitelang/zed-extension",
+    "description": "Nite language extension for Zed editor",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "zed-extension"
+    ],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2026-10-13T21:31:25Z",
+    "updated_at": "2026-10-13T21:52:49Z",
+    "pushed_at": "2026-10-13T21:52:44Z",
+    "discovered_at": "2026-10-14T01:09:41.523Z",
+    "official": false,
+    "extension": {
+      "id": "nite",
+      "name": "Nite",
+      "description": "Nite language support.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "NiTiSon"
+      ],
+      "repository": "https://github.com/nitelang/zed-extension",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
       ]
     }
   }

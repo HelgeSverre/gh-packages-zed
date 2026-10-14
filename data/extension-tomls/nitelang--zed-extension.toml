@@ -1,0 +1,14 @@
+id = "nite"
+name = "Nite"
+description = "Nite language support."
+version = "0.1.0"
+schema_version = 1
+authors = [
+    "NiTiSon",
+]
+repository = "https://github.com/nitelang/zed-extension"
+
+[grammars.yaml]
+repository = "https://github.com/tree-sitter-grammars/tree-sitter-yaml"
+commit = "a1c4812a73ec5e089de8e441fdea3a921e8d5079"
+path = "yaml"
