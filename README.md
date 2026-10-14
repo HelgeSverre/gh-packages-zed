@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1881** |
 | In official registry | 1352 |
 | Discovered via topics | 529 |
-| Last updated | 2026-10-14 07:00 UTC |
+| Last updated | 2026-10-14 12:53 UTC |
 
 ### By capability
 
@@ -120,11 +120,13 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 101 | 2026-10-14 | True Dark Theme for Zed IDE |
 | [chiploom/zed-wit](https://github.com/chiploom/zed-wit) | 0 | 2026-10-14 | Modern WIT language support for Zed, with Tree-sitter syntax... |
+| [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-10-14 | Zed editor support for Carve, a modern light markup language |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 218 | 2026-10-14 | Zed plugin for automatic time tracking and metrics generated... |
+| [pleahmacaka/zed-batch](https://github.com/pleahmacaka/zed-batch) | 5 | 2026-10-14 | Windows Batch (.bat, .cmd) support |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 101 | 2026-10-14 | True Dark Theme for Zed IDE |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 11 | 2026-10-14 | Spring Boot language intelligence for Zed, powered by the of... |
 | [nitelang/zed-extension](https://github.com/nitelang/zed-extension) | 0 | 2026-10-13 | Nite language extension for Zed editor |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 218 | 2026-10-13 | Zed plugin for automatic time tracking and metrics generated... |
 | [Relaxed-Theme/zed-theme-relaxed](https://github.com/Relaxed-Theme/zed-theme-relaxed) | 1 | 2026-10-13 | 🕶️ A relaxed Zed theme to take a more relaxed view of thing... |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 140 | 2026-10-13 | The Ruby language support for Zed editor |
 | [yuukiLike/zed-skin](https://github.com/yuukiLike/zed-skin) | 0 | 2026-10-13 | A high contrast theme collection for Zed. Three AAA-audited ... |
@@ -138,13 +140,12 @@ cd website && npm install && npm run dev
 | [sachadvr/zed-razor](https://github.com/sachadvr/zed-razor) | 1 | 2026-10-11 | Razor (.razor / .cshtml) syntax highlighting for the Zed edi... |
 | [adechlien/adech-theme-zed](https://github.com/adechlien/adech-theme-zed) | 1 | 2026-10-11 | Adech Theme for Zed IDE |
 | [fels-lang/zed-fels](https://github.com/fels-lang/zed-fels) | 0 | 2026-10-10 | Zed extension for the Fels programming language (formerly Ga... |
-| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-10-10 | Intelligent codebase search & indexing for Zed. Async MCP se... |
-| [SinaMombeiny/S-DarkTheme.zed](https://github.com/SinaMombeiny/S-DarkTheme.zed) | 5 | 2026-10-10 | Dark theme extension for the Zed code editor |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-10-14T12:53 | 0 | 676 | 2353 |
 | 2026-10-14T07:00 | 1 | 675 | 2353 |
 | 2026-10-14T01:09 | 1 | 674 | 2352 |
 | 2026-10-13T18:53 | 1 | 673 | 2351 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-10-12T18:54 | 1 | 668 | 2346 |
 | 2026-10-12T13:15 | 1 | 666 | 2345 |
 | 2026-10-12T07:21 | 0 | 666 | 2344 |
-| 2026-10-12T01:28 | 1 | 666 | 2344 |
 
 ---
 
