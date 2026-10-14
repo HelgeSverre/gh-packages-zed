@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1881** |
 | In official registry | 1352 |
 | Discovered via topics | 529 |
-| Last updated | 2026-10-14 01:09 UTC |
+| Last updated | 2026-10-14 07:00 UTC |
 
 ### By capability
 
@@ -120,6 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 101 | 2026-10-14 | True Dark Theme for Zed IDE |
 | [chiploom/zed-wit](https://github.com/chiploom/zed-wit) | 0 | 2026-10-14 | Modern WIT language support for Zed, with Tree-sitter syntax... |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 11 | 2026-10-14 | Spring Boot language intelligence for Zed, powered by the of... |
 | [nitelang/zed-extension](https://github.com/nitelang/zed-extension) | 0 | 2026-10-13 | Nite language extension for Zed editor |
@@ -129,7 +130,6 @@ cd website && npm install && npm run dev
 | [yuukiLike/zed-skin](https://github.com/yuukiLike/zed-skin) | 0 | 2026-10-13 | A high contrast theme collection for Zed. Three AAA-audited ... |
 | [Strategiumfinancepartner/agent-nexus-zed](https://github.com/Strategiumfinancepartner/agent-nexus-zed) | 0 | 2026-10-13 | Agent Nexus MCP server extension for Zed |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-10-13 | A Zed extension that allows to highlight all occurrences of ... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 101 | 2026-10-13 | True Dark Theme for Zed IDE |
 | [bhaskar0210s/revs](https://github.com/bhaskar0210s/revs) | 0 | 2026-10-13 | Git line history for Zed, like GitLens: open the previous or... |
 | [InacioPS/gruvbox-frameless-theme](https://github.com/InacioPS/gruvbox-frameless-theme) | 0 | 2026-10-12 | Frameless Gruvbox themes for Zed with six dark variants, tra... |
 | [Dhanush-S-Gowda/zed-theme-Pure-Black-High-Contrast](https://github.com/Dhanush-S-Gowda/zed-theme-Pure-Black-High-Contrast) | 1 | 2026-10-12 | Pure black & high contrast theme for Zed with bright syntax ... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-10-14T07:00 | 1 | 675 | 2353 |
 | 2026-10-14T01:09 | 1 | 674 | 2352 |
 | 2026-10-13T18:53 | 1 | 673 | 2351 |
 | 2026-10-13T13:01 | 0 | 673 | 2350 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-10-12T13:15 | 1 | 666 | 2345 |
 | 2026-10-12T07:21 | 0 | 666 | 2344 |
 | 2026-10-12T01:28 | 1 | 666 | 2344 |
-| 2026-10-11T18:51 | 2 | 664 | 2343 |
 
 ---
 
