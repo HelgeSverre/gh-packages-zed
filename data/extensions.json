@@ -8458,7 +8458,7 @@
     "name": "cange/nightfox.zed",
     "url": "https://github.com/cange/nightfox.zed",
     "description": "🦊 Zed editor theme ported from Neovim",
-    "stars": 188,
+    "stars": 187,
     "forks": 5,
     "topics": [
       "zed",
@@ -8467,7 +8467,7 @@
     "language": "Lua",
     "license": "MIT",
     "created_at": "2024-05-02T20:49:30Z",
-    "updated_at": "2026-10-14T17:48:45Z",
+    "updated_at": "2026-10-15T09:02:41Z",
     "pushed_at": "2026-08-27T11:32:49Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": true,
@@ -11314,11 +11314,11 @@
     "stars": 105,
     "forks": 37,
     "topics": [],
-    "language": "Tree-sitter Query",
+    "language": "Rust",
     "license": "MIT",
     "created_at": "2024-02-27T10:35:56Z",
-    "updated_at": "2026-10-14T00:20:40Z",
-    "pushed_at": "2026-09-28T09:44:26Z",
+    "updated_at": "2026-10-15T10:20:59Z",
+    "pushed_at": "2026-10-15T10:21:23Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": false,
     "extension": {
@@ -22133,7 +22133,7 @@
     "name": "davccavalcante/oxocarbon-theme-for-zed",
     "url": "https://github.com/davccavalcante/oxocarbon-theme-for-zed",
     "description": "The \"Oxocarbon Theme for Zed\" brings the sleek, modern aesthetics inspired by IBM Carbon Design System to your Zed editor. This theme is meticulously crafted to offer a refined and professional visual experience, available in multiple dark variations. The Oxocarbon Theme transforms your coding environment with its distinct, elegant style.",
-    "stars": 25,
+    "stars": 24,
     "forks": 3,
     "topics": [
       "davidccavalcante",
@@ -22152,7 +22152,7 @@
     "language": null,
     "license": "CC0-1.0",
     "created_at": "2024-08-01T01:36:49Z",
-    "updated_at": "2026-10-11T21:55:57Z",
+    "updated_at": "2026-10-15T11:51:26Z",
     "pushed_at": "2025-02-24T01:59:01Z",
     "discovered_at": "2026-05-19T20:15:46.472Z",
     "official": false,
@@ -22519,7 +22519,7 @@
     "name": "zarifpour/zed-env",
     "url": "https://github.com/zarifpour/zed-env",
     "description": "🔐 env support for Zed.",
-    "stars": 62,
+    "stars": 63,
     "forks": 2,
     "topics": [
       "dotenv",
@@ -22536,7 +22536,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-07-12T02:40:18Z",
-    "updated_at": "2026-09-29T21:58:39Z",
+    "updated_at": "2026-10-15T09:57:45Z",
     "pushed_at": "2024-11-13T21:48:13Z",
     "discovered_at": "2026-05-19T20:52:12.309Z",
     "official": true,
@@ -34045,15 +34045,20 @@
   "kdubrovsky/kiselevka": {
     "name": "kdubrovsky/kiselevka",
     "url": "https://github.com/kdubrovsky/kiselevka",
-    "description": "Kiselevka dark color theme for the Zed code editor",
-    "stars": 10,
+    "description": "Kiselevka color theme for the Zed code editor",
+    "stars": 11,
     "forks": 1,
-    "topics": [],
+    "topics": [
+      "color-theme",
+      "zed",
+      "zed-extension",
+      "zed-theme"
+    ],
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-20T18:27:19Z",
-    "updated_at": "2026-05-09T12:24:11Z",
-    "pushed_at": "2025-03-11T21:09:53Z",
+    "updated_at": "2026-10-15T09:50:28Z",
+    "pushed_at": "2026-10-14T11:05:12Z",
     "discovered_at": "2026-05-19T21:55:15.596Z",
     "official": true,
     "extension": {
@@ -53822,8 +53827,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-06-01T12:22:18Z",
-    "updated_at": "2026-10-14T20:26:15Z",
-    "pushed_at": "2026-10-14T23:28:26Z",
+    "updated_at": "2026-10-15T12:09:00Z",
+    "pushed_at": "2026-10-15T12:08:57Z",
     "discovered_at": "2026-07-09T13:39:01.645Z",
     "official": true,
     "extension": {
@@ -54627,8 +54632,8 @@
     "language": "JavaScript",
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
-    "updated_at": "2026-10-15T02:59:05Z",
-    "pushed_at": "2026-10-15T02:59:02Z",
+    "updated_at": "2026-10-15T10:21:05Z",
+    "pushed_at": "2026-10-15T10:21:02Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false,
     "extension": {
@@ -64804,6 +64809,37 @@
         "Xzit <x@tenso.co>"
       ],
       "repository": "https://github.com/xzit/catppuccin-monokai-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "0froq/zed-theme-lig": {
+    "name": "0froq/zed-theme-LiG",
+    "url": "https://github.com/0froq/zed-theme-LiG",
+    "description": "LiG for Zed: four editor themes generated from the shared OKLCH core",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "created_at": "2026-10-11T04:09:12Z",
+    "updated_at": "2026-10-12T18:51:54Z",
+    "pushed_at": "2026-10-12T18:51:49Z",
+    "discovered_at": "2026-10-15T12:56:55.734Z",
+    "official": true,
+    "extension": {
+      "id": "lig-theme",
+      "name": "LiG",
+      "description": "LiG editor themes: Light, Dark, Light Paper and Dark Paper",
+      "version": "0.1.3",
+      "schema_version": 1,
+      "authors": [
+        "0froq"
+      ],
+      "repository": "https://github.com/0froq/zed-theme-LiG",
       "snippets": null,
       "sections": [],
       "categories": [

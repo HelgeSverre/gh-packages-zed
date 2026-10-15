@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1882-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1883-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,16 +14,16 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1882** |
-| In official registry | 1352 |
+| Total tracked | **1883** |
+| In official registry | 1353 |
 | Discovered via topics | 530 |
-| Last updated | 2026-10-15 07:00 UTC |
+| Last updated | 2026-10-15 12:56 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
-| Themes | 813 |
+| Themes | 814 |
 | Grammars | 653 |
 | Language Servers | 604 |
 | Context Servers | 141 |
@@ -70,6 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [0froq/zed-theme-LiG](https://github.com/0froq/zed-theme-LiG) | 0 | LiG for Zed: four editor themes generated from the shared OKLCH core |
 | [xzit/catppuccin-monokai-zed](https://github.com/xzit/catppuccin-monokai-zed) | 0 | 🪐 Soothing pastel Monokai theme for Zed |
 | [DimensionLab/frontier-zed](https://github.com/DimensionLab/frontier-zed) | 0 | Frontier for Zed: JSON schemas, snippets and the Frontier MCP context server for... |
 | [nitelang/zed-extension](https://github.com/nitelang/zed-extension) | 0 | Nite language extension for Zed editor |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [damwes/zed-samurai-theme](https://github.com/damwes/zed-samurai-theme) | 4 | A theme for samurai programmers 🤺 |
 | [rafael-abuawad/vyper-lsp](https://github.com/rafael-abuawad/vyper-lsp) | 0 | Zed extension for the Vyper smart contract language. Syntax highlighting, indent... |
 | [sigrunixia/Tenebrous-Zed](https://github.com/sigrunixia/Tenebrous-Zed) | 0 | A dark Zed theme in the Tenebrous colour scheme. |
-| [freshjuice-dev/zed-hubl](https://github.com/freshjuice-dev/zed-hubl) | 0 | HubL (HubSpot templating) syntax highlighting for Zed. Bundled tree-sitter gramm... |
 
 ## Top starred (under 500)
 
@@ -105,8 +105,8 @@ cd website && npm install && npm run dev
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 201 | Typst extension for zed |
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
-| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 188 | 🦊 Zed editor theme ported from Neovim |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
+| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 187 | 🦊 Zed editor theme ported from Neovim |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 178 | A macOS native style theme for Zed, let it same like native app in macOS. |
 | [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 156 |  |
@@ -120,17 +120,19 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-10-15 | Zed editor support for Carve, a modern light markup language |
+| [zed-extensions/kotlin](https://github.com/zed-extensions/kotlin) | 105 | 2026-10-15 | Kotlin support |
+| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 11 | 2026-10-15 | Spring Boot language intelligence for Zed, powered by the of... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 101 | 2026-10-15 | True Dark Theme for Zed IDE |
 | [xzit/catppuccin-monokai-zed](https://github.com/xzit/catppuccin-monokai-zed) | 0 | 2026-10-15 | 🪐 Soothing pastel Monokai theme for Zed |
 | [baneeishaque/mcp-server-gistpad](https://github.com/baneeishaque/mcp-server-gistpad) | 0 | 2026-10-15 | GitHub Gists in Zed: browse, create, edit, and comment on gi... |
-| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 11 | 2026-10-15 | Spring Boot language intelligence for Zed, powered by the of... |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 218 | 2026-10-15 | Zed plugin for automatic time tracking and metrics generated... |
 | [chiploom/zed-wit](https://github.com/chiploom/zed-wit) | 0 | 2026-10-15 | Modern WIT language support for Zed, with Tree-sitter syntax... |
-| [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-10-14 | Zed editor support for Carve, a modern light markup language |
 | [BenjaminHalko/flow-icons-zed](https://github.com/BenjaminHalko/flow-icons-zed) | 40 | 2026-10-14 | 🌼 Flow Icons ported to Zed |
 | [rafael-abuawad/vyper-lsp](https://github.com/rafael-abuawad/vyper-lsp) | 0 | 2026-10-14 | Zed extension for the Vyper smart contract language. Syntax ... |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 140 | 2026-10-14 | The Ruby language support for Zed editor |
 | [DimensionLab/frontier-zed](https://github.com/DimensionLab/frontier-zed) | 0 | 2026-10-14 | Frontier for Zed: JSON schemas, snippets and the Frontier MC... |
+| [kdubrovsky/kiselevka](https://github.com/kdubrovsky/kiselevka) | 11 | 2026-10-14 | Kiselevka color theme for the Zed code editor |
 | [pleahmacaka/zed-batch](https://github.com/pleahmacaka/zed-batch) | 5 | 2026-10-14 | Windows Batch (.bat, .cmd) support |
 | [nitelang/zed-extension](https://github.com/nitelang/zed-extension) | 0 | 2026-10-13 | Nite language extension for Zed editor |
 | [Relaxed-Theme/zed-theme-relaxed](https://github.com/Relaxed-Theme/zed-theme-relaxed) | 2 | 2026-10-13 | 🕶️ A relaxed Zed theme to take a more relaxed view of thing... |
@@ -138,13 +140,12 @@ cd website && npm install && npm run dev
 | [Strategiumfinancepartner/agent-nexus-zed](https://github.com/Strategiumfinancepartner/agent-nexus-zed) | 0 | 2026-10-13 | Agent Nexus MCP server extension for Zed |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-10-13 | A Zed extension that allows to highlight all occurrences of ... |
 | [bhaskar0210s/revs](https://github.com/bhaskar0210s/revs) | 0 | 2026-10-13 | Git line history for Zed, like GitLens: open the previous or... |
-| [InacioPS/gruvbox-frameless-theme](https://github.com/InacioPS/gruvbox-frameless-theme) | 0 | 2026-10-12 | Frameless Gruvbox themes for Zed with six dark variants, tra... |
-| [Dhanush-S-Gowda/zed-theme-Pure-Black-High-Contrast](https://github.com/Dhanush-S-Gowda/zed-theme-Pure-Black-High-Contrast) | 1 | 2026-10-12 | Pure black & high contrast theme for Zed with bright syntax ... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-10-15T12:56 | 3 | 680 | 2358 |
 | 2026-10-15T07:00 | 1 | 678 | 2355 |
 | 2026-10-15T01:07 | 1 | 677 | 2354 |
 | 2026-10-14T18:51 | 1 | 676 | 2354 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-10-13T18:53 | 1 | 673 | 2351 |
 | 2026-10-13T13:01 | 0 | 673 | 2350 |
 | 2026-10-13T07:07 | 1 | 672 | 2350 |
-| 2026-10-13T01:23 | 3 | 669 | 2349 |
 
 ---
 
