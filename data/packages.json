@@ -199,7 +199,7 @@
     "license": "MIT",
     "created_at": "2024-08-27T10:31:46Z",
     "updated_at": "2026-10-14T09:30:24Z",
-    "pushed_at": "2026-10-14T09:30:21Z",
+    "pushed_at": "2026-10-14T21:10:01Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -218,7 +218,7 @@
     "license": "NOASSERTION",
     "created_at": "2024-10-11T18:22:02Z",
     "updated_at": "2026-10-07T21:12:59Z",
-    "pushed_at": "2026-10-13T17:11:53Z",
+    "pushed_at": "2026-10-14T19:20:58Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -382,8 +382,8 @@
     "language": "JavaScript",
     "license": null,
     "created_at": "2025-12-03T23:34:48Z",
-    "updated_at": "2026-10-14T12:49:04Z",
-    "pushed_at": "2026-07-27T02:22:29Z",
+    "updated_at": "2026-10-14T19:40:09Z",
+    "pushed_at": "2026-10-14T19:39:55Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -405,7 +405,7 @@
     "license": "BlueOak-1.0.0",
     "created_at": "2026-04-22T09:18:16Z",
     "updated_at": "2026-07-21T08:24:00Z",
-    "pushed_at": "2026-10-07T08:14:20Z",
+    "pushed_at": "2026-10-14T20:00:06Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -18009,8 +18009,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-10-14T12:54:35Z",
-    "pushed_at": "2026-10-14T12:54:31Z",
+    "updated_at": "2026-10-14T18:51:55Z",
+    "pushed_at": "2026-10-14T18:51:50Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -18904,21 +18904,6 @@
     "pushed_at": "2025-05-07T16:04:10Z",
     "discovered_at": "2026-05-19T21:42:53.670Z",
     "official": true
-  },
-  "lsdanii/flutter-snippets": {
-    "name": "lsdanii/flutter-snippets",
-    "url": "https://github.com/lsdanii/flutter-snippets",
-    "description": "A collection of Flutter snippets to improve your development speed.",
-    "stars": 11,
-    "forks": 2,
-    "topics": [],
-    "language": null,
-    "license": "GPL-3.0",
-    "created_at": "2024-12-20T22:26:53Z",
-    "updated_at": "2026-05-22T15:58:15Z",
-    "pushed_at": "2025-10-14T21:20:20Z",
-    "discovered_at": "2026-05-19T21:42:53.670Z",
-    "official": false
   },
   "jigyansunanda/focus": {
     "name": "jigyansunanda/focus",
@@ -31414,7 +31399,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-04-30T15:29:50Z",
     "updated_at": "2026-10-13T09:26:37Z",
-    "pushed_at": "2026-10-13T09:27:03Z",
+    "pushed_at": "2026-10-14T19:34:26Z",
     "discovered_at": "2026-06-26T18:36:57.330Z",
     "official": false
   },
@@ -32113,8 +32098,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-06-01T12:22:18Z",
-    "updated_at": "2026-10-14T17:13:04Z",
-    "pushed_at": "2026-10-14T17:12:59Z",
+    "updated_at": "2026-10-14T20:26:15Z",
+    "pushed_at": "2026-10-14T23:28:26Z",
     "discovered_at": "2026-07-09T13:39:01.645Z",
     "official": true
   },
@@ -36967,8 +36952,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-09-03T18:54:22Z",
-    "updated_at": "2026-10-14T17:01:00Z",
-    "pushed_at": "2026-10-14T17:00:58Z",
+    "updated_at": "2026-10-14T21:06:36Z",
+    "pushed_at": "2026-10-14T21:06:30Z",
     "discovered_at": "2026-09-09T01:10:37.044Z",
     "official": false
   },
@@ -37117,7 +37102,7 @@
   "igerok/rules-zed": {
     "name": "IgerOK/rules-zed",
     "url": "https://github.com/IgerOK/rules-zed",
-    "description": "Проект конфигурации AI-агента Zed IDE. Единый источник истины для переноса настроек на чистую машину: глобальные правила (AGENTS.md, 7 секций), skills git-workflow и project-doctor, настройка провайдера/модели.",
+    "description": "Проект конфигурации встроенного искусственного интеллекта (**Zed Agent**). Единый источник истины для автоматического переноса настроек на чистую машину.",
     "stars": 0,
     "forks": 0,
     "topics": [
@@ -37131,8 +37116,8 @@
     "language": null,
     "license": "NOASSERTION",
     "created_at": "2026-09-09T11:50:24Z",
-    "updated_at": "2026-10-13T05:53:06Z",
-    "pushed_at": "2026-10-13T05:53:02Z",
+    "updated_at": "2026-10-14T20:49:18Z",
+    "pushed_at": "2026-10-14T20:19:53Z",
     "discovered_at": "2026-09-11T11:47:40.513Z",
     "official": false
   },
@@ -39902,7 +39887,7 @@
     "name": "JeffreyJYZ/cmdcode-tools",
     "url": "https://github.com/JeffreyJYZ/cmdcode-tools",
     "description": "Zed extension and cmduse CLI for live Command Code usage: plan, credits, 5-hour and weekly windows, per-window elapsed, billing period stats. Rust, no bloat.",
-    "stars": 1,
+    "stars": 2,
     "forks": 0,
     "topics": [
       "cargo",
@@ -39917,8 +39902,8 @@
     "language": "TypeScript",
     "license": null,
     "created_at": "2026-09-04T07:49:15Z",
-    "updated_at": "2026-10-14T15:21:45Z",
-    "pushed_at": "2026-10-14T15:21:29Z",
+    "updated_at": "2026-10-15T00:58:26Z",
+    "pushed_at": "2026-10-15T00:58:22Z",
     "discovered_at": "2026-09-30T12:59:15.249Z",
     "official": false
   },
@@ -40323,11 +40308,11 @@
       "zed",
       "zed-extension"
     ],
-    "language": "Tree-sitter Query",
+    "language": "Python",
     "license": "MIT",
     "created_at": "2026-10-05T00:57:01Z",
-    "updated_at": "2026-10-05T01:53:11Z",
-    "pushed_at": "2026-10-05T01:53:07Z",
+    "updated_at": "2026-10-14T19:26:31Z",
+    "pushed_at": "2026-10-14T19:26:27Z",
     "discovered_at": "2026-10-05T07:19:16.281Z",
     "official": false
   },
@@ -40505,7 +40490,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-10-01T19:48:54Z",
     "updated_at": "2026-10-14T18:05:10Z",
-    "pushed_at": "2026-10-14T18:05:07Z",
+    "pushed_at": "2026-10-15T00:54:47Z",
     "discovered_at": "2026-10-07T01:20:55.214Z",
     "official": false
   },
@@ -40863,7 +40848,7 @@
     "name": "Relaxed-Theme/zed-theme-relaxed",
     "url": "https://github.com/Relaxed-Theme/zed-theme-relaxed",
     "description": "🕶️ A relaxed Zed theme to take a more relaxed view of things.",
-    "stars": 1,
+    "stars": 2,
     "forks": 0,
     "topics": [
       "relaxed",
@@ -40875,7 +40860,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-10-12T15:16:48Z",
-    "updated_at": "2026-10-13T17:38:49Z",
+    "updated_at": "2026-10-14T19:03:59Z",
     "pushed_at": "2026-10-13T17:38:45Z",
     "discovered_at": "2026-10-12T18:54:52.155Z",
     "official": false
@@ -41062,6 +41047,32 @@
     "updated_at": "2026-10-14T14:35:45Z",
     "pushed_at": "2026-10-14T14:35:36Z",
     "discovered_at": "2026-10-14T18:51:15.292Z",
+    "official": false
+  },
+  "brainztorm/zevbox": {
+    "name": "brainztorm/zevbox",
+    "url": "https://github.com/brainztorm/zevbox",
+    "description": "Run ACP agents (Claude, Antigravity) for the Zed editor inside Apple Container micro-VMs, behind a filtering ACP relay",
+    "stars": 1,
+    "forks": 0,
+    "topics": [
+      "acp",
+      "agent-client-protocol",
+      "ai-agents",
+      "apple-container",
+      "claude-code",
+      "macos",
+      "rust",
+      "sandbox",
+      "zed",
+      "zed-editor"
+    ],
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "created_at": "2026-10-14T18:38:52Z",
+    "updated_at": "2026-10-14T18:59:16Z",
+    "pushed_at": "2026-10-14T18:54:14Z",
+    "discovered_at": "2026-10-15T01:07:49.541Z",
     "official": false
   }
 }
