@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1885** |
 | In official registry | 1353 |
 | Discovered via topics | 532 |
-| Last updated | 2026-10-16 01:06 UTC |
+| Last updated | 2026-10-16 06:59 UTC |
 
 ### By capability
 
@@ -120,8 +120,11 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 101 | 2026-10-16 | True Dark Theme for Zed IDE |
+| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 11 | 2026-10-16 | Spring Boot language intelligence for Zed, powered by the of... |
 | [Neutriny/zed-simy](https://github.com/Neutriny/zed-simy) | 0 | 2026-10-16 | Provides Simy Highlighting In Zed |
-| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 11 | 2026-10-15 | Spring Boot language intelligence for Zed, powered by the of... |
+| [BenjaminHalko/flow-icons-zed](https://github.com/BenjaminHalko/flow-icons-zed) | 40 | 2026-10-16 | 🌼 Flow Icons ported to Zed |
+| [owlx56/zed-lean4](https://github.com/owlx56/zed-lean4) | 61 | 2026-10-16 |  |
 | [Relaxed-Theme/zed-theme-relaxed](https://github.com/Relaxed-Theme/zed-theme-relaxed) | 2 | 2026-10-15 | 🕶️ A relaxed Zed theme to take a more relaxed view of thing... |
 | [nitelang/zed-extension](https://github.com/nitelang/zed-extension) | 0 | 2026-10-15 | Nite language extension for Zed editor |
 | [gesundes/zed-ansible-vault](https://github.com/gesundes/zed-ansible-vault) | 0 | 2026-10-15 | Encrypt and decrypt Ansible Vault files and inline !vault YA... |
@@ -130,21 +133,19 @@ cd website && npm install && npm run dev
 | [ronketer/nand2tetris-for-Zed](https://github.com/ronketer/nand2tetris-for-Zed) | 0 | 2026-10-15 | Declarative Zed language support for Nand2Tetris HDL, Hack a... |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-10-15 | Zed editor support for Carve, a modern light markup language |
 | [zed-extensions/kotlin](https://github.com/zed-extensions/kotlin) | 105 | 2026-10-15 | Kotlin support |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 101 | 2026-10-15 | True Dark Theme for Zed IDE |
 | [xzit/catppuccin-monokai-zed](https://github.com/xzit/catppuccin-monokai-zed) | 0 | 2026-10-15 | 🪐 Soothing pastel Monokai theme for Zed |
 | [baneeishaque/mcp-server-gistpad](https://github.com/baneeishaque/mcp-server-gistpad) | 0 | 2026-10-15 | GitHub Gists in Zed: browse, create, edit, and comment on gi... |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 218 | 2026-10-15 | Zed plugin for automatic time tracking and metrics generated... |
 | [chiploom/zed-wit](https://github.com/chiploom/zed-wit) | 0 | 2026-10-15 | Modern WIT language support for Zed, with Tree-sitter syntax... |
-| [BenjaminHalko/flow-icons-zed](https://github.com/BenjaminHalko/flow-icons-zed) | 40 | 2026-10-14 | 🌼 Flow Icons ported to Zed |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 140 | 2026-10-14 | The Ruby language support for Zed editor |
 | [DimensionLab/frontier-zed](https://github.com/DimensionLab/frontier-zed) | 0 | 2026-10-14 | Frontier for Zed: JSON schemas, snippets and the Frontier MC... |
 | [kdubrovsky/kiselevka](https://github.com/kdubrovsky/kiselevka) | 11 | 2026-10-14 | Kiselevka color theme for the Zed code editor |
-| [pleahmacaka/zed-batch](https://github.com/pleahmacaka/zed-batch) | 5 | 2026-10-14 | Windows Batch (.bat, .cmd) support |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-10-16T06:59 | 0 | 682 | 2361 |
 | 2026-10-16T01:06 | 3 | 679 | 2361 |
 | 2026-10-15T18:52 | 0 | 680 | 2358 |
 | 2026-10-15T12:56 | 3 | 680 | 2358 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-10-14T12:53 | 0 | 676 | 2353 |
 | 2026-10-14T07:00 | 1 | 675 | 2353 |
 | 2026-10-14T01:09 | 1 | 674 | 2352 |
-| 2026-10-13T18:53 | 1 | 673 | 2351 |
 
 ---
 
