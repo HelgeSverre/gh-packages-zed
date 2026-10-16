@@ -2471,7 +2471,7 @@
     "url": "https://github.com/MrAMS/zed-auto-file-header",
     "description": "A Zed extension that inserts a customizable file header (Filename, Author, Date, Copyright) automatically when you create a new, empty file.",
     "stars": 9,
-    "forks": 4,
+    "forks": 5,
     "topics": [
       "file-header",
       "zed",
@@ -54634,8 +54634,8 @@
     "language": "JavaScript",
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
-    "updated_at": "2026-10-15T17:44:55Z",
-    "pushed_at": "2026-10-15T17:44:52Z",
+    "updated_at": "2026-10-15T23:57:54Z",
+    "pushed_at": "2026-10-15T23:57:52Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false,
     "extension": {
@@ -64560,8 +64560,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-10-12T15:16:48Z",
-    "updated_at": "2026-10-14T19:03:59Z",
-    "pushed_at": "2026-10-13T17:38:45Z",
+    "updated_at": "2026-10-15T23:09:07Z",
+    "pushed_at": "2026-10-15T23:09:07Z",
     "discovered_at": "2026-10-12T18:54:52.155Z",
     "official": false,
     "extension": {
@@ -64715,8 +64715,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-10-13T21:31:25Z",
-    "updated_at": "2026-10-13T21:52:49Z",
-    "pushed_at": "2026-10-13T21:52:44Z",
+    "updated_at": "2026-10-15T23:07:31Z",
+    "pushed_at": "2026-10-15T23:07:27Z",
     "discovered_at": "2026-10-14T01:09:41.523Z",
     "official": false,
     "extension": {
@@ -64846,6 +64846,99 @@
       "sections": [],
       "categories": [
         "theme"
+      ]
+    }
+  },
+  "neutriny/zed-simy": {
+    "name": "Neutriny/zed-simy",
+    "url": "https://github.com/Neutriny/zed-simy",
+    "description": "Provides Simy Highlighting In Zed",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "code-highlighting",
+      "domain-specific-language",
+      "mc-datapack",
+      "minecraft",
+      "rust",
+      "syntax-highlighting",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2026-10-15T21:44:29Z",
+    "updated_at": "2026-10-16T01:01:27Z",
+    "pushed_at": "2026-10-16T00:56:47Z",
+    "discovered_at": "2026-10-16T01:06:28.868Z",
+    "official": false,
+    "extension": {
+      "id": "simy",
+      "name": "Simy",
+      "description": "Provides Simy Highlighting",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Neutriny <neutriny@yeah.net>"
+      ],
+      "repository": "https://github.com/Neutriny/zed-simy",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
+      ]
+    }
+  },
+  "daosaint/zed-catppuccin-glass": {
+    "name": "DaoSaint/zed-catppuccin-glass",
+    "url": "https://github.com/DaoSaint/zed-catppuccin-glass",
+    "description": "Transparent Catppuccin themes for the Zed editor — 18 frosted-free variants (Mocha, Latte, Frappé, Macchiato, Espresso, Iced Latte) at three opacity levels. Colour-identical to Catppuccin Blur with the window material switched from blurred to transparent.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "alpha",
+      "catppuccin",
+      "dark-theme",
+      "editor-theme",
+      "light-theme",
+      "theme",
+      "transparent",
+      "zed",
+      "zed-editor",
+      "zed-theme"
+    ],
+    "language": "Python",
+    "license": "NOASSERTION",
+    "created_at": "2026-09-17T01:19:54Z",
+    "updated_at": "2026-09-17T07:49:50Z",
+    "pushed_at": "2026-09-17T07:49:47Z",
+    "discovered_at": "2026-10-16T01:06:28.869Z",
+    "official": false,
+    "extension": {
+      "id": "catppuccin-glass",
+      "name": "Catppuccin Glass",
+      "description": "Catppuccin themes with a clear window material (transparent, no blur). Derived from Catppuccin Blur.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Yezarath <dao-saint@proton.me>"
+      ],
+      "repository": "https://github.com/Yezarath/zed-catppuccin-glass",
+      "snippets": null,
+      "sections": [
+        "lib",
+        "grammars",
+        "language_servers",
+        "context_servers",
+        "slash_commands"
+      ],
+      "categories": [
+        "grammar",
+        "language-server",
+        "slash-command",
+        "context-server"
       ]
     }
   }
