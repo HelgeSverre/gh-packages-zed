@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1885-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1887-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,18 +14,18 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1885** |
-| In official registry | 1353 |
-| Discovered via topics | 532 |
-| Last updated | 2026-10-16 06:59 UTC |
+| Total tracked | **1887** |
+| In official registry | 1354 |
+| Discovered via topics | 533 |
+| Last updated | 2026-10-16 12:55 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
-| Themes | 814 |
+| Themes | 815 |
 | Grammars | 655 |
-| Language Servers | 605 |
+| Language Servers | 606 |
 | Context Servers | 142 |
 | Snippets | 93 |
 | Slash Commands | 62 |
@@ -70,6 +70,8 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [pleahmacaka/zed-iconify-lsp](https://github.com/pleahmacaka/zed-iconify-lsp) | 1 | Iconify icon name completion and hover previews for Zed |
+| [sunaipa5/magreen-zed](https://github.com/sunaipa5/magreen-zed) | 0 | A clean, eye friendly dark theme for Zed combining magenta accents with classic ... |
 | [DaoSaint/zed-catppuccin-glass](https://github.com/DaoSaint/zed-catppuccin-glass) | 0 | Transparent Catppuccin themes for the Zed editor — 18 frosted-free variants (Moc... |
 | [Neutriny/zed-simy](https://github.com/Neutriny/zed-simy) | 0 | Provides Simy Highlighting In Zed |
 | [0froq/zed-theme-LiG](https://github.com/0froq/zed-theme-LiG) | 0 | LiG for Zed: four editor themes generated from the shared OKLCH core |
@@ -88,8 +90,6 @@ cd website && npm install && npm run dev
 | [lazyanubis/zed-graphite](https://github.com/lazyanubis/zed-graphite) | 0 | A charcoal Zed theme with blue keywords, purple control flow, olive types, and w... |
 | [chiploom/zed-wit](https://github.com/chiploom/zed-wit) | 0 | Modern WIT language support for Zed, with Tree-sitter syntax highlighting, snipp... |
 | [silenttwin/blue-velvet](https://github.com/silenttwin/blue-velvet) | 0 | A deep blue color scheme for the Zed/Gram text editors featuring muted pastel hi... |
-| [fennec-support/kosh-zed](https://github.com/fennec-support/kosh-zed) | 0 | zed extension for the koshka shell |
-| [damwes/zed-samurai-theme](https://github.com/damwes/zed-samurai-theme) | 4 | A theme for samurai programmers 🤺 |
 
 ## Top starred (under 500)
 
@@ -120,12 +120,14 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 101 | 2026-10-16 | True Dark Theme for Zed IDE |
+| [Relaxed-Theme/zed-theme-relaxed](https://github.com/Relaxed-Theme/zed-theme-relaxed) | 2 | 2026-10-16 | 🕶️ A relaxed Zed theme to take a more relaxed view of thing... |
+| [sunaipa5/magreen-zed](https://github.com/sunaipa5/magreen-zed) | 0 | 2026-10-16 | A clean, eye friendly dark theme for Zed combining magenta a... |
+| [pleahmacaka/zed-iconify-lsp](https://github.com/pleahmacaka/zed-iconify-lsp) | 1 | 2026-10-16 | Iconify icon name completion and hover previews for Zed |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 102 | 2026-10-16 | True Dark Theme for Zed IDE |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 11 | 2026-10-16 | Spring Boot language intelligence for Zed, powered by the of... |
 | [Neutriny/zed-simy](https://github.com/Neutriny/zed-simy) | 0 | 2026-10-16 | Provides Simy Highlighting In Zed |
 | [BenjaminHalko/flow-icons-zed](https://github.com/BenjaminHalko/flow-icons-zed) | 40 | 2026-10-16 | 🌼 Flow Icons ported to Zed |
 | [owlx56/zed-lean4](https://github.com/owlx56/zed-lean4) | 61 | 2026-10-16 |  |
-| [Relaxed-Theme/zed-theme-relaxed](https://github.com/Relaxed-Theme/zed-theme-relaxed) | 2 | 2026-10-15 | 🕶️ A relaxed Zed theme to take a more relaxed view of thing... |
 | [nitelang/zed-extension](https://github.com/nitelang/zed-extension) | 0 | 2026-10-15 | Nite language extension for Zed editor |
 | [gesundes/zed-ansible-vault](https://github.com/gesundes/zed-ansible-vault) | 0 | 2026-10-15 | Encrypt and decrypt Ansible Vault files and inline !vault YA... |
 | [rafael-abuawad/vyper-lsp](https://github.com/rafael-abuawad/vyper-lsp) | 0 | 2026-10-15 | Zed extension for the Vyper smart contract language. Syntax ... |
@@ -138,13 +140,12 @@ cd website && npm install && npm run dev
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 218 | 2026-10-15 | Zed plugin for automatic time tracking and metrics generated... |
 | [chiploom/zed-wit](https://github.com/chiploom/zed-wit) | 0 | 2026-10-15 | Modern WIT language support for Zed, with Tree-sitter syntax... |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 140 | 2026-10-14 | The Ruby language support for Zed editor |
-| [DimensionLab/frontier-zed](https://github.com/DimensionLab/frontier-zed) | 0 | 2026-10-14 | Frontier for Zed: JSON schemas, snippets and the Frontier MC... |
-| [kdubrovsky/kiselevka](https://github.com/kdubrovsky/kiselevka) | 11 | 2026-10-14 | Kiselevka color theme for the Zed code editor |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-10-16T12:55 | 2 | 681 | 2363 |
 | 2026-10-16T06:59 | 0 | 682 | 2361 |
 | 2026-10-16T01:06 | 3 | 679 | 2361 |
 | 2026-10-15T18:52 | 0 | 680 | 2358 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-10-14T18:51 | 1 | 676 | 2354 |
 | 2026-10-14T12:53 | 0 | 676 | 2353 |
 | 2026-10-14T07:00 | 1 | 675 | 2353 |
-| 2026-10-14T01:09 | 1 | 674 | 2352 |
 
 ---
 

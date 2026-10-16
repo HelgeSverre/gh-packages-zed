@@ -1,0 +1,23 @@
+id = "iconify-lsp"
+name = "Iconify"
+version = "0.1.0"
+schema_version = 1
+authors = ["PleahMaCaka <pleahmacaka@gmail.com>"]
+description = "Iconify icon name completion and hover previews."
+repository = "https://github.com/PleahMaCaka/zed-iconify-lsp"
+
+[language_servers.iconify-lsp]
+name = "Iconify Language Server"
+languages = [
+  "Astro",
+  "CSS",
+  "HTML",
+  "JavaScript",
+  "JSON",
+  "JSONC",
+  "Markdown",
+  "Svelte",
+  "TSX",
+  "TypeScript",
+  "Vue.js",
+]
