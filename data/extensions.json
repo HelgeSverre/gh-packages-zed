@@ -64557,11 +64557,11 @@
       "zed",
       "zed-theme"
     ],
-    "language": null,
+    "language": "Python",
     "license": "MIT",
     "created_at": "2026-10-12T15:16:48Z",
-    "updated_at": "2026-10-15T23:09:07Z",
-    "pushed_at": "2026-10-16T12:23:06Z",
+    "updated_at": "2026-10-16T15:29:13Z",
+    "pushed_at": "2026-10-16T15:29:46Z",
     "discovered_at": "2026-10-12T18:54:52.155Z",
     "official": false,
     "extension": {
@@ -65008,6 +65008,48 @@
       "sections": [],
       "categories": [
         "theme"
+      ]
+    }
+  },
+  "simy-launguage/zed-simy": {
+    "name": "Simy-Launguage/Zed-Simy",
+    "url": "https://github.com/Simy-Launguage/Zed-Simy",
+    "description": "Provides Simy Highlighting In Zed",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "code-highlighting",
+      "domain-specific-language",
+      "mc-datapack",
+      "minecraft",
+      "rust",
+      "syntax-highlighting",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2026-10-15T21:44:29Z",
+    "updated_at": "2026-10-16T17:21:09Z",
+    "pushed_at": "2026-10-16T17:21:04Z",
+    "discovered_at": "2026-10-16T18:49:34.505Z",
+    "official": false,
+    "extension": {
+      "id": "simy",
+      "name": "Simy",
+      "description": "Provides Simy Highlighting",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Neutriny <neutriny@yeah.net>"
+      ],
+      "repository": "https://github.com/Neutriny/zed-simy",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
       ]
     }
   }
