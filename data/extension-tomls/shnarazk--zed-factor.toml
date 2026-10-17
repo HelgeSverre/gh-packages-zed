@@ -1,0 +1,11 @@
+id = "factor"
+name = "Factor"
+description = "Factor language support."
+version = "0.1.0"
+schema_version = 1
+authors = ["shnarazk"]
+repository = "https://github.com/shnarazk/zed-factor"
+
+[grammars.factor]
+repository = "https://github.com/shnarazk/tree-sitter-factor"
+commit = "400b78874b0835a78af70dd3f71c7362ce49436b"

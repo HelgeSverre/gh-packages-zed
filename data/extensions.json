@@ -143,8 +143,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-10-16T09:58:37Z",
-    "pushed_at": "2026-10-16T06:27:22Z",
+    "updated_at": "2026-10-17T06:16:12Z",
+    "pushed_at": "2026-10-17T06:16:09Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -62977,8 +62977,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-09-25T09:59:14Z",
-    "updated_at": "2026-10-13T15:04:24Z",
-    "pushed_at": "2026-10-13T15:04:19Z",
+    "updated_at": "2026-10-17T04:48:11Z",
+    "pushed_at": "2026-10-17T04:48:08Z",
     "discovered_at": "2026-09-25T12:54:21.385Z",
     "official": true,
     "extension": {
@@ -64641,8 +64641,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-10-13T03:57:32Z",
-    "updated_at": "2026-10-13T08:02:14Z",
-    "pushed_at": "2026-10-13T08:02:11Z",
+    "updated_at": "2026-10-17T04:12:51Z",
+    "pushed_at": "2026-10-17T04:15:56Z",
     "discovered_at": "2026-10-13T07:07:13.284Z",
     "official": false,
     "extension": {
@@ -65044,6 +65044,42 @@
         "Neutriny <neutriny@yeah.net>"
       ],
       "repository": "https://github.com/Neutriny/zed-simy",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
+      ]
+    }
+  },
+  "shnarazk/zed-factor": {
+    "name": "shnarazk/zed-factor",
+    "url": "https://github.com/shnarazk/zed-factor",
+    "description": "A Zed extension for Factor language",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "factor",
+      "zed-extension"
+    ],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2026-10-15T09:56:05Z",
+    "updated_at": "2026-10-17T05:42:23Z",
+    "pushed_at": "2026-10-17T03:24:58Z",
+    "discovered_at": "2026-10-17T06:55:09.945Z",
+    "official": false,
+    "extension": {
+      "id": "factor",
+      "name": "Factor",
+      "description": "Factor language support.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "shnarazk"
+      ],
+      "repository": "https://github.com/shnarazk/zed-factor",
       "snippets": null,
       "sections": [
         "grammars"

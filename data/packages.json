@@ -158,8 +158,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-10-16T09:58:37Z",
-    "pushed_at": "2026-10-16T06:27:22Z",
+    "updated_at": "2026-10-17T06:16:12Z",
+    "pushed_at": "2026-10-17T06:16:09Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -15451,7 +15451,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
     "updated_at": "2026-10-16T10:17:50Z",
-    "pushed_at": "2026-10-16T23:23:38Z",
+    "pushed_at": "2026-10-17T01:49:13Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -18009,8 +18009,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-10-16T18:50:00Z",
-    "pushed_at": "2026-10-16T18:49:55Z",
+    "updated_at": "2026-10-17T01:08:30Z",
+    "pushed_at": "2026-10-17T01:08:25Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -36925,8 +36925,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-09-07T16:00:35Z",
-    "updated_at": "2026-10-16T16:19:54Z",
-    "pushed_at": "2026-10-16T16:19:50Z",
+    "updated_at": "2026-10-17T06:37:48Z",
+    "pushed_at": "2026-10-17T06:37:44Z",
     "discovered_at": "2026-09-07T18:46:27.369Z",
     "official": false
   },
@@ -39209,8 +39209,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-09-25T09:59:14Z",
-    "updated_at": "2026-10-13T15:04:24Z",
-    "pushed_at": "2026-10-13T15:04:19Z",
+    "updated_at": "2026-10-17T04:48:11Z",
+    "pushed_at": "2026-10-17T04:48:08Z",
     "discovered_at": "2026-09-25T12:54:21.385Z",
     "official": true
   },
@@ -39909,8 +39909,8 @@
     "language": "TypeScript",
     "license": null,
     "created_at": "2026-09-04T07:49:15Z",
-    "updated_at": "2026-10-16T23:53:24Z",
-    "pushed_at": "2026-10-16T23:53:20Z",
+    "updated_at": "2026-10-17T03:12:12Z",
+    "pushed_at": "2026-10-17T03:12:08Z",
     "discovered_at": "2026-09-30T12:59:15.249Z",
     "official": false
   },
@@ -40386,7 +40386,7 @@
     "name": "codizelabs/agent-rewake",
     "url": "https://github.com/codizelabs/agent-rewake",
     "description": "Auto Resume Claude, Codex or any Zed agent automatically when its usage limit resets. Also schedules messages into your agent threads. An add-on for Zed.",
-    "stars": 2,
+    "stars": 3,
     "forks": 0,
     "topics": [
       "acp",
@@ -40405,7 +40405,7 @@
     "language": "TypeScript",
     "license": "Apache-2.0",
     "created_at": "2026-10-06T03:31:12Z",
-    "updated_at": "2026-10-14T14:58:58Z",
+    "updated_at": "2026-10-17T06:52:21Z",
     "pushed_at": "2026-10-14T18:01:13Z",
     "discovered_at": "2026-10-06T12:56:24.959Z",
     "official": false
@@ -40970,8 +40970,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-10-13T03:57:32Z",
-    "updated_at": "2026-10-13T08:02:14Z",
-    "pushed_at": "2026-10-13T08:02:11Z",
+    "updated_at": "2026-10-17T04:12:51Z",
+    "pushed_at": "2026-10-17T04:15:56Z",
     "discovered_at": "2026-10-13T07:07:13.284Z",
     "official": false
   },
@@ -41330,6 +41330,24 @@
     "updated_at": "2026-10-16T20:01:37Z",
     "pushed_at": "2026-10-16T19:46:25Z",
     "discovered_at": "2026-10-17T01:07:52.390Z",
+    "official": false
+  },
+  "shnarazk/zed-factor": {
+    "name": "shnarazk/zed-factor",
+    "url": "https://github.com/shnarazk/zed-factor",
+    "description": "A Zed extension for Factor language",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "factor",
+      "zed-extension"
+    ],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2026-10-15T09:56:05Z",
+    "updated_at": "2026-10-17T05:42:23Z",
+    "pushed_at": "2026-10-17T03:24:58Z",
+    "discovered_at": "2026-10-17T06:55:09.945Z",
     "official": false
   }
 }
