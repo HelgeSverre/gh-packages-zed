@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1889** |
 | In official registry | 1355 |
 | Discovered via topics | 534 |
-| Last updated | 2026-10-17 06:55 UTC |
+| Last updated | 2026-10-17 12:49 UTC |
 
 ### By capability
 
@@ -120,8 +120,8 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 102 | 2026-10-17 | True Dark Theme for Zed IDE |
 | [yuukiLike/zed-skin](https://github.com/yuukiLike/zed-skin) | 0 | 2026-10-17 | A high contrast theme collection for Zed. Three AAA-audited ... |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 102 | 2026-10-17 | True Dark Theme for Zed IDE |
 | [bhaskar0210s/revs](https://github.com/bhaskar0210s/revs) | 0 | 2026-10-17 | Git line history for Zed, like GitLens: open the previous or... |
 | [shnarazk/zed-factor](https://github.com/shnarazk/zed-factor) | 0 | 2026-10-17 | A Zed extension for Factor language |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-10-16 | A Zed extension that allows to highlight all occurrences of ... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-10-17T12:49 | 0 | 680 | 2366 |
 | 2026-10-17T06:55 | 1 | 680 | 2366 |
 | 2026-10-17T01:07 | 1 | 679 | 2365 |
 | 2026-10-16T18:49 | 1 | 678 | 2364 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-10-15T18:52 | 0 | 680 | 2358 |
 | 2026-10-15T12:56 | 3 | 680 | 2358 |
 | 2026-10-15T07:00 | 1 | 678 | 2355 |
-| 2026-10-15T01:07 | 1 | 677 | 2354 |
 
 ---
 

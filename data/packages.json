@@ -1925,7 +1925,7 @@
     "name": "0x96f-org/0x96f-zed-theme",
     "url": "https://github.com/0x96f-org/0x96f-zed-theme",
     "description": "A simple and pleasant dark theme for Zed",
-    "stars": 42,
+    "stars": 43,
     "forks": 3,
     "topics": [
       "editor-theme",
@@ -1938,7 +1938,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-05-23T15:29:58Z",
-    "updated_at": "2026-09-14T06:41:55Z",
+    "updated_at": "2026-10-17T10:47:20Z",
     "pushed_at": "2026-09-08T10:45:37Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -5121,8 +5121,8 @@
     "language": "Go",
     "license": "MIT",
     "created_at": "2026-03-09T04:35:59Z",
-    "updated_at": "2026-10-16T11:09:54Z",
-    "pushed_at": "2026-10-16T11:09:48Z",
+    "updated_at": "2026-10-17T10:30:20Z",
+    "pushed_at": "2026-10-17T10:30:16Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -5149,8 +5149,8 @@
     "name": "Dylanmurzello/zed-android-port",
     "url": "https://github.com/Dylanmurzello/zed-android-port",
     "description": "Native Android port of the Zed code editor,  gpui rendering through Vulkan, integrated Termux for LSPs and tooling, remote SSH support. Runs as an APK on tablets and Android desktop modes.",
-    "stars": 233,
-    "forks": 18,
+    "stars": 234,
+    "forks": 19,
     "topics": [
       "android",
       "android-app",
@@ -5176,7 +5176,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-05-07T00:12:10Z",
-    "updated_at": "2026-10-16T17:41:09Z",
+    "updated_at": "2026-10-17T08:24:28Z",
     "pushed_at": "2026-08-07T13:48:06Z",
     "discovered_at": "2026-05-19T19:54:12.053Z",
     "official": false
@@ -18009,8 +18009,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-10-17T01:08:30Z",
-    "pushed_at": "2026-10-17T01:08:25Z",
+    "updated_at": "2026-10-17T06:55:48Z",
+    "pushed_at": "2026-10-17T06:55:44Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -31405,8 +31405,8 @@
     "language": "Nix",
     "license": "Apache-2.0",
     "created_at": "2026-04-30T15:29:50Z",
-    "updated_at": "2026-10-16T17:40:12Z",
-    "pushed_at": "2026-10-16T23:12:59Z",
+    "updated_at": "2026-10-17T12:32:41Z",
+    "pushed_at": "2026-10-17T12:32:36Z",
     "discovered_at": "2026-06-26T18:36:57.330Z",
     "official": false
   },
@@ -38378,7 +38378,7 @@
     "name": "Sunrisepeak/mcpp-language-server",
     "url": "https://github.com/Sunrisepeak/mcpp-language-server",
     "description": "mcppls — a C++20/23 modules language server: one set of module semantics on GCC, Clang, MSVC and MinGW, for editors (VS Code, Zed, CLion, Neovim), AI Agents (MCP) and CI",
-    "stars": 19,
+    "stars": 20,
     "forks": 2,
     "topics": [
       "ai-agents",
@@ -38405,7 +38405,7 @@
     "language": "C++",
     "license": "Apache-2.0",
     "created_at": "2026-09-21T20:10:00Z",
-    "updated_at": "2026-10-16T14:48:09Z",
+    "updated_at": "2026-10-17T11:03:27Z",
     "pushed_at": "2026-10-14T08:41:49Z",
     "discovered_at": "2026-09-21T22:12:12.101Z",
     "official": false
@@ -39209,8 +39209,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-09-25T09:59:14Z",
-    "updated_at": "2026-10-17T04:48:11Z",
-    "pushed_at": "2026-10-17T04:48:08Z",
+    "updated_at": "2026-10-17T08:34:56Z",
+    "pushed_at": "2026-10-17T08:34:53Z",
     "discovered_at": "2026-09-25T12:54:21.385Z",
     "official": true
   },
@@ -40746,8 +40746,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-10-11T15:56:55Z",
-    "updated_at": "2026-10-16T22:03:21Z",
-    "pushed_at": "2026-10-16T22:03:17Z",
+    "updated_at": "2026-10-17T08:37:49Z",
+    "pushed_at": "2026-10-17T08:49:42Z",
     "discovered_at": "2026-10-11T07:00:45.399Z",
     "official": false
   },
@@ -41016,20 +41016,22 @@
   "amiraliverse/zeditor": {
     "name": "amiraliverse/zeditor",
     "url": "https://github.com/amiraliverse/zeditor",
-    "description": "Zed editor config with a JetBrains-style (CLion/PyCharm) keymap, JetBrains Mono Nerd Font, and Python + C/C++ setup.",
+    "description": "Zed editor config with a JetBrains-style (Rustrover/PyCharm) keymap, JetBrains Mono Nerd Font, and Python + Rust + C/C++ setup.",
     "stars": 0,
     "forks": 0,
     "topics": [
       "cpp",
       "python",
       "rust",
+      "rust-lang",
+      "rustrover",
       "zed",
       "zed-editor"
     ],
     "language": null,
     "license": null,
     "created_at": "2026-10-10T04:23:12Z",
-    "updated_at": "2026-10-14T02:51:01Z",
+    "updated_at": "2026-10-17T07:44:47Z",
     "pushed_at": "2026-10-14T02:50:57Z",
     "discovered_at": "2026-10-14T07:00:01.581Z",
     "official": false
