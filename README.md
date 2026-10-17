@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1889** |
 | In official registry | 1355 |
 | Discovered via topics | 534 |
-| Last updated | 2026-10-17 12:49 UTC |
+| Last updated | 2026-10-17 18:46 UTC |
 
 ### By capability
 
@@ -120,6 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Abdelrahman-habib/deadleaf-zed-themes](https://github.com/Abdelrahman-habib/deadleaf-zed-themes) | 0 | 2026-10-17 | A collection of 41+ carefully crafted light and dark themes ... |
 | [yuukiLike/zed-skin](https://github.com/yuukiLike/zed-skin) | 0 | 2026-10-17 | A high contrast theme collection for Zed. Three AAA-audited ... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 102 | 2026-10-17 | True Dark Theme for Zed IDE |
 | [bhaskar0210s/revs](https://github.com/bhaskar0210s/revs) | 0 | 2026-10-17 | Git line history for Zed, like GitLens: open the previous or... |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [BrankoSlavkov/astryx](https://github.com/BrankoSlavkov/astryx) | 0 | 2026-10-15 | Theme for all the people who code in deep dark spaces |
 | [ronketer/nand2tetris-for-Zed](https://github.com/ronketer/nand2tetris-for-Zed) | 0 | 2026-10-15 | Declarative Zed language support for Nand2Tetris HDL, Hack a... |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-10-15 | Zed editor support for Carve, a modern light markup language |
-| [zed-extensions/kotlin](https://github.com/zed-extensions/kotlin) | 105 | 2026-10-15 | Kotlin support |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-10-17T18:46 | 0 | 680 | 2366 |
 | 2026-10-17T12:49 | 0 | 680 | 2366 |
 | 2026-10-17T06:55 | 1 | 680 | 2366 |
 | 2026-10-17T01:07 | 1 | 679 | 2365 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-10-16T01:06 | 3 | 679 | 2361 |
 | 2026-10-15T18:52 | 0 | 680 | 2358 |
 | 2026-10-15T12:56 | 3 | 680 | 2358 |
-| 2026-10-15T07:00 | 1 | 678 | 2355 |
 
 ---
 
