@@ -15,9 +15,9 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | | Count |
 |---|---|
 | Total tracked | **1888** |
-| In official registry | 1354 |
-| Discovered via topics | 534 |
-| Last updated | 2026-10-16 18:49 UTC |
+| In official registry | 1355 |
+| Discovered via topics | 533 |
+| Last updated | 2026-10-17 01:07 UTC |
 
 ### By capability
 
@@ -100,7 +100,7 @@ cd website && npm install && npm run dev
 | [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 340 | Catppuccin Theme but as blurred variants + custom ones |
 | [oxc-project/oxc-zed](https://github.com/oxc-project/oxc-zed) | 256 | Oxc extension for Zed |
 | [catppuccin/zed-icons](https://github.com/catppuccin/zed-icons) | 240 | 🦊 Soothing pastel icons for Zed |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 218 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 217 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
 | [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 211 | Zed support for the Godot game engine and the GDScript language |
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 201 | Typst extension for zed |
@@ -120,6 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-10-16 | A Zed extension that allows to highlight all occurrences of ... |
 | [Simy-Launguage/Zed-Simy](https://github.com/Simy-Launguage/Zed-Simy) | 0 | 2026-10-16 | Provides Simy Highlighting In Zed |
 | [Relaxed-Theme/zed-theme-relaxed](https://github.com/Relaxed-Theme/zed-theme-relaxed) | 2 | 2026-10-16 | 🕶️ A relaxed Zed theme to take a more relaxed view of thing... |
 | [sunaipa5/magreen-zed](https://github.com/sunaipa5/magreen-zed) | 0 | 2026-10-16 | A clean, eye friendly dark theme for Zed combining magenta a... |
@@ -138,13 +139,13 @@ cd website && npm install && npm run dev
 | [zed-extensions/kotlin](https://github.com/zed-extensions/kotlin) | 105 | 2026-10-15 | Kotlin support |
 | [xzit/catppuccin-monokai-zed](https://github.com/xzit/catppuccin-monokai-zed) | 0 | 2026-10-15 | 🪐 Soothing pastel Monokai theme for Zed |
 | [baneeishaque/mcp-server-gistpad](https://github.com/baneeishaque/mcp-server-gistpad) | 0 | 2026-10-15 | GitHub Gists in Zed: browse, create, edit, and comment on gi... |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 218 | 2026-10-15 | Zed plugin for automatic time tracking and metrics generated... |
-| [chiploom/zed-wit](https://github.com/chiploom/zed-wit) | 0 | 2026-10-15 | Modern WIT language support for Zed, with Tree-sitter syntax... |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 217 | 2026-10-15 | Zed plugin for automatic time tracking and metrics generated... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-10-17T01:07 | 1 | 679 | 2365 |
 | 2026-10-16T18:49 | 1 | 678 | 2364 |
 | 2026-10-16T12:55 | 2 | 681 | 2363 |
 | 2026-10-16T06:59 | 0 | 682 | 2361 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-10-15T07:00 | 1 | 678 | 2355 |
 | 2026-10-15T01:07 | 1 | 677 | 2354 |
 | 2026-10-14T18:51 | 1 | 676 | 2354 |
-| 2026-10-14T12:53 | 0 | 676 | 2353 |
 
 ---
 
