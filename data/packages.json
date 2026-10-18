@@ -217,8 +217,8 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2024-10-11T18:22:02Z",
-    "updated_at": "2026-10-07T21:12:59Z",
-    "pushed_at": "2026-10-14T19:20:58Z",
+    "updated_at": "2026-10-18T13:24:24Z",
+    "pushed_at": "2026-10-18T15:45:37Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -8633,13 +8633,13 @@
     "name": "zed-extensions/typst",
     "url": "https://github.com/zed-extensions/typst",
     "description": "Typst extension for zed",
-    "stars": 201,
+    "stars": 202,
     "forks": 19,
     "topics": [],
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2024-04-27T19:27:52Z",
-    "updated_at": "2026-10-04T14:13:17Z",
+    "updated_at": "2026-10-18T13:52:44Z",
     "pushed_at": "2026-08-22T09:27:03Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": false
@@ -15450,8 +15450,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
-    "updated_at": "2026-10-18T07:11:35Z",
-    "pushed_at": "2026-10-18T06:39:23Z",
+    "updated_at": "2026-10-18T17:54:41Z",
+    "pushed_at": "2026-10-18T17:55:13Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -18009,8 +18009,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-10-18T06:55:59Z",
-    "pushed_at": "2026-10-18T06:55:55Z",
+    "updated_at": "2026-10-18T12:49:43Z",
+    "pushed_at": "2026-10-18T12:49:39Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -31405,8 +31405,8 @@
     "language": "Nix",
     "license": "Apache-2.0",
     "created_at": "2026-04-30T15:29:50Z",
-    "updated_at": "2026-10-17T12:32:41Z",
-    "pushed_at": "2026-10-17T22:01:15Z",
+    "updated_at": "2026-10-18T17:20:52Z",
+    "pushed_at": "2026-10-18T18:43:01Z",
     "discovered_at": "2026-06-26T18:36:57.330Z",
     "official": false
   },
@@ -36156,8 +36156,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2025-12-13T09:32:42Z",
-    "updated_at": "2026-10-10T09:34:42Z",
-    "pushed_at": "2026-10-17T20:03:34Z",
+    "updated_at": "2026-10-18T15:10:37Z",
+    "pushed_at": "2026-10-18T15:10:36Z",
     "discovered_at": "2026-08-28T16:48:20.309Z",
     "official": true
   },
@@ -36925,8 +36925,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-09-07T16:00:35Z",
-    "updated_at": "2026-10-17T22:10:42Z",
-    "pushed_at": "2026-10-17T22:10:39Z",
+    "updated_at": "2026-10-18T17:56:03Z",
+    "pushed_at": "2026-10-18T17:55:59Z",
     "discovered_at": "2026-09-07T18:46:27.369Z",
     "official": false
   },
@@ -39909,8 +39909,8 @@
     "language": "TypeScript",
     "license": null,
     "created_at": "2026-09-04T07:49:15Z",
-    "updated_at": "2026-10-17T17:55:45Z",
-    "pushed_at": "2026-10-17T17:55:42Z",
+    "updated_at": "2026-10-18T13:25:47Z",
+    "pushed_at": "2026-10-18T13:25:44Z",
     "discovered_at": "2026-09-30T12:59:15.249Z",
     "official": false
   },
@@ -41376,6 +41376,47 @@
     "updated_at": "2026-10-17T22:03:59Z",
     "pushed_at": "2026-10-17T22:28:43Z",
     "discovered_at": "2026-10-18T01:13:08.292Z",
+    "official": false
+  },
+  "equaeghe/zed-email": {
+    "name": "equaeghe/zed-email",
+    "url": "https://github.com/equaeghe/zed-email",
+    "description": "Syntax highlighting for RFC 5322 email / MIME messages (.eml), based on Vim's mail.vim and KDE's email.xml syntax definitions (fully vibe-coded; use at your own risk!)",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "email",
+      "mime",
+      "syntax-highlighting",
+      "zed-extension"
+    ],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2026-10-18T13:25:17Z",
+    "updated_at": "2026-10-18T13:29:23Z",
+    "pushed_at": "2026-10-18T13:28:17Z",
+    "discovered_at": "2026-10-18T18:46:23.809Z",
+    "official": false
+  },
+  "excoriate/catppuccin-frappe-prism-zed": {
+    "name": "Excoriate/catppuccin-frappe-prism-zed",
+    "url": "https://github.com/Excoriate/catppuccin-frappe-prism-zed",
+    "description": "A warm Catppuccin Frappé theme for Zed, tuned for semantic clarity.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "catppuccin",
+      "dark-theme",
+      "syntax-highlighting",
+      "zed-editor",
+      "zed-theme"
+    ],
+    "language": null,
+    "license": null,
+    "created_at": "2026-10-18T17:41:47Z",
+    "updated_at": "2026-10-18T18:16:45Z",
+    "pushed_at": "2026-10-18T17:41:49Z",
+    "discovered_at": "2026-10-18T18:46:23.810Z",
     "official": false
   }
 }

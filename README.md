@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1889-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1890-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,17 +14,17 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1889** |
+| Total tracked | **1890** |
 | In official registry | 1355 |
-| Discovered via topics | 534 |
-| Last updated | 2026-10-18 12:49 UTC |
+| Discovered via topics | 535 |
+| Last updated | 2026-10-18 18:46 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
 | Themes | 815 |
-| Grammars | 657 |
+| Grammars | 658 |
 | Language Servers | 606 |
 | Context Servers | 142 |
 | Snippets | 93 |
@@ -70,6 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [equaeghe/zed-email](https://github.com/equaeghe/zed-email) | 0 | Syntax highlighting for RFC 5322 email / MIME messages (.eml), based on Vim's ma... |
 | [shnarazk/zed-factor](https://github.com/shnarazk/zed-factor) | 0 | A Zed extension for Factor language |
 | [Simy-Launguage/zed-simy](https://github.com/Simy-Launguage/zed-simy) | 0 | Provides Simy Highlighting In Zed |
 | [pleahmacaka/zed-iconify-lsp](https://github.com/pleahmacaka/zed-iconify-lsp) | 1 | Iconify icon name completion and hover previews for Zed |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [fels-lang/zed-fels](https://github.com/fels-lang/zed-fels) | 0 | Zed extension for the Fels programming language (formerly Gabbro): syntax highli... |
 | [gabbro-lang/zed-gabbro](https://github.com/gabbro-lang/zed-gabbro) | 0 | Zed extension for the Gabbro programming language: syntax highlighting and langu... |
 | [nertzy/zed-bats](https://github.com/nertzy/zed-bats) | 1 | Bats (Bash Automated Testing System) support for Zed: run each @test from the gu... |
-| [lazyanubis/zed-graphite](https://github.com/lazyanubis/zed-graphite) | 0 | A charcoal Zed theme with blue keywords, purple control flow, olive types, and w... |
 
 ## Top starred (under 500)
 
@@ -103,7 +103,7 @@ cd website && npm install && npm run dev
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 217 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
 | [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 211 | Zed support for the Godot game engine and the GDScript language |
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
-| [zed-extensions/typst](https://github.com/zed-extensions/typst) | 201 | Typst extension for zed |
+| [zed-extensions/typst](https://github.com/zed-extensions/typst) | 202 | Typst extension for zed |
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 187 | 🦊 Zed editor theme ported from Neovim |
@@ -120,6 +120,8 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 140 | 2026-10-18 | The Ruby language support for Zed editor |
+| [equaeghe/zed-email](https://github.com/equaeghe/zed-email) | 0 | 2026-10-18 | Syntax highlighting for RFC 5322 email / MIME messages (.eml... |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-10-18 | Zed editor support for Carve, a modern light markup language |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 102 | 2026-10-18 | True Dark Theme for Zed IDE |
 | [ronketer/nand2tetris-for-Zed](https://github.com/ronketer/nand2tetris-for-Zed) | 0 | 2026-10-17 | Declarative Zed language support for Nand2Tetris HDL, Hack a... |
@@ -138,13 +140,12 @@ cd website && npm install && npm run dev
 | [BenjaminHalko/flow-icons-zed](https://github.com/BenjaminHalko/flow-icons-zed) | 40 | 2026-10-16 | 🌼 Flow Icons ported to Zed |
 | [owlx56/zed-lean4](https://github.com/owlx56/zed-lean4) | 61 | 2026-10-16 |  |
 | [nitelang/zed-extension](https://github.com/nitelang/zed-extension) | 0 | 2026-10-15 | Nite language extension for Zed editor |
-| [gesundes/zed-ansible-vault](https://github.com/gesundes/zed-ansible-vault) | 0 | 2026-10-15 | Encrypt and decrypt Ansible Vault files and inline !vault YA... |
-| [rafael-abuawad/vyper-lsp](https://github.com/rafael-abuawad/vyper-lsp) | 0 | 2026-10-15 | Zed extension for the Vyper smart contract language. Syntax ... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-10-18T18:46 | 2 | 680 | 2369 |
 | 2026-10-18T12:49 | 0 | 681 | 2367 |
 | 2026-10-18T06:55 | 0 | 681 | 2367 |
 | 2026-10-18T01:13 | 1 | 680 | 2367 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-10-17T01:07 | 1 | 679 | 2365 |
 | 2026-10-16T18:49 | 1 | 678 | 2364 |
 | 2026-10-16T12:55 | 2 | 681 | 2363 |
-| 2026-10-16T06:59 | 0 | 682 | 2361 |
 
 ---
 
