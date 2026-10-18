@@ -15423,7 +15423,7 @@
     "name": "agent-sh/agnix",
     "url": "https://github.com/agent-sh/agnix",
     "description": "The missing linter and lsp for AI coding assistants. Validate CLAUDE.md, AGENTS.md, SKILL.md, hooks, MCP. Plugin for all major IDEs included, with autofixes.",
-    "stars": 453,
+    "stars": 454,
     "forks": 34,
     "topics": [
       "agent",
@@ -15450,8 +15450,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
-    "updated_at": "2026-10-16T10:17:50Z",
-    "pushed_at": "2026-10-17T18:19:51Z",
+    "updated_at": "2026-10-18T00:23:00Z",
+    "pushed_at": "2026-10-17T20:02:14Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -18009,8 +18009,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-10-17T12:49:59Z",
-    "pushed_at": "2026-10-17T12:49:56Z",
+    "updated_at": "2026-10-17T18:46:30Z",
+    "pushed_at": "2026-10-17T18:46:26Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -25254,8 +25254,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-07-01T21:28:51Z",
-    "updated_at": "2026-10-12T21:42:42Z",
-    "pushed_at": "2026-10-10T19:19:54Z",
+    "updated_at": "2026-10-17T18:48:40Z",
+    "pushed_at": "2026-10-17T18:48:36Z",
     "discovered_at": "2026-05-20T02:57:03.419Z",
     "official": true
   },
@@ -31073,11 +31073,11 @@
       "zed",
       "zed-extension"
     ],
-    "language": "Tree-sitter Query",
+    "language": "Python",
     "license": "MIT",
     "created_at": "2026-06-16T11:21:43Z",
-    "updated_at": "2026-10-15T16:01:31Z",
-    "pushed_at": "2026-10-15T13:57:56Z",
+    "updated_at": "2026-10-17T20:13:54Z",
+    "pushed_at": "2026-10-17T20:13:51Z",
     "discovered_at": "2026-06-21T12:39:48.605Z",
     "official": false
   },
@@ -31406,7 +31406,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-04-30T15:29:50Z",
     "updated_at": "2026-10-17T12:32:41Z",
-    "pushed_at": "2026-10-17T12:32:36Z",
+    "pushed_at": "2026-10-17T22:01:15Z",
     "discovered_at": "2026-06-26T18:36:57.330Z",
     "official": false
   },
@@ -31957,7 +31957,7 @@
     "license": "ISC",
     "created_at": "2026-07-04T02:15:25Z",
     "updated_at": "2026-09-16T01:25:07Z",
-    "pushed_at": "2026-09-16T01:52:46Z",
+    "pushed_at": "2026-10-17T21:07:32Z",
     "discovered_at": "2026-07-06T19:18:00.225Z",
     "official": false
   },
@@ -36157,7 +36157,7 @@
     "license": "MIT",
     "created_at": "2025-12-13T09:32:42Z",
     "updated_at": "2026-10-10T09:34:42Z",
-    "pushed_at": "2026-10-07T15:47:11Z",
+    "pushed_at": "2026-10-17T20:03:34Z",
     "discovered_at": "2026-08-28T16:48:20.309Z",
     "official": true
   },
@@ -36925,8 +36925,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-09-07T16:00:35Z",
-    "updated_at": "2026-10-17T16:21:54Z",
-    "pushed_at": "2026-10-17T16:21:51Z",
+    "updated_at": "2026-10-17T22:10:42Z",
+    "pushed_at": "2026-10-17T22:10:39Z",
     "discovered_at": "2026-09-07T18:46:27.369Z",
     "official": false
   },
@@ -40470,8 +40470,8 @@
     "language": "TypeScript",
     "license": "BSD-3-Clause",
     "created_at": "2026-10-06T13:41:37Z",
-    "updated_at": "2026-10-14T11:21:04Z",
-    "pushed_at": "2026-10-14T11:27:29Z",
+    "updated_at": "2026-10-17T19:21:31Z",
+    "pushed_at": "2026-10-17T19:21:27Z",
     "discovered_at": "2026-10-06T18:51:55.070Z",
     "official": false
   },
@@ -41350,6 +41350,32 @@
     "updated_at": "2026-10-17T05:42:23Z",
     "pushed_at": "2026-10-17T03:24:58Z",
     "discovered_at": "2026-10-17T06:55:09.945Z",
+    "official": false
+  },
+  "thesimonho/kanagawa-paper": {
+    "name": "thesimonho/kanagawa-paper",
+    "url": "https://github.com/thesimonho/kanagawa-paper",
+    "description": "🌊 Remixed Kanagawa colourschemes with muted colors.",
+    "stars": 403,
+    "forks": 20,
+    "topics": [
+      "color-scheme",
+      "ghostty-theme",
+      "kanagawa",
+      "kitty-theme",
+      "lazygit",
+      "neovim",
+      "neovim-colorscheme",
+      "vscode-theme",
+      "wezterm-themes",
+      "zed-theme"
+    ],
+    "language": "Lua",
+    "license": "MIT",
+    "created_at": "2024-06-02T08:11:44Z",
+    "updated_at": "2026-10-17T22:03:59Z",
+    "pushed_at": "2026-10-17T22:28:43Z",
+    "discovered_at": "2026-10-18T01:13:08.292Z",
     "official": false
   }
 }
