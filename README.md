@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1889** |
 | In official registry | 1355 |
 | Discovered via topics | 534 |
-| Last updated | 2026-10-18 06:55 UTC |
+| Last updated | 2026-10-18 12:49 UTC |
 
 ### By capability
 
@@ -71,7 +71,7 @@ cd website && npm install && npm run dev
 | Package | Stars | Description |
 |---|---|---|
 | [shnarazk/zed-factor](https://github.com/shnarazk/zed-factor) | 0 | A Zed extension for Factor language |
-| [Simy-Launguage/Zed-Simy](https://github.com/Simy-Launguage/Zed-Simy) | 0 | Provides Simy Highlighting In Zed |
+| [Simy-Launguage/zed-simy](https://github.com/Simy-Launguage/zed-simy) | 0 | Provides Simy Highlighting In Zed |
 | [pleahmacaka/zed-iconify-lsp](https://github.com/pleahmacaka/zed-iconify-lsp) | 1 | Iconify icon name completion and hover previews for Zed |
 | [sunaipa5/magreen-zed](https://github.com/sunaipa5/magreen-zed) | 0 | A clean, eye friendly dark theme for Zed combining magenta accents with classic ... |
 | [DaoSaint/zed-catppuccin-glass](https://github.com/DaoSaint/zed-catppuccin-glass) | 0 | Transparent Catppuccin themes for the Zed editor — 18 frosted-free variants (Moc... |
@@ -120,6 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-10-18 | Zed editor support for Carve, a modern light markup language |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 102 | 2026-10-18 | True Dark Theme for Zed IDE |
 | [ronketer/nand2tetris-for-Zed](https://github.com/ronketer/nand2tetris-for-Zed) | 0 | 2026-10-17 | Declarative Zed language support for Nand2Tetris HDL, Hack a... |
 | [SinaMombeiny/S-DarkTheme.zed](https://github.com/SinaMombeiny/S-DarkTheme.zed) | 5 | 2026-10-17 | Dark theme extension for the Zed code editor |
@@ -128,7 +129,7 @@ cd website && npm install && npm run dev
 | [bhaskar0210s/revs](https://github.com/bhaskar0210s/revs) | 0 | 2026-10-17 | Git line history for Zed, like GitLens: open the previous or... |
 | [shnarazk/zed-factor](https://github.com/shnarazk/zed-factor) | 0 | 2026-10-17 | A Zed extension for Factor language |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-10-16 | A Zed extension that allows to highlight all occurrences of ... |
-| [Simy-Launguage/Zed-Simy](https://github.com/Simy-Launguage/Zed-Simy) | 0 | 2026-10-16 | Provides Simy Highlighting In Zed |
+| [Simy-Launguage/zed-simy](https://github.com/Simy-Launguage/zed-simy) | 0 | 2026-10-16 | Provides Simy Highlighting In Zed |
 | [Relaxed-Theme/zed-theme-relaxed](https://github.com/Relaxed-Theme/zed-theme-relaxed) | 2 | 2026-10-16 | 🕶️ A relaxed Zed theme to take a more relaxed view of thing... |
 | [sunaipa5/magreen-zed](https://github.com/sunaipa5/magreen-zed) | 0 | 2026-10-16 | A clean, eye friendly dark theme for Zed combining magenta a... |
 | [pleahmacaka/zed-iconify-lsp](https://github.com/pleahmacaka/zed-iconify-lsp) | 1 | 2026-10-16 | Iconify icon name completion and hover previews for Zed |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [nitelang/zed-extension](https://github.com/nitelang/zed-extension) | 0 | 2026-10-15 | Nite language extension for Zed editor |
 | [gesundes/zed-ansible-vault](https://github.com/gesundes/zed-ansible-vault) | 0 | 2026-10-15 | Encrypt and decrypt Ansible Vault files and inline !vault YA... |
 | [rafael-abuawad/vyper-lsp](https://github.com/rafael-abuawad/vyper-lsp) | 0 | 2026-10-15 | Zed extension for the Vyper smart contract language. Syntax ... |
-| [BrankoSlavkov/astryx](https://github.com/BrankoSlavkov/astryx) | 0 | 2026-10-15 | Theme for all the people who code in deep dark spaces |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-10-18T12:49 | 0 | 681 | 2367 |
 | 2026-10-18T06:55 | 0 | 681 | 2367 |
 | 2026-10-18T01:13 | 1 | 680 | 2367 |
 | 2026-10-17T18:46 | 0 | 680 | 2366 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-10-16T18:49 | 1 | 678 | 2364 |
 | 2026-10-16T12:55 | 2 | 681 | 2363 |
 | 2026-10-16T06:59 | 0 | 682 | 2361 |
-| 2026-10-16T01:06 | 3 | 679 | 2361 |
 
 ---
 
