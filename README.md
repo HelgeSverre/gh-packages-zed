@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1892** |
 | In official registry | 1355 |
 | Discovered via topics | 537 |
-| Last updated | 2026-10-19 07:11 UTC |
+| Last updated | 2026-10-19 12:57 UTC |
 
 ### By capability
 
@@ -105,12 +105,12 @@ cd website && npm install && npm run dev
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 202 | Typst extension for zed |
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
+| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 188 | 🦊 Zed editor theme ported from Neovim |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
-| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 187 | 🦊 Zed editor theme ported from Neovim |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 178 | A macOS native style theme for Zed, let it same like native app in macOS. |
 | [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 156 |  |
-| [zed-extensions/swift](https://github.com/zed-extensions/swift) | 149 | Extension for Zed to support Swift |
+| [zed-extensions/swift](https://github.com/zed-extensions/swift) | 148 | Extension for Zed to support Swift |
 | [thedadams/zed-comment](https://github.com/thedadams/zed-comment) | 148 | A comment extension for the Zed editor |
 | [slymax/zedokai](https://github.com/slymax/zedokai) | 145 | a theme for Zed based on the Monokai Pro color scheme |
 | [nathansbradshaw/zed-angular](https://github.com/nathansbradshaw/zed-angular) | 144 |  |
@@ -120,10 +120,12 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 102 | 2026-10-19 | True Dark Theme for Zed IDE |
 | [LiLittleCat/pierre-icons-zed](https://github.com/LiLittleCat/pierre-icons-zed) | 0 | 2026-10-19 | Unofficial port of Pierre's file icons (as used in Claude De... |
+| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 11 | 2026-10-19 | Spring Boot language intelligence for Zed, powered by the of... |
+| [dexra-dev/zed-extension](https://github.com/dexra-dev/zed-extension) | 0 | 2026-10-19 | Dexra MCP server for Zed: Solana DeFi checks for AI agents |
+| [owlx56/zed-lean4](https://github.com/owlx56/zed-lean4) | 61 | 2026-10-19 |  |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 102 | 2026-10-19 | True Dark Theme for Zed IDE |
 | [shnarazk/zed-factor](https://github.com/shnarazk/zed-factor) | 0 | 2026-10-19 | A Zed extension for Factor language |
-| [dexra-dev/zed-extension](https://github.com/dexra-dev/zed-extension) | 0 | 2026-10-18 | Dexra MCP server for Zed: Solana DeFi checks for AI agents |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-10-18 | Zed editor support for Carve, a modern light markup language |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 140 | 2026-10-18 | The Ruby language support for Zed editor |
 | [equaeghe/zed-email](https://github.com/equaeghe/zed-email) | 0 | 2026-10-18 | Syntax highlighting for RFC 5322 email / MIME messages (.eml... |
@@ -137,14 +139,13 @@ cd website && npm install && npm run dev
 | [Relaxed-Theme/zed-theme-relaxed](https://github.com/Relaxed-Theme/zed-theme-relaxed) | 2 | 2026-10-16 | 🕶️ A relaxed Zed theme to take a more relaxed view of thing... |
 | [sunaipa5/magreen-zed](https://github.com/sunaipa5/magreen-zed) | 0 | 2026-10-16 | A clean, eye friendly dark theme for Zed combining magenta a... |
 | [pleahmacaka/zed-iconify-lsp](https://github.com/pleahmacaka/zed-iconify-lsp) | 1 | 2026-10-16 | Iconify icon name completion and hover previews for Zed |
-| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 11 | 2026-10-16 | Spring Boot language intelligence for Zed, powered by the of... |
 | [Neutriny/zed-simy](https://github.com/Neutriny/zed-simy) | 0 | 2026-10-16 | Provides Simy Highlighting In Zed |
-| [BenjaminHalko/flow-icons-zed](https://github.com/BenjaminHalko/flow-icons-zed) | 40 | 2026-10-16 | 🌼 Flow Icons ported to Zed |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-10-19T12:57 | 0 | 684 | 2371 |
 | 2026-10-19T07:11 | 1 | 683 | 2371 |
 | 2026-10-19T01:14 | 1 | 682 | 2370 |
 | 2026-10-18T18:46 | 2 | 680 | 2369 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-10-17T18:46 | 0 | 680 | 2366 |
 | 2026-10-17T12:49 | 0 | 680 | 2366 |
 | 2026-10-17T06:55 | 1 | 680 | 2366 |
-| 2026-10-17T01:07 | 1 | 679 | 2365 |
 
 ---
 
