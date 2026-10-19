@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1892** |
 | In official registry | 1355 |
 | Discovered via topics | 537 |
-| Last updated | 2026-10-19 12:57 UTC |
+| Last updated | 2026-10-19 18:52 UTC |
 
 ### By capability
 
@@ -120,31 +120,32 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 217 | 2026-10-19 | Zed plugin for automatic time tracking and metrics generated... |
+| [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-10-19 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
+| [yuukiLike/zed-skin](https://github.com/yuukiLike/zed-skin) | 0 | 2026-10-19 | A high contrast theme collection for Zed. Three AAA-audited ... |
+| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 140 | 2026-10-19 | The Ruby language support for Zed editor |
+| [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-10-19 | Zed editor support for Carve, a modern light markup language |
 | [LiLittleCat/pierre-icons-zed](https://github.com/LiLittleCat/pierre-icons-zed) | 0 | 2026-10-19 | Unofficial port of Pierre's file icons (as used in Claude De... |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 11 | 2026-10-19 | Spring Boot language intelligence for Zed, powered by the of... |
 | [dexra-dev/zed-extension](https://github.com/dexra-dev/zed-extension) | 0 | 2026-10-19 | Dexra MCP server for Zed: Solana DeFi checks for AI agents |
 | [owlx56/zed-lean4](https://github.com/owlx56/zed-lean4) | 61 | 2026-10-19 |  |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 102 | 2026-10-19 | True Dark Theme for Zed IDE |
 | [shnarazk/zed-factor](https://github.com/shnarazk/zed-factor) | 0 | 2026-10-19 | A Zed extension for Factor language |
-| [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-10-18 | Zed editor support for Carve, a modern light markup language |
-| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 140 | 2026-10-18 | The Ruby language support for Zed editor |
 | [equaeghe/zed-email](https://github.com/equaeghe/zed-email) | 0 | 2026-10-18 | Syntax highlighting for RFC 5322 email / MIME messages (.eml... |
 | [ronketer/nand2tetris-for-Zed](https://github.com/ronketer/nand2tetris-for-Zed) | 0 | 2026-10-17 | Declarative Zed language support for Nand2Tetris HDL, Hack a... |
 | [SinaMombeiny/S-DarkTheme.zed](https://github.com/SinaMombeiny/S-DarkTheme.zed) | 5 | 2026-10-17 | Dark theme extension for the Zed code editor |
 | [Abdelrahman-habib/deadleaf-zed-themes](https://github.com/Abdelrahman-habib/deadleaf-zed-themes) | 0 | 2026-10-17 | A collection of 41+ carefully crafted light and dark themes ... |
-| [yuukiLike/zed-skin](https://github.com/yuukiLike/zed-skin) | 0 | 2026-10-17 | A high contrast theme collection for Zed. Three AAA-audited ... |
 | [bhaskar0210s/revs](https://github.com/bhaskar0210s/revs) | 0 | 2026-10-17 | Git line history for Zed, like GitLens: open the previous or... |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-10-16 | A Zed extension that allows to highlight all occurrences of ... |
 | [Simy-Launguage/zed-simy](https://github.com/Simy-Launguage/zed-simy) | 0 | 2026-10-16 | Provides Simy Highlighting In Zed |
 | [Relaxed-Theme/zed-theme-relaxed](https://github.com/Relaxed-Theme/zed-theme-relaxed) | 2 | 2026-10-16 | 🕶️ A relaxed Zed theme to take a more relaxed view of thing... |
 | [sunaipa5/magreen-zed](https://github.com/sunaipa5/magreen-zed) | 0 | 2026-10-16 | A clean, eye friendly dark theme for Zed combining magenta a... |
-| [pleahmacaka/zed-iconify-lsp](https://github.com/pleahmacaka/zed-iconify-lsp) | 1 | 2026-10-16 | Iconify icon name completion and hover previews for Zed |
-| [Neutriny/zed-simy](https://github.com/Neutriny/zed-simy) | 0 | 2026-10-16 | Provides Simy Highlighting In Zed |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-10-19T18:52 | 1 | 684 | 2372 |
 | 2026-10-19T12:57 | 0 | 684 | 2371 |
 | 2026-10-19T07:11 | 1 | 683 | 2371 |
 | 2026-10-19T01:14 | 1 | 682 | 2370 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-10-18T01:13 | 1 | 680 | 2367 |
 | 2026-10-17T18:46 | 0 | 680 | 2366 |
 | 2026-10-17T12:49 | 0 | 680 | 2366 |
-| 2026-10-17T06:55 | 1 | 680 | 2366 |
 
 ---
 

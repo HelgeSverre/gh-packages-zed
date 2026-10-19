@@ -199,7 +199,7 @@
     "license": "MIT",
     "created_at": "2024-08-27T10:31:46Z",
     "updated_at": "2026-10-16T20:01:50Z",
-    "pushed_at": "2026-10-15T02:04:26Z",
+    "pushed_at": "2026-10-19T17:03:52Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -217,8 +217,8 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2024-10-11T18:22:02Z",
-    "updated_at": "2026-10-18T13:24:24Z",
-    "pushed_at": "2026-10-18T15:45:37Z",
+    "updated_at": "2026-10-19T16:15:50Z",
+    "pushed_at": "2026-10-19T16:16:12Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -18009,8 +18009,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-10-19T07:12:10Z",
-    "pushed_at": "2026-10-19T07:12:03Z",
+    "updated_at": "2026-10-19T12:58:19Z",
+    "pushed_at": "2026-10-19T12:58:14Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -32105,8 +32105,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-06-01T12:22:18Z",
-    "updated_at": "2026-10-18T19:45:19Z",
-    "pushed_at": "2026-10-18T19:54:20Z",
+    "updated_at": "2026-10-19T13:58:20Z",
+    "pushed_at": "2026-10-19T13:58:15Z",
     "discovered_at": "2026-07-09T13:39:01.645Z",
     "official": true
   },
@@ -35846,7 +35846,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-08-22T22:20:48Z",
     "updated_at": "2026-09-16T13:58:49Z",
-    "pushed_at": "2026-10-05T15:40:32Z",
+    "pushed_at": "2026-10-19T16:25:55Z",
     "discovered_at": "2026-08-24T13:01:58.453Z",
     "official": false
   },
@@ -36959,8 +36959,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-09-03T18:54:22Z",
-    "updated_at": "2026-10-19T12:54:48Z",
-    "pushed_at": "2026-10-19T12:54:41Z",
+    "updated_at": "2026-10-19T15:34:13Z",
+    "pushed_at": "2026-10-19T15:34:08Z",
     "discovered_at": "2026-09-09T01:10:37.044Z",
     "official": false
   },
@@ -39209,8 +39209,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-09-25T09:59:14Z",
-    "updated_at": "2026-10-17T08:34:56Z",
-    "pushed_at": "2026-10-17T08:34:53Z",
+    "updated_at": "2026-10-19T16:20:54Z",
+    "pushed_at": "2026-10-19T16:20:50Z",
     "discovered_at": "2026-09-25T12:54:21.385Z",
     "official": true
   },
@@ -39909,8 +39909,8 @@
     "language": "TypeScript",
     "license": null,
     "created_at": "2026-09-04T07:49:15Z",
-    "updated_at": "2026-10-19T11:16:02Z",
-    "pushed_at": "2026-10-19T11:15:58Z",
+    "updated_at": "2026-10-19T14:53:51Z",
+    "pushed_at": "2026-10-19T14:53:50Z",
     "discovered_at": "2026-09-30T12:59:15.249Z",
     "official": false
   },
@@ -40746,8 +40746,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-10-11T15:56:55Z",
-    "updated_at": "2026-10-17T15:52:27Z",
-    "pushed_at": "2026-10-17T15:52:24Z",
+    "updated_at": "2026-10-19T15:16:08Z",
+    "pushed_at": "2026-10-19T15:16:02Z",
     "discovered_at": "2026-10-11T07:00:45.399Z",
     "official": false
   },
@@ -41031,8 +41031,8 @@
     "language": null,
     "license": null,
     "created_at": "2026-10-10T04:23:12Z",
-    "updated_at": "2026-10-17T07:44:47Z",
-    "pushed_at": "2026-10-14T02:50:57Z",
+    "updated_at": "2026-10-19T16:07:15Z",
+    "pushed_at": "2026-10-19T16:07:10Z",
     "discovered_at": "2026-10-14T07:00:01.581Z",
     "official": false
   },
@@ -41459,6 +41459,29 @@
     "updated_at": "2026-10-19T12:40:53Z",
     "pushed_at": "2026-10-19T12:40:49Z",
     "discovered_at": "2026-10-19T07:11:34.233Z",
+    "official": false
+  },
+  "zaccesss/zed-config": {
+    "name": "zaccesss/zed-config",
+    "url": "https://github.com/zaccesss/zed-config",
+    "description": "Zed editor settings: a high-contrast dark theme that follows the system appearance, the theme extension it needs and setup guides for macOS, Linux and Windows.",
+    "stars": 0,
+    "forks": 1,
+    "topics": [
+      "accessibility",
+      "dotfiles",
+      "editor",
+      "high-contrast",
+      "settings",
+      "zed",
+      "zed-editor"
+    ],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-10-19T18:31:15Z",
+    "updated_at": "2026-10-19T18:39:13Z",
+    "pushed_at": "2026-10-19T18:39:10Z",
+    "discovered_at": "2026-10-19T18:52:33.957Z",
     "official": false
   }
 }
