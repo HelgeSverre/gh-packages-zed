@@ -143,8 +143,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-10-18T06:38:42Z",
-    "pushed_at": "2026-10-18T06:38:39Z",
+    "updated_at": "2026-10-19T06:59:20Z",
+    "pushed_at": "2026-10-19T06:59:16Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -2127,7 +2127,7 @@
     "url": "https://github.com/alfredomtx/tree-sitter-autohotkey",
     "description": "Tree-sitter grammar, LSP and debugger for the AutoHotkey V1 scripting language, packaged as a Zed extension",
     "stars": 8,
-    "forks": 1,
+    "forks": 2,
     "topics": [
       "autohotkey",
       "debugger",
@@ -7015,7 +7015,7 @@
     "name": "blacktop/zed-codeql",
     "url": "https://github.com/blacktop/zed-codeql",
     "description": "CodeQL language support for Zed",
-    "stars": 2,
+    "stars": 1,
     "forks": 0,
     "topics": [
       "codeql",
@@ -7026,7 +7026,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2025-09-13T21:19:15Z",
-    "updated_at": "2026-08-31T05:56:29Z",
+    "updated_at": "2026-10-19T02:58:22Z",
     "pushed_at": "2025-09-16T22:20:16Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false,
@@ -65067,7 +65067,7 @@
     "license": "MIT",
     "created_at": "2026-10-15T09:56:05Z",
     "updated_at": "2026-10-17T05:42:23Z",
-    "pushed_at": "2026-10-17T03:24:58Z",
+    "pushed_at": "2026-10-19T03:33:46Z",
     "discovered_at": "2026-10-17T06:55:09.945Z",
     "official": false,
     "extension": {
@@ -65164,6 +65164,42 @@
       ],
       "categories": [
         "context-server"
+      ]
+    }
+  },
+  "lilittlecat/pierre-icons-zed": {
+    "name": "LiLittleCat/pierre-icons-zed",
+    "url": "https://github.com/LiLittleCat/pierre-icons-zed",
+    "description": "Unofficial port of Pierre's file icons (as used in Claude Desktop) to a Zed icon theme, in colour and mono for dark and light.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "file-icons",
+      "icon-theme",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "JavaScript",
+    "license": "Apache-2.0",
+    "created_at": "2026-10-19T05:08:28Z",
+    "updated_at": "2026-10-19T05:12:46Z",
+    "pushed_at": "2026-10-19T05:12:43Z",
+    "discovered_at": "2026-10-19T07:11:34.233Z",
+    "official": false,
+    "extension": {
+      "id": "pierre-icons",
+      "name": "Pierre Icons",
+      "description": "Unofficial port of Pierre's file icons (as used in Claude Desktop) to Zed, in colour and mono for dark and light themes.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Yi Liu <hi@yl.do>"
+      ],
+      "repository": "https://github.com/LiLittleCat/pierre-icons-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
       ]
     }
   }

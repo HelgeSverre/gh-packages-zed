@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1891-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1892-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,16 +14,16 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1891** |
+| Total tracked | **1892** |
 | In official registry | 1355 |
-| Discovered via topics | 536 |
-| Last updated | 2026-10-19 01:14 UTC |
+| Discovered via topics | 537 |
+| Last updated | 2026-10-19 07:11 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
-| Themes | 815 |
+| Themes | 816 |
 | Grammars | 658 |
 | Language Servers | 606 |
 | Context Servers | 143 |
@@ -70,6 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [LiLittleCat/pierre-icons-zed](https://github.com/LiLittleCat/pierre-icons-zed) | 0 | Unofficial port of Pierre's file icons (as used in Claude Desktop) to a Zed icon... |
 | [dexra-dev/zed-extension](https://github.com/dexra-dev/zed-extension) | 0 | Dexra MCP server for Zed: Solana DeFi checks for AI agents |
 | [equaeghe/zed-email](https://github.com/equaeghe/zed-email) | 0 | Syntax highlighting for RFC 5322 email / MIME messages (.eml), based on Vim's ma... |
 | [shnarazk/zed-factor](https://github.com/shnarazk/zed-factor) | 0 | A Zed extension for Factor language |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [PrincessSiren/zed-sweet-theme](https://github.com/PrincessSiren/zed-sweet-theme) | 0 | Sweet theme for Zed: deep plum + hot pink (dark), blush + lavender (light). Matc... |
 | [sachadvr/zed-razor](https://github.com/sachadvr/zed-razor) | 1 | Razor (.razor / .cshtml) syntax highlighting for the Zed editor |
 | [fels-lang/zed-fels](https://github.com/fels-lang/zed-fels) | 0 | Zed extension for the Fels programming language (formerly Gabbro): syntax highli... |
-| [gabbro-lang/zed-gabbro](https://github.com/gabbro-lang/zed-gabbro) | 0 | Zed extension for the Gabbro programming language: syntax highlighting and langu... |
 
 ## Top starred (under 500)
 
@@ -120,17 +120,18 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 102 | 2026-10-19 | True Dark Theme for Zed IDE |
+| [LiLittleCat/pierre-icons-zed](https://github.com/LiLittleCat/pierre-icons-zed) | 0 | 2026-10-19 | Unofficial port of Pierre's file icons (as used in Claude De... |
+| [shnarazk/zed-factor](https://github.com/shnarazk/zed-factor) | 0 | 2026-10-19 | A Zed extension for Factor language |
 | [dexra-dev/zed-extension](https://github.com/dexra-dev/zed-extension) | 0 | 2026-10-18 | Dexra MCP server for Zed: Solana DeFi checks for AI agents |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-10-18 | Zed editor support for Carve, a modern light markup language |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 140 | 2026-10-18 | The Ruby language support for Zed editor |
 | [equaeghe/zed-email](https://github.com/equaeghe/zed-email) | 0 | 2026-10-18 | Syntax highlighting for RFC 5322 email / MIME messages (.eml... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 102 | 2026-10-18 | True Dark Theme for Zed IDE |
 | [ronketer/nand2tetris-for-Zed](https://github.com/ronketer/nand2tetris-for-Zed) | 0 | 2026-10-17 | Declarative Zed language support for Nand2Tetris HDL, Hack a... |
 | [SinaMombeiny/S-DarkTheme.zed](https://github.com/SinaMombeiny/S-DarkTheme.zed) | 5 | 2026-10-17 | Dark theme extension for the Zed code editor |
 | [Abdelrahman-habib/deadleaf-zed-themes](https://github.com/Abdelrahman-habib/deadleaf-zed-themes) | 0 | 2026-10-17 | A collection of 41+ carefully crafted light and dark themes ... |
 | [yuukiLike/zed-skin](https://github.com/yuukiLike/zed-skin) | 0 | 2026-10-17 | A high contrast theme collection for Zed. Three AAA-audited ... |
 | [bhaskar0210s/revs](https://github.com/bhaskar0210s/revs) | 0 | 2026-10-17 | Git line history for Zed, like GitLens: open the previous or... |
-| [shnarazk/zed-factor](https://github.com/shnarazk/zed-factor) | 0 | 2026-10-17 | A Zed extension for Factor language |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-10-16 | A Zed extension that allows to highlight all occurrences of ... |
 | [Simy-Launguage/zed-simy](https://github.com/Simy-Launguage/zed-simy) | 0 | 2026-10-16 | Provides Simy Highlighting In Zed |
 | [Relaxed-Theme/zed-theme-relaxed](https://github.com/Relaxed-Theme/zed-theme-relaxed) | 2 | 2026-10-16 | 🕶️ A relaxed Zed theme to take a more relaxed view of thing... |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 11 | 2026-10-16 | Spring Boot language intelligence for Zed, powered by the of... |
 | [Neutriny/zed-simy](https://github.com/Neutriny/zed-simy) | 0 | 2026-10-16 | Provides Simy Highlighting In Zed |
 | [BenjaminHalko/flow-icons-zed](https://github.com/BenjaminHalko/flow-icons-zed) | 40 | 2026-10-16 | 🌼 Flow Icons ported to Zed |
-| [owlx56/zed-lean4](https://github.com/owlx56/zed-lean4) | 61 | 2026-10-16 |  |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-10-19T07:11 | 1 | 683 | 2371 |
 | 2026-10-19T01:14 | 1 | 682 | 2370 |
 | 2026-10-18T18:46 | 2 | 680 | 2369 |
 | 2026-10-18T12:49 | 0 | 681 | 2367 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-10-17T12:49 | 0 | 680 | 2366 |
 | 2026-10-17T06:55 | 1 | 680 | 2366 |
 | 2026-10-17T01:07 | 1 | 679 | 2365 |
-| 2026-10-16T18:49 | 1 | 678 | 2364 |
 
 ---
 
