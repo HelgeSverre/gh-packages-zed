@@ -18009,8 +18009,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-10-19T12:58:19Z",
-    "pushed_at": "2026-10-19T12:58:14Z",
+    "updated_at": "2026-10-19T18:53:11Z",
+    "pushed_at": "2026-10-19T18:53:07Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -31956,8 +31956,8 @@
     "language": "Rust",
     "license": "ISC",
     "created_at": "2026-07-04T02:15:25Z",
-    "updated_at": "2026-09-16T01:25:07Z",
-    "pushed_at": "2026-10-17T21:07:32Z",
+    "updated_at": "2026-10-20T00:51:58Z",
+    "pushed_at": "2026-10-20T00:51:29Z",
     "discovered_at": "2026-07-06T19:18:00.225Z",
     "official": false
   },
@@ -32695,8 +32695,8 @@
     "language": "JavaScript",
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
-    "updated_at": "2026-10-16T04:19:13Z",
-    "pushed_at": "2026-10-19T12:20:28Z",
+    "updated_at": "2026-10-19T21:27:38Z",
+    "pushed_at": "2026-10-19T21:27:36Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false
   },
@@ -38642,8 +38642,8 @@
     "language": "TypeScript",
     "license": "NOASSERTION",
     "created_at": "2026-08-03T15:10:40Z",
-    "updated_at": "2026-10-14T07:02:36Z",
-    "pushed_at": "2026-10-14T07:05:14Z",
+    "updated_at": "2026-10-19T22:14:21Z",
+    "pushed_at": "2026-10-19T22:16:48Z",
     "discovered_at": "2026-09-22T12:02:39.129Z",
     "official": false
   },
@@ -39909,8 +39909,8 @@
     "language": "TypeScript",
     "license": null,
     "created_at": "2026-09-04T07:49:15Z",
-    "updated_at": "2026-10-19T14:53:51Z",
-    "pushed_at": "2026-10-19T14:53:50Z",
+    "updated_at": "2026-10-20T00:49:32Z",
+    "pushed_at": "2026-10-20T00:49:59Z",
     "discovered_at": "2026-09-30T12:59:15.249Z",
     "official": false
   },
@@ -41465,7 +41465,7 @@
     "name": "zaccesss/zed-config",
     "url": "https://github.com/zaccesss/zed-config",
     "description": "Zed editor settings: a high-contrast dark theme that follows the system appearance, the theme extension it needs and setup guides for macOS, Linux and Windows.",
-    "stars": 0,
+    "stars": 1,
     "forks": 1,
     "topics": [
       "accessibility",
@@ -41479,9 +41479,29 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-10-19T18:31:15Z",
-    "updated_at": "2026-10-19T18:39:13Z",
-    "pushed_at": "2026-10-19T18:39:10Z",
+    "updated_at": "2026-10-19T20:53:18Z",
+    "pushed_at": "2026-10-19T20:44:09Z",
     "discovered_at": "2026-10-19T18:52:33.957Z",
+    "official": false
+  },
+  "izaacapp/zed-theme-periwinkle": {
+    "name": "Izaacapp/zed-theme-periwinkle",
+    "url": "https://github.com/Izaacapp/zed-theme-periwinkle",
+    "description": "Periwinkle: a synthwave theme for Zed, plus the layout and extension kit it ships with",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "synthwave",
+      "zed",
+      "zed-extension",
+      "zed-theme"
+    ],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-10-20T00:02:19Z",
+    "updated_at": "2026-10-20T00:10:53Z",
+    "pushed_at": "2026-10-20T00:10:49Z",
+    "discovered_at": "2026-10-20T01:09:56.991Z",
     "official": false
   }
 }

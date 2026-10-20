@@ -54634,8 +54634,8 @@
     "language": "JavaScript",
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
-    "updated_at": "2026-10-16T04:19:13Z",
-    "pushed_at": "2026-10-19T12:20:28Z",
+    "updated_at": "2026-10-19T21:27:38Z",
+    "pushed_at": "2026-10-19T21:27:36Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false,
     "extension": {
@@ -65196,6 +65196,42 @@
         "Yi Liu <hi@yl.do>"
       ],
       "repository": "https://github.com/LiLittleCat/pierre-icons-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "izaacapp/zed-theme-periwinkle": {
+    "name": "Izaacapp/zed-theme-periwinkle",
+    "url": "https://github.com/Izaacapp/zed-theme-periwinkle",
+    "description": "Periwinkle: a synthwave theme for Zed, plus the layout and extension kit it ships with",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "synthwave",
+      "zed",
+      "zed-extension",
+      "zed-theme"
+    ],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-10-20T00:02:19Z",
+    "updated_at": "2026-10-20T00:10:53Z",
+    "pushed_at": "2026-10-20T00:10:49Z",
+    "discovered_at": "2026-10-20T01:09:56.991Z",
+    "official": false,
+    "extension": {
+      "id": "periwinkle-theme",
+      "name": "Periwinkle",
+      "description": "A synthwave periwinkle theme: violet-black base, frosted panels, complementary neon accents. Two variants: Frost and Neon.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Izaac A. Plambeck"
+      ],
+      "repository": "https://github.com/Izaacapp/zed-theme-periwinkle",
       "snippets": null,
       "sections": [],
       "categories": [
