@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1893-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1895-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,19 +14,19 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1893** |
+| Total tracked | **1895** |
 | In official registry | 1356 |
-| Discovered via topics | 537 |
-| Last updated | 2026-10-21 12:56 UTC |
+| Discovered via topics | 539 |
+| Last updated | 2026-10-21 18:51 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
-| Themes | 817 |
+| Themes | 818 |
 | Grammars | 658 |
 | Language Servers | 606 |
-| Context Servers | 143 |
+| Context Servers | 144 |
 | Snippets | 93 |
 | Slash Commands | 62 |
 | Debug Adapters | 36 |
@@ -70,6 +70,8 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [living-code-theme/zed](https://github.com/living-code-theme/zed) | 0 | ⚡ Living Code theme for Zed |
+| [SerpKite/serpkite-zed](https://github.com/SerpKite/serpkite-zed) | 0 | SerpKite MCP server for Zed's Agent Panel: Google search, news, maps and webpage... |
 | [Izaacapp/zed-theme-periwinkle](https://github.com/Izaacapp/zed-theme-periwinkle) | 0 | Periwinkle: a synthwave theme for Zed, plus the layout and extension kit it ship... |
 | [LiLittleCat/pierre-icons-zed](https://github.com/LiLittleCat/pierre-icons-zed) | 0 | Unofficial port of Pierre's file icons (as used in Claude Desktop) to a Zed icon... |
 | [dexra-dev/zed-extension](https://github.com/dexra-dev/zed-extension) | 0 | Dexra MCP server for Zed: Solana DeFi checks for AI agents |
@@ -88,8 +90,6 @@ cd website && npm install && npm run dev
 | [bhaskar0210s/revs](https://github.com/bhaskar0210s/revs) | 1 | Git line history for Zed, like GitLens: open the previous or next revision of th... |
 | [InacioPS/gruvbox-frameless-theme](https://github.com/InacioPS/gruvbox-frameless-theme) | 0 | Frameless Gruvbox themes for Zed with six dark variants, transparent editor guid... |
 | [Relaxed-Theme/zed-theme-relaxed](https://github.com/Relaxed-Theme/zed-theme-relaxed) | 2 | 🕶️ A relaxed Zed theme to take a more relaxed view of things. |
-| [PrincessSiren/zed-sweet-theme](https://github.com/PrincessSiren/zed-sweet-theme) | 0 | Sweet theme for Zed: deep plum + hot pink (dark), blush + lavender (light). Matc... |
-| [sachadvr/zed-razor](https://github.com/sachadvr/zed-razor) | 1 | Razor (.razor / .cshtml) syntax highlighting for the Zed editor |
 
 ## Top starred (under 500)
 
@@ -120,6 +120,10 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [SerpKite/serpkite-zed](https://github.com/SerpKite/serpkite-zed) | 0 | 2026-10-21 | SerpKite MCP server for Zed's Agent Panel: Google search, ne... |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 218 | 2026-10-21 | Zed plugin for automatic time tracking and metrics generated... |
+| [living-code-theme/zed](https://github.com/living-code-theme/zed) | 0 | 2026-10-21 | ⚡ Living Code theme for Zed |
+| [NeroWolfe75/brackets-refined-zed](https://github.com/NeroWolfe75/brackets-refined-zed) | 0 | 2026-10-21 | A refined dark theme for Zed with a neutral interface and ca... |
 | [equaeghe/zed-email](https://github.com/equaeghe/zed-email) | 0 | 2026-10-21 | Syntax highlighting for RFC 5322 email / MIME messages (.eml... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 102 | 2026-10-21 | True Dark Theme for Zed IDE |
 | [kjanat/zed-typescript](https://github.com/kjanat/zed-typescript) | 0 | 2026-10-21 | Runs the TypeScript 7+ language server in Zed. |
@@ -132,19 +136,16 @@ cd website && npm install && npm run dev
 | [shnarazk/zed-factor](https://github.com/shnarazk/zed-factor) | 0 | 2026-10-20 | A Zed extension for Factor language |
 | [Izaacapp/zed-theme-periwinkle](https://github.com/Izaacapp/zed-theme-periwinkle) | 0 | 2026-10-20 | Periwinkle: a synthwave theme for Zed, plus the layout and e... |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 11 | 2026-10-19 | Spring Boot language intelligence for Zed, powered by the of... |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 218 | 2026-10-19 | Zed plugin for automatic time tracking and metrics generated... |
 | [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-10-19 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
 | [LiLittleCat/pierre-icons-zed](https://github.com/LiLittleCat/pierre-icons-zed) | 0 | 2026-10-19 | Unofficial port of Pierre's file icons (as used in Claude De... |
 | [dexra-dev/zed-extension](https://github.com/dexra-dev/zed-extension) | 0 | 2026-10-19 | Dexra MCP server for Zed: Solana DeFi checks for AI agents |
 | [owlx56/zed-lean4](https://github.com/owlx56/zed-lean4) | 61 | 2026-10-19 |  |
-| [ronketer/nand2tetris-for-Zed](https://github.com/ronketer/nand2tetris-for-Zed) | 0 | 2026-10-17 | Declarative Zed language support for Nand2Tetris HDL, Hack a... |
-| [Abdelrahman-habib/deadleaf-zed-themes](https://github.com/Abdelrahman-habib/deadleaf-zed-themes) | 0 | 2026-10-17 | A collection of 41+ carefully crafted light and dark themes ... |
-| [bhaskar0210s/revs](https://github.com/bhaskar0210s/revs) | 1 | 2026-10-17 | Git line history for Zed, like GitLens: open the previous or... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-10-21T18:51 | 3 | 685 | 2378 |
 | 2026-10-21T12:56 | 0 | 685 | 2375 |
 | 2026-10-21T07:01 | 0 | 686 | 2375 |
 | 2026-10-21T01:10 | 0 | 686 | 2375 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-10-20T01:09 | 1 | 685 | 2373 |
 | 2026-10-19T18:52 | 1 | 684 | 2372 |
 | 2026-10-19T12:57 | 0 | 684 | 2371 |
-| 2026-10-19T07:11 | 1 | 683 | 2371 |
 
 ---
 
