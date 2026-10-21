@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1893** |
 | In official registry | 1356 |
 | Discovered via topics | 537 |
-| Last updated | 2026-10-21 07:01 UTC |
+| Last updated | 2026-10-21 12:56 UTC |
 
 ### By capability
 
@@ -120,6 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [equaeghe/zed-email](https://github.com/equaeghe/zed-email) | 0 | 2026-10-21 | Syntax highlighting for RFC 5322 email / MIME messages (.eml... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 102 | 2026-10-21 | True Dark Theme for Zed IDE |
 | [kjanat/zed-typescript](https://github.com/kjanat/zed-typescript) | 0 | 2026-10-21 | Runs the TypeScript 7+ language server in Zed. |
 | [fels-lang/zed-fels](https://github.com/fels-lang/zed-fels) | 0 | 2026-10-20 | Zed extension for the Fels programming language (formerly Ga... |
@@ -136,7 +137,6 @@ cd website && npm install && npm run dev
 | [LiLittleCat/pierre-icons-zed](https://github.com/LiLittleCat/pierre-icons-zed) | 0 | 2026-10-19 | Unofficial port of Pierre's file icons (as used in Claude De... |
 | [dexra-dev/zed-extension](https://github.com/dexra-dev/zed-extension) | 0 | 2026-10-19 | Dexra MCP server for Zed: Solana DeFi checks for AI agents |
 | [owlx56/zed-lean4](https://github.com/owlx56/zed-lean4) | 61 | 2026-10-19 |  |
-| [equaeghe/zed-email](https://github.com/equaeghe/zed-email) | 0 | 2026-10-18 | Syntax highlighting for RFC 5322 email / MIME messages (.eml... |
 | [ronketer/nand2tetris-for-Zed](https://github.com/ronketer/nand2tetris-for-Zed) | 0 | 2026-10-17 | Declarative Zed language support for Nand2Tetris HDL, Hack a... |
 | [Abdelrahman-habib/deadleaf-zed-themes](https://github.com/Abdelrahman-habib/deadleaf-zed-themes) | 0 | 2026-10-17 | A collection of 41+ carefully crafted light and dark themes ... |
 | [bhaskar0210s/revs](https://github.com/bhaskar0210s/revs) | 1 | 2026-10-17 | Git line history for Zed, like GitLens: open the previous or... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-10-21T12:56 | 0 | 685 | 2375 |
 | 2026-10-21T07:01 | 0 | 686 | 2375 |
 | 2026-10-21T01:10 | 0 | 686 | 2375 |
 | 2026-10-20T18:50 | 1 | 685 | 2375 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-10-19T18:52 | 1 | 684 | 2372 |
 | 2026-10-19T12:57 | 0 | 684 | 2371 |
 | 2026-10-19T07:11 | 1 | 683 | 2371 |
-| 2026-10-19T01:14 | 1 | 682 | 2370 |
 
 ---
 
