@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1893** |
 | In official registry | 1356 |
 | Discovered via topics | 537 |
-| Last updated | 2026-10-21 01:10 UTC |
+| Last updated | 2026-10-21 07:01 UTC |
 
 ### By capability
 
@@ -120,6 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 102 | 2026-10-21 | True Dark Theme for Zed IDE |
 | [kjanat/zed-typescript](https://github.com/kjanat/zed-typescript) | 0 | 2026-10-21 | Runs the TypeScript 7+ language server in Zed. |
 | [fels-lang/zed-fels](https://github.com/fels-lang/zed-fels) | 0 | 2026-10-20 | Zed extension for the Fels programming language (formerly Ga... |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 140 | 2026-10-20 | The Ruby language support for Zed editor |
@@ -128,7 +129,6 @@ cd website && npm install && npm run dev
 | [chiploom/zed-wit](https://github.com/chiploom/zed-wit) | 0 | 2026-10-20 | Modern WIT language support for Zed, with Tree-sitter syntax... |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-10-20 | Zed editor support for Carve, a modern light markup language |
 | [shnarazk/zed-factor](https://github.com/shnarazk/zed-factor) | 0 | 2026-10-20 | A Zed extension for Factor language |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 102 | 2026-10-20 | True Dark Theme for Zed IDE |
 | [Izaacapp/zed-theme-periwinkle](https://github.com/Izaacapp/zed-theme-periwinkle) | 0 | 2026-10-20 | Periwinkle: a synthwave theme for Zed, plus the layout and e... |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 11 | 2026-10-19 | Spring Boot language intelligence for Zed, powered by the of... |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 218 | 2026-10-19 | Zed plugin for automatic time tracking and metrics generated... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-10-21T07:01 | 0 | 686 | 2375 |
 | 2026-10-21T01:10 | 0 | 686 | 2375 |
 | 2026-10-20T18:50 | 1 | 685 | 2375 |
 | 2026-10-20T12:56 | 0 | 686 | 2374 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-10-19T12:57 | 0 | 684 | 2371 |
 | 2026-10-19T07:11 | 1 | 683 | 2371 |
 | 2026-10-19T01:14 | 1 | 682 | 2370 |
-| 2026-10-18T18:46 | 2 | 680 | 2369 |
 
 ---
 
