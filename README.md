@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1893** |
 | In official registry | 1356 |
 | Discovered via topics | 537 |
-| Last updated | 2026-10-20 18:50 UTC |
+| Last updated | 2026-10-21 01:10 UTC |
 
 ### By capability
 
@@ -105,7 +105,7 @@ cd website && npm install && npm run dev
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 202 | Typst extension for zed |
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
-| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 188 | 🦊 Zed editor theme ported from Neovim |
+| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 189 | 🦊 Zed editor theme ported from Neovim |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 178 | A macOS native style theme for Zed, let it same like native app in macOS. |
@@ -120,8 +120,9 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 140 | 2026-10-20 | The Ruby language support for Zed editor |
+| [kjanat/zed-typescript](https://github.com/kjanat/zed-typescript) | 0 | 2026-10-21 | Runs the TypeScript 7+ language server in Zed. |
 | [fels-lang/zed-fels](https://github.com/fels-lang/zed-fels) | 0 | 2026-10-20 | Zed extension for the Fels programming language (formerly Ga... |
+| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 140 | 2026-10-20 | The Ruby language support for Zed editor |
 | [yuukiLike/zed-skin](https://github.com/yuukiLike/zed-skin) | 0 | 2026-10-20 | A high contrast theme collection for Zed. Three AAA-audited ... |
 | [SinaMombeiny/S-DarkTheme.zed](https://github.com/SinaMombeiny/S-DarkTheme.zed) | 5 | 2026-10-20 | Dark theme extension for the Zed code editor |
 | [chiploom/zed-wit](https://github.com/chiploom/zed-wit) | 0 | 2026-10-20 | Modern WIT language support for Zed, with Tree-sitter syntax... |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [ronketer/nand2tetris-for-Zed](https://github.com/ronketer/nand2tetris-for-Zed) | 0 | 2026-10-17 | Declarative Zed language support for Nand2Tetris HDL, Hack a... |
 | [Abdelrahman-habib/deadleaf-zed-themes](https://github.com/Abdelrahman-habib/deadleaf-zed-themes) | 0 | 2026-10-17 | A collection of 41+ carefully crafted light and dark themes ... |
 | [bhaskar0210s/revs](https://github.com/bhaskar0210s/revs) | 1 | 2026-10-17 | Git line history for Zed, like GitLens: open the previous or... |
-| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-10-16 | A Zed extension that allows to highlight all occurrences of ... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-10-21T01:10 | 0 | 686 | 2375 |
 | 2026-10-20T18:50 | 1 | 685 | 2375 |
 | 2026-10-20T12:56 | 0 | 686 | 2374 |
 | 2026-10-20T07:00 | 1 | 685 | 2374 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-10-19T07:11 | 1 | 683 | 2371 |
 | 2026-10-19T01:14 | 1 | 682 | 2370 |
 | 2026-10-18T18:46 | 2 | 680 | 2369 |
-| 2026-10-18T12:49 | 0 | 681 | 2367 |
 
 ---
 
