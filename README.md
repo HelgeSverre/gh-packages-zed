@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1895-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1896-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,10 +14,10 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1895** |
+| Total tracked | **1896** |
 | In official registry | 1356 |
-| Discovered via topics | 539 |
-| Last updated | 2026-10-21 18:51 UTC |
+| Discovered via topics | 540 |
+| Last updated | 2026-10-22 01:08 UTC |
 
 ### By capability
 
@@ -26,7 +26,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Themes | 818 |
 | Grammars | 658 |
 | Language Servers | 606 |
-| Context Servers | 144 |
+| Context Servers | 145 |
 | Snippets | 93 |
 | Slash Commands | 62 |
 | Debug Adapters | 36 |
@@ -70,6 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [chindris-mihai-alexandru/zed-puter](https://github.com/chindris-mihai-alexandru/zed-puter) | 2 | Zed IDE extension for Puter.com AI models - Access Claude, GPT, Gemini & 500+ mo... |
 | [living-code-theme/zed](https://github.com/living-code-theme/zed) | 0 | ⚡ Living Code theme for Zed |
 | [SerpKite/serpkite-zed](https://github.com/SerpKite/serpkite-zed) | 0 | SerpKite MCP server for Zed's Agent Panel: Google search, news, maps and webpage... |
 | [Izaacapp/zed-theme-periwinkle](https://github.com/Izaacapp/zed-theme-periwinkle) | 0 | Periwinkle: a synthwave theme for Zed, plus the layout and extension kit it ship... |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [Strategiumfinancepartner/agent-nexus-zed](https://github.com/Strategiumfinancepartner/agent-nexus-zed) | 0 | Agent Nexus MCP server extension for Zed |
 | [bhaskar0210s/revs](https://github.com/bhaskar0210s/revs) | 1 | Git line history for Zed, like GitLens: open the previous or next revision of th... |
 | [InacioPS/gruvbox-frameless-theme](https://github.com/InacioPS/gruvbox-frameless-theme) | 0 | Frameless Gruvbox themes for Zed with six dark variants, transparent editor guid... |
-| [Relaxed-Theme/zed-theme-relaxed](https://github.com/Relaxed-Theme/zed-theme-relaxed) | 2 | 🕶️ A relaxed Zed theme to take a more relaxed view of things. |
 
 ## Top starred (under 500)
 
@@ -110,16 +110,19 @@ cd website && npm install && npm run dev
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 178 | A macOS native style theme for Zed, let it same like native app in macOS. |
 | [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 156 |  |
-| [zed-extensions/swift](https://github.com/zed-extensions/swift) | 148 | Extension for Zed to support Swift |
 | [thedadams/zed-comment](https://github.com/thedadams/zed-comment) | 148 | A comment extension for the Zed editor |
+| [zed-extensions/swift](https://github.com/zed-extensions/swift) | 147 | Extension for Zed to support Swift |
 | [slymax/zedokai](https://github.com/slymax/zedokai) | 145 | a theme for Zed based on the Monokai Pro color scheme |
 | [nathansbradshaw/zed-angular](https://github.com/nathansbradshaw/zed-angular) | 144 |  |
-| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 140 | The Ruby language support for Zed editor |
+| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 139 | The Ruby language support for Zed editor |
 
 ## Recently active
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [shnarazk/zed-factor](https://github.com/shnarazk/zed-factor) | 0 | 2026-10-22 | A Zed extension for Factor language |
+| [sachadvr/zed-razor](https://github.com/sachadvr/zed-razor) | 1 | 2026-10-21 | Razor (.razor / .cshtml) syntax highlighting for the Zed edi... |
+| [MahoCommerce/zed](https://github.com/MahoCommerce/zed) | 1 | 2026-10-21 | Maho extension for Zed. |
 | [SerpKite/serpkite-zed](https://github.com/SerpKite/serpkite-zed) | 0 | 2026-10-21 | SerpKite MCP server for Zed's Agent Panel: Google search, ne... |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 218 | 2026-10-21 | Zed plugin for automatic time tracking and metrics generated... |
 | [living-code-theme/zed](https://github.com/living-code-theme/zed) | 0 | 2026-10-21 | ⚡ Living Code theme for Zed |
@@ -128,23 +131,21 @@ cd website && npm install && npm run dev
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 102 | 2026-10-21 | True Dark Theme for Zed IDE |
 | [kjanat/zed-typescript](https://github.com/kjanat/zed-typescript) | 0 | 2026-10-21 | Runs the TypeScript 7+ language server in Zed. |
 | [fels-lang/zed-fels](https://github.com/fels-lang/zed-fels) | 0 | 2026-10-20 | Zed extension for the Fels programming language (formerly Ga... |
-| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 140 | 2026-10-20 | The Ruby language support for Zed editor |
+| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 139 | 2026-10-20 | The Ruby language support for Zed editor |
 | [yuukiLike/zed-skin](https://github.com/yuukiLike/zed-skin) | 0 | 2026-10-20 | A high contrast theme collection for Zed. Three AAA-audited ... |
 | [SinaMombeiny/S-DarkTheme.zed](https://github.com/SinaMombeiny/S-DarkTheme.zed) | 5 | 2026-10-20 | Dark theme extension for the Zed code editor |
 | [chiploom/zed-wit](https://github.com/chiploom/zed-wit) | 0 | 2026-10-20 | Modern WIT language support for Zed, with Tree-sitter syntax... |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-10-20 | Zed editor support for Carve, a modern light markup language |
-| [shnarazk/zed-factor](https://github.com/shnarazk/zed-factor) | 0 | 2026-10-20 | A Zed extension for Factor language |
 | [Izaacapp/zed-theme-periwinkle](https://github.com/Izaacapp/zed-theme-periwinkle) | 0 | 2026-10-20 | Periwinkle: a synthwave theme for Zed, plus the layout and e... |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 11 | 2026-10-19 | Spring Boot language intelligence for Zed, powered by the of... |
 | [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-10-19 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
 | [LiLittleCat/pierre-icons-zed](https://github.com/LiLittleCat/pierre-icons-zed) | 0 | 2026-10-19 | Unofficial port of Pierre's file icons (as used in Claude De... |
-| [dexra-dev/zed-extension](https://github.com/dexra-dev/zed-extension) | 0 | 2026-10-19 | Dexra MCP server for Zed: Solana DeFi checks for AI agents |
-| [owlx56/zed-lean4](https://github.com/owlx56/zed-lean4) | 61 | 2026-10-19 |  |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-10-22T01:08 | 1 | 687 | 2379 |
 | 2026-10-21T18:51 | 3 | 685 | 2378 |
 | 2026-10-21T12:56 | 0 | 685 | 2375 |
 | 2026-10-21T07:01 | 0 | 686 | 2375 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-10-20T07:00 | 1 | 685 | 2374 |
 | 2026-10-20T01:09 | 1 | 685 | 2373 |
 | 2026-10-19T18:52 | 1 | 684 | 2372 |
-| 2026-10-19T12:57 | 0 | 684 | 2371 |
 
 ---
 
