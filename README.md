@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1896** |
 | In official registry | 1356 |
 | Discovered via topics | 540 |
-| Last updated | 2026-10-22 01:08 UTC |
+| Last updated | 2026-10-22 07:01 UTC |
 
 ### By capability
 
@@ -120,6 +120,8 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 102 | 2026-10-22 | True Dark Theme for Zed IDE |
+| [MrAMS/zed-auto-file-header](https://github.com/MrAMS/zed-auto-file-header) | 9 | 2026-10-22 | A Zed extension that inserts a customizable file header (Fil... |
 | [shnarazk/zed-factor](https://github.com/shnarazk/zed-factor) | 0 | 2026-10-22 | A Zed extension for Factor language |
 | [sachadvr/zed-razor](https://github.com/sachadvr/zed-razor) | 1 | 2026-10-21 | Razor (.razor / .cshtml) syntax highlighting for the Zed edi... |
 | [MahoCommerce/zed](https://github.com/MahoCommerce/zed) | 1 | 2026-10-21 | Maho extension for Zed. |
@@ -128,7 +130,6 @@ cd website && npm install && npm run dev
 | [living-code-theme/zed](https://github.com/living-code-theme/zed) | 0 | 2026-10-21 | ⚡ Living Code theme for Zed |
 | [NeroWolfe75/brackets-refined-zed](https://github.com/NeroWolfe75/brackets-refined-zed) | 0 | 2026-10-21 | A refined dark theme for Zed with a neutral interface and ca... |
 | [equaeghe/zed-email](https://github.com/equaeghe/zed-email) | 0 | 2026-10-21 | Syntax highlighting for RFC 5322 email / MIME messages (.eml... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 102 | 2026-10-21 | True Dark Theme for Zed IDE |
 | [kjanat/zed-typescript](https://github.com/kjanat/zed-typescript) | 0 | 2026-10-21 | Runs the TypeScript 7+ language server in Zed. |
 | [fels-lang/zed-fels](https://github.com/fels-lang/zed-fels) | 0 | 2026-10-20 | Zed extension for the Fels programming language (formerly Ga... |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 139 | 2026-10-20 | The Ruby language support for Zed editor |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [Izaacapp/zed-theme-periwinkle](https://github.com/Izaacapp/zed-theme-periwinkle) | 0 | 2026-10-20 | Periwinkle: a synthwave theme for Zed, plus the layout and e... |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 11 | 2026-10-19 | Spring Boot language intelligence for Zed, powered by the of... |
 | [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-10-19 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
-| [LiLittleCat/pierre-icons-zed](https://github.com/LiLittleCat/pierre-icons-zed) | 0 | 2026-10-19 | Unofficial port of Pierre's file icons (as used in Claude De... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-10-22T07:01 | 0 | 688 | 2379 |
 | 2026-10-22T01:08 | 1 | 687 | 2379 |
 | 2026-10-21T18:51 | 3 | 685 | 2378 |
 | 2026-10-21T12:56 | 0 | 685 | 2375 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-10-20T12:56 | 0 | 686 | 2374 |
 | 2026-10-20T07:00 | 1 | 685 | 2374 |
 | 2026-10-20T01:09 | 1 | 685 | 2373 |
-| 2026-10-19T18:52 | 1 | 684 | 2372 |
 
 ---
 
