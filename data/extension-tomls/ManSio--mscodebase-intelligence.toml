@@ -1,6 +1,6 @@
 id = "mscodebase-intelligence"
 name = "MSCodeBase Intelligence"
-version = "3.2.3"
+version = "3.5.0"
 schema_version = 1
 description = "Semantic codebase intelligence with Multi-Bucket RAG, contextual retrieval, and system profiles"
 repository = "https://github.com/ManSio/mscodebase-intelligence"
@@ -18,8 +18,10 @@ capabilities = ["context_servers"]
 # Установка из marketplace → один клик, без ручной настройки.
 # Перед первым запуском: python install.py (создаёт venv + скачивает модели).
 [context_servers.mscodebase-intelligence]
-command = "venv\\Scripts\\python.exe"
+# pythonw (GUI-подсистема) вместо python — без чёрного окна консоли на Windows.
+# stdio-протокол MCP работает через каналы, консоль не нужна.
+command = "venv\\Scripts\\pythonw.exe"
 args = ["-u", "-m", "src.main"]
-env = {"PROJECT_PATH" = "$ZED_WORKTREE_ROOT"}
+env = {"PROJECT_PATH" = "$ZED_WORKTREE_ROOT", "PYTHONUTF8" = "1"}
 
 [slash_commands]
