@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1895** |
 | In official registry | 1356 |
 | Discovered via topics | 539 |
-| Last updated | 2026-10-22 18:52 UTC |
+| Last updated | 2026-10-23 01:12 UTC |
 
 ### By capability
 
@@ -120,6 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [iwe-org/zed-iwe](https://github.com/iwe-org/zed-iwe) | 11 | 2026-10-23 | Zed extension for IWE — markdown knowledge-graph navigation ... |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-10-22 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [klarlanguage/klar-zed](https://github.com/klarlanguage/klar-zed) | 1 | 2026-10-22 | 🦓 Klar support for Zed |
 | [living-code-theme/zed](https://github.com/living-code-theme/zed) | 0 | 2026-10-22 | ⚡ Living Code theme for Zed |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 139 | 2026-10-20 | The Ruby language support for Zed editor |
 | [yuukiLike/zed-skin](https://github.com/yuukiLike/zed-skin) | 0 | 2026-10-20 | A high contrast theme collection for Zed. Three AAA-audited ... |
 | [SinaMombeiny/S-DarkTheme.zed](https://github.com/SinaMombeiny/S-DarkTheme.zed) | 5 | 2026-10-20 | Dark theme extension for the Zed code editor |
-| [chiploom/zed-wit](https://github.com/chiploom/zed-wit) | 0 | 2026-10-20 | Modern WIT language support for Zed, with Tree-sitter syntax... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-10-23T01:12 | 2 | 684 | 2380 |
 | 2026-10-22T18:52 | 0 | 687 | 2378 |
 | 2026-10-22T12:57 | 0 | 688 | 2379 |
 | 2026-10-22T07:01 | 0 | 688 | 2379 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-10-21T07:01 | 0 | 686 | 2375 |
 | 2026-10-21T01:10 | 0 | 686 | 2375 |
 | 2026-10-20T18:50 | 1 | 685 | 2375 |
-| 2026-10-20T12:56 | 0 | 686 | 2374 |
 
 ---
 
