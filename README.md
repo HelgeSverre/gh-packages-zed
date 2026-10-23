@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1896** |
 | In official registry | 1356 |
 | Discovered via topics | 540 |
-| Last updated | 2026-10-23 12:54 UTC |
+| Last updated | 2026-10-23 18:50 UTC |
 
 ### By capability
 
@@ -108,7 +108,7 @@ cd website && npm install && npm run dev
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 189 | 🦊 Zed editor theme ported from Neovim |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
-| [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 178 | A macOS native style theme for Zed, let it same like native app in macOS. |
+| [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 177 | A macOS native style theme for Zed, let it same like native app in macOS. |
 | [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 156 |  |
 | [thedadams/zed-comment](https://github.com/thedadams/zed-comment) | 148 | A comment extension for the Zed editor |
 | [zed-extensions/swift](https://github.com/zed-extensions/swift) | 147 | Extension for Zed to support Swift |
@@ -120,9 +120,10 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-10-23 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
+| [yuukiLike/zed-skin](https://github.com/yuukiLike/zed-skin) | 0 | 2026-10-23 | A high contrast theme collection for Zed. Three AAA-audited ... |
 | [alvgaona/vesper-plus](https://github.com/alvgaona/vesper-plus) | 0 | 2026-10-23 | Minimal theme for Zed with warm orange accents, in dark, lig... |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-10-23 | Zed editor support for Carve, a modern light markup language |
-| [yuukiLike/zed-skin](https://github.com/yuukiLike/zed-skin) | 0 | 2026-10-23 | A high contrast theme collection for Zed. Three AAA-audited ... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 102 | 2026-10-23 | True Dark Theme for Zed IDE |
 | [iwe-org/zed-iwe](https://github.com/iwe-org/zed-iwe) | 11 | 2026-10-23 | Zed extension for IWE — markdown knowledge-graph navigation ... |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-10-22 | Intelligent codebase search & indexing for Zed. Async MCP se... |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [equaeghe/zed-email](https://github.com/equaeghe/zed-email) | 0 | 2026-10-21 | Syntax highlighting for RFC 5322 email / MIME messages (.eml... |
 | [kjanat/zed-typescript](https://github.com/kjanat/zed-typescript) | 0 | 2026-10-21 | Runs the TypeScript 7+ language server in Zed. |
 | [fels-lang/zed-fels](https://github.com/fels-lang/zed-fels) | 0 | 2026-10-20 | Zed extension for the Fels programming language (formerly Ga... |
-| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 139 | 2026-10-20 | The Ruby language support for Zed editor |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-10-23T18:50 | 1 | 687 | 2382 |
 | 2026-10-23T12:54 | 1 | 686 | 2381 |
 | 2026-10-23T07:00 | 0 | 686 | 2380 |
 | 2026-10-23T01:12 | 2 | 684 | 2380 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-10-22T01:08 | 1 | 687 | 2379 |
 | 2026-10-21T18:51 | 3 | 685 | 2378 |
 | 2026-10-21T12:56 | 0 | 685 | 2375 |
-| 2026-10-21T07:01 | 0 | 686 | 2375 |
 
 ---
 
