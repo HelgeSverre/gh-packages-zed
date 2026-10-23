@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1895** |
 | In official registry | 1356 |
 | Discovered via topics | 539 |
-| Last updated | 2026-10-23 01:12 UTC |
+| Last updated | 2026-10-23 07:00 UTC |
 
 ### By capability
 
@@ -120,13 +120,13 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 102 | 2026-10-23 | True Dark Theme for Zed IDE |
+| [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-10-23 | Zed editor support for Carve, a modern light markup language |
 | [iwe-org/zed-iwe](https://github.com/iwe-org/zed-iwe) | 11 | 2026-10-23 | Zed extension for IWE — markdown knowledge-graph navigation ... |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-10-22 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [klarlanguage/klar-zed](https://github.com/klarlanguage/klar-zed) | 1 | 2026-10-22 | 🦓 Klar support for Zed |
 | [living-code-theme/zed](https://github.com/living-code-theme/zed) | 0 | 2026-10-22 | ⚡ Living Code theme for Zed |
-| [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-10-22 | Zed editor support for Carve, a modern light markup language |
 | [aalto-opencs/stlcpp-zed](https://github.com/aalto-opencs/stlcpp-zed) | 0 | 2026-10-22 | Zed language extension for 𝕊𝕋𝕃ℂ++ |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 102 | 2026-10-22 | True Dark Theme for Zed IDE |
 | [MrAMS/zed-auto-file-header](https://github.com/MrAMS/zed-auto-file-header) | 9 | 2026-10-22 | A Zed extension that inserts a customizable file header (Fil... |
 | [shnarazk/zed-factor](https://github.com/shnarazk/zed-factor) | 0 | 2026-10-22 | A Zed extension for Factor language |
 | [sachadvr/zed-razor](https://github.com/sachadvr/zed-razor) | 1 | 2026-10-21 | Razor (.razor / .cshtml) syntax highlighting for the Zed edi... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-10-23T07:00 | 0 | 686 | 2380 |
 | 2026-10-23T01:12 | 2 | 684 | 2380 |
 | 2026-10-22T18:52 | 0 | 687 | 2378 |
 | 2026-10-22T12:57 | 0 | 688 | 2379 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-10-21T12:56 | 0 | 685 | 2375 |
 | 2026-10-21T07:01 | 0 | 686 | 2375 |
 | 2026-10-21T01:10 | 0 | 686 | 2375 |
-| 2026-10-20T18:50 | 1 | 685 | 2375 |
 
 ---
 
