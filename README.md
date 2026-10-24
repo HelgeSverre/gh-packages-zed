@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1896** |
 | In official registry | 1356 |
 | Discovered via topics | 540 |
-| Last updated | 2026-10-24 06:56 UTC |
+| Last updated | 2026-10-24 12:50 UTC |
 
 ### By capability
 
@@ -70,11 +70,11 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
-| [ManuLinares/c3-zed](https://github.com/ManuLinares/c3-zed) | 0 | Language support for Zed editor |
+| [ManuLinares/c3-zed](https://github.com/ManuLinares/c3-zed) | 2 | Language support for Zed editor |
 | [alvgaona/vesper-plus](https://github.com/alvgaona/vesper-plus) | 0 | Minimal theme for Zed with warm orange accents, in dark, light and blurred. |
 | [chindris-mihai-alexandru/zed-puter](https://github.com/chindris-mihai-alexandru/zed-puter) | 2 | Zed IDE extension for Puter.com AI models - Access Claude, GPT, Gemini & 500+ mo... |
 | [living-code-theme/zed](https://github.com/living-code-theme/zed) | 0 | ⚡ Living Code theme for Zed |
-| [SerpKite/serpkite-zed](https://github.com/SerpKite/serpkite-zed) | 0 | SerpKite MCP server for Zed's Agent Panel: Google search, news, maps and webpage... |
+| [SerpKite/serpkite-zed](https://github.com/SerpKite/serpkite-zed) | 0 | SerpKite MCP server for Zed's Agent Panel: Google search, webpages, cited AI ans... |
 | [Izaacapp/zed-theme-periwinkle](https://github.com/Izaacapp/zed-theme-periwinkle) | 0 | Periwinkle: a synthwave theme for Zed, plus the layout and extension kit it ship... |
 | [LiLittleCat/pierre-icons-zed](https://github.com/LiLittleCat/pierre-icons-zed) | 0 | Unofficial port of Pierre's file icons (as used in Claude Desktop) to a Zed icon... |
 | [dexra-dev/zed-extension](https://github.com/dexra-dev/zed-extension) | 0 | Dexra MCP server for Zed: Solana DeFi checks for AI agents |
@@ -111,7 +111,7 @@ cd website && npm install && npm run dev
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 176 | A macOS native style theme for Zed, let it same like native app in macOS. |
 | [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 156 |  |
 | [thedadams/zed-comment](https://github.com/thedadams/zed-comment) | 148 | A comment extension for the Zed editor |
-| [zed-extensions/swift](https://github.com/zed-extensions/swift) | 147 | Extension for Zed to support Swift |
+| [zed-extensions/swift](https://github.com/zed-extensions/swift) | 146 | Extension for Zed to support Swift |
 | [slymax/zedokai](https://github.com/slymax/zedokai) | 145 | a theme for Zed based on the Monokai Pro color scheme |
 | [nathansbradshaw/zed-angular](https://github.com/nathansbradshaw/zed-angular) | 144 |  |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 140 | The Ruby language support for Zed editor |
@@ -120,11 +120,14 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [SerpKite/serpkite-zed](https://github.com/SerpKite/serpkite-zed) | 0 | 2026-10-24 | SerpKite MCP server for Zed's Agent Panel: Google search, we... |
+| [shnarazk/zed-factor](https://github.com/shnarazk/zed-factor) | 0 | 2026-10-24 | A Zed extension for Factor language |
+| [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-10-24 | Zed editor support for Carve, a modern light markup language |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 218 | 2026-10-24 | Zed plugin for automatic time tracking and metrics generated... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 102 | 2026-10-24 | True Dark Theme for Zed IDE |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-10-24 | A Zed extension that allows to highlight all occurrences of ... |
-| [ManuLinares/c3-zed](https://github.com/ManuLinares/c3-zed) | 0 | 2026-10-24 | Language support for Zed editor |
+| [ManuLinares/c3-zed](https://github.com/ManuLinares/c3-zed) | 2 | 2026-10-24 | Language support for Zed editor |
 | [yuukiLike/zed-skin](https://github.com/yuukiLike/zed-skin) | 0 | 2026-10-23 | A high contrast theme collection for Zed. Three AAA-audited ... |
-| [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-10-23 | Zed editor support for Carve, a modern light markup language |
 | [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-10-23 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
 | [alvgaona/vesper-plus](https://github.com/alvgaona/vesper-plus) | 0 | 2026-10-23 | Minimal theme for Zed with warm orange accents, in dark, lig... |
 | [iwe-org/zed-iwe](https://github.com/iwe-org/zed-iwe) | 11 | 2026-10-23 | Zed extension for IWE — markdown knowledge-graph navigation ... |
@@ -133,11 +136,8 @@ cd website && npm install && npm run dev
 | [living-code-theme/zed](https://github.com/living-code-theme/zed) | 0 | 2026-10-22 | ⚡ Living Code theme for Zed |
 | [aalto-opencs/stlcpp-zed](https://github.com/aalto-opencs/stlcpp-zed) | 0 | 2026-10-22 | Zed language extension for 𝕊𝕋𝕃ℂ++ |
 | [MrAMS/zed-auto-file-header](https://github.com/MrAMS/zed-auto-file-header) | 9 | 2026-10-22 | A Zed extension that inserts a customizable file header (Fil... |
-| [shnarazk/zed-factor](https://github.com/shnarazk/zed-factor) | 0 | 2026-10-22 | A Zed extension for Factor language |
 | [sachadvr/zed-razor](https://github.com/sachadvr/zed-razor) | 1 | 2026-10-21 | Razor (.razor / .cshtml) syntax highlighting for the Zed edi... |
 | [MahoCommerce/zed](https://github.com/MahoCommerce/zed) | 1 | 2026-10-21 | Maho extension for Zed. |
-| [SerpKite/serpkite-zed](https://github.com/SerpKite/serpkite-zed) | 0 | 2026-10-21 | SerpKite MCP server for Zed's Agent Panel: Google search, ne... |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 218 | 2026-10-21 | Zed plugin for automatic time tracking and metrics generated... |
 | [NeroWolfe75/brackets-refined-zed](https://github.com/NeroWolfe75/brackets-refined-zed) | 0 | 2026-10-21 | A refined dark theme for Zed with a neutral interface and ca... |
 | [equaeghe/zed-email](https://github.com/equaeghe/zed-email) | 0 | 2026-10-21 | Syntax highlighting for RFC 5322 email / MIME messages (.eml... |
 
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-10-24T12:50 | 0 | 690 | 2383 |
 | 2026-10-24T06:56 | 0 | 690 | 2383 |
 | 2026-10-24T01:08 | 2 | 688 | 2384 |
 | 2026-10-23T18:50 | 1 | 687 | 2382 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-10-22T18:52 | 0 | 687 | 2378 |
 | 2026-10-22T12:57 | 0 | 688 | 2379 |
 | 2026-10-22T07:01 | 0 | 688 | 2379 |
-| 2026-10-22T01:08 | 1 | 687 | 2379 |
 
 ---
 
