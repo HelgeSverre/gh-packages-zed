@@ -59,8 +59,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-05-03T17:39:17Z",
-    "updated_at": "2026-10-23T20:12:04Z",
-    "pushed_at": "2026-10-23T20:12:07Z",
+    "updated_at": "2026-10-24T06:10:59Z",
+    "pushed_at": "2026-10-24T06:10:56Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -143,8 +143,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-10-23T06:36:10Z",
-    "pushed_at": "2026-10-23T06:36:06Z",
+    "updated_at": "2026-10-24T06:33:50Z",
+    "pushed_at": "2026-10-24T06:33:46Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -245,7 +245,7 @@
     "name": "zed-extensions/ruby",
     "url": "https://github.com/zed-extensions/ruby",
     "description": "The Ruby language support for Zed editor",
-    "stars": 139,
+    "stars": 140,
     "forks": 34,
     "topics": [
       "ruby",
@@ -255,7 +255,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2024-10-11T18:22:02Z",
-    "updated_at": "2026-10-22T00:20:50Z",
+    "updated_at": "2026-10-24T05:09:40Z",
     "pushed_at": "2026-10-20T18:40:28Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -9931,43 +9931,6 @@
       "categories": [
         "grammar",
         "language-server"
-      ]
-    }
-  },
-  "ck37/zed-quarto-extension": {
-    "name": "ck37/zed-quarto-extension",
-    "url": "https://github.com/ck37/zed-quarto-extension",
-    "description": "An attempt at adding Quarto support to Zed",
-    "stars": 14,
-    "forks": 2,
-    "topics": [
-      "quarto",
-      "zed"
-    ],
-    "language": "Rust",
-    "license": "MIT",
-    "created_at": "2025-10-10T22:49:39Z",
-    "updated_at": "2026-05-13T10:28:19Z",
-    "pushed_at": "2025-10-24T03:24:08Z",
-    "discovered_at": "2026-05-19T19:54:12.054Z",
-    "extension": {
-      "id": "quarto",
-      "name": "Quarto",
-      "description": "Quarto authoring for Zed with tree-sitter-quarto grammar",
-      "version": "0.2.0",
-      "schema_version": 1,
-      "authors": [
-        "Chris Kennedy <chrisken@gmail.com>"
-      ],
-      "repository": "https://github.com/ck37/zed-quarto-extension",
-      "snippets": null,
-      "sections": [
-        "grammars",
-        "slash_commands"
-      ],
-      "categories": [
-        "grammar",
-        "slash-command"
       ]
     }
   },
@@ -65388,8 +65351,8 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2026-10-24T00:49:22Z",
-    "updated_at": "2026-10-24T01:03:58Z",
-    "pushed_at": "2026-10-24T01:03:54Z",
+    "updated_at": "2026-10-24T01:15:23Z",
+    "pushed_at": "2026-10-24T01:15:19Z",
     "discovered_at": "2026-10-24T01:08:45.111Z",
     "official": false,
     "extension": {

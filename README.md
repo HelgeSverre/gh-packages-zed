@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1897-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1896-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,21 +14,21 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1897** |
+| Total tracked | **1896** |
 | In official registry | 1356 |
-| Discovered via topics | 541 |
-| Last updated | 2026-10-24 01:08 UTC |
+| Discovered via topics | 540 |
+| Last updated | 2026-10-24 06:56 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
 | Themes | 819 |
-| Grammars | 658 |
+| Grammars | 657 |
 | Language Servers | 607 |
 | Context Servers | 145 |
 | Snippets | 93 |
-| Slash Commands | 62 |
+| Slash Commands | 61 |
 | Debug Adapters | 36 |
 | Docs Providers | 16 |
 
@@ -114,19 +114,19 @@ cd website && npm install && npm run dev
 | [zed-extensions/swift](https://github.com/zed-extensions/swift) | 147 | Extension for Zed to support Swift |
 | [slymax/zedokai](https://github.com/slymax/zedokai) | 145 | a theme for Zed based on the Monokai Pro color scheme |
 | [nathansbradshaw/zed-angular](https://github.com/nathansbradshaw/zed-angular) | 144 |  |
-| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 139 | The Ruby language support for Zed editor |
+| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 140 | The Ruby language support for Zed editor |
 
 ## Recently active
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 102 | 2026-10-24 | True Dark Theme for Zed IDE |
+| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-10-24 | A Zed extension that allows to highlight all occurrences of ... |
 | [ManuLinares/c3-zed](https://github.com/ManuLinares/c3-zed) | 0 | 2026-10-24 | Language support for Zed editor |
 | [yuukiLike/zed-skin](https://github.com/yuukiLike/zed-skin) | 0 | 2026-10-23 | A high contrast theme collection for Zed. Three AAA-audited ... |
-| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-10-23 | A Zed extension that allows to highlight all occurrences of ... |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-10-23 | Zed editor support for Carve, a modern light markup language |
 | [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-10-23 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
 | [alvgaona/vesper-plus](https://github.com/alvgaona/vesper-plus) | 0 | 2026-10-23 | Minimal theme for Zed with warm orange accents, in dark, lig... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 102 | 2026-10-23 | True Dark Theme for Zed IDE |
 | [iwe-org/zed-iwe](https://github.com/iwe-org/zed-iwe) | 11 | 2026-10-23 | Zed extension for IWE — markdown knowledge-graph navigation ... |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-10-22 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [klarlanguage/klar-zed](https://github.com/klarlanguage/klar-zed) | 1 | 2026-10-22 | 🦓 Klar support for Zed |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-10-24T06:56 | 0 | 690 | 2383 |
 | 2026-10-24T01:08 | 2 | 688 | 2384 |
 | 2026-10-23T18:50 | 1 | 687 | 2382 |
 | 2026-10-23T12:54 | 1 | 686 | 2381 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-10-22T12:57 | 0 | 688 | 2379 |
 | 2026-10-22T07:01 | 0 | 688 | 2379 |
 | 2026-10-22T01:08 | 1 | 687 | 2379 |
-| 2026-10-21T18:51 | 3 | 685 | 2378 |
 
 ---
 
