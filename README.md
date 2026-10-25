@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1896** |
 | In official registry | 1356 |
 | Discovered via topics | 540 |
-| Last updated | 2026-10-24 18:47 UTC |
+| Last updated | 2026-10-25 01:13 UTC |
 
 ### By capability
 
@@ -120,8 +120,8 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-10-24 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-10-24 | Zed editor support for Carve, a modern light markup language |
+| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-10-24 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [shnarazk/zed-factor](https://github.com/shnarazk/zed-factor) | 0 | 2026-10-24 | A Zed extension for Factor language |
 | [SerpKite/serpkite-zed](https://github.com/SerpKite/serpkite-zed) | 0 | 2026-10-24 | SerpKite MCP server for Zed's Agent Panel: Google search, we... |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 218 | 2026-10-24 | Zed plugin for automatic time tracking and metrics generated... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-10-25T01:13 | 0 | 689 | 2383 |
 | 2026-10-24T18:47 | 0 | 689 | 2383 |
 | 2026-10-24T12:50 | 0 | 690 | 2383 |
 | 2026-10-24T06:56 | 0 | 690 | 2383 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-10-23T07:00 | 0 | 686 | 2380 |
 | 2026-10-23T01:12 | 2 | 684 | 2380 |
 | 2026-10-22T18:52 | 0 | 687 | 2378 |
-| 2026-10-22T12:57 | 0 | 688 | 2379 |
 
 ---
 
