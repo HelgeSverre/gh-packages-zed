@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1896** |
 | In official registry | 1356 |
 | Discovered via topics | 540 |
-| Last updated | 2026-10-25 01:13 UTC |
+| Last updated | 2026-10-25 06:57 UTC |
 
 ### By capability
 
@@ -120,6 +120,8 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [yuukiLike/zed-skin](https://github.com/yuukiLike/zed-skin) | 0 | 2026-10-25 | A high contrast theme collection for Zed. Three AAA-audited ... |
+| [whistlebee/zed-mojo](https://github.com/whistlebee/zed-mojo) | 6 | 2026-10-25 | Mojo LSP/Syntax/Debugger support for Zed |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-10-24 | Zed editor support for Carve, a modern light markup language |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-10-24 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [shnarazk/zed-factor](https://github.com/shnarazk/zed-factor) | 0 | 2026-10-24 | A Zed extension for Factor language |
@@ -128,7 +130,6 @@ cd website && npm install && npm run dev
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 102 | 2026-10-24 | True Dark Theme for Zed IDE |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-10-24 | A Zed extension that allows to highlight all occurrences of ... |
 | [ManuLinares/c3-zed](https://github.com/ManuLinares/c3-zed) | 2 | 2026-10-24 | Language support for Zed editor |
-| [yuukiLike/zed-skin](https://github.com/yuukiLike/zed-skin) | 0 | 2026-10-23 | A high contrast theme collection for Zed. Three AAA-audited ... |
 | [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-10-23 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
 | [alvgaona/vesper-plus](https://github.com/alvgaona/vesper-plus) | 0 | 2026-10-23 | Minimal theme for Zed with warm orange accents, in dark, lig... |
 | [iwe-org/zed-iwe](https://github.com/iwe-org/zed-iwe) | 11 | 2026-10-23 | Zed extension for IWE — markdown knowledge-graph navigation ... |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [sachadvr/zed-razor](https://github.com/sachadvr/zed-razor) | 1 | 2026-10-21 | Razor (.razor / .cshtml) syntax highlighting for the Zed edi... |
 | [MahoCommerce/zed](https://github.com/MahoCommerce/zed) | 1 | 2026-10-21 | Maho extension for Zed. |
 | [NeroWolfe75/brackets-refined-zed](https://github.com/NeroWolfe75/brackets-refined-zed) | 0 | 2026-10-21 | A refined dark theme for Zed with a neutral interface and ca... |
-| [equaeghe/zed-email](https://github.com/equaeghe/zed-email) | 0 | 2026-10-21 | Syntax highlighting for RFC 5322 email / MIME messages (.eml... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-10-25T06:57 | 0 | 689 | 2383 |
 | 2026-10-25T01:13 | 0 | 689 | 2383 |
 | 2026-10-24T18:47 | 0 | 689 | 2383 |
 | 2026-10-24T12:50 | 0 | 690 | 2383 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-10-23T12:54 | 1 | 686 | 2381 |
 | 2026-10-23T07:00 | 0 | 686 | 2380 |
 | 2026-10-23T01:12 | 2 | 684 | 2380 |
-| 2026-10-22T18:52 | 0 | 687 | 2378 |
 
 ---
 
