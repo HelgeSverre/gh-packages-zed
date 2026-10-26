@@ -53625,7 +53625,7 @@
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
     "updated_at": "2026-10-24T13:31:44Z",
-    "pushed_at": "2026-10-25T18:47:00Z",
+    "pushed_at": "2026-10-25T19:29:47Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false,
     "extension": {
@@ -55618,7 +55618,7 @@
     "name": "ashpool37/zed-extension-opentofu",
     "url": "https://github.com/ashpool37/zed-extension-opentofu",
     "description": "OpenTofu support for Zed",
-    "stars": 8,
+    "stars": 9,
     "forks": 0,
     "topics": [
       "tofu-ls",
@@ -55627,7 +55627,7 @@
     "language": "Tree-sitter Query",
     "license": "Apache-2.0",
     "created_at": "2025-06-27T01:35:10Z",
-    "updated_at": "2026-03-07T10:39:50Z",
+    "updated_at": "2026-10-25T21:42:02Z",
     "pushed_at": "2025-06-27T01:39:04Z",
     "discovered_at": "2026-07-28T07:34:46.549Z",
     "official": false,
@@ -60639,8 +60639,8 @@
     "language": "Tree-sitter Query",
     "license": "Apache-2.0",
     "created_at": "2026-09-12T03:43:07Z",
-    "updated_at": "2026-10-22T16:44:24Z",
-    "pushed_at": "2026-10-22T16:44:19Z",
+    "updated_at": "2026-10-25T22:38:21Z",
+    "pushed_at": "2026-10-25T22:38:18Z",
     "discovered_at": "2026-09-13T05:21:11.822Z",
     "official": false,
     "extension": {
@@ -64994,8 +64994,8 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2026-10-15T09:56:05Z",
-    "updated_at": "2026-10-25T10:44:39Z",
-    "pushed_at": "2026-10-25T10:44:35Z",
+    "updated_at": "2026-10-26T00:27:58Z",
+    "pushed_at": "2026-10-26T00:27:54Z",
     "discovered_at": "2026-10-17T06:55:09.945Z",
     "official": false,
     "extension": {
@@ -65377,6 +65377,122 @@
       "categories": [
         "grammar",
         "language-server"
+      ]
+    }
+  },
+  "getfluvo/odx-zed": {
+    "name": "GetFluvo/odx-zed",
+    "url": "https://github.com/GetFluvo/odx-zed",
+    "description": "odx for Zed: slash commands for the dashboard, status, changelog and glue of an Odoo project",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "developer-tools",
+      "odoo",
+      "odx",
+      "zed-extension"
+    ],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2026-10-25T18:50:21Z",
+    "updated_at": "2026-10-25T22:35:57Z",
+    "pushed_at": "2026-10-25T22:35:53Z",
+    "discovered_at": "2026-10-26T01:14:17.224Z",
+    "official": false,
+    "extension": {
+      "id": "odx",
+      "name": "odx",
+      "description": "Odoo workspaces with odx: the dashboard, pull request status, changelog and glue addons of a project in the assistant",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Strategic Efficiency B.V."
+      ],
+      "repository": "https://github.com/getfluvo/odx-zed",
+      "snippets": null,
+      "sections": [
+        "slash_commands"
+      ],
+      "categories": [
+        "slash-command"
+      ]
+    }
+  },
+  "yonitne/unobtrusive-logs-zed": {
+    "name": "YoniTne/unobtrusive-logs-zed",
+    "url": "https://github.com/YoniTne/unobtrusive-logs-zed",
+    "description": "Zed extension that dims log statements in your code. Port of unobtrusive-logs for VS Code.",
+    "stars": 1,
+    "forks": 0,
+    "topics": [
+      "language-server",
+      "logs",
+      "lsp",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "TypeScript",
+    "license": "MIT",
+    "created_at": "2026-10-24T17:36:04Z",
+    "updated_at": "2026-10-25T19:41:32Z",
+    "pushed_at": "2026-10-25T19:22:23Z",
+    "discovered_at": "2026-10-26T01:14:17.224Z",
+    "official": false,
+    "extension": {
+      "id": "unobtrusive-logs",
+      "name": "Unobtrusive Logs",
+      "description": "Dims log statements so they stay out of your way.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Yoni Taine"
+      ],
+      "repository": "https://github.com/YoniTne/unobtrusive-logs-zed",
+      "snippets": null,
+      "sections": [
+        "language_servers"
+      ],
+      "categories": [
+        "language-server"
+      ]
+    }
+  },
+  "laynef/localkeep-zed": {
+    "name": "laynef/localkeep-zed",
+    "url": "https://github.com/laynef/localkeep-zed",
+    "description": "Local Keep AI: Private, offline AI assistant for Zed editor using local LLMs",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "gguf",
+      "local-llm",
+      "offline-ai",
+      "privacy",
+      "zed-extension"
+    ],
+    "language": "Rust",
+    "license": "NOASSERTION",
+    "created_at": "2026-05-21T04:20:12Z",
+    "updated_at": "2026-10-25T19:33:30Z",
+    "pushed_at": "2026-08-23T15:58:30Z",
+    "discovered_at": "2026-10-26T01:14:17.224Z",
+    "official": false,
+    "extension": {
+      "id": "mcp-server-local-keep-ai",
+      "name": "Local Keep AI",
+      "description": "Local-first AI coding assistant — 1,000+ free models, no API key needed",
+      "version": "1.2.2",
+      "schema_version": 1,
+      "authors": [
+        "Local Keep AI <info@localkeep.ai>"
+      ],
+      "repository": "https://github.com/laynef/localkeep-zed",
+      "snippets": null,
+      "sections": [
+        "context_servers"
+      ],
+      "categories": [
+        "context-server"
       ]
     }
   }
