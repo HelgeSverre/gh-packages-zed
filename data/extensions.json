@@ -86,7 +86,7 @@
     "name": "GDQuest/zed-gdscript",
     "url": "https://github.com/GDQuest/zed-gdscript",
     "description": "Zed support for the Godot game engine and the GDScript language",
-    "stars": 211,
+    "stars": 212,
     "forks": 25,
     "topics": [
       "code-editor",
@@ -98,7 +98,7 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-02-26T18:14:41Z",
-    "updated_at": "2026-10-24T18:14:02Z",
+    "updated_at": "2026-10-26T15:58:29Z",
     "pushed_at": "2026-09-10T12:07:53Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -218,7 +218,7 @@
     "license": "MIT",
     "created_at": "2024-08-27T10:31:46Z",
     "updated_at": "2026-10-24T08:44:54Z",
-    "pushed_at": "2026-10-24T08:44:52Z",
+    "pushed_at": "2026-10-26T17:04:18Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -567,7 +567,7 @@
     "url": "https://github.com/Frixuu/Zed-Haxe",
     "description": "LSP support & syntax highlighting for Haxe.",
     "stars": 22,
-    "forks": 5,
+    "forks": 6,
     "topics": [
       "haxe",
       "zed",
@@ -2559,7 +2559,7 @@
     "license": "MIT",
     "created_at": "2026-04-04T17:17:24Z",
     "updated_at": "2026-10-21T20:17:32Z",
-    "pushed_at": "2026-10-21T20:17:27Z",
+    "pushed_at": "2026-10-26T13:01:02Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -6325,7 +6325,7 @@
     "name": "hjr265/zed-gotmpl",
     "url": "https://github.com/hjr265/zed-gotmpl",
     "description": "Go template (gotmpl, gohtml) support for Zed",
-    "stars": 34,
+    "stars": 35,
     "forks": 5,
     "topics": [
       "gohtml",
@@ -6337,7 +6337,7 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2025-08-03T06:00:52Z",
-    "updated_at": "2026-09-24T14:39:43Z",
+    "updated_at": "2026-10-26T07:35:44Z",
     "pushed_at": "2025-11-16T17:22:24Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -11238,7 +11238,7 @@
     "url": "https://github.com/zed-extensions/kotlin",
     "description": "Kotlin support",
     "stars": 106,
-    "forks": 37,
+    "forks": 38,
     "topics": [],
     "language": "Rust",
     "license": "MIT",
@@ -18754,7 +18754,7 @@
     "url": "https://github.com/owlx56/zed-lean4",
     "description": "",
     "stars": 61,
-    "forks": 14,
+    "forks": 13,
     "topics": [],
     "language": "Rust",
     "license": "Apache-2.0",
@@ -53762,8 +53762,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-06-01T12:22:18Z",
-    "updated_at": "2026-10-26T02:40:35Z",
-    "pushed_at": "2026-10-26T02:40:33Z",
+    "updated_at": "2026-10-26T13:45:15Z",
+    "pushed_at": "2026-10-26T13:45:11Z",
     "discovered_at": "2026-07-09T13:39:01.645Z",
     "official": true,
     "extension": {
@@ -54568,7 +54568,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
     "updated_at": "2026-10-19T21:27:38Z",
-    "pushed_at": "2026-10-19T21:27:36Z",
+    "pushed_at": "2026-10-26T12:22:09Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false,
     "extension": {
@@ -65347,7 +65347,7 @@
     "name": "ManuLinares/c3-zed",
     "url": "https://github.com/ManuLinares/c3-zed",
     "description": "Language support for Zed editor",
-    "stars": 2,
+    "stars": 3,
     "forks": 0,
     "topics": [
       "c3",
@@ -65361,7 +65361,7 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2026-10-24T00:49:22Z",
-    "updated_at": "2026-10-24T12:15:41Z",
+    "updated_at": "2026-10-26T16:01:55Z",
     "pushed_at": "2026-10-24T01:15:19Z",
     "discovered_at": "2026-10-24T01:08:45.111Z",
     "official": false,
@@ -65402,8 +65402,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-10-25T18:50:21Z",
-    "updated_at": "2026-10-25T22:35:57Z",
-    "pushed_at": "2026-10-25T22:35:53Z",
+    "updated_at": "2026-10-26T09:21:44Z",
+    "pushed_at": "2026-10-26T09:21:39Z",
     "discovered_at": "2026-10-26T01:14:17.224Z",
     "official": false,
     "extension": {
@@ -65500,6 +65500,103 @@
       ],
       "categories": [
         "context-server"
+      ]
+    }
+  },
+  "galib-savar/galib-theme": {
+    "name": "galib-savar/Galib-Theme",
+    "url": "https://github.com/galib-savar/Galib-Theme",
+    "description": "This a soft dark theme for coding.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-10-02T14:22:10Z",
+    "updated_at": "2026-10-02T14:28:05Z",
+    "pushed_at": "2026-10-02T14:28:01Z",
+    "discovered_at": "2026-10-26T18:59:13.098Z",
+    "official": true,
+    "extension": {
+      "id": "galib-theme",
+      "name": "Galib Theme",
+      "description": "This a soft dark theme for coding",
+      "version": "0.0.1",
+      "schema_version": 1,
+      "authors": [
+        "Galib"
+      ],
+      "repository": "https://github.com/galib-savar/Galib-Theme",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "kjvdven/lucide-zed-icons": {
+    "name": "kjvdven/lucide-zed-icons",
+    "url": "https://github.com/kjvdven/lucide-zed-icons",
+    "description": "Lucide file and folder icon theme for Zed, tuned for Tokyo Night",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "Python",
+    "license": "NOASSERTION",
+    "created_at": "2026-10-11T17:40:39Z",
+    "updated_at": "2026-10-13T19:23:54Z",
+    "pushed_at": "2026-10-13T19:23:52Z",
+    "discovered_at": "2026-10-26T18:59:13.098Z",
+    "official": true,
+    "extension": {
+      "id": "lucide-icons",
+      "name": "Lucide Icons",
+      "description": "File and folder icons built from Lucide (lucide.dev)",
+      "version": "0.4.0",
+      "schema_version": 1,
+      "authors": [
+        "Kris van der Ven"
+      ],
+      "repository": "https://github.com/kjvdven/lucide-zed-icons",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "curedbylethe/zed-salam": {
+    "name": "curedbylethe/zed-salam",
+    "url": "https://github.com/curedbylethe/zed-salam",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "C",
+    "license": "MIT",
+    "created_at": "2026-10-24T12:00:20Z",
+    "updated_at": "2026-10-24T15:04:51Z",
+    "pushed_at": "2026-10-24T15:04:47Z",
+    "discovered_at": "2026-10-26T18:59:13.098Z",
+    "official": true,
+    "extension": {
+      "id": "salam",
+      "name": "Salam",
+      "description": "Salam language support: tree-sitter grammar, syntax highlighting, and the compiler's built-in language server.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Parsa (curedbylethe)"
+      ],
+      "repository": "https://github.com/curedbylethe/zed-salam",
+      "snippets": null,
+      "sections": [
+        "grammars",
+        "language_servers"
+      ],
+      "categories": [
+        "grammar",
+        "language-server"
       ]
     }
   }

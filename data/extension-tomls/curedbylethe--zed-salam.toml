@@ -1,0 +1,16 @@
+id = "salam"
+name = "Salam"
+version = "0.1.0"
+schema_version = 1
+authors = ["Parsa (curedbylethe)"]
+description = "Salam language support: tree-sitter grammar, syntax highlighting, and the compiler's built-in language server."
+repository = "https://github.com/curedbylethe/zed-salam"
+
+[grammars.salam]
+repository = "https://github.com/curedbylethe/zed-salam"
+rev = "872726022372c218ac2a27b7d95cc902bd51d00a"
+path = "grammar"
+
+[language_servers.salam]
+name = "Salam LSP"
+languages = ["Salam"]
