@@ -158,8 +158,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-10-25T07:00:14Z",
-    "pushed_at": "2026-10-25T07:00:11Z",
+    "updated_at": "2026-10-26T07:06:52Z",
+    "pushed_at": "2026-10-26T07:06:48Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -11222,16 +11222,23 @@
   "kidkender/zed-sql-tools": {
     "name": "Kidkender/zed-sql-tools",
     "url": "https://github.com/Kidkender/zed-sql-tools",
-    "description": "",
+    "description": "SQL formatter and linter extension for Zed, no external CLI tools required",
     "stars": 1,
     "forks": 0,
-    "topics": [],
+    "topics": [
+      "formatter",
+      "linter",
+      "sql",
+      "zed",
+      "zed-extension"
+    ],
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-04-03T09:49:45Z",
-    "updated_at": "2026-04-13T09:18:13Z",
-    "pushed_at": "2026-04-13T09:18:08Z",
-    "discovered_at": "2026-05-19T20:07:54.613Z"
+    "updated_at": "2026-10-26T04:45:21Z",
+    "pushed_at": "2026-06-16T09:54:59Z",
+    "discovered_at": "2026-05-19T20:07:54.613Z",
+    "official": false
   },
   "kabirajpan/zed-editor": {
     "name": "kabirajpan/zed-editor",
@@ -15415,7 +15422,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
     "updated_at": "2026-10-25T10:42:03Z",
-    "pushed_at": "2026-10-24T09:58:11Z",
+    "pushed_at": "2026-10-26T01:14:09Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -17973,8 +17980,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-10-25T18:48:45Z",
-    "pushed_at": "2026-10-25T18:48:41Z",
+    "updated_at": "2026-10-26T01:15:01Z",
+    "pushed_at": "2026-10-26T01:14:57Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -28923,8 +28930,8 @@
     "language": null,
     "license": null,
     "created_at": "2026-05-25T05:34:31Z",
-    "updated_at": "2026-10-25T23:01:49Z",
-    "pushed_at": "2026-10-25T23:01:46Z",
+    "updated_at": "2026-10-26T05:58:45Z",
+    "pushed_at": "2026-10-26T05:58:41Z",
     "discovered_at": "2026-05-26T07:12:20.287Z",
     "official": false
   },
@@ -31370,7 +31377,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-04-30T15:29:50Z",
     "updated_at": "2026-10-21T20:03:40Z",
-    "pushed_at": "2026-10-25T03:00:37Z",
+    "pushed_at": "2026-10-26T02:42:36Z",
     "discovered_at": "2026-06-26T18:36:57.330Z",
     "official": false
   },
@@ -32069,8 +32076,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-06-01T12:22:18Z",
-    "updated_at": "2026-10-24T19:50:53Z",
-    "pushed_at": "2026-10-24T20:47:16Z",
+    "updated_at": "2026-10-26T02:40:35Z",
+    "pushed_at": "2026-10-26T02:40:33Z",
     "discovered_at": "2026-07-09T13:39:01.645Z",
     "official": true
   },
@@ -34774,8 +34781,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-04-28T16:41:12Z",
-    "updated_at": "2026-10-12T22:12:41Z",
-    "pushed_at": "2026-10-14T00:07:06Z",
+    "updated_at": "2026-10-26T03:52:13Z",
+    "pushed_at": "2026-10-26T03:58:21Z",
     "discovered_at": "2026-08-11T01:04:41.365Z",
     "official": true
   },
@@ -35686,8 +35693,8 @@
     "language": "TypeScript",
     "license": "MIT",
     "created_at": "2026-06-22T23:16:08Z",
-    "updated_at": "2026-10-26T01:04:57Z",
-    "pushed_at": "2026-10-26T01:11:35Z",
+    "updated_at": "2026-10-26T03:22:51Z",
+    "pushed_at": "2026-10-26T03:35:37Z",
     "discovered_at": "2026-08-21T18:55:51.713Z",
     "official": true
   },
@@ -35862,7 +35869,7 @@
     "name": "ryonakae/zerdr",
     "url": "https://github.com/ryonakae/zerdr",
     "description": "Keep Herdr and Zed workspaces in sync.",
-    "stars": 8,
+    "stars": 9,
     "forks": 0,
     "topics": [
       "ai-agents",
@@ -35879,7 +35886,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-08-17T17:19:02Z",
-    "updated_at": "2026-10-24T23:27:06Z",
+    "updated_at": "2026-10-26T06:21:37Z",
     "pushed_at": "2026-09-12T14:10:46Z",
     "discovered_at": "2026-08-25T07:01:02.282Z",
     "official": false
@@ -39873,8 +39880,8 @@
     "language": "TypeScript",
     "license": null,
     "created_at": "2026-09-04T07:49:15Z",
-    "updated_at": "2026-10-25T15:32:36Z",
-    "pushed_at": "2026-10-25T15:32:33Z",
+    "updated_at": "2026-10-26T06:55:44Z",
+    "pushed_at": "2026-10-26T06:55:41Z",
     "discovered_at": "2026-09-30T12:59:15.249Z",
     "official": false
   },

@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1899** |
 | In official registry | 1356 |
 | Discovered via topics | 543 |
-| Last updated | 2026-10-26 01:14 UTC |
+| Last updated | 2026-10-26 07:13 UTC |
 
 ### By capability
 
@@ -120,16 +120,16 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 102 | 2026-10-26 | True Dark Theme for Zed IDE |
+| [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-10-26 | Zed editor support for Carve, a modern light markup language |
 | [shnarazk/zed-factor](https://github.com/shnarazk/zed-factor) | 0 | 2026-10-26 | A Zed extension for Factor language |
 | [klarlanguage/klar-zed](https://github.com/klarlanguage/klar-zed) | 1 | 2026-10-25 | 🦓 Klar support for Zed |
 | [GetFluvo/odx-zed](https://github.com/GetFluvo/odx-zed) | 0 | 2026-10-25 | odx for Zed: slash commands for the dashboard, status, chang... |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-10-25 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [YoniTne/unobtrusive-logs-zed](https://github.com/YoniTne/unobtrusive-logs-zed) | 1 | 2026-10-25 | Zed extension that dims log statements in your code. Port of... |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-10-25 | A Zed extension that allows to highlight all occurrences of ... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 102 | 2026-10-25 | True Dark Theme for Zed IDE |
 | [yuukiLike/zed-skin](https://github.com/yuukiLike/zed-skin) | 0 | 2026-10-25 | A high contrast theme collection for Zed. Three AAA-audited ... |
 | [whistlebee/zed-mojo](https://github.com/whistlebee/zed-mojo) | 6 | 2026-10-25 | Mojo LSP/Syntax/Debugger support for Zed |
-| [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-10-24 | Zed editor support for Carve, a modern light markup language |
 | [SerpKite/serpkite-zed](https://github.com/SerpKite/serpkite-zed) | 0 | 2026-10-24 | SerpKite MCP server for Zed's Agent Panel: Google search, we... |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 218 | 2026-10-24 | Zed plugin for automatic time tracking and metrics generated... |
 | [ManuLinares/c3-zed](https://github.com/ManuLinares/c3-zed) | 2 | 2026-10-24 | Language support for Zed editor |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-10-26T07:13 | 0 | 694 | 2388 |
 | 2026-10-26T01:14 | 5 | 688 | 2388 |
 | 2026-10-25T18:48 | 0 | 689 | 2383 |
 | 2026-10-25T12:50 | 0 | 689 | 2383 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-10-24T12:50 | 0 | 690 | 2383 |
 | 2026-10-24T06:56 | 0 | 690 | 2383 |
 | 2026-10-24T01:08 | 2 | 688 | 2384 |
-| 2026-10-23T18:50 | 1 | 687 | 2382 |
 
 ---
 
