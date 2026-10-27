@@ -143,8 +143,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-10-26T07:06:52Z",
-    "pushed_at": "2026-10-26T07:06:48Z",
+    "updated_at": "2026-10-27T06:52:10Z",
+    "pushed_at": "2026-10-27T06:52:05Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -217,8 +217,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2024-08-27T10:31:46Z",
-    "updated_at": "2026-10-24T08:44:54Z",
-    "pushed_at": "2026-10-26T17:04:18Z",
+    "updated_at": "2026-10-27T02:26:49Z",
+    "pushed_at": "2026-10-27T02:26:47Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -65598,6 +65598,45 @@
       "categories": [
         "grammar",
         "language-server"
+      ]
+    }
+  },
+  "ournuu/zed-hashlink-debugger": {
+    "name": "ournuu/zed-hashlink-debugger",
+    "url": "https://github.com/ournuu/zed-hashlink-debugger",
+    "description": "Vibecoded HashLink debugger for Zed",
+    "stars": 1,
+    "forks": 0,
+    "topics": [
+      "debugger",
+      "hashlink",
+      "haxe",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Haxe",
+    "license": "MIT",
+    "created_at": "2026-10-27T04:06:41Z",
+    "updated_at": "2026-10-27T04:11:10Z",
+    "pushed_at": "2026-10-27T04:06:47Z",
+    "discovered_at": "2026-10-27T07:02:21.052Z",
+    "official": false,
+    "extension": {
+      "id": "hashlink-debugger",
+      "name": "HashLink Debugger",
+      "description": "Debug Haxe/HashLink JIT applications.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "ournuu"
+      ],
+      "repository": null,
+      "snippets": null,
+      "sections": [
+        "debug_adapters"
+      ],
+      "categories": [
+        "debug-adapter"
       ]
     }
   }
