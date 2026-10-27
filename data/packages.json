@@ -186,7 +186,7 @@
     "name": "wakatime/zed-wakatime",
     "url": "https://github.com/wakatime/zed-wakatime",
     "description": "Zed plugin for automatic time tracking and metrics generated from your programming activity.",
-    "stars": 218,
+    "stars": 219,
     "forks": 30,
     "topics": [
       "extension",
@@ -198,7 +198,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2024-08-27T10:31:46Z",
-    "updated_at": "2026-10-27T02:26:49Z",
+    "updated_at": "2026-10-27T09:08:15Z",
     "pushed_at": "2026-10-27T02:26:47Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -452,7 +452,7 @@
     "license": "MIT",
     "created_at": "2026-03-07T09:03:07Z",
     "updated_at": "2026-10-20T23:33:54Z",
-    "pushed_at": "2026-10-04T17:14:37Z",
+    "pushed_at": "2026-10-27T12:55:09Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -461,7 +461,7 @@
     "url": "https://github.com/Frixuu/Zed-Haxe",
     "description": "LSP support & syntax highlighting for Haxe.",
     "stars": 22,
-    "forks": 6,
+    "forks": 5,
     "topics": [
       "haxe",
       "zed",
@@ -470,8 +470,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2024-08-31T20:23:39Z",
-    "updated_at": "2026-08-24T22:13:26Z",
-    "pushed_at": "2026-05-14T20:56:08Z",
+    "updated_at": "2026-10-27T10:52:39Z",
+    "pushed_at": "2026-10-27T10:52:33Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -4007,7 +4007,7 @@
     "name": "hjr265/zed-gotmpl",
     "url": "https://github.com/hjr265/zed-gotmpl",
     "description": "Go template (gotmpl, gohtml) support for Zed",
-    "stars": 35,
+    "stars": 34,
     "forks": 5,
     "topics": [
       "gohtml",
@@ -4019,7 +4019,7 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2025-08-03T06:00:52Z",
-    "updated_at": "2026-10-26T07:35:44Z",
+    "updated_at": "2026-10-27T07:04:32Z",
     "pushed_at": "2025-11-16T17:22:24Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -5102,8 +5102,8 @@
     "language": "Go",
     "license": "MIT",
     "created_at": "2026-03-09T04:35:59Z",
-    "updated_at": "2026-10-26T12:41:22Z",
-    "pushed_at": "2026-10-26T12:41:19Z",
+    "updated_at": "2026-10-27T11:58:39Z",
+    "pushed_at": "2026-10-27T11:58:34Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -5131,7 +5131,7 @@
     "url": "https://github.com/Dylanmurzello/zed-android-port",
     "description": "Native Android port of the Zed code editor,  gpui rendering through Vulkan, integrated Termux for LSPs and tooling, remote SSH support. Runs as an APK on tablets and Android desktop modes.",
     "stars": 243,
-    "forks": 19,
+    "forks": 20,
     "topics": [
       "android",
       "android-app",
@@ -6928,45 +6928,6 @@
     "pushed_at": "2025-09-20T16:44:14Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": true
-  },
-  "buckedunicorn/retro-synth-dark": {
-    "name": "buckedunicorn/retro-synth-dark",
-    "url": "https://github.com/buckedunicorn/retro-synth-dark",
-    "description": "This is a standard VS Code theme based on the synthwave-x-fluoromachine theme family. This version uses only official VS Code theming APIs and doesn't require any custom extensions or modifications.",
-    "stars": 4,
-    "forks": 0,
-    "topics": [
-      "cursor-theme",
-      "vscode-extension",
-      "vscode-theme",
-      "windsurf-theme",
-      "zed-theme"
-    ],
-    "language": null,
-    "license": "MIT",
-    "created_at": "2025-08-04T13:48:14Z",
-    "updated_at": "2026-08-01T22:17:13Z",
-    "pushed_at": "2025-08-09T15:55:50Z",
-    "discovered_at": "2026-05-19T19:54:12.054Z",
-    "official": false
-  },
-  "theurzil/shadow-energy-zed": {
-    "name": "theurzil/shadow-energy-zed",
-    "url": "https://github.com/theurzil/shadow-energy-zed",
-    "description": "A dark blue theme for the Zed text editor inspired by the vibrant energy of a dark blue show.",
-    "stars": 4,
-    "forks": 0,
-    "topics": [
-      "zed",
-      "zed-theme"
-    ],
-    "language": null,
-    "license": "MIT",
-    "created_at": "2025-07-02T15:55:19Z",
-    "updated_at": "2026-08-29T23:56:31Z",
-    "pushed_at": "2025-07-16T15:11:46Z",
-    "discovered_at": "2026-05-19T19:54:12.054Z",
-    "official": false
   },
   "madlittlemods/zed-theme-vscode-light-plus": {
     "name": "MadLittleMods/zed-theme-vscode-light-plus",
@@ -17980,8 +17941,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-10-27T01:14:36Z",
-    "pushed_at": "2026-10-27T01:14:32Z",
+    "updated_at": "2026-10-27T07:03:01Z",
+    "pushed_at": "2026-10-27T07:02:56Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -27681,13 +27642,13 @@
     "name": "kevcamel/vscode_dark_modern.zed",
     "url": "https://github.com/kevcamel/vscode_dark_modern.zed",
     "description": "VS Code Dark Modern theme for Zed",
-    "stars": 61,
-    "forks": 22,
+    "stars": 62,
+    "forks": 23,
     "topics": [],
     "language": null,
     "license": "MIT",
     "created_at": "2024-05-17T15:44:22Z",
-    "updated_at": "2026-10-24T10:29:29Z",
+    "updated_at": "2026-10-27T09:34:23Z",
     "pushed_at": "2026-09-06T04:32:53Z",
     "discovered_at": "2026-05-20T03:49:49.286Z",
     "official": false
@@ -36931,8 +36892,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-09-03T18:54:22Z",
-    "updated_at": "2026-10-26T14:31:38Z",
-    "pushed_at": "2026-10-26T21:15:47Z",
+    "updated_at": "2026-10-27T12:22:53Z",
+    "pushed_at": "2026-10-27T12:22:49Z",
     "discovered_at": "2026-09-09T01:10:37.044Z",
     "official": false
   },
@@ -39881,8 +39842,8 @@
     "language": "TypeScript",
     "license": null,
     "created_at": "2026-09-04T07:49:15Z",
-    "updated_at": "2026-10-27T02:28:07Z",
-    "pushed_at": "2026-10-27T02:28:00Z",
+    "updated_at": "2026-10-27T12:17:21Z",
+    "pushed_at": "2026-10-27T12:17:16Z",
     "discovered_at": "2026-09-30T12:59:15.249Z",
     "official": false
   },
@@ -41506,7 +41467,7 @@
     "url": "https://github.com/BrokkAi/dsh-acp",
     "description": "DeepSeek coding agent for Zed, JetBrains, and any Agent Client Protocol client. ACP v1/v2, tools, MCP, replay, terminals, and steering in Rust.",
     "stars": 1,
-    "forks": 0,
+    "forks": 1,
     "topics": [
       "acp",
       "agent-client-protocol",
@@ -41532,8 +41493,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-10-20T14:21:20Z",
-    "updated_at": "2026-10-25T13:25:11Z",
-    "pushed_at": "2026-10-25T13:36:58Z",
+    "updated_at": "2026-10-27T12:54:07Z",
+    "pushed_at": "2026-10-27T12:54:58Z",
     "discovered_at": "2026-10-20T18:50:37.100Z",
     "official": false
   },
@@ -41976,6 +41937,68 @@
     "updated_at": "2026-10-27T02:15:25Z",
     "pushed_at": "2026-10-27T02:15:19Z",
     "discovered_at": "2026-10-27T07:02:21.052Z",
+    "official": false
+  },
+  "fredmarques/hallows-eve-theme": {
+    "name": "fredmarques/hallows-eve-theme",
+    "url": "https://github.com/fredmarques/hallows-eve-theme",
+    "description": "Halloween-inspired dark and light themes for Zed",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-10-26T16:44:09Z",
+    "updated_at": "2026-10-26T17:22:51Z",
+    "pushed_at": "2026-10-26T17:22:48Z",
+    "discovered_at": "2026-10-27T12:59:22.405Z",
+    "official": true
+  },
+  "olostep-api/olostep-zed": {
+    "name": "olostep-api/olostep-zed",
+    "url": "https://github.com/olostep-api/olostep-zed",
+    "description": "Zed extension for Olostep, web data infrastructure for AI. Live web search, scraping and crawling API to extract and structure data.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "mcp",
+      "mcp-server",
+      "olostep",
+      "web-scraping",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2026-10-26T10:08:14Z",
+    "updated_at": "2026-10-27T11:19:31Z",
+    "pushed_at": "2026-10-27T11:15:38Z",
+    "discovered_at": "2026-10-27T12:59:22.406Z",
+    "official": false
+  },
+  "sniperravan/zed-mizu": {
+    "name": "SniperRavan/zed-mizu",
+    "url": "https://github.com/SniperRavan/zed-mizu",
+    "description": "A fork of mizu icon by m39u but for zed. Which modified using AI.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "file-icons",
+      "icon-theme",
+      "icons",
+      "mizu",
+      "zed",
+      "zed-editor",
+      "zed-extension",
+      "zed-icon-theme",
+      "zed-industries"
+    ],
+    "language": "JavaScript",
+    "license": "MIT",
+    "created_at": "2026-10-26T19:53:49Z",
+    "updated_at": "2026-10-27T08:42:59Z",
+    "pushed_at": "2026-10-27T08:41:18Z",
+    "discovered_at": "2026-10-27T12:59:22.406Z",
     "official": false
   }
 }
