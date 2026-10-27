@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1905-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1906-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,16 +14,16 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1905** |
+| Total tracked | **1906** |
 | In official registry | 1360 |
-| Discovered via topics | 545 |
-| Last updated | 2026-10-27 12:59 UTC |
+| Discovered via topics | 546 |
+| Last updated | 2026-10-27 18:44 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
-| Themes | 822 |
+| Themes | 823 |
 | Grammars | 658 |
 | Language Servers | 609 |
 | Context Servers | 147 |
@@ -70,6 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [theurzil/shadow-energy-zed](https://github.com/theurzil/shadow-energy-zed) | 4 | A dark blue theme for the Zed text editor inspired by the vibrant energy of a da... |
 | [olostep-api/olostep-zed](https://github.com/olostep-api/olostep-zed) | 0 | Zed extension for Olostep, web data infrastructure for AI. Live web search, scra... |
 | [SniperRavan/zed-mizu](https://github.com/SniperRavan/zed-mizu) | 0 | A fork of mizu icon by m39u but for zed. Which modified using AI. |
 | [fredmarques/hallows-eve-theme](https://github.com/fredmarques/hallows-eve-theme) | 0 | Halloween-inspired dark and light themes for Zed |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [LiLittleCat/pierre-icons-zed](https://github.com/LiLittleCat/pierre-icons-zed) | 0 | Unofficial port of Pierre's file icons (as used in Claude Desktop) to a Zed icon... |
 | [dexra-dev/zed-extension](https://github.com/dexra-dev/zed-extension) | 0 | Dexra MCP server for Zed: Solana DeFi checks for AI agents |
 | [equaeghe/zed-email](https://github.com/equaeghe/zed-email) | 0 | Syntax highlighting for RFC 5322 email / MIME messages (.eml), based on Vim's ma... |
-| [shnarazk/zed-factor](https://github.com/shnarazk/zed-factor) | 0 | A Zed extension for Factor language |
 
 ## Top starred (under 500)
 
@@ -120,6 +120,8 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 140 | 2026-10-27 | The Ruby language support for Zed editor |
+| [shnarazk/zed-factor](https://github.com/shnarazk/zed-factor) | 0 | 2026-10-27 | A Zed extension for Factor language |
 | [pataruco/zed-mjml](https://github.com/pataruco/zed-mjml) | 4 | 2026-10-27 | MJML syntax support for Zed |
 | [olostep-api/olostep-zed](https://github.com/olostep-api/olostep-zed) | 0 | 2026-10-27 | Zed extension for Olostep, web data infrastructure for AI. L... |
 | [Frixuu/Zed-Haxe](https://github.com/Frixuu/Zed-Haxe) | 22 | 2026-10-27 | LSP support & syntax highlighting for Haxe. |
@@ -132,19 +134,18 @@ cd website && npm install && npm run dev
 | [MahoCommerce/zed](https://github.com/MahoCommerce/zed) | 1 | 2026-10-26 | Maho extension for Zed. |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 11 | 2026-10-26 | Spring Boot language intelligence for Zed, powered by the of... |
 | [GetFluvo/odx-zed](https://github.com/GetFluvo/odx-zed) | 0 | 2026-10-26 | odx for Zed: slash commands for the dashboard, status, chang... |
-| [shnarazk/zed-factor](https://github.com/shnarazk/zed-factor) | 0 | 2026-10-26 | A Zed extension for Factor language |
 | [klarlanguage/klar-zed](https://github.com/klarlanguage/klar-zed) | 1 | 2026-10-25 | 🦓 Klar support for Zed |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-10-25 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [YoniTne/unobtrusive-logs-zed](https://github.com/YoniTne/unobtrusive-logs-zed) | 1 | 2026-10-25 | Zed extension that dims log statements in your code. Port of... |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-10-25 | A Zed extension that allows to highlight all occurrences of ... |
 | [yuukiLike/zed-skin](https://github.com/yuukiLike/zed-skin) | 0 | 2026-10-25 | A high contrast theme collection for Zed. Three AAA-audited ... |
 | [whistlebee/zed-mojo](https://github.com/whistlebee/zed-mojo) | 6 | 2026-10-25 | Mojo LSP/Syntax/Debugger support for Zed |
-| [curedbylethe/zed-salam](https://github.com/curedbylethe/zed-salam) | 0 | 2026-10-24 |  |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-10-27T18:44 | 3 | 696 | 2397 |
 | 2026-10-27T12:59 | 3 | 649 | 2394 |
 | 2026-10-27T07:02 | 2 | 695 | 2393 |
 | 2026-10-27T01:13 | 0 | 695 | 2391 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-10-25T18:48 | 0 | 689 | 2383 |
 | 2026-10-25T12:50 | 0 | 689 | 2383 |
 | 2026-10-25T06:57 | 0 | 689 | 2383 |
-| 2026-10-25T01:13 | 0 | 689 | 2383 |
 
 ---
 

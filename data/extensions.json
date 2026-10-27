@@ -255,8 +255,8 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2024-10-11T18:22:02Z",
-    "updated_at": "2026-10-24T05:09:40Z",
-    "pushed_at": "2026-10-20T18:40:28Z",
+    "updated_at": "2026-10-27T18:11:56Z",
+    "pushed_at": "2026-10-27T18:11:54Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -64968,8 +64968,8 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2026-10-15T09:56:05Z",
-    "updated_at": "2026-10-26T00:27:58Z",
-    "pushed_at": "2026-10-26T00:27:54Z",
+    "updated_at": "2026-10-27T14:35:04Z",
+    "pushed_at": "2026-10-27T14:34:59Z",
     "discovered_at": "2026-10-17T06:55:09.945Z",
     "official": false,
     "extension": {
@@ -65712,6 +65712,40 @@
         "SniperRavan <https://github.com/SniperRavan>"
       ],
       "repository": "https://github.com/SniperRavan/zed-mizu",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "theurzil/shadow-energy-zed": {
+    "name": "theurzil/shadow-energy-zed",
+    "url": "https://github.com/theurzil/shadow-energy-zed",
+    "description": "A dark blue theme for the Zed text editor inspired by the vibrant energy of a dark blue show.",
+    "stars": 4,
+    "forks": 0,
+    "topics": [
+      "zed",
+      "zed-theme"
+    ],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2025-07-02T15:55:19Z",
+    "updated_at": "2026-08-29T23:56:31Z",
+    "pushed_at": "2025-07-16T15:11:46Z",
+    "discovered_at": "2026-10-27T18:44:22.102Z",
+    "official": false,
+    "extension": {
+      "id": "shadow-energy",
+      "name": "Shadow Energy",
+      "description": "A dark blue theme for the Zed text editor inspired by the vibrant energy of a dark blue show.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Urzil <yassine.aitrahou0@gmail.com>"
+      ],
+      "repository": "https://github.com/theurzil/shadow-energy-zed",
       "snippets": null,
       "sections": [],
       "categories": [
