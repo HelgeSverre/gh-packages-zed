@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1906-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1907-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,10 +14,10 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1906** |
+| Total tracked | **1907** |
 | In official registry | 1360 |
-| Discovered via topics | 546 |
-| Last updated | 2026-10-27 18:44 UTC |
+| Discovered via topics | 547 |
+| Last updated | 2026-10-28 00:56 UTC |
 
 ### By capability
 
@@ -25,7 +25,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 |------|-------|
 | Themes | 823 |
 | Grammars | 658 |
-| Language Servers | 609 |
+| Language Servers | 610 |
 | Context Servers | 147 |
 | Snippets | 93 |
 | Slash Commands | 62 |
@@ -70,6 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [simd-labs/zed-simdref](https://github.com/simd-labs/zed-simdref) | 0 | Zed extension: simdref instruction briefs as inlay hints in assembly and inline ... |
 | [theurzil/shadow-energy-zed](https://github.com/theurzil/shadow-energy-zed) | 4 | A dark blue theme for the Zed text editor inspired by the vibrant energy of a da... |
 | [olostep-api/olostep-zed](https://github.com/olostep-api/olostep-zed) | 0 | Zed extension for Olostep, web data infrastructure for AI. Live web search, scra... |
 | [SniperRavan/zed-mizu](https://github.com/SniperRavan/zed-mizu) | 0 | A fork of mizu icon by m39u but for zed. Which modified using AI. |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [Izaacapp/zed-theme-periwinkle](https://github.com/Izaacapp/zed-theme-periwinkle) | 0 | Periwinkle: a synthwave theme for Zed, plus the layout and extension kit it ship... |
 | [LiLittleCat/pierre-icons-zed](https://github.com/LiLittleCat/pierre-icons-zed) | 0 | Unofficial port of Pierre's file icons (as used in Claude Desktop) to a Zed icon... |
 | [dexra-dev/zed-extension](https://github.com/dexra-dev/zed-extension) | 0 | Dexra MCP server for Zed: Solana DeFi checks for AI agents |
-| [equaeghe/zed-email](https://github.com/equaeghe/zed-email) | 0 | Syntax highlighting for RFC 5322 email / MIME messages (.eml), based on Vim's ma... |
 
 ## Top starred (under 500)
 
@@ -103,7 +103,7 @@ cd website && npm install && npm run dev
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 219 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
 | [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 212 | Zed support for the Godot game engine and the GDScript language |
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
-| [zed-extensions/typst](https://github.com/zed-extensions/typst) | 202 | Typst extension for zed |
+| [zed-extensions/typst](https://github.com/zed-extensions/typst) | 203 | Typst extension for zed |
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 189 | 🦊 Zed editor theme ported from Neovim |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
@@ -120,6 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [simd-labs/zed-simdref](https://github.com/simd-labs/zed-simdref) | 0 | 2026-10-27 | Zed extension: simdref instruction briefs as inlay hints in ... |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 140 | 2026-10-27 | The Ruby language support for Zed editor |
 | [shnarazk/zed-factor](https://github.com/shnarazk/zed-factor) | 0 | 2026-10-27 | A Zed extension for Factor language |
 | [pataruco/zed-mjml](https://github.com/pataruco/zed-mjml) | 4 | 2026-10-27 | MJML syntax support for Zed |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [YoniTne/unobtrusive-logs-zed](https://github.com/YoniTne/unobtrusive-logs-zed) | 1 | 2026-10-25 | Zed extension that dims log statements in your code. Port of... |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-10-25 | A Zed extension that allows to highlight all occurrences of ... |
 | [yuukiLike/zed-skin](https://github.com/yuukiLike/zed-skin) | 0 | 2026-10-25 | A high contrast theme collection for Zed. Three AAA-audited ... |
-| [whistlebee/zed-mojo](https://github.com/whistlebee/zed-mojo) | 6 | 2026-10-25 | Mojo LSP/Syntax/Debugger support for Zed |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-10-28T00:56 | 1 | 699 | 2398 |
 | 2026-10-27T18:44 | 3 | 696 | 2397 |
 | 2026-10-27T12:59 | 3 | 649 | 2394 |
 | 2026-10-27T07:02 | 2 | 695 | 2393 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-10-26T01:14 | 5 | 688 | 2388 |
 | 2026-10-25T18:48 | 0 | 689 | 2383 |
 | 2026-10-25T12:50 | 0 | 689 | 2383 |
-| 2026-10-25T06:57 | 0 | 689 | 2383 |
 
 ---
 

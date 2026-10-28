@@ -646,8 +646,8 @@
     "language": "Go",
     "license": "GPL-3.0",
     "created_at": "2026-01-19T23:03:47Z",
-    "updated_at": "2026-10-26T14:45:05Z",
-    "pushed_at": "2026-10-27T16:03:58Z",
+    "updated_at": "2026-10-27T19:04:08Z",
+    "pushed_at": "2026-10-27T23:34:41Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -854,7 +854,7 @@
     "name": "kartikvashistha/zed-ansible",
     "url": "https://github.com/kartikvashistha/zed-ansible",
     "description": "Ansible Extension for the Zed editor",
-    "stars": 61,
+    "stars": 62,
     "forks": 8,
     "topics": [
       "ansible",
@@ -864,7 +864,7 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-08-04T09:47:08Z",
-    "updated_at": "2026-10-10T18:31:50Z",
+    "updated_at": "2026-10-27T19:04:11Z",
     "pushed_at": "2026-05-04T07:54:34Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -5087,7 +5087,7 @@
     "name": "alanisme/awesome-zed-extensions",
     "url": "https://github.com/alanisme/awesome-zed-extensions",
     "description": "⭐ Discover the best Zed extensions, ranked by stars, loved by developers, updated daily. Find your next favorite tool! 🚀📊",
-    "stars": 25,
+    "stars": 26,
     "forks": 1,
     "topics": [
       "awesome",
@@ -5102,7 +5102,7 @@
     "language": "Go",
     "license": "MIT",
     "created_at": "2026-03-09T04:35:59Z",
-    "updated_at": "2026-10-27T11:58:39Z",
+    "updated_at": "2026-10-27T21:55:39Z",
     "pushed_at": "2026-10-27T11:58:34Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
@@ -5130,7 +5130,7 @@
     "name": "Dylanmurzello/zed-android-port",
     "url": "https://github.com/Dylanmurzello/zed-android-port",
     "description": "Native Android port of the Zed code editor,  gpui rendering through Vulkan, integrated Termux for LSPs and tooling, remote SSH support. Runs as an APK on tablets and Android desktop modes.",
-    "stars": 243,
+    "stars": 244,
     "forks": 20,
     "topics": [
       "android",
@@ -5157,7 +5157,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-05-07T00:12:10Z",
-    "updated_at": "2026-10-25T18:43:58Z",
+    "updated_at": "2026-10-27T20:27:54Z",
     "pushed_at": "2026-08-07T13:48:06Z",
     "discovered_at": "2026-05-19T19:54:12.053Z",
     "official": false
@@ -8558,13 +8558,13 @@
     "name": "zed-extensions/typst",
     "url": "https://github.com/zed-extensions/typst",
     "description": "Typst extension for zed",
-    "stars": 202,
+    "stars": 203,
     "forks": 19,
     "topics": [],
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2024-04-27T19:27:52Z",
-    "updated_at": "2026-10-18T13:52:44Z",
+    "updated_at": "2026-10-27T19:41:57Z",
     "pushed_at": "2026-08-22T09:27:03Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": false
@@ -17941,8 +17941,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-10-27T12:59:56Z",
-    "pushed_at": "2026-10-27T12:59:52Z",
+    "updated_at": "2026-10-27T18:45:06Z",
+    "pushed_at": "2026-10-27T18:44:59Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -38339,7 +38339,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-09-21T20:10:00Z",
     "updated_at": "2026-10-24T15:52:32Z",
-    "pushed_at": "2026-10-27T18:30:23Z",
+    "pushed_at": "2026-10-27T20:32:42Z",
     "discovered_at": "2026-09-21T22:12:12.101Z",
     "official": false
   },
@@ -39842,8 +39842,8 @@
     "language": "TypeScript",
     "license": null,
     "created_at": "2026-09-04T07:49:15Z",
-    "updated_at": "2026-10-27T18:06:58Z",
-    "pushed_at": "2026-10-27T18:06:53Z",
+    "updated_at": "2026-10-27T23:28:49Z",
+    "pushed_at": "2026-10-27T23:28:45Z",
     "discovered_at": "2026-09-30T12:59:15.249Z",
     "official": false
   },
@@ -41778,8 +41778,8 @@
     "language": "TypeScript",
     "license": "BSD-3-Clause",
     "created_at": "2026-09-16T20:49:29Z",
-    "updated_at": "2026-10-27T14:04:32Z",
-    "pushed_at": "2026-10-27T14:04:26Z",
+    "updated_at": "2026-10-27T21:16:28Z",
+    "pushed_at": "2026-10-27T21:16:18Z",
     "discovered_at": "2026-10-26T01:14:17.224Z",
     "official": false
   },
@@ -42071,6 +42071,27 @@
     "updated_at": "2026-08-29T23:56:31Z",
     "pushed_at": "2025-07-16T15:11:46Z",
     "discovered_at": "2026-10-27T18:44:22.102Z",
+    "official": false
+  },
+  "simd-labs/zed-simdref": {
+    "name": "simd-labs/zed-simdref",
+    "url": "https://github.com/simd-labs/zed-simdref",
+    "description": "Zed extension: simdref instruction briefs as inlay hints in assembly and inline asm",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "assembly",
+      "inlay-hints",
+      "lsp",
+      "simd",
+      "zed-extension"
+    ],
+    "language": "Rust",
+    "license": "GPL-3.0",
+    "created_at": "2026-10-07T14:45:56Z",
+    "updated_at": "2026-10-27T22:09:26Z",
+    "pushed_at": "2026-10-27T22:09:23Z",
+    "discovered_at": "2026-10-28T00:56:48.752Z",
     "official": false
   }
 }
