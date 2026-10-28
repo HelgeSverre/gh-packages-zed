@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1907** |
 | In official registry | 1360 |
 | Discovered via topics | 547 |
-| Last updated | 2026-10-28 00:56 UTC |
+| Last updated | 2026-10-28 06:49 UTC |
 
 ### By capability
 
@@ -120,6 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [yuukiLike/zed-skin](https://github.com/yuukiLike/zed-skin) | 0 | 2026-10-28 | A high contrast theme collection for Zed. Three AAA-audited ... |
 | [simd-labs/zed-simdref](https://github.com/simd-labs/zed-simdref) | 0 | 2026-10-27 | Zed extension: simdref instruction briefs as inlay hints in ... |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 140 | 2026-10-27 | The Ruby language support for Zed editor |
 | [shnarazk/zed-factor](https://github.com/shnarazk/zed-factor) | 0 | 2026-10-27 | A Zed extension for Factor language |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-10-25 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [YoniTne/unobtrusive-logs-zed](https://github.com/YoniTne/unobtrusive-logs-zed) | 1 | 2026-10-25 | Zed extension that dims log statements in your code. Port of... |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-10-25 | A Zed extension that allows to highlight all occurrences of ... |
-| [yuukiLike/zed-skin](https://github.com/yuukiLike/zed-skin) | 0 | 2026-10-25 | A high contrast theme collection for Zed. Three AAA-audited ... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-10-28T06:49 | 0 | 700 | 2398 |
 | 2026-10-28T00:56 | 1 | 699 | 2398 |
 | 2026-10-27T18:44 | 3 | 696 | 2397 |
 | 2026-10-27T12:59 | 3 | 649 | 2394 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-10-26T07:13 | 0 | 694 | 2388 |
 | 2026-10-26T01:14 | 5 | 688 | 2388 |
 | 2026-10-25T18:48 | 0 | 689 | 2383 |
-| 2026-10-25T12:50 | 0 | 689 | 2383 |
 
 ---
 
