@@ -2157,7 +2157,7 @@
     "url": "https://github.com/dunyakirkali/zed-asciidoc",
     "description": "Zed support for AsciiDoc syntax",
     "stars": 24,
-    "forks": 6,
+    "forks": 7,
     "topics": [
       "asciidoc",
       "zed-extension"
@@ -3359,7 +3359,7 @@
     "name": "gabeins/zed-mermaid",
     "url": "https://github.com/gabeins/zed-mermaid",
     "description": "Mermaid support for Zed",
-    "stars": 82,
+    "stars": 83,
     "forks": 6,
     "topics": [
       "diagrams",
@@ -3371,7 +3371,7 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-10-16T07:12:13Z",
-    "updated_at": "2026-10-03T10:33:57Z",
+    "updated_at": "2026-10-29T05:20:54Z",
     "pushed_at": "2026-01-26T08:59:52Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
@@ -5157,8 +5157,8 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-05-07T00:12:10Z",
-    "updated_at": "2026-10-28T21:07:38Z",
-    "pushed_at": "2026-08-07T13:48:06Z",
+    "updated_at": "2026-10-29T04:55:30Z",
+    "pushed_at": "2026-10-29T05:04:30Z",
     "discovered_at": "2026-05-19T19:54:12.053Z",
     "official": false
   },
@@ -15382,8 +15382,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
-    "updated_at": "2026-10-29T00:02:30Z",
-    "pushed_at": "2026-10-29T00:03:26Z",
+    "updated_at": "2026-10-29T06:06:07Z",
+    "pushed_at": "2026-10-29T06:37:19Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -17941,8 +17941,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-10-28T18:45:09Z",
-    "pushed_at": "2026-10-28T18:45:03Z",
+    "updated_at": "2026-10-29T00:56:51Z",
+    "pushed_at": "2026-10-29T00:56:46Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -31920,7 +31920,7 @@
     "name": "ManSio/mscodebase-intelligence",
     "url": "https://github.com/ManSio/mscodebase-intelligence",
     "description": "Intelligent codebase search & indexing for Zed. Async MCP server featuring LanceDB/BM25 hybrid search, multi-bucket RAG, and autonomous self-healing workflows. High-performance, memory-safe, and ready for your production code.",
-    "stars": 2,
+    "stars": 3,
     "forks": 1,
     "topics": [
       "adr",
@@ -31944,7 +31944,7 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
-    "updated_at": "2026-10-24T13:31:44Z",
+    "updated_at": "2026-10-29T04:55:05Z",
     "pushed_at": "2026-10-25T19:29:47Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false
@@ -36071,7 +36071,7 @@
     "name": "mpiton/zed-depsy",
     "url": "https://github.com/mpiton/zed-depsy",
     "description": "Dependi extension for the Zed editor — manage and update dependencies inline",
-    "stars": 39,
+    "stars": 40,
     "forks": 7,
     "topics": [
       "cargo",
@@ -36089,7 +36089,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2025-12-13T09:32:42Z",
-    "updated_at": "2026-10-26T14:00:55Z",
+    "updated_at": "2026-10-29T03:17:41Z",
     "pushed_at": "2026-10-26T14:02:40Z",
     "discovered_at": "2026-08-28T16:48:20.309Z",
     "official": true
@@ -38338,8 +38338,8 @@
     "language": "C++",
     "license": "Apache-2.0",
     "created_at": "2026-09-21T20:10:00Z",
-    "updated_at": "2026-10-28T17:49:40Z",
-    "pushed_at": "2026-10-28T19:28:29Z",
+    "updated_at": "2026-10-29T06:41:22Z",
+    "pushed_at": "2026-10-29T06:41:20Z",
     "discovered_at": "2026-09-21T22:12:12.101Z",
     "official": false
   },
@@ -39842,8 +39842,8 @@
     "language": "TypeScript",
     "license": null,
     "created_at": "2026-09-04T07:49:15Z",
-    "updated_at": "2026-10-29T00:51:51Z",
-    "pushed_at": "2026-10-29T00:51:47Z",
+    "updated_at": "2026-10-29T06:45:23Z",
+    "pushed_at": "2026-10-29T06:45:19Z",
     "discovered_at": "2026-09-30T12:59:15.249Z",
     "official": false
   },
@@ -41305,11 +41305,11 @@
       "wezterm-themes",
       "zed-theme"
     ],
-    "language": "Lua",
+    "language": "TypeScript",
     "license": "MIT",
     "created_at": "2024-06-02T08:11:44Z",
-    "updated_at": "2026-10-28T02:04:15Z",
-    "pushed_at": "2026-10-17T22:28:43Z",
+    "updated_at": "2026-10-29T06:47:28Z",
+    "pushed_at": "2026-10-29T06:48:25Z",
     "discovered_at": "2026-10-18T01:13:08.292Z",
     "official": false
   },
