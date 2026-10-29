@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1909** |
 | In official registry | 1360 |
 | Discovered via topics | 549 |
-| Last updated | 2026-10-28 18:44 UTC |
+| Last updated | 2026-10-29 00:56 UTC |
 
 ### By capability
 
@@ -120,6 +120,8 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [chiploom/zed-wit](https://github.com/chiploom/zed-wit) | 0 | 2026-10-29 | Modern WIT language support for Zed, with Tree-sitter syntax... |
+| [SerpKite/serpkite-zed](https://github.com/SerpKite/serpkite-zed) | 0 | 2026-10-28 | SerpKite MCP server for Zed's Agent Panel: Google search, we... |
 | [simd-labs/zed-asm-intrinsics](https://github.com/simd-labs/zed-asm-intrinsics) | 0 | 2026-10-28 | Zed extension: simdref instruction briefs as inlay hints in ... |
 | [yuukiLike/zed-skin](https://github.com/yuukiLike/zed-skin) | 0 | 2026-10-28 | A high contrast theme collection for Zed. Three AAA-audited ... |
 | [MalasataXD/better-highlights](https://github.com/MalasataXD/better-highlights) | 0 | 2026-10-28 | Cognitive complexity hints and colour-coded comment tags for... |
@@ -138,13 +140,12 @@ cd website && npm install && npm run dev
 | [MahoCommerce/zed](https://github.com/MahoCommerce/zed) | 1 | 2026-10-26 | Maho extension for Zed. |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 11 | 2026-10-26 | Spring Boot language intelligence for Zed, powered by the of... |
 | [GetFluvo/odx-zed](https://github.com/GetFluvo/odx-zed) | 0 | 2026-10-26 | odx for Zed: slash commands for the dashboard, status, chang... |
-| [klarlanguage/klar-zed](https://github.com/klarlanguage/klar-zed) | 1 | 2026-10-25 | 🦓 Klar support for Zed |
-| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 2 | 2026-10-25 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-10-29T00:56 | 0 | 702 | 2401 |
 | 2026-10-28T18:44 | 1 | 701 | 2401 |
 | 2026-10-28T12:45 | 2 | 700 | 2400 |
 | 2026-10-28T06:49 | 0 | 700 | 2398 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-10-27T07:02 | 2 | 695 | 2393 |
 | 2026-10-27T01:13 | 0 | 695 | 2391 |
 | 2026-10-26T18:59 | 3 | 695 | 2391 |
-| 2026-10-26T07:13 | 0 | 694 | 2388 |
 
 ---
 
