@@ -1,0 +1,242 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Mermaid Preview - Zed Extension Safari</title><meta name="description" content="Interactive live preview for Mermaid diagrams in Zed — zero-config locally, seamless remote SSH support."><link rel="canonical" href="https://helgesverre.github.io/gh-packages-zed/package/hisyam-zayd/mermaid-preview/"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Mermaid Preview - Zed Extension Safari"><meta property="og:description" content="Interactive live preview for Mermaid diagrams in Zed — zero-config locally, seamless remote SSH support."><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed/package/hisyam-zayd/mermaid-preview/"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Mermaid Preview - Zed Extension Safari"><meta name="twitter:description" content="Interactive live preview for Mermaid diagrams in Zed — zero-config locally, seamless remote SSH support."><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/gh-packages-zed/_astro/ClientRouter.astro_astro_type_script_index_0_lang.ClVLs1kt.js"></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Mermaid Preview","description":"Interactive live preview for Mermaid diagrams in Zed — zero-config locally, seamless remote SSH support.","applicationCategory":"DeveloperApplication","operatingSystem":"macOS, Linux, Windows","url":"https://zed.dev/extensions/mermaid-preview","codeRepository":"https://github.com/hisyam-zayd/mermaid-preview","author":[{"@type":"Person","name":"Hisyam Zayd"}],"softwareVersion":"0.1.0","license":"MIT","keywords":"grammar, language-server","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/Layout.CGDlMdWE.css"><script type="module" src="/gh-packages-zed/_astro/page.B8i1Zz-u.js"></script></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <a href="#main" class="skip-to-content">Skip to content</a> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" data-astro-transition-persist="astro-fhchcgd7-1"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <script type="application/json" id="pkg-extras">{"url":"https://github.com/hisyam-zayd/mermaid-preview","language":"JavaScript","license":"MIT","topics":["developer-tools","diagrams-as-code","language-server","live-preview","lsp","mermaid","mermaid-js","nodejs","remote-development","rust","tree-sitter","visualization","wasm","webassembly","websocket","zed","zed-editor","zed-extension"],"extension":{"authors":["Hisyam Zayd"],"schema_version":1}}</script> <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> hisyam-zayd/mermaid-preview </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> Mermaid Preview </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> Interactive live preview for Mermaid diagrams in Zed — zero-config locally, seamless remote SSH support </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="grammar">Grammar</span><span class="cat-badge" data-cat="language-server">Language Server</span> </div> </div> </div> </header> <main id="main" class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/mermaid-preview" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/hisyam-zayd/mermaid-preview" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.1.0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">mermaid-preview</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">JavaScript</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">MIT</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">55m ago</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">Hisyam Zayd</dd> </div> </dl>  <h2 class="mt-5 text-xs uppercase font-mono" style="color:var(--zed-muted);">Topics</h2> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> developer-tools </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> diagrams-as-code </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> language-server </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> live-preview </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> lsp </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> mermaid </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> mermaid-js </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> nodejs </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> remote-development </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> rust </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> tree-sitter </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> visualization </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> wasm </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> webassembly </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> websocket </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed-editor </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed-extension </span> </div>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-mermaid-preview-for-zed-still-in-development"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#mermaid-preview-for-zed-still-in-development"><span class="heading-anchor-icon">#</span></a>Mermaid Preview for Zed (still in development)</h1>
+<p>High-fidelity interactive live preview and language support for <strong>Mermaid</strong> diagrams (<code>.mmd</code>, <code>.mermaid</code>) in the <a href="https://zed.dev">Zed code editor</a>. Zero-configuration for local workflows, with simple 1-step port forwarding for remote SSH development.</p>
+<hr>
+<h2 id="user-content-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features"><span class="heading-anchor-icon">#</span></a>Features</h2>
+<ul>
+<li><strong>100% Diagram Fidelity:</strong> Powered by the official <code>mermaid.js</code> engine (v12+). Supports flowcharts, sequence diagrams, class diagrams, state machines, ER diagrams, Gantt charts, Git graphs, mindmaps, and directives (<code>%%{init}%%</code>).</li>
+<li><strong>Zero Configuration Locally:</strong> Automatically allocates a free local port, serves web assets, and launches your default browser via Zed's native <code>window/showDocument</code> LSP protocol.</li>
+<li><strong>Non-Disruptive Real-Time Sync:</strong> As you edit code in Zed, the diagram updates live via WebSockets without stealing your cursor focus or resetting your scroll position.</li>
+<li><strong>State-Preserving Viewport Controls:</strong>
+<ul>
+<li>🔍 <strong>Fit to Screen:</strong> Instantly scales complex diagrams to fit your display.</li>
+<li>🎯 <strong>Center View:</strong> Re-centers without altering current zoom scale.</li>
+<li>🔄 <strong>Reset 100%:</strong> Restores natural 1:1 scale.</li>
+<li>➕ / ➖ Smooth mouse-wheel &#x26; touchpad pinch-to-zoom and click-and-drag panning.</li>
+</ul>
+</li>
+<li><strong>Instant Exports:</strong> One-click <strong>Copy SVG</strong> to clipboard or download <strong>High-Res 2x PNG</strong>.</li>
+<li><strong>In-Editor Syntax Diagnostics:</strong> Pinpoints syntax errors with exact line and column numbers using real-time LSP diagnostics.</li>
+<li><strong>Seamless Remote SSH Support:</strong> Works effortlessly across remote SSH connections (MacBook/Windows client ⟷ Linux remote host) with standard port tunneling.</li>
+</ul>
+<hr>
+<h2 id="user-content-supported-platforms--environments"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#supported-platforms--environments"><span class="heading-anchor-icon">#</span></a>Supported Platforms &#x26; Environments</h2>
+<p>This extension is <strong>100% platform-agnostic</strong> and supports any combination of local and remote development:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th align="left">Mode</th><th align="left">Client Machine (Display / Browser)</th><th align="left">Host Machine (Code &#x26; Daemon)</th><th align="center">Port Forwarding Needed?</th><th align="center">Status</th></tr></thead><tbody><tr><td align="left"><strong>Local</strong></td><td align="left">macOS (Apple Silicon &#x26; Intel)</td><td align="left">Same machine</td><td align="center">❌ No <em>(100% Zero Config)</em></td><td align="center">✅ Supported</td></tr><tr><td align="left"><strong>Local</strong></td><td align="left">Linux (Ubuntu, Fedora, Arch, Debian)</td><td align="left">Same machine</td><td align="center">❌ No <em>(100% Zero Config)</em></td><td align="center">✅ Supported</td></tr><tr><td align="left"><strong>Local</strong></td><td align="left">Windows 10 / 11</td><td align="left">Same machine</td><td align="center">❌ No <em>(100% Zero Config)</em></td><td align="center">✅ Supported</td></tr><tr><td align="left"><strong>Remote SSH</strong></td><td align="left"><strong>macOS (MacBook)</strong></td><td align="left"><strong>Linux (Ubuntu, Debian, Fedora)</strong></td><td align="center">✅ Yes (Port 8765)</td><td align="center">✅ Supported</td></tr><tr><td align="left"><strong>Remote SSH</strong></td><td align="left"><strong>Windows PC</strong></td><td align="left"><strong>Linux Server / Workstation</strong></td><td align="center">✅ Yes (Port 8765)</td><td align="center">✅ Supported</td></tr><tr><td align="left"><strong>Remote SSH</strong></td><td align="left"><strong>Linux Laptop</strong></td><td align="left"><strong>Linux Server / Cloud VM</strong></td><td align="center">✅ Yes (Port 8765)</td><td align="center">✅ Supported</td></tr></tbody></table>
+<p><strong>Supported Browsers:</strong> Chrome, Safari, Firefox, Edge, Arc, Brave, and any modern WebKit/Chromium-based browser.</p>
+<hr>
+<h2 id="user-content-running-in-zed-as-a-development-extension"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#running-in-zed-as-a-development-extension"><span class="heading-anchor-icon">#</span></a>Running in Zed as a Development Extension</h2>
+<p>Since this extension is in active development and awaiting approval on the official Zed Extension Registry, you can load and run it directly as a <strong>Development Extension</strong>.</p>
+<h3 id="user-content-option-a-local-development-macos-linux-or-windows"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#option-a-local-development-macos-linux-or-windows"><span class="heading-anchor-icon">#</span></a>Option A: Local Development (macOS, Linux, or Windows)</h3>
+<p><em>Zero configuration required.</em></p>
+<ol>
+<li>Clone this repository:
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">git</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> clone</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> https://github.com/hisyam-zayd/mermaid-preview.git</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">cd</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> mermaid-preview</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">npm</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> install</span></span></code></pre>
+</li>
+<li>Open <strong>Zed</strong>.</li>
+<li>Open the Command Palette (<code>Cmd + Shift + P</code> on macOS / <code>Ctrl + Shift + P</code> on Linux &#x26; Windows).</li>
+<li>Type and select: <strong><code>Extensions: Install Development Extension</code></strong>.</li>
+<li>Select this repository folder (<code>mermaid-preview</code>).</li>
+<li>Zed will load the extension and activate it for all <code>.mmd</code> and <code>.mermaid</code> files immediately.</li>
+</ol>
+<hr>
+<h3 id="user-content-option-b-remote-ssh-development-mac--windows-client--remote-host"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#option-b-remote-ssh-development-mac--windows-client--remote-host"><span class="heading-anchor-icon">#</span></a>Option B: Remote SSH Development (Mac / Windows Client ⟷ Remote Host)</h3>
+<p>When using Zed Remote Development over SSH:</p>
+<ul>
+<li><strong>The Preview Server runs on your remote host</strong> (allocating port 8765 by default).</li>
+<li><strong>The web browser runs locally on your client machine</strong> (MacBook or Windows PC).</li>
+</ul>
+<p>Because Zed does not bundle an automatic reverse proxy, port 8765 needs to be forwarded from the remote host to your local client. You can set this up in <strong>one minute</strong> using either method below:</p>
+<h4 id="user-content-method-1-automatically-via-zed-settings-recommended"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#method-1-automatically-via-zed-settings-recommended"><span class="heading-anchor-icon">#</span></a>Method 1: Automatically via Zed Settings (Recommended)</h4>
+<p>Add a port forward rule to your local Zed <code>settings.json</code> (<code>Cmd + Shift + P</code> → <code>zed: open settings</code> on your Mac):</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "ssh_connections"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "host"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"your-remote-host-name"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "port_forwards"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">        {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">          "local_port"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">8765</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">          "remote_port"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">8765</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">        }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      ]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  ]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p><em>Note: Replace <code>"your-remote-host-name"</code> with your exact host alias from <code>~/.ssh/config</code> (e.g. <code>"optiplex"</code> or <code>"ubuntu-server"</code>). Once saved, Zed keeps the tunnel open automatically whenever you connect!</em></p>
+<h4 id="user-content-method-2-via-terminal-ssh-tunnel"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#method-2-via-terminal-ssh-tunnel"><span class="heading-anchor-icon">#</span></a>Method 2: Via Terminal SSH Tunnel</h4>
+<p>If you prefer not to touch <code>settings.json</code>, run an SSH tunnel directly in your local terminal:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">ssh</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -L</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> 8765:localhost:8765</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> user@your-remote-host</span></span></code></pre>
+<p><em>(Keep this terminal open while you work; all browser requests to <code>localhost:8765</code> will seamlessly reach the remote preview server).</em>
+3. <strong>Load the Development Extension:</strong></p>
+<ul>
+<li>In your remote Zed window, open the Command Palette.</li>
+<li>Select: <strong><code>Extensions: Install Development Extension</code></strong>.</li>
+<li>Select the repository path on the remote host.</li>
+</ul>
+<hr>
+<h2 id="user-content-how-to-use"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#how-to-use"><span class="heading-anchor-icon">#</span></a>How to Use</h2>
+<ol>
+<li>Open or create any <code>.mmd</code> or <code>.mermaid</code> file in Zed.</li>
+<li>Press <strong><code>Cmd + .</code></strong> (or click the lightbulb icon in the editor margin).</li>
+<li>Select <strong><code>Open Mermaid Diagram Preview</code></strong>.</li>
+<li>Zed automatically launches your default browser at <code>http://localhost:&#x3C;port></code> showing your live diagram.</li>
+<li>As you type in Zed, the diagram renders live beside you.</li>
+</ol>
+<hr>
+<h2 id="user-content-architecture--how-it-works"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#architecture--how-it-works"><span class="heading-anchor-icon">#</span></a>Architecture &#x26; How It Works</h2>
+<p>Zed does not include a native Mermaid language server. Instead, this extension provides a <strong>custom language server (<code>mermaid-lsp</code>)</strong> paired with a lightweight <strong>Rust WebAssembly bridge</strong>.</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">flowchart TD</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    subgraph ZedEditor ["1. Zed Editor (Native LSP Client)"]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">        UI["Editor Buffer (.mmd file)"]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">        LSPClient["Zed LSP Client Engine&#x3C;br/>(Listens for Cmd + . &#x26; diagnostics)"]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">        WasmHost["Zed WASM Extension Host"]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    end</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    subgraph RustBridge ["2. Extension Bridge (src/lib.rs)"]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">        Wasm["extension.wasm&#x3C;br/>Resolves paths in 0ms &#x26; tells Zed:&#x3C;br/>'Execute: node src/lsp/index.js'"]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    end</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    subgraph CustomLSP ["3. Custom Language Server (src/lsp/index.js)"]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">        NodeServer["mermaid-lsp Process"]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">        JSONRPC["LSP Protocol Handler (src/lsp/json-rpc.js)"]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">        Validator["Official mermaid.parse Validator (src/server/validator.js)"]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">        HttpWs["Preview Server &#x26; WebSocket Daemon (src/server/index.js)"]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">        Watchdog["15-Second Smart Connection Watchdog"]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    end</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    UI --> LSPClient</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    LSPClient --> WasmHost</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    WasmHost --> Wasm</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    Wasm -. Spawns .-> NodeServer</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    LSPClient &#x3C;== "JSON-RPC (stdin / stdout)" ==> NodeServer</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    NodeServer --> JSONRPC</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    NodeServer --> Validator</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    NodeServer --> HttpWs</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    NodeServer --> Watchdog</span></span></code></pre>
+<h3 id="user-content-the-3-layers"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#the-3-layers"><span class="heading-anchor-icon">#</span></a>The 3 Layers</h3>
+<ol>
+<li><strong>Zed (LSP Client):</strong> Zed natively speaks the Language Server Protocol (LSP). It handles editor tabs, triggers <kbd>Cmd</kbd> + <kbd>.</kbd> quick fixes, displays in-editor error squigglies, and requests browser launches via <code>window/showDocument</code>.</li>
+<li><strong>The Rust WebAssembly Bridge (<code>src/lib.rs</code>):</strong> A zero-overhead compiled WASM module implementing <code>zed_extension_api</code>. It resolves server paths in 0ms without running subshells, telling Zed how to spawn <code>mermaid-lsp</code>.</li>
+<li><strong>The Custom Language Server (<code>src/lsp/index.js</code>):</strong> A standalone Node.js process that:
+<ul>
+<li>Decodes incoming LSP JSON-RPC messages from Zed via <code>src/lsp/json-rpc.js</code>.</li>
+<li>Validates diagrams in real-time using official <code>mermaid.parse</code> in <code>src/server/validator.js</code> and publishes diagnostics back to Zed.</li>
+<li>Manages an automated HTTP/WebSocket preview server in <code>src/server/index.js</code> that pushes live diagram AST updates directly to the web canvas.</li>
+<li>Runs a 15-second connection watchdog in remote SSH sessions to notify you if port forwarding is needed.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="user-content-development--automated-tests"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#development--automated-tests"><span class="heading-anchor-icon">#</span></a>Development &#x26; Automated Tests</h2>
+<p>Run the full automated test suite (unit tests, integration tests, and end-to-end LSP workflows):</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">npm</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> test</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">npm</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> run</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> test:coverage</span></span></code></pre>
+<h3 id="user-content-test-coverage-37-passing-tests--942-line-coverage"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#test-coverage-37-passing-tests--942-line-coverage"><span class="heading-anchor-icon">#</span></a>Test Coverage (37 Passing Tests — 94.2% Line Coverage)</h3>
+<ul>
+<li>✅ <strong>Port Allocator:</strong> Verifies automatic free port binding, dynamic ephemeral port <code>0</code> isolation, and collision avoidance.</li>
+<li>✅ <strong>Validator:</strong> Tests syntax verification across flowcharts, sequence diagrams, and broken code with exact line numbers.</li>
+<li>✅ <strong>Server Integration:</strong> Verifies HTTP static asset serving, directory traversal security, and real-time WebSocket broadcasting.</li>
+<li>✅ <strong>LSP Protocol:</strong> Validates JSON-RPC framing, initialization handshake, <code>quickfix</code> code action resolution, and <code>window/showDocument</code> auto-launch.</li>
+<li>✅ <strong>Remote SSH &#x26; Watchdog:</strong> Validates SSH session detection, setup guidance generation, client connection detection, and timeout alerting.</li>
+<li>✅ <strong>Full E2E Workflow:</strong> Tests complete pipeline from document opening to browser WebSocket sync and real-time typing edits.</li>
+</ul>
+<hr>
+<h2 id="user-content-built-alongside-gemini-38-flash-high"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#built-alongside-gemini-38-flash-high"><span class="heading-anchor-icon">#</span></a>Built Alongside Gemini 3.8 Flash (High)</h2>
+<p>This extension was designed and developed through AI-human pair programming alongside <strong>Gemini 3.8 Flash (High)</strong>.</p>
+<ul>
+<li>For the complete user prompts, architectural debate logs, and feature-slicing specifications that shaped this project, see <strong><a href="https://github.com/hisyam-zayd/mermaid-preview/blob/HEAD/DEVELOPMENT-PROMPTS.md" target="_blank" rel="noopener">DEVELOPMENT-PROMPTS.md</a></strong>.</li>
+<li><strong>Contributions &#x26; Feedback:</strong> Any bug reports, syntax edge cases, performance improvements, or additional feature requests are warmly welcomed! Please feel free to open an issue or submit a pull request.</li>
+</ul>
+<hr>
+<h2 id="user-content-trademark-disclaimer"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#trademark-disclaimer"><span class="heading-anchor-icon">#</span></a>Trademark Disclaimer</h2>
+<p>Mermaid is an open-source project created by Knut Sveidqvist and contributors under the MIT License. This extension is an independent community project and is not officially affiliated with, sponsored by, or endorsed by the Mermaid.js team or Zed Industries.</p>
+<hr>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p><a href="https://github.com/hisyam-zayd/mermaid-preview/blob/HEAD/LICENSE" target="_blank" rel="noopener">MIT License</a> © 2026 Hisyam Zayd</p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>

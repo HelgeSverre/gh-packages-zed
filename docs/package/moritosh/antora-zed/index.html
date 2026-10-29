@@ -1,0 +1,165 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Antora - Zed Extension Safari</title><meta name="description" content="Antora support for the Zed editor, powered by antora-ls"><link rel="canonical" href="https://helgesverre.github.io/gh-packages-zed/package/moritosh/antora-zed/"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Antora - Zed Extension Safari"><meta property="og:description" content="Antora support for the Zed editor, powered by antora-ls"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed/package/moritosh/antora-zed/"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Antora - Zed Extension Safari"><meta name="twitter:description" content="Antora support for the Zed editor, powered by antora-ls"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/gh-packages-zed/_astro/ClientRouter.astro_astro_type_script_index_0_lang.ClVLs1kt.js"></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Antora","description":"Antora support for the Zed editor, powered by antora-ls","applicationCategory":"DeveloperApplication","operatingSystem":"macOS, Linux, Windows","url":"https://zed.dev/extensions/antora","codeRepository":"https://github.com/moritosh/antora-zed","author":[{"@type":"Person","name":"Mo"}],"softwareVersion":"0.2.1","license":"MIT","keywords":"language-server","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/Layout.CGDlMdWE.css"><script type="module" src="/gh-packages-zed/_astro/page.B8i1Zz-u.js"></script></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <a href="#main" class="skip-to-content">Skip to content</a> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" data-astro-transition-persist="astro-fhchcgd7-1"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <script type="application/json" id="pkg-extras">{"url":"https://github.com/moritosh/antora-zed","language":"Rust","license":"MIT","topics":["antora","asciidoc","docs-as-code","documentation","language-server","lsp","rust","technical-writing","webassembly","zed","zed-editor","zed-extension"],"extension":{"authors":["Mo"],"schema_version":1}}</script> <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> moritosh/antora-zed </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> Antora </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> Antora support for AsciiDoc: xref/include/image completion, go-to-definition, hover and broken-reference diagnostics. </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="language-server">Language Server</span> </div> </div> </div> </header> <main id="main" class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/antora" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/moritosh/antora-zed" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.2.1</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">antora</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">Rust</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">MIT</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">1</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">3h ago</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">Mo</dd> </div> </dl>  <h2 class="mt-5 text-xs uppercase font-mono" style="color:var(--zed-muted);">Topics</h2> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> antora </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> asciidoc </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> docs-as-code </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> documentation </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> language-server </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> lsp </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> rust </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> technical-writing </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> webassembly </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed-editor </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed-extension </span> </div>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-antora-for-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#antora-for-zed"><span class="heading-anchor-icon">#</span></a>Antora for Zed</h1>
+<p>Antora support for <a href="https://zed.dev">Zed</a>: completion, navigation, refactoring, diagnostics and previews for <a href="https://antora.org">Antora</a> documentation sites. The work is done by the <a href="https://github.com/moritosh/antora-ls">antora-ls</a> language server; this extension finds or downloads it and attaches it to AsciiDoc files.</p>
+<p>The extension and antora-ls are versioned independently. Unless a binary is set in the settings or on your <code>PATH</code>, the extension downloads the latest antora-ls release, so language server updates arrive without an extension update (see <a href="#settings">Settings</a>).</p>
+<p>It layers on top of Zed's <strong>AsciiDoc</strong> extension (syntax highlighting), so install that first.</p>
+<h2 id="user-content-install"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#install"><span class="heading-anchor-icon">#</span></a>Install</h2>
+<p>The extension isn't in Zed's extension registry yet, so you install it as a <em>dev extension</em>: Zed builds it from a clone of this repository, which needs Rust. The extension then downloads antora-ls by itself.</p>
+<p>For the live preview, the docs project also needs Antora 3 installed (<code>npm i -D antora</code>, or the same with pnpm, Yarn or Bun) and your computer needs Bun or Node; completion, navigation and diagnostics work without them.</p>
+<h3 id="user-content-macos"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#macos"><span class="heading-anchor-icon">#</span></a>macOS</h3>
+<ol>
+<li>Install <a href="https://zed.dev/download">Zed</a> and the Xcode command line tools (<code>xcode-select --install</code>), which Rust uses to build.</li>
+<li>Install Rust and the WebAssembly target that Zed extensions are built for:
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">curl</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --proto</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> '=https'</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --tlsv1.2</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -sSf</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> https://sh.rustup.rs</span><span style="color:#D73A49;--shiki-dark:#F97583"> |</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> sh</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">rustup</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> target</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> add</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> wasm32-wasip2</span></span></code></pre>
+</li>
+<li>Clone the extension: <code>git clone https://github.com/moritosh/antora-zed</code>.</li>
+<li>In Zed, open the extensions page (<code>cmd-shift-x</code>), search for <strong>AsciiDoc</strong> and install it.</li>
+<li>Open the command palette (<code>cmd-shift-p</code>), run <code>zed: install dev extension</code> and pick the <code>antora-zed</code> folder.</li>
+<li>Open your docs folder (the one with <code>antora.yml</code> or the playbook) and a page. The first time, Zed downloads antora-ls; completion, hover and diagnostics start when it's running.</li>
+<li>For the live preview, install <a href="https://bun.sh">Bun</a> (<code>curl -fsSL https://bun.sh/install | bash</code>) or Node (<code>brew install node</code>), then press <code>cmd-.</code> on a page and choose <strong>Antora: Open live site preview</strong>.</li>
+</ol>
+<h3 id="user-content-windows"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#windows"><span class="heading-anchor-icon">#</span></a>Windows</h3>
+<ol>
+<li>Install <a href="https://zed.dev/download">Zed</a> and <a href="https://git-scm.com">Git</a> (<code>winget install Git.Git</code>).</li>
+<li>Install Rust with <code>rustup-init.exe</code> from <a href="https://rustup.rs">rustup.rs</a>, and accept its offer to install the Visual Studio C++ build tools. Then, in a new terminal:
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">rustup target add wasm32</span><span style="color:#D73A49;--shiki-dark:#F97583">-</span><span style="color:#24292E;--shiki-dark:#E1E4E8">wasip2</span></span></code></pre>
+</li>
+<li>Clone the extension: <code>git clone https://github.com/moritosh/antora-zed</code>.</li>
+<li>In Zed, open the extensions page (<code>ctrl-shift-x</code>), search for <strong>AsciiDoc</strong> and install it.</li>
+<li>Open the command palette (<code>ctrl-shift-p</code>), run <code>zed: install dev extension</code> and pick the <code>antora-zed</code> folder.</li>
+<li>Open your docs folder and a page. The first time, Zed downloads antora-ls.
+On Windows on ARM there's no ARM build of antora-ls, so the download fails. Install the x64 build as described in the <a href="https://github.com/moritosh/antora-ls#windows">antora-ls README</a>; it runs under emulation, and the extension finds it on the <code>PATH</code>.</li>
+<li>For the live preview, install <a href="https://bun.sh">Bun</a> (<code>powershell -c "irm bun.sh/install.ps1 | iex"</code>) or Node (<code>winget install OpenJS.NodeJS.LTS</code>), restart Zed, then press <code>ctrl-.</code> on a page and choose <strong>Antora: Open live site preview</strong>.</li>
+</ol>
+<h3 id="user-content-linux"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#linux"><span class="heading-anchor-icon">#</span></a>Linux</h3>
+<ol>
+<li>Install <a href="https://zed.dev/download">Zed</a> (<code>curl -f https://zed.dev/install.sh | sh</code>), Git, and a C compiler for Rust to build with (<code>sudo apt install git build-essential</code> on Debian and Ubuntu, <code>sudo dnf install git gcc</code> on Fedora).</li>
+<li>Install Rust and the WebAssembly target:
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">curl</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --proto</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> '=https'</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --tlsv1.2</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -sSf</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> https://sh.rustup.rs</span><span style="color:#D73A49;--shiki-dark:#F97583"> |</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> sh</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">rustup</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> target</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> add</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> wasm32-wasip2</span></span></code></pre>
+</li>
+<li>Clone the extension: <code>git clone https://github.com/moritosh/antora-zed</code>.</li>
+<li>In Zed, open the extensions page (<code>ctrl-shift-x</code>), search for <strong>AsciiDoc</strong> and install it.</li>
+<li>Open the command palette (<code>ctrl-shift-p</code>), run <code>zed: install dev extension</code> and pick the <code>antora-zed</code> folder.</li>
+<li>Open your docs folder and a page. The first time, Zed downloads antora-ls. Its Linux builds need glibc 2.39 or later (Ubuntu 24.04, Debian 13, Fedora 40 or newer); on older distributions, build it with <code>cargo install --git https://github.com/moritosh/antora-ls</code> and the extension uses that one from the <code>PATH</code>.</li>
+<li>For the live preview, install <a href="https://bun.sh">Bun</a> (<code>curl -fsSL https://bun.sh/install | bash</code>) or Node (your distribution's <code>nodejs</code> package), then press <code>ctrl-.</code> on a page and choose <strong>Antora: Open live site preview</strong>.</li>
+</ol>
+<h2 id="user-content-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features"><span class="heading-anchor-icon">#</span></a>Features</h2>
+<p>Default macOS keys; on Linux and Windows use <code>ctrl</code> for <code>cmd</code>.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Feature</th><th>How</th></tr></thead><tbody><tr><td>Completion of <code>xref:</code>, <code>include::</code> and <code>image:</code> targets across modules, components and versions, and of <code>{attributes}</code></td><td>as you type, or <code>ctrl-space</code></td></tr><tr><td>Go to definition, landing on <code>#fragment</code> anchors</td><td><code>f12</code> or <code>cmd</code>-click; <code>cmd</code>-hover underlines the whole target</td></tr><tr><td>Hover: target title, component version, module, path, alias</td><td>mouse over, or <code>cmd-k cmd-i</code></td></tr><tr><td>Find references to a page, partial, example, image or attachment</td><td><code>alt-shift-f12</code> on a reference or in the file</td></tr><tr><td>Rename a resource: moves the file and updates every reference</td><td><code>f2</code> on a reference, then type the new path (e.g. <code>setup/linux</code>)</td></tr><tr><td>Move or rename files and folders in the project panel: references follow</td><td>drag or rename in the project panel</td></tr><tr><td>Diagnostics: broken references, nav file structure, unregistered nav files, missing <code>nav:</code> entries</td><td>inline, or <code>cmd-shift-m</code> for all</td></tr><tr><td><code>page-aliases</code>: references to an alias resolve to the page</td><td>automatic</td></tr><tr><td>Playbooks: local content sources and site-wide attributes</td><td>automatic</td></tr><tr><td>Live site preview in the browser</td><td><code>cmd-.</code> → <strong>Antora: Open live site preview</strong></td></tr><tr><td>Markdown preview inside Zed</td><td><code>cmd-.</code> → <strong>Antora: Open Markdown preview</strong>, then <code>cmd-k v</code></td></tr></tbody></table>
+<p>To see a referenced file in the project panel, jump to it and run <code>pane: reveal in project panel</code> (<code>cmd-shift-e</code>).</p>
+<h2 id="user-content-previews"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#previews"><span class="heading-anchor-icon">#</span></a>Previews</h2>
+<p><strong>Live site preview</strong> — your real site (UI bundle, xrefs, includes, navigation) in the browser, built from HEAD. The browser opens at once with the build's progress (also in Zed's status bar), and even large sites are ready in seconds. Edits appear as you type without a page reload, and the browser scrolls to the block you're editing and follows you to other pages. Needs <a href="https://bun.sh">Bun</a> or Node, and Antora 3 installed in the docs project.</p>
+<p><strong>Markdown preview</strong> — an approximate rendering inside Zed. Run the action once and press <code>cmd-k v</code> in the <code>Antora Preview.md</code> tab it opens; the preview then follows whichever page you work on and updates as you type. xrefs, includes, images and attributes are resolved; admonitions and sidebars show as quotes.</p>
+<p>Both previews are code actions, as Zed extensions can't add toolbar buttons. For a toolbar button that opens the code actions menu (in every file type, not just AsciiDoc), add this to your Zed settings:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#032F62;--shiki-dark:#9ECBFF">"toolbar"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"code_actions"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">true</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> }</span></span></code></pre>
+<p>Details are in the <a href="https://github.com/moritosh/antora-ls#previews">antora-ls README</a>.</p>
+<h2 id="user-content-settings"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#settings"><span class="heading-anchor-icon">#</span></a>Settings</h2>
+<p>The language server is found in this order:</p>
+<ol>
+<li><code>lsp.antora-ls.binary.path</code> in Zed settings</li>
+<li><code>antora-ls</code> on your <code>PATH</code> (e.g. <code>cargo install --path antora-ls</code>)</li>
+<li>The latest <a href="https://github.com/moritosh/antora-ls/releases">GitHub release</a> for your platform, downloaded automatically</li>
+</ol>
+<p>To choose the binary or the JavaScript runtime used by the live preview:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "antora-ls"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "binary"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"path"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"/path/to/antora-ls"</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> },</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "initialization_options"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"preview"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"runtime"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"/path/to/bun"</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> } }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h2 id="user-content-develop"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#develop"><span class="heading-anchor-icon">#</span></a>Develop</h2>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">rustup</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> target</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> add</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> wasm32-wasip2</span></span></code></pre>
+<p>In Zed: install the <strong>AsciiDoc</strong> extension, run <code>zed: install dev extension</code>, and pick this folder. Open a folder containing <code>antora.yml</code> and edit a page. After changing <code>antora-ls</code>, reinstall it and run <code>editor: restart language server</code>.</p>
+<h2 id="user-content-release"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#release"><span class="heading-anchor-icon">#</span></a>Release</h2>
+<p>Set <code>version</code> in <code>extension.toml</code>, <code>Cargo.toml</code> and <code>Cargo.lock</code>, commit, and push a tag like <code>v0.2.2</code>. The <code>release</code> workflow checks the tag against both versions, builds the extension, and creates a GitHub release. Zed builds extensions from source, so the release has no assets.</p>
+<p>To publish it in Zed's extension registry, add this repository to <a href="https://github.com/zed-industries/extensions"><code>zed-industries/extensions</code></a> at the tagged commit, and update it there for each release.</p>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>MIT — see <a href="https://github.com/moritosh/antora-zed/blob/HEAD/LICENSE" target="_blank" rel="noopener">LICENSE</a>. The language server, <a href="https://github.com/moritosh/antora-ls">antora-ls</a>, is Apache-2.0 and derived from the <a href="https://github.com/asciidoctor/asciidoctor-intellij-plugin">AsciiDoc plugin for IntelliJ</a>.</p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>

@@ -143,8 +143,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-10-28T07:33:55Z",
-    "pushed_at": "2026-10-28T07:33:51Z",
+    "updated_at": "2026-10-29T07:41:50Z",
+    "pushed_at": "2026-10-29T07:41:46Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -205,7 +205,7 @@
     "name": "wakatime/zed-wakatime",
     "url": "https://github.com/wakatime/zed-wakatime",
     "description": "Zed plugin for automatic time tracking and metrics generated from your programming activity.",
-    "stars": 220,
+    "stars": 221,
     "forks": 30,
     "topics": [
       "extension",
@@ -217,7 +217,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2024-08-27T10:31:46Z",
-    "updated_at": "2026-10-28T18:10:59Z",
+    "updated_at": "2026-10-29T07:32:01Z",
     "pushed_at": "2026-10-27T02:26:47Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -3341,8 +3341,8 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-03-30T11:33:55Z",
-    "updated_at": "2026-10-28T11:40:06Z",
-    "pushed_at": "2026-09-26T22:22:44Z",
+    "updated_at": "2026-10-29T09:59:41Z",
+    "pushed_at": "2026-10-29T09:59:37Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false,
     "extension": {
@@ -8430,8 +8430,8 @@
     "language": "Lua",
     "license": "MIT",
     "created_at": "2024-05-02T20:49:30Z",
-    "updated_at": "2026-10-20T19:03:59Z",
-    "pushed_at": "2026-08-27T11:32:49Z",
+    "updated_at": "2026-10-29T09:13:17Z",
+    "pushed_at": "2026-10-29T09:14:16Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": true,
     "extension": {
@@ -18725,8 +18725,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2025-04-18T13:34:52Z",
-    "updated_at": "2026-10-28T19:32:46Z",
-    "pushed_at": "2026-10-19T08:43:48Z",
+    "updated_at": "2026-10-29T11:41:31Z",
+    "pushed_at": "2026-10-29T11:41:32Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": false,
     "extension": {
@@ -58248,8 +58248,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-08-12T11:40:26Z",
-    "updated_at": "2026-08-22T11:43:53Z",
-    "pushed_at": "2026-08-22T11:43:44Z",
+    "updated_at": "2026-10-29T11:45:47Z",
+    "pushed_at": "2026-10-29T11:45:42Z",
     "discovered_at": "2026-08-12T13:03:57.456Z",
     "official": false,
     "extension": {
@@ -65861,6 +65861,147 @@
         "Marco Barbone <mbarbone@flatironinstitute.org>"
       ],
       "repository": "https://github.com/simd-labs/zed-asm-intrinsics",
+      "snippets": null,
+      "sections": [
+        "language_servers"
+      ],
+      "categories": [
+        "language-server"
+      ]
+    }
+  },
+  "husur/gradle-catalog-lsp": {
+    "name": "husur/gradle-catalog-lsp",
+    "url": "https://github.com/husur/gradle-catalog-lsp",
+    "description": "Zed extension: shows newer versions of the libraries and plugins declared in Gradle version catalogs (libs.versions.toml)",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "android",
+      "gradle",
+      "kotlin",
+      "lsp",
+      "version-catalog",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "created_at": "2026-10-28T15:00:02Z",
+    "updated_at": "2026-10-29T12:45:16Z",
+    "pushed_at": "2026-10-29T11:56:33Z",
+    "discovered_at": "2026-10-29T12:46:50.748Z",
+    "official": false,
+    "extension": {
+      "id": "gradle-catalog-lsp",
+      "name": "Gradle Version Catalog",
+      "description": "Shows newer versions of the libraries and plugins declared in Gradle version catalogs (libs.versions.toml).",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Husur"
+      ],
+      "repository": "https://github.com/husur/gradle-catalog-lsp",
+      "snippets": null,
+      "sections": [
+        "language_servers"
+      ],
+      "categories": [
+        "language-server"
+      ]
+    }
+  },
+  "hisyam-zayd/mermaid-preview": {
+    "name": "hisyam-zayd/mermaid-preview",
+    "url": "https://github.com/hisyam-zayd/mermaid-preview",
+    "description": "Interactive live preview for Mermaid diagrams in Zed — zero-config locally, seamless remote SSH support.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "developer-tools",
+      "diagrams-as-code",
+      "language-server",
+      "live-preview",
+      "lsp",
+      "mermaid",
+      "mermaid-js",
+      "nodejs",
+      "remote-development",
+      "rust",
+      "tree-sitter",
+      "visualization",
+      "wasm",
+      "webassembly",
+      "websocket",
+      "zed",
+      "zed-editor",
+      "zed-extension"
+    ],
+    "language": "JavaScript",
+    "license": "MIT",
+    "created_at": "2026-10-29T09:01:07Z",
+    "updated_at": "2026-10-29T11:51:50Z",
+    "pushed_at": "2026-10-29T11:51:46Z",
+    "discovered_at": "2026-10-29T12:46:50.748Z",
+    "official": false,
+    "extension": {
+      "id": "mermaid-preview",
+      "name": "Mermaid Preview",
+      "description": "Interactive live preview for Mermaid diagrams in Zed — zero-config locally, seamless remote SSH support",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Hisyam Zayd <hisyamzayd@gmail.com>"
+      ],
+      "repository": "https://github.com/hisyam-zayd/mermaid-preview",
+      "snippets": null,
+      "sections": [
+        "grammars",
+        "language_servers"
+      ],
+      "categories": [
+        "grammar",
+        "language-server"
+      ]
+    }
+  },
+  "moritosh/antora-zed": {
+    "name": "moritosh/antora-zed",
+    "url": "https://github.com/moritosh/antora-zed",
+    "description": "Antora support for the Zed editor, powered by antora-ls",
+    "stars": 1,
+    "forks": 0,
+    "topics": [
+      "antora",
+      "asciidoc",
+      "docs-as-code",
+      "documentation",
+      "language-server",
+      "lsp",
+      "rust",
+      "technical-writing",
+      "webassembly",
+      "zed",
+      "zed-editor",
+      "zed-extension"
+    ],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2026-09-26T12:27:29Z",
+    "updated_at": "2026-10-29T08:57:06Z",
+    "pushed_at": "2026-10-29T08:55:15Z",
+    "discovered_at": "2026-10-29T12:46:50.748Z",
+    "official": false,
+    "extension": {
+      "id": "antora",
+      "name": "Antora",
+      "description": "Antora support for AsciiDoc: xref/include/image completion, go-to-definition, hover and broken-reference diagnostics.",
+      "version": "0.2.1",
+      "schema_version": 1,
+      "authors": [
+        "Mo <mo@moritosh.com>"
+      ],
+      "repository": "https://github.com/moritosh/antora-zed",
       "snippets": null,
       "sections": [
         "language_servers"
