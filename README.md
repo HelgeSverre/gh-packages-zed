@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1913** |
 | In official registry | 1360 |
 | Discovered via topics | 553 |
-| Last updated | 2026-10-29 18:44 UTC |
+| Last updated | 2026-10-30 00:57 UTC |
 
 ### By capability
 
@@ -105,7 +105,7 @@ cd website && npm install && npm run dev
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 203 | Typst extension for zed |
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
-| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 189 | 🦊 Zed editor theme ported from Neovim |
+| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 190 | 🦊 Zed editor theme ported from Neovim |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 176 | A macOS native style theme for Zed, let it same like native app in macOS. |
@@ -120,14 +120,14 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [owlx56/zed-lean4](https://github.com/owlx56/zed-lean4) | 63 | 2026-10-30 |  |
 | [gesundes/zed-ansible-vault](https://github.com/gesundes/zed-ansible-vault) | 0 | 2026-10-29 | Encrypt and decrypt Ansible Vault files and inline !vault YA... |
 | [husur/android-resources-lsp](https://github.com/husur/android-resources-lsp) | 0 | 2026-10-29 | Zed extension: shows the text of Android string resources (R... |
 | [husur/gradle-catalog-lsp](https://github.com/husur/gradle-catalog-lsp) | 0 | 2026-10-29 | Zed extension: shows newer versions of the libraries and plu... |
 | [hisyam-zayd/mermaid-preview](https://github.com/hisyam-zayd/mermaid-preview) | 0 | 2026-10-29 | Interactive live preview for Mermaid diagrams in Zed — zero-... |
 | [xsynaptic/zed-mdxlint](https://github.com/xsynaptic/zed-mdxlint) | 0 | 2026-10-29 | Zed extension providing mdxlint language server support |
-| [owlx56/zed-lean4](https://github.com/owlx56/zed-lean4) | 63 | 2026-10-29 |  |
 | [dunyakirkali/zed-asciidoc](https://github.com/dunyakirkali/zed-asciidoc) | 24 | 2026-10-29 | Zed support for AsciiDoc syntax |
-| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 189 | 2026-10-29 | 🦊 Zed editor theme ported from Neovim |
+| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 190 | 2026-10-29 | 🦊 Zed editor theme ported from Neovim |
 | [moritosh/antora-zed](https://github.com/moritosh/antora-zed) | 1 | 2026-10-29 | Antora support for the Zed editor, powered by antora-ls |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 101 | 2026-10-29 | True Dark Theme for Zed IDE |
 | [chiploom/zed-wit](https://github.com/chiploom/zed-wit) | 0 | 2026-10-29 | Modern WIT language support for Zed, with Tree-sitter syntax... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-10-30T00:57 | 0 | 709 | 2407 |
 | 2026-10-29T18:44 | 1 | 707 | 2407 |
 | 2026-10-29T12:46 | 5 | 702 | 2406 |
 | 2026-10-29T06:49 | 0 | 702 | 2401 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-10-28T06:49 | 0 | 700 | 2398 |
 | 2026-10-28T00:56 | 1 | 699 | 2398 |
 | 2026-10-27T18:44 | 3 | 696 | 2397 |
-| 2026-10-27T12:59 | 3 | 649 | 2394 |
 
 ---
 
