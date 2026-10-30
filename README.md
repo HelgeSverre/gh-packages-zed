@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1913-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1914-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,10 +14,10 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1913** |
+| Total tracked | **1914** |
 | In official registry | 1360 |
-| Discovered via topics | 553 |
-| Last updated | 2026-10-30 06:49 UTC |
+| Discovered via topics | 554 |
+| Last updated | 2026-10-30 12:46 UTC |
 
 ### By capability
 
@@ -25,7 +25,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 |------|-------|
 | Themes | 823 |
 | Grammars | 659 |
-| Language Servers | 616 |
+| Language Servers | 617 |
 | Context Servers | 147 |
 | Snippets | 93 |
 | Slash Commands | 62 |
@@ -70,6 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [radekBednarik/playwright-zed](https://github.com/radekBednarik/playwright-zed) | 0 | Playwright end-to-end test management for the Zed editor |
 | [husur/android-resources-lsp](https://github.com/husur/android-resources-lsp) | 0 | Zed extension: shows the text of Android string resources (R.string, R.plurals) ... |
 | [husur/gradle-catalog-lsp](https://github.com/husur/gradle-catalog-lsp) | 0 | Zed extension: shows newer versions of the libraries and plugins declared in Gra... |
 | [hisyam-zayd/mermaid-preview](https://github.com/hisyam-zayd/mermaid-preview) | 0 | Interactive live preview for Mermaid diagrams in Zed — zero-config locally, seam... |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [YoniTne/unobtrusive-logs-zed](https://github.com/YoniTne/unobtrusive-logs-zed) | 2 | Zed extension that dims log statements in your code. Port of unobtrusive-logs fo... |
 | [laynef/localkeep-zed](https://github.com/laynef/localkeep-zed) | 0 | Local Keep AI: Private, offline AI assistant for Zed editor using local LLMs |
 | [ManuLinares/c3-zed](https://github.com/ManuLinares/c3-zed) | 3 | Language support for Zed editor |
-| [alvgaona/vesper-plus](https://github.com/alvgaona/vesper-plus) | 0 | Minimal theme for Zed with warm orange accents, in dark, light and blurred. |
 
 ## Top starred (under 500)
 
@@ -121,7 +121,9 @@ cd website && npm install && npm run dev
 | Package | Stars | Last push | Description |
 |---|---|---|---|
 | [owlx56/zed-lean4](https://github.com/owlx56/zed-lean4) | 63 | 2026-10-30 |  |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 101 | 2026-10-30 | True Dark Theme for Zed IDE |
 | [shnarazk/zed-factor](https://github.com/shnarazk/zed-factor) | 0 | 2026-10-30 | A Zed extension for Factor language |
+| [radekBednarik/playwright-zed](https://github.com/radekBednarik/playwright-zed) | 0 | 2026-10-29 | Playwright end-to-end test management for the Zed editor |
 | [gesundes/zed-ansible-vault](https://github.com/gesundes/zed-ansible-vault) | 0 | 2026-10-29 | Encrypt and decrypt Ansible Vault files and inline !vault YA... |
 | [husur/android-resources-lsp](https://github.com/husur/android-resources-lsp) | 0 | 2026-10-29 | Zed extension: shows the text of Android string resources (R... |
 | [husur/gradle-catalog-lsp](https://github.com/husur/gradle-catalog-lsp) | 0 | 2026-10-29 | Zed extension: shows newer versions of the libraries and plu... |
@@ -130,7 +132,6 @@ cd website && npm install && npm run dev
 | [dunyakirkali/zed-asciidoc](https://github.com/dunyakirkali/zed-asciidoc) | 24 | 2026-10-29 | Zed support for AsciiDoc syntax |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 190 | 2026-10-29 | 🦊 Zed editor theme ported from Neovim |
 | [moritosh/antora-zed](https://github.com/moritosh/antora-zed) | 1 | 2026-10-29 | Antora support for the Zed editor, powered by antora-ls |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 101 | 2026-10-29 | True Dark Theme for Zed IDE |
 | [chiploom/zed-wit](https://github.com/chiploom/zed-wit) | 0 | 2026-10-29 | Modern WIT language support for Zed, with Tree-sitter syntax... |
 | [SerpKite/serpkite-zed](https://github.com/SerpKite/serpkite-zed) | 0 | 2026-10-28 | SerpKite MCP server for Zed's Agent Panel: Google search, we... |
 | [simd-labs/zed-asm-intrinsics](https://github.com/simd-labs/zed-asm-intrinsics) | 0 | 2026-10-28 | Zed extension: simdref instruction briefs as inlay hints in ... |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [simd-labs/zed-simdref](https://github.com/simd-labs/zed-simdref) | 0 | 2026-10-27 | Zed extension: simdref instruction briefs as inlay hints in ... |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 140 | 2026-10-27 | The Ruby language support for Zed editor |
 | [pataruco/zed-mjml](https://github.com/pataruco/zed-mjml) | 4 | 2026-10-27 | MJML syntax support for Zed |
-| [olostep-api/olostep-zed](https://github.com/olostep-api/olostep-zed) | 0 | 2026-10-27 | Zed extension for Olostep, web data infrastructure for AI. L... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-10-30T12:46 | 2 | 709 | 2409 |
 | 2026-10-30T06:49 | 0 | 709 | 2407 |
 | 2026-10-30T00:57 | 0 | 709 | 2407 |
 | 2026-10-29T18:44 | 1 | 707 | 2407 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-10-28T18:44 | 1 | 701 | 2401 |
 | 2026-10-28T12:45 | 2 | 700 | 2400 |
 | 2026-10-28T06:49 | 0 | 700 | 2398 |
-| 2026-10-28T00:56 | 1 | 699 | 2398 |
 
 ---
 

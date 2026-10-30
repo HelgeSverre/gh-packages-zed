@@ -1,0 +1,599 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Playwright Runner - Zed Extension Safari</title><meta name="description" content="Playwright end-to-end test management for the Zed editor"><link rel="canonical" href="https://helgesverre.github.io/gh-packages-zed/package/radekBednarik/playwright-zed/"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Playwright Runner - Zed Extension Safari"><meta property="og:description" content="Playwright end-to-end test management for the Zed editor"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed/package/radekBednarik/playwright-zed/"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Playwright Runner - Zed Extension Safari"><meta name="twitter:description" content="Playwright end-to-end test management for the Zed editor"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/gh-packages-zed/_astro/ClientRouter.astro_astro_type_script_index_0_lang.ClVLs1kt.js"></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Playwright Runner","description":"Playwright end-to-end test management for the Zed editor","applicationCategory":"DeveloperApplication","operatingSystem":"macOS, Linux, Windows","url":"https://zed.dev/extensions/playwright-runner-lsp","codeRepository":"https://github.com/radekBednarik/playwright-zed","author":[{"@type":"Person","name":"Radek Bednarik"}],"softwareVersion":"0.8.0","license":"MIT","keywords":"language-server","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/Layout.CGDlMdWE.css"><script type="module" src="/gh-packages-zed/_astro/page.B8i1Zz-u.js"></script></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <a href="#main" class="skip-to-content">Skip to content</a> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" data-astro-transition-persist="astro-fhchcgd7-1"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <script type="application/json" id="pkg-extras">{"url":"https://github.com/radekBednarik/playwright-zed","language":"TypeScript","license":"MIT","topics":["playwright","playwright-test","playwright-typescript","zed","zed-extension"],"extension":{"authors":["Radek Bednarik"],"schema_version":1}}</script> <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> radekBednarik/playwright-zed </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> Playwright Runner </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> Work in progress. Run Playwright end-to-end tests from Zed: run at cursor, run file, re-run last, pick the projects (browsers) to run in, see the executing step and step durations inline, open the run output, record traces and open them in Playwright&#39;s trace viewer, show the browser and keep it open between runs, with results in the editor. Community extension, not affiliated with or endorsed by Microsoft. </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="language-server">Language Server</span> </div> </div> </div> </header> <main id="main" class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/playwright-runner-lsp" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/radekBednarik/playwright-zed" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.8.0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">playwright-runner-lsp</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">TypeScript</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">MIT</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">19h ago</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">Radek Bednarik</dd> </div> </dl>  <h2 class="mt-5 text-xs uppercase font-mono" style="color:var(--zed-muted);">Topics</h2> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> playwright </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> playwright-test </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> playwright-typescript </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed-extension </span> </div>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-playwright-runner"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#playwright-runner"><span class="heading-anchor-icon">#</span></a>Playwright Runner</h1>
+<p>A <a href="https://zed.dev">Zed</a> extension that runs and manages <a href="https://playwright.dev">Playwright</a>
+end-to-end tests from the editor. The goal is feature parity with the
+<a href="https://github.com/microsoft/playwright-vscode">Playwright VS Code extension</a>, delivered
+through the surfaces Zed gives extensions. Progress per upstream capability is tracked in
+<a href="https://github.com/radekBednarik/playwright-zed/blob/HEAD/docs/parity.md" target="_blank" rel="noopener">docs/parity.md</a>.</p>
+<p>Documentation with screenshots: <a href="https://radekbednarik.github.io/playwright-zed/">https://radekbednarik.github.io/playwright-zed/</a></p>
+<p><strong>Work in progress.</strong> Today the extension runs a test, a <code>describe</code> group or a file from
+the editor, re-runs the last run, picks the Playwright projects (browsers) a run uses,
+shows the executing step and per-step durations inline, opens the full run output, records
+traces and opens them in Playwright's trace viewer, and runs tests in a visible browser
+that stays open between runs. The remaining upstream capabilities are listed with their
+status in <a href="https://github.com/radekBednarik/playwright-zed/blob/HEAD/docs/parity.md" target="_blank" rel="noopener">docs/parity.md</a>. Expect rough edges, breaking changes between
+minor versions, and gaps compared to the VS Code extension. Bug reports and feedback are
+welcome in the <a href="https://github.com/radekBednarik/playwright-zed/issues">issue tracker</a>.</p>
+<p>This is an independent community extension. It is not affiliated with, endorsed by, or
+maintained by Microsoft or the Playwright team. "Playwright" is a trademark of Microsoft
+Corporation; the name is used only to describe what this extension works with. The extension
+contains no code from the Playwright projects and drives the Playwright installed in your
+own workspace through its public command line.</p>
+<p>The extension is developed with AI assistance (GitHub Spec Kit driven by Claude Code);
+every change is reviewed and verified by the maintainer. Details are in
+<a href="#built-with-ai-assistance">Built with AI assistance</a> at the end of this document.</p>
+<p>Contents: <a href="#requirements">Requirements</a>, <a href="#install">Install</a>, <a href="#what-it-does">What it does</a>,
+<a href="#settings">Settings</a>, <a href="#usage">Usage</a>,
+<a href="#limitations-and-differences-from-the-vs-code-extension">Limitations and differences from the VS Code extension</a>,
+<a href="#getting-help">Getting help</a>, <a href="#contributing-and-development">Contributing and development</a>,
+<a href="#license">License</a>.</p>
+<h2 id="user-content-requirements"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#requirements"><span class="heading-anchor-icon">#</span></a>Requirements</h2>
+<ul>
+<li>Zed stable 1.23 or newer.</li>
+<li>Node.js 22 or newer on your <code>PATH</code> (Zed may also provide its own Node).</li>
+<li><code>@playwright/test</code> v1.38 or newer installed in your project, with browsers installed
+(<code>npx playwright install</code>).</li>
+</ul>
+<h2 id="user-content-install"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#install"><span class="heading-anchor-icon">#</span></a>Install</h2>
+<p><strong>From the Zed extension registry.</strong> Open <code>zed: extensions</code> and search for
+<strong>Playwright Runner</strong>. The listing is under review in the Zed extension registry
+(<a href="https://github.com/zed-industries/extensions/pull/7975">zed-industries/extensions#7975</a>);
+the submission process is described in
+<a href="https://github.com/radekBednarik/playwright-zed/blob/HEAD/docs/publishing.md" target="_blank" rel="noopener">docs/publishing.md</a>. Until the review completes, install from source.</p>
+<p><strong>From source</strong>, for the unreleased version or while the registry listing is under review:</p>
+<ol>
+<li>
+<p><code>rustup target add wasm32-wasip2</code></p>
+</li>
+<li>
+<p><code>cd server &#x26;&#x26; npm install &#x26;&#x26; npm run build</code></p>
+</li>
+<li>
+<p>In Zed, run <code>zed: install dev extension</code> and pick this repository's root.
+If you installed a dev extension before 0.4.0, it is listed as "Playwright for Zed" with
+the id <code>playwright</code>; uninstall it in <code>zed: extensions</code> first, otherwise two Playwright
+language servers start on the same files.</p>
+<p>Files that are already open when the extension is installed are picked up without
+closing and reopening them (verified on Zed 1.24.2). One exception: after an <strong>update, a
+reinstall, or a rerun of <code>zed: install dev extension</code> in the same Zed session</strong>, Zed keeps
+the Playwright server stopped. It marks the server as manually stopped when the old
+extension version unloads and never clears the mark, so no file is served, open before
+or after. Run <code>editor: restart language server</code> from any TypeScript or JavaScript file of
+the project, or restart Zed; closing and reopening files does not help. Tracked in Zed as
+<a href="https://github.com/zed-industries/zed/issues/60405">zed-industries/zed#60405</a> (the
+remote variant of the same mechanism).</p>
+</li>
+</ol>
+<p>The extension installs the language server package <code>playwright-zed-language-server</code>
+from npm on first use. Nothing is bundled. To run a locally built server instead, see
+<a href="#building-from-the-repository">Building from the repository</a>.</p>
+<h2 id="user-content-what-it-does"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#what-it-does"><span class="heading-anchor-icon">#</span></a>What it does</h2>
+<ul>
+<li>Detects Playwright workspaces (any <code>playwright.config.{ts,js,mts,mjs,cts,cjs}</code> with
+<code>@playwright/test</code> v1.38 or newer resolvable next to it, monorepos included).</li>
+<li>Runs nothing from a folder until it is trusted, because test discovery executes the
+workspace's Playwright configuration and test files. On Zed 0.218 or newer, trusting the
+folder in Zed is enough; older Zed releases get a question once per workspace and session.</li>
+<li>Discovers tests through Playwright's own <code>--list</code> and shows <strong>Run test</strong> and
+<strong>Run describe</strong> code lenses above each test and group.</li>
+<li><strong>Run test at cursor</strong>, <strong>Run describe at cursor</strong>, <strong>Run file</strong> and <strong>Re-run last</strong> as
+code actions (<code>ctrl-.</code> / <code>cmd-.</code>).</li>
+<li>Picks the Playwright projects (browsers) to run in, one, several or all, from the same
+menu; the choice is remembered per config across restarts, and a folder default can be
+set in Zed settings (see <a href="#projects">Projects</a>).</li>
+<li>Runs happen through the Playwright installed in your workspace, headless. Results arrive
+as a progress indicator, a pass/fail notification, an error marker on each failing line,
+and the full output in Zed's language server log (<code>dev: open language server logs</code>).</li>
+<li>While a test runs, the step that is executing right now carries a <code>⌛ waiting…</code> label at
+the end of its line; afterwards every step line shows how long it took (<code>2003ms</code>, or
+<code>2003ms (ran 2×)</code> when the line ran in two projects). The labels are inlay hints, see
+<a href="#settings">Settings</a>.</li>
+<li><strong>Show last run output</strong> opens the complete output of the latest run (the command line,
+Playwright's own report, everything the test printed) in an editor tab.</li>
+<li><strong>Show trace viewer</strong> records a trace for every run and opens Playwright's trace viewer
+for it; <strong>Show browser</strong> runs tests in a visible browser window that stays open between
+runs, and <strong>Close all browsers</strong> closes it (see <a href="#usage">Usage</a>).</li>
+</ul>
+<h2 id="user-content-settings"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#settings"><span class="heading-anchor-icon">#</span></a>Settings</h2>
+<p>Code lenses are off by default in Zed. To see the run buttons above tests, add to your Zed
+settings:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "code_lens"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"on"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>Use <code>"menu"</code> instead to list lenses inside the code action menu.</p>
+<p>Inlay hints are off by default in Zed as well. The executing-step label and the per-step
+durations are inlay hints, so they appear only with:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "inlay_hints"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "enabled"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">true</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>Both settings can live under <code>"languages": { "TypeScript": { ... } }</code> if you prefer them per
+language. Without them the extension runs tests exactly the same; only the labels are absent.</p>
+<p>Folder or team defaults for the extension's own options live in one settings block, in
+<code>.zed/settings.json</code> of the repository or in your user settings. Each key applies until you
+toggle the option yourself in the editor; changes take effect without a restart:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "playwright"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "projects"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"chromium"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"firefox"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">],</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "showTrace"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">false</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "reuseBrowser"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">false</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<ul>
+<li><code>projects</code>: the projects selected by default, see <a href="#projects">Projects</a>.</li>
+<li><code>showTrace</code>: record and show traces by default, see <a href="#trace-viewer">Trace viewer</a>.</li>
+<li><code>reuseBrowser</code>: show the browser by default, see
+<a href="#show-browser-and-close-all-browsers">Show browser and close all browsers</a>.</li>
+</ul>
+<p>The extension remembers your in-editor choices in small JSON files owned by your user,
+outside the repository:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>OS</th><th>Location</th></tr></thead><tbody><tr><td>Linux</td><td><code>$XDG_STATE_HOME</code> or <code>~/.local/state/playwright-zed-language-server/</code></td></tr><tr><td>macOS</td><td><code>~/Library/Application Support/playwright-zed-language-server/</code></td></tr><tr><td>Windows</td><td><code>%LOCALAPPDATA%\playwright-zed-language-server\</code></td></tr></tbody></table>
+<p>Set <code>PLAYWRIGHT_ZED_STATE_DIR</code> in the environment Zed starts from to move it. The folder
+holds <code>project-selection.json</code>, <code>trace-viewer.json</code>, <code>show-browser.json</code> and a <code>runs/</code>
+folder with the latest run output per workspace.</p>
+<h2 id="user-content-usage"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#usage"><span class="heading-anchor-icon">#</span></a>Usage</h2>
+<h3 id="user-content-before-the-first-run-test-discovery"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#before-the-first-run-test-discovery"><span class="heading-anchor-icon">#</span></a>Before the first run: test discovery</h3>
+<p>Test discovery executes the workspace's Playwright configuration and test files, so it
+only runs in folders you trust.</p>
+<p><strong>Zed 0.218 or newer.</strong> Zed asks whether you trust a folder (Restricted Mode) and starts
+language servers only after you do. That answer is the only question: the Playwright server
+discovers tests at once and Zed remembers the trust across restarts, much like Workspace
+Trust protects the upstream VS Code extension.</p>
+<ul>
+<li>To revoke trust, run <code>workspace: clear trusted worktrees</code> (it clears every trusted folder
+and restarts Zed).</li>
+<li><code>"session": { "trust_all_worktrees": true }</code> in your user settings makes discovery run in
+every folder without asking, as turning off Workspace Trust does in VS Code.</li>
+<li>Inside a dev container Zed applies no worktree trust, so discovery runs without a question
+once you have chosen <strong>Open in Container</strong>.</li>
+</ul>
+<p><strong>Older Zed releases and other editors.</strong> The Playwright server shows one notification: it
+names the folder, explains that discovery executes the workspace's Playwright configuration
+and test files, and offers <strong>Run discovery</strong> and <strong>Not now</strong>. The same question appears on
+any Zed release when a folder reaches the server only as a root URI rather than as a
+workspace folder.</p>
+<ul>
+<li><strong>Run discovery</strong> starts discovery at once; lenses and run actions appear and nothing
+asks again until Zed is restarted or the folder is closed.</li>
+<li><strong>Not now</strong>, or closing the notification, keeps the extension idle for that folder:
+nothing from it is executed and no run actions are offered. To change your mind, open any
+file in the folder, press <code>ctrl-.</code> and choose <strong>Playwright: Enable test discovery</strong>.</li>
+<li>The answer is remembered for the editing session only; each root folder is asked
+separately. Reading the installed Playwright version never executes workspace code, so
+the "version too old" warning can appear before you answer.</li>
+</ul>
+<h3 id="user-content-actions"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#actions"><span class="heading-anchor-icon">#</span></a>Actions</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Action</th><th>How</th></tr></thead><tbody><tr><td>Run the test under the cursor</td><td><code>ctrl-.</code> then <strong>Playwright: Run test at cursor</strong>, or click the <strong>▶ Run test</strong> lens</td></tr><tr><td>Run a whole describe</td><td>cursor on the <code>test.describe</code> line, same action, or <strong>▶ Run describe</strong></td></tr><tr><td>Run the whole file</td><td><code>ctrl-.</code> then <strong>Playwright: Run file</strong></td></tr><tr><td>Repeat the last run</td><td><code>ctrl-.</code> anywhere in the workspace, <strong>Playwright: Re-run last</strong></td></tr><tr><td>Enable discovery after "Not now"</td><td><code>ctrl-.</code> in any file of that folder, <strong>Playwright: Enable test discovery</strong></td></tr><tr><td>Choose the projects (browsers)</td><td><code>ctrl-.</code> in any file of the config, toggle <strong>Playwright: [ ] </strong></td></tr><tr><td>Run in every project</td><td><code>ctrl-.</code>, <strong>Playwright: Select all projects</strong></td></tr><tr><td>Read the full output of a run</td><td><code>ctrl-.</code> after a run, <strong>Playwright: Show last run output</strong></td></tr><tr><td>Record and show traces</td><td><code>ctrl-.</code> in any file of the config, <strong>Playwright: [ ] Show trace viewer</strong></td></tr><tr><td>Open the trace of one test</td><td>cursor in the test after a run, <code>ctrl-.</code>, <strong>Playwright: Show trace</strong></td></tr><tr><td>Watch tests in a visible browser</td><td><code>ctrl-.</code> in any file of the config, <strong>Playwright: [ ] Show browser</strong></td></tr><tr><td>Close the kept browser</td><td><code>ctrl-.</code>, <strong>Playwright: Close all browsers</strong></td></tr></tbody></table>
+<p>Notes:</p>
+<ul>
+<li>Runs use the file on disk. If the buffer has unsaved changes you get a warning and the
+saved version runs.</li>
+<li>Starting a run while one is in progress cancels the first one.</li>
+<li>A failing test leaves an error marker at the failing line until you edit the file or run
+again. With two or more projects, each failing project gets its own marker and the
+message starts with the project in brackets, for example <code>[mobile] adds numbers: ...</code>.</li>
+<li>With several configuration files, the one nearest to the test file is used.</li>
+<li>Playwright below v1.38 produces a single warning and disables running.</li>
+<li>After toggling a project, the trace viewer or the browser option, a notification confirms
+the new state. Zed keeps the <code>ctrl-.</code> menu cached per cursor position, so reopening it at
+the very same spot still shows the old <code>[x]</code> marks; move the cursor (another line is
+enough) and the menu is refetched with the current state.</li>
+</ul>
+<h3 id="user-content-projects"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#projects"><span class="heading-anchor-icon">#</span></a>Projects</h3>
+<p>Playwright runs each test once per project of your <code>playwright.config.*</code>, and most projects
+name a browser. Like the VS Code extension, the runner starts with the <strong>first project</strong>
+selected; a configuration with a single project behaves exactly as before and shows no
+picker. In any file that belongs to a configuration with two or more projects, <code>ctrl-.</code>
+lists them as <code>Playwright: [x] chromium</code>, <code>Playwright: [ ] firefox</code>, and so on. Choosing an
+entry toggles that project; at least one stays selected. <strong>Playwright: Select all projects</strong>
+selects every one. Runs pass the selected projects to Playwright (no filter when all are
+selected), the run lenses show only tests that run in a selected project, and the progress
+message names the projects used.</p>
+<p>The choice is remembered per configuration file in <code>project-selection.json</code> under the state
+directory listed in <a href="#settings">Settings</a>. A project that disappears from the configuration
+is dropped from the selection with one notice; a new project stays unselected until you
+pick it.</p>
+<p>A team default for a folder is the <code>projects</code> key of the settings block in
+<a href="#settings">Settings</a>; it applies when you have not picked anything yet. Names the
+configuration does not define produce one warning listing the available projects. This
+setting is specific to the Zed extension; the upstream VS Code extension has no equivalent.</p>
+<p>Every toggle is confirmed by a notification naming the projects now selected (see the menu
+caching note under <a href="#actions">Actions</a>).</p>
+<h3 id="user-content-step-labels-and-run-output"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#step-labels-and-run-output"><span class="heading-anchor-icon">#</span></a>Step labels and run output</h3>
+<ul>
+<li>While a test runs, the executing step carries a <code>⌛ waiting…</code> label at the end of its
+line; afterwards every step line shows its duration. Step labels follow the file: an edit
+removes the durations of that file (their lines may have moved), the next run removes all
+of them, and closing and reopening an unedited file brings them back. Steps inside helper
+files and page objects are labelled there. The labels need inlay hints turned on, see
+<a href="#settings">Settings</a>.</li>
+<li><strong>Playwright: Show last run output</strong> opens the complete output of the latest run in an
+editor tab. The output is written to the <code>runs/</code> folder under the state directory, one
+file per workspace, latest run only, and opened as a normal buffer. Zed keeps the tab in
+sync with the file, so the next run updates it in place. Put the cursor on a
+<code>tests/foo.spec.ts:12:7</code> reference and use <code>editor: open selected filename</code> to jump there.</li>
+</ul>
+<h3 id="user-content-trace-viewer"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#trace-viewer"><span class="heading-anchor-icon">#</span></a>Trace viewer</h3>
+<p>Like the VS Code extension's <strong>Show trace viewer</strong> checkbox, <strong>Playwright: [ ] Show trace
+viewer</strong> (in the <code>ctrl-.</code> menu of any file that belongs to a Playwright configuration) makes
+every run record a full <a href="https://playwright.dev/docs/trace-viewer">trace</a> and opens
+Playwright's own trace viewer window for it:</p>
+<ul>
+<li>Run a single test (<strong>▶ Run test</strong> or <strong>Run test at cursor</strong>) and the viewer opens with that
+test, following it while it runs and showing the final trace when it ends. Later single-test
+runs reuse the same window. If you close the window, the next trace opens a new one.</li>
+<li>After <strong>Run file</strong>, <strong>Run describe</strong> or <strong>Re-run last</strong>, put the cursor inside a test and
+choose <strong>Playwright: Show trace</strong> to see that test's trace from the last run. A test that
+recorded none (skipped, or not part of the run) gets a message instead.</li>
+<li>Choose <strong>Playwright: [x] Show trace viewer</strong> again to turn it off: the window closes and
+runs go back to your configuration's own <code>trace</code> setting. Every toggle is confirmed by a
+notification, for the same menu-caching reason as the project picker.</li>
+</ul>
+<p>While it is on, runs pass <code>--trace on</code> to Playwright, so they take a little longer and
+<code>test-results/</code> holds a <code>trace.zip</code> per test; Playwright manages those files, the extension
+never deletes them. The viewer is started from your project's own Playwright
+(<code>playwright show-trace</code>), so it needs the Chromium that <code>npx playwright install</code> provides;
+if it cannot start, you get one error notification with the command, and the run itself is
+unaffected.</p>
+<p>The choice is remembered per user in <code>trace-viewer.json</code> under the state directory. A
+folder or team default is the <code>showTrace</code> key of the settings block in
+<a href="#settings">Settings</a> and applies until you toggle the option yourself.</p>
+<h3 id="user-content-show-browser-and-close-all-browsers"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#show-browser-and-close-all-browsers"><span class="heading-anchor-icon">#</span></a>Show browser and close all browsers</h3>
+<p>Like the VS Code extension's <strong>Show browser</strong> checkbox, <strong>Playwright: [ ] Show browser</strong> (in
+the <code>ctrl-.</code> menu of any file that belongs to a Playwright configuration) makes every run
+open a visible browser window and keeps that browser alive between runs:</p>
+<ul>
+<li>Runs go through the browser one test at a time (<code>--headed --workers 1</code>), so you can watch
+what the test does. The window stays open after the run with the last page still shown,
+and the next run continues in the same window. Close the window by hand and the next run
+opens a new one.</li>
+<li><strong>Playwright: Close all browsers</strong> closes the kept browser without changing the option;
+the next run opens a fresh one. It is refused while a run is in progress.</li>
+<li>Choose <strong>Playwright: [x] Show browser</strong> again to turn it off: the browser closes (after
+the current run, if one is in progress) and runs go back to headless with your
+configuration's own worker count. Every toggle is confirmed by a notification, for the same
+menu-caching reason as the project picker.</li>
+<li>A shown run never records a trace (<code>--trace off</code>), as upstream does, and the two options
+exclude each other: turning <strong>Show browser</strong> on turns <strong>Show trace viewer</strong> off and
+closes its window; turning <strong>Show trace viewer</strong> on turns <strong>Show browser</strong> off and closes
+the kept browser. Only a folder default in settings can leave both on, and then runs
+record no trace and the first such run says so once.</li>
+</ul>
+<p>Under the hood the extension starts one <code>playwright run-server</code> process per configuration
+from your project's own Playwright (in its extension mode, so the browser is reused across
+connections) and gives each run <code>PW_TEST_CONNECT_WS_ENDPOINT</code> and <code>PW_TEST_REUSE_CONTEXT=1</code>,
+exactly the hooks the VS Code extension uses. The process ends when you close the browsers,
+turn the option off, or quit Zed; if it dies on its own, a notification says so and the
+next run starts a new one. If it cannot start, you get one error notification with the
+command and the run does not start.</p>
+<p>The choice is remembered per user in <code>show-browser.json</code> under the state directory. A
+folder or team default is the <code>reuseBrowser</code> key (the upstream setting name) of the
+settings block in <a href="#settings">Settings</a> and applies until you toggle the option yourself.</p>
+<h3 id="user-content-terminal-output-optional"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#terminal-output-optional"><span class="heading-anchor-icon">#</span></a>Terminal output (optional)</h3>
+<p>Extensions cannot write to Zed's terminal panel. <strong>Playwright: Show last run output</strong> gives
+you the same text in an editor tab; if you want a real terminal, add this task to
+<code>~/.config/zed/tasks.json</code>. Zed already recognises <code>test(</code> and
+<code>test.describe(</code> calls in TypeScript and JavaScript files, so the gutter run button and the
+<code>task: spawn</code> picker will offer it:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">[</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "label"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"Playwright: Run test at cursor with CLI output"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "command"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"npx"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "args"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"playwright"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"test"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"$ZED_FILE:$ZED_ROW"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">],</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "cwd"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"$ZED_WORKTREE_ROOT"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "tags"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"js-test"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"ts-test"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"tsx-test"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span></code></pre>
+<h2 id="user-content-limitations-and-differences-from-the-vs-code-extension"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#limitations-and-differences-from-the-vs-code-extension"><span class="heading-anchor-icon">#</span></a>Limitations and differences from the VS Code extension</h2>
+<ul>
+<li>The executing step is marked with a trailing label, not a highlighted line: Zed has no
+decoration API for extensions, inlay hints are the closest native surface.</li>
+<li>The run output opens as an editor tab, not in a Test Results panel, because Zed has no
+panel an extension could fill. The tasks recipe under
+<a href="#terminal-output-optional">Terminal output</a> is the way to a real terminal.</li>
+<li>Both surfaces are opt-in through Zed settings (<code>code_lens</code>, <code>inlay_hints</code>).</li>
+<li>"Show trace viewer" is an entry in the <code>ctrl-.</code> menu rather than a checkbox in a settings
+view, and the trace of a particular test is chosen with the cursor rather than in a Test
+Explorer tree, because Zed has neither. The viewer window starts with the first trace to
+show instead of before the run.</li>
+<li>"Show browser" and "Close all browsers" are <code>ctrl-.</code> entries for the same reason. Turning
+"Show trace viewer" on also turns "Show browser" off here, where the VS Code extension
+only has the opposite direction. While the browser is shown, the VS Code extension also
+turns video recording off; the command line has no switch for that, so a project that
+records video keeps doing so and Playwright then opens a fresh context per test instead
+of reusing one. The kept browser is closed by the action or by turning the option off;
+closing its last page by hand does not stop it (the next run simply opens a new page in
+it).</li>
+<li>Zed caches the <code>ctrl-.</code> menu per cursor position, so the <code>[x]</code> marks of the project,
+trace viewer and browser toggles lag one toggle behind at an unchanged cursor; the
+confirmation notification shows the real state.</li>
+<li>After an update or reinstall of the extension in the same Zed session, Zed keeps the
+Playwright server stopped until you run <code>editor: restart language server</code> (see
+<a href="#install">Install</a>).</li>
+<li>Watch mode, pick locator, debugging, locator tuning and test recording are not
+implemented yet; see <a href="https://github.com/radekBednarik/playwright-zed/blob/HEAD/docs/parity.md" target="_blank" rel="noopener">docs/parity.md</a> for the status of every upstream
+capability.</li>
+</ul>
+<h2 id="user-content-getting-help"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#getting-help"><span class="heading-anchor-icon">#</span></a>Getting help</h2>
+<p>Open an issue at <a href="https://github.com/radekBednarik/playwright-zed/issues">https://github.com/radekBednarik/playwright-zed/issues</a>. Helpful in a
+report:</p>
+<ul>
+<li>Your Zed version (<code>zed: about</code>), the extension version (<code>zed: extensions</code>), your
+operating system, and the <code>@playwright/test</code> version of the project.</li>
+<li>For problems with runs or discovery: the Playwright server log from
+<code>dev: open language server logs</code> (pick <strong>Playwright</strong>).</li>
+<li>For problems with the extension itself (installation, the server not starting):
+<code>zed: open log</code>.</li>
+<li>The <code>playwright.config.*</code> and a minimal test that shows the problem, if you can share
+them.</li>
+</ul>
+<h2 id="user-content-contributing-and-development"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#contributing-and-development"><span class="heading-anchor-icon">#</span></a>Contributing and development</h2>
+<p>Everything below is for people who build or change the extension. Users do not need it.</p>
+<h3 id="user-content-building-from-the-repository"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#building-from-the-repository"><span class="heading-anchor-icon">#</span></a>Building from the repository</h3>
+<p>Prerequisites: Rust with the <code>wasm32-wasip2</code> target (<code>rustup target add wasm32-wasip2</code>),
+Node 22.12 or newer, Zed 1.23 or newer on the same machine as the clone (a Zed on Windows
+cannot load a dev extension from a WSL path).</p>
+<ol>
+<li>Build the server and the browser for the sample project:
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">(</span><span style="color:#005CC5;--shiki-dark:#79B8FF">cd</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> server</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> &#x26;&#x26; </span><span style="color:#6F42C1;--shiki-dark:#B392F0">npm</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> install</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> &#x26;&#x26; </span><span style="color:#6F42C1;--shiki-dark:#B392F0">npm</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> run</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> build</span><span style="color:#24292E;--shiki-dark:#E1E4E8">)</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">(</span><span style="color:#005CC5;--shiki-dark:#79B8FF">cd</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> fixtures/sample-project</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> &#x26;&#x26; </span><span style="color:#6F42C1;--shiki-dark:#B392F0">npm</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> install</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> &#x26;&#x26; </span><span style="color:#6F42C1;--shiki-dark:#B392F0">npx</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> playwright</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> install</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> chromium</span><span style="color:#24292E;--shiki-dark:#E1E4E8">)</span></span></code></pre>
+</li>
+<li>To use the local server build instead of the published npm package, set
+<code>PLAYWRIGHT_ZED_SERVER_ENTRY=&#x3C;repo>/server/bin/playwright-zed-language-server.js</code>. The
+extension reads it from the shell environment Zed loads for the project, so either export
+it in your shell profile (<code>~/.bashrc</code>, <code>~/.profile</code>) or start <code>zed</code> from a shell where it
+is exported; a one-off <code>export</code> in another terminal is not enough.</li>
+<li>In Zed, run <code>zed: install dev extension</code> and pick the repository root. Zed compiles the
+Rust crate; the first build takes about a minute.</li>
+</ol>
+<p>After a Rust change run <code>zed: install dev extension</code> again, then
+<code>editor: restart language server</code> (Zed keeps the server stopped after a reinstall, see
+<a href="#install">Install</a>). After a server change run <code>npm run build</code> and
+<code>editor: restart language server</code>. Problems with the extension itself appear in
+<code>zed: open log</code>; problems with runs appear in the Playwright server log.</p>
+<h3 id="user-content-manual-testing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#manual-testing"><span class="heading-anchor-icon">#</span></a>Manual testing</h3>
+<ol>
+<li>
+<p>Build and point the extension at the local server as described above, then start Zed
+on the sample project with logs attached:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">cd</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> fixtures/sample-project</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> &#x26;&#x26; </span><span style="color:#6F42C1;--shiki-dark:#B392F0">zed</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --foreground</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> .</span></span></code></pre>
+</li>
+<li>
+<p><code>ctrl-shift-p</code>, run <code>zed: install dev extension</code>, choose the repository root.</p>
+</li>
+<li>
+<p><code>zed: extensions</code> must list <strong>Playwright Runner 0.8.0</strong>.</p>
+</li>
+<li>
+<p><code>zed: open settings</code>, add <code>"code_lens": "on"</code>.</p>
+</li>
+<li>
+<p>Zed 0.218+ asks whether you trust the folder; trust it. (Older Zed instead shows the
+Playwright notification for <code>sample-project</code>; click <strong>Run discovery</strong>.) Open
+<code>tests/passing.spec.ts</code>. Expect <code>▶ Run test</code> above each test and <code>▶ Run describe</code> above
+each group. Click the lightning bolt in the status bar, or run
+<code>dev: open language server logs</code>, pick <strong>Playwright</strong>: the log shows
+<code>discovered 16 test(s)</code>.</p>
+</li>
+<li>
+<p>Run checks (<code>ctrl-.</code> opens the actions):</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Check</th><th>Steps</th><th>Expected</th></tr></thead><tbody><tr><td>Single test</td><td>cursor in <code>adds numbers</code>, <strong>Run test at cursor</strong></td><td>progress, then "1 passed, 0 failed, 0 skipped (0.4s)"; the time is Playwright's own measurement</td></tr><tr><td>Failure</td><td><code>tests/failing.spec.ts</code>, run first test</td><td>error notification with "Expected: 3", red marker on the <code>expect</code> line</td></tr><tr><td>Describe</td><td>cursor on <code>test.describe('math'</code>, <strong>Run describe at cursor</strong></td><td>"2 passed"</td></tr><tr><td>Duplicate titles</td><td>run each <code>same title</code></td><td>"1 passed" each</td></tr><tr><td>Real browser</td><td>cursor on <code>test.describe('todomvc'</code> in <code>passing.spec.ts</code>, <strong>Run describe at cursor</strong></td><td>Chromium visits demo.playwright.dev, "3 passed"</td></tr><tr><td>Real failure</td><td><code>failing.spec.ts</code>, run <code>expects a wrong heading</code></td><td>error notification with <code>Expected: "tasks"</code> and <code>Received: "todos"</code></td></tr><tr><td>File</td><td><strong>Run file</strong> in <code>passing.spec.ts</code></td><td>"11 passed, 0 failed, 1 skipped"</td></tr><tr><td>Re-run</td><td>in <code>playwright.config.ts</code>, <strong>Re-run last</strong></td><td>previous selection runs again</td></tr><tr><td>Cancel</td><td>start two runs back to back</td><td>"cancelled" warning, then the second result</td></tr><tr><td>Unsaved</td><td>edit without saving, run</td><td>"unsaved changes" warning, saved file runs</td></tr><tr><td>Trust remembered</td><td>restart Zed, open the fixture</td><td>no question; lenses appear; the log shows <code>Zed trusts &#x3C;path>; test discovery enabled without asking</code></td></tr><tr><td>Declined discovery</td><td>Zed before 0.218: restart Zed, open the fixture, click <strong>Not now</strong></td><td>no lenses; <code>ctrl-.</code> offers only <strong>Playwright: Enable test discovery</strong>; using it brings the lenses</td></tr><tr><td>No Playwright</td><td>open a folder with a <code>.ts</code> file and no Playwright</td><td>no question, no lenses, no actions, no warnings</td></tr><tr><td>Old version</td><td>copy the sample, set <code>@playwright/test</code> version to <code>1.37.1</code> in <code>node_modules</code>, open it</td><td>one warning naming 1.37.1 and 1.38, no actions</td></tr></tbody></table>
+</li>
+</ol>
+<h3 id="user-content-development-commands"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#development-commands"><span class="heading-anchor-icon">#</span></a>Development commands</h3>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> test</span><span style="color:#6A737D;--shiki-dark:#6A737D">                                    # Rust shell helpers</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> build</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --release</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --target</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> wasm32-wasip2</span><span style="color:#6A737D;--shiki-dark:#6A737D">  # the extension</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">cd</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> server</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> &#x26;&#x26; </span><span style="color:#6F42C1;--shiki-dark:#B392F0">npm</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> run</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> lint</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> &#x26;&#x26; </span><span style="color:#6F42C1;--shiki-dark:#B392F0">npm</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> test</span><span style="color:#6A737D;--shiki-dark:#6A737D">         # language server unit + integration tests</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">cd</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> site</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> &#x26;&#x26; </span><span style="color:#6F42C1;--shiki-dark:#B392F0">npm</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> run</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> check</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> &#x26;&#x26; </span><span style="color:#6F42C1;--shiki-dark:#B392F0">npm</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> run</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> build</span><span style="color:#6A737D;--shiki-dark:#6A737D">     # the documentation site</span></span></code></pre>
+<p>Integration tests run real Playwright against <code>fixtures/sample-project</code>; run
+<code>npm install &#x26;&#x26; npx playwright install chromium</code> in that folder once. The <code>todomvc</code> tests
+visit <a href="https://demo.playwright.dev/todomvc/">https://demo.playwright.dev/todomvc/</a> and need network access. Features are developed
+with <a href="https://github.com/github/spec-kit">GitHub Spec Kit</a>; each one has its specification,
+plan, tasks and verification record under <code>specs/</code>.</p>
+<h3 id="user-content-publishing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#publishing"><span class="heading-anchor-icon">#</span></a>Publishing</h3>
+<p>Releases of the language server (npm), the extension (Zed registry) and the documentation
+site (GitHub Pages) are described in <a href="https://github.com/radekBednarik/playwright-zed/blob/HEAD/docs/publishing.md" target="_blank" rel="noopener">docs/publishing.md</a>.</p>
+<h3 id="user-content-built-with-ai-assistance"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#built-with-ai-assistance"><span class="heading-anchor-icon">#</span></a>Built with AI assistance</h3>
+<p>This extension is developed with AI assistance throughout: specification, planning, code,
+tests and documentation. The workflow is <a href="https://github.com/github/spec-kit">GitHub Spec Kit</a>
+driven by <a href="https://claude.com/claude-code">Claude Code</a> with the Claude models Fable and Opus.
+Every change is reviewed by the maintainer, and automated and manual verification is recorded
+per feature under <code>specs/</code>, but treat the code with the care you would give any young
+AI-assisted project.</p>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>MIT, see <a href="https://github.com/radekBednarik/playwright-zed/blob/HEAD/LICENSE" target="_blank" rel="noopener">LICENSE</a>. Playwright itself is licensed separately by Microsoft under
+Apache 2.0 and is not distributed with this extension.</p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>

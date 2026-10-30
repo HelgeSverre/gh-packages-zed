@@ -143,8 +143,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-10-29T17:11:29Z",
-    "pushed_at": "2026-10-29T07:41:46Z",
+    "updated_at": "2026-10-30T07:46:22Z",
+    "pushed_at": "2026-10-30T07:46:18Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -18720,13 +18720,13 @@
     "url": "https://github.com/owlx56/zed-lean4",
     "description": "",
     "stars": 63,
-    "forks": 14,
+    "forks": 15,
     "topics": [],
     "language": "Tree-sitter Query",
     "license": "Apache-2.0",
     "created_at": "2025-04-18T13:34:52Z",
-    "updated_at": "2026-10-30T02:53:41Z",
-    "pushed_at": "2026-10-30T02:53:38Z",
+    "updated_at": "2026-10-30T10:25:25Z",
+    "pushed_at": "2026-10-30T10:25:20Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": false,
     "extension": {
@@ -66042,6 +66042,45 @@
         "Husur"
       ],
       "repository": "https://github.com/husur/android-resources-lsp",
+      "snippets": null,
+      "sections": [
+        "language_servers"
+      ],
+      "categories": [
+        "language-server"
+      ]
+    }
+  },
+  "radekbednarik/playwright-zed": {
+    "name": "radekBednarik/playwright-zed",
+    "url": "https://github.com/radekBednarik/playwright-zed",
+    "description": "Playwright end-to-end test management for the Zed editor",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "playwright",
+      "playwright-test",
+      "playwright-typescript",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "TypeScript",
+    "license": "MIT",
+    "created_at": "2026-10-12T13:12:36Z",
+    "updated_at": "2026-10-30T09:47:49Z",
+    "pushed_at": "2026-10-29T17:44:28Z",
+    "discovered_at": "2026-10-30T12:46:33.240Z",
+    "official": false,
+    "extension": {
+      "id": "playwright-runner-lsp",
+      "name": "Playwright Runner",
+      "description": "Work in progress. Run Playwright end-to-end tests from Zed: run at cursor, run file, re-run last, pick the projects (browsers) to run in, see the executing step and step durations inline, open the run output, record traces and open them in Playwright's trace viewer, show the browser and keep it open between runs, with results in the editor. Community extension, not affiliated with or endorsed by Microsoft.",
+      "version": "0.8.0",
+      "schema_version": 1,
+      "authors": [
+        "Radek Bednarik <radek.bednarik@tesena.com>"
+      ],
+      "repository": "https://github.com/radekBednarik/playwright-zed",
       "snippets": null,
       "sections": [
         "language_servers"
