@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1916** |
 | In official registry | 1360 |
 | Discovered via topics | 556 |
-| Last updated | 2026-10-31 06:43 UTC |
+| Last updated | 2026-10-31 12:43 UTC |
 
 ### By capability
 
@@ -120,12 +120,12 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-10-31 | A Zed extension that allows to highlight all occurrences of ... |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 101 | 2026-10-31 | True Dark Theme for Zed IDE |
 | [baneeishaque/mcp-server-gistpad](https://github.com/baneeishaque/mcp-server-gistpad) | 0 | 2026-10-31 | GitHub Gists in Zed: browse, create, edit, and comment on gi... |
 | [faxforagents/zed-extension](https://github.com/faxforagents/zed-extension) | 0 | 2026-10-31 | Zed extension (id faxforagents-mcp-server) that runs the Fax... |
-| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-10-30 | A Zed extension that allows to highlight all occurrences of ... |
 | [owlx56/zed-lean4](https://github.com/owlx56/zed-lean4) | 63 | 2026-10-30 |  |
 | [reuixiy7/zed-lean4](https://github.com/reuixiy7/zed-lean4) | 63 | 2026-10-30 |  |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 101 | 2026-10-30 | True Dark Theme for Zed IDE |
 | [shnarazk/zed-factor](https://github.com/shnarazk/zed-factor) | 0 | 2026-10-30 | A Zed extension for Factor language |
 | [radekBednarik/playwright-zed](https://github.com/radekBednarik/playwright-zed) | 0 | 2026-10-29 | Playwright end-to-end test management for the Zed editor |
 | [gesundes/zed-ansible-vault](https://github.com/gesundes/zed-ansible-vault) | 0 | 2026-10-29 | Encrypt and decrypt Ansible Vault files and inline !vault YA... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-10-31T12:43 | 0 | 712 | 2411 |
 | 2026-10-31T06:43 | 1 | 711 | 2411 |
 | 2026-10-31T00:48 | 1 | 710 | 2410 |
 | 2026-10-30T18:44 | 0 | 711 | 2409 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-10-29T18:44 | 1 | 707 | 2407 |
 | 2026-10-29T12:46 | 5 | 702 | 2406 |
 | 2026-10-29T06:49 | 0 | 702 | 2401 |
-| 2026-10-29T00:56 | 0 | 702 | 2401 |
 
 ---
 
