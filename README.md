@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1915-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1916-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,10 +14,10 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1915** |
+| Total tracked | **1916** |
 | In official registry | 1360 |
-| Discovered via topics | 555 |
-| Last updated | 2026-10-31 00:48 UTC |
+| Discovered via topics | 556 |
+| Last updated | 2026-10-31 06:43 UTC |
 
 ### By capability
 
@@ -26,7 +26,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Themes | 823 |
 | Grammars | 660 |
 | Language Servers | 618 |
-| Context Servers | 147 |
+| Context Servers | 148 |
 | Snippets | 94 |
 | Slash Commands | 62 |
 | Debug Adapters | 37 |
@@ -70,6 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [faxforagents/zed-extension](https://github.com/faxforagents/zed-extension) | 0 | Zed extension (id faxforagents-mcp-server) that runs the Fax for Agents MCP serv... |
 | [reuixiy7/zed-lean4](https://github.com/reuixiy7/zed-lean4) | 63 |  |
 | [radekBednarik/playwright-zed](https://github.com/radekBednarik/playwright-zed) | 0 | Playwright end-to-end test management for the Zed editor |
 | [husur/android-resources-lsp](https://github.com/husur/android-resources-lsp) | 0 | Zed extension: shows the text of Android string resources (R.string, R.plurals) ... |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [curedbylethe/zed-salam](https://github.com/curedbylethe/zed-salam) | 0 |  |
 | [GetFluvo/odx-zed](https://github.com/GetFluvo/odx-zed) | 0 | odx for Zed: slash commands for the dashboard, status, changelog and glue of an ... |
 | [YoniTne/unobtrusive-logs-zed](https://github.com/YoniTne/unobtrusive-logs-zed) | 2 | Zed extension that dims log statements in your code. Port of unobtrusive-logs fo... |
-| [laynef/localkeep-zed](https://github.com/laynef/localkeep-zed) | 0 | Local Keep AI: Private, offline AI assistant for Zed editor using local LLMs |
 
 ## Top starred (under 500)
 
@@ -120,6 +120,8 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [baneeishaque/mcp-server-gistpad](https://github.com/baneeishaque/mcp-server-gistpad) | 0 | 2026-10-31 | GitHub Gists in Zed: browse, create, edit, and comment on gi... |
+| [faxforagents/zed-extension](https://github.com/faxforagents/zed-extension) | 0 | 2026-10-31 | Zed extension (id faxforagents-mcp-server) that runs the Fax... |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-10-30 | A Zed extension that allows to highlight all occurrences of ... |
 | [owlx56/zed-lean4](https://github.com/owlx56/zed-lean4) | 63 | 2026-10-30 |  |
 | [reuixiy7/zed-lean4](https://github.com/reuixiy7/zed-lean4) | 63 | 2026-10-30 |  |
@@ -138,13 +140,12 @@ cd website && npm install && npm run dev
 | [SerpKite/serpkite-zed](https://github.com/SerpKite/serpkite-zed) | 0 | 2026-10-28 | SerpKite MCP server for Zed's Agent Panel: Google search, we... |
 | [simd-labs/zed-asm-intrinsics](https://github.com/simd-labs/zed-asm-intrinsics) | 0 | 2026-10-28 | Zed extension: simdref instruction briefs as inlay hints in ... |
 | [yuukiLike/zed-skin](https://github.com/yuukiLike/zed-skin) | 0 | 2026-10-28 | A high contrast theme collection for Zed. Three AAA-audited ... |
-| [MalasataXD/better-highlights](https://github.com/MalasataXD/better-highlights) | 0 | 2026-10-28 | Cognitive complexity hints and colour-coded comment tags for... |
-| [simd-labs/zed-simdref](https://github.com/simd-labs/zed-simdref) | 0 | 2026-10-27 | Zed extension: simdref instruction briefs as inlay hints in ... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-10-31T06:43 | 1 | 711 | 2411 |
 | 2026-10-31T00:48 | 1 | 710 | 2410 |
 | 2026-10-30T18:44 | 0 | 711 | 2409 |
 | 2026-10-30T12:46 | 2 | 709 | 2409 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-10-29T12:46 | 5 | 702 | 2406 |
 | 2026-10-29T06:49 | 0 | 702 | 2401 |
 | 2026-10-29T00:56 | 0 | 702 | 2401 |
-| 2026-10-28T18:44 | 1 | 701 | 2401 |
 
 ---
 

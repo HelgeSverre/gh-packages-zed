@@ -5773,7 +5773,7 @@
     "name": "AprilNEA/gpui-symbols",
     "url": "https://github.com/AprilNEA/gpui-symbols",
     "description": "SF Symbols for GPUI – Render Apple's 9000+ icons in Rust desktop apps with type-safe enums and native macOS rendering",
-    "stars": 19,
+    "stars": 20,
     "forks": 2,
     "topics": [
       "desktop-app",
@@ -5788,7 +5788,7 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-20T14:53:11Z",
-    "updated_at": "2026-10-28T09:09:13Z",
+    "updated_at": "2026-10-31T02:32:05Z",
     "pushed_at": "2026-01-21T15:33:27Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
@@ -17941,8 +17941,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-10-30T18:44:47Z",
-    "pushed_at": "2026-10-30T18:44:42Z",
+    "updated_at": "2026-10-31T00:49:37Z",
+    "pushed_at": "2026-10-31T00:49:33Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -36858,8 +36858,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-09-07T16:00:35Z",
-    "updated_at": "2026-10-30T01:12:37Z",
-    "pushed_at": "2026-10-30T01:12:34Z",
+    "updated_at": "2026-10-31T04:25:00Z",
+    "pushed_at": "2026-10-31T04:24:56Z",
     "discovered_at": "2026-09-07T18:46:27.369Z",
     "official": false
   },
@@ -40175,7 +40175,7 @@
     "license": "MIT",
     "created_at": "2026-10-03T22:14:11Z",
     "updated_at": "2026-10-03T22:18:21Z",
-    "pushed_at": "2026-10-15T04:13:29Z",
+    "pushed_at": "2026-10-31T03:54:36Z",
     "discovered_at": "2026-10-04T01:47:47.137Z",
     "official": false
   },
@@ -41827,8 +41827,8 @@
     "language": "TypeScript",
     "license": "GPL-3.0",
     "created_at": "2024-09-30T17:41:34Z",
-    "updated_at": "2026-10-25T21:25:03Z",
-    "pushed_at": "2026-10-22T05:20:53Z",
+    "updated_at": "2026-10-31T01:12:02Z",
+    "pushed_at": "2026-10-31T01:11:58Z",
     "discovered_at": "2026-10-26T01:14:17.224Z",
     "official": false
   },
@@ -42389,6 +42389,33 @@
     "updated_at": "2026-10-30T10:25:25Z",
     "pushed_at": "2026-10-30T10:25:20Z",
     "discovered_at": "2026-10-31T00:48:59.196Z",
+    "official": false
+  },
+  "faxforagents/zed-extension": {
+    "name": "faxforagents/zed-extension",
+    "url": "https://github.com/faxforagents/zed-extension",
+    "description": "Zed extension (id faxforagents-mcp-server) that runs the Fax for Agents MCP server as a context server. Fax for Agents is a fax API, a hosted MCP server and SDKs built so AI agents can send and receive faxes. It is made by JSB Holdings LLC.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "agent-tools",
+      "ai-agents",
+      "context-server",
+      "fax",
+      "fax-api",
+      "llm-tools",
+      "mcp",
+      "mcp-server",
+      "rust",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2026-10-31T01:51:05Z",
+    "updated_at": "2026-10-31T01:51:13Z",
+    "pushed_at": "2026-10-31T01:51:09Z",
+    "discovered_at": "2026-10-31T06:43:56.751Z",
     "official": false
   }
 }
