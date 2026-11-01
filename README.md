@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1921** |
 | In official registry | 1360 |
 | Discovered via topics | 561 |
-| Last updated | 2026-11-01 12:43 UTC |
+| Last updated | 2026-11-01 18:44 UTC |
 
 ### By capability
 
@@ -120,6 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [uncenter/zed-tera](https://github.com/uncenter/zed-tera) | 19 | 2026-11-01 | ⛩️ Zed extension for the Tera templating language. |
 | [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 0 | 2026-11-01 | Zed extension that formats and lints HTML templates with djL... |
 | [kjanat/zed-typescript](https://github.com/kjanat/zed-typescript) | 0 | 2026-11-01 | Runs the TypeScript 7+ language server in Zed. |
 | [rok-lang/rok.zed](https://github.com/rok-lang/rok.zed) | 1 | 2026-11-01 | Zed extension for Rok |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [xsynaptic/zed-mdxlint](https://github.com/xsynaptic/zed-mdxlint) | 0 | 2026-10-29 | Zed extension providing mdxlint language server support |
 | [dunyakirkali/zed-asciidoc](https://github.com/dunyakirkali/zed-asciidoc) | 24 | 2026-10-29 | Zed support for AsciiDoc syntax |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 190 | 2026-10-29 | 🦊 Zed editor theme ported from Neovim |
-| [moritosh/antora-zed](https://github.com/moritosh/antora-zed) | 1 | 2026-10-29 | Antora support for the Zed editor, powered by antora-ls |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-11-01T18:44 | 1 | 720 | 2420 |
 | 2026-11-01T12:43 | 3 | 716 | 2419 |
 | 2026-11-01T06:43 | 1 | 716 | 2416 |
 | 2026-11-01T00:54 | 3 | 713 | 2415 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-10-31T00:48 | 1 | 710 | 2410 |
 | 2026-10-30T18:44 | 0 | 711 | 2409 |
 | 2026-10-30T12:46 | 2 | 709 | 2409 |
-| 2026-10-30T06:49 | 0 | 709 | 2407 |
 
 ---
 
