@@ -143,8 +143,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-10-31T07:34:19Z",
-    "pushed_at": "2026-10-31T07:34:15Z",
+    "updated_at": "2026-11-01T09:13:12Z",
+    "pushed_at": "2026-11-01T09:13:08Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -2471,7 +2471,7 @@
     "url": "https://github.com/MrAMS/zed-auto-file-header",
     "description": "A Zed extension that inserts a customizable file header (Filename, Author, Date, Copyright) automatically when you create a new, empty file.",
     "stars": 9,
-    "forks": 5,
+    "forks": 4,
     "topics": [
       "file-header",
       "zed",
@@ -41825,13 +41825,13 @@
     "name": "Kalmaegi/zed-rainbow-csv",
     "url": "https://github.com/Kalmaegi/zed-rainbow-csv",
     "description": "🌈Rainbow CSV - zed extension: Highlight CSV with different rainbow colors to make them more readable",
-    "stars": 63,
+    "stars": 64,
     "forks": 4,
     "topics": [],
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-04-12T13:06:46Z",
-    "updated_at": "2026-10-20T19:57:36Z",
+    "updated_at": "2026-11-01T11:44:45Z",
     "pushed_at": "2025-09-06T04:10:00Z",
     "discovered_at": "2026-05-20T02:57:03.419Z",
     "official": false,
@@ -53806,7 +53806,7 @@
     "license": "MIT",
     "created_at": "2026-07-09T19:20:08Z",
     "updated_at": "2026-10-21T00:46:58Z",
-    "pushed_at": "2026-10-21T00:53:00Z",
+    "pushed_at": "2026-11-01T11:18:17Z",
     "discovered_at": "2026-07-10T07:54:10.331Z",
     "official": false,
     "extension": {
@@ -66187,7 +66187,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-10-31T21:17:00Z",
     "updated_at": "2026-10-31T21:43:42Z",
-    "pushed_at": "2026-10-31T21:17:07Z",
+    "pushed_at": "2026-11-01T09:18:01Z",
     "discovered_at": "2026-11-01T00:54:44.246Z",
     "official": false,
     "extension": {
@@ -66261,6 +66261,137 @@
       ],
       "categories": [
         "language-server"
+      ]
+    }
+  },
+  "djlint/djlint-zed": {
+    "name": "djlint/djlint-zed",
+    "url": "https://github.com/djlint/djlint-zed",
+    "description": "Zed extension that formats and lints HTML templates with djLint. Supports Django, Jinja, Twig, Nunjucks, Liquid, Handlebars, Go templates, Mustache, Tera and Angular.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "askama",
+      "django",
+      "django-templates",
+      "djlint",
+      "formatter",
+      "go-templates",
+      "html",
+      "jinja",
+      "jinja2",
+      "language-server",
+      "linter",
+      "liquid",
+      "mustache",
+      "nunjucks",
+      "template-engine",
+      "tera",
+      "twig",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2026-11-01T01:34:22Z",
+    "updated_at": "2026-11-01T12:36:32Z",
+    "pushed_at": "2026-11-01T11:26:54Z",
+    "discovered_at": "2026-11-01T12:43:52.373Z",
+    "official": false,
+    "extension": {
+      "id": "djlint-lsp",
+      "name": "djLint",
+      "description": "Lint and format HTML templates with djLint",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "monosans <hsyqixco@protonmail.com>"
+      ],
+      "repository": "https://github.com/djlint/djlint-zed",
+      "snippets": null,
+      "sections": [
+        "language_servers"
+      ],
+      "categories": [
+        "language-server"
+      ]
+    }
+  },
+  "renauddenis/borland-zed": {
+    "name": "RenaudDenis/borland-zed",
+    "url": "https://github.com/RenaudDenis/borland-zed",
+    "description": "The blue editor of Turbo C, Turbo Pascal and Borland C++, as a Zed theme",
+    "stars": 2,
+    "forks": 0,
+    "topics": [
+      "borland",
+      "color-theme",
+      "retro",
+      "turbo-pascal",
+      "zed",
+      "zed-extension",
+      "zed-theme"
+    ],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-10-16T16:19:48Z",
+    "updated_at": "2026-11-01T12:13:32Z",
+    "pushed_at": "2026-10-28T13:14:55Z",
+    "discovered_at": "2026-11-01T12:43:52.373Z",
+    "official": false,
+    "extension": {
+      "id": "borland-theme",
+      "name": "Borland",
+      "description": "The blue editor of Turbo C, Turbo Pascal and Borland C++, for every language.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Renaud Denis <mail@renauddenis.com>"
+      ],
+      "repository": "https://github.com/RenaudDenis/borland-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "renauddenis/cursor-zed": {
+    "name": "RenaudDenis/cursor-zed",
+    "url": "https://github.com/RenaudDenis/cursor-zed",
+    "description": "Cursor Dark and Cursor Light for Zed, generated from the themes that ship with Cursor",
+    "stars": 1,
+    "forks": 0,
+    "topics": [
+      "color-theme",
+      "cursor",
+      "dark-theme",
+      "light-theme",
+      "zed",
+      "zed-extension",
+      "zed-theme"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "created_at": "2026-10-21T15:30:36Z",
+    "updated_at": "2026-11-01T12:13:33Z",
+    "pushed_at": "2026-10-28T13:10:41Z",
+    "discovered_at": "2026-11-01T12:43:52.373Z",
+    "official": false,
+    "extension": {
+      "id": "cursor-light-dark-theme",
+      "name": "Cursor Light & Dark",
+      "description": "Cursor Dark and Cursor Light, generated from the themes that ship with Cursor.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Renaud Denis <mail@renauddenis.com>"
+      ],
+      "repository": "https://github.com/RenaudDenis/cursor-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
       ]
     }
   }
