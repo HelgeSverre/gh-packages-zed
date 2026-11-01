@@ -5224,7 +5224,7 @@
     "name": "jenslys/zed-catppuccin-blur",
     "url": "https://github.com/jenslys/zed-catppuccin-blur",
     "description": "Catppuccin Theme but as blurred variants + custom ones",
-    "stars": 341,
+    "stars": 340,
     "forks": 14,
     "topics": [
       "catppuccin",
@@ -5236,7 +5236,7 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2024-07-12T16:43:02Z",
-    "updated_at": "2026-10-30T02:16:59Z",
+    "updated_at": "2026-10-31T21:03:03Z",
     "pushed_at": "2026-09-19T12:23:12Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -66169,6 +66169,45 @@
       ],
       "categories": [
         "context-server"
+      ]
+    }
+  },
+  "rok-lang/rok.zed": {
+    "name": "rok-lang/rok.zed",
+    "url": "https://github.com/rok-lang/rok.zed",
+    "description": "Zed extension for Rok",
+    "stars": 1,
+    "forks": 0,
+    "topics": [
+      "rok",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Tree-sitter Query",
+    "license": "Apache-2.0",
+    "created_at": "2026-10-31T21:17:00Z",
+    "updated_at": "2026-10-31T21:43:42Z",
+    "pushed_at": "2026-10-31T21:17:07Z",
+    "discovered_at": "2026-11-01T00:54:44.246Z",
+    "official": false,
+    "extension": {
+      "id": "rok",
+      "name": "Rok",
+      "description": "Rok language support: tree-sitter highlighting for .rok and .rokon, and the rokls language server.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Han Damin <miniex@daminstudio.net>"
+      ],
+      "repository": "https://github.com/rok-lang/rok.zed",
+      "snippets": null,
+      "sections": [
+        "grammars",
+        "language_servers"
+      ],
+      "categories": [
+        "grammar",
+        "language-server"
       ]
     }
   }
