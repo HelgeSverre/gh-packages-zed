@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1921** |
 | In official registry | 1360 |
 | Discovered via topics | 561 |
-| Last updated | 2026-11-02 00:51 UTC |
+| Last updated | 2026-11-02 06:50 UTC |
 
 ### By capability
 
@@ -120,8 +120,8 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 0 | 2026-11-02 | Zed extension that formats and lints HTML templates with djL... |
 | [fennec-support/kosh-zed](https://github.com/fennec-support/kosh-zed) | 0 | 2026-11-01 | zed extension for the koshka shell |
-| [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 0 | 2026-11-01 | Zed extension that formats and lints HTML templates with djL... |
 | [uncenter/zed-tera](https://github.com/uncenter/zed-tera) | 19 | 2026-11-01 | ⛩️ Zed extension for the Tera templating language. |
 | [alonsodomin/zed-blueforest-theme](https://github.com/alonsodomin/zed-blueforest-theme) | 0 | 2026-11-01 | A dark high contrast theme around blue hues |
 | [kjanat/zed-typescript](https://github.com/kjanat/zed-typescript) | 0 | 2026-11-01 | Runs the TypeScript 7+ language server in Zed. |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-11-02T06:50 | 0 | 722 | 2421 |
 | 2026-11-02T00:51 | 1 | 721 | 2421 |
 | 2026-11-01T18:44 | 1 | 720 | 2420 |
 | 2026-11-01T12:43 | 3 | 716 | 2419 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-10-31T12:43 | 0 | 712 | 2411 |
 | 2026-10-31T06:43 | 1 | 711 | 2411 |
 | 2026-10-31T00:48 | 1 | 710 | 2410 |
-| 2026-10-30T18:44 | 0 | 711 | 2409 |
 
 ---
 
