@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1921** |
 | In official registry | 1360 |
 | Discovered via topics | 561 |
-| Last updated | 2026-11-02 06:50 UTC |
+| Last updated | 2026-11-02 12:44 UTC |
 
 ### By capability
 
@@ -109,7 +109,7 @@ cd website && npm install && npm run dev
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 176 | A macOS native style theme for Zed, let it same like native app in macOS. |
-| [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 157 |  |
+| [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 158 |  |
 | [thedadams/zed-comment](https://github.com/thedadams/zed-comment) | 148 | A comment extension for the Zed editor |
 | [zed-extensions/swift](https://github.com/zed-extensions/swift) | 147 | Extension for Zed to support Swift |
 | [slymax/zedokai](https://github.com/slymax/zedokai) | 145 | a theme for Zed based on the Monokai Pro color scheme |
@@ -121,12 +121,14 @@ cd website && npm install && npm run dev
 | Package | Stars | Last push | Description |
 |---|---|---|---|
 | [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 0 | 2026-11-02 | Zed extension that formats and lints HTML templates with djL... |
+| [olostep-api/olostep-zed](https://github.com/olostep-api/olostep-zed) | 0 | 2026-11-02 | Zed extension for Olostep, web data infrastructure for AI. L... |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 101 | 2026-11-02 | True Dark Theme for Zed IDE |
+| [silenttwin/blue-velvet](https://github.com/silenttwin/blue-velvet) | 0 | 2026-11-02 | A deep blue color scheme for the Zed/Gram text editors featu... |
 | [fennec-support/kosh-zed](https://github.com/fennec-support/kosh-zed) | 0 | 2026-11-01 | zed extension for the koshka shell |
 | [uncenter/zed-tera](https://github.com/uncenter/zed-tera) | 19 | 2026-11-01 | ⛩️ Zed extension for the Tera templating language. |
 | [alonsodomin/zed-blueforest-theme](https://github.com/alonsodomin/zed-blueforest-theme) | 0 | 2026-11-01 | A dark high contrast theme around blue hues |
 | [kjanat/zed-typescript](https://github.com/kjanat/zed-typescript) | 0 | 2026-11-01 | Runs the TypeScript 7+ language server in Zed. |
 | [rok-lang/rok.zed](https://github.com/rok-lang/rok.zed) | 1 | 2026-11-01 | Zed extension for Rok |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 101 | 2026-11-01 | True Dark Theme for Zed IDE |
 | [djlint/zed-djlint](https://github.com/djlint/zed-djlint) | 0 | 2026-11-01 | Zed extension that formats and lints HTML templates with djL... |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-10-31 | A Zed extension that allows to highlight all occurrences of ... |
 | [baneeishaque/mcp-server-gistpad](https://github.com/baneeishaque/mcp-server-gistpad) | 0 | 2026-10-31 | GitHub Gists in Zed: browse, create, edit, and comment on gi... |
@@ -138,13 +140,12 @@ cd website && npm install && npm run dev
 | [gesundes/zed-ansible-vault](https://github.com/gesundes/zed-ansible-vault) | 0 | 2026-10-29 | Encrypt and decrypt Ansible Vault files and inline !vault YA... |
 | [husur/android-resources-lsp](https://github.com/husur/android-resources-lsp) | 0 | 2026-10-29 | Zed extension: shows the text of Android string resources (R... |
 | [husur/gradle-catalog-lsp](https://github.com/husur/gradle-catalog-lsp) | 0 | 2026-10-29 | Zed extension: shows newer versions of the libraries and plu... |
-| [hisyam-zayd/mermaid-preview](https://github.com/hisyam-zayd/mermaid-preview) | 0 | 2026-10-29 | Interactive live preview for Mermaid diagrams in Zed — zero-... |
-| [xsynaptic/zed-mdxlint](https://github.com/xsynaptic/zed-mdxlint) | 0 | 2026-10-29 | Zed extension providing mdxlint language server support |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-11-02T12:44 | 0 | 722 | 2421 |
 | 2026-11-02T06:50 | 0 | 722 | 2421 |
 | 2026-11-02T00:51 | 1 | 721 | 2421 |
 | 2026-11-01T18:44 | 1 | 720 | 2420 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-10-31T18:43 | 1 | 712 | 2412 |
 | 2026-10-31T12:43 | 0 | 712 | 2411 |
 | 2026-10-31T06:43 | 1 | 711 | 2411 |
-| 2026-10-31T00:48 | 1 | 710 | 2410 |
 
 ---
 
