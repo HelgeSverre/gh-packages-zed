@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1921** |
 | In official registry | 1360 |
 | Discovered via topics | 561 |
-| Last updated | 2026-11-02 12:44 UTC |
+| Last updated | 2026-11-02 18:44 UTC |
 
 ### By capability
 
@@ -121,6 +121,8 @@ cd website && npm install && npm run dev
 | Package | Stars | Last push | Description |
 |---|---|---|---|
 | [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 0 | 2026-11-02 | Zed extension that formats and lints HTML templates with djL... |
+| [husur/gradle-catalog-lsp](https://github.com/husur/gradle-catalog-lsp) | 0 | 2026-11-02 | Zed extension: shows newer versions of the libraries and plu... |
+| [alanisme/vscode-themes-for-zed](https://github.com/alanisme/vscode-themes-for-zed) | 25 | 2026-11-02 | ❤️ All 19 built-in Visual Studio Code color themes, ported t... |
 | [olostep-api/olostep-zed](https://github.com/olostep-api/olostep-zed) | 0 | 2026-11-02 | Zed extension for Olostep, web data infrastructure for AI. L... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 101 | 2026-11-02 | True Dark Theme for Zed IDE |
 | [silenttwin/blue-velvet](https://github.com/silenttwin/blue-velvet) | 0 | 2026-11-02 | A deep blue color scheme for the Zed/Gram text editors featu... |
@@ -138,13 +140,12 @@ cd website && npm install && npm run dev
 | [shnarazk/zed-factor](https://github.com/shnarazk/zed-factor) | 0 | 2026-10-30 | A Zed extension for Factor language |
 | [radekBednarik/playwright-zed](https://github.com/radekBednarik/playwright-zed) | 0 | 2026-10-29 | Playwright end-to-end test management for the Zed editor |
 | [gesundes/zed-ansible-vault](https://github.com/gesundes/zed-ansible-vault) | 0 | 2026-10-29 | Encrypt and decrypt Ansible Vault files and inline !vault YA... |
-| [husur/android-resources-lsp](https://github.com/husur/android-resources-lsp) | 0 | 2026-10-29 | Zed extension: shows the text of Android string resources (R... |
-| [husur/gradle-catalog-lsp](https://github.com/husur/gradle-catalog-lsp) | 0 | 2026-10-29 | Zed extension: shows newer versions of the libraries and plu... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-11-02T18:44 | 0 | 723 | 2421 |
 | 2026-11-02T12:44 | 0 | 722 | 2421 |
 | 2026-11-02T06:50 | 0 | 722 | 2421 |
 | 2026-11-02T00:51 | 1 | 721 | 2421 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-11-01T00:54 | 3 | 713 | 2415 |
 | 2026-10-31T18:43 | 1 | 712 | 2412 |
 | 2026-10-31T12:43 | 0 | 712 | 2411 |
-| 2026-10-31T06:43 | 1 | 711 | 2411 |
 
 ---
 

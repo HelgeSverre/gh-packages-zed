@@ -3,7 +3,7 @@
     "name": "HelgeSverre/zed-applescript",
     "url": "https://github.com/HelgeSverre/zed-applescript",
     "description": "AppleScript for Zed — syntax highlighting, outline, runnables, language injection. Powered by a custom tree-sitter grammar.",
-    "stars": 6,
+    "stars": 7,
     "forks": 0,
     "topics": [
       "applescript",
@@ -19,7 +19,7 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2025-12-31T19:00:50Z",
-    "updated_at": "2026-09-24T14:39:30Z",
+    "updated_at": "2026-11-02T14:35:23Z",
     "pushed_at": "2026-05-27T02:00:07Z",
     "discovered_at": "2026-05-19T19:19:12.408Z",
     "official": true
@@ -282,7 +282,7 @@
     "url": "https://github.com/Nako0/devglobe-extension",
     "description": "Official Extensions for DevGlobe. Show up on a 3D globe in real time while you code, with automatic time tracking and coding metrics.",
     "stars": 216,
-    "forks": 15,
+    "forks": 16,
     "topics": [
       "claude-code-plugin",
       "code",
@@ -4391,7 +4391,7 @@
     "name": "vitallium/zed-extension-template",
     "url": "https://github.com/vitallium/zed-extension-template",
     "description": "A cargo-generate template for creating a new extension for Zed editor",
-    "stars": 12,
+    "stars": 11,
     "forks": 2,
     "topics": [
       "cargo-generate",
@@ -4401,7 +4401,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2024-08-06T15:17:09Z",
-    "updated_at": "2026-03-13T17:31:45Z",
+    "updated_at": "2026-11-02T16:32:58Z",
     "pushed_at": "2025-10-11T16:13:34Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
@@ -5102,8 +5102,8 @@
     "language": "Go",
     "license": "MIT",
     "created_at": "2026-03-09T04:35:59Z",
-    "updated_at": "2026-11-01T13:03:49Z",
-    "pushed_at": "2026-11-01T13:03:45Z",
+    "updated_at": "2026-11-02T15:21:50Z",
+    "pushed_at": "2026-11-02T15:21:44Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -5373,7 +5373,7 @@
     "name": "alanisme/vscode-themes-for-zed",
     "url": "https://github.com/alanisme/vscode-themes-for-zed",
     "description": "❤️ All 19 built-in Visual Studio Code color themes, ported to Zed.",
-    "stars": 24,
+    "stars": 25,
     "forks": 1,
     "topics": [
       "color-theme",
@@ -5387,8 +5387,8 @@
     "language": "TypeScript",
     "license": "MIT",
     "created_at": "2026-03-09T00:14:00Z",
-    "updated_at": "2026-10-24T11:15:37Z",
-    "pushed_at": "2026-09-07T13:32:01Z",
+    "updated_at": "2026-11-02T17:04:30Z",
+    "pushed_at": "2026-11-02T13:53:43Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": true
   },
@@ -15134,7 +15134,7 @@
     "name": "darkvoid-theme/darkvoid.nvim",
     "url": "https://github.com/darkvoid-theme/darkvoid.nvim",
     "description": "Neovim Colorscheme for dark dwellers with optional glow effect!",
-    "stars": 226,
+    "stars": 225,
     "forks": 10,
     "topics": [
       "color-scheme",
@@ -15159,7 +15159,7 @@
     "language": "Lua",
     "license": "MIT",
     "created_at": "2024-07-30T06:26:25Z",
-    "updated_at": "2026-11-02T03:38:25Z",
+    "updated_at": "2026-11-02T18:28:10Z",
     "pushed_at": "2024-11-21T21:02:02Z",
     "discovered_at": "2026-05-19T20:52:12.309Z",
     "official": false
@@ -15355,7 +15355,7 @@
     "name": "agent-sh/agnix",
     "url": "https://github.com/agent-sh/agnix",
     "description": "The missing linter and lsp for AI coding assistants. Validate CLAUDE.md, AGENTS.md, SKILL.md, hooks, MCP. Plugin for all major IDEs included, with autofixes.",
-    "stars": 465,
+    "stars": 467,
     "forks": 36,
     "topics": [
       "agent",
@@ -15382,7 +15382,7 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
-    "updated_at": "2026-11-02T11:19:53Z",
+    "updated_at": "2026-11-02T17:47:57Z",
     "pushed_at": "2026-11-02T11:19:51Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
@@ -15536,13 +15536,15 @@
       "dark",
       "dark-theme",
       "theme",
-      "zed"
+      "zed",
+      "zed-extension",
+      "zed-theme"
     ],
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2025-04-10T13:26:19Z",
-    "updated_at": "2026-05-13T14:53:52Z",
-    "pushed_at": "2026-02-18T20:54:24Z",
+    "updated_at": "2026-11-02T16:08:58Z",
+    "pushed_at": "2026-05-31T21:45:25Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": true
   },
@@ -17944,8 +17946,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-11-02T06:51:11Z",
-    "pushed_at": "2026-11-02T06:51:06Z",
+    "updated_at": "2026-11-02T12:44:36Z",
+    "pushed_at": "2026-11-02T12:44:31Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -29432,11 +29434,18 @@
     "description": "🕖 Inbedby7pm VScode Theme Brought to Zed",
     "stars": 0,
     "forks": 0,
-    "topics": [],
+    "topics": [
+      "dark",
+      "dark-theme",
+      "theme",
+      "zed",
+      "zed-extension",
+      "zed-theme"
+    ],
     "language": null,
     "license": "MIT",
     "created_at": "2025-10-23T16:25:45Z",
-    "updated_at": "2026-05-31T12:44:07Z",
+    "updated_at": "2026-11-02T16:06:54Z",
     "pushed_at": "2026-05-31T12:44:03Z",
     "discovered_at": "2026-06-01T19:39:04.313Z",
     "official": true
@@ -29935,7 +29944,7 @@
     "name": "nMaroulis/protoagent",
     "url": "https://github.com/nMaroulis/protoagent",
     "description": "A blazing-fast, local-first AI agent ecosystem. Orchestrate local LLMs with Python, run them in a native Rust terminal, or integrate directly into your editor via ACP.",
-    "stars": 11,
+    "stars": 12,
     "forks": 1,
     "topics": [
       "agent-client-protocol",
@@ -29954,7 +29963,7 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-06-09T22:36:14Z",
-    "updated_at": "2026-10-23T16:31:10Z",
+    "updated_at": "2026-11-02T13:51:15Z",
     "pushed_at": "2026-10-19T12:46:24Z",
     "discovered_at": "2026-06-10T00:43:30.823Z",
     "official": false
@@ -32112,7 +32121,7 @@
     "name": "hyyan/zed-test-coverage-highlight",
     "url": "https://github.com/hyyan/zed-test-coverage-highlight",
     "description": "Zed extension that highlights test coverage in the editor. Renders lcov, JaCoCo, Cobertura and Clover reports as colored lines, with a coverage code lens and hover.",
-    "stars": 15,
+    "stars": 16,
     "forks": 1,
     "topics": [
       "clover",
@@ -32127,7 +32136,7 @@
     "language": "TypeScript",
     "license": "MIT",
     "created_at": "2026-07-10T08:40:40Z",
-    "updated_at": "2026-10-27T00:47:36Z",
+    "updated_at": "2026-11-02T15:27:32Z",
     "pushed_at": "2026-09-28T04:52:10Z",
     "discovered_at": "2026-07-10T13:22:23.420Z",
     "official": true
@@ -32212,7 +32221,7 @@
     "name": "T1ckbase/vscode-langservers-extracted",
     "url": "https://github.com/T1ckbase/vscode-langservers-extracted",
     "description": "Language servers extracted from VS Code for HTML, CSS, JSON, Markdown, and ESLint",
-    "stars": 22,
+    "stars": 23,
     "forks": 0,
     "topics": [
       "autocompletion",
@@ -32237,7 +32246,7 @@
     "language": "TypeScript",
     "license": "MIT",
     "created_at": "2025-09-04T13:25:25Z",
-    "updated_at": "2026-10-31T22:24:10Z",
+    "updated_at": "2026-11-02T12:54:17Z",
     "pushed_at": "2026-11-01T05:08:19Z",
     "discovered_at": "2026-07-12T13:04:37.755Z",
     "official": false
@@ -36092,8 +36101,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2025-12-13T09:32:42Z",
-    "updated_at": "2026-11-01T09:05:03Z",
-    "pushed_at": "2026-11-02T11:30:41Z",
+    "updated_at": "2026-11-02T18:13:43Z",
+    "pushed_at": "2026-11-02T18:13:53Z",
     "discovered_at": "2026-08-28T16:48:20.309Z",
     "official": true
   },
@@ -37300,7 +37309,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-08-28T14:03:54Z",
     "updated_at": "2026-09-18T02:36:17Z",
-    "pushed_at": "2026-10-28T21:58:34Z",
+    "pushed_at": "2026-11-02T17:44:48Z",
     "discovered_at": "2026-09-13T21:07:24.622Z",
     "official": false
   },
@@ -38342,7 +38351,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-09-21T20:10:00Z",
     "updated_at": "2026-11-02T05:27:56Z",
-    "pushed_at": "2026-11-01T15:05:29Z",
+    "pushed_at": "2026-11-02T15:52:05Z",
     "discovered_at": "2026-09-21T22:12:12.101Z",
     "official": false
   },
@@ -39845,8 +39854,8 @@
     "language": "TypeScript",
     "license": null,
     "created_at": "2026-09-04T07:49:15Z",
-    "updated_at": "2026-11-02T11:08:25Z",
-    "pushed_at": "2026-11-02T11:08:25Z",
+    "updated_at": "2026-11-02T17:20:13Z",
+    "pushed_at": "2026-11-02T17:20:09Z",
     "discovered_at": "2026-09-30T12:59:15.249Z",
     "official": false
   },
@@ -41613,8 +41622,8 @@
     "language": null,
     "license": null,
     "created_at": "2026-10-22T20:57:48Z",
-    "updated_at": "2026-10-27T04:27:17Z",
-    "pushed_at": "2026-10-27T04:27:13Z",
+    "updated_at": "2026-11-02T16:52:09Z",
+    "pushed_at": "2026-11-02T16:52:05Z",
     "discovered_at": "2026-10-23T01:12:15.157Z",
     "official": false
   },
@@ -41682,10 +41691,10 @@
       "zed-editor"
     ],
     "language": "TypeScript",
-    "license": null,
+    "license": "MIT",
     "created_at": "2026-10-22T04:47:26Z",
-    "updated_at": "2026-10-23T15:12:44Z",
-    "pushed_at": "2026-10-23T15:01:30Z",
+    "updated_at": "2026-11-02T18:38:36Z",
+    "pushed_at": "2026-11-02T18:38:31Z",
     "discovered_at": "2026-10-23T18:50:43.969Z",
     "official": false
   },
@@ -42187,8 +42196,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-10-28T15:00:02Z",
-    "updated_at": "2026-10-29T13:40:23Z",
-    "pushed_at": "2026-10-29T13:40:20Z",
+    "updated_at": "2026-11-02T14:46:18Z",
+    "pushed_at": "2026-11-02T14:48:29Z",
     "discovered_at": "2026-10-29T12:46:50.748Z",
     "official": false
   },
@@ -42425,7 +42434,7 @@
     "name": "pridees/zed-vim-keymapping",
     "url": "https://github.com/pridees/zed-vim-keymapping",
     "description": "Zed LazyVim curated configured keymap ",
-    "stars": 1,
+    "stars": 2,
     "forks": 0,
     "topics": [
       "lazyvim",
@@ -42436,7 +42445,7 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-10-30T14:39:26Z",
-    "updated_at": "2026-10-31T21:05:22Z",
+    "updated_at": "2026-11-02T13:40:05Z",
     "pushed_at": "2026-10-31T21:05:18Z",
     "discovered_at": "2026-10-31T18:43:55.773Z",
     "official": false
@@ -42489,15 +42498,15 @@
     "language": "Rust",
     "license": null,
     "created_at": "2026-04-14T16:50:18Z",
-    "updated_at": "2026-11-01T21:27:27Z",
-    "pushed_at": "2026-11-02T03:16:24Z",
+    "updated_at": "2026-11-02T14:24:52Z",
+    "pushed_at": "2026-11-02T14:27:43Z",
     "discovered_at": "2026-11-01T00:54:44.248Z",
     "official": false
   },
   "elcoosp/rs-query": {
     "name": "elcoosp/rs-query",
     "url": "https://github.com/elcoosp/rs-query",
-    "description": "TanStack Query for Rust and GPUI. Declarative, cache-aware data fetching with automatic retries, background refetching, optimistic updates, and hierarchical invalidation for native desktop apps. ⚡🦀",
+    "description": "TanStack Query for Rust and any GUI. Declarative, cache-aware data fetching with automatic retries, background refetching, optimistic updates, and hierarchical invalidation for native desktop apps. ⚡🦀",
     "stars": 0,
     "forks": 0,
     "topics": [
@@ -42520,8 +42529,8 @@
     "language": "Rust",
     "license": null,
     "created_at": "2026-04-16T11:26:51Z",
-    "updated_at": "2026-11-01T16:56:09Z",
-    "pushed_at": "2026-11-01T16:56:05Z",
+    "updated_at": "2026-11-02T13:24:51Z",
+    "pushed_at": "2026-11-02T13:21:11Z",
     "discovered_at": "2026-11-01T00:54:44.248Z",
     "official": false
   },
@@ -42590,8 +42599,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-11-01T01:34:22Z",
-    "updated_at": "2026-11-01T20:33:37Z",
-    "pushed_at": "2026-11-02T10:46:43Z",
+    "updated_at": "2026-11-02T15:25:52Z",
+    "pushed_at": "2026-11-02T15:25:47Z",
     "discovered_at": "2026-11-01T12:43:52.373Z",
     "official": false
   },
@@ -42677,6 +42686,7 @@
     "forks": 1,
     "topics": [
       "bat-theme",
+      "claude-theme",
       "eza-theme",
       "highlighting",
       "kitty-theme",
@@ -42697,8 +42707,8 @@
     "language": "Nix",
     "license": "MPL-2.0",
     "created_at": "2017-08-17T11:05:21Z",
-    "updated_at": "2026-11-02T12:26:59Z",
-    "pushed_at": "2026-11-02T12:24:27Z",
+    "updated_at": "2026-11-02T16:27:14Z",
+    "pushed_at": "2026-11-02T16:26:40Z",
     "discovered_at": "2026-11-02T00:51:13.513Z",
     "official": false
   }
