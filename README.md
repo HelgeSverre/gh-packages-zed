@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1922** |
 | In official registry | 1360 |
 | Discovered via topics | 562 |
-| Last updated | 2026-11-03 00:49 UTC |
+| Last updated | 2026-11-03 06:44 UTC |
 
 ### By capability
 
@@ -120,6 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [shnarazk/zed-factor](https://github.com/shnarazk/zed-factor) | 0 | 2026-11-03 | A Zed extension for Factor language |
 | [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 1 | 2026-11-02 | Zed extension that formats and lints HTML templates with djL... |
 | [alonsodomin/zed-blueforest-theme](https://github.com/alonsodomin/zed-blueforest-theme) | 0 | 2026-11-02 | A dark high contrast theme around blue hues |
 | [wielorzeczownik/zed-volt](https://github.com/wielorzeczownik/zed-volt) | 0 | 2026-11-02 | Phalcon Volt template support for Zed: syntax highlighting a... |
@@ -138,13 +139,13 @@ cd website && npm install && npm run dev
 | [faxforagents/zed-extension](https://github.com/faxforagents/zed-extension) | 0 | 2026-10-31 | Zed extension (id faxforagents-mcp-server) that runs the Fax... |
 | [owlx56/zed-lean4](https://github.com/owlx56/zed-lean4) | 63 | 2026-10-30 |  |
 | [reuixiy7/zed-lean4](https://github.com/reuixiy7/zed-lean4) | 63 | 2026-10-30 |  |
-| [shnarazk/zed-factor](https://github.com/shnarazk/zed-factor) | 0 | 2026-10-30 | A Zed extension for Factor language |
 | [radekBednarik/playwright-zed](https://github.com/radekBednarik/playwright-zed) | 0 | 2026-10-29 | Playwright end-to-end test management for the Zed editor |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-11-03T06:44 | 1 | 724 | 2423 |
 | 2026-11-03T00:49 | 1 | 723 | 2422 |
 | 2026-11-02T18:44 | 0 | 723 | 2421 |
 | 2026-11-02T12:44 | 0 | 722 | 2421 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-11-01T12:43 | 3 | 716 | 2419 |
 | 2026-11-01T06:43 | 1 | 716 | 2416 |
 | 2026-11-01T00:54 | 3 | 713 | 2415 |
-| 2026-10-31T18:43 | 1 | 712 | 2412 |
 
 ---
 
