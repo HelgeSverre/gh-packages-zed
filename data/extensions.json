@@ -5224,7 +5224,7 @@
     "name": "jenslys/zed-catppuccin-blur",
     "url": "https://github.com/jenslys/zed-catppuccin-blur",
     "description": "Catppuccin Theme but as blurred variants + custom ones",
-    "stars": 340,
+    "stars": 341,
     "forks": 14,
     "topics": [
       "catppuccin",
@@ -5236,7 +5236,7 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2024-07-12T16:43:02Z",
-    "updated_at": "2026-10-31T21:03:03Z",
+    "updated_at": "2026-11-02T23:47:46Z",
     "pushed_at": "2026-09-19T12:23:12Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -25239,8 +25239,8 @@
     "language": null,
     "license": "CC-BY-4.0",
     "created_at": "2026-02-01T23:11:31Z",
-    "updated_at": "2026-11-01T20:11:40Z",
-    "pushed_at": "2026-11-01T20:11:36Z",
+    "updated_at": "2026-11-02T21:11:45Z",
+    "pushed_at": "2026-11-02T22:04:39Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": true,
     "extension": {
@@ -66280,7 +66280,7 @@
     "name": "djlint/djlint-zed",
     "url": "https://github.com/djlint/djlint-zed",
     "description": "Zed extension that formats and lints HTML templates with djLint. Supports Django, Jinja, Twig, Nunjucks, Liquid, Handlebars, Go templates, Mustache, Tera and Angular.",
-    "stars": 0,
+    "stars": 1,
     "forks": 0,
     "topics": [
       "askama",
@@ -66306,8 +66306,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-11-01T01:34:22Z",
-    "updated_at": "2026-11-02T15:25:52Z",
-    "pushed_at": "2026-11-02T15:25:47Z",
+    "updated_at": "2026-11-02T22:33:24Z",
+    "pushed_at": "2026-11-02T22:33:21Z",
     "discovered_at": "2026-11-01T12:43:52.373Z",
     "official": false,
     "extension": {
@@ -66404,6 +66404,50 @@
       "sections": [],
       "categories": [
         "theme"
+      ]
+    }
+  },
+  "wielorzeczownik/zed-volt": {
+    "name": "wielorzeczownik/zed-volt",
+    "url": "https://github.com/wielorzeczownik/zed-volt",
+    "description": "Phalcon Volt template support for Zed: syntax highlighting and snippets",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "phalcon",
+      "php",
+      "snippets",
+      "syntax-highlighting",
+      "templates",
+      "tree-sitter",
+      "volt",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Shell",
+    "license": "MIT",
+    "created_at": "2026-11-02T21:19:09Z",
+    "updated_at": "2026-11-02T21:38:32Z",
+    "pushed_at": "2026-11-02T21:39:48Z",
+    "discovered_at": "2026-11-03T00:49:46.905Z",
+    "official": false,
+    "extension": {
+      "id": "volt",
+      "name": "Volt",
+      "description": "Syntax highlighting and snippets for Phalcon Volt templates in Zed",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "wielorzeczownik"
+      ],
+      "repository": "https://github.com/wielorzeczownik/zed-volt",
+      "snippets": "snippets/volt.json",
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar",
+        "snippets"
       ]
     }
   }
