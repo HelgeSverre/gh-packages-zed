@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1922** |
 | In official registry | 1360 |
 | Discovered via topics | 562 |
-| Last updated | 2026-11-03 06:44 UTC |
+| Last updated | 2026-11-03 12:43 UTC |
 
 ### By capability
 
@@ -103,7 +103,7 @@ cd website && npm install && npm run dev
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 221 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
 | [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 212 | Zed support for the Godot game engine and the GDScript language |
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
-| [zed-extensions/typst](https://github.com/zed-extensions/typst) | 203 | Typst extension for zed |
+| [zed-extensions/typst](https://github.com/zed-extensions/typst) | 204 | Typst extension for zed |
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 190 | 🦊 Zed editor theme ported from Neovim |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
@@ -120,14 +120,14 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 101 | 2026-11-03 | True Dark Theme for Zed IDE |
+| [wielorzeczownik/zed-volt](https://github.com/wielorzeczownik/zed-volt) | 0 | 2026-11-03 | Phalcon Volt template support for Zed: syntax highlighting a... |
 | [shnarazk/zed-factor](https://github.com/shnarazk/zed-factor) | 0 | 2026-11-03 | A Zed extension for Factor language |
 | [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 1 | 2026-11-02 | Zed extension that formats and lints HTML templates with djL... |
 | [alonsodomin/zed-blueforest-theme](https://github.com/alonsodomin/zed-blueforest-theme) | 0 | 2026-11-02 | A dark high contrast theme around blue hues |
-| [wielorzeczownik/zed-volt](https://github.com/wielorzeczownik/zed-volt) | 0 | 2026-11-02 | Phalcon Volt template support for Zed: syntax highlighting a... |
 | [husur/gradle-catalog-lsp](https://github.com/husur/gradle-catalog-lsp) | 0 | 2026-11-02 | Zed extension: shows newer versions of the libraries and plu... |
-| [alanisme/vscode-themes-for-zed](https://github.com/alanisme/vscode-themes-for-zed) | 25 | 2026-11-02 | ❤️ All 19 built-in Visual Studio Code color themes, ported t... |
+| [alanisme/vscode-themes-for-zed](https://github.com/alanisme/vscode-themes-for-zed) | 27 | 2026-11-02 | ❤️ All 19 built-in Visual Studio Code color themes, ported t... |
 | [olostep-api/olostep-zed](https://github.com/olostep-api/olostep-zed) | 0 | 2026-11-02 | Zed extension for Olostep, web data infrastructure for AI. L... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 101 | 2026-11-02 | True Dark Theme for Zed IDE |
 | [silenttwin/blue-velvet](https://github.com/silenttwin/blue-velvet) | 0 | 2026-11-02 | A deep blue color scheme for the Zed/Gram text editors featu... |
 | [fennec-support/kosh-zed](https://github.com/fennec-support/kosh-zed) | 0 | 2026-11-01 | zed extension for the koshka shell |
 | [uncenter/zed-tera](https://github.com/uncenter/zed-tera) | 19 | 2026-11-01 | ⛩️ Zed extension for the Tera templating language. |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-11-03T12:43 | 1 | 725 | 2424 |
 | 2026-11-03T06:44 | 1 | 724 | 2423 |
 | 2026-11-03T00:49 | 1 | 723 | 2422 |
 | 2026-11-02T18:44 | 0 | 723 | 2421 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-11-01T18:44 | 1 | 720 | 2420 |
 | 2026-11-01T12:43 | 3 | 716 | 2419 |
 | 2026-11-01T06:43 | 1 | 716 | 2416 |
-| 2026-11-01T00:54 | 3 | 713 | 2415 |
 
 ---
 
