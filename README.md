@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1922** |
 | In official registry | 1360 |
 | Discovered via topics | 562 |
-| Last updated | 2026-11-03 12:43 UTC |
+| Last updated | 2026-11-03 18:44 UTC |
 
 ### By capability
 
@@ -103,7 +103,7 @@ cd website && npm install && npm run dev
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 221 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
 | [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 212 | Zed support for the Godot game engine and the GDScript language |
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
-| [zed-extensions/typst](https://github.com/zed-extensions/typst) | 204 | Typst extension for zed |
+| [zed-extensions/typst](https://github.com/zed-extensions/typst) | 205 | Typst extension for zed |
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 190 | 🦊 Zed editor theme ported from Neovim |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
@@ -120,13 +120,14 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [ManuLinares/c3-zed](https://github.com/ManuLinares/c3-zed) | 3 | 2026-11-03 | Language support for Zed editor |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 101 | 2026-11-03 | True Dark Theme for Zed IDE |
 | [wielorzeczownik/zed-volt](https://github.com/wielorzeczownik/zed-volt) | 0 | 2026-11-03 | Phalcon Volt template support for Zed: syntax highlighting a... |
 | [shnarazk/zed-factor](https://github.com/shnarazk/zed-factor) | 0 | 2026-11-03 | A Zed extension for Factor language |
 | [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 1 | 2026-11-02 | Zed extension that formats and lints HTML templates with djL... |
 | [alonsodomin/zed-blueforest-theme](https://github.com/alonsodomin/zed-blueforest-theme) | 0 | 2026-11-02 | A dark high contrast theme around blue hues |
 | [husur/gradle-catalog-lsp](https://github.com/husur/gradle-catalog-lsp) | 0 | 2026-11-02 | Zed extension: shows newer versions of the libraries and plu... |
-| [alanisme/vscode-themes-for-zed](https://github.com/alanisme/vscode-themes-for-zed) | 27 | 2026-11-02 | ❤️ All 19 built-in Visual Studio Code color themes, ported t... |
+| [alanisme/vscode-themes-for-zed](https://github.com/alanisme/vscode-themes-for-zed) | 28 | 2026-11-02 | ❤️ All 19 built-in Visual Studio Code color themes, ported t... |
 | [olostep-api/olostep-zed](https://github.com/olostep-api/olostep-zed) | 0 | 2026-11-02 | Zed extension for Olostep, web data infrastructure for AI. L... |
 | [silenttwin/blue-velvet](https://github.com/silenttwin/blue-velvet) | 0 | 2026-11-02 | A deep blue color scheme for the Zed/Gram text editors featu... |
 | [fennec-support/kosh-zed](https://github.com/fennec-support/kosh-zed) | 0 | 2026-11-01 | zed extension for the koshka shell |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [faxforagents/zed-extension](https://github.com/faxforagents/zed-extension) | 0 | 2026-10-31 | Zed extension (id faxforagents-mcp-server) that runs the Fax... |
 | [owlx56/zed-lean4](https://github.com/owlx56/zed-lean4) | 63 | 2026-10-30 |  |
 | [reuixiy7/zed-lean4](https://github.com/reuixiy7/zed-lean4) | 63 | 2026-10-30 |  |
-| [radekBednarik/playwright-zed](https://github.com/radekBednarik/playwright-zed) | 0 | 2026-10-29 | Playwright end-to-end test management for the Zed editor |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-11-03T18:44 | 0 | 726 | 2424 |
 | 2026-11-03T12:43 | 1 | 725 | 2424 |
 | 2026-11-03T06:44 | 1 | 724 | 2423 |
 | 2026-11-03T00:49 | 1 | 723 | 2422 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-11-02T00:51 | 1 | 721 | 2421 |
 | 2026-11-01T18:44 | 1 | 720 | 2420 |
 | 2026-11-01T12:43 | 3 | 716 | 2419 |
-| 2026-11-01T06:43 | 1 | 716 | 2416 |
 
 ---
 
