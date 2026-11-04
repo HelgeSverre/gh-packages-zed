@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1923-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1924-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,16 +14,16 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1923** |
+| Total tracked | **1924** |
 | In official registry | 1360 |
-| Discovered via topics | 563 |
-| Last updated | 2026-11-04 06:44 UTC |
+| Discovered via topics | 564 |
+| Last updated | 2026-11-04 12:44 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
-| Themes | 825 |
+| Themes | 826 |
 | Grammars | 663 |
 | Language Servers | 622 |
 | Context Servers | 148 |
@@ -70,6 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [chaliidesigns/chalii-zed](https://github.com/chaliidesigns/chalii-zed) | 0 | Chalii themes for Zed — premium light and dark with warm orange accents |
 | [rabuawad/vyper-lsp](https://github.com/rabuawad/vyper-lsp) | 0 | Zed extension for the Vyper smart contract language. Syntax highlighting, indent... |
 | [wielorzeczownik/zed-volt](https://github.com/wielorzeczownik/zed-volt) | 0 | Phalcon Volt template support for Zed: syntax highlighting and snippets |
 | [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 1 | Zed extension that formats and lints HTML templates with djLint. Supports Django... |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [simd-labs/zed-simdref](https://github.com/simd-labs/zed-simdref) | 0 | Zed extension: simdref instruction briefs as inlay hints in assembly and inline ... |
 | [theurzil/shadow-energy-zed](https://github.com/theurzil/shadow-energy-zed) | 4 | A dark blue theme for the Zed text editor inspired by the vibrant energy of a da... |
 | [olostep-api/olostep-zed](https://github.com/olostep-api/olostep-zed) | 0 | Zed extension for Olostep, web data infrastructure for AI. Live web search, scra... |
-| [SniperRavan/zed-mizu](https://github.com/SniperRavan/zed-mizu) | 0 | A fork of mizu icon by m39u but for zed. Which modified using AI. |
 
 ## Top starred (under 500)
 
@@ -120,31 +120,32 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [chaliidesigns/chalii-zed](https://github.com/chaliidesigns/chalii-zed) | 0 | 2026-11-04 | Chalii themes for Zed — premium light and dark with warm ora... |
+| [rok-lang/rok.zed](https://github.com/rok-lang/rok.zed) | 1 | 2026-11-04 | Zed extension for Rok |
+| [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 1 | 2026-11-04 | Zed extension that formats and lints HTML templates with djL... |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 101 | 2026-11-04 | True Dark Theme for Zed IDE |
 | [alonsodomin/zed-blueforest-theme](https://github.com/alonsodomin/zed-blueforest-theme) | 0 | 2026-11-03 | A dark high contrast theme around blue hues |
 | [uncenter/zed-tera](https://github.com/uncenter/zed-tera) | 19 | 2026-11-03 | ⛩️ Zed extension for the Tera templating language. |
 | [ManuLinares/c3-zed](https://github.com/ManuLinares/c3-zed) | 3 | 2026-11-03 | Language support for Zed editor |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 101 | 2026-11-03 | True Dark Theme for Zed IDE |
 | [wielorzeczownik/zed-volt](https://github.com/wielorzeczownik/zed-volt) | 0 | 2026-11-03 | Phalcon Volt template support for Zed: syntax highlighting a... |
 | [shnarazk/zed-factor](https://github.com/shnarazk/zed-factor) | 0 | 2026-11-03 | A Zed extension for Factor language |
-| [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 1 | 2026-11-02 | Zed extension that formats and lints HTML templates with djL... |
 | [husur/gradle-catalog-lsp](https://github.com/husur/gradle-catalog-lsp) | 0 | 2026-11-02 | Zed extension: shows newer versions of the libraries and plu... |
 | [alanisme/vscode-themes-for-zed](https://github.com/alanisme/vscode-themes-for-zed) | 28 | 2026-11-02 | ❤️ All 19 built-in Visual Studio Code color themes, ported t... |
 | [olostep-api/olostep-zed](https://github.com/olostep-api/olostep-zed) | 0 | 2026-11-02 | Zed extension for Olostep, web data infrastructure for AI. L... |
 | [silenttwin/blue-velvet](https://github.com/silenttwin/blue-velvet) | 0 | 2026-11-02 | A deep blue color scheme for the Zed/Gram text editors featu... |
 | [fennec-support/kosh-zed](https://github.com/fennec-support/kosh-zed) | 0 | 2026-11-01 | zed extension for the koshka shell |
 | [kjanat/zed-typescript](https://github.com/kjanat/zed-typescript) | 0 | 2026-11-01 | Runs the TypeScript 7+ language server in Zed. |
-| [rok-lang/rok.zed](https://github.com/rok-lang/rok.zed) | 1 | 2026-11-01 | Zed extension for Rok |
 | [djlint/zed-djlint](https://github.com/djlint/zed-djlint) | 0 | 2026-11-01 | Zed extension that formats and lints HTML templates with djL... |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-10-31 | A Zed extension that allows to highlight all occurrences of ... |
 | [baneeishaque/mcp-server-gistpad](https://github.com/baneeishaque/mcp-server-gistpad) | 0 | 2026-10-31 | GitHub Gists in Zed: browse, create, edit, and comment on gi... |
 | [faxforagents/zed-extension](https://github.com/faxforagents/zed-extension) | 0 | 2026-10-31 | Zed extension (id faxforagents-mcp-server) that runs the Fax... |
 | [owlx56/zed-lean4](https://github.com/owlx56/zed-lean4) | 63 | 2026-10-30 |  |
-| [reuixiy7/zed-lean4](https://github.com/reuixiy7/zed-lean4) | 63 | 2026-10-30 |  |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-11-04T12:44 | 2 | 724 | 2427 |
 | 2026-11-04T06:44 | 0 | 726 | 2425 |
 | 2026-11-04T00:50 | 1 | 725 | 2425 |
 | 2026-11-03T18:44 | 0 | 726 | 2424 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-11-02T18:44 | 0 | 723 | 2421 |
 | 2026-11-02T12:44 | 0 | 722 | 2421 |
 | 2026-11-02T06:50 | 0 | 722 | 2421 |
-| 2026-11-02T00:51 | 1 | 721 | 2421 |
 
 ---
 
