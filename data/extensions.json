@@ -5310,8 +5310,8 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-11-12T02:09:59Z",
-    "updated_at": "2026-11-01T20:56:03Z",
-    "pushed_at": "2026-11-01T20:56:08Z",
+    "updated_at": "2026-11-03T18:49:32Z",
+    "pushed_at": "2026-11-03T18:49:27Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -25239,8 +25239,8 @@
     "language": null,
     "license": "CC-BY-4.0",
     "created_at": "2026-02-01T23:11:31Z",
-    "updated_at": "2026-11-02T21:11:45Z",
-    "pushed_at": "2026-11-02T22:04:39Z",
+    "updated_at": "2026-11-03T22:53:20Z",
+    "pushed_at": "2026-11-03T22:53:16Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": true,
     "extension": {
@@ -66447,6 +66447,48 @@
       ],
       "categories": [
         "grammar",
+        "snippets"
+      ]
+    }
+  },
+  "rabuawad/vyper-lsp": {
+    "name": "rabuawad/vyper-lsp",
+    "url": "https://github.com/rabuawad/vyper-lsp",
+    "description": "Zed extension for the Vyper smart contract language. Syntax highlighting, indentation, outline, snippets, and the vyper-lsp language server.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "vyper",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "created_at": "2026-10-05T00:57:01Z",
+    "updated_at": "2026-10-15T15:31:08Z",
+    "pushed_at": "2026-10-15T15:31:00Z",
+    "discovered_at": "2026-11-04T00:50:09.527Z",
+    "official": false,
+    "extension": {
+      "id": "vyper",
+      "name": "Vyper",
+      "description": "Vyper highlighting, snippets, compiler diagnostics, hover, and automatic vyper-lsp install.",
+      "version": "0.3.0",
+      "schema_version": 1,
+      "authors": [
+        "Rafael Abuawad <rafael.abuawad@live.com>"
+      ],
+      "repository": null,
+      "snippets": [
+        "./snippets/vyper.json"
+      ],
+      "sections": [
+        "grammars",
+        "language_servers"
+      ],
+      "categories": [
+        "grammar",
+        "language-server",
         "snippets"
       ]
     }
