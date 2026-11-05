@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1925** |
 | In official registry | 1360 |
 | Discovered via topics | 565 |
-| Last updated | 2026-11-04 18:44 UTC |
+| Last updated | 2026-11-05 00:49 UTC |
 
 ### By capability
 
@@ -105,7 +105,7 @@ cd website && npm install && npm run dev
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 205 | Typst extension for zed |
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
-| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 190 | 🦊 Zed editor theme ported from Neovim |
+| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 191 | 🦊 Zed editor theme ported from Neovim |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 176 | A macOS native style theme for Zed, let it same like native app in macOS. |
@@ -120,9 +120,9 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 1 | 2026-11-04 | Zed extension that formats and lints HTML templates with djL... |
 | [chaliidesigns/chalii-zed](https://github.com/chaliidesigns/chalii-zed) | 0 | 2026-11-04 | Chalii themes for Zed — premium light and dark with warm ora... |
 | [1ay1/hipster-zed-theme](https://github.com/1ay1/hipster-zed-theme) | 4 | 2026-11-04 | Hipster: 14 bold terminal-style themes for Zed, from the ori... |
-| [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 1 | 2026-11-04 | Zed extension that formats and lints HTML templates with djL... |
 | [rok-lang/rok.zed](https://github.com/rok-lang/rok.zed) | 1 | 2026-11-04 | Zed extension for Rok |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 101 | 2026-11-04 | True Dark Theme for Zed IDE |
 | [alonsodomin/zed-blueforest-theme](https://github.com/alonsodomin/zed-blueforest-theme) | 0 | 2026-11-03 | A dark high contrast theme around blue hues |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-11-05T00:49 | 0 | 728 | 2429 |
 | 2026-11-04T18:44 | 2 | 726 | 2429 |
 | 2026-11-04T12:44 | 2 | 724 | 2427 |
 | 2026-11-04T06:44 | 0 | 726 | 2425 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-11-03T06:44 | 1 | 724 | 2423 |
 | 2026-11-03T00:49 | 1 | 723 | 2422 |
 | 2026-11-02T18:44 | 0 | 723 | 2421 |
-| 2026-11-02T12:44 | 0 | 722 | 2421 |
 
 ---
 
