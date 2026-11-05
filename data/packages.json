@@ -3381,7 +3381,7 @@
     "url": "https://github.com/jenslys/zed-catppuccin-blur",
     "description": "Catppuccin Theme but as blurred variants + custom ones",
     "stars": 341,
-    "forks": 14,
+    "forks": 15,
     "topics": [
       "catppuccin",
       "catppuccin-theme",
@@ -15355,7 +15355,7 @@
     "name": "agent-sh/agnix",
     "url": "https://github.com/agent-sh/agnix",
     "description": "The missing linter and lsp for AI coding assistants. Validate CLAUDE.md, AGENTS.md, SKILL.md, hooks, MCP. Plugin for all major IDEs included, with autofixes.",
-    "stars": 470,
+    "stars": 471,
     "forks": 37,
     "topics": [
       "agent",
@@ -15382,7 +15382,7 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
-    "updated_at": "2026-11-04T21:56:53Z",
+    "updated_at": "2026-11-05T05:53:24Z",
     "pushed_at": "2026-11-04T15:05:09Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
@@ -17946,8 +17946,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-11-04T18:45:03Z",
-    "pushed_at": "2026-11-04T18:44:58Z",
+    "updated_at": "2026-11-05T00:49:59Z",
+    "pushed_at": "2026-11-05T00:49:54Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -32049,8 +32049,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-06-01T12:22:18Z",
-    "updated_at": "2026-10-26T13:45:15Z",
-    "pushed_at": "2026-10-26T13:45:11Z",
+    "updated_at": "2026-11-05T05:55:43Z",
+    "pushed_at": "2026-11-05T05:58:48Z",
     "discovered_at": "2026-07-09T13:39:01.645Z",
     "official": true
   },
@@ -33689,14 +33689,14 @@
   "joansgarcia/zed-symbols": {
     "name": "joansgarcia/zed-symbols",
     "url": "https://github.com/joansgarcia/zed-symbols",
-    "description": "A simple file icon theme for Zed.",
+    "description": "Symbols Icons for Zed.",
     "stars": 27,
     "forks": 6,
     "topics": [],
     "language": "TypeScript",
     "license": "MIT",
     "created_at": "2025-02-08T03:55:18Z",
-    "updated_at": "2026-11-04T02:21:53Z",
+    "updated_at": "2026-11-05T05:05:04Z",
     "pushed_at": "2026-06-16T04:45:38Z",
     "discovered_at": "2026-08-01T01:12:34.389Z",
     "official": false
@@ -37309,7 +37309,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-08-28T14:03:54Z",
     "updated_at": "2026-09-18T02:36:17Z",
-    "pushed_at": "2026-11-02T17:44:48Z",
+    "pushed_at": "2026-11-05T03:04:33Z",
     "discovered_at": "2026-09-13T21:07:24.622Z",
     "official": false
   },
@@ -38351,7 +38351,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-09-21T20:10:00Z",
     "updated_at": "2026-11-02T05:27:56Z",
-    "pushed_at": "2026-11-04T23:51:53Z",
+    "pushed_at": "2026-11-05T01:05:25Z",
     "discovered_at": "2026-09-21T22:12:12.101Z",
     "official": false
   },
@@ -39854,8 +39854,8 @@
     "language": "TypeScript",
     "license": null,
     "created_at": "2026-09-04T07:49:15Z",
-    "updated_at": "2026-11-04T21:34:10Z",
-    "pushed_at": "2026-11-04T21:34:03Z",
+    "updated_at": "2026-11-05T01:47:16Z",
+    "pushed_at": "2026-11-05T01:47:11Z",
     "discovered_at": "2026-09-30T12:59:15.249Z",
     "official": false
   },
@@ -40442,7 +40442,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-10-01T19:48:54Z",
     "updated_at": "2026-10-20T15:01:35Z",
-    "pushed_at": "2026-10-29T00:55:02Z",
+    "pushed_at": "2026-11-05T00:55:05Z",
     "discovered_at": "2026-10-07T01:20:55.214Z",
     "official": false
   },
@@ -42283,11 +42283,11 @@
       "zebar",
       "zed-editor"
     ],
-    "language": "PowerShell",
+    "language": "JavaScript",
     "license": null,
     "created_at": "2026-10-29T12:21:51Z",
-    "updated_at": "2026-11-01T06:50:08Z",
-    "pushed_at": "2026-11-01T06:50:04Z",
+    "updated_at": "2026-11-05T06:20:12Z",
+    "pushed_at": "2026-11-05T06:20:06Z",
     "discovered_at": "2026-10-29T12:46:50.749Z",
     "official": false
   },
@@ -42743,8 +42743,8 @@
     "name": "wenyinos/ZedG",
     "url": "https://github.com/wenyinos/ZedG",
     "description": "Zed 编辑器的简体中文版（当前仅发布 zh-CN）。AI 全自动翻译 + 跨平台重编译，跟随上游版本自动更新｜Simplified Chinese build of the Zed editor, auto-translated and rebuilt via CI.",
-    "stars": 7,
-    "forks": 1,
+    "stars": 10,
+    "forks": 2,
     "topics": [
       "ai-translation",
       "chinese",
@@ -42765,7 +42765,7 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-11-02T13:18:49Z",
-    "updated_at": "2026-11-04T16:46:12Z",
+    "updated_at": "2026-11-05T05:28:23Z",
     "pushed_at": "2026-11-04T16:46:08Z",
     "discovered_at": "2026-11-03T06:44:08.077Z",
     "official": false
@@ -42824,8 +42824,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-05-06T12:56:51Z",
-    "updated_at": "2026-11-04T17:50:09Z",
-    "pushed_at": "2026-11-04T17:50:05Z",
+    "updated_at": "2026-11-05T06:24:12Z",
+    "pushed_at": "2026-11-05T06:24:09Z",
     "discovered_at": "2026-11-04T12:44:01.919Z",
     "official": false
   },
@@ -42854,8 +42854,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2021-07-23T12:37:58Z",
-    "updated_at": "2026-11-04T12:36:22Z",
-    "pushed_at": "2026-11-04T12:36:18Z",
+    "updated_at": "2026-11-05T05:16:30Z",
+    "pushed_at": "2026-11-05T05:16:25Z",
     "discovered_at": "2026-11-04T12:44:01.921Z",
     "official": false
   },

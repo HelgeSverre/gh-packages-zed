@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1925** |
 | In official registry | 1360 |
 | Discovered via topics | 565 |
-| Last updated | 2026-11-05 00:49 UTC |
+| Last updated | 2026-11-05 06:44 UTC |
 
 ### By capability
 
@@ -120,8 +120,10 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [chaliidesigns/chalii-zed](https://github.com/chaliidesigns/chalii-zed) | 0 | 2026-11-05 | Chalii themes for Zed — premium light and dark with warm ora... |
+| [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-11-05 | Zed editor support for Carve, a modern light markup language |
+| [chiploom/zed-wit](https://github.com/chiploom/zed-wit) | 0 | 2026-11-05 | Modern WIT language support for Zed, with Tree-sitter syntax... |
 | [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 1 | 2026-11-04 | Zed extension that formats and lints HTML templates with djL... |
-| [chaliidesigns/chalii-zed](https://github.com/chaliidesigns/chalii-zed) | 0 | 2026-11-04 | Chalii themes for Zed — premium light and dark with warm ora... |
 | [1ay1/hipster-zed-theme](https://github.com/1ay1/hipster-zed-theme) | 4 | 2026-11-04 | Hipster: 14 bold terminal-style themes for Zed, from the ori... |
 | [rok-lang/rok.zed](https://github.com/rok-lang/rok.zed) | 1 | 2026-11-04 | Zed extension for Rok |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 101 | 2026-11-04 | True Dark Theme for Zed IDE |
@@ -138,13 +140,12 @@ cd website && npm install && npm run dev
 | [kjanat/zed-typescript](https://github.com/kjanat/zed-typescript) | 0 | 2026-11-01 | Runs the TypeScript 7+ language server in Zed. |
 | [djlint/zed-djlint](https://github.com/djlint/zed-djlint) | 0 | 2026-11-01 | Zed extension that formats and lints HTML templates with djL... |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-10-31 | A Zed extension that allows to highlight all occurrences of ... |
-| [baneeishaque/mcp-server-gistpad](https://github.com/baneeishaque/mcp-server-gistpad) | 0 | 2026-10-31 | GitHub Gists in Zed: browse, create, edit, and comment on gi... |
-| [faxforagents/zed-extension](https://github.com/faxforagents/zed-extension) | 0 | 2026-10-31 | Zed extension (id faxforagents-mcp-server) that runs the Fax... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-11-05T06:44 | 0 | 728 | 2429 |
 | 2026-11-05T00:49 | 0 | 728 | 2429 |
 | 2026-11-04T18:44 | 2 | 726 | 2429 |
 | 2026-11-04T12:44 | 2 | 724 | 2427 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-11-03T12:43 | 1 | 725 | 2424 |
 | 2026-11-03T06:44 | 1 | 724 | 2423 |
 | 2026-11-03T00:49 | 1 | 723 | 2422 |
-| 2026-11-02T18:44 | 0 | 723 | 2421 |
 
 ---
 
