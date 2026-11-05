@@ -1,0 +1,233 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Polza.ai - Zed Extension Safari</title><meta name="description" content="Zed extension for Polza.ai: organization balance in the agent panel (MCP tool + /polza-balance slash command)"><link rel="canonical" href="https://helgesverre.github.io/gh-packages-zed/package/cyclon-b/zed-polza-ai/"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Polza.ai - Zed Extension Safari"><meta property="og:description" content="Zed extension for Polza.ai: organization balance in the agent panel (MCP tool + /polza-balance slash command)"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed/package/cyclon-b/zed-polza-ai/"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Polza.ai - Zed Extension Safari"><meta name="twitter:description" content="Zed extension for Polza.ai: organization balance in the agent panel (MCP tool + /polza-balance slash command)"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/gh-packages-zed/_astro/ClientRouter.astro_astro_type_script_index_0_lang.ClVLs1kt.js"></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Polza.ai","description":"Zed extension for Polza.ai: organization balance in the agent panel (MCP tool + /polza-balance slash command)","applicationCategory":"DeveloperApplication","operatingSystem":"macOS, Linux, Windows","url":"https://zed.dev/extensions/polza-ai","codeRepository":"https://github.com/cyclon-b/zed-polza-ai","author":[{"@type":"Person","name":"Gennady Artamonov"}],"softwareVersion":"0.2.0","license":"NOASSERTION","keywords":"slash-command, context-server","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/Layout.CGDlMdWE.css"><script type="module" src="/gh-packages-zed/_astro/page.B8i1Zz-u.js"></script></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <a href="#main" class="skip-to-content">Skip to content</a> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" data-astro-transition-persist="astro-fhchcgd7-1"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <script type="application/json" id="pkg-extras">{"url":"https://github.com/cyclon-b/zed-polza-ai","language":"JavaScript","license":"NOASSERTION","topics":["mcp","polza-ai","zed","zed-extension"],"extension":{"authors":["Gennady Artamonov"],"schema_version":1}}</script> <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> cyclon-b/zed-polza-ai </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> Polza.ai </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> Баланс Polza.ai: слеш-команда /polza_balance показывает остаток, резерв и доступную сумму. </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="slash-command">Slash Command</span><span class="cat-badge" data-cat="context-server">MCP Server</span> </div> </div> </div> </header> <main id="main" class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/polza-ai" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/cyclon-b/zed-polza-ai" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.2.0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">polza-ai</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">JavaScript</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">NOASSERTION</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">2h ago</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">Gennady Artamonov</dd> </div> </dl>  <h2 class="mt-5 text-xs uppercase font-mono" style="color:var(--zed-muted);">Topics</h2> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> mcp </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> polza-ai </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed-extension </span> </div>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-zed-polzaai"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#zed-polzaai"><span class="heading-anchor-icon">#</span></a>Zed Polza.ai</h1>
+<p>Расширение Zed для <a href="https://polza.ai">Polza.ai</a>: показывает баланс организации
+(<code>GET /api/v2/balance</code>) в панели агента. Ключ хранится в <code>polza.yaml</code>.</p>
+<h2 id="user-content-из-чего-состоит"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#из-чего-состоит"><span class="heading-anchor-icon">#</span></a>Из чего состоит</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Часть</th><th>Что делает</th><th>Нужен ли Rust</th></tr></thead><tbody><tr><td><code>server/polza-mcp.mjs</code></td><td>MCP-сервер (stdio): инструменты <code>polza_balance</code>/<code>polza_config</code> и слеш-команда <code>/polza_balance</code></td><td>нет</td></tr><tr><td><code>server/balance-cli.mjs</code></td><td>CLI для ручной проверки и для слеш-команды</td><td>нет</td></tr><tr><td><code>.zed/tasks.json</code>, <code>scripts/balance-watch.mjs</code></td><td>запуск без агента: отчёт в терминале и баланс в заголовке вкладки</td><td>нет</td></tr><tr><td><code>src/lib.rs</code></td><td>расширение Zed: слеш-команда <code>/polza_balance</code> + регистрация MCP-сервера</td><td>да</td></tr></tbody></table>
+<p>Рабочая слеш-команда <code>/polza_balance</code> приходит из MCP-сервера: Zed показывает
+MCP-промпты в списке команд панели агента. В актуальных сборках Zed слеш-команды
+расширений в панели агента не отображаются, поэтому Rust-часть нужна только для
+совместимости со старыми версиями.</p>
+<p>MCP-сервер — самостоятельный Node-процесс: он читает <code>polza.yaml</code>, ходит в API
+и кэширует ответ на секунду. Слеш-команду <code>/polza_balance</code> он тоже обслуживает
+сам — как MCP-промпт. Rust-обёртка запускает тот же Node-скрипт и нужна только
+там, где Zed ещё показывал команды расширений.</p>
+<h2 id="user-content-быстрый-старт-без-rust"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#быстрый-старт-без-rust"><span class="heading-anchor-icon">#</span></a>Быстрый старт (без Rust)</h2>
+<ol>
+<li>
+<p>Впишите ключ в <code>polza.yaml</code>:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#22863A;--shiki-dark:#85E89D">api_key</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"ваш ключ Polza.ai"</span></span></code></pre>
+</li>
+<li>
+<p>Добавьте сервер в <code>settings.json</code> Zed (файл <code>settings.snippet.json</code>):</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "context_servers"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "polza-ai"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "command"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"node"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "args"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"D:/path/to/zed-polza-ai/server/polza-mcp.mjs"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">],</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "env"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "POLZA_CONFIG"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"D:/path/to/zed-polza-ai/polza.yaml"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>То же самое можно сделать через UI: <strong>Settings → AI → MCP Servers → Add
+Server → Add Local Server</strong> (command: <code>node</code>, args: путь к <code>polza-mcp.mjs</code>).</p>
+</li>
+<li>
+<p>Проверьте: <strong>Settings → AI → MCP Servers</strong> — индикатор <code>polza-ai</code> зелёный,
+в панели агента доступны инструмент <code>polza_balance</code> и команда <code>/polza_balance</code>.</p>
+</li>
+</ol>
+<h3 id="user-content-слеш-команда-polza_balance"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#слеш-команда-polza_balance"><span class="heading-anchor-icon">#</span></a>Слеш-команда <code>/polza_balance</code></h3>
+<ul>
+<li>Наберите <code>/polza_balance</code> в панели агента и выберите «Баланс Polza.ai».</li>
+<li>Сервер сам запрашивает баланс и подставляет готовый отчёт в сообщение —
+цифры берутся из API, а не придумываются моделью.</li>
+<li>Команда засчитывается как один ход агента: Zed отправляет сообщение модели.
+Отчёт без модели и без траты токенов — задача Zed, см. ниже.</li>
+<li>После изменения <code>server/polza-mcp.mjs</code> перезапустите сервер
+(<strong>Settings → AI → MCP Servers</strong> → выключить/включить <code>polza-ai</code>) или Zed.</li>
+</ul>
+<p>Если Zed не находит <code>node</code> (частый случай на Windows без PATH для GUI-приложений),
+укажите абсолютный путь к нему в <code>command</code>, например
+<code>C:/nvm4w/nodejs/node.exe</code>.</p>
+<h3 id="user-content-проверка-из-терминала"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#проверка-из-терминала"><span class="heading-anchor-icon">#</span></a>Проверка из терминала</h3>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">node</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> server/balance-cli.mjs</span><span style="color:#6A737D;--shiki-dark:#6A737D">           # отчёт по балансу</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">node</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> server/balance-cli.mjs</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --check</span><span style="color:#6A737D;--shiki-dark:#6A737D">   # какой конфиг найден, какие пути проверены</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">node</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> server/balance-cli.mjs</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --json</span><span style="color:#6A737D;--shiki-dark:#6A737D">    # машинный формат</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">node</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> scripts/balance-watch.mjs</span><span style="color:#6A737D;--shiki-dark:#6A737D">        # вотчер: баланс в заголовке вкладки</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">node</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> scripts/mcp-smoke.mjs</span><span style="color:#6A737D;--shiki-dark:#6A737D">            # смоук-тест MCP-протокола</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">node</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> scripts/mcp-smoke.mjs</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --network</span><span style="color:#6A737D;--shiki-dark:#6A737D">  # + реальный запрос с неверным ключом (ждём 401)</span></span></code></pre>
+<h2 id="user-content-без-агента-задачи-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#без-агента-задачи-zed"><span class="heading-anchor-icon">#</span></a>Без агента: задачи Zed</h2>
+<p>Слеш-команда в панели агента — это ход модели. Если нужен отчёт без модели и
+без траты токенов, используйте задачи Zed: они запускают команду в терминале.</p>
+<p>В проекте уже есть <code>.zed/tasks.json</code>:</p>
+<ul>
+<li>«Polza: баланс» — разовый отчёт (<code>server/balance-cli.mjs</code>);</li>
+<li>«Polza: баланс в заголовке вкладки» — вотчер, который обновляет сумму в
+заголовке вкладки терминала (по умолчанию раз в 2 минуты, интервал задаётся
+<code>POLZA_WATCH_INTERVAL_MS</code>).</li>
+</ul>
+<p>Запуск: <code>task: spawn</code> из командной палитры → выбрать задачу.</p>
+<p>Горячая клавиша — в <code>keymap.json</code>:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "context"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"Workspace"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "bindings"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "alt-b"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"task::Spawn"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"task_name"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"Polza: баланс"</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> }]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p><code>task_name</code> ищется среди задач, доступных в текущем проекте. Чтобы команда
+работала в любом проекте, добавьте задачу в глобальный <code>tasks.json</code>
+(<code>zed: open tasks</code>) с абсолютным путём:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">[</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "label"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"Polza: баланс"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "command"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"node"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "args"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"D:/projects/sandboxes/zed-polza-ai/server/balance-cli.mjs"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">],</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "reveal"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"no_focus"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span></code></pre>
+<p><code>polza.yaml</code> ищется рядом со скриптом, поэтому путь к конфигу в глобальной
+задаче указывать не нужно.</p>
+<h2 id="user-content-обновлять-после-каждого-запроса"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#обновлять-после-каждого-запроса"><span class="heading-anchor-icon">#</span></a>«Обновлять после каждого запроса»</h2>
+<p>Это ограничение платформы: у расширений Zed <strong>нет</strong> хука «после запроса к
+модели», нет статус-бара и нет возможности добавить свою панель. Поэтому
+автоматического индикатора не бывает в принципе.</p>
+<p>Ближайшее рабочее решение — правило для агента: MCP-инструменты модель вызывает
+сама. Добавьте в <code>AGENTS.md</code> проекта (или в правила профиля):</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">После завершения каждой задачи, прежде чем ответить, вызывай инструмент</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">`polza_balance`</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> и укажи в ответе доступный остаток Polza.ai.</span></span></code></pre>
+<p>Тогда после каждого хода агента (то есть после запросов к Polza.ai) в ответе
+будет свежий остаток. Минус — лишний вызов инструмента на каждый ход; при
+необходимости правило можно сделать мягче («раз в задачу»).</p>
+<h2 id="user-content-установка-расширения-слеш-команда"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#установка-расширения-слеш-команда"><span class="heading-anchor-icon">#</span></a>Установка расширения (слеш-команда)</h2>
+<p>Нужен Rust и target <code>wasm32-wasip2</code>:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">rustup</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> target</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> add</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> wasm32-wasip2</span></span></code></pre>
+<p>Затем в Zed: командная палитра → <code>zed: install dev extension</code> → выбрать эту папку.
+После установки:</p>
+<ul>
+<li>в панели агента появится <code>/polza_balance</code> (в сборках Zed, где команды
+расширений ещё поддерживаются);</li>
+<li>в <strong>Settings → AI → MCP Servers</strong> появится сервер <code>polza-ai</code> (его нужно включить) —
+расширение само отдаёт команду запуска, править <code>settings.json</code> не надо;</li>
+<li>в диалоге установки расширение попросит настроить <code>polza.yaml</code> — впишите ключ в
+файл рядом с расширением.</li>
+</ul>
+<p>Расширение подставляет <code>CARGO_MANIFEST_DIR</code> на этапе сборки, поэтому оно
+рассчитано на установку как dev extension из этой папки. Для публикации в
+реестре расширений путь к скрипту нужно будет заменить на путь внутри
+extension work dir (или передавать скрипт через <code>node -e</code>).</p>
+<h2 id="user-content-где-ищется-polzayaml"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#где-ищется-polzayaml"><span class="heading-anchor-icon">#</span></a>Где ищется <code>polza.yaml</code></h2>
+<p>По порядку, первый найденный:</p>
+<ol>
+<li><code>POLZA_CONFIG</code> (переменная окружения, может быть путём к файлу);</li>
+<li><code>&#x3C;POLZA_EXTENSION_DIR>/polza.yaml</code> (задаёт расширение);</li>
+<li><code>polza.yaml</code> рядом с проектом расширения;</li>
+<li><code>%APPDATA%/Zed/polza.yaml</code>;</li>
+<li><code>~/.config/zed/polza.yaml</code>, <code>~/.zed/polza.yaml</code>, <code>~/.polza/polza.yaml</code>;</li>
+<li><code>polza.yaml</code> в текущем рабочем каталоге.</li>
+</ol>
+<p><code>node server/balance-cli.mjs --check</code> покажет, какой файл выбран и какие пути
+проверялись.</p>
+<h2 id="user-content-ограничения-и-мелочи"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#ограничения-и-мелочи"><span class="heading-anchor-icon">#</span></a>Ограничения и мелочи</h2>
+<ul>
+<li>В корпоративной сети с MITM-прокси Node может ругаться
+<code>SELF_SIGNED_CERT_IN_CHAIN</code>. Сервер сам переключается на <code>curl</code>; альтернатива —
+запускать Node с <code>--use-system-ca</code> (Node 22.15+) или задать
+<code>NODE_EXTRA_CA_CERTS</code> с корневым сертификатом.</li>
+<li>Ключ лежит в открытом YAML. Не коммитьте <code>polza.yaml</code> (он в <code>.gitignore</code>);
+для секретов лучше <code>POLZA_API_KEY</code> в окружении.</li>
+<li>API-ключ в <code>polza.yaml</code> и ключ провайдера в <code>settings.json</code>
+(<code>language_models.openai_compatible.POLZA</code>) — разные записи, но один и тот же
+ключ Polza.ai.</li>
+<li>Баланс в <code>available</code> уже учитывает резерв под выполняющиеся запросы; <code>amount</code>
+— полный остаток кошелька. Для «хватит ли денег» ориентируйтесь на <code>available</code>.</li>
+</ul>
+<h2 id="user-content-лицензия"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#лицензия"><span class="heading-anchor-icon">#</span></a>Лицензия</h2>
+<p>Правообладатель — <strong>Gennady Artamonov</strong>.</p>
+<p>Использование разрешено (включая рабочие задачи), но <strong>модификация,
+распространение, продажа плагина и продуктов на его основе запрещены</strong>.</p>
+<ul>
+<li><code>LICENSE</code> — полный текст, английский (юридически значимый);</li>
+<li><code>LICENSE.ru.md</code> — краткий пересказ по-русски.</li>
+</ul>
+<p>Это не open-source-лицензия: опубликовать расширение в реестре Zed с такими
+условиями нельзя — плагин ставится как dev extension из локальной папки.</p>
+<h2 id="user-content-структура"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#структура"><span class="heading-anchor-icon">#</span></a>Структура</h2>
+<pre><code>extension.toml        манифест расширения (слеш-команда)
+Cargo.toml            крейт расширения (cdylib → wasm)
+src/lib.rs            impl zed::Extension
+server/polza-config.mjs   поиск и парсинг polza.yaml
+server/polza-balance.mjs  запрос баланса, кэш, формат
+server/polza-mcp.mjs      MCP-сервер (stdio JSON-RPC)
+server/balance-cli.mjs    CLI
+scripts/mcp-smoke.mjs     смоук-тест протокола
+scripts/balance-watch.mjs вотчер для заголовка вкладки терминала
+.zed/tasks.json       задачи Zed: разовый отчёт и вотчер
+polza.yaml            рабочий конфиг (в .gitignore)
+settings.snippet.json фрагмент для settings.json Zed
+LICENSE               полный текст лицензии (английский)
+LICENSE.ru.md         краткий пересказ лицензии по-русски
+</code></pre></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>

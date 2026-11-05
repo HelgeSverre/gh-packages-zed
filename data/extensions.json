@@ -143,8 +143,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-11-04T08:09:36Z",
-    "pushed_at": "2026-11-04T08:09:32Z",
+    "updated_at": "2026-11-05T08:35:47Z",
+    "pushed_at": "2026-11-05T08:35:43Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -3078,7 +3078,7 @@
     "name": "Sercali-co/Sercali-Zed-Theme",
     "url": "https://github.com/Sercali-co/Sercali-Zed-Theme",
     "description": "A Gilded Void theme family for Zed: deep neutral basalts with Gold, Teal, and Malachite accents.",
-    "stars": 6,
+    "stars": 5,
     "forks": 0,
     "topics": [
       "sercali",
@@ -3088,7 +3088,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2025-12-10T17:22:00Z",
-    "updated_at": "2026-07-31T12:29:59Z",
+    "updated_at": "2026-11-05T12:31:31Z",
     "pushed_at": "2026-07-31T12:28:40Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false,
@@ -65901,7 +65901,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-10-28T15:00:02Z",
     "updated_at": "2026-11-02T14:46:18Z",
-    "pushed_at": "2026-11-02T14:48:29Z",
+    "pushed_at": "2026-11-05T07:07:13Z",
     "discovered_at": "2026-10-29T12:46:50.748Z",
     "official": false,
     "extension": {
@@ -66041,7 +66041,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-10-29T15:51:54Z",
     "updated_at": "2026-10-29T15:54:41Z",
-    "pushed_at": "2026-10-29T15:52:02Z",
+    "pushed_at": "2026-11-05T07:07:14Z",
     "discovered_at": "2026-10-29T18:44:18.672Z",
     "official": false,
     "extension": {
@@ -66427,8 +66427,8 @@
     "language": "Shell",
     "license": "MIT",
     "created_at": "2026-11-02T21:19:09Z",
-    "updated_at": "2026-11-03T08:14:33Z",
-    "pushed_at": "2026-11-03T08:14:31Z",
+    "updated_at": "2026-11-05T08:28:29Z",
+    "pushed_at": "2026-11-05T08:28:26Z",
     "discovered_at": "2026-11-03T00:49:46.905Z",
     "official": false,
     "extension": {
@@ -66563,6 +66563,135 @@
       ],
       "categories": [
         "theme"
+      ]
+    }
+  },
+  "rockettap/renpy-zed": {
+    "name": "rockettap/renpy-zed",
+    "url": "https://github.com/rockettap/renpy-zed",
+    "description": "Ren'Py language support for Zed: syntax highlighting, Python injection, outline, formatting and a launch-only debugger",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "language-server",
+      "lsp",
+      "renpy",
+      "syntax-highlighting",
+      "tree-sitter",
+      "visual-novel",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2026-11-05T09:54:40Z",
+    "updated_at": "2026-11-05T11:55:41Z",
+    "pushed_at": "2026-11-05T11:55:37Z",
+    "discovered_at": "2026-11-05T12:44:19.174Z",
+    "official": false,
+    "extension": {
+      "id": "renpy",
+      "name": "Ren'Py",
+      "description": "Ren'Py language support for Zed: syntax highlighting, embedded Python, outline and formatting with renpy-language-server.",
+      "version": "0.2.0",
+      "schema_version": 1,
+      "authors": [
+        "Oleksandr <67645530+rockettap@users.noreply.github.com>"
+      ],
+      "repository": "https://github.com/rockettap/renpy-zed",
+      "snippets": [
+        "./snippets/ren'py.json"
+      ],
+      "sections": [
+        "lib",
+        "grammars",
+        "language_servers",
+        "debug_adapters",
+        "debug_locators"
+      ],
+      "categories": [
+        "grammar",
+        "language-server",
+        "debug-adapter",
+        "snippets"
+      ]
+    }
+  },
+  "cyclon-b/zed-polza-ai": {
+    "name": "cyclon-b/zed-polza-ai",
+    "url": "https://github.com/cyclon-b/zed-polza-ai",
+    "description": "Zed extension for Polza.ai: organization balance in the agent panel (MCP tool + /polza-balance slash command)",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "mcp",
+      "polza-ai",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "JavaScript",
+    "license": "NOASSERTION",
+    "created_at": "2026-11-05T10:19:18Z",
+    "updated_at": "2026-11-05T10:39:44Z",
+    "pushed_at": "2026-11-05T10:39:46Z",
+    "discovered_at": "2026-11-05T12:44:19.174Z",
+    "official": false,
+    "extension": {
+      "id": "polza-ai",
+      "name": "Polza.ai",
+      "description": "Баланс Polza.ai: слеш-команда /polza_balance показывает остаток, резерв и доступную сумму.",
+      "version": "0.2.0",
+      "schema_version": 1,
+      "authors": [
+        "Gennady Artamonov"
+      ],
+      "repository": "https://github.com/cyclon-b/zed-polza-ai",
+      "snippets": null,
+      "sections": [
+        "slash_commands",
+        "context_servers"
+      ],
+      "categories": [
+        "slash-command",
+        "context-server"
+      ]
+    }
+  },
+  "chelpav/zed-db-tools-sql": {
+    "name": "chelpav/zed-db-tools-sql",
+    "url": "https://github.com/chelpav/zed-db-tools-sql",
+    "description": "Zed extension: SQL + Jinja2 highlighting for *.sql.tmpl templates (db-tools). Jinja tags in their own color palette, SQL injected in raw text.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "jinja2",
+      "sql",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Tree-sitter Query",
+    "license": null,
+    "created_at": "2026-11-05T07:14:31Z",
+    "updated_at": "2026-11-05T07:18:50Z",
+    "pushed_at": "2026-11-05T07:18:46Z",
+    "discovered_at": "2026-11-05T12:44:19.174Z",
+    "official": false,
+    "extension": {
+      "id": "db-tools-sql",
+      "name": "SQL (db-tools tmpl)",
+      "description": "Подсветка *.sql.tmpl шаблонов classic-db-tools: Jinja2-теги + SQL, инъектированный в сырой текст",
+      "version": "0.2.1",
+      "schema_version": 1,
+      "authors": [
+        "14654 backend team"
+      ],
+      "repository": null,
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
       ]
     }
   }

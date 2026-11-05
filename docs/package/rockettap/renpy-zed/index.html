@@ -1,0 +1,361 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Ren&#39;Py - Zed Extension Safari</title><meta name="description" content="Ren'Py language support for Zed: syntax highlighting, Python injection, outline, formatting and a launch-only debugger"><link rel="canonical" href="https://helgesverre.github.io/gh-packages-zed/package/rockettap/renpy-zed/"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Ren'Py - Zed Extension Safari"><meta property="og:description" content="Ren'Py language support for Zed: syntax highlighting, Python injection, outline, formatting and a launch-only debugger"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed/package/rockettap/renpy-zed/"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Ren'Py - Zed Extension Safari"><meta name="twitter:description" content="Ren'Py language support for Zed: syntax highlighting, Python injection, outline, formatting and a launch-only debugger"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/gh-packages-zed/_astro/ClientRouter.astro_astro_type_script_index_0_lang.ClVLs1kt.js"></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Ren'Py","description":"Ren'Py language support for Zed: syntax highlighting, Python injection, outline, formatting and a launch-only debugger","applicationCategory":"DeveloperApplication","operatingSystem":"macOS, Linux, Windows","url":"https://zed.dev/extensions/renpy","codeRepository":"https://github.com/rockettap/renpy-zed","author":[{"@type":"Person","name":"Oleksandr"}],"softwareVersion":"0.2.0","license":"MIT","keywords":"grammar, language-server, debug-adapter, snippets","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/Layout.CGDlMdWE.css"><script type="module" src="/gh-packages-zed/_astro/page.B8i1Zz-u.js"></script></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <a href="#main" class="skip-to-content">Skip to content</a> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" data-astro-transition-persist="astro-fhchcgd7-1"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <script type="application/json" id="pkg-extras">{"url":"https://github.com/rockettap/renpy-zed","language":"Tree-sitter Query","license":"MIT","topics":["language-server","lsp","renpy","syntax-highlighting","tree-sitter","visual-novel","zed","zed-extension"],"extension":{"authors":["Oleksandr"],"schema_version":1}}</script> <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> rockettap/renpy-zed </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> Ren&#39;Py </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> Ren&#39;Py language support for Zed: syntax highlighting, embedded Python, outline and formatting with renpy-language-server. </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="grammar">Grammar</span><span class="cat-badge" data-cat="language-server">Language Server</span><span class="cat-badge" data-cat="debug-adapter">Debug Adapter</span><span class="cat-badge" data-cat="snippets">Snippets</span> </div> </div> </div> </header> <main id="main" class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/renpy" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/rockettap/renpy-zed" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.2.0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">renpy</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">Tree-sitter Query</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">MIT</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">49m ago</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">Oleksandr</dd> </div> </dl>  <h2 class="mt-5 text-xs uppercase font-mono" style="color:var(--zed-muted);">Topics</h2> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> language-server </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> lsp </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> renpy </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> syntax-highlighting </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> tree-sitter </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> visual-novel </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed-extension </span> </div>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-renpy-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#renpy-zed"><span class="heading-anchor-icon">#</span></a>renpy-zed</h1>
+<p>Ren'Py support for the <a href="https://zed.dev">Zed</a> editor: syntax highlighting,
+embedded Python, outline, indentation and formatting through a language server.</p>
+<blockquote>
+<p><strong>Status: 0.2.0.</strong> Install the language server with
+<code>uv tool install renpy-language-server</code>.</p>
+</blockquote>
+<blockquote>
+<p>Unofficial project, not affiliated with Ren'Py.</p>
+</blockquote>
+<h2 id="user-content-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features"><span class="heading-anchor-icon">#</span></a>Features</h2>
+<ul>
+<li>Tree-sitter grammar for <code>.rpy</code> and <code>.rpym</code>: dialogue, labels, menus,
+<code>scene</code>/<code>show</code>/<code>hide</code>, <code>define</code>/<code>default</code>, screens, ATL, styles, layered
+images and translations</li>
+<li>Python highlighting inside <code>python:</code> blocks, <code>$</code> lines,
+<code>python_expression</code> fragments and bracket groups</li>
+<li>Outline for labels, menus, defines, defaults, images, screens, transforms,
+styles, layered images, translations, test cases, Python classes and their
+members, and stores</li>
+<li>Format on save through <a href="https://github.com/rockettap/renpy-language-server"><code>renpy-language-server</code></a>,
+a Ren'Py formatter and language server with configurable whitespace, operator
+spacing and quote normalization</li>
+<li>Configurable diagnostics for indentation, tabs, filename conventions,
+variable names, comparisons, stray <code>$</code>, obsolete APIs, unknown labels and
+images, undefined screens, persistent/store variables and duplicate labels,
+with per-rule severity and open-file or whole-workspace modes</li>
+<li>Go to definition for labels, screens, transforms, images, layered images,
+characters, styles and variables, including local labels, automatic images
+and unambiguous Python member access (<code>self.x</code>, <code>Class.x</code>, <code>persistent.x</code>,
+<code>store.x</code>)</li>
+<li>Find references for the same families across the workspace, with an option to
+exclude declarations</li>
+<li>Signature help for Ren'Py built-ins, labels and screens, plus user classes,
+functions and <code>self.</code> / <code>Class.</code> methods</li>
+<li>Diagnostics quick fixes through <code>renpy-language-server</code>: comparison typos, stray <code>$</code>,
+leading tabs and missing labels</li>
+<li>Rename labels (global and local), screens, transforms, images, characters,
+styles and <code>define</code> / <code>default</code> variables across the workspace</li>
+<li>Occurrence highlighting for the symbol under the cursor, including while
+renaming</li>
+<li>Hover for declarations, references, automatic images, Python classes and
+members, persistent variables and Ren'Py built-ins, with signatures, comment
+documentation and source locations</li>
+<li>Completion for statements, labels, images (including automatic images),
+screens, characters, transforms, transitions, audio channels/assets, API
+namespaces, screen elements/properties/values, dialogue attributes and
+Python expressions, plus class members after <code>Class.</code> / <code>self.</code>,
+persistent fields and store variables</li>
+<li>Completion documentation rendered as Markdown, including fenced signatures and
+inline code</li>
+<li>Opt-in semantic tokens for declarations, references, built-ins, obsolete
+APIs, keywords, parameters and literals</li>
+<li>Snippets for labels, menus, characters, screens, text/image buttons, layered
+images, transforms, styles, translations, Python and init blocks, plus
+control flow, scene/show/hide, audio, assertions, test cases and regions</li>
+<li>Vim text objects for labels, screens, transforms, layered images, test cases,
+styles, menus and Python/init blocks</li>
+<li>Runnable labels and Zed tasks for run, run-from-line, run-from-label, lint,
+compile, dialogue and <code>rmpersistent</code>, with <code>RENPY_SDK</code> and common-install
+SDK discovery</li>
+<li>Launch-only debugger through <code>renpy-language-server dap</code>: start the game, warp to a line,
+stream output and terminate it from the debug panel</li>
+<li>Prefixed string auto-closing (<code>r"</code>, <code>f'</code>, <code>b"""</code>, and friends), backticks and
+Markdown <code>```renpy</code> fence injection</li>
+<li>Folding ranges and selection formatting from the language server</li>
+</ul>
+<h2 id="user-content-how-it-works"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#how-it-works"><span class="heading-anchor-icon">#</span></a>How it works</h2>
+<p>Three repositories, three jobs:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Component</th><th>Repository</th><th>Language</th><th>Role</th></tr></thead><tbody><tr><td>Zed extension <code>renpy</code></td><td><a href="https://github.com/rockettap/renpy-zed"><code>rockettap/renpy-zed</code></a></td><td>Rust (launcher) + queries</td><td>Registers the language, ships queries, launches the server</td></tr><tr><td>Grammar</td><td><a href="https://github.com/rockettap/renpy-tree-sitter"><code>rockettap/renpy-tree-sitter</code></a></td><td>JavaScript DSL + C scanner</td><td>Parses Ren'Py constructs, exposes Python fragments</td></tr><tr><td>Language server</td><td><a href="https://github.com/rockettap/renpy-language-server"><code>rockettap/renpy-language-server</code></a></td><td>Python (uv, pygls)</td><td>Formatting, diagnostics, navigation, completion and DAP</td></tr></tbody></table>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">flowchart TB</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  A[".rpy file"]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  A --> B["renpy-tree-sitter&#x3C;br/>(highlight, outline,&#x3C;br/>indent, injections)"]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  A --> C["renpy-language-server (LSP)&#x3C;br/>(format, diagnostics,&#x3C;br/>navigation)"]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  B --> D["Zed extension&#x3C;br/>(renpy)"]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  D -->|"launches"| C</span></span></code></pre>
+<p><code>extension.toml</code> pins the grammar repository to a fixed revision. Zed clones
+that revision, compiles <code>src/parser.c</code> to WebAssembly, and never runs
+<code>tree-sitter generate</code>. The generated parser is committed in the grammar
+repository; the extension repository does not vendor a copy.</p>
+<h3 id="user-content-design-decisions"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#design-decisions"><span class="heading-anchor-icon">#</span></a>Design decisions</h3>
+<ul>
+<li><strong>Tree-sitter, not TextMate.</strong> Zed requires a tree-sitter grammar for every
+language an extension defines. The syntax tree is also what outline,
+auto-indent, injections and the formatter need.</li>
+<li><strong>Python via injection, not a custom parser.</strong> The grammar marks Python
+fragments (<code>python:</code> bodies, <code>$</code> lines, expressions in <code>define</code>, <code>default</code>,
+<code>if</code> and bracket groups), and <code>injections.scm</code> hands them to Zed's built-in
+Python grammar. <code>[interpolation]</code> is deliberately not injected because the
+token includes Ren'Py-only format suffixes such as <code>[value:.2f]</code>.</li>
+<li><strong>Grammar in its own repository.</strong> Zed clones the grammar repository at a
+pinned revision, so the grammar stays free of extension code and can be
+tested with <code>tree-sitter test</code> on its own.</li>
+<li><strong>The server is not bundled.</strong> Zed's extension rules require language
+servers to be downloaded or found in the user's environment, not shipped
+inside the extension. <code>renpy-language-server</code> is distributed through PyPI and launched
+through <code>PATH</code>, <code>uvx</code> or <code>uv tool run</code>.</li>
+<li><strong>Queries are validated in CI.</strong> A stale node name makes a whole <code>.scm</code> file
+fail to compile, and Zed then shows no highlighting at all.
+<code>scripts/check-grammar.sh</code> parses fixtures and compiles every query against
+the pinned grammar revision.</li>
+</ul>
+<h2 id="user-content-install"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#install"><span class="heading-anchor-icon">#</span></a>Install</h2>
+<h3 id="user-content-1-install-the-language-server"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#1-install-the-language-server"><span class="heading-anchor-icon">#</span></a>1. Install the language server</h3>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">uv</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> tool</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> install</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> "renpy-language-server>=0.2,&#x3C;0.3"</span></span></code></pre>
+<p><code>renpy-language-server</code> requires Python 3.10 or newer.</p>
+<p>For development, install from a clone instead:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">git</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> clone</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> https://github.com/rockettap/renpy-language-server</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">uv</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> tool</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> install</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --editable</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> ./renpy-language-server</span></span></code></pre>
+<h3 id="user-content-2-install-the-extension"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#2-install-the-extension"><span class="heading-anchor-icon">#</span></a>2. Install the extension</h3>
+<p>Once the extension is published, install <strong>Ren'Py</strong> from the Zed extension
+catalog. To try the current source, clone this repository, run
+<strong><code>zed: install dev extension</code></strong>, and select the cloned directory.</p>
+<p>Zed compiles extensions to <code>wasm32-wasip2</code>; with Rust installed via <code>rustup</code>
+the target is added automatically.</p>
+<h3 id="user-content-3-point-zed-at-the-server-if-it-is-not-on-path"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#3-point-zed-at-the-server-if-it-is-not-on-path"><span class="heading-anchor-icon">#</span></a>3. Point Zed at the server if it is not on <code>PATH</code></h3>
+<p><code>renpy-language-server</code> is the server ID from <code>extension.toml</code>:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "renpy-language-server"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "binary"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "path"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"/home/you/.local/bin/renpy-language-server"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>This is usually needed on macOS when Zed is started from the GUI and does not
+inherit the shell <code>PATH</code>.</p>
+<h3 id="user-content-4-set-up-the-renpy-sdk-for-run-lint-and-debug"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#4-set-up-the-renpy-sdk-for-run-lint-and-debug"><span class="heading-anchor-icon">#</span></a>4. Set up the Ren'Py SDK for run, lint and debug</h3>
+<p>The extension ships <strong>Ren'Py: run game</strong>, <strong>run from line</strong>, <strong>run from label</strong>,
+<strong>lint</strong>, <strong>compile</strong>, <strong>dialogue</strong> and <strong>remove persistent</strong> tasks, plus a
+launch-only debugger. They look for the SDK in
+<code>RENPY_SDK</code> first, then in <code>renpy-*-sdk</code> directories under your home
+directory, <code>Documents</code>, <code>Downloads</code>, <code>Desktop</code> and <code>Applications</code> (newest
+version first):</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#D73A49;--shiki-dark:#F97583">export</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> RENPY_SDK</span><span style="color:#D73A49;--shiki-dark:#F97583">=</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">$HOME</span><span style="color:#032F62;--shiki-dark:#9ECBFF">/renpy-8.5.3-sdk"</span></span></code></pre>
+<p><code>RENPY_SDK</code> may name either the SDK directory or its launcher. The tasks use a
+POSIX shell, so they currently work on macOS and Linux; Windows-native task
+support is a follow-up. The debugger itself is cross-platform because it runs
+<code>renpy-language-server dap</code> and lets Python start the SDK.</p>
+<p>Snippets, text objects and editor overrides need no configuration.</p>
+<h3 id="user-content-5-debug-the-game"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#5-debug-the-game"><span class="heading-anchor-icon">#</span></a>5. Debug the game</h3>
+<p>Add a configuration to <code>.zed/debug.json</code> (or the global <code>debug.json</code> from the
+command palette):</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">[</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "label"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"Ren'Py: run game"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "adapter"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"renpy"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "request"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"launch"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  },</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "label"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"Ren'Py: run from cursor"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "adapter"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"renpy"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "request"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"launch"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "warp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"$ZED_FILE:$ZED_ROW"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span></code></pre>
+<p>The same configurations also appear as debug variants beside the run tasks
+(the ▶ menu) once the extension is installed. Supported fields are <code>sdk</code>,
+<code>project</code>, <code>warp</code>, <code>command</code> (<code>run</code>, <code>lint</code>, <code>compile</code>, ...), <code>args</code>, and
+<code>env</code>:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">[</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "label"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"Ren'Py: run with a clean save"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "adapter"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"renpy"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "request"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"launch"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "sdk"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"/Applications/renpy-8.5.3-sdk"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "project"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"$ZED_WORKTREE_ROOT"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "warp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"game/script.rpy:42"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "env"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"RENPY_SKIP_SPLASHSCREEN"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"1"</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span></code></pre>
+<p>This release starts and stops the game only. Breakpoints, stepping, stack
+traces, variables and attaching to a running game are not supported yet;
+<code>setBreakpoints</code> reports the lines as unverified and stepping requests return
+a clear message.</p>
+<p><code>warp</code> must point at a script inside the project's <code>game/</code> directory and at a
+line inside a label. Ren'Py only loads scripts from <code>game/</code>, so pointing at a
+copy elsewhere (for example a <code>legacy/</code> folder in the project root) would fail
+deep inside the engine. The adapter checks the target first and suggests the
+matching game script instead:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span>warp target "legacy/dlc_day_two.rpy" is not loaded by Ren'Py: it resolves to</span></span>
+<span class="line"><span>".../game/legacy/dlc_day_two.rpy", which does not exist. Ren'Py only loads</span></span>
+<span class="line"><span>scripts from ".../game". Did you mean "game/legacy_dlc_day_two.rpy"?</span></span></code></pre>
+<h3 id="user-content-6-enable-format-on-save"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#6-enable-format-on-save"><span class="heading-anchor-icon">#</span></a>6. Enable format on save</h3>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "languages"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "Ren'Py"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "formatter"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"language_server"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "format_on_save"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"on"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h2 id="user-content-development"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#development"><span class="heading-anchor-icon">#</span></a>Development</h2>
+<h3 id="user-content-extension"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#extension"><span class="heading-anchor-icon">#</span></a>Extension</h3>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> fmt</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --check</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> clippy</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --target</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> wasm32-wasip2</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -D</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> warnings</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> test</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --lib</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> build</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --release</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --target</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> wasm32-wasip2</span></span></code></pre>
+<p><code>cargo build</code> produces <code>target/wasm32-wasip2/release/renpy_zed.wasm</code>. Zed
+builds this for dev extensions too; the file is not committed.</p>
+<h3 id="user-content-grammar-and-queries"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#grammar-and-queries"><span class="heading-anchor-icon">#</span></a>Grammar and queries</h3>
+<p>The grammar lives in the separate <code>renpy-tree-sitter</code> repository:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">cd</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> ../renpy-tree-sitter</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">npx</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --yes</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> tree-sitter-cli@0.25.10</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> generate</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">npx</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --yes</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> tree-sitter-cli@0.25.10</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> test</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">npx</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --yes</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> tree-sitter-cli@0.25.10</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> parse</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> examples/smoke.rpy</span></span></code></pre>
+<p><code>src/parser.c</code>, <code>src/grammar.json</code> and <code>src/node-types.json</code> are generated and
+must be committed. CI regenerates them and fails if the committed output
+differs.</p>
+<p>Validate this repository's queries against the pinned grammar:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">scripts/check-grammar.sh</span></span></code></pre>
+<p>To use a local grammar checkout instead of cloning the pinned revision:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">RENPY_GRAMMAR_DIR</span><span style="color:#D73A49;--shiki-dark:#F97583">=</span><span style="color:#032F62;--shiki-dark:#9ECBFF">../renpy-tree-sitter</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> scripts/check-grammar.sh</span></span></code></pre>
+<p>For local extension development, point Zed at a local grammar by changing
+<code>extension.toml</code> temporarily:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">[</span><span style="color:#6F42C1;--shiki-dark:#B392F0">grammars</span><span style="color:#24292E;--shiki-dark:#E1E4E8">.</span><span style="color:#6F42C1;--shiki-dark:#B392F0">renpy</span><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">repository = </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"file:///absolute/path/to/renpy-tree-sitter"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">rev = </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"&#x3C;commit>"</span></span></code></pre>
+<p>Remember to restore the <code>https://</code> repository and the pinned revision before
+committing.</p>
+<h3 id="user-content-server"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#server"><span class="heading-anchor-icon">#</span></a>Server</h3>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">cd</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> ../renpy-language-server</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">uv</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> sync</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">uv</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> run</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> pytest</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">uv</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> run</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> ruff</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> check</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> .</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> &#x26;&#x26; </span><span style="color:#6F42C1;--shiki-dark:#B392F0">uv</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> run</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> ruff</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> format</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --check</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> .</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">uv</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> run</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> pyright</span></span></code></pre>
+<h3 id="user-content-formatting-tests"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#formatting-tests"><span class="heading-anchor-icon">#</span></a>Formatting tests</h3>
+<p>The <code>renpy-language-server</code> tests cover formatting, idempotency, CRLF handling,
+minimal LSP edits and a real stdio server round trip. The formatter has also
+been validated against real Ren'Py scripts (see below).</p>
+<h2 id="user-content-repository-layout"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#repository-layout"><span class="heading-anchor-icon">#</span></a>Repository layout</h2>
+<pre><code>renpy-zed/
+├── extension.toml              # id = "renpy", grammar + language server
+├── Cargo.toml                  # crate-type = ["cdylib"], zed_extension_api
+├── src/lib.rs                  # LSP/DAP resolution, launch and scenarios
+├── snippets/ren'py.json        # language snippets (scope = Ren'Py)
+├── debug_adapter_schemas/
+│   └── renpy.json              # launch-only debug configuration schema
+├── languages/renpy/
+│   ├── config.toml             # name, suffixes, brackets and overrides
+│   ├── highlights.scm
+│   ├── injections.scm          # python -> "python"
+│   ├── indents.scm
+│   ├── brackets.scm
+│   ├── outline.scm
+│   ├── textobjects.scm         # Vim text objects
+│   ├── overrides.scm           # string/comment scopes
+│   ├── runnables.scm           # run button on labels
+│   └── tasks.json              # run, warp, lint, compile, dialogue and rmpersistent tasks
+├── scripts/check-grammar.sh    # parse fixtures + compile all queries
+├── tests/fixtures/smoke.rpy    # every supported construct
+├── tests/test_extension_assets.py
+├── tests/test_tasks.py
+├── .github/workflows/ci.yml
+├── CONTRIBUTING.md             # local checks and grammar-change process
+├── LICENSE
+├── NOTICE.md                   # upstream grammar/query attribution
+└── CHANGELOG.md
+</code></pre>
+<h2 id="user-content-grammar-quality"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#grammar-quality"><span class="heading-anchor-icon">#</span></a>Grammar quality</h2>
+<p><code>tests/fixtures/smoke.rpy</code> exercises every supported construct and is parsed in
+CI. The grammar repository also has <code>tree-sitter test</code> corpus coverage for
+labels, menus, Python, screens/ATL and text parts.</p>
+<h2 id="user-content-troubleshooting"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#troubleshooting"><span class="heading-anchor-icon">#</span></a>Troubleshooting</h2>
+<ul>
+<li><strong><code>Could not find a compatible 'renpy-language-server' server</code></strong> — install it with
+<code>uv tool install renpy-language-server</code>, or set <code>lsp.renpy-language-server.binary.path</code>. Zed started
+from the GUI often does not inherit <code>~/.local/bin</code> from the shell.</li>
+<li><strong>The server starts but formatting does nothing</strong> — check that the language
+is <code>Ren'Py</code>, that <code>formatter</code> is <code>language_server</code>, and that <code>format_on_save</code>
+is <code>on</code>.</li>
+<li><strong>No highlighting at all</strong> — a query failed to compile. Run
+<code>scripts/check-grammar.sh</code>; a single stale node name disables the whole
+query file.</li>
+<li><strong><code>Library not loaded: @executable_path/librenpython.dylib</code> on macOS</strong> — the
+downloaded Ren'Py SDK is still quarantined, so Gatekeeper refuses to load its
+ad-hoc-signed library. Clear the flag once and relaunch:
+<code>xattr -dr com.apple.quarantine /Applications/renpy-8.5.3-sdk</code>. This is an SDK
+issue and also happens when running <code>renpy.sh</code> from a terminal, not something
+the debugger or <code>renpy-language-server</code> causes.</li>
+<li><strong>Grammar checkout fails</strong> — <code>extension.toml</code> pins a commit that must exist
+in <code>rockettap/renpy-tree-sitter</code>.</li>
+</ul>
+<h2 id="user-content-acknowledgements-and-prior-art"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#acknowledgements-and-prior-art"><span class="heading-anchor-icon">#</span></a>Acknowledgements and prior art</h2>
+<ul>
+<li><a href="https://github.com/ZeynTheDev/tree-sitter-renpy"><code>ZeynTheDev/tree-sitter-renpy</code></a>:
+the original grammar this project is derived from (MIT).</li>
+<li><a href="https://github.com/Ozicom23/zed-renpy"><code>Ozicom23/zed-renpy</code></a>: grammar
+extensions and the query base this project started from (MIT).</li>
+<li><a href="https://github.com/renpy/vscode-language-renpy"><code>renpy/vscode-language-renpy</code></a>:
+reference for Ren'Py language support.</li>
+<li><a href="https://github.com/tree-sitter/tree-sitter-python"><code>tree-sitter-python</code></a>:
+reference for the indentation scanner and Python injections.</li>
+</ul>
+<p>See <a href="https://github.com/rockettap/renpy-zed/blob/HEAD/NOTICE.md" target="_blank" rel="noopener"><code>NOTICE.md</code></a> for the full attribution.</p>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>MIT. See <a href="https://github.com/rockettap/renpy-zed/blob/HEAD/LICENSE" target="_blank" rel="noopener"><code>LICENSE</code></a>.</p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>
