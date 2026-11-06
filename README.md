@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1928** |
 | In official registry | 1360 |
 | Discovered via topics | 568 |
-| Last updated | 2026-11-05 18:43 UTC |
+| Last updated | 2026-11-06 00:50 UTC |
 
 ### By capability
 
@@ -110,8 +110,8 @@ cd website && npm install && npm run dev
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 176 | A macOS native style theme for Zed, let it same like native app in macOS. |
 | [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 158 |  |
+| [zed-extensions/swift](https://github.com/zed-extensions/swift) | 148 | Extension for Zed to support Swift |
 | [thedadams/zed-comment](https://github.com/thedadams/zed-comment) | 148 | A comment extension for the Zed editor |
-| [zed-extensions/swift](https://github.com/zed-extensions/swift) | 147 | Extension for Zed to support Swift |
 | [slymax/zedokai](https://github.com/slymax/zedokai) | 145 | a theme for Zed based on the Monokai Pro color scheme |
 | [nathansbradshaw/zed-angular](https://github.com/nathansbradshaw/zed-angular) | 144 |  |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 140 | The Ruby language support for Zed editor |
@@ -120,6 +120,10 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-11-06 | Zed editor support for Carve, a modern light markup language |
+| [uncenter/zed-tera](https://github.com/uncenter/zed-tera) | 19 | 2026-11-05 | ⛩️ Zed extension for the Tera templating language. |
+| [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 1 | 2026-11-05 | Zed extension that formats and lints HTML templates with djL... |
+| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 13 | 2026-11-05 | Spring Boot language intelligence for Zed, powered by the of... |
 | [wielorzeczownik/zed-volt](https://github.com/wielorzeczownik/zed-volt) | 0 | 2026-11-05 | Phalcon Volt template support for Zed: syntax highlighting a... |
 | [kaikozlov/kaiokai](https://github.com/kaikozlov/kaiokai) | 0 | 2026-11-05 | An unofficial Zed theme collection inspired by Monokai Pro |
 | [chaliidesigns/chalii-zed](https://github.com/chaliidesigns/chalii-zed) | 0 | 2026-11-05 | Chalii themes for Zed — premium light and dark with warm ora... |
@@ -130,21 +134,18 @@ cd website && npm install && npm run dev
 | [chelpav/zed-db-tools-sql](https://github.com/chelpav/zed-db-tools-sql) | 0 | 2026-11-05 | Zed extension: SQL + Jinja2 highlighting for *.sql.tmpl temp... |
 | [husur/android-resources-lsp](https://github.com/husur/android-resources-lsp) | 0 | 2026-11-05 | Zed extension: shows the text of Android string resources (R... |
 | [husur/gradle-catalog-lsp](https://github.com/husur/gradle-catalog-lsp) | 0 | 2026-11-05 | Zed extension: shows newer versions of the libraries and plu... |
-| [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-11-05 | Zed editor support for Carve, a modern light markup language |
 | [chiploom/zed-wit](https://github.com/chiploom/zed-wit) | 0 | 2026-11-05 | Modern WIT language support for Zed, with Tree-sitter syntax... |
-| [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 1 | 2026-11-04 | Zed extension that formats and lints HTML templates with djL... |
 | [1ay1/hipster-zed-theme](https://github.com/1ay1/hipster-zed-theme) | 4 | 2026-11-04 | Hipster: 14 bold terminal-style themes for Zed, from the ori... |
 | [rok-lang/rok.zed](https://github.com/rok-lang/rok.zed) | 1 | 2026-11-04 | Zed extension for Rok |
 | [alonsodomin/zed-blueforest-theme](https://github.com/alonsodomin/zed-blueforest-theme) | 0 | 2026-11-03 | A dark high contrast theme around blue hues |
-| [uncenter/zed-tera](https://github.com/uncenter/zed-tera) | 19 | 2026-11-03 | ⛩️ Zed extension for the Tera templating language. |
 | [ManuLinares/c3-zed](https://github.com/ManuLinares/c3-zed) | 3 | 2026-11-03 | Language support for Zed editor |
 | [shnarazk/zed-factor](https://github.com/shnarazk/zed-factor) | 0 | 2026-11-03 | A Zed extension for Factor language |
-| [alanisme/vscode-themes-for-zed](https://github.com/alanisme/vscode-themes-for-zed) | 28 | 2026-11-02 | ❤️ All 19 built-in Visual Studio Code color themes, ported t... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-11-06T00:50 | 0 | 731 | 2432 |
 | 2026-11-05T18:43 | 0 | 731 | 2432 |
 | 2026-11-05T12:44 | 3 | 728 | 2432 |
 | 2026-11-05T06:44 | 0 | 728 | 2429 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-11-04T06:44 | 0 | 726 | 2425 |
 | 2026-11-04T00:50 | 1 | 725 | 2425 |
 | 2026-11-03T18:44 | 0 | 726 | 2424 |
-| 2026-11-03T12:43 | 1 | 725 | 2424 |
 
 ---
 
