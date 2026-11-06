@@ -205,7 +205,7 @@
     "name": "wakatime/zed-wakatime",
     "url": "https://github.com/wakatime/zed-wakatime",
     "description": "Zed plugin for automatic time tracking and metrics generated from your programming activity.",
-    "stars": 221,
+    "stars": 222,
     "forks": 30,
     "topics": [
       "extension",
@@ -217,8 +217,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2024-08-27T10:31:46Z",
-    "updated_at": "2026-10-29T07:32:01Z",
-    "pushed_at": "2026-10-27T02:26:47Z",
+    "updated_at": "2026-11-06T14:22:08Z",
+    "pushed_at": "2026-11-06T17:03:14Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -5104,7 +5104,7 @@
     "name": "zarifpour/xy-zed",
     "url": "https://github.com/zarifpour/xy-zed",
     "description": "🐈‍⬛ A sleek and sophisticated dark theme for Zed with vibrant, intelligent syntax highlighting.",
-    "stars": 91,
+    "stars": 92,
     "forks": 8,
     "topics": [
       "dark",
@@ -5122,7 +5122,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T22:41:16Z",
-    "updated_at": "2026-11-01T22:16:03Z",
+    "updated_at": "2026-11-06T18:27:16Z",
     "pushed_at": "2026-01-27T20:33:16Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -22236,7 +22236,7 @@
     "name": "skarline/zed-xcode-themes",
     "url": "https://github.com/skarline/zed-xcode-themes",
     "description": "🍎 Recreate Xcode's native feel in Zed with authentic themes for a seamless, Apple-inspired coding environment.",
-    "stars": 78,
+    "stars": 79,
     "forks": 3,
     "topics": [
       "zed",
@@ -22247,7 +22247,7 @@
     "language": null,
     "license": null,
     "created_at": "2024-02-25T02:26:32Z",
-    "updated_at": "2026-11-04T17:18:53Z",
+    "updated_at": "2026-11-06T13:13:38Z",
     "pushed_at": "2025-01-14T12:40:40Z",
     "discovered_at": "2026-05-19T20:15:46.472Z",
     "official": true,
@@ -60625,8 +60625,8 @@
     "language": "Tree-sitter Query",
     "license": "Apache-2.0",
     "created_at": "2026-09-12T03:43:07Z",
-    "updated_at": "2026-10-25T22:38:21Z",
-    "pushed_at": "2026-10-25T22:38:18Z",
+    "updated_at": "2026-11-06T18:33:22Z",
+    "pushed_at": "2026-11-06T18:33:17Z",
     "discovered_at": "2026-09-13T05:21:11.822Z",
     "official": false,
     "extension": {
@@ -65808,7 +65808,7 @@
     "name": "MalasataXD/better-highlights",
     "url": "https://github.com/MalasataXD/better-highlights",
     "description": "Cognitive complexity hints and colour-coded comment tags for the Zed editor, inspired by Igor Zarvanskyi's Better Highlights for JetBrains IDEs.",
-    "stars": 0,
+    "stars": 1,
     "forks": 0,
     "topics": [
       "cognitive-complexity",
@@ -65820,7 +65820,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-10-28T09:47:00Z",
-    "updated_at": "2026-10-28T10:05:12Z",
+    "updated_at": "2026-11-06T14:31:30Z",
     "pushed_at": "2026-10-28T10:05:10Z",
     "discovered_at": "2026-10-28T12:45:47.470Z",
     "official": false,
@@ -66306,8 +66306,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-11-01T01:34:22Z",
-    "updated_at": "2026-11-06T11:42:28Z",
-    "pushed_at": "2026-11-06T11:42:24Z",
+    "updated_at": "2026-11-06T17:01:43Z",
+    "pushed_at": "2026-11-06T17:01:40Z",
     "discovered_at": "2026-11-01T12:43:52.373Z",
     "official": false,
     "extension": {
@@ -66585,8 +66585,8 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2026-11-05T09:54:40Z",
-    "updated_at": "2026-11-06T00:51:04Z",
-    "pushed_at": "2026-11-06T00:50:59Z",
+    "updated_at": "2026-11-06T18:17:38Z",
+    "pushed_at": "2026-11-06T18:18:12Z",
     "discovered_at": "2026-11-05T12:44:19.174Z",
     "official": false,
     "extension": {
@@ -66719,6 +66719,99 @@
         "Ihor Manzii <ihormanzii@gmail.com>"
       ],
       "repository": "https://github.com/ihormanzii/zed-lull-theme",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "heritage-themes/heritage-themes-zed": {
+    "name": "heritage-themes/heritage-themes-zed",
+    "url": "https://github.com/heritage-themes/heritage-themes-zed",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-10-23T19:31:03Z",
+    "updated_at": "2026-11-05T19:07:58Z",
+    "pushed_at": "2026-11-05T19:07:54Z",
+    "discovered_at": "2026-11-06T18:44:11.051Z",
+    "official": true,
+    "extension": {
+      "id": "heritage-theme",
+      "name": "Heritage Themes",
+      "description": "Colour themes drawn from the colour traditions of different cultures.",
+      "version": "1.7.3",
+      "schema_version": 1,
+      "authors": [
+        "Heritage Themes"
+      ],
+      "repository": "https://github.com/heritage-themes/heritage-themes-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "yathink3/carbon-react-color-theme-zed": {
+    "name": "yathink3/carbon-react-color-theme-zed",
+    "url": "https://github.com/yathink3/carbon-react-color-theme-zed",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-10-09T02:21:19Z",
+    "updated_at": "2026-10-09T07:43:20Z",
+    "pushed_at": "2026-10-09T07:43:16Z",
+    "discovered_at": "2026-11-06T18:44:11.051Z",
+    "official": true,
+    "extension": {
+      "id": "maya-react-theme",
+      "name": "Maya React Theme",
+      "description": "A sleek, modern theme pack for Zed editor featuring Maya, Maya Black, Maya Light, Pure, and Winter.",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "authors": [
+        "Yathin K <yathink3@gmail.com>"
+      ],
+      "repository": "https://github.com/yathink3/carbon-react-color-theme-zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "emeraldsanto/zed-theme-verdandi": {
+    "name": "emeraldsanto/zed-theme-verdandi",
+    "url": "https://github.com/emeraldsanto/zed-theme-verdandi",
+    "description": "A monochrome theme for Zed. Ported from the VS Code Verdandi theme by be5invis.",
+    "stars": 1,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "NOASSERTION",
+    "created_at": "2026-05-03T16:12:11Z",
+    "updated_at": "2026-10-29T09:38:26Z",
+    "pushed_at": "2026-10-27T14:56:30Z",
+    "discovered_at": "2026-11-06T18:44:11.051Z",
+    "official": true,
+    "extension": {
+      "id": "verdandi-theme",
+      "name": "Verdandi Theme",
+      "description": "A monochrome theme that can live without color. Ported from the VS Code Verdandi theme by be5invis. Includes light (Verdandi) and dark (Verdandi Alter) variants.",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "authors": [
+        "emeraldsanto"
+      ],
+      "repository": "https://github.com/emeraldsanto/zed-theme-verdandi",
       "snippets": null,
       "sections": [],
       "categories": [
