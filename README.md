@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1928** |
 | In official registry | 1360 |
 | Discovered via topics | 568 |
-| Last updated | 2026-11-06 00:50 UTC |
+| Last updated | 2026-11-06 06:44 UTC |
 
 ### By capability
 
@@ -120,15 +120,16 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 1 | 2026-11-06 | Zed extension that formats and lints HTML templates with djL... |
+| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 140 | 2026-11-06 | The Ruby language support for Zed editor |
+| [rockettap/renpy-zed](https://github.com/rockettap/renpy-zed) | 0 | 2026-11-06 | Ren'Py language support for Zed: syntax highlighting, Python... |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-11-06 | Zed editor support for Carve, a modern light markup language |
 | [uncenter/zed-tera](https://github.com/uncenter/zed-tera) | 19 | 2026-11-05 | ⛩️ Zed extension for the Tera templating language. |
-| [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 1 | 2026-11-05 | Zed extension that formats and lints HTML templates with djL... |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 13 | 2026-11-05 | Spring Boot language intelligence for Zed, powered by the of... |
 | [wielorzeczownik/zed-volt](https://github.com/wielorzeczownik/zed-volt) | 0 | 2026-11-05 | Phalcon Volt template support for Zed: syntax highlighting a... |
 | [kaikozlov/kaiokai](https://github.com/kaikozlov/kaiokai) | 0 | 2026-11-05 | An unofficial Zed theme collection inspired by Monokai Pro |
 | [chaliidesigns/chalii-zed](https://github.com/chaliidesigns/chalii-zed) | 0 | 2026-11-05 | Chalii themes for Zed — premium light and dark with warm ora... |
 | [WaveSpeedAI/wavespeed-mcp-zed](https://github.com/WaveSpeedAI/wavespeed-mcp-zed) | 1 | 2026-11-05 | WaveSpeed MCP for Zed — AI media generation (image, video, a... |
-| [rockettap/renpy-zed](https://github.com/rockettap/renpy-zed) | 0 | 2026-11-05 | Ren'Py language support for Zed: syntax highlighting, Python... |
 | [cyclon-b/zed-polza-ai](https://github.com/cyclon-b/zed-polza-ai) | 0 | 2026-11-05 | Zed extension for Polza.ai: organization balance in the agen... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 101 | 2026-11-05 | True Dark Theme for Zed IDE |
 | [chelpav/zed-db-tools-sql](https://github.com/chelpav/zed-db-tools-sql) | 0 | 2026-11-05 | Zed extension: SQL + Jinja2 highlighting for *.sql.tmpl temp... |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [rok-lang/rok.zed](https://github.com/rok-lang/rok.zed) | 1 | 2026-11-04 | Zed extension for Rok |
 | [alonsodomin/zed-blueforest-theme](https://github.com/alonsodomin/zed-blueforest-theme) | 0 | 2026-11-03 | A dark high contrast theme around blue hues |
 | [ManuLinares/c3-zed](https://github.com/ManuLinares/c3-zed) | 3 | 2026-11-03 | Language support for Zed editor |
-| [shnarazk/zed-factor](https://github.com/shnarazk/zed-factor) | 0 | 2026-11-03 | A Zed extension for Factor language |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-11-06T06:44 | 0 | 731 | 2432 |
 | 2026-11-06T00:50 | 0 | 731 | 2432 |
 | 2026-11-05T18:43 | 0 | 731 | 2432 |
 | 2026-11-05T12:44 | 3 | 728 | 2432 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-11-04T12:44 | 2 | 724 | 2427 |
 | 2026-11-04T06:44 | 0 | 726 | 2425 |
 | 2026-11-04T00:50 | 1 | 725 | 2425 |
-| 2026-11-03T18:44 | 0 | 726 | 2424 |
 
 ---
 
