@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1928-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1929-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,16 +14,16 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1928** |
-| In official registry | 1360 |
-| Discovered via topics | 568 |
-| Last updated | 2026-11-06 06:44 UTC |
+| Total tracked | **1929** |
+| In official registry | 1362 |
+| Discovered via topics | 567 |
+| Last updated | 2026-11-06 12:44 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
-| Themes | 827 |
+| Themes | 828 |
 | Grammars | 665 |
 | Language Servers | 623 |
 | Context Servers | 149 |
@@ -70,6 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [ihormanzii/zed-lull-theme](https://github.com/ihormanzii/zed-lull-theme) | 0 | Lull: calm, neutral dark and light themes for Zed with soft pastel syntax colors |
 | [rockettap/renpy-zed](https://github.com/rockettap/renpy-zed) | 0 | Ren'Py language support for Zed: syntax highlighting, Python injection, outline,... |
 | [cyclon-b/zed-polza-ai](https://github.com/cyclon-b/zed-polza-ai) | 0 | Zed extension for Polza.ai: organization balance in the agent panel (MCP tool + ... |
 | [chelpav/zed-db-tools-sql](https://github.com/chelpav/zed-db-tools-sql) | 0 | Zed extension: SQL + Jinja2 highlighting for *.sql.tmpl templates (db-tools). Ji... |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [husur/gradle-catalog-lsp](https://github.com/husur/gradle-catalog-lsp) | 0 | Zed extension: shows newer versions of the libraries and plugins declared in Gra... |
 | [hisyam-zayd/mermaid-preview](https://github.com/hisyam-zayd/mermaid-preview) | 0 | Interactive live preview for Mermaid diagrams in Zed — zero-config locally, seam... |
 | [moritosh/antora-zed](https://github.com/moritosh/antora-zed) | 1 | Antora support for the Zed editor, powered by antora-ls |
-| [simd-labs/zed-asm-intrinsics](https://github.com/simd-labs/zed-asm-intrinsics) | 0 | Zed extension: simdref instruction briefs as inlay hints in assembly and inline ... |
 
 ## Top starred (under 500)
 
@@ -120,7 +120,11 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Frixuu/Zed-Haxe](https://github.com/Frixuu/Zed-Haxe) | 22 | 2026-11-06 | LSP support & syntax highlighting for Haxe. |
 | [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 1 | 2026-11-06 | Zed extension that formats and lints HTML templates with djL... |
+| [chelpav/zed-db-tools-sql](https://github.com/chelpav/zed-db-tools-sql) | 0 | 2026-11-06 | Zed extension: SQL + Jinja2 highlighting for *.sql.tmpl temp... |
+| [ihormanzii/zed-lull-theme](https://github.com/ihormanzii/zed-lull-theme) | 0 | 2026-11-06 | Lull: calm, neutral dark and light themes for Zed with soft ... |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 101 | 2026-11-06 | True Dark Theme for Zed IDE |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 140 | 2026-11-06 | The Ruby language support for Zed editor |
 | [rockettap/renpy-zed](https://github.com/rockettap/renpy-zed) | 0 | 2026-11-06 | Ren'Py language support for Zed: syntax highlighting, Python... |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-11-06 | Zed editor support for Carve, a modern light markup language |
@@ -131,20 +135,17 @@ cd website && npm install && npm run dev
 | [chaliidesigns/chalii-zed](https://github.com/chaliidesigns/chalii-zed) | 0 | 2026-11-05 | Chalii themes for Zed — premium light and dark with warm ora... |
 | [WaveSpeedAI/wavespeed-mcp-zed](https://github.com/WaveSpeedAI/wavespeed-mcp-zed) | 1 | 2026-11-05 | WaveSpeed MCP for Zed — AI media generation (image, video, a... |
 | [cyclon-b/zed-polza-ai](https://github.com/cyclon-b/zed-polza-ai) | 0 | 2026-11-05 | Zed extension for Polza.ai: organization balance in the agen... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 101 | 2026-11-05 | True Dark Theme for Zed IDE |
-| [chelpav/zed-db-tools-sql](https://github.com/chelpav/zed-db-tools-sql) | 0 | 2026-11-05 | Zed extension: SQL + Jinja2 highlighting for *.sql.tmpl temp... |
 | [husur/android-resources-lsp](https://github.com/husur/android-resources-lsp) | 0 | 2026-11-05 | Zed extension: shows the text of Android string resources (R... |
 | [husur/gradle-catalog-lsp](https://github.com/husur/gradle-catalog-lsp) | 0 | 2026-11-05 | Zed extension: shows newer versions of the libraries and plu... |
 | [chiploom/zed-wit](https://github.com/chiploom/zed-wit) | 0 | 2026-11-05 | Modern WIT language support for Zed, with Tree-sitter syntax... |
 | [1ay1/hipster-zed-theme](https://github.com/1ay1/hipster-zed-theme) | 4 | 2026-11-04 | Hipster: 14 bold terminal-style themes for Zed, from the ori... |
 | [rok-lang/rok.zed](https://github.com/rok-lang/rok.zed) | 1 | 2026-11-04 | Zed extension for Rok |
-| [alonsodomin/zed-blueforest-theme](https://github.com/alonsodomin/zed-blueforest-theme) | 0 | 2026-11-03 | A dark high contrast theme around blue hues |
-| [ManuLinares/c3-zed](https://github.com/ManuLinares/c3-zed) | 3 | 2026-11-03 | Language support for Zed editor |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-11-06T12:44 | 6 | 731 | 2438 |
 | 2026-11-06T06:44 | 0 | 731 | 2432 |
 | 2026-11-06T00:50 | 0 | 731 | 2432 |
 | 2026-11-05T18:43 | 0 | 731 | 2432 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-11-04T18:44 | 2 | 726 | 2429 |
 | 2026-11-04T12:44 | 2 | 724 | 2427 |
 | 2026-11-04T06:44 | 0 | 726 | 2425 |
-| 2026-11-04T00:50 | 1 | 725 | 2425 |
 
 ---
 
