@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1934** |
 | In official registry | 1365 |
 | Discovered via topics | 569 |
-| Last updated | 2026-11-07 06:44 UTC |
+| Last updated | 2026-11-07 12:44 UTC |
 
 ### By capability
 
@@ -121,6 +121,7 @@ cd website && npm install && npm run dev
 | Package | Stars | Last push | Description |
 |---|---|---|---|
 | [chelpav/zed-db-tools-sql](https://github.com/chelpav/zed-db-tools-sql) | 0 | 2026-11-07 | Zed extension: SQL + Jinja2 highlighting for *.sql.tmpl temp... |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 101 | 2026-11-07 | True Dark Theme for Zed IDE |
 | [shnarazk/zed-lean4](https://github.com/shnarazk/zed-lean4) | 3 | 2026-11-07 | Zed extension to support Lean4 language |
 | [simd-labs/zed-asm-intrinsics](https://github.com/simd-labs/zed-asm-intrinsics) | 0 | 2026-11-07 | Zed extension: simdref instruction briefs as inlay hints in ... |
 | [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 1 | 2026-11-06 | Zed extension that formats and lints HTML templates with djL... |
@@ -132,7 +133,6 @@ cd website && npm install && npm run dev
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 222 | 2026-11-06 | Zed plugin for automatic time tracking and metrics generated... |
 | [Frixuu/Zed-Haxe](https://github.com/Frixuu/Zed-Haxe) | 22 | 2026-11-06 | LSP support & syntax highlighting for Haxe. |
 | [ihormanzii/zed-lull-theme](https://github.com/ihormanzii/zed-lull-theme) | 0 | 2026-11-06 | Lull: calm, neutral dark and light themes for Zed with soft ... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 101 | 2026-11-06 | True Dark Theme for Zed IDE |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 140 | 2026-11-06 | The Ruby language support for Zed editor |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-11-06 | Zed editor support for Carve, a modern light markup language |
 | [uncenter/zed-tera](https://github.com/uncenter/zed-tera) | 19 | 2026-11-05 | ⛩️ Zed extension for the Tera templating language. |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-11-07T12:44 | 0 | 734 | 2445 |
 | 2026-11-07T06:44 | 1 | 733 | 2445 |
 | 2026-11-07T00:48 | 3 | 731 | 2444 |
 | 2026-11-06T18:44 | 3 | 731 | 2441 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-11-05T18:43 | 0 | 731 | 2432 |
 | 2026-11-05T12:44 | 3 | 728 | 2432 |
 | 2026-11-05T06:44 | 0 | 728 | 2429 |
-| 2026-11-05T00:49 | 0 | 728 | 2429 |
 
 ---
 

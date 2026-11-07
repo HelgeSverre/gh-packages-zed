@@ -158,8 +158,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-11-06T08:35:09Z",
-    "pushed_at": "2026-11-06T08:35:04Z",
+    "updated_at": "2026-11-07T07:51:20Z",
+    "pushed_at": "2026-11-07T07:51:16Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -5130,7 +5130,7 @@
     "name": "Dylanmurzello/zed-android-port",
     "url": "https://github.com/Dylanmurzello/zed-android-port",
     "description": "Native Android port of the Zed code editor,  gpui rendering through Vulkan, integrated Termux for LSPs and tooling, remote SSH support. Runs as an APK on tablets and Android desktop modes.",
-    "stars": 253,
+    "stars": 254,
     "forks": 21,
     "topics": [
       "android",
@@ -5157,7 +5157,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-05-07T00:12:10Z",
-    "updated_at": "2026-11-06T10:56:44Z",
+    "updated_at": "2026-11-07T12:17:31Z",
     "pushed_at": "2026-11-05T23:45:12Z",
     "discovered_at": "2026-05-19T19:54:12.053Z",
     "official": false
@@ -15382,8 +15382,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
-    "updated_at": "2026-11-07T04:29:05Z",
-    "pushed_at": "2026-11-06T19:44:34Z",
+    "updated_at": "2026-11-07T07:38:34Z",
+    "pushed_at": "2026-11-07T07:38:39Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -17946,8 +17946,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-11-07T00:48:59Z",
-    "pushed_at": "2026-11-07T00:48:54Z",
+    "updated_at": "2026-11-07T06:44:40Z",
+    "pushed_at": "2026-11-07T06:44:36Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -27647,13 +27647,13 @@
     "name": "kevcamel/vscode_dark_modern.zed",
     "url": "https://github.com/kevcamel/vscode_dark_modern.zed",
     "description": "VS Code Dark Modern theme for Zed",
-    "stars": 62,
+    "stars": 63,
     "forks": 23,
     "topics": [],
     "language": null,
     "license": "MIT",
     "created_at": "2024-05-17T15:44:22Z",
-    "updated_at": "2026-10-27T09:34:23Z",
+    "updated_at": "2026-11-07T08:04:36Z",
     "pushed_at": "2026-09-06T04:32:53Z",
     "discovered_at": "2026-05-20T03:49:49.286Z",
     "official": false
@@ -28862,8 +28862,8 @@
     "language": "Go",
     "license": "MIT",
     "created_at": "2026-03-09T09:38:48Z",
-    "updated_at": "2026-11-06T19:37:34Z",
-    "pushed_at": "2026-11-06T19:37:40Z",
+    "updated_at": "2026-11-07T11:04:26Z",
+    "pushed_at": "2026-11-07T11:04:29Z",
     "discovered_at": "2026-05-25T18:33:55.225Z",
     "official": false
   },
@@ -31350,8 +31350,8 @@
     "language": "Nix",
     "license": "Apache-2.0",
     "created_at": "2026-04-30T15:29:50Z",
-    "updated_at": "2026-10-28T10:35:11Z",
-    "pushed_at": "2026-11-05T17:53:15Z",
+    "updated_at": "2026-11-07T10:28:41Z",
+    "pushed_at": "2026-11-07T10:28:37Z",
     "discovered_at": "2026-06-26T18:36:57.330Z",
     "official": false
   },
@@ -31902,7 +31902,7 @@
     "license": "ISC",
     "created_at": "2026-07-04T02:15:25Z",
     "updated_at": "2026-11-07T03:55:40Z",
-    "pushed_at": "2026-11-07T04:13:58Z",
+    "pushed_at": "2026-11-07T12:34:05Z",
     "discovered_at": "2026-07-06T19:18:00.225Z",
     "official": false
   },
@@ -33124,7 +33124,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-05-17T07:32:27Z",
     "updated_at": "2026-10-17T16:07:55Z",
-    "pushed_at": "2026-10-17T15:05:23Z",
+    "pushed_at": "2026-11-07T12:18:57Z",
     "discovered_at": "2026-07-26T01:12:51.640Z",
     "official": false
   },
@@ -38352,7 +38352,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-09-21T20:10:00Z",
     "updated_at": "2026-11-07T05:48:50Z",
-    "pushed_at": "2026-11-07T01:25:43Z",
+    "pushed_at": "2026-11-07T10:12:20Z",
     "discovered_at": "2026-09-21T22:12:12.101Z",
     "official": false
   },
@@ -40110,7 +40110,7 @@
     "name": "AmirAliManzar/Zed-RTL",
     "url": "https://github.com/AmirAliManzar/Zed-RTL",
     "description": "Fixed right-to-left (Persian/Arabic/Hebrew) text rendering and caret movement in the Zed editor, with an auto-updating patched build for Windows.",
-    "stars": 9,
+    "stars": 10,
     "forks": 1,
     "topics": [
       "arabic",
@@ -40129,7 +40129,7 @@
     "language": "Rust",
     "license": "GPL-3.0",
     "created_at": "2026-09-29T18:48:49Z",
-    "updated_at": "2026-11-05T19:28:12Z",
+    "updated_at": "2026-11-07T06:44:50Z",
     "pushed_at": "2026-11-04T18:05:59Z",
     "discovered_at": "2026-10-03T01:13:41.690Z",
     "official": false
@@ -40509,7 +40509,7 @@
     "language": "Shell",
     "license": "MIT",
     "created_at": "2026-10-07T22:28:42Z",
-    "updated_at": "2026-11-01T00:05:46Z",
+    "updated_at": "2026-11-07T11:41:59Z",
     "pushed_at": "2026-11-01T00:05:42Z",
     "discovered_at": "2026-10-08T18:53:38.004Z",
     "official": false
@@ -41025,10 +41025,10 @@
       "zed-editor"
     ],
     "language": "Rust",
-    "license": "Apache-2.0",
+    "license": "GPL-3.0",
     "created_at": "2026-10-29T20:06:00Z",
-    "updated_at": "2026-11-06T16:42:54Z",
-    "pushed_at": "2026-11-06T16:42:50Z",
+    "updated_at": "2026-11-07T07:35:17Z",
+    "pushed_at": "2026-11-07T07:35:04Z",
     "discovered_at": "2026-10-15T01:07:49.541Z",
     "official": false
   },
@@ -41774,7 +41774,7 @@
     "url": "https://github.com/oddcelot/lit-devtools",
     "description": "Lit DevTools: true HMR for Lit components in Vite and Astro, a DevTools panel and browser extension, a language server for VS Code and Zed, and Oxlint rules for Lit templates.",
     "stars": 1,
-    "forks": 1,
+    "forks": 2,
     "topics": [
       "astro",
       "devtools",
@@ -42042,8 +42042,8 @@
     "language": "Lua",
     "license": "MIT",
     "created_at": "2023-01-13T17:23:42Z",
-    "updated_at": "2026-10-27T17:14:22Z",
-    "pushed_at": "2026-10-27T17:14:18Z",
+    "updated_at": "2026-11-07T11:27:21Z",
+    "pushed_at": "2026-11-07T11:27:17Z",
     "discovered_at": "2026-10-27T18:44:22.102Z",
     "official": false
   },
@@ -42674,8 +42674,8 @@
     "language": "TypeScript",
     "license": "MIT",
     "created_at": "2026-11-01T14:56:03Z",
-    "updated_at": "2026-11-07T01:57:43Z",
-    "pushed_at": "2026-11-07T01:58:03Z",
+    "updated_at": "2026-11-07T10:53:36Z",
+    "pushed_at": "2026-11-07T10:53:51Z",
     "discovered_at": "2026-11-01T18:44:00.208Z",
     "official": false
   },
@@ -42965,8 +42965,8 @@
     "language": "Tree-sitter Query",
     "license": "Apache-2.0",
     "created_at": "2026-11-05T07:14:31Z",
-    "updated_at": "2026-11-07T05:08:41Z",
-    "pushed_at": "2026-11-07T05:08:37Z",
+    "updated_at": "2026-11-07T08:27:24Z",
+    "pushed_at": "2026-11-07T08:27:20Z",
     "discovered_at": "2026-11-05T12:44:19.174Z",
     "official": false
   },
@@ -43205,7 +43205,7 @@
     "name": "WenYin-Community/ZedG",
     "url": "https://github.com/WenYin-Community/ZedG",
     "description": "Simplified Chinese build of the Zed editor, auto-translated and rebuilt via CI.",
-    "stars": 21,
+    "stars": 22,
     "forks": 2,
     "topics": [
       "ai-translation",
@@ -43228,7 +43228,7 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-11-02T13:18:49Z",
-    "updated_at": "2026-11-07T05:04:45Z",
+    "updated_at": "2026-11-07T09:58:00Z",
     "pushed_at": "2026-11-07T04:55:10Z",
     "discovered_at": "2026-11-07T06:44:02.081Z",
     "official": false
