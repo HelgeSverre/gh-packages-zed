@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1934** |
 | In official registry | 1365 |
 | Discovered via topics | 569 |
-| Last updated | 2026-11-07 00:48 UTC |
+| Last updated | 2026-11-07 06:44 UTC |
 
 ### By capability
 
@@ -120,6 +120,8 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [chelpav/zed-db-tools-sql](https://github.com/chelpav/zed-db-tools-sql) | 0 | 2026-11-07 | Zed extension: SQL + Jinja2 highlighting for *.sql.tmpl temp... |
+| [shnarazk/zed-lean4](https://github.com/shnarazk/zed-lean4) | 3 | 2026-11-07 | Zed extension to support Lean4 language |
 | [simd-labs/zed-asm-intrinsics](https://github.com/simd-labs/zed-asm-intrinsics) | 0 | 2026-11-07 | Zed extension: simdref instruction briefs as inlay hints in ... |
 | [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 1 | 2026-11-06 | Zed extension that formats and lints HTML templates with djL... |
 | [koroblabs/phrost-zed](https://github.com/koroblabs/phrost-zed) | 0 | 2026-11-06 | phrost for Zed: a fast, lean PHP language server with strict... |
@@ -129,7 +131,6 @@ cd website && npm install && npm run dev
 | [rockettap/renpy-zed](https://github.com/rockettap/renpy-zed) | 0 | 2026-11-06 | Ren'Py language support for Zed: syntax highlighting, Python... |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 222 | 2026-11-06 | Zed plugin for automatic time tracking and metrics generated... |
 | [Frixuu/Zed-Haxe](https://github.com/Frixuu/Zed-Haxe) | 22 | 2026-11-06 | LSP support & syntax highlighting for Haxe. |
-| [chelpav/zed-db-tools-sql](https://github.com/chelpav/zed-db-tools-sql) | 0 | 2026-11-06 | Zed extension: SQL + Jinja2 highlighting for *.sql.tmpl temp... |
 | [ihormanzii/zed-lull-theme](https://github.com/ihormanzii/zed-lull-theme) | 0 | 2026-11-06 | Lull: calm, neutral dark and light themes for Zed with soft ... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 101 | 2026-11-06 | True Dark Theme for Zed IDE |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 140 | 2026-11-06 | The Ruby language support for Zed editor |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [heritage-themes/heritage-themes-zed](https://github.com/heritage-themes/heritage-themes-zed) | 0 | 2026-11-05 |  |
 | [wielorzeczownik/zed-volt](https://github.com/wielorzeczownik/zed-volt) | 0 | 2026-11-05 | Phalcon Volt template support for Zed: syntax highlighting a... |
 | [kaikozlov/kaiokai](https://github.com/kaikozlov/kaiokai) | 0 | 2026-11-05 | An unofficial Zed theme collection inspired by Monokai Pro |
-| [chaliidesigns/chalii-zed](https://github.com/chaliidesigns/chalii-zed) | 0 | 2026-11-05 | Chalii themes for Zed — premium light and dark with warm ora... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-11-07T06:44 | 1 | 733 | 2445 |
 | 2026-11-07T00:48 | 3 | 731 | 2444 |
 | 2026-11-06T18:44 | 3 | 731 | 2441 |
 | 2026-11-06T12:44 | 6 | 731 | 2438 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-11-05T12:44 | 3 | 728 | 2432 |
 | 2026-11-05T06:44 | 0 | 728 | 2429 |
 | 2026-11-05T00:49 | 0 | 728 | 2429 |
-| 2026-11-04T18:44 | 2 | 726 | 2429 |
 
 ---
 

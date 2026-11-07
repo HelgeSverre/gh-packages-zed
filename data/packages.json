@@ -3350,8 +3350,8 @@
     "language": "Tree-sitter Query",
     "license": "GPL-3.0",
     "created_at": "2024-11-23T02:07:28Z",
-    "updated_at": "2026-08-13T09:58:08Z",
-    "pushed_at": "2026-08-13T09:57:24Z",
+    "updated_at": "2026-11-07T02:08:29Z",
+    "pushed_at": "2026-11-07T02:08:25Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -15355,7 +15355,7 @@
     "name": "agent-sh/agnix",
     "url": "https://github.com/agent-sh/agnix",
     "description": "The missing linter and lsp for AI coding assistants. Validate CLAUDE.md, AGENTS.md, SKILL.md, hooks, MCP. Plugin for all major IDEs included, with autofixes.",
-    "stars": 471,
+    "stars": 472,
     "forks": 36,
     "topics": [
       "agent",
@@ -15382,7 +15382,7 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
-    "updated_at": "2026-11-06T08:46:47Z",
+    "updated_at": "2026-11-07T04:29:05Z",
     "pushed_at": "2026-11-06T19:44:34Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
@@ -17946,8 +17946,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-11-06T18:44:38Z",
-    "pushed_at": "2026-11-06T18:44:33Z",
+    "updated_at": "2026-11-07T00:48:59Z",
+    "pushed_at": "2026-11-07T00:48:54Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -31901,8 +31901,8 @@
     "language": "Rust",
     "license": "ISC",
     "created_at": "2026-07-04T02:15:25Z",
-    "updated_at": "2026-10-20T05:43:10Z",
-    "pushed_at": "2026-10-20T05:43:11Z",
+    "updated_at": "2026-11-07T03:55:40Z",
+    "pushed_at": "2026-11-07T04:13:58Z",
     "discovered_at": "2026-07-06T19:18:00.225Z",
     "official": false
   },
@@ -38324,7 +38324,7 @@
     "name": "Sunrisepeak/mcpp-language-server",
     "url": "https://github.com/Sunrisepeak/mcpp-language-server",
     "description": "mcppls — a C++20/23 modules language server: one set of module semantics on GCC, Clang, MSVC and MinGW, for editors (VS Code, Zed, CLion, Neovim), AI Agents (MCP) and CI",
-    "stars": 24,
+    "stars": 25,
     "forks": 2,
     "topics": [
       "ai-agents",
@@ -38351,8 +38351,8 @@
     "language": "C++",
     "license": "Apache-2.0",
     "created_at": "2026-09-21T20:10:00Z",
-    "updated_at": "2026-11-06T18:08:55Z",
-    "pushed_at": "2026-11-06T18:08:52Z",
+    "updated_at": "2026-11-07T05:48:50Z",
+    "pushed_at": "2026-11-07T01:25:43Z",
     "discovered_at": "2026-09-21T22:12:12.101Z",
     "official": false
   },
@@ -42674,8 +42674,8 @@
     "language": "TypeScript",
     "license": "MIT",
     "created_at": "2026-11-01T14:56:03Z",
-    "updated_at": "2026-11-02T03:26:43Z",
-    "pushed_at": "2026-11-02T03:15:09Z",
+    "updated_at": "2026-11-07T01:57:43Z",
+    "pushed_at": "2026-11-07T01:58:03Z",
     "discovered_at": "2026-11-01T18:44:00.208Z",
     "official": false
   },
@@ -42902,7 +42902,7 @@
     "license": "MIT",
     "created_at": "2026-11-02T16:43:40Z",
     "updated_at": "2026-11-07T00:12:24Z",
-    "pushed_at": "2026-11-07T00:12:21Z",
+    "pushed_at": "2026-11-07T05:27:23Z",
     "discovered_at": "2026-11-04T18:44:22.632Z",
     "official": false
   },
@@ -42963,10 +42963,10 @@
       "zed-extension"
     ],
     "language": "Tree-sitter Query",
-    "license": null,
+    "license": "Apache-2.0",
     "created_at": "2026-11-05T07:14:31Z",
-    "updated_at": "2026-11-06T10:13:21Z",
-    "pushed_at": "2026-11-06T10:13:17Z",
+    "updated_at": "2026-11-07T05:08:41Z",
+    "pushed_at": "2026-11-07T05:08:37Z",
     "discovered_at": "2026-11-05T12:44:19.174Z",
     "official": false
   },
@@ -43199,6 +43199,38 @@
     "updated_at": "2026-11-06T21:44:39Z",
     "pushed_at": "2026-11-06T19:04:19Z",
     "discovered_at": "2026-11-07T00:48:16.621Z",
+    "official": false
+  },
+  "wenyin-community/zedg": {
+    "name": "WenYin-Community/ZedG",
+    "url": "https://github.com/WenYin-Community/ZedG",
+    "description": "Simplified Chinese build of the Zed editor, auto-translated and rebuilt via CI.",
+    "stars": 21,
+    "forks": 2,
+    "topics": [
+      "ai-translation",
+      "chinese",
+      "code-editor",
+      "i18n",
+      "l10n",
+      "linux",
+      "localization",
+      "macos",
+      "rust",
+      "simplified-chinese",
+      "translation",
+      "windows",
+      "zed",
+      "zed-chinese",
+      "zed-editor",
+      "zedg"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "created_at": "2026-11-02T13:18:49Z",
+    "updated_at": "2026-11-07T05:04:45Z",
+    "pushed_at": "2026-11-07T04:55:10Z",
+    "discovered_at": "2026-11-07T06:44:02.081Z",
     "official": false
   }
 }
