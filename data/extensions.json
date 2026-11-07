@@ -256,7 +256,7 @@
     "license": "NOASSERTION",
     "created_at": "2024-10-11T18:22:02Z",
     "updated_at": "2026-10-27T18:11:56Z",
-    "pushed_at": "2026-11-06T02:28:05Z",
+    "pushed_at": "2026-11-07T13:53:28Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -566,7 +566,7 @@
     "name": "Frixuu/Zed-Haxe",
     "url": "https://github.com/Frixuu/Zed-Haxe",
     "description": "LSP support & syntax highlighting for Haxe.",
-    "stars": 22,
+    "stars": 23,
     "forks": 5,
     "topics": [
       "haxe",
@@ -576,7 +576,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2024-08-31T20:23:39Z",
-    "updated_at": "2026-10-27T10:52:39Z",
+    "updated_at": "2026-11-07T13:52:16Z",
     "pushed_at": "2026-11-06T11:58:26Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -19879,8 +19879,8 @@
     "language": "Rust",
     "license": "GPL-3.0",
     "created_at": "2025-11-15T12:51:35Z",
-    "updated_at": "2026-09-24T14:39:35Z",
-    "pushed_at": "2026-09-12T18:55:22Z",
+    "updated_at": "2026-11-07T15:59:19Z",
+    "pushed_at": "2026-11-07T15:59:14Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": true,
     "extension": {
@@ -66306,8 +66306,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-11-01T01:34:22Z",
-    "updated_at": "2026-11-06T23:04:01Z",
-    "pushed_at": "2026-11-06T23:03:57Z",
+    "updated_at": "2026-11-07T13:54:19Z",
+    "pushed_at": "2026-11-07T13:54:16Z",
     "discovered_at": "2026-11-01T12:43:52.373Z",
     "official": false,
     "extension": {
@@ -66901,6 +66901,44 @@
       ],
       "categories": [
         "language-server"
+      ]
+    }
+  },
+  "casoon/zed-godot-enhanced": {
+    "name": "casoon/zed-godot-enhanced",
+    "url": "https://github.com/casoon/zed-godot-enhanced",
+    "description": "Zed Godot Enhanced ExtensionComplete Godot support for Zed Editor with LSP, Debugging, and Enhanced Features.See README.md for details.",
+    "stars": 3,
+    "forks": 0,
+    "topics": [
+      "gdscript",
+      "godot",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Shell",
+    "license": "NOASSERTION",
+    "created_at": "2025-10-08T21:11:35Z",
+    "updated_at": "2026-11-07T16:23:16Z",
+    "pushed_at": "2026-05-12T06:02:06Z",
+    "discovered_at": "2026-11-07T18:43:58.266Z",
+    "official": false,
+    "extension": {
+      "id": "godot-enhanced",
+      "name": "Godot Enhanced",
+      "description": "Godot Engine support for Zed — GDScript LSP, GDShader, and Godot Resource files. Based on GDQuest's zed-gdscript extension.",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "authors": [
+        "Jörn Seidel <joern.seidel@casoon.de>"
+      ],
+      "repository": "https://github.com/casoon/zed-godot-enhanced",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
       ]
     }
   }

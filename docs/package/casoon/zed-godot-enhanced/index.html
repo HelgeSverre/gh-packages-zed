@@ -1,0 +1,313 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Godot Enhanced - Zed Extension Safari</title><meta name="description" content="Zed Godot Enhanced ExtensionComplete Godot support for Zed Editor with LSP, Debugging, and Enhanced Features.See README.md for details."><link rel="canonical" href="https://helgesverre.github.io/gh-packages-zed/package/casoon/zed-godot-enhanced/"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Godot Enhanced - Zed Extension Safari"><meta property="og:description" content="Zed Godot Enhanced ExtensionComplete Godot support for Zed Editor with LSP, Debugging, and Enhanced Features.See README.md for details."><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed/package/casoon/zed-godot-enhanced/"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Godot Enhanced - Zed Extension Safari"><meta name="twitter:description" content="Zed Godot Enhanced ExtensionComplete Godot support for Zed Editor with LSP, Debugging, and Enhanced Features.See README.md for details."><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/gh-packages-zed/_astro/ClientRouter.astro_astro_type_script_index_0_lang.ClVLs1kt.js"></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Godot Enhanced","description":"Zed Godot Enhanced ExtensionComplete Godot support for Zed Editor with LSP, Debugging, and Enhanced Features.See README.md for details.","applicationCategory":"DeveloperApplication","operatingSystem":"macOS, Linux, Windows","url":"https://zed.dev/extensions/godot-enhanced","codeRepository":"https://github.com/casoon/zed-godot-enhanced","author":[{"@type":"Person","name":"Jörn Seidel"}],"softwareVersion":"1.0.0","license":"NOASSERTION","keywords":"grammar","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/Layout.CGDlMdWE.css"><script type="module" src="/gh-packages-zed/_astro/page.B8i1Zz-u.js"></script></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <a href="#main" class="skip-to-content">Skip to content</a> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" data-astro-transition-persist="astro-fhchcgd7-1"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <script type="application/json" id="pkg-extras">{"url":"https://github.com/casoon/zed-godot-enhanced","language":"Shell","license":"NOASSERTION","topics":["gdscript","godot","zed","zed-extension"],"extension":{"authors":["Jörn Seidel"],"schema_version":1}}</script> <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> casoon/zed-godot-enhanced </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> Godot Enhanced </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> Godot Engine support for Zed — GDScript LSP, GDShader, and Godot Resource files. Based on GDQuest&#39;s zed-gdscript extension. </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="grammar">Grammar</span> </div> </div> </div> </header> <main id="main" class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/godot-enhanced" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/casoon/zed-godot-enhanced" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1.0.0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">godot-enhanced</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">Shell</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">NOASSERTION</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">3</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">5/12/2026</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">Jörn Seidel</dd> </div> </dl>  <h2 class="mt-5 text-xs uppercase font-mono" style="color:var(--zed-muted);">Topics</h2> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> gdscript </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> godot </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed-extension </span> </div>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-zed-godot-enhanced-extension"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#zed-godot-enhanced-extension"><span class="heading-anchor-icon">#</span></a>Zed Godot Enhanced Extension</h1>
+<p>Experimental Godot support for Zed Editor, based on GDQuest's GDScript extension.</p>
+<p>This repository is currently in an alpha/prototype state. The core extension files are present, CI and tests are wired up, but end-to-end validation in a live Zed + Godot environment is still pending.</p>
+<p><a href="https://github.com/casoon/zed-godot-enhanced"><img src="https://img.shields.io/badge/version-1.0.0-blue.svg" alt="Version"></a>
+<a href="https://github.com/casoon/zed-godot-enhanced/blob/HEAD/LICENSE" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License"></a></p>
+<hr>
+<h2 id="user-content-status"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#status"><span class="heading-anchor-icon">#</span></a>Status</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Area</th><th>Current state</th></tr></thead><tbody><tr><td>Extension manifest</td><td>Present</td></tr><tr><td>Rust extension code</td><td>Present, builds locally</td></tr><tr><td>GDScript LSP command</td><td>Implemented via <code>nc</code>/<code>ncat</code>, needs runtime validation in Zed</td></tr><tr><td>Godot debug adapter</td><td>Basic TCP adapter implementation present, needs runtime validation</td></tr><tr><td>Tree-sitter language files</td><td>Present for GDScript, GDShader, and Godot Resource files</td></tr><tr><td>Tests</td><td>4 unit tests for DAP request parsing (<code>cargo test</code>)</td></tr><tr><td>CI</td><td>GitHub Actions workflow present (fmt, clippy, test, WASM build, validate.sh)</td></tr><tr><td>Release packaging</td><td>WASM build target documented; Zed loading not yet validated</td></tr><tr><td>Documentation</td><td>CONTRIBUTING.md, QUICKSTART.md, install guides present</td></tr></tbody></table>
+<p>Open release-readiness work:</p>
+<ul>
+<li><a href="https://github.com/casoon/zed-godot-enhanced/issues/8">#8 Add end-to-end validation in Zed with Godot LSP and debugger</a></li>
+</ul>
+<hr>
+<h2 id="user-content-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features"><span class="heading-anchor-icon">#</span></a>Features</h2>
+<h3 id="user-content-implemented-or-scaffolded"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#implemented-or-scaffolded"><span class="heading-anchor-icon">#</span></a>Implemented or scaffolded</h3>
+<ul>
+<li><strong>GDScript Language Server command</strong> - connects to Godot's language server through <code>nc</code>/<code>ncat</code></li>
+<li><strong>Syntax highlighting files</strong> - GDScript, GDShader, and Godot Resource query/config files are included</li>
+<li><strong>Debug adapter configuration</strong> - basic Godot TCP debug adapter setup is present</li>
+<li><strong>Language configuration</strong> - brackets, indentation, outlines, text objects, and file suffixes are configured where available</li>
+<li><strong>Local validation script</strong> - <code>scripts/validate.sh</code> checks repository structure, tests, and WASM build</li>
+<li><strong>CI</strong> - GitHub Actions runs fmt, clippy, tests, and WASM build on every push</li>
+</ul>
+<h3 id="user-content-not-yet-proven-release-ready"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#not-yet-proven-release-ready"><span class="heading-anchor-icon">#</span></a>Not yet proven release-ready</h3>
+<ul>
+<li>End-to-end extension loading in Zed</li>
+<li>LSP autocomplete, hover, and go-to-definition against a running Godot project</li>
+<li>Debug launch/attach behavior</li>
+<li>Zed-compatible WebAssembly artifact verified to load in Zed</li>
+</ul>
+<hr>
+<h2 id="user-content-requirements"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#requirements"><span class="heading-anchor-icon">#</span></a>Requirements</h2>
+<ul>
+<li><strong>Zed Editor</strong> (latest version)</li>
+<li><strong>Godot Engine</strong> 3.x or 4.x</li>
+<li><strong>Netcat</strong> (<code>nc</code> or <code>ncat</code>) for LSP communication</li>
+<li><strong>Rust</strong> with <code>wasm32-wasip1</code> target (<code>rustup target add wasm32-wasip1</code>)</li>
+</ul>
+<h3 id="user-content-installing-netcat"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installing-netcat"><span class="heading-anchor-icon">#</span></a>Installing Netcat</h3>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># macOS</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">brew</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> install</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> netcat</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Ubuntu/Debian</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">sudo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> apt</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> install</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> netcat</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Fedora</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">sudo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> dnf</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> install</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> nmap-ncat</span></span></code></pre>
+<hr>
+<h2 id="user-content-installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation"><span class="heading-anchor-icon">#</span></a>Installation</h2>
+<p>This extension is not published in the Zed extension registry. Install as a local dev extension:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">git</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> clone</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> https://github.com/casoon/zed-godot-enhanced.git</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">cd</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> zed-godot-enhanced</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">rustup</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> target</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> add</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> wasm32-wasip1</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> build</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --release</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --target</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> wasm32-wasip1</span></span></code></pre>
+<p>Then in Zed: <strong>Extensions → Install Dev Extension…</strong> and select this directory.</p>
+<ul>
+<li>macOS managed path: <code>~/Library/Application Support/Zed/extensions/installed/</code></li>
+<li>Linux managed path: <code>~/.config/zed/extensions/installed/</code></li>
+</ul>
+<p>See <a href="https://github.com/casoon/zed-godot-enhanced/blob/HEAD/INSTALL_STEPS.md" target="_blank" rel="noopener">INSTALL_STEPS.md</a> and <a href="https://github.com/casoon/zed-godot-enhanced/blob/HEAD/MANUAL_INSTALL.md" target="_blank" rel="noopener">MANUAL_INSTALL.md</a> for details.</p>
+<hr>
+<h2 id="user-content-configuration"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#configuration"><span class="heading-anchor-icon">#</span></a>Configuration</h2>
+<h3 id="user-content-1-enable-godot-language-server"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#1-enable-godot-language-server"><span class="heading-anchor-icon">#</span></a>1. Enable Godot Language Server</h3>
+<p>In <strong>Godot Editor</strong>:</p>
+<ol>
+<li><code>Editor → Editor Settings → Network → Language Server</code></li>
+<li>✅ Enable "Enable Language Server"</li>
+<li>Host: <code>127.0.0.1</code></li>
+<li>Port: <code>6005</code> (default)</li>
+</ol>
+<h3 id="user-content-2-configure-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#2-configure-zed"><span class="heading-anchor-icon">#</span></a>2. Configure Zed</h3>
+<p>Add to your <code>~/.config/zed/settings.json</code>:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "gdscript"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "binary"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "path"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"nc"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "arguments"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"127.0.0.1"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"6005"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  },</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "languages"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "GDScript"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "tab_size"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">4</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "hard_tabs"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">false</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "formatter"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "external"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">          "command"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"gdformat"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">          "arguments"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"-"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">        }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h3 id="user-content-3-open-files-in-zed-from-godot"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#3-open-files-in-zed-from-godot"><span class="heading-anchor-icon">#</span></a>3. Open Files in Zed from Godot</h3>
+<p>In <strong>Godot Editor</strong>:</p>
+<ol>
+<li><code>Editor → Editor Settings → Text Editor → External</code></li>
+<li>✅ Enable "Use External Editor"</li>
+<li><strong>Exec Path</strong>: <code>/Applications/Zed.app/Contents/MacOS/zed</code></li>
+<li><strong>Exec Flags</strong>: <code>{project} {file}:{line}:{col}</code></li>
+</ol>
+<hr>
+<h2 id="user-content-debugging"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#debugging"><span class="heading-anchor-icon">#</span></a>Debugging</h2>
+<p>Create <code>.zed/debug.json</code> in your project root:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">[</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "adapter"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"godot"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "label"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"Godot (Launch)"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "request"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"launch"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  },</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "adapter"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"godot"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "label"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"Godot (Attach)"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "request"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"attach"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span></code></pre>
+<p>Press <code>F4</code> to start debugging session.</p>
+<p>Debugging support still needs end-to-end validation against a running Godot project. See <a href="https://github.com/casoon/zed-godot-enhanced/issues/8">issue #8</a>.</p>
+<hr>
+<h2 id="user-content-features-in-detail"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features-in-detail"><span class="heading-anchor-icon">#</span></a>Features in Detail</h2>
+<h3 id="user-content-language-server-protocol-lsp"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#language-server-protocol-lsp"><span class="heading-anchor-icon">#</span></a>Language Server Protocol (LSP)</h3>
+<p>The extension starts <code>nc</code>/<code>ncat</code> against Godot's language server on <code>127.0.0.1:6005</code> by default. In practice, the following editor features depend on a running Godot editor with the language server enabled:</p>
+<p><strong>Autocomplete:</strong></p>
+<ul>
+<li>Classes, methods, properties</li>
+<li>Godot API references</li>
+<li>Project-specific symbols</li>
+<li>Built-in constants</li>
+</ul>
+<p><strong>Go to Definition:</strong></p>
+<ul>
+<li><code>Cmd+Click</code> on symbols</li>
+<li>Jump to class/function definitions</li>
+</ul>
+<p><strong>Hover Information:</strong></p>
+<ul>
+<li>API documentation</li>
+<li>Type information</li>
+<li>Parameter hints</li>
+</ul>
+<h3 id="user-content-syntax-highlighting"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#syntax-highlighting"><span class="heading-anchor-icon">#</span></a>Syntax Highlighting</h3>
+<ul>
+<li><strong>Keywords</strong>: <code>class</code>, <code>extends</code>, <code>func</code>, <code>var</code>, <code>signal</code></li>
+<li><strong>Built-ins</strong>: <code>Vector2</code>, <code>Node</code>, <code>Input</code></li>
+<li><strong>Comments</strong>: Single and multi-line</li>
+<li><strong>Strings</strong>: String interpolation</li>
+<li><strong>Numbers</strong>: Int, float, hex, binary</li>
+</ul>
+<h3 id="user-content-code-formatting"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#code-formatting"><span class="heading-anchor-icon">#</span></a>Code Formatting</h3>
+<p>Formatting is configured through Zed settings and an external <code>gdformat</code> command. It is not provided by the Rust extension itself.</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Install gdformat</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">pip</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> install</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> gdformat</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Format on save (in settings.json)</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">"format_on_save"</span><span style="color:#005CC5;--shiki-dark:#79B8FF">:</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> "on"</span></span></code></pre>
+<hr>
+<h2 id="user-content-testing--validation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#testing--validation"><span class="heading-anchor-icon">#</span></a>Testing &#x26; Validation</h2>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Repository structure, tests, and WASM build</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">./scripts/validate.sh</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># Unit tests only</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> test</span></span></code></pre>
+<p><code>scripts/validate.sh</code> checks file structure, runs <code>cargo test</code>, and attempts a <code>wasm32-wasip1</code> build. The CI workflow runs the same checks automatically.</p>
+<h3 id="user-content-release-readiness-checklist"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#release-readiness-checklist"><span class="heading-anchor-icon">#</span></a>Release-readiness checklist</h3>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled> Extension loads in Zed</li>
+<li class="task-list-item"><input type="checkbox" disabled> GDScript files recognized</li>
+<li class="task-list-item"><input type="checkbox" disabled> LSP connection established</li>
+<li class="task-list-item"><input type="checkbox" disabled> Autocomplete works</li>
+<li class="task-list-item"><input type="checkbox" disabled> Syntax highlighting correct</li>
+<li class="task-list-item"><input type="checkbox" disabled> Debugging functional</li>
+<li class="task-list-item"><input type="checkbox" disabled> Formatting works</li>
+<li class="task-list-item"><input type="checkbox" disabled> Zed-compatible WebAssembly artifact verified to load in Zed</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> Automated tests added (<code>cargo test</code>)</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> CI workflow passing</li>
+</ul>
+<hr>
+<h2 id="user-content-contributing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#contributing"><span class="heading-anchor-icon">#</span></a>Contributing</h2>
+<p>See <a href="https://github.com/casoon/zed-godot-enhanced/blob/HEAD/CONTRIBUTING.md" target="_blank" rel="noopener">CONTRIBUTING.md</a> for setup, build, and workflow instructions.</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">git</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> clone</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> https://github.com/casoon/zed-godot-enhanced.git</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">cd</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> zed-godot-enhanced</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">rustup</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> target</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> add</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> wasm32-wasip1</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> test</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">./scripts/validate.sh</span></span></code></pre>
+<hr>
+<h2 id="user-content-documentation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#documentation"><span class="heading-anchor-icon">#</span></a>Documentation</h2>
+<p>The repository currently contains these docs:</p>
+<ul>
+<li><a href="https://github.com/casoon/zed-godot-enhanced/blob/HEAD/QUICKSTART.md" target="_blank" rel="noopener">Quickstart</a></li>
+<li><a href="https://github.com/casoon/zed-godot-enhanced/blob/HEAD/MANUAL_INSTALL.md" target="_blank" rel="noopener">Manual install notes</a></li>
+<li><a href="https://github.com/casoon/zed-godot-enhanced/blob/HEAD/INSTALL_STEPS.md" target="_blank" rel="noopener">Install steps</a></li>
+<li><a href="https://github.com/casoon/zed-godot-enhanced/blob/HEAD/TESTING_GUIDE.md" target="_blank" rel="noopener">Testing guide</a></li>
+<li><a href="https://github.com/casoon/zed-godot-enhanced/blob/HEAD/PROJECT_SUMMARY.md" target="_blank" rel="noopener">Project summary</a></li>
+<li><a href="https://github.com/casoon/zed-godot-enhanced/blob/HEAD/TODO.md" target="_blank" rel="noopener">TODO</a></li>
+</ul>
+<hr>
+<h2 id="user-content-credits"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#credits"><span class="heading-anchor-icon">#</span></a>Credits</h2>
+<p>Based on <a href="https://github.com/GDQuest/zed-gdscript">GDQuest's zed-gdscript</a> extension.</p>
+<p><strong>Original Authors:</strong></p>
+<ul>
+<li>Mark Brand (@grndctrl)</li>
+<li>Richard Taylor (@moomerman)</li>
+<li>Radu Gafita (@radugaf)</li>
+<li>Nathan Lovato (@NathanLovato)</li>
+</ul>
+<p><strong>Enhanced by:</strong></p>
+<ul>
+<li>Jörn Seidel (@casoon)</li>
+</ul>
+<hr>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>MIT License - see <a href="https://github.com/casoon/zed-godot-enhanced/blob/HEAD/LICENSE" target="_blank" rel="noopener">LICENSE</a> file.</p>
+<hr>
+<h2 id="user-content-links"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#links"><span class="heading-anchor-icon">#</span></a>Links</h2>
+<ul>
+<li><strong>GitHub</strong>: <a href="https://github.com/casoon/zed-godot-enhanced">https://github.com/casoon/zed-godot-enhanced</a></li>
+<li><strong>Issues</strong>: <a href="https://github.com/casoon/zed-godot-enhanced/issues">https://github.com/casoon/zed-godot-enhanced/issues</a></li>
+<li><strong>Zed Editor</strong>: <a href="https://zed.dev">https://zed.dev</a></li>
+<li><strong>Godot Engine</strong>: <a href="https://godotengine.org">https://godotengine.org</a></li>
+</ul>
+<hr>
+<h2 id="user-content-roadmap"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#roadmap"><span class="heading-anchor-icon">#</span></a>Roadmap</h2>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" checked disabled> Correct README and project status claims</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> Document Zed local extension install path (macOS + Linux)</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> Add real automated tests (<code>cargo test</code>)</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> Add CI workflow (fmt, clippy, test, WASM build)</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> CONTRIBUTING.md and install documentation</li>
+<li class="task-list-item"><input type="checkbox" disabled> Verify WebAssembly artifact loads in Zed</li>
+<li class="task-list-item"><input type="checkbox" disabled> LSP and debug end-to-end smoke validation</li>
+</ul>
+<hr>
+<p>Made for the Godot and Zed community.</p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>
