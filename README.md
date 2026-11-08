@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1937** |
 | In official registry | 1365 |
 | Discovered via topics | 572 |
-| Last updated | 2026-11-08 12:44 UTC |
+| Last updated | 2026-11-08 18:44 UTC |
 
 ### By capability
 
@@ -70,7 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
-| [273Do/zed-comment-translate](https://github.com/273Do/zed-comment-translate) | 0 | Read documentation in your own language in Zed's hover popups, translated with G... |
+| [273Do/zed-comment-translate](https://github.com/273Do/zed-comment-translate) | 1 | Read documentation in your own language in Zed's hover popups, translated with G... |
 | [273Do/zed-comment-translator](https://github.com/273Do/zed-comment-translator) | 0 | Read documentation in your own language in Zed's hover popups, translated with G... |
 | [casoon/zed-godot-enhanced](https://github.com/casoon/zed-godot-enhanced) | 3 | Zed Godot Enhanced ExtensionComplete Godot support for Zed Editor with LSP, Debu... |
 | [koroblabs/phrost-zed](https://github.com/koroblabs/phrost-zed) | 0 | phrost for Zed: a fast, lean PHP language server with strict types and Drupal an... |
@@ -120,10 +120,13 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [simd-labs/zed-asm-intrinsics](https://github.com/simd-labs/zed-asm-intrinsics) | 0 | 2026-11-08 | Zed extension: simdref instruction briefs as inlay hints in ... |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 3 | 2026-11-08 | Intelligent codebase search & indexing for Zed. Async MCP se... |
+| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-11-08 | A Zed extension that allows to highlight all occurrences of ... |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 13 | 2026-11-08 | Spring Boot language intelligence for Zed, powered by the of... |
+| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 190 | 2026-11-08 | 🦊 Zed editor theme ported from Neovim |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-11-08 | Zed editor support for Carve, a modern light markup language |
-| [273Do/zed-comment-translate](https://github.com/273Do/zed-comment-translate) | 0 | 2026-11-08 | Read documentation in your own language in Zed's hover popup... |
+| [273Do/zed-comment-translate](https://github.com/273Do/zed-comment-translate) | 1 | 2026-11-08 | Read documentation in your own language in Zed's hover popup... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 101 | 2026-11-08 | True Dark Theme for Zed IDE |
 | [livetennisapi/zed-livetennis-mcp](https://github.com/livetennisapi/zed-livetennis-mcp) | 1 | 2026-11-08 | Zed extension that runs the Live Tennis MCP server. Real-tim... |
 | [273Do/zed-comment-translator](https://github.com/273Do/zed-comment-translator) | 0 | 2026-11-08 | Read documentation in your own language in Zed's hover popup... |
@@ -134,17 +137,15 @@ cd website && npm install && npm run dev
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 140 | 2026-11-07 | The Ruby language support for Zed editor |
 | [chelpav/zed-db-tools-sql](https://github.com/chelpav/zed-db-tools-sql) | 0 | 2026-11-07 | Zed extension: SQL + Jinja2 highlighting for *.sql.tmpl temp... |
 | [shnarazk/zed-lean4](https://github.com/shnarazk/zed-lean4) | 3 | 2026-11-07 | Zed extension to support Lean4 language |
-| [simd-labs/zed-asm-intrinsics](https://github.com/simd-labs/zed-asm-intrinsics) | 0 | 2026-11-07 | Zed extension: simdref instruction briefs as inlay hints in ... |
 | [koroblabs/phrost-zed](https://github.com/koroblabs/phrost-zed) | 0 | 2026-11-06 | phrost for Zed: a fast, lean PHP language server with strict... |
-| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-11-06 | A Zed extension that allows to highlight all occurrences of ... |
 | [koroblabs/orthra-zed](https://github.com/koroblabs/orthra-zed) | 0 | 2026-11-06 | orthra for Zed: fast, quiet spell checking for code and pros... |
 | [klarlanguage/klar-zed](https://github.com/klarlanguage/klar-zed) | 1 | 2026-11-06 | 🦓 Klar support for Zed |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 222 | 2026-11-06 | Zed plugin for automatic time tracking and metrics generated... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-11-08T18:44 | 2 | 735 | 2450 |
 | 2026-11-08T12:44 | 1 | 734 | 2448 |
 | 2026-11-08T06:43 | 1 | 734 | 2447 |
 | 2026-11-08T00:51 | 0 | 734 | 2446 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-11-07T00:48 | 3 | 731 | 2444 |
 | 2026-11-06T18:44 | 3 | 731 | 2441 |
 | 2026-11-06T12:44 | 6 | 731 | 2438 |
-| 2026-11-06T06:44 | 0 | 731 | 2432 |
 
 ---
 
