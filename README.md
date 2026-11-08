@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1935** |
 | In official registry | 1365 |
 | Discovered via topics | 570 |
-| Last updated | 2026-11-07 18:43 UTC |
+| Last updated | 2026-11-08 00:51 UTC |
 
 ### By capability
 
@@ -105,7 +105,7 @@ cd website && npm install && npm run dev
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 207 | Typst extension for zed |
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
-| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 191 | 🦊 Zed editor theme ported from Neovim |
+| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 189 | 🦊 Zed editor theme ported from Neovim |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 176 | A macOS native style theme for Zed, let it same like native app in macOS. |
@@ -120,8 +120,9 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [lmn451/css-variables-zed](https://github.com/lmn451/css-variables-zed) | 8 | 2026-11-07 | Project-wide CSS custom property intelligence for Zed: compl... |
 | [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 1 | 2026-11-07 | Zed extension that formats and lints HTML templates with djL... |
+| [rockettap/renpy-zed](https://github.com/rockettap/renpy-zed) | 0 | 2026-11-07 | Ren'Py language support for Zed: syntax highlighting, Python... |
+| [lmn451/css-variables-zed](https://github.com/lmn451/css-variables-zed) | 8 | 2026-11-07 | Project-wide CSS custom property intelligence for Zed: compl... |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 140 | 2026-11-07 | The Ruby language support for Zed editor |
 | [chelpav/zed-db-tools-sql](https://github.com/chelpav/zed-db-tools-sql) | 0 | 2026-11-07 | Zed extension: SQL + Jinja2 highlighting for *.sql.tmpl temp... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 101 | 2026-11-07 | True Dark Theme for Zed IDE |
@@ -131,7 +132,6 @@ cd website && npm install && npm run dev
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-11-06 | A Zed extension that allows to highlight all occurrences of ... |
 | [koroblabs/orthra-zed](https://github.com/koroblabs/orthra-zed) | 0 | 2026-11-06 | orthra for Zed: fast, quiet spell checking for code and pros... |
 | [klarlanguage/klar-zed](https://github.com/klarlanguage/klar-zed) | 1 | 2026-11-06 | 🦓 Klar support for Zed |
-| [rockettap/renpy-zed](https://github.com/rockettap/renpy-zed) | 0 | 2026-11-06 | Ren'Py language support for Zed: syntax highlighting, Python... |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 222 | 2026-11-06 | Zed plugin for automatic time tracking and metrics generated... |
 | [Frixuu/Zed-Haxe](https://github.com/Frixuu/Zed-Haxe) | 23 | 2026-11-06 | LSP support & syntax highlighting for Haxe. |
 | [ihormanzii/zed-lull-theme](https://github.com/ihormanzii/zed-lull-theme) | 0 | 2026-11-06 | Lull: calm, neutral dark and light themes for Zed with soft ... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-11-08T00:51 | 0 | 734 | 2446 |
 | 2026-11-07T18:43 | 1 | 734 | 2446 |
 | 2026-11-07T12:44 | 0 | 734 | 2445 |
 | 2026-11-07T06:44 | 1 | 733 | 2445 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-11-06T06:44 | 0 | 731 | 2432 |
 | 2026-11-06T00:50 | 0 | 731 | 2432 |
 | 2026-11-05T18:43 | 0 | 731 | 2432 |
-| 2026-11-05T12:44 | 3 | 728 | 2432 |
 
 ---
 
