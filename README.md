@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1935-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1936-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,10 +14,10 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1935** |
+| Total tracked | **1936** |
 | In official registry | 1365 |
-| Discovered via topics | 570 |
-| Last updated | 2026-11-08 00:51 UTC |
+| Discovered via topics | 571 |
+| Last updated | 2026-11-08 06:43 UTC |
 
 ### By capability
 
@@ -25,7 +25,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 |------|-------|
 | Themes | 831 |
 | Grammars | 666 |
-| Language Servers | 625 |
+| Language Servers | 626 |
 | Context Servers | 149 |
 | Snippets | 97 |
 | Slash Commands | 63 |
@@ -70,6 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [273Do/zed-comment-translator](https://github.com/273Do/zed-comment-translator) | 0 | Read documentation in your own language in Zed's hover popups, translated with G... |
 | [casoon/zed-godot-enhanced](https://github.com/casoon/zed-godot-enhanced) | 3 | Zed Godot Enhanced ExtensionComplete Godot support for Zed Editor with LSP, Debu... |
 | [koroblabs/phrost-zed](https://github.com/koroblabs/phrost-zed) | 0 | phrost for Zed: a fast, lean PHP language server with strict types and Drupal an... |
 | [koroblabs/orthra-zed](https://github.com/koroblabs/orthra-zed) | 0 | orthra for Zed: fast, quiet spell checking for code and prose. Downloads the ort... |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [RenaudDenis/cursor-zed](https://github.com/RenaudDenis/cursor-zed) | 1 | Cursor Dark and Cursor Light for Zed, generated from the themes that ship with C... |
 | [djlint/zed-djlint](https://github.com/djlint/zed-djlint) | 0 | Zed extension that formats and lints HTML templates with djLint. Supports Django... |
 | [rok-lang/rok.zed](https://github.com/rok-lang/rok.zed) | 1 | Zed extension for Rok |
-| [faxforagents/zed-extension](https://github.com/faxforagents/zed-extension) | 0 | Zed extension (id faxforagents-mcp-server) that runs the Fax for Agents MCP serv... |
 
 ## Top starred (under 500)
 
@@ -105,11 +105,11 @@ cd website && npm install && npm run dev
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 207 | Typst extension for zed |
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
-| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 189 | 🦊 Zed editor theme ported from Neovim |
+| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 190 | 🦊 Zed editor theme ported from Neovim |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 176 | A macOS native style theme for Zed, let it same like native app in macOS. |
-| [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 158 |  |
+| [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 159 |  |
 | [zed-extensions/swift](https://github.com/zed-extensions/swift) | 148 | Extension for Zed to support Swift |
 | [thedadams/zed-comment](https://github.com/thedadams/zed-comment) | 148 | A comment extension for the Zed editor |
 | [slymax/zedokai](https://github.com/slymax/zedokai) | 145 | a theme for Zed based on the Monokai Pro color scheme |
@@ -120,6 +120,9 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [livetennisapi/zed-livetennis-mcp](https://github.com/livetennisapi/zed-livetennis-mcp) | 1 | 2026-11-08 | Zed extension that runs the Live Tennis MCP server. Real-tim... |
+| [273Do/zed-comment-translator](https://github.com/273Do/zed-comment-translator) | 0 | 2026-11-08 | Read documentation in your own language in Zed's hover popup... |
+| [faxforagents/zed-extension](https://github.com/faxforagents/zed-extension) | 0 | 2026-11-08 | Zed extension (id faxforagents-mcp-server) that runs the Fax... |
 | [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 1 | 2026-11-07 | Zed extension that formats and lints HTML templates with djL... |
 | [rockettap/renpy-zed](https://github.com/rockettap/renpy-zed) | 0 | 2026-11-07 | Ren'Py language support for Zed: syntax highlighting, Python... |
 | [lmn451/css-variables-zed](https://github.com/lmn451/css-variables-zed) | 8 | 2026-11-07 | Project-wide CSS custom property intelligence for Zed: compl... |
@@ -137,14 +140,12 @@ cd website && npm install && npm run dev
 | [ihormanzii/zed-lull-theme](https://github.com/ihormanzii/zed-lull-theme) | 0 | 2026-11-06 | Lull: calm, neutral dark and light themes for Zed with soft ... |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-11-06 | Zed editor support for Carve, a modern light markup language |
 | [uncenter/zed-tera](https://github.com/uncenter/zed-tera) | 19 | 2026-11-05 | ⛩️ Zed extension for the Tera templating language. |
-| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 13 | 2026-11-05 | Spring Boot language intelligence for Zed, powered by the of... |
-| [heritage-themes/heritage-themes-zed](https://github.com/heritage-themes/heritage-themes-zed) | 0 | 2026-11-05 |  |
-| [wielorzeczownik/zed-volt](https://github.com/wielorzeczownik/zed-volt) | 0 | 2026-11-05 | Phalcon Volt template support for Zed: syntax highlighting a... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-11-08T06:43 | 1 | 734 | 2447 |
 | 2026-11-08T00:51 | 0 | 734 | 2446 |
 | 2026-11-07T18:43 | 1 | 734 | 2446 |
 | 2026-11-07T12:44 | 0 | 734 | 2445 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-11-06T12:44 | 6 | 731 | 2438 |
 | 2026-11-06T06:44 | 0 | 731 | 2432 |
 | 2026-11-06T00:50 | 0 | 731 | 2432 |
-| 2026-11-05T18:43 | 0 | 731 | 2432 |
 
 ---
 
