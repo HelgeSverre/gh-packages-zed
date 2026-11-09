@@ -1633,5 +1633,32 @@
     "official": false,
     "archived_at": "2026-10-27T12:59:22.407Z",
     "archive_reason": "Stale: not seen in search results and last pushed 467 days ago"
+  },
+  "wlh320/rime-ls": {
+    "name": "wlh320/rime-ls",
+    "url": "https://github.com/wlh320/rime-ls",
+    "description": "A language server that provides input method functionality using librime 通过 LSP 代码补全使用 Rime 输入法",
+    "stars": 304,
+    "forks": 18,
+    "topics": [
+      "helix",
+      "input-method",
+      "librime",
+      "lsp",
+      "lsp-server",
+      "neovim",
+      "nvim",
+      "rime",
+      "vim",
+      "zed"
+    ],
+    "language": "Rust",
+    "license": "BSD-3-Clause",
+    "created_at": "2023-01-12T12:48:36Z",
+    "updated_at": "2026-05-17T06:53:13Z",
+    "pushed_at": "2025-11-09T03:19:12Z",
+    "discovered_at": "2026-05-19T19:54:12.054Z",
+    "archived_at": "2026-11-09T06:51:57.816Z",
+    "archive_reason": "Stale: not seen in search results and last pushed 365 days ago"
   }
 }

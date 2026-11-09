@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1938** |
 | In official registry | 1365 |
 | Discovered via topics | 573 |
-| Last updated | 2026-11-09 00:52 UTC |
+| Last updated | 2026-11-09 06:51 UTC |
 
 ### By capability
 
@@ -120,31 +120,32 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [wielorzeczownik/zed-volt](https://github.com/wielorzeczownik/zed-volt) | 0 | 2026-11-09 | Phalcon Volt template support for Zed: syntax highlighting a... |
+| [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 1 | 2026-11-09 | Zed extension that formats and lints HTML templates with djL... |
 | [livetennisapi/zed-livetennis-mcp](https://github.com/livetennisapi/zed-livetennis-mcp) | 1 | 2026-11-09 | Zed extension that runs the Live Tennis MCP server. Real-tim... |
 | [koroblabs/orthra-zed](https://github.com/koroblabs/orthra-zed) | 0 | 2026-11-09 | orthra for Zed: fast, quiet spell checking for code and pros... |
 | [simd-labs/zed-asm-intrinsics](https://github.com/simd-labs/zed-asm-intrinsics) | 0 | 2026-11-08 | Zed extension: simdref instruction briefs as inlay hints in ... |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 3 | 2026-11-08 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [MistanKh/grok-theme](https://github.com/MistanKh/grok-theme) | 0 | 2026-11-08 | Grok Obsidian and Grok Parchment themes for Zed (unofficial)... |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-11-08 | A Zed extension that allows to highlight all occurrences of ... |
-| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 13 | 2026-11-08 | Spring Boot language intelligence for Zed, powered by the of... |
+| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 14 | 2026-11-08 | Spring Boot language intelligence for Zed, powered by the of... |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 190 | 2026-11-08 | 🦊 Zed editor theme ported from Neovim |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-11-08 | Zed editor support for Carve, a modern light markup language |
 | [273Do/zed-comment-translate](https://github.com/273Do/zed-comment-translate) | 1 | 2026-11-08 | Read documentation in your own language in Zed's hover popup... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 101 | 2026-11-08 | True Dark Theme for Zed IDE |
 | [273Do/zed-comment-translator](https://github.com/273Do/zed-comment-translator) | 0 | 2026-11-08 | Read documentation in your own language in Zed's hover popup... |
 | [faxforagents/zed-extension](https://github.com/faxforagents/zed-extension) | 0 | 2026-11-08 | Zed extension (id faxforagents-mcp-server) that runs the Fax... |
-| [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 1 | 2026-11-07 | Zed extension that formats and lints HTML templates with djL... |
 | [rockettap/renpy-zed](https://github.com/rockettap/renpy-zed) | 0 | 2026-11-07 | Ren'Py language support for Zed: syntax highlighting, Python... |
 | [lmn451/css-variables-zed](https://github.com/lmn451/css-variables-zed) | 8 | 2026-11-07 | Project-wide CSS custom property intelligence for Zed: compl... |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 140 | 2026-11-07 | The Ruby language support for Zed editor |
 | [chelpav/zed-db-tools-sql](https://github.com/chelpav/zed-db-tools-sql) | 0 | 2026-11-07 | Zed extension: SQL + Jinja2 highlighting for *.sql.tmpl temp... |
 | [shnarazk/zed-lean4](https://github.com/shnarazk/zed-lean4) | 3 | 2026-11-07 | Zed extension to support Lean4 language |
-| [koroblabs/phrost-zed](https://github.com/koroblabs/phrost-zed) | 0 | 2026-11-06 | phrost for Zed: a fast, lean PHP language server with strict... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-11-09T06:51 | 0 | 740 | 2452 |
 | 2026-11-09T00:52 | 3 | 737 | 2453 |
 | 2026-11-08T18:44 | 2 | 735 | 2450 |
 | 2026-11-08T12:44 | 1 | 734 | 2448 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-11-07T12:44 | 0 | 734 | 2445 |
 | 2026-11-07T06:44 | 1 | 733 | 2445 |
 | 2026-11-07T00:48 | 3 | 731 | 2444 |
-| 2026-11-06T18:44 | 3 | 731 | 2441 |
 
 ---
 

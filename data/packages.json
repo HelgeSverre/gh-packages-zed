@@ -2343,7 +2343,7 @@
     "name": "chopratejas/headroom-zed",
     "url": "https://github.com/chopratejas/headroom-zed",
     "description": "Zed extension for Headroom — context compression for AI agents",
-    "stars": 68,
+    "stars": 67,
     "forks": 15,
     "topics": [
       "ai-agents",
@@ -2360,7 +2360,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-03-18T16:55:33Z",
-    "updated_at": "2026-11-07T20:03:54Z",
+    "updated_at": "2026-11-09T05:16:20Z",
     "pushed_at": "2026-03-18T16:55:38Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
@@ -5130,7 +5130,7 @@
     "name": "Dylanmurzello/zed-android-port",
     "url": "https://github.com/Dylanmurzello/zed-android-port",
     "description": "Native Android port of the Zed code editor,  gpui rendering through Vulkan, integrated Termux for LSPs and tooling, remote SSH support. Runs as an APK on tablets and Android desktop modes.",
-    "stars": 254,
+    "stars": 255,
     "forks": 22,
     "topics": [
       "android",
@@ -5157,7 +5157,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-05-07T00:12:10Z",
-    "updated_at": "2026-11-08T17:25:35Z",
+    "updated_at": "2026-11-09T06:44:49Z",
     "pushed_at": "2026-11-07T22:12:24Z",
     "discovered_at": "2026-05-19T19:54:12.053Z",
     "official": false
@@ -8002,31 +8002,6 @@
     "created_at": "2024-05-14T14:40:24Z",
     "updated_at": "2026-02-13T06:32:17Z",
     "pushed_at": "2025-11-21T23:09:59Z",
-    "discovered_at": "2026-05-19T19:54:12.054Z"
-  },
-  "wlh320/rime-ls": {
-    "name": "wlh320/rime-ls",
-    "url": "https://github.com/wlh320/rime-ls",
-    "description": "A language server that provides input method functionality using librime 通过 LSP 代码补全使用 Rime 输入法",
-    "stars": 304,
-    "forks": 18,
-    "topics": [
-      "helix",
-      "input-method",
-      "librime",
-      "lsp",
-      "lsp-server",
-      "neovim",
-      "nvim",
-      "rime",
-      "vim",
-      "zed"
-    ],
-    "language": "Rust",
-    "license": "BSD-3-Clause",
-    "created_at": "2023-01-12T12:48:36Z",
-    "updated_at": "2026-05-17T06:53:13Z",
-    "pushed_at": "2025-11-09T03:19:12Z",
     "discovered_at": "2026-05-19T19:54:12.054Z"
   },
   "davidlee18/zed_norminette": {
@@ -15355,7 +15330,7 @@
     "name": "agent-sh/agnix",
     "url": "https://github.com/agent-sh/agnix",
     "description": "The missing linter and lsp for AI coding assistants. Validate CLAUDE.md, AGENTS.md, SKILL.md, hooks, MCP. Plugin for all major IDEs included, with autofixes.",
-    "stars": 474,
+    "stars": 475,
     "forks": 36,
     "topics": [
       "agent",
@@ -15382,7 +15357,7 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
-    "updated_at": "2026-11-08T19:39:29Z",
+    "updated_at": "2026-11-09T04:59:56Z",
     "pushed_at": "2026-11-08T08:12:31Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
@@ -17946,8 +17921,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-11-08T18:44:46Z",
-    "pushed_at": "2026-11-08T18:44:42Z",
+    "updated_at": "2026-11-09T00:52:31Z",
+    "pushed_at": "2026-11-09T00:52:27Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -28862,8 +28837,8 @@
     "language": "Go",
     "license": "MIT",
     "created_at": "2026-03-09T09:38:48Z",
-    "updated_at": "2026-11-08T23:09:59Z",
-    "pushed_at": "2026-11-08T23:09:57Z",
+    "updated_at": "2026-11-09T02:28:51Z",
+    "pushed_at": "2026-11-09T02:28:49Z",
     "discovered_at": "2026-05-25T18:33:55.225Z",
     "official": false
   },
@@ -31087,8 +31062,8 @@
     "language": "TypeScript",
     "license": "MIT",
     "created_at": "2026-05-02T07:08:10Z",
-    "updated_at": "2026-11-08T05:48:49Z",
-    "pushed_at": "2026-11-08T05:49:34Z",
+    "updated_at": "2026-11-09T05:41:11Z",
+    "pushed_at": "2026-11-09T05:41:05Z",
     "discovered_at": "2026-06-22T00:44:44.144Z",
     "official": false
   },
@@ -32247,8 +32222,8 @@
     "language": "TypeScript",
     "license": "MIT",
     "created_at": "2025-09-04T13:25:25Z",
-    "updated_at": "2026-11-08T05:08:02Z",
-    "pushed_at": "2026-11-01T05:08:19Z",
+    "updated_at": "2026-11-09T05:29:37Z",
+    "pushed_at": "2026-11-09T05:29:33Z",
     "discovered_at": "2026-07-12T13:04:37.755Z",
     "official": false
   },
@@ -32625,7 +32600,7 @@
     "name": "luceat-lux-vestra/zed-spring-tools",
     "url": "https://github.com/luceat-lux-vestra/zed-spring-tools",
     "description": "Spring Boot language intelligence for Zed, powered by the official standalone Spring Tools language server. Complements Zed's Java extension. Registry publication pending.",
-    "stars": 13,
+    "stars": 14,
     "forks": 1,
     "topics": [
       "java",
@@ -32640,7 +32615,7 @@
     "language": "JavaScript",
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
-    "updated_at": "2026-11-08T13:38:43Z",
+    "updated_at": "2026-11-09T06:36:51Z",
     "pushed_at": "2026-11-08T13:41:18Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false
@@ -38352,7 +38327,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-09-21T20:10:00Z",
     "updated_at": "2026-11-07T05:48:50Z",
-    "pushed_at": "2026-11-08T18:38:06Z",
+    "pushed_at": "2026-11-09T06:29:53Z",
     "discovered_at": "2026-09-21T22:12:12.101Z",
     "official": false
   },
@@ -42600,8 +42575,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-11-01T01:34:22Z",
-    "updated_at": "2026-11-07T20:30:23Z",
-    "pushed_at": "2026-11-07T20:30:20Z",
+    "updated_at": "2026-11-09T03:13:44Z",
+    "pushed_at": "2026-11-09T03:13:40Z",
     "discovered_at": "2026-11-01T12:43:52.373Z",
     "official": false
   },
@@ -42735,8 +42710,8 @@
     "language": "Shell",
     "license": "MIT",
     "created_at": "2026-11-02T21:19:09Z",
-    "updated_at": "2026-11-05T18:24:12Z",
-    "pushed_at": "2026-11-05T18:26:09Z",
+    "updated_at": "2026-11-09T04:29:21Z",
+    "pushed_at": "2026-11-09T04:29:18Z",
     "discovered_at": "2026-11-03T00:49:46.905Z",
     "official": false
   },
@@ -43196,8 +43171,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-11-06T18:51:48Z",
-    "updated_at": "2026-11-08T23:59:51Z",
-    "pushed_at": "2026-11-08T23:59:42Z",
+    "updated_at": "2026-11-09T00:52:58Z",
+    "pushed_at": "2026-11-09T00:52:54Z",
     "discovered_at": "2026-11-07T00:48:16.621Z",
     "official": false
   },
