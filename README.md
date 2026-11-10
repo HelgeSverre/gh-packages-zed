@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1939** |
 | In official registry | 1365 |
 | Discovered via topics | 574 |
-| Last updated | 2026-11-09 18:44 UTC |
+| Last updated | 2026-11-10 00:49 UTC |
 
 ### By capability
 
@@ -120,6 +120,8 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 1 | 2026-11-09 | Zed extension that formats and lints HTML templates with djL... |
+| [simd-labs/zed-asm-intrinsics](https://github.com/simd-labs/zed-asm-intrinsics) | 0 | 2026-11-09 | Zed extension: simdref instruction briefs as inlay hints in ... |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 3 | 2026-11-09 | Intelligent codebase search & indexing for Zed. Async MCP se... |
 | [MistanKh/grok-theme](https://github.com/MistanKh/grok-theme) | 0 | 2026-11-09 | Grok Obsidian and Grok Parchment themes for Zed (unofficial)... |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 14 | 2026-11-09 | Spring Boot language intelligence for Zed, powered by the of... |
@@ -128,10 +130,8 @@ cd website && npm install && npm run dev
 | [ournuu/zed-hashlink-debugger](https://github.com/ournuu/zed-hashlink-debugger) | 1 | 2026-11-09 | Vibecoded HashLink debugger for Zed |
 | [steimerbyte/gruvbox-amoled](https://github.com/steimerbyte/gruvbox-amoled) | 0 | 2026-11-09 | Pure-black Gruvbox themes for Zed (AMOLED Hard/Medium/Soft) ... |
 | [wielorzeczownik/zed-volt](https://github.com/wielorzeczownik/zed-volt) | 0 | 2026-11-09 | Phalcon Volt template support for Zed: syntax highlighting a... |
-| [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 1 | 2026-11-09 | Zed extension that formats and lints HTML templates with djL... |
 | [livetennisapi/zed-livetennis-mcp](https://github.com/livetennisapi/zed-livetennis-mcp) | 1 | 2026-11-09 | Zed extension that runs the Live Tennis MCP server. Real-tim... |
 | [koroblabs/orthra-zed](https://github.com/koroblabs/orthra-zed) | 0 | 2026-11-09 | orthra for Zed: fast, quiet spell checking for code and pros... |
-| [simd-labs/zed-asm-intrinsics](https://github.com/simd-labs/zed-asm-intrinsics) | 0 | 2026-11-08 | Zed extension: simdref instruction briefs as inlay hints in ... |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-11-08 | A Zed extension that allows to highlight all occurrences of ... |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 190 | 2026-11-08 | 🦊 Zed editor theme ported from Neovim |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-11-08 | Zed editor support for Carve, a modern light markup language |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-11-10T00:49 | 0 | 741 | 2453 |
 | 2026-11-09T18:44 | 0 | 741 | 2453 |
 | 2026-11-09T12:43 | 1 | 740 | 2453 |
 | 2026-11-09T06:51 | 0 | 740 | 2452 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-11-08T06:43 | 1 | 734 | 2447 |
 | 2026-11-08T00:51 | 0 | 734 | 2446 |
 | 2026-11-07T18:43 | 1 | 734 | 2446 |
-| 2026-11-07T12:44 | 0 | 734 | 2445 |
 
 ---
 
