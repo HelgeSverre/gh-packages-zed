@@ -128,7 +128,7 @@
     "url": "https://github.com/GDQuest/zed-gdscript",
     "description": "Zed support for the Godot game engine and the GDScript language",
     "stars": 213,
-    "forks": 25,
+    "forks": 26,
     "topics": [
       "code-editor",
       "godot",
@@ -158,8 +158,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-11-10T00:53:48Z",
-    "pushed_at": "2026-11-09T08:44:00Z",
+    "updated_at": "2026-11-10T08:51:55Z",
+    "pushed_at": "2026-11-10T08:51:51Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -855,7 +855,7 @@
     "url": "https://github.com/kartikvashistha/zed-ansible",
     "description": "Ansible Extension for the Zed editor",
     "stars": 63,
-    "forks": 8,
+    "forks": 9,
     "topics": [
       "ansible",
       "zed-editor",
@@ -8639,7 +8639,7 @@
     "url": "https://github.com/zed-extensions/kotlin",
     "description": "Kotlin support",
     "stars": 109,
-    "forks": 38,
+    "forks": 37,
     "topics": [],
     "language": "Rust",
     "license": "MIT",
@@ -11634,7 +11634,7 @@
     "name": "Pvxlabs/pine-script-zed",
     "url": "https://github.com/Pvxlabs/pine-script-zed",
     "description": "Pine Script language support for Zed.",
-    "stars": 4,
+    "stars": 5,
     "forks": 1,
     "topics": [
       "editor",
@@ -11649,7 +11649,7 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2026-04-02T09:24:35Z",
-    "updated_at": "2026-08-05T18:07:47Z",
+    "updated_at": "2026-11-10T09:27:48Z",
     "pushed_at": "2026-07-20T16:59:09Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": true
@@ -17921,8 +17921,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-11-10T00:50:08Z",
-    "pushed_at": "2026-11-10T00:50:03Z",
+    "updated_at": "2026-11-10T06:44:54Z",
+    "pushed_at": "2026-11-10T06:44:49Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -28519,7 +28519,7 @@
     "name": "yuzukq/zed-theme-Resonance-with-HatsuneMiku",
     "url": "https://github.com/yuzukq/zed-theme-Resonance-with-HatsuneMiku",
     "description": "A Zed theme inspired by Hatsune Miku's teal and pink. Dark and light variants, with syntax colors in three lightness tiers by importance and evenly stepped panel layers to keep code in focus.",
-    "stars": 1,
+    "stars": 2,
     "forks": 0,
     "topics": [
       "hatsune-miku",
@@ -28528,7 +28528,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-05-02T15:28:06Z",
-    "updated_at": "2026-10-24T19:22:33Z",
+    "updated_at": "2026-11-10T11:40:02Z",
     "pushed_at": "2026-09-28T16:45:49Z",
     "discovered_at": "2026-05-20T18:48:09.721Z",
     "official": true
@@ -28837,8 +28837,8 @@
     "language": "Go",
     "license": "MIT",
     "created_at": "2026-03-09T09:38:48Z",
-    "updated_at": "2026-11-09T15:11:31Z",
-    "pushed_at": "2026-11-09T15:12:23Z",
+    "updated_at": "2026-11-10T12:34:32Z",
+    "pushed_at": "2026-11-10T12:34:30Z",
     "discovered_at": "2026-05-25T18:33:55.225Z",
     "official": false
   },
@@ -29920,7 +29920,7 @@
     "name": "nMaroulis/protoagent",
     "url": "https://github.com/nMaroulis/protoagent",
     "description": "A blazing-fast, local-first AI agent ecosystem. Orchestrate local LLMs with Python, run them in a native Rust terminal, or integrate directly into your editor via ACP.",
-    "stars": 13,
+    "stars": 14,
     "forks": 1,
     "topics": [
       "agent-client-protocol",
@@ -29939,7 +29939,7 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-06-09T22:36:14Z",
-    "updated_at": "2026-11-03T06:39:02Z",
+    "updated_at": "2026-11-10T09:23:00Z",
     "pushed_at": "2026-10-19T12:46:24Z",
     "discovered_at": "2026-06-10T00:43:30.823Z",
     "official": false
@@ -31907,7 +31907,7 @@
   "mansio/mscodebase-intelligence": {
     "name": "ManSio/mscodebase-intelligence",
     "url": "https://github.com/ManSio/mscodebase-intelligence",
-    "description": "Intelligent codebase search & indexing for Zed. Async MCP server featuring LanceDB/BM25 hybrid search, multi-bucket RAG, and autonomous self-healing workflows. High-performance, memory-safe, and ready for your production code.",
+    "description": "Intelligent codebase search & indexing . Async MCP server featuring LanceDB/BM25 hybrid search, multi-bucket RAG, and autonomous self-healing workflows. High-performance, memory-safe, and ready for your production code.",
     "stars": 3,
     "forks": 0,
     "topics": [
@@ -31932,8 +31932,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
-    "updated_at": "2026-11-10T06:38:40Z",
-    "pushed_at": "2026-11-10T06:38:33Z",
+    "updated_at": "2026-11-10T10:47:54Z",
+    "pushed_at": "2026-11-10T12:40:04Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false
   },
@@ -36846,8 +36846,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-09-07T16:00:35Z",
-    "updated_at": "2026-11-10T04:39:53Z",
-    "pushed_at": "2026-11-10T04:39:47Z",
+    "updated_at": "2026-11-10T11:22:04Z",
+    "pushed_at": "2026-11-10T11:21:59Z",
     "discovered_at": "2026-09-07T18:46:27.369Z",
     "official": false
   },
@@ -38472,12 +38472,16 @@
     "description": "A zed editor theme for total concentration.",
     "stars": 0,
     "forks": 0,
-    "topics": [],
+    "topics": [
+      "zed",
+      "zed-extension",
+      "zed-theme"
+    ],
     "language": null,
     "license": "MIT",
     "created_at": "2026-08-28T15:38:06Z",
-    "updated_at": "2026-08-29T16:13:16Z",
-    "pushed_at": "2026-08-29T16:12:55Z",
+    "updated_at": "2026-11-10T09:14:13Z",
+    "pushed_at": "2026-11-10T09:14:09Z",
     "discovered_at": "2026-09-22T05:21:57.724Z",
     "official": true
   },
@@ -39187,8 +39191,8 @@
     "language": "Rust",
     "license": "AGPL-3.0",
     "created_at": "2026-09-26T03:22:32Z",
-    "updated_at": "2026-10-31T15:30:42Z",
-    "pushed_at": "2026-10-31T16:30:34Z",
+    "updated_at": "2026-11-10T12:02:28Z",
+    "pushed_at": "2026-11-10T12:02:21Z",
     "discovered_at": "2026-09-26T06:55:23.502Z",
     "official": false
   },
@@ -39233,7 +39237,7 @@
     "license": "MIT",
     "created_at": "2026-09-26T15:42:52Z",
     "updated_at": "2026-10-30T01:10:16Z",
-    "pushed_at": "2026-10-30T01:10:14Z",
+    "pushed_at": "2026-11-10T07:18:53Z",
     "discovered_at": "2026-09-26T18:48:00.642Z",
     "official": false
   },
@@ -41482,7 +41486,7 @@
     "license": "MIT",
     "created_at": "2026-10-20T14:21:20Z",
     "updated_at": "2026-11-04T09:50:57Z",
-    "pushed_at": "2026-11-04T09:50:36Z",
+    "pushed_at": "2026-11-10T11:14:45Z",
     "discovered_at": "2026-10-20T18:50:37.100Z",
     "official": false
   },
@@ -41767,7 +41771,7 @@
     "license": "BSD-3-Clause",
     "created_at": "2026-09-16T20:49:29Z",
     "updated_at": "2026-11-09T13:50:38Z",
-    "pushed_at": "2026-11-09T13:50:34Z",
+    "pushed_at": "2026-11-10T10:14:35Z",
     "discovered_at": "2026-10-26T01:14:17.224Z",
     "official": false
   },
@@ -42685,8 +42689,8 @@
     "language": "Nix",
     "license": "MPL-2.0",
     "created_at": "2017-08-17T11:05:21Z",
-    "updated_at": "2026-11-08T23:50:05Z",
-    "pushed_at": "2026-11-08T23:50:01Z",
+    "updated_at": "2026-11-10T08:25:34Z",
+    "pushed_at": "2026-11-10T08:25:31Z",
     "discovered_at": "2026-11-02T00:51:13.513Z",
     "official": false
   },
@@ -42876,8 +42880,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-11-02T16:43:40Z",
-    "updated_at": "2026-11-07T15:16:35Z",
-    "pushed_at": "2026-11-10T05:27:32Z",
+    "updated_at": "2026-11-10T10:55:36Z",
+    "pushed_at": "2026-11-10T10:55:33Z",
     "discovered_at": "2026-11-04T18:44:22.632Z",
     "official": false
   },
@@ -43203,8 +43207,8 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-11-02T13:18:49Z",
-    "updated_at": "2026-11-10T06:42:26Z",
-    "pushed_at": "2026-11-10T06:42:22Z",
+    "updated_at": "2026-11-10T07:04:40Z",
+    "pushed_at": "2026-11-10T07:04:35Z",
     "discovered_at": "2026-11-07T06:44:02.081Z",
     "official": false
   },
@@ -43404,6 +43408,37 @@
     "updated_at": "2026-11-09T07:34:09Z",
     "pushed_at": "2026-11-09T07:34:05Z",
     "discovered_at": "2026-11-09T12:43:49.548Z",
+    "official": false
+  },
+  "prsweet/zch": {
+    "name": "prsweet/zch",
+    "url": "https://github.com/prsweet/zch",
+    "description": "Codeforces TUI for the Zed editor on macOS: import problems from Competitive Companion, run tests with diffs and timings, submit without leaving the terminal. Written in Rust.",
+    "stars": 4,
+    "forks": 1,
+    "topics": [
+      "cli",
+      "cli-tool",
+      "codeforces",
+      "competitive-companion",
+      "competitive-programming",
+      "cpp",
+      "homebrew",
+      "macos",
+      "online-judge",
+      "ratatui",
+      "rust",
+      "test-runner",
+      "tui",
+      "zed",
+      "zed-editor"
+    ],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2026-04-07T03:28:22Z",
+    "updated_at": "2026-11-10T11:41:01Z",
+    "pushed_at": "2026-11-10T11:40:57Z",
+    "discovered_at": "2026-11-10T12:43:52.570Z",
     "official": false
   }
 }
