@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1939** |
 | In official registry | 1365 |
 | Discovered via topics | 574 |
-| Last updated | 2026-11-10 12:43 UTC |
+| Last updated | 2026-11-10 18:44 UTC |
 
 ### By capability
 
@@ -101,7 +101,7 @@ cd website && npm install && npm run dev
 | [oxc-project/oxc-zed](https://github.com/oxc-project/oxc-zed) | 256 | Oxc extension for Zed |
 | [catppuccin/zed-icons](https://github.com/catppuccin/zed-icons) | 240 | 🦊 Soothing pastel icons for Zed |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 222 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
-| [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 213 | Zed support for the Godot game engine and the GDScript language |
+| [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 214 | Zed support for the Godot game engine and the GDScript language |
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 208 | Typst extension for zed |
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
@@ -121,14 +121,14 @@ cd website && npm install && npm run dev
 | Package | Stars | Last push | Description |
 |---|---|---|---|
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 3 | 2026-11-10 | Intelligent codebase search & indexing . Async MCP server fe... |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 222 | 2026-11-10 | Zed plugin for automatic time tracking and metrics generated... |
+| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 14 | 2026-11-10 | Spring Boot language intelligence for Zed, powered by the of... |
 | [abhinaaaavvv/truly-zen-theme](https://github.com/abhinaaaavvv/truly-zen-theme) | 0 | 2026-11-10 | A zed editor theme for total concentration. |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 102 | 2026-11-10 | True Dark Theme for Zed IDE |
 | [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 1 | 2026-11-10 | Zed extension that formats and lints HTML templates with djL... |
 | [olostep-api/olostep-zed](https://github.com/olostep-api/olostep-zed) | 0 | 2026-11-10 | Zed extension for Olostep, web data infrastructure for AI. L... |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 222 | 2026-11-10 | Zed plugin for automatic time tracking and metrics generated... |
 | [simd-labs/zed-asm-intrinsics](https://github.com/simd-labs/zed-asm-intrinsics) | 0 | 2026-11-09 | Zed extension: simdref instruction briefs as inlay hints in ... |
 | [MistanKh/grok-theme](https://github.com/MistanKh/grok-theme) | 0 | 2026-11-09 | Grok Obsidian and Grok Parchment themes for Zed (unofficial)... |
-| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 14 | 2026-11-09 | Spring Boot language intelligence for Zed, powered by the of... |
 | [husur/gradle-catalog-lsp](https://github.com/husur/gradle-catalog-lsp) | 0 | 2026-11-09 | Zed extension: shows newer versions of the libraries and plu... |
 | [ournuu/zed-hashlink-debugger](https://github.com/ournuu/zed-hashlink-debugger) | 1 | 2026-11-09 | Vibecoded HashLink debugger for Zed |
 | [steimerbyte/gruvbox-amoled](https://github.com/steimerbyte/gruvbox-amoled) | 0 | 2026-11-09 | Pure-black Gruvbox themes for Zed (AMOLED Hard/Medium/Soft) ... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-11-10T18:44 | 1 | 743 | 2455 |
 | 2026-11-10T12:43 | 1 | 742 | 2454 |
 | 2026-11-10T06:44 | 0 | 741 | 2453 |
 | 2026-11-10T00:49 | 0 | 741 | 2453 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-11-09T00:52 | 3 | 737 | 2453 |
 | 2026-11-08T18:44 | 2 | 735 | 2450 |
 | 2026-11-08T12:44 | 1 | 734 | 2448 |
-| 2026-11-08T06:43 | 1 | 734 | 2447 |
 
 ---
 
