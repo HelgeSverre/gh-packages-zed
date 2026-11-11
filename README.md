@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1939** |
 | In official registry | 1365 |
 | Discovered via topics | 574 |
-| Last updated | 2026-11-11 00:50 UTC |
+| Last updated | 2026-11-11 06:44 UTC |
 
 ### By capability
 
@@ -120,9 +120,9 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 3 | 2026-11-11 | Intelligent codebase search & indexing . Async MCP server fe... |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 222 | 2026-11-11 | Zed plugin for automatic time tracking and metrics generated... |
 | [maxmalkin/zedtex](https://github.com/maxmalkin/zedtex) | 1 | 2026-11-11 | ZedTeX: LaTeX package support, TeX page previews, Markdown e... |
-| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 3 | 2026-11-10 | Intelligent codebase search & indexing . Async MCP server fe... |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 222 | 2026-11-10 | Zed plugin for automatic time tracking and metrics generated... |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 14 | 2026-11-10 | Spring Boot language intelligence for Zed, powered by the of... |
 | [abhinaaaavvv/truly-zen-theme](https://github.com/abhinaaaavvv/truly-zen-theme) | 0 | 2026-11-10 | A zed editor theme for total concentration. |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 102 | 2026-11-10 | True Dark Theme for Zed IDE |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-11-11T06:44 | 1 | 744 | 2456 |
 | 2026-11-11T00:50 | 0 | 744 | 2455 |
 | 2026-11-10T18:44 | 1 | 743 | 2455 |
 | 2026-11-10T12:43 | 1 | 742 | 2454 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-11-09T12:43 | 1 | 740 | 2453 |
 | 2026-11-09T06:51 | 0 | 740 | 2452 |
 | 2026-11-09T00:52 | 3 | 737 | 2453 |
-| 2026-11-08T18:44 | 2 | 735 | 2450 |
 
 ---
 
