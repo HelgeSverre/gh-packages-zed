@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1939** |
 | In official registry | 1365 |
 | Discovered via topics | 574 |
-| Last updated | 2026-11-10 18:44 UTC |
+| Last updated | 2026-11-11 00:50 UTC |
 
 ### By capability
 
@@ -120,6 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [maxmalkin/zedtex](https://github.com/maxmalkin/zedtex) | 1 | 2026-11-11 | ZedTeX: LaTeX package support, TeX page previews, Markdown e... |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 3 | 2026-11-10 | Intelligent codebase search & indexing . Async MCP server fe... |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 222 | 2026-11-10 | Zed plugin for automatic time tracking and metrics generated... |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 14 | 2026-11-10 | Spring Boot language intelligence for Zed, powered by the of... |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 190 | 2026-11-08 | 🦊 Zed editor theme ported from Neovim |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-11-08 | Zed editor support for Carve, a modern light markup language |
 | [273Do/zed-comment-translate](https://github.com/273Do/zed-comment-translate) | 1 | 2026-11-08 | Read documentation in your own language in Zed's hover popup... |
-| [273Do/zed-comment-translator](https://github.com/273Do/zed-comment-translator) | 0 | 2026-11-08 | Read documentation in your own language in Zed's hover popup... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-11-11T00:50 | 0 | 744 | 2455 |
 | 2026-11-10T18:44 | 1 | 743 | 2455 |
 | 2026-11-10T12:43 | 1 | 742 | 2454 |
 | 2026-11-10T06:44 | 0 | 741 | 2453 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-11-09T06:51 | 0 | 740 | 2452 |
 | 2026-11-09T00:52 | 3 | 737 | 2453 |
 | 2026-11-08T18:44 | 2 | 735 | 2450 |
-| 2026-11-08T12:44 | 1 | 734 | 2448 |
 
 ---
 
