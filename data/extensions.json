@@ -143,8 +143,8 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
-    "updated_at": "2026-11-10T08:51:55Z",
-    "pushed_at": "2026-11-10T08:51:51Z",
+    "updated_at": "2026-11-11T08:27:46Z",
+    "pushed_at": "2026-11-11T08:27:42Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -378,7 +378,7 @@
     "name": "albertsko/zed-everforest",
     "url": "https://github.com/albertsko/zed-everforest",
     "description": "🌲 Everforest for Zed",
-    "stars": 19,
+    "stars": 20,
     "forks": 4,
     "topics": [
       "everforest",
@@ -389,7 +389,7 @@
     "language": "Go Template",
     "license": "MIT",
     "created_at": "2025-11-14T14:30:39Z",
-    "updated_at": "2026-10-21T20:06:40Z",
+    "updated_at": "2026-11-11T09:48:51Z",
     "pushed_at": "2026-07-26T20:36:43Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -3113,7 +3113,7 @@
     "name": "mantou132/zed-cspell",
     "url": "https://github.com/mantou132/zed-cspell",
     "description": "",
-    "stars": 41,
+    "stars": 42,
     "forks": 7,
     "topics": [
       "zed",
@@ -3122,7 +3122,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2025-01-05T07:27:09Z",
-    "updated_at": "2026-10-30T04:28:08Z",
+    "updated_at": "2026-11-11T11:59:13Z",
     "pushed_at": "2026-08-28T15:50:10Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -5157,7 +5157,7 @@
     "license": "GPL-3.0",
     "created_at": "2024-11-23T02:07:28Z",
     "updated_at": "2026-11-07T02:08:29Z",
-    "pushed_at": "2026-11-07T02:08:25Z",
+    "pushed_at": "2026-11-11T11:57:35Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false,
     "extension": {
@@ -53741,7 +53741,7 @@
     "license": "MIT",
     "created_at": "2026-06-01T12:22:18Z",
     "updated_at": "2026-11-08T10:30:30Z",
-    "pushed_at": "2026-11-08T10:30:27Z",
+    "pushed_at": "2026-11-11T11:41:48Z",
     "discovered_at": "2026-07-09T13:39:01.645Z",
     "official": true,
     "extension": {
@@ -67095,6 +67095,56 @@
       "sections": [],
       "categories": [
         "theme"
+      ]
+    }
+  },
+  "wiroai/wiro-zed": {
+    "name": "wiroai/Wiro-Zed",
+    "url": "https://github.com/wiroai/Wiro-Zed",
+    "description": "Wiro AI MCP server for the Zed editor: search, price and run 1,000+ image, video, audio and LLM models, workflows and agents from Zed's Agent Panel.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "ai",
+      "generative-ai",
+      "image-generation",
+      "llm",
+      "mcp",
+      "mcp-server",
+      "model-context-protocol",
+      "rust",
+      "video-generation",
+      "wasm",
+      "wiro",
+      "wiro-ai",
+      "zed",
+      "zed-editor",
+      "zed-extension"
+    ],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2026-11-11T07:27:21Z",
+    "updated_at": "2026-11-11T09:13:39Z",
+    "pushed_at": "2026-11-11T08:22:39Z",
+    "discovered_at": "2026-11-11T12:43:59.701Z",
+    "official": false,
+    "extension": {
+      "id": "mcp-server-wiro",
+      "name": "Wiro AI MCP Server",
+      "description": "Search, price and run 1,000+ AI models, workflows and agents from Wiro AI in the Agent Panel.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Wiro AI"
+      ],
+      "repository": "https://github.com/wiroai/Wiro-Zed",
+      "snippets": null,
+      "sections": [
+        "context_servers",
+        "capabilities"
+      ],
+      "categories": [
+        "context-server"
       ]
     }
   }

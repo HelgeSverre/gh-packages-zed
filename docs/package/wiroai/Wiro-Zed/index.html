@@ -1,0 +1,237 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Wiro AI MCP Server - Zed Extension Safari</title><meta name="description" content="Wiro AI MCP server for the Zed editor: search, price and run 1,000+ image, video, audio and LLM models, workflows and agents from Zed's Agent Panel."><link rel="canonical" href="https://helgesverre.github.io/gh-packages-zed/package/wiroai/Wiro-Zed/"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Wiro AI MCP Server - Zed Extension Safari"><meta property="og:description" content="Wiro AI MCP server for the Zed editor: search, price and run 1,000+ image, video, audio and LLM models, workflows and agents from Zed's Agent Panel."><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed/package/wiroai/Wiro-Zed/"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Wiro AI MCP Server - Zed Extension Safari"><meta name="twitter:description" content="Wiro AI MCP server for the Zed editor: search, price and run 1,000+ image, video, audio and LLM models, workflows and agents from Zed's Agent Panel."><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/gh-packages-zed/_astro/ClientRouter.astro_astro_type_script_index_0_lang.ClVLs1kt.js"></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Wiro AI MCP Server","description":"Wiro AI MCP server for the Zed editor: search, price and run 1,000+ image, video, audio and LLM models, workflows and agents from Zed's Agent Panel.","applicationCategory":"DeveloperApplication","operatingSystem":"macOS, Linux, Windows","url":"https://zed.dev/extensions/mcp-server-wiro","codeRepository":"https://github.com/wiroai/Wiro-Zed","author":[{"@type":"Person","name":"Wiro AI"}],"softwareVersion":"0.1.0","license":"MIT","keywords":"context-server","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/Layout.CGDlMdWE.css"><script type="module" src="/gh-packages-zed/_astro/page.B8i1Zz-u.js"></script></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <a href="#main" class="skip-to-content">Skip to content</a> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" data-astro-transition-persist="astro-fhchcgd7-1"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <script type="application/json" id="pkg-extras">{"url":"https://github.com/wiroai/Wiro-Zed","language":"Rust","license":"MIT","topics":["ai","generative-ai","image-generation","llm","mcp","mcp-server","model-context-protocol","rust","video-generation","wasm","wiro","wiro-ai","zed","zed-editor","zed-extension"],"extension":{"authors":["Wiro AI"],"schema_version":1}}</script> <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> wiroai/Wiro-Zed </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> Wiro AI MCP Server </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> Search, price and run 1,000+ AI models, workflows and agents from Wiro AI in the Agent Panel. </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="context-server">MCP Server</span> </div> </div> </div> </header> <main id="main" class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/mcp-server-wiro" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/wiroai/Wiro-Zed" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.1.0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">mcp-server-wiro</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">Rust</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">MIT</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">4h ago</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">Wiro AI</dd> </div> </dl>  <h2 class="mt-5 text-xs uppercase font-mono" style="color:var(--zed-muted);">Topics</h2> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> ai </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> generative-ai </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> image-generation </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> llm </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> mcp </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> mcp-server </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> model-context-protocol </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> rust </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> video-generation </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> wasm </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> wiro </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> wiro-ai </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed-editor </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed-extension </span> </div>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><div align="center">
+<img src="https://raw.githubusercontent.com/wiroai/Wiro-Zed/HEAD/.github/assets/wiro-icon.png" alt="Wiro AI" width="96">
+<h1 id="user-content-wiro-ai-mcp-server-for-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#wiro-ai-mcp-server-for-zed"><span class="heading-anchor-icon">#</span></a>Wiro AI MCP Server for Zed</h1>
+<p>Use Wiro AI from Zed's Agent Panel: search 1,000+ image, video, audio and LLM models, check their prices and run them, build and run workflows, and talk to Studio and your own agents.</p>
+<p><a href="https://wiro.ai">Website</a> · <a href="https://wiro.ai/models">Models</a> · <a href="https://wiro.ai/docs/wiro-mcp-server">MCP docs</a> · <a href="https://wiro.ai/panel">Dashboard</a></p>
+</div>
+<p>This <a href="https://zed.dev">Zed</a> extension adds the official <a href="https://github.com/wiroai/Wiro-MCP">Wiro AI MCP server</a> to Zed. Zed downloads the server, <a href="https://www.npmjs.com/package/@wiro-ai/wiro-mcp"><code>@wiro-ai/wiro-mcp</code></a>, from npm and runs it with the Node.js runtime it manages itself, so there is nothing else to install. Each time the server starts, the extension checks npm for a newer version.</p>
+<h2 id="user-content-install"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#install"><span class="heading-anchor-icon">#</span></a>Install</h2>
+<ol>
+<li>In Zed, open the command palette, run <code>zed: extensions</code>, search for <strong>Wiro AI MCP Server</strong> and click <strong>Install</strong>. You can also open <strong>Settings → AI → MCP Servers</strong>, click <strong>Add Server</strong> and choose <strong>Install from Extensions</strong>.</li>
+<li>Zed opens a configuration window. Put your project's API key in <code>wiro_api_key</code>, and its API secret in <code>wiro_api_secret</code> if the project uses signature-based authentication. Then click <strong>Configure Server</strong>.</li>
+<li>In <strong>Settings → AI → MCP Servers</strong>, the dot next to <strong>Wiro AI</strong> turns green when the server is running. If it does not, its tooltip says why, and <code>zed: open log</code> shows more detail.</li>
+</ol>
+<h2 id="user-content-get-an-api-key"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#get-an-api-key"><span class="heading-anchor-icon">#</span></a>Get an API key</h2>
+<p>Sign up at <a href="https://wiro.ai">wiro.ai</a> and create a project at <a href="https://wiro.ai/panel/project/new">wiro.ai/panel/project/new</a>. Your projects and their keys are listed at <a href="https://wiro.ai/panel/project">wiro.ai/panel/project</a>.</p>
+<p>You choose the authentication type when you create the project:</p>
+<ul>
+<li><strong>Signature-based</strong>: set both <code>wiro_api_key</code> and <code>wiro_api_secret</code>.</li>
+<li><strong>API Key Only</strong>: set <code>wiro_api_key</code> and leave <code>wiro_api_secret</code> empty.</li>
+</ul>
+<h2 id="user-content-settings"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#settings"><span class="heading-anchor-icon">#</span></a>Settings</h2>
+<p>The configuration window saves your settings in Zed's <code>settings.json</code>. To change them later, run <code>zed: open settings file</code> and edit the <code>mcp-server-wiro</code> entry:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "context_servers"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "mcp-server-wiro"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "wiro_api_key"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"your-api-key"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "wiro_api_secret"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"your-api-secret"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "toolsets"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"models"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"workflows"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Setting</th><th>Required</th><th>Description</th></tr></thead><tbody><tr><td><code>wiro_api_key</code></td><td>Yes</td><td>API key of your Wiro AI project</td></tr><tr><td><code>wiro_api_secret</code></td><td>For signature-based projects</td><td>API secret of the same project</td></tr><tr><td><code>toolsets</code></td><td>No</td><td>Tool groups to load: any of <code>models</code>, <code>workflows</code> and <code>agents</code>. All groups load when it is left out</td></tr></tbody></table>
+<h2 id="user-content-tools"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#tools"><span class="heading-anchor-icon">#</span></a>Tools</h2>
+<p>With all groups loaded, the server gives the Agent Panel 50 tools:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Group</th><th>Tools</th></tr></thead><tbody><tr><td>Always loaded</td><td><code>get_account</code>, <code>get_playbook</code>, <code>search_docs</code></td></tr><tr><td><code>models</code></td><td><code>search_models</code>, <code>get_model_schema</code>, <code>recommend_model</code>, <code>explore</code>, <code>run_model</code>, <code>wait_for_task</code>, <code>get_task</code>, <code>list_tasks</code>, <code>get_task_price</code>, <code>cancel_task</code>, <code>kill_task</code>, <code>upload_file</code></td></tr><tr><td><code>workflows</code></td><td><code>list_workflows</code>, <code>get_workflow</code>, <code>create_workflow</code>, <code>update_workflow</code>, <code>clone_workflow</code>, <code>delete_workflow</code>, <code>run_workflow</code>, <code>wait_for_workflow_run</code>, <code>resume_workflow_run</code>, <code>list_workflow_runs</code></td></tr><tr><td><code>agents</code></td><td><code>list_agent_templates</code>, <code>get_agent_template</code>, <code>list_agent_skills</code>, <code>deploy_agent</code>, <code>list_my_agents</code>, <code>get_my_agent</code>, <code>control_agent</code>, <code>update_agent</code>, <code>apply_agent_skills</code>, <code>set_agent_credentials</code>, <code>connect_agent_oauth</code>, <code>disconnect_agent_oauth</code>, <code>manage_agent_custom_skill</code>, <code>manage_agent_billing</code>, <code>get_agent_activity</code>, <code>delete_agent</code>, <code>list_projects</code>, <code>bind_agent_project</code></td></tr><tr><td><code>workflows</code> or <code>agents</code></td><td><code>send_agent_message</code>, <code>get_agent_message</code>, <code>get_agent_conversation</code>, <code>cancel_agent_message</code>, <code>delete_agent_session</code>, <code>list_studio_results</code>, <code>save_workflow_from_agent</code></td></tr></tbody></table>
+<p><code>workflows</code> also loads the model tools a workflow needs: <code>search_models</code>, <code>get_model_schema</code>, <code>recommend_model</code> and <code>upload_file</code>. What each tool does is described in the <a href="https://github.com/wiroai/Wiro-MCP#available-tools">Wiro MCP server README</a>. The server also offers four MCP prompts: <code>build_workflow</code>, <code>deploy_agent</code>, <code>create_with_studio</code> and <code>talk_to_my_agent</code>.</p>
+<h2 id="user-content-try-it"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#try-it"><span class="heading-anchor-icon">#</span></a>Try it</h2>
+<p>Open the Agent Panel and ask, for example:</p>
+<ul>
+<li><em>"Find three text-to-image models on Wiro AI and compare their prices"</em></li>
+<li><em>"Show me the parameters for google/veo3-1"</em></li>
+<li><em>"Generate a photorealistic image of a mountain lake at sunset"</em></li>
+<li><em>"Build a workflow that turns a product photo into a short ad video"</em></li>
+<li><em>"Which agent templates can manage Instagram? What does each plan cost?"</em></li>
+</ul>
+<p>Searching models and reading their parameters and prices is free. Running a model or a workflow, and messages to Studio or the Workflow Agent, are charged to the project's wallet. Messages to your own agents use the agent's credits. Tools with a known price, such as deploying an agent or buying credits, show the price first and act only after you confirm. Zed also asks you to approve each tool call unless you change its <a href="https://zed.dev/docs/ai/tool-permissions">tool permissions</a>.</p>
+<h2 id="user-content-hosted-server"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#hosted-server"><span class="heading-anchor-icon">#</span></a>Hosted server</h2>
+<p>Zed can also connect to the hosted Wiro AI MCP server at <code>https://mcp.wiro.ai/v1</code> without this extension: add it as a remote server in <strong>Settings → AI → MCP Servers</strong> and sign in with your Wiro AI account when Zed asks. See the <a href="https://wiro.ai/docs/wiro-mcp-server">MCP docs</a> for details.</p>
+<h2 id="user-content-development"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#development"><span class="heading-anchor-icon">#</span></a>Development</h2>
+<ol>
+<li>Install Rust with <a href="https://www.rust-lang.org/tools/install">rustup</a>.</li>
+<li>Clone this repository.</li>
+<li>In Zed, run <code>zed: install dev extension</code> and pick the cloned folder.</li>
+</ol>
+<p><code>cargo test</code> runs the unit tests.</p>
+<h2 id="user-content-more-from-wiro-ai"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#more-from-wiro-ai"><span class="heading-anchor-icon">#</span></a>More from Wiro AI</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Repository</th><th>What it is</th></tr></thead><tbody><tr><td><a href="https://github.com/wiroai/Wiro-MCP">Wiro-MCP</a></td><td>Official Wiro AI MCP server, <a href="https://www.npmjs.com/package/@wiro-ai/wiro-mcp"><code>@wiro-ai/wiro-mcp</code> on npm</a></td></tr><tr><td><a href="https://github.com/wiroai/Wiro-Plugin">Wiro-Plugin</a></td><td>Wiro AI plugin for Cursor, Claude Code, Gemini CLI and Devin</td></tr><tr><td><a href="https://github.com/wiroai/Wiro-LLM">Wiro-LLM</a></td><td>Wiro AI provider for the Vercel AI SDK and LLM gateway examples, <a href="https://www.npmjs.com/package/@wiro-ai/wiro-llm"><code>@wiro-ai/wiro-llm</code> on npm</a></td></tr><tr><td><a href="https://github.com/wiroai/Wiro-Chromium-Extension">Wiro-Chromium-Extension</a></td><td>Wiro AI extension for Chrome, Edge, Opera and Brave</td></tr><tr><td><a href="https://github.com/wiroai/Wiro-Firefox-Extension">Wiro-Firefox-Extension</a></td><td>Wiro AI add-on for Firefox</td></tr><tr><td><a href="https://github.com/wiroai/Wiro-Safari-Extension">Wiro-Safari-Extension</a></td><td>Wiro AI extension for Safari on the Mac</td></tr><tr><td><a href="https://github.com/wiroai/Swift-QuickStart">Swift-QuickStart</a></td><td>WiroKit, the Wiro AI SDK for iOS</td></tr><tr><td><a href="https://github.com/wiroai/Kotlin-QuickStart">Kotlin-QuickStart</a></td><td>WiroKit, the Wiro AI SDK for Android</td></tr><tr><td><a href="https://github.com/wiroai/Dart-QuickStart">Dart-QuickStart</a></td><td>Wiro AI SDK for Dart and Flutter, <a href="https://pub.dev/packages/wiro"><code>wiro</code> on pub.dev</a></td></tr><tr><td><a href="https://github.com/wiroai/ReactNative-QuickStart">ReactNative-QuickStart</a></td><td>Wiro AI SDK for React Native and Expo, <a href="https://www.npmjs.com/package/@wiro-ai/wiro-react-native"><code>@wiro-ai/wiro-react-native</code> on npm</a></td></tr><tr><td><a href="https://github.com/wiroai/Swift-Realtime">Swift-Realtime</a></td><td>Realtime voice AI example for iOS</td></tr><tr><td><a href="https://github.com/wiroai/Kotlin-Realtime">Kotlin-Realtime</a></td><td>Realtime voice AI example for Android</td></tr><tr><td><a href="https://github.com/wiroai/Dart-Realtime">Dart-Realtime</a></td><td>Realtime voice AI example for Flutter</td></tr><tr><td><a href="https://github.com/wiroai/ReactNative-Realtime">ReactNative-Realtime</a></td><td>Realtime voice AI example for React Native</td></tr><tr><td><a href="https://github.com/wiroai/n8n-nodes-wiroai">n8n-nodes-wiroai</a></td><td>Wiro AI nodes for n8n, <a href="https://www.npmjs.com/package/@wiro-ai/n8n-nodes-wiroai"><code>@wiro-ai/n8n-nodes-wiroai</code> on npm</a></td></tr><tr><td><a href="https://github.com/wiroai/Wiro-Dify-Plugin">Wiro-Dify-Plugin</a></td><td>Wiro AI plugins for Dify: the LLM gateway as a model provider, plus image, video, speech and music tools</td></tr><tr><td><a href="https://github.com/wiroai/Wiro-ComfyUI">Wiro-ComfyUI</a></td><td>Wiro AI nodes for ComfyUI</td></tr><tr><td><a href="https://github.com/wiroai/hermes-wiro-provider">hermes-wiro-provider</a></td><td>Wiro AI model provider plugin for Hermes Agent</td></tr><tr><td><a href="https://github.com/wiroai/wiro-action">wiro-action</a></td><td>GitHub Action for Wiro AI models and the LLM gateway, <a href="https://github.com/marketplace/actions/wiro-ai-action">on the GitHub Marketplace</a></td></tr><tr><td><a href="https://github.com/wiroai/Wiro-Docs">Wiro-Docs</a></td><td>Source of the Wiro AI API docs</td></tr></tbody></table>
+<p><a href="https://wiro.ai">Website</a> · <a href="https://wiro.ai/models">Models</a> · <a href="https://wiro.ai/docs">Docs</a> · <a href="https://x.com/wiroai">X</a></p>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>MIT, see <a href="https://github.com/wiroai/Wiro-Zed/blob/HEAD/LICENSE" target="_blank" rel="noopener">LICENSE</a>.</p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>
