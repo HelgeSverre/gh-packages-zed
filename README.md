@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1940** |
 | In official registry | 1365 |
 | Discovered via topics | 575 |
-| Last updated | 2026-11-12 00:51 UTC |
+| Last updated | 2026-11-12 06:45 UTC |
 
 ### By capability
 
@@ -97,7 +97,7 @@ cd website && npm install && npm run dev
 |---|---|---|
 | [biomejs/biome-zed](https://github.com/biomejs/biome-zed) | 466 | Biome extension for Zed |
 | [xhyrom/zed-discord-presence](https://github.com/xhyrom/zed-discord-presence) | 415 | extension for zed that adds support for discord rich presence using lsp |
-| [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 342 | Catppuccin Theme but as blurred variants + custom ones |
+| [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 343 | Catppuccin Theme but as blurred variants + custom ones |
 | [oxc-project/oxc-zed](https://github.com/oxc-project/oxc-zed) | 256 | Oxc extension for Zed |
 | [catppuccin/zed-icons](https://github.com/catppuccin/zed-icons) | 240 | 🦊 Soothing pastel icons for Zed |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 222 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
@@ -120,14 +120,15 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 1 | 2026-11-11 | Zed extension that formats and lints HTML templates with djL... |
+| [wiroai/Wiro-Zed](https://github.com/wiroai/Wiro-Zed) | 0 | 2026-11-12 | Wiro AI MCP server for the Zed editor: search, price and run... |
+| [SniperRavan/zed-mizu](https://github.com/SniperRavan/zed-mizu) | 0 | 2026-11-12 | A fork of mizu icon by m39u but for zed. Which modified usin... |
+| [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 1 | 2026-11-12 | Zed extension that formats and lints HTML templates with djL... |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 222 | 2026-11-12 | Zed plugin for automatic time tracking and metrics generated... |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 3 | 2026-11-11 | Intelligent codebase search & indexing . Async MCP server fe... |
 | [maxmalkin/zedtex](https://github.com/maxmalkin/zedtex) | 2 | 2026-11-11 | ZedTeX: LaTeX package support, TeX page previews, Markdown e... |
 | [olostep-api/olostep-zed](https://github.com/olostep-api/olostep-zed) | 0 | 2026-11-11 | Zed extension for Olostep, web data infrastructure for AI. L... |
 | [wielorzeczownik/zed-volt](https://github.com/wielorzeczownik/zed-volt) | 0 | 2026-11-11 | Phalcon Volt template support for Zed: syntax highlighting a... |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-11-11 | Zed editor support for Carve, a modern light markup language |
-| [wiroai/Wiro-Zed](https://github.com/wiroai/Wiro-Zed) | 0 | 2026-11-11 | Wiro AI MCP server for the Zed editor: search, price and run... |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 222 | 2026-11-11 | Zed plugin for automatic time tracking and metrics generated... |
 | [abhinaaaavvv/truly-zen-theme](https://github.com/abhinaaaavvv/truly-zen-theme) | 0 | 2026-11-11 | A zed editor theme for total concentration. |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 14 | 2026-11-11 | Spring Boot language intelligence for Zed, powered by the of... |
 | [shnarazk/zed-lean4](https://github.com/shnarazk/zed-lean4) | 3 | 2026-11-11 | Zed extension to support Lean4 language |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [steimerbyte/gruvbox-amoled](https://github.com/steimerbyte/gruvbox-amoled) | 0 | 2026-11-09 | Pure-black Gruvbox themes for Zed (AMOLED Hard/Medium/Soft) ... |
 | [livetennisapi/zed-livetennis-mcp](https://github.com/livetennisapi/zed-livetennis-mcp) | 1 | 2026-11-09 | Zed extension that runs the Live Tennis MCP server. Real-tim... |
 | [koroblabs/orthra-zed](https://github.com/koroblabs/orthra-zed) | 0 | 2026-11-09 | orthra for Zed: fast, quiet spell checking for code and pros... |
-| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-11-08 | A Zed extension that allows to highlight all occurrences of ... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-11-12T06:45 | 0 | 750 | 2458 |
 | 2026-11-12T00:51 | 0 | 750 | 2458 |
 | 2026-11-11T18:44 | 1 | 749 | 2458 |
 | 2026-11-11T12:44 | 1 | 745 | 2457 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-11-10T12:43 | 1 | 742 | 2454 |
 | 2026-11-10T06:44 | 0 | 741 | 2453 |
 | 2026-11-10T00:49 | 0 | 741 | 2453 |
-| 2026-11-09T18:44 | 0 | 741 | 2453 |
 
 ---
 
