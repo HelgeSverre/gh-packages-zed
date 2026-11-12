@@ -1,0 +1,11 @@
+id = "zpolacode"
+name = "Zed Polacode"
+version = "0.1.3"
+schema_version = 1
+authors = ["Talha Yüksek <talha.yuksek@hotmail.com>"]
+description = "Polacode-style code snapshots: render a file or line range as a shareable PNG/HTML code card."
+repository = "https://github.com/talhayksk/zedpolacode"
+
+[slash_commands.zedpolacode]
+description = "Snapshot a file or line range as a pretty code card (PNG + HTML)"
+requires_argument = true

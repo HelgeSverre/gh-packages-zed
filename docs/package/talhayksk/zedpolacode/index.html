@@ -1,0 +1,265 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Zed Polacode - Zed Extension Safari</title><meta name="description" content="Polacode-style code snapshots for Zed: render a file or line range as a shareable PNG/HTML code card."><link rel="canonical" href="https://helgesverre.github.io/gh-packages-zed/package/talhayksk/zedpolacode/"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Zed Polacode - Zed Extension Safari"><meta property="og:description" content="Polacode-style code snapshots for Zed: render a file or line range as a shareable PNG/HTML code card."><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed/package/talhayksk/zedpolacode/"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Zed Polacode - Zed Extension Safari"><meta name="twitter:description" content="Polacode-style code snapshots for Zed: render a file or line range as a shareable PNG/HTML code card."><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/gh-packages-zed/_astro/ClientRouter.astro_astro_type_script_index_0_lang.ClVLs1kt.js"></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Zed Polacode","description":"Polacode-style code snapshots for Zed: render a file or line range as a shareable PNG/HTML code card.","applicationCategory":"DeveloperApplication","operatingSystem":"macOS, Linux, Windows","url":"https://zed.dev/extensions/zpolacode","codeRepository":"https://github.com/talhayksk/zedpolacode","author":[{"@type":"Person","name":"Talha Yüksek"}],"softwareVersion":"0.1.3","license":"MIT","keywords":"slash-command","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/Layout.CGDlMdWE.css"><script type="module" src="/gh-packages-zed/_astro/page.B8i1Zz-u.js"></script></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <a href="#main" class="skip-to-content">Skip to content</a> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" data-astro-transition-persist="astro-fhchcgd7-1"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <script type="application/json" id="pkg-extras">{"url":"https://github.com/talhayksk/zedpolacode","language":"Rust","license":"MIT","topics":["code-screenshot","code-snapshot","polacode","rust","syntax-highlighting","wasm","zed","zed-extension"],"extension":{"authors":["Talha Yüksek"],"schema_version":1}}</script> <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> talhayksk/zedpolacode </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> Zed Polacode </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> Polacode-style code snapshots: render a file or line range as a shareable PNG/HTML code card. </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="slash-command">Slash Command</span> </div> </div> </div> </header> <main id="main" class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/zpolacode" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/talhayksk/zedpolacode" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.1.3</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">zpolacode</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">Rust</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">MIT</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">4h ago</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">Talha Yüksek</dd> </div> </dl>  <h2 class="mt-5 text-xs uppercase font-mono" style="color:var(--zed-muted);">Topics</h2> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> code-screenshot </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> code-snapshot </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> polacode </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> rust </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> syntax-highlighting </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> wasm </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed-extension </span> </div>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-zed-polacode"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#zed-polacode"><span class="heading-anchor-icon">#</span></a>Zed Polacode</h1>
+<p><a href="https://github.com/talhayksk/zedpolacode/actions/workflows/ci.yml"><img src="https://github.com/talhayksk/zedpolacode/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+<a href="https://github.com/talhayksk/zedpolacode/blob/HEAD/LICENSE" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License: MIT"></a></p>
+<p>Polacode-style code snapshots for <a href="https://zed.dev">Zed</a>: turn a file or a line
+range into a shareable <strong>PNG</strong> code card (plus the standalone <strong>HTML</strong> it was
+rendered from).</p>
+<p><img src="https://raw.githubusercontent.com/talhayksk/zedpolacode/HEAD/docs/preview.png" alt="Example output"></p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span>/zedpolacode src/main.rs --lines 120-160 --theme tokyo-night --bg gradient</span></span></code></pre>
+<blockquote>
+<p><strong>Naming:</strong> the project, repository and Rust crate are <strong>Zed Polacode</strong>
+(<code>zedpolacode</code>), and the slash command is <code>/zedpolacode</code>. The registry ID is
+<code>zpolacode</code> — extension IDs may not contain the word <code>zed</code>, so the <code>d</code> is
+dropped. See <a href="https://github.com/talhayksk/zedpolacode/blob/HEAD/PUBLISHING.md" target="_blank" rel="noopener">PUBLISHING.md</a>.</p>
+</blockquote>
+<blockquote>
+<p><strong>Distribution status:</strong> install this as a <strong>dev extension</strong>. It is not on the
+Zed extension registry — Zed no longer accepts slash-command extensions in the
+registry, see <a href="https://github.com/talhayksk/zedpolacode/blob/HEAD/PUBLISHING.md" target="_blank" rel="noopener">PUBLISHING.md</a> for the exact quotes and for the
+alternatives.</p>
+</blockquote>
+<hr>
+<h2 id="user-content-install"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#install"><span class="heading-anchor-icon">#</span></a>Install</h2>
+<h3 id="user-content-as-a-dev-extension-recommended"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#as-a-dev-extension-recommended"><span class="heading-anchor-icon">#</span></a>As a dev extension (recommended)</h3>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">git</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> clone</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> https://github.com/talhayksk/zedpolacode.git</span></span></code></pre>
+<ol>
+<li>Open the command palette in Zed.</li>
+<li>Run <code>zed: install dev extension</code>.</li>
+<li>Select the cloned <code>zedpolacode</code> directory (the one with <code>extension.toml</code>).</li>
+</ol>
+<p>Zed compiles the extension itself. Rust must be installed via <a href="https://rust-lang.github.io/rustup/">rustup</a>;
+Zed installs the <code>wasm32-wasip2</code> target for you.</p>
+<h3 id="user-content-from-source--manual-build"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#from-source--manual-build"><span class="heading-anchor-icon">#</span></a>From source / manual build</h3>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">rustup</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> target</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> add</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> wasm32-wasip2</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> build</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --release</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --target</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> wasm32-wasip2</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># -> target/wasm32-wasip2/release/zedpolacode.wasm</span></span></code></pre>
+<h3 id="user-content-requirements"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#requirements"><span class="heading-anchor-icon">#</span></a>Requirements</h3>
+<ul>
+<li>A recent Zed (extension API <code>0.7.x</code>).</li>
+<li><strong>PNG rendering</strong> needs Chrome, Edge, Chromium or Brave. Without one, the
+command still works: it writes the HTML card and explains why there is no PNG.
+Set <code>ZEDPOLACODE_BROWSER</code> to a browser binary to pick one explicitly.</li>
+<li>Node is used to hand the card over to the host; Zed ships its own runtime.</li>
+</ul>
+<hr>
+<h2 id="user-content-why-a-slash-command"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#why-a-slash-command"><span class="heading-anchor-icon">#</span></a>Why a slash command?</h2>
+<p>Zed extensions cannot draw UI, and the WASI sandbox they run in can only write to
+the extension's own directory. The slash command is the only interactive surface
+the extension API exposes, and the actual file writes are performed by a host
+process (Node + a headless browser) that the extension spawns.</p>
+<p>The extension API also does not expose the current editor selection, so the line
+range is passed explicitly with <code>--lines</code> (use <code>Ctrl+G</code> / <code>Cmd+G</code> in Zed to see
+line numbers).</p>
+<hr>
+<h2 id="user-content-usage"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#usage"><span class="heading-anchor-icon">#</span></a>Usage</h2>
+<p>Open the assistant panel and run:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span>/zedpolacode src/store.rs --lines 40-70</span></span>
+<span class="line"><span>/zedpolacode src/App.tsx --theme nord --bg gradient</span></span>
+<span class="line"><span>/zedpolacode --file crates/core/src/lib.rs --lines 1-25 --title "core/lib.rs"</span></span></code></pre>
+<p>A code block works too, even without an open project:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span>/zedpolacode ```rust</span></span>
+<span class="line"><span>let snapshot = capture(&#x26;buffer);</span></span></code></pre>
+<pre><code>
+Output is written to `.zedpolacode/` in the project:
+
+```text
+.zedpolacode/store-L40-70.png
+.zedpolacode/store-L40-70.html
+</code></pre>
+<p>Add <code>.zedpolacode/</code> to your project's <code>.gitignore</code>.</p>
+<hr>
+<h2 id="user-content-options"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#options"><span class="heading-anchor-icon">#</span></a>Options</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Option</th><th>Description</th></tr></thead><tbody><tr><td><code>--lines &#x3C;a-b></code></td><td>Line range: <code>40-70</code>, <code>40:70</code>, <code>40..70</code>, <code>40-</code> (to the end of file)</td></tr><tr><td><code>--lang &#x3C;id></code></td><td>Force the language (also detected from the file extension)</td></tr><tr><td><code>--theme &#x3C;id></code></td><td>Color theme</td></tr><tr><td><code>--bg &#x3C;name|#hex></code></td><td>Background: <code>transparent</code>, <code>gradient</code>, <code>sunset</code>, <code>ocean</code>, <code>aurora</code>, <code>midnight</code>, <code>mono</code>, <code>dark</code>, <code>light</code>, or a hex color such as <code>#1e1e2e</code></td></tr><tr><td><code>--title &#x3C;text></code></td><td>Title bar text (defaults to the file name)</td></tr><tr><td><code>--font-size &#x3C;px></code></td><td>Font size, 9-40 (default 15)</td></tr><tr><td><code>--padding &#x3C;px></code></td><td>Inner padding, 0-120 (default 34)</td></tr><tr><td><code>--radius &#x3C;px></code></td><td>Corner radius, 0-48 (default 14)</td></tr><tr><td><code>--no-line-numbers</code></td><td>Hide line numbers</td></tr><tr><td><code>--no-window</code></td><td>Hide the title bar and window dots</td></tr><tr><td><code>--no-shadow</code></td><td>Turn the drop shadow off</td></tr><tr><td><code>--out &#x3C;dir></code></td><td>Output folder (default <code>.zedpolacode</code>, may be absolute)</td></tr><tr><td><code>--format &#x3C;png|html|both></code></td><td>Output format (default <code>png</code>)</td></tr></tbody></table>
+<p><code>/zedpolacode --help</code> lists the current set; arguments also have completions.</p>
+<h3 id="user-content-themes"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#themes"><span class="heading-anchor-icon">#</span></a>Themes</h3>
+<p><code>dracula</code> (default), <code>one-dark</code>, <code>nord</code>, <code>tokyo-night</code>, <code>github-dark</code>,
+<code>catppuccin-mocha</code>, <code>github-light</code>, <code>solarized-light</code></p>
+<h3 id="user-content-languages"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#languages"><span class="heading-anchor-icon">#</span></a>Languages</h3>
+<p><code>rust</code>, <code>python</code>, <code>javascript</code>, <code>typescript</code>, <code>go</code>, <code>c</code>, <code>cpp</code>, <code>csharp</code>,
+<code>java</code>, <code>kotlin</code>, <code>swift</code>, <code>ruby</code>, <code>php</code>, <code>shell</code>, <code>sql</code>, <code>lua</code>, <code>zig</code>, <code>html</code>
+(markup), <code>css</code>, <code>json</code>, <code>yaml</code>, <code>toml</code>, <code>plaintext</code></p>
+<hr>
+<h2 id="user-content-how-it-works"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#how-it-works"><span class="heading-anchor-icon">#</span></a>How it works</h2>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">flowchart TD</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    A["/zedpolacode src/lib.rs --lines 10-30"] --> B["Zed: zedpolacode.wasm (WASI)"]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    B --> C["Read file, slice lines, highlight"]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    C --> D["Build the HTML card + measure the canvas"]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    D --> E["Write the card into the extension work dir"]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    E --> F["Node script (host): copy + headless browser"]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    F --> G[".zedpolacode/lib-L10-30.png"]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    F --> H[".zedpolacode/lib-L10-30.html"]</span></span></code></pre>
+<ul>
+<li><strong>Highlighting</strong>: a dependency-free scanner (<code>src/highlight.rs</code>) for comments,
+strings (including triple-quoted and multi-line), numbers, keywords, calls,
+types and constants, plus dedicated rules for HTML, CSS, YAML, TOML and JSON.</li>
+<li><strong>Measuring</strong>: the canvas is sized from the longest line (0.62 monospace
+advance ratio, CJK counts as two columns). PNGs are captured at <code>@2x</code>.</li>
+<li><strong>Transparency</strong>: <code>--bg transparent</code> (default) produces a real alpha channel.</li>
+<li><strong>Resilience</strong>: if the PNG cannot be rendered the command still succeeds with
+the HTML card and explains why.</li>
+</ul>
+<h3 id="user-content-project-layout"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#project-layout"><span class="heading-anchor-icon">#</span></a>Project layout</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Path</th><th>Contents</th></tr></thead><tbody><tr><td><code>src/lib.rs</code></td><td>Slash command, argument flow, dedent, summary, completions</td></tr><tr><td><code>src/options.rs</code></td><td>Slash-command flag parsing (builds <code>CardOptions</code>)</td></tr><tr><td><code>src/host.rs</code></td><td>Node invocation, path/warning translation</td></tr><tr><td><code>src/zedpolacode.js</code></td><td>Host side: file writes, browser discovery, <code>--screenshot</code></td></tr><tr><td><code>crates/core/src/highlight.rs</code></td><td>Dependency-free tokenizer + language definitions</td></tr><tr><td><code>crates/core/src/theme.rs</code></td><td>Color palettes</td></tr><tr><td><code>crates/core/src/render.rs</code></td><td>HTML card generation and canvas measurement</td></tr><tr><td><code>crates/core/src/options.rs</code></td><td><code>CardOptions</code>, background presets and validation</td></tr></tbody></table>
+<p>The engine lives in <code>crates/core</code> (<code>polacode-core</code>) and has no dependency on
+<code>zed_extension_api</code>, so the same code can drive an MCP server. Unit tests live in
+<code>#[cfg(test)]</code> blocks; <code>write_preview_artifact</code> is an <code>#[ignore]</code>d test that
+writes a card to disk for manual inspection.</p>
+<hr>
+<h2 id="user-content-development"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#development"><span class="heading-anchor-icon">#</span></a>Development</h2>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> fmt</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --check</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> test</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --workspace</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> build</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --release</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --target</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> wasm32-wasip2</span></span></code></pre>
+<p>To exercise the Node/browser path by hand:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> test</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> write_preview_artifact</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --ignored</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --nocapture</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D"># HTML=/tmp/zedpolacode-preview.html  W=811 H=606 SCALE=2</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">node</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> src/zedpolacode.js</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> '{"mode":"file","html":"&#x3C;path>","outDir":"&#x3C;dir>","base":"preview","w":811,"h":606,"scale":2,"png":true,"wait":1200,"useTmp":false}'</span></span></code></pre>
+<p>Try a different look:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">ZEDPOLACODE_PREVIEW_ARGS</span><span style="color:#D73A49;--shiki-dark:#F97583">=</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"--theme nord --bg gradient"</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> test</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> write_preview_artifact</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --ignored</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --nocapture</span></span></code></pre>
+<h3 id="user-content-troubleshooting"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#troubleshooting"><span class="heading-anchor-icon">#</span></a>Troubleshooting</h3>
+<ul>
+<li>Nothing happens? Open the log with <code>zed: open log</code>.</li>
+<li>Need verbose output (including <code>println!</code>/<code>dbg!</code> from the extension)? Quit Zed and
+relaunch it from a terminal with <code>zed --foreground</code>.</li>
+<li>Re-installing? Run <code>zed: install dev extension</code> on the same directory again —
+Zed replaces the previous build.</li>
+</ul>
+<hr>
+<h2 id="user-content-contributing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#contributing"><span class="heading-anchor-icon">#</span></a>Contributing</h2>
+<p>Issues and PRs are welcome. For larger changes please open an issue first.
+<code>cargo fmt</code> and <code>cargo test</code> must be green.</p>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p><a href="https://github.com/talhayksk/zedpolacode/blob/HEAD/LICENSE" target="_blank" rel="noopener">MIT</a> © Talha Yüksek</p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>
