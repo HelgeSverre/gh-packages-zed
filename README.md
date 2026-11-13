@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1942** |
 | In official registry | 1365 |
 | Discovered via topics | 577 |
-| Last updated | 2026-11-13 00:51 UTC |
+| Last updated | 2026-11-13 06:45 UTC |
 
 ### By capability
 
@@ -120,12 +120,12 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 223 | 2026-11-13 | Zed plugin for automatic time tracking and metrics generated... |
+| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 3 | 2026-11-13 | Local-first code intelligence over MCP: BM25/FTS5 + AST grap... |
 | [DiegoRiveraEstefano/jte-zed-extension](https://github.com/DiegoRiveraEstefano/jte-zed-extension) | 0 | 2026-11-13 | Java Template Engine (JTE) language extension for the Zed Ed... |
 | [wiroai/Wiro-Zed](https://github.com/wiroai/Wiro-Zed) | 0 | 2026-11-12 | Wiro AI MCP server for the Zed editor: search, price and run... |
-| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 3 | 2026-11-12 | Local-first code intelligence over MCP: BM25/FTS5 + AST grap... |
 | [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 1 | 2026-11-12 | Zed extension that formats and lints HTML templates with djL... |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-11-12 | Zed editor support for Carve, a modern light markup language |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 223 | 2026-11-12 | Zed plugin for automatic time tracking and metrics generated... |
 | [faxforagents/zed-extension](https://github.com/faxforagents/zed-extension) | 0 | 2026-11-12 | Zed extension (id faxforagents-mcp-server) that runs the Fax... |
 | [albertsko/zed-everforest](https://github.com/albertsko/zed-everforest) | 20 | 2026-11-12 | 🌲 Everforest for Zed |
 | [pngdrift/zed-actionscript](https://github.com/pngdrift/zed-actionscript) | 3 | 2026-11-12 | ActionScript language support for Zed editor |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-11-13T06:45 | 0 | 753 | 2462 |
 | 2026-11-13T00:51 | 2 | 751 | 2462 |
 | 2026-11-12T18:44 | 1 | 750 | 2460 |
 | 2026-11-12T12:43 | 1 | 750 | 2459 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-11-11T12:44 | 1 | 745 | 2457 |
 | 2026-11-11T06:44 | 1 | 744 | 2456 |
 | 2026-11-11T00:50 | 0 | 744 | 2455 |
-| 2026-11-10T18:44 | 1 | 743 | 2455 |
 
 ---
 
