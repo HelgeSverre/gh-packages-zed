@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1942-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1943-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,16 +14,16 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1942** |
+| Total tracked | **1943** |
 | In official registry | 1365 |
-| Discovered via topics | 577 |
-| Last updated | 2026-11-13 06:45 UTC |
+| Discovered via topics | 578 |
+| Last updated | 2026-11-13 12:44 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
-| Themes | 833 |
+| Themes | 834 |
 | Grammars | 667 |
 | Language Servers | 628 |
 | Context Servers | 150 |
@@ -70,6 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [dvictor357/vault-terminal-theme](https://github.com/dvictor357/vault-terminal-theme) | 1 | Monochrome phosphor-terminal themes for Zed (green, amber, blue) |
 | [DiegoRiveraEstefano/jte-zed-extension](https://github.com/DiegoRiveraEstefano/jte-zed-extension) | 0 | Java Template Engine (JTE) language extension for the Zed Editor |
 | [talhayksk/zedpolacode](https://github.com/talhayksk/zedpolacode) | 0 | Polacode-style code snapshots for Zed: render a file or line range as a shareabl... |
 | [wiroai/Wiro-Zed](https://github.com/wiroai/Wiro-Zed) | 0 | Wiro AI MCP server for the Zed editor: search, price and run 1,000+ image, video... |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [chelpav/zed-db-tools-sql](https://github.com/chelpav/zed-db-tools-sql) | 0 | Zed extension: SQL + Jinja2 highlighting for *.sql.tmpl templates (db-tools). Ji... |
 | [1ay1/hipster-zed-theme](https://github.com/1ay1/hipster-zed-theme) | 4 | Hipster: 14 bold terminal-style themes for Zed, from the original Hipster Green ... |
 | [chaliidesigns/chalii-zed](https://github.com/chaliidesigns/chalii-zed) | 0 | Chalii themes for Zed — premium light and dark with warm orange accents |
-| [rabuawad/vyper-lsp](https://github.com/rabuawad/vyper-lsp) | 0 | Zed extension for the Vyper smart contract language. Syntax highlighting, indent... |
 
 ## Top starred (under 500)
 
@@ -120,17 +120,18 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-11-13 | Zed editor support for Carve, a modern light markup language |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 102 | 2026-11-13 | True Dark Theme for Zed IDE |
+| [dvictor357/vault-terminal-theme](https://github.com/dvictor357/vault-terminal-theme) | 1 | 2026-11-13 | Monochrome phosphor-terminal themes for Zed (green, amber, b... |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 223 | 2026-11-13 | Zed plugin for automatic time tracking and metrics generated... |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 3 | 2026-11-13 | Local-first code intelligence over MCP: BM25/FTS5 + AST grap... |
 | [DiegoRiveraEstefano/jte-zed-extension](https://github.com/DiegoRiveraEstefano/jte-zed-extension) | 0 | 2026-11-13 | Java Template Engine (JTE) language extension for the Zed Ed... |
 | [wiroai/Wiro-Zed](https://github.com/wiroai/Wiro-Zed) | 0 | 2026-11-12 | Wiro AI MCP server for the Zed editor: search, price and run... |
 | [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 1 | 2026-11-12 | Zed extension that formats and lints HTML templates with djL... |
-| [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-11-12 | Zed editor support for Carve, a modern light markup language |
 | [faxforagents/zed-extension](https://github.com/faxforagents/zed-extension) | 0 | 2026-11-12 | Zed extension (id faxforagents-mcp-server) that runs the Fax... |
 | [albertsko/zed-everforest](https://github.com/albertsko/zed-everforest) | 20 | 2026-11-12 | 🌲 Everforest for Zed |
 | [pngdrift/zed-actionscript](https://github.com/pngdrift/zed-actionscript) | 3 | 2026-11-12 | ActionScript language support for Zed editor |
 | [aalto-opencs/stlcpp-zed](https://github.com/aalto-opencs/stlcpp-zed) | 0 | 2026-11-12 | Zed language extension for 𝕊𝕋𝕃ℂ++ |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 102 | 2026-11-12 | True Dark Theme for Zed IDE |
 | [talhayksk/zedpolacode](https://github.com/talhayksk/zedpolacode) | 0 | 2026-11-12 | Polacode-style code snapshots for Zed: render a file or line... |
 | [husur/gradle-catalog-lsp](https://github.com/husur/gradle-catalog-lsp) | 0 | 2026-11-12 | Zed extension: shows newer versions of the libraries and plu... |
 | [SniperRavan/zed-mizu](https://github.com/SniperRavan/zed-mizu) | 0 | 2026-11-12 | A fork of mizu icon by m39u but for zed. Which modified usin... |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [wielorzeczownik/zed-volt](https://github.com/wielorzeczownik/zed-volt) | 0 | 2026-11-11 | Phalcon Volt template support for Zed: syntax highlighting a... |
 | [abhinaaaavvv/truly-zen-theme](https://github.com/abhinaaaavvv/truly-zen-theme) | 0 | 2026-11-11 | A zed editor theme for total concentration. |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 14 | 2026-11-11 | Spring Boot language intelligence for Zed, powered by the of... |
-| [shnarazk/zed-lean4](https://github.com/shnarazk/zed-lean4) | 3 | 2026-11-11 | Zed extension to support Lean4 language |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-11-13T12:44 | 1 | 752 | 2463 |
 | 2026-11-13T06:45 | 0 | 753 | 2462 |
 | 2026-11-13T00:51 | 2 | 751 | 2462 |
 | 2026-11-12T18:44 | 1 | 750 | 2460 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-11-11T18:44 | 1 | 749 | 2458 |
 | 2026-11-11T12:44 | 1 | 745 | 2457 |
 | 2026-11-11T06:44 | 1 | 744 | 2456 |
-| 2026-11-11T00:50 | 0 | 744 | 2455 |
 
 ---
 
