@@ -199,7 +199,7 @@
     "license": "MIT",
     "created_at": "2024-08-27T10:31:46Z",
     "updated_at": "2026-11-13T00:33:54Z",
-    "pushed_at": "2026-11-13T06:37:00Z",
+    "pushed_at": "2026-11-13T17:03:23Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -4024,25 +4024,6 @@
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
-  "encore-language/ehir-zed": {
-    "name": "encore-language/ehir-zed",
-    "url": "https://github.com/encore-language/ehir-zed",
-    "description": "Plugin for zed editor with EHIR language support",
-    "stars": 0,
-    "forks": 0,
-    "topics": [
-      "highlights",
-      "lsp",
-      "zed-extension"
-    ],
-    "language": null,
-    "license": "MIT",
-    "created_at": "2025-11-13T14:30:03Z",
-    "updated_at": "2026-03-30T19:15:59Z",
-    "pushed_at": "2025-11-13T14:19:34Z",
-    "discovered_at": "2026-05-19T19:19:12.409Z",
-    "official": false
-  },
   "willpuckett/zed-kanata": {
     "name": "willpuckett/zed-kanata",
     "url": "https://github.com/willpuckett/zed-kanata",
@@ -5103,7 +5084,7 @@
     "license": "MIT",
     "created_at": "2026-03-09T04:35:59Z",
     "updated_at": "2026-11-12T16:00:39Z",
-    "pushed_at": "2026-11-12T15:00:33Z",
+    "pushed_at": "2026-11-13T14:25:50Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -5467,7 +5448,7 @@
     "license": null,
     "created_at": "2025-12-07T21:12:43Z",
     "updated_at": "2026-06-10T03:13:00Z",
-    "pushed_at": "2026-06-10T03:12:57Z",
+    "pushed_at": "2026-11-13T17:27:12Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
   },
@@ -13413,7 +13394,7 @@
     "name": "lmn451/css-variables-zed",
     "url": "https://github.com/lmn451/css-variables-zed",
     "description": "Project-wide CSS custom property intelligence for Zed: completion, hover, navigation, rename, diagnostics, and color tools.",
-    "stars": 8,
+    "stars": 9,
     "forks": 4,
     "topics": [
       "css",
@@ -13428,7 +13409,7 @@
     "language": "Rust",
     "license": "GPL-3.0",
     "created_at": "2025-11-15T12:51:35Z",
-    "updated_at": "2026-11-07T15:59:19Z",
+    "updated_at": "2026-11-13T16:29:37Z",
     "pushed_at": "2026-11-07T15:59:14Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": true
@@ -15342,7 +15323,7 @@
     "name": "agent-sh/agnix",
     "url": "https://github.com/agent-sh/agnix",
     "description": "The missing linter and lsp for AI coding assistants. Validate CLAUDE.md, AGENTS.md, SKILL.md, hooks, MCP. Plugin for all major IDEs included, with autofixes.",
-    "stars": 481,
+    "stars": 483,
     "forks": 35,
     "topics": [
       "agent",
@@ -15369,7 +15350,7 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
-    "updated_at": "2026-11-13T10:01:38Z",
+    "updated_at": "2026-11-13T17:19:39Z",
     "pushed_at": "2026-11-13T08:17:39Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
@@ -17934,7 +17915,7 @@
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
     "updated_at": "2026-11-12T13:44:32Z",
-    "pushed_at": "2026-11-13T06:45:46Z",
+    "pushed_at": "2026-11-13T12:44:52Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -23446,11 +23427,17 @@
     "description": "Zed Theme: One Dark Pro Max :)",
     "stars": 15,
     "forks": 3,
-    "topics": [],
+    "topics": [
+      "one-dark-pro",
+      "zed",
+      "zed-editor",
+      "zed-extension",
+      "zed-theme"
+    ],
     "language": null,
     "license": "MIT",
     "created_at": "2025-02-18T08:55:26Z",
-    "updated_at": "2026-11-09T11:56:42Z",
+    "updated_at": "2026-11-13T15:24:11Z",
     "pushed_at": "2026-01-02T04:49:37Z",
     "discovered_at": "2026-05-20T00:39:45.722Z",
     "official": false
@@ -31952,7 +31939,7 @@
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
     "updated_at": "2026-11-12T19:03:45Z",
-    "pushed_at": "2026-11-13T02:45:49Z",
+    "pushed_at": "2026-11-13T17:33:07Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false
   },
@@ -33118,7 +33105,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-05-17T07:32:27Z",
     "updated_at": "2026-10-17T16:07:55Z",
-    "pushed_at": "2026-11-07T12:18:57Z",
+    "pushed_at": "2026-11-13T17:39:51Z",
     "discovered_at": "2026-07-26T01:12:51.640Z",
     "official": false
   },
@@ -36900,7 +36887,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-09-03T18:54:22Z",
     "updated_at": "2026-11-12T13:47:49Z",
-    "pushed_at": "2026-11-13T12:29:44Z",
+    "pushed_at": "2026-11-13T14:54:38Z",
     "discovered_at": "2026-09-09T01:10:37.044Z",
     "official": false
   },
@@ -38651,7 +38638,7 @@
     "license": "MIT",
     "created_at": "2025-12-30T13:06:05Z",
     "updated_at": "2026-11-12T12:42:21Z",
-    "pushed_at": "2026-11-12T11:42:18Z",
+    "pushed_at": "2026-11-13T13:53:42Z",
     "discovered_at": "2026-09-22T21:39:37.182Z",
     "official": false
   },
@@ -40350,7 +40337,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-10-06T03:31:12Z",
     "updated_at": "2026-10-31T14:10:59Z",
-    "pushed_at": "2026-11-12T23:49:43Z",
+    "pushed_at": "2026-11-13T16:00:26Z",
     "discovered_at": "2026-10-06T12:56:24.959Z",
     "official": false
   },
@@ -41302,8 +41289,8 @@
     "name": "thesimonho/kanagawa-paper",
     "url": "https://github.com/thesimonho/kanagawa-paper",
     "description": "🌊 Remixed Kanagawa colourschemes with muted colors.",
-    "stars": 407,
-    "forks": 19,
+    "stars": 408,
+    "forks": 20,
     "topics": [
       "color-scheme",
       "ghostty-theme",
@@ -41319,8 +41306,8 @@
     "language": "TypeScript",
     "license": "MIT",
     "created_at": "2024-06-02T08:11:44Z",
-    "updated_at": "2026-11-13T09:36:14Z",
-    "pushed_at": "2026-11-03T03:26:57Z",
+    "updated_at": "2026-11-13T15:44:13Z",
+    "pushed_at": "2026-11-13T15:50:41Z",
     "discovered_at": "2026-10-18T01:13:08.292Z",
     "official": false
   },
@@ -42391,13 +42378,13 @@
     "name": "reuixiy7/zed-lean4",
     "url": "https://github.com/reuixiy7/zed-lean4",
     "description": "",
-    "stars": 63,
+    "stars": 64,
     "forks": 17,
     "topics": [],
     "language": "Tree-sitter Query",
     "license": "Apache-2.0",
     "created_at": "2025-04-18T13:34:52Z",
-    "updated_at": "2026-10-30T10:25:25Z",
+    "updated_at": "2026-11-13T17:33:03Z",
     "pushed_at": "2026-10-30T10:25:20Z",
     "discovered_at": "2026-10-31T00:48:59.196Z",
     "official": false
@@ -42529,7 +42516,7 @@
     "license": null,
     "created_at": "2026-04-16T11:26:51Z",
     "updated_at": "2026-11-12T15:42:27Z",
-    "pushed_at": "2026-11-13T10:50:38Z",
+    "pushed_at": "2026-11-13T17:36:28Z",
     "discovered_at": "2026-11-01T00:54:44.248Z",
     "official": false
   },
@@ -42599,7 +42586,7 @@
     "license": "MIT",
     "created_at": "2026-11-01T01:34:22Z",
     "updated_at": "2026-11-12T03:10:40Z",
-    "pushed_at": "2026-11-12T21:09:30Z",
+    "pushed_at": "2026-11-13T17:49:57Z",
     "discovered_at": "2026-11-01T12:43:52.373Z",
     "official": false
   },
@@ -42900,7 +42887,7 @@
     "license": "MIT",
     "created_at": "2026-11-02T16:43:40Z",
     "updated_at": "2026-11-10T10:55:36Z",
-    "pushed_at": "2026-11-13T01:57:15Z",
+    "pushed_at": "2026-11-13T16:56:06Z",
     "discovered_at": "2026-11-04T18:44:22.632Z",
     "official": false
   },
@@ -43598,7 +43585,7 @@
     "license": "MIT",
     "created_at": "2026-11-12T07:31:19Z",
     "updated_at": "2026-11-12T08:39:09Z",
-    "pushed_at": "2026-11-12T08:03:25Z",
+    "pushed_at": "2026-11-13T13:43:19Z",
     "discovered_at": "2026-11-12T12:43:52.767Z",
     "official": false
   },
@@ -43632,7 +43619,7 @@
     "license": null,
     "created_at": "2026-04-14T16:50:18Z",
     "updated_at": "2026-11-12T15:41:41Z",
-    "pushed_at": "2026-11-13T12:14:57Z",
+    "pushed_at": "2026-11-13T17:36:04Z",
     "discovered_at": "2026-11-12T18:44:10.996Z",
     "official": false
   },
@@ -43702,6 +43689,29 @@
     "updated_at": "2026-11-13T07:14:47Z",
     "pushed_at": "2026-11-13T07:10:04Z",
     "discovered_at": "2026-11-13T12:44:16.821Z",
+    "official": false
+  },
+  "marcelfrey29/development-containers-manager": {
+    "name": "marcelfrey29/development-containers-manager",
+    "url": "https://github.com/marcelfrey29/development-containers-manager",
+    "description": "[Experimental] Manage Devcontainers from the Terminal: One container per project, IDE-independent, full (Agent) isolation.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "agents",
+      "devcontainer",
+      "devcontainers",
+      "shell",
+      "vscode",
+      "zed",
+      "zed-editor"
+    ],
+    "language": "Shell",
+    "license": "MIT",
+    "created_at": "2026-11-07T12:56:15Z",
+    "updated_at": "2026-11-13T18:39:30Z",
+    "pushed_at": "2026-11-09T20:19:45Z",
+    "discovered_at": "2026-11-13T18:44:11.364Z",
     "official": false
   }
 }
