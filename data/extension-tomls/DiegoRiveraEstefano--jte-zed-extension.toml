@@ -1,0 +1,19 @@
+id = "jte"
+name = "JTE"
+version = "0.1.0"
+schema_version = 1
+authors = ["Diego Rivera"]
+description = "JTE (Java Template Engine) language support for Zed"
+repository = "https://github.com/DiegoRiveraEstefano/jte-zed-extension"
+
+[grammars.jte]
+repository = "file:///home/diego/Proyectos/jte-zed-extension"
+commit = "0e0cce6e55e041833638932bc9cd8bb52c954721"
+path = "tree-sitter-jte"
+
+[language_servers.vscode-html-language-server]
+name = "vscode-html-language-server"
+languages = ["JTE"]
+
+[language_servers.vscode-html-language-server.language_ids]
+"JTE" = "html"

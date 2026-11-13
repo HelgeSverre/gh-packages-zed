@@ -186,7 +186,7 @@
     "name": "wakatime/zed-wakatime",
     "url": "https://github.com/wakatime/zed-wakatime",
     "description": "Zed plugin for automatic time tracking and metrics generated from your programming activity.",
-    "stars": 222,
+    "stars": 223,
     "forks": 30,
     "topics": [
       "extension",
@@ -198,7 +198,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2024-08-27T10:31:46Z",
-    "updated_at": "2026-11-12T03:01:43Z",
+    "updated_at": "2026-11-13T00:33:54Z",
     "pushed_at": "2026-11-12T17:03:24Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -5130,7 +5130,7 @@
     "name": "Dylanmurzello/zed-android-port",
     "url": "https://github.com/Dylanmurzello/zed-android-port",
     "description": "Native Android port of the Zed code editor,  gpui rendering through Vulkan, integrated Termux for LSPs and tooling, remote SSH support. Runs as an APK on tablets and Android desktop modes.",
-    "stars": 258,
+    "stars": 259,
     "forks": 23,
     "topics": [
       "android",
@@ -5157,7 +5157,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-05-07T00:12:10Z",
-    "updated_at": "2026-11-12T13:45:30Z",
+    "updated_at": "2026-11-12T22:11:12Z",
     "pushed_at": "2026-11-07T22:12:24Z",
     "discovered_at": "2026-05-19T19:54:12.053Z",
     "official": false
@@ -17934,7 +17934,7 @@
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
     "updated_at": "2026-11-12T13:44:32Z",
-    "pushed_at": "2026-11-12T12:44:27Z",
+    "pushed_at": "2026-11-12T18:44:38Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -29354,7 +29354,7 @@
     "license": "MIT",
     "created_at": "2026-05-31T18:45:13Z",
     "updated_at": "2026-11-08T05:03:40Z",
-    "pushed_at": "2026-11-08T05:03:37Z",
+    "pushed_at": "2026-11-12T20:03:09Z",
     "discovered_at": "2026-06-01T00:42:32.383Z",
     "official": false
   },
@@ -31923,7 +31923,7 @@
   "mansio/mscodebase-intelligence": {
     "name": "ManSio/mscodebase-intelligence",
     "url": "https://github.com/ManSio/mscodebase-intelligence",
-    "description": "Intelligent codebase search & indexing . Async MCP server featuring LanceDB/BM25 hybrid search, multi-bucket RAG, and autonomous self-healing workflows. High-performance, memory-safe, and ready for your production code.",
+    "description": "Local-first code intelligence over MCP: BM25/FTS5 + AST graph, impact analysis, project memory and safe writes. Text-first by default; optional dense. Works with OpenCode and Zed.",
     "stars": 3,
     "forks": 0,
     "topics": [
@@ -31937,19 +31937,22 @@
       "index",
       "lancedb",
       "llm-context",
+      "local-first",
       "mcp-server",
+      "onnx",
       "python-asyncio",
       "rag",
       "semantic",
       "semantic-search",
+      "text-first",
       "windows-development",
       "zed-editor"
     ],
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
-    "updated_at": "2026-11-11T03:38:15Z",
-    "pushed_at": "2026-11-12T18:39:57Z",
+    "updated_at": "2026-11-12T19:03:45Z",
+    "pushed_at": "2026-11-12T22:02:35Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false
   },
@@ -36863,7 +36866,7 @@
     "license": "MIT",
     "created_at": "2026-09-07T16:00:35Z",
     "updated_at": "2026-11-12T14:52:28Z",
-    "pushed_at": "2026-11-12T18:36:07Z",
+    "pushed_at": "2026-11-12T21:26:34Z",
     "discovered_at": "2026-09-07T18:46:27.369Z",
     "official": false
   },
@@ -37301,7 +37304,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-08-28T14:03:54Z",
     "updated_at": "2026-09-18T02:36:17Z",
-    "pushed_at": "2026-11-12T04:02:52Z",
+    "pushed_at": "2026-11-13T00:07:36Z",
     "discovered_at": "2026-09-13T21:07:24.622Z",
     "official": false
   },
@@ -38343,7 +38346,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-09-21T20:10:00Z",
     "updated_at": "2026-11-11T04:50:10Z",
-    "pushed_at": "2026-11-12T18:20:28Z",
+    "pushed_at": "2026-11-12T21:19:03Z",
     "discovered_at": "2026-09-21T22:12:12.101Z",
     "official": false
   },
@@ -39851,7 +39854,7 @@
     "license": null,
     "created_at": "2026-09-04T07:49:15Z",
     "updated_at": "2026-11-12T12:55:25Z",
-    "pushed_at": "2026-11-12T11:55:22Z",
+    "pushed_at": "2026-11-13T00:43:26Z",
     "discovered_at": "2026-09-30T12:59:15.249Z",
     "official": false
   },
@@ -40347,7 +40350,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-10-06T03:31:12Z",
     "updated_at": "2026-10-31T14:10:59Z",
-    "pushed_at": "2026-11-03T14:09:36Z",
+    "pushed_at": "2026-11-12T23:49:43Z",
     "discovered_at": "2026-10-06T12:56:24.959Z",
     "official": false
   },
@@ -42526,7 +42529,7 @@
     "license": null,
     "created_at": "2026-04-16T11:26:51Z",
     "updated_at": "2026-11-12T15:42:27Z",
-    "pushed_at": "2026-11-12T18:00:13Z",
+    "pushed_at": "2026-11-12T20:52:57Z",
     "discovered_at": "2026-11-01T00:54:44.248Z",
     "official": false
   },
@@ -42596,7 +42599,7 @@
     "license": "MIT",
     "created_at": "2026-11-01T01:34:22Z",
     "updated_at": "2026-11-12T03:10:40Z",
-    "pushed_at": "2026-11-12T02:10:39Z",
+    "pushed_at": "2026-11-12T21:09:30Z",
     "discovered_at": "2026-11-01T12:43:52.373Z",
     "official": false
   },
@@ -43545,7 +43548,7 @@
     "license": "MIT",
     "created_at": "2026-11-11T07:27:21Z",
     "updated_at": "2026-11-12T08:41:58Z",
-    "pushed_at": "2026-11-12T07:41:56Z",
+    "pushed_at": "2026-11-12T23:25:17Z",
     "discovered_at": "2026-11-11T12:43:59.701Z",
     "official": false
   },
@@ -43629,8 +43632,57 @@
     "license": null,
     "created_at": "2026-04-14T16:50:18Z",
     "updated_at": "2026-11-12T15:41:41Z",
-    "pushed_at": "2026-11-12T18:01:55Z",
+    "pushed_at": "2026-11-12T21:09:37Z",
     "discovered_at": "2026-11-12T18:44:10.996Z",
+    "official": false
+  },
+  "diegoriveraestefano/jte-zed-extension": {
+    "name": "DiegoRiveraEstefano/jte-zed-extension",
+    "url": "https://github.com/DiegoRiveraEstefano/jte-zed-extension",
+    "description": "Java Template Engine (JTE) language extension for the Zed Editor",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "extension",
+      "highlight",
+      "java",
+      "jte",
+      "templates",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "JavaScript",
+    "license": "MIT",
+    "created_at": "2026-11-12T22:53:44Z",
+    "updated_at": "2026-11-13T00:40:31Z",
+    "pushed_at": "2026-11-13T00:40:40Z",
+    "discovered_at": "2026-11-13T00:51:31.666Z",
+    "official": false
+  },
+  "williamcachamwri/zed-config": {
+    "name": "williamcachamwri/zed-config",
+    "url": "https://github.com/williamcachamwri/zed-config",
+    "description": "Zed Editor Cyber Glass Blur UI, animations, extensions & Oh-My-Zsh PowerShell 7 setup",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "blur",
+      "cpp",
+      "dotfiles",
+      "glassmorphism",
+      "material-icons",
+      "powershell",
+      "windows-11",
+      "zed",
+      "zed-editor",
+      "zed-theme"
+    ],
+    "language": "PowerShell",
+    "license": null,
+    "created_at": "2026-11-12T19:35:49Z",
+    "updated_at": "2026-11-12T19:44:34Z",
+    "pushed_at": "2026-11-12T19:53:34Z",
+    "discovered_at": "2026-11-13T00:51:31.667Z",
     "official": false
   }
 }

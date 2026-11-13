@@ -205,7 +205,7 @@
     "name": "wakatime/zed-wakatime",
     "url": "https://github.com/wakatime/zed-wakatime",
     "description": "Zed plugin for automatic time tracking and metrics generated from your programming activity.",
-    "stars": 222,
+    "stars": 223,
     "forks": 30,
     "topics": [
       "extension",
@@ -217,7 +217,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2024-08-27T10:31:46Z",
-    "updated_at": "2026-11-12T03:01:43Z",
+    "updated_at": "2026-11-13T00:33:54Z",
     "pushed_at": "2026-11-12T17:03:24Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -53600,7 +53600,7 @@
   "mansio/mscodebase-intelligence": {
     "name": "ManSio/mscodebase-intelligence",
     "url": "https://github.com/ManSio/mscodebase-intelligence",
-    "description": "Intelligent codebase search & indexing . Async MCP server featuring LanceDB/BM25 hybrid search, multi-bucket RAG, and autonomous self-healing workflows. High-performance, memory-safe, and ready for your production code.",
+    "description": "Local-first code intelligence over MCP: BM25/FTS5 + AST graph, impact analysis, project memory and safe writes. Text-first by default; optional dense. Works with OpenCode and Zed.",
     "stars": 3,
     "forks": 0,
     "topics": [
@@ -53614,19 +53614,22 @@
       "index",
       "lancedb",
       "llm-context",
+      "local-first",
       "mcp-server",
+      "onnx",
       "python-asyncio",
       "rag",
       "semantic",
       "semantic-search",
+      "text-first",
       "windows-development",
       "zed-editor"
     ],
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
-    "updated_at": "2026-11-11T03:38:15Z",
-    "pushed_at": "2026-11-12T18:39:57Z",
+    "updated_at": "2026-11-12T19:03:45Z",
+    "pushed_at": "2026-11-12T22:02:35Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false,
     "extension": {
@@ -66327,7 +66330,7 @@
     "license": "MIT",
     "created_at": "2026-11-01T01:34:22Z",
     "updated_at": "2026-11-12T03:10:40Z",
-    "pushed_at": "2026-11-12T02:10:39Z",
+    "pushed_at": "2026-11-12T21:09:30Z",
     "discovered_at": "2026-11-01T12:43:52.373Z",
     "official": false,
     "extension": {
@@ -67141,7 +67144,7 @@
     "license": "MIT",
     "created_at": "2026-11-11T07:27:21Z",
     "updated_at": "2026-11-12T08:41:58Z",
-    "pushed_at": "2026-11-12T07:41:56Z",
+    "pushed_at": "2026-11-12T23:25:17Z",
     "discovered_at": "2026-11-11T12:43:59.701Z",
     "official": false,
     "extension": {
@@ -67203,6 +67206,49 @@
       ],
       "categories": [
         "slash-command"
+      ]
+    }
+  },
+  "diegoriveraestefano/jte-zed-extension": {
+    "name": "DiegoRiveraEstefano/jte-zed-extension",
+    "url": "https://github.com/DiegoRiveraEstefano/jte-zed-extension",
+    "description": "Java Template Engine (JTE) language extension for the Zed Editor",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "extension",
+      "highlight",
+      "java",
+      "jte",
+      "templates",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "JavaScript",
+    "license": "MIT",
+    "created_at": "2026-11-12T22:53:44Z",
+    "updated_at": "2026-11-13T00:40:31Z",
+    "pushed_at": "2026-11-13T00:40:40Z",
+    "discovered_at": "2026-11-13T00:51:31.666Z",
+    "official": false,
+    "extension": {
+      "id": "jte",
+      "name": "JTE",
+      "description": "JTE (Java Template Engine) language support for Zed",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Diego Rivera"
+      ],
+      "repository": "https://github.com/DiegoRiveraEstefano/jte-zed-extension",
+      "snippets": null,
+      "sections": [
+        "grammars",
+        "language_servers"
+      ],
+      "categories": [
+        "grammar",
+        "language-server"
       ]
     }
   }
