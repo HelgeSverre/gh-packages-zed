@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1942** |
 | In official registry | 1365 |
 | Discovered via topics | 577 |
-| Last updated | 2026-11-14 00:48 UTC |
+| Last updated | 2026-11-14 06:43 UTC |
 
 ### By capability
 
@@ -120,9 +120,10 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 1 | 2026-11-14 | Zed extension that formats and lints HTML templates with djL... |
+| [radekBednarik/playwright-zed](https://github.com/radekBednarik/playwright-zed) | 0 | 2026-11-14 | Playwright end-to-end test management for the Zed editor |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-11-13 | A Zed extension that allows to highlight all occurrences of ... |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 3 | 2026-11-13 | Local-first code intelligence over MCP: BM25/FTS5 + AST grap... |
-| [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 1 | 2026-11-13 | Zed extension that formats and lints HTML templates with djL... |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 223 | 2026-11-13 | Zed plugin for automatic time tracking and metrics generated... |
 | [aalto-opencs/stlcpp-zed](https://github.com/aalto-opencs/stlcpp-zed) | 0 | 2026-11-13 | Zed language extension for 𝕊𝕋𝕃ℂ++ |
 | [talhayksk/zedpolacode](https://github.com/talhayksk/zedpolacode) | 0 | 2026-11-13 | Polacode-style code snapshots for Zed: render a file or line... |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [maxmalkin/zedtex](https://github.com/maxmalkin/zedtex) | 2 | 2026-11-11 | ZedTeX: LaTeX package support, TeX page previews, Markdown e... |
 | [olostep-api/olostep-zed](https://github.com/olostep-api/olostep-zed) | 0 | 2026-11-11 | Zed extension for Olostep, web data infrastructure for AI. L... |
 | [wielorzeczownik/zed-volt](https://github.com/wielorzeczownik/zed-volt) | 0 | 2026-11-11 | Phalcon Volt template support for Zed: syntax highlighting a... |
-| [abhinaaaavvv/truly-zen-theme](https://github.com/abhinaaaavvv/truly-zen-theme) | 0 | 2026-11-11 | A zed editor theme for total concentration. |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-11-14T06:43 | 0 | 754 | 2465 |
 | 2026-11-14T00:48 | 2 | 752 | 2465 |
 | 2026-11-13T18:44 | 1 | 753 | 2463 |
 | 2026-11-13T12:44 | 1 | 752 | 2463 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-11-12T12:43 | 1 | 750 | 2459 |
 | 2026-11-12T06:45 | 0 | 750 | 2458 |
 | 2026-11-12T00:51 | 0 | 750 | 2458 |
-| 2026-11-11T18:44 | 1 | 749 | 2458 |
 
 ---
 
