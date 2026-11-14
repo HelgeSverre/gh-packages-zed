@@ -144,7 +144,7 @@
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
     "updated_at": "2026-11-12T08:52:30Z",
-    "pushed_at": "2026-11-13T08:48:36Z",
+    "pushed_at": "2026-11-14T08:08:50Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -6895,40 +6895,6 @@
       ],
       "categories": [
         "context-server"
-      ]
-    }
-  },
-  "emirror-de/windows2000-zed": {
-    "name": "emirror-de/windows2000-zed",
-    "url": "https://github.com/emirror-de/windows2000-zed",
-    "description": "Windows 2000-inspired light and dark themes for Zed",
-    "stars": 0,
-    "forks": 0,
-    "topics": [
-      "theme",
-      "zed-extension"
-    ],
-    "language": null,
-    "license": "MIT",
-    "created_at": "2025-09-24T07:18:28Z",
-    "updated_at": "2025-09-24T10:11:46Z",
-    "pushed_at": "2025-09-24T10:11:43Z",
-    "discovered_at": "2026-05-19T19:19:12.409Z",
-    "official": false,
-    "extension": {
-      "id": "windows2000",
-      "name": "Windows 2000",
-      "description": "Windows 2000-inspired light and dark themes for Zed",
-      "version": "0.1.0",
-      "schema_version": 1,
-      "authors": [
-        "Lewin Probst<info@emirror.de>"
-      ],
-      "repository": "https://github.com/emirror-de/windows2k-zed",
-      "snippets": null,
-      "sections": [],
-      "categories": [
-        "theme"
       ]
     }
   },
@@ -53596,7 +53562,7 @@
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
     "updated_at": "2026-11-12T19:03:45Z",
-    "pushed_at": "2026-11-13T21:17:02Z",
+    "pushed_at": "2026-11-14T11:30:46Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false,
     "extension": {
@@ -67247,6 +67213,40 @@
         "Dimas Victor"
       ],
       "repository": "https://github.com/dvictor357/vault-terminal-theme",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "emirror-de/windows-classic-themes-zed": {
+    "name": "emirror-de/windows-classic-themes-zed",
+    "url": "https://github.com/emirror-de/windows-classic-themes-zed",
+    "description": "Windows 2000 and Windows 7-inspired light and dark themes for Zed",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "theme",
+      "zed-extension"
+    ],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2025-09-24T07:18:28Z",
+    "updated_at": "2026-11-14T09:20:45Z",
+    "pushed_at": "2026-11-14T09:17:18Z",
+    "discovered_at": "2026-11-14T12:44:04.179Z",
+    "official": false,
+    "extension": {
+      "id": "windows-classic-themes",
+      "name": "Windows Classic Themes",
+      "description": "Windows 2000 and Windows 7-inspired light and dark themes for Zed",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Lewin Probst<info@emirror.de>"
+      ],
+      "repository": "https://github.com/emirror-de/windows-classic-themes-zed",
       "snippets": null,
       "sections": [],
       "categories": [

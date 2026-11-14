@@ -159,7 +159,7 @@
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
     "updated_at": "2026-11-12T08:52:30Z",
-    "pushed_at": "2026-11-13T08:48:36Z",
+    "pushed_at": "2026-11-14T08:08:50Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -4427,24 +4427,6 @@
     "pushed_at": "2025-09-30T08:31:29Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
-  },
-  "emirror-de/windows2000-zed": {
-    "name": "emirror-de/windows2000-zed",
-    "url": "https://github.com/emirror-de/windows2000-zed",
-    "description": "Windows 2000-inspired light and dark themes for Zed",
-    "stars": 0,
-    "forks": 0,
-    "topics": [
-      "theme",
-      "zed-extension"
-    ],
-    "language": null,
-    "license": "MIT",
-    "created_at": "2025-09-24T07:18:28Z",
-    "updated_at": "2025-09-24T10:11:46Z",
-    "pushed_at": "2025-09-24T10:11:43Z",
-    "discovered_at": "2026-05-19T19:19:12.409Z",
-    "official": false
   },
   "benjamin-davies/zed-relview": {
     "name": "Benjamin-Davies/zed-relview",
@@ -15323,7 +15305,7 @@
     "name": "agent-sh/agnix",
     "url": "https://github.com/agent-sh/agnix",
     "description": "The missing linter and lsp for AI coding assistants. Validate CLAUDE.md, AGENTS.md, SKILL.md, hooks, MCP. Plugin for all major IDEs included, with autofixes.",
-    "stars": 483,
+    "stars": 484,
     "forks": 35,
     "topics": [
       "agent",
@@ -15350,8 +15332,8 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
-    "updated_at": "2026-11-13T17:19:39Z",
-    "pushed_at": "2026-11-13T19:44:44Z",
+    "updated_at": "2026-11-14T11:49:34Z",
+    "pushed_at": "2026-11-14T07:31:24Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -17915,7 +17897,7 @@
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
     "updated_at": "2026-11-12T13:44:32Z",
-    "pushed_at": "2026-11-14T00:49:31Z",
+    "pushed_at": "2026-11-14T06:44:15Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -31939,7 +31921,7 @@
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
     "updated_at": "2026-11-12T19:03:45Z",
-    "pushed_at": "2026-11-13T21:17:02Z",
+    "pushed_at": "2026-11-14T11:30:46Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false
   },
@@ -39841,7 +39823,7 @@
     "license": null,
     "created_at": "2026-09-04T07:49:15Z",
     "updated_at": "2026-11-12T12:55:25Z",
-    "pushed_at": "2026-11-14T01:52:10Z",
+    "pushed_at": "2026-11-14T11:21:33Z",
     "discovered_at": "2026-09-30T12:59:15.249Z",
     "official": false
   },
@@ -40317,7 +40299,7 @@
     "name": "codizelabs/agent-rewake",
     "url": "https://github.com/codizelabs/agent-rewake",
     "description": "Auto Resume Claude, Codex or any Zed agent automatically when its usage limit resets. Also schedules messages into your agent threads. An add-on for Zed.",
-    "stars": 4,
+    "stars": 5,
     "forks": 0,
     "topics": [
       "acp",
@@ -40336,7 +40318,7 @@
     "language": "TypeScript",
     "license": "Apache-2.0",
     "created_at": "2026-10-06T03:31:12Z",
-    "updated_at": "2026-10-31T14:10:59Z",
+    "updated_at": "2026-11-14T12:15:01Z",
     "pushed_at": "2026-11-14T02:15:47Z",
     "discovered_at": "2026-10-06T12:56:24.959Z",
     "official": false
@@ -40678,7 +40660,7 @@
     "license": "MIT",
     "created_at": "2026-10-11T15:56:55Z",
     "updated_at": "2026-11-11T09:27:15Z",
-    "pushed_at": "2026-11-11T08:27:12Z",
+    "pushed_at": "2026-11-14T12:10:01Z",
     "discovered_at": "2026-10-11T07:00:45.399Z",
     "official": false
   },
@@ -42516,7 +42498,7 @@
     "license": null,
     "created_at": "2026-04-16T11:26:51Z",
     "updated_at": "2026-11-12T15:42:27Z",
-    "pushed_at": "2026-11-13T17:36:28Z",
+    "pushed_at": "2026-11-14T10:09:40Z",
     "discovered_at": "2026-11-01T00:54:44.248Z",
     "official": false
   },
@@ -43758,6 +43740,24 @@
     "updated_at": "2026-11-13T23:18:47Z",
     "pushed_at": "2026-11-13T23:18:58Z",
     "discovered_at": "2026-11-14T00:48:55.011Z",
+    "official": false
+  },
+  "emirror-de/windows-classic-themes-zed": {
+    "name": "emirror-de/windows-classic-themes-zed",
+    "url": "https://github.com/emirror-de/windows-classic-themes-zed",
+    "description": "Windows 2000 and Windows 7-inspired light and dark themes for Zed",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "theme",
+      "zed-extension"
+    ],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2025-09-24T07:18:28Z",
+    "updated_at": "2026-11-14T09:20:45Z",
+    "pushed_at": "2026-11-14T09:17:18Z",
+    "discovered_at": "2026-11-14T12:44:04.179Z",
     "official": false
   }
 }
