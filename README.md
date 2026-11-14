@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1942** |
 | In official registry | 1365 |
 | Discovered via topics | 577 |
-| Last updated | 2026-11-14 12:44 UTC |
+| Last updated | 2026-11-14 18:44 UTC |
 
 ### By capability
 
@@ -70,7 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
-| [emirror-de/windows-classic-themes-zed](https://github.com/emirror-de/windows-classic-themes-zed) | 0 | Windows 2000 and Windows 7-inspired light and dark themes for Zed |
+| [emirror-de/windows-classic-themes-zed](https://github.com/emirror-de/windows-classic-themes-zed) | 1 | Windows 2000 and Windows 7-inspired light and dark themes for Zed |
 | [dvictor357/vault-terminal-theme](https://github.com/dvictor357/vault-terminal-theme) | 1 | Monochrome phosphor-terminal themes for Zed (green, amber, blue) |
 | [DiegoRiveraEstefano/jte-zed-extension](https://github.com/DiegoRiveraEstefano/jte-zed-extension) | 0 | Java Template Engine (JTE) language extension for the Zed Editor |
 | [talhayksk/zedpolacode](https://github.com/talhayksk/zedpolacode) | 0 | Polacode-style code snapshots for Zed: render a file or line range as a shareabl... |
@@ -120,10 +120,10 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 3 | 2026-11-14 | Local-first code intelligence over MCP: BM25/FTS5 + AST grap... |
-| [emirror-de/windows-classic-themes-zed](https://github.com/emirror-de/windows-classic-themes-zed) | 0 | 2026-11-14 | Windows 2000 and Windows 7-inspired light and dark themes fo... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 102 | 2026-11-14 | True Dark Theme for Zed IDE |
 | [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 1 | 2026-11-14 | Zed extension that formats and lints HTML templates with djL... |
+| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 3 | 2026-11-14 | Local-first code intelligence over MCP: BM25/FTS5 + AST grap... |
+| [emirror-de/windows-classic-themes-zed](https://github.com/emirror-de/windows-classic-themes-zed) | 1 | 2026-11-14 | Windows 2000 and Windows 7-inspired light and dark themes fo... |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 102 | 2026-11-14 | True Dark Theme for Zed IDE |
 | [radekBednarik/playwright-zed](https://github.com/radekBednarik/playwright-zed) | 0 | 2026-11-14 | Playwright end-to-end test management for the Zed editor |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-11-13 | A Zed extension that allows to highlight all occurrences of ... |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 223 | 2026-11-13 | Zed plugin for automatic time tracking and metrics generated... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-11-14T18:44 | 1 | 754 | 2466 |
 | 2026-11-14T12:44 | 1 | 753 | 2465 |
 | 2026-11-14T06:43 | 0 | 754 | 2465 |
 | 2026-11-14T00:48 | 2 | 752 | 2465 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-11-13T00:51 | 2 | 751 | 2462 |
 | 2026-11-12T18:44 | 1 | 750 | 2460 |
 | 2026-11-12T12:43 | 1 | 750 | 2459 |
-| 2026-11-12T06:45 | 0 | 750 | 2458 |
 
 ---
 
