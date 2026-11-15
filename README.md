@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1944** |
 | In official registry | 1365 |
 | Discovered via topics | 579 |
-| Last updated | 2026-11-15 12:44 UTC |
+| Last updated | 2026-11-15 18:44 UTC |
 
 ### By capability
 
@@ -97,7 +97,7 @@ cd website && npm install && npm run dev
 |---|---|---|
 | [biomejs/biome-zed](https://github.com/biomejs/biome-zed) | 466 | Biome extension for Zed |
 | [xhyrom/zed-discord-presence](https://github.com/xhyrom/zed-discord-presence) | 415 | extension for zed that adds support for discord rich presence using lsp |
-| [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 343 | Catppuccin Theme but as blurred variants + custom ones |
+| [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 342 | Catppuccin Theme but as blurred variants + custom ones |
 | [oxc-project/oxc-zed](https://github.com/oxc-project/oxc-zed) | 256 | Oxc extension for Zed |
 | [catppuccin/zed-icons](https://github.com/catppuccin/zed-icons) | 240 | 🦊 Soothing pastel icons for Zed |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 223 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
@@ -120,8 +120,9 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-11-15 | A Zed extension that allows to highlight all occurrences of ... |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 3 | 2026-11-15 | Local-first code intelligence over MCP: BM25/FTS5 + AST grap... |
+| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-11-15 | A Zed extension that allows to highlight all occurrences of ... |
+| [fabric0de/sentry-mcp-server-zed](https://github.com/fabric0de/sentry-mcp-server-zed) | 3 | 2026-11-15 | Zed extension that runs @sentry/mcp-server in stdio mode. |
 | [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 1 | 2026-11-15 | Zed extension that formats and lints HTML templates with djL... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 103 | 2026-11-15 | True Dark Theme for Zed IDE |
 | [qwecold/zed-pixel-icon](https://github.com/qwecold/zed-pixel-icon) | 1 | 2026-11-15 | Pixel-art file and folder icons for the Zed project panel. |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [faxforagents/zed-extension](https://github.com/faxforagents/zed-extension) | 0 | 2026-11-12 | Zed extension (id faxforagents-mcp-server) that runs the Fax... |
 | [albertsko/zed-everforest](https://github.com/albertsko/zed-everforest) | 20 | 2026-11-12 | 🌲 Everforest for Zed |
 | [pngdrift/zed-actionscript](https://github.com/pngdrift/zed-actionscript) | 3 | 2026-11-12 | ActionScript language support for Zed editor |
-| [husur/gradle-catalog-lsp](https://github.com/husur/gradle-catalog-lsp) | 0 | 2026-11-12 | Zed extension: shows newer versions of the libraries and plu... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-11-15T18:44 | 0 | 758 | 2469 |
 | 2026-11-15T12:44 | 0 | 758 | 2469 |
 | 2026-11-15T06:43 | 3 | 755 | 2469 |
 | 2026-11-15T00:52 | 0 | 755 | 2466 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-11-14T00:48 | 2 | 752 | 2465 |
 | 2026-11-13T18:44 | 1 | 753 | 2463 |
 | 2026-11-13T12:44 | 1 | 752 | 2463 |
-| 2026-11-13T06:45 | 0 | 753 | 2462 |
 
 ---
 
