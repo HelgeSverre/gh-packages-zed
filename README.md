@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1944** |
 | In official registry | 1365 |
 | Discovered via topics | 579 |
-| Last updated | 2026-11-15 06:43 UTC |
+| Last updated | 2026-11-15 12:44 UTC |
 
 ### By capability
 
@@ -70,7 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
-| [qwecold/zed-pixel-icon](https://github.com/qwecold/zed-pixel-icon) | 0 | Pixel-art file and folder icons for the Zed project panel. |
+| [qwecold/zed-pixel-icon](https://github.com/qwecold/zed-pixel-icon) | 1 | Pixel-art file and folder icons for the Zed project panel. |
 | [adrijshikhar/zed-htmx](https://github.com/adrijshikhar/zed-htmx) | 0 | HTMX 2.0 language server extension for the Zed editor, powered by htmx-analyzer |
 | [emirror-de/windows-classic-themes-zed](https://github.com/emirror-de/windows-classic-themes-zed) | 1 | Windows 2000 and Windows 7-inspired light and dark themes for Zed |
 | [dvictor357/vault-terminal-theme](https://github.com/dvictor357/vault-terminal-theme) | 1 | Monochrome phosphor-terminal themes for Zed (green, amber, blue) |
@@ -120,15 +120,15 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [qwecold/zed-pixel-icon](https://github.com/qwecold/zed-pixel-icon) | 0 | 2026-11-15 | Pixel-art file and folder icons for the Zed project panel. |
+| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-11-15 | A Zed extension that allows to highlight all occurrences of ... |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 3 | 2026-11-15 | Local-first code intelligence over MCP: BM25/FTS5 + AST grap... |
 | [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 1 | 2026-11-15 | Zed extension that formats and lints HTML templates with djL... |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 103 | 2026-11-15 | True Dark Theme for Zed IDE |
+| [qwecold/zed-pixel-icon](https://github.com/qwecold/zed-pixel-icon) | 1 | 2026-11-15 | Pixel-art file and folder icons for the Zed project panel. |
 | [adrijshikhar/zed-htmx](https://github.com/adrijshikhar/zed-htmx) | 0 | 2026-11-15 | HTMX 2.0 language server extension for the Zed editor, power... |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 14 | 2026-11-15 | Spring Boot language intelligence for Zed, powered by the of... |
 | [emirror-de/windows-classic-themes-zed](https://github.com/emirror-de/windows-classic-themes-zed) | 1 | 2026-11-14 | Windows 2000 and Windows 7-inspired light and dark themes fo... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 103 | 2026-11-14 | True Dark Theme for Zed IDE |
 | [radekBednarik/playwright-zed](https://github.com/radekBednarik/playwright-zed) | 0 | 2026-11-14 | Playwright end-to-end test management for the Zed editor |
-| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-11-13 | A Zed extension that allows to highlight all occurrences of ... |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 223 | 2026-11-13 | Zed plugin for automatic time tracking and metrics generated... |
 | [aalto-opencs/stlcpp-zed](https://github.com/aalto-opencs/stlcpp-zed) | 0 | 2026-11-13 | Zed language extension for 𝕊𝕋𝕃ℂ++ |
 | [talhayksk/zedpolacode](https://github.com/talhayksk/zedpolacode) | 0 | 2026-11-13 | Polacode-style code snapshots for Zed: render a file or line... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-11-15T12:44 | 0 | 758 | 2469 |
 | 2026-11-15T06:43 | 3 | 755 | 2469 |
 | 2026-11-15T00:52 | 0 | 755 | 2466 |
 | 2026-11-14T18:44 | 1 | 754 | 2466 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-11-13T18:44 | 1 | 753 | 2463 |
 | 2026-11-13T12:44 | 1 | 752 | 2463 |
 | 2026-11-13T06:45 | 0 | 753 | 2462 |
-| 2026-11-13T00:51 | 2 | 751 | 2462 |
 
 ---
 

@@ -75,7 +75,7 @@
     "license": "MIT",
     "created_at": "2026-05-03T17:39:17Z",
     "updated_at": "2026-11-08T15:27:40Z",
-    "pushed_at": "2026-11-13T21:24:08Z",
+    "pushed_at": "2026-11-15T11:40:25Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -159,7 +159,7 @@
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
     "updated_at": "2026-11-14T18:44:50Z",
-    "pushed_at": "2026-11-14T08:08:50Z",
+    "pushed_at": "2026-11-15T08:28:33Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -3416,7 +3416,7 @@
     "license": "MIT",
     "created_at": "2025-12-02T06:40:19Z",
     "updated_at": "2026-08-24T11:44:08Z",
-    "pushed_at": "2026-08-24T11:43:53Z",
+    "pushed_at": "2026-11-15T07:57:14Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -5093,7 +5093,7 @@
     "name": "Dylanmurzello/zed-android-port",
     "url": "https://github.com/Dylanmurzello/zed-android-port",
     "description": "Native Android port of the Zed code editor,  gpui rendering through Vulkan, integrated Termux for LSPs and tooling, remote SSH support. Runs as an APK on tablets and Android desktop modes.",
-    "stars": 261,
+    "stars": 262,
     "forks": 23,
     "topics": [
       "android",
@@ -5120,7 +5120,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-05-07T00:12:10Z",
-    "updated_at": "2026-11-14T16:51:23Z",
+    "updated_at": "2026-11-15T07:16:47Z",
     "pushed_at": "2026-11-07T22:12:24Z",
     "discovered_at": "2026-05-19T19:54:12.053Z",
     "official": false
@@ -15333,7 +15333,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
     "updated_at": "2026-11-14T11:49:34Z",
-    "pushed_at": "2026-11-14T07:31:24Z",
+    "pushed_at": "2026-11-15T09:52:33Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -17897,7 +17897,7 @@
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
     "updated_at": "2026-11-12T13:44:32Z",
-    "pushed_at": "2026-11-15T00:52:42Z",
+    "pushed_at": "2026-11-15T06:44:24Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -31921,7 +31921,7 @@
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
     "updated_at": "2026-11-12T19:03:45Z",
-    "pushed_at": "2026-11-15T06:08:07Z",
+    "pushed_at": "2026-11-15T09:32:33Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false
   },
@@ -36468,7 +36468,7 @@
     "name": "jadmadi/zed-mimoCode-theme",
     "url": "https://github.com/jadmadi/zed-mimoCode-theme",
     "description": "A warm dark theme for Zed with signature orange accents.",
-    "stars": 0,
+    "stars": 1,
     "forks": 0,
     "topics": [
       "mimo",
@@ -36480,7 +36480,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-08-29T20:25:15Z",
-    "updated_at": "2026-09-05T13:48:16Z",
+    "updated_at": "2026-11-15T11:21:01Z",
     "pushed_at": "2026-08-29T20:44:33Z",
     "discovered_at": "2026-09-03T01:12:31.004Z",
     "official": true
@@ -36843,7 +36843,7 @@
     "name": "BrokkAi/muse-acp",
     "url": "https://github.com/BrokkAi/muse-acp",
     "description": "Use Meta Muse Code in Zed, IntelliJ IDEA, and other JetBrains IDEs with your existing subscription. Dependency-free Rust adapter for Agent Client Protocol (ACP), using the native Muse Session Protocol (MSP).",
-    "stars": 24,
+    "stars": 25,
     "forks": 5,
     "topics": [
       "acp",
@@ -36868,7 +36868,7 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-09-03T18:54:22Z",
-    "updated_at": "2026-11-12T13:47:49Z",
+    "updated_at": "2026-11-15T12:14:29Z",
     "pushed_at": "2026-11-13T14:54:38Z",
     "discovered_at": "2026-09-09T01:10:37.044Z",
     "official": false
@@ -39823,7 +39823,7 @@
     "license": null,
     "created_at": "2026-09-04T07:49:15Z",
     "updated_at": "2026-11-12T12:55:25Z",
-    "pushed_at": "2026-11-14T15:06:53Z",
+    "pushed_at": "2026-11-15T11:07:04Z",
     "discovered_at": "2026-09-30T12:59:15.249Z",
     "official": false
   },
@@ -42498,7 +42498,7 @@
     "license": null,
     "created_at": "2026-04-16T11:26:51Z",
     "updated_at": "2026-11-12T15:42:27Z",
-    "pushed_at": "2026-11-14T21:57:32Z",
+    "pushed_at": "2026-11-15T12:42:30Z",
     "discovered_at": "2026-11-01T00:54:44.248Z",
     "official": false
   },
@@ -42567,8 +42567,8 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-11-01T01:34:22Z",
-    "updated_at": "2026-11-12T03:10:40Z",
-    "pushed_at": "2026-11-15T04:36:19Z",
+    "updated_at": "2026-11-15T07:02:19Z",
+    "pushed_at": "2026-11-15T09:14:12Z",
     "discovered_at": "2026-11-01T12:43:52.373Z",
     "official": false
   },
@@ -43450,7 +43450,7 @@
     "license": "MIT",
     "created_at": "2026-10-07T08:27:27Z",
     "updated_at": "2026-11-10T17:26:20Z",
-    "pushed_at": "2026-11-13T00:56:23Z",
+    "pushed_at": "2026-11-15T09:11:25Z",
     "discovered_at": "2026-11-10T18:44:00.284Z",
     "official": false
   },
@@ -43600,8 +43600,8 @@
     "language": "Rust",
     "license": null,
     "created_at": "2026-04-14T16:50:18Z",
-    "updated_at": "2026-11-12T15:41:41Z",
-    "pushed_at": "2026-11-14T21:57:13Z",
+    "updated_at": "2026-11-15T10:54:34Z",
+    "pushed_at": "2026-11-15T11:36:10Z",
     "discovered_at": "2026-11-12T18:44:10.996Z",
     "official": false
   },
@@ -43793,7 +43793,7 @@
     "name": "qwecold/zed-pixel-icon",
     "url": "https://github.com/qwecold/zed-pixel-icon",
     "description": "Pixel-art file and folder icons for the Zed project panel.",
-    "stars": 0,
+    "stars": 1,
     "forks": 0,
     "topics": [
       "file-icons",
@@ -43805,7 +43805,7 @@
     "language": "HTML",
     "license": "MIT",
     "created_at": "2026-11-15T06:25:38Z",
-    "updated_at": "2026-11-15T06:26:04Z",
+    "updated_at": "2026-11-15T07:49:13Z",
     "pushed_at": "2026-11-15T06:25:49Z",
     "discovered_at": "2026-11-15T06:43:55.459Z",
     "official": false
