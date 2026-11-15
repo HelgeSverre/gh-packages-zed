@@ -1,0 +1,19 @@
+id = "htmx-lsp"
+name = "HTMX"
+version = "0.1.0"
+schema_version = 1
+authors = ["Adrij Shikhar <adrijshikhar@gmail.com>"]
+description = "HTMX 2.0 language server integration for Zed, powered by htmx-analyzer."
+repository = "https://github.com/adrijshikhar/zed-htmx"
+
+[lib]
+kind = "Rust"
+version = "0.7.0"
+
+[language_servers.htmx-lsp]
+name = "htmx-analyzer"
+language = "HTML"
+languages = ["HTML"]
+
+[language_servers.htmx-lsp.language_ids]
+HTML = "html"

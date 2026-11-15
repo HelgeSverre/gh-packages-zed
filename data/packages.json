@@ -5736,7 +5736,7 @@
     "name": "AprilNEA/gpui-symbols",
     "url": "https://github.com/AprilNEA/gpui-symbols",
     "description": "SF Symbols for GPUI – Render Apple's 9000+ icons in Rust desktop apps with type-safe enums and native macOS rendering",
-    "stars": 21,
+    "stars": 22,
     "forks": 1,
     "topics": [
       "desktop-app",
@@ -5751,7 +5751,7 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-20T14:53:11Z",
-    "updated_at": "2026-11-10T16:53:47Z",
+    "updated_at": "2026-11-15T01:39:58Z",
     "pushed_at": "2026-01-21T15:33:27Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
@@ -17897,7 +17897,7 @@
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
     "updated_at": "2026-11-12T13:44:32Z",
-    "pushed_at": "2026-11-14T18:44:33Z",
+    "pushed_at": "2026-11-15T00:52:42Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -31921,7 +31921,7 @@
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
     "updated_at": "2026-11-12T19:03:45Z",
-    "pushed_at": "2026-11-14T18:19:09Z",
+    "pushed_at": "2026-11-15T06:08:07Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false
   },
@@ -32604,7 +32604,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
     "updated_at": "2026-11-11T16:41:00Z",
-    "pushed_at": "2026-11-11T15:40:57Z",
+    "pushed_at": "2026-11-15T01:52:33Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false
   },
@@ -39225,7 +39225,7 @@
     "license": "MIT",
     "created_at": "2026-09-26T15:42:52Z",
     "updated_at": "2026-10-30T01:10:16Z",
-    "pushed_at": "2026-11-14T19:42:17Z",
+    "pushed_at": "2026-11-15T05:52:20Z",
     "discovered_at": "2026-09-26T18:48:00.642Z",
     "official": false
   },
@@ -42568,7 +42568,7 @@
     "license": "MIT",
     "created_at": "2026-11-01T01:34:22Z",
     "updated_at": "2026-11-12T03:10:40Z",
-    "pushed_at": "2026-11-14T19:30:55Z",
+    "pushed_at": "2026-11-15T04:36:19Z",
     "discovered_at": "2026-11-01T12:43:52.373Z",
     "official": false
   },
@@ -43787,6 +43787,76 @@
     "updated_at": "2026-11-14T13:30:27Z",
     "pushed_at": "2026-11-14T13:47:36Z",
     "discovered_at": "2026-11-14T18:44:11.951Z",
+    "official": false
+  },
+  "qwecold/zed-pixel-icon": {
+    "name": "qwecold/zed-pixel-icon",
+    "url": "https://github.com/qwecold/zed-pixel-icon",
+    "description": "Pixel-art file and folder icons for the Zed project panel.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "file-icons",
+      "icon-theme",
+      "pixel-art",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "HTML",
+    "license": "MIT",
+    "created_at": "2026-11-15T06:25:38Z",
+    "updated_at": "2026-11-15T06:26:04Z",
+    "pushed_at": "2026-11-15T06:25:49Z",
+    "discovered_at": "2026-11-15T06:43:55.459Z",
+    "official": false
+  },
+  "adrijshikhar/zed-htmx": {
+    "name": "adrijshikhar/zed-htmx",
+    "url": "https://github.com/adrijshikhar/zed-htmx",
+    "description": "HTMX 2.0 language server extension for the Zed editor, powered by htmx-analyzer",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "html",
+      "htmx",
+      "htmx2",
+      "lsp",
+      "rust",
+      "webassembly",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "created_at": "2026-11-14T10:31:30Z",
+    "updated_at": "2026-11-15T04:15:26Z",
+    "pushed_at": "2026-11-15T04:26:14Z",
+    "discovered_at": "2026-11-15T06:43:55.459Z",
+    "official": false
+  },
+  "tatsuyam2667/seoritsu": {
+    "name": "TatsuyaM2667/seoritsu",
+    "url": "https://github.com/TatsuyaM2667/seoritsu",
+    "description": "半透明のコードエディタ。純 Odin で Wayland を直接たたく（GTK/SDL/GPU なし）。 Wayland・描画層は Ame-FileManager（~/AmeFileManger/src/gui/）から複製したもの。",
+    "stars": 1,
+    "forks": 0,
+    "topics": [
+      "editor",
+      "odin",
+      "odin-lang",
+      "odin-programming-language",
+      "odin-project",
+      "odinproject",
+      "wayland",
+      "zed",
+      "zed-editor"
+    ],
+    "language": "Odin",
+    "license": null,
+    "created_at": "2026-11-14T03:42:00Z",
+    "updated_at": "2026-11-15T06:04:19Z",
+    "pushed_at": "2026-11-15T04:51:57Z",
+    "discovered_at": "2026-11-15T06:43:55.460Z",
     "official": false
   }
 }
