@@ -218,7 +218,7 @@
     "license": "MIT",
     "created_at": "2024-08-27T10:31:46Z",
     "updated_at": "2026-11-13T00:33:54Z",
-    "pushed_at": "2026-11-13T17:03:23Z",
+    "pushed_at": "2026-11-16T02:17:48Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -1712,8 +1712,8 @@
     "name": "rami-shalhoub/comment-blocks-zed",
     "url": "https://github.com/rami-shalhoub/comment-blocks-zed",
     "description": "this extension provide comment snippets to add descriptive heards",
-    "stars": 2,
-    "forks": 0,
+    "stars": 3,
+    "forks": 1,
     "topics": [
       "comments",
       "zed-extension"
@@ -1721,7 +1721,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-04-24T11:24:26Z",
-    "updated_at": "2026-11-02T10:56:00Z",
+    "updated_at": "2026-11-16T01:21:01Z",
     "pushed_at": "2026-07-14T17:22:41Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -53562,7 +53562,7 @@
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
     "updated_at": "2026-11-12T19:03:45Z",
-    "pushed_at": "2026-11-15T22:51:18Z",
+    "pushed_at": "2026-11-16T02:26:05Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false,
     "extension": {
@@ -67077,7 +67077,7 @@
     "license": "MIT",
     "created_at": "2026-11-11T07:27:21Z",
     "updated_at": "2026-11-12T08:41:58Z",
-    "pushed_at": "2026-11-12T23:25:17Z",
+    "pushed_at": "2026-11-16T04:56:11Z",
     "discovered_at": "2026-11-11T12:43:59.701Z",
     "official": false,
     "extension": {
@@ -67120,7 +67120,7 @@
     "license": "MIT",
     "created_at": "2026-11-12T07:31:19Z",
     "updated_at": "2026-11-12T08:39:09Z",
-    "pushed_at": "2026-11-13T13:43:19Z",
+    "pushed_at": "2026-11-16T06:46:36Z",
     "discovered_at": "2026-11-12T12:43:52.767Z",
     "official": false,
     "extension": {
@@ -67330,6 +67330,50 @@
         "language_servers"
       ],
       "categories": [
+        "language-server"
+      ]
+    }
+  },
+  "dynotable/zed-dynotable": {
+    "name": "dynotable/zed-dynotable",
+    "url": "https://github.com/dynotable/zed-dynotable",
+    "description": "DynoTable for Zed: SQL and PartiQL for DynamoDB, with completion and diagnostics. Requires the DynoTable desktop app.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "aws",
+      "database",
+      "dynamodb",
+      "lsp",
+      "partiql",
+      "sql",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2026-11-16T06:27:04Z",
+    "updated_at": "2026-11-16T06:27:19Z",
+    "pushed_at": "2026-11-16T06:27:09Z",
+    "discovered_at": "2026-11-16T07:00:30.569Z",
+    "official": false,
+    "extension": {
+      "id": "dynotable",
+      "name": "DynoTable",
+      "description": "DynoTable SQL and PartiQL language support for DynamoDB, served by the DynoTable app.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "DynoTable"
+      ],
+      "repository": "https://github.com/dynotable/zed-dynotable",
+      "snippets": null,
+      "sections": [
+        "language_servers",
+        "grammars"
+      ],
+      "categories": [
+        "grammar",
         "language-server"
       ]
     }

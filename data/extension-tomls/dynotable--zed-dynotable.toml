@@ -1,0 +1,19 @@
+id = "dynotable"
+name = "DynoTable"
+description = "DynoTable SQL and PartiQL language support for DynamoDB, served by the DynoTable app."
+version = "0.1.0"
+schema_version = 1
+authors = ["DynoTable"]
+repository = "https://github.com/dynotable/zed-dynotable"
+
+[language_servers.dynotable]
+name = "DynoTable"
+languages = ["DynoTable SQL", "PartiQL"]
+
+[language_servers.dynotable.language_ids]
+"DynoTable SQL" = "sql"
+"PartiQL" = "partiql"
+
+[grammars.sql]
+repository = "https://github.com/DerekStride/tree-sitter-sql"
+commit = "851e9cb257ba7c66cc8c14214a31c44d2f1e954e"

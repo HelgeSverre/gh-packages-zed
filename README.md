@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1944-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1945-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,18 +14,18 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1944** |
+| Total tracked | **1945** |
 | In official registry | 1365 |
-| Discovered via topics | 579 |
-| Last updated | 2026-11-16 00:57 UTC |
+| Discovered via topics | 580 |
+| Last updated | 2026-11-16 07:00 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
 | Themes | 835 |
-| Grammars | 666 |
-| Language Servers | 628 |
+| Grammars | 667 |
+| Language Servers | 629 |
 | Context Servers | 150 |
 | Snippets | 97 |
 | Slash Commands | 64 |
@@ -70,6 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [dynotable/zed-dynotable](https://github.com/dynotable/zed-dynotable) | 0 | DynoTable for Zed: SQL and PartiQL for DynamoDB, with completion and diagnostics... |
 | [qwecold/zed-pixel-icon](https://github.com/qwecold/zed-pixel-icon) | 1 | Pixel-art file and folder icons for the Zed project panel. |
 | [adrijshikhar/zed-htmx](https://github.com/adrijshikhar/zed-htmx) | 0 | HTMX 2.0 language server extension for the Zed editor, powered by htmx-analyzer |
 | [emirror-de/windows-classic-themes-zed](https://github.com/emirror-de/windows-classic-themes-zed) | 1 | Windows 2000 and Windows 7-inspired light and dark themes for Zed |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [emeraldsanto/zed-theme-verdandi](https://github.com/emeraldsanto/zed-theme-verdandi) | 1 | A monochrome theme for Zed. Ported from the VS Code Verdandi theme by be5invis. |
 | [ihormanzii/zed-lull-theme](https://github.com/ihormanzii/zed-lull-theme) | 0 | Lull: calm, neutral dark and light themes for Zed with soft pastel syntax colors |
 | [rockettap/renpy-zed](https://github.com/rockettap/renpy-zed) | 0 | Ren'Py language support for Zed: syntax highlighting, Python injection, outline,... |
-| [cyclon-b/zed-polza-ai](https://github.com/cyclon-b/zed-polza-ai) | 0 | Zed extension for Polza.ai: organization balance in the agent panel (MCP tool + ... |
 
 ## Top starred (under 500)
 
@@ -120,7 +120,11 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 3 | 2026-11-15 | Local-first code intelligence over MCP: BM25/FTS5 + AST grap... |
+| [talhayksk/zedpolacode](https://github.com/talhayksk/zedpolacode) | 0 | 2026-11-16 | Polacode-style code snapshots for Zed: render a file or line... |
+| [dynotable/zed-dynotable](https://github.com/dynotable/zed-dynotable) | 0 | 2026-11-16 | DynoTable for Zed: SQL and PartiQL for DynamoDB, with comple... |
+| [wiroai/Wiro-Zed](https://github.com/wiroai/Wiro-Zed) | 0 | 2026-11-16 | Wiro AI MCP server for the Zed editor: search, price and run... |
+| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 3 | 2026-11-16 | Local-first code intelligence over MCP: BM25/FTS5 + AST grap... |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 223 | 2026-11-16 | Zed plugin for automatic time tracking and metrics generated... |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-11-15 | A Zed extension that allows to highlight all occurrences of ... |
 | [fabric0de/sentry-mcp-server-zed](https://github.com/fabric0de/sentry-mcp-server-zed) | 3 | 2026-11-15 | Zed extension that runs @sentry/mcp-server in stdio mode. |
 | [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 1 | 2026-11-15 | Zed extension that formats and lints HTML templates with djL... |
@@ -130,21 +134,18 @@ cd website && npm install && npm run dev
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 14 | 2026-11-15 | Spring Boot language intelligence for Zed, powered by the of... |
 | [emirror-de/windows-classic-themes-zed](https://github.com/emirror-de/windows-classic-themes-zed) | 1 | 2026-11-14 | Windows 2000 and Windows 7-inspired light and dark themes fo... |
 | [radekBednarik/playwright-zed](https://github.com/radekBednarik/playwright-zed) | 0 | 2026-11-14 | Playwright end-to-end test management for the Zed editor |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 223 | 2026-11-13 | Zed plugin for automatic time tracking and metrics generated... |
 | [aalto-opencs/stlcpp-zed](https://github.com/aalto-opencs/stlcpp-zed) | 0 | 2026-11-13 | Zed language extension for 𝕊𝕋𝕃ℂ++ |
-| [talhayksk/zedpolacode](https://github.com/talhayksk/zedpolacode) | 0 | 2026-11-13 | Polacode-style code snapshots for Zed: render a file or line... |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-11-13 | Zed editor support for Carve, a modern light markup language |
 | [dvictor357/vault-terminal-theme](https://github.com/dvictor357/vault-terminal-theme) | 1 | 2026-11-13 | Monochrome phosphor-terminal themes for Zed (green, amber, b... |
 | [DiegoRiveraEstefano/jte-zed-extension](https://github.com/DiegoRiveraEstefano/jte-zed-extension) | 0 | 2026-11-13 | Java Template Engine (JTE) language extension for the Zed Ed... |
-| [wiroai/Wiro-Zed](https://github.com/wiroai/Wiro-Zed) | 0 | 2026-11-12 | Wiro AI MCP server for the Zed editor: search, price and run... |
 | [faxforagents/zed-extension](https://github.com/faxforagents/zed-extension) | 0 | 2026-11-12 | Zed extension (id faxforagents-mcp-server) that runs the Fax... |
 | [albertsko/zed-everforest](https://github.com/albertsko/zed-everforest) | 20 | 2026-11-12 | 🌲 Everforest for Zed |
-| [pngdrift/zed-actionscript](https://github.com/pngdrift/zed-actionscript) | 3 | 2026-11-12 | ActionScript language support for Zed editor |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-11-16T07:00 | 1 | 759 | 2471 |
 | 2026-11-16T00:57 | 1 | 758 | 2470 |
 | 2026-11-15T18:44 | 0 | 758 | 2469 |
 | 2026-11-15T12:44 | 0 | 758 | 2469 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-11-14T12:44 | 1 | 753 | 2465 |
 | 2026-11-14T06:43 | 0 | 754 | 2465 |
 | 2026-11-14T00:48 | 2 | 752 | 2465 |
-| 2026-11-13T18:44 | 1 | 753 | 2463 |
 
 ---
 
