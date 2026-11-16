@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1945** |
 | In official registry | 1365 |
 | Discovered via topics | 580 |
-| Last updated | 2026-11-16 07:00 UTC |
+| Last updated | 2026-11-16 12:56 UTC |
 
 ### By capability
 
@@ -120,15 +120,17 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [talhayksk/zedpolacode](https://github.com/talhayksk/zedpolacode) | 0 | 2026-11-16 | Polacode-style code snapshots for Zed: render a file or line... |
+| [xsynaptic/zed-mdxlint](https://github.com/xsynaptic/zed-mdxlint) | 0 | 2026-11-16 | Zed extension providing mdxlint language server support |
 | [dynotable/zed-dynotable](https://github.com/dynotable/zed-dynotable) | 0 | 2026-11-16 | DynoTable for Zed: SQL and PartiQL for DynamoDB, with comple... |
+| [talhayksk/zedpolacode](https://github.com/talhayksk/zedpolacode) | 0 | 2026-11-16 | Polacode-style code snapshots for Zed: render a file or line... |
+| [0xdea/monokaiju-theme](https://github.com/0xdea/monokaiju-theme) | 2 | 2026-11-16 | A Zed theme inspired by Monokai Pro (CE). |
+| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-11-16 | A Zed extension that allows to highlight all occurrences of ... |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 103 | 2026-11-16 | True Dark Theme for Zed IDE |
 | [wiroai/Wiro-Zed](https://github.com/wiroai/Wiro-Zed) | 0 | 2026-11-16 | Wiro AI MCP server for the Zed editor: search, price and run... |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 3 | 2026-11-16 | Local-first code intelligence over MCP: BM25/FTS5 + AST grap... |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 223 | 2026-11-16 | Zed plugin for automatic time tracking and metrics generated... |
-| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-11-15 | A Zed extension that allows to highlight all occurrences of ... |
 | [fabric0de/sentry-mcp-server-zed](https://github.com/fabric0de/sentry-mcp-server-zed) | 3 | 2026-11-15 | Zed extension that runs @sentry/mcp-server in stdio mode. |
 | [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 1 | 2026-11-15 | Zed extension that formats and lints HTML templates with djL... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 103 | 2026-11-15 | True Dark Theme for Zed IDE |
 | [qwecold/zed-pixel-icon](https://github.com/qwecold/zed-pixel-icon) | 1 | 2026-11-15 | Pixel-art file and folder icons for the Zed project panel. |
 | [adrijshikhar/zed-htmx](https://github.com/adrijshikhar/zed-htmx) | 0 | 2026-11-15 | HTMX 2.0 language server extension for the Zed editor, power... |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 14 | 2026-11-15 | Spring Boot language intelligence for Zed, powered by the of... |
@@ -138,13 +140,12 @@ cd website && npm install && npm run dev
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-11-13 | Zed editor support for Carve, a modern light markup language |
 | [dvictor357/vault-terminal-theme](https://github.com/dvictor357/vault-terminal-theme) | 1 | 2026-11-13 | Monochrome phosphor-terminal themes for Zed (green, amber, b... |
 | [DiegoRiveraEstefano/jte-zed-extension](https://github.com/DiegoRiveraEstefano/jte-zed-extension) | 0 | 2026-11-13 | Java Template Engine (JTE) language extension for the Zed Ed... |
-| [faxforagents/zed-extension](https://github.com/faxforagents/zed-extension) | 0 | 2026-11-12 | Zed extension (id faxforagents-mcp-server) that runs the Fax... |
-| [albertsko/zed-everforest](https://github.com/albertsko/zed-everforest) | 20 | 2026-11-12 | 🌲 Everforest for Zed |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-11-16T12:56 | 0 | 759 | 2471 |
 | 2026-11-16T07:00 | 1 | 759 | 2471 |
 | 2026-11-16T00:57 | 1 | 758 | 2470 |
 | 2026-11-15T18:44 | 0 | 758 | 2469 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-11-14T18:44 | 1 | 754 | 2466 |
 | 2026-11-14T12:44 | 1 | 753 | 2465 |
 | 2026-11-14T06:43 | 0 | 754 | 2465 |
-| 2026-11-14T00:48 | 2 | 752 | 2465 |
 
 ---
 
