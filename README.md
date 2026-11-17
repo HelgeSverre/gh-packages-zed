@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1946** |
 | In official registry | 1365 |
 | Discovered via topics | 581 |
-| Last updated | 2026-11-17 06:46 UTC |
+| Last updated | 2026-11-17 12:43 UTC |
 
 ### By capability
 
@@ -120,10 +120,12 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [felixtensor/zed-mlir](https://github.com/felixtensor/zed-mlir) | 11 | 2026-11-17 | MLIR Extension for Zed |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 3 | 2026-11-17 | Local-first code intelligence over MCP: BM25/FTS5 + AST grap... |
 | [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 1 | 2026-11-17 | Zed extension that formats and lints HTML templates with djL... |
 | [caozeal/zed-endpoint-nav](https://github.com/caozeal/zed-endpoint-nav) | 0 | 2026-11-17 | 把 Spring / FastAPI / MCP 的请求映射当作符号，喂给 Zed 的 Cmd+T（Go to Symb... |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 103 | 2026-11-17 | True Dark Theme for Zed IDE |
+| [felixtensor/zed-mlir](https://github.com/felixtensor/zed-mlir) | 11 | 2026-11-17 | MLIR Extension for Zed |
+| [ronketer/nand2tetris-for-Zed](https://github.com/ronketer/nand2tetris-for-Zed) | 0 | 2026-11-17 | Declarative Zed language support for Nand2Tetris HDL, Hack a... |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 223 | 2026-11-17 | Zed plugin for automatic time tracking and metrics generated... |
 | [datarip/mixtape-theme-zed](https://github.com/datarip/mixtape-theme-zed) | 0 | 2026-11-17 | A 65-theme collection for Zed in eight families: 55 dark and... |
 | [ickc/zed-csv-toolkit](https://github.com/ickc/zed-csv-toolkit) | 0 | 2026-11-16 | Zed extension for CSV/TSV/SSV/PSV: rainbow columns plus a li... |
@@ -135,16 +137,15 @@ cd website && npm install && npm run dev
 | [talhayksk/zedpolacode](https://github.com/talhayksk/zedpolacode) | 0 | 2026-11-16 | Polacode-style code snapshots for Zed: render a file or line... |
 | [0xdea/monokaiju-theme](https://github.com/0xdea/monokaiju-theme) | 2 | 2026-11-16 | A Zed theme inspired by Monokai Pro (CE). |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-11-16 | A Zed extension that allows to highlight all occurrences of ... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 103 | 2026-11-16 | True Dark Theme for Zed IDE |
 | [wiroai/Wiro-Zed](https://github.com/wiroai/Wiro-Zed) | 0 | 2026-11-16 | Wiro AI MCP server for the Zed editor: search, price and run... |
 | [qwecold/zed-pixel-icon](https://github.com/qwecold/zed-pixel-icon) | 1 | 2026-11-15 | Pixel-art file and folder icons for the Zed project panel. |
 | [adrijshikhar/zed-htmx](https://github.com/adrijshikhar/zed-htmx) | 0 | 2026-11-15 | HTMX 2.0 language server extension for the Zed editor, power... |
-| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 14 | 2026-11-15 | Spring Boot language intelligence for Zed, powered by the of... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-11-17T12:43 | 1 | 762 | 2475 |
 | 2026-11-17T06:46 | 2 | 760 | 2474 |
 | 2026-11-17T00:52 | 2 | 759 | 2473 |
 | 2026-11-16T18:43 | 1 | 759 | 2472 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-11-15T18:44 | 0 | 758 | 2469 |
 | 2026-11-15T12:44 | 0 | 758 | 2469 |
 | 2026-11-15T06:43 | 3 | 755 | 2469 |
-| 2026-11-15T00:52 | 0 | 755 | 2466 |
 
 ---
 
