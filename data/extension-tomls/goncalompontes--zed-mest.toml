@@ -1,0 +1,15 @@
+id = "mest"
+name = "Mest"
+version = "0.1.0"
+schema_version = 1
+authors = ["Gonçalo Pontes <gpm.pontes@gmail.com>"]
+description = "Zed support for the Mest language"
+repository = "https://github.com/goncalompontes/mestc"
+
+[grammars.mest]
+repository = "https://github.com/goncalompontes/tree-sitter-mest"
+rev = "d73a77f44ef111ea48f8afeef57b2279618b532a"
+
+[language_servers.mest-lsp]
+name = "Mest Language Server"
+language = "Mest"

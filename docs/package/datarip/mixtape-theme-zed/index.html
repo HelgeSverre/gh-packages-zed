@@ -1,0 +1,876 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Mixtape - Zed Extension Safari</title><meta name="description" content="A 65-theme collection for Zed in eight families: 55 dark and 10 light."><link rel="canonical" href="https://helgesverre.github.io/gh-packages-zed/package/datarip/mixtape-theme-zed/"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Mixtape - Zed Extension Safari"><meta property="og:description" content="A 65-theme collection for Zed in eight families: 55 dark and 10 light."><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed/package/datarip/mixtape-theme-zed/"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Mixtape - Zed Extension Safari"><meta name="twitter:description" content="A 65-theme collection for Zed in eight families: 55 dark and 10 light."><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/gh-packages-zed/_astro/ClientRouter.astro_astro_type_script_index_0_lang.ClVLs1kt.js"></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Mixtape","description":"A 65-theme collection for Zed in eight families: 55 dark and 10 light.","applicationCategory":"DeveloperApplication","operatingSystem":"macOS, Linux, Windows","url":"https://zed.dev/extensions/mixtape-theme","codeRepository":"https://github.com/datarip/mixtape-theme-zed","author":[{"@type":"Person","name":"Arman M."}],"softwareVersion":"1.0.0","license":"MIT","keywords":"theme","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/Layout.CGDlMdWE.css"><script type="module" src="/gh-packages-zed/_astro/page.B8i1Zz-u.js"></script></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <a href="#main" class="skip-to-content">Skip to content</a> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" data-astro-transition-persist="astro-fhchcgd7-1"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <script type="application/json" id="pkg-extras">{"url":"https://github.com/datarip/mixtape-theme-zed","language":"HTML","license":"MIT","topics":["color-theme","theme","zed","zed-theme"],"extension":{"authors":["Arman M."],"schema_version":1}}</script> <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> datarip/mixtape-theme-zed </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> Mixtape </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> The last theme collection standing, for the people who still read the code. </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="theme">Theme</span> </div> </div> </div> </header> <main id="main" class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/mixtape-theme" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/datarip/mixtape-theme-zed" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1.0.0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">mixtape-theme</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">HTML</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">MIT</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">12m ago</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">Arman M.</dd> </div> </dl>  <h2 class="mt-5 text-xs uppercase font-mono" style="color:var(--zed-muted);">Topics</h2> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> color-theme </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> theme </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed-theme </span> </div>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><p align="center"><img src="https://raw.githubusercontent.com/datarip/mixtape-theme-zed/HEAD/assets/banner.svg" alt="Mixtape, a Zed theme family with 65 themes" width="100%"></p>
+<p align="center">Mixtape ships 65 themes across 8 families, with 55 dark and 10 light variants.</p>
+<p align="center"><a href="#install">Install</a> · <a href="#8-styles">Styles</a> · <a href="#screenshots">Screenshots</a></p>
+<p align="center"><a href="#optional-theme-overrides">Theme overrides</a> · <a href="#recommended-fonts">Fonts</a> · <a href="#license">License</a></p>
+<p>When I tried Zed a few years ago, most themes fell short of the ones in VS Code. That was one of my major complaints.</p>
+<p>At some point I decided to build my own, port some of my favorite themes, and fine-tune them to my liking.</p>
+<p>Mixtape is a high-contrast theme collection for <a href="https://zed.dev">Zed IDE</a>. It ships 65 palettes in eight theme families. Every palette uses the same semantic token map with its own pairing system, and keeps a strong, cohesive look and feel.</p>
+<p>It works great for people who like dark mode in general, or for developers with astigmatism (like me!) who enjoy working with high-contrast light themes.</p>
+<p align="center"><em>The last theme collection standing, for the people who still read the code.</em></p>
+<img src="https://raw.githubusercontent.com/datarip/mixtape-theme-zed/HEAD/assets/palette-strip.svg" alt="65 Mixtape themes represented by 53 accent colors across eight families" width="100%">
+<h2 id="user-content-8-styles"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#8-styles"><span class="heading-anchor-icon">#</span></a>8 Styles</h2>
+<p>The order below groups the dark families first, then the light families. The screenshot gallery below uses the same order.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Family</th><th>Look</th><th align="right">Themes</th><th>Theme names</th></tr></thead><tbody><tr><td><strong>Dark Classic</strong></td><td>Familiar dark editors with a warmer pulse</td><td align="right">10</td><td>Electric Avenue, Night Train, Tangerine Dream, Mothership Connection, Buffalo Soldier, Black Cow, Black and Yellow, Indigo Nights, Tokyo Blues, Computer Love</td></tr><tr><td><strong>Dark Glass</strong></td><td>Smoked surfaces with colored light behind them</td><td align="right">8</td><td>Chocolate City, Brown Sugar, Green Earrings, Wild Cherry, Ruby My Dear, Blue Magic, Purple Haze, Purple Rain</td></tr><tr><td><strong>Dark Groove</strong></td><td>Earthy, funky, and a little dusty</td><td align="right">6</td><td>Kaleidoscope, Voodoo, Foxy Brown, Soylent Green, Africa Unite, Coffy is the Color</td></tr><tr><td><strong>Dark Lightboard</strong></td><td>Stage light, chrome, and late-night synths</td><td align="right">8</td><td>Chromatic Fantasy, Rainbow Seeker, Automaton, Stranger Something, Minneapolis, Computer Blue, Dillatronic, First Avenue</td></tr><tr><td><strong>Dark Neon</strong></td><td>Saturated nightlife, hot accents on deep ink</td><td align="right">5</td><td>Black and Gold, Cold Blooded, Neon Lights, Green Light, Cold as Ice</td></tr><tr><td><strong>Dark Vaporwave</strong></td><td>Six moods, each in solid, blurred, and transparent form</td><td align="right">18</td><td>Oneohtrix, Eco Virtual, 2814, Blank Banshee, Macintosh +, Macintosh ++</td></tr><tr><td><strong>Light Pastel</strong></td><td>Soft paper, low contrast, calm</td><td align="right">4</td><td>Sunday Morning, White Rabbit, Purple Snowflakes, Pink Cashmere</td></tr><tr><td><strong>Light Brutalist</strong></td><td>Flat, loud, and unapologetic</td><td align="right">6</td><td>Channel Orange, Peach, Cream, Yellow Submarine, Watermelon Man, Mint Condition</td></tr></tbody></table>
+<ul>
+<li>Every family carries its own UI colors, editor colors, and semantic syntax colors.</li>
+<li>Full 16-color ANSI terminal palette matching every theme.</li>
+<li>The five Neon themes use syntax background highlighting that emulates the look and feel of the SynthWave '84 theme (not yet possible via CSS in Zed).</li>
+<li>The six Vaporwave themes have three variations each (solid, blurred, and transparent).</li>
+</ul>
+<h2 id="user-content-screenshots"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#screenshots"><span class="heading-anchor-icon">#</span></a>Screenshots</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th align="center"></th><th align="center"></th></tr></thead><tbody><tr><td align="center"><img src="https://raw.githubusercontent.com/datarip/mixtape-theme-zed/HEAD/assets/screenshots/classic-tangerine-dream.png" alt="Mixtape Dark Classic 03 Tangerine Dream in Zed" width="100%"> <br><sub><b>Dark Classic 03</b> · Tangerine Dream</sub></td><td align="center"><img src="https://raw.githubusercontent.com/datarip/mixtape-theme-zed/HEAD/assets/screenshots/glass-chocolate-city.png" alt="Mixtape Dark Glass 01 Chocolate City in Zed" width="100%"> <br><sub><b>Dark Glass 01</b> · Chocolate City</sub></td></tr><tr><td align="center"><img src="https://raw.githubusercontent.com/datarip/mixtape-theme-zed/HEAD/assets/screenshots/groove-voodoo.png" alt="Mixtape Dark Groove 02 Voodoo in Zed" width="100%"> <br><sub><b>Dark Groove 02</b> · Voodoo</sub></td><td align="center"><img src="https://raw.githubusercontent.com/datarip/mixtape-theme-zed/HEAD/assets/screenshots/lightboard-chromatic-fantasy.png" alt="Mixtape Dark Lightboard 01 Chromatic Fantasy in Zed" width="100%"> <br><sub><b>Dark Lightboard 01</b> · Chromatic Fantasy</sub></td></tr><tr><td align="center"><img src="https://raw.githubusercontent.com/datarip/mixtape-theme-zed/HEAD/assets/screenshots/neon-cold-blooded.png" alt="Mixtape Dark Neon 02 Cold Blooded in Zed" width="100%"> <br><sub><b>Dark Neon 02</b> · Cold Blooded</sub></td><td align="center"><img src="https://raw.githubusercontent.com/datarip/mixtape-theme-zed/HEAD/assets/screenshots/vaporwave-macintosh-plus-plus-transparent.png" alt="Mixtape Dark Vaporwave 06 Macintosh ++ Transparent in Zed" width="100%"> <br><sub><b>Dark Vaporwave 06</b> · Macintosh ++</sub></td></tr><tr><td align="center"><img src="https://raw.githubusercontent.com/datarip/mixtape-theme-zed/HEAD/assets/screenshots/pastel-purple-snowflakes.png" alt="Mixtape Light Pastel 03 Purple Snowflakes in Zed" width="100%"> <br><sub><b>Light Pastel 03</b> · Purple Snowflakes</sub></td><td align="center"><img src="https://raw.githubusercontent.com/datarip/mixtape-theme-zed/HEAD/assets/screenshots/brutalist-mint-condition.png" alt="Mixtape Light Brutalist 06 Mint Condition in Zed" width="100%"> <br><sub><b>Light Brutalist 06</b> · Mint Condition</sub></td></tr></tbody></table>
+<p>These eight shots are a sample. The <a href="https://datarip.github.io/mixtape-theme-zed/">HTML gallery</a> shows all 53 themes on real code, with larger previews, so you can judge the syntax highlighting before you install.</p>
+<h2 id="user-content-install"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#install"><span class="heading-anchor-icon">#</span></a>Install</h2>
+<p>Pick one of the install paths below.</p>
+<h3 id="user-content-from-the-zed-extension-registry"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#from-the-zed-extension-registry"><span class="heading-anchor-icon">#</span></a>From the Zed extension registry</h3>
+<ol>
+<li>Open the Extensions panel with <code>Cmd+Shift+X</code> on macOS or <code>Ctrl+Shift+X</code> on Linux and Windows.</li>
+<li>Search for <strong>Mixtape</strong> and press Install.</li>
+<li>Open the theme picker with <code>Cmd+K Cmd+T</code> on macOS or <code>Ctrl+K Ctrl+T</code> on Linux and Windows.</li>
+<li>Pick one of the 65 variants.</li>
+</ol>
+<h3 id="user-content-as-a-dev-extension"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#as-a-dev-extension"><span class="heading-anchor-icon">#</span></a>As a dev extension</h3>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">git</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> clone</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> https://github.com/datarip/mixtape-theme-zed.git</span></span></code></pre>
+<p>In Zed, open the Extensions panel, choose <strong>Install Dev Extension</strong>, and select the cloned folder. Zed reads <code>extension.toml</code> and loads every theme in <code>themes/</code>.</p>
+<h3 id="user-content-as-a-single-user-theme"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#as-a-single-user-theme"><span class="heading-anchor-icon">#</span></a>As a single user theme</h3>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">mkdir</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -p</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> ~/.config/zed/themes</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cp</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> themes/mixtape.json</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> ~/.config/zed/themes/mixtape.json</span></span></code></pre>
+<p>Then set the theme in <code>settings.json</code>:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "theme"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"Mixtape Dark Neon - 01 - Black and Gold"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h2 id="user-content-optional-theme-overrides"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#optional-theme-overrides"><span class="heading-anchor-icon">#</span></a>Optional theme overrides</h2>
+<p><a href="https://github.com/datarip/mixtape-theme-zed/blob/HEAD/theme-overrides.json" target="_blank" rel="noopener"><code>theme-overrides.json</code></a> is an optional file for applying further styling to the 65 theme variants. Daily driven by yours truly. It's not part of <code>themes/mixtape.json</code>, and the extension does not ship it.</p>
+<p>This theme override fixes the type rhythm of the syntax tokens:</p>
+<ul>
+<li>Keywords and types lean italic (when the font supports it).</li>
+<li>Functions and properties sit at weight 500.</li>
+<li>Strings sit lighter at 300.</li>
+<li>Comments stay italic at 500 (when the font supports it).</li>
+</ul>
+<p>To use it:</p>
+<ol>
+<li>Open <code>theme-overrides.json</code>.</li>
+<li>Copy the full file into your Zed <code>settings.json</code>, or merge the <code>theme_overrides</code> object into the file.</li>
+<li>Keep the theme names exactly as they appear in <code>themes/mixtape.json</code>.</li>
+</ol>
+<p>A shortened example:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "theme_overrides"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "Mixtape Dark Neon - 01 - Black and Gold"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "syntax"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "keyword"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"font_style"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"italic"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"font_weight"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">500</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> },</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "string"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"font_weight"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">300</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> },</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "comment"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"font_style"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"italic"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"font_weight"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">500</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>The full file is 262 KB because it covers every variant. Delete the keys for themes you do not use if you want a smaller settings file. See the <a href="https://zed.dev/docs/themes#theme-overrides">Zed theme overrides documentation</a> for the general mechanism.</p>
+<h2 id="user-content-recommended-fonts"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#recommended-fonts"><span class="heading-anchor-icon">#</span></a>Recommended Fonts</h2>
+<p>Mixtape does not bundle any fonts. These are the fonts I use and recommend at 13 to 15 px with a 1.6 line height.</p>
+<h3 id="user-content-markdown-and-notes"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#markdown-and-notes"><span class="heading-anchor-icon">#</span></a>Markdown and Notes</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Font</th><th>Link</th><th>Note</th></tr></thead><tbody><tr><td><strong>Ioskeley Mono</strong></td><td><a href="https://github.com/ahatem/IoskeleyMono">github.com/ahatem/IoskeleyMono</a></td><td>A humanist mono that holds up in long Markdown files</td></tr></tbody></table>
+<h3 id="user-content-code"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#code"><span class="heading-anchor-icon">#</span></a>Code</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Font</th><th>Link</th><th>Note</th></tr></thead><tbody><tr><td><strong>Maple Mono</strong></td><td><a href="https://github.com/subframe7536/maple-font">github.com/subframe7536/maple-font</a></td><td>Rounded, soft, and very legible at small sizes</td></tr><tr><td><strong>Fantasque Sans Mono</strong></td><td><a href="https://github.com/belluzj/fantasque-sans">github.com/belluzj/fantasque-sans</a></td><td>Quirky and warm, good for long sessions</td></tr><tr><td><strong>Julia Mono</strong></td><td><a href="https://github.com/cormullion/juliamono">github.com/cormullion/juliamono</a></td><td>Wide coverage, clear punctuation, strong italics</td></tr><tr><td><strong>Victor Mono</strong></td><td><a href="https://github.com/rubjo/victor-mono">github.com/rubjo/victor-mono</a></td><td>Cursive italics that pair well with the keyword overrides</td></tr><tr><td><strong>Kibernetyk Mono</strong></td><td><a href="https://github.com/PavloKilko/KibernetykMono">github.com/PavloKilko/KibernetykMono</a></td><td>Technical, compact, and a little retro</td></tr><tr><td><strong>JetBrains Mono</strong></td><td><a href="https://github.com/JetBrains/JetBrainsMono">github.com/JetBrains/JetBrainsMono</a></td><td>The safe default, with a large x-height</td></tr><tr><td><strong>Fira Code</strong></td><td><a href="https://github.com/tonsky/firacode">github.com/tonsky/firacode</a></td><td>Ligatures and a familiar texture</td></tr></tbody></table>
+<h3 id="user-content-terminal"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#terminal"><span class="heading-anchor-icon">#</span></a>Terminal</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Font</th><th>Link</th><th>Note</th></tr></thead><tbody><tr><td><strong>Meslo LG L Nerd Font</strong></td><td><a href="https://github.com/ryanoasis/nerd-fonts">github.com/ryanoasis/nerd-fonts</a></td><td>Patched for Powerline and Nerd Font glyphs</td></tr></tbody></table>
+<h2 id="user-content-palette-notes"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#palette-notes"><span class="heading-anchor-icon">#</span></a>Palette Notes</h2>
+<ul>
+<li><code>themes/mixtape.json</code> is the single source of truth. <code>extension.toml</code> loads the <code>themes/</code> folder, and the gallery is generated from the same JSON.</li>
+<li>Every theme defines UI colors, editor colors, semantic syntax colors, and terminal ANSI colors. The syntax map covers 60 token keys, including <code>function.method</code>, <code>variable.parameter</code>, <code>punctuation.bracket</code>, and <code>string.escape</code>.</li>
+<li>The 18 Vaporwave variants share six base moods. Each mood has a solid, blurred, and transparent form. The transparent forms use an alpha channel in the editor and terminal background.</li>
+<li>The gallery cards use the real theme colors for the code preview. The palette bar under each card reads the same syntax tokens.</li>
+<li>The download in the gallery points at this repository. Replace it if you fork the project.</li>
+</ul>
+<h2 id="user-content-repository-layout"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#repository-layout"><span class="heading-anchor-icon">#</span></a>Repository Layout</h2>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span>.</span></span>
+<span class="line"><span>├── extension.toml              # Zed manifest, id = "mixtape-theme"</span></span>
+<span class="line"><span>├── themes/</span></span>
+<span class="line"><span>│   └── mixtape.json            # 65 themes, eight families</span></span>
+<span class="line"><span>├── theme-overrides.json        # optional settings.json snippet</span></span>
+<span class="line"><span>├── assets/</span></span>
+<span class="line"><span>│   ├── banner.svg</span></span>
+<span class="line"><span>│   ├── palette-strip.svg</span></span>
+<span class="line"><span>│   └── screenshots/            # images used by this README</span></span>
+<span class="line"><span>├── docs/</span></span>
+<span class="line"><span>│   ├── index.html              # 53-variant gallery (GitHub Pages)</span></span>
+<span class="line"><span>│   ├── screens/</span></span>
+<span class="line"><span>│   │   ├── full/               # full-size WebP screenshots, the source</span></span>
+<span class="line"><span>│   │   └── thumb/              # generated card thumbnails</span></span>
+<span class="line"><span>│   └── PUBLISHING.md           # GitHub and Zed submission plan</span></span>
+<span class="line"><span>└── mixtape-toolkit/            # gallery builder and source HTML</span></span></code></pre>
+<h2 id="user-content-html-theme-gallery-builder-script"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#html-theme-gallery-builder-script"><span class="heading-anchor-icon">#</span></a>HTML Theme Gallery Builder Script</h2>
+<p>The full WebP screenshots in <code>docs/screens/full</code> are the source. The build regenerates the 800 px card thumbnails in <code>docs/screens/thumb</code> and the gallery at <code>docs/index.html</code>.</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">python3</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> mixtape-toolkit/build.py</span></span></code></pre>
+<p>The script:</p>
+<ol>
+<li>Reads <code>themes/mixtape.json</code>.</li>
+<li>Maps each full WebP to a theme by its filename slug.</li>
+<li>Regenerates the card thumbnails.</li>
+<li>Injects the 53 gallery themes, 53 screenshot paths, and the 65-theme family stats into the source HTML.</li>
+<li>Writes <code>docs/index.html</code>.</li>
+</ol>
+<p>Only themes with a full image appear in the gallery, so the 12 Vaporwave variants without screenshots stay out. The build needs Pillow for the thumbnails. Install it in a virtual environment:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">python3</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -m</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> venv</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> .venv</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">.</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> .venv/bin/activate</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">python3</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -m</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> pip</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> install</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> Pillow</span></span></code></pre>
+<h2 id="user-content-credits"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#credits"><span class="heading-anchor-icon">#</span></a>Credits</h2>
+<p>Each theme from this collection is like a track in a mixtape: each is named after a song or an artist name that represents a color. Some tracks are originals, some are reimagined remixes. All the references, inspiration, and credits are listed below.</p>
+<h3 id="user-content-theme-inspiration"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#theme-inspiration"><span class="heading-anchor-icon">#</span></a>Theme Inspiration</h3>
+<p>The table lists the themes this collection borrows from, with their authors and sources.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Theme</th><th>Author</th></tr></thead><tbody><tr><td><a href="https://github.com/atom/one-dark-syntax">Atom One Dark</a></td><td>Simurai</td></tr><tr><td><a href="https://github.com/ayu-theme/ayu-colors">Ayu</a></td><td>Ike Ku</td></tr><tr><td><a href="https://github.com/AaBbdev29/Dark-Plus-Chocolate">Dark Plus Chocolate</a></td><td>Moondevaa</td></tr><tr><td><a href="https://github.com/felipetesc/vapor-theme">Dark Vaporwave</a></td><td>felipetesc, SigmaSD</td></tr><tr><td><a href="https://github.com/dracula/dracula-theme">Dracula</a></td><td>Zeno Rocha</td></tr><tr><td><a href="https://www.jetbrains.com/fleet/">Fleet</a></td><td>JetBrains</td></tr><tr><td><a href="https://github.com/primer/github-vscode-theme">GitHub Dark</a></td><td>GitHub</td></tr><tr><td><a href="https://github.com/guttenbergovitz/guttenbergovitz">Guttenbergovitz</a></td><td>Guttenbergovitz</td></tr><tr><td><a href="https://github.com/silofy/hackthebox">Hack The Box</a></td><td>Silofy</td></tr><tr><td><a href="https://github.com/nanotech/jellybeans.vim">Jellybeans</a></td><td>Andrew Wong</td></tr><tr><td><a href="https://aur.archlinux.org/packages/plasma6-themes-vapor-steamos">KDE Plasma Vapor Theme</a></td><td>Valve (SteamOS)</td></tr><tr><td><a href="https://github.com/MarineDark/marine-dark.zed">Marine Dark</a></td><td>ProDeSquare</td></tr><tr><td><a href="https://material-theme.com">Material</a></td><td>Mattia Astorino</td></tr><tr><td><a href="https://github.com/saadq/Materialize">Materialize</a></td><td>Saad Quadri</td></tr><tr><td><a href="https://github.com/Muddyblack/midnight-marina-zed">Midnight Marina</a></td><td>Muddyblack</td></tr><tr><td><a href="https://monokai.com">Monokai</a></td><td>Wimer Hazenberg</td></tr><tr><td><a href="https://github.com/NvChad/base46">NvChad Chocolate</a></td><td>NvChad</td></tr><tr><td><a href="https://github.com/Binaryify/OneDark-Pro">One Dark Pro</a></td><td>Jerry Wang</td></tr><tr><td><a href="https://github.com/samrap/outrun-theme-vscode">Outrun</a></td><td>Sam Rapaport</td></tr><tr><td><a href="https://github.com/shoobah/pinkasheck">Pink as Heck</a></td><td>Shoobah</td></tr><tr><td><a href="https://github.com/altercation/solarized">Solarized</a></td><td>Ethan Schoonover</td></tr><tr><td><a href="https://github.com/stackmason1/synesthesia-theme">Synesthesia Synthwave</a></td><td>Stackmason1</td></tr><tr><td><a href="https://github.com/robb0wen/synthwave-vscode">SynthWave '84</a></td><td>Robb Owen</td></tr><tr><td><a href="https://github.com/enkia/tokyo-night-vscode-theme">Tokyo Night</a></td><td>Enkia</td></tr><tr><td><a href="https://github.com/i-amdroid/zed-underground-theme">Underground</a></td><td>i-amdroid</td></tr><tr><td><a href="https://github.com/johnpapa/vscode-winteriscoming">Winter is Coming</a></td><td>John Papa</td></tr><tr><td><a href="https://github.com/Yxmura/yamura-zed-theme">Yamura Dark</a></td><td>Yxmura</td></tr><tr><td><a href="https://github.com/zmito/zmitoLinght">Zmito Light</a></td><td>Zmito</td></tr></tbody></table>
+<h4 id="user-content-dark-classic"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#dark-classic"><span class="heading-anchor-icon">#</span></a>Dark Classic</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Theme</th><th>Inspired by</th></tr></thead><tbody><tr><td>01 · Electric Avenue</td><td>Synesthesia Synthwave, GitHub Dark</td></tr><tr><td>02 · Night Train</td><td>Fleet, Atom One Dark, One Dark Pro</td></tr><tr><td>04 · Tangerine Dream</td><td>Ayu</td></tr><tr><td>05 · Buffalo Soldier</td><td>Jellybeans, Monokai, Ayu, Underground, Materialize</td></tr><tr><td>06 · Black Cow</td><td>Atom One Dark, One Dark Pro, Material</td></tr><tr><td>08 · Indigo Nights</td><td>Yamura Dark, Tokyo Night</td></tr><tr><td>09 · Tokyo Blues</td><td>Tokyo Night</td></tr><tr><td>10 · Computer Love</td><td>Hack The Box</td></tr></tbody></table>
+<h4 id="user-content-dark-glass"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#dark-glass"><span class="heading-anchor-icon">#</span></a>Dark Glass</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Theme</th><th>Inspired by</th></tr></thead><tbody><tr><td>01 · Chocolate City</td><td>Dark Plus Chocolate, Ayu, Materialize</td></tr><tr><td>02 · Brown Sugar</td><td>Jellybeans, Ayu, Materialize</td></tr><tr><td>03 · Green Earrings</td><td>Solarized, Marine Dark</td></tr><tr><td>04 · Wild Cherry</td><td>Marine Dark</td></tr><tr><td>05 · Ruby My Dear</td><td>Pink as Heck, Marine Dark</td></tr><tr><td>06 · Blue Magic</td><td>Midnight Marina, Marine Dark</td></tr><tr><td>07 · Purple Haze</td><td>Marine Dark</td></tr><tr><td>08 · Purple Rain</td><td>Marine Dark</td></tr></tbody></table>
+<h4 id="user-content-dark-groove"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#dark-groove"><span class="heading-anchor-icon">#</span></a>Dark Groove</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Theme</th><th>Inspired by</th></tr></thead><tbody><tr><td>02 · Voodoo</td><td>Guttenbergovitz</td></tr><tr><td>05 · Africa Unite</td><td>NvChad Chocolate</td></tr></tbody></table>
+<h4 id="user-content-dark-neon"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#dark-neon"><span class="heading-anchor-icon">#</span></a>Dark Neon</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Theme</th><th>Inspired by</th></tr></thead><tbody><tr><td>01 · Black and Gold</td><td>Dark Plus Chocolate, Ayu, Materialize</td></tr><tr><td>02 · Cold Blooded</td><td>Pink as Heck</td></tr><tr><td>03 · Neon Lights</td><td>SynthWave '84, Synesthesia Synthwave, Outrun, Dracula</td></tr><tr><td>04 · Green Light</td><td>Solarized, Marine Dark</td></tr><tr><td>05 · Cold as Ice</td><td>Winter is Coming, Midnight Marina, SynthWave '84</td></tr></tbody></table>
+<h4 id="user-content-dark-vaporwave"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#dark-vaporwave"><span class="heading-anchor-icon">#</span></a>Dark Vaporwave</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Theme</th><th>Inspired by</th></tr></thead><tbody><tr><td>06 · Macintosh ++</td><td>KDE Plasma Vapor Theme, Dark Vaporwave</td></tr></tbody></table>
+<h4 id="user-content-light-brutalist--light-pastel"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#light-brutalist--light-pastel"><span class="heading-anchor-icon">#</span></a>Light Brutalist &#x26; Light Pastel</h4>
+<p>These families are mostly inspired by Zmito Light and the Post-it palette from 3M.</p>
+<h3 id="user-content-originals"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#originals"><span class="heading-anchor-icon">#</span></a>Originals</h3>
+<p>These themes are originals by yours truly. I particularly like the <strong>Lightboard Theme</strong>, which, as the name implies, emulates coding on a lightboard.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Family</th><th>Original themes</th></tr></thead><tbody><tr><td>Dark Classic</td><td>Mothership Connection, Black and Yellow</td></tr><tr><td>Dark Groove</td><td>Kaleidoscope, Foxy Brown, Soylent Green, Coffy is the Color</td></tr><tr><td>Dark Lightboard</td><td>Chromatic Fantasy, Rainbow Seeker, Automaton, Stranger Something, Minneapolis, Computer Blue, Dillatronic, First Avenue</td></tr><tr><td>Dark Vaporwave</td><td>Oneohtrix, Eco Virtual, 2814, Blank Banshee, Macintosh +, Macintosh ++. Each mood has a solid, blurred, and transparent form.</td></tr></tbody></table>
+<h3 id="user-content-music-playlist"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#music-playlist"><span class="heading-anchor-icon">#</span></a>Music Playlist</h3>
+<p>The playlist follows the remixes and the originals named after a record or a film. Each track names the song that shaped the palette and links to the version in the source notes. Themes without a chosen song stay out of the tables. The other original themes are listed in <a href="#originals">Originals</a>.</p>
+<h4 id="user-content-dark-classic-1"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#dark-classic-1"><span class="heading-anchor-icon">#</span></a>Dark Classic</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Theme</th><th>Song</th><th>Listen</th></tr></thead><tbody><tr><td>01 · Electric Avenue</td><td>Electric Avenue by Eddy Grant</td><td><a href="https://youtu.be/Yxep-9BQ6Uo">listen</a></td></tr><tr><td>02 · Night Train</td><td>Night Train by James Brown</td><td><a href="https://youtu.be/l0hcjUkXUmQ">listen</a></td></tr><tr><td>03 · Tangerine Dream</td><td>Love On a Real Train by Tangerine Dream</td><td><a href="https://youtu.be/sBhB9gAM1J4">listen</a></td></tr><tr><td>05 · Buffalo Soldier</td><td>Buffalo Soldier by Bob Marley &#x26; The Wailers</td><td><a href="https://youtu.be/uMUQMSXLlHM">listen</a></td></tr><tr><td>06 · Black Cow</td><td>Black Cow by Steely Dan</td><td><a href="https://youtu.be/XRj0Ohg-y1A">listen</a></td></tr><tr><td>08 · Indigo Nights</td><td>Indigo Nights/Live Sessions by Prince</td><td><a href="https://youtube.com/playlist?list=PLH_QLWlQVieXe47NXfF1rlRB_udBe8lpX">listen</a></td></tr><tr><td>09 · Tokyo Blues</td><td>Tokyo Blues by Horace Silver</td><td><a href="https://youtu.be/XvsdNDOdpbc">listen</a></td></tr><tr><td>10 · Computer Love</td><td>Computer Love by Kraftwerk</td><td><a href="https://youtu.be/ZtWTUt2RZh0">listen</a></td></tr></tbody></table>
+<h4 id="user-content-dark-glass-1"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#dark-glass-1"><span class="heading-anchor-icon">#</span></a>Dark Glass</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Theme</th><th>Song</th><th>Listen</th></tr></thead><tbody><tr><td>01 · Chocolate City</td><td>Chocolate City by Parliament</td><td><a href="https://youtube.com/playlist?list=OLAK5uy_kC0bc1SWWh-532dA0VIv70r-Ay-o-60JQ">listen</a></td></tr><tr><td>02 · Brown Sugar</td><td>Brown Sugar by D'Angelo</td><td><a href="https://youtu.be/Uon7iKGqqaA">listen</a></td></tr><tr><td>03 · Green Earrings</td><td>Green Earrings by Steely Dan</td><td><a href="https://youtu.be/IeezKJsCkmU">listen</a></td></tr><tr><td>04 · Wild Cherry</td><td>Play That Funky Music by Wild Cherry</td><td><a href="https://youtu.be/JTvlujbJ5vg">listen</a></td></tr><tr><td>05 · Ruby My Dear</td><td>Ruby, My Dear by Thelonious Monk</td><td><a href="https://youtu.be/u1O9YuXNbLs">listen</a></td></tr><tr><td>06 · Blue Magic</td><td>Sideshow by Blue Magic</td><td><a href="https://youtu.be/7HJ-QcPhC68">listen</a></td></tr><tr><td>07 · Purple Haze</td><td>Purple Haze by The Jimi Hendrix Experience</td><td><a href="https://youtu.be/WGoDaYjdfSg">listen</a></td></tr><tr><td>08 · Purple Rain</td><td>Purple Rain by Prince and the Revolution</td><td><a href="https://youtu.be/6lsueAsCTnM">listen</a></td></tr></tbody></table>
+<h4 id="user-content-dark-groove-1"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#dark-groove-1"><span class="heading-anchor-icon">#</span></a>Dark Groove</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Theme</th><th>Song</th><th>Listen</th></tr></thead><tbody><tr><td>01 · Kaleidoscope</td><td>Kaleidoscope (album) by Kelis</td><td><a href="https://youtube.com/playlist?list=OLAK5uy_m0BRplzzuZKfjc6Q7m8sC3xXsi98zNXWM">listen</a></td></tr><tr><td>02 · Voodoo</td><td>Voodoo (album) by D'Angelo</td><td><a href="https://youtu.be/MlYypG5NGIc">listen</a></td></tr><tr><td>03 · Foxy Brown</td><td>Theme From Foxy Brown by Willie Hutch</td><td><a href="https://youtu.be/e4xOv2AU95s">listen</a></td></tr><tr><td>04 · Soylent Green</td><td>Soylent Green by Fred Myrow</td><td><a href="https://youtu.be/X2fXWg4ymzg">listen</a></td></tr><tr><td>05 · Africa Unite</td><td>Africa Unite by Bob Marley &#x26; The Wailers</td><td><a href="https://youtu.be/psm68xZPZTA">listen</a></td></tr><tr><td>06 · Coffy is the Color</td><td>Coffy Is the Color by Roy Ayers</td><td><a href="https://youtu.be/XiD0772uRNg">listen</a></td></tr></tbody></table>
+<h4 id="user-content-dark-neon-1"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#dark-neon-1"><span class="heading-anchor-icon">#</span></a>Dark Neon</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Theme</th><th>Song</th><th>Listen</th></tr></thead><tbody><tr><td>01 · Black and Gold</td><td>Black and Gold by Sam Sparro</td><td><a href="https://youtu.be/eHuebHTD-lY">listen</a></td></tr><tr><td>02 · Cold Blooded</td><td>Cold Blooded by Rick James</td><td><a href="https://youtu.be/_5dXbKvtVDg">listen</a></td></tr><tr><td>03 · Neon Lights</td><td>Neon Lights by Kraftwerk</td><td><a href="https://youtu.be/7Mz2UuLS6oM">listen</a></td></tr><tr><td>04 · Green Light</td><td>Green Light by Jamie Lidell</td><td><a href="https://youtu.be/ISaFuSP60oU">listen</a></td></tr><tr><td>05 · Cold as Ice</td><td>Cold as Ice by M.O.P. (Foreigner)</td><td><a href="https://youtu.be/9270o2_vQg0">listen</a></td></tr></tbody></table>
+<h4 id="user-content-light-pastel"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#light-pastel"><span class="heading-anchor-icon">#</span></a>Light Pastel</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Theme</th><th>Song</th><th>Listen</th></tr></thead><tbody><tr><td>01 · Sunday Morning</td><td>Sunday Morning by The Velvet Underground</td><td><a href="https://youtu.be/Xhbyj8pqUao">listen</a></td></tr><tr><td>02 · White Rabbit</td><td>White Rabbit by Jefferson Airplane</td><td><a href="https://youtu.be/pnJM_jC7j_4">listen</a></td></tr><tr><td>03 · Purple Snowflakes</td><td>Purple Snowflakes by Marvin Gaye</td><td><a href="https://youtu.be/xpVBJ6lRSf4">listen</a></td></tr><tr><td>04 · Pink Cashmere</td><td>Pink Cashmere by Prince</td><td><a href="https://youtu.be/ms86DXkrNHI">listen</a></td></tr></tbody></table>
+<h4 id="user-content-light-brutalist"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#light-brutalist"><span class="heading-anchor-icon">#</span></a>Light Brutalist</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Theme</th><th>Song</th><th>Listen</th></tr></thead><tbody><tr><td>01 · Channel Orange</td><td>Channel Orange by Frank Ocean</td><td><a href="https://youtube.com/playlist?list=OLAK5uy_mAGTQmYeosOR-Pp17OnnzkKHPeEbzSFOg">listen</a></td></tr><tr><td>02 · Peach</td><td>Peach by Prince</td><td><a href="https://youtu.be/WFP4JoUx_2w">listen</a></td></tr><tr><td>03 · Cream</td><td>Cream by Prince</td><td><a href="https://youtu.be/rrbFQEcpJ3A">listen</a></td></tr><tr><td>04 · Yellow Submarine</td><td>Yellow Submarine by The Beatles</td><td><a href="https://youtu.be/m2uTFF_3MaA">listen</a></td></tr><tr><td>05 · Watermelon Man</td><td>Watermelon Man by Herbie Hancock</td><td><a href="https://youtu.be/ppJQKfqhFfE">listen</a></td></tr><tr><td>06 · Mint Condition</td><td>Funky Weekend by Mint Condition</td><td><a href="https://youtu.be/SgS2B4o9Vt4">listen</a></td></tr></tbody></table>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>This project is released under the <a href="https://github.com/datarip/mixtape-theme-zed/blob/HEAD/LICENSE" target="_blank" rel="noopener">MIT License</a>.</p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>

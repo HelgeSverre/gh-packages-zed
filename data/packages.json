@@ -3218,7 +3218,7 @@
     "url": "https://github.com/ChemisTechlabs/zed-pascal",
     "description": "A Pascal language extension for Zed Editor",
     "stars": 18,
-    "forks": 3,
+    "forks": 4,
     "topics": [
       "pascal",
       "syntax-highlighting",
@@ -3228,7 +3228,7 @@
     "language": "Tree-sitter Query",
     "license": "BSD-3-Clause",
     "created_at": "2025-10-08T00:37:21Z",
-    "updated_at": "2026-08-19T14:08:36Z",
+    "updated_at": "2026-11-16T21:16:27Z",
     "pushed_at": "2026-07-07T03:45:07Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -17897,7 +17897,7 @@
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
     "updated_at": "2026-11-12T13:44:32Z",
-    "pushed_at": "2026-11-16T12:57:17Z",
+    "pushed_at": "2026-11-16T18:44:26Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -31921,7 +31921,7 @@
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
     "updated_at": "2026-11-12T19:03:45Z",
-    "pushed_at": "2026-11-16T02:26:05Z",
+    "pushed_at": "2026-11-16T23:10:49Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false
   },
@@ -33390,24 +33390,6 @@
     "created_at": "2024-05-11T22:54:22Z",
     "updated_at": "2024-05-12T11:26:13Z",
     "pushed_at": "2024-05-12T11:02:50Z",
-    "discovered_at": "2026-07-28T07:34:46.549Z",
-    "official": false
-  },
-  "huacnlee/zed-lalrpop": {
-    "name": "huacnlee/zed-lalrpop",
-    "url": "https://github.com/huacnlee/zed-lalrpop",
-    "description": "LALRPOP parser grammar support for Zed.",
-    "stars": 3,
-    "forks": 1,
-    "topics": [
-      "zed",
-      "zed-extension"
-    ],
-    "language": "Scheme",
-    "license": "MIT",
-    "created_at": "2024-05-03T06:48:51Z",
-    "updated_at": "2025-05-16T16:29:50Z",
-    "pushed_at": "2024-05-03T06:50:03Z",
     "discovered_at": "2026-07-28T07:34:46.549Z",
     "official": false
   },
@@ -36869,7 +36851,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-09-03T18:54:22Z",
     "updated_at": "2026-11-16T11:08:09Z",
-    "pushed_at": "2026-11-16T18:16:36Z",
+    "pushed_at": "2026-11-16T19:32:20Z",
     "discovered_at": "2026-09-09T01:10:37.044Z",
     "official": false
   },
@@ -37273,7 +37255,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-08-28T14:03:54Z",
     "updated_at": "2026-09-18T02:36:17Z",
-    "pushed_at": "2026-11-15T18:04:54Z",
+    "pushed_at": "2026-11-16T19:37:55Z",
     "discovered_at": "2026-09-13T21:07:24.622Z",
     "official": false
   },
@@ -38315,7 +38297,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-09-21T20:10:00Z",
     "updated_at": "2026-11-11T04:50:10Z",
-    "pushed_at": "2026-11-13T08:24:21Z",
+    "pushed_at": "2026-11-16T23:07:33Z",
     "discovered_at": "2026-09-21T22:12:12.101Z",
     "official": false
   },
@@ -40133,7 +40115,7 @@
     "license": "NOASSERTION",
     "created_at": "2026-10-03T08:54:37Z",
     "updated_at": "2026-11-06T13:43:04Z",
-    "pushed_at": "2026-11-16T14:10:32Z",
+    "pushed_at": "2026-11-16T20:50:03Z",
     "discovered_at": "2026-10-03T14:21:09.179Z",
     "official": false
   },
@@ -41759,7 +41741,7 @@
     "license": "BSD-3-Clause",
     "created_at": "2026-09-16T20:49:29Z",
     "updated_at": "2026-11-12T12:10:50Z",
-    "pushed_at": "2026-11-11T22:22:14Z",
+    "pushed_at": "2026-11-16T23:51:43Z",
     "discovered_at": "2026-10-26T01:14:17.224Z",
     "official": false
   },
@@ -42498,7 +42480,7 @@
     "license": null,
     "created_at": "2026-04-16T11:26:51Z",
     "updated_at": "2026-11-12T15:42:27Z",
-    "pushed_at": "2026-11-16T18:24:23Z",
+    "pushed_at": "2026-11-17T00:24:06Z",
     "discovered_at": "2026-11-01T00:54:44.248Z",
     "official": false
   },
@@ -42567,7 +42549,7 @@
     "license": "MIT",
     "created_at": "2026-11-01T01:34:22Z",
     "updated_at": "2026-11-16T15:05:06Z",
-    "pushed_at": "2026-11-16T18:02:31Z",
+    "pushed_at": "2026-11-16T20:39:54Z",
     "discovered_at": "2026-11-01T12:43:52.373Z",
     "official": false
   },
@@ -43600,7 +43582,7 @@
     "license": null,
     "created_at": "2026-04-14T16:50:18Z",
     "updated_at": "2026-11-15T10:54:34Z",
-    "pushed_at": "2026-11-16T18:26:14Z",
+    "pushed_at": "2026-11-17T00:31:28Z",
     "discovered_at": "2026-11-12T18:44:10.996Z",
     "official": false
   },
@@ -43926,6 +43908,46 @@
     "updated_at": "2026-11-16T16:08:05Z",
     "pushed_at": "2026-11-16T16:06:03Z",
     "discovered_at": "2026-11-16T18:43:51.772Z",
+    "official": false
+  },
+  "goncalompontes/zed-mest": {
+    "name": "goncalompontes/zed-mest",
+    "url": "https://github.com/goncalompontes/zed-mest",
+    "description": "Zed editor support for the Mest programming language",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "programming-language",
+      "syntax-highlighting",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Tree-sitter Query",
+    "license": null,
+    "created_at": "2026-06-01T17:08:05Z",
+    "updated_at": "2026-11-16T23:11:55Z",
+    "pushed_at": "2026-06-03T04:12:39Z",
+    "discovered_at": "2026-11-17T00:52:02.611Z",
+    "official": false
+  },
+  "datarip/mixtape-theme-zed": {
+    "name": "datarip/mixtape-theme-zed",
+    "url": "https://github.com/datarip/mixtape-theme-zed",
+    "description": "A 65-theme collection for Zed in eight families: 55 dark and 10 light.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "color-theme",
+      "theme",
+      "zed",
+      "zed-theme"
+    ],
+    "language": "HTML",
+    "license": "MIT",
+    "created_at": "2026-11-17T00:13:06Z",
+    "updated_at": "2026-11-17T00:13:19Z",
+    "pushed_at": "2026-11-17T00:40:13Z",
+    "discovered_at": "2026-11-17T00:52:02.612Z",
     "official": false
   }
 }
