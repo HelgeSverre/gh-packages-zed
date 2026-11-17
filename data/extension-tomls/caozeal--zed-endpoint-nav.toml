@@ -1,0 +1,15 @@
+id = "spring-endpoint-nav"
+name = "Endpoint Navigator"
+version = "0.3.0"
+schema_version = 1
+authors = ["caozeal"]
+description = "把 Spring / FastAPI 的请求映射当作符号，喂给 Zed 的 Cmd+T（Go to Symbol in Project）。"
+repository = "https://github.com/caozeal/zed-endpoint-nav"
+
+[language_servers.spring-endpoint-nav]
+name = "Spring Endpoint Navigator"
+language = "Java"
+
+[language_servers.python-endpoint-nav]
+name = "FastAPI Endpoint Navigator"
+language = "Python"

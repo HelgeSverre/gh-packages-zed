@@ -17,15 +17,15 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1946** |
 | In official registry | 1365 |
 | Discovered via topics | 581 |
-| Last updated | 2026-11-17 00:52 UTC |
+| Last updated | 2026-11-17 06:46 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
 | Themes | 836 |
-| Grammars | 667 |
-| Language Servers | 630 |
+| Grammars | 666 |
+| Language Servers | 631 |
 | Context Servers | 150 |
 | Snippets | 97 |
 | Slash Commands | 64 |
@@ -70,6 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [caozeal/zed-endpoint-nav](https://github.com/caozeal/zed-endpoint-nav) | 0 | 把 Spring / FastAPI / MCP 的请求映射当作符号，喂给 Zed 的 Cmd+T（Go to Symbol in Project） |
 | [datarip/mixtape-theme-zed](https://github.com/datarip/mixtape-theme-zed) | 0 | A 65-theme collection for Zed in eight families: 55 dark and 10 light. |
 | [goncalompontes/zed-mest](https://github.com/goncalompontes/zed-mest) | 0 | Zed editor support for the Mest programming language |
 | [dynotable/zed-dynotable](https://github.com/dynotable/zed-dynotable) | 0 | DynoTable for Zed: SQL and PartiQL for DynamoDB, with completion and diagnostics... |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [koroblabs/orthra-zed](https://github.com/koroblabs/orthra-zed) | 0 | orthra for Zed: fast, quiet spell checking for code and prose. Downloads the ort... |
 | [heritage-themes/heritage-themes-zed](https://github.com/heritage-themes/heritage-themes-zed) | 0 |  |
 | [yathink3/carbon-react-color-theme-zed](https://github.com/yathink3/carbon-react-color-theme-zed) | 0 |  |
-| [emeraldsanto/zed-theme-verdandi](https://github.com/emeraldsanto/zed-theme-verdandi) | 1 | A monochrome theme for Zed. Ported from the VS Code Verdandi theme by be5invis. |
 
 ## Top starred (under 500)
 
@@ -120,11 +120,13 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [felixtensor/zed-mlir](https://github.com/felixtensor/zed-mlir) | 11 | 2026-11-17 | MLIR Extension for Zed |
+| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 3 | 2026-11-17 | Local-first code intelligence over MCP: BM25/FTS5 + AST grap... |
+| [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 1 | 2026-11-17 | Zed extension that formats and lints HTML templates with djL... |
+| [caozeal/zed-endpoint-nav](https://github.com/caozeal/zed-endpoint-nav) | 0 | 2026-11-17 | 把 Spring / FastAPI / MCP 的请求映射当作符号，喂给 Zed 的 Cmd+T（Go to Symb... |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 223 | 2026-11-17 | Zed plugin for automatic time tracking and metrics generated... |
 | [datarip/mixtape-theme-zed](https://github.com/datarip/mixtape-theme-zed) | 0 | 2026-11-17 | A 65-theme collection for Zed in eight families: 55 dark and... |
-| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 3 | 2026-11-16 | Local-first code intelligence over MCP: BM25/FTS5 + AST grap... |
-| [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 1 | 2026-11-16 | Zed extension that formats and lints HTML templates with djL... |
 | [ickc/zed-csv-toolkit](https://github.com/ickc/zed-csv-toolkit) | 0 | 2026-11-16 | Zed extension for CSV/TSV/SSV/PSV: rainbow columns plus a li... |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 223 | 2026-11-16 | Zed plugin for automatic time tracking and metrics generated... |
 | [balakar94/mikrotik-zed](https://github.com/balakar94/mikrotik-zed) | 0 | 2026-11-16 | Zed extension for MikroTik RouterOS Script — syntax highligh... |
 | [fabric0de/sentry-mcp-server-zed](https://github.com/fabric0de/sentry-mcp-server-zed) | 3 | 2026-11-16 | Zed extension that runs @sentry/mcp-server in stdio mode. |
 | [husur/gradle-catalog-lsp](https://github.com/husur/gradle-catalog-lsp) | 0 | 2026-11-16 | Zed extension: shows newer versions of the libraries and plu... |
@@ -138,13 +140,12 @@ cd website && npm install && npm run dev
 | [qwecold/zed-pixel-icon](https://github.com/qwecold/zed-pixel-icon) | 1 | 2026-11-15 | Pixel-art file and folder icons for the Zed project panel. |
 | [adrijshikhar/zed-htmx](https://github.com/adrijshikhar/zed-htmx) | 0 | 2026-11-15 | HTMX 2.0 language server extension for the Zed editor, power... |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 14 | 2026-11-15 | Spring Boot language intelligence for Zed, powered by the of... |
-| [emirror-de/windows-classic-themes-zed](https://github.com/emirror-de/windows-classic-themes-zed) | 1 | 2026-11-14 | Windows 2000 and Windows 7-inspired light and dark themes fo... |
-| [radekBednarik/playwright-zed](https://github.com/radekBednarik/playwright-zed) | 0 | 2026-11-14 | Playwright end-to-end test management for the Zed editor |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-11-17T06:46 | 2 | 760 | 2474 |
 | 2026-11-17T00:52 | 2 | 759 | 2473 |
 | 2026-11-16T18:43 | 1 | 759 | 2472 |
 | 2026-11-16T12:56 | 0 | 759 | 2471 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-11-15T12:44 | 0 | 758 | 2469 |
 | 2026-11-15T06:43 | 3 | 755 | 2469 |
 | 2026-11-15T00:52 | 0 | 755 | 2466 |
-| 2026-11-14T18:44 | 1 | 754 | 2466 |
 
 ---
 
