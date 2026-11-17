@@ -1747,7 +1747,7 @@
     "name": "isunjn/hami-melon-zed",
     "url": "https://github.com/isunjn/hami-melon-zed",
     "description": "🍈 Organic green and orange flavored code editor theme",
-    "stars": 13,
+    "stars": 14,
     "forks": 0,
     "topics": [
       "editor-theme",
@@ -1759,7 +1759,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2024-10-28T15:13:58Z",
-    "updated_at": "2026-07-02T18:25:45Z",
+    "updated_at": "2026-11-17T15:05:28Z",
     "pushed_at": "2026-04-06T15:15:45Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -5066,7 +5066,7 @@
     "license": "MIT",
     "created_at": "2026-03-09T04:35:59Z",
     "updated_at": "2026-11-12T16:00:39Z",
-    "pushed_at": "2026-11-16T15:25:10Z",
+    "pushed_at": "2026-11-17T15:51:05Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": false
   },
@@ -17897,7 +17897,7 @@
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
     "updated_at": "2026-11-12T13:44:32Z",
-    "pushed_at": "2026-11-17T06:46:45Z",
+    "pushed_at": "2026-11-17T12:44:23Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -31921,7 +31921,7 @@
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
     "updated_at": "2026-11-12T19:03:45Z",
-    "pushed_at": "2026-11-17T12:41:35Z",
+    "pushed_at": "2026-11-17T18:07:54Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false
   },
@@ -35594,7 +35594,7 @@
     "license": "MIT",
     "created_at": "2026-06-22T23:16:08Z",
     "updated_at": "2026-11-04T20:30:20Z",
-    "pushed_at": "2026-11-14T02:39:30Z",
+    "pushed_at": "2026-11-17T17:35:03Z",
     "discovered_at": "2026-08-21T18:55:51.713Z",
     "official": true
   },
@@ -40095,7 +40095,7 @@
     "license": "NOASSERTION",
     "created_at": "2026-10-03T08:54:37Z",
     "updated_at": "2026-11-06T13:43:04Z",
-    "pushed_at": "2026-11-17T08:32:25Z",
+    "pushed_at": "2026-11-17T14:07:46Z",
     "discovered_at": "2026-10-03T14:21:09.179Z",
     "official": false
   },
@@ -42460,7 +42460,7 @@
     "license": null,
     "created_at": "2026-04-16T11:26:51Z",
     "updated_at": "2026-11-12T15:42:27Z",
-    "pushed_at": "2026-11-17T00:24:06Z",
+    "pushed_at": "2026-11-17T16:28:14Z",
     "discovered_at": "2026-11-01T00:54:44.248Z",
     "official": false
   },
@@ -42529,7 +42529,7 @@
     "license": "MIT",
     "created_at": "2026-11-01T01:34:22Z",
     "updated_at": "2026-11-16T15:05:06Z",
-    "pushed_at": "2026-11-17T11:56:51Z",
+    "pushed_at": "2026-11-17T16:49:30Z",
     "discovered_at": "2026-11-01T12:43:52.373Z",
     "official": false
   },
@@ -43562,7 +43562,7 @@
     "license": null,
     "created_at": "2026-04-14T16:50:18Z",
     "updated_at": "2026-11-15T10:54:34Z",
-    "pushed_at": "2026-11-17T00:31:28Z",
+    "pushed_at": "2026-11-17T16:23:21Z",
     "discovered_at": "2026-11-12T18:44:10.996Z",
     "official": false
   },
@@ -43978,7 +43978,7 @@
   "heyoub/brass-lasers": {
     "name": "heyoub/brass-lasers",
     "url": "https://github.com/heyoub/brass-lasers",
-    "description": "Brass Lasers 4AM — void-purple dark theme for VS Code, Cursor, and T3 Code",
+    "description": "Nine color themes, one for every hour of the festival: neon synthwave to biophilic, matte to liquid metal. VS Code, Cursor, Zed, Neovim, JetBrains, terminals and more. Contrast-checked.",
     "stars": 0,
     "forks": 0,
     "topics": [
@@ -43995,12 +43995,40 @@
       "vscode-theme",
       "zed-theme"
     ],
-    "language": "Python",
+    "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-11-14T19:57:04Z",
-    "updated_at": "2026-11-17T12:14:50Z",
-    "pushed_at": "2026-11-17T12:14:46Z",
+    "updated_at": "2026-11-17T14:26:58Z",
+    "pushed_at": "2026-11-17T18:43:28Z",
     "discovered_at": "2026-11-17T12:43:56.886Z",
+    "official": false
+  },
+  "irwinarruda/lila-theme": {
+    "name": "irwinarruda/lila-theme",
+    "url": "https://github.com/irwinarruda/lila-theme",
+    "description": "Lilac on quiet grays: a lilac-led theme in two variants, Dusk and Petal, for Neovim, Vim, Zed, VS Code, Cursor, Ghostty, OpenCode, T3 Code and Herdr.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "colorscheme",
+      "cursor-theme",
+      "dark-theme",
+      "ghostty-theme",
+      "high-contrast",
+      "light-theme",
+      "neovim-colorscheme",
+      "opencode",
+      "theme",
+      "vim-colorscheme",
+      "vscode-theme",
+      "zed-theme"
+    ],
+    "language": "TypeScript",
+    "license": "MIT",
+    "created_at": "2026-11-17T13:42:53Z",
+    "updated_at": "2026-11-17T13:43:04Z",
+    "pushed_at": "2026-11-17T13:47:18Z",
+    "discovered_at": "2026-11-17T18:44:14.071Z",
     "official": false
   }
 }

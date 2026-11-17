@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1946** |
 | In official registry | 1365 |
 | Discovered via topics | 581 |
-| Last updated | 2026-11-17 12:43 UTC |
+| Last updated | 2026-11-17 18:44 UTC |
 
 ### By capability
 
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-11-17T18:44 | 1 | 763 | 2476 |
 | 2026-11-17T12:43 | 1 | 762 | 2475 |
 | 2026-11-17T06:46 | 2 | 760 | 2474 |
 | 2026-11-17T00:52 | 2 | 759 | 2473 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-11-16T00:57 | 1 | 758 | 2470 |
 | 2026-11-15T18:44 | 0 | 758 | 2469 |
 | 2026-11-15T12:44 | 0 | 758 | 2469 |
-| 2026-11-15T06:43 | 3 | 755 | 2469 |
 
 ---
 
