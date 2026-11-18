@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1946-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1947-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,17 +14,17 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1946** |
+| Total tracked | **1947** |
 | In official registry | 1365 |
-| Discovered via topics | 581 |
-| Last updated | 2026-11-17 18:44 UTC |
+| Discovered via topics | 582 |
+| Last updated | 2026-11-18 00:52 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
 | Themes | 836 |
-| Grammars | 666 |
+| Grammars | 667 |
 | Language Servers | 631 |
 | Context Servers | 150 |
 | Snippets | 97 |
@@ -70,6 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [gracien-app/zed-usd-ext](https://github.com/gracien-app/zed-usd-ext) | 0 | Extension for Zed editor introducing support for Universal Scene Description fil... |
 | [caozeal/zed-endpoint-nav](https://github.com/caozeal/zed-endpoint-nav) | 0 | 把 Spring / FastAPI / MCP 的请求映射当作符号，喂给 Zed 的 Cmd+T（Go to Symbol in Project） |
 | [datarip/mixtape-theme-zed](https://github.com/datarip/mixtape-theme-zed) | 0 | A 65-theme collection for Zed in eight families: 55 dark and 10 light. |
 | [goncalompontes/zed-mest](https://github.com/goncalompontes/zed-mest) | 0 | Zed editor support for the Mest programming language |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [koroblabs/phrost-zed](https://github.com/koroblabs/phrost-zed) | 0 | phrost for Zed: a fast, lean PHP language server with strict types and Drupal an... |
 | [koroblabs/orthra-zed](https://github.com/koroblabs/orthra-zed) | 0 | orthra for Zed: fast, quiet spell checking for code and prose. Downloads the ort... |
 | [heritage-themes/heritage-themes-zed](https://github.com/heritage-themes/heritage-themes-zed) | 0 |  |
-| [yathink3/carbon-react-color-theme-zed](https://github.com/yathink3/carbon-react-color-theme-zed) | 0 |  |
 
 ## Top starred (under 500)
 
@@ -120,8 +120,8 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 1 | 2026-11-18 | Zed extension that formats and lints HTML templates with djL... |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 3 | 2026-11-17 | Local-first code intelligence over MCP: BM25/FTS5 + AST grap... |
-| [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 1 | 2026-11-17 | Zed extension that formats and lints HTML templates with djL... |
 | [caozeal/zed-endpoint-nav](https://github.com/caozeal/zed-endpoint-nav) | 0 | 2026-11-17 | 把 Spring / FastAPI / MCP 的请求映射当作符号，喂给 Zed 的 Cmd+T（Go to Symb... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 103 | 2026-11-17 | True Dark Theme for Zed IDE |
 | [felixtensor/zed-mlir](https://github.com/felixtensor/zed-mlir) | 11 | 2026-11-17 | MLIR Extension for Zed |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-11-18T00:52 | 2 | 764 | 2478 |
 | 2026-11-17T18:44 | 1 | 763 | 2476 |
 | 2026-11-17T12:43 | 1 | 762 | 2475 |
 | 2026-11-17T06:46 | 2 | 760 | 2474 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-11-16T07:00 | 1 | 759 | 2471 |
 | 2026-11-16T00:57 | 1 | 758 | 2470 |
 | 2026-11-15T18:44 | 0 | 758 | 2469 |
-| 2026-11-15T12:44 | 0 | 758 | 2469 |
 
 ---
 
