@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1947** |
 | In official registry | 1365 |
 | Discovered via topics | 582 |
-| Last updated | 2026-11-18 00:52 UTC |
+| Last updated | 2026-11-18 06:46 UTC |
 
 ### By capability
 
@@ -70,7 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
-| [gracien-app/zed-usd-ext](https://github.com/gracien-app/zed-usd-ext) | 0 | Extension for Zed editor introducing support for Universal Scene Description fil... |
+| [cutie-full-of-charm/zed-ats2](https://github.com/cutie-full-of-charm/zed-ats2) | 0 | ATS2 (Applied Type System 2) syntax highlighting for the Zed editor. Supports .d... |
 | [caozeal/zed-endpoint-nav](https://github.com/caozeal/zed-endpoint-nav) | 0 | 把 Spring / FastAPI / MCP 的请求映射当作符号，喂给 Zed 的 Cmd+T（Go to Symbol in Project） |
 | [datarip/mixtape-theme-zed](https://github.com/datarip/mixtape-theme-zed) | 0 | A 65-theme collection for Zed in eight families: 55 dark and 10 light. |
 | [goncalompontes/zed-mest](https://github.com/goncalompontes/zed-mest) | 0 | Zed editor support for the Mest programming language |
@@ -120,8 +120,10 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [ChemisTechlabs/zed-pascal](https://github.com/ChemisTechlabs/zed-pascal) | 18 | 2026-11-18 | A Pascal language extension for Zed Editor |
+| [cutie-full-of-charm/zed-ats2](https://github.com/cutie-full-of-charm/zed-ats2) | 0 | 2026-11-18 | ATS2 (Applied Type System 2) syntax highlighting for the Zed... |
+| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 3 | 2026-11-18 | Local-first code intelligence over MCP: BM25/FTS5 + AST grap... |
 | [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 1 | 2026-11-18 | Zed extension that formats and lints HTML templates with djL... |
-| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 3 | 2026-11-17 | Local-first code intelligence over MCP: BM25/FTS5 + AST grap... |
 | [caozeal/zed-endpoint-nav](https://github.com/caozeal/zed-endpoint-nav) | 0 | 2026-11-17 | 把 Spring / FastAPI / MCP 的请求映射当作符号，喂给 Zed 的 Cmd+T（Go to Symb... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 103 | 2026-11-17 | True Dark Theme for Zed IDE |
 | [felixtensor/zed-mlir](https://github.com/felixtensor/zed-mlir) | 11 | 2026-11-17 | MLIR Extension for Zed |
@@ -138,13 +140,12 @@ cd website && npm install && npm run dev
 | [0xdea/monokaiju-theme](https://github.com/0xdea/monokaiju-theme) | 2 | 2026-11-16 | A Zed theme inspired by Monokai Pro (CE). |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-11-16 | A Zed extension that allows to highlight all occurrences of ... |
 | [wiroai/Wiro-Zed](https://github.com/wiroai/Wiro-Zed) | 0 | 2026-11-16 | Wiro AI MCP server for the Zed editor: search, price and run... |
-| [qwecold/zed-pixel-icon](https://github.com/qwecold/zed-pixel-icon) | 1 | 2026-11-15 | Pixel-art file and folder icons for the Zed project panel. |
-| [adrijshikhar/zed-htmx](https://github.com/adrijshikhar/zed-htmx) | 0 | 2026-11-15 | HTMX 2.0 language server extension for the Zed editor, power... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-11-18T06:46 | 1 | 765 | 2478 |
 | 2026-11-18T00:52 | 2 | 764 | 2478 |
 | 2026-11-17T18:44 | 1 | 763 | 2476 |
 | 2026-11-17T12:43 | 1 | 762 | 2475 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-11-16T12:56 | 0 | 759 | 2471 |
 | 2026-11-16T07:00 | 1 | 759 | 2471 |
 | 2026-11-16T00:57 | 1 | 758 | 2470 |
-| 2026-11-15T18:44 | 0 | 758 | 2469 |
 
 ---
 

@@ -3218,7 +3218,7 @@
     "url": "https://github.com/ChemisTechlabs/zed-pascal",
     "description": "A Pascal language extension for Zed Editor",
     "stars": 18,
-    "forks": 4,
+    "forks": 5,
     "topics": [
       "pascal",
       "syntax-highlighting",
@@ -3228,8 +3228,8 @@
     "language": "Tree-sitter Query",
     "license": "BSD-3-Clause",
     "created_at": "2025-10-08T00:37:21Z",
-    "updated_at": "2026-11-16T21:16:27Z",
-    "pushed_at": "2026-07-07T03:45:07Z",
+    "updated_at": "2026-11-18T05:38:36Z",
+    "pushed_at": "2026-11-18T06:30:39Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -15305,7 +15305,7 @@
     "name": "agent-sh/agnix",
     "url": "https://github.com/agent-sh/agnix",
     "description": "The missing linter and lsp for AI coding assistants. Validate CLAUDE.md, AGENTS.md, SKILL.md, hooks, MCP. Plugin for all major IDEs included, with autofixes.",
-    "stars": 487,
+    "stars": 488,
     "forks": 35,
     "topics": [
       "agent",
@@ -15332,7 +15332,7 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
-    "updated_at": "2026-11-17T20:23:18Z",
+    "updated_at": "2026-11-18T06:32:03Z",
     "pushed_at": "2026-11-15T09:52:33Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
@@ -17897,7 +17897,7 @@
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
     "updated_at": "2026-11-12T13:44:32Z",
-    "pushed_at": "2026-11-17T18:44:41Z",
+    "pushed_at": "2026-11-18T00:53:27Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -31921,7 +31921,7 @@
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
     "updated_at": "2026-11-12T19:03:45Z",
-    "pushed_at": "2026-11-17T22:01:22Z",
+    "pushed_at": "2026-11-18T03:10:22Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false
   },
@@ -34100,7 +34100,7 @@
     "name": "pleahmacaka/zed-batch",
     "url": "https://github.com/pleahmacaka/zed-batch",
     "description": "Windows Batch (.bat, .cmd) support",
-    "stars": 5,
+    "stars": 6,
     "forks": 1,
     "topics": [
       "zed",
@@ -34110,7 +34110,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-08-04T05:39:07Z",
-    "updated_at": "2026-10-14T09:21:41Z",
+    "updated_at": "2026-11-18T06:13:57Z",
     "pushed_at": "2026-10-14T09:21:37Z",
     "discovered_at": "2026-08-08T18:56:57.472Z",
     "official": true
@@ -39785,7 +39785,7 @@
     "license": null,
     "created_at": "2026-09-04T07:49:15Z",
     "updated_at": "2026-11-12T12:55:25Z",
-    "pushed_at": "2026-11-17T21:16:25Z",
+    "pushed_at": "2026-11-18T05:58:55Z",
     "discovered_at": "2026-09-30T12:59:15.249Z",
     "official": false
   },
@@ -41436,7 +41436,7 @@
     "license": "MIT",
     "created_at": "2026-10-20T14:21:20Z",
     "updated_at": "2026-11-04T09:50:57Z",
-    "pushed_at": "2026-11-17T11:15:15Z",
+    "pushed_at": "2026-11-18T06:32:22Z",
     "discovered_at": "2026-10-20T18:50:37.100Z",
     "official": false
   },
@@ -42830,7 +42830,7 @@
     "license": "MIT",
     "created_at": "2026-11-02T16:43:40Z",
     "updated_at": "2026-11-10T10:55:36Z",
-    "pushed_at": "2026-11-17T05:28:03Z",
+    "pushed_at": "2026-11-18T05:27:57Z",
     "discovered_at": "2026-11-04T18:44:22.632Z",
     "official": false
   },
@@ -43157,7 +43157,7 @@
     "license": "MIT",
     "created_at": "2026-11-02T13:18:49Z",
     "updated_at": "2026-11-16T17:16:31Z",
-    "pushed_at": "2026-11-17T03:20:47Z",
+    "pushed_at": "2026-11-18T02:41:52Z",
     "discovered_at": "2026-11-07T06:44:02.081Z",
     "official": false
   },
@@ -43999,7 +43999,7 @@
     "license": "MIT",
     "created_at": "2026-11-14T19:57:04Z",
     "updated_at": "2026-11-17T14:26:58Z",
-    "pushed_at": "2026-11-17T19:10:13Z",
+    "pushed_at": "2026-11-18T02:00:08Z",
     "discovered_at": "2026-11-17T12:43:56.886Z",
     "official": false
   },
@@ -44031,26 +44031,6 @@
     "discovered_at": "2026-11-17T18:44:14.071Z",
     "official": false
   },
-  "gracien-app/zed-usd-ext": {
-    "name": "gracien-app/zed-usd-ext",
-    "url": "https://github.com/gracien-app/zed-usd-ext",
-    "description": "Extension for Zed editor introducing support for Universal Scene Description files.",
-    "stars": 0,
-    "forks": 0,
-    "topics": [
-      "universal-scene-description",
-      "usd",
-      "usda",
-      "zed-extension"
-    ],
-    "language": "Scheme",
-    "license": null,
-    "created_at": "2024-05-11T22:54:22Z",
-    "updated_at": "2024-05-12T11:26:13Z",
-    "pushed_at": "2024-05-12T11:02:50Z",
-    "discovered_at": "2026-11-18T00:52:50.176Z",
-    "official": false
-  },
   "omarpr/openorchestra": {
     "name": "omarpr/openorchestra",
     "url": "https://github.com/omarpr/openorchestra",
@@ -44080,8 +44060,29 @@
     "license": "GPL-3.0",
     "created_at": "2026-07-19T22:08:43Z",
     "updated_at": "2026-11-18T00:47:24Z",
-    "pushed_at": "2026-11-18T00:43:59Z",
+    "pushed_at": "2026-11-18T02:38:26Z",
     "discovered_at": "2026-11-18T00:52:50.176Z",
+    "official": false
+  },
+  "cutie-full-of-charm/zed-ats2": {
+    "name": "cutie-full-of-charm/zed-ats2",
+    "url": "https://github.com/cutie-full-of-charm/zed-ats2",
+    "description": "ATS2 (Applied Type System 2) syntax highlighting for the Zed editor. Supports .dats, .sats, .hats files",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "ats",
+      "ats2",
+      "syntax-highlighting",
+      "tree-sitter",
+      "zed-extension"
+    ],
+    "language": "C",
+    "license": "MPL-2.0",
+    "created_at": "2026-11-18T04:14:34Z",
+    "updated_at": "2026-11-18T05:03:34Z",
+    "pushed_at": "2026-11-18T05:13:19Z",
+    "discovered_at": "2026-11-18T06:46:34.082Z",
     "official": false
   }
 }

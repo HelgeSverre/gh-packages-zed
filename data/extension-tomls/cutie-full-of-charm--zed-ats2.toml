@@ -1,0 +1,10 @@
+id = "ats2"
+name = "ATS2"
+version = "0.2.0"
+schema_version = 3
+authors = ["Local"]
+description = "ATS2 syntax highlighting"
+
+[grammars.ats2]
+repository = "https://github.com/cutie-full-of-charm/zed-ats2"
+rev = "4fe15bfdf72ea3f86f1193ea08f0f13d62dca971"

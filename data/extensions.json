@@ -4963,7 +4963,7 @@
     "url": "https://github.com/ChemisTechlabs/zed-pascal",
     "description": "A Pascal language extension for Zed Editor",
     "stars": 18,
-    "forks": 4,
+    "forks": 5,
     "topics": [
       "pascal",
       "syntax-highlighting",
@@ -4973,8 +4973,8 @@
     "language": "Tree-sitter Query",
     "license": "BSD-3-Clause",
     "created_at": "2025-10-08T00:37:21Z",
-    "updated_at": "2026-11-16T21:16:27Z",
-    "pushed_at": "2026-07-07T03:45:07Z",
+    "updated_at": "2026-11-18T05:38:36Z",
+    "pushed_at": "2026-11-18T06:30:39Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -53562,7 +53562,7 @@
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
     "updated_at": "2026-11-12T19:03:45Z",
-    "pushed_at": "2026-11-17T22:01:22Z",
+    "pushed_at": "2026-11-18T03:10:22Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false,
     "extension": {
@@ -56663,7 +56663,7 @@
     "name": "pleahmacaka/zed-batch",
     "url": "https://github.com/pleahmacaka/zed-batch",
     "description": "Windows Batch (.bat, .cmd) support",
-    "stars": 5,
+    "stars": 6,
     "forks": 1,
     "topics": [
       "zed",
@@ -56673,7 +56673,7 @@
     "language": "Rust",
     "license": "MIT",
     "created_at": "2026-08-04T05:39:07Z",
-    "updated_at": "2026-10-14T09:21:41Z",
+    "updated_at": "2026-11-18T06:13:57Z",
     "pushed_at": "2026-10-14T09:21:37Z",
     "discovered_at": "2026-08-08T18:56:57.472Z",
     "official": true,
@@ -67423,35 +67423,36 @@
       ]
     }
   },
-  "gracien-app/zed-usd-ext": {
-    "name": "gracien-app/zed-usd-ext",
-    "url": "https://github.com/gracien-app/zed-usd-ext",
-    "description": "Extension for Zed editor introducing support for Universal Scene Description files.",
+  "cutie-full-of-charm/zed-ats2": {
+    "name": "cutie-full-of-charm/zed-ats2",
+    "url": "https://github.com/cutie-full-of-charm/zed-ats2",
+    "description": "ATS2 (Applied Type System 2) syntax highlighting for the Zed editor. Supports .dats, .sats, .hats files",
     "stars": 0,
     "forks": 0,
     "topics": [
-      "universal-scene-description",
-      "usd",
-      "usda",
+      "ats",
+      "ats2",
+      "syntax-highlighting",
+      "tree-sitter",
       "zed-extension"
     ],
-    "language": "Scheme",
-    "license": null,
-    "created_at": "2024-05-11T22:54:22Z",
-    "updated_at": "2024-05-12T11:26:13Z",
-    "pushed_at": "2024-05-12T11:02:50Z",
-    "discovered_at": "2026-11-18T00:52:50.176Z",
+    "language": "C",
+    "license": "MPL-2.0",
+    "created_at": "2026-11-18T04:14:34Z",
+    "updated_at": "2026-11-18T05:03:34Z",
+    "pushed_at": "2026-11-18T05:13:19Z",
+    "discovered_at": "2026-11-18T06:46:34.082Z",
     "official": false,
     "extension": {
-      "id": "usd-ext",
-      "name": "Universal Scene Description",
-      "description": "Syntax highlighting for Pixar's Universal Scene Description (USD).",
-      "version": "0.0.1",
-      "schema_version": 1,
+      "id": "ats2",
+      "name": "ATS2",
+      "description": "ATS2 syntax highlighting",
+      "version": "0.2.0",
+      "schema_version": 3,
       "authors": [
-        "Gracien <gracien.app@icloud.com>"
+        "Local"
       ],
-      "repository": "https://github.com/gracien-app/zed-usd-ext",
+      "repository": null,
       "snippets": null,
       "sections": [
         "grammars"
