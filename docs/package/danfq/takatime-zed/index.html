@@ -1,0 +1,266 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>TakaTime - Zed Extension Safari</title><meta name="description" content="takatime extension for zed"><link rel="canonical" href="https://helgesverre.github.io/gh-packages-zed/package/danfq/takatime-zed/"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="TakaTime - Zed Extension Safari"><meta property="og:description" content="takatime extension for zed"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed/package/danfq/takatime-zed/"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="TakaTime - Zed Extension Safari"><meta name="twitter:description" content="takatime extension for zed"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/gh-packages-zed/_astro/ClientRouter.astro_astro_type_script_index_0_lang.ClVLs1kt.js"></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"TakaTime","description":"takatime extension for zed","applicationCategory":"DeveloperApplication","operatingSystem":"macOS, Linux, Windows","url":"https://zed.dev/extensions/takatime","codeRepository":"https://github.com/danfq/takatime-zed","author":[{"@type":"Person","name":"DanFQ"}],"softwareVersion":"1.0.1","license":"GPL-3.0","keywords":"language-server","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/Layout.CGDlMdWE.css"><script type="module" src="/gh-packages-zed/_astro/page.B8i1Zz-u.js"></script></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <a href="#main" class="skip-to-content">Skip to content</a> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" data-astro-transition-persist="astro-fhchcgd7-1"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <script type="application/json" id="pkg-extras">{"url":"https://github.com/danfq/takatime-zed","language":"TypeScript","license":"GPL-3.0","topics":["developer-tools","lsp","stats","takatime","tracking","zed","zed-editor","zed-extension"],"extension":{"authors":["DanFQ"],"schema_version":1}}</script> <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> danfq/takatime-zed </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> TakaTime </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> Track your coding time with TakaTime. </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="language-server">Language Server</span> </div> </div> </div> </header> <main id="main" class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/takatime" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/danfq/takatime-zed" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1.0.1</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">takatime</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">TypeScript</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">GPL-3.0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">2h ago</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">DanFQ</dd> </div> </dl>  <h2 class="mt-5 text-xs uppercase font-mono" style="color:var(--zed-muted);">Topics</h2> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> developer-tools </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> lsp </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> stats </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> takatime </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> tracking </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed-editor </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed-extension </span> </div>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><div align="center">
+<img width="160" alt="TakaTime" src="https://raw.githubusercontent.com/Rtarun3606k/TakaTime/main/public/TakatimeLogo.png">
+<h1 id="user-content-takatime-for-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#takatime-for-zed"><span class="heading-anchor-icon">#</span></a>TakaTime for Zed</h1>
+<p><strong>Self-hosted coding time tracking for <a href="https://zed.dev">Zed</a>, powered by <a href="https://github.com/Rtarun3606k/TakaTime">TakaTime</a>.</strong></p>
+<p>Your editor, your database, your data.</p>
+<br>
+<p><a href="https://www.npmjs.com/package/takatime-ls"><img src="https://img.shields.io/npm/v/takatime-ls?style=for-the-badge&#x26;logo=npm&#x26;logoColor=white&#x26;label=takatime-ls&#x26;color=CB3837" alt="npm"></a>
+<a href="https://github.com/danfq/takatime-zed/blob/HEAD/LICENSE" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/License-GPL--3.0--only-blue?style=for-the-badge" alt="License"></a>
+<a href="https://zed.dev/extensions"><img src="https://img.shields.io/badge/Zed-Extension-084CCF?style=for-the-badge&#x26;logo=zedindustries&#x26;logoColor=white" alt="Zed"></a></p>
+<p><img src="https://img.shields.io/badge/Rust-000000?style=flat-square&#x26;logo=rust&#x26;logoColor=white" alt="Rust">
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&#x26;logo=typescript&#x26;logoColor=white" alt="TypeScript">
+<img src="https://img.shields.io/badge/Bun-000000?style=flat-square&#x26;logo=bun&#x26;logoColor=white" alt="Bun">
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&#x26;logo=mongodb&#x26;logoColor=white" alt="MongoDB"></p>
+</div>
+<br>
+<h2 id="user-content--features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-features"><span class="heading-anchor-icon">#</span></a>✨ Features</h2>
+<ul>
+<li><strong>Zero setup in Zed:</strong> install the extension, point it at a MongoDB and start coding.</li>
+<li><strong>Accurate time:</strong> counts the real time between your edits and skips idle gaps, instead of crediting a fixed block per keystroke.</li>
+<li><strong>Every language:</strong> tracks any file Zed can open, from Rust to Markdown.</li>
+<li><strong>Self-hosted:</strong> heartbeats go straight to your own MongoDB, nothing passes through a third party.</li>
+<li><strong>Shared setup:</strong> uses the same <code>~/.takatime.json</code> and binaries as the TakaTime plugins for VS Code, JetBrains and Neovim.</li>
+<li><strong>Offline friendly:</strong> failed uploads are retried, and setup quietly retries in the background until you're back online.</li>
+<li><strong>Always up to date:</strong> new upstream TakaTime releases are picked up automatically.</li>
+</ul>
+<h2 id="user-content--requirements"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-requirements"><span class="heading-anchor-icon">#</span></a>📋 Requirements</h2>
+<ul>
+<li><a href="https://zed.dev">Zed</a></li>
+<li>A MongoDB instance, local or hosted (see <a href="#-setting-up-mongodb">Setting up MongoDB</a>)</li>
+<li>One of the supported platforms:</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Platform</th><th>Architecture</th></tr></thead><tbody><tr><td>Linux</td><td>x64</td></tr><tr><td>macOS</td><td>x64, Apple Silicon</td></tr><tr><td>Windows</td><td>x64, ARM64 (through x64 emulation)</td></tr></tbody></table>
+<h2 id="user-content--installation"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-installation"><span class="heading-anchor-icon">#</span></a>🚀 Installation</h2>
+<ol>
+<li>Open Zed's extensions page (<code>zed: extensions</code>).</li>
+<li>Search for <strong>TakaTime</strong> and click <strong>Install</strong>.</li>
+<li>Open any file. TakaTime creates <code>~/.takatime.json</code> and asks you to set your MongoDB URI.</li>
+</ol>
+<h2 id="user-content-️-configuration"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#️-configuration"><span class="heading-anchor-icon">#</span></a>⚙️ Configuration</h2>
+<p>TakaTime reads its settings from <code>~/.takatime.json</code>, shared with every other TakaTime plugin:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "MONGO_URI"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"mongodb://user:password@your-host:27017/takatime?authSource=takatime"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "VERSION"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"v2.3.1"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Key</th><th>Description</th></tr></thead><tbody><tr><td><code>MONGO_URI</code></td><td>Your MongoDB connection string (<code>mongodb://</code> or <code>mongodb+srv://</code>).</td></tr><tr><td><code>VERSION</code></td><td>The TakaTime binary version in use. Managed automatically, no need to touch it.</td></tr></tbody></table>
+<p>Changes are picked up within a few seconds, without restarting Zed.</p>
+<div class="markdown-alert markdown-alert-tip" dir="auto">
+<p class="markdown-alert-title" dir="auto"><svg class="octicon" viewBox="0 0 16 16" width="16" height="16"><path d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 0 1-1.484.211c-.04-.282-.163-.547-.37-.847a8.456 8.456 0 0 0-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.751.751 0 0 1-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75ZM5.75 12h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5ZM6 15.25a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 0 1.5h-2.5a.75.75 0 0 1-.75-.75Z"></path></svg>TIP</p>
+<p>TakaTime always writes to the <code>takatime</code> database. Give it a dedicated user with the <code>readWrite</code> role on that database instead of your admin credentials.</p>
+</div>
+<h2 id="user-content-️-setting-up-mongodb"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#️-setting-up-mongodb"><span class="heading-anchor-icon">#</span></a>🗄️ Setting up MongoDB</h2>
+<details>
+<summary><b>Local, with Docker</b></summary>
+<br>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">docker</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> run</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -d</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --name</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> takatime-mongo</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --restart</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> unless-stopped</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  -p</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> 127.0.0.1:27017:27017</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -v</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> takatime-mongo:/data/db</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> mongo:8</span></span></code></pre>
+<p>Then set <code>"MONGO_URI": "mongodb://localhost:27017"</code>.</p>
+</details>
+<details>
+<summary><b>Self-hosted, on a VPS</b></summary>
+<br>
+<ol>
+<li>
+<p>Create a MongoDB instance (for example as a <a href="https://coolify.io">Coolify</a> database resource) and expose it on a non-default port.</p>
+</li>
+<li>
+<p>Restrict that port to your own IPs with your provider's firewall, or reach it through a VPN such as Tailscale. Docker-published ports bypass <code>ufw</code>.</p>
+</li>
+<li>
+<p>Create a dedicated user:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">mongosh</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> "&#x3C;admin connection string>"</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --eval</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> '</span></span>
+<span class="line"><span style="color:#032F62;--shiki-dark:#9ECBFF">  db.getSiblingDB("takatime").createUser({</span></span>
+<span class="line"><span style="color:#032F62;--shiki-dark:#9ECBFF">    user: "takatime",</span></span>
+<span class="line"><span style="color:#032F62;--shiki-dark:#9ECBFF">    pwd: "&#x3C;long random password>",</span></span>
+<span class="line"><span style="color:#032F62;--shiki-dark:#9ECBFF">    roles: [{ role: "readWrite", db: "takatime" }]</span></span>
+<span class="line"><span style="color:#032F62;--shiki-dark:#9ECBFF">  })'</span></span></code></pre>
+</li>
+<li>
+<p>Use <code>mongodb://takatime:&#x3C;password>@&#x3C;host>:&#x3C;port>/takatime?authSource=takatime</code>, percent-encoding any special characters in the password.</p>
+</li>
+</ol>
+</details>
+<details>
+<summary><b>Hosted, with MongoDB Atlas</b></summary>
+<br>
+<p>Create a free cluster on <a href="https://www.mongodb.com/atlas">MongoDB Atlas</a>, add a database user and copy the <code>mongodb+srv://</code> connection string it gives you.</p>
+</details>
+<h2 id="user-content--dashboard"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-dashboard"><span class="heading-anchor-icon">#</span></a>📊 Dashboard</h2>
+<p>TakaTime comes with a terminal dashboard. Add it as a Zed task in <code>~/.config/zed/tasks.json</code>:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">[</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "label"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"TakaTime: Dashboard"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "command"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"~/.takatime/bin/taka-dashboard-$(jq -r .VERSION ~/.takatime.json) -MongoDBString </span><span style="color:#005CC5;--shiki-dark:#79B8FF">\"</span><span style="color:#032F62;--shiki-dark:#9ECBFF">$(jq -r .MONGO_URI ~/.takatime.json)</span><span style="color:#005CC5;--shiki-dark:#79B8FF">\"</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "use_new_terminal"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">true</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "allow_concurrent_runs"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">false</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "reveal"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"always"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span></code></pre>
+<p>Then run <code>task: spawn</code> and pick <strong>TakaTime: Dashboard</strong>. Add <code>-theme</code> with <code>dark</code>, <code>light</code>, <code>dracula</code>, <code>nord</code>, <code>gruvbox</code>, <code>monokai</code> or <code>cyberpunk</code> to change its look.</p>
+<div class="markdown-alert markdown-alert-note" dir="auto">
+<p class="markdown-alert-title" dir="auto"><svg class="octicon" viewBox="0 0 16 16" width="16" height="16"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>NOTE</p>
+<p>The task uses <a href="https://jqlang.org"><code>jq</code></a> to read your config, so the URI never has to live in <code>tasks.json</code>.</p>
+</div>
+<h2 id="user-content--how-it-works"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-how-it-works"><span class="heading-anchor-icon">#</span></a>🔍 How it works</h2>
+<p>Zed extensions run in a WebAssembly sandbox with no access to editor events, so TakaTime registers a small language server for every language and tracks activity from there.</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">flowchart LR</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    zed["Zed"] -- "LSP over stdio" --> ls["takatime-ls&#x3C;br/>(Node)"]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    ls -- "spawns" --> upload["taka-upload&#x3C;br/>(Go)"]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    upload -- "inserts" --> mongo[("MongoDB")]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    dashboard["taka-dashboard&#x3C;br/>(Go)"] -- "reads" --> mongo</span></span></code></pre>
+<ol>
+<li>The extension installs <a href="https://www.npmjs.com/package/takatime-ls"><code>takatime-ls</code></a> from npm and runs it on Zed's bundled Node.</li>
+<li>On first run, <code>takatime-ls</code> downloads the pinned TakaTime binaries into <code>~/.takatime/bin</code>.</li>
+<li>Every edit and save adds the time since your last activity, skipping gaps longer than 2 minutes.</li>
+<li>Tracked time is uploaded through <code>taka-upload</code> every minute, when you switch files and when Zed shuts down.</li>
+</ol>
+<h3 id="user-content-what-gets-sent"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#what-gets-sent"><span class="heading-anchor-icon">#</span></a>What gets sent</h3>
+<p>Only the file path, project name, duration, editor name and timestamp. <strong>File contents are never read or sent.</strong></p>
+<h2 id="user-content--troubleshooting"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-troubleshooting"><span class="heading-anchor-icon">#</span></a>🩺 Troubleshooting</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Problem</th><th>Fix</th></tr></thead><tbody><tr><td>"Set MONGO_URI" notification</td><td>Add your connection string to <code>~/.takatime.json</code>.</td></tr><tr><td>"Isn't a valid MongoDB connection string"</td><td>The URI must start with <code>mongodb://</code> or <code>mongodb+srv://</code>.</td></tr><tr><td>"Couldn't install binaries"</td><td>Check your connection. TakaTime retries every 5 minutes on its own.</td></tr><tr><td>No time showing up</td><td>Run <code>dev: open language server logs</code>, pick <code>takatime</code> and look for <code>takatime active</code>.</td></tr></tbody></table>
+<h2 id="user-content-️-development"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#️-development"><span class="heading-anchor-icon">#</span></a>🛠️ Development</h2>
+<h3 id="user-content-prerequisites"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#prerequisites"><span class="heading-anchor-icon">#</span></a>Prerequisites</h3>
+<ul>
+<li><a href="https://rustup.rs">Rust</a> installed through <code>rustup</code> (Zed needs it to compile dev extensions)</li>
+<li><a href="https://bun.sh">Bun</a></li>
+</ul>
+<h3 id="user-content-project-layout"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#project-layout"><span class="heading-anchor-icon">#</span></a>Project layout</h3>
+<pre><code>takatime-zed/
+├── extension.toml       # Zed extension manifest
+├── src/lib.rs           # WASM shim: installs and launches takatime-ls
+├── takatime-ls/         # the language server, published to npm
+│   └── src/
+│       ├── server.ts    # LSP entry
+│       └── lib/         # config, setup, binaries and heartbeats
+└── scripts/             # release tooling
+</code></pre>
+<h3 id="user-content-running-locally"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#running-locally"><span class="heading-anchor-icon">#</span></a>Running locally</h3>
+<ol>
+<li>
+<p>Build the language server:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">cd</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> takatime-ls</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">bun</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> install</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">bun</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> run</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> build</span></span></code></pre>
+</li>
+<li>
+<p>Point Zed at your local build in <code>settings.json</code>:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#032F62;--shiki-dark:#9ECBFF">"lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "takatime"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "binary"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "path"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"node"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "arguments"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"/absolute/path/to/takatime-ls/dist/server.js"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"--stdio"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+</li>
+<li>
+<p>Run <code>zed: install dev extension</code> and pick this folder.</p>
+</li>
+</ol>
+<p>Logs from the language server show up under <code>dev: open language server logs</code>.</p>
+<h3 id="user-content-releasing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#releasing"><span class="heading-anchor-icon">#</span></a>Releasing</h3>
+<p>Versions are kept in sync across <code>extension.toml</code>, <code>Cargo.toml</code>, <code>Cargo.lock</code> and <code>takatime-ls/package.json</code>:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">scripts/bump-version.sh</span><span style="color:#D73A49;--shiki-dark:#F97583"> &#x3C;</span><span style="color:#032F62;--shiki-dark:#9ECBFF">patch</span><span style="color:#D73A49;--shiki-dark:#F97583">|</span><span style="color:#6F42C1;--shiki-dark:#B392F0">minor</span><span style="color:#D73A49;--shiki-dark:#F97583">|</span><span style="color:#6F42C1;--shiki-dark:#B392F0">major</span><span style="color:#D73A49;--shiki-dark:#F97583">|</span><span style="color:#6F42C1;--shiki-dark:#B392F0">x.y.z</span><span style="color:#24292E;--shiki-dark:#E1E4E8">></span></span></code></pre>
+<p>Pushing a version change to <code>main</code> publishes <code>takatime-ls</code> to npm, creates a GitHub release and opens a pull request on <a href="https://github.com/zed-industries/extensions">zed-industries/extensions</a>. A daily workflow bumps the TakaTime binaries as soon as a new upstream release is fully published.</p>
+<h2 id="user-content--credits"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-credits"><span class="heading-anchor-icon">#</span></a>🙏 Credits</h2>
+<ul>
+<li><a href="https://github.com/Rtarun3606k/TakaTime">TakaTime</a> by <a href="https://github.com/Rtarun3606k">@Rtarun3606k</a>, which this extension wraps</li>
+<li><a href="https://github.com/wakatime/zed-wakatime">zed-wakatime</a>, for showing how to track time from inside Zed's sandbox</li>
+</ul>
+<h2 id="user-content--license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-license"><span class="heading-anchor-icon">#</span></a>📄 License</h2>
+<p><a href="https://github.com/danfq/takatime-zed/blob/HEAD/LICENSE" target="_blank" rel="noopener">AGPL-3.0</a></p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>

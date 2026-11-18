@@ -1,0 +1,19 @@
+id = "embedded-languages"
+name = "Embedded Languages"
+description = "Detect and highlight code inside string literals using Tree-sitter."
+version = "0.1.1"
+schema_version = 1
+authors = ["Embedded Languages contributors"]
+
+[language_servers.embedded-languages]
+name = "Embedded Languages"
+languages = ["Python", "JavaScript", "TypeScript", "TSX", "Go", "Rust", "TOML"]
+
+[language_servers.embedded-languages.language_ids]
+Python = "python"
+JavaScript = "javascript"
+TypeScript = "typescript"
+TSX = "typescriptreact"
+Go = "go"
+Rust = "rust"
+TOML = "toml"

@@ -60,7 +60,7 @@
     "license": "MIT",
     "created_at": "2026-05-03T17:39:17Z",
     "updated_at": "2026-11-08T15:27:40Z",
-    "pushed_at": "2026-11-16T09:09:10Z",
+    "pushed_at": "2026-11-18T17:29:36Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -218,7 +218,7 @@
     "license": "MIT",
     "created_at": "2024-08-27T10:31:46Z",
     "updated_at": "2026-11-13T00:33:54Z",
-    "pushed_at": "2026-11-17T01:58:08Z",
+    "pushed_at": "2026-11-18T17:03:29Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -22138,7 +22138,7 @@
     "name": "pranavmangal/zed-ssh-config",
     "url": "https://github.com/pranavmangal/zed-ssh-config",
     "description": "A Zed extension that provides syntax highlighting for SSH config files",
-    "stars": 4,
+    "stars": 5,
     "forks": 1,
     "topics": [
       "ssh-config",
@@ -22148,7 +22148,7 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2025-01-24T17:50:31Z",
-    "updated_at": "2026-09-24T14:40:03Z",
+    "updated_at": "2026-11-18T16:22:00Z",
     "pushed_at": "2026-07-26T13:46:51Z",
     "discovered_at": "2026-05-19T20:15:46.472Z",
     "official": true,
@@ -53978,7 +53978,7 @@
   "0xdea/monokaiju-theme": {
     "name": "0xdea/monokaiju-theme",
     "url": "https://github.com/0xdea/monokaiju-theme",
-    "description": "A Zed theme inspired by Monokai Pro (CE).",
+    "description": "Zed theme inspired by Monokai Pro (CE).",
     "stars": 2,
     "forks": 0,
     "topics": [
@@ -53991,7 +53991,7 @@
     "language": null,
     "license": "MIT",
     "created_at": "2026-07-12T14:12:48Z",
-    "updated_at": "2026-08-08T07:02:13Z",
+    "updated_at": "2026-11-18T15:03:37Z",
     "pushed_at": "2026-11-16T09:24:44Z",
     "discovered_at": "2026-07-12T19:03:27.403Z",
     "official": false,
@@ -55624,43 +55624,6 @@
       "sections": [],
       "categories": [
         "theme"
-      ]
-    }
-  },
-  "wlh320/zed-ext-rime-ls": {
-    "name": "wlh320/zed-ext-rime-ls",
-    "url": "https://github.com/wlh320/zed-ext-rime-ls",
-    "description": "Rime language server for Zed editor",
-    "stars": 0,
-    "forks": 0,
-    "topics": [
-      "rime",
-      "zed",
-      "zed-extension"
-    ],
-    "language": "Rust",
-    "license": null,
-    "created_at": "2024-05-06T08:58:57Z",
-    "updated_at": "2024-06-27T08:24:07Z",
-    "pushed_at": "2024-06-27T08:24:04Z",
-    "discovered_at": "2026-07-28T07:34:46.549Z",
-    "official": false,
-    "extension": {
-      "id": "rime-ls",
-      "name": "Rime language server",
-      "description": "Rime language server for zed",
-      "version": "0.0.1",
-      "schema_version": 1,
-      "authors": [
-        "ZilcH40 <wlh233@live.com>"
-      ],
-      "repository": "https://github.com/wlh320/zed-ext-rime-ls",
-      "snippets": null,
-      "sections": [
-        "language_servers"
-      ],
-      "categories": [
-        "language-server"
       ]
     }
   },
@@ -67232,11 +67195,11 @@
       "zed",
       "zed-extension"
     ],
-    "language": "Python",
+    "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-11-14T10:31:30Z",
-    "updated_at": "2026-11-15T04:15:26Z",
-    "pushed_at": "2026-11-15T04:26:14Z",
+    "updated_at": "2026-11-18T17:12:17Z",
+    "pushed_at": "2026-11-18T16:13:11Z",
     "discovered_at": "2026-11-15T06:43:55.459Z",
     "official": false,
     "extension": {
@@ -67459,6 +67422,88 @@
       ],
       "categories": [
         "grammar"
+      ]
+    }
+  },
+  "edm115/zed-embedded-languages": {
+    "name": "EDM115/zed-embedded-languages",
+    "url": "https://github.com/EDM115/zed-embedded-languages",
+    "description": "Zed extension to add syntax highlighting to any string as you type, without requiring language comments, provided you have said language's extension installed.",
+    "stars": 1,
+    "forks": 0,
+    "topics": [
+      "embedded",
+      "embedded-language",
+      "syntax-highlighting",
+      "tree-sitter",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "JavaScript",
+    "license": "MIT",
+    "created_at": "2026-11-18T16:24:24Z",
+    "updated_at": "2026-11-18T16:30:56Z",
+    "pushed_at": "2026-11-18T16:33:40Z",
+    "discovered_at": "2026-11-18T18:44:11.984Z",
+    "official": false,
+    "extension": {
+      "id": "embedded-languages",
+      "name": "Embedded Languages",
+      "description": "Detect and highlight code inside string literals using Tree-sitter.",
+      "version": "0.1.1",
+      "schema_version": 1,
+      "authors": [
+        "Embedded Languages contributors"
+      ],
+      "repository": null,
+      "snippets": null,
+      "sections": [
+        "language_servers"
+      ],
+      "categories": [
+        "language-server"
+      ]
+    }
+  },
+  "danfq/takatime-zed": {
+    "name": "danfq/takatime-zed",
+    "url": "https://github.com/danfq/takatime-zed",
+    "description": "takatime extension for zed",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "developer-tools",
+      "lsp",
+      "stats",
+      "takatime",
+      "tracking",
+      "zed",
+      "zed-editor",
+      "zed-extension"
+    ],
+    "language": "TypeScript",
+    "license": "GPL-3.0",
+    "created_at": "2026-11-18T10:02:26Z",
+    "updated_at": "2026-11-18T15:24:49Z",
+    "pushed_at": "2026-11-18T15:59:27Z",
+    "discovered_at": "2026-11-18T18:44:11.984Z",
+    "official": false,
+    "extension": {
+      "id": "takatime",
+      "name": "TakaTime",
+      "description": "Track your coding time with TakaTime.",
+      "version": "1.0.1",
+      "schema_version": 1,
+      "authors": [
+        "DanFQ <dan@danfq.dev>"
+      ],
+      "repository": "https://github.com/danfq/takatime-zed",
+      "snippets": null,
+      "sections": [
+        "language_servers"
+      ],
+      "categories": [
+        "language-server"
       ]
     }
   }
