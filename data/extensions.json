@@ -53693,7 +53693,7 @@
     "license": "MIT",
     "created_at": "2026-06-01T12:22:18Z",
     "updated_at": "2026-11-12T16:39:44Z",
-    "pushed_at": "2026-11-13T10:29:30Z",
+    "pushed_at": "2026-11-18T20:21:03Z",
     "discovered_at": "2026-07-09T13:39:01.645Z",
     "official": true,
     "extension": {
@@ -54498,7 +54498,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
     "updated_at": "2026-11-11T16:41:00Z",
-    "pushed_at": "2026-11-15T01:52:33Z",
+    "pushed_at": "2026-11-18T21:23:02Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false,
     "extension": {
@@ -66216,7 +66216,7 @@
     "name": "RenaudDenis/cursor-zed",
     "url": "https://github.com/RenaudDenis/cursor-zed",
     "description": "Cursor Dark and Cursor Light for Zed, generated from the themes that ship with Cursor",
-    "stars": 1,
+    "stars": 2,
     "forks": 0,
     "topics": [
       "color-theme",
@@ -66230,7 +66230,7 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-10-21T15:30:36Z",
-    "updated_at": "2026-11-01T12:13:33Z",
+    "updated_at": "2026-11-18T20:44:09Z",
     "pushed_at": "2026-10-28T13:10:41Z",
     "discovered_at": "2026-11-01T12:43:52.373Z",
     "official": false,
@@ -67485,7 +67485,7 @@
     "license": "GPL-3.0",
     "created_at": "2026-11-18T10:02:26Z",
     "updated_at": "2026-11-18T15:24:49Z",
-    "pushed_at": "2026-11-18T15:59:27Z",
+    "pushed_at": "2026-11-18T20:52:17Z",
     "discovered_at": "2026-11-18T18:44:11.984Z",
     "official": false,
     "extension": {
@@ -67504,6 +67504,44 @@
       ],
       "categories": [
         "language-server"
+      ]
+    }
+  },
+  "canonical/zed-cnf": {
+    "name": "canonical/zed-cnf",
+    "url": "https://github.com/canonical/zed-cnf",
+    "description": "Language support for cnf in zed",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "cnf",
+      "zed",
+      "zed-editor",
+      "zed-extension"
+    ],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2026-11-18T22:31:02Z",
+    "updated_at": "2026-11-18T23:19:57Z",
+    "pushed_at": "2026-11-18T22:42:47Z",
+    "discovered_at": "2026-11-19T00:51:11.885Z",
+    "official": false,
+    "extension": {
+      "id": "cnf",
+      "name": "cnf",
+      "description": "cnf configuration language support.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Canonical Ltd"
+      ],
+      "repository": "https://github.com/canonical/zed-cnf",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
       ]
     }
   }

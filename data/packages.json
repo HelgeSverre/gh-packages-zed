@@ -5248,7 +5248,7 @@
     "license": null,
     "created_at": "2024-08-14T22:46:54Z",
     "updated_at": "2026-11-12T01:22:04Z",
-    "pushed_at": "2026-11-12T00:22:01Z",
+    "pushed_at": "2026-11-19T00:27:46Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
   },
@@ -17885,7 +17885,7 @@
     "name": "HelgeSverre/gh-packages-zed",
     "url": "https://github.com/HelgeSverre/gh-packages-zed",
     "description": "A searchable directory of Zed editor extensions and themes — pulled from the official registry, parsed from each project's extension.toml, refreshed every 6 hours.",
-    "stars": 0,
+    "stars": 1,
     "forks": 0,
     "topics": [
       "awesome-list",
@@ -17896,8 +17896,8 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
-    "updated_at": "2026-11-12T13:44:32Z",
-    "pushed_at": "2026-11-18T12:44:37Z",
+    "updated_at": "2026-11-18T20:41:47Z",
+    "pushed_at": "2026-11-18T18:44:47Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -28823,7 +28823,7 @@
     "license": "MIT",
     "created_at": "2026-03-09T09:38:48Z",
     "updated_at": "2026-11-18T16:46:14Z",
-    "pushed_at": "2026-11-13T02:07:55Z",
+    "pushed_at": "2026-11-18T22:55:53Z",
     "discovered_at": "2026-05-25T18:33:55.225Z",
     "official": false
   },
@@ -31311,7 +31311,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-04-30T15:29:50Z",
     "updated_at": "2026-11-07T10:28:41Z",
-    "pushed_at": "2026-11-17T11:41:29Z",
+    "pushed_at": "2026-11-18T18:56:05Z",
     "discovered_at": "2026-06-26T18:36:57.330Z",
     "official": false
   },
@@ -32014,7 +32014,7 @@
     "license": "MIT",
     "created_at": "2026-06-01T12:22:18Z",
     "updated_at": "2026-11-12T16:39:44Z",
-    "pushed_at": "2026-11-13T10:29:30Z",
+    "pushed_at": "2026-11-18T20:21:03Z",
     "discovered_at": "2026-07-09T13:39:01.645Z",
     "official": true
   },
@@ -32604,7 +32604,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
     "updated_at": "2026-11-11T16:41:00Z",
-    "pushed_at": "2026-11-15T01:52:33Z",
+    "pushed_at": "2026-11-18T21:23:02Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false
   },
@@ -36778,7 +36778,7 @@
     "license": "MIT",
     "created_at": "2026-09-07T16:00:35Z",
     "updated_at": "2026-11-16T01:20:52Z",
-    "pushed_at": "2026-11-18T18:39:58Z",
+    "pushed_at": "2026-11-18T20:53:15Z",
     "discovered_at": "2026-09-07T18:46:27.369Z",
     "official": false
   },
@@ -42441,7 +42441,7 @@
     "license": null,
     "created_at": "2026-04-16T11:26:51Z",
     "updated_at": "2026-11-12T15:42:27Z",
-    "pushed_at": "2026-11-18T10:30:29Z",
+    "pushed_at": "2026-11-18T23:43:53Z",
     "discovered_at": "2026-11-01T00:54:44.248Z",
     "official": false
   },
@@ -42541,7 +42541,7 @@
     "name": "RenaudDenis/cursor-zed",
     "url": "https://github.com/RenaudDenis/cursor-zed",
     "description": "Cursor Dark and Cursor Light for Zed, generated from the themes that ship with Cursor",
-    "stars": 1,
+    "stars": 2,
     "forks": 0,
     "topics": [
       "color-theme",
@@ -42555,7 +42555,7 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-10-21T15:30:36Z",
-    "updated_at": "2026-11-01T12:13:33Z",
+    "updated_at": "2026-11-18T20:44:09Z",
     "pushed_at": "2026-10-28T13:10:41Z",
     "discovered_at": "2026-11-01T12:43:52.373Z",
     "official": false
@@ -43543,7 +43543,7 @@
     "license": null,
     "created_at": "2026-04-14T16:50:18Z",
     "updated_at": "2026-11-15T10:54:34Z",
-    "pushed_at": "2026-11-18T10:31:38Z",
+    "pushed_at": "2026-11-18T23:46:09Z",
     "discovered_at": "2026-11-12T18:44:10.996Z",
     "official": false
   },
@@ -43634,7 +43634,7 @@
     "license": "MIT",
     "created_at": "2026-11-07T12:56:15Z",
     "updated_at": "2026-11-13T18:39:30Z",
-    "pushed_at": "2026-11-09T20:19:45Z",
+    "pushed_at": "2026-11-18T20:11:57Z",
     "discovered_at": "2026-11-13T18:44:11.364Z",
     "official": false
   },
@@ -44016,7 +44016,7 @@
     "name": "omarpr/openorchestra",
     "url": "https://github.com/omarpr/openorchestra",
     "description": "Local-only macOS workspace for AI coding agents (Claude Code, Codex, OpenCode, pi): run them in parallel in isolated Git worktrees, coordinate multi-repo tasks over A2A, and review diffs in an embedded Zed editor. Built in Rust with GPUI.",
-    "stars": 1,
+    "stars": 3,
     "forks": 0,
     "topics": [
       "a2a",
@@ -44040,8 +44040,8 @@
     "language": "Rust",
     "license": "GPL-3.0",
     "created_at": "2026-07-19T22:08:43Z",
-    "updated_at": "2026-11-18T18:38:45Z",
-    "pushed_at": "2026-11-18T12:28:51Z",
+    "updated_at": "2026-11-18T21:47:24Z",
+    "pushed_at": "2026-11-18T22:45:47Z",
     "discovered_at": "2026-11-18T00:52:50.176Z",
     "official": false
   },
@@ -44137,8 +44137,76 @@
     "license": "GPL-3.0",
     "created_at": "2026-11-18T10:02:26Z",
     "updated_at": "2026-11-18T15:24:49Z",
-    "pushed_at": "2026-11-18T15:59:27Z",
+    "pushed_at": "2026-11-18T20:52:17Z",
     "discovered_at": "2026-11-18T18:44:11.984Z",
+    "official": false
+  },
+  "canonical/zed-cnf": {
+    "name": "canonical/zed-cnf",
+    "url": "https://github.com/canonical/zed-cnf",
+    "description": "Language support for cnf in zed",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "cnf",
+      "zed",
+      "zed-editor",
+      "zed-extension"
+    ],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2026-11-18T22:31:02Z",
+    "updated_at": "2026-11-18T23:19:57Z",
+    "pushed_at": "2026-11-18T22:42:47Z",
+    "discovered_at": "2026-11-19T00:51:11.885Z",
+    "official": false
+  },
+  "flymylee/zed-workspace-manager": {
+    "name": "flymylee/zed-workspace-manager",
+    "url": "https://github.com/flymylee/zed-workspace-manager",
+    "description": "A lightweight Rust/egui SQLite workspace inspector and SQL query builder for Zed editor.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "appimage",
+      "database-inspector",
+      "egui",
+      "rust",
+      "sqlite",
+      "workspace-manager",
+      "zed",
+      "zed-editor"
+    ],
+    "language": null,
+    "license": null,
+    "created_at": "2026-11-19T00:05:53Z",
+    "updated_at": "2026-11-19T00:49:00Z",
+    "pushed_at": "2026-11-19T00:05:55Z",
+    "discovered_at": "2026-11-19T00:51:11.887Z",
+    "official": false
+  },
+  "knaus94/agent-hub": {
+    "name": "knaus94/agent-hub",
+    "url": "https://github.com/knaus94/agent-hub",
+    "description": "Watch and steer Zed's agent chats (Claude Code, Codex) from your phone: live chats, steering, questions, new chats, voice, push",
+    "stars": 1,
+    "forks": 0,
+    "topics": [
+      "acp",
+      "agent-client-protocol",
+      "claude-code",
+      "cloudflare-tunnel",
+      "codex",
+      "pwa",
+      "zed",
+      "zed-editor"
+    ],
+    "language": "Go",
+    "license": "MIT",
+    "created_at": "2026-11-18T22:02:35Z",
+    "updated_at": "2026-11-18T23:03:18Z",
+    "pushed_at": "2026-11-18T22:02:41Z",
+    "discovered_at": "2026-11-19T00:51:11.887Z",
     "official": false
   }
 }

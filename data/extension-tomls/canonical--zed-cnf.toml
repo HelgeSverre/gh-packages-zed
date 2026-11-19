@@ -1,0 +1,11 @@
+id = "cnf"
+name = "cnf"
+version = "0.1.0"
+schema_version = 1
+authors = ["Canonical Ltd"]
+description = "cnf configuration language support."
+repository = "https://github.com/canonical/zed-cnf"
+
+[grammars.cnf]
+repository = "https://github.com/canonical/tree-sitter-cnf"
+rev = "ca77abbe27573d5f1506d9f4da9d3bd39c091c5d"
