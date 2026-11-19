@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1949** |
 | In official registry | 1365 |
 | Discovered via topics | 584 |
-| Last updated | 2026-11-19 12:44 UTC |
+| Last updated | 2026-11-19 18:44 UTC |
 
 ### By capability
 
@@ -97,7 +97,7 @@ cd website && npm install && npm run dev
 |---|---|---|
 | [biomejs/biome-zed](https://github.com/biomejs/biome-zed) | 466 | Biome extension for Zed |
 | [xhyrom/zed-discord-presence](https://github.com/xhyrom/zed-discord-presence) | 415 | extension for zed that adds support for discord rich presence using lsp |
-| [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 342 | Catppuccin Theme but as blurred variants + custom ones |
+| [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 343 | Catppuccin Theme but as blurred variants + custom ones |
 | [oxc-project/oxc-zed](https://github.com/oxc-project/oxc-zed) | 256 | Oxc extension for Zed |
 | [catppuccin/zed-icons](https://github.com/catppuccin/zed-icons) | 240 | 🦊 Soothing pastel icons for Zed |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 223 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
@@ -120,18 +120,19 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 223 | 2026-11-19 | Zed plugin for automatic time tracking and metrics generated... |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-11-19 | Zed editor support for Carve, a modern light markup language |
+| [lbssousa/zed-gregorio](https://github.com/lbssousa/zed-gregorio) | 0 | 2026-11-19 | Zed extension for Gregorio GABC/NABC Gregorian chant notatio... |
+| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 15 | 2026-11-19 | Spring Boot language intelligence for Zed, powered by the of... |
 | [adrijshikhar/zed-htmx](https://github.com/adrijshikhar/zed-htmx) | 0 | 2026-11-19 | HTMX 2.0 language server extension for the Zed editor, power... |
 | [EDM115/zed-embedded-languages](https://github.com/EDM115/zed-embedded-languages) | 1 | 2026-11-19 | Zed extension to add syntax highlighting to any string as yo... |
 | [talhayksk/zedpolacode](https://github.com/talhayksk/zedpolacode) | 0 | 2026-11-19 | Polacode-style code snapshots for Zed: render a file or line... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 104 | 2026-11-19 | True Dark Theme for Zed IDE |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 223 | 2026-11-19 | Zed plugin for automatic time tracking and metrics generated... |
 | [husur/android-resources-lsp](https://github.com/husur/android-resources-lsp) | 0 | 2026-11-19 | Zed extension: shows the text of Android string resources (R... |
 | [husur/gradle-catalog-lsp](https://github.com/husur/gradle-catalog-lsp) | 0 | 2026-11-19 | Zed extension: shows newer versions of the libraries and plu... |
 | [innovatorved/zed-api-client](https://github.com/innovatorved/zed-api-client) | 0 | 2026-11-19 | HTTP client for Zed. |
 | [ChemisTechlabs/zed-pascal](https://github.com/ChemisTechlabs/zed-pascal) | 18 | 2026-11-19 | A Pascal language extension for Zed Editor |
 | [canonical/zed-cnf](https://github.com/canonical/zed-cnf) | 0 | 2026-11-18 | Language support for cnf in zed |
-| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 14 | 2026-11-18 | Spring Boot language intelligence for Zed, powered by the of... |
 | [danfq/takatime-zed](https://github.com/danfq/takatime-zed) | 0 | 2026-11-18 | takatime extension for zed |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-11-18 | A Zed extension that allows to highlight all occurrences of ... |
 | [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 1 | 2026-11-18 | Zed extension that formats and lints HTML templates with djL... |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 3 | 2026-11-18 | Local-first code intelligence over MCP: BM25/FTS5 + AST grap... |
 | [caozeal/zed-endpoint-nav](https://github.com/caozeal/zed-endpoint-nav) | 0 | 2026-11-17 | 把 Spring / FastAPI / MCP 的请求映射当作符号，喂给 Zed 的 Cmd+T（Go to Symb... |
 | [felixtensor/zed-mlir](https://github.com/felixtensor/zed-mlir) | 11 | 2026-11-17 | MLIR Extension for Zed |
-| [ronketer/nand2tetris-for-Zed](https://github.com/ronketer/nand2tetris-for-Zed) | 0 | 2026-11-17 | Declarative Zed language support for Nand2Tetris HDL, Hack a... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-11-19T18:44 | 0 | 770 | 2483 |
 | 2026-11-19T12:44 | 0 | 770 | 2483 |
 | 2026-11-19T06:46 | 0 | 770 | 2483 |
 | 2026-11-19T00:51 | 3 | 767 | 2483 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-11-18T00:52 | 2 | 764 | 2478 |
 | 2026-11-17T18:44 | 1 | 763 | 2476 |
 | 2026-11-17T12:43 | 1 | 762 | 2475 |
-| 2026-11-17T06:46 | 2 | 760 | 2474 |
 
 ---
 
