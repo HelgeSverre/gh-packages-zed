@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1951** |
 | In official registry | 1365 |
 | Discovered via topics | 586 |
-| Last updated | 2026-11-21 12:43 UTC |
+| Last updated | 2026-11-21 18:43 UTC |
 
 ### By capability
 
@@ -120,6 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Y-ASLant/Flow-Icons-Zed](https://github.com/Y-ASLant/Flow-Icons-Zed) | 0 | 2026-11-21 | Base on https://flow-icons.pages.dev/ |
 | [Odonno/zed-piccali](https://github.com/Odonno/zed-piccali) | 0 | 2026-11-21 | Gherkin extension for Zed |
 | [abhinaaaavvv/truly-zen-theme](https://github.com/abhinaaaavvv/truly-zen-theme) | 0 | 2026-11-21 | A zed editor theme for total concentration. |
 | [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 1 | 2026-11-21 | Zed extension that formats and lints HTML templates with djL... |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [husur/android-resources-lsp](https://github.com/husur/android-resources-lsp) | 0 | 2026-11-19 | Zed extension: shows the text of Android string resources (R... |
 | [husur/gradle-catalog-lsp](https://github.com/husur/gradle-catalog-lsp) | 0 | 2026-11-19 | Zed extension: shows newer versions of the libraries and plu... |
 | [innovatorved/zed-api-client](https://github.com/innovatorved/zed-api-client) | 0 | 2026-11-19 | HTTP client for Zed. |
-| [ChemisTechlabs/zed-pascal](https://github.com/ChemisTechlabs/zed-pascal) | 18 | 2026-11-19 | A Pascal language extension for Zed Editor |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-11-21T18:43 | 0 | 775 | 2488 |
 | 2026-11-21T12:43 | 1 | 774 | 2488 |
 | 2026-11-21T06:44 | 0 | 774 | 2487 |
 | 2026-11-21T00:51 | 2 | 772 | 2487 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-11-20T00:51 | 0 | 770 | 2483 |
 | 2026-11-19T18:44 | 0 | 770 | 2483 |
 | 2026-11-19T12:44 | 0 | 770 | 2483 |
-| 2026-11-19T06:46 | 0 | 770 | 2483 |
 
 ---
 
