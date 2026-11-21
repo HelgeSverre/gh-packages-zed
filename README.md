@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1950** |
 | In official registry | 1365 |
 | Discovered via topics | 585 |
-| Last updated | 2026-11-21 00:51 UTC |
+| Last updated | 2026-11-21 06:44 UTC |
 
 ### By capability
 
@@ -102,7 +102,7 @@ cd website && npm install && npm run dev
 | [catppuccin/zed-icons](https://github.com/catppuccin/zed-icons) | 240 | 🦊 Soothing pastel icons for Zed |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 223 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
 | [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 215 | Zed support for the Godot game engine and the GDScript language |
-| [zed-extensions/typst](https://github.com/zed-extensions/typst) | 209 | Typst extension for zed |
+| [zed-extensions/typst](https://github.com/zed-extensions/typst) | 210 | Typst extension for zed |
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 191 | 🦊 Zed editor theme ported from Neovim |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-11-21T06:44 | 0 | 774 | 2487 |
 | 2026-11-21T00:51 | 2 | 772 | 2487 |
 | 2026-11-20T18:44 | 1 | 771 | 2485 |
 | 2026-11-20T12:44 | 1 | 770 | 2484 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-11-19T12:44 | 0 | 770 | 2483 |
 | 2026-11-19T06:46 | 0 | 770 | 2483 |
 | 2026-11-19T00:51 | 3 | 767 | 2483 |
-| 2026-11-18T18:44 | 2 | 765 | 2480 |
 
 ---
 
