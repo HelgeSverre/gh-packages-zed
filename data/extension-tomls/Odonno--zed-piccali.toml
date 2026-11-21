@@ -1,0 +1,20 @@
+id = "piccali"
+name = "Piccali"
+version = "0.1.0"
+schema_version = 1
+authors = ["David Bottiau"]
+description = "Gherkin (.feature) support for Zed: syntax highlighting, plus check warnings and format-on-save powered by the piccali-cli language server."
+repository = "https://github.com/Odonno/zed-piccali"
+
+[grammars.gherkin]
+repository = "https://github.com/binhtddev/tree-sitter-gherkin"
+rev = "6bd665dd7d4159c63c0b7a9f69d784f3315328c1"
+
+[language_servers.piccali]
+name = "Piccali"
+languages = ["Gherkin"]
+
+[[capabilities]]
+kind = "download_file"
+host = "github.com"
+path = ["**"]
