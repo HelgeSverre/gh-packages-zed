@@ -75,7 +75,7 @@
     "license": "MIT",
     "created_at": "2026-05-03T17:39:17Z",
     "updated_at": "2026-11-08T15:27:40Z",
-    "pushed_at": "2026-11-18T17:29:36Z",
+    "pushed_at": "2026-11-20T20:24:52Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -854,7 +854,7 @@
     "name": "kartikvashistha/zed-ansible",
     "url": "https://github.com/kartikvashistha/zed-ansible",
     "description": "Ansible Extension for the Zed editor",
-    "stars": 63,
+    "stars": 62,
     "forks": 9,
     "topics": [
       "ansible",
@@ -864,7 +864,7 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-08-04T09:47:08Z",
-    "updated_at": "2026-10-31T09:01:56Z",
+    "updated_at": "2026-11-20T19:23:54Z",
     "pushed_at": "2026-05-04T07:54:34Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -3237,7 +3237,7 @@
     "name": "huacnlee/zed-theme-macos-classic",
     "url": "https://github.com/huacnlee/zed-theme-macos-classic",
     "description": "A macOS native style theme for Zed, let it same like native app in macOS.",
-    "stars": 176,
+    "stars": 177,
     "forks": 7,
     "topics": [
       "macos-classic",
@@ -3248,7 +3248,7 @@
     "language": "JavaScript",
     "license": "MIT",
     "created_at": "2024-01-29T02:19:59Z",
-    "updated_at": "2026-10-23T19:00:28Z",
+    "updated_at": "2026-11-20T21:57:19Z",
     "pushed_at": "2026-02-05T02:23:27Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
@@ -5248,7 +5248,7 @@
     "license": null,
     "created_at": "2024-08-14T22:46:54Z",
     "updated_at": "2026-11-12T01:22:04Z",
-    "pushed_at": "2026-11-19T00:27:46Z",
+    "pushed_at": "2026-11-21T00:00:35Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": false
   },
@@ -15333,7 +15333,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
     "updated_at": "2026-11-19T05:57:48Z",
-    "pushed_at": "2026-11-20T08:57:37Z",
+    "pushed_at": "2026-11-20T19:44:17Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -17286,13 +17286,13 @@
     "name": "joshuablais/compline",
     "url": "https://github.com/joshuablais/compline",
     "description": "A color palette for Deep contemplation and work",
-    "stars": 132,
+    "stars": 133,
     "forks": 19,
     "topics": [],
     "language": "CSS",
     "license": "GPL-3.0",
     "created_at": "2025-10-31T19:02:45Z",
-    "updated_at": "2026-11-16T11:58:55Z",
+    "updated_at": "2026-11-20T19:30:47Z",
     "pushed_at": "2026-10-08T15:27:30Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
@@ -17897,7 +17897,7 @@
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
     "updated_at": "2026-11-18T20:41:47Z",
-    "pushed_at": "2026-11-20T12:44:31Z",
+    "pushed_at": "2026-11-20T18:44:26Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -27607,13 +27607,13 @@
     "name": "kevcamel/vscode_dark_modern.zed",
     "url": "https://github.com/kevcamel/vscode_dark_modern.zed",
     "description": "VS Code Dark Modern theme for Zed",
-    "stars": 63,
+    "stars": 64,
     "forks": 23,
     "topics": [],
     "language": null,
     "license": "MIT",
     "created_at": "2024-05-17T15:44:22Z",
-    "updated_at": "2026-11-07T08:04:36Z",
+    "updated_at": "2026-11-20T21:57:35Z",
     "pushed_at": "2026-09-06T04:32:53Z",
     "discovered_at": "2026-05-20T03:49:49.286Z",
     "official": false
@@ -28823,7 +28823,7 @@
     "license": "MIT",
     "created_at": "2026-03-09T09:38:48Z",
     "updated_at": "2026-11-19T23:30:28Z",
-    "pushed_at": "2026-11-20T16:22:20Z",
+    "pushed_at": "2026-11-20T23:16:03Z",
     "discovered_at": "2026-05-25T18:33:55.225Z",
     "official": false
   },
@@ -31311,7 +31311,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-04-30T15:29:50Z",
     "updated_at": "2026-11-07T10:28:41Z",
-    "pushed_at": "2026-11-20T04:31:34Z",
+    "pushed_at": "2026-11-21T00:07:57Z",
     "discovered_at": "2026-06-26T18:36:57.330Z",
     "official": false
   },
@@ -36786,7 +36786,7 @@
     "name": "BrokkAi/muse-acp",
     "url": "https://github.com/BrokkAi/muse-acp",
     "description": "Use Meta Muse Code in Zed, IntelliJ IDEA, and other JetBrains IDEs with your existing subscription. Dependency-free Rust adapter for Agent Client Protocol (ACP), using the native Muse Session Protocol (MSP).",
-    "stars": 28,
+    "stars": 29,
     "forks": 5,
     "topics": [
       "acp",
@@ -36811,7 +36811,7 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-09-03T18:54:22Z",
-    "updated_at": "2026-11-19T03:53:36Z",
+    "updated_at": "2026-11-20T23:30:36Z",
     "pushed_at": "2026-11-20T12:08:36Z",
     "discovered_at": "2026-09-09T01:10:37.044Z",
     "official": false
@@ -37216,7 +37216,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-08-28T14:03:54Z",
     "updated_at": "2026-09-18T02:36:17Z",
-    "pushed_at": "2026-11-20T04:58:34Z",
+    "pushed_at": "2026-11-20T22:09:32Z",
     "discovered_at": "2026-09-13T21:07:24.622Z",
     "official": false
   },
@@ -39766,7 +39766,7 @@
     "license": null,
     "created_at": "2026-09-04T07:49:15Z",
     "updated_at": "2026-11-12T12:55:25Z",
-    "pushed_at": "2026-11-20T17:06:41Z",
+    "pushed_at": "2026-11-20T23:04:55Z",
     "discovered_at": "2026-09-30T12:59:15.249Z",
     "official": false
   },
@@ -40020,7 +40020,7 @@
     "name": "AmirAliManzar/Zed-RTL",
     "url": "https://github.com/AmirAliManzar/Zed-RTL",
     "description": "Fixed right-to-left (Persian/Arabic/Hebrew) text rendering and caret movement in the Zed editor, with an auto-updating patched build for Windows.",
-    "stars": 10,
+    "stars": 11,
     "forks": 1,
     "topics": [
       "arabic",
@@ -40039,7 +40039,7 @@
     "language": "Rust",
     "license": "GPL-3.0",
     "created_at": "2026-09-29T18:48:49Z",
-    "updated_at": "2026-11-07T06:44:50Z",
+    "updated_at": "2026-11-20T21:33:35Z",
     "pushed_at": "2026-11-04T18:05:59Z",
     "discovered_at": "2026-10-03T01:13:41.690Z",
     "official": false
@@ -42441,7 +42441,7 @@
     "license": null,
     "created_at": "2026-04-16T11:26:51Z",
     "updated_at": "2026-11-12T15:42:27Z",
-    "pushed_at": "2026-11-20T15:36:30Z",
+    "pushed_at": "2026-11-20T23:08:47Z",
     "discovered_at": "2026-11-01T00:54:44.248Z",
     "official": false
   },
@@ -42620,7 +42620,7 @@
     "license": "MPL-2.0",
     "created_at": "2017-08-17T11:05:21Z",
     "updated_at": "2026-11-11T18:06:21Z",
-    "pushed_at": "2026-11-20T08:33:34Z",
+    "pushed_at": "2026-11-20T19:51:04Z",
     "discovered_at": "2026-11-02T00:51:13.513Z",
     "official": false
   },
@@ -43392,7 +43392,7 @@
     "license": "MIT",
     "created_at": "2026-10-07T08:27:27Z",
     "updated_at": "2026-11-10T17:26:20Z",
-    "pushed_at": "2026-11-20T15:45:21Z",
+    "pushed_at": "2026-11-20T23:25:29Z",
     "discovered_at": "2026-11-10T18:44:00.284Z",
     "official": false
   },
@@ -43543,7 +43543,7 @@
     "license": null,
     "created_at": "2026-04-14T16:50:18Z",
     "updated_at": "2026-11-15T10:54:34Z",
-    "pushed_at": "2026-11-20T15:35:33Z",
+    "pushed_at": "2026-11-20T23:04:30Z",
     "discovered_at": "2026-11-12T18:44:10.996Z",
     "official": false
   },
@@ -44254,6 +44254,64 @@
     "updated_at": "2026-11-20T16:41:52Z",
     "pushed_at": "2026-11-20T16:15:24Z",
     "discovered_at": "2026-11-20T18:44:02.663Z",
+    "official": false
+  },
+  "xunrise/wishlang": {
+    "name": "Xunrise/wishlang",
+    "url": "https://github.com/Xunrise/wishlang",
+    "description": "Create-from-usage for Rust and Java: write the call sites you wish existed, Claude Code writes the code underneath.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "claude-code",
+      "intellij-plugin",
+      "java",
+      "lsp",
+      "rust",
+      "zed-extension"
+    ],
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "created_at": "2026-11-20T19:34:35Z",
+    "updated_at": "2026-11-20T19:34:50Z",
+    "pushed_at": "2026-11-20T21:54:26Z",
+    "discovered_at": "2026-11-21T00:51:13.839Z",
+    "official": false
+  },
+  "bytebeast/kissaten.nvim": {
+    "name": "bytebeast/kissaten.nvim",
+    "url": "https://github.com/bytebeast/kissaten.nvim",
+    "description": "Coffee-house Neovim / Vim / VS Code colorscheme. WCAG-checked, LazyVim-ready, 5 styles. Code theme with Treesitter, LSP semantic tokens, 62 plugin integrations, 28 tool themes, lualine and terminal themes",
+    "stars": 13,
+    "forks": 0,
+    "topics": [
+      "accessibility",
+      "colorblind",
+      "colorblind-friendly",
+      "colorscheme",
+      "dark-theme",
+      "ghostty-theme",
+      "helix-theme",
+      "kitty-theme",
+      "lazyvim",
+      "light-theme",
+      "neovim",
+      "neovim-colorscheme",
+      "neovim-plugin",
+      "neovim-theme",
+      "nvim",
+      "terminal-theme",
+      "vim-colorscheme",
+      "vscode-theme",
+      "wezterm-colorscheme",
+      "zed-theme"
+    ],
+    "language": "Lua",
+    "license": "MIT",
+    "created_at": "2026-10-22T18:40:09Z",
+    "updated_at": "2026-11-20T20:45:49Z",
+    "pushed_at": "2026-11-21T00:22:11Z",
+    "discovered_at": "2026-11-21T00:51:13.841Z",
     "official": false
   }
 }

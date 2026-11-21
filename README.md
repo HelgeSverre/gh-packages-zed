@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1950** |
 | In official registry | 1365 |
 | Discovered via topics | 585 |
-| Last updated | 2026-11-20 18:44 UTC |
+| Last updated | 2026-11-21 00:51 UTC |
 
 ### By capability
 
@@ -108,7 +108,7 @@ cd website && npm install && npm run dev
 | [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 191 | 🦊 Zed editor theme ported from Neovim |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
-| [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 176 | A macOS native style theme for Zed, let it same like native app in macOS. |
+| [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 177 | A macOS native style theme for Zed, let it same like native app in macOS. |
 | [zed-extensions/git_firefly](https://github.com/zed-extensions/git_firefly) | 160 |  |
 | [zed-extensions/swift](https://github.com/zed-extensions/swift) | 149 | Extension for Zed to support Swift |
 | [thedadams/zed-comment](https://github.com/thedadams/zed-comment) | 148 | A comment extension for the Zed editor |
@@ -120,6 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-11-20 | A Zed extension that allows to highlight all occurrences of ... |
 | [ednanf/yay-sayer](https://github.com/ednanf/yay-sayer) | 0 | 2026-11-20 | Naysayer-inspired dark and complementary light themes for Ze... |
 | [zed-extensions/kotlin](https://github.com/zed-extensions/kotlin) | 109 | 2026-11-20 | Kotlin support |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 104 | 2026-11-20 | True Dark Theme for Zed IDE |
@@ -138,13 +139,13 @@ cd website && npm install && npm run dev
 | [ChemisTechlabs/zed-pascal](https://github.com/ChemisTechlabs/zed-pascal) | 18 | 2026-11-19 | A Pascal language extension for Zed Editor |
 | [canonical/zed-cnf](https://github.com/canonical/zed-cnf) | 0 | 2026-11-18 | Language support for cnf in zed |
 | [danfq/takatime-zed](https://github.com/danfq/takatime-zed) | 0 | 2026-11-18 | takatime extension for zed |
-| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-11-18 | A Zed extension that allows to highlight all occurrences of ... |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 3 | 2026-11-18 | Local-first code intelligence over MCP: BM25/FTS5 + AST grap... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-11-21T00:51 | 2 | 772 | 2487 |
 | 2026-11-20T18:44 | 1 | 771 | 2485 |
 | 2026-11-20T12:44 | 1 | 770 | 2484 |
 | 2026-11-20T06:46 | 0 | 770 | 2483 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-11-19T06:46 | 0 | 770 | 2483 |
 | 2026-11-19T00:51 | 3 | 767 | 2483 |
 | 2026-11-18T18:44 | 2 | 765 | 2480 |
-| 2026-11-18T12:44 | 1 | 766 | 2479 |
 
 ---
 
