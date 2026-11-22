@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1951** |
 | In official registry | 1365 |
 | Discovered via topics | 586 |
-| Last updated | 2026-11-22 12:43 UTC |
+| Last updated | 2026-11-22 18:44 UTC |
 
 ### By capability
 
@@ -120,12 +120,13 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [felixtensor/zed-mlir](https://github.com/felixtensor/zed-mlir) | 11 | 2026-11-22 | MLIR Extension for Zed |
+| [matinfo-tech/zed-markdown-pdf-export](https://github.com/matinfo-tech/zed-markdown-pdf-export) | 0 | 2026-11-22 | Zed extension for markdown-pdf-export: Markdown to PDF with ... |
+| [akilama471/zed-laravel-extension](https://github.com/akilama471/zed-laravel-extension) | 0 | 2026-11-22 | Enhance your Zed IDE experience with full Laravel support. T... |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 16 | 2026-11-22 | Spring Boot language intelligence for Zed, powered by the of... |
+| [felixtensor/zed-mlir](https://github.com/felixtensor/zed-mlir) | 11 | 2026-11-22 | MLIR Extension for Zed |
 | [reuixiy7/zed-lean4](https://github.com/reuixiy7/zed-lean4) | 67 | 2026-11-22 |  |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 105 | 2026-11-22 | True Dark Theme for Zed IDE |
 | [bajrangCoder/zed-laravel-blade](https://github.com/bajrangCoder/zed-laravel-blade) | 47 | 2026-11-22 | Laravel Blade templating language support for Zed. |
-| [matinfo-tech/zed-markdown-pdf-export](https://github.com/matinfo-tech/zed-markdown-pdf-export) | 0 | 2026-11-22 | Zed extension for markdown-pdf-export: Markdown to PDF with ... |
 | [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 1 | 2026-11-21 | Zed extension that formats and lints HTML templates with djL... |
 | [Y-ASLant/Flow-Icons-Zed](https://github.com/Y-ASLant/Flow-Icons-Zed) | 0 | 2026-11-21 | Base on https://flow-icons.pages.dev/ |
 | [Odonno/zed-piccali](https://github.com/Odonno/zed-piccali) | 0 | 2026-11-21 | Gherkin extension for Zed |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [lbssousa/zed-gregorio](https://github.com/lbssousa/zed-gregorio) | 0 | 2026-11-19 | Zed extension for Gregorio GABC/NABC Gregorian chant notatio... |
 | [adrijshikhar/zed-htmx](https://github.com/adrijshikhar/zed-htmx) | 0 | 2026-11-19 | HTMX 2.0 language server extension for the Zed editor, power... |
 | [EDM115/zed-embedded-languages](https://github.com/EDM115/zed-embedded-languages) | 1 | 2026-11-19 | Zed extension to add syntax highlighting to any string as yo... |
-| [talhayksk/zedpolacode](https://github.com/talhayksk/zedpolacode) | 0 | 2026-11-19 | Polacode-style code snapshots for Zed: render a file or line... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-11-22T18:44 | 0 | 777 | 2490 |
 | 2026-11-22T12:43 | 0 | 777 | 2490 |
 | 2026-11-22T06:44 | 2 | 775 | 2490 |
 | 2026-11-22T00:52 | 1 | 775 | 2488 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-11-21T00:51 | 2 | 772 | 2487 |
 | 2026-11-20T18:44 | 1 | 771 | 2485 |
 | 2026-11-20T12:44 | 1 | 770 | 2484 |
-| 2026-11-20T06:46 | 0 | 770 | 2483 |
 
 ---
 
