@@ -5094,7 +5094,7 @@
     "url": "https://github.com/Dylanmurzello/zed-android-port",
     "description": "Native Android port of the Zed code editor,  gpui rendering through Vulkan, integrated Termux for LSPs and tooling, remote SSH support. Runs as an APK on tablets and Android desktop modes.",
     "stars": 272,
-    "forks": 24,
+    "forks": 23,
     "topics": [
       "android",
       "android-app",
@@ -12263,7 +12263,7 @@
     "name": "bajrangCoder/zed-laravel-blade",
     "url": "https://github.com/bajrangCoder/zed-laravel-blade",
     "description": "Laravel Blade templating language support for Zed.",
-    "stars": 46,
+    "stars": 47,
     "forks": 15,
     "topics": [
       "blade",
@@ -12276,8 +12276,8 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-04-28T16:23:15Z",
-    "updated_at": "2026-11-11T15:38:04Z",
-    "pushed_at": "2026-09-22T07:33:15Z",
+    "updated_at": "2026-11-22T04:55:50Z",
+    "pushed_at": "2026-11-22T03:49:11Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": true
   },
@@ -17873,7 +17873,7 @@
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
     "updated_at": "2026-11-18T20:41:47Z",
-    "pushed_at": "2026-11-21T18:44:28Z",
+    "pushed_at": "2026-11-22T00:53:24Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -39742,7 +39742,7 @@
     "license": null,
     "created_at": "2026-09-04T07:49:15Z",
     "updated_at": "2026-11-12T12:55:25Z",
-    "pushed_at": "2026-11-21T23:57:47Z",
+    "pushed_at": "2026-11-22T06:36:40Z",
     "discovered_at": "2026-09-30T12:59:15.249Z",
     "official": false
   },
@@ -42787,7 +42787,7 @@
     "license": "MIT",
     "created_at": "2026-11-02T16:43:40Z",
     "updated_at": "2026-11-10T10:55:36Z",
-    "pushed_at": "2026-11-20T05:27:56Z",
+    "pushed_at": "2026-11-22T05:27:32Z",
     "discovered_at": "2026-11-04T18:44:22.632Z",
     "official": false
   },
@@ -44020,7 +44020,7 @@
     "license": "GPL-3.0",
     "created_at": "2026-07-19T22:08:43Z",
     "updated_at": "2026-11-21T12:38:43Z",
-    "pushed_at": "2026-11-21T23:48:28Z",
+    "pushed_at": "2026-11-22T03:46:25Z",
     "discovered_at": "2026-11-18T00:52:50.176Z",
     "official": false
   },
@@ -44332,6 +44332,54 @@
     "updated_at": "2026-11-22T00:29:40Z",
     "pushed_at": "2026-11-22T00:37:40Z",
     "discovered_at": "2026-11-22T00:52:50.657Z",
+    "official": false
+  },
+  "matinfo-tech/zed-markdown-pdf-export": {
+    "name": "matinfo-tech/zed-markdown-pdf-export",
+    "url": "https://github.com/matinfo-tech/zed-markdown-pdf-export",
+    "description": "Zed extension for markdown-pdf-export: Markdown to PDF with your header, footer, page numbers and logo, from Zed's Agent.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "markdown",
+      "markdown-to-pdf",
+      "mcp",
+      "mcp-server",
+      "pdf",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2026-11-21T17:07:46Z",
+    "updated_at": "2026-11-22T01:40:57Z",
+    "pushed_at": "2026-11-22T03:26:30Z",
+    "discovered_at": "2026-11-22T06:44:34.131Z",
+    "official": false
+  },
+  "viraj-s15/oxocarbon-grey": {
+    "name": "viraj-s15/oxocarbon-grey",
+    "url": "https://github.com/viraj-s15/oxocarbon-grey",
+    "description": "Oxocarbon Grey: a dark cool-grey theme for editors and terminals, with richer syntax colours and semantic highlighting",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "color-theme",
+      "ghostty-theme",
+      "herdr",
+      "neovim-colorscheme",
+      "open-vsx",
+      "oxocarbon",
+      "vscode",
+      "vscode-theme",
+      "zed-theme"
+    ],
+    "language": "JavaScript",
+    "license": "NOASSERTION",
+    "created_at": "2026-09-30T03:02:42Z",
+    "updated_at": "2026-11-22T04:46:27Z",
+    "pushed_at": "2026-11-22T04:34:08Z",
+    "discovered_at": "2026-11-22T06:44:34.132Z",
     "official": false
   }
 }

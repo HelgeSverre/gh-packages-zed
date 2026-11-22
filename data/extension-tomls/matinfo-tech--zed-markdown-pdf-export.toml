@@ -1,0 +1,9 @@
+id = "markdown-pdf-export"
+name = "Markdown PDF Export"
+version = "0.2.0"
+schema_version = 1
+authors = ["Matinfo <dev@matinfo.tech>"]
+description = "Export Markdown to PDF with your header, footer, page numbers and logo, from Zed's Agent."
+repository = "https://github.com/matinfo-tech/zed-markdown-pdf-export"
+
+[context_servers.markdown-pdf]

@@ -1,0 +1,204 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Markdown PDF Export - Zed Extension Safari</title><meta name="description" content="Zed extension for markdown-pdf-export: Markdown to PDF with your header, footer, page numbers and logo, from Zed's Agent."><link rel="canonical" href="https://helgesverre.github.io/gh-packages-zed/package/matinfo-tech/zed-markdown-pdf-export/"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Markdown PDF Export - Zed Extension Safari"><meta property="og:description" content="Zed extension for markdown-pdf-export: Markdown to PDF with your header, footer, page numbers and logo, from Zed's Agent."><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed/package/matinfo-tech/zed-markdown-pdf-export/"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Markdown PDF Export - Zed Extension Safari"><meta name="twitter:description" content="Zed extension for markdown-pdf-export: Markdown to PDF with your header, footer, page numbers and logo, from Zed's Agent."><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/gh-packages-zed/_astro/ClientRouter.astro_astro_type_script_index_0_lang.ClVLs1kt.js"></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Markdown PDF Export","description":"Zed extension for markdown-pdf-export: Markdown to PDF with your header, footer, page numbers and logo, from Zed's Agent.","applicationCategory":"DeveloperApplication","operatingSystem":"macOS, Linux, Windows","url":"https://zed.dev/extensions/markdown-pdf-export","codeRepository":"https://github.com/matinfo-tech/zed-markdown-pdf-export","author":[{"@type":"Person","name":"Matinfo"}],"softwareVersion":"0.2.0","license":"MIT","keywords":"context-server","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/Layout.CGDlMdWE.css"><script type="module" src="/gh-packages-zed/_astro/page.B8i1Zz-u.js"></script></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <a href="#main" class="skip-to-content">Skip to content</a> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" data-astro-transition-persist="astro-fhchcgd7-1"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <script type="application/json" id="pkg-extras">{"url":"https://github.com/matinfo-tech/zed-markdown-pdf-export","language":"Rust","license":"MIT","topics":["markdown","markdown-to-pdf","mcp","mcp-server","pdf","zed","zed-extension"],"extension":{"authors":["Matinfo"],"schema_version":1}}</script> <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> matinfo-tech/zed-markdown-pdf-export </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> Markdown PDF Export </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> Export Markdown to PDF with your header, footer, page numbers and logo, from Zed&#39;s Agent. </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="context-server">MCP Server</span> </div> </div> </div> </header> <main id="main" class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/markdown-pdf-export" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/matinfo-tech/zed-markdown-pdf-export" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.2.0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">markdown-pdf-export</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">Rust</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">MIT</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">3h ago</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">Matinfo</dd> </div> </dl>  <h2 class="mt-5 text-xs uppercase font-mono" style="color:var(--zed-muted);">Topics</h2> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> markdown </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> markdown-to-pdf </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> mcp </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> mcp-server </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> pdf </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed-extension </span> </div>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-markdown-pdf-export-for-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#markdown-pdf-export-for-zed"><span class="heading-anchor-icon">#</span></a>Markdown PDF Export for Zed</h1>
+<p><a href="https://github.com/matinfo-tech/zed-markdown-pdf-export/actions/workflows/ci.yml"><img src="https://github.com/matinfo-tech/zed-markdown-pdf-export/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+<a href="https://www.npmjs.com/package/markdown-pdf-export"><img src="https://img.shields.io/npm/v/markdown-pdf-export?label=markdown-pdf-export" alt="npm"></a>
+<a href="https://github.com/matinfo-tech/zed-markdown-pdf-export/blob/HEAD/LICENSE" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License: MIT"></a></p>
+<p>Export Markdown to PDF from Zed's Agent, with your header, footer, page numbers and logo.</p>
+<p>This extension adds the <a href="https://markdown-pdf.matinfo.tech">markdown-pdf-export</a> MCP server to
+Zed. Install it and ask the Agent:</p>
+<blockquote>
+<p>Export this file to PDF.</p>
+</blockquote>
+<h2 id="user-content-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features"><span class="heading-anchor-icon">#</span></a>Features</h2>
+<ul>
+<li><strong>No setup.</strong> Zed downloads the exporter from npm, keeps it up to date and runs it with its own
+Node. No terminal, no Node install, no <code>settings.json</code> editing.</li>
+<li><strong>Real page design.</strong> Page styles, fonts, headers and footers with page numbers, logos, table of
+contents, maths (KaTeX) and code highlighting.</li>
+<li><strong>Studio.</strong> Ask the Agent to <em>open Studio</em> to design your pages with a live PDF preview.</li>
+<li><strong>One settings file</strong> shared with the command line and the other editors (VS Code, Cursor,
+Claude...). Design once, same PDFs everywhere.</li>
+<li><strong>Local export.</strong> The exporter runs on your computer and sends nothing anywhere; the PDF is drawn
+by your own Chrome or Edge. (What the Agent shares with its AI provider is up to your Zed setup.)</li>
+</ul>
+<h2 id="user-content-requirements"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#requirements"><span class="heading-anchor-icon">#</span></a>Requirements</h2>
+<ul>
+<li>Zed with the <strong>Agent</strong> set up with an AI provider. The extension adds tools for the Agent; it does
+not add a menu item or a keyboard shortcut (Zed extensions cannot), so without the Agent there is
+nothing to call them. Without an AI provider, use the
+<a href="#keyboard-shortcut-no-ai-needed">keyboard shortcut</a> instead.</li>
+<li>Google Chrome or Microsoft Edge. If neither is installed, ask the Agent to install the PDF
+browser: it downloads Chromium once (about 200 MB).</li>
+</ul>
+<h2 id="user-content-install"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#install"><span class="heading-anchor-icon">#</span></a>Install</h2>
+<blockquote>
+<p><strong>Not in the Zed extension list yet.</strong> Zed has paused new MCP server extensions while it moves to
+the <a href="https://registry.modelcontextprotocol.io/">official MCP registry</a>
+(<a href="https://github.com/zed-industries/zed/issues/59351">zed-industries/zed#59351</a>). The server is
+already there as <code>io.github.matinfo-tech/markdown-pdf-export</code>. Until Zed lists it, use one of the
+two ways below.</p>
+</blockquote>
+<p><strong>As a dev extension</strong> (needs <a href="https://rustup.rs">Rust</a>; Zed builds it for you):</p>
+<ol>
+<li><code>git clone https://github.com/matinfo-tech/zed-markdown-pdf-export</code></li>
+<li>In Zed, open the Command Palette and run <code>zed: install dev extension</code>, then choose the folder.</li>
+<li>Check <strong>Settings → AI → MCP Servers</strong>: the <code>markdown-pdf</code> dot turns green after the first start
+(the first one takes a few seconds while Zed downloads the exporter).</li>
+</ol>
+<p><strong>Without the extension</strong> (needs <a href="https://nodejs.org">Node.js</a> 20 or later): run
+<code>npx -y markdown-pdf-export setup zed</code>. It adds the Agent tools, an export task and a keyboard
+shortcut to your Zed files. See <a href="https://markdown-pdf.matinfo.tech/editors">the Zed instructions</a>.</p>
+<p>Already added the server by hand (a <code>context_servers.markdown-pdf</code> entry with a <code>command</code>)? Remove
+that entry before installing the extension, or it keeps replacing the extension's server.</p>
+<h2 id="user-content-use"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#use"><span class="heading-anchor-icon">#</span></a>Use</h2>
+<p>Ask the Agent in plain words. Examples:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span>Export this file to PDF.</span></span>
+<span class="line"><span>Export docs/guide.md to PDF in landscape on Letter paper, with a table of contents.</span></span>
+<span class="line"><span>Export report.md with "Page {page} of {pages}" in the footer.</span></span>
+<span class="line"><span>Open Studio so I can design my pages.</span></span>
+<span class="line"><span>Open Studio with report.md as the preview, for this project only.</span></span>
+<span class="line"><span>Install the PDF browser.</span></span>
+<span class="line"><span>Run the Markdown PDF doctor.</span></span></code></pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Tool</th><th>What it does</th></tr></thead><tbody><tr><td><code>export_markdown_pdf</code></td><td>Exports one Markdown file to PDF. Any setting can be changed for one export.</td></tr><tr><td><code>open_studio_markdown_pdf</code></td><td>Opens Studio in your browser. Saved choices apply to the next export.</td></tr><tr><td><code>install_browser_markdown_pdf</code></td><td>Downloads Chromium when no Chrome or Edge is found. Asks first.</td></tr><tr><td><code>doctor_markdown_pdf</code></td><td>Reports the browser in use and the settings files loaded.</td></tr></tbody></table>
+<p>Zed asks before the Agent runs a tool, unless you allowed it in <code>agent.tool_permissions</code>.</p>
+<h2 id="user-content-keyboard-shortcut-no-ai-needed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#keyboard-shortcut-no-ai-needed"><span class="heading-anchor-icon">#</span></a>Keyboard shortcut (no AI needed)</h2>
+<p>A Zed extension cannot add a command or a key, but the exporter's own setup can. With
+<a href="https://nodejs.org">Node.js</a> 20 or later installed, run this once in a terminal:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">npx</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -y</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> markdown-pdf-export</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> setup</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> zed</span></span></code></pre>
+<p>Then, in a Markdown file, press <strong>⌘K ⌘E</strong> on a Mac or <strong>Ctrl+K Ctrl+E</strong> on Windows and Linux to
+export it to PDF. The same export is in the Command Palette: <code>task: spawn</code> → <em>Markdown: Export to
+PDF</em>.</p>
+<p>Setup adds one task to <code>tasks.json</code> and one key to <code>keymap.json</code>, leaves everything else in those
+files as it was (comments included) and keeps a copy of each as <code>&#x3C;file>.markdown-pdf.bak</code>. With this
+extension installed it does not touch <code>settings.json</code>: the extension already provides the Agent
+tools. Needs markdown-pdf-export 2.3.0 or later.</p>
+<h2 id="user-content-settings"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#settings"><span class="heading-anchor-icon">#</span></a>Settings</h2>
+<p>Page design (look, fonts, header, footer, logo, paper size...) lives in the markdown-pdf-export
+settings file, not in Zed. The easiest way to edit it is Studio. The file is:</p>
+<ul>
+<li>macOS and Linux: <code>~/.config/markdown-pdf-export/settings.json</code></li>
+<li>Windows: <code>%APPDATA%\markdown-pdf-export\settings.json</code></li>
+</ul>
+<p>A <code>.markdown-pdf.json</code> file in a project folder changes the settings for the documents in that
+folder only. See <a href="https://markdown-pdf.matinfo.tech/advanced/settings-file">the settings reference</a>.</p>
+<p>The extension itself has three optional settings. Set them in <strong>Settings → AI → MCP Servers →
+markdown-pdf → Configure</strong>, which writes them to Zed's <code>settings.json</code>:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "context_servers"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "markdown-pdf"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "browser"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"msedge"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Setting</th><th>Value</th></tr></thead><tbody><tr><td><code>browser</code></td><td><code>chrome</code>, <code>msedge</code>, <code>chromium</code>, a preview channel such as <code>chrome-beta</code>, or the full path to a browser program. Default: Chrome, then Edge, then the downloaded Chromium.</td></tr><tr><td><code>settings_file</code></td><td>Full path to another settings file, used instead of the shared one. Studio always edits the shared file.</td></tr><tr><td><code>debug</code></td><td><code>true</code> writes a log to <code>markdown-pdf-debug.log</code> in the temp folder.</td></tr></tbody></table>
+<h2 id="user-content-troubleshooting"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#troubleshooting"><span class="heading-anchor-icon">#</span></a>Troubleshooting</h2>
+<ul>
+<li><strong>The server dot stays red.</strong> Open the log with <code>zed: open log</code> and look for <code>markdown-pdf</code>. The
+first start needs internet access to download the exporter from npm.</li>
+<li><strong>"No usable Chrome/Chromium browser found".</strong> Ask the Agent to install the PDF browser, or set
+<code>browser</code> to the path of a Chromium-based browser.</li>
+<li><strong>Studio changes do not show up.</strong> Check that <code>settings_file</code> is empty: when it is set, the server
+reads that file and not the one Studio edits.</li>
+<li>More help: <a href="https://markdown-pdf.matinfo.tech/help">https://markdown-pdf.matinfo.tech/help</a>.</li>
+</ul>
+<h2 id="user-content-how-it-works"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#how-it-works"><span class="heading-anchor-icon">#</span></a>How it works</h2>
+<p>The extension is a small WebAssembly module. When Zed starts the <code>markdown-pdf</code> context server, it:</p>
+<ol>
+<li>installs or updates the <a href="https://www.npmjs.com/package/markdown-pdf-export"><code>markdown-pdf-export</code></a>
+npm package in the extension's folder (version 2.2.0 or later; an installed copy is used when
+offline);</li>
+<li>runs <code>cli.mjs mcp</code> from that package with Zed's Node;</li>
+<li>passes the settings above as <code>MARKDOWN_PDF_BROWSER</code>, <code>MARKDOWN_PDF_SETTINGS</code> and
+<code>MARKDOWN_PDF_DEBUG</code>.</li>
+</ol>
+<p>All the exporting is done by the npm package; its code and issue tracker are at
+<a href="https://github.com/matinfo-tech/markdown-pdf-export">matinfo-tech/markdown-pdf-export</a>.</p>
+<h2 id="user-content-development"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#development"><span class="heading-anchor-icon">#</span></a>Development</h2>
+<p>Requirements: <a href="https://rustup.rs">Rust</a> with the <code>wasm32-wasip2</code> target.</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">rustup</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> target</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> add</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> wasm32-wasip2</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> test</span><span style="color:#6A737D;--shiki-dark:#6A737D">                                         # unit tests (native)</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> clippy</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --target</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> wasm32-wasip2</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -D</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> warnings</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> build</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --release</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --target</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> wasm32-wasip2</span></span></code></pre>
+<p>To try it in Zed: Command Palette → <code>zed: install dev extension</code> → choose this folder. After a
+change, click <strong>Rebuild</strong> on the extension in <code>zed: extensions</code>.</p>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p><a href="https://github.com/matinfo-tech/zed-markdown-pdf-export/blob/HEAD/LICENSE" target="_blank" rel="noopener">MIT</a></p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>

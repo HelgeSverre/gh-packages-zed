@@ -17562,7 +17562,7 @@
     "name": "bajrangCoder/zed-laravel-blade",
     "url": "https://github.com/bajrangCoder/zed-laravel-blade",
     "description": "Laravel Blade templating language support for Zed.",
-    "stars": 46,
+    "stars": 47,
     "forks": 15,
     "topics": [
       "blade",
@@ -17575,8 +17575,8 @@
     "language": "Tree-sitter Query",
     "license": "MIT",
     "created_at": "2024-04-28T16:23:15Z",
-    "updated_at": "2026-11-11T15:38:04Z",
-    "pushed_at": "2026-09-22T07:33:15Z",
+    "updated_at": "2026-11-22T04:55:50Z",
+    "pushed_at": "2026-11-22T03:49:11Z",
     "discovered_at": "2026-05-19T20:07:54.613Z",
     "official": true,
     "extension": {
@@ -67573,6 +67573,47 @@
       "categories": [
         "grammar",
         "language-server"
+      ]
+    }
+  },
+  "matinfo-tech/zed-markdown-pdf-export": {
+    "name": "matinfo-tech/zed-markdown-pdf-export",
+    "url": "https://github.com/matinfo-tech/zed-markdown-pdf-export",
+    "description": "Zed extension for markdown-pdf-export: Markdown to PDF with your header, footer, page numbers and logo, from Zed's Agent.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "markdown",
+      "markdown-to-pdf",
+      "mcp",
+      "mcp-server",
+      "pdf",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2026-11-21T17:07:46Z",
+    "updated_at": "2026-11-22T01:40:57Z",
+    "pushed_at": "2026-11-22T03:26:30Z",
+    "discovered_at": "2026-11-22T06:44:34.131Z",
+    "official": false,
+    "extension": {
+      "id": "markdown-pdf-export",
+      "name": "Markdown PDF Export",
+      "description": "Export Markdown to PDF with your header, footer, page numbers and logo, from Zed's Agent.",
+      "version": "0.2.0",
+      "schema_version": 1,
+      "authors": [
+        "Matinfo <dev@matinfo.tech>"
+      ],
+      "repository": "https://github.com/matinfo-tech/zed-markdown-pdf-export",
+      "snippets": null,
+      "sections": [
+        "context_servers"
+      ],
+      "categories": [
+        "context-server"
       ]
     }
   }

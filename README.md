@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1950-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1951-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,10 +14,10 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1950** |
+| Total tracked | **1951** |
 | In official registry | 1365 |
-| Discovered via topics | 585 |
-| Last updated | 2026-11-22 00:52 UTC |
+| Discovered via topics | 586 |
+| Last updated | 2026-11-22 06:44 UTC |
 
 ### By capability
 
@@ -26,7 +26,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Themes | 837 |
 | Grammars | 668 |
 | Language Servers | 632 |
-| Context Servers | 150 |
+| Context Servers | 151 |
 | Snippets | 97 |
 | Slash Commands | 64 |
 | Debug Adapters | 38 |
@@ -70,6 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [matinfo-tech/zed-markdown-pdf-export](https://github.com/matinfo-tech/zed-markdown-pdf-export) | 0 | Zed extension for markdown-pdf-export: Markdown to PDF with your header, footer,... |
 | [Odonno/zed-piccali](https://github.com/Odonno/zed-piccali) | 0 | Gherkin extension for Zed |
 | [ednanf/yay-sayer](https://github.com/ednanf/yay-sayer) | 0 | Naysayer-inspired dark and complementary light themes for Zed |
 | [canonical/zed-cnf](https://github.com/canonical/zed-cnf) | 0 | Language support for cnf in zed |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [wiroai/Wiro-Zed](https://github.com/wiroai/Wiro-Zed) | 0 | Wiro AI MCP server for the Zed editor: search, price and run 1,000+ image, video... |
 | [steimerbyte/gruvbox-amoled](https://github.com/steimerbyte/gruvbox-amoled) | 0 | Pure-black Gruvbox themes for Zed (AMOLED Hard/Medium/Soft) and OMP |
 | [MistanKh/grok-theme](https://github.com/MistanKh/grok-theme) | 0 | Grok Obsidian and Grok Parchment themes for Zed (unofficial). |
-| [273Do/zed-comment-translate](https://github.com/273Do/zed-comment-translate) | 1 | Read documentation in your own language in Zed's hover popups, translated with G... |
 
 ## Top starred (under 500)
 
@@ -120,6 +120,8 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [bajrangCoder/zed-laravel-blade](https://github.com/bajrangCoder/zed-laravel-blade) | 47 | 2026-11-22 | Laravel Blade templating language support for Zed. |
+| [matinfo-tech/zed-markdown-pdf-export](https://github.com/matinfo-tech/zed-markdown-pdf-export) | 0 | 2026-11-22 | Zed extension for markdown-pdf-export: Markdown to PDF with ... |
 | [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 1 | 2026-11-21 | Zed extension that formats and lints HTML templates with djL... |
 | [Y-ASLant/Flow-Icons-Zed](https://github.com/Y-ASLant/Flow-Icons-Zed) | 0 | 2026-11-21 | Base on https://flow-icons.pages.dev/ |
 | [Odonno/zed-piccali](https://github.com/Odonno/zed-piccali) | 0 | 2026-11-21 | Gherkin extension for Zed |
@@ -138,13 +140,12 @@ cd website && npm install && npm run dev
 | [EDM115/zed-embedded-languages](https://github.com/EDM115/zed-embedded-languages) | 1 | 2026-11-19 | Zed extension to add syntax highlighting to any string as yo... |
 | [talhayksk/zedpolacode](https://github.com/talhayksk/zedpolacode) | 0 | 2026-11-19 | Polacode-style code snapshots for Zed: render a file or line... |
 | [husur/android-resources-lsp](https://github.com/husur/android-resources-lsp) | 0 | 2026-11-19 | Zed extension: shows the text of Android string resources (R... |
-| [husur/gradle-catalog-lsp](https://github.com/husur/gradle-catalog-lsp) | 0 | 2026-11-19 | Zed extension: shows newer versions of the libraries and plu... |
-| [innovatorved/zed-api-client](https://github.com/innovatorved/zed-api-client) | 0 | 2026-11-19 | HTTP client for Zed. |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-11-22T06:44 | 2 | 775 | 2490 |
 | 2026-11-22T00:52 | 1 | 775 | 2488 |
 | 2026-11-21T18:43 | 0 | 775 | 2488 |
 | 2026-11-21T12:43 | 1 | 774 | 2488 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-11-20T12:44 | 1 | 770 | 2484 |
 | 2026-11-20T06:46 | 0 | 770 | 2483 |
 | 2026-11-20T00:51 | 0 | 770 | 2483 |
-| 2026-11-19T18:44 | 0 | 770 | 2483 |
 
 ---
 
