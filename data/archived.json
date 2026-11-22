@@ -1701,5 +1701,31 @@
     "official": false,
     "archived_at": "2026-11-14T12:44:04.181Z",
     "archive_reason": "Stale: not seen in search results and last pushed 416 days ago"
+  },
+  "styraoss/zed-rego": {
+    "name": "StyraOSS/zed-rego",
+    "url": "https://github.com/StyraOSS/zed-rego",
+    "description": "Zed extension for the Rego policy language from Open Policy Agent (OPA)",
+    "stars": 22,
+    "forks": 3,
+    "topics": [
+      "code-quality",
+      "developer-experience",
+      "editor",
+      "opa",
+      "open-policy-agent",
+      "policy-as-code",
+      "regal",
+      "rego",
+      "zed"
+    ],
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "created_at": "2024-05-14T14:40:24Z",
+    "updated_at": "2026-02-13T06:32:17Z",
+    "pushed_at": "2025-11-21T23:09:59Z",
+    "discovered_at": "2026-05-19T19:54:12.054Z",
+    "archived_at": "2026-11-22T00:52:50.659Z",
+    "archive_reason": "Stale: not seen in search results and last pushed 365 days ago"
   }
 }

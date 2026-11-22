@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1951-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1950-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,18 +14,18 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1951** |
+| Total tracked | **1950** |
 | In official registry | 1365 |
-| Discovered via topics | 586 |
-| Last updated | 2026-11-21 18:43 UTC |
+| Discovered via topics | 585 |
+| Last updated | 2026-11-22 00:52 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
 | Themes | 837 |
-| Grammars | 669 |
-| Language Servers | 633 |
+| Grammars | 668 |
+| Language Servers | 632 |
 | Context Servers | 150 |
 | Snippets | 97 |
 | Slash Commands | 64 |
@@ -120,10 +120,10 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 1 | 2026-11-21 | Zed extension that formats and lints HTML templates with djL... |
 | [Y-ASLant/Flow-Icons-Zed](https://github.com/Y-ASLant/Flow-Icons-Zed) | 0 | 2026-11-21 | Base on https://flow-icons.pages.dev/ |
 | [Odonno/zed-piccali](https://github.com/Odonno/zed-piccali) | 0 | 2026-11-21 | Gherkin extension for Zed |
 | [abhinaaaavvv/truly-zen-theme](https://github.com/abhinaaaavvv/truly-zen-theme) | 0 | 2026-11-21 | A zed editor theme for total concentration. |
-| [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 1 | 2026-11-21 | Zed extension that formats and lints HTML templates with djL... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 105 | 2026-11-21 | True Dark Theme for Zed IDE |
 | [felixtensor/zed-mlir](https://github.com/felixtensor/zed-mlir) | 11 | 2026-11-21 | MLIR Extension for Zed |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-11-20 | A Zed extension that allows to highlight all occurrences of ... |
@@ -133,7 +133,7 @@ cd website && npm install && npm run dev
 | [cutie-full-of-charm/zed-ats2](https://github.com/cutie-full-of-charm/zed-ats2) | 0 | 2026-11-19 | Syntax highlighting for ATS2 (Applied Type System 2) in the ... |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-11-19 | Zed editor support for Carve, a modern light markup language |
 | [lbssousa/zed-gregorio](https://github.com/lbssousa/zed-gregorio) | 0 | 2026-11-19 | Zed extension for Gregorio GABC/NABC Gregorian chant notatio... |
-| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 15 | 2026-11-19 | Spring Boot language intelligence for Zed, powered by the of... |
+| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 16 | 2026-11-19 | Spring Boot language intelligence for Zed, powered by the of... |
 | [adrijshikhar/zed-htmx](https://github.com/adrijshikhar/zed-htmx) | 0 | 2026-11-19 | HTMX 2.0 language server extension for the Zed editor, power... |
 | [EDM115/zed-embedded-languages](https://github.com/EDM115/zed-embedded-languages) | 1 | 2026-11-19 | Zed extension to add syntax highlighting to any string as yo... |
 | [talhayksk/zedpolacode](https://github.com/talhayksk/zedpolacode) | 0 | 2026-11-19 | Polacode-style code snapshots for Zed: render a file or line... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-11-22T00:52 | 1 | 775 | 2488 |
 | 2026-11-21T18:43 | 0 | 775 | 2488 |
 | 2026-11-21T12:43 | 1 | 774 | 2488 |
 | 2026-11-21T06:44 | 0 | 774 | 2487 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-11-20T06:46 | 0 | 770 | 2483 |
 | 2026-11-20T00:51 | 0 | 770 | 2483 |
 | 2026-11-19T18:44 | 0 | 770 | 2483 |
-| 2026-11-19T12:44 | 0 | 770 | 2483 |
 
 ---
 

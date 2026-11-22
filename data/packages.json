@@ -5093,7 +5093,7 @@
     "name": "Dylanmurzello/zed-android-port",
     "url": "https://github.com/Dylanmurzello/zed-android-port",
     "description": "Native Android port of the Zed code editor,  gpui rendering through Vulkan, integrated Termux for LSPs and tooling, remote SSH support. Runs as an APK on tablets and Android desktop modes.",
-    "stars": 270,
+    "stars": 272,
     "forks": 24,
     "topics": [
       "android",
@@ -5120,7 +5120,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-05-07T00:12:10Z",
-    "updated_at": "2026-11-19T07:12:39Z",
+    "updated_at": "2026-11-21T22:03:51Z",
     "pushed_at": "2026-11-20T01:43:08Z",
     "discovered_at": "2026-05-19T19:54:12.053Z",
     "official": false
@@ -7941,30 +7941,6 @@
     "created_at": "2025-11-28T18:30:34Z",
     "updated_at": "2025-12-08T09:09:44Z",
     "pushed_at": "2025-11-28T18:31:21Z",
-    "discovered_at": "2026-05-19T19:54:12.054Z"
-  },
-  "styraoss/zed-rego": {
-    "name": "StyraOSS/zed-rego",
-    "url": "https://github.com/StyraOSS/zed-rego",
-    "description": "Zed extension for the Rego policy language from Open Policy Agent (OPA)",
-    "stars": 22,
-    "forks": 3,
-    "topics": [
-      "code-quality",
-      "developer-experience",
-      "editor",
-      "opa",
-      "open-policy-agent",
-      "policy-as-code",
-      "regal",
-      "rego",
-      "zed"
-    ],
-    "language": "Rust",
-    "license": "Apache-2.0",
-    "created_at": "2024-05-14T14:40:24Z",
-    "updated_at": "2026-02-13T06:32:17Z",
-    "pushed_at": "2025-11-21T23:09:59Z",
     "discovered_at": "2026-05-19T19:54:12.054Z"
   },
   "davidlee18/zed_norminette": {
@@ -12288,7 +12264,7 @@
     "url": "https://github.com/bajrangCoder/zed-laravel-blade",
     "description": "Laravel Blade templating language support for Zed.",
     "stars": 46,
-    "forks": 14,
+    "forks": 15,
     "topics": [
       "blade",
       "laravel",
@@ -17897,7 +17873,7 @@
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
     "updated_at": "2026-11-18T20:41:47Z",
-    "pushed_at": "2026-11-21T12:44:23Z",
+    "pushed_at": "2026-11-21T18:44:28Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -20315,13 +20291,13 @@
     "name": "ABckh/zed-java-eclipse-jdtls",
     "url": "https://github.com/ABckh/zed-java-eclipse-jdtls",
     "description": "",
-    "stars": 40,
+    "stars": 39,
     "forks": 2,
     "topics": [],
     "language": "Rust",
     "license": "EPL-2.0",
     "created_at": "2024-04-25T18:23:57Z",
-    "updated_at": "2026-08-12T12:06:39Z",
+    "updated_at": "2026-11-21T22:58:25Z",
     "pushed_at": "2025-07-17T17:55:18Z",
     "discovered_at": "2026-05-19T21:42:53.670Z",
     "official": false
@@ -31862,7 +31838,7 @@
     "license": "ISC",
     "created_at": "2026-07-04T02:15:25Z",
     "updated_at": "2026-11-10T21:46:04Z",
-    "pushed_at": "2026-11-21T01:04:31Z",
+    "pushed_at": "2026-11-21T21:23:42Z",
     "discovered_at": "2026-07-06T19:18:00.225Z",
     "official": false
   },
@@ -32588,7 +32564,7 @@
     "name": "luceat-lux-vestra/zed-spring-tools",
     "url": "https://github.com/luceat-lux-vestra/zed-spring-tools",
     "description": "Spring Boot language intelligence for Zed, powered by the official standalone Spring Tools language server. Complements Zed's Java extension. Registry publication pending.",
-    "stars": 15,
+    "stars": 16,
     "forks": 1,
     "topics": [
       "java",
@@ -32603,7 +32579,7 @@
     "language": "JavaScript",
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
-    "updated_at": "2026-11-19T16:03:58Z",
+    "updated_at": "2026-11-21T22:01:35Z",
     "pushed_at": "2026-11-19T12:47:50Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false
@@ -36009,7 +35985,7 @@
     "license": "MIT",
     "created_at": "2025-12-13T09:32:42Z",
     "updated_at": "2026-11-12T15:24:29Z",
-    "pushed_at": "2026-11-13T21:13:50Z",
+    "pushed_at": "2026-11-21T20:03:16Z",
     "discovered_at": "2026-08-28T16:48:20.309Z",
     "official": true
   },
@@ -39766,7 +39742,7 @@
     "license": null,
     "created_at": "2026-09-04T07:49:15Z",
     "updated_at": "2026-11-12T12:55:25Z",
-    "pushed_at": "2026-11-21T12:26:08Z",
+    "pushed_at": "2026-11-21T23:57:47Z",
     "discovered_at": "2026-09-30T12:59:15.249Z",
     "official": false
   },
@@ -42510,7 +42486,7 @@
     "license": "MIT",
     "created_at": "2026-11-01T01:34:22Z",
     "updated_at": "2026-11-16T15:05:06Z",
-    "pushed_at": "2026-11-21T09:33:00Z",
+    "pushed_at": "2026-11-21T21:59:47Z",
     "discovered_at": "2026-11-01T12:43:52.373Z",
     "official": false
   },
@@ -43138,7 +43114,7 @@
     "license": "MIT",
     "created_at": "2026-11-02T13:18:49Z",
     "updated_at": "2026-11-20T02:32:42Z",
-    "pushed_at": "2026-11-21T03:17:39Z",
+    "pushed_at": "2026-11-22T00:50:50Z",
     "discovered_at": "2026-11-07T06:44:02.081Z",
     "official": false
   },
@@ -44044,7 +44020,7 @@
     "license": "GPL-3.0",
     "created_at": "2026-07-19T22:08:43Z",
     "updated_at": "2026-11-21T12:38:43Z",
-    "pushed_at": "2026-11-20T14:02:19Z",
+    "pushed_at": "2026-11-21T23:48:28Z",
     "discovered_at": "2026-11-18T00:52:50.176Z",
     "official": false
   },
@@ -44334,6 +44310,28 @@
     "updated_at": "2026-11-21T11:01:55Z",
     "pushed_at": "2026-11-21T10:54:54Z",
     "discovered_at": "2026-11-21T12:43:48.639Z",
+    "official": false
+  },
+  "corthx/zed-ext-http": {
+    "name": "corthx/zed-ext-http",
+    "url": "https://github.com/corthx/zed-ext-http",
+    "description": "Zed extension for HTTP request files (.http). Brings syntax highlighting and editing support for HTTP requests to Zed, so you can write and keep API calls next to your code, in the same format as REST Client and the JetBrains HTTP Client. Dev on GitLab: https://gitlab.com/corthx/zed-ext-http",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "http",
+      "http-client",
+      "rest-api",
+      "rest-client",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "HCL",
+    "license": "Apache-2.0",
+    "created_at": "2026-11-21T22:47:11Z",
+    "updated_at": "2026-11-22T00:29:40Z",
+    "pushed_at": "2026-11-22T00:37:40Z",
+    "discovered_at": "2026-11-22T00:52:50.657Z",
     "official": false
   }
 }
