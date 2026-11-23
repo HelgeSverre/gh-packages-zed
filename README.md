@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1951** |
 | In official registry | 1365 |
 | Discovered via topics | 586 |
-| Last updated | 2026-11-23 06:56 UTC |
+| Last updated | 2026-11-23 12:44 UTC |
 
 ### By capability
 
@@ -101,7 +101,7 @@ cd website && npm install && npm run dev
 | [oxc-project/oxc-zed](https://github.com/oxc-project/oxc-zed) | 256 | Oxc extension for Zed |
 | [catppuccin/zed-icons](https://github.com/catppuccin/zed-icons) | 240 | 🦊 Soothing pastel icons for Zed |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 223 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
-| [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 215 | Zed support for the Godot game engine and the GDScript language |
+| [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 216 | Zed support for the Godot game engine and the GDScript language |
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 211 | Typst extension for zed |
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
@@ -120,17 +120,19 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [wielorzeczownik/zed-volt](https://github.com/wielorzeczownik/zed-volt) | 0 | 2026-11-23 | Phalcon Volt template support for Zed: syntax highlighting a... |
-| [ChemisTechlabs/zed-pascal](https://github.com/ChemisTechlabs/zed-pascal) | 18 | 2026-11-23 | A Pascal language extension for Zed Editor |
-| [zed-extentions/zed-csharp-debugger](https://github.com/zed-extentions/zed-csharp-debugger) | 0 | 2026-11-23 | Debug C#/.NET applications in Zed using netcoredbg (Debug Ad... |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 16 | 2026-11-23 | Spring Boot language intelligence for Zed, powered by the of... |
+| [caozeal/zed-endpoint-nav](https://github.com/caozeal/zed-endpoint-nav) | 0 | 2026-11-23 | 把 Spring / FastAPI / MCP 的请求映射当作符号，喂给 Zed 的 Cmd+T（Go to Symb... |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 105 | 2026-11-23 | True Dark Theme for Zed IDE |
+| [comphy-lab/comphy-zed-themes](https://github.com/comphy-lab/comphy-zed-themes) | 2 | 2026-11-23 |  |
+| [ChemisTechlabs/zed-pascal](https://github.com/ChemisTechlabs/zed-pascal) | 18 | 2026-11-23 | A Pascal language extension for Zed Editor |
+| [wielorzeczownik/zed-volt](https://github.com/wielorzeczownik/zed-volt) | 0 | 2026-11-23 | Phalcon Volt template support for Zed: syntax highlighting a... |
+| [zed-extentions/zed-csharp-debugger](https://github.com/zed-extentions/zed-csharp-debugger) | 0 | 2026-11-23 | Debug C#/.NET applications in Zed using netcoredbg (Debug Ad... |
 | [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 1 | 2026-11-22 | Zed extension that formats and lints HTML templates with djL... |
 | [dynotable/zed-dynotable](https://github.com/dynotable/zed-dynotable) | 0 | 2026-11-22 | DynoTable for Zed: SQL and PartiQL for DynamoDB, with comple... |
 | [matinfo-tech/zed-markdown-pdf-export](https://github.com/matinfo-tech/zed-markdown-pdf-export) | 0 | 2026-11-22 | Zed extension for markdown-pdf-export: Markdown to PDF with ... |
 | [akilama471/zed-laravel-extension](https://github.com/akilama471/zed-laravel-extension) | 0 | 2026-11-22 | Enhance your Zed IDE experience with full Laravel support. T... |
 | [felixtensor/zed-mlir](https://github.com/felixtensor/zed-mlir) | 11 | 2026-11-22 | MLIR Extension for Zed |
 | [reuixiy7/zed-lean4](https://github.com/reuixiy7/zed-lean4) | 67 | 2026-11-22 |  |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 105 | 2026-11-22 | True Dark Theme for Zed IDE |
 | [bajrangCoder/zed-laravel-blade](https://github.com/bajrangCoder/zed-laravel-blade) | 47 | 2026-11-22 | Laravel Blade templating language support for Zed. |
 | [Y-ASLant/Flow-Icons-Zed](https://github.com/Y-ASLant/Flow-Icons-Zed) | 0 | 2026-11-21 | Base on https://flow-icons.pages.dev/ |
 | [Odonno/zed-piccali](https://github.com/Odonno/zed-piccali) | 0 | 2026-11-21 | Gherkin extension for Zed |
@@ -138,13 +140,12 @@ cd website && npm install && npm run dev
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-11-20 | A Zed extension that allows to highlight all occurrences of ... |
 | [ednanf/yay-sayer](https://github.com/ednanf/yay-sayer) | 0 | 2026-11-20 | Naysayer-inspired dark and complementary light themes for Ze... |
 | [zed-extensions/kotlin](https://github.com/zed-extensions/kotlin) | 109 | 2026-11-20 | Kotlin support |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 223 | 2026-11-20 | Zed plugin for automatic time tracking and metrics generated... |
-| [cutie-full-of-charm/zed-ats2](https://github.com/cutie-full-of-charm/zed-ats2) | 0 | 2026-11-19 | Syntax highlighting for ATS2 (Applied Type System 2) in the ... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-11-23T12:44 | 1 | 778 | 2492 |
 | 2026-11-23T06:56 | 2 | 776 | 2491 |
 | 2026-11-23T00:53 | 0 | 777 | 2490 |
 | 2026-11-22T18:44 | 0 | 777 | 2490 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-11-21T18:43 | 0 | 775 | 2488 |
 | 2026-11-21T12:43 | 1 | 774 | 2488 |
 | 2026-11-21T06:44 | 0 | 774 | 2487 |
-| 2026-11-21T00:51 | 2 | 772 | 2487 |
 
 ---
 
