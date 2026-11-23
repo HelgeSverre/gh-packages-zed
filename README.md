@@ -17,19 +17,19 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1951** |
 | In official registry | 1365 |
 | Discovered via topics | 586 |
-| Last updated | 2026-11-23 00:53 UTC |
+| Last updated | 2026-11-23 06:56 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
-| Themes | 837 |
+| Themes | 836 |
 | Grammars | 668 |
 | Language Servers | 632 |
 | Context Servers | 151 |
 | Snippets | 97 |
 | Slash Commands | 64 |
-| Debug Adapters | 38 |
+| Debug Adapters | 39 |
 | Docs Providers | 16 |
 
 ## How it works
@@ -70,6 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [zed-extentions/zed-csharp-debugger](https://github.com/zed-extentions/zed-csharp-debugger) | 0 | Debug C#/.NET applications in Zed using netcoredbg (Debug Adapter Protocol) |
 | [matinfo-tech/zed-markdown-pdf-export](https://github.com/matinfo-tech/zed-markdown-pdf-export) | 0 | Zed extension for markdown-pdf-export: Markdown to PDF with your header, footer,... |
 | [Odonno/zed-piccali](https://github.com/Odonno/zed-piccali) | 0 | Gherkin extension for Zed |
 | [ednanf/yay-sayer](https://github.com/ednanf/yay-sayer) | 0 | Naysayer-inspired dark and complementary light themes for Zed |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [talhayksk/zedpolacode](https://github.com/talhayksk/zedpolacode) | 0 | Polacode-style code snapshots for Zed: render a file or line range as a shareabl... |
 | [wiroai/Wiro-Zed](https://github.com/wiroai/Wiro-Zed) | 0 | Wiro AI MCP server for the Zed editor: search, price and run 1,000+ image, video... |
 | [steimerbyte/gruvbox-amoled](https://github.com/steimerbyte/gruvbox-amoled) | 0 | Pure-black Gruvbox themes for Zed (AMOLED Hard/Medium/Soft) and OMP |
-| [MistanKh/grok-theme](https://github.com/MistanKh/grok-theme) | 0 | Grok Obsidian and Grok Parchment themes for Zed (unofficial). |
 
 ## Top starred (under 500)
 
@@ -121,8 +121,10 @@ cd website && npm install && npm run dev
 | Package | Stars | Last push | Description |
 |---|---|---|---|
 | [wielorzeczownik/zed-volt](https://github.com/wielorzeczownik/zed-volt) | 0 | 2026-11-23 | Phalcon Volt template support for Zed: syntax highlighting a... |
+| [ChemisTechlabs/zed-pascal](https://github.com/ChemisTechlabs/zed-pascal) | 18 | 2026-11-23 | A Pascal language extension for Zed Editor |
+| [zed-extentions/zed-csharp-debugger](https://github.com/zed-extentions/zed-csharp-debugger) | 0 | 2026-11-23 | Debug C#/.NET applications in Zed using netcoredbg (Debug Ad... |
+| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 16 | 2026-11-23 | Spring Boot language intelligence for Zed, powered by the of... |
 | [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 1 | 2026-11-22 | Zed extension that formats and lints HTML templates with djL... |
-| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 16 | 2026-11-22 | Spring Boot language intelligence for Zed, powered by the of... |
 | [dynotable/zed-dynotable](https://github.com/dynotable/zed-dynotable) | 0 | 2026-11-22 | DynoTable for Zed: SQL and PartiQL for DynamoDB, with comple... |
 | [matinfo-tech/zed-markdown-pdf-export](https://github.com/matinfo-tech/zed-markdown-pdf-export) | 0 | 2026-11-22 | Zed extension for markdown-pdf-export: Markdown to PDF with ... |
 | [akilama471/zed-laravel-extension](https://github.com/akilama471/zed-laravel-extension) | 0 | 2026-11-22 | Enhance your Zed IDE experience with full Laravel support. T... |
@@ -138,13 +140,12 @@ cd website && npm install && npm run dev
 | [zed-extensions/kotlin](https://github.com/zed-extensions/kotlin) | 109 | 2026-11-20 | Kotlin support |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 223 | 2026-11-20 | Zed plugin for automatic time tracking and metrics generated... |
 | [cutie-full-of-charm/zed-ats2](https://github.com/cutie-full-of-charm/zed-ats2) | 0 | 2026-11-19 | Syntax highlighting for ATS2 (Applied Type System 2) in the ... |
-| [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-11-19 | Zed editor support for Carve, a modern light markup language |
-| [lbssousa/zed-gregorio](https://github.com/lbssousa/zed-gregorio) | 0 | 2026-11-19 | Zed extension for Gregorio GABC/NABC Gregorian chant notatio... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-11-23T06:56 | 2 | 776 | 2491 |
 | 2026-11-23T00:53 | 0 | 777 | 2490 |
 | 2026-11-22T18:44 | 0 | 777 | 2490 |
 | 2026-11-22T12:43 | 0 | 777 | 2490 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-11-21T12:43 | 1 | 774 | 2488 |
 | 2026-11-21T06:44 | 0 | 774 | 2487 |
 | 2026-11-21T00:51 | 2 | 772 | 2487 |
-| 2026-11-20T18:44 | 1 | 771 | 2485 |
 
 ---
 

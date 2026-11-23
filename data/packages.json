@@ -3215,11 +3215,11 @@
       "zed",
       "zed-extension"
     ],
-    "language": "Tree-sitter Query",
+    "language": "Pascal",
     "license": "BSD-3-Clause",
     "created_at": "2025-10-08T00:37:21Z",
-    "updated_at": "2026-11-18T05:38:36Z",
-    "pushed_at": "2026-11-19T03:57:31Z",
+    "updated_at": "2026-11-23T06:37:25Z",
+    "pushed_at": "2026-11-23T05:37:21Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -17863,7 +17863,7 @@
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
     "updated_at": "2026-11-18T20:41:47Z",
-    "pushed_at": "2026-11-22T18:44:28Z",
+    "pushed_at": "2026-11-23T00:54:28Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -28789,7 +28789,7 @@
     "license": "MIT",
     "created_at": "2026-03-09T09:38:48Z",
     "updated_at": "2026-11-19T23:30:28Z",
-    "pushed_at": "2026-11-22T20:41:53Z",
+    "pushed_at": "2026-11-23T06:52:43Z",
     "discovered_at": "2026-05-25T18:33:55.225Z",
     "official": false
   },
@@ -31277,7 +31277,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-04-30T15:29:50Z",
     "updated_at": "2026-11-07T10:28:41Z",
-    "pushed_at": "2026-11-21T03:38:07Z",
+    "pushed_at": "2026-11-23T03:02:18Z",
     "discovered_at": "2026-06-26T18:36:57.330Z",
     "official": false
   },
@@ -32570,7 +32570,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
     "updated_at": "2026-11-21T22:01:35Z",
-    "pushed_at": "2026-11-22T21:27:36Z",
+    "pushed_at": "2026-11-23T03:31:38Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false
   },
@@ -33298,25 +33298,6 @@
     "created_at": "2024-09-26T13:20:54Z",
     "updated_at": "2025-06-19T09:23:14Z",
     "pushed_at": "2024-09-26T13:22:33Z",
-    "discovered_at": "2026-07-28T07:34:46.549Z",
-    "official": false
-  },
-  "iyair/kanagawa-theme": {
-    "name": "IYair/kanagawa-theme",
-    "url": "https://github.com/IYair/kanagawa-theme",
-    "description": "🐉 A theme inspired by the Kanagawa wave 🌊",
-    "stars": 1,
-    "forks": 0,
-    "topics": [
-      "kanagawa",
-      "themes",
-      "zed-extension"
-    ],
-    "language": null,
-    "license": "MIT",
-    "created_at": "2024-09-16T22:57:07Z",
-    "updated_at": "2024-09-17T17:55:50Z",
-    "pushed_at": "2024-09-17T17:55:46Z",
     "discovered_at": "2026-07-28T07:34:46.549Z",
     "official": false
   },
@@ -36744,7 +36725,7 @@
     "license": "MIT",
     "created_at": "2026-09-07T16:00:35Z",
     "updated_at": "2026-11-16T01:20:52Z",
-    "pushed_at": "2026-11-18T20:53:15Z",
+    "pushed_at": "2026-11-23T03:36:43Z",
     "discovered_at": "2026-09-07T18:46:27.369Z",
     "official": false
   },
@@ -39732,7 +39713,7 @@
     "license": null,
     "created_at": "2026-09-04T07:49:15Z",
     "updated_at": "2026-11-12T12:55:25Z",
-    "pushed_at": "2026-11-22T20:57:37Z",
+    "pushed_at": "2026-11-23T05:39:27Z",
     "discovered_at": "2026-09-30T12:59:15.249Z",
     "official": false
   },
@@ -42611,7 +42592,7 @@
     "license": "MIT",
     "created_at": "2026-11-02T21:19:09Z",
     "updated_at": "2026-11-09T04:29:21Z",
-    "pushed_at": "2026-11-23T00:43:30Z",
+    "pushed_at": "2026-11-23T06:05:21Z",
     "discovered_at": "2026-11-03T00:49:46.905Z",
     "official": false
   },
@@ -43104,7 +43085,7 @@
     "license": "MIT",
     "created_at": "2026-11-02T13:18:49Z",
     "updated_at": "2026-11-20T02:32:42Z",
-    "pushed_at": "2026-11-23T00:29:51Z",
+    "pushed_at": "2026-11-23T01:18:38Z",
     "discovered_at": "2026-11-07T06:44:02.081Z",
     "official": false
   },
@@ -44251,7 +44232,7 @@
     "name": "bytebeast/kissaten.nvim",
     "url": "https://github.com/bytebeast/kissaten.nvim",
     "description": "Coffee-house Neovim / Vim / VS Code colorscheme. WCAG-checked, LazyVim-ready, 5 styles. Code theme with Treesitter, LSP semantic tokens, 62 plugin integrations, 28 tool themes, lualine and terminal themes",
-    "stars": 14,
+    "stars": 16,
     "forks": 0,
     "topics": [
       "accessibility",
@@ -44278,7 +44259,7 @@
     "language": "Lua",
     "license": "MIT",
     "created_at": "2026-10-22T18:40:09Z",
-    "updated_at": "2026-11-21T17:38:44Z",
+    "updated_at": "2026-11-23T05:06:27Z",
     "pushed_at": "2026-11-21T00:22:11Z",
     "discovered_at": "2026-11-21T00:51:13.841Z",
     "official": false
@@ -44371,6 +44352,59 @@
     "updated_at": "2026-11-22T15:28:29Z",
     "pushed_at": "2026-11-22T21:42:38Z",
     "discovered_at": "2026-11-22T06:44:34.132Z",
+    "official": false
+  },
+  "zed-extentions/zed-csharp-debugger": {
+    "name": "zed-extentions/zed-csharp-debugger",
+    "url": "https://github.com/zed-extentions/zed-csharp-debugger",
+    "description": "Debug C#/.NET applications in Zed using netcoredbg (Debug Adapter Protocol)",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "csharp",
+      "debugger",
+      "dotnet",
+      "netcoredbg",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2026-11-23T04:45:54Z",
+    "updated_at": "2026-11-23T04:52:56Z",
+    "pushed_at": "2026-11-23T04:52:02Z",
+    "discovered_at": "2026-11-23T06:56:16.851Z",
+    "official": false
+  },
+  "thezaynahmed/gotham-noir": {
+    "name": "thezaynahmed/gotham-noir",
+    "url": "https://github.com/thezaynahmed/gotham-noir",
+    "description": "4 anti-halation nocturnal dark themes (Year One, Batcomputer, Arkham Slate, Vengeance) engineered with OKLCH + APCA contrast for VS Code, Cursor, Zed, Ghostty, Warp & 15+ terminals.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "accessibility",
+      "adhd",
+      "apca",
+      "color-scheme",
+      "cursor",
+      "dark-theme",
+      "dyslexia",
+      "ghostty",
+      "gotham",
+      "noir",
+      "oklch",
+      "terminal-themes",
+      "vscode-theme",
+      "warp-terminal",
+      "zed-theme"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "created_at": "2026-11-23T02:11:00Z",
+    "updated_at": "2026-11-23T02:47:14Z",
+    "pushed_at": "2026-11-23T02:58:57Z",
+    "discovered_at": "2026-11-23T06:56:16.853Z",
     "official": false
   }
 }

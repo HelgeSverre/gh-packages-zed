@@ -1,0 +1,738 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>C# Debugger (NetCoreDbg) - Zed Extension Safari</title><meta name="description" content="Debug C#/.NET applications in Zed using netcoredbg (Debug Adapter Protocol)"><link rel="canonical" href="https://helgesverre.github.io/gh-packages-zed/package/zed-extentions/zed-csharp-debugger/"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="C# Debugger (NetCoreDbg) - Zed Extension Safari"><meta property="og:description" content="Debug C#/.NET applications in Zed using netcoredbg (Debug Adapter Protocol)"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed/package/zed-extentions/zed-csharp-debugger/"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="C# Debugger (NetCoreDbg) - Zed Extension Safari"><meta name="twitter:description" content="Debug C#/.NET applications in Zed using netcoredbg (Debug Adapter Protocol)"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/gh-packages-zed/_astro/ClientRouter.astro_astro_type_script_index_0_lang.ClVLs1kt.js"></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"C# Debugger (NetCoreDbg)","description":"Debug C#/.NET applications in Zed using netcoredbg (Debug Adapter Protocol)","applicationCategory":"DeveloperApplication","operatingSystem":"macOS, Linux, Windows","url":"https://zed.dev/extensions/csharp-debugger","codeRepository":"https://github.com/zed-extentions/zed-csharp-debugger","author":[{"@type":"Person","name":"wruwami"}],"softwareVersion":"0.1.0","license":"MIT","keywords":"debug-adapter","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/Layout.CGDlMdWE.css"><script type="module" src="/gh-packages-zed/_astro/page.B8i1Zz-u.js"></script></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <a href="#main" class="skip-to-content">Skip to content</a> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" data-astro-transition-persist="astro-fhchcgd7-1"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <script type="application/json" id="pkg-extras">{"url":"https://github.com/zed-extentions/zed-csharp-debugger","language":"Rust","license":"MIT","topics":["csharp","debugger","dotnet","netcoredbg","zed","zed-extension"],"extension":{"authors":["wruwami"],"schema_version":1}}</script> <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> zed-extentions/zed-csharp-debugger </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> C# Debugger (NetCoreDbg) </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> Debug C#/.NET applications in Zed using netcoredbg (Debug Adapter Protocol) </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="debug-adapter">Debug Adapter</span> </div> </div> </div> </header> <main id="main" class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/csharp-debugger" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/zed-extentions/zed-csharp-debugger" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.1.0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">csharp-debugger</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">Rust</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">MIT</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">2h ago</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">wruwami</dd> </div> </dl>  <h2 class="mt-5 text-xs uppercase font-mono" style="color:var(--zed-muted);">Topics</h2> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> csharp </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> debugger </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> dotnet </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> netcoredbg </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed-extension </span> </div>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-zed-csharp-debugger--cnet-debugging-for-zed-netcoredbg"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#zed-csharp-debugger--cnet-debugging-for-zed-netcoredbg"><span class="heading-anchor-icon">#</span></a>zed-csharp-debugger — C#/.NET debugging for Zed (netcoredbg)</h1>
+<p>A DAP debug adapter extension that lets Zed's built-in debugger debug C#/.NET
+applications, inspired by the debugging workflow of <a href="https://github.com/dotnet/vscode-csharp">dotnet/vscode-csharp</a> (MIT) — with <strong>zero dependency on VSCode extensions</strong>.
+It runs <a href="https://github.com/Samsung/netcoredbg">Samsung/netcoredbg</a> (MIT) with
+<code>--interpreter=vscode</code> (stdio DAP) and reimplements the launch/attach wiring the VSCode C#
+extension performs, against the Zed extension API. The netcoredbg binary is not
+bundled in the repository — it is user-installed or downloaded automatically on first use.</p>
+<blockquote>
+<p>As of Zed's docs, C# debugging is unsupported ("Native C# debugging isn't available yet") —
+this extension fills that gap.</p>
+</blockquote>
+<h2 id="user-content-demo"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#demo"><span class="heading-anchor-icon">#</span></a>Demo</h2>
+<p>Recorded in the real Zed editor (<code>v1.28.1</code>) by the <a href="https://github.com/zed-extentions/zed-csharp-debugger/blob/HEAD/.github/workflows/demos.yml" target="_blank" rel="noopener"><code>Feature GIFs</code></a> workflow (<code>ci/scenarios.py</code>); DAP protocol traces verify <code>netcoredbg</code> (<code>3.2.0-1092</code>) breakpoint stops, local variable inspection, step-over execution, and <code>dotnet-build</code> locator resolution in each recording.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Reference (<code>dotnet/vscode-csharp</code> / <code>Samsung/netcoredbg</code>)</th><th><code>zed-csharp-debugger</code> (Zed)</th><th>Differences / Notes</th></tr></thead><tbody><tr><td>VS Code C# Dev Kit / <code>vsdbg</code> Run &#x26; Debug sidebar and Launch configs</td><td><img src="https://raw.githubusercontent.com/zed-extentions/zed-csharp-debugger/HEAD/docs/media/dap-breakpoint-locals.gif" alt="Breakpoint &#x26; Locals"><br><img src="https://raw.githubusercontent.com/zed-extentions/zed-csharp-debugger/HEAD/docs/media/dap-step-over.gif" alt="Step Over &#x26; Continue"></td><td>Runs MIT-licensed <code>Samsung/netcoredbg</code> via native Zed Debug Palette (<code>F4</code>), Variables/Frames/Console panels, <code>F9</code>/<code>F10</code>/<code>F5</code>, <code>.vscode/launch.json</code> <code>coreclr</code> bridging, and the <code>dotnet-build</code> task locator.</td></tr></tbody></table>
+<h3 id="user-content-breakpoint--locals-inspection-f9--f4"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#breakpoint--locals-inspection-f9--f4"><span class="heading-anchor-icon">#</span></a>Breakpoint &#x26; Locals Inspection (<code>F9</code> + <code>F4</code>)</h3>
+<p><img src="https://raw.githubusercontent.com/zed-extentions/zed-csharp-debugger/HEAD/docs/media/dap-breakpoint-locals.gif" alt="Breakpoint &#x26; Locals"></p>
+<h3 id="user-content-step-over-f10--continue-f5"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#step-over-f10--continue-f5"><span class="heading-anchor-icon">#</span></a>Step Over (<code>F10</code>) &#x26; Continue (<code>F5</code>)</h3>
+<p><img src="https://raw.githubusercontent.com/zed-extentions/zed-csharp-debugger/HEAD/docs/media/dap-step-over.gif" alt="Step Over &#x26; Continue"></p>
+<h3 id="user-content-build-then-debug-task-locator-dotnet-build"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#build-then-debug-task-locator-dotnet-build"><span class="heading-anchor-icon">#</span></a>Build-then-Debug Task Locator (<code>dotnet-build</code>)</h3>
+<p><img src="https://raw.githubusercontent.com/zed-extentions/zed-csharp-debugger/HEAD/docs/media/dap-build-locator.gif" alt="Build-then-Debug Task Locator"></p>
+<h3 id="user-content-sample-app-walkthrough-examplesdebug-sample"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#sample-app-walkthrough-examplesdebug-sample"><span class="heading-anchor-icon">#</span></a>Sample App Walkthrough (<code>examples/debug-sample</code>)</h3>
+<p>Recorded by <code>ci/scenarios_sample.py</code> against the bundled <a href="https://github.com/zed-extentions/zed-csharp-debugger/blob/HEAD/examples/debug-sample" target="_blank" rel="noopener"><code>examples/debug-sample</code></a> app: a breakpoint inside <code>Multiply()</code> shows the call stack and arguments, <code>F10</code> steps over (<code>result</code> becomes <code>42</code>), and <code>F5</code> runs to exit.</p>
+<p><img src="https://raw.githubusercontent.com/zed-extentions/zed-csharp-debugger/HEAD/docs/media/sample-breakpoint-callstack.gif" alt="Sample: Breakpoint &#x26; Call Stack"></p>
+<p><img src="https://raw.githubusercontent.com/zed-extentions/zed-csharp-debugger/HEAD/docs/media/sample-step-over.gif" alt="Sample: Step Over"></p>
+<p><img src="https://raw.githubusercontent.com/zed-extentions/zed-csharp-debugger/HEAD/docs/media/sample-continue-exit.gif" alt="Sample: Continue to Exit"></p>
+<h2 id="user-content--editor-native-palette-experience-no-assistant-required"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#-editor-native-palette-experience-no-assistant-required"><span class="heading-anchor-icon">#</span></a>🚀 Editor Native Palette Experience (No Assistant Required)</h2>
+<p>Zed's headless WASM architecture runs debugging workflows through native Zed palettes via <code>netcoredbg</code> (stdio DAP):</p>
+<ul>
+<li><strong>Debug Palette (<code>F4</code> / <code>debugger: start</code>)</strong>: Launch scenarios from <code>.zed/debug.json</code> or automatically bridged <code>.vscode/launch.json</code> <code>coreclr</code> configurations.</li>
+<li><strong>Process Picker Modal (<code>${ZED_PICK_PID}</code>)</strong>: Interactively pick and attach to a running <code>.NET</code> / <code>dotnet</code> process without numeric parsing errors.</li>
+<li><strong>Native Debug Panel &#x26; Toolbar (<code>F5</code>, <code>F10</code>, <code>F11</code>)</strong>: Inspect Locals, Watch expressions, Call Stack frames, and Debug Console output natively inside Zed.</li>
+</ul>
+<h2 id="user-content-feature-parity-with-vscode-csharp--netcoredbg"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#feature-parity-with-vscode-csharp--netcoredbg"><span class="heading-anchor-icon">#</span></a>Feature Parity with <code>vscode-csharp</code> / <code>netcoredbg</code></h2>
+<h3 id="user-content-adapter-provisioning--transport"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#adapter-provisioning--transport"><span class="heading-anchor-icon">#</span></a>Adapter Provisioning &#x26; Transport</h3>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" checked disabled> stdio DAP wiring (<code>netcoredbg --interpreter=vscode</code>)</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> Binary resolution hierarchy: <code>dap.netcoredbg.binary</code> setting → <code>$PATH</code> lookup → automatic GitHub Releases download (<code>Samsung/netcoredbg</code>)</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> Session-memoized release resolution, versioned cache reuse, automatic cleanup of older cached versions, and offline cache fallback</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> Intel macOS (<code>osx-amd64</code>) automatic fallback to <code>3.1.3-1062</code></li>
+<li class="task-list-item"><input type="checkbox" checked disabled> <code>pipeTransport</code> wrapper execution (<code>docker exec</code>, <code>kubectl exec</code>, <code>ssh</code>) and TCP connect to <code>netcoredbg --server</code> (<code>tcp_connection</code>)</li>
+<li class="task-list-item"><input type="checkbox" disabled> Automatic binary download on Windows ARM64, 32-bit x86, and Linux musl <em>(No official <code>Samsung/netcoredbg</code> release asset published; build from source or set <code>dap.netcoredbg.binary</code>)</em></li>
+<li class="task-list-item"><input type="checkbox" disabled> User-customizable adapter CLI <code>args</code> and <code>env</code> via Zed settings <em>(Blocked until Zed forwards <code>dap.&#x3C;adapter>.args</code> / <code>env</code> to extensions — <a href="https://github.com/zed-extentions/zed-csharp-debugger/issues/16">issue #16</a>)</em></li>
+</ul>
+<h3 id="user-content-launch--attach-configuration-vscode-csharp-compatibility"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#launch--attach-configuration-vscode-csharp-compatibility"><span class="heading-anchor-icon">#</span></a>Launch &#x26; Attach Configuration (<code>vscode-csharp</code> Compatibility)</h3>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" checked disabled> <code>request: "launch"</code> (<code>program</code>, <code>args</code>, <code>cwd</code> defaulting to worktree root, <code>env</code>, <code>stopAtEntry</code>)</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> <code>request: "attach"</code> (<code>processId</code> as integer, numeric string, or <code>"${ZED_PICK_PID}"</code> interactive picker)</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> <code>.vscode/launch.json</code> <code>coreclr</code> bridging (<code>${workspaceFolder}</code>, <code>${workspaceRoot}</code>, <code>${command:pickProcess}</code> → <code>${ZED_PICK_PID}</code>)</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> <code>Properties/launchSettings.json</code> profile merging (<code>launchSettingsProfile</code>, <code>launchSettingsFilePath</code>)</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> <code>envFile</code> dotenv loading (<code>KEY=VALUE</code>, comments, quotes, <code>export</code>) with precedence <code>env</code> > <code>launchSettings</code> > <code>envFile</code> > <code>DOTNET_ROOT</code></li>
+<li class="task-list-item"><input type="checkbox" checked disabled> <code>console: "internalConsole"</code> validation (rejects <code>integratedTerminal</code> / <code>externalTerminal</code> with attach workaround because <code>netcoredbg</code> lacks DAP <code>runInTerminal</code>)</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> Automatic <code>DOTNET_ROOT</code> discovery and environment injection from <code>dotnet</code> on <code>$PATH</code> (skipped for <code>pipeTransport</code> / <code>tcp_connection</code>)</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> Verbatim forwarding of <code>netcoredbg</code> / <code>vscode-csharp</code> fields (<code>justMyCode</code>, <code>enableStepFiltering</code> on launch, etc.)</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> Zed New-Process Modal support (Launch and Attach UI tabs via <code>dap_request_kind</code> and <code>dap_config_to_scenario</code>)</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> JSON Schema validation and autocompletion for <code>.zed/debug.json</code> (<code>debug_adapter_schemas/netcoredbg.json</code>)</li>
+<li class="task-list-item"><input type="checkbox" disabled> <code>sourceFileMap</code> and <code>targetArchitecture</code> runtime behavior <em>(Accepted in schema for <code>vscode-csharp</code> compatibility, ignored by <code>netcoredbg</code> upstream — <a href="https://github.com/Samsung/netcoredbg/issues/78">Samsung/netcoredbg#78</a>)</em></li>
+</ul>
+<h3 id="user-content-build-then-debug--diagnostics"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#build-then-debug--diagnostics"><span class="heading-anchor-icon">#</span></a>Build-then-Debug &#x26; Diagnostics</h3>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" checked disabled> <code>dotnet build</code> and <code>dotnet test</code> (Microsoft.Testing.Platform) task debug locator (<code>debug_locators.dotnet-build</code>) — builds project and queries <code>dotnet msbuild -getProperty:TargetPath</code></li>
+<li class="task-list-item"><input type="checkbox" checked disabled> Forwarding of output-affecting CLI switches (<code>-c</code>, <code>-f</code>, <code>-r</code>, <code>--ucr</code>, <code>-o</code>, <code>--artifacts-path</code>, <code>-p:</code>) to MSBuild property evaluation</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> Adapter diagnostic flags via <code>logging</code> object (<code>engine</code> / <code>engineLogging</code> → <code>--engineLogging</code>, <code>enginePath</code>, <code>log</code> → <code>--log</code>, <code>logPath</code>) and graceful ignore of <code>vscode-csharp</code>-only logging keys</li>
+<li class="task-list-item"><input type="checkbox" disabled> Automatic startup-project selection when building a <code>.sln</code> / <code>.slnx</code> / <code>.slnf</code> solution <em>(MSBuild MSB1063 limit; task must target a project or run in a single-project directory)</em></li>
+<li class="task-list-item"><input type="checkbox" disabled> Proprietary <code>vsdbg</code>-only features (Logpoints, Hit-count breakpoints, Hot Reload, Blazor WASM, symbol server UI options)</li>
+</ul>
+<h2 id="user-content-feature-support-matrix-netcoredbg-vs-vscode-csharp--vsdbg"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#feature-support-matrix-netcoredbg-vs-vscode-csharp--vsdbg"><span class="heading-anchor-icon">#</span></a>Feature Support Matrix (<code>netcoredbg</code> vs <code>vscode-csharp</code> / <code>vsdbg</code>)</h2>
+<p><code>netcoredbg</code> implements the MIT-licensed VS Code DAP protocol in <a href="https://github.com/Samsung/netcoredbg"><code>src/protocols/vscodeprotocol.cpp</code></a>, which is a subset of Microsoft's proprietary <code>vsdbg</code> feature set (<a href="https://github.com/dotnet/vscode-csharp/blob/main/docs/debugger/.NET-Core-debugging-feature-list.md"><code>vscode-csharp</code> feature list</a>):</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Feature / Option</th><th>Status in <code>netcoredbg</code> / Extension</th><th>Notes &#x26; Upstream References</th></tr></thead><tbody><tr><td><code>launch</code> (<code>program</code>, <code>args</code>, <code>cwd</code>, <code>env</code>, <code>stopAtEntry</code>, <code>justMyCode</code>, <code>enableStepFiltering</code>)</td><td><strong>Supported</strong></td><td>Forwarded to <code>netcoredbg</code>; <code>cwd</code> defaults to worktree root, <code>DOTNET_ROOT</code> auto-injected</td></tr><tr><td><code>attach</code> (<code>processId</code>)</td><td><strong>Supported</strong></td><td><code>netcoredbg</code> attach reads <strong>only</strong> <code>processId</code> (supports <code>${ZED_PICK_PID}</code>); <code>justMyCode</code>/<code>enableStepFiltering</code> are omitted from attach schema</td></tr><tr><td>Line &#x26; conditional breakpoints</td><td><strong>Supported</strong></td><td><code>setBreakpoints</code> reads <code>line</code> and <code>condition</code></td></tr><tr><td>Function breakpoints</td><td><strong>Supported</strong></td><td>Supported via <code>setFunctionBreakpoints</code> (<a href="https://github.com/Samsung/netcoredbg/issues/243">Samsung/netcoredbg#243</a> notes response reports <code>line: 0</code>)</td></tr><tr><td>Exception filters &#x26; <code>exceptionInfo</code></td><td><strong>Supported</strong></td><td>Filters are <strong>exactly <code>all</code> and <code>user-unhandled</code></strong> (none enabled by default)</td></tr><tr><td>Variables &#x26; evaluation (<code>evaluate</code>, <code>setVariable</code>, <code>setExpression</code>)</td><td><strong>Supported</strong></td><td>Native Zed Variables / Watch / Debug Console evaluation</td></tr><tr><td>Extension-emulated options</td><td><strong>Supported</strong></td><td><code>launchSettingsProfile</code>/<code>launchSettingsFilePath</code>, <code>envFile</code>, <code>console: "internalConsole"</code>, <code>pipeTransport</code>, <code>logging</code>, <code>.vscode/launch.json</code> bridge</td></tr><tr><td>Logpoints (<code>supportsLogPoints</code>)</td><td><strong>Unsupported</strong></td><td>Not implemented in <code>netcoredbg</code>; Zed greys out or a logpoint behaves as a plain breakpoint</td></tr><tr><td>Hit-count breakpoints (<code>supportsHitConditionalBreakpoints</code>)</td><td><strong>Unsupported</strong></td><td><code>setBreakpoints</code> ignores <code>hitCondition</code></td></tr><tr><td><code>console</code> (<code>integratedTerminal</code> / <code>externalTerminal</code>)</td><td><strong>Unsupported</strong></td><td><code>netcoredbg</code> never sends DAP <code>runInTerminal</code> (no stdin/TTY); rejected with attach recipe</td></tr><tr><td><code>sourceFileMap</code>, <code>targetArchitecture</code></td><td><strong>Ignored</strong></td><td>Forwarded verbatim for <code>launch.json</code> compatibility; <code>netcoredbg</code> ignores both (<a href="https://github.com/Samsung/netcoredbg/issues/78">Samsung/netcoredbg#78</a>, <a href="https://github.com/Samsung/netcoredbg/issues/24">#24</a>)</td></tr><tr><td><code>symbolOptions</code>, <code>sourceLinkOptions</code>, <code>requireExactSource</code>, <code>suppressJITOptimizations</code>, <code>expressionEvaluationOptions</code>, <code>terminateChildProcesses</code>, <code>processName</code></td><td><strong>Unsupported</strong></td><td>Proprietary <code>vsdbg</code> / <code>vscode-csharp</code> options; ignored by <code>netcoredbg</code></td></tr><tr><td>Hot Reload during debug</td><td><strong>Unsupported</strong></td><td>Only present in <code>NCDB_DOTNET_STARTUP_HOOK</code> custom builds with no DAP surface</td></tr><tr><td>Blazor WASM &#x26; child-process debugging</td><td><strong>Unsupported</strong></td><td>Proprietary <code>vsdbg</code> / unsupported in <code>netcoredbg</code></td></tr></tbody></table>
+<blockquote>
+<p>Zed extension API / UI limitations (adapter CLI <code>args</code>/<code>env</code> settings, <code>launchBrowser</code>, <code>preLaunchTask</code> importer, etc.) are tracked in <a href="https://github.com/zed-extentions/zed-csharp-debugger/issues/16">issue #16</a>.</p>
+</blockquote>
+<h3 id="user-content-known-zed-limitations--workarounds"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#known-zed-limitations--workarounds"><span class="heading-anchor-icon">#</span></a>Known Zed limitations &#x26; workarounds</h3>
+<p>These <code>vscode-csharp</code> features cannot be built until Zed adds extension API or UI support. They are tracked in <a href="https://github.com/zed-extentions/zed-csharp-debugger/issues/16">issue #16</a>; the table lists what to do in the meantime.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th><code>vscode-csharp</code> feature</th><th>Limitation (Zed side)</th><th>Workaround</th></tr></thead><tbody><tr><td>User adapter <code>args</code> / <code>env</code> (<code>dap.netcoredbg.args</code> / <code>env</code>)</td><td>Zed does not forward these settings to extensions (<code>extension_dap_adapter.rs</code>: <code>TODO support user args/env in the extension API</code>)</td><td>Set <code>args</code>, <code>env</code>, <code>envFile</code> or <code>launchSettingsProfile</code> <strong>per scenario</strong> in <code>.zed/debug.json</code> (these apply to the debuggee, not to the <code>netcoredbg</code> CLI). Adapter diagnostics: use the <code>logging</code> object. Custom adapter path: <code>dap.netcoredbg.binary</code></td></tr><tr><td><code>serverReadyAction</code> / <code>launchBrowser</code></td><td>Extensions get no hook on debuggee output</td><td>Open the URL manually (e.g. <code>http://localhost:5000</code>, taken from <code>applicationUrl</code> / <code>ASPNETCORE_URLS</code>). <code>launchBrowser</code> in <code>launchSettings.json</code> is ignored (FR-22)</td></tr><tr><td><code>preLaunchTask</code> / <code>postDebugTask</code> in <code>launch.json</code></td><td>Zed's <code>launch.json</code> importer does not map them</td><td>Use <code>"build"</code> in <code>.zed/debug.json</code> for pre-launch (see <a href="#build-then-debug-with-a-dotnet-build-task-locator">Build-then-debug</a>); there is no post-debug equivalent, run cleanup as a normal Zed task</td></tr><tr><td><code>${command:pickProcess}</code></td><td>Zed's own <code>launch.json</code> importer only maps <code>pickMyProcess</code></td><td>This extension's bridge (FR-21) maps <code>${command:pickProcess}</code> to <code>${ZED_PICK_PID}</code> when it reads <code>.vscode/launch.json</code>; in <code>.zed/debug.json</code> write <code>"processId": "${ZED_PICK_PID}"</code> directly</td></tr><tr><td><code>coreclr</code> type mapping in the importer</td><td>Zed's importer does not map <code>coreclr</code> to an adapter</td><td>Use the extension's <code>.vscode/launch.json</code> bridge (FR-21), or copy the configuration into <code>.zed/debug.json</code> with <code>"adapter": "netcoredbg"</code></td></tr><tr><td><code>checkForDevCert</code></td><td><code>process:exec</code> can run the check, but extensions have no notification API (only a hard error)</td><td>Run <code>dotnet dev-certs https --check</code> (and <code>--trust</code>) once in a terminal before debugging HTTPS apps</td></tr><tr><td>Default exception-filter selection</td><td>Filter state lives in the debug session; no scenario-level setting</td><td>Enable <code>all</code> / <code>user-unhandled</code> from the Breakpoints panel at the start of each session</td></tr></tbody></table>
+<blockquote>
+<p>No matching upstream <code>zed-industries/zed</code> issues were found when this table was written (2026-11-19); links will be added to issue #16 as they are filed or discovered.</p>
+</blockquote>
+<h2 id="user-content-platform-coverage--manual-install-notes"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#platform-coverage--manual-install-notes"><span class="heading-anchor-icon">#</span></a>Platform Coverage &#x26; Manual Install Notes</h2>
+<p>Verified release assets from <code>Samsung/netcoredbg</code> (<code>3.2.0-1092</code> latest, <code>3.1.3-1062</code> Intel macOS fallback):</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Platform</th><th>Asset</th><th>Auto-Download</th><th>Verified Version / Notes</th></tr></thead><tbody><tr><td><code>linux-amd64</code></td><td><code>netcoredbg-linux-amd64.tar.gz</code></td><td>Yes</td><td>Latest (<code>3.2.0-1092</code>), requires glibc</td></tr><tr><td><code>linux-arm64</code></td><td><code>netcoredbg-linux-arm64.tar.gz</code></td><td>Yes</td><td>Latest (<code>3.2.0-1092</code>), requires glibc</td></tr><tr><td><code>osx-arm64</code></td><td><code>netcoredbg-osx-arm64.zip</code></td><td>Yes</td><td>Latest (<code>3.2.0-1092</code>); see Gatekeeper note below for manual installs</td></tr><tr><td><code>osx-amd64</code></td><td><code>netcoredbg-osx-amd64.tar.gz</code></td><td>Yes</td><td><strong>Pinned fallback <code>3.1.3-1062</code></strong> (<code>3.2.0</code> dropped <code>osx-amd64</code>; <a href="https://github.com/Samsung/netcoredbg/issues/235">Samsung/netcoredbg#235</a>)</td></tr><tr><td><code>win64</code></td><td><code>netcoredbg-win64.zip</code></td><td>Yes</td><td>Latest (<code>3.2.0-1092</code>)</td></tr><tr><td><code>win-arm64</code></td><td>—</td><td>No</td><td>No upstream release asset; <a href="https://github.com/Samsung/netcoredbg#building-from-source">build from source</a> and set <code>dap.netcoredbg.binary</code></td></tr><tr><td>Linux <code>musl</code> (Alpine)</td><td>—</td><td>No</td><td>No upstream musl asset (<a href="https://github.com/Samsung/netcoredbg/issues/201">Samsung/netcoredbg#201</a>); build from source in container/musl and add to <code>PATH</code> or <code>dap.netcoredbg.binary</code></td></tr><tr><td>32-bit <code>x86</code></td><td>—</td><td>No</td><td>No upstream release asset; unsupported-platform error links to build-from-source docs</td></tr></tbody></table>
+<h3 id="user-content-per-os-troubleshooting"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#per-os-troubleshooting"><span class="heading-anchor-icon">#</span></a>Per-OS Troubleshooting</h3>
+<ul>
+<li><strong>macOS Gatekeeper quarantine</strong>: When installing <code>netcoredbg</code> manually on macOS (or if macOS blocks an unsigned binary), remove the quarantine attribute (<code>xattr -d com.apple.quarantine</code> on the binary, or <code>-dr</code> recursively on the directory):
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">xattr</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -dr</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> com.apple.quarantine</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> /path/to/netcoredbg</span></span></code></pre>
+See also <a href="https://github.com/dotnet/vscode-csharp/blob/main/docs/debugger/Debugging-Sandboxed-Processes-on-OSX.md"><code>Debugging-Sandboxed-Processes-on-OSX.md</code></a>.</li>
+<li><strong>Debugging x64 processes on ARM64 (Apple Silicon / Windows ARM64)</strong>: An x64 debuggee running under Rosetta 2 or Windows x64 emulation requires an <strong>x64</strong> <code>netcoredbg</code> binary (<code>dap.netcoredbg.binary</code>). See <a href="https://github.com/dotnet/vscode-csharp/blob/main/docs/debugger/Debugging-x64-processes-on-an-arm64-computer.md"><code>Debugging-x64-processes-on-an-arm64-computer.md</code></a>.</li>
+<li><strong>Unsupported platforms (<code>win-arm64</code>, Linux <code>musl</code>, <code>x86</code>)</strong>: Follow <a href="https://github.com/Samsung/netcoredbg#building-from-source">Samsung's build-from-source instructions</a> and configure <code>{ "dap": { "netcoredbg": { "binary": "/path/to/netcoredbg" } } }</code>. The automatic-download error points to the same documentation.</li>
+</ul>
+<h2 id="user-content-prerequisites"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#prerequisites"><span class="heading-anchor-icon">#</span></a>Prerequisites</h2>
+<ol>
+<li><strong>.NET SDK</strong> — to build your debug target</li>
+<li><strong>netcoredbg</strong> — optional to set up by hand:
+<ul>
+<li>On first use without a manual install, the extension <strong>automatically downloads</strong> the
+latest netcoredbg release from GitHub Releases (see below)</li>
+<li>Manual alternatives: download from
+<a href="https://github.com/Samsung/netcoredbg/releases">Releases</a> and add it to PATH, build
+from source (see the linked docs), or use a package manager (e.g. <code>brew install netcoredbg</code>)</li>
+</ul>
+</li>
+</ol>
+<p>Verify with: <code>netcoredbg --version</code></p>
+<h3 id="user-content-automatic-adapter-download-first-use"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#automatic-adapter-download-first-use"><span class="heading-anchor-icon">#</span></a>Automatic adapter download (first use)</h3>
+<p>Binary resolution order:</p>
+<ol>
+<li><strong><code>dap.netcoredbg.binary</code> setting</strong> (always wins — see below)</li>
+<li><strong><code>PATH</code></strong> lookup (<code>netcoredbg</code> / <code>netcoredbg.exe</code>)</li>
+<li><strong>Automatic download</strong> from <code>Samsung/netcoredbg</code> GitHub Releases:
+<ul>
+<li>The latest release (assets required, no pre-releases) is resolved via the extension API
+once per Zed session (the resolved binary is memoized, so the rate-limited GitHub API is
+not queried again until Zed restarts); the asset matching your platform is downloaded
+and extracted into the <strong>extension working directory</strong>: the binary ends up at
+<code>netcoredbg/&#x3C;version>/netcoredbg/netcoredbg[.exe]</code></li>
+<li>An already extracted version is reused without downloading; after a successful
+download of a new version, older version directories are deleted</li>
+<li>Set the environment variable <code>ZED_NETCOREDBG_FORCE_UPDATE=1</code> to force a re-download
+during development</li>
+<li>A compile-time <code>VERSION_PIN</code> constant in <code>src/download.rs</code> (<code>None</code> by default) can pin a
+specific release tag instead of following the latest</li>
+<li><strong>Intel Macs</strong>: netcoredbg 3.2.0 ships no <code>osx-amd64</code> asset, so macOS x86_64 falls back
+to <code>3.1.3-1062</code>, the newest release that has one (the extension API can only fetch the
+latest release or a named tag, so this tag is a known constant)</li>
+<li>Windows ARM64 and 32-bit x86 have no published asset at all — install manually</li>
+</ul>
+</li>
+<li><strong>Fallbacks</strong> — when the release lookup or the download fails (offline, HTTP error,
+missing asset), the newest already cached version is used. Only when nothing is cached
+is the instructive install error shown (combined with the download error).</li>
+</ol>
+<p>The setting override takes precedence over everything:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{ </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"dap"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"netcoredbg"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"binary"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"/path/to/netcoredbg"</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> } } }</span></span></code></pre>
+<h2 id="user-content-usage"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#usage"><span class="heading-anchor-icon">#</span></a>Usage</h2>
+<p><code>.zed/debug.json</code>:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">[</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "label"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"Debug my app"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "adapter"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"netcoredbg"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "request"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"launch"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "program"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"bin/Debug/net8.0/MyApp.dll"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "args"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"--verbose"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">],</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "stopAtEntry"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">false</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span></code></pre>
+<p>Attach to a running process:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">[</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "label"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"Attach to PID"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "adapter"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"netcoredbg"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "request"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"attach"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "processId"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">4242</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span></code></pre>
+<ul>
+<li><code>cwd</code> defaults to the project root; unknown fields are forwarded to netcoredbg verbatim
+(vscode-csharp launch.json compatibility).</li>
+<li>When <code>DOTNET_ROOT</code> is not set, it is injected automatically from the detected <code>dotnet</code>
+location (prevents runtime discovery failures on Windows).</li>
+<li>Point Zed at a specific binary via settings (overrides PATH and the automatic download):
+<code>{ "dap": { "netcoredbg": { "binary": "/path/to/netcoredbg" } } }</code></li>
+</ul>
+<h3 id="user-content-build-then-debug-with-a-dotnet-build-task-locator"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#build-then-debug-with-a-dotnet-build-task-locator"><span class="heading-anchor-icon">#</span></a>Build-then-debug with a <code>dotnet build</code> task (locator)</h3>
+<p><code>dotnet build</code> Zed tasks become debug scenarios automatically — build first, debug
+after (mirrors the VSCode C# extension's pre-launch build). Define a task in
+<code>.zed/tasks.json</code> (<code>"command": "dotnet build"</code> as one string and <code>dotnet.exe</code> work too):</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">[</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"label"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"build MyApp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"command"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"dotnet"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"args"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"build"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">], </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"cwd"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"$ZED_WORKTREE_ROOT"</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span></code></pre>
+<p>Then trigger Zed's "debug" action on the task (or pick the converted scenario from the
+debugger's task list). The extension:</p>
+<ol>
+<li>attaches the build task to a launch scenario (locator phase 1, <code>dap_locator_create_scenario</code>)</li>
+<li>lets Zed run <code>dotnet build</code> (build failures stop the session before it starts)</li>
+<li>after a successful build, asks MSBuild where the output is:
+<code>dotnet msbuild &#x3C;target> -getProperty:TargetPath;...</code> (locator phase 2,
+<code>run_dap_locator</code>; evaluation only, nothing is rebuilt) — requires <strong>.NET SDK 8+</strong></li>
+<li>launches MSBuild's <code>TargetPath</code> through netcoredbg (<code>dotnet &#x3C;dll></code>) with the project
+directory as <code>cwd</code></li>
+</ol>
+<p>Notes and constraints:</p>
+<ul>
+<li>Zed only runs debug locators on <code>.zed/tasks.json</code> tasks when the active editor buffer's language has a debugger configured (for example, <code>"languages": { "C#": { "debuggers": ["netcoredbg"] } }</code> or top-level <code>"debuggers": ["netcoredbg"]</code> in Zed <code>settings.json</code>)</li>
+<li>The task must have an absolute <code>cwd</code> (<code>$ZED_WORKTREE_ROOT</code> or an absolute path); without
+an explicit project argument, that directory must contain exactly one project file</li>
+<li><strong>Solutions are not supported as the build target</strong>: MSBuild cannot report a solution's
+output (MSB1063). If your repository root only has a <code>.sln</code>, point the task at the
+project to debug (<code>"args": ["build", "src/App/App.csproj"]</code>) or set the task <code>cwd</code> to the
+project directory. The locator does not guess a project from the solution, since most
+solutions contain several (app + tests)</li>
+<li>Output-affecting switches are forwarded to the query exactly like the <code>dotnet</code> CLI
+forwards them: <code>-c/--configuration</code>, <code>-f/--framework</code>, <code>-r/--runtime</code>, <code>--ucr</code>,
+<code>-o/--output</code>, <code>--artifacts-path</code>, <code>-p:/-property:/--property:</code> (relative paths are
+resolved against the task <code>cwd</code>). Add <code>-f &#x3C;tfm></code> for multi-target projects.
+<code>-a/--arch</code> and <code>--os</code> are rejected (their runtime identifier depends on the host SDK);
+use <code>-r &#x3C;rid></code> instead</li>
+<li>An explicit <code>program</code> in your debug configuration always takes precedence over the
+locator-resolved path (Zed merges your config over the locator output)</li>
+<li>The locator runs <code>dotnet msbuild</code> through Zed's extension process API; the extension
+declares the <code>process:exec</code> capability for <code>dotnet msbuild **</code> in <code>extension.toml</code></li>
+<li>Debug configs without an explicit <code>program</code> only work through this locator; a debug.json
+entry with <code>"request": "launch"</code> and no <code>program</code> on its own still errors</li>
+</ul>
+<h3 id="user-content-diagnostics-logging"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#diagnostics-logging"><span class="heading-anchor-icon">#</span></a>Diagnostics (<code>logging</code>)</h3>
+<p>The optional <code>logging</code> object enables netcoredbg's diagnostic output. It is translated into
+netcoredbg <em>adapter</em> command line flags (verified against netcoredbg's <code>src/main.cpp</code>) and
+stripped from the configuration forwarded over DAP:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">[</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "label"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"Debug my app (engine log)"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "adapter"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"netcoredbg"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "request"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"launch"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "program"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"bin/Debug/net8.0/MyApp.dll"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "logging"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"engine"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">true</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span></code></pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Key</th><th>Type</th><th>netcoredbg flag</th><th>Where the log lands</th></tr></thead><tbody><tr><td><code>engine</code></td><td>bool</td><td><code>--engineLogging</code></td><td>Zed's debug console (reported as <code>console</code> output events)</td></tr><tr><td><code>enginePath</code></td><td>string</td><td><code>--engineLogging=&#x3C;path></code></td><td>The given file (implies <code>engine</code>)</td></tr><tr><td><code>log</code></td><td>bool</td><td><code>--log</code></td><td>netcoredbg's internal log, <code>&#x3C;temp dir>/&#x3C;executable name>.&#x3C;pid>.log</code></td></tr><tr><td><code>logPath</code></td><td>string</td><td><code>--log=&#x3C;path></code></td><td>The given file, or <code>"stderr"</code> (implies <code>log</code>; <code>"stdout"</code> is rejected — it would corrupt the DAP stream)</td></tr></tbody></table>
+<p>To watch engine output: start a debug session with <code>"logging": { "engine": true }</code> and open
+Zed's debug console — engine and DAP activity is reported there.</p>
+<p><strong>Log directories must exist.</strong> Relative <code>enginePath</code>/<code>logPath</code> values resolve against the
+worktree root (the adapter's working directory). netcoredbg does not create missing
+directories: if the file cannot be opened, the log is silently dropped (<code>"logs/engine.log"</code>
+needs an existing <code>logs/</code> directory).</p>
+<p><strong>vscode-csharp compatibility.</strong> A <code>logging</code> object copied from a VS Code <code>launch.json</code> keeps
+working: <code>engineLogging: true</code> maps to <code>--engineLogging</code> (same as <code>engine</code>), and the other
+vscode-csharp keys — <code>exceptions</code>, <code>moduleLoad</code>, <code>programOutput</code>, <code>browserStdOut</code>,
+<code>elapsedTiming</code>, <code>threadExit</code>, <code>processExit</code>, <code>consoleUsageMessage</code>, <code>diagnosticsLog</code> — have
+no netcoredbg equivalent and are ignored. Any other key, or a wrong type for a key this
+extension acts on, is rejected before the session starts: the object is consumed by the
+extension (never forwarded), so a typo would otherwise silently disable the logging you asked
+for.</p>
+<blockquote>
+<p>Note: netcoredbg's flag is spelled <code>--engineLogging</code> (camelCase); <code>--engine_logging</code> is
+rejected by netcoredbg as an unknown option.</p>
+</blockquote>
+<p><code>sourceFileMap</code> is accepted by the schema only so vscode-csharp configurations validate:
+<strong>netcoredbg ignores it</strong> (it has no source file mapping). <code>targetArchitecture</code> is not
+supported by netcoredbg either; like any unknown field it is forwarded verbatim and ignored.</p>
+<h3 id="user-content-launchsettingsjson-profiles"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#launchsettingsjson-profiles"><span class="heading-anchor-icon">#</span></a><code>launchSettings.json</code> profiles</h3>
+<p>Load ASP.NET Core / .NET <code>Properties/launchSettings.json</code> profiles into launch configurations using <code>launchSettingsProfile</code> and/or <code>launchSettingsFilePath</code>:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">[</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "label"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"Api (https)"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "adapter"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"netcoredbg"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "request"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"launch"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "program"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"src/Api/bin/Debug/net8.0/Api.dll"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "launchSettingsFilePath"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"src/Api/Properties/launchSettings.json"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "launchSettingsProfile"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"https"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span></code></pre>
+<ul>
+<li>When <code>launchSettingsProfile</code> is given without <code>launchSettingsFilePath</code>, the extension reads <code>Properties/launchSettings.json</code> in the worktree.</li>
+<li>When <code>launchSettingsProfile</code> is omitted and <code>launchSettingsFilePath</code> is given, it selects the first profile with <code>"commandName": "Project"</code>.</li>
+<li>JSONC comments and trailing commas are tolerated; <code>launchBrowser</code> is ignored; <code>launchSettings*</code> keys are stripped before forwarding to <code>netcoredbg</code>.</li>
+<li>Mapping &#x26; precedence (explicit config always wins):
+<ul>
+<li><code>environmentVariables</code> → <code>env</code> (explicit <code>env</code> keys take precedence)</li>
+<li><code>applicationUrl</code> → <code>env["ASPNETCORE_URLS"]</code> (if absent)</li>
+<li><code>commandLineArgs</code> → <code>args</code> (if explicit <code>args</code> is absent)</li>
+<li><code>workingDirectory</code> → <code>cwd</code> (if absent/blank)</li>
+</ul>
+</li>
+</ul>
+<h3 id="user-content-dotenv-envfile"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#dotenv-envfile"><span class="heading-anchor-icon">#</span></a>Dotenv (<code>envFile</code>)</h3>
+<p>Load <code>KEY=VALUE</code> environment variables from a worktree-relative <code>.env</code> file:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">[</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "label"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"Launch with .env"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "adapter"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"netcoredbg"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "request"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"launch"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "program"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"bin/Debug/net8.0/MyApp.dll"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "envFile"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"${ZED_WORKTREE_ROOT}/.env"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span></code></pre>
+<ul>
+<li>Supports blank lines, <code>#</code> comments, optional <code>export </code> prefixes, and matching single or double quotes (<code>envFile</code> is stripped before forwarding).</li>
+<li>Precedence: <strong>explicit <code>env</code> > <code>launchSettings</code> > <code>envFile</code> > <code>DOTNET_ROOT</code> hint</strong>.</li>
+<li>File must live inside the worktree; <code>${env:VAR}</code> interpolation inside <code>.env</code> is not performed.</li>
+</ul>
+<h3 id="user-content-interactive-console-apps-console--stdin"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#interactive-console-apps-console--stdin"><span class="heading-anchor-icon">#</span></a>Interactive console apps (<code>console</code> / <code>stdin</code>)</h3>
+<p><code>netcoredbg</code> never sends the DAP <code>runInTerminal</code> reverse request: it spawns the debuggee itself and forwards stdout/stderr over DAP <code>output</code> events, so there is <strong>no stdin and no TTY</strong> in <code>internalConsole</code>.</p>
+<ul>
+<li><code>"console": "internalConsole"</code> is accepted (and stripped).</li>
+<li><code>"console": "integratedTerminal"</code> or <code>"externalTerminal"</code> is rejected with an actionable error explaining this limit.</li>
+<li><strong>Recipe for console apps that read <code>stdin</code></strong>:
+<ol>
+<li>Start your app from a Zed terminal or <code>.zed/tasks.json</code>:
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">[</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"label"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"run console app"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"command"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"dotnet"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"args"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"run"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">] }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span></code></pre>
+</li>
+<li>Attach using Zed's process picker (<code>${ZED_PICK_PID}</code>) in <code>.zed/debug.json</code>:
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">[</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "label"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"Attach to console app"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "adapter"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"netcoredbg"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "request"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"attach"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "processId"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"${ZED_PICK_PID}"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span></code></pre>
+<em>(Note: breaking on the very first line before attach is not possible with this workaround.)</em></li>
+</ol>
+</li>
+</ul>
+<h3 id="user-content-remote--container-debugging-pipetransport--tcp---server"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#remote--container-debugging-pipetransport--tcp---server"><span class="heading-anchor-icon">#</span></a>Remote &#x26; container debugging (<code>pipeTransport</code> &#x26; TCP <code>--server</code>)</h3>
+<p>Debug processes inside containers or connect to an already-running <code>netcoredbg --server</code> instance:</p>
+<ul>
+<li><strong>Container / external command (<code>pipeTransport</code>)</strong> — spawns <code>pipeProgram</code> with <code>pipeArgs + [debuggerPath, "--interpreter=vscode"] + logging_args</code>, skipping local binary resolution and local <code>DOTNET_ROOT</code> injection:
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">[</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "label"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"Attach in Docker"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "adapter"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"netcoredbg"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "request"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"attach"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "processId"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">1</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "pipeTransport"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "pipeProgram"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"docker"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "pipeArgs"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"exec"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"-i"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"myapp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">],</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "debuggerPath"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"/vsdbg/netcoredbg"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span></code></pre>
+</li>
+<li><strong>TCP connect (<code>netcoredbg --server=4711</code>)</strong> — when <code>tcp_connection</code> is set, the extension resolves it via <code>resolve_tcp_template</code> and returns <code>command: None</code> so Zed connects directly over TCP:
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">[</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "label"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"Attach via netcoredbg --server"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "adapter"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"netcoredbg"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "request"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"attach"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "processId"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">1</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "tcp_connection"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"port"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">4711</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span></code></pre>
+</li>
+<li><strong>Limitations</strong>: <code>netcoredbg</code> ignores <code>sourceFileMap</code>, so stack frames show container/remote paths unless source paths match; <code>${ZED_PICK_PID}</code> is local-only. For <strong>SSH</strong> workspaces, use <strong>Zed's native Remote Development</strong>, which runs the extension and <code>netcoredbg</code> directly on the remote host.</li>
+</ul>
+<h3 id="user-content-test-debugging-dotnet-test"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#test-debugging-dotnet-test"><span class="heading-anchor-icon">#</span></a>Test debugging (<code>dotnet test</code>)</h3>
+<p><code>netcoredbg</code> does not debug child processes, so launching <code>dotnet test</code> directly never reaches the test host. Choose the recipe matching your test runner:</p>
+<ul>
+<li><strong>Microsoft.Testing.Platform (MTP)</strong> (xUnit v3, MSTest / NUnit MTP runners — compiles directly to an executable test <code>.dll</code>):
+<ul>
+<li><strong>Option A — Direct launch</strong> in <code>.zed/debug.json</code> (recommended for passing <code>--filter-method</code>):
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">[</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "label"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"Debug single MTP test"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "adapter"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"netcoredbg"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "request"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"launch"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "program"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"tests/T/bin/Debug/net8.0/T.dll"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "args"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"--filter-method"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"MyNamespace.MyTests.MyTest"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span></code></pre>
+</li>
+<li><strong>Option B — <code>dotnet test</code> task locator</strong>: add a <code>dotnet test</code> task in <code>.zed/tasks.json</code> (e.g. <code>"command": "dotnet", "args": ["test", "tests/T/T.csproj"]</code>, <code>"cwd": "$ZED_WORKTREE_ROOT"</code>) and trigger Zed's debug action on it. The locator rewrites the pre-launch build step to <code>dotnet build</code> (stripping <code>--filter</code>, <code>--no-build</code>, <code>-- ...</code> so failing tests do not abort the build), resolves <code>TargetPath</code>, and launches the MTP executable.</li>
+</ul>
+</li>
+<li><strong>VSTest</strong> (classic <code>Microsoft.NET.Test.Sdk</code> projects):
+<ol>
+<li>Run in a Zed terminal with <code>VSTEST_HOST_DEBUG=1</code>:
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">VSTEST_HOST_DEBUG</span><span style="color:#D73A49;--shiki-dark:#F97583">=</span><span style="color:#032F62;--shiki-dark:#9ECBFF">1</span><span style="color:#6F42C1;--shiki-dark:#B392F0"> dotnet</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> test</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --filter</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> FullyQualifiedName~MyTest</span></span></code></pre>
+VSTest pauses and prints the <code>testhost</code> process ID (<code>Process Id: &#x3C;pid></code>).</li>
+<li>Start an attach scenario with <code>"processId": "${ZED_PICK_PID}"</code> (or the printed PID) to attach to <code>testhost</code> and hit your breakpoints.</li>
+</ol>
+</li>
+</ul>
+<h2 id="user-content-installation-dev-extension"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation-dev-extension"><span class="heading-anchor-icon">#</span></a>Installation (dev extension)</h2>
+<p>Zed command palette → <code>zed: install dev extension</code> → select this directory</p>
+<h2 id="user-content-manual-verification-procedure-g5"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#manual-verification-procedure-g5"><span class="heading-anchor-icon">#</span></a>Manual verification procedure (G5)</h2>
+<ol>
+<li><code>dotnet new console -o debug-sample &#x26;&#x26; cd debug-sample &#x26;&#x26; dotnet build</code></li>
+<li>Add a launch config to <code>.zed/debug.json</code> (<code>program</code>: the built <code>debug-sample.dll</code> path)</li>
+<li>Set a breakpoint → start debugging → verify breakpoint hits, stepping and variables</li>
+<li>Verify <code>stopAtEntry: true</code> breaks immediately on entry</li>
+<li>Attach to a running <code>dotnet</code> process and verify the connection</li>
+<li>Plain <code>.zed/debug.json</code> launch without locator: with only the launch config from step 2
+(no <code>build</code> field, no build task), start the scenario from the debug panel → the session
+starts (no "Zed cannot determine how to run this debug scenario" error)</li>
+<li>New-process modal → Attach tab → pick the running <code>debug-sample</code> process → the session
+starts; then the Launch tab with "Stop on entry" checked → it breaks on entry
+(<code>stop_on_entry</code> → <code>stopAtEntry</code>)</li>
+<li>Remove netcoredbg from PATH, start debugging → verify netcoredbg is auto-downloaded from
+GitHub Releases and the session starts (fresh machine with <code>dotnet</code> only); the binary is
+at <code>&#x3C;extension work dir>/netcoredbg/&#x3C;version>/netcoredbg/netcoredbg[.exe]</code> (Zed's
+extension work dir: <code>~/Library/Application Support/Zed/extensions/work/csharp-debugger</code>
+on macOS, <code>~/.local/share/zed/extensions/work/csharp-debugger</code> on Linux,
+<code>%LOCALAPPDATA%\Zed\extensions\work\csharp-debugger</code> on Windows)</li>
+<li>Start a second session in the same Zed instance → it starts without a new download or
+GitHub API call (memoized). Restart Zed and start a session → the cached version is
+reused (directory mtime unchanged)</li>
+<li>Go offline, restart Zed, start a session → the cached version is still used. Then delete
+the <code>netcoredbg/</code> cache directory (still offline, restart Zed) → the instructive install
+error, prefixed with the download failure, is shown</li>
+<li>Create a dummy older version directory (e.g. <code>netcoredbg/0.0.1/</code>) and set
+<code>ZED_NETCOREDBG_FORCE_UPDATE=1</code> → after the re-download only the current version
+directory remains</li>
+<li>(Intel Mac only) the session starts with netcoredbg <code>3.1.3-1062</code></li>
+<li>Set <code>dap.netcoredbg.binary</code> → verify the override wins over PATH and the cache</li>
+<li>Add <code>"logging": { "engine": true }</code> to the launch config → start debugging → verify engine
+output appears in Zed's debug console; then set <code>"enginePath": "logs/engine.log"</code> with an
+existing <code>logs/</code> directory and verify the log file is written instead (without the
+directory, no file appears and the session still runs)</li>
+<li>Paste a vscode-csharp <code>logging</code> object (<code>{"moduleLoad": false, "engineLogging": true}</code>) →
+the session starts and engine output appears; <code>{"engin": true}</code> → the session is refused
+with an error naming <code>logging.engin</code></li>
+<li>Edit <code>.zed/debug.json</code> and confirm schema completions/validation for <code>logging</code> and that
+<code>sourceFileMap</code> is described as ignored by netcoredbg</li>
+<li>Locator: add a <code>dotnet build</code> task (label it, <code>cwd: $ZED_WORKTREE_ROOT</code>) to
+<code>.zed/tasks.json</code>, remove <code>program</code> from the launch config, set a breakpoint, then run
+the task's debug action → verify the build runs first, then the session starts on the
+<code>bin/Debug/&#x3C;tfm>/&#x3C;app>.dll</code> reported by MSBuild and the breakpoint hits. Repeat with
+<code>"command": "dotnet build"</code> (single string) and with <code>-c Release -o out</code> /
+<code>-r &#x3C;rid></code> in the task args → the session launches the matching output</li>
+<li>Locator failure paths: break the code (compile error) → the build failure stops the
+session with an actionable error; add <code>&#x3C;TargetFrameworks>net8.0;net9.0&#x3C;/TargetFrameworks></code>
+without <code>-f</code> → the multi-target error names the <code>-f &#x3C;tfm></code> remedy; run the task from a
+directory that only has a <code>.sln</code> → the error asks to point the task at a project</li>
+<li>Locator precedence: keep <code>program</code> in the launch config alongside the task → verify the
+explicit <code>program</code> wins over the locator-resolved path</li>
+<li><code>launchSettings.json</code> + <code>envFile</code>: add <code>"launchSettingsProfile"</code>, <code>"envFile"</code>, and <code>"env"</code> on a
+launch config → verify <code>env > launchSettings > envFile > DOTNET_ROOT</code> precedence and that
+<code>ASPNETCORE_URLS</code> / <code>args</code> / <code>cwd</code> are populated from the selected profile</li>
+<li><code>console</code> workaround: verify <code>"console": "integratedTerminal"</code> returns the <code>runInTerminal</code>
+error with <code>${ZED_PICK_PID}</code> guidance, and verify launching a <code>stdin</code>-reading console app in
+a Zed terminal + attaching via <code>"processId": "${ZED_PICK_PID}"</code> hits breakpoints</li>
+<li>Container / TCP (<code>pipeTransport</code> / <code>--server</code>): attach to a running <code>.NET</code> process inside a
+container with <code>"pipeTransport"</code> (<code>docker exec -i &#x3C;container></code>) and verify breakpoints/locals;
+start <code>netcoredbg --interpreter=vscode --server=4711</code> and connect via <code>tcp_connection</code></li>
+<li><code>dotnet test</code>: launch an MTP test executable (directly with <code>--filter-method</code> and via a
+<code>dotnet test</code> task locator) and verify breakpoints hit; run <code>VSTEST_HOST_DEBUG=1 dotnet test</code>
+and attach via <code>${ZED_PICK_PID}</code></li>
+<li>Capability limits &#x26; schema: verify exception filters <code>all</code> and <code>user-unhandled</code>, conditional
+breakpoints, and function breakpoints work; edit <code>.zed/debug.json</code> with <code>"request": "attach"</code>
+and verify <code>justMyCode</code> / <code>enableStepFiltering</code> are absent from attach schema completions</li>
+</ol>
+<blockquote>
+<p>Steps 4, 5 (attach by PID; the process-picker modal of step 7 stays manual) and 18 are also automated against a real Zed UI by <code>ci/g5_checks.py</code>
+(run by the "Feature GIFs" workflow after <code>ci/scenarios.py</code>); they assert on the recorded
+DAP traffic, not only on screen text.</p>
+</blockquote>
+<blockquote>
+<p>The schema parts of steps 16 and 24 (launch-only options absent from attach, <code>console</code> enum,
+<code>sourceFileMap</code> documented as ignored, <code>$ref</code> integrity) are unit-tested (<code>schema_tests</code> in
+<code>src/lib.rs</code>, FR-14); only the in-editor completion UI itself stays manual.</p>
+</blockquote>
+<blockquote>
+<p>The full locator flow needs a live Zed session (task conversion, task spawning,
+<code>process:exec</code> capability checks and variable substitution are host-side); it cannot be
+verified headlessly.</p>
+</blockquote>
+<h2 id="user-content-development"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#development"><span class="heading-anchor-icon">#</span></a>Development</h2>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> test</span><span style="color:#6A737D;--shiki-dark:#6A737D">                                      # 166 unit tests (host)</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> build</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --target</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> wasm32-wasip2</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --release</span><span style="color:#6A737D;--shiki-dark:#6A737D">    # extension WASM build</span></span></code></pre>
+<ul>
+<li><code>src/resolve.rs</code> — binary resolution, arguments, DOTNET_ROOT hint (pure logic)</li>
+<li><code>src/download.rs</code> — release asset selection, cache layout, version comparison (pure logic)</li>
+<li><code>src/locator/</code> — <code>dotnet build</code> task matching, MSBuild query/output parsing, program
+resolution (pure logic)</li>
+<li><code>src/config/</code> — launch/attach config normalization and validation (pure logic, serde_json)</li>
+<li><code>src/lib.rs</code> — the Zed Extension touchpoints: <code>get_dap_binary</code> (+ GitHub Releases
+download), <code>dap_request_kind</code>, <code>dap_config_to_scenario</code> and the locator hooks</li>
+</ul>
+<h3 id="user-content-scenario-tests-against-the-built-wasm-harness-tests"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#scenario-tests-against-the-built-wasm-harness-tests"><span class="heading-anchor-icon">#</span></a>Scenario tests against the built <code>.wasm</code> (<code>harness-tests/</code>)</h3>
+<p><code>harness-tests/</code> is a standalone package (not a dependency of the extension) that runs
+the <strong>built</strong> extension component against a fake Zed host (GitHub Releases, downloads
+extracted the way Zed does, platform, PATH) and automates G5 steps 6, 8–10 and 12–15
+without opening Zed: first-use download, reuse within a session, offline cache, the
+Intel Mac fallback, user path / PATH precedence, logging flags and request kind. It
+depends on the <code>zed-ext-harness</code> crate, which is currently kept locally and must be
+checked out next to this repository (<code>../zed-ext-harness</code>), so it is not part of CI yet.</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> build</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --target</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> wasm32-wasip2</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --release</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> test</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --manifest-path</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> harness-tests/Cargo.toml</span><span style="color:#6A737D;--shiki-dark:#6A737D">   # 13 scenarios</span></span></code></pre>
+<p>Set <code>ZED_DEBUG_ADAPTER_WASM=&#x3C;path></code> to run the scenarios against another build.</p>
+<p>Plan: <a href="https://github.com/zed-extentions/zed-csharp-debugger/blob/HEAD/PLAN.md" target="_blank" rel="noopener">PLAN.md</a> · Requirements: <a href="https://github.com/zed-extentions/zed-csharp-debugger/blob/HEAD/REQUIREMENTS.md" target="_blank" rel="noopener">REQUIREMENTS.md</a> · Architecture: <a href="https://github.com/zed-extentions/zed-csharp-debugger/blob/HEAD/ARCHITECTURE.md" target="_blank" rel="noopener">ARCHITECTURE.md</a></p>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>MIT — This extension is an independent Rust/WASM implementation inspired by <a href="https://github.com/dotnet/vscode-csharp">dotnet/vscode-csharp</a> (MIT) and built around <a href="https://github.com/Samsung/netcoredbg">Samsung/netcoredbg</a> (MIT); it ships neither their binaries nor their sources.</p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>

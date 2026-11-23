@@ -1,0 +1,19 @@
+id = "csharp-debugger"
+name = "C# Debugger (NetCoreDbg)"
+version = "0.1.0"
+schema_version = 1
+authors = ["wruwami"]
+description = "Debug C#/.NET applications in Zed using netcoredbg (Debug Adapter Protocol)"
+repository = "https://github.com/zed-extentions/zed-csharp-debugger"
+
+[debug_adapters.netcoredbg]
+schema_path = "debug_adapter_schemas/netcoredbg.json"
+
+[debug_locators.dotnet-build]
+
+# FR-17: the locator's phase 2 runs `dotnet msbuild <target> -getProperty:...`.
+# Zed checks this manifest entry before running any process (`grant_exec`).
+[[capabilities]]
+kind = "process:exec"
+command = "dotnet"
+args = ["msbuild", "**"]
