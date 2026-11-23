@@ -1,0 +1,8 @@
+id = "carbon-ink-theme"
+name = "Carbon Ink"
+version = "0.1.0"
+schema_version = 1
+authors = ["small-frappuccino"]
+description = "A true-black theme with lavender control flow, blue function calls, seafoam types, and quiet punctuation."
+repository = "https://github.com/small-frappuccino/carbon-ink"
+themes = ["themes/carbon-ink.json"]

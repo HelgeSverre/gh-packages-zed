@@ -1,0 +1,324 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Shire - Zed Extension Safari</title><meta name="description" content="Shire — warm, earthy dark and light themes for Zed, inspired by Fields of the Shire."><link rel="canonical" href="https://helgesverre.github.io/gh-packages-zed/package/Emestie/zed-shire-theme/"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Shire - Zed Extension Safari"><meta property="og:description" content="Shire — warm, earthy dark and light themes for Zed, inspired by Fields of the Shire."><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed/package/Emestie/zed-shire-theme/"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Shire - Zed Extension Safari"><meta name="twitter:description" content="Shire — warm, earthy dark and light themes for Zed, inspired by Fields of the Shire."><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/gh-packages-zed/_astro/ClientRouter.astro_astro_type_script_index_0_lang.ClVLs1kt.js"></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Shire","description":"Shire — warm, earthy dark and light themes for Zed, inspired by Fields of the Shire.","applicationCategory":"DeveloperApplication","operatingSystem":"macOS, Linux, Windows","url":"https://zed.dev/extensions/shire-theme","codeRepository":"https://github.com/Emestie/zed-shire-theme","author":[{"@type":"Person","name":"Valery Murashko"}],"softwareVersion":"1.0.0","license":"MIT","keywords":"grammar","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/Layout.CGDlMdWE.css"><script type="module" src="/gh-packages-zed/_astro/page.B8i1Zz-u.js"></script></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <a href="#main" class="skip-to-content">Skip to content</a> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" data-astro-transition-persist="astro-fhchcgd7-1"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <script type="application/json" id="pkg-extras">{"url":"https://github.com/Emestie/zed-shire-theme","language":"PowerShell","license":"MIT","topics":[],"extension":{"authors":["Valery Murashko"],"schema_version":1}}</script> <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> Emestie/zed-shire-theme </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> Shire </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> Shire — warm, earthy dark and light themes for Zed, inspired by Fields of the Shire. </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="grammar">Grammar</span> </div> </div> </div> </header> <main id="main" class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/shire-theme" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/Emestie/zed-shire-theme" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1.0.0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">shire-theme</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">PowerShell</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">MIT</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">11/9/2026</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">Valery Murashko</dd> </div> </dl>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-shire--a-zed-theme"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#shire--a-zed-theme"><span class="heading-anchor-icon">#</span></a>Shire — a Zed theme</h1>
+<p>A warm, earthy theme family for <a href="https://zed.dev">Zed</a>, adapted from OpenChamber's
+<strong>Fields of the Shire</strong>: the same burnt-umber background and sage-green accent on the
+dark side, warm paper and forest green on the light side.</p>
+<ul>
+<li>Theme family: <strong>Shire</strong></li>
+<li>Variants: <strong>Shire Dark</strong> and <strong>Shire Light</strong> (<code>appearance: "dark"</code> / <code>"light"</code>)</li>
+<li>Palette sources: <a href="https://github.com/openchamber/openchamber/blob/main/packages/ui/src/lib/theme/themes/fields-of-the-shire-dark.json"><code>fields-of-the-shire-dark.json</code></a>, <a href="https://github.com/openchamber/openchamber/blob/main/packages/ui/src/lib/theme/themes/fields-of-the-shire-light.json"><code>fields-of-the-shire-light.json</code></a></li>
+</ul>
+<h2 id="user-content-what-is-in-this-repo"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#what-is-in-this-repo"><span class="heading-anchor-icon">#</span></a>What is in this repo</h2>
+<pre><code>shire/
+├── extension.toml          # Zed extension manifest
+├── themes/shire.json       # ← the theme itself: one family, dark + light
+├── scripts/check-theme.ps1 # JSON + hex-color sanity check
+├── LICENSE                 # MIT, for this project's code and theme JSON
+├── THIRD_PARTY_NOTICES.md  # OpenChamber MIT notice for the derived palette
+├── RELEASING.md            # registry submission checklist and PR text
+└── README.md
+</code></pre>
+<p><code>themes/shire.json</code> is the only file that matters for the look. Everything else
+exists so Zed can install it as an extension. The extension is asset-only — there is
+no Rust crate, so Zed has nothing to compile and installation is instant.</p>
+<h2 id="user-content-prerequisites"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#prerequisites"><span class="heading-anchor-icon">#</span></a>Prerequisites</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Path</th><th>Needs</th></tr></thead><tbody><tr><td><strong>A — drop-in file</strong></td><td>only Zed</td></tr><tr><td><strong>B — dev extension</strong></td><td>only Zed</td></tr></tbody></table>
+<p>No Rust toolchain is involved: the extension ships only theme JSON, so Zed compiles
+nothing. If you later add Rust code, install Rust via rustup (Zed adds the
+<code>wasm32-wasip2</code> target itself), and on Windows also the MSVC build tools — <code>rustc</code>
+needs <code>link.exe</code> for build scripts even when the final artifact is wasm.</p>
+<h2 id="user-content-check-the-theme-file"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#check-the-theme-file"><span class="heading-anchor-icon">#</span></a>Check the theme file</h2>
+<pre><code class="language-pwsh">pwsh -File .\scripts\check-theme.ps1
+# Checking ...\themes\shire.json
+#   OK  2 theme(s), 410 color values, all valid hex.
+</code></pre>
+<p>The check validates the JSON, the required family keys (<code>name</code>, <code>author</code>, <code>themes</code>),
+<code>appearance</code>, and every color string as <code>#RGB</code> / <code>#RRGGBB</code> / <code>#RRGGBBAA</code>.
+The file also validates against <a href="https://zed.dev/schema/themes/v0.2.0.json">Zed's theme schema v0.2.0</a>
+— all 141 style keys and 35 syntax keys it uses are real schema entries, so the
+<code>$schema</code> line in the file gives you completion and validation in Zed itself.</p>
+<h2 id="user-content-path-a--add-it-as-a-plain-theme-file-fastest"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#path-a--add-it-as-a-plain-theme-file-fastest"><span class="heading-anchor-icon">#</span></a>Path A — add it as a plain theme file (fastest)</h2>
+<ol>
+<li>
+<p>Copy the family file into Zed's themes directory:</p>
+<pre><code class="language-pwsh">Copy-Item .\themes\shire.json "$env:APPDATA\Zed\themes\shire.json" -Force
+</code></pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>OS</th><th>Directory</th></tr></thead><tbody><tr><td>Windows</td><td><code>%APPDATA%\Zed\themes\</code></td></tr><tr><td>macOS</td><td><code>~/.config/zed/themes/</code></td></tr><tr><td>Linux</td><td><code>~/.config/zed/themes/</code></td></tr></tbody></table>
+</li>
+<li>
+<p>Quit and reopen Zed (themes are read at startup).</p>
+</li>
+<li>
+<p>Pick it: <code>ctrl-shift-p</code> → <strong>theme selector: toggle</strong> → <strong>Shire Dark</strong> or
+<strong>Shire Light</strong>, or set it in <code>settings.json</code>:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#032F62;--shiki-dark:#9ECBFF">"theme"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "mode"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"system"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,          </span><span style="color:#6A737D;--shiki-dark:#6A737D">// or "dark" / "light"</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "dark"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"Shire Dark"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "light"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"Shire Light"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+</li>
+</ol>
+<p>Editing the copy in <code>themes/</code> afterwards means re-copying it and restarting Zed.</p>
+<h2 id="user-content-path-b--install-it-as-a-dev-extension-recommended"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#path-b--install-it-as-a-dev-extension-recommended"><span class="heading-anchor-icon">#</span></a>Path B — install it as a dev extension (recommended)</h2>
+<p>This is how you develop the theme with live rebuilds, and the shape the registry expects.
+There is no Rust crate in this repo, so no toolchain is needed.</p>
+<ol>
+<li>
+<p>In Zed: <code>ctrl-shift-p</code> → <strong>zed: install dev extension</strong> → select this folder
+(<code>C:\Users\valery.murashko\dev2\shire</code>). Zed reads <code>themes/shire.json</code> directly;
+there is no compile step, so the install finishes immediately.</p>
+</li>
+<li>
+<p><code>ctrl-shift-p</code> → <strong>theme selector: toggle</strong> → <strong>Shire Dark</strong> or <strong>Shire Light</strong>.</p>
+</li>
+</ol>
+<p>After editing <code>themes/shire.json</code>, run <code>ctrl-shift-p</code> → <strong>zed: rebuild dev extensions</strong>
+(no full restart needed). Uninstall the same way: <strong>zed: extensions</strong> → Shire → Uninstall.</p>
+<p>If installation fails, <code>ctrl-shift-p</code> → <strong>zed: open log</strong> shows why; relaunching Zed from
+a terminal with <code>zed --foreground</code> prints more.</p>
+<h2 id="user-content-variants"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#variants"><span class="heading-anchor-icon">#</span></a>Variants</h2>
+<p>Both variants live in the same family file, so Zed's picker lists one <strong>Shire</strong> entry
+with a dark and a light side, and <code>"mode": "system"</code> follows the OS:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Variant</th><th><code>appearance</code></th><th>Base / editor</th><th>Accent</th></tr></thead><tbody><tr><td>Shire Dark</td><td><code>dark</code></td><td><code>#1b1815</code> / <code>#191613</code></td><td>sage <code>#809062</code></td></tr><tr><td>Shire Light</td><td><code>light</code></td><td><code>#f9f5eb</code> / <code>#f6f2e8</code></td><td>forest <code>#4a6030</code></td></tr></tbody></table>
+<p>The dark side is a 1:1 port, alpha overlays included. On the light side the source's
+alpha borders (<code>#1a161215</code>) and selections are resolved to opaque tones of the same
+warm paper, and two values are nudged for readability: doc comments go from <code>#b8b0a4</code>
+(≈1.9:1) to <code>#8f8375</code> (≈3.3:1), gutter numbers from <code>#a99e90</code> to <code>#9a8f80</code>.</p>
+<p>A third variant (for example a blurred "Shire Soft") is just another object in the
+<code>themes</code> array with its own <code>name</code> and <code>appearance</code>; the family <code>name</code> stays <code>"Shire"</code>.</p>
+<h2 id="user-content-promoting-to-the-extension-registry-optional"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#promoting-to-the-extension-registry-optional"><span class="heading-anchor-icon">#</span></a>Promoting to the extension registry (optional)</h2>
+<ol>
+<li>
+<p>Create a public repo from this folder; <code>repository</code> in <code>extension.toml</code> already
+points at it. The extension ID is <code>shire-theme</code> — Zed's publishing prerequisites
+require a theme-only extension to be suffixed with <code>-theme</code>, and the ID may not
+contain <code>zed</code> or <code>extension</code>.</p>
+</li>
+<li>
+<p>Fork <a href="https://github.com/zed-industries/extensions"><code>zed-industries/extensions</code></a>,
+add your repo as a submodule under <code>extensions/shire-theme</code>, and add a matching
+entry to <code>extensions.toml</code>:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">[</span><span style="color:#6F42C1;--shiki-dark:#B392F0">shire-theme</span><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">submodule = </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"extensions/shire-theme"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">version = </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"1.0.0"</span></span></code></pre>
+</li>
+<li>
+<p>Open a PR. After merge, <strong>Shire</strong> shows up in <strong>zed: extensions</strong> for everyone.
+Keep <code>LICENSE</code> at the extension root — CI rejects submissions without an accepted
+license, and this one is MIT.</p>
+</li>
+</ol>
+<p>Before submitting, test the theme from a clean checkout at the exact commit you push,
+and keep <code>THIRD_PARTY_NOTICES.md</code> with the repo: the palette is derived from
+OpenChamber's MIT-licensed theme, and MIT requires its copyright and permission
+notice to travel with substantial portions of the work.</p>
+<p>The full checklist, the exact <code>extensions.toml</code> patch and a ready-to-paste PR body
+live in <a href="https://github.com/Emestie/zed-shire-theme/blob/HEAD/RELEASING.md" target="_blank" rel="noopener">RELEASING.md</a>.</p>
+<h2 id="user-content-how-the-openchamber-palette-maps-to-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#how-the-openchamber-palette-maps-to-zed"><span class="heading-anchor-icon">#</span></a>How the OpenChamber palette maps to Zed</h2>
+<p>Dark-side values below; the light side uses the light source's equivalents
+(<code>#514a40</code> text, <code>#4a6030</code> accent, <code>#3d4f5a</code> keywords, <code>#f9f5eb</code> / <code>#f6f2e8</code> surfaces).</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>OpenChamber token</th><th>Zed key(s)</th></tr></thead><tbody><tr><td><code>surface.background</code> <code>#1b1815</code></td><td><code>background</code>, <code>surface.background</code>, <code>panel.background</code></td></tr><tr><td><code>syntax.base.background</code> <code>#191613</code></td><td><code>editor.background</code>, <code>editor.gutter.background</code>, <code>tab.active_background</code></td></tr><tr><td><code>surface.muted</code> <code>#161311</code></td><td><code>status_bar</code>, <code>title_bar</code>, <code>tab_bar</code>, <code>terminal.background</code></td></tr><tr><td><code>surface.elevated</code> <code>#24211e</code></td><td><code>elevated_surface.background</code>, <code>element.background</code></td></tr><tr><td><code>surface.foreground</code> <code>#e9decf</code></td><td><code>text</code>, <code>editor.foreground</code>, <code>syntax.variable</code></td></tr><tr><td><code>surface.mutedForeground</code> <code>#948b7c</code></td><td><code>text.muted</code>, <code>icon.muted</code>, <code>editor.active_line_number</code> (brightened)</td></tr><tr><td><code>primary.base</code> <code>#809062</code></td><td><code>accents[0]</code>, <code>text.accent</code>, <code>icon.accent</code>, <code>border.focused</code>, <code>created</code></td></tr><tr><td><code>interactive.border</code> <code>#2e2b28</code></td><td><code>border</code>, <code>pane_group.border</code></td></tr><tr><td><code>interactive.selection</code></td><td><code>ghost_element.selected</code>, <code>editor.document_highlight.*</code></td></tr><tr><td><code>syntax.base.comment</code> <code>#6a5e52</code></td><td><code>syntax.comment</code>, <code>editor.line_number</code>, <code>ignored</code></td></tr><tr><td><code>syntax.base.keyword</code> <code>#5a6d7a</code></td><td><code>syntax.keyword</code>, <code>syntax.property</code>, <code>syntax.preproc</code>, <code>modified</code></td></tr><tr><td><code>syntax.base.string</code> <code>#93a56b</code></td><td><code>syntax.string</code>, <code>syntax.attribute</code>, <code>syntax.function.method</code></td></tr><tr><td><code>syntax.base.number</code> <code>#c47a3a</code></td><td><code>syntax.number</code>, <code>syntax.function</code>, <code>syntax.tag</code>, <code>warning</code></td></tr><tr><td><code>syntax.base.type</code> <code>#7a8a5a</code></td><td><code>syntax.type</code>, <code>syntax.enum</code>, <code>syntax.boolean</code>, <code>success</code></td></tr><tr><td><code>syntax.base.operator</code> <code>#a89888</code></td><td><code>syntax.operator</code>, <code>syntax.punctuation</code></td></tr><tr><td><code>syntax.tokens.commentDoc</code> <code>#4a4238</code></td><td><code>syntax.comment.doc</code></td></tr><tr><td><code>syntax.highlights.diff*</code></td><td><code>created</code> / <code>modified</code> / <code>deleted</code> (<code>*</code> uses <code>#RRGGBBAA</code> for backgrounds)</td></tr><tr><td><code>status.*</code></td><td><code>error</code>, <code>warning</code>, <code>success</code>, <code>info</code> + their <code>.background</code> / <code>.border</code></td></tr><tr><td><code>markdown.link</code> <code>#75858f</code></td><td><code>syntax.link_text</code>; <code>link_text.hover</code> uses the sage accent</td></tr><tr><td><code>pr.merged</code> <code>#9a82ad</code></td><td><code>renamed</code>, <code>syntax.keyword</code>-adjacent purple accents</td></tr></tbody></table>
+<p>Colors are plain hex; the <code>#RRGGBBAA</code> form is used only for overlays
+(selection, hovers, diff backgrounds), exactly like the source theme's <code>…80</code> / <code>…1f</code> values.</p>
+<h2 id="user-content-tweaking"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#tweaking"><span class="heading-anchor-icon">#</span></a>Tweaking</h2>
+<ul>
+<li>Warm it up / cool it down: change <code>background</code> <code>#1b1815</code> and <code>editor.background</code> <code>#191613</code>
+together (light: <code>#f9f5eb</code> / <code>#f6f2e8</code>).</li>
+<li>More or less accent: <code>accents[]</code>, <code>text.accent</code>, <code>border.focused</code>, <code>pane.focused_border</code>
+(dark <code>#809062</code>, light <code>#4a6030</code>).</li>
+<li>Comment legibility: <code>syntax.comment</code> is intentionally low contrast — <code>#6a5e52</code> on dark,
+<code>#8a7e72</code> on light; raise toward <code>#7d6f60</code> / <code>#7a6e62</code> if it fades.</li>
+<li>AI ghost text (edit predictions) uses <code>predictive</code>: <code>#535d64</code> on dark and <code>#9aa3a8</code> on
+light, both ~2.5:1 against the editor background so they read as shadow text rather
+than code. <code>syntax.predictive</code> is kept in sync; <code>#RRGGBBAA</code> is allowed if you want it
+even fainter.</li>
+<li>Re-run <code>scripts/check-theme.ps1</code> after any edit, then rebuild the dev extension.</li>
+</ul>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>This project is MIT — see <a href="https://github.com/Emestie/zed-shire-theme/blob/HEAD/LICENSE" target="_blank" rel="noopener">LICENSE</a>.</p>
+<p>The palette is adapted from OpenChamber's <strong>Fields of the Shire</strong> theme, which is
+MIT-licensed (© 2025 Bohdan Triapitsyn). That copyright and permission notice is
+reproduced in <a href="https://github.com/Emestie/zed-shire-theme/blob/HEAD/THIRD_PARTY_NOTICES.md" target="_blank" rel="noopener">THIRD_PARTY_NOTICES.md</a>, as MIT requires for
+substantial portions of a work. The name "Fields of the Shire" is used descriptively
+to credit the source; this project is not affiliated with OpenChamber.</p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>
