@@ -6038,7 +6038,7 @@
     "url": "https://github.com/vitallium/zed-ltex",
     "description": "LTeX+ Language Server support for Zed",
     "stars": 19,
-    "forks": 3,
+    "forks": 4,
     "topics": [
       "ltex",
       "ltex-plus",
@@ -8338,7 +8338,7 @@
     "name": "cange/nightfox.zed",
     "url": "https://github.com/cange/nightfox.zed",
     "description": "🦊 Zed editor theme ported from Neovim",
-    "stars": 192,
+    "stars": 193,
     "forks": 5,
     "topics": [
       "zed",
@@ -8347,7 +8347,7 @@
     "language": "Lua",
     "license": "MIT",
     "created_at": "2024-05-02T20:49:30Z",
-    "updated_at": "2026-11-23T17:56:03Z",
+    "updated_at": "2026-11-23T23:54:02Z",
     "pushed_at": "2026-11-08T13:15:34Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": true,
@@ -65869,7 +65869,7 @@
     "license": "Apache-2.0",
     "created_at": "2025-04-18T13:34:52Z",
     "updated_at": "2026-11-22T10:31:01Z",
-    "pushed_at": "2026-11-22T09:30:56Z",
+    "pushed_at": "2026-11-23T23:51:01Z",
     "discovered_at": "2026-10-31T00:48:59.196Z",
     "official": false,
     "extension": {
@@ -66062,7 +66062,7 @@
     "license": "MIT",
     "created_at": "2026-11-01T01:34:22Z",
     "updated_at": "2026-11-16T15:05:06Z",
-    "pushed_at": "2026-11-22T23:06:27Z",
+    "pushed_at": "2026-11-23T22:54:57Z",
     "discovered_at": "2026-11-01T12:43:52.373Z",
     "official": false,
     "extension": {
@@ -66183,7 +66183,7 @@
     "license": "MIT",
     "created_at": "2026-11-02T21:19:09Z",
     "updated_at": "2026-11-09T04:29:21Z",
-    "pushed_at": "2026-11-23T17:11:43Z",
+    "pushed_at": "2026-11-23T22:08:55Z",
     "discovered_at": "2026-11-03T00:49:46.905Z",
     "official": false,
     "extension": {
@@ -67473,7 +67473,7 @@
     "updated_at": "2026-11-20T16:41:52Z",
     "pushed_at": "2026-11-20T16:15:24Z",
     "discovered_at": "2026-11-20T18:44:02.663Z",
-    "official": false,
+    "official": true,
     "extension": {
       "id": "yay-sayer-theme",
       "name": "Yay Sayer",
@@ -67869,6 +67869,179 @@
       ],
       "categories": [
         "debug-adapter"
+      ]
+    }
+  },
+  "codigrate/zed-themes": {
+    "name": "codigrate/zed-themes",
+    "url": "https://github.com/codigrate/zed-themes",
+    "description": "Codigrate themes for Zed: nature and city inspired editor themes, UI, syntax and terminal",
+    "stars": 1,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-10-13T16:04:47Z",
+    "updated_at": "2026-10-30T11:40:49Z",
+    "pushed_at": "2026-10-30T11:40:45Z",
+    "discovered_at": "2026-11-24T00:49:46.685Z",
+    "official": true,
+    "extension": {
+      "id": "codigrate-themes",
+      "name": "Codigrate Themes",
+      "description": "12 Codigrate editor themes inspired by nature and cities: Aurora Borealis, Autumn, Everest, Roraima, Sakura, Sequoia, Istanbul, Miami, Paris, Rio de Janeiro, Tallinn, Tokyo.",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "authors": [
+        "Codigrate <info@codigrate.com>"
+      ],
+      "repository": "https://github.com/codigrate/zed-themes",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "zhengsy/goose-zed": {
+    "name": "ZHENGSY/goose-zed",
+    "url": "https://github.com/ZHENGSY/goose-zed",
+    "description": "Goose language extension for Zed (grammar, highlighting, Goose LSP integration, snippets, tasks)",
+    "stars": 4,
+    "forks": 1,
+    "topics": [],
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "created_at": "2026-10-29T14:57:01Z",
+    "updated_at": "2026-11-19T09:41:34Z",
+    "pushed_at": "2026-11-19T08:41:30Z",
+    "discovered_at": "2026-11-24T00:49:46.685Z",
+    "official": true,
+    "extension": {
+      "id": "goose",
+      "name": "Goose",
+      "description": "Goose language support: syntax highlighting, the Goose language server (diagnostics, hover, go to definition, references, rename, symbols, completion, signature help, inlay hints, folding, formatting), snippets and run tasks.",
+      "version": "0.2.1",
+      "schema_version": 1,
+      "authors": [
+        "Simon Zheng"
+      ],
+      "repository": "https://github.com/ZHENGSY/goose-zed",
+      "snippets": [
+        "./snippets/goose.json"
+      ],
+      "sections": [
+        "language_servers",
+        "grammars"
+      ],
+      "categories": [
+        "grammar",
+        "language-server",
+        "snippets"
+      ]
+    }
+  },
+  "harryc919/mineralthemeforzed": {
+    "name": "HarryC919/MineralThemeForZed",
+    "url": "https://github.com/HarryC919/MineralThemeForZed",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": "TypeScript",
+    "license": "MIT",
+    "created_at": "2026-10-24T22:41:56Z",
+    "updated_at": "2026-10-24T23:02:20Z",
+    "pushed_at": "2026-10-24T23:02:16Z",
+    "discovered_at": "2026-11-24T00:49:46.685Z",
+    "official": true,
+    "extension": {
+      "id": "mineral-theme",
+      "name": "Mineral Themes",
+      "description": "Dark theme family for Zed: 10 background variants, each in normal and high-contrast flavors.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "HarryC919"
+      ],
+      "repository": "https://github.com/HarryC919/MineralThemeForZed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "ulatte-theme/zed": {
+    "name": "ulatte-theme/zed",
+    "url": "https://github.com/ulatte-theme/zed",
+    "description": "A theme for Zed, with unified backgrounds for a seamless interface.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "language": null,
+    "license": "MIT",
+    "created_at": "2026-10-12T19:02:48Z",
+    "updated_at": "2026-11-01T20:34:21Z",
+    "pushed_at": "2026-10-12T23:01:59Z",
+    "discovered_at": "2026-11-24T00:49:46.685Z",
+    "official": true,
+    "extension": {
+      "id": "ulatte-theme",
+      "name": "uLatte",
+      "description": "Unified backgrounds for a seamless Zed workspace",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "seizure16"
+      ],
+      "repository": "https://github.com/ulatte-theme/zed",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "plumlang/zed-plum": {
+    "name": "plumlang/zed-plum",
+    "url": "https://github.com/plumlang/zed-plum",
+    "description": "Plumlang support for the Zed editor: syntax highlighting, outline and the plum language server",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "language-server",
+      "plumlang",
+      "programming-language",
+      "tree-sitter",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Tree-sitter Query",
+    "license": "MIT",
+    "created_at": "2026-11-23T18:58:53Z",
+    "updated_at": "2026-11-23T18:59:04Z",
+    "pushed_at": "2026-11-23T18:58:58Z",
+    "discovered_at": "2026-11-24T00:49:46.685Z",
+    "official": false,
+    "extension": {
+      "id": "plum",
+      "name": "Plumlang",
+      "description": "Plumlang support: syntax highlighting, outline, brackets, indentation and the plum language server.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Circuit-Overtime <ayushman.elixpo@gmail.com>"
+      ],
+      "repository": "https://github.com/plumlang/zed-plum",
+      "snippets": null,
+      "sections": [
+        "grammars",
+        "language_servers"
+      ],
+      "categories": [
+        "grammar",
+        "language-server"
       ]
     }
   }

@@ -1,0 +1,232 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Goose - Zed Extension Safari</title><meta name="description" content="Goose language extension for Zed (grammar, highlighting, Goose LSP integration, snippets, tasks)"><link rel="canonical" href="https://helgesverre.github.io/gh-packages-zed/package/ZHENGSY/goose-zed/"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Goose - Zed Extension Safari"><meta property="og:description" content="Goose language extension for Zed (grammar, highlighting, Goose LSP integration, snippets, tasks)"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed/package/ZHENGSY/goose-zed/"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Goose - Zed Extension Safari"><meta name="twitter:description" content="Goose language extension for Zed (grammar, highlighting, Goose LSP integration, snippets, tasks)"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/gh-packages-zed/_astro/ClientRouter.astro_astro_type_script_index_0_lang.ClVLs1kt.js"></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Goose","description":"Goose language extension for Zed (grammar, highlighting, Goose LSP integration, snippets, tasks)","applicationCategory":"DeveloperApplication","operatingSystem":"macOS, Linux, Windows","url":"https://zed.dev/extensions/goose","codeRepository":"https://github.com/ZHENGSY/goose-zed","author":[{"@type":"Person","name":"Simon Zheng"}],"softwareVersion":"0.2.1","license":"Apache-2.0","keywords":"grammar, language-server, snippets","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/Layout.CGDlMdWE.css"><script type="module" src="/gh-packages-zed/_astro/page.B8i1Zz-u.js"></script></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <a href="#main" class="skip-to-content">Skip to content</a> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" data-astro-transition-persist="astro-fhchcgd7-1"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <script type="application/json" id="pkg-extras">{"url":"https://github.com/ZHENGSY/goose-zed","language":"Rust","license":"Apache-2.0","topics":[],"extension":{"authors":["Simon Zheng"],"schema_version":1}}</script> <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> ZHENGSY/goose-zed </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> Goose </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> Goose language support: syntax highlighting, the Goose language server (diagnostics, hover, go to definition, references, rename, symbols, completion, signature help, inlay hints, folding, formatting), snippets and run tasks. </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="grammar">Grammar</span><span class="cat-badge" data-cat="language-server">Language Server</span><span class="cat-badge" data-cat="snippets">Snippets</span> </div> </div> </div> </header> <main id="main" class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/goose" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/ZHENGSY/goose-zed" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.2.1</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">goose</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">Rust</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">Apache-2.0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">4</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">4d ago</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">Simon Zheng</dd> </div> </dl>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-goose-for-zed"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#goose-for-zed"><span class="heading-anchor-icon">#</span></a>Goose for Zed</h1>
+<p>Zed support for the <a href="https://github.com/aardappel/goose">Goose language</a>.</p>
+<p>The Goose compiler is its own language server: <code>goose lsp</code> speaks the Language
+Server Protocol on stdin and stdout. This extension gives Zed a Goose language
+(treesitter grammar, highlighting, brackets, indentation, outline, snippets)
+and starts that server for diagnostics, hover, go to definition, references,
+rename, symbols, completion, signature help, inlay hints, folding and
+formatting. The grammar is the one upstream ships in <code>tree-sitter/</code>, pinned by
+<code>rev</code>: <code>defer</code>, <code>root</code> structs, <code>const if</code>, variant constants, numeric
+separators and <code>extern "lib" { … }</code> blocks bound from a shared library all
+parse and highlight.</p>
+<h2 id="user-content-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features"><span class="heading-anchor-icon">#</span></a>Features</h2>
+<ul>
+<li>Syntax highlighting for <code>.goose</code> files, including nested <code>/* */</code> comments,
+escapes, multi-line <code>"""</code> raw strings, namespaces and builtins.</li>
+<li>Bracket matching, auto-closing, comment toggling (line and block),
+indentation, folding and document/workspace outline.</li>
+<li>Diagnostics as you type, hover, go to definition, find references, rename,
+document and workspace symbols, completion, signature help, inlay hints.</li>
+<li>Formatting through the server, with <code>goose format</code>'s semantics.</li>
+<li>Snippets: <code>main</code>, <code>fn</code>, <code>struct</code>, <code>enum</code>, <code>for</code>, <code>match</code>, <code>guard</code>,
+<code>loop</code>, <code>let</code>, <code>const</code>, <code>defer</code>, <code>extern "lib"</code> blocks, the full array
+family (<code>T[k]</code>, <code>T[]</code>, <code>T[..]</code>, <code>T[..k]</code>, <code>T[>..]</code> grow-only, <code>T[>..&#x3C;]</code>
+grow-shrink, <code>reusable</code> — deprecated in v2026.4), and the v2026.4
+<code>slot_pool</code>/<code>slice_pool</code> replacements.</li>
+<li>Tasks: <code>goose run</code>, <code>goose check</code>, <code>goose build</code> (task runner), and a run
+button above <code>fn main</code>.</li>
+<li>The Goose LSP's semantic tokens, when enabled in Zed with
+<code>"semantic_tokens": "combined"</code>.</li>
+</ul>
+<h2 id="user-content-requirements"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#requirements"><span class="heading-anchor-icon">#</span></a>Requirements</h2>
+<p>A Goose compiler that has <code>goose lsp</code> (run <code>goose lsp --help</code> to check) —
+v2026.4 or newer for the grammar and the formatting this extension ships with.
+The extension looks for it in this order:</p>
+<ol>
+<li><code>lsp.goose.binary.path</code> from Zed settings;</li>
+<li><code>goose</code> on <code>$PATH</code> (Zed uses your login shell's <code>PATH</code>);</li>
+<li>the latest prebuilt release from
+<a href="https://github.com/aardappel/goose/releases">aardappel/goose releases</a>,
+downloaded and cached by Zed.</li>
+</ol>
+<p>Prebuilt archives exist for macOS arm64/x86-64, Linux x86-64 and Windows
+x86-64. On other platforms, install Goose yourself and put <code>goose</code> on <code>PATH</code>.</p>
+<h2 id="user-content-install-as-a-dev-extension"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#install-as-a-dev-extension"><span class="heading-anchor-icon">#</span></a>Install as a dev extension</h2>
+<ol>
+<li>Install Rust with rustup if you have not already; Zed adds the
+<code>wasm32-wasip2</code> target when it builds the extension.</li>
+<li>In Zed, open the command palette and run <strong>zed: install dev extension</strong>,
+then choose this <code>zed/</code> directory.</li>
+<li>Open a <code>.goose</code> file. The language server starts automatically.</li>
+</ol>
+<p>The first build also downloads wasi-sdk 34 (~180 MB) from GitHub to
+<code>~/Library/Application Support/Zed/extensions/build/</code>, because that is what
+compiles the C parser to WebAssembly. On a slow connection the build appears to
+hang at <code>downloading wasi-sdk</code>. Either wait, or fetch
+<code>wasi-sdk-34.0-arm64-macos.tar.gz</code> (adjust the platform) from the
+<a href="https://github.com/WebAssembly/wasi-sdk/releases/tag/wasi-sdk-34">wasi-sdk releases</a>
+yourself, extract it so that <code>bin/clang</code> sits directly in
+<code>extensions/build/wasi-sdk/</code>, then install the dev extension again.</p>
+<h3 id="user-content-troubleshooting-already-exists-but-is-not-a-git-clone-of-"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#troubleshooting-already-exists-but-is-not-a-git-clone-of-"><span class="heading-anchor-icon">#</span></a>Troubleshooting: "already exists, but is not a git clone of ..."</h3>
+<p>Zed caches each grammar as a git clone under <code>grammars/goose/</code> inside the
+extension directory, and only reuses that clone when its <code>origin</code> matches the
+<code>repository</code> URL in <code>extension.toml</code>. Version 0.2.1 moved the grammar from
+this repository to upstream's, now that upstream checks in the generated
+parser, so the stale clone fails the check and installation aborts with:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span>Failed to install dev extension: compiling grammar 'goose'</span></span>
+<span class="line"><span>    grammar directory ".../zed/grammars/goose" already exists,</span></span>
+<span class="line"><span>    but is not a git clone of 'https://github.com/aardappel/goose'</span></span></code></pre>
+<p>The clone is a disposable build artifact: delete <code>grammars/goose/</code> and install
+the dev extension again, and Zed will clone the repository fresh.</p>
+<h3 id="user-content-grammar-and-queries"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#grammar-and-queries"><span class="heading-anchor-icon">#</span></a>Grammar and queries</h3>
+<p>Zed compiles a grammar from a git checkout; it does not run <code>tree-sitter generate</code>. Since <a href="https://github.com/aardappel/goose/pull/320">aardappel/goose#320</a>,
+upstream checks in the generated <code>tree-sitter/src/parser.c</code> and
+<code>tree-sitter/src/tree_sitter/parser.h</code>, so <code>extension.toml</code> points straight at
+upstream:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">[</span><span style="color:#6F42C1;--shiki-dark:#B392F0">grammars</span><span style="color:#24292E;--shiki-dark:#E1E4E8">.</span><span style="color:#6F42C1;--shiki-dark:#B392F0">goose</span><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">repository = </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"https://github.com/aardappel/goose"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">rev = </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"9412b80f52d833c4697cffdbbf1f4eeb5195cd41"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">path = </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"tree-sitter"</span></span></code></pre>
+<p>To follow a newer grammar, set <code>rev</code> to a commit on upstream <code>master</code> whose
+<code>tree-sitter/src/parser.c</code> is current with <code>grammar.js</code> (upstream's
+<code>python tree-sitter/build.py</code> regenerates and checks it). Nothing is vendored
+in this repository any more, so there is no parser to regenerate here.</p>
+<p>Zed does not read the query files that live next to a grammar; it looks in
+<code>languages/goose/</code>. <code>languages/goose/highlights.scm</code> is therefore a manual copy
+of upstream's <code>tree-sitter/queries/highlights.scm</code>, adapted to Zed's capture
+names (<code>@module</code> → <code>@namespace</code>, <code>@variable.builtin</code> → <code>@variable.special</code>,
+<code>@character</code> → <code>@string</code>, <code>@escape</code> → <code>@string.escape</code>; the file's header lists
+them all, and the builtins-in-call-position rule is added here). When you bump
+<code>rev</code>, copy that revision's <code>highlights.scm</code> over and reapply the adaptations.
+The other queries — <code>brackets</code>, <code>indents</code>, <code>outline</code>, <code>overrides</code>, <code>runnables</code>,
+<code>textobjects</code> — are Zed-specific and have no upstream counterpart; upstream's
+<code>queries/helix/</code> and <code>queries/tags.scm</code> are for Helix and are not used here.</p>
+<h2 id="user-content-settings"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#settings"><span class="heading-anchor-icon">#</span></a>Settings</h2>
+<p>Everything lives under <code>lsp.goose</code> in Zed's <code>settings.json</code>:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "goose"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">      // Optional: a compiler outside $PATH.</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "binary"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "path"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"/Users/me/goose-v2026.4-macos-arm64/goose"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">        // Optional: defaults to ["lsp"]. Use e.g. ["lsp", "--stdlib", "/path/to/stdlib"].</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "arguments"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">],</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "env"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"GOOSE_STDLIB"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"/path/to/goose/stdlib"</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      },</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">      // Optional: the programs to analyze. Each open file is analyzed as its</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">      // own program when this is absent, so imported modules only get their</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">      // own errors. With entry files, every file shows the program's errors.</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "initialization_options"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "entryFiles"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"/Users/me/project/main.goose"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  },</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "languages"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "Goose"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "tab_size"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">4</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>Note that <code>binary.arguments</code> <em>replaces</em> the default <code>["lsp"]</code>; keep <code>"lsp"</code>
+as the first argument.</p>
+<p>The tasks use <code>goose</code> from <code>$PATH</code>. If the compiler is not on <code>PATH</code>, edit
+<code>languages/goose/tasks.json</code> (or define your own tasks) to use its full path.</p>
+<h2 id="user-content-what-zed-supports"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#what-zed-supports"><span class="heading-anchor-icon">#</span></a>What Zed supports</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Feature</th><th>Zed</th><th>Notes</th></tr></thead><tbody><tr><td>Diagnostics</td><td>yes</td><td>as you type, across the program's files</td></tr><tr><td>Hover / definition / references / rename</td><td>yes</td><td></td></tr><tr><td>Document and workspace symbols</td><td>yes</td><td></td></tr><tr><td>Completion and signature help</td><td>yes</td><td></td></tr><tr><td>Inlay hints</td><td>yes</td><td>enable in Zed settings if off</td></tr><tr><td>Folding</td><td>yes</td><td>tree-sitter, plus the server's ranges</td></tr><tr><td>Formatting</td><td>yes</td><td>the server formats as <code>goose format</code> does</td></tr><tr><td>Semantic tokens</td><td>yes</td><td><code>"semantic_tokens": "combined"</code></td></tr><tr><td>Code lenses</td><td>partial</td><td>with <code>"code_lens": "on"</code>, the server's instantiation counts appear; its <code>Run</code> lens needs a client command that Zed extensions cannot register, so it is not offered</td></tr><tr><td>Debugging</td><td>no</td><td>Goose's server does not implement DAP</td></tr></tbody></table>
+<h2 id="user-content-publishing"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#publishing"><span class="heading-anchor-icon">#</span></a>Publishing</h2>
+<p>This directory is laid out as a standalone extension repository at
+<a href="https://github.com/ZHENGSY/goose-zed">github.com/ZHENGSY/goose-zed</a>.
+<code>extension.toml</code> points its own <code>repository</code> at that URL and its grammar at
+upstream's <code>tree-sitter/</code> directory, with <code>rev</code> set to a commit that contains
+the generated <code>src/parser.c</code>.</p>
+<p>To publish to the Zed extension registry, open a PR against
+<a href="https://github.com/zed-industries/extensions">zed-industries/extensions</a>
+adding this repository as a submodule under <code>extensions/goose</code>:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">git</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> submodule</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> add</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> https://github.com/ZHENGSY/goose-zed</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> extensions/goose</span></span></code></pre>
+<p>and add a matching entry to that repo's top-level <code>extensions.toml</code>. After a
+grammar change, bump the grammar's <code>rev</code> and sync <code>languages/goose/highlights.scm</code>
+from the same upstream revision before submitting.</p>
+<p>The grammar belongs to <code>aardappel/goose</code> and is Apache-2.0, like Goose itself;
+this extension only ships the Zed-specific queries and configuration.</p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>

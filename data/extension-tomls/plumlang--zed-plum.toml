@@ -1,0 +1,15 @@
+id = "plum"
+name = "Plumlang"
+version = "0.1.0"
+schema_version = 1
+authors = ["Circuit-Overtime <ayushman.elixpo@gmail.com>"]
+description = "Plumlang support: syntax highlighting, outline, brackets, indentation and the plum language server."
+repository = "https://github.com/plumlang/zed-plum"
+
+[grammars.plum]
+repository = "https://github.com/plumlang/tree-sitter-plum"
+rev = "4d17a580e14ad2a8410382e158b5bad2e2a6bb61"
+
+[language_servers.plum-lsp]
+name = "Plumlang LSP"
+languages = ["Plumlang"]
