@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1964** |
 | In official registry | 1379 |
 | Discovered via topics | 585 |
-| Last updated | 2026-11-24 06:47 UTC |
+| Last updated | 2026-11-24 12:43 UTC |
 
 ### By capability
 
@@ -120,31 +120,32 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 105 | 2026-11-24 | True Dark Theme for Zed IDE |
+| [BrankoSlavkov/astryx](https://github.com/BrankoSlavkov/astryx) | 0 | 2026-11-24 | Theme for all the people who code in deep dark spaces |
+| [EDM115/zed-embedded-languages](https://github.com/EDM115/zed-embedded-languages) | 1 | 2026-11-24 | Zed extension to add syntax highlighting to any string as yo... |
+| [matinfo-tech/zed-markdown-pdf-export](https://github.com/matinfo-tech/zed-markdown-pdf-export) | 0 | 2026-11-24 | Zed extension for markdown-pdf-export: Markdown to PDF with ... |
+| [isanjaymenon/hackerone-zed-theme](https://github.com/isanjaymenon/hackerone-zed-theme) | 0 | 2026-11-24 | Unofficial HackerOne Dark and Light Theme |
 | [plumlang/zed-plum](https://github.com/plumlang/zed-plum) | 0 | 2026-11-24 | Plumlang support for the Zed editor: syntax highlighting, ou... |
 | [wielorzeczownik/zed-volt](https://github.com/wielorzeczownik/zed-volt) | 0 | 2026-11-24 | Phalcon Volt template support for Zed: syntax highlighting a... |
 | [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 1 | 2026-11-24 | Zed extension that formats and lints HTML templates with djL... |
 | [xsynaptic/zed-mdxlint](https://github.com/xsynaptic/zed-mdxlint) | 0 | 2026-11-24 | Zed extension that runs mdxlint-language-server for MDX lint... |
 | [reuixiy7/zed-lean4](https://github.com/reuixiy7/zed-lean4) | 68 | 2026-11-23 |  |
 | [comphy-lab/comphy-zed-themes](https://github.com/comphy-lab/comphy-zed-themes) | 2 | 2026-11-23 |  |
-| [EDM115/zed-embedded-languages](https://github.com/EDM115/zed-embedded-languages) | 1 | 2026-11-23 | Zed extension to add syntax highlighting to any string as yo... |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 16 | 2026-11-23 | Spring Boot language intelligence for Zed, powered by the of... |
 | [caozeal/zed-endpoint-nav](https://github.com/caozeal/zed-endpoint-nav) | 0 | 2026-11-23 | 把 Spring / FastAPI / MCP 的请求映射当作符号，喂给 Zed 的 Cmd+T（Go to Symb... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 105 | 2026-11-23 | True Dark Theme for Zed IDE |
 | [ChemisTechlabs/zed-pascal](https://github.com/ChemisTechlabs/zed-pascal) | 18 | 2026-11-23 | A Pascal language extension for Zed Editor |
 | [zed-extentions/zed-csharp-debugger](https://github.com/zed-extentions/zed-csharp-debugger) | 0 | 2026-11-23 | Debug C#/.NET applications in Zed using netcoredbg (Debug Ad... |
 | [dynotable/zed-dynotable](https://github.com/dynotable/zed-dynotable) | 0 | 2026-11-22 | DynoTable for Zed: SQL and PartiQL for DynamoDB, with comple... |
-| [matinfo-tech/zed-markdown-pdf-export](https://github.com/matinfo-tech/zed-markdown-pdf-export) | 0 | 2026-11-22 | Zed extension for markdown-pdf-export: Markdown to PDF with ... |
 | [akilama471/zed-laravel-extension](https://github.com/akilama471/zed-laravel-extension) | 0 | 2026-11-22 | Enhance your Zed IDE experience with full Laravel support. T... |
 | [felixtensor/zed-mlir](https://github.com/felixtensor/zed-mlir) | 11 | 2026-11-22 | MLIR Extension for Zed |
 | [bajrangCoder/zed-laravel-blade](https://github.com/bajrangCoder/zed-laravel-blade) | 47 | 2026-11-22 | Laravel Blade templating language support for Zed. |
 | [Y-ASLant/Flow-Icons-Zed](https://github.com/Y-ASLant/Flow-Icons-Zed) | 0 | 2026-11-21 | Base on https://flow-icons.pages.dev/ |
-| [Odonno/zed-piccali](https://github.com/Odonno/zed-piccali) | 0 | 2026-11-21 | Gherkin extension for Zed |
-| [abhinaaaavvv/truly-zen-theme](https://github.com/abhinaaaavvv/truly-zen-theme) | 0 | 2026-11-21 | A zed editor theme for total concentration. |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-11-24T12:43 | 1 | 779 | 2513 |
 | 2026-11-24T06:47 | 0 | 779 | 2512 |
 | 2026-11-24T00:49 | 6 | 778 | 2512 |
 | 2026-11-23T18:44 | 15 | 777 | 2506 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-11-22T18:44 | 0 | 777 | 2490 |
 | 2026-11-22T12:43 | 0 | 777 | 2490 |
 | 2026-11-22T06:44 | 2 | 775 | 2490 |
-| 2026-11-22T00:52 | 1 | 775 | 2488 |
 
 ---
 
