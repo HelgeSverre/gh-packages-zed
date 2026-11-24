@@ -1,0 +1,13 @@
+id = "wkey"
+name = "wkey"
+version = "0.2.1"
+schema_version = 1
+description = "Which-key for Zed's vim mode: the bindings at your cursor, in a terminal beside the editor."
+repository = "https://github.com/jonaprieto/zed-wkey"
+authors = ["Jonathan Prieto-Cubides <prieto.jona@gmail.com>"]
+
+# wkey answers no requests; it runs next to the Lean language server to see
+# the cursor in Lean 4 files.
+[language_servers.wkey]
+name = "wkey"
+languages = ["Lean 4"]

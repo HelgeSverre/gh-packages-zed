@@ -1,0 +1,11 @@
+id = "cuda"
+name = "CUDA"
+version = "0.1.0"
+schema_version = 1
+authors = ["Arteiimis"]
+description = "CUDA support: tree-sitter-cuda grammar, kernel launch syntax and CUDA specifier highlighting."
+repository = "https://github.com/Arteiimis/zed-cuda"
+
+[grammars.cuda]
+repository = "https://github.com/tree-sitter-grammars/tree-sitter-cuda"
+rev = "d58080a327756e4d1d16ec329ba7cb2048f6c6cd"

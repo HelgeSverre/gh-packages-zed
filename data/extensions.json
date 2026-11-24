@@ -218,7 +218,7 @@
     "license": "MIT",
     "created_at": "2024-08-27T10:31:46Z",
     "updated_at": "2026-11-13T00:33:54Z",
-    "pushed_at": "2026-11-20T06:34:06Z",
+    "pushed_at": "2026-11-24T17:03:33Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -4952,7 +4952,7 @@
     "name": "ChemisTechlabs/zed-pascal",
     "url": "https://github.com/ChemisTechlabs/zed-pascal",
     "description": "A Pascal language extension for Zed Editor",
-    "stars": 18,
+    "stars": 19,
     "forks": 5,
     "topics": [
       "pascal",
@@ -4963,7 +4963,7 @@
     "language": "Pascal",
     "license": "BSD-3-Clause",
     "created_at": "2025-10-08T00:37:21Z",
-    "updated_at": "2026-11-23T06:37:25Z",
+    "updated_at": "2026-11-24T16:03:01Z",
     "pushed_at": "2026-11-23T07:21:59Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
@@ -6049,7 +6049,7 @@
     "license": "MIT",
     "created_at": "2024-08-06T19:05:20Z",
     "updated_at": "2026-09-26T15:03:53Z",
-    "pushed_at": "2026-09-26T15:03:52Z",
+    "pushed_at": "2026-11-24T18:08:46Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true,
     "extension": {
@@ -53508,7 +53508,7 @@
     "license": "MIT",
     "created_at": "2026-06-22T16:59:52Z",
     "updated_at": "2026-11-12T19:03:45Z",
-    "pushed_at": "2026-11-18T03:10:22Z",
+    "pushed_at": "2026-11-24T17:21:38Z",
     "discovered_at": "2026-07-07T19:19:42.542Z",
     "official": false,
     "extension": {
@@ -54444,7 +54444,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
     "updated_at": "2026-11-21T22:01:35Z",
-    "pushed_at": "2026-11-23T12:24:02Z",
+    "pushed_at": "2026-11-24T13:01:11Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false,
     "extension": {
@@ -66065,7 +66065,7 @@
     "license": "MIT",
     "created_at": "2026-11-01T01:34:22Z",
     "updated_at": "2026-11-16T15:05:06Z",
-    "pushed_at": "2026-11-24T04:42:03Z",
+    "pushed_at": "2026-11-24T15:58:13Z",
     "discovered_at": "2026-11-01T12:43:52.373Z",
     "official": false,
     "extension": {
@@ -68045,6 +68045,130 @@
       "categories": [
         "grammar",
         "language-server"
+      ]
+    }
+  },
+  "jonaprieto/zed-wkey": {
+    "name": "jonaprieto/zed-wkey",
+    "url": "https://github.com/jonaprieto/zed-wkey",
+    "description": "Which-key for Zed's vim mode, in a terminal beside the editor",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "keybindings",
+      "lsp",
+      "macos",
+      "ratatui",
+      "rust",
+      "tui",
+      "vim",
+      "which-key",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "Rust",
+    "license": "GPL-3.0",
+    "created_at": "2026-11-13T13:50:55Z",
+    "updated_at": "2026-11-24T13:58:35Z",
+    "pushed_at": "2026-11-24T14:26:19Z",
+    "discovered_at": "2026-11-24T18:44:11.402Z",
+    "official": false,
+    "extension": {
+      "id": "wkey",
+      "name": "wkey",
+      "description": "Which-key for Zed's vim mode: the bindings at your cursor, in a terminal beside the editor.",
+      "version": "0.2.1",
+      "schema_version": 1,
+      "authors": [
+        "Jonathan Prieto-Cubides <prieto.jona@gmail.com>"
+      ],
+      "repository": "https://github.com/jonaprieto/zed-wkey",
+      "snippets": null,
+      "sections": [
+        "language_servers"
+      ],
+      "categories": [
+        "language-server"
+      ]
+    }
+  },
+  "arteiimis/one-dark-noir-theme": {
+    "name": "Arteiimis/one-dark-noir-theme",
+    "url": "https://github.com/Arteiimis/one-dark-noir-theme",
+    "description": "One Dark Pro's palette for Zed, generated from the VS Code theme and mapped onto Zed's tree-sitter captures.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "dark-theme",
+      "one-dark",
+      "one-dark-pro",
+      "theme",
+      "zed",
+      "zed-extension",
+      "zed-theme"
+    ],
+    "language": "JavaScript",
+    "license": "MIT",
+    "created_at": "2026-11-24T12:59:51Z",
+    "updated_at": "2026-11-24T13:46:16Z",
+    "pushed_at": "2026-11-24T13:46:23Z",
+    "discovered_at": "2026-11-24T18:44:11.402Z",
+    "official": false,
+    "extension": {
+      "id": "one-dark-noir-theme",
+      "name": "One Dark Noir",
+      "description": "One Dark Pro's palette for Zed, generated from the VS Code theme and mapped onto Zed's tree-sitter captures.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Arteiimis"
+      ],
+      "repository": "https://github.com/Arteiimis/one-dark-noir-theme",
+      "snippets": null,
+      "sections": [],
+      "categories": [
+        "theme"
+      ]
+    }
+  },
+  "arteiimis/zed-cuda": {
+    "name": "Arteiimis/zed-cuda",
+    "url": "https://github.com/Arteiimis/zed-cuda",
+    "description": "CUDA support for Zed: tree-sitter-cuda grammar, kernel launch syntax and CUDA specifier highlighting.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "cuda",
+      "nvcc",
+      "tree-sitter",
+      "tree-sitter-cuda",
+      "zed",
+      "zed-extension",
+      "zed-language"
+    ],
+    "language": "Tree-sitter Query",
+    "license": "GPL-3.0",
+    "created_at": "2026-11-24T13:00:14Z",
+    "updated_at": "2026-11-24T13:46:19Z",
+    "pushed_at": "2026-11-24T13:46:26Z",
+    "discovered_at": "2026-11-24T18:44:11.402Z",
+    "official": false,
+    "extension": {
+      "id": "cuda",
+      "name": "CUDA",
+      "description": "CUDA support: tree-sitter-cuda grammar, kernel launch syntax and CUDA specifier highlighting.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "Arteiimis"
+      ],
+      "repository": "https://github.com/Arteiimis/zed-cuda",
+      "snippets": null,
+      "sections": [
+        "grammars"
+      ],
+      "categories": [
+        "grammar"
       ]
     }
   }
