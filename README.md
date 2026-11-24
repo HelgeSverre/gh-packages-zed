@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1964** |
 | In official registry | 1379 |
 | Discovered via topics | 585 |
-| Last updated | 2026-11-24 00:49 UTC |
+| Last updated | 2026-11-24 06:47 UTC |
 
 ### By capability
 
@@ -105,7 +105,7 @@ cd website && npm install && npm run dev
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 212 | Typst extension for zed |
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
-| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 193 | 🦊 Zed editor theme ported from Neovim |
+| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 194 | 🦊 Zed editor theme ported from Neovim |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 177 | A macOS native style theme for Zed, let it same like native app in macOS. |
@@ -120,10 +120,11 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [reuixiy7/zed-lean4](https://github.com/reuixiy7/zed-lean4) | 67 | 2026-11-23 |  |
-| [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 1 | 2026-11-23 | Zed extension that formats and lints HTML templates with djL... |
-| [wielorzeczownik/zed-volt](https://github.com/wielorzeczownik/zed-volt) | 0 | 2026-11-23 | Phalcon Volt template support for Zed: syntax highlighting a... |
-| [plumlang/zed-plum](https://github.com/plumlang/zed-plum) | 0 | 2026-11-23 | Plumlang support for the Zed editor: syntax highlighting, ou... |
+| [plumlang/zed-plum](https://github.com/plumlang/zed-plum) | 0 | 2026-11-24 | Plumlang support for the Zed editor: syntax highlighting, ou... |
+| [wielorzeczownik/zed-volt](https://github.com/wielorzeczownik/zed-volt) | 0 | 2026-11-24 | Phalcon Volt template support for Zed: syntax highlighting a... |
+| [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 1 | 2026-11-24 | Zed extension that formats and lints HTML templates with djL... |
+| [xsynaptic/zed-mdxlint](https://github.com/xsynaptic/zed-mdxlint) | 0 | 2026-11-24 | Zed extension that runs mdxlint-language-server for MDX lint... |
+| [reuixiy7/zed-lean4](https://github.com/reuixiy7/zed-lean4) | 68 | 2026-11-23 |  |
 | [comphy-lab/comphy-zed-themes](https://github.com/comphy-lab/comphy-zed-themes) | 2 | 2026-11-23 |  |
 | [EDM115/zed-embedded-languages](https://github.com/EDM115/zed-embedded-languages) | 1 | 2026-11-23 | Zed extension to add syntax highlighting to any string as yo... |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 16 | 2026-11-23 | Spring Boot language intelligence for Zed, powered by the of... |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [Y-ASLant/Flow-Icons-Zed](https://github.com/Y-ASLant/Flow-Icons-Zed) | 0 | 2026-11-21 | Base on https://flow-icons.pages.dev/ |
 | [Odonno/zed-piccali](https://github.com/Odonno/zed-piccali) | 0 | 2026-11-21 | Gherkin extension for Zed |
 | [abhinaaaavvv/truly-zen-theme](https://github.com/abhinaaaavvv/truly-zen-theme) | 0 | 2026-11-21 | A zed editor theme for total concentration. |
-| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-11-20 | A Zed extension that allows to highlight all occurrences of ... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-11-24T06:47 | 0 | 779 | 2512 |
 | 2026-11-24T00:49 | 6 | 778 | 2512 |
 | 2026-11-23T18:44 | 15 | 777 | 2506 |
 | 2026-11-23T12:44 | 1 | 778 | 2492 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-11-22T12:43 | 0 | 777 | 2490 |
 | 2026-11-22T06:44 | 2 | 775 | 2490 |
 | 2026-11-22T00:52 | 1 | 775 | 2488 |
-| 2026-11-21T18:43 | 0 | 775 | 2488 |
 
 ---
 
