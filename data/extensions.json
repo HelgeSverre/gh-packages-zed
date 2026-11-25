@@ -87,7 +87,7 @@
     "url": "https://github.com/GDQuest/zed-gdscript",
     "description": "Zed support for the Godot game engine and the GDScript language",
     "stars": 216,
-    "forks": 26,
+    "forks": 27,
     "topics": [
       "code-editor",
       "godot",
@@ -4686,7 +4686,7 @@
     "url": "https://github.com/Ben-Wormald/cloudformation-language-server-zed",
     "description": "Zed extension for the AWS CloudFormation language server",
     "stars": 4,
-    "forks": 2,
+    "forks": 1,
     "topics": [
       "cloudformation",
       "language-server",
@@ -7231,7 +7231,7 @@
     "url": "https://github.com/navi-language/zed-navi",
     "description": "Navi language support for Zed",
     "stars": 2,
-    "forks": 0,
+    "forks": 1,
     "topics": [
       "zed",
       "zed-extension"
@@ -54444,7 +54444,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-07-17T11:35:16Z",
     "updated_at": "2026-11-21T22:01:35Z",
-    "pushed_at": "2026-11-24T22:48:33Z",
+    "pushed_at": "2026-11-25T17:21:21Z",
     "discovered_at": "2026-07-17T13:05:18.546Z",
     "official": false,
     "extension": {
@@ -65866,7 +65866,7 @@
     "url": "https://github.com/reuixiy7/zed-lean4",
     "description": "",
     "stars": 68,
-    "forks": 18,
+    "forks": 17,
     "topics": [],
     "language": "Rust",
     "license": "Apache-2.0",
@@ -66065,7 +66065,7 @@
     "license": "MIT",
     "created_at": "2026-11-01T01:34:22Z",
     "updated_at": "2026-11-16T15:05:06Z",
-    "pushed_at": "2026-11-25T03:46:33Z",
+    "pushed_at": "2026-11-25T17:13:07Z",
     "discovered_at": "2026-11-01T12:43:52.373Z",
     "official": false,
     "extension": {
@@ -67113,7 +67113,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-11-14T10:31:30Z",
     "updated_at": "2026-11-18T17:12:17Z",
-    "pushed_at": "2026-11-24T19:58:32Z",
+    "pushed_at": "2026-11-25T17:06:20Z",
     "discovered_at": "2026-11-15T06:43:55.459Z",
     "official": false,
     "extension": {
@@ -68202,6 +68202,49 @@
       "sections": [],
       "categories": [
         "theme"
+      ]
+    }
+  },
+  "skrtk98/zed-pdf-viewer": {
+    "name": "skrtk98/zed-pdf-viewer",
+    "url": "https://github.com/skrtk98/zed-pdf-viewer",
+    "description": "A PDF viewer extension for the Zed editor.",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "latex",
+      "mupdf",
+      "pdf",
+      "pdf-viewer",
+      "rust",
+      "typst",
+      "webassembly",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "TypeScript",
+    "license": "AGPL-3.0",
+    "created_at": "2026-10-31T02:44:01Z",
+    "updated_at": "2026-11-25T14:44:04Z",
+    "pushed_at": "2026-10-31T06:45:35Z",
+    "discovered_at": "2026-11-25T18:44:04.609Z",
+    "official": false,
+    "extension": {
+      "id": "mupdf-viewer",
+      "name": "MuPDF Viewer",
+      "description": "Lets the Agent panel open PDFs in the MuPDF Viewer browser window.",
+      "version": "0.1.0",
+      "schema_version": 1,
+      "authors": [
+        "ishida"
+      ],
+      "repository": null,
+      "snippets": null,
+      "sections": [
+        "context_servers"
+      ],
+      "categories": [
+        "context-server"
       ]
     }
   }
