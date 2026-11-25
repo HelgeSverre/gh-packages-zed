@@ -3,7 +3,7 @@
 A searchable, browsable directory of every Zed editor extension and theme on GitHub — pulled from the [official zed-industries/extensions registry](https://github.com/zed-industries/extensions) plus topic-tagged repos, parsed from each project's `extension.toml`, and refreshed every 6 hours.
 
 [![discover](https://img.shields.io/github/actions/workflow/status/HelgeSverre/gh-packages-zed/discover.yml?style=flat-square&labelColor=24292f&label=discover)](https://github.com/HelgeSverre/gh-packages-zed/actions/workflows/discover.yml)
-[![extensions](https://img.shields.io/badge/extensions-1967-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
+[![extensions](https://img.shields.io/badge/extensions-1968-0969da?style=flat-square&labelColor=24292f)](https://helgesverre.github.io/gh-packages-zed/)
 ![astro](https://img.shields.io/badge/astro-6-8250df?style=flat-square&labelColor=24292f)
 ![updated](https://img.shields.io/badge/updated-every%206h-9a6700?style=flat-square&labelColor=24292f)
 [![license](https://img.shields.io/badge/license-MIT-1a7f37?style=flat-square&labelColor=24292f)](./LICENSE)
@@ -14,16 +14,16 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 
 | | Count |
 |---|---|
-| Total tracked | **1967** |
+| Total tracked | **1968** |
 | In official registry | 1379 |
-| Discovered via topics | 588 |
-| Last updated | 2026-11-25 00:53 UTC |
+| Discovered via topics | 589 |
+| Last updated | 2026-11-25 06:48 UTC |
 
 ### By capability
 
 | Type | Count |
 |------|-------|
-| Themes | 846 |
+| Themes | 847 |
 | Grammars | 672 |
 | Language Servers | 635 |
 | Context Servers | 151 |
@@ -70,6 +70,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Description |
 |---|---|---|
+| [rillmind/zed-vinho](https://github.com/rillmind/zed-vinho) | 0 | Vinho: a dark wine theme for Zed, with a light mode |
 | [jonaprieto/zed-wkey](https://github.com/jonaprieto/zed-wkey) | 0 | Which-key for Zed's vim mode, in a terminal beside the editor |
 | [Arteiimis/one-dark-noir-theme](https://github.com/Arteiimis/one-dark-noir-theme) | 0 | One Dark Pro's palette for Zed, generated from the VS Code theme and mapped onto... |
 | [Arteiimis/zed-cuda](https://github.com/Arteiimis/zed-cuda) | 0 | CUDA support for Zed: tree-sitter-cuda grammar, kernel launch syntax and CUDA sp... |
@@ -89,7 +90,6 @@ cd website && npm install && npm run dev
 | [zed-extentions/zed-csharp-debugger](https://github.com/zed-extentions/zed-csharp-debugger) | 0 | Debug C#/.NET applications in Zed using netcoredbg (Debug Adapter Protocol) |
 | [matinfo-tech/zed-markdown-pdf-export](https://github.com/matinfo-tech/zed-markdown-pdf-export) | 0 | Zed extension for markdown-pdf-export: Markdown to PDF with your header, footer,... |
 | [Odonno/zed-piccali](https://github.com/Odonno/zed-piccali) | 0 | Gherkin extension for Zed |
-| [ednanf/yay-sayer](https://github.com/ednanf/yay-sayer) | 0 | Naysayer-inspired dark and complementary light themes for Zed |
 
 ## Top starred (under 500)
 
@@ -120,13 +120,14 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 1 | 2026-11-25 | Zed extension that formats and lints HTML templates with djL... |
+| [rillmind/zed-vinho](https://github.com/rillmind/zed-vinho) | 0 | 2026-11-25 | Vinho: a dark wine theme for Zed, with a light mode |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 223 | 2026-11-25 | Zed plugin for automatic time tracking and metrics generated... |
 | [ManuLinares/c3-zed](https://github.com/ManuLinares/c3-zed) | 6 | 2026-11-25 | Language support for Zed editor |
-| [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 1 | 2026-11-24 | Zed extension that formats and lints HTML templates with djL... |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 16 | 2026-11-24 | Spring Boot language intelligence for Zed, powered by the of... |
 | [adrijshikhar/zed-htmx](https://github.com/adrijshikhar/zed-htmx) | 0 | 2026-11-24 | HTMX 2.0 language server extension for the Zed editor, power... |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 3 | 2026-11-24 | Local-first code intelligence over MCP: BM25/FTS5 + AST grap... |
 | [vitallium/zed-ltex](https://github.com/vitallium/zed-ltex) | 19 | 2026-11-24 | LTeX+ Language Server support for Zed |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 223 | 2026-11-24 | Zed plugin for automatic time tracking and metrics generated... |
 | [jonaprieto/zed-wkey](https://github.com/jonaprieto/zed-wkey) | 0 | 2026-11-24 | Which-key for Zed's vim mode, in a terminal beside the edito... |
 | [Arteiimis/zed-cuda](https://github.com/Arteiimis/zed-cuda) | 0 | 2026-11-24 | CUDA support for Zed: tree-sitter-cuda grammar, kernel launc... |
 | [Arteiimis/one-dark-noir-theme](https://github.com/Arteiimis/one-dark-noir-theme) | 0 | 2026-11-24 | One Dark Pro's palette for Zed, generated from the VS Code t... |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [wielorzeczownik/zed-volt](https://github.com/wielorzeczownik/zed-volt) | 0 | 2026-11-24 | Phalcon Volt template support for Zed: syntax highlighting a... |
 | [xsynaptic/zed-mdxlint](https://github.com/xsynaptic/zed-mdxlint) | 0 | 2026-11-24 | Zed extension that runs mdxlint-language-server for MDX lint... |
 | [reuixiy7/zed-lean4](https://github.com/reuixiy7/zed-lean4) | 68 | 2026-11-23 |  |
-| [comphy-lab/comphy-zed-themes](https://github.com/comphy-lab/comphy-zed-themes) | 2 | 2026-11-23 |  |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-11-25T06:48 | 2 | 779 | 2518 |
 | 2026-11-25T00:53 | 0 | 781 | 2516 |
 | 2026-11-24T18:44 | 3 | 778 | 2516 |
 | 2026-11-24T12:43 | 1 | 779 | 2513 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-11-23T12:44 | 1 | 778 | 2492 |
 | 2026-11-23T06:56 | 2 | 776 | 2491 |
 | 2026-11-23T00:53 | 0 | 777 | 2490 |
-| 2026-11-22T18:44 | 0 | 777 | 2490 |
 
 ---
 
