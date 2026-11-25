@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1968** |
 | In official registry | 1379 |
 | Discovered via topics | 589 |
-| Last updated | 2026-11-25 06:48 UTC |
+| Last updated | 2026-11-25 12:44 UTC |
 
 ### By capability
 
@@ -105,7 +105,7 @@ cd website && npm install && npm run dev
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 212 | Typst extension for zed |
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
-| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 194 | 🦊 Zed editor theme ported from Neovim |
+| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 195 | 🦊 Zed editor theme ported from Neovim |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 177 | A macOS native style theme for Zed, let it same like native app in macOS. |
@@ -120,6 +120,7 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 105 | 2026-11-25 | True Dark Theme for Zed IDE |
 | [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 1 | 2026-11-25 | Zed extension that formats and lints HTML templates with djL... |
 | [rillmind/zed-vinho](https://github.com/rillmind/zed-vinho) | 0 | 2026-11-25 | Vinho: a dark wine theme for Zed, with a light mode |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 223 | 2026-11-25 | Zed plugin for automatic time tracking and metrics generated... |
@@ -131,7 +132,6 @@ cd website && npm install && npm run dev
 | [jonaprieto/zed-wkey](https://github.com/jonaprieto/zed-wkey) | 0 | 2026-11-24 | Which-key for Zed's vim mode, in a terminal beside the edito... |
 | [Arteiimis/zed-cuda](https://github.com/Arteiimis/zed-cuda) | 0 | 2026-11-24 | CUDA support for Zed: tree-sitter-cuda grammar, kernel launc... |
 | [Arteiimis/one-dark-noir-theme](https://github.com/Arteiimis/one-dark-noir-theme) | 0 | 2026-11-24 | One Dark Pro's palette for Zed, generated from the VS Code t... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 105 | 2026-11-24 | True Dark Theme for Zed IDE |
 | [BrankoSlavkov/astryx](https://github.com/BrankoSlavkov/astryx) | 0 | 2026-11-24 | Theme for all the people who code in deep dark spaces |
 | [EDM115/zed-embedded-languages](https://github.com/EDM115/zed-embedded-languages) | 2 | 2026-11-24 | Zed extension to add syntax highlighting to any string as yo... |
 | [matinfo-tech/zed-markdown-pdf-export](https://github.com/matinfo-tech/zed-markdown-pdf-export) | 0 | 2026-11-24 | Zed extension for markdown-pdf-export: Markdown to PDF with ... |
@@ -145,6 +145,7 @@ cd website && npm install && npm run dev
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-11-25T12:44 | 0 | 780 | 2518 |
 | 2026-11-25T06:48 | 2 | 779 | 2518 |
 | 2026-11-25T00:53 | 0 | 781 | 2516 |
 | 2026-11-24T18:44 | 3 | 778 | 2516 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-11-23T18:44 | 15 | 777 | 2506 |
 | 2026-11-23T12:44 | 1 | 778 | 2492 |
 | 2026-11-23T06:56 | 2 | 776 | 2491 |
-| 2026-11-23T00:53 | 0 | 777 | 2490 |
 
 ---
 
