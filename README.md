@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1969** |
 | In official registry | 1379 |
 | Discovered via topics | 590 |
-| Last updated | 2026-11-25 18:44 UTC |
+| Last updated | 2026-11-26 00:52 UTC |
 
 ### By capability
 
@@ -100,12 +100,12 @@ cd website && npm install && npm run dev
 | [jenslys/zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) | 344 | Catppuccin Theme but as blurred variants + custom ones |
 | [oxc-project/oxc-zed](https://github.com/oxc-project/oxc-zed) | 256 | Oxc extension for Zed |
 | [catppuccin/zed-icons](https://github.com/catppuccin/zed-icons) | 240 | 🦊 Soothing pastel icons for Zed |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 223 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 224 | Zed plugin for automatic time tracking and metrics generated from your programmi... |
 | [GDQuest/zed-gdscript](https://github.com/GDQuest/zed-gdscript) | 216 | Zed support for the Godot game engine and the GDScript language |
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 212 | Typst extension for zed |
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
-| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 195 | 🦊 Zed editor theme ported from Neovim |
+| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 196 | 🦊 Zed editor theme ported from Neovim |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 177 | A macOS native style theme for Zed, let it same like native app in macOS. |
@@ -120,31 +120,32 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
-| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 16 | 2026-11-25 | Spring Boot language intelligence for Zed, powered by the of... |
+| [matinfo-tech/zed-markdown-pdf-export](https://github.com/matinfo-tech/zed-markdown-pdf-export) | 0 | 2026-11-25 | Zed extension for markdown-pdf-export: Markdown to PDF with ... |
+| [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-11-25 | Zed editor support for Carve, a modern light markup language |
 | [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 1 | 2026-11-25 | Zed extension that formats and lints HTML templates with djL... |
+| [vitallium/zed-ltex](https://github.com/vitallium/zed-ltex) | 19 | 2026-11-25 | LTeX+ Language Server support for Zed |
+| [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 16 | 2026-11-25 | Spring Boot language intelligence for Zed, powered by the of... |
 | [adrijshikhar/zed-htmx](https://github.com/adrijshikhar/zed-htmx) | 0 | 2026-11-25 | HTMX 2.0 language server extension for the Zed editor, power... |
 | [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 105 | 2026-11-25 | True Dark Theme for Zed IDE |
 | [rillmind/zed-vinho](https://github.com/rillmind/zed-vinho) | 0 | 2026-11-25 | Vinho: a dark wine theme for Zed, with a light mode |
-| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 223 | 2026-11-25 | Zed plugin for automatic time tracking and metrics generated... |
+| [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 224 | 2026-11-25 | Zed plugin for automatic time tracking and metrics generated... |
 | [ManuLinares/c3-zed](https://github.com/ManuLinares/c3-zed) | 6 | 2026-11-25 | Language support for Zed editor |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 3 | 2026-11-24 | Local-first code intelligence over MCP: BM25/FTS5 + AST grap... |
-| [vitallium/zed-ltex](https://github.com/vitallium/zed-ltex) | 19 | 2026-11-24 | LTeX+ Language Server support for Zed |
 | [jonaprieto/zed-wkey](https://github.com/jonaprieto/zed-wkey) | 0 | 2026-11-24 | Which-key for Zed's vim mode, in a terminal beside the edito... |
 | [Arteiimis/zed-cuda](https://github.com/Arteiimis/zed-cuda) | 0 | 2026-11-24 | CUDA support for Zed: tree-sitter-cuda grammar, kernel launc... |
 | [Arteiimis/one-dark-noir-theme](https://github.com/Arteiimis/one-dark-noir-theme) | 0 | 2026-11-24 | One Dark Pro's palette for Zed, generated from the VS Code t... |
 | [BrankoSlavkov/astryx](https://github.com/BrankoSlavkov/astryx) | 0 | 2026-11-24 | Theme for all the people who code in deep dark spaces |
 | [EDM115/zed-embedded-languages](https://github.com/EDM115/zed-embedded-languages) | 2 | 2026-11-24 | Zed extension to add syntax highlighting to any string as yo... |
-| [matinfo-tech/zed-markdown-pdf-export](https://github.com/matinfo-tech/zed-markdown-pdf-export) | 0 | 2026-11-24 | Zed extension for markdown-pdf-export: Markdown to PDF with ... |
 | [isanjaymenon/hackerone-zed-theme](https://github.com/isanjaymenon/hackerone-zed-theme) | 0 | 2026-11-24 | Unofficial HackerOne Dark and Light Theme |
 | [plumlang/zed-plum](https://github.com/plumlang/zed-plum) | 0 | 2026-11-24 | Plumlang support for the Zed editor: syntax highlighting, ou... |
 | [wielorzeczownik/zed-volt](https://github.com/wielorzeczownik/zed-volt) | 0 | 2026-11-24 | Phalcon Volt template support for Zed: syntax highlighting a... |
 | [xsynaptic/zed-mdxlint](https://github.com/xsynaptic/zed-mdxlint) | 0 | 2026-11-24 | Zed extension that runs mdxlint-language-server for MDX lint... |
-| [reuixiy7/zed-lean4](https://github.com/reuixiy7/zed-lean4) | 68 | 2026-11-23 |  |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-11-26T00:52 | 1 | 783 | 2521 |
 | 2026-11-25T18:44 | 3 | 779 | 2520 |
 | 2026-11-25T12:44 | 0 | 780 | 2518 |
 | 2026-11-25T06:48 | 2 | 779 | 2518 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-11-24T06:47 | 0 | 779 | 2512 |
 | 2026-11-24T00:49 | 6 | 778 | 2512 |
 | 2026-11-23T18:44 | 15 | 777 | 2506 |
-| 2026-11-23T12:44 | 1 | 778 | 2492 |
 
 ---
 
