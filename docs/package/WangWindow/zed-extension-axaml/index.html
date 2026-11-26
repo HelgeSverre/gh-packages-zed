@@ -1,0 +1,144 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>AXAML for Avalonia - Zed Extension Safari</title><meta name="description" content="Zed support for Avalonia axaml files."><link rel="canonical" href="https://helgesverre.github.io/gh-packages-zed/package/WangWindow/zed-extension-axaml/"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="AXAML for Avalonia - Zed Extension Safari"><meta property="og:description" content="Zed support for Avalonia axaml files."><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed/package/WangWindow/zed-extension-axaml/"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="AXAML for Avalonia - Zed Extension Safari"><meta name="twitter:description" content="Zed support for Avalonia axaml files."><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/gh-packages-zed/_astro/ClientRouter.astro_astro_type_script_index_0_lang.ClVLs1kt.js"></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"AXAML for Avalonia","description":"Zed support for Avalonia axaml files.","applicationCategory":"DeveloperApplication","operatingSystem":"macOS, Linux, Windows","url":"https://zed.dev/extensions/axaml-avalonia","codeRepository":"https://github.com/WangWindow/zed-extension-axaml","author":[{"@type":"Person","name":"WangWindow"}],"softwareVersion":"0.1.0","license":"MIT","keywords":"grammar, language-server","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/Layout.CGDlMdWE.css"><script type="module" src="/gh-packages-zed/_astro/page.B8i1Zz-u.js"></script></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <a href="#main" class="skip-to-content">Skip to content</a> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" data-astro-transition-persist="astro-fhchcgd7-1"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <script type="application/json" id="pkg-extras">{"url":"https://github.com/WangWindow/zed-extension-axaml","language":"C#","license":"MIT","topics":["avalonia","axaml","zed-extension"],"extension":{"authors":["WangWindow"],"schema_version":1}}</script> <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> WangWindow/zed-extension-axaml </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> AXAML for Avalonia </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> AXAML support for Avalonia projects: syntax highlighting, completion, navigation through axaml-ls, plus XamlStyler formatting. </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="grammar">Grammar</span><span class="cat-badge" data-cat="language-server">Language Server</span> </div> </div> </div> </header> <main id="main" class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/axaml-avalonia" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/WangWindow/zed-extension-axaml" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.1.0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">axaml-avalonia</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">C#</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">MIT</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">4h ago</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">WangWindow</dd> </div> </dl>  <h2 class="mt-5 text-xs uppercase font-mono" style="color:var(--zed-muted);">Topics</h2> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> avalonia </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> axaml </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed-extension </span> </div>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-zed-extension-for-avalonia-axaml"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#zed-extension-for-avalonia-axaml"><span class="heading-anchor-icon">#</span></a>Zed Extension for Avalonia Axaml</h1>
+<p>Avalonia <code>.axaml</code> 支持：</p>
+<ul>
+<li>tree-sitter：highlight、outline、缩进、括号</li>
+<li>LSP：补全、hover、诊断、定义、引用、重命名、inlay hints</li>
+<li>AXAML &#x3C;=> C# 跳转：<code>x:Class</code>、<code>x:DataType</code>、<code>{Binding Name}</code>、<code>Click="OnSave"</code></li>
+<li>XamlStyler 格式化，支持未保存的缓冲区</li>
+</ul>
+<h2 id="user-content-要求"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#要求"><span class="heading-anchor-icon">#</span></a>要求</h2>
+<ul>
+<li>Zed</li>
+<li><strong>.NET SDK 10+</strong>（<code>dotnet</code> 在项目 PATH 中）</li>
+<li>首次使用需要联网下载 <code>axaml-ls</code> 和 <code>XamlStyler.Console</code></li>
+</ul>
+<h2 id="user-content-开发"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#开发"><span class="heading-anchor-icon">#</span></a>开发</h2>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">./scripts/build-formatter.sh</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> build</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --release</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --target</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> wasm32-wasip2</span></span></code></pre>
+<h2 id="user-content-安装"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#安装"><span class="heading-anchor-icon">#</span></a>安装</h2>
+<ol>
+<li>执行 <strong><code>zed: install dev extension</code></strong>，选择本仓库目录。</li>
+<li>打开任意 <code>.axaml</code> 文件。</li>
+</ol>
+<blockquote>
+<p>如果安装过 <code>Engel-167/zed-axaml</code>，请先卸载，避免 <code>AXAML</code> / <code>axaml-ls</code> 冲突。</p>
+</blockquote>
+<h2 id="user-content-zed-配置"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#zed-配置"><span class="heading-anchor-icon">#</span></a>Zed 配置</h2>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">// ~/.config/zed/settings.json</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "languages"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "AXAML"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"formatter"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"language_server"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"format_on_save"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"on"</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  },</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "inlay_hints"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"enabled"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">true</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h2 id="user-content-xamlstyler"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#xamlstyler"><span class="heading-anchor-icon">#</span></a>XamlStyler</h2>
+<p>项目/解决方案根目录的 <code>Settings.XamlStyler</code> 会自动读取（向上查找，停在 <code>.sln</code> / <code>.slnx</code> / <code>.vs</code>）：</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "IndentSize"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">2</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "AttributesTolerance"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">2</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "KeepFirstAttributeOnSameLine"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">false</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">  // ...</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>项目文件不存在时，可以用 Zed 内联 <code>config</code> 作为 fallback。完整的 <code>XamlStylerLSP</code> 选项：</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "XamlStyler"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "initialization_options"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "enabled"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">true</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,                   </span><span style="color:#6A737D;--shiki-dark:#6A737D">// false = 关闭格式化</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "verbose"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">false</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,                  </span><span style="color:#6A737D;--shiki-dark:#6A737D">// 日志打印实际执行的 xstyler 命令</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "loglevel"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"Default"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,             </span><span style="color:#6A737D;--shiki-dark:#6A737D">// None | Minimal | Default | Verbose | Debug</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "timeoutMs"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">30000</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">        // 配置来源：默认自动查找项目 Settings.XamlStyler</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">        // "configPath": "${workspaceFolder}/Settings.XamlStyler", // 显式文件，优先级最高</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "config"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">          "IndentSize"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">2</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">          "AttributesTolerance"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">2</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">          "KeepFirstAttributeOnSameLine"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">false</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">          // 其余 XamlStyler 选项...</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">        },</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">        // xstyler 启动方式；默认自动下载 3.2501.8</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">        // "command": "xstyler",</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">        // "dll": "/path/to/xstyler.dll",</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">        // "version": "3.2501.8",</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "extraArguments"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [],              </span><span style="color:#6A737D;--shiki-dark:#6A737D">// 追加 xstyler 参数</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "searchToSolutionRoot"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">true</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "useLspIndentOptions"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">true</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">        // 可选缩进覆盖；config/Settings.XamlStyler 已设置时保持注释</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">        // "indentSize": 4,</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">        // "indentWithTabs": false,</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">        // TrimTrailingAddNewline | TrimTrailingNoNewline | XStylerConsoleBehavior</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "fileWhiteSpaceBehavior"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"TrimTrailingAddNewline"</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<p>优先级：<code>configPath</code>（显式指定）> 项目 <code>Settings.XamlStyler</code> > Zed 内联 <code>config</code>。</p>
+<p><code>lsp.XamlStyler</code> 是格式化服务器自己的配置；<code>lsp.axaml-ls</code> 只配置语言服务器。内部适配器程序集是 <code>XamlStylerLSP</code>。</p>
+<p>其它 XamlStyler 选项见 <a href="https://github.com/Xavalon/XamlStyler/wiki/External-Configurations">XamlStyler 配置文档</a>。</p>
+<h2 id="user-content-axaml-lsp"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#axaml-lsp"><span class="heading-anchor-icon">#</span></a>Axaml LSP</h2>
+<p>默认使用 <a href="https://github.com/Engel-167/axaml-ls">axaml-ls</a> <code>0.1.0</code>（自动下载）。完整配置：</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "axaml-ls"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">      // 可选：不写 binary 时自动下载 axaml-ls。</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">      // 换用官方 Avalonia 服务器时取消注释并改成实际路径。</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">      // "binary": {</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">      //   "path": "dotnet",</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">      //   "arguments": ["/path/to/AvaloniaUI.VSCodeServer.dll"],</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">      //   "env": {}</span></span>
+<span class="line"><span style="color:#6A737D;--shiki-dark:#6A737D">      // },</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "initialization_options"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "verbose"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">false</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "inlayHints"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"bindingSource"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">true</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> },</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "codeLens"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"resourceReferences"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">true</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> },</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "renameFiles"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: { </span><span style="color:#005CC5;--shiki-dark:#79B8FF">"updateClass"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">true</span><span style="color:#24292E;--shiki-dark:#E1E4E8"> }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<ul>
+<li><code>binary</code> 为空：自动下载 axaml-ls；设置后使用指定服务器。</li>
+<li>axaml-ls 自带的格式化选项没有列出，因为格式化统一由 <code>XamlStyler</code> 提供。其它选项见 <a href="https://github.com/Engel-167/axaml-ls">axaml-ls 文档</a>。</li>
+</ul>
+<blockquote>
+<p>官方 Avalonia 服务器是专有软件，本仓库不分发它。</p>
+</blockquote>
+<h2 id="user-content-许可"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#许可"><span class="heading-anchor-icon">#</span></a>许可</h2>
+<p>本扩展 MIT。<code>axaml-ls</code> 和 <code>XamlStyler</code>（Apache-2.0）运行时下载，不随仓库分发。
+见 <a href="https://github.com/WangWindow/zed-extension-axaml/blob/HEAD/LICENSE" target="_blank" rel="noopener">LICENSE</a> 和 <a href="https://github.com/WangWindow/zed-extension-axaml/blob/HEAD/THIRD_PARTY_NOTICES.md" target="_blank" rel="noopener">THIRD_PARTY_NOTICES.md</a>。</p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>
