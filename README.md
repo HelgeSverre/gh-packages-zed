@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1969** |
 | In official registry | 1379 |
 | Discovered via topics | 590 |
-| Last updated | 2026-11-26 06:47 UTC |
+| Last updated | 2026-11-26 12:44 UTC |
 
 ### By capability
 
@@ -105,7 +105,7 @@ cd website && npm install && npm run dev
 | [zed-extensions/typst](https://github.com/zed-extensions/typst) | 212 | Typst extension for zed |
 | [zed-extensions/tsgo](https://github.com/zed-extensions/tsgo) | 207 | Extension for Zed to support TypeScript Native |
 | [zed-extensions/postgres-context-server](https://github.com/zed-extensions/postgres-context-server) | 198 | An extension providing a Model Context Server extension for PostgreSQL |
-| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 196 | 🦊 Zed editor theme ported from Neovim |
+| [cange/nightfox.zed](https://github.com/cange/nightfox.zed) | 197 | 🦊 Zed editor theme ported from Neovim |
 | [zed-extensions/java](https://github.com/zed-extensions/java) | 188 | Extension for Zed to support Java |
 | [zed-extensions/vue](https://github.com/zed-extensions/vue) | 187 | Vue support |
 | [huacnlee/zed-theme-macos-classic](https://github.com/huacnlee/zed-theme-macos-classic) | 177 | A macOS native style theme for Zed, let it same like native app in macOS. |
@@ -120,16 +120,19 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [encore-ecosystem/encore-zed](https://github.com/encore-ecosystem/encore-zed) | 0 | 2026-11-26 |  |
+| [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 1 | 2026-11-26 | Zed extension that formats and lints HTML templates with djL... |
+| [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-11-26 | A Zed extension that allows to highlight all occurrences of ... |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 105 | 2026-11-26 | True Dark Theme for Zed IDE |
+| [husur/gradle-catalog-lsp](https://github.com/husur/gradle-catalog-lsp) | 0 | 2026-11-26 | Zed extension: shows newer versions of the libraries and plu... |
 | [wiroai/Wiro-Zed](https://github.com/wiroai/Wiro-Zed) | 0 | 2026-11-26 | Wiro AI MCP server for the Zed editor: search, price and run... |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 140 | 2026-11-26 | The Ruby language support for Zed editor |
 | [chiploom/zed-wit](https://github.com/chiploom/zed-wit) | 0 | 2026-11-26 | Modern WIT language support for Zed, with Tree-sitter syntax... |
 | [matinfo-tech/zed-markdown-pdf-export](https://github.com/matinfo-tech/zed-markdown-pdf-export) | 0 | 2026-11-25 | Zed extension for markdown-pdf-export: Markdown to PDF with ... |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-11-25 | Zed editor support for Carve, a modern light markup language |
-| [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 1 | 2026-11-25 | Zed extension that formats and lints HTML templates with djL... |
 | [vitallium/zed-ltex](https://github.com/vitallium/zed-ltex) | 19 | 2026-11-25 | LTeX+ Language Server support for Zed |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 16 | 2026-11-25 | Spring Boot language intelligence for Zed, powered by the of... |
 | [adrijshikhar/zed-htmx](https://github.com/adrijshikhar/zed-htmx) | 0 | 2026-11-25 | HTMX 2.0 language server extension for the Zed editor, power... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 105 | 2026-11-25 | True Dark Theme for Zed IDE |
 | [rillmind/zed-vinho](https://github.com/rillmind/zed-vinho) | 0 | 2026-11-25 | Vinho: a dark wine theme for Zed, with a light mode |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 224 | 2026-11-25 | Zed plugin for automatic time tracking and metrics generated... |
 | [ManuLinares/c3-zed](https://github.com/ManuLinares/c3-zed) | 6 | 2026-11-25 | Language support for Zed editor |
@@ -137,14 +140,12 @@ cd website && npm install && npm run dev
 | [jonaprieto/zed-wkey](https://github.com/jonaprieto/zed-wkey) | 0 | 2026-11-24 | Which-key for Zed's vim mode, in a terminal beside the edito... |
 | [Arteiimis/zed-cuda](https://github.com/Arteiimis/zed-cuda) | 0 | 2026-11-24 | CUDA support for Zed: tree-sitter-cuda grammar, kernel launc... |
 | [Arteiimis/one-dark-noir-theme](https://github.com/Arteiimis/one-dark-noir-theme) | 0 | 2026-11-24 | One Dark Pro's palette for Zed, generated from the VS Code t... |
-| [BrankoSlavkov/astryx](https://github.com/BrankoSlavkov/astryx) | 0 | 2026-11-24 | Theme for all the people who code in deep dark spaces |
-| [EDM115/zed-embedded-languages](https://github.com/EDM115/zed-embedded-languages) | 2 | 2026-11-24 | Zed extension to add syntax highlighting to any string as yo... |
-| [isanjaymenon/hackerone-zed-theme](https://github.com/isanjaymenon/hackerone-zed-theme) | 0 | 2026-11-24 | Unofficial HackerOne Dark and Light Theme |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-11-26T12:44 | 1 | 784 | 2522 |
 | 2026-11-26T06:47 | 0 | 784 | 2521 |
 | 2026-11-26T00:52 | 1 | 783 | 2521 |
 | 2026-11-25T18:44 | 3 | 779 | 2520 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-11-24T18:44 | 3 | 778 | 2516 |
 | 2026-11-24T12:43 | 1 | 779 | 2513 |
 | 2026-11-24T06:47 | 0 | 779 | 2512 |
-| 2026-11-24T00:49 | 6 | 778 | 2512 |
 
 ---
 

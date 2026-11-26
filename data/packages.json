@@ -75,7 +75,7 @@
     "license": "MIT",
     "created_at": "2026-05-03T17:39:17Z",
     "updated_at": "2026-11-08T15:27:40Z",
-    "pushed_at": "2026-11-20T20:24:52Z",
+    "pushed_at": "2026-11-26T11:05:49Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -159,7 +159,7 @@
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
     "updated_at": "2026-11-21T10:34:39Z",
-    "pushed_at": "2026-11-25T10:32:51Z",
+    "pushed_at": "2026-11-26T10:04:34Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -5083,7 +5083,7 @@
     "name": "Dylanmurzello/zed-android-port",
     "url": "https://github.com/Dylanmurzello/zed-android-port",
     "description": "Native Android port of the Zed code editor,  gpui rendering through Vulkan, integrated Termux for LSPs and tooling, remote SSH support. Runs as an APK on tablets and Android desktop modes.",
-    "stars": 274,
+    "stars": 275,
     "forks": 27,
     "topics": [
       "android",
@@ -5110,7 +5110,7 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-05-07T00:12:10Z",
-    "updated_at": "2026-11-25T22:09:41Z",
+    "updated_at": "2026-11-26T10:48:54Z",
     "pushed_at": "2026-11-26T03:16:55Z",
     "discovered_at": "2026-05-19T19:54:12.053Z",
     "official": false
@@ -6185,7 +6185,7 @@
     "name": "cange/nightfox.zed",
     "url": "https://github.com/cange/nightfox.zed",
     "description": "🦊 Zed editor theme ported from Neovim",
-    "stars": 196,
+    "stars": 197,
     "forks": 5,
     "topics": [
       "zed",
@@ -6194,7 +6194,7 @@
     "language": "Lua",
     "license": "MIT",
     "created_at": "2024-05-02T20:49:30Z",
-    "updated_at": "2026-11-25T22:14:30Z",
+    "updated_at": "2026-11-26T09:09:07Z",
     "pushed_at": "2026-11-08T13:15:34Z",
     "discovered_at": "2026-05-19T19:54:12.054Z",
     "official": true
@@ -15251,7 +15251,7 @@
     "name": "agent-sh/agnix",
     "url": "https://github.com/agent-sh/agnix",
     "description": "The missing linter and lsp for AI coding assistants. Validate CLAUDE.md, AGENTS.md, SKILL.md, hooks, MCP. Plugin for all major IDEs included, with autofixes.",
-    "stars": 497,
+    "stars": 499,
     "forks": 35,
     "topics": [
       "agent",
@@ -15278,7 +15278,7 @@
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
-    "updated_at": "2026-11-25T22:03:37Z",
+    "updated_at": "2026-11-26T12:14:45Z",
     "pushed_at": "2026-11-24T08:19:19Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
@@ -17843,7 +17843,7 @@
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
     "updated_at": "2026-11-18T20:41:47Z",
-    "pushed_at": "2026-11-26T00:53:12Z",
+    "pushed_at": "2026-11-26T06:48:20Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -29851,7 +29851,7 @@
     "name": "nMaroulis/protoagent",
     "url": "https://github.com/nMaroulis/protoagent",
     "description": "A blazing-fast, local-first AI agent ecosystem. Orchestrate local LLMs with Python, run them in a native Rust terminal, or integrate directly into your editor via ACP.",
-    "stars": 14,
+    "stars": 15,
     "forks": 1,
     "topics": [
       "agent-client-protocol",
@@ -29870,7 +29870,7 @@
     "language": "Python",
     "license": "MIT",
     "created_at": "2026-06-09T22:36:14Z",
-    "updated_at": "2026-11-10T09:23:00Z",
+    "updated_at": "2026-11-26T10:41:25Z",
     "pushed_at": "2026-10-19T12:46:24Z",
     "discovered_at": "2026-06-10T00:43:30.823Z",
     "official": false
@@ -32910,7 +32910,7 @@
     "license": "MIT",
     "created_at": "2026-03-30T19:21:46Z",
     "updated_at": "2026-10-10T16:09:07Z",
-    "pushed_at": "2026-10-10T16:09:02Z",
+    "pushed_at": "2026-11-26T11:39:52Z",
     "discovered_at": "2026-07-23T19:04:41.250Z",
     "official": false
   },
@@ -38167,7 +38167,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-09-21T20:10:00Z",
     "updated_at": "2026-11-25T04:21:27Z",
-    "pushed_at": "2026-11-26T06:28:18Z",
+    "pushed_at": "2026-11-26T08:42:13Z",
     "discovered_at": "2026-09-21T22:12:12.101Z",
     "official": false
   },
@@ -39675,7 +39675,7 @@
     "license": null,
     "created_at": "2026-09-04T07:49:15Z",
     "updated_at": "2026-11-25T09:48:28Z",
-    "pushed_at": "2026-11-26T02:29:37Z",
+    "pushed_at": "2026-11-26T11:28:28Z",
     "discovered_at": "2026-09-30T12:59:15.249Z",
     "official": false
   },
@@ -42017,7 +42017,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-10-28T15:00:02Z",
     "updated_at": "2026-11-09T10:51:25Z",
-    "pushed_at": "2026-11-19T07:06:58Z",
+    "pushed_at": "2026-11-26T07:07:09Z",
     "discovered_at": "2026-10-29T12:46:50.748Z",
     "official": false
   },
@@ -42211,14 +42211,14 @@
   "reuixiy7/zed-lean4": {
     "name": "reuixiy7/zed-lean4",
     "url": "https://github.com/reuixiy7/zed-lean4",
-    "description": "",
+    "description": "Lean 4 support for Zed, with proof goals, Unicode input, diagnostics, and snippets.",
     "stars": 68,
     "forks": 17,
     "topics": [],
     "language": "Rust",
     "license": "Apache-2.0",
     "created_at": "2025-04-18T13:34:52Z",
-    "updated_at": "2026-11-24T05:12:41Z",
+    "updated_at": "2026-11-26T07:30:17Z",
     "pushed_at": "2026-11-23T23:51:01Z",
     "discovered_at": "2026-10-31T00:48:59.196Z",
     "official": false
@@ -42419,7 +42419,7 @@
     "license": "MIT",
     "created_at": "2026-11-01T01:34:22Z",
     "updated_at": "2026-11-16T15:05:06Z",
-    "pushed_at": "2026-11-25T20:14:12Z",
+    "pushed_at": "2026-11-26T11:23:44Z",
     "discovered_at": "2026-11-01T12:43:52.373Z",
     "official": false
   },
@@ -43953,7 +43953,7 @@
     "license": "GPL-3.0",
     "created_at": "2026-07-19T22:08:43Z",
     "updated_at": "2026-11-21T12:38:43Z",
-    "pushed_at": "2026-11-25T13:49:43Z",
+    "pushed_at": "2026-11-26T12:37:22Z",
     "discovered_at": "2026-11-18T00:52:50.176Z",
     "official": false
   },
@@ -44776,8 +44776,8 @@
     "language": "Rust",
     "license": "NOASSERTION",
     "created_at": "2026-11-24T09:54:29Z",
-    "updated_at": "2026-11-24T10:11:22Z",
-    "pushed_at": "2026-11-24T09:56:17Z",
+    "updated_at": "2026-11-26T11:42:31Z",
+    "pushed_at": "2026-11-26T11:40:35Z",
     "discovered_at": "2026-11-24T12:43:54.031Z",
     "official": false
   },
@@ -45016,6 +45016,28 @@
     "updated_at": "2026-11-25T19:21:03Z",
     "pushed_at": "2026-11-25T19:00:05Z",
     "discovered_at": "2026-11-26T00:52:38.453Z",
+    "official": false
+  },
+  "asthestarsfalll/answer-card": {
+    "name": "Asthestarsfalll/answer-card",
+    "url": "https://github.com/Asthestarsfalll/answer-card",
+    "description": "macOS 通用 AI Agent 置顶悬浮回答卡片：支持 Antigravity、DeepSeek Harness (DSH) 与 Zed，不切窗完成审批、作答与追问，支持完整键盘控制并动态自适应主题配色。",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "antigravity",
+      "dsh-plugin",
+      "macos",
+      "mcp",
+      "zed",
+      "zed-extension"
+    ],
+    "language": "HTML",
+    "license": "MIT",
+    "created_at": "2026-11-16T07:38:23Z",
+    "updated_at": "2026-11-26T11:10:29Z",
+    "pushed_at": "2026-11-26T12:24:56Z",
+    "discovered_at": "2026-11-26T12:44:37.657Z",
     "official": false
   }
 }
