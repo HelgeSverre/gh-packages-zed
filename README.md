@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1969** |
 | In official registry | 1379 |
 | Discovered via topics | 590 |
-| Last updated | 2026-11-26 00:52 UTC |
+| Last updated | 2026-11-26 06:47 UTC |
 
 ### By capability
 
@@ -120,6 +120,9 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [wiroai/Wiro-Zed](https://github.com/wiroai/Wiro-Zed) | 0 | 2026-11-26 | Wiro AI MCP server for the Zed editor: search, price and run... |
+| [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 140 | 2026-11-26 | The Ruby language support for Zed editor |
+| [chiploom/zed-wit](https://github.com/chiploom/zed-wit) | 0 | 2026-11-26 | Modern WIT language support for Zed, with Tree-sitter syntax... |
 | [matinfo-tech/zed-markdown-pdf-export](https://github.com/matinfo-tech/zed-markdown-pdf-export) | 0 | 2026-11-25 | Zed extension for markdown-pdf-export: Markdown to PDF with ... |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-11-25 | Zed editor support for Carve, a modern light markup language |
 | [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 1 | 2026-11-25 | Zed extension that formats and lints HTML templates with djL... |
@@ -137,14 +140,12 @@ cd website && npm install && npm run dev
 | [BrankoSlavkov/astryx](https://github.com/BrankoSlavkov/astryx) | 0 | 2026-11-24 | Theme for all the people who code in deep dark spaces |
 | [EDM115/zed-embedded-languages](https://github.com/EDM115/zed-embedded-languages) | 2 | 2026-11-24 | Zed extension to add syntax highlighting to any string as yo... |
 | [isanjaymenon/hackerone-zed-theme](https://github.com/isanjaymenon/hackerone-zed-theme) | 0 | 2026-11-24 | Unofficial HackerOne Dark and Light Theme |
-| [plumlang/zed-plum](https://github.com/plumlang/zed-plum) | 0 | 2026-11-24 | Plumlang support for the Zed editor: syntax highlighting, ou... |
-| [wielorzeczownik/zed-volt](https://github.com/wielorzeczownik/zed-volt) | 0 | 2026-11-24 | Phalcon Volt template support for Zed: syntax highlighting a... |
-| [xsynaptic/zed-mdxlint](https://github.com/xsynaptic/zed-mdxlint) | 0 | 2026-11-24 | Zed extension that runs mdxlint-language-server for MDX lint... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-11-26T06:47 | 0 | 784 | 2521 |
 | 2026-11-26T00:52 | 1 | 783 | 2521 |
 | 2026-11-25T18:44 | 3 | 779 | 2520 |
 | 2026-11-25T12:44 | 0 | 780 | 2518 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-11-24T12:43 | 1 | 779 | 2513 |
 | 2026-11-24T06:47 | 0 | 779 | 2512 |
 | 2026-11-24T00:49 | 6 | 778 | 2512 |
-| 2026-11-23T18:44 | 15 | 777 | 2506 |
 
 ---
 
