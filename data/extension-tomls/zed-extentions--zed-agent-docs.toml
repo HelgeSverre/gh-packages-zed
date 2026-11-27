@@ -1,0 +1,32 @@
+id = "agent-docs-lsp"
+name = "Agent Docs Linter"
+version = "0.1.0"
+schema_version = 1
+authors = ["zed-extentions"]
+description = "Lints and validates AI agent instruction and skill files (AGENTS.md, CLAUDE.md, GEMINI.md, SKILL.md, .rules, copilot-instructions.md) with inline diagnostics, hover guidance, go-to-definition, and quick fixes, powered by the agent-docs-lsp language server."
+repository = "https://github.com/zed-extentions/zed-agent-docs"
+
+[language_servers.agent-docs-lsp]
+name = "Agent Docs Linter"
+languages = [
+    "Markdown",
+    "Plain Text",
+]
+code_action_kinds = ["quickfix"]
+
+# The server binary is downloaded from this repository's GitHub release
+# (`zed::download_file`); GitHub redirects asset downloads to its asset hosts.
+[[capabilities]]
+kind = "download_file"
+host = "github.com"
+path = ["zed-extentions", "zed-agent-docs", "releases", "**"]
+
+[[capabilities]]
+kind = "download_file"
+host = "release-assets.githubusercontent.com"
+path = ["**"]
+
+[[capabilities]]
+kind = "download_file"
+host = "objects.githubusercontent.com"
+path = ["**"]

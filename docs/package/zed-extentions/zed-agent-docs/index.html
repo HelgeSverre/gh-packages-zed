@@ -1,0 +1,295 @@
+<!DOCTYPE html><html lang="en" class="h-full antialiased"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Agent Docs Linter - Zed Extension Safari</title><meta name="description" content="LSP linter and validator for AI agent instruction and skill files (AGENTS.md, CLAUDE.md, GEMINI.md, SKILL.md, .rules) in Zed"><link rel="canonical" href="https://helgesverre.github.io/gh-packages-zed/package/zed-extentions/zed-agent-docs/"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Agent Docs Linter - Zed Extension Safari"><meta property="og:description" content="LSP linter and validator for AI agent instruction and skill files (AGENTS.md, CLAUDE.md, GEMINI.md, SKILL.md, .rules) in Zed"><meta property="og:url" content="https://helgesverre.github.io/gh-packages-zed/package/zed-extentions/zed-agent-docs/"><meta property="og:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Zed Extension Safari"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Agent Docs Linter - Zed Extension Safari"><meta name="twitter:description" content="LSP linter and validator for AI agent instruction and skill files (AGENTS.md, CLAUDE.md, GEMINI.md, SKILL.md, .rules) in Zed"><meta name="twitter:image" content="https://helgesverre.github.io/gh-packages-zed/og-image.png"><link rel="icon" type="image/png" href="/gh-packages-zed/favicon.png"><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/gh-packages-zed/_astro/ClientRouter.astro_astro_type_script_index_0_lang.ClVLs1kt.js"></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Agent Docs Linter","description":"LSP linter and validator for AI agent instruction and skill files (AGENTS.md, CLAUDE.md, GEMINI.md, SKILL.md, .rules) in Zed","applicationCategory":"DeveloperApplication","operatingSystem":"macOS, Linux, Windows","url":"https://zed.dev/extensions/agent-docs-lsp","codeRepository":"https://github.com/zed-extentions/zed-agent-docs","author":[{"@type":"Person","name":"zed-extentions"}],"softwareVersion":"0.1.0","license":"MIT","keywords":"language-server","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script><script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var override = params.get('zed-theme');
+                var stored = localStorage.getItem('zed-theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = (override === 'light' || override === 'dark')
+                    ? override
+                    : (stored || (prefersDark ? 'dark' : 'light'));
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script><link rel="stylesheet" href="/gh-packages-zed/_astro/Layout.CGDlMdWE.css"><script type="module" src="/gh-packages-zed/_astro/page.B8i1Zz-u.js"></script></head> <body class="flex h-full flex-col scroll-smooth" style="background:var(--zed-bg);color:var(--zed-text);"> <a href="#main" class="skip-to-content">Skip to content</a> <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" data-astro-transition-persist="astro-fhchcgd7-1"> <svg class="theme-toggle-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> <svg class="theme-toggle-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button>  <script type="application/json" id="pkg-extras">{"url":"https://github.com/zed-extentions/zed-agent-docs","language":"Rust","license":"MIT","topics":["agents-md","lsp","rust","wasm","zed","zed-extension"],"extension":{"authors":["zed-extentions"],"schema_version":1}}</script> <header class="zed-grid relative" style="border-bottom:1px solid var(--zed-border);"> <div class="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"> <nav class="text-sm font-mono mb-10"> <a href="/gh-packages-zed" class="transition hover:underline" style="color:var(--zed-blue-deep);">← All extensions</a> </nav> <div class="max-w-3xl mx-auto text-center"> <div class="font-mono text-xs mb-3" style="color:var(--zed-muted);"> zed-extentions/zed-agent-docs </div> <h1 class="text-4xl sm:text-5xl font-semibold break-words leading-tight tracking-tight" style="color:var(--zed-blue-deep);"> Agent Docs Linter </h1> <p class="mt-4 text-base sm:text-lg text-pretty" style="color:var(--zed-text-muted);"> Lints and validates AI agent instruction and skill files (AGENTS.md, CLAUDE.md, GEMINI.md, SKILL.md, .rules, copilot-instructions.md) with inline diagnostics, hover guidance, go-to-definition, and quick fixes, powered by the agent-docs-lsp language server. </p> <div class="mt-5 flex flex-wrap items-center justify-center gap-2"> <span class="cat-badge" data-cat="language-server">Language Server</span> </div> </div> </div> </header> <main id="main" class="flex-1 max-w-6xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8"> <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start"> <aside class="rounded-lg p-5 lg:sticky lg:top-6" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <div class="flex flex-col gap-3"> <a href="https://zed.dev/extensions/agent-docs-lsp" target="_blank" rel="noopener" class="zed-btn-primary inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
+Open on zed.dev
+<span aria-hidden="true">↗</span> </a> <a href="https://github.com/zed-extentions/zed-agent-docs" target="_blank" rel="noopener" class="zed-btn-ghost inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-medium"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path> </svg>
+View source
+</a> </div> <h2 class="mt-6 text-xs uppercase font-mono" style="color:var(--zed-muted);">Details</h2> <dl class="mt-3"> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Version</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v0.1.0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Extension ID</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">agent-docs-lsp</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Language</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">Rust</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">License</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">MIT</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Stars</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">0</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Updated</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">2h ago</dd> </div><div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Schema</dt> <dd class="mt-1 text-sm break-words" style="color:var(--zed-text);">v1</dd> </div> <div class="py-3" style="border-top:1px solid var(--zed-border);"> <dt class="text-xs font-mono" style="color:var(--zed-muted);">Authors</dt> <dd class="mt-1 text-sm" style="color:var(--zed-text);">zed-extentions</dd> </div> </dl>  <h2 class="mt-5 text-xs uppercase font-mono" style="color:var(--zed-muted);">Topics</h2> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> agents-md </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> lsp </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> rust </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> wasm </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed </span><span class="px-2 py-0.5 text-xs rounded-md" style="background:var(--zed-surface-soft);color:var(--zed-text-muted);border:1px solid var(--zed-border);"> zed-extension </span> </div>  </aside> <section class="min-w-0 rounded-lg p-5 sm:p-7" style="background:var(--zed-surface);border:1px solid var(--zed-border);"> <article class="prose readme-prose max-w-none"><h1 id="user-content-zed-agent-docs--ai-agent-instruction--skill-file-linter-for-zed-agent-docs-lsp"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#zed-agent-docs--ai-agent-instruction--skill-file-linter-for-zed-agent-docs-lsp"><span class="heading-anchor-icon">#</span></a>zed-agent-docs — AI Agent Instruction &#x26; Skill File Linter for Zed (<code>agent-docs-lsp</code>)</h1>
+<p>A real-time linter, validator, and standalone CLI for AI agent instruction and skill files (<code>AGENTS.md</code>, <code>CLAUDE.md</code>, <code>GEMINI.md</code>, <code>SKILL.md</code>, <code>copilot-instructions.md</code>, <code>.rules</code>, <code>.cursorrules</code>, <code>.windsurfrules</code>, <code>.clinerules</code>, and <code>.cursor/rules/*.mdc</code> / <code>.claude/*.instructions.md</code> / <code>.github/instructions/*.instructions.md</code>) in Zed, built with a zero-VSCode-dependency 3-Tier Rust/WASM (<code>wasm32-wasip2</code>) extension and the native <code>agent-docs-lsp</code> language server.</p>
+<blockquote>
+<p><code>zed-agent-docs</code> only lints recognized AI agent instruction and skill files — regular <code>README.md</code> and project documentation are never spammed. It provides inline diagnostics, token-budget hover cards, go-to-definition for referenced local files, and one-keypress <code>Ctrl+.</code> autofixes and suppressions.</p>
+</blockquote>
+<h2 id="user-content-demo"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#demo"><span class="heading-anchor-icon">#</span></a>Demo</h2>
+<p>Recorded in the real Zed editor (<code>v1.29.3</code>) in headless CI; JSON-RPC protocol traces (<code>protocol.jsonl</code>) verify the behavior shown in each recording.</p>
+<h3 id="user-content-diagnostics"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#diagnostics"><span class="heading-anchor-icon">#</span></a>Diagnostics</h3>
+<p>Frontmatter errors, mismatched skill names, broken relative file references, circular <code>@import</code>s, hardcoded local paths, and empty sections are flagged live as you type and aggregated in the Project Diagnostics panel (<code>Ctrl+Shift+M</code> / <code>F8</code>).</p>
+<p><img src="https://github.com/zed-extentions/zed-agent-docs/releases/download/v0.1.0/lsp-diagnostics.gif" alt="Diagnostics"></p>
+<h3 id="user-content-hover"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#hover"><span class="heading-anchor-icon">#</span></a>Hover</h3>
+<p>Hovering over a flagged item displays the rule title, rule ID, severity, estimated document token count, remediation guidance, and inline suppression instructions.</p>
+<p><img src="https://github.com/zed-extentions/zed-agent-docs/releases/download/v0.1.0/lsp-hover.gif" alt="Hover"></p>
+<h3 id="user-content-quick-fix"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#quick-fix"><span class="heading-anchor-icon">#</span></a>Quick Fix</h3>
+<p><code>Ctrl+.</code> offers machine-applicable autofixes (inserting starter <code>SKILL.md</code> YAML frontmatter or syncing <code>name:</code> to the parent directory) alongside <code>agent-docs-lsp:ignore-next-line</code> and inline <code>agent-docs-lsp:ignore</code> suppressions.</p>
+<p><img src="https://github.com/zed-extentions/zed-agent-docs/releases/download/v0.1.0/lsp-quick-fix.gif" alt="Quick Fix"></p>
+<h2 id="user-content-features"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#features"><span class="heading-anchor-icon">#</span></a>Features</h2>
+<h3 id="user-content-inline-diagnostics-hover-go-to-definition--code-actions"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#inline-diagnostics-hover-go-to-definition--code-actions"><span class="heading-anchor-icon">#</span></a>Inline Diagnostics, Hover, Go-to-Definition &#x26; Code Actions</h3>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" checked disabled> Selective file classification (<code>is_agent_doc</code>): only lints <code>AGENTS.md</code>, <code>CLAUDE.md</code>, <code>GEMINI.md</code>, <code>SKILL.md</code>, <code>copilot-instructions.md</code>, <code>.rules</code>, <code>.cursorrules</code>, <code>.windsurfrules</code>, <code>.clinerules</code>, and <code>*.mdc</code> / <code>*.instructions.md</code> under <code>.cursor/rules/</code>, <code>.claude/</code>, or <code>.github/instructions/</code></li>
+<li class="task-list-item"><input type="checkbox" checked disabled> <strong>11 built-in rules</strong> covering <code>SKILL.md</code> YAML frontmatter, broken relative file links/backtick paths, circular <code>@import</code> chains, estimated token budgets (<code>~chars/4</code>), hardcoded machine-specific home paths, and empty Markdown sections</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> <strong>Rich Markdown Hover cards</strong> (<code>textDocument/hover</code>): rule title, rule ID, severity, estimated document token count, explanation, remediation guidance, and suppression syntax</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> <strong>Go-to-Definition</strong> (<code>textDocument/definition</code>): jump directly to existing local files referenced in Markdown links, backtick file paths, or <code>@import</code> directives</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> <strong>Autofix &#x26; Suppression Quick Fixes</strong> (<code>Ctrl+.</code> / <code>Cmd+.</code>): starter frontmatter insertion (<code>skill-missing-frontmatter</code>), parent-directory name sync (<code>skill-name-mismatch</code>), plus <code>agent-docs-lsp:ignore-next-line</code> and inline <code>agent-docs-lsp:ignore</code> comments (<code>&#x3C;!-- ... --></code> or <code># ...</code>)</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> Live configuration reload (<code>workspace/didChangeConfiguration</code>) for <code>disabledRules</code>, <code>severity</code>, <code>ignorePaths</code>, <code>maxFileSize</code>, <code>maxTokens</code>, and <code>workspaceScan</code></li>
+</ul>
+<h3 id="user-content-workspace-scanning-cli--binary-provisioning"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#workspace-scanning-cli--binary-provisioning"><span class="heading-anchor-icon">#</span></a>Workspace Scanning, CLI &#x26; Binary Provisioning</h3>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" checked disabled> Opt-in background workspace scanning on startup (<code>workspaceScan.enabled</code>) bounded by <code>workspaceScan.maxFiles</code></li>
+<li class="task-list-item"><input type="checkbox" checked disabled> Standalone CLI (<code>agent-docs-lsp check [--json] [--max-files N] [--max-tokens N] [PATH...]</code>) for terminals, <code>.zed/tasks.json</code>, and CI</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> Automatic binary resolution (<code>lsp.agent-docs-lsp.binary.path</code> -> <code>PATH</code> -> cached version dir -> exact-version GitHub Release download with offline cache fallback)</li>
+</ul>
+<h3 id="user-content-zed-extension-api-boundaries"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#zed-extension-api-boundaries"><span class="heading-anchor-icon">#</span></a>Zed Extension API Boundaries</h3>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled> Custom WebViews or sidebar token dashboards <em>(Blocked by Zed Extension API <code>0.7.0</code> — surfaced via Project Diagnostics <code>Ctrl+Shift+M</code>, Hover cards, and Code Action Palette <code>Ctrl+.</code>)</em></li>
+</ul>
+<h2 id="user-content-prerequisites"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#prerequisites"><span class="heading-anchor-icon">#</span></a>Prerequisites</h2>
+<p>For normal editor diagnostics, hover cards, go-to-definition, and <code>Ctrl+.</code> Quick Fixes, no manual installation is needed once releases are published: <code>zed-agent-docs</code> downloads the matching <code>agent-docs-lsp</code> server binary automatically from GitHub Releases (or uses a copy on <code>PATH</code> / <code>lsp.agent-docs-lsp.binary.path</code>).
+To run <code>agent-docs-lsp check</code> from a terminal or <code>.zed/tasks.json</code>, install <code>agent-docs-lsp</code> on <code>PATH</code> (for example <code>cargo install --path crates/agent-docs-lsp</code>).</p>
+<h3 id="user-content-binary-resolution-order"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#binary-resolution-order"><span class="heading-anchor-icon">#</span></a>Binary resolution order</h3>
+<p><code>zed-agent-docs</code> locates <code>agent-docs-lsp</code> in this order:</p>
+<ol>
+<li><strong><code>lsp.agent-docs-lsp.binary.path</code></strong> in <code>.zed/settings.json</code> (explicit override, with optional <code>arguments</code> and <code>env</code>)</li>
+<li><strong><code>agent-docs-lsp</code> on <code>PATH</code></strong> (resolved via <code>worktree.which("agent-docs-lsp")</code>)</li>
+<li><strong>Version-matched cached binary</strong> in the extension work directory (<code>agent-docs-lsp-v&#x3C;VERSION>/</code>)</li>
+<li><strong>Automatic GitHub Release download</strong> for tag <code>v&#x3C;VERSION></code> (<code>zed::github_release_by_tag_name</code> + <code>zed::download_file</code>), falling back to the newest previously cached version when offline (the download is retried on the next start). Linux binaries are statically linked (musl), and each release lists its checksums in <code>SHA256SUMS</code></li>
+<li><strong>Actionable installation error</strong> if none of the above succeed</li>
+</ol>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "agent-docs-lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "binary"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "path"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"/custom/path/to/agent-docs-lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "arguments"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"--stdio"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+<h2 id="user-content-usage"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#usage"><span class="heading-anchor-icon">#</span></a>Usage</h2>
+<h3 id="user-content-1-inline-diagnostics--project-diagnostics-ctrlshiftm--f8"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#1-inline-diagnostics--project-diagnostics-ctrlshiftm--f8"><span class="heading-anchor-icon">#</span></a>1. Inline Diagnostics &#x26; Project Diagnostics (<code>Ctrl+Shift+M</code> / <code>F8</code>)</h3>
+<p>Open, edit, or save any recognized agent instruction or skill file. Issues are underlined inline and aggregated in the Project Diagnostics panel (<code>diagnostics: deploy</code>, <code>Ctrl+Shift+M</code>, next diagnostic <code>F8</code>).</p>
+<h3 id="user-content-2-hover-go-to-definition--code-action-palette-ctrl--cmd"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#2-hover-go-to-definition--code-action-palette-ctrl--cmd"><span class="heading-anchor-icon">#</span></a>2. Hover, Go-to-Definition &#x26; Code Action Palette (<code>Ctrl+.</code> / <code>Cmd+.</code>)</h3>
+<p>Hover over any flagged token (<code>editor: hover</code>) to read the rule details, estimated token count, and remediation guidance. Use Go-to-Definition (<code>F12</code> / <code>editor: go to definition</code>) on any existing local Markdown link, backtick path, or <code>@import</code> to jump straight to that file.</p>
+<p>Place the cursor on a flagged line and press <code>Ctrl+.</code> (<code>editor: toggle code actions</code>) to apply a preferred autofix or insert a suppression comment:</p>
+<ul>
+<li><code>agent-docs-lsp:ignore-next-line</code> (previous line)</li>
+<li><code>agent-docs-lsp:ignore</code> (same line)</li>
+</ul>
+<p>Supported comment formats: <code>&#x3C;!-- ... --></code> (Markdown) and <code># ...</code> (<code>.rules</code> / <code>.cursorrules</code> / <code>.windsurfrules</code> / <code>.clinerules</code>).</p>
+<h3 id="user-content-3-cli--task-palette-altshiftt"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#3-cli--task-palette-altshiftt"><span class="heading-anchor-icon">#</span></a>3. CLI &#x26; Task Palette (<code>Alt+Shift+T</code>)</h3>
+<p>Run a one-shot check across files or directories from your terminal or CI:</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">agent-docs-lsp</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> check</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">agent-docs-lsp</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> check</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --json</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --max-tokens</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> 2500</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> .</span></span></code></pre>
+<p>Exit codes: <code>0</code> = clean, <code>1</code> = findings detected, <code>2</code> = usage error / missing path.</p>
+<p>Optionally bind it in <code>.zed/tasks.json</code> (when <code>agent-docs-lsp</code> is on <code>PATH</code>):</p>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">[</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "label"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"agent-docs: Check workspace"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "command"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"agent-docs-lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "args"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"check"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"$ZED_WORKTREE_ROOT"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  },</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "label"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"agent-docs: Check current file"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "command"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"agent-docs-lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "args"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"check"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">, </span><span style="color:#032F62;--shiki-dark:#9ECBFF">"$ZED_FILE"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">]</span></span></code></pre>
+<h3 id="user-content-4-built-in-rules"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#4-built-in-rules"><span class="heading-anchor-icon">#</span></a>4. Built-in Rules</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Rule ID</th><th>Default Severity</th><th>Quick Fix</th><th>Description</th></tr></thead><tbody><tr><td><code>skill-missing-frontmatter</code></td><td><code>error</code></td><td>Insert starter frontmatter</td><td><code>SKILL.md</code> missing YAML frontmatter (<code>--- ... ---</code>)</td></tr><tr><td><code>skill-invalid-frontmatter</code></td><td><code>error</code></td><td>—</td><td><code>SKILL.md</code> frontmatter is not valid YAML, or <code>name</code> / <code>description</code> is not a text value</td></tr><tr><td><code>skill-missing-name</code></td><td><code>error</code></td><td>—</td><td><code>SKILL.md</code> frontmatter missing non-empty <code>name</code></td></tr><tr><td><code>skill-missing-description</code></td><td><code>error</code></td><td>—</td><td><code>SKILL.md</code> frontmatter missing non-empty <code>description</code></td></tr><tr><td><code>skill-name-mismatch</code></td><td><code>warning</code></td><td>Sync <code>name:</code> to parent dir</td><td><code>SKILL.md</code> <code>name</code> does not match its parent directory name</td></tr><tr><td><code>skill-vague-description</code></td><td><code>warning</code></td><td>—</td><td><code>SKILL.md</code> <code>description</code> is shorter than 20 characters</td></tr><tr><td><code>broken-file-ref</code></td><td><code>warning</code></td><td>—</td><td>Relative Markdown link, backtick file path, or <code>@import</code> target does not exist</td></tr><tr><td><code>circular-import</code></td><td><code>error</code></td><td>—</td><td><code>@relative/path.md</code> import points to itself or forms a cycle</td></tr><tr><td><code>token-budget-exceeded</code></td><td><code>warning</code></td><td>—</td><td>Estimated token count (<code>~chars/4</code>) exceeds <code>maxTokens</code> (default <code>3000</code>)</td></tr><tr><td><code>local-absolute-path</code></td><td><code>warning</code></td><td>—</td><td>Machine-specific home path (<code>C:\Users\...</code>, <code>/Users/...</code>, <code>/home/...</code>) hardcoded in shared docs (fenced code blocks excluded)</td></tr><tr><td><code>empty-section</code></td><td><code>warning</code></td><td>—</td><td>Markdown heading followed immediately by another heading or EOF with no body</td></tr></tbody></table>
+<h3 id="user-content-5-workspace-configuration-zedsettingsjson"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#5-workspace-configuration-zedsettingsjson"><span class="heading-anchor-icon">#</span></a>5. Workspace Configuration (<code>.zed/settings.json</code>)</h3>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">  "lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">    "agent-docs-lsp"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">      "settings"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "disabledRules"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [],</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "maxTokens"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">3000</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "ignorePaths"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: [</span><span style="color:#032F62;--shiki-dark:#9ECBFF">"**/fixtures/**"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">],</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "maxFileSize"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">1048576</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">        "workspaceScan"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: {</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">          "enabled"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">false</span><span style="color:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#005CC5;--shiki-dark:#79B8FF">          "maxFiles"</span><span style="color:#24292E;--shiki-dark:#E1E4E8">: </span><span style="color:#005CC5;--shiki-dark:#79B8FF">5000</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">        }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Key</th><th>Type</th><th>Default</th><th>Description</th></tr></thead><tbody><tr><td><code>disabledRules</code></td><td><code>string[]</code></td><td><code>[]</code></td><td>Rule IDs to suppress globally (e.g. <code>["empty-section", "token-budget-exceeded"]</code>)</td></tr><tr><td><code>severity</code></td><td><code>"error"</code> | <code>"warning"</code> | <code>"information"</code> | <code>"hint"</code></td><td><em>(per-rule default)</em></td><td>Optional global severity override for all rules</td></tr><tr><td><code>maxTokens</code></td><td><code>number</code></td><td><code>3000</code></td><td>Estimated token threshold for <code>token-budget-exceeded</code> (<code>0</code> disables)</td></tr><tr><td><code>ignorePaths</code></td><td><code>string[]</code></td><td><code>[]</code></td><td>Extra glob patterns (relative to workspace root, or filename if no <code>/</code>) to skip</td></tr><tr><td><code>maxFileSize</code></td><td><code>number</code></td><td><code>1048576</code></td><td>Maximum file size in bytes (1 MiB default)</td></tr><tr><td><code>workspaceScan.enabled</code></td><td><code>bool</code></td><td><code>false</code></td><td>Scans non-ignored agent instruction files on startup and publishes diagnostics</td></tr><tr><td><code>workspaceScan.maxFiles</code></td><td><code>number</code></td><td><code>5000</code></td><td>Maximum files and directories visited during a workspace scan (symlinked directories are not followed)</td></tr></tbody></table>
+<h2 id="user-content-constraints"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#constraints"><span class="heading-anchor-icon">#</span></a>Constraints</h2>
+<ul>
+<li><strong>Static Analysis Only</strong>: <code>agent-docs-lsp</code> validates instruction and skill files statically without invoking external LLMs or shell commands.</li>
+<li><strong>No Custom WebView / Global Commands</strong>: <code>zed_extension_api = "0.7.0"</code> does not expose custom WebViews or arbitrary command registration; findings and quick fixes use standard LSP diagnostics, hover cards, go-to-definition, and <code>Ctrl+.</code> Code Actions.</li>
+<li><strong>WASI Sandbox (Tier 1/2)</strong>: Extension host logic runs under <code>wasm32-wasip2</code> with <code>#![forbid(unsafe_code)]</code> and a single external parsing dependency (<code>saphyr-parser</code>, for YAML frontmatter) in <code>crates/agent-docs-core</code>.</li>
+</ul>
+<h2 id="user-content-installation-dev-extension"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#installation-dev-extension"><span class="heading-anchor-icon">#</span></a>Installation (Dev Extension)</h2>
+<ol>
+<li>Build the local server binary (or place <code>agent-docs-lsp</code> on <code>PATH</code> / configure <code>lsp.agent-docs-lsp.binary.path</code> before the first release tag is published):
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> build</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --manifest-path</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> crates/agent-docs-lsp/Cargo.toml</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --release</span></span></code></pre>
+</li>
+<li>Open Zed Command Palette (<code>Ctrl+Shift+P</code> / <code>Cmd+Shift+P</code>) → <strong><code>zed: install dev extension</code></strong> → select this directory (<code>zed-agent-docs</code>).</li>
+</ol>
+<h2 id="user-content-development"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#development"><span class="heading-anchor-icon">#</span></a>Development</h2>
+<pre class="shiki shiki-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8" tabindex="0"><code><span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> fmt</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --all</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --check</span><span style="color:#6A737D;--shiki-dark:#6A737D">                              # formatting check</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> clippy</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --workspace</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --all-targets</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> -D</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> warnings</span><span style="color:#6A737D;--shiki-dark:#6A737D">   # lint check</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> test</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --workspace</span><span style="color:#6A737D;--shiki-dark:#6A737D">                                  # unit &#x26; E2E tests</span></span>
+<span class="line"><span style="color:#6F42C1;--shiki-dark:#B392F0">cargo</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> build</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --target</span><span style="color:#032F62;--shiki-dark:#9ECBFF"> wasm32-wasip2</span><span style="color:#005CC5;--shiki-dark:#79B8FF"> --release</span><span style="color:#6A737D;--shiki-dark:#6A737D">            # extension WASM build</span></span></code></pre>
+<ul>
+<li><a href="https://github.com/zed-extentions/zed-agent-docs/blob/HEAD/src/lib.rs" target="_blank" rel="noopener"><code>src/lib.rs</code></a> — Tier 1 WASM boundary (<code>zed_extension_api::Extension</code> trait wiring).</li>
+<li><a href="https://github.com/zed-extentions/zed-agent-docs/blob/HEAD/crates/agent-docs-core/" target="_blank" rel="noopener"><code>crates/agent-docs-core/</code></a> — Tier 2 I/O-free linting engine and unit tests.</li>
+<li><a href="https://github.com/zed-extentions/zed-agent-docs/blob/HEAD/crates/agent-docs-lsp/" target="_blank" rel="noopener"><code>crates/agent-docs-lsp/</code></a> — Tier 3 native stdio LSP server, <code>check</code> CLI, and JSON-RPC E2E tests.</li>
+</ul>
+<p>Architecture: <a href="https://github.com/zed-extentions/zed-agent-docs/blob/HEAD/ARCHITECTURE.md" target="_blank" rel="noopener">ARCHITECTURE.md</a> · Plan: <a href="https://github.com/zed-extentions/zed-agent-docs/blob/HEAD/PLAN.md" target="_blank" rel="noopener">PLAN.md</a> · Requirements: <a href="https://github.com/zed-extentions/zed-agent-docs/blob/HEAD/REQUIREMENTS.md" target="_blank" rel="noopener">REQUIREMENTS.md</a></p>
+<h2 id="user-content-license"><a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#license"><span class="heading-anchor-icon">#</span></a>License</h2>
+<p>MIT.</p></article> </section> </div> </main> <footer class="mt-auto zed-blue-band"> <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-sm" style="color:var(--zed-on-accent-muted);"> <a href="/gh-packages-zed" class="hover:underline transition" style="color:white;">
+← Back to extension list
+</a> </div> </footer>  <script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+            var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('zed-theme', next); } catch (e) {}
+        });
+    })();
+</script> </body> </html>
