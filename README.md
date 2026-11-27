@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1970** |
 | In official registry | 1379 |
 | Discovered via topics | 591 |
-| Last updated | 2026-11-26 18:43 UTC |
+| Last updated | 2026-11-27 00:52 UTC |
 
 ### By capability
 
@@ -120,6 +120,8 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-11-26 | Zed editor support for Carve, a modern light markup language |
+| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 3 | 2026-11-26 | Local-first code intelligence over MCP: BM25/FTS5 + AST grap... |
 | [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 1 | 2026-11-26 | Zed extension that formats and lints HTML templates with djL... |
 | [WangWindow/zed-extension-axaml](https://github.com/WangWindow/zed-extension-axaml) | 0 | 2026-11-26 | Zed support for Avalonia axaml files. |
 | [cutie-full-of-charm/zed-ats2](https://github.com/cutie-full-of-charm/zed-ats2) | 0 | 2026-11-26 | Syntax highlighting for ATS2 (Applied Type System 2) in the ... |
@@ -131,20 +133,19 @@ cd website && npm install && npm run dev
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 140 | 2026-11-26 | The Ruby language support for Zed editor |
 | [chiploom/zed-wit](https://github.com/chiploom/zed-wit) | 0 | 2026-11-26 | Modern WIT language support for Zed, with Tree-sitter syntax... |
 | [matinfo-tech/zed-markdown-pdf-export](https://github.com/matinfo-tech/zed-markdown-pdf-export) | 0 | 2026-11-25 | Zed extension for markdown-pdf-export: Markdown to PDF with ... |
-| [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-11-25 | Zed editor support for Carve, a modern light markup language |
 | [vitallium/zed-ltex](https://github.com/vitallium/zed-ltex) | 19 | 2026-11-25 | LTeX+ Language Server support for Zed |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 17 | 2026-11-25 | Spring Boot language intelligence for Zed, powered by the of... |
 | [adrijshikhar/zed-htmx](https://github.com/adrijshikhar/zed-htmx) | 0 | 2026-11-25 | HTMX 2.0 language server extension for the Zed editor, power... |
 | [rillmind/zed-vinho](https://github.com/rillmind/zed-vinho) | 0 | 2026-11-25 | Vinho: a dark wine theme for Zed, with a light mode |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 224 | 2026-11-25 | Zed plugin for automatic time tracking and metrics generated... |
 | [ManuLinares/c3-zed](https://github.com/ManuLinares/c3-zed) | 6 | 2026-11-25 | Language support for Zed editor |
-| [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 3 | 2026-11-24 | Local-first code intelligence over MCP: BM25/FTS5 + AST grap... |
 | [jonaprieto/zed-wkey](https://github.com/jonaprieto/zed-wkey) | 0 | 2026-11-24 | Which-key for Zed's vim mode, in a terminal beside the edito... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-11-27T00:52 | 0 | 785 | 2523 |
 | 2026-11-26T18:43 | 1 | 784 | 2523 |
 | 2026-11-26T12:44 | 1 | 784 | 2522 |
 | 2026-11-26T06:47 | 0 | 784 | 2521 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-11-25T06:48 | 2 | 779 | 2518 |
 | 2026-11-25T00:53 | 0 | 781 | 2516 |
 | 2026-11-24T18:44 | 3 | 778 | 2516 |
-| 2026-11-24T12:43 | 1 | 779 | 2513 |
 
 ---
 
