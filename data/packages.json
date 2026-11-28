@@ -159,7 +159,7 @@
     "license": "MIT",
     "created_at": "2024-02-22T02:32:46Z",
     "updated_at": "2026-11-21T10:34:39Z",
-    "pushed_at": "2026-11-27T10:10:20Z",
+    "pushed_at": "2026-11-28T09:29:33Z",
     "discovered_at": "2026-05-19T19:19:12.409Z",
     "official": true
   },
@@ -15279,7 +15279,7 @@
     "license": "Apache-2.0",
     "created_at": "2026-01-30T23:54:10Z",
     "updated_at": "2026-11-27T14:32:43Z",
-    "pushed_at": "2026-11-27T19:44:32Z",
+    "pushed_at": "2026-11-28T09:20:22Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -17843,7 +17843,7 @@
     "license": "MIT",
     "created_at": "2026-05-19T20:35:24Z",
     "updated_at": "2026-11-18T20:41:47Z",
-    "pushed_at": "2026-11-28T00:52:12Z",
+    "pushed_at": "2026-11-28T06:45:59Z",
     "discovered_at": "2026-05-19T21:39:08.391Z",
     "official": false
   },
@@ -39675,7 +39675,7 @@
     "license": null,
     "created_at": "2026-09-04T07:49:15Z",
     "updated_at": "2026-11-25T09:48:28Z",
-    "pushed_at": "2026-11-28T03:34:50Z",
+    "pushed_at": "2026-11-28T12:20:03Z",
     "discovered_at": "2026-09-30T12:59:15.249Z",
     "official": false
   },
@@ -41829,7 +41829,7 @@
     "license": "MIT",
     "created_at": "2026-10-26T19:53:49Z",
     "updated_at": "2026-11-12T04:21:38Z",
-    "pushed_at": "2026-11-12T03:21:35Z",
+    "pushed_at": "2026-11-28T10:36:56Z",
     "discovered_at": "2026-10-27T12:59:22.406Z",
     "official": false
   },
@@ -44285,7 +44285,7 @@
     "license": "MIT",
     "created_at": "2026-11-21T17:07:46Z",
     "updated_at": "2026-11-22T01:40:57Z",
-    "pushed_at": "2026-11-27T23:44:07Z",
+    "pushed_at": "2026-11-28T12:06:03Z",
     "discovered_at": "2026-11-22T06:44:34.131Z",
     "official": false
   },
@@ -44777,7 +44777,7 @@
     "license": "NOASSERTION",
     "created_at": "2026-11-24T09:54:29Z",
     "updated_at": "2026-11-26T11:42:31Z",
-    "pushed_at": "2026-11-28T04:35:09Z",
+    "pushed_at": "2026-11-28T09:11:41Z",
     "discovered_at": "2026-11-24T12:43:54.031Z",
     "official": false
   },
@@ -45014,7 +45014,7 @@
     "license": "MIT",
     "created_at": "2026-10-13T21:48:32Z",
     "updated_at": "2026-11-25T19:21:03Z",
-    "pushed_at": "2026-11-27T23:17:41Z",
+    "pushed_at": "2026-11-28T12:11:01Z",
     "discovered_at": "2026-11-26T00:52:38.453Z",
     "official": false
   },
@@ -45159,8 +45159,32 @@
     "license": "MIT",
     "created_at": "2026-11-28T06:33:55Z",
     "updated_at": "2026-11-28T06:34:32Z",
-    "pushed_at": "2026-11-28T06:42:13Z",
+    "pushed_at": "2026-11-28T10:03:21Z",
     "discovered_at": "2026-11-28T06:45:27.460Z",
+    "official": false
+  },
+  "aozora-kenzu/zedcopy": {
+    "name": "aozora-kenzu/zedcopy",
+    "url": "https://github.com/aozora-kenzu/zedcopy",
+    "description": "Fast, lightweight portable Windows GUI for multi-threaded Robocopy (/MT:1-128) and safe recursive file/folder deletion, styled after Zed.dev (Tauri v2 + Rust).",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "fast-delete",
+      "file-copy",
+      "portable",
+      "robocopy",
+      "rust",
+      "tauri",
+      "windows",
+      "zed-theme"
+    ],
+    "language": "Rust",
+    "license": "MIT",
+    "created_at": "2026-11-28T10:39:57Z",
+    "updated_at": "2026-11-28T10:54:10Z",
+    "pushed_at": "2026-11-28T10:54:08Z",
+    "discovered_at": "2026-11-28T12:43:49.998Z",
     "official": false
   }
 }

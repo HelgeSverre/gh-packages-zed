@@ -17,7 +17,7 @@ A searchable, browsable directory of every Zed editor extension and theme on Git
 | Total tracked | **1973** |
 | In official registry | 1379 |
 | Discovered via topics | 594 |
-| Last updated | 2026-11-28 06:45 UTC |
+| Last updated | 2026-11-28 12:43 UTC |
 
 ### By capability
 
@@ -120,15 +120,16 @@ cd website && npm install && npm run dev
 
 | Package | Stars | Last push | Description |
 |---|---|---|---|
+| [matinfo-tech/zed-markdown-pdf-export](https://github.com/matinfo-tech/zed-markdown-pdf-export) | 0 | 2026-11-28 | Zed extension for markdown-pdf-export: Markdown to PDF with ... |
+| [SniperRavan/zed-mizu](https://github.com/SniperRavan/zed-mizu) | 0 | 2026-11-28 | A fork of mizu icon by m39u but for zed. Which modified usin... |
+| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 105 | 2026-11-28 | True Dark Theme for Zed IDE |
 | [zed-extensions/ruby](https://github.com/zed-extensions/ruby) | 140 | 2026-11-28 | The Ruby language support for Zed editor |
-| [matinfo-tech/zed-markdown-pdf-export](https://github.com/matinfo-tech/zed-markdown-pdf-export) | 0 | 2026-11-27 | Zed extension for markdown-pdf-export: Markdown to PDF with ... |
 | [markup-carve/zed-carve](https://github.com/markup-carve/zed-carve) | 1 | 2026-11-27 | Zed editor support for Carve, a modern light markup language |
 | [0xdea/zed-highlight](https://github.com/0xdea/zed-highlight) | 5 | 2026-11-27 | A Zed extension that allows to highlight all occurrences of ... |
 | [wakatime/zed-wakatime](https://github.com/wakatime/zed-wakatime) | 225 | 2026-11-27 | Zed plugin for automatic time tracking and metrics generated... |
 | [abhinaaaavvv/truly-zen-theme](https://github.com/abhinaaaavvv/truly-zen-theme) | 0 | 2026-11-27 | A zed editor theme for total concentration. |
 | [luceat-lux-vestra/zed-spring-tools](https://github.com/luceat-lux-vestra/zed-spring-tools) | 17 | 2026-11-27 | Spring Boot language intelligence for Zed, powered by the of... |
 | [djlint/djlint-zed](https://github.com/djlint/djlint-zed) | 1 | 2026-11-27 | Zed extension that formats and lints HTML templates with djL... |
-| [Imgkl/the-dark-side](https://github.com/Imgkl/the-dark-side) | 105 | 2026-11-27 | True Dark Theme for Zed IDE |
 | [lmn451/css-variables-zed](https://github.com/lmn451/css-variables-zed) | 9 | 2026-11-27 | Project-wide CSS custom property intelligence for Zed: compl... |
 | [zed-extentions/zed-agent-docs](https://github.com/zed-extentions/zed-agent-docs) | 0 | 2026-11-27 | LSP linter and validator for AI agent instruction and skill ... |
 | [ManSio/mscodebase-intelligence](https://github.com/ManSio/mscodebase-intelligence) | 3 | 2026-11-26 | Local-first code intelligence over MCP: BM25/FTS5 + AST grap... |
@@ -139,12 +140,12 @@ cd website && npm install && npm run dev
 | [wiroai/Wiro-Zed](https://github.com/wiroai/Wiro-Zed) | 0 | 2026-11-26 | Wiro AI MCP server for the Zed editor: search, price and run... |
 | [chiploom/zed-wit](https://github.com/chiploom/zed-wit) | 0 | 2026-11-26 | Modern WIT language support for Zed, with Tree-sitter syntax... |
 | [vitallium/zed-ltex](https://github.com/vitallium/zed-ltex) | 19 | 2026-11-25 | LTeX+ Language Server support for Zed |
-| [adrijshikhar/zed-htmx](https://github.com/adrijshikhar/zed-htmx) | 0 | 2026-11-25 | HTMX 2.0 language server extension for the Zed editor, power... |
 
 ## Run history
 
 | Run | New | Updated | Total |
 |---|---|---|---|
+| 2026-11-28T12:43 | 1 | 787 | 2529 |
 | 2026-11-28T06:45 | 1 | 786 | 2528 |
 | 2026-11-28T00:51 | 1 | 785 | 2527 |
 | 2026-11-27T18:44 | 1 | 784 | 2526 |
@@ -154,7 +155,6 @@ cd website && npm install && npm run dev
 | 2026-11-26T18:43 | 1 | 784 | 2523 |
 | 2026-11-26T12:44 | 1 | 784 | 2522 |
 | 2026-11-26T06:47 | 0 | 784 | 2521 |
-| 2026-11-26T00:52 | 1 | 783 | 2521 |
 
 ---
 
